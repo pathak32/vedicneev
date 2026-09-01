@@ -78,15 +78,26 @@ export async function POST(req: Request) {
           ? res.questionId
           : fallbackQuestionId;
 
-        const testResponse = await prisma.testResponse.create({
-          data: {
-            testSessionId: session.id,
-            questionId: validQuestionId,
-            selectedOption: String(res.selectedOption ?? "a"),
-            isCorrect: Boolean(res.isCorrect),
-            timeSpentSeconds: Number(res.timeSpentSeconds ?? 0),
+        const testResponse = await prisma.testResponse.upsert({
+        where: {
+          testSessionId_questionId: {
+            testSessionId,
+            questionId: item.questionId,
           },
-        });
+        },
+        update: {
+          selectedOption: item.selectedOption,
+          isCorrect: item.isCorrect,
+          timeSpentSeconds: item.timeSpentSeconds,
+        },
+        create: {
+          testSessionId,
+          questionId: item.questionId,
+          selectedOption: item.selectedOption,
+          isCorrect: item.isCorrect,
+          timeSpentSeconds: item.timeSpentSeconds,
+        },
+      });
 
         if (!res.isCorrect) {
           await prisma.mistakeVault.create({
