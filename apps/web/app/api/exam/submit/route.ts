@@ -91,7 +91,7 @@ export async function POST(req: Request) {
           timeSpentSeconds: res.timeSpentSeconds,
         },
         create: {
-          testSessionId,
+            testSessionId: session.id,
           questionId: res.questionId,
           selectedOption: res.selectedOption,
           isCorrect: res.isCorrect,
