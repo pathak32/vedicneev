@@ -81,6 +81,12 @@ enum SubscriptionStatus {
   CANCELLED
 }
 
+enum MediaType {
+  SHORT_VIDEO
+  AUDIO_POD
+  CONCEPT_CLINIC
+}
+
 // ─────────────────────────────────────────────────────────────────────────
 // Identity
 // ─────────────────────────────────────────────────────────────────────────
@@ -221,7 +227,8 @@ model Topic {
   name  Json
   order Int  @default(0)
 
-  questions Question[]
+  questions  Question[]
+  mediaItems MediaItem[]
 
   @@unique([sectionId, key])
   @@map("topics")
@@ -236,7 +243,8 @@ model VedicSpeedHack {
   title       Json
   description Json
 
-  questions Question[]
+  questions  Question[]
+  mediaItems MediaItem[]
 
   @@map("vedic_speed_hacks")
 }
@@ -352,4 +360,41 @@ model MistakeVault {
   @@index([userId, tagCategory])
   @@index([userId, questionId])
   @@map("mistake_vault")
+}
+
+// ─────────────────────────────────────────────────────────────────────────
+// Media catalog
+// ─────────────────────────────────────────────────────────────────────────
+
+// A short/pod/clinic in the media learning library. videoUrl/audioUrl are
+// nullable — an item can exist in the catalog (title, description, linked
+// topic/hack) before its asset file has actually been uploaded.
+model MediaItem {
+  id     String    @id @default(cuid())
+  // Bilingual title/description, e.g. { "en": "...", "hi": "..." }
+  title       Json
+  description Json
+  mediaType   MediaType @map("media_type")
+
+  durationSeconds Int     @map("duration_seconds")
+  videoUrl        String? @map("video_url")
+  audioUrl        String? @map("audio_url")
+  thumbnailUrl    String? @map("thumbnail_url")
+  // Bilingual transcript for the audio-pod player's transcript toggle.
+  transcript      Json?
+
+  topicId String? @map("topic_id")
+  topic   Topic?  @relation(fields: [topicId], references: [id], onDelete: SetNull)
+
+  vedicSpeedHackId String?         @map("vedic_speed_hack_id")
+  vedicSpeedHack   VedicSpeedHack? @relation(fields: [vedicSpeedHackId], references: [id], onDelete: SetNull)
+
+  targetExams ExamType[] @map("target_exams")
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@index([topicId])
+  @@index([mediaType])
+  @@map("media_items")
 }

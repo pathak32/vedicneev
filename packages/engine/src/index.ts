@@ -6,3 +6,4 @@ export * from "./omr";
 export * from "./omrEvaluator";
 export * from "./omrScan";
 export * from "./entitlements";
+export * from "./media";

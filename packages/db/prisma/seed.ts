@@ -1,4 +1,4 @@
-import { Difficulty, Prisma, PrismaClient } from "@prisma/client";
+import { Difficulty, ExamType, Prisma, PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
 
@@ -93,9 +93,16 @@ async function main() {
     },
   });
 
-  // Registered so ExamTemplate/Section coverage for Language is queryable
-  // even though this seed doesn't attach questions to it yet.
-  void language;
+  const grammar = await prisma.topic.upsert({
+    where: { sectionId_key: { sectionId: language.id, key: "grammar" } },
+    update: {},
+    create: {
+      sectionId: language.id,
+      key: "grammar",
+      name: { en: "Grammar", hi: "व्याकरण" },
+      order: 1,
+    },
+  });
 
   // ── Vedic speed-hack catalog (mirrors @vedicneev/engine/speedShortcuts) ─
   const hackByEleven = await prisma.vedicSpeedHack.upsert({
@@ -417,7 +424,100 @@ async function main() {
     await prisma.question.create({ data: q });
   }
 
-  console.log("Seed complete: 4 sections, 4 topics, 5 speed hacks, 1 exam template, 10 questions.");
+  // ── Media catalog ───────────────────────────────────────────────────
+  // videoUrl/audioUrl/thumbnailUrl are left null: these catalog rows exist
+  // (title, description, linked topic/hack) ahead of the actual asset
+  // uploads, same as a real CMS workflow.
+  const mediaItems = [
+    {
+      mediaType: "SHORT_VIDEO" as const,
+      title: { en: "Nikhilam Multiplication in 40 Seconds", hi: "40 सेकंड में निखिलम् गुणा" },
+      description: {
+        en: "Multiply numbers near a base like 98×97 without long multiplication.",
+        hi: "98×97 जैसी आधार के निकट संख्याओं को बिना लंबी गुणा प्रक्रिया के गुणा करें।",
+      },
+      durationSeconds: 45,
+      topicId: speedCalculation.id,
+      vedicSpeedHackId: hackNikhilamBase.id,
+      targetExams: ["JNVST", "AISSEE"] as ExamType[],
+    },
+    {
+      mediaType: "SHORT_VIDEO" as const,
+      title: { en: "Spin the Shape: Cracking Rotation Patterns", hi: "आकृति घुमाएं: घूर्णन पैटर्न को समझें" },
+      description: {
+        en: "Spot the rotation angle in non-verbal reasoning figure sequences.",
+        hi: "अशाब्दिक तर्क आकृति अनुक्रमों में घूर्णन कोण पहचानें।",
+      },
+      durationSeconds: 38,
+      topicId: patternCompletion.id,
+      vedicSpeedHackId: null,
+      targetExams: ["JNVST", "AISSEE", "RMS"] as ExamType[],
+    },
+    {
+      mediaType: "AUDIO_POD" as const,
+      title: { en: "The ×11 Rule, Explained", hi: "×11 का नियम, समझाया गया" },
+      description: {
+        en: "A 2-minute bilingual walkthrough of the sandwich rule for multiplying by 11.",
+        hi: "11 से गुणा करने के सैंडविच नियम का 2 मिनट का द्विभाषी विवरण।",
+      },
+      durationSeconds: 150,
+      topicId: speedCalculation.id,
+      vedicSpeedHackId: hackByEleven.id,
+      targetExams: ["JNVST", "AISSEE"] as ExamType[],
+      transcript: {
+        en: "To multiply a two-digit number by 11, add its two digits and place the sum between them...",
+        hi: "किसी दो अंकों की संख्या को 11 से गुणा करने के लिए, उसके दोनों अंकों को जोड़ें और योग को उनके बीच रखें...",
+      },
+    },
+    {
+      mediaType: "AUDIO_POD" as const,
+      title: { en: "Grammar Formula: Simple Present Tense", hi: "व्याकरण सूत्र: सामान्य वर्तमान काल" },
+      description: {
+        en: "When to add -s or -es, and the exceptions that trip students up.",
+        hi: "-s या -es कब जोड़ें, और वे अपवाद जो छात्रों को उलझाते हैं।",
+      },
+      durationSeconds: 200,
+      topicId: grammar.id,
+      vedicSpeedHackId: null,
+      targetExams: ["JNVST", "AISSEE", "DPS"] as ExamType[],
+      transcript: {
+        en: "Third-person singular subjects — he, she, it, or a single name — take the -s form of the verb...",
+        hi: "तृतीय पुरुष एकवचन कर्ता — he, she, it, या कोई एक नाम — क्रिया के -s रूप का प्रयोग करते हैं...",
+      },
+    },
+    {
+      mediaType: "CONCEPT_CLINIC" as const,
+      title: { en: "Arithmetic Word Problems: Breaking Them Down", hi: "अंकगणितीय शब्द समस्याएं: चरण-दर-चरण समाधान" },
+      description: {
+        en: "A step-by-step remediation clinic for turning word problems into equations.",
+        hi: "शब्द समस्याओं को समीकरणों में बदलने के लिए चरण-दर-चरण उपचारात्मक क्लिनिक।",
+      },
+      durationSeconds: 480,
+      topicId: speedCalculation.id,
+      vedicSpeedHackId: null,
+      targetExams: ["JNVST", "AISSEE"] as ExamType[],
+    },
+    {
+      mediaType: "CONCEPT_CLINIC" as const,
+      title: { en: "Mastering Number & Letter Series", hi: "संख्या एवं अक्षर श्रृंखला में महारत" },
+      description: {
+        en: "A deep dive into spotting the rule behind any series question.",
+        hi: "किसी भी श्रृंखला प्रश्न के पीछे के नियम को पहचानने की गहन जानकारी।",
+      },
+      durationSeconds: 360,
+      topicId: numberSeries.id,
+      vedicSpeedHackId: null,
+      targetExams: ["JNVST", "AISSEE", "RMS"] as ExamType[],
+    },
+  ];
+
+  for (const item of mediaItems) {
+    await prisma.mediaItem.create({ data: item });
+  }
+
+  console.log(
+    "Seed complete: 4 sections, 5 topics, 5 speed hacks, 1 exam template, 10 questions, 6 media items."
+  );
 }
 
 main()

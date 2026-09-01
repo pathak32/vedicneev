@@ -2,9 +2,11 @@ import { describe, expect, it } from "vitest";
 
 import {
   checkExamAccess,
+  checkMediaAccess,
   checkMistakeVaultAccess,
   checkOmrScannerAccess,
   checkSpeedHackClinicAccess,
+  FREE_MEDIA_SHORT_PREVIEW_LIMIT,
   FREE_MOCK_TEST_LIMIT,
   type ParentSubscription,
 } from "./entitlements";
@@ -124,5 +126,38 @@ describe("checkMistakeVaultAccess / checkSpeedHackClinicAccess", () => {
     expect(checkSpeedHackClinicAccess(null, NOW).allowed).toBe(false);
     expect(checkSpeedHackClinicAccess(activeExamPassJnvst, NOW).allowed).toBe(false);
     expect(checkSpeedHackClinicAccess(activeAllAccess, NOW).allowed).toBe(true);
+  });
+});
+
+describe("checkMediaAccess", () => {
+  it("allows a free preview short when none has been previewed yet", () => {
+    const result = checkMediaAccess(null, "SHORT_VIDEO", 0, NOW);
+    expect(result.allowed).toBe(true);
+    expect(result.reason).toBe("FREE_TIER_AVAILABLE");
+  });
+
+  it(`denies further shorts once the free preview limit (${FREE_MEDIA_SHORT_PREVIEW_LIMIT}) is used`, () => {
+    const result = checkMediaAccess(null, "SHORT_VIDEO", FREE_MEDIA_SHORT_PREVIEW_LIMIT, NOW);
+    expect(result.allowed).toBe(false);
+    expect(result.suggestedPlans).toEqual(["VEDIC_ALL_ACCESS"]);
+  });
+
+  it("denies audio pods on the free tier even with zero shorts previewed", () => {
+    expect(checkMediaAccess(null, "AUDIO_POD", 0, NOW).allowed).toBe(false);
+  });
+
+  it("denies concept clinics on the free tier even with zero shorts previewed", () => {
+    expect(checkMediaAccess(null, "CONCEPT_CLINIC", 0, NOW).allowed).toBe(false);
+  });
+
+  it("denies audio pods and concept clinics for an Exam Pass holder — only All-Access unlocks media", () => {
+    expect(checkMediaAccess(activeExamPassJnvst, "AUDIO_POD", 0, NOW).allowed).toBe(false);
+    expect(checkMediaAccess(activeExamPassJnvst, "CONCEPT_CLINIC", 0, NOW).allowed).toBe(false);
+  });
+
+  it("allows every media type, unmetered, on Vedic All-Access", () => {
+    expect(checkMediaAccess(activeAllAccess, "SHORT_VIDEO", 99, NOW).allowed).toBe(true);
+    expect(checkMediaAccess(activeAllAccess, "AUDIO_POD", 0, NOW).allowed).toBe(true);
+    expect(checkMediaAccess(activeAllAccess, "CONCEPT_CLINIC", 0, NOW).allowed).toBe(true);
   });
 });

@@ -44,11 +44,14 @@ interface SubscriptionStoreState {
   subscriptionsByParentId: Record<string, StoredSubscription>;
   /** Free-tier mock-test usage, keyed by student id. */
   freeMockTestsUsedByStudentId: Record<string, number>;
+  /** Free-preview short-video usage, keyed by student id. */
+  freeShortsPreviewedByStudentId: Record<string, number>;
   hasHydrated: boolean;
 
   activateSubscription: (input: ActivateSubscriptionInput) => StoredSubscription;
   cancelSubscription: (parentId: string) => void;
   incrementFreeMockUsage: (studentId: string) => void;
+  incrementFreeShortsPreview: (studentId: string) => void;
 }
 
 export const useSubscriptionStore = create<SubscriptionStoreState>()(
@@ -56,6 +59,7 @@ export const useSubscriptionStore = create<SubscriptionStoreState>()(
     (set, get) => ({
       subscriptionsByParentId: {},
       freeMockTestsUsedByStudentId: {},
+      freeShortsPreviewedByStudentId: {},
       hasHydrated: false,
 
       activateSubscription: (input) => {
@@ -96,6 +100,15 @@ export const useSubscriptionStore = create<SubscriptionStoreState>()(
           },
         }));
       },
+
+      incrementFreeShortsPreview: (studentId) => {
+        set((state) => ({
+          freeShortsPreviewedByStudentId: {
+            ...state.freeShortsPreviewedByStudentId,
+            [studentId]: (state.freeShortsPreviewedByStudentId[studentId] ?? 0) + 1,
+          },
+        }));
+      },
     }),
     {
       name: "vedicneev-subscription",
@@ -107,6 +120,7 @@ export const useSubscriptionStore = create<SubscriptionStoreState>()(
       partialize: (state) => ({
         subscriptionsByParentId: state.subscriptionsByParentId,
         freeMockTestsUsedByStudentId: state.freeMockTestsUsedByStudentId,
+        freeShortsPreviewedByStudentId: state.freeShortsPreviewedByStudentId,
       }),
     }
   )
@@ -134,4 +148,9 @@ export function selectParentSubscription(
 export function selectFreeMockTestsUsed(state: SubscriptionStoreState, studentId: string | null): number {
   if (!studentId) return 0;
   return state.freeMockTestsUsedByStudentId[studentId] ?? 0;
+}
+
+export function selectFreeShortsPreviewed(state: SubscriptionStoreState, studentId: string | null): number {
+  if (!studentId) return 0;
+  return state.freeShortsPreviewedByStudentId[studentId] ?? 0;
 }

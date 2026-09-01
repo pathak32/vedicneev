@@ -11,13 +11,19 @@ import {
   SheetTitle,
   cn,
 } from "@vedicneev/ui";
-import { formatDuration, type PaidPlanId } from "@vedicneev/engine";
-import { AlertTriangle, BookOpen, Clock, Lightbulb, Sparkles } from "lucide-react";
+import { findMediaForSpeedHack, findMediaForTopic, formatDuration, type AccessResult, type MediaItem, type PaidPlanId } from "@vedicneev/engine";
+import { AlertTriangle, BookOpen, Clock, Film, Lightbulb, PlayCircle, Sparkles } from "lucide-react";
 
+import { ConceptClinicPlayer } from "@/components/media/ConceptClinicPlayer";
+import { SpeedShortsPlayer } from "@/components/media/SpeedShortsPlayer";
 import { VedicSpeedTipModal } from "@/components/exam/VedicSpeedTipModal";
 import { PaywallModal } from "@/components/pricing/PaywallModal";
 import type { MistakeReport } from "@/lib/exam/diagnostics";
 import type { ExamSessionData, LanguageCode } from "@/lib/exam/types";
+import { mediaCatalog } from "@/lib/media/mock-data";
+
+/** Reaching this drawer already required Vedic All-Access (see the outer gate below), so every media item it links to is unlocked by construction. */
+const ALWAYS_ALLOWED: AccessResult = { allowed: true, reason: "ALL_ACCESS", requiresUpgrade: false, suggestedPlans: [] };
 
 export interface MistakeVaultDrawerProps {
   examId: string;
@@ -52,16 +58,26 @@ function MistakeItem({
   session,
   language,
   examId,
+  onWatchSpeedHackVideo,
+  onWatchConceptClinic,
 }: {
   mistake: MistakeReport;
   session: ExamSessionData;
   language: LanguageCode;
   examId: string;
+  onWatchSpeedHackVideo: (item: MediaItem) => void;
+  onWatchConceptClinic: (item: MediaItem) => void;
 }) {
   const meta = TAG_META[mistake.mistakeTag];
   const speedHack = mistake.question.vedicSpeedHackId
     ? session.speedHacksById[mistake.question.vedicSpeedHackId]
     : undefined;
+  const speedHackVideo = mistake.question.vedicSpeedHackId
+    ? findMediaForSpeedHack(mediaCatalog, mistake.question.vedicSpeedHackId).find((m) => m.mediaType === "SHORT_VIDEO")
+    : undefined;
+  const conceptClinic = findMediaForTopic(mediaCatalog, mistake.question.topicKey).find(
+    (m) => m.mediaType === "CONCEPT_CLINIC"
+  );
   const selectedOptionText = mistake.question.options.find((o) => o.id === mistake.selectedOption)?.text?.[
     language
   ];
@@ -100,6 +116,18 @@ function MistakeItem({
 
       <div className="flex flex-wrap gap-2 pt-1">
         {speedHack ? <VedicSpeedTipModal hack={speedHack} language={language} /> : null}
+        {speedHackVideo ? (
+          <Button type="button" variant="outline" size="sm" onClick={() => onWatchSpeedHackVideo(speedHackVideo)}>
+            <PlayCircle className="h-3.5 w-3.5" />
+            Learn Speed Hack
+          </Button>
+        ) : null}
+        {conceptClinic ? (
+          <Button type="button" variant="outline" size="sm" onClick={() => onWatchConceptClinic(conceptClinic)}>
+            <Film className="h-3.5 w-3.5" />
+            Watch Concept Clinic
+          </Button>
+        ) : null}
         <Button asChild type="button" variant="outline" size="sm">
           <Link href={`/exam/${examId}?mode=practice`}>
             <Sparkles className="h-3.5 w-3.5" />
@@ -122,6 +150,8 @@ export function MistakeVaultDrawer({
   const [filter, setFilter] = useState<TagFilter>("ALL");
   const [sheetOpen, setSheetOpen] = useState(false);
   const [paywallOpen, setPaywallOpen] = useState(false);
+  const [speedHackVideoItem, setSpeedHackVideoItem] = useState<MediaItem | null>(null);
+  const [conceptClinicItem, setConceptClinicItem] = useState<MediaItem | null>(null);
   const filtered = filter === "ALL" ? mistakes : mistakes.filter((m) => m.mistakeTag === filter);
 
   return (
@@ -186,12 +216,37 @@ export function MistakeVaultDrawer({
                 session={session}
                 language={language}
                 examId={examId}
+                onWatchSpeedHackVideo={setSpeedHackVideoItem}
+                onWatchConceptClinic={setConceptClinicItem}
               />
             ))
           )}
         </div>
       </SheetContent>
       </Sheet>
+
+      {speedHackVideoItem ? (
+        <SpeedShortsPlayer
+          items={[speedHackVideoItem]}
+          initialIndex={0}
+          language={language}
+          onClose={() => setSpeedHackVideoItem(null)}
+          getAccess={() => ALWAYS_ALLOWED}
+          onConsumePreview={() => {}}
+          onUnlockRequested={() => {}}
+        />
+      ) : null}
+
+      {conceptClinicItem ? (
+        <ConceptClinicPlayer
+          item={conceptClinicItem}
+          language={language}
+          open={!!conceptClinicItem}
+          onOpenChange={(open) => !open && setConceptClinicItem(null)}
+          access={ALWAYS_ALLOWED}
+          onUnlockRequested={() => {}}
+        />
+      ) : null}
     </>
   );
 }

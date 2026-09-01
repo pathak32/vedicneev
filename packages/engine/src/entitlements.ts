@@ -5,6 +5,8 @@
  * client store, or a future server action) without duplication.
  */
 
+import type { MediaType } from "./media";
+
 export type SubscriptionPlanId = "FREE_EXPLORER" | "EXAM_PASS" | "VEDIC_ALL_ACCESS";
 export type PaidPlanId = Exclude<SubscriptionPlanId, "FREE_EXPLORER">;
 export type SubscriptionStatus = "ACTIVE" | "EXPIRED" | "CANCELLED";
@@ -30,6 +32,8 @@ export interface PlanConfig {
 }
 
 export const FREE_MOCK_TEST_LIMIT = 1;
+/** SHORT_VIDEO items get this many free previews regardless of plan; AUDIO_POD and CONCEPT_CLINIC don't. */
+export const FREE_MEDIA_SHORT_PREVIEW_LIMIT = 1;
 
 export const PLAN_CONFIG: Record<SubscriptionPlanId, PlanConfig> = {
   FREE_EXPLORER: {
@@ -160,5 +164,28 @@ export function checkSpeedHackClinicAccess(
   if (isSubscriptionActive(subscription, now) && subscription.plan === "VEDIC_ALL_ACCESS") {
     return allow("ALL_ACCESS");
   }
+  return deny("REQUIRES_ALL_ACCESS", ["VEDIC_ALL_ACCESS"]);
+}
+
+/**
+ * Media library access. Vedic All-Access unlocks everything. Otherwise,
+ * SHORT_VIDEO gets a small free-preview allowance (same idea as the free
+ * mock test); AUDIO_POD and CONCEPT_CLINIC always require All-Access —
+ * shorts are the free taste, not a fully free tier of their own.
+ */
+export function checkMediaAccess(
+  subscription: ParentSubscription | null,
+  mediaType: MediaType,
+  freeShortsPreviewed: number,
+  now: number = Date.now()
+): AccessResult {
+  if (isSubscriptionActive(subscription, now) && subscription.plan === "VEDIC_ALL_ACCESS") {
+    return allow("ALL_ACCESS");
+  }
+
+  if (mediaType === "SHORT_VIDEO" && freeShortsPreviewed < FREE_MEDIA_SHORT_PREVIEW_LIMIT) {
+    return allow("FREE_TIER_AVAILABLE");
+  }
+
   return deny("REQUIRES_ALL_ACCESS", ["VEDIC_ALL_ACCESS"]);
 }

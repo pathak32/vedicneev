@@ -23,6 +23,9 @@ export function SiteHeader() {
           <Sparkles className="h-5 w-5 text-primary" />
           Vedic Neev
         </Link>
+        <Link href="/learn" className="text-sm text-muted-foreground hover:text-foreground">
+          Learn
+        </Link>
         <Link href="/pricing" className="text-sm text-muted-foreground hover:text-foreground">
           Pricing
         </Link>
