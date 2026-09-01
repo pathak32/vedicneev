@@ -1,0 +1,129 @@
+// Vedic Neev — Prisma schema
+// Backed by Supabase PostgreSQL. DATABASE_URL is the pooled (pgbouncer) connection
+// used at runtime; DIRECT_URL is the direct connection used for migrations.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+enum ExamType {
+  JNVST
+  AISSEE
+  RMS
+  DPS_ADMISSION
+  OTHER
+}
+
+enum QuestionCategory {
+  VERBAL_REASONING
+  NON_VERBAL_REASONING
+  MATHEMATICS
+  LANGUAGE
+  GENERAL_AWARENESS
+}
+
+enum Difficulty {
+  EASY
+  MEDIUM
+  HARD
+}
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  name      String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  attempts TestAttempt[]
+
+  @@map("users")
+}
+
+model Exam {
+  id        String   @id @default(cuid())
+  slug      String   @unique
+  type      ExamType
+  // Bilingual display metadata, e.g. { "en": "JNV Selection Test", "hi": "जेएनवी चयन परीक्षा" }
+  title     Json
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  questions Question[]
+  attempts  TestAttempt[]
+
+  @@map("exams")
+}
+
+model Question {
+  id         String           @id @default(cuid())
+  examId     String
+  exam       Exam             @relation(fields: [examId], references: [id], onDelete: Cascade)
+  category   QuestionCategory
+  difficulty Difficulty       @default(MEDIUM)
+
+  // Bilingual question stem, e.g. { "en": "What comes next?", "hi": "आगे क्या आएगा?" }
+  prompt Json
+
+  // Bilingual answer options, e.g. { "en": ["A", "B", "C", "D"], "hi": ["ए", "बी", "सी", "डी"] }
+  options Json
+
+  // Index into `options` (per-language arrays are assumed positionally aligned)
+  correctOptionIndex Int
+
+  // Vector/SVG figure metadata for non-verbal reasoning items, e.g.
+  // { "type": "svg", "markup": "<svg ...>", "transform": "rotate-90" }
+  figureMetadata Json?
+
+  // Base time allotment in seconds, used by the engine's timer math
+  timeLimitSeconds Int @default(60)
+
+  explanation Json?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  responses QuestionResponse[]
+
+  @@index([examId, category])
+  @@map("questions")
+}
+
+model TestAttempt {
+  id          String    @id @default(cuid())
+  userId      String
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  examId      String
+  exam        Exam      @relation(fields: [examId], references: [id], onDelete: Cascade)
+  startedAt   DateTime  @default(now())
+  submittedAt DateTime?
+  // Raw + scaled score, populated by @vedicneev/engine's score calculators
+  rawScore    Float?
+  scaledScore Float?
+
+  responses QuestionResponse[]
+
+  @@index([userId, examId])
+  @@map("test_attempts")
+}
+
+model QuestionResponse {
+  id                String      @id @default(cuid())
+  attemptId         String
+  attempt           TestAttempt @relation(fields: [attemptId], references: [id], onDelete: Cascade)
+  questionId        String
+  question          Question    @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  selectedOptionIndex Int?
+  isCorrect         Boolean?
+  timeTakenSeconds  Float?
+  createdAt         DateTime    @default(now())
+
+  @@unique([attemptId, questionId])
+  @@map("question_responses")
+}
