@@ -420,8 +420,17 @@ async function main() {
     },
   ];
 
-  for (const q of [...mentalAbilityQuestions, ...arithmeticQuestions]) {
-    await prisma.question.create({ data: q });
+  // Question/MediaItem have no natural unique key to upsert on (unlike the
+  // sections/topics/hacks/templates above), so re-running this script would
+  // otherwise duplicate every row instead of crashing. Guard on existing
+  // count instead: skip the bulk inserts once they've been seeded.
+  const existingQuestionCount = await prisma.question.count();
+  if (existingQuestionCount === 0) {
+    for (const q of [...mentalAbilityQuestions, ...arithmeticQuestions]) {
+      await prisma.question.create({ data: q });
+    }
+  } else {
+    console.log(`Skipping question seed — ${existingQuestionCount} question(s) already exist.`);
   }
 
   // ── Media catalog ───────────────────────────────────────────────────
@@ -511,12 +520,20 @@ async function main() {
     },
   ];
 
-  for (const item of mediaItems) {
-    await prisma.mediaItem.create({ data: item });
+  const existingMediaItemCount = await prisma.mediaItem.count();
+  if (existingMediaItemCount === 0) {
+    for (const item of mediaItems) {
+      await prisma.mediaItem.create({ data: item });
+    }
+  } else {
+    console.log(`Skipping media item seed — ${existingMediaItemCount} item(s) already exist.`);
   }
 
   console.log(
-    "Seed complete: 4 sections, 5 topics, 5 speed hacks, 1 exam template, 10 questions, 6 media items."
+    "Seed complete: 4 sections, 5 topics, 5 speed hacks, 1 exam template" +
+      (existingQuestionCount === 0 ? ", 10 questions" : "") +
+      (existingMediaItemCount === 0 ? ", 6 media items" : "") +
+      "."
   );
 }
 
