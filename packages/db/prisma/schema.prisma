@@ -1,6 +1,10 @@
 // Vedic Neev — Prisma schema
 // Backed by Supabase PostgreSQL. DATABASE_URL is the pooled (pgbouncer) connection
 // used at runtime; DIRECT_URL is the direct connection used for migrations.
+//
+// Convention: Prisma fields are camelCase (idiomatic in the generated TS client);
+// every field maps to a snake_case Postgres column via @map for a conventional
+// Postgres schema underneath.
 
 generator client {
   provider = "prisma-client-js"
@@ -12,20 +16,26 @@ datasource db {
   directUrl = env("DIRECT_URL")
 }
 
+// ─────────────────────────────────────────────────────────────────────────
+// Enums
+// ─────────────────────────────────────────────────────────────────────────
+
+enum UserRole {
+  STUDENT
+  PARENT
+}
+
+enum Language {
+  EN
+  HI
+}
+
 enum ExamType {
   JNVST
   AISSEE
   RMS
-  DPS_ADMISSION
+  DPS
   OTHER
-}
-
-enum QuestionCategory {
-  VERBAL_REASONING
-  NON_VERBAL_REASONING
-  MATHEMATICS
-  LANGUAGE
-  GENERAL_AWARENESS
 }
 
 enum Difficulty {
@@ -34,96 +44,256 @@ enum Difficulty {
   HARD
 }
 
+enum TestSessionStatus {
+  IN_PROGRESS
+  SUBMITTED
+  ABANDONED
+}
+
+enum MistakeTagCategory {
+  CARELESS_RUSHED
+  CALCULATION_GAP
+  CONCEPT_GAP
+}
+
+// ─────────────────────────────────────────────────────────────────────────
+// Identity
+// ─────────────────────────────────────────────────────────────────────────
+
 model User {
-  id        String   @id @default(cuid())
-  email     String   @unique
-  name      String?
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  id                String    @id @default(cuid())
+  // Phone-first auth (OTP); email is optional/secondary.
+  phone             String    @unique
+  phoneVerifiedAt   DateTime? @map("phone_verified_at")
+  email             String?   @unique
+  name              String?
+  role              UserRole  @default(STUDENT)
+  languagePreference Language @default(EN) @map("language_preference")
+  targetExam        ExamType? @map("target_exam")
 
-  attempts TestAttempt[]
+  // A STUDENT account may be linked to a PARENT account that manages it.
+  parentId String? @map("parent_id")
+  parent   User?   @relation("ParentChildren", fields: [parentId], references: [id], onDelete: SetNull)
+  children User[]  @relation("ParentChildren")
 
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  testSessions TestSession[]
+  mistakes     MistakeVault[]
+
+  @@index([parentId])
   @@map("users")
 }
 
-model Exam {
-  id        String   @id @default(cuid())
-  slug      String   @unique
-  type      ExamType
-  // Bilingual display metadata, e.g. { "en": "JNV Selection Test", "hi": "जेएनवी चयन परीक्षा" }
-  title     Json
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+// ─────────────────────────────────────────────────────────────────────────
+// Exam structure: templates (rules) + sections/topics (subject taxonomy)
+// ─────────────────────────────────────────────────────────────────────────
 
-  questions Question[]
-  attempts  TestAttempt[]
+model ExamTemplate {
+  id       String   @id @default(cuid())
+  examType ExamType @map("exam_type")
+  // Bilingual display name, e.g. { "en": "JNVST Class 6", "hi": "जेएनवीएसटी कक्षा 6" }
+  name Json
+  slug String @unique
 
-  @@map("exams")
+  totalQuestions Int @map("total_questions")
+  totalMarks     Int @map("total_marks")
+  durationMinutes Int @map("duration_minutes")
+
+  // Default negative-marking ratio applied per wrong answer (e.g. 0.25 marks
+  // deducted for 1-mark questions). A section can override this via
+  // ExamTemplateSection.negativeMarkingRatio. 0 means no negative marking.
+  negativeMarkingRatio Float @default(0) @map("negative_marking_ratio")
+
+  isActive Boolean @default(true) @map("is_active")
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  sections     ExamTemplateSection[]
+  testSessions TestSession[]
+
+  @@map("exam_templates")
 }
 
+// Join model: which sections make up a template, in what order, with what
+// per-section question count, marking, and sectional time limit.
+model ExamTemplateSection {
+  id             String       @id @default(cuid())
+  examTemplateId String       @map("exam_template_id")
+  examTemplate   ExamTemplate @relation(fields: [examTemplateId], references: [id], onDelete: Cascade)
+  sectionId      String       @map("section_id")
+  section        Section      @relation(fields: [sectionId], references: [id], onDelete: Restrict)
+
+  order            Int   @default(0)
+  questionCount    Int   @map("question_count")
+  marksPerQuestion Float @default(1) @map("marks_per_question")
+
+  // Overrides ExamTemplate.negativeMarkingRatio for this section when set.
+  negativeMarkingRatio Float? @map("negative_marking_ratio")
+
+  // Sectional time limit in seconds; null means the section shares the
+  // exam's overall composite timer instead of its own sectional clock.
+  timeLimitSeconds Int? @map("time_limit_seconds")
+
+  @@unique([examTemplateId, sectionId])
+  @@map("exam_template_sections")
+}
+
+// Top-level subject area, e.g. Mental Ability, Arithmetic, Language, General Knowledge.
+model Section {
+  id   String @id @default(cuid())
+  key  String @unique
+  // Bilingual name, e.g. { "en": "Mental Ability", "hi": "मानसिक योग्यता" }
+  name  Json
+  order Int  @default(0)
+
+  topics               Topic[]
+  examTemplateSections ExamTemplateSection[]
+
+  @@map("sections")
+}
+
+// Sub-topic within a section, e.g. "Pattern Completion" under Mental Ability.
+model Topic {
+  id        String  @id @default(cuid())
+  sectionId String  @map("section_id")
+  section   Section @relation(fields: [sectionId], references: [id], onDelete: Cascade)
+  key       String
+  // Bilingual name, e.g. { "en": "Pattern Completion", "hi": "पैटर्न पूर्णता" }
+  name  Json
+  order Int  @default(0)
+
+  questions Question[]
+
+  @@unique([sectionId, key])
+  @@map("topics")
+}
+
+// Catalog of Vedic speed-math shortcuts (mirrors @vedicneev/engine's
+// speedShortcuts module), linkable from questions that teach/use them.
+model VedicSpeedHack {
+  id  String @id @default(cuid())
+  key String @unique
+  // Bilingual title/description, e.g. { "en": "Multiply by 11", "hi": "11 से गुणा करें" }
+  title       Json
+  description Json
+
+  questions Question[]
+
+  @@map("vedic_speed_hacks")
+}
+
+// ─────────────────────────────────────────────────────────────────────────
+// Questions
+// ─────────────────────────────────────────────────────────────────────────
+
 model Question {
-  id         String           @id @default(cuid())
-  examId     String
-  exam       Exam             @relation(fields: [examId], references: [id], onDelete: Cascade)
-  category   QuestionCategory
-  difficulty Difficulty       @default(MEDIUM)
+  id         String     @id @default(cuid())
+  topicId    String     @map("topic_id")
+  topic      Topic      @relation(fields: [topicId], references: [id], onDelete: Cascade)
+  difficulty Difficulty @default(MEDIUM)
 
   // Bilingual question stem, e.g. { "en": "What comes next?", "hi": "आगे क्या आएगा?" }
-  prompt Json
+  content Json
 
-  // Bilingual answer options, e.g. { "en": ["A", "B", "C", "D"], "hi": ["ए", "बी", "सी", "डी"] }
+  // Array of options, each shaped like:
+  // { "id": "a", "text": { "en": "...", "hi": "..." }, "imageUrl"?: "https://cdn.../fig.svg" }
+  // Non-verbal reasoning items may omit `text` and rely on `imageUrl`/inline SVG instead.
   options Json
 
-  // Index into `options` (per-language arrays are assumed positionally aligned)
-  correctOptionIndex Int
+  // Identifier of the correct entry in `options` (matches that option's "id").
+  correctOption String @map("correct_option")
 
-  // Vector/SVG figure metadata for non-verbal reasoning items, e.g.
-  // { "type": "svg", "markup": "<svg ...>", "transform": "rotate-90" }
-  figureMetadata Json?
+  vedicSpeedHackId String?         @map("vedic_speed_hack_id")
+  vedicSpeedHack   VedicSpeedHack? @relation(fields: [vedicSpeedHackId], references: [id], onDelete: SetNull)
 
-  // Base time allotment in seconds, used by the engine's timer math
-  timeLimitSeconds Int @default(60)
+  // Bilingual explanation text, e.g. { "en": "...", "hi": "..." }
+  explanation          Json?
+  explanationVideoUrl  String? @map("explanation_video_url")
 
-  explanation Json?
+  // Base time allotment in seconds, used by the engine's timer math.
+  timeLimitSeconds Int @default(60) @map("time_limit_seconds")
 
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
 
-  responses QuestionResponse[]
+  testResponses TestResponse[]
+  mistakes      MistakeVault[]
 
-  @@index([examId, category])
+  @@index([topicId, difficulty])
+  @@index([vedicSpeedHackId])
   @@map("questions")
 }
 
-model TestAttempt {
-  id          String    @id @default(cuid())
-  userId      String
-  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
-  examId      String
-  exam        Exam      @relation(fields: [examId], references: [id], onDelete: Cascade)
-  startedAt   DateTime  @default(now())
-  submittedAt DateTime?
-  // Raw + scaled score, populated by @vedicneev/engine's score calculators
-  rawScore    Float?
-  scaledScore Float?
+// ─────────────────────────────────────────────────────────────────────────
+// Test-taking + remediation
+// ─────────────────────────────────────────────────────────────────────────
 
-  responses QuestionResponse[]
+model TestSession {
+  id             String             @id @default(cuid())
+  userId         String             @map("user_id")
+  user           User               @relation(fields: [userId], references: [id], onDelete: Cascade)
+  examTemplateId String             @map("exam_template_id")
+  examTemplate   ExamTemplate       @relation(fields: [examTemplateId], references: [id], onDelete: Restrict)
+  status         TestSessionStatus  @default(IN_PROGRESS)
 
-  @@index([userId, examId])
-  @@map("test_attempts")
+  startedAt        DateTime  @default(now()) @map("started_at")
+  submittedAt      DateTime? @map("submitted_at")
+  timeTakenSeconds Float?    @map("time_taken_seconds")
+
+  totalScore Float? @map("total_score")
+  maxScore   Float? @map("max_score")
+  percentile Float?
+
+  responses TestResponse[]
+
+  @@index([userId, examTemplateId])
+  @@map("test_sessions")
 }
 
-model QuestionResponse {
-  id                String      @id @default(cuid())
-  attemptId         String
-  attempt           TestAttempt @relation(fields: [attemptId], references: [id], onDelete: Cascade)
-  questionId        String
-  question          Question    @relation(fields: [questionId], references: [id], onDelete: Cascade)
-  selectedOptionIndex Int?
-  isCorrect         Boolean?
-  timeTakenSeconds  Float?
-  createdAt         DateTime    @default(now())
+model TestResponse {
+  id            String      @id @default(cuid())
+  testSessionId String      @map("test_session_id")
+  testSession   TestSession @relation(fields: [testSessionId], references: [id], onDelete: Cascade)
+  questionId    String      @map("question_id")
+  question      Question    @relation(fields: [questionId], references: [id], onDelete: Cascade)
 
-  @@unique([attemptId, questionId])
-  @@map("question_responses")
+  selectedOption   String?  @map("selected_option")
+  isCorrect        Boolean? @map("is_correct")
+  timeSpentSeconds Float?   @map("time_spent_seconds")
+  flaggedForReview Boolean  @default(false) @map("flagged_for_review")
+
+  createdAt DateTime @default(now()) @map("created_at")
+
+  mistake MistakeVault?
+
+  @@unique([testSessionId, questionId])
+  @@map("test_responses")
+}
+
+// Per-mistake remediation log, tagged by root cause so a student/parent can
+// see targeted "what to fix" trends instead of just a raw wrong-answer list.
+model MistakeVault {
+  id         String @id @default(cuid())
+  userId     String @map("user_id")
+  user       User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  questionId String @map("question_id")
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  testResponseId String?       @unique @map("test_response_id")
+  testResponse   TestResponse? @relation(fields: [testResponseId], references: [id], onDelete: SetNull)
+
+  tagCategory MistakeTagCategory @map("tag_category")
+  note        String?
+
+  resolved   Boolean   @default(false)
+  resolvedAt DateTime? @map("resolved_at")
+
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@index([userId, tagCategory])
+  @@index([userId, questionId])
+  @@map("mistake_vault")
 }

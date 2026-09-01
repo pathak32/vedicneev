@@ -9,16 +9,21 @@
     "migrate:dev": "prisma migrate dev",
     "migrate:deploy": "prisma migrate deploy",
     "studio": "prisma studio",
+    "seed": "tsx prisma/seed.ts",
     "build": "tsc --noEmit",
     "type-check": "tsc --noEmit",
     "lint": "echo \"no lint configured for @vedicneev/db\"",
     "clean": "rimraf dist .turbo"
+  },
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
   },
   "dependencies": {
     "@prisma/client": "^5.20.0"
   },
   "devDependencies": {
     "prisma": "^5.20.0",
+    "tsx": "^4.19.1",
     "typescript": "^5.6.3",
     "rimraf": "^6.0.1"
   }
