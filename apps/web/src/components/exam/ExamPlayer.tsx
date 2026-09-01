@@ -1,8 +1,12 @@
 "use client";
 
-import { useEffect, useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
+import { Button } from "@vedicneev/ui";
 
+import { PhoneAuthModal } from "@/components/auth/PhoneAuthModal";
+import { useActiveStudent } from "@/lib/auth/ActiveStudentContext";
+import { selectActiveAccount, useAuthStore } from "@/lib/auth/useAuthStore";
 import { ActionDock } from "./ActionDock";
 import { ExamHeader } from "./ExamHeader";
 import { QuestionCanvas } from "./QuestionCanvas";
@@ -21,6 +25,9 @@ export interface ExamPlayerProps {
 
 export function ExamPlayer({ session, practiceMode = true }: ExamPlayerProps) {
   const router = useRouter();
+  const { hasHydrated, isAuthenticated, activeStudent, needsOnboarding } = useActiveStudent();
+  const [authOpen, setAuthOpen] = useState(false);
+
   const storeSession = useTestStore((s) => s.session);
   const initSession = useTestStore((s) => s.initSession);
   const submitted = useTestStore((s) => s.submitted);
@@ -31,10 +38,17 @@ export function ExamPlayer({ session, practiceMode = true }: ExamPlayerProps) {
   const selectedOptions = useTestStore((s) => s.selectedOptions);
   const selectOption = useTestStore((s) => s.selectOption);
 
-  // Initialize the session once (or whenever a different exam is loaded).
+  // Test attempts are strictly linked to an active student — don't start the
+  // session (or its timer) until one is selected.
   useEffect(() => {
+    if (!activeStudent) return;
     initSession(session);
-  }, [session, initSession]);
+  }, [session, initSession, activeStudent]);
+
+  // A signed-in parent with no student profiles yet needs to onboard one first.
+  useEffect(() => {
+    if (hasHydrated && needsOnboarding) router.push("/onboarding");
+  }, [hasHydrated, needsOnboarding, router]);
 
   // Live countdown — ticks once per second; tick() itself is a no-op once submitted.
   useEffect(() => {
@@ -90,6 +104,34 @@ export function ExamPlayer({ session, practiceMode = true }: ExamPlayerProps) {
     }
     return count + currentQuestionIndex + 1;
   }, [storeSession, currentSectionIndex, currentQuestionIndex]);
+
+  if (!hasHydrated) return null;
+
+  if (!isAuthenticated) {
+    return (
+      <div className="mx-auto flex max-w-md flex-col items-center gap-4 p-16 text-center">
+        <p className="text-lg font-semibold text-foreground">Sign in to start this test</p>
+        <p className="text-sm text-muted-foreground">
+          Test attempts and diagnostic reports are tied to a student profile.
+        </p>
+        <Button type="button" onClick={() => setAuthOpen(true)}>
+          Sign In
+        </Button>
+        <PhoneAuthModal
+          open={authOpen}
+          onOpenChange={setAuthOpen}
+          onAuthenticated={() => {
+            const account = selectActiveAccount(useAuthStore.getState());
+            if (!account || account.students.length === 0) router.push("/onboarding");
+          }}
+        />
+      </div>
+    );
+  }
+
+  if (needsOnboarding || !activeStudent) {
+    return <div className="p-8 text-center text-muted-foreground">Setting up your student profile…</div>;
+  }
 
   if (!storeSession || submitted) {
     return <div className="p-8 text-center text-muted-foreground">Loading your diagnostic report…</div>;

@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 
 import "./globals.css";
+import { SiteHeader } from "@/components/auth/SiteHeader";
+import { ActiveStudentProvider } from "@/lib/auth/ActiveStudentContext";
 
 export const metadata: Metadata = {
   title: "Vedic Neev",
@@ -14,7 +16,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <ActiveStudentProvider>
+          <SiteHeader />
+          {children}
+        </ActiveStudentProvider>
+      </body>
     </html>
   );
 }

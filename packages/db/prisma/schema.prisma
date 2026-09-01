@@ -56,6 +56,19 @@ enum MistakeTagCategory {
   CONCEPT_GAP
 }
 
+enum Locality {
+  RURAL
+  URBAN
+}
+
+enum QuotaCategory {
+  GEN
+  OBC
+  SC
+  ST
+  DEFENSE
+}
+
 // ─────────────────────────────────────────────────────────────────────────
 // Identity
 // ─────────────────────────────────────────────────────────────────────────
@@ -70,6 +83,10 @@ model User {
   role              UserRole  @default(STUDENT)
   languagePreference Language @default(EN) @map("language_preference")
   targetExam        ExamType? @map("target_exam")
+  // Target grade for a STUDENT profile, e.g. 5, 6, 8, 9 — null for PARENT accounts.
+  targetClass    Int?            @map("target_class")
+  locality       Locality?
+  quotaCategory  QuotaCategory?  @map("quota_category")
 
   // A STUDENT account may be linked to a PARENT account that manages it.
   parentId String? @map("parent_id")

@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { Button } from "@vedicneev/ui";
@@ -11,6 +11,8 @@ import { MistakeVaultDrawer } from "@/components/analytics/MistakeVaultDrawer";
 import { ScoreHero, type CandidateProfile } from "@/components/analytics/ScoreHero";
 import { SectionBreakdown } from "@/components/analytics/SectionBreakdown";
 import { SpeedAccuracyMatrix } from "@/components/analytics/SpeedAccuracyMatrix";
+import { useActiveStudent } from "@/lib/auth/ActiveStudentContext";
+import { useAuthStore } from "@/lib/auth/useAuthStore";
 import { SAMPLE_HISTORICAL_CUTOFFS, SAMPLE_STATES } from "@/lib/exam/cutoff-data";
 import { buildDiagnosticReport } from "@/lib/exam/diagnostics";
 import { getDemoSession } from "@/lib/exam/mock-data";
@@ -23,7 +25,11 @@ export default function ExamResultsPage({ params }: { params: { examId: string }
   const language = useTestStore((s) => s.language);
   const selectedOptions = useTestStore((s) => s.selectedOptions);
   const timeSpentSeconds = useTestStore((s) => s.timeSpentSeconds);
+  const submittedAt = useTestStore((s) => s.submittedAt);
   const initSession = useTestStore((s) => s.initSession);
+  const { activeStudent } = useActiveStudent();
+  const recordTestResult = useAuthStore((s) => s.recordTestResult);
+  const recordedForRef = useRef<string | null>(null);
 
   const [examType, setExamType] = useState<CutoffExamType>("JNVST");
   const [profile, setProfile] = useState<CandidateProfile>({
@@ -46,6 +52,24 @@ export default function ExamResultsPage({ params }: { params: { examId: string }
       report.maxMarks
     );
   }, [report, examType, profile]);
+
+  // Record this attempt against the active student once (guarded so re-renders / a
+  // student switch mid-view don't double-count it).
+  useEffect(() => {
+    if (!report || !activeStudent || !session || !submittedAt) return;
+    const recordKey = `${session.examId}-${submittedAt}`;
+    if (recordedForRef.current === recordKey) return;
+    recordedForRef.current = recordKey;
+    recordTestResult({
+      studentId: activeStudent.id,
+      examId: session.examId,
+      examName: session.templateName.en,
+      totalMarks: report.totalMarks,
+      maxMarks: report.maxMarks,
+      accuracyPercent: report.accuracyPercent,
+      submittedAt,
+    });
+  }, [report, activeStudent, session, submittedAt, recordTestResult]);
 
   // No finished session in the store for this exam (e.g. a direct link or a page refresh —
   // the demo keeps state in memory only). Point the user back to take the test.
@@ -71,7 +95,9 @@ export default function ExamResultsPage({ params }: { params: { examId: string }
       <div className="flex flex-wrap items-center justify-between gap-3">
         <div>
           <h1 className="text-xl font-bold text-foreground">{session.templateName[language]}</h1>
-          <p className="text-sm text-muted-foreground">Diagnostic Report</p>
+          <p className="text-sm text-muted-foreground">
+            Diagnostic Report{activeStudent ? ` for ${activeStudent.fullName}` : ""}
+          </p>
         </div>
         <div className="flex gap-2">
           <MistakeVaultDrawer
