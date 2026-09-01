@@ -1,9 +1,7 @@
 "use client";
 
 import { useEffect, useMemo } from "react";
-import { Button, Card, CardContent, CardHeader, CardTitle } from "@vedicneev/ui";
-import { calculateRawScore, formatDuration, type MarkingScheme, type ScoredResponse } from "@vedicneev/engine";
-import { CheckCircle2, RotateCcw, XCircle } from "lucide-react";
+import { useRouter } from "next/navigation";
 
 import { ActionDock } from "./ActionDock";
 import { ExamHeader } from "./ExamHeader";
@@ -22,6 +20,7 @@ export interface ExamPlayerProps {
 }
 
 export function ExamPlayer({ session, practiceMode = true }: ExamPlayerProps) {
+  const router = useRouter();
   const storeSession = useTestStore((s) => s.session);
   const initSession = useTestStore((s) => s.initSession);
   const submitted = useTestStore((s) => s.submitted);
@@ -31,7 +30,6 @@ export function ExamPlayer({ session, practiceMode = true }: ExamPlayerProps) {
   const currentSectionIndex = useTestStore((s) => s.currentSectionIndex);
   const selectedOptions = useTestStore((s) => s.selectedOptions);
   const selectOption = useTestStore((s) => s.selectOption);
-  const overallRemainingSeconds = useTestStore((s) => s.overallRemainingSeconds);
 
   // Initialize the session once (or whenever a different exam is loaded).
   useEffect(() => {
@@ -79,6 +77,11 @@ export function ExamPlayer({ session, practiceMode = true }: ExamPlayerProps) {
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, []);
 
+  // On submission, hand off to the rich diagnostic dashboard.
+  useEffect(() => {
+    if (submitted) router.push(`/exam/${session.examId}/results`);
+  }, [submitted, router, session.examId]);
+
   const globalQuestionNumber = useMemo(() => {
     if (!storeSession) return 0;
     let count = 0;
@@ -88,18 +91,8 @@ export function ExamPlayer({ session, practiceMode = true }: ExamPlayerProps) {
     return count + currentQuestionIndex + 1;
   }, [storeSession, currentSectionIndex, currentQuestionIndex]);
 
-  if (!storeSession) {
-    return <div className="p-8 text-center text-muted-foreground">Loading exam…</div>;
-  }
-
-  if (submitted) {
-    return (
-      <ResultsSummary
-        session={storeSession}
-        selectedOptions={selectedOptions}
-        totalTakenSeconds={storeSession.totalDurationSeconds - overallRemainingSeconds}
-      />
-    );
+  if (!storeSession || submitted) {
+    return <div className="p-8 text-center text-muted-foreground">Loading your diagnostic report…</div>;
   }
 
   const speedHack =
@@ -130,73 +123,6 @@ export function ExamPlayer({ session, practiceMode = true }: ExamPlayerProps) {
         </main>
         <QuestionPalette />
       </div>
-    </div>
-  );
-}
-
-interface ResultsSummaryProps {
-  session: ExamSessionData;
-  selectedOptions: Record<string, string | undefined>;
-  totalTakenSeconds: number;
-}
-
-function ResultsSummary({ session, selectedOptions, totalTakenSeconds }: ResultsSummaryProps) {
-  const allQuestionIds = Object.keys(session.questionsById);
-
-  const responses: ScoredResponse[] = allQuestionIds.map((id) => {
-    const selected = selectedOptions[id];
-    if (selected === undefined) return { outcome: "unattempted" };
-    const question = session.questionsById[id]!;
-    return { outcome: selected === question.correctOption ? "correct" : "incorrect" };
-  });
-
-  const scheme: MarkingScheme = {
-    correctMarks: 1,
-    negativeMarks: session.negativeMarkingRatio,
-    unattemptedMarks: 0,
-  };
-  const result = calculateRawScore(responses, scheme);
-
-  return (
-    <div className="mx-auto flex max-w-xl flex-col gap-6 p-8">
-      <Card>
-        <CardHeader>
-          <CardTitle>Exam Submitted</CardTitle>
-        </CardHeader>
-        <CardContent className="flex flex-col gap-4">
-          <div className="text-center">
-            <p className="text-4xl font-bold text-primary">
-              {result.rawScore} / {result.totalQuestions}
-            </p>
-            <p className="text-sm text-muted-foreground">Score</p>
-          </div>
-          <div className="grid grid-cols-3 gap-3 text-center text-sm">
-            <div className="flex flex-col items-center gap-1 rounded-lg bg-emerald-500/10 p-3 text-emerald-600">
-              <CheckCircle2 className="h-5 w-5" />
-              {result.correctCount} Correct
-            </div>
-            <div className="flex flex-col items-center gap-1 rounded-lg bg-red-500/10 p-3 text-red-600">
-              <XCircle className="h-5 w-5" />
-              {result.incorrectCount} Incorrect
-            </div>
-            <div className="flex flex-col items-center gap-1 rounded-lg bg-muted p-3 text-muted-foreground">
-              {result.unattemptedCount} Skipped
-            </div>
-          </div>
-          <p className="text-center text-sm text-muted-foreground">
-            Time taken: {formatDuration(Math.max(0, totalTakenSeconds))}
-          </p>
-          <Button
-            type="button"
-            variant="outline"
-            className="mx-auto"
-            onClick={() => useTestStore.getState().initSession(session)}
-          >
-            <RotateCcw className="h-4 w-4" />
-            Retake Demo
-          </Button>
-        </CardContent>
-      </Card>
     </div>
   );
 }

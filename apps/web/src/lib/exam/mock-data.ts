@@ -1,4 +1,13 @@
-import type { ExamQuestion, ExamSessionData, VedicSpeedHack } from "./types";
+import type { Bilingual, ExamQuestion, ExamSessionData, VedicSpeedHack } from "./types";
+
+export const TOPIC_NAMES: Record<string, Bilingual> = {
+  number_series: { en: "Number & Letter Series", hi: "संख्या एवं अक्षर श्रृंखला" },
+  pattern_completion: { en: "Pattern Completion", hi: "पैटर्न पूर्णता" },
+  classification: { en: "Classification", hi: "वर्गीकरण" },
+  speed_calculation: { en: "Speed Calculation", hi: "तीव्र गणना" },
+  vocabulary: { en: "Vocabulary", hi: "शब्दावली" },
+  grammar: { en: "Grammar", hi: "व्याकरण" },
+};
 
 /**
  * Standalone demo data for the `/exam/demo-jnvst` route. Shaped to mirror
