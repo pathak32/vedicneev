@@ -1,0 +1,3 @@
+{
+  "buildCommand": "npx prisma generate --schema=packages/db/prisma/schema.prisma && npx turbo run build"
+}
