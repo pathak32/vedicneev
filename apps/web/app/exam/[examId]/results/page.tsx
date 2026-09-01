@@ -109,7 +109,7 @@ export default function ExamResultsPage({ params }: { params: { examId: string }
           totalScore: report.totalMarks,
           maxScore: report.maxMarks,
           percentile: report.accuracyPercent,
-          timeTakenSeconds: report.timeSpentSeconds ?? 0,
+          timeTakenSeconds: typeof timeSpentSeconds === "number" ? timeSpentSeconds : 0,
           responses: report.mistakes.map((m) => ({
             questionId: m.question.id,
             isCorrect: false,
