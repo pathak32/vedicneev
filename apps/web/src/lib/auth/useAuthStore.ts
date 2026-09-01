@@ -24,22 +24,17 @@ interface Account {
 }
 
 export interface AuthStoreState {
-  /** All known accounts in this browser, keyed by phone number — simulates per-user backend records without a real server. */
   accounts: Record<string, Account>;
-  /** Phone of the currently signed-in account, or null when signed out. */
   activePhone: string | null;
   activeStudentId: string | null;
   testHistory: TestHistoryEntry[];
   mistakeLog: MistakeLogEntry[];
   notificationPreferencesByParentId: Record<string, NotificationPreferences>;
 
-  /** Phone currently awaiting OTP verification; drives the auth modal's OTP step. */
   pendingOtpPhone: string | null;
   otpError: string | null;
   otpSending: boolean;
   otpVerifying: boolean;
-
-  /** True once the persisted store has finished rehydrating from localStorage on the client. */
   hasHydrated: boolean;
 
   requestOtp: (phone: string) => Promise<{ success: boolean; error?: string }>;
@@ -95,6 +90,17 @@ export const useAuthStore = create<AuthStoreState>()(
           return result;
         }
 
+        // Sync user to Supabase PostgreSQL database
+        try {
+          await fetch("/api/auth/sync", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ phone }),
+          });
+        } catch (err) {
+          console.error("Failed to sync user to database:", err);
+        }
+
         const state = get();
         const existing = state.accounts[phone];
         const isNewUser = !existing;
@@ -116,7 +122,6 @@ export const useAuthStore = create<AuthStoreState>()(
       },
 
       cancelOtp: () => set({ pendingOtpPhone: null, otpError: null }),
-
       signOut: () => set({ activePhone: null, activeStudentId: null }),
 
       addStudent: (input) => {
@@ -208,9 +213,6 @@ export const useAuthStore = create<AuthStoreState>()(
     }),
     {
       name: "vedicneev-auth",
-      // Guard against SSR (Next.js server-renders "use client" components too)
-      // and non-browser test environments, where `localStorage` doesn't exist —
-      // fall back to a no-op store so module evaluation never throws there.
       storage: createJSONStorage(() =>
         typeof window === "undefined"
           ? { getItem: () => null, setItem: () => {}, removeItem: () => {} }
@@ -228,16 +230,12 @@ export const useAuthStore = create<AuthStoreState>()(
   )
 );
 
-// `onRehydrateStorage`'s callback only receives the persisted slice, not the
-// full store's actions — flip the flag directly via setState instead.
 useAuthStore.persist.onFinishHydration(() => {
   useAuthStore.setState({ hasHydrated: true });
 });
 if (useAuthStore.persist.hasHydrated()) {
   useAuthStore.setState({ hasHydrated: true });
 }
-
-// ── Selectors ─────────────────────────────────────────────────────────
 
 export function selectActiveAccount(state: AuthStoreState): Account | null {
   return state.activePhone ? (state.accounts[state.activePhone] ?? null) : null;
