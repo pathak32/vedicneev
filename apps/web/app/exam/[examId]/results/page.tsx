@@ -98,6 +98,28 @@ export default function ExamResultsPage({ params }: { params: { examId: string }
     });
     incrementFreeMockUsage(activeStudent.id);
 
+    // Sync the completed test session and mistakes to Supabase
+    if (parent?.phone) {
+      fetch("/api/exam/submit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          phone: parent.phone,
+          examTemplateSlug: session.examId,
+          totalScore: report.totalMarks,
+          maxScore: report.maxMarks,
+          percentile: report.accuracyPercent,
+          timeTakenSeconds: report.timeSpentSeconds ?? 0,
+          responses: report.mistakes.map((m) => ({
+            questionId: m.question.id,
+            isCorrect: false,
+            mistakeTag: m.mistakeTag,
+            timeSpentSeconds: 0,
+          })),
+        }),
+      }).catch((err) => console.error("Failed to sync exam session to DB:", err));
+    }
+
     if (report.mistakes.length > 0) {
       logMistakes(
         report.mistakes.map((m) => ({
