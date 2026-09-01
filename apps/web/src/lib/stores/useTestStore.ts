@@ -43,6 +43,16 @@ export interface TestStoreState {
   submittedAt: number | null;
 
   initSession: (session: ExamSessionData) => void;
+  /**
+   * Loads a finished attempt from an external source (e.g. an OMR scan of a
+   * paper sheet) directly into the "submitted" state, skipping the timer and
+   * navigation flow entirely, so /exam/[examId]/results can render it the
+   * same way it renders a normal in-app submission.
+   */
+  loadExternalSubmission: (
+    session: ExamSessionData,
+    selectedOptionsByQuestionId: Record<string, string | undefined>
+  ) => void;
   setLanguage: (language: LanguageCode) => void;
   selectOption: (optionId: string) => void;
   clearResponse: () => void;
@@ -134,6 +144,32 @@ export const useTestStore = create<TestStoreState>((set, get) => {
         overallRemainingSeconds: session.totalDurationSeconds,
         remainingSecondsBySection,
         activeQuestionEnteredAt: Date.now(),
+      });
+    },
+
+    loadExternalSubmission: (session, selectedOptionsByQuestionId) => {
+      const statuses: Record<string, QuestionStatus> = {};
+      const selectedOptions: Record<string, string | undefined> = {};
+      const timeSpentSeconds: Record<string, number> = {};
+      for (const question of Object.values(session.questionsById)) {
+        const selected = selectedOptionsByQuestionId[question.id];
+        selectedOptions[question.id] = selected;
+        statuses[question.id] = selected !== undefined ? "ANSWERED" : "UNVISITED";
+        timeSpentSeconds[question.id] = 0;
+      }
+
+      set({
+        ...initialState,
+        session,
+        statuses,
+        selectedOptions,
+        timeSpentSeconds,
+        lastVisitedIndexBySection: session.sections.map(() => 0),
+        overallRemainingSeconds: 0,
+        remainingSecondsBySection: {},
+        activeQuestionEnteredAt: null,
+        submitted: true,
+        submittedAt: Date.now(),
       });
     },
 

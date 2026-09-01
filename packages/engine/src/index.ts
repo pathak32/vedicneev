@@ -2,3 +2,6 @@ export * from "./timer";
 export * from "./scoring";
 export * from "./speedShortcuts";
 export * from "./diagnostics";
+export * from "./omr";
+export * from "./omrEvaluator";
+export * from "./omrScan";

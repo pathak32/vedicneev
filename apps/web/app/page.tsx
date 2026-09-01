@@ -1,4 +1,5 @@
-import { Sparkles } from "lucide-react";
+import Link from "next/link";
+import { Printer, ScanLine, Sparkles } from "lucide-react";
 
 import { formatDuration } from "@vedicneev/engine";
 import {
@@ -25,8 +26,22 @@ export default function HomePage() {
             Practice engine ready — sample section time limit: {sampleTimeLimit}
           </CardDescription>
         </CardHeader>
-        <CardContent>
-          <Button>Start a mock test</Button>
+        <CardContent className="flex flex-col gap-2">
+          <Button asChild>
+            <Link href="/exam/demo-jnvst">Start a mock test</Link>
+          </Button>
+          <Button asChild variant="outline">
+            <Link href="/exam/demo-jnvst/omr/print">
+              <Printer className="h-4 w-4" />
+              Print OMR sheet
+            </Link>
+          </Button>
+          <Button asChild variant="outline">
+            <Link href="/exam/demo-jnvst/omr/scan">
+              <ScanLine className="h-4 w-4" />
+              Scan a filled OMR sheet
+            </Link>
+          </Button>
         </CardContent>
       </Card>
     </main>
