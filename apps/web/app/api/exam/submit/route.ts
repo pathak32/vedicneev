@@ -81,7 +81,7 @@ export async function POST(req: Request) {
         const testResponse = await prisma.testResponse.upsert({
         where: {
           testSessionId_questionId: {
-            testSessionId: sessionId,
+            testSessionId: session.id,,
             questionId: item.questionId,
           },
         },
