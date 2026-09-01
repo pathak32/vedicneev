@@ -3,6 +3,11 @@ import { notFound } from "next/navigation";
 import { ExamPlayer } from "@/components/exam/ExamPlayer";
 import { getDemoSession } from "@/lib/exam/mock-data";
 
+// This route reads searchParams and mirrors purely client-side session state
+// (Zustand + localStorage) with no data to prerender — force it dynamic so
+// the build never attempts to statically collect page data for it.
+export const dynamic = "force-dynamic";
+
 export default function ExamPage({
   params,
   searchParams,

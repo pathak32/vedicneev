@@ -10,6 +10,10 @@ import { validateWhatsAppPayload, type WhatsAppUtilityTemplatePayload } from "@v
  * no code here needs to change.
  */
 
+// API routes are request-handling code, never prerenderable — force dynamic
+// so the build never attempts to collect static page data for it.
+export const dynamic = "force-dynamic";
+
 const GRAPH_API_VERSION = "v20.0";
 
 export async function POST(request: Request) {

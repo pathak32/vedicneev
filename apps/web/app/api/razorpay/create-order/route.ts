@@ -3,6 +3,10 @@ import { PLAN_CONFIG, type EntitlementExamType, type PaidPlanId } from "@vedicne
 
 import { createRazorpayOrder } from "@/lib/payments/razorpayServer";
 
+// API routes are request-handling code, never prerenderable — force dynamic
+// so the build never attempts to collect static page data for it.
+export const dynamic = "force-dynamic";
+
 const PAID_PLANS: PaidPlanId[] = ["EXAM_PASS", "VEDIC_ALL_ACCESS"];
 
 interface CreateOrderBody {
