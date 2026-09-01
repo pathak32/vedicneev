@@ -12,7 +12,7 @@
     "db:seed": "tsx prisma/seed.ts",
     "studio": "prisma studio",
     "seed": "tsx prisma/seed.ts",
-    "build": "tsc --noEmit",
+    "build": "prisma generate && tsc --noEmit",
     "type-check": "tsc --noEmit",
     "lint": "echo \"no lint configured for @vedicneev/db\"",
     "clean": "rimraf dist .turbo"
