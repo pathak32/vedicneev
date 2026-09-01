@@ -82,20 +82,20 @@ export async function POST(req: Request) {
         where: {
           testSessionId_questionId: {
             testSessionId: session.id,
-            questionId: item.questionId,
+            questionId: res.questionId,
           },
         },
         update: {
-          selectedOption: item.selectedOption,
-          isCorrect: item.isCorrect,
-          timeSpentSeconds: item.timeSpentSeconds,
+          selectedOption: res.selectedOption,
+          isCorrect: res.isCorrect,
+          timeSpentSeconds: res.timeSpentSeconds,
         },
         create: {
           testSessionId,
-          questionId: item.questionId,
-          selectedOption: item.selectedOption,
-          isCorrect: item.isCorrect,
-          timeSpentSeconds: item.timeSpentSeconds,
+          questionId: res.questionId,
+          selectedOption: res.selectedOption,
+          isCorrect: res.isCorrect,
+          timeSpentSeconds: res.timeSpentSeconds,
         },
       });
 
