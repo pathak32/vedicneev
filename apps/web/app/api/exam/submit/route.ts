@@ -1,5 +1,15 @@
 import { NextResponse } from "next/server";
-import { prisma } from "@vedicneev/db";
+import { prisma, MistakeTagCategory } from "@vedicneev/db";
+
+export const dynamic = "force-dynamic";
+
+interface SubmitResponseItem {
+  questionId: string;
+  selectedOption?: string | null;
+  isCorrect?: boolean;
+  timeSpentSeconds?: number;
+  mistakeTag?: MistakeTagCategory;
+}
 
 export async function POST(req: Request) {
   try {
@@ -11,7 +21,7 @@ export async function POST(req: Request) {
       maxScore = 0,
       percentile = 0,
       timeTakenSeconds = 0,
-      responses = [],
+      responses = [] as SubmitResponseItem[],
     } = body;
 
     if (!phone) {
@@ -26,8 +36,8 @@ export async function POST(req: Request) {
       });
     }
 
-    // 2. Find template (or fall back to first active template)
-    let template = await prisma.examTemplate.findFirst({
+    // 2. Find template
+    const template = await prisma.examTemplate.findFirst({
       where: {
         OR: [
           { slug: examTemplateSlug },
@@ -38,7 +48,7 @@ export async function POST(req: Request) {
     });
 
     if (!template) {
-      return NextResponse.json({ error: "No exam template found in database" }, { status: 404 });
+      return NextResponse.json({ error: "No exam template found" }, { status: 404 });
     }
 
     // 3. Create Test Session
@@ -57,7 +67,7 @@ export async function POST(req: Request) {
 
     // 4. Load available seeded questions to avoid FK constraint errors
     const dbQuestions = await prisma.question.findMany({ select: { id: true } });
-    const dbQuestionIds = new Set(dbQuestions.map((q) => q.id));
+    const dbQuestionIds = new Set(dbQuestions.map((q: { id: string }) => q.id));
     const fallbackQuestionId = dbQuestions[0]?.id;
 
     if (Array.isArray(responses) && responses.length > 0 && fallbackQuestionId) {
@@ -82,7 +92,7 @@ export async function POST(req: Request) {
               userId: user.id,
               questionId: validQuestionId,
               testResponseId: testResponse.id,
-              tagCategory: res.mistakeTag || "CARELESS_RUSHED",
+              tagCategory: res.mistakeTag ?? MistakeTagCategory.CARELESS_RUSHED,
             },
           });
         }
