@@ -29,6 +29,11 @@ export function SiteHeader() {
         <Link href="/pricing" className="text-sm text-muted-foreground hover:text-foreground">
           Pricing
         </Link>
+        {isAuthenticated ? (
+          <Link href="/parent" className="text-sm text-muted-foreground hover:text-foreground">
+            Parent Command Center
+          </Link>
+        ) : null}
       </div>
 
       {hasHydrated ? (

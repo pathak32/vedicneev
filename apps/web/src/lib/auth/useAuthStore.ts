@@ -3,8 +3,11 @@ import { createJSONStorage, persist } from "zustand/middleware";
 
 import { sendOtp as mockSendOtp, verifyOtp as mockVerifyOtp } from "./mockAuthProvider";
 import {
+  DEFAULT_NOTIFICATION_PREFERENCES,
   MAX_STUDENT_PROFILES,
+  type MistakeLogEntry,
   type NewStudentInput,
+  type NotificationPreferences,
   type ParentAccount,
   type StudentProfile,
   type TestHistoryEntry,
@@ -27,6 +30,8 @@ export interface AuthStoreState {
   activePhone: string | null;
   activeStudentId: string | null;
   testHistory: TestHistoryEntry[];
+  mistakeLog: MistakeLogEntry[];
+  notificationPreferencesByParentId: Record<string, NotificationPreferences>;
 
   /** Phone currently awaiting OTP verification; drives the auth modal's OTP step. */
   pendingOtpPhone: string | null;
@@ -46,7 +51,11 @@ export interface AuthStoreState {
   updateStudent: (id: string, patch: Partial<NewStudentInput>) => void;
   setActiveStudentId: (id: string) => void;
 
-  recordTestResult: (entry: Omit<TestHistoryEntry, "id">) => void;
+  recordTestResult: (entry: Omit<TestHistoryEntry, "id">) => TestHistoryEntry;
+  logMistakes: (entries: Omit<MistakeLogEntry, "id" | "reviewed">[]) => void;
+  markAllMistakesReviewed: (studentId: string) => void;
+
+  updateNotificationPreferences: (parentId: string, patch: Partial<NotificationPreferences>) => void;
 }
 
 export const useAuthStore = create<AuthStoreState>()(
@@ -56,6 +65,8 @@ export const useAuthStore = create<AuthStoreState>()(
       activePhone: null,
       activeStudentId: null,
       testHistory: [],
+      mistakeLog: [],
+      notificationPreferencesByParentId: {},
       pendingOtpPhone: null,
       otpError: null,
       otpSending: false,
@@ -160,8 +171,38 @@ export const useAuthStore = create<AuthStoreState>()(
       },
 
       recordTestResult: (entry) => {
+        const historyEntry: TestHistoryEntry = { ...entry, id: generateId() };
         set((state) => ({
-          testHistory: [...state.testHistory, { ...entry, id: generateId() }],
+          testHistory: [...state.testHistory, historyEntry],
+        }));
+        return historyEntry;
+      },
+
+      logMistakes: (entries) => {
+        if (entries.length === 0) return;
+        const logged: MistakeLogEntry[] = entries.map((entry) => ({
+          ...entry,
+          id: generateId(),
+          reviewed: false,
+        }));
+        set((state) => ({ mistakeLog: [...state.mistakeLog, ...logged] }));
+      },
+
+      markAllMistakesReviewed: (studentId) => {
+        set((state) => ({
+          mistakeLog: state.mistakeLog.map((m) => (m.studentId === studentId ? { ...m, reviewed: true } : m)),
+        }));
+      },
+
+      updateNotificationPreferences: (parentId, patch) => {
+        set((state) => ({
+          notificationPreferencesByParentId: {
+            ...state.notificationPreferencesByParentId,
+            [parentId]: {
+              ...(state.notificationPreferencesByParentId[parentId] ?? DEFAULT_NOTIFICATION_PREFERENCES),
+              ...patch,
+            },
+          },
         }));
       },
     }),
@@ -180,6 +221,8 @@ export const useAuthStore = create<AuthStoreState>()(
         activePhone: state.activePhone,
         activeStudentId: state.activeStudentId,
         testHistory: state.testHistory,
+        mistakeLog: state.mistakeLog,
+        notificationPreferencesByParentId: state.notificationPreferencesByParentId,
       }),
     }
   )
@@ -215,4 +258,26 @@ export function selectActiveStudent(state: AuthStoreState): StudentProfile | nul
 
 export function selectStudentTestHistory(state: AuthStoreState, studentId: string): TestHistoryEntry[] {
   return state.testHistory.filter((entry) => entry.studentId === studentId);
+}
+
+export function selectMistakeLogForStudent(state: AuthStoreState, studentId: string): MistakeLogEntry[] {
+  return state.mistakeLog.filter((m) => m.studentId === studentId);
+}
+
+export function selectUnreviewedMistakeCount(state: AuthStoreState, studentId: string): number {
+  return state.mistakeLog.filter((m) => m.studentId === studentId && !m.reviewed).length;
+}
+
+export function selectUnreviewedCarelessCount(state: AuthStoreState, studentId: string): number {
+  return state.mistakeLog.filter(
+    (m) => m.studentId === studentId && !m.reviewed && m.mistakeTag === "CARELESS_RUSHED"
+  ).length;
+}
+
+export function selectNotificationPreferences(
+  state: AuthStoreState,
+  parentId: string | null
+): NotificationPreferences {
+  if (!parentId) return DEFAULT_NOTIFICATION_PREFERENCES;
+  return state.notificationPreferencesByParentId[parentId] ?? DEFAULT_NOTIFICATION_PREFERENCES;
 }

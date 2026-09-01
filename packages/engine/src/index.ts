@@ -7,3 +7,4 @@ export * from "./omrEvaluator";
 export * from "./omrScan";
 export * from "./entitlements";
 export * from "./media";
+export * from "./whatsappReport";

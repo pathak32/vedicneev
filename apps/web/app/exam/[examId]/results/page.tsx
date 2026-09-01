@@ -4,20 +4,28 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { Button } from "@vedicneev/ui";
-import { calculateAdmissionProbability, checkMistakeVaultAccess, type CutoffExamType } from "@vedicneev/engine";
-import { ArrowLeft, RotateCcw } from "lucide-react";
+import {
+  buildWhatsAppPlaintextMessage,
+  calculateAdmissionProbability,
+  checkMistakeVaultAccess,
+  formatWhatsAppDiagnosticPayload,
+  type CutoffExamType,
+} from "@vedicneev/engine";
+import { ArrowLeft, MessageCircle, RotateCcw } from "lucide-react";
 
 import { MistakeVaultDrawer } from "@/components/analytics/MistakeVaultDrawer";
 import { ScoreHero, type CandidateProfile } from "@/components/analytics/ScoreHero";
 import { SectionBreakdown } from "@/components/analytics/SectionBreakdown";
 import { SpeedAccuracyMatrix } from "@/components/analytics/SpeedAccuracyMatrix";
 import { useActiveStudent } from "@/lib/auth/ActiveStudentContext";
-import { selectActiveParent, useAuthStore } from "@/lib/auth/useAuthStore";
+import { selectActiveParent, selectNotificationPreferences, useAuthStore } from "@/lib/auth/useAuthStore";
 import { SAMPLE_HISTORICAL_CUTOFFS, SAMPLE_STATES } from "@/lib/exam/cutoff-data";
 import { buildDiagnosticReport } from "@/lib/exam/diagnostics";
 import { getDemoSession } from "@/lib/exam/mock-data";
 import { selectParentSubscription, useSubscriptionStore } from "@/lib/payments/useSubscriptionStore";
 import { useTestStore } from "@/lib/stores/useTestStore";
+import { dispatchWhatsAppReport, type DispatchResult } from "@/lib/whatsapp/dispatchReport";
+import { buildDiagnosticReportForWhatsApp, studentToWhatsAppProfile } from "@/lib/whatsapp/buildReportPayload";
 
 export default function ExamResultsPage({ params }: { params: { examId: string } }) {
   const router = useRouter();
@@ -30,11 +38,14 @@ export default function ExamResultsPage({ params }: { params: { examId: string }
   const initSession = useTestStore((s) => s.initSession);
   const { activeStudent } = useActiveStudent();
   const recordTestResult = useAuthStore((s) => s.recordTestResult);
+  const logMistakes = useAuthStore((s) => s.logMistakes);
   const parent = useAuthStore(selectActiveParent);
+  const notificationPreferences = useAuthStore((s) => selectNotificationPreferences(s, parent?.id ?? null));
   const subscription = useSubscriptionStore((s) => selectParentSubscription(s, parent?.id ?? null));
   const incrementFreeMockUsage = useSubscriptionStore((s) => s.incrementFreeMockUsage);
   const mistakeVaultAccess = useMemo(() => checkMistakeVaultAccess(subscription), [subscription]);
   const recordedForRef = useRef<string | null>(null);
+  const [autoDispatchResult, setAutoDispatchResult] = useState<DispatchResult | null>(null);
 
   const [examType, setExamType] = useState<CutoffExamType>("JNVST");
   const [profile, setProfile] = useState<CandidateProfile>({
@@ -59,13 +70,15 @@ export default function ExamResultsPage({ params }: { params: { examId: string }
   }, [report, examType, profile]);
 
   // Record this attempt against the active student once (guarded so re-renders / a
-  // student switch mid-view don't double-count it).
+  // student switch mid-view don't double-count it), then fan out into the Mistake
+  // Vault log and — if the parent opted in — an auto-dispatched WhatsApp scorecard.
   useEffect(() => {
-    if (!report || !activeStudent || !session || !submittedAt) return;
+    if (!report || !activeStudent || !session || !submittedAt || !admissionProbability) return;
     const recordKey = `${session.examId}-${submittedAt}`;
     if (recordedForRef.current === recordKey) return;
     recordedForRef.current = recordKey;
-    recordTestResult({
+
+    const historyEntry = recordTestResult({
       studentId: activeStudent.id,
       examId: session.examId,
       examName: session.templateName.en,
@@ -73,9 +86,67 @@ export default function ExamResultsPage({ params }: { params: { examId: string }
       maxMarks: report.maxMarks,
       accuracyPercent: report.accuracyPercent,
       submittedAt,
+      sectionBreakdown: report.sectionBreakdown.map((s) => ({
+        sectionKey: s.key,
+        sectionName: s.name.en,
+        accuracyPercent: s.accuracyPercent,
+      })),
     });
     incrementFreeMockUsage(activeStudent.id);
-  }, [report, activeStudent, session, submittedAt, recordTestResult, incrementFreeMockUsage]);
+
+    if (report.mistakes.length > 0) {
+      logMistakes(
+        report.mistakes.map((m) => ({
+          studentId: activeStudent.id,
+          examId: session.examId,
+          testHistoryEntryId: historyEntry.id,
+          questionId: m.question.id,
+          questionNumber: m.questionNumber,
+          mistakeTag: m.mistakeTag,
+          createdAt: submittedAt,
+        }))
+      );
+    }
+
+    if (notificationPreferences.instantScorecard && parent?.phone) {
+      const reportUrl = typeof window !== "undefined" ? window.location.href : "";
+      const payload = formatWhatsAppDiagnosticPayload(
+        buildDiagnosticReportForWhatsApp(report, admissionProbability, reportUrl),
+        studentToWhatsAppProfile(activeStudent),
+        parent.phone
+      );
+      dispatchWhatsAppReport(payload.payload)
+        .then(setAutoDispatchResult)
+        .catch(() => setAutoDispatchResult({ success: false, mock: false, messageId: null, error: "Network error." }));
+    }
+  }, [
+    report,
+    activeStudent,
+    session,
+    submittedAt,
+    admissionProbability,
+    recordTestResult,
+    incrementFreeMockUsage,
+    logMistakes,
+    notificationPreferences.instantScorecard,
+    parent?.phone,
+  ]);
+
+  // Built in an effect, not a render-time useMemo: right after the router.push from the
+  // exam player, window.location still briefly reflects the previous route during render,
+  // so reading it here would silently truncate the link (caught via manual testing).
+  const [whatsAppShareUrl, setWhatsAppShareUrl] = useState<string | null>(null);
+  useEffect(() => {
+    if (!report || !admissionProbability || !activeStudent) {
+      setWhatsAppShareUrl(null);
+      return;
+    }
+    const message = buildWhatsAppPlaintextMessage(
+      buildDiagnosticReportForWhatsApp(report, admissionProbability, window.location.href),
+      studentToWhatsAppProfile(activeStudent)
+    );
+    setWhatsAppShareUrl(`https://wa.me/?text=${encodeURIComponent(message)}`);
+  }, [report, admissionProbability, activeStudent]);
 
   // No finished session in the store for this exam (e.g. a direct link or a page refresh —
   // the demo keeps state in memory only). Point the user back to take the test.
@@ -105,7 +176,7 @@ export default function ExamResultsPage({ params }: { params: { examId: string }
             Diagnostic Report{activeStudent ? ` for ${activeStudent.fullName}` : ""}
           </p>
         </div>
-        <div className="flex gap-2">
+        <div className="flex flex-wrap gap-2">
           <MistakeVaultDrawer
             examId={params.examId}
             mistakes={report.mistakes}
@@ -114,6 +185,14 @@ export default function ExamResultsPage({ params }: { params: { examId: string }
             hasFullAccess={mistakeVaultAccess.allowed}
             suggestedPlans={mistakeVaultAccess.suggestedPlans}
           />
+          {whatsAppShareUrl ? (
+            <Button type="button" variant="outline" asChild>
+              <a href={whatsAppShareUrl} target="_blank" rel="noopener noreferrer">
+                <MessageCircle className="h-4 w-4" />
+                Share Report via WhatsApp
+              </a>
+            </Button>
+          ) : null}
           <Button
             type="button"
             variant="outline"
@@ -127,6 +206,15 @@ export default function ExamResultsPage({ params }: { params: { examId: string }
           </Button>
         </div>
       </div>
+
+      {autoDispatchResult?.success ? (
+        <div className="flex items-center gap-2 rounded-md border border-emerald-500/40 bg-emerald-500/10 px-3 py-2 text-xs text-emerald-700 dark:text-emerald-400">
+          <MessageCircle className="h-3.5 w-3.5" />
+          {autoDispatchResult.mock
+            ? "Instant scorecard logged (demo mode — simulated, no WhatsApp Business API connected)."
+            : "Instant scorecard sent to the registered parent WhatsApp number."}
+        </div>
+      ) : null}
 
       <ScoreHero
         language={language}

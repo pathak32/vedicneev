@@ -6,4 +6,5 @@ export * from "./components/dialog";
 export * from "./components/dropdown-menu";
 export * from "./components/radio-group";
 export * from "./components/sheet";
+export * from "./components/switch";
 export * from "./components/tabs";

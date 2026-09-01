@@ -5,7 +5,10 @@ import {
   selectActiveParent,
   selectActiveStudent,
   selectActiveStudents,
+  selectNotificationPreferences,
   selectStudentTestHistory,
+  selectUnreviewedCarelessCount,
+  selectUnreviewedMistakeCount,
   useAuthStore,
 } from "./useAuthStore";
 import { MAX_STUDENT_PROFILES, type NewStudentInput } from "./types";
@@ -33,6 +36,8 @@ beforeEach(() => {
     activePhone: null,
     activeStudentId: null,
     testHistory: [],
+    mistakeLog: [],
+    notificationPreferencesByParentId: {},
     pendingOtpPhone: null,
     otpError: null,
     otpSending: false,
@@ -184,12 +189,46 @@ describe("test history", () => {
       maxMarks: 14,
       accuracyPercent: 71,
       submittedAt: Date.now(),
+      sectionBreakdown: [{ sectionKey: "arithmetic", sectionName: "Arithmetic", accuracyPercent: 80 }],
     });
 
     const history = selectStudentTestHistory(useAuthStore.getState(), student.id);
     expect(history).toHaveLength(1);
     expect(history[0]?.totalMarks).toBe(10);
+    expect(history[0]?.sectionBreakdown[0]?.sectionKey).toBe("arithmetic");
 
     expect(selectStudentTestHistory(useAuthStore.getState(), "someone-else")).toHaveLength(0);
+  });
+});
+
+describe("mistake log", () => {
+  it("logs mistakes and counts only the unreviewed ones for a student", async () => {
+    await signIn(PHONE_A);
+    const student = useAuthStore.getState().addStudent(STUDENT);
+
+    useAuthStore.getState().logMistakes([
+      { studentId: student.id, examId: "demo-jnvst", testHistoryEntryId: "th1", questionId: "q1", questionNumber: 1, mistakeTag: "CARELESS_RUSHED", createdAt: Date.now() },
+      { studentId: student.id, examId: "demo-jnvst", testHistoryEntryId: "th1", questionId: "q2", questionNumber: 2, mistakeTag: "CONCEPT_GAP", createdAt: Date.now() },
+    ]);
+
+    expect(selectUnreviewedMistakeCount(useAuthStore.getState(), student.id)).toBe(2);
+    expect(selectUnreviewedCarelessCount(useAuthStore.getState(), student.id)).toBe(1);
+
+    useAuthStore.getState().markAllMistakesReviewed(student.id);
+    expect(selectUnreviewedMistakeCount(useAuthStore.getState(), student.id)).toBe(0);
+  });
+});
+
+describe("notification preferences", () => {
+  it("defaults to instant scorecard on, others off, and patches individually", async () => {
+    await signIn(PHONE_A);
+    const parentId = useAuthStore.getState().accounts[PHONE_A]!.parent.id;
+
+    const defaults = selectNotificationPreferences(useAuthStore.getState(), parentId);
+    expect(defaults).toEqual({ instantScorecard: true, weeklyDigest: false, dailyTip: false });
+
+    useAuthStore.getState().updateNotificationPreferences(parentId, { weeklyDigest: true });
+    const updated = selectNotificationPreferences(useAuthStore.getState(), parentId);
+    expect(updated).toEqual({ instantScorecard: true, weeklyDigest: true, dailyTip: false });
   });
 });

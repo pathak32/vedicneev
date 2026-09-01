@@ -28,6 +28,12 @@ export interface StudentProfile {
 
 export type NewStudentInput = Omit<StudentProfile, "id" | "parentId" | "createdAt">;
 
+export interface SectionAccuracySnapshot {
+  sectionKey: string;
+  sectionName: string;
+  accuracyPercent: number;
+}
+
 export interface TestHistoryEntry {
   id: string;
   studentId: string;
@@ -37,4 +43,33 @@ export interface TestHistoryEntry {
   maxMarks: number;
   accuracyPercent: number;
   submittedAt: number;
+  /** Snapshotted at submission time, so the Parent Command Center can chart section trends across attempts. */
+  sectionBreakdown: SectionAccuracySnapshot[];
 }
+
+export type MistakeTagCategory = "CARELESS_RUSHED" | "CONCEPT_GAP" | "CALCULATION_GAP";
+
+/** One durable mistake record per wrong answer, so the Parent Command Center can accumulate an "unreviewed errors" count across every attempt, not just the most recent one. */
+export interface MistakeLogEntry {
+  id: string;
+  studentId: string;
+  examId: string;
+  testHistoryEntryId: string;
+  questionId: string;
+  questionNumber: number;
+  mistakeTag: MistakeTagCategory;
+  reviewed: boolean;
+  createdAt: number;
+}
+
+export interface NotificationPreferences {
+  instantScorecard: boolean;
+  weeklyDigest: boolean;
+  dailyTip: boolean;
+}
+
+export const DEFAULT_NOTIFICATION_PREFERENCES: NotificationPreferences = {
+  instantScorecard: true,
+  weeklyDigest: false,
+  dailyTip: false,
+};
