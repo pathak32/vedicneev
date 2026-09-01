@@ -18,10 +18,15 @@ export function SiteHeader() {
 
   return (
     <header className="flex items-center justify-between border-b border-border bg-background px-4 py-3 md:px-8">
-      <Link href="/" className="flex items-center gap-2 font-bold text-foreground">
-        <Sparkles className="h-5 w-5 text-primary" />
-        Vedic Neev
-      </Link>
+      <div className="flex items-center gap-6">
+        <Link href="/" className="flex items-center gap-2 font-bold text-foreground">
+          <Sparkles className="h-5 w-5 text-primary" />
+          Vedic Neev
+        </Link>
+        <Link href="/pricing" className="text-sm text-muted-foreground hover:text-foreground">
+          Pricing
+        </Link>
+      </div>
 
       {hasHydrated ? (
         isAuthenticated ? (

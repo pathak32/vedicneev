@@ -4,7 +4,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { Button } from "@vedicneev/ui";
-import { calculateAdmissionProbability, type CutoffExamType } from "@vedicneev/engine";
+import { calculateAdmissionProbability, checkMistakeVaultAccess, type CutoffExamType } from "@vedicneev/engine";
 import { ArrowLeft, RotateCcw } from "lucide-react";
 
 import { MistakeVaultDrawer } from "@/components/analytics/MistakeVaultDrawer";
@@ -12,10 +12,11 @@ import { ScoreHero, type CandidateProfile } from "@/components/analytics/ScoreHe
 import { SectionBreakdown } from "@/components/analytics/SectionBreakdown";
 import { SpeedAccuracyMatrix } from "@/components/analytics/SpeedAccuracyMatrix";
 import { useActiveStudent } from "@/lib/auth/ActiveStudentContext";
-import { useAuthStore } from "@/lib/auth/useAuthStore";
+import { selectActiveParent, useAuthStore } from "@/lib/auth/useAuthStore";
 import { SAMPLE_HISTORICAL_CUTOFFS, SAMPLE_STATES } from "@/lib/exam/cutoff-data";
 import { buildDiagnosticReport } from "@/lib/exam/diagnostics";
 import { getDemoSession } from "@/lib/exam/mock-data";
+import { selectParentSubscription, useSubscriptionStore } from "@/lib/payments/useSubscriptionStore";
 import { useTestStore } from "@/lib/stores/useTestStore";
 
 export default function ExamResultsPage({ params }: { params: { examId: string } }) {
@@ -29,6 +30,10 @@ export default function ExamResultsPage({ params }: { params: { examId: string }
   const initSession = useTestStore((s) => s.initSession);
   const { activeStudent } = useActiveStudent();
   const recordTestResult = useAuthStore((s) => s.recordTestResult);
+  const parent = useAuthStore(selectActiveParent);
+  const subscription = useSubscriptionStore((s) => selectParentSubscription(s, parent?.id ?? null));
+  const incrementFreeMockUsage = useSubscriptionStore((s) => s.incrementFreeMockUsage);
+  const mistakeVaultAccess = useMemo(() => checkMistakeVaultAccess(subscription), [subscription]);
   const recordedForRef = useRef<string | null>(null);
 
   const [examType, setExamType] = useState<CutoffExamType>("JNVST");
@@ -69,7 +74,8 @@ export default function ExamResultsPage({ params }: { params: { examId: string }
       accuracyPercent: report.accuracyPercent,
       submittedAt,
     });
-  }, [report, activeStudent, session, submittedAt, recordTestResult]);
+    incrementFreeMockUsage(activeStudent.id);
+  }, [report, activeStudent, session, submittedAt, recordTestResult, incrementFreeMockUsage]);
 
   // No finished session in the store for this exam (e.g. a direct link or a page refresh —
   // the demo keeps state in memory only). Point the user back to take the test.
@@ -105,6 +111,8 @@ export default function ExamResultsPage({ params }: { params: { examId: string }
             mistakes={report.mistakes}
             session={session}
             language={language}
+            hasFullAccess={mistakeVaultAccess.allowed}
+            suggestedPlans={mistakeVaultAccess.suggestedPlans}
           />
           <Button
             type="button"

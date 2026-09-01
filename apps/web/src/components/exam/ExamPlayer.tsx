@@ -3,10 +3,13 @@
 import { useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import { Button } from "@vedicneev/ui";
+import { checkExamAccess } from "@vedicneev/engine";
 
 import { PhoneAuthModal } from "@/components/auth/PhoneAuthModal";
+import { PaywallModal } from "@/components/pricing/PaywallModal";
 import { useActiveStudent } from "@/lib/auth/ActiveStudentContext";
-import { selectActiveAccount, useAuthStore } from "@/lib/auth/useAuthStore";
+import { selectActiveAccount, selectActiveParent, useAuthStore } from "@/lib/auth/useAuthStore";
+import { selectFreeMockTestsUsed, selectParentSubscription, useSubscriptionStore } from "@/lib/payments/useSubscriptionStore";
 import { ActionDock } from "./ActionDock";
 import { ExamHeader } from "./ExamHeader";
 import { QuestionCanvas } from "./QuestionCanvas";
@@ -27,6 +30,15 @@ export function ExamPlayer({ session, practiceMode = true }: ExamPlayerProps) {
   const router = useRouter();
   const { hasHydrated, isAuthenticated, activeStudent, needsOnboarding } = useActiveStudent();
   const [authOpen, setAuthOpen] = useState(false);
+  const [paywallOpen, setPaywallOpen] = useState(false);
+
+  const parent = useAuthStore(selectActiveParent);
+  const subscription = useSubscriptionStore((s) => selectParentSubscription(s, parent?.id ?? null));
+  const freeMockTestsUsed = useSubscriptionStore((s) => selectFreeMockTestsUsed(s, activeStudent?.id ?? null));
+  const access = useMemo(
+    () => checkExamAccess(subscription, session.examType, freeMockTestsUsed),
+    [subscription, session.examType, freeMockTestsUsed]
+  );
 
   const storeSession = useTestStore((s) => s.session);
   const initSession = useTestStore((s) => s.initSession);
@@ -38,12 +50,17 @@ export function ExamPlayer({ session, practiceMode = true }: ExamPlayerProps) {
   const selectedOptions = useTestStore((s) => s.selectedOptions);
   const selectOption = useTestStore((s) => s.selectOption);
 
-  // Test attempts are strictly linked to an active student — don't start the
-  // session (or its timer) until one is selected.
+  // Test attempts are strictly linked to an active student, and gated by
+  // entitlement — don't start the session (or its timer) until both hold.
   useEffect(() => {
-    if (!activeStudent) return;
+    if (!activeStudent || !access.allowed) return;
     initSession(session);
-  }, [session, initSession, activeStudent]);
+  }, [session, initSession, activeStudent, access.allowed]);
+
+  // A locked mock test opens the paywall instead of starting the exam.
+  useEffect(() => {
+    if (hasHydrated && activeStudent && !access.allowed) setPaywallOpen(true);
+  }, [hasHydrated, activeStudent, access.allowed]);
 
   // A signed-in parent with no student profiles yet needs to onboard one first.
   useEffect(() => {
@@ -131,6 +148,29 @@ export function ExamPlayer({ session, practiceMode = true }: ExamPlayerProps) {
 
   if (needsOnboarding || !activeStudent) {
     return <div className="p-8 text-center text-muted-foreground">Setting up your student profile…</div>;
+  }
+
+  if (!access.allowed) {
+    return (
+      <div className="mx-auto flex max-w-md flex-col items-center gap-4 p-16 text-center">
+        <p className="text-lg font-semibold text-foreground">This mock test is locked</p>
+        <p className="text-sm text-muted-foreground">
+          {access.reason === "FREE_TIER_EXHAUSTED"
+            ? "You've used your free mock test."
+            : "Your current plan doesn't cover this exam."}
+        </p>
+        <Button type="button" onClick={() => setPaywallOpen(true)}>
+          View plans
+        </Button>
+        <PaywallModal
+          open={paywallOpen}
+          onOpenChange={setPaywallOpen}
+          feature="MOCK_TEST"
+          targetExam={session.examType}
+          suggestedPlans={access.suggestedPlans}
+        />
+      </div>
+    );
   }
 
   if (!storeSession || submitted) {

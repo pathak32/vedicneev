@@ -69,6 +69,18 @@ enum QuotaCategory {
   DEFENSE
 }
 
+enum SubscriptionPlan {
+  FREE_EXPLORER
+  EXAM_PASS
+  VEDIC_ALL_ACCESS
+}
+
+enum SubscriptionStatus {
+  ACTIVE
+  EXPIRED
+  CANCELLED
+}
+
 // ─────────────────────────────────────────────────────────────────────────
 // Identity
 // ─────────────────────────────────────────────────────────────────────────
@@ -96,11 +108,38 @@ model User {
   createdAt DateTime @default(now()) @map("created_at")
   updatedAt DateTime @updatedAt @map("updated_at")
 
-  testSessions TestSession[]
-  mistakes     MistakeVault[]
+  testSessions  TestSession[]
+  mistakes      MistakeVault[]
+  subscriptions Subscription[]
 
   @@index([parentId])
   @@map("users")
+}
+
+// A parent's billing plan. targetExam scopes an EXAM_PASS to one exam;
+// it's null for FREE_EXPLORER (no exam-specific access) and for
+// VEDIC_ALL_ACCESS (every exam is included).
+model Subscription {
+  id       String @id @default(cuid())
+  parentId String @map("parent_id")
+  parent   User   @relation(fields: [parentId], references: [id], onDelete: Cascade)
+
+  plan       SubscriptionPlan
+  targetExam ExamType?           @map("target_exam")
+  status     SubscriptionStatus  @default(ACTIVE)
+
+  // Amount actually paid, in INR (0 for FREE_EXPLORER).
+  amountPaid Float @map("amount_paid")
+
+  razorpayOrderId   String? @map("razorpay_order_id")
+  razorpayPaymentId String? @map("razorpay_payment_id")
+
+  // Null means no expiry (e.g. a lifetime/free plan); set for paid plans.
+  validUntil DateTime? @map("valid_until")
+  createdAt  DateTime  @default(now()) @map("created_at")
+
+  @@index([parentId])
+  @@map("subscriptions")
 }
 
 // ─────────────────────────────────────────────────────────────────────────

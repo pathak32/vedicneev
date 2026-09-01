@@ -5,3 +5,4 @@ export * from "./diagnostics";
 export * from "./omr";
 export * from "./omrEvaluator";
 export * from "./omrScan";
+export * from "./entitlements";

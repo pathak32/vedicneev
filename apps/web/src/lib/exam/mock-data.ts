@@ -362,6 +362,7 @@ for (const hack of speedHacks) speedHacksById[hack.id] = hack;
 
 export const demoJnvstSession: ExamSessionData = {
   examId: "demo-jnvst",
+  examType: "JNVST",
   templateName: { en: "JNVST Class 6 Selection Test (Demo)", hi: "जेएनवीएसटी कक्षा 6 चयन परीक्षा (डेमो)" },
   // Scaled-down demo timing (real JNVST Class 6 is 120 minutes / 80 questions).
   totalDurationSeconds: 5 * 60 + 3 * 60 + 3 * 60,

@@ -23,6 +23,7 @@ function makeQuestion(id: string, sectionKey: string, correctOption: string): Ex
 
 const fixtureSession: ExamSessionData = {
   examId: "fixture",
+  examType: "JNVST",
   templateName: { en: "Fixture Exam", hi: "फिक्सचर परीक्षा" },
   totalDurationSeconds: 100,
   negativeMarkingRatio: 0.25,

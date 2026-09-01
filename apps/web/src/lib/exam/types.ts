@@ -61,8 +61,11 @@ export interface ExamSectionConfig {
   questionIds: string[];
 }
 
+export type ExamType = "JNVST" | "AISSEE" | "RMS" | "DPS";
+
 export interface ExamSessionData {
   examId: string;
+  examType: ExamType;
   templateName: Bilingual;
   totalDurationSeconds: number;
   negativeMarkingRatio: number;

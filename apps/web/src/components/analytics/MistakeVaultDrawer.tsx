@@ -9,13 +9,13 @@ import {
   SheetContent,
   SheetHeader,
   SheetTitle,
-  SheetTrigger,
   cn,
 } from "@vedicneev/ui";
-import { formatDuration } from "@vedicneev/engine";
+import { formatDuration, type PaidPlanId } from "@vedicneev/engine";
 import { AlertTriangle, BookOpen, Clock, Lightbulb, Sparkles } from "lucide-react";
 
 import { VedicSpeedTipModal } from "@/components/exam/VedicSpeedTipModal";
+import { PaywallModal } from "@/components/pricing/PaywallModal";
 import type { MistakeReport } from "@/lib/exam/diagnostics";
 import type { ExamSessionData, LanguageCode } from "@/lib/exam/types";
 
@@ -24,6 +24,9 @@ export interface MistakeVaultDrawerProps {
   mistakes: MistakeReport[];
   session: ExamSessionData;
   language: LanguageCode;
+  /** Vedic All-Access unlocks detailed solutions and speed-hack clinics; other plans see the paywall instead. */
+  hasFullAccess: boolean;
+  suggestedPlans: PaidPlanId[];
 }
 
 type TagFilter = "ALL" | "CARELESS_RUSHED" | "CONCEPT_GAP" | "CALCULATION_GAP";
@@ -108,21 +111,47 @@ function MistakeItem({
   );
 }
 
-export function MistakeVaultDrawer({ examId, mistakes, session, language }: MistakeVaultDrawerProps) {
+export function MistakeVaultDrawer({
+  examId,
+  mistakes,
+  session,
+  language,
+  hasFullAccess,
+  suggestedPlans,
+}: MistakeVaultDrawerProps) {
   const [filter, setFilter] = useState<TagFilter>("ALL");
+  const [sheetOpen, setSheetOpen] = useState(false);
+  const [paywallOpen, setPaywallOpen] = useState(false);
   const filtered = filter === "ALL" ? mistakes : mistakes.filter((m) => m.mistakeTag === filter);
 
   return (
-    <Sheet>
-      <SheetTrigger asChild>
-        <Button type="button" variant="destructive" size="lg" disabled={mistakes.length === 0}>
-          <Lightbulb className="h-4 w-4" />
-          Open Mistake Vault
-          <Badge variant="secondary" className="ml-1">
-            {mistakes.length}
-          </Badge>
-        </Button>
-      </SheetTrigger>
+    <>
+      <Button
+        type="button"
+        variant="destructive"
+        size="lg"
+        disabled={mistakes.length === 0}
+        onClick={() => (hasFullAccess ? setSheetOpen(true) : setPaywallOpen(true))}
+      >
+        <Lightbulb className="h-4 w-4" />
+        Open Mistake Vault
+        <Badge variant="secondary" className="ml-1">
+          {mistakes.length}
+        </Badge>
+      </Button>
+
+      <PaywallModal
+        open={paywallOpen}
+        onOpenChange={setPaywallOpen}
+        feature="MISTAKE_VAULT_SOLUTIONS"
+        suggestedPlans={suggestedPlans}
+        onUnlocked={() => {
+          setPaywallOpen(false);
+          setSheetOpen(true);
+        }}
+      />
+
+      <Sheet open={sheetOpen} onOpenChange={setSheetOpen}>
       <SheetContent side="right" className="w-full overflow-y-auto sm:max-w-lg">
         <SheetHeader>
           <SheetTitle>Mistake Vault</SheetTitle>
@@ -162,6 +191,7 @@ export function MistakeVaultDrawer({ examId, mistakes, session, language }: Mist
           )}
         </div>
       </SheetContent>
-    </Sheet>
+      </Sheet>
+    </>
   );
 }
