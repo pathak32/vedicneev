@@ -27,6 +27,10 @@ import { useTestStore } from "@/lib/stores/useTestStore";
 import { dispatchWhatsAppReport, type DispatchResult } from "@/lib/whatsapp/dispatchReport";
 import { buildDiagnosticReportForWhatsApp, studentToWhatsAppProfile } from "@/lib/whatsapp/buildReportPayload";
 
+// Renders entirely from client-side session/store state (nothing to
+// prerender) — force dynamic so the build never attempts static collection.
+export const dynamic = "force-dynamic";
+
 export default function ExamResultsPage({ params }: { params: { examId: string } }) {
   const router = useRouter();
   const session = useTestStore((s) => s.session);

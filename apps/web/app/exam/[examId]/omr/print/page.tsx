@@ -8,6 +8,10 @@ import { OmrPrintSheet } from "@/components/omr/OmrPrintSheet";
 import { getDemoSession } from "@/lib/exam/mock-data";
 import { buildOmrSpecForSession, orderedQuestionIdsForSession } from "@/lib/exam/omr-bridge";
 
+// Nothing here is prerenderable (demo session data, print-triggering client
+// code) — force dynamic so the build never attempts static collection.
+export const dynamic = "force-dynamic";
+
 export default function OmrPrintPage({ params }: { params: { examId: string } }) {
   const session = getDemoSession(params.examId);
   if (!session) notFound();

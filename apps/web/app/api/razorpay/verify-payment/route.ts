@@ -2,6 +2,10 @@ import { NextResponse } from "next/server";
 
 import { verifyRazorpayPayment } from "@/lib/payments/razorpayServer";
 
+// API routes are request-handling code, never prerenderable — force dynamic
+// so the build never attempts to collect static page data for it.
+export const dynamic = "force-dynamic";
+
 interface VerifyPaymentBody {
   razorpay_order_id?: string;
   razorpay_payment_id?: string;
