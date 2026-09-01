@@ -1,14 +1,16 @@
 import { NextResponse } from "next/server";
-import { prisma, MistakeTagCategory } from "@vedicneev/db";
+import { prisma } from "@vedicneev/db";
 
 export const dynamic = "force-dynamic";
+
+type MistakeTagType = "CARELESS_RUSHED" | "CALCULATION_GAP" | "CONCEPT_GAP";
 
 interface SubmitResponseItem {
   questionId: string;
   selectedOption?: string | null;
   isCorrect?: boolean;
   timeSpentSeconds?: number;
-  mistakeTag?: MistakeTagCategory;
+  mistakeTag?: MistakeTagType;
 }
 
 export async function POST(req: Request) {
@@ -92,7 +94,7 @@ export async function POST(req: Request) {
               userId: user.id,
               questionId: validQuestionId,
               testResponseId: testResponse.id,
-              tagCategory: res.mistakeTag ?? MistakeTagCategory.CARELESS_RUSHED,
+              tagCategory: res.mistakeTag ?? "CARELESS_RUSHED",
             },
           });
         }
