@@ -4,10 +4,11 @@ import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Button, Sheet, SheetContent, SheetHeader, SheetTitle, cn } from "@vedicneev/ui";
-import { BookOpen, LayoutDashboard, Menu, NotebookPen, Users } from "lucide-react";
+import { BookOpen, LayoutDashboard, Lightbulb, Menu, NotebookPen, Users } from "lucide-react";
 
 const NAV_ITEMS = [
   { href: "/dashboard", label: "Overview", icon: LayoutDashboard },
+  { href: "/dashboard/mistakes", label: "Mistake Vault", icon: Lightbulb },
   { href: "/exam/demo-jnvst", label: "Take a Mock Test", icon: NotebookPen },
   { href: "/learn", label: "Learn", icon: BookOpen },
   { href: "/parent", label: "Parent Command Center", icon: Users },

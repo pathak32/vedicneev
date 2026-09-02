@@ -3,16 +3,11 @@ import { AlertTriangle, ArrowRight, CheckCircle2, Lightbulb } from "lucide-react
 import { Badge, Button, Card, CardContent, CardHeader, CardTitle } from "@vedicneev/ui";
 
 import type { MistakeLogEntry, MistakeTagCategory } from "@/lib/auth/types";
+import { MISTAKE_TAG_META } from "@/lib/exam/mistake-vault";
 
 export interface MistakeVaultPreviewWidgetProps {
   mistakes: MistakeLogEntry[];
 }
-
-const TAG_LABELS: Record<MistakeTagCategory, string> = {
-  CARELESS_RUSHED: "Careless / Rushed",
-  CONCEPT_GAP: "Concept Gap",
-  CALCULATION_GAP: "Calculation Gap",
-};
 
 export function MistakeVaultPreviewWidget({ mistakes }: MistakeVaultPreviewWidgetProps) {
   const unreviewed = mistakes.filter((m) => !m.reviewed);
@@ -42,19 +37,19 @@ export function MistakeVaultPreviewWidget({ mistakes }: MistakeVaultPreviewWidge
           </div>
         ) : (
           <div className="flex flex-wrap gap-2">
-            {(Object.keys(TAG_LABELS) as MistakeTagCategory[])
+            {(Object.keys(MISTAKE_TAG_META) as MistakeTagCategory[])
               .filter((tag) => counts[tag] > 0)
               .map((tag) => (
                 <Badge key={tag} variant="outline" className="gap-1 font-medium">
                   <AlertTriangle className="h-3 w-3" />
-                  {TAG_LABELS[tag]}: {counts[tag]}
+                  {MISTAKE_TAG_META[tag].label}: {counts[tag]}
                 </Badge>
               ))}
           </div>
         )}
 
         <Button asChild variant="outline" size="sm" className="w-fit">
-          <Link href="/parent">
+          <Link href="/dashboard/mistakes">
             Review in Mistake Vault
             <ArrowRight className="h-3.5 w-3.5" />
           </Link>

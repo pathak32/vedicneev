@@ -49,6 +49,7 @@ export interface AuthStoreState {
   recordTestResult: (entry: Omit<TestHistoryEntry, "id">) => TestHistoryEntry;
   logMistakes: (entries: Omit<MistakeLogEntry, "id" | "reviewed">[]) => void;
   markAllMistakesReviewed: (studentId: string) => void;
+  toggleMistakeReviewed: (mistakeId: string) => void;
 
   updateNotificationPreferences: (parentId: string, patch: Partial<NotificationPreferences>) => void;
 }
@@ -196,6 +197,12 @@ export const useAuthStore = create<AuthStoreState>()(
       markAllMistakesReviewed: (studentId) => {
         set((state) => ({
           mistakeLog: state.mistakeLog.map((m) => (m.studentId === studentId ? { ...m, reviewed: true } : m)),
+        }));
+      },
+
+      toggleMistakeReviewed: (mistakeId) => {
+        set((state) => ({
+          mistakeLog: state.mistakeLog.map((m) => (m.id === mistakeId ? { ...m, reviewed: !m.reviewed } : m)),
         }));
       },
 

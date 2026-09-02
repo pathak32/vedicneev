@@ -19,6 +19,7 @@ import { SpeedShortsPlayer } from "@/components/media/SpeedShortsPlayer";
 import { VedicSpeedTipModal } from "@/components/exam/VedicSpeedTipModal";
 import { PaywallModal } from "@/components/pricing/PaywallModal";
 import type { MistakeReport } from "@/lib/exam/diagnostics";
+import { MISTAKE_TAG_META } from "@/lib/exam/mistake-vault";
 import type { ExamSessionData, LanguageCode } from "@/lib/exam/types";
 import { mediaCatalog } from "@/lib/media/mock-data";
 
@@ -36,15 +37,6 @@ export interface MistakeVaultDrawerProps {
 }
 
 type TagFilter = "ALL" | "CARELESS_RUSHED" | "CONCEPT_GAP" | "CALCULATION_GAP";
-
-const TAG_META: Record<
-  Exclude<TagFilter, "ALL">,
-  { label: string; className: string }
-> = {
-  CARELESS_RUSHED: { label: "Careless / Rushed", className: "bg-amber-500/15 text-amber-700 border-amber-500/40 dark:text-amber-400" },
-  CONCEPT_GAP: { label: "Concept Gap", className: "bg-red-500/15 text-red-700 border-red-500/40 dark:text-red-400" },
-  CALCULATION_GAP: { label: "Calculation Gap", className: "bg-blue-500/15 text-blue-700 border-blue-500/40 dark:text-blue-400" },
-};
 
 const FILTER_OPTIONS: { value: TagFilter; label: string }[] = [
   { value: "ALL", label: "All" },
@@ -68,7 +60,7 @@ function MistakeItem({
   onWatchSpeedHackVideo: (item: MediaItem) => void;
   onWatchConceptClinic: (item: MediaItem) => void;
 }) {
-  const meta = TAG_META[mistake.mistakeTag];
+  const meta = MISTAKE_TAG_META[mistake.mistakeTag];
   const speedHack = mistake.question.vedicSpeedHackId
     ? session.speedHacksById[mistake.question.vedicSpeedHackId]
     : undefined;

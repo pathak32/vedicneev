@@ -129,6 +129,7 @@ export default function ExamResultsPage({ params }: { params: { examId: string }
           testHistoryEntryId: historyEntry.id,
           questionId: m.question.id,
           questionNumber: m.questionNumber,
+          selectedOption: m.selectedOption,
           mistakeTag: m.mistakeTag,
           createdAt: submittedAt,
         }))

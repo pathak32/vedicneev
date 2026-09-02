@@ -141,17 +141,22 @@ export default function ParentCommandCenterPage() {
                   ? "No unreviewed mistakes — nice work."
                   : `${unreviewedTotal} unreviewed mistake${unreviewedTotal === 1 ? "" : "s"} across all tests, including ${unreviewedCareless} careless/rushed error${unreviewedCareless === 1 ? "" : "s"}.`}
               </p>
-              {unreviewedTotal > 0 ? (
-                <Button
-                  type="button"
-                  variant="outline"
-                  size="sm"
-                  onClick={() => markAllMistakesReviewed(activeStudent.id)}
-                >
-                  <CheckCheck className="h-4 w-4" />
-                  Mark All Reviewed
+              <div className="flex flex-wrap gap-2">
+                <Button asChild type="button" variant="outline" size="sm">
+                  <Link href="/dashboard/mistakes">View Full Mistake Vault</Link>
                 </Button>
-              ) : null}
+                {unreviewedTotal > 0 ? (
+                  <Button
+                    type="button"
+                    variant="outline"
+                    size="sm"
+                    onClick={() => markAllMistakesReviewed(activeStudent.id)}
+                  >
+                    <CheckCheck className="h-4 w-4" />
+                    Mark All Reviewed
+                  </Button>
+                ) : null}
+              </div>
             </CardContent>
           </Card>
 

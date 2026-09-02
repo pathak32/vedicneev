@@ -59,6 +59,8 @@ export interface MistakeLogEntry {
   testHistoryEntryId: string;
   questionId: string;
   questionNumber: number;
+  /** Snapshotted at log time so the Mistake Vault can show "your answer" vs. the correct one without re-deriving the graded attempt. */
+  selectedOption?: string;
   mistakeTag: MistakeTagCategory;
   reviewed: boolean;
   createdAt: number;
