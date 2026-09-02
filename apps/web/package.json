@@ -9,13 +9,16 @@
     "lint": "next lint",
     "type-check": "tsc --noEmit",
     "test": "vitest run",
-    "clean": "rimraf .next .turbo"
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui",
+    "test:e2e:report": "playwright show-report",
+    "clean": "rimraf .next .turbo playwright-report test-results"
   },
   "dependencies": {
+    "@radix-ui/react-slot": "^1.1.0",
     "@vedicneev/db": "*",
     "@vedicneev/engine": "*",
     "@vedicneev/ui": "*",
-    "@radix-ui/react-slot": "^1.1.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "lucide-react": "^0.446.0",
@@ -26,6 +29,7 @@
     "zustand": "^4.5.5"
   },
   "devDependencies": {
+    "@playwright/test": "^1.62.1",
     "@types/node": "^20.16.10",
     "@types/react": "^18.3.9",
     "@types/react-dom": "^18.3.0",

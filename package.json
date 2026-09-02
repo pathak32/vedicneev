@@ -12,6 +12,7 @@
     "lint": "turbo run lint",
     "type-check": "turbo run type-check",
     "test": "turbo run test",
+    "test:e2e": "turbo run test:e2e",
     "clean": "turbo run clean && rimraf node_modules",
     "db:generate": "npm run generate --workspace=@vedicneev/db",
     "db:push": "npm run db:push --workspace=@vedicneev/db",
