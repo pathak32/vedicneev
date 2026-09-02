@@ -42,6 +42,8 @@ export interface TestHistoryEntry {
   totalMarks: number;
   maxMarks: number;
   accuracyPercent: number;
+  /** Snapshotted at submission time (see DiagnosticReport.percentile) — the cohort itself isn't stored, so this can't be recomputed later. */
+  percentile: number;
   submittedAt: number;
   /** Snapshotted at submission time, so the Parent Command Center can chart section trends across attempts. */
   sectionBreakdown: SectionAccuracySnapshot[];

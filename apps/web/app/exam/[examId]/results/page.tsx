@@ -89,6 +89,7 @@ export default function ExamResultsPage({ params }: { params: { examId: string }
       totalMarks: report.totalMarks,
       maxMarks: report.maxMarks,
       accuracyPercent: report.accuracyPercent,
+      percentile: report.percentile,
       submittedAt,
       sectionBreakdown: report.sectionBreakdown.map((s) => ({
         sectionKey: s.key,

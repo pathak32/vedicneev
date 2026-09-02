@@ -30,6 +30,11 @@ export function SiteHeader() {
           Pricing
         </Link>
         {isAuthenticated ? (
+          <Link href="/dashboard" className="text-sm text-muted-foreground hover:text-foreground">
+            Dashboard
+          </Link>
+        ) : null}
+        {isAuthenticated ? (
           <Link href="/parent" className="text-sm text-muted-foreground hover:text-foreground">
             Parent Command Center
           </Link>

@@ -188,6 +188,7 @@ describe("test history", () => {
       totalMarks: 10,
       maxMarks: 14,
       accuracyPercent: 71,
+      percentile: 65,
       submittedAt: Date.now(),
       sectionBreakdown: [{ sectionKey: "arithmetic", sectionName: "Arithmetic", accuracyPercent: 80 }],
     });
