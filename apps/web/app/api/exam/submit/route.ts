@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { prisma } from "@vedicneev/db";
+import { Prisma, prisma } from "@vedicneev/db";
 
 export const dynamic = "force-dynamic";
 
@@ -13,9 +13,19 @@ interface SubmitResponseItem {
   mistakeTag?: MistakeTagType;
 }
 
+interface SubmitRequestBody {
+  phone?: string;
+  examTemplateSlug?: string;
+  totalScore?: number;
+  maxScore?: number;
+  percentile?: number;
+  timeTakenSeconds?: number;
+  responses?: SubmitResponseItem[];
+}
+
 export async function POST(req: Request) {
   try {
-    const body = await req.json();
+    const body = (await req.json()) as SubmitRequestBody;
     const {
       phone,
       examTemplateSlug = "demo-jnvst",
@@ -23,7 +33,7 @@ export async function POST(req: Request) {
       maxScore = 0,
       percentile = 0,
       timeTakenSeconds = 0,
-      responses = [] as SubmitResponseItem[],
+      responses = [],
     } = body;
 
     if (!phone) {
@@ -41,11 +51,7 @@ export async function POST(req: Request) {
     // 2. Find template
     const template = await prisma.examTemplate.findFirst({
       where: {
-        OR: [
-          { slug: examTemplateSlug },
-          { slug: "demo-jnvst" },
-          { isActive: true },
-        ],
+        OR: [{ slug: examTemplateSlug }, { slug: "demo-jnvst" }, { isActive: true }],
       },
     });
 
@@ -67,54 +73,93 @@ export async function POST(req: Request) {
       },
     });
 
-    // 4. Load available seeded questions to avoid FK constraint errors
+    // 4. Load available seeded questions. The client's exam content (the
+    // in-memory demo/mock session — see apps/web/src/lib/exam/mock-data.ts)
+    // uses its own fixture ids (e.g. "q-ma-1"), which don't exist in the
+    // seeded `questions` table yet. TestResponse.questionId is a foreign key
+    // to Question, so writing one of those ids directly would violate the FK
+    // constraint (Prisma P2003) and 500 the whole request — which is exactly
+    // what was happening here: the previous code computed a
+    // `validQuestionId` fallback but never actually used it in the upsert
+    // below, so every response with an unrecognized id still hit the FK
+    // violation. Collapsing every unmatched question onto one fallback id
+    // isn't a real fix either — it makes multiple mistakes in the same
+    // session collide on the same [testSessionId, questionId] unique key,
+    // and then on MistakeVault.testResponseId's unique constraint the moment
+    // a second mistake tried to reuse the same (rewritten) TestResponse row.
+    // Until the client is wired to real DB-backed questions, the honest fix
+    // is to skip responses that don't reference a real question rather than
+    // fabricate a mapping that corrupts or crashes on the next one.
     const dbQuestions = await prisma.question.findMany({ select: { id: true } });
-    const dbQuestionIds = new Set(dbQuestions.map((q: { id: string }) => q.id));
-    const fallbackQuestionId = dbQuestions[0]?.id;
+    const dbQuestionIds = new Set(dbQuestions.map((q) => q.id));
+    const skippedQuestionIds: string[] = [];
 
-    if (Array.isArray(responses) && responses.length > 0 && fallbackQuestionId) {
-      for (const res of responses) {
-        const validQuestionId = dbQuestionIds.has(res.questionId)
-          ? res.questionId
-          : fallbackQuestionId;
+    if (Array.isArray(responses) && responses.length > 0) {
+      for (const item of responses) {
+        if (!item?.questionId || !dbQuestionIds.has(item.questionId)) {
+          skippedQuestionIds.push(item?.questionId ?? "<missing>");
+          continue;
+        }
 
         const testResponse = await prisma.testResponse.upsert({
-        where: {
-          testSessionId_questionId: {
-            testSessionId: session.id,
-            questionId: res.questionId,
+          where: {
+            testSessionId_questionId: {
+              testSessionId: session.id,
+              questionId: item.questionId,
+            },
           },
-        },
-        update: {
-          selectedOption: res.selectedOption,
-          isCorrect: res.isCorrect,
-          timeSpentSeconds: res.timeSpentSeconds,
-        },
-        create: {
+          update: {
+            selectedOption: item.selectedOption,
+            isCorrect: item.isCorrect,
+            timeSpentSeconds: item.timeSpentSeconds,
+          },
+          create: {
             testSessionId: session.id,
-          questionId: res.questionId,
-          selectedOption: res.selectedOption,
-          isCorrect: res.isCorrect,
-          timeSpentSeconds: res.timeSpentSeconds,
-        },
-      });
+            questionId: item.questionId,
+            selectedOption: item.selectedOption,
+            isCorrect: item.isCorrect,
+            timeSpentSeconds: item.timeSpentSeconds,
+          },
+        });
 
-        if (!res.isCorrect) {
+        if (!item.isCorrect) {
           await prisma.mistakeVault.create({
             data: {
               userId: user.id,
-              questionId: validQuestionId,
+              questionId: item.questionId,
               testResponseId: testResponse.id,
-              tagCategory: res.mistakeTag ?? "CARELESS_RUSHED",
+              tagCategory: item.mistakeTag ?? "CARELESS_RUSHED",
             },
           });
         }
       }
     }
 
-    return NextResponse.json({ success: true, sessionId: session.id });
-  } catch (error: any) {
-    console.error("Exam submission sync error:", error);
-    return NextResponse.json({ error: error.message }, { status: 500 });
+    if (skippedQuestionIds.length > 0) {
+      console.warn(
+        `Exam submit: skipped ${skippedQuestionIds.length} response(s) with unrecognized questionId(s):`,
+        skippedQuestionIds
+      );
+    }
+
+    return NextResponse.json({ success: true, sessionId: session.id, skippedQuestionIds });
+  } catch (error) {
+    console.error("Exam submit error:", error);
+
+    if (error instanceof Prisma.PrismaClientKnownRequestError) {
+      // P2003 = foreign key constraint failed, P2002 = unique constraint failed —
+      // the two ways this route can violate the schema; surface which one it was
+      // instead of a bare "Internal Server Error".
+      const message =
+        error.code === "P2003"
+          ? "A referenced record (user, exam template, or question) does not exist."
+          : error.code === "P2002"
+            ? "A duplicate record violated a unique constraint."
+            : `Database error (${error.code}).`;
+      return NextResponse.json({ error: message, code: error.code }, { status: 500 });
+    }
+
+    const message = error instanceof Error ? error.message : "Unknown error during exam submission.";
+    return NextResponse.json({ error: message }, { status: 500 });
   }
 }
