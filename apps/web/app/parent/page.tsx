@@ -2,21 +2,21 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import { Badge, Button, Card, CardContent, CardHeader, CardTitle, Switch } from "@vedicneev/ui";
-import { CheckCheck, MessageCircle } from "lucide-react";
+import { Button, Card, CardContent, CardHeader, CardTitle, Switch } from "@vedicneev/ui";
+import { MessageCircle } from "lucide-react";
 
+import { FamilyAccuracyOverview } from "@/components/parent/FamilyAccuracyOverview";
+import { MistakeVaultProgress } from "@/components/parent/MistakeVaultProgress";
 import { ProgressChart } from "@/components/parent/ProgressChart";
+import { RecentAttemptsBreakdown } from "@/components/parent/RecentAttemptsBreakdown";
 import { SectionalStrengths } from "@/components/parent/SectionalStrengths";
 import { StudentOverviewCard } from "@/components/parent/StudentOverviewCard";
+import { SubscriptionManager } from "@/components/parent/SubscriptionManager";
 import { WhatsAppPreviewModal } from "@/components/whatsapp/WhatsAppPreviewModal";
 import { useActiveStudent } from "@/lib/auth/ActiveStudentContext";
 import type { NotificationPreferences } from "@/lib/auth/types";
-import {
-  selectNotificationPreferences,
-  selectUnreviewedCarelessCount,
-  selectUnreviewedMistakeCount,
-  useAuthStore,
-} from "@/lib/auth/useAuthStore";
+import { selectMistakeLogForStudent, selectNotificationPreferences, useAuthStore } from "@/lib/auth/useAuthStore";
+import { selectParentSubscription, useSubscriptionStore } from "@/lib/payments/useSubscriptionStore";
 import { studentToWhatsAppProfile } from "@/lib/whatsapp/buildReportPayload";
 
 const PREFERENCE_ROWS: { key: keyof NotificationPreferences; label: string; description: string }[] = [
@@ -43,11 +43,11 @@ export default function ParentCommandCenterPage() {
   const testHistory = useAuthStore((s) => s.testHistory);
   const updateNotificationPreferences = useAuthStore((s) => s.updateNotificationPreferences);
   const markAllMistakesReviewed = useAuthStore((s) => s.markAllMistakesReviewed);
-  const unreviewedTotal = useAuthStore((s) => (activeStudentId ? selectUnreviewedMistakeCount(s, activeStudentId) : 0));
-  const unreviewedCareless = useAuthStore((s) =>
-    activeStudentId ? selectUnreviewedCarelessCount(s, activeStudentId) : 0
+  const activeMistakeLog = useAuthStore((s) =>
+    activeStudentId ? selectMistakeLogForStudent(s, activeStudentId) : []
   );
   const preferences = useAuthStore((s) => selectNotificationPreferences(s, parent?.id ?? null));
+  const subscription = useSubscriptionStore((s) => selectParentSubscription(s, parent?.id ?? null));
 
   const [testReportOpen, setTestReportOpen] = useState(false);
 
@@ -104,6 +104,15 @@ export default function ParentCommandCenterPage() {
         ))}
       </div>
 
+      <Card>
+        <CardHeader>
+          <CardTitle className="text-base">Family Accuracy Overview</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <FamilyAccuracyOverview students={students} history={testHistory} />
+        </CardContent>
+      </Card>
+
       {activeStudent ? (
         <>
           <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
@@ -130,33 +139,35 @@ export default function ParentCommandCenterPage() {
 
           <Card>
             <CardHeader>
-              <CardTitle className="flex items-center justify-between text-base">
-                <span>Mistake Vault</span>
-                {unreviewedTotal > 0 ? <Badge variant="destructive">{unreviewedTotal} unreviewed</Badge> : null}
-              </CardTitle>
+              <CardTitle className="text-base">Section-Wise Breakdown — Recent Attempts</CardTitle>
             </CardHeader>
-            <CardContent className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-              <p className="text-sm text-muted-foreground">
-                {unreviewedTotal === 0
-                  ? "No unreviewed mistakes — nice work."
-                  : `${unreviewedTotal} unreviewed mistake${unreviewedTotal === 1 ? "" : "s"} across all tests, including ${unreviewedCareless} careless/rushed error${unreviewedCareless === 1 ? "" : "s"}.`}
-              </p>
-              <div className="flex flex-wrap gap-2">
-                <Button asChild type="button" variant="outline" size="sm">
-                  <Link href="/dashboard/mistakes">View Full Mistake Vault</Link>
-                </Button>
-                {unreviewedTotal > 0 ? (
-                  <Button
-                    type="button"
-                    variant="outline"
-                    size="sm"
-                    onClick={() => markAllMistakesReviewed(activeStudent.id)}
-                  >
-                    <CheckCheck className="h-4 w-4" />
-                    Mark All Reviewed
-                  </Button>
-                ) : null}
-              </div>
+            <CardContent>
+              <RecentAttemptsBreakdown history={activeHistory} />
+            </CardContent>
+          </Card>
+
+          <Card>
+            <CardHeader>
+              <CardTitle className="text-base">Mistake Vault</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <MistakeVaultProgress
+                mistakes={activeMistakeLog}
+                onMarkAllReviewed={() => markAllMistakesReviewed(activeStudent.id)}
+              />
+            </CardContent>
+          </Card>
+
+          <Card>
+            <CardHeader>
+              <CardTitle className="text-base">Subscription &amp; Entitlements</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <SubscriptionManager
+                parentId={parent.id}
+                subscription={subscription}
+                defaultExam={activeStudent.targetExam}
+              />
             </CardContent>
           </Card>
 

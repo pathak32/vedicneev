@@ -29,7 +29,7 @@ export function ProgressChart({ history }: ProgressChartProps) {
       viewBox={`0 0 ${WIDTH} ${CHART_HEIGHT + LABEL_HEIGHT}`}
       role="img"
       aria-label="Accuracy percentage over the last 5 mock tests"
-      className="w-full"
+      className="mx-auto block w-full max-w-sm"
     >
       {recent.map((entry, i) => {
         const barHeight = Math.max(2, (entry.accuracyPercent / 100) * CHART_HEIGHT);
