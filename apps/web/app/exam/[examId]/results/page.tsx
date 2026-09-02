@@ -76,10 +76,27 @@ export default function ExamResultsPage({ params }: { params: { examId: string }
   // Record this attempt against the active student once (guarded so re-renders / a
   // student switch mid-view don't double-count it), then fan out into the Mistake
   // Vault log and — if the parent opted in — an auto-dispatched WhatsApp scorecard.
+  // The ref alone only survives the current mount, so a remount (nav away/back, or
+  // clicking a dashboard exam card into this same route) would re-fire against the
+  // still-persisted test session and duplicate the history entry — so we also check
+  // the persisted testHistory itself before recording.
   useEffect(() => {
     if (!report || !activeStudent || !session || !submittedAt || !admissionProbability) return;
     const recordKey = `${session.examId}-${submittedAt}`;
     if (recordedForRef.current === recordKey) return;
+
+    const alreadyRecorded = useAuthStore
+      .getState()
+      .testHistory.some(
+        (entry) =>
+          entry.studentId === activeStudent.id &&
+          entry.examId === session.examId &&
+          entry.submittedAt === submittedAt
+      );
+    if (alreadyRecorded) {
+      recordedForRef.current = recordKey;
+      return;
+    }
     recordedForRef.current = recordKey;
 
     const historyEntry = recordTestResult({

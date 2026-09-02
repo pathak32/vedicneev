@@ -2,10 +2,11 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "vedicneev-web",
+      "name": "web",
       "runtimeExecutable": "npm",
       "runtimeArgs": ["run", "dev", "--workspace=@vedicneev/web"],
-      "port": 3000
+      "port": 3000,
+      "autoPort": true
     }
   ]
 }
