@@ -24,8 +24,19 @@ interface SubmitRequestBody {
 }
 
 export async function POST(req: Request) {
+  let body: SubmitRequestBody;
   try {
-    const body = (await req.json()) as SubmitRequestBody;
+    body = (await req.json()) as SubmitRequestBody;
+  } catch {
+    // A malformed, empty, or client-aborted request body (e.g. the results
+    // page's fire-and-forget sync fetch getting cut off by navigation) is an
+    // expected, benign condition — not a server bug — so it gets a clean 400
+    // instead of falling into the generic 500 branch below with a noisy
+    // undici stack trace logged for something that isn't a real failure.
+    return NextResponse.json({ error: "Malformed or empty request body" }, { status: 400 });
+  }
+
+  try {
     const {
       phone,
       examTemplateSlug = "demo-jnvst",

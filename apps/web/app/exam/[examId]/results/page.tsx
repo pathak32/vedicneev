@@ -103,6 +103,7 @@ export default function ExamResultsPage({ params }: { params: { examId: string }
       fetch("/api/exam/submit", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
+        keepalive: true,
         body: JSON.stringify({
           phone: parent.phone,
           examTemplateSlug: session.examId,
