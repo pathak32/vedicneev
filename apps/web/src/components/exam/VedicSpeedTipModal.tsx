@@ -11,6 +11,7 @@ import {
 } from "@vedicneev/ui";
 import { Lightbulb } from "lucide-react";
 
+import { localize } from "@/lib/exam/localize";
 import type { LanguageCode, VedicSpeedHack } from "@/lib/exam/types";
 
 export interface VedicSpeedTipModalProps {
@@ -32,10 +33,10 @@ export function VedicSpeedTipModal({ hack, language }: VedicSpeedTipModalProps) 
         <SheetHeader>
           <SheetTitle className="flex items-center gap-2">
             <Lightbulb className="h-5 w-5 text-primary" />
-            {hack.title[language]}
+            {localize(hack.title, language)}
           </SheetTitle>
           <SheetDescription className="text-base leading-relaxed text-foreground">
-            {hack.description[language]}
+            {localize(hack.description, language)}
           </SheetDescription>
         </SheetHeader>
       </SheetContent>

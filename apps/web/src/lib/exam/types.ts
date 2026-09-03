@@ -1,6 +1,12 @@
-export type LanguageCode = "en" | "hi";
+export type LanguageCode = "en" | "hi" | "mr" | "bn" | "ta";
 
-export type Bilingual = Record<LanguageCode, string>;
+/**
+ * "en" is always present — the guaranteed fallback for a language that
+ * hasn't been translated yet. Other languages are filled in incrementally
+ * (see StateConfiguration in packages/db/prisma/schema.prisma), so they're
+ * optional rather than required like the old two-language `Bilingual` shape.
+ */
+export type Multilingual = Partial<Record<LanguageCode, string>> & { en: string };
 
 export type QuestionStatus =
   | "UNVISITED"
@@ -13,7 +19,7 @@ export type QuestionDifficulty = "EASY" | "MEDIUM" | "HARD";
 
 export interface ExamOption {
   id: string;
-  text?: Bilingual;
+  text?: Multilingual;
   imageUrl?: string;
 }
 
@@ -35,12 +41,12 @@ export interface ExamQuestion {
   sectionKey: string;
   topicKey: string;
   difficulty: QuestionDifficulty;
-  content: Bilingual;
+  content: Multilingual;
   options: ExamOption[];
   correctOption: string;
   figureMetadata?: FigureMetadata | null;
   vedicSpeedHackId?: string | null;
-  explanation?: Bilingual | null;
+  explanation?: Multilingual | null;
   explanationVideoUrl?: string | null;
   timeLimitSeconds: number;
 }
@@ -48,13 +54,13 @@ export interface ExamQuestion {
 export interface VedicSpeedHack {
   id: string;
   key: string;
-  title: Bilingual;
-  description: Bilingual;
+  title: Multilingual;
+  description: Multilingual;
 }
 
 export interface ExamSectionConfig {
   key: string;
-  name: Bilingual;
+  name: Multilingual;
   order: number;
   /** Sectional time limit in seconds; null shares the exam's overall timer. */
   timeLimitSeconds: number | null;
@@ -66,7 +72,7 @@ export type ExamType = "JNVST" | "AISSEE" | "RMS" | "DPS";
 export interface ExamSessionData {
   examId: string;
   examType: ExamType;
-  templateName: Bilingual;
+  templateName: Multilingual;
   totalDurationSeconds: number;
   negativeMarkingRatio: number;
   sections: ExamSectionConfig[];

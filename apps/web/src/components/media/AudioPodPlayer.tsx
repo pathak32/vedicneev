@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { Badge, Button, cn } from "@vedicneev/ui";
-import { formatDuration } from "@vedicneev/engine";
+import { formatDuration, localizeMediaText } from "@vedicneev/engine";
 import type { AccessResult, MediaItem } from "@vedicneev/engine";
 import { ChevronDown, ChevronUp, Lock, Pause, Play, RotateCcw, RotateCw, X } from "lucide-react";
 
@@ -86,7 +86,7 @@ export function AudioPodPlayer({ item, language, onClose, access, onConsumePrevi
             )}
           </Button>
           <div className="min-w-0 flex-1">
-            <p className="truncate text-sm font-semibold text-foreground">{item.title[lang]}</p>
+            <p className="truncate text-sm font-semibold text-foreground">{localizeMediaText(item.title, lang)}</p>
             <div className="mt-1 h-1 w-full overflow-hidden rounded-full bg-muted">
               <div className="h-full bg-primary" style={{ width: `${progressPercent}%` }} />
             </div>
@@ -204,7 +204,7 @@ export function AudioPodPlayer({ item, language, onClose, access, onConsumePrevi
                     </button>
                     {showTranscript ? (
                       <p className="mt-2 rounded-md bg-muted/60 p-3 text-sm text-foreground">
-                        {item.transcript[lang]}
+                        {localizeMediaText(item.transcript, lang)}
                       </p>
                     ) : null}
                   </div>

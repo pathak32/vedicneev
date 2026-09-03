@@ -1,4 +1,4 @@
-import { Difficulty, ExamType, Prisma, PrismaClient } from "@prisma/client";
+import { Difficulty, ExamType, Language, Prisma, PrismaClient } from "@prisma/client";
 
 import { blogSeedPosts } from "./blog-seed";
 
@@ -530,6 +530,48 @@ async function main() {
   } else {
     console.log(`Skipping media item seed — ${existingMediaItemCount} item(s) already exist.`);
   }
+
+  // ── State configurations (which languages an exam is offered in, per state) ─
+  const stateConfigurations: {
+    stateCode: string;
+    stateName: Prisma.InputJsonValue;
+    examType: ExamType;
+    activeLanguages: Language[];
+  }[] = [
+    {
+      stateCode: "MH",
+      stateName: { en: "Maharashtra", hi: "महाराष्ट्र" },
+      examType: "JNVST",
+      activeLanguages: ["EN", "HI", "MR"],
+    },
+    {
+      stateCode: "WB",
+      stateName: { en: "West Bengal", hi: "पश्चिम बंगाल" },
+      examType: "JNVST",
+      activeLanguages: ["EN", "HI", "BN"],
+    },
+    {
+      stateCode: "TN",
+      stateName: { en: "Tamil Nadu", hi: "तमिलनाडु" },
+      examType: "JNVST",
+      activeLanguages: ["EN", "HI", "TA"],
+    },
+    {
+      stateCode: "UP",
+      stateName: { en: "Uttar Pradesh", hi: "उत्तर प्रदेश" },
+      examType: "JNVST",
+      activeLanguages: ["EN", "HI"],
+    },
+  ];
+
+  for (const config of stateConfigurations) {
+    await prisma.stateConfiguration.upsert({
+      where: { stateCode_examType: { stateCode: config.stateCode, examType: config.examType } },
+      update: {},
+      create: config,
+    });
+  }
+  console.log(`State configurations: ${stateConfigurations.length} processed.`);
 
   // ── Blog drafts (organic SEO seed content) ─────────────────────────
   // Upsert by slug (unique) so re-running this script is safe: existing

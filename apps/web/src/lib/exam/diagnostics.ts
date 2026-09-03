@@ -12,7 +12,7 @@ import {
   type SpeedDeficitSummary,
 } from "@vedicneev/engine";
 
-import type { Bilingual, ExamQuestion, ExamSessionData } from "./types";
+import type { ExamQuestion, ExamSessionData, Multilingual } from "./types";
 import { SAMPLE_PERCENTILE_COHORT } from "./cutoff-data";
 import { TOPIC_NAMES } from "./mock-data";
 
@@ -37,7 +37,7 @@ export interface MistakeReport {
 
 export interface GroupAccuracy {
   key: string;
-  name: Bilingual;
+  name: Multilingual;
   correct: number;
   attempted: number;
   total: number;
@@ -69,7 +69,7 @@ function buildGroupAccuracy(
   questions: ExamQuestion[],
   selectedOptions: Record<string, string | undefined>,
   groupKeyFn: (q: ExamQuestion) => string,
-  nameLookup: (key: string) => Bilingual
+  nameLookup: (key: string) => Multilingual
 ): GroupAccuracy[] {
   const buckets = new Map<string, { correct: number; attempted: number; total: number }>();
   for (const question of questions) {

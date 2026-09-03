@@ -1,6 +1,6 @@
-import type { Bilingual, ExamQuestion, ExamSessionData, VedicSpeedHack } from "./types";
+import type { ExamQuestion, ExamSessionData, Multilingual, VedicSpeedHack } from "./types";
 
-export const TOPIC_NAMES: Record<string, Bilingual> = {
+export const TOPIC_NAMES: Record<string, Multilingual> = {
   number_series: { en: "Number & Letter Series", hi: "संख्या एवं अक्षर श्रृंखला" },
   pattern_completion: { en: "Pattern Completion", hi: "पैटर्न पूर्णता" },
   classification: { en: "Classification", hi: "वर्गीकरण" },
@@ -77,20 +77,30 @@ const mentalAbilityQuestions: ExamQuestion[] = [
     sectionKey: "mental_ability",
     topicKey: "number_series",
     difficulty: "EASY",
+    // Fully translated into every supported language as a demonstration of
+    // the multilingual pipeline; the rest of the demo bank intentionally
+    // stays en/hi-only so the runner's fallback-to-English behavior (for a
+    // language a question hasn't been translated into yet) is also exercised.
     content: {
       en: "Find the missing number: 2, 4, 8, 16, ?, 64",
       hi: "लुप्त संख्या ज्ञात करें: 2, 4, 8, 16, ?, 64",
+      mr: "लुप्त संख्या शोधा: 2, 4, 8, 16, ?, 64",
+      bn: "অনুপস্থিত সংখ্যাটি খুঁজুন: 2, 4, 8, 16, ?, 64",
+      ta: "விடுபட்ட எண்ணைக் கண்டறியவும்: 2, 4, 8, 16, ?, 64",
     },
     options: [
-      { id: "a", text: { en: "24", hi: "24" } },
-      { id: "b", text: { en: "32", hi: "32" } },
-      { id: "c", text: { en: "48", hi: "48" } },
-      { id: "d", text: { en: "36", hi: "36" } },
+      { id: "a", text: { en: "24", hi: "24", mr: "24", bn: "24", ta: "24" } },
+      { id: "b", text: { en: "32", hi: "32", mr: "32", bn: "32", ta: "32" } },
+      { id: "c", text: { en: "48", hi: "48", mr: "48", bn: "48", ta: "48" } },
+      { id: "d", text: { en: "36", hi: "36", mr: "36", bn: "36", ta: "36" } },
     ],
     correctOption: "b",
     explanation: {
       en: "Each number is double the previous one: 8×2=16, 16×2=32.",
       hi: "प्रत्येक संख्या पिछली संख्या की दोगुनी है: 8×2=16, 16×2=32।",
+      mr: "प्रत्येक संख्या मागील संख्येच्या दुप्पट आहे: 8×2=16, 16×2=32.",
+      bn: "প্রতিটি সংখ্যা আগেরটির দ্বিগুণ: 8×2=16, 16×2=32।",
+      ta: "ஒவ்வொரு எண்ணும் முந்தைய எண்ணின் இரு மடங்கு: 8×2=16, 16×2=32.",
     },
     timeLimitSeconds: 45,
   },
@@ -363,14 +373,26 @@ for (const hack of speedHacks) speedHacksById[hack.id] = hack;
 export const demoJnvstSession: ExamSessionData = {
   examId: "demo-jnvst",
   examType: "JNVST",
-  templateName: { en: "JNVST Class 6 Selection Test (Demo)", hi: "जेएनवीएसटी कक्षा 6 चयन परीक्षा (डेमो)" },
+  templateName: {
+    en: "JNVST Class 6 Selection Test (Demo)",
+    hi: "जेएनवीएसटी कक्षा 6 चयन परीक्षा (डेमो)",
+    mr: "जेएनव्हीएसटी इयत्ता 6 निवड चाचणी (डेमो)",
+    bn: "জেএনভিএসটি ষষ্ঠ শ্রেণির নির্বাচন পরীক্ষা (ডেমো)",
+    ta: "ஜேஎன்விஎஸ்டி 6ஆம் வகுப்பு தேர்வுத் தேர்வு (டெமோ)",
+  },
   // Scaled-down demo timing (real JNVST Class 6 is 120 minutes / 80 questions).
   totalDurationSeconds: 5 * 60 + 3 * 60 + 3 * 60,
   negativeMarkingRatio: 0,
   sections: [
     {
       key: "mental_ability",
-      name: { en: "Mental Ability", hi: "मानसिक योग्यता" },
+      name: {
+        en: "Mental Ability",
+        hi: "मानसिक योग्यता",
+        mr: "मानसिक क्षमता",
+        bn: "মানসিক দক্ষতা",
+        ta: "மனத் திறன்",
+      },
       order: 1,
       timeLimitSeconds: 5 * 60,
       questionIds: mentalAbilityQuestions.map((q) => q.id),
