@@ -267,7 +267,13 @@ model VedicSpeedHack {
 // ─────────────────────────────────────────────────────────────────────────
 
 model Question {
-  id         String     @id @default(cuid())
+  id  String  @id @default(cuid())
+  // Stable natural key every seed-authored question upserts on, e.g.
+  // "jnvst6-ma-numseries-01" — never shown to students. See
+  // prisma/seed.ts's backfillLegacyQuestionKeys for how the handful of
+  // rows that predate this column got one.
+  key String @unique @map("question_key")
+
   topicId    String     @map("topic_id")
   topic      Topic      @relation(fields: [topicId], references: [id], onDelete: Cascade)
   difficulty Difficulty @default(MEDIUM)
