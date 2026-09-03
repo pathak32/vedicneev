@@ -16,6 +16,7 @@ import {
 
 import { FeatureGrid } from "@/components/marketing/FeatureGrid";
 import { FinalCta } from "@/components/marketing/FinalCta";
+import { HeroSection } from "@/components/marketing/HeroSection";
 import { PricingTeaser } from "@/components/marketing/PricingTeaser";
 import { Reveal } from "@/components/marketing/Reveal";
 import { TestimonialCarousel } from "@/components/marketing/TestimonialCarousel";
@@ -32,21 +33,9 @@ export default function HomePage() {
 
   return (
     <main className="flex flex-col">
-      <section className="flex flex-col items-center gap-8 px-4 pb-20 pt-16 text-center md:px-8 md:pt-24">
-        <Reveal className="flex max-w-2xl flex-col items-center gap-4">
-          <Badge variant="outline" className="gap-1.5 text-xs font-medium">
-            <Sparkles className="h-3 w-3 text-primary" />
-            K-8 entrance exam prep
-          </Badge>
-          <h1 className="text-3xl font-extrabold leading-tight tracking-tight text-foreground md:text-5xl">
-            Prep that diagnoses mistakes, not just scores tests
-          </h1>
-          <p className="text-base text-muted-foreground md:text-lg">
-            Full-length JNVST, AISSEE, and RMS mock tests with instant speed-vs-accuracy diagnostics and a
-            Mistake Vault that turns every wrong answer into a lesson.
-          </p>
-        </Reveal>
+      <HeroSection />
 
+      <section className="flex flex-col items-center gap-8 px-4 pb-20 pt-12 text-center md:px-8">
         <Reveal delayMs={120} className="w-full max-w-md">
           <Card className="w-full text-left shadow-sm">
             <CardHeader>
@@ -63,6 +52,12 @@ export default function HomePage() {
             <CardContent className="flex flex-col gap-2">
               <Button asChild size="lg">
                 <Link href="/exam/demo-jnvst">Start a mock test</Link>
+              </Button>
+              <Button asChild variant="outline">
+                <Link href="/exam/jnvst-live-mock">
+                  <Sparkles className="h-4 w-4" />
+                  Generate a fresh JNVST mock (PYQ bank)
+                </Link>
               </Button>
               <Button asChild variant="outline">
                 <Link href="/exam/demo-jnvst/omr/print">

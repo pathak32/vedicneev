@@ -7,6 +7,10 @@ export const TOPIC_NAMES: Record<string, Multilingual> = {
   speed_calculation: { en: "Speed Calculation", hi: "तीव्र गणना" },
   vocabulary: { en: "Vocabulary", hi: "शब्दावली" },
   grammar: { en: "Grammar", hi: "व्याकरण" },
+  // PreviousYearQuestion (see jnvstMockService.ts) tracks section-level
+  // granularity only, not a real Topic — every PYQ-bank question is
+  // stamped with this fixed topicKey instead of a genuine Topic.key.
+  pyq: { en: "Previous-Year Practice", hi: "पिछले वर्ष का अभ्यास" },
 };
 
 /**
