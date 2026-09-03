@@ -127,9 +127,10 @@ model User {
   createdAt DateTime @default(now()) @map("created_at")
   updatedAt DateTime @updatedAt @map("updated_at")
 
-  testSessions  TestSession[]
-  mistakes      MistakeVault[]
-  subscriptions Subscription[]
+  testSessions        TestSession[]
+  mistakes            MistakeVault[]
+  subscriptions       Subscription[]
+  offlineMockSessions OfflineMockSession[]
 
   @@index([parentId])
   @@map("users")
@@ -466,6 +467,65 @@ model MistakeVault {
   @@index([userId, tagCategory])
   @@index([userId, questionId])
   @@map("mistake_vault")
+}
+
+// ─────────────────────────────────────────────────────────────────────────
+// Offline OMR workflow (print a set, scan and grade it later)
+// ─────────────────────────────────────────────────────────────────────────
+
+// A printable offline mock set: a fixed batch of questions assigned a
+// human-readable serialCode (e.g. "VN-JNV-007") so grading can be
+// requested later by that code instead of re-uploading the question set.
+// questionIds/answerKey are Json rather than relations because a set is a
+// point-in-time snapshot of whatever was actually printed — if the source
+// question is edited afterward, an already-printed sheet's key must stay
+// exactly what a student has in hand, not silently follow the edit.
+model OfflineMockSession {
+  id         String @id @default(cuid())
+  serialCode String @unique @map("serial_code")
+
+  // Reuses the existing ExamType enum (matches every other exam-typed
+  // field in this schema) rather than a free-form String, so this can't
+  // drift out of sync with JNVST/AISSEE/RMS/DPS/OTHER.
+  examType   ExamType @map("exam_type")
+  classLevel Int      @map("class_level")
+
+  totalQuestions Int @map("total_questions")
+
+  // Question ids in print order. Values match Question.id or
+  // PreviousYearQuestion.id depending on which bank the set was drawn
+  // from — deliberately not a DB-level relation, for the snapshot reason
+  // above.
+  questionIds Json @map("question_ids")
+
+  // Keyed by question number (1-based, matching the printed sheet) to the
+  // correct bubble option. Uses "A"|"B"|"C"|"D" — not a 0-3 index — to
+  // match packages/engine/src/omrEvaluator.ts's BubbleOption /
+  // OmrAnswerKeyEntry shape exactly, e.g. { "1": "B", "2": "D", ... }, so
+  // this can be handed straight to evaluateOmrSheet() with no translation
+  // once the scan-and-grade step is built.
+  answerKey Json @map("answer_key")
+
+  // Set only when a signed-in student generated this set (vs. an
+  // anonymous print, e.g. from a shared library computer).
+  userId String? @map("user_id")
+  user   User?   @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  // Populated once the filled sheet is scanned and uploaded (Supabase
+  // Storage), ahead of grading actually running against it.
+  scannedImageUrl String? @map("scanned_image_url")
+
+  // Set once grading has run. Mirrors
+  // packages/engine/src/omrEvaluator.ts's OmrSheetEvaluationSummary shape:
+  // { responses, totalMarks, correctCount, incorrectCount,
+  //   unattemptedCount, invalidCount }.
+  gradingResult Json? @map("grading_result")
+
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@index([userId])
+  @@index([examType, classLevel])
+  @@map("offline_mock_sessions")
 }
 
 // ─────────────────────────────────────────────────────────────────────────
