@@ -17,6 +17,18 @@ const HERO_HEADLINES: Record<LanguageCode, string> = {
   ta: "அரசு உறைவிடப் பள்ளி நுழைவுத் தேர்வில் திறமை பெறுங்கள்",
 };
 
+// Short per-language quest taglines for the top badge. Deliberately avoid
+// outcome-guarantee language ("success guaranteed") for an exam-prep
+// product — no admission can honestly be promised, so these stay energetic
+// without overpromising.
+const HERO_BADGES: Record<LanguageCode, string> = {
+  en: "⚡ 10x Vedic Speed",
+  hi: "🎯 सटीक तैयारी",
+  mr: "🚀 स्मार्ट सराव",
+  bn: "💡 স্মার্ট শিক্ষা",
+  ta: "🔥 வேக பயிற்சி",
+};
+
 /** Short native-script label for the compact language pills — derives from the shared catalog's "Native (English)" label instead of a second hardcoded list. */
 function shortLabel(label: string): string {
   return label.split(" (")[0] ?? label;
@@ -61,104 +73,141 @@ export function HeroSection() {
   }
 
   return (
-    <section className="relative overflow-hidden bg-slate-950 py-20 text-white lg:py-32">
-      <div className="pointer-events-none absolute left-1/2 top-1/4 h-[350px] w-[600px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-amber-500/10 blur-[120px]" />
+    <section className="relative overflow-hidden border-b border-slate-900 bg-slate-950 py-24 text-white lg:py-36">
+      {/* Immersive ambient glow mesh — two offset blurred blobs (amber + emerald) rather than a single 3-stop gradient, so it reads as a mesh instead of a flat wash. */}
+      <div className="pointer-events-none absolute -left-24 top-0 h-[420px] w-[560px] rounded-full bg-amber-500/15 blur-[130px]" />
+      <div className="pointer-events-none absolute -right-24 bottom-0 h-[420px] w-[560px] rounded-full bg-emerald-500/10 blur-[130px]" />
+      {/* Subtle grid, faded toward the edges so it reads as texture, not noise. */}
+      <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(to_right,#1e293b1a_1px,transparent_1px),linear-gradient(to_bottom,#1e293b1a_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]" />
 
       <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-12">
-          <div className="space-y-6 text-center lg:col-span-7 lg:text-left">
-            <div className="inline-flex items-center gap-2 rounded-full border border-amber-500/20 bg-amber-500/10 px-3 py-1 text-xs font-medium uppercase tracking-wider text-amber-400">
-              <span>🚀 India&rsquo;s 5-Language Boarding School Engine</span>
+          <div className="space-y-8 text-center lg:col-span-7 lg:text-left">
+            {/* Quest badge — live-dot ping + per-language tagline */}
+            <div className="inline-flex items-center gap-2.5 rounded-full border border-slate-800 bg-slate-900/90 px-4 py-1.5 text-xs font-semibold text-amber-400 shadow-inner shadow-amber-500/10">
+              <span className="relative flex h-2 w-2">
+                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-amber-400 opacity-75 motion-reduce:hidden" />
+                <span className="relative inline-flex h-2 w-2 rounded-full bg-amber-400" />
+              </span>
+              <span>{HERO_BADGES[activeLanguage]} • JNVST | RMS | AISSEE 2026</span>
             </div>
 
-            <div className="flex h-24 items-center justify-center sm:h-20 lg:justify-start">
+            {/* Kinetic headline — a genuinely FIXED height (not min-height,
+                which still lets the box grow and push everything below it
+                down when a longer script rotates in) sized to the tallest
+                of the 5 languages at each breakpoint, measured directly in
+                the browser: ~159px worst case below the sm breakpoint,
+                ~240px at and above it (Tamil/Bengali both wrap to 3 lines
+                at text-6xl). Shorter headlines just sit vertically centered
+                in the extra space instead of shrinking the box. */}
+            <div className="flex h-44 items-center justify-center sm:h-64 lg:justify-start">
               <h1
                 key={activeLanguage}
-                className="animate-in fade-in slide-in-from-bottom-2 text-3xl font-extrabold leading-tight tracking-tight duration-500 motion-reduce:animate-none sm:text-5xl"
+                className="animate-in fade-in slide-in-from-bottom-2 bg-gradient-to-br from-white via-slate-100 to-slate-400 bg-clip-text text-4xl font-black leading-[1.1] tracking-tight text-transparent duration-500 motion-reduce:animate-none sm:text-6xl"
               >
                 {HERO_HEADLINES[activeLanguage]}
               </h1>
             </div>
 
-            <p className="mx-auto max-w-2xl text-base text-slate-400 sm:text-lg lg:mx-0">
-              Targeted preparation for <strong className="text-slate-200">JNVST, RMS, and AISSEE</strong> (Classes
-              6 &amp; 9) powered by adaptive error correction, real-time OMR simulation, and regional language
-              support.
+            <p className="mx-auto max-w-2xl text-lg leading-relaxed text-slate-400 sm:text-xl lg:mx-0">
+              India&rsquo;s premier gamified entrance engine. Master{" "}
+              <strong className="font-semibold text-amber-400">Vedic Math sutras</strong>, smart error correction,
+              and real-time OMR tests in your regional language.
             </p>
 
-            <div className="flex flex-wrap items-center justify-center gap-2 pt-2 lg:justify-start">
-              <span className="text-xs font-medium text-slate-500">Test in:</span>
-              {SUPPORTED_LANGUAGES.map((l) => (
-                <button
-                  key={l.code}
-                  type="button"
-                  onClick={() => selectLanguage(l.code)}
-                  aria-pressed={activeLanguage === l.code}
-                  className={cn(
-                    "rounded px-2.5 py-1 text-xs font-semibold transition-colors",
-                    activeLanguage === l.code
-                      ? "bg-amber-500 text-slate-950 shadow-md shadow-amber-500/20"
-                      : "border border-slate-800 bg-slate-900 text-slate-400 hover:text-white"
-                  )}
-                >
-                  {shortLabel(l.label)}
-                </button>
-              ))}
+            {/* Kinetic language selector — writes straight to useLanguageStore, so a choice here is the same app-wide preference the exam runner reads. */}
+            <div className="space-y-2 pt-2">
+              <div className="text-xs font-semibold uppercase tracking-wider text-slate-500">
+                Instant multi-language engine — click to switch app-wide:
+              </div>
+              <div className="flex flex-wrap items-center justify-center gap-2 lg:justify-start">
+                {SUPPORTED_LANGUAGES.map((l) => (
+                  <button
+                    key={l.code}
+                    type="button"
+                    onClick={() => selectLanguage(l.code)}
+                    aria-pressed={activeLanguage === l.code}
+                    className={cn(
+                      "rounded-lg px-3 py-1.5 text-xs font-bold transition-all duration-300",
+                      activeLanguage === l.code
+                        ? "scale-105 bg-amber-500 text-slate-950 shadow-lg shadow-amber-500/25 ring-2 ring-amber-400/50"
+                        : "border border-slate-800 bg-slate-900/80 text-slate-400 hover:bg-slate-800 hover:text-white"
+                    )}
+                  >
+                    {shortLabel(l.label)}
+                  </button>
+                ))}
+              </div>
             </div>
 
             <div className="flex flex-col items-center justify-center gap-4 pt-4 sm:flex-row lg:justify-start">
               <Link
                 href="/exam/demo-jnvst"
-                className="w-full rounded-xl bg-amber-500 px-8 py-3.5 text-center font-bold text-slate-950 shadow-lg shadow-amber-500/10 transition-colors hover:bg-amber-400 sm:w-auto"
+                className="w-full -translate-y-0 transform rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 px-8 py-4 text-center font-extrabold text-slate-950 shadow-xl shadow-amber-500/20 transition-all hover:-translate-y-0.5 hover:from-amber-400 hover:to-amber-500 sm:w-auto"
               >
                 Start Free Mock Test
               </Link>
               <Link
                 href="/blog"
-                className="w-full rounded-xl border border-slate-800 bg-slate-900 px-8 py-3.5 text-center font-semibold text-slate-200 transition-colors hover:bg-slate-800 sm:w-auto"
+                className="w-full rounded-xl border border-slate-800 bg-slate-900/90 px-8 py-4 text-center font-semibold text-slate-200 transition-all hover:bg-slate-800 sm:w-auto"
               >
-                Read Exam Strategy Blogs
+                Read Exam Strategy
               </Link>
             </div>
           </div>
 
+          {/* Gamified command-card preview */}
           <div className="lg:col-span-5">
-            <div className="relative rounded-2xl border border-slate-800 bg-slate-900/80 p-6 shadow-2xl backdrop-blur-xl">
-              <div className="mb-6 flex items-center justify-between border-b border-slate-800 pb-4">
+            <div className="group relative rounded-3xl border border-slate-800/80 bg-slate-900/90 p-6 shadow-2xl backdrop-blur-2xl transition-all duration-500 hover:border-amber-500/40 sm:p-8">
+              <div className="mb-6 flex items-center justify-between border-b border-slate-800/80 pb-4">
                 <div className="flex items-center gap-2">
-                  <div className="h-3 w-3 rounded-full bg-rose-500" />
-                  <div className="h-3 w-3 rounded-full bg-amber-500" />
-                  <div className="h-3 w-3 rounded-full bg-emerald-500" />
+                  <div className="h-3 w-3 rounded-full bg-rose-500/80" />
+                  <div className="h-3 w-3 rounded-full bg-amber-500/80" />
+                  <div className="h-3 w-3 rounded-full bg-emerald-500/80" />
                 </div>
-                <span className="font-mono text-xs text-slate-400">parent-command-center.v2</span>
+                <span className="font-mono text-xs font-medium text-amber-400/90">vedic-quest-engine.preview</span>
               </div>
 
               <div className="space-y-4">
-                <div className="flex items-center justify-between rounded-xl border border-slate-800/60 bg-slate-950 p-4">
+                <div className="flex items-center justify-between rounded-2xl border border-slate-800/80 bg-slate-950 p-4">
                   <div>
-                    <p className="text-xs text-slate-400">Target Examination</p>
-                    <p className="text-sm font-bold text-amber-400">AISSEE &amp; JNVST Class 6</p>
+                    <p className="text-xs text-slate-400">Target Boarding School Tier</p>
+                    <p className="mt-0.5 text-sm font-bold text-amber-400">JNVST &amp; RMS Class 6 Elite</p>
                   </div>
-                  <span className="rounded border border-emerald-500/20 bg-emerald-500/10 px-2 py-1 text-xs text-emerald-400">
-                    Active Sync
+                  <span className="rounded-lg border border-emerald-500/25 bg-emerald-500/10 px-2.5 py-1 font-mono text-xs text-emerald-400">
+                    ONLINE
                   </span>
                 </div>
 
                 <div className="grid grid-cols-2 gap-4">
-                  <div className="rounded-xl border border-slate-800/60 bg-slate-950 p-4">
-                    <p className="text-xs text-slate-400">Mock Accuracy</p>
-                    <p className="mt-1 text-xl font-extrabold text-white">88.4%</p>
+                  <div className="rounded-2xl border border-slate-800/80 bg-slate-950 p-4">
+                    <p className="text-xs text-slate-400">Calculation Multiplier</p>
+                    <p className="mt-1 text-2xl font-black text-white">
+                      10<span className="text-base">×</span> <span className="text-xs font-normal text-amber-400">Sutras</span>
+                    </p>
                   </div>
-                  <div className="rounded-xl border border-slate-800/60 bg-slate-950 p-4">
-                    <p className="text-xs text-slate-400">Mistake Vault</p>
-                    <p className="mt-1 text-xl font-extrabold text-amber-400">12 Cleared</p>
+                  <div className="rounded-2xl border border-slate-800/80 bg-slate-950 p-4">
+                    <p className="text-xs text-slate-400">Study Streak</p>
+                    <p className="mt-1 text-2xl font-black text-amber-400">
+                      7<span className="text-base">d</span> <span className="text-xs font-normal text-emerald-400">🔥</span>
+                    </p>
                   </div>
                 </div>
 
-                <div className="flex items-center gap-2 rounded-xl border border-amber-500/10 bg-amber-500/5 p-3 text-xs text-amber-300/90">
-                  <span>💡</span>
-                  <span>Illustrative preview — synced in real time via our secure Supabase Postgres backend.</span>
+                <div className="space-y-2 rounded-2xl border border-slate-800/80 bg-slate-950 p-4">
+                  <div className="flex justify-between text-xs font-medium">
+                    <span className="text-slate-400">Daily Quest Mastery</span>
+                    <span className="text-amber-400">85% Complete</span>
+                  </div>
+                  <div className="h-2 w-full overflow-hidden rounded-full bg-slate-900">
+                    <div className="h-full w-[85%] animate-pulse rounded-full bg-gradient-to-r from-amber-500 to-emerald-400 motion-reduce:animate-none" />
+                  </div>
+                  <p className="pt-0.5 text-[11px] text-slate-500">🛡️ Mistake Vault — 12 cleared this week</p>
                 </div>
+
+                <p className="text-[11px] text-slate-600">
+                  Illustrative preview — real progress syncs live once you sign in.
+                </p>
               </div>
             </div>
           </div>
