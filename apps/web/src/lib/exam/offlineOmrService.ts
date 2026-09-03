@@ -31,6 +31,8 @@ export interface OfflineMockSessionPayload {
   questionIds: string[];
   /** 1-based question number -> correct bubble option, e.g. { "1": "B", "2": "D" }. */
   answerKey: Record<string, BubbleOption>;
+  /** Null for an anonymous set (no signed-in student generated it) — see the model comment on OfflineMockSession.userId. */
+  userId: string | null;
   createdAt: string;
 }
 
@@ -72,6 +74,7 @@ interface OfflineMockSessionRow {
   totalQuestions: number;
   questionIds: Prisma.JsonValue;
   answerKey: Prisma.JsonValue;
+  userId: string | null;
   createdAt: Date;
 }
 
@@ -85,6 +88,7 @@ function toPayload(row: OfflineMockSessionRow): OfflineMockSessionPayload {
     // generateOfflineMockSession below, in exactly this shape.
     questionIds: row.questionIds as string[],
     answerKey: row.answerKey as Record<string, BubbleOption>,
+    userId: row.userId,
     createdAt: row.createdAt.toISOString(),
   };
 }
