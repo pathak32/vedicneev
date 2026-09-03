@@ -7,6 +7,8 @@
  * duplicating the selection rules.
  */
 
+import { shuffled } from "./random";
+
 export type JnvstSectionKey = "mental_ability" | "arithmetic" | "language";
 
 export interface PyqPoolItem {
@@ -35,16 +37,6 @@ export interface AssembleJnvstMockResult {
    * pads a shortfall with duplicates or invents questions to hide it.
    */
   warnings: string[];
-}
-
-/** Fisher-Yates, using an injectable RNG so assembly is deterministic and testable. */
-function shuffled<T>(items: T[], rng: () => number): T[] {
-  const result = [...items];
-  for (let i = result.length - 1; i > 0; i -= 1) {
-    const j = Math.floor(rng() * (i + 1));
-    [result[i], result[j]] = [result[j]!, result[i]!];
-  }
-  return result;
 }
 
 /**

@@ -9,3 +9,4 @@ export * from "./entitlements";
 export * from "./media";
 export * from "./whatsappReport";
 export * from "./jnvstMockAssembly";
+export * from "./random";
