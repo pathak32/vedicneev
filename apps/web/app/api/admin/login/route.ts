@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 
 import { ADMIN_SESSION_COOKIE, createSessionToken, isAdminConfigured, isValidAdminPassword } from "@/lib/admin/session";
+import { getOrCreateAdminUser } from "@/lib/admin/user";
 
 export const dynamic = "force-dynamic";
 
@@ -23,7 +24,8 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "Incorrect password." }, { status: 401 });
   }
 
-  const token = await createSessionToken();
+  const adminUser = await getOrCreateAdminUser();
+  const token = await createSessionToken(adminUser.id);
   if (!token) {
     return NextResponse.json({ error: "Could not create a session." }, { status: 500 });
   }

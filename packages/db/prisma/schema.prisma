@@ -23,6 +23,7 @@ datasource db {
 enum UserRole {
   STUDENT
   PARENT
+  ADMIN
 }
 
 // Lowercased enum value = the language-code key used inside every Question

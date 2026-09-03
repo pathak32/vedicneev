@@ -1,22 +1,30 @@
 /**
- * A minimal, real (not fake/theater) shared-secret gate for the /admin
- * panel — there's no user-role system in this project yet (packages/db's
- * UserRole enum is only STUDENT/PARENT; auth is a fully client-side mock,
- * see apps/web/src/lib/auth/mockAuthProvider.ts), so this deliberately
- * doesn't try to hook into that. Session is a stateless signed cookie: its
- * value is an HMAC of a fixed marker string keyed by ADMIN_ACCESS_KEY, so
- * middleware can verify it without any server-side session storage, and
- * the cookie value itself never reveals the password.
+ * A minimal, real (not fake/theater) auth gate for the /admin panel.
  *
- * Built on the Web Crypto API (crypto.subtle), not node:crypto — this file
- * is imported by middleware.ts, which Next.js always runs on the Edge
- * Runtime, and node:crypto's createHmac/timingSafeEqual aren't available
- * there. crypto.subtle and a hand-rolled constant-time compare work in
- * both the Edge Runtime and normal Node.js route handlers.
+ * There's still only one real credential in this app — the shared
+ * ADMIN_ACCESS_KEY password (packages/db's User model has no password
+ * field for anyone, admin included; student/parent auth is a fully
+ * client-side OTP mock, see apps/web/src/lib/auth/mockAuthProvider.ts) —
+ * but the session itself is now bound to an actual `User` row with
+ * role: ADMIN (see getOrCreateAdminUser below), not just a static
+ * "authenticated" marker. That split matches the two layers of
+ * enforcement in this app:
+ *   - middleware.ts (Edge Runtime, no Prisma access) can only verify the
+ *     cookie's HMAC signature — enough to bounce anonymous traffic away
+ *     from /admin before it costs a render.
+ *   - app/admin/(protected)/layout.tsx (Node.js) does the real,
+ *     DB-backed check: decode the signed userId, load that User via
+ *     Prisma, and confirm role === "ADMIN" before rendering anything.
+ *
+ * Built on the Web Crypto API (crypto.subtle), not node:crypto, because
+ * middleware.ts needs to import isValidSessionToken and Next.js always
+ * runs middleware on the Edge Runtime, where node:crypto isn't available.
  */
 
 export const ADMIN_SESSION_COOKIE = "vn_admin_session";
-const SESSION_MARKER = "admin-authenticated";
+
+/** The one admin account this app manages — see getOrCreateAdminUser. */
+export const ADMIN_USER_PHONE = "vedicneev-admin";
 
 const encoder = new TextEncoder();
 
@@ -53,19 +61,32 @@ async function hmacHex(key: string, message: string): Promise<string> {
   return toHex(signature);
 }
 
-/** The value to store in the session cookie once a login password check has already succeeded. */
-export async function createSessionToken(): Promise<string | null> {
+/** `<userId>.<hmac>` — the userId travels in the clear (it's not a secret) but can't be forged without ADMIN_ACCESS_KEY. */
+export async function createSessionToken(userId: string): Promise<string | null> {
   const key = getAdminKey();
   if (!key) return null;
-  return hmacHex(key, SESSION_MARKER);
+  const signature = await hmacHex(key, userId);
+  return `${userId}.${signature}`;
 }
 
-/** True only if `token` is a valid session for the currently configured ADMIN_ACCESS_KEY. */
+/** Verifies the token's signature and, if valid, returns the admin userId it was issued for. */
+export async function verifySessionToken(token: string | undefined | null): Promise<string | null> {
+  if (!token) return null;
+  const key = getAdminKey();
+  if (!key) return null;
+
+  const separatorIndex = token.lastIndexOf(".");
+  if (separatorIndex <= 0) return null;
+  const userId = token.slice(0, separatorIndex);
+  const signature = token.slice(separatorIndex + 1);
+
+  const expected = await hmacHex(key, userId);
+  return constantTimeEqual(expected, signature) ? userId : null;
+}
+
+/** True only if `token`'s signature is valid — used by middleware.ts, which can't reach the database to check the role. */
 export async function isValidSessionToken(token: string | undefined | null): Promise<boolean> {
-  if (!token) return false;
-  const expected = await createSessionToken();
-  if (!expected) return false;
-  return constantTimeEqual(expected, token);
+  return (await verifySessionToken(token)) !== null;
 }
 
 /** Constant-time check of a submitted login password against ADMIN_ACCESS_KEY. */
