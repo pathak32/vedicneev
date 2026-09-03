@@ -224,8 +224,9 @@ model Section {
   name  Json
   order Int  @default(0)
 
-  topics               Topic[]
-  examTemplateSections ExamTemplateSection[]
+  topics                Topic[]
+  examTemplateSections  ExamTemplateSection[]
+  previousYearQuestions PreviousYearQuestion[]
 
   @@map("sections")
 }
@@ -312,6 +313,60 @@ model Question {
   @@index([topicId, difficulty])
   @@index([vedicSpeedHackId])
   @@map("questions")
+}
+
+// A single item in an exam's Previous-Year-Question practice bank, used to
+// assemble dynamic mock papers (see packages/engine's jnvstMockAssembly and
+// packages/db/src/jnvstMockService.ts). Deliberately a separate model from
+// Question rather than reusing it: the two have genuinely different answer
+// representations (correctAnswer here is a 0-3 index into optionsJson,
+// matching how PYQ sources are normally keyed, vs. Question's option-"id"
+// string) and reusing Question's shape would mean quietly changing that
+// established convention everywhere it's already consumed. Content here is
+// original practice material modeled on each exam's known section/
+// difficulty pattern for that year band, not a claim to reproduce verbatim
+// official past papers — this project doesn't have a verified, licensed
+// source for those, and presenting fabricated text as an authentic leaked
+// paper would be actively misleading. `year` groups practice sets into
+// year-styled cohorts, not a citation of a real historical paper.
+model PreviousYearQuestion {
+  id String @id @default(cuid())
+  // Stable natural key to upsert seed content on, e.g. "jnvst-2021-ma-01".
+  key String @unique @map("question_key")
+
+  examType   ExamType @default(JNVST) @map("exam_type")
+  year       Int
+  classLevel Int      @default(6) @map("class_level")
+
+  sectionId String  @map("section_id")
+  section   Section @relation(fields: [sectionId], references: [id], onDelete: Restrict)
+
+  // Multilingual question stem — same { "en", "hi", "mr", "bn", "ta" }
+  // shape as Question.content; "en" always present.
+  questionJson Json @map("question_json")
+
+  // Exactly 4 entries, each a multilingual text map like
+  // { "en": "...", "hi": "...", ... } — order matters, since
+  // correctAnswer below is a positional index into this array.
+  optionsJson Json @map("options_json")
+
+  // 0-based index into optionsJson (0-3) — distinct from Question's
+  // option-"id" string; see the model comment above.
+  correctAnswer Int @map("correct_answer")
+
+  // Multilingual step-by-step explanation, same shape as questionJson —
+  // for Arithmetic this should name the Vedic sutra shortcut that applies
+  // (Nikhilam, Urdhva-Tiryagbhyam, etc.) where relevant; for Mental
+  // Ability, the elimination logic for the distractor options.
+  explanation Json
+
+  difficulty Difficulty @default(MEDIUM)
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@index([examType, classLevel, year, sectionId])
+  @@map("previous_year_questions")
 }
 
 // Which languages a state's exam papers are actually offered in, per exam

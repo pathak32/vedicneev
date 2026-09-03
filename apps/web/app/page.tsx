@@ -54,6 +54,12 @@ export default function HomePage() {
                 <Link href="/exam/demo-jnvst">Start a mock test</Link>
               </Button>
               <Button asChild variant="outline">
+                <Link href="/exam/jnvst-live-mock">
+                  <Sparkles className="h-4 w-4" />
+                  Generate a fresh JNVST mock (PYQ bank)
+                </Link>
+              </Button>
+              <Button asChild variant="outline">
                 <Link href="/exam/demo-jnvst/omr/print">
                   <Printer className="h-4 w-4" />
                   Print OMR sheet
