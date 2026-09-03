@@ -45,10 +45,16 @@ into Vercel's Project Settings → Environment Variables (Production scope;
 also add to Preview if you want preview deploys to hit the same Supabase
 project — otherwise give Preview its own).
 
-Each paid integration (Razorpay, WhatsApp) runs a clearly mock-labeled
-fallback when its variables are unset, so the app deploys and works in demo
-mode even before you have real credentials. See the comments in
-`.env.production.example` for exactly which file reads which variable.
+`DATABASE_URL`, `DIRECT_URL`, and `NEXT_PUBLIC_APP_URL` are required — the
+app 500s on sign-in/exam-submit without the first two, and every canonical/
+OG/sitemap URL is wrong without the third. Each paid integration (Razorpay,
+WhatsApp) runs a clearly mock-labeled fallback when its variables are
+unset, so the app deploys and works in demo mode even before you have real
+credentials — use **live**, not test, Razorpay keys for an actual
+production deployment. `NEXT_PUBLIC_SUPABASE_URL`/`_ANON_KEY` are in the
+template but not read by any code yet (auth is a fully client-side mock —
+see the comment block in `.env.production.example`). See the comments in
+that file for exactly which file reads which variable.
 
 ## 4. Provision the database
 
@@ -71,12 +77,20 @@ npm run db:seed
   already populated — so re-running against a live database won't
   duplicate rows or crash on a constraint violation.
 
-Note: `apps/web` doesn't call this database yet — all current app state
-(auth, test history, subscriptions) lives client-side in Zustand +
-`localStorage`, as documented in the codebase. This step provisions the
-schema and reference data (exam templates, question bank, media catalog)
-ahead of that wiring landing; it isn't required for the demo app to work
-today.
+Note: the app's UI state (auth, test history, subscriptions) still lives
+entirely client-side in Zustand + `localStorage` — the demo is fully usable
+with zero database configured. But `apps/web` *does* call this database now,
+as a best-effort background sync on two flows: every OTP sign-in
+(`app/api/auth/sync/route.ts`, upserts a `User` row) and every mock-test
+submit (`app/api/exam/submit/route.ts`, creates a `TestSession` +
+`TestResponse`/`MistakeVault` rows). Both are fire-and-forget from the
+client (a failure there doesn't block the on-screen result), but the sync
+itself needs both a reachable database *and* this seed data: exam-submit
+looks up an `ExamTemplate` by slug and 404s outright if none exists, and
+silently skips any response whose `questionId` isn't a seeded `Question`
+row (logged server-side as "skipped N response(s)"). Run `db:seed`, not
+just `db:push`, for that sync to actually persist real data instead of a
+near-empty session.
 
 ## 5. Deploy and verify
 
@@ -87,6 +101,16 @@ today.
    wording once those env vars are added and redeployed.
 3. Confirm Open Graph previews (e.g. paste the URL into a chat app) resolve
    images against `NEXT_PUBLIC_APP_URL`, not `localhost`.
+4. Sign in with the demo OTP flow and submit one mock test, then check
+   Supabase (Table Editor or SQL) for a matching `User` row and a
+   `TestSession` with `TestResponse` rows attached — confirms `DATABASE_URL`
+   is reachable from Vercel and `db:seed` actually ran. Vercel's Function
+   Logs for `/api/exam/submit` will show a "skipped N response(s)" line if
+   the question bank wasn't seeded — see §4.
+5. Check `/robots.txt` and `/sitemap.xml` resolve on the real domain (not a
+   preview URL), and that `/dashboard`, `/parent`, `/onboarding`, and
+   `/exam/**` carry `<meta name="robots" content="noindex,...">` in page
+   source — see `SEO_CHECKLIST.md` for the full indexing checklist.
 
 ## 6. Local production build sanity check
 
