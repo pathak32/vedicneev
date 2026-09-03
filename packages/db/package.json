@@ -10,6 +10,7 @@
     "migrate:deploy": "prisma migrate deploy",
     "db:push": "prisma db push",
     "db:seed": "tsx prisma/seed.ts",
+    "publish:batch": "tsx prisma/publish-batch.ts",
     "studio": "prisma studio",
     "seed": "tsx prisma/seed.ts",
     "build": "prisma generate && tsc --noEmit",
