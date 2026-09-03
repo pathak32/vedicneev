@@ -3,6 +3,7 @@
 import { Badge, cn } from "@vedicneev/ui";
 import { RadioGroup, RadioGroupItem } from "@vedicneev/ui";
 
+import { localize } from "@/lib/exam/localize";
 import type { ExamQuestion, LanguageCode } from "@/lib/exam/types";
 
 const OPTION_LABELS = ["A", "B", "C", "D"];
@@ -36,7 +37,7 @@ export function QuestionCanvas({
       </div>
 
       <p className="text-xl font-semibold leading-relaxed text-foreground md:text-2xl">
-        {question.content[language]}
+        {localize(question.content, language)}
       </p>
 
       {question.figureMetadata?.type === "svg" && question.figureMetadata.markup ? (

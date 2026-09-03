@@ -10,7 +10,7 @@ import {
   DialogHeader,
   DialogTitle,
 } from "@vedicneev/ui";
-import { formatDuration } from "@vedicneev/engine";
+import { formatDuration, localizeMediaText } from "@vedicneev/engine";
 import type { AccessResult, MediaItem } from "@vedicneev/engine";
 import { GraduationCap, Lock, Pause, Play, Sparkles } from "lucide-react";
 
@@ -57,9 +57,9 @@ export function ConceptClinicPlayer({
         <DialogHeader>
           <DialogTitle className="flex items-center gap-2">
             <GraduationCap className="h-5 w-5 text-primary" />
-            {item.title[language]}
+            {localizeMediaText(item.title, language)}
           </DialogTitle>
-          <DialogDescription>{item.description[language]}</DialogDescription>
+          <DialogDescription>{localizeMediaText(item.description, language)}</DialogDescription>
         </DialogHeader>
 
         <div className="flex flex-col items-center justify-center gap-3 rounded-lg bg-gradient-to-br from-primary/20 to-muted p-8 text-center">

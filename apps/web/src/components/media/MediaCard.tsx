@@ -1,7 +1,7 @@
 "use client";
 
 import { Badge, Card, CardContent } from "@vedicneev/ui";
-import { formatDuration } from "@vedicneev/engine";
+import { formatDuration, localizeMediaText } from "@vedicneev/engine";
 import type { MediaItem, MediaType } from "@vedicneev/engine";
 import { Headphones, Lock, PlayCircle, Sparkles } from "lucide-react";
 
@@ -58,8 +58,8 @@ export function MediaCard({ item, language, locked, onClick }: MediaCardProps) {
         </Badge>
       </div>
       <CardContent className="p-3">
-        <p className="line-clamp-1 text-sm font-semibold text-foreground">{item.title[language]}</p>
-        <p className="line-clamp-2 text-xs text-muted-foreground">{item.description[language]}</p>
+        <p className="line-clamp-1 text-sm font-semibold text-foreground">{localizeMediaText(item.title, language)}</p>
+        <p className="line-clamp-2 text-xs text-muted-foreground">{localizeMediaText(item.description, language)}</p>
       </CardContent>
     </Card>
   );

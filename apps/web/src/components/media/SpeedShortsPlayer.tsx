@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { Badge, Button, cn } from "@vedicneev/ui";
+import { localizeMediaText } from "@vedicneev/engine";
 import type { AccessResult, MediaItem } from "@vedicneev/engine";
 import { Lock, Pause, Play, Sparkles, Volume2, VolumeX, X } from "lucide-react";
 
@@ -154,8 +155,8 @@ export function SpeedShortsPlayer({
           ) : (
             <>
               <Sparkles className="h-10 w-10 text-primary" />
-              <h2 className="text-xl font-bold">{item.title[lang]}</h2>
-              <p className="text-sm text-white/80">{item.description[lang]}</p>
+              <h2 className="text-xl font-bold">{localizeMediaText(item.title, lang)}</h2>
+              <p className="text-sm text-white/80">{localizeMediaText(item.description, lang)}</p>
               <p className="text-xs uppercase tracking-wide text-white/50">Demo mode — no video file attached</p>
             </>
           )}

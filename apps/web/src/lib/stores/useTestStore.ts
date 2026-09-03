@@ -1,5 +1,6 @@
 import { create } from "zustand";
 
+import { useLanguageStore } from "../hooks/useLanguageStore";
 import type { ExamQuestion, ExamSessionData, LanguageCode, QuestionStatus } from "../exam/types";
 
 /** Determines the next status when the user saves (with or without a selected answer). */
@@ -139,6 +140,9 @@ export const useTestStore = create<TestStoreState>((set, get) => {
       set({
         ...initialState,
         session,
+        // Carry the student's app-wide language preference into this fresh
+        // session instead of always defaulting to English.
+        language: useLanguageStore.getState().languageCode,
         statuses: firstQuestionId ? { ...statuses, [firstQuestionId]: "VISITED" } : statuses,
         lastVisitedIndexBySection: session.sections.map(() => 0),
         overallRemainingSeconds: session.totalDurationSeconds,
@@ -161,6 +165,7 @@ export const useTestStore = create<TestStoreState>((set, get) => {
       set({
         ...initialState,
         session,
+        language: useLanguageStore.getState().languageCode,
         statuses,
         selectedOptions,
         timeSpentSeconds,

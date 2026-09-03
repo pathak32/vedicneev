@@ -6,6 +6,7 @@ import { ArrowLeft, ArrowRight, CheckCircle2 } from "lucide-react";
 
 import { useAuthStore } from "@/lib/auth/useAuthStore";
 import type { Locality, NewStudentInput, QuotaCategory, TargetClass, TargetExam } from "@/lib/auth/types";
+import { SUPPORTED_LANGUAGES } from "@/lib/hooks/useLanguageStore";
 import type { LanguageCode } from "@/lib/exam/types";
 
 const TARGET_CLASSES: TargetClass[] = [5, 6, 8, 9];
@@ -15,10 +16,10 @@ const TARGET_EXAMS: { value: TargetExam; label: string }[] = [
   { value: "RMS", label: "RMS" },
   { value: "DPS", label: "Elite Private Schools (DPS & similar)" },
 ];
-const LANGUAGES: { value: LanguageCode; label: string }[] = [
-  { value: "en", label: "English" },
-  { value: "hi", label: "हिन्दी (Hindi)" },
-];
+const LANGUAGES: { value: LanguageCode; label: string }[] = SUPPORTED_LANGUAGES.map((l) => ({
+  value: l.code,
+  label: l.label,
+}));
 const LOCALITIES: { value: Locality; label: string }[] = [
   { value: "RURAL", label: "Rural" },
   { value: "URBAN", label: "Urban" },

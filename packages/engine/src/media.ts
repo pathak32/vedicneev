@@ -12,6 +12,17 @@ export interface MediaBilingualText {
   hi: string;
 }
 
+/**
+ * Media catalog items are en/hi-only for now (unlike Question content in
+ * packages/db, which supports regional languages too) — this accepts a
+ * wider language code and falls back to English for anything besides "hi"
+ * so callers sharing a single `language` prop with the (regional-aware)
+ * exam runner don't need a separate narrower type just for media.
+ */
+export function localizeMediaText(map: MediaBilingualText, language: string): string {
+  return language === "hi" ? map.hi : map.en;
+}
+
 export interface MediaItem {
   id: string;
   title: MediaBilingualText;

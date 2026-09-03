@@ -25,9 +25,16 @@ enum UserRole {
   PARENT
 }
 
+// Lowercased enum value = the language-code key used inside every Question
+// (and Section/Topic/ExamTemplate/MediaItem) Json field, e.g. HI -> "hi".
+// EN is the one language every localized Json field is guaranteed to carry;
+// the rest are filled in incrementally as translations are authored.
 enum Language {
   EN
   HI
+  MR // Marathi
+  BN // Bengali
+  TA // Tamil
 }
 
 enum ExamType {
@@ -264,11 +271,15 @@ model Question {
   topic      Topic      @relation(fields: [topicId], references: [id], onDelete: Cascade)
   difficulty Difficulty @default(MEDIUM)
 
-  // Bilingual question stem, e.g. { "en": "What comes next?", "hi": "आगे क्या आएगा?" }
+  // Multilingual question stem, keyed by lowercased Language enum value, e.g.
+  // { "en": "What comes next?", "hi": "आगे क्या आएगा?", "mr": "...", "bn": "...", "ta": "..." }.
+  // "en" is always present; regional keys are added incrementally as a
+  // state's exam papers get translated (see StateConfiguration below) — the
+  // app falls back to "en" for any key that isn't there yet.
   content Json
 
   // Array of options, each shaped like:
-  // { "id": "a", "text": { "en": "...", "hi": "..." }, "imageUrl"?: "https://cdn.../fig.svg" }
+  // { "id": "a", "text": { "en": "...", "hi": "...", "mr"?: "...", ... }, "imageUrl"?: "https://cdn.../fig.svg" }
   // Non-verbal reasoning items may omit `text` and rely on `imageUrl`/inline SVG instead.
   options Json
 
@@ -278,7 +289,7 @@ model Question {
   vedicSpeedHackId String?         @map("vedic_speed_hack_id")
   vedicSpeedHack   VedicSpeedHack? @relation(fields: [vedicSpeedHackId], references: [id], onDelete: SetNull)
 
-  // Bilingual explanation text, e.g. { "en": "...", "hi": "..." }
+  // Multilingual explanation text, same { "en", "hi", ... } shape as `content`.
   explanation          Json?
   explanationVideoUrl  String? @map("explanation_video_url")
 
@@ -294,6 +305,34 @@ model Question {
   @@index([topicId, difficulty])
   @@index([vedicSpeedHackId])
   @@map("questions")
+}
+
+// Which languages a state's exam papers are actually offered in, per exam
+// type — e.g. Maharashtra + JNVST -> [EN, HI, MR]; West Bengal + JNVST ->
+// [EN, HI, BN]. Deliberately standalone rather than an FK on ExamTemplate:
+// an ExamTemplate (e.g. "jnvst-class-6") is one national question set, only
+// the paper's available languages vary by state, not the exam structure
+// itself. Not yet consumed by any query — a reference table content authors
+// and a future "select your state" onboarding step can read from; today's
+// exam-runner language switcher (apps/web) offers every Language regardless
+// of state and falls back to "en" per-field, per the comment on Question.
+model StateConfiguration {
+  id        String @id @default(cuid())
+  // ISO 3166-2:IN style, e.g. "MH", "WB", "TN".
+  stateCode String @map("state_code")
+  // Localized display name, e.g. { "en": "Maharashtra", "hi": "महाराष्ट्र" }
+  stateName Json   @map("state_name")
+  examType  ExamType @map("exam_type")
+
+  activeLanguages Language[] @map("active_languages")
+  isActive        Boolean    @default(true) @map("is_active")
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@unique([stateCode, examType])
+  @@index([examType])
+  @@map("state_configurations")
 }
 
 // ─────────────────────────────────────────────────────────────────────────

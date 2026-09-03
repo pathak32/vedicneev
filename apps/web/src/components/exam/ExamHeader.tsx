@@ -11,6 +11,11 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuRadioGroup,
+  DropdownMenuRadioItem,
+  DropdownMenuTrigger,
   Tabs,
   TabsList,
   TabsTrigger,
@@ -19,12 +24,16 @@ import {
 import { formatDuration } from "@vedicneev/engine";
 import { Clock, Languages } from "lucide-react";
 
+import { localize } from "@/lib/exam/localize";
+import type { LanguageCode } from "@/lib/exam/types";
+import { SUPPORTED_LANGUAGES, useLanguageStore } from "@/lib/hooks/useLanguageStore";
 import { selectStatusCounts, useTestStore } from "@/lib/stores/useTestStore";
 
 export function ExamHeader() {
   const session = useTestStore((s) => s.session);
   const language = useTestStore((s) => s.language);
-  const setLanguage = useTestStore((s) => s.setLanguage);
+  const setSessionLanguage = useTestStore((s) => s.setLanguage);
+  const setGlobalLanguage = useLanguageStore((s) => s.setLanguage);
   const currentSectionIndex = useTestStore((s) => s.currentSectionIndex);
   const switchSection = useTestStore((s) => s.switchSection);
   const overallRemainingSeconds = useTestStore((s) => s.overallRemainingSeconds);
@@ -46,11 +55,22 @@ export function ExamHeader() {
   // Visited but left without a selected option (excludes marked-for-review, tallied separately).
   const notAnswered = statusCounts.VISITED;
 
+  function changeLanguage(next: LanguageCode) {
+    // Only the display language changes — countdown, section/question
+    // position, saved answers, and statuses all live untouched elsewhere
+    // in the store.
+    setSessionLanguage(next);
+    // Persists the choice app-wide so the next exam session opens in it too.
+    setGlobalLanguage(next);
+  }
+
+  const activeLanguageLabel = SUPPORTED_LANGUAGES.find((l) => l.code === language)?.label ?? language;
+
   return (
     <header className="flex flex-col gap-3 border-b border-border bg-background p-4 md:flex-row md:items-center md:justify-between">
       <div className="flex flex-col gap-2">
         <h1 className="text-base font-bold text-foreground md:text-lg">
-          {session.templateName[language]}
+          {localize(session.templateName, language)}
         </h1>
         <Tabs
           value={currentSection?.key}
@@ -62,7 +82,7 @@ export function ExamHeader() {
           <TabsList>
             {session.sections.map((section) => (
               <TabsTrigger key={section.key} value={section.key}>
-                {section.name[language]}
+                {localize(section.name, language)}
               </TabsTrigger>
             ))}
           </TabsList>
@@ -84,18 +104,23 @@ export function ExamHeader() {
           {formatDuration(displaySeconds)}
         </div>
 
-        <Button
-          type="button"
-          variant="outline"
-          size="icon"
-          aria-label="Toggle language"
-          onClick={() => setLanguage(language === "en" ? "hi" : "en")}
-        >
-          <Languages className="h-4 w-4" />
-        </Button>
-        <span className="hidden text-sm font-medium text-muted-foreground sm:inline">
-          {language === "en" ? "EN" : "हि"}
-        </span>
+        <DropdownMenu>
+          <DropdownMenuTrigger asChild>
+            <Button type="button" variant="outline" size="sm" aria-label="Change language" className="gap-1.5">
+              <Languages className="h-4 w-4" />
+              <span className="hidden sm:inline">{activeLanguageLabel}</span>
+            </Button>
+          </DropdownMenuTrigger>
+          <DropdownMenuContent align="end">
+            <DropdownMenuRadioGroup value={language} onValueChange={(value) => changeLanguage(value as LanguageCode)}>
+              {SUPPORTED_LANGUAGES.map((option) => (
+                <DropdownMenuRadioItem key={option.code} value={option.code}>
+                  {option.label}
+                </DropdownMenuRadioItem>
+              ))}
+            </DropdownMenuRadioGroup>
+          </DropdownMenuContent>
+        </DropdownMenu>
 
         <Dialog open={confirmOpen} onOpenChange={setConfirmOpen}>
           <DialogTrigger asChild>
