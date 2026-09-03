@@ -1,5 +1,7 @@
 import { Difficulty, ExamType, Prisma, PrismaClient } from "@prisma/client";
 
+import { blogSeedPosts } from "./blog-seed";
+
 const prisma = new PrismaClient();
 
 function options(pairs: [string, string, string][]): Prisma.InputJsonValue {
@@ -528,6 +530,28 @@ async function main() {
   } else {
     console.log(`Skipping media item seed — ${existingMediaItemCount} item(s) already exist.`);
   }
+
+  // ── Blog drafts (organic SEO seed content) ─────────────────────────
+  // Upsert by slug (unique) so re-running this script is safe: existing
+  // posts are left untouched (an admin may have edited or published them
+  // since), only genuinely new slugs are inserted as DRAFT.
+  let newBlogPostCount = 0;
+  for (const post of blogSeedPosts) {
+    const result = await prisma.blogPost.upsert({
+      where: { slug: post.slug },
+      update: {},
+      create: {
+        title: post.title,
+        slug: post.slug,
+        category: post.category,
+        excerpt: post.excerpt,
+        content: post.content,
+        status: "DRAFT",
+      },
+    });
+    if (result.createdAt.getTime() === result.updatedAt.getTime()) newBlogPostCount += 1;
+  }
+  console.log(`Blog seed: ${blogSeedPosts.length} posts processed, ${newBlogPostCount} newly created.`);
 
   console.log(
     "Seed complete: 4 sections, 5 topics, 5 speed hacks, 1 exam template" +

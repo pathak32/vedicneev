@@ -87,6 +87,11 @@ enum MediaType {
   CONCEPT_CLINIC
 }
 
+enum BlogPostStatus {
+  DRAFT
+  PUBLISHED
+}
+
 // ─────────────────────────────────────────────────────────────────────────
 // Identity
 // ─────────────────────────────────────────────────────────────────────────
@@ -397,4 +402,35 @@ model MediaItem {
   @@index([topicId])
   @@index([mediaType])
   @@map("media_items")
+}
+
+// ─────────────────────────────────────────────────────────────────────────
+// Blog (organic SEO content pipeline)
+// ─────────────────────────────────────────────────────────────────────────
+
+// Category is a plain string, not an enum: new categories can be added from
+// the admin panel without a schema migration. apps/web's admin/blog code
+// defines the canonical starting set of category labels as a shared
+// constant for consistent labeling/filtering, without enforcing it here.
+model BlogPost {
+  id       String         @id @default(cuid())
+  title    String
+  slug     String         @unique
+  category String
+  // Short summary — doubles as the article-card blurb and the meta description.
+  excerpt String
+  // Markdown body, rendered to HTML at request time.
+  content String
+  status  BlogPostStatus @default(DRAFT)
+
+  // Set when a post transitions DRAFT -> PUBLISHED (via the admin "Publish
+  // Now" action); cleared again if it's unpublished back to DRAFT.
+  publishedAt DateTime? @map("published_at")
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@index([status, publishedAt])
+  @@index([category])
+  @@map("blog_posts")
 }
