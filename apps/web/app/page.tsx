@@ -17,6 +17,7 @@ import {
 import { FeatureGrid } from "@/components/marketing/FeatureGrid";
 import { FinalCta } from "@/components/marketing/FinalCta";
 import { HeroSection } from "@/components/marketing/HeroSection";
+import { JnvstLiveMockPromo } from "@/components/marketing/JnvstLiveMockPromo";
 import { PricingTeaser } from "@/components/marketing/PricingTeaser";
 import { Reveal } from "@/components/marketing/Reveal";
 import { TestimonialCarousel } from "@/components/marketing/TestimonialCarousel";
@@ -36,6 +37,10 @@ export default function HomePage() {
       <HeroSection />
 
       <section className="flex flex-col items-center gap-8 px-4 pb-20 pt-12 text-center md:px-8">
+        <Reveal delayMs={60} className="flex w-full justify-center">
+          <JnvstLiveMockPromo />
+        </Reveal>
+
         <Reveal delayMs={120} className="w-full max-w-md">
           <Card className="w-full text-left shadow-sm">
             <CardHeader>
@@ -52,12 +57,6 @@ export default function HomePage() {
             <CardContent className="flex flex-col gap-2">
               <Button asChild size="lg">
                 <Link href="/exam/demo-jnvst">Start a mock test</Link>
-              </Button>
-              <Button asChild variant="outline">
-                <Link href="/exam/jnvst-live-mock">
-                  <Sparkles className="h-4 w-4" />
-                  Generate a fresh JNVST mock (PYQ bank)
-                </Link>
               </Button>
               <Button asChild variant="outline">
                 <Link href="/exam/demo-jnvst/omr/print">
