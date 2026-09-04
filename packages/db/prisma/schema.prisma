@@ -36,6 +36,7 @@ enum Language {
   MR // Marathi
   BN // Bengali
   TA // Tamil
+  GU // Gujarati
 }
 
 enum ExamType {
@@ -198,6 +199,10 @@ model Subscription {
 model ExamTemplate {
   id       String   @id @default(cuid())
   examType ExamType @map("exam_type")
+  // Grade this template applies to — JNVST/AISSEE/RMS each admit primarily
+  // at Class 6, with a smaller Class 9 lateral-entry stream; defaults to 6
+  // so the existing Class 6 rows need no data migration.
+  classLevel Int    @default(6) @map("class_level")
   // Bilingual display name, e.g. { "en": "JNVST Class 6", "hi": "जेएनवीएसटी कक्षा 6" }
   name Json
   slug String @unique
@@ -219,6 +224,7 @@ model ExamTemplate {
   sections     ExamTemplateSection[]
   testSessions TestSession[]
 
+  @@index([examType, classLevel])
   @@map("exam_templates")
 }
 

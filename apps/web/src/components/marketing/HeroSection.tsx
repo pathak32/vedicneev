@@ -15,6 +15,7 @@ const HERO_HEADLINES: Record<LanguageCode, string> = {
   mr: "शासकीय निवासी शाळा प्रवेश परीक्षा तयारी",
   bn: "সরকারি আবাসিক বিদ্যালয় ভর্তি পরীক্ষায় দক্ষতা অর্জন করুন",
   ta: "அரசு உறைவிடப் பள்ளி நுழைவுத் தேர்வில் திறமை பெறுங்கள்",
+  gu: "સરકારી નિવાસી શાળા પ્રવેશ પરીક્ષાની સંપૂર્ણ તૈયારી",
 };
 
 // Short per-language quest taglines for the top badge. Deliberately avoid
@@ -27,6 +28,7 @@ const HERO_BADGES: Record<LanguageCode, string> = {
   mr: "🚀 स्मार्ट सराव",
   bn: "💡 স্মার্ট শিক্ষা",
   ta: "🔥 வேக பயிற்சி",
+  gu: "⚡ ઝડપી અભ્યાસ",
 };
 
 /** Short native-script label for the compact language pills — derives from the shared catalog's "Native (English)" label instead of a second hardcoded list. */

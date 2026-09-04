@@ -1,10 +1,23 @@
 import { prisma } from "@vedicneev/db";
 import { assembleJnvstMock, type JnvstSectionKey, type PyqPoolItem, type SectionBlueprint } from "@vedicneev/engine";
 
-import type { ExamOption, ExamQuestion, ExamSectionConfig, ExamSessionData, Multilingual, QuestionDifficulty } from "./types";
+import type { ExamOption, ExamQuestion, ExamSectionConfig, ExamSessionData, ExamType, Multilingual, QuestionDifficulty } from "./types";
 
 const JNVST_TEMPLATE_SLUG = "jnvst-class-6";
 const OPTION_IDS = ["a", "b", "c", "d"] as const;
+
+/** Template slugs launchable via the generalized live-mock path below (packages/db/prisma/seed.ts's ExamTemplate.slug rows) — a template not in this catalog isn't offered as a live mock even if it exists in the DB, so a half-seeded template can't be launched accidentally. */
+export const LIVE_MOCK_TEMPLATE_SLUGS = [
+  "jnvst-class-6",
+  "jnvst-class-9",
+  "aissee-class-9",
+  "rms-class-9",
+] as const;
+export type LiveMockTemplateSlug = (typeof LIVE_MOCK_TEMPLATE_SLUGS)[number];
+
+export function isLiveMockTemplateSlug(slug: string): slug is LiveMockTemplateSlug {
+  return (LIVE_MOCK_TEMPLATE_SLUGS as readonly string[]).includes(slug);
+}
 
 export interface JnvstMockGenerationResult {
   session: ExamSessionData;
@@ -175,6 +188,128 @@ export async function generateJnvstMockSession(): Promise<JnvstMockGenerationRes
     // explanations name the sutra in prose instead — see the model comment
     // on PreviousYearQuestion) — an empty map is valid; ExamPlayer only
     // renders the speed-hack tip when a question's vedicSpeedHackId is set.
+    speedHacksById: {},
+  };
+
+  return { session, warnings: assembled.warnings };
+}
+
+/**
+ * Generalized version of getJnvstClassSixBlueprint/generateJnvstMockSession
+ * above — looks up ANY seeded ExamTemplate by slug instead of assuming
+ * "jnvst-class-6", and reads examType/classLevel off the template row
+ * instead of hardcoding them. Added alongside the JNVST-Class-6-specific
+ * functions (left unchanged, still used by the existing
+ * /api/exams/jnvst/generate-mock route) rather than replacing them, so
+ * that existing route keeps working unmodified. New callers — e.g. Class 9
+ * live mocks — should use this pair instead.
+ */
+export async function getExamBlueprint(slug: string): Promise<JnvstBlueprint | JnvstMockGenerationError> {
+  const template = await prisma.examTemplate.findUnique({
+    where: { slug },
+    include: { sections: { include: { section: true }, orderBy: { order: "asc" } } },
+  });
+  if (!template) {
+    return { error: `Exam template "${slug}" isn't seeded yet.` };
+  }
+
+  return {
+    totalQuestions: template.totalQuestions,
+    totalMarks: template.totalMarks,
+    durationMinutes: template.durationMinutes,
+    negativeMarkingRatio: template.negativeMarkingRatio,
+    sections: template.sections.map((s) => ({
+      key: s.section.key,
+      name: asMultilingual(s.section.name, `Section ${s.section.key} name`),
+      questionCount: s.questionCount,
+      marksPerQuestion: s.marksPerQuestion,
+      timeLimitSeconds: s.timeLimitSeconds,
+    })),
+  };
+}
+
+export async function generateLiveMockSession(slug: string): Promise<JnvstMockGenerationResult | JnvstMockGenerationError> {
+  const template = await prisma.examTemplate.findUnique({
+    where: { slug },
+    include: { sections: { include: { section: true }, orderBy: { order: "asc" } } },
+  });
+  if (!template) {
+    return { error: `Exam template "${slug}" isn't seeded yet — run the db seed script first.` };
+  }
+  if (template.sections.length === 0) {
+    return { error: `Exam template "${slug}" has no sections configured.` };
+  }
+
+  const sectionKeyById = new Map<string, JnvstSectionKey>(
+    template.sections.map((s) => [s.sectionId, s.section.key])
+  );
+
+  const blueprint: SectionBlueprint[] = template.sections.map((s) => ({
+    sectionKey: s.section.key,
+    questionCount: s.questionCount,
+  }));
+
+  const pool = await prisma.previousYearQuestion.findMany({
+    where: {
+      examType: template.examType,
+      classLevel: template.classLevel,
+      sectionId: { in: template.sections.map((s) => s.sectionId) },
+    },
+    select: { id: true, sectionId: true },
+  });
+  const poolItems: PyqPoolItem[] = pool.map((p) => ({
+    id: p.id,
+    sectionKey: sectionKeyById.get(p.sectionId) ?? template.sections[0]!.section.key,
+  }));
+
+  const assembled = assembleJnvstMock(poolItems, blueprint);
+  const drawnIds = assembled.sections.flatMap((s) => s.questionIds);
+
+  if (drawnIds.length === 0) {
+    return { error: `No Previous-Year-Question content is seeded yet for "${slug}" — nothing to assemble a mock from.` };
+  }
+
+  const drawnQuestions = await prisma.previousYearQuestion.findMany({ where: { id: { in: drawnIds } } });
+
+  const questionsById: Record<string, ExamQuestion> = {};
+  for (const q of drawnQuestions) {
+    const sectionKey = sectionKeyById.get(q.sectionId) ?? template.sections[0]!.section.key;
+    const optionTexts = q.optionsJson as unknown[];
+    const options: ExamOption[] = optionTexts.map((text, index) => ({
+      id: OPTION_IDS[index] ?? String(index),
+      text: asMultilingual(text, `PreviousYearQuestion ${q.id} option ${index}`),
+    }));
+    const correctOption = OPTION_IDS[q.correctAnswer] ?? OPTION_IDS[0];
+
+    questionsById[q.id] = {
+      id: q.id,
+      sectionKey,
+      topicKey: "pyq",
+      difficulty: q.difficulty as QuestionDifficulty,
+      content: asMultilingual(q.questionJson, `PreviousYearQuestion ${q.id} questionJson`),
+      options,
+      correctOption,
+      explanation: asMultilingual(q.explanation, `PreviousYearQuestion ${q.id} explanation`),
+      timeLimitSeconds: 60,
+    };
+  }
+
+  const sections: ExamSectionConfig[] = template.sections.map((s) => ({
+    key: s.section.key,
+    name: asMultilingual(s.section.name, `Section ${s.section.key} name`),
+    order: s.order,
+    timeLimitSeconds: s.timeLimitSeconds,
+    questionIds: assembled.sections.find((a) => a.sectionKey === s.section.key)?.questionIds ?? [],
+  }));
+
+  const session: ExamSessionData = {
+    examId: `${slug}-live-mock-${Date.now()}`,
+    examType: template.examType as ExamType,
+    templateName: asMultilingual(template.name, `ExamTemplate ${slug} name`),
+    totalDurationSeconds: template.durationMinutes * 60,
+    negativeMarkingRatio: template.negativeMarkingRatio,
+    sections,
+    questionsById,
     speedHacksById: {},
   };
 

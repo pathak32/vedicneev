@@ -9,7 +9,7 @@ const prisma = new PrismaClient();
 // a question hasn't been translated into the student's chosen language
 // yet; the rest are filled in incrementally (see StateConfiguration,
 // which maps each state/exam pair to the languages it actually needs).
-type LangText = { en: string; hi?: string; mr?: string; bn?: string; ta?: string };
+type LangText = { en: string; hi?: string; mr?: string; bn?: string; ta?: string; gu?: string };
 
 function ml(text: LangText): Prisma.InputJsonValue {
   return text as Prisma.InputJsonValue;
@@ -128,6 +128,74 @@ async function main() {
       sectionId: generalKnowledge.id,
       key: "general_awareness",
       name: { en: "General Awareness", hi: "सामान्य जागरूकता" },
+      order: 1,
+    },
+  });
+
+  // ── Sections: Class 9 lateral-entry subjects ──────────────────────────
+  // JNVST/AISSEE/RMS Class 9 papers test materially different subject
+  // matter than the Class 6 papers above (a distinct "Mathematics" and
+  // "Science" curriculum, plus JNVST 9 adds "Social Science"), so these are
+  // new sections/topics rather than reusing the Class 6 ones.
+  const mathematics = await prisma.section.upsert({
+    where: { key: "mathematics" },
+    update: {},
+    create: {
+      key: "mathematics",
+      name: { en: "Mathematics", hi: "गणित" },
+      order: 5,
+    },
+  });
+
+  const science = await prisma.section.upsert({
+    where: { key: "science" },
+    update: {},
+    create: {
+      key: "science",
+      name: { en: "Science", hi: "विज्ञान" },
+      order: 6,
+    },
+  });
+
+  const socialScience = await prisma.section.upsert({
+    where: { key: "social_science" },
+    update: {},
+    create: {
+      key: "social_science",
+      name: { en: "Social Science", hi: "सामाजिक विज्ञान" },
+      order: 7,
+    },
+  });
+
+  const generalMathematics = await prisma.topic.upsert({
+    where: { sectionId_key: { sectionId: mathematics.id, key: "general_mathematics" } },
+    update: {},
+    create: {
+      sectionId: mathematics.id,
+      key: "general_mathematics",
+      name: { en: "General Mathematics", hi: "सामान्य गणित" },
+      order: 1,
+    },
+  });
+
+  const generalScience = await prisma.topic.upsert({
+    where: { sectionId_key: { sectionId: science.id, key: "general_science" } },
+    update: {},
+    create: {
+      sectionId: science.id,
+      key: "general_science",
+      name: { en: "General Science", hi: "सामान्य विज्ञान" },
+      order: 1,
+    },
+  });
+
+  const socialAwareness = await prisma.topic.upsert({
+    where: { sectionId_key: { sectionId: socialScience.id, key: "social_awareness" } },
+    update: {},
+    create: {
+      sectionId: socialScience.id,
+      key: "social_awareness",
+      name: { en: "Social & Civic Awareness", hi: "सामाजिक एवं नागरिक जागरूकता" },
       order: 1,
     },
   });
@@ -322,6 +390,125 @@ async function main() {
       update: {},
       create: {
         examTemplateId: rms6.id,
+        sectionId: s.section.id,
+        order: s.order,
+        questionCount: s.questionCount,
+        marksPerQuestion: s.marksPerQuestion,
+        timeLimitSeconds: s.minutes * 60,
+      },
+    });
+  }
+
+  // ── Exam template: JNVST Class 9 (lateral entry) ────────────────────
+  // JNVST's primary intake is Class 6, but NVS also runs a smaller Class 9
+  // lateral-entry selection test to backfill Class 6 vacancies. Pattern
+  // below (Mathematics 35Q/35M, Science 35Q/35M, Social Science 30Q/30M =
+  // 100Q/100M/150 min, no negative marking) is a commonly cited
+  // approximation of that paper's structure — confidence here is LOWER
+  // than the Class 6 templates above; verify against the current year's
+  // official NVS Class 9 lateral-entry notification before treating any of
+  // these numbers as authoritative.
+  const jnvst9 = await prisma.examTemplate.upsert({
+    where: { slug: "jnvst-class-9" },
+    update: {},
+    create: {
+      examType: "JNVST",
+      classLevel: 9,
+      slug: "jnvst-class-9",
+      name: { en: "JNVST Class 9 Lateral Entry Selection Test", hi: "जेएनवीएसटी कक्षा 9 पार्श्व प्रवेश चयन परीक्षा" },
+      totalQuestions: 100,
+      totalMarks: 100,
+      durationMinutes: 150,
+      negativeMarkingRatio: 0,
+    },
+  });
+
+  const jnvst9Sections = [
+    { section: mathematics, order: 1, questionCount: 35, marksPerQuestion: 1, minutes: 53 },
+    { section: science, order: 2, questionCount: 35, marksPerQuestion: 1, minutes: 53 },
+    { section: socialScience, order: 3, questionCount: 30, marksPerQuestion: 1, minutes: 44 },
+  ];
+  for (const s of jnvst9Sections) {
+    await prisma.examTemplateSection.upsert({
+      where: { examTemplateId_sectionId: { examTemplateId: jnvst9.id, sectionId: s.section.id } },
+      update: {},
+      create: {
+        examTemplateId: jnvst9.id,
+        sectionId: s.section.id,
+        order: s.order,
+        questionCount: s.questionCount,
+        marksPerQuestion: s.marksPerQuestion,
+        timeLimitSeconds: s.minutes * 60,
+      },
+    });
+  }
+
+  // ── Exam template: AISSEE Class 9 (Sainik School lateral entry) ─────
+  // Same overall structure as AISSEE Class 6 above (125Q/300M/150 min),
+  // but the Class 6 paper's "Language" section is commonly replaced by
+  // "General Science" for the Class 9 paper — the subject swap generally
+  // cited for the older-student AISSEE/RMS papers. Structural pattern
+  // only, same caveat as Class 6: verify against the current year's
+  // official AISSEE notification before treating as authoritative.
+  const aissee9 = await prisma.examTemplate.upsert({
+    where: { slug: "aissee-class-9" },
+    update: {},
+    create: {
+      examType: "AISSEE",
+      classLevel: 9,
+      slug: "aissee-class-9",
+      name: { en: "AISSEE Class 9 (Sainik School) Lateral Entry Exam", hi: "एआईएसएसई कक्षा 9 (सैनिक स्कूल) पार्श्व प्रवेश परीक्षा" },
+      totalQuestions: 125,
+      totalMarks: 300,
+      durationMinutes: 150,
+      negativeMarkingRatio: 0,
+    },
+  });
+
+  const sainik9Sections = [
+    { section: mathematics, order: 1, questionCount: 50, marksPerQuestion: 3, minutes: 60 },
+    { section: mentalAbility, order: 2, questionCount: 25, marksPerQuestion: 2, minutes: 30 },
+    { section: science, order: 3, questionCount: 25, marksPerQuestion: 2, minutes: 30 },
+    { section: generalKnowledge, order: 4, questionCount: 25, marksPerQuestion: 2, minutes: 30 },
+  ];
+  for (const s of sainik9Sections) {
+    await prisma.examTemplateSection.upsert({
+      where: { examTemplateId_sectionId: { examTemplateId: aissee9.id, sectionId: s.section.id } },
+      update: {},
+      create: {
+        examTemplateId: aissee9.id,
+        sectionId: s.section.id,
+        order: s.order,
+        questionCount: s.questionCount,
+        marksPerQuestion: s.marksPerQuestion,
+        timeLimitSeconds: s.minutes * 60,
+      },
+    });
+  }
+
+  // ── Exam template: RMS Class 9 (lateral entry) ───────────────────────
+  // Mirrors AISSEE Class 9's structure — same caveat as RMS Class 6.
+  const rms9 = await prisma.examTemplate.upsert({
+    where: { slug: "rms-class-9" },
+    update: {},
+    create: {
+      examType: "RMS",
+      classLevel: 9,
+      slug: "rms-class-9",
+      name: { en: "RMS Class 9 Lateral Entry Exam", hi: "आरएमएस कक्षा 9 पार्श्व प्रवेश परीक्षा" },
+      totalQuestions: 125,
+      totalMarks: 300,
+      durationMinutes: 150,
+      negativeMarkingRatio: 0,
+    },
+  });
+
+  for (const s of sainik9Sections) {
+    await prisma.examTemplateSection.upsert({
+      where: { examTemplateId_sectionId: { examTemplateId: rms9.id, sectionId: s.section.id } },
+      update: {},
+      create: {
+        examTemplateId: rms9.id,
         sectionId: s.section.id,
         order: s.order,
         questionCount: s.questionCount,
@@ -687,7 +874,184 @@ async function main() {
     },
   ];
 
-  const allQuestions = [...mentalAbilityQuestions, ...arithmeticQuestions, ...multilingualQuestions];
+  // ── Class 9 lateral-entry question bank (Mathematics / Science / Social
+  // Science) — a small sample set, not a full bank, covering the new
+  // subjects those papers test that Class 6's taxonomy doesn't. Fully
+  // translated across all 6 supported languages including Gujarati.
+  const class9Questions: QuestionSeed[] = [
+    {
+      key: "bank-math9-general-ml-01",
+      topicId: generalMathematics.id,
+      difficulty: Difficulty.MEDIUM,
+      content: ml({
+        en: "Simplify: 3(x + 4) − 2x = ?",
+        hi: "सरल कीजिए: 3(x + 4) − 2x = ?",
+        mr: "सुलभ करा: 3(x + 4) − 2x = ?",
+        bn: "সরলীকরণ করুন: 3(x + 4) − 2x = ?",
+        ta: "எளிமையாக்குக: 3(x + 4) − 2x = ?",
+        gu: "સરળ કરો: 3(x + 4) − 2x = ?",
+      }),
+      options: options([
+        ["a", { en: "x + 12", hi: "x + 12", mr: "x + 12", bn: "x + 12", ta: "x + 12", gu: "x + 12" }],
+        ["b", { en: "x − 12", hi: "x − 12", mr: "x − 12", bn: "x − 12", ta: "x − 12", gu: "x − 12" }],
+        ["c", { en: "5x + 12", hi: "5x + 12", mr: "5x + 12", bn: "5x + 12", ta: "5x + 12", gu: "5x + 12" }],
+        ["d", { en: "x + 4", hi: "x + 4", mr: "x + 4", bn: "x + 4", ta: "x + 4", gu: "x + 4" }],
+      ]),
+      correctOption: "a",
+      explanation: ml({
+        en: "Distribute: 3x + 12 − 2x = x + 12.",
+        hi: "वितरित करें: 3x + 12 − 2x = x + 12।",
+        mr: "वितरित करा: 3x + 12 − 2x = x + 12.",
+        bn: "বিতরণ করুন: 3x + 12 − 2x = x + 12।",
+        ta: "பரவலாக்குக: 3x + 12 − 2x = x + 12.",
+        gu: "વિતરણ કરો: 3x + 12 − 2x = x + 12.",
+      }),
+    },
+    {
+      key: "bank-math9-general-ml-02",
+      topicId: generalMathematics.id,
+      difficulty: Difficulty.MEDIUM,
+      content: ml({
+        en: "The value of √225 is:",
+        hi: "√225 का मान है:",
+        mr: "√225 चे मूल्य आहे:",
+        bn: "√225-এর মান হল:",
+        ta: "√225 இன் மதிப்பு:",
+        gu: "√225 નું મૂલ્ય છે:",
+      }),
+      options: options([
+        ["a", { en: "12", hi: "12", mr: "12", bn: "12", ta: "12", gu: "12" }],
+        ["b", { en: "15", hi: "15", mr: "15", bn: "15", ta: "15", gu: "15" }],
+        ["c", { en: "18", hi: "18", mr: "18", bn: "18", ta: "18", gu: "18" }],
+        ["d", { en: "25", hi: "25", mr: "25", bn: "25", ta: "25", gu: "25" }],
+      ]),
+      correctOption: "b",
+      vedicSpeedHackId: hackSquareFive.id,
+      explanation: ml({
+        en: "15 × 15 = 225, so √225 = 15.",
+        hi: "15 × 15 = 225, अतः √225 = 15।",
+        mr: "15 × 15 = 225, म्हणून √225 = 15.",
+        bn: "15 × 15 = 225, তাই √225 = 15।",
+        ta: "15 × 15 = 225, எனவே √225 = 15.",
+        gu: "15 × 15 = 225, તેથી √225 = 15.",
+      }),
+    },
+    {
+      key: "bank-sci9-general-ml-01",
+      topicId: generalScience.id,
+      difficulty: Difficulty.MEDIUM,
+      content: ml({
+        en: "The basic functional unit of all living organisms is the:",
+        hi: "सभी सजीवों की मूल क्रियात्मक इकाई है:",
+        mr: "सर्व सजीवांचे मूलभूत कार्यात्मक एकक आहे:",
+        bn: "সমস্ত জীবের মৌলিক কার্যকরী একক হল:",
+        ta: "அனைத்து உயிரினங்களின் அடிப்படை செயல்பாட்டு அலகு:",
+        gu: "તમામ સજીવોનું મૂળભૂત કાર્યકારી એકમ છે:",
+      }),
+      options: options([
+        ["a", { en: "Tissue", hi: "ऊतक", mr: "ऊती", bn: "কলা", ta: "திசு", gu: "પેશી" }],
+        ["b", { en: "Cell", hi: "कोशिका", mr: "पेशी", bn: "কোষ", ta: "செல்", gu: "કોષ" }],
+        ["c", { en: "Organ", hi: "अंग", mr: "अवयव", bn: "অঙ্গ", ta: "உறுப்பு", gu: "અંગ" }],
+        ["d", { en: "Nucleus", hi: "केंद्रक", mr: "केंद्रक", bn: "নিউক্লিয়াস", ta: "உட்கரு", gu: "કેન્દ્રક" }],
+      ]),
+      correctOption: "b",
+      explanation: ml({
+        en: "The cell is the smallest structural and functional unit of life; tissues and organs are built from groups of cells.",
+        hi: "कोशिका जीवन की सबसे छोटी संरचनात्मक और क्रियात्मक इकाई है; ऊतक और अंग कोशिकाओं के समूहों से बनते हैं।",
+        mr: "पेशी ही जीवनाची सर्वात लहान संरचनात्मक आणि कार्यात्मक एकक आहे; ऊती आणि अवयव पेशींच्या समूहांपासून बनतात.",
+        bn: "কোষ হল জীবনের ক্ষুদ্রতম গঠনগত ও কার্যকরী একক; কলা ও অঙ্গ কোষের গোষ্ঠী থেকে তৈরি হয়।",
+        ta: "செல் என்பது உயிரின மிகச்சிறிய கட்டமைப்பு மற்றும் செயல்பாட்டு அலகு; திசுக்களும் உறுப்புகளும் செல் தொகுதிகளிலிருந்து உருவாகின்றன.",
+        gu: "કોષ એ જીવનનું સૌથી નાનું રચનાત્મક અને કાર્યકારી એકમ છે; પેશીઓ અને અંગો કોષોના જૂથોમાંથી બને છે.",
+      }),
+    },
+    {
+      key: "bank-sci9-general-ml-02",
+      topicId: generalScience.id,
+      difficulty: Difficulty.EASY,
+      content: ml({
+        en: "Which gas do plants absorb from the air during photosynthesis?",
+        hi: "प्रकाश संश्लेषण के दौरान पौधे हवा से कौन-सी गैस लेते हैं?",
+        mr: "प्रकाशसंश्लेषणादरम्यान वनस्पती हवेतून कोणता वायू शोषून घेतात?",
+        bn: "সালোকসংশ্লেষণের সময় গাছপালা বাতাস থেকে কোন গ্যাস শোষণ করে?",
+        ta: "ஒளிச்சேர்க்கையின் போது தாவரங்கள் காற்றிலிருந்து எந்த வாயுவை உறிஞ்சுகின்றன?",
+        gu: "પ્રકાશસંશ્લેષણ દરમિયાન છોડ હવામાંથી કયો વાયુ શોષે છે?",
+      }),
+      options: options([
+        ["a", { en: "Oxygen", hi: "ऑक्सीजन", mr: "ऑक्सिजन", bn: "অক্সিজেন", ta: "ஆக்ஸிஜன்", gu: "ઓક્સિજન" }],
+        ["b", { en: "Nitrogen", hi: "नाइट्रोजन", mr: "नायट्रोजन", bn: "নাইট্রোজেন", ta: "நைட்ரஜன்", gu: "નાઇટ્રોજન" }],
+        ["c", { en: "Carbon Dioxide", hi: "कार्बन डाइऑक्साइड", mr: "कार्बन डायऑक्साइड", bn: "কার্বন ডাই অক্সাইড", ta: "கார்பன் டை ஆக்சைடு", gu: "કાર્બન ડાયોક્સાઇડ" }],
+        ["d", { en: "Hydrogen", hi: "हाइड्रोजन", mr: "हायड्रोजन", bn: "হাইড্রোজেন", ta: "ஹைட்ரஜன்", gu: "હાઇડ્રોજન" }],
+      ]),
+      correctOption: "c",
+      explanation: ml({
+        en: "Plants take in carbon dioxide and release oxygen during photosynthesis.",
+        hi: "प्रकाश संश्लेषण के दौरान पौधे कार्बन डाइऑक्साइड लेते हैं और ऑक्सीजन छोड़ते हैं।",
+        mr: "प्रकाशसंश्लेषणादरम्यान वनस्पती कार्बन डायऑक्साइड घेतात आणि ऑक्सिजन सोडतात.",
+        bn: "সালোকসংশ্লেষণের সময় গাছপালা কার্বন ডাই অক্সাইড গ্রহণ করে এবং অক্সিজেন ত্যাগ করে।",
+        ta: "ஒளிச்சேர்க்கையின் போது தாவரங்கள் கார்பன் டை ஆக்சைடை எடுத்து ஆக்ஸிஜனை வெளியிடுகின்றன.",
+        gu: "પ્રકાશસંશ્લેષણ દરમિયાન છોડ કાર્બન ડાયોક્સાઇડ લે છે અને ઓક્સિજન છોડે છે.",
+      }),
+    },
+    {
+      key: "bank-social9-awareness-ml-01",
+      topicId: socialAwareness.id,
+      difficulty: Difficulty.EASY,
+      content: ml({
+        en: "Who is regarded as the Father of the Indian Constitution?",
+        hi: "भारतीय संविधान के जनक किसे माना जाता है?",
+        mr: "भारतीय राज्यघटनेचे जनक कोणाला मानले जाते?",
+        bn: "ভারতীয় সংবিধানের জনক হিসেবে কাকে গণ্য করা হয়?",
+        ta: "இந்திய அரசியலமைப்பின் தந்தை என யார் கருதப்படுகிறார்?",
+        gu: "ભારતીય બંધારણના પિતા તરીકે કોને ગણવામાં આવે છે?",
+      }),
+      options: options([
+        ["a", { en: "Mahatma Gandhi", hi: "महात्मा गांधी", mr: "महात्मा गांधी", bn: "মহাত্মা গান্ধী", ta: "மகாத்மா காந்தி", gu: "મહાત્મા ગાંધી" }],
+        ["b", { en: "Dr. B. R. Ambedkar", hi: "डॉ. बी. आर. अंबेडकर", mr: "डॉ. बी. आर. आंबेडकर", bn: "ড. বি. আর. আম্বেদকর", ta: "டாக்டர் பி. ஆர். அம்பேத்கார்", gu: "ડૉ. બી. આર. આંબેડકર" }],
+        ["c", { en: "Jawaharlal Nehru", hi: "जवाहरलाल नेहरू", mr: "जवाहरलाल नेहरू", bn: "জওহরলাল নেহেরু", ta: "ஜவஹர்லால் நேரு", gu: "જવાહરલાલ નહેરુ" }],
+        ["d", { en: "Sardar Vallabhbhai Patel", hi: "सरदार वल्लभभाई पटेल", mr: "सरदार वल्लभभाई पटेल", bn: "সর্দার বল্লভভাই প্যাটেল", ta: "சர்தார் வல்லபாய் படேல்", gu: "સરદાર વલ્લભભાઈ પટેલ" }],
+        ],
+      ),
+      correctOption: "b",
+      explanation: ml({
+        en: "Dr. B. R. Ambedkar chaired the Constitution Drafting Committee and is widely regarded as the chief architect of the Indian Constitution.",
+        hi: "डॉ. बी. आर. अंबेडकर ने संविधान प्रारूप समिति की अध्यक्षता की और उन्हें भारतीय संविधान का प्रमुख शिल्पकार माना जाता है।",
+        mr: "डॉ. बी. आर. आंबेडकर यांनी घटना मसुदा समितीचे अध्यक्षपद भूषवले आणि त्यांना भारतीय राज्यघटनेचे प्रमुख शिल्पकार मानले जाते.",
+        bn: "ড. বি. আর. আম্বেদকর সংবিধান খসড়া কমিটির সভাপতিত্ব করেছিলেন এবং তাঁকে ভারতীয় সংবিধানের প্রধান স্থপতি হিসেবে গণ্য করা হয়।",
+        ta: "டாக்டர் பி. ஆர். அம்பேத்கார் அரசியலமைப்பு வரைவுக் குழுவின் தலைவராக இருந்தார், இந்திய அரசியலமைப்பின் முதன்மை சிற்பியாகக் கருதப்படுகிறார்.",
+        gu: "ડૉ. બી. આર. આંબેડકરે બંધારણ મુસદ્દા સમિતિનું અધ્યક્ષપદ સંભાળ્યું હતું અને તેમને ભારતીય બંધારણના મુખ્ય શિલ્પી ગણવામાં આવે છે.",
+      }),
+    },
+    {
+      key: "bank-social9-awareness-ml-02",
+      topicId: socialAwareness.id,
+      difficulty: Difficulty.MEDIUM,
+      content: ml({
+        en: "The Tropic of Cancer does NOT pass through which of these Indian states?",
+        hi: "कर्क रेखा इनमें से किस भारतीय राज्य से होकर नहीं गुजरती?",
+        mr: "कर्कवृत्त खालीलपैकी कोणत्या भारतीय राज्यातून जात नाही?",
+        bn: "কর্কটক্রান্তি রেখা নিম্নলিখিত কোন ভারতীয় রাজ্যের মধ্য দিয়ে যায় না?",
+        ta: "கடகரேகை பின்வரும் எந்த இந்திய மாநிலத்தின் வழியாக செல்லவில்லை?",
+        gu: "કર્કવૃત્ત નીચેનામાંથી કયા ભારતીય રાજ્યમાંથી પસાર થતું નથી?",
+      }),
+      options: options([
+        ["a", { en: "Gujarat", hi: "गुजरात", mr: "गुजरात", bn: "গুজরাট", ta: "குஜராத்", gu: "ગુજરાત" }],
+        ["b", { en: "Madhya Pradesh", hi: "मध्य प्रदेश", mr: "मध्य प्रदेश", bn: "মধ্যপ্রদেশ", ta: "மத்தியப் பிரதேசம்", gu: "મધ્ય પ્રદેશ" }],
+        ["c", { en: "Punjab", hi: "पंजाब", mr: "पंजाब", bn: "পাঞ্জাব", ta: "பஞ்சாப்", gu: "પંજાબ" }],
+        ["d", { en: "West Bengal", hi: "पश्चिम बंगाल", mr: "पश्चिम बंगाल", bn: "পশ্চিমবঙ্গ", ta: "மேற்கு வங்காளம்", gu: "પશ્ચિમ બંગાળ" }],
+      ]),
+      correctOption: "c",
+      explanation: ml({
+        en: "The Tropic of Cancer passes through 8 Indian states including Gujarat, Madhya Pradesh, and West Bengal, but not Punjab, which lies further north.",
+        hi: "कर्क रेखा गुजरात, मध्य प्रदेश और पश्चिम बंगाल सहित 8 भारतीय राज्यों से होकर गुजरती है, लेकिन पंजाब से नहीं, जो इससे उत्तर में स्थित है।",
+        mr: "कर्कवृत्त गुजरात, मध्य प्रदेश आणि पश्चिम बंगालसह 8 भारतीय राज्यांतून जाते, पण पंजाबमधून जात नाही, जे याहून उत्तरेला आहे.",
+        bn: "কর্কটক্রান্তি রেখা গুজরাট, মধ্যপ্রদেশ ও পশ্চিমবঙ্গ সহ 8টি ভারতীয় রাজ্যের মধ্য দিয়ে গেছে, কিন্তু পাঞ্জাবের মধ্য দিয়ে নয়, যা এর আরও উত্তরে অবস্থিত।",
+        ta: "கடகரேகை குஜராத், மத்தியப் பிரதேசம், மேற்கு வங்காளம் உள்பட 8 இந்திய மாநிலங்கள் வழியாகச் செல்கிறது, ஆனால் அதற்கு வடக்கே அமைந்துள்ள பஞ்சாப் வழியாக செல்லவில்லை.",
+        gu: "કર્કવૃત્ત ગુજરાત, મધ્ય પ્રદેશ અને પશ્ચિમ બંગાળ સહિત 8 ભારતીય રાજ્યોમાંથી પસાર થાય છે, પરંતુ પંજાબમાંથી નહીં, જે તેનાથી વધુ ઉત્તરમાં આવેલું છે.",
+      }),
+    },
+  ];
+
+  const allQuestions = [...mentalAbilityQuestions, ...arithmeticQuestions, ...multilingualQuestions, ...class9Questions];
 
   let newQuestionCount = 0;
   for (const q of allQuestions) {
@@ -869,7 +1233,7 @@ async function main() {
   console.log(`Blog seed: ${blogSeedPosts.length} posts processed, ${newBlogPostCount} newly created.`);
 
   console.log(
-    "Seed complete: 4 sections, 6 topics, 5 speed hacks, 3 exam templates (JNVST, AISSEE, RMS)" +
+    "Seed complete: 7 sections, 9 topics, 5 speed hacks, 6 exam templates (JNVST/AISSEE/RMS × Class 6 & Class 9)" +
       (existingMediaItemCount === 0 ? ", 6 media items" : "") +
       "."
   );

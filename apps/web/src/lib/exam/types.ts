@@ -1,4 +1,4 @@
-export type LanguageCode = "en" | "hi" | "mr" | "bn" | "ta";
+export type LanguageCode = "en" | "hi" | "mr" | "bn" | "ta" | "gu";
 
 /**
  * "en" is always present — the guaranteed fallback for a language that

@@ -68,12 +68,17 @@ export default function DashboardPage() {
             {activeStudent.targetExam} · Class {activeStudent.targetClass}
           </p>
         </div>
-        <Button asChild>
-          <Link href="/exam/demo-jnvst">
-            <NotebookPen className="h-4 w-4" />
-            Take a Mock Test
-          </Link>
-        </Button>
+        <div className="flex gap-2">
+          <Button asChild variant="outline">
+            <Link href="/exam/live">Live Mocks (Class 6 &amp; 9)</Link>
+          </Button>
+          <Button asChild>
+            <Link href="/exam/demo-jnvst">
+              <NotebookPen className="h-4 w-4" />
+              Take a Mock Test
+            </Link>
+          </Button>
+        </div>
       </div>
 
       <div className="flex flex-col gap-3">

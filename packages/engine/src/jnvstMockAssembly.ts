@@ -1,15 +1,18 @@
 /**
- * Assembles a JNVST Class 6 mock paper from a pool of Previous-Year-Question
- * bank items, matching the exam's real 40/20/20 section blueprint. Pure
- * logic — no Prisma, no I/O — so it's unit-testable in isolation and reused
- * identically by packages/db/src/jnvstMockService.ts (the caller that
- * actually fetches the pool and the blueprint from the database) without
+ * Assembles a mock paper (any board/class — JNVST Class 6's 40/20/20
+ * blueprint, JNVST/AISSEE/RMS Class 9, or any future combination) from a
+ * pool of Previous-Year-Question bank items, matching the exam's section
+ * blueprint. Pure logic — no Prisma, no I/O — so it's unit-testable in
+ * isolation and reused identically by
+ * apps/web/src/lib/exam/jnvstMockService.ts (the caller that actually
+ * fetches the pool and the blueprint from the database) without
  * duplicating the selection rules.
  */
 
 import { shuffled } from "./random";
 
-export type JnvstSectionKey = "mental_ability" | "arithmetic" | "language";
+/** A Section.key value (packages/db/prisma/schema.prisma) — open-ended, not a fixed union, since different boards/classes introduce different sections. */
+export type JnvstSectionKey = string;
 
 export interface PyqPoolItem {
   id: string;
