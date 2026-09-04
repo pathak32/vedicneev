@@ -34,6 +34,7 @@ export const dynamic = "force-dynamic";
 export default function ExamResultsPage({ params }: { params: { examId: string } }) {
   const router = useRouter();
   const session = useTestStore((s) => s.session);
+  const testStoreHasHydrated = useTestStore((s) => s.hasHydrated);
   const submitted = useTestStore((s) => s.submitted);
   const language = useTestStore((s) => s.language);
   const selectedOptions = useTestStore((s) => s.selectedOptions);
@@ -176,8 +177,15 @@ export default function ExamResultsPage({ params }: { params: { examId: string }
     setWhatsAppShareUrl(`https://wa.me/?text=${encodeURIComponent(message)}`);
   }, [report, admissionProbability, activeStudent]);
 
-  // No finished session in the store for this exam (e.g. a direct link or a page refresh —
-  // the demo keeps state in memory only). Point the user back to take the test.
+  // Wait for useTestStore's sessionStorage rehydration before deciding
+  // there's nothing to show — otherwise a real, persisted submitted
+  // attempt would flash "No submitted attempt found" for a moment before
+  // the restored state arrives.
+  if (!testStoreHasHydrated) return null;
+
+  // No finished session in the store for this exam (e.g. a direct link, a
+  // different exam, or an attempt that was never submitted). Point the
+  // user back to take the test.
   if (!session || session.examId !== params.examId || !submitted || !report || !admissionProbability) {
     return (
       <div className="mx-auto flex max-w-md flex-col items-center gap-4 p-12 text-center">

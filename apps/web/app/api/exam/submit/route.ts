@@ -73,31 +73,52 @@ export async function POST(req: Request) {
       },
     });
 
-    // 4. Load available seeded questions. The client's exam content (the
-    // in-memory demo/mock session — see apps/web/src/lib/exam/mock-data.ts)
-    // uses its own fixture ids (e.g. "q-ma-1"), which don't exist in the
-    // seeded `questions` table yet. TestResponse.questionId is a foreign key
-    // to Question, so writing one of those ids directly would violate the FK
-    // constraint (Prisma P2003) and 500 the whole request — which is exactly
-    // what was happening here: the previous code computed a
-    // `validQuestionId` fallback but never actually used it in the upsert
-    // below, so every response with an unrecognized id still hit the FK
-    // violation. Collapsing every unmatched question onto one fallback id
-    // isn't a real fix either — it makes multiple mistakes in the same
-    // session collide on the same [testSessionId, questionId] unique key,
-    // and then on MistakeVault.testResponseId's unique constraint the moment
-    // a second mistake tried to reuse the same (rewritten) TestResponse row.
-    // Until the client is wired to real DB-backed questions, the honest fix
-    // is to skip responses that don't reference a real question rather than
-    // fabricate a mapping that corrupts or crashes on the next one.
-    const dbQuestions = await prisma.question.findMany({ select: { id: true } });
+    // 4. Load available seeded questions. TestResponse.questionId and
+    // MistakeVault.questionId are both foreign keys to Question
+    // specifically — writing an id from anywhere else violates the FK
+    // constraint (Prisma P2003) and 500s the whole request. Two different
+    // ids show up here that aren't in Question:
+    //  - the client's in-memory demo/mock fixture (mock-data.ts) uses its
+    //    own ids (e.g. "q-ma-1"), which were never seeded anywhere;
+    //  - the real PYQ-bank live mock (jnvstMockService.ts) draws from
+    //    PreviousYearQuestion, a genuine seeded table, but a different one
+    //    from Question — same FK problem, different cause. Collapsing
+    //    every unmatched question onto one fallback id isn't a real fix
+    //    either — it makes multiple mistakes in the same session collide
+    //    on the same [testSessionId, questionId] unique key, and then on
+    //    MistakeVault.testResponseId's unique constraint the moment a
+    //    second mistake tried to reuse the same (rewritten) TestResponse
+    //    row. Until either the client is wired to real Question-table
+    //    content, or TestResponse/MistakeVault gain a second FK for the
+    //    PYQ bank, the honest fix is to skip both kinds — but distinguish
+    //    them, since "sourced from a real, known bank we just can't link
+    //    yet" and "not found anywhere" are different situations worth
+    //    telling apart in the response and the logs.
+    const [dbQuestions, pyqQuestions] = await Promise.all([
+      prisma.question.findMany({ select: { id: true } }),
+      prisma.previousYearQuestion.findMany({ select: { id: true } }),
+    ]);
     const dbQuestionIds = new Set(dbQuestions.map((q) => q.id));
-    const skippedQuestionIds: string[] = [];
+    const pyqQuestionIds = new Set(pyqQuestions.map((q) => q.id));
+    const skipped: { questionId: string; reason: string }[] = [];
 
     if (Array.isArray(responses) && responses.length > 0) {
       for (const item of responses) {
-        if (!item?.questionId || !dbQuestionIds.has(item.questionId)) {
-          skippedQuestionIds.push(item?.questionId ?? "<missing>");
+        const questionId = item?.questionId;
+        if (!questionId) {
+          skipped.push({ questionId: "<missing>", reason: "Response had no questionId." });
+          continue;
+        }
+        if (!dbQuestionIds.has(questionId)) {
+          skipped.push(
+            pyqQuestionIds.has(questionId)
+              ? {
+                  questionId,
+                  reason:
+                    "Sourced from the PreviousYearQuestion bank — TestResponse/MistakeVault require a Question-table foreign key, which PYQ ids don't satisfy.",
+                }
+              : { questionId, reason: "Not found in either the Question or PreviousYearQuestion bank." }
+          );
           continue;
         }
 
@@ -105,7 +126,7 @@ export async function POST(req: Request) {
           where: {
             testSessionId_questionId: {
               testSessionId: session.id,
-              questionId: item.questionId,
+              questionId,
             },
           },
           update: {
@@ -115,7 +136,7 @@ export async function POST(req: Request) {
           },
           create: {
             testSessionId: session.id,
-            questionId: item.questionId,
+            questionId,
             selectedOption: item.selectedOption,
             isCorrect: item.isCorrect,
             timeSpentSeconds: item.timeSpentSeconds,
@@ -126,7 +147,7 @@ export async function POST(req: Request) {
           await prisma.mistakeVault.create({
             data: {
               userId: user.id,
-              questionId: item.questionId,
+              questionId,
               testResponseId: testResponse.id,
               tagCategory: item.mistakeTag ?? "CARELESS_RUSHED",
             },
@@ -135,14 +156,15 @@ export async function POST(req: Request) {
       }
     }
 
-    if (skippedQuestionIds.length > 0) {
+    if (skipped.length > 0) {
+      const pyqSkipped = skipped.filter((s) => s.reason.startsWith("Sourced from the PreviousYearQuestion")).length;
       console.warn(
-        `Exam submit: skipped ${skippedQuestionIds.length} response(s) with unrecognized questionId(s):`,
-        skippedQuestionIds
+        `Exam submit: skipped ${skipped.length} response(s) — ${pyqSkipped} from the PYQ bank (no Question-table FK), ${skipped.length - pyqSkipped} truly unrecognized:`,
+        skipped
       );
     }
 
-    return NextResponse.json({ success: true, sessionId: session.id, skippedQuestionIds });
+    return NextResponse.json({ success: true, sessionId: session.id, skipped });
   } catch (error) {
     console.error("Exam submit error:", error);
 

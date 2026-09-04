@@ -1,4 +1,5 @@
 import { create } from "zustand";
+import { createJSONStorage, persist } from "zustand/middleware";
 
 import { useLanguageStore } from "../hooks/useLanguageStore";
 import type { ExamQuestion, ExamSessionData, LanguageCode, QuestionStatus } from "../exam/types";
@@ -39,9 +40,14 @@ export interface TestStoreState {
 
   /** ms timestamp when the current question became active; null when no session is loaded or it's submitted. */
   activeQuestionEnteredAt: number | null;
+  /** ms timestamp of the last tick() call (or initSession) — used on rehydration to figure out how much real time passed while the page was reloading/closed, so a refresh can't be used to pause the clock. */
+  lastTickAt: number | null;
 
   submitted: boolean;
   submittedAt: number | null;
+
+  /** True once persisted state (sessionStorage) has been restored — gates initSession so a resumed attempt isn't immediately overwritten. */
+  hasHydrated: boolean;
 
   initSession: (session: ExamSessionData) => void;
   /**
@@ -80,255 +86,316 @@ const initialState = {
   overallRemainingSeconds: 0,
   remainingSecondsBySection: {} as Record<string, number>,
   activeQuestionEnteredAt: null as number | null,
+  lastTickAt: null as number | null,
   submitted: false,
   submittedAt: null as number | null,
+  hasHydrated: false,
 };
 
-export const useTestStore = create<TestStoreState>((set, get) => {
-  /** Adds elapsed dwell time on the current question to its running total. Call before any navigation or answer change. */
-  function commitElapsed() {
-    const state = get();
-    if (!state.session || state.activeQuestionEnteredAt === null || state.submitted) return;
-    const questionId = selectCurrentQuestionId(state);
-    if (!questionId) return;
-    const elapsedMs = Date.now() - state.activeQuestionEnteredAt;
-    const elapsedSeconds = Math.max(0, elapsedMs / 1000);
-    set((s) => ({
-      timeSpentSeconds: {
-        ...s.timeSpentSeconds,
-        [questionId]: (s.timeSpentSeconds[questionId] ?? 0) + elapsedSeconds,
-      },
-      activeQuestionEnteredAt: Date.now(),
-    }));
-  }
-
-  function visitQuestion(sectionIndex: number, questionIndex: number) {
-    const state = get();
-    const section = state.session?.sections[sectionIndex];
-    const questionId = section?.questionIds[questionIndex];
-    if (!questionId) return;
-    set((s) => {
-      const current = s.statuses[questionId] ?? "UNVISITED";
-      return {
-        currentSectionIndex: sectionIndex,
-        currentQuestionIndex: questionIndex,
-        statuses: {
-          ...s.statuses,
-          [questionId]: current === "UNVISITED" ? "VISITED" : current,
-        },
-        activeQuestionEnteredAt: Date.now(),
-      };
-    });
-  }
-
-  return {
-    ...initialState,
-
-    initSession: (session) => {
-      const statuses: Record<string, QuestionStatus> = {};
-      for (const question of Object.values(session.questionsById)) {
-        statuses[question.id] = "UNVISITED";
-      }
-      const remainingSecondsBySection: Record<string, number> = {};
-      for (const section of session.sections) {
-        if (section.timeLimitSeconds !== null) {
-          remainingSecondsBySection[section.key] = section.timeLimitSeconds;
-        }
-      }
-      const firstQuestionId = session.sections[0]?.questionIds[0];
-
-      set({
-        ...initialState,
-        session,
-        // Carry the student's app-wide language preference into this fresh
-        // session instead of always defaulting to English.
-        language: useLanguageStore.getState().languageCode,
-        statuses: firstQuestionId ? { ...statuses, [firstQuestionId]: "VISITED" } : statuses,
-        lastVisitedIndexBySection: session.sections.map(() => 0),
-        overallRemainingSeconds: session.totalDurationSeconds,
-        remainingSecondsBySection,
-        activeQuestionEnteredAt: Date.now(),
-      });
-    },
-
-    loadExternalSubmission: (session, selectedOptionsByQuestionId) => {
-      const statuses: Record<string, QuestionStatus> = {};
-      const selectedOptions: Record<string, string | undefined> = {};
-      const timeSpentSeconds: Record<string, number> = {};
-      for (const question of Object.values(session.questionsById)) {
-        const selected = selectedOptionsByQuestionId[question.id];
-        selectedOptions[question.id] = selected;
-        statuses[question.id] = selected !== undefined ? "ANSWERED" : "UNVISITED";
-        timeSpentSeconds[question.id] = 0;
-      }
-
-      set({
-        ...initialState,
-        session,
-        language: useLanguageStore.getState().languageCode,
-        statuses,
-        selectedOptions,
-        timeSpentSeconds,
-        lastVisitedIndexBySection: session.sections.map(() => 0),
-        overallRemainingSeconds: 0,
-        remainingSecondsBySection: {},
-        activeQuestionEnteredAt: null,
-        submitted: true,
-        submittedAt: Date.now(),
-      });
-    },
-
-    setLanguage: (language) => set({ language }),
-
-    selectOption: (optionId) => {
-      commitElapsed();
-      const state = get();
-      const questionId = selectCurrentQuestionId(state);
-      if (!questionId) return;
-      set((s) => ({
-        selectedOptions: { ...s.selectedOptions, [questionId]: optionId },
-        statuses: {
-          ...s.statuses,
-          [questionId]: nextStatusOnSave(s.statuses[questionId] ?? "UNVISITED", true),
-        },
-      }));
-    },
-
-    clearResponse: () => {
-      commitElapsed();
-      const state = get();
-      const questionId = selectCurrentQuestionId(state);
-      if (!questionId) return;
-      set((s) => ({
-        selectedOptions: { ...s.selectedOptions, [questionId]: undefined },
-        statuses: {
-          ...s.statuses,
-          [questionId]: nextStatusOnClear(s.statuses[questionId] ?? "UNVISITED"),
-        },
-      }));
-    },
-
-    saveAndNext: () => {
-      commitElapsed();
-      const state = get();
-      const questionId = selectCurrentQuestionId(state);
-      if (questionId) {
-        const hasAnswer = state.selectedOptions[questionId] !== undefined;
+export const useTestStore = create<TestStoreState>()(
+  persist(
+    (set, get) => {
+      /** Adds elapsed dwell time on the current question to its running total. Call before any navigation or answer change. */
+      function commitElapsed() {
+        const state = get();
+        if (!state.session || state.activeQuestionEnteredAt === null || state.submitted) return;
+        const questionId = selectCurrentQuestionId(state);
+        if (!questionId) return;
+        const elapsedMs = Date.now() - state.activeQuestionEnteredAt;
+        const elapsedSeconds = Math.max(0, elapsedMs / 1000);
         set((s) => ({
-          statuses: {
-            ...s.statuses,
-            [questionId]: nextStatusOnSave(s.statuses[questionId] ?? "UNVISITED", hasAnswer),
+          timeSpentSeconds: {
+            ...s.timeSpentSeconds,
+            [questionId]: (s.timeSpentSeconds[questionId] ?? 0) + elapsedSeconds,
           },
+          activeQuestionEnteredAt: Date.now(),
         }));
       }
-      get().goToNext();
-    },
 
-    markForReviewAndNext: () => {
-      commitElapsed();
-      const state = get();
-      const questionId = selectCurrentQuestionId(state);
-      if (questionId) {
-        const hasAnswer = state.selectedOptions[questionId] !== undefined;
-        set((s) => ({
-          statuses: { ...s.statuses, [questionId]: nextStatusOnMark(hasAnswer) },
-        }));
-      }
-      get().goToNext();
-    },
-
-    goToNext: () => {
-      commitElapsed();
-      const state = get();
-      if (!state.session) return;
-      const section = state.session.sections[state.currentSectionIndex];
-      if (!section) return;
-
-      if (state.currentQuestionIndex < section.questionIds.length - 1) {
-        visitQuestion(state.currentSectionIndex, state.currentQuestionIndex + 1);
-        return;
-      }
-      if (state.currentSectionIndex < state.session.sections.length - 1) {
-        get().switchSection(state.currentSectionIndex + 1);
-      }
-    },
-
-    goToPrevious: () => {
-      commitElapsed();
-      const state = get();
-      if (!state.session) return;
-
-      if (state.currentQuestionIndex > 0) {
-        visitQuestion(state.currentSectionIndex, state.currentQuestionIndex - 1);
-        return;
-      }
-      if (state.currentSectionIndex > 0) {
-        const prevSectionIndex = state.currentSectionIndex - 1;
-        const prevSection = state.session.sections[prevSectionIndex];
-        if (prevSection) {
-          get().switchSection(prevSectionIndex);
-          visitQuestion(prevSectionIndex, prevSection.questionIds.length - 1);
-        }
-      }
-    },
-
-    goToQuestionIndex: (sectionIndex, questionIndex) => {
-      commitElapsed();
-      visitQuestion(sectionIndex, questionIndex);
-      set((s) => {
-        const lastVisitedIndexBySection = [...s.lastVisitedIndexBySection];
-        lastVisitedIndexBySection[sectionIndex] = questionIndex;
-        return { lastVisitedIndexBySection };
-      });
-    },
-
-    switchSection: (sectionIndex) => {
-      const state = get();
-      if (!state.session || sectionIndex === state.currentSectionIndex) return;
-      commitElapsed();
-      const resumeIndex = state.lastVisitedIndexBySection[sectionIndex] ?? 0;
-      set((s) => {
-        const lastVisitedIndexBySection = [...s.lastVisitedIndexBySection];
-        lastVisitedIndexBySection[s.currentSectionIndex] = s.currentQuestionIndex;
-        return { lastVisitedIndexBySection };
-      });
-      visitQuestion(sectionIndex, resumeIndex);
-    },
-
-    tick: () => {
-      const state = get();
-      if (!state.session || state.submitted) return;
-
-      const overallRemainingSeconds = Math.max(0, state.overallRemainingSeconds - 1);
-      const currentSection = state.session.sections[state.currentSectionIndex];
-      const remainingSecondsBySection = { ...state.remainingSecondsBySection };
-
-      let sectionExpired = false;
-      if (currentSection && remainingSecondsBySection[currentSection.key] !== undefined) {
-        const next = Math.max(0, remainingSecondsBySection[currentSection.key]! - 1);
-        remainingSecondsBySection[currentSection.key] = next;
-        sectionExpired = next === 0;
+      function visitQuestion(sectionIndex: number, questionIndex: number) {
+        const state = get();
+        const section = state.session?.sections[sectionIndex];
+        const questionId = section?.questionIds[questionIndex];
+        if (!questionId) return;
+        set((s) => {
+          const current = s.statuses[questionId] ?? "UNVISITED";
+          return {
+            currentSectionIndex: sectionIndex,
+            currentQuestionIndex: questionIndex,
+            statuses: {
+              ...s.statuses,
+              [questionId]: current === "UNVISITED" ? "VISITED" : current,
+            },
+            activeQuestionEnteredAt: Date.now(),
+          };
+        });
       }
 
-      set({ overallRemainingSeconds, remainingSecondsBySection });
+      return {
+        ...initialState,
 
-      if (overallRemainingSeconds === 0) {
-        get().submitExam();
-        return;
-      }
-      if (sectionExpired && state.currentSectionIndex < state.session.sections.length - 1) {
-        get().switchSection(state.currentSectionIndex + 1);
-      }
+        initSession: (session) => {
+          const statuses: Record<string, QuestionStatus> = {};
+          for (const question of Object.values(session.questionsById)) {
+            statuses[question.id] = "UNVISITED";
+          }
+          const remainingSecondsBySection: Record<string, number> = {};
+          for (const section of session.sections) {
+            if (section.timeLimitSeconds !== null) {
+              remainingSecondsBySection[section.key] = section.timeLimitSeconds;
+            }
+          }
+          const firstQuestionId = session.sections[0]?.questionIds[0];
+
+          set({
+            ...initialState,
+            session,
+            // Carry the student's app-wide language preference into this fresh
+            // session instead of always defaulting to English.
+            language: useLanguageStore.getState().languageCode,
+            statuses: firstQuestionId ? { ...statuses, [firstQuestionId]: "VISITED" } : statuses,
+            lastVisitedIndexBySection: session.sections.map(() => 0),
+            overallRemainingSeconds: session.totalDurationSeconds,
+            remainingSecondsBySection,
+            activeQuestionEnteredAt: Date.now(),
+            lastTickAt: Date.now(),
+            hasHydrated: true,
+          });
+        },
+
+        loadExternalSubmission: (session, selectedOptionsByQuestionId) => {
+          const statuses: Record<string, QuestionStatus> = {};
+          const selectedOptions: Record<string, string | undefined> = {};
+          const timeSpentSeconds: Record<string, number> = {};
+          for (const question of Object.values(session.questionsById)) {
+            const selected = selectedOptionsByQuestionId[question.id];
+            selectedOptions[question.id] = selected;
+            statuses[question.id] = selected !== undefined ? "ANSWERED" : "UNVISITED";
+            timeSpentSeconds[question.id] = 0;
+          }
+
+          set({
+            ...initialState,
+            session,
+            language: useLanguageStore.getState().languageCode,
+            statuses,
+            selectedOptions,
+            timeSpentSeconds,
+            lastVisitedIndexBySection: session.sections.map(() => 0),
+            overallRemainingSeconds: 0,
+            remainingSecondsBySection: {},
+            activeQuestionEnteredAt: null,
+            lastTickAt: null,
+            submitted: true,
+            submittedAt: Date.now(),
+            hasHydrated: true,
+          });
+        },
+
+        setLanguage: (language) => set({ language }),
+
+        selectOption: (optionId) => {
+          commitElapsed();
+          const state = get();
+          const questionId = selectCurrentQuestionId(state);
+          if (!questionId) return;
+          set((s) => ({
+            selectedOptions: { ...s.selectedOptions, [questionId]: optionId },
+            statuses: {
+              ...s.statuses,
+              [questionId]: nextStatusOnSave(s.statuses[questionId] ?? "UNVISITED", true),
+            },
+          }));
+        },
+
+        clearResponse: () => {
+          commitElapsed();
+          const state = get();
+          const questionId = selectCurrentQuestionId(state);
+          if (!questionId) return;
+          set((s) => ({
+            selectedOptions: { ...s.selectedOptions, [questionId]: undefined },
+            statuses: {
+              ...s.statuses,
+              [questionId]: nextStatusOnClear(s.statuses[questionId] ?? "UNVISITED"),
+            },
+          }));
+        },
+
+        saveAndNext: () => {
+          commitElapsed();
+          const state = get();
+          const questionId = selectCurrentQuestionId(state);
+          if (questionId) {
+            const hasAnswer = state.selectedOptions[questionId] !== undefined;
+            set((s) => ({
+              statuses: {
+                ...s.statuses,
+                [questionId]: nextStatusOnSave(s.statuses[questionId] ?? "UNVISITED", hasAnswer),
+              },
+            }));
+          }
+          get().goToNext();
+        },
+
+        markForReviewAndNext: () => {
+          commitElapsed();
+          const state = get();
+          const questionId = selectCurrentQuestionId(state);
+          if (questionId) {
+            const hasAnswer = state.selectedOptions[questionId] !== undefined;
+            set((s) => ({
+              statuses: { ...s.statuses, [questionId]: nextStatusOnMark(hasAnswer) },
+            }));
+          }
+          get().goToNext();
+        },
+
+        goToNext: () => {
+          commitElapsed();
+          const state = get();
+          if (!state.session) return;
+          const section = state.session.sections[state.currentSectionIndex];
+          if (!section) return;
+
+          if (state.currentQuestionIndex < section.questionIds.length - 1) {
+            visitQuestion(state.currentSectionIndex, state.currentQuestionIndex + 1);
+            return;
+          }
+          if (state.currentSectionIndex < state.session.sections.length - 1) {
+            get().switchSection(state.currentSectionIndex + 1);
+          }
+        },
+
+        goToPrevious: () => {
+          commitElapsed();
+          const state = get();
+          if (!state.session) return;
+
+          if (state.currentQuestionIndex > 0) {
+            visitQuestion(state.currentSectionIndex, state.currentQuestionIndex - 1);
+            return;
+          }
+          if (state.currentSectionIndex > 0) {
+            const prevSectionIndex = state.currentSectionIndex - 1;
+            const prevSection = state.session.sections[prevSectionIndex];
+            if (prevSection) {
+              get().switchSection(prevSectionIndex);
+              visitQuestion(prevSectionIndex, prevSection.questionIds.length - 1);
+            }
+          }
+        },
+
+        goToQuestionIndex: (sectionIndex, questionIndex) => {
+          commitElapsed();
+          visitQuestion(sectionIndex, questionIndex);
+          set((s) => {
+            const lastVisitedIndexBySection = [...s.lastVisitedIndexBySection];
+            lastVisitedIndexBySection[sectionIndex] = questionIndex;
+            return { lastVisitedIndexBySection };
+          });
+        },
+
+        switchSection: (sectionIndex) => {
+          const state = get();
+          if (!state.session || sectionIndex === state.currentSectionIndex) return;
+          commitElapsed();
+          const resumeIndex = state.lastVisitedIndexBySection[sectionIndex] ?? 0;
+          set((s) => {
+            const lastVisitedIndexBySection = [...s.lastVisitedIndexBySection];
+            lastVisitedIndexBySection[s.currentSectionIndex] = s.currentQuestionIndex;
+            return { lastVisitedIndexBySection };
+          });
+          visitQuestion(sectionIndex, resumeIndex);
+        },
+
+        tick: () => {
+          const state = get();
+          if (!state.session || state.submitted) return;
+
+          const overallRemainingSeconds = Math.max(0, state.overallRemainingSeconds - 1);
+          const currentSection = state.session.sections[state.currentSectionIndex];
+          const remainingSecondsBySection = { ...state.remainingSecondsBySection };
+
+          let sectionExpired = false;
+          if (currentSection && remainingSecondsBySection[currentSection.key] !== undefined) {
+            const next = Math.max(0, remainingSecondsBySection[currentSection.key]! - 1);
+            remainingSecondsBySection[currentSection.key] = next;
+            sectionExpired = next === 0;
+          }
+
+          set({ overallRemainingSeconds, remainingSecondsBySection, lastTickAt: Date.now() });
+
+          if (overallRemainingSeconds === 0) {
+            get().submitExam();
+            return;
+          }
+          if (sectionExpired && state.currentSectionIndex < state.session.sections.length - 1) {
+            get().switchSection(state.currentSectionIndex + 1);
+          }
+        },
+
+        submitExam: () => {
+          commitElapsed();
+          set({ submitted: true, submittedAt: Date.now(), activeQuestionEnteredAt: null, lastTickAt: null });
+        },
+
+        reset: () => set({ ...initialState, hasHydrated: true }),
+      };
     },
+    {
+      name: "vedicneev-test-session",
+      // sessionStorage, not localStorage — an in-progress timed attempt
+      // should survive an accidental reload, but not silently resume days
+      // later after the tab (and, implicitly, the exam sitting) was closed.
+      storage: createJSONStorage(() =>
+        typeof window === "undefined"
+          ? { getItem: () => null, setItem: () => {}, removeItem: () => {} }
+          : sessionStorage
+      ),
+    }
+  )
+);
 
-    submitExam: () => {
-      commitElapsed();
-      set({ submitted: true, submittedAt: Date.now(), activeQuestionEnteredAt: null });
-    },
+/**
+ * Corrects the timers for real time that passed while this tab was
+ * closed/reloaded, then marks hydration done — otherwise a refresh would
+ * silently "pause" the countdown, since the interval driving tick() stops
+ * the moment the page unmounts and only resumes once ExamPlayer remounts.
+ * Wired via the external persist.onFinishHydration API (the same one
+ * useAuthStore.ts and useLanguageStore.ts already use successfully) rather
+ * than the onRehydrateStorage config option, which doesn't reliably fire
+ * on the very first automatic hydration in this app's Next.js build.
+ */
+function applyRehydrationCatchUp(state: TestStoreState) {
+  if (!state.session || state.submitted || state.lastTickAt === null) {
+    useTestStore.setState({ hasHydrated: true });
+    return;
+  }
+  const elapsedSeconds = Math.max(0, Math.floor((Date.now() - state.lastTickAt) / 1000));
+  const currentSection = state.session.sections[state.currentSectionIndex];
+  const remainingSecondsBySection = { ...state.remainingSecondsBySection };
+  if (currentSection && remainingSecondsBySection[currentSection.key] !== undefined) {
+    remainingSecondsBySection[currentSection.key] = Math.max(
+      0,
+      remainingSecondsBySection[currentSection.key]! - elapsedSeconds
+    );
+  }
+  useTestStore.setState({
+    overallRemainingSeconds: Math.max(0, state.overallRemainingSeconds - elapsedSeconds),
+    remainingSecondsBySection,
+    // The reload gap shouldn't count as dwell time on whichever question
+    // happened to be open when the tab closed.
+    activeQuestionEnteredAt: Date.now(),
+    lastTickAt: Date.now(),
+    hasHydrated: true,
+  });
+}
 
-    reset: () => set({ ...initialState }),
-  };
-});
+useTestStore.persist.onFinishHydration(applyRehydrationCatchUp);
+if (useTestStore.persist.hasHydrated()) {
+  applyRehydrationCatchUp(useTestStore.getState());
+}
 
 // ── Selectors ─────────────────────────────────────────────────────────
 
@@ -367,9 +434,7 @@ export function selectStatusCounts(state: TestStoreState, sectionKey?: string): 
   if (!state.session) return counts;
 
   const section = sectionKey ? state.session.sections.find((s) => s.key === sectionKey) : null;
-  const questionIds = section
-    ? section.questionIds
-    : Object.keys(state.session.questionsById);
+  const questionIds = section ? section.questionIds : Object.keys(state.session.questionsById);
 
   for (const id of questionIds) {
     const status = state.statuses[id] ?? "UNVISITED";
