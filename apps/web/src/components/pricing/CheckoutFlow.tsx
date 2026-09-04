@@ -13,7 +13,7 @@ import { PLAN_CONFIG, type EntitlementExamType, type PaidPlanId } from "@vedicne
 import { AlertTriangle, Loader2, ShieldCheck } from "lucide-react";
 
 import { loadRazorpayCheckoutScript } from "@/lib/payments/loadRazorpayCheckout";
-import type { CreateOrderResponse, RazorpayPaymentPayload } from "@/lib/payments/types";
+import type { CreateOrderResponse, RazorpayPaymentPayload, VerifyPaymentResponse } from "@/lib/payments/types";
 import { useSubscriptionStore, type StoredSubscription } from "@/lib/payments/useSubscriptionStore";
 
 type CheckoutStep = "creating-order" | "awaiting-payment" | "verifying" | "error";
@@ -22,6 +22,8 @@ export interface CheckoutFlowProps {
   planId: PaidPlanId;
   targetExam: EntitlementExamType | null;
   parentId: string;
+  /** Identifies the real User row server-side — see POST /api/razorpay/verify-payment, which upserts by phone the same way apps/web/app/api/auth/sync/route.ts does at sign-in. */
+  parentPhone: string;
   onSuccess: (subscription: StoredSubscription) => void;
   onCancel: () => void;
 }
@@ -33,7 +35,7 @@ export interface CheckoutFlowProps {
  * (no card/payment fields — just "Simulate Successful Payment") instead of
  * opening the real checkout.js widget.
  */
-export function CheckoutFlow({ planId, targetExam, parentId, onSuccess, onCancel }: CheckoutFlowProps) {
+export function CheckoutFlow({ planId, targetExam, parentId, parentPhone, onSuccess, onCancel }: CheckoutFlowProps) {
   const [step, setStep] = useState<CheckoutStep>("creating-order");
   const [error, setError] = useState<string | null>(null);
   const [order, setOrder] = useState<CreateOrderResponse | null>(null);
@@ -47,18 +49,24 @@ export function CheckoutFlow({ planId, targetExam, parentId, onSuccess, onCancel
       const res = await fetch("/api/razorpay/verify-payment", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload),
+        body: JSON.stringify({ ...payload, phone: parentPhone, planId, targetExam }),
       });
-      const data = await res.json();
+      const data: VerifyPaymentResponse = await res.json();
       if (!res.ok || !data.verified) throw new Error(data.error ?? "Payment could not be verified.");
 
+      // The server just wrote the real Subscription row (POST
+      // /api/razorpay/verify-payment) — this local store still drives the
+      // UI's instant reactivity, so mirror the server's response into it
+      // rather than re-deriving amount/validUntil client-side, in case a
+      // future price or validity-period change lands only on the server.
       const subscription = activateSubscription({
         parentId,
         plan: planId,
         targetExam,
-        amountPaid: plan.priceInr,
+        amountPaid: data.subscription?.amountPaid ?? plan.priceInr,
         razorpayOrderId: payload.razorpay_order_id,
         razorpayPaymentId: payload.razorpay_payment_id,
+        validUntil: data.subscription ? new Date(data.subscription.validUntil).getTime() : undefined,
       });
       onSuccess(subscription);
     } catch (err) {

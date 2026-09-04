@@ -20,6 +20,7 @@ import { useSubscriptionStore } from "@/lib/payments/useSubscriptionStore";
 
 export interface SubscriptionManagerProps {
   parentId: string;
+  parentPhone: string;
   subscription: ParentSubscription | null;
   defaultExam?: EntitlementExamType;
 }
@@ -31,7 +32,7 @@ const STATUS_META: Record<ParentSubscription["status"], { label: string; classNa
 };
 
 /** Compact subscription status plus a one-tap All-Access toggle, so a parent can upgrade, downgrade, or cancel without leaving the Command Center. */
-export function SubscriptionManager({ parentId, subscription, defaultExam }: SubscriptionManagerProps) {
+export function SubscriptionManager({ parentId, parentPhone, subscription, defaultExam }: SubscriptionManagerProps) {
   const cancelSubscription = useSubscriptionStore((s) => s.cancelSubscription);
   const [comparePlansOpen, setComparePlansOpen] = useState(false);
   const [checkout, setCheckout] = useState<{ planId: PaidPlanId; targetExam: EntitlementExamType | null } | null>(
@@ -121,6 +122,7 @@ export function SubscriptionManager({ parentId, subscription, defaultExam }: Sub
           planId={checkout.planId}
           targetExam={checkout.targetExam}
           parentId={parentId}
+          parentPhone={parentPhone}
           onCancel={() => setCheckout(null)}
           onSuccess={() => setCheckout(null)}
         />
