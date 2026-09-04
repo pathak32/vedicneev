@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 
 import "./globals.css";
 import { SiteHeader } from "@/components/auth/SiteHeader";
+import { SiteFooter } from "@/components/marketing/SiteFooter";
 import { ActiveStudentProvider } from "@/lib/auth/ActiveStudentContext";
 import { SITE_NAME as siteName, SITE_URL as appUrl } from "@/lib/siteConfig";
 
@@ -92,6 +93,7 @@ export default function RootLayout({
         <ActiveStudentProvider>
           <SiteHeader />
           {children}
+          <SiteFooter />
         </ActiveStudentProvider>
       </body>
     </html>
