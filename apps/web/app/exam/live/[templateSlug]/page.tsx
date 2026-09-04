@@ -7,6 +7,7 @@ import { Button } from "@vedicneev/ui";
 
 import { ExamPlayer } from "@/components/exam/ExamPlayer";
 import type { ExamSessionData } from "@/lib/exam/types";
+import { useTestStore } from "@/lib/stores/useTestStore";
 
 // Session-specific once loaded, same as app/exam/jnvst-live-mock/page.tsx —
 // noindex is applied by the parent app/exam/live/layout.tsx.
@@ -34,6 +35,24 @@ export default function ExamLiveMockPage() {
 
   useEffect(() => {
     let cancelled = false;
+
+    // A reload (or any remount) of this route must resume the in-progress
+    // attempt already sitting in useTestStore's sessionStorage instead of
+    // always drawing a brand new random paper — otherwise every refresh
+    // would silently discard the student's answers and timer under a
+    // *different* examId, defeating useTestStore's whole persistence
+    // design. Only fetch a fresh paper when there's no matching,
+    // not-yet-submitted attempt for this exact template already resumable.
+    const restored = useTestStore.getState();
+    if (
+      restored.session &&
+      !restored.submitted &&
+      restored.session.examId.startsWith(`${templateSlug}-live-mock-`)
+    ) {
+      setState({ status: "ready", session: restored.session, warnings: [] });
+      return;
+    }
+
     fetch(`/api/exams/generate-mock?slug=${encodeURIComponent(templateSlug)}`, { method: "POST" })
       .then(async (res) => {
         const data = await res.json();

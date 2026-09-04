@@ -6,6 +6,7 @@ import { Button } from "@vedicneev/ui";
 
 import { ExamPlayer } from "@/components/exam/ExamPlayer";
 import type { ExamSessionData } from "@/lib/exam/types";
+import { useTestStore } from "@/lib/stores/useTestStore";
 
 // This route calls the generate-mock API on mount and is entirely
 // session-specific once loaded — same noindex reasoning as the rest of
@@ -31,6 +32,22 @@ export default function JnvstLiveMockPage() {
 
   useEffect(() => {
     let cancelled = false;
+
+    // Resume an in-progress attempt from useTestStore's sessionStorage on
+    // reload instead of always drawing a brand new random paper under a
+    // *different* examId — see the identical fix/comment in
+    // app/exam/live/[templateSlug]/page.tsx, which this route's pattern
+    // was generalized from (and shared this bug before this fix).
+    const restored = useTestStore.getState();
+    if (
+      restored.session &&
+      !restored.submitted &&
+      restored.session.examId.startsWith("jnvst-live-mock-")
+    ) {
+      setState({ status: "ready", session: restored.session, warnings: [] });
+      return;
+    }
+
     fetch("/api/exams/jnvst/generate-mock", { method: "POST" })
       .then(async (res) => {
         const data = await res.json();

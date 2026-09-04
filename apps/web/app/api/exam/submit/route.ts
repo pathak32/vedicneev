@@ -23,9 +23,44 @@ interface SubmitRequestBody {
   responses?: SubmitResponseItem[];
 }
 
-export async function POST(req: Request) {
+/**
+ * Reads and parses the request body defensively. `req.json()` throws a bare
+ * "Unexpected end of JSON input" SyntaxError for an empty body — which
+ * happens in practice (a truncated/aborted fetch during navigation, a
+ * client bug, or the body having already been read by something upstream,
+ * e.g. middleware) — and previously reached the outer catch as an
+ * undifferentiated 500. Reading as text first lets an empty/whitespace-only
+ * body short-circuit before JSON.parse ever runs, and isolates a genuine
+ * malformed-JSON body to its own clear 400 instead of either case
+ * surfacing as a crash-shaped 500.
+ */
+async function readJsonBody(req: Request): Promise<{ ok: true; body: SubmitRequestBody } | { ok: false; error: string }> {
+  let raw: string;
   try {
-    const body = (await req.json()) as SubmitRequestBody;
+    raw = await req.text();
+  } catch {
+    return { ok: false, error: "Could not read the request body." };
+  }
+
+  if (!raw || raw.trim().length === 0) {
+    return { ok: false, error: "Request body is empty." };
+  }
+
+  try {
+    return { ok: true, body: JSON.parse(raw) as SubmitRequestBody };
+  } catch {
+    return { ok: false, error: "Request body is not valid JSON." };
+  }
+}
+
+export async function POST(req: Request) {
+  const parsed = await readJsonBody(req);
+  if (!parsed.ok) {
+    console.warn(`Exam submit: rejected request — ${parsed.error}`);
+    return NextResponse.json({ error: parsed.error }, { status: 400 });
+  }
+
+  try {
     const {
       phone,
       examTemplateSlug = "demo-jnvst",
@@ -34,7 +69,7 @@ export async function POST(req: Request) {
       percentile = 0,
       timeTakenSeconds = 0,
       responses = [],
-    } = body;
+    } = parsed.body;
 
     if (!phone) {
       return NextResponse.json({ error: "User phone required" }, { status: 400 });
@@ -101,10 +136,21 @@ export async function POST(req: Request) {
     const dbQuestionIds = new Set(dbQuestions.map((q) => q.id));
     const pyqQuestionIds = new Set(pyqQuestions.map((q) => q.id));
     const skipped: { questionId: string; reason: string }[] = [];
+    const failed: { questionId: string; reason: string }[] = [];
 
     if (Array.isArray(responses) && responses.length > 0) {
       for (const item of responses) {
-        const questionId = item?.questionId;
+        // Defensive per-field defaults — `item` is untrusted client input,
+        // and a malformed entry (missing fields, wrong types) here should
+        // degrade that one response, not take down the rest of the batch.
+        const {
+          questionId,
+          selectedOption = null,
+          isCorrect = false,
+          timeSpentSeconds = 0,
+          mistakeTag = "CARELESS_RUSHED",
+        } = item ?? ({} as SubmitResponseItem);
+
         if (!questionId) {
           skipped.push({ questionId: "<missing>", reason: "Response had no questionId." });
           continue;
@@ -122,36 +168,41 @@ export async function POST(req: Request) {
           continue;
         }
 
-        const testResponse = await prisma.testResponse.upsert({
-          where: {
-            testSessionId_questionId: {
-              testSessionId: session.id,
-              questionId,
+        // Each response is written independently — a Prisma error on one
+        // (e.g. a P2003 from a question that got deleted between the lookup
+        // above and this write, or a P2002 from a genuinely concurrent
+        // duplicate) shouldn't abort responses that haven't been written
+        // yet, and shouldn't turn an otherwise-successful submission (the
+        // TestSession itself is already committed) into a full 500.
+        try {
+          const testResponse = await prisma.testResponse.upsert({
+            where: {
+              testSessionId_questionId: {
+                testSessionId: session.id,
+                questionId,
+              },
             },
-          },
-          update: {
-            selectedOption: item.selectedOption,
-            isCorrect: item.isCorrect,
-            timeSpentSeconds: item.timeSpentSeconds,
-          },
-          create: {
-            testSessionId: session.id,
-            questionId,
-            selectedOption: item.selectedOption,
-            isCorrect: item.isCorrect,
-            timeSpentSeconds: item.timeSpentSeconds,
-          },
-        });
-
-        if (!item.isCorrect) {
-          await prisma.mistakeVault.create({
-            data: {
-              userId: user.id,
-              questionId,
-              testResponseId: testResponse.id,
-              tagCategory: item.mistakeTag ?? "CARELESS_RUSHED",
-            },
+            update: { selectedOption, isCorrect, timeSpentSeconds },
+            create: { testSessionId: session.id, questionId, selectedOption, isCorrect, timeSpentSeconds },
           });
+
+          if (!isCorrect) {
+            await prisma.mistakeVault.create({
+              data: {
+                userId: user.id,
+                questionId,
+                testResponseId: testResponse.id,
+                tagCategory: mistakeTag,
+              },
+            });
+          }
+        } catch (itemError) {
+          const reason =
+            itemError instanceof Prisma.PrismaClientKnownRequestError
+              ? `Database error (${itemError.code}) writing this response.`
+              : "Unexpected error writing this response.";
+          console.error(`Exam submit: failed to save response for question ${questionId}:`, itemError);
+          failed.push({ questionId, reason });
         }
       }
     }
@@ -163,8 +214,11 @@ export async function POST(req: Request) {
         skipped
       );
     }
+    if (failed.length > 0) {
+      console.warn(`Exam submit: ${failed.length} response(s) failed to save due to database errors:`, failed);
+    }
 
-    return NextResponse.json({ success: true, sessionId: session.id, skipped });
+    return NextResponse.json({ success: true, sessionId: session.id, skipped, failed });
   } catch (error) {
     console.error("Exam submit error:", error);
 
