@@ -14,7 +14,10 @@ function buildConfigRows(): ConfigRow[] {
   const hasAdminKey = Boolean(process.env.ADMIN_ACCESS_KEY);
   const hasRazorpay = Boolean(process.env.RAZORPAY_KEY_ID) && Boolean(process.env.RAZORPAY_KEY_SECRET);
   const hasWhatsapp = Boolean(process.env.WHATSAPP_PHONE_NUMBER_ID) && Boolean(process.env.WHATSAPP_ACCESS_TOKEN);
-  const hasSupabaseAuth = Boolean(process.env.NEXT_PUBLIC_SUPABASE_URL) && Boolean(process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY);
+  const hasSupabasePublicConfig =
+    Boolean(process.env.NEXT_PUBLIC_SUPABASE_URL) && Boolean(process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY);
+  const hasServiceRoleKey = Boolean(process.env.SUPABASE_SERVICE_ROLE_KEY);
+  const hasSupabaseAuth = hasSupabasePublicConfig && hasServiceRoleKey;
 
   return [
     {
@@ -38,11 +41,15 @@ function buildConfigRows(): ConfigRow[] {
       note: hasWhatsapp ? "Live credentials configured." : "Unset — report sends are logged, not delivered.",
     },
     {
-      label: "Supabase Phone Auth",
+      label: "Supabase Auth (WhatsApp OTP + session bridge)",
       configured: hasSupabaseAuth,
       note: hasSupabaseAuth
-        ? "Configured, but not yet wired in — sign-in still uses the mock OTP provider."
-        : "Not set — sign-in uses the mock OTP provider (always 123456).",
+        ? "Live — sign-in delivers real OTPs over WhatsApp and mints real Supabase sessions."
+        : !hasSupabasePublicConfig && !hasServiceRoleKey
+          ? "Not set — sign-in uses the mock OTP provider (always 123456)."
+          : hasSupabasePublicConfig
+            ? "NEXT_PUBLIC_SUPABASE_* set, but SUPABASE_SERVICE_ROLE_KEY is missing — still running mock sign-in."
+            : "SUPABASE_SERVICE_ROLE_KEY set, but NEXT_PUBLIC_SUPABASE_* is missing — still running mock sign-in.",
     },
   ];
 }

@@ -28,6 +28,8 @@
   },
   "packageManager": "npm@11.13.0",
   "dependencies": {
+    "@supabase/ssr": "^0.12.5",
+    "@supabase/supabase-js": "^2.115.0",
     "razorpay": "^2.9.8"
   }
 }

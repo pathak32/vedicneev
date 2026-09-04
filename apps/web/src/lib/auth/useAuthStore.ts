@@ -1,7 +1,10 @@
 import { create } from "zustand";
 import { createJSONStorage, persist } from "zustand/middleware";
 
+import { isSupabaseAuthConfigured } from "@/lib/supabase/env";
+
 import { sendOtp as mockSendOtp, verifyOtp as mockVerifyOtp } from "./mockAuthProvider";
+import { sendOtp as sendWhatsappOtp, verifyOtp as verifyWhatsappOtp } from "./whatsappOtpClient";
 import {
   DEFAULT_NOTIFICATION_PREFERENCES,
   MAX_STUDENT_PROFILES,
@@ -71,7 +74,11 @@ export const useAuthStore = create<AuthStoreState>()(
 
       requestOtp: async (phone) => {
         set({ otpSending: true, otpError: null });
-        const result = await mockSendOtp(phone);
+        // Real, Supabase-backed WhatsApp OTP once a Supabase project is
+        // configured (see lib/supabase/env.ts); otherwise the local mock
+        // provider — same fallback convention as every other credential in
+        // this codebase, so local/demo dev keeps working unconfigured.
+        const result = isSupabaseAuthConfigured() ? await sendWhatsappOtp(phone) : await mockSendOtp(phone);
         set({
           otpSending: false,
           otpError: result.error ?? null,
@@ -85,28 +92,47 @@ export const useAuthStore = create<AuthStoreState>()(
         if (!phone) return { success: false, error: "Request an OTP first." };
 
         set({ otpVerifying: true, otpError: null });
-        const result = await mockVerifyOtp(code);
-        if (!result.success) {
-          set({ otpVerifying: false, otpError: result.error ?? null });
-          return result;
-        }
 
-        // Sync user to Supabase PostgreSQL database
-        try {
-          await fetch("/api/auth/sync", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ phone }),
-          });
-        } catch (err) {
-          console.error("Failed to sync user to database:", err);
+        // The real DB user's id, once known — used as this account's
+        // parent.id instead of a locally-generated one with no relation to
+        // Postgres, so callers (e.g. CheckoutFlow) can trust it.
+        let dbUser: { id: string; phone: string } | null = null;
+
+        if (isSupabaseAuthConfigured()) {
+          const result = await verifyWhatsappOtp(phone, code);
+          if (!result.success) {
+            set({ otpVerifying: false, otpError: result.error ?? null });
+            return { success: false, error: result.error };
+          }
+          dbUser = result.user ?? null;
+        } else {
+          const result = await mockVerifyOtp(code);
+          if (!result.success) {
+            set({ otpVerifying: false, otpError: result.error ?? null });
+            return result;
+          }
+
+          // Sync user to Postgres — only needed on this mock path; the real
+          // path's /api/auth/whatsapp-otp already resolves/creates the
+          // user itself as part of verification.
+          try {
+            const res = await fetch("/api/auth/sync", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ phone }),
+            });
+            const data = await res.json();
+            dbUser = data.user ? { id: data.user.id, phone: data.user.phone } : null;
+          } catch (err) {
+            console.error("Failed to sync user to database:", err);
+          }
         }
 
         const state = get();
         const existing = state.accounts[phone];
         const isNewUser = !existing;
         const account: Account = existing ?? {
-          parent: { id: generateId(), phone, createdAt: Date.now() },
+          parent: { id: dbUser?.id ?? generateId(), phone, createdAt: Date.now() },
           students: [],
         };
 

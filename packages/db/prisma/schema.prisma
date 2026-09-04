@@ -136,6 +136,35 @@ model User {
   @@map("users")
 }
 
+// A single-use login code for the WhatsApp-delivered OTP flow
+// (apps/web/app/api/auth/whatsapp-otp/route.ts) — a from-scratch OTP
+// mechanism (not Supabase's built-in phone provider, which only delivers
+// via a configured third-party SMS gateway) so codes can be sent over the
+// WhatsApp Cloud API credentials this project already has for report
+// delivery. codeHash is a salted hash, never the plaintext code, so a DB
+// read alone can't yield a valid login. Rows aren't deleted on expiry —
+// there's no cleanup job in this pass; an expired/consumed row is just
+// never matched by a lookup again, and no query here scans the whole table.
+model PhoneOtp {
+  id    String @id @default(cuid())
+  // Whatever format the caller sent — matches User.phone's raw digits.
+  phone String
+
+  codeHash   String    @map("code_hash")
+  expiresAt  DateTime  @map("expires_at")
+  // Null until a correct verify consumes it; a consumed or expired row is
+  // never accepted again even if the code is resubmitted.
+  consumedAt DateTime? @map("consumed_at")
+  // Failed verify attempts against this code — capped in the route so a
+  // 6-digit code can't be brute-forced within its expiry window.
+  attempts   Int       @default(0)
+
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@index([phone, expiresAt])
+  @@map("phone_otps")
+}
+
 // A parent's billing plan. targetExam scopes an EXAM_PASS to one exam;
 // it's null for FREE_EXPLORER (no exam-specific access) and for
 // VEDIC_ALL_ACCESS (every exam is included).

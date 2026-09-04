@@ -2,8 +2,12 @@ import { NextResponse } from "next/server";
 import { prisma, type Subscription } from "@vedicneev/db";
 import { PLAN_CONFIG, SUBSCRIPTION_VALIDITY_MS, type EntitlementExamType, type PaidPlanId } from "@vedicneev/engine";
 
+import { toAppPhone } from "@/lib/auth/phoneFormat";
+import { resolveDbUser } from "@/lib/auth/resolveDbUser";
 import { verifyRazorpayPayment } from "@/lib/payments/razorpayServer";
 import type { VerifyPaymentRequestBody, VerifyPaymentResponse } from "@/lib/payments/types";
+import { isSupabaseAuthConfigured } from "@/lib/supabase/env";
+import { createSupabaseServerClient } from "@/lib/supabase/server";
 
 // Writes a Subscription row on a verified payment — never cache or
 // statically collect this route.
@@ -27,12 +31,6 @@ export async function POST(request: Request) {
   if (!razorpay_order_id || !razorpay_payment_id || !razorpay_signature) {
     return NextResponse.json<VerifyPaymentResponse>(
       { verified: false, mock: false, error: "razorpay_order_id, razorpay_payment_id, and razorpay_signature are required." },
-      { status: 400 }
-    );
-  }
-  if (!phone) {
-    return NextResponse.json<VerifyPaymentResponse>(
-      { verified: false, mock: false, error: "phone is required to attach the subscription to a user." },
       { status: 400 }
     );
   }
@@ -75,15 +73,50 @@ export async function POST(request: Request) {
       });
     }
 
-    // Same phone-keyed upsert apps/web/app/api/auth/sync/route.ts already
-    // uses at sign-in — repeated here (not just looked up) so a payment can
-    // never fail purely because that fire-and-forget sync call silently
-    // failed earlier (see the catch around it in useAuthStore.ts).
-    const user = await prisma.user.upsert({
-      where: { phone },
-      update: {},
-      create: { phone, phoneVerifiedAt: new Date(), role: "PARENT" },
-    });
+    // Real, Supabase-authenticated identity once a Supabase project is
+    // configured — never trust the client-supplied phone for who's paying
+    // in that case. Falls back to the pre-auth phone-trusting upsert only
+    // when Supabase isn't configured at all (same demo-mode convention as
+    // every other credential in this codebase), so local/demo dev keeps
+    // working without live credentials.
+    let dbUser: { id: string };
+    if (isSupabaseAuthConfigured()) {
+      const supabase = createSupabaseServerClient();
+      const {
+        data: { user: authUser },
+        error: authError,
+      } = supabase ? await supabase.auth.getUser() : { data: { user: null }, error: null };
+
+      if (!supabase || authError || !authUser) {
+        return NextResponse.json<VerifyPaymentResponse>(
+          { verified: false, mock: result.mock, error: "Not authenticated." },
+          { status: 401 }
+        );
+      }
+      if (!authUser.phone) {
+        return NextResponse.json<VerifyPaymentResponse>(
+          { verified: false, mock: result.mock, error: "Signed-in user has no verified phone." },
+          { status: 400 }
+        );
+      }
+      dbUser = await resolveDbUser({ id: authUser.id, phone: toAppPhone(authUser.phone) });
+    } else {
+      if (!phone) {
+        return NextResponse.json<VerifyPaymentResponse>(
+          { verified: false, mock: result.mock, error: "phone is required to attach the subscription to a user." },
+          { status: 400 }
+        );
+      }
+      // Same phone-keyed upsert apps/web/app/api/auth/sync/route.ts already
+      // uses at sign-in — repeated here (not just looked up) so a payment
+      // can never fail purely because that fire-and-forget sync call
+      // silently failed earlier (see the catch around it in useAuthStore.ts).
+      dbUser = await prisma.user.upsert({
+        where: { phone },
+        update: {},
+        create: { phone, phoneVerifiedAt: new Date(), role: "PARENT" },
+      });
+    }
 
     // Price is derived server-side from PLAN_CONFIG, never trusted from the
     // client, so a tampered request body can't buy a plan for less.
@@ -92,7 +125,7 @@ export async function POST(request: Request) {
 
     const subscription = await prisma.subscription.create({
       data: {
-        parentId: user.id,
+        parentId: dbUser.id,
         plan: planId,
         targetExam: (targetExam as EntitlementExamType | null) ?? null,
         status: "ACTIVE",
