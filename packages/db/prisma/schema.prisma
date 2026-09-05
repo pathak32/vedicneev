@@ -348,6 +348,14 @@ model Question {
   // that predate this field.
   distractorAnalysis Json? @map("distractor_analysis")
 
+  // Inline-SVG (or other vector) diagram for non-verbal reasoning question
+  // stems — { "type": "svg", "markup": "<svg>...</svg>" }, matching apps/web/
+  // src/lib/exam/types.ts's FigureMetadata and QuestionCanvas.tsx's existing
+  // dangerouslySetInnerHTML rendering path for it. Optional and additive
+  // alongside `options[].imageUrl` rather than a replacement; absent for
+  // every question that doesn't need a diagram.
+  figureMetadata Json? @map("figure_metadata")
+
   // Base time allotment in seconds, used by the engine's timer math.
   timeLimitSeconds Int @default(60) @map("time_limit_seconds")
 

@@ -1,0 +1,2447 @@
+{
+  "section": "figure_matching",
+  "topicKey": "figure_matching",
+  "generatedAt": "2026-09-05T08:02:20.063Z",
+  "questions": [
+    {
+      "key": "bank-ma-figmatch-easy-01",
+      "difficulty": "EASY",
+      "content": {
+        "en": "The reference figure is rotated 90° clockwise. Which option (A-D) shows the correct result?",
+        "hi": "संदर्भ आकृति को 90° दक्षिणावर्त घुमाया गया है। कौन-सा विकल्प (A-D) सही परिणाम दिखाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(90)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(270)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "Rotating the reference by 90° clockwise gives the figure shown in option B.",
+        "hi": "संदर्भ को 90° दक्षिणावर्त घुमाने पर विकल्प B में दिखाई गई आकृति प्राप्त होती है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Shows the reference completely unrotated — the figure was not turned at all.",
+          "hi": "संदर्भ को बिल्कुल भी नहीं घुमाया गया है — यह अपरिवर्तित आकृति दिखाता है।"
+        },
+        "c": {
+          "en": "Rotated by 180° instead of the instructed 90°.",
+          "hi": "निर्देशित 90° के बजाय 180° घुमाया गया है।"
+        },
+        "d": {
+          "en": "Rotated by 270° instead of the instructed 90°.",
+          "hi": "निर्देशित 90° के बजाय 270° घुमाया गया है।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-figmatch-easy-02",
+      "difficulty": "EASY",
+      "content": {
+        "en": "The reference figure is rotated 180° clockwise. Which option (A-D) shows the correct result?",
+        "hi": "संदर्भ आकृति को 180° दक्षिणावर्त घुमाया गया है। कौन-सा विकल्प (A-D) सही परिणाम दिखाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(90)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(270)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "Rotating the reference by 180° clockwise gives the figure shown in option C.",
+        "hi": "संदर्भ को 180° दक्षिणावर्त घुमाने पर विकल्प C में दिखाई गई आकृति प्राप्त होती है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Shows the reference completely unrotated — the figure was not turned at all.",
+          "hi": "संदर्भ को बिल्कुल भी नहीं घुमाया गया है — यह अपरिवर्तित आकृति दिखाता है।"
+        },
+        "b": {
+          "en": "Rotated by 90° instead of the instructed 180°.",
+          "hi": "निर्देशित 180° के बजाय 90° घुमाया गया है।"
+        },
+        "d": {
+          "en": "Rotated by 270° instead of the instructed 180°.",
+          "hi": "निर्देशित 180° के बजाय 270° घुमाया गया है।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-figmatch-easy-03",
+      "difficulty": "EASY",
+      "content": {
+        "en": "The reference figure is rotated 270° clockwise. Which option (A-D) shows the correct result?",
+        "hi": "संदर्भ आकृति को 270° दक्षिणावर्त घुमाया गया है। कौन-सा विकल्प (A-D) सही परिणाम दिखाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(90)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(270)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "Rotating the reference by 270° clockwise gives the figure shown in option D.",
+        "hi": "संदर्भ को 270° दक्षिणावर्त घुमाने पर विकल्प D में दिखाई गई आकृति प्राप्त होती है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Shows the reference completely unrotated — the figure was not turned at all.",
+          "hi": "संदर्भ को बिल्कुल भी नहीं घुमाया गया है — यह अपरिवर्तित आकृति दिखाता है।"
+        },
+        "b": {
+          "en": "Rotated by 90° instead of the instructed 270°.",
+          "hi": "निर्देशित 270° के बजाय 90° घुमाया गया है।"
+        },
+        "c": {
+          "en": "Rotated by 180° instead of the instructed 270°.",
+          "hi": "निर्देशित 270° के बजाय 180° घुमाया गया है।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-figmatch-easy-04",
+      "difficulty": "EASY",
+      "content": {
+        "en": "The reference figure is rotated 90° clockwise. Which option (A-D) shows the correct result?",
+        "hi": "संदर्भ आकृति को 90° दक्षिणावर्त घुमाया गया है। कौन-सा विकल्प (A-D) सही परिणाम दिखाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(90)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(270)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "Rotating the reference by 90° clockwise gives the figure shown in option B.",
+        "hi": "संदर्भ को 90° दक्षिणावर्त घुमाने पर विकल्प B में दिखाई गई आकृति प्राप्त होती है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Shows the reference completely unrotated — the figure was not turned at all.",
+          "hi": "संदर्भ को बिल्कुल भी नहीं घुमाया गया है — यह अपरिवर्तित आकृति दिखाता है।"
+        },
+        "c": {
+          "en": "Rotated by 180° instead of the instructed 90°.",
+          "hi": "निर्देशित 90° के बजाय 180° घुमाया गया है।"
+        },
+        "d": {
+          "en": "Rotated by 270° instead of the instructed 90°.",
+          "hi": "निर्देशित 90° के बजाय 270° घुमाया गया है।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-figmatch-easy-05",
+      "difficulty": "EASY",
+      "content": {
+        "en": "The reference figure is rotated 180° clockwise. Which option (A-D) shows the correct result?",
+        "hi": "संदर्भ आकृति को 180° दक्षिणावर्त घुमाया गया है। कौन-सा विकल्प (A-D) सही परिणाम दिखाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(90)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(270)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "Rotating the reference by 180° clockwise gives the figure shown in option C.",
+        "hi": "संदर्भ को 180° दक्षिणावर्त घुमाने पर विकल्प C में दिखाई गई आकृति प्राप्त होती है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Shows the reference completely unrotated — the figure was not turned at all.",
+          "hi": "संदर्भ को बिल्कुल भी नहीं घुमाया गया है — यह अपरिवर्तित आकृति दिखाता है।"
+        },
+        "b": {
+          "en": "Rotated by 90° instead of the instructed 180°.",
+          "hi": "निर्देशित 180° के बजाय 90° घुमाया गया है।"
+        },
+        "d": {
+          "en": "Rotated by 270° instead of the instructed 180°.",
+          "hi": "निर्देशित 180° के बजाय 270° घुमाया गया है।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-figmatch-easy-06",
+      "difficulty": "EASY",
+      "content": {
+        "en": "The reference figure is rotated 270° clockwise. Which option (A-D) shows the correct result?",
+        "hi": "संदर्भ आकृति को 270° दक्षिणावर्त घुमाया गया है। कौन-सा विकल्प (A-D) सही परिणाम दिखाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(90)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(270)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "Rotating the reference by 270° clockwise gives the figure shown in option D.",
+        "hi": "संदर्भ को 270° दक्षिणावर्त घुमाने पर विकल्प D में दिखाई गई आकृति प्राप्त होती है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Shows the reference completely unrotated — the figure was not turned at all.",
+          "hi": "संदर्भ को बिल्कुल भी नहीं घुमाया गया है — यह अपरिवर्तित आकृति दिखाता है।"
+        },
+        "b": {
+          "en": "Rotated by 90° instead of the instructed 270°.",
+          "hi": "निर्देशित 270° के बजाय 90° घुमाया गया है।"
+        },
+        "c": {
+          "en": "Rotated by 180° instead of the instructed 270°.",
+          "hi": "निर्देशित 270° के बजाय 180° घुमाया गया है।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-figmatch-easy-07",
+      "difficulty": "EASY",
+      "content": {
+        "en": "The reference figure is rotated 90° clockwise. Which option (A-D) shows the correct result?",
+        "hi": "संदर्भ आकृति को 90° दक्षिणावर्त घुमाया गया है। कौन-सा विकल्प (A-D) सही परिणाम दिखाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(90)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(270)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "Rotating the reference by 90° clockwise gives the figure shown in option B.",
+        "hi": "संदर्भ को 90° दक्षिणावर्त घुमाने पर विकल्प B में दिखाई गई आकृति प्राप्त होती है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Shows the reference completely unrotated — the figure was not turned at all.",
+          "hi": "संदर्भ को बिल्कुल भी नहीं घुमाया गया है — यह अपरिवर्तित आकृति दिखाता है।"
+        },
+        "c": {
+          "en": "Rotated by 180° instead of the instructed 90°.",
+          "hi": "निर्देशित 90° के बजाय 180° घुमाया गया है।"
+        },
+        "d": {
+          "en": "Rotated by 270° instead of the instructed 90°.",
+          "hi": "निर्देशित 90° के बजाय 270° घुमाया गया है।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-figmatch-easy-08",
+      "difficulty": "EASY",
+      "content": {
+        "en": "The reference figure is rotated 180° clockwise. Which option (A-D) shows the correct result?",
+        "hi": "संदर्भ आकृति को 180° दक्षिणावर्त घुमाया गया है। कौन-सा विकल्प (A-D) सही परिणाम दिखाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(90)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(270)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "Rotating the reference by 180° clockwise gives the figure shown in option C.",
+        "hi": "संदर्भ को 180° दक्षिणावर्त घुमाने पर विकल्प C में दिखाई गई आकृति प्राप्त होती है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Shows the reference completely unrotated — the figure was not turned at all.",
+          "hi": "संदर्भ को बिल्कुल भी नहीं घुमाया गया है — यह अपरिवर्तित आकृति दिखाता है।"
+        },
+        "b": {
+          "en": "Rotated by 90° instead of the instructed 180°.",
+          "hi": "निर्देशित 180° के बजाय 90° घुमाया गया है।"
+        },
+        "d": {
+          "en": "Rotated by 270° instead of the instructed 180°.",
+          "hi": "निर्देशित 180° के बजाय 270° घुमाया गया है।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-figmatch-easy-09",
+      "difficulty": "EASY",
+      "content": {
+        "en": "The reference figure is rotated 90° clockwise. Which option (A-D) shows the correct result?",
+        "hi": "संदर्भ आकृति को 90° दक्षिणावर्त घुमाया गया है। कौन-सा विकल्प (A-D) सही परिणाम दिखाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g fill=\"#1e293b\"><rect x=\"-18\" y=\"-18\" width=\"14\" height=\"14\"/><rect x=\"-18\" y=\"-2\" width=\"14\" height=\"14\"/><rect x=\"-2\" y=\"-2\" width=\"14\" height=\"14\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g fill=\"#1e293b\"><rect x=\"-18\" y=\"-18\" width=\"14\" height=\"14\"/><rect x=\"-18\" y=\"-2\" width=\"14\" height=\"14\"/><rect x=\"-2\" y=\"-2\" width=\"14\" height=\"14\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(90)\"><g fill=\"#1e293b\"><rect x=\"-18\" y=\"-18\" width=\"14\" height=\"14\"/><rect x=\"-18\" y=\"-2\" width=\"14\" height=\"14\"/><rect x=\"-2\" y=\"-2\" width=\"14\" height=\"14\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><g fill=\"#1e293b\"><rect x=\"-18\" y=\"-18\" width=\"14\" height=\"14\"/><rect x=\"-18\" y=\"-2\" width=\"14\" height=\"14\"/><rect x=\"-2\" y=\"-2\" width=\"14\" height=\"14\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(270)\"><g fill=\"#1e293b\"><rect x=\"-18\" y=\"-18\" width=\"14\" height=\"14\"/><rect x=\"-18\" y=\"-2\" width=\"14\" height=\"14\"/><rect x=\"-2\" y=\"-2\" width=\"14\" height=\"14\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "Rotating the reference by 90° clockwise gives the figure shown in option B.",
+        "hi": "संदर्भ को 90° दक्षिणावर्त घुमाने पर विकल्प B में दिखाई गई आकृति प्राप्त होती है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Shows the reference completely unrotated — the figure was not turned at all.",
+          "hi": "संदर्भ को बिल्कुल भी नहीं घुमाया गया है — यह अपरिवर्तित आकृति दिखाता है।"
+        },
+        "c": {
+          "en": "Rotated by 180° instead of the instructed 90°.",
+          "hi": "निर्देशित 90° के बजाय 180° घुमाया गया है।"
+        },
+        "d": {
+          "en": "Rotated by 270° instead of the instructed 90°.",
+          "hi": "निर्देशित 90° के बजाय 270° घुमाया गया है।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-figmatch-easy-10",
+      "difficulty": "EASY",
+      "content": {
+        "en": "The reference figure is rotated 270° clockwise. Which option (A-D) shows the correct result?",
+        "hi": "संदर्भ आकृति को 270° दक्षिणावर्त घुमाया गया है। कौन-सा विकल्प (A-D) सही परिणाम दिखाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g fill=\"#1e293b\"><rect x=\"-18\" y=\"-18\" width=\"14\" height=\"14\"/><rect x=\"-18\" y=\"-2\" width=\"14\" height=\"14\"/><rect x=\"-2\" y=\"-2\" width=\"14\" height=\"14\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g fill=\"#1e293b\"><rect x=\"-18\" y=\"-18\" width=\"14\" height=\"14\"/><rect x=\"-18\" y=\"-2\" width=\"14\" height=\"14\"/><rect x=\"-2\" y=\"-2\" width=\"14\" height=\"14\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(90)\"><g fill=\"#1e293b\"><rect x=\"-18\" y=\"-18\" width=\"14\" height=\"14\"/><rect x=\"-18\" y=\"-2\" width=\"14\" height=\"14\"/><rect x=\"-2\" y=\"-2\" width=\"14\" height=\"14\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><g fill=\"#1e293b\"><rect x=\"-18\" y=\"-18\" width=\"14\" height=\"14\"/><rect x=\"-18\" y=\"-2\" width=\"14\" height=\"14\"/><rect x=\"-2\" y=\"-2\" width=\"14\" height=\"14\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(270)\"><g fill=\"#1e293b\"><rect x=\"-18\" y=\"-18\" width=\"14\" height=\"14\"/><rect x=\"-18\" y=\"-2\" width=\"14\" height=\"14\"/><rect x=\"-2\" y=\"-2\" width=\"14\" height=\"14\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "Rotating the reference by 270° clockwise gives the figure shown in option D.",
+        "hi": "संदर्भ को 270° दक्षिणावर्त घुमाने पर विकल्प D में दिखाई गई आकृति प्राप्त होती है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Shows the reference completely unrotated — the figure was not turned at all.",
+          "hi": "संदर्भ को बिल्कुल भी नहीं घुमाया गया है — यह अपरिवर्तित आकृति दिखाता है।"
+        },
+        "b": {
+          "en": "Rotated by 90° instead of the instructed 270°.",
+          "hi": "निर्देशित 270° के बजाय 90° घुमाया गया है।"
+        },
+        "c": {
+          "en": "Rotated by 180° instead of the instructed 270°.",
+          "hi": "निर्देशित 270° के बजाय 180° घुमाया गया है।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-figmatch-mirror-01",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Which option shows the reference figure mirrored (flipped left-to-right), with no rotation?",
+        "hi": "कौन-सा विकल्प संदर्भ आकृति को दर्पण-प्रतिबिंबित (बाएँ-दाएँ पलटा हुआ) दिखाता है, बिना किसी घुमाव के?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"scale(-1,1) rotate(0)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(90)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"scale(-1,1) rotate(90)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "A plain horizontal mirror flip, with no rotation applied, is shown in option A.",
+        "hi": "बिना किसी घुमाव के केवल एक क्षैतिज दर्पण-पलट विकल्प A में दिखाई गई है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Shows the reference completely unchanged — it was not mirrored at all.",
+          "hi": "संदर्भ को बिल्कुल भी नहीं बदला गया है — इसे दर्पण-प्रतिबिंबित नहीं किया गया।"
+        },
+        "c": {
+          "en": "Shows the reference rotated by 90° instead of mirrored — a rotation, not a reflection.",
+          "hi": "संदर्भ को दर्पण-प्रतिबिंबित करने के बजाय 90° घुमाया गया है — यह एक घुमाव है, प्रतिबिंब नहीं।"
+        },
+        "d": {
+          "en": "Combines a mirror with an extra 90° rotation, which is more than what was instructed.",
+          "hi": "दर्पण-प्रतिबिंब के साथ एक अतिरिक्त 90° घुमाव भी जोड़ दिया गया है, जो निर्देश से अधिक है।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-figmatch-mirror-02",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Which option shows the reference figure mirrored (flipped left-to-right), with no rotation?",
+        "hi": "कौन-सा विकल्प संदर्भ आकृति को दर्पण-प्रतिबिंबित (बाएँ-दाएँ पलटा हुआ) दिखाता है, बिना किसी घुमाव के?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"scale(-1,1) rotate(0)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(90)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"scale(-1,1) rotate(90)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "A plain horizontal mirror flip, with no rotation applied, is shown in option B.",
+        "hi": "बिना किसी घुमाव के केवल एक क्षैतिज दर्पण-पलट विकल्प B में दिखाई गई है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Shows the reference completely unchanged — it was not mirrored at all.",
+          "hi": "संदर्भ को बिल्कुल भी नहीं बदला गया है — इसे दर्पण-प्रतिबिंबित नहीं किया गया।"
+        },
+        "c": {
+          "en": "Shows the reference rotated by 90° instead of mirrored — a rotation, not a reflection.",
+          "hi": "संदर्भ को दर्पण-प्रतिबिंबित करने के बजाय 90° घुमाया गया है — यह एक घुमाव है, प्रतिबिंब नहीं।"
+        },
+        "d": {
+          "en": "Combines a mirror with an extra 90° rotation, which is more than what was instructed.",
+          "hi": "दर्पण-प्रतिबिंब के साथ एक अतिरिक्त 90° घुमाव भी जोड़ दिया गया है, जो निर्देश से अधिक है।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-figmatch-mirror-03",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Which option shows the reference figure mirrored (flipped left-to-right), with no rotation?",
+        "hi": "कौन-सा विकल्प संदर्भ आकृति को दर्पण-प्रतिबिंबित (बाएँ-दाएँ पलटा हुआ) दिखाता है, बिना किसी घुमाव के?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g fill=\"#1e293b\"><rect x=\"-18\" y=\"-18\" width=\"14\" height=\"14\"/><rect x=\"-18\" y=\"-2\" width=\"14\" height=\"14\"/><rect x=\"-2\" y=\"-2\" width=\"14\" height=\"14\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g fill=\"#1e293b\"><rect x=\"-18\" y=\"-18\" width=\"14\" height=\"14\"/><rect x=\"-18\" y=\"-2\" width=\"14\" height=\"14\"/><rect x=\"-2\" y=\"-2\" width=\"14\" height=\"14\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(90)\"><g fill=\"#1e293b\"><rect x=\"-18\" y=\"-18\" width=\"14\" height=\"14\"/><rect x=\"-18\" y=\"-2\" width=\"14\" height=\"14\"/><rect x=\"-2\" y=\"-2\" width=\"14\" height=\"14\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"scale(-1,1) rotate(0)\"><g fill=\"#1e293b\"><rect x=\"-18\" y=\"-18\" width=\"14\" height=\"14\"/><rect x=\"-18\" y=\"-2\" width=\"14\" height=\"14\"/><rect x=\"-2\" y=\"-2\" width=\"14\" height=\"14\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"scale(-1,1) rotate(90)\"><g fill=\"#1e293b\"><rect x=\"-18\" y=\"-18\" width=\"14\" height=\"14\"/><rect x=\"-18\" y=\"-2\" width=\"14\" height=\"14\"/><rect x=\"-2\" y=\"-2\" width=\"14\" height=\"14\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "A plain horizontal mirror flip, with no rotation applied, is shown in option C.",
+        "hi": "बिना किसी घुमाव के केवल एक क्षैतिज दर्पण-पलट विकल्प C में दिखाई गई है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Shows the reference completely unchanged — it was not mirrored at all.",
+          "hi": "संदर्भ को बिल्कुल भी नहीं बदला गया है — इसे दर्पण-प्रतिबिंबित नहीं किया गया।"
+        },
+        "b": {
+          "en": "Shows the reference rotated by 90° instead of mirrored — a rotation, not a reflection.",
+          "hi": "संदर्भ को दर्पण-प्रतिबिंबित करने के बजाय 90° घुमाया गया है — यह एक घुमाव है, प्रतिबिंब नहीं।"
+        },
+        "d": {
+          "en": "Combines a mirror with an extra 90° rotation, which is more than what was instructed.",
+          "hi": "दर्पण-प्रतिबिंब के साथ एक अतिरिक्त 90° घुमाव भी जोड़ दिया गया है, जो निर्देश से अधिक है।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-figmatch-mirror-04",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Which option shows the reference figure mirrored (flipped left-to-right), with no rotation?",
+        "hi": "कौन-सा विकल्प संदर्भ आकृति को दर्पण-प्रतिबिंबित (बाएँ-दाएँ पलटा हुआ) दिखाता है, बिना किसी घुमाव के?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(90)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"scale(-1,1) rotate(90)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"scale(-1,1) rotate(0)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "A plain horizontal mirror flip, with no rotation applied, is shown in option D.",
+        "hi": "बिना किसी घुमाव के केवल एक क्षैतिज दर्पण-पलट विकल्प D में दिखाई गई है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Shows the reference completely unchanged — it was not mirrored at all.",
+          "hi": "संदर्भ को बिल्कुल भी नहीं बदला गया है — इसे दर्पण-प्रतिबिंबित नहीं किया गया।"
+        },
+        "b": {
+          "en": "Shows the reference rotated by 90° instead of mirrored — a rotation, not a reflection.",
+          "hi": "संदर्भ को दर्पण-प्रतिबिंबित करने के बजाय 90° घुमाया गया है — यह एक घुमाव है, प्रतिबिंब नहीं।"
+        },
+        "c": {
+          "en": "Combines a mirror with an extra 90° rotation, which is more than what was instructed.",
+          "hi": "दर्पण-प्रतिबिंब के साथ एक अतिरिक्त 90° घुमाव भी जोड़ दिया गया है, जो निर्देश से अधिक है।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-figmatch-mirror-05",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Which option shows the reference figure mirrored (flipped left-to-right), with no rotation?",
+        "hi": "कौन-सा विकल्प संदर्भ आकृति को दर्पण-प्रतिबिंबित (बाएँ-दाएँ पलटा हुआ) दिखाता है, बिना किसी घुमाव के?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"scale(-1,1) rotate(0)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(90)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"scale(-1,1) rotate(90)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "A plain horizontal mirror flip, with no rotation applied, is shown in option A.",
+        "hi": "बिना किसी घुमाव के केवल एक क्षैतिज दर्पण-पलट विकल्प A में दिखाई गई है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Shows the reference completely unchanged — it was not mirrored at all.",
+          "hi": "संदर्भ को बिल्कुल भी नहीं बदला गया है — इसे दर्पण-प्रतिबिंबित नहीं किया गया।"
+        },
+        "c": {
+          "en": "Shows the reference rotated by 90° instead of mirrored — a rotation, not a reflection.",
+          "hi": "संदर्भ को दर्पण-प्रतिबिंबित करने के बजाय 90° घुमाया गया है — यह एक घुमाव है, प्रतिबिंब नहीं।"
+        },
+        "d": {
+          "en": "Combines a mirror with an extra 90° rotation, which is more than what was instructed.",
+          "hi": "दर्पण-प्रतिबिंब के साथ एक अतिरिक्त 90° घुमाव भी जोड़ दिया गया है, जो निर्देश से अधिक है।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-figmatch-oblique-01",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "The reference figure is rotated 45° clockwise. Which option (A-D) shows the correct result?",
+        "hi": "संदर्भ आकृति को 45° दक्षिणावर्त घुमाया गया है। कौन-सा विकल्प (A-D) सही परिणाम दिखाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(45)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(135)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(225)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(315)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "Rotating the reference by 45° clockwise gives the figure shown in option A.",
+        "hi": "संदर्भ को 45° दक्षिणावर्त घुमाने पर विकल्प A में दिखाई गई आकृति प्राप्त होती है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Rotated by 135° instead of the instructed 45°.",
+          "hi": "निर्देशित 45° के बजाय 135° घुमाया गया है।"
+        },
+        "c": {
+          "en": "Rotated by 225° instead of the instructed 45°.",
+          "hi": "निर्देशित 45° के बजाय 225° घुमाया गया है।"
+        },
+        "d": {
+          "en": "Rotated by 315° instead of the instructed 45°.",
+          "hi": "निर्देशित 45° के बजाय 315° घुमाया गया है।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-figmatch-oblique-02",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "The reference figure is rotated 135° clockwise. Which option (A-D) shows the correct result?",
+        "hi": "संदर्भ आकृति को 135° दक्षिणावर्त घुमाया गया है। कौन-सा विकल्प (A-D) सही परिणाम दिखाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(45)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(135)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(225)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(315)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "Rotating the reference by 135° clockwise gives the figure shown in option B.",
+        "hi": "संदर्भ को 135° दक्षिणावर्त घुमाने पर विकल्प B में दिखाई गई आकृति प्राप्त होती है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Rotated by 45° instead of the instructed 135°.",
+          "hi": "निर्देशित 135° के बजाय 45° घुमाया गया है।"
+        },
+        "c": {
+          "en": "Rotated by 225° instead of the instructed 135°.",
+          "hi": "निर्देशित 135° के बजाय 225° घुमाया गया है।"
+        },
+        "d": {
+          "en": "Rotated by 315° instead of the instructed 135°.",
+          "hi": "निर्देशित 135° के बजाय 315° घुमाया गया है।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-figmatch-oblique-03",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "The reference figure is rotated 225° clockwise. Which option (A-D) shows the correct result?",
+        "hi": "संदर्भ आकृति को 225° दक्षिणावर्त घुमाया गया है। कौन-सा विकल्प (A-D) सही परिणाम दिखाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(45)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(135)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(225)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(315)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "Rotating the reference by 225° clockwise gives the figure shown in option C.",
+        "hi": "संदर्भ को 225° दक्षिणावर्त घुमाने पर विकल्प C में दिखाई गई आकृति प्राप्त होती है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Rotated by 45° instead of the instructed 225°.",
+          "hi": "निर्देशित 225° के बजाय 45° घुमाया गया है।"
+        },
+        "b": {
+          "en": "Rotated by 135° instead of the instructed 225°.",
+          "hi": "निर्देशित 225° के बजाय 135° घुमाया गया है।"
+        },
+        "d": {
+          "en": "Rotated by 315° instead of the instructed 225°.",
+          "hi": "निर्देशित 225° के बजाय 315° घुमाया गया है।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-figmatch-oblique-04",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "The reference figure is rotated 315° clockwise. Which option (A-D) shows the correct result?",
+        "hi": "संदर्भ आकृति को 315° दक्षिणावर्त घुमाया गया है। कौन-सा विकल्प (A-D) सही परिणाम दिखाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(45)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(135)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(225)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(315)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "Rotating the reference by 315° clockwise gives the figure shown in option D.",
+        "hi": "संदर्भ को 315° दक्षिणावर्त घुमाने पर विकल्प D में दिखाई गई आकृति प्राप्त होती है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Rotated by 45° instead of the instructed 315°.",
+          "hi": "निर्देशित 315° के बजाय 45° घुमाया गया है।"
+        },
+        "b": {
+          "en": "Rotated by 135° instead of the instructed 315°.",
+          "hi": "निर्देशित 315° के बजाय 135° घुमाया गया है।"
+        },
+        "c": {
+          "en": "Rotated by 225° instead of the instructed 315°.",
+          "hi": "निर्देशित 315° के बजाय 225° घुमाया गया है।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-figmatch-oblique-05",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "The reference figure is rotated 45° clockwise. Which option (A-D) shows the correct result?",
+        "hi": "संदर्भ आकृति को 45° दक्षिणावर्त घुमाया गया है। कौन-सा विकल्प (A-D) सही परिणाम दिखाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(45)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(135)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(225)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(315)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "Rotating the reference by 45° clockwise gives the figure shown in option A.",
+        "hi": "संदर्भ को 45° दक्षिणावर्त घुमाने पर विकल्प A में दिखाई गई आकृति प्राप्त होती है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Rotated by 135° instead of the instructed 45°.",
+          "hi": "निर्देशित 45° के बजाय 135° घुमाया गया है।"
+        },
+        "c": {
+          "en": "Rotated by 225° instead of the instructed 45°.",
+          "hi": "निर्देशित 45° के बजाय 225° घुमाया गया है।"
+        },
+        "d": {
+          "en": "Rotated by 315° instead of the instructed 45°.",
+          "hi": "निर्देशित 45° के बजाय 315° घुमाया गया है।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-figmatch-twostep-01",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "The reference figure is first rotated 90° clockwise, then rotated another 90° clockwise. Which option (A-D) shows the final result?",
+        "hi": "संदर्भ आकृति को पहले 90° दक्षिणावर्त घुमाया जाता है, फिर एक बार और 90° दक्षिणावर्त घुमाया जाता है। कौन-सा विकल्प (A-D) अंतिम परिणाम दिखाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(90)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(270)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(315)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The two rotations add together: 90° + 90° = 180°, shown in option B.",
+        "hi": "दोनों घुमाव जुड़ जाते हैं: 90° + 90° = 180°, जो विकल्प B में दिखाया गया है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Shows only the first rotation step (90°), stopping before the second rotation.",
+          "hi": "केवल पहला घुमाव चरण (90°) दिखाता है, दूसरे घुमाव से पहले ही रुक गया।"
+        },
+        "c": {
+          "en": "Shows only the second rotation step (90°), as if the first rotation never happened.",
+          "hi": "केवल दूसरा घुमाव चरण (90°) दिखाता है, जैसे पहला घुमाव हुआ ही न हो।"
+        },
+        "d": {
+          "en": "Adds the two steps incorrectly, landing on the wrong total angle.",
+          "hi": "दोनों चरणों को गलत तरीके से जोड़ता है, जिससे गलत कुल कोण प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-figmatch-twostep-02",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "The reference figure is first rotated 45° clockwise, then rotated another 90° clockwise. Which option (A-D) shows the final result?",
+        "hi": "संदर्भ आकृति को पहले 45° दक्षिणावर्त घुमाया जाता है, फिर एक बार और 90° दक्षिणावर्त घुमाया जाता है। कौन-सा विकल्प (A-D) अंतिम परिणाम दिखाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(45)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(90)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(135)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(225)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The two rotations add together: 45° + 90° = 135°, shown in option C.",
+        "hi": "दोनों घुमाव जुड़ जाते हैं: 45° + 90° = 135°, जो विकल्प C में दिखाया गया है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Shows only the first rotation step (45°), stopping before the second rotation.",
+          "hi": "केवल पहला घुमाव चरण (45°) दिखाता है, दूसरे घुमाव से पहले ही रुक गया।"
+        },
+        "b": {
+          "en": "Shows only the second rotation step (90°), as if the first rotation never happened.",
+          "hi": "केवल दूसरा घुमाव चरण (90°) दिखाता है, जैसे पहला घुमाव हुआ ही न हो।"
+        },
+        "d": {
+          "en": "Adds the two steps incorrectly, landing on the wrong total angle.",
+          "hi": "दोनों चरणों को गलत तरीके से जोड़ता है, जिससे गलत कुल कोण प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-figmatch-twostep-03",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "The reference figure is first rotated 90° clockwise, then rotated another 180° clockwise. Which option (A-D) shows the final result?",
+        "hi": "संदर्भ आकृति को पहले 90° दक्षिणावर्त घुमाया जाता है, फिर एक बार और 180° दक्षिणावर्त घुमाया जाता है। कौन-सा विकल्प (A-D) अंतिम परिणाम दिखाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(90)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(270)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The two rotations add together: 90° + 180° = 270°, shown in option D.",
+        "hi": "दोनों घुमाव जुड़ जाते हैं: 90° + 180° = 270°, जो विकल्प D में दिखाया गया है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Shows only the first rotation step (90°), stopping before the second rotation.",
+          "hi": "केवल पहला घुमाव चरण (90°) दिखाता है, दूसरे घुमाव से पहले ही रुक गया।"
+        },
+        "b": {
+          "en": "Shows only the second rotation step (180°), as if the first rotation never happened.",
+          "hi": "केवल दूसरा घुमाव चरण (180°) दिखाता है, जैसे पहला घुमाव हुआ ही न हो।"
+        },
+        "c": {
+          "en": "Adds the two steps incorrectly, landing on the wrong total angle.",
+          "hi": "दोनों चरणों को गलत तरीके से जोड़ता है, जिससे गलत कुल कोण प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-figmatch-twostep-04",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "The reference figure is first rotated 45° clockwise, then rotated another 45° clockwise. Which option (A-D) shows the final result?",
+        "hi": "संदर्भ आकृति को पहले 45° दक्षिणावर्त घुमाया जाता है, फिर एक बार और 45° दक्षिणावर्त घुमाया जाता है। कौन-सा विकल्प (A-D) अंतिम परिणाम दिखाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g fill=\"#1e293b\"><rect x=\"-18\" y=\"-18\" width=\"14\" height=\"14\"/><rect x=\"-18\" y=\"-2\" width=\"14\" height=\"14\"/><rect x=\"-2\" y=\"-2\" width=\"14\" height=\"14\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(90)\"><g fill=\"#1e293b\"><rect x=\"-18\" y=\"-18\" width=\"14\" height=\"14\"/><rect x=\"-18\" y=\"-2\" width=\"14\" height=\"14\"/><rect x=\"-2\" y=\"-2\" width=\"14\" height=\"14\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(45)\"><g fill=\"#1e293b\"><rect x=\"-18\" y=\"-18\" width=\"14\" height=\"14\"/><rect x=\"-18\" y=\"-2\" width=\"14\" height=\"14\"/><rect x=\"-2\" y=\"-2\" width=\"14\" height=\"14\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><g fill=\"#1e293b\"><rect x=\"-18\" y=\"-18\" width=\"14\" height=\"14\"/><rect x=\"-18\" y=\"-2\" width=\"14\" height=\"14\"/><rect x=\"-2\" y=\"-2\" width=\"14\" height=\"14\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(225)\"><g fill=\"#1e293b\"><rect x=\"-18\" y=\"-18\" width=\"14\" height=\"14\"/><rect x=\"-18\" y=\"-2\" width=\"14\" height=\"14\"/><rect x=\"-2\" y=\"-2\" width=\"14\" height=\"14\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The two rotations add together: 45° + 45° = 90°, shown in option A.",
+        "hi": "दोनों घुमाव जुड़ जाते हैं: 45° + 45° = 90°, जो विकल्प A में दिखाया गया है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Shows only the first rotation step (45°), stopping before the second rotation.",
+          "hi": "केवल पहला घुमाव चरण (45°) दिखाता है, दूसरे घुमाव से पहले ही रुक गया।"
+        },
+        "c": {
+          "en": "Shows only the second rotation step (45°), as if the first rotation never happened.",
+          "hi": "केवल दूसरा घुमाव चरण (45°) दिखाता है, जैसे पहला घुमाव हुआ ही न हो।"
+        },
+        "d": {
+          "en": "Adds the two steps incorrectly, landing on the wrong total angle.",
+          "hi": "दोनों चरणों को गलत तरीके से जोड़ता है, जिससे गलत कुल कोण प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-figmatch-twostep-05",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "The reference figure is first rotated 60° clockwise, then rotated another 30° clockwise. Which option (A-D) shows the final result?",
+        "hi": "संदर्भ आकृति को पहले 60° दक्षिणावर्त घुमाया जाता है, फिर एक बार और 30° दक्षिणावर्त घुमाया जाता है। कौन-सा विकल्प (A-D) अंतिम परिणाम दिखाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(60)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(90)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(30)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The two rotations add together: 60° + 30° = 90°, shown in option B.",
+        "hi": "दोनों घुमाव जुड़ जाते हैं: 60° + 30° = 90°, जो विकल्प B में दिखाया गया है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Shows only the first rotation step (60°), stopping before the second rotation.",
+          "hi": "केवल पहला घुमाव चरण (60°) दिखाता है, दूसरे घुमाव से पहले ही रुक गया।"
+        },
+        "c": {
+          "en": "Shows only the second rotation step (30°), as if the first rotation never happened.",
+          "hi": "केवल दूसरा घुमाव चरण (30°) दिखाता है, जैसे पहला घुमाव हुआ ही न हो।"
+        },
+        "d": {
+          "en": "Adds the two steps incorrectly, landing on the wrong total angle.",
+          "hi": "दोनों चरणों को गलत तरीके से जोड़ता है, जिससे गलत कुल कोण प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-figmatch-axisflip-01",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Which option shows the reference figure reflected across the HORIZONTAL axis (flipped upside-down, top becomes bottom)?",
+        "hi": "कौन-सा विकल्प संदर्भ आकृति को क्षैतिज अक्ष के आर-पार परावर्तित (उल्टा, ऊपर-नीचे पलटा हुआ) दिखाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"scale(-1,1)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"scale(1,-1)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "Reflecting across the horizontal axis flips the figure top-to-bottom (up becomes down) while left and right stay in place — shown in option C.",
+        "hi": "क्षैतिज अक्ष के आर-पार परावर्तित करने पर आकृति ऊपर-नीचे पलट जाती है (ऊपर नीचे बन जाता है) जबकि बाएँ-दाएँ अपनी जगह बने रहते हैं — यह विकल्प C में दिखाया गया है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Reflects across the VERTICAL axis instead (left-right flip) — a different axis than the one instructed.",
+          "hi": "इसके बजाय ऊर्ध्वाधर अक्ष के आर-पार परावर्तित करता है (बाएँ-दाएँ पलट) — यह निर्देशित अक्ष से अलग है।"
+        },
+        "b": {
+          "en": "Rotates the figure 180° instead of reflecting it — for an asymmetric figure this looks different from either single-axis reflection.",
+          "hi": "आकृति को परावर्तित करने के बजाय 180° घुमाता है — असममित आकृति के लिए यह किसी भी एक-अक्ष परावर्तन से भिन्न दिखता है।"
+        },
+        "d": {
+          "en": "Shows the reference completely unchanged — no reflection was applied at all.",
+          "hi": "संदर्भ को बिल्कुल भी नहीं बदला गया है — कोई परावर्तन लागू ही नहीं किया गया।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-figmatch-axisflip-02",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Which option shows the reference figure reflected across the HORIZONTAL axis (flipped upside-down, top becomes bottom)?",
+        "hi": "कौन-सा विकल्प संदर्भ आकृति को क्षैतिज अक्ष के आर-पार परावर्तित (उल्टा, ऊपर-नीचे पलटा हुआ) दिखाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"scale(-1,1)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"scale(1,-1)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "Reflecting across the horizontal axis flips the figure top-to-bottom (up becomes down) while left and right stay in place — shown in option D.",
+        "hi": "क्षैतिज अक्ष के आर-पार परावर्तित करने पर आकृति ऊपर-नीचे पलट जाती है (ऊपर नीचे बन जाता है) जबकि बाएँ-दाएँ अपनी जगह बने रहते हैं — यह विकल्प D में दिखाया गया है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Reflects across the VERTICAL axis instead (left-right flip) — a different axis than the one instructed.",
+          "hi": "इसके बजाय ऊर्ध्वाधर अक्ष के आर-पार परावर्तित करता है (बाएँ-दाएँ पलट) — यह निर्देशित अक्ष से अलग है।"
+        },
+        "b": {
+          "en": "Rotates the figure 180° instead of reflecting it — for an asymmetric figure this looks different from either single-axis reflection.",
+          "hi": "आकृति को परावर्तित करने के बजाय 180° घुमाता है — असममित आकृति के लिए यह किसी भी एक-अक्ष परावर्तन से भिन्न दिखता है।"
+        },
+        "c": {
+          "en": "Shows the reference completely unchanged — no reflection was applied at all.",
+          "hi": "संदर्भ को बिल्कुल भी नहीं बदला गया है — कोई परावर्तन लागू ही नहीं किया गया।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-figmatch-axisflip-03",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Which option shows the reference figure reflected across the HORIZONTAL axis (flipped upside-down, top becomes bottom)?",
+        "hi": "कौन-सा विकल्प संदर्भ आकृति को क्षैतिज अक्ष के आर-पार परावर्तित (उल्टा, ऊपर-नीचे पलटा हुआ) दिखाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g fill=\"#1e293b\"><rect x=\"-18\" y=\"-18\" width=\"14\" height=\"14\"/><rect x=\"-18\" y=\"-2\" width=\"14\" height=\"14\"/><rect x=\"-2\" y=\"-2\" width=\"14\" height=\"14\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"scale(1,-1)\"><g fill=\"#1e293b\"><rect x=\"-18\" y=\"-18\" width=\"14\" height=\"14\"/><rect x=\"-18\" y=\"-2\" width=\"14\" height=\"14\"/><rect x=\"-2\" y=\"-2\" width=\"14\" height=\"14\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"scale(-1,1)\"><g fill=\"#1e293b\"><rect x=\"-18\" y=\"-18\" width=\"14\" height=\"14\"/><rect x=\"-18\" y=\"-2\" width=\"14\" height=\"14\"/><rect x=\"-2\" y=\"-2\" width=\"14\" height=\"14\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><g fill=\"#1e293b\"><rect x=\"-18\" y=\"-18\" width=\"14\" height=\"14\"/><rect x=\"-18\" y=\"-2\" width=\"14\" height=\"14\"/><rect x=\"-2\" y=\"-2\" width=\"14\" height=\"14\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g fill=\"#1e293b\"><rect x=\"-18\" y=\"-18\" width=\"14\" height=\"14\"/><rect x=\"-18\" y=\"-2\" width=\"14\" height=\"14\"/><rect x=\"-2\" y=\"-2\" width=\"14\" height=\"14\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "Reflecting across the horizontal axis flips the figure top-to-bottom (up becomes down) while left and right stay in place — shown in option A.",
+        "hi": "क्षैतिज अक्ष के आर-पार परावर्तित करने पर आकृति ऊपर-नीचे पलट जाती है (ऊपर नीचे बन जाता है) जबकि बाएँ-दाएँ अपनी जगह बने रहते हैं — यह विकल्प A में दिखाया गया है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Reflects across the VERTICAL axis instead (left-right flip) — a different axis than the one instructed.",
+          "hi": "इसके बजाय ऊर्ध्वाधर अक्ष के आर-पार परावर्तित करता है (बाएँ-दाएँ पलट) — यह निर्देशित अक्ष से अलग है।"
+        },
+        "c": {
+          "en": "Rotates the figure 180° instead of reflecting it — for an asymmetric figure this looks different from either single-axis reflection.",
+          "hi": "आकृति को परावर्तित करने के बजाय 180° घुमाता है — असममित आकृति के लिए यह किसी भी एक-अक्ष परावर्तन से भिन्न दिखता है।"
+        },
+        "d": {
+          "en": "Shows the reference completely unchanged — no reflection was applied at all.",
+          "hi": "संदर्भ को बिल्कुल भी नहीं बदला गया है — कोई परावर्तन लागू ही नहीं किया गया।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-figmatch-axisflip-04",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Which option shows the reference figure reflected across the HORIZONTAL axis (flipped upside-down, top becomes bottom)?",
+        "hi": "कौन-सा विकल्प संदर्भ आकृति को क्षैतिज अक्ष के आर-पार परावर्तित (उल्टा, ऊपर-नीचे पलटा हुआ) दिखाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"scale(-1,1)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"scale(1,-1)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "Reflecting across the horizontal axis flips the figure top-to-bottom (up becomes down) while left and right stay in place — shown in option B.",
+        "hi": "क्षैतिज अक्ष के आर-पार परावर्तित करने पर आकृति ऊपर-नीचे पलट जाती है (ऊपर नीचे बन जाता है) जबकि बाएँ-दाएँ अपनी जगह बने रहते हैं — यह विकल्प B में दिखाया गया है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Reflects across the VERTICAL axis instead (left-right flip) — a different axis than the one instructed.",
+          "hi": "इसके बजाय ऊर्ध्वाधर अक्ष के आर-पार परावर्तित करता है (बाएँ-दाएँ पलट) — यह निर्देशित अक्ष से अलग है।"
+        },
+        "c": {
+          "en": "Rotates the figure 180° instead of reflecting it — for an asymmetric figure this looks different from either single-axis reflection.",
+          "hi": "आकृति को परावर्तित करने के बजाय 180° घुमाता है — असममित आकृति के लिए यह किसी भी एक-अक्ष परावर्तन से भिन्न दिखता है।"
+        },
+        "d": {
+          "en": "Shows the reference completely unchanged — no reflection was applied at all.",
+          "hi": "संदर्भ को बिल्कुल भी नहीं बदला गया है — कोई परावर्तन लागू ही नहीं किया गया।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-figmatch-axisflip-05",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Which option shows the reference figure reflected across the HORIZONTAL axis (flipped upside-down, top becomes bottom)?",
+        "hi": "कौन-सा विकल्प संदर्भ आकृति को क्षैतिज अक्ष के आर-पार परावर्तित (उल्टा, ऊपर-नीचे पलटा हुआ) दिखाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"scale(-1,1)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"scale(1,-1)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "Reflecting across the horizontal axis flips the figure top-to-bottom (up becomes down) while left and right stay in place — shown in option C.",
+        "hi": "क्षैतिज अक्ष के आर-पार परावर्तित करने पर आकृति ऊपर-नीचे पलट जाती है (ऊपर नीचे बन जाता है) जबकि बाएँ-दाएँ अपनी जगह बने रहते हैं — यह विकल्प C में दिखाया गया है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Reflects across the VERTICAL axis instead (left-right flip) — a different axis than the one instructed.",
+          "hi": "इसके बजाय ऊर्ध्वाधर अक्ष के आर-पार परावर्तित करता है (बाएँ-दाएँ पलट) — यह निर्देशित अक्ष से अलग है।"
+        },
+        "b": {
+          "en": "Rotates the figure 180° instead of reflecting it — for an asymmetric figure this looks different from either single-axis reflection.",
+          "hi": "आकृति को परावर्तित करने के बजाय 180° घुमाता है — असममित आकृति के लिए यह किसी भी एक-अक्ष परावर्तन से भिन्न दिखता है।"
+        },
+        "d": {
+          "en": "Shows the reference completely unchanged — no reflection was applied at all.",
+          "hi": "संदर्भ को बिल्कुल भी नहीं बदला गया है — कोई परावर्तन लागू ही नहीं किया गया।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-figmatch-twostephard-01",
+      "difficulty": "HARD",
+      "content": {
+        "en": "The reference figure is first rotated 30° clockwise, then rotated another 150° clockwise. Which option (A-D) shows the final result?",
+        "hi": "संदर्भ आकृति को पहले 30° दक्षिणावर्त घुमाया जाता है, फिर एक बार और 150° दक्षिणावर्त घुमाया जाता है। कौन-सा विकल्प (A-D) अंतिम परिणाम दिखाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(30)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(150)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(120)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The two rotations add together: 30° + 150° = 180° (mod 360°), shown in option A.",
+        "hi": "दोनों घुमाव जुड़ जाते हैं: 30° + 150° = 180° (mod 360°), जो विकल्प A में दिखाया गया है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Shows only the first rotation step (30°), stopping before the second.",
+          "hi": "केवल पहला घुमाव चरण (30°) दिखाता है, दूसरे से पहले रुक गया।"
+        },
+        "c": {
+          "en": "Shows only the second rotation step (150°), as if the first never happened.",
+          "hi": "केवल दूसरा घुमाव चरण (150°) दिखाता है, जैसे पहला हुआ ही न हो।"
+        },
+        "d": {
+          "en": "Subtracts the two steps instead of adding them (|30−150|), a wrong combination rule.",
+          "hi": "दोनों चरणों को जोड़ने के बजाय घटा देता है (|30−150|), जो एक गलत संयोजन नियम है।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-figmatch-twostephard-02",
+      "difficulty": "HARD",
+      "content": {
+        "en": "The reference figure is first rotated 20° clockwise, then rotated another 100° clockwise. Which option (A-D) shows the final result?",
+        "hi": "संदर्भ आकृति को पहले 20° दक्षिणावर्त घुमाया जाता है, फिर एक बार और 100° दक्षिणावर्त घुमाया जाता है। कौन-सा विकल्प (A-D) अंतिम परिणाम दिखाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(120)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(20)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(100)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(80)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The two rotations add together: 20° + 100° = 120° (mod 360°), shown in option A.",
+        "hi": "दोनों घुमाव जुड़ जाते हैं: 20° + 100° = 120° (mod 360°), जो विकल्प A में दिखाया गया है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Shows only the first rotation step (20°), stopping before the second.",
+          "hi": "केवल पहला घुमाव चरण (20°) दिखाता है, दूसरे से पहले रुक गया।"
+        },
+        "c": {
+          "en": "Shows only the second rotation step (100°), as if the first never happened.",
+          "hi": "केवल दूसरा घुमाव चरण (100°) दिखाता है, जैसे पहला हुआ ही न हो।"
+        },
+        "d": {
+          "en": "Subtracts the two steps instead of adding them (|20−100|), a wrong combination rule.",
+          "hi": "दोनों चरणों को जोड़ने के बजाय घटा देता है (|20−100|), जो एक गलत संयोजन नियम है।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-figmatch-twostephard-03",
+      "difficulty": "HARD",
+      "content": {
+        "en": "The reference figure is first rotated 75° clockwise, then rotated another 105° clockwise. Which option (A-D) shows the final result?",
+        "hi": "संदर्भ आकृति को पहले 75° दक्षिणावर्त घुमाया जाता है, फिर एक बार और 105° दक्षिणावर्त घुमाया जाता है। कौन-सा विकल्प (A-D) अंतिम परिणाम दिखाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(75)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(105)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(30)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The two rotations add together: 75° + 105° = 180° (mod 360°), shown in option A.",
+        "hi": "दोनों घुमाव जुड़ जाते हैं: 75° + 105° = 180° (mod 360°), जो विकल्प A में दिखाया गया है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Shows only the first rotation step (75°), stopping before the second.",
+          "hi": "केवल पहला घुमाव चरण (75°) दिखाता है, दूसरे से पहले रुक गया।"
+        },
+        "c": {
+          "en": "Shows only the second rotation step (105°), as if the first never happened.",
+          "hi": "केवल दूसरा घुमाव चरण (105°) दिखाता है, जैसे पहला हुआ ही न हो।"
+        },
+        "d": {
+          "en": "Subtracts the two steps instead of adding them (|75−105|), a wrong combination rule.",
+          "hi": "दोनों चरणों को जोड़ने के बजाय घटा देता है (|75−105|), जो एक गलत संयोजन नियम है।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-figmatch-twostephard-04",
+      "difficulty": "HARD",
+      "content": {
+        "en": "The reference figure is first rotated 40° clockwise, then rotated another 200° clockwise. Which option (A-D) shows the final result?",
+        "hi": "संदर्भ आकृति को पहले 40° दक्षिणावर्त घुमाया जाता है, फिर एक बार और 200° दक्षिणावर्त घुमाया जाता है। कौन-सा विकल्प (A-D) अंतिम परिणाम दिखाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g fill=\"#1e293b\"><rect x=\"-18\" y=\"-18\" width=\"14\" height=\"14\"/><rect x=\"-18\" y=\"-2\" width=\"14\" height=\"14\"/><rect x=\"-2\" y=\"-2\" width=\"14\" height=\"14\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(240)\"><g fill=\"#1e293b\"><rect x=\"-18\" y=\"-18\" width=\"14\" height=\"14\"/><rect x=\"-18\" y=\"-2\" width=\"14\" height=\"14\"/><rect x=\"-2\" y=\"-2\" width=\"14\" height=\"14\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(40)\"><g fill=\"#1e293b\"><rect x=\"-18\" y=\"-18\" width=\"14\" height=\"14\"/><rect x=\"-18\" y=\"-2\" width=\"14\" height=\"14\"/><rect x=\"-2\" y=\"-2\" width=\"14\" height=\"14\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(200)\"><g fill=\"#1e293b\"><rect x=\"-18\" y=\"-18\" width=\"14\" height=\"14\"/><rect x=\"-18\" y=\"-2\" width=\"14\" height=\"14\"/><rect x=\"-2\" y=\"-2\" width=\"14\" height=\"14\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(160)\"><g fill=\"#1e293b\"><rect x=\"-18\" y=\"-18\" width=\"14\" height=\"14\"/><rect x=\"-18\" y=\"-2\" width=\"14\" height=\"14\"/><rect x=\"-2\" y=\"-2\" width=\"14\" height=\"14\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The two rotations add together: 40° + 200° = 240° (mod 360°), shown in option A.",
+        "hi": "दोनों घुमाव जुड़ जाते हैं: 40° + 200° = 240° (mod 360°), जो विकल्प A में दिखाया गया है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Shows only the first rotation step (40°), stopping before the second.",
+          "hi": "केवल पहला घुमाव चरण (40°) दिखाता है, दूसरे से पहले रुक गया।"
+        },
+        "c": {
+          "en": "Shows only the second rotation step (200°), as if the first never happened.",
+          "hi": "केवल दूसरा घुमाव चरण (200°) दिखाता है, जैसे पहला हुआ ही न हो।"
+        },
+        "d": {
+          "en": "Subtracts the two steps instead of adding them (|40−200|), a wrong combination rule.",
+          "hi": "दोनों चरणों को जोड़ने के बजाय घटा देता है (|40−200|), जो एक गलत संयोजन नियम है।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-figmatch-twostephard-05",
+      "difficulty": "HARD",
+      "content": {
+        "en": "The reference figure is first rotated 15° clockwise, then rotated another 255° clockwise. Which option (A-D) shows the final result?",
+        "hi": "संदर्भ आकृति को पहले 15° दक्षिणावर्त घुमाया जाता है, फिर एक बार और 255° दक्षिणावर्त घुमाया जाता है। कौन-सा विकल्प (A-D) अंतिम परिणाम दिखाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(270)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(15)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(255)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(240)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The two rotations add together: 15° + 255° = 270° (mod 360°), shown in option A.",
+        "hi": "दोनों घुमाव जुड़ जाते हैं: 15° + 255° = 270° (mod 360°), जो विकल्प A में दिखाया गया है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Shows only the first rotation step (15°), stopping before the second.",
+          "hi": "केवल पहला घुमाव चरण (15°) दिखाता है, दूसरे से पहले रुक गया।"
+        },
+        "c": {
+          "en": "Shows only the second rotation step (255°), as if the first never happened.",
+          "hi": "केवल दूसरा घुमाव चरण (255°) दिखाता है, जैसे पहला हुआ ही न हो।"
+        },
+        "d": {
+          "en": "Subtracts the two steps instead of adding them (|15−255|), a wrong combination rule.",
+          "hi": "दोनों चरणों को जोड़ने के बजाय घटा देता है (|15−255|), जो एक गलत संयोजन नियम है।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-figmatch-shapedecoy-01",
+      "difficulty": "HARD",
+      "content": {
+        "en": "The reference figure is rotated 90° clockwise. Which option (A-D) shows the SAME figure, correctly rotated?",
+        "hi": "संदर्भ आकृति को 90° दक्षिणावर्त घुमाया गया है। कौन-सा विकल्प (A-D) उसी आकृति को सही ढंग से घुमाया हुआ दिखाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(90)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(90)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "Option D shows the exact same figure as the reference, rotated by the correct 90°.",
+        "hi": "विकल्प D संदर्भ के समान ही आकृति दिखाता है, जो सही 90° घुमाई गई है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "The right figure, but rotated by 0° instead of the instructed 90°.",
+          "hi": "सही आकृति है, लेकिन निर्देशित 90° के बजाय 0° घुमाई गई है।"
+        },
+        "b": {
+          "en": "Rotated by the correct angle, but this is actually a DIFFERENT figure altogether, not the reference shape rotated.",
+          "hi": "सही कोण पर घुमाई गई है, लेकिन यह वास्तव में एक बिल्कुल अलग आकृति है, संदर्भ आकृति का घुमाव नहीं।"
+        },
+        "c": {
+          "en": "The right figure, but rotated by 180° instead of the instructed 90°.",
+          "hi": "सही आकृति है, लेकिन निर्देशित 90° के बजाय 180° घुमाई गई है।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-figmatch-shapedecoy-02",
+      "difficulty": "HARD",
+      "content": {
+        "en": "The reference figure is rotated 180° clockwise. Which option (A-D) shows the SAME figure, correctly rotated?",
+        "hi": "संदर्भ आकृति को 180° दक्षिणावर्त घुमाया गया है। कौन-सा विकल्प (A-D) उसी आकृति को सही ढंग से घुमाया हुआ दिखाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(90)\"><g><line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"20\" stroke=\"#1e293b\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"0,-20 22,-11 0,-2\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "Option A shows the exact same figure as the reference, rotated by the correct 180°.",
+        "hi": "विकल्प A संदर्भ के समान ही आकृति दिखाता है, जो सही 180° घुमाई गई है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "The right figure, but rotated by 0° instead of the instructed 180°.",
+          "hi": "सही आकृति है, लेकिन निर्देशित 180° के बजाय 0° घुमाई गई है।"
+        },
+        "c": {
+          "en": "Rotated by the correct angle, but this is actually a DIFFERENT figure altogether, not the reference shape rotated.",
+          "hi": "सही कोण पर घुमाई गई है, लेकिन यह वास्तव में एक बिल्कुल अलग आकृति है, संदर्भ आकृति का घुमाव नहीं।"
+        },
+        "d": {
+          "en": "The right figure, but rotated by 90° instead of the instructed 180°.",
+          "hi": "सही आकृति है, लेकिन निर्देशित 180° के बजाय 90° घुमाई गई है।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-figmatch-shapedecoy-03",
+      "difficulty": "HARD",
+      "content": {
+        "en": "The reference figure is rotated 90° clockwise. Which option (A-D) shows the SAME figure, correctly rotated?",
+        "hi": "संदर्भ आकृति को 90° दक्षिणावर्त घुमाया गया है। कौन-सा विकल्प (A-D) उसी आकृति को सही ढंग से घुमाया हुआ दिखाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(90)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(90)\"><g fill=\"#1e293b\"><rect x=\"-18\" y=\"-18\" width=\"14\" height=\"14\"/><rect x=\"-18\" y=\"-2\" width=\"14\" height=\"14\"/><rect x=\"-2\" y=\"-2\" width=\"14\" height=\"14\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "Option B shows the exact same figure as the reference, rotated by the correct 90°.",
+        "hi": "विकल्प B संदर्भ के समान ही आकृति दिखाता है, जो सही 90° घुमाई गई है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "The right figure, but rotated by 0° instead of the instructed 90°.",
+          "hi": "सही आकृति है, लेकिन निर्देशित 90° के बजाय 0° घुमाई गई है।"
+        },
+        "c": {
+          "en": "Rotated by the correct angle, but this is actually a DIFFERENT figure altogether, not the reference shape rotated.",
+          "hi": "सही कोण पर घुमाई गई है, लेकिन यह वास्तव में एक बिल्कुल अलग आकृति है, संदर्भ आकृति का घुमाव नहीं।"
+        },
+        "d": {
+          "en": "The right figure, but rotated by 180° instead of the instructed 90°.",
+          "hi": "सही आकृति है, लेकिन निर्देशित 90° के बजाय 180° घुमाई गई है।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-figmatch-shapedecoy-04",
+      "difficulty": "HARD",
+      "content": {
+        "en": "The reference figure is rotated 270° clockwise. Which option (A-D) shows the SAME figure, correctly rotated?",
+        "hi": "संदर्भ आकृति को 270° दक्षिणावर्त घुमाया गया है। कौन-सा विकल्प (A-D) उसी आकृति को सही ढंग से घुमाया हुआ दिखाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g fill=\"#1e293b\"><rect x=\"-18\" y=\"-18\" width=\"14\" height=\"14\"/><rect x=\"-18\" y=\"-2\" width=\"14\" height=\"14\"/><rect x=\"-2\" y=\"-2\" width=\"14\" height=\"14\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g fill=\"#1e293b\"><rect x=\"-18\" y=\"-18\" width=\"14\" height=\"14\"/><rect x=\"-18\" y=\"-2\" width=\"14\" height=\"14\"/><rect x=\"-2\" y=\"-2\" width=\"14\" height=\"14\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(270)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(270)\"><g fill=\"#1e293b\"><rect x=\"-18\" y=\"-18\" width=\"14\" height=\"14\"/><rect x=\"-18\" y=\"-2\" width=\"14\" height=\"14\"/><rect x=\"-2\" y=\"-2\" width=\"14\" height=\"14\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(90)\"><g fill=\"#1e293b\"><rect x=\"-18\" y=\"-18\" width=\"14\" height=\"14\"/><rect x=\"-18\" y=\"-2\" width=\"14\" height=\"14\"/><rect x=\"-2\" y=\"-2\" width=\"14\" height=\"14\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "Option C shows the exact same figure as the reference, rotated by the correct 270°.",
+        "hi": "विकल्प C संदर्भ के समान ही आकृति दिखाता है, जो सही 270° घुमाई गई है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "The right figure, but rotated by 0° instead of the instructed 270°.",
+          "hi": "सही आकृति है, लेकिन निर्देशित 270° के बजाय 0° घुमाई गई है।"
+        },
+        "b": {
+          "en": "Rotated by the correct angle, but this is actually a DIFFERENT figure altogether, not the reference shape rotated.",
+          "hi": "सही कोण पर घुमाई गई है, लेकिन यह वास्तव में एक बिल्कुल अलग आकृति है, संदर्भ आकृति का घुमाव नहीं।"
+        },
+        "d": {
+          "en": "The right figure, but rotated by 90° instead of the instructed 270°.",
+          "hi": "सही आकृति है, लेकिन निर्देशित 270° के बजाय 90° घुमाई गई है।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-figmatch-shapedecoy-05",
+      "difficulty": "HARD",
+      "content": {
+        "en": "The reference figure is rotated 180° clockwise. Which option (A-D) shows the SAME figure, correctly rotated?",
+        "hi": "संदर्भ आकृति को 180° दक्षिणावर्त घुमाया गया है। कौन-सा विकल्प (A-D) उसी आकृति को सही ढंग से घुमाया हुआ दिखाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(0)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><g><polygon points=\"-18,16 18,16 -18,-16\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"-18\" cy=\"-16\" r=\"4\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(90)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><g><line x1=\"-16\" y1=\"0\" x2=\"16\" y2=\"0\" stroke=\"#1e293b\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16,0 4,-9 4,9\" fill=\"#1e293b\"/></g></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "Option D shows the exact same figure as the reference, rotated by the correct 180°.",
+        "hi": "विकल्प D संदर्भ के समान ही आकृति दिखाता है, जो सही 180° घुमाई गई है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "The right figure, but rotated by 0° instead of the instructed 180°.",
+          "hi": "सही आकृति है, लेकिन निर्देशित 180° के बजाय 0° घुमाई गई है।"
+        },
+        "b": {
+          "en": "Rotated by the correct angle, but this is actually a DIFFERENT figure altogether, not the reference shape rotated.",
+          "hi": "सही कोण पर घुमाई गई है, लेकिन यह वास्तव में एक बिल्कुल अलग आकृति है, संदर्भ आकृति का घुमाव नहीं।"
+        },
+        "c": {
+          "en": "The right figure, but rotated by 90° instead of the instructed 180°.",
+          "hi": "सही आकृति है, लेकिन निर्देशित 180° के बजाय 90° घुमाई गई है।"
+        }
+      }
+    }
+  ]
+}

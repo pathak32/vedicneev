@@ -7,6 +7,9 @@ import generalAwarenessAudit from "./topic-seed/audit/general-awareness.json";
 import generalMathematicsAudit from "./topic-seed/audit/general-mathematics.json";
 import generalScienceAudit from "./topic-seed/audit/general-science.json";
 import socialAwarenessAudit from "./topic-seed/audit/social-awareness.json";
+import figureMatchingAudit from "./topic-seed/audit/figure-matching.json";
+import figureSeriesAudit from "./topic-seed/audit/figure-series.json";
+import analogyAudit from "./topic-seed/audit/analogy.json";
 import { buildClassificationQuestions } from "./topic-seed/classification";
 import { buildNumberSeriesQuestions } from "./topic-seed/number-series";
 import { buildPatternCompletionQuestions } from "./topic-seed/pattern-completion";
@@ -107,6 +110,39 @@ async function main() {
       key: "classification",
       name: { en: "Classification (Odd One Out)", hi: "वर्गीकरण (असंगत चुनें)" },
       order: 3,
+    },
+  });
+
+  const figureMatching = await prisma.topic.upsert({
+    where: { sectionId_key: { sectionId: mentalAbility.id, key: "figure_matching" } },
+    update: {},
+    create: {
+      sectionId: mentalAbility.id,
+      key: "figure_matching",
+      name: { en: "Figure Matching", hi: "आकृति मिलान" },
+      order: 4,
+    },
+  });
+
+  const figureSeries = await prisma.topic.upsert({
+    where: { sectionId_key: { sectionId: mentalAbility.id, key: "figure_series" } },
+    update: {},
+    create: {
+      sectionId: mentalAbility.id,
+      key: "figure_series",
+      name: { en: "Figure Series Completion", hi: "आकृति श्रृंखला पूर्णता" },
+      order: 5,
+    },
+  });
+
+  const analogy = await prisma.topic.upsert({
+    where: { sectionId_key: { sectionId: mentalAbility.id, key: "analogy" } },
+    update: {},
+    create: {
+      sectionId: mentalAbility.id,
+      key: "analogy",
+      name: { en: "Analogy", hi: "सादृश्य" },
+      order: 6,
     },
   });
 
@@ -548,6 +584,8 @@ async function main() {
     explanation: Prisma.InputJsonValue;
     /** Per wrong-option-id breakdown of why it's a common trap answer — see Question.distractorAnalysis. */
     distractorAnalysis?: Prisma.InputJsonValue;
+    /** Inline-SVG diagram for visual/non-verbal reasoning question stems — see Question.figureMetadata. */
+    figureMetadata?: Prisma.InputJsonValue;
   }
 
   /** Adapts a topic-seed/*.ts generator's output (packages/db/prisma/topic-seed/types.ts) into this file's QuestionSeed shape. */
@@ -562,6 +600,7 @@ async function main() {
       vedicSpeedHackId: q.vedicSpeedHackId,
       explanation: q.explanation as unknown as Prisma.InputJsonValue,
       distractorAnalysis: q.distractorAnalysis as unknown as Prisma.InputJsonValue,
+      figureMetadata: q.figureMetadata as unknown as Prisma.InputJsonValue | undefined,
     }));
   }
 
@@ -1117,6 +1156,15 @@ async function main() {
   const generalSciencePool = fromGenerated(generalScience.id, loadAuditQuestions(generalScienceAudit as unknown as AuditFile));
   const socialAwarenessPool = fromGenerated(socialAwareness.id, loadAuditQuestions(socialAwarenessAudit as unknown as AuditFile));
 
+  // Visual/non-verbal reasoning: Figure Matching, Figure Series Completion,
+  // Analogy — every option is a real inline-SVG diagram (figureMetadata),
+  // computed by construction (packages/db/prisma/topic-seed/figure-matching.ts,
+  // figure-series.ts, analogy.ts) and visually verified in a browser before
+  // export, same audit + loadAuditQuestions defense-in-depth as the pools above.
+  const figureMatchingPool = fromGenerated(figureMatching.id, loadAuditQuestions(figureMatchingAudit as unknown as AuditFile));
+  const figureSeriesPool = fromGenerated(figureSeries.id, loadAuditQuestions(figureSeriesAudit as unknown as AuditFile));
+  const analogyPool = fromGenerated(analogy.id, loadAuditQuestions(analogyAudit as unknown as AuditFile));
+
   const allQuestions = [
     ...mentalAbilityQuestions,
     ...arithmeticQuestions,
@@ -1131,6 +1179,9 @@ async function main() {
     ...generalMathematicsPool,
     ...generalSciencePool,
     ...socialAwarenessPool,
+    ...figureMatchingPool,
+    ...figureSeriesPool,
+    ...analogyPool,
   ];
 
   let newQuestionCount = 0;
@@ -1146,6 +1197,7 @@ async function main() {
         vedicSpeedHackId: q.vedicSpeedHackId ?? null,
         explanation: q.explanation,
         distractorAnalysis: q.distractorAnalysis ?? Prisma.JsonNull,
+        figureMetadata: q.figureMetadata ?? Prisma.JsonNull,
       },
       create: q,
     });
