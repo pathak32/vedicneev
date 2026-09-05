@@ -76,8 +76,8 @@ export async function getJnvstClassSixBlueprint(): Promise<JnvstBlueprint | Jnvs
   };
 }
 
-/** Defensive runtime check — Prisma's `Json` columns are typed `JsonValue`, not `Multilingual`, so a malformed row (bad seed data, manual DB edit) fails loudly here instead of rendering as `undefined` deep inside the exam player. */
-function asMultilingual(value: unknown, context: string): Multilingual {
+/** Defensive runtime check — Prisma's `Json` columns are typed `JsonValue`, not `Multilingual`, so a malformed row (bad seed data, manual DB edit) fails loudly here instead of rendering as `undefined` deep inside the exam player. Exported for reuse by other session-assembly services reading the same `Json` columns (e.g. topicPracticeService.ts). */
+export function asMultilingual(value: unknown, context: string): Multilingual {
   if (
     typeof value === "object" &&
     value !== null &&

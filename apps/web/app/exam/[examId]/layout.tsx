@@ -17,6 +17,16 @@ import { getDemoSession } from "@/lib/exam/mock-data";
 const LIVE_MOCK_EXAM_ID_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*-live-mock-\d+$/;
 
 /**
+ * Same reasoning as LIVE_MOCK_EXAM_ID_PATTERN, for topic-practice sessions
+ * instead of full mock papers — see generateTopicPracticeSession in
+ * apps/web/src/lib/exam/topicPracticeService.ts, which mints
+ * `topic-practice-${topicKey}-${Date.now()}`. Without this exemption, the
+ * ExamPlayer's post-submit redirect to /exam/${examId}/results would 404
+ * here even for a real, just-completed attempt.
+ */
+const TOPIC_PRACTICE_EXAM_ID_PATTERN = /^topic-practice-[a-z0-9_]+-\d+$/;
+
+/**
  * Covers the whole exam subtree — the player, results, and both OMR routes
  * — with one check and one metadata baseline:
  *
@@ -37,7 +47,9 @@ const LIVE_MOCK_EXAM_ID_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*-live-mock-\d+$/;
  */
 export function generateMetadata({ params }: { params: { examId: string } }): Metadata {
   const session = getDemoSession(params.examId);
-  if (!session && !LIVE_MOCK_EXAM_ID_PATTERN.test(params.examId)) notFound();
+  const isDynamicExamId =
+    LIVE_MOCK_EXAM_ID_PATTERN.test(params.examId) || TOPIC_PRACTICE_EXAM_ID_PATTERN.test(params.examId);
+  if (!session && !isDynamicExamId) notFound();
 
   return {
     title: session?.templateName.en ?? "Mock Test",
