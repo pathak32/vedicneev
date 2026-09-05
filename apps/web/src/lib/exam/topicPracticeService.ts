@@ -43,9 +43,15 @@ function asFigureMetadata(raw: unknown, context: string): FigureMetadata {
  * question the given Topic has is included (topics here run ~5-40
  * questions, not the hundreds a PYQ pool draws from), the session is
  * untimed at the section level (practiceMode, not a race against the
- * clock), and there's no negative marking. Read-only and side-effect-free.
+ * clock), and there's no negative marking. `untimed` (default true) sets
+ * ExamSessionData.untimed, which useTestStore's tick() and ExamHeader
+ * respect — pass false for a student who wants a real countdown against
+ * the same question set. Read-only and side-effect-free.
  */
-export async function generateTopicPracticeSession(topicKey: string): Promise<TopicPracticeResult | TopicPracticeError> {
+export async function generateTopicPracticeSession(
+  topicKey: string,
+  { untimed = true }: { untimed?: boolean } = {}
+): Promise<TopicPracticeResult | TopicPracticeError> {
   const topic = await prisma.topic.findFirst({
     where: { key: topicKey },
     include: { section: true },
@@ -110,6 +116,7 @@ export async function generateTopicPracticeSession(topicKey: string): Promise<To
     templateName: topicName,
     totalDurationSeconds,
     negativeMarkingRatio: 0,
+    untimed,
     sections: [section],
     questionsById,
     speedHacksById,

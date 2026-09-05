@@ -73,9 +73,12 @@ export interface ExamSessionData {
   examId: string;
   examType: ExamType;
   templateName: Multilingual;
+  /** Still the estimated time budget (sum of each question's timeLimitSeconds) even when `untimed` is true — shown as a reference, just not enforced. */
   totalDurationSeconds: number;
   negativeMarkingRatio: number;
   sections: ExamSectionConfig[];
   questionsById: Record<string, ExamQuestion>;
   speedHacksById: Record<string, VedicSpeedHack>;
+  /** When true, useTestStore's tick() never decrements or auto-submits, and ExamHeader shows an "Untimed" badge instead of a countdown. Absent/false for every timed exam type (JNVST/AISSEE/RMS mocks) — only topic practice sessions can opt into this. */
+  untimed?: boolean;
 }

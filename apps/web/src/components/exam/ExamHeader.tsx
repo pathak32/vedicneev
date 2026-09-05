@@ -90,19 +90,29 @@ export function ExamHeader() {
       </div>
 
       <div className="flex items-center gap-3">
-        <div
-          className={cn(
-            "flex items-center gap-2 rounded-lg border px-3 py-1.5 font-mono text-lg font-semibold tabular-nums",
-            isLowTime
-              ? "border-destructive/60 bg-destructive/10 text-destructive"
-              : "border-border bg-muted text-foreground"
-          )}
-          role="timer"
-          aria-live="polite"
-        >
-          <Clock className="h-4 w-4" />
-          {formatDuration(displaySeconds)}
-        </div>
+        {session.untimed ? (
+          <div
+            className="flex items-center gap-2 rounded-lg border border-border bg-muted px-3 py-1.5 text-sm font-semibold text-foreground"
+            role="status"
+          >
+            <Clock className="h-4 w-4" />
+            Untimed Practice
+          </div>
+        ) : (
+          <div
+            className={cn(
+              "flex items-center gap-2 rounded-lg border px-3 py-1.5 font-mono text-lg font-semibold tabular-nums",
+              isLowTime
+                ? "border-destructive/60 bg-destructive/10 text-destructive"
+                : "border-border bg-muted text-foreground"
+            )}
+            role="timer"
+            aria-live="polite"
+          >
+            <Clock className="h-4 w-4" />
+            {formatDuration(displaySeconds)}
+          </div>
+        )}
 
         <DropdownMenu>
           <DropdownMenuTrigger asChild>

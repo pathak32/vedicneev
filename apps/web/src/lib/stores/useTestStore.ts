@@ -311,7 +311,7 @@ export const useTestStore = create<TestStoreState>()(
 
         tick: () => {
           const state = get();
-          if (!state.session || state.submitted) return;
+          if (!state.session || state.submitted || state.session.untimed) return;
 
           const overallRemainingSeconds = Math.max(0, state.overallRemainingSeconds - 1);
           const currentSection = state.session.sections[state.currentSectionIndex];

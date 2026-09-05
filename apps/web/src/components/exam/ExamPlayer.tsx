@@ -117,10 +117,19 @@ export function ExamPlayer({ session, practiceMode = true }: ExamPlayerProps) {
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, []);
 
-  // On submission, hand off to the rich diagnostic dashboard.
+  // On submission, hand off to the rich diagnostic dashboard. Gated on
+  // storeSession.examId matching this session's examId, not just
+  // `submitted` alone — otherwise a still-true `submitted` flag left over
+  // from a PREVIOUS, already-completed attempt (persisted in
+  // useTestStore's sessionStorage) fires this effect immediately on
+  // mount, before the initSession effect above has replaced it with the
+  // new session, redirecting to `/exam/${session.examId}/results` for an
+  // attempt that was never actually taken (caught by hand: start any
+  // exam right after finishing a different one, without a full reload in
+  // between).
   useEffect(() => {
-    if (submitted) router.push(`/exam/${session.examId}/results`);
-  }, [submitted, router, session.examId]);
+    if (submitted && storeSession?.examId === session.examId) router.push(`/exam/${session.examId}/results`);
+  }, [submitted, storeSession?.examId, router, session.examId]);
 
   const globalQuestionNumber = useMemo(() => {
     if (!storeSession) return 0;

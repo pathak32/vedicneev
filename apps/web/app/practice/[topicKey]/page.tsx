@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
-import { Button } from "@vedicneev/ui";
+import { Button, Switch } from "@vedicneev/ui";
 
 import { ExamPlayer } from "@/components/exam/ExamPlayer";
 import type { ExamSessionData } from "@/lib/exam/types";
@@ -14,34 +14,43 @@ import { useTestStore } from "@/lib/stores/useTestStore";
 export const dynamic = "force-dynamic";
 
 type LoadState =
+  | { status: "choosing" }
   | { status: "loading" }
   | { status: "error"; message: string }
   | { status: "ready"; session: ExamSessionData };
 
+/** "figure_matching" -> "Figure Matching" — just for the pre-start screen, before the real bilingual Topic.name has been fetched. */
+function readableTopicLabel(topicKey: string): string {
+  return topicKey
+    .split("_")
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
+}
+
 /**
  * Single-topic drill launcher — the topic-practice counterpart to
- * app/exam/live/[templateSlug]/page.tsx. Fetches a fresh session from
- * /api/practice/[topicKey] on mount (see
- * apps/web/src/lib/exam/topicPracticeService.ts for the real logic) and
- * hands it straight to <ExamPlayer>, which owns auth/onboarding/entitlement
- * gating and calls useTestStore.initSession itself once a student is
- * active. Every question in the topic is included, untimed, no negative
- * marking — see topicPracticeService.ts's ExamSessionData assembly.
+ * app/exam/live/[templateSlug]/page.tsx. Shows a Timed/Untimed choice
+ * before starting (the choice is baked into the session for its whole
+ * duration, not something a student can flip mid-attempt to dodge an
+ * imminent auto-submit), then fetches the session from
+ * /api/practice/[topicKey] (see apps/web/src/lib/exam/topicPracticeService.ts
+ * for the real logic) and hands it to <ExamPlayer>, which owns
+ * auth/onboarding/entitlement gating and calls useTestStore.initSession
+ * itself once a student is active.
  */
 export default function TopicPracticePage() {
   const params = useParams<{ topicKey: string }>();
   const topicKey = params.topicKey;
-  const [state, setState] = useState<LoadState>({ status: "loading" });
+  const [state, setState] = useState<LoadState>({ status: "choosing" });
+  const [untimed, setUntimed] = useState(true);
 
   useEffect(() => {
-    let cancelled = false;
-
     // A reload (or any remount) of this route must resume the in-progress
     // attempt already sitting in useTestStore's sessionStorage instead of
-    // always drawing a brand new session — same reasoning as the live-mock
-    // launcher this mirrors. Only fetch a fresh session when there's no
-    // matching, not-yet-submitted attempt for this exact topic already
-    // resumable.
+    // sending the student back through the Timed/Untimed picker — same
+    // reasoning as the live-mock launcher this mirrors. Only resumable when
+    // it's for this exact topic and still in progress; the picker is
+    // skipped entirely in that case, since the choice was already made.
     const restored = useTestStore.getState();
     if (
       restored.session &&
@@ -49,10 +58,14 @@ export default function TopicPracticePage() {
       restored.session.examId.startsWith(`topic-practice-${topicKey}-`)
     ) {
       setState({ status: "ready", session: restored.session });
-      return;
     }
+  }, [topicKey]);
 
-    fetch(`/api/practice/${encodeURIComponent(topicKey)}`, { method: "POST" })
+  function startPractice() {
+    let cancelled = false;
+    setState({ status: "loading" });
+
+    fetch(`/api/practice/${encodeURIComponent(topicKey)}?untimed=${untimed}`, { method: "POST" })
       .then(async (res) => {
         const data = await res.json();
         if (cancelled) return;
@@ -65,10 +78,38 @@ export default function TopicPracticePage() {
       .catch(() => {
         if (!cancelled) setState({ status: "error", message: "Network error — please try again." });
       });
+
     return () => {
       cancelled = true;
     };
-  }, [topicKey]);
+  }
+
+  if (state.status === "choosing") {
+    return (
+      <div className="mx-auto flex max-w-md flex-col gap-6 p-8 pt-16 text-center">
+        <div>
+          <p className="text-lg font-semibold text-foreground">{readableTopicLabel(topicKey)} Practice</p>
+          <p className="text-sm text-muted-foreground">Choose how you&apos;d like to practice.</p>
+        </div>
+        <label className="flex items-center justify-between gap-4 rounded-lg border border-border bg-muted/50 p-4 text-left">
+          <span>
+            <span className="block text-sm font-medium text-foreground">
+              {untimed ? "Untimed" : "Timed"}
+            </span>
+            <span className="block text-xs text-muted-foreground">
+              {untimed
+                ? "No clock — work through every question at your own pace."
+                : "A real countdown, like the actual exam."}
+            </span>
+          </span>
+          <Switch checked={!untimed} onCheckedChange={(checked) => setUntimed(!checked)} aria-label="Toggle timed mode" />
+        </label>
+        <Button type="button" onClick={startPractice}>
+          Start Practice
+        </Button>
+      </div>
+    );
+  }
 
   if (state.status === "loading") {
     return (

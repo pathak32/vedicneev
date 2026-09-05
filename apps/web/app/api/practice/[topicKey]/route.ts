@@ -14,8 +14,10 @@ export const dynamic = "force-dynamic";
  * apps/web/src/lib/auth/mockAuthProvider.ts) — a genuine, existing gap,
  * not something introduced here.
  */
-export async function POST(_request: Request, { params }: { params: { topicKey: string } }) {
-  const result = await generateTopicPracticeSession(params.topicKey);
+export async function POST(request: Request, { params }: { params: { topicKey: string } }) {
+  const untimedParam = new URL(request.url).searchParams.get("untimed");
+  const untimed = untimedParam === null ? undefined : untimedParam !== "false";
+  const result = await generateTopicPracticeSession(params.topicKey, { untimed });
 
   if ("error" in result) {
     return NextResponse.json({ error: result.error }, { status: 404 });
