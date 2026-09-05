@@ -1,0 +1,727 @@
+{
+  "section": "general_science",
+  "topicKey": "general_science",
+  "generatedAt": "2026-09-05T00:00:00.000Z",
+  "questions": [
+    {
+      "key": "bank-sci9-general-01",
+      "difficulty": "EASY",
+      "content": { "en": "What is the basic structural and functional unit of all living organisms?", "hi": "सभी जीवित जीवों की मूल संरचनात्मक और क्रियात्मक इकाई क्या है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Cell", "hi": "कोशिका" } },
+        { "id": "b", "text": { "en": "Tissue", "hi": "ऊतक" } },
+        { "id": "c", "text": { "en": "Organ", "hi": "अंग" } },
+        { "id": "d", "text": { "en": "Organ system", "hi": "अंग तंत्र" } }
+      ],
+      "correctOption": "a",
+      "explanation": { "en": "The cell is the smallest unit that can carry out all life processes; all living organisms are made up of one or more cells.", "hi": "कोशिका सबसे छोटी इकाई है जो सभी जीवन प्रक्रियाएँ कर सकती है; सभी जीवित जीव एक या अधिक कोशिकाओं से बने होते हैं।" },
+      "distractorAnalysis": {
+        "b": { "en": "A tissue is a group of similar cells working together, which is a level of organization above the cell, not the most basic unit.", "hi": "ऊतक समान कोशिकाओं का समूह है जो एक साथ कार्य करता है, यह कोशिका से ऊपर के संगठन का स्तर है, सबसे मूल इकाई नहीं।" },
+        "c": { "en": "An organ is made of different tissues working together, an even higher level of organization than a single cell.", "hi": "अंग विभिन्न ऊतकों से मिलकर बनता है जो एक साथ कार्य करते हैं, यह कोशिका से भी ऊँचे स्तर का संगठन है।" },
+        "d": { "en": "An organ system is a group of organs working together, the highest level of organization mentioned here, far above a single cell.", "hi": "अंग तंत्र विभिन्न अंगों का समूह है जो एक साथ कार्य करते हैं, यह यहाँ बताए गए संगठनों में सबसे ऊँचा स्तर है।" }
+      }
+    },
+    {
+      "key": "bank-sci9-general-02",
+      "difficulty": "EASY",
+      "content": { "en": "Green plants prepare their own food through a process that uses sunlight. What is this process called?", "hi": "हरे पौधे सूर्य के प्रकाश का उपयोग करके अपना भोजन स्वयं बनाते हैं। इस प्रक्रिया को क्या कहते हैं?" },
+      "options": [
+        { "id": "a", "text": { "en": "Excretion", "hi": "उत्सर्जन" } },
+        { "id": "b", "text": { "en": "Photosynthesis", "hi": "प्रकाश संश्लेषण" } },
+        { "id": "c", "text": { "en": "Respiration", "hi": "श्वसन" } },
+        { "id": "d", "text": { "en": "Digestion", "hi": "पाचन" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "Photosynthesis is the process by which green plants use sunlight, water, and carbon dioxide to make their own food (glucose) and release oxygen.", "hi": "प्रकाश संश्लेषण वह प्रक्रिया है जिसमें हरे पौधे सूर्य के प्रकाश, जल और कार्बन डाइऑक्साइड का उपयोग करके अपना भोजन (ग्लूकोज़) बनाते हैं और ऑक्सीजन छोड़ते हैं।" },
+      "distractorAnalysis": {
+        "a": { "en": "Excretion is the removal of waste products from the body, unrelated to food-making using sunlight.", "hi": "उत्सर्जन शरीर से अपशिष्ट पदार्थों को बाहर निकालने की प्रक्रिया है, इसका सूर्य के प्रकाश से भोजन बनाने से कोई संबंध नहीं है।" },
+        "c": { "en": "Respiration is the process of releasing energy from food (in both plants and animals); it does not make food, it uses it.", "hi": "श्वसन भोजन से ऊर्जा प्राप्त करने की प्रक्रिया है (पौधों और जंतुओं दोनों में); यह भोजन बनाती नहीं, बल्कि उसका उपयोग करती है।" },
+        "d": { "en": "Digestion is the breakdown of food into simpler substances, mainly occurring in animals with a digestive system, not the making of food using sunlight.", "hi": "पाचन भोजन को सरल पदार्थों में तोड़ने की प्रक्रिया है, जो मुख्यतः पाचन तंत्र वाले जंतुओं में होती है, यह सूर्य के प्रकाश से भोजन बनाना नहीं है।" }
+      }
+    },
+    {
+      "key": "bank-sci9-general-03",
+      "difficulty": "EASY",
+      "content": { "en": "Which organ in the human body is mainly responsible for pumping blood throughout the body?", "hi": "मानव शरीर में कौन-सा अंग मुख्य रूप से पूरे शरीर में रक्त पंप करने के लिए जिम्मेदार है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Lungs", "hi": "फेफड़े" } },
+        { "id": "b", "text": { "en": "Stomach", "hi": "आमाशय" } },
+        { "id": "c", "text": { "en": "Heart", "hi": "हृदय" } },
+        { "id": "d", "text": { "en": "Liver", "hi": "यकृत (लीवर)" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "The heart is a muscular organ that continuously pumps blood through blood vessels to all parts of the body.", "hi": "हृदय एक पेशीय अंग है जो रक्त वाहिकाओं के माध्यम से शरीर के सभी हिस्सों में लगातार रक्त पंप करता है।" },
+      "distractorAnalysis": {
+        "a": { "en": "The lungs are responsible for gas exchange (taking in oxygen, releasing carbon dioxide), not for pumping blood.", "hi": "फेफड़े गैसों के आदान-प्रदान (ऑक्सीजन लेना, कार्बन डाइऑक्साइड छोड़ना) के लिए जिम्मेदार हैं, रक्त पंप करने के लिए नहीं।" },
+        "b": { "en": "The stomach is part of the digestive system and helps break down food; it has no role in pumping blood.", "hi": "आमाशय पाचन तंत्र का हिस्सा है और भोजन को तोड़ने में मदद करता है; रक्त पंप करने में इसकी कोई भूमिका नहीं है।" },
+        "d": { "en": "The liver performs functions like processing nutrients and filtering toxins from blood, but it does not pump blood.", "hi": "यकृत पोषक तत्वों को संसाधित करने और रक्त से विषैले पदार्थों को छानने जैसे कार्य करता है, लेकिन यह रक्त पंप नहीं करता।" }
+      }
+    },
+    {
+      "key": "bank-sci9-general-04",
+      "difficulty": "EASY",
+      "content": { "en": "In most plants, which part is mainly responsible for absorbing water and minerals from the soil?", "hi": "अधिकांश पौधों में, मिट्टी से जल और खनिज अवशोषित करने के लिए मुख्य रूप से कौन-सा भाग जिम्मेदार है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Leaf", "hi": "पत्ती" } },
+        { "id": "b", "text": { "en": "Flower", "hi": "फूल" } },
+        { "id": "c", "text": { "en": "Stem", "hi": "तना" } },
+        { "id": "d", "text": { "en": "Root", "hi": "जड़" } }
+      ],
+      "correctOption": "d",
+      "explanation": { "en": "Roots grow into the soil and absorb water and dissolved minerals, which are then transported upward through the plant.", "hi": "जड़ें मिट्टी में बढ़ती हैं और जल तथा घुले हुए खनिजों को अवशोषित करती हैं, जिन्हें बाद में पौधे में ऊपर की ओर पहुँचाया जाता है।" },
+      "distractorAnalysis": {
+        "a": { "en": "Leaves are mainly the site of photosynthesis and transpiration (loss of water vapor), not absorption of water from soil.", "hi": "पत्तियाँ मुख्य रूप से प्रकाश संश्लेषण और वाष्पोत्सर्जन (जल वाष्प की हानि) का स्थान हैं, मिट्टी से जल अवशोषण का नहीं।" },
+        "b": { "en": "The flower is the reproductive part of a plant and plays no role in absorbing water from the soil.", "hi": "फूल पौधे का प्रजनन भाग है और मिट्टी से जल अवशोषित करने में इसकी कोई भूमिका नहीं है।" },
+        "c": { "en": "The stem mainly transports water and nutrients between roots and leaves and provides support; it does not absorb water from soil directly.", "hi": "तना मुख्य रूप से जड़ों और पत्तियों के बीच जल और पोषक तत्वों का परिवहन करता है और सहारा देता है; यह सीधे मिट्टी से जल अवशोषित नहीं करता।" }
+      }
+    },
+    {
+      "key": "bank-sci9-general-05",
+      "difficulty": "EASY",
+      "content": { "en": "Under normal conditions in a single uniform medium (like air), light travels in a", "hi": "सामान्य परिस्थितियों में एक ही समांगी माध्यम (जैसे वायु) में, प्रकाश किस प्रकार गमन करता है?" },
+      "options": [
+        { "id": "a", "text": { "en": "straight line", "hi": "सीधी रेखा में" } },
+        { "id": "b", "text": { "en": "circular path", "hi": "वृत्ताकार पथ में" } },
+        { "id": "c", "text": { "en": "zig-zag path", "hi": "टेढ़े-मेढ़े पथ में" } },
+        { "id": "d", "text": { "en": "only downward path", "hi": "केवल नीचे की ओर पथ में" } }
+      ],
+      "correctOption": "a",
+      "explanation": { "en": "Light travels in a straight line in a uniform medium, which explains phenomena such as the formation of shadows.", "hi": "समांगी माध्यम में प्रकाश सीधी रेखा में गमन करता है, यही कारण है कि छाया जैसी घटनाएँ बनती हैं।" },
+      "distractorAnalysis": {
+        "b": { "en": "A circular path would not produce sharp, well-defined shadows as commonly observed; light does not naturally curve this way in a uniform medium.", "hi": "वृत्ताकार पथ से सामान्यतः देखी जाने वाली स्पष्ट छायाएँ नहीं बन पातीं; समांगी माध्यम में प्रकाश स्वाभाविक रूप से इस तरह नहीं मुड़ता।" },
+        "c": { "en": "A zig-zag path is not how light behaves in a single uniform medium; this misconception ignores how straight shadows and beams form.", "hi": "टेढ़ा-मेढ़ा पथ यह नहीं बताता कि एक समांगी माध्यम में प्रकाश कैसे व्यवहार करता है; यह गलत धारणा सीधी छायाओं और किरणों के बनने की व्याख्या नहीं करती।" },
+        "d": { "en": "Light does not travel only downward — it can travel in any straight direction from its source, including sideways or upward.", "hi": "प्रकाश केवल नीचे की ओर ही नहीं चलता — यह अपने स्रोत से किसी भी सीधी दिशा में जा सकता है, जिसमें बगल या ऊपर की दिशा भी शामिल है।" }
+      }
+    },
+    {
+      "key": "bank-sci9-general-06",
+      "difficulty": "EASY",
+      "content": { "en": "A see-saw (a rigid bar that turns around a fixed point to lift a load) is an example of which simple machine?", "hi": "सी-सॉ (एक कठोर छड़ जो एक स्थिर बिंदु के चारों ओर घूमकर भार उठाती है) किस सरल मशीन का उदाहरण है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Wedge", "hi": "पच्चर" } },
+        { "id": "b", "text": { "en": "Lever", "hi": "उत्तोलक (लीवर)" } },
+        { "id": "c", "text": { "en": "Wheel and axle", "hi": "पहिया और धुरी" } },
+        { "id": "d", "text": { "en": "Screw", "hi": "पेंच" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "A lever is a rigid bar that pivots around a fixed point called a fulcrum, used to lift loads with less effort; a see-saw is a classic example.", "hi": "उत्तोलक (लीवर) एक कठोर छड़ है जो आधार बिंदु (फल्क्रम) नामक एक स्थिर बिंदु के चारों ओर घूमती है, जिसका उपयोग कम बल से भार उठाने के लिए किया जाता है; सी-सॉ इसका एक सामान्य उदाहरण है।" },
+      "distractorAnalysis": {
+        "a": { "en": "A wedge is a device with a thin edge used to split or cut things by concentrating force, not a pivoting bar for lifting loads.", "hi": "पच्चर एक पतली धार वाला उपकरण है जिसका उपयोग बल को केंद्रित करके किसी चीज़ को काटने या विभाजित करने के लिए किया जाता है, यह भार उठाने वाली घूमने वाली छड़ नहीं है।" },
+        "c": { "en": "A wheel and axle involves a wheel attached to a rod that rotates together, like a doorknob or steering wheel, which is different from a pivoting bar.", "hi": "पहिया और धुरी में एक पहिया एक छड़ से जुड़ा होता है जो साथ में घूमता है, जैसे दरवाज़े की घुंडी या स्टीयरिंग व्हील, यह घूमने वाली छड़ से अलग है।" },
+        "d": { "en": "A screw converts rotational motion into linear motion along a spiral thread, unlike a lever that pivots around a fixed point.", "hi": "पेंच घूर्णी गति को एक सर्पिल धागे के साथ रैखिक गति में बदलता है, यह उस उत्तोलक से अलग है जो एक स्थिर बिंदु के चारों ओर घूमता है।" }
+      }
+    },
+    {
+      "key": "bank-sci9-general-07",
+      "difficulty": "EASY",
+      "content": { "en": "Which force pulls objects toward the Earth, causing a dropped ball to fall downward?", "hi": "कौन-सा बल वस्तुओं को पृथ्वी की ओर खींचता है, जिसके कारण गिरायी गई गेंद नीचे की ओर गिरती है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Frictional force", "hi": "घर्षण बल" } },
+        { "id": "b", "text": { "en": "Electric force", "hi": "विद्युत बल" } },
+        { "id": "c", "text": { "en": "Gravitational force", "hi": "गुरुत्वाकर्षण बल" } },
+        { "id": "d", "text": { "en": "Magnetic force", "hi": "चुंबकीय बल" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "Gravity is the force of attraction that the Earth exerts on objects, pulling them toward its center, which causes unsupported objects to fall downward.", "hi": "गुरुत्वाकर्षण वह आकर्षण बल है जो पृथ्वी वस्तुओं पर लगाती है और उन्हें अपने केंद्र की ओर खींचती है, जिसके कारण बिना सहारे वाली वस्तुएँ नीचे गिरती हैं।" },
+      "distractorAnalysis": {
+        "a": { "en": "Friction acts between surfaces in contact and opposes relative motion; it does not pull a falling object downward through the air.", "hi": "घर्षण संपर्क में आने वाली सतहों के बीच कार्य करता है और सापेक्ष गति का विरोध करता है; यह हवा में गिरती हुई वस्तु को नीचे नहीं खींचता।" },
+        "b": { "en": "Electric force acts between charged objects, not between ordinary uncharged objects and the Earth in everyday falling.", "hi": "विद्युत बल आवेशित वस्तुओं के बीच कार्य करता है, सामान्य दैनिक गिरने की घटनाओं में सामान्य निर्विद्युत वस्तुओं और पृथ्वी के बीच नहीं।" },
+        "d": { "en": "Magnetic force acts specifically between magnets or magnetic materials like iron, not on all falling objects such as a plastic ball.", "hi": "चुंबकीय बल विशेष रूप से चुंबकों या लोहे जैसी चुंबकीय वस्तुओं के बीच कार्य करता है, यह प्लास्टिक की गेंद जैसी सभी गिरने वाली वस्तुओं पर लागू नहीं होता।" }
+      }
+    },
+    {
+      "key": "bank-sci9-general-08",
+      "difficulty": "EASY",
+      "content": { "en": "Ice, water, and water vapor are three different examples of which three states of matter respectively?", "hi": "बर्फ, पानी और जलवाष्प क्रमशः पदार्थ की किन तीन अवस्थाओं के उदाहरण हैं?" },
+      "options": [
+        { "id": "a", "text": { "en": "Liquid, gas, solid", "hi": "द्रव, गैस, ठोस" } },
+        { "id": "b", "text": { "en": "Gas, solid, liquid", "hi": "गैस, ठोस, द्रव" } },
+        { "id": "c", "text": { "en": "Solid, gas, liquid", "hi": "ठोस, गैस, द्रव" } },
+        { "id": "d", "text": { "en": "Solid, liquid, gas", "hi": "ठोस, द्रव, गैस" } }
+      ],
+      "correctOption": "d",
+      "explanation": { "en": "Ice is the solid state of water, liquid water is the liquid state, and water vapor is the gaseous state — the three common states of matter.", "hi": "बर्फ जल की ठोस अवस्था है, तरल जल द्रव अवस्था है, और जलवाष्प गैसीय अवस्था है — ये पदार्थ की तीन सामान्य अवस्थाएँ हैं।" },
+      "distractorAnalysis": {
+        "a": { "en": "This swaps the order so ice would be called a liquid, which contradicts its rigid, fixed shape typical of a solid.", "hi": "यह क्रम बदल देता है जिससे बर्फ को द्रव कहा जाएगा, जो इसके ठोस के विशिष्ट कठोर, निश्चित आकार के विपरीत है।" },
+        "b": { "en": "This assigns 'gas' to ice, which is incorrect since ice has a fixed shape and volume, unlike a gas which has neither.", "hi": "यह बर्फ को 'गैस' बताता है, जो गलत है क्योंकि बर्फ का निश्चित आकार और आयतन होता है, जबकि गैस का न तो आकार होता है न आयतन।" },
+        "c": { "en": "This assigns 'gas' to water (liquid), which is incorrect since liquid water takes the shape of its container but has a fixed volume, unlike a gas.", "hi": "यह पानी (द्रव) को 'गैस' बताता है, जो गलत है क्योंकि तरल पानी अपने पात्र का आकार लेता है लेकिन उसका आयतन निश्चित होता है, गैस के विपरीत।" }
+      }
+    },
+    {
+      "key": "bank-sci9-general-09",
+      "difficulty": "EASY",
+      "content": { "en": "Which of these common substances tastes sour and is a well-known example of a mild acid?", "hi": "इनमें से कौन-सा सामान्य पदार्थ स्वाद में खट्टा होता है और एक हल्के अम्ल का प्रसिद्ध उदाहरण है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Lemon juice", "hi": "नींबू का रस" } },
+        { "id": "b", "text": { "en": "Baking soda solution", "hi": "बेकिंग सोडा का घोल" } },
+        { "id": "c", "text": { "en": "Soap solution", "hi": "साबुन का घोल" } },
+        { "id": "d", "text": { "en": "Plain water", "hi": "सादा पानी" } }
+      ],
+      "correctOption": "a",
+      "explanation": { "en": "Lemon juice contains citric acid, giving it a sour taste; it is a commonly cited example of a mild natural acid.", "hi": "नींबू के रस में साइट्रिक अम्ल होता है, जो इसे खट्टा स्वाद देता है; यह एक हल्के प्राकृतिक अम्ल का सामान्य उदाहरण है।" },
+      "distractorAnalysis": {
+        "b": { "en": "Baking soda solution is basic (alkaline), not acidic, and tastes bitter rather than sour.", "hi": "बेकिंग सोडा का घोल क्षारीय (बेस) होता है, अम्लीय नहीं, और इसका स्वाद खट्टा नहीं बल्कि कड़वा होता है।" },
+        "c": { "en": "Soap solution is also basic in nature and feels slippery, unlike the sour taste of an acid.", "hi": "साबुन का घोल भी प्रकृति में क्षारीय होता है और छूने में फिसलन भरा लगता है, अम्ल के खट्टे स्वाद के विपरीत।" },
+        "d": { "en": "Plain water is neutral, being neither acidic nor basic, and has no sour taste.", "hi": "सादा पानी उदासीन होता है, न तो अम्लीय होता है न क्षारीय, और इसका कोई खट्टा स्वाद नहीं होता।" }
+      }
+    },
+    {
+      "key": "bank-sci9-general-10",
+      "difficulty": "EASY",
+      "content": { "en": "When ice (a solid) is heated and turns into water (a liquid), this process is called", "hi": "जब बर्फ (ठोस) को गर्म किया जाता है और वह पानी (द्रव) में बदल जाती है, तो इस प्रक्रिया को क्या कहते हैं?" },
+      "options": [
+        { "id": "a", "text": { "en": "Condensation", "hi": "संघनन" } },
+        { "id": "b", "text": { "en": "Melting", "hi": "गलन" } },
+        { "id": "c", "text": { "en": "Freezing", "hi": "हिमीकरण" } },
+        { "id": "d", "text": { "en": "Evaporation", "hi": "वाष्पीकरण" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "Melting is the change of state from solid to liquid that occurs when a solid substance is heated, such as ice turning into water.", "hi": "गलन ठोस से द्रव अवस्था में होने वाला परिवर्तन है, जो तब होता है जब किसी ठोस पदार्थ को गर्म किया जाता है, जैसे बर्फ का पानी में बदलना।" },
+      "distractorAnalysis": {
+        "a": { "en": "Condensation is a gas turning into a liquid, such as water vapor turning into water droplets, which is unrelated to ice turning into water.", "hi": "संघनन गैस का द्रव में बदलना है, जैसे जलवाष्प का पानी की बूंदों में बदलना, जिसका बर्फ के पानी में बदलने से कोई संबंध नहीं है।" },
+        "c": { "en": "Freezing is the reverse process — a liquid turning into a solid on cooling (like water turning into ice), not solid turning into liquid.", "hi": "हिमीकरण इसके विपरीत प्रक्रिया है — ठंडा करने पर द्रव का ठोस में बदलना (जैसे पानी का बर्फ में बदलना), न कि ठोस का द्रव में बदलना।" },
+        "d": { "en": "Evaporation is a liquid turning into a gas/vapor, such as water turning into water vapor, not a solid turning into a liquid.", "hi": "वाष्पीकरण द्रव का गैस/वाष्प में बदलना है, जैसे पानी का जलवाष्प में बदलना, न कि ठोस का द्रव में बदलना।" }
+      }
+    },
+    {
+      "key": "bank-sci9-general-11",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Which of these structures is typically present in a plant cell but absent in an animal cell?", "hi": "इनमें से कौन-सी संरचना सामान्यतः पादप कोशिका में पाई जाती है लेकिन जंतु कोशिका में नहीं?" },
+      "options": [
+        { "id": "a", "text": { "en": "Cell membrane", "hi": "कोशिका झिल्ली" } },
+        { "id": "b", "text": { "en": "Cytoplasm", "hi": "कोशिकाद्रव्य" } },
+        { "id": "c", "text": { "en": "Cell wall", "hi": "कोशिका भित्ति" } },
+        { "id": "d", "text": { "en": "Nucleus", "hi": "केंद्रक" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "Plant cells have a rigid cell wall (made mainly of cellulose) surrounding the cell membrane, which provides structural support; animal cells lack this cell wall.", "hi": "पादप कोशिकाओं में कोशिका झिल्ली के चारों ओर एक कठोर कोशिका भित्ति (मुख्यतः सेल्युलोज़ से बनी) होती है, जो संरचनात्मक सहारा देती है; जंतु कोशिकाओं में यह कोशिका भित्ति नहीं होती।" },
+      "distractorAnalysis": {
+        "a": { "en": "Both plant and animal cells have a cell membrane enclosing their contents; it is common to both, not unique to plants.", "hi": "पादप और जंतु दोनों कोशिकाओं में कोशिका झिल्ली होती है जो उनकी सामग्री को घेरे रहती है; यह दोनों में समान है, पादप के लिए विशिष्ट नहीं।" },
+        "b": { "en": "Cytoplasm, the jelly-like substance filling the cell, is present in both plant and animal cells, not unique to plants.", "hi": "कोशिकाद्रव्य, कोशिका को भरने वाला जेली जैसा पदार्थ, पादप और जंतु दोनों कोशिकाओं में मौजूद होता है, यह पादप के लिए विशिष्ट नहीं।" },
+        "d": { "en": "Both plant and animal cells (in most cases) have a nucleus that contains genetic material; it is not unique to plant cells.", "hi": "पादप और जंतु दोनों कोशिकाओं में (अधिकांश मामलों में) केंद्रक होता है जिसमें आनुवंशिक पदार्थ होता है; यह पादप कोशिकाओं के लिए विशिष्ट नहीं है।" }
+      }
+    },
+    {
+      "key": "bank-sci9-general-12",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Tiny pores mostly found on the surface of leaves, which allow gases to move in and out and also let water vapor escape, are called", "hi": "पत्तियों की सतह पर पाए जाने वाले छोटे-छोटे छिद्र, जो गैसों को अंदर-बाहर आने-जाने देते हैं और जलवाष्प को भी बाहर निकलने देते हैं, क्या कहलाते हैं?" },
+      "options": [
+        { "id": "a", "text": { "en": "Xylem", "hi": "जाइलम" } },
+        { "id": "b", "text": { "en": "Phloem", "hi": "फ्लोएम" } },
+        { "id": "c", "text": { "en": "Chloroplast", "hi": "हरितलवक (क्लोरोप्लास्ट)" } },
+        { "id": "d", "text": { "en": "Stomata", "hi": "रंध्र (स्टोमेटा)" } }
+      ],
+      "correctOption": "d",
+      "explanation": { "en": "Stomata are small pores, usually on the underside of leaves, that allow exchange of gases (like carbon dioxide and oxygen) and release of water vapor during transpiration.", "hi": "रंध्र छोटे-छोटे छिद्र होते हैं, जो आमतौर पर पत्तियों की निचली सतह पर होते हैं, जो गैसों (जैसे कार्बन डाइऑक्साइड और ऑक्सीजन) के आदान-प्रदान और वाष्पोत्सर्जन के दौरान जलवाष्प के निकलने की अनुमति देते हैं।" },
+      "distractorAnalysis": {
+        "a": { "en": "Xylem is a plant tissue that transports water and minerals upward from roots; it is an internal tissue, not a surface pore for gas exchange.", "hi": "जाइलम एक पादप ऊतक है जो जड़ों से जल और खनिजों को ऊपर की ओर पहुँचाता है; यह एक आंतरिक ऊतक है, गैस विनिमय के लिए सतही छिद्र नहीं।" },
+        "b": { "en": "Phloem is a plant tissue that transports food (made during photosynthesis) to different parts of the plant; it is internal tissue, not a leaf-surface pore.", "hi": "फ्लोएम एक पादप ऊतक है जो (प्रकाश संश्लेषण के दौरान बने) भोजन को पौधे के विभिन्न भागों तक पहुँचाता है; यह आंतरिक ऊतक है, पत्ती की सतह पर छिद्र नहीं।" },
+        "c": { "en": "A chloroplast is a cell structure containing chlorophyll where photosynthesis occurs; it is inside cells, not a pore on the leaf surface.", "hi": "हरितलवक एक कोशिका संरचना है जिसमें क्लोरोफिल होता है और जहाँ प्रकाश संश्लेषण होता है; यह कोशिकाओं के अंदर होता है, पत्ती की सतह पर छिद्र नहीं।" }
+      }
+    },
+    {
+      "key": "bank-sci9-general-13",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Which component of human blood is mainly responsible for carrying oxygen to different parts of the body?", "hi": "मानव रक्त का कौन-सा घटक शरीर के विभिन्न भागों तक ऑक्सीजन पहुँचाने के लिए मुख्य रूप से जिम्मेदार है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Red blood cells", "hi": "लाल रक्त कोशिकाएँ" } },
+        { "id": "b", "text": { "en": "White blood cells", "hi": "श्वेत रक्त कोशिकाएँ" } },
+        { "id": "c", "text": { "en": "Platelets", "hi": "प्लेटलेट्स" } },
+        { "id": "d", "text": { "en": "Plasma", "hi": "प्लाज़्मा" } }
+      ],
+      "correctOption": "a",
+      "explanation": { "en": "Red blood cells contain a protein called hemoglobin, which binds to oxygen in the lungs and carries it to tissues throughout the body.", "hi": "लाल रक्त कोशिकाओं में हीमोग्लोबिन नामक प्रोटीन होता है, जो फेफड़ों में ऑक्सीजन से जुड़ता है और उसे पूरे शरीर के ऊतकों तक पहुँचाता है।" },
+      "distractorAnalysis": {
+        "b": { "en": "White blood cells are mainly involved in defending the body against infections and diseases, not in carrying oxygen.", "hi": "श्वेत रक्त कोशिकाएँ मुख्य रूप से शरीर को संक्रमण और बीमारियों से बचाने में शामिल होती हैं, ऑक्सीजन पहुँचाने में नहीं।" },
+        "c": { "en": "Platelets mainly help in blood clotting to stop bleeding; they do not carry oxygen.", "hi": "प्लेटलेट्स मुख्य रूप से रक्तस्राव रोकने के लिए रक्त का थक्का बनाने में मदद करते हैं; वे ऑक्सीजन नहीं पहुँचाते।" },
+        "d": { "en": "Plasma is the liquid part of blood that carries cells, nutrients, and other substances, but oxygen transport specifically relies on hemoglobin in red blood cells, not plasma itself.", "hi": "प्लाज़्मा रक्त का तरल भाग है जो कोशिकाओं, पोषक तत्वों और अन्य पदार्थों को ले जाता है, लेकिन ऑक्सीजन का परिवहन विशेष रूप से लाल रक्त कोशिकाओं के हीमोग्लोबिन पर निर्भर करता है, अकेले प्लाज़्मा पर नहीं।" }
+      }
+    },
+    {
+      "key": "bank-sci9-general-14",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Which organs mainly filter waste products from the blood and help form urine?", "hi": "कौन-से अंग मुख्य रूप से रक्त से अपशिष्ट पदार्थों को छानते हैं और मूत्र बनाने में मदद करते हैं?" },
+      "options": [
+        { "id": "a", "text": { "en": "Small intestine", "hi": "छोटी आंत" } },
+        { "id": "b", "text": { "en": "Kidneys", "hi": "वृक्क (किडनी)" } },
+        { "id": "c", "text": { "en": "Lungs", "hi": "फेफड़े" } },
+        { "id": "d", "text": { "en": "Liver", "hi": "यकृत" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "The kidneys filter waste products and excess substances from the blood, forming urine, which is part of the body's excretory system.", "hi": "वृक्क रक्त से अपशिष्ट पदार्थों और अतिरिक्त पदार्थों को छानते हैं और मूत्र बनाते हैं, जो शरीर के उत्सर्जन तंत्र का हिस्सा है।" },
+      "distractorAnalysis": {
+        "a": { "en": "The small intestine is mainly involved in digestion and absorption of nutrients from food, not in filtering blood to form urine.", "hi": "छोटी आंत मुख्य रूप से भोजन से पोषक तत्वों के पाचन और अवशोषण में शामिल होती है, रक्त को छानकर मूत्र बनाने में नहीं।" },
+        "c": { "en": "Lungs remove carbon dioxide gas through breathing, but they do not filter blood to form urine.", "hi": "फेफड़े श्वसन के माध्यम से कार्बन डाइऑक्साइड गैस को बाहर निकालते हैं, लेकिन वे मूत्र बनाने के लिए रक्त को नहीं छानते।" },
+        "d": { "en": "The liver processes nutrients and breaks down toxins, but urine formation from filtering blood is specifically a kidney function.", "hi": "यकृत पोषक तत्वों को संसाधित करता है और विषैले पदार्थों को तोड़ता है, लेकिन रक्त को छानकर मूत्र बनाना विशेष रूप से वृक्क का कार्य है।" }
+      }
+    },
+    {
+      "key": "bank-sci9-general-15",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Which cell structure acts as the control center of the cell and contains most of the cell's genetic material?", "hi": "कोशिका की कौन-सी संरचना कोशिका के नियंत्रण केंद्र के रूप में कार्य करती है और इसमें कोशिका का अधिकांश आनुवंशिक पदार्थ होता है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Mitochondria", "hi": "माइटोकॉन्ड्रिया" } },
+        { "id": "b", "text": { "en": "Vacuole", "hi": "रिक्तिका" } },
+        { "id": "c", "text": { "en": "Nucleus", "hi": "केंद्रक" } },
+        { "id": "d", "text": { "en": "Cell membrane", "hi": "कोशिका झिल्ली" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "The nucleus contains the cell's genetic material (DNA) and directs the cell's activities, acting as its control center.", "hi": "केंद्रक में कोशिका का आनुवंशिक पदार्थ (DNA) होता है और यह कोशिका की गतिविधियों को निर्देशित करता है, इसके नियंत्रण केंद्र के रूप में कार्य करता है।" },
+      "distractorAnalysis": {
+        "a": { "en": "Mitochondria release energy for the cell's use, earning them the nickname 'powerhouse of the cell,' but they are not the main site of genetic control.", "hi": "माइटोकॉन्ड्रिया कोशिका के उपयोग के लिए ऊर्जा मुक्त करते हैं, इसीलिए इन्हें 'कोशिका का पावरहाउस' कहा जाता है, लेकिन ये आनुवंशिक नियंत्रण का मुख्य स्थान नहीं हैं।" },
+        "b": { "en": "A vacuole mainly stores water, nutrients, or waste in the cell; it does not act as the genetic control center.", "hi": "रिक्तिका मुख्य रूप से कोशिका में जल, पोषक तत्व या अपशिष्ट संग्रहीत करती है; यह आनुवंशिक नियंत्रण केंद्र के रूप में कार्य नहीं करती।" },
+        "d": { "en": "The cell membrane controls what enters and exits the cell, but it does not contain the genetic material or direct overall cell activities.", "hi": "कोशिका झिल्ली नियंत्रित करती है कि कोशिका में क्या प्रवेश करे और क्या बाहर निकले, लेकिन इसमें आनुवंशिक पदार्थ नहीं होता और यह समग्र कोशिका गतिविधियों को निर्देशित नहीं करती।" }
+      }
+    },
+    {
+      "key": "bank-sci9-general-16",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Which organ produces acid that helps break down food during digestion?", "hi": "कौन-सा अंग ऐसा अम्ल उत्पन्न करता है जो पाचन के दौरान भोजन को तोड़ने में मदद करता है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Lungs", "hi": "फेफड़े" } },
+        { "id": "b", "text": { "en": "Heart", "hi": "हृदय" } },
+        { "id": "c", "text": { "en": "Brain", "hi": "मस्तिष्क" } },
+        { "id": "d", "text": { "en": "Stomach", "hi": "आमाशय" } }
+      ],
+      "correctOption": "d",
+      "explanation": { "en": "The stomach produces gastric acid, which helps break down food and creates conditions suitable for digestive enzymes to act.", "hi": "आमाशय जठर अम्ल (गैस्ट्रिक एसिड) उत्पन्न करता है, जो भोजन को तोड़ने में मदद करता है और पाचन एंजाइमों के कार्य करने के लिए उपयुक्त परिस्थितियाँ बनाता है।" },
+      "distractorAnalysis": {
+        "a": { "en": "The lungs are involved in breathing and gas exchange; they play no role in producing acid for digestion.", "hi": "फेफड़े श्वसन और गैस विनिमय में शामिल होते हैं; पाचन के लिए अम्ल उत्पन्न करने में उनकी कोई भूमिका नहीं है।" },
+        "b": { "en": "The heart pumps blood around the body and has no role in producing digestive acid.", "hi": "हृदय शरीर में रक्त पंप करता है और पाचन अम्ल उत्पन्न करने में इसकी कोई भूमिका नहीं है।" },
+        "c": { "en": "The brain controls and coordinates body activities through nerve signals but does not itself produce digestive acid.", "hi": "मस्तिष्क तंत्रिका संकेतों के माध्यम से शरीर की गतिविधियों को नियंत्रित और समन्वित करता है, लेकिन यह स्वयं पाचन अम्ल उत्पन्न नहीं करता।" }
+      }
+    },
+    {
+      "key": "bank-sci9-general-17",
+      "difficulty": "MEDIUM",
+      "content": { "en": "The force that opposes the relative motion between two surfaces in contact is called", "hi": "संपर्क में आने वाली दो सतहों के बीच सापेक्ष गति का विरोध करने वाला बल क्या कहलाता है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Friction", "hi": "घर्षण" } },
+        { "id": "b", "text": { "en": "Gravity", "hi": "गुरुत्वाकर्षण" } },
+        { "id": "c", "text": { "en": "Magnetism", "hi": "चुंबकत्व" } },
+        { "id": "d", "text": { "en": "Tension", "hi": "तनाव" } }
+      ],
+      "correctOption": "a",
+      "explanation": { "en": "Friction is the force that acts between two surfaces in contact and opposes their relative sliding motion.", "hi": "घर्षण वह बल है जो संपर्क में आने वाली दो सतहों के बीच कार्य करता है और उनकी सापेक्ष सरकने वाली गति का विरोध करता है।" },
+      "distractorAnalysis": {
+        "b": { "en": "Gravity is the force of attraction between masses, such as Earth pulling objects downward; it is unrelated to surface contact opposing sliding.", "hi": "गुरुत्वाकर्षण द्रव्यमानों के बीच आकर्षण बल है, जैसे पृथ्वी का वस्तुओं को नीचे खींचना; इसका सतह के संपर्क से सरकने का विरोध करने से कोई संबंध नहीं है।" },
+        "c": { "en": "Magnetism is a force associated with magnets and certain materials like iron; it does not describe the general resistance between any two sliding surfaces.", "hi": "चुंबकत्व चुंबकों और लोहे जैसी कुछ सामग्रियों से जुड़ा बल है; यह किन्हीं भी दो सरकने वाली सतहों के बीच सामान्य प्रतिरोध का वर्णन नहीं करता।" },
+        "d": { "en": "Tension is the pulling force transmitted through a stretched string or rope, not the resistance between two surfaces sliding against each other.", "hi": "तनाव किसी खिंची हुई डोरी या रस्सी के माध्यम से संचारित खींचने वाला बल है, न कि एक-दूसरे के विरुद्ध सरकने वाली दो सतहों के बीच का प्रतिरोध।" }
+      }
+    },
+    {
+      "key": "bank-sci9-general-18",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Sound cannot travel through a vacuum (completely empty space) because sound needs", "hi": "ध्वनि निर्वात (पूर्णतः खाली स्थान) से होकर नहीं गुजर सकती क्योंकि ध्वनि को इसकी आवश्यकता होती है" },
+      "options": [
+        { "id": "a", "text": { "en": "complete darkness", "hi": "पूर्ण अंधकार" } },
+        { "id": "b", "text": { "en": "a material medium to travel through", "hi": "यात्रा करने के लिए एक भौतिक माध्यम" } },
+        { "id": "c", "text": { "en": "light to travel alongside it", "hi": "साथ चलने के लिए प्रकाश" } },
+        { "id": "d", "text": { "en": "a magnetic field", "hi": "एक चुंबकीय क्षेत्र" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "Sound travels as vibrations passed between particles of a medium (like air, water, or solids); with no particles present in a vacuum, sound cannot travel.", "hi": "ध्वनि किसी माध्यम (जैसे वायु, जल या ठोस) के कणों के बीच संचारित कंपन के रूप में यात्रा करती है; निर्वात में कोई कण न होने के कारण ध्वनि यात्रा नहीं कर सकती।" },
+      "distractorAnalysis": {
+        "a": { "en": "Darkness or light conditions have no effect on whether sound can travel; sound's requirement is a material medium, not the absence of light.", "hi": "अंधकार या प्रकाश की स्थिति का ध्वनि के यात्रा करने पर कोई प्रभाव नहीं पड़ता; ध्वनि की आवश्यकता एक भौतिक माध्यम है, प्रकाश की अनुपस्थिति नहीं।" },
+        "c": { "en": "Sound and light are different kinds of waves; light (an electromagnetic wave) can travel through a vacuum, but sound's inability to do so is not because it needs light alongside it.", "hi": "ध्वनि और प्रकाश अलग-अलग प्रकार की तरंगें हैं; प्रकाश (एक विद्युत-चुंबकीय तरंग) निर्वात से होकर गुजर सकता है, लेकिन ध्वनि का निर्वात में न चल पाना इस वजह से नहीं है कि उसे साथ में प्रकाश चाहिए।" },
+        "d": { "en": "Sound propagation does not depend on the presence of a magnetic field; it depends on the presence of particles of matter to vibrate.", "hi": "ध्वनि का प्रसार चुंबकीय क्षेत्र की उपस्थिति पर निर्भर नहीं करता; यह कंपन करने के लिए पदार्थ के कणों की उपस्थिति पर निर्भर करता है।" }
+      }
+    },
+    {
+      "key": "bank-sci9-general-19",
+      "difficulty": "MEDIUM",
+      "content": { "en": "For electric current to flow continuously through a circuit and light a bulb, the circuit must be", "hi": "विद्युत परिपथ में धारा को लगातार प्रवाहित होने और बल्ब जलाने के लिए, परिपथ का होना आवश्यक है" },
+      "options": [
+        { "id": "a", "text": { "en": "open at some point", "hi": "किसी बिंदु पर खुला" } },
+        { "id": "b", "text": { "en": "exposed to sunlight", "hi": "सूर्य के प्रकाश के संपर्क में" } },
+        { "id": "c", "text": { "en": "a complete, closed loop", "hi": "एक पूर्ण, बंद पथ (लूप)" } },
+        { "id": "d", "text": { "en": "made entirely of insulators", "hi": "पूरी तरह से कुचालकों से बना" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "Electric current flows only when the circuit forms a complete, closed path from the source, through the components, and back; a break anywhere stops the flow.", "hi": "विद्युत धारा तभी प्रवाहित होती है जब परिपथ स्रोत से घटकों से होते हुए वापस तक एक पूर्ण, बंद पथ बनाता है; कहीं भी टूटने पर प्रवाह रुक जाता है।" },
+      "distractorAnalysis": {
+        "a": { "en": "An open circuit (a break at some point) stops the flow of current, which is the opposite of what is needed to light a bulb continuously.", "hi": "खुला परिपथ (किसी बिंदु पर टूटा हुआ) धारा के प्रवाह को रोक देता है, जो बल्ब को लगातार जलाने के लिए आवश्यक स्थिति के विपरीत है।" },
+        "b": { "en": "Sunlight exposure has no role in whether a basic electric circuit with a battery and bulb functions; circuit completeness is what matters.", "hi": "सूर्य के प्रकाश के संपर्क में आने का बैटरी और बल्ब वाले सामान्य विद्युत परिपथ के काम करने से कोई संबंध नहीं है; परिपथ का पूर्ण होना ही महत्वपूर्ण है।" },
+        "d": { "en": "Insulators block the flow of electric current; a circuit made entirely of insulating material would not allow current to flow at all.", "hi": "कुचालक विद्युत धारा के प्रवाह को रोकते हैं; पूरी तरह से कुचालक पदार्थ से बना परिपथ धारा को बिल्कुल भी प्रवाहित नहीं होने देगा।" }
+      }
+    },
+    {
+      "key": "bank-sci9-general-20",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Materials like copper and aluminum, which allow electric current to pass through them easily, are called", "hi": "तांबा और एल्युमिनियम जैसे पदार्थ, जिनसे होकर विद्युत धारा आसानी से गुजर जाती है, क्या कहलाते हैं?" },
+      "options": [
+        { "id": "a", "text": { "en": "Insulators", "hi": "कुचालक" } },
+        { "id": "b", "text": { "en": "Semiconductors only", "hi": "केवल अर्धचालक" } },
+        { "id": "c", "text": { "en": "Magnets", "hi": "चुंबक" } },
+        { "id": "d", "text": { "en": "Conductors", "hi": "चालक" } }
+      ],
+      "correctOption": "d",
+      "explanation": { "en": "Conductors are materials, typically metals like copper and aluminum, that allow electric current to flow through them easily.", "hi": "चालक ऐसे पदार्थ होते हैं, आमतौर पर तांबा और एल्युमिनियम जैसी धातुएँ, जिनसे होकर विद्युत धारा आसानी से प्रवाहित हो जाती है।" },
+      "distractorAnalysis": {
+        "a": { "en": "Insulators are materials (like rubber or plastic) that resist or block the flow of electric current, the opposite behavior of copper and aluminum.", "hi": "कुचालक ऐसे पदार्थ (जैसे रबर या प्लास्टिक) होते हैं जो विद्युत धारा के प्रवाह को रोकते या बाधित करते हैं, यह तांबे और एल्युमिनियम के व्यवहार के विपरीत है।" },
+        "b": { "en": "Copper and aluminum are classified as good conductors, not semiconductors; semiconductors like silicon have conductivity between conductors and insulators.", "hi": "तांबा और एल्युमिनियम को अच्छे चालक के रूप में वर्गीकृत किया जाता है, अर्धचालक के रूप में नहीं; सिलिकॉन जैसे अर्धचालकों की चालकता चालक और कुचालक के बीच होती है।" },
+        "c": { "en": "Being a good electrical conductor is not the same as being a magnet; not all conductors (like aluminum) are magnetic materials.", "hi": "अच्छा विद्युत चालक होना चुंबक होने के समान नहीं है; सभी चालक (जैसे एल्युमिनियम) चुंबकीय पदार्थ नहीं होते।" }
+      }
+    },
+    {
+      "key": "bank-sci9-general-21",
+      "difficulty": "MEDIUM",
+      "content": { "en": "If a car covers a certain distance in a certain amount of time, its speed is calculated as", "hi": "यदि कोई कार एक निश्चित दूरी को एक निश्चित समय में तय करती है, तो उसकी चाल की गणना की जाती है" },
+      "options": [
+        { "id": "a", "text": { "en": "distance divided by time", "hi": "दूरी को समय से भाग देकर" } },
+        { "id": "b", "text": { "en": "time divided by distance", "hi": "समय को दूरी से भाग देकर" } },
+        { "id": "c", "text": { "en": "distance multiplied by time", "hi": "दूरी को समय से गुणा करके" } },
+        { "id": "d", "text": { "en": "distance minus time", "hi": "दूरी में से समय घटाकर" } }
+      ],
+      "correctOption": "a",
+      "explanation": { "en": "Speed is defined as the distance traveled divided by the time taken to travel that distance.", "hi": "चाल को तय की गई दूरी को उस दूरी को तय करने में लगे समय से भाग देकर परिभाषित किया जाता है।" },
+      "distractorAnalysis": {
+        "b": { "en": "This inverts the correct relationship; time divided by distance gives a different quantity, not speed as it is conventionally defined.", "hi": "यह सही संबंध को उलट देता है; समय को दूरी से भाग देने पर एक अलग राशि मिलती है, यह चाल नहीं है जैसा कि इसे परंपरागत रूप से परिभाषित किया जाता है।" },
+        "c": { "en": "Multiplying distance by time does not give speed; this combination does not match the standard definition used in basic motion problems.", "hi": "दूरी को समय से गुणा करने पर चाल नहीं मिलती; यह संयोजन गति की मूलभूत समस्याओं में उपयोग की जाने वाली मानक परिभाषा से मेल नहीं खाता।" },
+        "d": { "en": "Subtracting time from distance mixes two different types of quantities (length and time) in a way that does not correspond to any meaningful physical quantity like speed.", "hi": "दूरी में से समय घटाना दो अलग-अलग प्रकार की राशियों (लंबाई और समय) को इस तरह मिलाता है जो चाल जैसी किसी सार्थक भौतिक राशि से मेल नहीं खाता।" }
+      }
+    },
+    {
+      "key": "bank-sci9-general-22",
+      "difficulty": "MEDIUM",
+      "content": { "en": "A ramp used to push a heavy box up to a higher level, instead of lifting it straight up, is an example of which simple machine?", "hi": "किसी भारी बक्से को सीधे ऊपर उठाने के बजाय ऊँचे स्तर तक धकेलने के लिए उपयोग की जाने वाली ढलान (रैंप) किस सरल मशीन का उदाहरण है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Gear", "hi": "गियर" } },
+        { "id": "b", "text": { "en": "Inclined plane", "hi": "नततल (ढलान)" } },
+        { "id": "c", "text": { "en": "Pulley", "hi": "घिरनी" } },
+        { "id": "d", "text": { "en": "Wheel and axle", "hi": "पहिया और धुरी" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "An inclined plane is a flat sloped surface that allows a load to be raised to a height using a smaller force applied over a longer distance, compared to lifting it straight up.", "hi": "नततल एक सपाट ढलान वाली सतह है, जो सीधे ऊपर उठाने की तुलना में लंबी दूरी पर कम बल लगाकर भार को किसी ऊँचाई तक पहुँचाने की अनुमति देती है।" },
+      "distractorAnalysis": {
+        "a": { "en": "A gear is a toothed wheel that meshes with another to transmit rotational motion and force, not a flat sloped surface for pushing loads upward.", "hi": "गियर एक दांतेदार पहिया है जो घूर्णी गति और बल संचारित करने के लिए दूसरे पहिये से जुड़ता है, यह भार को ऊपर धकेलने के लिए सपाट ढलान वाली सतह नहीं है।" },
+        "c": { "en": "A pulley uses a grooved wheel and a rope or chain to lift loads, typically by changing the direction of the applied force, which is different from pushing something up a sloped surface.", "hi": "घिरनी एक खांचेदार पहिये और रस्सी या चेन का उपयोग करके भार उठाती है, आमतौर पर लगाए गए बल की दिशा बदलकर, यह ढलान वाली सतह पर किसी चीज़ को धकेलने से अलग है।" },
+        "d": { "en": "A wheel and axle involves a wheel fixed to a rod that rotates together to move or lift things, unlike a flat sloped surface used for pushing a load upward.", "hi": "पहिया और धुरी में एक पहिया एक छड़ से जुड़ा होता है जो साथ में घूमकर चीज़ों को हिलाता या उठाता है, यह भार को ऊपर धकेलने के लिए सपाट ढलान वाली सतह से अलग है।" }
+      }
+    },
+    {
+      "key": "bank-sci9-general-23",
+      "difficulty": "MEDIUM",
+      "content": { "en": "A substance made of only one type of atom, which cannot be broken down into simpler substances by ordinary chemical methods, is called", "hi": "एक ऐसा पदार्थ जो केवल एक ही प्रकार के परमाणुओं से बना होता है और जिसे सामान्य रासायनिक विधियों से सरल पदार्थों में विभाजित नहीं किया जा सकता, क्या कहलाता है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Mixture", "hi": "मिश्रण" } },
+        { "id": "b", "text": { "en": "Solution", "hi": "विलयन" } },
+        { "id": "c", "text": { "en": "Element", "hi": "तत्व" } },
+        { "id": "d", "text": { "en": "Compound", "hi": "यौगिक" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "An element is a pure substance made of only one type of atom and cannot be broken down into simpler substances by ordinary chemical reactions, e.g., oxygen or iron.", "hi": "तत्व एक शुद्ध पदार्थ है जो केवल एक ही प्रकार के परमाणुओं से बना होता है और सामान्य रासायनिक अभिक्रियाओं द्वारा इसे सरल पदार्थों में विभाजित नहीं किया जा सकता, जैसे ऑक्सीजन या लोहा।" },
+      "distractorAnalysis": {
+        "a": { "en": "A mixture contains two or more substances that are physically combined (not chemically bonded) and can be separated by physical methods; it is not made of only one type of atom.", "hi": "मिश्रण में दो या दो से अधिक पदार्थ भौतिक रूप से मिले होते हैं (रासायनिक रूप से बंधे नहीं) और इन्हें भौतिक विधियों से अलग किया जा सकता है; यह केवल एक प्रकार के परमाणुओं से नहीं बना होता।" },
+        "b": { "en": "A solution is a specific type of mixture where one substance is dissolved uniformly in another, such as salt in water; it is not a pure substance made of a single type of atom.", "hi": "विलयन एक विशेष प्रकार का मिश्रण है जिसमें एक पदार्थ दूसरे में समान रूप से घुला होता है, जैसे नमक का पानी में घुलना; यह एक ही प्रकार के परमाणुओं से बना शुद्ध पदार्थ नहीं है।" },
+        "d": { "en": "A compound is made of two or more different elements chemically combined in a fixed ratio, and it CAN be broken down into simpler substances (its constituent elements) by chemical means.", "hi": "यौगिक दो या दो से अधिक भिन्न तत्वों के एक निश्चित अनुपात में रासायनिक रूप से संयोजन से बनता है, और इसे रासायनिक विधियों से सरल पदार्थों (इसके घटक तत्वों) में विभाजित किया जा सकता है।" }
+      }
+    },
+    {
+      "key": "bank-sci9-general-24",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Water is a compound formed by the chemical combination of which two elements?", "hi": "पानी किन दो तत्वों के रासायनिक संयोजन से बना एक यौगिक है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Carbon and oxygen", "hi": "कार्बन और ऑक्सीजन" } },
+        { "id": "b", "text": { "en": "Nitrogen and hydrogen", "hi": "नाइट्रोजन और हाइड्रोजन" } },
+        { "id": "c", "text": { "en": "Hydrogen and nitrogen", "hi": "हाइड्रोजन और नाइट्रोजन" } },
+        { "id": "d", "text": { "en": "Hydrogen and oxygen", "hi": "हाइड्रोजन और ऑक्सीजन" } }
+      ],
+      "correctOption": "d",
+      "explanation": { "en": "Water is a compound made of hydrogen and oxygen atoms chemically bonded together, commonly represented as H2O.", "hi": "पानी हाइड्रोजन और ऑक्सीजन परमाणुओं के रासायनिक रूप से आपस में जुड़ने से बना एक यौगिक है, जिसे सामान्यतः H2O के रूप में दर्शाया जाता है।" },
+      "distractorAnalysis": {
+        "a": { "en": "Carbon and oxygen combine to form compounds like carbon dioxide, not water; carbon is not a constituent of the water molecule.", "hi": "कार्बन और ऑक्सीजन मिलकर कार्बन डाइऑक्साइड जैसे यौगिक बनाते हैं, पानी नहीं; कार्बन जल के अणु का घटक नहीं है।" },
+        "b": { "en": "Nitrogen and hydrogen combine to form ammonia, a different compound altogether, not water.", "hi": "नाइट्रोजन और हाइड्रोजन मिलकर अमोनिया बनाते हैं, जो पानी से पूरी तरह भिन्न यौगिक है।" },
+        "c": { "en": "Hydrogen and nitrogen together do not form water; this combination is associated with compounds like ammonia, and nitrogen is not part of the water molecule.", "hi": "हाइड्रोजन और नाइट्रोजन मिलकर पानी नहीं बनाते; यह संयोजन अमोनिया जैसे यौगिकों से जुड़ा है, और नाइट्रोजन जल के अणु का हिस्सा नहीं है।" }
+      }
+    },
+    {
+      "key": "bank-sci9-general-25",
+      "difficulty": "MEDIUM",
+      "content": { "en": "When blue litmus paper is dipped into an acidic solution, it typically turns", "hi": "जब नीले लिटमस पत्र को अम्लीय विलयन में डुबोया जाता है, तो यह आमतौर पर किस रंग में बदल जाता है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Red", "hi": "लाल" } },
+        { "id": "b", "text": { "en": "Green", "hi": "हरा" } },
+        { "id": "c", "text": { "en": "Yellow", "hi": "पीला" } },
+        { "id": "d", "text": { "en": "Stays blue", "hi": "नीला ही रहता है" } }
+      ],
+      "correctOption": "a",
+      "explanation": { "en": "Acidic solutions turn blue litmus paper red; this color change is a standard test used to identify acids.", "hi": "अम्लीय विलयन नीले लिटमस पत्र को लाल कर देते हैं; यह रंग परिवर्तन अम्लों की पहचान के लिए उपयोग किया जाने वाला एक मानक परीक्षण है।" },
+      "distractorAnalysis": {
+        "b": { "en": "Litmus paper does not turn green with acids or bases; green is not part of the standard red/blue litmus color-change test.", "hi": "लिटमस पत्र अम्ल या क्षार के साथ हरा नहीं होता; हरा रंग मानक लाल/नीला लिटमस रंग-परिवर्तन परीक्षण का हिस्सा नहीं है।" },
+        "c": { "en": "Litmus paper does not turn yellow; this is not the color change associated with the standard acid-base litmus test.", "hi": "लिटमस पत्र पीला नहीं होता; यह मानक अम्ल-क्षार लिटमस परीक्षण से जुड़ा रंग परिवर्तन नहीं है।" },
+        "d": { "en": "Blue litmus paper specifically changes to red in the presence of an acid; it does not remain blue, since remaining blue is the response expected with a basic or neutral solution instead.", "hi": "नीला लिटमस पत्र अम्ल की उपस्थिति में विशेष रूप से लाल हो जाता है; यह नीला नहीं रहता, क्योंकि नीला बने रहना क्षारीय या उदासीन विलयन के साथ अपेक्षित प्रतिक्रिया है।" }
+      }
+    },
+    {
+      "key": "bank-sci9-general-26",
+      "difficulty": "HARD",
+      "content": { "en": "Which cell organelle is mainly responsible for releasing energy from food during cellular respiration, earning it the nickname 'powerhouse of the cell'?", "hi": "कौन-सा कोशिकांग कोशिकीय श्वसन के दौरान भोजन से ऊर्जा मुक्त करने के लिए मुख्य रूप से जिम्मेदार है, जिसके कारण इसे 'कोशिका का पावरहाउस' कहा जाता है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Nucleus", "hi": "केंद्रक" } },
+        { "id": "b", "text": { "en": "Mitochondria", "hi": "माइटोकॉन्ड्रिया" } },
+        { "id": "c", "text": { "en": "Ribosome", "hi": "राइबोसोम" } },
+        { "id": "d", "text": { "en": "Golgi apparatus", "hi": "गॉल्जी उपकरण" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "Mitochondria carry out cellular respiration, breaking down food molecules to release energy that the cell can use, which is why they are called the powerhouse of the cell.", "hi": "माइटोकॉन्ड्रिया कोशिकीय श्वसन करते हैं, भोजन के अणुओं को तोड़कर ऐसी ऊर्जा मुक्त करते हैं जिसका उपयोग कोशिका कर सकती है, इसीलिए इन्हें कोशिका का पावरहाउस कहा जाता है।" },
+      "distractorAnalysis": {
+        "a": { "en": "The nucleus controls cell activities and holds genetic material, but the process of releasing energy from food through respiration mainly occurs in mitochondria, not the nucleus.", "hi": "केंद्रक कोशिका की गतिविधियों को नियंत्रित करता है और आनुवंशिक पदार्थ रखता है, लेकिन श्वसन के माध्यम से भोजन से ऊर्जा मुक्त करने की प्रक्रिया मुख्यतः माइटोकॉन्ड्रिया में होती है, केंद्रक में नहीं।" },
+        "c": { "en": "Ribosomes are the site of protein synthesis in the cell; they build proteins but do not carry out the main energy-releasing respiration process.", "hi": "राइबोसोम कोशिका में प्रोटीन संश्लेषण का स्थान हैं; वे प्रोटीन बनाते हैं लेकिन मुख्य ऊर्जा-मुक्त करने वाली श्वसन प्रक्रिया नहीं करते।" },
+        "d": { "en": "The Golgi apparatus modifies, packages, and transports proteins and other materials within the cell; it is not the main site of energy release from food.", "hi": "गॉल्जी उपकरण कोशिका के भीतर प्रोटीन और अन्य पदार्थों को संशोधित, पैक और परिवहन करता है; यह भोजन से ऊर्जा मुक्त करने का मुख्य स्थान नहीं है।" }
+      }
+    },
+    {
+      "key": "bank-sci9-general-27",
+      "difficulty": "HARD",
+      "content": { "en": "Besides giving the body its basic shape and support, which of the following is also a key function of the human skeletal system?", "hi": "शरीर को उसका मूल आकार और सहारा देने के अलावा, निम्नलिखित में से कौन-सा मानव कंकाल तंत्र का एक प्रमुख कार्य भी है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Producing digestive enzymes", "hi": "पाचन एंजाइम उत्पन्न करना" } },
+        { "id": "b", "text": { "en": "Carrying oxygen in the bloodstream", "hi": "रक्तप्रवाह में ऑक्सीजन ले जाना" } },
+        { "id": "c", "text": { "en": "Protecting internal organs, such as the brain and heart", "hi": "मस्तिष्क और हृदय जैसे आंतरिक अंगों की रक्षा करना" } },
+        { "id": "d", "text": { "en": "Pumping blood through the body", "hi": "शरीर में रक्त पंप करना" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "Along with support and movement, the skeletal system protects delicate internal organs — for example, the skull protects the brain and the rib cage protects the heart and lungs.", "hi": "सहारे और गति के साथ-साथ, कंकाल तंत्र नाजुक आंतरिक अंगों की रक्षा भी करता है — उदाहरण के लिए, खोपड़ी मस्तिष्क की रक्षा करती है और पसलियों का पिंजरा हृदय और फेफड़ों की रक्षा करता है।" },
+      "distractorAnalysis": {
+        "a": { "en": "Digestive enzymes are produced by organs like the stomach, pancreas, and small intestine, not by bones.", "hi": "पाचन एंजाइम आमाशय, अग्न्याशय और छोटी आंत जैसे अंगों द्वारा उत्पन्न किए जाते हैं, हड्डियों द्वारा नहीं।" },
+        "b": { "en": "Carrying oxygen in the blood is mainly done by red blood cells (via hemoglobin), which is a function of the circulatory/blood system, not the bones themselves.", "hi": "रक्त में ऑक्सीजन ले जाना मुख्यतः लाल रक्त कोशिकाओं (हीमोग्लोबिन के माध्यम से) द्वारा किया जाता है, यह परिसंचरण/रक्त तंत्र का कार्य है, स्वयं हड्डियों का नहीं।" },
+        "d": { "en": "Pumping blood is the function of the heart (a muscular organ), not the bones of the skeletal system.", "hi": "रक्त पंप करना हृदय (एक पेशीय अंग) का कार्य है, कंकाल तंत्र की हड्डियों का नहीं।" }
+      }
+    },
+    {
+      "key": "bank-sci9-general-28",
+      "difficulty": "HARD",
+      "content": { "en": "Which body system, made up of the brain, spinal cord, and nerves, is mainly responsible for coordinating and controlling body activities by sending and receiving signals?", "hi": "मस्तिष्क, मेरुरज्जु (स्पाइनल कॉर्ड) और तंत्रिकाओं से बना कौन-सा शरीर तंत्र संकेत भेजने और प्राप्त करने के द्वारा शरीर की गतिविधियों के समन्वय और नियंत्रण के लिए मुख्य रूप से जिम्मेदार है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Circulatory system", "hi": "परिसंचरण तंत्र" } },
+        { "id": "b", "text": { "en": "Digestive system", "hi": "पाचन तंत्र" } },
+        { "id": "c", "text": { "en": "Respiratory system", "hi": "श्वसन तंत्र" } },
+        { "id": "d", "text": { "en": "Nervous system", "hi": "तंत्रिका तंत्र" } }
+      ],
+      "correctOption": "d",
+      "explanation": { "en": "The nervous system, consisting of the brain, spinal cord, and nerves, coordinates body activities by transmitting electrical and chemical signals throughout the body.", "hi": "तंत्रिका तंत्र, जिसमें मस्तिष्क, मेरुरज्जु और तंत्रिकाएँ शामिल हैं, पूरे शरीर में विद्युत और रासायनिक संकेतों को प्रसारित करके शरीर की गतिविधियों का समन्वय करता है।" },
+      "distractorAnalysis": {
+        "a": { "en": "The circulatory system is made up of the heart, blood vessels, and blood, and is mainly responsible for transporting substances like oxygen and nutrients, not sending nerve signals.", "hi": "परिसंचरण तंत्र हृदय, रक्त वाहिकाओं और रक्त से मिलकर बना है, और मुख्य रूप से ऑक्सीजन और पोषक तत्वों जैसे पदार्थों के परिवहन के लिए जिम्मेदार है, तंत्रिका संकेत भेजने के लिए नहीं।" },
+        "b": { "en": "The digestive system, including organs like the stomach and intestines, is mainly responsible for breaking down food, not for coordinating body activities via nerve signals.", "hi": "पाचन तंत्र, जिसमें आमाशय और आंतों जैसे अंग शामिल हैं, मुख्य रूप से भोजन को तोड़ने के लिए जिम्मेदार है, तंत्रिका संकेतों के माध्यम से शरीर की गतिविधियों का समन्वय करने के लिए नहीं।" },
+        "c": { "en": "The respiratory system, including the lungs, is mainly responsible for gas exchange (taking in oxygen and releasing carbon dioxide), not for coordinating activities through the brain and nerves.", "hi": "श्वसन तंत्र, जिसमें फेफड़े शामिल हैं, मुख्य रूप से गैसों के आदान-प्रदान (ऑक्सीजन लेना और कार्बन डाइऑक्साइड छोड़ना) के लिए जिम्मेदार है, मस्तिष्क और तंत्रिकाओं के माध्यम से गतिविधियों का समन्वय करने के लिए नहीं।" }
+      }
+    },
+    {
+      "key": "bank-sci9-general-29",
+      "difficulty": "HARD",
+      "content": { "en": "Which of these statements correctly describes a typical difference between arteries and veins in the human body?", "hi": "निम्नलिखित में से कौन-सा कथन मानव शरीर में धमनियों और शिराओं के बीच एक सामान्य अंतर का सही वर्णन करता है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Arteries generally carry blood away from the heart, while veins generally carry blood toward the heart", "hi": "धमनियाँ आमतौर पर रक्त को हृदय से दूर ले जाती हैं, जबकि शिराएँ आमतौर पर रक्त को हृदय की ओर ले जाती हैं" } },
+        { "id": "b", "text": { "en": "Arteries generally carry blood toward the heart, while veins carry it away", "hi": "धमनियाँ आमतौर पर रक्त को हृदय की ओर ले जाती हैं, जबकि शिराएँ इसे दूर ले जाती हैं" } },
+        { "id": "c", "text": { "en": "Only arteries carry blood, veins carry only air", "hi": "केवल धमनियाँ रक्त ले जाती हैं, शिराएँ केवल हवा ले जाती हैं" } },
+        { "id": "d", "text": { "en": "Arteries and veins are two names for the exact same type of blood vessel", "hi": "धमनियाँ और शिराएँ रक्त वाहिका के एक ही प्रकार के दो नाम हैं" } }
+      ],
+      "correctOption": "a",
+      "explanation": { "en": "As a general rule, arteries carry blood away from the heart to the rest of the body, while veins carry blood back toward the heart.", "hi": "एक सामान्य नियम के रूप में, धमनियाँ रक्त को हृदय से शरीर के बाकी हिस्सों की ओर ले जाती हैं, जबकि शिराएँ रक्त को वापस हृदय की ओर लाती हैं।" },
+      "distractorAnalysis": {
+        "b": { "en": "This reverses the actual roles — arteries carry blood away from the heart, and veins carry it back toward the heart, not the other way around.", "hi": "यह वास्तविक भूमिकाओं को उलट देता है — धमनियाँ रक्त को हृदय से दूर ले जाती हैं, और शिराएँ इसे वापस हृदय की ओर लाती हैं, इसके विपरीत नहीं।" },
+        "c": { "en": "Veins carry blood, not air; both arteries and veins are blood vessels that transport blood, just in different directions relative to the heart.", "hi": "शिराएँ हवा नहीं, रक्त ले जाती हैं; धमनियाँ और शिराएँ दोनों रक्त वाहिकाएँ हैं जो रक्त का परिवहन करती हैं, बस हृदय के सापेक्ष अलग-अलग दिशाओं में।" },
+        "d": { "en": "Arteries and veins are distinct types of blood vessels with different structures and directions of blood flow; they are not simply two names for the same vessel.", "hi": "धमनियाँ और शिराएँ भिन्न संरचना और रक्त प्रवाह की दिशा वाली अलग-अलग प्रकार की रक्त वाहिकाएँ हैं; ये एक ही वाहिका के दो नाम मात्र नहीं हैं।" }
+      }
+    },
+    {
+      "key": "bank-sci9-general-30",
+      "difficulty": "HARD",
+      "content": { "en": "Chlorophyll, the green pigment in plant leaves, plays which key role in photosynthesis?", "hi": "पादप पत्तियों में पाया जाने वाला हरा वर्णक क्लोरोफिल, प्रकाश संश्लेषण में कौन-सी प्रमुख भूमिका निभाता है?" },
+      "options": [
+        { "id": "a", "text": { "en": "It protects the plant from insects", "hi": "यह पौधे को कीड़ों से बचाता है" } },
+        { "id": "b", "text": { "en": "It absorbs sunlight energy needed to drive the food-making process", "hi": "यह भोजन बनाने की प्रक्रिया के लिए आवश्यक सूर्य के प्रकाश की ऊर्जा को अवशोषित करता है" } },
+        { "id": "c", "text": { "en": "It absorbs water from the soil for the plant", "hi": "यह पौधे के लिए मिट्टी से जल अवशोषित करता है" } },
+        { "id": "d", "text": { "en": "It transports food to different parts of the plant", "hi": "यह भोजन को पौधे के विभिन्न भागों तक पहुँचाता है" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "Chlorophyll absorbs light energy from the sun, and this energy is used to drive the chemical reactions of photosynthesis that make food for the plant.", "hi": "क्लोरोफिल सूर्य से प्रकाश ऊर्जा अवशोषित करता है, और इस ऊर्जा का उपयोग प्रकाश संश्लेषण की रासायनिक अभिक्रियाओं को चलाने के लिए किया जाता है, जो पौधे के लिए भोजन बनाती हैं।" },
+      "distractorAnalysis": {
+        "a": { "en": "Chlorophyll's main role is capturing light energy for photosynthesis; protecting the plant from insects is not its function.", "hi": "क्लोरोफिल की मुख्य भूमिका प्रकाश संश्लेषण के लिए प्रकाश ऊर्जा ग्रहण करना है; पौधे को कीड़ों से बचाना इसका कार्य नहीं है।" },
+        "c": { "en": "Absorbing water from the soil is the job of the roots, not the chlorophyll pigment found in leaves.", "hi": "मिट्टी से जल अवशोषित करना जड़ों का काम है, पत्तियों में पाए जाने वाले क्लोरोफिल वर्णक का नहीं।" },
+        "d": { "en": "Transporting food to different parts of the plant is done by the phloem tissue, not by the chlorophyll pigment itself.", "hi": "पौधे के विभिन्न भागों तक भोजन पहुँचाना फ्लोएम ऊतक द्वारा किया जाता है, स्वयं क्लोरोफिल वर्णक द्वारा नहीं।" }
+      }
+    },
+    {
+      "key": "bank-sci9-general-31",
+      "difficulty": "HARD",
+      "content": { "en": "A book resting on a table stays at rest unless a force acts on it, and a rolling ball keeps rolling unless something like friction slows it down. This tendency of objects to resist changes in their state of motion is called", "hi": "मेज़ पर रखी एक किताब तब तक विराम में रहती है जब तक उस पर कोई बल न लगे, और लुढ़कती हुई गेंद तब तक लुढ़कती रहती है जब तक घर्षण जैसी कोई चीज़ उसे धीमा न करे। वस्तुओं की अपनी गति की अवस्था में परिवर्तन का विरोध करने की इस प्रवृत्ति को क्या कहते हैं?" },
+      "options": [
+        { "id": "a", "text": { "en": "Momentum only", "hi": "केवल संवेग" } },
+        { "id": "b", "text": { "en": "Acceleration", "hi": "त्वरण" } },
+        { "id": "c", "text": { "en": "Inertia", "hi": "जड़त्व" } },
+        { "id": "d", "text": { "en": "Gravity", "hi": "गुरुत्वाकर्षण" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "Inertia is the natural tendency of an object to resist any change in its state of rest or uniform motion, unless acted upon by an external force — this is described by Newton's first law of motion.", "hi": "जड़त्व किसी वस्तु की अपनी विराम या एकसमान गति की अवस्था में किसी भी परिवर्तन का विरोध करने की स्वाभाविक प्रवृत्ति है, जब तक कि उस पर कोई बाहरी बल न लगे — इसे न्यूटन के गति के पहले नियम द्वारा वर्णित किया जाता है।" },
+      "distractorAnalysis": {
+        "a": { "en": "Momentum is a quantity related to an object's mass and velocity, describing 'how much motion' it has; it is not itself the tendency to resist a change in motion.", "hi": "संवेग एक राशि है जो किसी वस्तु के द्रव्यमान और वेग से संबंधित है और यह बताती है कि उसमें 'कितनी गति' है; यह स्वयं गति में परिवर्तन का विरोध करने की प्रवृत्ति नहीं है।" },
+        "b": { "en": "Acceleration describes how quickly an object's velocity is changing; it describes a change in motion, whereas inertia describes resistance to such a change.", "hi": "त्वरण यह बताता है कि किसी वस्तु का वेग कितनी तेज़ी से बदल रहा है; यह गति में परिवर्तन को दर्शाता है, जबकि जड़त्व ऐसे परिवर्तन के प्रतिरोध को दर्शाता है।" },
+        "d": { "en": "Gravity is a specific force of attraction between masses; it is not the general tendency of objects to resist a change in their motion, which applies even without gravity being the cause.", "hi": "गुरुत्वाकर्षण द्रव्यमानों के बीच एक विशेष आकर्षण बल है; यह वस्तुओं की अपनी गति में परिवर्तन का विरोध करने की सामान्य प्रवृत्ति नहीं है, जो गुरुत्वाकर्षण के कारण न होने पर भी लागू होती है।" }
+      }
+    },
+    {
+      "key": "bank-sci9-general-32",
+      "difficulty": "HARD",
+      "content": { "en": "A convex lens, which is thicker in the middle than at its edges, generally makes parallel rays of light", "hi": "उत्तल लेंस, जो बीच में अपने किनारों की तुलना में मोटा होता है, समांतर प्रकाश किरणों के साथ आमतौर पर क्या करता है?" },
+      "options": [
+        { "id": "a", "text": { "en": "diverge (spread apart) from each other", "hi": "एक-दूसरे से अपसरित (फैल) होती हैं" } },
+        { "id": "b", "text": { "en": "stop traveling entirely", "hi": "पूरी तरह यात्रा करना बंद कर देती हैं" } },
+        { "id": "c", "text": { "en": "reverse their direction completely", "hi": "पूरी तरह अपनी दिशा उलट देती हैं" } },
+        { "id": "d", "text": { "en": "converge (come together) toward a point", "hi": "एक बिंदु की ओर अभिसरित (एकत्रित) होती हैं" } }
+      ],
+      "correctOption": "d",
+      "explanation": { "en": "A convex lens bends parallel light rays passing through it so that they converge (meet) at a point called the focus, which is why convex lenses are also called converging lenses.", "hi": "उत्तल लेंस अपने से गुजरने वाली समांतर प्रकाश किरणों को इस तरह मोड़ता है कि वे फोकस नामक एक बिंदु पर अभिसरित (मिलती) होती हैं, इसीलिए उत्तल लेंस को अभिसारी लेंस भी कहा जाता है।" },
+      "distractorAnalysis": {
+        "a": { "en": "Spreading light rays apart is characteristic of a concave lens (thinner in the middle), which is called a diverging lens — the opposite behavior of a convex lens.", "hi": "प्रकाश किरणों को फैलाना अवतल लेंस (जो बीच में पतला होता है) की विशेषता है, जिसे अपसारी लेंस कहा जाता है — यह उत्तल लेंस के व्यवहार के विपरीत है।" },
+        "b": { "en": "Light passing through a transparent convex lens continues traveling, just bent toward a focus point; it does not simply stop.", "hi": "पारदर्शी उत्तल लेंस से गुजरने वाला प्रकाश यात्रा करना जारी रखता है, बस फोकस बिंदु की ओर मुड़ जाता है; यह बस रुक नहीं जाता।" },
+        "c": { "en": "A convex lens bends and focuses light toward one side, but it does not reverse the overall direction of travel back the way it came.", "hi": "उत्तल लेंस प्रकाश को मोड़कर एक ओर केंद्रित करता है, लेकिन यह प्रकाश की समग्र दिशा को वापस उसी रास्ते पर पूरी तरह उलटता नहीं है।" }
+      }
+    },
+    {
+      "key": "bank-sci9-general-33",
+      "difficulty": "HARD",
+      "content": { "en": "The bending of light as it passes from one transparent medium into another (such as from air into water) is called", "hi": "प्रकाश का एक पारदर्शी माध्यम से दूसरे माध्यम में जाते समय मुड़ना (जैसे हवा से पानी में जाना) क्या कहलाता है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Refraction", "hi": "अपवर्तन" } },
+        { "id": "b", "text": { "en": "Reflection", "hi": "परावर्तन" } },
+        { "id": "c", "text": { "en": "Diffusion", "hi": "विसरण" } },
+        { "id": "d", "text": { "en": "Absorption", "hi": "अवशोषण" } }
+      ],
+      "correctOption": "a",
+      "explanation": { "en": "Refraction is the bending of light when it passes from one transparent medium into another with a different density, such as from air into water, due to a change in its speed.", "hi": "अपवर्तन प्रकाश का मुड़ना है जब वह एक पारदर्शी माध्यम से भिन्न घनत्व वाले दूसरे माध्यम में जाता है, जैसे हवा से पानी में, यह इसकी चाल में बदलाव के कारण होता है।" },
+      "distractorAnalysis": {
+        "b": { "en": "Reflection is the bouncing back of light from a surface (like a mirror), not the bending of light while passing through into a new medium.", "hi": "परावर्तन किसी सतह (जैसे दर्पण) से प्रकाश का वापस लौटना है, न कि किसी नए माध्यम में जाते समय प्रकाश का मुड़ना।" },
+        "c": { "en": "Diffusion generally refers to particles or light scattering in various directions, such as off a rough surface, rather than the specific bending that happens when light crosses into a new medium.", "hi": "विसरण सामान्यतः कणों या प्रकाश के विभिन्न दिशाओं में बिखरने को दर्शाता है, जैसे किसी खुरदरी सतह से, न कि उस विशेष मुड़ाव को जो प्रकाश के नए माध्यम में प्रवेश करते समय होता है।" },
+        "d": { "en": "Absorption is when a material takes in light energy (often converting it to heat) rather than letting it pass through or bounce off; it does not describe light bending as it enters a new medium.", "hi": "अवशोषण तब होता है जब कोई पदार्थ प्रकाश ऊर्जा को ग्रहण कर लेता है (अक्सर उसे ऊष्मा में बदल देता है) बजाय इसे गुजरने या परावर्तित होने देने के; यह प्रकाश के नए माध्यम में प्रवेश करते समय मुड़ने का वर्णन नहीं करता।" }
+      }
+    },
+    {
+      "key": "bank-sci9-general-34",
+      "difficulty": "HARD",
+      "content": { "en": "In a simple series circuit with multiple bulbs, if one bulb burns out (breaks), what typically happens to the other bulbs in that same series loop?", "hi": "कई बल्बों वाले एक सामान्य श्रेणी परिपथ में, यदि एक बल्ब फुंक जाए (टूट जाए), तो उसी श्रेणी पथ में मौजूद अन्य बल्बों के साथ आमतौर पर क्या होता है?" },
+      "options": [
+        { "id": "a", "text": { "en": "They start working in reverse", "hi": "वे उल्टा काम करना शुरू कर देते हैं" } },
+        { "id": "b", "text": { "en": "They also stop working, since the circuit is broken", "hi": "वे भी काम करना बंद कर देते हैं, क्योंकि परिपथ टूट जाता है" } },
+        { "id": "c", "text": { "en": "They continue working exactly as before", "hi": "वे पहले की तरह ही काम करते रहते हैं" } },
+        { "id": "d", "text": { "en": "They become brighter than before", "hi": "वे पहले से अधिक चमकीले हो जाते हैं" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "In a series circuit, all components share a single path for current; if one bulb breaks, the path becomes incomplete and current stops flowing, so all bulbs in that series loop stop working.", "hi": "श्रेणी परिपथ में, सभी घटक धारा के लिए एक ही पथ साझा करते हैं; यदि एक बल्ब टूट जाए, तो पथ अपूर्ण हो जाता है और धारा प्रवाहित होना बंद हो जाती है, इसलिए उस श्रेणी पथ के सभी बल्ब काम करना बंद कर देते हैं।" },
+      "distractorAnalysis": {
+        "a": { "en": "There is no mechanism in a simple series circuit by which a broken bulb would cause the remaining bulbs to run 'in reverse'; the current simply stops flowing.", "hi": "एक सामान्य श्रेणी परिपथ में ऐसा कोई तंत्र नहीं है जिससे टूटा हुआ बल्ब शेष बल्बों को 'उल्टा' चलाने लगे; धारा बस प्रवाहित होना बंद कर देती है।" },
+        "c": { "en": "This describes what happens in a parallel circuit, where each bulb has its own separate path, so other bulbs keep working if one fails — but this is not how a series circuit behaves.", "hi": "यह वर्णन करता है कि समांतर परिपथ में क्या होता है, जहाँ प्रत्येक बल्ब का अपना अलग पथ होता है, इसलिए एक के फेल होने पर भी अन्य बल्ब काम करते रहते हैं — लेकिन श्रेणी परिपथ ऐसा व्यवहार नहीं करता।" },
+        "d": { "en": "A broken bulb interrupts the single shared path in a series circuit, stopping current flow entirely rather than making the remaining bulbs brighter.", "hi": "टूटा हुआ बल्ब श्रेणी परिपथ के एकल साझा पथ को बाधित करता है, जिससे शेष बल्बों के अधिक चमकीले होने के बजाय धारा का प्रवाह पूरी तरह रुक जाता है।" }
+      }
+    },
+    {
+      "key": "bank-sci9-general-35",
+      "difficulty": "HARD",
+      "content": { "en": "An echo is heard when sound waves reflect off a distant surface, such as a wall or a cliff, and return to the listener. This phenomenon is best described as", "hi": "प्रतिध्वनि (इको) तब सुनाई देती है जब ध्वनि तरंगें किसी दूर की सतह, जैसे दीवार या चट्टान, से परावर्तित होकर श्रोता तक वापस लौटती हैं। इस घटना का सबसे सही वर्णन क्या है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Absorption of sound waves by a surface", "hi": "किसी सतह द्वारा ध्वनि तरंगों का अवशोषण" } },
+        { "id": "b", "text": { "en": "Generation of brand-new sound waves by the surface", "hi": "सतह द्वारा बिल्कुल नई ध्वनि तरंगों का उत्पादन" } },
+        { "id": "c", "text": { "en": "Reflection of sound waves off a surface", "hi": "किसी सतह से ध्वनि तरंगों का परावर्तन" } },
+        { "id": "d", "text": { "en": "Refraction of sound waves through a surface", "hi": "किसी सतह से ध्वनि तरंगों का अपवर्तन" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "An echo occurs because sound waves bounce back (reflect) off a hard, distant surface and travel back to the listener's ear, similar to how light reflects off a mirror.", "hi": "प्रतिध्वनि इसलिए होती है क्योंकि ध्वनि तरंगें किसी कठोर, दूर की सतह से टकराकर वापस लौटती (परावर्तित होती) हैं और श्रोता के कान तक वापस पहुँचती हैं, ठीक वैसे ही जैसे प्रकाश दर्पण से परावर्तित होता है।" },
+      "distractorAnalysis": {
+        "a": { "en": "If the sound wave were mostly absorbed by the surface rather than reflected, very little sound energy would return, and no clear echo would be heard.", "hi": "यदि ध्वनि तरंग परावर्तित होने के बजाय अधिकांशतः सतह द्वारा अवशोषित हो जाती, तो बहुत कम ध्वनि ऊर्जा वापस लौटती, और कोई स्पष्ट प्रतिध्वनि सुनाई नहीं देती।" },
+        "b": { "en": "An echo is the same original sound wave bouncing back, not a new sound being freshly generated by the reflecting surface itself.", "hi": "प्रतिध्वनि वही मूल ध्वनि तरंग है जो वापस लौटती है, न कि परावर्तक सतह द्वारा नई सिरे से उत्पन्न की गई कोई ध्वनि।" },
+        "d": { "en": "Refraction refers to sound (or light) bending as it passes through or between different media, not sound waves bouncing back off a surface toward the listener.", "hi": "अपवर्तन ध्वनि (या प्रकाश) के विभिन्न माध्यमों से होकर या उनके बीच से गुजरते समय मुड़ने को दर्शाता है, न कि ध्वनि तरंगों के किसी सतह से टकराकर श्रोता की ओर वापस लौटने को।" }
+      }
+    },
+    {
+      "key": "bank-sci9-general-36",
+      "difficulty": "HARD",
+      "content": { "en": "Using a single fixed pulley at the top of a flagpole to raise a flag by pulling the rope downward is mainly useful because it", "hi": "झंडे को ऊपर चढ़ाने के लिए झंडे के खंभे के ऊपर लगी एक स्थिर घिरनी का उपयोग करके रस्सी को नीचे की ओर खींचना मुख्य रूप से इसलिए उपयोगी है क्योंकि यह" },
+      "options": [
+        { "id": "a", "text": { "en": "eliminates the need for any force entirely", "hi": "किसी भी बल की आवश्यकता को पूरी तरह समाप्त कर देती है" } },
+        { "id": "b", "text": { "en": "makes the flag heavier so it stays in place", "hi": "झंडे को भारी बना देती है ताकि वह अपनी जगह टिका रहे" } },
+        { "id": "c", "text": { "en": "converts the rope into an electrical conductor", "hi": "रस्सी को विद्युत चालक में बदल देती है" } },
+        { "id": "d", "text": { "en": "changes the direction of the force you need to apply, making it easier and more convenient to lift the flag", "hi": "लगाए जाने वाले बल की दिशा बदल देती है, जिससे झंडा उठाना आसान और सुविधाजनक हो जाता है" } }
+      ],
+      "correctOption": "d",
+      "explanation": { "en": "A single fixed pulley mainly changes the direction of the applied force — pulling down on one side raises the load on the other side — making tasks like raising a flag more convenient, even though it does not reduce the amount of force needed.", "hi": "एक स्थिर घिरनी मुख्य रूप से लगाए गए बल की दिशा बदल देती है — एक ओर नीचे खींचने से दूसरी ओर भार ऊपर उठ जाता है — जिससे झंडा चढ़ाने जैसे कार्य अधिक सुविधाजनक हो जाते हैं, भले ही यह आवश्यक बल की मात्रा को कम नहीं करती।" },
+      "distractorAnalysis": {
+        "a": { "en": "A pulley still requires force to be applied to lift a load; it changes the direction of the force needed, but does not eliminate the need for force altogether.", "hi": "घिरनी को फिर भी भार उठाने के लिए बल लगाने की आवश्यकता होती है; यह आवश्यक बल की दिशा बदलती है, लेकिन बल की आवश्यकता को पूरी तरह समाप्त नहीं करती।" },
+        "b": { "en": "A pulley does not add mass to the flag or make it heavier; its function relates to redirecting force, not changing the flag's weight.", "hi": "घिरनी झंडे में द्रव्यमान नहीं जोड़ती या उसे भारी नहीं बनाती; इसका कार्य बल की दिशा बदलने से संबंधित है, झंडे का वज़न बदलने से नहीं।" },
+        "c": { "en": "A pulley is a mechanical device dealing with force and motion; it has no role in making a rope conduct electricity.", "hi": "घिरनी बल और गति से जुड़ा एक यांत्रिक उपकरण है; रस्सी को विद्युत का संचालन कराने में इसकी कोई भूमिका नहीं है।" }
+      }
+    },
+    {
+      "key": "bank-sci9-general-37",
+      "difficulty": "HARD",
+      "content": { "en": "When an acid and a base are mixed together in the right amounts, they react to cancel out each other's properties, forming a salt and water. This reaction is called", "hi": "जब एक अम्ल और एक क्षार को सही मात्रा में एक साथ मिलाया जाता है, तो वे एक-दूसरे के गुणों को निष्प्रभावी करने के लिए अभिक्रिया करते हैं, जिससे एक लवण और जल बनता है। इस अभिक्रिया को क्या कहते हैं?" },
+      "options": [
+        { "id": "a", "text": { "en": "Neutralization", "hi": "उदासीनीकरण" } },
+        { "id": "b", "text": { "en": "Oxidation", "hi": "ऑक्सीकरण" } },
+        { "id": "c", "text": { "en": "Evaporation", "hi": "वाष्पीकरण" } },
+        { "id": "d", "text": { "en": "Filtration", "hi": "निस्पंदन" } }
+      ],
+      "correctOption": "a",
+      "explanation": { "en": "Neutralization is the chemical reaction between an acid and a base that cancels out their acidic and basic properties, producing a salt and water.", "hi": "उदासीनीकरण एक अम्ल और एक क्षार के बीच होने वाली रासायनिक अभिक्रिया है जो उनके अम्लीय और क्षारीय गुणों को निष्प्रभावी कर देती है, जिससे एक लवण और जल बनता है।" },
+      "distractorAnalysis": {
+        "b": { "en": "Oxidation generally refers to a substance combining with oxygen or losing electrons in a reaction; it is a different type of chemical process from an acid-base reaction forming salt and water.", "hi": "ऑक्सीकरण सामान्यतः किसी पदार्थ के ऑक्सीजन के साथ मिलने या अभिक्रिया में इलेक्ट्रॉन खोने को दर्शाता है; यह अम्ल-क्षार अभिक्रिया से लवण और जल बनने से भिन्न प्रकार की रासायनिक प्रक्रिया है।" },
+        "c": { "en": "Evaporation is a physical change of state, a liquid turning into vapor, not a chemical reaction between an acid and a base.", "hi": "वाष्पीकरण अवस्था का एक भौतिक परिवर्तन है, द्रव का वाष्प में बदलना, यह अम्ल और क्षार के बीच होने वाली रासायनिक अभिक्रिया नहीं है।" },
+        "d": { "en": "Filtration is a physical method used to separate solid particles from a liquid using a filter; it is not a chemical reaction between an acid and a base.", "hi": "निस्पंदन एक भौतिक विधि है जिसका उपयोग फिल्टर की सहायता से ठोस कणों को द्रव से अलग करने के लिए किया जाता है; यह अम्ल और क्षार के बीच होने वाली रासायनिक अभिक्रिया नहीं है।" }
+      }
+    },
+    {
+      "key": "bank-sci9-general-38",
+      "difficulty": "HARD",
+      "content": { "en": "Rusting of iron, in which a reddish-brown coating forms on iron objects over time, mainly happens when iron reacts with", "hi": "लोहे में जंग लगना, जिसमें समय के साथ लोहे की वस्तुओं पर एक भूरा-लाल परत बन जाती है, मुख्य रूप से तब होता है जब लोहा किसके साथ अभिक्रिया करता है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Carbon dioxide alone, with no moisture involved", "hi": "केवल कार्बन डाइऑक्साइड से, बिना किसी नमी के" } },
+        { "id": "b", "text": { "en": "Oxygen and moisture (water) in the air", "hi": "हवा में मौजूद ऑक्सीजन और नमी (जल)" } },
+        { "id": "c", "text": { "en": "Nitrogen gas alone", "hi": "केवल नाइट्रोजन गैस" } },
+        { "id": "d", "text": { "en": "Sunlight alone, with no air or water involved", "hi": "केवल सूर्य के प्रकाश से, बिना किसी हवा या पानी के" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "Rusting occurs when iron reacts with oxygen in the presence of moisture (water), forming iron oxide, commonly seen as a reddish-brown coating on iron objects.", "hi": "जंग लगना तब होता है जब लोहा नमी (जल) की उपस्थिति में ऑक्सीजन के साथ अभिक्रिया करता है, जिससे आयरन ऑक्साइड बनता है, जो आमतौर पर लोहे की वस्तुओं पर भूरे-लाल परत के रूप में दिखाई देता है।" },
+      "distractorAnalysis": {
+        "a": { "en": "Rusting is specifically associated with the combination of oxygen and moisture reacting with iron, not carbon dioxide acting alone without any moisture present.", "hi": "जंग लगना विशेष रूप से लोहे के साथ अभिक्रिया करने वाले ऑक्सीजन और नमी के संयोजन से जुड़ा है, बिना किसी नमी के अकेले कार्बन डाइऑक्साइड से नहीं।" },
+        "c": { "en": "Nitrogen gas makes up a large part of air but does not react with iron to cause rusting; the key reactive gas involved is oxygen, not nitrogen.", "hi": "नाइट्रोजन गैस हवा का एक बड़ा हिस्सा बनाती है लेकिन यह लोहे के साथ अभिक्रिया करके जंग नहीं लगाती; इसमें शामिल मुख्य अभिक्रियाशील गैस ऑक्सीजन है, नाइट्रोजन नहीं।" },
+        "d": { "en": "Rusting specifically requires both oxygen and moisture to react with iron; sunlight alone, without air or water present, does not cause iron to rust.", "hi": "जंग लगने के लिए विशेष रूप से लोहे के साथ अभिक्रिया करने हेतु ऑक्सीजन और नमी दोनों की आवश्यकता होती है; बिना हवा या पानी के केवल सूर्य के प्रकाश से लोहे में जंग नहीं लगता।" }
+      }
+    },
+    {
+      "key": "bank-sci9-general-39",
+      "difficulty": "HARD",
+      "content": { "en": "Which of these statements about metals and non-metals is generally correct?", "hi": "धातुओं और अधातुओं के बारे में निम्नलिखित में से कौन-सा कथन सामान्यतः सही है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Metals and non-metals conduct heat and electricity exactly equally well in all cases", "hi": "धातुएँ और अधातुएँ सभी मामलों में ऊष्मा और विद्युत का संचालन बिल्कुल समान रूप से करती हैं" } },
+        { "id": "b", "text": { "en": "Neither metals nor non-metals can conduct electricity under any circumstances", "hi": "न तो धातुएँ और न ही अधातुएँ किसी भी परिस्थिति में विद्युत का संचालन कर सकती हैं" } },
+        { "id": "c", "text": { "en": "Most metals are good conductors of heat and electricity, while most non-metals are poor conductors", "hi": "अधिकांश धातुएँ ऊष्मा और विद्युत की अच्छी चालक होती हैं, जबकि अधिकांश अधातुएँ खराब चालक होती हैं" } },
+        { "id": "d", "text": { "en": "Most metals are poor conductors of electricity, while most non-metals are excellent conductors", "hi": "अधिकांश धातुएँ विद्युत की खराब चालक होती हैं, जबकि अधिकांश अधातुएँ उत्कृष्ट चालक होती हैं" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "As a general rule in basic chemistry, most metals (like copper, aluminum, and iron) are good conductors of heat and electricity, whereas most non-metals are poor conductors, with graphite (a form of carbon) being a well-known exception.", "hi": "मूल रसायन विज्ञान में एक सामान्य नियम के रूप में, अधिकांश धातुएँ (जैसे तांबा, एल्युमिनियम और लोहा) ऊष्मा और विद्युत की अच्छी चालक होती हैं, जबकि अधिकांश अधातुएँ खराब चालक होती हैं, ग्रेफाइट (कार्बन का एक रूप) इसका एक जाना-माना अपवाद है।" },
+      "distractorAnalysis": {
+        "a": { "en": "Metals and non-metals do not conduct heat and electricity equally; this ignores the well-established general difference in conductivity between the two groups.", "hi": "धातुएँ और अधातुएँ ऊष्मा और विद्युत का संचालन समान रूप से नहीं करतीं; यह दोनों समूहों के बीच चालकता में स्थापित सामान्य अंतर को नज़रअंदाज़ करता है।" },
+        "b": { "en": "Metals are well known to conduct electricity, so this statement is factually wrong; it denies the basic conductive property that makes metals useful in wiring.", "hi": "धातुओं का विद्युत संचालन करना सर्वविदित है, इसलिए यह कथन तथ्यात्मक रूप से गलत है; यह उस मूल चालक गुण को नकारता है जो धातुओं को तारों में उपयोगी बनाता है।" },
+        "d": { "en": "This reverses the general pattern taught in basic chemistry — it is metals that are typically good conductors, while most non-metals are poor conductors, not the other way around.", "hi": "यह मूल रसायन विज्ञान में पढ़ाए जाने वाले सामान्य पैटर्न को उलट देता है — आमतौर पर धातुएँ ही अच्छी चालक होती हैं, जबकि अधिकांश अधातुएँ खराब चालक होती हैं, इसके विपरीत नहीं।" }
+      }
+    },
+    {
+      "key": "bank-sci9-general-40",
+      "difficulty": "HARD",
+      "content": { "en": "Which of these correctly distinguishes a mixture from a compound?", "hi": "निम्नलिखित में से कौन-सा कथन मिश्रण और यौगिक के बीच सही अंतर बताता है?" },
+      "options": [
+        { "id": "a", "text": { "en": "A compound can always be separated by physical methods, while a mixture cannot be separated at all", "hi": "यौगिक को हमेशा भौतिक विधियों द्वारा अलग किया जा सकता है, जबकि मिश्रण को बिल्कुल भी अलग नहीं किया जा सकता" } },
+        { "id": "b", "text": { "en": "There is no real difference between a mixture and a compound; the terms mean the same thing", "hi": "मिश्रण और यौगिक में कोई वास्तविक अंतर नहीं है; दोनों शब्दों का अर्थ एक ही है" } },
+        { "id": "c", "text": { "en": "A mixture always has a fixed, unchangeable ratio of its components, just like a compound", "hi": "मिश्रण में हमेशा अपने घटकों का एक निश्चित, अपरिवर्तनीय अनुपात होता है, ठीक यौगिक की तरह" } },
+        { "id": "d", "text": { "en": "A mixture can generally be separated into its components by physical methods, while a compound requires a chemical reaction to be broken into its constituent elements", "hi": "मिश्रण को आमतौर पर भौतिक विधियों द्वारा उसके घटकों में अलग किया जा सकता है, जबकि यौगिक को उसके घटक तत्वों में तोड़ने के लिए रासायनिक अभिक्रिया आवश्यक होती है" } }
+      ],
+      "correctOption": "d",
+      "explanation": { "en": "A mixture consists of substances that are physically combined and can usually be separated by physical methods (like filtration or evaporation), while a compound consists of elements chemically bonded together in a fixed ratio, requiring a chemical reaction to separate them into their elements.", "hi": "मिश्रण उन पदार्थों से बना होता है जो भौतिक रूप से मिले होते हैं और इन्हें आमतौर पर भौतिक विधियों (जैसे निस्पंदन या वाष्पीकरण) द्वारा अलग किया जा सकता है, जबकि यौगिक ऐसे तत्वों से बना होता है जो एक निश्चित अनुपात में रासायनिक रूप से आपस में बंधे होते हैं, जिन्हें उनके तत्वों में अलग करने के लिए रासायनिक अभिक्रिया आवश्यक होती है।" },
+      "distractorAnalysis": {
+        "a": { "en": "This reverses the actual distinction — it is mixtures that can typically be separated by physical methods, while compounds need a chemical reaction; mixtures are not impossible to separate.", "hi": "यह वास्तविक अंतर को उलट देता है — आमतौर पर मिश्रण ही भौतिक विधियों द्वारा अलग किए जा सकते हैं, जबकि यौगिकों के लिए रासायनिक अभिक्रिया आवश्यक होती है; मिश्रणों को अलग करना असंभव नहीं है।" },
+        "b": { "en": "Mixtures and compounds are distinctly different: a compound has a fixed composition formed by chemical bonding, while a mixture has a variable composition combined only physically; treating the terms as identical ignores this key distinction.", "hi": "मिश्रण और यौगिक स्पष्ट रूप से भिन्न हैं: यौगिक की संरचना रासायनिक बंधन द्वारा निश्चित होती है, जबकि मिश्रण की संरचना परिवर्तनशील होती है और यह केवल भौतिक रूप से मिला होता है; इन शब्दों को समान मानना इस मुख्य अंतर को नज़रअंदाज़ करता है।" },
+        "c": { "en": "A defining feature of a mixture is that its components can be present in variable proportions, unlike a compound, which has a fixed, definite ratio of its constituent elements.", "hi": "मिश्रण की एक परिभाषित विशेषता यह है कि इसके घटक परिवर्तनशील अनुपात में मौजूद हो सकते हैं, यौगिक के विपरीत, जिसमें इसके घटक तत्वों का एक निश्चित अनुपात होता है।" }
+      }
+    }
+  ]
+}

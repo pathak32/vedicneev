@@ -1,0 +1,727 @@
+{
+  "section": "general_mathematics",
+  "topicKey": "general_mathematics",
+  "generatedAt": "2026-09-05T00:00:00.000Z",
+  "questions": [
+    {
+      "key": "bank-math9-general-01",
+      "difficulty": "EASY",
+      "content": { "en": "Solve for x: 2x + 3 = 11.", "hi": "x के लिए हल कीजिए: 2x + 3 = 11." },
+      "options": [
+        { "id": "a", "text": { "en": "5.5", "hi": "5.5" } },
+        { "id": "b", "text": { "en": "4", "hi": "4" } },
+        { "id": "c", "text": { "en": "7", "hi": "7" } },
+        { "id": "d", "text": { "en": "8", "hi": "8" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "2x + 3 = 11 → 2x = 11 - 3 = 8 → x = 8 ÷ 2 = 4.", "hi": "2x + 3 = 11 → 2x = 11 - 3 = 8 → x = 8 ÷ 2 = 4." },
+      "distractorAnalysis": {
+        "a": { "en": "Comes from dividing 11 by 2 first without subtracting 3 beforehand: 11 ÷ 2 = 5.5.", "hi": "पहले 3 घटाए बिना सीधे 11 को 2 से भाग दे दिया, जिससे 5.5 मिलता है." },
+        "c": { "en": "Comes from adding 3 instead of subtracting it: 2x = 11 + 3 = 14, giving x = 7.", "hi": "3 को घटाने के बजाय जोड़ने से यह मान मिलता है: 2x = 11 + 3 = 14, इसलिए x = 7." },
+        "d": { "en": "Comes from correctly finding 2x = 8 but forgetting to divide by 2, leaving x = 8.", "hi": "2x = 8 तो सही निकाला गया परंतु 2 से भाग देना भूल गए, इसलिए x = 8 ही रह गया." }
+      }
+    },
+    {
+      "key": "bank-math9-general-02",
+      "difficulty": "EASY",
+      "content": { "en": "Simplify: 3(x + 4) - 2x.", "hi": "सरल कीजिए: 3(x + 4) - 2x." },
+      "options": [
+        { "id": "a", "text": { "en": "5x + 12", "hi": "5x + 12" } },
+        { "id": "b", "text": { "en": "x + 36", "hi": "x + 36" } },
+        { "id": "c", "text": { "en": "x + 12", "hi": "x + 12" } },
+        { "id": "d", "text": { "en": "x + 4", "hi": "x + 4" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "3(x+4) = 3x + 12. Then 3x + 12 - 2x = x + 12.", "hi": "3(x+4) = 3x + 12. फिर 3x + 12 - 2x = x + 12." },
+      "distractorAnalysis": {
+        "a": { "en": "Comes from a sign error while combining like terms - adding 2x instead of subtracting: 3x + 12 + 2x = 5x + 12.", "hi": "समान पदों को जोड़ते समय चिन्ह की गलती - 2x को घटाने के बजाय जोड़ दिया: 3x + 12 + 2x = 5x + 12." },
+        "b": { "en": "Comes from distributing the 3 twice into the constant term (12×3=36): 3x + 36 - 2x = x + 36.", "hi": "स्थिरांक पद में 3 को दो बार गुणा कर दिया (12×3=36), जिससे x + 36 प्राप्त हुआ." },
+        "d": { "en": "Comes from multiplying 3 only with x and forgetting to multiply it with 4: 3x + 4 - 2x = x + 4.", "hi": "3 को केवल x से गुणा किया और 4 से गुणा करना भूल गए: 3x + 4 - 2x = x + 4." }
+      }
+    },
+    {
+      "key": "bank-math9-general-03",
+      "difficulty": "EASY",
+      "content": { "en": "Find 20% of 150.", "hi": "150 का 20% ज्ञात कीजिए." },
+      "options": [
+        { "id": "a", "text": { "en": "15", "hi": "15" } },
+        { "id": "b", "text": { "en": "20", "hi": "20" } },
+        { "id": "c", "text": { "en": "3", "hi": "3" } },
+        { "id": "d", "text": { "en": "30", "hi": "30" } }
+      ],
+      "correctOption": "d",
+      "explanation": { "en": "20% of 150 = (20/100) × 150 = 30.", "hi": "150 का 20% = (20/100) × 150 = 30." },
+      "distractorAnalysis": {
+        "a": { "en": "Comes from calculating 10% of 150 (=15) instead of 20%.", "hi": "20% के बजाय 150 का 10% निकाल लिया (=15)." },
+        "b": { "en": "Comes from simply writing the percentage value itself (20) instead of computing the actual amount.", "hi": "वास्तविक मान निकालने के बजाय प्रतिशत की संख्या (20) ही लिख दी." },
+        "c": { "en": "Comes from a decimal-point error, using 2% instead of 20%: 150 × 0.02 = 3.", "hi": "दशमलव बिंदु की गलती से 20% के बजाय 2% का प्रयोग किया: 150 × 0.02 = 3." }
+      }
+    },
+    {
+      "key": "bank-math9-general-04",
+      "difficulty": "EASY",
+      "content": { "en": "Express the ratio 12 : 18 in its simplest form.", "hi": "अनुपात 12 : 18 को सरलतम रूप में व्यक्त कीजिए." },
+      "options": [
+        { "id": "a", "text": { "en": "2 : 3", "hi": "2 : 3" } },
+        { "id": "b", "text": { "en": "3 : 2", "hi": "3 : 2" } },
+        { "id": "c", "text": { "en": "6 : 9", "hi": "6 : 9" } },
+        { "id": "d", "text": { "en": "4 : 6", "hi": "4 : 6" } }
+      ],
+      "correctOption": "a",
+      "explanation": { "en": "HCF of 12 and 18 is 6. Dividing both terms by 6: 12÷6 : 18÷6 = 2 : 3.", "hi": "12 और 18 का HCF 6 है. दोनों पदों को 6 से भाग देने पर: 12÷6 : 18÷6 = 2 : 3." },
+      "distractorAnalysis": {
+        "b": { "en": "Comes from inverting the order of the ratio terms.", "hi": "अनुपात के पदों का क्रम उलट दिया." },
+        "c": { "en": "Comes from dividing both terms by 2 instead of the HCF 6, giving a ratio that is not fully simplified.", "hi": "HCF 6 के बजाय दोनों पदों को केवल 2 से भाग दिया, जिससे अनुपात पूरी तरह सरल नहीं हुआ." },
+        "d": { "en": "Comes from dividing both terms by 3 instead of the HCF 6, giving a ratio that is not fully simplified.", "hi": "HCF 6 के बजाय दोनों पदों को केवल 3 से भाग दिया, जिससे अनुपात पूरी तरह सरल नहीं हुआ." }
+      }
+    },
+    {
+      "key": "bank-math9-general-05",
+      "difficulty": "EASY",
+      "content": { "en": "Find the simple interest on Rs 1000 for 2 years at 5% per annum.", "hi": "Rs 1000 पर 2 वर्ष के लिए 5% वार्षिक दर से साधारण ब्याज ज्ञात कीजिए." },
+      "options": [
+        { "id": "a", "text": { "en": "10000", "hi": "10000" } },
+        { "id": "b", "text": { "en": "100", "hi": "100" } },
+        { "id": "c", "text": { "en": "50", "hi": "50" } },
+        { "id": "d", "text": { "en": "1100", "hi": "1100" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "SI = (P × R × T)/100 = (1000 × 5 × 2)/100 = 10000/100 = 100.", "hi": "SI = (P × R × T)/100 = (1000 × 5 × 2)/100 = 10000/100 = 100." },
+      "distractorAnalysis": {
+        "a": { "en": "Comes from forgetting to divide by 100: 1000 × 5 × 2 = 10000.", "hi": "100 से भाग देना भूल गए: 1000 × 5 × 2 = 10000." },
+        "c": { "en": "Comes from using T = 1 year instead of 2 years: (1000×5×1)/100 = 50.", "hi": "समय 2 वर्ष के बजाय 1 वर्ष लिया: (1000×5×1)/100 = 50." },
+        "d": { "en": "Comes from giving the total amount (principal + interest = 1000 + 100) instead of just the interest.", "hi": "केवल ब्याज के बजाय कुल राशि (मूलधन + ब्याज = 1000 + 100) बता दी." }
+      }
+    },
+    {
+      "key": "bank-math9-general-06",
+      "difficulty": "EASY",
+      "content": { "en": "Find the perimeter of a rectangle with length 12 cm and breadth 5 cm.", "hi": "12 cm लंबाई और 5 cm चौड़ाई वाले एक आयत का परिमाप ज्ञात कीजिए." },
+      "options": [
+        { "id": "a", "text": { "en": "60", "hi": "60" } },
+        { "id": "b", "text": { "en": "68", "hi": "68" } },
+        { "id": "c", "text": { "en": "34", "hi": "34" } },
+        { "id": "d", "text": { "en": "17", "hi": "17" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "Perimeter = 2(l + b) = 2(12 + 5) = 2 × 17 = 34 cm.", "hi": "परिमाप = 2(l + b) = 2(12 + 5) = 2 × 17 = 34 cm." },
+      "distractorAnalysis": {
+        "a": { "en": "Comes from calculating the area instead of the perimeter: 12 × 5 = 60.", "hi": "परिमाप के बजाय क्षेत्रफल निकाल लिया: 12 × 5 = 60." },
+        "b": { "en": "Comes from multiplying by 2 twice: 2 × 2 × 17 = 68.", "hi": "2 से दो बार गुणा कर दिया: 2 × 2 × 17 = 68." },
+        "d": { "en": "Comes from adding length and breadth but forgetting to multiply by 2: 12 + 5 = 17.", "hi": "लंबाई और चौड़ाई जोड़ दी परंतु 2 से गुणा करना भूल गए: 12 + 5 = 17." }
+      }
+    },
+    {
+      "key": "bank-math9-general-07",
+      "difficulty": "EASY",
+      "content": { "en": "Find the area of a square with side 7 cm.", "hi": "7 cm भुजा वाले एक वर्ग का क्षेत्रफल ज्ञात कीजिए." },
+      "options": [
+        { "id": "a", "text": { "en": "28", "hi": "28" } },
+        { "id": "b", "text": { "en": "14", "hi": "14" } },
+        { "id": "c", "text": { "en": "63", "hi": "63" } },
+        { "id": "d", "text": { "en": "49", "hi": "49" } }
+      ],
+      "correctOption": "d",
+      "explanation": { "en": "Area of square = side × side = 7 × 7 = 49 cm².", "hi": "वर्ग का क्षेत्रफल = भुजा × भुजा = 7 × 7 = 49 cm²." },
+      "distractorAnalysis": {
+        "a": { "en": "Comes from calculating the perimeter instead of the area: 4 × 7 = 28.", "hi": "क्षेत्रफल के बजाय परिमाप निकाल लिया: 4 × 7 = 28." },
+        "b": { "en": "Comes from doubling the side instead of squaring it: 2 × 7 = 14.", "hi": "भुजा का वर्ग करने के बजाय उसे दोगुना कर दिया: 2 × 7 = 14." },
+        "c": { "en": "Comes from a multiplication-table slip, using 7 × 9 instead of 7 × 7.", "hi": "गुणा तालिका की गलती से 7 × 7 के बजाय 7 × 9 कर दिया." }
+      }
+    },
+    {
+      "key": "bank-math9-general-08",
+      "difficulty": "EASY",
+      "content": { "en": "In a triangle, two of the angles are 50° and 60°. Find the third angle.", "hi": "एक त्रिभुज में दो कोण 50° और 60° हैं. तीसरा कोण ज्ञात कीजिए." },
+      "options": [
+        { "id": "a", "text": { "en": "70", "hi": "70" } },
+        { "id": "b", "text": { "en": "110", "hi": "110" } },
+        { "id": "c", "text": { "en": "130", "hi": "130" } },
+        { "id": "d", "text": { "en": "120", "hi": "120" } }
+      ],
+      "correctOption": "a",
+      "explanation": { "en": "Sum of angles of a triangle = 180°. Third angle = 180 - 50 - 60 = 70°.", "hi": "त्रिभुज के कोणों का योग = 180°. तीसरा कोण = 180 - 50 - 60 = 70°." },
+      "distractorAnalysis": {
+        "b": { "en": "Comes from adding the two given angles instead of subtracting them from 180°: 50 + 60 = 110.", "hi": "दोनों दिए गए कोणों को 180° से घटाने के बजाय आपस में जोड़ दिया: 50 + 60 = 110." },
+        "c": { "en": "Comes from subtracting only the 50° angle from 180° and forgetting the 60° angle: 180 - 50 = 130.", "hi": "180° में से केवल 50° घटाया और 60° घटाना भूल गए: 180 - 50 = 130." },
+        "d": { "en": "Comes from subtracting only the 60° angle from 180° and forgetting the 50° angle: 180 - 60 = 120.", "hi": "180° में से केवल 60° घटाया और 50° घटाना भूल गए: 180 - 60 = 120." }
+      }
+    },
+    {
+      "key": "bank-math9-general-09",
+      "difficulty": "EASY",
+      "content": { "en": "Rohan buys 5 pens at Rs 8 each and 3 notebooks at Rs 15 each. Find the total amount he pays.", "hi": "रोहन 5 पेन Rs 8 प्रति पेन की दर से और 3 नोटबुक Rs 15 प्रति नोटबुक की दर से खरीदता है. उसके द्वारा भुगतान की गई कुल राशि ज्ञात कीजिए." },
+      "options": [
+        { "id": "a", "text": { "en": "40", "hi": "40" } },
+        { "id": "b", "text": { "en": "85", "hi": "85" } },
+        { "id": "c", "text": { "en": "99", "hi": "99" } },
+        { "id": "d", "text": { "en": "45", "hi": "45" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "Cost of pens = 5 × 8 = 40. Cost of notebooks = 3 × 15 = 45. Total = 40 + 45 = 85.", "hi": "पेन की कीमत = 5 × 8 = 40. नोटबुक की कीमत = 3 × 15 = 45. कुल = 40 + 45 = 85." },
+      "distractorAnalysis": {
+        "a": { "en": "Comes from forgetting to add the cost of the notebooks, giving only the pens' cost (40).", "hi": "नोटबुक की कीमत जोड़ना भूल गए, केवल पेन की कीमत (40) दे दी." },
+        "c": { "en": "Comes from swapping the unit prices: 5 × 15 + 3 × 8 = 75 + 24 = 99.", "hi": "दोनों की इकाई कीमतें आपस में बदल दीं: 5 × 15 + 3 × 8 = 75 + 24 = 99." },
+        "d": { "en": "Comes from forgetting to add the cost of the pens, giving only the notebooks' cost (45).", "hi": "पेन की कीमत जोड़ना भूल गए, केवल नोटबुक की कीमत (45) दे दी." }
+      }
+    },
+    {
+      "key": "bank-math9-general-10",
+      "difficulty": "EASY",
+      "content": { "en": "If 4 books cost Rs 200, find the cost of 7 books at the same rate.", "hi": "यदि 4 पुस्तकों की कीमत Rs 200 है, तो उसी दर पर 7 पुस्तकों की कीमत ज्ञात कीजिए." },
+      "options": [
+        { "id": "a", "text": { "en": "400", "hi": "400" } },
+        { "id": "b", "text": { "en": "114.29", "hi": "114.29" } },
+        { "id": "c", "text": { "en": "350", "hi": "350" } },
+        { "id": "d", "text": { "en": "300", "hi": "300" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "Cost of 1 book = 200 ÷ 4 = 50. Cost of 7 books = 50 × 7 = 350.", "hi": "1 पुस्तक की कीमत = 200 ÷ 4 = 50. 7 पुस्तकों की कीमत = 50 × 7 = 350." },
+      "distractorAnalysis": {
+        "a": { "en": "Comes from finding the correct unit price (50) but then multiplying by 8 instead of 7.", "hi": "इकाई कीमत (50) सही निकाली परंतु 7 के बजाय 8 से गुणा कर दिया." },
+        "b": { "en": "Comes from inverting the proportion - dividing 200 by 7 first and then multiplying by 4: (200/7) × 4 ≈ 114.29.", "hi": "समानुपात को उल्टा कर दिया - पहले 200 को 7 से भाग दिया फिर 4 से गुणा किया: (200/7) × 4 ≈ 114.29." },
+        "d": { "en": "Comes from finding the correct unit price (50) but then multiplying by 6 instead of 7.", "hi": "इकाई कीमत (50) सही निकाली परंतु 7 के बजाय 6 से गुणा कर दिया." }
+      }
+    },
+    {
+      "key": "bank-math9-general-11",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Solve for x: 3x - 5 = 2x + 7.", "hi": "x के लिए हल कीजिए: 3x - 5 = 2x + 7." },
+      "options": [
+        { "id": "a", "text": { "en": "2", "hi": "2" } },
+        { "id": "b", "text": { "en": "-12", "hi": "-12" } },
+        { "id": "c", "text": { "en": "6", "hi": "6" } },
+        { "id": "d", "text": { "en": "12", "hi": "12" } }
+      ],
+      "correctOption": "d",
+      "explanation": { "en": "3x - 2x = 7 + 5 → x = 12.", "hi": "3x - 2x = 7 + 5 → x = 12." },
+      "distractorAnalysis": {
+        "a": { "en": "Comes from a sign error, subtracting 5 from 7 instead of adding: x = 7 - 5 = 2.", "hi": "चिन्ह की गलती: 7 में 5 जोड़ने के बजाय घटा दिया: x = 7 - 5 = 2." },
+        "b": { "en": "Comes from moving both terms to the wrong side, giving x = -(7 + 5) = -12.", "hi": "दोनों पदों को गलत दिशा में ले गए, जिससे x = -(7 + 5) = -12 मिला." },
+        "c": { "en": "Comes from wrongly assuming the coefficient of x was 2 after combining and dividing (7+5) by 2: (7+5)/2 = 6.", "hi": "यह मान लिया कि x का गुणांक जोड़ने के बाद 2 है और (7+5) को 2 से भाग दे दिया: (7+5)/2 = 6." }
+      }
+    },
+    {
+      "key": "bank-math9-general-12",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Simplify: 5x - 3(2x - 4).", "hi": "सरल कीजिए: 5x - 3(2x - 4)." },
+      "options": [
+        { "id": "a", "text": { "en": "-x + 12", "hi": "-x + 12" } },
+        { "id": "b", "text": { "en": "-x - 12", "hi": "-x - 12" } },
+        { "id": "c", "text": { "en": "-x", "hi": "-x" } },
+        { "id": "d", "text": { "en": "11x - 12", "hi": "11x - 12" } }
+      ],
+      "correctOption": "a",
+      "explanation": { "en": "5x - 3(2x-4) = 5x - 6x + 12 = -x + 12.", "hi": "5x - 3(2x-4) = 5x - 6x + 12 = -x + 12." },
+      "distractorAnalysis": {
+        "b": { "en": "Comes from a sign error distributing -3 to -4, treating (-3)×(-4) as -12 instead of +12: 5x - 6x - 12 = -x - 12.", "hi": "-3 को -4 से गुणा करते समय चिन्ह की गलती से (-3)×(-4) को +12 के बजाय -12 मान लिया: 5x - 6x - 12 = -x - 12." },
+        "c": { "en": "Comes from dropping the constant term (-4) entirely after distributing, leaving only 5x - 6x = -x.", "hi": "गुणा करने के बाद स्थिरांक पद (-4) को पूरी तरह छोड़ दिया, केवल 5x - 6x = -x रह गया." },
+        "d": { "en": "Comes from flipping the sign of the whole bracket, treating subtraction as addition: 5x + 3(2x-4) = 5x + 6x - 12 = 11x - 12.", "hi": "पूरे कोष्ठक का चिन्ह उलट दिया, घटाव को जोड़ मान लिया: 5x + 3(2x-4) = 5x + 6x - 12 = 11x - 12." }
+      }
+    },
+    {
+      "key": "bank-math9-general-13",
+      "difficulty": "MEDIUM",
+      "content": { "en": "A number 250 is increased by 12%. Find the new number.", "hi": "संख्या 250 को 12% बढ़ाया जाता है. नई संख्या ज्ञात कीजिए." },
+      "options": [
+        { "id": "a", "text": { "en": "220", "hi": "220" } },
+        { "id": "b", "text": { "en": "280", "hi": "280" } },
+        { "id": "c", "text": { "en": "262", "hi": "262" } },
+        { "id": "d", "text": { "en": "275", "hi": "275" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "12% of 250 = 30. New number = 250 + 30 = 280.", "hi": "250 का 12% = 30. नई संख्या = 250 + 30 = 280." },
+      "distractorAnalysis": {
+        "a": { "en": "Comes from decreasing instead of increasing: 250 - 30 = 220.", "hi": "बढ़ाने के बजाय घटा दिया: 250 - 30 = 220." },
+        "c": { "en": "Comes from adding 12 directly as a flat number instead of computing 12% of 250: 250 + 12 = 262.", "hi": "250 का 12% निकालने के बजाय सीधे 12 जोड़ दिया: 250 + 12 = 262." },
+        "d": { "en": "Comes from computing 10% of 250 (=25) instead of 12%: 250 + 25 = 275.", "hi": "12% के बजाय 250 का 10% निकाल लिया (=25): 250 + 25 = 275." }
+      }
+    },
+    {
+      "key": "bank-math9-general-14",
+      "difficulty": "MEDIUM",
+      "content": { "en": "25% of a certain number is 40. Find the number.", "hi": "किसी संख्या का 25% 40 है. वह संख्या ज्ञात कीजिए." },
+      "options": [
+        { "id": "a", "text": { "en": "65", "hi": "65" } },
+        { "id": "b", "text": { "en": "50", "hi": "50" } },
+        { "id": "c", "text": { "en": "160", "hi": "160" } },
+        { "id": "d", "text": { "en": "10", "hi": "10" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "Let the number be x. 0.25x = 40 → x = 40 ÷ 0.25 = 160.", "hi": "मान लीजिए संख्या x है. 0.25x = 40 → x = 40 ÷ 0.25 = 160." },
+      "distractorAnalysis": {
+        "a": { "en": "Comes from treating 25% as a flat addition of 25 instead of a percentage: 40 + 25 = 65.", "hi": "25% को प्रतिशत के बजाय सीधे 25 जोड़ने के रूप में ले लिया: 40 + 25 = 65." },
+        "b": { "en": "Comes from adding 25% of 40 back to 40 itself, confusing the part with the whole: 40 + (40 × 0.25) = 50.", "hi": "40 के 25% को 40 में वापस जोड़ दिया, भाग और पूर्ण में भ्रम हो गया: 40 + (40 × 0.25) = 50." },
+        "d": { "en": "Comes from multiplying instead of dividing: 40 × 0.25 = 10.", "hi": "भाग देने के बजाय गुणा कर दिया: 40 × 0.25 = 10." }
+      }
+    },
+    {
+      "key": "bank-math9-general-15",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Rs 360 is divided among three people in the ratio 2 : 3 : 4. Find the largest share.", "hi": "Rs 360 को तीन व्यक्तियों में 2 : 3 : 4 के अनुपात में बांटा जाता है. सबसे बड़ा हिस्सा ज्ञात कीजिए." },
+      "options": [
+        { "id": "a", "text": { "en": "120", "hi": "120" } },
+        { "id": "b", "text": { "en": "40", "hi": "40" } },
+        { "id": "c", "text": { "en": "180", "hi": "180" } },
+        { "id": "d", "text": { "en": "160", "hi": "160" } }
+      ],
+      "correctOption": "d",
+      "explanation": { "en": "Sum of ratio terms = 2+3+4 = 9. Value of one part = 360/9 = 40. Largest share = 4 × 40 = 160.", "hi": "अनुपात के पदों का योग = 2+3+4 = 9. एक भाग का मान = 360/9 = 40. सबसे बड़ा हिस्सा = 4 × 40 = 160." },
+      "distractorAnalysis": {
+        "a": { "en": "Comes from giving the middle share (3 × 40 = 120) instead of the largest.", "hi": "सबसे बड़े हिस्से के बजाय मध्य हिस्सा (3 × 40 = 120) दे दिया." },
+        "b": { "en": "Comes from giving the value of one part (360÷9 = 40) without multiplying by the largest ratio term.", "hi": "एक भाग का मान (360÷9 = 40) ही दे दिया, सबसे बड़े अनुपात-पद से गुणा करना भूल गए." },
+        "c": { "en": "Comes from wrongly halving the total, treating the largest ratio term as if it represented half the total: 360 × 1/2 = 180.", "hi": "गलती से कुल राशि को आधा कर दिया, यह मानते हुए कि सबसे बड़ा अनुपात-पद कुल का आधा दर्शाता है: 360 × 1/2 = 180." }
+      }
+    },
+    {
+      "key": "bank-math9-general-16",
+      "difficulty": "MEDIUM",
+      "content": { "en": "A sum of Rs 1500 earns simple interest of Rs 225 in 3 years. Find the rate of interest per annum.", "hi": "Rs 1500 की राशि 3 वर्षों में Rs 225 साधारण ब्याज अर्जित करती है. वार्षिक ब्याज दर ज्ञात कीजिए." },
+      "options": [
+        { "id": "a", "text": { "en": "5", "hi": "5" } },
+        { "id": "b", "text": { "en": "15", "hi": "15" } },
+        { "id": "c", "text": { "en": "0.05", "hi": "0.05" } },
+        { "id": "d", "text": { "en": "7.5", "hi": "7.5" } }
+      ],
+      "correctOption": "a",
+      "explanation": { "en": "R = (SI × 100)/(P × T) = (225 × 100)/(1500 × 3) = 22500/4500 = 5%.", "hi": "R = (SI × 100)/(P × T) = (225 × 100)/(1500 × 3) = 22500/4500 = 5%." },
+      "distractorAnalysis": {
+        "b": { "en": "Comes from forgetting to divide by T = 3: (225 × 100)/1500 = 15.", "hi": "T = 3 से भाग देना भूल गए: (225 × 100)/1500 = 15." },
+        "c": { "en": "Comes from forgetting to multiply by 100: 225/(1500 × 3) = 0.05.", "hi": "100 से गुणा करना भूल गए: 225/(1500 × 3) = 0.05." },
+        "d": { "en": "Comes from using T = 2 instead of 3: (225 × 100)/(1500 × 2) = 7.5.", "hi": "T = 3 के बजाय T = 2 का प्रयोग किया: (225 × 100)/(1500 × 2) = 7.5." }
+      }
+    },
+    {
+      "key": "bank-math9-general-17",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Find the compound interest on Rs 2000 for 2 years at 10% per annum, compounded annually.", "hi": "Rs 2000 पर 2 वर्ष के लिए 10% वार्षिक दर से, वार्षिक चक्रवृद्धि के आधार पर चक्रवृद्धि ब्याज ज्ञात कीजिए." },
+      "options": [
+        { "id": "a", "text": { "en": "662", "hi": "662" } },
+        { "id": "b", "text": { "en": "420", "hi": "420" } },
+        { "id": "c", "text": { "en": "400", "hi": "400" } },
+        { "id": "d", "text": { "en": "2420", "hi": "2420" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "Amount = 2000 × (1.1)² = 2000 × 1.21 = 2420. CI = Amount - Principal = 2420 - 2000 = 420.", "hi": "मिश्रधन = 2000 × (1.1)² = 2000 × 1.21 = 2420. चक्रवृद्धि ब्याज = मिश्रधन - मूलधन = 2420 - 2000 = 420." },
+      "distractorAnalysis": {
+        "a": { "en": "Comes from using T = 3 years instead of 2: 2000 × [(1.1)³ - 1] = 2000 × 0.331 = 662.", "hi": "T = 2 के बजाय T = 3 वर्ष का प्रयोग किया: 2000 × [(1.1)³ - 1] = 2000 × 0.331 = 662." },
+        "c": { "en": "Comes from calculating simple interest instead of compound interest: (2000×10×2)/100 = 400.", "hi": "चक्रवृद्धि ब्याज के बजाय साधारण ब्याज निकाल लिया: (2000×10×2)/100 = 400." },
+        "d": { "en": "Comes from giving the total amount (2420) and forgetting to subtract the principal to get just the interest.", "hi": "कुल मिश्रधन (2420) ही दे दिया, ब्याज ज्ञात करने के लिए मूलधन घटाना भूल गए." }
+      }
+    },
+    {
+      "key": "bank-math9-general-18",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Find the area of a parallelogram with base 10 cm and height 6 cm.", "hi": "10 cm आधार और 6 cm ऊंचाई वाले एक समांतर चतुर्भुज का क्षेत्रफल ज्ञात कीजिए." },
+      "options": [
+        { "id": "a", "text": { "en": "30", "hi": "30" } },
+        { "id": "b", "text": { "en": "16", "hi": "16" } },
+        { "id": "c", "text": { "en": "60", "hi": "60" } },
+        { "id": "d", "text": { "en": "32", "hi": "32" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "Area of parallelogram = base × height = 10 × 6 = 60 cm².", "hi": "समांतर चतुर्भुज का क्षेत्रफल = आधार × ऊंचाई = 10 × 6 = 60 cm²." },
+      "distractorAnalysis": {
+        "a": { "en": "Comes from using the triangle area formula (½ × base × height) instead of the parallelogram formula: ½ × 10 × 6 = 30.", "hi": "समांतर चतुर्भुज के सूत्र के बजाय त्रिभुज के क्षेत्रफल का सूत्र (½ × आधार × ऊंचाई) प्रयोग किया: ½ × 10 × 6 = 30." },
+        "b": { "en": "Comes from adding the base and height instead of multiplying them: 10 + 6 = 16.", "hi": "आधार और ऊंचाई को गुणा करने के बजाय जोड़ दिया: 10 + 6 = 16." },
+        "d": { "en": "Comes from using a perimeter-like formula instead of the area formula: 2(10 + 6) = 32.", "hi": "क्षेत्रफल के सूत्र के बजाय परिमाप जैसा सूत्र प्रयोग किया: 2(10 + 6) = 32." }
+      }
+    },
+    {
+      "key": "bank-math9-general-19",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Find the area of a circle of radius 7 cm. (Use π = 22/7.)", "hi": "7 cm त्रिज्या वाले एक वृत्त का क्षेत्रफल ज्ञात कीजिए. (π = 22/7 का प्रयोग कीजिए.)" },
+      "options": [
+        { "id": "a", "text": { "en": "44", "hi": "44" } },
+        { "id": "b", "text": { "en": "22", "hi": "22" } },
+        { "id": "c", "text": { "en": "616", "hi": "616" } },
+        { "id": "d", "text": { "en": "154", "hi": "154" } }
+      ],
+      "correctOption": "d",
+      "explanation": { "en": "Area = πr² = (22/7) × 7 × 7 = 22 × 7 = 154 cm².", "hi": "क्षेत्रफल = πr² = (22/7) × 7 × 7 = 22 × 7 = 154 cm²." },
+      "distractorAnalysis": {
+        "a": { "en": "Comes from calculating the circumference instead of the area: 2πr = 2 × (22/7) × 7 = 44.", "hi": "क्षेत्रफल के बजाय परिधि निकाल ली: 2πr = 2 × (22/7) × 7 = 44." },
+        "b": { "en": "Comes from using r instead of r² in the formula: πr = (22/7) × 7 = 22.", "hi": "सूत्र में r² के बजाय केवल r का प्रयोग किया: πr = (22/7) × 7 = 22." },
+        "c": { "en": "Comes from mistakenly using the diameter (14) in place of the radius: π × 14² = (22/7) × 196 = 616.", "hi": "त्रिज्या के स्थान पर व्यास (14) का प्रयोग कर लिया: π × 14² = (22/7) × 196 = 616." }
+      }
+    },
+    {
+      "key": "bank-math9-general-20",
+      "difficulty": "MEDIUM",
+      "content": { "en": "The perimeter of a rectangle is 54 cm and its length is 17 cm. Find its breadth.", "hi": "एक आयत का परिमाप 54 cm है और उसकी लंबाई 17 cm है. उसकी चौड़ाई ज्ञात कीजिए." },
+      "options": [
+        { "id": "a", "text": { "en": "10", "hi": "10" } },
+        { "id": "b", "text": { "en": "37", "hi": "37" } },
+        { "id": "c", "text": { "en": "44", "hi": "44" } },
+        { "id": "d", "text": { "en": "13.5", "hi": "13.5" } }
+      ],
+      "correctOption": "a",
+      "explanation": { "en": "Perimeter = 2(l+b) → 54/2 = 27 = l + b → b = 27 - 17 = 10 cm.", "hi": "परिमाप = 2(l+b) → 54/2 = 27 = l + b → b = 27 - 17 = 10 cm." },
+      "distractorAnalysis": {
+        "b": { "en": "Comes from forgetting to divide the perimeter by 2 first: 54 - 17 = 37.", "hi": "परिमाप को पहले 2 से भाग देना भूल गए: 54 - 17 = 37." },
+        "c": { "en": "Comes from adding the length to the half-perimeter instead of subtracting it: 27 + 17 = 44.", "hi": "आधे परिमाप में से लंबाई घटाने के बजाय जोड़ दी: 27 + 17 = 44." },
+        "d": { "en": "Comes from wrongly using the square's perimeter formula (P = 4 × side): 54/4 = 13.5.", "hi": "गलती से वर्ग के परिमाप के सूत्र (P = 4 × भुजा) का प्रयोग किया: 54/4 = 13.5." }
+      }
+    },
+    {
+      "key": "bank-math9-general-21",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Two angles are complementary. If one angle is 34°, find the other angle.", "hi": "दो कोण पूरक (complementary) हैं. यदि एक कोण 34° है, तो दूसरा कोण ज्ञात कीजिए." },
+      "options": [
+        { "id": "a", "text": { "en": "66", "hi": "66" } },
+        { "id": "b", "text": { "en": "56", "hi": "56" } },
+        { "id": "c", "text": { "en": "146", "hi": "146" } },
+        { "id": "d", "text": { "en": "34", "hi": "34" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "Complementary angles add up to 90°. Other angle = 90 - 34 = 56°.", "hi": "पूरक कोणों का योग 90° होता है. दूसरा कोण = 90 - 34 = 56°." },
+      "distractorAnalysis": {
+        "a": { "en": "Comes from using 100° instead of 90°: 100 - 34 = 66.", "hi": "90° के बजाय 100° का प्रयोग किया: 100 - 34 = 66." },
+        "c": { "en": "Comes from using 180° (supplementary) instead of 90° (complementary): 180 - 34 = 146.", "hi": "पूरक (90°) के बजाय संपूरक कोण (180°) का प्रयोग किया: 180 - 34 = 146." },
+        "d": { "en": "Comes from assuming both angles are equal and simply repeating the given angle.", "hi": "यह मान लिया कि दोनों कोण बराबर हैं और दिए गए कोण को ही दोहरा दिया." }
+      }
+    },
+    {
+      "key": "bank-math9-general-22",
+      "difficulty": "MEDIUM",
+      "content": { "en": "A father's age is 3 times his son's age. The sum of their ages is 48 years. Find the son's age.", "hi": "एक पिता की आयु उसके पुत्र की आयु की 3 गुना है. उनकी आयु का योग 48 वर्ष है. पुत्र की आयु ज्ञात कीजिए." },
+      "options": [
+        { "id": "a", "text": { "en": "36", "hi": "36" } },
+        { "id": "b", "text": { "en": "24", "hi": "24" } },
+        { "id": "c", "text": { "en": "12", "hi": "12" } },
+        { "id": "d", "text": { "en": "16", "hi": "16" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "Let son's age = x, father's age = 3x. x + 3x = 48 → 4x = 48 → x = 12.", "hi": "मान लीजिए पुत्र की आयु = x, पिता की आयु = 3x. x + 3x = 48 → 4x = 48 → x = 12." },
+      "distractorAnalysis": {
+        "a": { "en": "Comes from giving the father's age (3 × 12 = 36) instead of the son's age.", "hi": "पुत्र की आयु के बजाय पिता की आयु (3 × 12 = 36) दे दी." },
+        "b": { "en": "Comes from wrongly assuming the two ages are equal and simply halving the sum: 48/2 = 24.", "hi": "गलती से यह मान लिया कि दोनों की आयु बराबर है और योग को आधा कर दिया: 48/2 = 24." },
+        "d": { "en": "Comes from dividing 48 by 3 instead of 4 (the correct total number of parts): 48/3 = 16.", "hi": "सही कुल भाग संख्या 4 के बजाय 48 को 3 से भाग दे दिया: 48/3 = 16." }
+      }
+    },
+    {
+      "key": "bank-math9-general-23",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Find the average of the numbers 10, 20, 25, 35 and 40.", "hi": "संख्याओं 10, 20, 25, 35 और 40 का औसत ज्ञात कीजिए." },
+      "options": [
+        { "id": "a", "text": { "en": "25", "hi": "25" } },
+        { "id": "b", "text": { "en": "40", "hi": "40" } },
+        { "id": "c", "text": { "en": "32.5", "hi": "32.5" } },
+        { "id": "d", "text": { "en": "26", "hi": "26" } }
+      ],
+      "correctOption": "d",
+      "explanation": { "en": "Sum = 10+20+25+35+40 = 130. Average = 130 ÷ 5 = 26.", "hi": "योग = 10+20+25+35+40 = 130. औसत = 130 ÷ 5 = 26." },
+      "distractorAnalysis": {
+        "a": { "en": "Comes from mistakenly giving the median (middle value when sorted: 25) instead of the mean.", "hi": "औसत के बजाय गलती से माध्यिका (क्रम में मध्य मान: 25) दे दी." },
+        "b": { "en": "Comes from mistakenly giving the largest value (40) instead of computing the average.", "hi": "औसत निकालने के बजाय गलती से सबसे बड़ा मान (40) दे दिया." },
+        "c": { "en": "Comes from dividing the sum by 4 instead of 5 (the correct count of numbers): 130/4 = 32.5.", "hi": "संख्याओं की सही गिनती 5 के बजाय 4 से भाग दे दिया: 130/4 = 32.5." }
+      }
+    },
+    {
+      "key": "bank-math9-general-24",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Find the volume of a cuboid with length 8 cm, breadth 5 cm and height 3 cm.", "hi": "8 cm लंबाई, 5 cm चौड़ाई और 3 cm ऊंचाई वाले एक घनाभ का आयतन ज्ञात कीजिए." },
+      "options": [
+        { "id": "a", "text": { "en": "120", "hi": "120" } },
+        { "id": "b", "text": { "en": "40", "hi": "40" } },
+        { "id": "c", "text": { "en": "16", "hi": "16" } },
+        { "id": "d", "text": { "en": "158", "hi": "158" } }
+      ],
+      "correctOption": "a",
+      "explanation": { "en": "Volume = l × b × h = 8 × 5 × 3 = 120 cm³.", "hi": "आयतन = l × b × h = 8 × 5 × 3 = 120 cm³." },
+      "distractorAnalysis": {
+        "b": { "en": "Comes from calculating only the base area and forgetting to multiply by the height: 8 × 5 = 40.", "hi": "केवल आधार का क्षेत्रफल निकाला और ऊंचाई से गुणा करना भूल गए: 8 × 5 = 40." },
+        "c": { "en": "Comes from adding the three dimensions instead of multiplying them: 8 + 5 + 3 = 16.", "hi": "तीनों विमाओं को गुणा करने के बजाय जोड़ दिया: 8 + 5 + 3 = 16." },
+        "d": { "en": "Comes from calculating the total surface area instead of the volume: 2(8×5 + 5×3 + 3×8) = 2×79 = 158.", "hi": "आयतन के बजाय संपूर्ण पृष्ठीय क्षेत्रफल निकाल लिया: 2(8×5 + 5×3 + 3×8) = 2×79 = 158." }
+      }
+    },
+    {
+      "key": "bank-math9-general-25",
+      "difficulty": "MEDIUM",
+      "content": { "en": "A car travels 180 km in 3 hours at a constant speed. How far will it travel in 5 hours at the same speed?", "hi": "एक कार स्थिर गति से 3 घंटे में 180 km की दूरी तय करती है. उसी गति से वह 5 घंटे में कितनी दूरी तय करेगी?" },
+      "options": [
+        { "id": "a", "text": { "en": "360", "hi": "360" } },
+        { "id": "b", "text": { "en": "300", "hi": "300" } },
+        { "id": "c", "text": { "en": "108", "hi": "108" } },
+        { "id": "d", "text": { "en": "240", "hi": "240" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "Speed = 180/3 = 60 km/h. Distance in 5 hours = 60 × 5 = 300 km.", "hi": "गति = 180/3 = 60 km/h. 5 घंटे में दूरी = 60 × 5 = 300 km." },
+      "distractorAnalysis": {
+        "a": { "en": "Comes from wrongly computing the speed as 72 km/h (dividing 180 by 2.5 instead of 3) and then multiplying by 5: 72 × 5 = 360.", "hi": "गति की गलत गणना की - 180 को 3 के बजाय 2.5 से भाग देकर 72 km/h मान लिया, फिर 5 से गुणा किया: 72 × 5 = 360." },
+        "c": { "en": "Comes from applying inverse proportion instead of direct proportion: 180 × 3/5 = 108.", "hi": "प्रत्यक्ष समानुपात के बजाय व्युत्क्रम समानुपात लगा दिया: 180 × 3/5 = 108." },
+        "d": { "en": "Comes from finding the correct speed (60) but multiplying by 4 instead of 5: 60 × 4 = 240.", "hi": "सही गति (60) निकाली परंतु 5 के बजाय 4 से गुणा कर दिया: 60 × 4 = 240." }
+      }
+    },
+    {
+      "key": "bank-math9-general-26",
+      "difficulty": "HARD",
+      "content": { "en": "Solve for x: x/2 + x/3 = 10.", "hi": "x के लिए हल कीजिए: x/2 + x/3 = 10." },
+      "options": [
+        { "id": "a", "text": { "en": "60", "hi": "60" } },
+        { "id": "b", "text": { "en": "2", "hi": "2" } },
+        { "id": "c", "text": { "en": "12", "hi": "12" } },
+        { "id": "d", "text": { "en": "25", "hi": "25" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "LCM of 2 and 3 is 6: 3x/6 + 2x/6 = 5x/6 = 10 → x = 60/5 = 12.", "hi": "2 और 3 का LCM 6 है: 3x/6 + 2x/6 = 5x/6 = 10 → x = 60/5 = 12." },
+      "distractorAnalysis": {
+        "a": { "en": "Comes from combining the denominators as 6 without correctly combining the numerators over it: x/6 = 10 → x = 60.", "hi": "हर को 6 तो सही बनाया परंतु अंश को सही ढंग से नहीं जोड़ा: x/6 = 10 → x = 60." },
+        "b": { "en": "Comes from dropping the denominator entirely after combining, treating 5x/6 = 10 as 5x = 10: x = 2.", "hi": "जोड़ने के बाद हर को पूरी तरह हटा दिया, 5x/6 = 10 को 5x = 10 मान लिया: x = 2." },
+        "d": { "en": "Comes from wrongly adding the fractions straight across (numerators together, denominators together): (x+x)/(2+3) = 2x/5 = 10 → x = 25.", "hi": "भिन्नों को गलत तरीके से सीधे जोड़ दिया (अंश आपस में, हर आपस में): (x+x)/(2+3) = 2x/5 = 10 → x = 25." }
+      }
+    },
+    {
+      "key": "bank-math9-general-27",
+      "difficulty": "HARD",
+      "content": { "en": "Simplify: 2(3x - 4) - 3(x - 2) + 5.", "hi": "सरल कीजिए: 2(3x - 4) - 3(x - 2) + 5." },
+      "options": [
+        { "id": "a", "text": { "en": "3x - 9", "hi": "3x - 9" } },
+        { "id": "b", "text": { "en": "3x - 2", "hi": "3x - 2" } },
+        { "id": "c", "text": { "en": "3x + 7", "hi": "3x + 7" } },
+        { "id": "d", "text": { "en": "3x + 3", "hi": "3x + 3" } }
+      ],
+      "correctOption": "d",
+      "explanation": { "en": "2(3x-4) = 6x - 8. -3(x-2) = -3x + 6. Sum: 6x - 8 - 3x + 6 + 5 = 3x + 3.", "hi": "2(3x-4) = 6x - 8. -3(x-2) = -3x + 6. जोड़ने पर: 6x - 8 - 3x + 6 + 5 = 3x + 3." },
+      "distractorAnalysis": {
+        "a": { "en": "Comes from a sign error distributing -3 to -2, treating (-3)×(-2) as -6 instead of +6: 6x - 8 - 3x - 6 + 5 = 3x - 9.", "hi": "-3 को -2 से गुणा करते समय चिन्ह की गलती से (-3)×(-2) को +6 के बजाय -6 मान लिया: 6x - 8 - 3x - 6 + 5 = 3x - 9." },
+        "b": { "en": "Comes from dropping the final +5 term entirely: 6x - 8 - 3x + 6 = 3x - 2.", "hi": "अंत में +5 पद को पूरी तरह छोड़ दिया: 6x - 8 - 3x + 6 = 3x - 2." },
+        "c": { "en": "Comes from distributing the first 2 only to the x-term and not to -4: 6x - 4 - 3x + 6 + 5 = 3x + 7.", "hi": "पहले वाले 2 को केवल x पद से गुणा किया, -4 से नहीं: 6x - 4 - 3x + 6 + 5 = 3x + 7." }
+      }
+    },
+    {
+      "key": "bank-math9-general-28",
+      "difficulty": "HARD",
+      "content": { "en": "A number 500 is first increased by 20% and then the result is decreased by 10%. Find the final number.", "hi": "संख्या 500 को पहले 20% बढ़ाया जाता है और फिर परिणाम को 10% घटाया जाता है. अंतिम संख्या ज्ञात कीजिए." },
+      "options": [
+        { "id": "a", "text": { "en": "540", "hi": "540" } },
+        { "id": "b", "text": { "en": "550", "hi": "550" } },
+        { "id": "c", "text": { "en": "660", "hi": "660" } },
+        { "id": "d", "text": { "en": "450", "hi": "450" } }
+      ],
+      "correctOption": "a",
+      "explanation": { "en": "After 20% increase: 500 × 1.20 = 600. After 10% decrease: 600 × 0.90 = 540.", "hi": "20% बढ़ाने पर: 500 × 1.20 = 600. फिर 10% घटाने पर: 600 × 0.90 = 540." },
+      "distractorAnalysis": {
+        "b": { "en": "Comes from wrongly treating successive percentage changes as additive: 500 × (1 + 0.20 - 0.10) = 500 × 1.10 = 550.", "hi": "लगातार प्रतिशत परिवर्तनों को गलती से जोड़ने योग्य मान लिया: 500 × (1 + 0.20 - 0.10) = 500 × 1.10 = 550." },
+        "c": { "en": "Comes from applying both changes as increases, forgetting the second one was a decrease: 500 × 1.20 × 1.10 = 660.", "hi": "दोनों परिवर्तनों को वृद्धि मान लिया, यह भूल गए कि दूसरा परिवर्तन कमी था: 500 × 1.20 × 1.10 = 660." },
+        "d": { "en": "Comes from applying only the 10% decrease and forgetting the 20% increase: 500 × 0.90 = 450.", "hi": "केवल 10% की कमी लगाई और 20% की वृद्धि को भूल गए: 500 × 0.90 = 450." }
+      }
+    },
+    {
+      "key": "bank-math9-general-29",
+      "difficulty": "HARD",
+      "content": { "en": "The cost price of an article is Rs 800 and it is sold for Rs 920. Find the profit percentage.", "hi": "एक वस्तु का क्रय मूल्य Rs 800 है और उसे Rs 920 में बेचा जाता है. लाभ प्रतिशत ज्ञात कीजिए." },
+      "options": [
+        { "id": "a", "text": { "en": "115", "hi": "115" } },
+        { "id": "b", "text": { "en": "15", "hi": "15" } },
+        { "id": "c", "text": { "en": "13.04", "hi": "13.04" } },
+        { "id": "d", "text": { "en": "86.96", "hi": "86.96" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "Profit = 920 - 800 = 120. Profit % = (120/800) × 100 = 15%.", "hi": "लाभ = 920 - 800 = 120. लाभ % = (120/800) × 100 = 15%." },
+      "distractorAnalysis": {
+        "a": { "en": "Comes from treating the selling price itself (instead of the profit) as the numerator: (920/800) × 100 = 115.", "hi": "लाभ के बजाय विक्रय मूल्य को ही अंश मान लिया: (920/800) × 100 = 115." },
+        "c": { "en": "Comes from calculating profit percentage on the selling price instead of the cost price: (120/920) × 100 ≈ 13.04.", "hi": "क्रय मूल्य के बजाय विक्रय मूल्य पर लाभ प्रतिशत निकाल लिया: (120/920) × 100 ≈ 13.04." },
+        "d": { "en": "Comes from computing an inverted ratio, CP/SP × 100, instead of profit/CP × 100: (800/920) × 100 ≈ 86.96.", "hi": "लाभ/क्रय मूल्य × 100 के बजाय उल्टा अनुपात CP/SP × 100 निकाल लिया: (800/920) × 100 ≈ 86.96." }
+      }
+    },
+    {
+      "key": "bank-math9-general-30",
+      "difficulty": "HARD",
+      "content": { "en": "Three numbers are in the ratio 3 : 4 : 5. The sum of the largest and the smallest number is 40. Find the middle number.", "hi": "तीन संख्याएं 3 : 4 : 5 के अनुपात में हैं. सबसे बड़ी और सबसे छोटी संख्या का योग 40 है. मध्य संख्या ज्ञात कीजिए." },
+      "options": [
+        { "id": "a", "text": { "en": "15", "hi": "15" } },
+        { "id": "b", "text": { "en": "13.33", "hi": "13.33" } },
+        { "id": "c", "text": { "en": "20", "hi": "20" } },
+        { "id": "d", "text": { "en": "25", "hi": "25" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "Let the numbers be 3x, 4x, 5x. Largest + smallest = 5x + 3x = 8x = 40 → x = 5. Middle number = 4x = 20.", "hi": "मान लीजिए संख्याएं 3x, 4x, 5x हैं. सबसे बड़ी + सबसे छोटी = 5x + 3x = 8x = 40 → x = 5. मध्य संख्या = 4x = 20." },
+      "distractorAnalysis": {
+        "a": { "en": "Comes from giving the smallest number (3x = 15) instead of the middle number.", "hi": "मध्य संख्या के बजाय सबसे छोटी संख्या (3x = 15) दे दी." },
+        "b": { "en": "Comes from dividing 40 by the sum of all three ratio terms (3+4+5=12) instead of just the largest and smallest (8): x = 40/12 = 3.33, middle = 4 × 3.33 ≈ 13.33.", "hi": "40 को केवल सबसे बड़े और सबसे छोटे पद के योग (8) के बजाय तीनों अनुपात-पदों के योग (3+4+5=12) से भाग दे दिया: x = 40/12 = 3.33, मध्य संख्या = 4 × 3.33 ≈ 13.33." },
+        "d": { "en": "Comes from giving the largest number (5x = 25) instead of the middle number.", "hi": "मध्य संख्या के बजाय सबसे बड़ी संख्या (5x = 25) दे दी." }
+      }
+    },
+    {
+      "key": "bank-math9-general-31",
+      "difficulty": "HARD",
+      "content": { "en": "The compound interest on a certain sum for 2 years at 10% per annum, compounded annually, is Rs 210. Find the sum.", "hi": "किसी राशि पर 2 वर्ष के लिए 10% वार्षिक दर से, वार्षिक चक्रवृद्धि आधार पर चक्रवृद्धि ब्याज Rs 210 है. वह राशि ज्ञात कीजिए." },
+      "options": [
+        { "id": "a", "text": { "en": "2100", "hi": "2100" } },
+        { "id": "b", "text": { "en": "1050", "hi": "1050" } },
+        { "id": "c", "text": { "en": "2000", "hi": "2000" } },
+        { "id": "d", "text": { "en": "1000", "hi": "1000" } }
+      ],
+      "correctOption": "d",
+      "explanation": { "en": "CI = P[(1.1)² - 1] = P × 0.21 = 210 → P = 210 ÷ 0.21 = 1000.", "hi": "CI = P[(1.1)² - 1] = P × 0.21 = 210 → P = 210 ÷ 0.21 = 1000." },
+      "distractorAnalysis": {
+        "a": { "en": "Comes from dividing by the simple rate 0.1 instead of the compound factor 0.21: 210 ÷ 0.1 = 2100.", "hi": "चक्रवृद्धि गुणांक 0.21 के बजाय साधारण दर 0.1 से भाग दे दिया: 210 ÷ 0.1 = 2100." },
+        "b": { "en": "Comes from using the simple interest formula (P = SI×100/(R×T)) for compound interest: 210×100/(10×2) = 1050.", "hi": "चक्रवृद्धि ब्याज के लिए साधारण ब्याज के सूत्र (P = SI×100/(R×T)) का प्रयोग कर लिया: 210×100/(10×2) = 1050." },
+        "c": { "en": "Comes from dividing by half of the compound factor (0.105) instead of 0.21: 210 ÷ 0.105 = 2000.", "hi": "0.21 के बजाय उसके आधे (0.105) से भाग दे दिया: 210 ÷ 0.105 = 2000." }
+      }
+    },
+    {
+      "key": "bank-math9-general-32",
+      "difficulty": "HARD",
+      "content": { "en": "Find the difference between the compound interest and the simple interest on Rs 5000 for 2 years at 8% per annum.", "hi": "Rs 5000 पर 2 वर्ष के लिए 8% वार्षिक दर से चक्रवृद्धि ब्याज और साधारण ब्याज के बीच का अंतर ज्ञात कीजिए." },
+      "options": [
+        { "id": "a", "text": { "en": "32", "hi": "32" } },
+        { "id": "b", "text": { "en": "800", "hi": "800" } },
+        { "id": "c", "text": { "en": "832", "hi": "832" } },
+        { "id": "d", "text": { "en": "64", "hi": "64" } }
+      ],
+      "correctOption": "a",
+      "explanation": { "en": "SI = (5000×8×2)/100 = 800. CI = 5000×[(1.08)² - 1] = 5000×0.1664 = 832. Difference = 832 - 800 = 32.", "hi": "SI = (5000×8×2)/100 = 800. CI = 5000×[(1.08)² - 1] = 5000×0.1664 = 832. अंतर = 832 - 800 = 32." },
+      "distractorAnalysis": {
+        "b": { "en": "Comes from giving the simple interest (800) itself instead of the difference.", "hi": "अंतर के बजाय साधारण ब्याज (800) ही दे दिया." },
+        "c": { "en": "Comes from giving the compound interest (832) itself instead of the difference.", "hi": "अंतर के बजाय चक्रवृद्धि ब्याज (832) ही दे दिया." },
+        "d": { "en": "Comes from doubling the correct difference by mistakenly applying the difference formula twice: 32 × 2 = 64.", "hi": "अंतर के सूत्र को गलती से दो बार लगाकर सही अंतर को दोगुना कर दिया: 32 × 2 = 64." }
+      }
+    },
+    {
+      "key": "bank-math9-general-33",
+      "difficulty": "HARD",
+      "content": { "en": "Find the area of a triangle whose sides are 13 cm, 14 cm and 15 cm, using Heron's formula.", "hi": "हीरोन के सूत्र का प्रयोग करके 13 cm, 14 cm और 15 cm भुजाओं वाले त्रिभुज का क्षेत्रफल ज्ञात कीजिए." },
+      "options": [
+        { "id": "a", "text": { "en": "21", "hi": "21" } },
+        { "id": "b", "text": { "en": "84", "hi": "84" } },
+        { "id": "c", "text": { "en": "91", "hi": "91" } },
+        { "id": "d", "text": { "en": "7056", "hi": "7056" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "s = (13+14+15)/2 = 21. Area = √[s(s-a)(s-b)(s-c)] = √[21×8×7×6] = √7056 = 84 cm².", "hi": "s = (13+14+15)/2 = 21. क्षेत्रफल = √[s(s-a)(s-b)(s-c)] = √[21×8×7×6] = √7056 = 84 cm²." },
+      "distractorAnalysis": {
+        "a": { "en": "Comes from confusing the semi-perimeter (s = 21) itself with the area.", "hi": "अर्धपरिमाप (s = 21) को ही क्षेत्रफल समझ लिया." },
+        "c": { "en": "Comes from wrongly treating it as a right triangle with legs 13 and 14: ½ × 13 × 14 = 91.", "hi": "गलती से इसे 13 और 14 भुजाओं वाला समकोण त्रिभुज मान लिया: ½ × 13 × 14 = 91." },
+        "d": { "en": "Comes from correctly computing s(s-a)(s-b)(s-c) = 21×8×7×6 = 7056 but forgetting to take the square root.", "hi": "s(s-a)(s-b)(s-c) = 21×8×7×6 = 7056 तो सही निकाला परंतु वर्गमूल लेना भूल गए." }
+      }
+    },
+    {
+      "key": "bank-math9-general-34",
+      "difficulty": "HARD",
+      "content": { "en": "The area of a circle is 154 cm². Find its radius. (Use π = 22/7.)", "hi": "एक वृत्त का क्षेत्रफल 154 cm² है. उसकी त्रिज्या ज्ञात कीजिए. (π = 22/7 का प्रयोग कीजिए.)" },
+      "options": [
+        { "id": "a", "text": { "en": "24.5", "hi": "24.5" } },
+        { "id": "b", "text": { "en": "14", "hi": "14" } },
+        { "id": "c", "text": { "en": "7", "hi": "7" } },
+        { "id": "d", "text": { "en": "49", "hi": "49" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "πr² = 154 → r² = 154 × 7/22 = 49 → r = √49 = 7 cm.", "hi": "πr² = 154 → r² = 154 × 7/22 = 49 → r = √49 = 7 cm." },
+      "distractorAnalysis": {
+        "a": { "en": "Comes from wrongly treating 154 as the circumference instead of the area: r = 154 × 7/(2×22) = 24.5.", "hi": "154 को क्षेत्रफल के बजाय गलती से परिधि मान लिया: r = 154 × 7/(2×22) = 24.5." },
+        "b": { "en": "Comes from correctly finding r = 7 but then doubling it, confusing radius with diameter: 7 × 2 = 14.", "hi": "r = 7 तो सही निकाला परंतु फिर उसे दोगुना कर दिया, त्रिज्या और व्यास में भ्रम हो गया: 7 × 2 = 14." },
+        "d": { "en": "Comes from finding r² = 49 correctly but forgetting to take the square root.", "hi": "r² = 49 तो सही निकाला परंतु वर्गमूल लेना भूल गए." }
+      }
+    },
+    {
+      "key": "bank-math9-general-35",
+      "difficulty": "HARD",
+      "content": { "en": "The total surface area of a cube is 96 cm². Find its volume.", "hi": "एक घन का संपूर्ण पृष्ठीय क्षेत्रफल 96 cm² है. उसका आयतन ज्ञात कीजिए." },
+      "options": [
+        { "id": "a", "text": { "en": "16", "hi": "16" } },
+        { "id": "b", "text": { "en": "4", "hi": "4" } },
+        { "id": "c", "text": { "en": "384", "hi": "384" } },
+        { "id": "d", "text": { "en": "64", "hi": "64" } }
+      ],
+      "correctOption": "d",
+      "explanation": { "en": "6a² = 96 → a² = 16 → a = 4 cm. Volume = a³ = 4³ = 64 cm³.", "hi": "6a² = 96 → a² = 16 → a = 4 cm. आयतन = a³ = 4³ = 64 cm³." },
+      "distractorAnalysis": {
+        "a": { "en": "Comes from finding a² = 16 correctly but forgetting to go on and cube the side to get the volume.", "hi": "a² = 16 तो सही निकाला परंतु आयतन के लिए भुजा का घन करना भूल गए." },
+        "b": { "en": "Comes from giving the side length (a = 4) itself instead of the volume.", "hi": "आयतन के बजाय केवल भुजा की लंबाई (a = 4) दे दी." },
+        "c": { "en": "Comes from multiplying the surface area by the side length instead of cubing the side length: 96 × 4 = 384.", "hi": "भुजा का घन करने के बजाय पृष्ठीय क्षेत्रफल को भुजा की लंबाई से गुणा कर दिया: 96 × 4 = 384." }
+      }
+    },
+    {
+      "key": "bank-math9-general-36",
+      "difficulty": "HARD",
+      "content": { "en": "The cost of 3 pens and 2 pencils is Rs 39, and the cost of 5 pens and 3 pencils is Rs 62. Find the cost of one pen.", "hi": "3 पेन और 2 पेंसिल की कीमत Rs 39 है, और 5 पेन और 3 पेंसिल की कीमत Rs 62 है. एक पेन की कीमत ज्ञात कीजिए." },
+      "options": [
+        { "id": "a", "text": { "en": "7", "hi": "7" } },
+        { "id": "b", "text": { "en": "9", "hi": "9" } },
+        { "id": "c", "text": { "en": "8", "hi": "8" } },
+        { "id": "d", "text": { "en": "11.5", "hi": "11.5" } }
+      ],
+      "correctOption": "a",
+      "explanation": { "en": "3p+2c=39 ...(1); 5p+3c=62 ...(2). Multiply (1) by 3 and (2) by 2: 9p+6c=117 and 10p+6c=124. Subtracting: p = 7.", "hi": "3p+2c=39 ...(1); 5p+3c=62 ...(2). (1) को 3 से और (2) को 2 से गुणा करने पर: 9p+6c=117 और 10p+6c=124. घटाने पर: p = 7." },
+      "distractorAnalysis": {
+        "b": { "en": "Comes from giving the pencil's cost (c = 9, found by substituting p = 7 back into equation 1) instead of the pen's cost.", "hi": "पेन की कीमत के बजाय पेंसिल की कीमत (c = 9, समीकरण 1 में p = 7 रखकर प्राप्त) दे दी." },
+        "c": { "en": "Comes from an arithmetic slip while subtracting 124 - 117, misreading it as 8 instead of 7.", "hi": "124 - 117 घटाते समय अंकगणितीय चूक से इसे 7 के बजाय 8 पढ़ लिया." },
+        "d": { "en": "Comes from subtracting the two original equations directly without scaling them first: (5p+3c) - (3p+2c) = 62-39 gives 2p+c=23, then wrongly assuming c = 0 to get p = 11.5.", "hi": "दोनों मूल समीकरणों को पहले गुणा किए बिना सीधे घटा दिया: (5p+3c) - (3p+2c) = 62-39 से 2p+c=23 मिलता है, फिर गलती से c = 0 मानकर p = 11.5 निकाल लिया." }
+      }
+    },
+    {
+      "key": "bank-math9-general-37",
+      "difficulty": "HARD",
+      "content": { "en": "A can complete a piece of work in 10 days and B can complete it in 15 days. Working together, in how many days will they complete the work?", "hi": "A किसी कार्य को 10 दिनों में पूरा कर सकता है और B उसी कार्य को 15 दिनों में पूरा कर सकता है. दोनों मिलकर कार्य को कितने दिनों में पूरा करेंगे?" },
+      "options": [
+        { "id": "a", "text": { "en": "5", "hi": "5" } },
+        { "id": "b", "text": { "en": "6", "hi": "6" } },
+        { "id": "c", "text": { "en": "25", "hi": "25" } },
+        { "id": "d", "text": { "en": "12.5", "hi": "12.5" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "A's rate = 1/10, B's rate = 1/15. Combined rate = 1/10 + 1/15 = 3/30 + 2/30 = 5/30 = 1/6. Time = 6 days.", "hi": "A की दर = 1/10, B की दर = 1/15. संयुक्त दर = 1/10 + 1/15 = 3/30 + 2/30 = 5/30 = 1/6. समय = 6 दिन." },
+      "distractorAnalysis": {
+        "a": { "en": "Comes from wrongly assuming that working together simply doubles the faster worker's speed: 10 ÷ 2 = 5.", "hi": "गलती से यह मान लिया कि साथ मिलकर काम करने से तेज़ कर्मी की गति केवल दोगुनी हो जाती है: 10 ÷ 2 = 5." },
+        "c": { "en": "Comes from simply adding the two individual times, wrongly assuming combined time is the sum: 10 + 15 = 25.", "hi": "गलती से यह मान लिया कि संयुक्त समय दोनों समयों का योग है: 10 + 15 = 25." },
+        "d": { "en": "Comes from wrongly adding the fractions straight across (numerators together, denominators together): 1/10 + 1/15 as (1+1)/(10+15) = 2/25, inverted to 12.5.", "hi": "भिन्नों को गलत तरीके से सीधे जोड़ दिया (अंश आपस में, हर आपस में): 1/10 + 1/15 को (1+1)/(10+15) = 2/25 मान लिया, जिसका व्युत्क्रम 12.5 है." }
+      }
+    },
+    {
+      "key": "bank-math9-general-38",
+      "difficulty": "HARD",
+      "content": { "en": "A car travels 60 km at a speed of 30 km/h and the next 60 km at a speed of 60 km/h. Find its average speed for the whole journey.", "hi": "एक कार 60 km की दूरी 30 km/h की गति से और अगली 60 km की दूरी 60 km/h की गति से तय करती है. पूरी यात्रा के लिए उसकी औसत गति ज्ञात कीजिए." },
+      "options": [
+        { "id": "a", "text": { "en": "30", "hi": "30" } },
+        { "id": "b", "text": { "en": "20", "hi": "20" } },
+        { "id": "c", "text": { "en": "40", "hi": "40" } },
+        { "id": "d", "text": { "en": "45", "hi": "45" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "Time for first 60 km = 60/30 = 2 h. Time for next 60 km = 60/60 = 1 h. Total distance = 120 km, total time = 3 h. Average speed = 120/3 = 40 km/h.", "hi": "पहली 60 km के लिए समय = 60/30 = 2 घंटे. अगली 60 km के लिए समय = 60/60 = 1 घंटा. कुल दूरी = 120 km, कुल समय = 3 घंटे. औसत गति = 120/3 = 40 km/h." },
+      "distractorAnalysis": {
+        "a": { "en": "Comes from using only the first leg's speed and ignoring the second leg entirely.", "hi": "केवल पहले चरण की गति का प्रयोग किया और दूसरे चरण को पूरी तरह नज़रअंदाज़ कर दिया." },
+        "b": { "en": "Comes from wrongly taking the total distance as just 60 km instead of 120 km: 60/3 = 20.", "hi": "कुल दूरी को 120 km के बजाय गलती से केवल 60 km मान लिया: 60/3 = 20." },
+        "d": { "en": "Comes from wrongly averaging the two speeds arithmetically instead of using total distance/total time: (30+60)/2 = 45.", "hi": "कुल दूरी/कुल समय का प्रयोग करने के बजाय दोनों गतियों का सीधा औसत निकाल लिया: (30+60)/2 = 45." }
+      }
+    },
+    {
+      "key": "bank-math9-general-39",
+      "difficulty": "HARD",
+      "content": { "en": "A and B start a business investing Rs 5000 and Rs 7000 respectively. If the profit at the end of the year is Rs 3600, divided in the ratio of their investments, find A's share.", "hi": "A और B क्रमशः Rs 5000 और Rs 7000 का निवेश करके एक व्यवसाय शुरू करते हैं. यदि वर्ष के अंत में लाभ Rs 3600 है, जो उनके निवेश के अनुपात में बांटा जाता है, तो A का हिस्सा ज्ञात कीजिए." },
+      "options": [
+        { "id": "a", "text": { "en": "2100", "hi": "2100" } },
+        { "id": "b", "text": { "en": "1800", "hi": "1800" } },
+        { "id": "c", "text": { "en": "1200", "hi": "1200" } },
+        { "id": "d", "text": { "en": "1500", "hi": "1500" } }
+      ],
+      "correctOption": "d",
+      "explanation": { "en": "Ratio of investments = 5000:7000 = 5:7, total parts = 12. A's share = 3600 × 5/12 = 1500.", "hi": "निवेश का अनुपात = 5000:7000 = 5:7, कुल भाग = 12. A का हिस्सा = 3600 × 5/12 = 1500." },
+      "distractorAnalysis": {
+        "a": { "en": "Comes from giving B's share (3600 × 7/12 = 2100) instead of A's.", "hi": "A के हिस्से के बजाय B का हिस्सा (3600 × 7/12 = 2100) दे दिया." },
+        "b": { "en": "Comes from wrongly assuming an equal split between the two partners: 3600/2 = 1800.", "hi": "गलती से यह मान लिया कि दोनों साझेदारों में लाभ बराबर बंटेगा: 3600/2 = 1800." },
+        "c": { "en": "Comes from miscounting the total number of ratio parts as 15 instead of 12: 3600 × 5/15 = 1200.", "hi": "अनुपात के कुल भागों की गिनती 12 के बजाय गलती से 15 कर ली: 3600 × 5/15 = 1200." }
+      }
+    },
+    {
+      "key": "bank-math9-general-40",
+      "difficulty": "HARD",
+      "content": { "en": "An article has a marked price of Rs 2000. A discount of 10% is given, and then 5% GST is charged on the discounted price. Find the final price paid.", "hi": "एक वस्तु का अंकित मूल्य Rs 2000 है. उस पर 10% की छूट दी जाती है, और फिर छूट के बाद की कीमत पर 5% जीएसटी लगाया जाता है. भुगतान की गई अंतिम कीमत ज्ञात कीजिए." },
+      "options": [
+        { "id": "a", "text": { "en": "1890", "hi": "1890" } },
+        { "id": "b", "text": { "en": "1900", "hi": "1900" } },
+        { "id": "c", "text": { "en": "1700", "hi": "1700" } },
+        { "id": "d", "text": { "en": "2100", "hi": "2100" } }
+      ],
+      "correctOption": "a",
+      "explanation": { "en": "Discounted price = 2000 × 0.90 = 1800. GST = 1800 × 0.05 = 90. Final price = 1800 + 90 = 1890.", "hi": "छूट के बाद कीमत = 2000 × 0.90 = 1800. जीएसटी = 1800 × 0.05 = 90. अंतिम कीमत = 1800 + 90 = 1890." },
+      "distractorAnalysis": {
+        "b": { "en": "Comes from calculating the GST on the marked price instead of the discounted price: 2000 - 200 + (2000×0.05) = 2000 - 200 + 100 = 1900.", "hi": "जीएसटी छूट के बाद की कीमत के बजाय अंकित मूल्य पर लगा दिया: 2000 - 200 + (2000×0.05) = 2000 - 200 + 100 = 1900." },
+        "c": { "en": "Comes from wrongly subtracting both percentages directly from the marked price: 2000 × (1 - 0.10 - 0.05) = 2000 × 0.85 = 1700.", "hi": "दोनों प्रतिशतों को गलती से सीधे अंकित मूल्य से घटा दिया: 2000 × (1 - 0.10 - 0.05) = 2000 × 0.85 = 1700." },
+        "d": { "en": "Comes from forgetting the discount entirely and only adding the 5% GST to the marked price: 2000 × 1.05 = 2100.", "hi": "छूट को पूरी तरह भूल गए और केवल अंकित मूल्य पर 5% जीएसटी जोड़ दिया: 2000 × 1.05 = 2100." }
+      }
+    }
+  ]
+}

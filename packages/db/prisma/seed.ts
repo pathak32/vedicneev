@@ -1,6 +1,17 @@
 import { Difficulty, ExamType, Language, Prisma, PrismaClient } from "@prisma/client";
 
 import { blogSeedPosts } from "./blog-seed";
+import { loadAuditQuestions, type AuditFile } from "./topic-seed/audit-loader";
+import grammarAudit from "./topic-seed/audit/grammar.json";
+import generalAwarenessAudit from "./topic-seed/audit/general-awareness.json";
+import generalMathematicsAudit from "./topic-seed/audit/general-mathematics.json";
+import generalScienceAudit from "./topic-seed/audit/general-science.json";
+import socialAwarenessAudit from "./topic-seed/audit/social-awareness.json";
+import { buildClassificationQuestions } from "./topic-seed/classification";
+import { buildNumberSeriesQuestions } from "./topic-seed/number-series";
+import { buildPatternCompletionQuestions } from "./topic-seed/pattern-completion";
+import { buildSpeedCalculationQuestions } from "./topic-seed/speed-calculation";
+import type { GeneratedQuestion } from "./topic-seed/types";
 
 const prisma = new PrismaClient();
 
@@ -253,7 +264,7 @@ async function main() {
     },
   });
 
-  await prisma.vedicSpeedHack.upsert({
+  const hackVerticallyCrosswise = await prisma.vedicSpeedHack.upsert({
     where: { key: "vertically_and_crosswise" },
     update: {},
     create: {
@@ -535,6 +546,23 @@ async function main() {
     correctOption: string;
     vedicSpeedHackId?: string;
     explanation: Prisma.InputJsonValue;
+    /** Per wrong-option-id breakdown of why it's a common trap answer — see Question.distractorAnalysis. */
+    distractorAnalysis?: Prisma.InputJsonValue;
+  }
+
+  /** Adapts a topic-seed/*.ts generator's output (packages/db/prisma/topic-seed/types.ts) into this file's QuestionSeed shape. */
+  function fromGenerated(topicId: string, questions: GeneratedQuestion[]): QuestionSeed[] {
+    return questions.map((q) => ({
+      key: q.key,
+      topicId,
+      difficulty: q.difficulty as Difficulty,
+      content: q.content as unknown as Prisma.InputJsonValue,
+      options: q.options as unknown as Prisma.InputJsonValue,
+      correctOption: q.correctOption,
+      vedicSpeedHackId: q.vedicSpeedHackId,
+      explanation: q.explanation as unknown as Prisma.InputJsonValue,
+      distractorAnalysis: q.distractorAnalysis as unknown as Prisma.InputJsonValue,
+    }));
   }
 
   // Mental Ability — pattern/series/classification (5 questions, en/hi).
@@ -1051,7 +1079,59 @@ async function main() {
     },
   ];
 
-  const allQuestions = [...mentalAbilityQuestions, ...arithmeticQuestions, ...multilingualQuestions, ...class9Questions];
+  // Difficulty-tiered pools (10 Easy / 15 Moderate / 15 Hard = 40 each) for
+  // Number Series and Speed Calculation — every correct answer and
+  // distractor is computed by real arithmetic in packages/db/prisma/
+  // topic-seed/*.ts, not hand-typed, with correctExplanation (the existing
+  // `explanation` field) and a full distractorAnalysis breakdown for every
+  // item. en/hi fully authored; mr/bn/ta/gu incremental, same convention as
+  // the rest of this file.
+  const numberSeriesPool = fromGenerated(numberSeries.id, buildNumberSeriesQuestions());
+  const speedCalculationPool = fromGenerated(
+    speedCalculation.id,
+    buildSpeedCalculationQuestions({
+      byEleven: hackByEleven.id,
+      squareFive: hackSquareFive.id,
+      nikhilamBase: hackNikhilamBase.id,
+      nikhilamComplement: hackNikhilamComplement.id,
+      verticallyCrosswise: hackVerticallyCrosswise.id,
+    })
+  );
+  const patternCompletionPool = fromGenerated(patternCompletion.id, buildPatternCompletionQuestions());
+  // Classification is categorical, not arithmetic — every item is
+  // hand-authored (packages/db/prisma/topic-seed/classification.ts), not
+  // computed, since correctness here can't be verified by computation the
+  // way the number-based pools above can.
+  const classificationPool = fromGenerated(classification.id, buildClassificationQuestions());
+
+  // Remaining sub-sections: Grammar, General Awareness, General Mathematics,
+  // General Science, and Social Awareness are categorical/factual rather
+  // than arithmetic, so each was drafted by an agent, hand-verified by a
+  // human against packages/db/prisma/topic-seed/audit/_check.ts plus a full
+  // factual read-through, and signed off before being wired in here.
+  // loadAuditQuestions re-runs the same structural checks at seed time as a
+  // defense-in-depth safety net — sign-off is not a substitute for it.
+  const grammarPool = fromGenerated(grammar.id, loadAuditQuestions(grammarAudit as unknown as AuditFile));
+  const generalAwarenessPool = fromGenerated(generalAwareness.id, loadAuditQuestions(generalAwarenessAudit as unknown as AuditFile));
+  const generalMathematicsPool = fromGenerated(generalMathematics.id, loadAuditQuestions(generalMathematicsAudit as unknown as AuditFile));
+  const generalSciencePool = fromGenerated(generalScience.id, loadAuditQuestions(generalScienceAudit as unknown as AuditFile));
+  const socialAwarenessPool = fromGenerated(socialAwareness.id, loadAuditQuestions(socialAwarenessAudit as unknown as AuditFile));
+
+  const allQuestions = [
+    ...mentalAbilityQuestions,
+    ...arithmeticQuestions,
+    ...multilingualQuestions,
+    ...class9Questions,
+    ...numberSeriesPool,
+    ...speedCalculationPool,
+    ...patternCompletionPool,
+    ...classificationPool,
+    ...grammarPool,
+    ...generalAwarenessPool,
+    ...generalMathematicsPool,
+    ...generalSciencePool,
+    ...socialAwarenessPool,
+  ];
 
   let newQuestionCount = 0;
   for (const q of allQuestions) {
@@ -1065,6 +1145,7 @@ async function main() {
         correctOption: q.correctOption,
         vedicSpeedHackId: q.vedicSpeedHackId ?? null,
         explanation: q.explanation,
+        distractorAnalysis: q.distractorAnalysis ?? Prisma.JsonNull,
       },
       create: q,
     });

@@ -1,0 +1,727 @@
+{
+  "section": "general_awareness",
+  "topicKey": "general_awareness",
+  "generatedAt": "2026-09-05T00:00:00.000Z",
+  "questions": [
+    {
+      "key": "bank-gk-awareness-01",
+      "difficulty": "EASY",
+      "content": { "en": "Which animal is recognised as the National Animal of India?", "hi": "भारत के राष्ट्रीय पशु के रूप में किस जानवर को मान्यता प्राप्त है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Lion", "hi": "शेर" } },
+        { "id": "b", "text": { "en": "Tiger", "hi": "बाघ" } },
+        { "id": "c", "text": { "en": "Elephant", "hi": "हाथी" } },
+        { "id": "d", "text": { "en": "Leopard", "hi": "तेंदुआ" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "The Bengal Tiger is India's National Animal, chosen for its strength and grace, and India runs 'Project Tiger' for its conservation.", "hi": "बंगाल टाइगर (बाघ) भारत का राष्ट्रीय पशु है, जिसे उसकी शक्ति और सुंदरता के कारण चुना गया है। इसके संरक्षण के लिए भारत में 'प्रोजेक्ट टाइगर' चलाया जाता है।" },
+      "distractorAnalysis": {
+        "a": { "en": "Lion is often confused because it appears on the National Emblem (Ashoka's Lion Capital), but the emblem animal is different from the National Animal.", "hi": "शेर को अक्सर राष्ट्रीय प्रतीक (अशोक स्तंभ के सिंह) के साथ जोड़कर भ्रमित किया जाता है, लेकिन राष्ट्रीय प्रतीक का पशु राष्ट्रीय पशु से अलग है।" },
+        "c": { "en": "Elephant is a culturally important and protected animal in India but it is not the National Animal.", "hi": "हाथी भारत में सांस्कृतिक रूप से महत्वपूर्ण और संरक्षित पशु है, परन्तु यह राष्ट्रीय पशु नहीं है।" },
+        "d": { "en": "Leopard is a wild cat commonly found in India, sometimes confused with the tiger due to similar habitat, but it does not hold this title.", "hi": "तेंदुआ भी भारत में पाई जाने वाली एक जंगली बिल्ली प्रजाति है और समान आवास के कारण बाघ से भ्रमित हो जाता है, लेकिन इसे यह उपाधि प्राप्त नहीं है।" }
+      }
+    },
+    {
+      "key": "bank-gk-awareness-02",
+      "difficulty": "EASY",
+      "content": { "en": "What is the capital city of India?", "hi": "भारत की राजधानी कौन-सा शहर है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Mumbai", "hi": "मुंबई" } },
+        { "id": "b", "text": { "en": "New Delhi", "hi": "नई दिल्ली" } },
+        { "id": "c", "text": { "en": "Kolkata", "hi": "कोलकाता" } },
+        { "id": "d", "text": { "en": "Chennai", "hi": "चेन्नई" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "New Delhi is the capital of India, seat of the Parliament and the central government.", "hi": "नई दिल्ली भारत की राजधानी है, जहाँ संसद और केंद्र सरकार स्थित है।" },
+      "distractorAnalysis": {
+        "a": { "en": "Mumbai is India's financial capital and largest city by population, which leads many to mistake it for the political capital.", "hi": "मुंबई भारत की वित्तीय राजधानी और जनसंख्या की दृष्टि से सबसे बड़ा शहर है, इसलिए इसे राजनीतिक राजधानी समझ लिया जाता है।" },
+        "c": { "en": "Kolkata was the capital of British India before 1911, so it is sometimes wrongly remembered as India's current capital.", "hi": "1911 से पहले कोलकाता ब्रिटिश भारत की राजधानी थी, इसलिए कभी-कभी इसे गलती से वर्तमान राजधानी समझ लिया जाता है।" },
+        "d": { "en": "Chennai is a major metropolitan city and state capital of Tamil Nadu, but not the national capital.", "hi": "चेन्नई एक प्रमुख महानगर और तमिलनाडु राज्य की राजधानी है, परन्तु यह राष्ट्रीय राजधानी नहीं है।" }
+      }
+    },
+    {
+      "key": "bank-gk-awareness-03",
+      "difficulty": "EASY",
+      "content": { "en": "Which is the largest planet in our Solar System?", "hi": "हमारे सौरमंडल में सबसे बड़ा ग्रह कौन-सा है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Saturn", "hi": "शनि" } },
+        { "id": "b", "text": { "en": "Earth", "hi": "पृथ्वी" } },
+        { "id": "c", "text": { "en": "Jupiter", "hi": "बृहस्पति" } },
+        { "id": "d", "text": { "en": "Neptune", "hi": "वरुण (नेप्च्यून)" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "Jupiter is the largest planet in the Solar System by both size and mass.", "hi": "बृहस्पति (जुपिटर) आकार और द्रव्यमान दोनों में सौरमंडल का सबसे बड़ा ग्रह है।" },
+      "distractorAnalysis": {
+        "a": { "en": "Saturn is the second-largest planet and is often confused with Jupiter because both are giant gas planets with rings/bands.", "hi": "शनि सौरमंडल का दूसरा सबसे बड़ा ग्रह है और दोनों गैसीय विशाल ग्रह होने के कारण अक्सर बृहस्पति से भ्रमित हो जाता है।" },
+        "b": { "en": "Earth is our home planet but is far smaller than the gas giants of the outer Solar System.", "hi": "पृथ्वी हमारा घर ग्रह है, लेकिन यह बाहरी सौरमंडल के गैसीय ग्रहों से बहुत छोटी है।" },
+        "d": { "en": "Neptune is one of the outer ice giants, much smaller than Jupiter, though both appear far from the Sun.", "hi": "वरुण (नेप्च्यून) एक बर्फीला विशाल ग्रह है और सूर्य से दूर होने के कारण बृहस्पति जैसा प्रतीत हो सकता है, पर आकार में यह कहीं छोटा है।" }
+      }
+    },
+    {
+      "key": "bank-gk-awareness-04",
+      "difficulty": "EASY",
+      "content": { "en": "Which bird is the National Bird of India?", "hi": "भारत का राष्ट्रीय पक्षी कौन-सा है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Parrot", "hi": "तोता" } },
+        { "id": "b", "text": { "en": "Peacock", "hi": "मोर" } },
+        { "id": "c", "text": { "en": "Sparrow", "hi": "गौरैया" } },
+        { "id": "d", "text": { "en": "Crow", "hi": "कौआ" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "The Indian Peacock is the National Bird of India, chosen for its vibrant colours and cultural significance.", "hi": "भारतीय मोर भारत का राष्ट्रीय पक्षी है, जिसे उसके सुंदर रंगों और सांस्कृतिक महत्व के कारण चुना गया।" },
+      "distractorAnalysis": {
+        "a": { "en": "Parrots are common and colourful birds in India, often mentioned in folk tales, but hold no official national status.", "hi": "तोता भारत में एक आम और रंगीन पक्षी है तथा लोककथाओं में इसका उल्लेख मिलता है, परन्तु इसे कोई राष्ट्रीय दर्जा प्राप्त नहीं है।" },
+        "c": { "en": "The House Sparrow is a familiar garden bird in India, but it is not the national bird.", "hi": "गौरैया भारत में एक जानी-पहचानी चिड़िया है, परन्तु यह राष्ट्रीय पक्षी नहीं है।" },
+        "d": { "en": "Crows are common across Indian cities, but they are not associated with any national symbol.", "hi": "कौआ भारतीय शहरों में आमतौर पर देखा जाता है, परन्तु इसका किसी राष्ट्रीय प्रतीक से कोई संबंध नहीं है।" }
+      }
+    },
+    {
+      "key": "bank-gk-awareness-05",
+      "difficulty": "EASY",
+      "content": { "en": "How many continents are there on Earth?", "hi": "पृथ्वी पर कितने महाद्वीप हैं?" },
+      "options": [
+        { "id": "a", "text": { "en": "5", "hi": "5" } },
+        { "id": "b", "text": { "en": "6", "hi": "6" } },
+        { "id": "c", "text": { "en": "7", "hi": "7" } },
+        { "id": "d", "text": { "en": "8", "hi": "8" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "Earth is divided into seven continents: Asia, Africa, North America, South America, Antarctica, Europe, and Australia.", "hi": "पृथ्वी को सात महाद्वीपों में बांटा गया है: एशिया, अफ्रीका, उत्तरी अमेरिका, दक्षिणी अमेरिका, अंटार्कटिका, यूरोप और ऑस्ट्रेलिया।" },
+      "distractorAnalysis": {
+        "a": { "en": "Some students undercount by merging Europe and Asia into one landmass (Eurasia), giving five continents.", "hi": "कुछ छात्र यूरोप और एशिया को मिलाकर 'यूरेशिया' मान लेते हैं, जिससे संख्या पांच हो जाती है।" },
+        "b": { "en": "Six is a common miscount when Antarctica is left out because few people live there.", "hi": "अंटार्कटिका में बहुत कम लोग रहते हैं, इसलिए उसे भूलकर संख्या छह गिन ली जाती है।" },
+        "d": { "en": "Eight is an overcount that sometimes comes from incorrectly splitting a landmass into two continents.", "hi": "आठ की गिनती किसी भूभाग को गलती से दो महाद्वीपों में बाँट देने से होती है।" }
+      }
+    },
+    {
+      "key": "bank-gk-awareness-06",
+      "difficulty": "EASY",
+      "content": { "en": "From which direction does the Sun rise every day?", "hi": "सूर्य प्रतिदिन किस दिशा से उदय होता है?" },
+      "options": [
+        { "id": "a", "text": { "en": "North", "hi": "उत्तर" } },
+        { "id": "b", "text": { "en": "South", "hi": "दक्षिण" } },
+        { "id": "c", "text": { "en": "East", "hi": "पूर्व" } },
+        { "id": "d", "text": { "en": "West", "hi": "पश्चिम" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "Due to Earth's rotation, the Sun appears to rise in the east and set in the west.", "hi": "पृथ्वी के घूर्णन के कारण सूर्य पूर्व दिशा में उदय होता प्रतीत होता है और पश्चिम में अस्त होता है।" },
+      "distractorAnalysis": {
+        "a": { "en": "North is where the North Pole lies; it is not the direction of sunrise.", "hi": "उत्तर वह दिशा है जहाँ उत्तरी ध्रुव स्थित है; यह सूर्योदय की दिशा नहीं है।" },
+        "b": { "en": "South is often confused with east by young students still learning the compass directions.", "hi": "छोटे बच्चे दिशाएँ सीखते समय अक्सर दक्षिण को पूर्व समझ बैठते हैं।" },
+        "d": { "en": "West is actually the direction where the Sun sets, not rises, and is a very common mix-up.", "hi": "पश्चिम वास्तव में वह दिशा है जहाँ सूर्य अस्त होता है, उदय नहीं, और यह एक बहुत सामान्य भ्रम है।" }
+      }
+    },
+    {
+      "key": "bank-gk-awareness-07",
+      "difficulty": "EASY",
+      "content": { "en": "Which sport is popularly known as the 'Gentleman's Game'?", "hi": "किस खेल को लोकप्रिय रूप से 'जेंटलमेन गेम' (सज्जनों का खेल) कहा जाता है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Football", "hi": "फुटबॉल" } },
+        { "id": "b", "text": { "en": "Hockey", "hi": "हॉकी" } },
+        { "id": "c", "text": { "en": "Cricket", "hi": "क्रिकेट" } },
+        { "id": "d", "text": { "en": "Tennis", "hi": "टेनिस" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "Cricket has traditionally been nicknamed the 'Gentleman's Game' because of its emphasis on fair play and sportsmanship.", "hi": "क्रिकेट को परंपरागत रूप से 'जेंटलमेन गेम' कहा जाता है, क्योंकि इसमें निष्पक्ष खेल और खेल भावना पर विशेष जोर दिया जाता है।" },
+      "distractorAnalysis": {
+        "a": { "en": "Football is the world's most popular sport, but it does not carry this particular nickname.", "hi": "फुटबॉल विश्व का सबसे लोकप्रिय खेल है, परन्तु इसे यह विशेष उपनाम प्राप्त नहीं है।" },
+        "b": { "en": "Hockey is popularly linked to India's sporting history, but the 'Gentleman's Game' title belongs to cricket, not hockey.", "hi": "हॉकी भारत के खेल इतिहास से लोकप्रिय रूप से जुड़ी है, परन्तु 'जेंटलमेन गेम' की उपाधि क्रिकेट को मिली है, हॉकी को नहीं।" },
+        "d": { "en": "Tennis is an individual sport with its own etiquette traditions, but it is not called by this specific nickname.", "hi": "टेनिस एक व्यक्तिगत खेल है जिसकी अपनी शिष्टाचार परंपराएँ हैं, परन्तु इसे यह विशेष उपनाम नहीं मिला है।" }
+      }
+    },
+    {
+      "key": "bank-gk-awareness-08",
+      "difficulty": "EASY",
+      "content": { "en": "What is the capital city of France?", "hi": "फ्रांस की राजधानी कौन-सा शहर है?" },
+      "options": [
+        { "id": "a", "text": { "en": "London", "hi": "लंदन" } },
+        { "id": "b", "text": { "en": "Paris", "hi": "पेरिस" } },
+        { "id": "c", "text": { "en": "Rome", "hi": "रोम" } },
+        { "id": "d", "text": { "en": "Berlin", "hi": "बर्लिन" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "Paris is the capital city of France, home to landmarks like the Eiffel Tower.", "hi": "पेरिस फ्रांस की राजधानी है, जहाँ एफिल टावर जैसी प्रसिद्ध इमारतें स्थित हैं।" },
+      "distractorAnalysis": {
+        "a": { "en": "London is the capital of the United Kingdom, a separate European country, often mixed up with France.", "hi": "लंदन ब्रिटेन (यूनाइटेड किंगडम) की राजधानी है, जिसे अक्सर फ्रांस के साथ मिला दिया जाता है।" },
+        "c": { "en": "Rome is the capital of Italy, another major European country near France.", "hi": "रोम इटली की राजधानी है, जो फ्रांस के पास स्थित एक और प्रमुख यूरोपीय देश है।" },
+        "d": { "en": "Berlin is the capital of Germany, a country bordering France, and is sometimes wrongly guessed.", "hi": "बर्लिन जर्मनी की राजधानी है, जो फ्रांस से सीमा साझा करता है, और कभी-कभी गलती से चुन लिया जाता है।" }
+      }
+    },
+    {
+      "key": "bank-gk-awareness-09",
+      "difficulty": "EASY",
+      "content": { "en": "Which flower is the National Flower of India?", "hi": "भारत का राष्ट्रीय फूल कौन-सा है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Rose", "hi": "गुलाब" } },
+        { "id": "b", "text": { "en": "Sunflower", "hi": "सूरजमुखी" } },
+        { "id": "c", "text": { "en": "Lotus", "hi": "कमल" } },
+        { "id": "d", "text": { "en": "Marigold", "hi": "गेंदा" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "The Lotus is India's National Flower, symbolising purity and prosperity in Indian culture.", "hi": "कमल भारत का राष्ट्रीय फूल है, जो भारतीय संस्कृति में पवित्रता और समृद्धि का प्रतीक माना जाता है।" },
+      "distractorAnalysis": {
+        "a": { "en": "Rose is a very popular garden flower worldwide, but it holds no official national status in India.", "hi": "गुलाब विश्वभर में एक लोकप्रिय बगीचे का फूल है, परन्तु भारत में इसे कोई राष्ट्रीय दर्जा प्राप्त नहीं है।" },
+        "b": { "en": "Sunflower is well known for turning towards the sun, but it is not linked to any national symbol.", "hi": "सूरजमुखी सूर्य की दिशा में मुड़ने के लिए जाना जाता है, परन्तु इसका किसी राष्ट्रीय प्रतीक से संबंध नहीं है।" },
+        "d": { "en": "Marigold is widely used in Indian festivals and decorations, which sometimes leads to it being mistaken for the national flower.", "hi": "गेंदे का फूल भारतीय त्योहारों और सजावट में बहुतायत से प्रयोग होता है, इसलिए इसे कभी-कभी राष्ट्रीय फूल समझ लिया जाता है।" }
+      }
+    },
+    {
+      "key": "bank-gk-awareness-10",
+      "difficulty": "EASY",
+      "content": { "en": "What is the largest organ of the human body?", "hi": "मानव शरीर का सबसे बड़ा अंग कौन-सा है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Liver", "hi": "यकृत (लिवर)" } },
+        { "id": "b", "text": { "en": "Heart", "hi": "हृदय" } },
+        { "id": "c", "text": { "en": "Skin", "hi": "त्वचा" } },
+        { "id": "d", "text": { "en": "Brain", "hi": "मस्तिष्क" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "The skin is the largest organ of the human body, covering and protecting the entire body.", "hi": "त्वचा मानव शरीर का सबसे बड़ा अंग है, जो पूरे शरीर को ढककर उसकी रक्षा करती है।" },
+      "distractorAnalysis": {
+        "a": { "en": "The liver is the largest internal organ, which is why it is often mistaken for the largest organ overall.", "hi": "यकृत (लिवर) शरीर का सबसे बड़ा आंतरिक अंग है, इसलिए इसे अक्सर सबसे बड़ा अंग समझ लिया जाता है।" },
+        "b": { "en": "The heart is a vital organ for pumping blood, but it is much smaller than the skin in total area.", "hi": "हृदय रक्त पंप करने वाला एक महत्वपूर्ण अंग है, परन्तु क्षेत्रफल में यह त्वचा से बहुत छोटा है।" },
+        "d": { "en": "The brain controls the body's functions but is not the largest organ by size or weight.", "hi": "मस्तिष्क शरीर के कार्यों को नियंत्रित करता है, परन्तु आकार या वजन में यह सबसे बड़ा अंग नहीं है।" }
+      }
+    },
+    {
+      "key": "bank-gk-awareness-11",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Which river has been declared the National River of India?", "hi": "किस नदी को भारत की राष्ट्रीय नदी घोषित किया गया है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Yamuna", "hi": "यमुना" } },
+        { "id": "b", "text": { "en": "Godavari", "hi": "गोदावरी" } },
+        { "id": "c", "text": { "en": "Ganga", "hi": "गंगा" } },
+        { "id": "d", "text": { "en": "Brahmaputra", "hi": "ब्रह्मपुत्र" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "The Ganga (Ganges) was declared the National River of India in 2008 due to its cultural, historical, and ecological importance.", "hi": "गंगा नदी को 2008 में उसके सांस्कृतिक, ऐतिहासिक और पारिस्थितिक महत्व के कारण भारत की राष्ट्रीय नदी घोषित किया गया।" },
+      "distractorAnalysis": {
+        "a": { "en": "The Yamuna is a major river closely associated with the Ganga and Delhi, often confused with it.", "hi": "यमुना नदी गंगा और दिल्ली से निकटता से जुड़ी है, इसलिए इसे अक्सर गंगा समझ लिया जाता है।" },
+        "b": { "en": "The Godavari is one of the longest rivers in peninsular India, sometimes called the 'Ganga of the South', which causes confusion.", "hi": "गोदावरी प्रायद्वीपीय भारत की सबसे लंबी नदियों में से एक है और इसे 'दक्षिण की गंगा' भी कहा जाता है, जिससे भ्रम होता है।" },
+        "d": { "en": "The Brahmaputra is a major river in Northeast India, but it does not carry the title of National River.", "hi": "ब्रह्मपुत्र पूर्वोत्तर भारत की एक प्रमुख नदी है, परन्तु इसे राष्ट्रीय नदी का दर्जा प्राप्त नहीं है।" }
+      }
+    },
+    {
+      "key": "bank-gk-awareness-12",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Who founded the Scout movement in 1907?", "hi": "1907 में स्काउट आंदोलन की स्थापना किसने की थी?" },
+      "options": [
+        { "id": "a", "text": { "en": "Henry Dunant", "hi": "हेनरी ड्यूनांट" } },
+        { "id": "b", "text": { "en": "Robert Baden-Powell", "hi": "रॉबर्ट बेडेन-पॉवेल" } },
+        { "id": "c", "text": { "en": "Pierre de Coubertin", "hi": "पियरे डी कूबर्तें" } },
+        { "id": "d", "text": { "en": "Alfred Nobel", "hi": "अल्फ्रेड नोबेल" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "Robert Baden-Powell, a British Army officer, founded the Scout movement in 1907 to build character and outdoor skills in young people.", "hi": "ब्रिटिश सेना अधिकारी रॉबर्ट बेडेन-पॉवेल ने 1907 में स्काउट आंदोलन की स्थापना की, जिसका उद्देश्य युवाओं में चरित्र निर्माण और बाहरी कौशल विकसित करना था।" },
+      "distractorAnalysis": {
+        "a": { "en": "Henry Dunant founded the Red Cross movement, a different humanitarian organisation, and is often confused with Baden-Powell.", "hi": "हेनरी ड्यूनांट ने रेड क्रॉस आंदोलन की स्थापना की थी, जो एक अलग मानवीय संगठन है, इसलिए इसे अक्सर बेडेन-पॉवेल से भ्रमित किया जाता है।" },
+        "c": { "en": "Pierre de Coubertin founded the modern Olympic Games, not the Scout movement.", "hi": "पियरे डी कूबर्तें ने आधुनिक ओलंपिक खेलों की स्थापना की थी, स्काउट आंदोलन की नहीं।" },
+        "d": { "en": "Alfred Nobel established the Nobel Prizes; he had no connection to founding the Scouts.", "hi": "अल्फ्रेड नोबेल ने नोबेल पुरस्कारों की स्थापना की थी; स्काउट आंदोलन से उनका कोई संबंध नहीं था।" }
+      }
+    },
+    {
+      "key": "bank-gk-awareness-13",
+      "difficulty": "MEDIUM",
+      "content": { "en": "How many players are there in a cricket team on the field during a match?", "hi": "एक क्रिकेट मैच में मैदान पर एक टीम के कितने खिलाड़ी होते हैं?" },
+      "options": [
+        { "id": "a", "text": { "en": "9", "hi": "9" } },
+        { "id": "b", "text": { "en": "10", "hi": "10" } },
+        { "id": "c", "text": { "en": "11", "hi": "11" } },
+        { "id": "d", "text": { "en": "12", "hi": "12" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "A cricket team fields 11 players at a time during a match.", "hi": "एक क्रिकेट मैच में मैदान पर एक समय में एक टीम के 11 खिलाड़ी होते हैं।" },
+      "distractorAnalysis": {
+        "a": { "en": "Nine is an undercount that some students guess by confusing cricket with baseball, which has 9 fielders.", "hi": "नौ की संख्या अक्सर बेसबॉल के साथ भ्रम के कारण अनुमानित की जाती है, जिसमें 9 फील्डर होते हैं।" },
+        "b": { "en": "Ten is a common near-miss guess, one short of the correct number.", "hi": "दस की संख्या सही उत्तर से एक कम है, इसलिए यह एक सामान्य गलत अनुमान है।" },
+        "d": { "en": "Twelve is often guessed because a team can name a 12th man as substitute fielder, though only 11 play at a time.", "hi": "बारह की संख्या इसलिए अनुमानित की जाती है क्योंकि टीम में एक '12वां खिलाड़ी' स्थानापन्न फील्डर के रूप में नामित होता है, परन्तु एक समय में केवल 11 ही खेलते हैं।" }
+      }
+    },
+    {
+      "key": "bank-gk-awareness-14",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Which is traditionally regarded as the longest river in the world?", "hi": "विश्व की सबसे लंबी नदी पारंपरिक रूप से किसे माना जाता है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Amazon", "hi": "अमेज़न" } },
+        { "id": "b", "text": { "en": "Nile", "hi": "नील" } },
+        { "id": "c", "text": { "en": "Yangtze", "hi": "यांग्त्ज़ी" } },
+        { "id": "d", "text": { "en": "Mississippi", "hi": "मिसिसिपी" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "The Nile River in Africa is traditionally taught as the longest river in the world.", "hi": "अफ्रीका की नील नदी को पारंपरिक रूप से विश्व की सबसे लंबी नदी के रूप में पढ़ाया जाता है।" },
+      "distractorAnalysis": {
+        "a": { "en": "The Amazon carries the largest volume of water of any river, which leads many to mistakenly call it the longest.", "hi": "अमेज़न नदी में सबसे अधिक जल प्रवाह होता है, इसलिए इसे अक्सर गलती से सबसे लंबी नदी मान लिया जाता है।" },
+        "c": { "en": "The Yangtze is the longest river in Asia, but it is shorter than the Nile.", "hi": "यांग्त्ज़ी एशिया की सबसे लंबी नदी है, परन्तु यह नील नदी से छोटी है।" },
+        "d": { "en": "The Mississippi is a major river in North America, but far shorter than the Nile.", "hi": "मिसिसिपी उत्तरी अमेरिका की एक प्रमुख नदी है, परन्तु यह नील नदी से बहुत छोटी है।" }
+      }
+    },
+    {
+      "key": "bank-gk-awareness-15",
+      "difficulty": "MEDIUM",
+      "content": { "en": "What is the capital city of Japan?", "hi": "जापान की राजधानी कौन-सा शहर है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Osaka", "hi": "ओसाका" } },
+        { "id": "b", "text": { "en": "Tokyo", "hi": "टोक्यो" } },
+        { "id": "c", "text": { "en": "Kyoto", "hi": "क्योटो" } },
+        { "id": "d", "text": { "en": "Seoul", "hi": "सियोल" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "Tokyo is the capital city of Japan.", "hi": "टोक्यो जापान की राजधानी है।" },
+      "distractorAnalysis": {
+        "a": { "en": "Osaka is a major Japanese city known for business and culture, but it is not the capital.", "hi": "ओसाका व्यापार और संस्कृति के लिए प्रसिद्ध एक प्रमुख जापानी शहर है, परन्तु यह राजधानी नहीं है।" },
+        "c": { "en": "Kyoto was the historic capital of Japan for centuries before Tokyo, so it is often mistakenly named today.", "hi": "क्योटो टोक्यो से पहले सदियों तक जापान की ऐतिहासिक राजधानी रहा था, इसलिए इसे आज भी कभी-कभी गलती से राजधानी मान लिया जाता है।" },
+        "d": { "en": "Seoul is the capital of South Korea, a neighbouring country, and is sometimes confused with Japan's capital.", "hi": "सियोल दक्षिण कोरिया की राजधानी है, जो जापान का पड़ोसी देश है, और इसे कभी-कभी जापान की राजधानी समझ लिया जाता है।" }
+      }
+    },
+    {
+      "key": "bank-gk-awareness-16",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Which natural source is the body's main way of producing Vitamin D?", "hi": "शरीर विटामिन-डी बनाने के लिए मुख्य रूप से किस प्राकृतिक स्रोत का उपयोग करता है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Sunlight", "hi": "सूर्य का प्रकाश" } },
+        { "id": "b", "text": { "en": "Drinking water", "hi": "पीने का पानी" } },
+        { "id": "c", "text": { "en": "Table salt", "hi": "साधारण नमक" } },
+        { "id": "d", "text": { "en": "Moonlight", "hi": "चाँदनी" } }
+      ],
+      "correctOption": "a",
+      "explanation": { "en": "When skin is exposed to sunlight, the body naturally produces Vitamin D.", "hi": "जब त्वचा सूर्य के प्रकाश के संपर्क में आती है, तो शरीर स्वाभाविक रूप से विटामिन-डी बनाता है।" },
+      "distractorAnalysis": {
+        "b": { "en": "Drinking water provides hydration and minerals but does not trigger Vitamin D production in the skin.", "hi": "पीने का पानी शरीर को जलयोजन और खनिज प्रदान करता है, परन्तु यह त्वचा में विटामिन-डी उत्पादन को प्रेरित नहीं करता।" },
+        "c": { "en": "Table salt provides sodium (and iodine, in iodised salt), not Vitamin D.", "hi": "साधारण नमक सोडियम प्रदान करता है (और आयोडीन-युक्त नमक आयोडीन), विटामिन-डी नहीं।" },
+        "d": { "en": "Moonlight is only reflected sunlight and is far too weak to trigger Vitamin D production in the skin.", "hi": "चाँदनी केवल परावर्तित सूर्य प्रकाश है और त्वचा में विटामिन-डी उत्पादन प्रेरित करने के लिए बहुत कमजोर है।" }
+      }
+    },
+    {
+      "key": "bank-gk-awareness-17",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Who founded the International Red Cross movement?", "hi": "अंतर्राष्ट्रीय रेड क्रॉस आंदोलन की स्थापना किसने की?" },
+      "options": [
+        { "id": "a", "text": { "en": "Henry Dunant", "hi": "हेनरी ड्यूनांट" } },
+        { "id": "b", "text": { "en": "Florence Nightingale", "hi": "फ्लोरेंस नाइटिंगेल" } },
+        { "id": "c", "text": { "en": "Louis Pasteur", "hi": "लुई पास्चर" } },
+        { "id": "d", "text": { "en": "Alexander Fleming", "hi": "अलेक्जेंडर फ्लेमिंग" } }
+      ],
+      "correctOption": "a",
+      "explanation": { "en": "Henry Dunant, a Swiss businessman, founded the International Red Cross in 1863 after witnessing the suffering of wounded soldiers.", "hi": "स्विस व्यवसायी हेनरी ड्यूनांट ने घायल सैनिकों की पीड़ा देखने के बाद 1863 में अंतर्राष्ट्रीय रेड क्रॉस की स्थापना की।" },
+      "distractorAnalysis": {
+        "b": { "en": "Florence Nightingale is famous for founding modern nursing practices, which leads to her being confused with the Red Cross's founder.", "hi": "फ्लोरेंस नाइटिंगेल आधुनिक नर्सिंग की स्थापना के लिए प्रसिद्ध हैं, इसलिए उन्हें रेड क्रॉस के संस्थापक के रूप में भ्रमित किया जाता है।" },
+        "c": { "en": "Louis Pasteur is known for germ theory and pasteurisation, unrelated to founding the Red Cross.", "hi": "लुई पास्चर जर्म सिद्धांत और पाश्चुरीकरण के लिए जाने जाते हैं, जिनका रेड क्रॉस की स्थापना से कोई संबंध नहीं है।" },
+        "d": { "en": "Alexander Fleming discovered penicillin, a completely different contribution to medicine.", "hi": "अलेक्जेंडर फ्लेमिंग ने पेनिसिलिन की खोज की थी, जो चिकित्सा में एक बिल्कुल अलग योगदान है।" }
+      }
+    },
+    {
+      "key": "bank-gk-awareness-18",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Which is the smallest continent by land area?", "hi": "क्षेत्रफल की दृष्टि से सबसे छोटा महाद्वीप कौन-सा है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Europe", "hi": "यूरोप" } },
+        { "id": "b", "text": { "en": "Antarctica", "hi": "अंटार्कटिका" } },
+        { "id": "c", "text": { "en": "Australia", "hi": "ऑस्ट्रेलिया" } },
+        { "id": "d", "text": { "en": "South America", "hi": "दक्षिणी अमेरिका" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "Australia is the smallest of the seven continents by land area.", "hi": "क्षेत्रफल के अनुसार सातों महाद्वीपों में ऑस्ट्रेलिया सबसे छोटा महाद्वीप है।" },
+      "distractorAnalysis": {
+        "a": { "en": "Europe is a relatively small continent too, but it is still larger in area than Australia.", "hi": "यूरोप भी अपेक्षाकृत छोटा महाद्वीप है, परन्तु यह क्षेत्रफल में ऑस्ट्रेलिया से बड़ा है।" },
+        "b": { "en": "Antarctica is icy and sparsely inhabited, which makes some think it is the smallest, but it is actually larger in area than Australia.", "hi": "अंटार्कटिका बर्फीला और कम आबादी वाला है, जिससे कुछ लोग इसे सबसे छोटा मान लेते हैं, परन्तु क्षेत्रफल में यह ऑस्ट्रेलिया से बड़ा है।" },
+        "d": { "en": "South America is a large continent, much bigger than Australia, and is not a plausible answer for smallest.", "hi": "दक्षिणी अमेरिका एक बड़ा महाद्वीप है, जो ऑस्ट्रेलिया से काफी बड़ा है, इसलिए यह सबसे छोटे महाद्वीप के लिए उचित उत्तर नहीं है।" }
+      }
+    },
+    {
+      "key": "bank-gk-awareness-19",
+      "difficulty": "MEDIUM",
+      "content": { "en": "How many players does one team have on the field in a standard game of football (soccer)?", "hi": "फुटबॉल (सॉकर) के एक मानक खेल में मैदान पर एक टीम के कितने खिलाड़ी होते हैं?" },
+      "options": [
+        { "id": "a", "text": { "en": "9", "hi": "9" } },
+        { "id": "b", "text": { "en": "10", "hi": "10" } },
+        { "id": "c", "text": { "en": "11", "hi": "11" } },
+        { "id": "d", "text": { "en": "12", "hi": "12" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "A standard football (soccer) team fields 11 players, including the goalkeeper.", "hi": "फुटबॉल की एक मानक टीम में गोलकीपर सहित 11 खिलाड़ी मैदान पर होते हैं।" },
+      "distractorAnalysis": {
+        "a": { "en": "Nine is too few and does not match the standard rules of football.", "hi": "नौ की संख्या बहुत कम है और फुटबॉल के मानक नियमों से मेल नहीं खाती।" },
+        "b": { "en": "Ten is a common near-miss guess, forgetting to count the goalkeeper.", "hi": "दस की संख्या गोलकीपर को गिनना भूल जाने के कारण एक सामान्य निकट-गलत अनुमान है।" },
+        "d": { "en": "Twelve is sometimes guessed because of substitute players allowed on the bench, but only 11 play at a time.", "hi": "बारह की संख्या कभी-कभी बेंच पर मौजूद स्थानापन्न खिलाड़ियों के कारण अनुमानित की जाती है, परन्तु एक समय में केवल 11 ही खेलते हैं।" }
+      }
+    },
+    {
+      "key": "bank-gk-awareness-20",
+      "difficulty": "MEDIUM",
+      "content": { "en": "In which Indian city is the Taj Mahal located?", "hi": "ताज महल भारत के किस शहर में स्थित है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Delhi", "hi": "दिल्ली" } },
+        { "id": "b", "text": { "en": "Agra", "hi": "आगरा" } },
+        { "id": "c", "text": { "en": "Jaipur", "hi": "जयपुर" } },
+        { "id": "d", "text": { "en": "Lucknow", "hi": "लखनऊ" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "The Taj Mahal is located in Agra, Uttar Pradesh, built by Mughal emperor Shah Jahan.", "hi": "ताज महल उत्तर प्रदेश के आगरा शहर में स्थित है, जिसे मुगल सम्राट शाहजहाँ ने बनवाया था।" },
+      "distractorAnalysis": {
+        "a": { "en": "Delhi has many Mughal-era monuments, so it is often mistakenly thought to house the Taj Mahal.", "hi": "दिल्ली में कई मुगलकालीन स्मारक हैं, इसलिए इसे अक्सर गलती से ताज महल का स्थान समझ लिया जाता है।" },
+        "c": { "en": "Jaipur, known as the 'Pink City', is famous for forts and palaces but not the Taj Mahal.", "hi": "जयपुर, जिसे 'गुलाबी नगरी' कहा जाता है, किलों और महलों के लिए प्रसिद्ध है, ताज महल के लिए नहीं।" },
+        "d": { "en": "Lucknow is known for Nawabi culture and monuments, but not for the Taj Mahal.", "hi": "लखनऊ नवाबी संस्कृति और स्मारकों के लिए जाना जाता है, ताज महल के लिए नहीं।" }
+      }
+    },
+    {
+      "key": "bank-gk-awareness-21",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Who was the first Prime Minister of independent India?", "hi": "स्वतंत्र भारत के पहले प्रधानमंत्री कौन थे?" },
+      "options": [
+        { "id": "a", "text": { "en": "Mahatma Gandhi", "hi": "महात्मा गांधी" } },
+        { "id": "b", "text": { "en": "Jawaharlal Nehru", "hi": "जवाहरलाल नेहरू" } },
+        { "id": "c", "text": { "en": "Sardar Vallabhbhai Patel", "hi": "सरदार वल्लभभाई पटेल" } },
+        { "id": "d", "text": { "en": "Dr. Rajendra Prasad", "hi": "डॉ. राजेंद्र प्रसाद" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "Jawaharlal Nehru became India's first Prime Minister after independence in 1947.", "hi": "1947 में स्वतंत्रता के बाद जवाहरलाल नेहरू भारत के पहले प्रधानमंत्री बने।" },
+      "distractorAnalysis": {
+        "a": { "en": "Mahatma Gandhi is called the Father of the Nation for leading the freedom movement, but he never held the office of Prime Minister.", "hi": "महात्मा गांधी को स्वतंत्रता आंदोलन का नेतृत्व करने के कारण 'राष्ट्रपिता' कहा जाता है, परन्तु वे कभी प्रधानमंत्री पद पर नहीं रहे।" },
+        "c": { "en": "Sardar Vallabhbhai Patel served as India's first Deputy Prime Minister and Home Minister, not Prime Minister.", "hi": "सरदार वल्लभभाई पटेल भारत के पहले उप-प्रधानमंत्री और गृहमंत्री रहे, प्रधानमंत्री नहीं।" },
+        "d": { "en": "Dr. Rajendra Prasad became India's first President, a different constitutional post from Prime Minister.", "hi": "डॉ. राजेंद्र प्रसाद भारत के पहले राष्ट्रपति बने, जो प्रधानमंत्री से एक अलग संवैधानिक पद है।" }
+      }
+    },
+    {
+      "key": "bank-gk-awareness-22",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Which is the largest hot desert in the world?", "hi": "विश्व का सबसे बड़ा गर्म रेगिस्तान कौन-सा है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Thar Desert", "hi": "थार रेगिस्तान" } },
+        { "id": "b", "text": { "en": "Sahara Desert", "hi": "सहारा रेगिस्तान" } },
+        { "id": "c", "text": { "en": "Gobi Desert", "hi": "गोबी रेगिस्तान" } },
+        { "id": "d", "text": { "en": "Arabian Desert", "hi": "अरब रेगिस्तान" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "The Sahara Desert in Africa is the largest hot desert in the world.", "hi": "अफ्रीका का सहारा रेगिस्तान विश्व का सबसे बड़ा गर्म रेगिस्तान है।" },
+      "distractorAnalysis": {
+        "a": { "en": "The Thar Desert lies in India and Pakistan and is well-known locally, but it is much smaller than the Sahara.", "hi": "थार रेगिस्तान भारत और पाकिस्तान में स्थित है और स्थानीय रूप से प्रसिद्ध है, परन्तु यह सहारा से बहुत छोटा है।" },
+        "c": { "en": "The Gobi Desert in Asia is a large desert, but it is a cold desert, not a hot one, and smaller than the Sahara.", "hi": "एशिया का गोबी रेगिस्तान एक बड़ा रेगिस्तान है, परन्तु यह एक ठंडा रेगिस्तान है, गर्म नहीं, और सहारा से छोटा है।" },
+        "d": { "en": "The Arabian Desert is a large hot desert in the Middle East, but it is smaller than the Sahara.", "hi": "अरब रेगिस्तान मध्य-पूर्व का एक बड़ा गर्म रेगिस्तान है, परन्तु यह सहारा से छोटा है।" }
+      }
+    },
+    {
+      "key": "bank-gk-awareness-23",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Which gas do green plants absorb from the air to make their food during photosynthesis?", "hi": "हरे पौधे प्रकाश संश्लेषण के दौरान भोजन बनाने के लिए हवा से कौन-सी गैस अवशोषित करते हैं?" },
+      "options": [
+        { "id": "a", "text": { "en": "Oxygen", "hi": "ऑक्सीजन" } },
+        { "id": "b", "text": { "en": "Carbon dioxide", "hi": "कार्बन डाइऑक्साइड" } },
+        { "id": "c", "text": { "en": "Nitrogen", "hi": "नाइट्रोजन" } },
+        { "id": "d", "text": { "en": "Hydrogen", "hi": "हाइड्रोजन" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "Green plants absorb carbon dioxide from the air and use sunlight to convert it into food, releasing oxygen as a by-product.", "hi": "हरे पौधे हवा से कार्बन डाइऑक्साइड अवशोषित करते हैं और सूर्य के प्रकाश की मदद से उसे भोजन में बदलते हैं, तथा उपोत्पाद के रूप में ऑक्सीजन छोड़ते हैं।" },
+      "distractorAnalysis": {
+        "a": { "en": "Oxygen is actually released by plants during photosynthesis, not absorbed for making food.", "hi": "प्रकाश संश्लेषण के दौरान ऑक्सीजन वास्तव में पौधों द्वारा छोड़ी जाती है, अवशोषित नहीं की जाती।" },
+        "c": { "en": "Nitrogen makes up most of the air but is absorbed by plants mainly through the soil, not directly used in photosynthesis.", "hi": "नाइट्रोजन हवा का अधिकांश भाग बनाती है, परन्तु पौधे इसे मुख्यतः मिट्टी के माध्यम से ग्रहण करते हैं, प्रकाश संश्लेषण में सीधे नहीं।" },
+        "d": { "en": "Hydrogen is not directly absorbed from air by plants for photosynthesis; it comes from water taken up by the roots.", "hi": "हाइड्रोजन सीधे हवा से प्रकाश संश्लेषण के लिए अवशोषित नहीं होती; यह जड़ों द्वारा ग्रहण किए गए पानी से प्राप्त होती है।" }
+      }
+    },
+    {
+      "key": "bank-gk-awareness-24",
+      "difficulty": "MEDIUM",
+      "content": { "en": "After how many years are the Summer Olympic Games usually held?", "hi": "ग्रीष्मकालीन ओलंपिक खेल सामान्यतः कितने वर्षों बाद आयोजित किए जाते हैं?" },
+      "options": [
+        { "id": "a", "text": { "en": "2 years", "hi": "2 वर्ष" } },
+        { "id": "b", "text": { "en": "3 years", "hi": "3 वर्ष" } },
+        { "id": "c", "text": { "en": "4 years", "hi": "4 वर्ष" } },
+        { "id": "d", "text": { "en": "5 years", "hi": "5 वर्ष" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "The Summer Olympic Games are traditionally held every four years.", "hi": "ग्रीष्मकालीन ओलंपिक खेल परंपरागत रूप से हर चार वर्ष में आयोजित किए जाते हैं।" },
+      "distractorAnalysis": {
+        "a": { "en": "Two years is the gap often confused with the alternating pattern of Summer and Winter Olympics combined.", "hi": "दो वर्ष का अंतराल अक्सर ग्रीष्मकालीन और शीतकालीन ओलंपिक के मिले-जुले चक्र के साथ भ्रमित किया जाता है।" },
+        "b": { "en": "Three years is not a recognised interval for any major Olympic cycle.", "hi": "तीन वर्ष किसी भी प्रमुख ओलंपिक चक्र के लिए मान्यता प्राप्त अंतराल नहीं है।" },
+        "d": { "en": "Five years is longer than the actual four-year cycle and is a common overestimate.", "hi": "पांच वर्ष वास्तविक चार वर्ष के चक्र से अधिक है और यह एक सामान्य अधिक-अनुमान है।" }
+      }
+    },
+    {
+      "key": "bank-gk-awareness-25",
+      "difficulty": "MEDIUM",
+      "content": { "en": "What is the capital city of Australia?", "hi": "ऑस्ट्रेलिया की राजधानी कौन-सा शहर है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Sydney", "hi": "सिडनी" } },
+        { "id": "b", "text": { "en": "Melbourne", "hi": "मेलबर्न" } },
+        { "id": "c", "text": { "en": "Canberra", "hi": "कैनबरा" } },
+        { "id": "d", "text": { "en": "Perth", "hi": "पर्थ" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "Canberra is the capital city of Australia, specifically built to serve as the nation's capital.", "hi": "कैनबरा ऑस्ट्रेलिया की राजधानी है, जिसे विशेष रूप से देश की राजधानी बनाने के लिए बसाया गया था।" },
+      "distractorAnalysis": {
+        "a": { "en": "Sydney is Australia's largest and most famous city, which leads many people to wrongly assume it is the capital.", "hi": "सिडनी ऑस्ट्रेलिया का सबसे बड़ा और सबसे प्रसिद्ध शहर है, इसलिए कई लोग गलती से इसे राजधानी मान लेते हैं।" },
+        "b": { "en": "Melbourne is another large Australian city known for culture and sport, sometimes mistaken for the capital.", "hi": "मेलबर्न संस्कृति और खेल के लिए प्रसिद्ध एक और बड़ा ऑस्ट्रेलियाई शहर है, जिसे कभी-कभी राजधानी समझ लिया जाता है।" },
+        "d": { "en": "Perth is a major city on Australia's west coast, but it is not the national capital.", "hi": "पर्थ ऑस्ट्रेलिया के पश्चिमी तट पर स्थित एक प्रमुख शहर है, परन्तु यह राष्ट्रीय राजधानी नहीं है।" }
+      }
+    },
+    {
+      "key": "bank-gk-awareness-26",
+      "difficulty": "HARD",
+      "content": { "en": "Which country has the longest written constitution in the world?", "hi": "विश्व में सबसे लंबा लिखित संविधान किस देश का है?" },
+      "options": [
+        { "id": "a", "text": { "en": "United States", "hi": "संयुक्त राज्य अमेरिका" } },
+        { "id": "b", "text": { "en": "India", "hi": "भारत" } },
+        { "id": "c", "text": { "en": "United Kingdom", "hi": "यूनाइटेड किंगडम" } },
+        { "id": "d", "text": { "en": "Canada", "hi": "कनाडा" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "India's Constitution is the longest written constitution of any sovereign country in the world, containing a large number of articles and schedules.", "hi": "भारत का संविधान विश्व के किसी भी संप्रभु देश का सबसे लंबा लिखित संविधान है, जिसमें बड़ी संख्या में अनुच्छेद और अनुसूचियाँ शामिल हैं।" },
+      "distractorAnalysis": {
+        "a": { "en": "The United States has a much shorter constitution consisting of a compact original text with amendments, unlike India's lengthy document.", "hi": "संयुक्त राज्य अमेरिका का संविधान भारत के विस्तृत दस्तावेज़ की तुलना में एक संक्षिप्त मूल पाठ और संशोधनों वाला बहुत छोटा संविधान है।" },
+        "c": { "en": "The United Kingdom does not even have a single written constitution; its constitution is largely uncodified.", "hi": "यूनाइटेड किंगडम के पास तो कोई एकल लिखित संविधान भी नहीं है; इसका संविधान अधिकांशतः असंहिताबद्ध है।" },
+        "d": { "en": "Canada has a written constitution, but it is far shorter than India's detailed and extensive text.", "hi": "कनाडा का एक लिखित संविधान है, परन्तु यह भारत के विस्तृत पाठ की तुलना में बहुत छोटा है।" }
+      }
+    },
+    {
+      "key": "bank-gk-awareness-27",
+      "difficulty": "HARD",
+      "content": { "en": "How many Fundamental Rights are currently guaranteed by the Indian Constitution?", "hi": "भारतीय संविधान वर्तमान में कितने मौलिक अधिकारों की गारंटी देता है?" },
+      "options": [
+        { "id": "a", "text": { "en": "5", "hi": "5" } },
+        { "id": "b", "text": { "en": "6", "hi": "6" } },
+        { "id": "c", "text": { "en": "7", "hi": "7" } },
+        { "id": "d", "text": { "en": "8", "hi": "8" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "The Indian Constitution currently guarantees 6 Fundamental Rights, after the Right to Property was removed from the list by the 44th Constitutional Amendment in 1978.", "hi": "1978 में 44वें संविधान संशोधन द्वारा संपत्ति के अधिकार को सूची से हटाए जाने के बाद, भारतीय संविधान वर्तमान में 6 मौलिक अधिकारों की गारंटी देता है।" },
+      "distractorAnalysis": {
+        "a": { "en": "Five is an undercount and does not match the current constitutional list.", "hi": "पांच की संख्या कम है और वर्तमान संवैधानिक सूची से मेल नहीं खाती।" },
+        "c": { "en": "Seven was the original number of Fundamental Rights before the Right to Property was removed and made a legal right instead.", "hi": "संपत्ति के अधिकार को हटाकर एक कानूनी अधिकार बनाए जाने से पहले, सात मौलिक अधिकारों की मूल संख्या थी।" },
+        "d": { "en": "Eight overstates the number and does not correspond to any accepted list of Fundamental Rights.", "hi": "आठ की संख्या अधिक है और मौलिक अधिकारों की किसी भी स्वीकृत सूची से मेल नहीं खाती।" }
+      }
+    },
+    {
+      "key": "bank-gk-awareness-28",
+      "difficulty": "HARD",
+      "content": { "en": "Who was the first President of India?", "hi": "भारत के पहले राष्ट्रपति कौन थे?" },
+      "options": [
+        { "id": "a", "text": { "en": "Dr. Rajendra Prasad", "hi": "डॉ. राजेंद्र प्रसाद" } },
+        { "id": "b", "text": { "en": "Dr. S. Radhakrishnan", "hi": "डॉ. एस. राधाकृष्णन" } },
+        { "id": "c", "text": { "en": "Zakir Husain", "hi": "ज़ाकिर हुसैन" } },
+        { "id": "d", "text": { "en": "V.V. Giri", "hi": "वी.वी. गिरी" } }
+      ],
+      "correctOption": "a",
+      "explanation": { "en": "Dr. Rajendra Prasad served as the first President of India from 1950 to 1962.", "hi": "डॉ. राजेंद्र प्रसाद 1950 से 1962 तक भारत के पहले राष्ट्रपति रहे।" },
+      "distractorAnalysis": {
+        "b": { "en": "Dr. S. Radhakrishnan was India's second President and a renowned philosopher, often confused with the first President.", "hi": "डॉ. एस. राधाकृष्णन भारत के दूसरे राष्ट्रपति और एक प्रसिद्ध दार्शनिक थे, इसलिए उन्हें अक्सर पहले राष्ट्रपति के साथ भ्रमित किया जाता है।" },
+        "c": { "en": "Zakir Husain served as India's third President, well after Dr. Rajendra Prasad.", "hi": "ज़ाकिर हुसैन डॉ. राजेंद्र प्रसाद के काफी बाद भारत के तीसरे राष्ट्रपति बने थे।" },
+        "d": { "en": "V.V. Giri served as President later in Indian history, not as the first.", "hi": "वी.वी. गिरी भारतीय इतिहास में बाद में राष्ट्रपति बने थे, पहले राष्ट्रपति के रूप में नहीं।" }
+      }
+    },
+    {
+      "key": "bank-gk-awareness-29",
+      "difficulty": "HARD",
+      "content": { "en": "Which is the tallest mountain peak in the world above sea level?", "hi": "समुद्र तल से विश्व की सबसे ऊँची पर्वत चोटी कौन-सी है?" },
+      "options": [
+        { "id": "a", "text": { "en": "K2", "hi": "के2" } },
+        { "id": "b", "text": { "en": "Kangchenjunga", "hi": "कंचनजंगा" } },
+        { "id": "c", "text": { "en": "Mount Everest", "hi": "माउंट एवरेस्ट" } },
+        { "id": "d", "text": { "en": "Nanga Parbat", "hi": "नंगा पर्बत" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "Mount Everest, located on the border of Nepal and Tibet, is the tallest mountain peak above sea level.", "hi": "नेपाल और तिब्बत की सीमा पर स्थित माउंट एवरेस्ट समुद्र तल से विश्व की सबसे ऊँची पर्वत चोटी है।" },
+      "distractorAnalysis": {
+        "a": { "en": "K2 is the second-highest mountain peak in the world, often mistaken for the tallest.", "hi": "के2 विश्व की दूसरी सबसे ऊँची पर्वत चोटी है, जिसे अक्सर सबसे ऊँची चोटी समझ लिया जाता है।" },
+        "b": { "en": "Kangchenjunga is the third-highest peak in the world, located in the Himalayas near Everest.", "hi": "कंचनजंगा हिमालय में एवरेस्ट के निकट स्थित विश्व की तीसरी सबसे ऊँची चोटी है।" },
+        "d": { "en": "Nanga Parbat is a major Himalayan peak in Pakistan, but it is significantly shorter than Everest.", "hi": "नंगा पर्बत पाकिस्तान में स्थित हिमालय की एक प्रमुख चोटी है, परन्तु यह एवरेस्ट से काफी छोटी है।" }
+      }
+    },
+    {
+      "key": "bank-gk-awareness-30",
+      "difficulty": "HARD",
+      "content": { "en": "In India's three-tier Panchayati Raj system, what is the middle (intermediate) level called?", "hi": "भारत की त्रि-स्तरीय पंचायती राज व्यवस्था में मध्य (मध्यवर्ती) स्तर को क्या कहा जाता है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Gram Sabha", "hi": "ग्राम सभा" } },
+        { "id": "b", "text": { "en": "Panchayat Samiti", "hi": "पंचायत समिति" } },
+        { "id": "c", "text": { "en": "Zila Parishad", "hi": "जिला परिषद" } },
+        { "id": "d", "text": { "en": "Lok Sabha", "hi": "लोकसभा" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "The three-tier Panchayati Raj system consists of the Gram Panchayat (village level), Panchayat Samiti (block/intermediate level), and Zila Parishad (district level); Panchayat Samiti is the middle tier.", "hi": "त्रि-स्तरीय पंचायती राज व्यवस्था में ग्राम पंचायत (गाँव स्तर), पंचायत समिति (खंड/मध्यवर्ती स्तर), और जिला परिषद (जिला स्तर) शामिल हैं; पंचायत समिति मध्य स्तर है।" },
+      "distractorAnalysis": {
+        "a": { "en": "Gram Sabha is a village-level general body of all registered voters, not the intermediate tier of the Panchayati Raj structure.", "hi": "ग्राम सभा गाँव स्तर पर सभी पंजीकृत मतदाताओं की एक सामान्य निकाय है, यह पंचायती राज ढांचे का मध्यवर्ती स्तर नहीं है।" },
+        "c": { "en": "Zila Parishad is the top, district-level tier of the Panchayati Raj system, not the middle one.", "hi": "जिला परिषद पंचायती राज व्यवस्था का सबसे ऊपरी, जिला-स्तरीय स्तर है, मध्य स्तर नहीं।" },
+        "d": { "en": "Lok Sabha is the lower house of India's Parliament at the national level and is not part of the Panchayati Raj system at all.", "hi": "लोकसभा राष्ट्रीय स्तर पर भारत की संसद का निचला सदन है और यह पंचायती राज व्यवस्था का हिस्सा ही नहीं है।" }
+      }
+    },
+    {
+      "key": "bank-gk-awareness-31",
+      "difficulty": "HARD",
+      "content": { "en": "Who discovered the ABO human blood group system?", "hi": "मानव एबीओ रक्त समूह प्रणाली की खोज किसने की?" },
+      "options": [
+        { "id": "a", "text": { "en": "Karl Landsteiner", "hi": "कार्ल लैंडस्टाइनर" } },
+        { "id": "b", "text": { "en": "Louis Pasteur", "hi": "लुई पास्चर" } },
+        { "id": "c", "text": { "en": "Edward Jenner", "hi": "एडवर्ड जेनर" } },
+        { "id": "d", "text": { "en": "Gregor Mendel", "hi": "ग्रेगर मेंडल" } }
+      ],
+      "correctOption": "a",
+      "explanation": { "en": "Austrian scientist Karl Landsteiner discovered the ABO blood group system in 1901, a finding for which he later won the Nobel Prize.", "hi": "ऑस्ट्रियाई वैज्ञानिक कार्ल लैंडस्टाइनर ने 1901 में एबीओ रक्त समूह प्रणाली की खोज की, जिसके लिए उन्हें बाद में नोबेल पुरस्कार मिला।" },
+      "distractorAnalysis": {
+        "b": { "en": "Louis Pasteur is known for germ theory and vaccines, but not for discovering blood groups.", "hi": "लुई पास्चर जर्म सिद्धांत और टीकों के लिए जाने जाते हैं, रक्त समूहों की खोज के लिए नहीं।" },
+        "c": { "en": "Edward Jenner is known for developing the smallpox vaccine, unrelated to blood group discovery.", "hi": "एडवर्ड जेनर चेचक के टीके के विकास के लिए जाने जाते हैं, जिनका रक्त समूह की खोज से कोई संबंध नहीं है।" },
+        "d": { "en": "Gregor Mendel is known as the father of genetics for his work on pea plants, not for blood groups.", "hi": "ग्रेगर मेंडल को मटर के पौधों पर अपने कार्य के कारण 'आनुवंशिकी का जनक' कहा जाता है, रक्त समूहों के लिए नहीं।" }
+      }
+    },
+    {
+      "key": "bank-gk-awareness-32",
+      "difficulty": "HARD",
+      "content": { "en": "How many bones are there in an average adult human body?", "hi": "एक सामान्य वयस्क मानव शरीर में कितनी हड्डियाँ होती हैं?" },
+      "options": [
+        { "id": "a", "text": { "en": "186", "hi": "186" } },
+        { "id": "b", "text": { "en": "206", "hi": "206" } },
+        { "id": "c", "text": { "en": "226", "hi": "226" } },
+        { "id": "d", "text": { "en": "246", "hi": "246" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "An average adult human body has 206 bones (babies are born with more bones that fuse together as they grow).", "hi": "एक सामान्य वयस्क मानव शरीर में 206 हड्डियाँ होती हैं (शिशुओं में जन्म के समय अधिक हड्डियाँ होती हैं, जो बड़े होने पर आपस में जुड़ जाती हैं)।" },
+      "distractorAnalysis": {
+        "a": { "en": "186 is an undercount, close to but below the correct total.", "hi": "186 सही संख्या से कम है, परन्तु उसके करीब है।" },
+        "c": { "en": "226 is an overcount, close to but above the correct total.", "hi": "226 सही संख्या से अधिक है, परन्तु उसके करीब है।" },
+        "d": { "en": "246 is a larger overestimate, further from the correct total than the other wrong options.", "hi": "246 एक बड़ा अधिक-अनुमान है, जो अन्य गलत विकल्पों की तुलना में सही संख्या से अधिक दूर है।" }
+      }
+    },
+    {
+      "key": "bank-gk-awareness-33",
+      "difficulty": "HARD",
+      "content": { "en": "What is the approximate speed of light in vacuum?", "hi": "निर्वात में प्रकाश की अनुमानित गति कितनी है?" },
+      "options": [
+        { "id": "a", "text": { "en": "3 lakh km per second", "hi": "3 लाख किमी प्रति सेकंड" } },
+        { "id": "b", "text": { "en": "3 thousand km per second", "hi": "3 हज़ार किमी प्रति सेकंड" } },
+        { "id": "c", "text": { "en": "30 lakh km per second", "hi": "30 लाख किमी प्रति सेकंड" } },
+        { "id": "d", "text": { "en": "3 lakh km per hour", "hi": "3 लाख किमी प्रति घंटा" } }
+      ],
+      "correctOption": "a",
+      "explanation": { "en": "Light travels at approximately 3,00,000 kilometres (3 lakh km) per second in a vacuum.", "hi": "निर्वात में प्रकाश लगभग 3,00,000 किलोमीटर (3 लाख किमी) प्रति सेकंड की गति से यात्रा करता है।" },
+      "distractorAnalysis": {
+        "b": { "en": "3 thousand km per second is far too slow and understates the actual speed of light by a factor of 100.", "hi": "3 हज़ार किमी प्रति सेकंड वास्तविक गति से बहुत धीमा है और इसे सही गति से 100 गुना कम आँकता है।" },
+        "c": { "en": "30 lakh km per second overstates the actual speed of light by ten times.", "hi": "30 लाख किमी प्रति सेकंड वास्तविक गति को दस गुना अधिक आँकता है।" },
+        "d": { "en": "3 lakh km per hour confuses the correct number with the wrong unit of time, making it seem far slower than light actually travels.", "hi": "3 लाख किमी प्रति घंटा सही संख्या को गलत समय इकाई के साथ जोड़ देता है, जिससे यह वास्तविक गति से बहुत धीमा प्रतीत होता है।" }
+      }
+    },
+    {
+      "key": "bank-gk-awareness-34",
+      "difficulty": "HARD",
+      "content": { "en": "Who was the first human to walk on the Moon?", "hi": "चंद्रमा पर चलने वाले पहले मानव कौन थे?" },
+      "options": [
+        { "id": "a", "text": { "en": "Yuri Gagarin", "hi": "यूरी गागरिन" } },
+        { "id": "b", "text": { "en": "Neil Armstrong", "hi": "नील आर्मस्ट्रांग" } },
+        { "id": "c", "text": { "en": "Buzz Aldrin", "hi": "बज़ ऑल्ड्रिन" } },
+        { "id": "d", "text": { "en": "Michael Collins", "hi": "माइकल कॉलिन्स" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "Neil Armstrong became the first human to walk on the Moon on 20 July 1969 during the Apollo 11 mission.", "hi": "नील आर्मस्ट्रांग अपोलो 11 मिशन के दौरान 20 जुलाई 1969 को चंद्रमा पर चलने वाले पहले मानव बने।" },
+      "distractorAnalysis": {
+        "a": { "en": "Yuri Gagarin was the first human to travel into space, but he did not walk on the Moon.", "hi": "यूरी गागरिन अंतरिक्ष में जाने वाले पहले मानव थे, परन्तु वे चंद्रमा पर नहीं चले।" },
+        "c": { "en": "Buzz Aldrin was the second person to walk on the Moon, right after Neil Armstrong on the same mission.", "hi": "बज़ ऑल्ड्रिन उसी मिशन में नील आर्मस्ट्रांग के तुरंत बाद चंद्रमा पर चलने वाले दूसरे व्यक्ति थे।" },
+        "d": { "en": "Michael Collins was the third crew member of Apollo 11, but he stayed in the command module and did not walk on the Moon.", "hi": "माइकल कॉलिन्स अपोलो 11 के तीसरे सदस्य थे, परन्तु वे कमांड मॉड्यूल में ही रहे और चंद्रमा पर नहीं चले।" }
+      }
+    },
+    {
+      "key": "bank-gk-awareness-35",
+      "difficulty": "HARD",
+      "content": { "en": "N.R. Narayana Murthy is best known as a co-founder of which major Indian IT company?", "hi": "एन.आर. नारायण मूर्ति किस प्रमुख भारतीय आईटी कंपनी के सह-संस्थापक के रूप में जाने जाते हैं?" },
+      "options": [
+        { "id": "a", "text": { "en": "Wipro", "hi": "विप्रो" } },
+        { "id": "b", "text": { "en": "Infosys", "hi": "इंफोसिस" } },
+        { "id": "c", "text": { "en": "TCS", "hi": "टीसीएस" } },
+        { "id": "d", "text": { "en": "HCL", "hi": "एचसीएल" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "N.R. Narayana Murthy is one of the co-founders of Infosys, established in 1981, one of India's leading IT services companies.", "hi": "एन.आर. नारायण मूर्ति 1981 में स्थापित इंफोसिस के सह-संस्थापकों में से एक हैं, जो भारत की अग्रणी आईटी सेवा कंपनियों में से एक है।" },
+      "distractorAnalysis": {
+        "a": { "en": "Wipro is another major Indian IT company, but it was founded by Azim Premji's family business, not Narayana Murthy.", "hi": "विप्रो एक और प्रमुख भारतीय आईटी कंपनी है, परन्तु इसकी स्थापना अज़ीम प्रेमजी के पारिवारिक व्यवसाय द्वारा हुई थी, नारायण मूर्ति द्वारा नहीं।" },
+        "c": { "en": "TCS (Tata Consultancy Services) is India's largest IT company, part of the Tata Group, and unrelated to Narayana Murthy's founding role.", "hi": "टीसीएस (टाटा कंसल्टेंसी सर्विसेज़) टाटा समूह की भारत की सबसे बड़ी आईटी कंपनी है, और नारायण मूर्ति की संस्थापक भूमिका से इसका कोई संबंध नहीं है।" },
+        "d": { "en": "HCL is a well-known Indian IT company founded by Shiv Nadar and others, not by Narayana Murthy.", "hi": "एचसीएल एक जानी-मानी भारतीय आईटी कंपनी है जिसकी स्थापना शिव नादर और अन्य ने की थी, नारायण मूर्ति ने नहीं।" }
+      }
+    },
+    {
+      "key": "bank-gk-awareness-36",
+      "difficulty": "HARD",
+      "content": { "en": "Who wrote India's National Anthem, 'Jana Gana Mana'?", "hi": "भारत का राष्ट्रगान 'जन गण मन' किसने लिखा?" },
+      "options": [
+        { "id": "a", "text": { "en": "Bankim Chandra Chattopadhyay", "hi": "बंकिम चंद्र चट्टोपाध्याय" } },
+        { "id": "b", "text": { "en": "Rabindranath Tagore", "hi": "रवींद्रनाथ टैगोर" } },
+        { "id": "c", "text": { "en": "Sarojini Naidu", "hi": "सरोजिनी नायडू" } },
+        { "id": "d", "text": { "en": "Muhammad Iqbal", "hi": "मुहम्मद इक़बाल" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "Rabindranath Tagore wrote and composed 'Jana Gana Mana', which was adopted as India's National Anthem.", "hi": "रवींद्रनाथ टैगोर ने 'जन गण मन' लिखा और स्वरबद्ध किया, जिसे भारत के राष्ट्रगान के रूप में अपनाया गया।" },
+      "distractorAnalysis": {
+        "a": { "en": "Bankim Chandra Chattopadhyay wrote 'Vande Mataram', India's National Song, which is often confused with the National Anthem.", "hi": "बंकिम चंद्र चट्टोपाध्याय ने 'वंदे मातरम्' लिखा, जो भारत का राष्ट्रीय गीत है, और इसे अक्सर राष्ट्रगान समझ लिया जाता है।" },
+        "c": { "en": "Sarojini Naidu was a famous poet and freedom fighter, but she did not write the National Anthem.", "hi": "सरोजिनी नायडू एक प्रसिद्ध कवयित्री और स्वतंत्रता सेनानी थीं, परन्तु उन्होंने राष्ट्रगान नहीं लिखा।" },
+        "d": { "en": "Muhammad Iqbal wrote the famous patriotic song 'Saare Jahan Se Achha', not the National Anthem.", "hi": "मुहम्मद इक़बाल ने प्रसिद्ध देशभक्ति गीत 'सारे जहाँ से अच्छा' लिखा था, राष्ट्रगान नहीं।" }
+      }
+    },
+    {
+      "key": "bank-gk-awareness-37",
+      "difficulty": "HARD",
+      "content": { "en": "How many spokes does the Ashoka Chakra on the Indian national flag have?", "hi": "भारतीय राष्ट्रीय ध्वज में अशोक चक्र में कितनी तीलियाँ (स्पोक्स) होती हैं?" },
+      "options": [
+        { "id": "a", "text": { "en": "20", "hi": "20" } },
+        { "id": "b", "text": { "en": "22", "hi": "22" } },
+        { "id": "c", "text": { "en": "24", "hi": "24" } },
+        { "id": "d", "text": { "en": "26", "hi": "26" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "The Ashoka Chakra at the centre of the Indian national flag has 24 spokes.", "hi": "भारतीय राष्ट्रीय ध्वज के मध्य में स्थित अशोक चक्र में 24 तीलियाँ होती हैं।" },
+      "distractorAnalysis": {
+        "a": { "en": "20 is an undercount and does not match the actual design of the Chakra.", "hi": "20 की संख्या कम है और चक्र के वास्तविक डिज़ाइन से मेल नहीं खाती।" },
+        "b": { "en": "22 is close to the correct number but still incorrect.", "hi": "22 सही संख्या के करीब है, परन्तु फिर भी गलत है।" },
+        "d": { "en": "26 is an overcount and also does not match the actual design.", "hi": "26 की संख्या अधिक है और यह भी वास्तविक डिज़ाइन से मेल नहीं खाती।" }
+      }
+    },
+    {
+      "key": "bank-gk-awareness-38",
+      "difficulty": "HARD",
+      "content": { "en": "Which Indian state has the longest coastline?", "hi": "भारत के किस राज्य की तटरेखा सबसे लंबी है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Tamil Nadu", "hi": "तमिलनाडु" } },
+        { "id": "b", "text": { "en": "Gujarat", "hi": "गुजरात" } },
+        { "id": "c", "text": { "en": "Andhra Pradesh", "hi": "आंध्र प्रदेश" } },
+        { "id": "d", "text": { "en": "Maharashtra", "hi": "महाराष्ट्र" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "Gujarat has the longest coastline among Indian states, stretching along the Arabian Sea.", "hi": "गुजरात की तटरेखा भारतीय राज्यों में सबसे लंबी है, जो अरब सागर के किनारे फैली हुई है।" },
+      "distractorAnalysis": {
+        "a": { "en": "Tamil Nadu has a significant coastline in south-east India, but it is shorter than Gujarat's.", "hi": "तमिलनाडु की तटरेखा भारत के दक्षिण-पूर्व में महत्वपूर्ण है, परन्तु यह गुजरात से छोटी है।" },
+        "c": { "en": "Andhra Pradesh has a long coastline along the Bay of Bengal, but it is still shorter than Gujarat's.", "hi": "आंध्र प्रदेश की तटरेखा बंगाल की खाड़ी के किनारे लंबी है, परन्तु फिर भी गुजरात से छोटी है।" },
+        "d": { "en": "Maharashtra has an important coastline including Mumbai's ports, but it is much shorter than Gujarat's.", "hi": "महाराष्ट्र की तटरेखा मुंबई के बंदरगाहों सहित महत्वपूर्ण है, परन्तु यह गुजरात से काफी छोटी है।" }
+      }
+    },
+    {
+      "key": "bank-gk-awareness-39",
+      "difficulty": "HARD",
+      "content": { "en": "Which planet is popularly known as the 'Red Planet'?", "hi": "किस ग्रह को लोकप्रिय रूप से 'लाल ग्रह' कहा जाता है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Venus", "hi": "शुक्र" } },
+        { "id": "b", "text": { "en": "Mars", "hi": "मंगल" } },
+        { "id": "c", "text": { "en": "Mercury", "hi": "बुध" } },
+        { "id": "d", "text": { "en": "Saturn", "hi": "शनि" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "Mars is called the 'Red Planet' because of the reddish appearance caused by iron oxide (rust) on its surface.", "hi": "मंगल ग्रह को उसकी सतह पर आयरन ऑक्साइड (जंग) के कारण होने वाली लालिमा के कारण 'लाल ग्रह' कहा जाता है।" },
+      "distractorAnalysis": {
+        "a": { "en": "Venus is the brightest planet in our night sky and extremely hot, but it is not known as the 'Red Planet'.", "hi": "शुक्र हमारे रात्रि आकाश का सबसे चमकीला ग्रह है और अत्यंत गर्म है, परन्तु इसे 'लाल ग्रह' नहीं कहा जाता।" },
+        "c": { "en": "Mercury is the closest planet to the Sun, but it is grey in colour, not red.", "hi": "बुध सूर्य के सबसे निकट का ग्रह है, परन्तु इसका रंग धूसर है, लाल नहीं।" },
+        "d": { "en": "Saturn is famous for its rings, but its colour is not associated with the 'Red Planet' nickname.", "hi": "शनि अपने वलयों (रिंग्स) के लिए प्रसिद्ध है, परन्तु इसका रंग 'लाल ग्रह' के उपनाम से जुड़ा नहीं है।" }
+      }
+    },
+    {
+      "key": "bank-gk-awareness-40",
+      "difficulty": "HARD",
+      "content": { "en": "What is the chemical symbol for the element Gold?", "hi": "स्वर्ण (गोल्ड) तत्व का रासायनिक प्रतीक क्या है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Go", "hi": "Go" } },
+        { "id": "b", "text": { "en": "Gd", "hi": "Gd" } },
+        { "id": "c", "text": { "en": "Au", "hi": "Au" } },
+        { "id": "d", "text": { "en": "Ag", "hi": "Ag" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "The chemical symbol for Gold is 'Au', derived from its Latin name 'aurum'.", "hi": "स्वर्ण का रासायनिक प्रतीक 'Au' है, जो इसके लैटिन नाम 'ऑरम' (aurum) से लिया गया है।" },
+      "distractorAnalysis": {
+        "a": { "en": "'Go' is not a real chemical symbol; it is a simple but incorrect guess based on the English spelling of Gold.", "hi": "'Go' कोई वास्तविक रासायनिक प्रतीक नहीं है; यह गोल्ड की अंग्रेज़ी वर्तनी पर आधारित एक सरल परन्तु गलत अनुमान है।" },
+        "b": { "en": "'Gd' is actually the chemical symbol for the element Gadolinium, not Gold.", "hi": "'Gd' वास्तव में गैडोलिनियम तत्व का रासायनिक प्रतीक है, स्वर्ण का नहीं।" },
+        "d": { "en": "'Ag' is the chemical symbol for Silver, derived from the Latin 'argentum', and is often confused with Gold's symbol.", "hi": "'Ag' चांदी (सिल्वर) का रासायनिक प्रतीक है, जो लैटिन शब्द 'अर्जेंटम' से लिया गया है, और इसे अक्सर स्वर्ण के प्रतीक से भ्रमित किया जाता है।" }
+      }
+    }
+  ]
+}

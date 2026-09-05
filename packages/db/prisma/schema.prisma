@@ -333,9 +333,20 @@ model Question {
   vedicSpeedHackId String?         @map("vedic_speed_hack_id")
   vedicSpeedHack   VedicSpeedHack? @relation(fields: [vedicSpeedHackId], references: [id], onDelete: SetNull)
 
-  // Multilingual explanation text, same { "en", "hi", ... } shape as `content`.
+  // Multilingual explanation of why `correctOption` is right — step-by-step
+  // logical proof or Vedic speed-math shortcut. Same { "en", "hi", ... }
+  // shape as `content`.
   explanation          Json?
   explanationVideoUrl  String? @map("explanation_video_url")
+
+  // Multilingual breakdown of why each WRONG option is a common trap answer,
+  // keyed by that option's "id" from `options` above (correctOption is never
+  // a key here) — e.g. { "b": { "en": "...", "hi": "..." }, "c": {...}, "d":
+  // {...} }. Optional and additive alongside `explanation` rather than a
+  // rename, so existing readers of `explanation` (jnvstMockService.ts,
+  // QuestionCanvas, diagnostics.ts) are unaffected; absent for older rows
+  // that predate this field.
+  distractorAnalysis Json? @map("distractor_analysis")
 
   // Base time allotment in seconds, used by the engine's timer math.
   timeLimitSeconds Int @default(60) @map("time_limit_seconds")
@@ -395,6 +406,13 @@ model PreviousYearQuestion {
   // (Nikhilam, Urdhva-Tiryagbhyam, etc.) where relevant; for Mental
   // Ability, the elimination logic for the distractor options.
   explanation Json
+
+  // Multilingual breakdown of why each wrong optionsJson entry is a common
+  // trap answer, keyed by its stringified 0-based index (e.g. "0","2","3"
+  // when correctAnswer is 1) rather than Question.distractorAnalysis's
+  // option-id keys, since optionsJson is a positional array with no "id".
+  // Optional and additive, same reasoning as Question.distractorAnalysis.
+  distractorAnalysis Json? @map("distractor_analysis")
 
   difficulty Difficulty @default(MEDIUM)
 
