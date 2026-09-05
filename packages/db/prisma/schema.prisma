@@ -36,6 +36,7 @@ enum Language {
   MR // Marathi
   BN // Bengali
   TA // Tamil
+  GU // Gujarati
 }
 
 enum ExamType {
@@ -127,12 +128,42 @@ model User {
   createdAt DateTime @default(now()) @map("created_at")
   updatedAt DateTime @updatedAt @map("updated_at")
 
-  testSessions  TestSession[]
-  mistakes      MistakeVault[]
-  subscriptions Subscription[]
+  testSessions        TestSession[]
+  mistakes            MistakeVault[]
+  subscriptions       Subscription[]
+  offlineMockSessions OfflineMockSession[]
 
   @@index([parentId])
   @@map("users")
+}
+
+// A single-use login code for the WhatsApp-delivered OTP flow
+// (apps/web/app/api/auth/whatsapp-otp/route.ts) — a from-scratch OTP
+// mechanism (not Supabase's built-in phone provider, which only delivers
+// via a configured third-party SMS gateway) so codes can be sent over the
+// WhatsApp Cloud API credentials this project already has for report
+// delivery. codeHash is a salted hash, never the plaintext code, so a DB
+// read alone can't yield a valid login. Rows aren't deleted on expiry —
+// there's no cleanup job in this pass; an expired/consumed row is just
+// never matched by a lookup again, and no query here scans the whole table.
+model PhoneOtp {
+  id    String @id @default(cuid())
+  // Whatever format the caller sent — matches User.phone's raw digits.
+  phone String
+
+  codeHash   String    @map("code_hash")
+  expiresAt  DateTime  @map("expires_at")
+  // Null until a correct verify consumes it; a consumed or expired row is
+  // never accepted again even if the code is resubmitted.
+  consumedAt DateTime? @map("consumed_at")
+  // Failed verify attempts against this code — capped in the route so a
+  // 6-digit code can't be brute-forced within its expiry window.
+  attempts   Int       @default(0)
+
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@index([phone, expiresAt])
+  @@map("phone_otps")
 }
 
 // A parent's billing plan. targetExam scopes an EXAM_PASS to one exam;
@@ -168,6 +199,10 @@ model Subscription {
 model ExamTemplate {
   id       String   @id @default(cuid())
   examType ExamType @map("exam_type")
+  // Grade this template applies to — JNVST/AISSEE/RMS each admit primarily
+  // at Class 6, with a smaller Class 9 lateral-entry stream; defaults to 6
+  // so the existing Class 6 rows need no data migration.
+  classLevel Int    @default(6) @map("class_level")
   // Bilingual display name, e.g. { "en": "JNVST Class 6", "hi": "जेएनवीएसटी कक्षा 6" }
   name Json
   slug String @unique
@@ -189,6 +224,7 @@ model ExamTemplate {
   sections     ExamTemplateSection[]
   testSessions TestSession[]
 
+  @@index([examType, classLevel])
   @@map("exam_templates")
 }
 
@@ -224,8 +260,9 @@ model Section {
   name  Json
   order Int  @default(0)
 
-  topics               Topic[]
-  examTemplateSections ExamTemplateSection[]
+  topics                Topic[]
+  examTemplateSections  ExamTemplateSection[]
+  previousYearQuestions PreviousYearQuestion[]
 
   @@map("sections")
 }
@@ -267,7 +304,13 @@ model VedicSpeedHack {
 // ─────────────────────────────────────────────────────────────────────────
 
 model Question {
-  id         String     @id @default(cuid())
+  id  String  @id @default(cuid())
+  // Stable natural key every seed-authored question upserts on, e.g.
+  // "jnvst6-ma-numseries-01" — never shown to students. See
+  // prisma/seed.ts's backfillLegacyQuestionKeys for how the handful of
+  // rows that predate this column got one.
+  key String @unique @map("question_key")
+
   topicId    String     @map("topic_id")
   topic      Topic      @relation(fields: [topicId], references: [id], onDelete: Cascade)
   difficulty Difficulty @default(MEDIUM)
@@ -290,9 +333,20 @@ model Question {
   vedicSpeedHackId String?         @map("vedic_speed_hack_id")
   vedicSpeedHack   VedicSpeedHack? @relation(fields: [vedicSpeedHackId], references: [id], onDelete: SetNull)
 
-  // Multilingual explanation text, same { "en", "hi", ... } shape as `content`.
+  // Multilingual explanation of why `correctOption` is right — step-by-step
+  // logical proof or Vedic speed-math shortcut. Same { "en", "hi", ... }
+  // shape as `content`.
   explanation          Json?
   explanationVideoUrl  String? @map("explanation_video_url")
+
+  // Multilingual breakdown of why each WRONG option is a common trap answer,
+  // keyed by that option's "id" from `options` above (correctOption is never
+  // a key here) — e.g. { "b": { "en": "...", "hi": "..." }, "c": {...}, "d":
+  // {...} }. Optional and additive alongside `explanation` rather than a
+  // rename, so existing readers of `explanation` (jnvstMockService.ts,
+  // QuestionCanvas, diagnostics.ts) are unaffected; absent for older rows
+  // that predate this field.
+  distractorAnalysis Json? @map("distractor_analysis")
 
   // Base time allotment in seconds, used by the engine's timer math.
   timeLimitSeconds Int @default(60) @map("time_limit_seconds")
@@ -306,6 +360,67 @@ model Question {
   @@index([topicId, difficulty])
   @@index([vedicSpeedHackId])
   @@map("questions")
+}
+
+// A single item in an exam's Previous-Year-Question practice bank, used to
+// assemble dynamic mock papers (see packages/engine's jnvstMockAssembly and
+// packages/db/src/jnvstMockService.ts). Deliberately a separate model from
+// Question rather than reusing it: the two have genuinely different answer
+// representations (correctAnswer here is a 0-3 index into optionsJson,
+// matching how PYQ sources are normally keyed, vs. Question's option-"id"
+// string) and reusing Question's shape would mean quietly changing that
+// established convention everywhere it's already consumed. Content here is
+// original practice material modeled on each exam's known section/
+// difficulty pattern for that year band, not a claim to reproduce verbatim
+// official past papers — this project doesn't have a verified, licensed
+// source for those, and presenting fabricated text as an authentic leaked
+// paper would be actively misleading. `year` groups practice sets into
+// year-styled cohorts, not a citation of a real historical paper.
+model PreviousYearQuestion {
+  id String @id @default(cuid())
+  // Stable natural key to upsert seed content on, e.g. "jnvst-2021-ma-01".
+  key String @unique @map("question_key")
+
+  examType   ExamType @default(JNVST) @map("exam_type")
+  year       Int
+  classLevel Int      @default(6) @map("class_level")
+
+  sectionId String  @map("section_id")
+  section   Section @relation(fields: [sectionId], references: [id], onDelete: Restrict)
+
+  // Multilingual question stem — same { "en", "hi", "mr", "bn", "ta" }
+  // shape as Question.content; "en" always present.
+  questionJson Json @map("question_json")
+
+  // Exactly 4 entries, each a multilingual text map like
+  // { "en": "...", "hi": "...", ... } — order matters, since
+  // correctAnswer below is a positional index into this array.
+  optionsJson Json @map("options_json")
+
+  // 0-based index into optionsJson (0-3) — distinct from Question's
+  // option-"id" string; see the model comment above.
+  correctAnswer Int @map("correct_answer")
+
+  // Multilingual step-by-step explanation, same shape as questionJson —
+  // for Arithmetic this should name the Vedic sutra shortcut that applies
+  // (Nikhilam, Urdhva-Tiryagbhyam, etc.) where relevant; for Mental
+  // Ability, the elimination logic for the distractor options.
+  explanation Json
+
+  // Multilingual breakdown of why each wrong optionsJson entry is a common
+  // trap answer, keyed by its stringified 0-based index (e.g. "0","2","3"
+  // when correctAnswer is 1) rather than Question.distractorAnalysis's
+  // option-id keys, since optionsJson is a positional array with no "id".
+  // Optional and additive, same reasoning as Question.distractorAnalysis.
+  distractorAnalysis Json? @map("distractor_analysis")
+
+  difficulty Difficulty @default(MEDIUM)
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@index([examType, classLevel, year, sectionId])
+  @@map("previous_year_questions")
 }
 
 // Which languages a state's exam papers are actually offered in, per exam
@@ -405,6 +520,65 @@ model MistakeVault {
   @@index([userId, tagCategory])
   @@index([userId, questionId])
   @@map("mistake_vault")
+}
+
+// ─────────────────────────────────────────────────────────────────────────
+// Offline OMR workflow (print a set, scan and grade it later)
+// ─────────────────────────────────────────────────────────────────────────
+
+// A printable offline mock set: a fixed batch of questions assigned a
+// human-readable serialCode (e.g. "VN-JNV-007") so grading can be
+// requested later by that code instead of re-uploading the question set.
+// questionIds/answerKey are Json rather than relations because a set is a
+// point-in-time snapshot of whatever was actually printed — if the source
+// question is edited afterward, an already-printed sheet's key must stay
+// exactly what a student has in hand, not silently follow the edit.
+model OfflineMockSession {
+  id         String @id @default(cuid())
+  serialCode String @unique @map("serial_code")
+
+  // Reuses the existing ExamType enum (matches every other exam-typed
+  // field in this schema) rather than a free-form String, so this can't
+  // drift out of sync with JNVST/AISSEE/RMS/DPS/OTHER.
+  examType   ExamType @map("exam_type")
+  classLevel Int      @map("class_level")
+
+  totalQuestions Int @map("total_questions")
+
+  // Question ids in print order. Values match Question.id or
+  // PreviousYearQuestion.id depending on which bank the set was drawn
+  // from — deliberately not a DB-level relation, for the snapshot reason
+  // above.
+  questionIds Json @map("question_ids")
+
+  // Keyed by question number (1-based, matching the printed sheet) to the
+  // correct bubble option. Uses "A"|"B"|"C"|"D" — not a 0-3 index — to
+  // match packages/engine/src/omrEvaluator.ts's BubbleOption /
+  // OmrAnswerKeyEntry shape exactly, e.g. { "1": "B", "2": "D", ... }, so
+  // this can be handed straight to evaluateOmrSheet() with no translation
+  // once the scan-and-grade step is built.
+  answerKey Json @map("answer_key")
+
+  // Set only when a signed-in student generated this set (vs. an
+  // anonymous print, e.g. from a shared library computer).
+  userId String? @map("user_id")
+  user   User?   @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  // Populated once the filled sheet is scanned and uploaded (Supabase
+  // Storage), ahead of grading actually running against it.
+  scannedImageUrl String? @map("scanned_image_url")
+
+  // Set once grading has run. Mirrors
+  // packages/engine/src/omrEvaluator.ts's OmrSheetEvaluationSummary shape:
+  // { responses, totalMarks, correctCount, incorrectCount,
+  //   unattemptedCount, invalidCount }.
+  gradingResult Json? @map("grading_result")
+
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@index([userId])
+  @@index([examType, classLevel])
+  @@map("offline_mock_sessions")
 }
 
 // ─────────────────────────────────────────────────────────────────────────

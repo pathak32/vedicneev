@@ -112,6 +112,7 @@ export function PaywallModal({
           planId={checkoutPlan}
           targetExam={checkoutPlan === "EXAM_PASS" ? (targetExam ?? null) : null}
           parentId={parent.id}
+          parentPhone={parent.phone}
           onCancel={() => setCheckoutPlan(null)}
           onSuccess={(subscription) => {
             setCheckoutPlan(null);

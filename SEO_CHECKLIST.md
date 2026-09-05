@@ -11,8 +11,8 @@ level, which no code change can do for you (§2).
 | Page titles/descriptions | Every route (including `/dashboard`, `/exam/[examId]`, results, OMR) silently inherited the one root `<title>`/description — every page was a duplicate | Every public page has its own title/description; a root title template (`%s \| Vedic Neev`) keeps them consistent |
 | OpenGraph / Twitter cards | None beyond a bare title/description | Full `openGraph`/`twitter` blocks + a generated 1200×630 default image (`app/opengraph-image.tsx`) |
 | Favicon | None (`public/` was empty) | `app/icon.svg`, auto-wired by Next |
-| robots.txt | Didn't exist | `app/robots.ts` — allows everything except `/api/*`, points at the sitemap |
-| sitemap.xml | Didn't exist | `app/sitemap.ts` — lists only `/`, `/pricing`, `/learn` |
+| robots.txt | Didn't exist | `app/robots.ts` — allows everything except `/admin/*` and `/api/*`, points at the sitemap |
+| sitemap.xml | Didn't exist | `app/sitemap.ts` — lists `/`, `/pricing`, `/learn`, `/faq`, `/privacy`, `/terms`, `/blog`, and every published post |
 | Private/account pages (`/dashboard`, `/parent`, `/onboarding`, `/exam/**`) | Indexable by default (no robots directive at all) | `robots: { index: false, follow: true }` |
 | `/exam/[examId]/results` for an unrecognized `examId` | Rendered a generic "no submitted attempt found" message with **HTTP 200**, for literally any string — a soft 404 across an unbounded URL space | Real `notFound()` (HTTP 404), validated once in `app/exam/[examId]/layout.tsx` for the whole subtree (player, results, both OMR routes) |
 | 404 page | Next's bare default | Branded, with links back to `/`, `/pricing`, `/learn` |

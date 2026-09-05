@@ -7,6 +7,10 @@ export const TOPIC_NAMES: Record<string, Multilingual> = {
   speed_calculation: { en: "Speed Calculation", hi: "तीव्र गणना" },
   vocabulary: { en: "Vocabulary", hi: "शब्दावली" },
   grammar: { en: "Grammar", hi: "व्याकरण" },
+  // PreviousYearQuestion (see jnvstMockService.ts) tracks section-level
+  // granularity only, not a real Topic — every PYQ-bank question is
+  // stamped with this fixed topicKey instead of a genuine Topic.key.
+  pyq: { en: "Previous-Year Practice", hi: "पिछले वर्ष का अभ्यास" },
 };
 
 /**
@@ -87,12 +91,13 @@ const mentalAbilityQuestions: ExamQuestion[] = [
       mr: "लुप्त संख्या शोधा: 2, 4, 8, 16, ?, 64",
       bn: "অনুপস্থিত সংখ্যাটি খুঁজুন: 2, 4, 8, 16, ?, 64",
       ta: "விடுபட்ட எண்ணைக் கண்டறியவும்: 2, 4, 8, 16, ?, 64",
+      gu: "ખૂટતી સંખ્યા શોધો: 2, 4, 8, 16, ?, 64",
     },
     options: [
-      { id: "a", text: { en: "24", hi: "24", mr: "24", bn: "24", ta: "24" } },
-      { id: "b", text: { en: "32", hi: "32", mr: "32", bn: "32", ta: "32" } },
-      { id: "c", text: { en: "48", hi: "48", mr: "48", bn: "48", ta: "48" } },
-      { id: "d", text: { en: "36", hi: "36", mr: "36", bn: "36", ta: "36" } },
+      { id: "a", text: { en: "24", hi: "24", mr: "24", bn: "24", ta: "24", gu: "24" } },
+      { id: "b", text: { en: "32", hi: "32", mr: "32", bn: "32", ta: "32", gu: "32" } },
+      { id: "c", text: { en: "48", hi: "48", mr: "48", bn: "48", ta: "48", gu: "48" } },
+      { id: "d", text: { en: "36", hi: "36", mr: "36", bn: "36", ta: "36", gu: "36" } },
     ],
     correctOption: "b",
     explanation: {
@@ -101,6 +106,7 @@ const mentalAbilityQuestions: ExamQuestion[] = [
       mr: "प्रत्येक संख्या मागील संख्येच्या दुप्पट आहे: 8×2=16, 16×2=32.",
       bn: "প্রতিটি সংখ্যা আগেরটির দ্বিগুণ: 8×2=16, 16×2=32।",
       ta: "ஒவ்வொரு எண்ணும் முந்தைய எண்ணின் இரு மடங்கு: 8×2=16, 16×2=32.",
+      gu: "દરેક સંખ્યા પાછલી સંખ્યા કરતાં બમણી છે: 8×2=16, 16×2=32.",
     },
     timeLimitSeconds: 45,
   },
@@ -379,6 +385,7 @@ export const demoJnvstSession: ExamSessionData = {
     mr: "जेएनव्हीएसटी इयत्ता 6 निवड चाचणी (डेमो)",
     bn: "জেএনভিএসটি ষষ্ঠ শ্রেণির নির্বাচন পরীক্ষা (ডেমো)",
     ta: "ஜேஎன்விஎஸ்டி 6ஆம் வகுப்பு தேர்வுத் தேர்வு (டெமோ)",
+    gu: "જેએનવીએસટી ધોરણ 6 પસંદગી કસોટી (ડેમો)",
   },
   // Scaled-down demo timing (real JNVST Class 6 is 120 minutes / 80 questions).
   totalDurationSeconds: 5 * 60 + 3 * 60 + 3 * 60,
@@ -392,6 +399,7 @@ export const demoJnvstSession: ExamSessionData = {
         mr: "मानसिक क्षमता",
         bn: "মানসিক দক্ষতা",
         ta: "மனத் திறன்",
+        gu: "માનસિક ક્ષમતા",
       },
       order: 1,
       timeLimitSeconds: 5 * 60,

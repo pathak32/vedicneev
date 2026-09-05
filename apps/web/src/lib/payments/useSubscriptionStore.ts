@@ -1,7 +1,13 @@
 import { create } from "zustand";
 import { createJSONStorage, persist } from "zustand/middleware";
 
-import type { EntitlementExamType, ParentSubscription, PaidPlanId, SubscriptionStatus } from "@vedicneev/engine";
+import {
+  SUBSCRIPTION_VALIDITY_MS,
+  type EntitlementExamType,
+  type ParentSubscription,
+  type PaidPlanId,
+  type SubscriptionStatus,
+} from "@vedicneev/engine";
 
 /**
  * Client-side mirror of packages/db's Subscription model. No live database
@@ -28,8 +34,6 @@ function generateId(): string {
   return `${Date.now()}-${Math.random().toString(36).slice(2)}`;
 }
 
-const ONE_YEAR_MS = 365 * 24 * 60 * 60 * 1000;
-
 export interface ActivateSubscriptionInput {
   parentId: string;
   plan: PaidPlanId;
@@ -37,6 +41,8 @@ export interface ActivateSubscriptionInput {
   amountPaid: number;
   razorpayOrderId: string;
   razorpayPaymentId: string;
+  /** Epoch ms. Pass the server's value (POST /api/razorpay/verify-payment now returns one, computed alongside the real Subscription row) so this local mirror can't drift from the DB; falls back to computing +1 year locally when omitted. */
+  validUntil?: number;
 }
 
 interface SubscriptionStoreState {
@@ -72,7 +78,7 @@ export const useSubscriptionStore = create<SubscriptionStoreState>()(
           amountPaid: input.amountPaid,
           razorpayOrderId: input.razorpayOrderId,
           razorpayPaymentId: input.razorpayPaymentId,
-          validUntil: Date.now() + ONE_YEAR_MS,
+          validUntil: input.validUntil ?? Date.now() + SUBSCRIPTION_VALIDITY_MS,
           createdAt: Date.now(),
         };
         set((state) => ({

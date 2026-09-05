@@ -68,6 +68,7 @@ export default function PricingPage() {
           planId={checkout.planId}
           targetExam={checkout.targetExam}
           parentId={parent.id}
+          parentPhone={parent.phone}
           onCancel={() => setCheckout(null)}
           onSuccess={() => setCheckout(null)}
         />

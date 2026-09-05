@@ -8,3 +8,6 @@ export * from "./omrScan";
 export * from "./entitlements";
 export * from "./media";
 export * from "./whatsappReport";
+export * from "./whatsappOtp";
+export * from "./jnvstMockAssembly";
+export * from "./random";

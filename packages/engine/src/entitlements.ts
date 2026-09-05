@@ -31,6 +31,9 @@ export interface PlanConfig {
   freeMockTestLimit?: number;
 }
 
+/** How long a paid plan stays valid after purchase, in ms — shared so the server (subscription creation) and client (local mirror) can't drift on it. */
+export const SUBSCRIPTION_VALIDITY_MS = 365 * 24 * 60 * 60 * 1000;
+
 export const FREE_MOCK_TEST_LIMIT = 1;
 /** SHORT_VIDEO items get this many free previews regardless of plan; AUDIO_POD and CONCEPT_CLINIC don't. */
 export const FREE_MEDIA_SHORT_PREVIEW_LIMIT = 1;

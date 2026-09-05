@@ -165,6 +165,7 @@ export default function ParentCommandCenterPage() {
             <CardContent>
               <SubscriptionManager
                 parentId={parent.id}
+                parentPhone={parent.phone}
                 subscription={subscription}
                 defaultExam={activeStudent.targetExam}
               />

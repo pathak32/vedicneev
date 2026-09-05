@@ -1,0 +1,727 @@
+{
+  "section": "grammar",
+  "topicKey": "grammar",
+  "generatedAt": "2026-09-05T00:00:00.000Z",
+  "questions": [
+    {
+      "key": "bank-lang-grammar-01",
+      "difficulty": "EASY",
+      "content": { "en": "Which word in the sentence is a noun?\n\"The teacher wrote on the board.\"", "hi": "वाक्य में कौन-सा शब्द संज्ञा (noun) है?\n\"The teacher wrote on the board.\"" },
+      "options": [
+        { "id": "a", "text": { "en": "teacher", "hi": "teacher (अध्यापक)" } },
+        { "id": "b", "text": { "en": "wrote", "hi": "wrote (लिखा)" } },
+        { "id": "c", "text": { "en": "on", "hi": "on (पर)" } },
+        { "id": "d", "text": { "en": "the", "hi": "the" } }
+      ],
+      "correctOption": "a",
+      "explanation": { "en": "A noun is a naming word for a person, place, or thing. 'Teacher' names a person, so it is the noun in this sentence.", "hi": "संज्ञा किसी व्यक्ति, स्थान या वस्तु का नाम बताने वाला शब्द होती है। 'Teacher' एक व्यक्ति का नाम बताता है, इसलिए यही इस वाक्य में संज्ञा है।" },
+      "distractorAnalysis": {
+        "b": { "en": "'Wrote' is an action word describing what the teacher did, making it a verb, not a noun.", "hi": "'Wrote' यह बताता है कि टीचर ने क्या किया, इसलिए यह एक क्रिया (verb) है, संज्ञा नहीं।" },
+        "c": { "en": "'On' shows the relationship between the writing and the board, which makes it a preposition, not a naming word.", "hi": "'On' लिखने की क्रिया और बोर्ड के बीच संबंध दिखाता है, इसलिए यह पूर्वसर्ग (preposition) है, संज्ञा नहीं।" },
+        "d": { "en": "'The' introduces the noun 'board' but does not itself name anything, so it is an article, not a noun.", "hi": "'The' शब्द 'board' से पहले आता है पर स्वयं किसी चीज़ का नाम नहीं बताता, इसलिए यह article है, संज्ञा नहीं।" }
+      }
+    },
+    {
+      "key": "bank-lang-grammar-02",
+      "difficulty": "EASY",
+      "content": { "en": "Choose the correct word to complete the sentence: I saw ___ elephant at the zoo yesterday.", "hi": "वाक्य पूरा करने के लिए सही शब्द चुनें: I saw ___ elephant at the zoo yesterday." },
+      "options": [
+        { "id": "a", "text": { "en": "a", "hi": "a" } },
+        { "id": "b", "text": { "en": "an", "hi": "an" } },
+        { "id": "c", "text": { "en": "the", "hi": "the" } },
+        { "id": "d", "text": { "en": "(no article needed)", "hi": "(कोई article नहीं)" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "'Elephant' begins with a vowel sound, so the indefinite article 'an' is used. Since this is the first time the elephant is mentioned, the indefinite article is required, not 'the'.", "hi": "'Elephant' शब्द स्वर ध्वनि (vowel sound) से शुरू होता है, इसलिए अनिश्चयवाचक article 'an' प्रयोग होगा। चूँकि यह हाथी का पहला उल्लेख है, इसलिए 'the' नहीं बल्कि अनिश्चयवाचक article ज़रूरी है।" },
+      "distractorAnalysis": {
+        "a": { "en": "'A' is used before words beginning with a consonant sound; 'elephant' starts with a vowel sound, so 'a' is the wrong choice here.", "hi": "'A' उन शब्दों से पहले प्रयोग होता है जो व्यंजन ध्वनि से शुरू होते हैं; 'elephant' स्वर ध्वनि से शुरू होता है, इसलिए यहाँ 'a' गलत है।" },
+        "c": { "en": "'The' is used for something already known or specific; since this is the elephant's first mention, the definite article does not fit yet.", "hi": "'The' किसी पहले से ज्ञात या विशेष वस्तु के लिए प्रयोग होता है; चूँकि यह हाथी का पहला उल्लेख है, इसलिए निश्चयवाचक article अभी उपयुक्त नहीं है।" },
+        "d": { "en": "A singular countable noun like 'elephant' being mentioned for the first time needs an article; leaving it out is incorrect.", "hi": "'Elephant' जैसी गणनीय (countable) एकवचन संज्ञा को पहली बार प्रयोग करते समय article ज़रूरी है; उसे हटाना गलत है।" }
+      }
+    },
+    {
+      "key": "bank-lang-grammar-03",
+      "difficulty": "EASY",
+      "content": { "en": "Choose the correct verb to complete the sentence: She ___ to school every day.", "hi": "वाक्य पूरा करने के लिए सही क्रिया चुनें: She ___ to school every day." },
+      "options": [
+        { "id": "a", "text": { "en": "go", "hi": "go" } },
+        { "id": "b", "text": { "en": "goes", "hi": "goes" } },
+        { "id": "c", "text": { "en": "going", "hi": "going" } },
+        { "id": "d", "text": { "en": "gone", "hi": "gone" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "In the simple present tense, third-person singular subjects like 'she' take a verb ending in -s/-es. 'Goes' correctly agrees with 'she'.", "hi": "सामान्य वर्तमान काल (simple present tense) में 'she' जैसे तृतीय पुरुष एकवचन कर्ता के साथ क्रिया के अंत में -s/-es जुड़ता है। 'Goes' सही रूप से 'she' के साथ मेल खाता है।" },
+      "distractorAnalysis": {
+        "a": { "en": "'Go' is the base form, correct for subjects like I/you/we/they, but it does not agree with the third-person singular subject 'she'.", "hi": "'Go' मूल रूप है, जो I/you/we/they के साथ सही है, पर यह तृतीय पुरुष एकवचन कर्ता 'she' के साथ मेल नहीं खाता।" },
+        "c": { "en": "'Going' is a present participle and needs an auxiliary verb like 'is' before it to form a complete verb phrase; alone it cannot be the main verb.", "hi": "'Going' एक present participle है और इसे पूर्ण क्रिया वाक्यांश बनाने के लिए 'is' जैसी सहायक क्रिया चाहिए; अकेले यह मुख्य क्रिया नहीं बन सकता।" },
+        "d": { "en": "'Gone' is a past participle and requires an auxiliary like 'has' before it; it cannot stand alone as the main verb here.", "hi": "'Gone' एक past participle है और इसे प्रयोग करने के लिए पहले 'has' जैसी सहायक क्रिया चाहिए; यह यहाँ अकेले मुख्य क्रिया नहीं बन सकता।" }
+      }
+    },
+    {
+      "key": "bank-lang-grammar-04",
+      "difficulty": "EASY",
+      "content": { "en": "Choose the grammatically correct sentence.", "hi": "व्याकरण की दृष्टि से सही वाक्य चुनें।" },
+      "options": [
+        { "id": "a", "text": { "en": "The dogs barks loudly.", "hi": "The dogs barks loudly." } },
+        { "id": "b", "text": { "en": "The dogs bark loudly.", "hi": "The dogs bark loudly." } },
+        { "id": "c", "text": { "en": "The dog bark loudly.", "hi": "The dog bark loudly." } },
+        { "id": "d", "text": { "en": "The dog barking loudly.", "hi": "The dog barking loudly." } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "The plural subject 'dogs' requires the base form of the verb without -s in the simple present tense, so 'bark' is correct.", "hi": "बहुवचन कर्ता 'dogs' के साथ सामान्य वर्तमान काल में क्रिया का मूल रूप (बिना -s के) प्रयोग होता है, इसलिए 'bark' सही है।" },
+      "distractorAnalysis": {
+        "a": { "en": "The plural subject 'dogs' is wrongly paired with 'barks', which has the -s ending meant only for singular third-person subjects.", "hi": "बहुवचन कर्ता 'dogs' के साथ गलत तरीके से 'barks' प्रयोग किया गया है, जिसका -s अंत केवल एकवचन तृतीय पुरुष कर्ता के लिए होता है।" },
+        "c": { "en": "The singular subject 'dog' needs a verb ending in -s in the simple present tense, so 'bark' without -s is incorrect.", "hi": "एकवचन कर्ता 'dog' के साथ सामान्य वर्तमान काल में क्रिया के अंत में -s चाहिए, इसलिए बिना -s वाला 'bark' गलत है।" },
+        "d": { "en": "This sentence is missing the auxiliary verb 'is' before 'barking', leaving the verb phrase incomplete.", "hi": "इस वाक्य में 'barking' से पहले सहायक क्रिया 'is' नहीं है, जिससे क्रिया वाक्यांश अधूरा रह जाता है।" }
+      }
+    },
+    {
+      "key": "bank-lang-grammar-05",
+      "difficulty": "EASY",
+      "content": { "en": "Choose the correct preposition: I was born ___ 2014.", "hi": "सही पूर्वसर्ग (preposition) चुनें: I was born ___ 2014." },
+      "options": [
+        { "id": "a", "text": { "en": "in", "hi": "in" } },
+        { "id": "b", "text": { "en": "on", "hi": "on" } },
+        { "id": "c", "text": { "en": "at", "hi": "at" } },
+        { "id": "d", "text": { "en": "by", "hi": "by" } }
+      ],
+      "correctOption": "a",
+      "explanation": { "en": "The preposition 'in' is used with years, months, and longer periods of time, so 'in 2014' is correct.", "hi": "पूर्वसर्ग 'in' वर्षों, महीनों और लंबी समयावधियों के साथ प्रयोग होता है, इसलिए 'in 2014' सही है।" },
+      "distractorAnalysis": {
+        "b": { "en": "'On' is used with specific dates and days (e.g., on Monday, on 5 May), not with a year alone.", "hi": "'On' विशेष तिथियों और दिनों के साथ प्रयोग होता है (जैसे on Monday, on 5 May), अकेले वर्ष के साथ नहीं।" },
+        "c": { "en": "'At' is used for precise points in time such as clock times (e.g., at 5 o'clock), not for a year.", "hi": "'At' सटीक समय बिंदुओं जैसे घड़ी के समय के लिए प्रयोग होता है (जैसे at 5 o'clock), वर्ष के लिए नहीं।" },
+        "d": { "en": "'By' indicates a deadline or an agent performing an action, which does not fit stating the year of one's birth.", "hi": "'By' किसी समय-सीमा या कार्य करने वाले को दर्शाता है, जो जन्म-वर्ष बताने के लिए उपयुक्त नहीं है।" }
+      }
+    },
+    {
+      "key": "bank-lang-grammar-06",
+      "difficulty": "EASY",
+      "content": { "en": "Choose the synonym of 'happy'.", "hi": "'happy' का समानार्थी (synonym) शब्द चुनें।" },
+      "options": [
+        { "id": "a", "text": { "en": "sad", "hi": "sad (उदास)" } },
+        { "id": "b", "text": { "en": "joyful", "hi": "joyful (आनंदित)" } },
+        { "id": "c", "text": { "en": "angry", "hi": "angry (क्रोधित)" } },
+        { "id": "d", "text": { "en": "tired", "hi": "tired (थका हुआ)" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "'Joyful' means feeling great pleasure, which matches the meaning of 'happy'.", "hi": "'Joyful' का अर्थ है अत्यधिक प्रसन्नता महसूस करना, जो 'happy' के अर्थ से मेल खाता है।" },
+      "distractorAnalysis": {
+        "a": { "en": "'Sad' describes an unhappy feeling, the direct opposite of 'happy', not a matching word.", "hi": "'Sad' दुख की भावना दर्शाता है, जो 'happy' के बिल्कुल विपरीत है, समानार्थी नहीं।" },
+        "c": { "en": "'Angry' describes a feeling of displeasure or rage, an unrelated emotion to happiness.", "hi": "'Angry' क्रोध या नाराज़गी की भावना दर्शाता है, जो खुशी से असंबंधित भावना है।" },
+        "d": { "en": "'Tired' describes physical or mental fatigue, which is unrelated to the emotion of happiness.", "hi": "'Tired' शारीरिक या मानसिक थकान दर्शाता है, जिसका खुशी की भावना से कोई संबंध नहीं है।" }
+      }
+    },
+    {
+      "key": "bank-lang-grammar-07",
+      "difficulty": "EASY",
+      "content": { "en": "Choose the antonym of 'brave'.", "hi": "'brave' का विलोम (antonym) शब्द चुनें।" },
+      "options": [
+        { "id": "a", "text": { "en": "courageous", "hi": "courageous (साहसी)" } },
+        { "id": "b", "text": { "en": "bold", "hi": "bold (निडर)" } },
+        { "id": "c", "text": { "en": "cowardly", "hi": "cowardly (कायर)" } },
+        { "id": "d", "text": { "en": "strong", "hi": "strong (मजबूत)" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "'Cowardly' means lacking courage, which is the direct opposite of 'brave'.", "hi": "'Cowardly' का अर्थ है साहस की कमी होना, जो 'brave' का बिल्कुल विपरीत अर्थ है।" },
+      "distractorAnalysis": {
+        "a": { "en": "'Courageous' means having courage, which is a synonym of 'brave', not its opposite.", "hi": "'Courageous' का अर्थ है साहसी होना, जो 'brave' का समानार्थी है, विलोम नहीं।" },
+        "b": { "en": "'Bold' means confident and fearless, which is close in meaning to 'brave', not opposite.", "hi": "'Bold' का अर्थ है निडर और आत्मविश्वासी होना, जो 'brave' के करीब है, विपरीत नहीं।" },
+        "d": { "en": "'Strong' refers to physical or mental power, a related but different quality, not the direct opposite of bravery.", "hi": "'Strong' शारीरिक या मानसिक शक्ति को दर्शाता है, जो एक संबंधित परंतु अलग गुण है, साहस का सीधा विलोम नहीं।" }
+      }
+    },
+    {
+      "key": "bank-lang-grammar-08",
+      "difficulty": "EASY",
+      "content": { "en": "Choose the correctly spelled word.", "hi": "सही वर्तनी (spelling) वाला शब्द चुनें।" },
+      "options": [
+        { "id": "a", "text": { "en": "recieve", "hi": "recieve" } },
+        { "id": "b", "text": { "en": "receive", "hi": "receive" } },
+        { "id": "c", "text": { "en": "receeve", "hi": "receeve" } },
+        { "id": "d", "text": { "en": "receve", "hi": "receve" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "The correct spelling follows the pattern 'e' before 'i' after the letter 'c', giving 'receive'.", "hi": "सही वर्तनी में 'c' के बाद 'e' पहले और 'i' बाद में आता है, इसलिए सही शब्द 'receive' है।" },
+      "distractorAnalysis": {
+        "a": { "en": "'Recieve' incorrectly places 'i' before 'e' after the letter 'c', violating the standard spelling pattern.", "hi": "'Recieve' में 'c' के बाद गलत तरीके से 'i' पहले और 'e' बाद में रखा गया है, जो मानक वर्तनी नियम के विपरीत है।" },
+        "c": { "en": "'Receeve' wrongly uses a double 'ee' instead of the correct 'ei' vowel combination.", "hi": "'Receeve' में गलत तरीके से दोहरा 'ee' प्रयोग किया गया है, जबकि सही स्वर संयोजन 'ei' है।" },
+        "d": { "en": "'Receve' is missing the letter 'i' entirely from the correct vowel combination 'ei'.", "hi": "'Receve' में सही स्वर संयोजन 'ei' में से 'i' अक्षर पूरी तरह छूट गया है।" }
+      }
+    },
+    {
+      "key": "bank-lang-grammar-09",
+      "difficulty": "EASY",
+      "content": { "en": "Which punctuation mark should end this sentence?\n\"What is your name\"", "hi": "इस वाक्य के अंत में कौन-सा विराम चिह्न (punctuation mark) आना चाहिए?\n\"What is your name\"" },
+      "options": [
+        { "id": "a", "text": { "en": "Full stop (.)", "hi": "पूर्ण विराम (.)" } },
+        { "id": "b", "text": { "en": "Question mark (?)", "hi": "प्रश्न चिह्न (?)" } },
+        { "id": "c", "text": { "en": "Exclamation mark (!)", "hi": "विस्मयादिबोधक चिह्न (!)" } },
+        { "id": "d", "text": { "en": "Comma (,)", "hi": "अल्पविराम (,)" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "This sentence directly asks something, so it must end with a question mark.", "hi": "यह वाक्य सीधे कुछ पूछ रहा है, इसलिए इसके अंत में प्रश्न चिह्न लगना चाहिए।" },
+      "distractorAnalysis": {
+        "a": { "en": "A full stop ends a plain statement, not a direct question like this one.", "hi": "पूर्ण विराम किसी साधारण कथन के अंत में लगता है, इस तरह के सीधे प्रश्न के अंत में नहीं।" },
+        "c": { "en": "An exclamation mark expresses strong feeling or surprise, which does not fit a plain, calm question.", "hi": "विस्मयादिबोधक चिह्न तीव्र भावना या आश्चर्य दर्शाता है, जो एक साधारण प्रश्न के लिए उपयुक्त नहीं है।" },
+        "d": { "en": "A comma separates parts within a sentence and cannot be used to end a complete sentence.", "hi": "अल्पविराम वाक्य के भीतर के हिस्सों को अलग करता है, इसका प्रयोग पूरे वाक्य को समाप्त करने के लिए नहीं किया जा सकता।" }
+      }
+    },
+    {
+      "key": "bank-lang-grammar-10",
+      "difficulty": "EASY",
+      "content": { "en": "Which word in the sentence is a verb?\n\"The bird sings sweetly in the morning.\"", "hi": "वाक्य में कौन-सा शब्द क्रिया (verb) है?\n\"The bird sings sweetly in the morning.\"" },
+      "options": [
+        { "id": "a", "text": { "en": "bird", "hi": "bird (चिड़िया)" } },
+        { "id": "b", "text": { "en": "sings", "hi": "sings (गाती है)" } },
+        { "id": "c", "text": { "en": "sweetly", "hi": "sweetly (मधुरता से)" } },
+        { "id": "d", "text": { "en": "morning", "hi": "morning (सुबह)" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "A verb shows an action or state. 'Sings' shows the action the bird performs, making it the verb.", "hi": "क्रिया किसी कार्य या अवस्था को दर्शाती है। 'Sings' चिड़िया द्वारा किए जा रहे कार्य को दर्शाता है, इसलिए यही क्रिया है।" },
+      "distractorAnalysis": {
+        "a": { "en": "'Bird' names the subject performing the action, making it a noun, not the action word itself.", "hi": "'Bird' कार्य करने वाले कर्ता का नाम बताता है, इसलिए यह संज्ञा है, स्वयं क्रिया नहीं।" },
+        "c": { "en": "'Sweetly' describes how the bird sings, making it an adverb that modifies the verb, not the verb itself.", "hi": "'Sweetly' यह बताता है कि चिड़िया कैसे गाती है, इसलिए यह क्रिया को विशेषित करने वाला क्रिया-विशेषण (adverb) है, स्वयं क्रिया नहीं।" },
+        "d": { "en": "'Morning' names the time of day when the action happens, making it a noun, not a verb.", "hi": "'Morning' उस समय का नाम बताता है जब कार्य होता है, इसलिए यह संज्ञा है, क्रिया नहीं।" }
+      }
+    },
+    {
+      "key": "bank-lang-grammar-11",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Choose the grammatically correct sentence.", "hi": "व्याकरण की दृष्टि से सही वाक्य चुनें।" },
+      "options": [
+        { "id": "a", "text": { "en": "While I was cooking, the phone rang.", "hi": "While I was cooking, the phone rang." } },
+        { "id": "b", "text": { "en": "While I cooking, the phone rang.", "hi": "While I cooking, the phone rang." } },
+        { "id": "c", "text": { "en": "While I was cook, the phone rang.", "hi": "While I was cook, the phone rang." } },
+        { "id": "d", "text": { "en": "While I am cooking, the phone rang.", "hi": "While I am cooking, the phone rang." } }
+      ],
+      "correctOption": "a",
+      "explanation": { "en": "An ongoing past action interrupted by a shorter past action uses past continuous ('was cooking') alongside simple past ('rang').", "hi": "जब कोई चल रही भूतकालीन क्रिया किसी छोटी भूतकालीन क्रिया से बीच में रुकती है, तो past continuous ('was cooking') के साथ simple past ('rang') प्रयोग होता है।" },
+      "distractorAnalysis": {
+        "b": { "en": "This sentence is missing the auxiliary verb 'was', leaving the past continuous form incomplete.", "hi": "इस वाक्य में सहायक क्रिया 'was' नहीं है, जिससे past continuous रूप अधूरा रह जाता है।" },
+        "c": { "en": "The auxiliary 'was' is wrongly paired with the base verb 'cook' instead of the present participle 'cooking'.", "hi": "सहायक क्रिया 'was' को गलत तरीके से मूल क्रिया 'cook' के साथ जोड़ा गया है, जबकि present participle 'cooking' होना चाहिए था।" },
+        "d": { "en": "This mixes the present continuous 'am cooking' with a past-tense main clause 'rang', breaking tense consistency.", "hi": "इसमें present continuous 'am cooking' को भूतकालीन क्रिया 'rang' के साथ मिलाया गया है, जिससे काल की संगति (tense consistency) बिगड़ जाती है।" }
+      }
+    },
+    {
+      "key": "bank-lang-grammar-12",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Choose the grammatically correct sentence.", "hi": "व्याकरण की दृष्टि से सही वाक्य चुनें।" },
+      "options": [
+        { "id": "a", "text": { "en": "Everest is highest mountain in the world.", "hi": "Everest is highest mountain in the world." } },
+        { "id": "b", "text": { "en": "Everest is the highest mountain in the world.", "hi": "Everest is the highest mountain in the world." } },
+        { "id": "c", "text": { "en": "Everest is a highest mountain in the world.", "hi": "Everest is a highest mountain in the world." } },
+        { "id": "d", "text": { "en": "Everest is an highest mountain in the world.", "hi": "Everest is an highest mountain in the world." } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "Superlative adjectives naming a unique, one-of-a-kind item always take the definite article 'the'.", "hi": "उच्चतम कोटि (superlative) के विशेषण जो किसी अद्वितीय वस्तु को दर्शाते हैं, हमेशा निश्चयवाचक article 'the' के साथ प्रयोग होते हैं।" },
+      "distractorAnalysis": {
+        "a": { "en": "This sentence omits the required article 'the' that must come before a superlative adjective like 'highest'.", "hi": "इस वाक्य में 'highest' जैसे superlative विशेषण से पहले ज़रूरी article 'the' नहीं लगाया गया है।" },
+        "c": { "en": "The indefinite article 'a' is wrongly used with a superlative; since Everest is the one unique highest mountain, 'the' is required, not 'a'.", "hi": "अनिश्चयवाचक article 'a' को गलत तरीके से superlative के साथ प्रयोग किया गया है; क्योंकि एवरेस्ट एकमात्र सबसे ऊँचा पर्वत है, इसलिए 'a' नहीं बल्कि 'the' चाहिए।" },
+        "d": { "en": "'An' is used before vowel sounds, but 'highest' begins with a consonant sound /h/, and a superlative still requires 'the', not an indefinite article.", "hi": "'An' स्वर ध्वनि से पहले प्रयोग होता है, पर 'highest' व्यंजन ध्वनि /h/ से शुरू होता है, और superlative के साथ अनिश्चयवाचक article नहीं बल्कि 'the' चाहिए।" }
+      }
+    },
+    {
+      "key": "bank-lang-grammar-13",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Choose the grammatically correct sentence.", "hi": "व्याकरण की दृष्टि से सही वाक्य चुनें।" },
+      "options": [
+        { "id": "a", "text": { "en": "The furniture in this room are old.", "hi": "The furniture in this room are old." } },
+        { "id": "b", "text": { "en": "The furniture in this room is old.", "hi": "The furniture in this room is old." } },
+        { "id": "c", "text": { "en": "The furnitures in this room are old.", "hi": "The furnitures in this room are old." } },
+        { "id": "d", "text": { "en": "The furniture in this room were old.", "hi": "The furniture in this room were old." } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "'Furniture' is an uncountable noun and always takes a singular verb, so 'is' is correct here.", "hi": "'Furniture' एक अगणनीय (uncountable) संज्ञा है और हमेशा एकवचन क्रिया के साथ प्रयोग होती है, इसलिए यहाँ 'is' सही है।" },
+      "distractorAnalysis": {
+        "a": { "en": "This wrongly treats the uncountable noun 'furniture' as plural by pairing it with 'are'.", "hi": "इसमें अगणनीय संज्ञा 'furniture' को गलत तरीके से बहुवचन मानकर 'are' के साथ प्रयोग किया गया है।" },
+        "c": { "en": "'Furnitures' incorrectly adds a plural '-s' to an uncountable noun, which has no plural form.", "hi": "'Furnitures' में अगणनीय संज्ञा में गलत तरीके से बहुवचन '-s' जोड़ा गया है, जबकि इसका कोई बहुवचन रूप होता ही नहीं।" },
+        "d": { "en": "This uses the past-tense plural verb 'were', which is both the wrong tense and wrongly treats 'furniture' as plural.", "hi": "इसमें भूतकालीन बहुवचन क्रिया 'were' प्रयोग की गई है, जो गलत काल भी है और 'furniture' को गलत तरीके से बहुवचन भी मानती है।" }
+      }
+    },
+    {
+      "key": "bank-lang-grammar-14",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Choose the correct preposition: I have lived in this town ___ ten years.", "hi": "सही पूर्वसर्ग चुनें: I have lived in this town ___ ten years." },
+      "options": [
+        { "id": "a", "text": { "en": "since", "hi": "since" } },
+        { "id": "b", "text": { "en": "for", "hi": "for" } },
+        { "id": "c", "text": { "en": "from", "hi": "from" } },
+        { "id": "d", "text": { "en": "at", "hi": "at" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "'For' is used with a duration or length of time, such as 'ten years', so it correctly completes this sentence.", "hi": "'For' किसी अवधि या समय की लंबाई के साथ प्रयोग होता है, जैसे 'ten years', इसलिए यह वाक्य को सही ढंग से पूरा करता है।" },
+      "distractorAnalysis": {
+        "a": { "en": "'Since' is used with a specific starting point in time, such as 'since 2014', not with a plain duration like 'ten years'.", "hi": "'Since' किसी विशेष प्रारंभिक समय बिंदु के साथ प्रयोग होता है, जैसे 'since 2014', 'ten years' जैसी सामान्य अवधि के साथ नहीं।" },
+        "c": { "en": "'From' marks a starting point and is usually paired with 'to' for a range, not used alone with a duration.", "hi": "'From' किसी प्रारंभिक बिंदु को दर्शाता है और आमतौर पर किसी सीमा के लिए 'to' के साथ प्रयोग होता है, अकेले अवधि के साथ नहीं।" },
+        "d": { "en": "'At' is used for precise points in time, not for expressing how long something has lasted.", "hi": "'At' सटीक समय बिंदुओं के लिए प्रयोग होता है, यह बताने के लिए नहीं कि कोई चीज़ कितने समय से चल रही है।" }
+      }
+    },
+    {
+      "key": "bank-lang-grammar-15",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Choose the synonym of 'enormous'.", "hi": "'enormous' का समानार्थी शब्द चुनें।" },
+      "options": [
+        { "id": "a", "text": { "en": "tiny", "hi": "tiny (बहुत छोटा)" } },
+        { "id": "b", "text": { "en": "huge", "hi": "huge (विशाल)" } },
+        { "id": "c", "text": { "en": "narrow", "hi": "narrow (संकरा)" } },
+        { "id": "d", "text": { "en": "quiet", "hi": "quiet (शांत)" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "'Huge' means extremely large in size, which matches the meaning of 'enormous'.", "hi": "'Huge' का अर्थ है आकार में अत्यंत बड़ा होना, जो 'enormous' के अर्थ से मेल खाता है।" },
+      "distractorAnalysis": {
+        "a": { "en": "'Tiny' means very small, the opposite of 'enormous', not a matching size word.", "hi": "'Tiny' का अर्थ है बहुत छोटा, जो 'enormous' का विपरीत है, समानार्थी नहीं।" },
+        "c": { "en": "'Narrow' describes width, not overall size, so it does not match the meaning of 'enormous'.", "hi": "'Narrow' चौड़ाई को दर्शाता है, समग्र आकार को नहीं, इसलिए यह 'enormous' के अर्थ से मेल नहीं खाता।" },
+        "d": { "en": "'Quiet' describes a low level of sound, which is unrelated to describing size.", "hi": "'Quiet' कम ध्वनि स्तर को दर्शाता है, जिसका आकार बताने से कोई संबंध नहीं है।" }
+      }
+    },
+    {
+      "key": "bank-lang-grammar-16",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Choose the antonym of 'ancient'.", "hi": "'ancient' का विलोम शब्द चुनें।" },
+      "options": [
+        { "id": "a", "text": { "en": "old", "hi": "old (पुराना)" } },
+        { "id": "b", "text": { "en": "modern", "hi": "modern (आधुनिक)" } },
+        { "id": "c", "text": { "en": "historic", "hi": "historic (ऐतिहासिक)" } },
+        { "id": "d", "text": { "en": "antique", "hi": "antique (प्राचीन वस्तु)" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "'Modern' means belonging to the present time, which is the direct opposite of 'ancient'.", "hi": "'Modern' का अर्थ है वर्तमान समय से संबंधित होना, जो 'ancient' का सीधा विलोम है।" },
+      "distractorAnalysis": {
+        "a": { "en": "'Old' is close in meaning to 'ancient', describing something from a long time ago, not its opposite.", "hi": "'Old' 'ancient' के अर्थ के करीब है, जो बहुत पुरानी चीज़ को दर्शाता है, इसका विलोम नहीं।" },
+        "c": { "en": "'Historic' relates to history and past significance, an association similar to 'ancient', not opposite.", "hi": "'Historic' इतिहास और अतीत के महत्व से जुड़ा है, जो 'ancient' के समान भाव रखता है, विपरीत नहीं।" },
+        "d": { "en": "'Antique' describes old, valuable objects and is a synonym of the idea behind 'ancient', not its opposite.", "hi": "'Antique' पुरानी, मूल्यवान वस्तुओं को दर्शाता है और 'ancient' के भाव का समानार्थी है, विलोम नहीं।" }
+      }
+    },
+    {
+      "key": "bank-lang-grammar-17",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Choose the grammatically correct sentence.", "hi": "व्याकरण की दृष्टि से सही वाक्य चुनें।" },
+      "options": [
+        { "id": "a", "text": { "en": "She don't like mangoes.", "hi": "She don't like mangoes." } },
+        { "id": "b", "text": { "en": "She doesn't like mangoes.", "hi": "She doesn't like mangoes." } },
+        { "id": "c", "text": { "en": "She not like mangoes.", "hi": "She not like mangoes." } },
+        { "id": "d", "text": { "en": "She doesn't likes mangoes.", "hi": "She doesn't likes mangoes." } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "Negative simple present sentences with third-person singular subjects use 'doesn't' plus the base form of the verb.", "hi": "तृतीय पुरुष एकवचन कर्ता के साथ नकारात्मक सामान्य वर्तमान वाक्यों में 'doesn't' के साथ क्रिया का मूल रूप प्रयोग होता है।" },
+      "distractorAnalysis": {
+        "a": { "en": "'Don't' is used with I/you/we/they, not with the third-person singular subject 'she', which needs 'doesn't'.", "hi": "'Don't' का प्रयोग I/you/we/they के साथ होता है, तृतीय पुरुष एकवचन कर्ता 'she' के साथ नहीं, जिसके लिए 'doesn't' चाहिए।" },
+        "c": { "en": "This sentence omits the auxiliary verb 'does' that is required to form a negative sentence in the simple present tense.", "hi": "इस वाक्य में सहायक क्रिया 'does' नहीं है, जो सामान्य वर्तमान काल में नकारात्मक वाक्य बनाने के लिए ज़रूरी है।" },
+        "d": { "en": "This correctly uses 'doesn't' but wrongly keeps the '-s' ending on 'likes', which must return to its base form 'like' after 'doesn't'.", "hi": "इसमें 'doesn't' तो सही है, पर 'likes' पर गलत तरीके से '-s' बना रह गया है, जबकि 'doesn't' के बाद क्रिया अपने मूल रूप 'like' में होनी चाहिए।" }
+      }
+    },
+    {
+      "key": "bank-lang-grammar-18",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Choose the correctly punctuated sentence.", "hi": "सही विराम चिह्नों (punctuation) वाला वाक्य चुनें।" },
+      "options": [
+        { "id": "a", "text": { "en": "I bought apples oranges and bananas.", "hi": "I bought apples oranges and bananas." } },
+        { "id": "b", "text": { "en": "I bought apples, oranges, and bananas.", "hi": "I bought apples, oranges, and bananas." } },
+        { "id": "c", "text": { "en": "I bought, apples oranges and bananas.", "hi": "I bought, apples oranges and bananas." } },
+        { "id": "d", "text": { "en": "I bought apples oranges, and bananas.", "hi": "I bought apples oranges, and bananas." } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "Items in a list are separated by commas, with a comma also placed before 'and' preceding the final item.", "hi": "किसी सूची में वस्तुओं को अल्पविराम से अलग किया जाता है, और अंतिम वस्तु से पहले आने वाले 'and' से पहले भी अल्पविराम लगता है।" },
+      "distractorAnalysis": {
+        "a": { "en": "This sentence has no commas separating the list items at all, making the list unclear.", "hi": "इस वाक्य में सूची की वस्तुओं के बीच कोई अल्पविराम ही नहीं है, जिससे सूची अस्पष्ट हो जाती है।" },
+        "c": { "en": "A comma is wrongly placed right after the verb 'bought', incorrectly separating the verb from its list of objects.", "hi": "क्रिया 'bought' के तुरंत बाद गलत तरीके से अल्पविराम लगाया गया है, जो क्रिया को उसकी वस्तुओं की सूची से अलग कर देता है।" },
+        "d": { "en": "This omits the comma between the first two list items ('apples oranges') while still placing one before the last item, making the punctuation inconsistent.", "hi": "इसमें पहले दो वस्तुओं ('apples oranges') के बीच अल्पविराम छूट गया है, जबकि अंतिम वस्तु से पहले लगाया गया है, जिससे विराम चिह्न असंगत हो जाते हैं।" }
+      }
+    },
+    {
+      "key": "bank-lang-grammar-19",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Choose the grammatically correct sentence.", "hi": "व्याकरण की दृष्टि से सही वाक्य चुनें।" },
+      "options": [
+        { "id": "a", "text": { "en": "He runs quick.", "hi": "He runs quick." } },
+        { "id": "b", "text": { "en": "He runs quickly.", "hi": "He runs quickly." } },
+        { "id": "c", "text": { "en": "He is running quick.", "hi": "He is running quick." } },
+        { "id": "d", "text": { "en": "He runs quickest.", "hi": "He runs quickest." } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "A verb like 'runs' must be modified by an adverb, and 'quickly' is the correct adverb form of 'quick'.", "hi": "'Runs' जैसी क्रिया को क्रिया-विशेषण (adverb) से विशेषित किया जाता है, और 'quick' का सही adverb रूप 'quickly' है।" },
+      "distractorAnalysis": {
+        "a": { "en": "'Quick' is an adjective and should describe a noun, not modify the verb 'runs'; the adverb 'quickly' is needed instead.", "hi": "'Quick' एक विशेषण है जो संज्ञा को दर्शाता है, यह क्रिया 'runs' को विशेषित नहीं कर सकता; इसके बजाय adverb 'quickly' चाहिए।" },
+        "c": { "en": "This again uses the adjective 'quick' instead of the adverb 'quickly' to modify the verb phrase 'is running'.", "hi": "इसमें भी क्रिया वाक्यांश 'is running' को विशेषित करने के लिए गलत तरीके से विशेषण 'quick' प्रयोग किया गया है, जबकि adverb 'quickly' चाहिए था।" },
+        "d": { "en": "'Quickest' is a superlative form used only when comparing three or more things, which does not fit this simple statement.", "hi": "'Quickest' एक superlative रूप है जो केवल तीन या अधिक चीज़ों की तुलना करते समय प्रयोग होता है, जो इस साधारण वाक्य के लिए उपयुक्त नहीं है।" }
+      }
+    },
+    {
+      "key": "bank-lang-grammar-20",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Choose the grammatically correct sentence.", "hi": "व्याकरण की दृष्टि से सही वाक्य चुनें।" },
+      "options": [
+        { "id": "a", "text": { "en": "I have seen that movie yesterday.", "hi": "I have seen that movie yesterday." } },
+        { "id": "b", "text": { "en": "I saw that movie yesterday.", "hi": "I saw that movie yesterday." } },
+        { "id": "c", "text": { "en": "I have saw that movie yesterday.", "hi": "I have saw that movie yesterday." } },
+        { "id": "d", "text": { "en": "I seen that movie yesterday.", "hi": "I seen that movie yesterday." } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "A specific past time marker like 'yesterday' requires the simple past tense, so 'saw' is correct.", "hi": "'Yesterday' जैसे निश्चित भूतकालीन समय संकेतक के साथ सामान्य भूतकाल (simple past) चाहिए, इसलिए 'saw' सही है।" },
+      "distractorAnalysis": {
+        "a": { "en": "Present perfect ('have seen') is not used with a specific past time marker like 'yesterday'; simple past is required instead.", "hi": "Present perfect ('have seen') का प्रयोग 'yesterday' जैसे निश्चित भूतकालीन समय संकेतक के साथ नहीं होता; इसके बजाय simple past चाहिए।" },
+        "c": { "en": "This wrongly pairs the auxiliary 'have' with the simple past form 'saw' instead of the past participle 'seen'.", "hi": "इसमें सहायक क्रिया 'have' को गलत तरीके से simple past रूप 'saw' के साथ जोड़ा गया है, जबकि past participle 'seen' होना चाहिए था।" },
+        "d": { "en": "'Seen' is a past participle and cannot function as a finite verb without an auxiliary verb like 'have' before it.", "hi": "'Seen' एक past participle है और इसे बिना 'have' जैसी सहायक क्रिया के अकेले पूर्ण क्रिया के रूप में प्रयोग नहीं किया जा सकता।" }
+      }
+    },
+    {
+      "key": "bank-lang-grammar-21",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Choose the correct word: Please ___ your seatbelt before the car starts.", "hi": "सही शब्द चुनें: Please ___ your seatbelt before the car starts." },
+      "options": [
+        { "id": "a", "text": { "en": "where", "hi": "where" } },
+        { "id": "b", "text": { "en": "wear", "hi": "wear" } },
+        { "id": "c", "text": { "en": "were", "hi": "were" } },
+        { "id": "d", "text": { "en": "we're", "hi": "we're" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "'Wear' is the verb meaning to put on or fasten something, which fits the instruction about the seatbelt.", "hi": "'Wear' एक क्रिया है जिसका अर्थ है कुछ पहनना या बांधना, जो सीटबेल्ट से जुड़े निर्देश के लिए उपयुक्त है।" },
+      "distractorAnalysis": {
+        "a": { "en": "'Where' is used to ask about or refer to a location, not to express the action of fastening something.", "hi": "'Where' किसी स्थान के बारे में पूछने या उसका उल्लेख करने के लिए प्रयोग होता है, कुछ बांधने की क्रिया के लिए नहीं।" },
+        "c": { "en": "'Were' is a past-tense form of the verb 'be', unrelated in meaning to putting on or fastening something.", "hi": "'Were' क्रिया 'be' का भूतकालीन रूप है, जिसका कुछ पहनने या बांधने के अर्थ से कोई संबंध नहीं है।" },
+        "d": { "en": "'We're' is a contraction of 'we are' and does not carry the meaning of fastening a seatbelt.", "hi": "'We're' 'we are' का संक्षिप्त रूप है और इसका सीटबेल्ट बांधने के अर्थ से कोई संबंध नहीं है।" }
+      }
+    },
+    {
+      "key": "bank-lang-grammar-22",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Choose the grammatically correct sentence.", "hi": "व्याकरण की दृष्टि से सही वाक्य चुनें।" },
+      "options": [
+        { "id": "a", "text": { "en": "Everyone have finished their homework.", "hi": "Everyone have finished their homework." } },
+        { "id": "b", "text": { "en": "Everyone has finished their homework.", "hi": "Everyone has finished their homework." } },
+        { "id": "c", "text": { "en": "Everyone has finished they homework.", "hi": "Everyone has finished they homework." } },
+        { "id": "d", "text": { "en": "Everyone has finish their homework.", "hi": "Everyone has finish their homework." } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "'Everyone' is a singular indefinite pronoun and takes the singular verb 'has', with the possessive 'their' before the noun 'homework'.", "hi": "'Everyone' एक एकवचन अनिश्चित सर्वनाम है और इसके साथ एकवचन क्रिया 'has' आती है, तथा संज्ञा 'homework' से पहले संबंधवाचक 'their' प्रयोग होता है।" },
+      "distractorAnalysis": {
+        "a": { "en": "The singular indefinite pronoun 'everyone' is wrongly paired with the plural verb form 'have' instead of 'has'.", "hi": "एकवचन अनिश्चित सर्वनाम 'everyone' को गलत तरीके से बहुवचन क्रिया रूप 'have' के साथ प्रयोग किया गया है, जबकि 'has' होना चाहिए था।" },
+        "c": { "en": "This wrongly uses the subject pronoun 'they' before the noun 'homework' instead of the possessive form 'their'.", "hi": "इसमें संज्ञा 'homework' से पहले गलत तरीके से कर्ताकारक सर्वनाम 'they' प्रयोग किया गया है, जबकि संबंधवाचक रूप 'their' चाहिए था।" },
+        "d": { "en": "After the auxiliary 'has', the main verb needs its past participle form 'finished', not the base form 'finish'.", "hi": "सहायक क्रिया 'has' के बाद मुख्य क्रिया का past participle रूप 'finished' चाहिए, मूल रूप 'finish' नहीं।" }
+      }
+    },
+    {
+      "key": "bank-lang-grammar-23",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Choose the correct preposition: She is good ___ solving puzzles.", "hi": "सही पूर्वसर्ग चुनें: She is good ___ solving puzzles." },
+      "options": [
+        { "id": "a", "text": { "en": "in", "hi": "in" } },
+        { "id": "b", "text": { "en": "at", "hi": "at" } },
+        { "id": "c", "text": { "en": "on", "hi": "on" } },
+        { "id": "d", "text": { "en": "with", "hi": "with" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "'Good at' is the fixed expression used to describe skill or ability at an activity like solving puzzles.", "hi": "'Good at' एक निश्चित (fixed) अभिव्यक्ति है जो किसी गतिविधि, जैसे पहेली सुलझाने, में कौशल या क्षमता दर्शाने के लिए प्रयोग होती है।" },
+      "distractorAnalysis": {
+        "a": { "en": "'In' is not the standard preposition paired with 'good' to describe skill at an activity.", "hi": "'In' किसी गतिविधि में कौशल दर्शाने के लिए 'good' के साथ प्रयोग होने वाला मानक पूर्वसर्ग नहीं है।" },
+        "c": { "en": "'On' does not form the standard fixed expression with 'good' used for describing ability.", "hi": "'On' क्षमता दर्शाने के लिए 'good' के साथ प्रयोग होने वाली मानक निश्चित अभिव्यक्ति नहीं बनाता।" },
+        "d": { "en": "'With' is typically used with 'good' before a person or object one handles well (e.g., good with children), not before a gerund describing an activity.", "hi": "'With' सामान्यतः 'good' के साथ किसी व्यक्ति या वस्तु से पहले प्रयोग होता है जिसे कोई अच्छे से संभालता है (जैसे good with children), किसी गतिविधि दर्शाने वाले gerund से पहले नहीं।" }
+      }
+    },
+    {
+      "key": "bank-lang-grammar-24",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Which word in the sentence is a conjunction?\n\"I wanted to play, but it started raining.\"", "hi": "वाक्य में कौन-सा शब्द संयोजक (conjunction) है?\n\"I wanted to play, but it started raining.\"" },
+      "options": [
+        { "id": "a", "text": { "en": "wanted", "hi": "wanted (चाहता था)" } },
+        { "id": "b", "text": { "en": "but", "hi": "but (लेकिन)" } },
+        { "id": "c", "text": { "en": "started", "hi": "started (शुरू हुई)" } },
+        { "id": "d", "text": { "en": "raining", "hi": "raining (बारिश)" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "A conjunction joins two clauses. 'But' connects the clause about wanting to play with the clause about it raining.", "hi": "संयोजक दो उपवाक्यों को जोड़ता है। 'But' खेलने की इच्छा वाले उपवाक्य को बारिश शुरू होने वाले उपवाक्य से जोड़ता है।" },
+      "distractorAnalysis": {
+        "a": { "en": "'Wanted' is the main verb of the first clause, showing an action, not a word that joins clauses.", "hi": "'Wanted' पहले उपवाक्य की मुख्य क्रिया है, जो कार्य दर्शाती है, यह उपवाक्यों को जोड़ने वाला शब्द नहीं है।" },
+        "c": { "en": "'Started' is the main verb of the second clause, showing an action, not a joining word.", "hi": "'Started' दूसरे उपवाक्य की मुख्य क्रिया है, जो कार्य दर्शाती है, यह जोड़ने वाला शब्द नहीं है।" },
+        "d": { "en": "'Raining' is part of the verb phrase 'started raining' and does not function as a conjunction.", "hi": "'Raining' क्रिया वाक्यांश 'started raining' का हिस्सा है और यह संयोजक के रूप में कार्य नहीं करता।" }
+      }
+    },
+    {
+      "key": "bank-lang-grammar-25",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Choose the grammatically correct sentence.", "hi": "व्याकरण की दृष्टि से सही वाक्य चुनें।" },
+      "options": [
+        { "id": "a", "text": { "en": "Yesterday, I go to the market and bought vegetables.", "hi": "Yesterday, I go to the market and bought vegetables." } },
+        { "id": "b", "text": { "en": "Yesterday, I went to the market and bought vegetables.", "hi": "Yesterday, I went to the market and bought vegetables." } },
+        { "id": "c", "text": { "en": "Yesterday, I went to the market and buy vegetables.", "hi": "Yesterday, I went to the market and buy vegetables." } },
+        { "id": "d", "text": { "en": "Yesterday, I going to the market and bought vegetables.", "hi": "Yesterday, I going to the market and bought vegetables." } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "Both actions happened at the same past time marked by 'yesterday', so both verbs must be in the simple past tense: 'went' and 'bought'.", "hi": "दोनों क्रियाएँ 'yesterday' द्वारा संकेतित एक ही भूतकालीन समय पर हुईं, इसलिए दोनों क्रियाएँ सामान्य भूतकाल में होनी चाहिए: 'went' और 'bought'।" },
+      "distractorAnalysis": {
+        "a": { "en": "The first verb 'go' is left in the present tense, which does not match the past time marker 'yesterday' and the past verb 'bought'.", "hi": "पहली क्रिया 'go' को गलत तरीके से वर्तमान काल में छोड़ दिया गया है, जो 'yesterday' समय संकेतक और भूतकालीन क्रिया 'bought' से मेल नहीं खाती।" },
+        "c": { "en": "The second verb switches back to the present tense 'buy', breaking the tense consistency established by the past tense 'went'.", "hi": "दूसरी क्रिया गलत तरीके से वर्तमान काल 'buy' में बदल जाती है, जिससे 'went' द्वारा स्थापित काल की संगति टूट जाती है।" },
+        "d": { "en": "'Going' is a present participle and cannot serve as the sentence's finite past-tense verb without an auxiliary.", "hi": "'Going' एक present participle है और बिना सहायक क्रिया के यह वाक्य की मुख्य भूतकालीन क्रिया के रूप में कार्य नहीं कर सकता।" }
+      }
+    },
+    {
+      "key": "bank-lang-grammar-26",
+      "difficulty": "HARD",
+      "content": { "en": "Choose the grammatically correct sentence.", "hi": "व्याकरण की दृष्टि से सही वाक्य चुनें।" },
+      "options": [
+        { "id": "a", "text": { "en": "By the time the guests arrived, she had cooked the meal.", "hi": "By the time the guests arrived, she had cooked the meal." } },
+        { "id": "b", "text": { "en": "By the time the guests arrived, she has cooked the meal.", "hi": "By the time the guests arrived, she has cooked the meal." } },
+        { "id": "c", "text": { "en": "By the time the guests arrived, she cooked the meal.", "hi": "By the time the guests arrived, she cooked the meal." } },
+        { "id": "d", "text": { "en": "By the time the guests arrived, she have cooked the meal.", "hi": "By the time the guests arrived, she have cooked the meal." } }
+      ],
+      "correctOption": "a",
+      "explanation": { "en": "When one past action finished before another past action, the earlier action uses the past perfect tense ('had cooked'), while the later one uses simple past ('arrived').", "hi": "जब एक भूतकालीन क्रिया दूसरी भूतकालीन क्रिया से पहले पूरी हो चुकी हो, तो पहले वाली क्रिया के लिए past perfect ('had cooked') और बाद वाली के लिए simple past ('arrived') प्रयोग होता है।" },
+      "distractorAnalysis": {
+        "b": { "en": "Present perfect 'has cooked' cannot describe an action completed before another past event; past perfect is required instead.", "hi": "Present perfect 'has cooked' किसी दूसरी भूतकालीन घटना से पहले पूरी हुई क्रिया को नहीं दर्शा सकता; इसके बजाय past perfect चाहिए।" },
+        "c": { "en": "Using simple past 'cooked' for both events fails to show that the cooking was already finished before the guests arrived.", "hi": "दोनों घटनाओं के लिए simple past 'cooked' प्रयोग करने से यह स्पष्ट नहीं होता कि खाना बनाना मेहमानों के आने से पहले ही पूरा हो चुका था।" },
+        "d": { "en": "'Have cooked' does not agree with the singular subject 'she', and present perfect is also the wrong tense for an action completed before another past action.", "hi": "'Have cooked' एकवचन कर्ता 'she' के साथ मेल नहीं खाता, और present perfect भी किसी अन्य भूतकालीन क्रिया से पहले पूरी हुई क्रिया के लिए गलत काल है।" }
+      }
+    },
+    {
+      "key": "bank-lang-grammar-27",
+      "difficulty": "HARD",
+      "content": { "en": "Choose the grammatically correct sentence.", "hi": "व्याकरण की दृष्टि से सही वाक्य चुनें।" },
+      "options": [
+        { "id": "a", "text": { "en": "Neither the teacher nor the students was late.", "hi": "Neither the teacher nor the students was late." } },
+        { "id": "b", "text": { "en": "Neither the teacher nor the students were late.", "hi": "Neither the teacher nor the students were late." } },
+        { "id": "c", "text": { "en": "Neither the teacher nor the students is late.", "hi": "Neither the teacher nor the students is late." } },
+        { "id": "d", "text": { "en": "Neither the teacher nor the students be late.", "hi": "Neither the teacher nor the students be late." } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "With 'neither...nor', the verb agrees with the subject nearer to it. Since 'students' (plural) is nearer, the plural past-tense verb 'were' is correct.", "hi": "'Neither...nor' के साथ क्रिया उस कर्ता से मेल खाती है जो उसके सबसे निकट हो। चूँकि 'students' (बहुवचन) निकट है, इसलिए बहुवचन भूतकालीन क्रिया 'were' सही है।" },
+      "distractorAnalysis": {
+        "a": { "en": "This uses the singular verb 'was', but the rule for 'neither...nor' requires agreement with the nearer subject 'students', which is plural.", "hi": "इसमें एकवचन क्रिया 'was' प्रयोग की गई है, पर 'neither...nor' का नियम निकटतम कर्ता 'students' से मेल खाने की मांग करता है, जो बहुवचन है।" },
+        "c": { "en": "This uses the singular present-tense verb 'is', which is wrong both in number (should agree with plural 'students') and in tense (the sentence needs the past tense).", "hi": "इसमें एकवचन वर्तमानकालीन क्रिया 'is' प्रयोग की गई है, जो संख्या (बहुवचन 'students' से मेल खाना चाहिए) और काल (वाक्य को भूतकाल चाहिए) दोनों में गलत है।" },
+        "d": { "en": "The uninflected base form 'be' cannot function as a finite verb in this sentence; a properly conjugated verb like 'were' is needed.", "hi": "बिना रूपांतरित मूल रूप 'be' इस वाक्य में पूर्ण क्रिया के रूप में कार्य नहीं कर सकता; 'were' जैसी सही रूप से रूपांतरित क्रिया चाहिए।" }
+      }
+    },
+    {
+      "key": "bank-lang-grammar-28",
+      "difficulty": "HARD",
+      "content": { "en": "Choose the grammatically correct sentence.", "hi": "व्याकरण की दृष्टि से सही वाक्य चुनें।" },
+      "options": [
+        { "id": "a", "text": { "en": "The honesty is the best policy.", "hi": "The honesty is the best policy." } },
+        { "id": "b", "text": { "en": "Honesty is the best policy.", "hi": "Honesty is the best policy." } },
+        { "id": "c", "text": { "en": "An honesty is the best policy.", "hi": "An honesty is the best policy." } },
+        { "id": "d", "text": { "en": "A honesty is the best policy.", "hi": "A honesty is the best policy." } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "Abstract, uncountable nouns used in a general sense, like 'honesty' here, are used without any article.", "hi": "'Honesty' जैसी अगणनीय, भाववाचक संज्ञाएँ जब सामान्य अर्थ में प्रयोग होती हैं, तो उनके साथ कोई article नहीं लगता।" },
+      "distractorAnalysis": {
+        "a": { "en": "This wrongly adds 'the' before an abstract uncountable noun used generally, where no article is needed at all.", "hi": "इसमें सामान्य अर्थ में प्रयुक्त अगणनीय भाववाचक संज्ञा से पहले गलत तरीके से 'the' जोड़ा गया है, जबकि यहाँ किसी article की ज़रूरत ही नहीं है।" },
+        "c": { "en": "'An' wrongly treats the uncountable abstract noun 'honesty' as something that can be counted as 'one'.", "hi": "'An' गलत तरीके से अगणनीय भाववाचक संज्ञा 'honesty' को ऐसी वस्तु मानता है जिसे 'एक' के रूप में गिना जा सकता है।" },
+        "d": { "en": "'A' also wrongly treats 'honesty' as countable, and additionally does not match the vowel sound with which 'honesty' begins.", "hi": "'A' भी गलत तरीके से 'honesty' को गणनीय मानता है, और साथ ही यह उस स्वर ध्वनि से भी मेल नहीं खाता जिससे 'honesty' शुरू होता है।" }
+      }
+    },
+    {
+      "key": "bank-lang-grammar-29",
+      "difficulty": "HARD",
+      "content": { "en": "Choose the correct preposition: The students are afraid ___ the dark.", "hi": "सही पूर्वसर्ग चुनें: The students are afraid ___ the dark." },
+      "options": [
+        { "id": "a", "text": { "en": "of", "hi": "of" } },
+        { "id": "b", "text": { "en": "from", "hi": "from" } },
+        { "id": "c", "text": { "en": "with", "hi": "with" } },
+        { "id": "d", "text": { "en": "about", "hi": "about" } }
+      ],
+      "correctOption": "a",
+      "explanation": { "en": "'Afraid of' is the standard fixed expression used to describe fear of something, such as the dark.", "hi": "'Afraid of' किसी चीज़ के डर को दर्शाने के लिए प्रयोग होने वाली मानक निश्चित अभिव्यक्ति है, जैसे अंधेरे का डर।" },
+      "distractorAnalysis": {
+        "b": { "en": "'From' is used with words like 'different' or 'suffer', not as the fixed preposition following 'afraid'.", "hi": "'From' 'different' या 'suffer' जैसे शब्दों के साथ प्रयोग होता है, यह 'afraid' के बाद आने वाला निश्चित पूर्वसर्ग नहीं है।" },
+        "c": { "en": "'With' pairs with words like 'angry' (angry with someone) and is not the fixed preposition used with 'afraid'.", "hi": "'With' 'angry' जैसे शब्दों के साथ जुड़ता है (angry with someone), यह 'afraid' के साथ प्रयोग होने वाला निश्चित पूर्वसर्ग नहीं है।" },
+        "d": { "en": "'About' is used with worry-related expressions like 'worried about', not with 'afraid'.", "hi": "'About' चिंता से जुड़ी अभिव्यक्तियों जैसे 'worried about' के साथ प्रयोग होता है, 'afraid' के साथ नहीं।" }
+      }
+    },
+    {
+      "key": "bank-lang-grammar-30",
+      "difficulty": "HARD",
+      "content": { "en": "Choose the synonym of 'diligent'.", "hi": "'diligent' का समानार्थी शब्द चुनें।" },
+      "options": [
+        { "id": "a", "text": { "en": "lazy", "hi": "lazy (आलसी)" } },
+        { "id": "b", "text": { "en": "hardworking", "hi": "hardworking (मेहनती)" } },
+        { "id": "c", "text": { "en": "careless", "hi": "careless (लापरवाह)" } },
+        { "id": "d", "text": { "en": "forgetful", "hi": "forgetful (भुलक्कड़)" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "'Diligent' means showing careful and persistent effort in work, which matches the meaning of 'hardworking'.", "hi": "'Diligent' का अर्थ है काम में सावधानी और निरंतर प्रयास दिखाना, जो 'hardworking' के अर्थ से मेल खाता है।" },
+      "distractorAnalysis": {
+        "a": { "en": "'Lazy' describes unwillingness to work, the direct opposite of 'diligent', not a matching trait.", "hi": "'Lazy' काम न करने की प्रवृत्ति दर्शाता है, जो 'diligent' के बिल्कुल विपरीत है, समानार्थी नहीं।" },
+        "c": { "en": "'Careless' describes a lack of attention or effort, an opposite trait to the careful effort implied by 'diligent'.", "hi": "'Careless' ध्यान या प्रयास की कमी दर्शाता है, जो 'diligent' में निहित सावधानीपूर्ण प्रयास के विपरीत गुण है।" },
+        "d": { "en": "'Forgetful' relates to poor memory, an unrelated trait to a person's work effort or diligence.", "hi": "'Forgetful' कमज़ोर स्मृति से संबंधित है, जिसका किसी व्यक्ति के परिश्रम या लगन से कोई संबंध नहीं है।" }
+      }
+    },
+    {
+      "key": "bank-lang-grammar-31",
+      "difficulty": "HARD",
+      "content": { "en": "Choose the antonym of 'generous'.", "hi": "'generous' का विलोम शब्द चुनें।" },
+      "options": [
+        { "id": "a", "text": { "en": "kind", "hi": "kind (दयालु)" } },
+        { "id": "b", "text": { "en": "selfish", "hi": "selfish (स्वार्थी)" } },
+        { "id": "c", "text": { "en": "wealthy", "hi": "wealthy (धनी)" } },
+        { "id": "d", "text": { "en": "polite", "hi": "polite (विनम्र)" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "'Selfish' means concerned only with one's own interest and unwilling to share, which is the direct opposite of 'generous'.", "hi": "'Selfish' का अर्थ है केवल अपने स्वार्थ की चिंता करना और बांटने के लिए तैयार न होना, जो 'generous' का सीधा विलोम है।" },
+      "distractorAnalysis": {
+        "a": { "en": "'Kind' is a trait often associated with generosity rather than being its opposite.", "hi": "'Kind' अक्सर उदारता (generosity) से जुड़ा गुण है, इसका विलोम नहीं।" },
+        "c": { "en": "'Wealthy' describes having a lot of money, which is unrelated to a person's willingness to share.", "hi": "'Wealthy' बहुत धन होने को दर्शाता है, जिसका किसी व्यक्ति की बांटने की इच्छा से कोई संबंध नहीं है।" },
+        "d": { "en": "'Polite' describes good manners, an unrelated trait to whether a person shares generously with others.", "hi": "'Polite' अच्छे शिष्टाचार को दर्शाता है, जिसका यह संबंध नहीं कि व्यक्ति उदारता से बांटता है या नहीं।" }
+      }
+    },
+    {
+      "key": "bank-lang-grammar-32",
+      "difficulty": "HARD",
+      "content": { "en": "Choose the grammatically correct sentence.", "hi": "व्याकरण की दृष्टि से सही वाक्य चुनें।" },
+      "options": [
+        { "id": "a", "text": { "en": "Walking to school, the rain started falling on Ravi.", "hi": "Walking to school, the rain started falling on Ravi." } },
+        { "id": "b", "text": { "en": "Walking to school, Ravi got caught in the rain.", "hi": "Walking to school, Ravi got caught in the rain." } },
+        { "id": "c", "text": { "en": "Walking to school, the school bag got wet.", "hi": "Walking to school, the school bag got wet." } },
+        { "id": "d", "text": { "en": "Walking to school, it started to rain on Ravi's bag.", "hi": "Walking to school, it started to rain on Ravi's bag." } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "The introductory phrase 'Walking to school' must be immediately followed by the person actually doing the walking, which is 'Ravi'.", "hi": "प्रारंभिक वाक्यांश 'Walking to school' के तुरंत बाद वह व्यक्ति आना चाहिए जो वास्तव में चल रहा है, यानी 'Ravi'।" },
+      "distractorAnalysis": {
+        "a": { "en": "Placing 'the rain' right after the modifier wrongly implies that the rain was the one walking to school.", "hi": "Modifier के तुरंत बाद 'the rain' रखने से गलत अर्थ निकलता है कि बारिश स्कूल चलकर जा रही थी।" },
+        "c": { "en": "Placing 'the school bag' right after the modifier wrongly implies that the bag was walking to school.", "hi": "Modifier के तुरंत बाद 'the school bag' रखने से गलत अर्थ निकलता है कि बैग स्कूल चलकर जा रहा था।" },
+        "d": { "en": "Placing 'it' right after the modifier wrongly implies that the weather ('it') was the one walking to school.", "hi": "Modifier के तुरंत बाद 'it' रखने से गलत अर्थ निकलता है कि मौसम ('it') स्कूल चलकर जा रहा था।" }
+      }
+    },
+    {
+      "key": "bank-lang-grammar-33",
+      "difficulty": "HARD",
+      "content": { "en": "Choose the correctly punctuated sentence.", "hi": "सही विराम चिह्नों वाला वाक्य चुनें।" },
+      "options": [
+        { "id": "a", "text": { "en": "The dog's bone was buried in the yard.", "hi": "The dog's bone was buried in the yard." } },
+        { "id": "b", "text": { "en": "The dogs bone was buried in the yard.", "hi": "The dogs bone was buried in the yard." } },
+        { "id": "c", "text": { "en": "The dog's bones was buried in the yard.", "hi": "The dog's bones was buried in the yard." } },
+        { "id": "d", "text": { "en": "The dogs' bone were buried in the yard.", "hi": "The dogs' bone were buried in the yard." } }
+      ],
+      "correctOption": "a",
+      "explanation": { "en": "An apostrophe followed by 's' shows singular possession, so \"dog's bone\" correctly shows the bone belonging to one dog, matching the singular verb 'was'.", "hi": "apostrophe के बाद 's' एकवचन स्वामित्व दर्शाता है, इसलिए \"dog's bone\" सही ढंग से एक कुत्ते के स्वामित्व वाली हड्डी दर्शाता है, जो एकवचन क्रिया 'was' से मेल खाता है।" },
+      "distractorAnalysis": {
+        "b": { "en": "This omits the apostrophe entirely, failing to show that the bone belongs to the dog.", "hi": "इसमें apostrophe पूरी तरह छूट गया है, जिससे यह नहीं दिखता कि हड्डी कुत्ते की है।" },
+        "c": { "en": "This correctly shows singular possession with \"dog's\" but then wrongly uses the singular verb 'was' with the plural noun 'bones', creating a subject-verb mismatch.", "hi": "इसमें \"dog's\" से एकवचन स्वामित्व तो सही दिखाया गया है, पर बहुवचन संज्ञा 'bones' के साथ गलत तरीके से एकवचन क्रिया 'was' प्रयोग की गई है, जिससे कर्ता-क्रिया का मेल बिगड़ जाता है।" },
+        "d": { "en": "\"Dogs'\" is the plural possessive form implying more than one dog, which does not match the single dog intended, and it is also wrongly paired with the plural verb 'were' for the singular noun 'bone'.", "hi": "\"Dogs'\" बहुवचन स्वामित्व रूप है जो एक से अधिक कुत्तों का संकेत देता है, जबकि यहाँ केवल एक कुत्ता है, और साथ ही इसे एकवचन संज्ञा 'bone' के साथ गलत तरीके से बहुवचन क्रिया 'were' के साथ जोड़ा गया है।" }
+      }
+    },
+    {
+      "key": "bank-lang-grammar-34",
+      "difficulty": "HARD",
+      "content": { "en": "Choose the grammatically correct sentence.", "hi": "व्याकरण की दृष्टि से सही वाक्य चुनें।" },
+      "options": [
+        { "id": "a", "text": { "en": "This book is mine.", "hi": "This book is mine." } },
+        { "id": "b", "text": { "en": "This book is my.", "hi": "This book is my." } },
+        { "id": "c", "text": { "en": "This book is me.", "hi": "This book is me." } },
+        { "id": "d", "text": { "en": "This book is mines.", "hi": "This book is mines." } }
+      ],
+      "correctOption": "a",
+      "explanation": { "en": "'Mine' is the possessive pronoun that can stand alone as a complement to show ownership, so it correctly completes this sentence.", "hi": "'Mine' एक संबंधवाचक सर्वनाम (possessive pronoun) है जो स्वामित्व दिखाने के लिए अकेले पूरक के रूप में प्रयोग हो सकता है, इसलिए यह वाक्य को सही ढंग से पूरा करता है।" },
+      "distractorAnalysis": {
+        "b": { "en": "'My' is a possessive adjective that must be followed directly by a noun (e.g., 'my book'); it cannot stand alone as a complement.", "hi": "'My' एक संबंधवाचक विशेषण है जिसके तुरंत बाद संज्ञा आनी चाहिए (जैसे 'my book'); यह अकेले पूरक के रूप में प्रयोग नहीं हो सकता।" },
+        "c": { "en": "'Me' is an object pronoun used to refer to the speaker as a receiver of action, not to show possession.", "hi": "'Me' एक कर्मकारक सर्वनाम (object pronoun) है जो वक्ता को क्रिया प्राप्तकर्ता के रूप में दर्शाता है, स्वामित्व दिखाने के लिए नहीं।" },
+        "d": { "en": "'Mines' wrongly adds a non-standard '-s' to 'mine', which is already a complete possessive pronoun with no plural form.", "hi": "'Mines' में गलत तरीके से 'mine' पर अमानक '-s' जोड़ा गया है, जबकि यह पहले से ही एक पूर्ण संबंधवाचक सर्वनाम है जिसका कोई बहुवचन रूप नहीं होता।" }
+      }
+    },
+    {
+      "key": "bank-lang-grammar-35",
+      "difficulty": "HARD",
+      "content": { "en": "Choose the grammatically correct sentence.", "hi": "व्याकरण की दृष्टि से सही वाक्य चुनें।" },
+      "options": [
+        { "id": "a", "text": { "en": "By next year, I will complete my project.", "hi": "By next year, I will complete my project." } },
+        { "id": "b", "text": { "en": "By next year, I will have completed my project.", "hi": "By next year, I will have completed my project." } },
+        { "id": "c", "text": { "en": "By next year, I will completing my project.", "hi": "By next year, I will completing my project." } },
+        { "id": "d", "text": { "en": "By next year, I have completed my project.", "hi": "By next year, I have completed my project." } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "The future perfect tense ('will have completed') is used to show an action that will be finished before a specific point in the future, marked here by 'by next year'.", "hi": "future perfect काल ('will have completed') यह दिखाने के लिए प्रयोग होता है कि कोई कार्य भविष्य के किसी निश्चित बिंदु से पहले पूरा हो चुका होगा, जिसे यहाँ 'by next year' दर्शाता है।" },
+      "distractorAnalysis": {
+        "a": { "en": "Simple future 'will complete' does not clearly show that the action will be finished before the future time marker, unlike future perfect.", "hi": "Simple future 'will complete' यह स्पष्ट रूप से नहीं दिखाता कि कार्य भविष्य के समय संकेतक से पहले पूरा हो चुका होगा, जबकि future perfect यह दिखाता है।" },
+        "c": { "en": "'Will completing' is an invalid combination; a modal verb like 'will' must be followed by a base form or a perfect construction, not a present participle alone.", "hi": "'Will completing' एक अमान्य संयोजन है; 'will' जैसी modal क्रिया के बाद मूल रूप या perfect रचना आनी चाहिए, अकेला present participle नहीं।" },
+        "d": { "en": "Present perfect 'have completed' does not fit with a future time reference like 'by next year'.", "hi": "Present perfect 'have completed' 'by next year' जैसे भविष्यकालीन समय संदर्भ के साथ मेल नहीं खाता।" }
+      }
+    },
+    {
+      "key": "bank-lang-grammar-36",
+      "difficulty": "HARD",
+      "content": { "en": "Choose the grammatically correct sentence.", "hi": "व्याकरण की दृष्टि से सही वाक्य चुनें।" },
+      "options": [
+        { "id": "a", "text": { "en": "The basket of apples are on the table.", "hi": "The basket of apples are on the table." } },
+        { "id": "b", "text": { "en": "The basket of apples is on the table.", "hi": "The basket of apples is on the table." } },
+        { "id": "c", "text": { "en": "The baskets of apples is on the table.", "hi": "The baskets of apples is on the table." } },
+        { "id": "d", "text": { "en": "The basket of apple are on the table.", "hi": "The basket of apple are on the table." } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "The true subject of the sentence is the singular noun 'basket', not 'apples' inside the prepositional phrase, so the singular verb 'is' is correct.", "hi": "वाक्य का वास्तविक कर्ता एकवचन संज्ञा 'basket' है, न कि पूर्वसर्गीय वाक्यांश के अंदर आया 'apples', इसलिए एकवचन क्रिया 'is' सही है।" },
+      "distractorAnalysis": {
+        "a": { "en": "This wrongly makes the verb agree with 'apples', the object of the preposition 'of', instead of the true singular subject 'basket'.", "hi": "इसमें गलत तरीके से क्रिया को पूर्वसर्ग 'of' की वस्तु 'apples' से मेल कराया गया है, जबकि वास्तविक एकवचन कर्ता 'basket' है।" },
+        "c": { "en": "The subject is made plural ('baskets') but the verb still incorrectly stays singular ('is'), creating a mismatch.", "hi": "कर्ता को बहुवचन ('baskets') बना दिया गया है, पर क्रिया अभी भी गलत तरीके से एकवचन ('is') बनी हुई है, जिससे मेल नहीं बैठता।" },
+        "d": { "en": "The noun 'apple' is left ungrammatically singular after 'of' where it should be plural, and the plural verb 'are' also wrongly disagrees with the singular subject 'basket'.", "hi": "'of' के बाद संज्ञा 'apple' को गलत तरीके से एकवचन रखा गया है जबकि उसे बहुवचन होना चाहिए, और बहुवचन क्रिया 'are' भी एकवचन कर्ता 'basket' से गलत तरीके से मेल नहीं खाती।" }
+      }
+    },
+    {
+      "key": "bank-lang-grammar-37",
+      "difficulty": "HARD",
+      "content": { "en": "Choose the correct word: ___ going to the park after lunch.", "hi": "सही शब्द चुनें: ___ going to the park after lunch." },
+      "options": [
+        { "id": "a", "text": { "en": "Their", "hi": "Their" } },
+        { "id": "b", "text": { "en": "There", "hi": "There" } },
+        { "id": "c", "text": { "en": "They're", "hi": "They're" } },
+        { "id": "d", "text": { "en": "Thier", "hi": "Thier" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "'They're' is the contraction of 'they are', which correctly fits before the verb phrase 'going to the park'.", "hi": "'They're' 'they are' का संक्षिप्त रूप है, जो क्रिया वाक्यांश 'going to the park' से पहले सही ढंग से मेल खाता है।" },
+      "distractorAnalysis": {
+        "a": { "en": "'Their' is a possessive adjective used directly before a noun (e.g., their bag), not a substitute for 'they are'.", "hi": "'Their' एक संबंधवाचक विशेषण है जो सीधे किसी संज्ञा से पहले प्रयोग होता है (जैसे their bag), यह 'they are' का विकल्प नहीं है।" },
+        "b": { "en": "'There' refers to a place or introduces existence (there is/are), and does not mean 'they are'.", "hi": "'There' किसी स्थान को दर्शाता है या अस्तित्व सूचित करता है (there is/are), इसका अर्थ 'they are' नहीं होता।" },
+        "d": { "en": "'Thier' is simply a misspelling of 'their' and, like 'their', does not mean 'they are' in this context.", "hi": "'Thier' केवल 'their' की गलत वर्तनी है और, 'their' की तरह, इस संदर्भ में इसका अर्थ 'they are' नहीं होता।" }
+      }
+    },
+    {
+      "key": "bank-lang-grammar-38",
+      "difficulty": "HARD",
+      "content": { "en": "Choose the grammatically correct sentence.", "hi": "व्याकरण की दृष्टि से सही वाक्य चुनें।" },
+      "options": [
+        { "id": "a", "text": { "en": "She likes reading, swimming, and to dance.", "hi": "She likes reading, swimming, and to dance." } },
+        { "id": "b", "text": { "en": "She likes reading, swimming, and dancing.", "hi": "She likes reading, swimming, and dancing." } },
+        { "id": "c", "text": { "en": "She likes to read, swimming, and dancing.", "hi": "She likes to read, swimming, and dancing." } },
+        { "id": "d", "text": { "en": "She likes read, swim, and dance.", "hi": "She likes read, swim, and dance." } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "In a list, all items joined by 'and' should share the same grammatical form; using the gerund form ('-ing') for all three items keeps the list parallel.", "hi": "किसी सूची में 'and' से जुड़ी सभी वस्तुओं का व्याकरणिक रूप एक समान होना चाहिए; तीनों वस्तुओं के लिए gerund रूप ('-ing') प्रयोग करने से सूची समानांतर (parallel) बनी रहती है।" },
+      "distractorAnalysis": {
+        "a": { "en": "This mixes two gerunds ('reading', 'swimming') with an infinitive ('to dance') in the same list, breaking parallel structure.", "hi": "इसमें एक ही सूची में दो gerund ('reading', 'swimming') को infinitive ('to dance') के साथ मिलाया गया है, जिससे समानांतर संरचना (parallel structure) टूट जाती है।" },
+        "c": { "en": "This starts with an infinitive ('to read') but switches to gerunds for the remaining items, again breaking parallel structure.", "hi": "इसमें शुरुआत infinitive ('to read') से होती है, पर बाकी वस्तुओं के लिए gerund में बदल जाता है, जिससे फिर से समानांतर संरचना टूट जाती है।" },
+        "d": { "en": "This uses bare base verb forms without any consistent grammatical link to 'likes', which is not a standard structure.", "hi": "इसमें 'likes' के साथ बिना किसी संगत व्याकरणिक जुड़ाव के मूल क्रिया रूप प्रयोग किए गए हैं, जो कोई मानक संरचना नहीं है।" }
+      }
+    },
+    {
+      "key": "bank-lang-grammar-39",
+      "difficulty": "HARD",
+      "content": { "en": "Choose the correctly punctuated sentence for the following direct speech.", "hi": "निम्नलिखित प्रत्यक्ष कथन (direct speech) के लिए सही विराम चिह्नों वाला वाक्य चुनें।" },
+      "options": [
+        { "id": "a", "text": { "en": "Riya said, I am going home.", "hi": "Riya said, I am going home." } },
+        { "id": "b", "text": { "en": "Riya said, \"I am going home.\"", "hi": "Riya said, \"I am going home.\"" } },
+        { "id": "c", "text": { "en": "Riya said \"I am going home\".", "hi": "Riya said \"I am going home\"." } },
+        { "id": "d", "text": { "en": "\"Riya said, I am going home.\"", "hi": "\"Riya said, I am going home.\"" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "Direct speech needs a comma after the reporting verb, quotation marks around the exact words spoken, and the closing period inside the final quotation mark.", "hi": "प्रत्यक्ष कथन (direct speech) में reporting verb के बाद अल्पविराम, बोले गए वास्तविक शब्दों के चारों ओर उद्धरण चिह्न (quotation marks), और अंतिम उद्धरण चिह्न के भीतर पूर्ण विराम आना चाहिए।" },
+      "distractorAnalysis": {
+        "a": { "en": "This omits quotation marks entirely around the reported words, failing to mark them as a direct quotation.", "hi": "इसमें कहे गए शब्दों के चारों ओर उद्धरण चिह्न बिल्कुल नहीं हैं, जिससे वे प्रत्यक्ष कथन के रूप में चिह्नित नहीं होते।" },
+        "c": { "en": "This omits the comma that should separate the reporting clause from the quotation, and places the final period outside the closing quotation mark.", "hi": "इसमें reporting उपवाक्य और उद्धरण के बीच आने वाला अल्पविराम नहीं है, और अंतिम पूर्ण विराम को उद्धरण चिह्न के बाहर रखा गया है।" },
+        "d": { "en": "This wrongly places quotation marks around the entire sentence, including the reporting clause 'Riya said', instead of only around her actual spoken words.", "hi": "इसमें गलत तरीके से पूरे वाक्य के चारों ओर उद्धरण चिह्न लगाए गए हैं, जिसमें reporting उपवाक्य 'Riya said' भी शामिल है, जबकि उद्धरण चिह्न केवल उसके वास्तविक बोले गए शब्दों के चारों ओर होने चाहिए।" }
+      }
+    },
+    {
+      "key": "bank-lang-grammar-40",
+      "difficulty": "HARD",
+      "content": { "en": "Choose the correct reported (indirect) speech for: She said, \"I am tired.\"", "hi": "इसके लिए सही अप्रत्यक्ष कथन (reported speech) चुनें: She said, \"I am tired.\"" },
+      "options": [
+        { "id": "a", "text": { "en": "She said that she is tired.", "hi": "She said that she is tired." } },
+        { "id": "b", "text": { "en": "She said that she was tired.", "hi": "She said that she was tired." } },
+        { "id": "c", "text": { "en": "She said that she were tired.", "hi": "She said that she were tired." } },
+        { "id": "d", "text": { "en": "She said that she has tired.", "hi": "She said that she has tired." } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "When the reporting verb 'said' is in the past tense, the present tense in the direct speech ('am') shifts back to the past tense ('was') in reported speech.", "hi": "जब reporting क्रिया 'said' भूतकाल में हो, तो प्रत्यक्ष कथन का वर्तमान काल ('am') अप्रत्यक्ष कथन में भूतकाल ('was') में बदल जाता है।" },
+      "distractorAnalysis": {
+        "a": { "en": "This keeps the present tense 'is' instead of shifting it back to the past tense, which is required when the reporting verb is in the past.", "hi": "इसमें वर्तमान काल 'is' को वैसा ही रखा गया है, उसे भूतकाल में नहीं बदला गया, जबकि reporting क्रिया भूतकाल में होने पर यह बदलाव ज़रूरी है।" },
+        "c": { "en": "'Were' does not agree with the singular subject 'she'; the correct backshifted form for a singular subject is 'was'.", "hi": "'Were' एकवचन कर्ता 'she' से मेल नहीं खाता; एकवचन कर्ता के लिए सही backshifted रूप 'was' है।" },
+        "d": { "en": "'Has tired' is not a valid backshift of 'am tired'; 'tired' here is an adjective following the verb 'be', not a verb needing 'has'.", "hi": "'Has tired' 'am tired' का मान्य backshift रूप नहीं है; यहाँ 'tired' क्रिया 'be' के बाद आने वाला विशेषण है, ऐसी क्रिया नहीं जिसे 'has' चाहिए।" }
+      }
+    }
+  ]
+}

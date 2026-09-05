@@ -14,6 +14,18 @@
         "!.next/cache/**"
       ]
     },
+    "@vedicneev/db#build": {
+      "outputs": [
+        "../../node_modules/@prisma/client/**",
+        "../../node_modules/.prisma/client/**"
+      ]
+    },
+    "@vedicneev/engine#build": {
+      "outputs": []
+    },
+    "@vedicneev/ui#build": {
+      "outputs": []
+    },
     "dev": {
       "cache": false,
       "persistent": true
@@ -49,6 +61,16 @@
   "globalEnv": [
     "DATABASE_URL",
     "DIRECT_URL",
-    "NEXT_PUBLIC_APP_URL"
+    "NEXT_PUBLIC_APP_URL",
+    "ADMIN_ACCESS_KEY",
+    "RAZORPAY_KEY_ID",
+    "RAZORPAY_KEY_SECRET",
+    "WHATSAPP_PHONE_NUMBER_ID",
+    "WHATSAPP_ACCESS_TOKEN",
+    "WHATSAPP_API_VERSION",
+    "WHATSAPP_OTP_TEMPLATE_NAME",
+    "NEXT_PUBLIC_SUPABASE_URL",
+    "NEXT_PUBLIC_SUPABASE_ANON_KEY",
+    "SUPABASE_SERVICE_ROLE_KEY"
   ]
 }

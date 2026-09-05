@@ -1,16 +1,19 @@
 import Link from "next/link";
 import { Button } from "@vedicneev/ui";
+import { DEFAULT_BLOG_PUBLISH_BATCH_SIZE, MAX_BLOG_PUBLISH_BATCH_SIZE } from "@vedicneev/db";
+import type { BlogPost } from "@vedicneev/db";
 import { PenSquare } from "lucide-react";
 
 import { BlogPostRow } from "@/components/admin/BlogPostRow";
+import { PublishBatchControl } from "@/components/admin/PublishBatchControl";
 import { getAllPostsForAdmin } from "@/lib/blog/queries";
 
 export const dynamic = "force-dynamic";
 
 export default async function AdminBlogsPage() {
   const posts = await getAllPostsForAdmin();
-  const drafts = posts.filter((p) => p.status === "DRAFT");
-  const published = posts.filter((p) => p.status === "PUBLISHED");
+  const drafts = posts.filter((p: BlogPost) => p.status === "DRAFT");
+  const published = posts.filter((p: BlogPost) => p.status === "PUBLISHED");
 
   const draftsByCategory = new Map<string, typeof drafts>();
   for (const post of drafts) {
@@ -28,12 +31,19 @@ export default async function AdminBlogsPage() {
             {drafts.length} draft{drafts.length === 1 ? "" : "s"} · {published.length} published
           </p>
         </div>
-        <Button asChild>
-          <Link href="/admin/blogs/new">
-            <PenSquare className="h-4 w-4" />
-            New Post
-          </Link>
-        </Button>
+        <div className="flex flex-wrap items-center gap-3">
+          <PublishBatchControl
+            draftCount={drafts.length}
+            defaultBatchSize={DEFAULT_BLOG_PUBLISH_BATCH_SIZE}
+            maxBatchSize={MAX_BLOG_PUBLISH_BATCH_SIZE}
+          />
+          <Button asChild>
+            <Link href="/admin/blogs/new">
+              <PenSquare className="h-4 w-4" />
+              New Post
+            </Link>
+          </Button>
+        </div>
       </div>
 
       <section className="flex flex-col gap-4">

@@ -1,0 +1,727 @@
+{
+  "section": "social_awareness",
+  "topicKey": "social_awareness",
+  "generatedAt": "2026-09-05T00:00:00.000Z",
+  "questions": [
+    {
+      "key": "bank-social9-awareness-01",
+      "difficulty": "EASY",
+      "content": { "en": "Which river is known as the longest river flowing entirely within India?", "hi": "कौन सी नदी को भारत के भीतर पूरी तरह बहने वाली सबसे लंबी नदी माना जाता है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Ganga", "hi": "गंगा" } },
+        { "id": "b", "text": { "en": "Godavari", "hi": "गोदावरी" } },
+        { "id": "c", "text": { "en": "Yamuna", "hi": "यमुना" } },
+        { "id": "d", "text": { "en": "Brahmaputra", "hi": "ब्रह्मपुत्र" } }
+      ],
+      "correctOption": "a",
+      "explanation": { "en": "The Ganga originates in the Himalayas and flows through several northern Indian states before draining into the Bay of Bengal, making it the longest river in India.", "hi": "गंगा नदी हिमालय से निकलती है और उत्तर भारत के कई राज्यों से होकर बहती हुई बंगाल की खाड़ी में गिरती है, जिससे यह भारत की सबसे लंबी नदी बन जाती है।" },
+      "distractorAnalysis": {
+        "b": { "en": "Godavari is the longest river in peninsular (southern) India, so students often mistake it for the longest river overall, but it is shorter than the Ganga.", "hi": "गोदावरी प्रायद्वीपीय (दक्षिण) भारत की सबसे लंबी नदी है, इसलिए इसे अक्सर सबसे लंबी नदी समझ लिया जाता है, जबकि यह गंगा से छोटी है।" },
+        "c": { "en": "The Yamuna is actually a major tributary of the Ganga, not a separate, longer river.", "hi": "यमुना वास्तव में गंगा की एक प्रमुख सहायक नदी है, न कि एक अलग और लंबी नदी।" },
+        "d": { "en": "A large part of the Brahmaputra's course lies outside India, in Tibet and Bangladesh, so its length within India is less than the Ganga's.", "hi": "ब्रह्मपुत्र का अधिकांश मार्ग भारत के बाहर, तिब्बत और बांग्लादेश में है, इसलिए भारत के भीतर इसकी लंबाई गंगा से कम है।" }
+      }
+    },
+    {
+      "key": "bank-social9-awareness-02",
+      "difficulty": "EASY",
+      "content": { "en": "Which peak, located within India's undisputed territory, is the highest mountain peak in the country?", "hi": "भारत के निर्विवाद क्षेत्र में स्थित कौन सी चोटी देश की सबसे ऊंची पर्वत चोटी है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Mount Everest", "hi": "माउंट एवरेस्ट" } },
+        { "id": "b", "text": { "en": "Kangchenjunga", "hi": "कंचनजंगा" } },
+        { "id": "c", "text": { "en": "K2", "hi": "के2 (K2)" } },
+        { "id": "d", "text": { "en": "Nanda Devi", "hi": "नंदा देवी" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "Kangchenjunga, located in Sikkim on the India-Nepal border, is the highest peak situated within India.", "hi": "कंचनजंगा, जो सिक्किम में भारत-नेपाल सीमा पर स्थित है, भारत के भीतर स्थित सबसे ऊंची चोटी है।" },
+      "distractorAnalysis": {
+        "a": { "en": "Mount Everest is the highest peak in the world, but it is located in Nepal, not within India, so it cannot be the highest peak in India.", "hi": "माउंट एवरेस्ट विश्व की सबसे ऊंची चोटी है, लेकिन यह नेपाल में स्थित है, भारत में नहीं, इसलिए यह भारत की सबसे ऊंची चोटी नहीं हो सकती।" },
+        "c": { "en": "K2 is the world's second-highest peak, located in the Karakoram range in territory not under India's administration.", "hi": "के2 विश्व की दूसरी सबसे ऊंची चोटी है, जो काराकोरम पर्वतमाला में उस क्षेत्र में स्थित है जो भारत के प्रशासन के अंतर्गत नहीं है।" },
+        "d": { "en": "Nanda Devi is the second-highest peak located entirely within India, and is often mistaken for the highest since it lies fully inside Uttarakhand.", "hi": "नंदा देवी भारत के भीतर पूरी तरह स्थित दूसरी सबसे ऊंची चोटी है, और उत्तराखंड में पूरी तरह स्थित होने के कारण इसे अक्सर सबसे ऊंची चोटी समझ लिया जाता है।" }
+      }
+    },
+    {
+      "key": "bank-social9-awareness-03",
+      "difficulty": "EASY",
+      "content": { "en": "Which leader of India's freedom struggle is popularly honoured as the 'Father of the Nation'?", "hi": "भारत के स्वतंत्रता संग्राम के किस नेता को लोकप्रिय रूप से 'राष्ट्रपिता' कहकर सम्मानित किया जाता है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Jawaharlal Nehru", "hi": "जवाहरलाल नेहरू" } },
+        { "id": "b", "text": { "en": "Sardar Vallabhbhai Patel", "hi": "सरदार वल्लभभाई पटेल" } },
+        { "id": "c", "text": { "en": "Mahatma Gandhi", "hi": "महात्मा गांधी" } },
+        { "id": "d", "text": { "en": "Subhas Chandra Bose", "hi": "सुभाष चंद्र बोस" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "Mahatma Gandhi is popularly honoured as the 'Father of the Nation' for his leadership of India's non-violent freedom movement.", "hi": "महात्मा गांधी को भारत के अहिंसक स्वतंत्रता आंदोलन के नेतृत्व के लिए लोकप्रिय रूप से 'राष्ट्रपिता' कहा जाता है।" },
+      "distractorAnalysis": {
+        "a": { "en": "Nehru became independent India's first Prime Minister and is remembered for his role in nation-building, but this is a different honorific from 'Father of the Nation'.", "hi": "नेहरू स्वतंत्र भारत के पहले प्रधानमंत्री बने और राष्ट्र-निर्माण में उनकी भूमिका के लिए याद किए जाते हैं, लेकिन यह 'राष्ट्रपिता' से अलग सम्मान है।" },
+        "b": { "en": "Patel is known as the 'Iron Man of India' for unifying the princely states, a different title from 'Father of the Nation'.", "hi": "पटेल को रियासतों के एकीकरण के लिए 'भारत का लौह पुरुष' कहा जाता है, जो 'राष्ट्रपिता' से भिन्न उपाधि है।" },
+        "d": { "en": "Bose led the Indian National Army and is popularly known by the title 'Netaji', a different honorific from 'Father of the Nation'.", "hi": "बोस ने आज़ाद हिंद फौज का नेतृत्व किया और उन्हें लोकप्रिय रूप से 'नेताजी' कहा जाता है, जो 'राष्ट्रपिता' से अलग उपाधि है।" }
+      }
+    },
+    {
+      "key": "bank-social9-awareness-04",
+      "difficulty": "EASY",
+      "content": { "en": "In which year did India become independent from British rule?", "hi": "भारत किस वर्ष में ब्रिटिश शासन से स्वतंत्र हुआ?" },
+      "options": [
+        { "id": "a", "text": { "en": "1942", "hi": "1942" } },
+        { "id": "b", "text": { "en": "1950", "hi": "1950" } },
+        { "id": "c", "text": { "en": "1930", "hi": "1930" } },
+        { "id": "d", "text": { "en": "1947", "hi": "1947" } }
+      ],
+      "correctOption": "d",
+      "explanation": { "en": "India became independent from British rule on 15 August 1947.", "hi": "भारत 15 अगस्त 1947 को ब्रिटिश शासन से स्वतंत्र हुआ।" },
+      "distractorAnalysis": {
+        "a": { "en": "1942 is the year the Quit India Movement was launched, a major campaign but not the year independence was actually achieved.", "hi": "1942 वह वर्ष है जब भारत छोड़ो आंदोलन शुरू हुआ था, जो एक महत्वपूर्ण आंदोलन था परंतु यह वास्तविक स्वतंत्रता का वर्ष नहीं है।" },
+        "b": { "en": "1950 is the year the Constitution came into force and India became a republic, which is often confused with the independence year.", "hi": "1950 वह वर्ष है जब संविधान लागू हुआ और भारत गणराज्य बना, जिसे अक्सर स्वतंत्रता के वर्ष से भ्रमित कर दिया जाता है।" },
+        "c": { "en": "1930 is the year of the Dandi (Salt) March and the Purna Swaraj declaration, an earlier milestone, not the year of independence itself.", "hi": "1930 दांडी (नमक) यात्रा और पूर्ण स्वराज की घोषणा का वर्ष है, जो एक पहले का महत्वपूर्ण पड़ाव था, स्वतंत्रता का वास्तविक वर्ष नहीं।" }
+      }
+    },
+    {
+      "key": "bank-social9-awareness-05",
+      "difficulty": "EASY",
+      "content": { "en": "What type of government does India have?", "hi": "भारत में किस प्रकार की सरकार है?" },
+      "options": [
+        { "id": "a", "text": { "en": "A parliamentary democratic republic", "hi": "एक संसदीय लोकतांत्रिक गणराज्य" } },
+        { "id": "b", "text": { "en": "An absolute monarchy", "hi": "एक निरंकुश राजशाही" } },
+        { "id": "c", "text": { "en": "A military dictatorship", "hi": "एक सैन्य तानाशाही" } },
+        { "id": "d", "text": { "en": "A one-party state", "hi": "एक एकदलीय राज्य" } }
+      ],
+      "correctOption": "a",
+      "explanation": { "en": "India is a sovereign, socialist, secular, democratic republic that follows a parliamentary system of government.", "hi": "भारत एक संप्रभु, समाजवादी, धर्मनिरपेक्ष, लोकतांत्रिक गणराज्य है जो संसदीय शासन प्रणाली का पालन करता है।" },
+      "distractorAnalysis": {
+        "b": { "en": "India abolished princely rule and has no monarch; power rests with elected representatives, not a hereditary ruler.", "hi": "भारत में रियासती शासन समाप्त हो चुका है और यहां कोई राजा नहीं है; सत्ता चुने हुए प्रतिनिधियों के हाथ में है, न कि किसी वंशानुगत शासक के।" },
+        "c": { "en": "In India, power rests with an elected civilian government, not the armed forces, so it is not a military dictatorship.", "hi": "भारत में सत्ता एक निर्वाचित नागरिक सरकार के हाथ में होती है, सेना के हाथ में नहीं, इसलिए यह सैन्य तानाशाही नहीं है।" },
+        "d": { "en": "India has a multi-party democratic system with regular elections contested by many parties, not just one.", "hi": "भारत में एक बहुदलीय लोकतांत्रिक व्यवस्था है जिसमें कई पार्टियां नियमित चुनाव लड़ती हैं, न कि केवल एक पार्टी।" }
+      }
+    },
+    {
+      "key": "bank-social9-awareness-06",
+      "difficulty": "EASY",
+      "content": { "en": "Which of the following is the supreme law of India?", "hi": "निम्नलिखित में से भारत का सर्वोच्च कानून कौन सा है?" },
+      "options": [
+        { "id": "a", "text": { "en": "The Preamble", "hi": "प्रस्तावना" } },
+        { "id": "b", "text": { "en": "The Constitution", "hi": "संविधान" } },
+        { "id": "c", "text": { "en": "Acts of Parliament", "hi": "संसद के अधिनियम" } },
+        { "id": "d", "text": { "en": "The Directive Principles of State Policy", "hi": "राज्य नीति के निदेशक तत्व" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "The Constitution of India is the supreme law of the land, and all other laws must conform to it.", "hi": "भारत का संविधान देश का सर्वोच्च कानून है, और अन्य सभी कानूनों को इसके अनुरूप होना चाहिए।" },
+      "distractorAnalysis": {
+        "a": { "en": "The Preamble is an introductory statement summarizing the Constitution's philosophy; it is part of the Constitution but not the entire supreme law itself.", "hi": "प्रस्तावना संविधान के दर्शन को संक्षेप में बताने वाला एक परिचयात्मक कथन है; यह संविधान का हिस्सा है परंतु स्वयं संपूर्ण सर्वोच्च कानून नहीं है।" },
+        "c": { "en": "Acts of Parliament are ordinary laws that must themselves conform to the Constitution, so they cannot be supreme over it.", "hi": "संसद के अधिनियम सामान्य कानून हैं जिन्हें स्वयं संविधान के अनुरूप होना चाहिए, इसलिए वे संविधान से ऊपर नहीं हो सकते।" },
+        "d": { "en": "The Directive Principles are guidelines for governance in Part IV of the Constitution; they are not enforceable by courts and are not the supreme law themselves.", "hi": "निदेशक तत्व संविधान के भाग IV में शासन के लिए दिशा-निर्देश हैं; ये न्यायालयों द्वारा प्रवर्तनीय नहीं हैं और स्वयं सर्वोच्च कानून नहीं हैं।" }
+      }
+    },
+    {
+      "key": "bank-social9-awareness-07",
+      "difficulty": "EASY",
+      "content": { "en": "Materials and substances found in nature, such as water, air, soil and minerals, that can be used by humans are called what?", "hi": "प्रकृति में पाए जाने वाले पदार्थ जैसे जल, वायु, मिट्टी और खनिज, जिनका उपयोग मनुष्य कर सकते हैं, क्या कहलाते हैं?" },
+      "options": [
+        { "id": "a", "text": { "en": "Man-made resources", "hi": "मानव-निर्मित संसाधन" } },
+        { "id": "b", "text": { "en": "Capital goods", "hi": "पूंजीगत वस्तुएं" } },
+        { "id": "c", "text": { "en": "Natural resources", "hi": "प्राकृतिक संसाधन" } },
+        { "id": "d", "text": { "en": "Human resources", "hi": "मानव संसाधन" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "Resources that are provided by nature without human intervention, such as water, minerals and forests, are called natural resources.", "hi": "प्रकृति द्वारा बिना मानवीय हस्तक्षेप के प्रदान किए गए संसाधन, जैसे जल, खनिज और वन, प्राकृतिक संसाधन कहलाते हैं।" },
+      "distractorAnalysis": {
+        "a": { "en": "Man-made resources are things created by humans, the opposite category to resources that occur naturally.", "hi": "मानव-निर्मित संसाधन वे हैं जो मनुष्यों द्वारा बनाए जाते हैं, जो प्राकृतिक रूप से मिलने वाले संसाधनों की विपरीत श्रेणी है।" },
+        "b": { "en": "Capital goods are man-made items such as machinery used in production, a different concept from raw natural materials.", "hi": "पूंजीगत वस्तुएं मानव-निर्मित वस्तुएं हैं जैसे उत्पादन में प्रयुक्त मशीनरी, जो प्राकृतिक कच्चे पदार्थों से भिन्न अवधारणा है।" },
+        "d": { "en": "Human resources refers to people's skills and labour, not physical materials found in nature.", "hi": "मानव संसाधन का अर्थ लोगों के कौशल और श्रम से है, न कि प्रकृति में पाए जाने वाले भौतिक पदार्थों से।" }
+      }
+    },
+    {
+      "key": "bank-social9-awareness-08",
+      "difficulty": "EASY",
+      "content": { "en": "Which Indian state is traditionally known as the 'Spice Garden of India'?", "hi": "किस भारतीय राज्य को परंपरागत रूप से 'भारत का मसाला उद्यान' कहा जाता है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Punjab", "hi": "पंजाब" } },
+        { "id": "b", "text": { "en": "Rajasthan", "hi": "राजस्थान" } },
+        { "id": "c", "text": { "en": "Assam", "hi": "असम" } },
+        { "id": "d", "text": { "en": "Kerala", "hi": "केरल" } }
+      ],
+      "correctOption": "d",
+      "explanation": { "en": "Kerala is traditionally known as the 'Spice Garden of India' owing to its long history of cultivating pepper, cardamom and other spices.", "hi": "केरल को काली मिर्च, इलायची और अन्य मसालों की खेती के लंबे इतिहास के कारण परंपरागत रूप से 'भारत का मसाला उद्यान' कहा जाता है।" },
+      "distractorAnalysis": {
+        "a": { "en": "Punjab is known as the granary or bread-basket of India for its wheat production, not for spices.", "hi": "पंजाब को गेहूं उत्पादन के कारण भारत का 'अन्न भंडार' कहा जाता है, मसालों के लिए नहीं।" },
+        "b": { "en": "Rajasthan is known for its desert terrain, not for spice cultivation.", "hi": "राजस्थान अपने रेगिस्तानी भूभाग के लिए जाना जाता है, मसाला खेती के लिए नहीं।" },
+        "c": { "en": "Assam is famous for its tea gardens, not for spice cultivation.", "hi": "असम अपने चाय बागानों के लिए प्रसिद्ध है, मसाला खेती के लिए नहीं।" }
+      }
+    },
+    {
+      "key": "bank-social9-awareness-09",
+      "difficulty": "EASY",
+      "content": { "en": "In which year was the Quit India Movement launched?", "hi": "भारत छोड़ो आंदोलन किस वर्ष शुरू किया गया था?" },
+      "options": [
+        { "id": "a", "text": { "en": "1942", "hi": "1942" } },
+        { "id": "b", "text": { "en": "1930", "hi": "1930" } },
+        { "id": "c", "text": { "en": "1947", "hi": "1947" } },
+        { "id": "d", "text": { "en": "1919", "hi": "1919" } }
+      ],
+      "correctOption": "a",
+      "explanation": { "en": "The Quit India Movement was launched by Mahatma Gandhi in August 1942, demanding an end to British rule.", "hi": "भारत छोड़ो आंदोलन अगस्त 1942 में महात्मा गांधी द्वारा शुरू किया गया था, जिसमें ब्रिटिश शासन को समाप्त करने की मांग की गई थी।" },
+      "distractorAnalysis": {
+        "b": { "en": "1930 is the year of the Dandi (Salt) March, an earlier civil disobedience event, not the Quit India Movement.", "hi": "1930 दांडी (नमक) यात्रा का वर्ष है, जो एक पहले का सविनय अवज्ञा आंदोलन था, भारत छोड़ो आंदोलन नहीं।" },
+        "c": { "en": "1947 is the year India actually achieved independence, not the year the Quit India Movement was launched.", "hi": "1947 वह वर्ष है जब भारत को वास्तव में स्वतंत्रता मिली, न कि भारत छोड़ो आंदोलन शुरू होने का वर्ष।" },
+        "d": { "en": "1919 is the year of the Jallianwala Bagh tragedy, an earlier and separate significant event.", "hi": "1919 जलियांवाला बाग हत्याकांड का वर्ष है, जो एक पहले की और अलग महत्वपूर्ण घटना थी।" }
+      }
+    },
+    {
+      "key": "bank-social9-awareness-10",
+      "difficulty": "EASY",
+      "content": { "en": "In which part of the Indian Constitution are the Fundamental Rights enumerated?", "hi": "भारतीय संविधान के किस भाग में मौलिक अधिकारों का उल्लेख किया गया है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Part II", "hi": "भाग II" } },
+        { "id": "b", "text": { "en": "Part III", "hi": "भाग III" } },
+        { "id": "c", "text": { "en": "Part IV", "hi": "भाग IV" } },
+        { "id": "d", "text": { "en": "Part V", "hi": "भाग V" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "Fundamental Rights are enumerated in Part III of the Indian Constitution.", "hi": "मौलिक अधिकारों का उल्लेख भारतीय संविधान के भाग III में किया गया है।" },
+      "distractorAnalysis": {
+        "a": { "en": "Part II of the Constitution deals with citizenship, not Fundamental Rights.", "hi": "संविधान का भाग II नागरिकता से संबंधित है, मौलिक अधिकारों से नहीं।" },
+        "c": { "en": "Part IV contains the Directive Principles of State Policy, which are distinct from the Fundamental Rights.", "hi": "भाग IV में राज्य नीति के निदेशक तत्व शामिल हैं, जो मौलिक अधिकारों से भिन्न हैं।" },
+        "d": { "en": "Part V deals with the structure of the Union government, not Fundamental Rights.", "hi": "भाग V केंद्र सरकार की संरचना से संबंधित है, मौलिक अधिकारों से नहीं।" }
+      }
+    },
+    {
+      "key": "bank-social9-awareness-11",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Which river is popularly called the 'Sorrow of Bihar' because of its history of devastating floods?", "hi": "किस नदी को इसके विनाशकारी बाढ़ के इतिहास के कारण लोकप्रिय रूप से 'बिहार का शोक' कहा जाता है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Damodar", "hi": "दामोदर" } },
+        { "id": "b", "text": { "en": "Mahanadi", "hi": "महानदी" } },
+        { "id": "c", "text": { "en": "Kosi", "hi": "कोसी" } },
+        { "id": "d", "text": { "en": "Tapi", "hi": "तापी" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "The Kosi river is called the 'Sorrow of Bihar' because it frequently changes its course and has caused devastating floods in the state.", "hi": "कोसी नदी को 'बिहार का शोक' कहा जाता है क्योंकि यह अक्सर अपना मार्ग बदलती है और राज्य में विनाशकारी बाढ़ ला चुकी है।" },
+      "distractorAnalysis": {
+        "a": { "en": "The Damodar river was historically called the 'Sorrow of Bengal' for similarly flood-prone behaviour, and is often confused with Bihar's river.", "hi": "दामोदर नदी को ऐतिहासिक रूप से इसी तरह बाढ़-प्रवण व्यवहार के कारण 'बंगाल का शोक' कहा जाता था, और इसे अक्सर बिहार की नदी से भ्रमित कर दिया जाता है।" },
+        "b": { "en": "The Mahanadi flows through Odisha and Chhattisgarh and is not associated with this Bihar-related nickname.", "hi": "महानदी ओडिशा और छत्तीसगढ़ से होकर बहती है और इसका बिहार से जुड़े इस उपनाम से कोई संबंध नहीं है।" },
+        "d": { "en": "The Tapi flows westward through Maharashtra and Gujarat and has no connection to floods in Bihar.", "hi": "तापी नदी पश्चिम की ओर महाराष्ट्र और गुजरात से होकर बहती है और बिहार की बाढ़ से इसका कोई संबंध नहीं है।" }
+      }
+    },
+    {
+      "key": "bank-social9-awareness-12",
+      "difficulty": "MEDIUM",
+      "content": { "en": "The Deccan Plateau is mainly located in which part of India?", "hi": "दक्कन का पठार मुख्य रूप से भारत के किस भाग में स्थित है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Northern India", "hi": "उत्तर भारत" } },
+        { "id": "b", "text": { "en": "North-eastern India", "hi": "पूर्वोत्तर भारत" } },
+        { "id": "c", "text": { "en": "A narrow western coastal strip only", "hi": "केवल एक संकरी पश्चिमी तटीय पट्टी" } },
+        { "id": "d", "text": { "en": "Peninsular (southern) India", "hi": "प्रायद्वीपीय (दक्षिण) भारत" } }
+      ],
+      "correctOption": "d",
+      "explanation": { "en": "The Deccan Plateau is a large plateau covering much of peninsular (southern) India, bounded by the Western and Eastern Ghats.", "hi": "दक्कन का पठार एक विशाल पठार है जो प्रायद्वीपीय (दक्षिण) भारत के अधिकांश भाग को कवर करता है और पश्चिमी तथा पूर्वी घाटों से घिरा है।" },
+      "distractorAnalysis": {
+        "a": { "en": "Northern India is dominated by the Indo-Gangetic plains, not the Deccan Plateau.", "hi": "उत्तर भारत में मुख्यतः सिंधु-गंगा के मैदान हैं, दक्कन का पठार नहीं।" },
+        "b": { "en": "North-eastern India has its own distinct hill ranges and is not part of the Deccan Plateau.", "hi": "पूर्वोत्तर भारत की अपनी अलग पहाड़ी श्रृंखलाएं हैं और यह दक्कन के पठार का हिस्सा नहीं है।" },
+        "c": { "en": "The Deccan Plateau is a large interior landmass, not merely a narrow coastal strip.", "hi": "दक्कन का पठार एक विशाल आंतरिक भूभाग है, न कि केवल एक संकरी तटीय पट्टी।" }
+      }
+    },
+    {
+      "key": "bank-social9-awareness-13",
+      "difficulty": "MEDIUM",
+      "content": { "en": "The Thar Desert lies mainly in which Indian state?", "hi": "थार रेगिस्तान मुख्य रूप से किस भारतीय राज्य में स्थित है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Rajasthan", "hi": "राजस्थान" } },
+        { "id": "b", "text": { "en": "Gujarat", "hi": "गुजरात" } },
+        { "id": "c", "text": { "en": "Haryana", "hi": "हरियाणा" } },
+        { "id": "d", "text": { "en": "Punjab", "hi": "पंजाब" } }
+      ],
+      "correctOption": "a",
+      "explanation": { "en": "The Thar Desert, also known as the Great Indian Desert, lies mainly in the state of Rajasthan.", "hi": "थार रेगिस्तान, जिसे महान भारतीय रेगिस्तान भी कहा जाता है, मुख्य रूप से राजस्थान राज्य में स्थित है।" },
+      "distractorAnalysis": {
+        "b": { "en": "Gujarat has the arid Kutch region, but the main extent of the Thar Desert lies in Rajasthan.", "hi": "गुजरात में शुष्क कच्छ क्षेत्र है, लेकिन थार रेगिस्तान का मुख्य विस्तार राजस्थान में है।" },
+        "c": { "en": "Haryana lies further east and does not have the main desert terrain of the Thar.", "hi": "हरियाणा और अधिक पूर्व में स्थित है और वहां थार का मुख्य रेगिस्तानी भूभाग नहीं है।" },
+        "d": { "en": "Punjab is an agriculturally fertile plain region, not the desert region referred to here.", "hi": "पंजाब एक कृषि की दृष्टि से उपजाऊ मैदानी क्षेत्र है, यहां संदर्भित रेगिस्तानी क्षेत्र नहीं।" }
+      }
+    },
+    {
+      "key": "bank-social9-awareness-14",
+      "difficulty": "MEDIUM",
+      "content": { "en": "In which year was the Indian National Congress founded?", "hi": "भारतीय राष्ट्रीय कांग्रेस की स्थापना किस वर्ष हुई थी?" },
+      "options": [
+        { "id": "a", "text": { "en": "1857", "hi": "1857" } },
+        { "id": "b", "text": { "en": "1885", "hi": "1885" } },
+        { "id": "c", "text": { "en": "1905", "hi": "1905" } },
+        { "id": "d", "text": { "en": "1920", "hi": "1920" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "The Indian National Congress was founded in 1885, becoming one of the earliest and most prominent platforms for organized nationalist activity.", "hi": "भारतीय राष्ट्रीय कांग्रेस की स्थापना 1885 में हुई थी, जो संगठित राष्ट्रवादी गतिविधि के लिए सबसे पुराने और प्रमुख मंचों में से एक बनी।" },
+      "distractorAnalysis": {
+        "a": { "en": "1857 is the year of the major uprising against British rule, well before the founding of the Congress.", "hi": "1857 ब्रिटिश शासन के खिलाफ बड़े विद्रोह का वर्ष है, जो कांग्रेस की स्थापना से काफी पहले का है।" },
+        "c": { "en": "1905 is the year of the Partition of Bengal, a separate later event.", "hi": "1905 बंगाल के विभाजन का वर्ष है, जो एक अलग और बाद की घटना है।" },
+        "d": { "en": "1920 is when Gandhi launched the Non-Cooperation Movement, decades after the Congress was founded.", "hi": "1920 में गांधी ने असहयोग आंदोलन शुरू किया था, जो कांग्रेस की स्थापना के दशकों बाद की बात है।" }
+      }
+    },
+    {
+      "key": "bank-social9-awareness-15",
+      "difficulty": "MEDIUM",
+      "content": { "en": "In which year was the Battle of Plassey fought?", "hi": "प्लासी का युद्ध किस वर्ष लड़ा गया था?" },
+      "options": [
+        { "id": "a", "text": { "en": "1764", "hi": "1764" } },
+        { "id": "b", "text": { "en": "1857", "hi": "1857" } },
+        { "id": "c", "text": { "en": "1757", "hi": "1757" } },
+        { "id": "d", "text": { "en": "1526", "hi": "1526" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "The Battle of Plassey, fought in 1757, marked the East India Company's decisive victory that began its political control over Bengal.", "hi": "प्लासी का युद्ध 1757 में लड़ा गया था, जिसमें ईस्ट इंडिया कंपनी की निर्णायक जीत हुई और बंगाल पर उसके राजनीतिक नियंत्रण की शुरुआत हुई।" },
+      "distractorAnalysis": {
+        "a": { "en": "1764 is the year of the Battle of Buxar, a later related event that further strengthened Company control.", "hi": "1764 बक्सर के युद्ध का वर्ष है, जो एक बाद की संबंधित घटना है जिसने कंपनी के नियंत्रण को और मजबूत किया।" },
+        "b": { "en": "1857 is the year of the major uprising, exactly a century after Plassey, so the two dates are often confused.", "hi": "1857 बड़े विद्रोह का वर्ष है, जो प्लासी के ठीक सौ वर्ष बाद है, इसलिए इन दोनों तिथियों में अक्सर भ्रम होता है।" },
+        "d": { "en": "1526 is the year of the First Battle of Panipat, from an entirely different historical period marking the start of the Mughal era.", "hi": "1526 पानीपत के प्रथम युद्ध का वर्ष है, जो एक पूरी तरह अलग ऐतिहासिक काल का है और मुगल युग की शुरुआत का प्रतीक है।" }
+      }
+    },
+    {
+      "key": "bank-social9-awareness-16",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Who chaired the Drafting Committee of the Constituent Assembly responsible for drafting the Constitution of India?", "hi": "भारत के संविधान का प्रारूप तैयार करने के लिए जिम्मेदार संविधान सभा की प्रारूप समिति की अध्यक्षता किसने की थी?" },
+      "options": [
+        { "id": "a", "text": { "en": "Jawaharlal Nehru", "hi": "जवाहरलाल नेहरू" } },
+        { "id": "b", "text": { "en": "Rajendra Prasad", "hi": "राजेंद्र प्रसाद" } },
+        { "id": "c", "text": { "en": "Sardar Patel", "hi": "सरदार पटेल" } },
+        { "id": "d", "text": { "en": "Dr. B.R. Ambedkar", "hi": "डॉ. बी.आर. अंबेडकर" } }
+      ],
+      "correctOption": "d",
+      "explanation": { "en": "Dr. B.R. Ambedkar chaired the Drafting Committee of the Constituent Assembly responsible for drafting the Constitution of India.", "hi": "डॉ. बी.आर. अंबेडकर ने संविधान सभा की प्रारूप समिति की अध्यक्षता की, जो भारत के संविधान का प्रारूप तैयार करने के लिए जिम्मेदार थी।" },
+      "distractorAnalysis": {
+        "a": { "en": "Nehru was the first Prime Minister and an important Constituent Assembly member, but he did not chair the Drafting Committee.", "hi": "नेहरू पहले प्रधानमंत्री और संविधान सभा के एक महत्वपूर्ण सदस्य थे, परंतु उन्होंने प्रारूप समिति की अध्यक्षता नहीं की।" },
+        "b": { "en": "Rajendra Prasad was the President of the Constituent Assembly overall, a different role from chairing the Drafting Committee.", "hi": "राजेंद्र प्रसाद समग्र रूप से संविधान सभा के अध्यक्ष थे, जो प्रारूप समिति की अध्यक्षता से अलग भूमिका है।" },
+        "c": { "en": "Patel played a major role in integrating the princely states but did not chair the Drafting Committee.", "hi": "पटेल ने रियासतों के एकीकरण में महत्वपूर्ण भूमिका निभाई, परंतु उन्होंने प्रारूप समिति की अध्यक्षता नहीं की।" }
+      }
+    },
+    {
+      "key": "bank-social9-awareness-17",
+      "difficulty": "MEDIUM",
+      "content": { "en": "The Fundamental Duties were added to the Indian Constitution by which constitutional amendment?", "hi": "मौलिक कर्तव्यों को भारतीय संविधान में किस संवैधानिक संशोधन द्वारा जोड़ा गया था?" },
+      "options": [
+        { "id": "a", "text": { "en": "42nd Amendment", "hi": "42वां संशोधन" } },
+        { "id": "b", "text": { "en": "44th Amendment", "hi": "44वां संशोधन" } },
+        { "id": "c", "text": { "en": "61st Amendment", "hi": "61वां संशोधन" } },
+        { "id": "d", "text": { "en": "73rd Amendment", "hi": "73वां संशोधन" } }
+      ],
+      "correctOption": "a",
+      "explanation": { "en": "The Fundamental Duties were added to the Constitution through the 42nd Amendment Act of 1976.", "hi": "मौलिक कर्तव्यों को 1976 के 42वें संशोधन अधिनियम के माध्यम से संविधान में जोड़ा गया था।" },
+      "distractorAnalysis": {
+        "b": { "en": "The 44th Amendment (1978) is known mainly for restoring certain safeguards after the Emergency period, not for adding duties.", "hi": "44वां संशोधन (1978) मुख्यतः आपातकाल के बाद कुछ सुरक्षा उपायों को बहाल करने के लिए जाना जाता है, कर्तव्य जोड़ने के लिए नहीं।" },
+        "c": { "en": "The 61st Amendment (1988) lowered the voting age to 18, an unrelated change.", "hi": "61वां संशोधन (1988) मतदान की आयु घटाकर 18 वर्ष करने से संबंधित है, जो इससे असंबंधित परिवर्तन है।" },
+        "d": { "en": "The 73rd Amendment (1992) relates to Panchayati Raj institutions, not the Fundamental Duties.", "hi": "73वां संशोधन (1992) पंचायती राज संस्थाओं से संबंधित है, मौलिक कर्तव्यों से नहीं।" }
+      }
+    },
+    {
+      "key": "bank-social9-awareness-18",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Who heads the Supreme Court and, by convention, the Indian judiciary?", "hi": "सर्वोच्च न्यायालय का प्रमुख और परंपरागत रूप से भारतीय न्यायपालिका का प्रमुख कौन होता है?" },
+      "options": [
+        { "id": "a", "text": { "en": "President of India", "hi": "भारत के राष्ट्रपति" } },
+        { "id": "b", "text": { "en": "Chief Justice of India", "hi": "भारत के मुख्य न्यायाधीश" } },
+        { "id": "c", "text": { "en": "Attorney General of India", "hi": "भारत के महान्यायवादी (अटॉर्नी जनरल)" } },
+        { "id": "d", "text": { "en": "Speaker of the Lok Sabha", "hi": "लोकसभा अध्यक्ष" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "The Chief Justice of India heads the Supreme Court and, by convention, the Indian judiciary.", "hi": "भारत के मुख्य न्यायाधीश सर्वोच्च न्यायालय के प्रमुख होते हैं और परंपरागत रूप से भारतीय न्यायपालिका के प्रमुख माने जाते हैं।" },
+      "distractorAnalysis": {
+        "a": { "en": "The President is the head of state generally, but is not the head of the judiciary as an institution.", "hi": "राष्ट्रपति सामान्यतः राष्ट्र के प्रमुख होते हैं, परंतु वे न्यायपालिका के संस्थागत प्रमुख नहीं होते।" },
+        "c": { "en": "The Attorney General is the government's chief legal advisor, not the head of the judiciary.", "hi": "महान्यायवादी सरकार के मुख्य कानूनी सलाहकार होते हैं, न्यायपालिका के प्रमुख नहीं।" },
+        "d": { "en": "The Speaker presides over the Lok Sabha, which is part of the legislature, not the judiciary.", "hi": "लोकसभा अध्यक्ष लोकसभा की अध्यक्षता करते हैं, जो विधायिका का हिस्सा है, न्यायपालिका का नहीं।" }
+      }
+    },
+    {
+      "key": "bank-social9-awareness-19",
+      "difficulty": "MEDIUM",
+      "content": { "en": "What is the minimum age required to contest election as a member of the Lok Sabha?", "hi": "लोकसभा के सदस्य के रूप में चुनाव लड़ने के लिए न्यूनतम आयु क्या होनी चाहिए?" },
+      "options": [
+        { "id": "a", "text": { "en": "18 years", "hi": "18 वर्ष" } },
+        { "id": "b", "text": { "en": "21 years", "hi": "21 वर्ष" } },
+        { "id": "c", "text": { "en": "25 years", "hi": "25 वर्ष" } },
+        { "id": "d", "text": { "en": "30 years", "hi": "30 वर्ष" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "A person must be at least 25 years old to be eligible to contest election as a member of the Lok Sabha.", "hi": "लोकसभा के सदस्य के रूप में चुनाव लड़ने के लिए किसी व्यक्ति की आयु कम से कम 25 वर्ष होनी चाहिए।" },
+      "distractorAnalysis": {
+        "a": { "en": "18 is the minimum voting age, not the age required to contest for Lok Sabha membership.", "hi": "18 वर्ष मतदान की न्यूनतम आयु है, लोकसभा सदस्यता के लिए चुनाव लड़ने की आयु नहीं।" },
+        "b": { "en": "21 is sometimes confused with eligibility ages for other posts, but it is not the threshold for the Lok Sabha.", "hi": "21 वर्ष को कभी-कभी अन्य पदों की पात्रता आयु समझ लिया जाता है, परंतु यह लोकसभा के लिए निर्धारित आयु नहीं है।" },
+        "d": { "en": "30 is the minimum age required to contest for the Rajya Sabha, not the Lok Sabha.", "hi": "30 वर्ष राज्यसभा के लिए चुनाव लड़ने की न्यूनतम आयु है, लोकसभा के लिए नहीं।" }
+      }
+    },
+    {
+      "key": "bank-social9-awareness-20",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Which sector of the economy includes activities that directly use natural resources, such as agriculture, fishing and mining?", "hi": "अर्थव्यवस्था का कौन सा क्षेत्र उन गतिविधियों को शामिल करता है जो सीधे प्राकृतिक संसाधनों का उपयोग करती हैं, जैसे कृषि, मत्स्य पालन और खनन?" },
+      "options": [
+        { "id": "a", "text": { "en": "Secondary sector", "hi": "द्वितीयक क्षेत्र" } },
+        { "id": "b", "text": { "en": "Tertiary sector", "hi": "तृतीयक क्षेत्र" } },
+        { "id": "c", "text": { "en": "Quaternary sector", "hi": "चतुर्थ क्षेत्र" } },
+        { "id": "d", "text": { "en": "Primary sector", "hi": "प्राथमिक क्षेत्र" } }
+      ],
+      "correctOption": "d",
+      "explanation": { "en": "The primary sector includes activities that directly use natural resources, such as agriculture, fishing and mining.", "hi": "प्राथमिक क्षेत्र में वे गतिविधियां शामिल हैं जो सीधे प्राकृतिक संसाधनों का उपयोग करती हैं, जैसे कृषि, मत्स्य पालन और खनन।" },
+      "distractorAnalysis": {
+        "a": { "en": "The secondary sector involves manufacturing and processing raw materials into finished goods, not directly extracting them.", "hi": "द्वितीयक क्षेत्र में कच्चे माल को तैयार वस्तुओं में बदलने का विनिर्माण और प्रसंस्करण शामिल है, न कि सीधे उनका निष्कर्षण।" },
+        "b": { "en": "The tertiary sector covers services like banking, transport and trade, not resource extraction.", "hi": "तृतीयक क्षेत्र में बैंकिंग, परिवहन और व्यापार जैसी सेवाएं शामिल हैं, संसाधन निष्कर्षण नहीं।" },
+        "c": { "en": "The quaternary sector refers to knowledge-based services like research, a further different category from resource extraction.", "hi": "चतुर्थ क्षेत्र अनुसंधान जैसी ज्ञान-आधारित सेवाओं को संदर्भित करता है, जो संसाधन निष्कर्षण से बिल्कुल अलग श्रेणी है।" }
+      }
+    },
+    {
+      "key": "bank-social9-awareness-21",
+      "difficulty": "MEDIUM",
+      "content": { "en": "What does a 'barter system' of trade mean?", "hi": "व्यापार की 'वस्तु-विनिमय प्रणाली' का क्या अर्थ है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Exchange of goods for goods without the use of money", "hi": "बिना धन के प्रयोग के वस्तुओं का वस्तुओं से आदान-प्रदान" } },
+        { "id": "b", "text": { "en": "Buying goods using credit cards", "hi": "क्रेडिट कार्ड का उपयोग करके वस्तुएं खरीदना" } },
+        { "id": "c", "text": { "en": "Trading only agricultural goods", "hi": "केवल कृषि वस्तुओं का व्यापार" } },
+        { "id": "d", "text": { "en": "Government-controlled trade of goods", "hi": "वस्तुओं का सरकार-नियंत्रित व्यापार" } }
+      ],
+      "correctOption": "a",
+      "explanation": { "en": "A barter system is a method of trade in which goods or services are exchanged directly for other goods or services, without the use of money.", "hi": "वस्तु-विनिमय प्रणाली व्यापार की वह पद्धति है जिसमें वस्तुओं या सेवाओं का सीधे अन्य वस्तुओं या सेवाओं से आदान-प्रदान किया जाता है, बिना धन के प्रयोग के।" },
+      "distractorAnalysis": {
+        "b": { "en": "Using credit cards involves an electronic, money-based payment system, which is the opposite of barter.", "hi": "क्रेडिट कार्ड का उपयोग एक इलेक्ट्रॉनिक, धन-आधारित भुगतान प्रणाली है, जो वस्तु-विनिमय के बिल्कुल विपरीत है।" },
+        "c": { "en": "Barter is not restricted to agricultural goods; it can involve the exchange of any type of good or service.", "hi": "वस्तु-विनिमय केवल कृषि वस्तुओं तक सीमित नहीं है; इसमें किसी भी प्रकार की वस्तु या सेवा का आदान-प्रदान हो सकता है।" },
+        "d": { "en": "Barter is not necessarily government-controlled; it can be a purely private arrangement between individuals.", "hi": "वस्तु-विनिमय आवश्यक रूप से सरकार-नियंत्रित नहीं होता; यह व्यक्तियों के बीच पूरी तरह निजी व्यवस्था भी हो सकती है।" }
+      }
+    },
+    {
+      "key": "bank-social9-awareness-22",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Which Indian state is the largest by geographical area?", "hi": "क्षेत्रफल की दृष्टि से भारत का सबसे बड़ा राज्य कौन सा है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Madhya Pradesh", "hi": "मध्य प्रदेश" } },
+        { "id": "b", "text": { "en": "Rajasthan", "hi": "राजस्थान" } },
+        { "id": "c", "text": { "en": "Maharashtra", "hi": "महाराष्ट्र" } },
+        { "id": "d", "text": { "en": "Uttar Pradesh", "hi": "उत्तर प्रदेश" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "Rajasthan is the largest Indian state by geographical area.", "hi": "राजस्थान क्षेत्रफल की दृष्टि से भारत का सबसे बड़ा राज्य है।" },
+      "distractorAnalysis": {
+        "a": { "en": "Madhya Pradesh is the second-largest state by area and is often confused with the largest one.", "hi": "मध्य प्रदेश क्षेत्रफल की दृष्टि से दूसरा सबसे बड़ा राज्य है और इसे अक्सर सबसे बड़े राज्य के रूप में भ्रमित कर दिया जाता है।" },
+        "c": { "en": "Maharashtra is a large state, but it ranks well behind Rajasthan and Madhya Pradesh in geographical area.", "hi": "महाराष्ट्र एक बड़ा राज्य है, लेकिन क्षेत्रफल के मामले में यह राजस्थान और मध्य प्रदेश से काफी पीछे है।" },
+        "d": { "en": "Uttar Pradesh is the most populous state, which leads to confusion between 'largest by population' and 'largest by area'.", "hi": "उत्तर प्रदेश सबसे अधिक जनसंख्या वाला राज्य है, जिससे 'जनसंख्या में सबसे बड़ा' और 'क्षेत्रफल में सबसे बड़ा' के बीच भ्रम पैदा होता है।" }
+      }
+    },
+    {
+      "key": "bank-social9-awareness-23",
+      "difficulty": "MEDIUM",
+      "content": { "en": "On which date did the Constituent Assembly formally adopt the Constitution of India?", "hi": "संविधान सभा ने भारत के संविधान को औपचारिक रूप से किस तिथि को अपनाया था?" },
+      "options": [
+        { "id": "a", "text": { "en": "15 August 1947", "hi": "15 अगस्त 1947" } },
+        { "id": "b", "text": { "en": "26 January 1950", "hi": "26 जनवरी 1950" } },
+        { "id": "c", "text": { "en": "26 November 1949", "hi": "26 नवंबर 1949" } },
+        { "id": "d", "text": { "en": "2 October 1948", "hi": "2 अक्टूबर 1948" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "The Constituent Assembly formally adopted the Constitution of India on 26 November 1949, a date now observed as Constitution Day.", "hi": "संविधान सभा ने भारत के संविधान को औपचारिक रूप से 26 नवंबर 1949 को अपनाया था, जिसे अब संविधान दिवस के रूप में मनाया जाता है।" },
+      "distractorAnalysis": {
+        "a": { "en": "15 August 1947 is India's Independence Day, a different milestone from the Constitution's adoption.", "hi": "15 अगस्त 1947 भारत का स्वतंत्रता दिवस है, जो संविधान अपनाए जाने से अलग पड़ाव है।" },
+        "b": { "en": "26 January 1950 is when the Constitution actually came into force, which is often confused with the earlier adoption date.", "hi": "26 जनवरी 1950 वह तिथि है जब संविधान वास्तव में लागू हुआ था, जिसे अक्सर उससे पहले की अपनाने की तिथि से भ्रमित कर दिया जाता है।" },
+        "d": { "en": "2 October is Gandhi Jayanti, associated with Gandhi's birth anniversary, and is not linked to the Constitution's adoption.", "hi": "2 अक्टूबर गांधी जयंती है, जो गांधीजी की जयंती से जुड़ी है, और इसका संविधान अपनाए जाने से कोई संबंध नहीं है।" }
+      }
+    },
+    {
+      "key": "bank-social9-awareness-24",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Who led the Dandi (Salt) March in 1930 to protest the British salt tax?", "hi": "1930 में ब्रिटिश नमक कर के विरोध में दांडी (नमक) यात्रा का नेतृत्व किसने किया था?" },
+      "options": [
+        { "id": "a", "text": { "en": "Jawaharlal Nehru, in 1930", "hi": "जवाहरलाल नेहरू, 1930 में" } },
+        { "id": "b", "text": { "en": "Mahatma Gandhi, in 1942", "hi": "महात्मा गांधी, 1942 में" } },
+        { "id": "c", "text": { "en": "Sardar Patel, in 1930", "hi": "सरदार पटेल, 1930 में" } },
+        { "id": "d", "text": { "en": "Mahatma Gandhi, in 1930", "hi": "महात्मा गांधी, 1930 में" } }
+      ],
+      "correctOption": "d",
+      "explanation": { "en": "Mahatma Gandhi led the Dandi (Salt) March in 1930 to protest the British salt tax as part of the civil disobedience movement.", "hi": "महात्मा गांधी ने सविनय अवज्ञा आंदोलन के भाग के रूप में ब्रिटिश नमक कर के विरोध में 1930 में दांडी (नमक) यात्रा का नेतृत्व किया था।" },
+      "distractorAnalysis": {
+        "a": { "en": "Nehru was a prominent leader of that era but did not lead the Dandi March itself.", "hi": "नेहरू उस युग के एक प्रमुख नेता थे, परंतु उन्होंने दांडी यात्रा का नेतृत्व नहीं किया था।" },
+        "b": { "en": "1942 is the year of the later Quit India Movement, a different campaign from the 1930 Dandi March.", "hi": "1942 बाद के भारत छोड़ो आंदोलन का वर्ष है, जो 1930 की दांडी यात्रा से अलग अभियान था।" },
+        "c": { "en": "Patel was a major organizer within the Congress but is not credited with leading the Dandi March.", "hi": "पटेल कांग्रेस के भीतर एक प्रमुख आयोजक थे, परंतु दांडी यात्रा का नेतृत्व करने का श्रेय उन्हें नहीं दिया जाता।" }
+      }
+    },
+    {
+      "key": "bank-social9-awareness-25",
+      "difficulty": "MEDIUM",
+      "content": { "en": "Which mountain range forms a natural boundary along much of India's northern frontier, including areas bordering China?", "hi": "कौन सी पर्वत श्रृंखला भारत की उत्तरी सीमा के अधिकांश भाग के साथ, जिसमें चीन से लगती सीमा भी शामिल है, एक प्राकृतिक सीमा बनाती है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Himalayas", "hi": "हिमालय" } },
+        { "id": "b", "text": { "en": "Vindhya Range", "hi": "विंध्य पर्वत श्रृंखला" } },
+        { "id": "c", "text": { "en": "Western Ghats", "hi": "पश्चिमी घाट" } },
+        { "id": "d", "text": { "en": "Aravalli Range", "hi": "अरावली पर्वत श्रृंखला" } }
+      ],
+      "correctOption": "a",
+      "explanation": { "en": "The Himalayan mountain range forms a natural boundary along much of India's northern frontier, including areas bordering China.", "hi": "हिमालय पर्वत श्रृंखला भारत की उत्तरी सीमा के अधिकांश भाग के साथ, जिसमें चीन से लगती सीमा भी शामिल है, एक प्राकृतिक सीमा बनाती है।" },
+      "distractorAnalysis": {
+        "b": { "en": "The Vindhya Range lies in central India and divides north and south India, unrelated to the China border.", "hi": "विंध्य पर्वत श्रृंखला मध्य भारत में स्थित है और उत्तर तथा दक्षिण भारत को विभाजित करती है, इसका चीन सीमा से कोई संबंध नहीं है।" },
+        "c": { "en": "The Western Ghats run along India's western coast, far from the northern frontier.", "hi": "पश्चिमी घाट भारत के पश्चिमी तट के साथ-साथ चलते हैं, जो उत्तरी सीमा से काफी दूर है।" },
+        "d": { "en": "The Aravalli Range is in north-western India, not along the China border.", "hi": "अरावली पर्वत श्रृंखला उत्तर-पश्चिम भारत में है, चीन सीमा के साथ नहीं।" }
+      }
+    },
+    {
+      "key": "bank-social9-awareness-26",
+      "difficulty": "HARD",
+      "content": { "en": "In which landmark case did the Supreme Court of India propound the 'basic structure' doctrine of the Constitution?", "hi": "किस ऐतिहासिक मामले में भारत के सर्वोच्च न्यायालय ने संविधान के 'आधारभूत ढांचे' के सिद्धांत का प्रतिपादन किया था?" },
+      "options": [
+        { "id": "a", "text": { "en": "Golaknath case", "hi": "गोलकनाथ मामला" } },
+        { "id": "b", "text": { "en": "Kesavananda Bharati case", "hi": "केशवानंद भारती मामला" } },
+        { "id": "c", "text": { "en": "Minerva Mills case", "hi": "मिनर्वा मिल्स मामला" } },
+        { "id": "d", "text": { "en": "Shah Bano case", "hi": "शाह बानो मामला" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "The Kesavananda Bharati case (1973) is the landmark Supreme Court judgment in which the 'basic structure' doctrine of the Constitution was propounded.", "hi": "केशवानंद भारती मामला (1973) वह ऐतिहासिक सर्वोच्च न्यायालय का निर्णय है जिसमें संविधान के 'आधारभूत ढांचे' के सिद्धांत का प्रतिपादन किया गया था।" },
+      "distractorAnalysis": {
+        "a": { "en": "The Golaknath case (1967) held that Parliament could not amend Fundamental Rights, an earlier related ruling that preceded the basic structure doctrine.", "hi": "गोलकनाथ मामला (1967) में यह माना गया था कि संसद मौलिक अधिकारों में संशोधन नहीं कर सकती, जो आधारभूत ढांचे के सिद्धांत से पहले का एक संबंधित निर्णय था।" },
+        "c": { "en": "The Minerva Mills case (1980) reaffirmed and applied the basic structure doctrine but did not originate it.", "hi": "मिनर्वा मिल्स मामला (1980) में आधारभूत ढांचे के सिद्धांत की पुनः पुष्टि की गई और उसे लागू किया गया, परंतु इसकी उत्पत्ति इसमें नहीं हुई थी।" },
+        "d": { "en": "The Shah Bano case concerned a different area of law (maintenance rights) and is unrelated to the basic structure doctrine.", "hi": "शाह बानो मामला कानून के एक अलग क्षेत्र (भरण-पोषण के अधिकार) से संबंधित था और आधारभूत ढांचे के सिद्धांत से इसका कोई संबंध नहीं है।" }
+      }
+    },
+    {
+      "key": "bank-social9-awareness-27",
+      "difficulty": "HARD",
+      "content": { "en": "Which Article of the Indian Constitution abolishes untouchability?", "hi": "भारतीय संविधान का कौन सा अनुच्छेद अस्पृश्यता को समाप्त करता है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Article 14", "hi": "अनुच्छेद 14" } },
+        { "id": "b", "text": { "en": "Article 15", "hi": "अनुच्छेद 15" } },
+        { "id": "c", "text": { "en": "Article 17", "hi": "अनुच्छेद 17" } },
+        { "id": "d", "text": { "en": "Article 21", "hi": "अनुच्छेद 21" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "Article 17 of the Constitution abolishes untouchability and forbids its practice in any form.", "hi": "संविधान का अनुच्छेद 17 अस्पृश्यता को समाप्त करता है और इसके किसी भी रूप में आचरण को निषिद्ध करता है।" },
+      "distractorAnalysis": {
+        "a": { "en": "Article 14 guarantees equality before the law, a related but broader and distinct provision.", "hi": "अनुच्छेद 14 कानून के समक्ष समानता की गारंटी देता है, जो एक संबंधित परंतु व्यापक और भिन्न प्रावधान है।" },
+        "b": { "en": "Article 15 prohibits discrimination on grounds of religion, race, caste, sex or place of birth, a related but distinct right.", "hi": "अनुच्छेद 15 धर्म, नस्ल, जाति, लिंग या जन्म स्थान के आधार पर भेदभाव को निषिद्ध करता है, जो एक संबंधित परंतु भिन्न अधिकार है।" },
+        "d": { "en": "Article 21 protects the right to life and personal liberty, unrelated to the specific abolition of untouchability.", "hi": "अनुच्छेद 21 जीवन और व्यक्तिगत स्वतंत्रता के अधिकार की रक्षा करता है, जिसका अस्पृश्यता की समाप्ति से सीधा संबंध नहीं है।" }
+      }
+    },
+    {
+      "key": "bank-social9-awareness-28",
+      "difficulty": "HARD",
+      "content": { "en": "Which Schedule of the Indian Constitution contains provisions relating to disqualification of legislators on grounds of defection?", "hi": "भारतीय संविधान की कौन सी अनुसूची दल-बदल के आधार पर विधायकों की अयोग्यता से संबंधित प्रावधान रखती है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Ninth Schedule", "hi": "नौवीं अनुसूची" } },
+        { "id": "b", "text": { "en": "Eleventh Schedule", "hi": "ग्यारहवीं अनुसूची" } },
+        { "id": "c", "text": { "en": "Twelfth Schedule", "hi": "बारहवीं अनुसूची" } },
+        { "id": "d", "text": { "en": "Tenth Schedule", "hi": "दसवीं अनुसूची" } }
+      ],
+      "correctOption": "d",
+      "explanation": { "en": "The Tenth Schedule of the Constitution, added by the 52nd Amendment, contains provisions relating to disqualification of legislators on grounds of defection.", "hi": "संविधान की दसवीं अनुसूची, जिसे 52वें संशोधन द्वारा जोड़ा गया था, दल-बदल के आधार पर विधायकों की अयोग्यता से संबंधित प्रावधान रखती है।" },
+      "distractorAnalysis": {
+        "a": { "en": "The Ninth Schedule contains laws given protection from judicial review on certain grounds, unrelated to defection.", "hi": "नौवीं अनुसूची में उन कानूनों को शामिल किया गया है जिन्हें कुछ आधारों पर न्यायिक समीक्षा से संरक्षण प्राप्त है, इसका दल-बदल से कोई संबंध नहीं है।" },
+        "b": { "en": "The Eleventh Schedule lists subjects related to the powers of Panchayats, a different area of governance.", "hi": "ग्यारहवीं अनुसूची पंचायतों की शक्तियों से संबंधित विषयों को सूचीबद्ध करती है, जो शासन का एक अलग क्षेत्र है।" },
+        "c": { "en": "The Twelfth Schedule lists subjects related to the powers of Municipalities, a different area of governance.", "hi": "बारहवीं अनुसूची नगरपालिकाओं की शक्तियों से संबंधित विषयों को सूचीबद्ध करती है, जो शासन का एक अलग क्षेत्र है।" }
+      }
+    },
+    {
+      "key": "bank-social9-awareness-29",
+      "difficulty": "HARD",
+      "content": { "en": "Who served as the first Governor-General of independent India after 15 August 1947?", "hi": "15 अगस्त 1947 के बाद स्वतंत्र भारत के पहले गवर्नर-जनरल के रूप में किसने कार्य किया?" },
+      "options": [
+        { "id": "a", "text": { "en": "Lord Mountbatten", "hi": "लॉर्ड माउंटबेटन" } },
+        { "id": "b", "text": { "en": "Lord Curzon", "hi": "लॉर्ड कर्ज़न" } },
+        { "id": "c", "text": { "en": "C. Rajagopalachari", "hi": "सी. राजगोपालाचारी" } },
+        { "id": "d", "text": { "en": "Lord Wavell", "hi": "लॉर्ड वेवेल" } }
+      ],
+      "correctOption": "a",
+      "explanation": { "en": "Lord Mountbatten served as the first Governor-General of independent India after 15 August 1947.", "hi": "लॉर्ड माउंटबेटन ने 15 अगस्त 1947 के बाद स्वतंत्र भारत के पहले गवर्नर-जनरल के रूप में कार्य किया।" },
+      "distractorAnalysis": {
+        "b": { "en": "Lord Curzon was a Viceroy of India much earlier, in the early 1900s, well before independence.", "hi": "लॉर्ड कर्ज़न बहुत पहले, 1900 के दशक के आरंभ में, भारत के वायसराय थे, जो स्वतंत्रता से काफी पहले की बात है।" },
+        "c": { "en": "C. Rajagopalachari became the first and only Indian-born Governor-General, succeeding Mountbatten, not the first one after independence.", "hi": "सी. राजगोपालाचारी माउंटबेटन के बाद पहले और एकमात्र भारतीय मूल के गवर्नर-जनरल बने, न कि स्वतंत्रता के बाद के पहले गवर्नर-जनरल।" },
+        "d": { "en": "Lord Wavell was the Viceroy of India immediately preceding Mountbatten, before independence.", "hi": "लॉर्ड वेवेल माउंटबेटन से ठीक पहले भारत के वायसराय थे, जो स्वतंत्रता से पहले की बात है।" }
+      }
+    },
+    {
+      "key": "bank-social9-awareness-30",
+      "difficulty": "HARD",
+      "content": { "en": "Which leader organized and led the Indian National Army (INA), also known as the Azad Hind Fauj?", "hi": "किस नेता ने आज़ाद हिंद फौज (भारतीय राष्ट्रीय सेना) का संगठन और नेतृत्व किया था?" },
+      "options": [
+        { "id": "a", "text": { "en": "Bhagat Singh", "hi": "भगत सिंह" } },
+        { "id": "b", "text": { "en": "Subhas Chandra Bose", "hi": "सुभाष चंद्र बोस" } },
+        { "id": "c", "text": { "en": "Lala Lajpat Rai", "hi": "लाला लाजपत राय" } },
+        { "id": "d", "text": { "en": "Bal Gangadhar Tilak", "hi": "बाल गंगाधर तिलक" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "Subhas Chandra Bose organized and led the Indian National Army (INA), also known as the Azad Hind Fauj, to fight for India's independence.", "hi": "सुभाष चंद्र बोस ने भारत की स्वतंत्रता के लिए लड़ने हेतु आज़ाद हिंद फौज (भारतीय राष्ट्रीय सेना) का संगठन और नेतृत्व किया।" },
+      "distractorAnalysis": {
+        "a": { "en": "Bhagat Singh was a revolutionary associated with different organizations and actions, not the INA.", "hi": "भगत सिंह एक क्रांतिकारी थे जो अलग संगठनों और कार्यों से जुड़े थे, आईएनए से नहीं।" },
+        "c": { "en": "Lala Lajpat Rai was a prominent nationalist leader from an earlier generation, unconnected to the INA.", "hi": "लाला लाजपत राय एक पहली पीढ़ी के प्रमुख राष्ट्रवादी नेता थे, जिनका आईएनए से कोई संबंध नहीं था।" },
+        "d": { "en": "Bal Gangadhar Tilak was an early nationalist leader known for advocating self-rule, from an earlier period, unconnected to the INA.", "hi": "बाल गंगाधर तिलक स्वराज की वकालत के लिए जाने जाने वाले प्रारंभिक राष्ट्रवादी नेता थे, जो एक पहले के काल से जुड़े थे और आईएनए से असंबद्ध थे।" }
+      }
+    },
+    {
+      "key": "bank-social9-awareness-31",
+      "difficulty": "HARD",
+      "content": { "en": "Which river originates from the Amarkantak plateau in Madhya Pradesh and flows westward into the Arabian Sea?", "hi": "कौन सी नदी मध्य प्रदेश के अमरकंटक पठार से निकलती है और पश्चिम की ओर बहते हुए अरब सागर में गिरती है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Godavari", "hi": "गोदावरी" } },
+        { "id": "b", "text": { "en": "Krishna", "hi": "कृष्णा" } },
+        { "id": "c", "text": { "en": "Narmada", "hi": "नर्मदा" } },
+        { "id": "d", "text": { "en": "Tapi", "hi": "तापी" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "The Narmada river originates from the Amarkantak plateau in Madhya Pradesh and flows westward into the Arabian Sea.", "hi": "नर्मदा नदी मध्य प्रदेश के अमरकंटक पठार से निकलती है और पश्चिम की दिशा में बहते हुए अरब सागर में गिरती है।" },
+      "distractorAnalysis": {
+        "a": { "en": "The Godavari originates near Trimbak in Maharashtra, not at Amarkantak.", "hi": "गोदावरी महाराष्ट्र के त्र्यंबक के निकट से निकलती है, अमरकंटक से नहीं।" },
+        "b": { "en": "The Krishna originates near Mahabaleshwar in Maharashtra, a different source region from Amarkantak.", "hi": "कृष्णा महाराष्ट्र के महाबलेश्वर के निकट से निकलती है, जो अमरकंटक से भिन्न उद्गम क्षेत्र है।" },
+        "d": { "en": "The Tapi river originates in the Satpura Range, not at the Amarkantak plateau.", "hi": "तापी नदी सतपुड़ा पर्वत श्रृंखला से निकलती है, अमरकंटक पठार से नहीं।" }
+      }
+    },
+    {
+      "key": "bank-social9-awareness-32",
+      "difficulty": "HARD",
+      "content": { "en": "The Tropic of Cancer passes through how many Indian states?", "hi": "कर्क रेखा भारत के कितने राज्यों से होकर गुजरती है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Six states", "hi": "छह राज्यों" } },
+        { "id": "b", "text": { "en": "Seven states", "hi": "सात राज्यों" } },
+        { "id": "c", "text": { "en": "Nine states", "hi": "नौ राज्यों" } },
+        { "id": "d", "text": { "en": "Eight states", "hi": "आठ राज्यों" } }
+      ],
+      "correctOption": "d",
+      "explanation": { "en": "The Tropic of Cancer passes through eight Indian states, including Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram.", "hi": "कर्क रेखा भारत के आठ राज्यों से होकर गुजरती है, जिनमें गुजरात, राजस्थान, मध्य प्रदेश, छत्तीसगढ़, झारखंड, पश्चिम बंगाल, त्रिपुरा और मिजोरम शामिल हैं।" },
+      "distractorAnalysis": {
+        "a": { "en": "Six states undercounts the actual number of states the line passes through.", "hi": "छह राज्यों की संख्या वास्तविक संख्या से कम है जिनसे यह रेखा गुजरती है।" },
+        "b": { "en": "Seven states is close, but it misses one of the eight states the line actually crosses.", "hi": "सात राज्यों की संख्या करीब है, परंतु इसमें उन आठ राज्यों में से एक राज्य छूट जाता है जिनसे यह रेखा वास्तव में गुजरती है।" },
+        "c": { "en": "Nine states overcounts beyond the eight states the line actually crosses.", "hi": "नौ राज्यों की संख्या उन आठ राज्यों से अधिक है जिनसे यह रेखा वास्तव में गुजरती है।" }
+      }
+    },
+    {
+      "key": "bank-social9-awareness-33",
+      "difficulty": "HARD",
+      "content": { "en": "Which sector of the economy comprises services such as banking, transport, communication and trade?", "hi": "अर्थव्यवस्था का कौन सा क्षेत्र बैंकिंग, परिवहन, संचार और व्यापार जैसी सेवाओं से मिलकर बनता है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Tertiary sector", "hi": "तृतीयक क्षेत्र" } },
+        { "id": "b", "text": { "en": "Manufacturing (secondary) sector", "hi": "विनिर्माण (द्वितीयक) क्षेत्र" } },
+        { "id": "c", "text": { "en": "Primary sector", "hi": "प्राथमिक क्षेत्र" } },
+        { "id": "d", "text": { "en": "Agricultural sector", "hi": "कृषि क्षेत्र" } }
+      ],
+      "correctOption": "a",
+      "explanation": { "en": "The tertiary sector comprises services such as banking, transport, communication and trade.", "hi": "तृतीयक क्षेत्र में बैंकिंग, परिवहन, संचार और व्यापार जैसी सेवाएं शामिल होती हैं।" },
+      "distractorAnalysis": {
+        "b": { "en": "The manufacturing (secondary) sector processes raw materials into finished goods, not services.", "hi": "विनिर्माण (द्वितीयक) क्षेत्र कच्चे माल को तैयार वस्तुओं में परिवर्तित करता है, सेवाओं में नहीं।" },
+        "c": { "en": "The primary sector involves direct extraction of natural resources, not services.", "hi": "प्राथमिक क्षेत्र में प्राकृतिक संसाधनों का सीधा निष्कर्षण शामिल है, सेवाएं नहीं।" },
+        "d": { "en": "The agricultural sector is part of the primary sector, not the tertiary sector.", "hi": "कृषि क्षेत्र प्राथमिक क्षेत्र का हिस्सा है, तृतीयक क्षेत्र का नहीं।" }
+      }
+    },
+    {
+      "key": "bank-social9-awareness-34",
+      "difficulty": "HARD",
+      "content": { "en": "What term describes goods and services purchased from other countries and brought into one's own country?", "hi": "अन्य देशों से खरीदी गई और अपने देश में लाई गई वस्तुओं और सेवाओं को क्या कहा जाता है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Exports", "hi": "निर्यात" } },
+        { "id": "b", "text": { "en": "Imports", "hi": "आयात" } },
+        { "id": "c", "text": { "en": "Subsidies", "hi": "सब्सिडी" } },
+        { "id": "d", "text": { "en": "Tariffs", "hi": "शुल्क (टैरिफ)" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "Goods and services purchased from other countries and brought into one's own country are called imports.", "hi": "अन्य देशों से खरीदी गई और अपने देश में लाई गई वस्तुओं और सेवाओं को आयात कहा जाता है।" },
+      "distractorAnalysis": {
+        "a": { "en": "Exports refer to goods sent out to other countries, the opposite concept of bringing goods in.", "hi": "निर्यात का अर्थ अन्य देशों को भेजी गई वस्तुओं से है, जो वस्तुओं को अंदर लाने की विपरीत अवधारणा है।" },
+        "c": { "en": "Subsidies are financial support given by government to producers or consumers, unrelated to the direction of trade.", "hi": "सब्सिडी सरकार द्वारा उत्पादकों या उपभोक्ताओं को दी जाने वाली वित्तीय सहायता है, जिसका व्यापार की दिशा से कोई संबंध नहीं है।" },
+        "d": { "en": "Tariffs are taxes imposed on traded goods, not the term for the goods being brought in.", "hi": "शुल्क व्यापारित वस्तुओं पर लगाया गया कर है, न कि अंदर लाई जाने वाली वस्तुओं के लिए प्रयुक्त शब्द।" }
+      }
+    },
+    {
+      "key": "bank-social9-awareness-35",
+      "difficulty": "HARD",
+      "content": { "en": "Which Article of the Constitution provides the Right to Constitutional Remedies, allowing citizens to approach the Supreme Court directly for enforcement of Fundamental Rights?", "hi": "संविधान का कौन सा अनुच्छेद संवैधानिक उपचारों के अधिकार का प्रावधान करता है, जिससे नागरिक मौलिक अधिकारों को लागू करवाने के लिए सीधे सर्वोच्च न्यायालय जा सकते हैं?" },
+      "options": [
+        { "id": "a", "text": { "en": "Article 19", "hi": "अनुच्छेद 19" } },
+        { "id": "b", "text": { "en": "Article 21", "hi": "अनुच्छेद 21" } },
+        { "id": "c", "text": { "en": "Article 32", "hi": "अनुच्छेद 32" } },
+        { "id": "d", "text": { "en": "Article 25", "hi": "अनुच्छेद 25" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "Article 32 provides the Right to Constitutional Remedies, allowing citizens to approach the Supreme Court directly for enforcement of Fundamental Rights.", "hi": "अनुच्छेद 32 संवैधानिक उपचारों के अधिकार का प्रावधान करता है, जिससे नागरिक मौलिक अधिकारों को लागू करवाने के लिए सीधे सर्वोच्च न्यायालय जा सकते हैं।" },
+      "distractorAnalysis": {
+        "a": { "en": "Article 19 guarantees certain freedoms, such as speech and expression, a different fundamental right.", "hi": "अनुच्छेद 19 कुछ स्वतंत्रताओं की गारंटी देता है, जैसे भाषण और अभिव्यक्ति की स्वतंत्रता, जो एक अलग मौलिक अधिकार है।" },
+        "b": { "en": "Article 21 protects the right to life and personal liberty, a different fundamental right from constitutional remedies.", "hi": "अनुच्छेद 21 जीवन और व्यक्तिगत स्वतंत्रता के अधिकार की रक्षा करता है, जो संवैधानिक उपचारों से अलग मौलिक अधिकार है।" },
+        "d": { "en": "Article 25 guarantees freedom of religion, unrelated to constitutional remedies.", "hi": "अनुच्छेद 25 धर्म की स्वतंत्रता की गारंटी देता है, जिसका संवैधानिक उपचारों से कोई संबंध नहीं है।" }
+      }
+    },
+    {
+      "key": "bank-social9-awareness-36",
+      "difficulty": "HARD",
+      "content": { "en": "Who was the first President of India, holding office from 1950?", "hi": "1950 से पदभार संभालने वाले भारत के पहले राष्ट्रपति कौन थे?" },
+      "options": [
+        { "id": "a", "text": { "en": "Dr. S. Radhakrishnan", "hi": "डॉ. एस. राधाकृष्णन" } },
+        { "id": "b", "text": { "en": "Zakir Hussain", "hi": "ज़ाकिर हुसैन" } },
+        { "id": "c", "text": { "en": "Jawaharlal Nehru", "hi": "जवाहरलाल नेहरू" } },
+        { "id": "d", "text": { "en": "Dr. Rajendra Prasad", "hi": "डॉ. राजेंद्र प्रसाद" } }
+      ],
+      "correctOption": "d",
+      "explanation": { "en": "Dr. Rajendra Prasad served as the first President of India, holding office from 1950.", "hi": "डॉ. राजेंद्र प्रसाद ने 1950 से भारत के पहले राष्ट्रपति के रूप में पदभार संभाला।" },
+      "distractorAnalysis": {
+        "a": { "en": "Dr. S. Radhakrishnan was the second President of India, succeeding Rajendra Prasad.", "hi": "डॉ. एस. राधाकृष्णन राजेंद्र प्रसाद के बाद भारत के दूसरे राष्ट्रपति बने।" },
+        "b": { "en": "Zakir Hussain was a later President of India, not the first.", "hi": "ज़ाकिर हुसैन बाद में भारत के राष्ट्रपति बने, पहले नहीं।" },
+        "c": { "en": "Jawaharlal Nehru was independent India's first Prime Minister, a separate office from the President.", "hi": "जवाहरलाल नेहरू स्वतंत्र भारत के पहले प्रधानमंत्री थे, जो राष्ट्रपति पद से अलग पद है।" }
+      }
+    },
+    {
+      "key": "bank-social9-awareness-37",
+      "difficulty": "HARD",
+      "content": { "en": "Many structural and federal features of the Indian Constitution, such as the scheme of provincial autonomy, were drawn from which earlier legislation?", "hi": "भारतीय संविधान की कई संरचनात्मक और संघीय विशेषताएं, जैसे प्रांतीय स्वायत्तता की योजना, किस पहले के कानून से ली गई थीं?" },
+      "options": [
+        { "id": "a", "text": { "en": "Government of India Act, 1935", "hi": "भारत सरकार अधिनियम, 1935" } },
+        { "id": "b", "text": { "en": "Regulating Act, 1773", "hi": "रेगुलेटिंग एक्ट, 1773" } },
+        { "id": "c", "text": { "en": "Indian Councils Act, 1909", "hi": "भारतीय परिषद अधिनियम, 1909" } },
+        { "id": "d", "text": { "en": "Charter Act, 1833", "hi": "चार्टर एक्ट, 1833" } }
+      ],
+      "correctOption": "a",
+      "explanation": { "en": "Many structural and federal features of the Indian Constitution, such as the scheme of provincial autonomy and the federal framework, were drawn from the Government of India Act, 1935.", "hi": "भारतीय संविधान की कई संरचनात्मक और संघीय विशेषताएं, जैसे प्रांतीय स्वायत्तता की योजना और संघीय ढांचा, भारत सरकार अधिनियम, 1935 से ली गई थीं।" },
+      "distractorAnalysis": {
+        "b": { "en": "The Regulating Act of 1773 dealt with early East India Company administration, far earlier and unrelated to the federal framework.", "hi": "रेगुलेटिंग एक्ट 1773 ईस्ट इंडिया कंपनी के प्रारंभिक प्रशासन से संबंधित था, जो काफी पहले का और संघीय ढांचे से असंबद्ध था।" },
+        "c": { "en": "The Indian Councils Act of 1909 primarily expanded legislative councils with separate electorates, a different focus from the federal framework.", "hi": "भारतीय परिषद अधिनियम 1909 मुख्यतः पृथक निर्वाचक मंडलों के साथ विधान परिषदों का विस्तार करता था, जो संघीय ढांचे से अलग केंद्रबिंदु था।" },
+        "d": { "en": "The Charter Act of 1833 centralized legislative power under the Governor-General, an earlier and different kind of reform.", "hi": "चार्टर एक्ट 1833 ने विधायी शक्ति को गवर्नर-जनरल के अधीन केंद्रीकृत किया, जो एक पहले का और अलग प्रकार का सुधार था।" }
+      }
+    },
+    {
+      "key": "bank-social9-awareness-38",
+      "difficulty": "HARD",
+      "content": { "en": "Which Indian state has the longest coastline?", "hi": "किस भारतीय राज्य की तटरेखा सबसे लंबी है?" },
+      "options": [
+        { "id": "a", "text": { "en": "Tamil Nadu", "hi": "तमिलनाडु" } },
+        { "id": "b", "text": { "en": "Gujarat", "hi": "गुजरात" } },
+        { "id": "c", "text": { "en": "Andhra Pradesh", "hi": "आंध्र प्रदेश" } },
+        { "id": "d", "text": { "en": "Maharashtra", "hi": "महाराष्ट्र" } }
+      ],
+      "correctOption": "b",
+      "explanation": { "en": "Gujarat has the longest coastline among Indian states.", "hi": "भारतीय राज्यों में गुजरात की तटरेखा सबसे लंबी है।" },
+      "distractorAnalysis": {
+        "a": { "en": "Tamil Nadu has a long coastline, but it is shorter than Gujarat's.", "hi": "तमिलनाडु की तटरेखा लंबी है, परंतु यह गुजरात से छोटी है।" },
+        "c": { "en": "Andhra Pradesh has a significant coastline along the Bay of Bengal, but it is shorter than Gujarat's.", "hi": "आंध्र प्रदेश की बंगाल की खाड़ी के साथ महत्वपूर्ण तटरेखा है, परंतु यह गुजरात से छोटी है।" },
+        "d": { "en": "Maharashtra's coastline is shorter than Gujarat's, though both lie along the Arabian Sea.", "hi": "महाराष्ट्र की तटरेखा गुजरात से छोटी है, हालांकि दोनों अरब सागर के किनारे स्थित हैं।" }
+      }
+    },
+    {
+      "key": "bank-social9-awareness-39",
+      "difficulty": "HARD",
+      "content": { "en": "The words 'socialist', 'secular' and 'integrity' were added to the Preamble of the Constitution by which amendment?", "hi": "संविधान की प्रस्तावना में 'समाजवादी', 'पंथनिरपेक्ष' और 'अखंडता' शब्द किस संशोधन द्वारा जोड़े गए थे?" },
+      "options": [
+        { "id": "a", "text": { "en": "24th Amendment", "hi": "24वां संशोधन" } },
+        { "id": "b", "text": { "en": "61st Amendment", "hi": "61वां संशोधन" } },
+        { "id": "c", "text": { "en": "42nd Amendment", "hi": "42वां संशोधन" } },
+        { "id": "d", "text": { "en": "86th Amendment", "hi": "86वां संशोधन" } }
+      ],
+      "correctOption": "c",
+      "explanation": { "en": "The 42nd Amendment Act of 1976 added the words 'socialist', 'secular' and 'integrity' to the Preamble of the Constitution.", "hi": "1976 के 42वें संशोधन अधिनियम ने संविधान की प्रस्तावना में 'समाजवादी', 'पंथनिरपेक्ष' और 'अखंडता' शब्द जोड़े थे।" },
+      "distractorAnalysis": {
+        "a": { "en": "The 24th Amendment (1971) dealt with Parliament's power to amend Fundamental Rights, a different subject from the Preamble's wording.", "hi": "24वां संशोधन (1971) संसद की मौलिक अधिकारों में संशोधन करने की शक्ति से संबंधित था, जो प्रस्तावना के शब्दों से अलग विषय है।" },
+        "b": { "en": "The 61st Amendment (1988) reduced the voting age to 18, unrelated to the Preamble's wording.", "hi": "61वां संशोधन (1988) ने मतदान की आयु घटाकर 18 वर्ष की, जिसका प्रस्तावना के शब्दों से कोई संबंध नहीं है।" },
+        "d": { "en": "The 86th Amendment (2002) made education a Fundamental Right for children, a different change from the Preamble's wording.", "hi": "86वें संशोधन (2002) ने बच्चों के लिए शिक्षा को मौलिक अधिकार बनाया, जो प्रस्तावना के शब्दों से अलग परिवर्तन है।" }
+      }
+    },
+    {
+      "key": "bank-social9-awareness-40",
+      "difficulty": "HARD",
+      "content": { "en": "Resources that are created by humans using natural resources, such as buildings, machinery and roads, are called what?", "hi": "प्राकृतिक संसाधनों का उपयोग करके मनुष्यों द्वारा बनाए गए संसाधन, जैसे भवन, मशीनरी और सड़कें, क्या कहलाते हैं?" },
+      "options": [
+        { "id": "a", "text": { "en": "Natural resources", "hi": "प्राकृतिक संसाधन" } },
+        { "id": "b", "text": { "en": "Renewable resources", "hi": "नवीकरणीय संसाधन" } },
+        { "id": "c", "text": { "en": "Non-renewable resources", "hi": "अनवीकरणीय संसाधन" } },
+        { "id": "d", "text": { "en": "Human-made resources", "hi": "मानव-निर्मित संसाधन" } }
+      ],
+      "correctOption": "d",
+      "explanation": { "en": "Resources that are created by humans by transforming or utilizing natural resources, such as buildings, machinery and roads, are called human-made resources.", "hi": "प्राकृतिक संसाधनों को रूपांतरित या उपयोग करके मनुष्यों द्वारा बनाए गए संसाधन, जैसे भवन, मशीनरी और सड़कें, मानव-निर्मित संसाधन कहलाते हैं।" },
+      "distractorAnalysis": {
+        "a": { "en": "Natural resources are those found directly in nature, not created through human effort.", "hi": "प्राकृतिक संसाधन वे हैं जो सीधे प्रकृति में पाए जाते हैं, मानवीय प्रयास से नहीं बनाए जाते।" },
+        "b": { "en": "'Renewable' refers to a resource's ability to replenish over time, a different classification dimension unrelated to being human-made.", "hi": "'नवीकरणीय' किसी संसाधन के समय के साथ पुनः भरने की क्षमता को दर्शाता है, जो मानव-निर्मित होने से अलग वर्गीकरण आयाम है।" },
+        "c": { "en": "'Non-renewable' refers to resources that cannot be replenished once used up, also a different classification dimension from being human-made.", "hi": "'अनवीकरणीय' उन संसाधनों को दर्शाता है जो एक बार उपयोग हो जाने पर पुनः नहीं भरे जा सकते, यह भी मानव-निर्मित होने से अलग वर्गीकरण आयाम है।" }
+      }
+    }
+  ]
+}

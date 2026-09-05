@@ -10,6 +10,7 @@ export const SUPPORTED_LANGUAGES: { code: LanguageCode; label: string }[] = [
   { code: "mr", label: "मराठी (Marathi)" },
   { code: "bn", label: "বাংলা (Bengali)" },
   { code: "ta", label: "தமிழ் (Tamil)" },
+  { code: "gu", label: "ગુજરાતી (Gujarati)" },
 ];
 
 export interface LanguageStoreState {

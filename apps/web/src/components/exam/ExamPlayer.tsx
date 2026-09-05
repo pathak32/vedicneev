@@ -42,6 +42,7 @@ export function ExamPlayer({ session, practiceMode = true }: ExamPlayerProps) {
 
   const storeSession = useTestStore((s) => s.session);
   const initSession = useTestStore((s) => s.initSession);
+  const testStoreHasHydrated = useTestStore((s) => s.hasHydrated);
   const submitted = useTestStore((s) => s.submitted);
   const language = useTestStore((s) => s.language);
   const currentQuestion = useTestStore(selectCurrentQuestion);
@@ -52,10 +53,18 @@ export function ExamPlayer({ session, practiceMode = true }: ExamPlayerProps) {
 
   // Test attempts are strictly linked to an active student, and gated by
   // entitlement — don't start the session (or its timer) until both hold.
+  // Also wait for useTestStore's own sessionStorage rehydration first, and
+  // skip re-initializing when a matching, still-in-progress attempt was
+  // just restored — otherwise this would immediately overwrite a resumed
+  // session (answers, timers, everything) with a freshly reset one on
+  // every remount, defeating the point of persisting it.
   useEffect(() => {
-    if (!activeStudent || !access.allowed) return;
+    if (!activeStudent || !access.allowed || !testStoreHasHydrated) return;
+    const restored = useTestStore.getState();
+    const alreadyResuming = restored.session?.examId === session.examId && !restored.submitted;
+    if (alreadyResuming) return;
     initSession(session);
-  }, [session, initSession, activeStudent, access.allowed]);
+  }, [session, initSession, activeStudent, access.allowed, testStoreHasHydrated]);
 
   // A locked mock test opens the paywall instead of starting the exam.
   useEffect(() => {
@@ -122,7 +131,7 @@ export function ExamPlayer({ session, practiceMode = true }: ExamPlayerProps) {
     return count + currentQuestionIndex + 1;
   }, [storeSession, currentSectionIndex, currentQuestionIndex]);
 
-  if (!hasHydrated) return null;
+  if (!hasHydrated || !testStoreHasHydrated) return null;
 
   if (!isAuthenticated) {
     return (

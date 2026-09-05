@@ -23,9 +23,44 @@ interface SubmitRequestBody {
   responses?: SubmitResponseItem[];
 }
 
-export async function POST(req: Request) {
+/**
+ * Reads and parses the request body defensively. `req.json()` throws a bare
+ * "Unexpected end of JSON input" SyntaxError for an empty body — which
+ * happens in practice (a truncated/aborted fetch during navigation, a
+ * client bug, or the body having already been read by something upstream,
+ * e.g. middleware) — and previously reached the outer catch as an
+ * undifferentiated 500. Reading as text first lets an empty/whitespace-only
+ * body short-circuit before JSON.parse ever runs, and isolates a genuine
+ * malformed-JSON body to its own clear 400 instead of either case
+ * surfacing as a crash-shaped 500.
+ */
+async function readJsonBody(req: Request): Promise<{ ok: true; body: SubmitRequestBody } | { ok: false; error: string }> {
+  let raw: string;
   try {
-    const body = (await req.json()) as SubmitRequestBody;
+    raw = await req.text();
+  } catch {
+    return { ok: false, error: "Could not read the request body." };
+  }
+
+  if (!raw || raw.trim().length === 0) {
+    return { ok: false, error: "Request body is empty." };
+  }
+
+  try {
+    return { ok: true, body: JSON.parse(raw) as SubmitRequestBody };
+  } catch {
+    return { ok: false, error: "Request body is not valid JSON." };
+  }
+}
+
+export async function POST(req: Request) {
+  const parsed = await readJsonBody(req);
+  if (!parsed.ok) {
+    console.warn(`Exam submit: rejected request — ${parsed.error}`);
+    return NextResponse.json({ error: parsed.error }, { status: 400 });
+  }
+
+  try {
     const {
       phone,
       examTemplateSlug = "demo-jnvst",
@@ -34,7 +69,7 @@ export async function POST(req: Request) {
       percentile = 0,
       timeTakenSeconds = 0,
       responses = [],
-    } = body;
+    } = parsed.body;
 
     if (!phone) {
       return NextResponse.json({ error: "User phone required" }, { status: 400 });
@@ -73,76 +108,117 @@ export async function POST(req: Request) {
       },
     });
 
-    // 4. Load available seeded questions. The client's exam content (the
-    // in-memory demo/mock session — see apps/web/src/lib/exam/mock-data.ts)
-    // uses its own fixture ids (e.g. "q-ma-1"), which don't exist in the
-    // seeded `questions` table yet. TestResponse.questionId is a foreign key
-    // to Question, so writing one of those ids directly would violate the FK
-    // constraint (Prisma P2003) and 500 the whole request — which is exactly
-    // what was happening here: the previous code computed a
-    // `validQuestionId` fallback but never actually used it in the upsert
-    // below, so every response with an unrecognized id still hit the FK
-    // violation. Collapsing every unmatched question onto one fallback id
-    // isn't a real fix either — it makes multiple mistakes in the same
-    // session collide on the same [testSessionId, questionId] unique key,
-    // and then on MistakeVault.testResponseId's unique constraint the moment
-    // a second mistake tried to reuse the same (rewritten) TestResponse row.
-    // Until the client is wired to real DB-backed questions, the honest fix
-    // is to skip responses that don't reference a real question rather than
-    // fabricate a mapping that corrupts or crashes on the next one.
-    const dbQuestions = await prisma.question.findMany({ select: { id: true } });
+    // 4. Load available seeded questions. TestResponse.questionId and
+    // MistakeVault.questionId are both foreign keys to Question
+    // specifically — writing an id from anywhere else violates the FK
+    // constraint (Prisma P2003) and 500s the whole request. Two different
+    // ids show up here that aren't in Question:
+    //  - the client's in-memory demo/mock fixture (mock-data.ts) uses its
+    //    own ids (e.g. "q-ma-1"), which were never seeded anywhere;
+    //  - the real PYQ-bank live mock (jnvstMockService.ts) draws from
+    //    PreviousYearQuestion, a genuine seeded table, but a different one
+    //    from Question — same FK problem, different cause. Collapsing
+    //    every unmatched question onto one fallback id isn't a real fix
+    //    either — it makes multiple mistakes in the same session collide
+    //    on the same [testSessionId, questionId] unique key, and then on
+    //    MistakeVault.testResponseId's unique constraint the moment a
+    //    second mistake tried to reuse the same (rewritten) TestResponse
+    //    row. Until either the client is wired to real Question-table
+    //    content, or TestResponse/MistakeVault gain a second FK for the
+    //    PYQ bank, the honest fix is to skip both kinds — but distinguish
+    //    them, since "sourced from a real, known bank we just can't link
+    //    yet" and "not found anywhere" are different situations worth
+    //    telling apart in the response and the logs.
+    const [dbQuestions, pyqQuestions] = await Promise.all([
+      prisma.question.findMany({ select: { id: true } }),
+      prisma.previousYearQuestion.findMany({ select: { id: true } }),
+    ]);
     const dbQuestionIds = new Set(dbQuestions.map((q) => q.id));
-    const skippedQuestionIds: string[] = [];
+    const pyqQuestionIds = new Set(pyqQuestions.map((q) => q.id));
+    const skipped: { questionId: string; reason: string }[] = [];
+    const failed: { questionId: string; reason: string }[] = [];
 
     if (Array.isArray(responses) && responses.length > 0) {
       for (const item of responses) {
-        if (!item?.questionId || !dbQuestionIds.has(item.questionId)) {
-          skippedQuestionIds.push(item?.questionId ?? "<missing>");
+        // Defensive per-field defaults — `item` is untrusted client input,
+        // and a malformed entry (missing fields, wrong types) here should
+        // degrade that one response, not take down the rest of the batch.
+        const {
+          questionId,
+          selectedOption = null,
+          isCorrect = false,
+          timeSpentSeconds = 0,
+          mistakeTag = "CARELESS_RUSHED",
+        } = item ?? ({} as SubmitResponseItem);
+
+        if (!questionId) {
+          skipped.push({ questionId: "<missing>", reason: "Response had no questionId." });
+          continue;
+        }
+        if (!dbQuestionIds.has(questionId)) {
+          skipped.push(
+            pyqQuestionIds.has(questionId)
+              ? {
+                  questionId,
+                  reason:
+                    "Sourced from the PreviousYearQuestion bank — TestResponse/MistakeVault require a Question-table foreign key, which PYQ ids don't satisfy.",
+                }
+              : { questionId, reason: "Not found in either the Question or PreviousYearQuestion bank." }
+          );
           continue;
         }
 
-        const testResponse = await prisma.testResponse.upsert({
-          where: {
-            testSessionId_questionId: {
-              testSessionId: session.id,
-              questionId: item.questionId,
+        // Each response is written independently — a Prisma error on one
+        // (e.g. a P2003 from a question that got deleted between the lookup
+        // above and this write, or a P2002 from a genuinely concurrent
+        // duplicate) shouldn't abort responses that haven't been written
+        // yet, and shouldn't turn an otherwise-successful submission (the
+        // TestSession itself is already committed) into a full 500.
+        try {
+          const testResponse = await prisma.testResponse.upsert({
+            where: {
+              testSessionId_questionId: {
+                testSessionId: session.id,
+                questionId,
+              },
             },
-          },
-          update: {
-            selectedOption: item.selectedOption,
-            isCorrect: item.isCorrect,
-            timeSpentSeconds: item.timeSpentSeconds,
-          },
-          create: {
-            testSessionId: session.id,
-            questionId: item.questionId,
-            selectedOption: item.selectedOption,
-            isCorrect: item.isCorrect,
-            timeSpentSeconds: item.timeSpentSeconds,
-          },
-        });
-
-        if (!item.isCorrect) {
-          await prisma.mistakeVault.create({
-            data: {
-              userId: user.id,
-              questionId: item.questionId,
-              testResponseId: testResponse.id,
-              tagCategory: item.mistakeTag ?? "CARELESS_RUSHED",
-            },
+            update: { selectedOption, isCorrect, timeSpentSeconds },
+            create: { testSessionId: session.id, questionId, selectedOption, isCorrect, timeSpentSeconds },
           });
+
+          if (!isCorrect) {
+            await prisma.mistakeVault.create({
+              data: {
+                userId: user.id,
+                questionId,
+                testResponseId: testResponse.id,
+                tagCategory: mistakeTag,
+              },
+            });
+          }
+        } catch (itemError) {
+          const reason =
+            itemError instanceof Prisma.PrismaClientKnownRequestError
+              ? `Database error (${itemError.code}) writing this response.`
+              : "Unexpected error writing this response.";
+          console.error(`Exam submit: failed to save response for question ${questionId}:`, itemError);
+          failed.push({ questionId, reason });
         }
       }
     }
 
-    if (skippedQuestionIds.length > 0) {
+    if (skipped.length > 0) {
+      const pyqSkipped = skipped.filter((s) => s.reason.startsWith("Sourced from the PreviousYearQuestion")).length;
       console.warn(
-        `Exam submit: skipped ${skippedQuestionIds.length} response(s) with unrecognized questionId(s):`,
-        skippedQuestionIds
+        `Exam submit: skipped ${skipped.length} response(s) — ${pyqSkipped} from the PYQ bank (no Question-table FK), ${skipped.length - pyqSkipped} truly unrecognized:`,
+        skipped
       );
     }
+    if (failed.length > 0) {
+      console.warn(`Exam submit: ${failed.length} response(s) failed to save due to database errors:`, failed);
+    }
 
-    return NextResponse.json({ success: true, sessionId: session.id, skippedQuestionIds });
+    return NextResponse.json({ success: true, sessionId: session.id, skipped, failed });
   } catch (error) {
     console.error("Exam submit error:", error);
 
