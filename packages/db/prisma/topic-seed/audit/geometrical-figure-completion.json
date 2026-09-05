@@ -1,0 +1,2447 @@
+{
+  "section": "geometrical_figure_completion",
+  "topicKey": "geometrical_figure_completion",
+  "generatedAt": "2026-09-05T12:58:34.867Z",
+  "questions": [
+    {
+      "key": "bank-ma-geomcomplete-width-01",
+      "difficulty": "EASY",
+      "content": {
+        "en": "A piece is missing from the bottom edge of the triangle. Which option (A-D) is the exact piece that completes it?",
+        "hi": "त्रिभुज के निचले किनारे से एक टुकड़ा गायब है। कौन-सा विकल्प (A-D) इसे पूरा करने वाला सही टुकड़ा है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><polygon points=\"0,-28 -28,22 28,22\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3\"/><rect x=\"-6\" y=\"17\" width=\"12\" height=\"10\" fill=\"#f8fafc\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-6\" y=\"-5\" width=\"12\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-3\" y=\"-5\" width=\"6\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-9\" y=\"-5\" width=\"18\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-10\" y=\"-5\" width=\"20\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The missing gap is 12 units wide and 10 units deep — only the piece in option A matches both measurements exactly.",
+        "hi": "गायब गैप 12 इकाई चौड़ा और 10 इकाई गहरा है — केवल विकल्प A का टुकड़ा दोनों मापों से बिल्कुल मेल खाता है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "This piece is too narrow — it would leave part of the gap uncovered.",
+          "hi": "यह टुकड़ा बहुत संकरा है — यह गैप का एक हिस्सा खुला छोड़ देगा।"
+        },
+        "c": {
+          "en": "This piece is too wide — it would overlap past the edges of the gap.",
+          "hi": "यह टुकड़ा बहुत चौड़ा है — यह गैप के किनारों से आगे निकल जाएगा।"
+        },
+        "d": {
+          "en": "This piece's width doesn't match the gap at all, even though its height happens to be right.",
+          "hi": "इस टुकड़े की चौड़ाई गैप से बिल्कुल मेल नहीं खाती, भले ही इसकी ऊँचाई सही हो।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-geomcomplete-width-02",
+      "difficulty": "EASY",
+      "content": {
+        "en": "A piece is missing from the bottom edge of the square. Which option (A-D) is the exact piece that completes it?",
+        "hi": "वर्ग के निचले किनारे से एक टुकड़ा गायब है। कौन-सा विकल्प (A-D) इसे पूरा करने वाला सही टुकड़ा है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-22\" y=\"-22\" width=\"44\" height=\"44\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3\"/><rect x=\"-8\" y=\"17\" width=\"16\" height=\"10\" fill=\"#f8fafc\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-5\" y=\"-5\" width=\"10\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-8\" y=\"-5\" width=\"16\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-11\" y=\"-5\" width=\"22\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-3\" y=\"-5\" width=\"6\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The missing gap is 16 units wide and 10 units deep — only the piece in option B matches both measurements exactly.",
+        "hi": "गायब गैप 16 इकाई चौड़ा और 10 इकाई गहरा है — केवल विकल्प B का टुकड़ा दोनों मापों से बिल्कुल मेल खाता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This piece is too narrow — it would leave part of the gap uncovered.",
+          "hi": "यह टुकड़ा बहुत संकरा है — यह गैप का एक हिस्सा खुला छोड़ देगा।"
+        },
+        "c": {
+          "en": "This piece is too wide — it would overlap past the edges of the gap.",
+          "hi": "यह टुकड़ा बहुत चौड़ा है — यह गैप के किनारों से आगे निकल जाएगा।"
+        },
+        "d": {
+          "en": "This piece's width doesn't match the gap at all, even though its height happens to be right.",
+          "hi": "इस टुकड़े की चौड़ाई गैप से बिल्कुल मेल नहीं खाती, भले ही इसकी ऊँचाई सही हो।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-geomcomplete-width-03",
+      "difficulty": "EASY",
+      "content": {
+        "en": "A piece is missing from the bottom edge of the circle. Which option (A-D) is the exact piece that completes it?",
+        "hi": "वृत्त के निचले किनारे से एक टुकड़ा गायब है। कौन-सा विकल्प (A-D) इसे पूरा करने वाला सही टुकड़ा है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><circle cx=\"0\" cy=\"0\" r=\"23\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3\"/><rect x=\"-10\" y=\"17\" width=\"20\" height=\"10\" fill=\"#f8fafc\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-7\" y=\"-5\" width=\"14\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-13\" y=\"-5\" width=\"26\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-10\" y=\"-5\" width=\"20\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-5\" y=\"-5\" width=\"10\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The missing gap is 20 units wide and 10 units deep — only the piece in option C matches both measurements exactly.",
+        "hi": "गायब गैप 20 इकाई चौड़ा और 10 इकाई गहरा है — केवल विकल्प C का टुकड़ा दोनों मापों से बिल्कुल मेल खाता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This piece is too narrow — it would leave part of the gap uncovered.",
+          "hi": "यह टुकड़ा बहुत संकरा है — यह गैप का एक हिस्सा खुला छोड़ देगा।"
+        },
+        "b": {
+          "en": "This piece is too wide — it would overlap past the edges of the gap.",
+          "hi": "यह टुकड़ा बहुत चौड़ा है — यह गैप के किनारों से आगे निकल जाएगा।"
+        },
+        "d": {
+          "en": "This piece's width doesn't match the gap at all, even though its height happens to be right.",
+          "hi": "इस टुकड़े की चौड़ाई गैप से बिल्कुल मेल नहीं खाती, भले ही इसकी ऊँचाई सही हो।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-geomcomplete-width-04",
+      "difficulty": "EASY",
+      "content": {
+        "en": "A piece is missing from the bottom edge of the triangle. Which option (A-D) is the exact piece that completes it?",
+        "hi": "त्रिभुज के निचले किनारे से एक टुकड़ा गायब है। कौन-सा विकल्प (A-D) इसे पूरा करने वाला सही टुकड़ा है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><polygon points=\"0,-28 -28,22 28,22\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3\"/><rect x=\"-7\" y=\"17\" width=\"14\" height=\"10\" fill=\"#f8fafc\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-4\" y=\"-5\" width=\"8\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-10\" y=\"-5\" width=\"20\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-2\" y=\"-5\" width=\"4\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-7\" y=\"-5\" width=\"14\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The missing gap is 14 units wide and 10 units deep — only the piece in option D matches both measurements exactly.",
+        "hi": "गायब गैप 14 इकाई चौड़ा और 10 इकाई गहरा है — केवल विकल्प D का टुकड़ा दोनों मापों से बिल्कुल मेल खाता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This piece is too narrow — it would leave part of the gap uncovered.",
+          "hi": "यह टुकड़ा बहुत संकरा है — यह गैप का एक हिस्सा खुला छोड़ देगा।"
+        },
+        "b": {
+          "en": "This piece is too wide — it would overlap past the edges of the gap.",
+          "hi": "यह टुकड़ा बहुत चौड़ा है — यह गैप के किनारों से आगे निकल जाएगा।"
+        },
+        "c": {
+          "en": "This piece's width doesn't match the gap at all, even though its height happens to be right.",
+          "hi": "इस टुकड़े की चौड़ाई गैप से बिल्कुल मेल नहीं खाती, भले ही इसकी ऊँचाई सही हो।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-geomcomplete-width-05",
+      "difficulty": "EASY",
+      "content": {
+        "en": "A piece is missing from the bottom edge of the square. Which option (A-D) is the exact piece that completes it?",
+        "hi": "वर्ग के निचले किनारे से एक टुकड़ा गायब है। कौन-सा विकल्प (A-D) इसे पूरा करने वाला सही टुकड़ा है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-22\" y=\"-22\" width=\"44\" height=\"44\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3\"/><rect x=\"-9\" y=\"17\" width=\"18\" height=\"10\" fill=\"#f8fafc\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-9\" y=\"-5\" width=\"18\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-6\" y=\"-5\" width=\"12\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-12\" y=\"-5\" width=\"24\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-4\" y=\"-5\" width=\"8\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The missing gap is 18 units wide and 10 units deep — only the piece in option A matches both measurements exactly.",
+        "hi": "गायब गैप 18 इकाई चौड़ा और 10 इकाई गहरा है — केवल विकल्प A का टुकड़ा दोनों मापों से बिल्कुल मेल खाता है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "This piece is too narrow — it would leave part of the gap uncovered.",
+          "hi": "यह टुकड़ा बहुत संकरा है — यह गैप का एक हिस्सा खुला छोड़ देगा।"
+        },
+        "c": {
+          "en": "This piece is too wide — it would overlap past the edges of the gap.",
+          "hi": "यह टुकड़ा बहुत चौड़ा है — यह गैप के किनारों से आगे निकल जाएगा।"
+        },
+        "d": {
+          "en": "This piece's width doesn't match the gap at all, even though its height happens to be right.",
+          "hi": "इस टुकड़े की चौड़ाई गैप से बिल्कुल मेल नहीं खाती, भले ही इसकी ऊँचाई सही हो।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-geomcomplete-width-06",
+      "difficulty": "EASY",
+      "content": {
+        "en": "A piece is missing from the bottom edge of the circle. Which option (A-D) is the exact piece that completes it?",
+        "hi": "वृत्त के निचले किनारे से एक टुकड़ा गायब है। कौन-सा विकल्प (A-D) इसे पूरा करने वाला सही टुकड़ा है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><circle cx=\"0\" cy=\"0\" r=\"23\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3\"/><rect x=\"-11\" y=\"17\" width=\"22\" height=\"10\" fill=\"#f8fafc\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-8\" y=\"-5\" width=\"16\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-11\" y=\"-5\" width=\"22\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-14\" y=\"-5\" width=\"28\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-6\" y=\"-5\" width=\"12\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The missing gap is 22 units wide and 10 units deep — only the piece in option B matches both measurements exactly.",
+        "hi": "गायब गैप 22 इकाई चौड़ा और 10 इकाई गहरा है — केवल विकल्प B का टुकड़ा दोनों मापों से बिल्कुल मेल खाता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This piece is too narrow — it would leave part of the gap uncovered.",
+          "hi": "यह टुकड़ा बहुत संकरा है — यह गैप का एक हिस्सा खुला छोड़ देगा।"
+        },
+        "c": {
+          "en": "This piece is too wide — it would overlap past the edges of the gap.",
+          "hi": "यह टुकड़ा बहुत चौड़ा है — यह गैप के किनारों से आगे निकल जाएगा।"
+        },
+        "d": {
+          "en": "This piece's width doesn't match the gap at all, even though its height happens to be right.",
+          "hi": "इस टुकड़े की चौड़ाई गैप से बिल्कुल मेल नहीं खाती, भले ही इसकी ऊँचाई सही हो।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-geomcomplete-width-07",
+      "difficulty": "EASY",
+      "content": {
+        "en": "A piece is missing from the bottom edge of the triangle. Which option (A-D) is the exact piece that completes it?",
+        "hi": "त्रिभुज के निचले किनारे से एक टुकड़ा गायब है। कौन-सा विकल्प (A-D) इसे पूरा करने वाला सही टुकड़ा है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><polygon points=\"0,-28 -28,22 28,22\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3\"/><rect x=\"-5\" y=\"17\" width=\"10\" height=\"10\" fill=\"#f8fafc\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-2\" y=\"-5\" width=\"4\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-8\" y=\"-5\" width=\"16\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-5\" y=\"-5\" width=\"10\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-9\" y=\"-5\" width=\"18\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The missing gap is 10 units wide and 10 units deep — only the piece in option C matches both measurements exactly.",
+        "hi": "गायब गैप 10 इकाई चौड़ा और 10 इकाई गहरा है — केवल विकल्प C का टुकड़ा दोनों मापों से बिल्कुल मेल खाता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This piece is too narrow — it would leave part of the gap uncovered.",
+          "hi": "यह टुकड़ा बहुत संकरा है — यह गैप का एक हिस्सा खुला छोड़ देगा।"
+        },
+        "b": {
+          "en": "This piece is too wide — it would overlap past the edges of the gap.",
+          "hi": "यह टुकड़ा बहुत चौड़ा है — यह गैप के किनारों से आगे निकल जाएगा।"
+        },
+        "d": {
+          "en": "This piece's width doesn't match the gap at all, even though its height happens to be right.",
+          "hi": "इस टुकड़े की चौड़ाई गैप से बिल्कुल मेल नहीं खाती, भले ही इसकी ऊँचाई सही हो।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-geomcomplete-width-08",
+      "difficulty": "EASY",
+      "content": {
+        "en": "A piece is missing from the bottom edge of the square. Which option (A-D) is the exact piece that completes it?",
+        "hi": "वर्ग के निचले किनारे से एक टुकड़ा गायब है। कौन-सा विकल्प (A-D) इसे पूरा करने वाला सही टुकड़ा है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-22\" y=\"-22\" width=\"44\" height=\"44\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3\"/><rect x=\"-12\" y=\"17\" width=\"24\" height=\"10\" fill=\"#f8fafc\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-9\" y=\"-5\" width=\"18\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-15\" y=\"-5\" width=\"30\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-7\" y=\"-5\" width=\"14\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-12\" y=\"-5\" width=\"24\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The missing gap is 24 units wide and 10 units deep — only the piece in option D matches both measurements exactly.",
+        "hi": "गायब गैप 24 इकाई चौड़ा और 10 इकाई गहरा है — केवल विकल्प D का टुकड़ा दोनों मापों से बिल्कुल मेल खाता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This piece is too narrow — it would leave part of the gap uncovered.",
+          "hi": "यह टुकड़ा बहुत संकरा है — यह गैप का एक हिस्सा खुला छोड़ देगा।"
+        },
+        "b": {
+          "en": "This piece is too wide — it would overlap past the edges of the gap.",
+          "hi": "यह टुकड़ा बहुत चौड़ा है — यह गैप के किनारों से आगे निकल जाएगा।"
+        },
+        "c": {
+          "en": "This piece's width doesn't match the gap at all, even though its height happens to be right.",
+          "hi": "इस टुकड़े की चौड़ाई गैप से बिल्कुल मेल नहीं खाती, भले ही इसकी ऊँचाई सही हो।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-geomcomplete-width-09",
+      "difficulty": "EASY",
+      "content": {
+        "en": "A piece is missing from the bottom edge of the circle. Which option (A-D) is the exact piece that completes it?",
+        "hi": "वृत्त के निचले किनारे से एक टुकड़ा गायब है। कौन-सा विकल्प (A-D) इसे पूरा करने वाला सही टुकड़ा है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><circle cx=\"0\" cy=\"0\" r=\"23\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3\"/><rect x=\"-8\" y=\"17\" width=\"16\" height=\"10\" fill=\"#f8fafc\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-8\" y=\"-5\" width=\"16\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-5\" y=\"-5\" width=\"10\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-11\" y=\"-5\" width=\"22\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-3\" y=\"-5\" width=\"6\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The missing gap is 16 units wide and 10 units deep — only the piece in option A matches both measurements exactly.",
+        "hi": "गायब गैप 16 इकाई चौड़ा और 10 इकाई गहरा है — केवल विकल्प A का टुकड़ा दोनों मापों से बिल्कुल मेल खाता है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "This piece is too narrow — it would leave part of the gap uncovered.",
+          "hi": "यह टुकड़ा बहुत संकरा है — यह गैप का एक हिस्सा खुला छोड़ देगा।"
+        },
+        "c": {
+          "en": "This piece is too wide — it would overlap past the edges of the gap.",
+          "hi": "यह टुकड़ा बहुत चौड़ा है — यह गैप के किनारों से आगे निकल जाएगा।"
+        },
+        "d": {
+          "en": "This piece's width doesn't match the gap at all, even though its height happens to be right.",
+          "hi": "इस टुकड़े की चौड़ाई गैप से बिल्कुल मेल नहीं खाती, भले ही इसकी ऊँचाई सही हो।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-geomcomplete-width-10",
+      "difficulty": "EASY",
+      "content": {
+        "en": "A piece is missing from the bottom edge of the triangle. Which option (A-D) is the exact piece that completes it?",
+        "hi": "त्रिभुज के निचले किनारे से एक टुकड़ा गायब है। कौन-सा विकल्प (A-D) इसे पूरा करने वाला सही टुकड़ा है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><polygon points=\"0,-28 -28,22 28,22\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3\"/><rect x=\"-10\" y=\"17\" width=\"20\" height=\"10\" fill=\"#f8fafc\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-7\" y=\"-5\" width=\"14\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-10\" y=\"-5\" width=\"20\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-13\" y=\"-5\" width=\"26\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-5\" y=\"-5\" width=\"10\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The missing gap is 20 units wide and 10 units deep — only the piece in option B matches both measurements exactly.",
+        "hi": "गायब गैप 20 इकाई चौड़ा और 10 इकाई गहरा है — केवल विकल्प B का टुकड़ा दोनों मापों से बिल्कुल मेल खाता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This piece is too narrow — it would leave part of the gap uncovered.",
+          "hi": "यह टुकड़ा बहुत संकरा है — यह गैप का एक हिस्सा खुला छोड़ देगा।"
+        },
+        "c": {
+          "en": "This piece is too wide — it would overlap past the edges of the gap.",
+          "hi": "यह टुकड़ा बहुत चौड़ा है — यह गैप के किनारों से आगे निकल जाएगा।"
+        },
+        "d": {
+          "en": "This piece's width doesn't match the gap at all, even though its height happens to be right.",
+          "hi": "इस टुकड़े की चौड़ाई गैप से बिल्कुल मेल नहीं खाती, भले ही इसकी ऊँचाई सही हो।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-geomcomplete-twodim-01",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "A piece is missing from the bottom edge of the triangle. Both its width and depth matter this time — which option (A-D) matches exactly?",
+        "hi": "triangle के निचले किनारे से एक टुकड़ा गायब है। इस बार इसकी चौड़ाई और गहराई दोनों मायने रखती हैं — कौन-सा विकल्प (A-D) बिल्कुल मेल खाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><polygon points=\"0,-28 -28,22 28,22\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3\"/><rect x=\"-9\" y=\"18\" width=\"18\" height=\"8\" fill=\"#f8fafc\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-9\" y=\"-2\" width=\"18\" height=\"4\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-9\" y=\"-4\" width=\"18\" height=\"8\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-6\" y=\"-4\" width=\"12\" height=\"8\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-6\" y=\"-2\" width=\"12\" height=\"4\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The gap measures 18 x 8 — option B is the only piece matching both dimensions.",
+        "hi": "गैप का माप 18 x 8 है — विकल्प B ही दोनों माप से मेल खाने वाला एकमात्र टुकड़ा है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "The width is correct, but the depth is too shallow.",
+          "hi": "चौड़ाई सही है, पर गहराई बहुत कम है।"
+        },
+        "c": {
+          "en": "The depth is correct, but the width is too narrow.",
+          "hi": "गहराई सही है, पर चौड़ाई बहुत कम है।"
+        },
+        "d": {
+          "en": "Both the width and depth are wrong — this piece is smaller in every direction.",
+          "hi": "चौड़ाई और गहराई दोनों गलत हैं — यह टुकड़ा हर दिशा में छोटा है।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-geomcomplete-twodim-02",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "A piece is missing from the bottom edge of the square. Both its width and depth matter this time — which option (A-D) matches exactly?",
+        "hi": "square के निचले किनारे से एक टुकड़ा गायब है। इस बार इसकी चौड़ाई और गहराई दोनों मायने रखती हैं — कौन-सा विकल्प (A-D) बिल्कुल मेल खाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-22\" y=\"-22\" width=\"44\" height=\"44\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3\"/><rect x=\"-7\" y=\"15\" width=\"14\" height=\"14\" fill=\"#f8fafc\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-7\" y=\"-4\" width=\"14\" height=\"8\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-4\" y=\"-7\" width=\"8\" height=\"14\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-7\" y=\"-7\" width=\"14\" height=\"14\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-4\" y=\"-4\" width=\"8\" height=\"8\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The gap measures 14 x 14 — option C is the only piece matching both dimensions.",
+        "hi": "गैप का माप 14 x 14 है — विकल्प C ही दोनों माप से मेल खाने वाला एकमात्र टुकड़ा है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "The width is correct, but the depth is too shallow.",
+          "hi": "चौड़ाई सही है, पर गहराई बहुत कम है।"
+        },
+        "b": {
+          "en": "The depth is correct, but the width is too narrow.",
+          "hi": "गहराई सही है, पर चौड़ाई बहुत कम है।"
+        },
+        "d": {
+          "en": "Both the width and depth are wrong — this piece is smaller in every direction.",
+          "hi": "चौड़ाई और गहराई दोनों गलत हैं — यह टुकड़ा हर दिशा में छोटा है।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-geomcomplete-twodim-03",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "A piece is missing from the bottom edge of the circle. Both its width and depth matter this time — which option (A-D) matches exactly?",
+        "hi": "circle के निचले किनारे से एक टुकड़ा गायब है। इस बार इसकी चौड़ाई और गहराई दोनों मायने रखती हैं — कौन-सा विकल्प (A-D) बिल्कुल मेल खाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><circle cx=\"0\" cy=\"0\" r=\"23\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3\"/><rect x=\"-11\" y=\"17\" width=\"22\" height=\"10\" fill=\"#f8fafc\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-11\" y=\"-2\" width=\"22\" height=\"4\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-8\" y=\"-5\" width=\"16\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-8\" y=\"-2\" width=\"16\" height=\"4\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-11\" y=\"-5\" width=\"22\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The gap measures 22 x 10 — option D is the only piece matching both dimensions.",
+        "hi": "गैप का माप 22 x 10 है — विकल्प D ही दोनों माप से मेल खाने वाला एकमात्र टुकड़ा है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "The width is correct, but the depth is too shallow.",
+          "hi": "चौड़ाई सही है, पर गहराई बहुत कम है।"
+        },
+        "b": {
+          "en": "The depth is correct, but the width is too narrow.",
+          "hi": "गहराई सही है, पर चौड़ाई बहुत कम है।"
+        },
+        "c": {
+          "en": "Both the width and depth are wrong — this piece is smaller in every direction.",
+          "hi": "चौड़ाई और गहराई दोनों गलत हैं — यह टुकड़ा हर दिशा में छोटा है।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-geomcomplete-twodim-04",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "A piece is missing from the bottom edge of the triangle. Both its width and depth matter this time — which option (A-D) matches exactly?",
+        "hi": "triangle के निचले किनारे से एक टुकड़ा गायब है। इस बार इसकी चौड़ाई और गहराई दोनों मायने रखती हैं — कौन-सा विकल्प (A-D) बिल्कुल मेल खाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><polygon points=\"0,-28 -28,22 28,22\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3\"/><rect x=\"-8\" y=\"13\" width=\"16\" height=\"18\" fill=\"#f8fafc\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-8\" y=\"-9\" width=\"16\" height=\"18\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-8\" y=\"-6\" width=\"16\" height=\"12\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-5\" y=\"-9\" width=\"10\" height=\"18\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-5\" y=\"-6\" width=\"10\" height=\"12\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The gap measures 16 x 18 — option A is the only piece matching both dimensions.",
+        "hi": "गैप का माप 16 x 18 है — विकल्प A ही दोनों माप से मेल खाने वाला एकमात्र टुकड़ा है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "The width is correct, but the depth is too shallow.",
+          "hi": "चौड़ाई सही है, पर गहराई बहुत कम है।"
+        },
+        "c": {
+          "en": "The depth is correct, but the width is too narrow.",
+          "hi": "गहराई सही है, पर चौड़ाई बहुत कम है।"
+        },
+        "d": {
+          "en": "Both the width and depth are wrong — this piece is smaller in every direction.",
+          "hi": "चौड़ाई और गहराई दोनों गलत हैं — यह टुकड़ा हर दिशा में छोटा है।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-geomcomplete-twodim-05",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "A piece is missing from the bottom edge of the square. Both its width and depth matter this time — which option (A-D) matches exactly?",
+        "hi": "square के निचले किनारे से एक टुकड़ा गायब है। इस बार इसकी चौड़ाई और गहराई दोनों मायने रखती हैं — कौन-सा विकल्प (A-D) बिल्कुल मेल खाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-22\" y=\"-22\" width=\"44\" height=\"44\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3\"/><rect x=\"-10\" y=\"16\" width=\"20\" height=\"12\" fill=\"#f8fafc\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-10\" y=\"-3\" width=\"20\" height=\"6\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-10\" y=\"-6\" width=\"20\" height=\"12\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-7\" y=\"-6\" width=\"14\" height=\"12\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-7\" y=\"-3\" width=\"14\" height=\"6\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The gap measures 20 x 12 — option B is the only piece matching both dimensions.",
+        "hi": "गैप का माप 20 x 12 है — विकल्प B ही दोनों माप से मेल खाने वाला एकमात्र टुकड़ा है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "The width is correct, but the depth is too shallow.",
+          "hi": "चौड़ाई सही है, पर गहराई बहुत कम है।"
+        },
+        "c": {
+          "en": "The depth is correct, but the width is too narrow.",
+          "hi": "गहराई सही है, पर चौड़ाई बहुत कम है।"
+        },
+        "d": {
+          "en": "Both the width and depth are wrong — this piece is smaller in every direction.",
+          "hi": "चौड़ाई और गहराई दोनों गलत हैं — यह टुकड़ा हर दिशा में छोटा है।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-geomcomplete-edgeorient-01",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "A piece is missing from the left edge of the square. Which option (A-D) is correctly sized AND correctly oriented to fill it?",
+        "hi": "वर्ग के बाएँ किनारे से एक टुकड़ा गायब है। कौन-सा विकल्प (A-D) इसे भरने के लिए सही आकार और सही दिशा में है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-22\" y=\"-22\" width=\"44\" height=\"44\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3\"/><rect x=\"-27\" y=\"-10\" width=\"10\" height=\"20\" fill=\"#f8fafc\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-10\" y=\"-5\" width=\"20\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-5\" y=\"-7\" width=\"10\" height=\"14\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-5\" y=\"-10\" width=\"10\" height=\"20\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-3\" y=\"-10\" width=\"6\" height=\"20\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The gap is on the left edge, so the correct piece must stand tall (not lie wide) — option C is the only one both correctly sized and correctly oriented.",
+        "hi": "गैप बाएँ किनारे पर है, इसलिए सही टुकड़ा खड़ा (लेटा नहीं) होना चाहिए — विकल्प C ही सही आकार और सही दिशा दोनों में है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This piece has the right size, but it's oriented for a horizontal (top/bottom) gap, not this vertical one — width and height are swapped.",
+          "hi": "इस टुकड़े का आकार सही है, पर यह क्षैतिज (ऊपर/नीचे) गैप के लिए है, इस खड़े गैप के लिए नहीं — चौड़ाई और ऊँचाई बदली हुई है।"
+        },
+        "b": {
+          "en": "Correctly oriented for this edge, but too short along it.",
+          "hi": "इस किनारे के लिए सही दिशा में है, पर इसकी लंबाई इसके साथ बहुत कम है।"
+        },
+        "d": {
+          "en": "Correctly oriented and the right length, but it doesn't poke in deep enough.",
+          "hi": "सही दिशा और सही लंबाई है, पर यह पर्याप्त गहराई तक अंदर नहीं जाता।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-geomcomplete-edgeorient-02",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "A piece is missing from the right edge of the square. Which option (A-D) is correctly sized AND correctly oriented to fill it?",
+        "hi": "वर्ग के दाएँ किनारे से एक टुकड़ा गायब है। कौन-सा विकल्प (A-D) इसे भरने के लिए सही आकार और सही दिशा में है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-22\" y=\"-22\" width=\"44\" height=\"44\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3\"/><rect x=\"18\" y=\"-8\" width=\"8\" height=\"16\" fill=\"#f8fafc\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-8\" y=\"-4\" width=\"16\" height=\"8\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-4\" y=\"-5\" width=\"8\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-2\" y=\"-8\" width=\"4\" height=\"16\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-4\" y=\"-8\" width=\"8\" height=\"16\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The gap is on the right edge, so the correct piece must stand tall (not lie wide) — option D is the only one both correctly sized and correctly oriented.",
+        "hi": "गैप दाएँ किनारे पर है, इसलिए सही टुकड़ा खड़ा (लेटा नहीं) होना चाहिए — विकल्प D ही सही आकार और सही दिशा दोनों में है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This piece has the right size, but it's oriented for a horizontal (top/bottom) gap, not this vertical one — width and height are swapped.",
+          "hi": "इस टुकड़े का आकार सही है, पर यह क्षैतिज (ऊपर/नीचे) गैप के लिए है, इस खड़े गैप के लिए नहीं — चौड़ाई और ऊँचाई बदली हुई है।"
+        },
+        "b": {
+          "en": "Correctly oriented for this edge, but too short along it.",
+          "hi": "इस किनारे के लिए सही दिशा में है, पर इसकी लंबाई इसके साथ बहुत कम है।"
+        },
+        "c": {
+          "en": "Correctly oriented and the right length, but it doesn't poke in deep enough.",
+          "hi": "सही दिशा और सही लंबाई है, पर यह पर्याप्त गहराई तक अंदर नहीं जाता।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-geomcomplete-edgeorient-03",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "A piece is missing from the left edge of the square. Which option (A-D) is correctly sized AND correctly oriented to fill it?",
+        "hi": "वर्ग के बाएँ किनारे से एक टुकड़ा गायब है। कौन-सा विकल्प (A-D) इसे भरने के लिए सही आकार और सही दिशा में है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-22\" y=\"-22\" width=\"44\" height=\"44\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3\"/><rect x=\"-28\" y=\"-12\" width=\"12\" height=\"24\" fill=\"#f8fafc\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-6\" y=\"-12\" width=\"12\" height=\"24\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-12\" y=\"-6\" width=\"24\" height=\"12\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-6\" y=\"-9\" width=\"12\" height=\"18\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-4\" y=\"-12\" width=\"8\" height=\"24\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The gap is on the left edge, so the correct piece must stand tall (not lie wide) — option A is the only one both correctly sized and correctly oriented.",
+        "hi": "गैप बाएँ किनारे पर है, इसलिए सही टुकड़ा खड़ा (लेटा नहीं) होना चाहिए — विकल्प A ही सही आकार और सही दिशा दोनों में है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "This piece has the right size, but it's oriented for a horizontal (top/bottom) gap, not this vertical one — width and height are swapped.",
+          "hi": "इस टुकड़े का आकार सही है, पर यह क्षैतिज (ऊपर/नीचे) गैप के लिए है, इस खड़े गैप के लिए नहीं — चौड़ाई और ऊँचाई बदली हुई है।"
+        },
+        "c": {
+          "en": "Correctly oriented for this edge, but too short along it.",
+          "hi": "इस किनारे के लिए सही दिशा में है, पर इसकी लंबाई इसके साथ बहुत कम है।"
+        },
+        "d": {
+          "en": "Correctly oriented and the right length, but it doesn't poke in deep enough.",
+          "hi": "सही दिशा और सही लंबाई है, पर यह पर्याप्त गहराई तक अंदर नहीं जाता।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-geomcomplete-edgeorient-04",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "A piece is missing from the right edge of the square. Which option (A-D) is correctly sized AND correctly oriented to fill it?",
+        "hi": "वर्ग के दाएँ किनारे से एक टुकड़ा गायब है। कौन-सा विकल्प (A-D) इसे भरने के लिए सही आकार और सही दिशा में है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-22\" y=\"-22\" width=\"44\" height=\"44\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3\"/><rect x=\"17\" y=\"-9\" width=\"10\" height=\"18\" fill=\"#f8fafc\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-9\" y=\"-5\" width=\"18\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-5\" y=\"-9\" width=\"10\" height=\"18\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-5\" y=\"-6\" width=\"10\" height=\"12\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-3\" y=\"-9\" width=\"6\" height=\"18\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The gap is on the right edge, so the correct piece must stand tall (not lie wide) — option B is the only one both correctly sized and correctly oriented.",
+        "hi": "गैप दाएँ किनारे पर है, इसलिए सही टुकड़ा खड़ा (लेटा नहीं) होना चाहिए — विकल्प B ही सही आकार और सही दिशा दोनों में है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This piece has the right size, but it's oriented for a horizontal (top/bottom) gap, not this vertical one — width and height are swapped.",
+          "hi": "इस टुकड़े का आकार सही है, पर यह क्षैतिज (ऊपर/नीचे) गैप के लिए है, इस खड़े गैप के लिए नहीं — चौड़ाई और ऊँचाई बदली हुई है।"
+        },
+        "c": {
+          "en": "Correctly oriented for this edge, but too short along it.",
+          "hi": "इस किनारे के लिए सही दिशा में है, पर इसकी लंबाई इसके साथ बहुत कम है।"
+        },
+        "d": {
+          "en": "Correctly oriented and the right length, but it doesn't poke in deep enough.",
+          "hi": "सही दिशा और सही लंबाई है, पर यह पर्याप्त गहराई तक अंदर नहीं जाता।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-geomcomplete-edgeorient-05",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "A piece is missing from the left edge of the square. Which option (A-D) is correctly sized AND correctly oriented to fill it?",
+        "hi": "वर्ग के बाएँ किनारे से एक टुकड़ा गायब है। कौन-सा विकल्प (A-D) इसे भरने के लिए सही आकार और सही दिशा में है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-22\" y=\"-22\" width=\"44\" height=\"44\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3\"/><rect x=\"-26\" y=\"-11\" width=\"8\" height=\"22\" fill=\"#f8fafc\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-11\" y=\"-4\" width=\"22\" height=\"8\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-4\" y=\"-8\" width=\"8\" height=\"16\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-4\" y=\"-11\" width=\"8\" height=\"22\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-2\" y=\"-11\" width=\"4\" height=\"22\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The gap is on the left edge, so the correct piece must stand tall (not lie wide) — option C is the only one both correctly sized and correctly oriented.",
+        "hi": "गैप बाएँ किनारे पर है, इसलिए सही टुकड़ा खड़ा (लेटा नहीं) होना चाहिए — विकल्प C ही सही आकार और सही दिशा दोनों में है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This piece has the right size, but it's oriented for a horizontal (top/bottom) gap, not this vertical one — width and height are swapped.",
+          "hi": "इस टुकड़े का आकार सही है, पर यह क्षैतिज (ऊपर/नीचे) गैप के लिए है, इस खड़े गैप के लिए नहीं — चौड़ाई और ऊँचाई बदली हुई है।"
+        },
+        "b": {
+          "en": "Correctly oriented for this edge, but too short along it.",
+          "hi": "इस किनारे के लिए सही दिशा में है, पर इसकी लंबाई इसके साथ बहुत कम है।"
+        },
+        "d": {
+          "en": "Correctly oriented and the right length, but it doesn't poke in deep enough.",
+          "hi": "सही दिशा और सही लंबाई है, पर यह पर्याप्त गहराई तक अंदर नहीं जाता।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-geomcomplete-mixededge-01",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "First find WHICH edge of the square the piece is missing from, then find the piece that fills it. Which option (A-D) is correct?",
+        "hi": "पहले पता करें कि square के किस किनारे से टुकड़ा गायब है, फिर वह टुकड़ा खोजें जो उसे भरता है। कौन-सा विकल्प (A-D) सही है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-22\" y=\"-22\" width=\"44\" height=\"44\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3\"/><rect x=\"-9\" y=\"17.5\" width=\"18\" height=\"9\" fill=\"#f8fafc\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-4.5\" y=\"-9\" width=\"9\" height=\"18\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-6.5\" y=\"-4.5\" width=\"13\" height=\"9\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-9\" y=\"-2\" width=\"18\" height=\"4\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-9\" y=\"-4.5\" width=\"18\" height=\"9\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The gap is on the bottom edge — option D is the only piece with both the right size and the right orientation for that edge.",
+        "hi": "गैप bottom किनारे पर है — विकल्प D ही उस किनारे के लिए सही आकार और सही दिशा वाला टुकड़ा है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Right size, but oriented for the wrong edge of the shape.",
+          "hi": "आकार सही है, पर आकृति के गलत किनारे के लिए दिशा में है।"
+        },
+        "b": {
+          "en": "Right edge and orientation, but too short along the edge.",
+          "hi": "सही किनारा और दिशा है, पर किनारे के साथ लंबाई कम है।"
+        },
+        "c": {
+          "en": "Right edge and orientation, but doesn't poke in deep enough.",
+          "hi": "सही किनारा और दिशा है, पर पर्याप्त गहराई तक अंदर नहीं जाता।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-geomcomplete-mixededge-02",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "First find WHICH edge of the circle the piece is missing from, then find the piece that fills it. Which option (A-D) is correct?",
+        "hi": "पहले पता करें कि circle के किस किनारे से टुकड़ा गायब है, फिर वह टुकड़ा खोजें जो उसे भरता है। कौन-सा विकल्प (A-D) सही है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><circle cx=\"0\" cy=\"0\" r=\"23\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3\"/><rect x=\"-27\" y=\"-10\" width=\"10\" height=\"20\" fill=\"#f8fafc\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-5\" y=\"-10\" width=\"10\" height=\"20\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-10\" y=\"-5\" width=\"20\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-5\" y=\"-7.5\" width=\"10\" height=\"15\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-2.5\" y=\"-10\" width=\"5\" height=\"20\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The gap is on the left edge — option A is the only piece with both the right size and the right orientation for that edge.",
+        "hi": "गैप left किनारे पर है — विकल्प A ही उस किनारे के लिए सही आकार और सही दिशा वाला टुकड़ा है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Right size, but oriented for the wrong edge of the shape.",
+          "hi": "आकार सही है, पर आकृति के गलत किनारे के लिए दिशा में है।"
+        },
+        "c": {
+          "en": "Right edge and orientation, but too short along the edge.",
+          "hi": "सही किनारा और दिशा है, पर किनारे के साथ लंबाई कम है।"
+        },
+        "d": {
+          "en": "Right edge and orientation, but doesn't poke in deep enough.",
+          "hi": "सही किनारा और दिशा है, पर पर्याप्त गहराई तक अंदर नहीं जाता।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-geomcomplete-mixededge-03",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "First find WHICH edge of the circle the piece is missing from, then find the piece that fills it. Which option (A-D) is correct?",
+        "hi": "पहले पता करें कि circle के किस किनारे से टुकड़ा गायब है, फिर वह टुकड़ा खोजें जो उसे भरता है। कौन-सा विकल्प (A-D) सही है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><circle cx=\"0\" cy=\"0\" r=\"23\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3\"/><rect x=\"-8\" y=\"18\" width=\"16\" height=\"8\" fill=\"#f8fafc\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-4\" y=\"-8\" width=\"8\" height=\"16\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-8\" y=\"-4\" width=\"16\" height=\"8\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-5.5\" y=\"-4\" width=\"11\" height=\"8\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-8\" y=\"-2\" width=\"16\" height=\"4\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The gap is on the bottom edge — option B is the only piece with both the right size and the right orientation for that edge.",
+        "hi": "गैप bottom किनारे पर है — विकल्प B ही उस किनारे के लिए सही आकार और सही दिशा वाला टुकड़ा है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Right size, but oriented for the wrong edge of the shape.",
+          "hi": "आकार सही है, पर आकृति के गलत किनारे के लिए दिशा में है।"
+        },
+        "c": {
+          "en": "Right edge and orientation, but too short along the edge.",
+          "hi": "सही किनारा और दिशा है, पर किनारे के साथ लंबाई कम है।"
+        },
+        "d": {
+          "en": "Right edge and orientation, but doesn't poke in deep enough.",
+          "hi": "सही किनारा और दिशा है, पर पर्याप्त गहराई तक अंदर नहीं जाता।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-geomcomplete-mixededge-04",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "First find WHICH edge of the square the piece is missing from, then find the piece that fills it. Which option (A-D) is correct?",
+        "hi": "पहले पता करें कि square के किस किनारे से टुकड़ा गायब है, फिर वह टुकड़ा खोजें जो उसे भरता है। कौन-सा विकल्प (A-D) सही है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-22\" y=\"-22\" width=\"44\" height=\"44\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3\"/><rect x=\"-27.5\" y=\"-11\" width=\"11\" height=\"22\" fill=\"#f8fafc\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-11\" y=\"-5.5\" width=\"22\" height=\"11\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-5.5\" y=\"-8.5\" width=\"11\" height=\"17\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-5.5\" y=\"-11\" width=\"11\" height=\"22\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-3\" y=\"-11\" width=\"6\" height=\"22\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The gap is on the left edge — option C is the only piece with both the right size and the right orientation for that edge.",
+        "hi": "गैप left किनारे पर है — विकल्प C ही उस किनारे के लिए सही आकार और सही दिशा वाला टुकड़ा है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Right size, but oriented for the wrong edge of the shape.",
+          "hi": "आकार सही है, पर आकृति के गलत किनारे के लिए दिशा में है।"
+        },
+        "b": {
+          "en": "Right edge and orientation, but too short along the edge.",
+          "hi": "सही किनारा और दिशा है, पर किनारे के साथ लंबाई कम है।"
+        },
+        "d": {
+          "en": "Right edge and orientation, but doesn't poke in deep enough.",
+          "hi": "सही किनारा और दिशा है, पर पर्याप्त गहराई तक अंदर नहीं जाता।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-geomcomplete-mixededge-05",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "First find WHICH edge of the square the piece is missing from, then find the piece that fills it. Which option (A-D) is correct?",
+        "hi": "पहले पता करें कि square के किस किनारे से टुकड़ा गायब है, फिर वह टुकड़ा खोजें जो उसे भरता है। कौन-सा विकल्प (A-D) सही है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-22\" y=\"-22\" width=\"44\" height=\"44\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3\"/><rect x=\"-7\" y=\"18.5\" width=\"14\" height=\"7\" fill=\"#f8fafc\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-3.5\" y=\"-7\" width=\"7\" height=\"14\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-4.5\" y=\"-3.5\" width=\"9\" height=\"7\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-7\" y=\"-2\" width=\"14\" height=\"4\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-7\" y=\"-3.5\" width=\"14\" height=\"7\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The gap is on the bottom edge — option D is the only piece with both the right size and the right orientation for that edge.",
+        "hi": "गैप bottom किनारे पर है — विकल्प D ही उस किनारे के लिए सही आकार और सही दिशा वाला टुकड़ा है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Right size, but oriented for the wrong edge of the shape.",
+          "hi": "आकार सही है, पर आकृति के गलत किनारे के लिए दिशा में है।"
+        },
+        "b": {
+          "en": "Right edge and orientation, but too short along the edge.",
+          "hi": "सही किनारा और दिशा है, पर किनारे के साथ लंबाई कम है।"
+        },
+        "c": {
+          "en": "Right edge and orientation, but doesn't poke in deep enough.",
+          "hi": "सही किनारा और दिशा है, पर पर्याप्त गहराई तक अंदर नहीं जाता।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-geomcomplete-wedge-01",
+      "difficulty": "HARD",
+      "content": {
+        "en": "A wedge-shaped slice is missing from the circle. Which option (A-D) is the exact slice (by angle) that completes it?",
+        "hi": "वृत्त से एक वेज-आकार का हिस्सा गायब है। कौन-सा विकल्प (A-D) इसे पूरा करने वाला सही (कोण के अनुसार) हिस्सा है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><circle cx=\"0\" cy=\"0\" r=\"23\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3\"/><g transform=\"rotate(180)\"><path d=\"M0,0 L-10.94,-30.07 A32,32 0 0 1 10.94,-30.07 Z\" fill=\"#f8fafc\"/></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><path d=\"M0,0 L-6.16,-16.91 A18,18 0 0 1 6.16,-16.91 Z\" fill=\"#1e293b\"/></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><path d=\"M0,0 L-3.13,-17.73 A18,18 0 0 1 3.13,-17.73 Z\" fill=\"#1e293b\"/></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><path d=\"M0,0 L-9.00,-15.59 A18,18 0 0 1 9.00,-15.59 Z\" fill=\"#1e293b\"/></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><path d=\"M0,0 L-10.32,-14.74 A18,18 0 0 1 10.32,-14.74 Z\" fill=\"#1e293b\"/></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The missing slice spans 40° — only option A shows a wedge of exactly that angle.",
+        "hi": "गायब हिस्सा 40° का है — केवल विकल्प A ठीक उसी कोण का वेज दिखाता है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "This wedge's angle is too narrow to fill the missing slice.",
+          "hi": "यह वेज कोण गायब हिस्से को भरने के लिए बहुत संकरा है।"
+        },
+        "c": {
+          "en": "This wedge's angle is too wide — it would overlap into the rest of the circle.",
+          "hi": "यह वेज कोण बहुत चौड़ा है — यह वृत्त के बाकी हिस्से में फैल जाएगा।"
+        },
+        "d": {
+          "en": "This wedge's angle is clearly a different size from the missing slice.",
+          "hi": "यह वेज कोण गायब हिस्से से स्पष्ट रूप से अलग आकार का है।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-geomcomplete-wedge-02",
+      "difficulty": "HARD",
+      "content": {
+        "en": "A wedge-shaped slice is missing from the circle. Which option (A-D) is the exact slice (by angle) that completes it?",
+        "hi": "वृत्त से एक वेज-आकार का हिस्सा गायब है। कौन-सा विकल्प (A-D) इसे पूरा करने वाला सही (कोण के अनुसार) हिस्सा है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><circle cx=\"0\" cy=\"0\" r=\"23\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3\"/><g transform=\"rotate(180)\"><path d=\"M0,0 L-16.00,-27.71 A32,32 0 0 1 16.00,-27.71 Z\" fill=\"#f8fafc\"/></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><path d=\"M0,0 L-6.16,-16.91 A18,18 0 0 1 6.16,-16.91 Z\" fill=\"#1e293b\"/></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><path d=\"M0,0 L-9.00,-15.59 A18,18 0 0 1 9.00,-15.59 Z\" fill=\"#1e293b\"/></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><path d=\"M0,0 L-11.57,-13.79 A18,18 0 0 1 11.57,-13.79 Z\" fill=\"#1e293b\"/></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><path d=\"M0,0 L-4.66,-17.39 A18,18 0 0 1 4.66,-17.39 Z\" fill=\"#1e293b\"/></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The missing slice spans 60° — only option B shows a wedge of exactly that angle.",
+        "hi": "गायब हिस्सा 60° का है — केवल विकल्प B ठीक उसी कोण का वेज दिखाता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This wedge's angle is too narrow to fill the missing slice.",
+          "hi": "यह वेज कोण गायब हिस्से को भरने के लिए बहुत संकरा है।"
+        },
+        "c": {
+          "en": "This wedge's angle is too wide — it would overlap into the rest of the circle.",
+          "hi": "यह वेज कोण बहुत चौड़ा है — यह वृत्त के बाकी हिस्से में फैल जाएगा।"
+        },
+        "d": {
+          "en": "This wedge's angle is clearly a different size from the missing slice.",
+          "hi": "यह वेज कोण गायब हिस्से से स्पष्ट रूप से अलग आकार का है।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-geomcomplete-wedge-03",
+      "difficulty": "HARD",
+      "content": {
+        "en": "A wedge-shaped slice is missing from the circle. Which option (A-D) is the exact slice (by angle) that completes it?",
+        "hi": "वृत्त से एक वेज-आकार का हिस्सा गायब है। कौन-सा विकल्प (A-D) इसे पूरा करने वाला सही (कोण के अनुसार) हिस्सा है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><circle cx=\"0\" cy=\"0\" r=\"23\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3\"/><g transform=\"rotate(180)\"><path d=\"M0,0 L-22.63,-22.63 A32,32 0 0 1 22.63,-22.63 Z\" fill=\"#f8fafc\"/></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><path d=\"M0,0 L-10.32,-14.74 A18,18 0 0 1 10.32,-14.74 Z\" fill=\"#1e293b\"/></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><path d=\"M0,0 L-14.74,-10.32 A18,18 0 0 1 14.74,-10.32 Z\" fill=\"#1e293b\"/></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><path d=\"M0,0 L-12.73,-12.73 A18,18 0 0 1 12.73,-12.73 Z\" fill=\"#1e293b\"/></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><path d=\"M0,0 L-9.00,-15.59 A18,18 0 0 1 9.00,-15.59 Z\" fill=\"#1e293b\"/></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The missing slice spans 90° — only option C shows a wedge of exactly that angle.",
+        "hi": "गायब हिस्सा 90° का है — केवल विकल्प C ठीक उसी कोण का वेज दिखाता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This wedge's angle is too narrow to fill the missing slice.",
+          "hi": "यह वेज कोण गायब हिस्से को भरने के लिए बहुत संकरा है।"
+        },
+        "b": {
+          "en": "This wedge's angle is too wide — it would overlap into the rest of the circle.",
+          "hi": "यह वेज कोण बहुत चौड़ा है — यह वृत्त के बाकी हिस्से में फैल जाएगा।"
+        },
+        "d": {
+          "en": "This wedge's angle is clearly a different size from the missing slice.",
+          "hi": "यह वेज कोण गायब हिस्से से स्पष्ट रूप से अलग आकार का है।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-geomcomplete-wedge-04",
+      "difficulty": "HARD",
+      "content": {
+        "en": "A wedge-shaped slice is missing from the circle. Which option (A-D) is the exact slice (by angle) that completes it?",
+        "hi": "वृत्त से एक वेज-आकार का हिस्सा गायब है। कौन-सा विकल्प (A-D) इसे पूरा करने वाला सही (कोण के अनुसार) हिस्सा है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><circle cx=\"0\" cy=\"0\" r=\"23\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3\"/><g transform=\"rotate(180)\"><path d=\"M0,0 L-13.52,-29.00 A32,32 0 0 1 13.52,-29.00 Z\" fill=\"#f8fafc\"/></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><path d=\"M0,0 L-4.66,-17.39 A18,18 0 0 1 4.66,-17.39 Z\" fill=\"#1e293b\"/></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><path d=\"M0,0 L-10.32,-14.74 A18,18 0 0 1 10.32,-14.74 Z\" fill=\"#1e293b\"/></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><path d=\"M0,0 L-3.13,-17.73 A18,18 0 0 1 3.13,-17.73 Z\" fill=\"#1e293b\"/></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><path d=\"M0,0 L-7.61,-16.31 A18,18 0 0 1 7.61,-16.31 Z\" fill=\"#1e293b\"/></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The missing slice spans 50° — only option D shows a wedge of exactly that angle.",
+        "hi": "गायब हिस्सा 50° का है — केवल विकल्प D ठीक उसी कोण का वेज दिखाता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This wedge's angle is too narrow to fill the missing slice.",
+          "hi": "यह वेज कोण गायब हिस्से को भरने के लिए बहुत संकरा है।"
+        },
+        "b": {
+          "en": "This wedge's angle is too wide — it would overlap into the rest of the circle.",
+          "hi": "यह वेज कोण बहुत चौड़ा है — यह वृत्त के बाकी हिस्से में फैल जाएगा।"
+        },
+        "c": {
+          "en": "This wedge's angle is clearly a different size from the missing slice.",
+          "hi": "यह वेज कोण गायब हिस्से से स्पष्ट रूप से अलग आकार का है।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-geomcomplete-wedge-05",
+      "difficulty": "HARD",
+      "content": {
+        "en": "A wedge-shaped slice is missing from the circle. Which option (A-D) is the exact slice (by angle) that completes it?",
+        "hi": "वृत्त से एक वेज-आकार का हिस्सा गायब है। कौन-सा विकल्प (A-D) इसे पूरा करने वाला सही (कोण के अनुसार) हिस्सा है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><circle cx=\"0\" cy=\"0\" r=\"23\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3\"/><g transform=\"rotate(180)\"><path d=\"M0,0 L-19.48,-25.39 A32,32 0 0 1 19.48,-25.39 Z\" fill=\"#f8fafc\"/></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><path d=\"M0,0 L-10.96,-14.28 A18,18 0 0 1 10.96,-14.28 Z\" fill=\"#1e293b\"/></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><path d=\"M0,0 L-8.31,-15.97 A18,18 0 0 1 8.31,-15.97 Z\" fill=\"#1e293b\"/></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><path d=\"M0,0 L-13.27,-12.16 A18,18 0 0 1 13.27,-12.16 Z\" fill=\"#1e293b\"/></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><g transform=\"rotate(180)\"><path d=\"M0,0 L-6.89,-16.63 A18,18 0 0 1 6.89,-16.63 Z\" fill=\"#1e293b\"/></g></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The missing slice spans 75° — only option A shows a wedge of exactly that angle.",
+        "hi": "गायब हिस्सा 75° का है — केवल विकल्प A ठीक उसी कोण का वेज दिखाता है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "This wedge's angle is too narrow to fill the missing slice.",
+          "hi": "यह वेज कोण गायब हिस्से को भरने के लिए बहुत संकरा है।"
+        },
+        "c": {
+          "en": "This wedge's angle is too wide — it would overlap into the rest of the circle.",
+          "hi": "यह वेज कोण बहुत चौड़ा है — यह वृत्त के बाकी हिस्से में फैल जाएगा।"
+        },
+        "d": {
+          "en": "This wedge's angle is clearly a different size from the missing slice.",
+          "hi": "यह वेज कोण गायब हिस्से से स्पष्ट रूप से अलग आकार का है।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-geomcomplete-threeway-01",
+      "difficulty": "HARD",
+      "content": {
+        "en": "The missing piece could be on any edge, at any size — check the edge, the span, and the depth all together. Which option (A-D) is the exact match?",
+        "hi": "गायब टुकड़ा किसी भी किनारे पर, किसी भी आकार का हो सकता है — किनारा, लंबाई और गहराई तीनों एक साथ जाँचें। कौन-सा विकल्प (A-D) बिल्कुल मेल खाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-22\" y=\"-22\" width=\"44\" height=\"44\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3\"/><rect x=\"-9\" y=\"17.5\" width=\"18\" height=\"9\" fill=\"#f8fafc\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-4.5\" y=\"-9\" width=\"9\" height=\"18\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-9\" y=\"-4.5\" width=\"18\" height=\"9\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-6.5\" y=\"-3\" width=\"13\" height=\"6\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-2\" y=\"-9\" width=\"4\" height=\"18\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The gap is on the bottom edge, spanning 18 units at a depth of 9 — option B is the only piece matching all three.",
+        "hi": "गैप bottom किनारे पर है, जिसकी लंबाई 18 इकाई और गहराई 9 है — विकल्प B ही तीनों से मेल खाता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "The size is right, but it's meant for a different edge entirely.",
+          "hi": "आकार सही है, पर यह एक अलग किनारे के लिए बना है।"
+        },
+        "c": {
+          "en": "The edge is right, but both the span and depth are off.",
+          "hi": "किनारा सही है, पर लंबाई और गहराई दोनों गलत हैं।"
+        },
+        "d": {
+          "en": "Wrong edge AND wrong depth — two mistakes at once.",
+          "hi": "गलत किनारा और गलत गहराई — एक साथ दो गलतियाँ।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-geomcomplete-threeway-02",
+      "difficulty": "HARD",
+      "content": {
+        "en": "The missing piece could be on any edge, at any size — check the edge, the span, and the depth all together. Which option (A-D) is the exact match?",
+        "hi": "गायब टुकड़ा किसी भी किनारे पर, किसी भी आकार का हो सकता है — किनारा, लंबाई और गहराई तीनों एक साथ जाँचें। कौन-सा विकल्प (A-D) बिल्कुल मेल खाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-22\" y=\"-22\" width=\"44\" height=\"44\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3\"/><rect x=\"-27\" y=\"-10\" width=\"10\" height=\"20\" fill=\"#f8fafc\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-10\" y=\"-5\" width=\"20\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-3.5\" y=\"-7.5\" width=\"7\" height=\"15\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-5\" y=\"-10\" width=\"10\" height=\"20\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-10\" y=\"-2.5\" width=\"20\" height=\"5\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The gap is on the left edge, spanning 20 units at a depth of 10 — option C is the only piece matching all three.",
+        "hi": "गैप left किनारे पर है, जिसकी लंबाई 20 इकाई और गहराई 10 है — विकल्प C ही तीनों से मेल खाता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "The size is right, but it's meant for a different edge entirely.",
+          "hi": "आकार सही है, पर यह एक अलग किनारे के लिए बना है।"
+        },
+        "b": {
+          "en": "The edge is right, but both the span and depth are off.",
+          "hi": "किनारा सही है, पर लंबाई और गहराई दोनों गलत हैं।"
+        },
+        "d": {
+          "en": "Wrong edge AND wrong depth — two mistakes at once.",
+          "hi": "गलत किनारा और गलत गहराई — एक साथ दो गलतियाँ।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-geomcomplete-threeway-03",
+      "difficulty": "HARD",
+      "content": {
+        "en": "The missing piece could be on any edge, at any size — check the edge, the span, and the depth all together. Which option (A-D) is the exact match?",
+        "hi": "गायब टुकड़ा किसी भी किनारे पर, किसी भी आकार का हो सकता है — किनारा, लंबाई और गहराई तीनों एक साथ जाँचें। कौन-सा विकल्प (A-D) बिल्कुल मेल खाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-22\" y=\"-22\" width=\"44\" height=\"44\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3\"/><rect x=\"18\" y=\"-8\" width=\"8\" height=\"16\" fill=\"#f8fafc\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-8\" y=\"-4\" width=\"16\" height=\"8\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-2.5\" y=\"-5.5\" width=\"5\" height=\"11\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-8\" y=\"-2\" width=\"16\" height=\"4\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-4\" y=\"-8\" width=\"8\" height=\"16\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The gap is on the right edge, spanning 16 units at a depth of 8 — option D is the only piece matching all three.",
+        "hi": "गैप right किनारे पर है, जिसकी लंबाई 16 इकाई और गहराई 8 है — विकल्प D ही तीनों से मेल खाता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "The size is right, but it's meant for a different edge entirely.",
+          "hi": "आकार सही है, पर यह एक अलग किनारे के लिए बना है।"
+        },
+        "b": {
+          "en": "The edge is right, but both the span and depth are off.",
+          "hi": "किनारा सही है, पर लंबाई और गहराई दोनों गलत हैं।"
+        },
+        "c": {
+          "en": "Wrong edge AND wrong depth — two mistakes at once.",
+          "hi": "गलत किनारा और गलत गहराई — एक साथ दो गलतियाँ।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-geomcomplete-threeway-04",
+      "difficulty": "HARD",
+      "content": {
+        "en": "The missing piece could be on any edge, at any size — check the edge, the span, and the depth all together. Which option (A-D) is the exact match?",
+        "hi": "गायब टुकड़ा किसी भी किनारे पर, किसी भी आकार का हो सकता है — किनारा, लंबाई और गहराई तीनों एक साथ जाँचें। कौन-सा विकल्प (A-D) बिल्कुल मेल खाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-22\" y=\"-22\" width=\"44\" height=\"44\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3\"/><rect x=\"-11\" y=\"16.5\" width=\"22\" height=\"11\" fill=\"#f8fafc\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-11\" y=\"-5.5\" width=\"22\" height=\"11\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-5.5\" y=\"-11\" width=\"11\" height=\"22\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-8.5\" y=\"-4\" width=\"17\" height=\"8\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-3\" y=\"-11\" width=\"6\" height=\"22\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The gap is on the bottom edge, spanning 22 units at a depth of 11 — option A is the only piece matching all three.",
+        "hi": "गैप bottom किनारे पर है, जिसकी लंबाई 22 इकाई और गहराई 11 है — विकल्प A ही तीनों से मेल खाता है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "The size is right, but it's meant for a different edge entirely.",
+          "hi": "आकार सही है, पर यह एक अलग किनारे के लिए बना है।"
+        },
+        "c": {
+          "en": "The edge is right, but both the span and depth are off.",
+          "hi": "किनारा सही है, पर लंबाई और गहराई दोनों गलत हैं।"
+        },
+        "d": {
+          "en": "Wrong edge AND wrong depth — two mistakes at once.",
+          "hi": "गलत किनारा और गलत गहराई — एक साथ दो गलतियाँ।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-geomcomplete-threeway-05",
+      "difficulty": "HARD",
+      "content": {
+        "en": "The missing piece could be on any edge, at any size — check the edge, the span, and the depth all together. Which option (A-D) is the exact match?",
+        "hi": "गायब टुकड़ा किसी भी किनारे पर, किसी भी आकार का हो सकता है — किनारा, लंबाई और गहराई तीनों एक साथ जाँचें। कौन-सा विकल्प (A-D) बिल्कुल मेल खाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-22\" y=\"-22\" width=\"44\" height=\"44\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3\"/><rect x=\"-28\" y=\"-7\" width=\"12\" height=\"14\" fill=\"#f8fafc\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-7\" y=\"-6\" width=\"14\" height=\"12\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-6\" y=\"-7\" width=\"12\" height=\"14\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-4.5\" y=\"-4.5\" width=\"9\" height=\"9\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-7\" y=\"-3.5\" width=\"14\" height=\"7\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The gap is on the left edge, spanning 14 units at a depth of 12 — option B is the only piece matching all three.",
+        "hi": "गैप left किनारे पर है, जिसकी लंबाई 14 इकाई और गहराई 12 है — विकल्प B ही तीनों से मेल खाता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "The size is right, but it's meant for a different edge entirely.",
+          "hi": "आकार सही है, पर यह एक अलग किनारे के लिए बना है।"
+        },
+        "c": {
+          "en": "The edge is right, but both the span and depth are off.",
+          "hi": "किनारा सही है, पर लंबाई और गहराई दोनों गलत हैं।"
+        },
+        "d": {
+          "en": "Wrong edge AND wrong depth — two mistakes at once.",
+          "hi": "गलत किनारा और गलत गहराई — एक साथ दो गलतियाँ।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-geomcomplete-tightdelta-01",
+      "difficulty": "HARD",
+      "content": {
+        "en": "The 4 candidate pieces are all very close in size — look carefully. Which option (A-D) matches the gap exactly, with no difference at all?",
+        "hi": "चारों संभावित टुकड़े आकार में बहुत करीब हैं — ध्यान से देखें। कौन-सा विकल्प (A-D) बिना किसी अंतर के गैप से बिल्कुल मेल खाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><polygon points=\"0,-28 -28,22 28,22\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3\"/><rect x=\"-10\" y=\"17\" width=\"20\" height=\"10\" fill=\"#f8fafc\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-9\" y=\"-5\" width=\"18\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-10\" y=\"-4\" width=\"20\" height=\"8\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-10\" y=\"-5\" width=\"20\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-11\" y=\"-5\" width=\"22\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The gap measures exactly 20 x 10 — option C is the only piece with no difference in either measurement.",
+        "hi": "गैप का सही माप 20 x 10 है — विकल्प C ही ऐसा टुकड़ा है जिसमें किसी भी माप में कोई अंतर नहीं है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Just 2 units narrower than the gap — a subtle undersize.",
+          "hi": "गैप से केवल 2 इकाई कम चौड़ा — एक सूक्ष्म कमी।"
+        },
+        "b": {
+          "en": "Just 2 units shallower than the gap — a subtle undersize.",
+          "hi": "गैप से केवल 2 इकाई कम गहरा — एक सूक्ष्म कमी।"
+        },
+        "d": {
+          "en": "Just 2 units wider than the gap — a subtle oversize.",
+          "hi": "गैप से केवल 2 इकाई अधिक चौड़ा — एक सूक्ष्म अधिकता।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-geomcomplete-tightdelta-02",
+      "difficulty": "HARD",
+      "content": {
+        "en": "The 4 candidate pieces are all very close in size — look carefully. Which option (A-D) matches the gap exactly, with no difference at all?",
+        "hi": "चारों संभावित टुकड़े आकार में बहुत करीब हैं — ध्यान से देखें। कौन-सा विकल्प (A-D) बिना किसी अंतर के गैप से बिल्कुल मेल खाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-22\" y=\"-22\" width=\"44\" height=\"44\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3\"/><rect x=\"-8\" y=\"15\" width=\"16\" height=\"14\" fill=\"#f8fafc\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-7\" y=\"-7\" width=\"14\" height=\"14\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-8\" y=\"-6\" width=\"16\" height=\"12\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-9\" y=\"-7\" width=\"18\" height=\"14\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-8\" y=\"-7\" width=\"16\" height=\"14\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The gap measures exactly 16 x 14 — option D is the only piece with no difference in either measurement.",
+        "hi": "गैप का सही माप 16 x 14 है — विकल्प D ही ऐसा टुकड़ा है जिसमें किसी भी माप में कोई अंतर नहीं है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Just 2 units narrower than the gap — a subtle undersize.",
+          "hi": "गैप से केवल 2 इकाई कम चौड़ा — एक सूक्ष्म कमी।"
+        },
+        "b": {
+          "en": "Just 2 units shallower than the gap — a subtle undersize.",
+          "hi": "गैप से केवल 2 इकाई कम गहरा — एक सूक्ष्म कमी।"
+        },
+        "c": {
+          "en": "Just 2 units wider than the gap — a subtle oversize.",
+          "hi": "गैप से केवल 2 इकाई अधिक चौड़ा — एक सूक्ष्म अधिकता।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-geomcomplete-tightdelta-03",
+      "difficulty": "HARD",
+      "content": {
+        "en": "The 4 candidate pieces are all very close in size — look carefully. Which option (A-D) matches the gap exactly, with no difference at all?",
+        "hi": "चारों संभावित टुकड़े आकार में बहुत करीब हैं — ध्यान से देखें। कौन-सा विकल्प (A-D) बिना किसी अंतर के गैप से बिल्कुल मेल खाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><circle cx=\"0\" cy=\"0\" r=\"23\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3\"/><rect x=\"-12\" y=\"18\" width=\"24\" height=\"8\" fill=\"#f8fafc\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-12\" y=\"-4\" width=\"24\" height=\"8\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-11\" y=\"-4\" width=\"22\" height=\"8\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-12\" y=\"-3\" width=\"24\" height=\"6\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-13\" y=\"-4\" width=\"26\" height=\"8\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The gap measures exactly 24 x 8 — option A is the only piece with no difference in either measurement.",
+        "hi": "गैप का सही माप 24 x 8 है — विकल्प A ही ऐसा टुकड़ा है जिसमें किसी भी माप में कोई अंतर नहीं है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Just 2 units narrower than the gap — a subtle undersize.",
+          "hi": "गैप से केवल 2 इकाई कम चौड़ा — एक सूक्ष्म कमी।"
+        },
+        "c": {
+          "en": "Just 2 units shallower than the gap — a subtle undersize.",
+          "hi": "गैप से केवल 2 इकाई कम गहरा — एक सूक्ष्म कमी।"
+        },
+        "d": {
+          "en": "Just 2 units wider than the gap — a subtle oversize.",
+          "hi": "गैप से केवल 2 इकाई अधिक चौड़ा — एक सूक्ष्म अधिकता।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-geomcomplete-tightdelta-04",
+      "difficulty": "HARD",
+      "content": {
+        "en": "The 4 candidate pieces are all very close in size — look carefully. Which option (A-D) matches the gap exactly, with no difference at all?",
+        "hi": "चारों संभावित टुकड़े आकार में बहुत करीब हैं — ध्यान से देखें। कौन-सा विकल्प (A-D) बिना किसी अंतर के गैप से बिल्कुल मेल खाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><polygon points=\"0,-28 -28,22 28,22\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3\"/><rect x=\"-9\" y=\"16\" width=\"18\" height=\"12\" fill=\"#f8fafc\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-8\" y=\"-6\" width=\"16\" height=\"12\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-9\" y=\"-6\" width=\"18\" height=\"12\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-9\" y=\"-5\" width=\"18\" height=\"10\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-10\" y=\"-6\" width=\"20\" height=\"12\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The gap measures exactly 18 x 12 — option B is the only piece with no difference in either measurement.",
+        "hi": "गैप का सही माप 18 x 12 है — विकल्प B ही ऐसा टुकड़ा है जिसमें किसी भी माप में कोई अंतर नहीं है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Just 2 units narrower than the gap — a subtle undersize.",
+          "hi": "गैप से केवल 2 इकाई कम चौड़ा — एक सूक्ष्म कमी।"
+        },
+        "c": {
+          "en": "Just 2 units shallower than the gap — a subtle undersize.",
+          "hi": "गैप से केवल 2 इकाई कम गहरा — एक सूक्ष्म कमी।"
+        },
+        "d": {
+          "en": "Just 2 units wider than the gap — a subtle oversize.",
+          "hi": "गैप से केवल 2 इकाई अधिक चौड़ा — एक सूक्ष्म अधिकता।"
+        }
+      }
+    },
+    {
+      "key": "bank-ma-geomcomplete-tightdelta-05",
+      "difficulty": "HARD",
+      "content": {
+        "en": "The 4 candidate pieces are all very close in size — look carefully. Which option (A-D) matches the gap exactly, with no difference at all?",
+        "hi": "चारों संभावित टुकड़े आकार में बहुत करीब हैं — ध्यान से देखें। कौन-सा विकल्प (A-D) बिना किसी अंतर के गैप से बिल्कुल मेल खाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "A",
+            "hi": "A"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "B",
+            "hi": "B"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "C",
+            "hi": "C"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "D",
+            "hi": "D"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "figureMetadata": {
+        "type": "svg",
+        "markup": "<svg viewBox=\"0 0 550 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(0,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-22\" y=\"-22\" width=\"44\" height=\"44\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"3\"/><rect x=\"-11\" y=\"14\" width=\"22\" height=\"16\" fill=\"#f8fafc\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">Ref</text>\n  </g><g transform=\"translate(110,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-10\" y=\"-8\" width=\"20\" height=\"16\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">A</text>\n  </g><g transform=\"translate(220,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-11\" y=\"-7\" width=\"22\" height=\"14\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">B</text>\n  </g><g transform=\"translate(330,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-11\" y=\"-8\" width=\"22\" height=\"16\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">C</text>\n  </g><g transform=\"translate(440,0)\">\n    <rect x=\"0\" y=\"0\" width=\"90\" height=\"90\" fill=\"#f8fafc\" stroke=\"#94a3b8\" stroke-width=\"1.5\" rx=\"8\"/>\n    <g transform=\"translate(45,45)\"><rect x=\"-12\" y=\"-8\" width=\"24\" height=\"16\" fill=\"#1e293b\"/></g>\n    <text x=\"45\" y=\"112\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"#334155\" font-family=\"system-ui,sans-serif\">D</text>\n  </g></svg>"
+      },
+      "explanation": {
+        "en": "The gap measures exactly 22 x 16 — option C is the only piece with no difference in either measurement.",
+        "hi": "गैप का सही माप 22 x 16 है — विकल्प C ही ऐसा टुकड़ा है जिसमें किसी भी माप में कोई अंतर नहीं है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Just 2 units narrower than the gap — a subtle undersize.",
+          "hi": "गैप से केवल 2 इकाई कम चौड़ा — एक सूक्ष्म कमी।"
+        },
+        "b": {
+          "en": "Just 2 units shallower than the gap — a subtle undersize.",
+          "hi": "गैप से केवल 2 इकाई कम गहरा — एक सूक्ष्म कमी।"
+        },
+        "d": {
+          "en": "Just 2 units wider than the gap — a subtle oversize.",
+          "hi": "गैप से केवल 2 इकाई अधिक चौड़ा — एक सूक्ष्म अधिकता।"
+        }
+      }
+    }
+  ]
+}

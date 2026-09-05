@@ -10,6 +10,11 @@ import socialAwarenessAudit from "./topic-seed/audit/social-awareness.json";
 import figureMatchingAudit from "./topic-seed/audit/figure-matching.json";
 import figureSeriesAudit from "./topic-seed/audit/figure-series.json";
 import analogyAudit from "./topic-seed/audit/analogy.json";
+import geometricalFigureCompletionAudit from "./topic-seed/audit/geometrical-figure-completion.json";
+import mirrorImagingAudit from "./topic-seed/audit/mirror-imaging.json";
+import waterImagingAudit from "./topic-seed/audit/water-imaging.json";
+import punchedHolePatternAudit from "./topic-seed/audit/punched-hole-pattern.json";
+import embeddedFiguresAudit from "./topic-seed/audit/embedded-figures.json";
 import { buildClassificationQuestions } from "./topic-seed/classification";
 import { buildNumberSeriesQuestions } from "./topic-seed/number-series";
 import { buildPatternCompletionQuestions } from "./topic-seed/pattern-completion";
@@ -143,6 +148,61 @@ async function main() {
       key: "analogy",
       name: { en: "Analogy", hi: "सादृश्य" },
       order: 6,
+    },
+  });
+
+  const geometricalFigureCompletion = await prisma.topic.upsert({
+    where: { sectionId_key: { sectionId: mentalAbility.id, key: "geometrical_figure_completion" } },
+    update: {},
+    create: {
+      sectionId: mentalAbility.id,
+      key: "geometrical_figure_completion",
+      name: { en: "Geometrical Figure Completion", hi: "ज्यामितीय आकृति पूर्णता" },
+      order: 7,
+    },
+  });
+
+  const mirrorImaging = await prisma.topic.upsert({
+    where: { sectionId_key: { sectionId: mentalAbility.id, key: "mirror_imaging" } },
+    update: {},
+    create: {
+      sectionId: mentalAbility.id,
+      key: "mirror_imaging",
+      name: { en: "Mirror Imaging", hi: "दर्पण प्रतिबिंब" },
+      order: 8,
+    },
+  });
+
+  const waterImaging = await prisma.topic.upsert({
+    where: { sectionId_key: { sectionId: mentalAbility.id, key: "water_imaging" } },
+    update: {},
+    create: {
+      sectionId: mentalAbility.id,
+      key: "water_imaging",
+      name: { en: "Water Imaging", hi: "जल प्रतिबिंब" },
+      order: 9,
+    },
+  });
+
+  const punchedHolePattern = await prisma.topic.upsert({
+    where: { sectionId_key: { sectionId: mentalAbility.id, key: "punched_hole_pattern" } },
+    update: {},
+    create: {
+      sectionId: mentalAbility.id,
+      key: "punched_hole_pattern",
+      name: { en: "Punched Hole Pattern", hi: "पंच्ड होल पैटर्न" },
+      order: 10,
+    },
+  });
+
+  const embeddedFigures = await prisma.topic.upsert({
+    where: { sectionId_key: { sectionId: mentalAbility.id, key: "embedded_figures" } },
+    update: {},
+    create: {
+      sectionId: mentalAbility.id,
+      key: "embedded_figures",
+      name: { en: "Embedded Figures", hi: "अंतर्निहित आकृतियाँ" },
+      order: 11,
     },
   });
 
@@ -1165,6 +1225,21 @@ async function main() {
   const figureSeriesPool = fromGenerated(figureSeries.id, loadAuditQuestions(figureSeriesAudit as unknown as AuditFile));
   const analogyPool = fromGenerated(analogy.id, loadAuditQuestions(analogyAudit as unknown as AuditFile));
 
+  // Second visual batch: Geometrical Figure Completion, Mirror Imaging,
+  // Water Imaging, Punched Hole Pattern, Embedded Figures — same
+  // computed-by-construction + loadAuditQuestions defense-in-depth as the
+  // pool above (packages/db/prisma/topic-seed/geometrical-figure-completion.ts,
+  // mirror-imaging.ts, water-imaging.ts, punched-hole-pattern.ts,
+  // embedded-figures.ts).
+  const geometricalFigureCompletionPool = fromGenerated(
+    geometricalFigureCompletion.id,
+    loadAuditQuestions(geometricalFigureCompletionAudit as unknown as AuditFile)
+  );
+  const mirrorImagingPool = fromGenerated(mirrorImaging.id, loadAuditQuestions(mirrorImagingAudit as unknown as AuditFile));
+  const waterImagingPool = fromGenerated(waterImaging.id, loadAuditQuestions(waterImagingAudit as unknown as AuditFile));
+  const punchedHolePatternPool = fromGenerated(punchedHolePattern.id, loadAuditQuestions(punchedHolePatternAudit as unknown as AuditFile));
+  const embeddedFiguresPool = fromGenerated(embeddedFigures.id, loadAuditQuestions(embeddedFiguresAudit as unknown as AuditFile));
+
   const allQuestions = [
     ...mentalAbilityQuestions,
     ...arithmeticQuestions,
@@ -1182,6 +1257,11 @@ async function main() {
     ...figureMatchingPool,
     ...figureSeriesPool,
     ...analogyPool,
+    ...geometricalFigureCompletionPool,
+    ...mirrorImagingPool,
+    ...waterImagingPool,
+    ...punchedHolePatternPool,
+    ...embeddedFiguresPool,
   ];
 
   let newQuestionCount = 0;
