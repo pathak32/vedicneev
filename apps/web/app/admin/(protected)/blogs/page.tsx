@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Button } from "@vedicneev/ui";
 import { DEFAULT_BLOG_PUBLISH_BATCH_SIZE, MAX_BLOG_PUBLISH_BATCH_SIZE } from "@vedicneev/db";
+import type { BlogPost } from "@vedicneev/db";
 import { PenSquare } from "lucide-react";
 
 import { BlogPostRow } from "@/components/admin/BlogPostRow";
@@ -11,8 +12,8 @@ export const dynamic = "force-dynamic";
 
 export default async function AdminBlogsPage() {
   const posts = await getAllPostsForAdmin();
-  const drafts = posts.filter((p) => p.status === "DRAFT");
-  const published = posts.filter((p) => p.status === "PUBLISHED");
+  const drafts = posts.filter((p: BlogPost) => p.status === "DRAFT");
+  const published = posts.filter((p: BlogPost) => p.status === "PUBLISHED");
 
   const draftsByCategory = new Map<string, typeof drafts>();
   for (const post of drafts) {

@@ -72,7 +72,14 @@ export const config = {
     "/admin/:path*",
     "/api/admin/:path*",
     // Supabase session refresh for everything else, excluding static
-    // assets/images — the standard @supabase/ssr example matcher.
-    "/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)",
+    // assets/images (the standard @supabase/ssr example matcher) and
+    // /api/exam/submit. That route needs no Supabase-cookie refresh (it
+    // authenticates by phone in its own body, not a Supabase session) and
+    // refreshSupabaseSession's `NextResponse.next({ request })` re-wraps
+    // the request in a way that can consume/drop a POST body before it
+    // reaches the route handler — see the empty-body guard added to
+    // app/api/exam/submit/route.ts, which this exclusion stops from
+    // being needed in the first place.
+    "/((?!_next/static|_next/image|favicon.ico|api/exam/submit|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)",
   ],
 };
