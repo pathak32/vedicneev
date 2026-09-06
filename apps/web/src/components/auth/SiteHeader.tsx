@@ -8,6 +8,7 @@ import { Sparkles } from "lucide-react";
 
 import { useActiveStudent } from "@/lib/auth/ActiveStudentContext";
 import { selectActiveAccount, useAuthStore } from "@/lib/auth/useAuthStore";
+import { ExamDropdown } from "./ExamDropdown";
 import { PhoneAuthModal } from "./PhoneAuthModal";
 import { StudentSwitcherDropdown } from "./StudentSwitcherDropdown";
 
@@ -37,6 +38,7 @@ export function SiteHeader() {
             Dashboard
           </Link>
         ) : null}
+        {isAuthenticated ? <ExamDropdown /> : null}
         {isAuthenticated ? (
           <Link href="/practice" className="text-sm text-muted-foreground hover:text-foreground">
             Practice

@@ -2,12 +2,20 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { Badge, Button, Card, CardContent, CardHeader, CardTitle } from "@vedicneev/ui";
+import { Badge, Button, Card, CardContent, CardHeader, CardTitle, cn } from "@vedicneev/ui";
 
 import { useActiveStudent } from "@/lib/auth/ActiveStudentContext";
 import { localize } from "@/lib/exam/localize";
 import type { PracticeTopicSummary } from "@/lib/exam/topicPracticeService";
 import { useLanguageStore } from "@/lib/hooks/useLanguageStore";
+
+type TrackFilter = "ALL" | "JNVST" | "AISSEE" | "RMS";
+const TRACK_FILTERS: { value: TrackFilter; label: string }[] = [
+  { value: "ALL", label: "All Tracks" },
+  { value: "JNVST", label: "JNVST Only" },
+  { value: "AISSEE", label: "AISSEE Only" },
+  { value: "RMS", label: "RMS Only" },
+];
 
 // Session-specific once the student's target exam is known, same as
 // app/practice/[topicKey] — noindex is applied by this route's own layout.
@@ -29,6 +37,7 @@ export default function PracticeCatalogPage() {
   const { activeStudent } = useActiveStudent();
   const language = useLanguageStore((s) => s.languageCode);
   const [state, setState] = useState<LoadState>({ status: "loading" });
+  const [trackFilter, setTrackFilter] = useState<TrackFilter>("ALL");
 
   useEffect(() => {
     let cancelled = false;
@@ -70,8 +79,14 @@ export default function PracticeCatalogPage() {
     );
   }
 
+  // Filters purely over the already-fetched (and already entitlement-scoped)
+  // topic list — a pill for a track the student isn't on never fetches or
+  // reveals anything new, it just narrows what's already safe to show them.
+  const filteredTopics =
+    trackFilter === "ALL" ? state.topics : state.topics.filter((t) => t.targetExam === trackFilter);
+
   const bySection = new Map<string, { name: string; topics: PracticeTopicSummary[] }>();
-  for (const topic of state.topics) {
+  for (const topic of filteredTopics) {
     const bucket = bySection.get(topic.sectionKey) ?? { name: localize(topic.sectionName, language), topics: [] };
     bucket.topics.push(topic);
     bySection.set(topic.sectionKey, bucket);
@@ -79,17 +94,38 @@ export default function PracticeCatalogPage() {
 
   return (
     <div className="mx-auto flex max-w-4xl flex-col gap-8 p-4 pb-16 md:p-8">
-      <div>
-        <h1 className="text-xl font-bold text-foreground">Practice by Topic</h1>
-        <p className="text-sm text-muted-foreground">
-          {activeStudent
-            ? `Showing topics for ${activeStudent.targetExam}, plus every topic open to all students.`
-            : "Sign in and set a target exam to see exam-specific topics too."}
-        </p>
+      <div className="flex flex-col gap-4">
+        <div>
+          <h1 className="text-xl font-bold text-foreground">Practice by Topic</h1>
+          <p className="text-sm text-muted-foreground">
+            {activeStudent
+              ? `Showing topics for ${activeStudent.targetExam}, plus every topic open to all students.`
+              : "Sign in and set a target exam to see exam-specific topics too."}
+          </p>
+        </div>
+        <div className="flex flex-wrap gap-2">
+          {TRACK_FILTERS.map((pill) => (
+            <button
+              key={pill.value}
+              type="button"
+              onClick={() => setTrackFilter(pill.value)}
+              className={cn(
+                "rounded-full border px-3 py-1 text-xs font-medium transition-colors",
+                trackFilter === pill.value
+                  ? "border-primary bg-primary/10 text-foreground"
+                  : "border-border text-muted-foreground hover:border-primary/50"
+              )}
+            >
+              {pill.label}
+            </button>
+          ))}
+        </div>
       </div>
 
-      {state.topics.length === 0 ? (
-        <p className="text-sm text-muted-foreground">No practice topics are available yet.</p>
+      {filteredTopics.length === 0 ? (
+        <p className="text-sm text-muted-foreground">
+          {state.topics.length === 0 ? "No practice topics are available yet." : "No topics match this filter."}
+        </p>
       ) : (
         Array.from(bySection.entries()).map(([sectionKey, bucket]) => (
           <div key={sectionKey} className="flex flex-col gap-3">
