@@ -1,4 +1,4 @@
-import { prisma, type ExamType } from "@vedicneev/db";
+import { prisma, type ContentClassLevel, type ExamType } from "@vedicneev/db";
 
 import { asExamOption, asFigureMetadata, asMultilingual } from "./questionHydration";
 import type {
@@ -21,22 +21,39 @@ export interface PracticeTopicSummary {
   questionCount: number;
   /** Null means exam-agnostic — shown to every student regardless of their chosen target exam. See Topic.targetExam. */
   targetExam: string | null;
+  /** Never null in this summary — see Topic.targetClass's own doc comment for why null there means CLASS_6, not "any class"; this field always reports the resolved value (CLASS_6 when the underlying column is null). */
+  targetClass: ContentClassLevel;
 }
 
 /**
  * Lists every practice-able Topic (has at least one seeded Question),
- * filtered by exam relevance: a topic with no targetExam is exam-agnostic
- * and always included; a topic tagged for one exam is included only when
- * it matches the caller's `targetExam`. Passing no `targetExam` (e.g. a
- * signed-out visitor, or a student who hasn't set one) returns only the
- * exam-agnostic topics — the safe default, never leaking an
- * exam-restricted bank to the wrong audience. Read-only and
- * side-effect-free.
+ * filtered by exam AND grade relevance:
+ *
+ * - Exam: a topic with no targetExam is exam-agnostic and always included;
+ *   a topic tagged for one exam is included only when it matches the
+ *   caller's `targetExam`. Passing no `targetExam` returns only the
+ *   exam-agnostic topics — the safe default.
+ *
+ * - Class: unlike targetExam, a null Topic.targetClass does NOT mean
+ *   "shown to every grade" — it means CLASS_6, the grade this schema
+ *   originally (and solely) supported before targetClass existed (see
+ *   that column's own doc comment in schema.prisma). So a CLASS_9 caller
+ *   sees only explicitly CLASS_9-tagged topics, and everyone else (no
+ *   `targetClass` passed, or an explicit CLASS_6) sees null-or-CLASS_6
+ *   topics — never both, since there's no "grade-agnostic" topic today.
+ *
+ * Both filters apply together (AND), so a CLASS_9 AISSEE student sees only
+ * topics that are (exam-agnostic OR AISSEE) AND CLASS_9-tagged. Read-only
+ * and side-effect-free.
  */
-export async function listPracticeTopics(targetExam?: string): Promise<PracticeTopicSummary[]> {
-  const where = targetExam ? { OR: [{ targetExam: null }, { targetExam: targetExam as ExamType }] } : { targetExam: null };
+export async function listPracticeTopics(targetExam?: string, targetClass?: string): Promise<PracticeTopicSummary[]> {
+  const examWhere = targetExam ? { OR: [{ targetExam: null }, { targetExam: targetExam as ExamType }] } : { targetExam: null };
+  const resolvedClass: ContentClassLevel = targetClass === "CLASS_9" ? "CLASS_9" : "CLASS_6";
+  const classWhere: { targetClass: ContentClassLevel } | { OR: { targetClass: ContentClassLevel | null }[] } =
+    resolvedClass === "CLASS_9" ? { targetClass: "CLASS_9" } : { OR: [{ targetClass: null }, { targetClass: "CLASS_6" }] };
+
   const topics = await prisma.topic.findMany({
-    where,
+    where: { AND: [examWhere, classWhere] },
     include: { section: true, _count: { select: { questions: true } } },
     orderBy: [{ section: { order: "asc" } }, { order: "asc" }],
   });
@@ -49,6 +66,7 @@ export async function listPracticeTopics(targetExam?: string): Promise<PracticeT
       sectionName: asMultilingual(t.section.name, `Section ${t.section.key} name`),
       questionCount: t._count.questions,
       targetExam: t.targetExam,
+      targetClass: t.targetClass ?? "CLASS_6",
     }));
 }
 

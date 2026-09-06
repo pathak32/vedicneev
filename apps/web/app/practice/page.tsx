@@ -17,6 +17,11 @@ const TRACK_FILTERS: { value: TrackFilter; label: string }[] = [
   { value: "RMS", label: "RMS Only" },
 ];
 
+/** Maps a student's raw grade (StudentProfile.targetClass, 5|6|8|9 — the grade they're seeking admission into) to the content-classification the topic bank uses: 5/6 need Class 6 entrance content, 8/9 need Class 9 lateral-entry content. Mirrors ExamTemplate.classLevel's own 6-vs-9 split. */
+function contentClassForGrade(grade: number): "CLASS_6" | "CLASS_9" {
+  return grade >= 8 ? "CLASS_9" : "CLASS_6";
+}
+
 // Session-specific once the student's target exam is known, same as
 // app/practice/[topicKey] — noindex is applied by this route's own layout.
 export const dynamic = "force-dynamic";
@@ -43,7 +48,10 @@ export default function PracticeCatalogPage() {
     let cancelled = false;
     setState({ status: "loading" });
 
-    const query = activeStudent?.targetExam ? `?targetExam=${encodeURIComponent(activeStudent.targetExam)}` : "";
+    const params = new URLSearchParams();
+    if (activeStudent?.targetExam) params.set("targetExam", activeStudent.targetExam);
+    if (activeStudent?.targetClass) params.set("targetClass", contentClassForGrade(activeStudent.targetClass));
+    const query = params.toString() ? `?${params.toString()}` : "";
     fetch(`/api/practice${query}`)
       .then(async (res) => {
         const data = await res.json();
@@ -60,7 +68,7 @@ export default function PracticeCatalogPage() {
     return () => {
       cancelled = true;
     };
-  }, [activeStudent?.targetExam]);
+  }, [activeStudent?.targetExam, activeStudent?.targetClass]);
 
   if (state.status === "loading") {
     return (
@@ -99,7 +107,7 @@ export default function PracticeCatalogPage() {
           <h1 className="text-xl font-bold text-foreground">Practice by Topic</h1>
           <p className="text-sm text-muted-foreground">
             {activeStudent
-              ? `Showing topics for ${activeStudent.targetExam}, plus every topic open to all students.`
+              ? `Showing topics for ${activeStudent.targetExam} · Class ${activeStudent.targetClass}, plus every topic open to all students.`
               : "Sign in and set a target exam to see exam-specific topics too."}
           </p>
         </div>
@@ -135,7 +143,10 @@ export default function PracticeCatalogPage() {
                 <Card key={topic.key}>
                   <CardHeader className="flex flex-row items-start justify-between gap-2 space-y-0">
                     <CardTitle className="text-base">{localize(topic.name, language)}</CardTitle>
-                    {topic.targetExam ? <Badge variant="secondary">{topic.targetExam} only</Badge> : null}
+                    <div className="flex flex-wrap justify-end gap-1">
+                      {topic.targetExam ? <Badge variant="secondary">{topic.targetExam} only</Badge> : null}
+                      {topic.targetClass === "CLASS_9" ? <Badge variant="secondary">Class 9 only</Badge> : null}
+                    </div>
                   </CardHeader>
                   <CardContent className="flex items-center justify-between gap-3">
                     <span className="text-xs text-muted-foreground">{topic.questionCount} questions</span>
