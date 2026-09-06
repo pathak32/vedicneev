@@ -1,0 +1,1158 @@
+{
+  "examType": "AISSEE",
+  "classLevel": 9,
+  "sectionKey": "science",
+  "generatedAt": "2026-09-06T14:19:32.111Z",
+  "questions": [
+    {
+      "key": "aissee9-2022-sci-01",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "A car moves along a circular track at a constant speed of 20 m/s. Is the car's velocity constant throughout the motion?",
+        "hi": "एक कार 20 मीटर/सेकंड की स्थिर चाल से एक वृत्ताकार पथ पर चलती है। क्या गति के दौरान कार का वेग स्थिर रहता है?"
+      },
+      "optionsJson": [
+        {
+          "en": "No, because velocity is a vector and the direction of motion keeps changing even though speed is constant",
+          "hi": "नहीं, क्योंकि वेग एक सदिश राशि है और चाल स्थिर होने पर भी गति की दिशा लगातार बदलती रहती है"
+        },
+        {
+          "en": "Yes, because the car's acceleration is zero on a circular track",
+          "hi": "हाँ, क्योंकि वृत्ताकार पथ पर कार का त्वरण शून्य होता है"
+        },
+        {
+          "en": "No, because the car's speed must also be continuously changing on a circular track",
+          "hi": "नहीं, क्योंकि वृत्ताकार पथ पर कार की चाल भी लगातार बदलनी चाहिए"
+        },
+        {
+          "en": "Yes, because velocity and speed always mean the same thing",
+          "hi": "हाँ, क्योंकि वेग और चाल का हमेशा एक ही अर्थ होता है"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Velocity is a vector quantity — it has both magnitude (speed) and direction. On a circular track, even though the car's speed remains constant at 20 m/s, its direction of motion changes continuously at every point of the circle, so its velocity is not constant. (This continuously changing velocity is what produces centripetal acceleration, even though the speed itself does not change.)",
+        "hi": "वेग एक सदिश राशि है — इसका परिमाण (चाल) और दिशा दोनों होते हैं। वृत्ताकार पथ पर, भले ही कार की चाल 20 मीटर/सेकंड पर स्थिर रहे, प्रत्येक बिंदु पर इसकी गति की दिशा लगातार बदलती रहती है, इसलिए इसका वेग स्थिर नहीं है। (यह लगातार बदलता वेग ही अभिकेंद्री त्वरण उत्पन्न करता है, भले ही चाल स्वयं न बदले।)"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Since velocity is changing direction throughout the circular path, the car does have acceleration (directed toward the centre); zero acceleration would require the velocity to be completely unchanged.",
+          "hi": "चूँकि वृत्ताकार पथ पर वेग की दिशा लगातार बदलती रहती है, कार में त्वरण होता है (केंद्र की ओर निर्देशित); शून्य त्वरण के लिए वेग का पूरी तरह अपरिवर्तित रहना आवश्यक होगा।"
+        },
+        "2": {
+          "en": "The question states the speed is constant at 20 m/s; only the direction of motion changes on the circular track, not the magnitude of speed.",
+          "hi": "प्रश्न में बताया गया है कि चाल 20 मीटर/सेकंड पर स्थिर है; वृत्ताकार पथ पर केवल गति की दिशा बदलती है, चाल का परिमाण नहीं।"
+        },
+        "3": {
+          "en": "This confuses speed (a scalar, magnitude only) with velocity (a vector, magnitude and direction); the two terms are not interchangeable in physics.",
+          "hi": "यह चाल (एक अदिश राशि, केवल परिमाण) को वेग (एक सदिश राशि, परिमाण और दिशा दोनों) के साथ भ्रमित करता है; भौतिकी में दोनों शब्द परस्पर बदले नहीं जा सकते।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2022-sci-02",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Two objects attract each other with a certain gravitational force F. If the mass of one object is doubled and the distance between them is also doubled, what is the new gravitational force in terms of F?",
+        "hi": "दो वस्तुएँ एक-दूसरे को एक निश्चित गुरुत्वाकर्षण बल F से आकर्षित करती हैं। यदि एक वस्तु का द्रव्यमान दोगुना कर दिया जाए और उनके बीच की दूरी भी दोगुनी कर दी जाए, तो F के संदर्भ में नया गुरुत्वाकर्षण बल कितना होगा?"
+      },
+      "optionsJson": [
+        {
+          "en": "F/4",
+          "hi": "F/4"
+        },
+        {
+          "en": "F/2",
+          "hi": "F/2"
+        },
+        {
+          "en": "F",
+          "hi": "F"
+        },
+        {
+          "en": "2F",
+          "hi": "2F"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "F = Gm1m2/r². Doubling one mass multiplies force by 2; doubling the distance divides force by 2² = 4. Combined effect: F' = (2 × F)/4 = F/2.",
+        "hi": "F = Gm₁m₂/r²। एक द्रव्यमान को दोगुना करने से बल 2 गुना हो जाता है; दूरी को दोगुना करने से बल 2² = 4 गुना कम हो जाता है। संयुक्त प्रभाव: F' = (2 × F)/4 = F/2।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "This accounts only for the doubled distance (which alone would reduce force to one-fourth) while ignoring that doubling one mass simultaneously doubles the force, partially offsetting that reduction.",
+          "hi": "यह केवल दोगुनी दूरी को ध्यान में रखता है (जो अकेले बल को एक-चौथाई कर देती) जबकि यह नज़रअंदाज़ करता है कि एक द्रव्यमान को दोगुना करने से बल भी साथ ही दोगुना होता है, जो इस कमी को आंशिक रूप से संतुलित करता है।"
+        },
+        "2": {
+          "en": "This assumes the two changes (doubling mass, doubling distance) exactly cancel out; but doubling mass multiplies force by 2 while doubling distance divides it by 4, so they do not cancel — the net effect is a reduction to half, not no change.",
+          "hi": "यह मानता है कि दोनों परिवर्तन (द्रव्यमान दोगुना, दूरी दोगुनी) एक-दूसरे को पूरी तरह निरस्त कर देते हैं; लेकिन द्रव्यमान दोगुना करने से बल 2 गुना होता है जबकि दूरी दोगुनी करने से यह 4 गुना कम होता है, इसलिए वे निरस्त नहीं होते — शुद्ध प्रभाव आधा होना है, अपरिवर्तित नहीं।"
+        },
+        "3": {
+          "en": "This accounts only for the doubled mass (which alone would double the force) while ignoring the inverse-square effect of doubling the distance, which reduces force by a factor of 4.",
+          "hi": "यह केवल दोगुने द्रव्यमान को ध्यान में रखता है (जो अकेले बल को दोगुना कर देता) जबकि दूरी दोगुनी करने के व्युत्क्रम-वर्ग प्रभाव की उपेक्षा करता है, जो बल को 4 गुना कम कर देता है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2022-sci-03",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Freshly washed clothes dry faster on a windy day than on a still (windless) day, even at the same temperature. What is the main reason for this?",
+        "hi": "समान तापमान पर भी, हवा वाले दिन ताज़े धुले कपड़े शांत (हवा रहित) दिन की तुलना में तेज़ी से सूखते हैं। इसका मुख्य कारण क्या है?"
+      },
+      "optionsJson": [
+        {
+          "en": "Wind directly converts the liquid water in the clothes into ice, which then sublimes away quickly",
+          "hi": "हवा कपड़ों में मौजूद द्रव जल को सीधे बर्फ में बदल देती है, जो फिर तेज़ी से उर्ध्वपातित (sublime) हो जाती है"
+        },
+        {
+          "en": "Wind increases the temperature of the surrounding air, which speeds up evaporation",
+          "hi": "हवा आसपास की वायु का तापमान बढ़ा देती है, जिससे वाष्पीकरण तेज़ हो जाता है"
+        },
+        {
+          "en": "Wind carries away the water vapour molecules near the cloth's surface, keeping the surrounding air less saturated and allowing evaporation to continue faster",
+          "hi": "हवा कपड़े की सतह के पास मौजूद जल वाष्प के अणुओं को दूर ले जाती है, जिससे आसपास की वायु कम संतृप्त रहती है और वाष्पीकरण तेज़ी से जारी रह पाता है"
+        },
+        {
+          "en": "Wind changes the boiling point of the water present in the clothes",
+          "hi": "हवा कपड़ों में मौजूद जल का क्वथनांक बदल देती है"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The rate of evaporation increases when the vapour molecules leaving a liquid's surface are carried away quickly, since this keeps the air near the surface from becoming saturated with vapour. Wind does exactly this — it continuously replaces the humid air just above the wet cloth with drier air, so more water molecules can escape into the vapour phase, drying the clothes faster.",
+        "hi": "वाष्पीकरण की दर तब बढ़ती है जब द्रव की सतह से निकलने वाले वाष्प के अणुओं को तेज़ी से दूर ले जाया जाता है, क्योंकि इससे सतह के पास की वायु वाष्प से संतृप्त नहीं हो पाती। हवा ठीक यही करती है — यह गीले कपड़े के ठीक ऊपर की नम वायु को लगातार शुष्क वायु से बदलती रहती है, जिससे अधिक जल अणु वाष्प अवस्था में जा पाते हैं, और कपड़े तेज़ी से सूखते हैं।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "There is no freezing or sublimation of ice involved in clothes drying at room temperature; the water simply evaporates directly as a liquid turning into vapour.",
+          "hi": "कमरे के तापमान पर कपड़े सूखने में बर्फ का जमना या उर्ध्वपातन शामिल नहीं होता; जल केवल सीधे द्रव से वाष्प में बदलकर वाष्पित हो जाता है।"
+        },
+        "1": {
+          "en": "Wind does not raise the air's temperature; the increased evaporation is due to vapour molecules being swept away, keeping the air near the surface unsaturated, not due to any temperature rise.",
+          "hi": "हवा वायु के तापमान को नहीं बढ़ाती; बढ़ा हुआ वाष्पीकरण वाष्प के अणुओं के दूर हटाए जाने के कारण होता है, जिससे सतह के पास की वायु असंतृप्त रहती है, तापमान में किसी वृद्धि के कारण नहीं।"
+        },
+        "3": {
+          "en": "Evaporation of water from wet clothes at room temperature is unrelated to the boiling point; boiling occurs only when a liquid is heated to its boiling point, which is a completely different process from ordinary evaporation.",
+          "hi": "कमरे के तापमान पर गीले कपड़ों से जल का वाष्पीकरण क्वथनांक से असंबंधित है; क्वथन तभी होता है जब किसी द्रव को उसके क्वथनांक तक गर्म किया जाए, जो सामान्य वाष्पीकरण से पूरी तरह भिन्न प्रक्रिया है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2022-sci-04",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Aluminium has a valency of 3, and oxygen has a valency of 2. What is the correct chemical formula for aluminium oxide?",
+        "hi": "एल्युमिनियम की संयोजकता 3 है, और ऑक्सीजन की संयोजकता 2 है। एल्युमिनियम ऑक्साइड का सही रासायनिक सूत्र क्या है?"
+      },
+      "optionsJson": [
+        {
+          "en": "Al3O2",
+          "hi": "Al3O2"
+        },
+        {
+          "en": "AlO3",
+          "hi": "AlO3"
+        },
+        {
+          "en": "AlO",
+          "hi": "AlO"
+        },
+        {
+          "en": "Al2O3",
+          "hi": "Al2O3"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "By the criss-cross method, the valency of each element becomes the subscript of the other in the formula: aluminium's valency (3) becomes oxygen's subscript, and oxygen's valency (2) becomes aluminium's subscript. This gives Al2O3, which also has balanced total charge: 2 Al atoms × (+3) = +6, and 3 O atoms × (−2) = −6.",
+        "hi": "क्रॉस-गुणा (criss-cross) विधि द्वारा, प्रत्येक तत्व की संयोजकता सूत्र में दूसरे तत्व की अधोलिपि (subscript) बन जाती है: एल्युमिनियम की संयोजकता (3) ऑक्सीजन की अधोलिपि बनती है, और ऑक्सीजन की संयोजकता (2) एल्युमिनियम की अधोलिपि बनती है। इससे Al2O3 प्राप्त होता है, जिसमें कुल आवेश भी संतुलित है: 2 Al परमाणु × (+3) = +6, और 3 O परमाणु × (−2) = −6।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "This mistakenly uses each element's own valency as its own subscript (Al's valency 3 as Al's subscript, O's valency 2 as O's subscript) instead of criss-crossing them, giving Al3O2 rather than the correctly balanced Al2O3.",
+          "hi": "यह गलती से प्रत्येक तत्व की अपनी संयोजकता को उसी की अधोलिपि के रूप में उपयोग करता है (Al की संयोजकता 3 को Al की अधोलिपि, O की संयोजकता 2 को O की अधोलिपि) बजाय उन्हें क्रॉस करने के, जिससे सही रूप से संतुलित Al2O3 के बजाय Al3O2 प्राप्त होता है।"
+        },
+        "1": {
+          "en": "This applies aluminium's valency (3) as oxygen's subscript correctly but leaves aluminium's own subscript at 1 instead of using oxygen's valency (2) as aluminium's subscript, leaving the total charge unbalanced (+3 vs -6).",
+          "hi": "यह एल्युमिनियम की संयोजकता (3) को सही ढंग से ऑक्सीजन की अधोलिपि के रूप में लागू करता है परंतु एल्युमिनियम की अपनी अधोलिपि को 1 पर छोड़ देता है, बजाय ऑक्सीजन की संयोजकता (2) को एल्युमिनियम की अधोलिपि के रूप में उपयोग करने के, जिससे कुल आवेश असंतुलित (+3 बनाम −6) रह जाता है।"
+        },
+        "2": {
+          "en": "This assumes both elements combine in a 1:1 ratio, ignoring that aluminium's valency (3) and oxygen's valency (2) are different and must be cross-multiplied to balance total charge.",
+          "hi": "यह मानता है कि दोनों तत्व 1:1 अनुपात में संयोजित होते हैं, यह नज़रअंदाज़ करते हुए कि एल्युमिनियम की संयोजकता (3) और ऑक्सीजन की संयोजकता (2) भिन्न हैं और कुल आवेश संतुलित करने के लिए क्रॉस-गुणा आवश्यक है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2022-sci-05",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Which plant tissue is mainly responsible for transporting water and dissolved minerals upward from the roots to the rest of the plant?",
+        "hi": "कौन-सा पादप ऊतक जड़ों से पौधे के बाकी हिस्सों तक जल और घुले हुए खनिजों को ऊपर की ओर पहुँचाने के लिए मुख्य रूप से उत्तरदायी है?"
+      },
+      "optionsJson": [
+        {
+          "en": "Xylem",
+          "hi": "जाइलम (Xylem)"
+        },
+        {
+          "en": "Parenchyma",
+          "hi": "पैरेन्काइमा (Parenchyma)"
+        },
+        {
+          "en": "Epidermis",
+          "hi": "एपिडर्मिस (Epidermis)"
+        },
+        {
+          "en": "Phloem",
+          "hi": "फ्लोएम (Phloem)"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Xylem is the complex permanent tissue made up of tracheids and vessels that conducts water and dissolved minerals from the roots upward through the stem to the leaves and other parts of the plant.",
+        "hi": "जाइलम एक जटिल स्थायी ऊतक है जो ट्रेकीड्स (tracheids) और वाहिकाओं (vessels) से बना होता है और जड़ों से जल तथा घुले हुए खनिजों को तने के माध्यम से ऊपर पत्तियों और पौधे के अन्य भागों तक पहुँचाता है।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Parenchyma is a simple permanent tissue mainly involved in storage, photosynthesis, and filling spaces between other tissues; it is not the specialised conducting tissue for water transport.",
+          "hi": "पैरेन्काइमा एक साधारण स्थायी ऊतक है जो मुख्यतः भंडारण, प्रकाश संश्लेषण, और अन्य ऊतकों के बीच खाली स्थान भरने में शामिल होता है; यह जल परिवहन के लिए विशेषीकृत संवाहक ऊतक नहीं है।"
+        },
+        "2": {
+          "en": "Epidermis is the outermost protective covering of the plant body (leaves, stems, roots); it protects against water loss and injury but does not itself conduct water upward through the plant.",
+          "hi": "एपिडर्मिस पौधे के शरीर (पत्तियों, तनों, जड़ों) का सबसे बाहरी सुरक्षात्मक आवरण है; यह जल हानि और चोट से रक्षा करता है परंतु स्वयं पौधे में जल को ऊपर की ओर संवाहित नहीं करता।"
+        },
+        "3": {
+          "en": "Phloem is the complex tissue that transports food (mainly sucrose) made in the leaves to other parts of the plant; it does not carry water and minerals from the roots.",
+          "hi": "फ्लोएम वह जटिल ऊतक है जो पत्तियों में बने भोजन (मुख्यतः सुक्रोज) को पौधे के अन्य भागों तक पहुँचाता है; यह जड़ों से जल और खनिज नहीं ले जाता।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2023-sci-01",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "A student travels the first half of a certain distance at a speed of 20 km/h and the second half of the same distance at a speed of 30 km/h. What is the student's average speed for the entire journey?",
+        "hi": "एक छात्र एक निश्चित दूरी के पहले आधे भाग को 20 किमी/घंटा की चाल से तथा उसी दूरी के दूसरे आधे भाग को 30 किमी/घंटा की चाल से तय करता है। पूरी यात्रा के लिए छात्र की औसत चाल कितनी है?"
+      },
+      "optionsJson": [
+        {
+          "en": "25 km/h",
+          "hi": "25 किमी/घंटा"
+        },
+        {
+          "en": "24 km/h",
+          "hi": "24 किमी/घंटा"
+        },
+        {
+          "en": "20 km/h",
+          "hi": "20 किमी/घंटा"
+        },
+        {
+          "en": "50 km/h",
+          "hi": "50 किमी/घंटा"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Average speed = total distance / total time, not the simple arithmetic mean of the two speeds. Let each half of the distance be d km. Time for first half = d/20 h, time for second half = d/30 h. Total time = d/20 + d/30 = 5d/60 = d/12 h. Total distance = 2d km. Average speed = 2d ÷ (d/12) = 24 km/h.",
+        "hi": "औसत चाल = कुल दूरी / कुल समय, न कि दो चालों का साधारण अंकगणितीय औसत। मान लीजिए दूरी का प्रत्येक आधा भाग d किमी है। पहले आधे भाग के लिए समय = d/20 घंटा, दूसरे आधे भाग के लिए समय = d/30 घंटा। कुल समय = d/20 + d/30 = 5d/60 = d/12 घंटा। कुल दूरी = 2d किमी। औसत चाल = 2d ÷ (d/12) = 24 किमी/घंटा।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "This is the simple arithmetic mean of the two speeds, (20+30)/2 = 25 km/h; but average speed for equal distances (not equal times) at different speeds is not a simple average — it must be calculated from total distance divided by total time.",
+          "hi": "यह दोनों चालों का साधारण अंकगणितीय औसत है, (20+30)/2 = 25 किमी/घंटा; परंतु बराबर दूरियों (बराबर समय नहीं) पर भिन्न चालों की औसत चाल एक साधारण औसत नहीं होती — इसे कुल दूरी को कुल समय से भाग देकर ही निकालना होता है।"
+        },
+        "2": {
+          "en": "This is just the first of the two speeds (20 km/h) taken directly, ignoring the faster second half of the journey and the correct total-distance-over-total-time calculation.",
+          "hi": "यह केवल दो चालों में से पहली (20 किमी/घंटा) सीधे ले ली गई है, यात्रा के तेज़ दूसरे आधे भाग और सही कुल-दूरी-बटा-कुल-समय गणना की उपेक्षा करते हुए।"
+        },
+        "3": {
+          "en": "This comes from incorrectly adding the two speeds (20 + 30 = 50) instead of properly combining the two unequal time intervals through the total distance and total time.",
+          "hi": "यह दोनों चालों को गलत तरीके से जोड़ने (20 + 30 = 50) से प्राप्त होता है, बजाय इसके कि दो असमान समय अंतरालों को कुल दूरी और कुल समय के माध्यम से सही ढंग से संयोजित किया जाए।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2023-sci-02",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "A block is pulled 8 m across a rough horizontal floor by a constant applied force, against a constant frictional force of 15 N acting opposite to the motion. How much work is done by the force of friction on the block?",
+        "hi": "एक ब्लॉक को एक स्थिर आरोपित बल द्वारा एक खुरदरे क्षैतिज फर्श पर 8 मीटर खींचा जाता है, जबकि गति के विपरीत दिशा में 15 न्यूटन का स्थिर घर्षण बल कार्य करता है। घर्षण बल द्वारा ब्लॉक पर कितना कार्य किया जाता है?"
+      },
+      "optionsJson": [
+        {
+          "en": "-7.5 J",
+          "hi": "−7.5 जूल"
+        },
+        {
+          "en": "+120 J",
+          "hi": "+120 जूल"
+        },
+        {
+          "en": "-120 J",
+          "hi": "−120 जूल"
+        },
+        {
+          "en": "0 J",
+          "hi": "0 जूल"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Friction acts opposite to the direction of motion, so the angle between the frictional force and displacement is 180°, and cos180° = −1. Work done by friction = F × d × cos180° = 15 N × 8 m × (−1) = −120 J. The negative sign shows that friction removes energy from the block's motion.",
+        "hi": "घर्षण गति की दिशा के विपरीत कार्य करता है, इसलिए घर्षण बल और विस्थापन के बीच का कोण 180° है, और cos180° = −1। घर्षण द्वारा किया गया कार्य = F × d × cos180° = 15 न्यूटन × 8 मीटर × (−1) = −120 जूल। ऋणात्मक चिह्न दर्शाता है कि घर्षण ब्लॉक की गति से ऊर्जा हटाता है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "This resembles half of the frictional force (15/2 = 7.5) reported directly as the work value, without multiplying by the 8 m distance moved at all.",
+          "hi": "यह घर्षण बल के आधे मान (15/2 = 7.5) जैसा प्रतीत होता है जिसे सीधे कार्य के मान के रूप में बता दिया गया है, बिना इसे तय की गई 8 मीटर दूरी से गुणा किए।"
+        },
+        "1": {
+          "en": "This has the correct magnitude (15 × 8 = 120 J) but the wrong sign; friction opposes the displacement (angle 180°), so the work it does must be negative, not positive.",
+          "hi": "इसका परिमाण सही है (15 × 8 = 120 जूल) परंतु चिह्न गलत है; घर्षण विस्थापन का विरोध करता है (कोण 180°), इसलिए इसके द्वारा किया गया कार्य धनात्मक नहीं, ऋणात्मक होना चाहिए।"
+        },
+        "3": {
+          "en": "Work done by friction is not zero here; a zero result would apply only if the force and displacement were perpendicular (90°) to each other, not opposite (180°) as in this case.",
+          "hi": "यहाँ घर्षण द्वारा किया गया कार्य शून्य नहीं है; शून्य परिणाम तभी लागू होता जब बल और विस्थापन एक-दूसरे के लंबवत (90°) होते, न कि विपरीत (180°) जैसा कि इस स्थिति में है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2023-sci-03",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "A solution is prepared by dissolving 25 g of sugar in 225 g of water. What is the mass by mass percentage concentration of this sugar solution?",
+        "hi": "225 ग्राम जल में 25 ग्राम चीनी घोलकर एक विलयन तैयार किया जाता है। इस चीनी विलयन की द्रव्यमान-दर-द्रव्यमान प्रतिशत सांद्रता कितनी है?"
+      },
+      "optionsJson": [
+        {
+          "en": "25%",
+          "hi": "25%"
+        },
+        {
+          "en": "9%",
+          "hi": "9%"
+        },
+        {
+          "en": "11.1%",
+          "hi": "11.1%"
+        },
+        {
+          "en": "10%",
+          "hi": "10%"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Mass by mass percentage = (mass of solute / total mass of solution) × 100. Total mass of solution = mass of solute + mass of solvent = 25 g + 225 g = 250 g. So concentration = (25/250) × 100 = 10%.",
+        "hi": "द्रव्यमान-दर-द्रव्यमान प्रतिशत = (विलेय का द्रव्यमान / विलयन का कुल द्रव्यमान) × 100। विलयन का कुल द्रव्यमान = विलेय का द्रव्यमान + विलायक का द्रव्यमान = 25 ग्राम + 225 ग्राम = 250 ग्राम। अतः सांद्रता = (25/250) × 100 = 10%।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "This simply reports the solute's mass (25 g) directly as a percentage, without dividing by the total mass of the solution (250 g) at all.",
+          "hi": "यह विलेय के द्रव्यमान (25 ग्राम) को सीधे प्रतिशत के रूप में बता देता है, विलयन के कुल द्रव्यमान (250 ग्राम) से बिल्कुल भाग दिए बिना।"
+        },
+        "1": {
+          "en": "This comes from mistakenly using 275 g (as if the solute's mass were counted twice) as the total mass of the solution instead of the correct 250 g, giving 25/275 × 100 ≈ 9%.",
+          "hi": "यह गलती से 275 ग्राम (मानो विलेय का द्रव्यमान दो बार गिना गया हो) को विलयन के कुल द्रव्यमान के रूप में उपयोग करने से प्राप्त होता है, सही 250 ग्राम के बजाय, जिससे 25/275 × 100 ≈ 9% प्राप्त होता है।"
+        },
+        "2": {
+          "en": "This comes from dividing the solute's mass by the solvent's mass alone (25/225 × 100 ≈ 11.1%) instead of by the correct total mass of the solution (solute + solvent = 250 g).",
+          "hi": "यह विलेय के द्रव्यमान को केवल विलायक के द्रव्यमान से भाग देने (25/225 × 100 ≈ 11.1%) से प्राप्त होता है, विलयन के सही कुल द्रव्यमान (विलेय + विलायक = 250 ग्राम) से भाग देने के बजाय।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2023-sci-04",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which cell organelle is a network of membrane-bound tubules that, when studded with ribosomes, helps synthesise proteins, and when free of ribosomes, helps synthesise lipids?",
+        "hi": "कौन-सा कोशिकांग झिल्ली-बद्ध नलिकाओं का एक जाल है, जो राइबोसोम से युक्त होने पर प्रोटीन के संश्लेषण में मदद करता है, और राइबोसोम-मुक्त होने पर लिपिड के संश्लेषण में मदद करता है?"
+      },
+      "optionsJson": [
+        {
+          "en": "Endoplasmic reticulum",
+          "hi": "अंतर्द्रव्यी जालिका (Endoplasmic reticulum)"
+        },
+        {
+          "en": "Mitochondrion",
+          "hi": "माइटोकॉन्ड्रिया (Mitochondrion)"
+        },
+        {
+          "en": "Lysosome",
+          "hi": "लाइसोसोम (Lysosome)"
+        },
+        {
+          "en": "Golgi apparatus",
+          "hi": "गॉल्जी उपकरण (Golgi apparatus)"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "The endoplasmic reticulum (ER) is a network of membrane-bound tubules and sacs in the cytoplasm. Rough ER has ribosomes attached to its surface and is involved in protein synthesis, while smooth ER lacks ribosomes and is involved in the synthesis of lipids.",
+        "hi": "अंतर्द्रव्यी जालिका (ER) कोशिकाद्रव्य में झिल्ली-बद्ध नलिकाओं और थैलियों का एक जाल है। खुरदरी ER (Rough ER) की सतह पर राइबोसोम जुड़े होते हैं और यह प्रोटीन संश्लेषण में शामिल होती है, जबकि चिकनी ER (Smooth ER) में राइबोसोम नहीं होते और यह लिपिड के संश्लेषण में शामिल होती है।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "The mitochondrion is the site of cellular respiration and ATP (energy) production; it is not the membrane network responsible for protein and lipid synthesis described here.",
+          "hi": "माइटोकॉन्ड्रिया कोशिकीय श्वसन और ATP (ऊर्जा) उत्पादन का स्थान है; यह यहाँ वर्णित प्रोटीन और लिपिड संश्लेषण के लिए उत्तरदायी झिल्ली जाल नहीं है।"
+        },
+        "2": {
+          "en": "The lysosome is a membrane-bound sac containing digestive enzymes that breaks down waste materials and worn-out cell parts; it does not synthesise proteins or lipids.",
+          "hi": "लाइसोसोम एक झिल्ली-बद्ध थैली है जिसमें पाचक एंजाइम होते हैं जो अपशिष्ट पदार्थों और घिसे-पिटे कोशिका भागों को तोड़ते हैं; यह प्रोटीन या लिपिड का संश्लेषण नहीं करता।"
+        },
+        "3": {
+          "en": "The Golgi apparatus is a stack of membrane-bound sacs that packages, modifies, and dispatches materials (like proteins made by the ER) to their destinations; it is not itself the tubular network where ribosome-dependent protein synthesis or lipid synthesis occurs.",
+          "hi": "गॉल्जी उपकरण झिल्ली-बद्ध थैलियों का एक ढेर है जो सामग्री (जैसे ER द्वारा बनाए गए प्रोटीन) को पैक करता है, संशोधित करता है, और उनके गंतव्य तक भेजता है; यह स्वयं वह नलिकाकार जाल नहीं है जहाँ राइबोसोम-निर्भर प्रोटीन संश्लेषण या लिपिड संश्लेषण होता है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2023-sci-05",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which type of plant tissue consists of dead cells with thick, lignified cell walls, and provides mechanical strength to parts such as the husk of a coconut?",
+        "hi": "किस प्रकार का पादप ऊतक मृत कोशिकाओं से बना होता है जिनकी कोशिका भित्ति मोटी और लिग्निनयुक्त होती है, और यह नारियल के छिलके जैसे भागों को यांत्रिक मज़बूती प्रदान करता है?"
+      },
+      "optionsJson": [
+        {
+          "en": "Collenchyma",
+          "hi": "कॉलेन्काइमा (Collenchyma)"
+        },
+        {
+          "en": "Sclerenchyma",
+          "hi": "स्क्लेरेन्काइमा (Sclerenchyma)"
+        },
+        {
+          "en": "Meristematic tissue",
+          "hi": "विभज्योतक ऊतक (Meristematic tissue)"
+        },
+        {
+          "en": "Parenchyma",
+          "hi": "पैरेन्काइमा (Parenchyma)"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Sclerenchyma tissue is made of dead cells with thick, lignified (hardened) cell walls and no protoplasm at maturity. This structure makes sclerenchyma cells extremely strong and rigid, providing mechanical support to parts of the plant such as the hard husk of a coconut and the veins of leaves.",
+        "hi": "स्क्लेरेन्काइमा ऊतक मृत कोशिकाओं से बना होता है जिनकी कोशिका भित्ति मोटी, लिग्निनयुक्त (कठोर) होती है और परिपक्वता पर प्रोटोप्लाज्म नहीं होता। यह संरचना स्क्लेरेन्काइमा कोशिकाओं को अत्यंत मज़बूत और कठोर बनाती है, जो नारियल के कठोर छिलके और पत्तियों की शिराओं जैसे भागों को यांत्रिक सहारा प्रदान करती है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Collenchyma cells are living cells with unevenly thickened (but not lignified) walls that provide flexible mechanical support, typically found in soft parts like leaf stalks; they are not the dead, heavily lignified cells found in a hard structure like a coconut husk.",
+          "hi": "कॉलेन्काइमा कोशिकाएँ जीवित कोशिकाएँ हैं जिनकी भित्ति असमान रूप से मोटी (परंतु लिग्निनयुक्त नहीं) होती है, जो लचीला यांत्रिक सहारा प्रदान करती हैं, और सामान्यतः पत्ती के डंठल जैसे मुलायम भागों में पाई जाती हैं; ये नारियल के छिलके जैसी कठोर संरचना में पाई जाने वाली मृत, अत्यधिक लिग्निनयुक्त कोशिकाएँ नहीं हैं।"
+        },
+        "2": {
+          "en": "Meristematic tissue consists of actively dividing cells found at growing regions like root and shoot tips; its cells are not dead or lignified, and its role is growth, not mechanical support of a mature structure.",
+          "hi": "विभज्योतक ऊतक सक्रिय रूप से विभाजित होने वाली कोशिकाओं से बना होता है जो जड़ और प्ररोह के शीर्ष जैसे वृद्धि क्षेत्रों में पाई जाती हैं; इसकी कोशिकाएँ न तो मृत होती हैं न ही लिग्निनयुक्त, और इसकी भूमिका वृद्धि है, किसी परिपक्व संरचना को यांत्रिक सहारा देना नहीं।"
+        },
+        "3": {
+          "en": "Parenchyma cells are living, thin-walled cells mainly involved in storage and photosynthesis; they lack the thick lignified walls needed to provide strong mechanical support like a coconut husk.",
+          "hi": "पैरेन्काइमा कोशिकाएँ जीवित, पतली भित्ति वाली कोशिकाएँ हैं जो मुख्यतः भंडारण और प्रकाश संश्लेषण में शामिल होती हैं; इनमें नारियल के छिलके जैसी मज़बूत यांत्रिक सहायता प्रदान करने के लिए आवश्यक मोटी लिग्निनयुक्त भित्ति नहीं होती।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2024-sci-01",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "When a swimmer pushes water backward with their hands and feet while swimming, the water pushes the swimmer forward. Which law of motion best explains this?",
+        "hi": "जब कोई तैराक तैरते समय अपने हाथों और पैरों से पानी को पीछे की ओर धकेलता है, तो पानी तैराक को आगे की ओर धकेलता है। इसे गति का कौन-सा नियम सबसे अच्छी तरह समझाता है?"
+      },
+      "optionsJson": [
+        {
+          "en": "Newton's first law of motion",
+          "hi": "न्यूटन का गति का पहला नियम"
+        },
+        {
+          "en": "Newton's second law of motion",
+          "hi": "न्यूटन का गति का दूसरा नियम"
+        },
+        {
+          "en": "Newton's third law of motion",
+          "hi": "न्यूटन का गति का तीसरा नियम"
+        },
+        {
+          "en": "The law of conservation of energy",
+          "hi": "ऊर्जा संरक्षण का नियम"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Newton's third law states that for every action, there is an equal and opposite reaction. When the swimmer's hands and feet push water backward (the action), the water simultaneously pushes the swimmer forward with an equal and opposite force (the reaction), propelling the swimmer ahead.",
+        "hi": "न्यूटन का तीसरा नियम बताता है कि प्रत्येक क्रिया के लिए एक बराबर और विपरीत प्रतिक्रिया होती है। जब तैराक के हाथ और पैर पानी को पीछे की ओर धकेलते हैं (क्रिया), तो पानी एक साथ तैराक को बराबर और विपरीत बल से आगे की ओर धकेलता है (प्रतिक्रिया), जिससे तैराक आगे बढ़ता है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Newton's first law is about a body's tendency to remain at rest or in uniform motion unless acted upon by an external force (inertia); it does not describe the paired action-reaction forces between the swimmer and the water.",
+          "hi": "न्यूटन का पहला नियम किसी वस्तु की विराम या एकसमान गति की अवस्था में बने रहने की प्रवृत्ति (जड़त्व) के बारे में है, जब तक कि उस पर कोई बाह्य बल न लगे; यह तैराक और पानी के बीच युग्मित क्रिया-प्रतिक्रिया बलों का वर्णन नहीं करता।"
+        },
+        "1": {
+          "en": "Newton's second law relates the net force on a single body to its mass and acceleration (F = ma); it does not itself describe the interaction pair of forces between two different bodies (the swimmer's limbs and the water), which is what explains forward propulsion here.",
+          "hi": "न्यूटन का दूसरा नियम किसी एकल वस्तु पर लगने वाले नेट बल को उसके द्रव्यमान और त्वरण से जोड़ता है (F = ma); यह स्वयं दो भिन्न वस्तुओं (तैराक के अंगों और पानी) के बीच परस्पर क्रिया के बल युग्म का वर्णन नहीं करता, जो यहाँ आगे की गति को समझाता है।"
+        },
+        "3": {
+          "en": "The law of conservation of energy is about energy not being created or destroyed, only transformed; it does not describe the paired push-back force from the water that actually propels the swimmer forward.",
+          "hi": "ऊर्जा संरक्षण का नियम इस बारे में है कि ऊर्जा न तो बनाई जा सकती है न नष्ट, केवल रूपांतरित होती है; यह पानी से मिलने वाले उस युग्मित प्रतिधक्का बल का वर्णन नहीं करता जो वास्तव में तैराक को आगे धकेलता है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2024-sci-02",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "The shrillness or flatness of a sound, which allows us to distinguish a high-pitched sound from a low-pitched one, mainly depends on which property of the sound wave?",
+        "hi": "किसी ध्वनि की तीव्र या भारी प्रकृति, जो हमें एक उच्च-पिच ध्वनि को निम्न-पिच ध्वनि से अलग पहचानने में मदद करती है, मुख्यतः ध्वनि तरंग के किस गुण पर निर्भर करती है?"
+      },
+      "optionsJson": [
+        {
+          "en": "Speed",
+          "hi": "चाल (Speed)"
+        },
+        {
+          "en": "Wavelength alone, independent of frequency",
+          "hi": "केवल तरंगदैर्घ्य, आवृत्ति से स्वतंत्र"
+        },
+        {
+          "en": "Amplitude",
+          "hi": "आयाम (Amplitude)"
+        },
+        {
+          "en": "Frequency",
+          "hi": "आवृत्ति (Frequency)"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "The pitch of a sound — how shrill or flat it sounds — depends mainly on its frequency, i.e., the number of vibrations (oscillations) produced per second. A higher frequency corresponds to a higher (shriller) pitch, while a lower frequency corresponds to a lower (flatter) pitch.",
+        "hi": "ध्वनि की पिच — यह कितनी तीव्र या भारी सुनाई देती है — मुख्यतः इसकी आवृत्ति पर निर्भर करती है, अर्थात प्रति सेकंड उत्पन्न कंपनों (दोलनों) की संख्या पर। अधिक आवृत्ति उच्च (अधिक तीव्र) पिच के अनुरूप होती है, जबकि कम आवृत्ति निम्न (भारी) पिच के अनुरूप होती है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The speed of sound depends on the medium it travels through (solid, liquid, or gas) and does not by itself determine whether a sound is perceived as high- or low-pitched.",
+          "hi": "ध्वनि की चाल उस माध्यम (ठोस, द्रव, या गैस) पर निर्भर करती है जिसमें वह चलती है और यह स्वयं यह निर्धारित नहीं करती कि ध्वनि उच्च-पिच या निम्न-पिच के रूप में महसूस होगी।"
+        },
+        "1": {
+          "en": "Wavelength is related to frequency (they are inversely proportional for a given speed), so it cannot be treated as an independent factor from frequency; pitch is conventionally described in terms of frequency, not wavelength taken in isolation.",
+          "hi": "तरंगदैर्घ्य आवृत्ति से संबंधित होता है (किसी दी गई चाल के लिए ये दोनों व्युत्क्रमानुपाती होते हैं), इसलिए इसे आवृत्ति से स्वतंत्र कारक नहीं माना जा सकता; पिच को परंपरागत रूप से आवृत्ति के संदर्भ में बताया जाता है, अकेले तरंगदैर्घ्य के संदर्भ में नहीं।"
+        },
+        "2": {
+          "en": "Amplitude determines the loudness (softness or intensity) of a sound, not its pitch; a soft sound and a loud sound can have exactly the same pitch if their frequencies are equal.",
+          "hi": "आयाम ध्वनि की प्रबलता (मंद या तीव्रता) निर्धारित करता है, उसकी पिच नहीं; यदि आवृत्तियाँ समान हों तो एक मंद ध्वनि और एक तेज़ ध्वनि की पिच बिल्कुल समान हो सकती है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2024-sci-03",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "As the temperature of water increases, what generally happens to the solubility of a solid solute (such as sugar) in that water?",
+        "hi": "जैसे-जैसे जल का तापमान बढ़ता है, उस जल में किसी ठोस विलेय (जैसे चीनी) की विलेयता (solubility) पर सामान्यतः क्या प्रभाव पड़ता है?"
+      },
+      "optionsJson": [
+        {
+          "en": "Solubility generally increases",
+          "hi": "विलेयता सामान्यतः बढ़ जाती है"
+        },
+        {
+          "en": "Solubility always remains exactly the same",
+          "hi": "विलेयता हमेशा बिल्कुल समान रहती है"
+        },
+        {
+          "en": "The solute stops dissolving completely at any temperature above room temperature",
+          "hi": "कमरे के तापमान से अधिक किसी भी तापमान पर विलेय पूरी तरह घुलना बंद कर देता है"
+        },
+        {
+          "en": "Solubility generally decreases",
+          "hi": "विलेयता सामान्यतः घट जाती है"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "For most solid solutes, the solubility in water increases as the temperature of water increases, because the increased kinetic energy of the water molecules helps break apart and dissolve more of the solute particles. This is why sugar or salt dissolves more easily and in greater quantity in hot water than in cold water.",
+        "hi": "अधिकांश ठोस विलेयों के लिए, जल का तापमान बढ़ने पर जल में उनकी विलेयता बढ़ जाती है, क्योंकि जल के अणुओं की बढ़ी हुई गतिज ऊर्जा अधिक विलेय कणों को अलग करने और घोलने में मदद करती है। यही कारण है कि चीनी या नमक ठंडे जल की तुलना में गर्म जल में अधिक आसानी से और अधिक मात्रा में घुलता है।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Solubility of solids generally does change with temperature; it is not a fixed, temperature-independent quantity, which is why more sugar can be dissolved in hot water than in cold water.",
+          "hi": "ठोसों की विलेयता सामान्यतः तापमान के साथ बदलती है; यह एक स्थिर, तापमान-स्वतंत्र राशि नहीं है, यही कारण है कि ठंडे जल की तुलना में गर्म जल में अधिक चीनी घोली जा सकती है।"
+        },
+        "2": {
+          "en": "Increased temperature actually helps a solid solute dissolve more readily, not less; solutes do not simply stop dissolving above room temperature.",
+          "hi": "बढ़ा हुआ तापमान वास्तव में किसी ठोस विलेय को अधिक आसानी से घुलने में मदद करता है, कम नहीं; विलेय कमरे के तापमान से ऊपर घुलना बंद नहीं करते।"
+        },
+        "3": {
+          "en": "For most solid solutes, solubility rises rather than falls with increasing temperature; a decrease in solubility with heat is not the typical behaviour for common solid solutes like sugar.",
+          "hi": "अधिकांश ठोस विलेयों के लिए, तापमान बढ़ने के साथ विलेयता घटने के बजाय बढ़ती है; ऊष्मा के साथ विलेयता का घटना चीनी जैसे सामान्य ठोस विलेयों का सामान्य व्यवहार नहीं है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2024-sci-04",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Which cell organelle, containing powerful digestive enzymes, is often called the \"suicide bag\" of the cell because it can break down the cell's own worn-out or damaged parts?",
+        "hi": "कौन-सा कोशिकांग, जिसमें शक्तिशाली पाचक एंजाइम होते हैं, अक्सर कोशिका का 'आत्महत्या की थैली' (suicide bag) कहा जाता है क्योंकि यह कोशिका के अपने घिसे-पिटे या क्षतिग्रस्त हिस्सों को तोड़ सकता है?"
+      },
+      "optionsJson": [
+        {
+          "en": "Ribosome",
+          "hi": "राइबोसोम (Ribosome)"
+        },
+        {
+          "en": "Lysosome",
+          "hi": "लाइसोसोम (Lysosome)"
+        },
+        {
+          "en": "Nucleolus",
+          "hi": "न्यूक्लियोलस (Nucleolus)"
+        },
+        {
+          "en": "Golgi apparatus",
+          "hi": "गॉल्जी उपकरण (Golgi apparatus)"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Lysosomes are membrane-bound sacs containing powerful digestive enzymes capable of breaking down worn-out cell organelles, food particles, and foreign invaders. If the cell is damaged, lysosomes can rupture and release these enzymes, digesting the cell's own components — which is why lysosomes are nicknamed the 'suicide bags' of the cell.",
+        "hi": "लाइसोसोम झिल्ली-बद्ध थैलियाँ हैं जिनमें शक्तिशाली पाचक एंजाइम होते हैं जो घिसे-पिटे कोशिकांगों, भोजन कणों, और बाहरी आक्रमणकारियों को तोड़ सकते हैं। यदि कोशिका क्षतिग्रस्त हो जाए, तो लाइसोसोम फट सकते हैं और इन एंजाइमों को मुक्त कर सकते हैं, जिससे कोशिका के अपने घटक ही पच जाते हैं — यही कारण है कि लाइसोसोम को कोशिका की 'आत्महत्या की थैली' कहा जाता है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Ribosomes are tiny particles that are the sites of protein synthesis in the cell; they do not contain digestive enzymes and are not involved in breaking down worn-out cell parts.",
+          "hi": "राइबोसोम छोटे कण हैं जो कोशिका में प्रोटीन संश्लेषण के स्थल हैं; इनमें पाचक एंजाइम नहीं होते और ये घिसे-पिटे कोशिका भागों को तोड़ने में शामिल नहीं होते।"
+        },
+        "2": {
+          "en": "The nucleolus is a dense region within the nucleus involved in producing ribosomal RNA and assembling ribosomes; it plays no role in digesting the cell's own worn-out parts.",
+          "hi": "न्यूक्लियोलस केंद्रक के भीतर एक सघन क्षेत्र है जो राइबोसोमल RNA बनाने और राइबोसोम को संयोजित करने में शामिल है; यह कोशिका के अपने घिसे-पिटे हिस्सों को पचाने में कोई भूमिका नहीं निभाता।"
+        },
+        "3": {
+          "en": "The Golgi apparatus packages and modifies proteins and lipids for transport within or out of the cell; while related to the secretory pathway, it is not itself the enzyme-filled digestive sac known as the 'suicide bag'.",
+          "hi": "गॉल्जी उपकरण प्रोटीन और लिपिड को कोशिका के भीतर या बाहर परिवहन के लिए पैक और संशोधित करता है; यद्यपि यह स्रावी मार्ग से संबंधित है, यह स्वयं वह एंजाइम-भरी पाचक थैली नहीं है जिसे 'आत्महत्या की थैली' कहा जाता है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2024-sci-05",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "A neuron (nerve cell) typically has a single long, thread-like extension that carries nerve impulses away from the cell body toward other neurons or muscles, and several shorter, branched extensions that receive impulses from other neurons. What are these two types of extensions called, respectively?",
+        "hi": "एक न्यूरॉन (तंत्रिका कोशिका) में सामान्यतः एक एकल, लंबा, धागे जैसा विस्तार होता है जो तंत्रिका आवेगों को कोशिका काय से दूर अन्य न्यूरॉन्स या मांसपेशियों की ओर ले जाता है, और कई छोटे, शाखित विस्तार होते हैं जो अन्य न्यूरॉन्स से आवेग प्राप्त करते हैं। इन दोनों प्रकार के विस्तारों को क्रमशः क्या कहा जाता है?"
+      },
+      "optionsJson": [
+        {
+          "en": "Synapse (long, carries impulses away) and axon (short, branched, receives impulses)",
+          "hi": "सिनैप्स (लंबा, आवेगों को दूर ले जाता है) और एक्सॉन (छोटा, शाखित, आवेग प्राप्त करता है)"
+        },
+        {
+          "en": "Dendrite (long, carries impulses away) and axon (short, branched, receives impulses)",
+          "hi": "डेंड्राइट (लंबा, आवेगों को दूर ले जाता है) और एक्सॉन (छोटा, शाखित, आवेग प्राप्त करता है)"
+        },
+        {
+          "en": "Axon (long, carries impulses away) and dendrites (short, branched, receive impulses)",
+          "hi": "एक्सॉन (लंबा, आवेगों को दूर ले जाता है) और डेंड्राइट्स (छोटे, शाखित, आवेग प्राप्त करते हैं)"
+        },
+        {
+          "en": "Nucleus (long, carries impulses away) and cytoplasm (short, branched, receives impulses)",
+          "hi": "केंद्रक (लंबा, आवेगों को दूर ले जाता है) और कोशिकाद्रव्य (छोटा, शाखित, आवेग प्राप्त करता है)"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "In a typical neuron, the axon is the single, long, thread-like extension that conducts nerve impulses away from the cell body toward the next neuron, muscle, or gland. The dendrites are the shorter, branched extensions that receive incoming nerve impulses from other neurons and carry them toward the cell body.",
+        "hi": "एक सामान्य न्यूरॉन में, एक्सॉन वह एकल, लंबा, धागे जैसा विस्तार है जो तंत्रिका आवेगों को कोशिका काय से दूर अगले न्यूरॉन, मांसपेशी, या ग्रंथि की ओर संवाहित करता है। डेंड्राइट्स वे छोटे, शाखित विस्तार हैं जो अन्य न्यूरॉन्स से आने वाले तंत्रिका आवेगों को प्राप्त करते हैं और उन्हें कोशिका काय की ओर ले जाते हैं।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "A synapse is the junction or gap between two neurons where a nerve impulse passes from one neuron to another (not an extension of the neuron itself), and while axon is correctly named here, it is paired with the wrong term (synapse) instead of dendrites for the impulse-receiving extensions.",
+          "hi": "सिनैप्स दो न्यूरॉन्स के बीच का जंक्शन या अंतराल है जहाँ एक तंत्रिका आवेग एक न्यूरॉन से दूसरे में गुज़रता है (यह स्वयं न्यूरॉन का कोई विस्तार नहीं है), और यद्यपि यहाँ एक्सॉन को सही नाम दिया गया है, इसे आवेग-प्राप्त करने वाले विस्तारों के लिए डेंड्राइट्स के बजाय गलत शब्द (सिनैप्स) के साथ जोड़ा गया है।"
+        },
+        "1": {
+          "en": "This swaps the two structures' names: the long, single extension that carries impulses away is actually the axon, while the short, branched, impulse-receiving extensions are the dendrites, not the other way around.",
+          "hi": "यह दोनों संरचनाओं के नामों को बदल देता है: दूर आवेग ले जाने वाला लंबा, एकल विस्तार वास्तव में एक्सॉन है, जबकि छोटे, शाखित, आवेग-प्राप्त करने वाले विस्तार डेंड्राइट्स हैं, इसके विपरीत नहीं।"
+        },
+        "3": {
+          "en": "The nucleus and cytoplasm are general components found in almost all cells and are not the specific nerve-impulse-carrying extensions described here; the correct terms for those extensions are axon and dendrites.",
+          "hi": "केंद्रक और कोशिकाद्रव्य लगभग सभी कोशिकाओं में पाए जाने वाले सामान्य घटक हैं और यहाँ वर्णित विशिष्ट तंत्रिका-आवेग ले जाने वाले विस्तार नहीं हैं; उन विस्तारों के लिए सही शब्द एक्सॉन और डेंड्राइट्स हैं।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2025-sci-01",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "A force of 25 N acts on an object for 4 seconds. What is the magnitude of the change in momentum produced in the object during this time?",
+        "hi": "एक वस्तु पर 25 न्यूटन का बल 4 सेकंड तक कार्य करता है। इस दौरान वस्तु में उत्पन्न संवेग परिवर्तन का परिमाण कितना है?"
+      },
+      "optionsJson": [
+        {
+          "en": "400 kg·m/s",
+          "hi": "400 किग्रा·मीटर/सेकंड"
+        },
+        {
+          "en": "6.25 kg·m/s",
+          "hi": "6.25 किग्रा·मीटर/सेकंड"
+        },
+        {
+          "en": "29 kg·m/s",
+          "hi": "29 किग्रा·मीटर/सेकंड"
+        },
+        {
+          "en": "100 kg·m/s",
+          "hi": "100 किग्रा·मीटर/सेकंड"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Impulse equals the force multiplied by the time for which it acts (Impulse = F × t), and impulse equals the change in momentum produced. Here, change in momentum = 25 N × 4 s = 100 kg·m/s (since 1 N·s = 1 kg·m/s).",
+        "hi": "आवेग (impulse), बल को उस समय से गुणा करने के बराबर होता है जिसके लिए वह कार्य करता है (आवेग = F × t), और आवेग ही उत्पन्न संवेग परिवर्तन के बराबर होता है। यहाँ, संवेग परिवर्तन = 25 न्यूटन × 4 सेकंड = 100 किग्रा·मीटर/सेकंड (चूँकि 1 न्यूटन·सेकंड = 1 किग्रा·मीटर/सेकंड)।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "This comes from multiplying the force by the square of the time (25 × 4² = 400) instead of by the time itself; the impulse-momentum formula uses time to the first power, not squared.",
+          "hi": "यह बल को समय के वर्ग से गुणा करने (25 × 4² = 400) से प्राप्त होता है, समय के प्रथम घात से गुणा करने के बजाय; आवेग-संवेग सूत्र में समय का प्रथम घात उपयोग होता है, वर्ग नहीं।"
+        },
+        "1": {
+          "en": "This comes from dividing the force by the time (25/4 = 6.25) instead of multiplying them; the correct impulse-momentum relationship is force multiplied by time, not force divided by time.",
+          "hi": "यह बल को समय से भाग देने (25/4 = 6.25) से प्राप्त होता है, गुणा करने के बजाय; सही आवेग-संवेग संबंध बल को समय से गुणा करना है, भाग देना नहीं।"
+        },
+        "2": {
+          "en": "This comes from simply adding the force and time values (25 + 4 = 29), treating them as though they combine additively; force and time combine multiplicatively in the impulse formula, not additively.",
+          "hi": "यह केवल बल और समय के मानों को जोड़ने (25 + 4 = 29) से प्राप्त होता है, मानो वे योगात्मक रूप से संयोजित होते हों; आवेग सूत्र में बल और समय गुणात्मक रूप से संयोजित होते हैं, योगात्मक रूप से नहीं।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2025-sci-02",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Camphor, when left in an open dish at room temperature, gradually disappears completely without leaving behind any liquid, and forms vapours directly from the solid state. What is this process called?",
+        "hi": "कपूर (camphor) को कमरे के तापमान पर एक खुले बर्तन में छोड़ने पर, वह धीरे-धीरे बिना कोई द्रव छोड़े पूरी तरह गायब हो जाता है, और ठोस अवस्था से सीधे वाष्प बनाता है। इस प्रक्रिया को क्या कहा जाता है?"
+      },
+      "optionsJson": [
+        {
+          "en": "Sublimation",
+          "hi": "उर्ध्वपातन (Sublimation)"
+        },
+        {
+          "en": "Condensation",
+          "hi": "संघनन (Condensation)"
+        },
+        {
+          "en": "Melting",
+          "hi": "गलन (Melting)"
+        },
+        {
+          "en": "Evaporation",
+          "hi": "वाष्पीकरण (Evaporation)"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Sublimation is the process in which a solid changes directly into vapour without passing through the liquid state (and the reverse, vapour changing directly to solid). Camphor, ammonium chloride, and naphthalene balls are common substances that sublime at room temperature and pressure, disappearing as solids without ever forming a liquid.",
+        "hi": "उर्ध्वपातन वह प्रक्रिया है जिसमें कोई ठोस द्रव अवस्था से गुज़रे बिना सीधे वाष्प में बदल जाता है (और इसका उल्टा, वाष्प का सीधे ठोस में बदलना)। कपूर, अमोनियम क्लोराइड, और नैफ्थलीन की गोलियाँ सामान्य पदार्थ हैं जो कमरे के तापमान और दाब पर उर्ध्वपातित होते हैं, बिना कभी द्रव बने ठोस के रूप में गायब हो जाते हैं।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Condensation is the change of vapour into liquid (or, in deposition, into solid); here the solid is disappearing into vapour, which is the opposite process, not condensation.",
+          "hi": "संघनन वाष्प का द्रव में (या, निक्षेपण में, ठोस में) बदलना है; यहाँ ठोस वाष्प में बदलकर गायब हो रहा है, जो विपरीत प्रक्रिया है, संघनन नहीं।"
+        },
+        "2": {
+          "en": "Melting is the change of a solid directly into a liquid at its melting point; here no liquid is formed at all, so this is not melting.",
+          "hi": "गलन किसी ठोस का उसके गलनांक पर सीधे द्रव में बदलना है; यहाँ कोई द्रव बिल्कुल नहीं बनता, इसलिए यह गलन नहीं है।"
+        },
+        "3": {
+          "en": "Evaporation is the change of a liquid into vapour at temperatures below its boiling point; here the substance starts directly as a solid, with no liquid stage involved, so this is not ordinary evaporation.",
+          "hi": "वाष्पीकरण किसी द्रव का उसके क्वथनांक से कम तापमान पर वाष्प में बदलना है; यहाँ पदार्थ सीधे ठोस के रूप में शुरू होता है, बिना किसी द्रव अवस्था के, इसलिए यह सामान्य वाष्पीकरण नहीं है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2025-sci-03",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "A student wants to separate the different coloured dyes present in a sample of black ink to see its individual components. Which separation technique is most suitable for this purpose?",
+        "hi": "एक छात्र काली स्याही के एक नमूने में मौजूद विभिन्न रंगीन डाई को अलग करके उसके अलग-अलग घटकों को देखना चाहता है। इस उद्देश्य के लिए कौन-सी पृथक्करण तकनीक सबसे उपयुक्त है?"
+      },
+      "optionsJson": [
+        {
+          "en": "Sieving",
+          "hi": "चालनी द्वारा छानना (Sieving)"
+        },
+        {
+          "en": "Chromatography",
+          "hi": "वर्णलेखन (Chromatography)"
+        },
+        {
+          "en": "Filtration",
+          "hi": "निस्पंदन (Filtration)"
+        },
+        {
+          "en": "Distillation",
+          "hi": "आसवन (Distillation)"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Chromatography is used to separate components of a mixture (such as different dyes in ink) that are dissolved in the same solvent, based on their differing solubility and rate of movement over a stationary medium like chromatography paper. As the solvent rises up the paper, each dye component travels a different distance, separating them into distinct bands.",
+        "hi": "वर्णलेखन का उपयोग किसी मिश्रण (जैसे स्याही में मौजूद विभिन्न डाई) के घटकों को अलग करने के लिए किया जाता है जो एक ही विलायक में घुले होते हैं, उनकी भिन्न विलेयता और वर्णलेखन पेपर जैसे स्थिर माध्यम पर गति की दर के आधार पर। जैसे-जैसे विलायक पेपर पर ऊपर चढ़ता है, प्रत्येक डाई घटक अलग-अलग दूरी तय करता है, जिससे वे अलग-अलग पट्टियों में अलग हो जाते हैं।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Sieving is used to separate components of a mixture of solid particles of different sizes (like different grains); it is not applicable to separating dissolved dyes within a liquid ink.",
+          "hi": "चालनी द्वारा छानने का उपयोग भिन्न आकार के ठोस कणों (जैसे भिन्न अनाज) के मिश्रण के घटकों को अलग करने के लिए किया जाता है; यह द्रव स्याही के भीतर घुली डाई को अलग करने पर लागू नहीं होता।"
+        },
+        "2": {
+          "en": "Filtration is used to separate an insoluble solid from a liquid (like sand from water); it cannot separate different dissolved dyes that are all fully mixed within the same liquid ink.",
+          "hi": "निस्पंदन का उपयोग किसी द्रव से अघुलनशील ठोस को अलग करने के लिए किया जाता है (जैसे जल से रेत); यह स्याही में पूरी तरह घुली विभिन्न डाई को अलग नहीं कर सकता।"
+        },
+        "3": {
+          "en": "Distillation is used to separate a mixture of two miscible liquids with different boiling points, or a dissolved solid from its solvent by evaporation and condensation; it is not the method typically used to separate the differently coloured dyes within ink.",
+          "hi": "आसवन का उपयोग भिन्न क्वथनांक वाले दो मिश्रणीय द्रवों को अलग करने, या वाष्पीकरण और संघनन द्वारा किसी घुले ठोस को उसके विलायक से अलग करने के लिए किया जाता है; यह आमतौर पर स्याही के भीतर विभिन्न रंगीन डाई को अलग करने की विधि नहीं है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2025-sci-04",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Raisins (dried grapes) are placed in plain water and left for several hours. They gradually swell up and become plump. What is the best explanation for this observation?",
+        "hi": "किशमिश (सूखे अंगूर) को साधारण जल में रखा जाता है और कई घंटों के लिए छोड़ दिया जाता है। वे धीरे-धीरे फूलकर मोटी हो जाती हैं। इस अवलोकन के लिए सबसे अच्छा स्पष्टीकरण क्या है?"
+      },
+      "optionsJson": [
+        {
+          "en": "The dry raisin chemically reacts with water to produce more solid material, increasing its size",
+          "hi": "सूखी किशमिश जल के साथ रासायनिक रूप से अभिक्रिया करके अधिक ठोस पदार्थ उत्पन्न करती है, जिससे उसका आकार बढ़ जाता है"
+        },
+        {
+          "en": "Water molecules move out of the raisin cells into the surrounding water because the water outside is hypertonic compared to the cell contents",
+          "hi": "जल के अणु किशमिश की कोशिकाओं से बाहर आसपास के जल में जाते हैं क्योंकि बाहर का जल कोशिका की सामग्री की तुलना में अतिपरासरणी (hypertonic) है"
+        },
+        {
+          "en": "Water molecules move into the raisin cells from the surrounding water because the water outside is hypotonic compared to the concentrated cell contents, causing endosmosis",
+          "hi": "जल के अणु आसपास के जल से किशमिश की कोशिकाओं के भीतर जाते हैं क्योंकि बाहर का जल कोशिका की सांद्र सामग्री की तुलना में अल्पपरासरणी (hypotonic) है, जिससे अंतःपरासरण (endosmosis) होता है"
+        },
+        {
+          "en": "The raisin's cell walls actively pump water molecules inward using energy from respiration",
+          "hi": "किशमिश की कोशिका भित्ति श्वसन से प्राप्त ऊर्जा का उपयोग करके जल के अणुओं को सक्रिय रूप से अंदर की ओर पंप करती है"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "A dried raisin's cells contain a concentrated solution of sugars and other solutes, while the plain water surrounding it has a much lower solute concentration (it is hypotonic relative to the cell's contents). By osmosis, water moves from the region of lower solute concentration (outside) to the region of higher solute concentration (inside the cell) across the selectively permeable cell membrane — this inward movement of water is called endosmosis, and it causes the raisin to swell and become plump.",
+        "hi": "एक सूखी किशमिश की कोशिकाओं में शर्करा और अन्य विलेयों का एक सांद्र विलयन होता है, जबकि इसके आसपास के साधारण जल में विलेय की सांद्रता बहुत कम होती है (यह कोशिका की सामग्री की तुलना में अल्पपरासरणी है)। परासरण द्वारा, जल कम विलेय सांद्रता वाले क्षेत्र (बाहर) से अधिक विलेय सांद्रता वाले क्षेत्र (कोशिका के भीतर) की ओर वरणात्मक पारगम्य कोशिका झिल्ली के आर-पार गति करता है — जल की इस अंदर की ओर गति को अंतःपरासरण कहा जाता है, और यह किशमिश को फुलाकर मोटा बना देता है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "No new chemical substance is being created here; swelling is a purely physical process (water moving in by osmosis), not a chemical reaction producing additional solid material.",
+          "hi": "यहाँ कोई नया रासायनिक पदार्थ नहीं बन रहा है; फूलना एक पूर्णतः भौतिक प्रक्रिया है (परासरण द्वारा जल का भीतर जाना), न कि अतिरिक्त ठोस पदार्थ उत्पन्न करने वाली रासायनिक अभिक्रिया।"
+        },
+        "1": {
+          "en": "This reverses the actual direction of osmotic movement — since the plain water outside has a much lower solute concentration than the cell contents (making it hypotonic, not hypertonic), water moves into the raisin, not out of it.",
+          "hi": "यह परासरणी गति की वास्तविक दिशा को उल्टा कर देता है — चूँकि बाहर के साधारण जल में विलेय की सांद्रता कोशिका की सामग्री से बहुत कम होती है (जिससे यह अतिपरासरणी नहीं, अल्पपरासरणी होता है), जल किशमिश के बाहर नहीं, भीतर की ओर जाता है।"
+        },
+        "3": {
+          "en": "Osmosis is a passive process driven purely by the concentration difference across a selectively permeable membrane; it does not require the cell to actively spend energy pumping water in this way.",
+          "hi": "परासरण एक निष्क्रिय प्रक्रिया है जो केवल वरणात्मक पारगम्य झिल्ली के आर-पार सांद्रता अंतर से संचालित होती है; इसके लिए कोशिका को इस तरह जल पंप करने में सक्रिय रूप से ऊर्जा खर्च करने की आवश्यकता नहीं होती।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2025-sci-05",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Blood is classified as a connective tissue in animals, even though it is fluid and flows through the body, rather than being classified separately. What is the main reason blood fits the definition of a connective tissue?",
+        "hi": "रक्त को जंतुओं में एक संयोजी ऊतक (connective tissue) के रूप में वर्गीकृत किया जाता है, भले ही यह तरल है और शरीर में बहता है, न कि अलग से वर्गीकृत किया जाता है। रक्त के संयोजी ऊतक की परिभाषा में फिट होने का मुख्य कारण क्या है?"
+      },
+      "optionsJson": [
+        {
+          "en": "Because blood, like epithelial tissue, forms a continuous protective covering over the surface of organs",
+          "hi": "क्योंकि रक्त, एपिथीलियम ऊतक की तरह, अंगों की सतह पर एक निरंतर सुरक्षात्मक आवरण बनाता है"
+        },
+        {
+          "en": "Because blood cells can rapidly divide and specialise, similar to meristematic tissue in plants",
+          "hi": "क्योंकि रक्त कोशिकाएँ तेज़ी से विभाजित और विशेषीकृत हो सकती हैं, पौधों के विभज्योतक ऊतक की तरह"
+        },
+        {
+          "en": "Because blood cells are tightly packed together with no space or matrix between them, just like muscle tissue",
+          "hi": "क्योंकि रक्त कोशिकाएँ, मांसपेशी ऊतक की तरह, आपस में कसकर पैक होती हैं और उनके बीच कोई स्थान या आधात्री (matrix) नहीं होती"
+        },
+        {
+          "en": "Because blood consists of cells (red blood cells, white blood cells, platelets) suspended in a fluid intercellular matrix called plasma, and connective tissues are defined by having cells embedded in such a matrix",
+          "hi": "क्योंकि रक्त में कोशिकाएँ (लाल रक्त कोशिकाएँ, श्वेत रक्त कोशिकाएँ, प्लेटलेट्स) प्लाज़्मा नामक एक तरल अंतःकोशिकीय आधात्री में निलंबित होती हैं, और संयोजी ऊतकों को इसी प्रकार की आधात्री में स्थित कोशिकाओं के आधार पर परिभाषित किया जाता है"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Connective tissues are characterised by having relatively few cells embedded in an intercellular matrix, which can be fluid, jelly-like, or solid depending on the specific tissue. In blood, the cells (red blood cells, white blood cells, and platelets) are suspended in a fluid matrix called plasma. Because this matches the structural definition of a connective tissue (cells + matrix), blood is classified as a fluid connective tissue, even though it flows through the body rather than staying fixed in one place like bone or cartilage.",
+        "hi": "संयोजी ऊतकों की विशेषता यह होती है कि उनमें अपेक्षाकृत कम कोशिकाएँ एक अंतःकोशिकीय आधात्री में स्थित होती हैं, जो विशिष्ट ऊतक के अनुसार तरल, जेली-जैसी, या ठोस हो सकती है। रक्त में, कोशिकाएँ (लाल रक्त कोशिकाएँ, श्वेत रक्त कोशिकाएँ, और प्लेटलेट्स) प्लाज़्मा नामक एक तरल आधात्री में निलंबित होती हैं। चूँकि यह संयोजी ऊतक की संरचनात्मक परिभाषा (कोशिकाएँ + आधात्री) से मेल खाता है, रक्त को एक तरल संयोजी ऊतक के रूप में वर्गीकृत किया जाता है, भले ही यह हड्डी या उपास्थि की तरह एक स्थान पर स्थिर रहने के बजाय शरीर में बहता है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Epithelial tissue, not blood, forms continuous protective coverings and linings over body surfaces and cavities; blood does not form such a covering layer, so this is not the reason it is classified as connective tissue.",
+          "hi": "रक्त नहीं, बल्कि एपिथीलियम ऊतक, शरीर की सतहों और गुहाओं पर निरंतर सुरक्षात्मक आवरण और अस्तर बनाता है; रक्त ऐसी कोई आवरण परत नहीं बनाता, इसलिए यह इसे संयोजी ऊतक के रूप में वर्गीकृत करने का कारण नहीं है।"
+        },
+        "1": {
+          "en": "Meristematic tissue is a plant tissue defined by continuously dividing cells at growth regions; ordinary mature blood cells do not divide in this way, and this comparison does not explain why blood is a connective tissue.",
+          "hi": "विभज्योतक ऊतक एक पादप ऊतक है जिसे वृद्धि क्षेत्रों में निरंतर विभाजित होने वाली कोशिकाओं द्वारा परिभाषित किया जाता है; सामान्य परिपक्व रक्त कोशिकाएँ इस तरह विभाजित नहीं होतीं, और यह तुलना यह नहीं समझाती कि रक्त एक संयोजी ऊतक क्यों है।"
+        },
+        "2": {
+          "en": "This is the opposite of blood's actual structure — blood cells are relatively sparse and suspended within a large volume of fluid plasma (the matrix), not tightly packed together with no matrix, which is instead characteristic of some other tissue types.",
+          "hi": "यह रक्त की वास्तविक संरचना के विपरीत है — रक्त कोशिकाएँ अपेक्षाकृत कम होती हैं और प्लाज़्मा की एक बड़ी तरल मात्रा (आधात्री) के भीतर निलंबित होती हैं, न कि बिना किसी आधात्री के कसकर पैक होती हैं, जो इसके बजाय किसी अन्य ऊतक प्रकार की विशेषता है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2026-sci-01",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "A stone is dropped from rest from the top of a tower and takes 4 seconds to reach the ground. Taking g = 10 m/s², what is the height of the tower?",
+        "hi": "एक पत्थर को एक मीनार के शीर्ष से विराम अवस्था से गिराया जाता है और यह ज़मीन तक पहुँचने में 4 सेकंड लेता है। g = 10 मीटर/सेकंड² मानते हुए, मीनार की ऊँचाई कितनी है?"
+      },
+      "optionsJson": [
+        {
+          "en": "80 m",
+          "hi": "80 मीटर"
+        },
+        {
+          "en": "160 m",
+          "hi": "160 मीटर"
+        },
+        {
+          "en": "20 m",
+          "hi": "20 मीटर"
+        },
+        {
+          "en": "40 m",
+          "hi": "40 मीटर"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Since the stone is dropped from rest, initial velocity u = 0. Using h = ut + ½gt², h = 0 + ½ × 10 × (4)² = ½ × 10 × 16 = 80 m.",
+        "hi": "चूँकि पत्थर विराम अवस्था से गिराया जाता है, प्रारंभिक वेग u = 0। h = ut + ½gt² का उपयोग करते हुए, h = 0 + ½ × 10 × (4)² = ½ × 10 × 16 = 80 मीटर।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "This comes from omitting the ½ factor in the formula, computing g × t² = 10 × 16 = 160 instead of ½ × g × t².",
+          "hi": "यह सूत्र में ½ के गुणक की उपेक्षा करने से प्राप्त होता है, ½ × g × t² के बजाय g × t² = 10 × 16 = 160 की गणना करना।"
+        },
+        "2": {
+          "en": "This comes from omitting the square on time, computing ½ × g × t = ½ × 10 × 4 = 20 instead of ½ × g × t².",
+          "hi": "यह समय के वर्ग की उपेक्षा करने से प्राप्त होता है, ½ × g × t² के बजाय ½ × g × t = ½ × 10 × 4 = 20 की गणना करना।"
+        },
+        "3": {
+          "en": "This comes from computing g × t directly (10 × 4 = 40), omitting both the ½ factor and the squaring of time required by h = ½gt².",
+          "hi": "यह g × t को सीधे परिकलित करने (10 × 4 = 40) से प्राप्त होता है, h = ½gt² के लिए आवश्यक ½ के गुणक और समय के वर्ग दोनों की उपेक्षा करते हुए।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2026-sci-02",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Water boils at a lower temperature (below 100°C) at high-altitude hill stations compared to at sea level. What is the main reason for this?",
+        "hi": "समुद्र तल की तुलना में ऊँचे पहाड़ी स्थानों पर जल कम तापमान (100°C से नीचे) पर उबलता है। इसका मुख्य कारण क्या है?"
+      },
+      "optionsJson": [
+        {
+          "en": "The lower temperature of the surrounding air at high altitudes directly lowers water's boiling point regardless of pressure",
+          "hi": "ऊँचाई पर आसपास की वायु का कम तापमान, दाब की परवाह किए बिना, सीधे जल के क्वथनांक को घटा देता है"
+        },
+        {
+          "en": "The atmospheric pressure is lower at high altitudes, and a lower surrounding pressure reduces the boiling point of water",
+          "hi": "ऊँचाई पर वायुमंडलीय दाब कम होता है, और आसपास के दाब का कम होना जल के क्वथनांक को घटा देता है"
+        },
+        {
+          "en": "The air at high altitudes contains less oxygen, which lowers the boiling point of water",
+          "hi": "ऊँचाई पर वायु में ऑक्सीजन कम होती है, जो जल के क्वथनांक को घटा देती है"
+        },
+        {
+          "en": "Water at high altitudes is naturally purer, and pure water always boils below 100°C",
+          "hi": "ऊँचाई पर जल स्वाभाविक रूप से अधिक शुद्ध होता है, और शुद्ध जल हमेशा 100°C से नीचे उबलता है"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "The boiling point of a liquid is the temperature at which its vapour pressure becomes equal to the surrounding atmospheric pressure. At high altitudes, atmospheric pressure is lower than at sea level, so the vapour pressure of water needs to rise to only a lower value to equal it — meaning water boils at a temperature below 100°C. This is also why food takes longer to cook at high altitudes, since the water is not as hot as it would be at sea level.",
+        "hi": "किसी द्रव का क्वथनांक वह तापमान है जिस पर उसका वाष्प दाब आसपास के वायुमंडलीय दाब के बराबर हो जाता है। ऊँचाई पर, वायुमंडलीय दाब समुद्र तल की तुलना में कम होता है, इसलिए जल के वाष्प दाब को उसके बराबर होने के लिए केवल एक कम मान तक बढ़ने की आवश्यकता होती है — अर्थात जल 100°C से नीचे के तापमान पर उबलता है। यही कारण है कि ऊँचे स्थानों पर भोजन पकाने में अधिक समय लगता है, क्योंकि जल उतना गर्म नहीं होता जितना समुद्र तल पर होता।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The surrounding air's own temperature does not directly set water's boiling point; it is specifically the reduced atmospheric pressure at high altitudes that lowers the pressure water's vapour needs to reach in order to boil.",
+          "hi": "आसपास की वायु का अपना तापमान सीधे जल का क्वथनांक निर्धारित नहीं करता; विशेष रूप से ऊँचाई पर घटा हुआ वायुमंडलीय दाब ही उस दाब को कम कर देता है जिस तक जल के वाष्प को उबलने के लिए पहुँचना होता है।"
+        },
+        "2": {
+          "en": "The proportion of oxygen in the air does not determine the boiling point of water; boiling point depends on the relationship between vapour pressure and the surrounding atmospheric pressure, not on oxygen content.",
+          "hi": "वायु में ऑक्सीजन का अनुपात जल के क्वथनांक को निर्धारित नहीं करता; क्वथनांक वाष्प दाब और आसपास के वायुमंडलीय दाब के बीच संबंध पर निर्भर करता है, ऑक्सीजन की मात्रा पर नहीं।"
+        },
+        "3": {
+          "en": "The purity of water is unrelated to this effect — pure water at sea level still boils at 100°C; the lowered boiling point at high altitudes is due to lower atmospheric pressure, not water purity.",
+          "hi": "जल की शुद्धता इस प्रभाव से असंबंधित है — समुद्र तल पर शुद्ध जल भी 100°C पर ही उबलता है; ऊँचाई पर घटा हुआ क्वथनांक कम वायुमंडलीय दाब के कारण होता है, जल की शुद्धता के कारण नहीं।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2026-sci-03",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "In one sample of pure water obtained from a river, hydrogen and oxygen are present in the mass ratio 1:8. In another sample of pure water obtained by melting glacial ice, chemical analysis is carried out on 45 g of the water, yielding 5 g of hydrogen. How much oxygen (by mass) is present in this second sample?",
+        "hi": "किसी नदी से प्राप्त शुद्ध जल के एक नमूने में, हाइड्रोजन और ऑक्सीजन द्रव्यमान अनुपात 1:8 में मौजूद हैं। हिमनद बर्फ को पिघलाकर प्राप्त शुद्ध जल के एक अन्य नमूने पर, 45 ग्राम जल का रासायनिक विश्लेषण किया जाता है, जिससे 5 ग्राम हाइड्रोजन प्राप्त होता है। इस दूसरे नमूने में (द्रव्यमान के अनुसार) कितनी ऑक्सीजन मौजूद है?"
+      },
+      "optionsJson": [
+        {
+          "en": "50 g",
+          "hi": "50 ग्राम"
+        },
+        {
+          "en": "36 g",
+          "hi": "36 ग्राम"
+        },
+        {
+          "en": "40 g",
+          "hi": "40 ग्राम"
+        },
+        {
+          "en": "5 g",
+          "hi": "5 ग्राम"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "By the law of constant proportions (law of definite proportions), a chemical compound always contains its constituent elements in a fixed mass ratio, regardless of the source or method of preparation. Since water always has hydrogen and oxygen in the mass ratio 1:8, a 45 g sample containing 5 g of hydrogen must contain the remaining 45 − 5 = 40 g as oxygen. Checking the ratio: 5 : 40 = 1 : 8, confirming this is consistent with the law.",
+        "hi": "स्थिर अनुपात के नियम (definite proportions के नियम) के अनुसार, कोई रासायनिक यौगिक हमेशा अपने घटक तत्वों को एक निश्चित द्रव्यमान अनुपात में रखता है, चाहे उसका स्रोत या बनाने की विधि कुछ भी हो। चूँकि जल में हाइड्रोजन और ऑक्सीजन हमेशा 1:8 के द्रव्यमान अनुपात में होते हैं, 5 ग्राम हाइड्रोजन वाले 45 ग्राम नमूने में शेष 45 − 5 = 40 ग्राम ऑक्सीजन होनी चाहिए। अनुपात की जाँच करें: 5 : 40 = 1 : 8, जो इस नियम के अनुरूप है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "This comes from mistakenly adding the hydrogen mass to the total sample mass (45 + 5 = 50) instead of subtracting it from the total to find the remaining oxygen mass (45 − 5 = 40).",
+          "hi": "यह गलती से हाइड्रोजन के द्रव्यमान को कुल नमूने के द्रव्यमान में जोड़ने (45 + 5 = 50) से प्राप्त होता है, बजाय इसके कि शेष ऑक्सीजन द्रव्यमान ज्ञात करने के लिए इसे कुल में से घटाया जाए (45 − 5 = 40)।"
+        },
+        "1": {
+          "en": "This comes from mistakenly treating the ratio's total as 10 parts instead of the correct 9 parts (1 part hydrogen + 8 parts oxygen), computing 45 × 8/10 = 36 instead of the correct 45 × 8/9 = 40.",
+          "hi": "यह गलती से अनुपात के कुल भाग को सही 9 भागों (1 भाग हाइड्रोजन + 8 भाग ऑक्सीजन) के बजाय 10 भाग मानने से प्राप्त होता है, जिससे सही 45 × 8/9 = 40 के बजाय 45 × 8/10 = 36 की गणना होती है।"
+        },
+        "3": {
+          "en": "This simply repeats the given hydrogen mass (5 g) as if it were also the oxygen mass, without separately accounting for the 1:8 mass ratio between hydrogen and oxygen in water.",
+          "hi": "यह दी गई हाइड्रोजन की मात्रा (5 ग्राम) को केवल दोहरा देता है मानो यही ऑक्सीजन की मात्रा भी हो, जल में हाइड्रोजन और ऑक्सीजन के बीच 1:8 द्रव्यमान अनुपात को अलग से ध्यान में रखे बिना।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2026-sci-04",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "The plasma membrane of a cell is described as 'selectively permeable'. What does this term mean?",
+        "hi": "किसी कोशिका की प्लाज़्मा झिल्ली को 'वरणात्मक पारगम्य' (selectively permeable) कहा जाता है। इस शब्द का क्या अर्थ है?"
+      },
+      "optionsJson": [
+        {
+          "en": "It completely blocks the movement of every substance into or out of the cell",
+          "hi": "यह कोशिका के अंदर या बाहर हर पदार्थ की गति को पूरी तरह रोक देती है"
+        },
+        {
+          "en": "It allows substances to move only from inside the cell to outside, but never from outside to inside",
+          "hi": "यह पदार्थों को केवल कोशिका के अंदर से बाहर की ओर गति करने देती है, लेकिन कभी बाहर से अंदर की ओर नहीं"
+        },
+        {
+          "en": "It allows all substances, regardless of size or type, to pass through it freely in both directions",
+          "hi": "यह आकार या प्रकार की परवाह किए बिना, सभी पदार्थों को दोनों दिशाओं में स्वतंत्र रूप से गुज़रने देती है"
+        },
+        {
+          "en": "It allows only certain selected substances to pass through it, while restricting or regulating the movement of others",
+          "hi": "यह केवल कुछ चुनिंदा पदार्थों को अपने आर-पार गुज़रने देती है, जबकि अन्य की गति को प्रतिबंधित या नियंत्रित करती है"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "A selectively permeable membrane (also called semi-permeable) allows certain substances — such as water, and specific ions or molecules — to pass through it while restricting or regulating the passage of others. This selective control over what enters and leaves is essential for maintaining the internal environment of the cell, and it underlies processes like osmosis and diffusion across the membrane.",
+        "hi": "एक वरणात्मक पारगम्य झिल्ली (जिसे अर्ध-पारगम्य भी कहा जाता है) कुछ पदार्थों — जैसे जल, और विशिष्ट आयनों या अणुओं — को अपने आर-पार गुज़रने देती है जबकि अन्य के गुज़रने को प्रतिबंधित या नियंत्रित करती है। प्रवेश और निकास पर यह चयनात्मक नियंत्रण कोशिका के आंतरिक वातावरण को बनाए रखने के लिए आवश्यक है, और यह झिल्ली के आर-पार परासरण और विसरण जैसी प्रक्रियाओं का आधार है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "A completely impermeable membrane would prevent the cell from obtaining nutrients or releasing waste, and would not match the term 'selectively permeable', which implies some substances can pass through, just not all of them equally.",
+          "hi": "पूरी तरह अपारगम्य झिल्ली कोशिका को पोषक तत्व प्राप्त करने या अपशिष्ट छोड़ने से रोक देगी, और यह 'वरणात्मक पारगम्य' शब्द से मेल नहीं खाती, जिसका अर्थ है कि कुछ पदार्थ गुज़र सकते हैं, बस सभी समान रूप से नहीं।"
+        },
+        "1": {
+          "en": "The plasma membrane regulates movement in both directions — into the cell (e.g., nutrients, water) and out of the cell (e.g., waste products) — depending on concentration gradients and the specific substance, not exclusively outward.",
+          "hi": "प्लाज़्मा झिल्ली दोनों दिशाओं में गति को नियंत्रित करती है — कोशिका के अंदर (जैसे पोषक तत्व, जल) और कोशिका से बाहर (जैसे अपशिष्ट पदार्थ) — सांद्रता प्रवणता और विशिष्ट पदार्थ के आधार पर, केवल बाहर की ओर नहीं।"
+        },
+        "2": {
+          "en": "If the membrane allowed everything to pass through freely and unregulated, it would not be described as 'selective' at all — it would offer the cell no control over its internal composition.",
+          "hi": "यदि झिल्ली सब कुछ स्वतंत्र रूप से और अनियंत्रित रूप से गुज़रने देती, तो इसे बिल्कुल भी 'वरणात्मक' नहीं कहा जाता — यह कोशिका को अपनी आंतरिक संरचना पर कोई नियंत्रण नहीं देती।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2026-sci-05",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Which of the following correctly distinguishes gymnosperms from angiosperms, based on their seeds?",
+        "hi": "निम्नलिखित में से कौन-सा विकल्प बीजों के आधार पर अनावृतबीजी (gymnosperms) और आवृतबीजी (angiosperms) पौधों के बीच सही अंतर बताता है?"
+      },
+      "optionsJson": [
+        {
+          "en": "Gymnosperms produce naked seeds, not enclosed within a fruit, while angiosperms produce seeds enclosed within a fruit",
+          "hi": "अनावृतबीजी पौधे नग्न बीज उत्पन्न करते हैं, जो किसी फल के भीतर बंद नहीं होते, जबकि आवृतबीजी पौधे फल के भीतर बंद बीज उत्पन्न करते हैं"
+        },
+        {
+          "en": "Both gymnosperms and angiosperms always produce seeds enclosed within a fruit; they differ only in flower colour",
+          "hi": "अनावृतबीजी और आवृतबीजी दोनों हमेशा फल के भीतर बंद बीज उत्पन्न करते हैं; वे केवल फूल के रंग में भिन्न होते हैं"
+        },
+        {
+          "en": "Gymnosperms and angiosperms are distinguished by angiosperms lacking seeds altogether and reproducing only through spores",
+          "hi": "अनावृतबीजी और आवृतबीजी में अंतर यह है कि आवृतबीजी पौधों में बीज बिल्कुल नहीं होते और वे केवल बीजाणुओं (spores) के माध्यम से प्रजनन करते हैं"
+        },
+        {
+          "en": "Gymnosperms produce seeds enclosed within a fruit, while angiosperms produce naked seeds not enclosed in any fruit",
+          "hi": "अनावृतबीजी पौधे फल के भीतर बंद बीज उत्पन्न करते हैं, जबकि आवृतबीजी पौधे किसी फल में बंद न होने वाले नग्न बीज उत्पन्न करते हैं"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "The word 'gymnosperm' means 'naked seed' (from Greek gymnos = naked, sperma = seed) — these plants (such as pines and other conifers) bear seeds that are not enclosed within a fruit, often exposed on the surface of cone scales. 'Angiosperm' means 'covered/enclosed seed' (angeion = vessel/case) — these are the flowering plants whose seeds develop enclosed within a fruit, which develops from the ovary of the flower after fertilisation.",
+        "hi": "'जिम्नोस्पर्म' (gymnosperm) शब्द का अर्थ है 'नग्न बीज' (ग्रीक में gymnos = नग्न, sperma = बीज) — इन पौधों (जैसे चीड़ और अन्य कोणधारी पौधे) में बीज किसी फल के भीतर बंद नहीं होते, अक्सर शंकु शल्कों (cone scales) की सतह पर खुले रहते हैं। 'एंजियोस्पर्म' (angiosperm) का अर्थ है 'ढका/बंद बीज' (angeion = पात्र/आवरण) — ये पुष्पीय पौधे हैं जिनके बीज एक फल के भीतर बंद होकर विकसित होते हैं, जो निषेचन के बाद फूल के अंडाशय से विकसित होता है।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "This is incorrect on two counts: gymnosperm seeds are not enclosed in a fruit at all (unlike angiosperm seeds), and flower colour is not the defining distinction — gymnosperms typically do not even produce true flowers.",
+          "hi": "यह दो मायनों में गलत है: अनावृतबीजी पौधों के बीज बिल्कुल भी फल में बंद नहीं होते (आवृतबीजी बीजों के विपरीत), और फूल का रंग निर्णायक अंतर नहीं है — अनावृतबीजी पौधे सामान्यतः सच्चे फूल भी उत्पन्न नहीं करते।"
+        },
+        "2": {
+          "en": "Angiosperms are flowering, seed-producing plants, not spore-reproducing plants; reproduction purely through spores (without seeds) is characteristic of groups like Pteridophyta (ferns) and Bryophyta (mosses), not angiosperms.",
+          "hi": "आवृतबीजी पुष्पीय, बीज उत्पन्न करने वाले पौधे हैं, बीजाणुओं से प्रजनन करने वाले नहीं; केवल बीजाणुओं के माध्यम से (बिना बीज के) प्रजनन टेरिडोफाइटा (फर्न) और ब्रायोफाइटा (काई) जैसे समूहों की विशेषता है, आवृतबीजी की नहीं।"
+        },
+        "3": {
+          "en": "This exactly reverses the correct definitions — it is gymnosperms that produce naked, unenclosed seeds, and angiosperms whose seeds are enclosed within a fruit, not the other way around.",
+          "hi": "यह सही परिभाषाओं को बिल्कुल उल्टा कर देता है — अनावृतबीजी पौधे ही नग्न, बिना बंद बीज उत्पन्न करते हैं, और आवृतबीजी पौधों के बीज फल के भीतर बंद होते हैं, इसके विपरीत नहीं।"
+        }
+      }
+    }
+  ]
+}

@@ -29,4 +29,6 @@ export interface PyqSeedItem {
   optionsJson: [LangText, LangText, LangText, LangText];
   correctAnswer: 0 | 1 | 2 | 3;
   explanation: LangText;
+  /** Per wrong-option breakdown of why it's a common trap answer, keyed by that option's stringified 0-based index into optionsJson (never correctAnswer's own index) — see PreviousYearQuestion.distractorAnalysis. Optional and additive; every pre-existing PYQ file predates this field. */
+  distractorAnalysis?: Record<string, LangText>;
 }

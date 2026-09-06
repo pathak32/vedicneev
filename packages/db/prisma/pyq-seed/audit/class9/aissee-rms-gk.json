@@ -1,0 +1,858 @@
+{
+  "examType": "AISSEE",
+  "classLevel": 9,
+  "sectionKey": "general_knowledge",
+  "generatedAt": "2026-09-06T00:00:00.000Z",
+  "questions": [
+    {
+      "key": "aissee9-2022-gk-01",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Which river is traditionally regarded as the longest river in India?",
+        "hi": "पारंपरिक रूप से भारत की सबसे लंबी नदी किसे माना जाता है?"
+      },
+      "optionsJson": [
+        { "en": "Yamuna", "hi": "यमुना" },
+        { "en": "Ganga", "hi": "गंगा" },
+        { "en": "Godavari", "hi": "गोदावरी" },
+        { "en": "Krishna", "hi": "कृष्णा" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "The Ganga flows about 2,525 km from Gangotri in the Himalayas to the Bay of Bengal and is traditionally regarded as India's longest river, draining one of the country's largest river basins.",
+        "hi": "गंगा हिमालय में गंगोत्री से बंगाल की खाड़ी तक लगभग 2,525 किमी बहती है और पारंपरिक रूप से इसे भारत की सबसे लंबी नदी माना जाता है, जो देश के सबसे बड़े नदी बेसिनों में से एक की सिंचाई करती है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The Yamuna is a major, well-known tributary of the Ganga that flows past Delhi and Agra, but it is much shorter than the Ganga itself.",
+          "hi": "यमुना गंगा की एक प्रमुख और प्रसिद्ध सहायक नदी है जो दिल्ली और आगरा से होकर गुजरती है, लेकिन यह गंगा से कहीं छोटी है।"
+        },
+        "2": {
+          "en": "The Godavari is the longest river in peninsular (southern) India and is sometimes called the 'Ganga of the South,' which leads students to wrongly extend that title to the whole country.",
+          "hi": "गोदावरी प्रायद्वीपीय (दक्षिणी) भारत की सबसे लंबी नदी है और इसे कभी-कभी 'दक्षिण की गंगा' कहा जाता है, जिससे छात्र गलती से इसे पूरे देश की सबसे लंबी नदी मान लेते हैं।"
+        },
+        "3": {
+          "en": "The Krishna is a major river of peninsular India but is shorter than both the Ganga and the Godavari, so it does not top the length ranking.",
+          "hi": "कृष्णा प्रायद्वीपीय भारत की एक प्रमुख नदी है, परंतु यह गंगा और गोदावरी दोनों से छोटी है, इसलिए यह लंबाई की सूची में सबसे ऊपर नहीं आती।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2022-gk-02",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Who is popularly known as the 'Father of the Nation' in India?",
+        "hi": "भारत में 'राष्ट्रपिता' के नाम से किसे जाना जाता है?"
+      },
+      "optionsJson": [
+        { "en": "Jawaharlal Nehru", "hi": "जवाहरलाल नेहरू" },
+        { "en": "Subhas Chandra Bose", "hi": "सुभाष चंद्र बोस" },
+        { "en": "Mahatma Gandhi", "hi": "महात्मा गांधी" },
+        { "en": "Bhagat Singh", "hi": "भगत सिंह" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Mahatma Gandhi led India's freedom struggle through non-violent civil disobedience and is popularly honoured as the 'Father of the Nation.'",
+        "hi": "महात्मा गांधी ने अहिंसक सविनय अवज्ञा के माध्यम से भारत के स्वतंत्रता संग्राम का नेतृत्व किया और उन्हें लोकप्रिय रूप से 'राष्ट्रपिता' के रूप में सम्मानित किया जाता है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Jawaharlal Nehru was independent India's first Prime Minister; his prominence in that office leads some students to mix him up with the title given to Gandhi.",
+          "hi": "जवाहरलाल नेहरू स्वतंत्र भारत के पहले प्रधानमंत्री थे; उस पद की प्रमुखता के कारण कुछ छात्र उन्हें गांधी को दी गई उपाधि से जोड़ देते हैं।"
+        },
+        "1": {
+          "en": "Subhas Chandra Bose, known as 'Netaji,' led the Indian National Army against British rule, and his strong nationalist image causes confusion with the 'Father of the Nation' title.",
+          "hi": "सुभाष चंद्र बोस, जिन्हें 'नेताजी' कहा जाता है, ने ब्रिटिश शासन के विरुद्ध आज़ाद हिंद फौज का नेतृत्व किया, और उनकी सशक्त राष्ट्रवादी छवि के कारण 'राष्ट्रपिता' की उपाधि को लेकर भ्रम होता है।"
+        },
+        "3": {
+          "en": "Bhagat Singh was a young revolutionary freedom fighter executed by the British; he is celebrated for his sacrifice but was never given this particular title.",
+          "hi": "भगत सिंह एक युवा क्रांतिकारी स्वतंत्रता सेनानी थे जिन्हें अंग्रेजों ने फांसी दी थी; उनके बलिदान का सम्मान किया जाता है, परंतु उन्हें यह विशेष उपाधि कभी नहीं दी गई।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2022-gk-03",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "As per Article 51A of the Indian Constitution, how many Fundamental Duties are currently listed for citizens (after the 86th Constitutional Amendment)?",
+        "hi": "भारतीय संविधान के अनुच्छेद 51A के अनुसार, 86वें संविधान संशोधन के बाद नागरिकों के लिए वर्तमान में कितने मौलिक कर्तव्य सूचीबद्ध हैं?"
+      },
+      "optionsJson": [
+        { "en": "11", "hi": "11" },
+        { "en": "6", "hi": "6" },
+        { "en": "9", "hi": "9" },
+        { "en": "12", "hi": "12" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "The 42nd Amendment (1976) originally added 10 Fundamental Duties under Article 51A; the 86th Amendment (2002) added an 11th duty on providing education, making the current total 11.",
+        "hi": "42वें संशोधन (1976) ने मूल रूप से अनुच्छेद 51A के तहत 10 मौलिक कर्तव्य जोड़े थे; 86वें संशोधन (2002) ने शिक्षा प्रदान करने से संबंधित 11वां कर्तव्य जोड़ा, जिससे वर्तमान कुल संख्या 11 हो गई।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "6 is the number of categories of Fundamental Rights, not Fundamental Duties — students often mix up these two related but separate constitutional lists.",
+          "hi": "6 मौलिक अधिकारों की श्रेणियों की संख्या है, मौलिक कर्तव्यों की नहीं — छात्र प्रायः इन दो संबंधित परंतु अलग-अलग संवैधानिक सूचियों को आपस में मिला देते हैं।"
+        },
+        "2": {
+          "en": "9 undercounts the list by two, likely from only partially recalling the duties added by the 42nd Amendment before the 86th Amendment's addition.",
+          "hi": "9 सूची की संख्या को दो कम करके बताता है, संभवतः 86वें संशोधन द्वारा जोड़े जाने से पहले केवल 42वें संशोधन के कर्तव्यों को आंशिक रूप से याद करने के कारण।"
+        },
+        "3": {
+          "en": "12 overcounts the list by one, a common rounding-up error when a student is unsure of the exact figure.",
+          "hi": "12 सूची की संख्या को एक अधिक बताता है, जो सही आंकड़ा निश्चित न होने पर होने वाली एक सामान्य ऊपर की ओर अनुमानित त्रुटि है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2022-gk-04",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which of the following is the highest military decoration awarded in India for gallantry in the presence of the enemy?",
+        "hi": "निम्नलिखित में से कौन-सा शत्रु की उपस्थिति में वीरता के लिए भारत में प्रदान किया जाने वाला सर्वोच्च सैन्य सम्मान है?"
+      },
+      "optionsJson": [
+        { "en": "Ashoka Chakra", "hi": "अशोक चक्र" },
+        { "en": "Kirti Chakra", "hi": "कीर्ति चक्र" },
+        { "en": "Vir Chakra", "hi": "वीर चक्र" },
+        { "en": "Param Vir Chakra", "hi": "परम वीर चक्र" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "The Param Vir Chakra is India's highest wartime gallantry award, given for the most conspicuous act of bravery in the presence of the enemy, on land, sea, or air.",
+        "hi": "परम वीर चक्र भारत का सर्वोच्च युद्धकालीन वीरता पुरस्कार है, जो शत्रु की उपस्थिति में थल, जल या वायु में सबसे विशिष्ट वीरतापूर्ण कार्य के लिए प्रदान किया जाता है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The Ashoka Chakra is India's highest peacetime gallantry award, not a wartime one, so it is a separate top honour from the Param Vir Chakra.",
+          "hi": "अशोक चक्र भारत का सर्वोच्च शांतिकालीन वीरता पुरस्कार है, युद्धकालीन नहीं, इसलिए यह परम वीर चक्र से अलग एक शीर्ष सम्मान है।"
+        },
+        "1": {
+          "en": "The Kirti Chakra ranks second among peacetime gallantry awards, below the Ashoka Chakra, and is unrelated to the wartime ranking asked here.",
+          "hi": "कीर्ति चक्र शांतिकालीन वीरता पुरस्कारों में अशोक चक्र के बाद दूसरे स्थान पर आता है, और यहां पूछी गई युद्धकालीन रैंकिंग से इसका संबंध नहीं है।"
+        },
+        "2": {
+          "en": "The Vir Chakra is the third-highest wartime gallantry award, ranking below both the Param Vir Chakra and the Maha Vir Chakra.",
+          "hi": "वीर चक्र तीसरा सर्वोच्च युद्धकालीन वीरता पुरस्कार है, जो परम वीर चक्र और महावीर चक्र दोनों से नीचे है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2022-gk-05",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Deficiency of which vitamin causes the disease beriberi, marked by nerve damage and muscle weakness?",
+        "hi": "किस विटामिन की कमी से बेरी-बेरी रोग होता है, जिसमें तंत्रिका क्षति और मांसपेशियों की कमजोरी होती है?"
+      },
+      "optionsJson": [
+        { "en": "Vitamin A", "hi": "विटामिन A" },
+        { "en": "Vitamin B1 (Thiamine)", "hi": "विटामिन B1 (थायमिन)" },
+        { "en": "Vitamin C", "hi": "विटामिन C" },
+        { "en": "Vitamin D", "hi": "विटामिन D" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Beriberi is caused by a deficiency of Vitamin B1 (Thiamine), which is needed for nerve function and converting food into energy; its lack damages nerves and weakens muscles.",
+        "hi": "बेरी-बेरी विटामिन B1 (थायमिन) की कमी से होता है, जो तंत्रिका कार्य और भोजन को ऊर्जा में बदलने के लिए आवश्यक है; इसकी कमी से तंत्रिकाओं को क्षति पहुंचती है और मांसपेशियां कमजोर हो जाती हैं।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Vitamin A deficiency causes night blindness and xerophthalmia (dry eyes), a different deficiency disease affecting vision rather than nerves and muscles.",
+          "hi": "विटामिन A की कमी से रतौंधी और ज़ेरोफ्थैल्मिया (आंखों का सूखापन) होता है, जो दृष्टि को प्रभावित करने वाला एक अलग कमी रोग है, न कि तंत्रिकाओं और मांसपेशियों को।"
+        },
+        "2": {
+          "en": "Vitamin C deficiency causes scurvy, marked by bleeding gums and slow wound healing, which is a well-known but different deficiency disease from beriberi.",
+          "hi": "विटामिन C की कमी से स्कर्वी होता है, जिसमें मसूड़ों से खून आना और घाव धीरे भरना शामिल है, जो बेरी-बेरी से भिन्न एक जाना-पहचाना कमी रोग है।"
+        },
+        "3": {
+          "en": "Vitamin D deficiency causes rickets in children and osteomalacia in adults, affecting bones rather than the nerve and muscle symptoms of beriberi.",
+          "hi": "विटामिन D की कमी से बच्चों में रिकेट्स और वयस्कों में ऑस्टियोमलेशिया होता है, जो हड्डियों को प्रभावित करता है, न कि बेरी-बेरी के तंत्रिका और मांसपेशी लक्षणों को।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2023-gk-01",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "The term 'Grand Slam,' referring to Wimbledon, the US Open, the French Open, and the Australian Open, is associated with which sport?",
+        "hi": "'ग्रैंड स्लैम' शब्द, जो विंबलडन, यूएस ओपन, फ्रेंच ओपन और ऑस्ट्रेलियन ओपन को संदर्भित करता है, किस खेल से संबंधित है?"
+      },
+      "optionsJson": [
+        { "en": "Tennis", "hi": "टेनिस" },
+        { "en": "Badminton", "hi": "बैडमिंटन" },
+        { "en": "Table Tennis", "hi": "टेबल टेनिस" },
+        { "en": "Squash", "hi": "स्क्वैश" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Tennis has four Grand Slam tournaments — the Australian Open, French Open, Wimbledon, and the US Open — the sport's most prestigious annual events.",
+        "hi": "टेनिस में चार ग्रैंड स्लैम टूर्नामेंट होते हैं — ऑस्ट्रेलियन ओपन, फ्रेंच ओपन, विंबलडन और यूएस ओपन — जो इस खेल के सबसे प्रतिष्ठित वार्षिक आयोजन हैं।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Badminton has major tournaments like the All England Championships and BWF World Championships, but these are not called the 'Grand Slam' events.",
+          "hi": "बैडमिंटन में ऑल इंग्लैंड चैंपियनशिप और BWF विश्व चैंपियनशिप जैसे प्रमुख टूर्नामेंट होते हैं, लेकिन इन्हें 'ग्रैंड स्लैम' आयोजन नहीं कहा जाता।"
+        },
+        "2": {
+          "en": "Table Tennis has its own World Championships and Olympic events but does not use the 'Grand Slam' terminology for a set of four tournaments.",
+          "hi": "टेबल टेनिस की अपनी विश्व चैंपियनशिप और ओलंपिक स्पर्धाएं होती हैं, परंतु चार टूर्नामेंटों के समूह के लिए 'ग्रैंड स्लैम' शब्द का प्रयोग नहीं होता।"
+        },
+        "3": {
+          "en": "Squash also does not group its top tournaments under the 'Grand Slam' label, making this an unrelated sport for the term.",
+          "hi": "स्क्वैश भी अपने शीर्ष टूर्नामेंटों को 'ग्रैंड स्लैम' नाम के अंतर्गत समूहित नहीं करता, इसलिए यह इस शब्द के लिए असंबंधित खेल है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2023-gk-02",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Who wrote 'Jana Gana Mana,' the national anthem of India?",
+        "hi": "भारत के राष्ट्रगान 'जन गण मन' की रचना किसने की थी?"
+      },
+      "optionsJson": [
+        { "en": "Bankim Chandra Chattopadhyay", "hi": "बंकिम चंद्र चट्टोपाध्याय" },
+        { "en": "Sarojini Naidu", "hi": "सरोजिनी नायडू" },
+        { "en": "Rabindranath Tagore", "hi": "रवींद्रनाथ टैगोर" },
+        { "en": "Muhammad Iqbal", "hi": "मुहम्मद इक़बाल" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Rabindranath Tagore composed 'Jana Gana Mana,' which was adopted as India's national anthem; he also wrote Bangladesh's national anthem.",
+        "hi": "रवींद्रनाथ टैगोर ने 'जन गण मन' की रचना की, जिसे भारत के राष्ट्रगान के रूप में अपनाया गया; उन्होंने बांग्लादेश का राष्ट्रगान भी लिखा था।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Bankim Chandra Chattopadhyay wrote 'Vande Mataram,' India's national song, which students often confuse with the national anthem.",
+          "hi": "बंकिम चंद्र चट्टोपाध्याय ने 'वंदे मातरम्' लिखा था, जो भारत का राष्ट्रीय गीत है, जिसे छात्र प्रायः राष्ट्रगान समझ लेते हैं।"
+        },
+        "1": {
+          "en": "Sarojini Naidu was a celebrated poet and freedom fighter, sometimes called the 'Nightingale of India,' but she did not write the national anthem.",
+          "hi": "सरोजिनी नायडू एक प्रसिद्ध कवयित्री और स्वतंत्रता सेनानी थीं, जिन्हें 'भारत कोकिला' भी कहा जाता है, परंतु उन्होंने राष्ट्रगान की रचना नहीं की।"
+        },
+        "3": {
+          "en": "Muhammad Iqbal wrote the patriotic song 'Saare Jahan Se Achha,' which is often mistaken for the national anthem due to its similar patriotic theme.",
+          "hi": "मुहम्मद इक़बाल ने देशभक्ति गीत 'सारे जहां से अच्छा' लिखा था, जिसे इसके समान देशभक्ति भाव के कारण प्रायः राष्ट्रगान समझ लिया जाता है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2023-gk-03",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which is the largest Indian state by geographical area?",
+        "hi": "क्षेत्रफल के अनुसार भारत का सबसे बड़ा राज्य कौन-सा है?"
+      },
+      "optionsJson": [
+        { "en": "Madhya Pradesh", "hi": "मध्य प्रदेश" },
+        { "en": "Maharashtra", "hi": "महाराष्ट्र" },
+        { "en": "Uttar Pradesh", "hi": "उत्तर प्रदेश" },
+        { "en": "Rajasthan", "hi": "राजस्थान" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Rajasthan, covering about 342,000 sq km, is India's largest state by geographical area, known for the Thar Desert in its western region.",
+        "hi": "राजस्थान, जो लगभग 342,000 वर्ग किमी में फैला है, क्षेत्रफल के अनुसार भारत का सबसे बड़ा राज्य है और अपने पश्चिमी भाग में थार मरुस्थल के लिए जाना जाता है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Madhya Pradesh is the second-largest state by area, often mistaken for the largest because of its size and central location.",
+          "hi": "मध्य प्रदेश क्षेत्रफल के अनुसार दूसरा सबसे बड़ा राज्य है, जिसे अपने आकार और मध्यवर्ती स्थिति के कारण प्रायः सबसे बड़ा राज्य समझ लिया जाता है।"
+        },
+        "1": {
+          "en": "Maharashtra is the third-largest state by area; its industrial and economic prominence sometimes leads students to overestimate its size ranking.",
+          "hi": "महाराष्ट्र क्षेत्रफल के अनुसार तीसरा सबसे बड़ा राज्य है; इसकी औद्योगिक और आर्थिक प्रमुखता के कारण कभी-कभी छात्र इसके आकार की रैंकिंग को अधिक आंक लेते हैं।"
+        },
+        "2": {
+          "en": "Uttar Pradesh is India's most populous state, and students often confuse its high population ranking with a high area ranking.",
+          "hi": "उत्तर प्रदेश भारत का सबसे अधिक जनसंख्या वाला राज्य है, और छात्र प्रायः इसकी उच्च जनसंख्या रैंकिंग को उच्च क्षेत्रफल रैंकिंग समझ लेते हैं।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2023-gk-04",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "The Taj Mahal was built during the reign of which Mughal emperor?",
+        "hi": "ताजमहल किस मुगल सम्राट के शासनकाल में बनाया गया था?"
+      },
+      "optionsJson": [
+        { "en": "Akbar", "hi": "अकबर" },
+        { "en": "Shah Jahan", "hi": "शाहजहां" },
+        { "en": "Aurangzeb", "hi": "औरंगजेब" },
+        { "en": "Jahangir", "hi": "जहांगीर" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Emperor Shah Jahan commissioned the Taj Mahal at Agra in memory of his wife Mumtaz Mahal; it was built over roughly two decades in the 17th century.",
+        "hi": "सम्राट शाहजहां ने आगरा में अपनी पत्नी मुमताज़ महल की स्मृति में ताजमहल का निर्माण करवाया था; इसका निर्माण 17वीं शताब्दी में लगभग दो दशकों में हुआ था।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Akbar, known for expanding the Mughal Empire and policies like Din-i-Ilahi, ruled well before the Taj Mahal was built and is often wrongly linked to it as the most famous Mughal.",
+          "hi": "अकबर, जो मुगल साम्राज्य के विस्तार और दीन-ए-इलाही जैसी नीतियों के लिए जाने जाते हैं, ताजमहल बनने से बहुत पहले शासन करते थे, और सबसे प्रसिद्ध मुगल होने के कारण उन्हें गलती से इससे जोड़ दिया जाता है।"
+        },
+        "2": {
+          "en": "Aurangzeb, Shah Jahan's son, is sometimes confused with the Taj Mahal's builder because he later confined Shah Jahan in Agra Fort, close to the monument.",
+          "hi": "औरंगजेब, शाहजहां के पुत्र, को कभी-कभी ताजमहल के निर्माता के रूप में गलत समझा जाता है क्योंकि उसने बाद में शाहजहां को आगरा किले में, इस स्मारक के निकट, नज़रबंद कर दिया था।"
+        },
+        "3": {
+          "en": "Jahangir, Shah Jahan's father, is known for his interest in painting and his wife Nur Jahan's influence, but he ruled before the Taj Mahal was constructed.",
+          "hi": "जहांगीर, शाहजहां के पिता, चित्रकला में रुचि और अपनी पत्नी नूरजहां के प्रभाव के लिए जाने जाते हैं, परंतु उन्होंने ताजमहल के निर्माण से पहले शासन किया था।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2023-gk-05",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "What was the codename of the Indian Armed Forces' operation to evict infiltrators from the Kargil heights in 1999?",
+        "hi": "1999 में कारगिल की ऊंचाइयों से घुसपैठियों को खदेड़ने के लिए भारतीय सेना के अभियान का कोडनेम क्या था?"
+      },
+      "optionsJson": [
+        { "en": "Operation Meghdoot", "hi": "ऑपरेशन मेघदूत" },
+        { "en": "Operation Cactus", "hi": "ऑपरेशन कैक्टस" },
+        { "en": "Operation Vijay", "hi": "ऑपरेशन विजय" },
+        { "en": "Operation Trident", "hi": "ऑपरेशन ट्राइडेंट" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The 1999 Kargil War operation to reclaim Indian posts on the Kargil heights from infiltrators was named 'Operation Vijay.'",
+        "hi": "1999 के कारगिल युद्ध में घुसपैठियों से कारगिल की ऊंचाइयों पर भारतीय चौकियों को पुनः प्राप्त करने के अभियान का नाम 'ऑपरेशन विजय' रखा गया था।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Operation Meghdoot was the 1984 Indian Army operation to secure the Siachen Glacier, a different high-altitude Himalayan operation from the 1999 Kargil conflict.",
+          "hi": "ऑपरेशन मेघदूत 1984 में सियाचिन ग्लेशियर को सुरक्षित करने के लिए भारतीय सेना का अभियान था, जो 1999 के कारगिल संघर्ष से भिन्न एक उच्च-ऊंचाई हिमालयी अभियान था।"
+        },
+        "1": {
+          "en": "Operation Cactus was India's 1988 military intervention to foil a coup attempt in the Maldives, unrelated to the Kargil conflict but a similarly named operation that causes mix-ups.",
+          "hi": "ऑपरेशन कैक्टस 1988 में मालदीव में तख्तापलट के प्रयास को विफल करने के लिए भारत का सैन्य हस्तक्षेप था, जो कारगिल संघर्ष से असंबंधित है लेकिन समान नामकरण के कारण भ्रम पैदा करता है।"
+        },
+        "3": {
+          "en": "Operation Trident was the Indian Navy's 1971 attack on Karachi harbour during the Indo-Pak war, a well-known named operation from a different war entirely.",
+          "hi": "ऑपरेशन ट्राइडेंट 1971 के भारत-पाक युद्ध के दौरान कराची बंदरगाह पर भारतीय नौसेना का हमला था, जो पूरी तरह से एक अलग युद्ध का एक प्रसिद्ध नामित अभियान है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2024-gk-01",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "How many states does India currently have?",
+        "hi": "भारत में वर्तमान में कितने राज्य हैं?"
+      },
+      "optionsJson": [
+        { "en": "25", "hi": "25" },
+        { "en": "26", "hi": "26" },
+        { "en": "27", "hi": "27" },
+        { "en": "28", "hi": "28" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "India currently has 28 states and 8 union territories, following the 2019 reorganisation of Jammu and Kashmir and the 2020 merger of Dadra and Nagar Haveli with Daman and Diu.",
+        "hi": "जम्मू और कश्मीर के 2019 के पुनर्गठन और दादरा एवं नगर हवेली के दमन एवं दीव के साथ 2020 में विलय के बाद, भारत में वर्तमान में 28 राज्य और 8 केंद्र शासित प्रदेश हैं।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "25 is an outdated figure from many years before recent state and union territory reorganisations, undercounting today's total.",
+          "hi": "25 कई वर्षों पहले का पुराना आंकड़ा है, जो हालिया राज्य और केंद्र शासित प्रदेश पुनर्गठन से पहले का है और आज की कुल संख्या को कम बताता है।"
+        },
+        "1": {
+          "en": "26 is a close but incorrect undercount, a common guess when a student is unsure of the exact current figure.",
+          "hi": "26 एक निकट परंतु गलत कम संख्या है, जो सही वर्तमान आंकड़ा निश्चित न होने पर छात्रों का एक सामान्य अनुमान है।"
+        },
+        "2": {
+          "en": "27 undercounts by one, another plausible-sounding but incorrect guess close to the actual number.",
+          "hi": "27 संख्या को एक कम बताता है, जो वास्तविक संख्या के निकट परंतु गलत एक और प्रशंसनीय अनुमान है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2024-gk-02",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which blood vessels generally carry oxygenated blood away from the heart to the rest of the body?",
+        "hi": "कौन-सी रक्त वाहिकाएं सामान्यतः ऑक्सीजनयुक्त रक्त को हृदय से शरीर के बाकी हिस्सों तक ले जाती हैं?"
+      },
+      "optionsJson": [
+        { "en": "Arteries", "hi": "धमनियां" },
+        { "en": "Veins", "hi": "शिराएं" },
+        { "en": "Capillaries", "hi": "केशिकाएं" },
+        { "en": "Lymph vessels", "hi": "लसीका वाहिकाएं" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "In the general (systemic) circulation, arteries carry oxygenated blood away from the heart to body tissues, while veins bring deoxygenated blood back.",
+        "hi": "सामान्य (प्रणालीगत) परिसंचरण में, धमनियां ऑक्सीजनयुक्त रक्त को हृदय से शरीर के ऊतकों तक ले जाती हैं, जबकि शिराएं अनॉक्सीजनित रक्त को वापस लाती हैं।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Veins carry blood back toward the heart, generally deoxygenated in the systemic circuit, which is the reverse direction of what the question asks.",
+          "hi": "शिराएं रक्त को वापस हृदय की ओर ले जाती हैं, जो प्रणालीगत परिसंचरण में सामान्यतः अनॉक्सीजनित होता है, जो प्रश्न में पूछी गई दिशा के विपरीत है।"
+        },
+        "2": {
+          "en": "Capillaries are tiny vessels where oxygen and nutrient exchange with tissues happens; they connect arteries and veins but do not carry blood directly away from the heart.",
+          "hi": "केशिकाएं छोटी वाहिकाएं हैं जहां ऊतकों के साथ ऑक्सीजन और पोषक तत्वों का आदान-प्रदान होता है; ये धमनियों और शिराओं को जोड़ती हैं परंतु सीधे हृदय से रक्त नहीं ले जातीं।"
+        },
+        "3": {
+          "en": "Lymph vessels are part of the separate lymphatic system, carrying lymph fluid rather than blood, so they are unrelated to this circulatory function.",
+          "hi": "लसीका वाहिकाएं एक अलग लसीका तंत्र का हिस्सा हैं, जो रक्त के बजाय लसीका द्रव ले जाती हैं, इसलिए इनका इस परिसंचरण क्रिया से कोई संबंध नहीं है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2024-gk-03",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "The 'Ranji Trophy' is a premier domestic tournament in India for which sport?",
+        "hi": "'रणजी ट्रॉफी' भारत में किस खेल का एक प्रमुख घरेलू टूर्नामेंट है?"
+      },
+      "optionsJson": [
+        { "en": "Hockey", "hi": "हॉकी" },
+        { "en": "Cricket", "hi": "क्रिकेट" },
+        { "en": "Football", "hi": "फुटबॉल" },
+        { "en": "Kabaddi", "hi": "कबड्डी" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "The Ranji Trophy is India's premier first-class domestic cricket tournament, contested annually by teams representing states and regions.",
+        "hi": "रणजी ट्रॉफी भारत का प्रमुख प्रथम श्रेणी घरेलू क्रिकेट टूर्नामेंट है, जो प्रतिवर्ष राज्यों और क्षेत्रों का प्रतिनिधित्व करने वाली टीमों के बीच खेला जाता है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Hockey is historically one of India's strongest sports internationally, but its domestic competitions are not called the Ranji Trophy.",
+          "hi": "हॉकी ऐतिहासिक रूप से अंतरराष्ट्रीय स्तर पर भारत के सबसे मजबूत खेलों में से एक है, परंतु इसकी घरेलू प्रतियोगिताओं को रणजी ट्रॉफी नहीं कहा जाता।"
+        },
+        "2": {
+          "en": "Football has domestic competitions such as the Santosh Trophy in India, which students sometimes confuse with the similarly structured Ranji Trophy of cricket.",
+          "hi": "फुटबॉल की भारत में संतोष ट्रॉफी जैसी घरेलू प्रतियोगिताएं हैं, जिन्हें छात्र कभी-कभी क्रिकेट की समान संरचना वाली रणजी ट्रॉफी समझ लेते हैं।"
+        },
+        "3": {
+          "en": "Kabaddi is popular in India through leagues like the Pro Kabaddi League, but it has no connection to the Ranji Trophy, which is specific to cricket.",
+          "hi": "कबड्डी भारत में प्रो कबड्डी लीग जैसी लीगों के माध्यम से लोकप्रिय है, परंतु इसका रणजी ट्रॉफी से कोई संबंध नहीं है, जो विशेष रूप से क्रिकेट से जुड़ी है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2024-gk-04",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "The Tropic of Cancer passes through how many Indian states?",
+        "hi": "कर्क रेखा भारत के कितने राज्यों से होकर गुजरती है?"
+      },
+      "optionsJson": [
+        { "en": "6", "hi": "6" },
+        { "en": "7", "hi": "7" },
+        { "en": "8", "hi": "8" },
+        { "en": "9", "hi": "9" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The Tropic of Cancer passes through 8 Indian states: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura, and Mizoram.",
+        "hi": "कर्क रेखा भारत के 8 राज्यों से होकर गुजरती है: गुजरात, राजस्थान, मध्य प्रदेश, छत्तीसगढ़, झारखंड, पश्चिम बंगाल, त्रिपुरा और मिज़ोरम।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "6 undercounts the list significantly, omitting several states the line actually crosses, such as Jharkhand and Tripura.",
+          "hi": "6 सूची को काफी कम गिनता है, इसमें झारखंड और त्रिपुरा जैसे कई राज्यों को छोड़ दिया गया है जिनसे यह रेखा वास्तव में गुजरती है।"
+        },
+        "1": {
+          "en": "7 is close but still misses one state on the actual list of eight, a common near-miss when recalling the full set from memory.",
+          "hi": "7 निकट है परंतु फिर भी आठ राज्यों की वास्तविक सूची में से एक राज्य छूट जाता है, जो पूरी सूची को स्मृति से याद करते समय होने वाली एक सामान्य चूक है।"
+        },
+        "3": {
+          "en": "9 overcounts by one, likely from mistakenly including a neighbouring state that the Tropic of Cancer does not actually pass through.",
+          "hi": "9 संख्या को एक अधिक बताता है, संभवतः गलती से किसी पड़ोसी राज्य को शामिल कर लेने के कारण, जिससे वास्तव में कर्क रेखा नहीं गुजरती।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2024-gk-05",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Under whose leadership was the Azad Hind Fauj (Indian National Army) reorganised in 1943 during the Second World War?",
+        "hi": "द्वितीय विश्व युद्ध के दौरान 1943 में आज़ाद हिंद फौज (भारतीय राष्ट्रीय सेना) का पुनर्गठन किसके नेतृत्व में हुआ था?"
+      },
+      "optionsJson": [
+        { "en": "Subhas Chandra Bose", "hi": "सुभाष चंद्र बोस" },
+        { "en": "Mohan Singh", "hi": "मोहन सिंह" },
+        { "en": "Rash Behari Bose", "hi": "रास बिहारी बोस" },
+        { "en": "Jawaharlal Nehru", "hi": "जवाहरलाल नेहरू" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Subhas Chandra Bose arrived in Southeast Asia in 1943 and reorganised the Azad Hind Fauj (INA), leading it in the fight against British rule alongside the Indian Independence League.",
+        "hi": "सुभाष चंद्र बोस 1943 में दक्षिण-पूर्व एशिया पहुंचे और आज़ाद हिंद फौज (INA) का पुनर्गठन किया, तथा भारतीय स्वतंत्रता लीग के साथ मिलकर ब्रिटिश शासन के विरुद्ध संघर्ष में इसका नेतृत्व किया।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Mohan Singh originally raised the INA in 1942 with Japanese assistance, before it was later reorganised under Subhas Chandra Bose's leadership in 1943.",
+          "hi": "मोहन सिंह ने मूल रूप से 1942 में जापानी सहायता से INA का गठन किया था, इससे पहले कि 1943 में इसका पुनर्गठन सुभाष चंद्र बोस के नेतृत्व में हुआ।"
+        },
+        "2": {
+          "en": "Rash Behari Bose, an earlier revolutionary leader, helped establish the Indian Independence League and handed over leadership to Subhas Chandra Bose; the shared surname often causes confusion between the two.",
+          "hi": "रास बिहारी बोस, एक पूर्ववर्ती क्रांतिकारी नेता, ने भारतीय स्वतंत्रता लीग की स्थापना में सहायता की और नेतृत्व सुभाष चंद्र बोस को सौंप दिया; समान उपनाम के कारण अक्सर दोनों के बीच भ्रम होता है।"
+        },
+        "3": {
+          "en": "Jawaharlal Nehru was a leading Congress figure and India's first Prime Minister, but he had no role in founding or reorganising the INA.",
+          "hi": "जवाहरलाल नेहरू कांग्रेस के एक प्रमुख नेता और भारत के पहले प्रधानमंत्री थे, परंतु INA की स्थापना या पुनर्गठन में उनकी कोई भूमिका नहीं थी।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2025-gk-01",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Who is the traditional author of the Indian epic 'Ramayana'?",
+        "hi": "भारतीय महाकाव्य 'रामायण' के पारंपरिक रचयिता कौन हैं?"
+      },
+      "optionsJson": [
+        { "en": "Ved Vyasa", "hi": "वेद व्यास" },
+        { "en": "Kalidasa", "hi": "कालिदास" },
+        { "en": "Valmiki", "hi": "वाल्मीकि" },
+        { "en": "Tulsidas", "hi": "तुलसीदास" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Sage Valmiki is traditionally credited as the original author of the Sanskrit epic 'Ramayana,' one of India's two great ancient epics.",
+        "hi": "महर्षि वाल्मीकि को पारंपरिक रूप से संस्कृत महाकाव्य 'रामायण' के मूल रचयिता के रूप में श्रेय दिया जाता है, जो भारत के दो महान प्राचीन महाकाव्यों में से एक है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Ved Vyasa is traditionally credited as the author of the other great Indian epic, the Mahabharata, and is often confused with the Ramayana's author.",
+          "hi": "वेद व्यास को परंपरागत रूप से भारत के दूसरे महान महाकाव्य, महाभारत, के रचयिता के रूप में श्रेय दिया जाता है, और उन्हें प्रायः रामायण के रचयिता समझ लिया जाता है।"
+        },
+        "1": {
+          "en": "Kalidasa was a celebrated classical Sanskrit poet and playwright known for works like 'Abhijnanashakuntalam,' not for authoring either great epic.",
+          "hi": "कालिदास एक प्रसिद्ध शास्त्रीय संस्कृत कवि और नाटककार थे, जो 'अभिज्ञानशाकुंतलम्' जैसी रचनाओं के लिए जाने जाते हैं, न कि किसी महाकाव्य की रचना के लिए।"
+        },
+        "3": {
+          "en": "Tulsidas wrote the 'Ramcharitmanas,' a beloved Awadhi-language retelling of the Ramayana story, but he is not the author of the original Sanskrit epic.",
+          "hi": "तुलसीदास ने 'रामचरितमानस' लिखा, जो रामायण कथा का अवधी भाषा में एक लोकप्रिय पुनर्कथन है, परंतु वे मूल संस्कृत महाकाव्य के रचयिता नहीं हैं।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2025-gk-02",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "'Nabhah Sprisham Deeptam' (Touch the Sky with Glory), a phrase from the Bhagavad Gita, is the official motto of which Indian armed force?",
+        "hi": "'नभः स्पृशं दीप्तम्' (गौरव के साथ आकाश को स्पर्श करो), भगवद गीता से लिया गया यह वाक्यांश, किस भारतीय सशस्त्र सेना का आधिकारिक आदर्श वाक्य है?"
+      },
+      "optionsJson": [
+        { "en": "Satyameva Jayate (India's national motto)", "hi": "सत्यमेव जयते (भारत का राष्ट्रीय आदर्श वाक्य)" },
+        { "en": "Indian Air Force", "hi": "भारतीय वायु सेना" },
+        { "en": "Indian Navy", "hi": "भारतीय नौसेना" },
+        { "en": "Indian Army", "hi": "भारतीय थल सेना" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "'Nabhah Sprisham Deeptam' is the motto of the Indian Air Force, drawn from the Bhagavad Gita and meaning 'Touch the Sky with Glory.'",
+        "hi": "'नभः स्पृशं दीप्तम्' भारतीय वायु सेना का आदर्श वाक्य है, जो भगवद गीता से लिया गया है और जिसका अर्थ है 'गौरव के साथ आकाश को स्पर्श करो'।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "'Satyameva Jayate,' meaning 'Truth Alone Triumphs,' is India's national motto taken from the Mundaka Upanishad, not the motto of any specific armed force.",
+          "hi": "'सत्यमेव जयते', जिसका अर्थ है 'सत्य ही विजयी होता है', मुंडक उपनिषद से लिया गया भारत का राष्ट्रीय आदर्श वाक्य है, न कि किसी विशेष सशस्त्र सेना का आदर्श वाक्य।"
+        },
+        "2": {
+          "en": "The Indian Navy's motto is 'Sam No Varunah,' drawn from the Yajurveda, meaning 'May the Lord of Water Be Auspicious to Us' — a different service's motto.",
+          "hi": "भारतीय नौसेना का आदर्श वाक्य 'शं नो वरुणः' है, जो यजुर्वेद से लिया गया है और जिसका अर्थ है 'जल के देवता हम पर कृपा करें' — यह एक अलग सेवा का आदर्श वाक्य है।"
+        },
+        "3": {
+          "en": "The Indian Army's motto is 'Seva Paramo Dharma' (Service Before Self), a different force's motto from the one described in the question.",
+          "hi": "भारतीय थल सेना का आदर्श वाक्य 'सेवा परमो धर्म' है (स्वयं से पहले सेवा), जो प्रश्न में वर्णित सेना से भिन्न एक सेवा का आदर्श वाक्य है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2025-gk-03",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which human organ is primarily responsible for filtering blood and producing urine?",
+        "hi": "कौन-सा मानव अंग मुख्य रूप से रक्त को छानने और मूत्र बनाने के लिए जिम्मेदार है?"
+      },
+      "optionsJson": [
+        { "en": "Liver", "hi": "यकृत (लिवर)" },
+        { "en": "Heart", "hi": "हृदय" },
+        { "en": "Lungs", "hi": "फेफड़े" },
+        { "en": "Kidney", "hi": "वृक्क (किडनी)" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "The kidneys filter waste products and excess substances from the blood and produce urine as part of the excretory system.",
+        "hi": "वृक्क (किडनी) उत्सर्जन तंत्र के हिस्से के रूप में रक्त से अपशिष्ट पदार्थों और अतिरिक्त तत्वों को छानते हैं और मूत्र का निर्माण करते हैं।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The liver handles detoxification, metabolism, and bile production, but it does not filter blood to produce urine.",
+          "hi": "यकृत विषहरण, चयापचय और पित्त निर्माण का कार्य करता है, परंतु यह मूत्र बनाने के लिए रक्त को नहीं छानता।"
+        },
+        "1": {
+          "en": "The heart pumps blood throughout the body but does not filter waste from it to form urine.",
+          "hi": "हृदय पूरे शरीर में रक्त पंप करता है, परंतु मूत्र बनाने के लिए इससे अपशिष्ट को नहीं छानता।"
+        },
+        "2": {
+          "en": "The lungs are responsible for gas exchange — taking in oxygen and expelling carbon dioxide — not for filtering blood to produce urine.",
+          "hi": "फेफड़े गैस विनिमय के लिए जिम्मेदार हैं — ऑक्सीजन ग्रहण करना और कार्बन डाइऑक्साइड बाहर निकालना — न कि मूत्र बनाने के लिए रक्त को छानने के लिए।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2025-gk-04",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Which Article of the Indian Constitution abolishes untouchability and forbids its practice in any form?",
+        "hi": "भारतीय संविधान का कौन-सा अनुच्छेद अस्पृश्यता को समाप्त करता है और इसके किसी भी रूप में अभ्यास को निषिद्ध करता है?"
+      },
+      "optionsJson": [
+        { "en": "Article 17", "hi": "अनुच्छेद 17" },
+        { "en": "Article 21", "hi": "अनुच्छेद 21" },
+        { "en": "Article 32", "hi": "अनुच्छेद 32" },
+        { "en": "Article 14", "hi": "अनुच्छेद 14" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Article 17 of the Indian Constitution abolishes untouchability and forbids its practice in any form, making its enforcement an offence punishable by law.",
+        "hi": "भारतीय संविधान का अनुच्छेद 17 अस्पृश्यता को समाप्त करता है और इसके किसी भी रूप में अभ्यास को निषिद्ध करता है, तथा इसे लागू करना कानून द्वारा दंडनीय अपराध बनाता है।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Article 21 guarantees the Right to Life and Personal Liberty, one of the most well-known constitutional articles, often confused with other rights due to its prominence.",
+          "hi": "अनुच्छेद 21 जीवन और व्यक्तिगत स्वतंत्रता के अधिकार की गारंटी देता है, जो सबसे प्रसिद्ध संवैधानिक अनुच्छेदों में से एक है, और अपनी प्रमुखता के कारण अक्सर अन्य अधिकारों के साथ भ्रमित हो जाता है।"
+        },
+        "2": {
+          "en": "Article 32 provides the Right to Constitutional Remedies, famously called the 'heart and soul' of the Constitution by Dr. B. R. Ambedkar, but it does not deal with untouchability.",
+          "hi": "अनुच्छेद 32 संवैधानिक उपचारों के अधिकार का प्रावधान करता है, जिसे डॉ. बी.आर. अंबेडकर ने संविधान की 'आत्मा और हृदय' कहा था, परंतु यह अस्पृश्यता से संबंधित नहीं है।"
+        },
+        "3": {
+          "en": "Article 14 guarantees equality before the law and equal protection of the laws, a related equality-themed article but distinct from the specific abolition of untouchability.",
+          "hi": "अनुच्छेद 14 कानून के समक्ष समानता और कानूनों के समान संरक्षण की गारंटी देता है, जो समानता से संबंधित एक अनुच्छेद है परंतु अस्पृश्यता के विशिष्ट उन्मूलन से भिन्न है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2025-gk-05",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Major Dhyan Chand, after whom India's highest sporting honour is named, was a legendary player of which sport?",
+        "hi": "मेजर ध्यानचंद, जिनके नाम पर भारत का सर्वोच्च खेल सम्मान रखा गया है, किस खेल के महान खिलाड़ी थे?"
+      },
+      "optionsJson": [
+        { "en": "Cricket", "hi": "क्रिकेट" },
+        { "en": "Football", "hi": "फुटबॉल" },
+        { "en": "Hockey", "hi": "हॉकी" },
+        { "en": "Badminton", "hi": "बैडमिंटन" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Major Dhyan Chand was a legendary hockey player renowned for his goal-scoring skill and Olympic gold medals; India's highest sporting honour, the Major Dhyan Chand Khel Ratna Award, is named after him.",
+        "hi": "मेजर ध्यानचंद एक महान हॉकी खिलाड़ी थे, जो अपने गोल करने के कौशल और ओलंपिक स्वर्ण पदकों के लिए प्रसिद्ध थे; भारत का सर्वोच्च खेल सम्मान, मेजर ध्यानचंद खेल रत्न पुरस्कार, उन्हीं के नाम पर रखा गया है।"
+        },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Cricket is India's most widely followed sport today, which leads some students to wrongly guess it for any question about a legendary Indian sportsperson.",
+          "hi": "क्रिकेट आज भारत का सबसे लोकप्रिय खेल है, जिसके कारण कुछ छात्र किसी भी महान भारतीय खिलाड़ी से जुड़े प्रश्न में गलती से इसे चुन लेते हैं।"
+        },
+        "1": {
+          "en": "Football is a popular sport in India but has no connection to Major Dhyan Chand, who was not associated with it.",
+          "hi": "फुटबॉल भारत में एक लोकप्रिय खेल है, परंतु इसका मेजर ध्यानचंद से कोई संबंध नहीं है, जो इससे जुड़े नहीं थे।"
+        },
+        "3": {
+          "en": "Badminton is unrelated to Major Dhyan Chand's career and is sometimes confused with other Indian sporting legends from different eras.",
+          "hi": "बैडमिंटन का मेजर ध्यानचंद के करियर से कोई संबंध नहीं है, और इसे कभी-कभी अलग-अलग युगों के अन्य भारतीय खेल दिग्गजों के साथ भ्रमित कर लिया जाता है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2026-gk-01",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "In which year did India gain independence from British rule?",
+        "hi": "भारत को ब्रिटिश शासन से किस वर्ष स्वतंत्रता मिली थी?"
+      },
+      "optionsJson": [
+        { "en": "1945", "hi": "1945" },
+        { "en": "1947", "hi": "1947" },
+        { "en": "1950", "hi": "1950" },
+        { "en": "1952", "hi": "1952" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "India gained independence from British rule on 15 August 1947.",
+        "hi": "भारत को 15 अगस्त 1947 को ब्रिटिश शासन से स्वतंत्रता मिली थी।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "1945 was the year the Second World War ended, a significant global event that is sometimes mixed up with India's independence year.",
+          "hi": "1945 वह वर्ष था जब द्वितीय विश्व युद्ध समाप्त हुआ था, एक महत्वपूर्ण वैश्विक घटना जिसे कभी-कभी भारत की स्वतंत्रता के वर्ष के साथ भ्रमित कर लिया जाता है।"
+        },
+        "2": {
+          "en": "1950 is the year the Constitution of India came into effect and Republic Day is celebrated, which students often confuse with Independence Day.",
+          "hi": "1950 वह वर्ष है जब भारत का संविधान लागू हुआ और गणतंत्र दिवस मनाया जाता है, जिसे छात्र प्रायः स्वतंत्रता दिवस के साथ भ्रमित कर लेते हैं।"
+        },
+        "3": {
+          "en": "1952 is the year of India's first general elections under the new Constitution, a related but distinct historical milestone from independence itself.",
+          "hi": "1952 नए संविधान के तहत भारत के पहले आम चुनावों का वर्ष है, जो स्वतंत्रता से संबंधित परंतु उससे अलग एक ऐतिहासिक पड़ाव है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2026-gk-02",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which Indian state has the longest coastline?",
+        "hi": "भारत के किस राज्य की समुद्र तट रेखा सबसे लंबी है?"
+      },
+      "optionsJson": [
+        { "en": "Tamil Nadu", "hi": "तमिलनाडु" },
+        { "en": "Andhra Pradesh", "hi": "आंध्र प्रदेश" },
+        { "en": "Gujarat", "hi": "गुजरात" },
+        { "en": "Maharashtra", "hi": "महाराष्ट्र" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Gujarat has the longest coastline among Indian states, at roughly 1,600 km along the Arabian Sea.",
+        "hi": "भारतीय राज्यों में गुजरात की समुद्र तट रेखा सबसे लंबी है, जो अरब सागर के किनारे लगभग 1,600 किमी तक फैली है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Tamil Nadu has a substantial coastline along the Bay of Bengal but it is shorter than Gujarat's, so it does not top the ranking.",
+          "hi": "तमिलनाडु की बंगाल की खाड़ी के किनारे एक लंबी तट रेखा है, परंतु यह गुजरात की तुलना में छोटी है, इसलिए यह रैंकिंग में सबसे ऊपर नहीं है।"
+        },
+        "1": {
+          "en": "Andhra Pradesh has the second-longest coastline among Indian states, which leads some students to wrongly rank it first.",
+          "hi": "आंध्र प्रदेश की तट रेखा भारतीय राज्यों में दूसरी सबसे लंबी है, जिसके कारण कुछ छात्र इसे गलती से पहले स्थान पर रख देते हैं।"
+        },
+        "3": {
+          "en": "Maharashtra has a notable coastline along the Konkan region, but it is considerably shorter than Gujarat's, so it is not the longest.",
+          "hi": "महाराष्ट्र की कोंकण क्षेत्र के किनारे एक उल्लेखनीय तट रेखा है, परंतु यह गुजरात की तुलना में काफी छोटी है, इसलिए यह सबसे लंबी नहीं है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2026-gk-03",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "'Arjun' is the name of which indigenously developed Indian defence equipment?",
+        "hi": "'अर्जुन' भारत में स्वदेशी रूप से विकसित किस रक्षा उपकरण का नाम है?"
+      },
+      "optionsJson": [
+        { "en": "Main Battle Tank", "hi": "मुख्य युद्धक टैंक" },
+        { "en": "Fighter Aircraft", "hi": "लड़ाकू विमान" },
+        { "en": "Aircraft Carrier", "hi": "विमानवाहक पोत" },
+        { "en": "Submarine", "hi": "पनडुब्बी" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "'Arjun' is India's indigenously designed Main Battle Tank, developed by the DRDO's Combat Vehicles Research and Development Establishment (CVRDE) and inducted into the Indian Army.",
+        "hi": "'अर्जुन' भारत का स्वदेशी रूप से डिज़ाइन किया गया मुख्य युद्धक टैंक है, जिसे DRDO की कॉम्बैट व्हीकल्स रिसर्च एंड डेवलपमेंट एस्टैब्लिशमेंट (CVRDE) ने विकसित किया और भारतीय सेना में शामिल किया गया है।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "India's indigenous fighter aircraft programme is named 'Tejas,' a separate DRDO/HAL project distinct from the Arjun tank programme.",
+          "hi": "भारत का स्वदेशी लड़ाकू विमान कार्यक्रम 'तेजस' नाम से है, जो अर्जुन टैंक कार्यक्रम से एक अलग DRDO/HAL परियोजना है।"
+        },
+        "2": {
+          "en": "India's indigenous aircraft carrier is named 'INS Vikrant,' a naval vessel unrelated to the Arjun tank, which is a land-based armoured vehicle.",
+          "hi": "भारत का स्वदेशी विमानवाहक पोत 'INS विक्रांत' नाम से है, जो एक नौसैनिक पोत है और अर्जुन टैंक से असंबंधित है, जो एक थल-आधारित बख्तरबंद वाहन है।"
+        },
+        "3": {
+          "en": "India's indigenous submarine programme is named 'INS Arihant' (for nuclear-powered submarines), a different category of defence equipment from the land-based Arjun tank.",
+          "hi": "भारत का स्वदेशी पनडुब्बी कार्यक्रम 'INS अरिहंत' (परमाणु-संचालित पनडुब्बियों के लिए) नाम से है, जो थल-आधारित अर्जुन टैंक से रक्षा उपकरण की एक भिन्न श्रेणी है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2026-gk-04",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Which vitamin is synthesized by human skin upon exposure to sunlight?",
+        "hi": "सूर्य के प्रकाश के संपर्क में आने पर मानव त्वचा किस विटामिन का संश्लेषण करती है?"
+      },
+      "optionsJson": [
+        { "en": "Vitamin A", "hi": "विटामिन A" },
+        { "en": "Vitamin B12", "hi": "विटामिन B12" },
+        { "en": "Vitamin C", "hi": "विटामिन C" },
+        { "en": "Vitamin D", "hi": "विटामिन D" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Human skin synthesizes Vitamin D when exposed to ultraviolet rays in sunlight; it is essential for calcium absorption and bone health.",
+        "hi": "मानव त्वचा सूर्य के प्रकाश में मौजूद पराबैंगनी किरणों के संपर्क में आने पर विटामिन D का संश्लेषण करती है; यह कैल्शियम अवशोषण और हड्डियों के स्वास्थ्य के लिए आवश्यक है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Vitamin A is obtained mainly from dietary sources like carrots and leafy vegetables and supports vision; it is not produced by skin exposure to sunlight.",
+          "hi": "विटामिन A मुख्य रूप से गाजर और पत्तेदार सब्जियों जैसे आहार स्रोतों से प्राप्त होता है और दृष्टि में सहायक है; यह सूर्य के प्रकाश में त्वचा के संपर्क से उत्पन्न नहीं होता।"
+        },
+        "1": {
+          "en": "Vitamin B12 comes mainly from animal-based foods and supports nerve function and red blood cell formation; it is not synthesized through sunlight exposure.",
+          "hi": "विटामिन B12 मुख्य रूप से पशु-आधारित खाद्य पदार्थों से प्राप्त होता है और तंत्रिका कार्य तथा लाल रक्त कोशिकाओं के निर्माण में सहायक है; यह सूर्य के प्रकाश के संपर्क से संश्लेषित नहीं होता।"
+        },
+        "2": {
+          "en": "Vitamin C is obtained from citrus fruits and supports collagen formation and immunity; it is not produced by skin exposure to sunlight.",
+          "hi": "विटामिन C खट्टे फलों से प्राप्त होता है और कोलेजन निर्माण तथा प्रतिरक्षा में सहायक है; यह सूर्य के प्रकाश में त्वचा के संपर्क से उत्पन्न नहीं होता।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2026-gk-05",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "In which year was the Bharat Ratna, India's highest civilian award, first instituted?",
+        "hi": "भारत रत्न, भारत का सर्वोच्च नागरिक सम्मान, पहली बार किस वर्ष स्थापित किया गया था?"
+      },
+      "optionsJson": [
+        { "en": "1947", "hi": "1947" },
+        { "en": "1954", "hi": "1954" },
+        { "en": "1962", "hi": "1962" },
+        { "en": "1971", "hi": "1971" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "The Bharat Ratna was instituted in 1954 by a presidential order as India's highest civilian award, recognising exceptional service in any field.",
+        "hi": "भारत रत्न की स्थापना 1954 में एक राष्ट्रपति आदेश द्वारा भारत के सर्वोच्च नागरिक सम्मान के रूप में की गई थी, जो किसी भी क्षेत्र में असाधारण सेवा को मान्यता देता है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "1947 is the year India gained independence, which students sometimes wrongly assume is also when its highest civilian award was created.",
+          "hi": "1947 वह वर्ष है जब भारत को स्वतंत्रता मिली थी, और छात्र कभी-कभी गलती से यह मान लेते हैं कि इसी वर्ष इसका सर्वोच्च नागरिक सम्मान भी बनाया गया था।"
+        },
+        "2": {
+          "en": "1962 is the year of the Sino-Indian War, an unrelated historical event that serves as a plausible-sounding but incorrect date here.",
+          "hi": "1962 भारत-चीन युद्ध का वर्ष है, एक असंबंधित ऐतिहासिक घटना जो यहां एक प्रशंसनीय परंतु गलत तिथि के रूप में प्रस्तुत होती है।"
+        },
+        "3": {
+          "en": "1971 is the year of the Indo-Pakistani War that led to Bangladesh's liberation, another unrelated but plausible-sounding historical date used as a distractor.",
+          "hi": "1971 भारत-पाकिस्तान युद्ध का वर्ष है जिसके परिणामस्वरूप बांग्लादेश की मुक्ति हुई, एक और असंबंधित परंतु प्रशंसनीय ऐतिहासिक तिथि जिसे यहां भ्रामक विकल्प के रूप में प्रयोग किया गया है।"
+        }
+      }
+    }
+  ]
+}

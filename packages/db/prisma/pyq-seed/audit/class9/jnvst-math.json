@@ -1,0 +1,1618 @@
+{
+  "examType": "JNVST",
+  "classLevel": 9,
+  "sectionKey": "mathematics",
+  "generatedAt": "2026-09-06T10:09:08.564Z",
+  "questions": [
+    {
+      "key": "jnvst9-2022-math-01",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Simplify: 2^3 × 2^2",
+        "hi": "सरल करें: 2^3 × 2^2"
+      },
+      "optionsJson": [
+        {
+          "en": "32",
+          "hi": "32"
+        },
+        {
+          "en": "2",
+          "hi": "2"
+        },
+        {
+          "en": "64",
+          "hi": "64"
+        },
+        {
+          "en": "38",
+          "hi": "38"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Same base, add exponents: 2^3×2^2 = 2^(3+2) = 2^5 = 32.",
+        "hi": "समान आधार, घातांक जोड़ें: 2^3×2^2 = 2^(3+2) = 2^5 = 32।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Adds the exponents when the operation doesn't call for it here — a rule mix-up.",
+          "hi": "यहाँ घातांक जोड़ने का नियम लागू नहीं होता, फिर भी जोड़ देता है — नियम में गड़बड़ी।"
+        },
+        "2": {
+          "en": "Subtracts the exponents when the operation doesn't call for it here — a rule mix-up.",
+          "hi": "यहाँ घातांक घटाने का नियम लागू नहीं होता, फिर भी घटा देता है — नियम में गड़बड़ी।"
+        },
+        "3": {
+          "en": "Multiplies the exponents when the operation doesn't call for it here — confuses this with the power-of-a-power rule.",
+          "hi": "यहाँ घातांक गुणा करने का नियम लागू नहीं होता — इसे घात-की-घात नियम से भ्रमित कर देता है।"
+        }
+      }
+    },
+    {
+      "key": "jnvst9-2023-math-01",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Simplify: 3^4 × 3^1",
+        "hi": "सरल करें: 3^4 × 3^1"
+      },
+      "optionsJson": [
+        {
+          "en": "27",
+          "hi": "27"
+        },
+        {
+          "en": "243",
+          "hi": "243"
+        },
+        {
+          "en": "81",
+          "hi": "81"
+        },
+        {
+          "en": "291",
+          "hi": "291"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Same base, add exponents: 3^4×3^1 = 3^(4+1) = 3^5 = 243.",
+        "hi": "समान आधार, घातांक जोड़ें: 3^4×3^1 = 3^(4+1) = 3^5 = 243।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Adds the exponents when the operation doesn't call for it here — a rule mix-up.",
+          "hi": "यहाँ घातांक जोड़ने का नियम लागू नहीं होता, फिर भी जोड़ देता है — नियम में गड़बड़ी।"
+        },
+        "2": {
+          "en": "Subtracts the exponents when the operation doesn't call for it here — a rule mix-up.",
+          "hi": "यहाँ घातांक घटाने का नियम लागू नहीं होता, फिर भी घटा देता है — नियम में गड़बड़ी।"
+        },
+        "3": {
+          "en": "Multiplies the exponents when the operation doesn't call for it here — confuses this with the power-of-a-power rule.",
+          "hi": "यहाँ घातांक गुणा करने का नियम लागू नहीं होता — इसे घात-की-घात नियम से भ्रमित कर देता है।"
+        }
+      }
+    },
+    {
+      "key": "jnvst9-2024-math-01",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Simplify: 5^2 × 5^2",
+        "hi": "सरल करें: 5^2 × 5^2"
+      },
+      "optionsJson": [
+        {
+          "en": "1",
+          "hi": "1"
+        },
+        {
+          "en": "751",
+          "hi": "751"
+        },
+        {
+          "en": "625",
+          "hi": "625"
+        },
+        {
+          "en": "436",
+          "hi": "436"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Same base, add exponents: 5^2×5^2 = 5^(2+2) = 5^4 = 625.",
+        "hi": "समान आधार, घातांक जोड़ें: 5^2×5^2 = 5^(2+2) = 5^4 = 625।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Adds the exponents when the operation doesn't call for it here — a rule mix-up.",
+          "hi": "यहाँ घातांक जोड़ने का नियम लागू नहीं होता, फिर भी जोड़ देता है — नियम में गड़बड़ी।"
+        },
+        "1": {
+          "en": "Subtracts the exponents when the operation doesn't call for it here — a rule mix-up.",
+          "hi": "यहाँ घातांक घटाने का नियम लागू नहीं होता, फिर भी घटा देता है — नियम में गड़बड़ी।"
+        },
+        "3": {
+          "en": "Multiplies the exponents when the operation doesn't call for it here — confuses this with the power-of-a-power rule.",
+          "hi": "यहाँ घातांक गुणा करने का नियम लागू नहीं होता — इसे घात-की-घात नियम से भ्रमित कर देता है।"
+        }
+      }
+    },
+    {
+      "key": "jnvst9-2025-math-01",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Simplify: 2^6 ÷ 2^2",
+        "hi": "सरल करें: 2^6 ÷ 2^2"
+      },
+      "optionsJson": [
+        {
+          "en": "256",
+          "hi": "256"
+        },
+        {
+          "en": "4096",
+          "hi": "4096"
+        },
+        {
+          "en": "20",
+          "hi": "20"
+        },
+        {
+          "en": "16",
+          "hi": "16"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Same base, subtract exponents: 2^6÷2^2 = 2^(6−2) = 2^4 = 16.",
+        "hi": "समान आधार, घातांक घटाएं: 2^6÷2^2 = 2^(6−2) = 2^4 = 16।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Adds the exponents when the operation doesn't call for it here — a rule mix-up.",
+          "hi": "यहाँ घातांक जोड़ने का नियम लागू नहीं होता, फिर भी जोड़ देता है — नियम में गड़बड़ी।"
+        },
+        "1": {
+          "en": "Subtracts the exponents when the operation doesn't call for it here — a rule mix-up.",
+          "hi": "यहाँ घातांक घटाने का नियम लागू नहीं होता, फिर भी घटा देता है — नियम में गड़बड़ी।"
+        },
+        "2": {
+          "en": "Multiplies the exponents when the operation doesn't call for it here — confuses this with the power-of-a-power rule.",
+          "hi": "यहाँ घातांक गुणा करने का नियम लागू नहीं होता — इसे घात-की-घात नियम से भ्रमित कर देता है।"
+        }
+      }
+    },
+    {
+      "key": "jnvst9-2026-math-01",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Simplify: 3^5 ÷ 3^2",
+        "hi": "सरल करें: 3^5 ÷ 3^2"
+      },
+      "optionsJson": [
+        {
+          "en": "27",
+          "hi": "27"
+        },
+        {
+          "en": "2187",
+          "hi": "2187"
+        },
+        {
+          "en": "59049",
+          "hi": "59049"
+        },
+        {
+          "en": "33",
+          "hi": "33"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Same base, subtract exponents: 3^5÷3^2 = 3^(5−2) = 3^3 = 27.",
+        "hi": "समान आधार, घातांक घटाएं: 3^5÷3^2 = 3^(5−2) = 3^3 = 27।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Adds the exponents when the operation doesn't call for it here — a rule mix-up.",
+          "hi": "यहाँ घातांक जोड़ने का नियम लागू नहीं होता, फिर भी जोड़ देता है — नियम में गड़बड़ी।"
+        },
+        "2": {
+          "en": "Subtracts the exponents when the operation doesn't call for it here — a rule mix-up.",
+          "hi": "यहाँ घातांक घटाने का नियम लागू नहीं होता, फिर भी घटा देता है — नियम में गड़बड़ी।"
+        },
+        "3": {
+          "en": "Multiplies the exponents when the operation doesn't call for it here — confuses this with the power-of-a-power rule.",
+          "hi": "यहाँ घातांक गुणा करने का नियम लागू नहीं होता — इसे घात-की-घात नियम से भ्रमित कर देता है।"
+        }
+      }
+    },
+    {
+      "key": "jnvst9-2022-math-02",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Simplify: 4^3 ÷ 4^1",
+        "hi": "सरल करें: 4^3 ÷ 4^1"
+      },
+      "optionsJson": [
+        {
+          "en": "256",
+          "hi": "256"
+        },
+        {
+          "en": "16",
+          "hi": "16"
+        },
+        {
+          "en": "64",
+          "hi": "64"
+        },
+        {
+          "en": "20",
+          "hi": "20"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Same base, subtract exponents: 4^3÷4^1 = 4^(3−1) = 4^2 = 16.",
+        "hi": "समान आधार, घातांक घटाएं: 4^3÷4^1 = 4^(3−1) = 4^2 = 16।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Adds the exponents when the operation doesn't call for it here — a rule mix-up.",
+          "hi": "यहाँ घातांक जोड़ने का नियम लागू नहीं होता, फिर भी जोड़ देता है — नियम में गड़बड़ी।"
+        },
+        "2": {
+          "en": "Subtracts the exponents when the operation doesn't call for it here — a rule mix-up.",
+          "hi": "यहाँ घातांक घटाने का नियम लागू नहीं होता, फिर भी घटा देता है — नियम में गड़बड़ी।"
+        },
+        "3": {
+          "en": "Multiplies the exponents when the operation doesn't call for it here — confuses this with the power-of-a-power rule.",
+          "hi": "यहाँ घातांक गुणा करने का नियम लागू नहीं होता — इसे घात-की-घात नियम से भ्रमित कर देता है।"
+        }
+      }
+    },
+    {
+      "key": "jnvst9-2023-math-02",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Simplify: (2^2)^3",
+        "hi": "सरल करें: (2^2)^3"
+      },
+      "optionsJson": [
+        {
+          "en": "32",
+          "hi": "32"
+        },
+        {
+          "en": "2",
+          "hi": "2"
+        },
+        {
+          "en": "64",
+          "hi": "64"
+        },
+        {
+          "en": "76",
+          "hi": "76"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Power of a power multiplies exponents: (2^2)^3 = 2^(2×3) = 2^6 = 64.",
+        "hi": "घात की घात में घातांक गुणा होते हैं: (2^2)^3 = 2^(2×3) = 2^6 = 64।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Adds the exponents when the operation doesn't call for it here — a rule mix-up.",
+          "hi": "यहाँ घातांक जोड़ने का नियम लागू नहीं होता, फिर भी जोड़ देता है — नियम में गड़बड़ी।"
+        },
+        "1": {
+          "en": "Subtracts the exponents when the operation doesn't call for it here — a rule mix-up.",
+          "hi": "यहाँ घातांक घटाने का नियम लागू नहीं होता, फिर भी घटा देता है — नियम में गड़बड़ी।"
+        },
+        "3": {
+          "en": "Multiplies the exponents when the operation doesn't call for it here — confuses this with the power-of-a-power rule.",
+          "hi": "यहाँ घातांक गुणा करने का नियम लागू नहीं होता — इसे घात-की-घात नियम से भ्रमित कर देता है।"
+        }
+      }
+    },
+    {
+      "key": "jnvst9-2024-math-02",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Simplify: (3^2)^2",
+        "hi": "सरल करें: (3^2)^2"
+      },
+      "optionsJson": [
+        {
+          "en": "1",
+          "hi": "1"
+        },
+        {
+          "en": "97",
+          "hi": "97"
+        },
+        {
+          "en": "57",
+          "hi": "57"
+        },
+        {
+          "en": "81",
+          "hi": "81"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Power of a power multiplies exponents: (3^2)^2 = 3^(2×2) = 3^4 = 81.",
+        "hi": "घात की घात में घातांक गुणा होते हैं: (3^2)^2 = 3^(2×2) = 3^4 = 81।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Adds the exponents when the operation doesn't call for it here — a rule mix-up.",
+          "hi": "यहाँ घातांक जोड़ने का नियम लागू नहीं होता, फिर भी जोड़ देता है — नियम में गड़बड़ी।"
+        },
+        "1": {
+          "en": "Subtracts the exponents when the operation doesn't call for it here — a rule mix-up.",
+          "hi": "यहाँ घातांक घटाने का नियम लागू नहीं होता, फिर भी घटा देता है — नियम में गड़बड़ी।"
+        },
+        "2": {
+          "en": "Multiplies the exponents when the operation doesn't call for it here — confuses this with the power-of-a-power rule.",
+          "hi": "यहाँ घातांक गुणा करने का नियम लागू नहीं होता — इसे घात-की-घात नियम से भ्रमित कर देता है।"
+        }
+      }
+    },
+    {
+      "key": "jnvst9-2025-math-02",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Simplify: (2^3)^3",
+        "hi": "सरल करें: (2^3)^3"
+      },
+      "optionsJson": [
+        {
+          "en": "512",
+          "hi": "512"
+        },
+        {
+          "en": "64",
+          "hi": "64"
+        },
+        {
+          "en": "1",
+          "hi": "1"
+        },
+        {
+          "en": "614",
+          "hi": "614"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Power of a power multiplies exponents: (2^3)^3 = 2^(3×3) = 2^9 = 512.",
+        "hi": "घात की घात में घातांक गुणा होते हैं: (2^3)^3 = 2^(3×3) = 2^9 = 512।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Adds the exponents when the operation doesn't call for it here — a rule mix-up.",
+          "hi": "यहाँ घातांक जोड़ने का नियम लागू नहीं होता, फिर भी जोड़ देता है — नियम में गड़बड़ी।"
+        },
+        "2": {
+          "en": "Subtracts the exponents when the operation doesn't call for it here — a rule mix-up.",
+          "hi": "यहाँ घातांक घटाने का नियम लागू नहीं होता, फिर भी घटा देता है — नियम में गड़बड़ी।"
+        },
+        "3": {
+          "en": "Multiplies the exponents when the operation doesn't call for it here — confuses this with the power-of-a-power rule.",
+          "hi": "यहाँ घातांक गुणा करने का नियम लागू नहीं होता — इसे घात-की-घात नियम से भ्रमित कर देता है।"
+        }
+      }
+    },
+    {
+      "key": "jnvst9-2026-math-02",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Find the area of an isosceles triangle with two equal sides of 5 cm and a base of 6 cm, using Heron's formula.",
+        "hi": "हीरोन के सूत्र का उपयोग करके, 5 सेमी की दो बराबर भुजाओं और 6 सेमी आधार वाले समद्विबाहु त्रिभुज का क्षेत्रफल ज्ञात करें।"
+      },
+      "optionsJson": [
+        {
+          "en": "15",
+          "hi": "15"
+        },
+        {
+          "en": "12",
+          "hi": "12"
+        },
+        {
+          "en": "8",
+          "hi": "8"
+        },
+        {
+          "en": "24",
+          "hi": "24"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "s = (5+5+6)/2 = 8. Area = √(s(s−5)(s−5)(s−6)) = √(8×3×3×2) = 12 cm².",
+        "hi": "s = (5+5+6)/2 = 8। क्षेत्रफल = √(s(s−5)(s−5)(s−6)) = √(8×3×3×2) = 12 सेमी²।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Multiplies base × equal-side ÷ 2 directly, as if the equal side were the height — it isn't, without checking perpendicularity.",
+          "hi": "आधार × बराबर भुजा ÷ 2 सीधे गुणा कर देता है, मानो बराबर भुजा ही ऊंचाई हो — बिना लंबवत जांचे यह गलत है।"
+        },
+        "2": {
+          "en": "Stops at the semi-perimeter \"s\" itself instead of completing Heron's formula.",
+          "hi": "अर्ध-परिमाप 's' पर ही रुक जाता है, हीरोन के सूत्र को पूरा किए बिना।"
+        },
+        "3": {
+          "en": "Doubles the correct area by mistake.",
+          "hi": "गलती से सही क्षेत्रफल को दोगुना कर देता है।"
+        }
+      }
+    },
+    {
+      "key": "jnvst9-2022-math-03",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Find the area of an isosceles triangle with two equal sides of 5 cm and a base of 8 cm, using Heron's formula.",
+        "hi": "हीरोन के सूत्र का उपयोग करके, 5 सेमी की दो बराबर भुजाओं और 8 सेमी आधार वाले समद्विबाहु त्रिभुज का क्षेत्रफल ज्ञात करें।"
+      },
+      "optionsJson": [
+        {
+          "en": "20",
+          "hi": "20"
+        },
+        {
+          "en": "9",
+          "hi": "9"
+        },
+        {
+          "en": "12",
+          "hi": "12"
+        },
+        {
+          "en": "24",
+          "hi": "24"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "s = (5+5+8)/2 = 9. Area = √(s(s−5)(s−5)(s−8)) = √(9×4×4×1) = 12 cm².",
+        "hi": "s = (5+5+8)/2 = 9। क्षेत्रफल = √(s(s−5)(s−5)(s−8)) = √(9×4×4×1) = 12 सेमी²।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Multiplies base × equal-side ÷ 2 directly, as if the equal side were the height — it isn't, without checking perpendicularity.",
+          "hi": "आधार × बराबर भुजा ÷ 2 सीधे गुणा कर देता है, मानो बराबर भुजा ही ऊंचाई हो — बिना लंबवत जांचे यह गलत है।"
+        },
+        "1": {
+          "en": "Stops at the semi-perimeter \"s\" itself instead of completing Heron's formula.",
+          "hi": "अर्ध-परिमाप 's' पर ही रुक जाता है, हीरोन के सूत्र को पूरा किए बिना।"
+        },
+        "3": {
+          "en": "Doubles the correct area by mistake.",
+          "hi": "गलती से सही क्षेत्रफल को दोगुना कर देता है।"
+        }
+      }
+    },
+    {
+      "key": "jnvst9-2023-math-03",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Find the area of an isosceles triangle with two equal sides of 10 cm and a base of 12 cm, using Heron's formula.",
+        "hi": "हीरोन के सूत्र का उपयोग करके, 10 सेमी की दो बराबर भुजाओं और 12 सेमी आधार वाले समद्विबाहु त्रिभुज का क्षेत्रफल ज्ञात करें।"
+      },
+      "optionsJson": [
+        {
+          "en": "60",
+          "hi": "60"
+        },
+        {
+          "en": "16",
+          "hi": "16"
+        },
+        {
+          "en": "96",
+          "hi": "96"
+        },
+        {
+          "en": "48",
+          "hi": "48"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "s = (10+10+12)/2 = 16. Area = √(s(s−10)(s−10)(s−12)) = √(16×6×6×4) = 48 cm².",
+        "hi": "s = (10+10+12)/2 = 16। क्षेत्रफल = √(s(s−10)(s−10)(s−12)) = √(16×6×6×4) = 48 सेमी²।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Multiplies base × equal-side ÷ 2 directly, as if the equal side were the height — it isn't, without checking perpendicularity.",
+          "hi": "आधार × बराबर भुजा ÷ 2 सीधे गुणा कर देता है, मानो बराबर भुजा ही ऊंचाई हो — बिना लंबवत जांचे यह गलत है।"
+        },
+        "1": {
+          "en": "Stops at the semi-perimeter \"s\" itself instead of completing Heron's formula.",
+          "hi": "अर्ध-परिमाप 's' पर ही रुक जाता है, हीरोन के सूत्र को पूरा किए बिना।"
+        },
+        "2": {
+          "en": "Doubles the correct area by mistake.",
+          "hi": "गलती से सही क्षेत्रफल को दोगुना कर देता है।"
+        }
+      }
+    },
+    {
+      "key": "jnvst9-2024-math-03",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Find the area of an isosceles triangle with two equal sides of 13 cm and a base of 10 cm, using Heron's formula.",
+        "hi": "हीरोन के सूत्र का उपयोग करके, 13 सेमी की दो बराबर भुजाओं और 10 सेमी आधार वाले समद्विबाहु त्रिभुज का क्षेत्रफल ज्ञात करें।"
+      },
+      "optionsJson": [
+        {
+          "en": "60",
+          "hi": "60"
+        },
+        {
+          "en": "65",
+          "hi": "65"
+        },
+        {
+          "en": "18",
+          "hi": "18"
+        },
+        {
+          "en": "120",
+          "hi": "120"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "s = (13+13+10)/2 = 18. Area = √(s(s−13)(s−13)(s−10)) = √(18×5×5×8) = 60 cm².",
+        "hi": "s = (13+13+10)/2 = 18। क्षेत्रफल = √(s(s−13)(s−13)(s−10)) = √(18×5×5×8) = 60 सेमी²।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Multiplies base × equal-side ÷ 2 directly, as if the equal side were the height — it isn't, without checking perpendicularity.",
+          "hi": "आधार × बराबर भुजा ÷ 2 सीधे गुणा कर देता है, मानो बराबर भुजा ही ऊंचाई हो — बिना लंबवत जांचे यह गलत है।"
+        },
+        "2": {
+          "en": "Stops at the semi-perimeter \"s\" itself instead of completing Heron's formula.",
+          "hi": "अर्ध-परिमाप 's' पर ही रुक जाता है, हीरोन के सूत्र को पूरा किए बिना।"
+        },
+        "3": {
+          "en": "Doubles the correct area by mistake.",
+          "hi": "गलती से सही क्षेत्रफल को दोगुना कर देता है।"
+        }
+      }
+    },
+    {
+      "key": "jnvst9-2025-math-03",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Find the area of an isosceles triangle with two equal sides of 13 cm and a base of 24 cm, using Heron's formula.",
+        "hi": "हीरोन के सूत्र का उपयोग करके, 13 सेमी की दो बराबर भुजाओं और 24 सेमी आधार वाले समद्विबाहु त्रिभुज का क्षेत्रफल ज्ञात करें।"
+      },
+      "optionsJson": [
+        {
+          "en": "156",
+          "hi": "156"
+        },
+        {
+          "en": "60",
+          "hi": "60"
+        },
+        {
+          "en": "25",
+          "hi": "25"
+        },
+        {
+          "en": "120",
+          "hi": "120"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "s = (13+13+24)/2 = 25. Area = √(s(s−13)(s−13)(s−24)) = √(25×12×12×1) = 60 cm².",
+        "hi": "s = (13+13+24)/2 = 25। क्षेत्रफल = √(s(s−13)(s−13)(s−24)) = √(25×12×12×1) = 60 सेमी²।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Multiplies base × equal-side ÷ 2 directly, as if the equal side were the height — it isn't, without checking perpendicularity.",
+          "hi": "आधार × बराबर भुजा ÷ 2 सीधे गुणा कर देता है, मानो बराबर भुजा ही ऊंचाई हो — बिना लंबवत जांचे यह गलत है।"
+        },
+        "2": {
+          "en": "Stops at the semi-perimeter \"s\" itself instead of completing Heron's formula.",
+          "hi": "अर्ध-परिमाप 's' पर ही रुक जाता है, हीरोन के सूत्र को पूरा किए बिना।"
+        },
+        "3": {
+          "en": "Doubles the correct area by mistake.",
+          "hi": "गलती से सही क्षेत्रफल को दोगुना कर देता है।"
+        }
+      }
+    },
+    {
+      "key": "jnvst9-2026-math-03",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Find the area of an isosceles triangle with two equal sides of 17 cm and a base of 16 cm, using Heron's formula.",
+        "hi": "हीरोन के सूत्र का उपयोग करके, 17 सेमी की दो बराबर भुजाओं और 16 सेमी आधार वाले समद्विबाहु त्रिभुज का क्षेत्रफल ज्ञात करें।"
+      },
+      "optionsJson": [
+        {
+          "en": "136",
+          "hi": "136"
+        },
+        {
+          "en": "25",
+          "hi": "25"
+        },
+        {
+          "en": "120",
+          "hi": "120"
+        },
+        {
+          "en": "240",
+          "hi": "240"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "s = (17+17+16)/2 = 25. Area = √(s(s−17)(s−17)(s−16)) = √(25×8×8×9) = 120 cm².",
+        "hi": "s = (17+17+16)/2 = 25। क्षेत्रफल = √(s(s−17)(s−17)(s−16)) = √(25×8×8×9) = 120 सेमी²।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Multiplies base × equal-side ÷ 2 directly, as if the equal side were the height — it isn't, without checking perpendicularity.",
+          "hi": "आधार × बराबर भुजा ÷ 2 सीधे गुणा कर देता है, मानो बराबर भुजा ही ऊंचाई हो — बिना लंबवत जांचे यह गलत है।"
+        },
+        "1": {
+          "en": "Stops at the semi-perimeter \"s\" itself instead of completing Heron's formula.",
+          "hi": "अर्ध-परिमाप 's' पर ही रुक जाता है, हीरोन के सूत्र को पूरा किए बिना।"
+        },
+        "3": {
+          "en": "Doubles the correct area by mistake.",
+          "hi": "गलती से सही क्षेत्रफल को दोगुना कर देता है।"
+        }
+      }
+    },
+    {
+      "key": "jnvst9-2022-math-04",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Find the area of an isosceles triangle with two equal sides of 15 cm and a base of 18 cm, using Heron's formula.",
+        "hi": "हीरोन के सूत्र का उपयोग करके, 15 सेमी की दो बराबर भुजाओं और 18 सेमी आधार वाले समद्विबाहु त्रिभुज का क्षेत्रफल ज्ञात करें।"
+      },
+      "optionsJson": [
+        {
+          "en": "135",
+          "hi": "135"
+        },
+        {
+          "en": "24",
+          "hi": "24"
+        },
+        {
+          "en": "216",
+          "hi": "216"
+        },
+        {
+          "en": "108",
+          "hi": "108"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "s = (15+15+18)/2 = 24. Area = √(s(s−15)(s−15)(s−18)) = √(24×9×9×6) = 108 cm².",
+        "hi": "s = (15+15+18)/2 = 24। क्षेत्रफल = √(s(s−15)(s−15)(s−18)) = √(24×9×9×6) = 108 सेमी²।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Multiplies base × equal-side ÷ 2 directly, as if the equal side were the height — it isn't, without checking perpendicularity.",
+          "hi": "आधार × बराबर भुजा ÷ 2 सीधे गुणा कर देता है, मानो बराबर भुजा ही ऊंचाई हो — बिना लंबवत जांचे यह गलत है।"
+        },
+        "1": {
+          "en": "Stops at the semi-perimeter \"s\" itself instead of completing Heron's formula.",
+          "hi": "अर्ध-परिमाप 's' पर ही रुक जाता है, हीरोन के सूत्र को पूरा किए बिना।"
+        },
+        "2": {
+          "en": "Doubles the correct area by mistake.",
+          "hi": "गलती से सही क्षेत्रफल को दोगुना कर देता है।"
+        }
+      }
+    },
+    {
+      "key": "jnvst9-2023-math-04",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Find the distance between the points (0, 0) and (3, 4).",
+        "hi": "बिंदु (0, 0) और (3, 4) के बीच की दूरी ज्ञात करें।"
+      },
+      "optionsJson": [
+        {
+          "en": "5",
+          "hi": "5"
+        },
+        {
+          "en": "7",
+          "hi": "7"
+        },
+        {
+          "en": "25",
+          "hi": "25"
+        },
+        {
+          "en": "9",
+          "hi": "9"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Distance = √((3−0)² + (4−0)²) = √(3² + 4²) = √25 = 5.",
+        "hi": "दूरी = √((3−0)² + (4−0)²) = √(3² + 4²) = √25 = 5।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Adds the horizontal and vertical differences directly instead of using the distance formula (a Manhattan-distance mix-up).",
+          "hi": "दूरी सूत्र के बजाय क्षैतिज और ऊर्ध्वाधर अंतर को सीधे जोड़ देता है।"
+        },
+        "2": {
+          "en": "Forgets to take the square root at the end, leaving the squared distance.",
+          "hi": "अंत में वर्गमूल लेना भूल जाता है, वर्गित दूरी ही रह जाती है।"
+        },
+        "3": {
+          "en": "Mixes up which coordinate pairs to subtract before applying the formula.",
+          "hi": "सूत्र लगाने से पहले किन निर्देशांकों को घटाना है, उसमें गड़बड़ कर देता है।"
+        }
+      }
+    },
+    {
+      "key": "jnvst9-2024-math-04",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Find the distance between the points (1, 1) and (4, 5).",
+        "hi": "बिंदु (1, 1) और (4, 5) के बीच की दूरी ज्ञात करें।"
+      },
+      "optionsJson": [
+        {
+          "en": "7",
+          "hi": "7"
+        },
+        {
+          "en": "5",
+          "hi": "5"
+        },
+        {
+          "en": "25",
+          "hi": "25"
+        },
+        {
+          "en": "9",
+          "hi": "9"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Distance = √((4−1)² + (5−1)²) = √(3² + 4²) = √25 = 5.",
+        "hi": "दूरी = √((4−1)² + (5−1)²) = √(3² + 4²) = √25 = 5।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Adds the horizontal and vertical differences directly instead of using the distance formula (a Manhattan-distance mix-up).",
+          "hi": "दूरी सूत्र के बजाय क्षैतिज और ऊर्ध्वाधर अंतर को सीधे जोड़ देता है।"
+        },
+        "2": {
+          "en": "Forgets to take the square root at the end, leaving the squared distance.",
+          "hi": "अंत में वर्गमूल लेना भूल जाता है, वर्गित दूरी ही रह जाती है।"
+        },
+        "3": {
+          "en": "Mixes up which coordinate pairs to subtract before applying the formula.",
+          "hi": "सूत्र लगाने से पहले किन निर्देशांकों को घटाना है, उसमें गड़बड़ कर देता है।"
+        }
+      }
+    },
+    {
+      "key": "jnvst9-2025-math-04",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Find the distance between the points (2, 3) and (8, 11).",
+        "hi": "बिंदु (2, 3) और (8, 11) के बीच की दूरी ज्ञात करें।"
+      },
+      "optionsJson": [
+        {
+          "en": "14",
+          "hi": "14"
+        },
+        {
+          "en": "100",
+          "hi": "100"
+        },
+        {
+          "en": "10",
+          "hi": "10"
+        },
+        {
+          "en": "4",
+          "hi": "4"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Distance = √((8−2)² + (11−3)²) = √(6² + 8²) = √100 = 10.",
+        "hi": "दूरी = √((8−2)² + (11−3)²) = √(6² + 8²) = √100 = 10।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Adds the horizontal and vertical differences directly instead of using the distance formula (a Manhattan-distance mix-up).",
+          "hi": "दूरी सूत्र के बजाय क्षैतिज और ऊर्ध्वाधर अंतर को सीधे जोड़ देता है।"
+        },
+        "1": {
+          "en": "Forgets to take the square root at the end, leaving the squared distance.",
+          "hi": "अंत में वर्गमूल लेना भूल जाता है, वर्गित दूरी ही रह जाती है।"
+        },
+        "3": {
+          "en": "Mixes up which coordinate pairs to subtract before applying the formula.",
+          "hi": "सूत्र लगाने से पहले किन निर्देशांकों को घटाना है, उसमें गड़बड़ कर देता है।"
+        }
+      }
+    },
+    {
+      "key": "jnvst9-2026-math-04",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Find the distance between the points (0, 0) and (6, 8).",
+        "hi": "बिंदु (0, 0) और (6, 8) के बीच की दूरी ज्ञात करें।"
+      },
+      "optionsJson": [
+        {
+          "en": "14",
+          "hi": "14"
+        },
+        {
+          "en": "100",
+          "hi": "100"
+        },
+        {
+          "en": "4",
+          "hi": "4"
+        },
+        {
+          "en": "10",
+          "hi": "10"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Distance = √((6−0)² + (8−0)²) = √(6² + 8²) = √100 = 10.",
+        "hi": "दूरी = √((6−0)² + (8−0)²) = √(6² + 8²) = √100 = 10।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Adds the horizontal and vertical differences directly instead of using the distance formula (a Manhattan-distance mix-up).",
+          "hi": "दूरी सूत्र के बजाय क्षैतिज और ऊर्ध्वाधर अंतर को सीधे जोड़ देता है।"
+        },
+        "1": {
+          "en": "Forgets to take the square root at the end, leaving the squared distance.",
+          "hi": "अंत में वर्गमूल लेना भूल जाता है, वर्गित दूरी ही रह जाती है।"
+        },
+        "2": {
+          "en": "Mixes up which coordinate pairs to subtract before applying the formula.",
+          "hi": "सूत्र लगाने से पहले किन निर्देशांकों को घटाना है, उसमें गड़बड़ कर देता है।"
+        }
+      }
+    },
+    {
+      "key": "jnvst9-2022-math-05",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Find the distance between the points (-1, 2) and (4, 14).",
+        "hi": "बिंदु (-1, 2) और (4, 14) के बीच की दूरी ज्ञात करें।"
+      },
+      "optionsJson": [
+        {
+          "en": "13",
+          "hi": "13"
+        },
+        {
+          "en": "17",
+          "hi": "17"
+        },
+        {
+          "en": "169",
+          "hi": "169"
+        },
+        {
+          "en": "15",
+          "hi": "15"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Distance = √((4−-1)² + (14−2)²) = √(5² + 12²) = √169 = 13.",
+        "hi": "दूरी = √((4−-1)² + (14−2)²) = √(5² + 12²) = √169 = 13।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Adds the horizontal and vertical differences directly instead of using the distance formula (a Manhattan-distance mix-up).",
+          "hi": "दूरी सूत्र के बजाय क्षैतिज और ऊर्ध्वाधर अंतर को सीधे जोड़ देता है।"
+        },
+        "2": {
+          "en": "Forgets to take the square root at the end, leaving the squared distance.",
+          "hi": "अंत में वर्गमूल लेना भूल जाता है, वर्गित दूरी ही रह जाती है।"
+        },
+        "3": {
+          "en": "Mixes up which coordinate pairs to subtract before applying the formula.",
+          "hi": "सूत्र लगाने से पहले किन निर्देशांकों को घटाना है, उसमें गड़बड़ कर देता है।"
+        }
+      }
+    },
+    {
+      "key": "jnvst9-2023-math-05",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Find the distance between the points (3, -2) and (15, 3).",
+        "hi": "बिंदु (3, -2) और (15, 3) के बीच की दूरी ज्ञात करें।"
+      },
+      "optionsJson": [
+        {
+          "en": "17",
+          "hi": "17"
+        },
+        {
+          "en": "13",
+          "hi": "13"
+        },
+        {
+          "en": "169",
+          "hi": "169"
+        },
+        {
+          "en": "7",
+          "hi": "7"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Distance = √((15−3)² + (3−-2)²) = √(12² + 5²) = √169 = 13.",
+        "hi": "दूरी = √((15−3)² + (3−-2)²) = √(12² + 5²) = √169 = 13।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Adds the horizontal and vertical differences directly instead of using the distance formula (a Manhattan-distance mix-up).",
+          "hi": "दूरी सूत्र के बजाय क्षैतिज और ऊर्ध्वाधर अंतर को सीधे जोड़ देता है।"
+        },
+        "2": {
+          "en": "Forgets to take the square root at the end, leaving the squared distance.",
+          "hi": "अंत में वर्गमूल लेना भूल जाता है, वर्गित दूरी ही रह जाती है।"
+        },
+        "3": {
+          "en": "Mixes up which coordinate pairs to subtract before applying the formula.",
+          "hi": "सूत्र लगाने से पहले किन निर्देशांकों को घटाना है, उसमें गड़बड़ कर देता है।"
+        }
+      }
+    },
+    {
+      "key": "jnvst9-2024-math-05",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Find the mean of the data set: 12, 15, 18, 21, 24",
+        "hi": "आंकड़ों का माध्य (mean) ज्ञात करें: 12, 15, 18, 21, 24"
+      },
+      "optionsJson": [
+        {
+          "en": "90",
+          "hi": "90"
+        },
+        {
+          "en": "15",
+          "hi": "15"
+        },
+        {
+          "en": "18",
+          "hi": "18"
+        },
+        {
+          "en": "22.50",
+          "hi": "22.50"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Mean = sum ÷ count = 90 ÷ 5 = 18.",
+        "hi": "माध्य = योग ÷ गिनती = 90 ÷ 5 = 18।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Gives the sum of all values instead of dividing by how many there are.",
+          "hi": "सभी मानों का योग दे देता है, गिनती से भाग दिए बिना।"
+        },
+        "1": {
+          "en": "Divides by one more than the actual count of values.",
+          "hi": "मानों की वास्तविक गिनती से एक अधिक से भाग देता है।"
+        },
+        "3": {
+          "en": "Divides by one fewer than the actual count of values.",
+          "hi": "मानों की वास्तविक गिनती से एक कम से भाग देता है।"
+        }
+      }
+    },
+    {
+      "key": "jnvst9-2025-math-05",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Find the mean of the data set: 8, 10, 12, 14, 16, 18",
+        "hi": "आंकड़ों का माध्य (mean) ज्ञात करें: 8, 10, 12, 14, 16, 18"
+      },
+      "optionsJson": [
+        {
+          "en": "78",
+          "hi": "78"
+        },
+        {
+          "en": "11.14",
+          "hi": "11.14"
+        },
+        {
+          "en": "15.60",
+          "hi": "15.60"
+        },
+        {
+          "en": "13",
+          "hi": "13"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Mean = sum ÷ count = 78 ÷ 6 = 13.",
+        "hi": "माध्य = योग ÷ गिनती = 78 ÷ 6 = 13।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Gives the sum of all values instead of dividing by how many there are.",
+          "hi": "सभी मानों का योग दे देता है, गिनती से भाग दिए बिना।"
+        },
+        "1": {
+          "en": "Divides by one more than the actual count of values.",
+          "hi": "मानों की वास्तविक गिनती से एक अधिक से भाग देता है।"
+        },
+        "2": {
+          "en": "Divides by one fewer than the actual count of values.",
+          "hi": "मानों की वास्तविक गिनती से एक कम से भाग देता है।"
+        }
+      }
+    },
+    {
+      "key": "jnvst9-2026-math-05",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Find the mean of the data set: 5, 7, 9, 11, 13, 15, 17",
+        "hi": "आंकड़ों का माध्य (mean) ज्ञात करें: 5, 7, 9, 11, 13, 15, 17"
+      },
+      "optionsJson": [
+        {
+          "en": "11",
+          "hi": "11"
+        },
+        {
+          "en": "77",
+          "hi": "77"
+        },
+        {
+          "en": "9.63",
+          "hi": "9.63"
+        },
+        {
+          "en": "12.83",
+          "hi": "12.83"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Mean = sum ÷ count = 77 ÷ 7 = 11.",
+        "hi": "माध्य = योग ÷ गिनती = 77 ÷ 7 = 11।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Gives the sum of all values instead of dividing by how many there are.",
+          "hi": "सभी मानों का योग दे देता है, गिनती से भाग दिए बिना।"
+        },
+        "2": {
+          "en": "Divides by one more than the actual count of values.",
+          "hi": "मानों की वास्तविक गिनती से एक अधिक से भाग देता है।"
+        },
+        "3": {
+          "en": "Divides by one fewer than the actual count of values.",
+          "hi": "मानों की वास्तविक गिनती से एक कम से भाग देता है।"
+        }
+      }
+    },
+    {
+      "key": "jnvst9-2022-math-06",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Find the mean of the data set: 20, 25, 30, 35",
+        "hi": "आंकड़ों का माध्य (mean) ज्ञात करें: 20, 25, 30, 35"
+      },
+      "optionsJson": [
+        {
+          "en": "110",
+          "hi": "110"
+        },
+        {
+          "en": "27.50",
+          "hi": "27.50"
+        },
+        {
+          "en": "22",
+          "hi": "22"
+        },
+        {
+          "en": "36.67",
+          "hi": "36.67"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Mean = sum ÷ count = 110 ÷ 4 = 27.5.",
+        "hi": "माध्य = योग ÷ गिनती = 110 ÷ 4 = 27.5।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Gives the sum of all values instead of dividing by how many there are.",
+          "hi": "सभी मानों का योग दे देता है, गिनती से भाग दिए बिना।"
+        },
+        "2": {
+          "en": "Divides by one more than the actual count of values.",
+          "hi": "मानों की वास्तविक गिनती से एक अधिक से भाग देता है।"
+        },
+        "3": {
+          "en": "Divides by one fewer than the actual count of values.",
+          "hi": "मानों की वास्तविक गिनती से एक कम से भाग देता है।"
+        }
+      }
+    },
+    {
+      "key": "jnvst9-2023-math-06",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Find the mean of the data set: 6, 12, 18, 24, 30",
+        "hi": "आंकड़ों का माध्य (mean) ज्ञात करें: 6, 12, 18, 24, 30"
+      },
+      "optionsJson": [
+        {
+          "en": "90",
+          "hi": "90"
+        },
+        {
+          "en": "15",
+          "hi": "15"
+        },
+        {
+          "en": "18",
+          "hi": "18"
+        },
+        {
+          "en": "22.50",
+          "hi": "22.50"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Mean = sum ÷ count = 90 ÷ 5 = 18.",
+        "hi": "माध्य = योग ÷ गिनती = 90 ÷ 5 = 18।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Gives the sum of all values instead of dividing by how many there are.",
+          "hi": "सभी मानों का योग दे देता है, गिनती से भाग दिए बिना।"
+        },
+        "1": {
+          "en": "Divides by one more than the actual count of values.",
+          "hi": "मानों की वास्तविक गिनती से एक अधिक से भाग देता है।"
+        },
+        "3": {
+          "en": "Divides by one fewer than the actual count of values.",
+          "hi": "मानों की वास्तविक गिनती से एक कम से भाग देता है।"
+        }
+      }
+    },
+    {
+      "key": "jnvst9-2024-math-06",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Find the mean of the data set: 11, 13, 15, 17, 19, 21",
+        "hi": "आंकड़ों का माध्य (mean) ज्ञात करें: 11, 13, 15, 17, 19, 21"
+      },
+      "optionsJson": [
+        {
+          "en": "96",
+          "hi": "96"
+        },
+        {
+          "en": "13.71",
+          "hi": "13.71"
+        },
+        {
+          "en": "19.20",
+          "hi": "19.20"
+        },
+        {
+          "en": "16",
+          "hi": "16"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Mean = sum ÷ count = 96 ÷ 6 = 16.",
+        "hi": "माध्य = योग ÷ गिनती = 96 ÷ 6 = 16।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Gives the sum of all values instead of dividing by how many there are.",
+          "hi": "सभी मानों का योग दे देता है, गिनती से भाग दिए बिना।"
+        },
+        "1": {
+          "en": "Divides by one more than the actual count of values.",
+          "hi": "मानों की वास्तविक गिनती से एक अधिक से भाग देता है।"
+        },
+        "2": {
+          "en": "Divides by one fewer than the actual count of values.",
+          "hi": "मानों की वास्तविक गिनती से एक कम से भाग देता है।"
+        }
+      }
+    },
+    {
+      "key": "jnvst9-2025-math-06",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Find the mean of the data set: 10, 14, 18, 22, 26, 30",
+        "hi": "आंकड़ों का माध्य (mean) ज्ञात करें: 10, 14, 18, 22, 26, 30"
+      },
+      "optionsJson": [
+        {
+          "en": "20",
+          "hi": "20"
+        },
+        {
+          "en": "120",
+          "hi": "120"
+        },
+        {
+          "en": "17.14",
+          "hi": "17.14"
+        },
+        {
+          "en": "24",
+          "hi": "24"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Mean = sum ÷ count = 120 ÷ 6 = 20.",
+        "hi": "माध्य = योग ÷ गिनती = 120 ÷ 6 = 20।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Gives the sum of all values instead of dividing by how many there are.",
+          "hi": "सभी मानों का योग दे देता है, गिनती से भाग दिए बिना।"
+        },
+        "2": {
+          "en": "Divides by one more than the actual count of values.",
+          "hi": "मानों की वास्तविक गिनती से एक अधिक से भाग देता है।"
+        },
+        "3": {
+          "en": "Divides by one fewer than the actual count of values.",
+          "hi": "मानों की वास्तविक गिनती से एक कम से भाग देता है।"
+        }
+      }
+    },
+    {
+      "key": "jnvst9-2026-math-06",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "A fair die is thrown once. What is the probability of getting an even number?",
+        "hi": "एक निष्पक्ष पासा एक बार फेंका जाता है। सम संख्या आने की प्रायिकता क्या है?"
+      },
+      "optionsJson": [
+        {
+          "en": "1/1",
+          "hi": "1/1"
+        },
+        {
+          "en": "1/2",
+          "hi": "1/2"
+        },
+        {
+          "en": "2/3",
+          "hi": "2/3"
+        },
+        {
+          "en": "5/6",
+          "hi": "5/6"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Even outcomes are {2,4,6} — 3 out of 6 equally likely outcomes. Probability = 3/6 = 1/2.",
+        "hi": "सम परिणाम {2,4,6} हैं — 6 समसंभाव्य परिणामों में से 3। प्रायिकता = 3/6 = 1/2।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "This is the probability of the COMPLEMENT event (not getting the favourable outcome), not the event itself.",
+          "hi": "यह पूरक घटना (अनुकूल परिणाम न आना) की प्रायिकता है, वांछित घटना की नहीं।"
+        },
+        "2": {
+          "en": "Divides favourable outcomes by the UNfavourable count instead of the total number of outcomes.",
+          "hi": "कुल परिणामों की संख्या के बजाय प्रतिकूल परिणामों की संख्या से भाग देता है।"
+        },
+        "3": {
+          "en": "Off-by-one on the favourable count — miscounts the outcomes that qualify.",
+          "hi": "अनुकूल परिणामों की गिनती में एक की चूक — योग्य परिणामों को गलत गिन लेता है।"
+        }
+      }
+    },
+    {
+      "key": "jnvst9-2022-math-07",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "A fair die is thrown once. What is the probability of getting a number greater than 4?",
+        "hi": "एक निष्पक्ष पासा एक बार फेंका जाता है। 4 से बड़ी संख्या आने की प्रायिकता क्या है?"
+      },
+      "optionsJson": [
+        {
+          "en": "2/3",
+          "hi": "2/3"
+        },
+        {
+          "en": "1/2",
+          "hi": "1/2"
+        },
+        {
+          "en": "1/3",
+          "hi": "1/3"
+        },
+        {
+          "en": "5/6",
+          "hi": "5/6"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Numbers greater than 4 are {5,6} — 2 out of 6 equally likely outcomes. Probability = 2/6 = 1/3.",
+        "hi": "4 से बड़ी संख्याएं {5,6} हैं — 6 समसंभाव्य परिणामों में से 2। प्रायिकता = 2/6 = 1/3।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "This is the probability of the COMPLEMENT event (not getting the favourable outcome), not the event itself.",
+          "hi": "यह पूरक घटना (अनुकूल परिणाम न आना) की प्रायिकता है, वांछित घटना की नहीं।"
+        },
+        "1": {
+          "en": "Divides favourable outcomes by the UNfavourable count instead of the total number of outcomes.",
+          "hi": "कुल परिणामों की संख्या के बजाय प्रतिकूल परिणामों की संख्या से भाग देता है।"
+        },
+        "3": {
+          "en": "Off-by-one on the favourable count — miscounts the outcomes that qualify.",
+          "hi": "अनुकूल परिणामों की गिनती में एक की चूक — योग्य परिणामों को गलत गिन लेता है।"
+        }
+      }
+    },
+    {
+      "key": "jnvst9-2023-math-07",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Two coins are tossed together. What is the probability of getting exactly one head?",
+        "hi": "दो सिक्के एक साथ उछाले जाते हैं। ठीक एक चित (head) आने की प्रायिकता क्या है?"
+      },
+      "optionsJson": [
+        {
+          "en": "1/1",
+          "hi": "1/1"
+        },
+        {
+          "en": "3/4",
+          "hi": "3/4"
+        },
+        {
+          "en": "5/4",
+          "hi": "5/4"
+        },
+        {
+          "en": "1/2",
+          "hi": "1/2"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Outcomes: HH, HT, TH, TT. Exactly one head occurs in HT and TH — 2 out of 4. Probability = 2/4 = 1/2.",
+        "hi": "परिणाम: HH, HT, TH, TT। ठीक एक चित HT और TH में है — 4 में से 2। प्रायिकता = 2/4 = 1/2।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "This is the probability of the COMPLEMENT event (not getting the favourable outcome), not the event itself.",
+          "hi": "यह पूरक घटना (अनुकूल परिणाम न आना) की प्रायिकता है, वांछित घटना की नहीं।"
+        },
+        "1": {
+          "en": "Divides favourable outcomes by the UNfavourable count instead of the total number of outcomes.",
+          "hi": "कुल परिणामों की संख्या के बजाय प्रतिकूल परिणामों की संख्या से भाग देता है।"
+        },
+        "2": {
+          "en": "Off-by-one on the favourable count — miscounts the outcomes that qualify.",
+          "hi": "अनुकूल परिणामों की गिनती में एक की चूक — योग्य परिणामों को गलत गिन लेता है।"
+        }
+      }
+    },
+    {
+      "key": "jnvst9-2024-math-07",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "A card is drawn at random from a well-shuffled deck of 52 playing cards. What is the probability that it is a king?",
+        "hi": "52 पत्तों की अच्छी तरह फेंटी गई गड्डी में से एक पत्ता यादृच्छया निकाला जाता है। उसके राजा (king) होने की प्रायिकता क्या है?"
+      },
+      "optionsJson": [
+        {
+          "en": "1/13",
+          "hi": "1/13"
+        },
+        {
+          "en": "12/13",
+          "hi": "12/13"
+        },
+        {
+          "en": "1/12",
+          "hi": "1/12"
+        },
+        {
+          "en": "5/52",
+          "hi": "5/52"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "There are 4 kings in a standard 52-card deck — 4 out of 52. Probability = 4/52 = 1/13.",
+        "hi": "एक मानक 52 पत्तों की गड्डी में 4 राजा होते हैं — 52 में से 4। प्रायिकता = 4/52 = 1/13।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "This is the probability of the COMPLEMENT event (not getting the favourable outcome), not the event itself.",
+          "hi": "यह पूरक घटना (अनुकूल परिणाम न आना) की प्रायिकता है, वांछित घटना की नहीं।"
+        },
+        "2": {
+          "en": "Divides favourable outcomes by the UNfavourable count instead of the total number of outcomes.",
+          "hi": "कुल परिणामों की संख्या के बजाय प्रतिकूल परिणामों की संख्या से भाग देता है।"
+        },
+        "3": {
+          "en": "Off-by-one on the favourable count — miscounts the outcomes that qualify.",
+          "hi": "अनुकूल परिणामों की गिनती में एक की चूक — योग्य परिणामों को गलत गिन लेता है।"
+        }
+      }
+    },
+    {
+      "key": "jnvst9-2025-math-07",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "A bag contains 4 red balls and 6 blue balls. A ball is drawn at random. What is the probability it is red?",
+        "hi": "एक थैले में 4 लाल गेंदें और 6 नीली गेंदें हैं। एक गेंद यादृच्छया निकाली जाती है। उसके लाल होने की प्रायिकता क्या है?"
+      },
+      "optionsJson": [
+        {
+          "en": "3/5",
+          "hi": "3/5"
+        },
+        {
+          "en": "2/5",
+          "hi": "2/5"
+        },
+        {
+          "en": "2/3",
+          "hi": "2/3"
+        },
+        {
+          "en": "1/2",
+          "hi": "1/2"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "4 red balls out of 10 total balls. Probability = 4/10 = 2/5.",
+        "hi": "कुल 10 गेंदों में से 4 लाल गेंदें। प्रायिकता = 4/10 = 2/5।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "This is the probability of the COMPLEMENT event (not getting the favourable outcome), not the event itself.",
+          "hi": "यह पूरक घटना (अनुकूल परिणाम न आना) की प्रायिकता है, वांछित घटना की नहीं।"
+        },
+        "2": {
+          "en": "Divides favourable outcomes by the UNfavourable count instead of the total number of outcomes.",
+          "hi": "कुल परिणामों की संख्या के बजाय प्रतिकूल परिणामों की संख्या से भाग देता है।"
+        },
+        "3": {
+          "en": "Off-by-one on the favourable count — miscounts the outcomes that qualify.",
+          "hi": "अनुकूल परिणामों की गिनती में एक की चूक — योग्य परिणामों को गलत गिन लेता है।"
+        }
+      }
+    },
+    {
+      "key": "jnvst9-2026-math-07",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "A fair die is thrown once. What is the probability of getting a prime number?",
+        "hi": "एक निष्पक्ष पासा एक बार फेंका जाता है। अभाज्य संख्या (prime number) आने की प्रायिकता क्या है?"
+      },
+      "optionsJson": [
+        {
+          "en": "1/1",
+          "hi": "1/1"
+        },
+        {
+          "en": "2/3",
+          "hi": "2/3"
+        },
+        {
+          "en": "1/2",
+          "hi": "1/2"
+        },
+        {
+          "en": "5/6",
+          "hi": "5/6"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Prime outcomes are {2,3,5} — 3 out of 6 equally likely outcomes. Probability = 3/6 = 1/2.",
+        "hi": "अभाज्य परिणाम {2,3,5} हैं — 6 समसंभाव्य परिणामों में से 3। प्रायिकता = 3/6 = 1/2।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "This is the probability of the COMPLEMENT event (not getting the favourable outcome), not the event itself.",
+          "hi": "यह पूरक घटना (अनुकूल परिणाम न आना) की प्रायिकता है, वांछित घटना की नहीं।"
+        },
+        "1": {
+          "en": "Divides favourable outcomes by the UNfavourable count instead of the total number of outcomes.",
+          "hi": "कुल परिणामों की संख्या के बजाय प्रतिकूल परिणामों की संख्या से भाग देता है।"
+        },
+        "3": {
+          "en": "Off-by-one on the favourable count — miscounts the outcomes that qualify.",
+          "hi": "अनुकूल परिणामों की गिनती में एक की चूक — योग्य परिणामों को गलत गिन लेता है।"
+        }
+      }
+    }
+  ]
+}

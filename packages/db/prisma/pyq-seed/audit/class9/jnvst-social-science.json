@@ -1,0 +1,578 @@
+{
+  "examType": "JNVST",
+  "classLevel": 9,
+  "sectionKey": "social_science",
+  "generatedAt": "2026-09-06T00:00:00.000Z",
+  "questions": [
+    {
+      "key": "jnvst9-2022-soc-01",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Why did King Louis XVI convene the Estates General in May 1789?", "hi": "मई 1789 में राजा लुई सोलहवें ने एस्टेट्स जनरल (स्टेट्स जनरल) की बैठक क्यों बुलाई?" },
+      "optionsJson": [
+        { "en": "To seek approval for imposing new taxes amid a severe financial crisis caused by war debts and rising costs", "hi": "युद्धों के कर्ज़ और बढ़ती लागत के कारण उत्पन्न गंभीर वित्तीय संकट के बीच नए करों को लागू करने की स्वीकृति लेने के लिए" },
+        { "en": "To formally abolish the French monarchy", "hi": "फ्रांसीसी राजतंत्र को औपचारिक रूप से समाप्त करने के लिए" },
+        { "en": "To grant French women the right to vote", "hi": "फ्रांसीसी महिलाओं को मतदान का अधिकार देने के लिए" },
+        { "en": "To declare war on the Austrian empire", "hi": "ऑस्ट्रिया के साम्राज्य के विरुद्ध युद्ध की घोषणा करने के लिए" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "By 1789, the French state faced a severe financial crisis caused by the long wars of the 18th century, the cost of maintaining an extravagant court at Versailles, and a rigid tax system that exempted the clergy and nobility. Louis XVI summoned the Estates General — a body representing the clergy, nobility, and common people — hoping to get approval for new taxes. Instead, disputes over voting procedure triggered the events leading to the French Revolution.", "hi": "1789 तक फ्रांसीसी राज्य 18वीं सदी के लंबे युद्धों, वर्साय के शाही दरबार की भारी खर्चीली जीवनशैली, और एक ऐसी कर-व्यवस्था के कारण गंभीर वित्तीय संकट का सामना कर रहा था जिसमें पादरी और कुलीन वर्ग को कर से छूट मिली हुई थी। लुई सोलहवें ने पादरी, कुलीन और सामान्य जन का प्रतिनिधित्व करने वाली सभा एस्टेट्स जनरल को नए कर स्वीकृत कराने की आशा से बुलाया। लेकिन मतदान प्रक्रिया को लेकर हुए विवाद ने फ्रांसीसी क्रांति की घटनाओं को जन्म दिया।" },
+      "distractorAnalysis": {
+        "1": { "en": "The monarchy was not abolished in 1789 — France remained a monarchy (with a new constitution) until September 1792, when the National Convention declared it a republic.", "hi": "1789 में राजतंत्र समाप्त नहीं हुआ था — फ्रांस सितंबर 1792 तक राजतंत्र ही रहा (नए संविधान के साथ), जब नेशनल कन्वेंशन ने इसे गणराज्य घोषित किया।" },
+        "2": { "en": "Voting rights for French women were not granted at this time; the Estates General's purpose was fiscal, not about suffrage, and women's suffrage was not achieved even by the Revolution's radical phase.", "hi": "इस समय फ्रांसीसी महिलाओं को मतदान का अधिकार नहीं दिया गया था; एस्टेट्स जनरल का उद्देश्य वित्तीय था, न कि मताधिकार से जुड़ा, और क्रांति के सबसे उग्र दौर में भी महिलाओं को मताधिकार नहीं मिला।" },
+        "3": { "en": "France declared war on Austria in April 1792, three years after this Estates General meeting — it was a later, separate development.", "hi": "फ्रांस ने अप्रैल 1792 में ऑस्ट्रिया के विरुद्ध युद्ध की घोषणा की, जो इस एस्टेट्स जनरल की बैठक के तीन वर्ष बाद की एक अलग और बाद की घटना थी।" }
+      }
+    },
+    {
+      "key": "jnvst9-2022-soc-02",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "What event occurred in Paris on 14 July 1789?", "hi": "14 जुलाई 1789 को पेरिस में कौन-सी घटना घटी?" },
+      "optionsJson": [
+        { "en": "The execution of King Louis XVI", "hi": "राजा लुई सोलहवें का वध" },
+        { "en": "The storming of the Bastille fortress-prison by an angry crowd", "hi": "एक क्रुद्ध भीड़ द्वारा बास्तील के किले-कारागार पर धावा" },
+        { "en": "The adoption of the Declaration of the Rights of Man and Citizen", "hi": "मानव और नागरिक अधिकारों की घोषणा को अपनाया जाना" },
+        { "en": "The royal family's flight to Varennes", "hi": "शाही परिवार का वारेन की ओर पलायन" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "On 14 July 1789, a large crowd of Parisians, fearing the king would use the army to crush the National Assembly, stormed the Bastille — a fortress-prison seen as a symbol of the king's despotic power — searching for arms and gunpowder. The event became a defining symbol of the French Revolution and is commemorated in France as Bastille Day.", "hi": "14 जुलाई 1789 को पेरिस की एक बड़ी भीड़ ने, यह आशंका होने पर कि राजा सेना का उपयोग करके नेशनल असेंबली को कुचल देगा, हथियार और बारूद की तलाश में बास्तील के किले पर धावा बोला — जिसे राजा की निरंकुश सत्ता का प्रतीक माना जाता था। यह घटना फ्रांसीसी क्रांति का एक प्रमुख प्रतीक बन गई और फ्रांस में इसे 'बास्तील दिवस' के रूप में मनाया जाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Louis XVI was executed on 21 January 1793, more than three years after the storming of the Bastille.", "hi": "लुई सोलहवें का वध 21 जनवरी 1793 को हुआ था, जो बास्तील पर धावे के तीन वर्ष से अधिक समय बाद की घटना है।" },
+        "2": { "en": "The Declaration of the Rights of Man and Citizen was adopted in August 1789, about a month after the Bastille was stormed.", "hi": "मानव और नागरिक अधिकारों की घोषणा अगस्त 1789 में अपनाई गई थी, जो बास्तील पर धावे के लगभग एक महीने बाद हुआ था।" },
+        "3": { "en": "The royal family's failed flight to Varennes took place in June 1791, nearly two years after the storming of the Bastille.", "hi": "शाही परिवार का वारेन की ओर असफल पलायन जून 1791 में हुआ था, जो बास्तील पर धावे के लगभग दो वर्ष बाद की घटना है।" }
+      }
+    },
+    {
+      "key": "jnvst9-2022-soc-03",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which of the following best describes a defining feature of democracy?", "hi": "निम्नलिखित में से कौन-सा लोकतंत्र की एक प्रमुख विशेषता का सबसे सही वर्णन करता है?" },
+      "optionsJson": [
+        { "en": "Only wealthy citizens are allowed to vote", "hi": "केवल धनी नागरिकों को मतदान की अनुमति है" },
+        { "en": "One political party controls the government permanently to ensure stability", "hi": "स्थिरता सुनिश्चित करने के लिए एक ही राजनीतिक दल स्थायी रूप से सरकार पर नियंत्रण रखता है" },
+        { "en": "Rulers elected by the people are the final decision-makers on major issues", "hi": "जनता द्वारा चुने गए शासक ही प्रमुख मुद्दों पर अंतिम निर्णय लेते हैं" },
+        { "en": "Only the military can decide who becomes the head of government", "hi": "केवल सेना ही यह तय कर सकती है कि सरकार का प्रमुख कौन बनेगा" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "A core feature of democracy, as defined in NCERT Class 9 Civics, is that the final decision-making power rests with representatives elected by the people through free and fair elections, held at regular intervals.", "hi": "एनसीईआरटी कक्षा 9 नागरिक शास्त्र में परिभाषित लोकतंत्र की एक मूल विशेषता यह है कि अंतिम निर्णय लेने की शक्ति नियमित अंतराल पर होने वाले स्वतंत्र और निष्पक्ष चुनावों के माध्यम से जनता द्वारा चुने गए प्रतिनिधियों के पास होती है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Restricting voting to the wealthy describes a property-based franchise, which democracies with universal adult suffrage explicitly reject.", "hi": "मतदान को केवल धनी वर्ग तक सीमित रखना संपत्ति-आधारित मताधिकार का वर्णन करता है, जिसे सार्वभौमिक वयस्क मताधिकार वाले लोकतंत्र स्पष्ट रूप से अस्वीकार करते हैं।" },
+        "1": { "en": "Permanent one-party control prevents citizens from choosing or removing their rulers, which is the opposite of democratic practice.", "hi": "एक ही दल का स्थायी नियंत्रण नागरिकों को अपने शासकों को चुनने या हटाने से रोकता है, जो लोकतांत्रिक व्यवहार के बिल्कुल विपरीत है।" },
+        "3": { "en": "Military-decided leadership is characteristic of a military dictatorship, not a democracy.", "hi": "सेना द्वारा तय किया गया नेतृत्व सैन्य तानाशाही की विशेषता है, न कि लोकतंत्र की।" }
+      }
+    },
+    {
+      "key": "jnvst9-2022-soc-04",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which of these is a genuine argument in favour of democracy over dictatorship, as discussed in NCERT Class 9 Civics?", "hi": "एनसीईआरटी कक्षा 9 नागरिक शास्त्र में चर्चित तानाशाही की तुलना में लोकतंत्र के पक्ष में एक वास्तविक तर्क निम्नलिखित में से कौन-सा है?" },
+      "optionsJson": [
+        { "en": "Democracy enhances the dignity and equality of citizens and allows peaceful resolution of conflicts", "hi": "लोकतंत्र नागरिकों की गरिमा और समानता को बढ़ाता है तथा संघर्षों के शांतिपूर्ण समाधान की अनुमति देता है" },
+        { "en": "Democracy always guarantees faster economic growth than other systems", "hi": "लोकतंत्र हमेशा अन्य प्रणालियों की तुलना में तेज़ आर्थिक विकास की गारंटी देता है" },
+        { "en": "Democracy eliminates the need to hold any elections", "hi": "लोकतंत्र में किसी भी चुनाव की आवश्यकता समाप्त हो जाती है" },
+        { "en": "Democracy always produces quicker decisions than dictatorship", "hi": "लोकतंत्र हमेशा तानाशाही की तुलना में तेज़ निर्णय देता है" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "NCERT Class 9 Civics notes that while democracy does not guarantee faster economic growth or quicker decision-making compared to dictatorship, it has a clear ethical advantage: it promotes the dignity and political equality of citizens, and provides a legitimate, peaceful method to handle differences and conflicts.", "hi": "एनसीईआरटी कक्षा 9 नागरिक शास्त्र बताता है कि यद्यपि लोकतंत्र तानाशाही की तुलना में तेज़ आर्थिक विकास या तीव्र निर्णय की गारंटी नहीं देता, फिर भी इसका एक स्पष्ट नैतिक लाभ है: यह नागरिकों की गरिमा और राजनीतिक समानता को बढ़ावा देता है, तथा मतभेदों और संघर्षों को सुलझाने की एक वैध, शांतिपूर्ण विधि प्रदान करता है।" },
+      "distractorAnalysis": {
+        "1": { "en": "NCERT explicitly notes that democracies have not always shown faster economic growth than non-democratic regimes — this is a commonly assumed but factually incorrect claim.", "hi": "एनसीईआरटी स्पष्ट रूप से बताता है कि लोकतंत्रों ने हमेशा गैर-लोकतांत्रिक शासनों की तुलना में तेज़ आर्थिक विकास नहीं दिखाया है — यह एक सामान्य परंतु तथ्यात्मक रूप से गलत धारणा है।" },
+        "2": { "en": "Regular elections are a core requirement of democracy, not something it eliminates.", "hi": "नियमित चुनाव लोकतंत्र की एक मूल आवश्यकता है, न कि कोई ऐसी चीज़ जिसे यह समाप्त करता है।" },
+        "3": { "en": "Democratic decision-making involves discussion and consensus-building, which often makes it slower, not quicker, than dictatorship.", "hi": "लोकतांत्रिक निर्णय-प्रक्रिया में चर्चा और सहमति-निर्माण शामिल होता है, जिससे यह अक्सर तानाशाही की तुलना में धीमी होती है, तेज़ नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-2022-soc-05",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "India's mainland extends approximately between which latitudes?", "hi": "भारत का मुख्य भूभाग लगभग किन अक्षांशों के बीच फैला हुआ है?" },
+      "optionsJson": [
+        { "en": "0° to 30° North", "hi": "0° से 30° उत्तर" },
+        { "en": "23°N to 66°N (Tropic of Cancer to the Arctic Circle)", "hi": "23°उ. से 66°उ. (कर्क रेखा से आर्कटिक वृत्त तक)" },
+        { "en": "8°4'N to 37°6'N", "hi": "8°4' उ. से 37°6' उ." },
+        { "en": "37°N to 66°N", "hi": "37°उ. से 66°उ." }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "India's mainland extends from 8°4'N to 37°6'N in latitude and from 68°7'E to 97°25'E in longitude, as given in NCERT Class 9 Geography's chapter on India's size and location. This latitudinal spread of nearly 30 degrees causes a considerable variation in day length and climate from south to north.", "hi": "एनसीईआरटी कक्षा 9 भूगोल के 'भारत: आकार और स्थिति' अध्याय के अनुसार, भारत का मुख्य भूभाग अक्षांश में 8°4' उ. से 37°6' उ. तक तथा देशांतर में 68°7' पू. से 97°25' पू. तक फैला हुआ है। लगभग 30 डिग्री का यह अक्षांशीय विस्तार दक्षिण से उत्तर तक दिन की लंबाई और जलवायु में काफी भिन्नता पैदा करता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "0° to 30°N does not match India's actual extent — India's southernmost point lies just above 8°N, not at the equator.", "hi": "0° से 30° उत्तर भारत के वास्तविक विस्तार से मेल नहीं खाता — भारत का सबसे दक्षिणी बिंदु भूमध्य रेखा पर नहीं बल्कि 8° उत्तर से थोड़ा ऊपर स्थित है।" },
+        "1": { "en": "23°N to 66°N describes the zone between the Tropic of Cancer and the Arctic Circle — India's actual extent starts well south of the Tropic of Cancer and ends well south of the Arctic Circle.", "hi": "23°उ. से 66°उ. कर्क रेखा और आर्कटिक वृत्त के बीच के क्षेत्र को दर्शाता है — भारत का वास्तविक विस्तार कर्क रेखा से काफी दक्षिण में शुरू होता है और आर्कटिक वृत्त से बहुत पहले समाप्त हो जाता है।" },
+        "3": { "en": "37°N to 66°N lies entirely north of India's actual northernmost extent and does not represent any part of India.", "hi": "37°उ. से 66°उ. पूरी तरह से भारत के वास्तविक उत्तरतम विस्तार के उत्तर में स्थित है और भारत के किसी भी भाग को नहीं दर्शाता।" }
+      }
+    },
+    {
+      "key": "jnvst9-2022-soc-06",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": { "en": "The Indian Standard Time (IST) is based on the local time of the 82°30'E longitude, which passes near which town?", "hi": "भारतीय मानक समय (आईएसटी) 82°30' पू. देशांतर के स्थानीय समय पर आधारित है, जो किस नगर के निकट से गुजरता है?" },
+      "optionsJson": [
+        { "en": "Mirzapur, Uttar Pradesh", "hi": "मिर्ज़ापुर, उत्तर प्रदेश" },
+        { "en": "Kanyakumari", "hi": "कन्याकुमारी" },
+        { "en": "Ahmedabad", "hi": "अहमदाबाद" },
+        { "en": "Kolkata", "hi": "कोलकाता" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "India has adopted the local time of 82°30'E longitude, which passes through Mirzapur near Allahabad (Prayagraj) in Uttar Pradesh, as the Indian Standard Time for the whole country, since India's east-west spread of nearly 30 degrees longitude would otherwise create a time difference of about two hours.", "hi": "भारत ने 82°30' पू. देशांतर, जो उत्तर प्रदेश में इलाहाबाद (प्रयागराज) के निकट मिर्ज़ापुर से होकर गुजरता है, के स्थानीय समय को पूरे देश के लिए भारतीय मानक समय के रूप में अपनाया है, क्योंकि भारत के लगभग 30 डिग्री देशांतर के पूर्व-पश्चिम विस्तार से अन्यथा लगभग दो घंटे का समय-अंतर उत्पन्न हो जाता।" },
+      "distractorAnalysis": {
+        "1": { "en": "Kanyakumari marks India's southern mainland tip and is used to illustrate India's north-south extent, not the standard meridian for IST.", "hi": "कन्याकुमारी भारत के मुख्य भूभाग के दक्षिणी छोर को दर्शाता है और इसका उपयोग भारत के उत्तर-दक्षिण विस्तार को स्पष्ट करने के लिए किया जाता है, न कि आईएसटी के मानक याम्योत्तर के रूप में।" },
+        "2": { "en": "Ahmedabad lies in Gujarat, well west of the 82°30'E standard meridian, and is not associated with defining IST.", "hi": "अहमदाबाद गुजरात में स्थित है, जो 82°30' पू. के मानक याम्योत्तर से काफी पश्चिम में है, और आईएसटी को परिभाषित करने से इसका कोई संबंध नहीं है।" },
+        "3": { "en": "Kolkata lies east of the standard meridian and, while often cited to illustrate the time-lag across India, is not the town the 82°30'E meridian passes through.", "hi": "कोलकाता मानक याम्योत्तर के पूर्व में स्थित है, और यद्यपि इसका उल्लेख अक्सर भारत में समय के अंतर को दर्शाने के लिए किया जाता है, यह वह नगर नहीं है जिससे 82°30' पू. याम्योत्तर गुजरता है।" }
+      }
+    },
+    {
+      "key": "jnvst9-2023-soc-01",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "What principle did the Declaration of the Rights of Man and Citizen (adopted in France, August 1789) establish?", "hi": "मानव और नागरिक अधिकारों की घोषणा (फ्रांस में अगस्त 1789 में अपनाई गई) ने कौन-सा सिद्धांत स्थापित किया?" },
+      "optionsJson": [
+        { "en": "Natural and inalienable rights such as liberty, property, security, and resistance to oppression", "hi": "स्वतंत्रता, संपत्ति, सुरक्षा और उत्पीड़न के विरुद्ध प्रतिरोध जैसे प्राकृतिक और अहरणीय अधिकार" },
+        { "en": "Universal suffrage for all adults regardless of gender or property ownership", "hi": "लिंग या संपत्ति की परवाह किए बिना सभी वयस्कों के लिए सार्वभौमिक मताधिकार" },
+        { "en": "Immediate abolition of the French monarchy", "hi": "फ्रांसीसी राजतंत्र का तत्काल उन्मूलन" },
+        { "en": "Abolition of slavery in all French colonies", "hi": "सभी फ्रांसीसी उपनिवेशों में दासता का उन्मूलन" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The Declaration of the Rights of Man and Citizen, adopted by the National Assembly on 26 August 1789, proclaimed that all men are born and remain free and equal in rights, listing natural and inalienable rights such as liberty, property, security, and resistance to oppression.", "hi": "26 अगस्त 1789 को नेशनल असेंबली द्वारा अपनाई गई मानव और नागरिक अधिकारों की घोषणा ने यह घोषित किया कि सभी मनुष्य स्वतंत्र और अधिकारों में समान पैदा होते हैं और बने रहते हैं, तथा स्वतंत्रता, संपत्ति, सुरक्षा और उत्पीड़न के विरुद्ध प्रतिरोध जैसे प्राकृतिक व अहरणीय अधिकारों को सूचीबद्ध किया।" },
+      "distractorAnalysis": {
+        "1": { "en": "The Declaration's rights were not truly universal — voting rights under the 1791 Constitution were limited to 'active citizens' (men above a property/tax threshold), excluding women and poorer men.", "hi": "घोषणा के अधिकार वास्तव में सार्वभौमिक नहीं थे — 1791 के संविधान के तहत मताधिकार केवल 'सक्रिय नागरिकों' (संपत्ति/कर की न्यूनतम सीमा से ऊपर के पुरुषों) तक सीमित था, जिसमें महिलाएं और गरीब पुरुष शामिल नहीं थे।" },
+        "2": { "en": "The Declaration did not abolish the monarchy — France remained a constitutional monarchy under Louis XVI until it was declared a republic in September 1792.", "hi": "घोषणा ने राजतंत्र को समाप्त नहीं किया — फ्रांस सितंबर 1792 में गणराज्य घोषित किए जाने तक लुई सोलहवें के अधीन एक संवैधानिक राजतंत्र ही बना रहा।" },
+        "3": { "en": "Slavery in French colonies was abolished separately, by the National Convention in February 1794, five years after this Declaration.", "hi": "फ्रांसीसी उपनिवेशों में दासता को इस घोषणा के पांच वर्ष बाद, फरवरी 1794 में, नेशनल कन्वेंशन द्वारा अलग से समाप्त किया गया था।" }
+      }
+    },
+    {
+      "key": "jnvst9-2023-soc-02",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which French revolutionary leader headed the Committee of Public Safety and led the Jacobin government during the Reign of Terror (1793-94)?", "hi": "आतंक के राज (1793-94) के दौरान सार्वजनिक सुरक्षा समिति का नेतृत्व करने वाले और जैकोबिन सरकार का नेतृत्व करने वाले फ्रांसीसी क्रांतिकारी नेता कौन थे?" },
+      "optionsJson": [
+        { "en": "Napoleon Bonaparte", "hi": "नेपोलियन बोनापार्ट" },
+        { "en": "Marquis de Lafayette", "hi": "मार्किस डी लफायेत" },
+        { "en": "King Louis XVI", "hi": "राजा लुई सोलहवें" },
+        { "en": "Maximilien Robespierre", "hi": "मैक्सिमिलियन रोबेस्पिएर" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Maximilien Robespierre, leader of the radical Jacobin Club, headed the Committee of Public Safety and led the government through the Reign of Terror, during which people considered 'enemies' of the Revolution were tried by a revolutionary tribunal and, if found guilty, executed. Robespierre himself was executed in July 1794.", "hi": "कट्टरपंथी जैकोबिन क्लब के नेता मैक्सिमिलियन रोबेस्पिएर ने सार्वजनिक सुरक्षा समिति का नेतृत्व किया और आतंक के राज के दौरान सरकार का संचालन किया, जिसमें क्रांति के 'शत्रु' माने जाने वाले लोगों पर एक क्रांतिकारी न्यायाधिकरण द्वारा मुकदमा चलाया जाता था और दोषी पाए जाने पर उन्हें मृत्युदंड दिया जाता था। रोबेस्पिएर को स्वयं जुलाई 1794 में मृत्युदंड दिया गया।" },
+      "distractorAnalysis": {
+        "0": { "en": "Napoleon Bonaparte rose to power later, seizing control in a 1799 coup — five years after the Reign of Terror ended.", "hi": "नेपोलियन बोनापार्ट बाद में सत्ता में आया, उसने 1799 के तख्तापलट में नियंत्रण हासिल किया — यह आतंक के राज की समाप्ति के पांच वर्ष बाद की घटना है।" },
+        "1": { "en": "Marquis de Lafayette was a moderate revolutionary who commanded the National Guard early in the Revolution; he was not associated with the radical Jacobin Terror.", "hi": "मार्किस डी लफायेत एक उदारवादी क्रांतिकारी थे जिन्होंने क्रांति के प्रारंभिक दौर में नेशनल गार्ड की कमान संभाली थी; उनका कट्टरपंथी जैकोबिन आतंक से कोई संबंध नहीं था।" },
+        "2": { "en": "Louis XVI was the king executed in January 1793 — he was a victim of the revolutionary tribunals, not the leader who ran them.", "hi": "लुई सोलहवें वह राजा थे जिन्हें जनवरी 1793 में मृत्युदंड दिया गया — वे क्रांतिकारी न्यायाधिकरणों के शिकार थे, न कि उनका संचालन करने वाले नेता।" }
+      }
+    },
+    {
+      "key": "jnvst9-2023-soc-03",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "The NCERT chapter on Constitutional Design begins with the story of the struggle against apartheid in which country?", "hi": "संवैधानिक अभिकल्प (डिज़ाइन) पर एनसीईआरटी का अध्याय किस देश में रंगभेद (नस्लीय भेदभाव) के विरुद्ध संघर्ष की कहानी से शुरू होता है?" },
+      "optionsJson": [
+        { "en": "South Africa", "hi": "दक्षिण अफ्रीका" },
+        { "en": "Russia", "hi": "रूस" },
+        { "en": "Germany", "hi": "जर्मनी" },
+        { "en": "Sri Lanka", "hi": "श्रीलंका" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "NCERT Class 9 Civics' chapter on Constitutional Design opens with South Africa's long struggle against apartheid, a system of institutionalised racial discrimination, which ended when Nelson Mandela became the country's first democratically elected president in 1994 and a new, widely-praised constitution was adopted.", "hi": "एनसीईआरटी कक्षा 9 नागरिक शास्त्र के 'संवैधानिक अभिकल्प' अध्याय की शुरुआत दक्षिण अफ्रीका के रंगभेद (एक संस्थागत नस्लीय भेदभाव व्यवस्था) के विरुद्ध लंबे संघर्ष की कहानी से होती है, जो 1994 में नेल्सन मंडेला के देश के पहले लोकतांत्रिक रूप से निर्वाचित राष्ट्रपति बनने और एक व्यापक रूप से सराहे गए नए संविधान को अपनाए जाने के साथ समाप्त हुआ।" },
+      "distractorAnalysis": {
+        "1": { "en": "Russia's 1917 revolutions are studied in the History section (Socialism/Russian Revolution chapter), not as the opening example in the Constitutional Design civics chapter.", "hi": "रूस की 1917 की क्रांतियों का अध्ययन इतिहास खंड (समाजवाद/रूसी क्रांति अध्याय) में किया जाता है, न कि संवैधानिक अभिकल्प वाले नागरिक शास्त्र अध्याय के आरंभिक उदाहरण के रूप में।" },
+        "2": { "en": "Germany's Nazi period is covered in the History section's Nazism chapter, unrelated to this civics chapter's opening case study.", "hi": "जर्मनी के नाज़ी काल का वर्णन इतिहास खंड के 'नाज़ीवाद' अध्याय में किया गया है, जिसका इस नागरिक शास्त्र अध्याय के आरंभिक केस स्टडी से कोई संबंध नहीं है।" },
+        "3": { "en": "Sri Lanka is discussed elsewhere in NCERT Class 10 Civics as a case of a majoritarian policy straining ethnic relations, not as this chapter's opening example.", "hi": "श्रीलंका की चर्चा एनसीईआरटी कक्षा 10 नागरिक शास्त्र में कहीं और, बहुसंख्यकवादी नीति द्वारा जातीय संबंधों पर तनाव के एक उदाहरण के रूप में की गई है, न कि इस अध्याय के आरंभिक उदाहरण के रूप में।" }
+      }
+    },
+    {
+      "key": "jnvst9-2023-soc-04",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Approximately how long did the Constituent Assembly of India take to prepare the Constitution?", "hi": "भारत की संविधान सभा को संविधान तैयार करने में लगभग कितना समय लगा?" },
+      "optionsJson": [
+        { "en": "Exactly 1 year", "hi": "ठीक 1 वर्ष" },
+        { "en": "2 years, 11 months, and 18 days", "hi": "2 वर्ष, 11 महीने और 18 दिन" },
+        { "en": "5 years", "hi": "5 वर्ष" },
+        { "en": "6 months", "hi": "6 महीने" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The Constituent Assembly of India, which first met on 9 December 1946, took 2 years, 11 months, and 18 days to prepare the Constitution. The Constitution was adopted on 26 November 1949 and came into effect on 26 January 1950, which is celebrated as Republic Day.", "hi": "भारत की संविधान सभा, जिसकी पहली बैठक 9 दिसंबर 1946 को हुई थी, को संविधान तैयार करने में 2 वर्ष, 11 महीने और 18 दिन लगे। संविधान को 26 नवंबर 1949 को अपनाया गया और यह 26 जनवरी 1950 को लागू हुआ, जिसे गणतंत्र दिवस के रूप में मनाया जाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "One year understates the actual time taken — the Assembly worked for nearly three years, holding extensive debates over each provision.", "hi": "1 वर्ष वास्तविक समय को कम करके दर्शाता है — संविधान सभा ने लगभग तीन वर्षों तक कार्य किया, जिसमें प्रत्येक प्रावधान पर विस्तृत बहसें हुईं।" },
+        "2": { "en": "Five years overstates the time taken; the actual process was completed in just under three years.", "hi": "5 वर्ष वास्तविक समय को अधिक बढ़ाकर दर्शाता है; वास्तविक प्रक्रिया तीन वर्ष से कुछ कम समय में ही पूरी हो गई थी।" },
+        "3": { "en": "Six months drastically understates the time taken, given the scale of debate and the number of provisions the Assembly worked through article by article.", "hi": "6 महीने वास्तविक समय को काफी कम करके दर्शाता है, यह देखते हुए कि संविधान सभा ने अनुच्छेद-दर-अनुच्छेद कितनी व्यापक बहस और कितने प्रावधानों पर कार्य किया।" }
+      }
+    },
+    {
+      "key": "jnvst9-2023-soc-05",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "How many countries share a land border with India?", "hi": "कितने देशों की सीमा भारत के साथ स्थलीय रूप से लगती है?" },
+      "optionsJson": [
+        { "en": "Five", "hi": "पांच" },
+        { "en": "Nine", "hi": "नौ" },
+        { "en": "Seven", "hi": "सात" },
+        { "en": "Six", "hi": "छह" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "India shares its land border with seven countries: Pakistan and Afghanistan to the northwest, China, Nepal, and Bhutan to the north, and Myanmar and Bangladesh to the east, as covered in NCERT Class 9 Geography's chapter on India's size and location.", "hi": "एनसीईआरटी कक्षा 9 भूगोल के 'भारत: आकार और स्थिति' अध्याय के अनुसार, भारत की स्थलीय सीमा सात देशों से लगती है: उत्तर-पश्चिम में पाकिस्तान और अफगानिस्तान, उत्तर में चीन, नेपाल और भूटान, तथा पूर्व में म्यांमार और बांग्लादेश।" },
+      "distractorAnalysis": {
+        "0": { "en": "Five undercounts India's land neighbours — it omits at least two of the seven countries (such as Bhutan and Myanmar).", "hi": "पांच भारत के स्थलीय पड़ोसी देशों की सही गिनती नहीं है — इसमें सात में से कम से कम दो देश (जैसे भूटान और म्यांमार) छूट जाते हैं।" },
+        "1": { "en": "Nine overcounts India's land neighbours; it likely includes countries India does not share a land border with, such as Sri Lanka (a maritime neighbour only).", "hi": "नौ भारत के स्थलीय पड़ोसी देशों की अधिक गिनती है; इसमें संभवतः ऐसे देश शामिल हो जाते हैं जिनसे भारत की स्थलीय सीमा नहीं लगती, जैसे श्रीलंका (जो केवल समुद्री पड़ोसी है)।" },
+        "3": { "en": "Six omits one of the seven actual land-bordering countries.", "hi": "छह सात वास्तविक स्थलीय पड़ोसी देशों में से एक को छोड़ देता है।" }
+      }
+    },
+    {
+      "key": "jnvst9-2023-soc-06",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "What is the name of the outermost range of the Himalayas, lying closest to the Indo-Gangetic plain?", "hi": "हिमालय की सबसे बाहरी श्रेणी, जो सिंधु-गंगा के मैदान के सबसे निकट स्थित है, का नाम क्या है?" },
+      "optionsJson": [
+        { "en": "Himadri", "hi": "हिमाद्रि" },
+        { "en": "Karakoram", "hi": "काराकोरम" },
+        { "en": "Himachal", "hi": "हिमाचल" },
+        { "en": "Shiwaliks", "hi": "शिवालिक" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "The Himalayas consist of three parallel ranges: the northernmost Himadri (Greater Himalayas, with the highest peaks), the Himachal (Lesser Himalayas) in the middle, and the outermost Shiwaliks, which lie closest to the Indo-Gangetic plain and are composed of unconsolidated sediments.", "hi": "हिमालय तीन समानांतर श्रेणियों से बना है: सबसे उत्तर में हिमाद्रि (वृहत हिमालय, जिसमें सबसे ऊंची चोटियां हैं), मध्य में हिमाचल (लघु हिमालय), और सबसे बाहरी शिवालिक, जो सिंधु-गंगा के मैदान के सबसे निकट स्थित है तथा असंगठित तलछट से बना है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Himadri is the innermost, northernmost range with the highest peaks — the opposite end from the outermost range asked about.", "hi": "हिमाद्रि सबसे भीतरी, सबसे उत्तरी श्रेणी है जिसमें सबसे ऊंची चोटियां हैं — यह प्रश्न में पूछी गई सबसे बाहरी श्रेणी के विपरीत छोर पर है।" },
+        "1": { "en": "The Karakoram range lies in the Trans-Himalayan region to the north, separate from the three main Himalayan ranges, and is not the outermost range described here.", "hi": "काराकोरम श्रेणी उत्तर में स्थित ट्रांस-हिमालयी क्षेत्र में है, जो तीन मुख्य हिमालयी श्रेणियों से अलग है, और यह यहां वर्णित सबसे बाहरी श्रेणी नहीं है।" },
+        "2": { "en": "The Himachal (Lesser Himalayas) lies between Himadri and the Shiwaliks — it is the middle range, not the outermost one.", "hi": "हिमाचल (लघु हिमालय) हिमाद्रि और शिवालिक के बीच स्थित है — यह मध्य श्रेणी है, न कि सबसे बाहरी।" }
+      }
+    },
+    {
+      "key": "jnvst9-2024-soc-01",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "What was an immediate outcome of the February Revolution of 1917 in Russia?", "hi": "रूस में 1917 की फरवरी क्रांति का तात्कालिक परिणाम क्या था?" },
+      "optionsJson": [
+        { "en": "The Bolsheviks seized power from the Provisional Government", "hi": "बोल्शेविकों ने अनंतिम सरकार से सत्ता छीन ली" },
+        { "en": "Russia signed the Treaty of Brest-Litovsk to exit World War I", "hi": "रूस ने प्रथम विश्व युद्ध से बाहर निकलने के लिए ब्रेस्त-लितोव्स्क संधि पर हस्ताक्षर किए" },
+        { "en": "The royal family was executed by firing squad", "hi": "शाही परिवार को गोली मारकर मृत्युदंड दिया गया" },
+        { "en": "Tsar Nicholas II abdicated and a Provisional Government was formed", "hi": "ज़ार निकोलस द्वितीय ने सिंहासन त्याग दिया और एक अनंतिम सरकार का गठन हुआ" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "The February Revolution of 1917 (in the old Julian calendar; March by the modern calendar) began with strikes and protests in Petrograd. Faced with mutinying soldiers and loss of support, Tsar Nicholas II abdicated, ending centuries of Romanov rule, and a Provisional Government was established.", "hi": "1917 की फरवरी क्रांति (पुराने जूलियन कैलेंडर के अनुसार; आधुनिक कैलेंडर के अनुसार मार्च) पेत्रोग्राद में हड़तालों और विरोध प्रदर्शनों के साथ शुरू हुई। सैनिकों के विद्रोह और समर्थन खोने की स्थिति में, ज़ार निकोलस द्वितीय ने सिंहासन त्याग दिया, जिससे रोमानोव वंश के सदियों पुराने शासन का अंत हुआ, और एक अनंतिम सरकार की स्थापना हुई।" },
+      "distractorAnalysis": {
+        "0": { "en": "The Bolsheviks seized power in the separate October Revolution, months after the February Revolution, overthrowing the Provisional Government rather than being its immediate result.", "hi": "बोल्शेविकों ने अलग अक्टूबर क्रांति में सत्ता हासिल की, जो फरवरी क्रांति के महीनों बाद हुई और जिसमें अनंतिम सरकार को उखाड़ फेंका गया — यह फरवरी क्रांति का तात्कालिक परिणाम नहीं था।" },
+        "1": { "en": "The Treaty of Brest-Litovsk was signed in March 1918 by the Bolshevik government, over a year after the February Revolution, and is a separate later development.", "hi": "ब्रेस्त-लितोव्स्क संधि मार्च 1918 में बोल्शेविक सरकार द्वारा हस्ताक्षरित की गई, जो फरवरी क्रांति के एक वर्ष से अधिक बाद की एक अलग, बाद की घटना है।" },
+        "2": { "en": "The royal family was executed in July 1918, more than a year after the February Revolution, under Bolshevik rule — not an immediate result of the abdication.", "hi": "शाही परिवार को जुलाई 1918 में, फरवरी क्रांति के एक वर्ष से अधिक बाद, बोल्शेविक शासन के दौरान मृत्युदंड दिया गया — यह सिंहासन त्याग का तात्कालिक परिणाम नहीं था।" }
+      }
+    },
+    {
+      "key": "jnvst9-2024-soc-02",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "In his April Theses (1917), what slogan did Lenin use to mobilise support for the Bolsheviks?", "hi": "अपने अप्रैल थीसिस (1917) में, लेनिन ने बोल्शेविकों के लिए समर्थन जुटाने हेतु कौन-सा नारा दिया?" },
+      "optionsJson": [
+        { "en": "\"Liberty, Equality, Fraternity\"", "hi": "\"स्वतंत्रता, समानता, बंधुत्व\"" },
+        { "en": "\"Workers of the world, unite!\"", "hi": "\"दुनिया के मज़दूरों, एक हो जाओ!\"" },
+        { "en": "\"Peace, Bread, and Land\"", "hi": "\"शांति, रोटी और भूमि\"" },
+        { "en": "\"Long live the Tsar\"", "hi": "\"ज़ार की जय हो\"" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "In his April Theses, presented after returning to Russia in April 1917, Lenin called on Bolsheviks to work towards a socialist revolution, giving control of land to peasants and factories to workers, and demanding an end to the war — summarised in the slogan 'Peace, Bread, and Land', which resonated widely amid wartime hardship.", "hi": "अप्रैल 1917 में रूस लौटने के बाद प्रस्तुत अपने अप्रैल थीसिस में, लेनिन ने बोल्शेविकों से समाजवादी क्रांति की दिशा में कार्य करने का आह्वान किया, जिसमें भूमि किसानों को और कारखाने मज़दूरों को सौंपने तथा युद्ध समाप्त करने की मांग शामिल थी — जिसे 'शांति, रोटी और भूमि' के नारे में संक्षेपित किया गया, जो युद्धकालीन कठिनाइयों के बीच व्यापक रूप से लोकप्रिय हुआ।" },
+      "distractorAnalysis": {
+        "0": { "en": "\"Liberty, Equality, Fraternity\" was the motto of the French Revolution, over a century earlier, not a Bolshevik slogan.", "hi": "\"स्वतंत्रता, समानता, बंधुत्व\" फ्रांसीसी क्रांति का आदर्श वाक्य था, जो एक सदी से भी पहले का है, न कि बोल्शेविक नारा।" },
+        "1": { "en": "\"Workers of the world, unite!\" is the closing line of Marx and Engels' Communist Manifesto (1848) — a real socialist slogan, but not the specific one Lenin used in the April Theses.", "hi": "\"दुनिया के मज़दूरों, एक हो जाओ!\" मार्क्स और एंगेल्स के साम्यवादी घोषणापत्र (1848) की समापन पंक्ति है — यह एक वास्तविक समाजवादी नारा है, परंतु यह वह नारा नहीं है जिसे लेनिन ने अप्रैल थीसिस में दिया था।" },
+        "3": { "en": "\"Long live the Tsar\" is the opposite of the Bolshevik position — Lenin and the Bolsheviks sought to end tsarist rule entirely, not preserve it.", "hi": "\"ज़ार की जय हो\" बोल्शेविक स्थिति के बिल्कुल विपरीत है — लेनिन और बोल्शेविक ज़ारशाही को पूरी तरह समाप्त करना चाहते थे, उसे बनाए रखना नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-2024-soc-03",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which of the following is NOT one of the values mentioned in the Preamble of the Indian Constitution?", "hi": "निम्नलिखित में से कौन-सा भारतीय संविधान की प्रस्तावना में उल्लिखित मूल्यों में से एक नहीं है?" },
+      "optionsJson": [
+        { "en": "Fraternity", "hi": "बंधुत्व" },
+        { "en": "Uniformity", "hi": "एकरूपता" },
+        { "en": "Justice", "hi": "न्याय" },
+        { "en": "Liberty", "hi": "स्वतंत्रता" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The Preamble to the Indian Constitution declares India a sovereign, socialist, secular, democratic republic and secures to all citizens justice, liberty, equality, and fraternity. 'Uniformity' is not among the Preamble's stated values — the Constitution instead accommodates India's diversity rather than demanding uniformity.", "hi": "भारतीय संविधान की प्रस्तावना भारत को एक संपूर्ण प्रभुत्व-संपन्न, समाजवादी, पंथनिरपेक्ष, लोकतांत्रिक गणराज्य घोषित करती है और सभी नागरिकों को न्याय, स्वतंत्रता, समानता तथा बंधुत्व प्रदान करने का संकल्प लेती है। 'एकरूपता' प्रस्तावना में उल्लिखित मूल्यों में शामिल नहीं है — संविधान एकरूपता की मांग करने के बजाय भारत की विविधता को समाहित करता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Fraternity is explicitly named in the Preamble, meant to promote a sense of common brotherhood among all citizens.", "hi": "बंधुत्व प्रस्तावना में स्पष्ट रूप से उल्लिखित है, जिसका उद्देश्य सभी नागरिकों के बीच सामान्य भाईचारे की भावना को बढ़ावा देना है।" },
+        "2": { "en": "Justice is explicitly named in the Preamble, covering social, economic, and political justice.", "hi": "न्याय प्रस्तावना में स्पष्ट रूप से उल्लिखित है, जिसमें सामाजिक, आर्थिक और राजनीतिक न्याय शामिल है।" },
+        "3": { "en": "Liberty is explicitly named in the Preamble, covering liberty of thought, expression, belief, faith, and worship.", "hi": "स्वतंत्रता प्रस्तावना में स्पष्ट रूप से उल्लिखित है, जिसमें विचार, अभिव्यक्ति, विश्वास, धर्म और उपासना की स्वतंत्रता शामिल है।" }
+      }
+    },
+    {
+      "key": "jnvst9-2024-soc-04",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Why does India's electoral system reserve constituencies for Scheduled Castes and Scheduled Tribes rather than creating separate electorates for them?", "hi": "भारत की चुनाव प्रणाली अनुसूचित जाति और अनुसूचित जनजाति के लिए अलग निर्वाचक मंडल बनाने के बजाय आरक्षित निर्वाचन क्षेत्र क्यों बनाती है?" },
+      "optionsJson": [
+        { "en": "To ensure fair representation for socially disadvantaged groups while keeping a single, common electorate voting together", "hi": "एक साझा, सामान्य निर्वाचक मंडल के साथ मतदान बनाए रखते हुए सामाजिक रूप से वंचित समूहों के लिए उचित प्रतिनिधित्व सुनिश्चित करने हेतु" },
+        { "en": "To keep the total number of legislative seats as low as possible", "hi": "विधायी सीटों की कुल संख्या को यथासंभव कम रखने हेतु" },
+        { "en": "To bar SC/ST candidates from contesting in general constituencies", "hi": "अनुसूचित जाति/जनजाति के उम्मीदवारों को सामान्य निर्वाचन क्षेत्रों में चुनाव लड़ने से रोकने हेतु" },
+        { "en": "Because the Constitution does not permit any special provisions for SC/ST representation", "hi": "क्योंकि संविधान अनुसूचित जाति/जनजाति प्रतिनिधित्व के लिए किसी विशेष प्रावधान की अनुमति नहीं देता" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Reservation of constituencies allows only SC/ST candidates to contest from certain constituencies, ensuring their adequate representation in legislatures, while all voters in that constituency — regardless of caste — vote together in a single common electorate. This differs from the 'separate electorate' idea (where only members of a community could vote for candidates of that community), which Dr. B.R. Ambedkar and others ultimately moved away from in designing India's system.", "hi": "निर्वाचन क्षेत्रों का आरक्षण केवल अनुसूचित जाति/जनजाति के उम्मीदवारों को कुछ निर्वाचन क्षेत्रों से चुनाव लड़ने की अनुमति देता है, जिससे विधानसभाओं में उनका पर्याप्त प्रतिनिधित्व सुनिश्चित होता है, जबकि उस निर्वाचन क्षेत्र के सभी मतदाता — जाति की परवाह किए बिना — एक ही साझा निर्वाचक मंडल में मतदान करते हैं। यह 'पृथक निर्वाचक मंडल' के विचार (जिसमें केवल किसी समुदाय के सदस्य ही उस समुदाय के उम्मीदवारों के लिए मतदान कर सकते थे) से भिन्न है, जिससे डॉ. बी.आर. अंबेडकर और अन्य लोग भारत की व्यवस्था तैयार करते समय अंततः दूर हट गए।" },
+      "distractorAnalysis": {
+        "1": { "en": "Reservation is about who can contest from a constituency, not about reducing the overall number of seats in the legislature.", "hi": "आरक्षण इस बारे में है कि किसी निर्वाचन क्षेत्र से कौन चुनाव लड़ सकता है, न कि विधानसभा में सीटों की कुल संख्या कम करने के बारे में।" },
+        "2": { "en": "Reservation does the opposite — it guarantees SC/ST candidates a set of constituencies to contest from; it does not bar them from general constituencies either, where they remain free to contest.", "hi": "आरक्षण इसके विपरीत कार्य करता है — यह अनुसूचित जाति/जनजाति के उम्मीदवारों को चुनाव लड़ने के लिए निर्वाचन क्षेत्रों का एक समूह सुनिश्चित करता है; यह उन्हें सामान्य निर्वाचन क्षेत्रों से भी नहीं रोकता, जहां वे चुनाव लड़ने के लिए स्वतंत्र रहते हैं।" },
+        "3": { "en": "The Constitution explicitly permits and mandates such special provisions — reservation of seats for SC/ST in the Lok Sabha and state assemblies is a constitutional provision, not a violation of it.", "hi": "संविधान स्पष्ट रूप से ऐसे विशेष प्रावधानों की अनुमति देता है और उन्हें अनिवार्य बनाता है — लोकसभा और राज्य विधानसभाओं में अनुसूचित जाति/जनजाति के लिए सीटों का आरक्षण एक संवैधानिक प्रावधान है, इसका उल्लंघन नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-2024-soc-05",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Which is the highest peak located within India?", "hi": "भारत के भीतर स्थित सबसे ऊंची चोटी कौन-सी है?" },
+      "optionsJson": [
+        { "en": "Mount Everest", "hi": "माउंट एवरेस्ट" },
+        { "en": "K2", "hi": "के2" },
+        { "en": "Nanda Devi", "hi": "नंदा देवी" },
+        { "en": "Kanchenjunga", "hi": "कंचनजंगा" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Kanchenjunga, on the India-Nepal border in Sikkim, is the highest peak located within India and the third-highest peak in the world, as covered in NCERT Class 9 Geography's chapter on India's physical features.", "hi": "एनसीईआरटी कक्षा 9 भूगोल के 'भारत के भौतिक स्वरूप' अध्याय के अनुसार, सिक्किम में भारत-नेपाल सीमा पर स्थित कंचनजंगा भारत के भीतर स्थित सबसे ऊंची चोटी है तथा विश्व की तीसरी सबसे ऊंची चोटी है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Mount Everest, the world's highest peak, straddles the Nepal-China (Tibet) border and does not lie within India.", "hi": "विश्व की सबसे ऊंची चोटी माउंट एवरेस्ट, नेपाल-चीन (तिब्बत) सीमा पर स्थित है और भारत के भीतर नहीं आती।" },
+        "1": { "en": "K2, the world's second-highest peak, is located in the Karakoram range in Pakistan-administered territory, not within India.", "hi": "विश्व की दूसरी सबसे ऊंची चोटी के2, पाकिस्तान-प्रशासित क्षेत्र में काराकोरम श्रेणी में स्थित है, भारत के भीतर नहीं।" },
+        "2": { "en": "Nanda Devi, in Uttarakhand, is indeed within India and is a notable high peak, but at about 7,816 metres it is considerably shorter than Kanchenjunga's approximately 8,586 metres.", "hi": "उत्तराखंड में स्थित नंदा देवी वास्तव में भारत के भीतर है और एक उल्लेखनीय ऊंची चोटी है, परंतु लगभग 7,816 मीटर की ऊंचाई के साथ यह कंचनजंगा की लगभग 8,586 मीटर ऊंचाई से काफी कम है।" }
+      }
+    },
+    {
+      "key": "jnvst9-2024-soc-06",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The Peninsular Plateau of India is composed mainly of which type of rock?", "hi": "भारत का प्रायद्वीपीय पठार मुख्यतः किस प्रकार की चट्टान से बना है?" },
+      "optionsJson": [
+        { "en": "Ancient crystalline, igneous, and metamorphic rocks", "hi": "प्राचीन क्रिस्टलीय, आग्नेय और कायांतरित चट्टानें" },
+        { "en": "Young sedimentary rocks", "hi": "नवीन अवसादी चट्टानें" },
+        { "en": "Recent alluvial deposits", "hi": "हाल के जलोढ़ निक्षेप" },
+        { "en": "Volcanic ash deposits only", "hi": "केवल ज्वालामुखीय राख के निक्षेप" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The Peninsular Plateau is one of the oldest landmasses on Earth, formed by the breaking and drifting of the Gondwana landmass, and is composed mainly of ancient crystalline, igneous, and metamorphic rocks — unlike the younger, sediment-formed Himalayas or alluvium-formed northern plains.", "hi": "प्रायद्वीपीय पठार पृथ्वी के सबसे प्राचीन भूभागों में से एक है, जो गोंडवाना भूभाग के टूटने और खिसकने से बना है, तथा यह मुख्यतः प्राचीन क्रिस्टलीय, आग्नेय और कायांतरित चट्टानों से बना है — नवीन अवसादों से बने हिमालय या जलोढ़ से बने उत्तरी मैदानों के विपरीत।" },
+      "distractorAnalysis": {
+        "1": { "en": "Young sedimentary rocks characterise the geologically young Himalayan mountain system, which formed from marine sediments folded up much more recently, not the ancient Peninsular Plateau.", "hi": "नवीन अवसादी चट्टानें भूवैज्ञानिक रूप से नवीन हिमालयी पर्वत प्रणाली की विशेषता हैं, जो समुद्री अवसादों से हाल ही में मुड़कर बनी है, न कि प्राचीन प्रायद्वीपीय पठार की।" },
+        "2": { "en": "Recent alluvial deposits characterise the Northern Plains, built up by sediment deposited by the Indus, Ganga, and Brahmaputra river systems, not the Peninsular Plateau.", "hi": "हाल के जलोढ़ निक्षेप उत्तरी मैदानों की विशेषता हैं, जो सिंधु, गंगा और ब्रह्मपुत्र नदी प्रणालियों द्वारा जमा किए गए अवसाद से बने हैं, न कि प्रायद्वीपीय पठार की।" },
+        "3": { "en": "While the Deccan Trap region within the plateau does have volcanic basalt rock from ancient lava flows, the plateau as a whole is not composed 'only' of volcanic ash — it is predominantly crystalline and metamorphic rock.", "hi": "यद्यपि पठार के भीतर दक्कन ट्रैप क्षेत्र में प्राचीन लावा प्रवाह से बनी ज्वालामुखीय बेसाल्ट चट्टान अवश्य है, पूरा पठार 'केवल' ज्वालामुखीय राख से नहीं बना है — यह मुख्यतः क्रिस्टलीय और कायांतरित चट्टान से बना है।" }
+      }
+    },
+    {
+      "key": "jnvst9-2025-soc-01",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": { "en": "The 1905 Revolution in Russia began after a peaceful workers' procession to the Winter Palace was fired upon, on a day remembered as?", "hi": "रूस में 1905 की क्रांति एक दिन शांतिपूर्ण मज़दूर जुलूस के विंटर पैलेस की ओर बढ़ने पर गोलीबारी किए जाने के बाद शुरू हुई, जिसे किस नाम से याद किया जाता है?" },
+      "optionsJson": [
+        { "en": "Bastille Day", "hi": "बास्तील दिवस" },
+        { "en": "Bloody Sunday", "hi": "रक्तरंजित रविवार (ब्लडी संडे)" },
+        { "en": "October Manifesto Day", "hi": "अक्टूबर घोषणापत्र दिवस" },
+        { "en": "May Day", "hi": "मई दिवस" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "On 22 January 1905, a peaceful procession of workers led by Father Gapon marched to the Winter Palace in St. Petersburg to petition Tsar Nicholas II; troops fired on the unarmed crowd, killing many. The event, known as 'Bloody Sunday', triggered widespread strikes and unrest across Russia, marking the start of the 1905 Revolution.", "hi": "22 जनवरी 1905 को, फादर गैपन के नेतृत्व में मज़दूरों का एक शांतिपूर्ण जुलूस ज़ार निकोलस द्वितीय को याचिका देने के लिए सेंट पीटर्सबर्ग के विंटर पैलेस की ओर बढ़ा; सैनिकों ने निहत्थी भीड़ पर गोली चला दी, जिसमें कई लोग मारे गए। 'रक्तरंजित रविवार' के नाम से प्रसिद्ध इस घटना ने पूरे रूस में व्यापक हड़तालों और अशांति को जन्म दिया, जिससे 1905 की क्रांति की शुरुआत हुई।" },
+      "distractorAnalysis": {
+        "0": { "en": "Bastille Day (14 July 1789) commemorates the storming of the Bastille in the French Revolution — a different country and event, over a century earlier.", "hi": "बास्तील दिवस (14 जुलाई 1789) फ्रांसीसी क्रांति में बास्तील पर धावे की याद दिलाता है — यह एक भिन्न देश और घटना है, एक सदी से भी अधिक पहले की।" },
+        "2": { "en": "The October Manifesto was issued by Tsar Nicholas II in October 1905, later in the same year, promising civil liberties and an elected Duma — a response to the unrest, not the name of the initial firing incident.", "hi": "अक्टूबर घोषणापत्र ज़ार निकोलस द्वितीय द्वारा उसी वर्ष बाद में, अक्टूबर 1905 में जारी किया गया था, जिसमें नागरिक स्वतंत्रताओं और एक निर्वाचित ड्यूमा का वादा किया गया — यह अशांति की प्रतिक्रिया थी, न कि प्रारंभिक गोलीबारी की घटना का नाम।" },
+        "3": { "en": "May Day (1 May) is an international workers' day commemorating labour movements generally; it is not specifically the name for this January 1905 firing incident.", "hi": "मई दिवस (1 मई) श्रम आंदोलनों की सामान्य स्मृति में मनाया जाने वाला एक अंतरराष्ट्रीय मज़दूर दिवस है; यह विशेष रूप से जनवरी 1905 की इस गोलीबारी घटना का नाम नहीं है।" }
+      }
+    },
+    {
+      "key": "jnvst9-2025-soc-02",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "In which year did Adolf Hitler become the Chancellor of Germany?", "hi": "एडोल्फ हिटलर किस वर्ष जर्मनी का चांसलर बना?" },
+      "optionsJson": [
+        { "en": "1919", "hi": "1919" },
+        { "en": "1929", "hi": "1929" },
+        { "en": "1939", "hi": "1939" },
+        { "en": "1933", "hi": "1933" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Adolf Hitler was appointed Chancellor of Germany on 30 January 1933. He quickly moved to dismantle democratic institutions, and within months, following the Enabling Act, established a one-party Nazi dictatorship.", "hi": "एडोल्फ हिटलर को 30 जनवरी 1933 को जर्मनी का चांसलर नियुक्त किया गया। उसने शीघ्र ही लोकतांत्रिक संस्थाओं को समाप्त करना शुरू कर दिया और कुछ ही महीनों में, सक्षमता अधिनियम (एनेबलिंग एक्ट) के बाद, एक-दलीय नाज़ी तानाशाही स्थापित कर दी।" },
+      "distractorAnalysis": {
+        "0": { "en": "1919 is the year the Weimar Republic was established in Germany after World War I — Hitler did not come to power until fourteen years later.", "hi": "1919 वह वर्ष है जब प्रथम विश्व युद्ध के बाद जर्मनी में वाइमर गणराज्य की स्थापना हुई थी — हिटलर चौदह वर्ष बाद तक सत्ता में नहीं आया था।" },
+        "1": { "en": "1929 marks the start of the Great Depression, which caused the economic crisis that helped Nazi support grow — but Hitler became Chancellor four years later, not in 1929 itself.", "hi": "1929 महामंदी की शुरुआत का वर्ष है, जिसने उस आर्थिक संकट को जन्म दिया जिसने नाज़ी समर्थन बढ़ाने में मदद की — लेकिन हिटलर 1929 में नहीं, बल्कि उसके चार वर्ष बाद चांसलर बना।" },
+        "2": { "en": "1939 is the year World War II began, six years after Hitler had already become Chancellor and consolidated power.", "hi": "1939 वह वर्ष है जब द्वितीय विश्व युद्ध शुरू हुआ, जो हिटलर के चांसलर बनने और सत्ता मजबूत करने के छह वर्ष बाद की घटना है।" }
+      }
+    },
+    {
+      "key": "jnvst9-2025-soc-03",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which electoral system does India follow for Lok Sabha and Vidhan Sabha elections?", "hi": "भारत लोकसभा और विधानसभा चुनावों के लिए किस चुनाव प्रणाली का पालन करता है?" },
+      "optionsJson": [
+        { "en": "Proportional Representation", "hi": "आनुपातिक प्रतिनिधित्व" },
+        { "en": "First-Past-The-Post", "hi": "फर्स्ट-पास्ट-द-पोस्ट (सर्वाधिक मत प्राप्त उम्मीदवार की विजय)" },
+        { "en": "Mixed Member Proportional", "hi": "मिश्रित सदस्य आनुपातिक प्रणाली" },
+        { "en": "Electoral College", "hi": "निर्वाचक मंडल प्रणाली" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "India uses the First-Past-The-Post (FPTP) system for Lok Sabha and Vidhan Sabha elections, in which the country/state is divided into geographical constituencies, and the candidate who secures the highest number of votes in a constituency — not necessarily a majority — wins that seat.", "hi": "भारत लोकसभा और विधानसभा चुनावों के लिए फर्स्ट-पास्ट-द-पोस्ट (एफपीटीपी) प्रणाली का उपयोग करता है, जिसमें देश/राज्य को भौगोलिक निर्वाचन क्षेत्रों में बांटा जाता है, और किसी निर्वाचन क्षेत्र में सबसे अधिक मत प्राप्त करने वाला उम्मीदवार — जरूरी नहीं कि बहुमत हो — वह सीट जीत जाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Proportional Representation, where parties get seats in proportion to their vote share, is used in some other countries but not for India's Lok Sabha/Vidhan Sabha elections.", "hi": "आनुपातिक प्रतिनिधित्व, जिसमें दलों को उनके मत-प्रतिशत के अनुपात में सीटें मिलती हैं, कुछ अन्य देशों में उपयोग की जाती है परंतु भारत के लोकसभा/विधानसभा चुनावों के लिए नहीं।" },
+        "2": { "en": "Mixed Member Proportional systems, which combine constituency seats with proportional 'list' seats (as used in Germany), are not the system used for India's Lok Sabha/Vidhan Sabha elections.", "hi": "मिश्रित सदस्य आनुपातिक प्रणालियां, जो निर्वाचन क्षेत्र सीटों को आनुपातिक 'सूची' सीटों के साथ जोड़ती हैं (जैसा जर्मनी में उपयोग होता है), भारत के लोकसभा/विधानसभा चुनावों के लिए उपयोग की जाने वाली प्रणाली नहीं है।" },
+        "3": { "en": "An Electoral College, where designated electors formally cast votes for a candidate (as in electing the US President), is not how India's Lok Sabha/Vidhan Sabha members are directly elected.", "hi": "निर्वाचक मंडल प्रणाली, जिसमें निर्धारित निर्वाचक किसी उम्मीदवार के लिए औपचारिक रूप से मतदान करते हैं (जैसा अमेरिकी राष्ट्रपति के चुनाव में होता है), भारत के लोकसभा/विधानसभा सदस्यों के प्रत्यक्ष निर्वाचन की विधि नहीं है।" }
+      }
+    },
+    {
+      "key": "jnvst9-2025-soc-04",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which constitutional body is responsible for conducting free and fair elections in India?", "hi": "भारत में स्वतंत्र और निष्पक्ष चुनाव कराने के लिए कौन-सी संवैधानिक संस्था जिम्मेदार है?" },
+      "optionsJson": [
+        { "en": "NITI Aayog", "hi": "नीति आयोग" },
+        { "en": "Finance Commission", "hi": "वित्त आयोग" },
+        { "en": "Election Commission of India", "hi": "भारत निर्वाचन आयोग" },
+        { "en": "Supreme Court of India", "hi": "भारत का उच्चतम न्यायालय" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The Election Commission of India is an independent constitutional body responsible for conducting free and fair elections to the Lok Sabha, Rajya Sabha, state legislatures, and the offices of President and Vice-President, at the national and state levels.", "hi": "भारत निर्वाचन आयोग एक स्वतंत्र संवैधानिक संस्था है जो राष्ट्रीय और राज्य स्तर पर लोकसभा, राज्यसभा, राज्य विधानसभाओं तथा राष्ट्रपति एवं उपराष्ट्रपति के पदों के लिए स्वतंत्र और निष्पक्ष चुनाव कराने हेतु जिम्मेदार है।" },
+      "distractorAnalysis": {
+        "0": { "en": "NITI Aayog is a policy think tank of the Government of India focused on planning and development strategy, not on conducting elections.", "hi": "नीति आयोग भारत सरकार का एक नीति थिंक टैंक है जो योजना और विकास रणनीति पर केंद्रित है, चुनाव कराने पर नहीं।" },
+        "1": { "en": "The Finance Commission is a constitutional body that recommends the distribution of tax revenues between the Union and the states; it has no role in conducting elections.", "hi": "वित्त आयोग एक संवैधानिक संस्था है जो केंद्र और राज्यों के बीच कर राजस्व के बंटवारे की सिफारिश करती है; चुनाव कराने में इसकी कोई भूमिका नहीं है।" },
+        "3": { "en": "The Supreme Court of India is the highest judicial body, which may adjudicate election-related disputes brought before it, but it is not the body that organises and conducts elections.", "hi": "भारत का उच्चतम न्यायालय सर्वोच्च न्यायिक निकाय है, जो उसके समक्ष लाए गए चुनाव संबंधी विवादों का निर्णय कर सकता है, परंतु यह चुनावों का आयोजन और संचालन करने वाली संस्था नहीं है।" }
+      }
+    },
+    {
+      "key": "jnvst9-2025-soc-05",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Project Tiger, launched to conserve India's tiger population, began in which year?", "hi": "भारत की बाघ आबादी के संरक्षण के लिए शुरू किया गया प्रोजेक्ट टाइगर किस वर्ष आरंभ हुआ?" },
+      "optionsJson": [
+        { "en": "1952", "hi": "1952" },
+        { "en": "1973", "hi": "1973" },
+        { "en": "1991", "hi": "1991" },
+        { "en": "2002", "hi": "2002" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Project Tiger, a wildlife conservation programme launched by the Government of India to protect the endangered tiger, began in 1973, with Jim Corbett National Park among the first reserves brought under it, as covered in NCERT Class 9 Geography's chapter on Natural Vegetation and Wildlife.", "hi": "एनसीईआरटी कक्षा 9 भूगोल के 'प्राकृतिक वनस्पति और वन्य जीवन' अध्याय के अनुसार, संकटग्रस्त बाघ की सुरक्षा के लिए भारत सरकार द्वारा शुरू किया गया वन्यजीव संरक्षण कार्यक्रम प्रोजेक्ट टाइगर 1973 में आरंभ हुआ, जिसमें जिम कॉर्बेट राष्ट्रीय उद्यान इसके अंतर्गत लाए गए पहले अभयारण्यों में से एक था।" },
+      "distractorAnalysis": {
+        "0": { "en": "1952 predates Project Tiger by two decades; this was around the time of India's early wildlife board formation, not the launch of Project Tiger itself.", "hi": "1952 प्रोजेक्ट टाइगर से दो दशक पहले का है; यह भारत के प्रारंभिक वन्यजीव बोर्ड के गठन के आसपास का समय था, न कि प्रोजेक्ट टाइगर के आरंभ का।" },
+        "2": { "en": "1991 is nearly two decades after Project Tiger's actual 1973 launch.", "hi": "1991 प्रोजेक्ट टाइगर के वास्तविक 1973 के आरंभ से लगभग दो दशक बाद का है।" },
+        "3": { "en": "2002 is nearly three decades after Project Tiger's actual 1973 launch.", "hi": "2002 प्रोजेक्ट टाइगर के वास्तविक 1973 के आरंभ से लगभग तीन दशक बाद का है।" }
+      }
+    },
+    {
+      "key": "jnvst9-2025-soc-06",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "The term 'monsoon', central to India's climate, comes from an Arabic word meaning?", "hi": "भारत की जलवायु के केंद्र में स्थित शब्द 'मानसून' किस अर्थ वाले अरबी शब्द से बना है?" },
+      "optionsJson": [
+        { "en": "Rain", "hi": "वर्षा" },
+        { "en": "Wind", "hi": "हवा" },
+        { "en": "Season", "hi": "मौसम/ऋतु" },
+        { "en": "Cloud", "hi": "बादल" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The word 'monsoon' is derived from the Arabic word 'mausim', meaning 'season', reflecting how India's climate is dominated by seasonally reversing wind patterns, as explained in NCERT Class 9 Geography's chapter on climate.", "hi": "एनसीईआरटी कक्षा 9 भूगोल के जलवायु अध्याय में बताए अनुसार, 'मानसून' शब्द अरबी शब्द 'मौसिम' से बना है, जिसका अर्थ 'ऋतु' है, जो यह दर्शाता है कि भारत की जलवायु मौसमी रूप से दिशा बदलने वाली पवनों से किस प्रकार संचालित होती है।" },
+      "distractorAnalysis": {
+        "0": { "en": "'Rain' is a heavy result of the monsoon winds, but the word 'monsoon' itself does not literally translate as 'rain' — its Arabic root refers to the season, not the precipitation.", "hi": "'वर्षा' मानसूनी पवनों का एक प्रमुख परिणाम है, परंतु 'मानसून' शब्द का शाब्दिक अर्थ 'वर्षा' नहीं है — इसका अरबी मूल ऋतु को दर्शाता है, वर्षा को नहीं।" },
+        "1": { "en": "'Wind' is closely associated with monsoon systems (seasonally reversing winds), but the Arabic word 'mausim' itself literally means 'season', not 'wind'.", "hi": "'हवा' मानसून प्रणालियों (मौसमी रूप से दिशा बदलने वाली पवनों) से निकटता से जुड़ी है, परंतु अरबी शब्द 'मौसिम' का शाब्दिक अर्थ 'हवा' नहीं बल्कि 'ऋतु' है।" },
+        "3": { "en": "'Cloud' is unrelated to the literal meaning of the Arabic root 'mausim', which refers to 'season'.", "hi": "'बादल' अरबी मूल शब्द 'मौसिम' के शाब्दिक अर्थ से असंबंधित है, जो 'ऋतु' को दर्शाता है।" }
+      }
+    },
+    {
+      "key": "jnvst9-2026-soc-01",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": { "en": "What was the significance of the Enabling Act of 1933 in Nazi Germany?", "hi": "नाज़ी जर्मनी में 1933 के सक्षमता अधिनियम (एनेबलिंग एक्ट) का क्या महत्व था?" },
+      "optionsJson": [
+        { "en": "It granted German women the right to vote for the first time", "hi": "इसने पहली बार जर्मन महिलाओं को मतदान का अधिकार दिया" },
+        { "en": "It gave Hitler's government the power to bypass Parliament and rule by decree, establishing dictatorship", "hi": "इसने हिटलर की सरकार को संसद को दरकिनार कर आदेश द्वारा शासन करने की शक्ति दी, जिससे तानाशाही स्थापित हुई" },
+        { "en": "It formally ended the First World War", "hi": "इसने प्रथम विश्व युद्ध को औपचारिक रूप से समाप्त किया" },
+        { "en": "It established the Weimar Republic's constitution", "hi": "इसने वाइमर गणराज्य के संविधान की स्थापना की" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The Enabling Act, passed on 23 March 1933, gave Hitler's government the authority to issue laws and govern by decree without needing approval from the Reichstag (Parliament), effectively dismantling the checks of the Weimar constitution and establishing Nazi dictatorship.", "hi": "23 मार्च 1933 को पारित सक्षमता अधिनियम ने हिटलर की सरकार को राइष्टाग (संसद) की स्वीकृति के बिना कानून जारी करने और आदेश द्वारा शासन करने का अधिकार दिया, जिससे वाइमर संविधान की नियंत्रण-व्यवस्था प्रभावी रूप से समाप्त हो गई और नाज़ी तानाशाही स्थापित हुई।" },
+      "distractorAnalysis": {
+        "0": { "en": "German women had already gained the right to vote under the Weimar Constitution of 1919, well before this 1933 Act; the Enabling Act had nothing to do with voting rights.", "hi": "जर्मन महिलाओं को 1919 के वाइमर संविधान के तहत पहले ही मतदान का अधिकार मिल चुका था, जो इस 1933 के अधिनियम से काफी पहले की बात है; सक्षमता अधिनियम का मतदान अधिकारों से कोई लेना-देना नहीं था।" },
+        "2": { "en": "World War I was ended by the armistice of November 1918 and formalised by the Treaty of Versailles in 1919 — both well before the 1933 Enabling Act, which is unrelated to ending that war.", "hi": "प्रथम विश्व युद्ध नवंबर 1918 के युद्धविराम से समाप्त हुआ और 1919 की वर्साय संधि द्वारा औपचारिक रूप दिया गया — यह दोनों 1933 के सक्षमता अधिनियम से काफी पहले की बातें हैं, जिसका उस युद्ध की समाप्ति से कोई संबंध नहीं है।" },
+        "3": { "en": "The Weimar Republic's constitution was adopted in 1919, fourteen years before the Enabling Act — which in fact undermined and bypassed that constitution rather than establishing it.", "hi": "वाइमर गणराज्य का संविधान 1919 में अपनाया गया था, जो सक्षमता अधिनियम से चौदह वर्ष पहले की बात है — वास्तव में इस अधिनियम ने उस संविधान को स्थापित करने के बजाय कमजोर किया और दरकिनार किया।" }
+      }
+    },
+    {
+      "key": "jnvst9-2026-soc-02",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Nazi propaganda exploited German resentment against which 1919 treaty, which imposed heavy reparations and territorial losses on Germany?", "hi": "नाज़ी प्रचार ने 1919 की किस संधि के विरुद्ध जर्मन आक्रोश का लाभ उठाया, जिसने जर्मनी पर भारी हर्जाना और क्षेत्रीय हानि थोपी थी?" },
+      "optionsJson": [
+        { "en": "The Treaty of Brest-Litovsk", "hi": "ब्रेस्त-लितोव्स्क संधि" },
+        { "en": "The Treaty of Sevres", "hi": "सेव्र की संधि" },
+        { "en": "The Munich Agreement", "hi": "म्यूनिख समझौता" },
+        { "en": "The Treaty of Versailles", "hi": "वर्साय संधि" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "The Treaty of Versailles (1919), which held Germany responsible for the First World War, imposed heavy reparations, territorial losses, and military restrictions, was widely seen by Germans as a harsh and humiliating diktat. The Nazis exploited this resentment as a central theme of their propaganda.", "hi": "वर्साय संधि (1919), जिसने प्रथम विश्व युद्ध के लिए जर्मनी को जिम्मेदार ठहराया, ने भारी हर्जाना, क्षेत्रीय हानि और सैन्य प्रतिबंध थोपे, जिसे जर्मन लोग व्यापक रूप से एक कठोर और अपमानजनक थोपा गया आदेश मानते थे। नाज़ियों ने इस आक्रोश का लाभ अपने प्रचार के केंद्रीय विषय के रूप में उठाया।" },
+      "distractorAnalysis": {
+        "0": { "en": "The Treaty of Brest-Litovsk (1918) was signed between Bolshevik Russia and the Central Powers (including Germany) to end Russia's involvement in World War I — it was favourable to Germany at the time, not a treaty imposed against Germany.", "hi": "ब्रेस्त-लितोव्स्क संधि (1918) बोल्शेविक रूस और केंद्रीय शक्तियों (जिसमें जर्मनी शामिल था) के बीच रूस की प्रथम विश्व युद्ध में भागीदारी समाप्त करने के लिए हस्ताक्षरित की गई थी — उस समय यह जर्मनी के अनुकूल थी, जर्मनी पर थोपी गई संधि नहीं थी।" },
+        "1": { "en": "The Treaty of Sevres (1920) was imposed on the defeated Ottoman Empire, not on Germany.", "hi": "सेव्र की संधि (1920) पराजित ऑटोमन साम्राज्य पर थोपी गई थी, जर्मनी पर नहीं।" },
+        "2": { "en": "The Munich Agreement (1938) allowed Nazi Germany to annex the Sudetenland from Czechoslovakia — it was an act of appeasement benefiting Germany, not a treaty imposing losses on it, and came nearly two decades later.", "hi": "म्यूनिख समझौते (1938) ने नाज़ी जर्मनी को चेकोस्लोवाकिया से सुडेटनलैंड को अपने में मिलाने की अनुमति दी — यह जर्मनी को लाभ पहुंचाने वाला तुष्टिकरण का कार्य था, न कि उस पर हानि थोपने वाली संधि, और यह लगभग दो दशक बाद की घटना है।" }
+      }
+    },
+    {
+      "key": "jnvst9-2026-soc-03",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": { "en": "In the Indian Parliament, a Money Bill can be introduced only in which House?", "hi": "भारतीय संसद में, धन विधेयक केवल किस सदन में प्रस्तुत किया जा सकता है?" },
+      "optionsJson": [
+        { "en": "The Rajya Sabha", "hi": "राज्यसभा" },
+        { "en": "Both Houses simultaneously", "hi": "दोनों सदनों में एक साथ" },
+        { "en": "Lok Sabha", "hi": "लोकसभा" },
+        { "en": "A State Legislative Assembly", "hi": "राज्य विधानसभा" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Under the Indian Constitution, a Money Bill can be introduced only in the Lok Sabha, and the Rajya Sabha cannot reject or amend it — it may only recommend changes, which the Lok Sabha is free to accept or reject, reflecting the Lok Sabha's greater power in financial matters.", "hi": "भारतीय संविधान के तहत, धन विधेयक केवल लोकसभा में प्रस्तुत किया जा सकता है, और राज्यसभा इसे न तो अस्वीकार कर सकती है और न ही इसमें संशोधन कर सकती है — वह केवल परिवर्तनों की सिफारिश कर सकती है, जिसे लोकसभा स्वीकार करने या अस्वीकार करने के लिए स्वतंत्र है, जो वित्तीय मामलों में लोकसभा की अधिक शक्ति को दर्शाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "The Rajya Sabha cannot originate a Money Bill; it can only discuss and recommend changes to one already passed by the Lok Sabha.", "hi": "राज्यसभा धन विधेयक की उत्पत्ति नहीं कर सकती; वह केवल लोकसभा द्वारा पहले से पारित विधेयक पर चर्चा कर सकती है और उसमें परिवर्तन की सिफारिश कर सकती है।" },
+        "1": { "en": "Money Bills are not introduced in both Houses at once — they must originate specifically and only in the Lok Sabha.", "hi": "धन विधेयक दोनों सदनों में एक साथ प्रस्तुत नहीं किए जाते — वे विशेष रूप से और केवल लोकसभा में ही प्रस्तुत होने चाहिए।" },
+        "3": { "en": "A Money Bill concerning the Union government belongs to Parliament, not a State Legislative Assembly, which is a separate legislative body for state-level matters.", "hi": "केंद्र सरकार से संबंधित धन विधेयक संसद का विषय है, न कि राज्य विधानसभा का, जो राज्य-स्तरीय मामलों के लिए एक अलग विधायी निकाय है।" }
+      }
+    },
+    {
+      "key": "jnvst9-2026-soc-04",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "In India's parliamentary system of government, who exercises the real executive power?", "hi": "भारत की संसदीय शासन प्रणाली में, वास्तविक कार्यपालिका शक्ति का प्रयोग कौन करता है?" },
+      "optionsJson": [
+        { "en": "The President alone", "hi": "केवल राष्ट्रपति" },
+        { "en": "The Chief Justice of India", "hi": "भारत के मुख्य न्यायाधीश" },
+        { "en": "The Speaker of the Lok Sabha", "hi": "लोकसभा अध्यक्ष" },
+        { "en": "The Prime Minister and the Council of Ministers", "hi": "प्रधानमंत्री और मंत्रिपरिषद" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "India follows a parliamentary system in which the President is the nominal (constitutional) head of state, while real executive power is exercised by the Prime Minister and the Council of Ministers, who are collectively responsible to the Lok Sabha.", "hi": "भारत एक संसदीय प्रणाली का पालन करता है जिसमें राष्ट्रपति राज्य का नाममात्र (संवैधानिक) प्रमुख होता है, जबकि वास्तविक कार्यपालिका शक्ति का प्रयोग प्रधानमंत्री और मंत्रिपरिषद द्वारा किया जाता है, जो सामूहिक रूप से लोकसभा के प्रति उत्तरदायी होते हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "The President is the nominal/constitutional head of state and normally acts on the aid and advice of the Council of Ministers, rather than exercising real executive power alone.", "hi": "राष्ट्रपति राज्य का नाममात्र/संवैधानिक प्रमुख होता है और सामान्यतः मंत्रिपरिषद की सहायता और सलाह पर कार्य करता है, अकेले वास्तविक कार्यपालिका शक्ति का प्रयोग नहीं करता।" },
+        "1": { "en": "The Chief Justice of India heads the judiciary, a separate organ of government concerned with interpreting laws and delivering justice, not exercising executive power.", "hi": "भारत के मुख्य न्यायाधीश न्यायपालिका के प्रमुख होते हैं, जो सरकार का एक अलग अंग है और कानूनों की व्याख्या तथा न्याय प्रदान करने से संबंधित है, कार्यपालिका शक्ति के प्रयोग से नहीं।" },
+        "2": { "en": "The Speaker of the Lok Sabha presides over proceedings of the House and maintains order in Parliament's lower house; this is a legislative, not executive, role.", "hi": "लोकसभा अध्यक्ष सदन की कार्यवाही की अध्यक्षता करते हैं और संसद के निचले सदन में व्यवस्था बनाए रखते हैं; यह एक विधायी भूमिका है, कार्यपालिका की नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-2026-soc-05",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The southwest monsoon typically first 'bursts' over which part of India, around the beginning of June?", "hi": "दक्षिण-पश्चिम मानसून जून के आरंभ में सबसे पहले भारत के किस भाग में 'फूटता' (आगमन) है?" },
+      "optionsJson": [
+        { "en": "Punjab", "hi": "पंजाब" },
+        { "en": "The Kerala coast", "hi": "केरल तट" },
+        { "en": "The Thar Desert in Rajasthan", "hi": "राजस्थान का थार मरुस्थल" },
+        { "en": "West Bengal", "hi": "पश्चिम बंगाल" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The southwest monsoon, arriving as two branches (the Arabian Sea branch and the Bay of Bengal branch), typically makes its onset — often called the monsoon 'burst' — over the Kerala coast around the beginning of June, before advancing further across the rest of the country.", "hi": "दक्षिण-पश्चिम मानसून, जो दो शाखाओं (अरब सागर शाखा और बंगाल की खाड़ी शाखा) के रूप में आता है, सामान्यतः जून के आरंभ में केरल तट पर सबसे पहले पहुंचता है — जिसे प्रायः मानसून का 'फूटना' (बर्स्ट) कहा जाता है — इसके बाद यह देश के शेष भागों में आगे बढ़ता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Punjab, in the northwest, receives the monsoon considerably later than Kerala, as the monsoon advances gradually from south to north across the country.", "hi": "उत्तर-पश्चिम में स्थित पंजाब में मानसून केरल की तुलना में काफी बाद में पहुंचता है, क्योंकि मानसून देश भर में धीरे-धीरे दक्षिण से उत्तर की ओर आगे बढ़ता है।" },
+        "2": { "en": "The Thar Desert region receives the monsoon among the last and in very limited amounts, being far from the coast and in the rain-shadow of the monsoon's main branches.", "hi": "थार मरुस्थल क्षेत्र में मानसून सबसे अंत में और बहुत सीमित मात्रा में पहुंचता है, क्योंकि यह तट से दूर तथा मानसून की मुख्य शाखाओं की वृष्टि-छाया में स्थित है।" },
+        "3": { "en": "West Bengal receives the monsoon via the Bay of Bengal branch, generally somewhat later than the Kerala coast, which is struck first by the Arabian Sea branch.", "hi": "पश्चिम बंगाल में मानसून बंगाल की खाड़ी शाखा के माध्यम से पहुंचता है, जो सामान्यतः केरल तट की तुलना में कुछ बाद में होता है, जहां अरब सागर शाखा सबसे पहले पहुंचती है।" }
+      }
+    },
+    {
+      "key": "jnvst9-2026-soc-06",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Tropical Evergreen forests in India, found in areas receiving over 200 cm of annual rainfall, are located mainly in which regions?", "hi": "भारत में 200 सेंटीमीटर से अधिक वार्षिक वर्षा प्राप्त करने वाले क्षेत्रों में पाए जाने वाले उष्णकटिबंधीय सदाबहार वन मुख्यतः किन क्षेत्रों में स्थित हैं?" },
+      "optionsJson": [
+        { "en": "The Indo-Gangetic plains", "hi": "सिंधु-गंगा के मैदान" },
+        { "en": "The Deccan plateau interior", "hi": "दक्कन पठार का आंतरिक भाग" },
+        { "en": "The Western Ghats, north-eastern states, and Andaman & Nicobar Islands", "hi": "पश्चिमी घाट, पूर्वोत्तर राज्य, और अंडमान व निकोबार द्वीप समूह" },
+        { "en": "The Thar Desert region", "hi": "थार मरुस्थल क्षेत्र" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Tropical Evergreen forests, dense and multi-layered with trees that shed leaves at different times so they never appear bare, grow in regions with over 200 cm of annual rainfall, chiefly the western slopes of the Western Ghats, hilly parts of the north-eastern states, and the Andaman & Nicobar Islands, as covered in NCERT Class 9 Geography.", "hi": "एनसीईआरटी कक्षा 9 भूगोल में बताए अनुसार, उष्णकटिबंधीय सदाबहार वन, जो घने और बहु-स्तरीय होते हैं तथा जिनके वृक्ष अलग-अलग समय पर पत्ते गिराते हैं जिससे वे कभी नंगे नहीं दिखते, 200 सेंटीमीटर से अधिक वार्षिक वर्षा वाले क्षेत्रों में उगते हैं, मुख्यतः पश्चिमी घाट की पश्चिमी ढलानों, पूर्वोत्तर राज्यों के पहाड़ी भागों, और अंडमान व निकोबार द्वीप समूह में।" },
+      "distractorAnalysis": {
+        "0": { "en": "The Indo-Gangetic plains, with moderate rainfall and extensive agricultural land use, do not receive the very high rainfall needed for tropical evergreen forest and instead support different vegetation types.", "hi": "सिंधु-गंगा के मैदानों में मध्यम वर्षा होती है और वहां व्यापक कृषि भूमि उपयोग होता है, यहां उष्णकटिबंधीय सदाबहार वन के लिए आवश्यक बहुत अधिक वर्षा नहीं होती और इसके बजाय भिन्न प्रकार की वनस्पति पाई जाती है।" },
+        "1": { "en": "The interior Deccan plateau lies in the rain-shadow of the Western Ghats and receives comparatively low rainfall, supporting drier deciduous or thorn vegetation rather than tropical evergreen forest.", "hi": "दक्कन पठार का आंतरिक भाग पश्चिमी घाट की वृष्टि-छाया में स्थित है और अपेक्षाकृत कम वर्षा प्राप्त करता है, जहां उष्णकटिबंधीय सदाबहार वन के बजाय अधिक शुष्क पर्णपाती या कंटीली वनस्पति पाई जाती है।" },
+        "3": { "en": "The Thar Desert region receives extremely low rainfall, supporting sparse desert vegetation, the opposite condition from what tropical evergreen forests require.", "hi": "थार मरुस्थल क्षेत्र में अत्यंत कम वर्षा होती है, जहां विरल मरुस्थलीय वनस्पति पाई जाती है, जो उष्णकटिबंधीय सदाबहार वनों की आवश्यकता के बिल्कुल विपरीत स्थिति है।" }
+      }
+    }
+  ]
+}

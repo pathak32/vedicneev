@@ -1,0 +1,883 @@
+{
+  "examType": "JNVST",
+  "classLevel": 9,
+  "sectionKey": "science",
+  "generatedAt": "2026-09-06T00:00:00.000Z",
+  "questions": [
+    {
+      "key": "jnvst9-2022-sci-01",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "The distance-time graph of an object is a straight line inclined to the time axis. What does this indicate about the object's motion?",
+        "hi": "किसी वस्तु का दूरी-समय ग्राफ, समय-अक्ष की ओर झुकी हुई एक सीधी रेखा है। यह वस्तु की गति के बारे में क्या दर्शाता है?"
+      },
+      "optionsJson": [
+        { "en": "The object is moving with uniform (constant) speed", "hi": "वस्तु एकसमान (स्थिर) चाल से गतिशील है" },
+        { "en": "The object is at rest", "hi": "वस्तु विरामावस्था में है" },
+        { "en": "The object is moving with non-uniform (changing) speed", "hi": "वस्तु असमान (परिवर्तनशील) चाल से गतिशील है" },
+        { "en": "The object is moving with uniformly increasing acceleration", "hi": "वस्तु एकसमान रूप से बढ़ते हुए त्वरण से गतिशील है" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "A straight-line distance-time graph means equal distances are covered in equal intervals of time, i.e., the speed is constant/uniform. A curved graph would instead indicate non-uniform motion.",
+        "hi": "सीधी रेखा वाला दूरी-समय ग्राफ दर्शाता है कि वस्तु बराबर समय अंतरालों में बराबर दूरी तय कर रही है, अर्थात इसकी चाल स्थिर (एकसमान) है। असमान गति के लिए ग्राफ वक्र (curve) होता।"
+      },
+      "distractorAnalysis": {
+        "1": { "en": "If the object were at rest, the distance-time graph would be a horizontal line parallel to the time axis (distance not changing), not an inclined straight line.", "hi": "यदि वस्तु विराम में होती, तो दूरी-समय ग्राफ समय-अक्ष के समांतर एक क्षैतिज रेखा होता (दूरी में कोई परिवर्तन नहीं), न कि झुकी हुई सीधी रेखा।" },
+        "2": { "en": "Non-uniform speed produces a curved distance-time graph, not a straight line; this option confuses a straight line with a curve.", "hi": "असमान चाल का ग्राफ वक्र (curved) होता है, सीधी रेखा नहीं — यह विकल्प सीधी रेखा को वक्र समझने की भूल करता है।" },
+        "3": { "en": "For uniformly increasing acceleration, the graph's slope would keep changing (a curve), whereas a straight line has constant slope, meaning zero acceleration.", "hi": "बढ़ते हुए त्वरण के लिए ग्राफ की ढाल (slope) समय के साथ बदलती जाती (वक्र रूप में), जबकि सीधी रेखा की ढाल स्थिर रहती है, जो शून्य त्वरण दर्शाती है।" }
+      }
+    },
+    {
+      "key": "jnvst9-2023-sci-01",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "A car's velocity changes from 20 m/s to 30 m/s in 5 seconds. What is its acceleration?",
+        "hi": "एक कार का वेग 5 सेकंड में 20 मीटर/सेकंड से 30 मीटर/सेकंड हो जाता है। इसका त्वरण कितना है?"
+      },
+      "optionsJson": [
+        { "en": "10 m/s²", "hi": "10 मीटर/सेकंड²" },
+        { "en": "2 m/s²", "hi": "2 मीटर/सेकंड²" },
+        { "en": "0.5 m/s²", "hi": "0.5 मीटर/सेकंड²" },
+        { "en": "50 m/s²", "hi": "50 मीटर/सेकंड²" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Acceleration a = (v − u)/t = (30 − 20)/5 = 2 m/s². The change in velocity (10 m/s) must be divided by the time taken (5 s), not treated as the final answer.",
+        "hi": "त्वरण a = (v − u)/t = (30 − 20)/5 = 2 मीटर/सेकंड²। वेग में परिवर्तन (10 मीटर/सेकंड) को समय अंतराल (5 सेकंड) से भाग देना आवश्यक है, न कि इसे ही अंतिम उत्तर मान लेना।"
+      },
+      "distractorAnalysis": {
+        "0": { "en": "This is simply the change in velocity (v − u = 10 m/s); dividing by the time interval (5 s) was skipped.", "hi": "यह केवल वेग में परिवर्तन (v − u = 10 मीटर/सेकंड) है; इसे समय अंतराल (5 सेकंड) से भाग नहीं दिया गया।" },
+        "2": { "en": "This results from inverting the formula — dividing time by the velocity change (5/10) instead of dividing the velocity change by time.", "hi": "यह सूत्र को उल्टा करने से प्राप्त होता है — वेग परिवर्तन को समय से भाग देने के बजाय समय को वेग परिवर्तन से भाग दिया गया (5/10)।" },
+        "3": { "en": "This comes from multiplying the velocity change by the time (10 × 5) instead of dividing, giving a value far too large.", "hi": "यह वेग परिवर्तन को समय से भाग देने के बजाय गुणा करने (10 × 5) से प्राप्त होता है, जिससे मान बहुत अधिक बड़ा हो जाता है।" }
+      }
+    },
+    {
+      "key": "jnvst9-2024-sci-01",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "A body starts from rest and attains a velocity of 18 m/s after travelling a distance of 81 m in a straight line. Using v² = u² + 2as, find its acceleration.",
+        "hi": "एक वस्तु विराम अवस्था से चलना शुरू करती है और एक सीधी रेखा में 81 मीटर की दूरी तय करने के बाद 18 मीटर/सेकंड का वेग प्राप्त करती है। v² = u² + 2as का उपयोग करके इसका त्वरण ज्ञात करें।"
+      },
+      "optionsJson": [
+        { "en": "4 m/s²", "hi": "4 मीटर/सेकंड²" },
+        { "en": "1 m/s²", "hi": "1 मीटर/सेकंड²" },
+        { "en": "2 m/s²", "hi": "2 मीटर/सेकंड²" },
+        { "en": "0.5 m/s²", "hi": "0.5 मीटर/सेकंड²" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Since u = 0, v = 18 m/s, s = 81 m: a = (v² − u²)/(2s) = (324 − 0)/(2 × 81) = 324/162 = 2 m/s².",
+        "hi": "चूँकि u = 0, v = 18 मीटर/सेकंड, s = 81 मीटर: a = (v² − u²)/(2s) = (324 − 0)/(2 × 81) = 324/162 = 2 मीटर/सेकंड²।"
+      },
+      "distractorAnalysis": {
+        "0": { "en": "This comes from forgetting the factor of 2 in the denominator: computing v²/s = 324/81 = 4 instead of v²/(2s).", "hi": "यह हर (denominator) में 2 के गुणक को भूलने से प्राप्त होता है: v²/(2s) के बजाय v²/s = 324/81 = 4 की गणना करना।" },
+        "1": { "en": "This comes from mistakenly doubling s again in the denominator (using 4s instead of 2s): 324/324 = 1.", "hi": "यह हर में s को फिर से गलती से दोगुना करने (2s के बजाय 4s का उपयोग) से प्राप्त होता है: 324/324 = 1।" },
+        "3": { "en": "This comes from inverting the fraction — computing 2s/v² = 162/324 = 0.5 instead of v²/(2s).", "hi": "यह भिन्न को उल्टा करने से प्राप्त होता है — v²/(2s) के बजाय 2s/v² = 162/324 = 0.5 की गणना करना।" }
+      }
+    },
+    {
+      "key": "jnvst9-2025-sci-01",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "A passenger standing in a moving bus falls backward when the bus suddenly starts moving forward from rest. Which concept best explains this?",
+        "hi": "एक बस में खड़ा यात्री पीछे की ओर गिर जाता है जब बस अचानक विराम अवस्था से आगे की ओर चलना शुरू करती है। इसे कौन-सी अवधारणा सबसे अच्छी तरह समझाती है?"
+      },
+      "optionsJson": [
+        { "en": "Newton's third law of motion", "hi": "न्यूटन का गति का तीसरा नियम" },
+        { "en": "Newton's second law of motion", "hi": "न्यूटन का गति का दूसरा नियम" },
+        { "en": "Conservation of momentum in a colliding system", "hi": "टकराने वाले निकाय में संवेग संरक्षण" },
+        { "en": "Newton's first law of motion (inertia of rest)", "hi": "न्यूटन का गति का पहला नियम (विराम का जड़त्व)" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "The passenger's body was at rest and, by inertia, tends to remain at rest even as the bus floor moves forward beneath them. Relative to the bus, the passenger therefore appears to fall backward — this is Newton's first law (inertia of rest).",
+        "hi": "यात्री का शरीर विराम अवस्था में था और जड़त्व के कारण, बस का फर्श आगे बढ़ने पर भी विराम अवस्था में बने रहने की प्रवृत्ति रखता है। इसलिए बस के सापेक्ष यात्री पीछे की ओर गिरता हुआ प्रतीत होता है — यह न्यूटन का पहला नियम (विराम का जड़त्व) है।"
+      },
+      "distractorAnalysis": {
+        "0": { "en": "The third law describes action-reaction force pairs between two interacting bodies; it does not explain why a single body resists a change in its own state of motion.", "hi": "तीसरा नियम दो परस्पर क्रियाशील वस्तुओं के बीच क्रिया-प्रतिक्रिया बल युग्मों का वर्णन करता है; यह यह नहीं समझाता कि कोई एकल वस्तु अपनी गति की स्थिति में परिवर्तन का विरोध क्यों करती है।" },
+        "1": { "en": "The second law relates force to the rate of change of momentum (F = ma); it does not itself explain why a body opposes a change in motion — that resistance is inertia, described by the first law.", "hi": "दूसरा नियम बल को संवेग परिवर्तन की दर (F = ma) से जोड़ता है; यह स्वयं यह नहीं समझाता कि कोई वस्तु गति में परिवर्तन का विरोध क्यों करती है — यह प्रतिरोध जड़त्व है, जिसे पहला नियम बताता है।" },
+        "2": { "en": "Momentum conservation applies to an interacting system with no external force (like a collision or recoil); here an external force from the engine acts on the bus, so this is not a momentum-conservation scenario.", "hi": "संवेग संरक्षण किसी परस्पर क्रियाशील निकाय पर लागू होता है जिस पर कोई बाह्य बल न लगे (जैसे टक्कर या प्रतिक्षेप); यहाँ इंजन का एक बाह्य बल बस पर कार्य करता है, इसलिए यह संवेग-संरक्षण की स्थिति नहीं है।" }
+      }
+    },
+    {
+      "key": "jnvst9-2026-sci-01",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "What force is required to give a mass of 2 kg an acceleration of 3 m/s²?",
+        "hi": "2 किलोग्राम द्रव्यमान को 3 मीटर/सेकंड² का त्वरण देने के लिए कितने बल की आवश्यकता होगी?"
+      },
+      "optionsJson": [
+        { "en": "6 N", "hi": "6 न्यूटन" },
+        { "en": "1.5 N", "hi": "1.5 न्यूटन" },
+        { "en": "5 N", "hi": "5 न्यूटन" },
+        { "en": "0.6 N", "hi": "0.6 न्यूटन" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "By Newton's second law, F = ma = 2 kg × 3 m/s² = 6 N.",
+        "hi": "न्यूटन के दूसरे नियम के अनुसार, F = ma = 2 किलोग्राम × 3 मीटर/सेकंड² = 6 न्यूटन।"
+      },
+      "distractorAnalysis": {
+        "1": { "en": "This comes from dividing mass by acceleration (2/3 ≈ 1.5) instead of multiplying them.", "hi": "यह द्रव्यमान को त्वरण से भाग देने (2/3 ≈ 1.5) से प्राप्त होता है, गुणा करने के बजाय।" },
+        "2": { "en": "This comes from adding mass and acceleration (2 + 3 = 5) instead of multiplying them, confusing an additive relationship with F = ma's multiplicative one.", "hi": "यह द्रव्यमान और त्वरण को जोड़ने (2 + 3 = 5) से प्राप्त होता है, गुणा करने के बजाय — यह F = ma के गुणात्मक संबंध को योगात्मक संबंध समझने की भूल है।" },
+        "3": { "en": "This comes from a decimal placement slip, as if dividing the correct product by 10 (6/10 = 0.6) rather than reporting ma directly.", "hi": "यह सही गुणनफल को गलती से 10 से भाग देने (6/10 = 0.6) जैसी दशमलव-स्थान की त्रुटि से प्राप्त होता है, न कि ma को सीधे बताने से।" }
+      }
+    },
+    {
+      "key": "jnvst9-2022-sci-02",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "A bullet of mass 0.02 kg is fired from a gun of mass 4 kg with a velocity of 400 m/s. If the gun was initially at rest, what is the recoil velocity (magnitude) of the gun immediately after firing?",
+        "hi": "4 किलोग्राम द्रव्यमान की एक बंदूक से 0.02 किलोग्राम द्रव्यमान की गोली 400 मीटर/सेकंड के वेग से दागी जाती है। यदि बंदूक प्रारंभ में विराम अवस्था में थी, तो फायर करने के तुरंत बाद बंदूक का प्रतिक्षेप वेग (परिमाण) कितना होगा?"
+      },
+      "optionsJson": [
+        { "en": "8 m/s", "hi": "8 मीटर/सेकंड" },
+        { "en": "2 m/s", "hi": "2 मीटर/सेकंड" },
+        { "en": "4 m/s", "hi": "4 मीटर/सेकंड" },
+        { "en": "200 m/s", "hi": "200 मीटर/सेकंड" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "By conservation of momentum, total momentum before firing (zero) equals total momentum after: (mass of gun × recoil velocity) + (mass of bullet × bullet velocity) = 0. So recoil velocity = (0.02 × 400)/4 = 8/4 = 2 m/s, directed opposite to the bullet.",
+        "hi": "संवेग संरक्षण के अनुसार, फायर करने से पहले कुल संवेग (शून्य) फायर करने के बाद के कुल संवेग के बराबर होता है: (बंदूक का द्रव्यमान × प्रतिक्षेप वेग) + (गोली का द्रव्यमान × गोली का वेग) = 0। अतः प्रतिक्षेप वेग = (0.02 × 400)/4 = 8/4 = 2 मीटर/सेकंड, गोली की दिशा के विपरीत।"
+      },
+      "distractorAnalysis": {
+        "0": { "en": "This is the bullet's momentum value (0.02 × 400 = 8) reported directly, without dividing by the gun's mass to get the recoil velocity.", "hi": "यह गोली के संवेग का मान (0.02 × 400 = 8) सीधे बता दिया गया है, बिना प्रतिक्षेप वेग प्राप्त करने के लिए बंदूक के द्रव्यमान से भाग दिए।" },
+        "2": { "en": "This comes from rounding the total mass of bullet and gun (≈ 4 kg) and mistakenly halving the bullet's momentum value (8/2 = 4) instead of dividing by the gun's actual mass.", "hi": "यह गोली और बंदूक के कुल द्रव्यमान (≈ 4 किलोग्राम) को पूर्णांकित करने और गोली के संवेग मान को गलती से आधा करने (8/2 = 4) से प्राप्त होता है, बंदूक के वास्तविक द्रव्यमान से भाग देने के बजाय।" },
+        "3": { "en": "This comes from simply halving the bullet's velocity (400/2 = 200), ignoring the masses of the bullet and gun entirely.", "hi": "यह गोली के वेग को केवल आधा करने (400/2 = 200) से प्राप्त होता है, गोली और बंदूक के द्रव्यमानों को पूरी तरह नज़रअंदाज़ करते हुए।" }
+      }
+    },
+    {
+      "key": "jnvst9-2023-sci-02",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "If the distance between two objects is doubled while their masses remain unchanged, how does the gravitational force of attraction between them change?",
+        "hi": "यदि दो वस्तुओं के बीच की दूरी दोगुनी कर दी जाए जबकि उनके द्रव्यमान अपरिवर्तित रहें, तो उनके बीच का गुरुत्वाकर्षण बल कैसे बदलेगा?"
+      },
+      "optionsJson": [
+        { "en": "It becomes half", "hi": "यह आधा हो जाएगा" },
+        { "en": "It doubles", "hi": "यह दोगुना हो जाएगा" },
+        { "en": "It becomes one-fourth", "hi": "यह एक-चौथाई हो जाएगा" },
+        { "en": "It remains the same", "hi": "यह अपरिवर्तित रहेगा" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "By the universal law of gravitation, F = Gm₁m₂/r², so force is inversely proportional to the square of the distance. If r becomes 2r, the new force = Gm₁m₂/(2r)² = F/4, i.e., one-fourth of the original.",
+        "hi": "गुरुत्वाकर्षण के सार्वत्रिक नियम के अनुसार, F = Gm₁m₂/r², अतः बल दूरी के वर्ग के व्युत्क्रमानुपाती होता है। यदि r, 2r हो जाए, तो नया बल = Gm₁m₂/(2r)² = F/4, अर्थात मूल बल का एक-चौथाई।"
+      },
+      "distractorAnalysis": {
+        "0": { "en": "This assumes force is inversely proportional to distance directly (F ∝ 1/r), not to the square of the distance (F ∝ 1/r²), missing the squaring in the actual law.", "hi": "यह मानता है कि बल दूरी के सीधे व्युत्क्रमानुपाती है (F ∝ 1/r), न कि दूरी के वर्ग के व्युत्क्रमानुपाती (F ∝ 1/r²) — वास्तविक नियम में वर्ग की उपेक्षा करता है।" },
+        "1": { "en": "This assumes force increases directly with distance, which is the opposite of the actual inverse-square relationship between force and distance.", "hi": "यह मानता है कि बल दूरी के साथ सीधे बढ़ता है, जो बल और दूरी के बीच वास्तविक व्युत्क्रम-वर्ग संबंध के विपरीत है।" },
+        "3": { "en": "This assumes gravitational force does not depend on distance at all, ignoring the r² term in the denominator of the universal law of gravitation.", "hi": "यह मानता है कि गुरुत्वाकर्षण बल दूरी पर बिल्कुल निर्भर नहीं करता, गुरुत्वाकर्षण के सार्वत्रिक नियम के हर में मौजूद r² पद की उपेक्षा करते हुए।" }
+      }
+    },
+    {
+      "key": "jnvst9-2024-sci-02",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "The acceleration due to gravity on the Moon is about one-sixth that on Earth. If a body weighs 60 N on Earth, what will it weigh on the Moon?",
+        "hi": "चंद्रमा पर गुरुत्वीय त्वरण, पृथ्वी की तुलना में लगभग एक-छठा है। यदि किसी वस्तु का भार पृथ्वी पर 60 न्यूटन है, तो चंद्रमा पर इसका भार कितना होगा?"
+      },
+      "optionsJson": [
+        { "en": "60 N", "hi": "60 न्यूटन" },
+        { "en": "6 N", "hi": "6 न्यूटन" },
+        { "en": "360 N", "hi": "360 न्यूटन" },
+        { "en": "10 N", "hi": "10 न्यूटन" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Weight = mass × g. Since g on the Moon is about 1/6th of g on Earth, weight on the Moon = 60/6 = 10 N. The body's mass stays the same; only its weight changes because g is smaller.",
+        "hi": "भार = द्रव्यमान × g। चूँकि चंद्रमा पर g, पृथ्वी के g का लगभग 1/6 है, चंद्रमा पर भार = 60/6 = 10 न्यूटन। वस्तु का द्रव्यमान वही रहता है; केवल उसका भार बदलता है क्योंकि g छोटा है।"
+      },
+      "distractorAnalysis": {
+        "0": { "en": "This assumes weight stays the same everywhere, confusing weight (a force that depends on g) with mass (which is constant regardless of location).", "hi": "यह मानता है कि भार हर जगह समान रहता है, भार (एक बल जो g पर निर्भर करता है) को द्रव्यमान (जो स्थान की परवाह किए बिना स्थिर रहता है) के साथ भ्रमित करते हुए।" },
+        "1": { "en": "This comes from dividing by 10 instead of 6, a memory slip on the actual one-sixth factor relating Moon's and Earth's gravity.", "hi": "यह 6 के बजाय 10 से भाग देने से प्राप्त होता है, चंद्रमा और पृथ्वी के गुरुत्व से संबंधित वास्तविक एक-छठे गुणक को याद रखने में चूक।" },
+        "2": { "en": "This comes from multiplying by 6 instead of dividing, incorrectly reversing the relationship between Earth's and Moon's gravity.", "hi": "यह भाग देने के बजाय 6 से गुणा करने से प्राप्त होता है, पृथ्वी और चंद्रमा के गुरुत्व के बीच संबंध को गलत तरीके से उल्टा करते हुए।" }
+      }
+    },
+    {
+      "key": "jnvst9-2025-sci-02",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "A boy holds a bag vertically upward (against gravity) while walking a certain distance on level ground at constant speed. How much work is done by this vertical holding force on the bag during the horizontal walk?",
+        "hi": "एक लड़का समतल भूमि पर स्थिर चाल से एक निश्चित दूरी चलते समय एक बैग को ऊर्ध्वाधर दिशा में (गुरुत्व के विरुद्ध) पकड़े रहता है। इस क्षैतिज चलने के दौरान इस ऊर्ध्वाधर पकड़ बल द्वारा बैग पर कितना कार्य किया जाता है?"
+      },
+      "optionsJson": [
+        { "en": "Zero, because the displacement is horizontal while the force is vertical", "hi": "शून्य, क्योंकि विस्थापन क्षैतिज है जबकि बल ऊर्ध्वाधर है" },
+        { "en": "Positive work equal to force multiplied by the distance walked", "hi": "बल और चली गई दूरी के गुणनफल के बराबर धनात्मक कार्य" },
+        { "en": "Negative work, because gravity acts downward", "hi": "ऋणात्मक कार्य, क्योंकि गुरुत्व नीचे की ओर कार्य करता है" },
+        { "en": "Work depends only on the time taken, not on force or displacement", "hi": "कार्य केवल लगे समय पर निर्भर करता है, बल या विस्थापन पर नहीं" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Work is defined as W = F × d × cosθ. Here the holding force is vertical (upward) while the displacement is horizontal, so the angle between them is 90°, and cos90° = 0. Hence the vertical force does zero work during horizontal displacement.",
+        "hi": "कार्य को W = F × d × cosθ के रूप में परिभाषित किया जाता है। यहाँ पकड़ बल ऊर्ध्वाधर (ऊपर की ओर) है जबकि विस्थापन क्षैतिज है, इसलिए उनके बीच का कोण 90° है, और cos90° = 0। अतः क्षैतिज विस्थापन के दौरान ऊर्ध्वाधर बल शून्य कार्य करता है।"
+      },
+      "distractorAnalysis": {
+        "1": { "en": "This wrongly multiplies force and horizontal distance without accounting for the 90° angle between the vertical force and horizontal displacement, which makes the work zero, not positive.", "hi": "यह ऊर्ध्वाधर बल और क्षैतिज विस्थापन के बीच 90° के कोण को ध्यान में रखे बिना बल और क्षैतिज दूरी को गलत तरीके से गुणा करता है, जो कार्य को शून्य बनाता है, धनात्मक नहीं।" },
+        "2": { "en": "This confuses the sign convention by focusing on gravity's downward direction rather than the actual angle between the applied holding force and the displacement, which gives zero work, not negative work.", "hi": "यह गुरुत्व की नीचे की दिशा पर ध्यान केंद्रित करके चिह्न परिपाटी को भ्रमित करता है, जबकि वास्तविक कारण लागू पकड़ बल और विस्थापन के बीच का कोण है, जो शून्य कार्य देता है, ऋणात्मक कार्य नहीं।" },
+        "3": { "en": "The basic definition of work, W = F · d · cosθ, does not include time at all; this option confuses work with the separate concept of power, which does involve time.", "hi": "कार्य की मूल परिभाषा, W = F · d · cosθ, में समय शामिल नहीं है; यह विकल्प कार्य को शक्ति (power) की अलग अवधारणा के साथ भ्रमित करता है, जिसमें समय शामिल होता है।" }
+      }
+    },
+    {
+      "key": "jnvst9-2026-sci-02",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "What is the kinetic energy of an object of mass 4 kg moving with a speed of 5 m/s?",
+        "hi": "5 मीटर/सेकंड की चाल से गतिशील 4 किलोग्राम द्रव्यमान की वस्तु की गतिज ऊर्जा कितनी है?"
+      },
+      "optionsJson": [
+        { "en": "100 J", "hi": "100 जूल" },
+        { "en": "50 J", "hi": "50 जूल" },
+        { "en": "20 J", "hi": "20 जूल" },
+        { "en": "10 J", "hi": "10 जूल" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Kinetic energy KE = ½ mv² = ½ × 4 × 5² = ½ × 4 × 25 = 50 J.",
+        "hi": "गतिज ऊर्जा KE = ½ mv² = ½ × 4 × 5² = ½ × 4 × 25 = 50 जूल।"
+      },
+      "distractorAnalysis": {
+        "0": { "en": "This comes from forgetting the factor of ½ in the formula: 4 × 25 = 100, without halving it.", "hi": "यह सूत्र में ½ के गुणक को भूलने से प्राप्त होता है: 4 × 25 = 100, इसे आधा किए बिना।" },
+        "2": { "en": "This comes from using mv (momentum-style calculation, 4 × 5 = 20) instead of the correct ½ mv² formula for kinetic energy.", "hi": "यह गतिज ऊर्जा के लिए सही ½ mv² सूत्र के बजाय mv (संवेग-शैली की गणना, 4 × 5 = 20) का उपयोग करने से प्राप्त होता है।" },
+        "3": { "en": "This comes from computing mv/2 (4 × 5 / 2 = 10) instead of ½ mv², mistakenly using v instead of v² in the formula.", "hi": "यह ½ mv² के बजाय mv/2 (4 × 5 / 2 = 10) की गणना करने से प्राप्त होता है, सूत्र में v² के बजाय गलती से v का उपयोग करते हुए।" }
+      }
+    },
+    {
+      "key": "jnvst9-2022-sci-03",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Why can we not hear any sound from an explosion happening in outer space (a vacuum), even though it would be extremely loud?",
+        "hi": "बाह्य अंतरिक्ष (एक निर्वात) में होने वाले किसी विस्फोट की ध्वनि हम क्यों नहीं सुन सकते, भले ही वह अत्यंत तेज़ हो?"
+      },
+      "optionsJson": [
+        { "en": "Because sound waves travel too fast to be detected", "hi": "क्योंकि ध्वनि तरंगें पकड़े जाने के लिए बहुत तेज़ गति से चलती हैं" },
+        { "en": "Because sound waves are absorbed completely by darkness", "hi": "क्योंकि ध्वनि तरंगें अंधकार द्वारा पूरी तरह अवशोषित हो जाती हैं" },
+        { "en": "Because sound needs a material medium to travel, and a vacuum has no particles to carry the vibrations", "hi": "क्योंकि ध्वनि को चलने के लिए एक भौतिक माध्यम की आवश्यकता होती है, और निर्वात में कंपन ले जाने के लिए कोई कण नहीं होते" },
+        { "en": "Because the human ear cannot function at all without atmospheric pressure", "hi": "क्योंकि मानव कान वायुमंडलीय दाब के बिना बिल्कुल भी काम नहीं कर सकता" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Sound is a mechanical wave that travels by the vibration of particles of a medium (solid, liquid, or gas). A vacuum has no particles at all, so there is nothing to vibrate and carry the sound wave, and hence no sound can travel through it.",
+        "hi": "ध्वनि एक यांत्रिक तरंग है जो किसी माध्यम (ठोस, द्रव या गैस) के कणों के कंपन द्वारा चलती है। निर्वात में कोई कण ही नहीं होते, इसलिए कंपन करने और ध्वनि तरंग को ले जाने के लिए कुछ भी नहीं होता, अतः इसमें से कोई ध्वनि नहीं गुज़र सकती।"
+      },
+      "distractorAnalysis": {
+        "0": { "en": "The speed of sound is irrelevant here; sound travels at a finite, measurable speed in a medium regardless of loudness — the real issue is the total absence of a medium in a vacuum.", "hi": "यहाँ ध्वनि की गति अप्रासंगिक है; ध्वनि किसी माध्यम में तीव्रता की परवाह किए बिना एक निश्चित, मापने योग्य गति से चलती है — असली कारण निर्वात में माध्यम का पूर्ण अभाव है।" },
+        "1": { "en": "Darkness is a visual/light-related concept and has no connection to sound propagation, which depends on a material medium, not on light or darkness.", "hi": "अंधकार एक दृश्य/प्रकाश-संबंधी अवधारणा है और ध्वनि के प्रसार से इसका कोई संबंध नहीं है, जो एक भौतिक माध्यम पर निर्भर करता है, न कि प्रकाश या अंधकार पर।" },
+        "3": { "en": "While the ear's own mechanism does depend on air pressure changes reaching the eardrum, the fundamental physical reason no sound is heard here is the complete absence of a medium to carry the sound wave itself.", "hi": "यद्यपि कान की अपनी क्रियाविधि कर्णपटह तक पहुँचने वाले वायुदाब परिवर्तनों पर निर्भर करती है, यहाँ कोई ध्वनि न सुनाई देने का मौलिक भौतिक कारण ध्वनि तरंग को ले जाने के लिए माध्यम का पूर्ण अभाव है।" }
+      }
+    },
+    {
+      "key": "jnvst9-2023-sci-03",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "In which of the following media does sound travel the fastest, under similar conditions?",
+        "hi": "समान परिस्थितियों में, निम्नलिखित में से किस माध्यम में ध्वनि सबसे तेज़ चलती है?"
+      },
+      "optionsJson": [
+        { "en": "In air (a gas)", "hi": "वायु (एक गैस) में" },
+        { "en": "In a vacuum", "hi": "निर्वात में" },
+        { "en": "In water (a liquid)", "hi": "जल (एक द्रव) में" },
+        { "en": "In steel (a solid)", "hi": "इस्पात (एक ठोस) में" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Sound travels fastest through solids because their particles are packed closely together with strong elastic forces between them, transmitting vibrations more quickly than in liquids or gases. The general speed order is solid > liquid > gas.",
+        "hi": "ध्वनि ठोसों में सबसे तेज़ चलती है क्योंकि उनके कण एक-दूसरे के निकट पैक होते हैं और उनके बीच प्रबल प्रत्यास्थ बल होते हैं, जो द्रव या गैस की तुलना में कंपन को अधिक तेज़ी से स्थानांतरित करते हैं। सामान्य गति क्रम है: ठोस > द्रव > गैस।"
+      },
+      "distractorAnalysis": {
+        "0": { "en": "Gas particles are widely spaced with weak forces between them, so sound travels slowest in air compared to liquids and solids.", "hi": "गैस के कण व्यापक रूप से दूर-दूर होते हैं और उनके बीच कमज़ोर बल होते हैं, इसलिए द्रव और ठोस की तुलना में वायु में ध्वनि सबसे धीमी चलती है।" },
+        "1": { "en": "Sound cannot travel through a vacuum at all, since there are no particles present to vibrate and transmit the wave.", "hi": "ध्वनि निर्वात में बिल्कुल भी नहीं चल सकती, क्योंकि तरंग को कंपित करने और प्रसारित करने के लिए कोई कण मौजूद नहीं होते।" },
+        "2": { "en": "Liquids transmit sound faster than gases but slower than solids, since liquid particles are less tightly packed and less elastic than those in a solid like steel.", "hi": "द्रव गैसों की तुलना में ध्वनि को तेज़ी से प्रसारित करते हैं परंतु ठोस की तुलना में धीमे, क्योंकि द्रव के कण इस्पात जैसे ठोस की तुलना में कम कसकर पैक और कम प्रत्यास्थ होते हैं।" }
+      }
+    },
+    {
+      "key": "jnvst9-2024-sci-03",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "A person feels cold when their wet hands are exposed to air blowing from a fan. What is the main reason for this cooling sensation?",
+        "hi": "जब किसी व्यक्ति के गीले हाथ पंखे से चलने वाली हवा के संपर्क में आते हैं, तो उसे ठंडक महसूस होती है। इस ठंडक की मुख्य वजह क्या है?"
+      },
+      "optionsJson": [
+        { "en": "Evaporation of water from the hands absorbs heat from the body, producing a cooling effect", "hi": "हाथों से जल का वाष्पीकरण शरीर से ऊष्मा अवशोषित करता है, जिससे ठंडक का प्रभाव उत्पन्न होता है" },
+        { "en": "Moving air itself is always colder in temperature than still air", "hi": "गतिमान वायु स्वयं तापमान में स्थिर वायु की तुलना में हमेशा ठंडी होती है" },
+        { "en": "The fan chemically reacts with the water on the hands to release cold", "hi": "पंखा हाथों पर मौजूद जल के साथ रासायनिक रूप से अभिक्रिया करके ठंडक उत्पन्न करता है" },
+        { "en": "The water freezes instantly on the skin due to the airflow", "hi": "वायु प्रवाह के कारण त्वचा पर जल तुरंत जम (freeze) जाता है" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Evaporation is a cooling process: liquid water molecules absorb energy (latent heat) from the skin in order to change into vapour, which lowers the skin's temperature. Moving air from a fan speeds up evaporation by carrying away vapour molecules from the surface, enhancing the cooling effect.",
+        "hi": "वाष्पीकरण एक शीतलन प्रक्रिया है: द्रव जल के अणु वाष्प में बदलने के लिए त्वचा से ऊर्जा (गुप्त ऊष्मा) अवशोषित करते हैं, जिससे त्वचा का तापमान कम हो जाता है। पंखे से चलने वाली हवा सतह से वाष्प के अणुओं को दूर ले जाकर वाष्पीकरण को तेज़ करती है, जिससे शीतलन प्रभाव और बढ़ जाता है।"
+      },
+      "distractorAnalysis": {
+        "1": { "en": "The fan does not change the air's own temperature; the cooling sensation comes from evaporation of water from the skin, not from the air being inherently colder.", "hi": "पंखा वायु के अपने तापमान को नहीं बदलता; ठंडक का एहसास त्वचा से जल के वाष्पीकरण से होता है, न कि वायु के स्वाभाविक रूप से ठंडी होने से।" },
+        "2": { "en": "There is no chemical reaction occurring between moving air and water; this is a purely physical change (evaporation), not a chemical one.", "hi": "गतिमान वायु और जल के बीच कोई रासायनिक अभिक्रिया नहीं होती; यह पूरी तरह से एक भौतिक परिवर्तन (वाष्पीकरण) है, रासायनिक नहीं।" },
+        "3": { "en": "Water does not freeze at room temperature simply due to airflow; instead it evaporates, and it is this evaporation — not freezing — that causes the cooling sensation.", "hi": "कमरे के तापमान पर केवल वायु प्रवाह के कारण जल नहीं जमता; इसके बजाय यह वाष्पित होता है, और यह वाष्पीकरण ही — न कि जमना — ठंडक का एहसास कराता है।" }
+      }
+    },
+    {
+      "key": "jnvst9-2025-sci-03",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "While a solid substance is melting at its melting point, the temperature of the substance remains constant even though heat is continuously being supplied to it. Why?",
+        "hi": "जब कोई ठोस पदार्थ अपने गलनांक पर पिघल रहा होता है, तो पदार्थ का तापमान स्थिर बना रहता है, भले ही उसे लगातार ऊष्मा दी जा रही हो। ऐसा क्यों होता है?"
+      },
+      "optionsJson": [
+        { "en": "Because the substance stops absorbing any heat once melting begins", "hi": "क्योंकि पिघलना शुरू होते ही पदार्थ ऊष्मा अवशोषित करना बंद कर देता है" },
+        { "en": "Because the supplied heat is used as latent heat to overcome the forces of attraction between particles, not to raise the temperature", "hi": "क्योंकि दी गई ऊष्मा का उपयोग कणों के बीच आकर्षण बलों पर काबू पाने के लिए गुप्त ऊष्मा के रूप में किया जाता है, तापमान बढ़ाने के लिए नहीं" },
+        { "en": "Because melting is an exothermic process that releases heat, cancelling out the supplied heat", "hi": "क्योंकि पिघलना एक ऊष्माक्षेपी (exothermic) प्रक्रिया है जो ऊष्मा मुक्त करती है, जो दी गई ऊष्मा को निरस्त कर देती है" },
+        { "en": "Because the thermometer used cannot measure temperature during a change of state", "hi": "क्योंकि उपयोग किया गया थर्मामीटर अवस्था परिवर्तन के दौरान तापमान नहीं माप सकता" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "At the melting point, the heat supplied (called the latent heat of fusion) is used entirely to weaken and overcome the intermolecular forces holding particles in the rigid solid arrangement, converting solid to liquid at that constant temperature. The temperature begins rising again only after melting is complete.",
+        "hi": "गलनांक पर, दी गई ऊष्मा (जिसे संगलन की गुप्त ऊष्मा कहते हैं) पूरी तरह से उन अंतर-आणविक बलों को कमज़ोर करने और उन पर काबू पाने में उपयोग होती है जो कणों को कठोर ठोस संरचना में बांधे रखते हैं, जिससे ठोस उस स्थिर तापमान पर द्रव में बदल जाता है। पिघलना पूरा होने के बाद ही तापमान फिर से बढ़ना शुरू होता है।"
+      },
+      "distractorAnalysis": {
+        "0": { "en": "Heat absorption actually continues throughout the melting process — it is simply used to change the state rather than to raise the temperature, not stopped altogether.", "hi": "वास्तव में पिघलने की पूरी प्रक्रिया के दौरान ऊष्मा अवशोषण जारी रहता है — इसका उपयोग केवल अवस्था बदलने में होता है, तापमान बढ़ाने के बजाय, यह पूरी तरह बंद नहीं होता।" },
+        "2": { "en": "Melting is actually an endothermic process (it absorbs heat), not an exothermic one; this option reverses the correct direction of heat flow.", "hi": "पिघलना वास्तव में एक ऊष्माशोषी (endothermic) प्रक्रिया है (यह ऊष्मा अवशोषित करती है), ऊष्माक्षेपी नहीं; यह विकल्प ऊष्मा प्रवाह की सही दिशा को उल्टा कर देता है।" },
+        "3": { "en": "Thermometers function correctly during a change of state; the constant reading observed is a genuine physical property caused by latent heat, not an instrument limitation.", "hi": "अवस्था परिवर्तन के दौरान थर्मामीटर सही ढंग से कार्य करते हैं; देखा गया स्थिर पाठ्यांक गुप्त ऊष्मा के कारण होने वाला एक वास्तविक भौतिक गुण है, न कि यंत्र की कोई सीमा।" }
+      }
+    },
+    {
+      "key": "jnvst9-2026-sci-03",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Diffusion (the natural intermixing of particles of two substances on their own) occurs the fastest in which state of matter?",
+        "hi": "विसरण (दो पदार्थों के कणों का अपने आप स्वाभाविक रूप से आपस में मिलना) पदार्थ की किस अवस्था में सबसे तेज़ होता है?"
+      },
+      "optionsJson": [
+        { "en": "Solids", "hi": "ठोस" },
+        { "en": "Liquids", "hi": "द्रव" },
+        { "en": "Gases", "hi": "गैस" },
+        { "en": "All three states diffuse at exactly the same rate", "hi": "तीनों अवस्थाएँ बिल्कुल समान दर से विसरित होती हैं" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Gas particles have the greatest spacing between them, the highest kinetic energy, and the weakest forces of attraction, so they diffuse the fastest. Liquids diffuse more slowly than gases, and solids show negligible diffusion under ordinary conditions.",
+        "hi": "गैस के कणों के बीच सबसे अधिक दूरी, सबसे अधिक गतिज ऊर्जा, और सबसे कमज़ोर आकर्षण बल होते हैं, इसलिए वे सबसे तेज़ विसरित होते हैं। द्रव, गैस की तुलना में धीमे विसरित होते हैं, और सामान्य परिस्थितियों में ठोसों में विसरण नगण्य होता है।"
+      },
+      "distractorAnalysis": {
+        "0": { "en": "Solid particles are tightly packed with strong attractive forces and fixed positions, so diffusion in solids is extremely slow or negligible under ordinary conditions.", "hi": "ठोस के कण मज़बूत आकर्षण बलों और स्थिर स्थितियों के साथ कसकर पैक होते हैं, इसलिए सामान्य परिस्थितियों में ठोसों में विसरण अत्यंत धीमा या नगण्य होता है।" },
+        "1": { "en": "Liquids diffuse faster than solids but much more slowly than gases, due to closer particle spacing and stronger attractive forces compared to gases.", "hi": "द्रव, ठोस की तुलना में तेज़ लेकिन गैस की तुलना में बहुत धीमे विसरित होते हैं, क्योंकि गैस की तुलना में उनके कणों के बीच दूरी कम और आकर्षण बल अधिक होते हैं।" },
+        "3": { "en": "The three states have very different particle spacing, kinetic energy, and intermolecular forces, so their diffusion rates are distinctly different, not equal.", "hi": "तीनों अवस्थाओं में कणों की दूरी, गतिज ऊर्जा, और अंतर-आणविक बल बहुत भिन्न होते हैं, इसलिए उनकी विसरण दरें स्पष्ट रूप से भिन्न होती हैं, समान नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-2022-sci-04",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "A pressure cooker cooks food faster than an open pan mainly because the increased pressure inside it:",
+        "hi": "एक प्रेशर कुकर खुले बर्तन की तुलना में भोजन को तेज़ी से पकाता है, मुख्यतः इसलिए क्योंकि इसके अंदर बढ़ा हुआ दाब:"
+      },
+      "optionsJson": [
+        { "en": "Lowers the boiling point of water, so water boils at a lower temperature", "hi": "जल के क्वथनांक को कम कर देता है, जिससे जल कम तापमान पर उबलता है" },
+        { "en": "Removes the need for latent heat during boiling", "hi": "उबलने के दौरान गुप्त ऊष्मा की आवश्यकता को समाप्त कर देता है" },
+        { "en": "Converts the water directly into ice, which cooks food faster", "hi": "जल को सीधे बर्फ में बदल देता है, जो भोजन को तेज़ी से पकाता है" },
+        { "en": "Raises the boiling point of water above 100°C, so food cooks at a higher temperature", "hi": "जल के क्वथनांक को 100°C से ऊपर बढ़ा देता है, जिससे भोजन अधिक तापमान पर पकता है" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Increasing the pressure on a liquid raises its boiling point. Inside a sealed pressure cooker, water boils at a temperature well above 100°C, and cooking food at this higher temperature speeds up the cooking process considerably.",
+        "hi": "किसी द्रव पर दाब बढ़ाने से उसका क्वथनांक बढ़ जाता है। एक बंद प्रेशर कुकर के अंदर, जल 100°C से काफी ऊपर के तापमान पर उबलता है, और इस अधिक तापमान पर भोजन पकाने से पकाने की प्रक्रिया काफी तेज़ हो जाती है।"
+      },
+      "distractorAnalysis": {
+        "0": { "en": "This reverses the actual relationship — increased pressure raises the boiling point, it does not lower it.", "hi": "यह वास्तविक संबंध को उल्टा कर देता है — बढ़ा हुआ दाब क्वथनांक को बढ़ाता है, इसे कम नहीं करता।" },
+        "1": { "en": "Latent heat is still required for the liquid-to-vapour change regardless of pressure; increased pressure changes the boiling temperature, but does not eliminate the latent heat requirement.", "hi": "दाब की परवाह किए बिना द्रव से वाष्प में परिवर्तन के लिए अब भी गुप्त ऊष्मा आवश्यक होती है; बढ़ा हुआ दाब क्वथन तापमान को बदलता है, लेकिन गुप्त ऊष्मा की आवश्यकता को समाप्त नहीं करता।" },
+        "2": { "en": "Increased pressure and heating inside a cooker do not turn water into ice; ice formation (freezing) is unrelated to the pressure cooker's higher-boiling-point cooking mechanism.", "hi": "कुकर के अंदर बढ़ा हुआ दाब और गर्मी जल को बर्फ में नहीं बदलते; बर्फ बनना (जमना) प्रेशर कुकर की उच्च-क्वथनांक पकाने की क्रियाविधि से असंबंधित है।" }
+      }
+    },
+    {
+      "key": "jnvst9-2023-sci-04",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Which of the following is a compound (and not simply an element or a mixture)?",
+        "hi": "निम्नलिखित में से कौन-सा एक यौगिक (compound) है (न कि केवल एक तत्व या मिश्रण)?"
+      },
+      "optionsJson": [
+        { "en": "Carbon dioxide (CO₂)", "hi": "कार्बन डाइऑक्साइड (CO₂)" },
+        { "en": "Air", "hi": "वायु" },
+        { "en": "Iron (Fe)", "hi": "लोहा (Fe)" },
+        { "en": "Sea water", "hi": "समुद्री जल" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "A compound is a pure substance formed of two or more elements chemically combined in a fixed ratio. Carbon dioxide is carbon and oxygen chemically bonded together in a fixed proportion, making it a true compound.",
+        "hi": "एक यौगिक एक शुद्ध पदार्थ है जो दो या दो से अधिक तत्वों के एक निश्चित अनुपात में रासायनिक रूप से संयोजित होने से बनता है। कार्बन डाइऑक्साइड, कार्बन और ऑक्सीजन का एक निश्चित अनुपात में रासायनिक रूप से बंधा हुआ मिश्रण है, जो इसे एक सच्चा यौगिक बनाता है।"
+      },
+      "distractorAnalysis": {
+        "1": { "en": "Air is a mixture of gases (nitrogen, oxygen, carbon dioxide, and others) physically mixed in variable proportions, not chemically combined — hence it is not a compound.", "hi": "वायु गैसों (नाइट्रोजन, ऑक्सीजन, कार्बन डाइऑक्साइड और अन्य) का एक मिश्रण है जो परिवर्तनशील अनुपात में भौतिक रूप से मिली हुई है, रासायनिक रूप से संयोजित नहीं — इसलिए यह यौगिक नहीं है।" },
+        "2": { "en": "Iron is an element, made up of only one kind of atom, and is not a combination of two or more different elements.", "hi": "लोहा एक तत्व है, जो केवल एक ही प्रकार के परमाणुओं से बना है, और यह दो या अधिक भिन्न तत्वों का संयोजन नहीं है।" },
+        "3": { "en": "Sea water is a mixture of water along with dissolved salts and minerals, and its components can be separated by physical methods, unlike a true chemically bonded compound.", "hi": "समुद्री जल, जल और उसमें घुले लवणों तथा खनिजों का एक मिश्रण है, और इसके घटकों को भौतिक विधियों द्वारा अलग किया जा सकता है, एक सच्चे रासायनिक रूप से बंधे यौगिक के विपरीत।" }
+      }
+    },
+    {
+      "key": "jnvst9-2024-sci-04",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which separation technique is most suitable for separating a mixture of closely-related, similarly-coloured dyes dissolved together in ink, based on their differing rates of movement through a medium?",
+        "hi": "स्याही में घुले हुए, आपस में मिलते-जुलते और समान रंग वाले रंजकों (dyes) के मिश्रण को उनकी किसी माध्यम में गति की भिन्न दरों के आधार पर अलग करने के लिए कौन-सी पृथक्करण विधि सबसे उपयुक्त है?"
+      },
+      "optionsJson": [
+        { "en": "Simple distillation", "hi": "सरल आसवन (distillation)" },
+        { "en": "Chromatography", "hi": "वर्णलेखन (chromatography)" },
+        { "en": "Sublimation", "hi": "ऊर्ध्वपातन (sublimation)" },
+        { "en": "Filtration", "hi": "निस्यंदन (filtration)" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Chromatography separates the components of a mixture (such as dye pigments) based on their differing rates of movement through a stationary medium (like paper) carried along by a solvent, making it ideal for separating closely related dissolved substances like dyes.",
+        "hi": "वर्णलेखन (chromatography) किसी मिश्रण (जैसे रंजक वर्णक) के घटकों को उनकी एक स्थिर माध्यम (जैसे कागज़) में विलायक द्वारा ले जाई जाने वाली गति की भिन्न दरों के आधार पर अलग करता है, जो रंजकों जैसे निकट से संबंधित घुले हुए पदार्थों को अलग करने के लिए आदर्श है।"
+      },
+      "distractorAnalysis": {
+        "0": { "en": "Simple distillation separates a liquid solvent from a dissolved solid, or separates miscible liquids with sufficiently different boiling points; it is not suited for separating multiple similarly-coloured dissolved dyes from each other.", "hi": "सरल आसवन किसी घुले हुए ठोस से द्रव विलायक को अलग करता है, या पर्याप्त रूप से भिन्न क्वथनांक वाले मिश्रणीय द्रवों को अलग करता है; यह आपस में समान रंग वाले कई घुले हुए रंजकों को एक-दूसरे से अलग करने के लिए उपयुक्त नहीं है।" },
+        "2": { "en": "Sublimation separates a solid that changes directly to gas (like camphor or ammonium chloride) from a non-sublimable solid mixture; the dyes in ink are dissolved substances, not a solid mixture involving sublimable components.", "hi": "ऊर्ध्वपातन किसी ऐसे ठोस को अलग करता है जो सीधे गैस में बदल जाता है (जैसे कपूर या अमोनियम क्लोराइड) एक गैर-ऊर्ध्वपातनीय ठोस मिश्रण से; स्याही में रंजक घुले हुए पदार्थ हैं, न कि ऊर्ध्वपातनीय घटकों वाला ठोस मिश्रण।" },
+        "3": { "en": "Filtration separates insoluble solid particles from a liquid; since the dyes are dissolved (soluble) in the ink, filtration cannot separate them from one another.", "hi": "निस्यंदन किसी द्रव से अघुलनशील ठोस कणों को अलग करता है; चूँकि रंजक स्याही में घुले (soluble) हुए हैं, निस्यंदन उन्हें एक-दूसरे से अलग नहीं कर सकता।" }
+      }
+    },
+    {
+      "key": "jnvst9-2025-sci-04",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "A student shines a beam of light through three unlabelled samples: a salt solution, milk, and clear river water. Only the milk sample shows a clearly visible, scattered path of light (the Tyndall effect). What does this indicate about milk?",
+        "hi": "एक छात्र तीन अचिह्नित नमूनों से प्रकाश की एक किरण गुजारता है: एक नमक का घोल, दूध, और साफ नदी का जल। केवल दूध के नमूने में प्रकाश का स्पष्ट रूप से दिखाई देने वाला, प्रकीर्णित मार्ग (टिंडल प्रभाव) दिखाई देता है। यह दूध के बारे में क्या दर्शाता है?"
+      },
+      "optionsJson": [
+        { "en": "Milk is a true solution, because light passes straight through it", "hi": "दूध एक वास्तविक (true) विलयन है, क्योंकि प्रकाश इसमें से सीधा गुज़र जाता है" },
+        { "en": "Milk is a suspension, because its particles settle down over time", "hi": "दूध एक निलंबन (suspension) है, क्योंकि इसके कण समय के साथ नीचे बैठ जाते हैं" },
+        { "en": "Milk is a colloid, since its intermediate-sized particles scatter light while remaining small enough to stay uniformly dispersed", "hi": "दूध एक कोलॉइड है, क्योंकि इसके मध्यम आकार के कण प्रकाश को प्रकीर्णित करते हैं जबकि समान रूप से बिखरे रहने के लिए पर्याप्त छोटे रहते हैं" },
+        { "en": "Milk is a pure compound with a single, fixed chemical formula", "hi": "दूध एक शुद्ध यौगिक है जिसका एक ही, निश्चित रासायनिक सूत्र है" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The Tyndall effect (visible scattering of light) occurs when particle size is intermediate — larger than the particles in a true solution (which do not scatter light noticeably) but small enough to remain uniformly dispersed without settling, unlike a suspension. This is a defining property of colloids, and milk is a classic example of a colloid.",
+        "hi": "टिंडल प्रभाव (प्रकाश का दृश्य प्रकीर्णन) तब होता है जब कणों का आकार मध्यम होता है — वास्तविक विलयन के कणों (जो प्रकाश को स्पष्ट रूप से प्रकीर्णित नहीं करते) से बड़ा, परंतु बिना नीचे बैठे समान रूप से बिखरे रहने के लिए पर्याप्त छोटा, निलंबन के विपरीत। यह कोलॉइड का एक निर्धारक गुण है, और दूध कोलॉइड का एक उत्कृष्ट उदाहरण है।"
+      },
+      "distractorAnalysis": {
+        "0": { "en": "True solutions have particles too small to scatter light noticeably (no Tyndall effect); since milk clearly scatters light, it cannot be classified as a true solution.", "hi": "वास्तविक विलयनों में कण इतने छोटे होते हैं कि वे प्रकाश को स्पष्ट रूप से प्रकीर्णित नहीं करते (कोई टिंडल प्रभाव नहीं); चूँकि दूध स्पष्ट रूप से प्रकाश को प्रकीर्णित करता है, इसे वास्तविक विलयन के रूप में वर्गीकृत नहीं किया जा सकता।" },
+        "1": { "en": "Suspensions have relatively large particles that settle down over time and do not remain uniformly dispersed; milk's particles stay dispersed without settling, unlike a suspension.", "hi": "निलंबनों में अपेक्षाकृत बड़े कण होते हैं जो समय के साथ नीचे बैठ जाते हैं और समान रूप से बिखरे नहीं रहते; दूध के कण बिना नीचे बैठे बिखरे रहते हैं, जो एक निलंबन से भिन्न है।" },
+        "3": { "en": "Milk is a heterogeneous mixture (a colloid) containing fat, protein, water, and other components, not a single pure compound with one fixed chemical formula.", "hi": "दूध वसा, प्रोटीन, जल और अन्य घटकों से युक्त एक विषमांगी मिश्रण (कोलॉइड) है, न कि एक निश्चित रासायनिक सूत्र वाला कोई एकल शुद्ध यौगिक।" }
+      }
+    },
+    {
+      "key": "jnvst9-2026-sci-04",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "20 g of common salt is dissolved completely in 180 g of water to form a solution. What is the mass by mass percentage concentration of this solution?",
+        "hi": "20 ग्राम साधारण नमक को 180 ग्राम जल में पूरी तरह घोलकर एक विलयन बनाया जाता है। इस विलयन की द्रव्यमान प्रतिशत सांद्रता (mass by mass percentage) कितनी है?"
+      },
+      "optionsJson": [
+        { "en": "11.1%", "hi": "11.1%" },
+        { "en": "90%", "hi": "90%" },
+        { "en": "2%", "hi": "2%" },
+        { "en": "10%", "hi": "10%" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Mass by mass percentage = (mass of solute / total mass of solution) × 100. Total mass of solution = 20 g + 180 g = 200 g. So concentration = (20/200) × 100 = 10%.",
+        "hi": "द्रव्यमान प्रतिशत = (विलेय का द्रव्यमान / विलयन का कुल द्रव्यमान) × 100। विलयन का कुल द्रव्यमान = 20 ग्राम + 180 ग्राम = 200 ग्राम। अतः सांद्रता = (20/200) × 100 = 10%।"
+      },
+      "distractorAnalysis": {
+        "0": { "en": "This comes from dividing the solute's mass by the solvent's mass alone (20/180 × 100 ≈ 11.1%) instead of dividing by the total mass of the solution (solute + solvent).", "hi": "यह विलेय के द्रव्यमान को केवल विलायक के द्रव्यमान से भाग देने (20/180 × 100 ≈ 11.1%) से प्राप्त होता है, विलयन के कुल द्रव्यमान (विलेय + विलायक) से भाग देने के बजाय।" },
+        "1": { "en": "This calculates the solvent's percentage of the solution (180/200 × 100 = 90%) instead of the solute's (salt's) percentage, which is what the question asks for.", "hi": "यह विलयन में विलायक के प्रतिशत (180/200 × 100 = 90%) की गणना करता है, न कि विलेय (नमक) के प्रतिशत की, जो प्रश्न में पूछा गया है।" },
+        "2": { "en": "This comes from using an incorrect total mass (such as mistakenly treating the solution as 1000 g), giving a misplaced-decimal value far too small.", "hi": "यह एक गलत कुल द्रव्यमान का उपयोग करने से प्राप्त होता है (जैसे विलयन को गलती से 1000 ग्राम मानना), जिससे एक गलत दशमलव-स्थान वाला बहुत छोटा मान प्राप्त होता है।" }
+      }
+    },
+    {
+      "key": "jnvst9-2022-sci-05",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "In a chemical reaction carried out inside a sealed, closed container, 5 g of substance A reacts completely with 3 g of substance B. What will be the total mass of the products formed?",
+        "hi": "एक बंद, सीलबंद पात्र के अंदर की गई एक रासायनिक अभिक्रिया में, 5 ग्राम पदार्थ A, 3 ग्राम पदार्थ B के साथ पूरी तरह अभिक्रिया करता है। बने हुए उत्पादों का कुल द्रव्यमान कितना होगा?"
+      },
+      "optionsJson": [
+        { "en": "8 g", "hi": "8 ग्राम" },
+        { "en": "15 g", "hi": "15 ग्राम" },
+        { "en": "2 g", "hi": "2 ग्राम" },
+        { "en": "It cannot be determined without knowing the balanced chemical equation", "hi": "संतुलित रासायनिक समीकरण जाने बिना इसे निर्धारित नहीं किया जा सकता" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "By the law of conservation of mass, mass is neither created nor destroyed in a chemical reaction. In a sealed container where no matter can escape, the total mass of the products equals the total mass of the reactants: 5 g + 3 g = 8 g.",
+        "hi": "द्रव्यमान संरक्षण के नियम के अनुसार, किसी रासायनिक अभिक्रिया में द्रव्यमान न तो उत्पन्न होता है और न ही नष्ट होता है। एक सीलबंद पात्र में जहाँ कोई पदार्थ बाहर नहीं निकल सकता, उत्पादों का कुल द्रव्यमान अभिकारकों के कुल द्रव्यमान के बराबर होता है: 5 ग्राम + 3 ग्राम = 8 ग्राम।"
+      },
+      "distractorAnalysis": {
+        "1": { "en": "15 g has no valid basis from the given reactant masses (5 g + 3 g = 8 g, not 15 g); this likely comes from an incorrect multiplication of the given values instead of addition.", "hi": "दिए गए अभिकारक द्रव्यमानों (5 ग्राम + 3 ग्राम = 8 ग्राम, न कि 15 ग्राम) से 15 ग्राम का कोई मान्य आधार नहीं है; यह संभवतः जोड़ के बजाय दिए गए मानों के गलत गुणन से प्राप्त होता है।" },
+        "2": { "en": "2 g would come from subtracting the two masses (5 − 3), which is not how the law of conservation of mass works; the total mass of products comes from adding the reactant masses, not subtracting them.", "hi": "2 ग्राम दोनों द्रव्यमानों को घटाने (5 − 3) से प्राप्त होगा, जो द्रव्यमान संरक्षण का नियम काम करने का तरीका नहीं है; उत्पादों का कुल द्रव्यमान अभिकारक द्रव्यमानों को जोड़ने से आता है, घटाने से नहीं।" },
+        "3": { "en": "The law of conservation of mass applies universally to every chemical reaction regardless of its specific balanced equation — the total product mass can be found directly from the reactant masses in a closed system without needing the equation.", "hi": "द्रव्यमान संरक्षण का नियम प्रत्येक रासायनिक अभिक्रिया पर उसके विशिष्ट संतुलित समीकरण की परवाह किए बिना सार्वभौमिक रूप से लागू होता है — एक बंद निकाय में कुल उत्पाद द्रव्यमान समीकरण की आवश्यकता के बिना सीधे अभिकारक द्रव्यमानों से पता लगाया जा सकता है।" }
+      }
+    },
+    {
+      "key": "jnvst9-2023-sci-05",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Calcium has a valency of 2 and chlorine has a valency of 1. What is the correct chemical formula for calcium chloride?",
+        "hi": "कैल्शियम की संयोजकता 2 है और क्लोरीन की संयोजकता 1 है। कैल्शियम क्लोराइड का सही रासायनिक सूत्र क्या है?"
+      },
+      "optionsJson": [
+        { "en": "CaCl", "hi": "CaCl" },
+        { "en": "CaCl₂", "hi": "CaCl₂" },
+        { "en": "Ca₂Cl", "hi": "Ca₂Cl" },
+        { "en": "Ca₂Cl₂", "hi": "Ca₂Cl₂" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "To balance valencies when writing a chemical formula, the valency of each element becomes the subscript of the other (criss-cross method). Calcium (valency 2) needs two chlorine atoms (valency 1 each) to balance, giving the formula CaCl₂.",
+        "hi": "रासायनिक सूत्र लिखते समय संयोजकताओं को संतुलित करने के लिए, प्रत्येक तत्व की संयोजकता दूसरे तत्व की अधोलेख (subscript) बन जाती है (क्रॉस विधि)। कैल्शियम (संयोजकता 2) को संतुलित करने के लिए दो क्लोरीन परमाणुओं (प्रत्येक की संयोजकता 1) की आवश्यकता होती है, जिससे सूत्र CaCl₂ प्राप्त होता है।"
+      },
+      "distractorAnalysis": {
+        "0": { "en": "CaCl (a 1:1 ratio) ignores calcium's valency of 2, which requires two chlorine atoms to balance its bonding capacity, not just one.", "hi": "CaCl (1:1 अनुपात) कैल्शियम की संयोजकता 2 की उपेक्षा करता है, जिसके बंधन क्षमता को संतुलित करने के लिए दो क्लोरीन परमाणुओं की आवश्यकता होती है, केवल एक की नहीं।" },
+        "2": { "en": "Ca₂Cl reverses the correct criss-cross assignment, incorrectly giving more calcium atoms when it is chlorine (with the lower valency of 1) that should appear in greater number.", "hi": "Ca₂Cl सही क्रॉस-विधि निर्धारण को उल्टा कर देता है, गलत तरीके से अधिक कैल्शियम परमाणु देता है जबकि क्लोरीन (जिसकी संयोजकता कम, यानी 1 है) को अधिक संख्या में होना चाहिए।" },
+        "3": { "en": "Ca₂Cl₂ fails to reduce to the simplest whole-number ratio; this simplifies to CaCl (a 1:1 ratio), a different and incorrect compound, not the actual 1:2 ratio of calcium chloride.", "hi": "Ca₂Cl₂ को सरलतम पूर्णांक अनुपात में सरल नहीं किया गया है; यह CaCl (1:1 अनुपात) में सरल हो जाता है, जो एक भिन्न और गलत यौगिक है, न कि कैल्शियम क्लोराइड का वास्तविक 1:2 अनुपात।" }
+      }
+    },
+    {
+      "key": "jnvst9-2024-sci-05",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "The molecular mass of water (H₂O) is 18 u. How many molecules of water are present in 36 g of water? (Avogadro's number = 6.022 × 10²³ per mole)",
+        "hi": "जल (H₂O) का आणविक द्रव्यमान 18 u है। 36 ग्राम जल में जल के कितने अणु उपस्थित होंगे? (आवोगाद्रो संख्या = 6.022 × 10²³ प्रति मोल)"
+      },
+      "optionsJson": [
+        { "en": "6.022 × 10²³", "hi": "6.022 × 10²³" },
+        { "en": "3.011 × 10²³", "hi": "3.011 × 10²³" },
+        { "en": "1.2044 × 10²⁴", "hi": "1.2044 × 10²⁴" },
+        { "en": "6.022 × 10²⁴", "hi": "6.022 × 10²⁴" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Number of moles = mass / molecular mass = 36/18 = 2 mol. Number of molecules = number of moles × Avogadro's number = 2 × 6.022 × 10²³ = 1.2044 × 10²⁴.",
+        "hi": "मोलों की संख्या = द्रव्यमान / आणविक द्रव्यमान = 36/18 = 2 मोल। अणुओं की संख्या = मोलों की संख्या × आवोगाद्रो संख्या = 2 × 6.022 × 10²³ = 1.2044 × 10²⁴।"
+      },
+      "distractorAnalysis": {
+        "0": { "en": "This is Avogadro's number for exactly 1 mole; it forgets to account for the fact that 36 g of water corresponds to 2 moles, not 1.", "hi": "यह ठीक 1 मोल के लिए आवोगाद्रो संख्या है; यह इस तथ्य को ध्यान में रखने में चूक करता है कि 36 ग्राम जल 2 मोल के बराबर है, 1 मोल के नहीं।" },
+        "1": { "en": "This comes from dividing Avogadro's number by the number of moles (6.022×10²³/2) instead of multiplying by it, inverting the correct operation.", "hi": "यह आवोगाद्रो संख्या को मोलों की संख्या से गुणा करने के बजाय भाग देने (6.022×10²³/2) से प्राप्त होता है, सही संक्रिया को उल्टा करते हुए।" },
+        "3": { "en": "This comes from a decimal place-value slip, multiplying Avogadro's number by 10 instead of by the correct number of moles (2).", "hi": "यह एक दशमलव स्थान-मान की त्रुटि से प्राप्त होता है, आवोगाद्रो संख्या को मोलों की सही संख्या (2) के बजाय 10 से गुणा करना।" }
+      }
+    },
+    {
+      "key": "jnvst9-2025-sci-05",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "The relative atomic mass of an element, expressed in atomic mass units (u), is defined by comparing the mass of one atom of the element with which standard?",
+        "hi": "किसी तत्व का सापेक्ष परमाणु द्रव्यमान, परमाणु द्रव्यमान इकाइयों (u) में व्यक्त किया जाता है, तत्व के एक परमाणु के द्रव्यमान की किस मानक से तुलना करके परिभाषित किया जाता है?"
+      },
+      "optionsJson": [
+        { "en": "The mass of one atom of hydrogen, taken as exactly 1 unit", "hi": "हाइड्रोजन के एक परमाणु का द्रव्यमान, जिसे ठीक 1 इकाई माना जाता है" },
+        { "en": "The total combined mass of all naturally occurring isotopes of that element", "hi": "उस तत्व के सभी प्राकृतिक रूप से पाए जाने वाले समस्थानिकों (isotopes) का कुल संयुक्त द्रव्यमान" },
+        { "en": "The mass of one mole of the element, expressed in grams", "hi": "उस तत्व के एक मोल का द्रव्यमान, ग्राम में व्यक्त" },
+        { "en": "1/12th of the mass of one atom of carbon-12, taken as the standard atomic mass unit (u)", "hi": "कार्बन-12 के एक परमाणु के द्रव्यमान का 1/12वाँ भाग, जिसे मानक परमाणु द्रव्यमान इकाई (u) माना जाता है" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "By international convention, the relative atomic mass of an element is expressed in atomic mass units (u), where 1 u is defined as exactly 1/12th the mass of one atom of the carbon-12 isotope. This carbon-12 standard replaced the older hydrogen-based scale.",
+        "hi": "अंतरराष्ट्रीय परिपाटी के अनुसार, किसी तत्व का सापेक्ष परमाणु द्रव्यमान परमाणु द्रव्यमान इकाइयों (u) में व्यक्त किया जाता है, जहाँ 1 u को कार्बन-12 समस्थानिक के एक परमाणु के द्रव्यमान के ठीक 1/12वें भाग के रूप में परिभाषित किया गया है। इस कार्बन-12 मानक ने पुराने हाइड्रोजन-आधारित पैमाने का स्थान लिया।"
+      },
+      "distractorAnalysis": {
+        "0": { "en": "The hydrogen-based standard (H = 1) was an older reference system; the current internationally accepted standard is based on carbon-12, not hydrogen.", "hi": "हाइड्रोजन-आधारित मानक (H = 1) एक पुरानी संदर्भ प्रणाली थी; वर्तमान अंतरराष्ट्रीय रूप से स्वीकृत मानक कार्बन-12 पर आधारित है, हाइड्रोजन पर नहीं।" },
+        "1": { "en": "Relative atomic mass is a single standardized comparison against 1/12th of carbon-12's mass, not the sum of the masses of all isotopes; the average mass considering isotopic abundance is a separate, related concept.", "hi": "सापेक्ष परमाणु द्रव्यमान कार्बन-12 के द्रव्यमान के 1/12वें भाग के विरुद्ध एक एकल मानकीकृत तुलना है, न कि सभी समस्थानिकों के द्रव्यमानों का योग; समस्थानिक बहुतायत को ध्यान में रखते हुए औसत द्रव्यमान एक अलग, संबंधित अवधारणा है।" },
+        "2": { "en": "The mass of one mole in grams is the molar mass, a bulk (gram-scale) quantity that is numerically similar but conceptually different — relative atomic mass itself is a dimensionless ratio, not defined via the mole concept.", "hi": "एक मोल का ग्राम में द्रव्यमान, मोलर द्रव्यमान है, एक थोक (ग्राम-स्तरीय) राशि जो संख्यात्मक रूप से समान परंतु अवधारणात्मक रूप से भिन्न है — सापेक्ष परमाणु द्रव्यमान स्वयं एक विमाहीन (dimensionless) अनुपात है, जो मोल अवधारणा के माध्यम से परिभाषित नहीं होता।" }
+      }
+    },
+    {
+      "key": "jnvst9-2026-sci-05",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Which cell organelle is known as the \"powerhouse of the cell\" because it releases the energy required for various life activities in the form of ATP?",
+        "hi": "किस कोशिकांग को \"कोशिका का पावरहाउस\" कहा जाता है क्योंकि यह विभिन्न जीवन गतिविधियों के लिए आवश्यक ऊर्जा को ATP के रूप में मुक्त करता है?"
+      },
+      "optionsJson": [
+        { "en": "Mitochondria", "hi": "माइटोकॉन्ड्रिया" },
+        { "en": "Golgi apparatus", "hi": "गॉल्जी उपकरण" },
+        { "en": "Ribosome", "hi": "राइबोसोम" },
+        { "en": "Lysosome", "hi": "लाइसोसोम" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Mitochondria carry out cellular respiration, breaking down food molecules to release energy that is stored in the form of ATP, which is why they are called the \"powerhouse of the cell.\"",
+        "hi": "माइटोकॉन्ड्रिया कोशिकीय श्वसन करते हैं, भोजन के अणुओं को तोड़कर ऊर्जा मुक्त करते हैं जो ATP के रूप में संग्रहित होती है, इसीलिए इन्हें \"कोशिका का पावरहाउस\" कहा जाता है।"
+      },
+      "distractorAnalysis": {
+        "1": { "en": "The Golgi apparatus is involved in packaging and modifying proteins and lipids for secretion or transport within the cell, not in the primary release of cellular energy.", "hi": "गॉल्जी उपकरण कोशिका के भीतर स्राव या परिवहन के लिए प्रोटीन और लिपिड को पैक करने और संशोधित करने में शामिल होता है, कोशिकीय ऊर्जा के प्राथमिक मुक्त होने में नहीं।" },
+        "2": { "en": "Ribosomes are the sites of protein synthesis in the cell, not the site of primary energy production.", "hi": "राइबोसोम कोशिका में प्रोटीन संश्लेषण के स्थल हैं, प्राथमिक ऊर्जा उत्पादन के स्थल नहीं।" },
+        "3": { "en": "Lysosomes contain digestive enzymes that break down waste material and worn-out cell organelles, earning them the name \"suicide bags\" — not organelles for energy release.", "hi": "लाइसोसोम में पाचक एंजाइम होते हैं जो अपशिष्ट पदार्थ और घिसे-पिटे कोशिकांगों को तोड़ते हैं, जिससे इन्हें \"आत्मघाती थैली\" (suicide bags) कहा जाता है — ये ऊर्जा मुक्त करने वाले कोशिकांग नहीं हैं।" }
+      }
+    },
+    {
+      "key": "jnvst9-2022-sci-06",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which structural feature is present in plant cells but absent in animal cells, providing rigidity and a fixed shape to the cell?",
+        "hi": "कौन-सी संरचनात्मक विशेषता पादप कोशिकाओं में उपस्थित होती है परंतु जंतु कोशिकाओं में अनुपस्थित होती है, जो कोशिका को कठोरता और एक निश्चित आकार प्रदान करती है?"
+      },
+      "optionsJson": [
+        { "en": "Cell membrane", "hi": "कोशिका झिल्ली" },
+        { "en": "Cell wall made of cellulose", "hi": "सेल्युलोज़ से बनी कोशिका भित्ति" },
+        { "en": "Nucleus", "hi": "केंद्रक" },
+        { "en": "Cytoplasm", "hi": "कोशिकाद्रव्य" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Plant cells have a rigid cell wall, made mainly of cellulose, located just outside the cell membrane, which gives structural support and a fixed shape. Animal cells lack this wall and have only a flexible cell membrane as their outer boundary.",
+        "hi": "पादप कोशिकाओं में कोशिका झिल्ली के ठीक बाहर स्थित एक कठोर कोशिका भित्ति होती है, जो मुख्यतः सेल्युलोज़ से बनी होती है, जो संरचनात्मक सहारा और एक निश्चित आकार देती है। जंतु कोशिकाओं में यह भित्ति नहीं होती और उनकी बाहरी सीमा के रूप में केवल एक लचीली कोशिका झिल्ली होती है।"
+      },
+      "distractorAnalysis": {
+        "0": { "en": "The cell membrane is present in both plant and animal cells; it is not the distinguishing rigid structure that only plant cells possess.", "hi": "कोशिका झिल्ली पादप और जंतु दोनों कोशिकाओं में उपस्थित होती है; यह वह विशिष्ट कठोर संरचना नहीं है जो केवल पादप कोशिकाओं में होती है।" },
+        "2": { "en": "The nucleus is present in most animal and plant cells alike (with rare exceptions like mature mammalian red blood cells); it is not a feature that distinguishes plant cells from animal cells.", "hi": "केंद्रक अधिकांश जंतु और पादप कोशिकाओं दोनों में समान रूप से उपस्थित होता है (कुछ दुर्लभ अपवादों जैसे परिपक्व स्तनधारी लाल रक्त कोशिकाओं को छोड़कर); यह पादप कोशिकाओं को जंतु कोशिकाओं से अलग करने वाली विशेषता नहीं है।" },
+        "3": { "en": "Cytoplasm is present in both plant and animal cells as the fluid medium inside the cell; it is not a rigid structural feature providing shape.", "hi": "कोशिकाद्रव्य पादप और जंतु दोनों कोशिकाओं में कोशिका के अंदर तरल माध्यम के रूप में उपस्थित होता है; यह आकार प्रदान करने वाली कोई कठोर संरचनात्मक विशेषता नहीं है।" }
+      }
+    },
+    {
+      "key": "jnvst9-2023-sci-06",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "When plant cells are placed in a concentrated salt solution (hypertonic compared to the cell sap), the cell membrane and cytoplasm shrink away from the cell wall. What is this phenomenon called, and why does it occur?",
+        "hi": "जब पादप कोशिकाओं को एक सांद्र नमक विलयन (कोशिका रस की तुलना में अतिपरासरणी) में रखा जाता है, तो कोशिका झिल्ली और कोशिकाद्रव्य कोशिका भित्ति से सिकुड़ कर दूर हो जाते हैं। इस परिघटना को क्या कहा जाता है, और यह क्यों होती है?"
+      },
+      "optionsJson": [
+        { "en": "Endosmosis; because water moves into the cell from the surrounding solution", "hi": "अंतःपरासरण (endosmosis); क्योंकि जल आसपास के विलयन से कोशिका में प्रवेश करता है" },
+        { "en": "Simple diffusion; because salt particles move into the cell down their concentration gradient", "hi": "साधारण विसरण; क्योंकि नमक के कण अपने सांद्रण प्रवणता के साथ कोशिका में प्रवेश करते हैं" },
+        { "en": "Plasmolysis; because water moves out of the cell into the hypertonic surrounding solution by exosmosis", "hi": "जीवद्रव्यकुंचन (plasmolysis); क्योंकि जल बहिःपरासरण द्वारा कोशिका से बाहर अतिपरासरणी आसपास के विलयन में चला जाता है" },
+        { "en": "Turgidity; because the cell absorbs water and becomes firm", "hi": "स्फीति (turgidity); क्योंकि कोशिका जल अवशोषित करके दृढ़ हो जाती है" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "In a hypertonic solution (higher solute concentration outside the cell than inside), water moves out of the cell through the semi-permeable membrane by exosmosis to balance concentration. This causes the cell membrane and cytoplasm to shrink away from the rigid cell wall — a phenomenon called plasmolysis.",
+        "hi": "एक अतिपरासरणी विलयन (कोशिका के बाहर अंदर की तुलना में अधिक विलेय सांद्रण) में, सांद्रण को संतुलित करने के लिए जल अर्धपारगम्य झिल्ली के माध्यम से बहिःपरासरण द्वारा कोशिका से बाहर निकल जाता है। इससे कोशिका झिल्ली और कोशिकाद्रव्य कठोर कोशिका भित्ति से सिकुड़कर दूर हो जाते हैं — इस परिघटना को जीवद्रव्यकुंचन (plasmolysis) कहते हैं।"
+      },
+      "distractorAnalysis": {
+        "0": { "en": "Endosmosis (water moving into the cell) occurs in a hypotonic solution, not a hypertonic one; here water is leaving the cell, which is the opposite process.", "hi": "अंतःपरासरण (जल का कोशिका में प्रवेश) एक अल्पपरासरणी विलयन में होता है, अतिपरासरणी में नहीं; यहाँ जल कोशिका से बाहर निकल रहा है, जो विपरीत प्रक्रिया है।" },
+        "1": { "en": "This describes salt diffusing across the membrane, but the observed shrinkage is primarily explained by water moving out of the cell (osmosis), not by salt particles moving into it.", "hi": "यह झिल्ली के आर-पार नमक के विसरण का वर्णन करता है, परंतु देखा गया सिकुड़न मुख्यतः जल के कोशिका से बाहर निकलने (परासरण) से समझाया जाता है, नमक के कणों के अंदर प्रवेश से नहीं।" },
+        "3": { "en": "Turgidity refers to a cell becoming firm and swollen after absorbing water in a hypotonic solution; here the cell is losing water and shrinking, which is the opposite state.", "hi": "स्फीति (turgidity) एक अल्पपरासरणी विलयन में जल अवशोषित करने के बाद कोशिका के दृढ़ और फूली हुई होने को कहते हैं; यहाँ कोशिका जल खो रही है और सिकुड़ रही है, जो विपरीत स्थिति है।" }
+      }
+    },
+    {
+      "key": "jnvst9-2024-sci-06",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which cell organelle contains the chromosomes made of DNA and protein, and controls the hereditary characteristics passed from parent cell to daughter cells?",
+        "hi": "कौन-सा कोशिकांग DNA और प्रोटीन से बने गुणसूत्रों को समाहित करता है, और मातृ कोशिका से संतति कोशिकाओं में जाने वाले वंशानुगत लक्षणों को नियंत्रित करता है?"
+      },
+      "optionsJson": [
+        { "en": "Golgi apparatus", "hi": "गॉल्जी उपकरण" },
+        { "en": "Endoplasmic reticulum", "hi": "अंतर्द्रव्यी जालिका" },
+        { "en": "Vacuole", "hi": "रसधानी" },
+        { "en": "Nucleus", "hi": "केंद्रक" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "The nucleus houses the chromosomes (made of DNA and protein), which carry genetic information and control heredity; it also regulates the cell's overall metabolic activities.",
+        "hi": "केंद्रक गुणसूत्रों (जो DNA और प्रोटीन से बने होते हैं) को समाहित करता है, जो आनुवंशिक जानकारी वहन करते हैं और वंशागति को नियंत्रित करते हैं; यह कोशिका की समग्र उपापचयी गतिविधियों को भी नियंत्रित करता है।"
+      },
+      "distractorAnalysis": {
+        "0": { "en": "The Golgi apparatus packages and modifies materials for secretion or transport; it does not contain chromosomes or hereditary material.", "hi": "गॉल्जी उपकरण स्राव या परिवहन के लिए सामग्री को पैक और संशोधित करता है; इसमें गुणसूत्र या वंशानुगत पदार्थ नहीं होते।" },
+        "1": { "en": "The endoplasmic reticulum assists in the transport of materials within the cell and, in its rough form, supports protein synthesis; it does not carry the cell's hereditary chromosomal material.", "hi": "अंतर्द्रव्यी जालिका कोशिका के भीतर सामग्री के परिवहन में सहायता करती है और, अपने खुरदुरे रूप में, प्रोटीन संश्लेषण में सहायता करती है; यह कोशिका के वंशानुगत गुणसूत्रीय पदार्थ को वहन नहीं करती।" },
+        "2": { "en": "Vacuoles store water, food, waste, or other materials (especially large ones in plant cells); they do not carry genetic material.", "hi": "रसधानियाँ जल, भोजन, अपशिष्ट, या अन्य पदार्थों को संग्रहित करती हैं (विशेष रूप से पादप कोशिकाओं में बड़ी रसधानियाँ); ये आनुवंशिक पदार्थ वहन नहीं करतीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-2025-sci-06",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Meristematic tissue, found in plants at root tips, shoot tips, and in the cambium, is primarily responsible for which function?",
+        "hi": "विभज्योतक ऊतक (meristematic tissue), जो पादपों में मूल शीर्षों, प्ररोह शीर्षों, और एधा (cambium) में पाया जाता है, मुख्यतः किस कार्य के लिए उत्तरदायी है?"
+      },
+      "optionsJson": [
+        { "en": "Continuous cell division, enabling growth in the length and girth of the plant", "hi": "निरंतर कोशिका विभाजन, जो पौधे की लंबाई और मोटाई में वृद्धि को सक्षम बनाता है" },
+        { "en": "Storage of food reserves such as starch", "hi": "स्टार्च जैसे खाद्य भंडार का संग्रहण" },
+        { "en": "Conduction of water and minerals from the roots to the leaves", "hi": "मूल से पत्तियों तक जल और खनिजों का संवहन" },
+        { "en": "Providing mechanical support through thick, lignified cell walls", "hi": "मोटी, काष्ठित (lignified) कोशिका भित्तियों के माध्यम से यांत्रिक सहारा प्रदान करना" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Meristematic tissue consists of actively dividing, undifferentiated cells located at growing regions (apical, lateral/cambium, and intercalary meristems), which continuously add new cells enabling the plant's growth in both length and thickness.",
+        "hi": "विभज्योतक ऊतक सक्रिय रूप से विभाजित होने वाली, अविभेदित कोशिकाओं से बना होता है जो वृद्धि क्षेत्रों (शीर्षस्थ, पार्श्व/एधा, और अंतर्विष्ट विभज्योतक) में स्थित होता है, जो लगातार नई कोशिकाएँ जोड़कर पौधे को लंबाई और मोटाई दोनों में वृद्धि करने में सक्षम बनाता है।"
+      },
+      "distractorAnalysis": {
+        "1": { "en": "Food storage is a function of parenchyma (a permanent, simple tissue), not of the actively dividing meristematic tissue.", "hi": "खाद्य भंडारण मृदूतक (parenchyma, एक स्थायी, सरल ऊतक) का कार्य है, सक्रिय रूप से विभाजित होने वाले विभज्योतक ऊतक का नहीं।" },
+        "2": { "en": "Conduction of water and minerals is carried out by xylem, a permanent complex tissue, not by meristematic tissue.", "hi": "जल और खनिजों का संवहन जाइलम (xylem) द्वारा किया जाता है, जो एक स्थायी जटिल ऊतक है, विभज्योतक ऊतक द्वारा नहीं।" },
+        "3": { "en": "Mechanical support through thick, lignified walls is provided by sclerenchyma (a permanent tissue), whereas meristematic cells have thin walls suited for active division, not for structural support.", "hi": "मोटी, काष्ठित भित्तियों के माध्यम से यांत्रिक सहारा दृढ़ोतक (sclerenchyma, एक स्थायी ऊतक) द्वारा प्रदान किया जाता है, जबकि विभज्योतक कोशिकाओं की भित्तियाँ पतली होती हैं जो सक्रिय विभाजन के लिए उपयुक्त हैं, संरचनात्मक सहारे के लिए नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-2026-sci-06",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "In an experiment, a complete ring of bark (including the phloem) is removed from around a tree trunk, while the inner wood (xylem) is left intact. Over the following weeks, the region just above the ring swells while the region below eventually starves. What does this indicate about the function of phloem?",
+        "hi": "एक प्रयोग में, किसी वृक्ष के तने के चारों ओर छाल का एक पूरा वलय (जिसमें फ्लोएम भी शामिल है) हटा दिया जाता है, जबकि आंतरिक काष्ठ (जाइलम) को अक्षुण्ण छोड़ दिया जाता है। अगले कुछ हफ्तों में, वलय के ठीक ऊपर का क्षेत्र फूल जाता है जबकि नीचे का क्षेत्र अंततः भूखा रह जाता है। यह फ्लोएम के कार्य के बारे में क्या दर्शाता है?"
+      },
+      "optionsJson": [
+        { "en": "Phloem transports water and minerals upward from the roots to the leaves", "hi": "फ्लोएम मूल से पत्तियों तक जल और खनिजों का ऊपर की ओर परिवहन करता है" },
+        { "en": "Phloem transports food (prepared by photosynthesis in the leaves) to all parts of the plant, including downward to the roots", "hi": "फ्लोएम भोजन (जो पत्तियों में प्रकाश-संश्लेषण द्वारा तैयार होता है) को पौधे के सभी भागों तक, मूल की ओर नीचे तक भी, पहुँचाता है" },
+        { "en": "Phloem provides mechanical support to the stem, and its removal causes structural collapse", "hi": "फ्लोएम तने को यांत्रिक सहारा प्रदान करता है, और इसे हटाने से संरचनात्मक पतन होता है" },
+        { "en": "Phloem stores excess water for the plant during dry periods", "hi": "फ्लोएम शुष्क अवधि के दौरान पौधे के लिए अतिरिक्त जल संग्रहित करता है" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Phloem conducts food materials (mainly sucrose) manufactured by photosynthesis in the leaves to all other parts of the plant, both upward and downward (translocation). Removing the phloem ring blocks downward food transport, so food accumulates just above the cut (causing swelling) while the roots and tissue below starve from lack of food supply. Xylem, left intact, continues carrying water upward unaffected.",
+        "hi": "फ्लोएम पत्तियों में प्रकाश-संश्लेषण द्वारा निर्मित खाद्य पदार्थों (मुख्यतः सुक्रोज़) को पौधे के अन्य सभी भागों तक, ऊपर और नीचे दोनों दिशाओं में (स्थानांतरण) पहुँचाता है। फ्लोएम वलय को हटाने से नीचे की ओर भोजन का परिवहन रुक जाता है, इसलिए भोजन कटान के ठीक ऊपर जमा हो जाता है (जिससे सूजन होती है) जबकि नीचे की जड़ें और ऊतक भोजन की आपूर्ति की कमी से भूखे रह जाते हैं। अक्षुण्ण छोड़ा गया जाइलम बिना प्रभावित हुए जल को ऊपर की ओर ले जाना जारी रखता है।"
+      },
+      "distractorAnalysis": {
+        "0": { "en": "Upward transport of water and minerals from the roots is the function of xylem, not phloem; xylem was left intact in this experiment, and the observed swelling/starving pattern is specifically due to interrupted food transport, not water transport.", "hi": "मूल से जल और खनिजों का ऊपर की ओर परिवहन जाइलम का कार्य है, फ्लोएम का नहीं; इस प्रयोग में जाइलम को अक्षुण्ण छोड़ा गया था, और देखा गया सूजन/भुखमरी का पैटर्न विशेष रूप से बाधित खाद्य परिवहन के कारण है, जल परिवहन के कारण नहीं।" },
+        "2": { "en": "While some tissues do provide mechanical support (like sclerenchyma fibres), the swelling-above/starving-below pattern observed here is a translocation effect related to food transport, not a structural collapse of the stem.", "hi": "यद्यपि कुछ ऊतक (जैसे दृढ़ोतक तंतु) यांत्रिक सहारा प्रदान करते हैं, यहाँ देखा गया ऊपर-सूजन/नीचे-भुखमरी का पैटर्न भोजन परिवहन से संबंधित एक स्थानांतरण प्रभाव है, तने का संरचनात्मक पतन नहीं।" },
+        "3": { "en": "Phloem is not primarily a water-storage tissue; its main role is conducting manufactured food (organic nutrients) through the plant, not storing water.", "hi": "फ्लोएम मुख्यतः जल-संग्रहण ऊतक नहीं है; इसकी मुख्य भूमिका पौधे के माध्यम से निर्मित भोजन (कार्बनिक पोषक तत्वों) का परिवहन करना है, जल का संग्रहण नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-2022-sci-07",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Which type of muscle tissue is characterized by long, cylindrical, unbranched, multinucleate fibres showing alternating light and dark bands, and is under voluntary control (e.g., the muscles that move the limbs)?",
+        "hi": "किस प्रकार का पेशी ऊतक लंबे, बेलनाकार, अशाखित, बहुकेंद्रकीय तंतुओं द्वारा पहचाना जाता है जो एकांतर हल्की और गहरी पट्टियाँ दर्शाते हैं, और स्वैच्छिक नियंत्रण में होता है (जैसे, अंगों को हिलाने वाली पेशियाँ)?"
+      },
+      "optionsJson": [
+        { "en": "Smooth (unstriated) muscle", "hi": "चिकनी (अरेखित) पेशी" },
+        { "en": "Cardiac muscle", "hi": "हृद पेशी" },
+        { "en": "Skeletal (striated) muscle", "hi": "कंकाल (रेखित) पेशी" },
+        { "en": "Areolar connective tissue", "hi": "एरियोलर संयोजी ऊतक" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Skeletal (striated) muscle fibres are long, cylindrical, unbranched, and multinucleate, showing alternating light and dark bands (striations) under the microscope. They are attached to bones and contract under voluntary, conscious control.",
+        "hi": "कंकाल (रेखित) पेशी तंतु लंबे, बेलनाकार, अशाखित, और बहुकेंद्रकीय होते हैं, जो सूक्ष्मदर्शी के नीचे एकांतर हल्की और गहरी पट्टियाँ (रेखाएँ) दिखाते हैं। ये हड्डियों से जुड़े होते हैं और स्वैच्छिक, सचेत नियंत्रण के अंतर्गत संकुचित होते हैं।"
+      },
+      "distractorAnalysis": {
+        "0": { "en": "Smooth (unstriated) muscle has spindle-shaped, uninucleate fibres without striations, and functions involuntarily (e.g., in the walls of the gut and blood vessels).", "hi": "चिकनी (अरेखित) पेशी में तर्कु-आकार, एककेंद्रकीय तंतु होते हैं जिनमें रेखाएँ नहीं होतीं, और यह अनैच्छिक रूप से कार्य करती है (जैसे, आंत और रक्त वाहिकाओं की दीवारों में)।" },
+        "1": { "en": "Cardiac muscle fibres are branched, striated, and uninucleate, functioning involuntarily and rhythmically, and are found only in the heart — unlike the voluntary skeletal muscle described in the question.", "hi": "हृद पेशी तंतु शाखित, रेखित, और एककेंद्रकीय होते हैं, जो अनैच्छिक रूप से और लयबद्ध ढंग से कार्य करते हैं, और केवल हृदय में पाए जाते हैं — प्रश्न में वर्णित स्वैच्छिक कंकाल पेशी के विपरीत।" },
+        "3": { "en": "Areolar connective tissue is a loose connective tissue that fills spaces between organs and supports them; it is not a muscle tissue at all and has a completely different cellular structure.", "hi": "एरियोलर संयोजी ऊतक एक ढीला संयोजी ऊतक है जो अंगों के बीच के स्थानों को भरता है और उन्हें सहारा देता है; यह बिल्कुल भी पेशी ऊतक नहीं है और इसकी कोशिकीय संरचना पूरी तरह भिन्न है।" }
+      }
+    },
+    {
+      "key": "jnvst9-2023-sci-07",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Which scientist proposed the widely used five-kingdom classification system (Monera, Protista, Fungi, Plantae, Animalia), based on criteria such as cell structure, mode of nutrition, and body organization?",
+        "hi": "किस वैज्ञानिक ने कोशिका संरचना, पोषण के तरीके, और शारीरिक संगठन जैसे मानदंडों के आधार पर व्यापक रूप से उपयोग किया जाने वाला पाँच-जगत वर्गीकरण तंत्र (मोनेरा, प्रोटिस्टा, कवक, पादप, जंतु) प्रस्तावित किया?"
+      },
+      "optionsJson": [
+        { "en": "Carl Linnaeus", "hi": "कार्ल लिनियस" },
+        { "en": "Charles Darwin", "hi": "चार्ल्स डार्विन" },
+        { "en": "Gregor Mendel", "hi": "ग्रेगर मेंडल" },
+        { "en": "R. H. Whittaker", "hi": "आर. एच. व्हिटेकर" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "R. H. Whittaker proposed the five-kingdom classification system in 1969, grouping organisms into Monera, Protista, Fungi, Plantae, and Animalia based on cell structure (prokaryotic or eukaryotic), body organization, mode of nutrition, and other criteria.",
+        "hi": "आर. एच. व्हिटेकर ने 1969 में पाँच-जगत वर्गीकरण तंत्र प्रस्तावित किया, जिसमें जीवों को कोशिका संरचना (प्रोकैरियोटिक या यूकैरियोटिक), शारीरिक संगठन, पोषण के तरीके, और अन्य मानदंडों के आधार पर मोनेरा, प्रोटिस्टा, कवक, पादप, और जंतु में समूहीकृत किया गया।"
+      },
+      "distractorAnalysis": {
+        "0": { "en": "Carl Linnaeus is known for developing binomial nomenclature and an earlier two-kingdom classification (Plantae and Animalia), not the five-kingdom system.", "hi": "कार्ल लिनियस को द्विनाम नामपद्धति विकसित करने और एक पूर्व दो-जगत वर्गीकरण (पादप और जंतु) के लिए जाना जाता है, पाँच-जगत तंत्र के लिए नहीं।" },
+        "1": { "en": "Charles Darwin is known for the theory of evolution by natural selection, not for proposing any kingdom-level classification system.", "hi": "चार्ल्स डार्विन प्राकृतिक चयन द्वारा विकास के सिद्धांत के लिए जाने जाते हैं, किसी जगत-स्तरीय वर्गीकरण तंत्र को प्रस्तावित करने के लिए नहीं।" },
+        "2": { "en": "Gregor Mendel is known as the father of genetics for his work on inheritance patterns in pea plants, which is unrelated to kingdom-level classification of organisms.", "hi": "ग्रेगर मेंडल को मटर के पौधों में वंशागति के प्रतिरूपों पर उनके कार्य के लिए आनुवंशिकी का जनक कहा जाता है, जो जीवों के जगत-स्तरीय वर्गीकरण से असंबंधित है।" }
+      }
+    },
+    {
+      "key": "jnvst9-2024-sci-07",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Organisms belonging to Kingdom Monera (such as bacteria and cyanobacteria) are characterized by which of the following?",
+        "hi": "जगत मोनेरा (जैसे जीवाणु और सायनोबैक्टीरिया) से संबंधित जीव निम्नलिखित में से किस विशेषता द्वारा पहचाने जाते हैं?"
+      },
+      "optionsJson": [
+        { "en": "Prokaryotic cell structure — they lack a well-defined nucleus and membrane-bound organelles", "hi": "प्रोकैरियोटिक कोशिका संरचना — इनमें एक सुपरिभाषित केंद्रक और झिल्ली-आबद्ध कोशिकांगों का अभाव होता है" },
+        { "en": "Eukaryotic cell structure with a well-defined nucleus enclosed by a nuclear membrane", "hi": "एक केंद्रक झिल्ली से घिरे सुपरिभाषित केंद्रक के साथ यूकैरियोटिक कोशिका संरचना" },
+        { "en": "Multicellular body organization with specialized tissues", "hi": "विशिष्ट ऊतकों के साथ बहुकोशिकीय शारीरिक संगठन" },
+        { "en": "An obligate parasitic mode of nutrition only, with no other nutritional mode possible", "hi": "केवल एक अनिवार्य परजीवी पोषण विधि, जिसमें कोई अन्य पोषण विधि संभव नहीं" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Monerans are prokaryotes — their genetic material is not enclosed within a nuclear membrane, and they lack most membrane-bound organelles. They can be unicellular and show diverse modes of nutrition, both autotrophic and heterotrophic.",
+        "hi": "मोनेरन प्रोकैरियोट्स होते हैं — इनका आनुवंशिक पदार्थ किसी केंद्रक झिल्ली में बंद नहीं होता, और इनमें अधिकांश झिल्ली-आबद्ध कोशिकांगों का अभाव होता है। ये एककोशिकीय हो सकते हैं और स्वपोषी तथा परपोषी दोनों प्रकार की विविध पोषण विधियाँ दर्शा सकते हैं।"
+      },
+      "distractorAnalysis": {
+        "1": { "en": "A well-defined, membrane-bound nucleus is the defining feature of eukaryotic cells (found in Protista, Fungi, Plantae, and Animalia), not of Monera, which is specifically prokaryotic.", "hi": "एक सुपरिभाषित, झिल्ली-आबद्ध केंद्रक यूकैरियोटिक कोशिकाओं (प्रोटिस्टा, कवक, पादप, और जंतु में पाई जाने वाली) की निर्धारक विशेषता है, मोनेरा की नहीं, जो विशेष रूप से प्रोकैरियोटिक है।" },
+        "2": { "en": "Monerans are generally unicellular (though some form colonies or filaments); complex multicellular tissue organization is seen in Fungi, Plantae, and Animalia, not typically in Monera.", "hi": "मोनेरन सामान्यतः एककोशिकीय होते हैं (हालाँकि कुछ उपनिवेश या तंतु बनाते हैं); जटिल बहुकोशिकीय ऊतक संगठन कवक, पादप, और जंतु में देखा जाता है, आमतौर पर मोनेरा में नहीं।" },
+        "3": { "en": "Monerans show diverse modes of nutrition, including autotrophic (some cyanobacteria carry out photosynthesis) and heterotrophic (saprophytic or parasitic) — they are not restricted to parasitism alone.", "hi": "मोनेरन विविध पोषण विधियाँ दर्शाते हैं, जिनमें स्वपोषी (कुछ सायनोबैक्टीरिया प्रकाश-संश्लेषण करते हैं) और परपोषी (मृतोपजीवी या परजीवी) शामिल हैं — ये केवल परजीविता तक सीमित नहीं हैं।" }
+      }
+    },
+    {
+      "key": "jnvst9-2025-sci-07",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "According to the internationally accepted rules of binomial nomenclature, which of the following is the correctly formatted scientific name for the tiger?",
+        "hi": "द्विनाम नामपद्धति (binomial nomenclature) के अंतरराष्ट्रीय रूप से स्वीकृत नियमों के अनुसार, बाघ के लिए निम्नलिखित में से कौन-सा सही रूप से स्वरूपित वैज्ञानिक नाम है?"
+      },
+      "optionsJson": [
+        { "en": "panthera Tigris", "hi": "panthera Tigris" },
+        { "en": "Panthera tigris", "hi": "Panthera tigris" },
+        { "en": "PANTHERA TIGRIS", "hi": "PANTHERA TIGRIS" },
+        { "en": "tigris Panthera", "hi": "tigris Panthera" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "The rules of binomial nomenclature require a two-part scientific name — the genus name first, with only its first letter capitalized, followed by the species name entirely in lowercase — and the complete name is written in italics (or underlined when handwritten), e.g., Panthera tigris.",
+        "hi": "द्विनाम नामपद्धति के नियमों के अनुसार एक दो-भाग वाला वैज्ञानिक नाम आवश्यक होता है — पहले वंश (genus) का नाम, जिसका केवल पहला अक्षर बड़ा होता है, उसके बाद जाति (species) का नाम, जो पूरी तरह छोटे अक्षरों में होता है — और पूरे नाम को तिरछे अक्षरों (इटैलिक) में लिखा जाता है (या हाथ से लिखते समय रेखांकित किया जाता है), जैसे Panthera tigris।"
+      },
+      "distractorAnalysis": {
+        "0": { "en": "The genus name must be capitalized and the species name must be entirely lowercase; this option incorrectly reverses that capitalization pattern.", "hi": "वंश के नाम का पहला अक्षर बड़ा होना चाहिए और जाति के नाम को पूरी तरह छोटे अक्षरों में होना चाहिए; यह विकल्प उस अक्षर-आकार के प्रतिरूप को गलत तरीके से उल्टा कर देता है।" },
+        "2": { "en": "Neither the genus name nor the species name should be written in all capital letters; only the first letter of the genus name is capitalized, with the rest in lowercase.", "hi": "न तो वंश के नाम और न ही जाति के नाम को पूरी तरह बड़े अक्षरों में लिखा जाना चाहिए; केवल वंश के नाम का पहला अक्षर बड़ा होता है, शेष छोटे अक्षरों में।" },
+        "3": { "en": "The correct order always places the genus name first, followed by the species name; this option incorrectly reverses that order.", "hi": "सही क्रम में हमेशा पहले वंश का नाम आता है, उसके बाद जाति का नाम; यह विकल्प उस क्रम को गलत तरीके से उल्टा कर देता है।" }
+      }
+    },
+    {
+      "key": "jnvst9-2026-sci-07",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which type of animal tissue forms a continuous protective covering or lining — such as the outer layer of skin and the lining of the mouth, blood vessels, and lungs — with cells tightly packed together and very little intercellular matrix?",
+        "hi": "किस प्रकार का जंतु ऊतक एक निरंतर सुरक्षात्मक आवरण या स्तर बनाता है — जैसे त्वचा की बाहरी परत और मुँह, रक्त वाहिकाओं, तथा फेफड़ों की परत — जिसमें कोशिकाएँ आपस में कसकर जुड़ी होती हैं और अंतराकोशिकीय आधात्री (matrix) बहुत कम होती है?"
+      },
+      "optionsJson": [
+        { "en": "Connective tissue", "hi": "संयोजी ऊतक" },
+        { "en": "Muscular tissue", "hi": "पेशी ऊतक" },
+        { "en": "Epithelial tissue", "hi": "उपकला ऊतक" },
+        { "en": "Nervous tissue", "hi": "तंत्रिका ऊतक" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Epithelial tissue consists of tightly packed cells with minimal intercellular matrix, forming continuous sheets that cover body surfaces and line cavities and organs (such as skin and the lining of the gut, blood vessels, and lungs), providing protection and enabling functions like absorption, secretion, or diffusion depending on location.",
+        "hi": "उपकला ऊतक कसकर जुड़ी कोशिकाओं से बना होता है जिसमें अंतराकोशिकीय आधात्री बहुत कम होती है, जो शरीर की सतहों को ढकने और गुहाओं तथा अंगों (जैसे त्वचा और आंत, रक्त वाहिकाओं, तथा फेफड़ों की परत) को अस्तरित करने वाली निरंतर परतें बनाता है, जो स्थान के अनुसार सुरक्षा प्रदान करने और अवशोषण, स्राव, या विसरण जैसे कार्यों को सक्षम बनाता है।"
+      },
+      "distractorAnalysis": {
+        "0": { "en": "Connective tissue (such as bone, blood, cartilage, and areolar tissue) has cells scattered within an abundant intercellular matrix, unlike the tightly packed cells of epithelial tissue.", "hi": "संयोजी ऊतक (जैसे हड्डी, रक्त, उपास्थि, और एरियोलर ऊतक) में कोशिकाएँ एक प्रचुर अंतराकोशिकीय आधात्री में बिखरी होती हैं, उपकला ऊतक की कसकर जुड़ी कोशिकाओं के विपरीत।" },
+        "1": { "en": "Muscular tissue is composed of elongated, contractile fibres responsible for movement, not for forming protective covering or lining sheets.", "hi": "पेशी ऊतक लंबे, संकुचनशील तंतुओं से बना होता है जो गति के लिए उत्तरदायी होते हैं, सुरक्षात्मक आवरण या स्तर बनाने के लिए नहीं।" },
+        "3": { "en": "Nervous tissue consists of neurons specialized for transmitting electrical impulses, not for forming protective covering layers over body surfaces.", "hi": "तंत्रिका ऊतक विद्युत आवेगों को संचारित करने में विशिष्ट न्यूरॉनों से बना होता है, शरीर की सतहों पर सुरक्षात्मक आवरण परतें बनाने के लिए नहीं।" }
+      }
+    }
+  ]
+}

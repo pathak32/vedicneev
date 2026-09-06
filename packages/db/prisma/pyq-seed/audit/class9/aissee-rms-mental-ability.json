@@ -1,0 +1,1158 @@
+{
+  "examType": "AISSEE",
+  "classLevel": 9,
+  "sectionKey": "mental_ability",
+  "generatedAt": "2026-09-06T10:09:08.564Z",
+  "questions": [
+    {
+      "key": "aissee9-2022-ma-01",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Find the next number in the series: 2, 4, 6, 8, ?",
+        "hi": "श्रृंखला में अगली संख्या ज्ञात करें: 2, 4, 6, 8, ?"
+      },
+      "optionsJson": [
+        {
+          "en": "10",
+          "hi": "10"
+        },
+        {
+          "en": "11",
+          "hi": "11"
+        },
+        {
+          "en": "8",
+          "hi": "8"
+        },
+        {
+          "en": "14",
+          "hi": "14"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Add 2 each time. Next term = 10.",
+        "hi": "हर बार 2 जोड़ें। अगला पद = 10।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Repeats the most recent gap between terms instead of following the sequence's actual rule (Add 2 each time.)",
+          "hi": "पदों के बीच के सबसे हालिया अंतर को दोहरा देता है, श्रृंखला के वास्तविक नियम (हर बार 2 जोड़ें।) का पालन किए बिना।"
+        },
+        "2": {
+          "en": "Off by one from the correct next term — a simple slip.",
+          "hi": "सही अगले पद से एक की चूक — एक साधारण गलती।"
+        },
+        "3": {
+          "en": "Applies the previous gap in the wrong direction.",
+          "hi": "पिछले अंतर को गलत दिशा में लागू कर देता है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2023-ma-01",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Find the next number in the series: 5, 10, 15, 20, ?",
+        "hi": "श्रृंखला में अगली संख्या ज्ञात करें: 5, 10, 15, 20, ?"
+      },
+      "optionsJson": [
+        {
+          "en": "26",
+          "hi": "26"
+        },
+        {
+          "en": "25",
+          "hi": "25"
+        },
+        {
+          "en": "20",
+          "hi": "20"
+        },
+        {
+          "en": "35",
+          "hi": "35"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Add 5 each time. Next term = 25.",
+        "hi": "हर बार 5 जोड़ें। अगला पद = 25।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Repeats the most recent gap between terms instead of following the sequence's actual rule (Add 5 each time.)",
+          "hi": "पदों के बीच के सबसे हालिया अंतर को दोहरा देता है, श्रृंखला के वास्तविक नियम (हर बार 5 जोड़ें।) का पालन किए बिना।"
+        },
+        "2": {
+          "en": "Off by one from the correct next term — a simple slip.",
+          "hi": "सही अगले पद से एक की चूक — एक साधारण गलती।"
+        },
+        "3": {
+          "en": "Applies the previous gap in the wrong direction.",
+          "hi": "पिछले अंतर को गलत दिशा में लागू कर देता है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2024-ma-01",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Find the next number in the series: 3, 6, 9, 12, ?",
+        "hi": "श्रृंखला में अगली संख्या ज्ञात करें: 3, 6, 9, 12, ?"
+      },
+      "optionsJson": [
+        {
+          "en": "16",
+          "hi": "16"
+        },
+        {
+          "en": "12",
+          "hi": "12"
+        },
+        {
+          "en": "15",
+          "hi": "15"
+        },
+        {
+          "en": "21",
+          "hi": "21"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Add 3 each time. Next term = 15.",
+        "hi": "हर बार 3 जोड़ें। अगला पद = 15।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Repeats the most recent gap between terms instead of following the sequence's actual rule (Add 3 each time.)",
+          "hi": "पदों के बीच के सबसे हालिया अंतर को दोहरा देता है, श्रृंखला के वास्तविक नियम (हर बार 3 जोड़ें।) का पालन किए बिना।"
+        },
+        "1": {
+          "en": "Off by one from the correct next term — a simple slip.",
+          "hi": "सही अगले पद से एक की चूक — एक साधारण गलती।"
+        },
+        "3": {
+          "en": "Applies the previous gap in the wrong direction.",
+          "hi": "पिछले अंतर को गलत दिशा में लागू कर देता है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2025-ma-01",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Find the next number in the series: 2, 6, 18, 54, ?",
+        "hi": "श्रृंखला में अगली संख्या ज्ञात करें: 2, 6, 18, 54, ?"
+      },
+      "optionsJson": [
+        {
+          "en": "90",
+          "hi": "90"
+        },
+        {
+          "en": "163",
+          "hi": "163"
+        },
+        {
+          "en": "126",
+          "hi": "126"
+        },
+        {
+          "en": "162",
+          "hi": "162"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Multiply by 3 each time. Next term = 162.",
+        "hi": "हर बार 3 से गुणा करें। अगला पद = 162।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Repeats the most recent gap between terms instead of following the sequence's actual rule (Multiply by 3 each time.)",
+          "hi": "पदों के बीच के सबसे हालिया अंतर को दोहरा देता है, श्रृंखला के वास्तविक नियम (हर बार 3 से गुणा करें।) का पालन किए बिना।"
+        },
+        "1": {
+          "en": "Off by one from the correct next term — a simple slip.",
+          "hi": "सही अगले पद से एक की चूक — एक साधारण गलती।"
+        },
+        "2": {
+          "en": "Applies the previous gap in the wrong direction.",
+          "hi": "पिछले अंतर को गलत दिशा में लागू कर देता है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2026-ma-01",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Find the next number in the series: 1, 4, 9, 16, ?",
+        "hi": "श्रृंखला में अगली संख्या ज्ञात करें: 1, 4, 9, 16, ?"
+      },
+      "optionsJson": [
+        {
+          "en": "25",
+          "hi": "25"
+        },
+        {
+          "en": "23",
+          "hi": "23"
+        },
+        {
+          "en": "26",
+          "hi": "26"
+        },
+        {
+          "en": "18",
+          "hi": "18"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Squares of 1, 2, 3, 4, 5 (1²,2²,3²,4²,5²). Next term = 25.",
+        "hi": "1, 2, 3, 4, 5 के वर्ग (1²,2²,3²,4²,5²)। अगला पद = 25।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Repeats the most recent gap between terms instead of following the sequence's actual rule (Squares of 1, 2, 3, 4, 5 (1²,2²,3²,4²,5²).)",
+          "hi": "पदों के बीच के सबसे हालिया अंतर को दोहरा देता है, श्रृंखला के वास्तविक नियम (1, 2, 3, 4, 5 के वर्ग (1²,2²,3²,4²,5²)।) का पालन किए बिना।"
+        },
+        "2": {
+          "en": "Off by one from the correct next term — a simple slip.",
+          "hi": "सही अगले पद से एक की चूक — एक साधारण गलती।"
+        },
+        "3": {
+          "en": "Applies the previous gap in the wrong direction.",
+          "hi": "पिछले अंतर को गलत दिशा में लागू कर देता है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2022-ma-02",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Find the next number in the series: 3, 6, 12, 24, ?",
+        "hi": "श्रृंखला में अगली संख्या ज्ञात करें: 3, 6, 12, 24, ?"
+      },
+      "optionsJson": [
+        {
+          "en": "36",
+          "hi": "36"
+        },
+        {
+          "en": "48",
+          "hi": "48"
+        },
+        {
+          "en": "49",
+          "hi": "49"
+        },
+        {
+          "en": "72",
+          "hi": "72"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Multiply by 2 each time. Next term = 48.",
+        "hi": "हर बार 2 से गुणा करें। अगला पद = 48।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Repeats the most recent gap between terms instead of following the sequence's actual rule (Multiply by 2 each time.)",
+          "hi": "पदों के बीच के सबसे हालिया अंतर को दोहरा देता है, श्रृंखला के वास्तविक नियम (हर बार 2 से गुणा करें।) का पालन किए बिना।"
+        },
+        "2": {
+          "en": "Off by one from the correct next term — a simple slip.",
+          "hi": "सही अगले पद से एक की चूक — एक साधारण गलती।"
+        },
+        "3": {
+          "en": "Applies the previous gap in the wrong direction.",
+          "hi": "पिछले अंतर को गलत दिशा में लागू कर देता है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2023-ma-02",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Find the next number in the series: 100, 90, 80, 70, ?",
+        "hi": "श्रृंखला में अगली संख्या ज्ञात करें: 100, 90, 80, 70, ?"
+      },
+      "optionsJson": [
+        {
+          "en": "61",
+          "hi": "61"
+        },
+        {
+          "en": "70",
+          "hi": "70"
+        },
+        {
+          "en": "60",
+          "hi": "60"
+        },
+        {
+          "en": "80",
+          "hi": "80"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Subtract 10 each time. Next term = 60.",
+        "hi": "हर बार 10 घटाएं। अगला पद = 60।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Repeats the most recent gap between terms instead of following the sequence's actual rule (Subtract 10 each time.)",
+          "hi": "पदों के बीच के सबसे हालिया अंतर को दोहरा देता है, श्रृंखला के वास्तविक नियम (हर बार 10 घटाएं।) का पालन किए बिना।"
+        },
+        "1": {
+          "en": "Off by one from the correct next term — a simple slip.",
+          "hi": "सही अगले पद से एक की चूक — एक साधारण गलती।"
+        },
+        "3": {
+          "en": "Applies the previous gap in the wrong direction.",
+          "hi": "पिछले अंतर को गलत दिशा में लागू कर देता है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2024-ma-02",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Find the next number in the series: 2, 3, 5, 8, 13, ?",
+        "hi": "श्रृंखला में अगली संख्या ज्ञात करें: 2, 3, 5, 8, 13, ?"
+      },
+      "optionsJson": [
+        {
+          "en": "18",
+          "hi": "18"
+        },
+        {
+          "en": "22",
+          "hi": "22"
+        },
+        {
+          "en": "16",
+          "hi": "16"
+        },
+        {
+          "en": "21",
+          "hi": "21"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Each term is the sum of the previous two (Fibonacci-style). Next term = 21.",
+        "hi": "प्रत्येक पद पिछले दो पदों का योग है (फिबोनाची शैली)। अगला पद = 21।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Repeats the most recent gap between terms instead of following the sequence's actual rule (Each term is the sum of the previous two (Fibonacci-style).)",
+          "hi": "पदों के बीच के सबसे हालिया अंतर को दोहरा देता है, श्रृंखला के वास्तविक नियम (प्रत्येक पद पिछले दो पदों का योग है (फिबोनाची शैली)।) का पालन किए बिना।"
+        },
+        "1": {
+          "en": "Off by one from the correct next term — a simple slip.",
+          "hi": "सही अगले पद से एक की चूक — एक साधारण गलती।"
+        },
+        "2": {
+          "en": "Applies the previous gap in the wrong direction.",
+          "hi": "पिछले अंतर को गलत दिशा में लागू कर देता है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2025-ma-02",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Find the next number in the series: 1, 1, 2, 3, 5, 8, ?",
+        "hi": "श्रृंखला में अगली संख्या ज्ञात करें: 1, 1, 2, 3, 5, 8, ?"
+      },
+      "optionsJson": [
+        {
+          "en": "13",
+          "hi": "13"
+        },
+        {
+          "en": "11",
+          "hi": "11"
+        },
+        {
+          "en": "14",
+          "hi": "14"
+        },
+        {
+          "en": "10",
+          "hi": "10"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Fibonacci sequence: each term is the sum of the previous two. Next term = 13.",
+        "hi": "फिबोनाची श्रृंखला: प्रत्येक पद पिछले दो पदों का योग है। अगला पद = 13।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Repeats the most recent gap between terms instead of following the sequence's actual rule (Fibonacci sequence: each term is the sum of the previous two.)",
+          "hi": "पदों के बीच के सबसे हालिया अंतर को दोहरा देता है, श्रृंखला के वास्तविक नियम (फिबोनाची श्रृंखला: प्रत्येक पद पिछले दो पदों का योग है।) का पालन किए बिना।"
+        },
+        "2": {
+          "en": "Off by one from the correct next term — a simple slip.",
+          "hi": "सही अगले पद से एक की चूक — एक साधारण गलती।"
+        },
+        "3": {
+          "en": "Applies the previous gap in the wrong direction.",
+          "hi": "पिछले अंतर को गलत दिशा में लागू कर देता है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2026-ma-02",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Find the next number in the series: 2, 5, 10, 17, 26, ?",
+        "hi": "श्रृंखला में अगली संख्या ज्ञात करें: 2, 5, 10, 17, 26, ?"
+      },
+      "optionsJson": [
+        {
+          "en": "35",
+          "hi": "35"
+        },
+        {
+          "en": "37",
+          "hi": "37"
+        },
+        {
+          "en": "38",
+          "hi": "38"
+        },
+        {
+          "en": "28",
+          "hi": "28"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Differences increase by 2 each time: +3,+5,+7,+9,then +11. Next term = 37.",
+        "hi": "अंतर हर बार 2 से बढ़ता है: +3,+5,+7,+9, फिर +11। अगला पद = 37।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Repeats the most recent gap between terms instead of following the sequence's actual rule (Differences increase by 2 each time: +3,+5,+7,+9,then +11.)",
+          "hi": "पदों के बीच के सबसे हालिया अंतर को दोहरा देता है, श्रृंखला के वास्तविक नियम (अंतर हर बार 2 से बढ़ता है: +3,+5,+7,+9, फिर +11।) का पालन किए बिना।"
+        },
+        "2": {
+          "en": "Off by one from the correct next term — a simple slip.",
+          "hi": "सही अगले पद से एक की चूक — एक साधारण गलती।"
+        },
+        "3": {
+          "en": "Applies the previous gap in the wrong direction.",
+          "hi": "पिछले अंतर को गलत दिशा में लागू कर देता है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2022-ma-03",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Find the next number in the series: 4, 9, 16, 25, ?",
+        "hi": "श्रृंखला में अगली संख्या ज्ञात करें: 4, 9, 16, 25, ?"
+      },
+      "optionsJson": [
+        {
+          "en": "34",
+          "hi": "34"
+        },
+        {
+          "en": "37",
+          "hi": "37"
+        },
+        {
+          "en": "36",
+          "hi": "36"
+        },
+        {
+          "en": "27",
+          "hi": "27"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Squares of 2, 3, 4, 5, 6 (2²,3²,4²,5²,6²). Next term = 36.",
+        "hi": "2, 3, 4, 5, 6 के वर्ग (2²,3²,4²,5²,6²)। अगला पद = 36।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Repeats the most recent gap between terms instead of following the sequence's actual rule (Squares of 2, 3, 4, 5, 6 (2²,3²,4²,5²,6²).)",
+          "hi": "पदों के बीच के सबसे हालिया अंतर को दोहरा देता है, श्रृंखला के वास्तविक नियम (2, 3, 4, 5, 6 के वर्ग (2²,3²,4²,5²,6²)।) का पालन किए बिना।"
+        },
+        "1": {
+          "en": "Off by one from the correct next term — a simple slip.",
+          "hi": "सही अगले पद से एक की चूक — एक साधारण गलती।"
+        },
+        "3": {
+          "en": "Applies the previous gap in the wrong direction.",
+          "hi": "पिछले अंतर को गलत दिशा में लागू कर देता है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2023-ma-03",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Find the next number in the series: 3, 8, 15, 24, 35, ?",
+        "hi": "श्रृंखला में अगली संख्या ज्ञात करें: 3, 8, 15, 24, 35, ?"
+      },
+      "optionsJson": [
+        {
+          "en": "46",
+          "hi": "46"
+        },
+        {
+          "en": "49",
+          "hi": "49"
+        },
+        {
+          "en": "37",
+          "hi": "37"
+        },
+        {
+          "en": "48",
+          "hi": "48"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Term n = n×(n+2): 1×3,2×4,3×5,4×6,5×7,6×8=48. Next term = 48.",
+        "hi": "पद n = n×(n+2): 1×3,2×4,3×5,4×6,5×7,6×8=48। अगला पद = 48।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Repeats the most recent gap between terms instead of following the sequence's actual rule (Term n = n×(n+2): 1×3,2×4,3×5,4×6,5×7,6×8=48.)",
+          "hi": "पदों के बीच के सबसे हालिया अंतर को दोहरा देता है, श्रृंखला के वास्तविक नियम (पद n = n×(n+2): 1×3,2×4,3×5,4×6,5×7,6×8=48।) का पालन किए बिना।"
+        },
+        "1": {
+          "en": "Off by one from the correct next term — a simple slip.",
+          "hi": "सही अगले पद से एक की चूक — एक साधारण गलती।"
+        },
+        "2": {
+          "en": "Applies the previous gap in the wrong direction.",
+          "hi": "पिछले अंतर को गलत दिशा में लागू कर देता है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2024-ma-03",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Find the next number in the series: 1, 2, 6, 24, 120, ?",
+        "hi": "श्रृंखला में अगली संख्या ज्ञात करें: 1, 2, 6, 24, 120, ?"
+      },
+      "optionsJson": [
+        {
+          "en": "720",
+          "hi": "720"
+        },
+        {
+          "en": "216",
+          "hi": "216"
+        },
+        {
+          "en": "721",
+          "hi": "721"
+        },
+        {
+          "en": "624",
+          "hi": "624"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Factorials: 1!,2!,3!,4!,5!,6!=720. Next term = 720.",
+        "hi": "क्रमगुणित (factorial): 1!,2!,3!,4!,5!,6!=720। अगला पद = 720।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Repeats the most recent gap between terms instead of following the sequence's actual rule (Factorials: 1!,2!,3!,4!,5!,6!=720.)",
+          "hi": "पदों के बीच के सबसे हालिया अंतर को दोहरा देता है, श्रृंखला के वास्तविक नियम (क्रमगुणित (factorial): 1!,2!,3!,4!,5!,6!=720।) का पालन किए बिना।"
+        },
+        "2": {
+          "en": "Off by one from the correct next term — a simple slip.",
+          "hi": "सही अगले पद से एक की चूक — एक साधारण गलती।"
+        },
+        "3": {
+          "en": "Applies the previous gap in the wrong direction.",
+          "hi": "पिछले अंतर को गलत दिशा में लागू कर देता है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2025-ma-03",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "If 'CAT' is coded as 'DBU', how is 'DOG' coded in the same language?",
+        "hi": "यदि 'CAT' को 'DBU' के रूप में कोडित किया जाता है, तो उसी भाषा में 'DOG' को कैसे कोडित किया जाएगा?"
+      },
+      "optionsJson": [
+        {
+          "en": "CNF",
+          "hi": "CNF"
+        },
+        {
+          "en": "EPH",
+          "hi": "EPH"
+        },
+        {
+          "en": "FQI",
+          "hi": "FQI"
+        },
+        {
+          "en": "DOG",
+          "hi": "DOG"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Each letter is shifted forward by 1 (e.g. C→D). Applying the same shift to 'DOG' gives 'EPH'.",
+        "hi": "प्रत्येक अक्षर को 1 आगे खिसकाया जाता है (जैसे C→D)। यही शिफ्ट 'DOG' पर लगाने से 'EPH' मिलता है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Shifts each letter backward instead of forward — the wrong direction.",
+          "hi": "प्रत्येक अक्षर को आगे के बजाय पीछे खिसका देता है — गलत दिशा।"
+        },
+        "2": {
+          "en": "Uses a shift one more than the actual rule.",
+          "hi": "वास्तविक नियम से एक अधिक शिफ्ट का उपयोग करता है।"
+        },
+        "3": {
+          "en": "Uses a shift one less than the actual rule.",
+          "hi": "वास्तविक नियम से एक कम शिफ्ट का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2026-ma-03",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "If 'SUN' is coded as 'UWP', how is 'SKY' coded in the same language?",
+        "hi": "यदि 'SUN' को 'UWP' के रूप में कोडित किया जाता है, तो उसी भाषा में 'SKY' को कैसे कोडित किया जाएगा?"
+      },
+      "optionsJson": [
+        {
+          "en": "QIW",
+          "hi": "QIW"
+        },
+        {
+          "en": "VNB",
+          "hi": "VNB"
+        },
+        {
+          "en": "UMA",
+          "hi": "UMA"
+        },
+        {
+          "en": "TLZ",
+          "hi": "TLZ"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Each letter is shifted forward by 2 (e.g. S→U). Applying the same shift to 'SKY' gives 'UMA'.",
+        "hi": "प्रत्येक अक्षर को 2 आगे खिसकाया जाता है (जैसे S→U)। यही शिफ्ट 'SKY' पर लगाने से 'UMA' मिलता है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Shifts each letter backward instead of forward — the wrong direction.",
+          "hi": "प्रत्येक अक्षर को आगे के बजाय पीछे खिसका देता है — गलत दिशा।"
+        },
+        "1": {
+          "en": "Uses a shift one more than the actual rule.",
+          "hi": "वास्तविक नियम से एक अधिक शिफ्ट का उपयोग करता है।"
+        },
+        "3": {
+          "en": "Uses a shift one less than the actual rule.",
+          "hi": "वास्तविक नियम से एक कम शिफ्ट का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2022-ma-04",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "If 'BOOK' is coded as 'CPPL', how is 'PAGE' coded in the same language?",
+        "hi": "यदि 'BOOK' को 'CPPL' के रूप में कोडित किया जाता है, तो उसी भाषा में 'PAGE' को कैसे कोडित किया जाएगा?"
+      },
+      "optionsJson": [
+        {
+          "en": "OZFD",
+          "hi": "OZFD"
+        },
+        {
+          "en": "RCIG",
+          "hi": "RCIG"
+        },
+        {
+          "en": "PAGE",
+          "hi": "PAGE"
+        },
+        {
+          "en": "QBHF",
+          "hi": "QBHF"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Each letter is shifted forward by 1 (e.g. B→C). Applying the same shift to 'PAGE' gives 'QBHF'.",
+        "hi": "प्रत्येक अक्षर को 1 आगे खिसकाया जाता है (जैसे B→C)। यही शिफ्ट 'PAGE' पर लगाने से 'QBHF' मिलता है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Shifts each letter backward instead of forward — the wrong direction.",
+          "hi": "प्रत्येक अक्षर को आगे के बजाय पीछे खिसका देता है — गलत दिशा।"
+        },
+        "1": {
+          "en": "Uses a shift one more than the actual rule.",
+          "hi": "वास्तविक नियम से एक अधिक शिफ्ट का उपयोग करता है।"
+        },
+        "2": {
+          "en": "Uses a shift one less than the actual rule.",
+          "hi": "वास्तविक नियम से एक कम शिफ्ट का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2023-ma-04",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "If 'TABLE' is coded as 'WDEOH', how is 'CHAIR' coded in the same language?",
+        "hi": "यदि 'TABLE' को 'WDEOH' के रूप में कोडित किया जाता है, तो उसी भाषा में 'CHAIR' को कैसे कोडित किया जाएगा?"
+      },
+      "optionsJson": [
+        {
+          "en": "FKDLU",
+          "hi": "FKDLU"
+        },
+        {
+          "en": "ZEXFO",
+          "hi": "ZEXFO"
+        },
+        {
+          "en": "GLEMV",
+          "hi": "GLEMV"
+        },
+        {
+          "en": "EJCKT",
+          "hi": "EJCKT"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Each letter is shifted forward by 3 (e.g. T→W). Applying the same shift to 'CHAIR' gives 'FKDLU'.",
+        "hi": "प्रत्येक अक्षर को 3 आगे खिसकाया जाता है (जैसे T→W)। यही शिफ्ट 'CHAIR' पर लगाने से 'FKDLU' मिलता है।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Shifts each letter backward instead of forward — the wrong direction.",
+          "hi": "प्रत्येक अक्षर को आगे के बजाय पीछे खिसका देता है — गलत दिशा।"
+        },
+        "2": {
+          "en": "Uses a shift one more than the actual rule.",
+          "hi": "वास्तविक नियम से एक अधिक शिफ्ट का उपयोग करता है।"
+        },
+        "3": {
+          "en": "Uses a shift one less than the actual rule.",
+          "hi": "वास्तविक नियम से एक कम शिफ्ट का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2024-ma-04",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "If 'MOUSE' is coded as 'QSYWI', how is 'HORSE' coded in the same language?",
+        "hi": "यदि 'MOUSE' को 'QSYWI' के रूप में कोडित किया जाता है, तो उसी भाषा में 'HORSE' को कैसे कोडित किया जाएगा?"
+      },
+      "optionsJson": [
+        {
+          "en": "DKNOA",
+          "hi": "DKNOA"
+        },
+        {
+          "en": "LSVWI",
+          "hi": "LSVWI"
+        },
+        {
+          "en": "MTWXJ",
+          "hi": "MTWXJ"
+        },
+        {
+          "en": "KRUVH",
+          "hi": "KRUVH"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Each letter is shifted forward by 4 (e.g. M→Q). Applying the same shift to 'HORSE' gives 'LSVWI'.",
+        "hi": "प्रत्येक अक्षर को 4 आगे खिसकाया जाता है (जैसे M→Q)। यही शिफ्ट 'HORSE' पर लगाने से 'LSVWI' मिलता है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Shifts each letter backward instead of forward — the wrong direction.",
+          "hi": "प्रत्येक अक्षर को आगे के बजाय पीछे खिसका देता है — गलत दिशा।"
+        },
+        "2": {
+          "en": "Uses a shift one more than the actual rule.",
+          "hi": "वास्तविक नियम से एक अधिक शिफ्ट का उपयोग करता है।"
+        },
+        "3": {
+          "en": "Uses a shift one less than the actual rule.",
+          "hi": "वास्तविक नियम से एक कम शिफ्ट का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2025-ma-04",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "If 'WATER' is coded as 'YCVGT', how is 'EARTH' coded in the same language?",
+        "hi": "यदि 'WATER' को 'YCVGT' के रूप में कोडित किया जाता है, तो उसी भाषा में 'EARTH' को कैसे कोडित किया जाएगा?"
+      },
+      "optionsJson": [
+        {
+          "en": "CYPRF",
+          "hi": "CYPRF"
+        },
+        {
+          "en": "HDUWK",
+          "hi": "HDUWK"
+        },
+        {
+          "en": "GCTVJ",
+          "hi": "GCTVJ"
+        },
+        {
+          "en": "FBSUI",
+          "hi": "FBSUI"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Each letter is shifted forward by 2 (e.g. W→Y). Applying the same shift to 'EARTH' gives 'GCTVJ'.",
+        "hi": "प्रत्येक अक्षर को 2 आगे खिसकाया जाता है (जैसे W→Y)। यही शिफ्ट 'EARTH' पर लगाने से 'GCTVJ' मिलता है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Shifts each letter backward instead of forward — the wrong direction.",
+          "hi": "प्रत्येक अक्षर को आगे के बजाय पीछे खिसका देता है — गलत दिशा।"
+        },
+        "1": {
+          "en": "Uses a shift one more than the actual rule.",
+          "hi": "वास्तविक नियम से एक अधिक शिफ्ट का उपयोग करता है।"
+        },
+        "3": {
+          "en": "Uses a shift one less than the actual rule.",
+          "hi": "वास्तविक नियम से एक कम शिफ्ट का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2026-ma-04",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "If 'GARDEN' is coded as 'JDUGHQ', how is 'FLOWER' coded in the same language?",
+        "hi": "यदि 'GARDEN' को 'JDUGHQ' के रूप में कोडित किया जाता है, तो उसी भाषा में 'FLOWER' को कैसे कोडित किया जाएगा?"
+      },
+      "optionsJson": [
+        {
+          "en": "CILTBO",
+          "hi": "CILTBO"
+        },
+        {
+          "en": "JPSAIV",
+          "hi": "JPSAIV"
+        },
+        {
+          "en": "HNQYGT",
+          "hi": "HNQYGT"
+        },
+        {
+          "en": "IORZHU",
+          "hi": "IORZHU"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Each letter is shifted forward by 3 (e.g. G→J). Applying the same shift to 'FLOWER' gives 'IORZHU'.",
+        "hi": "प्रत्येक अक्षर को 3 आगे खिसकाया जाता है (जैसे G→J)। यही शिफ्ट 'FLOWER' पर लगाने से 'IORZHU' मिलता है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Shifts each letter backward instead of forward — the wrong direction.",
+          "hi": "प्रत्येक अक्षर को आगे के बजाय पीछे खिसका देता है — गलत दिशा।"
+        },
+        "1": {
+          "en": "Uses a shift one more than the actual rule.",
+          "hi": "वास्तविक नियम से एक अधिक शिफ्ट का उपयोग करता है।"
+        },
+        "2": {
+          "en": "Uses a shift one less than the actual rule.",
+          "hi": "वास्तविक नियम से एक कम शिफ्ट का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2022-ma-05",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "If 'SCHOOL' is coded as 'XHMTTQ', how is 'TEACHER' coded in the same language?",
+        "hi": "यदि 'SCHOOL' को 'XHMTTQ' के रूप में कोडित किया जाता है, तो उसी भाषा में 'TEACHER' को कैसे कोडित किया जाएगा?"
+      },
+      "optionsJson": [
+        {
+          "en": "YJFHMJW",
+          "hi": "YJFHMJW"
+        },
+        {
+          "en": "OZVXCZM",
+          "hi": "OZVXCZM"
+        },
+        {
+          "en": "ZKGINKX",
+          "hi": "ZKGINKX"
+        },
+        {
+          "en": "XIEGLIV",
+          "hi": "XIEGLIV"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Each letter is shifted forward by 5 (e.g. S→X). Applying the same shift to 'TEACHER' gives 'YJFHMJW'.",
+        "hi": "प्रत्येक अक्षर को 5 आगे खिसकाया जाता है (जैसे S→X)। यही शिफ्ट 'TEACHER' पर लगाने से 'YJFHMJW' मिलता है।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Shifts each letter backward instead of forward — the wrong direction.",
+          "hi": "प्रत्येक अक्षर को आगे के बजाय पीछे खिसका देता है — गलत दिशा।"
+        },
+        "2": {
+          "en": "Uses a shift one more than the actual rule.",
+          "hi": "वास्तविक नियम से एक अधिक शिफ्ट का उपयोग करता है।"
+        },
+        "3": {
+          "en": "Uses a shift one less than the actual rule.",
+          "hi": "वास्तविक नियम से एक कम शिफ्ट का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2023-ma-05",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "If 'PENCIL' is coded as 'VKTIOR', how is 'MARKER' coded in the same language?",
+        "hi": "यदि 'PENCIL' को 'VKTIOR' के रूप में कोडित किया जाता है, तो उसी भाषा में 'MARKER' को कैसे कोडित किया जाएगा?"
+      },
+      "optionsJson": [
+        {
+          "en": "GULEYL",
+          "hi": "GULEYL"
+        },
+        {
+          "en": "SGXQKX",
+          "hi": "SGXQKX"
+        },
+        {
+          "en": "THYRLY",
+          "hi": "THYRLY"
+        },
+        {
+          "en": "RFWPJW",
+          "hi": "RFWPJW"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Each letter is shifted forward by 6 (e.g. P→V). Applying the same shift to 'MARKER' gives 'SGXQKX'.",
+        "hi": "प्रत्येक अक्षर को 6 आगे खिसकाया जाता है (जैसे P→V)। यही शिफ्ट 'MARKER' पर लगाने से 'SGXQKX' मिलता है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Shifts each letter backward instead of forward — the wrong direction.",
+          "hi": "प्रत्येक अक्षर को आगे के बजाय पीछे खिसका देता है — गलत दिशा।"
+        },
+        "2": {
+          "en": "Uses a shift one more than the actual rule.",
+          "hi": "वास्तविक नियम से एक अधिक शिफ्ट का उपयोग करता है।"
+        },
+        "3": {
+          "en": "Uses a shift one less than the actual rule.",
+          "hi": "वास्तविक नियम से एक कम शिफ्ट का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2024-ma-05",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "If 'MOUNTAIN' is coded as 'QSYRXEMR', how is 'VALLEY' coded in the same language?",
+        "hi": "यदि 'MOUNTAIN' को 'QSYRXEMR' के रूप में कोडित किया जाता है, तो उसी भाषा में 'VALLEY' को कैसे कोडित किया जाएगा?"
+      },
+      "optionsJson": [
+        {
+          "en": "RWHHAU",
+          "hi": "RWHHAU"
+        },
+        {
+          "en": "AFQQJD",
+          "hi": "AFQQJD"
+        },
+        {
+          "en": "ZEPPIC",
+          "hi": "ZEPPIC"
+        },
+        {
+          "en": "YDOOHB",
+          "hi": "YDOOHB"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Each letter is shifted forward by 4 (e.g. M→Q). Applying the same shift to 'VALLEY' gives 'ZEPPIC'.",
+        "hi": "प्रत्येक अक्षर को 4 आगे खिसकाया जाता है (जैसे M→Q)। यही शिफ्ट 'VALLEY' पर लगाने से 'ZEPPIC' मिलता है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Shifts each letter backward instead of forward — the wrong direction.",
+          "hi": "प्रत्येक अक्षर को आगे के बजाय पीछे खिसका देता है — गलत दिशा।"
+        },
+        "1": {
+          "en": "Uses a shift one more than the actual rule.",
+          "hi": "वास्तविक नियम से एक अधिक शिफ्ट का उपयोग करता है।"
+        },
+        "3": {
+          "en": "Uses a shift one less than the actual rule.",
+          "hi": "वास्तविक नियम से एक कम शिफ्ट का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2025-ma-05",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "If 'ELEPHANT' is coded as 'LSLWOHUA', how is 'TIGER' coded in the same language?",
+        "hi": "यदि 'ELEPHANT' को 'LSLWOHUA' के रूप में कोडित किया जाता है, तो उसी भाषा में 'TIGER' को कैसे कोडित किया जाएगा?"
+      },
+      "optionsJson": [
+        {
+          "en": "MBZXK",
+          "hi": "MBZXK"
+        },
+        {
+          "en": "BQOMZ",
+          "hi": "BQOMZ"
+        },
+        {
+          "en": "ZOMKX",
+          "hi": "ZOMKX"
+        },
+        {
+          "en": "APNLY",
+          "hi": "APNLY"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Each letter is shifted forward by 7 (e.g. E→L). Applying the same shift to 'TIGER' gives 'APNLY'.",
+        "hi": "प्रत्येक अक्षर को 7 आगे खिसकाया जाता है (जैसे E→L)। यही शिफ्ट 'TIGER' पर लगाने से 'APNLY' मिलता है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Shifts each letter backward instead of forward — the wrong direction.",
+          "hi": "प्रत्येक अक्षर को आगे के बजाय पीछे खिसका देता है — गलत दिशा।"
+        },
+        "1": {
+          "en": "Uses a shift one more than the actual rule.",
+          "hi": "वास्तविक नियम से एक अधिक शिफ्ट का उपयोग करता है।"
+        },
+        "2": {
+          "en": "Uses a shift one less than the actual rule.",
+          "hi": "वास्तविक नियम से एक कम शिफ्ट का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-2026-ma-05",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "If 'COMPUTER' is coded as 'HTRUZYJW', how is 'KEYBOARD' coded in the same language?",
+        "hi": "यदि 'COMPUTER' को 'HTRUZYJW' के रूप में कोडित किया जाता है, तो उसी भाषा में 'KEYBOARD' को कैसे कोडित किया जाएगा?"
+      },
+      "optionsJson": [
+        {
+          "en": "PJDGTFWI",
+          "hi": "PJDGTFWI"
+        },
+        {
+          "en": "FZTWJVMY",
+          "hi": "FZTWJVMY"
+        },
+        {
+          "en": "QKEHUGXJ",
+          "hi": "QKEHUGXJ"
+        },
+        {
+          "en": "OICFSEVH",
+          "hi": "OICFSEVH"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Each letter is shifted forward by 5 (e.g. C→H). Applying the same shift to 'KEYBOARD' gives 'PJDGTFWI'.",
+        "hi": "प्रत्येक अक्षर को 5 आगे खिसकाया जाता है (जैसे C→H)। यही शिफ्ट 'KEYBOARD' पर लगाने से 'PJDGTFWI' मिलता है।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Shifts each letter backward instead of forward — the wrong direction.",
+          "hi": "प्रत्येक अक्षर को आगे के बजाय पीछे खिसका देता है — गलत दिशा।"
+        },
+        "2": {
+          "en": "Uses a shift one more than the actual rule.",
+          "hi": "वास्तविक नियम से एक अधिक शिफ्ट का उपयोग करता है।"
+        },
+        "3": {
+          "en": "Uses a shift one less than the actual rule.",
+          "hi": "वास्तविक नियम से एक कम शिफ्ट का उपयोग करता है।"
+        }
+      }
+    }
+  ]
+}

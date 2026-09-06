@@ -51,6 +51,7 @@ async function main() {
       optionsJson: item.optionsJson as unknown as Prisma.InputJsonValue,
       correctAnswer: item.correctAnswer,
       explanation: item.explanation as unknown as Prisma.InputJsonValue,
+      distractorAnalysis: (item.distractorAnalysis as unknown as Prisma.InputJsonValue) ?? Prisma.JsonNull,
       difficulty: item.difficulty,
     };
 
