@@ -1,4 +1,4 @@
-import { Difficulty, ExamType, Language, Prisma, PrismaClient } from "@prisma/client";
+import { ContentClassLevel, Difficulty, ExamType, Language, Prisma, PrismaClient } from "@prisma/client";
 
 import { blogSeedPosts } from "./blog-seed";
 import { loadAuditQuestions, type AuditFile } from "./topic-seed/audit-loader";
@@ -21,6 +21,12 @@ import profitLossInterestAudit from "./topic-seed/audit/profit-loss-interest.jso
 import areaPerimeterVolumeAudit from "./topic-seed/audit/area-perimeter-volume.json";
 import sainikSchoolGkAudit from "./topic-seed/audit/sainik-school-gk.json";
 import rmsCurrentAffairsAudit from "./topic-seed/audit/rms-current-affairs.json";
+import algebraClass9Audit from "./topic-seed/audit/class9/algebra-class9.json";
+import rationalNumbersClass9Audit from "./topic-seed/audit/class9/rational-numbers-class9.json";
+import mensurationClass9Audit from "./topic-seed/audit/class9/mensuration-class9.json";
+import generalScienceClass9Audit from "./topic-seed/audit/class9/general-science-class9.json";
+import socialScienceClass9Audit from "./topic-seed/audit/class9/social-science-class9.json";
+import advancedEnglishClass9Audit from "./topic-seed/audit/class9/advanced-english-class9.json";
 import { buildClassificationQuestions } from "./topic-seed/classification";
 import { buildNumberSeriesQuestions } from "./topic-seed/number-series";
 import { buildPatternCompletionQuestions } from "./topic-seed/pattern-completion";
@@ -375,36 +381,121 @@ async function main() {
     },
   });
 
+  // Backfilled to CLASS_9 below (update block) — these predate the
+  // targetClass column, but per this section's own comment above they've
+  // always been Class 9 lateral-entry content, never Class 6.
   const generalMathematics = await prisma.topic.upsert({
     where: { sectionId_key: { sectionId: mathematics.id, key: "general_mathematics" } },
-    update: {},
+    update: { targetClass: "CLASS_9" },
     create: {
       sectionId: mathematics.id,
       key: "general_mathematics",
       name: { en: "General Mathematics", hi: "सामान्य गणित" },
       order: 1,
+      targetClass: "CLASS_9",
     },
   });
 
   const generalScience = await prisma.topic.upsert({
     where: { sectionId_key: { sectionId: science.id, key: "general_science" } },
-    update: {},
+    update: { targetClass: "CLASS_9" },
     create: {
       sectionId: science.id,
       key: "general_science",
       name: { en: "General Science", hi: "सामान्य विज्ञान" },
       order: 1,
+      targetClass: "CLASS_9",
     },
   });
 
   const socialAwareness = await prisma.topic.upsert({
     where: { sectionId_key: { sectionId: socialScience.id, key: "social_awareness" } },
-    update: {},
+    update: { targetClass: "CLASS_9" },
     create: {
       sectionId: socialScience.id,
       key: "social_awareness",
       name: { en: "Social & Civic Awareness", hi: "सामाजिक एवं नागरिक जागरूकता" },
       order: 1,
+      targetClass: "CLASS_9",
+    },
+  });
+
+  // ── Class 9 curriculum expansion (JNVST/AISSEE/RMS Class 9): Algebra,
+  // Rational Numbers, Mensuration (packages/db/prisma/topic-seed/
+  // algebra-class9.ts, rational-numbers-class9.ts, mensuration-class9.ts —
+  // computed), General Science, Social Science, Advanced English
+  // (packages/db/prisma/topic-seed/audit/class9/*.json — agent-drafted,
+  // independently verified). Every topic and question here is
+  // targetClass-tagged "CLASS_9".
+  const algebraClass9 = await prisma.topic.upsert({
+    where: { sectionId_key: { sectionId: mathematics.id, key: "algebra_class9" } },
+    update: {},
+    create: {
+      sectionId: mathematics.id,
+      key: "algebra_class9",
+      name: { en: "Algebra", hi: "बीजगणित" },
+      order: 2,
+      targetClass: "CLASS_9",
+    },
+  });
+
+  const rationalNumbersClass9 = await prisma.topic.upsert({
+    where: { sectionId_key: { sectionId: mathematics.id, key: "rational_numbers_class9" } },
+    update: {},
+    create: {
+      sectionId: mathematics.id,
+      key: "rational_numbers_class9",
+      name: { en: "Rational Numbers", hi: "परिमेय संख्याएँ" },
+      order: 3,
+      targetClass: "CLASS_9",
+    },
+  });
+
+  const mensurationClass9 = await prisma.topic.upsert({
+    where: { sectionId_key: { sectionId: mathematics.id, key: "mensuration_class9" } },
+    update: {},
+    create: {
+      sectionId: mathematics.id,
+      key: "mensuration_class9",
+      name: { en: "Mensuration", hi: "क्षेत्रमिति" },
+      order: 4,
+      targetClass: "CLASS_9",
+    },
+  });
+
+  const generalScienceClass9 = await prisma.topic.upsert({
+    where: { sectionId_key: { sectionId: science.id, key: "general_science_class9" } },
+    update: {},
+    create: {
+      sectionId: science.id,
+      key: "general_science_class9",
+      name: { en: "General Science (Class 9)", hi: "सामान्य विज्ञान (कक्षा 9)" },
+      order: 2,
+      targetClass: "CLASS_9",
+    },
+  });
+
+  const socialScienceClass9 = await prisma.topic.upsert({
+    where: { sectionId_key: { sectionId: socialScience.id, key: "social_science_class9" } },
+    update: {},
+    create: {
+      sectionId: socialScience.id,
+      key: "social_science_class9",
+      name: { en: "Social Science (Class 9)", hi: "सामाजिक विज्ञान (कक्षा 9)" },
+      order: 2,
+      targetClass: "CLASS_9",
+    },
+  });
+
+  const advancedEnglishClass9 = await prisma.topic.upsert({
+    where: { sectionId_key: { sectionId: language.id, key: "advanced_english_class9" } },
+    update: {},
+    create: {
+      sectionId: language.id,
+      key: "advanced_english_class9",
+      name: { en: "Advanced English Grammar & Comprehension", hi: "उन्नत अंग्रेज़ी व्याकरण एवं अनुच्छेद बोध" },
+      order: 2,
+      targetClass: "CLASS_9",
     },
   });
 
@@ -749,6 +840,8 @@ async function main() {
     figureMetadata?: Prisma.InputJsonValue;
     /** Restricts this question to one exam track — see Question.targetExam. */
     targetExam?: ExamType;
+    /** Grade-level tag — see Question.targetClass. */
+    targetClass?: ContentClassLevel;
   }
 
   /** Adapts a topic-seed/*.ts generator's output (packages/db/prisma/topic-seed/types.ts) into this file's QuestionSeed shape. */
@@ -765,6 +858,7 @@ async function main() {
       distractorAnalysis: q.distractorAnalysis as unknown as Prisma.InputJsonValue,
       figureMetadata: q.figureMetadata as unknown as Prisma.InputJsonValue | undefined,
       targetExam: q.targetExam as unknown as ExamType | undefined,
+      targetClass: q.targetClass as unknown as ContentClassLevel | undefined,
     }));
   }
 
@@ -1321,6 +1415,32 @@ async function main() {
   const generalSciencePool = fromGenerated(generalScience.id, loadAuditQuestions(generalScienceAudit as unknown as AuditFile));
   const socialAwarenessPool = fromGenerated(socialAwareness.id, loadAuditQuestions(socialAwarenessAudit as unknown as AuditFile));
 
+  // Class 9 curriculum expansion — Algebra/Rational Numbers/Mensuration are
+  // computed (packages/db/prisma/topic-seed/algebra-class9.ts etc.); General
+  // Science/Social Science/Advanced English were agent-drafted and
+  // independently re-verified (fact-checked line by line, not just
+  // structurally) before being wired in here. loadAuditQuestions re-runs
+  // the structural checks again as defense-in-depth, same as every audit
+  // pool above.
+  const algebraClass9Pool = fromGenerated(algebraClass9.id, loadAuditQuestions(algebraClass9Audit as unknown as AuditFile));
+  const rationalNumbersClass9Pool = fromGenerated(
+    rationalNumbersClass9.id,
+    loadAuditQuestions(rationalNumbersClass9Audit as unknown as AuditFile)
+  );
+  const mensurationClass9Pool = fromGenerated(mensurationClass9.id, loadAuditQuestions(mensurationClass9Audit as unknown as AuditFile));
+  const generalScienceClass9Pool = fromGenerated(
+    generalScienceClass9.id,
+    loadAuditQuestions(generalScienceClass9Audit as unknown as AuditFile)
+  );
+  const socialScienceClass9Pool = fromGenerated(
+    socialScienceClass9.id,
+    loadAuditQuestions(socialScienceClass9Audit as unknown as AuditFile)
+  );
+  const advancedEnglishClass9Pool = fromGenerated(
+    advancedEnglishClass9.id,
+    loadAuditQuestions(advancedEnglishClass9Audit as unknown as AuditFile)
+  );
+
   // Visual/non-verbal reasoning: Figure Matching, Figure Series Completion,
   // Analogy — every option is a real inline-SVG diagram (figureMetadata),
   // computed by construction (packages/db/prisma/topic-seed/figure-matching.ts,
@@ -1391,6 +1511,12 @@ async function main() {
     ...areaPerimeterVolumePool,
     ...sainikSchoolGkPool,
     ...rmsCurrentAffairsPool,
+    ...algebraClass9Pool,
+    ...rationalNumbersClass9Pool,
+    ...mensurationClass9Pool,
+    ...generalScienceClass9Pool,
+    ...socialScienceClass9Pool,
+    ...advancedEnglishClass9Pool,
   ];
 
   let newQuestionCount = 0;
@@ -1408,6 +1534,7 @@ async function main() {
         distractorAnalysis: q.distractorAnalysis ?? Prisma.JsonNull,
         figureMetadata: q.figureMetadata ?? Prisma.JsonNull,
         targetExam: q.targetExam ?? null,
+        targetClass: q.targetClass ?? null,
       },
       create: q,
     });

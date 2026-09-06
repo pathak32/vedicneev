@@ -13,6 +13,9 @@ export type QuestionDifficulty = "EASY" | "MEDIUM" | "HARD";
 /** Mirrors packages/db/prisma/schema.prisma's ExamType enum as a plain string union, same convention as QuestionDifficulty above — these standalone generator files never import from @prisma/client directly. */
 export type TargetExam = "JNVST" | "AISSEE" | "RMS" | "DPS" | "OTHER";
 
+/** Mirrors packages/db/prisma/schema.prisma's ContentClassLevel enum — grade-level content classification, distinct from the student-profile "target class" concept used elsewhere (a raw grade number). */
+export type ContentClassLevel = "CLASS_6" | "CLASS_9";
+
 export interface OptionSeed {
   id: string;
   text: LangText;
@@ -58,6 +61,8 @@ export interface GeneratedQuestion {
   figureMetadata?: FigureMetadataSeed;
   /** Restricts this question to one exam track (e.g. AISSEE-only GK, RMS-only Current Affairs) — see schema.prisma's Question.targetExam. Unset means exam-agnostic, the default for every generator that doesn't set it. */
   targetExam?: TargetExam;
+  /** Grade-level tag — see schema.prisma's Question.targetClass. Unset means CLASS_6 (every generator that predates this field). Set to "CLASS_9" by the Class 9 curriculum expansion's generators/audits. */
+  targetClass?: ContentClassLevel;
 }
 
 /**

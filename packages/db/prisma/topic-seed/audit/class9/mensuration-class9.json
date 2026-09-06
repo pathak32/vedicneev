@@ -1,0 +1,2327 @@
+{
+  "section": "mathematics",
+  "topicKey": "mensuration_class9",
+  "generatedAt": "2026-09-06T08:12:47.417Z",
+  "questions": [
+    {
+      "key": "bank-math9-mensuration-cylindercsa-01",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Find the curved surface area of a cylinder with radius 7 cm and height 10 cm. (Use π = 22/7)",
+        "hi": "7 सेमी त्रिज्या और 10 सेमी ऊंचाई वाले एक बेलन का वक्र पृष्ठीय क्षेत्रफल ज्ञात करें। (π = 22/7 का उपयोग करें)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "440",
+            "hi": "440"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "220",
+            "hi": "220"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "748",
+            "hi": "748"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "1540",
+            "hi": "1540"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "CSA = 2πrh = 2 × 22/7 × 7 × 10 = 440 cm².",
+        "hi": "वक्र पृष्ठीय क्षेत्रफल = 2πrh = 2 × 22/7 × 7 × 10 = 440 सेमी²।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Forgets the factor of 2 — computes πrh instead of 2πrh.",
+          "hi": "2 के गुणांक को भूल जाता है — 2πrh के बजाय πrh की गणना करता है।"
+        },
+        "c": {
+          "en": "Uses the Total Surface Area formula 2πr(r+h) instead of the Curved Surface Area formula 2πrh.",
+          "hi": "वक्र पृष्ठीय क्षेत्रफल सूत्र 2πrh के बजाय कुल पृष्ठीय क्षेत्रफल सूत्र 2πr(r+h) का उपयोग करता है।"
+        },
+        "d": {
+          "en": "Uses the Volume formula πr²h instead of the Curved Surface Area formula.",
+          "hi": "वक्र पृष्ठीय क्षेत्रफल सूत्र के बजाय आयतन सूत्र πr²h का उपयोग करता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-mensuration-cylindercsa-02",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Find the curved surface area of a cylinder with radius 14 cm and height 6 cm. (Use π = 22/7)",
+        "hi": "14 सेमी त्रिज्या और 6 सेमी ऊंचाई वाले एक बेलन का वक्र पृष्ठीय क्षेत्रफल ज्ञात करें। (π = 22/7 का उपयोग करें)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "264",
+            "hi": "264"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "528",
+            "hi": "528"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "1760",
+            "hi": "1760"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "3696",
+            "hi": "3696"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "CSA = 2πrh = 2 × 22/7 × 14 × 6 = 528 cm².",
+        "hi": "वक्र पृष्ठीय क्षेत्रफल = 2πrh = 2 × 22/7 × 14 × 6 = 528 सेमी²।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Forgets the factor of 2 — computes πrh instead of 2πrh.",
+          "hi": "2 के गुणांक को भूल जाता है — 2πrh के बजाय πrh की गणना करता है।"
+        },
+        "c": {
+          "en": "Uses the Total Surface Area formula 2πr(r+h) instead of the Curved Surface Area formula 2πrh.",
+          "hi": "वक्र पृष्ठीय क्षेत्रफल सूत्र 2πrh के बजाय कुल पृष्ठीय क्षेत्रफल सूत्र 2πr(r+h) का उपयोग करता है।"
+        },
+        "d": {
+          "en": "Uses the Volume formula πr²h instead of the Curved Surface Area formula.",
+          "hi": "वक्र पृष्ठीय क्षेत्रफल सूत्र के बजाय आयतन सूत्र πr²h का उपयोग करता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-mensuration-cylindercsa-03",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Find the curved surface area of a cylinder with radius 21 cm and height 4 cm. (Use π = 22/7)",
+        "hi": "21 सेमी त्रिज्या और 4 सेमी ऊंचाई वाले एक बेलन का वक्र पृष्ठीय क्षेत्रफल ज्ञात करें। (π = 22/7 का उपयोग करें)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "264",
+            "hi": "264"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "3300",
+            "hi": "3300"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "528",
+            "hi": "528"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "5544",
+            "hi": "5544"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "CSA = 2πrh = 2 × 22/7 × 21 × 4 = 528 cm².",
+        "hi": "वक्र पृष्ठीय क्षेत्रफल = 2πrh = 2 × 22/7 × 21 × 4 = 528 सेमी²।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Forgets the factor of 2 — computes πrh instead of 2πrh.",
+          "hi": "2 के गुणांक को भूल जाता है — 2πrh के बजाय πrh की गणना करता है।"
+        },
+        "b": {
+          "en": "Uses the Total Surface Area formula 2πr(r+h) instead of the Curved Surface Area formula 2πrh.",
+          "hi": "वक्र पृष्ठीय क्षेत्रफल सूत्र 2πrh के बजाय कुल पृष्ठीय क्षेत्रफल सूत्र 2πr(r+h) का उपयोग करता है।"
+        },
+        "d": {
+          "en": "Uses the Volume formula πr²h instead of the Curved Surface Area formula.",
+          "hi": "वक्र पृष्ठीय क्षेत्रफल सूत्र के बजाय आयतन सूत्र πr²h का उपयोग करता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-mensuration-cylindercsa-04",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Find the curved surface area of a cylinder with radius 7 cm and height 15 cm. (Use π = 22/7)",
+        "hi": "7 सेमी त्रिज्या और 15 सेमी ऊंचाई वाले एक बेलन का वक्र पृष्ठीय क्षेत्रफल ज्ञात करें। (π = 22/7 का उपयोग करें)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "330",
+            "hi": "330"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "968",
+            "hi": "968"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "2310",
+            "hi": "2310"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "660",
+            "hi": "660"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "CSA = 2πrh = 2 × 22/7 × 7 × 15 = 660 cm².",
+        "hi": "वक्र पृष्ठीय क्षेत्रफल = 2πrh = 2 × 22/7 × 7 × 15 = 660 सेमी²।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Forgets the factor of 2 — computes πrh instead of 2πrh.",
+          "hi": "2 के गुणांक को भूल जाता है — 2πrh के बजाय πrh की गणना करता है।"
+        },
+        "b": {
+          "en": "Uses the Total Surface Area formula 2πr(r+h) instead of the Curved Surface Area formula 2πrh.",
+          "hi": "वक्र पृष्ठीय क्षेत्रफल सूत्र 2πrh के बजाय कुल पृष्ठीय क्षेत्रफल सूत्र 2πr(r+h) का उपयोग करता है।"
+        },
+        "c": {
+          "en": "Uses the Volume formula πr²h instead of the Curved Surface Area formula.",
+          "hi": "वक्र पृष्ठीय क्षेत्रफल सूत्र के बजाय आयतन सूत्र πr²h का उपयोग करता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-mensuration-cylindercsa-05",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Find the curved surface area of a cylinder with radius 14 cm and height 8 cm. (Use π = 22/7)",
+        "hi": "14 सेमी त्रिज्या और 8 सेमी ऊंचाई वाले एक बेलन का वक्र पृष्ठीय क्षेत्रफल ज्ञात करें। (π = 22/7 का उपयोग करें)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "704",
+            "hi": "704"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "352",
+            "hi": "352"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "1936",
+            "hi": "1936"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "4928",
+            "hi": "4928"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "CSA = 2πrh = 2 × 22/7 × 14 × 8 = 704 cm².",
+        "hi": "वक्र पृष्ठीय क्षेत्रफल = 2πrh = 2 × 22/7 × 14 × 8 = 704 सेमी²।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Forgets the factor of 2 — computes πrh instead of 2πrh.",
+          "hi": "2 के गुणांक को भूल जाता है — 2πrh के बजाय πrh की गणना करता है।"
+        },
+        "c": {
+          "en": "Uses the Total Surface Area formula 2πr(r+h) instead of the Curved Surface Area formula 2πrh.",
+          "hi": "वक्र पृष्ठीय क्षेत्रफल सूत्र 2πrh के बजाय कुल पृष्ठीय क्षेत्रफल सूत्र 2πr(r+h) का उपयोग करता है।"
+        },
+        "d": {
+          "en": "Uses the Volume formula πr²h instead of the Curved Surface Area formula.",
+          "hi": "वक्र पृष्ठीय क्षेत्रफल सूत्र के बजाय आयतन सूत्र πr²h का उपयोग करता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-mensuration-cylindercsa-06",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Find the curved surface area of a cylinder with radius 21 cm and height 5 cm. (Use π = 22/7)",
+        "hi": "21 सेमी त्रिज्या और 5 सेमी ऊंचाई वाले एक बेलन का वक्र पृष्ठीय क्षेत्रफल ज्ञात करें। (π = 22/7 का उपयोग करें)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "330",
+            "hi": "330"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "660",
+            "hi": "660"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "3432",
+            "hi": "3432"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "6930",
+            "hi": "6930"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "CSA = 2πrh = 2 × 22/7 × 21 × 5 = 660 cm².",
+        "hi": "वक्र पृष्ठीय क्षेत्रफल = 2πrh = 2 × 22/7 × 21 × 5 = 660 सेमी²।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Forgets the factor of 2 — computes πrh instead of 2πrh.",
+          "hi": "2 के गुणांक को भूल जाता है — 2πrh के बजाय πrh की गणना करता है।"
+        },
+        "c": {
+          "en": "Uses the Total Surface Area formula 2πr(r+h) instead of the Curved Surface Area formula 2πrh.",
+          "hi": "वक्र पृष्ठीय क्षेत्रफल सूत्र 2πrh के बजाय कुल पृष्ठीय क्षेत्रफल सूत्र 2πr(r+h) का उपयोग करता है।"
+        },
+        "d": {
+          "en": "Uses the Volume formula πr²h instead of the Curved Surface Area formula.",
+          "hi": "वक्र पृष्ठीय क्षेत्रफल सूत्र के बजाय आयतन सूत्र πr²h का उपयोग करता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-mensuration-cylindercsa-07",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Find the curved surface area of a cylinder with radius 7 cm and height 20 cm. (Use π = 22/7)",
+        "hi": "7 सेमी त्रिज्या और 20 सेमी ऊंचाई वाले एक बेलन का वक्र पृष्ठीय क्षेत्रफल ज्ञात करें। (π = 22/7 का उपयोग करें)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "440",
+            "hi": "440"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "1188",
+            "hi": "1188"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "880",
+            "hi": "880"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "3080",
+            "hi": "3080"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "CSA = 2πrh = 2 × 22/7 × 7 × 20 = 880 cm².",
+        "hi": "वक्र पृष्ठीय क्षेत्रफल = 2πrh = 2 × 22/7 × 7 × 20 = 880 सेमी²।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Forgets the factor of 2 — computes πrh instead of 2πrh.",
+          "hi": "2 के गुणांक को भूल जाता है — 2πrh के बजाय πrh की गणना करता है।"
+        },
+        "b": {
+          "en": "Uses the Total Surface Area formula 2πr(r+h) instead of the Curved Surface Area formula 2πrh.",
+          "hi": "वक्र पृष्ठीय क्षेत्रफल सूत्र 2πrh के बजाय कुल पृष्ठीय क्षेत्रफल सूत्र 2πr(r+h) का उपयोग करता है।"
+        },
+        "d": {
+          "en": "Uses the Volume formula πr²h instead of the Curved Surface Area formula.",
+          "hi": "वक्र पृष्ठीय क्षेत्रफल सूत्र के बजाय आयतन सूत्र πr²h का उपयोग करता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-mensuration-cylindercsa-08",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Find the curved surface area of a cylinder with radius 28 cm and height 3 cm. (Use π = 22/7)",
+        "hi": "28 सेमी त्रिज्या और 3 सेमी ऊंचाई वाले एक बेलन का वक्र पृष्ठीय क्षेत्रफल ज्ञात करें। (π = 22/7 का उपयोग करें)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "264",
+            "hi": "264"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "5456",
+            "hi": "5456"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "7392",
+            "hi": "7392"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "528",
+            "hi": "528"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "CSA = 2πrh = 2 × 22/7 × 28 × 3 = 528 cm².",
+        "hi": "वक्र पृष्ठीय क्षेत्रफल = 2πrh = 2 × 22/7 × 28 × 3 = 528 सेमी²।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Forgets the factor of 2 — computes πrh instead of 2πrh.",
+          "hi": "2 के गुणांक को भूल जाता है — 2πrh के बजाय πrh की गणना करता है।"
+        },
+        "b": {
+          "en": "Uses the Total Surface Area formula 2πr(r+h) instead of the Curved Surface Area formula 2πrh.",
+          "hi": "वक्र पृष्ठीय क्षेत्रफल सूत्र 2πrh के बजाय कुल पृष्ठीय क्षेत्रफल सूत्र 2πr(r+h) का उपयोग करता है।"
+        },
+        "c": {
+          "en": "Uses the Volume formula πr²h instead of the Curved Surface Area formula.",
+          "hi": "वक्र पृष्ठीय क्षेत्रफल सूत्र के बजाय आयतन सूत्र πr²h का उपयोग करता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-mensuration-cylindercsa-09",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Find the curved surface area of a cylinder with radius 14 cm and height 10 cm. (Use π = 22/7)",
+        "hi": "14 सेमी त्रिज्या और 10 सेमी ऊंचाई वाले एक बेलन का वक्र पृष्ठीय क्षेत्रफल ज्ञात करें। (π = 22/7 का उपयोग करें)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "880",
+            "hi": "880"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "440",
+            "hi": "440"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "2112",
+            "hi": "2112"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "6160",
+            "hi": "6160"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "CSA = 2πrh = 2 × 22/7 × 14 × 10 = 880 cm².",
+        "hi": "वक्र पृष्ठीय क्षेत्रफल = 2πrh = 2 × 22/7 × 14 × 10 = 880 सेमी²।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Forgets the factor of 2 — computes πrh instead of 2πrh.",
+          "hi": "2 के गुणांक को भूल जाता है — 2πrh के बजाय πrh की गणना करता है।"
+        },
+        "c": {
+          "en": "Uses the Total Surface Area formula 2πr(r+h) instead of the Curved Surface Area formula 2πrh.",
+          "hi": "वक्र पृष्ठीय क्षेत्रफल सूत्र 2πrh के बजाय कुल पृष्ठीय क्षेत्रफल सूत्र 2πr(r+h) का उपयोग करता है।"
+        },
+        "d": {
+          "en": "Uses the Volume formula πr²h instead of the Curved Surface Area formula.",
+          "hi": "वक्र पृष्ठीय क्षेत्रफल सूत्र के बजाय आयतन सूत्र πr²h का उपयोग करता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-mensuration-cylindercsa-10",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Find the curved surface area of a cylinder with radius 7 cm and height 25 cm. (Use π = 22/7)",
+        "hi": "7 सेमी त्रिज्या और 25 सेमी ऊंचाई वाले एक बेलन का वक्र पृष्ठीय क्षेत्रफल ज्ञात करें। (π = 22/7 का उपयोग करें)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "550",
+            "hi": "550"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "1100",
+            "hi": "1100"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "1408",
+            "hi": "1408"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "3850",
+            "hi": "3850"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "CSA = 2πrh = 2 × 22/7 × 7 × 25 = 1100 cm².",
+        "hi": "वक्र पृष्ठीय क्षेत्रफल = 2πrh = 2 × 22/7 × 7 × 25 = 1100 सेमी²।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Forgets the factor of 2 — computes πrh instead of 2πrh.",
+          "hi": "2 के गुणांक को भूल जाता है — 2πrh के बजाय πrh की गणना करता है।"
+        },
+        "c": {
+          "en": "Uses the Total Surface Area formula 2πr(r+h) instead of the Curved Surface Area formula 2πrh.",
+          "hi": "वक्र पृष्ठीय क्षेत्रफल सूत्र 2πrh के बजाय कुल पृष्ठीय क्षेत्रफल सूत्र 2πr(r+h) का उपयोग करता है।"
+        },
+        "d": {
+          "en": "Uses the Volume formula πr²h instead of the Curved Surface Area formula.",
+          "hi": "वक्र पृष्ठीय क्षेत्रफल सूत्र के बजाय आयतन सूत्र πr²h का उपयोग करता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-mensuration-conevolume-01",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Find the volume of a cone with radius 7 cm and height 3 cm. (Use π = 22/7)",
+        "hi": "7 सेमी त्रिज्या और 3 सेमी ऊंचाई वाले एक शंकु का आयतन ज्ञात करें। (π = 22/7 का उपयोग करें)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "154",
+            "hi": "154"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "462",
+            "hi": "462"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "22",
+            "hi": "22"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "616",
+            "hi": "616"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Volume = ⅓πr²h = ⅓ × 22/7 × 7² × 3 = 154 cm³.",
+        "hi": "आयतन = ⅓πr²h = ⅓ × 22/7 × 7² × 3 = 154 सेमी³।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Forgets the ⅓ factor — computes the full cylinder volume πr²h instead of the cone's ⅓ of it.",
+          "hi": "⅓ के गुणांक को भूल जाता है — बेलन का पूरा आयतन πr²h निकाल देता है, शंकु के ⅓ के बजाय।"
+        },
+        "c": {
+          "en": "Forgets to square the radius — uses πrh instead of πr²h.",
+          "hi": "त्रिज्या का वर्ग करना भूल जाता है — πr²h के बजाय πrh का उपयोग करता है।"
+        },
+        "d": {
+          "en": "Uses ⁴⁄₃ (the sphere-volume constant) instead of ⅓.",
+          "hi": "⅓ के बजाय ⁴⁄₃ (गोले के आयतन का गुणांक) का उपयोग करता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-mensuration-conevolume-02",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Find the volume of a cone with radius 7 cm and height 6 cm. (Use π = 22/7)",
+        "hi": "7 सेमी त्रिज्या और 6 सेमी ऊंचाई वाले एक शंकु का आयतन ज्ञात करें। (π = 22/7 का उपयोग करें)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "924",
+            "hi": "924"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "308",
+            "hi": "308"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "44",
+            "hi": "44"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "1232",
+            "hi": "1232"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Volume = ⅓πr²h = ⅓ × 22/7 × 7² × 6 = 308 cm³.",
+        "hi": "आयतन = ⅓πr²h = ⅓ × 22/7 × 7² × 6 = 308 सेमी³।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Forgets the ⅓ factor — computes the full cylinder volume πr²h instead of the cone's ⅓ of it.",
+          "hi": "⅓ के गुणांक को भूल जाता है — बेलन का पूरा आयतन πr²h निकाल देता है, शंकु के ⅓ के बजाय।"
+        },
+        "c": {
+          "en": "Forgets to square the radius — uses πrh instead of πr²h.",
+          "hi": "त्रिज्या का वर्ग करना भूल जाता है — πr²h के बजाय πrh का उपयोग करता है।"
+        },
+        "d": {
+          "en": "Uses ⁴⁄₃ (the sphere-volume constant) instead of ⅓.",
+          "hi": "⅓ के बजाय ⁴⁄₃ (गोले के आयतन का गुणांक) का उपयोग करता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-mensuration-conevolume-03",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Find the volume of a cone with radius 7 cm and height 9 cm. (Use π = 22/7)",
+        "hi": "7 सेमी त्रिज्या और 9 सेमी ऊंचाई वाले एक शंकु का आयतन ज्ञात करें। (π = 22/7 का उपयोग करें)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "1386",
+            "hi": "1386"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "66",
+            "hi": "66"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "462",
+            "hi": "462"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "1848",
+            "hi": "1848"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Volume = ⅓πr²h = ⅓ × 22/7 × 7² × 9 = 462 cm³.",
+        "hi": "आयतन = ⅓πr²h = ⅓ × 22/7 × 7² × 9 = 462 सेमी³।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Forgets the ⅓ factor — computes the full cylinder volume πr²h instead of the cone's ⅓ of it.",
+          "hi": "⅓ के गुणांक को भूल जाता है — बेलन का पूरा आयतन πr²h निकाल देता है, शंकु के ⅓ के बजाय।"
+        },
+        "b": {
+          "en": "Forgets to square the radius — uses πrh instead of πr²h.",
+          "hi": "त्रिज्या का वर्ग करना भूल जाता है — πr²h के बजाय πrh का उपयोग करता है।"
+        },
+        "d": {
+          "en": "Uses ⁴⁄₃ (the sphere-volume constant) instead of ⅓.",
+          "hi": "⅓ के बजाय ⁴⁄₃ (गोले के आयतन का गुणांक) का उपयोग करता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-mensuration-conevolume-04",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Find the volume of a cone with radius 7 cm and height 12 cm. (Use π = 22/7)",
+        "hi": "7 सेमी त्रिज्या और 12 सेमी ऊंचाई वाले एक शंकु का आयतन ज्ञात करें। (π = 22/7 का उपयोग करें)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "1848",
+            "hi": "1848"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "88",
+            "hi": "88"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "2464",
+            "hi": "2464"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "616",
+            "hi": "616"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "Volume = ⅓πr²h = ⅓ × 22/7 × 7² × 12 = 616 cm³.",
+        "hi": "आयतन = ⅓πr²h = ⅓ × 22/7 × 7² × 12 = 616 सेमी³।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Forgets the ⅓ factor — computes the full cylinder volume πr²h instead of the cone's ⅓ of it.",
+          "hi": "⅓ के गुणांक को भूल जाता है — बेलन का पूरा आयतन πr²h निकाल देता है, शंकु के ⅓ के बजाय।"
+        },
+        "b": {
+          "en": "Forgets to square the radius — uses πrh instead of πr²h.",
+          "hi": "त्रिज्या का वर्ग करना भूल जाता है — πr²h के बजाय πrh का उपयोग करता है।"
+        },
+        "c": {
+          "en": "Uses ⁴⁄₃ (the sphere-volume constant) instead of ⅓.",
+          "hi": "⅓ के बजाय ⁴⁄₃ (गोले के आयतन का गुणांक) का उपयोग करता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-mensuration-conevolume-05",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Find the volume of a cone with radius 7 cm and height 15 cm. (Use π = 22/7)",
+        "hi": "7 सेमी त्रिज्या और 15 सेमी ऊंचाई वाले एक शंकु का आयतन ज्ञात करें। (π = 22/7 का उपयोग करें)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "770",
+            "hi": "770"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "2310",
+            "hi": "2310"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "110",
+            "hi": "110"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "3080",
+            "hi": "3080"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Volume = ⅓πr²h = ⅓ × 22/7 × 7² × 15 = 770 cm³.",
+        "hi": "आयतन = ⅓πr²h = ⅓ × 22/7 × 7² × 15 = 770 सेमी³।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Forgets the ⅓ factor — computes the full cylinder volume πr²h instead of the cone's ⅓ of it.",
+          "hi": "⅓ के गुणांक को भूल जाता है — बेलन का पूरा आयतन πr²h निकाल देता है, शंकु के ⅓ के बजाय।"
+        },
+        "c": {
+          "en": "Forgets to square the radius — uses πrh instead of πr²h.",
+          "hi": "त्रिज्या का वर्ग करना भूल जाता है — πr²h के बजाय πrh का उपयोग करता है।"
+        },
+        "d": {
+          "en": "Uses ⁴⁄₃ (the sphere-volume constant) instead of ⅓.",
+          "hi": "⅓ के बजाय ⁴⁄₃ (गोले के आयतन का गुणांक) का उपयोग करता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-mensuration-conevolume-06",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Find the volume of a cone with radius 7 cm and height 18 cm. (Use π = 22/7)",
+        "hi": "7 सेमी त्रिज्या और 18 सेमी ऊंचाई वाले एक शंकु का आयतन ज्ञात करें। (π = 22/7 का उपयोग करें)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "2772",
+            "hi": "2772"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "924",
+            "hi": "924"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "132",
+            "hi": "132"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "3696",
+            "hi": "3696"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Volume = ⅓πr²h = ⅓ × 22/7 × 7² × 18 = 924 cm³.",
+        "hi": "आयतन = ⅓πr²h = ⅓ × 22/7 × 7² × 18 = 924 सेमी³।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Forgets the ⅓ factor — computes the full cylinder volume πr²h instead of the cone's ⅓ of it.",
+          "hi": "⅓ के गुणांक को भूल जाता है — बेलन का पूरा आयतन πr²h निकाल देता है, शंकु के ⅓ के बजाय।"
+        },
+        "c": {
+          "en": "Forgets to square the radius — uses πrh instead of πr²h.",
+          "hi": "त्रिज्या का वर्ग करना भूल जाता है — πr²h के बजाय πrh का उपयोग करता है।"
+        },
+        "d": {
+          "en": "Uses ⁴⁄₃ (the sphere-volume constant) instead of ⅓.",
+          "hi": "⅓ के बजाय ⁴⁄₃ (गोले के आयतन का गुणांक) का उपयोग करता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-mensuration-conevolume-07",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Find the volume of a cone with radius 7 cm and height 21 cm. (Use π = 22/7)",
+        "hi": "7 सेमी त्रिज्या और 21 सेमी ऊंचाई वाले एक शंकु का आयतन ज्ञात करें। (π = 22/7 का उपयोग करें)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "3234",
+            "hi": "3234"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "154",
+            "hi": "154"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "1078",
+            "hi": "1078"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "4312",
+            "hi": "4312"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Volume = ⅓πr²h = ⅓ × 22/7 × 7² × 21 = 1078 cm³.",
+        "hi": "आयतन = ⅓πr²h = ⅓ × 22/7 × 7² × 21 = 1078 सेमी³।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Forgets the ⅓ factor — computes the full cylinder volume πr²h instead of the cone's ⅓ of it.",
+          "hi": "⅓ के गुणांक को भूल जाता है — बेलन का पूरा आयतन πr²h निकाल देता है, शंकु के ⅓ के बजाय।"
+        },
+        "b": {
+          "en": "Forgets to square the radius — uses πrh instead of πr²h.",
+          "hi": "त्रिज्या का वर्ग करना भूल जाता है — πr²h के बजाय πrh का उपयोग करता है।"
+        },
+        "d": {
+          "en": "Uses ⁴⁄₃ (the sphere-volume constant) instead of ⅓.",
+          "hi": "⅓ के बजाय ⁴⁄₃ (गोले के आयतन का गुणांक) का उपयोग करता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-mensuration-conevolume-08",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Find the volume of a cone with radius 7 cm and height 24 cm. (Use π = 22/7)",
+        "hi": "7 सेमी त्रिज्या और 24 सेमी ऊंचाई वाले एक शंकु का आयतन ज्ञात करें। (π = 22/7 का उपयोग करें)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "3696",
+            "hi": "3696"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "176",
+            "hi": "176"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "4928",
+            "hi": "4928"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "1232",
+            "hi": "1232"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "Volume = ⅓πr²h = ⅓ × 22/7 × 7² × 24 = 1232 cm³.",
+        "hi": "आयतन = ⅓πr²h = ⅓ × 22/7 × 7² × 24 = 1232 सेमी³।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Forgets the ⅓ factor — computes the full cylinder volume πr²h instead of the cone's ⅓ of it.",
+          "hi": "⅓ के गुणांक को भूल जाता है — बेलन का पूरा आयतन πr²h निकाल देता है, शंकु के ⅓ के बजाय।"
+        },
+        "b": {
+          "en": "Forgets to square the radius — uses πrh instead of πr²h.",
+          "hi": "त्रिज्या का वर्ग करना भूल जाता है — πr²h के बजाय πrh का उपयोग करता है।"
+        },
+        "c": {
+          "en": "Uses ⁴⁄₃ (the sphere-volume constant) instead of ⅓.",
+          "hi": "⅓ के बजाय ⁴⁄₃ (गोले के आयतन का गुणांक) का उपयोग करता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-mensuration-spheresa-01",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Find the surface area of a sphere with radius 7 cm. (Use π = 22/7)",
+        "hi": "7 सेमी त्रिज्या वाले एक गोले का पृष्ठीय क्षेत्रफल ज्ञात करें। (π = 22/7 का उपयोग करें)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "616",
+            "hi": "616"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "154",
+            "hi": "154"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "308",
+            "hi": "308"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "4312",
+            "hi": "4312"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Surface Area = 4πr² = 4 × 22/7 × 7² = 616 cm².",
+        "hi": "पृष्ठीय क्षेत्रफल = 4πr² = 4 × 22/7 × 7² = 616 सेमी²।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Forgets the factor of 4 — computes πr² instead of 4πr².",
+          "hi": "4 के गुणांक को भूल जाता है — 4πr² के बजाय πr² की गणना करता है।"
+        },
+        "c": {
+          "en": "Uses the hemisphere curved surface area formula 2πr² instead of the full sphere's 4πr².",
+          "hi": "पूर्ण गोले के 4πr² के बजाय अर्धगोले के वक्र पृष्ठीय क्षेत्रफल सूत्र 2πr² का उपयोग करता है।"
+        },
+        "d": {
+          "en": "Uses r³ instead of r² — confuses the surface area formula with a volume-shaped one.",
+          "hi": "r² के बजाय r³ का उपयोग करता है — पृष्ठीय क्षेत्रफल सूत्र को आयतन-जैसे सूत्र से भ्रमित कर देता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-mensuration-spheresa-02",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Find the surface area of a sphere with radius 14 cm. (Use π = 22/7)",
+        "hi": "14 सेमी त्रिज्या वाले एक गोले का पृष्ठीय क्षेत्रफल ज्ञात करें। (π = 22/7 का उपयोग करें)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "616",
+            "hi": "616"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "2464",
+            "hi": "2464"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "1232",
+            "hi": "1232"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "34496",
+            "hi": "34496"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Surface Area = 4πr² = 4 × 22/7 × 14² = 2464 cm².",
+        "hi": "पृष्ठीय क्षेत्रफल = 4πr² = 4 × 22/7 × 14² = 2464 सेमी²।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Forgets the factor of 4 — computes πr² instead of 4πr².",
+          "hi": "4 के गुणांक को भूल जाता है — 4πr² के बजाय πr² की गणना करता है।"
+        },
+        "c": {
+          "en": "Uses the hemisphere curved surface area formula 2πr² instead of the full sphere's 4πr².",
+          "hi": "पूर्ण गोले के 4πr² के बजाय अर्धगोले के वक्र पृष्ठीय क्षेत्रफल सूत्र 2πr² का उपयोग करता है।"
+        },
+        "d": {
+          "en": "Uses r³ instead of r² — confuses the surface area formula with a volume-shaped one.",
+          "hi": "r² के बजाय r³ का उपयोग करता है — पृष्ठीय क्षेत्रफल सूत्र को आयतन-जैसे सूत्र से भ्रमित कर देता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-mensuration-spheresa-03",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Find the surface area of a sphere with radius 21 cm. (Use π = 22/7)",
+        "hi": "21 सेमी त्रिज्या वाले एक गोले का पृष्ठीय क्षेत्रफल ज्ञात करें। (π = 22/7 का उपयोग करें)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "1386",
+            "hi": "1386"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "2772",
+            "hi": "2772"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "5544",
+            "hi": "5544"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "116424",
+            "hi": "116424"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Surface Area = 4πr² = 4 × 22/7 × 21² = 5544 cm².",
+        "hi": "पृष्ठीय क्षेत्रफल = 4πr² = 4 × 22/7 × 21² = 5544 सेमी²।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Forgets the factor of 4 — computes πr² instead of 4πr².",
+          "hi": "4 के गुणांक को भूल जाता है — 4πr² के बजाय πr² की गणना करता है।"
+        },
+        "b": {
+          "en": "Uses the hemisphere curved surface area formula 2πr² instead of the full sphere's 4πr².",
+          "hi": "पूर्ण गोले के 4πr² के बजाय अर्धगोले के वक्र पृष्ठीय क्षेत्रफल सूत्र 2πr² का उपयोग करता है।"
+        },
+        "d": {
+          "en": "Uses r³ instead of r² — confuses the surface area formula with a volume-shaped one.",
+          "hi": "r² के बजाय r³ का उपयोग करता है — पृष्ठीय क्षेत्रफल सूत्र को आयतन-जैसे सूत्र से भ्रमित कर देता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-mensuration-spheresa-04",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Find the surface area of a sphere with radius 28 cm. (Use π = 22/7)",
+        "hi": "28 सेमी त्रिज्या वाले एक गोले का पृष्ठीय क्षेत्रफल ज्ञात करें। (π = 22/7 का उपयोग करें)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "2464",
+            "hi": "2464"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "4928",
+            "hi": "4928"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "275968",
+            "hi": "275968"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "9856",
+            "hi": "9856"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "Surface Area = 4πr² = 4 × 22/7 × 28² = 9856 cm².",
+        "hi": "पृष्ठीय क्षेत्रफल = 4πr² = 4 × 22/7 × 28² = 9856 सेमी²।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Forgets the factor of 4 — computes πr² instead of 4πr².",
+          "hi": "4 के गुणांक को भूल जाता है — 4πr² के बजाय πr² की गणना करता है।"
+        },
+        "b": {
+          "en": "Uses the hemisphere curved surface area formula 2πr² instead of the full sphere's 4πr².",
+          "hi": "पूर्ण गोले के 4πr² के बजाय अर्धगोले के वक्र पृष्ठीय क्षेत्रफल सूत्र 2πr² का उपयोग करता है।"
+        },
+        "c": {
+          "en": "Uses r³ instead of r² — confuses the surface area formula with a volume-shaped one.",
+          "hi": "r² के बजाय r³ का उपयोग करता है — पृष्ठीय क्षेत्रफल सूत्र को आयतन-जैसे सूत्र से भ्रमित कर देता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-mensuration-spheresa-05",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Find the surface area of a sphere with radius 35 cm. (Use π = 22/7)",
+        "hi": "35 सेमी त्रिज्या वाले एक गोले का पृष्ठीय क्षेत्रफल ज्ञात करें। (π = 22/7 का उपयोग करें)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "15400",
+            "hi": "15400"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "3850",
+            "hi": "3850"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "7700",
+            "hi": "7700"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "539000",
+            "hi": "539000"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Surface Area = 4πr² = 4 × 22/7 × 35² = 15400 cm².",
+        "hi": "पृष्ठीय क्षेत्रफल = 4πr² = 4 × 22/7 × 35² = 15400 सेमी²।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Forgets the factor of 4 — computes πr² instead of 4πr².",
+          "hi": "4 के गुणांक को भूल जाता है — 4πr² के बजाय πr² की गणना करता है।"
+        },
+        "c": {
+          "en": "Uses the hemisphere curved surface area formula 2πr² instead of the full sphere's 4πr².",
+          "hi": "पूर्ण गोले के 4πr² के बजाय अर्धगोले के वक्र पृष्ठीय क्षेत्रफल सूत्र 2πr² का उपयोग करता है।"
+        },
+        "d": {
+          "en": "Uses r³ instead of r² — confuses the surface area formula with a volume-shaped one.",
+          "hi": "r² के बजाय r³ का उपयोग करता है — पृष्ठीय क्षेत्रफल सूत्र को आयतन-जैसे सूत्र से भ्रमित कर देता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-mensuration-spheresa-06",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Find the surface area of a sphere with radius 42 cm. (Use π = 22/7)",
+        "hi": "42 सेमी त्रिज्या वाले एक गोले का पृष्ठीय क्षेत्रफल ज्ञात करें। (π = 22/7 का उपयोग करें)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "5544",
+            "hi": "5544"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "22176",
+            "hi": "22176"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "11088",
+            "hi": "11088"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "931392",
+            "hi": "931392"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Surface Area = 4πr² = 4 × 22/7 × 42² = 22176 cm².",
+        "hi": "पृष्ठीय क्षेत्रफल = 4πr² = 4 × 22/7 × 42² = 22176 सेमी²।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Forgets the factor of 4 — computes πr² instead of 4πr².",
+          "hi": "4 के गुणांक को भूल जाता है — 4πr² के बजाय πr² की गणना करता है।"
+        },
+        "c": {
+          "en": "Uses the hemisphere curved surface area formula 2πr² instead of the full sphere's 4πr².",
+          "hi": "पूर्ण गोले के 4πr² के बजाय अर्धगोले के वक्र पृष्ठीय क्षेत्रफल सूत्र 2πr² का उपयोग करता है।"
+        },
+        "d": {
+          "en": "Uses r³ instead of r² — confuses the surface area formula with a volume-shaped one.",
+          "hi": "r² के बजाय r³ का उपयोग करता है — पृष्ठीय क्षेत्रफल सूत्र को आयतन-जैसे सूत्र से भ्रमित कर देता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-mensuration-spheresa-07",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Find the surface area of a sphere with radius 49 cm. (Use π = 22/7)",
+        "hi": "49 सेमी त्रिज्या वाले एक गोले का पृष्ठीय क्षेत्रफल ज्ञात करें। (π = 22/7 का उपयोग करें)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "7546",
+            "hi": "7546"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "15092",
+            "hi": "15092"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "30184",
+            "hi": "30184"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "1479016",
+            "hi": "1479016"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Surface Area = 4πr² = 4 × 22/7 × 49² = 30184 cm².",
+        "hi": "पृष्ठीय क्षेत्रफल = 4πr² = 4 × 22/7 × 49² = 30184 सेमी²।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Forgets the factor of 4 — computes πr² instead of 4πr².",
+          "hi": "4 के गुणांक को भूल जाता है — 4πr² के बजाय πr² की गणना करता है।"
+        },
+        "b": {
+          "en": "Uses the hemisphere curved surface area formula 2πr² instead of the full sphere's 4πr².",
+          "hi": "पूर्ण गोले के 4πr² के बजाय अर्धगोले के वक्र पृष्ठीय क्षेत्रफल सूत्र 2πr² का उपयोग करता है।"
+        },
+        "d": {
+          "en": "Uses r³ instead of r² — confuses the surface area formula with a volume-shaped one.",
+          "hi": "r² के बजाय r³ का उपयोग करता है — पृष्ठीय क्षेत्रफल सूत्र को आयतन-जैसे सूत्र से भ्रमित कर देता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-mensuration-conetsa-01",
+      "difficulty": "HARD",
+      "content": {
+        "en": "A cone has radius 7 cm and height 24 cm. First find its slant height, then find its total surface area. (Use π = 22/7)",
+        "hi": "एक शंकु की त्रिज्या 7 सेमी और ऊंचाई 24 सेमी है। पहले इसकी तिर्यक ऊंचाई ज्ञात करें, फिर इसका कुल पृष्ठीय क्षेत्रफल ज्ञात करें। (π = 22/7 का उपयोग करें)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "704",
+            "hi": "704"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "550",
+            "hi": "550"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "682",
+            "hi": "682"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "1232",
+            "hi": "1232"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Slant height l = √(r²+h²) = √(7²+24²) = √(49+576) = √625 = 25 cm. Total Surface Area = πr(r+l) = 22/7 × 7 × (7+25) = 704 cm².",
+        "hi": "तिर्यक ऊंचाई l = √(r²+h²) = √(7²+24²) = √(49+576) = √625 = 25 सेमी। कुल पृष्ठीय क्षेत्रफल = πr(r+l) = 22/7 × 7 × (7+25) = 704 सेमी²।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Computes only the Curved Surface Area (πrl) and forgets to add the base's area (πr²) for the TOTAL surface area.",
+          "hi": "केवल वक्र पृष्ठीय क्षेत्रफल (πrl) की गणना करता है और कुल पृष्ठीय क्षेत्रफल के लिए आधार का क्षेत्रफल (πr²) जोड़ना भूल जाता है।"
+        },
+        "c": {
+          "en": "Uses the vertical height (h) in place of the slant height (l) — the surface-area formula needs the SLANT height, not h.",
+          "hi": "तिर्यक ऊंचाई (l) के स्थान पर ऊर्ध्वाधर ऊंचाई (h) का उपयोग करता है — पृष्ठीय क्षेत्रफल सूत्र में तिर्यक ऊंचाई चाहिए, h नहीं।"
+        },
+        "d": {
+          "en": "Computes the cone's VOLUME instead of its surface area — an entirely different formula.",
+          "hi": "पृष्ठीय क्षेत्रफल के बजाय शंकु का आयतन निकाल देता है — पूरी तरह अलग सूत्र।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-mensuration-conetsa-02",
+      "difficulty": "HARD",
+      "content": {
+        "en": "A cone has radius 14 cm and height 48 cm. First find its slant height, then find its total surface area. (Use π = 22/7)",
+        "hi": "एक शंकु की त्रिज्या 14 सेमी और ऊंचाई 48 सेमी है। पहले इसकी तिर्यक ऊंचाई ज्ञात करें, फिर इसका कुल पृष्ठीय क्षेत्रफल ज्ञात करें। (π = 22/7 का उपयोग करें)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "2200",
+            "hi": "2200"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "2816",
+            "hi": "2816"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "2728",
+            "hi": "2728"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "9856",
+            "hi": "9856"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Slant height l = √(r²+h²) = √(14²+48²) = √(196+2304) = √2500 = 50 cm. Total Surface Area = πr(r+l) = 22/7 × 14 × (14+50) = 2816 cm².",
+        "hi": "तिर्यक ऊंचाई l = √(r²+h²) = √(14²+48²) = √(196+2304) = √2500 = 50 सेमी। कुल पृष्ठीय क्षेत्रफल = πr(r+l) = 22/7 × 14 × (14+50) = 2816 सेमी²।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Computes only the Curved Surface Area (πrl) and forgets to add the base's area (πr²) for the TOTAL surface area.",
+          "hi": "केवल वक्र पृष्ठीय क्षेत्रफल (πrl) की गणना करता है और कुल पृष्ठीय क्षेत्रफल के लिए आधार का क्षेत्रफल (πr²) जोड़ना भूल जाता है।"
+        },
+        "c": {
+          "en": "Uses the vertical height (h) in place of the slant height (l) — the surface-area formula needs the SLANT height, not h.",
+          "hi": "तिर्यक ऊंचाई (l) के स्थान पर ऊर्ध्वाधर ऊंचाई (h) का उपयोग करता है — पृष्ठीय क्षेत्रफल सूत्र में तिर्यक ऊंचाई चाहिए, h नहीं।"
+        },
+        "d": {
+          "en": "Computes the cone's VOLUME instead of its surface area — an entirely different formula.",
+          "hi": "पृष्ठीय क्षेत्रफल के बजाय शंकु का आयतन निकाल देता है — पूरी तरह अलग सूत्र।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-mensuration-conetsa-03",
+      "difficulty": "HARD",
+      "content": {
+        "en": "A cone has radius 21 cm and height 72 cm. First find its slant height, then find its total surface area. (Use π = 22/7)",
+        "hi": "एक शंकु की त्रिज्या 21 सेमी और ऊंचाई 72 सेमी है। पहले इसकी तिर्यक ऊंचाई ज्ञात करें, फिर इसका कुल पृष्ठीय क्षेत्रफल ज्ञात करें। (π = 22/7 का उपयोग करें)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "4950",
+            "hi": "4950"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "6138",
+            "hi": "6138"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "6336",
+            "hi": "6336"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "33264",
+            "hi": "33264"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Slant height l = √(r²+h²) = √(21²+72²) = √(441+5184) = √5625 = 75 cm. Total Surface Area = πr(r+l) = 22/7 × 21 × (21+75) = 6336 cm².",
+        "hi": "तिर्यक ऊंचाई l = √(r²+h²) = √(21²+72²) = √(441+5184) = √5625 = 75 सेमी। कुल पृष्ठीय क्षेत्रफल = πr(r+l) = 22/7 × 21 × (21+75) = 6336 सेमी²।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Computes only the Curved Surface Area (πrl) and forgets to add the base's area (πr²) for the TOTAL surface area.",
+          "hi": "केवल वक्र पृष्ठीय क्षेत्रफल (πrl) की गणना करता है और कुल पृष्ठीय क्षेत्रफल के लिए आधार का क्षेत्रफल (πr²) जोड़ना भूल जाता है।"
+        },
+        "b": {
+          "en": "Uses the vertical height (h) in place of the slant height (l) — the surface-area formula needs the SLANT height, not h.",
+          "hi": "तिर्यक ऊंचाई (l) के स्थान पर ऊर्ध्वाधर ऊंचाई (h) का उपयोग करता है — पृष्ठीय क्षेत्रफल सूत्र में तिर्यक ऊंचाई चाहिए, h नहीं।"
+        },
+        "d": {
+          "en": "Computes the cone's VOLUME instead of its surface area — an entirely different formula.",
+          "hi": "पृष्ठीय क्षेत्रफल के बजाय शंकु का आयतन निकाल देता है — पूरी तरह अलग सूत्र।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-mensuration-conetsa-04",
+      "difficulty": "HARD",
+      "content": {
+        "en": "A cone has radius 28 cm and height 96 cm. First find its slant height, then find its total surface area. (Use π = 22/7)",
+        "hi": "एक शंकु की त्रिज्या 28 सेमी और ऊंचाई 96 सेमी है। पहले इसकी तिर्यक ऊंचाई ज्ञात करें, फिर इसका कुल पृष्ठीय क्षेत्रफल ज्ञात करें। (π = 22/7 का उपयोग करें)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "8800",
+            "hi": "8800"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "10912",
+            "hi": "10912"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "78848",
+            "hi": "78848"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "11264",
+            "hi": "11264"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "Slant height l = √(r²+h²) = √(28²+96²) = √(784+9216) = √10000 = 100 cm. Total Surface Area = πr(r+l) = 22/7 × 28 × (28+100) = 11264 cm².",
+        "hi": "तिर्यक ऊंचाई l = √(r²+h²) = √(28²+96²) = √(784+9216) = √10000 = 100 सेमी। कुल पृष्ठीय क्षेत्रफल = πr(r+l) = 22/7 × 28 × (28+100) = 11264 सेमी²।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Computes only the Curved Surface Area (πrl) and forgets to add the base's area (πr²) for the TOTAL surface area.",
+          "hi": "केवल वक्र पृष्ठीय क्षेत्रफल (πrl) की गणना करता है और कुल पृष्ठीय क्षेत्रफल के लिए आधार का क्षेत्रफल (πr²) जोड़ना भूल जाता है।"
+        },
+        "b": {
+          "en": "Uses the vertical height (h) in place of the slant height (l) — the surface-area formula needs the SLANT height, not h.",
+          "hi": "तिर्यक ऊंचाई (l) के स्थान पर ऊर्ध्वाधर ऊंचाई (h) का उपयोग करता है — पृष्ठीय क्षेत्रफल सूत्र में तिर्यक ऊंचाई चाहिए, h नहीं।"
+        },
+        "c": {
+          "en": "Computes the cone's VOLUME instead of its surface area — an entirely different formula.",
+          "hi": "पृष्ठीय क्षेत्रफल के बजाय शंकु का आयतन निकाल देता है — पूरी तरह अलग सूत्र।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-mensuration-conetsa-05",
+      "difficulty": "HARD",
+      "content": {
+        "en": "A cone has radius 35 cm and height 120 cm. First find its slant height, then find its total surface area. (Use π = 22/7)",
+        "hi": "एक शंकु की त्रिज्या 35 सेमी और ऊंचाई 120 सेमी है। पहले इसकी तिर्यक ऊंचाई ज्ञात करें, फिर इसका कुल पृष्ठीय क्षेत्रफल ज्ञात करें। (π = 22/7 का उपयोग करें)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "17600",
+            "hi": "17600"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "13750",
+            "hi": "13750"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "17050",
+            "hi": "17050"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "154000",
+            "hi": "154000"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Slant height l = √(r²+h²) = √(35²+120²) = √(1225+14400) = √15625 = 125 cm. Total Surface Area = πr(r+l) = 22/7 × 35 × (35+125) = 17600 cm².",
+        "hi": "तिर्यक ऊंचाई l = √(r²+h²) = √(35²+120²) = √(1225+14400) = √15625 = 125 सेमी। कुल पृष्ठीय क्षेत्रफल = πr(r+l) = 22/7 × 35 × (35+125) = 17600 सेमी²।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Computes only the Curved Surface Area (πrl) and forgets to add the base's area (πr²) for the TOTAL surface area.",
+          "hi": "केवल वक्र पृष्ठीय क्षेत्रफल (πrl) की गणना करता है और कुल पृष्ठीय क्षेत्रफल के लिए आधार का क्षेत्रफल (πr²) जोड़ना भूल जाता है।"
+        },
+        "c": {
+          "en": "Uses the vertical height (h) in place of the slant height (l) — the surface-area formula needs the SLANT height, not h.",
+          "hi": "तिर्यक ऊंचाई (l) के स्थान पर ऊर्ध्वाधर ऊंचाई (h) का उपयोग करता है — पृष्ठीय क्षेत्रफल सूत्र में तिर्यक ऊंचाई चाहिए, h नहीं।"
+        },
+        "d": {
+          "en": "Computes the cone's VOLUME instead of its surface area — an entirely different formula.",
+          "hi": "पृष्ठीय क्षेत्रफल के बजाय शंकु का आयतन निकाल देता है — पूरी तरह अलग सूत्र।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-mensuration-conetsa-06",
+      "difficulty": "HARD",
+      "content": {
+        "en": "A cone has radius 42 cm and height 144 cm. First find its slant height, then find its total surface area. (Use π = 22/7)",
+        "hi": "एक शंकु की त्रिज्या 42 सेमी और ऊंचाई 144 सेमी है। पहले इसकी तिर्यक ऊंचाई ज्ञात करें, फिर इसका कुल पृष्ठीय क्षेत्रफल ज्ञात करें। (π = 22/7 का उपयोग करें)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "19800",
+            "hi": "19800"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "25344",
+            "hi": "25344"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "24552",
+            "hi": "24552"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "266112",
+            "hi": "266112"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Slant height l = √(r²+h²) = √(42²+144²) = √(1764+20736) = √22500 = 150 cm. Total Surface Area = πr(r+l) = 22/7 × 42 × (42+150) = 25344 cm².",
+        "hi": "तिर्यक ऊंचाई l = √(r²+h²) = √(42²+144²) = √(1764+20736) = √22500 = 150 सेमी। कुल पृष्ठीय क्षेत्रफल = πr(r+l) = 22/7 × 42 × (42+150) = 25344 सेमी²।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Computes only the Curved Surface Area (πrl) and forgets to add the base's area (πr²) for the TOTAL surface area.",
+          "hi": "केवल वक्र पृष्ठीय क्षेत्रफल (πrl) की गणना करता है और कुल पृष्ठीय क्षेत्रफल के लिए आधार का क्षेत्रफल (πr²) जोड़ना भूल जाता है।"
+        },
+        "c": {
+          "en": "Uses the vertical height (h) in place of the slant height (l) — the surface-area formula needs the SLANT height, not h.",
+          "hi": "तिर्यक ऊंचाई (l) के स्थान पर ऊर्ध्वाधर ऊंचाई (h) का उपयोग करता है — पृष्ठीय क्षेत्रफल सूत्र में तिर्यक ऊंचाई चाहिए, h नहीं।"
+        },
+        "d": {
+          "en": "Computes the cone's VOLUME instead of its surface area — an entirely different formula.",
+          "hi": "पृष्ठीय क्षेत्रफल के बजाय शंकु का आयतन निकाल देता है — पूरी तरह अलग सूत्र।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-mensuration-conetsa-07",
+      "difficulty": "HARD",
+      "content": {
+        "en": "A cone has radius 49 cm and height 168 cm. First find its slant height, then find its total surface area. (Use π = 22/7)",
+        "hi": "एक शंकु की त्रिज्या 49 सेमी और ऊंचाई 168 सेमी है। पहले इसकी तिर्यक ऊंचाई ज्ञात करें, फिर इसका कुल पृष्ठीय क्षेत्रफल ज्ञात करें। (π = 22/7 का उपयोग करें)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "26950",
+            "hi": "26950"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "33418",
+            "hi": "33418"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "34496",
+            "hi": "34496"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "422576",
+            "hi": "422576"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Slant height l = √(r²+h²) = √(49²+168²) = √(2401+28224) = √30625 = 175 cm. Total Surface Area = πr(r+l) = 22/7 × 49 × (49+175) = 34496 cm².",
+        "hi": "तिर्यक ऊंचाई l = √(r²+h²) = √(49²+168²) = √(2401+28224) = √30625 = 175 सेमी। कुल पृष्ठीय क्षेत्रफल = πr(r+l) = 22/7 × 49 × (49+175) = 34496 सेमी²।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Computes only the Curved Surface Area (πrl) and forgets to add the base's area (πr²) for the TOTAL surface area.",
+          "hi": "केवल वक्र पृष्ठीय क्षेत्रफल (πrl) की गणना करता है और कुल पृष्ठीय क्षेत्रफल के लिए आधार का क्षेत्रफल (πr²) जोड़ना भूल जाता है।"
+        },
+        "b": {
+          "en": "Uses the vertical height (h) in place of the slant height (l) — the surface-area formula needs the SLANT height, not h.",
+          "hi": "तिर्यक ऊंचाई (l) के स्थान पर ऊर्ध्वाधर ऊंचाई (h) का उपयोग करता है — पृष्ठीय क्षेत्रफल सूत्र में तिर्यक ऊंचाई चाहिए, h नहीं।"
+        },
+        "d": {
+          "en": "Computes the cone's VOLUME instead of its surface area — an entirely different formula.",
+          "hi": "पृष्ठीय क्षेत्रफल के बजाय शंकु का आयतन निकाल देता है — पूरी तरह अलग सूत्र।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-mensuration-conetsa-08",
+      "difficulty": "HARD",
+      "content": {
+        "en": "A cone has radius 56 cm and height 192 cm. First find its slant height, then find its total surface area. (Use π = 22/7)",
+        "hi": "एक शंकु की त्रिज्या 56 सेमी और ऊंचाई 192 सेमी है। पहले इसकी तिर्यक ऊंचाई ज्ञात करें, फिर इसका कुल पृष्ठीय क्षेत्रफल ज्ञात करें। (π = 22/7 का उपयोग करें)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "35200",
+            "hi": "35200"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "43648",
+            "hi": "43648"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "630784",
+            "hi": "630784"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "45056",
+            "hi": "45056"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "Slant height l = √(r²+h²) = √(56²+192²) = √(3136+36864) = √40000 = 200 cm. Total Surface Area = πr(r+l) = 22/7 × 56 × (56+200) = 45056 cm².",
+        "hi": "तिर्यक ऊंचाई l = √(r²+h²) = √(56²+192²) = √(3136+36864) = √40000 = 200 सेमी। कुल पृष्ठीय क्षेत्रफल = πr(r+l) = 22/7 × 56 × (56+200) = 45056 सेमी²।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Computes only the Curved Surface Area (πrl) and forgets to add the base's area (πr²) for the TOTAL surface area.",
+          "hi": "केवल वक्र पृष्ठीय क्षेत्रफल (πrl) की गणना करता है और कुल पृष्ठीय क्षेत्रफल के लिए आधार का क्षेत्रफल (πr²) जोड़ना भूल जाता है।"
+        },
+        "b": {
+          "en": "Uses the vertical height (h) in place of the slant height (l) — the surface-area formula needs the SLANT height, not h.",
+          "hi": "तिर्यक ऊंचाई (l) के स्थान पर ऊर्ध्वाधर ऊंचाई (h) का उपयोग करता है — पृष्ठीय क्षेत्रफल सूत्र में तिर्यक ऊंचाई चाहिए, h नहीं।"
+        },
+        "c": {
+          "en": "Computes the cone's VOLUME instead of its surface area — an entirely different formula.",
+          "hi": "पृष्ठीय क्षेत्रफल के बजाय शंकु का आयतन निकाल देता है — पूरी तरह अलग सूत्र।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-mensuration-spherevolume-01",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Find the volume of a sphere with radius 7 cm. (Use π = 22/7)",
+        "hi": "7 सेमी त्रिज्या वाले एक गोले का आयतन ज्ञात करें। (π = 22/7 का उपयोग करें)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "1437.33",
+            "hi": "1437.33"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "616",
+            "hi": "616"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "359.33",
+            "hi": "359.33"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "205.33",
+            "hi": "205.33"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Volume = ⁴⁄₃πr³ = ⁴⁄₃ × 22/7 × 7³ = 1437.33 cm³.",
+        "hi": "आयतन = ⁴⁄₃πr³ = ⁴⁄₃ × 22/7 × 7³ = 1437.33 सेमी³।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Computes the sphere's SURFACE AREA (4πr²) instead of its volume — confuses the two formulas.",
+          "hi": "गोले का आयतन निकालने के बजाय पृष्ठीय क्षेत्रफल (4πr²) निकाल देता है — दोनों सूत्रों को भ्रमित कर देता है।"
+        },
+        "c": {
+          "en": "Uses ⅓ (the cone-volume constant) instead of ⁴⁄₃.",
+          "hi": "⁴⁄₃ के बजाय ⅓ (शंकु के आयतन का गुणांक) का उपयोग करता है।"
+        },
+        "d": {
+          "en": "Forgets to cube the radius — uses r² instead of r³.",
+          "hi": "त्रिज्या का घन करना भूल जाता है — r³ के बजाय r² का उपयोग करता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-mensuration-spherevolume-02",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Find the volume of a sphere with radius 14 cm. (Use π = 22/7)",
+        "hi": "14 सेमी त्रिज्या वाले एक गोले का आयतन ज्ञात करें। (π = 22/7 का उपयोग करें)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "2464",
+            "hi": "2464"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "11498.67",
+            "hi": "11498.67"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "2874.67",
+            "hi": "2874.67"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "821.33",
+            "hi": "821.33"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Volume = ⁴⁄₃πr³ = ⁴⁄₃ × 22/7 × 14³ = 11498.67 cm³.",
+        "hi": "आयतन = ⁴⁄₃πr³ = ⁴⁄₃ × 22/7 × 14³ = 11498.67 सेमी³।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Computes the sphere's SURFACE AREA (4πr²) instead of its volume — confuses the two formulas.",
+          "hi": "गोले का आयतन निकालने के बजाय पृष्ठीय क्षेत्रफल (4πr²) निकाल देता है — दोनों सूत्रों को भ्रमित कर देता है।"
+        },
+        "c": {
+          "en": "Uses ⅓ (the cone-volume constant) instead of ⁴⁄₃.",
+          "hi": "⁴⁄₃ के बजाय ⅓ (शंकु के आयतन का गुणांक) का उपयोग करता है।"
+        },
+        "d": {
+          "en": "Forgets to cube the radius — uses r² instead of r³.",
+          "hi": "त्रिज्या का घन करना भूल जाता है — r³ के बजाय r² का उपयोग करता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-mensuration-spherevolume-03",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Find the volume of a sphere with radius 21 cm. (Use π = 22/7)",
+        "hi": "21 सेमी त्रिज्या वाले एक गोले का आयतन ज्ञात करें। (π = 22/7 का उपयोग करें)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "5544",
+            "hi": "5544"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "9702",
+            "hi": "9702"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "38808",
+            "hi": "38808"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "1848",
+            "hi": "1848"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Volume = ⁴⁄₃πr³ = ⁴⁄₃ × 22/7 × 21³ = 38808 cm³.",
+        "hi": "आयतन = ⁴⁄₃πr³ = ⁴⁄₃ × 22/7 × 21³ = 38808 सेमी³।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Computes the sphere's SURFACE AREA (4πr²) instead of its volume — confuses the two formulas.",
+          "hi": "गोले का आयतन निकालने के बजाय पृष्ठीय क्षेत्रफल (4πr²) निकाल देता है — दोनों सूत्रों को भ्रमित कर देता है।"
+        },
+        "b": {
+          "en": "Uses ⅓ (the cone-volume constant) instead of ⁴⁄₃.",
+          "hi": "⁴⁄₃ के बजाय ⅓ (शंकु के आयतन का गुणांक) का उपयोग करता है।"
+        },
+        "d": {
+          "en": "Forgets to cube the radius — uses r² instead of r³.",
+          "hi": "त्रिज्या का घन करना भूल जाता है — r³ के बजाय r² का उपयोग करता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-mensuration-spherevolume-04",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Find the volume of a sphere with radius 28 cm. (Use π = 22/7)",
+        "hi": "28 सेमी त्रिज्या वाले एक गोले का आयतन ज्ञात करें। (π = 22/7 का उपयोग करें)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "9856",
+            "hi": "9856"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "22997.33",
+            "hi": "22997.33"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "3285.33",
+            "hi": "3285.33"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "91989.33",
+            "hi": "91989.33"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "Volume = ⁴⁄₃πr³ = ⁴⁄₃ × 22/7 × 28³ = 91989.33 cm³.",
+        "hi": "आयतन = ⁴⁄₃πr³ = ⁴⁄₃ × 22/7 × 28³ = 91989.33 सेमी³।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Computes the sphere's SURFACE AREA (4πr²) instead of its volume — confuses the two formulas.",
+          "hi": "गोले का आयतन निकालने के बजाय पृष्ठीय क्षेत्रफल (4πr²) निकाल देता है — दोनों सूत्रों को भ्रमित कर देता है।"
+        },
+        "b": {
+          "en": "Uses ⅓ (the cone-volume constant) instead of ⁴⁄₃.",
+          "hi": "⁴⁄₃ के बजाय ⅓ (शंकु के आयतन का गुणांक) का उपयोग करता है।"
+        },
+        "c": {
+          "en": "Forgets to cube the radius — uses r² instead of r³.",
+          "hi": "त्रिज्या का घन करना भूल जाता है — r³ के बजाय r² का उपयोग करता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-mensuration-spherevolume-05",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Find the volume of a sphere with radius 35 cm. (Use π = 22/7)",
+        "hi": "35 सेमी त्रिज्या वाले एक गोले का आयतन ज्ञात करें। (π = 22/7 का उपयोग करें)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "179666.67",
+            "hi": "179666.67"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "15400",
+            "hi": "15400"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "44916.67",
+            "hi": "44916.67"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "5133.33",
+            "hi": "5133.33"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Volume = ⁴⁄₃πr³ = ⁴⁄₃ × 22/7 × 35³ = 179666.67 cm³.",
+        "hi": "आयतन = ⁴⁄₃πr³ = ⁴⁄₃ × 22/7 × 35³ = 179666.67 सेमी³।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Computes the sphere's SURFACE AREA (4πr²) instead of its volume — confuses the two formulas.",
+          "hi": "गोले का आयतन निकालने के बजाय पृष्ठीय क्षेत्रफल (4πr²) निकाल देता है — दोनों सूत्रों को भ्रमित कर देता है।"
+        },
+        "c": {
+          "en": "Uses ⅓ (the cone-volume constant) instead of ⁴⁄₃.",
+          "hi": "⁴⁄₃ के बजाय ⅓ (शंकु के आयतन का गुणांक) का उपयोग करता है।"
+        },
+        "d": {
+          "en": "Forgets to cube the radius — uses r² instead of r³.",
+          "hi": "त्रिज्या का घन करना भूल जाता है — r³ के बजाय r² का उपयोग करता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-mensuration-spherevolume-06",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Find the volume of a sphere with radius 42 cm. (Use π = 22/7)",
+        "hi": "42 सेमी त्रिज्या वाले एक गोले का आयतन ज्ञात करें। (π = 22/7 का उपयोग करें)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "22176",
+            "hi": "22176"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "310464",
+            "hi": "310464"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "77616",
+            "hi": "77616"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "7392",
+            "hi": "7392"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Volume = ⁴⁄₃πr³ = ⁴⁄₃ × 22/7 × 42³ = 310464 cm³.",
+        "hi": "आयतन = ⁴⁄₃πr³ = ⁴⁄₃ × 22/7 × 42³ = 310464 सेमी³।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Computes the sphere's SURFACE AREA (4πr²) instead of its volume — confuses the two formulas.",
+          "hi": "गोले का आयतन निकालने के बजाय पृष्ठीय क्षेत्रफल (4πr²) निकाल देता है — दोनों सूत्रों को भ्रमित कर देता है।"
+        },
+        "c": {
+          "en": "Uses ⅓ (the cone-volume constant) instead of ⁴⁄₃.",
+          "hi": "⁴⁄₃ के बजाय ⅓ (शंकु के आयतन का गुणांक) का उपयोग करता है।"
+        },
+        "d": {
+          "en": "Forgets to cube the radius — uses r² instead of r³.",
+          "hi": "त्रिज्या का घन करना भूल जाता है — r³ के बजाय r² का उपयोग करता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-mensuration-spherevolume-07",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Find the volume of a sphere with radius 49 cm. (Use π = 22/7)",
+        "hi": "49 सेमी त्रिज्या वाले एक गोले का आयतन ज्ञात करें। (π = 22/7 का उपयोग करें)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "30184",
+            "hi": "30184"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "123251.33",
+            "hi": "123251.33"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "493005.33",
+            "hi": "493005.33"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "10061.33",
+            "hi": "10061.33"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Volume = ⁴⁄₃πr³ = ⁴⁄₃ × 22/7 × 49³ = 493005.33 cm³.",
+        "hi": "आयतन = ⁴⁄₃πr³ = ⁴⁄₃ × 22/7 × 49³ = 493005.33 सेमी³।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Computes the sphere's SURFACE AREA (4πr²) instead of its volume — confuses the two formulas.",
+          "hi": "गोले का आयतन निकालने के बजाय पृष्ठीय क्षेत्रफल (4πr²) निकाल देता है — दोनों सूत्रों को भ्रमित कर देता है।"
+        },
+        "b": {
+          "en": "Uses ⅓ (the cone-volume constant) instead of ⁴⁄₃.",
+          "hi": "⁴⁄₃ के बजाय ⅓ (शंकु के आयतन का गुणांक) का उपयोग करता है।"
+        },
+        "d": {
+          "en": "Forgets to cube the radius — uses r² instead of r³.",
+          "hi": "त्रिज्या का घन करना भूल जाता है — r³ के बजाय r² का उपयोग करता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    }
+  ]
+}

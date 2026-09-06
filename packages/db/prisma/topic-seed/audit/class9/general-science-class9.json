@@ -1,0 +1,2327 @@
+{
+  "section": "science",
+  "topicKey": "general_science_class9",
+  "generatedAt": "2026-09-06T12:00:00.000Z",
+  "questions": [
+    {
+      "key": "bank-sci9-01",
+      "difficulty": "EASY",
+      "content": {
+        "en": "What is the SI unit of speed?",
+        "hi": "चाल (speed) का SI मात्रक क्या है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "metre per second (m/s)",
+            "hi": "मीटर प्रति सेकंड (m/s)"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "metre per second squared (m/s²)",
+            "hi": "मीटर प्रति सेकंड वर्ग (m/s²)"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "kilogram per cubic metre (kg/m³)",
+            "hi": "किलोग्राम प्रति घन मीटर (kg/m³)"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "newton (N)",
+            "hi": "न्यूटन (N)"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Speed = distance/time, so its SI unit is metre per second (m/s).",
+        "hi": "चाल = दूरी/समय, इसलिए इसका SI मात्रक मीटर प्रति सेकंड (m/s) होता है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "m/s² is the unit of acceleration (rate of change of velocity), not speed.",
+          "hi": "m/s² त्वरण (acceleration) का मात्रक है, चाल का नहीं।"
+        },
+        "c": {
+          "en": "kg/m³ is the unit of density, which is unrelated to speed.",
+          "hi": "kg/m³ घनत्व (density) का मात्रक है, इसका चाल से कोई संबंध नहीं है।"
+        },
+        "d": {
+          "en": "newton is the SI unit of force, not speed.",
+          "hi": "न्यूटन बल (force) का SI मात्रक है, चाल का नहीं।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-sci9-02",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Newton's first law of motion is also known as the law of ______.",
+        "hi": "न्यूटन का गति का प्रथम नियम किस नियम के नाम से भी जाना जाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "conservation of momentum",
+            "hi": "संवेग संरक्षण"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "inertia",
+            "hi": "जड़त्व (inertia)"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "action and reaction",
+            "hi": "क्रिया और प्रतिक्रिया"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "universal gravitation",
+            "hi": "सार्वत्रिक गुरुत्वाकर्षण"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Newton's first law states that a body continues in its state of rest or uniform motion unless acted upon by an external force. This property of a body is called inertia, so the first law is also called the law of inertia.",
+        "hi": "न्यूटन का प्रथम नियम कहता है कि कोई वस्तु अपनी विराम या एकसमान गति की अवस्था में तब तक बनी रहती है जब तक उस पर कोई बाह्य बल न लगे। वस्तु के इस गुण को जड़त्व कहते हैं, इसलिए प्रथम नियम को जड़त्व का नियम भी कहा जाता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Conservation of momentum relates to collisions and Newton's third law, not the first law.",
+          "hi": "संवेग संरक्षण टक्करों और न्यूटन के तीसरे नियम से संबंधित है, प्रथम नियम से नहीं।"
+        },
+        "c": {
+          "en": "Action-reaction pairs are described by Newton's third law, not the first law.",
+          "hi": "क्रिया-प्रतिक्रिया जोड़ी न्यूटन के तीसरे नियम द्वारा वर्णित होती है, प्रथम नियम द्वारा नहीं।"
+        },
+        "d": {
+          "en": "Universal gravitation is a separate law formulated by Newton and is unrelated to the first law of motion.",
+          "hi": "सार्वत्रिक गुरुत्वाकर्षण न्यूटन द्वारा दिया गया एक अलग नियम है, जिसका गति के प्रथम नियम से कोई संबंध नहीं है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-sci9-03",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Which of the following is the SI unit of weight?",
+        "hi": "निम्नलिखित में से भार (weight) का SI मात्रक कौन-सा है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "kilogram",
+            "hi": "किलोग्राम"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "joule",
+            "hi": "जूल"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "newton",
+            "hi": "न्यूटन"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "newton-metre",
+            "hi": "न्यूटन-मीटर"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Weight is the force of gravity acting on a body (W = mg). Since force is measured in newton, weight is also measured in newton.",
+        "hi": "भार किसी वस्तु पर लगने वाला गुरुत्वाकर्षण बल है (W = mg)। चूँकि बल न्यूटन में मापा जाता है, इसलिए भार भी न्यूटन में मापा जाता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Kilogram is the unit of mass, not weight — mass and weight are often confused but are different physical quantities.",
+          "hi": "किलोग्राम द्रव्यमान (mass) का मात्रक है, भार का नहीं — द्रव्यमान और भार अक्सर एक-दूसरे से भ्रमित कर दिए जाते हैं जबकि वे अलग राशियाँ हैं।"
+        },
+        "b": {
+          "en": "Joule is the SI unit of energy/work, not weight.",
+          "hi": "जूल ऊर्जा/कार्य का SI मात्रक है, भार का नहीं।"
+        },
+        "d": {
+          "en": "Newton-metre is the unit of torque (moment of force), not weight.",
+          "hi": "न्यूटन-मीटर बल-आघूर्ण (torque) का मात्रक है, भार का नहीं।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-sci9-04",
+      "difficulty": "EASY",
+      "content": {
+        "en": "The SI unit of work done is the ______.",
+        "hi": "किए गए कार्य (work done) का SI मात्रक ______ है।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "watt",
+            "hi": "वाट"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "newton",
+            "hi": "न्यूटन"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "pascal",
+            "hi": "पास्कल"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "joule",
+            "hi": "जूल"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "Work done = force × displacement. Since force is in newton and displacement in metre, work is measured in newton-metre, which is given the special name joule.",
+        "hi": "किया गया कार्य = बल × विस्थापन। चूँकि बल न्यूटन में और विस्थापन मीटर में होता है, इसलिए कार्य न्यूटन-मीटर में मापा जाता है, जिसे विशेष नाम जूल दिया गया है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Watt is the SI unit of power (the rate of doing work), not of work itself.",
+          "hi": "वाट शक्ति (power) यानी कार्य करने की दर का SI मात्रक है, कार्य का नहीं।"
+        },
+        "b": {
+          "en": "Newton is the unit of force, one factor in the work formula, but not the unit of work itself.",
+          "hi": "न्यूटन बल का मात्रक है, जो कार्य के सूत्र का एक भाग है, परंतु स्वयं कार्य का मात्रक नहीं है।"
+        },
+        "c": {
+          "en": "Pascal is the unit of pressure, which is unrelated to work.",
+          "hi": "पास्कल दाब (pressure) का मात्रक है, जिसका कार्य से कोई संबंध नहीं है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-sci9-05",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Which of the following processes involves a liquid changing directly into vapour without boiling, occurring only at its surface?",
+        "hi": "निम्नलिखित में से कौन-सी प्रक्रिया में द्रव बिना उबले सीधे वाष्प में बदल जाता है, और यह केवल सतह पर होती है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "evaporation",
+            "hi": "वाष्पीकरण (evaporation)"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "boiling",
+            "hi": "क्वथन (boiling)"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "condensation",
+            "hi": "संघनन (condensation)"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "freezing",
+            "hi": "हिमीकरण (freezing)"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Evaporation is a surface phenomenon in which liquid particles at the surface gain enough energy to escape into the vapour state at temperatures below the boiling point.",
+        "hi": "वाष्पीकरण एक पृष्ठीय परिघटना है जिसमें सतह पर स्थित द्रव कण, क्वथनांक से कम तापमान पर ही, पर्याप्त ऊर्जा प्राप्त करके वाष्प अवस्था में बदल जाते हैं।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Boiling occurs throughout the bulk of the liquid at a fixed temperature (the boiling point), not just at the surface.",
+          "hi": "क्वथन संपूर्ण द्रव में एक निश्चित तापमान (क्वथनांक) पर होता है, केवल सतह पर नहीं।"
+        },
+        "c": {
+          "en": "Condensation is the reverse process, in which vapour changes into liquid.",
+          "hi": "संघनन इसकी विपरीत प्रक्रिया है, जिसमें वाष्प द्रव में बदलती है।"
+        },
+        "d": {
+          "en": "Freezing is the change of liquid into solid, a completely different change of state.",
+          "hi": "हिमीकरण द्रव का ठोस में बदलना है, जो एक बिल्कुल अलग अवस्था परिवर्तन है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-sci9-06",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Which of the following is an example of a homogeneous mixture?",
+        "hi": "निम्नलिखित में से कौन-सा समांगी (homogeneous) मिश्रण का उदाहरण है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "sand and water",
+            "hi": "रेत और पानी"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "salt solution",
+            "hi": "नमक का विलयन (salt solution)"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "oil and water",
+            "hi": "तेल और पानी"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "milk",
+            "hi": "दूध"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "A salt solution is homogeneous because the salt is completely and uniformly dissolved in water, forming a single visible phase throughout.",
+        "hi": "नमक का विलयन समांगी होता है क्योंकि नमक पानी में पूरी तरह और समान रूप से घुल जाता है, जिससे पूरे मिश्रण में एक ही दृश्य प्रावस्था (phase) बनती है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Sand and water form a heterogeneous mixture (a suspension) since the sand settles and remains visibly distinct.",
+          "hi": "रेत और पानी एक विषमांगी मिश्रण (निलंबन) बनाते हैं क्योंकि रेत नीचे बैठ जाती है और स्पष्ट रूप से अलग दिखती रहती है।"
+        },
+        "c": {
+          "en": "Oil and water do not mix and form two distinct visible layers, making the mixture heterogeneous.",
+          "hi": "तेल और पानी आपस में नहीं मिलते और दो अलग-अलग स्पष्ट परतें बनाते हैं, जिससे यह मिश्रण विषमांगी होता है।"
+        },
+        "d": {
+          "en": "Milk is a colloid, which looks uniform to the naked eye but is actually heterogeneous at the microscopic level (fat droplets dispersed in water).",
+          "hi": "दूध एक कोलॉइड है, जो नंगी आँखों से समांगी दिखता है परंतु सूक्ष्म स्तर पर वास्तव में विषमांगी होता है (पानी में वसा की बूँदें बिखरी होती हैं)।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-sci9-07",
+      "difficulty": "EASY",
+      "content": {
+        "en": "What does the chemical formula H2O tell us about a molecule of water?",
+        "hi": "रासायनिक सूत्र H2O हमें पानी के एक अणु के बारे में क्या बताता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "it contains 2 grams of hydrogen and 1 gram of oxygen",
+            "hi": "इसमें 2 ग्राम हाइड्रोजन और 1 ग्राम ऑक्सीजन होती है"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "it contains 1 atom of hydrogen and 2 atoms of oxygen",
+            "hi": "इसमें हाइड्रोजन का 1 परमाणु और ऑक्सीजन के 2 परमाणु होते हैं"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "it contains 2 atoms of hydrogen and 1 atom of oxygen",
+            "hi": "इसमें हाइड्रोजन के 2 परमाणु और ऑक्सीजन का 1 परमाणु होता है"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "it contains 2 molecules of hydrogen and 1 molecule of oxygen",
+            "hi": "इसमें हाइड्रोजन के 2 अणु और ऑक्सीजन का 1 अणु होता है"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "The subscript numbers in a chemical formula show the number of atoms of each element present in one molecule; H2O means 2 hydrogen atoms are bonded to 1 oxygen atom.",
+        "hi": "रासायनिक सूत्र में लिखी संख्या (subscript) एक अणु में उपस्थित प्रत्येक तत्व के परमाणुओं की संख्या दर्शाती है; H2O का अर्थ है कि हाइड्रोजन के 2 परमाणु ऑक्सीजन के 1 परमाणु से जुड़े होते हैं।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This confuses the chemical formula (atom count) with mass proportions, which is not what the formula's subscripts represent.",
+          "hi": "यह रासायनिक सूत्र (परमाणुओं की संख्या) को द्रव्यमान अनुपात समझ लेता है, जबकि सूत्र की संख्याएँ इसे नहीं दर्शातीं।"
+        },
+        "b": {
+          "en": "This reverses the atom counts — it is hydrogen that has 2 atoms and oxygen that has 1 atom, not the other way around.",
+          "hi": "यह परमाणुओं की संख्या को उलट देता है — वास्तव में हाइड्रोजन के 2 परमाणु और ऑक्सीजन का 1 परमाणु होता है, इसके विपरीत नहीं।"
+        },
+        "d": {
+          "en": "This confuses atoms within a single molecule with separate molecules of hydrogen and oxygen gas.",
+          "hi": "यह एक ही अणु में मौजूद परमाणुओं को हाइड्रोजन और ऑक्सीजन गैस के अलग-अलग अणुओं से भ्रमित कर देता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-sci9-08",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Which cell organelle is known as the 'powerhouse of the cell'?",
+        "hi": "किस कोशिकांग (cell organelle) को 'कोशिका का पावरहाउस' कहा जाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "nucleus",
+            "hi": "केंद्रक (nucleus)"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "ribosome",
+            "hi": "राइबोसोम (ribosome)"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Golgi apparatus",
+            "hi": "गॉल्जी उपकरण (Golgi apparatus)"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "mitochondrion",
+            "hi": "माइटोकॉन्ड्रिया (mitochondrion)"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "Mitochondria generate ATP through cellular respiration, providing energy for the cell's activities, which is why they are nicknamed the 'powerhouse of the cell.'",
+        "hi": "माइटोकॉन्ड्रिया कोशिकीय श्वसन के माध्यम से ATP उत्पन्न करते हैं, जो कोशिका की गतिविधियों के लिए ऊर्जा प्रदान करता है, इसलिए इन्हें 'कोशिका का पावरहाउस' कहा जाता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "The nucleus controls cellular activities and stores genetic material, but it does not produce energy for the cell.",
+          "hi": "केंद्रक कोशिकीय गतिविधियों को नियंत्रित करता है और आनुवंशिक पदार्थ संग्रहीत करता है, परंतु यह कोशिका के लिए ऊर्जा उत्पन्न नहीं करता।"
+        },
+        "b": {
+          "en": "Ribosomes are the site of protein synthesis, not energy production.",
+          "hi": "राइबोसोम प्रोटीन संश्लेषण का स्थान हैं, ऊर्जा उत्पादन का नहीं।"
+        },
+        "c": {
+          "en": "The Golgi apparatus packages and dispatches cellular materials but is not involved in generating energy.",
+          "hi": "गॉल्जी उपकरण कोशिकीय पदार्थों को पैक और भेजने का काम करता है, यह ऊर्जा उत्पन्न करने में शामिल नहीं है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-sci9-09",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Which plant tissue is responsible for the upward transport of water and minerals from the roots to the leaves?",
+        "hi": "कौन-सा पादप ऊतक जड़ों से पत्तियों तक पानी और खनिजों के ऊपर की ओर परिवहन के लिए उत्तरदायी है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "xylem",
+            "hi": "जाइलम (xylem)"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "phloem",
+            "hi": "फ्लोएम (phloem)"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "parenchyma",
+            "hi": "मृदूतक (parenchyma)"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "collenchyma",
+            "hi": "स्थूलकोण ऊतक (collenchyma)"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Xylem is a conducting tissue made of vessels and tracheids that transports water and dissolved minerals upward from the roots to the rest of the plant.",
+        "hi": "जाइलम एक संवहन ऊतक है जो वाहिकाओं (vessels) और वाहिनिकाओं (tracheids) से बना होता है और जड़ों से पौधे के बाकी हिस्सों तक पानी व घुले खनिजों का ऊपर की ओर परिवहन करता है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Phloem transports food (prepared by photosynthesis) from the leaves to other parts of the plant, not water.",
+          "hi": "फ्लोएम प्रकाश-संश्लेषण से बने भोजन को पत्तियों से पौधे के अन्य भागों तक पहुँचाता है, पानी को नहीं।"
+        },
+        "c": {
+          "en": "Parenchyma is a simple packing tissue involved in storage and photosynthesis, not in long-distance water transport.",
+          "hi": "मृदूतक एक साधारण भरावी ऊतक है जो भंडारण और प्रकाश-संश्लेषण में शामिल होता है, लंबी दूरी के जल परिवहन में नहीं।"
+        },
+        "d": {
+          "en": "Collenchyma provides mechanical support and flexibility to growing parts of the plant, not water transport.",
+          "hi": "स्थूलकोण ऊतक पौधे के बढ़ते हुए भागों को यांत्रिक सहारा और लचीलापन प्रदान करता है, जल परिवहन नहीं करता।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-sci9-10",
+      "difficulty": "EASY",
+      "content": {
+        "en": "In the five-kingdom classification proposed by Whittaker, which kingdom includes organisms that are unicellular and lack a well-defined nucleus?",
+        "hi": "व्हिटेकर द्वारा प्रस्तावित पाँच-जगत वर्गीकरण में, कौन-से जगत में वे जीव शामिल हैं जो एककोशिकीय होते हैं और जिनमें स्पष्ट केंद्रक नहीं होता?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Protista",
+            "hi": "प्रोटिस्टा (Protista)"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Monera",
+            "hi": "मोनेरा (Monera)"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Fungi",
+            "hi": "कवक (Fungi)"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Plantae",
+            "hi": "पादप (Plantae)"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Kingdom Monera consists of prokaryotic organisms such as bacteria, whose cells lack a membrane-bound nucleus and other membrane-bound organelles.",
+        "hi": "मोनेरा जगत में बैक्टीरिया जैसे प्रोकैरियोटिक जीव शामिल हैं, जिनकी कोशिकाओं में झिल्ली-युक्त केंद्रक और अन्य झिल्ली-युक्त कोशिकांगों का अभाव होता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Protists are unicellular but eukaryotic, meaning they do have a well-defined, membrane-bound nucleus.",
+          "hi": "प्रोटिस्टा एककोशिकीय होते हैं परंतु यूकैरियोटिक होते हैं, अर्थात उनमें स्पष्ट, झिल्ली-युक्त केंद्रक होता है।"
+        },
+        "c": {
+          "en": "Fungi are eukaryotic and mostly multicellular (except yeasts), with a well-defined nucleus.",
+          "hi": "कवक यूकैरियोटिक होते हैं और अधिकांशतः बहुकोशिकीय होते हैं (यीस्ट को छोड़कर), और इनमें स्पष्ट केंद्रक होता है।"
+        },
+        "d": {
+          "en": "Plantae comprises multicellular eukaryotic organisms with well-defined nuclei.",
+          "hi": "पादप जगत में बहुकोशिकीय यूकैरियोटिक जीव शामिल हैं जिनमें स्पष्ट केंद्रक होता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-sci9-11",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "A car starts from rest and attains a velocity of 20 m/s in 10 seconds while moving in a straight line. What is its acceleration?",
+        "hi": "एक कार विराम अवस्था से चलना शुरू करती है और सीधी रेखा में गति करते हुए 10 सेकंड में 20 मीटर/सेकंड का वेग प्राप्त कर लेती है। इसका त्वरण (acceleration) क्या है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "200 m/s²",
+            "hi": "200 मीटर/सेकंड²"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "0.5 m/s²",
+            "hi": "0.5 मीटर/सेकंड²"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "2 m/s²",
+            "hi": "2 मीटर/सेकंड²"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "20 m/s²",
+            "hi": "20 मीटर/सेकंड²"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Acceleration a = (v − u)/t = (20 − 0)/10 = 2 m/s².",
+        "hi": "त्वरण a = (v − u)/t = (20 − 0)/10 = 2 मीटर/सेकंड²।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This results from multiplying velocity and time (20 × 10) instead of dividing velocity by time.",
+          "hi": "यह वेग और समय को गुणा करने (20 × 10) से मिलता है, जबकि वेग को समय से विभाजित करना चाहिए।"
+        },
+        "b": {
+          "en": "This results from incorrectly dividing time by velocity (10/20) instead of velocity by time.",
+          "hi": "यह समय को वेग से विभाजित करने (10/20) से मिलता है, जबकि वेग को समय से विभाजित करना सही तरीका है।"
+        },
+        "d": {
+          "en": "This results from taking the acceleration equal to the final velocity itself, forgetting to divide by the time taken.",
+          "hi": "यह त्वरण को सीधे अंतिम वेग के बराबर मान लेने से मिलता है, जिसमें लगे समय से विभाजित करना भूल जाते हैं।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-sci9-12",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "A bullet of mass 20 g is fired from a rifle with a velocity of 100 m/s. What is the momentum of the bullet?",
+        "hi": "एक राइफल से 20 ग्राम द्रव्यमान की गोली 100 मीटर/सेकंड के वेग से दागी जाती है। गोली का संवेग (momentum) कितना है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "5 kg m/s",
+            "hi": "5 किग्रा मीटर/सेकंड"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "20 kg m/s",
+            "hi": "20 किग्रा मीटर/सेकंड"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "2000 kg m/s",
+            "hi": "2000 किग्रा मीटर/सेकंड"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "2 kg m/s",
+            "hi": "2 किग्रा मीटर/सेकंड"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "Momentum p = mv. Converting mass to SI units: 20 g = 0.02 kg. So p = 0.02 kg × 100 m/s = 2 kg m/s.",
+        "hi": "संवेग p = mv। द्रव्यमान को SI मात्रक में बदलने पर: 20 ग्राम = 0.02 किग्रा। अतः p = 0.02 किग्रा × 100 मीटर/सेकंड = 2 किग्रा मीटर/सेकंड।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This results from dividing velocity by mass (100/20 = 5) instead of multiplying mass (in kg) by velocity.",
+          "hi": "यह वेग को द्रव्यमान से विभाजित करने (100/20 = 5) से मिलता है, जबकि द्रव्यमान (किग्रा में) को वेग से गुणा करना चाहिए।"
+        },
+        "b": {
+          "en": "This results from misplacing the decimal point during the gram-to-kilogram conversion, treating 20 g as 0.2 kg instead of 0.02 kg.",
+          "hi": "यह ग्राम से किलोग्राम में बदलते समय दशमलव बिंदु गलत जगह लगाने से मिलता है, जिसमें 20 ग्राम को 0.02 किग्रा की जगह 0.2 किग्रा मान लिया जाता है।"
+        },
+        "c": {
+          "en": "This results from not converting grams to kilograms at all and directly multiplying 20 × 100.",
+          "hi": "यह ग्राम को किलोग्राम में बदले बिना ही सीधे 20 × 100 का गुणा करने से मिलता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-sci9-13",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "The acceleration due to gravity on the Moon's surface is about 1/6th of that on Earth. If an object weighs 60 N on Earth, what would it weigh on the Moon (approximately)?",
+        "hi": "चंद्रमा की सतह पर गुरुत्वीय त्वरण, पृथ्वी की तुलना में लगभग 1/6 होता है। यदि कोई वस्तु पृथ्वी पर 60 न्यूटन भार रखती है, तो चंद्रमा पर उसका भार लगभग कितना होगा?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "10 N",
+            "hi": "10 न्यूटन"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "60 N",
+            "hi": "60 न्यूटन"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "360 N",
+            "hi": "360 न्यूटन"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "6 N",
+            "hi": "6 न्यूटन"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Weight = mg. Since g on the Moon is about 1/6 of g on Earth, the weight on the Moon = 60/6 = 10 N. The mass stays the same everywhere; only weight changes because it depends on the local value of g.",
+        "hi": "भार = mg। चूँकि चंद्रमा पर g, पृथ्वी के g का लगभग 1/6 होता है, इसलिए चंद्रमा पर भार = 60/6 = 10 न्यूटन होगा। द्रव्यमान हर जगह समान रहता है; केवल भार बदलता है क्योंकि यह स्थानीय g मान पर निर्भर करता है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "This assumes weight stays the same everywhere, ignoring that weight depends on the local value of g, unlike mass which remains constant.",
+          "hi": "यह मान लेता है कि भार हर जगह समान रहता है, जबकि भार स्थानीय g मान पर निर्भर करता है, द्रव्यमान की तरह स्थिर नहीं रहता।"
+        },
+        "c": {
+          "en": "This results from multiplying by 6 instead of dividing by 6, reversing the correct relationship.",
+          "hi": "यह 6 से भाग देने की जगह 6 से गुणा करने से मिलता है, जो सही संबंध को उलट देता है।"
+        },
+        "d": {
+          "en": "This results from dividing by 10 instead of 6, a simple arithmetic slip.",
+          "hi": "यह 6 की जगह 10 से भाग देने से मिलता है, जो एक साधारण गणितीय भूल है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-sci9-14",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "A body of mass 2 kg is moving with a velocity of 3 m/s. What is its kinetic energy?",
+        "hi": "2 किग्रा द्रव्यमान की एक वस्तु 3 मीटर/सेकंड के वेग से गतिमान है। इसकी गतिज ऊर्जा (kinetic energy) कितनी है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "6 J",
+            "hi": "6 जूल"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "9 J",
+            "hi": "9 जूल"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "18 J",
+            "hi": "18 जूल"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "3 J",
+            "hi": "3 जूल"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "KE = ½mv² = ½ × 2 × 3² = ½ × 2 × 9 = 9 J.",
+        "hi": "KE = ½mv² = ½ × 2 × 3² = ½ × 2 × 9 = 9 जूल।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This results from calculating mv (2 × 3 = 6) instead of using the correct kinetic energy formula with velocity squared.",
+          "hi": "यह सही गतिज ऊर्जा सूत्र (जिसमें वेग का वर्ग होता है) की जगह mv (2 × 3 = 6) निकालने से मिलता है।"
+        },
+        "c": {
+          "en": "This results from forgetting to multiply by ½ and directly calculating mv² = 2 × 9 = 18.",
+          "hi": "यह ½ से गुणा करना भूल जाने और सीधे mv² = 2 × 9 = 18 निकालने से मिलता है।"
+        },
+        "d": {
+          "en": "This results from using v instead of v² (i.e., mistakenly calculating mv/2 = 2 × 3/2 = 3) instead of mv²/2.",
+          "hi": "यह v² की जगह v का उपयोग करने से मिलता है (अर्थात गलती से mv/2 = 2 × 3/2 = 3 निकालना), जबकि सही सूत्र mv²/2 है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-sci9-15",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Sound travels fastest in which of the following media?",
+        "hi": "ध्वनि निम्नलिखित में से किस माध्यम में सबसे तेज़ गति से यात्रा करती है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "air",
+            "hi": "वायु"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "water",
+            "hi": "पानी"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "steel",
+            "hi": "स्टील (steel)"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "vacuum",
+            "hi": "निर्वात (vacuum)"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Sound travels by the vibration of particles, and it travels fastest in solids like steel because their particles are closely packed, allowing vibrations to transfer quickly. The general order of speed is solids > liquids > gases.",
+        "hi": "ध्वनि कणों के कंपन के माध्यम से चलती है, और यह स्टील जैसे ठोस पदार्थों में सबसे तेज़ चलती है क्योंकि उनके कण एक-दूसरे के करीब होते हैं, जिससे कंपन जल्दी स्थानांतरित होता है। सामान्यतः गति का क्रम है: ठोस > द्रव > गैस।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Air is a gas, where particles are far apart, so sound travels slower in air than in liquids or solids.",
+          "hi": "वायु एक गैस है, जिसमें कण एक-दूसरे से दूर होते हैं, इसलिए वायु में ध्वनि द्रव या ठोस की तुलना में धीमी चलती है।"
+        },
+        "b": {
+          "en": "Water is a liquid; sound travels faster in water than in air, but still slower than in solids like steel.",
+          "hi": "पानी एक द्रव है; इसमें ध्वनि वायु से तेज़ चलती है, परंतु फिर भी स्टील जैसे ठोस से धीमी होती है।"
+        },
+        "d": {
+          "en": "Sound cannot travel through a vacuum at all, since it needs a material medium to propagate.",
+          "hi": "ध्वनि निर्वात में बिल्कुल भी नहीं चल सकती, क्योंकि इसके संचरण के लिए भौतिक माध्यम आवश्यक है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-sci9-16",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Why does a solid have a fixed shape and volume, unlike a liquid or a gas?",
+        "hi": "द्रव या गैस के विपरीत, ठोस का आकार और आयतन निश्चित क्यों होता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "because solid particles have maximum kinetic energy",
+            "hi": "क्योंकि ठोस कणों में अधिकतम गतिज ऊर्जा होती है"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "because solid particles have large intermolecular spaces",
+            "hi": "क्योंकि ठोस कणों के बीच अंतराआण्विक स्थान अधिक होता है"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "because solid particles are free to move randomly in all directions",
+            "hi": "क्योंकि ठोस कण सभी दिशाओं में स्वतंत्र रूप से यादृच्छिक गति कर सकते हैं"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "because solid particles have strong intermolecular forces holding them in fixed positions",
+            "hi": "क्योंकि ठोस कणों के बीच प्रबल अंतराआण्विक बल होते हैं जो उन्हें निश्चित स्थितियों में बांधे रखते हैं"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "In solids, the intermolecular forces of attraction are very strong, keeping particles tightly packed in fixed positions, which gives solids a definite shape and volume.",
+        "hi": "ठोस पदार्थों में अंतराआण्विक आकर्षण बल बहुत प्रबल होते हैं, जो कणों को निश्चित स्थितियों में कसकर बांधे रखते हैं, जिससे ठोस का आकार और आयतन निश्चित होता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "It is actually gas particles that have the maximum kinetic energy among the three states of matter, not solid particles.",
+          "hi": "वास्तव में गैस कणों में तीनों अवस्थाओं में सबसे अधिक गतिज ऊर्जा होती है, ठोस कणों में नहीं।"
+        },
+        "b": {
+          "en": "Large intermolecular spaces are characteristic of gases, not solids, which have minimal spacing between particles.",
+          "hi": "अधिक अंतराआण्विक स्थान गैसों की विशेषता है, ठोस की नहीं, जिनमें कणों के बीच स्थान न्यूनतम होता है।"
+        },
+        "c": {
+          "en": "Free random movement in all directions describes gas particles; solid particles can only vibrate about their fixed positions.",
+          "hi": "सभी दिशाओं में स्वतंत्र यादृच्छिक गति गैस कणों की विशेषता है; ठोस कण केवल अपनी निश्चित स्थिति के आस-पास कंपन कर सकते हैं।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-sci9-17",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "A gas exerts pressure on the walls of its container. What is the reason for this?",
+        "hi": "एक गैस अपने पात्र की दीवारों पर दाब डालती है। इसका कारण क्या है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "continuous collision of rapidly moving gas particles with the container walls",
+            "hi": "तेज़ी से गतिमान गैस कणों का पात्र की दीवारों से लगातार टकराना"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "gas particles are held together by strong intermolecular forces",
+            "hi": "गैस कण प्रबल अंतराआण्विक बलों द्वारा एक-दूसरे से बंधे रहते हैं"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "gas particles have fixed, ordered positions",
+            "hi": "गैस कणों की स्थिति निश्चित और क्रमबद्ध होती है"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "gas particles have very low kinetic energy",
+            "hi": "गैस कणों में बहुत कम गतिज ऊर्जा होती है"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Gas particles move randomly at high speeds and continuously collide with the walls of their container; these repeated collisions exert pressure on the walls.",
+        "hi": "गैस कण उच्च गति से यादृच्छिक रूप से गति करते हैं और पात्र की दीवारों से लगातार टकराते रहते हैं; ये बार-बार होने वाली टक्करें दीवारों पर दाब डालती हैं।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Gas particles actually have negligible intermolecular forces, which is why gases expand to fill their container instead of staying held together.",
+          "hi": "गैस कणों के बीच वास्तव में नगण्य अंतराआण्विक बल होते हैं, इसीलिए गैस एक साथ बंधे रहने के बजाय पूरे पात्र में फैल जाती है।"
+        },
+        "c": {
+          "en": "Gas particles do not have fixed positions; they move freely and randomly, unlike the fixed arrangement seen in solids.",
+          "hi": "गैस कणों की स्थिति निश्चित नहीं होती; वे स्वतंत्र और यादृच्छिक रूप से गति करते हैं, ठोस की निश्चित संरचना के विपरीत।"
+        },
+        "d": {
+          "en": "Gas particles actually have the highest kinetic energy among the three states of matter, not low kinetic energy.",
+          "hi": "गैस कणों में वास्तव में तीनों अवस्थाओं में सबसे अधिक गतिज ऊर्जा होती है, कम नहीं।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-sci9-18",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Which separation technique is most suitable for separating a mixture of two miscible liquids with different boiling points, such as acetone and water?",
+        "hi": "अलग-अलग क्वथनांक वाले दो मिश्रणीय द्रवों (जैसे एसीटोन और पानी) के मिश्रण को अलग करने के लिए कौन-सी पृथक्करण विधि सबसे उपयुक्त है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "filtration",
+            "hi": "निस्पंदन (filtration)"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "distillation",
+            "hi": "आसवन (distillation)"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "sublimation",
+            "hi": "ऊर्ध्वपातन (sublimation)"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "sedimentation",
+            "hi": "अवसादन (sedimentation)"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Distillation separates miscible liquids with sufficiently different boiling points by heating the mixture so the liquid with the lower boiling point vaporizes first; the vapour is then condensed and collected separately.",
+        "hi": "आसवन विधि में मिश्रण को गर्म किया जाता है, जिससे कम क्वथनांक वाला द्रव पहले वाष्प में बदलता है; इस वाष्प को फिर संघनित कर अलग से एकत्र किया जाता है। यह विधि पर्याप्त भिन्न क्वथनांक वाले मिश्रणीय द्रवों को अलग करने के लिए उपयुक्त है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Filtration separates insoluble solids from liquids; it cannot separate two miscible liquids.",
+          "hi": "निस्पंदन अघुलनशील ठोस को द्रव से अलग करता है; यह दो मिश्रणीय द्रवों को अलग नहीं कर सकता।"
+        },
+        "c": {
+          "en": "Sublimation separates a solid that directly changes into gas (like camphor or ammonium chloride) from a non-sublimable solid; it is not used for liquids.",
+          "hi": "ऊर्ध्वपातन उस ठोस को अलग करता है जो सीधे गैस में बदल जाता है (जैसे कपूर या अमोनियम क्लोराइड), यह द्रवों के लिए प्रयोग नहीं होता।"
+        },
+        "d": {
+          "en": "Sedimentation is used to settle heavier insoluble solid particles in a liquid; it cannot separate two miscible liquids.",
+          "hi": "अवसादन का उपयोग द्रव में भारी अघुलनशील ठोस कणों को नीचे बैठाने के लिए किया जाता है; यह दो मिश्रणीय द्रवों को अलग नहीं कर सकता।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-sci9-19",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Which property distinguishes a colloid from a true solution?",
+        "hi": "कौन-सा गुण एक कोलॉइड को वास्तविक विलयन (true solution) से अलग करता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "a colloid is always coloured while a solution is always colourless",
+            "hi": "कोलॉइड हमेशा रंगीन होता है जबकि विलयन हमेशा रंगहीन होता है"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "a colloid has particles smaller than 1 nm while a true solution has larger particles",
+            "hi": "कोलॉइड के कण 1 nm से छोटे होते हैं जबकि वास्तविक विलयन के कण बड़े होते हैं"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "a colloid shows the Tyndall effect (scatters light) while a true solution does not",
+            "hi": "कोलॉइड टिंडल प्रभाव (प्रकाश का प्रकीर्णन) दर्शाता है जबकि वास्तविक विलयन नहीं दर्शाता"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "a colloid can be separated by simple filtration while a true solution cannot",
+            "hi": "कोलॉइड को साधारण निस्पंदन द्वारा अलग किया जा सकता है जबकि वास्तविक विलयन को नहीं"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Colloidal particles are large enough to scatter a beam of light passing through them, producing the visible Tyndall effect, whereas particles in a true solution are too small to scatter light.",
+        "hi": "कोलॉइड के कण इतने बड़े होते हैं कि उनसे गुजरने वाले प्रकाश की किरण को प्रकीर्णित कर देते हैं, जिससे दृश्य टिंडल प्रभाव उत्पन्न होता है, जबकि वास्तविक विलयन के कण इतने छोटे होते हैं कि वे प्रकाश को प्रकीर्णित नहीं कर पाते।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Colour is not a defining criterion — both colloids and true solutions can be coloured or colourless.",
+          "hi": "रंग कोई निर्धारक कसौटी नहीं है — कोलॉइड और वास्तविक विलयन दोनों रंगीन या रंगहीन हो सकते हैं।"
+        },
+        "b": {
+          "en": "This reverses the actual particle-size ranges — colloidal particles (1-1000 nm) are larger than true-solution particles (less than 1 nm).",
+          "hi": "यह वास्तविक कण-आकार सीमा को उलट देता है — कोलॉइड के कण (1-1000 nm) वास्तविक विलयन के कणों (1 nm से कम) की तुलना में बड़े होते हैं।"
+        },
+        "d": {
+          "en": "Colloidal particles pass through ordinary filter paper and cannot be separated by simple filtration, just like true-solution particles.",
+          "hi": "कोलॉइड के कण साधारण फिल्टर पेपर से गुजर जाते हैं और उन्हें साधारण निस्पंदन द्वारा अलग नहीं किया जा सकता, ठीक वास्तविक विलयन के कणों की तरह।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-sci9-20",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "According to the law of conservation of mass, what happens to the total mass when 4 g of hydrogen reacts completely with 32 g of oxygen to form water?",
+        "hi": "द्रव्यमान संरक्षण के नियम के अनुसार, जब 4 ग्राम हाइड्रोजन 32 ग्राम ऑक्सीजन के साथ पूर्णतः अभिक्रिया करके पानी बनाती है, तो कुल द्रव्यमान का क्या होता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "the total mass decreases because energy is released",
+            "hi": "ऊर्जा मुक्त होने के कारण कुल द्रव्यमान घट जाता है"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "the total mass increases because a new substance is formed",
+            "hi": "एक नया पदार्थ बनने के कारण कुल द्रव्यमान बढ़ जाता है"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "the total mass becomes zero because the reactants are used up",
+            "hi": "अभिकारक समाप्त हो जाने के कारण कुल द्रव्यमान शून्य हो जाता है"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "the total mass of water formed equals 36 g, the sum of the reactant masses",
+            "hi": "बनने वाले पानी का कुल द्रव्यमान 36 ग्राम होता है, जो अभिकारकों के द्रव्यमानों का योग है"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "The law of conservation of mass states that mass can neither be created nor destroyed in a chemical reaction, so the total mass of products equals the total mass of reactants: 4 g + 32 g = 36 g of water.",
+        "hi": "द्रव्यमान संरक्षण का नियम कहता है कि किसी रासायनिक अभिक्रिया में द्रव्यमान न तो उत्पन्न किया जा सकता है और न ही नष्ट, इसलिए उत्पादों का कुल द्रव्यमान अभिकारकों के कुल द्रव्यमान के बराबर होता है: 4 ग्राम + 32 ग्राम = 36 ग्राम पानी।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Mass is conserved regardless of energy changes in ordinary chemical reactions; releasing energy does not remove any mass.",
+          "hi": "साधारण रासायनिक अभिक्रियाओं में ऊर्जा परिवर्तन चाहे जो भी हो, द्रव्यमान संरक्षित रहता है; ऊर्जा मुक्त होने से कोई द्रव्यमान नष्ट नहीं होता।"
+        },
+        "b": {
+          "en": "Forming a new substance does not create extra mass; atoms are only rearranged, not created.",
+          "hi": "एक नया पदार्थ बनने से अतिरिक्त द्रव्यमान उत्पन्न नहीं होता; परमाणु केवल पुनर्व्यवस्थित होते हैं, नए नहीं बनते।"
+        },
+        "c": {
+          "en": "Reactants being 'used up' means they chemically transform into products; their mass is not lost or destroyed, only rearranged.",
+          "hi": "अभिकारकों के 'समाप्त' होने का अर्थ है कि वे रासायनिक रूप से उत्पादों में बदल जाते हैं; उनका द्रव्यमान नष्ट नहीं होता, केवल पुनर्व्यवस्थित होता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-sci9-21",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Which cell organelle regulates the entry and exit of substances into and out of the cell?",
+        "hi": "कौन-सा कोशिकांग कोशिका के अंदर और बाहर पदार्थों के आवागमन को नियंत्रित करता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "cell membrane",
+            "hi": "कोशिका झिल्ली (cell membrane)"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "cell wall",
+            "hi": "कोशिका भित्ति (cell wall)"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "nucleolus",
+            "hi": "केंद्रिका (nucleolus)"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "endoplasmic reticulum",
+            "hi": "अंतर्द्रव्यी जालिका (endoplasmic reticulum)"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "The cell membrane (plasma membrane) is selectively permeable, controlling the movement of substances into and out of the cell.",
+        "hi": "कोशिका झिल्ली (प्लाज्मा झिल्ली) वरणात्मक रूप से पारगम्य होती है, जो कोशिका के अंदर और बाहर पदार्थों की गति को नियंत्रित करती है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "The cell wall provides structural support and shape (found in plant cells) but is freely permeable, not selective, so it does not regulate substance movement.",
+          "hi": "कोशिका भित्ति (पादप कोशिकाओं में पाई जाने वाली) संरचनात्मक सहारा और आकार प्रदान करती है, परंतु यह स्वतंत्र रूप से पारगम्य होती है, वरणात्मक नहीं, इसलिए यह पदार्थों की गति को नियंत्रित नहीं करती।"
+        },
+        "c": {
+          "en": "The nucleolus is involved in ribosome synthesis within the nucleus, not in regulating substance transport across the cell.",
+          "hi": "केंद्रिका केंद्रक के अंदर राइबोसोम के संश्लेषण में शामिल होती है, कोशिका में पदार्थों के परिवहन को नियंत्रित करने में नहीं।"
+        },
+        "d": {
+          "en": "The endoplasmic reticulum transports materials within the cell and assists in protein/lipid synthesis, but it does not regulate what enters or exits the cell as a whole.",
+          "hi": "अंतर्द्रव्यी जालिका कोशिका के भीतर पदार्थों का परिवहन करती है और प्रोटीन/लिपिड संश्लेषण में सहायता करती है, परंतु यह पूरी कोशिका में पदार्थों के प्रवेश या निकास को नियंत्रित नहीं करती।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-sci9-22",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Which of the following statements about prokaryotic cells is correct?",
+        "hi": "प्रोकैरियोटिक कोशिकाओं के बारे में निम्नलिखित में से कौन-सा कथन सही है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "they have a well-defined nucleus enclosed by a nuclear membrane",
+            "hi": "उनमें केंद्रकीय झिल्ली से घिरा एक स्पष्ट केंद्रक होता है"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "they lack membrane-bound organelles such as mitochondria and a nucleus",
+            "hi": "उनमें माइटोकॉन्ड्रिया और केंद्रक जैसे झिल्ली-युक्त कोशिकांगों का अभाव होता है"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "they contain chloroplasts but no ribosomes",
+            "hi": "उनमें क्लोरोप्लास्ट होते हैं परंतु राइबोसोम नहीं होते"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "they are always multicellular",
+            "hi": "वे हमेशा बहुकोशिकीय होती हैं"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Prokaryotic cells (such as bacteria) lack a nuclear membrane and other membrane-bound organelles like mitochondria; their genetic material lies free in the cytoplasm.",
+        "hi": "प्रोकैरियोटिक कोशिकाओं (जैसे बैक्टीरिया) में केंद्रकीय झिल्ली और माइटोकॉन्ड्रिया जैसे अन्य झिल्ली-युक्त कोशिकांगों का अभाव होता है; उनका आनुवंशिक पदार्थ कोशिकाद्रव्य में स्वतंत्र रूप से रहता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This describes eukaryotic cells, which have a nuclear membrane enclosing the genetic material — the opposite of prokaryotic cells.",
+          "hi": "यह यूकैरियोटिक कोशिकाओं का वर्णन है, जिनमें आनुवंशिक पदार्थ को घेरने वाली केंद्रकीय झिल्ली होती है — जो प्रोकैरियोटिक कोशिकाओं के विपरीत है।"
+        },
+        "c": {
+          "en": "Prokaryotic cells do contain ribosomes (needed for protein synthesis) but lack membrane-bound organelles like chloroplasts.",
+          "hi": "प्रोकैरियोटिक कोशिकाओं में राइबोसोम (प्रोटीन संश्लेषण के लिए आवश्यक) होते हैं, परंतु उनमें क्लोरोप्लास्ट जैसे झिल्ली-युक्त कोशिकांगों का अभाव होता है।"
+        },
+        "d": {
+          "en": "Prokaryotes such as bacteria are typically unicellular, not multicellular.",
+          "hi": "बैक्टीरिया जैसे प्रोकैरियोट सामान्यतः एककोशिकीय होते हैं, बहुकोशिकीय नहीं।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-sci9-23",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Which type of animal tissue is responsible for transmitting messages rapidly throughout the body?",
+        "hi": "कौन-सा जंतु ऊतक पूरे शरीर में तेजी से संदेश पहुँचाने के लिए उत्तरदायी है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "epithelial tissue",
+            "hi": "उपकला ऊतक (epithelial tissue)"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "connective tissue",
+            "hi": "संयोजी ऊतक (connective tissue)"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "nervous tissue",
+            "hi": "तंत्रिका ऊतक (nervous tissue)"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "muscular tissue",
+            "hi": "पेशीय ऊतक (muscular tissue)"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Nervous tissue is made up of neurons that generate and transmit electrical impulses, allowing rapid communication throughout the body.",
+        "hi": "तंत्रिका ऊतक न्यूरॉन्स से बना होता है जो विद्युत आवेग उत्पन्न और संचरित करते हैं, जिससे पूरे शरीर में तेजी से संचार संभव होता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Epithelial tissue covers and protects body surfaces and lines cavities; it is not specialized for transmitting messages.",
+          "hi": "उपकला ऊतक शरीर की सतहों को ढकता और सुरक्षा प्रदान करता है तथा गुहाओं की परत बनाता है; यह संदेश पहुँचाने के लिए विशेषीकृत नहीं है।"
+        },
+        "b": {
+          "en": "Connective tissue binds and supports other tissues and organs (e.g., bone, blood); it does not transmit nerve impulses.",
+          "hi": "संयोजी ऊतक अन्य ऊतकों और अंगों को जोड़ता तथा सहारा देता है (जैसे हड्डी, रक्त); यह तंत्रिका आवेग संचरित नहीं करता।"
+        },
+        "d": {
+          "en": "Muscular tissue is responsible for movement through contraction and relaxation, not for transmitting messages.",
+          "hi": "पेशीय ऊतक संकुचन और शिथिलन के माध्यम से गति के लिए उत्तरदायी है, संदेश पहुँचाने के लिए नहीं।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-sci9-24",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Which plant tissue consists of dead cells with thickened, lignified walls and provides mechanical strength to mature parts of the plant?",
+        "hi": "कौन-सा पादप ऊतक मृत कोशिकाओं से बना होता है जिनकी दीवारें मोटी और काष्ठीकृत (lignified) होती हैं, तथा जो पौधे के परिपक्व भागों को यांत्रिक मजबूती प्रदान करता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "parenchyma",
+            "hi": "मृदूतक (parenchyma)"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "collenchyma",
+            "hi": "स्थूलकोण ऊतक (collenchyma)"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "meristematic tissue",
+            "hi": "विभज्योतक (meristematic tissue)"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "sclerenchyma",
+            "hi": "दृढ़ोतक (sclerenchyma)"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "Sclerenchyma consists of dead cells with thick, lignified cell walls that provide strength and rigidity to mature plant parts, such as the husk of a coconut and seed coats.",
+        "hi": "दृढ़ोतक मृत कोशिकाओं से बना होता है जिनकी कोशिका भित्ति मोटी और काष्ठीकृत होती है, जो नारियल के छिलके और बीज के आवरण जैसे पौधे के परिपक्व भागों को मजबूती और कठोरता प्रदान करती है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Parenchyma consists of living, thin-walled cells mainly involved in storage and photosynthesis, not in providing mechanical strength.",
+          "hi": "मृदूतक जीवित, पतली दीवार वाली कोशिकाओं से बना होता है जो मुख्यतः भंडारण और प्रकाश-संश्लेषण में शामिल होती हैं, यांत्रिक मजबूती प्रदान करने में नहीं।"
+        },
+        "b": {
+          "en": "Collenchyma consists of living cells with unevenly thickened walls that provide flexible support to growing parts, unlike the rigid strength of sclerenchyma.",
+          "hi": "स्थूलकोण ऊतक जीवित कोशिकाओं से बना होता है जिनकी दीवारें असमान रूप से मोटी होती हैं, जो बढ़ते हुए भागों को लचीला सहारा देती हैं, दृढ़ोतक की कठोर मजबूती के विपरीत।"
+        },
+        "c": {
+          "en": "Meristematic tissue consists of actively dividing cells responsible for growth, not for providing mechanical support.",
+          "hi": "विभज्योतक सक्रिय रूप से विभाजित होने वाली कोशिकाओं से बना होता है जो वृद्धि के लिए उत्तरदायी हैं, यांत्रिक सहारा देने के लिए नहीं।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-sci9-25",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "On what basis did Whittaker primarily classify living organisms into five kingdoms?",
+        "hi": "व्हिटेकर ने मुख्य रूप से किस आधार पर जीवों को पाँच जगतों में वर्गीकृत किया?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "cell structure, mode of nutrition, and body organization",
+            "hi": "कोशिका संरचना, पोषण की विधि, और शारीरिक संगठन"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "habitat and geographical distribution alone",
+            "hi": "केवल आवास और भौगोलिक वितरण"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "colour and size of the organism",
+            "hi": "जीव का रंग और आकार"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "presence or absence of a skeleton",
+            "hi": "कंकाल की उपस्थिति या अनुपस्थिति"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Whittaker's five-kingdom classification is based on cell structure (prokaryotic/eukaryotic), body organization (unicellular/multicellular), mode of nutrition, and reproduction.",
+        "hi": "व्हिटेकर का पाँच-जगत वर्गीकरण कोशिका संरचना (प्रोकैरियोटिक/यूकैरियोटिक), शारीरिक संगठन (एककोशिकीय/बहुकोशिकीय), पोषण की विधि, और जनन पर आधारित है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Habitat and geography are not the primary basis for kingdom-level classification; they are more relevant to ecological studies.",
+          "hi": "आवास और भूगोल जगत-स्तरीय वर्गीकरण का प्राथमिक आधार नहीं हैं; वे पारिस्थितिकी के अध्ययन से अधिक संबंधित हैं।"
+        },
+        "c": {
+          "en": "Colour and size are superficial features and are not used as scientific criteria for kingdom classification.",
+          "hi": "रंग और आकार सतही विशेषताएँ हैं और इन्हें जगत वर्गीकरण के वैज्ञानिक मानदंड के रूप में उपयोग नहीं किया जाता।"
+        },
+        "d": {
+          "en": "Presence of a skeleton is relevant to classifying organisms within the animal kingdom, not for separating all five kingdoms.",
+          "hi": "कंकाल की उपस्थिति जंतु जगत के भीतर जीवों के वर्गीकरण से संबंधित है, सभी पाँच जगतों को अलग करने के लिए नहीं।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-sci9-26",
+      "difficulty": "HARD",
+      "content": {
+        "en": "A stone is dropped from a height and falls freely under gravity (g = 10 m/s²), hitting the ground after 4 seconds. What distance did it fall?",
+        "hi": "एक पत्थर को किसी ऊँचाई से गिराया जाता है और वह गुरुत्व के अधीन स्वतंत्र रूप से गिरता है (g = 10 मीटर/सेकंड²), तथा 4 सेकंड बाद जमीन से टकराता है। यह कितनी दूरी तय करके गिरा?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "40 m",
+            "hi": "40 मीटर"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "80 m",
+            "hi": "80 मीटर"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "20 m",
+            "hi": "20 मीटर"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "160 m",
+            "hi": "160 मीटर"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Using s = ut + ½gt², with u = 0: s = ½ × 10 × 4² = ½ × 10 × 16 = 80 m.",
+        "hi": "s = ut + ½gt² का उपयोग करते हुए, u = 0 के साथ: s = ½ × 10 × 4² = ½ × 10 × 16 = 80 मीटर।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This results from calculating g × t (10 × 4 = 40) instead of using the full equation of motion involving t².",
+          "hi": "यह t² वाले पूर्ण गति-समीकरण का उपयोग करने के बजाय केवल g × t (10 × 4 = 40) निकालने से मिलता है।"
+        },
+        "c": {
+          "en": "This results from omitting the square on time and using ½ × g × t = ½ × 10 × 4 = 20 instead of ½ × g × t².",
+          "hi": "यह समय का वर्ग करना भूल जाने से मिलता है, जिसमें ½ × g × t² के बजाय ½ × g × t = ½ × 10 × 4 = 20 निकाला जाता है।"
+        },
+        "d": {
+          "en": "This results from forgetting the factor of ½, giving g × t² = 10 × 16 = 160.",
+          "hi": "यह ½ के गुणांक को भूल जाने से मिलता है, जिसमें g × t² = 10 × 16 = 160 निकाला जाता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-sci9-27",
+      "difficulty": "HARD",
+      "content": {
+        "en": "A force of 15 N acting on a body produces an acceleration of 3 m/s². If the same force acts on a second body of half the mass, what will be the new acceleration?",
+        "hi": "15 न्यूटन का बल किसी वस्तु पर लगकर 3 मीटर/सेकंड² का त्वरण उत्पन्न करता है। यदि वही बल आधे द्रव्यमान की दूसरी वस्तु पर लगे, तो नया त्वरण क्या होगा?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "1.5 m/s²",
+            "hi": "1.5 मीटर/सेकंड²"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "3 m/s²",
+            "hi": "3 मीटर/सेकंड²"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "6 m/s²",
+            "hi": "6 मीटर/सेकंड²"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "12 m/s²",
+            "hi": "12 मीटर/सेकंड²"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "From F = ma, the original mass m = F/a = 15/3 = 5 kg. Half of this mass is 2.5 kg. The new acceleration = F/m' = 15/2.5 = 6 m/s². Since acceleration is inversely proportional to mass, halving the mass doubles the acceleration.",
+        "hi": "F = ma से, मूल द्रव्यमान m = F/a = 15/3 = 5 किग्रा। इस द्रव्यमान का आधा 2.5 किग्रा है। नया त्वरण = F/m' = 15/2.5 = 6 मीटर/सेकंड²। चूँकि त्वरण द्रव्यमान के व्युत्क्रमानुपाती होता है, द्रव्यमान आधा होने पर त्वरण दोगुना हो जाता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This results from incorrectly assuming acceleration is directly proportional to mass and halving the acceleration instead of doubling it.",
+          "hi": "यह गलती से यह मान लेने से मिलता है कि त्वरण द्रव्यमान के समानुपाती होता है, जिससे त्वरण को दोगुना करने की बजाय आधा कर दिया जाता है।"
+        },
+        "b": {
+          "en": "This results from incorrectly assuming acceleration remains unchanged even when the mass changes.",
+          "hi": "यह गलती से यह मान लेने से मिलता है कि द्रव्यमान बदलने पर भी त्वरण अपरिवर्तित रहता है।"
+        },
+        "d": {
+          "en": "This results from quadrupling the acceleration instead of doubling it, an arithmetic overcorrection.",
+          "hi": "यह त्वरण को दोगुना करने की बजाय चार गुना कर देने से मिलता है, जो एक गणितीय अतिसुधार है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-sci9-28",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Two objects of masses 4 kg and 9 kg are separated by a distance of 3 m. If G is the universal gravitational constant, what is the gravitational force of attraction between them (in terms of G)?",
+        "hi": "4 किग्रा और 9 किग्रा द्रव्यमान की दो वस्तुएँ एक-दूसरे से 3 मीटर की दूरी पर हैं। यदि G सार्वत्रिक गुरुत्वाकर्षण नियतांक है, तो उनके बीच गुरुत्वाकर्षण बल (G के पदों में) कितना होगा?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "12G",
+            "hi": "12G"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "36G",
+            "hi": "36G"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "0.25G",
+            "hi": "0.25G"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "4G",
+            "hi": "4G"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "F = G(m1m2)/r² = G(4 × 9)/3² = 36G/9 = 4G.",
+        "hi": "F = G(m1m2)/r² = G(4 × 9)/3² = 36G/9 = 4G।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This results from using the separation distance r itself instead of squaring it, i.e., computing Gm1m2/r = 36G/3 = 12G, ignoring the inverse-square nature of gravitation.",
+          "hi": "यह दूरी r का वर्ग करने के बजाय सीधे r का उपयोग करने से मिलता है, अर्थात Gm1m2/r = 36G/3 = 12G निकालना, जिसमें गुरुत्वाकर्षण की व्युत्क्रम-वर्ग प्रकृति को नज़रअंदाज़ कर दिया जाता है।"
+        },
+        "b": {
+          "en": "This results from omitting the r² term altogether and treating the force as simply G times the product of the masses.",
+          "hi": "यह r² पद को पूरी तरह छोड़ देने और बल को केवल G गुणा द्रव्यमानों के गुणनफल के बराबर मान लेने से मिलता है।"
+        },
+        "c": {
+          "en": "This results from inverting the formula, placing r² in the numerator and the product of the masses in the denominator instead of the reverse.",
+          "hi": "यह सूत्र को उलट देने से मिलता है, जिसमें r² को अंश में और द्रव्यमानों के गुणनफल को हर में रख दिया जाता है, जबकि सही सूत्र में यह इसके विपरीत होना चाहिए।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-sci9-29",
+      "difficulty": "HARD",
+      "content": {
+        "en": "A machine does 500 J of work in 25 seconds. What is the power of the machine?",
+        "hi": "एक मशीन 25 सेकंड में 500 जूल कार्य करती है। मशीन की शक्ति (power) कितनी है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "20 W",
+            "hi": "20 वाट"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "12,500 W",
+            "hi": "12,500 वाट"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "0.05 W",
+            "hi": "0.05 वाट"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "525 W",
+            "hi": "525 वाट"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Power = Work/time = 500/25 = 20 W.",
+        "hi": "शक्ति = कार्य/समय = 500/25 = 20 वाट।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "This results from multiplying work and time (500 × 25) instead of dividing work by time.",
+          "hi": "यह कार्य को समय से विभाजित करने की बजाय कार्य और समय को गुणा करने (500 × 25) से मिलता है।"
+        },
+        "c": {
+          "en": "This results from inverting the formula, dividing time by work (25/500) instead of work by time.",
+          "hi": "यह सूत्र को उलट देने से मिलता है, जिसमें कार्य को समय से विभाजित करने की बजाय समय को कार्य से विभाजित (25/500) किया जाता है।"
+        },
+        "d": {
+          "en": "This results from adding work and time (500 + 25) instead of dividing, a basic conceptual confusion of the power formula.",
+          "hi": "यह विभाजन करने की बजाय कार्य और समय को जोड़ (500 + 25) देने से मिलता है, जो शक्ति के सूत्र की एक बुनियादी अवधारणात्मक भूल है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-sci9-30",
+      "difficulty": "HARD",
+      "content": {
+        "en": "A person shouts near a cliff and hears the echo after 2 seconds. If the speed of sound in air is 340 m/s, how far is the person from the cliff?",
+        "hi": "एक व्यक्ति एक चट्टान के पास चिल्लाता है और 2 सेकंड बाद प्रतिध्वनि सुनता है। यदि वायु में ध्वनि की गति 340 मीटर/सेकंड है, तो व्यक्ति चट्टान से कितनी दूर है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "680 m",
+            "hi": "680 मीटर"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "340 m",
+            "hi": "340 मीटर"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "170 m",
+            "hi": "170 मीटर"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "1360 m",
+            "hi": "1360 मीटर"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "The sound travels to the cliff and back in 2 seconds, so the total distance covered by sound = speed × time = 340 × 2 = 680 m. Since this is a round trip (there and back), the distance to the cliff = 680/2 = 340 m.",
+        "hi": "ध्वनि चट्टान तक जाकर वापस आने में 2 सेकंड लगाती है, इसलिए ध्वनि द्वारा तय की गई कुल दूरी = गति × समय = 340 × 2 = 680 मीटर। चूँकि यह एक आने-जाने की यात्रा है, चट्टान की दूरी = 680/2 = 340 मीटर।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This results from taking the total round-trip distance (680 m) as the distance to the cliff, forgetting to divide by 2 for the one-way distance.",
+          "hi": "यह कुल आने-जाने की दूरी (680 मीटर) को ही चट्टान की दूरी मान लेने से मिलता है, जिसमें एकतरफा दूरी के लिए 2 से विभाजित करना भूल जाते हैं।"
+        },
+        "c": {
+          "en": "This results from dividing the correct one-way distance by 2 again, an extra unnecessary halving.",
+          "hi": "यह सही एकतरफा दूरी को दोबारा 2 से विभाजित कर देने से मिलता है, जो एक अनावश्यक अतिरिक्त भाग है।"
+        },
+        "d": {
+          "en": "This results from doubling the round-trip distance instead of halving it, a reversal of the correct operation.",
+          "hi": "यह आने-जाने की दूरी को आधा करने की बजाय दोगुना कर देने से मिलता है, जो सही संक्रिया के विपरीत है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-sci9-31",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Why does the temperature of a substance remain constant during a change of state (for example, while ice is melting at 0°C), even though heat is continuously being supplied?",
+        "hi": "अवस्था परिवर्तन के दौरान (उदाहरण के लिए, जब बर्फ 0°C पर पिघल रही होती है) किसी पदार्थ का तापमान स्थिर क्यों रहता है, जबकि उसे लगातार ऊष्मा दी जा रही होती है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "because heat supplied is reflected back and not absorbed by the substance",
+            "hi": "क्योंकि दी गई ऊष्मा वापस परावर्तित हो जाती है और पदार्थ द्वारा अवशोषित नहीं होती"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "because the substance stops absorbing heat once melting begins",
+            "hi": "क्योंकि पिघलना शुरू होते ही पदार्थ ऊष्मा अवशोषित करना बंद कर देता है"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "because the supplied heat is used to overcome the intermolecular forces of attraction (latent heat), not to raise the temperature",
+            "hi": "क्योंकि दी गई ऊष्मा का उपयोग अंतराआण्विक आकर्षण बलों को दूर करने (गुप्त ऊष्मा) में होता है, तापमान बढ़ाने में नहीं"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "because the surrounding air absorbs all the heat before it reaches the substance",
+            "hi": "क्योंकि आसपास की वायु पदार्थ तक पहुँचने से पहले ही सारी ऊष्मा अवशोषित कर लेती है"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "During a change of state, the heat energy supplied (latent heat) is used to weaken and overcome the intermolecular forces holding the particles together, allowing the change of state to occur, rather than increasing the kinetic energy (and hence the temperature) of the particles.",
+        "hi": "अवस्था परिवर्तन के दौरान, दी गई ऊष्मा ऊर्जा (गुप्त ऊष्मा) का उपयोग कणों को बांधे रखने वाले अंतराआण्विक बलों को कमज़ोर करने और दूर करने में होता है, जिससे अवस्था परिवर्तन संभव होता है, न कि कणों की गतिज ऊर्जा (और इसलिए तापमान) बढ़ाने में।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Heat is not reflected — it is absorbed by the substance, but it is used for a different purpose (breaking intermolecular forces) than raising temperature.",
+          "hi": "ऊष्मा परावर्तित नहीं होती — यह पदार्थ द्वारा अवशोषित होती है, परंतु इसका उपयोग तापमान बढ़ाने के बजाय एक अलग उद्देश्य (अंतराआण्विक बलों को तोड़ना) के लिए होता है।"
+        },
+        "b": {
+          "en": "The substance continues to absorb heat throughout the melting process; it does not stop absorbing heat.",
+          "hi": "पदार्थ पिघलने की पूरी प्रक्रिया के दौरान ऊष्मा अवशोषित करता रहता है; यह ऊष्मा अवशोषित करना बंद नहीं करता।"
+        },
+        "d": {
+          "en": "This is physically incorrect — the heat is being supplied directly to the substance itself, not intercepted by the surrounding air.",
+          "hi": "यह भौतिक रूप से गलत है — ऊष्मा सीधे पदार्थ को दी जा रही है, इसे आसपास की वायु द्वारा बीच में नहीं रोका जाता।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-sci9-32",
+      "difficulty": "HARD",
+      "content": {
+        "en": "A mixture of iron filings and sulphur powder needs to be separated. Which property is used to achieve this?",
+        "hi": "लोहे के बुरादे और गंधक चूर्ण के मिश्रण को अलग करना है। इसके लिए किस गुण का उपयोग किया जाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "both are soluble in water, so filtration can separate them",
+            "hi": "दोनों पानी में घुलनशील हैं, इसलिए निस्पंदन द्वारा उन्हें अलग किया जा सकता है"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "sulphur sublimes on heating, so it can be separated by evaporation",
+            "hi": "गंधक गर्म करने पर ऊर्ध्वपातित हो जाता है, इसलिए इसे वाष्पीकरण द्वारा अलग किया जा सकता है"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "iron filings dissolve in water while sulphur does not",
+            "hi": "लोहे का बुरादा पानी में घुल जाता है जबकि गंधक नहीं घुलता"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "iron filings are magnetic and get attracted by a magnet, while sulphur is not",
+            "hi": "लोहे का बुरादा चुंबकीय होता है और चुंबक द्वारा आकर्षित हो जाता है, जबकि गंधक ऐसा नहीं करता"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "Iron is a magnetic material, so a magnet can be used to attract and pull out the iron filings, leaving behind the non-magnetic sulphur powder — a simple physical separation method based on magnetic properties.",
+        "hi": "लोहा एक चुंबकीय पदार्थ है, इसलिए चुंबक का उपयोग करके लोहे के बुरादे को आकर्षित करके अलग किया जा सकता है, जिससे गैर-चुंबकीय गंधक चूर्ण पीछे रह जाता है — यह चुंबकीय गुणों पर आधारित एक सरल भौतिक पृथक्करण विधि है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Neither iron filings nor sulphur powder is soluble in water, so filtration based on solubility would not work for this mixture.",
+          "hi": "न तो लोहे का बुरादा और न ही गंधक चूर्ण पानी में घुलनशील है, इसलिए घुलनशीलता पर आधारित निस्पंदन इस मिश्रण के लिए काम नहीं करेगा।"
+        },
+        "b": {
+          "en": "Sulphur does not sublime under ordinary conditions used for this separation, and this is not the standard method taught for separating an iron-sulphur mixture; the magnetic method is the correct and commonly used approach.",
+          "hi": "इस पृथक्करण के लिए प्रयुक्त सामान्य परिस्थितियों में गंधक ऊर्ध्वपातित नहीं होता, और लोहा-गंधक मिश्रण को अलग करने के लिए यह मानक विधि नहीं है; चुंबकीय विधि ही सही और आमतौर पर प्रयुक्त तरीका है।"
+        },
+        "c": {
+          "en": "Neither substance is soluble in water, so solubility cannot be used to separate them.",
+          "hi": "इनमें से कोई भी पदार्थ पानी में घुलनशील नहीं है, इसलिए घुलनशीलता का उपयोग करके इन्हें अलग नहीं किया जा सकता।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-sci9-33",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Which of the following best describes a suspension?",
+        "hi": "निम्नलिखित में से कौन-सा विकल्प निलंबन (suspension) का सबसे सही वर्णन करता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "a heterogeneous mixture in which particles are large enough to be seen with the naked eye and settle down on standing",
+            "hi": "एक विषमांगी मिश्रण जिसमें कण इतने बड़े होते हैं कि नंगी आँखों से देखे जा सकते हैं और स्थिर रहने पर नीचे बैठ जाते हैं"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "a homogeneous mixture in which particles are uniformly distributed and do not settle",
+            "hi": "एक समांगी मिश्रण जिसमें कण समान रूप से वितरित होते हैं और नीचे नहीं बैठते"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "a mixture in which particle size is between 1 nm and 1000 nm and shows the Tyndall effect",
+            "hi": "एक मिश्रण जिसमें कणों का आकार 1 nm से 1000 nm के बीच होता है और जो टिंडल प्रभाव दर्शाता है"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "a pure substance made of only one type of particle",
+            "hi": "केवल एक प्रकार के कण से बना एक शुद्ध पदार्थ"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "A suspension is a heterogeneous mixture in which relatively large, visible particles remain scattered through the medium and eventually settle down under gravity if left undisturbed.",
+        "hi": "निलंबन एक विषमांगी मिश्रण है जिसमें अपेक्षाकृत बड़े, दृश्य कण माध्यम में बिखरे रहते हैं और यदि अविचलित छोड़ दिए जाएँ तो गुरुत्व के प्रभाव में अंततः नीचे बैठ जाते हैं।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "This describes a true solution, which is homogeneous with particles too small to settle or be seen individually.",
+          "hi": "यह वास्तविक विलयन का वर्णन है, जो समांगी होता है और जिसके कण इतने छोटे होते हैं कि वे न तो अलग-अलग दिखाई देते हैं और न ही नीचे बैठते हैं।"
+        },
+        "c": {
+          "en": "This describes a colloid, which has an intermediate particle size (1-1000 nm) and shows the Tyndall effect, distinct from a suspension's larger, settling particles.",
+          "hi": "यह कोलॉइड का वर्णन है, जिसके कणों का आकार मध्यवर्ती (1-1000 nm) होता है और जो टिंडल प्रभाव दर्शाता है, जबकि निलंबन के कण बड़े होते हैं और नीचे बैठ जाते हैं।"
+        },
+        "d": {
+          "en": "A suspension is a mixture of more than one substance, not a pure substance made of a single type of particle.",
+          "hi": "निलंबन एक से अधिक पदार्थों का मिश्रण होता है, न कि केवल एक प्रकार के कण से बना शुद्ध पदार्थ।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-sci9-34",
+      "difficulty": "HARD",
+      "content": {
+        "en": "What is the molecular mass of calcium carbonate (CaCO3)? (Atomic masses: Ca = 40 u, C = 12 u, O = 16 u)",
+        "hi": "कैल्शियम कार्बोनेट (CaCO3) का आण्विक द्रव्यमान क्या है? (परमाण्विक द्रव्यमान: Ca = 40 u, C = 12 u, O = 16 u)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "68 u",
+            "hi": "68 u"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "100 u",
+            "hi": "100 u"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "84 u",
+            "hi": "84 u"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "116 u",
+            "hi": "116 u"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Molecular mass = mass of Ca + mass of C + 3 × mass of O = 40 + 12 + (3 × 16) = 40 + 12 + 48 = 100 u.",
+        "hi": "आण्विक द्रव्यमान = Ca का द्रव्यमान + C का द्रव्यमान + 3 × O का द्रव्यमान = 40 + 12 + (3 × 16) = 40 + 12 + 48 = 100 u।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This results from forgetting to multiply oxygen's atomic mass by 3 and using only one oxygen atom instead of three (40 + 12 + 16 = 68).",
+          "hi": "यह ऑक्सीजन के परमाण्विक द्रव्यमान को 3 से गुणा करना भूल जाने और तीन की जगह केवल एक ऑक्सीजन परमाणु का उपयोग करने से मिलता है (40 + 12 + 16 = 68)।"
+        },
+        "c": {
+          "en": "This results from counting only two oxygen atoms instead of three (40 + 12 + 32 = 84), an undercount of the oxygen atoms in the formula.",
+          "hi": "यह सूत्र में तीन की जगह केवल दो ऑक्सीजन परमाणु गिनने से मिलता है (40 + 12 + 32 = 84), जो ऑक्सीजन परमाणुओं की कम गिनती है।"
+        },
+        "d": {
+          "en": "This results from counting four oxygen atoms instead of three, overcounting by one (40 + 12 + 64 = 116).",
+          "hi": "यह तीन की जगह चार ऑक्सीजन परमाणु गिनने से मिलता है, जो एक अतिरिक्त परमाणु की अधिक गिनती है (40 + 12 + 64 = 116)।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-sci9-35",
+      "difficulty": "HARD",
+      "content": {
+        "en": "How many moles are present in 4 g of solid sodium hydroxide, NaOH, given that the molar mass of NaOH is 40 g/mol?",
+        "hi": "यदि NaOH का मोलर द्रव्यमान 40 ग्राम/मोल है, तो 4 ग्राम ठोस सोडियम हाइड्रॉक्साइड (NaOH) में कितने मोल उपस्थित हैं?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "4 mol",
+            "hi": "4 मोल"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "10 mol",
+            "hi": "10 मोल"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "0.1 mol",
+            "hi": "0.1 मोल"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "40 mol",
+            "hi": "40 मोल"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Number of moles = given mass / molar mass = 4/40 = 0.1 mol.",
+        "hi": "मोलों की संख्या = दिया गया द्रव्यमान / मोलर द्रव्यमान = 4/40 = 0.1 मोल।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This results from mistakenly treating the given mass value itself as the number of moles, ignoring the need to divide by molar mass.",
+          "hi": "यह गलती से दिए गए द्रव्यमान के मान को ही मोलों की संख्या मान लेने से मिलता है, जिसमें मोलर द्रव्यमान से विभाजित करने की आवश्यकता को नज़रअंदाज़ कर दिया जाता है।"
+        },
+        "b": {
+          "en": "This results from inverting the formula, dividing molar mass by the given mass (40/4 = 10) instead of the reverse.",
+          "hi": "यह सूत्र को उलट देने से मिलता है, जिसमें दिए गए द्रव्यमान को मोलर द्रव्यमान से विभाजित करने की बजाय मोलर द्रव्यमान को दिए गए द्रव्यमान से विभाजित (40/4 = 10) कर दिया जाता है।"
+        },
+        "d": {
+          "en": "This results from confusing the molar mass value (40 g/mol) itself with the number of moles present.",
+          "hi": "यह मोलर द्रव्यमान के मान (40 ग्राम/मोल) को ही उपस्थित मोलों की संख्या समझ लेने से मिलता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-sci9-36",
+      "difficulty": "HARD",
+      "content": {
+        "en": "According to the cell theory, which of the following statements is correct?",
+        "hi": "कोशिका सिद्धांत (cell theory) के अनुसार, निम्नलिखित में से कौन-सा कथन सही है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "cells can arise spontaneously from non-living matter under suitable conditions",
+            "hi": "उपयुक्त परिस्थितियों में कोशिकाएँ निर्जीव पदार्थ से स्वतः उत्पन्न हो सकती हैं"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "only plant cells qualify as the basic structural unit of life",
+            "hi": "केवल पादप कोशिकाएँ ही जीवन की मूल संरचनात्मक इकाई मानी जाती हैं"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "viruses are considered the smallest living cells",
+            "hi": "विषाणुओं को सबसे छोटी जीवित कोशिका माना जाता है"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "all living organisms are composed of cells, and new cells arise from pre-existing cells",
+            "hi": "सभी जीव कोशिकाओं से बने होते हैं, और नई कोशिकाएँ पहले से मौजूद कोशिकाओं से बनती हैं"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "The modern cell theory states that all living organisms are made up of cells, and new cells arise only from pre-existing cells through division — an extension added by Rudolf Virchow.",
+        "hi": "आधुनिक कोशिका सिद्धांत कहता है कि सभी जीव कोशिकाओं से बने होते हैं, और नई कोशिकाएँ केवल विभाजन द्वारा पहले से मौजूद कोशिकाओं से ही उत्पन्न होती हैं — यह विस्तार रुडोल्फ विरचो द्वारा जोड़ा गया था।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This contradicts the cell theory, which establishes that cells arise only from pre-existing cells, not spontaneously from non-living matter.",
+          "hi": "यह कोशिका सिद्धांत के विपरीत है, जो स्थापित करता है कि कोशिकाएँ केवल पहले से मौजूद कोशिकाओं से ही बनती हैं, निर्जीव पदार्थ से स्वतः नहीं।"
+        },
+        "b": {
+          "en": "The cell theory applies to all living organisms, both plants and animals, not exclusively to plant cells.",
+          "hi": "कोशिका सिद्धांत सभी जीवों पर लागू होता है, पादप और जंतु दोनों पर, केवल पादप कोशिकाओं पर नहीं।"
+        },
+        "c": {
+          "en": "Viruses are not considered true cells since they lack independent cellular machinery and are typically regarded as non-living outside a host; they fall outside the scope of cell theory.",
+          "hi": "विषाणुओं को वास्तविक कोशिका नहीं माना जाता क्योंकि उनमें स्वतंत्र कोशिकीय तंत्र नहीं होता और परपोषी के बाहर उन्हें आमतौर पर निर्जीव माना जाता है; वे कोशिका सिद्धांत के दायरे से बाहर हैं।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-sci9-37",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Plant cells kept in a highly concentrated salt solution lose water and shrink away from their cell walls. What is this phenomenon called, and what causes it?",
+        "hi": "अत्यधिक सांद्र नमक विलयन में रखी गई पादप कोशिकाएँ पानी खो देती हैं और अपनी कोशिका भित्ति से सिकुड़ जाती हैं। इस परिघटना को क्या कहते हैं, और इसका कारण क्या है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "plasmolysis, caused by exosmosis (loss of water from the cell because the surrounding solution is hypertonic)",
+            "hi": "जीवद्रव्यकुंचन (plasmolysis), जो बहिः परासरण (exosmosis) के कारण होता है (कोशिका से पानी बाहर निकलना, क्योंकि आसपास का विलयन अतिपरासरी होता है)"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "plasmolysis, caused by endosmosis (gain of water into the cell because the surrounding solution is hypotonic)",
+            "hi": "जीवद्रव्यकुंचन, जो अंतः परासरण (endosmosis) के कारण होता है (कोशिका में पानी का प्रवेश, क्योंकि आसपास का विलयन अल्पपरासरी होता है)"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "turgidity, caused by endosmosis making the cell swell and become firm",
+            "hi": "स्फीति (turgidity), जो अंतः परासरण के कारण कोशिका को फुलाकर दृढ़ बनाती है"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "diffusion of salt into the cell, causing the cell wall to dissolve",
+            "hi": "नमक का कोशिका में विसरण, जिससे कोशिका भित्ति घुल जाती है"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "When a plant cell is placed in a hypertonic (highly concentrated) solution, water moves out of the cell by exosmosis, causing the cell membrane to shrink away from the cell wall — this is called plasmolysis.",
+        "hi": "जब किसी पादप कोशिका को अतिपरासरी (अत्यधिक सांद्र) विलयन में रखा जाता है, तो बहिः परासरण द्वारा पानी कोशिका से बाहर निकल जाता है, जिससे कोशिका झिल्ली कोशिका भित्ति से सिकुड़ जाती है — इसे जीवद्रव्यकुंचन कहते हैं।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "This correctly names plasmolysis but wrongly attributes it to endosmosis and a hypotonic solution, which actually describes the opposite process — the cell swelling, not shrinking.",
+          "hi": "यह जीवद्रव्यकुंचन का नाम तो सही बताता है, परंतु इसे अंतः परासरण और अल्पपरासरी विलयन से जोड़ना गलत है, जो वास्तव में विपरीत प्रक्रिया (कोशिका का फूलना, सिकुड़ना नहीं) को दर्शाता है।"
+        },
+        "c": {
+          "en": "Turgidity refers to a cell becoming firm and swollen due to water entering by endosmosis in a hypotonic solution — the opposite of what happens in a concentrated salt solution.",
+          "hi": "स्फीति का अर्थ है अल्पपरासरी विलयन में अंतः परासरण द्वारा पानी के प्रवेश से कोशिका का फूलकर दृढ़ हो जाना — जो सांद्र नमक विलयन में होने वाली प्रक्रिया के विपरीत है।"
+        },
+        "d": {
+          "en": "Cell walls do not dissolve due to exposure to salt; the cell wall remains intact while only the cell membrane and cell contents shrink inward.",
+          "hi": "नमक के संपर्क में आने से कोशिका भित्ति नहीं घुलती; कोशिका भित्ति यथावत रहती है, केवल कोशिका झिल्ली और कोशिका की सामग्री अंदर की ओर सिकुड़ती है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-sci9-38",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Which of the following correctly describes the location and function of cardiac muscle tissue?",
+        "hi": "निम्नलिखित में से कौन-सा विकल्प हृदय पेशी ऊतक (cardiac muscle) के स्थान और कार्य का सही वर्णन करता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "found in the walls of blood vessels; voluntary and slow-contracting",
+            "hi": "रक्त वाहिकाओं की दीवारों में पाई जाती है; ऐच्छिक और धीमी गति से संकुचित होने वाली"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "found only in the heart; involuntary, rhythmic, and continuously contracting throughout life without fatigue",
+            "hi": "केवल हृदय में पाई जाती है; अनैच्छिक, लयबद्ध, और जीवन भर बिना थके लगातार संकुचित होने वाली"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "found attached to bones; voluntary and under conscious control",
+            "hi": "हड्डियों से जुड़ी पाई जाती है; ऐच्छिक और सचेत नियंत्रण में रहने वाली"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "found in the walls of the stomach and intestines; voluntary and fast-contracting",
+            "hi": "आमाशय और आंत की दीवारों में पाई जाती है; ऐच्छिक और तेज़ी से संकुचित होने वाली"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Cardiac muscle is found exclusively in the heart; it is involuntary (not under conscious control), striated, and contracts rhythmically and continuously throughout a person's life without getting fatigued.",
+        "hi": "हृदय पेशी केवल हृदय में पाई जाती है; यह अनैच्छिक (सचेत नियंत्रण से बाहर), धारीदार होती है, और व्यक्ति के पूरे जीवनकाल में बिना थके लगातार लयबद्ध रूप से संकुचित होती रहती है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Blood vessel walls contain smooth (involuntary, unstriated) muscle, not cardiac muscle, and it is not voluntary.",
+          "hi": "रक्त वाहिकाओं की दीवारों में चिकनी (अनैच्छिक, अधारीदार) पेशी होती है, हृदय पेशी नहीं, और यह ऐच्छिक नहीं होती।"
+        },
+        "c": {
+          "en": "Muscles attached to bones are skeletal muscles, which are voluntary and under conscious control — a different tissue type from cardiac muscle.",
+          "hi": "हड्डियों से जुड़ी पेशियाँ कंकाल पेशी होती हैं, जो ऐच्छिक और सचेत नियंत्रण में होती हैं — यह हृदय पेशी से भिन्न ऊतक प्रकार है।"
+        },
+        "d": {
+          "en": "The walls of the stomach and intestine contain smooth muscle, which is involuntary (not voluntary) and contracts slowly, unlike cardiac muscle.",
+          "hi": "आमाशय और आंत की दीवारों में चिकनी पेशी होती है, जो अनैच्छिक (ऐच्छिक नहीं) होती है और धीमी गति से संकुचित होती है, हृदय पेशी के विपरीत।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-sci9-39",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Which of the following is a key distinguishing feature used to separate Kingdom Fungi from Kingdom Plantae?",
+        "hi": "कवक जगत (Fungi) को पादप जगत (Plantae) से अलग करने के लिए उपयोग की जाने वाली एक प्रमुख विशेषता कौन-सी है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "fungi are always unicellular while plants are always multicellular",
+            "hi": "कवक हमेशा एककोशिकीय होते हैं जबकि पादप हमेशा बहुकोशिकीय होते हैं"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "fungi carry out photosynthesis using chlorophyll while plants cannot",
+            "hi": "कवक क्लोरोफिल का उपयोग करके प्रकाश-संश्लेषण करते हैं जबकि पादप ऐसा नहीं कर सकते"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "fungi have cell walls made of chitin and are heterotrophic, absorbing nutrients from their surroundings, unlike photosynthetic plants with cellulose cell walls",
+            "hi": "कवक की कोशिका भित्ति काइटिन की बनी होती है और वे विषमपोषी होते हैं, जो आसपास से पोषक तत्व अवशोषित करते हैं, जबकि प्रकाश-संश्लेषी पादपों की कोशिका भित्ति सेल्युलोज की बनी होती है"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "fungi lack a nucleus while plant cells possess a well-defined nucleus",
+            "hi": "कवक में केंद्रक नहीं होता जबकि पादप कोशिकाओं में स्पष्ट केंद्रक होता है"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Fungal cell walls are made of chitin, and fungi are heterotrophic, absorbing organic nutrients from their environment (often as decomposers or parasites), whereas plants have cellulose cell walls and are autotrophic, making their own food through photosynthesis using chlorophyll.",
+        "hi": "कवक की कोशिका भित्ति काइटिन की बनी होती है, और कवक विषमपोषी होते हैं, जो अपने वातावरण से कार्बनिक पोषक तत्व अवशोषित करते हैं (अक्सर अपघटक या परजीवी के रूप में), जबकि पादपों की कोशिका भित्ति सेल्युलोज की बनी होती है और वे स्वपोषी होते हैं, जो क्लोरोफिल का उपयोग करके प्रकाश-संश्लेषण द्वारा अपना भोजन स्वयं बनाते हैं।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Many fungi (like mushrooms) are multicellular, so unicellularity is not a defining or consistent distinguishing feature between the two kingdoms.",
+          "hi": "कई कवक (जैसे मशरूम) बहुकोशिकीय होते हैं, इसलिए एककोशिकीयता दोनों जगतों के बीच एक निश्चित या सुसंगत विशिष्ट विशेषता नहीं है।"
+        },
+        "b": {
+          "en": "This reverses the actual roles — plants perform photosynthesis using chlorophyll, while fungi lack chlorophyll and cannot photosynthesize.",
+          "hi": "यह वास्तविक भूमिकाओं को उलट देता है — पादप क्लोरोफिल का उपयोग करके प्रकाश-संश्लेषण करते हैं, जबकि कवक में क्लोरोफिल नहीं होता और वे प्रकाश-संश्लेषण नहीं कर सकते।"
+        },
+        "d": {
+          "en": "Both fungi and plants are eukaryotic and possess a well-defined, membrane-bound nucleus; lacking a nucleus is a feature of prokaryotes (Kingdom Monera), not fungi.",
+          "hi": "कवक और पादप दोनों यूकैरियोटिक होते हैं और उनमें स्पष्ट, झिल्ली-युक्त केंद्रक होता है; केंद्रक का अभाव प्रोकैरियोट (मोनेरा जगत) की विशेषता है, कवक की नहीं।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-sci9-40",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Why are viruses considered to be at the border between living and non-living things?",
+        "hi": "विषाणुओं को सजीव और निर्जीव के बीच की सीमा पर क्यों माना जाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "because they can move independently in search of food like animals",
+            "hi": "क्योंकि वे जंतुओं की तरह भोजन की तलाश में स्वतंत्र रूप से गति कर सकते हैं"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "because they possess a well-developed nucleus and cytoplasm like typical eukaryotic cells",
+            "hi": "क्योंकि उनमें सामान्य यूकैरियोटिक कोशिकाओं की तरह सुविकसित केंद्रक और कोशिकाद्रव्य होता है"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "because they can carry out photosynthesis outside a host cell",
+            "hi": "क्योंकि वे परपोषी कोशिका के बाहर प्रकाश-संश्लेषण कर सकते हैं"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "because they show no signs of life (cannot reproduce or metabolize) outside a host cell, but replicate and behave like living organisms once inside a host cell",
+            "hi": "क्योंकि परपोषी कोशिका के बाहर वे जीवन के कोई लक्षण नहीं दिखाते (न प्रजनन कर सकते हैं न उपापचय), परंतु परपोषी कोशिका के अंदर जाकर वे प्रतिकृति बनाते हैं और सजीवों की तरह व्यवहार करते हैं"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "Viruses show no characteristics of life, such as metabolism or reproduction, when outside a living host cell, behaving like inert, non-living particles. But once inside a host cell, they use the host's cellular machinery to replicate and multiply, displaying a key characteristic of living organisms — this dual nature places them at the border of living and non-living.",
+        "hi": "विषाणु परपोषी कोशिका के बाहर जीवन के कोई भी लक्षण, जैसे उपापचय या प्रजनन, नहीं दिखाते, और निर्जीव, निष्क्रिय कणों की तरह व्यवहार करते हैं। परंतु परपोषी कोशिका के अंदर जाकर वे उसके कोशिकीय तंत्र का उपयोग करके प्रतिकृति बनाते और गुणा करते हैं, जो सजीवों की एक प्रमुख विशेषता है — यही दोहरी प्रकृति उन्हें सजीव और निर्जीव की सीमा पर रखती है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Viruses cannot move independently or search for food; they lack any locomotory or feeding mechanism of their own.",
+          "hi": "विषाणु स्वतंत्र रूप से गति नहीं कर सकते और न ही भोजन की तलाश कर सकते हैं; उनके पास अपना कोई गति या भोजन ग्रहण करने का तंत्र नहीं होता।"
+        },
+        "b": {
+          "en": "Viruses do not have a true cellular structure with a nucleus and cytoplasm; they typically consist only of genetic material (DNA or RNA) enclosed in a protein coat.",
+          "hi": "विषाणुओं में केंद्रक और कोशिकाद्रव्य सहित वास्तविक कोशिकीय संरचना नहीं होती; उनमें आमतौर पर केवल आनुवंशिक पदार्थ (DNA या RNA) होता है जो एक प्रोटीन आवरण से घिरा रहता है।"
+        },
+        "c": {
+          "en": "Viruses cannot carry out photosynthesis or any independent metabolic activity; they are entirely dependent on a host cell's machinery to replicate.",
+          "hi": "विषाणु प्रकाश-संश्लेषण या कोई भी स्वतंत्र उपापचयी क्रिया नहीं कर सकते; प्रतिकृति के लिए वे पूरी तरह परपोषी कोशिका के तंत्र पर निर्भर होते हैं।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    }
+  ]
+}

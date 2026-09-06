@@ -1,0 +1,2327 @@
+{
+  "section": "mathematics",
+  "topicKey": "rational_numbers_class9",
+  "generatedAt": "2026-09-06T08:12:47.415Z",
+  "questions": [
+    {
+      "key": "bank-math9-rational-addsub-01",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Evaluate: 1/2 + 1/3",
+        "hi": "मान ज्ञात करें: 1/2 + 1/3"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "5/6",
+            "hi": "5/6"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "1/6",
+            "hi": "1/6"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "2/5",
+            "hi": "2/5"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "1",
+            "hi": "1"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Converting to a common denominator of 6: the sum simplifies to 5/6.",
+        "hi": "2×3=6 के उभयनिष्ठ हर में बदलने पर: योग सरल होकर 5/6 बनता है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Uses the opposite operation — computes a−b instead of a+b.",
+          "hi": "विपरीत संक्रिया का उपयोग करता है — a+b के बजाय a−b की गणना करता है।"
+        },
+        "c": {
+          "en": "Adds numerators and denominators separately instead of finding a common denominator first.",
+          "hi": "पहले उभयनिष्ठ हर ज्ञात करने के बजाय अंश और हर को अलग-अलग जोड़ देता है।"
+        },
+        "d": {
+          "en": "Keeps the first fraction's denominator instead of converting both to a common denominator.",
+          "hi": "दोनों को उभयनिष्ठ हर में बदलने के बजाय पहली भिन्न का हर ही रखे रखता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-rational-addsub-02",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Evaluate: -2/3 + 1/4",
+        "hi": "मान ज्ञात करें: -2/3 + 1/4"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "-11/12",
+            "hi": "-11/12"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "-5/12",
+            "hi": "-5/12"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "-1/7",
+            "hi": "-1/7"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "-1/3",
+            "hi": "-1/3"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Converting to a common denominator of 12: the sum simplifies to -5/12.",
+        "hi": "3×4=12 के उभयनिष्ठ हर में बदलने पर: योग सरल होकर -5/12 बनता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Uses the opposite operation — computes a−b instead of a+b.",
+          "hi": "विपरीत संक्रिया का उपयोग करता है — a+b के बजाय a−b की गणना करता है।"
+        },
+        "c": {
+          "en": "Adds numerators and denominators separately instead of finding a common denominator first.",
+          "hi": "पहले उभयनिष्ठ हर ज्ञात करने के बजाय अंश और हर को अलग-अलग जोड़ देता है।"
+        },
+        "d": {
+          "en": "Keeps the first fraction's denominator instead of converting both to a common denominator.",
+          "hi": "दोनों को उभयनिष्ठ हर में बदलने के बजाय पहली भिन्न का हर ही रखे रखता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-rational-addsub-03",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Evaluate: 3/4 − 1/6",
+        "hi": "मान ज्ञात करें: 3/4 − 1/6"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "11/12",
+            "hi": "11/12"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "2/5",
+            "hi": "2/5"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "7/12",
+            "hi": "7/12"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "1/2",
+            "hi": "1/2"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Converting to a common denominator of 24: the sum simplifies to 7/12.",
+        "hi": "4×6=24 के उभयनिष्ठ हर में बदलने पर: योग सरल होकर 7/12 बनता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Uses the opposite operation — computes a+b instead of a−b.",
+          "hi": "विपरीत संक्रिया का उपयोग करता है — a−b के बजाय a+b की गणना करता है।"
+        },
+        "b": {
+          "en": "Adds numerators and denominators separately instead of finding a common denominator first.",
+          "hi": "पहले उभयनिष्ठ हर ज्ञात करने के बजाय अंश और हर को अलग-अलग जोड़ देता है।"
+        },
+        "d": {
+          "en": "Keeps the first fraction's denominator instead of converting both to a common denominator.",
+          "hi": "दोनों को उभयनिष्ठ हर में बदलने के बजाय पहली भिन्न का हर ही रखे रखता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-rational-addsub-04",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Evaluate: -1/2 − 1/3",
+        "hi": "मान ज्ञात करें: -1/2 − 1/3"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "-1/6",
+            "hi": "-1/6"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "0",
+            "hi": "0"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "-1",
+            "hi": "-1"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "-5/6",
+            "hi": "-5/6"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "Converting to a common denominator of 6: the sum simplifies to -5/6.",
+        "hi": "2×3=6 के उभयनिष्ठ हर में बदलने पर: योग सरल होकर -5/6 बनता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Uses the opposite operation — computes a+b instead of a−b.",
+          "hi": "विपरीत संक्रिया का उपयोग करता है — a−b के बजाय a+b की गणना करता है।"
+        },
+        "b": {
+          "en": "Adds numerators and denominators separately instead of finding a common denominator first.",
+          "hi": "पहले उभयनिष्ठ हर ज्ञात करने के बजाय अंश और हर को अलग-अलग जोड़ देता है।"
+        },
+        "c": {
+          "en": "Keeps the first fraction's denominator instead of converting both to a common denominator.",
+          "hi": "दोनों को उभयनिष्ठ हर में बदलने के बजाय पहली भिन्न का हर ही रखे रखता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-rational-addsub-05",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Evaluate: 2/5 + 3/10",
+        "hi": "मान ज्ञात करें: 2/5 + 3/10"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "7/10",
+            "hi": "7/10"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "1/10",
+            "hi": "1/10"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "1/3",
+            "hi": "1/3"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "1",
+            "hi": "1"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Converting to a common denominator of 50: the sum simplifies to 7/10.",
+        "hi": "5×10=50 के उभयनिष्ठ हर में बदलने पर: योग सरल होकर 7/10 बनता है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Uses the opposite operation — computes a−b instead of a+b.",
+          "hi": "विपरीत संक्रिया का उपयोग करता है — a+b के बजाय a−b की गणना करता है।"
+        },
+        "c": {
+          "en": "Adds numerators and denominators separately instead of finding a common denominator first.",
+          "hi": "पहले उभयनिष्ठ हर ज्ञात करने के बजाय अंश और हर को अलग-अलग जोड़ देता है।"
+        },
+        "d": {
+          "en": "Keeps the first fraction's denominator instead of converting both to a common denominator.",
+          "hi": "दोनों को उभयनिष्ठ हर में बदलने के बजाय पहली भिन्न का हर ही रखे रखता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-rational-addsub-06",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Evaluate: -3/8 + 1/2",
+        "hi": "मान ज्ञात करें: -3/8 + 1/2"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "-7/8",
+            "hi": "-7/8"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "1/8",
+            "hi": "1/8"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "-1/5",
+            "hi": "-1/5"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "-1/4",
+            "hi": "-1/4"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Converting to a common denominator of 16: the sum simplifies to 1/8.",
+        "hi": "8×2=16 के उभयनिष्ठ हर में बदलने पर: योग सरल होकर 1/8 बनता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Uses the opposite operation — computes a−b instead of a+b.",
+          "hi": "विपरीत संक्रिया का उपयोग करता है — a+b के बजाय a−b की गणना करता है।"
+        },
+        "c": {
+          "en": "Adds numerators and denominators separately instead of finding a common denominator first.",
+          "hi": "पहले उभयनिष्ठ हर ज्ञात करने के बजाय अंश और हर को अलग-अलग जोड़ देता है।"
+        },
+        "d": {
+          "en": "Keeps the first fraction's denominator instead of converting both to a common denominator.",
+          "hi": "दोनों को उभयनिष्ठ हर में बदलने के बजाय पहली भिन्न का हर ही रखे रखता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-rational-addsub-07",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Evaluate: 5/6 − 1/2",
+        "hi": "मान ज्ञात करें: 5/6 − 1/2"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "4/3",
+            "hi": "4/3"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "3/4",
+            "hi": "3/4"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "1/3",
+            "hi": "1/3"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "2/3",
+            "hi": "2/3"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Converting to a common denominator of 12: the sum simplifies to 1/3.",
+        "hi": "6×2=12 के उभयनिष्ठ हर में बदलने पर: योग सरल होकर 1/3 बनता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Uses the opposite operation — computes a+b instead of a−b.",
+          "hi": "विपरीत संक्रिया का उपयोग करता है — a−b के बजाय a+b की गणना करता है।"
+        },
+        "b": {
+          "en": "Adds numerators and denominators separately instead of finding a common denominator first.",
+          "hi": "पहले उभयनिष्ठ हर ज्ञात करने के बजाय अंश और हर को अलग-अलग जोड़ देता है।"
+        },
+        "d": {
+          "en": "Keeps the first fraction's denominator instead of converting both to a common denominator.",
+          "hi": "दोनों को उभयनिष्ठ हर में बदलने के बजाय पहली भिन्न का हर ही रखे रखता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-rational-addsub-08",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Evaluate: -1/4 − 1/8",
+        "hi": "मान ज्ञात करें: -1/4 − 1/8"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "-1/8",
+            "hi": "-1/8"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "0",
+            "hi": "0"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "-1/2",
+            "hi": "-1/2"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "-3/8",
+            "hi": "-3/8"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "Converting to a common denominator of 32: the sum simplifies to -3/8.",
+        "hi": "4×8=32 के उभयनिष्ठ हर में बदलने पर: योग सरल होकर -3/8 बनता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Uses the opposite operation — computes a+b instead of a−b.",
+          "hi": "विपरीत संक्रिया का उपयोग करता है — a−b के बजाय a+b की गणना करता है।"
+        },
+        "b": {
+          "en": "Adds numerators and denominators separately instead of finding a common denominator first.",
+          "hi": "पहले उभयनिष्ठ हर ज्ञात करने के बजाय अंश और हर को अलग-अलग जोड़ देता है।"
+        },
+        "c": {
+          "en": "Keeps the first fraction's denominator instead of converting both to a common denominator.",
+          "hi": "दोनों को उभयनिष्ठ हर में बदलने के बजाय पहली भिन्न का हर ही रखे रखता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-rational-addsub-09",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Evaluate: 7/9 − 2/3",
+        "hi": "मान ज्ञात करें: 7/9 − 2/3"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "1/9",
+            "hi": "1/9"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "13/9",
+            "hi": "13/9"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "3/4",
+            "hi": "3/4"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "5/9",
+            "hi": "5/9"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Converting to a common denominator of 27: the sum simplifies to 1/9.",
+        "hi": "9×3=27 के उभयनिष्ठ हर में बदलने पर: योग सरल होकर 1/9 बनता है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Uses the opposite operation — computes a+b instead of a−b.",
+          "hi": "विपरीत संक्रिया का उपयोग करता है — a−b के बजाय a+b की गणना करता है।"
+        },
+        "c": {
+          "en": "Adds numerators and denominators separately instead of finding a common denominator first.",
+          "hi": "पहले उभयनिष्ठ हर ज्ञात करने के बजाय अंश और हर को अलग-अलग जोड़ देता है।"
+        },
+        "d": {
+          "en": "Keeps the first fraction's denominator instead of converting both to a common denominator.",
+          "hi": "दोनों को उभयनिष्ठ हर में बदलने के बजाय पहली भिन्न का हर ही रखे रखता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-rational-addsub-10",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Evaluate: -5/6 + 2/3",
+        "hi": "मान ज्ञात करें: -5/6 + 2/3"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "-3/2",
+            "hi": "-3/2"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "-1/6",
+            "hi": "-1/6"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "-1/3",
+            "hi": "-1/3"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "-1/2",
+            "hi": "-1/2"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Converting to a common denominator of 18: the sum simplifies to -1/6.",
+        "hi": "6×3=18 के उभयनिष्ठ हर में बदलने पर: योग सरल होकर -1/6 बनता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Uses the opposite operation — computes a−b instead of a+b.",
+          "hi": "विपरीत संक्रिया का उपयोग करता है — a+b के बजाय a−b की गणना करता है।"
+        },
+        "c": {
+          "en": "Adds numerators and denominators separately instead of finding a common denominator first.",
+          "hi": "पहले उभयनिष्ठ हर ज्ञात करने के बजाय अंश और हर को अलग-अलग जोड़ देता है।"
+        },
+        "d": {
+          "en": "Keeps the first fraction's denominator instead of converting both to a common denominator.",
+          "hi": "दोनों को उभयनिष्ठ हर में बदलने के बजाय पहली भिन्न का हर ही रखे रखता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-rational-muldiv-01",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Evaluate: -2/3 × 3/4",
+        "hi": "मान ज्ञात करें: -2/3 × 3/4"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "-1/2",
+            "hi": "-1/2"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "1/2",
+            "hi": "1/2"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "-8/9",
+            "hi": "-8/9"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "0",
+            "hi": "0"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Multiply numerators and denominators: (-2×3)/(3×4) = -6/12, which simplifies to -1/2.",
+        "hi": "अंश और हर को गुणा करें: (-2×3)/(3×4) = -6/12, जो सरल होकर -1/2 बनता है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Drops the negative sign — computes the right magnitude but the wrong sign.",
+          "hi": "ऋण चिह्न को छोड़ देता है — परिमाण तो सही है पर चिह्न गलत है।"
+        },
+        "c": {
+          "en": "Divides instead of multiplying — uses the wrong operation entirely.",
+          "hi": "गुणा के बजाय भाग कर देता है — पूरी तरह गलत संक्रिया का उपयोग।"
+        },
+        "d": {
+          "en": "Cross-multiplies numerator with the wrong denominator — a mismatched pairing.",
+          "hi": "अंश को गलत हर के साथ आड़ा-तिरछा गुणा कर देता है — एक बेमेल जोड़ी।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-rational-muldiv-02",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Evaluate: 5/6 ÷ -2/3",
+        "hi": "मान ज्ञात करें: 5/6 ÷ -2/3"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "5/4",
+            "hi": "5/4"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "-5/4",
+            "hi": "-5/4"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "-5/9",
+            "hi": "-5/9"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "-1",
+            "hi": "-1"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Dividing by a fraction means multiplying by its reciprocal: 5/6 × 3/-2 = 15/-12, which simplifies to -5/4.",
+        "hi": "किसी भिन्न से भाग देने का अर्थ है उसके व्युत्क्रम से गुणा करना: 5/6 × 3/-2 = 15/-12, जो सरल होकर -5/4 बनता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Drops the negative sign — computes the right magnitude but the wrong sign.",
+          "hi": "ऋण चिह्न को छोड़ देता है — परिमाण तो सही है पर चिह्न गलत है।"
+        },
+        "c": {
+          "en": "Multiplies directly instead of flipping the second fraction (finding its reciprocal) first.",
+          "hi": "पहले दूसरी भिन्न का व्युत्क्रम लेने के बजाय सीधे गुणा कर देता है।"
+        },
+        "d": {
+          "en": "Cross-multiplies numerator with the wrong denominator — a mismatched pairing.",
+          "hi": "अंश को गलत हर के साथ आड़ा-तिरछा गुणा कर देता है — एक बेमेल जोड़ी।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-rational-muldiv-03",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Evaluate: -3/5 × -2/9",
+        "hi": "मान ज्ञात करें: -3/5 × -2/9"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "27/10",
+            "hi": "27/10"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "1/5",
+            "hi": "1/5"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "2/15",
+            "hi": "2/15"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "4/15",
+            "hi": "4/15"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Multiply numerators and denominators: (-3×-2)/(5×9) = 6/45, which simplifies to 2/15.",
+        "hi": "अंश और हर को गुणा करें: (-3×-2)/(5×9) = 6/45, जो सरल होकर 2/15 बनता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Drops the negative sign — computes the right magnitude but the wrong sign.",
+          "hi": "ऋण चिह्न को छोड़ देता है — परिमाण तो सही है पर चिह्न गलत है।"
+        },
+        "b": {
+          "en": "Divides instead of multiplying — uses the wrong operation entirely.",
+          "hi": "गुणा के बजाय भाग कर देता है — पूरी तरह गलत संक्रिया का उपयोग।"
+        },
+        "d": {
+          "en": "Cross-multiplies numerator with the wrong denominator — a mismatched pairing.",
+          "hi": "अंश को गलत हर के साथ आड़ा-तिरछा गुणा कर देता है — एक बेमेल जोड़ी।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-rational-muldiv-04",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Evaluate: 4/7 ÷ 2/3",
+        "hi": "मान ज्ञात करें: 4/7 ÷ 2/3"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "8/21",
+            "hi": "8/21"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "1",
+            "hi": "1"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "8/7",
+            "hi": "8/7"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "6/7",
+            "hi": "6/7"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "Dividing by a fraction means multiplying by its reciprocal: 4/7 × 3/2 = 12/14, which simplifies to 6/7.",
+        "hi": "किसी भिन्न से भाग देने का अर्थ है उसके व्युत्क्रम से गुणा करना: 4/7 × 3/2 = 12/14, जो सरल होकर 6/7 बनता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Drops the negative sign — computes the right magnitude but the wrong sign.",
+          "hi": "ऋण चिह्न को छोड़ देता है — परिमाण तो सही है पर चिह्न गलत है।"
+        },
+        "b": {
+          "en": "Multiplies directly instead of flipping the second fraction (finding its reciprocal) first.",
+          "hi": "पहले दूसरी भिन्न का व्युत्क्रम लेने के बजाय सीधे गुणा कर देता है।"
+        },
+        "c": {
+          "en": "Cross-multiplies numerator with the wrong denominator — a mismatched pairing.",
+          "hi": "अंश को गलत हर के साथ आड़ा-तिरछा गुणा कर देता है — एक बेमेल जोड़ी।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-rational-muldiv-05",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Evaluate: -7/8 × 4/21",
+        "hi": "मान ज्ञात करें: -7/8 × 4/21"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "-1/6",
+            "hi": "-1/6"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "1/6",
+            "hi": "1/6"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "-147/32",
+            "hi": "-147/32"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "0",
+            "hi": "0"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Multiply numerators and denominators: (-7×4)/(8×21) = -28/168, which simplifies to -1/6.",
+        "hi": "अंश और हर को गुणा करें: (-7×4)/(8×21) = -28/168, जो सरल होकर -1/6 बनता है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Drops the negative sign — computes the right magnitude but the wrong sign.",
+          "hi": "ऋण चिह्न को छोड़ देता है — परिमाण तो सही है पर चिह्न गलत है।"
+        },
+        "c": {
+          "en": "Divides instead of multiplying — uses the wrong operation entirely.",
+          "hi": "गुणा के बजाय भाग कर देता है — पूरी तरह गलत संक्रिया का उपयोग।"
+        },
+        "d": {
+          "en": "Cross-multiplies numerator with the wrong denominator — a mismatched pairing.",
+          "hi": "अंश को गलत हर के साथ आड़ा-तिरछा गुणा कर देता है — एक बेमेल जोड़ी।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-rational-muldiv-06",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Evaluate: 9/10 ÷ -3/5",
+        "hi": "मान ज्ञात करें: 9/10 ÷ -3/5"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "3/2",
+            "hi": "3/2"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "-3/2",
+            "hi": "-3/2"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "-27/50",
+            "hi": "-27/50"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "-1",
+            "hi": "-1"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Dividing by a fraction means multiplying by its reciprocal: 9/10 × 5/-3 = 45/-30, which simplifies to -3/2.",
+        "hi": "किसी भिन्न से भाग देने का अर्थ है उसके व्युत्क्रम से गुणा करना: 9/10 × 5/-3 = 45/-30, जो सरल होकर -3/2 बनता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Drops the negative sign — computes the right magnitude but the wrong sign.",
+          "hi": "ऋण चिह्न को छोड़ देता है — परिमाण तो सही है पर चिह्न गलत है।"
+        },
+        "c": {
+          "en": "Multiplies directly instead of flipping the second fraction (finding its reciprocal) first.",
+          "hi": "पहले दूसरी भिन्न का व्युत्क्रम लेने के बजाय सीधे गुणा कर देता है।"
+        },
+        "d": {
+          "en": "Cross-multiplies numerator with the wrong denominator — a mismatched pairing.",
+          "hi": "अंश को गलत हर के साथ आड़ा-तिरछा गुणा कर देता है — एक बेमेल जोड़ी।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-rational-muldiv-07",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Evaluate: -5/12 × -8/15",
+        "hi": "मान ज्ञात करें: -5/12 × -8/15"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "25/32",
+            "hi": "25/32"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "1/3",
+            "hi": "1/3"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "2/9",
+            "hi": "2/9"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "4/9",
+            "hi": "4/9"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Multiply numerators and denominators: (-5×-8)/(12×15) = 40/180, which simplifies to 2/9.",
+        "hi": "अंश और हर को गुणा करें: (-5×-8)/(12×15) = 40/180, जो सरल होकर 2/9 बनता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Drops the negative sign — computes the right magnitude but the wrong sign.",
+          "hi": "ऋण चिह्न को छोड़ देता है — परिमाण तो सही है पर चिह्न गलत है।"
+        },
+        "b": {
+          "en": "Divides instead of multiplying — uses the wrong operation entirely.",
+          "hi": "गुणा के बजाय भाग कर देता है — पूरी तरह गलत संक्रिया का उपयोग।"
+        },
+        "d": {
+          "en": "Cross-multiplies numerator with the wrong denominator — a mismatched pairing.",
+          "hi": "अंश को गलत हर के साथ आड़ा-तिरछा गुणा कर देता है — एक बेमेल जोड़ी।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-rational-muldiv-08",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Evaluate: 7/9 ÷ -14/27",
+        "hi": "मान ज्ञात करें: 7/9 ÷ -14/27"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "3/2",
+            "hi": "3/2"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "-98/243",
+            "hi": "-98/243"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "-1",
+            "hi": "-1"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "-3/2",
+            "hi": "-3/2"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "Dividing by a fraction means multiplying by its reciprocal: 7/9 × 27/-14 = 189/-126, which simplifies to -3/2.",
+        "hi": "किसी भिन्न से भाग देने का अर्थ है उसके व्युत्क्रम से गुणा करना: 7/9 × 27/-14 = 189/-126, जो सरल होकर -3/2 बनता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Drops the negative sign — computes the right magnitude but the wrong sign.",
+          "hi": "ऋण चिह्न को छोड़ देता है — परिमाण तो सही है पर चिह्न गलत है।"
+        },
+        "b": {
+          "en": "Multiplies directly instead of flipping the second fraction (finding its reciprocal) first.",
+          "hi": "पहले दूसरी भिन्न का व्युत्क्रम लेने के बजाय सीधे गुणा कर देता है।"
+        },
+        "c": {
+          "en": "Cross-multiplies numerator with the wrong denominator — a mismatched pairing.",
+          "hi": "अंश को गलत हर के साथ आड़ा-तिरछा गुणा कर देता है — एक बेमेल जोड़ी।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-rational-between-01",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Find a rational number between 1/4 and 1/2.",
+        "hi": "1/4 और 1/2 के बीच एक परिमेय संख्या ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "3/8",
+            "hi": "3/8"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "3/4",
+            "hi": "3/4"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "1/4",
+            "hi": "1/4"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "1/2",
+            "hi": "1/2"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "The mean of two rationals always lies between them: (1/4 + 1/2) ÷ 2 = 3/8.",
+        "hi": "दो परिमेय संख्याओं का माध्य हमेशा उनके बीच होता है: (1/4 + 1/2) ÷ 2 = 3/8।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Adds the two rationals but forgets to divide the sum by 2 to find the midpoint.",
+          "hi": "दोनों परिमेय संख्याओं को जोड़ता है पर मध्यबिंदु ज्ञात करने के लिए योग को 2 से भाग देना भूल जाता है।"
+        },
+        "c": {
+          "en": "Just restates the first given rational number instead of finding one BETWEEN the two.",
+          "hi": "दोनों के बीच की संख्या ज्ञात करने के बजाय पहली दी गई परिमेय संख्या को ही दोहरा देता है।"
+        },
+        "d": {
+          "en": "Just restates the second given rational number instead of finding one BETWEEN the two.",
+          "hi": "दोनों के बीच की संख्या ज्ञात करने के बजाय दूसरी दी गई परिमेय संख्या को ही दोहरा देता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-rational-between-02",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Find a rational number between 1/3 and 2/3.",
+        "hi": "1/3 और 2/3 के बीच एक परिमेय संख्या ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "1",
+            "hi": "1"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "1/2",
+            "hi": "1/2"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "1/3",
+            "hi": "1/3"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "2/3",
+            "hi": "2/3"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "The mean of two rationals always lies between them: (1/3 + 2/3) ÷ 2 = 1/2.",
+        "hi": "दो परिमेय संख्याओं का माध्य हमेशा उनके बीच होता है: (1/3 + 2/3) ÷ 2 = 1/2।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Adds the two rationals but forgets to divide the sum by 2 to find the midpoint.",
+          "hi": "दोनों परिमेय संख्याओं को जोड़ता है पर मध्यबिंदु ज्ञात करने के लिए योग को 2 से भाग देना भूल जाता है।"
+        },
+        "c": {
+          "en": "Just restates the first given rational number instead of finding one BETWEEN the two.",
+          "hi": "दोनों के बीच की संख्या ज्ञात करने के बजाय पहली दी गई परिमेय संख्या को ही दोहरा देता है।"
+        },
+        "d": {
+          "en": "Just restates the second given rational number instead of finding one BETWEEN the two.",
+          "hi": "दोनों के बीच की संख्या ज्ञात करने के बजाय दूसरी दी गई परिमेय संख्या को ही दोहरा देता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-rational-between-03",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Find a rational number between -3/4 and -1/4.",
+        "hi": "-3/4 और -1/4 के बीच एक परिमेय संख्या ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "-1",
+            "hi": "-1"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "-3/4",
+            "hi": "-3/4"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "-1/2",
+            "hi": "-1/2"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "-1/4",
+            "hi": "-1/4"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "The mean of two rationals always lies between them: (-3/4 + -1/4) ÷ 2 = -1/2.",
+        "hi": "दो परिमेय संख्याओं का माध्य हमेशा उनके बीच होता है: (-3/4 + -1/4) ÷ 2 = -1/2।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Adds the two rationals but forgets to divide the sum by 2 to find the midpoint.",
+          "hi": "दोनों परिमेय संख्याओं को जोड़ता है पर मध्यबिंदु ज्ञात करने के लिए योग को 2 से भाग देना भूल जाता है।"
+        },
+        "b": {
+          "en": "Just restates the first given rational number instead of finding one BETWEEN the two.",
+          "hi": "दोनों के बीच की संख्या ज्ञात करने के बजाय पहली दी गई परिमेय संख्या को ही दोहरा देता है।"
+        },
+        "d": {
+          "en": "Just restates the second given rational number instead of finding one BETWEEN the two.",
+          "hi": "दोनों के बीच की संख्या ज्ञात करने के बजाय दूसरी दी गई परिमेय संख्या को ही दोहरा देता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-rational-between-04",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Find a rational number between 1/5 and 2/5.",
+        "hi": "1/5 और 2/5 के बीच एक परिमेय संख्या ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "3/5",
+            "hi": "3/5"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "1/5",
+            "hi": "1/5"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "2/5",
+            "hi": "2/5"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "3/10",
+            "hi": "3/10"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "The mean of two rationals always lies between them: (1/5 + 2/5) ÷ 2 = 3/10.",
+        "hi": "दो परिमेय संख्याओं का माध्य हमेशा उनके बीच होता है: (1/5 + 2/5) ÷ 2 = 3/10।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Adds the two rationals but forgets to divide the sum by 2 to find the midpoint.",
+          "hi": "दोनों परिमेय संख्याओं को जोड़ता है पर मध्यबिंदु ज्ञात करने के लिए योग को 2 से भाग देना भूल जाता है।"
+        },
+        "b": {
+          "en": "Just restates the first given rational number instead of finding one BETWEEN the two.",
+          "hi": "दोनों के बीच की संख्या ज्ञात करने के बजाय पहली दी गई परिमेय संख्या को ही दोहरा देता है।"
+        },
+        "c": {
+          "en": "Just restates the second given rational number instead of finding one BETWEEN the two.",
+          "hi": "दोनों के बीच की संख्या ज्ञात करने के बजाय दूसरी दी गई परिमेय संख्या को ही दोहरा देता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-rational-between-05",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Find a rational number between -3/10 and 1/10.",
+        "hi": "-3/10 और 1/10 के बीच एक परिमेय संख्या ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "-1/10",
+            "hi": "-1/10"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "-1/5",
+            "hi": "-1/5"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "-3/10",
+            "hi": "-3/10"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "1/10",
+            "hi": "1/10"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "The mean of two rationals always lies between them: (-3/10 + 1/10) ÷ 2 = -1/10.",
+        "hi": "दो परिमेय संख्याओं का माध्य हमेशा उनके बीच होता है: (-3/10 + 1/10) ÷ 2 = -1/10।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Adds the two rationals but forgets to divide the sum by 2 to find the midpoint.",
+          "hi": "दोनों परिमेय संख्याओं को जोड़ता है पर मध्यबिंदु ज्ञात करने के लिए योग को 2 से भाग देना भूल जाता है।"
+        },
+        "c": {
+          "en": "Just restates the first given rational number instead of finding one BETWEEN the two.",
+          "hi": "दोनों के बीच की संख्या ज्ञात करने के बजाय पहली दी गई परिमेय संख्या को ही दोहरा देता है।"
+        },
+        "d": {
+          "en": "Just restates the second given rational number instead of finding one BETWEEN the two.",
+          "hi": "दोनों के बीच की संख्या ज्ञात करने के बजाय दूसरी दी गई परिमेय संख्या को ही दोहरा देता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-rational-between-06",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Find a rational number between 3/8 and 7/8.",
+        "hi": "3/8 और 7/8 के बीच एक परिमेय संख्या ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "5/4",
+            "hi": "5/4"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "5/8",
+            "hi": "5/8"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "3/8",
+            "hi": "3/8"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "7/8",
+            "hi": "7/8"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "The mean of two rationals always lies between them: (3/8 + 7/8) ÷ 2 = 5/8.",
+        "hi": "दो परिमेय संख्याओं का माध्य हमेशा उनके बीच होता है: (3/8 + 7/8) ÷ 2 = 5/8।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Adds the two rationals but forgets to divide the sum by 2 to find the midpoint.",
+          "hi": "दोनों परिमेय संख्याओं को जोड़ता है पर मध्यबिंदु ज्ञात करने के लिए योग को 2 से भाग देना भूल जाता है।"
+        },
+        "c": {
+          "en": "Just restates the first given rational number instead of finding one BETWEEN the two.",
+          "hi": "दोनों के बीच की संख्या ज्ञात करने के बजाय पहली दी गई परिमेय संख्या को ही दोहरा देता है।"
+        },
+        "d": {
+          "en": "Just restates the second given rational number instead of finding one BETWEEN the two.",
+          "hi": "दोनों के बीच की संख्या ज्ञात करने के बजाय दूसरी दी गई परिमेय संख्या को ही दोहरा देता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-rational-between-07",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Find a rational number between -5/6 and -1/6.",
+        "hi": "-5/6 और -1/6 के बीच एक परिमेय संख्या ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "-1",
+            "hi": "-1"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "-5/6",
+            "hi": "-5/6"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "-1/2",
+            "hi": "-1/2"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "-1/6",
+            "hi": "-1/6"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "The mean of two rationals always lies between them: (-5/6 + -1/6) ÷ 2 = -1/2.",
+        "hi": "दो परिमेय संख्याओं का माध्य हमेशा उनके बीच होता है: (-5/6 + -1/6) ÷ 2 = -1/2।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Adds the two rationals but forgets to divide the sum by 2 to find the midpoint.",
+          "hi": "दोनों परिमेय संख्याओं को जोड़ता है पर मध्यबिंदु ज्ञात करने के लिए योग को 2 से भाग देना भूल जाता है।"
+        },
+        "b": {
+          "en": "Just restates the first given rational number instead of finding one BETWEEN the two.",
+          "hi": "दोनों के बीच की संख्या ज्ञात करने के बजाय पहली दी गई परिमेय संख्या को ही दोहरा देता है।"
+        },
+        "d": {
+          "en": "Just restates the second given rational number instead of finding one BETWEEN the two.",
+          "hi": "दोनों के बीच की संख्या ज्ञात करने के बजाय दूसरी दी गई परिमेय संख्या को ही दोहरा देता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-rational-orderops-01",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Evaluate, following the correct order of operations: 1/2 + 1/3 × 3/4",
+        "hi": "सही संक्रिया क्रम का पालन करते हुए मान ज्ञात करें: 1/2 + 1/3 × 3/4"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "3/4",
+            "hi": "3/4"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "5/8",
+            "hi": "5/8"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "11/12",
+            "hi": "11/12"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "1/4",
+            "hi": "1/4"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Multiplication comes before addition: 1/3 × 3/4 = 1/4, then 1/2 + 1/4 = 3/4.",
+        "hi": "जोड़ से पहले गुणा किया जाता है: 1/3 × 3/4 = 1/4, फिर 1/2 + 1/4 = 3/4।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Works strictly left-to-right — adds a and b first, then multiplies by c — instead of doing multiplication before addition.",
+          "hi": "बाएं-से-दाएं क्रम में काम करता है — पहले जोड़ फिर गुणा — जबकि जोड़ से पहले गुणा किया जाना चाहिए।"
+        },
+        "c": {
+          "en": "Multiplies a and b together instead of b and c, then adds c — the wrong pair grouped.",
+          "hi": "b और c के बजाय a और b को गुणा करता है, फिर c जोड़ देता है — गलत जोड़ी को समूहित करना।"
+        },
+        "d": {
+          "en": "Subtracts the (b×c) product instead of adding it.",
+          "hi": "(b×c) गुणनफल को जोड़ने के बजाय घटा देता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-rational-orderops-02",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Evaluate, following the correct order of operations: 2/5 + 1/2 × 1/3",
+        "hi": "सही संक्रिया क्रम का पालन करते हुए मान ज्ञात करें: 2/5 + 1/2 × 1/3"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "3/10",
+            "hi": "3/10"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "17/30",
+            "hi": "17/30"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "8/15",
+            "hi": "8/15"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "7/30",
+            "hi": "7/30"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Multiplication comes before addition: 1/2 × 1/3 = 1/6, then 2/5 + 1/6 = 17/30.",
+        "hi": "जोड़ से पहले गुणा किया जाता है: 1/2 × 1/3 = 1/6, फिर 2/5 + 1/6 = 17/30।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Works strictly left-to-right — adds a and b first, then multiplies by c — instead of doing multiplication before addition.",
+          "hi": "बाएं-से-दाएं क्रम में काम करता है — पहले जोड़ फिर गुणा — जबकि जोड़ से पहले गुणा किया जाना चाहिए।"
+        },
+        "c": {
+          "en": "Multiplies a and b together instead of b and c, then adds c — the wrong pair grouped.",
+          "hi": "b और c के बजाय a और b को गुणा करता है, फिर c जोड़ देता है — गलत जोड़ी को समूहित करना।"
+        },
+        "d": {
+          "en": "Subtracts the (b×c) product instead of adding it.",
+          "hi": "(b×c) गुणनफल को जोड़ने के बजाय घटा देता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-rational-orderops-03",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Evaluate, following the correct order of operations: -1/3 + 2/5 × 1/2",
+        "hi": "सही संक्रिया क्रम का पालन करते हुए मान ज्ञात करें: -1/3 + 2/5 × 1/2"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "1/30",
+            "hi": "1/30"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "11/30",
+            "hi": "11/30"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "-2/15",
+            "hi": "-2/15"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "-8/15",
+            "hi": "-8/15"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Multiplication comes before addition: 2/5 × 1/2 = 1/5, then -1/3 + 1/5 = -2/15.",
+        "hi": "जोड़ से पहले गुणा किया जाता है: 2/5 × 1/2 = 1/5, फिर -1/3 + 1/5 = -2/15।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Works strictly left-to-right — adds a and b first, then multiplies by c — instead of doing multiplication before addition.",
+          "hi": "बाएं-से-दाएं क्रम में काम करता है — पहले जोड़ फिर गुणा — जबकि जोड़ से पहले गुणा किया जाना चाहिए।"
+        },
+        "b": {
+          "en": "Multiplies a and b together instead of b and c, then adds c — the wrong pair grouped.",
+          "hi": "b और c के बजाय a और b को गुणा करता है, फिर c जोड़ देता है — गलत जोड़ी को समूहित करना।"
+        },
+        "d": {
+          "en": "Subtracts the (b×c) product instead of adding it.",
+          "hi": "(b×c) गुणनफल को जोड़ने के बजाय घटा देता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-rational-orderops-04",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Evaluate, following the correct order of operations: 3/4 + -1/2 × 2/3",
+        "hi": "सही संक्रिया क्रम का पालन करते हुए मान ज्ञात करें: 3/4 + -1/2 × 2/3"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "1/6",
+            "hi": "1/6"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "7/24",
+            "hi": "7/24"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "13/12",
+            "hi": "13/12"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "5/12",
+            "hi": "5/12"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "Multiplication comes before addition: -1/2 × 2/3 = -1/3, then 3/4 + -1/3 = 5/12.",
+        "hi": "जोड़ से पहले गुणा किया जाता है: -1/2 × 2/3 = -1/3, फिर 3/4 + -1/3 = 5/12।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Works strictly left-to-right — adds a and b first, then multiplies by c — instead of doing multiplication before addition.",
+          "hi": "बाएं-से-दाएं क्रम में काम करता है — पहले जोड़ फिर गुणा — जबकि जोड़ से पहले गुणा किया जाना चाहिए।"
+        },
+        "b": {
+          "en": "Multiplies a and b together instead of b and c, then adds c — the wrong pair grouped.",
+          "hi": "b और c के बजाय a और b को गुणा करता है, फिर c जोड़ देता है — गलत जोड़ी को समूहित करना।"
+        },
+        "c": {
+          "en": "Subtracts the (b×c) product instead of adding it.",
+          "hi": "(b×c) गुणनफल को जोड़ने के बजाय घटा देता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-rational-orderops-05",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Evaluate, following the correct order of operations: 1/6 + 3/4 × -2/3",
+        "hi": "सही संक्रिया क्रम का पालन करते हुए मान ज्ञात करें: 1/6 + 3/4 × -2/3"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "-1/3",
+            "hi": "-1/3"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "-11/18",
+            "hi": "-11/18"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "-13/24",
+            "hi": "-13/24"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "2/3",
+            "hi": "2/3"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Multiplication comes before addition: 3/4 × -2/3 = -1/2, then 1/6 + -1/2 = -1/3.",
+        "hi": "जोड़ से पहले गुणा किया जाता है: 3/4 × -2/3 = -1/2, फिर 1/6 + -1/2 = -1/3।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Works strictly left-to-right — adds a and b first, then multiplies by c — instead of doing multiplication before addition.",
+          "hi": "बाएं-से-दाएं क्रम में काम करता है — पहले जोड़ फिर गुणा — जबकि जोड़ से पहले गुणा किया जाना चाहिए।"
+        },
+        "c": {
+          "en": "Multiplies a and b together instead of b and c, then adds c — the wrong pair grouped.",
+          "hi": "b और c के बजाय a और b को गुणा करता है, फिर c जोड़ देता है — गलत जोड़ी को समूहित करना।"
+        },
+        "d": {
+          "en": "Subtracts the (b×c) product instead of adding it.",
+          "hi": "(b×c) गुणनफल को जोड़ने के बजाय घटा देता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-rational-orderops-06",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Evaluate, following the correct order of operations: -2/3 + 1/4 × 5/6",
+        "hi": "सही संक्रिया क्रम का पालन करते हुए मान ज्ञात करें: -2/3 + 1/4 × 5/6"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "-25/72",
+            "hi": "-25/72"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "-11/24",
+            "hi": "-11/24"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "2/3",
+            "hi": "2/3"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "-7/8",
+            "hi": "-7/8"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Multiplication comes before addition: 1/4 × 5/6 = 5/24, then -2/3 + 5/24 = -11/24.",
+        "hi": "जोड़ से पहले गुणा किया जाता है: 1/4 × 5/6 = 5/24, फिर -2/3 + 5/24 = -11/24।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Works strictly left-to-right — adds a and b first, then multiplies by c — instead of doing multiplication before addition.",
+          "hi": "बाएं-से-दाएं क्रम में काम करता है — पहले जोड़ फिर गुणा — जबकि जोड़ से पहले गुणा किया जाना चाहिए।"
+        },
+        "c": {
+          "en": "Multiplies a and b together instead of b and c, then adds c — the wrong pair grouped.",
+          "hi": "b और c के बजाय a और b को गुणा करता है, फिर c जोड़ देता है — गलत जोड़ी को समूहित करना।"
+        },
+        "d": {
+          "en": "Subtracts the (b×c) product instead of adding it.",
+          "hi": "(b×c) गुणनफल को जोड़ने के बजाय घटा देता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-rational-orderops-07",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Evaluate, following the correct order of operations: 5/8 + -3/4 × 1/6",
+        "hi": "सही संक्रिया क्रम का पालन करते हुए मान ज्ञात करें: 5/8 + -3/4 × 1/6"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "-1/48",
+            "hi": "-1/48"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "-29/96",
+            "hi": "-29/96"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "1/2",
+            "hi": "1/2"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "3/4",
+            "hi": "3/4"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Multiplication comes before addition: -3/4 × 1/6 = -1/8, then 5/8 + -1/8 = 1/2.",
+        "hi": "जोड़ से पहले गुणा किया जाता है: -3/4 × 1/6 = -1/8, फिर 5/8 + -1/8 = 1/2।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Works strictly left-to-right — adds a and b first, then multiplies by c — instead of doing multiplication before addition.",
+          "hi": "बाएं-से-दाएं क्रम में काम करता है — पहले जोड़ फिर गुणा — जबकि जोड़ से पहले गुणा किया जाना चाहिए।"
+        },
+        "b": {
+          "en": "Multiplies a and b together instead of b and c, then adds c — the wrong pair grouped.",
+          "hi": "b और c के बजाय a और b को गुणा करता है, फिर c जोड़ देता है — गलत जोड़ी को समूहित करना।"
+        },
+        "d": {
+          "en": "Subtracts the (b×c) product instead of adding it.",
+          "hi": "(b×c) गुणनफल को जोड़ने के बजाय घटा देता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-rational-orderops-08",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Evaluate, following the correct order of operations: -1/2 + -2/5 × 3/4",
+        "hi": "सही संक्रिया क्रम का पालन करते हुए मान ज्ञात करें: -1/2 + -2/5 × 3/4"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "-27/40",
+            "hi": "-27/40"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "19/20",
+            "hi": "19/20"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "-1/5",
+            "hi": "-1/5"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "-4/5",
+            "hi": "-4/5"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "Multiplication comes before addition: -2/5 × 3/4 = -3/10, then -1/2 + -3/10 = -4/5.",
+        "hi": "जोड़ से पहले गुणा किया जाता है: -2/5 × 3/4 = -3/10, फिर -1/2 + -3/10 = -4/5।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Works strictly left-to-right — adds a and b first, then multiplies by c — instead of doing multiplication before addition.",
+          "hi": "बाएं-से-दाएं क्रम में काम करता है — पहले जोड़ फिर गुणा — जबकि जोड़ से पहले गुणा किया जाना चाहिए।"
+        },
+        "b": {
+          "en": "Multiplies a and b together instead of b and c, then adds c — the wrong pair grouped.",
+          "hi": "b और c के बजाय a और b को गुणा करता है, फिर c जोड़ देता है — गलत जोड़ी को समूहित करना।"
+        },
+        "c": {
+          "en": "Subtracts the (b×c) product instead of adding it.",
+          "hi": "(b×c) गुणनफल को जोड़ने के बजाय घटा देता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-rational-compare-01",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Compare 3/4 and 5/7 by cross-multiplication. Which is larger?",
+        "hi": "आड़े-तिरछे गुणा (cross-multiplication) द्वारा 3/4 और 5/7 की तुलना करें। कौन-सी बड़ी है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "The first fraction is larger",
+            "hi": "पहली भिन्न बड़ी है"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "The second fraction is larger",
+            "hi": "दूसरी भिन्न बड़ी है"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "They are equal",
+            "hi": "वे बराबर हैं"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Cannot be compared without a common denominator",
+            "hi": "उभयनिष्ठ हर के बिना तुलना नहीं की जा सकती"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Cross-multiply: 3×7 = 21 and 5×4 = 20. Since 21 > 20, 3/4 is larger.",
+        "hi": "आड़ा-तिरछा गुणा करें: 3×7 = 21 और 5×4 = 20। चूंकि 21 > 20, इसलिए 3/4 बड़ी है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "This is the SMALLER fraction — cross-multiplying (3×7=21 vs 5×4=20) points the other way.",
+          "hi": "यह छोटी भिन्न है — आड़ा-तिरछा गुणा करने पर (3×7=21 बनाम 5×4=20) परिणाम दूसरी ओर इशारा करता है।"
+        },
+        "c": {
+          "en": "They are NOT equal — the cross products 21 and 20 are different numbers.",
+          "hi": "वे बराबर नहीं हैं — आड़े-तिरछे गुणनफल 21 और 20 अलग-अलग संख्याएँ हैं।"
+        },
+        "d": {
+          "en": "A common denominator can always be found (their LCM) and is exactly how this comparison works — this option wrongly claims it's impossible.",
+          "hi": "उभयनिष्ठ हर हमेशा (उनका ल.स. लेकर) निकाला जा सकता है, और यही तुलना का सही तरीका है — यह विकल्प गलत ढंग से इसे असंभव बताता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-rational-compare-02",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Compare 2/5 and 3/8 by cross-multiplication. Which is larger?",
+        "hi": "आड़े-तिरछे गुणा (cross-multiplication) द्वारा 2/5 और 3/8 की तुलना करें। कौन-सी बड़ी है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "The second fraction is larger",
+            "hi": "दूसरी भिन्न बड़ी है"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "The first fraction is larger",
+            "hi": "पहली भिन्न बड़ी है"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "They are equal",
+            "hi": "वे बराबर हैं"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Cannot be compared without a common denominator",
+            "hi": "उभयनिष्ठ हर के बिना तुलना नहीं की जा सकती"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Cross-multiply: 2×8 = 16 and 3×5 = 15. Since 16 > 15, 2/5 is larger.",
+        "hi": "आड़ा-तिरछा गुणा करें: 2×8 = 16 और 3×5 = 15। चूंकि 16 > 15, इसलिए 2/5 बड़ी है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This is the SMALLER fraction — cross-multiplying (2×8=16 vs 3×5=15) points the other way.",
+          "hi": "यह छोटी भिन्न है — आड़ा-तिरछा गुणा करने पर (2×8=16 बनाम 3×5=15) परिणाम दूसरी ओर इशारा करता है।"
+        },
+        "c": {
+          "en": "They are NOT equal — the cross products 16 and 15 are different numbers.",
+          "hi": "वे बराबर नहीं हैं — आड़े-तिरछे गुणनफल 16 और 15 अलग-अलग संख्याएँ हैं।"
+        },
+        "d": {
+          "en": "A common denominator can always be found (their LCM) and is exactly how this comparison works — this option wrongly claims it's impossible.",
+          "hi": "उभयनिष्ठ हर हमेशा (उनका ल.स. लेकर) निकाला जा सकता है, और यही तुलना का सही तरीका है — यह विकल्प गलत ढंग से इसे असंभव बताता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-rational-compare-03",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Compare 5/9 and 7/12 by cross-multiplication. Which is larger?",
+        "hi": "आड़े-तिरछे गुणा (cross-multiplication) द्वारा 5/9 और 7/12 की तुलना करें। कौन-सी बड़ी है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "The first fraction is larger",
+            "hi": "पहली भिन्न बड़ी है"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "They are equal",
+            "hi": "वे बराबर हैं"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "The second fraction is larger",
+            "hi": "दूसरी भिन्न बड़ी है"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Cannot be compared without a common denominator",
+            "hi": "उभयनिष्ठ हर के बिना तुलना नहीं की जा सकती"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Cross-multiply: 5×12 = 60 and 7×9 = 63. Since 60 < 63, 7/12 is larger.",
+        "hi": "आड़ा-तिरछा गुणा करें: 5×12 = 60 और 7×9 = 63। चूंकि 60 < 63, इसलिए 7/12 बड़ी है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This is the SMALLER fraction — cross-multiplying (5×12=60 vs 7×9=63) points the other way.",
+          "hi": "यह छोटी भिन्न है — आड़ा-तिरछा गुणा करने पर (5×12=60 बनाम 7×9=63) परिणाम दूसरी ओर इशारा करता है।"
+        },
+        "b": {
+          "en": "They are NOT equal — the cross products 60 and 63 are different numbers.",
+          "hi": "वे बराबर नहीं हैं — आड़े-तिरछे गुणनफल 60 और 63 अलग-अलग संख्याएँ हैं।"
+        },
+        "d": {
+          "en": "A common denominator can always be found (their LCM) and is exactly how this comparison works — this option wrongly claims it's impossible.",
+          "hi": "उभयनिष्ठ हर हमेशा (उनका ल.स. लेकर) निकाला जा सकता है, और यही तुलना का सही तरीका है — यह विकल्प गलत ढंग से इसे असंभव बताता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-rational-compare-04",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Compare 4/7 and 5/9 by cross-multiplication. Which is larger?",
+        "hi": "आड़े-तिरछे गुणा (cross-multiplication) द्वारा 4/7 और 5/9 की तुलना करें। कौन-सी बड़ी है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "The second fraction is larger",
+            "hi": "दूसरी भिन्न बड़ी है"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "They are equal",
+            "hi": "वे बराबर हैं"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Cannot be compared without a common denominator",
+            "hi": "उभयनिष्ठ हर के बिना तुलना नहीं की जा सकती"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "The first fraction is larger",
+            "hi": "पहली भिन्न बड़ी है"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "Cross-multiply: 4×9 = 36 and 5×7 = 35. Since 36 > 35, 4/7 is larger.",
+        "hi": "आड़ा-तिरछा गुणा करें: 4×9 = 36 और 5×7 = 35। चूंकि 36 > 35, इसलिए 4/7 बड़ी है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This is the SMALLER fraction — cross-multiplying (4×9=36 vs 5×7=35) points the other way.",
+          "hi": "यह छोटी भिन्न है — आड़ा-तिरछा गुणा करने पर (4×9=36 बनाम 5×7=35) परिणाम दूसरी ओर इशारा करता है।"
+        },
+        "b": {
+          "en": "They are NOT equal — the cross products 36 and 35 are different numbers.",
+          "hi": "वे बराबर नहीं हैं — आड़े-तिरछे गुणनफल 36 और 35 अलग-अलग संख्याएँ हैं।"
+        },
+        "c": {
+          "en": "A common denominator can always be found (their LCM) and is exactly how this comparison works — this option wrongly claims it's impossible.",
+          "hi": "उभयनिष्ठ हर हमेशा (उनका ल.स. लेकर) निकाला जा सकता है, और यही तुलना का सही तरीका है — यह विकल्प गलत ढंग से इसे असंभव बताता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-rational-compare-05",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Compare 7/10 and 5/8 by cross-multiplication. Which is larger?",
+        "hi": "आड़े-तिरछे गुणा (cross-multiplication) द्वारा 7/10 और 5/8 की तुलना करें। कौन-सी बड़ी है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "The first fraction is larger",
+            "hi": "पहली भिन्न बड़ी है"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "The second fraction is larger",
+            "hi": "दूसरी भिन्न बड़ी है"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "They are equal",
+            "hi": "वे बराबर हैं"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Cannot be compared without a common denominator",
+            "hi": "उभयनिष्ठ हर के बिना तुलना नहीं की जा सकती"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Cross-multiply: 7×8 = 56 and 5×10 = 50. Since 56 > 50, 7/10 is larger.",
+        "hi": "आड़ा-तिरछा गुणा करें: 7×8 = 56 और 5×10 = 50। चूंकि 56 > 50, इसलिए 7/10 बड़ी है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "This is the SMALLER fraction — cross-multiplying (7×8=56 vs 5×10=50) points the other way.",
+          "hi": "यह छोटी भिन्न है — आड़ा-तिरछा गुणा करने पर (7×8=56 बनाम 5×10=50) परिणाम दूसरी ओर इशारा करता है।"
+        },
+        "c": {
+          "en": "They are NOT equal — the cross products 56 and 50 are different numbers.",
+          "hi": "वे बराबर नहीं हैं — आड़े-तिरछे गुणनफल 56 और 50 अलग-अलग संख्याएँ हैं।"
+        },
+        "d": {
+          "en": "A common denominator can always be found (their LCM) and is exactly how this comparison works — this option wrongly claims it's impossible.",
+          "hi": "उभयनिष्ठ हर हमेशा (उनका ल.स. लेकर) निकाला जा सकता है, और यही तुलना का सही तरीका है — यह विकल्प गलत ढंग से इसे असंभव बताता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-rational-compare-06",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Compare 3/11 and 2/7 by cross-multiplication. Which is larger?",
+        "hi": "आड़े-तिरछे गुणा (cross-multiplication) द्वारा 3/11 और 2/7 की तुलना करें। कौन-सी बड़ी है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "The first fraction is larger",
+            "hi": "पहली भिन्न बड़ी है"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "The second fraction is larger",
+            "hi": "दूसरी भिन्न बड़ी है"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "They are equal",
+            "hi": "वे बराबर हैं"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Cannot be compared without a common denominator",
+            "hi": "उभयनिष्ठ हर के बिना तुलना नहीं की जा सकती"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Cross-multiply: 3×7 = 21 and 2×11 = 22. Since 21 < 22, 2/7 is larger.",
+        "hi": "आड़ा-तिरछा गुणा करें: 3×7 = 21 और 2×11 = 22। चूंकि 21 < 22, इसलिए 2/7 बड़ी है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This is the SMALLER fraction — cross-multiplying (3×7=21 vs 2×11=22) points the other way.",
+          "hi": "यह छोटी भिन्न है — आड़ा-तिरछा गुणा करने पर (3×7=21 बनाम 2×11=22) परिणाम दूसरी ओर इशारा करता है।"
+        },
+        "c": {
+          "en": "They are NOT equal — the cross products 21 and 22 are different numbers.",
+          "hi": "वे बराबर नहीं हैं — आड़े-तिरछे गुणनफल 21 और 22 अलग-अलग संख्याएँ हैं।"
+        },
+        "d": {
+          "en": "A common denominator can always be found (their LCM) and is exactly how this comparison works — this option wrongly claims it's impossible.",
+          "hi": "उभयनिष्ठ हर हमेशा (उनका ल.स. लेकर) निकाला जा सकता है, और यही तुलना का सही तरीका है — यह विकल्प गलत ढंग से इसे असंभव बताता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-rational-compare-07",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Compare 9/13 and 5/8 by cross-multiplication. Which is larger?",
+        "hi": "आड़े-तिरछे गुणा (cross-multiplication) द्वारा 9/13 और 5/8 की तुलना करें। कौन-सी बड़ी है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "The second fraction is larger",
+            "hi": "दूसरी भिन्न बड़ी है"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "They are equal",
+            "hi": "वे बराबर हैं"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "The first fraction is larger",
+            "hi": "पहली भिन्न बड़ी है"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Cannot be compared without a common denominator",
+            "hi": "उभयनिष्ठ हर के बिना तुलना नहीं की जा सकती"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Cross-multiply: 9×8 = 72 and 5×13 = 65. Since 72 > 65, 9/13 is larger.",
+        "hi": "आड़ा-तिरछा गुणा करें: 9×8 = 72 और 5×13 = 65। चूंकि 72 > 65, इसलिए 9/13 बड़ी है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This is the SMALLER fraction — cross-multiplying (9×8=72 vs 5×13=65) points the other way.",
+          "hi": "यह छोटी भिन्न है — आड़ा-तिरछा गुणा करने पर (9×8=72 बनाम 5×13=65) परिणाम दूसरी ओर इशारा करता है।"
+        },
+        "b": {
+          "en": "They are NOT equal — the cross products 72 and 65 are different numbers.",
+          "hi": "वे बराबर नहीं हैं — आड़े-तिरछे गुणनफल 72 और 65 अलग-अलग संख्याएँ हैं।"
+        },
+        "d": {
+          "en": "A common denominator can always be found (their LCM) and is exactly how this comparison works — this option wrongly claims it's impossible.",
+          "hi": "उभयनिष्ठ हर हमेशा (उनका ल.स. लेकर) निकाला जा सकता है, और यही तुलना का सही तरीका है — यह विकल्प गलत ढंग से इसे असंभव बताता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    }
+  ]
+}

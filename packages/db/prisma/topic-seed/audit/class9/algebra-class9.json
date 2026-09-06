@@ -1,0 +1,2327 @@
+{
+  "section": "mathematics",
+  "topicKey": "algebra_class9",
+  "generatedAt": "2026-09-06T08:12:47.412Z",
+  "questions": [
+    {
+      "key": "bank-math9-algebra-linear-01",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Solve for x: 2x + 3 = 11",
+        "hi": "x के लिए हल करें: 2x + 3 = 11"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "4",
+            "hi": "4"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "8",
+            "hi": "8"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "7",
+            "hi": "7"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "6",
+            "hi": "6"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "2x = 11 − (3) = 8, so x = 8 ÷ 2 = 4.",
+        "hi": "2x = 11 − (3) = 8, इसलिए x = 8 ÷ 2 = 4।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Forgets to divide by 2 after moving 3 to the other side.",
+          "hi": "3 को दूसरी ओर ले जाने के बाद 2 से भाग देना भूल जाता है।"
+        },
+        "c": {
+          "en": "Adds 3 instead of subtracting it when isolating the 2x term.",
+          "hi": "2x पद को अलग करते समय 3 को घटाने के बजाय जोड़ देता है।"
+        },
+        "d": {
+          "en": "An off-by-2 slip after correctly setting up the equation.",
+          "hi": "समीकरण सही ढंग से बनाने के बाद 2 की एक चूक।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-algebra-linear-02",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Solve for x: 3x − 4 = 11",
+        "hi": "x के लिए हल करें: 3x − 4 = 11"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "15",
+            "hi": "15"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "5",
+            "hi": "5"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "2.3333333333333335",
+            "hi": "2.3333333333333335"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "8",
+            "hi": "8"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "3x = 11 − (-4) = 15, so x = 15 ÷ 3 = 5.",
+        "hi": "3x = 11 − (-4) = 15, इसलिए x = 15 ÷ 3 = 5।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Forgets to divide by 3 after moving -4 to the other side.",
+          "hi": "-4 को दूसरी ओर ले जाने के बाद 3 से भाग देना भूल जाता है।"
+        },
+        "c": {
+          "en": "Adds -4 instead of subtracting it when isolating the 3x term.",
+          "hi": "3x पद को अलग करते समय -4 को घटाने के बजाय जोड़ देता है।"
+        },
+        "d": {
+          "en": "An off-by-3 slip after correctly setting up the equation.",
+          "hi": "समीकरण सही ढंग से बनाने के बाद 3 की एक चूक।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-algebra-linear-03",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Solve for x: 4x + 5 = 25",
+        "hi": "x के लिए हल करें: 4x + 5 = 25"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "20",
+            "hi": "20"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "7.5",
+            "hi": "7.5"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "5",
+            "hi": "5"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "9",
+            "hi": "9"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "4x = 25 − (5) = 20, so x = 20 ÷ 4 = 5.",
+        "hi": "4x = 25 − (5) = 20, इसलिए x = 20 ÷ 4 = 5।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Forgets to divide by 4 after moving 5 to the other side.",
+          "hi": "5 को दूसरी ओर ले जाने के बाद 4 से भाग देना भूल जाता है।"
+        },
+        "b": {
+          "en": "Adds 5 instead of subtracting it when isolating the 4x term.",
+          "hi": "4x पद को अलग करते समय 5 को घटाने के बजाय जोड़ देता है।"
+        },
+        "d": {
+          "en": "An off-by-4 slip after correctly setting up the equation.",
+          "hi": "समीकरण सही ढंग से बनाने के बाद 4 की एक चूक।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-algebra-linear-04",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Solve for x: 5x − 6 = 24",
+        "hi": "x के लिए हल करें: 5x − 6 = 24"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "30",
+            "hi": "30"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "3.6",
+            "hi": "3.6"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "11",
+            "hi": "11"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "6",
+            "hi": "6"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "5x = 24 − (-6) = 30, so x = 30 ÷ 5 = 6.",
+        "hi": "5x = 24 − (-6) = 30, इसलिए x = 30 ÷ 5 = 6।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Forgets to divide by 5 after moving -6 to the other side.",
+          "hi": "-6 को दूसरी ओर ले जाने के बाद 5 से भाग देना भूल जाता है।"
+        },
+        "b": {
+          "en": "Adds -6 instead of subtracting it when isolating the 5x term.",
+          "hi": "5x पद को अलग करते समय -6 को घटाने के बजाय जोड़ देता है।"
+        },
+        "c": {
+          "en": "An off-by-5 slip after correctly setting up the equation.",
+          "hi": "समीकरण सही ढंग से बनाने के बाद 5 की एक चूक।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-algebra-linear-05",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Solve for x: 6x + 7 = 43",
+        "hi": "x के लिए हल करें: 6x + 7 = 43"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "6",
+            "hi": "6"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "36",
+            "hi": "36"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "8.333333333333334",
+            "hi": "8.333333333333334"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "12",
+            "hi": "12"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "6x = 43 − (7) = 36, so x = 36 ÷ 6 = 6.",
+        "hi": "6x = 43 − (7) = 36, इसलिए x = 36 ÷ 6 = 6।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Forgets to divide by 6 after moving 7 to the other side.",
+          "hi": "7 को दूसरी ओर ले जाने के बाद 6 से भाग देना भूल जाता है।"
+        },
+        "c": {
+          "en": "Adds 7 instead of subtracting it when isolating the 6x term.",
+          "hi": "6x पद को अलग करते समय 7 को घटाने के बजाय जोड़ देता है।"
+        },
+        "d": {
+          "en": "An off-by-6 slip after correctly setting up the equation.",
+          "hi": "समीकरण सही ढंग से बनाने के बाद 6 की एक चूक।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-algebra-linear-06",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Solve for x: 2x − 9 = 5",
+        "hi": "x के लिए हल करें: 2x − 9 = 5"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "14",
+            "hi": "14"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "7",
+            "hi": "7"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "-2",
+            "hi": "-2"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "9",
+            "hi": "9"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "2x = 5 − (-9) = 14, so x = 14 ÷ 2 = 7.",
+        "hi": "2x = 5 − (-9) = 14, इसलिए x = 14 ÷ 2 = 7।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Forgets to divide by 2 after moving -9 to the other side.",
+          "hi": "-9 को दूसरी ओर ले जाने के बाद 2 से भाग देना भूल जाता है।"
+        },
+        "c": {
+          "en": "Adds -9 instead of subtracting it when isolating the 2x term.",
+          "hi": "2x पद को अलग करते समय -9 को घटाने के बजाय जोड़ देता है।"
+        },
+        "d": {
+          "en": "An off-by-2 slip after correctly setting up the equation.",
+          "hi": "समीकरण सही ढंग से बनाने के बाद 2 की एक चूक।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-algebra-linear-07",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Solve for x: 3x + 8 = 26",
+        "hi": "x के लिए हल करें: 3x + 8 = 26"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "18",
+            "hi": "18"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "11.333333333333334",
+            "hi": "11.333333333333334"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "6",
+            "hi": "6"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "9",
+            "hi": "9"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "3x = 26 − (8) = 18, so x = 18 ÷ 3 = 6.",
+        "hi": "3x = 26 − (8) = 18, इसलिए x = 18 ÷ 3 = 6।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Forgets to divide by 3 after moving 8 to the other side.",
+          "hi": "8 को दूसरी ओर ले जाने के बाद 3 से भाग देना भूल जाता है।"
+        },
+        "b": {
+          "en": "Adds 8 instead of subtracting it when isolating the 3x term.",
+          "hi": "3x पद को अलग करते समय 8 को घटाने के बजाय जोड़ देता है।"
+        },
+        "d": {
+          "en": "An off-by-3 slip after correctly setting up the equation.",
+          "hi": "समीकरण सही ढंग से बनाने के बाद 3 की एक चूक।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-algebra-linear-08",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Solve for x: 7x − 2 = 33",
+        "hi": "x के लिए हल करें: 7x − 2 = 33"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "35",
+            "hi": "35"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "4.428571428571429",
+            "hi": "4.428571428571429"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "12",
+            "hi": "12"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "5",
+            "hi": "5"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "7x = 33 − (-2) = 35, so x = 35 ÷ 7 = 5.",
+        "hi": "7x = 33 − (-2) = 35, इसलिए x = 35 ÷ 7 = 5।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Forgets to divide by 7 after moving -2 to the other side.",
+          "hi": "-2 को दूसरी ओर ले जाने के बाद 7 से भाग देना भूल जाता है।"
+        },
+        "b": {
+          "en": "Adds -2 instead of subtracting it when isolating the 7x term.",
+          "hi": "7x पद को अलग करते समय -2 को घटाने के बजाय जोड़ देता है।"
+        },
+        "c": {
+          "en": "An off-by-7 slip after correctly setting up the equation.",
+          "hi": "समीकरण सही ढंग से बनाने के बाद 7 की एक चूक।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-algebra-linear-09",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Solve for x: 4x − 3 = 17",
+        "hi": "x के लिए हल करें: 4x − 3 = 17"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "5",
+            "hi": "5"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "20",
+            "hi": "20"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "3.5",
+            "hi": "3.5"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "9",
+            "hi": "9"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "4x = 17 − (-3) = 20, so x = 20 ÷ 4 = 5.",
+        "hi": "4x = 17 − (-3) = 20, इसलिए x = 20 ÷ 4 = 5।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Forgets to divide by 4 after moving -3 to the other side.",
+          "hi": "-3 को दूसरी ओर ले जाने के बाद 4 से भाग देना भूल जाता है।"
+        },
+        "c": {
+          "en": "Adds -3 instead of subtracting it when isolating the 4x term.",
+          "hi": "4x पद को अलग करते समय -3 को घटाने के बजाय जोड़ देता है।"
+        },
+        "d": {
+          "en": "An off-by-4 slip after correctly setting up the equation.",
+          "hi": "समीकरण सही ढंग से बनाने के बाद 4 की एक चूक।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-algebra-linear-10",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Solve for x: 5x + 10 = 45",
+        "hi": "x के लिए हल करें: 5x + 10 = 45"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "35",
+            "hi": "35"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "7",
+            "hi": "7"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "11",
+            "hi": "11"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "12",
+            "hi": "12"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "5x = 45 − (10) = 35, so x = 35 ÷ 5 = 7.",
+        "hi": "5x = 45 − (10) = 35, इसलिए x = 35 ÷ 5 = 7।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Forgets to divide by 5 after moving 10 to the other side.",
+          "hi": "10 को दूसरी ओर ले जाने के बाद 5 से भाग देना भूल जाता है।"
+        },
+        "c": {
+          "en": "Adds 10 instead of subtracting it when isolating the 5x term.",
+          "hi": "5x पद को अलग करते समय 10 को घटाने के बजाय जोड़ देता है।"
+        },
+        "d": {
+          "en": "An off-by-5 slip after correctly setting up the equation.",
+          "hi": "समीकरण सही ढंग से बनाने के बाद 5 की एक चूक।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-algebra-squareid-01",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Using the identity (a+b)² = a²+2ab+b², find (12+3)².",
+        "hi": "सर्वसमिका (a+b)² = a²+2ab+b² का उपयोग करके, (12+3)² ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "225",
+            "hi": "225"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "153",
+            "hi": "153"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "81",
+            "hi": "81"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "231",
+            "hi": "231"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "a²=144, b²=9, 2ab=72. (a+b)² = 144 + 72 + 9 = 225.",
+        "hi": "a²=144, b²=9, 2ab=72। (a+b)² = 144 + 72 + 9 = 225।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Uses a²+b² and forgets the middle \"2ab\" cross term entirely (12²+3²=153).",
+          "hi": "a²+b² का उपयोग करता है और बीच का \"2ab\" पद पूरी तरह भूल जाता है (12²+3²=153)।"
+        },
+        "c": {
+          "en": "Applies the opposite identity — uses (a−b)² instead of (a+b)².",
+          "hi": "विपरीत सर्वसमिका का उपयोग करता है — (a+b)² के बजाय (a−b)² का प्रयोग करता है।"
+        },
+        "d": {
+          "en": "Gets the cross term right but makes an arithmetic slip in the final addition.",
+          "hi": "क्रॉस पद सही निकालता है पर अंतिम जोड़ में एक अंकगणितीय चूक करता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-algebra-squareid-02",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Using the identity (a-b)² = a²−2ab+b², find (15-4)².",
+        "hi": "सर्वसमिका (a-b)² = a²−2ab+b² का उपयोग करके, (15-4)² ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "241",
+            "hi": "241"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "121",
+            "hi": "121"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "361",
+            "hi": "361"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "129",
+            "hi": "129"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "a²=225, b²=16, 2ab=120. (a-b)² = 225 − 120 + 16 = 121.",
+        "hi": "a²=225, b²=16, 2ab=120। (a-b)² = 225 − 120 + 16 = 121।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Uses a²+b² and forgets the middle \"2ab\" cross term entirely (15²+4²=241).",
+          "hi": "a²+b² का उपयोग करता है और बीच का \"2ab\" पद पूरी तरह भूल जाता है (15²+4²=241)।"
+        },
+        "c": {
+          "en": "Applies the opposite identity — uses (a+b)² instead of (a-b)².",
+          "hi": "विपरीत सर्वसमिका का उपयोग करता है — (a-b)² के बजाय (a+b)² का प्रयोग करता है।"
+        },
+        "d": {
+          "en": "Gets the cross term right but makes an arithmetic slip in the final addition.",
+          "hi": "क्रॉस पद सही निकालता है पर अंतिम जोड़ में एक अंकगणितीय चूक करता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-algebra-squareid-03",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Using the identity (a+b)² = a²+2ab+b², find (20+5)².",
+        "hi": "सर्वसमिका (a+b)² = a²+2ab+b² का उपयोग करके, (20+5)² ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "425",
+            "hi": "425"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "225",
+            "hi": "225"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "625",
+            "hi": "625"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "635",
+            "hi": "635"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "a²=400, b²=25, 2ab=200. (a+b)² = 400 + 200 + 25 = 625.",
+        "hi": "a²=400, b²=25, 2ab=200। (a+b)² = 400 + 200 + 25 = 625।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Uses a²+b² and forgets the middle \"2ab\" cross term entirely (20²+5²=425).",
+          "hi": "a²+b² का उपयोग करता है और बीच का \"2ab\" पद पूरी तरह भूल जाता है (20²+5²=425)।"
+        },
+        "b": {
+          "en": "Applies the opposite identity — uses (a−b)² instead of (a+b)².",
+          "hi": "विपरीत सर्वसमिका का उपयोग करता है — (a+b)² के बजाय (a−b)² का प्रयोग करता है।"
+        },
+        "d": {
+          "en": "Gets the cross term right but makes an arithmetic slip in the final addition.",
+          "hi": "क्रॉस पद सही निकालता है पर अंतिम जोड़ में एक अंकगणितीय चूक करता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-algebra-squareid-04",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Using the identity (a-b)² = a²−2ab+b², find (18-7)².",
+        "hi": "सर्वसमिका (a-b)² = a²−2ab+b² का उपयोग करके, (18-7)² ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "373",
+            "hi": "373"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "625",
+            "hi": "625"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "135",
+            "hi": "135"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "121",
+            "hi": "121"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "a²=324, b²=49, 2ab=252. (a-b)² = 324 − 252 + 49 = 121.",
+        "hi": "a²=324, b²=49, 2ab=252। (a-b)² = 324 − 252 + 49 = 121।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Uses a²+b² and forgets the middle \"2ab\" cross term entirely (18²+7²=373).",
+          "hi": "a²+b² का उपयोग करता है और बीच का \"2ab\" पद पूरी तरह भूल जाता है (18²+7²=373)।"
+        },
+        "b": {
+          "en": "Applies the opposite identity — uses (a+b)² instead of (a-b)².",
+          "hi": "विपरीत सर्वसमिका का उपयोग करता है — (a-b)² के बजाय (a+b)² का प्रयोग करता है।"
+        },
+        "c": {
+          "en": "Gets the cross term right but makes an arithmetic slip in the final addition.",
+          "hi": "क्रॉस पद सही निकालता है पर अंतिम जोड़ में एक अंकगणितीय चूक करता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-algebra-squareid-05",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Using the identity (a+b)² = a²+2ab+b², find (25+6)².",
+        "hi": "सर्वसमिका (a+b)² = a²+2ab+b² का उपयोग करके, (25+6)² ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "961",
+            "hi": "961"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "661",
+            "hi": "661"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "361",
+            "hi": "361"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "973",
+            "hi": "973"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "a²=625, b²=36, 2ab=300. (a+b)² = 625 + 300 + 36 = 961.",
+        "hi": "a²=625, b²=36, 2ab=300। (a+b)² = 625 + 300 + 36 = 961।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Uses a²+b² and forgets the middle \"2ab\" cross term entirely (25²+6²=661).",
+          "hi": "a²+b² का उपयोग करता है और बीच का \"2ab\" पद पूरी तरह भूल जाता है (25²+6²=661)।"
+        },
+        "c": {
+          "en": "Applies the opposite identity — uses (a−b)² instead of (a+b)².",
+          "hi": "विपरीत सर्वसमिका का उपयोग करता है — (a+b)² के बजाय (a−b)² का प्रयोग करता है।"
+        },
+        "d": {
+          "en": "Gets the cross term right but makes an arithmetic slip in the final addition.",
+          "hi": "क्रॉस पद सही निकालता है पर अंतिम जोड़ में एक अंकगणितीय चूक करता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-algebra-squareid-06",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Using the identity (a-b)² = a²−2ab+b², find (30-8)².",
+        "hi": "सर्वसमिका (a-b)² = a²−2ab+b² का उपयोग करके, (30-8)² ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "964",
+            "hi": "964"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "484",
+            "hi": "484"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "1444",
+            "hi": "1444"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "500",
+            "hi": "500"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "a²=900, b²=64, 2ab=480. (a-b)² = 900 − 480 + 64 = 484.",
+        "hi": "a²=900, b²=64, 2ab=480। (a-b)² = 900 − 480 + 64 = 484।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Uses a²+b² and forgets the middle \"2ab\" cross term entirely (30²+8²=964).",
+          "hi": "a²+b² का उपयोग करता है और बीच का \"2ab\" पद पूरी तरह भूल जाता है (30²+8²=964)।"
+        },
+        "c": {
+          "en": "Applies the opposite identity — uses (a+b)² instead of (a-b)².",
+          "hi": "विपरीत सर्वसमिका का उपयोग करता है — (a-b)² के बजाय (a+b)² का प्रयोग करता है।"
+        },
+        "d": {
+          "en": "Gets the cross term right but makes an arithmetic slip in the final addition.",
+          "hi": "क्रॉस पद सही निकालता है पर अंतिम जोड़ में एक अंकगणितीय चूक करता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-algebra-squareid-07",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Using the identity (a+b)² = a²+2ab+b², find (22+9)².",
+        "hi": "सर्वसमिका (a+b)² = a²+2ab+b² का उपयोग करके, (22+9)² ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "565",
+            "hi": "565"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "169",
+            "hi": "169"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "961",
+            "hi": "961"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "979",
+            "hi": "979"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "a²=484, b²=81, 2ab=396. (a+b)² = 484 + 396 + 81 = 961.",
+        "hi": "a²=484, b²=81, 2ab=396। (a+b)² = 484 + 396 + 81 = 961।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Uses a²+b² and forgets the middle \"2ab\" cross term entirely (22²+9²=565).",
+          "hi": "a²+b² का उपयोग करता है और बीच का \"2ab\" पद पूरी तरह भूल जाता है (22²+9²=565)।"
+        },
+        "b": {
+          "en": "Applies the opposite identity — uses (a−b)² instead of (a+b)².",
+          "hi": "विपरीत सर्वसमिका का उपयोग करता है — (a+b)² के बजाय (a−b)² का प्रयोग करता है।"
+        },
+        "d": {
+          "en": "Gets the cross term right but makes an arithmetic slip in the final addition.",
+          "hi": "क्रॉस पद सही निकालता है पर अंतिम जोड़ में एक अंकगणितीय चूक करता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-algebra-squareid-08",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Using the identity (a-b)² = a²−2ab+b², find (40-10)².",
+        "hi": "सर्वसमिका (a-b)² = a²−2ab+b² का उपयोग करके, (40-10)² ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "1700",
+            "hi": "1700"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "2500",
+            "hi": "2500"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "920",
+            "hi": "920"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "900",
+            "hi": "900"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "a²=1600, b²=100, 2ab=800. (a-b)² = 1600 − 800 + 100 = 900.",
+        "hi": "a²=1600, b²=100, 2ab=800। (a-b)² = 1600 − 800 + 100 = 900।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Uses a²+b² and forgets the middle \"2ab\" cross term entirely (40²+10²=1700).",
+          "hi": "a²+b² का उपयोग करता है और बीच का \"2ab\" पद पूरी तरह भूल जाता है (40²+10²=1700)।"
+        },
+        "b": {
+          "en": "Applies the opposite identity — uses (a+b)² instead of (a-b)².",
+          "hi": "विपरीत सर्वसमिका का उपयोग करता है — (a-b)² के बजाय (a+b)² का प्रयोग करता है।"
+        },
+        "c": {
+          "en": "Gets the cross term right but makes an arithmetic slip in the final addition.",
+          "hi": "क्रॉस पद सही निकालता है पर अंतिम जोड़ में एक अंकगणितीय चूक करता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-algebra-polyeval-01",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "If p(x) = 1x² + 2x + 3, find p(4).",
+        "hi": "यदि p(x) = 1x² + 2x + 3, तो p(4) ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "27",
+            "hi": "27"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "15",
+            "hi": "15"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "11",
+            "hi": "11"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "24",
+            "hi": "24"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "p(4) = 1×4² + 2×4 + 3 = 16 + 8 + 3 = 27.",
+        "hi": "p(4) = 1×4² + 2×4 + 3 = 16 + 8 + 3 = 27।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Computes a×k instead of a×k² — forgets to square k in the first term.",
+          "hi": "पहले पद में k का वर्ग करना भूल जाता है — a×k² के बजाय a×k की गणना करता है।"
+        },
+        "c": {
+          "en": "Flips the sign of the \"bx\" term.",
+          "hi": "\"bx\" पद के चिह्न को उलट देता है।"
+        },
+        "d": {
+          "en": "Drops the constant term \"c\" entirely from the final sum.",
+          "hi": "अंतिम योग से स्थिरांक पद \"c\" को पूरी तरह हटा देता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-algebra-polyeval-02",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "If p(x) = 2x² − 3x + 5, find p(3).",
+        "hi": "यदि p(x) = 2x² − 3x + 5, तो p(3) ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "2",
+            "hi": "2"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "14",
+            "hi": "14"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "32",
+            "hi": "32"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "9",
+            "hi": "9"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "p(3) = 2×3² − 3×3 + 5 = 18 − 9 + 5 = 14.",
+        "hi": "p(3) = 2×3² − 3×3 + 5 = 18 − 9 + 5 = 14।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Computes a×k instead of a×k² — forgets to square k in the first term.",
+          "hi": "पहले पद में k का वर्ग करना भूल जाता है — a×k² के बजाय a×k की गणना करता है।"
+        },
+        "c": {
+          "en": "Flips the sign of the \"bx\" term.",
+          "hi": "\"bx\" पद के चिह्न को उलट देता है।"
+        },
+        "d": {
+          "en": "Drops the constant term \"c\" entirely from the final sum.",
+          "hi": "अंतिम योग से स्थिरांक पद \"c\" को पूरी तरह हटा देता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-algebra-polyeval-03",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "If p(x) = 1x² − 4x + 6, find p(5).",
+        "hi": "यदि p(x) = 1x² − 4x + 6, तो p(5) ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "-9",
+            "hi": "-9"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "51",
+            "hi": "51"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "11",
+            "hi": "11"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "5",
+            "hi": "5"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "p(5) = 1×5² − 4×5 + 6 = 25 − 20 + 6 = 11.",
+        "hi": "p(5) = 1×5² − 4×5 + 6 = 25 − 20 + 6 = 11।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Computes a×k instead of a×k² — forgets to square k in the first term.",
+          "hi": "पहले पद में k का वर्ग करना भूल जाता है — a×k² के बजाय a×k की गणना करता है।"
+        },
+        "b": {
+          "en": "Flips the sign of the \"bx\" term.",
+          "hi": "\"bx\" पद के चिह्न को उलट देता है।"
+        },
+        "d": {
+          "en": "Drops the constant term \"c\" entirely from the final sum.",
+          "hi": "अंतिम योग से स्थिरांक पद \"c\" को पूरी तरह हटा देता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-algebra-polyeval-04",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "If p(x) = 3x² + 2x − 1, find p(2).",
+        "hi": "यदि p(x) = 3x² + 2x − 1, तो p(2) ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "9",
+            "hi": "9"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "7",
+            "hi": "7"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "16",
+            "hi": "16"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "15",
+            "hi": "15"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "p(2) = 3×2² + 2×2 − 1 = 12 + 4 − 1 = 15.",
+        "hi": "p(2) = 3×2² + 2×2 − 1 = 12 + 4 − 1 = 15।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Computes a×k instead of a×k² — forgets to square k in the first term.",
+          "hi": "पहले पद में k का वर्ग करना भूल जाता है — a×k² के बजाय a×k की गणना करता है।"
+        },
+        "b": {
+          "en": "Flips the sign of the \"bx\" term.",
+          "hi": "\"bx\" पद के चिह्न को उलट देता है।"
+        },
+        "c": {
+          "en": "Drops the constant term \"c\" entirely from the final sum.",
+          "hi": "अंतिम योग से स्थिरांक पद \"c\" को पूरी तरह हटा देता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-algebra-polyeval-05",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "If p(x) = 2x² + 5x + 1, find p(3).",
+        "hi": "यदि p(x) = 2x² + 5x + 1, तो p(3) ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "34",
+            "hi": "34"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "22",
+            "hi": "22"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "4",
+            "hi": "4"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "33",
+            "hi": "33"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "p(3) = 2×3² + 5×3 + 1 = 18 + 15 + 1 = 34.",
+        "hi": "p(3) = 2×3² + 5×3 + 1 = 18 + 15 + 1 = 34।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Computes a×k instead of a×k² — forgets to square k in the first term.",
+          "hi": "पहले पद में k का वर्ग करना भूल जाता है — a×k² के बजाय a×k की गणना करता है।"
+        },
+        "c": {
+          "en": "Flips the sign of the \"bx\" term.",
+          "hi": "\"bx\" पद के चिह्न को उलट देता है।"
+        },
+        "d": {
+          "en": "Drops the constant term \"c\" entirely from the final sum.",
+          "hi": "अंतिम योग से स्थिरांक पद \"c\" को पूरी तरह हटा देता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-algebra-polyeval-06",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "If p(x) = 1x² + 6x − 2, find p(4).",
+        "hi": "यदि p(x) = 1x² + 6x − 2, तो p(4) ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "26",
+            "hi": "26"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "38",
+            "hi": "38"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "-10",
+            "hi": "-10"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "40",
+            "hi": "40"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "p(4) = 1×4² + 6×4 − 2 = 16 + 24 − 2 = 38.",
+        "hi": "p(4) = 1×4² + 6×4 − 2 = 16 + 24 − 2 = 38।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Computes a×k instead of a×k² — forgets to square k in the first term.",
+          "hi": "पहले पद में k का वर्ग करना भूल जाता है — a×k² के बजाय a×k की गणना करता है।"
+        },
+        "c": {
+          "en": "Flips the sign of the \"bx\" term.",
+          "hi": "\"bx\" पद के चिह्न को उलट देता है।"
+        },
+        "d": {
+          "en": "Drops the constant term \"c\" entirely from the final sum.",
+          "hi": "अंतिम योग से स्थिरांक पद \"c\" को पूरी तरह हटा देता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-algebra-polyeval-07",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "If p(x) = 4x² − 1x + 2, find p(2).",
+        "hi": "यदि p(x) = 4x² − 1x + 2, तो p(2) ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "8",
+            "hi": "8"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "20",
+            "hi": "20"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "16",
+            "hi": "16"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "14",
+            "hi": "14"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "p(2) = 4×2² − 1×2 + 2 = 16 − 2 + 2 = 16.",
+        "hi": "p(2) = 4×2² − 1×2 + 2 = 16 − 2 + 2 = 16।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Computes a×k instead of a×k² — forgets to square k in the first term.",
+          "hi": "पहले पद में k का वर्ग करना भूल जाता है — a×k² के बजाय a×k की गणना करता है।"
+        },
+        "b": {
+          "en": "Flips the sign of the \"bx\" term.",
+          "hi": "\"bx\" पद के चिह्न को उलट देता है।"
+        },
+        "d": {
+          "en": "Drops the constant term \"c\" entirely from the final sum.",
+          "hi": "अंतिम योग से स्थिरांक पद \"c\" को पूरी तरह हटा देता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-algebra-twobracket-01",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Solve for x: 3(x + 2) − 1(x − 1) = 17",
+        "hi": "x के लिए हल करें: 3(x + 2) − 1(x − 1) = 17"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "5",
+            "hi": "5"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "7",
+            "hi": "7"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "12",
+            "hi": "12"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "4",
+            "hi": "4"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Expanding: 3x + 6 − 1x − 1 = 17, so 2x + 7 = 17, giving 2x = 10, so x = 5.",
+        "hi": "विस्तार करने पर: 3x + 6 − 1x − 1 = 17, इसलिए 2x + 7 = 17, जिससे 2x = 10, अतः x = 5।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "An arithmetic slip while isolating x after correctly expanding both brackets.",
+          "hi": "दोनों कोष्ठकों को सही ढंग से खोलने के बाद x को अलग करते समय एक अंकगणितीय चूक।"
+        },
+        "c": {
+          "en": "Adds the constant term instead of subtracting it when moving it to the other side.",
+          "hi": "स्थिरांक पद को दूसरी ओर ले जाते समय घटाने के बजाय जोड़ देता है।"
+        },
+        "d": {
+          "en": "Off by one after an otherwise correct solution.",
+          "hi": "अन्यथा सही हल के बाद एक की चूक।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-algebra-twobracket-02",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Solve for x: 4(x + 1) − 2(x − 3) = 22",
+        "hi": "x के लिए हल करें: 4(x + 1) − 2(x − 3) = 22"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "8",
+            "hi": "8"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "6",
+            "hi": "6"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "16",
+            "hi": "16"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "5",
+            "hi": "5"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Expanding: 4x + 4 − 2x − 6 = 22, so 2x + 10 = 22, giving 2x = 12, so x = 6.",
+        "hi": "विस्तार करने पर: 4x + 4 − 2x − 6 = 22, इसलिए 2x + 10 = 22, जिससे 2x = 12, अतः x = 6।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "An arithmetic slip while isolating x after correctly expanding both brackets.",
+          "hi": "दोनों कोष्ठकों को सही ढंग से खोलने के बाद x को अलग करते समय एक अंकगणितीय चूक।"
+        },
+        "c": {
+          "en": "Adds the constant term instead of subtracting it when moving it to the other side.",
+          "hi": "स्थिरांक पद को दूसरी ओर ले जाते समय घटाने के बजाय जोड़ देता है।"
+        },
+        "d": {
+          "en": "Off by one after an otherwise correct solution.",
+          "hi": "अन्यथा सही हल के बाद एक की चूक।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-algebra-twobracket-03",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Solve for x: 5(x + 3) − 2(x − 2) = 31",
+        "hi": "x के लिए हल करें: 5(x + 3) − 2(x − 2) = 31"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "6",
+            "hi": "6"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "17",
+            "hi": "17"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "4",
+            "hi": "4"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "3",
+            "hi": "3"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Expanding: 5x + 15 − 2x − 4 = 31, so 3x + 19 = 31, giving 3x = 12, so x = 4.",
+        "hi": "विस्तार करने पर: 5x + 15 − 2x − 4 = 31, इसलिए 3x + 19 = 31, जिससे 3x = 12, अतः x = 4।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "An arithmetic slip while isolating x after correctly expanding both brackets.",
+          "hi": "दोनों कोष्ठकों को सही ढंग से खोलने के बाद x को अलग करते समय एक अंकगणितीय चूक।"
+        },
+        "b": {
+          "en": "Adds the constant term instead of subtracting it when moving it to the other side.",
+          "hi": "स्थिरांक पद को दूसरी ओर ले जाते समय घटाने के बजाय जोड़ देता है।"
+        },
+        "d": {
+          "en": "Off by one after an otherwise correct solution.",
+          "hi": "अन्यथा सही हल के बाद एक की चूक।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-algebra-twobracket-04",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Solve for x: 2(x + 4) − 1(x − 5) = 20",
+        "hi": "x के लिए हल करें: 2(x + 4) − 1(x − 5) = 20"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "9",
+            "hi": "9"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "33",
+            "hi": "33"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "6",
+            "hi": "6"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "7",
+            "hi": "7"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "Expanding: 2x + 8 − 1x − 5 = 20, so 1x + 13 = 20, giving 1x = 7, so x = 7.",
+        "hi": "विस्तार करने पर: 2x + 8 − 1x − 5 = 20, इसलिए 1x + 13 = 20, जिससे 1x = 7, अतः x = 7।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "An arithmetic slip while isolating x after correctly expanding both brackets.",
+          "hi": "दोनों कोष्ठकों को सही ढंग से खोलने के बाद x को अलग करते समय एक अंकगणितीय चूक।"
+        },
+        "b": {
+          "en": "Adds the constant term instead of subtracting it when moving it to the other side.",
+          "hi": "स्थिरांक पद को दूसरी ओर ले जाते समय घटाने के बजाय जोड़ देता है।"
+        },
+        "c": {
+          "en": "Off by one after an otherwise correct solution.",
+          "hi": "अन्यथा सही हल के बाद एक की चूक।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-algebra-twobracket-05",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Solve for x: 6(x + 1) − 3(x − 1) = 18",
+        "hi": "x के लिए हल करें: 6(x + 1) − 3(x − 1) = 18"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "3",
+            "hi": "3"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "5",
+            "hi": "5"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "9",
+            "hi": "9"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "2",
+            "hi": "2"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Expanding: 6x + 6 − 3x − 3 = 18, so 3x + 9 = 18, giving 3x = 9, so x = 3.",
+        "hi": "विस्तार करने पर: 6x + 6 − 3x − 3 = 18, इसलिए 3x + 9 = 18, जिससे 3x = 9, अतः x = 3।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "An arithmetic slip while isolating x after correctly expanding both brackets.",
+          "hi": "दोनों कोष्ठकों को सही ढंग से खोलने के बाद x को अलग करते समय एक अंकगणितीय चूक।"
+        },
+        "c": {
+          "en": "Adds the constant term instead of subtracting it when moving it to the other side.",
+          "hi": "स्थिरांक पद को दूसरी ओर ले जाते समय घटाने के बजाय जोड़ देता है।"
+        },
+        "d": {
+          "en": "Off by one after an otherwise correct solution.",
+          "hi": "अन्यथा सही हल के बाद एक की चूक।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-algebra-twobracket-06",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Solve for x: 3(x + 5) − 2(x − 3) = 29",
+        "hi": "x के लिए हल करें: 3(x + 5) − 2(x − 3) = 29"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "10",
+            "hi": "10"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "8",
+            "hi": "8"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "50",
+            "hi": "50"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "7",
+            "hi": "7"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Expanding: 3x + 15 − 2x − 6 = 29, so 1x + 21 = 29, giving 1x = 8, so x = 8.",
+        "hi": "विस्तार करने पर: 3x + 15 − 2x − 6 = 29, इसलिए 1x + 21 = 29, जिससे 1x = 8, अतः x = 8।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "An arithmetic slip while isolating x after correctly expanding both brackets.",
+          "hi": "दोनों कोष्ठकों को सही ढंग से खोलने के बाद x को अलग करते समय एक अंकगणितीय चूक।"
+        },
+        "c": {
+          "en": "Adds the constant term instead of subtracting it when moving it to the other side.",
+          "hi": "स्थिरांक पद को दूसरी ओर ले जाते समय घटाने के बजाय जोड़ देता है।"
+        },
+        "d": {
+          "en": "Off by one after an otherwise correct solution.",
+          "hi": "अन्यथा सही हल के बाद एक की चूक।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-algebra-twobracket-07",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Solve for x: 4(x + 2) − 3(x − 4) = 25",
+        "hi": "x के लिए हल करें: 4(x + 2) − 3(x − 4) = 25"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "7",
+            "hi": "7"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "45",
+            "hi": "45"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "5",
+            "hi": "5"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "4",
+            "hi": "4"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Expanding: 4x + 8 − 3x − 12 = 25, so 1x + 20 = 25, giving 1x = 5, so x = 5.",
+        "hi": "विस्तार करने पर: 4x + 8 − 3x − 12 = 25, इसलिए 1x + 20 = 25, जिससे 1x = 5, अतः x = 5।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "An arithmetic slip while isolating x after correctly expanding both brackets.",
+          "hi": "दोनों कोष्ठकों को सही ढंग से खोलने के बाद x को अलग करते समय एक अंकगणितीय चूक।"
+        },
+        "b": {
+          "en": "Adds the constant term instead of subtracting it when moving it to the other side.",
+          "hi": "स्थिरांक पद को दूसरी ओर ले जाते समय घटाने के बजाय जोड़ देता है।"
+        },
+        "d": {
+          "en": "Off by one after an otherwise correct solution.",
+          "hi": "अन्यथा सही हल के बाद एक की चूक।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-algebra-diffsquares-01",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Using the identity (a−b)(a+b) = a²−b², quickly find 47 × 53.",
+        "hi": "सर्वसमिका (a−b)(a+b) = a²−b² का उपयोग करके, शीघ्रता से 47 × 53 ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "2491",
+            "hi": "2491"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "2509",
+            "hi": "2509"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "2497",
+            "hi": "2497"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "2482",
+            "hi": "2482"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "47 = 50−3 and 53 = 50+3, so 47×53 = 50²−3² = 2500−9 = 2491.",
+        "hi": "47 = 50−3 और 53 = 50+3, इसलिए 47×53 = 50²−3² = 2500−9 = 2491।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Adds the squares instead of subtracting — uses a²+b² instead of a²−b².",
+          "hi": "घटाने के बजाय वर्गों को जोड़ देता है — a²−b² के बजाय a²+b² का उपयोग करता है।"
+        },
+        "c": {
+          "en": "Subtracts 3 directly instead of 3² from 50².",
+          "hi": "50² से 3² के बजाय सीधे 3 घटा देता है।"
+        },
+        "d": {
+          "en": "Doubles the deviation's square by mistake before subtracting.",
+          "hi": "घटाने से पहले गलती से विचलन के वर्ग को दोगुना कर देता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-algebra-diffsquares-02",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Using the identity (a−b)(a+b) = a²−b², quickly find 96 × 104.",
+        "hi": "सर्वसमिका (a−b)(a+b) = a²−b² का उपयोग करके, शीघ्रता से 96 × 104 ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "10016",
+            "hi": "10016"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "9984",
+            "hi": "9984"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "9996",
+            "hi": "9996"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "9968",
+            "hi": "9968"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "96 = 100−4 and 104 = 100+4, so 96×104 = 100²−4² = 10000−16 = 9984.",
+        "hi": "96 = 100−4 और 104 = 100+4, इसलिए 96×104 = 100²−4² = 10000−16 = 9984।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Adds the squares instead of subtracting — uses a²+b² instead of a²−b².",
+          "hi": "घटाने के बजाय वर्गों को जोड़ देता है — a²−b² के बजाय a²+b² का उपयोग करता है।"
+        },
+        "c": {
+          "en": "Subtracts 4 directly instead of 4² from 100².",
+          "hi": "100² से 4² के बजाय सीधे 4 घटा देता है।"
+        },
+        "d": {
+          "en": "Doubles the deviation's square by mistake before subtracting.",
+          "hi": "घटाने से पहले गलती से विचलन के वर्ग को दोगुना कर देता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-algebra-diffsquares-03",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Using the identity (a−b)(a+b) = a²−b², quickly find 38 × 42.",
+        "hi": "सर्वसमिका (a−b)(a+b) = a²−b² का उपयोग करके, शीघ्रता से 38 × 42 ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "1604",
+            "hi": "1604"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "1598",
+            "hi": "1598"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "1596",
+            "hi": "1596"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "1592",
+            "hi": "1592"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "38 = 40−2 and 42 = 40+2, so 38×42 = 40²−2² = 1600−4 = 1596.",
+        "hi": "38 = 40−2 और 42 = 40+2, इसलिए 38×42 = 40²−2² = 1600−4 = 1596।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Adds the squares instead of subtracting — uses a²+b² instead of a²−b².",
+          "hi": "घटाने के बजाय वर्गों को जोड़ देता है — a²−b² के बजाय a²+b² का उपयोग करता है।"
+        },
+        "b": {
+          "en": "Subtracts 2 directly instead of 2² from 40².",
+          "hi": "40² से 2² के बजाय सीधे 2 घटा देता है।"
+        },
+        "d": {
+          "en": "Doubles the deviation's square by mistake before subtracting.",
+          "hi": "घटाने से पहले गलती से विचलन के वर्ग को दोगुना कर देता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-algebra-diffsquares-04",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Using the identity (a−b)(a+b) = a²−b², quickly find 55 × 65.",
+        "hi": "सर्वसमिका (a−b)(a+b) = a²−b² का उपयोग करके, शीघ्रता से 55 × 65 ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "3625",
+            "hi": "3625"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "3595",
+            "hi": "3595"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "3550",
+            "hi": "3550"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "3575",
+            "hi": "3575"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "55 = 60−5 and 65 = 60+5, so 55×65 = 60²−5² = 3600−25 = 3575.",
+        "hi": "55 = 60−5 और 65 = 60+5, इसलिए 55×65 = 60²−5² = 3600−25 = 3575।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Adds the squares instead of subtracting — uses a²+b² instead of a²−b².",
+          "hi": "घटाने के बजाय वर्गों को जोड़ देता है — a²−b² के बजाय a²+b² का उपयोग करता है।"
+        },
+        "b": {
+          "en": "Subtracts 5 directly instead of 5² from 60².",
+          "hi": "60² से 5² के बजाय सीधे 5 घटा देता है।"
+        },
+        "c": {
+          "en": "Doubles the deviation's square by mistake before subtracting.",
+          "hi": "घटाने से पहले गलती से विचलन के वर्ग को दोगुना कर देता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-algebra-diffsquares-05",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Using the identity (a−b)(a+b) = a²−b², quickly find 194 × 206.",
+        "hi": "सर्वसमिका (a−b)(a+b) = a²−b² का उपयोग करके, शीघ्रता से 194 × 206 ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "39964",
+            "hi": "39964"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "40036",
+            "hi": "40036"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "39994",
+            "hi": "39994"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "39928",
+            "hi": "39928"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "194 = 200−6 and 206 = 200+6, so 194×206 = 200²−6² = 40000−36 = 39964.",
+        "hi": "194 = 200−6 और 206 = 200+6, इसलिए 194×206 = 200²−6² = 40000−36 = 39964।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Adds the squares instead of subtracting — uses a²+b² instead of a²−b².",
+          "hi": "घटाने के बजाय वर्गों को जोड़ देता है — a²−b² के बजाय a²+b² का उपयोग करता है।"
+        },
+        "c": {
+          "en": "Subtracts 6 directly instead of 6² from 200².",
+          "hi": "200² से 6² के बजाय सीधे 6 घटा देता है।"
+        },
+        "d": {
+          "en": "Doubles the deviation's square by mistake before subtracting.",
+          "hi": "घटाने से पहले गलती से विचलन के वर्ग को दोगुना कर देता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-algebra-diffsquares-06",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Using the identity (a−b)(a+b) = a²−b², quickly find 73 × 87.",
+        "hi": "सर्वसमिका (a−b)(a+b) = a²−b² का उपयोग करके, शीघ्रता से 73 × 87 ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "6449",
+            "hi": "6449"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "6351",
+            "hi": "6351"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "6393",
+            "hi": "6393"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "6302",
+            "hi": "6302"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "73 = 80−7 and 87 = 80+7, so 73×87 = 80²−7² = 6400−49 = 6351.",
+        "hi": "73 = 80−7 और 87 = 80+7, इसलिए 73×87 = 80²−7² = 6400−49 = 6351।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Adds the squares instead of subtracting — uses a²+b² instead of a²−b².",
+          "hi": "घटाने के बजाय वर्गों को जोड़ देता है — a²−b² के बजाय a²+b² का उपयोग करता है।"
+        },
+        "c": {
+          "en": "Subtracts 7 directly instead of 7² from 80².",
+          "hi": "80² से 7² के बजाय सीधे 7 घटा देता है।"
+        },
+        "d": {
+          "en": "Doubles the deviation's square by mistake before subtracting.",
+          "hi": "घटाने से पहले गलती से विचलन के वर्ग को दोगुना कर देता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-algebra-diffsquares-07",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Using the identity (a−b)(a+b) = a²−b², quickly find 26 × 34.",
+        "hi": "सर्वसमिका (a−b)(a+b) = a²−b² का उपयोग करके, शीघ्रता से 26 × 34 ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "916",
+            "hi": "916"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "896",
+            "hi": "896"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "884",
+            "hi": "884"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "868",
+            "hi": "868"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "26 = 30−4 and 34 = 30+4, so 26×34 = 30²−4² = 900−16 = 884.",
+        "hi": "26 = 30−4 और 34 = 30+4, इसलिए 26×34 = 30²−4² = 900−16 = 884।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Adds the squares instead of subtracting — uses a²+b² instead of a²−b².",
+          "hi": "घटाने के बजाय वर्गों को जोड़ देता है — a²−b² के बजाय a²+b² का उपयोग करता है।"
+        },
+        "b": {
+          "en": "Subtracts 4 directly instead of 4² from 30².",
+          "hi": "30² से 4² के बजाय सीधे 4 घटा देता है।"
+        },
+        "d": {
+          "en": "Doubles the deviation's square by mistake before subtracting.",
+          "hi": "घटाने से पहले गलती से विचलन के वर्ग को दोगुना कर देता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    },
+    {
+      "key": "bank-math9-algebra-diffsquares-08",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Using the identity (a−b)(a+b) = a²−b², quickly find 492 × 508.",
+        "hi": "सर्वसमिका (a−b)(a+b) = a²−b² का उपयोग करके, शीघ्रता से 492 × 508 ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "250064",
+            "hi": "250064"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "249992",
+            "hi": "249992"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "249872",
+            "hi": "249872"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "249936",
+            "hi": "249936"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "492 = 500−8 and 508 = 500+8, so 492×508 = 500²−8² = 250000−64 = 249936.",
+        "hi": "492 = 500−8 और 508 = 500+8, इसलिए 492×508 = 500²−8² = 250000−64 = 249936।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Adds the squares instead of subtracting — uses a²+b² instead of a²−b².",
+          "hi": "घटाने के बजाय वर्गों को जोड़ देता है — a²−b² के बजाय a²+b² का उपयोग करता है।"
+        },
+        "b": {
+          "en": "Subtracts 8 directly instead of 8² from 500².",
+          "hi": "500² से 8² के बजाय सीधे 8 घटा देता है।"
+        },
+        "c": {
+          "en": "Doubles the deviation's square by mistake before subtracting.",
+          "hi": "घटाने से पहले गलती से विचलन के वर्ग को दोगुना कर देता है।"
+        }
+      },
+      "targetClass": "CLASS_9"
+    }
+  ]
+}

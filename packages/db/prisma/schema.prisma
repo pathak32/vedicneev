@@ -47,6 +47,17 @@ enum ExamType {
   OTHER
 }
 
+// Grade-level classification for Topic/Question content — distinct from
+// User.targetClass (a raw Int grade like 5/6/8/9 for a student's own
+// profile) and from apps/web's client-side TargetClass type (5|6|8|9,
+// same student-profile concept). This enum only classifies which grade
+// band a practice topic/question was authored for, starting with the two
+// grades this content bank currently supports.
+enum ContentClassLevel {
+  CLASS_6
+  CLASS_9
+}
+
 enum Difficulty {
   EASY
   MEDIUM
@@ -286,6 +297,14 @@ model Topic {
   // same pattern as Question.figureMetadata/distractorAnalysis.
   targetExam ExamType? @map("target_exam")
 
+  // Null means CLASS_6 — every topic seeded before this field existed is
+  // Class 6 content, so null preserves that without a backfill migration
+  // (same nullable-means-legacy-default convention as targetExam above,
+  // except targetExam's null means "agnostic" while this null means "the
+  // one grade this schema originally supported"). Set to CLASS_9 for the
+  // Class 9 curriculum expansion's topics.
+  targetClass ContentClassLevel? @map("target_class")
+
   questions  Question[]
   mediaItems MediaItem[]
 
@@ -372,6 +391,12 @@ model Question {
   // the column exists at this granularity for exam-specific items that
   // might later live inside an otherwise-shared topic.
   targetExam ExamType? @map("target_exam")
+
+  // Same inherits-from-Topic convention as targetExam above: null means
+  // "use the owning Topic.targetClass" (itself null-means-CLASS_6 for
+  // legacy rows). Set directly only when a question needs to diverge from
+  // its own topic's grade tag.
+  targetClass ContentClassLevel? @map("target_class")
 
   // Base time allotment in seconds, used by the engine's timer math.
   timeLimitSeconds Int @default(60) @map("time_limit_seconds")
