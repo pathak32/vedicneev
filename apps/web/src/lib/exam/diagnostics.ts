@@ -63,6 +63,18 @@ export interface DiagnosticReport {
   mistakes: MistakeReport[];
   sectionBreakdown: GroupAccuracy[];
   topicBreakdown: TopicAccuracy[];
+  /** The weakest attempted topics (accuracy < 60%), ascending by accuracy, capped to 3 — surfaced as remedial practice recommendations. A topic never attempted isn't "weak", it's just unattempted, so it's excluded here. */
+  weakTopics: TopicAccuracy[];
+}
+
+const WEAK_TOPIC_ACCURACY_THRESHOLD = 60;
+const MAX_WEAK_TOPICS = 3;
+
+function buildWeakTopics(topicBreakdown: TopicAccuracy[]): TopicAccuracy[] {
+  return topicBreakdown
+    .filter((t) => t.attempted > 0 && t.accuracyPercent < WEAK_TOPIC_ACCURACY_THRESHOLD)
+    .sort((a, b) => a.accuracyPercent - b.accuracyPercent)
+    .slice(0, MAX_WEAK_TOPICS);
 }
 
 function buildGroupAccuracy(
@@ -204,5 +216,6 @@ export function buildDiagnosticReport(
     mistakes,
     sectionBreakdown,
     topicBreakdown,
+    weakTopics: buildWeakTopics(topicBreakdown),
   };
 }

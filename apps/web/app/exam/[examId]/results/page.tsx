@@ -14,6 +14,7 @@ import {
 import { ArrowLeft, MessageCircle, RotateCcw } from "lucide-react";
 
 import { MistakeVaultDrawer } from "@/components/analytics/MistakeVaultDrawer";
+import { RemedialRecommendations } from "@/components/analytics/RemedialRecommendations";
 import { ScoreHero, type CandidateProfile } from "@/components/analytics/ScoreHero";
 import { SectionBreakdown } from "@/components/analytics/SectionBreakdown";
 import { SpeedAccuracyMatrix } from "@/components/analytics/SpeedAccuracyMatrix";
@@ -98,10 +99,18 @@ export default function ExamResultsPage({ params }: { params: { examId: string }
         accuracyPercent: s.accuracyPercent,
       })),
     });
-    incrementFreeMockUsage(activeStudent.id);
+
+    // A topic-practice session (examId "topic-practice-<key>-<ts>", see
+    // topicPracticeService.ts) isn't a full-length mock attempt against any
+    // ExamTemplate — it must not burn the student's one free full-mock
+    // credit, and posting it to /api/exam/submit would only get
+    // miscategorized there (examTemplateSlug falls back to "any active
+    // template" when it can't match the slug, see that route's comments).
+    const isFullMockAttempt = !session.examId.startsWith("topic-practice-");
+    if (isFullMockAttempt) incrementFreeMockUsage(activeStudent.id);
 
     // Sync the completed test session and mistakes to Supabase
-    if (parent?.phone) {
+    if (isFullMockAttempt && parent?.phone) {
       fetch("/api/exam/submit", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -268,6 +277,8 @@ export default function ExamResultsPage({ params }: { params: { examId: string }
       <SpeedAccuracyMatrix reports={report.attemptedReports} language={language} />
 
       <SectionBreakdown sections={report.sectionBreakdown} topics={report.topicBreakdown} language={language} />
+
+      <RemedialRecommendations weakTopics={report.weakTopics} language={language} />
     </div>
   );
 }

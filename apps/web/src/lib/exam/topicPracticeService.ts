@@ -1,12 +1,10 @@
 import { prisma, type ExamType } from "@vedicneev/db";
 
-import { asMultilingual } from "./jnvstMockService";
+import { asExamOption, asFigureMetadata, asMultilingual } from "./questionHydration";
 import type {
-  ExamOption,
   ExamQuestion,
   ExamSectionConfig,
   ExamSessionData,
-  FigureMetadata,
   Multilingual,
   QuestionDifficulty,
   VedicSpeedHack,
@@ -52,27 +50,6 @@ export async function listPracticeTopics(targetExam?: string): Promise<PracticeT
       questionCount: t._count.questions,
       targetExam: t.targetExam,
     }));
-}
-
-/** Same defensive-validation reasoning as asMultilingual — Question.options is a `Json` column shaped `{ id, text?, imageUrl? }[]` (see packages/db/prisma/schema.prisma), not type-checked by Prisma. */
-function asExamOption(raw: unknown, context: string): ExamOption {
-  if (typeof raw !== "object" || raw === null || typeof (raw as Record<string, unknown>).id !== "string") {
-    throw new Error(`Expected an option with a string "id" for ${context}, got: ${JSON.stringify(raw)}`);
-  }
-  const o = raw as Record<string, unknown>;
-  const option: ExamOption = { id: o.id as string };
-  if (o.text !== undefined) option.text = asMultilingual(o.text, `${context} text`);
-  if (typeof o.imageUrl === "string") option.imageUrl = o.imageUrl;
-  return option;
-}
-
-/** Same reasoning — Question.figureMetadata is a `Json` column shaped `{ type: "svg"|"image", markup?, url?, transform? }` (see packages/db/prisma/schema.prisma), not type-checked by Prisma. */
-function asFigureMetadata(raw: unknown, context: string): FigureMetadata {
-  const type = typeof raw === "object" && raw !== null ? (raw as Record<string, unknown>).type : undefined;
-  if (type !== "svg" && type !== "image") {
-    throw new Error(`Expected figureMetadata with type "svg" or "image" for ${context}, got: ${JSON.stringify(raw)}`);
-  }
-  return raw as FigureMetadata;
 }
 
 /**

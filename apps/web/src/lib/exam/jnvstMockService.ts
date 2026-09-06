@@ -2,6 +2,7 @@ import { prisma } from "@vedicneev/db";
 import { assembleJnvstMock, type JnvstSectionKey, type PyqPoolItem, type SectionBlueprint } from "@vedicneev/engine";
 
 import type { ExamOption, ExamQuestion, ExamSectionConfig, ExamSessionData, ExamType, Multilingual, QuestionDifficulty } from "./types";
+import { asExamOption, asFigureMetadata, asMultilingual } from "./questionHydration";
 
 const JNVST_TEMPLATE_SLUG = "jnvst-class-6";
 const OPTION_IDS = ["a", "b", "c", "d"] as const;
@@ -12,8 +13,20 @@ export const LIVE_MOCK_TEMPLATE_SLUGS = [
   "jnvst-class-9",
   "aissee-class-9",
   "rms-class-9",
+  "aissee-class-6",
+  "rms-class-6",
 ] as const;
 export type LiveMockTemplateSlug = (typeof LIVE_MOCK_TEMPLATE_SLUGS)[number];
+
+/**
+ * Slugs whose full-length mock assembles from the real Question bank
+ * (packages/db/prisma/topic-seed/*) instead of the PreviousYearQuestion PYQ
+ * table. AISSEE/RMS Class 6 have no seeded PYQ content, but the Question
+ * bank already carries enough verified, exam-tagged content (see
+ * apps/web/src/lib/exam/topicPracticeService.ts's targetExam filtering) to
+ * assemble a complete paper — see assembleFromQuestionBank below.
+ */
+const QUESTION_BANK_MOCK_SLUGS = ["aissee-class-6", "rms-class-6"] as const;
 
 export function isLiveMockTemplateSlug(slug: string): slug is LiveMockTemplateSlug {
   return (LIVE_MOCK_TEMPLATE_SLUGS as readonly string[]).includes(slug);
@@ -74,19 +87,6 @@ export async function getJnvstClassSixBlueprint(): Promise<JnvstBlueprint | Jnvs
       timeLimitSeconds: s.timeLimitSeconds,
     })),
   };
-}
-
-/** Defensive runtime check — Prisma's `Json` columns are typed `JsonValue`, not `Multilingual`, so a malformed row (bad seed data, manual DB edit) fails loudly here instead of rendering as `undefined` deep inside the exam player. Exported for reuse by other session-assembly services reading the same `Json` columns (e.g. topicPracticeService.ts). */
-export function asMultilingual(value: unknown, context: string): Multilingual {
-  if (
-    typeof value === "object" &&
-    value !== null &&
-    "en" in value &&
-    typeof (value as Record<string, unknown>).en === "string"
-  ) {
-    return value as Multilingual;
-  }
-  throw new Error(`Expected multilingual JSON with an "en" key for ${context}, got: ${JSON.stringify(value)}`);
 }
 
 /**
@@ -228,6 +228,92 @@ export async function getExamBlueprint(slug: string): Promise<JnvstBlueprint | J
   };
 }
 
+/**
+ * Assembles a full-length mock from the real Question bank instead of the
+ * PreviousYearQuestion table — see QUESTION_BANK_MOCK_SLUGS above for why.
+ * Reuses assembleJnvstMock (packages/engine) unchanged: it only needs an
+ * {id, sectionKey} pool and a blueprint, so drawing from Question instead
+ * of PreviousYearQuestion needs no engine changes, only a different pool
+ * query and a different hydration step below. The pool is filtered to
+ * targetExam null-or-matching (never a different exam's exclusive
+ * content — the same boundary topicPracticeService.ts's catalog filtering
+ * already enforces), so a shortfall here (e.g. a section whose bank isn't
+ * deep enough yet) surfaces as assembleJnvstMock's normal non-fatal
+ * warning, never by borrowing another exam's questions to pad it out.
+ */
+async function assembleFromQuestionBank(
+  template: NonNullable<Awaited<ReturnType<typeof prisma.examTemplate.findUnique>>> & {
+    sections: { sectionId: string; order: number; timeLimitSeconds: number | null; section: { key: string; name: unknown } }[];
+  },
+  blueprint: SectionBlueprint[],
+  sectionKeyById: Map<string, JnvstSectionKey>
+): Promise<JnvstMockGenerationResult | JnvstMockGenerationError> {
+  const sectionIds = template.sections.map((s) => s.sectionId);
+  const pool = await prisma.question.findMany({
+    where: {
+      topic: { sectionId: { in: sectionIds } },
+      OR: [{ targetExam: null }, { targetExam: template.examType }],
+    },
+    select: { id: true, topic: { select: { key: true, sectionId: true } } },
+  });
+  const poolItems: PyqPoolItem[] = pool.map((q) => ({
+    id: q.id,
+    sectionKey: sectionKeyById.get(q.topic.sectionId) ?? template.sections[0]!.section.key,
+  }));
+
+  const assembled = assembleJnvstMock(poolItems, blueprint);
+  const drawnIds = assembled.sections.flatMap((s) => s.questionIds);
+  if (drawnIds.length === 0) {
+    return { error: `No verified question-bank content is available yet for "${template.slug}".` };
+  }
+
+  const drawnQuestions = await prisma.question.findMany({
+    where: { id: { in: drawnIds } },
+    include: { topic: true },
+  });
+
+  const questionsById: Record<string, ExamQuestion> = {};
+  for (const q of drawnQuestions) {
+    const sectionKey = sectionKeyById.get(q.topic.sectionId) ?? template.sections[0]!.section.key;
+    const rawOptions = q.options as unknown[];
+    questionsById[q.id] = {
+      id: q.id,
+      sectionKey,
+      topicKey: q.topic.key,
+      difficulty: q.difficulty as QuestionDifficulty,
+      content: asMultilingual(q.content, `Question ${q.key} content`),
+      options: rawOptions.map((o, idx) => asExamOption(o, `Question ${q.key} option ${idx}`)),
+      correctOption: q.correctOption,
+      figureMetadata: q.figureMetadata ? asFigureMetadata(q.figureMetadata, `Question ${q.key} figureMetadata`) : undefined,
+      vedicSpeedHackId: q.vedicSpeedHackId ?? null,
+      explanation: q.explanation ? asMultilingual(q.explanation, `Question ${q.key} explanation`) : null,
+      explanationVideoUrl: q.explanationVideoUrl ?? null,
+      timeLimitSeconds: q.timeLimitSeconds,
+    };
+  }
+
+  const sections: ExamSectionConfig[] = template.sections.map((s) => ({
+    key: s.section.key,
+    name: asMultilingual(s.section.name, `Section ${s.section.key} name`),
+    order: s.order,
+    timeLimitSeconds: s.timeLimitSeconds,
+    questionIds: assembled.sections.find((a) => a.sectionKey === s.section.key)?.questionIds ?? [],
+  }));
+
+  const session: ExamSessionData = {
+    examId: `${template.slug}-live-mock-${Date.now()}`,
+    examType: template.examType as ExamType,
+    templateName: asMultilingual(template.name, `ExamTemplate ${template.slug} name`),
+    totalDurationSeconds: template.durationMinutes * 60,
+    negativeMarkingRatio: template.negativeMarkingRatio,
+    sections,
+    questionsById,
+    speedHacksById: {},
+  };
+
+  return { session, warnings: assembled.warnings };
+}
+
 export async function generateLiveMockSession(slug: string): Promise<JnvstMockGenerationResult | JnvstMockGenerationError> {
   const template = await prisma.examTemplate.findUnique({
     where: { slug },
@@ -248,6 +334,10 @@ export async function generateLiveMockSession(slug: string): Promise<JnvstMockGe
     sectionKey: s.section.key,
     questionCount: s.questionCount,
   }));
+
+  if ((QUESTION_BANK_MOCK_SLUGS as readonly string[]).includes(slug)) {
+    return assembleFromQuestionBank(template, blueprint, sectionKeyById);
+  }
 
   const pool = await prisma.previousYearQuestion.findMany({
     where: {

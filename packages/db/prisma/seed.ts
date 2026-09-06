@@ -25,6 +25,7 @@ import { buildClassificationQuestions } from "./topic-seed/classification";
 import { buildNumberSeriesQuestions } from "./topic-seed/number-series";
 import { buildPatternCompletionQuestions } from "./topic-seed/pattern-completion";
 import { buildSpeedCalculationQuestions } from "./topic-seed/speed-calculation";
+import { buildGeneralArithmeticQuestions } from "./topic-seed/general-arithmetic";
 import type { GeneratedQuestion } from "./topic-seed/types";
 
 const prisma = new PrismaClient();
@@ -271,6 +272,20 @@ async function main() {
       name: { en: "Area, Perimeter & Volume", hi: "क्षेत्रफल, परिमाप एवं आयतन" },
       order: 5,
       targetExam: "JNVST",
+    },
+  });
+
+  // Exam-agnostic top-up (packages/db/prisma/topic-seed/general-arithmetic.ts)
+  // closing the AISSEE/RMS Class 6 Arithmetic-section shortfall — see that
+  // file's own comment for why.
+  const generalArithmetic = await prisma.topic.upsert({
+    where: { sectionId_key: { sectionId: arithmetic.id, key: "general_arithmetic" } },
+    update: {},
+    create: {
+      sectionId: arithmetic.id,
+      key: "general_arithmetic",
+      name: { en: "Averages, Ratio & Percentage", hi: "औसत, अनुपात एवं प्रतिशत" },
+      order: 6,
     },
   });
 
@@ -1285,6 +1300,7 @@ async function main() {
       verticallyCrosswise: hackVerticallyCrosswise.id,
     })
   );
+  const generalArithmeticPool = fromGenerated(generalArithmetic.id, buildGeneralArithmeticQuestions());
   const patternCompletionPool = fromGenerated(patternCompletion.id, buildPatternCompletionQuestions());
   // Classification is categorical, not arithmetic — every item is
   // hand-authored (packages/db/prisma/topic-seed/classification.ts), not
@@ -1353,6 +1369,7 @@ async function main() {
     ...class9Questions,
     ...numberSeriesPool,
     ...speedCalculationPool,
+    ...generalArithmeticPool,
     ...patternCompletionPool,
     ...classificationPool,
     ...grammarPool,
