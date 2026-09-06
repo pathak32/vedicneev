@@ -11,6 +11,7 @@
     "db:push": "prisma db push",
     "db:seed": "tsx prisma/seed.ts",
     "seed:jnvst-pyqs": "tsx prisma/seed-jnvst-pyqs.ts",
+    "seed:store": "tsx prisma/seed-store.ts",
     "publish:batch": "tsx prisma/publish-batch.ts",
     "studio": "prisma studio",
     "seed": "tsx prisma/seed.ts",

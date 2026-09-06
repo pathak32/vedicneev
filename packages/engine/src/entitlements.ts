@@ -192,3 +192,19 @@ export function checkMediaAccess(
 
   return deny("REQUIRES_ALL_ACCESS", ["VEDIC_ALL_ACCESS"]);
 }
+
+/**
+ * One-time digital product ownership (Product/Purchase — see
+ * schema.prisma's storefront models). Deliberately not shaped like
+ * AccessResult above: a product purchase is binary (own it or don't), with
+ * no upgrade-plan suggestion to make — that concept only applies to the
+ * tiered Subscription paywall.
+ */
+export interface ProductOwnershipRecord {
+  productId: string;
+  status: "PENDING" | "PAID" | "FAILED";
+}
+
+export function hasPurchasedProduct(purchases: ProductOwnershipRecord[], productId: string): boolean {
+  return purchases.some((p) => p.productId === productId && p.status === "PAID");
+}

@@ -34,7 +34,6 @@ export async function POST(request: Request) {
 
   try {
     const order = await createRazorpayOrder({
-      planId,
       amountInr: plan.priceInr,
       receipt: `${planId}_${Date.now()}`,
     });

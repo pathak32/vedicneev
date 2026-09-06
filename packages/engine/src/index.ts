@@ -11,3 +11,5 @@ export * from "./whatsappReport";
 export * from "./whatsappOtp";
 export * from "./jnvstMockAssembly";
 export * from "./random";
+export * from "./bootcamp";
+export * from "./storePricing";

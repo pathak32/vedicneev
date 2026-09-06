@@ -112,6 +112,25 @@ enum BlogPostStatus {
   PUBLISHED
 }
 
+enum ProductType {
+  MOCK_SERIES
+  QUESTION_BOOKLET
+  OMR_KIT
+  LIVE_BOOTCAMP
+  MEGA_BUNDLE
+}
+
+enum PromoDiscountType {
+  PERCENTAGE
+  FIXED
+}
+
+enum PurchaseStatus {
+  PENDING
+  PAID
+  FAILED
+}
+
 // ─────────────────────────────────────────────────────────────────────────
 // Identity
 // ─────────────────────────────────────────────────────────────────────────
@@ -143,6 +162,7 @@ model User {
   mistakes            MistakeVault[]
   subscriptions       Subscription[]
   offlineMockSessions OfflineMockSession[]
+  purchases           Purchase[]
 
   @@index([parentId])
   @@map("users")
@@ -201,6 +221,114 @@ model Subscription {
 
   @@index([parentId])
   @@map("subscriptions")
+}
+
+// ─────────────────────────────────────────────────────────────────────────
+// Storefront: one-time digital product purchases + influencer promo codes.
+// Deliberately separate from Subscription above — that's a recurring
+// plan-tier paywall (FREE_EXPLORER/EXAM_PASS/VEDIC_ALL_ACCESS), this is a
+// per-SKU one-time purchase (mock series, PDFs, OMR kits, bootcamp access),
+// so they're independent commercial concepts, not a fork of one another.
+// ─────────────────────────────────────────────────────────────────────────
+
+// A purchasable digital SKU (mock series, question booklet PDF, OMR kit,
+// 30-day live bootcamp, or the mega bundle). fileUrl follows the same
+// convention as MediaItem.videoUrl/OfflineMockSession.scannedImageUrl — a
+// plain pre-hosted URL (Supabase Storage or elsewhere), populated by
+// seeding/manual entry; there's no in-app upload pipeline in this project.
+model Product {
+  id          String @id @default(cuid())
+  // Bilingual, e.g. { "en": "...", "hi": "..." }
+  title       Json
+  description Json
+
+  // Null means every exam (mirrors how targetExam already means "agnostic"
+  // when null elsewhere in this schema, e.g. MediaItem.targetExams/Topic).
+  targetExam ExamType? @map("target_exam")
+  // Null means both Class 6 and Class 9 — the equivalent "universal" value
+  // for this field, since ContentClassLevel has no explicit BOTH member.
+  targetClass ContentClassLevel? @map("target_class")
+
+  productType ProductType @map("product_type")
+
+  // MRP shown struck through next to sellingPrice's anchor-priced discount.
+  displayPrice Float   @map("display_price")
+  sellingPrice Float   @map("selling_price")
+  fileUrl      String? @map("file_url")
+
+  isActive Boolean @default(true) @map("is_active")
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  purchases Purchase[]
+
+  @@index([productType])
+  @@map("products")
+}
+
+// An influencer's discount/affiliate-attribution code. usageCount only
+// increments on a confirmed PAID purchase (see /api/webhook/payment), never
+// on checkout attempt, so it always reflects real conversions.
+model PromoCode {
+  id             String            @id @default(cuid())
+  code           String            @unique
+  discountType   PromoDiscountType @map("discount_type")
+  // A percentage (0-100) for PERCENTAGE, or a flat INR amount for FIXED.
+  discountValue  Float             @map("discount_value")
+  influencerName String            @map("influencer_name")
+  // Revenue-share percentage owed to the influencer, e.g. 40.0 for 40%.
+  commissionRate Float             @map("commission_rate")
+  usageCount     Int               @default(0) @map("usage_count")
+  isActive       Boolean           @default(true) @map("is_active")
+
+  createdAt DateTime @default(now()) @map("created_at")
+
+  purchases Purchase[]
+
+  @@map("promo_codes")
+}
+
+// One product line in a checkout — a 1-click order-bump (e.g. adding the
+// OMR Kit to a Mock Series purchase) creates two Purchase rows sharing the
+// same razorpayOrderId, not a single multi-product row, since each SKU
+// needs its own entitlement/fulfillment record.
+//
+// razorpayOrderId/razorpayPaymentId aren't @unique, matching Subscription's
+// same documented tradeoff above (an optimistic app-level idempotency check
+// in the webhook handler, not a DB-enforced one) — see
+// app/api/webhook/payment/route.ts.
+model Purchase {
+  id String @id @default(cuid())
+
+  userId String @map("user_id")
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  productId String  @map("product_id")
+  product   Product @relation(fields: [productId], references: [id], onDelete: Restrict)
+
+  status     PurchaseStatus @default(PENDING)
+  amountPaid Float          @map("amount_paid")
+
+  promoCodeId String?    @map("promo_code_id")
+  promoCode   PromoCode? @relation(fields: [promoCodeId], references: [id], onDelete: SetNull)
+
+  razorpayOrderId   String? @map("razorpay_order_id")
+  razorpayPaymentId String? @map("razorpay_payment_id")
+
+  // LIVE_BOOTCAMP only: when the 30-day sprint's day-1 window started (set
+  // on first visit to the bootcamp card in /dashboard/library, not at
+  // purchase time, so a student who buys but starts a week later still
+  // gets a full 30 days). Null for every other productType.
+  bootcampStartedAt DateTime? @map("bootcamp_started_at")
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@index([userId])
+  @@index([productId])
+  @@index([razorpayOrderId])
+  @@map("purchases")
 }
 
 // ─────────────────────────────────────────────────────────────────────────
