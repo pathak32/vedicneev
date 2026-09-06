@@ -38,6 +38,11 @@ export function SiteHeader() {
           </Link>
         ) : null}
         {isAuthenticated ? (
+          <Link href="/practice" className="text-sm text-muted-foreground hover:text-foreground">
+            Practice
+          </Link>
+        ) : null}
+        {isAuthenticated ? (
           <Link href="/parent" className="text-sm text-muted-foreground hover:text-foreground">
             Parent Command Center
           </Link>

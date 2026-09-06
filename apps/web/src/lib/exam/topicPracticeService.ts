@@ -1,4 +1,4 @@
-import { prisma } from "@vedicneev/db";
+import { prisma, type ExamType } from "@vedicneev/db";
 
 import { asMultilingual } from "./jnvstMockService";
 import type {
@@ -7,12 +7,52 @@ import type {
   ExamSectionConfig,
   ExamSessionData,
   FigureMetadata,
+  Multilingual,
   QuestionDifficulty,
   VedicSpeedHack,
 } from "./types";
 
 export type TopicPracticeResult = { session: ExamSessionData };
 export type TopicPracticeError = { error: string };
+
+export interface PracticeTopicSummary {
+  key: string;
+  name: Multilingual;
+  sectionKey: string;
+  sectionName: Multilingual;
+  questionCount: number;
+  /** Null means exam-agnostic — shown to every student regardless of their chosen target exam. See Topic.targetExam. */
+  targetExam: string | null;
+}
+
+/**
+ * Lists every practice-able Topic (has at least one seeded Question),
+ * filtered by exam relevance: a topic with no targetExam is exam-agnostic
+ * and always included; a topic tagged for one exam is included only when
+ * it matches the caller's `targetExam`. Passing no `targetExam` (e.g. a
+ * signed-out visitor, or a student who hasn't set one) returns only the
+ * exam-agnostic topics — the safe default, never leaking an
+ * exam-restricted bank to the wrong audience. Read-only and
+ * side-effect-free.
+ */
+export async function listPracticeTopics(targetExam?: string): Promise<PracticeTopicSummary[]> {
+  const where = targetExam ? { OR: [{ targetExam: null }, { targetExam: targetExam as ExamType }] } : { targetExam: null };
+  const topics = await prisma.topic.findMany({
+    where,
+    include: { section: true, _count: { select: { questions: true } } },
+    orderBy: [{ section: { order: "asc" } }, { order: "asc" }],
+  });
+  return topics
+    .filter((t) => t._count.questions > 0)
+    .map((t) => ({
+      key: t.key,
+      name: asMultilingual(t.name, `Topic ${t.key} name`),
+      sectionKey: t.section.key,
+      sectionName: asMultilingual(t.section.name, `Section ${t.section.key} name`),
+      questionCount: t._count.questions,
+      targetExam: t.targetExam,
+    }));
+}
 
 /** Same defensive-validation reasoning as asMultilingual — Question.options is a `Json` column shaped `{ id, text?, imageUrl? }[]` (see packages/db/prisma/schema.prisma), not type-checked by Prisma. */
 function asExamOption(raw: unknown, context: string): ExamOption {
