@@ -1,5 +1,4 @@
 import {
-  calculatePercentile,
   calculateRawScore,
   calculateSpeedDeficit,
   classifyLatencyAccuracyBatch,
@@ -13,7 +12,6 @@ import {
 } from "@vedicneev/engine";
 
 import type { ExamQuestion, ExamSessionData, Multilingual } from "./types";
-import { SAMPLE_PERCENTILE_COHORT } from "./cutoff-data";
 import { TOPIC_NAMES } from "./mock-data";
 
 export interface AttemptedQuestionReport {
@@ -56,7 +54,6 @@ export interface DiagnosticReport {
   unattemptedCount: number;
   /** Accuracy among attempted questions only (correct / (correct + incorrect)). */
   accuracyPercent: number;
-  percentile: number;
   speedAccuracySummary: SpeedAccuracySummary;
   speedDeficit: SpeedDeficitSummary;
   attemptedReports: AttemptedQuestionReport[];
@@ -106,6 +103,13 @@ function buildGroupAccuracy(
 /**
  * Turns a finished exam session (from the Zustand test store) into the
  * full diagnostic report consumed by the results dashboard.
+ *
+ * Deliberately has no percentile field: a real peer percentile needs a
+ * live comparison cohort of other students' scores at this same exam
+ * template, which only exists server-side (see calculateRealPercentile in
+ * packages/engine/src/scoring.ts and its caller, POST /api/exam/submit) —
+ * this function is pure and client-local, so it can't compute one
+ * honestly. The results page fetches the real value separately.
  */
 export function buildDiagnosticReport(
   session: ExamSessionData,
@@ -177,11 +181,6 @@ export function buildDiagnosticReport(
   const speedDeficitInputs: SpeedDeficitInput[] = classified.map((c) => ({ ...c, marks: 1 }));
   const speedDeficit = calculateSpeedDeficit(speedDeficitInputs);
 
-  const percentile = calculatePercentile({
-    score: rawScoreResult.rawScore,
-    cohortScores: SAMPLE_PERCENTILE_COHORT,
-  });
-
   const sectionNameByKey = new Map(session.sections.map((s) => [s.key, s.name]));
   const sectionBreakdown = buildGroupAccuracy(
     allQuestions,
@@ -209,7 +208,6 @@ export function buildDiagnosticReport(
     incorrectCount: rawScoreResult.incorrectCount,
     unattemptedCount: rawScoreResult.unattemptedCount,
     accuracyPercent: attemptedCount > 0 ? (rawScoreResult.correctCount / attemptedCount) * 100 : 0,
-    percentile,
     speedAccuracySummary: summarizeSpeedAccuracy(classified),
     speedDeficit,
     attemptedReports,

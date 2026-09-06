@@ -12,7 +12,12 @@ export interface Feature {
  * aspirational copy. Keep this in sync with what the product actually does:
  *   - Speed/accuracy classification: packages/engine/src/diagnostics.ts
  *   - Vedic speed-math shortcuts: apps/web/src/lib/exam/mock-data.ts (speedHacks)
- *   - Admission Probability Meter: packages/engine/src/scoring.ts + cutoff-data.ts
+ *   - Peer percentile: packages/engine/src/scoring.ts's calculateRealPercentile,
+ *     computed server-side from real prior TestSession attempts — see POST
+ *     /api/exam/submit/route.ts. The admission-probability comparison
+ *     alongside it still runs on cutoff-data.ts's explicitly-labeled sample
+ *     data, not verified official cutoffs — don't claim otherwise here
+ *     until that's replaced with a sourced dataset.
  *   - OMR scan/grade: apps/web/src/lib/exam/omr-bridge.ts + components/omr
  */
 export const FEATURES: Feature[] = [
@@ -36,9 +41,9 @@ export const FEATURES: Feature[] = [
   },
   {
     icon: TrendingUp,
-    title: "Admission Probability Meter",
+    title: "Real Peer Percentile",
     description:
-      "Scores are checked against historical cutoffs by exam, state, locality, and reservation category, so a percentile turns into a real read on selection chances.",
+      "See exactly where a score ranks against other VedicNeev students who've taken the same mock — not a generic estimate, a live percentile computed from real attempts.",
   },
   {
     icon: ScanLine,

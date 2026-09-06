@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { Prisma, prisma } from "@vedicneev/db";
+import { calculateRealPercentile } from "@vedicneev/engine";
 
 export const dynamic = "force-dynamic";
 
@@ -18,7 +19,6 @@ interface SubmitRequestBody {
   examTemplateSlug?: string;
   totalScore?: number;
   maxScore?: number;
-  percentile?: number;
   timeTakenSeconds?: number;
   responses?: SubmitResponseItem[];
 }
@@ -66,7 +66,6 @@ export async function POST(req: Request) {
       examTemplateSlug = "demo-jnvst",
       totalScore = 0,
       maxScore = 0,
-      percentile = 0,
       timeTakenSeconds = 0,
       responses = [],
     } = parsed.body;
@@ -83,32 +82,62 @@ export async function POST(req: Request) {
       });
     }
 
-    // 2. Find template
-    const template = await prisma.examTemplate.findFirst({
-      where: {
-        OR: [{ slug: examTemplateSlug }, { slug: "demo-jnvst" }, { isActive: true }],
-      },
-    });
+    // 2. Find template. The client sends session.examId here, which for a
+    // live mock (see generateLiveMockSession in jnvstMockService.ts) is
+    // "<templateSlug>-live-mock-<timestamp>", not the bare template slug —
+    // strip that suffix to recover it. Previously this fell back to "any
+    // active template" (`{ isActive: true }` in an OR) whenever the raw,
+    // unstripped examId didn't match a slug exactly, which was every live
+    // mock submission: it silently attributed the session (and therefore
+    // its percentile comparison cohort) to an essentially arbitrary
+    // template instead of the real one. Two explicit, ordered lookups
+    // (real slug, then the legacy "demo-jnvst" fallback) replace that with
+    // either a correct match or a real 404 — never a wrong one.
+    const resolvedSlug = examTemplateSlug.replace(/-live-mock-\d+$/, "");
+    const template =
+      (await prisma.examTemplate.findFirst({ where: { slug: resolvedSlug, isActive: true } })) ??
+      (await prisma.examTemplate.findFirst({ where: { slug: "demo-jnvst", isActive: true } }));
 
     if (!template) {
       return NextResponse.json({ error: "No exam template found" }, { status: 404 });
     }
 
-    // 3. Create Test Session
+    // 3. Percentile is computed here, server-side, from real prior attempts
+    // at this same exam template — never trusted from the client (an
+    // earlier version of this route did exactly that, and the value it
+    // stored wasn't even a percentile — the results page was passing its
+    // own accuracy percentage under that name). Scores are normalized to a
+    // 0-100 percent-of-maxScore scale so the comparison holds even if
+    // maxScore ever differs across attempts, and calculateRealPercentile
+    // withholds a result below MIN_PERCENTILE_SAMPLE_SIZE prior attempts
+    // rather than return a falsely precise number.
+    const numericTotalScore = Number(totalScore);
+    const numericMaxScore = Number(maxScore);
+    const priorSessions = await prisma.testSession.findMany({
+      where: { examTemplateId: template.id, status: "SUBMITTED", maxScore: { gt: 0 } },
+      select: { totalScore: true, maxScore: true },
+    });
+    const cohortScorePercents = priorSessions
+      .filter((s): s is { totalScore: number; maxScore: number } => s.totalScore !== null && s.maxScore !== null)
+      .map((s) => (s.totalScore / s.maxScore) * 100);
+    const thisScorePercent = numericMaxScore > 0 ? (numericTotalScore / numericMaxScore) * 100 : 0;
+    const { percentile, sampleSize } = calculateRealPercentile(thisScorePercent, cohortScorePercents);
+
+    // 4. Create Test Session
     const session = await prisma.testSession.create({
       data: {
         userId: user.id,
         examTemplateId: template.id,
         status: "SUBMITTED",
         submittedAt: new Date(),
-        totalScore: Number(totalScore),
-        maxScore: Number(maxScore),
-        percentile: Number(percentile),
+        totalScore: numericTotalScore,
+        maxScore: numericMaxScore,
+        percentile,
         timeTakenSeconds: Number(timeTakenSeconds),
       },
     });
 
-    // 4. Load available seeded questions. TestResponse.questionId and
+    // 5. Load available seeded questions. TestResponse.questionId and
     // MistakeVault.questionId are both foreign keys to Question
     // specifically — writing an id from anywhere else violates the FK
     // constraint (Prisma P2003) and 500s the whole request. Two different
@@ -218,7 +247,7 @@ export async function POST(req: Request) {
       console.warn(`Exam submit: ${failed.length} response(s) failed to save due to database errors:`, failed);
     }
 
-    return NextResponse.json({ success: true, sessionId: session.id, skipped, failed });
+    return NextResponse.json({ success: true, sessionId: session.id, percentile, sampleSize, skipped, failed });
   } catch (error) {
     console.error("Exam submit error:", error);
 

@@ -63,7 +63,7 @@ export function ExamSummaryCard({ entry, accuracyTrend }: ExamSummaryCardProps) 
           <StatTile
             icon={<TrendingUp className="h-4 w-4" />}
             label="Percentile"
-            value={`${entry.percentile.toFixed(0)}th`}
+            value={entry.percentile !== null ? `${entry.percentile.toFixed(0)}th` : "—"}
           />
         </CardContent>
       </Card>

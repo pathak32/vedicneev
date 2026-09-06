@@ -84,6 +84,28 @@ export function calculatePercentile({ score, cohortScores }: PercentileInput): n
   return (below / cohortScores.length) * 100;
 }
 
+/** Below this many comparable prior attempts, a percentile is withheld rather than shown as a falsely precise number computed from too few data points. */
+export const MIN_PERCENTILE_SAMPLE_SIZE = 20;
+
+export interface RealPercentileResult {
+  /** Null when the comparison cohort has fewer than MIN_PERCENTILE_SAMPLE_SIZE prior attempts. */
+  percentile: number | null;
+  sampleSize: number;
+}
+
+/**
+ * Percentile rank among real prior attempts at the same exam template,
+ * normalized to a 0-100 score-percent scale so the comparison stays valid
+ * even if maxScore ever differs across attempts. Withholds a result below
+ * MIN_PERCENTILE_SAMPLE_SIZE prior attempts — a percentile computed from a
+ * handful of other test-takers is more misleading than no percentile at all.
+ */
+export function calculateRealPercentile(scorePercent: number, cohortScorePercents: number[]): RealPercentileResult {
+  const sampleSize = cohortScorePercents.length;
+  if (sampleSize < MIN_PERCENTILE_SAMPLE_SIZE) return { percentile: null, sampleSize };
+  return { percentile: calculatePercentile({ score: scorePercent, cohortScores: cohortScorePercents }), sampleSize };
+}
+
 export interface SectionScore {
   key: string;
   rawScore: number;

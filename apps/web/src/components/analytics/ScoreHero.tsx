@@ -1,7 +1,13 @@
 "use client";
 
 import { Badge, Card, CardContent, cn } from "@vedicneev/ui";
-import type { AdmissionProbabilityResult, CutoffCategory, CutoffExamType, CutoffLocality } from "@vedicneev/engine";
+import {
+  MIN_PERCENTILE_SAMPLE_SIZE,
+  type AdmissionProbabilityResult,
+  type CutoffCategory,
+  type CutoffExamType,
+  type CutoffLocality,
+} from "@vedicneev/engine";
 import { Award, Target, TrendingUp } from "lucide-react";
 
 import { CATEGORY_OPTIONS, LOCALITY_OPTIONS, SAMPLE_STATES } from "@/lib/exam/cutoff-data";
@@ -18,7 +24,10 @@ export interface ScoreHeroProps {
   totalMarks: number;
   maxMarks: number;
   accuracyPercent: number;
-  percentile: number;
+  /** Real percentile among other VedicNeev test-takers of this exam template — null while still loading, or when the comparison cohort is too small (see MIN_PERCENTILE_SAMPLE_SIZE). */
+  percentile: number | null;
+  /** Null while the percentile fetch is in flight; a number (possibly below MIN_PERCENTILE_SAMPLE_SIZE) once it resolves. */
+  percentileSampleSize: number | null;
   examType: CutoffExamType;
   profile: CandidateProfile;
   admissionProbability: AdmissionProbabilityResult;
@@ -50,12 +59,25 @@ function StatTile({
   );
 }
 
+function percentileTileValue(percentile: number | null, sampleSize: number | null): string {
+  if (sampleSize === null) return "…";
+  if (percentile === null) return "—";
+  return `${percentile.toFixed(0)}th`;
+}
+
+function percentileTileLabel(percentile: number | null, sampleSize: number | null): string {
+  if (sampleSize === null) return "Peer Percentile";
+  if (percentile === null) return `Peer Percentile (needs ${MIN_PERCENTILE_SAMPLE_SIZE}+ attempts, ${sampleSize} so far)`;
+  return `Peer Percentile (of ${sampleSize} test-takers)`;
+}
+
 export function ScoreHero({
   language,
   totalMarks,
   maxMarks,
   accuracyPercent,
   percentile,
+  percentileSampleSize,
   examType,
   profile,
   admissionProbability,
@@ -80,8 +102,8 @@ export function ScoreHero({
           />
           <StatTile
             icon={<TrendingUp className="h-5 w-5" />}
-            label="National Percentile"
-            value={`${percentile.toFixed(0)}th`}
+            label={percentileTileLabel(percentile, percentileSampleSize)}
+            value={percentileTileValue(percentile, percentileSampleSize)}
           />
         </div>
 

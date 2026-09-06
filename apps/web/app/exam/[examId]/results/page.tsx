@@ -52,6 +52,12 @@ export default function ExamResultsPage({ params }: { params: { examId: string }
   const mistakeVaultAccess = useMemo(() => checkMistakeVaultAccess(subscription), [subscription]);
   const recordedForRef = useRef<string | null>(null);
   const [autoDispatchResult, setAutoDispatchResult] = useState<DispatchResult | null>(null);
+  // sampleSize stays null until POST /api/exam/submit resolves — ScoreHero
+  // reads that as "still loading" rather than "not enough peer data yet".
+  const [percentileState, setPercentileState] = useState<{ percentile: number | null; sampleSize: number | null }>({
+    percentile: null,
+    sampleSize: null,
+  });
 
   const [examType, setExamType] = useState<CutoffExamType>("JNVST");
   const [profile, setProfile] = useState<CandidateProfile>({
@@ -78,85 +84,104 @@ export default function ExamResultsPage({ params }: { params: { examId: string }
   // Record this attempt against the active student once (guarded so re-renders / a
   // student switch mid-view don't double-count it), then fan out into the Mistake
   // Vault log and — if the parent opted in — an auto-dispatched WhatsApp scorecard.
+  // The real peer percentile is awaited from POST /api/exam/submit *before*
+  // recordTestResult, rather than fired-and-forgotten, so the persisted
+  // history entry stores the same real value the page displays — not a
+  // locally-guessed placeholder.
   useEffect(() => {
     if (!report || !activeStudent || !session || !submittedAt || !admissionProbability) return;
     const recordKey = `${session.examId}-${submittedAt}`;
     if (recordedForRef.current === recordKey) return;
     recordedForRef.current = recordKey;
 
-    const historyEntry = recordTestResult({
-      studentId: activeStudent.id,
-      examId: session.examId,
-      examName: session.templateName.en,
-      totalMarks: report.totalMarks,
-      maxMarks: report.maxMarks,
-      accuracyPercent: report.accuracyPercent,
-      percentile: report.percentile,
-      submittedAt,
-      sectionBreakdown: report.sectionBreakdown.map((s) => ({
-        sectionKey: s.key,
-        sectionName: s.name.en,
-        accuracyPercent: s.accuracyPercent,
-      })),
-    });
-
     // A topic-practice session (examId "topic-practice-<key>-<ts>", see
     // topicPracticeService.ts) isn't a full-length mock attempt against any
     // ExamTemplate — it must not burn the student's one free full-mock
     // credit, and posting it to /api/exam/submit would only get
     // miscategorized there (examTemplateSlug falls back to "any active
-    // template" when it can't match the slug, see that route's comments).
+    // template" when it can't match the slug, see that route's comments) —
+    // and a peer percentile is meaningless for it anyway.
     const isFullMockAttempt = !session.examId.startsWith("topic-practice-");
     if (isFullMockAttempt) incrementFreeMockUsage(activeStudent.id);
 
-    // Sync the completed test session and mistakes to Supabase
-    if (isFullMockAttempt && parent?.phone) {
-      fetch("/api/exam/submit", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          phone: parent.phone,
-          examTemplateSlug: session.examId,
-          totalScore: report.totalMarks,
-          maxScore: report.maxMarks,
-          percentile: report.accuracyPercent,
-          timeTakenSeconds: typeof timeSpentSeconds === "number" ? timeSpentSeconds : 0,
-          responses: report.mistakes.map((m) => ({
+    async function finalize() {
+      let percentile: number | null = null;
+
+      if (isFullMockAttempt && parent?.phone) {
+        try {
+          const res = await fetch("/api/exam/submit", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              phone: parent.phone,
+              examTemplateSlug: session!.examId,
+              totalScore: report!.totalMarks,
+              maxScore: report!.maxMarks,
+              timeTakenSeconds: typeof timeSpentSeconds === "number" ? timeSpentSeconds : 0,
+              responses: report!.mistakes.map((m) => ({
+                questionId: m.question.id,
+                isCorrect: false,
+                mistakeTag: m.mistakeTag,
+                timeSpentSeconds: 0,
+              })),
+            }),
+          });
+          const data = await res.json();
+          percentile = typeof data.percentile === "number" ? data.percentile : null;
+          setPercentileState({ percentile, sampleSize: typeof data.sampleSize === "number" ? data.sampleSize : 0 });
+        } catch (err) {
+          console.error("Failed to sync exam session to DB:", err);
+          setPercentileState({ percentile: null, sampleSize: 0 });
+        }
+      } else {
+        setPercentileState({ percentile: null, sampleSize: 0 });
+      }
+
+      const historyEntry = recordTestResult({
+        studentId: activeStudent!.id,
+        examId: session!.examId,
+        examName: session!.templateName.en,
+        totalMarks: report!.totalMarks,
+        maxMarks: report!.maxMarks,
+        accuracyPercent: report!.accuracyPercent,
+        percentile,
+        submittedAt: submittedAt!,
+        sectionBreakdown: report!.sectionBreakdown.map((s) => ({
+          sectionKey: s.key,
+          sectionName: s.name.en,
+          accuracyPercent: s.accuracyPercent,
+        })),
+      });
+
+      if (report!.mistakes.length > 0) {
+        logMistakes(
+          report!.mistakes.map((m) => ({
+            studentId: activeStudent!.id,
+            examId: session!.examId,
+            testHistoryEntryId: historyEntry.id,
             questionId: m.question.id,
-            isCorrect: false,
+            questionNumber: m.questionNumber,
+            selectedOption: m.selectedOption,
             mistakeTag: m.mistakeTag,
-            timeSpentSeconds: 0,
-          })),
-        }),
-      }).catch((err) => console.error("Failed to sync exam session to DB:", err));
+            createdAt: submittedAt!,
+          }))
+        );
+      }
+
+      if (notificationPreferences.instantScorecard && parent?.phone) {
+        const reportUrl = typeof window !== "undefined" ? window.location.href : "";
+        const payload = formatWhatsAppDiagnosticPayload(
+          buildDiagnosticReportForWhatsApp(report!, admissionProbability!, reportUrl),
+          studentToWhatsAppProfile(activeStudent!),
+          parent.phone
+        );
+        dispatchWhatsAppReport(payload.payload)
+          .then(setAutoDispatchResult)
+          .catch(() => setAutoDispatchResult({ success: false, mock: false, messageId: null, error: "Network error." }));
+      }
     }
 
-    if (report.mistakes.length > 0) {
-      logMistakes(
-        report.mistakes.map((m) => ({
-          studentId: activeStudent.id,
-          examId: session.examId,
-          testHistoryEntryId: historyEntry.id,
-          questionId: m.question.id,
-          questionNumber: m.questionNumber,
-          selectedOption: m.selectedOption,
-          mistakeTag: m.mistakeTag,
-          createdAt: submittedAt,
-        }))
-      );
-    }
-
-    if (notificationPreferences.instantScorecard && parent?.phone) {
-      const reportUrl = typeof window !== "undefined" ? window.location.href : "";
-      const payload = formatWhatsAppDiagnosticPayload(
-        buildDiagnosticReportForWhatsApp(report, admissionProbability, reportUrl),
-        studentToWhatsAppProfile(activeStudent),
-        parent.phone
-      );
-      dispatchWhatsAppReport(payload.payload)
-        .then(setAutoDispatchResult)
-        .catch(() => setAutoDispatchResult({ success: false, mock: false, messageId: null, error: "Network error." }));
-    }
+    void finalize();
   }, [
     report,
     activeStudent,
@@ -266,7 +291,8 @@ export default function ExamResultsPage({ params }: { params: { examId: string }
         totalMarks={report.totalMarks}
         maxMarks={report.maxMarks}
         accuracyPercent={report.accuracyPercent}
-        percentile={report.percentile}
+        percentile={percentileState.percentile}
+        percentileSampleSize={percentileState.sampleSize}
         examType={examType}
         profile={profile}
         admissionProbability={admissionProbability}

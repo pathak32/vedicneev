@@ -39,13 +39,3 @@ export const LOCALITY_OPTIONS: { value: CutoffLocality; label: string }[] = [
   { value: "RURAL", label: "Rural" },
   { value: "URBAN", label: "Urban" },
 ];
-
-/**
- * ILLUSTRATIVE synthetic cohort of raw scores (out of the demo's 14
- * questions) standing in for real aggregated TestSession results, so the
- * "national percentile" figure has a distribution to compare against.
- */
-export const SAMPLE_PERCENTILE_COHORT: number[] = [
-  1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 8, 9, 9, 9, 10, 10,
-  10, 11, 11, 12, 12, 13, 3, 4, 5, 6, 7, 8, 9, 2, 6, 7, 5, 4,
-];

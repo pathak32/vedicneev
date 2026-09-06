@@ -42,8 +42,8 @@ export interface TestHistoryEntry {
   totalMarks: number;
   maxMarks: number;
   accuracyPercent: number;
-  /** Snapshotted at submission time (see DiagnosticReport.percentile) — the cohort itself isn't stored, so this can't be recomputed later. */
-  percentile: number;
+  /** Real percentile among other VedicNeev test-takers of this exam template, computed server-side at submission time (see calculateRealPercentile in packages/engine/src/scoring.ts) — null when that attempt wasn't a full mock (e.g. topic practice) or the comparison cohort was too small. */
+  percentile: number | null;
   submittedAt: number;
   /** Snapshotted at submission time, so the Parent Command Center can chart section trends across attempts. */
   sectionBreakdown: SectionAccuracySnapshot[];

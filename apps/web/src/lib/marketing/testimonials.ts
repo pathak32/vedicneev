@@ -33,7 +33,7 @@ export const SAMPLE_TESTIMONIALS: Testimonial[] = [
   },
   {
     quote:
-      "I liked seeing the admission probability against real cutoff data for our state and category instead of a generic percentile — it made the prep feel targeted instead of guesswork.",
+      "I liked seeing exactly where my son's score actually ranked against other kids taking the same mock, instead of a generic score with no context — it made the prep feel targeted instead of guesswork.",
     name: "A parent",
     role: "RMS aspirant",
     initials: "P",
