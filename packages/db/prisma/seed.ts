@@ -15,6 +15,12 @@ import mirrorImagingAudit from "./topic-seed/audit/mirror-imaging.json";
 import waterImagingAudit from "./topic-seed/audit/water-imaging.json";
 import punchedHolePatternAudit from "./topic-seed/audit/punched-hole-pattern.json";
 import embeddedFiguresAudit from "./topic-seed/audit/embedded-figures.json";
+import factorsHcfLcmAudit from "./topic-seed/audit/factors-hcf-lcm.json";
+import fractionsDecimalsAudit from "./topic-seed/audit/fractions-decimals.json";
+import profitLossInterestAudit from "./topic-seed/audit/profit-loss-interest.json";
+import areaPerimeterVolumeAudit from "./topic-seed/audit/area-perimeter-volume.json";
+import sainikSchoolGkAudit from "./topic-seed/audit/sainik-school-gk.json";
+import rmsCurrentAffairsAudit from "./topic-seed/audit/rms-current-affairs.json";
 import { buildClassificationQuestions } from "./topic-seed/classification";
 import { buildNumberSeriesQuestions } from "./topic-seed/number-series";
 import { buildPatternCompletionQuestions } from "./topic-seed/pattern-completion";
@@ -217,6 +223,57 @@ async function main() {
     },
   });
 
+  // JNVST Arithmetic pillars — computed pools (packages/db/prisma/topic-seed/
+  // factors-hcf-lcm.ts, fractions-decimals.ts, profit-loss-interest.ts,
+  // area-perimeter-volume.ts), each targetExam-tagged "JNVST".
+  const factorsHcfLcm = await prisma.topic.upsert({
+    where: { sectionId_key: { sectionId: arithmetic.id, key: "factors_hcf_lcm" } },
+    update: {},
+    create: {
+      sectionId: arithmetic.id,
+      key: "factors_hcf_lcm",
+      name: { en: "Factors, HCF & LCM", hi: "गुणनखंड, HCF एवं LCM" },
+      order: 2,
+      targetExam: "JNVST",
+    },
+  });
+
+  const fractionsDecimals = await prisma.topic.upsert({
+    where: { sectionId_key: { sectionId: arithmetic.id, key: "fractions_decimals" } },
+    update: {},
+    create: {
+      sectionId: arithmetic.id,
+      key: "fractions_decimals",
+      name: { en: "Fractions & Decimals", hi: "भिन्न एवं दशमलव" },
+      order: 3,
+      targetExam: "JNVST",
+    },
+  });
+
+  const profitLossInterest = await prisma.topic.upsert({
+    where: { sectionId_key: { sectionId: arithmetic.id, key: "profit_loss_interest" } },
+    update: {},
+    create: {
+      sectionId: arithmetic.id,
+      key: "profit_loss_interest",
+      name: { en: "Profit, Loss & Simple Interest", hi: "लाभ, हानि एवं साधारण ब्याज" },
+      order: 4,
+      targetExam: "JNVST",
+    },
+  });
+
+  const areaPerimeterVolume = await prisma.topic.upsert({
+    where: { sectionId_key: { sectionId: arithmetic.id, key: "area_perimeter_volume" } },
+    update: {},
+    create: {
+      sectionId: arithmetic.id,
+      key: "area_perimeter_volume",
+      name: { en: "Area, Perimeter & Volume", hi: "क्षेत्रफल, परिमाप एवं आयतन" },
+      order: 5,
+      targetExam: "JNVST",
+    },
+  });
+
   const grammar = await prisma.topic.upsert({
     where: { sectionId_key: { sectionId: language.id, key: "grammar" } },
     update: {},
@@ -236,6 +293,35 @@ async function main() {
       key: "general_awareness",
       name: { en: "General Awareness", hi: "सामान्य जागरूकता" },
       order: 1,
+    },
+  });
+
+  // AISSEE (Sainik School) and RMS General Knowledge / Current Affairs —
+  // agent-drafted, independently verified (packages/db/prisma/topic-seed/
+  // audit/sainik-school-gk.json, rms-current-affairs.json), each
+  // targetExam-tagged so the other exam's students never see it even
+  // though both live under the same shared "general_knowledge" section.
+  const sainikSchoolGk = await prisma.topic.upsert({
+    where: { sectionId_key: { sectionId: generalKnowledge.id, key: "sainik_school_gk" } },
+    update: {},
+    create: {
+      sectionId: generalKnowledge.id,
+      key: "sainik_school_gk",
+      name: { en: "Sainik School GK", hi: "सैनिक स्कूल सामान्य ज्ञान" },
+      order: 2,
+      targetExam: "AISSEE",
+    },
+  });
+
+  const rmsCurrentAffairs = await prisma.topic.upsert({
+    where: { sectionId_key: { sectionId: generalKnowledge.id, key: "rms_current_affairs" } },
+    update: {},
+    create: {
+      sectionId: generalKnowledge.id,
+      key: "rms_current_affairs",
+      name: { en: "RMS Current Affairs", hi: "आरएमएस समसामयिकी" },
+      order: 3,
+      targetExam: "RMS",
     },
   });
 
@@ -646,6 +732,8 @@ async function main() {
     distractorAnalysis?: Prisma.InputJsonValue;
     /** Inline-SVG diagram for visual/non-verbal reasoning question stems — see Question.figureMetadata. */
     figureMetadata?: Prisma.InputJsonValue;
+    /** Restricts this question to one exam track — see Question.targetExam. */
+    targetExam?: ExamType;
   }
 
   /** Adapts a topic-seed/*.ts generator's output (packages/db/prisma/topic-seed/types.ts) into this file's QuestionSeed shape. */
@@ -661,6 +749,7 @@ async function main() {
       explanation: q.explanation as unknown as Prisma.InputJsonValue,
       distractorAnalysis: q.distractorAnalysis as unknown as Prisma.InputJsonValue,
       figureMetadata: q.figureMetadata as unknown as Prisma.InputJsonValue | undefined,
+      targetExam: q.targetExam as unknown as ExamType | undefined,
     }));
   }
 
@@ -1240,6 +1329,23 @@ async function main() {
   const punchedHolePatternPool = fromGenerated(punchedHolePattern.id, loadAuditQuestions(punchedHolePatternAudit as unknown as AuditFile));
   const embeddedFiguresPool = fromGenerated(embeddedFigures.id, loadAuditQuestions(embeddedFiguresAudit as unknown as AuditFile));
 
+  // JNVST Arithmetic pillars + AISSEE/RMS GK-Current-Affairs — same
+  // audit + loadAuditQuestions defense-in-depth as the pools above.
+  // Every question in these 6 pools carries targetExam (see
+  // packages/db/prisma/topic-seed/factors-hcf-lcm.ts, fractions-decimals.ts,
+  // profit-loss-interest.ts, area-perimeter-volume.ts — computed; and
+  // audit/sainik-school-gk.json, rms-current-affairs.json — agent-drafted,
+  // independently re-verified before export).
+  const factorsHcfLcmPool = fromGenerated(factorsHcfLcm.id, loadAuditQuestions(factorsHcfLcmAudit as unknown as AuditFile));
+  const fractionsDecimalsPool = fromGenerated(fractionsDecimals.id, loadAuditQuestions(fractionsDecimalsAudit as unknown as AuditFile));
+  const profitLossInterestPool = fromGenerated(profitLossInterest.id, loadAuditQuestions(profitLossInterestAudit as unknown as AuditFile));
+  const areaPerimeterVolumePool = fromGenerated(
+    areaPerimeterVolume.id,
+    loadAuditQuestions(areaPerimeterVolumeAudit as unknown as AuditFile)
+  );
+  const sainikSchoolGkPool = fromGenerated(sainikSchoolGk.id, loadAuditQuestions(sainikSchoolGkAudit as unknown as AuditFile));
+  const rmsCurrentAffairsPool = fromGenerated(rmsCurrentAffairs.id, loadAuditQuestions(rmsCurrentAffairsAudit as unknown as AuditFile));
+
   const allQuestions = [
     ...mentalAbilityQuestions,
     ...arithmeticQuestions,
@@ -1262,6 +1368,12 @@ async function main() {
     ...waterImagingPool,
     ...punchedHolePatternPool,
     ...embeddedFiguresPool,
+    ...factorsHcfLcmPool,
+    ...fractionsDecimalsPool,
+    ...profitLossInterestPool,
+    ...areaPerimeterVolumePool,
+    ...sainikSchoolGkPool,
+    ...rmsCurrentAffairsPool,
   ];
 
   let newQuestionCount = 0;
@@ -1278,6 +1390,7 @@ async function main() {
         explanation: q.explanation,
         distractorAnalysis: q.distractorAnalysis ?? Prisma.JsonNull,
         figureMetadata: q.figureMetadata ?? Prisma.JsonNull,
+        targetExam: q.targetExam ?? null,
       },
       create: q,
     });

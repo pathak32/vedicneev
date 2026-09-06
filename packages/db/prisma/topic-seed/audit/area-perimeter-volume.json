@@ -1,0 +1,2327 @@
+{
+  "section": "area_perimeter_volume",
+  "topicKey": "area_perimeter_volume",
+  "generatedAt": "2026-09-05T15:38:16.676Z",
+  "questions": [
+    {
+      "key": "bank-ar-apv-perimeter-01",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Find the perimeter of a rectangle with length 10 units and width 6 units.",
+        "hi": "10 इकाई लंबाई और 6 इकाई चौड़ाई वाले आयत का परिमाप ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "32 units",
+            "hi": "32 units"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "60 units",
+            "hi": "60 units"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "16 units",
+            "hi": "16 units"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "36 units",
+            "hi": "36 units"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Perimeter = 2 × (length + width) = 2 × (10 + 6) = 2 × 16 = 32 units.",
+        "hi": "परिमाप = 2 × (लंबाई + चौड़ाई) = 2 × (10 + 6) = 2 × 16 = 32 इकाई।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "This is the AREA (length × width), not the perimeter.",
+          "hi": "यह क्षेत्रफल (लंबाई × चौड़ाई) है, परिमाप नहीं।"
+        },
+        "c": {
+          "en": "Adds length and width once, but forgets that a rectangle has TWO of each side.",
+          "hi": "लंबाई और चौड़ाई को एक बार जोड़ता है, पर भूल जाता है कि आयत में प्रत्येक भुजा दो-दो होती हैं।"
+        },
+        "d": {
+          "en": "Off by a small amount — an arithmetic slip in the final calculation.",
+          "hi": "थोड़ी सी चूक — अंतिम गणना में एक अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-apv-perimeter-02",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Find the perimeter of a square with length 8 units and width 8 units.",
+        "hi": "8 इकाई लंबाई और 8 इकाई चौड़ाई वाले वर्ग का परिमाप ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "64 units",
+            "hi": "64 units"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "32 units",
+            "hi": "32 units"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "16 units",
+            "hi": "16 units"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "36 units",
+            "hi": "36 units"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Perimeter = 2 × (length + width) = 2 × (8 + 8) = 2 × 16 = 32 units.",
+        "hi": "परिमाप = 2 × (लंबाई + चौड़ाई) = 2 × (8 + 8) = 2 × 16 = 32 इकाई।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This is the AREA (length × width), not the perimeter.",
+          "hi": "यह क्षेत्रफल (लंबाई × चौड़ाई) है, परिमाप नहीं।"
+        },
+        "c": {
+          "en": "Adds length and width once, but forgets that a rectangle has TWO of each side.",
+          "hi": "लंबाई और चौड़ाई को एक बार जोड़ता है, पर भूल जाता है कि आयत में प्रत्येक भुजा दो-दो होती हैं।"
+        },
+        "d": {
+          "en": "Off by a small amount — an arithmetic slip in the final calculation.",
+          "hi": "थोड़ी सी चूक — अंतिम गणना में एक अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-apv-perimeter-03",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Find the perimeter of a rectangle with length 15 units and width 9 units.",
+        "hi": "15 इकाई लंबाई और 9 इकाई चौड़ाई वाले आयत का परिमाप ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "135 units",
+            "hi": "135 units"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "24 units",
+            "hi": "24 units"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "48 units",
+            "hi": "48 units"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "52 units",
+            "hi": "52 units"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Perimeter = 2 × (length + width) = 2 × (15 + 9) = 2 × 24 = 48 units.",
+        "hi": "परिमाप = 2 × (लंबाई + चौड़ाई) = 2 × (15 + 9) = 2 × 24 = 48 इकाई।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This is the AREA (length × width), not the perimeter.",
+          "hi": "यह क्षेत्रफल (लंबाई × चौड़ाई) है, परिमाप नहीं।"
+        },
+        "b": {
+          "en": "Adds length and width once, but forgets that a rectangle has TWO of each side.",
+          "hi": "लंबाई और चौड़ाई को एक बार जोड़ता है, पर भूल जाता है कि आयत में प्रत्येक भुजा दो-दो होती हैं।"
+        },
+        "d": {
+          "en": "Off by a small amount — an arithmetic slip in the final calculation.",
+          "hi": "थोड़ी सी चूक — अंतिम गणना में एक अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-apv-perimeter-04",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Find the perimeter of a square with length 12 units and width 12 units.",
+        "hi": "12 इकाई लंबाई और 12 इकाई चौड़ाई वाले वर्ग का परिमाप ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "144 units",
+            "hi": "144 units"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "24 units",
+            "hi": "24 units"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "52 units",
+            "hi": "52 units"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "48 units",
+            "hi": "48 units"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "Perimeter = 2 × (length + width) = 2 × (12 + 12) = 2 × 24 = 48 units.",
+        "hi": "परिमाप = 2 × (लंबाई + चौड़ाई) = 2 × (12 + 12) = 2 × 24 = 48 इकाई।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This is the AREA (length × width), not the perimeter.",
+          "hi": "यह क्षेत्रफल (लंबाई × चौड़ाई) है, परिमाप नहीं।"
+        },
+        "b": {
+          "en": "Adds length and width once, but forgets that a rectangle has TWO of each side.",
+          "hi": "लंबाई और चौड़ाई को एक बार जोड़ता है, पर भूल जाता है कि आयत में प्रत्येक भुजा दो-दो होती हैं।"
+        },
+        "c": {
+          "en": "Off by a small amount — an arithmetic slip in the final calculation.",
+          "hi": "थोड़ी सी चूक — अंतिम गणना में एक अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-apv-perimeter-05",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Find the perimeter of a rectangle with length 20 units and width 14 units.",
+        "hi": "20 इकाई लंबाई और 14 इकाई चौड़ाई वाले आयत का परिमाप ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "68 units",
+            "hi": "68 units"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "280 units",
+            "hi": "280 units"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "34 units",
+            "hi": "34 units"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "72 units",
+            "hi": "72 units"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Perimeter = 2 × (length + width) = 2 × (20 + 14) = 2 × 34 = 68 units.",
+        "hi": "परिमाप = 2 × (लंबाई + चौड़ाई) = 2 × (20 + 14) = 2 × 34 = 68 इकाई।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "This is the AREA (length × width), not the perimeter.",
+          "hi": "यह क्षेत्रफल (लंबाई × चौड़ाई) है, परिमाप नहीं।"
+        },
+        "c": {
+          "en": "Adds length and width once, but forgets that a rectangle has TWO of each side.",
+          "hi": "लंबाई और चौड़ाई को एक बार जोड़ता है, पर भूल जाता है कि आयत में प्रत्येक भुजा दो-दो होती हैं।"
+        },
+        "d": {
+          "en": "Off by a small amount — an arithmetic slip in the final calculation.",
+          "hi": "थोड़ी सी चूक — अंतिम गणना में एक अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-apv-perimeter-06",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Find the perimeter of a square with length 7 units and width 7 units.",
+        "hi": "7 इकाई लंबाई और 7 इकाई चौड़ाई वाले वर्ग का परिमाप ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "49 units",
+            "hi": "49 units"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "28 units",
+            "hi": "28 units"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "14 units",
+            "hi": "14 units"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "32 units",
+            "hi": "32 units"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Perimeter = 2 × (length + width) = 2 × (7 + 7) = 2 × 14 = 28 units.",
+        "hi": "परिमाप = 2 × (लंबाई + चौड़ाई) = 2 × (7 + 7) = 2 × 14 = 28 इकाई।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This is the AREA (length × width), not the perimeter.",
+          "hi": "यह क्षेत्रफल (लंबाई × चौड़ाई) है, परिमाप नहीं।"
+        },
+        "c": {
+          "en": "Adds length and width once, but forgets that a rectangle has TWO of each side.",
+          "hi": "लंबाई और चौड़ाई को एक बार जोड़ता है, पर भूल जाता है कि आयत में प्रत्येक भुजा दो-दो होती हैं।"
+        },
+        "d": {
+          "en": "Off by a small amount — an arithmetic slip in the final calculation.",
+          "hi": "थोड़ी सी चूक — अंतिम गणना में एक अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-apv-perimeter-07",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Find the perimeter of a rectangle with length 18 units and width 11 units.",
+        "hi": "18 इकाई लंबाई और 11 इकाई चौड़ाई वाले आयत का परिमाप ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "198 units",
+            "hi": "198 units"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "29 units",
+            "hi": "29 units"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "58 units",
+            "hi": "58 units"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "62 units",
+            "hi": "62 units"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Perimeter = 2 × (length + width) = 2 × (18 + 11) = 2 × 29 = 58 units.",
+        "hi": "परिमाप = 2 × (लंबाई + चौड़ाई) = 2 × (18 + 11) = 2 × 29 = 58 इकाई।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This is the AREA (length × width), not the perimeter.",
+          "hi": "यह क्षेत्रफल (लंबाई × चौड़ाई) है, परिमाप नहीं।"
+        },
+        "b": {
+          "en": "Adds length and width once, but forgets that a rectangle has TWO of each side.",
+          "hi": "लंबाई और चौड़ाई को एक बार जोड़ता है, पर भूल जाता है कि आयत में प्रत्येक भुजा दो-दो होती हैं।"
+        },
+        "d": {
+          "en": "Off by a small amount — an arithmetic slip in the final calculation.",
+          "hi": "थोड़ी सी चूक — अंतिम गणना में एक अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-apv-perimeter-08",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Find the perimeter of a rectangle with length 25 units and width 16 units.",
+        "hi": "25 इकाई लंबाई और 16 इकाई चौड़ाई वाले आयत का परिमाप ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "400 units",
+            "hi": "400 units"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "41 units",
+            "hi": "41 units"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "86 units",
+            "hi": "86 units"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "82 units",
+            "hi": "82 units"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "Perimeter = 2 × (length + width) = 2 × (25 + 16) = 2 × 41 = 82 units.",
+        "hi": "परिमाप = 2 × (लंबाई + चौड़ाई) = 2 × (25 + 16) = 2 × 41 = 82 इकाई।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This is the AREA (length × width), not the perimeter.",
+          "hi": "यह क्षेत्रफल (लंबाई × चौड़ाई) है, परिमाप नहीं।"
+        },
+        "b": {
+          "en": "Adds length and width once, but forgets that a rectangle has TWO of each side.",
+          "hi": "लंबाई और चौड़ाई को एक बार जोड़ता है, पर भूल जाता है कि आयत में प्रत्येक भुजा दो-दो होती हैं।"
+        },
+        "c": {
+          "en": "Off by a small amount — an arithmetic slip in the final calculation.",
+          "hi": "थोड़ी सी चूक — अंतिम गणना में एक अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-apv-perimeter-09",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Find the perimeter of a square with length 9 units and width 9 units.",
+        "hi": "9 इकाई लंबाई और 9 इकाई चौड़ाई वाले वर्ग का परिमाप ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "36 units",
+            "hi": "36 units"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "81 units",
+            "hi": "81 units"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "18 units",
+            "hi": "18 units"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "40 units",
+            "hi": "40 units"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Perimeter = 2 × (length + width) = 2 × (9 + 9) = 2 × 18 = 36 units.",
+        "hi": "परिमाप = 2 × (लंबाई + चौड़ाई) = 2 × (9 + 9) = 2 × 18 = 36 इकाई।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "This is the AREA (length × width), not the perimeter.",
+          "hi": "यह क्षेत्रफल (लंबाई × चौड़ाई) है, परिमाप नहीं।"
+        },
+        "c": {
+          "en": "Adds length and width once, but forgets that a rectangle has TWO of each side.",
+          "hi": "लंबाई और चौड़ाई को एक बार जोड़ता है, पर भूल जाता है कि आयत में प्रत्येक भुजा दो-दो होती हैं।"
+        },
+        "d": {
+          "en": "Off by a small amount — an arithmetic slip in the final calculation.",
+          "hi": "थोड़ी सी चूक — अंतिम गणना में एक अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-apv-perimeter-10",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Find the perimeter of a rectangle with length 22 units and width 13 units.",
+        "hi": "22 इकाई लंबाई और 13 इकाई चौड़ाई वाले आयत का परिमाप ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "286 units",
+            "hi": "286 units"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "70 units",
+            "hi": "70 units"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "35 units",
+            "hi": "35 units"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "74 units",
+            "hi": "74 units"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Perimeter = 2 × (length + width) = 2 × (22 + 13) = 2 × 35 = 70 units.",
+        "hi": "परिमाप = 2 × (लंबाई + चौड़ाई) = 2 × (22 + 13) = 2 × 35 = 70 इकाई।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This is the AREA (length × width), not the perimeter.",
+          "hi": "यह क्षेत्रफल (लंबाई × चौड़ाई) है, परिमाप नहीं।"
+        },
+        "c": {
+          "en": "Adds length and width once, but forgets that a rectangle has TWO of each side.",
+          "hi": "लंबाई और चौड़ाई को एक बार जोड़ता है, पर भूल जाता है कि आयत में प्रत्येक भुजा दो-दो होती हैं।"
+        },
+        "d": {
+          "en": "Off by a small amount — an arithmetic slip in the final calculation.",
+          "hi": "थोड़ी सी चूक — अंतिम गणना में एक अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-apv-arearect-01",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Find the area of a rectangle with length 12 units and width 7 units.",
+        "hi": "12 इकाई लंबाई और 7 इकाई चौड़ाई वाले आयत का क्षेत्रफल ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "38 sq. units",
+            "hi": "38 sq. units"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "84 sq. units",
+            "hi": "84 sq. units"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "19 sq. units",
+            "hi": "19 sq. units"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "96 sq. units",
+            "hi": "96 sq. units"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Area = length × width = 12 × 7 = 84 sq. units.",
+        "hi": "क्षेत्रफल = लंबाई × चौड़ाई = 12 × 7 = 84 वर्ग इकाई।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This is the PERIMETER (2 × (length + width)), not the area.",
+          "hi": "यह परिमाप (2 × (लंबाई + चौड़ाई)) है, क्षेत्रफल नहीं।"
+        },
+        "c": {
+          "en": "Just adds length and width instead of multiplying them.",
+          "hi": "लंबाई और चौड़ाई को गुणा करने के बजाय बस जोड़ देता है।"
+        },
+        "d": {
+          "en": "Off by a small amount — an arithmetic slip in the final calculation.",
+          "hi": "थोड़ी सी चूक — अंतिम गणना में एक अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-apv-arearect-02",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Find the area of a square with length 9 units and width 9 units.",
+        "hi": "9 इकाई लंबाई और 9 इकाई चौड़ाई वाले वर्ग का क्षेत्रफल ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "36 sq. units",
+            "hi": "36 sq. units"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "18 sq. units",
+            "hi": "18 sq. units"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "81 sq. units",
+            "hi": "81 sq. units"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "90 sq. units",
+            "hi": "90 sq. units"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Area = length × width = 9 × 9 = 81 sq. units.",
+        "hi": "क्षेत्रफल = लंबाई × चौड़ाई = 9 × 9 = 81 वर्ग इकाई।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This is the PERIMETER (2 × (length + width)), not the area.",
+          "hi": "यह परिमाप (2 × (लंबाई + चौड़ाई)) है, क्षेत्रफल नहीं।"
+        },
+        "b": {
+          "en": "Just adds length and width instead of multiplying them.",
+          "hi": "लंबाई और चौड़ाई को गुणा करने के बजाय बस जोड़ देता है।"
+        },
+        "d": {
+          "en": "Off by a small amount — an arithmetic slip in the final calculation.",
+          "hi": "थोड़ी सी चूक — अंतिम गणना में एक अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-apv-arearect-03",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Find the area of a rectangle with length 16 units and width 10 units.",
+        "hi": "16 इकाई लंबाई और 10 इकाई चौड़ाई वाले आयत का क्षेत्रफल ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "52 sq. units",
+            "hi": "52 sq. units"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "26 sq. units",
+            "hi": "26 sq. units"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "176 sq. units",
+            "hi": "176 sq. units"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "160 sq. units",
+            "hi": "160 sq. units"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "Area = length × width = 16 × 10 = 160 sq. units.",
+        "hi": "क्षेत्रफल = लंबाई × चौड़ाई = 16 × 10 = 160 वर्ग इकाई।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This is the PERIMETER (2 × (length + width)), not the area.",
+          "hi": "यह परिमाप (2 × (लंबाई + चौड़ाई)) है, क्षेत्रफल नहीं।"
+        },
+        "b": {
+          "en": "Just adds length and width instead of multiplying them.",
+          "hi": "लंबाई और चौड़ाई को गुणा करने के बजाय बस जोड़ देता है।"
+        },
+        "c": {
+          "en": "Off by a small amount — an arithmetic slip in the final calculation.",
+          "hi": "थोड़ी सी चूक — अंतिम गणना में एक अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-apv-arearect-04",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Find the area of a square with length 14 units and width 14 units.",
+        "hi": "14 इकाई लंबाई और 14 इकाई चौड़ाई वाले वर्ग का क्षेत्रफल ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "196 sq. units",
+            "hi": "196 sq. units"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "56 sq. units",
+            "hi": "56 sq. units"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "28 sq. units",
+            "hi": "28 sq. units"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "210 sq. units",
+            "hi": "210 sq. units"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Area = length × width = 14 × 14 = 196 sq. units.",
+        "hi": "क्षेत्रफल = लंबाई × चौड़ाई = 14 × 14 = 196 वर्ग इकाई।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "This is the PERIMETER (2 × (length + width)), not the area.",
+          "hi": "यह परिमाप (2 × (लंबाई + चौड़ाई)) है, क्षेत्रफल नहीं।"
+        },
+        "c": {
+          "en": "Just adds length and width instead of multiplying them.",
+          "hi": "लंबाई और चौड़ाई को गुणा करने के बजाय बस जोड़ देता है।"
+        },
+        "d": {
+          "en": "Off by a small amount — an arithmetic slip in the final calculation.",
+          "hi": "थोड़ी सी चूक — अंतिम गणना में एक अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-apv-arearect-05",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Find the area of a rectangle with length 20 units and width 8 units.",
+        "hi": "20 इकाई लंबाई और 8 इकाई चौड़ाई वाले आयत का क्षेत्रफल ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "56 sq. units",
+            "hi": "56 sq. units"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "160 sq. units",
+            "hi": "160 sq. units"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "28 sq. units",
+            "hi": "28 sq. units"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "180 sq. units",
+            "hi": "180 sq. units"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Area = length × width = 20 × 8 = 160 sq. units.",
+        "hi": "क्षेत्रफल = लंबाई × चौड़ाई = 20 × 8 = 160 वर्ग इकाई।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This is the PERIMETER (2 × (length + width)), not the area.",
+          "hi": "यह परिमाप (2 × (लंबाई + चौड़ाई)) है, क्षेत्रफल नहीं।"
+        },
+        "c": {
+          "en": "Just adds length and width instead of multiplying them.",
+          "hi": "लंबाई और चौड़ाई को गुणा करने के बजाय बस जोड़ देता है।"
+        },
+        "d": {
+          "en": "Off by a small amount — an arithmetic slip in the final calculation.",
+          "hi": "थोड़ी सी चूक — अंतिम गणना में एक अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-apv-areatriangle-01",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Find the area of a triangle with base 10 units and height 8 units.",
+        "hi": "10 इकाई आधार और 8 इकाई ऊँचाई वाले त्रिभुज का क्षेत्रफल ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "80 sq. units",
+            "hi": "80 sq. units"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "9 sq. units",
+            "hi": "9 sq. units"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "40 sq. units",
+            "hi": "40 sq. units"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "45 sq. units",
+            "hi": "45 sq. units"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Area = ½ × base × height = ½ × 10 × 8 = 40 sq. units.",
+        "hi": "क्षेत्रफल = ½ × आधार × ऊँचाई = ½ × 10 × 8 = 40 वर्ग इकाई।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Forgets to divide by 2 — this is base × height, the area of a rectangle with the same base and height, not a triangle.",
+          "hi": "2 से भाग देना भूल जाता है — यह आधार × ऊँचाई है, समान आधार और ऊँचाई वाले आयत का क्षेत्रफल, त्रिभुज का नहीं।"
+        },
+        "b": {
+          "en": "Averages the base and height instead of using the triangle area formula.",
+          "hi": "त्रिभुज क्षेत्रफल सूत्र का उपयोग करने के बजाय आधार और ऊँचाई का औसत निकाल लेता है।"
+        },
+        "d": {
+          "en": "Off by a small amount — an arithmetic slip in the final calculation.",
+          "hi": "थोड़ी सी चूक — अंतिम गणना में एक अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-apv-areatriangle-02",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Find the area of a triangle with base 14 units and height 6 units.",
+        "hi": "14 इकाई आधार और 6 इकाई ऊँचाई वाले त्रिभुज का क्षेत्रफल ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "84 sq. units",
+            "hi": "84 sq. units"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "10 sq. units",
+            "hi": "10 sq. units"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "49 sq. units",
+            "hi": "49 sq. units"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "42 sq. units",
+            "hi": "42 sq. units"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "Area = ½ × base × height = ½ × 14 × 6 = 42 sq. units.",
+        "hi": "क्षेत्रफल = ½ × आधार × ऊँचाई = ½ × 14 × 6 = 42 वर्ग इकाई।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Forgets to divide by 2 — this is base × height, the area of a rectangle with the same base and height, not a triangle.",
+          "hi": "2 से भाग देना भूल जाता है — यह आधार × ऊँचाई है, समान आधार और ऊँचाई वाले आयत का क्षेत्रफल, त्रिभुज का नहीं।"
+        },
+        "b": {
+          "en": "Averages the base and height instead of using the triangle area formula.",
+          "hi": "त्रिभुज क्षेत्रफल सूत्र का उपयोग करने के बजाय आधार और ऊँचाई का औसत निकाल लेता है।"
+        },
+        "c": {
+          "en": "Off by a small amount — an arithmetic slip in the final calculation.",
+          "hi": "थोड़ी सी चूक — अंतिम गणना में एक अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-apv-areatriangle-03",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Find the area of a triangle with base 12 units and height 9 units.",
+        "hi": "12 इकाई आधार और 9 इकाई ऊँचाई वाले त्रिभुज का क्षेत्रफल ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "54 sq. units",
+            "hi": "54 sq. units"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "108 sq. units",
+            "hi": "108 sq. units"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "10.5 sq. units",
+            "hi": "10.5 sq. units"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "60 sq. units",
+            "hi": "60 sq. units"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Area = ½ × base × height = ½ × 12 × 9 = 54 sq. units.",
+        "hi": "क्षेत्रफल = ½ × आधार × ऊँचाई = ½ × 12 × 9 = 54 वर्ग इकाई।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Forgets to divide by 2 — this is base × height, the area of a rectangle with the same base and height, not a triangle.",
+          "hi": "2 से भाग देना भूल जाता है — यह आधार × ऊँचाई है, समान आधार और ऊँचाई वाले आयत का क्षेत्रफल, त्रिभुज का नहीं।"
+        },
+        "c": {
+          "en": "Averages the base and height instead of using the triangle area formula.",
+          "hi": "त्रिभुज क्षेत्रफल सूत्र का उपयोग करने के बजाय आधार और ऊँचाई का औसत निकाल लेता है।"
+        },
+        "d": {
+          "en": "Off by a small amount — an arithmetic slip in the final calculation.",
+          "hi": "थोड़ी सी चूक — अंतिम गणना में एक अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-apv-areatriangle-04",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Find the area of a triangle with base 16 units and height 5 units.",
+        "hi": "16 इकाई आधार और 5 इकाई ऊँचाई वाले त्रिभुज का क्षेत्रफल ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "80 sq. units",
+            "hi": "80 sq. units"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "40 sq. units",
+            "hi": "40 sq. units"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "10.5 sq. units",
+            "hi": "10.5 sq. units"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "48 sq. units",
+            "hi": "48 sq. units"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Area = ½ × base × height = ½ × 16 × 5 = 40 sq. units.",
+        "hi": "क्षेत्रफल = ½ × आधार × ऊँचाई = ½ × 16 × 5 = 40 वर्ग इकाई।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Forgets to divide by 2 — this is base × height, the area of a rectangle with the same base and height, not a triangle.",
+          "hi": "2 से भाग देना भूल जाता है — यह आधार × ऊँचाई है, समान आधार और ऊँचाई वाले आयत का क्षेत्रफल, त्रिभुज का नहीं।"
+        },
+        "c": {
+          "en": "Averages the base and height instead of using the triangle area formula.",
+          "hi": "त्रिभुज क्षेत्रफल सूत्र का उपयोग करने के बजाय आधार और ऊँचाई का औसत निकाल लेता है।"
+        },
+        "d": {
+          "en": "Off by a small amount — an arithmetic slip in the final calculation.",
+          "hi": "थोड़ी सी चूक — अंतिम गणना में एक अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-apv-areatriangle-05",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Find the area of a triangle with base 20 units and height 7 units.",
+        "hi": "20 इकाई आधार और 7 इकाई ऊँचाई वाले त्रिभुज का क्षेत्रफल ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "140 sq. units",
+            "hi": "140 sq. units"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "13.5 sq. units",
+            "hi": "13.5 sq. units"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "70 sq. units",
+            "hi": "70 sq. units"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "80 sq. units",
+            "hi": "80 sq. units"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Area = ½ × base × height = ½ × 20 × 7 = 70 sq. units.",
+        "hi": "क्षेत्रफल = ½ × आधार × ऊँचाई = ½ × 20 × 7 = 70 वर्ग इकाई।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Forgets to divide by 2 — this is base × height, the area of a rectangle with the same base and height, not a triangle.",
+          "hi": "2 से भाग देना भूल जाता है — यह आधार × ऊँचाई है, समान आधार और ऊँचाई वाले आयत का क्षेत्रफल, त्रिभुज का नहीं।"
+        },
+        "b": {
+          "en": "Averages the base and height instead of using the triangle area formula.",
+          "hi": "त्रिभुज क्षेत्रफल सूत्र का उपयोग करने के बजाय आधार और ऊँचाई का औसत निकाल लेता है।"
+        },
+        "d": {
+          "en": "Off by a small amount — an arithmetic slip in the final calculation.",
+          "hi": "थोड़ी सी चूक — अंतिम गणना में एक अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-apv-circumference-01",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Find the circumference of a circle with radius 7 units. (Use π = 22/7)",
+        "hi": "7 इकाई त्रिज्या वाले वृत्त की परिधि ज्ञात करें। (π = 22/7 का उपयोग करें)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "44 units",
+            "hi": "44 units"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "154 units",
+            "hi": "154 units"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "43.96 units",
+            "hi": "43.96 units"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "58 units",
+            "hi": "58 units"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Circumference = 2 × π × r = 2 × 22/7 × 7 = 44 units.",
+        "hi": "परिधि = 2 × π × r = 2 × 22/7 × 7 = 44 इकाई।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "This is the formula for AREA (π × r²), not circumference.",
+          "hi": "यह क्षेत्रफल का सूत्र है (π × r²), परिधि का नहीं।"
+        },
+        "c": {
+          "en": "Uses 3.14 for π instead of 22/7 — close, but not the exact value expected here.",
+          "hi": "π के लिए 22/7 के बजाय 3.14 का उपयोग करता है — करीब है, पर यहाँ अपेक्षित सटीक मान नहीं।"
+        },
+        "d": {
+          "en": "Forgets to double the result — uses π × r instead of 2 × π × r.",
+          "hi": "परिणाम को दोगुना करना भूल जाता है — 2 × π × r के बजाय केवल π × r का उपयोग करता है।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-apv-circumference-02",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Find the circumference of a circle with radius 14 units. (Use π = 22/7)",
+        "hi": "14 इकाई त्रिज्या वाले वृत्त की परिधि ज्ञात करें। (π = 22/7 का उपयोग करें)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "616 units",
+            "hi": "616 units"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "88 units",
+            "hi": "88 units"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "87.92 units",
+            "hi": "87.92 units"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "116 units",
+            "hi": "116 units"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Circumference = 2 × π × r = 2 × 22/7 × 14 = 88 units.",
+        "hi": "परिधि = 2 × π × r = 2 × 22/7 × 14 = 88 इकाई।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This is the formula for AREA (π × r²), not circumference.",
+          "hi": "यह क्षेत्रफल का सूत्र है (π × r²), परिधि का नहीं।"
+        },
+        "c": {
+          "en": "Uses 3.14 for π instead of 22/7 — close, but not the exact value expected here.",
+          "hi": "π के लिए 22/7 के बजाय 3.14 का उपयोग करता है — करीब है, पर यहाँ अपेक्षित सटीक मान नहीं।"
+        },
+        "d": {
+          "en": "Forgets to double the result — uses π × r instead of 2 × π × r.",
+          "hi": "परिणाम को दोगुना करना भूल जाता है — 2 × π × r के बजाय केवल π × r का उपयोग करता है।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-apv-circumference-03",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Find the circumference of a circle with radius 21 units. (Use π = 22/7)",
+        "hi": "21 इकाई त्रिज्या वाले वृत्त की परिधि ज्ञात करें। (π = 22/7 का उपयोग करें)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "1386 units",
+            "hi": "1386 units"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "131.88 units",
+            "hi": "131.88 units"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "132 units",
+            "hi": "132 units"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "174 units",
+            "hi": "174 units"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Circumference = 2 × π × r = 2 × 22/7 × 21 = 132 units.",
+        "hi": "परिधि = 2 × π × r = 2 × 22/7 × 21 = 132 इकाई।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This is the formula for AREA (π × r²), not circumference.",
+          "hi": "यह क्षेत्रफल का सूत्र है (π × r²), परिधि का नहीं।"
+        },
+        "b": {
+          "en": "Uses 3.14 for π instead of 22/7 — close, but not the exact value expected here.",
+          "hi": "π के लिए 22/7 के बजाय 3.14 का उपयोग करता है — करीब है, पर यहाँ अपेक्षित सटीक मान नहीं।"
+        },
+        "d": {
+          "en": "Forgets to double the result — uses π × r instead of 2 × π × r.",
+          "hi": "परिणाम को दोगुना करना भूल जाता है — 2 × π × r के बजाय केवल π × r का उपयोग करता है।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-apv-circumference-04",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Find the circumference of a circle with radius 28 units. (Use π = 22/7)",
+        "hi": "28 इकाई त्रिज्या वाले वृत्त की परिधि ज्ञात करें। (π = 22/7 का उपयोग करें)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "2464 units",
+            "hi": "2464 units"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "175.84 units",
+            "hi": "175.84 units"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "232 units",
+            "hi": "232 units"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "176 units",
+            "hi": "176 units"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "Circumference = 2 × π × r = 2 × 22/7 × 28 = 176 units.",
+        "hi": "परिधि = 2 × π × r = 2 × 22/7 × 28 = 176 इकाई।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This is the formula for AREA (π × r²), not circumference.",
+          "hi": "यह क्षेत्रफल का सूत्र है (π × r²), परिधि का नहीं।"
+        },
+        "b": {
+          "en": "Uses 3.14 for π instead of 22/7 — close, but not the exact value expected here.",
+          "hi": "π के लिए 22/7 के बजाय 3.14 का उपयोग करता है — करीब है, पर यहाँ अपेक्षित सटीक मान नहीं।"
+        },
+        "c": {
+          "en": "Forgets to double the result — uses π × r instead of 2 × π × r.",
+          "hi": "परिणाम को दोगुना करना भूल जाता है — 2 × π × r के बजाय केवल π × r का उपयोग करता है।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-apv-circumference-05",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Find the circumference of a circle with radius 35 units. (Use π = 22/7)",
+        "hi": "35 इकाई त्रिज्या वाले वृत्त की परिधि ज्ञात करें। (π = 22/7 का उपयोग करें)"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "220 units",
+            "hi": "220 units"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "3850 units",
+            "hi": "3850 units"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "219.8 units",
+            "hi": "219.8 units"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "290 units",
+            "hi": "290 units"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Circumference = 2 × π × r = 2 × 22/7 × 35 = 220 units.",
+        "hi": "परिधि = 2 × π × r = 2 × 22/7 × 35 = 220 इकाई।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "This is the formula for AREA (π × r²), not circumference.",
+          "hi": "यह क्षेत्रफल का सूत्र है (π × r²), परिधि का नहीं।"
+        },
+        "c": {
+          "en": "Uses 3.14 for π instead of 22/7 — close, but not the exact value expected here.",
+          "hi": "π के लिए 22/7 के बजाय 3.14 का उपयोग करता है — करीब है, पर यहाँ अपेक्षित सटीक मान नहीं।"
+        },
+        "d": {
+          "en": "Forgets to double the result — uses π × r instead of 2 × π × r.",
+          "hi": "परिणाम को दोगुना करना भूल जाता है — 2 × π × r के बजाय केवल π × r का उपयोग करता है।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-apv-volumecuboid-01",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Find the volume of a cuboid with length 10, width 6, and height 4 units.",
+        "hi": "10 लंबाई, 6 चौड़ाई, और 4 ऊँचाई (इकाई में) वाले घनाभ का आयतन ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "248 cu. units",
+            "hi": "248 cu. units"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "240 cu. units",
+            "hi": "240 cu. units"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "60 cu. units",
+            "hi": "60 cu. units"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "300 cu. units",
+            "hi": "300 cu. units"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Volume = length × width × height = 10 × 6 × 4 = 240 cu. units.",
+        "hi": "आयतन = लंबाई × चौड़ाई × ऊँचाई = 10 × 6 × 4 = 240 घन इकाई।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This is the SURFACE AREA formula (2 × (lw + wh + hl)), not the volume.",
+          "hi": "यह पृष्ठीय क्षेत्रफल का सूत्र है (2 × (lw + wh + hl)), आयतन का नहीं।"
+        },
+        "c": {
+          "en": "Only multiplies two of the three dimensions, forgetting the height entirely.",
+          "hi": "तीन में से केवल दो विमाओं को गुणा करता है, ऊँचाई को पूरी तरह भूल जाता है।"
+        },
+        "d": {
+          "en": "Off by one extra layer — an arithmetic slip in the final multiplication.",
+          "hi": "एक अतिरिक्त परत की चूक — अंतिम गुणा में एक अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-apv-volumecuboid-02",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Find the volume of a cuboid with length 12, width 8, and height 5 units.",
+        "hi": "12 लंबाई, 8 चौड़ाई, और 5 ऊँचाई (इकाई में) वाले घनाभ का आयतन ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "392 cu. units",
+            "hi": "392 cu. units"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "96 cu. units",
+            "hi": "96 cu. units"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "480 cu. units",
+            "hi": "480 cu. units"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "576 cu. units",
+            "hi": "576 cu. units"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Volume = length × width × height = 12 × 8 × 5 = 480 cu. units.",
+        "hi": "आयतन = लंबाई × चौड़ाई × ऊँचाई = 12 × 8 × 5 = 480 घन इकाई।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This is the SURFACE AREA formula (2 × (lw + wh + hl)), not the volume.",
+          "hi": "यह पृष्ठीय क्षेत्रफल का सूत्र है (2 × (lw + wh + hl)), आयतन का नहीं।"
+        },
+        "b": {
+          "en": "Only multiplies two of the three dimensions, forgetting the height entirely.",
+          "hi": "तीन में से केवल दो विमाओं को गुणा करता है, ऊँचाई को पूरी तरह भूल जाता है।"
+        },
+        "d": {
+          "en": "Off by one extra layer — an arithmetic slip in the final multiplication.",
+          "hi": "एक अतिरिक्त परत की चूक — अंतिम गुणा में एक अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-apv-volumecuboid-03",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Find the volume of a cuboid with length 15, width 9, and height 6 units.",
+        "hi": "15 लंबाई, 9 चौड़ाई, और 6 ऊँचाई (इकाई में) वाले घनाभ का आयतन ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "558 cu. units",
+            "hi": "558 cu. units"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "135 cu. units",
+            "hi": "135 cu. units"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "945 cu. units",
+            "hi": "945 cu. units"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "810 cu. units",
+            "hi": "810 cu. units"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "Volume = length × width × height = 15 × 9 × 6 = 810 cu. units.",
+        "hi": "आयतन = लंबाई × चौड़ाई × ऊँचाई = 15 × 9 × 6 = 810 घन इकाई।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This is the SURFACE AREA formula (2 × (lw + wh + hl)), not the volume.",
+          "hi": "यह पृष्ठीय क्षेत्रफल का सूत्र है (2 × (lw + wh + hl)), आयतन का नहीं।"
+        },
+        "b": {
+          "en": "Only multiplies two of the three dimensions, forgetting the height entirely.",
+          "hi": "तीन में से केवल दो विमाओं को गुणा करता है, ऊँचाई को पूरी तरह भूल जाता है।"
+        },
+        "c": {
+          "en": "Off by one extra layer — an arithmetic slip in the final multiplication.",
+          "hi": "एक अतिरिक्त परत की चूक — अंतिम गुणा में एक अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-apv-volumecuboid-04",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Find the volume of a cuboid with length 8, width 8, and height 8 units.",
+        "hi": "8 लंबाई, 8 चौड़ाई, और 8 ऊँचाई (इकाई में) वाले घनाभ का आयतन ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "512 cu. units",
+            "hi": "512 cu. units"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "384 cu. units",
+            "hi": "384 cu. units"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "64 cu. units",
+            "hi": "64 cu. units"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "576 cu. units",
+            "hi": "576 cu. units"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Volume = length × width × height = 8 × 8 × 8 = 512 cu. units.",
+        "hi": "आयतन = लंबाई × चौड़ाई × ऊँचाई = 8 × 8 × 8 = 512 घन इकाई।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "This is the SURFACE AREA formula (2 × (lw + wh + hl)), not the volume.",
+          "hi": "यह पृष्ठीय क्षेत्रफल का सूत्र है (2 × (lw + wh + hl)), आयतन का नहीं।"
+        },
+        "c": {
+          "en": "Only multiplies two of the three dimensions, forgetting the height entirely.",
+          "hi": "तीन में से केवल दो विमाओं को गुणा करता है, ऊँचाई को पूरी तरह भूल जाता है।"
+        },
+        "d": {
+          "en": "Off by one extra layer — an arithmetic slip in the final multiplication.",
+          "hi": "एक अतिरिक्त परत की चूक — अंतिम गुणा में एक अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-apv-volumecuboid-05",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Find the volume of a cuboid with length 20, width 10, and height 7 units.",
+        "hi": "20 लंबाई, 10 चौड़ाई, और 7 ऊँचाई (इकाई में) वाले घनाभ का आयतन ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "820 cu. units",
+            "hi": "820 cu. units"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "1400 cu. units",
+            "hi": "1400 cu. units"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "200 cu. units",
+            "hi": "200 cu. units"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "1600 cu. units",
+            "hi": "1600 cu. units"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Volume = length × width × height = 20 × 10 × 7 = 1400 cu. units.",
+        "hi": "आयतन = लंबाई × चौड़ाई × ऊँचाई = 20 × 10 × 7 = 1400 घन इकाई।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This is the SURFACE AREA formula (2 × (lw + wh + hl)), not the volume.",
+          "hi": "यह पृष्ठीय क्षेत्रफल का सूत्र है (2 × (lw + wh + hl)), आयतन का नहीं।"
+        },
+        "c": {
+          "en": "Only multiplies two of the three dimensions, forgetting the height entirely.",
+          "hi": "तीन में से केवल दो विमाओं को गुणा करता है, ऊँचाई को पूरी तरह भूल जाता है।"
+        },
+        "d": {
+          "en": "Off by one extra layer — an arithmetic slip in the final multiplication.",
+          "hi": "एक अतिरिक्त परत की चूक — अंतिम गुणा में एक अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-apv-volumecube-01",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Find the volume of a cube with side length 4 units.",
+        "hi": "4 इकाई भुजा वाले घन का आयतन ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "96 cu. units",
+            "hi": "96 cu. units"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "16 cu. units",
+            "hi": "16 cu. units"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "64 cu. units",
+            "hi": "64 cu. units"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "80 cu. units",
+            "hi": "80 cu. units"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Volume = side³ = 4 × 4 × 4 = 64 cu. units.",
+        "hi": "आयतन = भुजा³ = 4 × 4 × 4 = 64 घन इकाई।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This is the total SURFACE AREA of the cube (6 × side²), not the volume.",
+          "hi": "यह घन का कुल पृष्ठीय क्षेत्रफल है (6 × भुजा²), आयतन नहीं।"
+        },
+        "b": {
+          "en": "This is the area of just ONE face of the cube (side²), not the full 3D volume.",
+          "hi": "यह घन के केवल एक फलक का क्षेत्रफल है (भुजा²), पूर्ण 3D आयतन नहीं।"
+        },
+        "d": {
+          "en": "Off by one extra layer — an arithmetic slip in the final multiplication.",
+          "hi": "एक अतिरिक्त परत की चूक — अंतिम गुणा में एक अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-apv-volumecube-02",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Find the volume of a cube with side length 5 units.",
+        "hi": "5 इकाई भुजा वाले घन का आयतन ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "150 cu. units",
+            "hi": "150 cu. units"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "25 cu. units",
+            "hi": "25 cu. units"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "175 cu. units",
+            "hi": "175 cu. units"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "125 cu. units",
+            "hi": "125 cu. units"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "Volume = side³ = 5 × 5 × 5 = 125 cu. units.",
+        "hi": "आयतन = भुजा³ = 5 × 5 × 5 = 125 घन इकाई।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This is the total SURFACE AREA of the cube (6 × side²), not the volume.",
+          "hi": "यह घन का कुल पृष्ठीय क्षेत्रफल है (6 × भुजा²), आयतन नहीं।"
+        },
+        "b": {
+          "en": "This is the area of just ONE face of the cube (side²), not the full 3D volume.",
+          "hi": "यह घन के केवल एक फलक का क्षेत्रफल है (भुजा²), पूर्ण 3D आयतन नहीं।"
+        },
+        "c": {
+          "en": "Off by one extra layer — an arithmetic slip in the final multiplication.",
+          "hi": "एक अतिरिक्त परत की चूक — अंतिम गुणा में एक अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-apv-volumecube-03",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Find the volume of a cube with side length 6 units.",
+        "hi": "6 इकाई भुजा वाले घन का आयतन ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "216 cu. units",
+            "hi": "216 cu. units"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "36 cu. units",
+            "hi": "36 cu. units"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "252 cu. units",
+            "hi": "252 cu. units"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "288 cu. units",
+            "hi": "288 cu. units"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Volume = side³ = 6 × 6 × 6 = 216 cu. units.",
+        "hi": "आयतन = भुजा³ = 6 × 6 × 6 = 216 घन इकाई।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "This is the total SURFACE AREA of the cube (6 × side²), not the volume.",
+          "hi": "यह घन का कुल पृष्ठीय क्षेत्रफल है (6 × भुजा²), आयतन नहीं।"
+        },
+        "c": {
+          "en": "This is the area of just ONE face of the cube (side²), not the full 3D volume.",
+          "hi": "यह घन के केवल एक फलक का क्षेत्रफल है (भुजा²), पूर्ण 3D आयतन नहीं।"
+        },
+        "d": {
+          "en": "Off by one extra layer — an arithmetic slip in the final multiplication.",
+          "hi": "एक अतिरिक्त परत की चूक — अंतिम गुणा में एक अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-apv-volumecube-04",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Find the volume of a cube with side length 7 units.",
+        "hi": "7 इकाई भुजा वाले घन का आयतन ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "294 cu. units",
+            "hi": "294 cu. units"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "343 cu. units",
+            "hi": "343 cu. units"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "49 cu. units",
+            "hi": "49 cu. units"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "392 cu. units",
+            "hi": "392 cu. units"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Volume = side³ = 7 × 7 × 7 = 343 cu. units.",
+        "hi": "आयतन = भुजा³ = 7 × 7 × 7 = 343 घन इकाई।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This is the total SURFACE AREA of the cube (6 × side²), not the volume.",
+          "hi": "यह घन का कुल पृष्ठीय क्षेत्रफल है (6 × भुजा²), आयतन नहीं।"
+        },
+        "c": {
+          "en": "This is the area of just ONE face of the cube (side²), not the full 3D volume.",
+          "hi": "यह घन के केवल एक फलक का क्षेत्रफल है (भुजा²), पूर्ण 3D आयतन नहीं।"
+        },
+        "d": {
+          "en": "Off by one extra layer — an arithmetic slip in the final multiplication.",
+          "hi": "एक अतिरिक्त परत की चूक — अंतिम गुणा में एक अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-apv-volumecube-05",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Find the volume of a cube with side length 8 units.",
+        "hi": "8 इकाई भुजा वाले घन का आयतन ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "384 cu. units",
+            "hi": "384 cu. units"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "64 cu. units",
+            "hi": "64 cu. units"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "512 cu. units",
+            "hi": "512 cu. units"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "576 cu. units",
+            "hi": "576 cu. units"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Volume = side³ = 8 × 8 × 8 = 512 cu. units.",
+        "hi": "आयतन = भुजा³ = 8 × 8 × 8 = 512 घन इकाई।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This is the total SURFACE AREA of the cube (6 × side²), not the volume.",
+          "hi": "यह घन का कुल पृष्ठीय क्षेत्रफल है (6 × भुजा²), आयतन नहीं।"
+        },
+        "b": {
+          "en": "This is the area of just ONE face of the cube (side²), not the full 3D volume.",
+          "hi": "यह घन के केवल एक फलक का क्षेत्रफल है (भुजा²), पूर्ण 3D आयतन नहीं।"
+        },
+        "d": {
+          "en": "Off by one extra layer — an arithmetic slip in the final multiplication.",
+          "hi": "एक अतिरिक्त परत की चूक — अंतिम गुणा में एक अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-apv-fencing-01",
+      "difficulty": "HARD",
+      "content": {
+        "en": "A rectangular field is 30m long and 20m wide. Find the cost of fencing it at ₹15 per metre.",
+        "hi": "एक आयताकार मैदान 30मीटर लंबा और 20मीटर चौड़ा है। इसमें ₹15 प्रति मीटर की दर से बाड़ लगाने की लागत ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "1500 rupees",
+            "hi": "1500 rupees"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "9000 rupees",
+            "hi": "9000 rupees"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "100 rupees",
+            "hi": "100 rupees"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "1560 rupees",
+            "hi": "1560 rupees"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Perimeter = 2 × (30 + 20) = 100m. Cost = 100 × ₹15 = ₹1500.",
+        "hi": "परिमाप = 2 × (30 + 20) = 100मीटर। लागत = 100 × ₹15 = ₹1500।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Multiplies the AREA by the rate instead of the perimeter — fencing goes around the boundary, not over the surface.",
+          "hi": "परिमाप के बजाय क्षेत्रफल को दर से गुणा कर देता है — बाड़ सीमा के चारों ओर लगती है, सतह पर नहीं।"
+        },
+        "c": {
+          "en": "Computes the perimeter correctly but forgets to multiply by the rate per unit — that's just the fence's length, not its cost.",
+          "hi": "परिमाप तो सही निकालता है, पर प्रति इकाई दर से गुणा करना भूल जाता है — यह केवल बाड़ की लंबाई है, उसकी लागत नहीं।"
+        },
+        "d": {
+          "en": "Off by one extra length-unit's worth of rate — a small arithmetic slip.",
+          "hi": "दर की एक अतिरिक्त लंबाई-इकाई की चूक — एक छोटी सी अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-apv-fencing-02",
+      "difficulty": "HARD",
+      "content": {
+        "en": "A rectangular field is 25m long and 18m wide. Find the cost of fencing it at ₹20 per metre.",
+        "hi": "एक आयताकार मैदान 25मीटर लंबा और 18मीटर चौड़ा है। इसमें ₹20 प्रति मीटर की दर से बाड़ लगाने की लागत ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "9000 rupees",
+            "hi": "9000 rupees"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "1720 rupees",
+            "hi": "1720 rupees"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "86 rupees",
+            "hi": "86 rupees"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "1800 rupees",
+            "hi": "1800 rupees"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Perimeter = 2 × (25 + 18) = 86m. Cost = 86 × ₹20 = ₹1720.",
+        "hi": "परिमाप = 2 × (25 + 18) = 86मीटर। लागत = 86 × ₹20 = ₹1720।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Multiplies the AREA by the rate instead of the perimeter — fencing goes around the boundary, not over the surface.",
+          "hi": "परिमाप के बजाय क्षेत्रफल को दर से गुणा कर देता है — बाड़ सीमा के चारों ओर लगती है, सतह पर नहीं।"
+        },
+        "c": {
+          "en": "Computes the perimeter correctly but forgets to multiply by the rate per unit — that's just the fence's length, not its cost.",
+          "hi": "परिमाप तो सही निकालता है, पर प्रति इकाई दर से गुणा करना भूल जाता है — यह केवल बाड़ की लंबाई है, उसकी लागत नहीं।"
+        },
+        "d": {
+          "en": "Off by one extra length-unit's worth of rate — a small arithmetic slip.",
+          "hi": "दर की एक अतिरिक्त लंबाई-इकाई की चूक — एक छोटी सी अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-apv-fencing-03",
+      "difficulty": "HARD",
+      "content": {
+        "en": "A rectangular field is 40m long and 25m wide. Find the cost of fencing it at ₹12 per metre.",
+        "hi": "एक आयताकार मैदान 40मीटर लंबा और 25मीटर चौड़ा है। इसमें ₹12 प्रति मीटर की दर से बाड़ लगाने की लागत ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "12000 rupees",
+            "hi": "12000 rupees"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "130 rupees",
+            "hi": "130 rupees"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "1560 rupees",
+            "hi": "1560 rupees"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "1608 rupees",
+            "hi": "1608 rupees"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Perimeter = 2 × (40 + 25) = 130m. Cost = 130 × ₹12 = ₹1560.",
+        "hi": "परिमाप = 2 × (40 + 25) = 130मीटर। लागत = 130 × ₹12 = ₹1560।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Multiplies the AREA by the rate instead of the perimeter — fencing goes around the boundary, not over the surface.",
+          "hi": "परिमाप के बजाय क्षेत्रफल को दर से गुणा कर देता है — बाड़ सीमा के चारों ओर लगती है, सतह पर नहीं।"
+        },
+        "b": {
+          "en": "Computes the perimeter correctly but forgets to multiply by the rate per unit — that's just the fence's length, not its cost.",
+          "hi": "परिमाप तो सही निकालता है, पर प्रति इकाई दर से गुणा करना भूल जाता है — यह केवल बाड़ की लंबाई है, उसकी लागत नहीं।"
+        },
+        "d": {
+          "en": "Off by one extra length-unit's worth of rate — a small arithmetic slip.",
+          "hi": "दर की एक अतिरिक्त लंबाई-इकाई की चूक — एक छोटी सी अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-apv-fencing-04",
+      "difficulty": "HARD",
+      "content": {
+        "en": "A rectangular field is 22m long and 22m wide. Find the cost of fencing it at ₹18 per metre.",
+        "hi": "एक आयताकार मैदान 22मीटर लंबा और 22मीटर चौड़ा है। इसमें ₹18 प्रति मीटर की दर से बाड़ लगाने की लागत ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "8712 rupees",
+            "hi": "8712 rupees"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "88 rupees",
+            "hi": "88 rupees"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "1656 rupees",
+            "hi": "1656 rupees"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "1584 rupees",
+            "hi": "1584 rupees"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "Perimeter = 2 × (22 + 22) = 88m. Cost = 88 × ₹18 = ₹1584.",
+        "hi": "परिमाप = 2 × (22 + 22) = 88मीटर। लागत = 88 × ₹18 = ₹1584।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Multiplies the AREA by the rate instead of the perimeter — fencing goes around the boundary, not over the surface.",
+          "hi": "परिमाप के बजाय क्षेत्रफल को दर से गुणा कर देता है — बाड़ सीमा के चारों ओर लगती है, सतह पर नहीं।"
+        },
+        "b": {
+          "en": "Computes the perimeter correctly but forgets to multiply by the rate per unit — that's just the fence's length, not its cost.",
+          "hi": "परिमाप तो सही निकालता है, पर प्रति इकाई दर से गुणा करना भूल जाता है — यह केवल बाड़ की लंबाई है, उसकी लागत नहीं।"
+        },
+        "c": {
+          "en": "Off by one extra length-unit's worth of rate — a small arithmetic slip.",
+          "hi": "दर की एक अतिरिक्त लंबाई-इकाई की चूक — एक छोटी सी अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-apv-fencing-05",
+      "difficulty": "HARD",
+      "content": {
+        "en": "A rectangular field is 35m long and 15m wide. Find the cost of fencing it at ₹25 per metre.",
+        "hi": "एक आयताकार मैदान 35मीटर लंबा और 15मीटर चौड़ा है। इसमें ₹25 प्रति मीटर की दर से बाड़ लगाने की लागत ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "2500 rupees",
+            "hi": "2500 rupees"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "13125 rupees",
+            "hi": "13125 rupees"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "100 rupees",
+            "hi": "100 rupees"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "2600 rupees",
+            "hi": "2600 rupees"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Perimeter = 2 × (35 + 15) = 100m. Cost = 100 × ₹25 = ₹2500.",
+        "hi": "परिमाप = 2 × (35 + 15) = 100मीटर। लागत = 100 × ₹25 = ₹2500।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Multiplies the AREA by the rate instead of the perimeter — fencing goes around the boundary, not over the surface.",
+          "hi": "परिमाप के बजाय क्षेत्रफल को दर से गुणा कर देता है — बाड़ सीमा के चारों ओर लगती है, सतह पर नहीं।"
+        },
+        "c": {
+          "en": "Computes the perimeter correctly but forgets to multiply by the rate per unit — that's just the fence's length, not its cost.",
+          "hi": "परिमाप तो सही निकालता है, पर प्रति इकाई दर से गुणा करना भूल जाता है — यह केवल बाड़ की लंबाई है, उसकी लागत नहीं।"
+        },
+        "d": {
+          "en": "Off by one extra length-unit's worth of rate — a small arithmetic slip.",
+          "hi": "दर की एक अतिरिक्त लंबाई-इकाई की चूक — एक छोटी सी अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    }
+  ]
+}

@@ -10,6 +10,9 @@ export interface LangText {
 
 export type QuestionDifficulty = "EASY" | "MEDIUM" | "HARD";
 
+/** Mirrors packages/db/prisma/schema.prisma's ExamType enum as a plain string union, same convention as QuestionDifficulty above — these standalone generator files never import from @prisma/client directly. */
+export type TargetExam = "JNVST" | "AISSEE" | "RMS" | "DPS" | "OTHER";
+
 export interface OptionSeed {
   id: string;
   text: LangText;
@@ -53,6 +56,8 @@ export interface GeneratedQuestion {
   distractorAnalysis: Record<string, LangText>;
   /** Question-level diagram — see FigureMetadataSeed. Only set by the visual reasoning generators. */
   figureMetadata?: FigureMetadataSeed;
+  /** Restricts this question to one exam track (e.g. AISSEE-only GK, RMS-only Current Affairs) — see schema.prisma's Question.targetExam. Unset means exam-agnostic, the default for every generator that doesn't set it. */
+  targetExam?: TargetExam;
 }
 
 /**

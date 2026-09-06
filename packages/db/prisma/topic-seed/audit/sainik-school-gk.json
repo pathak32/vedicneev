@@ -1,0 +1,2327 @@
+{
+  "section": "sainik_school_gk",
+  "topicKey": "sainik_school_gk",
+  "generatedAt": "2026-09-06T00:00:00.000Z",
+  "questions": [
+    {
+      "key": "bank-gk-sainik-01",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "How many bones are there in an adult human skeleton?",
+        "hi": "एक वयस्क मानव कंकाल में कुल कितनी हड्डियाँ होती हैं?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "206",
+            "hi": "206"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "200",
+            "hi": "200"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "210",
+            "hi": "210"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "230",
+            "hi": "230"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "An adult human skeleton has 206 bones. (A baby is born with about 300 bones, many of which fuse together as the body grows.)",
+        "hi": "एक वयस्क मानव कंकाल में 206 हड्डियाँ होती हैं। (एक शिशु लगभग 300 हड्डियों के साथ जन्म लेता है, जिनमें से कई शरीर के विकास के साथ आपस में जुड़ जाती हैं।)"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "200 is a common rounded guess that is close but misses the exact figure of 206.",
+          "hi": "200 एक सामान्य अनुमानित संख्या है जो सही आंकड़े 206 के करीब तो है, परंतु सटीक नहीं है।"
+        },
+        "c": {
+          "en": "210 is a slight overestimate sometimes confused with bone counts used for other counting systems or animals.",
+          "hi": "210 की संख्या कभी-कभी हड्डियों की गिनती की किसी अन्य पद्धति या जानवरों की हड्डियों की संख्या से भ्रमित होकर मान ली जाती है।"
+        },
+        "d": {
+          "en": "230 is well above the correct count and does not match the standard adult skeleton figure taught in school science.",
+          "hi": "230 सही संख्या से काफी अधिक है और विद्यालय विज्ञान में पढ़ाए जाने वाले मानक वयस्क कंकाल के आंकड़े से मेल नहीं खाती।"
+        }
+      },
+      "targetExam": "AISSEE"
+    },
+    {
+      "key": "bank-gk-sainik-02",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Which gas do humans need to breathe in from the air to stay alive?",
+        "hi": "मनुष्यों को जीवित रहने के लिए हवा से कौन-सी गैस अंदर लेनी आवश्यक है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Carbon dioxide",
+            "hi": "कार्बन डाइऑक्साइड"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Oxygen",
+            "hi": "ऑक्सीजन"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Nitrogen",
+            "hi": "नाइट्रोजन"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Hydrogen",
+            "hi": "हाइड्रोजन"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Humans breathe in oxygen from the air, which the blood carries to all body cells for producing energy, and breathe out carbon dioxide.",
+        "hi": "मनुष्य हवा से ऑक्सीजन ग्रहण करते हैं, जिसे रक्त शरीर की सभी कोशिकाओं तक पहुँचाता है ताकि ऊर्जा उत्पन्न हो सके, और कार्बन डाइऑक्साइड को बाहर छोड़ते हैं।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Carbon dioxide is actually breathed out by humans as a waste gas, not breathed in for survival.",
+          "hi": "कार्बन डाइऑक्साइड वास्तव में मनुष्यों द्वारा एक अपशिष्ट गैस के रूप में बाहर छोड़ी जाती है, जीवित रहने के लिए अंदर नहीं ली जाती।"
+        },
+        "c": {
+          "en": "Nitrogen makes up the largest part of the air we breathe, but the human body cannot use it directly for producing energy.",
+          "hi": "नाइट्रोजन हमारी साँस की हवा का सबसे बड़ा हिस्सा बनाती है, परंतु मानव शरीर इसे सीधे ऊर्जा बनाने के लिए उपयोग नहीं कर सकता।"
+        },
+        "d": {
+          "en": "Hydrogen is a light gas used as fuel in some contexts, but it is not the gas the human body needs for breathing.",
+          "hi": "हाइड्रोजन एक हल्की गैस है जिसे कुछ स्थितियों में ईंधन के रूप में प्रयोग किया जाता है, परंतु यह वह गैस नहीं है जिसकी मानव शरीर को श्वसन के लिए आवश्यकता होती है।"
+        }
+      },
+      "targetExam": "AISSEE"
+    },
+    {
+      "key": "bank-gk-sainik-03",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Which part of a plant mainly makes food for the plant through photosynthesis?",
+        "hi": "पौधे का कौन-सा भाग प्रकाश संश्लेषण के माध्यम से मुख्य रूप से भोजन बनाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Root",
+            "hi": "जड़"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Stem",
+            "hi": "तना"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Leaf",
+            "hi": "पत्ती"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Flower",
+            "hi": "फूल"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Leaves contain a green pigment called chlorophyll, which traps sunlight to make food for the plant through photosynthesis.",
+        "hi": "पत्तियों में क्लोरोफिल नामक हरा वर्णक होता है, जो सूर्य के प्रकाश को ग्रहण कर प्रकाश संश्लेषण के माध्यम से पौधे के लिए भोजन बनाता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Roots mainly absorb water and minerals from the soil; they do not carry out photosynthesis since they usually lack chlorophyll and sunlight.",
+          "hi": "जड़ें मुख्यतः मिट्टी से पानी और खनिज अवशोषित करती हैं; चूँकि उनमें आमतौर पर क्लोरोफिल और सूर्य प्रकाश नहीं पहुँचता, वे प्रकाश संश्लेषण नहीं करतीं।"
+        },
+        "b": {
+          "en": "The stem mainly transports water and food between roots and leaves and provides support; it is not the main site of food-making.",
+          "hi": "तना मुख्यतः जड़ों और पत्तियों के बीच पानी और भोजन का परिवहन करता है तथा पौधे को सहारा देता है; यह भोजन बनाने का मुख्य स्थान नहीं है।"
+        },
+        "d": {
+          "en": "Flowers are mainly involved in reproduction of the plant, not in making food through photosynthesis.",
+          "hi": "फूल मुख्यतः पौधे के प्रजनन में सहायक होते हैं, प्रकाश संश्लेषण के माध्यम से भोजन बनाने में नहीं।"
+        }
+      },
+      "targetExam": "AISSEE"
+    },
+    {
+      "key": "bank-gk-sainik-04",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "How many chambers does the human heart normally have?",
+        "hi": "मानव हृदय में सामान्यतः कितने कक्ष (चैंबर) होते हैं?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "2",
+            "hi": "2"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "3",
+            "hi": "3"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "5",
+            "hi": "5"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "4",
+            "hi": "4"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "The human heart has four chambers: two upper chambers called atria and two lower chambers called ventricles.",
+        "hi": "मानव हृदय में चार कक्ष होते हैं: दो ऊपरी कक्ष जिन्हें अलिंद (एट्रिया) कहते हैं और दो निचले कक्ष जिन्हें निलय (वेंट्रिकल) कहते हैं।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Two is an undercount that ignores that the heart is divided into both upper and lower chambers on each side.",
+          "hi": "दो की संख्या कम है क्योंकि यह हृदय के प्रत्येक तरफ ऊपरी और निचले, दोनों कक्षों को नज़रअंदाज़ कर देती है।"
+        },
+        "b": {
+          "en": "Three is an odd number that does not match the heart's symmetrical left-right, upper-lower structure.",
+          "hi": "तीन एक विषम संख्या है, जो हृदय की सममित बाएँ-दाएँ और ऊपर-नीचे संरचना से मेल नहीं खाती।"
+        },
+        "c": {
+          "en": "Five overstates the count; some students add an extra chamber by mistakenly counting a major blood vessel as a chamber.",
+          "hi": "पांच की संख्या अधिक है; कुछ छात्र किसी प्रमुख रक्त वाहिका को गलती से एक कक्ष मानकर एक अतिरिक्त कक्ष जोड़ देते हैं।"
+        }
+      },
+      "targetExam": "AISSEE"
+    },
+    {
+      "key": "bank-gk-sainik-05",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "A see-saw in a children's park works on the principle of which simple machine?",
+        "hi": "बच्चों के पार्क में झूलने वाला 'सी-सॉ' किस सरल यंत्र के सिद्धांत पर कार्य करता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Lever",
+            "hi": "उत्तोलक (लीवर)"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Pulley",
+            "hi": "घिरनी"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Wheel and axle",
+            "hi": "पहिया और धुरी"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Screw",
+            "hi": "पेंच"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "A see-saw is a simple lever that turns around a fixed point called the fulcrum, allowing a small force on one side to lift weight on the other.",
+        "hi": "सी-सॉ एक सरल उत्तोलक (लीवर) है जो आधार बिंदु (फल्क्रम) नामक एक निश्चित बिंदु के चारों ओर घूमता है, जिससे एक ओर लगाया गया छोटा बल दूसरी ओर के भार को उठा सकता है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "A pulley uses a grooved wheel and rope to lift loads, commonly seen at wells or flagpoles, not in the up-and-down turning action of a see-saw.",
+          "hi": "घिरनी एक खाँचेदार पहिये और रस्सी की सहायता से भार उठाती है, जैसे कुएँ या झंडे के खंभे पर, यह सी-सॉ की ऊपर-नीचे घूमने वाली क्रिया से भिन्न है।"
+        },
+        "c": {
+          "en": "Wheel and axle is the machine used in vehicles and doorknobs, working by rotation around a central axle, unlike a see-saw's balancing action.",
+          "hi": "पहिया और धुरी वाहनों और दरवाज़े की घुंडी में प्रयुक्त होने वाला यंत्र है, जो एक केंद्रीय धुरी के चारों ओर घूमकर कार्य करता है, जबकि सी-सॉ संतुलन के सिद्धांत पर कार्य करता है।"
+        },
+        "d": {
+          "en": "A screw is an inclined plane wound around a cylinder, used for fastening things together, and works quite differently from a see-saw.",
+          "hi": "पेंच एक बेलन के चारों ओर लपेटा गया झुका हुआ तल (इंक्लाइंड प्लेन) है, जिसका उपयोग वस्तुओं को जोड़ने के लिए किया जाता है, और यह सी-सॉ से बिल्कुल भिन्न प्रकार से कार्य करता है।"
+        }
+      },
+      "targetExam": "AISSEE"
+    },
+    {
+      "key": "bank-gk-sainik-06",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Matter that has both a fixed shape and a fixed volume is called a...?",
+        "hi": "जिस पदार्थ का आकार (shape) और आयतन (volume) दोनों निश्चित होते हैं, उसे क्या कहते हैं?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Liquid",
+            "hi": "द्रव"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Solid",
+            "hi": "ठोस"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Gas",
+            "hi": "गैस"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Vapour",
+            "hi": "वाष्प"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "A solid has both a fixed shape and a fixed volume, unlike liquids and gases which take the shape of their container.",
+        "hi": "ठोस पदार्थ का आकार और आयतन दोनों निश्चित होते हैं, जबकि द्रव और गैस अपने बर्तन का आकार ग्रहण कर लेते हैं।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "A liquid has a fixed volume but takes the shape of whatever container holds it, so its shape is not fixed.",
+          "hi": "द्रव का आयतन निश्चित होता है, परंतु यह जिस बर्तन में रखा जाता है उसी का आकार ले लेता है, इसलिए इसका आकार निश्चित नहीं होता।"
+        },
+        "c": {
+          "en": "A gas has neither a fixed shape nor a fixed volume; it spreads out to fill its entire container.",
+          "hi": "गैस का न तो आकार निश्चित होता है और न ही आयतन; यह अपने पूरे बर्तन में फैल जाती है।"
+        },
+        "d": {
+          "en": "Vapour is simply a gaseous form of a substance that is usually liquid or solid at room temperature, and it behaves like a gas with no fixed shape or volume.",
+          "hi": "वाष्प किसी ऐसे पदार्थ का गैसीय रूप है जो सामान्यतः कमरे के तापमान पर द्रव या ठोस होता है, और यह गैस की तरह ही बिना निश्चित आकार या आयतन के व्यवहार करती है।"
+        }
+      },
+      "targetExam": "AISSEE"
+    },
+    {
+      "key": "bank-gk-sainik-07",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Which type of blood cells mainly help the human body fight against germs and infections?",
+        "hi": "मानव शरीर में किस प्रकार की रक्त कोशिकाएँ मुख्यतः रोगाणुओं और संक्रमणों से लड़ने में सहायक होती हैं?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Red blood cells",
+            "hi": "लाल रक्त कोशिकाएँ"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Platelets",
+            "hi": "प्लेटलेट्स"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "White blood cells",
+            "hi": "श्वेत रक्त कोशिकाएँ"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Plasma",
+            "hi": "प्लाज्मा"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "White blood cells are the body's defenders — they identify and destroy harmful germs, viruses, and infections.",
+        "hi": "श्वेत रक्त कोशिकाएँ शरीर की रक्षक होती हैं — ये हानिकारक रोगाणुओं, विषाणुओं और संक्रमणों की पहचान कर उन्हें नष्ट करती हैं।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Red blood cells carry oxygen throughout the body using haemoglobin; fighting infection is not their main job.",
+          "hi": "लाल रक्त कोशिकाएँ हीमोग्लोबिन की सहायता से शरीर भर में ऑक्सीजन पहुँचाती हैं; संक्रमण से लड़ना इनका मुख्य कार्य नहीं है।"
+        },
+        "b": {
+          "en": "Platelets help the blood clot and stop bleeding when there is a cut or wound, not fight infections directly.",
+          "hi": "प्लेटलेट्स चोट लगने या कटने पर रक्त का थक्का बनाकर रक्तस्राव रोकने में मदद करते हैं, सीधे संक्रमण से लड़ने में नहीं।"
+        },
+        "d": {
+          "en": "Plasma is the liquid part of blood that carries blood cells, nutrients, and waste, but it is not itself a cell that fights germs.",
+          "hi": "प्लाज्मा रक्त का तरल भाग है जो रक्त कोशिकाओं, पोषक तत्वों और अपशिष्ट को ढोता है, परंतु यह स्वयं कोई कोशिका नहीं है जो रोगाणुओं से लड़ती हो।"
+        }
+      },
+      "targetExam": "AISSEE"
+    },
+    {
+      "key": "bank-gk-sainik-08",
+      "difficulty": "HARD",
+      "content": {
+        "en": "A screw and a spiral (winding) staircase both work on the principle of which simple machine wrapped around a central axis?",
+        "hi": "पेंच (स्क्रू) और सर्पिल (घुमावदार) सीढ़ी, दोनों किस सरल यंत्र के सिद्धांत पर कार्य करती हैं, जो एक केंद्रीय अक्ष के चारों ओर लिपटा होता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Lever",
+            "hi": "उत्तोलक"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Pulley",
+            "hi": "घिरनी"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Wedge",
+            "hi": "फन्नी (वेज)"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Inclined plane",
+            "hi": "झुका हुआ तल"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "A screw is essentially an inclined plane wound around a cylinder — the same principle used in the design of spiral staircases, allowing gradual rise over a small base area.",
+        "hi": "पेंच वास्तव में एक बेलन के चारों ओर लपेटा गया झुका हुआ तल है — यही सिद्धांत सर्पिल सीढ़ियों के डिज़ाइन में भी प्रयुक्त होता है, जिससे कम आधार क्षेत्र में धीरे-धीरे ऊँचाई प्राप्त की जा सकती है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "A lever works by turning around a fixed fulcrum point, like a see-saw, which is a different principle from the winding action of a screw.",
+          "hi": "उत्तोलक (लीवर) एक निश्चित आधार बिंदु के चारों ओर घूमकर कार्य करता है, जैसे सी-सॉ, जो पेंच की घुमावदार क्रिया से भिन्न सिद्धांत है।"
+        },
+        "b": {
+          "en": "A pulley uses a rope over a grooved wheel to lift loads, and does not involve winding around a central axis like a screw does.",
+          "hi": "घिरनी खाँचेदार पहिये पर रस्सी की सहायता से भार उठाती है, और इसमें पेंच जैसी केंद्रीय अक्ष के चारों ओर लिपटने वाली क्रिया शामिल नहीं होती।"
+        },
+        "c": {
+          "en": "A wedge is a simple machine used to split or cut things, like an axe blade, which works differently from the winding motion of a screw.",
+          "hi": "फन्नी (वेज) किसी वस्तु को काटने या चीरने के लिए प्रयुक्त होने वाला सरल यंत्र है, जैसे कुल्हाड़ी का फल, जो पेंच की घुमावदार क्रिया से भिन्न प्रकार से कार्य करता है।"
+        }
+      },
+      "targetExam": "AISSEE"
+    },
+    {
+      "key": "bank-gk-sainik-09",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Which of the following is NOT considered one of the common states of matter studied in school science?",
+        "hi": "निम्नलिखित में से कौन-सा विद्यालय विज्ञान में पढ़ाए जाने वाले पदार्थ की सामान्य अवस्थाओं में से एक नहीं है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Energy",
+            "hi": "ऊर्जा"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Solid",
+            "hi": "ठोस"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Liquid",
+            "hi": "द्रव"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Gas",
+            "hi": "गैस"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "The three common states of matter taught at this level are solid, liquid, and gas; energy is not a state of matter but the capacity to do work.",
+        "hi": "इस स्तर पर पढ़ाई जाने वाली पदार्थ की तीन सामान्य अवस्थाएँ हैं — ठोस, द्रव और गैस; ऊर्जा पदार्थ की कोई अवस्था नहीं है, बल्कि कार्य करने की क्षमता है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Solid is indeed a genuine, well-known state of matter, so it is not the correct answer to this 'odd one out' question.",
+          "hi": "ठोस वास्तव में पदार्थ की एक सुपरिचित अवस्था है, इसलिए यह इस 'विषम को पहचानो' प्रश्न का सही उत्तर नहीं है।"
+        },
+        "c": {
+          "en": "Liquid is a genuine state of matter with a fixed volume but no fixed shape, so it does not fit as the odd one out here.",
+          "hi": "द्रव पदार्थ की एक वास्तविक अवस्था है जिसका आयतन निश्चित होता है परंतु आकार निश्चित नहीं होता, इसलिए यह यहाँ 'विषम' के रूप में उपयुक्त नहीं है।"
+        },
+        "d": {
+          "en": "Gas is also a recognised state of matter with neither fixed shape nor fixed volume, so it is not the odd one out.",
+          "hi": "गैस भी पदार्थ की एक मान्यता प्राप्त अवस्था है जिसका न तो आकार निश्चित होता है और न ही आयतन, इसलिए यह भी 'विषम' नहीं है।"
+        }
+      },
+      "targetExam": "AISSEE"
+    },
+    {
+      "key": "bank-gk-sainik-10",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Which organ of the human body is mainly responsible for filtering waste from the blood and forming urine?",
+        "hi": "मानव शरीर का कौन-सा अंग मुख्यतः रक्त से अपशिष्ट को छानकर मूत्र बनाने के लिए जिम्मेदार है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Liver",
+            "hi": "यकृत"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Kidney",
+            "hi": "गुर्दा (किडनी)"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Lungs",
+            "hi": "फेफड़े"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Stomach",
+            "hi": "आमाशय (पेट)"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "The kidneys filter waste products and excess water from the blood, forming urine, which is then passed out of the body.",
+        "hi": "गुर्दे (किडनी) रक्त से अपशिष्ट पदार्थों और अतिरिक्त पानी को छानकर मूत्र बनाते हैं, जिसे बाद में शरीर से बाहर निकाल दिया जाता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "The liver performs important functions like producing bile and processing nutrients, but filtering blood to form urine is the kidney's job, not the liver's.",
+          "hi": "यकृत पित्त बनाने और पोषक तत्वों को संसाधित करने जैसे महत्वपूर्ण कार्य करता है, परंतु रक्त छानकर मूत्र बनाना गुर्दे का कार्य है, यकृत का नहीं।"
+        },
+        "c": {
+          "en": "The lungs are responsible for exchanging oxygen and carbon dioxide during breathing, not for filtering blood to make urine.",
+          "hi": "फेफड़े श्वसन के दौरान ऑक्सीजन और कार्बन डाइऑक्साइड के आदान-प्रदान के लिए जिम्मेदार होते हैं, रक्त छानकर मूत्र बनाने के लिए नहीं।"
+        },
+        "d": {
+          "en": "The stomach's main role is digesting food using acids and enzymes; it plays no part in filtering blood or forming urine.",
+          "hi": "आमाशय (पेट) का मुख्य कार्य अम्ल और एंजाइम की सहायता से भोजन का पाचन करना है; रक्त छानने या मूत्र बनाने में इसकी कोई भूमिका नहीं है।"
+        }
+      },
+      "targetExam": "AISSEE"
+    },
+    {
+      "key": "bank-gk-sainik-11",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Which is the largest Indian state by area?",
+        "hi": "क्षेत्रफल की दृष्टि से भारत का सबसे बड़ा राज्य कौन-सा है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Madhya Pradesh",
+            "hi": "मध्य प्रदेश"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Maharashtra",
+            "hi": "महाराष्ट्र"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Rajasthan",
+            "hi": "राजस्थान"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Uttar Pradesh",
+            "hi": "उत्तर प्रदेश"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Rajasthan is the largest Indian state by area, known for the Thar Desert and its forts and palaces.",
+        "hi": "राजस्थान क्षेत्रफल की दृष्टि से भारत का सबसे बड़ा राज्य है, जो थार रेगिस्तान तथा अपने किलों और महलों के लिए प्रसिद्ध है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Madhya Pradesh is one of India's larger central states, but it is smaller in area than Rajasthan.",
+          "hi": "मध्य प्रदेश भारत के बड़े मध्यवर्ती राज्यों में से एक है, परंतु क्षेत्रफल में यह राजस्थान से छोटा है।"
+        },
+        "b": {
+          "en": "Maharashtra is a large and populous state, but it ranks smaller in area compared to Rajasthan.",
+          "hi": "महाराष्ट्र एक बड़ा और घनी आबादी वाला राज्य है, परंतु क्षेत्रफल की दृष्टि से यह राजस्थान से छोटा है।"
+        },
+        "d": {
+          "en": "Uttar Pradesh is India's most populous state, which sometimes leads students to wrongly assume it is also the largest in area, but it ranks well below Rajasthan in size.",
+          "hi": "उत्तर प्रदेश भारत का सबसे अधिक आबादी वाला राज्य है, इसलिए कभी-कभी छात्र इसे क्षेत्रफल में भी सबसे बड़ा मान लेते हैं, परंतु आकार में यह राजस्थान से काफी पीछे है।"
+        }
+      },
+      "targetExam": "AISSEE"
+    },
+    {
+      "key": "bank-gk-sainik-12",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Which river is popularly known as the 'Ganga of the South' because of its length and importance in peninsular India?",
+        "hi": "अपनी लंबाई और प्रायद्वीपीय भारत में महत्व के कारण किस नदी को लोकप्रिय रूप से 'दक्षिण की गंगा' कहा जाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Krishna",
+            "hi": "कृष्णा"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Kaveri",
+            "hi": "कावेरी"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Tungabhadra",
+            "hi": "तुंगभद्रा"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Godavari",
+            "hi": "गोदावरी"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "The Godavari, one of the longest rivers in peninsular (southern) India, is popularly called the 'Ganga of the South' (Dakshin Ganga).",
+        "hi": "गोदावरी, जो प्रायद्वीपीय (दक्षिणी) भारत की सबसे लंबी नदियों में से एक है, को लोकप्रिय रूप से 'दक्षिण की गंगा' कहा जाता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "The Krishna is another major river of peninsular India, but the 'Ganga of the South' title is specifically associated with the Godavari, not the Krishna.",
+          "hi": "कृष्णा प्रायद्वीपीय भारत की एक और प्रमुख नदी है, परंतु 'दक्षिण की गंगा' की उपाधि विशेष रूप से गोदावरी से जुड़ी है, कृष्णा से नहीं।"
+        },
+        "b": {
+          "en": "The Kaveri is a well-known southern river flowing through Karnataka and Tamil Nadu, but it does not carry this particular nickname.",
+          "hi": "कावेरी कर्नाटक और तमिलनाडु से होकर बहने वाली एक जानी-मानी दक्षिणी नदी है, परंतु इसे यह विशेष उपनाम प्राप्त नहीं है।"
+        },
+        "c": {
+          "en": "The Tungabhadra is a tributary river in South India, smaller than the Godavari, and does not hold this popular title.",
+          "hi": "तुंगभद्रा दक्षिण भारत की एक सहायक नदी है, जो गोदावरी से छोटी है, और इसे यह लोकप्रिय उपाधि प्राप्त नहीं है।"
+        }
+      },
+      "targetExam": "AISSEE"
+    },
+    {
+      "key": "bank-gk-sainik-13",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Which river is the longest river flowing within India?",
+        "hi": "भारत के भीतर बहने वाली सबसे लंबी नदी कौन-सी है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Ganga",
+            "hi": "गंगा"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Yamuna",
+            "hi": "यमुना"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Godavari",
+            "hi": "गोदावरी"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Narmada",
+            "hi": "नर्मदा"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "The Ganga is the longest river flowing within India, originating in the Himalayas and flowing across North India into the Bay of Bengal.",
+        "hi": "गंगा भारत के भीतर बहने वाली सबसे लंबी नदी है, जो हिमालय से निकलकर उत्तर भारत से होते हुए बंगाल की खाड़ी में जाकर मिलती है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "The Yamuna is a major and important tributary that joins the Ganga, but it is shorter than the Ganga itself.",
+          "hi": "यमुना एक प्रमुख और महत्वपूर्ण सहायक नदी है जो गंगा में जाकर मिलती है, परंतु यह गंगा से छोटी है।"
+        },
+        "c": {
+          "en": "The Godavari is the longest river of peninsular (southern) India, but it is shorter than the Ganga overall.",
+          "hi": "गोदावरी प्रायद्वीपीय (दक्षिणी) भारत की सबसे लंबी नदी है, परंतु कुल लंबाई में यह गंगा से छोटी है।"
+        },
+        "d": {
+          "en": "The Narmada is a significant river of central India flowing westward, but it is much shorter than the Ganga.",
+          "hi": "नर्मदा मध्य भारत की एक महत्वपूर्ण नदी है जो पश्चिम की ओर बहती है, परंतु यह गंगा से बहुत छोटी है।"
+        }
+      },
+      "targetExam": "AISSEE"
+    },
+    {
+      "key": "bank-gk-sainik-14",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Mount Everest, the highest peak in the world, lies in which mountain range?",
+        "hi": "विश्व की सबसे ऊँची चोटी माउंट एवरेस्ट किस पर्वत श्रृंखला में स्थित है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Aravalli Range",
+            "hi": "अरावली श्रृंखला"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Himalayas",
+            "hi": "हिमालय"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Vindhya Range",
+            "hi": "विंध्य श्रृंखला"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Western Ghats",
+            "hi": "पश्चिमी घाट"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Mount Everest lies in the Himalayan mountain range, on the border between Nepal and the Tibet region of China.",
+        "hi": "माउंट एवरेस्ट हिमालय पर्वत श्रृंखला में स्थित है, जो नेपाल और चीन के तिब्बत क्षेत्र की सीमा पर पड़ता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "The Aravalli Range is one of the oldest and lowest mountain ranges in India, located in Rajasthan, nowhere near Everest's height or location.",
+          "hi": "अरावली श्रृंखला भारत की सबसे पुरानी और सबसे नीची पर्वत श्रृंखलाओं में से एक है, जो राजस्थान में स्थित है, इसका एवरेस्ट की ऊँचाई या स्थान से कोई संबंध नहीं है।"
+        },
+        "c": {
+          "en": "The Vindhya Range is a range in central India that traditionally divides North and South India, unrelated to the high Himalayan peaks.",
+          "hi": "विंध्य श्रृंखला मध्य भारत की एक श्रृंखला है, जो परंपरागत रूप से उत्तर और दक्षिण भारत को विभाजित करती है, ऊँचे हिमालयी शिखरों से इसका कोई संबंध नहीं है।"
+        },
+        "d": {
+          "en": "The Western Ghats run along India's western coast and are much lower hills compared to the towering Himalayas.",
+          "hi": "पश्चिमी घाट भारत के पश्चिमी तट के साथ फैले हैं और ऊँचे हिमालय की तुलना में काफी नीची पहाड़ियाँ हैं।"
+        }
+      },
+      "targetExam": "AISSEE"
+    },
+    {
+      "key": "bank-gk-sainik-15",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Which is the smallest Indian state by area?",
+        "hi": "क्षेत्रफल की दृष्टि से भारत का सबसे छोटा राज्य कौन-सा है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Sikkim",
+            "hi": "सिक्किम"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Tripura",
+            "hi": "त्रिपुरा"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Goa",
+            "hi": "गोवा"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Nagaland",
+            "hi": "नागालैंड"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Goa, on India's west coast, is the smallest Indian state by area, though it is well known for its beaches and tourism.",
+        "hi": "गोवा, भारत के पश्चिमी तट पर स्थित, क्षेत्रफल की दृष्टि से भारत का सबसे छोटा राज्य है, हालाँकि यह अपने समुद्र तटों और पर्यटन के लिए प्रसिद्ध है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Sikkim is one of India's smaller states in the Himalayas, but it is still larger in area than Goa.",
+          "hi": "सिक्किम हिमालय में स्थित भारत के छोटे राज्यों में से एक है, परंतु क्षेत्रफल में यह गोवा से बड़ा है।"
+        },
+        "b": {
+          "en": "Tripura is a small northeastern state, often confused with the smallest state, but its area is larger than Goa's.",
+          "hi": "त्रिपुरा पूर्वोत्तर का एक छोटा राज्य है, जिसे अक्सर सबसे छोटा राज्य समझ लिया जाता है, परंतु इसका क्षेत्रफल गोवा से अधिक है।"
+        },
+        "d": {
+          "en": "Nagaland is a small northeastern state as well, but it too covers more area than Goa.",
+          "hi": "नागालैंड भी पूर्वोत्तर का एक छोटा राज्य है, परंतु इसका क्षेत्रफल भी गोवा से अधिक है।"
+        }
+      },
+      "targetExam": "AISSEE"
+    },
+    {
+      "key": "bank-gk-sainik-16",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Which Indian state is popularly known as the 'Spice Garden of India' for its production of pepper, cardamom, and other spices?",
+        "hi": "काली मिर्च, इलायची और अन्य मसालों के उत्पादन के लिए किस भारतीय राज्य को लोकप्रिय रूप से 'भारत का मसाला उद्यान' कहा जाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Tamil Nadu",
+            "hi": "तमिलनाडु"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Karnataka",
+            "hi": "कर्नाटक"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Assam",
+            "hi": "असम"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Kerala",
+            "hi": "केरल"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "Kerala, with its favourable climate, is known as the 'Spice Garden of India' for producing large quantities of pepper, cardamom, and other spices.",
+        "hi": "अनुकूल जलवायु के कारण केरल को काली मिर्च, इलायची और अन्य मसालों के भारी उत्पादन के लिए 'भारत का मसाला उद्यान' कहा जाता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Tamil Nadu is a major southern state known for temples and textiles, but it is not the state carrying this specific nickname.",
+          "hi": "तमिलनाडु मंदिरों और वस्त्र उद्योग के लिए प्रसिद्ध एक प्रमुख दक्षिणी राज्य है, परंतु इसे यह विशेष उपनाम प्राप्त नहीं है।"
+        },
+        "b": {
+          "en": "Karnataka is known for its coffee plantations and IT industry, but the 'Spice Garden' title belongs to neighbouring Kerala.",
+          "hi": "कर्नाटक अपने कॉफी बागानों और आईटी उद्योग के लिए जाना जाता है, परंतु 'मसाला उद्यान' की उपाधि पड़ोसी राज्य केरल को प्राप्त है।"
+        },
+        "c": {
+          "en": "Assam is famous for its tea gardens, a different agricultural product from the spice production associated with Kerala.",
+          "hi": "असम अपने चाय बागानों के लिए प्रसिद्ध है, जो केरल से जुड़े मसाला उत्पादन से भिन्न कृषि उत्पाद है।"
+        }
+      },
+      "targetExam": "AISSEE"
+    },
+    {
+      "key": "bank-gk-sainik-17",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Which mountain range is traditionally regarded as the boundary dividing North India from South India (the Deccan Plateau)?",
+        "hi": "किस पर्वत श्रृंखला को परंपरागत रूप से उत्तर भारत और दक्षिण भारत (दक्कन के पठार) के बीच की सीमा माना जाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Vindhya Range",
+            "hi": "विंध्य श्रृंखला"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Aravalli Range",
+            "hi": "अरावली श्रृंखला"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Satpura Range",
+            "hi": "सतपुड़ा श्रृंखला"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Western Ghats",
+            "hi": "पश्चिमी घाट"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "The Vindhya Range, running across central India, is traditionally considered the dividing line between North India and the Deccan Plateau of South India.",
+        "hi": "मध्य भारत में फैली विंध्य श्रृंखला को परंपरागत रूप से उत्तर भारत और दक्षिण भारत के दक्कन के पठार के बीच की विभाजक रेखा माना जाता है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "The Aravalli Range lies in the north-west (mainly Rajasthan) and is not the traditional north-south dividing range; it is often confused with the Vindhyas because both are old Indian hill ranges.",
+          "hi": "अरावली श्रृंखला उत्तर-पश्चिम (मुख्यतः राजस्थान) में स्थित है और यह परंपरागत उत्तर-दक्षिण विभाजक श्रृंखला नहीं है; दोनों पुरानी भारतीय पहाड़ी श्रृंखलाएँ होने के कारण इसे अक्सर विंध्य से भ्रमित किया जाता है।"
+        },
+        "c": {
+          "en": "The Satpura Range lies just south of and parallel to the Vindhyas and is often mentioned together with it, but the traditional dividing line named in geography is the Vindhya Range.",
+          "hi": "सतपुड़ा श्रृंखला विंध्य के ठीक दक्षिण में और उसके समानांतर स्थित है तथा अक्सर इसके साथ ही उल्लेखित होती है, परंतु भूगोल में परंपरागत विभाजक रेखा के रूप में विंध्य श्रृंखला का ही नाम लिया जाता है।"
+        },
+        "d": {
+          "en": "The Western Ghats run along India's western coast from north to south and are not the range traditionally used to divide North from South India.",
+          "hi": "पश्चिमी घाट भारत के पश्चिमी तट के साथ उत्तर से दक्षिण तक फैले हैं और यह उत्तर तथा दक्षिण भारत को विभाजित करने के लिए परंपरागत रूप से प्रयुक्त श्रृंखला नहीं है।"
+        }
+      },
+      "targetExam": "AISSEE"
+    },
+    {
+      "key": "bank-gk-sainik-18",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Which is the highest mountain peak located entirely within India (not shared with any neighbouring country)?",
+        "hi": "भारत के भीतर पूरी तरह से स्थित (किसी पड़ोसी देश के साथ साझा न की गई) सबसे ऊँची पर्वत चोटी कौन-सी है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "K2",
+            "hi": "के2"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Kangchenjunga",
+            "hi": "कंचनजंगा"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Nanda Devi",
+            "hi": "नंदा देवी"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Mount Everest",
+            "hi": "माउंट एवरेस्ट"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Kangchenjunga, on the border of Sikkim, is the highest mountain peak located entirely within India, and the third-highest peak in the world.",
+        "hi": "सिक्किम की सीमा पर स्थित कंचनजंगा भारत के भीतर पूरी तरह से स्थित सबसे ऊँची पर्वत चोटी है, तथा यह विश्व की तीसरी सबसे ऊँची चोटी भी है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "K2 is the world's second-highest peak, but it lies in the Karakoram Range in Pakistan-administered territory, not entirely within India.",
+          "hi": "के2 विश्व की दूसरी सबसे ऊँची चोटी है, परंतु यह पाकिस्तान-प्रशासित क्षेत्र के काराकोरम पर्वतमाला में स्थित है, पूरी तरह भारत के भीतर नहीं।"
+        },
+        "c": {
+          "en": "Nanda Devi is a famous and high peak entirely within India, but it is lower than Kangchenjunga.",
+          "hi": "नंदा देवी भारत के भीतर पूरी तरह स्थित एक प्रसिद्ध और ऊँची चोटी है, परंतु यह कंचनजंगा से नीची है।"
+        },
+        "d": {
+          "en": "Mount Everest is the world's highest peak, but it lies on the border of Nepal and the Tibet region of China, not within India.",
+          "hi": "माउंट एवरेस्ट विश्व की सबसे ऊँची चोटी है, परंतु यह नेपाल और चीन के तिब्बत क्षेत्र की सीमा पर स्थित है, भारत के भीतर नहीं।"
+        }
+      },
+      "targetExam": "AISSEE"
+    },
+    {
+      "key": "bank-gk-sainik-19",
+      "difficulty": "HARD",
+      "content": {
+        "en": "The Tropic of Cancer passes through several Indian states including Gujarat, Madhya Pradesh, and West Bengal. Which of these states does it NOT pass through?",
+        "hi": "कर्क रेखा (ट्रॉपिक ऑफ कैंसर) गुजरात, मध्य प्रदेश और पश्चिम बंगाल सहित भारत के कई राज्यों से होकर गुजरती है। इनमें से किस राज्य से यह होकर नहीं गुजरती?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Gujarat",
+            "hi": "गुजरात"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Madhya Pradesh",
+            "hi": "मध्य प्रदेश"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Punjab",
+            "hi": "पंजाब"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "West Bengal",
+            "hi": "पश्चिम बंगाल"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "The Tropic of Cancer passes through eight Indian states, including Gujarat, Madhya Pradesh, and West Bengal, but Punjab in the far north is not one of them.",
+        "hi": "कर्क रेखा भारत के आठ राज्यों से होकर गुजरती है, जिनमें गुजरात, मध्य प्रदेश और पश्चिम बंगाल शामिल हैं, परंतु सुदूर उत्तर में स्थित पंजाब इनमें से एक नहीं है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Gujarat is indeed one of the states the Tropic of Cancer passes through, so it is not the correct answer to this 'which one does not' question.",
+          "hi": "गुजरात वास्तव में उन राज्यों में से एक है जिनसे कर्क रेखा गुजरती है, इसलिए यह इस 'कौन-सा नहीं' प्रश्न का सही उत्तर नहीं है।"
+        },
+        "b": {
+          "en": "Madhya Pradesh is genuinely crossed by the Tropic of Cancer near its middle, so it does not fit as the odd one out here.",
+          "hi": "मध्य प्रदेश वास्तव में अपने मध्य भाग के पास कर्क रेखा द्वारा पार किया जाता है, इसलिए यह यहाँ 'विषम' के रूप में उपयुक्त नहीं है।"
+        },
+        "d": {
+          "en": "West Bengal is also genuinely crossed by the Tropic of Cancer in its southern part, so it is not the state left out.",
+          "hi": "पश्चिम बंगाल भी अपने दक्षिणी भाग में वास्तव में कर्क रेखा द्वारा पार किया जाता है, इसलिए यह छोड़ा गया राज्य नहीं है।"
+        }
+      },
+      "targetExam": "AISSEE"
+    },
+    {
+      "key": "bank-gk-sainik-20",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Which Indian union territory is made up of a group of coral islands located in the Arabian Sea?",
+        "hi": "भारत का कौन-सा केंद्र शासित प्रदेश अरब सागर में स्थित प्रवाल (कोरल) द्वीपों के समूह से बना है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Andaman & Nicobar Islands",
+            "hi": "अंडमान और निकोबार द्वीपसमूह"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Puducherry",
+            "hi": "पुडुचेरी"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Daman and Diu",
+            "hi": "दमन और दीव"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Lakshadweep",
+            "hi": "लक्षद्वीप"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "Lakshadweep, in the Arabian Sea off the coast of Kerala, is India's smallest union territory, made up of a group of coral islands.",
+        "hi": "लक्षद्वीप, केरल के तट के निकट अरब सागर में स्थित है, भारत का सबसे छोटा केंद्र शासित प्रदेश है, जो प्रवाल द्वीपों के समूह से बना है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "The Andaman & Nicobar Islands are also an island union territory, but they lie in the Bay of Bengal, not the Arabian Sea.",
+          "hi": "अंडमान और निकोबार द्वीपसमूह भी एक द्वीपीय केंद्र शासित प्रदेश है, परंतु यह अरब सागर में नहीं बल्कि बंगाल की खाड़ी में स्थित है।"
+        },
+        "b": {
+          "en": "Puducherry is a union territory made up of separate coastal towns on the mainland, not a group of coral islands.",
+          "hi": "पुडुचेरी मुख्य भूमि पर स्थित अलग-अलग तटीय शहरों से बना एक केंद्र शासित प्रदेश है, प्रवाल द्वीपों का समूह नहीं।"
+        },
+        "c": {
+          "en": "Daman and Diu is a small coastal union territory on the mainland coast of Gujarat, not a set of coral islands in the sea.",
+          "hi": "दमन और दीव गुजरात के तटीय मुख्य भूमि पर स्थित एक छोटा केंद्र शासित प्रदेश है, समुद्र में प्रवाल द्वीपों का समूह नहीं।"
+        }
+      },
+      "targetExam": "AISSEE"
+    },
+    {
+      "key": "bank-gk-sainik-21",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Who is popularly known as the 'Father of the Nation' in India?",
+        "hi": "भारत में किसे लोकप्रिय रूप से 'राष्ट्रपिता' कहा जाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Mahatma Gandhi",
+            "hi": "महात्मा गांधी"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Jawaharlal Nehru",
+            "hi": "जवाहरलाल नेहरू"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Subhas Chandra Bose",
+            "hi": "सुभाष चंद्र बोस"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Bhagat Singh",
+            "hi": "भगत सिंह"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Mahatma Gandhi, who led India's freedom struggle through non-violence and truth, is popularly known as the 'Father of the Nation'.",
+        "hi": "महात्मा गांधी, जिन्होंने अहिंसा और सत्य के मार्ग से भारत के स्वतंत्रता संग्राम का नेतृत्व किया, को लोकप्रिय रूप से 'राष्ट्रपिता' कहा जाता है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Jawaharlal Nehru was India's first Prime Minister and a key freedom fighter, but the title 'Father of the Nation' belongs to Gandhi, not Nehru.",
+          "hi": "जवाहरलाल नेहरू भारत के पहले प्रधानमंत्री और एक प्रमुख स्वतंत्रता सेनानी थे, परंतु 'राष्ट्रपिता' की उपाधि गांधी जी को प्राप्त है, नेहरू जी को नहीं।"
+        },
+        "c": {
+          "en": "Subhas Chandra Bose is remembered for leading the Indian National Army and his bold approach to the freedom struggle, but he does not hold this particular title.",
+          "hi": "सुभाष चंद्र बोस को भारतीय राष्ट्रीय सेना का नेतृत्व करने और स्वतंत्रता संग्राम के प्रति उनके साहसी दृष्टिकोण के लिए याद किया जाता है, परंतु उन्हें यह विशेष उपाधि प्राप्त नहीं है।"
+        },
+        "d": {
+          "en": "Bhagat Singh is honoured as a revolutionary freedom fighter and martyr, but the 'Father of the Nation' title is specifically associated with Gandhi.",
+          "hi": "भगत सिंह को एक क्रांतिकारी स्वतंत्रता सेनानी और शहीद के रूप में सम्मानित किया जाता है, परंतु 'राष्ट्रपिता' की उपाधि विशेष रूप से गांधी जी से जुड़ी है।"
+        }
+      },
+      "targetExam": "AISSEE"
+    },
+    {
+      "key": "bank-gk-sainik-22",
+      "difficulty": "EASY",
+      "content": {
+        "en": "The Taj Mahal in Agra was built by which Mughal emperor in memory of his wife?",
+        "hi": "आगरा स्थित ताज महल किस मुगल सम्राट ने अपनी पत्नी की स्मृति में बनवाया था?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Akbar",
+            "hi": "अकबर"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Shah Jahan",
+            "hi": "शाहजहाँ"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Aurangzeb",
+            "hi": "औरंगज़ेब"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Humayun",
+            "hi": "हुमायूँ"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Emperor Shah Jahan built the Taj Mahal in Agra as a memorial to his wife, Mumtaz Mahal.",
+        "hi": "सम्राट शाहजहाँ ने आगरा में ताज महल का निर्माण अपनी पत्नी मुमताज़ महल की स्मृति में करवाया था।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Akbar was a powerful Mughal emperor known for religious tolerance and administrative reforms, but he is not the emperor who built the Taj Mahal.",
+          "hi": "अकबर धार्मिक सहिष्णुता और प्रशासनिक सुधारों के लिए प्रसिद्ध एक शक्तिशाली मुगल सम्राट थे, परंतु ताज महल बनवाने वाले सम्राट वे नहीं थे।"
+        },
+        "c": {
+          "en": "Aurangzeb was Shah Jahan's son and a later Mughal emperor, sometimes confused with his father, but he did not build the Taj Mahal.",
+          "hi": "औरंगज़ेब शाहजहाँ के पुत्र और एक बाद के मुगल सम्राट थे, जिन्हें कभी-कभी अपने पिता के साथ भ्रमित कर दिया जाता है, परंतु ताज महल उन्होंने नहीं बनवाया था।"
+        },
+        "d": {
+          "en": "Humayun was an earlier Mughal emperor, whose own tomb in Delhi is sometimes confused with the Taj Mahal, but he did not build it.",
+          "hi": "हुमायूँ एक पूर्ववर्ती मुगल सम्राट थे, जिनके दिल्ली स्थित मकबरे को कभी-कभी ताज महल से भ्रमित कर दिया जाता है, परंतु ताज महल उन्होंने नहीं बनवाया था।"
+        }
+      },
+      "targetExam": "AISSEE"
+    },
+    {
+      "key": "bank-gk-sainik-23",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Which ancient Indian centre of learning was famous for attracting students and scholars from as far away as China?",
+        "hi": "प्राचीन भारत का कौन-सा शिक्षा केंद्र चीन जैसे दूर देशों से भी विद्यार्थियों और विद्वानों को आकर्षित करने के लिए प्रसिद्ध था?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Red Fort",
+            "hi": "लाल किला"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Konark Sun Temple",
+            "hi": "कोणार्क सूर्य मंदिर"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Nalanda University",
+            "hi": "नालंदा विश्वविद्यालय"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Somnath Temple",
+            "hi": "सोमनाथ मंदिर"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Nalanda University, an ancient centre of Buddhist learning in present-day Bihar, attracted scholars and students from China, Tibet, and other distant lands.",
+        "hi": "नालंदा विश्वविद्यालय, वर्तमान बिहार में स्थित बौद्ध शिक्षा का एक प्राचीन केंद्र, चीन, तिब्बत और अन्य दूर के देशों से विद्वानों और विद्यार्थियों को आकर्षित करता था।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "The Red Fort in Delhi is a Mughal-era fort and palace complex, not an ancient centre of learning.",
+          "hi": "दिल्ली का लाल किला मुगलकालीन किला और महल परिसर है, यह कोई प्राचीन शिक्षा केंद्र नहीं है।"
+        },
+        "b": {
+          "en": "The Konark Sun Temple in Odisha is renowned for its architecture and stone carvings, not for being a centre of learning.",
+          "hi": "ओडिशा का कोणार्क सूर्य मंदिर अपनी वास्तुकला और पत्थर की नक्काशी के लिए प्रसिद्ध है, यह किसी शिक्षा केंद्र के लिए नहीं जाना जाता।"
+        },
+        "d": {
+          "en": "The Somnath Temple in Gujarat is a famous ancient temple dedicated to Lord Shiva, but it was not a centre of higher learning like Nalanda.",
+          "hi": "गुजरात का सोमनाथ मंदिर भगवान शिव को समर्पित एक प्रसिद्ध प्राचीन मंदिर है, परंतु यह नालंदा जैसा उच्च शिक्षा का केंद्र नहीं था।"
+        }
+      },
+      "targetExam": "AISSEE"
+    },
+    {
+      "key": "bank-gk-sainik-24",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "In which year did India gain independence from British rule?",
+        "hi": "भारत को ब्रिटिश शासन से किस वर्ष स्वतंत्रता प्राप्त हुई?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "1942",
+            "hi": "1942"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "1945",
+            "hi": "1945"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "1930",
+            "hi": "1930"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "1947",
+            "hi": "1947"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "India gained independence from British rule on 15 August 1947.",
+        "hi": "भारत को 15 अगस्त 1947 को ब्रिटिश शासन से स्वतंत्रता प्राप्त हुई।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "1942 is the year the Quit India Movement was launched, an important step in the freedom struggle, but independence itself came five years later.",
+          "hi": "1942 वह वर्ष है जब भारत छोड़ो आंदोलन शुरू हुआ था, जो स्वतंत्रता संग्राम का एक महत्वपूर्ण चरण था, परंतु स्वतंत्रता स्वयं पाँच वर्ष बाद मिली।"
+        },
+        "b": {
+          "en": "1945 marked the end of the Second World War, which weakened British control, but India's actual independence came two years later, in 1947.",
+          "hi": "1945 में द्वितीय विश्व युद्ध समाप्त हुआ, जिससे ब्रिटिश नियंत्रण कमजोर पड़ा, परंतु भारत की वास्तविक स्वतंत्रता इसके दो वर्ष बाद, 1947 में मिली।"
+        },
+        "c": {
+          "en": "1930 is the year of the famous Dandi (Salt) March led by Gandhi, an early milestone, but independence came much later, in 1947.",
+          "hi": "1930 वह वर्ष है जब गांधी जी के नेतृत्व में प्रसिद्ध दांडी (नमक) यात्रा हुई थी, जो एक प्रारंभिक मील का पत्थर थी, परंतु स्वतंत्रता इसके काफी बाद, 1947 में मिली।"
+        }
+      },
+      "targetExam": "AISSEE"
+    },
+    {
+      "key": "bank-gk-sainik-25",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Which Indian festival is popularly known as the 'Festival of Lights'?",
+        "hi": "भारत के किस त्योहार को लोकप्रिय रूप से 'रोशनी का त्योहार' कहा जाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Diwali",
+            "hi": "दीवाली"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Holi",
+            "hi": "होली"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Baisakhi",
+            "hi": "बैसाखी"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Onam",
+            "hi": "ओणम"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Diwali is popularly known as the 'Festival of Lights', celebrated by lighting diyas and lamps to mark the victory of light over darkness.",
+        "hi": "दीवाली को लोकप्रिय रूप से 'रोशनी का त्योहार' कहा जाता है, जिसे दीये और लैंप जलाकर मनाया जाता है, जो अंधकार पर प्रकाश की विजय का प्रतीक है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Holi is popularly known as the 'Festival of Colours', celebrated by playing with coloured powders and water, a different celebration from the festival of lights.",
+          "hi": "होली को लोकप्रिय रूप से 'रंगों का त्योहार' कहा जाता है, जिसे रंग और पानी से खेलकर मनाया जाता है, यह रोशनी के त्योहार से एक अलग उत्सव है।"
+        },
+        "c": {
+          "en": "Baisakhi is a harvest festival celebrated mainly in Punjab, marking the new harvest season, not associated with the 'lights' theme.",
+          "hi": "बैसाखी मुख्यतः पंजाब में मनाया जाने वाला एक फसल कटाई का त्योहार है, जो नई फसल के मौसम का प्रतीक है, और इसका 'रोशनी' विषय से संबंध नहीं है।"
+        },
+        "d": {
+          "en": "Onam is a harvest festival celebrated mainly in Kerala, marked by flower decorations (pookalam) and boat races, not the lights theme.",
+          "hi": "ओणम मुख्यतः केरल में मनाया जाने वाला एक फसल कटाई का त्योहार है, जिसे फूलों की सजावट (पूकलम) और नाव दौड़ के साथ मनाया जाता है, यह 'रोशनी' विषय से संबंधित नहीं है।"
+        }
+      },
+      "targetExam": "AISSEE"
+    },
+    {
+      "key": "bank-gk-sainik-26",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Who gave the famous call, 'Give me blood, and I shall give you freedom'?",
+        "hi": "'तुम मुझे खून दो, मैं तुम्हें आज़ादी दूंगा' का प्रसिद्ध नारा किसने दिया था?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Bhagat Singh",
+            "hi": "भगत सिंह"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Subhas Chandra Bose",
+            "hi": "सुभाष चंद्र बोस"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Lal Bahadur Shastri",
+            "hi": "लाल बहादुर शास्त्री"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Bal Gangadhar Tilak",
+            "hi": "बाल गंगाधर तिलक"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Subhas Chandra Bose, who led the Indian National Army, gave the famous call 'Give me blood, and I shall give you freedom' to inspire Indians to join the freedom struggle.",
+        "hi": "भारतीय राष्ट्रीय सेना का नेतृत्व करने वाले सुभाष चंद्र बोस ने भारतीयों को स्वतंत्रता संग्राम में शामिल होने के लिए प्रेरित करने हेतु 'तुम मुझे खून दो, मैं तुम्हें आज़ादी दूंगा' का प्रसिद्ध नारा दिया था।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Bhagat Singh is remembered for the slogan 'Inquilab Zindabad' (Long Live the Revolution), a different famous call from freedom struggle history.",
+          "hi": "भगत सिंह को 'इंकलाब ज़िंदाबाद' के नारे के लिए याद किया जाता है, जो स्वतंत्रता संग्राम के इतिहास का एक अलग प्रसिद्ध नारा है।"
+        },
+        "c": {
+          "en": "Lal Bahadur Shastri, India's second Prime Minister, is remembered for the slogan 'Jai Jawan Jai Kisan', not this call for blood and freedom.",
+          "hi": "भारत के दूसरे प्रधानमंत्री लाल बहादुर शास्त्री को 'जय जवान जय किसान' के नारे के लिए याद किया जाता है, न कि खून और आज़ादी वाले इस नारे के लिए।"
+        },
+        "d": {
+          "en": "Bal Gangadhar Tilak is remembered for the phrase 'Swaraj is my birthright', a different rallying cry from the freedom movement.",
+          "hi": "बाल गंगाधर तिलक को 'स्वराज्य मेरा जन्मसिद्ध अधिकार है' वाक्य के लिए याद किया जाता है, जो स्वतंत्रता आंदोलन का एक अलग नारा है।"
+        }
+      },
+      "targetExam": "AISSEE"
+    },
+    {
+      "key": "bank-gk-sainik-27",
+      "difficulty": "HARD",
+      "content": {
+        "en": "The ancient Harappan (Indus Valley) Civilization is especially well known for which advanced feature of its city planning?",
+        "hi": "प्राचीन हड़प्पा (सिंधु घाटी) सभ्यता अपने नगर नियोजन की किस उन्नत विशेषता के लिए विशेष रूप से जानी जाती है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Tall wooden watchtowers",
+            "hi": "ऊँचे लकड़ी के प्रहरी मीनार"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Iron pillars that never rust",
+            "hi": "जंग न लगने वाले लोहे के स्तंभ"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Well-planned covered drainage systems",
+            "hi": "सुव्यवस्थित ढकी हुई जल निकासी प्रणाली"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Marble domes on public buildings",
+            "hi": "सार्वजनिक भवनों पर संगमरमर के गुंबद"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "The Harappan Civilization is famous for its advanced urban planning, including well-planned, covered drainage systems along straight streets — remarkable for such an ancient period.",
+        "hi": "हड़प्पा सभ्यता अपने उन्नत नगर नियोजन के लिए प्रसिद्ध है, जिसमें सीधी सड़कों के साथ सुव्यवस्थित, ढकी हुई जल निकासी प्रणाली शामिल थी — जो इतने प्राचीन काल के लिए उल्लेखनीय है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Tall wooden watchtowers are not a feature particularly associated with Harappan cities, which are instead noted for planned streets and brick houses.",
+          "hi": "ऊँचे लकड़ी के प्रहरी मीनार हड़प्पा नगरों से विशेष रूप से जुड़ी कोई विशेषता नहीं है; इसके बजाय ये नियोजित सड़कों और ईंटों के घरों के लिए जाने जाते हैं।"
+        },
+        "b": {
+          "en": "Rust-resistant iron pillars, like the famous Iron Pillar of Delhi, belong to a much later period of Indian history, not the Harappan era.",
+          "hi": "जंग न लगने वाले लोहे के स्तंभ, जैसे दिल्ली का प्रसिद्ध लौह स्तंभ, भारतीय इतिहास के बहुत बाद के काल से संबंधित हैं, हड़प्पा काल से नहीं।"
+        },
+        "d": {
+          "en": "Marble domes on buildings are a feature of much later Mughal-era architecture, not of the ancient Harappan cities.",
+          "hi": "भवनों पर संगमरमर के गुंबद बहुत बाद के मुगलकालीन वास्तुकला की विशेषता हैं, प्राचीन हड़प्पा नगरों की नहीं।"
+        }
+      },
+      "targetExam": "AISSEE"
+    },
+    {
+      "key": "bank-gk-sainik-28",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Which Mauryan emperor adopted Buddhism after the Kalinga war and spread its message of peace through edicts inscribed on rocks and pillars?",
+        "hi": "किस मौर्य सम्राट ने कलिंग युद्ध के बाद बौद्ध धर्म अपनाया और शिलालेखों तथा स्तंभों पर उत्कीर्ण आदेशों के माध्यम से शांति का संदेश फैलाया?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Chandragupta Maurya",
+            "hi": "चंद्रगुप्त मौर्य"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Bindusara",
+            "hi": "बिन्दुसार"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Chanakya",
+            "hi": "चाणक्य"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Ashoka",
+            "hi": "अशोक"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "Emperor Ashoka, deeply moved by the bloodshed of the Kalinga war, adopted Buddhism and spread messages of peace and dharma through edicts carved on rocks and pillars across his empire.",
+        "hi": "सम्राट अशोक कलिंग युद्ध की रक्तपात से गहराई से प्रभावित हुए, उन्होंने बौद्ध धर्म अपनाया और अपने साम्राज्य भर में शिलाओं तथा स्तंभों पर उत्कीर्ण आदेशों के माध्यम से शांति और धर्म का संदेश फैलाया।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Chandragupta Maurya was the founder of the Mauryan Empire and Ashoka's grandfather, but it was Ashoka, not Chandragupta, who fought the Kalinga war and adopted Buddhism.",
+          "hi": "चंद्रगुप्त मौर्य मौर्य साम्राज्य के संस्थापक और अशोक के दादा थे, परंतु कलिंग युद्ध लड़ने और बौद्ध धर्म अपनाने वाले चंद्रगुप्त नहीं, अशोक थे।"
+        },
+        "b": {
+          "en": "Bindusara was Ashoka's father and the second Mauryan emperor, but the Kalinga war and conversion to Buddhism are associated with his son Ashoka.",
+          "hi": "बिन्दुसार अशोक के पिता और दूसरे मौर्य सम्राट थे, परंतु कलिंग युद्ध और बौद्ध धर्म में परिवर्तन उनके पुत्र अशोक से जुड़ा है।"
+        },
+        "c": {
+          "en": "Chanakya was the wise advisor and minister who helped Chandragupta Maurya establish the empire, not an emperor himself, and had no connection to the Kalinga war.",
+          "hi": "चाणक्य एक बुद्धिमान सलाहकार और मंत्री थे जिन्होंने चंद्रगुप्त मौर्य को साम्राज्य स्थापित करने में सहायता की, वे स्वयं सम्राट नहीं थे, और कलिंग युद्ध से उनका कोई संबंध नहीं था।"
+        }
+      },
+      "targetExam": "AISSEE"
+    },
+    {
+      "key": "bank-gk-sainik-29",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Who served as the first Governor-General of independent India (from August 1947)?",
+        "hi": "स्वतंत्र भारत के पहले गवर्नर-जनरल (अगस्त 1947 से) के रूप में किसने कार्य किया?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Lord Mountbatten",
+            "hi": "लॉर्ड माउंटबेटन"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Lord Curzon",
+            "hi": "लॉर्ड कर्ज़न"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Lord Wavell",
+            "hi": "लॉर्ड वेवेल"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Lord Canning",
+            "hi": "लॉर्ड कैनिंग"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Lord Mountbatten, who had been the last Viceroy of British India, continued for a time as the first Governor-General of independent India after August 1947.",
+        "hi": "लॉर्ड माउंटबेटन, जो ब्रिटिश भारत के अंतिम वायसराय थे, अगस्त 1947 के बाद कुछ समय के लिए स्वतंत्र भारत के पहले गवर्नर-जनरल के रूप में बने रहे।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Lord Curzon was a Viceroy of British India in the early 1900s, well before independence, remembered for the controversial partition of Bengal in 1905.",
+          "hi": "लॉर्ड कर्ज़न 1900 के दशक की शुरुआत में, स्वतंत्रता से काफी पहले, ब्रिटिश भारत के वायसराय थे, और उन्हें 1905 में बंगाल के विवादास्पद विभाजन के लिए याद किया जाता है।"
+        },
+        "c": {
+          "en": "Lord Wavell was the Viceroy of India just before Mountbatten, but it was Mountbatten who oversaw independence and became the first Governor-General.",
+          "hi": "लॉर्ड वेवेल माउंटबेटन से ठीक पहले भारत के वायसराय थे, परंतु स्वतंत्रता की देखरेख करने वाले और पहले गवर्नर-जनरल बनने वाले माउंटबेटन ही थे।"
+        },
+        "d": {
+          "en": "Lord Canning was the first Viceroy of India in the mid-1800s, a much earlier colonial-era figure, unrelated to 1947's independence.",
+          "hi": "लॉर्ड कैनिंग 1800 के दशक के मध्य में भारत के पहले वायसराय थे, जो 1947 की स्वतंत्रता से बहुत पहले के औपनिवेशिक काल के व्यक्ति थे।"
+        }
+      },
+      "targetExam": "AISSEE"
+    },
+    {
+      "key": "bank-gk-sainik-30",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Which 1757 battle marked the beginning of British political control over parts of India?",
+        "hi": "1757 के किस युद्ध ने भारत के कुछ हिस्सों पर ब्रिटिश राजनीतिक नियंत्रण की शुरुआत को चिह्नित किया?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Battle of Panipat",
+            "hi": "पानीपत का युद्ध"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Battle of Plassey",
+            "hi": "प्लासी का युद्ध"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Battle of Buxar",
+            "hi": "बक्सर का युद्ध"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Battle of Haldighati",
+            "hi": "हल्दीघाटी का युद्ध"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "The Battle of Plassey in 1757, where the British East India Company defeated Nawab Siraj-ud-Daulah of Bengal, marked the beginning of British political control in India.",
+        "hi": "1757 का प्लासी का युद्ध, जिसमें ब्रिटिश ईस्ट इंडिया कंपनी ने बंगाल के नवाब सिराजुद्दौला को हराया, भारत में ब्रिटिश राजनीतिक नियंत्रण की शुरुआत का प्रतीक था।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "The Battles of Panipat were fought at different times in Indian history (1526, 1556, 1761) between Indian rulers, none of which mark the start of British political control.",
+          "hi": "पानीपत के युद्ध भारतीय इतिहास में अलग-अलग समयों (1526, 1556, 1761) पर भारतीय शासकों के बीच लड़े गए थे, इनमें से कोई भी ब्रिटिश राजनीतिक नियंत्रण की शुरुआत को चिह्नित नहीं करता।"
+        },
+        "c": {
+          "en": "The Battle of Buxar in 1764 further strengthened British control and is often confused with Plassey, but it was Plassey in 1757 that marked the actual beginning.",
+          "hi": "1764 का बक्सर का युद्ध ब्रिटिश नियंत्रण को और मजबूत करता है और इसे अक्सर प्लासी से भ्रमित किया जाता है, परंतु वास्तविक शुरुआत का प्रतीक 1757 का प्लासी युद्ध ही था।"
+        },
+        "d": {
+          "en": "The Battle of Haldighati (1576) was fought between Maharana Pratap and the Mughal forces, an entirely different historical episode unrelated to British rule.",
+          "hi": "हल्दीघाटी का युद्ध (1576) महाराणा प्रताप और मुगल सेना के बीच लड़ा गया था, जो ब्रिटिश शासन से पूरी तरह असंबंधित एक भिन्न ऐतिहासिक घटना है।"
+        }
+      },
+      "targetExam": "AISSEE"
+    },
+    {
+      "key": "bank-gk-sainik-31",
+      "difficulty": "EASY",
+      "content": {
+        "en": "On which date does India celebrate its Independence Day every year?",
+        "hi": "भारत प्रतिवर्ष किस तिथि को अपना स्वतंत्रता दिवस मनाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "26 January",
+            "hi": "26 जनवरी"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "2 October",
+            "hi": "2 अक्टूबर"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "15 August",
+            "hi": "15 अगस्त"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "14 November",
+            "hi": "14 नवंबर"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "India celebrates Independence Day on 15 August every year, the day in 1947 when it gained freedom from British rule.",
+        "hi": "भारत प्रतिवर्ष 15 अगस्त को स्वतंत्रता दिवस मनाता है, जो 1947 में ब्रिटिश शासन से आज़ादी मिलने के दिन का प्रतीक है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "26 January is Republic Day, marking when the Constitution came into effect in 1950, a separate national holiday from Independence Day.",
+          "hi": "26 जनवरी गणतंत्र दिवस है, जो 1950 में संविधान लागू होने का प्रतीक है, यह स्वतंत्रता दिवस से एक अलग राष्ट्रीय अवकाश है।"
+        },
+        "b": {
+          "en": "2 October is Gandhi Jayanti, the birth anniversary of Mahatma Gandhi, not the date of independence itself.",
+          "hi": "2 अक्टूबर गांधी जयंती है, जो महात्मा गांधी की जयंती है, न कि स्वयं स्वतंत्रता की तिथि।"
+        },
+        "d": {
+          "en": "14 November is Children's Day, marking Jawaharlal Nehru's birthday, unrelated to India's independence date.",
+          "hi": "14 नवंबर बाल दिवस है, जो जवाहरलाल नेहरू के जन्मदिन का प्रतीक है, इसका भारत की स्वतंत्रता की तिथि से कोई संबंध नहीं है।"
+        }
+      },
+      "targetExam": "AISSEE"
+    },
+    {
+      "key": "bank-gk-sainik-32",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Which branch of India's Armed Forces is primarily responsible for defending the country's land borders?",
+        "hi": "भारत के सशस्त्र बलों की कौन-सी शाखा देश की थल सीमाओं की रक्षा के लिए मुख्य रूप से जिम्मेदार है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Indian Navy",
+            "hi": "भारतीय नौसेना"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Indian Air Force",
+            "hi": "भारतीय वायुसेना"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Indian Coast Guard",
+            "hi": "भारतीय तटरक्षक बल"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Indian Army",
+            "hi": "भारतीय सेना (थल सेना)"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "The Indian Army is the branch of the Armed Forces primarily responsible for defending the country's land borders and conducting ground operations.",
+        "hi": "भारतीय सेना (थल सेना) सशस्त्र बलों की वह शाखा है जो देश की थल सीमाओं की रक्षा और भूमि पर होने वाले सैन्य अभियानों के लिए मुख्य रूप से जिम्मेदार है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "The Indian Navy is responsible for defending India's maritime borders and interests at sea, not primarily its land borders.",
+          "hi": "भारतीय नौसेना समुद्र में भारत की समुद्री सीमाओं और हितों की रक्षा के लिए जिम्मेदार है, मुख्यतः थल सीमाओं के लिए नहीं।"
+        },
+        "b": {
+          "en": "The Indian Air Force is responsible for defending Indian airspace and providing air support, not primarily guarding land borders on the ground.",
+          "hi": "भारतीय वायुसेना भारतीय हवाई क्षेत्र की रक्षा और वायु सहायता प्रदान करने के लिए जिम्मेदार है, मुख्यतः ज़मीन पर थल सीमाओं की रखवाली के लिए नहीं।"
+        },
+        "c": {
+          "en": "The Indian Coast Guard mainly safeguards maritime zones, checks smuggling, and assists during sea emergencies, rather than guarding land borders.",
+          "hi": "भारतीय तटरक्षक बल मुख्यतः समुद्री क्षेत्रों की सुरक्षा करता है, तस्करी रोकता है और समुद्री आपातकाल में सहायता करता है, थल सीमाओं की रखवाली नहीं।"
+        }
+      },
+      "targetExam": "AISSEE"
+    },
+    {
+      "key": "bank-gk-sainik-33",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Which is the highest military gallantry award in India, given for the most conspicuous bravery in the presence of the enemy?",
+        "hi": "भारत का सर्वोच्च सैन्य वीरता पुरस्कार कौन-सा है, जो शत्रु के समक्ष असाधारण वीरता के लिए दिया जाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Param Vir Chakra",
+            "hi": "परम वीर चक्र"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Ashoka Chakra",
+            "hi": "अशोक चक्र"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Vir Chakra",
+            "hi": "वीर चक्र"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Shaurya Chakra",
+            "hi": "शौर्य चक्र"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "The Param Vir Chakra is India's highest military gallantry award, given for the most conspicuous bravery displayed in the presence of the enemy.",
+        "hi": "परम वीर चक्र भारत का सर्वोच्च सैन्य वीरता पुरस्कार है, जो शत्रु के समक्ष प्रदर्शित सर्वाधिक असाधारण वीरता के लिए दिया जाता है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "The Ashoka Chakra is India's highest gallantry award, but for bravery shown away from the battlefield (peacetime), not in the presence of the enemy.",
+          "hi": "अशोक चक्र भारत का सर्वोच्च वीरता पुरस्कार है, परंतु यह युद्धक्षेत्र से दूर (शांतिकाल) में दिखाई गई वीरता के लिए है, शत्रु के समक्ष के लिए नहीं।"
+        },
+        "c": {
+          "en": "The Vir Chakra is also awarded for bravery in the presence of the enemy, but it ranks third, below both the Param Vir Chakra and the Maha Vir Chakra.",
+          "hi": "वीर चक्र भी शत्रु के समक्ष वीरता के लिए दिया जाता है, परंतु यह परम वीर चक्र और महावीर चक्र दोनों से नीचे, तीसरे स्थान पर आता है।"
+        },
+        "d": {
+          "en": "The Shaurya Chakra is a gallantry award for bravery shown away from the battlefield, ranking below the Ashoka and Kirti Chakras, and is not the top wartime award.",
+          "hi": "शौर्य चक्र युद्धक्षेत्र से दूर दिखाई गई वीरता के लिए एक पुरस्कार है, जो अशोक चक्र और कीर्ति चक्र दोनों से नीचे आता है, और यह शीर्ष युद्धकालीन पुरस्कार नहीं है।"
+        }
+      },
+      "targetExam": "AISSEE"
+    },
+    {
+      "key": "bank-gk-sainik-34",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "The National Defence Academy (NDA), which trains cadets for the Army, Navy, and Air Force together, is located near which city?",
+        "hi": "राष्ट्रीय रक्षा अकादमी (एनडीए), जो सेना, नौसेना और वायुसेना के कैडेटों को एक साथ प्रशिक्षित करती है, किस शहर के निकट स्थित है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Dehradun",
+            "hi": "देहरादून"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Pune (Khadakwasla)",
+            "hi": "पुणे (खड़कवासला)"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Wellington",
+            "hi": "वेलिंग्टन"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Jaipur",
+            "hi": "जयपुर"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "The National Defence Academy is located at Khadakwasla, near Pune in Maharashtra, and is the joint training institution for the Army, Navy, and Air Force.",
+        "hi": "राष्ट्रीय रक्षा अकादमी महाराष्ट्र के पुणे के निकट खड़कवासला में स्थित है, तथा यह सेना, नौसेना और वायुसेना के लिए संयुक्त प्रशिक्षण संस्थान है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Dehradun is home to the Indian Military Academy, which trains Army officer cadets specifically, not the joint tri-services NDA.",
+          "hi": "देहरादून भारतीय सैन्य अकादमी का स्थान है, जो विशेष रूप से सेना के अधिकारी कैडेटों को प्रशिक्षित करती है, संयुक्त त्रि-सेवा एनडीए को नहीं।"
+        },
+        "c": {
+          "en": "Wellington in Tamil Nadu hosts the Defence Services Staff College for training officers in advanced strategy, not the NDA for fresh cadets.",
+          "hi": "तमिलनाडु का वेलिंग्टन उन्नत रणनीति में अधिकारियों को प्रशिक्षित करने वाले रक्षा सेवा स्टाफ कॉलेज का स्थान है, नए कैडेटों के लिए एनडीए का नहीं।"
+        },
+        "d": {
+          "en": "Jaipur is a major city with military establishments, but the National Defence Academy itself is not located there.",
+          "hi": "जयपुर सैन्य प्रतिष्ठानों वाला एक प्रमुख शहर है, परंतु राष्ट्रीय रक्षा अकादमी स्वयं वहाँ स्थित नहीं है।"
+        }
+      },
+      "targetExam": "AISSEE"
+    },
+    {
+      "key": "bank-gk-sainik-35",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Sainik Schools in India were primarily established with the aim of preparing students for entry into which of the following?",
+        "hi": "भारत में सैनिक स्कूलों की स्थापना मुख्यतः किसमें प्रवेश के लिए विद्यार्थियों को तैयार करने के उद्देश्य से की गई थी?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Civil services examinations",
+            "hi": "सिविल सेवा परीक्षाएँ"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Medical entrance examinations",
+            "hi": "चिकित्सा प्रवेश परीक्षाएँ"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "National Defence Academy and the armed forces",
+            "hi": "राष्ट्रीय रक्षा अकादमी और सशस्त्र बल"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Engineering entrance examinations",
+            "hi": "इंजीनियरिंग प्रवेश परीक्षाएँ"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Sainik Schools were established to prepare students academically and physically for entry into the National Defence Academy and to become officers in the Armed Forces.",
+        "hi": "सैनिक स्कूलों की स्थापना विद्यार्थियों को शैक्षणिक और शारीरिक रूप से राष्ट्रीय रक्षा अकादमी में प्रवेश तथा सशस्त्र बलों में अधिकारी बनने के लिए तैयार करने हेतु की गई थी।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Civil services examinations prepare candidates for administrative posts, a different career path from the Armed Forces focus of Sainik Schools.",
+          "hi": "सिविल सेवा परीक्षाएँ प्रशासनिक पदों के लिए उम्मीदवारों को तैयार करती हैं, जो सैनिक स्कूलों के सशस्त्र बल केंद्रित उद्देश्य से एक अलग करियर मार्ग है।"
+        },
+        "b": {
+          "en": "Medical entrance examinations prepare students for careers in medicine, unrelated to the defence-oriented purpose of Sainik Schools.",
+          "hi": "चिकित्सा प्रवेश परीक्षाएँ विद्यार्थियों को चिकित्सा क्षेत्र के करियर के लिए तैयार करती हैं, जिसका सैनिक स्कूलों के रक्षा-उन्मुख उद्देश्य से कोई संबंध नहीं है।"
+        },
+        "d": {
+          "en": "Engineering entrance examinations lead to technical careers, a different goal from the military officer training pathway that Sainik Schools are designed for.",
+          "hi": "इंजीनियरिंग प्रवेश परीक्षाएँ तकनीकी करियर की ओर ले जाती हैं, जो सैनिक स्कूलों द्वारा तैयार किए जाने वाले सैन्य अधिकारी प्रशिक्षण मार्ग से एक अलग लक्ष्य है।"
+        }
+      },
+      "targetExam": "AISSEE"
+    },
+    {
+      "key": "bank-gk-sainik-36",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "What does 'PVC', the abbreviation for India's highest military gallantry award, stand for?",
+        "hi": "भारत के सर्वोच्च सैन्य वीरता पुरस्कार के संक्षिप्त नाम 'पीवीसी' का पूर्ण रूप क्या है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Police Valour Cross",
+            "hi": "पुलिस वीरता क्रॉस"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Presidential Victory Cross",
+            "hi": "राष्ट्रपति विजय क्रॉस"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Public Valour Certificate",
+            "hi": "जन वीरता प्रमाणपत्र"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Param Vir Chakra",
+            "hi": "परम वीर चक्र"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "PVC stands for Param Vir Chakra, India's highest military decoration, awarded for the most conspicuous acts of bravery in the presence of the enemy.",
+        "hi": "पीवीसी का अर्थ है परम वीर चक्र, जो भारत का सर्वोच्च सैन्य सम्मान है, और शत्रु के समक्ष सर्वाधिक असाधारण वीरता के कार्यों के लिए प्रदान किया जाता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "'Police Valour Cross' is not a real award and is not what PVC stands for; India's highest gallantry award is a purely military honour.",
+          "hi": "'पुलिस वीरता क्रॉस' कोई वास्तविक पुरस्कार नहीं है और पीवीसी का यह अर्थ नहीं है; भारत का सर्वोच्च वीरता पुरस्कार पूर्णतः एक सैन्य सम्मान है।"
+        },
+        "b": {
+          "en": "'Presidential Victory Cross' is not the correct expansion; while the award is presented by the President, its actual name has nothing to do with 'victory'.",
+          "hi": "'राष्ट्रपति विजय क्रॉस' सही पूर्ण रूप नहीं है; हालाँकि यह पुरस्कार राष्ट्रपति द्वारा प्रदान किया जाता है, इसका वास्तविक नाम 'विजय' से संबंधित नहीं है।"
+        },
+        "c": {
+          "en": "'Public Valour Certificate' is not the real meaning; the award is a military decoration (a chakra/medal), not a certificate.",
+          "hi": "'जन वीरता प्रमाणपत्र' वास्तविक अर्थ नहीं है; यह पुरस्कार एक सैन्य सम्मान (चक्र/पदक) है, कोई प्रमाणपत्र नहीं।"
+        }
+      },
+      "targetExam": "AISSEE"
+    },
+    {
+      "key": "bank-gk-sainik-37",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Which gallantry award is considered India's highest honour for bravery displayed away from the battlefield, that is, not in the presence of the enemy?",
+        "hi": "किस वीरता पुरस्कार को भारत का सर्वोच्च सम्मान माना जाता है, जो युद्धक्षेत्र से दूर, अर्थात शत्रु की उपस्थिति के बिना, दिखाई गई वीरता के लिए दिया जाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Ashoka Chakra",
+            "hi": "अशोक चक्र"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Param Vir Chakra",
+            "hi": "परम वीर चक्र"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Maha Vir Chakra",
+            "hi": "महावीर चक्र"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Vir Chakra",
+            "hi": "वीर चक्र"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "The Ashoka Chakra is India's highest peacetime gallantry award, given for the most conspicuous bravery shown away from the battlefield, and is considered equivalent in status to the Param Vir Chakra.",
+        "hi": "अशोक चक्र भारत का सर्वोच्च शांतिकालीन वीरता पुरस्कार है, जो युद्धक्षेत्र से दूर दिखाई गई सर्वाधिक असाधारण वीरता के लिए दिया जाता है, तथा इसे परम वीर चक्र के समकक्ष दर्जा प्राप्त है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "The Param Vir Chakra is India's highest gallantry award, but specifically for bravery shown in the presence of the enemy on the battlefield, not away from it.",
+          "hi": "परम वीर चक्र भारत का सर्वोच्च वीरता पुरस्कार है, परंतु यह विशेष रूप से युद्धक्षेत्र में शत्रु की उपस्थिति में दिखाई गई वीरता के लिए है, इससे दूर के लिए नहीं।"
+        },
+        "c": {
+          "en": "The Maha Vir Chakra is the second-highest wartime gallantry award, given for bravery in the presence of the enemy, not for peacetime acts.",
+          "hi": "महावीर चक्र दूसरा सर्वोच्च युद्धकालीन वीरता पुरस्कार है, जो शत्रु की उपस्थिति में वीरता के लिए दिया जाता है, शांतिकालीन कार्यों के लिए नहीं।"
+        },
+        "d": {
+          "en": "The Vir Chakra is the third wartime gallantry award for bravery in the presence of the enemy, ranking below both the Param Vir Chakra and Maha Vir Chakra, and is not a peacetime honour.",
+          "hi": "वीर चक्र शत्रु की उपस्थिति में वीरता के लिए तीसरा युद्धकालीन पुरस्कार है, जो परम वीर चक्र और महावीर चक्र दोनों से नीचे आता है, और यह कोई शांतिकालीन सम्मान नहीं है।"
+        }
+      },
+      "targetExam": "AISSEE"
+    },
+    {
+      "key": "bank-gk-sainik-38",
+      "difficulty": "HARD",
+      "content": {
+        "en": "The Territorial Army in India acts as a second line of defence and is mainly made up of what kind of personnel?",
+        "hi": "भारत में प्रादेशिक सेना (टेरिटोरियल आर्मी) रक्षा की दूसरी पंक्ति के रूप में कार्य करती है और यह मुख्यतः किस प्रकार के कार्मिकों से बनी होती है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Full-time career soldiers only",
+            "hi": "केवल पूर्णकालिक पेशेवर सैनिक"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Volunteer citizen-soldiers from civilian professions",
+            "hi": "नागरिक व्यवसायों से आए स्वयंसेवी नागरिक-सैनिक"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Foreign military advisors",
+            "hi": "विदेशी सैन्य सलाहकार"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Serving police officers only",
+            "hi": "केवल कार्यरत पुलिस अधिकारी"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "The Territorial Army is a volunteer organisation made up of citizens from regular civilian professions who receive part-time military training and can be called upon to support the regular Army when needed.",
+        "hi": "प्रादेशिक सेना एक स्वयंसेवी संगठन है, जो नियमित नागरिक व्यवसायों से जुड़े नागरिकों से बनी होती है, जो अंशकालिक सैन्य प्रशिक्षण प्राप्त करते हैं और आवश्यकता पड़ने पर नियमित सेना की सहायता के लिए बुलाए जा सकते हैं।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Full-time career soldiers make up the regular Indian Army, whereas the Territorial Army's distinct feature is that its members are part-time volunteers with regular civilian jobs.",
+          "hi": "पूर्णकालिक पेशेवर सैनिक नियमित भारतीय सेना का हिस्सा होते हैं, जबकि प्रादेशिक सेना की विशेष पहचान यह है कि इसके सदस्य नियमित नागरिक नौकरियों वाले अंशकालिक स्वयंसेवक होते हैं।"
+        },
+        "c": {
+          "en": "Foreign military advisors have no role in the Territorial Army, which is composed entirely of Indian civilian volunteers.",
+          "hi": "प्रादेशिक सेना में विदेशी सैन्य सलाहकारों की कोई भूमिका नहीं होती, यह पूर्णतः भारतीय नागरिक स्वयंसेवकों से बनी होती है।"
+        },
+        "d": {
+          "en": "Serving police officers are part of civil police forces under state governments, a completely separate organisation from the Territorial Army.",
+          "hi": "कार्यरत पुलिस अधिकारी राज्य सरकारों के अधीन नागरिक पुलिस बलों का हिस्सा होते हैं, जो प्रादेशिक सेना से पूर्णतः अलग संगठन है।"
+        }
+      },
+      "targetExam": "AISSEE"
+    },
+    {
+      "key": "bank-gk-sainik-39",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Which gallantry award ranks as the second-highest wartime honour for bravery in the presence of the enemy, just below the Param Vir Chakra?",
+        "hi": "कौन-सा वीरता पुरस्कार, परम वीर चक्र के ठीक नीचे, शत्रु की उपस्थिति में वीरता के लिए दूसरा सर्वोच्च युद्धकालीन सम्मान माना जाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Vir Chakra",
+            "hi": "वीर चक्र"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Shaurya Chakra",
+            "hi": "शौर्य चक्र"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Maha Vir Chakra",
+            "hi": "महावीर चक्र"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Sena Medal",
+            "hi": "सेना पदक"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "The Maha Vir Chakra is India's second-highest wartime gallantry award, ranking just below the Param Vir Chakra, given for acts of conspicuous bravery in the presence of the enemy.",
+        "hi": "महावीर चक्र भारत का दूसरा सर्वोच्च युद्धकालीन वीरता पुरस्कार है, जो परम वीर चक्र के ठीक नीचे आता है, तथा शत्रु की उपस्थिति में असाधारण वीरता के कार्यों के लिए दिया जाता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "The Vir Chakra is also a wartime gallantry award, but it ranks third, below both the Param Vir Chakra and the Maha Vir Chakra.",
+          "hi": "वीर चक्र भी एक युद्धकालीन वीरता पुरस्कार है, परंतु यह परम वीर चक्र और महावीर चक्र दोनों से नीचे, तीसरे स्थान पर आता है।"
+        },
+        "b": {
+          "en": "The Shaurya Chakra is awarded for peacetime bravery, not for acts in the presence of the enemy, so it is not part of this wartime ranking.",
+          "hi": "शौर्य चक्र शांतिकालीन वीरता के लिए दिया जाता है, शत्रु की उपस्थिति में किए गए कार्यों के लिए नहीं, इसलिए यह इस युद्धकालीन क्रम का हिस्सा नहीं है।"
+        },
+        "d": {
+          "en": "The Sena Medal is awarded for distinguished, meritorious service in the Army, a different and lower category of recognition than the top gallantry chakras.",
+          "hi": "सेना पदक सेना में विशिष्ट, प्रशंसनीय सेवा के लिए दिया जाता है, जो शीर्ष वीरता चक्रों की तुलना में एक अलग और निम्न श्रेणी की मान्यता है।"
+        }
+      },
+      "targetExam": "AISSEE"
+    },
+    {
+      "key": "bank-gk-sainik-40",
+      "difficulty": "HARD",
+      "content": {
+        "en": "The Indian Military Academy (IMA), which trains cadets to become commissioned officers of the Indian Army, is located in which city?",
+        "hi": "भारतीय सैन्य अकादमी (आईएमए), जो कैडेटों को भारतीय सेना का कमीशंड अधिकारी बनने हेतु प्रशिक्षित करती है, किस शहर में स्थित है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Pune",
+            "hi": "पुणे"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Wellington",
+            "hi": "वेलिंग्टन"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Chennai",
+            "hi": "चेन्नई"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Dehradun",
+            "hi": "देहरादून"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "The Indian Military Academy is located in Dehradun, Uttarakhand, where cadets are trained to become commissioned officers of the Indian Army.",
+        "hi": "भारतीय सैन्य अकादमी उत्तराखंड के देहरादून में स्थित है, जहाँ कैडेटों को भारतीय सेना का कमीशंड अधिकारी बनने के लिए प्रशिक्षित किया जाता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Pune (Khadakwasla) is home to the National Defence Academy, the joint tri-services institution, not the Army-specific Indian Military Academy.",
+          "hi": "पुणे (खड़कवासला) राष्ट्रीय रक्षा अकादमी का स्थान है, जो संयुक्त त्रि-सेवा संस्थान है, सेना-विशिष्ट भारतीय सैन्य अकादमी नहीं।"
+        },
+        "b": {
+          "en": "Wellington in Tamil Nadu is home to the Defence Services Staff College for advanced officer training, not the initial officer training given at the IMA.",
+          "hi": "तमिलनाडु का वेलिंग्टन उन्नत अधिकारी प्रशिक्षण के लिए रक्षा सेवा स्टाफ कॉलेज का स्थान है, आईएमए में दिए जाने वाले प्रारंभिक अधिकारी प्रशिक्षण का नहीं।"
+        },
+        "c": {
+          "en": "Chennai (Officers Training Academy) trains officers for short-service commissions, a different institution from the Indian Military Academy in Dehradun.",
+          "hi": "चेन्नई (ऑफिसर्स ट्रेनिंग अकादमी) लघु-सेवा कमीशन के लिए अधिकारियों को प्रशिक्षित करती है, जो देहरादून स्थित भारतीय सैन्य अकादमी से एक अलग संस्थान है।"
+        }
+      },
+      "targetExam": "AISSEE"
+    }
+  ]
+}

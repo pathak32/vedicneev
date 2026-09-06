@@ -1,0 +1,2327 @@
+{
+  "section": "profit_loss_interest",
+  "topicKey": "profit_loss_interest",
+  "generatedAt": "2026-09-05T15:38:16.676Z",
+  "questions": [
+    {
+      "key": "bank-ar-plinterest-percent-01",
+      "difficulty": "EASY",
+      "content": {
+        "en": "A shopkeeper buys an item for ₹100 and sells it for ₹120. What is the profit percent?",
+        "hi": "एक दुकानदार एक वस्तु ₹100 में खरीदता है और ₹120 में बेचता है। लाभ प्रतिशत क्या है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "20%",
+            "hi": "20%"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "16.67%",
+            "hi": "16.67%"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "25%",
+            "hi": "25%"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "26%",
+            "hi": "26%"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Profit = |₹120 − ₹100| = ₹20. Profit% = (20 ÷ 100) × 100 = 20%.",
+        "hi": "लाभ = |₹120 − ₹100| = ₹20। लाभ% = (20 ÷ 100) × 100 = 20%।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Divides by the Selling Price instead of the Cost Price — profit/loss percent is always calculated on the ORIGINAL cost.",
+          "hi": "क्रय मूल्य के बजाय विक्रय मूल्य से भाग देता है — लाभ/हानि प्रतिशत हमेशा मूल क्रय मूल्य पर निकाला जाता है।"
+        },
+        "c": {
+          "en": "Divides the difference by 100 directly instead of by the Cost Price.",
+          "hi": "अंतर को क्रय मूल्य के बजाय सीधे 100 से भाग देता है।"
+        },
+        "d": {
+          "en": "Off by a few percentage points — a small arithmetic slip in the final calculation.",
+          "hi": "कुछ प्रतिशत अंकों की चूक — अंतिम गणना में एक छोटी सी अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-plinterest-percent-02",
+      "difficulty": "EASY",
+      "content": {
+        "en": "A shopkeeper buys an item for ₹200 and sells it for ₹180. What is the loss percent?",
+        "hi": "एक दुकानदार एक वस्तु ₹200 में खरीदता है और ₹180 में बेचता है। हानि प्रतिशत क्या है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "11.11%",
+            "hi": "11.11%"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "10%",
+            "hi": "10%"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "20%",
+            "hi": "20%"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "15%",
+            "hi": "15%"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Loss = |₹180 − ₹200| = ₹20. Loss% = (20 ÷ 200) × 100 = 10%.",
+        "hi": "हानि = |₹180 − ₹200| = ₹20। हानि% = (20 ÷ 200) × 100 = 10%।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Divides by the Selling Price instead of the Cost Price — profit/loss percent is always calculated on the ORIGINAL cost.",
+          "hi": "क्रय मूल्य के बजाय विक्रय मूल्य से भाग देता है — लाभ/हानि प्रतिशत हमेशा मूल क्रय मूल्य पर निकाला जाता है।"
+        },
+        "c": {
+          "en": "Divides the difference by 100 directly instead of by the Cost Price.",
+          "hi": "अंतर को क्रय मूल्य के बजाय सीधे 100 से भाग देता है।"
+        },
+        "d": {
+          "en": "Off by a few percentage points — a small arithmetic slip in the final calculation.",
+          "hi": "कुछ प्रतिशत अंकों की चूक — अंतिम गणना में एक छोटी सी अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-plinterest-percent-03",
+      "difficulty": "EASY",
+      "content": {
+        "en": "A shopkeeper buys an item for ₹250 and sells it for ₹300. What is the profit percent?",
+        "hi": "एक दुकानदार एक वस्तु ₹250 में खरीदता है और ₹300 में बेचता है। लाभ प्रतिशत क्या है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "16.67%",
+            "hi": "16.67%"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "50%",
+            "hi": "50%"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "20%",
+            "hi": "20%"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "25%",
+            "hi": "25%"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Profit = |₹300 − ₹250| = ₹50. Profit% = (50 ÷ 250) × 100 = 20%.",
+        "hi": "लाभ = |₹300 − ₹250| = ₹50। लाभ% = (50 ÷ 250) × 100 = 20%।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Divides by the Selling Price instead of the Cost Price — profit/loss percent is always calculated on the ORIGINAL cost.",
+          "hi": "क्रय मूल्य के बजाय विक्रय मूल्य से भाग देता है — लाभ/हानि प्रतिशत हमेशा मूल क्रय मूल्य पर निकाला जाता है।"
+        },
+        "b": {
+          "en": "Divides the difference by 100 directly instead of by the Cost Price.",
+          "hi": "अंतर को क्रय मूल्य के बजाय सीधे 100 से भाग देता है।"
+        },
+        "d": {
+          "en": "Off by a few percentage points — a small arithmetic slip in the final calculation.",
+          "hi": "कुछ प्रतिशत अंकों की चूक — अंतिम गणना में एक छोटी सी अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-plinterest-percent-04",
+      "difficulty": "EASY",
+      "content": {
+        "en": "A shopkeeper buys an item for ₹400 and sells it for ₹360. What is the loss percent?",
+        "hi": "एक दुकानदार एक वस्तु ₹400 में खरीदता है और ₹360 में बेचता है। हानि प्रतिशत क्या है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "11.11%",
+            "hi": "11.11%"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "40%",
+            "hi": "40%"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "15%",
+            "hi": "15%"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "10%",
+            "hi": "10%"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "Loss = |₹360 − ₹400| = ₹40. Loss% = (40 ÷ 400) × 100 = 10%.",
+        "hi": "हानि = |₹360 − ₹400| = ₹40। हानि% = (40 ÷ 400) × 100 = 10%।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Divides by the Selling Price instead of the Cost Price — profit/loss percent is always calculated on the ORIGINAL cost.",
+          "hi": "क्रय मूल्य के बजाय विक्रय मूल्य से भाग देता है — लाभ/हानि प्रतिशत हमेशा मूल क्रय मूल्य पर निकाला जाता है।"
+        },
+        "b": {
+          "en": "Divides the difference by 100 directly instead of by the Cost Price.",
+          "hi": "अंतर को क्रय मूल्य के बजाय सीधे 100 से भाग देता है।"
+        },
+        "c": {
+          "en": "Off by a few percentage points — a small arithmetic slip in the final calculation.",
+          "hi": "कुछ प्रतिशत अंकों की चूक — अंतिम गणना में एक छोटी सी अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-plinterest-percent-05",
+      "difficulty": "EASY",
+      "content": {
+        "en": "A shopkeeper buys an item for ₹150 and sells it for ₹165. What is the profit percent?",
+        "hi": "एक दुकानदार एक वस्तु ₹150 में खरीदता है और ₹165 में बेचता है। लाभ प्रतिशत क्या है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "10%",
+            "hi": "10%"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "9.09%",
+            "hi": "9.09%"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "15%",
+            "hi": "15%"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "16%",
+            "hi": "16%"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Profit = |₹165 − ₹150| = ₹15. Profit% = (15 ÷ 150) × 100 = 10%.",
+        "hi": "लाभ = |₹165 − ₹150| = ₹15। लाभ% = (15 ÷ 150) × 100 = 10%।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Divides by the Selling Price instead of the Cost Price — profit/loss percent is always calculated on the ORIGINAL cost.",
+          "hi": "क्रय मूल्य के बजाय विक्रय मूल्य से भाग देता है — लाभ/हानि प्रतिशत हमेशा मूल क्रय मूल्य पर निकाला जाता है।"
+        },
+        "c": {
+          "en": "Divides the difference by 100 directly instead of by the Cost Price.",
+          "hi": "अंतर को क्रय मूल्य के बजाय सीधे 100 से भाग देता है।"
+        },
+        "d": {
+          "en": "Off by a few percentage points — a small arithmetic slip in the final calculation.",
+          "hi": "कुछ प्रतिशत अंकों की चूक — अंतिम गणना में एक छोटी सी अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-plinterest-percent-06",
+      "difficulty": "EASY",
+      "content": {
+        "en": "A shopkeeper buys an item for ₹500 and sells it for ₹450. What is the loss percent?",
+        "hi": "एक दुकानदार एक वस्तु ₹500 में खरीदता है और ₹450 में बेचता है। हानि प्रतिशत क्या है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "11.11%",
+            "hi": "11.11%"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "10%",
+            "hi": "10%"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "50%",
+            "hi": "50%"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "15%",
+            "hi": "15%"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Loss = |₹450 − ₹500| = ₹50. Loss% = (50 ÷ 500) × 100 = 10%.",
+        "hi": "हानि = |₹450 − ₹500| = ₹50। हानि% = (50 ÷ 500) × 100 = 10%।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Divides by the Selling Price instead of the Cost Price — profit/loss percent is always calculated on the ORIGINAL cost.",
+          "hi": "क्रय मूल्य के बजाय विक्रय मूल्य से भाग देता है — लाभ/हानि प्रतिशत हमेशा मूल क्रय मूल्य पर निकाला जाता है।"
+        },
+        "c": {
+          "en": "Divides the difference by 100 directly instead of by the Cost Price.",
+          "hi": "अंतर को क्रय मूल्य के बजाय सीधे 100 से भाग देता है।"
+        },
+        "d": {
+          "en": "Off by a few percentage points — a small arithmetic slip in the final calculation.",
+          "hi": "कुछ प्रतिशत अंकों की चूक — अंतिम गणना में एक छोटी सी अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-plinterest-percent-07",
+      "difficulty": "EASY",
+      "content": {
+        "en": "A shopkeeper buys an item for ₹80 and sells it for ₹100. What is the profit percent?",
+        "hi": "एक दुकानदार एक वस्तु ₹80 में खरीदता है और ₹100 में बेचता है। लाभ प्रतिशत क्या है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "20%",
+            "hi": "20%"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "30%",
+            "hi": "30%"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "25%",
+            "hi": "25%"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "31%",
+            "hi": "31%"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Profit = |₹100 − ₹80| = ₹20. Profit% = (20 ÷ 80) × 100 = 25%.",
+        "hi": "लाभ = |₹100 − ₹80| = ₹20। लाभ% = (20 ÷ 80) × 100 = 25%।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Divides by the Selling Price instead of the Cost Price — profit/loss percent is always calculated on the ORIGINAL cost.",
+          "hi": "क्रय मूल्य के बजाय विक्रय मूल्य से भाग देता है — लाभ/हानि प्रतिशत हमेशा मूल क्रय मूल्य पर निकाला जाता है।"
+        },
+        "b": {
+          "en": "Divides the difference by 100 directly instead of by the Cost Price.",
+          "hi": "अंतर को क्रय मूल्य के बजाय सीधे 100 से भाग देता है।"
+        },
+        "d": {
+          "en": "Off by a few percentage points — a small arithmetic slip in the final calculation.",
+          "hi": "कुछ प्रतिशत अंकों की चूक — अंतिम गणना में एक छोटी सी अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-plinterest-percent-08",
+      "difficulty": "EASY",
+      "content": {
+        "en": "A shopkeeper buys an item for ₹600 and sells it for ₹540. What is the loss percent?",
+        "hi": "एक दुकानदार एक वस्तु ₹600 में खरीदता है और ₹540 में बेचता है। हानि प्रतिशत क्या है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "11.11%",
+            "hi": "11.11%"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "60%",
+            "hi": "60%"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "15%",
+            "hi": "15%"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "10%",
+            "hi": "10%"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "Loss = |₹540 − ₹600| = ₹60. Loss% = (60 ÷ 600) × 100 = 10%.",
+        "hi": "हानि = |₹540 − ₹600| = ₹60। हानि% = (60 ÷ 600) × 100 = 10%।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Divides by the Selling Price instead of the Cost Price — profit/loss percent is always calculated on the ORIGINAL cost.",
+          "hi": "क्रय मूल्य के बजाय विक्रय मूल्य से भाग देता है — लाभ/हानि प्रतिशत हमेशा मूल क्रय मूल्य पर निकाला जाता है।"
+        },
+        "b": {
+          "en": "Divides the difference by 100 directly instead of by the Cost Price.",
+          "hi": "अंतर को क्रय मूल्य के बजाय सीधे 100 से भाग देता है।"
+        },
+        "c": {
+          "en": "Off by a few percentage points — a small arithmetic slip in the final calculation.",
+          "hi": "कुछ प्रतिशत अंकों की चूक — अंतिम गणना में एक छोटी सी अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-plinterest-percent-09",
+      "difficulty": "EASY",
+      "content": {
+        "en": "A shopkeeper buys an item for ₹120 and sells it for ₹150. What is the profit percent?",
+        "hi": "एक दुकानदार एक वस्तु ₹120 में खरीदता है और ₹150 में बेचता है। लाभ प्रतिशत क्या है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "25%",
+            "hi": "25%"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "20%",
+            "hi": "20%"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "30%",
+            "hi": "30%"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "31%",
+            "hi": "31%"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Profit = |₹150 − ₹120| = ₹30. Profit% = (30 ÷ 120) × 100 = 25%.",
+        "hi": "लाभ = |₹150 − ₹120| = ₹30। लाभ% = (30 ÷ 120) × 100 = 25%।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Divides by the Selling Price instead of the Cost Price — profit/loss percent is always calculated on the ORIGINAL cost.",
+          "hi": "क्रय मूल्य के बजाय विक्रय मूल्य से भाग देता है — लाभ/हानि प्रतिशत हमेशा मूल क्रय मूल्य पर निकाला जाता है।"
+        },
+        "c": {
+          "en": "Divides the difference by 100 directly instead of by the Cost Price.",
+          "hi": "अंतर को क्रय मूल्य के बजाय सीधे 100 से भाग देता है।"
+        },
+        "d": {
+          "en": "Off by a few percentage points — a small arithmetic slip in the final calculation.",
+          "hi": "कुछ प्रतिशत अंकों की चूक — अंतिम गणना में एक छोटी सी अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-plinterest-percent-10",
+      "difficulty": "EASY",
+      "content": {
+        "en": "A shopkeeper buys an item for ₹300 and sells it for ₹270. What is the loss percent?",
+        "hi": "एक दुकानदार एक वस्तु ₹300 में खरीदता है और ₹270 में बेचता है। हानि प्रतिशत क्या है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "11.11%",
+            "hi": "11.11%"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "10%",
+            "hi": "10%"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "30%",
+            "hi": "30%"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "15%",
+            "hi": "15%"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Loss = |₹270 − ₹300| = ₹30. Loss% = (30 ÷ 300) × 100 = 10%.",
+        "hi": "हानि = |₹270 − ₹300| = ₹30। हानि% = (30 ÷ 300) × 100 = 10%।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Divides by the Selling Price instead of the Cost Price — profit/loss percent is always calculated on the ORIGINAL cost.",
+          "hi": "क्रय मूल्य के बजाय विक्रय मूल्य से भाग देता है — लाभ/हानि प्रतिशत हमेशा मूल क्रय मूल्य पर निकाला जाता है।"
+        },
+        "c": {
+          "en": "Divides the difference by 100 directly instead of by the Cost Price.",
+          "hi": "अंतर को क्रय मूल्य के बजाय सीधे 100 से भाग देता है।"
+        },
+        "d": {
+          "en": "Off by a few percentage points — a small arithmetic slip in the final calculation.",
+          "hi": "कुछ प्रतिशत अंकों की चूक — अंतिम गणना में एक छोटी सी अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-plinterest-findsp-01",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "A shopkeeper buys an item for ₹200 and wants to make a profit of 10%. At what price should they sell it?",
+        "hi": "एक दुकानदार एक वस्तु ₹200 में खरीदता है और 10% लाभ कमाना चाहता है। उसे इसे किस मूल्य पर बेचना चाहिए?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "₹20",
+            "hi": "₹20"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "₹220",
+            "hi": "₹220"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "₹180",
+            "hi": "₹180"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "₹230",
+            "hi": "₹230"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "SP = CP × (1 + Profit%/100) = ₹200 × (1 + 10/100) = ₹200 × 1.1 = ₹220.",
+        "hi": "SP = CP × (1 + लाभ%/100) = ₹200 × (1 + 10/100) = ₹200 × 1.1 = ₹220।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This is just the PROFIT amount, not the final Selling Price — forgets to add it back to the Cost Price.",
+          "hi": "यह केवल लाभ की राशि है, अंतिम विक्रय मूल्य नहीं — इसे क्रय मूल्य में वापस जोड़ना भूल जाता है।"
+        },
+        "c": {
+          "en": "Subtracts the percentage instead of adding it — treats a profit like a loss.",
+          "hi": "प्रतिशत को जोड़ने के बजाय घटा देता है — लाभ को हानि जैसा मान लेता है।"
+        },
+        "d": {
+          "en": "Off by a small amount — a rounding or arithmetic slip in the final calculation.",
+          "hi": "थोड़ी सी चूक — अंतिम गणना में पूर्णांकन या अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-plinterest-findsp-02",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "A shopkeeper buys an item for ₹500 and wants to make a profit of 20%. At what price should they sell it?",
+        "hi": "एक दुकानदार एक वस्तु ₹500 में खरीदता है और 20% लाभ कमाना चाहता है। उसे इसे किस मूल्य पर बेचना चाहिए?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "₹100",
+            "hi": "₹100"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "₹400",
+            "hi": "₹400"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "₹600",
+            "hi": "₹600"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "₹610",
+            "hi": "₹610"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "SP = CP × (1 + Profit%/100) = ₹500 × (1 + 20/100) = ₹500 × 1.2 = ₹600.",
+        "hi": "SP = CP × (1 + लाभ%/100) = ₹500 × (1 + 20/100) = ₹500 × 1.2 = ₹600।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This is just the PROFIT amount, not the final Selling Price — forgets to add it back to the Cost Price.",
+          "hi": "यह केवल लाभ की राशि है, अंतिम विक्रय मूल्य नहीं — इसे क्रय मूल्य में वापस जोड़ना भूल जाता है।"
+        },
+        "b": {
+          "en": "Subtracts the percentage instead of adding it — treats a profit like a loss.",
+          "hi": "प्रतिशत को जोड़ने के बजाय घटा देता है — लाभ को हानि जैसा मान लेता है।"
+        },
+        "d": {
+          "en": "Off by a small amount — a rounding or arithmetic slip in the final calculation.",
+          "hi": "थोड़ी सी चूक — अंतिम गणना में पूर्णांकन या अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-plinterest-findsp-03",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "A shopkeeper buys an item for ₹350 and wants to make a profit of 8%. At what price should they sell it?",
+        "hi": "एक दुकानदार एक वस्तु ₹350 में खरीदता है और 8% लाभ कमाना चाहता है। उसे इसे किस मूल्य पर बेचना चाहिए?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "₹28",
+            "hi": "₹28"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "₹322",
+            "hi": "₹322"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "₹388",
+            "hi": "₹388"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "₹378",
+            "hi": "₹378"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "SP = CP × (1 + Profit%/100) = ₹350 × (1 + 8/100) = ₹350 × 1.08 = ₹378.",
+        "hi": "SP = CP × (1 + लाभ%/100) = ₹350 × (1 + 8/100) = ₹350 × 1.08 = ₹378।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This is just the PROFIT amount, not the final Selling Price — forgets to add it back to the Cost Price.",
+          "hi": "यह केवल लाभ की राशि है, अंतिम विक्रय मूल्य नहीं — इसे क्रय मूल्य में वापस जोड़ना भूल जाता है।"
+        },
+        "b": {
+          "en": "Subtracts the percentage instead of adding it — treats a profit like a loss.",
+          "hi": "प्रतिशत को जोड़ने के बजाय घटा देता है — लाभ को हानि जैसा मान लेता है।"
+        },
+        "c": {
+          "en": "Off by a small amount — a rounding or arithmetic slip in the final calculation.",
+          "hi": "थोड़ी सी चूक — अंतिम गणना में पूर्णांकन या अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-plinterest-findsp-04",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "A shopkeeper buys an item for ₹800 and wants to make a profit of 15%. At what price should they sell it?",
+        "hi": "एक दुकानदार एक वस्तु ₹800 में खरीदता है और 15% लाभ कमाना चाहता है। उसे इसे किस मूल्य पर बेचना चाहिए?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "₹920",
+            "hi": "₹920"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "₹120",
+            "hi": "₹120"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "₹680",
+            "hi": "₹680"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "₹930",
+            "hi": "₹930"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "SP = CP × (1 + Profit%/100) = ₹800 × (1 + 15/100) = ₹800 × 1.15 = ₹920.",
+        "hi": "SP = CP × (1 + लाभ%/100) = ₹800 × (1 + 15/100) = ₹800 × 1.15 = ₹920।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "This is just the PROFIT amount, not the final Selling Price — forgets to add it back to the Cost Price.",
+          "hi": "यह केवल लाभ की राशि है, अंतिम विक्रय मूल्य नहीं — इसे क्रय मूल्य में वापस जोड़ना भूल जाता है।"
+        },
+        "c": {
+          "en": "Subtracts the percentage instead of adding it — treats a profit like a loss.",
+          "hi": "प्रतिशत को जोड़ने के बजाय घटा देता है — लाभ को हानि जैसा मान लेता है।"
+        },
+        "d": {
+          "en": "Off by a small amount — a rounding or arithmetic slip in the final calculation.",
+          "hi": "थोड़ी सी चूक — अंतिम गणना में पूर्णांकन या अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-plinterest-findsp-05",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "A shopkeeper buys an item for ₹250 and wants to make a profit of 12%. At what price should they sell it?",
+        "hi": "एक दुकानदार एक वस्तु ₹250 में खरीदता है और 12% लाभ कमाना चाहता है। उसे इसे किस मूल्य पर बेचना चाहिए?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "₹30",
+            "hi": "₹30"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "₹280",
+            "hi": "₹280"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "₹220",
+            "hi": "₹220"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "₹290",
+            "hi": "₹290"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "SP = CP × (1 + Profit%/100) = ₹250 × (1 + 12/100) = ₹250 × 1.12 = ₹280.",
+        "hi": "SP = CP × (1 + लाभ%/100) = ₹250 × (1 + 12/100) = ₹250 × 1.12 = ₹280।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This is just the PROFIT amount, not the final Selling Price — forgets to add it back to the Cost Price.",
+          "hi": "यह केवल लाभ की राशि है, अंतिम विक्रय मूल्य नहीं — इसे क्रय मूल्य में वापस जोड़ना भूल जाता है।"
+        },
+        "c": {
+          "en": "Subtracts the percentage instead of adding it — treats a profit like a loss.",
+          "hi": "प्रतिशत को जोड़ने के बजाय घटा देता है — लाभ को हानि जैसा मान लेता है।"
+        },
+        "d": {
+          "en": "Off by a small amount — a rounding or arithmetic slip in the final calculation.",
+          "hi": "थोड़ी सी चूक — अंतिम गणना में पूर्णांकन या अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-plinterest-findcp-01",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "A shopkeeper sells an item for ₹180, incurring a loss of 10%. What was the Cost Price?",
+        "hi": "एक दुकानदार एक वस्तु ₹180 में बेचता है, जिसमें उसे 10% की हानि होती है। क्रय मूल्य क्या था?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "₹162",
+            "hi": "₹162"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "₹198",
+            "hi": "₹198"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "₹200",
+            "hi": "₹200"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "₹190",
+            "hi": "₹190"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "SP = CP × (1 − Loss%/100), so CP = SP ÷ (1 − Loss%/100) = ₹180 ÷ 0.9 = ₹200.",
+        "hi": "SP = CP × (1 − हानि%/100), इसलिए CP = SP ÷ (1 − हानि%/100) = ₹180 ÷ 0.9 = ₹200।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Multiplies SP by the loss factor instead of dividing by it — the loss is a percentage OF the cost price, not of the selling price.",
+          "hi": "हानि कारक से विक्रय मूल्य को भाग देने के बजाय गुणा कर देता है — हानि विक्रय मूल्य का नहीं, क्रय मूल्य का प्रतिशत होती है।"
+        },
+        "b": {
+          "en": "Adds the percentage instead of subtracting it — treats a loss like a profit.",
+          "hi": "प्रतिशत को घटाने के बजाय जोड़ देता है — हानि को लाभ जैसा मान लेता है।"
+        },
+        "d": {
+          "en": "Off by a small amount — a rounding or arithmetic slip in the final calculation.",
+          "hi": "थोड़ी सी चूक — अंतिम गणना में पूर्णांकन या अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-plinterest-findcp-02",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "A shopkeeper sells an item for ₹460, incurring a loss of 8%. What was the Cost Price?",
+        "hi": "एक दुकानदार एक वस्तु ₹460 में बेचता है, जिसमें उसे 8% की हानि होती है। क्रय मूल्य क्या था?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "₹423.2",
+            "hi": "₹423.2"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "₹496.8",
+            "hi": "₹496.8"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "₹490",
+            "hi": "₹490"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "₹500",
+            "hi": "₹500"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "SP = CP × (1 − Loss%/100), so CP = SP ÷ (1 − Loss%/100) = ₹460 ÷ 0.92 = ₹500.",
+        "hi": "SP = CP × (1 − हानि%/100), इसलिए CP = SP ÷ (1 − हानि%/100) = ₹460 ÷ 0.92 = ₹500।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Multiplies SP by the loss factor instead of dividing by it — the loss is a percentage OF the cost price, not of the selling price.",
+          "hi": "हानि कारक से विक्रय मूल्य को भाग देने के बजाय गुणा कर देता है — हानि विक्रय मूल्य का नहीं, क्रय मूल्य का प्रतिशत होती है।"
+        },
+        "b": {
+          "en": "Adds the percentage instead of subtracting it — treats a loss like a profit.",
+          "hi": "प्रतिशत को घटाने के बजाय जोड़ देता है — हानि को लाभ जैसा मान लेता है।"
+        },
+        "c": {
+          "en": "Off by a small amount — a rounding or arithmetic slip in the final calculation.",
+          "hi": "थोड़ी सी चूक — अंतिम गणना में पूर्णांकन या अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-plinterest-findcp-03",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "A shopkeeper sells an item for ₹342, incurring a loss of 5%. What was the Cost Price?",
+        "hi": "एक दुकानदार एक वस्तु ₹342 में बेचता है, जिसमें उसे 5% की हानि होती है। क्रय मूल्य क्या था?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "₹360",
+            "hi": "₹360"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "₹324.9",
+            "hi": "₹324.9"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "₹359.1",
+            "hi": "₹359.1"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "₹350",
+            "hi": "₹350"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "SP = CP × (1 − Loss%/100), so CP = SP ÷ (1 − Loss%/100) = ₹342 ÷ 0.95 = ₹360.",
+        "hi": "SP = CP × (1 − हानि%/100), इसलिए CP = SP ÷ (1 − हानि%/100) = ₹342 ÷ 0.95 = ₹360।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Multiplies SP by the loss factor instead of dividing by it — the loss is a percentage OF the cost price, not of the selling price.",
+          "hi": "हानि कारक से विक्रय मूल्य को भाग देने के बजाय गुणा कर देता है — हानि विक्रय मूल्य का नहीं, क्रय मूल्य का प्रतिशत होती है।"
+        },
+        "c": {
+          "en": "Adds the percentage instead of subtracting it — treats a loss like a profit.",
+          "hi": "प्रतिशत को घटाने के बजाय जोड़ देता है — हानि को लाभ जैसा मान लेता है।"
+        },
+        "d": {
+          "en": "Off by a small amount — a rounding or arithmetic slip in the final calculation.",
+          "hi": "थोड़ी सी चूक — अंतिम गणना में पूर्णांकन या अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-plinterest-findcp-04",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "A shopkeeper sells an item for ₹680, incurring a loss of 15%. What was the Cost Price?",
+        "hi": "एक दुकानदार एक वस्तु ₹680 में बेचता है, जिसमें उसे 15% की हानि होती है। क्रय मूल्य क्या था?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "₹578",
+            "hi": "₹578"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "₹800",
+            "hi": "₹800"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "₹782",
+            "hi": "₹782"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "₹790",
+            "hi": "₹790"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "SP = CP × (1 − Loss%/100), so CP = SP ÷ (1 − Loss%/100) = ₹680 ÷ 0.85 = ₹800.",
+        "hi": "SP = CP × (1 − हानि%/100), इसलिए CP = SP ÷ (1 − हानि%/100) = ₹680 ÷ 0.85 = ₹800।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Multiplies SP by the loss factor instead of dividing by it — the loss is a percentage OF the cost price, not of the selling price.",
+          "hi": "हानि कारक से विक्रय मूल्य को भाग देने के बजाय गुणा कर देता है — हानि विक्रय मूल्य का नहीं, क्रय मूल्य का प्रतिशत होती है।"
+        },
+        "c": {
+          "en": "Adds the percentage instead of subtracting it — treats a loss like a profit.",
+          "hi": "प्रतिशत को घटाने के बजाय जोड़ देता है — हानि को लाभ जैसा मान लेता है।"
+        },
+        "d": {
+          "en": "Off by a small amount — a rounding or arithmetic slip in the final calculation.",
+          "hi": "थोड़ी सी चूक — अंतिम गणना में पूर्णांकन या अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-plinterest-findcp-05",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "A shopkeeper sells an item for ₹216, incurring a loss of 10%. What was the Cost Price?",
+        "hi": "एक दुकानदार एक वस्तु ₹216 में बेचता है, जिसमें उसे 10% की हानि होती है। क्रय मूल्य क्या था?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "₹194.4",
+            "hi": "₹194.4"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "₹237.6",
+            "hi": "₹237.6"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "₹240",
+            "hi": "₹240"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "₹230",
+            "hi": "₹230"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "SP = CP × (1 − Loss%/100), so CP = SP ÷ (1 − Loss%/100) = ₹216 ÷ 0.9 = ₹240.",
+        "hi": "SP = CP × (1 − हानि%/100), इसलिए CP = SP ÷ (1 − हानि%/100) = ₹216 ÷ 0.9 = ₹240।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Multiplies SP by the loss factor instead of dividing by it — the loss is a percentage OF the cost price, not of the selling price.",
+          "hi": "हानि कारक से विक्रय मूल्य को भाग देने के बजाय गुणा कर देता है — हानि विक्रय मूल्य का नहीं, क्रय मूल्य का प्रतिशत होती है।"
+        },
+        "b": {
+          "en": "Adds the percentage instead of subtracting it — treats a loss like a profit.",
+          "hi": "प्रतिशत को घटाने के बजाय जोड़ देता है — हानि को लाभ जैसा मान लेता है।"
+        },
+        "d": {
+          "en": "Off by a small amount — a rounding or arithmetic slip in the final calculation.",
+          "hi": "थोड़ी सी चूक — अंतिम गणना में पूर्णांकन या अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-plinterest-basicsi-01",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Find the Simple Interest on ₹1000 at 5% per annum for 2 years.",
+        "hi": "₹1000 पर 5% वार्षिक दर से 2 वर्षों का साधारण ब्याज ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "₹100",
+            "hi": "₹100"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "₹50",
+            "hi": "₹50"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "₹20",
+            "hi": "₹20"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "₹110",
+            "hi": "₹110"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "SI = (P × R × T) ÷ 100 = (1000 × 5 × 2) ÷ 100 = ₹100.",
+        "hi": "SI = (P × R × T) ÷ 100 = (1000 × 5 × 2) ÷ 100 = ₹100।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Forgets to multiply by the time period (2 years) — only computes interest for a single year.",
+          "hi": "समय अवधि (2 वर्ष) से गुणा करना भूल जाता है — केवल एक वर्ष का ब्याज निकालता है।"
+        },
+        "c": {
+          "en": "Uses the time period in place of the rate of interest — mixes up the two numbers in the formula.",
+          "hi": "ब्याज दर के स्थान पर समय अवधि का उपयोग कर देता है — सूत्र में दोनों संख्याओं को गड़बड़ा देता है।"
+        },
+        "d": {
+          "en": "Off by a small amount — a rounding or arithmetic slip in the final calculation.",
+          "hi": "थोड़ी सी चूक — अंतिम गणना में पूर्णांकन या अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-plinterest-basicsi-02",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Find the Simple Interest on ₹2000 at 6% per annum for 3 years.",
+        "hi": "₹2000 पर 6% वार्षिक दर से 3 वर्षों का साधारण ब्याज ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "₹120",
+            "hi": "₹120"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "₹360",
+            "hi": "₹360"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "₹60",
+            "hi": "₹60"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "₹380",
+            "hi": "₹380"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "SI = (P × R × T) ÷ 100 = (2000 × 6 × 3) ÷ 100 = ₹360.",
+        "hi": "SI = (P × R × T) ÷ 100 = (2000 × 6 × 3) ÷ 100 = ₹360।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Forgets to multiply by the time period (3 years) — only computes interest for a single year.",
+          "hi": "समय अवधि (3 वर्ष) से गुणा करना भूल जाता है — केवल एक वर्ष का ब्याज निकालता है।"
+        },
+        "c": {
+          "en": "Uses the time period in place of the rate of interest — mixes up the two numbers in the formula.",
+          "hi": "ब्याज दर के स्थान पर समय अवधि का उपयोग कर देता है — सूत्र में दोनों संख्याओं को गड़बड़ा देता है।"
+        },
+        "d": {
+          "en": "Off by a small amount — a rounding or arithmetic slip in the final calculation.",
+          "hi": "थोड़ी सी चूक — अंतिम गणना में पूर्णांकन या अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-plinterest-basicsi-03",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Find the Simple Interest on ₹1500 at 4% per annum for 4 years.",
+        "hi": "₹1500 पर 4% वार्षिक दर से 4 वर्षों का साधारण ब्याज ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "₹60",
+            "hi": "₹60"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "₹255",
+            "hi": "₹255"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "₹240",
+            "hi": "₹240"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "₹270",
+            "hi": "₹270"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "SI = (P × R × T) ÷ 100 = (1500 × 4 × 4) ÷ 100 = ₹240.",
+        "hi": "SI = (P × R × T) ÷ 100 = (1500 × 4 × 4) ÷ 100 = ₹240।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Forgets to multiply by the time period (4 years) — only computes interest for a single year.",
+          "hi": "समय अवधि (4 वर्ष) से गुणा करना भूल जाता है — केवल एक वर्ष का ब्याज निकालता है।"
+        },
+        "b": {
+          "en": "Uses the time period in place of the rate of interest — mixes up the two numbers in the formula.",
+          "hi": "ब्याज दर के स्थान पर समय अवधि का उपयोग कर देता है — सूत्र में दोनों संख्याओं को गड़बड़ा देता है।"
+        },
+        "d": {
+          "en": "Off by a small amount — a rounding or arithmetic slip in the final calculation.",
+          "hi": "थोड़ी सी चूक — अंतिम गणना में पूर्णांकन या अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-plinterest-basicsi-04",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Find the Simple Interest on ₹5000 at 8% per annum for 2 years.",
+        "hi": "₹5000 पर 8% वार्षिक दर से 2 वर्षों का साधारण ब्याज ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "₹400",
+            "hi": "₹400"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "₹100",
+            "hi": "₹100"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "₹850",
+            "hi": "₹850"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "₹800",
+            "hi": "₹800"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "SI = (P × R × T) ÷ 100 = (5000 × 8 × 2) ÷ 100 = ₹800.",
+        "hi": "SI = (P × R × T) ÷ 100 = (5000 × 8 × 2) ÷ 100 = ₹800।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Forgets to multiply by the time period (2 years) — only computes interest for a single year.",
+          "hi": "समय अवधि (2 वर्ष) से गुणा करना भूल जाता है — केवल एक वर्ष का ब्याज निकालता है।"
+        },
+        "b": {
+          "en": "Uses the time period in place of the rate of interest — mixes up the two numbers in the formula.",
+          "hi": "ब्याज दर के स्थान पर समय अवधि का उपयोग कर देता है — सूत्र में दोनों संख्याओं को गड़बड़ा देता है।"
+        },
+        "c": {
+          "en": "Off by a small amount — a rounding or arithmetic slip in the final calculation.",
+          "hi": "थोड़ी सी चूक — अंतिम गणना में पूर्णांकन या अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-plinterest-basicsi-05",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Find the Simple Interest on ₹800 at 10% per annum for 3 years.",
+        "hi": "₹800 पर 10% वार्षिक दर से 3 वर्षों का साधारण ब्याज ज्ञात करें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "₹240",
+            "hi": "₹240"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "₹80",
+            "hi": "₹80"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "₹24",
+            "hi": "₹24"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "₹248",
+            "hi": "₹248"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "SI = (P × R × T) ÷ 100 = (800 × 10 × 3) ÷ 100 = ₹240.",
+        "hi": "SI = (P × R × T) ÷ 100 = (800 × 10 × 3) ÷ 100 = ₹240।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Forgets to multiply by the time period (3 years) — only computes interest for a single year.",
+          "hi": "समय अवधि (3 वर्ष) से गुणा करना भूल जाता है — केवल एक वर्ष का ब्याज निकालता है।"
+        },
+        "c": {
+          "en": "Uses the time period in place of the rate of interest — mixes up the two numbers in the formula.",
+          "hi": "ब्याज दर के स्थान पर समय अवधि का उपयोग कर देता है — सूत्र में दोनों संख्याओं को गड़बड़ा देता है।"
+        },
+        "d": {
+          "en": "Off by a small amount — a rounding or arithmetic slip in the final calculation.",
+          "hi": "थोड़ी सी चूक — अंतिम गणना में पूर्णांकन या अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-plinterest-findprincipal-01",
+      "difficulty": "HARD",
+      "content": {
+        "en": "A sum of money earns a Simple Interest of ₹300 at 6% per annum over 5 years. What was the Principal?",
+        "hi": "एक धनराशि पर 6% वार्षिक दर से 5 वर्षों में ₹300 का साधारण ब्याज मिलता है। मूलधन क्या था?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "₹9000",
+            "hi": "₹9000"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "₹1000",
+            "hi": "₹1000"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "₹5000",
+            "hi": "₹5000"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "₹1100",
+            "hi": "₹1100"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "SI = (P × R × T) ÷ 100, so P = (SI × 100) ÷ (R × T) = (300 × 100) ÷ (6 × 5) = ₹1000.",
+        "hi": "SI = (P × R × T) ÷ 100, इसलिए P = (SI × 100) ÷ (R × T) = (300 × 100) ÷ (6 × 5) = ₹1000।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Multiplies SI by rate and time instead of dividing — inverts the rearranged formula.",
+          "hi": "भाग देने के बजाय SI को दर और समय से गुणा कर देता है — पुनर्व्यवस्थित सूत्र को उल्टा कर देता है।"
+        },
+        "c": {
+          "en": "Divides by the rate only, forgetting to also divide by the time period.",
+          "hi": "केवल दर से भाग देता है, समय अवधि से भी भाग देना भूल जाता है।"
+        },
+        "d": {
+          "en": "Off by a small amount — a rounding or arithmetic slip in the final calculation.",
+          "hi": "थोड़ी सी चूक — अंतिम गणना में पूर्णांकन या अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-plinterest-findprincipal-02",
+      "difficulty": "HARD",
+      "content": {
+        "en": "A sum of money earns a Simple Interest of ₹480 at 8% per annum over 4 years. What was the Principal?",
+        "hi": "एक धनराशि पर 8% वार्षिक दर से 4 वर्षों में ₹480 का साधारण ब्याज मिलता है। मूलधन क्या था?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "₹15360",
+            "hi": "₹15360"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "₹6000",
+            "hi": "₹6000"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "₹1500",
+            "hi": "₹1500"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "₹1600",
+            "hi": "₹1600"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "SI = (P × R × T) ÷ 100, so P = (SI × 100) ÷ (R × T) = (480 × 100) ÷ (8 × 4) = ₹1500.",
+        "hi": "SI = (P × R × T) ÷ 100, इसलिए P = (SI × 100) ÷ (R × T) = (480 × 100) ÷ (8 × 4) = ₹1500।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Multiplies SI by rate and time instead of dividing — inverts the rearranged formula.",
+          "hi": "भाग देने के बजाय SI को दर और समय से गुणा कर देता है — पुनर्व्यवस्थित सूत्र को उल्टा कर देता है।"
+        },
+        "b": {
+          "en": "Divides by the rate only, forgetting to also divide by the time period.",
+          "hi": "केवल दर से भाग देता है, समय अवधि से भी भाग देना भूल जाता है।"
+        },
+        "d": {
+          "en": "Off by a small amount — a rounding or arithmetic slip in the final calculation.",
+          "hi": "थोड़ी सी चूक — अंतिम गणना में पूर्णांकन या अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-plinterest-findprincipal-03",
+      "difficulty": "HARD",
+      "content": {
+        "en": "A sum of money earns a Simple Interest of ₹225 at 5% per annum over 3 years. What was the Principal?",
+        "hi": "एक धनराशि पर 5% वार्षिक दर से 3 वर्षों में ₹225 का साधारण ब्याज मिलता है। मूलधन क्या था?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "₹3375",
+            "hi": "₹3375"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "₹4500",
+            "hi": "₹4500"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "₹1600",
+            "hi": "₹1600"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "₹1500",
+            "hi": "₹1500"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "SI = (P × R × T) ÷ 100, so P = (SI × 100) ÷ (R × T) = (225 × 100) ÷ (5 × 3) = ₹1500.",
+        "hi": "SI = (P × R × T) ÷ 100, इसलिए P = (SI × 100) ÷ (R × T) = (225 × 100) ÷ (5 × 3) = ₹1500।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Multiplies SI by rate and time instead of dividing — inverts the rearranged formula.",
+          "hi": "भाग देने के बजाय SI को दर और समय से गुणा कर देता है — पुनर्व्यवस्थित सूत्र को उल्टा कर देता है।"
+        },
+        "b": {
+          "en": "Divides by the rate only, forgetting to also divide by the time period.",
+          "hi": "केवल दर से भाग देता है, समय अवधि से भी भाग देना भूल जाता है।"
+        },
+        "c": {
+          "en": "Off by a small amount — a rounding or arithmetic slip in the final calculation.",
+          "hi": "थोड़ी सी चूक — अंतिम गणना में पूर्णांकन या अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-plinterest-findprincipal-04",
+      "difficulty": "HARD",
+      "content": {
+        "en": "A sum of money earns a Simple Interest of ₹640 at 10% per annum over 2 years. What was the Principal?",
+        "hi": "एक धनराशि पर 10% वार्षिक दर से 2 वर्षों में ₹640 का साधारण ब्याज मिलता है। मूलधन क्या था?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "₹3200",
+            "hi": "₹3200"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "₹12800",
+            "hi": "₹12800"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "₹6400",
+            "hi": "₹6400"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "₹3300",
+            "hi": "₹3300"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "SI = (P × R × T) ÷ 100, so P = (SI × 100) ÷ (R × T) = (640 × 100) ÷ (10 × 2) = ₹3200.",
+        "hi": "SI = (P × R × T) ÷ 100, इसलिए P = (SI × 100) ÷ (R × T) = (640 × 100) ÷ (10 × 2) = ₹3200।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Multiplies SI by rate and time instead of dividing — inverts the rearranged formula.",
+          "hi": "भाग देने के बजाय SI को दर और समय से गुणा कर देता है — पुनर्व्यवस्थित सूत्र को उल्टा कर देता है।"
+        },
+        "c": {
+          "en": "Divides by the rate only, forgetting to also divide by the time period.",
+          "hi": "केवल दर से भाग देता है, समय अवधि से भी भाग देना भूल जाता है।"
+        },
+        "d": {
+          "en": "Off by a small amount — a rounding or arithmetic slip in the final calculation.",
+          "hi": "थोड़ी सी चूक — अंतिम गणना में पूर्णांकन या अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-plinterest-findprincipal-05",
+      "difficulty": "HARD",
+      "content": {
+        "en": "A sum of money earns a Simple Interest of ₹360 at 6% per annum over 6 years. What was the Principal?",
+        "hi": "एक धनराशि पर 6% वार्षिक दर से 6 वर्षों में ₹360 का साधारण ब्याज मिलता है। मूलधन क्या था?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "₹12960",
+            "hi": "₹12960"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "₹1000",
+            "hi": "₹1000"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "₹6000",
+            "hi": "₹6000"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "₹1100",
+            "hi": "₹1100"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "SI = (P × R × T) ÷ 100, so P = (SI × 100) ÷ (R × T) = (360 × 100) ÷ (6 × 6) = ₹1000.",
+        "hi": "SI = (P × R × T) ÷ 100, इसलिए P = (SI × 100) ÷ (R × T) = (360 × 100) ÷ (6 × 6) = ₹1000।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Multiplies SI by rate and time instead of dividing — inverts the rearranged formula.",
+          "hi": "भाग देने के बजाय SI को दर और समय से गुणा कर देता है — पुनर्व्यवस्थित सूत्र को उल्टा कर देता है।"
+        },
+        "c": {
+          "en": "Divides by the rate only, forgetting to also divide by the time period.",
+          "hi": "केवल दर से भाग देता है, समय अवधि से भी भाग देना भूल जाता है।"
+        },
+        "d": {
+          "en": "Off by a small amount — a rounding or arithmetic slip in the final calculation.",
+          "hi": "थोड़ी सी चूक — अंतिम गणना में पूर्णांकन या अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-plinterest-findrate-01",
+      "difficulty": "HARD",
+      "content": {
+        "en": "A Principal of ₹2000 earns ₹400 Simple Interest over 4 years. What is the annual rate of interest?",
+        "hi": "₹2000 के मूलधन पर 4 वर्षों में ₹400 का साधारण ब्याज मिलता है। वार्षिक ब्याज दर क्या है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "20%",
+            "hi": "20%"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "0.8%",
+            "hi": "0.8%"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "5%",
+            "hi": "5%"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "7%",
+            "hi": "7%"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "SI = (P × R × T) ÷ 100, so R = (SI × 100) ÷ (P × T) = (400 × 100) ÷ (2000 × 4) = 5%.",
+        "hi": "SI = (P × R × T) ÷ 100, इसलिए R = (SI × 100) ÷ (P × T) = (400 × 100) ÷ (2000 × 4) = 5%।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Forgets to also divide by the time period, giving a rate several times too large.",
+          "hi": "समय अवधि से भी भाग देना भूल जाता है, जिससे दर कई गुना अधिक बड़ी हो जाती है।"
+        },
+        "b": {
+          "en": "Forgets to multiply by 100 when converting to a percentage rate.",
+          "hi": "प्रतिशत दर में बदलते समय 100 से गुणा करना भूल जाता है।"
+        },
+        "d": {
+          "en": "Off by a small amount — a rounding or arithmetic slip in the final calculation.",
+          "hi": "थोड़ी सी चूक — अंतिम गणना में पूर्णांकन या अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-plinterest-findrate-02",
+      "difficulty": "HARD",
+      "content": {
+        "en": "A Principal of ₹1500 earns ₹270 Simple Interest over 3 years. What is the annual rate of interest?",
+        "hi": "₹1500 के मूलधन पर 3 वर्षों में ₹270 का साधारण ब्याज मिलता है। वार्षिक ब्याज दर क्या है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "18%",
+            "hi": "18%"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "0.54%",
+            "hi": "0.54%"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "8%",
+            "hi": "8%"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "6%",
+            "hi": "6%"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "SI = (P × R × T) ÷ 100, so R = (SI × 100) ÷ (P × T) = (270 × 100) ÷ (1500 × 3) = 6%.",
+        "hi": "SI = (P × R × T) ÷ 100, इसलिए R = (SI × 100) ÷ (P × T) = (270 × 100) ÷ (1500 × 3) = 6%।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Forgets to also divide by the time period, giving a rate several times too large.",
+          "hi": "समय अवधि से भी भाग देना भूल जाता है, जिससे दर कई गुना अधिक बड़ी हो जाती है।"
+        },
+        "b": {
+          "en": "Forgets to multiply by 100 when converting to a percentage rate.",
+          "hi": "प्रतिशत दर में बदलते समय 100 से गुणा करना भूल जाता है।"
+        },
+        "c": {
+          "en": "Off by a small amount — a rounding or arithmetic slip in the final calculation.",
+          "hi": "थोड़ी सी चूक — अंतिम गणना में पूर्णांकन या अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-plinterest-findrate-03",
+      "difficulty": "HARD",
+      "content": {
+        "en": "A Principal of ₹4000 earns ₹480 Simple Interest over 2 years. What is the annual rate of interest?",
+        "hi": "₹4000 के मूलधन पर 2 वर्षों में ₹480 का साधारण ब्याज मिलता है। वार्षिक ब्याज दर क्या है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "6%",
+            "hi": "6%"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "12%",
+            "hi": "12%"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "0.24%",
+            "hi": "0.24%"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "8%",
+            "hi": "8%"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "SI = (P × R × T) ÷ 100, so R = (SI × 100) ÷ (P × T) = (480 × 100) ÷ (4000 × 2) = 6%.",
+        "hi": "SI = (P × R × T) ÷ 100, इसलिए R = (SI × 100) ÷ (P × T) = (480 × 100) ÷ (4000 × 2) = 6%।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Forgets to also divide by the time period, giving a rate several times too large.",
+          "hi": "समय अवधि से भी भाग देना भूल जाता है, जिससे दर कई गुना अधिक बड़ी हो जाती है।"
+        },
+        "c": {
+          "en": "Forgets to multiply by 100 when converting to a percentage rate.",
+          "hi": "प्रतिशत दर में बदलते समय 100 से गुणा करना भूल जाता है।"
+        },
+        "d": {
+          "en": "Off by a small amount — a rounding or arithmetic slip in the final calculation.",
+          "hi": "थोड़ी सी चूक — अंतिम गणना में पूर्णांकन या अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-plinterest-findrate-04",
+      "difficulty": "HARD",
+      "content": {
+        "en": "A Principal of ₹2500 earns ₹500 Simple Interest over 5 years. What is the annual rate of interest?",
+        "hi": "₹2500 के मूलधन पर 5 वर्षों में ₹500 का साधारण ब्याज मिलता है। वार्षिक ब्याज दर क्या है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "20%",
+            "hi": "20%"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "4%",
+            "hi": "4%"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "1%",
+            "hi": "1%"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "6%",
+            "hi": "6%"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "SI = (P × R × T) ÷ 100, so R = (SI × 100) ÷ (P × T) = (500 × 100) ÷ (2500 × 5) = 4%.",
+        "hi": "SI = (P × R × T) ÷ 100, इसलिए R = (SI × 100) ÷ (P × T) = (500 × 100) ÷ (2500 × 5) = 4%।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Forgets to also divide by the time period, giving a rate several times too large.",
+          "hi": "समय अवधि से भी भाग देना भूल जाता है, जिससे दर कई गुना अधिक बड़ी हो जाती है।"
+        },
+        "c": {
+          "en": "Forgets to multiply by 100 when converting to a percentage rate.",
+          "hi": "प्रतिशत दर में बदलते समय 100 से गुणा करना भूल जाता है।"
+        },
+        "d": {
+          "en": "Off by a small amount — a rounding or arithmetic slip in the final calculation.",
+          "hi": "थोड़ी सी चूक — अंतिम गणना में पूर्णांकन या अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-plinterest-findrate-05",
+      "difficulty": "HARD",
+      "content": {
+        "en": "A Principal of ₹3000 earns ₹360 Simple Interest over 3 years. What is the annual rate of interest?",
+        "hi": "₹3000 के मूलधन पर 3 वर्षों में ₹360 का साधारण ब्याज मिलता है। वार्षिक ब्याज दर क्या है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "12%",
+            "hi": "12%"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "0.36%",
+            "hi": "0.36%"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "4%",
+            "hi": "4%"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "6%",
+            "hi": "6%"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "SI = (P × R × T) ÷ 100, so R = (SI × 100) ÷ (P × T) = (360 × 100) ÷ (3000 × 3) = 4%.",
+        "hi": "SI = (P × R × T) ÷ 100, इसलिए R = (SI × 100) ÷ (P × T) = (360 × 100) ÷ (3000 × 3) = 4%।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Forgets to also divide by the time period, giving a rate several times too large.",
+          "hi": "समय अवधि से भी भाग देना भूल जाता है, जिससे दर कई गुना अधिक बड़ी हो जाती है।"
+        },
+        "b": {
+          "en": "Forgets to multiply by 100 when converting to a percentage rate.",
+          "hi": "प्रतिशत दर में बदलते समय 100 से गुणा करना भूल जाता है।"
+        },
+        "d": {
+          "en": "Off by a small amount — a rounding or arithmetic slip in the final calculation.",
+          "hi": "थोड़ी सी चूक — अंतिम गणना में पूर्णांकन या अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-plinterest-markedprice-01",
+      "difficulty": "HARD",
+      "content": {
+        "en": "An item is marked at ₹500 with a 10% discount, and cost the shopkeeper ₹400. What is the shopkeeper's profit percent on the actual sale?",
+        "hi": "एक वस्तु का अंकित मूल्य ₹500 है जिस पर 10% की छूट है, और दुकानदार को यह ₹400 में मिली थी। वास्तविक बिक्री पर दुकानदार का लाभ प्रतिशत क्या है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "12.5%",
+            "hi": "12.5%"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "25%",
+            "hi": "25%"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "10%",
+            "hi": "10%"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "17.5%",
+            "hi": "17.5%"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Selling Price after discount = ₹500 × (1 − 10/100) = ₹450. Profit% = ((450 − 400) ÷ 400) × 100 = 12.5%.",
+        "hi": "छूट के बाद विक्रय मूल्य = ₹500 × (1 − 10/100) = ₹450। लाभ% = ((450 − 400) ÷ 400) × 100 = 12.5%।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Uses the Marked Price instead of the actual Selling Price (after discount) to compute profit — ignores the discount entirely.",
+          "hi": "लाभ की गणना के लिए वास्तविक विक्रय मूल्य (छूट के बाद) के बजाय अंकित मूल्य का उपयोग करता है — छूट को पूरी तरह नज़रअंदाज़ कर देता है।"
+        },
+        "c": {
+          "en": "Divides by the Marked Price instead of the Cost Price — profit percent is always on the cost price.",
+          "hi": "क्रय मूल्य के बजाय अंकित मूल्य से भाग देता है — लाभ प्रतिशत हमेशा क्रय मूल्य पर होता है।"
+        },
+        "d": {
+          "en": "Off by a few percentage points — a small arithmetic slip in the final calculation.",
+          "hi": "कुछ प्रतिशत अंकों की चूक — अंतिम गणना में एक छोटी सी अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-plinterest-markedprice-02",
+      "difficulty": "HARD",
+      "content": {
+        "en": "An item is marked at ₹800 with a 15% discount, and cost the shopkeeper ₹600. What is the shopkeeper's profit percent on the actual sale?",
+        "hi": "एक वस्तु का अंकित मूल्य ₹800 है जिस पर 15% की छूट है, और दुकानदार को यह ₹600 में मिली थी। वास्तविक बिक्री पर दुकानदार का लाभ प्रतिशत क्या है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "33.33%",
+            "hi": "33.33%"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "13.33%",
+            "hi": "13.33%"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "10%",
+            "hi": "10%"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "18.33%",
+            "hi": "18.33%"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Selling Price after discount = ₹800 × (1 − 15/100) = ₹680. Profit% = ((680 − 600) ÷ 600) × 100 = 13.33%.",
+        "hi": "छूट के बाद विक्रय मूल्य = ₹800 × (1 − 15/100) = ₹680। लाभ% = ((680 − 600) ÷ 600) × 100 = 13.33%।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Uses the Marked Price instead of the actual Selling Price (after discount) to compute profit — ignores the discount entirely.",
+          "hi": "लाभ की गणना के लिए वास्तविक विक्रय मूल्य (छूट के बाद) के बजाय अंकित मूल्य का उपयोग करता है — छूट को पूरी तरह नज़रअंदाज़ कर देता है।"
+        },
+        "c": {
+          "en": "Divides by the Marked Price instead of the Cost Price — profit percent is always on the cost price.",
+          "hi": "क्रय मूल्य के बजाय अंकित मूल्य से भाग देता है — लाभ प्रतिशत हमेशा क्रय मूल्य पर होता है।"
+        },
+        "d": {
+          "en": "Off by a few percentage points — a small arithmetic slip in the final calculation.",
+          "hi": "कुछ प्रतिशत अंकों की चूक — अंतिम गणना में एक छोटी सी अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-plinterest-markedprice-03",
+      "difficulty": "HARD",
+      "content": {
+        "en": "An item is marked at ₹1000 with a 20% discount, and cost the shopkeeper ₹720. What is the shopkeeper's profit percent on the actual sale?",
+        "hi": "एक वस्तु का अंकित मूल्य ₹1000 है जिस पर 20% की छूट है, और दुकानदार को यह ₹720 में मिली थी। वास्तविक बिक्री पर दुकानदार का लाभ प्रतिशत क्या है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "38.89%",
+            "hi": "38.89%"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "8%",
+            "hi": "8%"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "11.11%",
+            "hi": "11.11%"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "16.11%",
+            "hi": "16.11%"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Selling Price after discount = ₹1000 × (1 − 20/100) = ₹800. Profit% = ((800 − 720) ÷ 720) × 100 = 11.11%.",
+        "hi": "छूट के बाद विक्रय मूल्य = ₹1000 × (1 − 20/100) = ₹800। लाभ% = ((800 − 720) ÷ 720) × 100 = 11.11%।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Uses the Marked Price instead of the actual Selling Price (after discount) to compute profit — ignores the discount entirely.",
+          "hi": "लाभ की गणना के लिए वास्तविक विक्रय मूल्य (छूट के बाद) के बजाय अंकित मूल्य का उपयोग करता है — छूट को पूरी तरह नज़रअंदाज़ कर देता है।"
+        },
+        "b": {
+          "en": "Divides by the Marked Price instead of the Cost Price — profit percent is always on the cost price.",
+          "hi": "क्रय मूल्य के बजाय अंकित मूल्य से भाग देता है — लाभ प्रतिशत हमेशा क्रय मूल्य पर होता है।"
+        },
+        "d": {
+          "en": "Off by a few percentage points — a small arithmetic slip in the final calculation.",
+          "hi": "कुछ प्रतिशत अंकों की चूक — अंतिम गणना में एक छोटी सी अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-plinterest-markedprice-04",
+      "difficulty": "HARD",
+      "content": {
+        "en": "An item is marked at ₹600 with a 5% discount, and cost the shopkeeper ₹500. What is the shopkeeper's profit percent on the actual sale?",
+        "hi": "एक वस्तु का अंकित मूल्य ₹600 है जिस पर 5% की छूट है, और दुकानदार को यह ₹500 में मिली थी। वास्तविक बिक्री पर दुकानदार का लाभ प्रतिशत क्या है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "20%",
+            "hi": "20%"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "11.67%",
+            "hi": "11.67%"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "19%",
+            "hi": "19%"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "14%",
+            "hi": "14%"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "Selling Price after discount = ₹600 × (1 − 5/100) = ₹570. Profit% = ((570 − 500) ÷ 500) × 100 = 14%.",
+        "hi": "छूट के बाद विक्रय मूल्य = ₹600 × (1 − 5/100) = ₹570। लाभ% = ((570 − 500) ÷ 500) × 100 = 14%।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Uses the Marked Price instead of the actual Selling Price (after discount) to compute profit — ignores the discount entirely.",
+          "hi": "लाभ की गणना के लिए वास्तविक विक्रय मूल्य (छूट के बाद) के बजाय अंकित मूल्य का उपयोग करता है — छूट को पूरी तरह नज़रअंदाज़ कर देता है।"
+        },
+        "b": {
+          "en": "Divides by the Marked Price instead of the Cost Price — profit percent is always on the cost price.",
+          "hi": "क्रय मूल्य के बजाय अंकित मूल्य से भाग देता है — लाभ प्रतिशत हमेशा क्रय मूल्य पर होता है।"
+        },
+        "c": {
+          "en": "Off by a few percentage points — a small arithmetic slip in the final calculation.",
+          "hi": "कुछ प्रतिशत अंकों की चूक — अंतिम गणना में एक छोटी सी अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-plinterest-markedprice-05",
+      "difficulty": "HARD",
+      "content": {
+        "en": "An item is marked at ₹1200 with a 25% discount, and cost the shopkeeper ₹800. What is the shopkeeper's profit percent on the actual sale?",
+        "hi": "एक वस्तु का अंकित मूल्य ₹1200 है जिस पर 25% की छूट है, और दुकानदार को यह ₹800 में मिली थी। वास्तविक बिक्री पर दुकानदार का लाभ प्रतिशत क्या है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "12.5%",
+            "hi": "12.5%"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "50%",
+            "hi": "50%"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "8.33%",
+            "hi": "8.33%"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "17.5%",
+            "hi": "17.5%"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Selling Price after discount = ₹1200 × (1 − 25/100) = ₹900. Profit% = ((900 − 800) ÷ 800) × 100 = 12.5%.",
+        "hi": "छूट के बाद विक्रय मूल्य = ₹1200 × (1 − 25/100) = ₹900। लाभ% = ((900 − 800) ÷ 800) × 100 = 12.5%।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Uses the Marked Price instead of the actual Selling Price (after discount) to compute profit — ignores the discount entirely.",
+          "hi": "लाभ की गणना के लिए वास्तविक विक्रय मूल्य (छूट के बाद) के बजाय अंकित मूल्य का उपयोग करता है — छूट को पूरी तरह नज़रअंदाज़ कर देता है।"
+        },
+        "c": {
+          "en": "Divides by the Marked Price instead of the Cost Price — profit percent is always on the cost price.",
+          "hi": "क्रय मूल्य के बजाय अंकित मूल्य से भाग देता है — लाभ प्रतिशत हमेशा क्रय मूल्य पर होता है।"
+        },
+        "d": {
+          "en": "Off by a few percentage points — a small arithmetic slip in the final calculation.",
+          "hi": "कुछ प्रतिशत अंकों की चूक — अंतिम गणना में एक छोटी सी अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    }
+  ]
+}

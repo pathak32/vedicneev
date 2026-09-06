@@ -277,6 +277,15 @@ model Topic {
   name  Json
   order Int  @default(0)
 
+  // Null means the topic is exam-agnostic (shown to every student regardless
+  // of their chosen target exam) — the existing behavior for every topic
+  // seeded before this field existed. Set only for topics whose content is
+  // genuinely specific to one exam's syllabus (e.g. Sainik School GK vs RMS
+  // Current Affairs both live under the same "general_knowledge" section
+  // but should never be shown to the other exam's students). Additive,
+  // same pattern as Question.figureMetadata/distractorAnalysis.
+  targetExam ExamType? @map("target_exam")
+
   questions  Question[]
   mediaItems MediaItem[]
 
@@ -355,6 +364,14 @@ model Question {
   // alongside `options[].imageUrl` rather than a replacement; absent for
   // every question that doesn't need a diagram.
   figureMetadata Json? @map("figure_metadata")
+
+  // Null means "inherits from Topic.targetExam" (itself null for most
+  // topics, meaning exam-agnostic) — set directly on a question only when
+  // it needs to diverge from its own topic's tag. In practice this batch
+  // sets it to the same value as the owning topic for every question, but
+  // the column exists at this granularity for exam-specific items that
+  // might later live inside an otherwise-shared topic.
+  targetExam ExamType? @map("target_exam")
 
   // Base time allotment in seconds, used by the engine's timer math.
   timeLimitSeconds Int @default(60) @map("time_limit_seconds")

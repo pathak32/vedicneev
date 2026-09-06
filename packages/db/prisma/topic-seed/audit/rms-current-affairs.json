@@ -1,0 +1,2327 @@
+{
+  "section": "rms_current_affairs",
+  "topicKey": "rms_current_affairs",
+  "generatedAt": "2026-09-05T00:00:00.000Z",
+  "questions": [
+    {
+      "key": "bank-ca-rms-01",
+      "difficulty": "EASY",
+      "content": {
+        "en": "On which date is Independence Day celebrated in India every year?",
+        "hi": "भारत में प्रतिवर्ष स्वतंत्रता दिवस किस तिथि को मनाया जाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "26 January",
+            "hi": "26 जनवरी"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "15 August",
+            "hi": "15 अगस्त"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "2 October",
+            "hi": "2 अक्टूबर"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "30 January",
+            "hi": "30 जनवरी"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "India celebrates Independence Day on 15 August every year, marking the day in 1947 when India became free from British rule.",
+        "hi": "भारत प्रतिवर्ष 15 अगस्त को स्वतंत्रता दिवस मनाता है, जो 1947 में ब्रिटिश शासन से भारत की आज़ादी के दिन की याद दिलाता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "26 January is Republic Day, when the Constitution came into effect, often confused with Independence Day since both are major national holidays.",
+          "hi": "26 जनवरी गणतंत्र दिवस है, जब संविधान लागू हुआ था; दोनों प्रमुख राष्ट्रीय अवकाश होने के कारण इन्हें अक्सर आपस में भ्रमित कर दिया जाता है।"
+        },
+        "c": {
+          "en": "2 October is Gandhi Jayanti, the birth anniversary of Mahatma Gandhi, not the day of independence.",
+          "hi": "2 अक्टूबर गांधी जयंती है, जो महात्मा गांधी की जयंती है, न कि स्वतंत्रता का दिन।"
+        },
+        "d": {
+          "en": "30 January is the death anniversary of Mahatma Gandhi (Martyrs' Day), sometimes mixed up with other January national dates.",
+          "hi": "30 जनवरी महात्मा गांधी की पुण्यतिथि (शहीद दिवस) है, जिसे कभी-कभी जनवरी की अन्य राष्ट्रीय तिथियों के साथ भ्रमित कर दिया जाता है।"
+        }
+      },
+      "targetExam": "RMS"
+    },
+    {
+      "key": "bank-ca-rms-02",
+      "difficulty": "EASY",
+      "content": {
+        "en": "On which date is Republic Day celebrated in India?",
+        "hi": "भारत में गणतंत्र दिवस किस तिथि को मनाया जाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "15 August",
+            "hi": "15 अगस्त"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "2 October",
+            "hi": "2 अक्टूबर"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "14 November",
+            "hi": "14 नवंबर"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "26 January",
+            "hi": "26 जनवरी"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "Republic Day is celebrated on 26 January every year to mark the day in 1950 when the Constitution of India came into effect.",
+        "hi": "गणतंत्र दिवस प्रतिवर्ष 26 जनवरी को मनाया जाता है, जो 1950 में भारत का संविधान लागू होने के दिन की याद दिलाता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "15 August is Independence Day, marking freedom from British rule in 1947, a different national holiday from Republic Day.",
+          "hi": "15 अगस्त स्वतंत्रता दिवस है, जो 1947 में ब्रिटिश शासन से आज़ादी को दर्शाता है, और गणतंत्र दिवस से भिन्न राष्ट्रीय अवकाश है।"
+        },
+        "b": {
+          "en": "2 October is Gandhi Jayanti, unrelated to the Constitution coming into force.",
+          "hi": "2 अक्टूबर गांधी जयंती है, जिसका संविधान लागू होने से कोई संबंध नहीं है।"
+        },
+        "c": {
+          "en": "14 November is Children's Day (Pandit Jawaharlal Nehru's birthday), a school observance rather than a national constitutional day.",
+          "hi": "14 नवंबर बाल दिवस है (पंडित जवाहरलाल नेहरू की जयंती), जो एक विद्यालयी उत्सव है, न कि संविधान से जुड़ा राष्ट्रीय दिवस।"
+        }
+      },
+      "targetExam": "RMS"
+    },
+    {
+      "key": "bank-ca-rms-03",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Gandhi Jayanti, the birth anniversary of Mahatma Gandhi, is observed on which date?",
+        "hi": "महात्मा गांधी की जयंती, गांधी जयंती, किस तिथि को मनाई जाती है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "2 October",
+            "hi": "2 अक्टूबर"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "30 January",
+            "hi": "30 जनवरी"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "15 August",
+            "hi": "15 अगस्त"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "26 January",
+            "hi": "26 जनवरी"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Gandhi Jayanti is observed on 2 October, the birthday of Mahatma Gandhi, and is also marked as the International Day of Non-Violence.",
+        "hi": "गांधी जयंती 2 अक्टूबर को मनाई जाती है, जो महात्मा गांधी का जन्मदिन है और इसे अंतरराष्ट्रीय अहिंसा दिवस के रूप में भी मनाया जाता है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "30 January is the date of Mahatma Gandhi's death (Martyrs' Day), not his birth.",
+          "hi": "30 जनवरी महात्मा गांधी की मृत्यु की तिथि (शहीद दिवस) है, न कि उनके जन्म की।"
+        },
+        "c": {
+          "en": "15 August is Independence Day, unrelated to Gandhi's birth date.",
+          "hi": "15 अगस्त स्वतंत्रता दिवस है, जिसका गांधी जी के जन्मदिन से कोई संबंध नहीं है।"
+        },
+        "d": {
+          "en": "26 January is Republic Day, a separate national observance.",
+          "hi": "26 जनवरी गणतंत्र दिवस है, जो एक अलग राष्ट्रीय उत्सव है।"
+        }
+      },
+      "targetExam": "RMS"
+    },
+    {
+      "key": "bank-ca-rms-04",
+      "difficulty": "EASY",
+      "content": {
+        "en": "National Youth Day is celebrated on 12 January every year to mark the birth anniversary of which leader?",
+        "hi": "राष्ट्रीय युवा दिवस प्रतिवर्ष 12 जनवरी को किस महापुरुष की जयंती के रूप में मनाया जाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Mahatma Gandhi",
+            "hi": "महात्मा गांधी"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Subhas Chandra Bose",
+            "hi": "सुभाष चंद्र बोस"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Swami Vivekananda",
+            "hi": "स्वामी विवेकानंद"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Jawaharlal Nehru",
+            "hi": "जवाहरलाल नेहरू"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "National Youth Day is celebrated on 12 January, the birthday of Swami Vivekananda, whose ideals of youth energy and service inspired the observance.",
+        "hi": "राष्ट्रीय युवा दिवस 12 जनवरी को स्वामी विवेकानंद के जन्मदिन के रूप में मनाया जाता है, जिनके युवा ऊर्जा और सेवा के आदर्शों से यह दिवस प्रेरित है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Mahatma Gandhi's birthday (2 October) is observed as Gandhi Jayanti, a different national day.",
+          "hi": "महात्मा गांधी का जन्मदिन (2 अक्टूबर) गांधी जयंती के रूप में मनाया जाता है, जो एक अलग राष्ट्रीय दिवस है।"
+        },
+        "b": {
+          "en": "Subhas Chandra Bose's birthday (23 January) is observed as Parakram Diwas, close in date but a separate observance.",
+          "hi": "सुभाष चंद्र बोस का जन्मदिन (23 जनवरी) पराक्रम दिवस के रूप में मनाया जाता है, जो तिथि में निकट होते हुए भी एक अलग उत्सव है।"
+        },
+        "d": {
+          "en": "Jawaharlal Nehru's birthday (14 November) is celebrated as Children's Day, not National Youth Day.",
+          "hi": "जवाहरलाल नेहरू का जन्मदिन (14 नवंबर) बाल दिवस के रूप में मनाया जाता है, न कि राष्ट्रीय युवा दिवस के रूप में।"
+        }
+      },
+      "targetExam": "RMS"
+    },
+    {
+      "key": "bank-ca-rms-05",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Teachers' Day is celebrated in India on 5 September to honour the birthday of which former President, who was also a noted teacher and philosopher?",
+        "hi": "भारत में शिक्षक दिवस 5 सितंबर को किस पूर्व राष्ट्रपति के जन्मदिन के सम्मान में मनाया जाता है, जो एक प्रसिद्ध शिक्षक और दार्शनिक भी थे?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Dr. Rajendra Prasad",
+            "hi": "डॉ. राजेंद्र प्रसाद"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Dr. Sarvepalli Radhakrishnan",
+            "hi": "डॉ. सर्वपल्ली राधाकृष्णन"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Dr. A.P.J. Abdul Kalam",
+            "hi": "डॉ. ए.पी.जे. अब्दुल कलाम"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Dr. Zakir Husain",
+            "hi": "डॉ. ज़ाकिर हुसैन"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Teachers' Day is celebrated on 5 September, the birthday of Dr. Sarvepalli Radhakrishnan, India's second President and a respected teacher, in honour of the teaching profession.",
+        "hi": "शिक्षक दिवस 5 सितंबर को डॉ. सर्वपल्ली राधाकृष्णन के जन्मदिन के रूप में मनाया जाता है, जो भारत के दूसरे राष्ट्रपति और एक सम्मानित शिक्षक थे, और यह दिवस शिक्षण व्यवसाय के सम्मान में मनाया जाता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Dr. Rajendra Prasad was India's first President, but his birthday is not linked to Teachers' Day.",
+          "hi": "डॉ. राजेंद्र प्रसाद भारत के पहले राष्ट्रपति थे, परन्तु उनका जन्मदिन शिक्षक दिवस से जुड़ा नहीं है।"
+        },
+        "c": {
+          "en": "Dr. A.P.J. Abdul Kalam is fondly remembered as a teacher and scientist, but Teachers' Day is not tied to his birthday.",
+          "hi": "डॉ. ए.पी.जे. अब्दुल कलाम को एक शिक्षक और वैज्ञानिक के रूप में स्नेह से याद किया जाता है, परन्तु शिक्षक दिवस उनके जन्मदिन से संबंधित नहीं है।"
+        },
+        "d": {
+          "en": "Dr. Zakir Husain was India's third President and a noted educationist too, but the day is specifically linked to Dr. Radhakrishnan, not him.",
+          "hi": "डॉ. ज़ाकिर हुसैन भारत के तीसरे राष्ट्रपति और एक प्रसिद्ध शिक्षाविद् भी थे, परन्तु यह दिवस विशेष रूप से डॉ. राधाकृष्णन से जुड़ा है, उनसे नहीं।"
+        }
+      },
+      "targetExam": "RMS"
+    },
+    {
+      "key": "bank-ca-rms-06",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Who wrote 'Jana Gana Mana', the National Anthem of India?",
+        "hi": "भारत के राष्ट्रगान 'जन गण मन' के रचयिता कौन हैं?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Rabindranath Tagore",
+            "hi": "रवींद्रनाथ टैगोर"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Bankim Chandra Chattopadhyay",
+            "hi": "बंकिम चंद्र चट्टोपाध्याय"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Sarojini Naidu",
+            "hi": "सरोजिनी नायडू"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Muhammad Iqbal",
+            "hi": "मुहम्मद इक़बाल"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "'Jana Gana Mana' was written and composed by Rabindranath Tagore, and it was adopted as India's National Anthem.",
+        "hi": "'जन गण मन' की रचना और संगीत रवींद्रनाथ टैगोर ने किया था, और इसे भारत के राष्ट्रगान के रूप में अपनाया गया।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Bankim Chandra Chattopadhyay wrote 'Vande Mataram', the National Song, which is often confused with the National Anthem.",
+          "hi": "बंकिम चंद्र चट्टोपाध्याय ने राष्ट्रगीत 'वंदे मातरम्' लिखा था, जिसे अक्सर राष्ट्रगान समझ लिया जाता है।"
+        },
+        "c": {
+          "en": "Sarojini Naidu was a famous poet and freedom fighter, but she did not write the National Anthem.",
+          "hi": "सरोजिनी नायडू एक प्रसिद्ध कवयित्री और स्वतंत्रता सेनानी थीं, परन्तु उन्होंने राष्ट्रगान की रचना नहीं की।"
+        },
+        "d": {
+          "en": "Muhammad Iqbal wrote the patriotic song 'Saare Jahan Se Achha', frequently sung at school events but not the National Anthem.",
+          "hi": "मुहम्मद इक़बाल ने देशभक्ति गीत 'सारे जहाँ से अच्छा' लिखा था, जो विद्यालयी कार्यक्रमों में अक्सर गाया जाता है, परन्तु यह राष्ट्रगान नहीं है।"
+        }
+      },
+      "targetExam": "RMS"
+    },
+    {
+      "key": "bank-ca-rms-07",
+      "difficulty": "EASY",
+      "content": {
+        "en": "In the National Flag of India, which colour appears at the top of the three horizontal stripes?",
+        "hi": "भारत के राष्ट्रीय ध्वज की तीन क्षैतिज पट्टियों में सबसे ऊपर कौन-सा रंग होता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Green",
+            "hi": "हरा"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "White",
+            "hi": "सफेद"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Blue",
+            "hi": "नीला"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Saffron (Kesari)",
+            "hi": "केसरिया"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "The Indian National Flag has saffron (kesari) at the top, white in the middle with the Ashoka Chakra, and green at the bottom.",
+        "hi": "भारतीय राष्ट्रीय ध्वज में सबसे ऊपर केसरिया रंग, बीच में अशोक चक्र सहित सफेद रंग, और सबसे नीचे हरा रंग होता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Green appears at the bottom of the flag, not the top, and is often mixed up in the stripe order.",
+          "hi": "हरा रंग ध्वज के सबसे नीचे होता है, ऊपर नहीं, और पट्टियों के क्रम में इसे अक्सर गलत जगह रख दिया जाता है।"
+        },
+        "b": {
+          "en": "White is the middle stripe carrying the Ashoka Chakra, not the topmost stripe.",
+          "hi": "सफेद रंग बीच की पट्टी है जिसमें अशोक चक्र होता है, यह सबसे ऊपर की पट्टी नहीं है।"
+        },
+        "c": {
+          "en": "Blue is the colour of the Ashoka Chakra itself, not one of the three horizontal stripes.",
+          "hi": "नीला रंग स्वयं अशोक चक्र का रंग है, यह तीन क्षैतिज पट्टियों में से एक नहीं है।"
+        }
+      },
+      "targetExam": "RMS"
+    },
+    {
+      "key": "bank-ca-rms-08",
+      "difficulty": "EASY",
+      "content": {
+        "en": "India Gate in New Delhi was built as a memorial for soldiers who died in which event?",
+        "hi": "नई दिल्ली में इंडिया गेट किस घटना में मारे गए सैनिकों की स्मृति में बनाया गया था?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "The 1971 war with Pakistan",
+            "hi": "1971 का पाकिस्तान से युद्ध"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "The Kargil War of 1999",
+            "hi": "1999 का कारगिल युद्ध"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "The First World War",
+            "hi": "प्रथम विश्व युद्ध"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "The freedom struggle",
+            "hi": "स्वतंत्रता संग्राम"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "India Gate was built in memory of about 90,000 Indian soldiers who died fighting in the First World War and the Third Anglo-Afghan War, under British India.",
+        "hi": "इंडिया गेट ब्रिटिश भारत के लगभग 90,000 सैनिकों की स्मृति में बनाया गया था, जो प्रथम विश्व युद्ध और तीसरे एंग्लो-अफगान युद्ध में लड़ते हुए शहीद हुए थे।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "The 1971 war is commemorated separately, and this memorial predates that war by decades.",
+          "hi": "1971 के युद्ध की स्मृति अलग से मनाई जाती है, और यह स्मारक उस युद्ध से कई दशक पहले बनाया गया था।"
+        },
+        "b": {
+          "en": "The Kargil War of 1999 is commemorated by the Kargil War Memorial, not India Gate.",
+          "hi": "1999 के कारगिल युद्ध की स्मृति कारगिल युद्ध स्मारक द्वारा मनाई जाती है, इंडिया गेट द्वारा नहीं।"
+        },
+        "d": {
+          "en": "Freedom struggle martyrs are honoured at other memorials; India Gate specifically remembers soldiers of the First World War era.",
+          "hi": "स्वतंत्रता संग्राम के शहीदों का सम्मान अन्य स्मारकों में किया जाता है; इंडिया गेट विशेष रूप से प्रथम विश्व युद्ध के समय के सैनिकों की स्मृति में है।"
+        }
+      },
+      "targetExam": "RMS"
+    },
+    {
+      "key": "bank-ca-rms-09",
+      "difficulty": "EASY",
+      "content": {
+        "en": "How many spokes does the Ashoka Chakra on the Indian National Flag have?",
+        "hi": "भारतीय राष्ट्रीय ध्वज पर बने अशोक चक्र में कितनी तीलियाँ (स्पोक) होती हैं?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "24",
+            "hi": "24"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "12",
+            "hi": "12"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "32",
+            "hi": "32"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "16",
+            "hi": "16"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "The Ashoka Chakra in the centre of the National Flag has 24 spokes and is coloured navy blue.",
+        "hi": "राष्ट्रीय ध्वज के मध्य में स्थित अशोक चक्र में 24 तीलियाँ होती हैं और इसका रंग गहरा नीला (नेवी ब्लू) होता है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "12 is an undercount some students guess, perhaps confusing it with a clock face divided differently.",
+          "hi": "कुछ छात्र 12 का अनुमान लगा लेते हैं, शायद इसे घड़ी के अलग विभाजन से भ्रमित कर बैठते हैं।"
+        },
+        "c": {
+          "en": "32 is an overcount, roughly double the correct number of spokes.",
+          "hi": "32 एक अधिक गिनती है, जो सही तीलियों की संख्या से लगभग दोगुनी है।"
+        },
+        "d": {
+          "en": "16 is another common wrong guess with no basis in the actual design.",
+          "hi": "16 एक और सामान्य गलत अनुमान है, जिसका वास्तविक डिज़ाइन से कोई आधार नहीं है।"
+        }
+      },
+      "targetExam": "RMS"
+    },
+    {
+      "key": "bank-ca-rms-10",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Indian Army Day is celebrated every year on which date?",
+        "hi": "भारतीय थल सेना दिवस प्रतिवर्ष किस तिथि को मनाया जाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "4 December",
+            "hi": "4 दिसंबर"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "15 January",
+            "hi": "15 जनवरी"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "8 October",
+            "hi": "8 अक्टूबर"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "26 July",
+            "hi": "26 जुलाई"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Indian Army Day is celebrated on 15 January, marking the day in 1949 when Field Marshal K.M. Cariappa became the first Indian Commander-in-Chief of the Indian Army.",
+        "hi": "भारतीय थल सेना दिवस 15 जनवरी को मनाया जाता है, जो 1949 में फील्ड मार्शल के.एम. करियप्पा के भारतीय थल सेना के पहले भारतीय सेनाध्यक्ष बनने के दिन की याद दिलाता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "4 December is celebrated as Indian Navy Day, a different armed forces observance.",
+          "hi": "4 दिसंबर भारतीय नौसेना दिवस के रूप में मनाया जाता है, जो एक अलग सैन्य उत्सव है।"
+        },
+        "c": {
+          "en": "8 October is celebrated as Indian Air Force Day, not Army Day.",
+          "hi": "8 अक्टूबर भारतीय वायु सेना दिवस के रूप में मनाया जाता है, थल सेना दिवस के रूप में नहीं।"
+        },
+        "d": {
+          "en": "26 July is Kargil Vijay Diwas, marking victory in the Kargil War, a separate observance.",
+          "hi": "26 जुलाई कारगिल विजय दिवस है, जो कारगिल युद्ध में विजय का प्रतीक है और एक अलग उत्सव है।"
+        }
+      },
+      "targetExam": "RMS"
+    },
+    {
+      "key": "bank-ca-rms-11",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Who wrote 'Vande Mataram', which is honoured as the National Song of India?",
+        "hi": "भारत के राष्ट्रगीत के रूप में सम्मानित 'वंदे मातरम्' के रचयिता कौन हैं?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Rabindranath Tagore",
+            "hi": "रवींद्रनाथ टैगोर"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Sarojini Naidu",
+            "hi": "सरोजिनी नायडू"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Bankim Chandra Chattopadhyay",
+            "hi": "बंकिम चंद्र चट्टोपाध्याय"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Subramania Bharati",
+            "hi": "सुब्रह्मण्य भारती"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "'Vande Mataram' was written by Bankim Chandra Chattopadhyay and included in his novel Anandamath; it holds equal status with the National Anthem as the National Song.",
+        "hi": "'वंदे मातरम्' की रचना बंकिम चंद्र चट्टोपाध्याय ने की थी और इसे उनके उपन्यास 'आनंदमठ' में शामिल किया गया था; इसे राष्ट्रगान के समान सम्मान के साथ राष्ट्रगीत का दर्जा प्राप्त है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Rabindranath Tagore wrote the National Anthem 'Jana Gana Mana', which students often confuse with the National Song.",
+          "hi": "रवींद्रनाथ टैगोर ने राष्ट्रगान 'जन गण मन' लिखा था, जिसे छात्र अक्सर राष्ट्रगीत समझ बैठते हैं।"
+        },
+        "b": {
+          "en": "Sarojini Naidu was a prominent poet-freedom fighter, but she did not write 'Vande Mataram'.",
+          "hi": "सरोजिनी नायडू एक प्रमुख कवयित्री-स्वतंत्रता सेनानी थीं, परन्तु उन्होंने 'वंदे मातरम्' नहीं लिखा।"
+        },
+        "d": {
+          "en": "Subramania Bharati was a Tamil poet and nationalist known for patriotic verses, but he is not the author of 'Vande Mataram'.",
+          "hi": "सुब्रह्मण्य भारती एक तमिल कवि और राष्ट्रवादी थे जो देशभक्ति की कविताओं के लिए जाने जाते हैं, परन्तु वे 'वंदे मातरम्' के रचयिता नहीं हैं।"
+        }
+      },
+      "targetExam": "RMS"
+    },
+    {
+      "key": "bank-ca-rms-12",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "On which date was the present design of India's National Flag formally adopted by the Constituent Assembly?",
+        "hi": "भारत के राष्ट्रीय ध्वज के वर्तमान स्वरूप को संविधान सभा द्वारा औपचारिक रूप से किस तिथि को अपनाया गया था?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "15 August 1947",
+            "hi": "15 अगस्त 1947"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "26 January 1950",
+            "hi": "26 जनवरी 1950"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "2 August 1946",
+            "hi": "2 अगस्त 1946"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "22 July 1947",
+            "hi": "22 जुलाई 1947"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "The Constituent Assembly adopted the tricolour National Flag in its present form on 22 July 1947, a few weeks before independence.",
+        "hi": "संविधान सभा ने तिरंगे राष्ट्रीय ध्वज को उसके वर्तमान स्वरूप में 22 जुलाई 1947 को अपनाया था, जो स्वतंत्रता से कुछ सप्ताह पहले की बात है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "15 August 1947 is Independence Day itself, when the flag was first hoisted as the flag of a free nation, not the date of its adoption.",
+          "hi": "15 अगस्त 1947 स्वयं स्वतंत्रता दिवस है, जब इस ध्वज को एक स्वतंत्र राष्ट्र के ध्वज के रूप में पहली बार फहराया गया था, न कि इसे अपनाए जाने की तिथि।"
+        },
+        "b": {
+          "en": "26 January 1950 is when the Constitution came into force, a later and unrelated event.",
+          "hi": "26 जनवरी 1950 को संविधान लागू हुआ था, जो एक बाद की और असंबंधित घटना है।"
+        },
+        "c": {
+          "en": "2 August 1946 is an invented date with no connection to the flag's adoption.",
+          "hi": "2 अगस्त 1946 एक काल्पनिक तिथि है, जिसका ध्वज को अपनाए जाने से कोई संबंध नहीं है।"
+        }
+      },
+      "targetExam": "RMS"
+    },
+    {
+      "key": "bank-ca-rms-13",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "On which date was the Constitution of India formally adopted by the Constituent Assembly, now observed as Constitution Day (Samvidhan Diwas)?",
+        "hi": "भारत का संविधान संविधान सभा द्वारा औपचारिक रूप से किस तिथि को अपनाया गया था, जिसे अब संविधान दिवस के रूप में मनाया जाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "15 August 1947",
+            "hi": "15 अगस्त 1947"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "26 November 1949",
+            "hi": "26 नवंबर 1949"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "26 January 1950",
+            "hi": "26 जनवरी 1950"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "2 October 1949",
+            "hi": "2 अक्टूबर 1949"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "The Constituent Assembly adopted the Constitution of India on 26 November 1949, a date now observed every year as Constitution Day (Samvidhan Diwas).",
+        "hi": "संविधान सभा ने भारत के संविधान को 26 नवंबर 1949 को अपनाया था, जिसे अब प्रतिवर्ष संविधान दिवस के रूप में मनाया जाता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "15 August 1947 is Independence Day, before the Constitution was even drafted.",
+          "hi": "15 अगस्त 1947 स्वतंत्रता दिवस है, जो संविधान का प्रारूप तैयार होने से भी पहले की तिथि है।"
+        },
+        "c": {
+          "en": "26 January 1950 is when the Constitution came into force, about two months after it was adopted, often confused with the adoption date.",
+          "hi": "26 जनवरी 1950 को संविधान लागू हुआ था, जो इसे अपनाए जाने के लगभग दो महीने बाद की तिथि है, और इसे अक्सर अपनाने की तिथि समझ लिया जाता है।"
+        },
+        "d": {
+          "en": "2 October 1949 is close to Gandhi Jayanti's date but has no link to the Constitution's adoption.",
+          "hi": "2 अक्टूबर 1949 गांधी जयंती की तिथि के निकट है, परन्तु इसका संविधान को अपनाए जाने से कोई संबंध नहीं है।"
+        }
+      },
+      "targetExam": "RMS"
+    },
+    {
+      "key": "bank-ca-rms-14",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "The Constitution of India, adopted in November 1949, came into force (took effect) on which date?",
+        "hi": "नवंबर 1949 में अपनाया गया भारत का संविधान किस तिथि को लागू हुआ था?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "26 January 1950",
+            "hi": "26 जनवरी 1950"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "26 November 1949",
+            "hi": "26 नवंबर 1949"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "15 August 1950",
+            "hi": "15 अगस्त 1950"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "1 January 1950",
+            "hi": "1 जनवरी 1950"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "The Constitution of India came into force on 26 January 1950, and this day is celebrated every year as Republic Day.",
+        "hi": "भारत का संविधान 26 जनवरी 1950 को लागू हुआ था, और इस दिन को प्रतिवर्ष गणतंत्र दिवस के रूप में मनाया जाता है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "26 November 1949 is the date the Constitution was adopted, not the date it came into force.",
+          "hi": "26 नवंबर 1949 संविधान को अपनाए जाने की तिथि है, न कि इसके लागू होने की तिथि।"
+        },
+        "c": {
+          "en": "15 August 1950 mimics the Independence Day date but from a later year, which is incorrect.",
+          "hi": "15 अगस्त 1950 स्वतंत्रता दिवस की तिथि जैसा प्रतीत होता है परन्तु बाद के वर्ष का है, जो गलत है।"
+        },
+        "d": {
+          "en": "1 January 1950 is a plausible-sounding New Year date but is not when the Constitution took effect.",
+          "hi": "1 जनवरी 1950 सुनने में नववर्ष जैसी तिथि लगती है, परन्तु यह संविधान के लागू होने की तिथि नहीं है।"
+        }
+      },
+      "targetExam": "RMS"
+    },
+    {
+      "key": "bank-ca-rms-15",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "The Parliament of India consists of the President and which two Houses?",
+        "hi": "भारत की संसद राष्ट्रपति और किन दो सदनों से मिलकर बनती है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Vidhan Sabha and Vidhan Parishad",
+            "hi": "विधान सभा और विधान परिषद"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Lok Sabha and Vidhan Sabha",
+            "hi": "लोक सभा और विधान सभा"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Lok Sabha and Rajya Sabha",
+            "hi": "लोक सभा और राज्य सभा"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Rajya Sabha and Vidhan Parishad",
+            "hi": "राज्य सभा और विधान परिषद"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "The Parliament of India is made up of the President, the Lok Sabha (House of the People), and the Rajya Sabha (Council of States).",
+        "hi": "भारत की संसद राष्ट्रपति, लोक सभा (जनता का सदन) और राज्य सभा (राज्यों की परिषद) से मिलकर बनती है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Vidhan Sabha and Vidhan Parishad are the two houses found in some state legislatures, not the national Parliament.",
+          "hi": "विधान सभा और विधान परिषद कुछ राज्यों के विधानमंडलों के दो सदन हैं, न कि राष्ट्रीय संसद के।"
+        },
+        "b": {
+          "en": "Vidhan Sabha is a state-level house, so pairing it with Lok Sabha mixes up state and national legislatures.",
+          "hi": "विधान सभा राज्य स्तर का सदन है, इसलिए इसे लोक सभा के साथ जोड़ना राज्य और राष्ट्रीय विधानमंडलों को मिला देता है।"
+        },
+        "d": {
+          "en": "Vidhan Parishad is a state-level upper house, not a part of the national Parliament like the Rajya Sabha is.",
+          "hi": "विधान परिषद राज्य स्तर का उच्च सदन है, यह राज्य सभा की तरह राष्ट्रीय संसद का हिस्सा नहीं है।"
+        }
+      },
+      "targetExam": "RMS"
+    },
+    {
+      "key": "bank-ca-rms-16",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "The National Defence Academy (NDA), which trains cadets for the Army, Navy, and Air Force together, is located near which city?",
+        "hi": "राष्ट्रीय रक्षा अकादमी (एनडीए), जो थल सेना, नौसेना और वायु सेना के कैडेटों को एक साथ प्रशिक्षित करती है, किस शहर के निकट स्थित है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Dehradun",
+            "hi": "देहरादून"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Wellington",
+            "hi": "वेलिंगटन"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Chennai",
+            "hi": "चेन्नई"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Pune",
+            "hi": "पुणे"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "The National Defence Academy is located at Khadakwasla, near Pune in Maharashtra, and is the world's first tri-service academy training cadets for all three defence services together.",
+        "hi": "राष्ट्रीय रक्षा अकादमी महाराष्ट्र में पुणे के निकट खड़कवासला में स्थित है, और यह दुनिया की पहली त्रि-सेवा अकादमी है जो तीनों रक्षा सेवाओं के कैडेटों को एक साथ प्रशिक्षित करती है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Dehradun is home to the Indian Military Academy (IMA) and Rashtriya Indian Military College, which are often confused with the NDA.",
+          "hi": "देहरादून भारतीय सैन्य अकादमी (आईएमए) और राष्ट्रीय भारतीय सैन्य महाविद्यालय का स्थान है, जिन्हें अक्सर एनडीए समझ लिया जाता है।"
+        },
+        "b": {
+          "en": "Wellington in Tamil Nadu hosts the Defence Services Staff College, a different training institution for officers.",
+          "hi": "तमिलनाडु का वेलिंगटन रक्षा सेवा स्टाफ कॉलेज का स्थान है, जो अधिकारियों के लिए एक अलग प्रशिक्षण संस्थान है।"
+        },
+        "c": {
+          "en": "Chennai hosts the Officers Training Academy, another defence training institute distinct from the NDA.",
+          "hi": "चेन्नई अधिकारी प्रशिक्षण अकादमी का स्थान है, जो एनडीए से भिन्न एक और रक्षा प्रशिक्षण संस्थान है।"
+        }
+      },
+      "targetExam": "RMS"
+    },
+    {
+      "key": "bank-ca-rms-17",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Indian Navy Day is celebrated every year on 4 December to commemorate which operation during the 1971 war?",
+        "hi": "भारतीय नौसेना दिवस प्रतिवर्ष 4 दिसंबर को 1971 के युद्ध के दौरान चलाए गए किस अभियान की स्मृति में मनाया जाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Operation Trident",
+            "hi": "ऑपरेशन ट्राइडेंट"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Operation Vijay",
+            "hi": "ऑपरेशन विजय"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Operation Cactus",
+            "hi": "ऑपरेशन कैक्टस"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Operation Meghdoot",
+            "hi": "ऑपरेशन मेघदूत"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Indian Navy Day, celebrated on 4 December, commemorates Operation Trident, a successful naval attack on Karachi harbour during the 1971 war.",
+        "hi": "4 दिसंबर को मनाया जाने वाला भारतीय नौसेना दिवस ऑपरेशन ट्राइडेंट की स्मृति में है, जो 1971 के युद्ध के दौरान कराची बंदरगाह पर किया गया एक सफल नौसैनिक हमला था।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Operation Vijay refers to the 1999 Kargil War (and also the 1961 liberation of Goa), not the 1971 naval action.",
+          "hi": "ऑपरेशन विजय 1999 के कारगिल युद्ध (और 1961 में गोवा की मुक्ति) से संबंधित है, न कि 1971 की नौसैनिक कार्रवाई से।"
+        },
+        "c": {
+          "en": "Operation Cactus was a 1988 operation to help the Maldives, unrelated to Navy Day's origin.",
+          "hi": "ऑपरेशन कैक्टस 1988 में मालदीव की सहायता के लिए चलाया गया अभियान था, जिसका नौसेना दिवस की उत्पत्ति से कोई संबंध नहीं है।"
+        },
+        "d": {
+          "en": "Operation Meghdoot was the 1984 operation securing the Siachen Glacier, a different campaign entirely.",
+          "hi": "ऑपरेशन मेघदूत 1984 में सियाचिन ग्लेशियर को सुरक्षित करने के लिए चलाया गया अभियान था, जो पूरी तरह से एक अलग सैन्य कार्रवाई है।"
+        }
+      },
+      "targetExam": "RMS"
+    },
+    {
+      "key": "bank-ca-rms-18",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "On which date is Indian Air Force Day celebrated every year?",
+        "hi": "भारतीय वायु सेना दिवस प्रतिवर्ष किस तिथि को मनाया जाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "15 January",
+            "hi": "15 जनवरी"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "8 October",
+            "hi": "8 अक्टूबर"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "4 December",
+            "hi": "4 दिसंबर"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "26 July",
+            "hi": "26 जुलाई"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Indian Air Force Day is celebrated on 8 October, marking the anniversary of the Indian Air Force's establishment in 1932.",
+        "hi": "भारतीय वायु सेना दिवस 8 अक्टूबर को मनाया जाता है, जो 1932 में भारतीय वायु सेना की स्थापना की वर्षगांठ है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "15 January is Indian Army Day, a separate armed forces observance.",
+          "hi": "15 जनवरी भारतीय थल सेना दिवस है, जो एक अलग सैन्य उत्सव है।"
+        },
+        "c": {
+          "en": "4 December is Indian Navy Day, not the Air Force's day.",
+          "hi": "4 दिसंबर भारतीय नौसेना दिवस है, वायु सेना का दिवस नहीं।"
+        },
+        "d": {
+          "en": "26 July is Kargil Vijay Diwas, commemorating the 1999 war victory, not the founding of the Air Force.",
+          "hi": "26 जुलाई कारगिल विजय दिवस है, जो 1999 के युद्ध की विजय की स्मृति में है, न कि वायु सेना की स्थापना की।"
+        }
+      },
+      "targetExam": "RMS"
+    },
+    {
+      "key": "bank-ca-rms-19",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Kargil Vijay Diwas is observed every year on 26 July to mark India's victory in a conflict fought in which year?",
+        "hi": "कारगिल विजय दिवस प्रतिवर्ष 26 जुलाई को किस वर्ष में लड़े गए संघर्ष में भारत की विजय के उपलक्ष्य में मनाया जाता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "1965",
+            "hi": "1965"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "1971",
+            "hi": "1971"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "1962",
+            "hi": "1962"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "1999",
+            "hi": "1999"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "Kargil Vijay Diwas marks India's victory in the Kargil War of 1999, fought against Pakistani intrusion in the Kargil district of Ladakh.",
+        "hi": "कारगिल विजय दिवस 1999 के कारगिल युद्ध में भारत की विजय का प्रतीक है, जो लद्दाख के कारगिल जिले में पाकिस्तानी घुसपैठ के विरुद्ध लड़ा गया था।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "1965 was the year of an earlier India-Pakistan war, but Kargil Vijay Diwas relates to a later conflict.",
+          "hi": "1965 एक पहले के भारत-पाकिस्तान युद्ध का वर्ष था, परन्तु कारगिल विजय दिवस एक बाद के संघर्ष से संबंधित है।"
+        },
+        "b": {
+          "en": "1971 was the year of the India-Pakistan war that led to Bangladesh's creation, commemorated separately as Vijay Diwas on 16 December.",
+          "hi": "1971 वह वर्ष था जब भारत-पाकिस्तान युद्ध के परिणामस्वरूप बांग्लादेश का निर्माण हुआ, जिसकी स्मृति अलग से 16 दिसंबर को विजय दिवस के रूप में मनाई जाती है।"
+        },
+        "c": {
+          "en": "1962 was the year of the India-China war, an entirely different conflict from Kargil.",
+          "hi": "1962 भारत-चीन युद्ध का वर्ष था, जो कारगिल से पूरी तरह से अलग संघर्ष है।"
+        }
+      },
+      "targetExam": "RMS"
+    },
+    {
+      "key": "bank-ca-rms-20",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "The 'Statue of Unity', the world's tallest statue, honours Sardar Vallabhbhai Patel and stands on an island in which river?",
+        "hi": "दुनिया की सबसे ऊँची प्रतिमा, 'स्टैच्यू ऑफ यूनिटी', सरदार वल्लभभाई पटेल के सम्मान में किस नदी में स्थित एक द्वीप पर खड़ी है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Ganga",
+            "hi": "गंगा"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Godavari",
+            "hi": "गोदावरी"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Narmada",
+            "hi": "नर्मदा"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Yamuna",
+            "hi": "यमुना"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "The Statue of Unity stands on Sadhu Bet island in the Narmada river in Gujarat, honouring Sardar Vallabhbhai Patel, who is remembered as the 'Iron Man of India' for unifying the princely states.",
+        "hi": "स्टैच्यू ऑफ यूनिटी गुजरात में नर्मदा नदी के साधु बेट द्वीप पर स्थित है, जो सरदार वल्लभभाई पटेल के सम्मान में बनाई गई है, जिन्हें रियासतों को एकीकृत करने के लिए 'भारत के लौह पुरुष' के रूप में याद किया जाता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "The Ganga is India's most famous river, but the statue is not located on it.",
+          "hi": "गंगा भारत की सबसे प्रसिद्ध नदी है, परन्तु यह प्रतिमा इस पर स्थित नहीं है।"
+        },
+        "b": {
+          "en": "The Godavari is a major river of southern India, unrelated to this statue's location.",
+          "hi": "गोदावरी दक्षिण भारत की एक प्रमुख नदी है, जिसका इस प्रतिमा के स्थान से कोई संबंध नहीं है।"
+        },
+        "d": {
+          "en": "The Yamuna flows past Delhi and Agra, but the Statue of Unity is not situated on it.",
+          "hi": "यमुना दिल्ली और आगरा से होकर बहती है, परन्तु स्टैच्यू ऑफ यूनिटी इस पर स्थित नहीं है।"
+        }
+      },
+      "targetExam": "RMS"
+    },
+    {
+      "key": "bank-ca-rms-21",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Which is the highest civilian award in India?",
+        "hi": "भारत का सर्वोच्च नागरिक सम्मान कौन-सा है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Bharat Ratna",
+            "hi": "भारत रत्न"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Padma Vibhushan",
+            "hi": "पद्म विभूषण"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Padma Bhushan",
+            "hi": "पद्म भूषण"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Padma Shri",
+            "hi": "पद्म श्री"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "The Bharat Ratna is India's highest civilian award, given for exceptional service in any field, including science, literature, art, and public service.",
+        "hi": "भारत रत्न भारत का सर्वोच्च नागरिक सम्मान है, जो विज्ञान, साहित्य, कला और लोकसेवा सहित किसी भी क्षेत्र में असाधारण सेवा के लिए दिया जाता है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Padma Vibhushan is the second-highest civilian award, ranking just below the Bharat Ratna.",
+          "hi": "पद्म विभूषण दूसरा सर्वोच्च नागरिक सम्मान है, जो भारत रत्न के ठीक बाद आता है।"
+        },
+        "c": {
+          "en": "Padma Bhushan ranks third among India's civilian awards, below the Bharat Ratna and Padma Vibhushan.",
+          "hi": "पद्म भूषण भारत के नागरिक सम्मानों में तीसरे स्थान पर है, जो भारत रत्न और पद्म विभूषण से नीचे है।"
+        },
+        "d": {
+          "en": "Padma Shri is the fourth-highest civilian award, the most junior of this group of honours.",
+          "hi": "पद्म श्री चौथा सर्वोच्च नागरिक सम्मान है, जो इस समूह में सबसे कनिष्ठ है।"
+        }
+      },
+      "targetExam": "RMS"
+    },
+    {
+      "key": "bank-ca-rms-22",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Which is the highest gallantry award given for conspicuous bravery during wartime in India?",
+        "hi": "भारत में युद्धकाल में असाधारण वीरता के लिए दिया जाने वाला सर्वोच्च वीरता पुरस्कार कौन-सा है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Ashoka Chakra",
+            "hi": "अशोक चक्र"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Param Vir Chakra",
+            "hi": "परम वीर चक्र"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Vir Chakra",
+            "hi": "वीर चक्र"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Kirti Chakra",
+            "hi": "कीर्ति चक्र"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "The Param Vir Chakra is India's highest wartime gallantry award, given for the most conspicuous acts of bravery in the presence of the enemy.",
+        "hi": "परम वीर चक्र भारत का सर्वोच्च युद्धकालीन वीरता पुरस्कार है, जो शत्रु के समक्ष असाधारण वीरता के कार्यों के लिए दिया जाता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Ashoka Chakra is the highest peacetime gallantry award, not the wartime one, though its similar name causes confusion.",
+          "hi": "अशोक चक्र सर्वोच्च शांतिकालीन वीरता पुरस्कार है, युद्धकालीन नहीं, हालाँकि इसका मिलता-जुलता नाम भ्रम पैदा करता है।"
+        },
+        "c": {
+          "en": "Vir Chakra is also a wartime gallantry award, but it ranks third, below the Param Vir Chakra and Maha Vir Chakra.",
+          "hi": "वीर चक्र भी एक युद्धकालीन वीरता पुरस्कार है, परन्तु यह तीसरे स्थान पर है, परम वीर चक्र और महावीर चक्र से नीचे।"
+        },
+        "d": {
+          "en": "Kirti Chakra is the second-highest peacetime gallantry award, distinct from the wartime honours.",
+          "hi": "कीर्ति चक्र दूसरा सर्वोच्च शांतिकालीन वीरता पुरस्कार है, जो युद्धकालीन सम्मानों से भिन्न है।"
+        }
+      },
+      "targetExam": "RMS"
+    },
+    {
+      "key": "bank-ca-rms-23",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "What is the length-to-height ratio prescribed for the Indian National Flag?",
+        "hi": "भारतीय राष्ट्रीय ध्वज के लिए निर्धारित लंबाई-ऊँचाई का अनुपात क्या है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "2:1",
+            "hi": "2:1"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "4:3",
+            "hi": "4:3"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "3:2",
+            "hi": "3:2"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "1:1",
+            "hi": "1:1"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "The Flag Code of India prescribes that the National Flag must be rectangular with a length-to-height ratio of 3:2.",
+        "hi": "भारत की ध्वज संहिता के अनुसार राष्ट्रीय ध्वज आयताकार होना चाहिए, जिसकी लंबाई और ऊँचाई का अनुपात 3:2 हो।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "2:1 is a simple ratio some students guess, but it does not match the flag's official proportions.",
+          "hi": "2:1 एक सरल अनुपात है जिसका कुछ छात्र अनुमान लगाते हैं, परन्तु यह ध्वज के आधिकारिक अनुपात से मेल नहीं खाता।"
+        },
+        "b": {
+          "en": "4:3 is a common ratio for old television screens, mistakenly applied here.",
+          "hi": "4:3 पुराने टेलीविज़न स्क्रीन का एक सामान्य अनुपात है, जिसे यहाँ गलती से लागू कर दिया जाता है।"
+        },
+        "d": {
+          "en": "1:1 would make the flag a square, which it clearly is not.",
+          "hi": "1:1 से ध्वज एक वर्ग बन जाएगा, जबकि यह स्पष्ट रूप से वर्गाकार नहीं है।"
+        }
+      },
+      "targetExam": "RMS"
+    },
+    {
+      "key": "bank-ca-rms-24",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Rashtriya Military Schools like the one in Bangalore, Chail, and Dholpur were originally established during British rule under what name, before being renamed after independence?",
+        "hi": "बैंगलोर, चैल और धौलपुर जैसे राष्ट्रीय मिलिट्री स्कूल मूल रूप से ब्रिटिश शासन के दौरान किस नाम से स्थापित किए गए थे, जिन्हें स्वतंत्रता के बाद बदल दिया गया?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "National Defence Schools",
+            "hi": "नेशनल डिफेंस स्कूल्स"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Indian Cadet Colleges",
+            "hi": "इंडियन कैडेट कॉलेजेज़"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Imperial Service Schools",
+            "hi": "इंपीरियल सर्विस स्कूल्स"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "King George's Royal Indian Military Schools",
+            "hi": "किंग जॉर्ज रॉयल इंडियन मिलिट्री स्कूल्स"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "Rashtriya Military Schools were originally founded as King George's Royal Indian Military Schools and were renamed Rashtriya Military Schools after India's independence, continuing to prepare students for careers in the armed forces.",
+        "hi": "राष्ट्रीय मिलिट्री स्कूलों की स्थापना मूल रूप से 'किंग जॉर्ज रॉयल इंडियन मिलिट्री स्कूल्स' के नाम से हुई थी, और भारत की स्वतंत्रता के बाद इनका नाम बदलकर राष्ट्रीय मिलिट्री स्कूल कर दिया गया, जो छात्रों को सशस्त्र बलों में करियर के लिए तैयार करते रहे।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "'National Defence Schools' sounds plausible but was never their actual original British-era name.",
+          "hi": "'नेशनल डिफेंस स्कूल्स' सुनने में सही लगता है, परन्तु यह इनका वास्तविक मूल ब्रिटिश-कालीन नाम कभी नहीं था।"
+        },
+        "b": {
+          "en": "'Indian Cadet Colleges' is an invented name with no historical basis for these schools.",
+          "hi": "'इंडियन कैडेट कॉलेजेज़' एक काल्पनिक नाम है, जिसका इन स्कूलों के इतिहास से कोई आधार नहीं है।"
+        },
+        "c": {
+          "en": "'Imperial Service Schools' is a distractor name resembling the real title but not the one actually used historically.",
+          "hi": "'इंपीरियल सर्विस स्कूल्स' असली नाम से मिलता-जुलता एक भ्रामक नाम है, परन्तु ऐतिहासिक रूप से यह वास्तव में प्रयोग नहीं किया गया।"
+        }
+      },
+      "targetExam": "RMS"
+    },
+    {
+      "key": "bank-ca-rms-25",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "The National Pledge, recited daily by schoolchildren across India, begins with the words \"India is my country...\" — in which language was it originally written?",
+        "hi": "राष्ट्रीय प्रतिज्ञा, जिसे भारत भर के स्कूली बच्चे प्रतिदिन दोहराते हैं और जो \"भारत मेरा देश है...\" शब्दों से शुरू होती है, मूल रूप से किस भाषा में लिखी गई थी?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Hindi",
+            "hi": "हिंदी"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Telugu",
+            "hi": "तेलुगु"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Sanskrit",
+            "hi": "संस्कृत"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Tamil",
+            "hi": "तमिल"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "The National Pledge was originally written in Telugu by Pydimarri Venkata Subba Rao and was later translated into other Indian languages, including Hindi and English.",
+        "hi": "राष्ट्रीय प्रतिज्ञा मूल रूप से पैदिमर्री वेंकट सुब्बा राव द्वारा तेलुगु में लिखी गई थी और बाद में हिंदी व अंग्रेज़ी सहित अन्य भारतीय भाषाओं में इसका अनुवाद किया गया।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Hindi is the language in which most students recite the pledge today, but it was not the original language of composition.",
+          "hi": "हिंदी वह भाषा है जिसमें आज अधिकांश छात्र यह प्रतिज्ञा दोहराते हैं, परन्तु यह इसकी रचना की मूल भाषा नहीं थी।"
+        },
+        "c": {
+          "en": "Sanskrit is the classical language associated with many ancient texts, but not the original language of this modern pledge.",
+          "hi": "संस्कृत कई प्राचीन ग्रंथों से जुड़ी एक शास्त्रीय भाषा है, परन्तु यह इस आधुनिक प्रतिज्ञा की मूल भाषा नहीं है।"
+        },
+        "d": {
+          "en": "Tamil is another major Indian language, but the pledge was not originally composed in it.",
+          "hi": "तमिल एक और प्रमुख भारतीय भाषा है, परन्तु यह प्रतिज्ञा मूल रूप से इसमें रचित नहीं थी।"
+        }
+      },
+      "targetExam": "RMS"
+    },
+    {
+      "key": "bank-ca-rms-26",
+      "difficulty": "HARD",
+      "content": {
+        "en": "With which words does the Preamble of the Constitution of India begin?",
+        "hi": "भारत के संविधान की प्रस्तावना किन शब्दों से आरंभ होती है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "\"WE, THE PEOPLE OF INDIA\"",
+            "hi": "\"हम, भारत के लोग\""
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "\"IN THE NAME OF GOD\"",
+            "hi": "\"ईश्वर के नाम पर\""
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "\"WE, THE CITIZENS OF INDIA\"",
+            "hi": "\"हम, भारत के नागरिक\""
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "\"THIS CONSTITUTION OF INDIA\"",
+            "hi": "\"भारत का यह संविधान\""
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "The Preamble of the Constitution of India begins with the words \"WE, THE PEOPLE OF INDIA\", expressing that the Constitution derives its authority from the people.",
+        "hi": "भारत के संविधान की प्रस्तावना \"हम, भारत के लोग\" शब्दों से आरंभ होती है, जो यह दर्शाती है कि संविधान अपनी सत्ता जनता से प्राप्त करता है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "\"IN THE NAME OF GOD\" is an invented phrase not found in India's secular Preamble.",
+          "hi": "\"ईश्वर के नाम पर\" एक काल्पनिक वाक्यांश है जो भारत की धर्मनिरपेक्ष प्रस्तावना में नहीं मिलता।"
+        },
+        "c": {
+          "en": "\"WE, THE CITIZENS OF INDIA\" closely resembles the real opening but incorrectly substitutes 'citizens' for 'people'.",
+          "hi": "\"हम, भारत के नागरिक\" वास्तविक आरंभिक शब्दों से काफी मिलता-जुलता है, परन्तु गलती से 'लोग' के स्थान पर 'नागरिक' शब्द का प्रयोग करता है।"
+        },
+        "d": {
+          "en": "\"THIS CONSTITUTION OF INDIA\" is a plausible-sounding legal phrase but is not how the Preamble actually opens.",
+          "hi": "\"भारत का यह संविधान\" सुनने में एक कानूनी वाक्यांश जैसा लगता है, परन्तु प्रस्तावना वास्तव में इस तरह आरंभ नहीं होती।"
+        }
+      },
+      "targetExam": "RMS"
+    },
+    {
+      "key": "bank-ca-rms-27",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Which Constitutional Amendment added the words 'Socialist', 'Secular', and 'Integrity' to the Preamble of India's Constitution?",
+        "hi": "किस संविधान संशोधन द्वारा भारत के संविधान की प्रस्तावना में 'समाजवादी', 'पंथनिरपेक्ष' और 'अखंडता' शब्द जोड़े गए थे?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "1st Amendment",
+            "hi": "पहला संशोधन"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "44th Amendment",
+            "hi": "44वां संशोधन"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "61st Amendment",
+            "hi": "61वां संशोधन"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "42nd Amendment",
+            "hi": "42वां संशोधन"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "The 42nd Amendment Act of 1976 added the words 'Socialist', 'Secular', and 'Integrity' to the Preamble of the Constitution of India.",
+        "hi": "1976 के 42वें संशोधन अधिनियम द्वारा भारत के संविधान की प्रस्तावना में 'समाजवादी', 'पंथनिरपेक्ष' और 'अखंडता' शब्द जोड़े गए थे।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "The 1st Amendment (1951) mainly dealt with restrictions on fundamental rights like free speech, not the Preamble's wording.",
+          "hi": "पहला संशोधन (1951) मुख्य रूप से अभिव्यक्ति की स्वतंत्रता जैसे मौलिक अधिकारों पर प्रतिबंधों से संबंधित था, न कि प्रस्तावना के शब्दों से।"
+        },
+        "b": {
+          "en": "The 44th Amendment (1978) is remembered for restoring some safeguards after the Emergency, but it did not add these words to the Preamble.",
+          "hi": "44वां संशोधन (1978) आपातकाल के बाद कुछ सुरक्षा उपायों को पुनर्स्थापित करने के लिए याद किया जाता है, परन्तु इसने प्रस्तावना में ये शब्द नहीं जोड़े।"
+        },
+        "c": {
+          "en": "The 61st Amendment (1989) lowered the voting age to 18, an unrelated change.",
+          "hi": "61वें संशोधन (1989) ने मतदान की आयु घटाकर 18 वर्ष की थी, जो एक असंबंधित परिवर्तन है।"
+        }
+      },
+      "targetExam": "RMS"
+    },
+    {
+      "key": "bank-ca-rms-28",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Fundamental Duties of Indian citizens were added to the Constitution through which amendment, on the recommendation of the Swaran Singh Committee?",
+        "hi": "स्वर्ण सिंह समिति की सिफारिश पर भारतीय नागरिकों के मौलिक कर्तव्यों को संविधान में किस संशोधन के माध्यम से जोड़ा गया था?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "26th Amendment",
+            "hi": "26वां संशोधन"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "73rd Amendment",
+            "hi": "73वां संशोधन"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "42nd Amendment",
+            "hi": "42वां संशोधन"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "86th Amendment",
+            "hi": "86वां संशोधन"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "The 42nd Amendment Act of 1976 added Fundamental Duties to the Indian Constitution, based on the recommendations of the Swaran Singh Committee.",
+        "hi": "1976 के 42वें संशोधन अधिनियम द्वारा स्वर्ण सिंह समिति की सिफारिशों के आधार पर भारतीय संविधान में मौलिक कर्तव्यों को जोड़ा गया था।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "The 26th Amendment (1971) dealt with the abolition of privy purses for former rulers, unrelated to Fundamental Duties.",
+          "hi": "26वां संशोधन (1971) पूर्व शासकों के प्रिवी पर्स की समाप्ति से संबंधित था, जिसका मौलिक कर्तव्यों से कोई संबंध नहीं है।"
+        },
+        "b": {
+          "en": "The 73rd Amendment (1992) gave constitutional status to Panchayati Raj institutions, a different reform altogether.",
+          "hi": "73वें संशोधन (1992) ने पंचायती राज संस्थाओं को संवैधानिक दर्जा दिया, जो पूरी तरह से एक अलग सुधार है।"
+        },
+        "d": {
+          "en": "The 86th Amendment (2002) made education a Fundamental Right for children aged 6-14, not the source of Fundamental Duties.",
+          "hi": "86वें संशोधन (2002) ने 6-14 वर्ष के बच्चों के लिए शिक्षा को मौलिक अधिकार बनाया, यह मौलिक कर्तव्यों का स्रोत नहीं है।"
+        }
+      },
+      "targetExam": "RMS"
+    },
+    {
+      "key": "bank-ca-rms-29",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Which Article of the Constitution of India lists the Fundamental Duties of citizens?",
+        "hi": "भारत के संविधान का कौन-सा अनुच्छेद नागरिकों के मौलिक कर्तव्यों की सूची देता है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Article 21",
+            "hi": "अनुच्छेद 21"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Article 51A",
+            "hi": "अनुच्छेद 51ए"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Article 32",
+            "hi": "अनुच्छेद 32"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Article 370",
+            "hi": "अनुच्छेद 370"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Article 51A of the Constitution lists the Fundamental Duties of every citizen of India, such as respecting the Constitution and protecting the environment.",
+        "hi": "संविधान का अनुच्छेद 51ए भारत के प्रत्येक नागरिक के मौलिक कर्तव्यों की सूची देता है, जैसे संविधान का सम्मान करना और पर्यावरण की रक्षा करना।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Article 21 guarantees the Fundamental Right to Life and Personal Liberty, a right rather than a duty.",
+          "hi": "अनुच्छेद 21 जीवन और व्यक्तिगत स्वतंत्रता के मौलिक अधिकार की गारंटी देता है, जो कर्तव्य नहीं बल्कि अधिकार है।"
+        },
+        "c": {
+          "en": "Article 32 provides the right to constitutional remedies, allowing citizens to approach the Supreme Court, unrelated to duties.",
+          "hi": "अनुच्छेद 32 संवैधानिक उपचारों का अधिकार देता है, जिससे नागरिक सर्वोच्च न्यायालय जा सकते हैं, इसका कर्तव्यों से कोई संबंध नहीं है।"
+        },
+        "d": {
+          "en": "Article 370 dealt with the special status once given to Jammu and Kashmir, a completely different subject.",
+          "hi": "अनुच्छेद 370 जम्मू और कश्मीर को एक समय दिए गए विशेष दर्जे से संबंधित था, जो पूरी तरह से एक अलग विषय है।"
+        }
+      },
+      "targetExam": "RMS"
+    },
+    {
+      "key": "bank-ca-rms-30",
+      "difficulty": "HARD",
+      "content": {
+        "en": "The Planning Commission of India, which prepared Five-Year Plans, was replaced in 2015 by which body?",
+        "hi": "भारत का योजना आयोग, जो पंचवर्षीय योजनाएँ तैयार करता था, 2015 में किस संस्था द्वारा प्रतिस्थापित किया गया?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "NITI Aayog",
+            "hi": "नीति आयोग"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Finance Commission",
+            "hi": "वित्त आयोग"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Election Commission",
+            "hi": "चुनाव आयोग"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Union Public Service Commission",
+            "hi": "संघ लोक सेवा आयोग"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "The Planning Commission was replaced by NITI Aayog (National Institution for Transforming India) in 2015, which now serves as the government's policy think tank.",
+        "hi": "योजना आयोग को 2015 में नीति आयोग (राष्ट्रीय भारत परिवर्तन संस्थान) द्वारा प्रतिस्थापित किया गया, जो अब सरकार के नीति थिंक-टैंक के रूप में कार्य करता है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "The Finance Commission is a separate constitutional body that recommends how tax revenues are shared between the Centre and states; it did not replace the Planning Commission.",
+          "hi": "वित्त आयोग एक अलग संवैधानिक संस्था है जो केंद्र और राज्यों के बीच कर राजस्व के बंटवारे की सिफारिश करती है; इसने योजना आयोग का स्थान नहीं लिया।"
+        },
+        "c": {
+          "en": "The Election Commission conducts elections in India and has no connection to economic planning.",
+          "hi": "चुनाव आयोग भारत में चुनाव संचालित करता है और इसका आर्थिक योजना से कोई संबंध नहीं है।"
+        },
+        "d": {
+          "en": "The Union Public Service Commission conducts recruitment examinations for civil services, an entirely different function.",
+          "hi": "संघ लोक सेवा आयोग सिविल सेवाओं के लिए भर्ती परीक्षाएँ आयोजित करता है, जो पूरी तरह से एक अलग कार्य है।"
+        }
+      },
+      "targetExam": "RMS"
+    },
+    {
+      "key": "bank-ca-rms-31",
+      "difficulty": "HARD",
+      "content": {
+        "en": "India's Chandrayaan-3 mission made history in August 2023 by achieving a soft landing near which region of the Moon, a first for any country?",
+        "hi": "भारत के चंद्रयान-3 मिशन ने अगस्त 2023 में चंद्रमा के किस क्षेत्र के निकट सफल लैंडिंग करके इतिहास रचा, जो किसी भी देश के लिए पहली उपलब्धि थी?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "The equator",
+            "hi": "भूमध्य रेखा"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "The far side",
+            "hi": "दूर की ओर (फार साइड)"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "The north pole",
+            "hi": "उत्तरी ध्रुव"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "The south pole",
+            "hi": "दक्षिणी ध्रुव"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "Chandrayaan-3's Vikram lander achieved a soft landing near the Moon's south pole in August 2023, making India the first country to do so; the landing anniversary, 23 August, is now observed as National Space Day.",
+        "hi": "चंद्रयान-3 के विक्रम लैंडर ने अगस्त 2023 में चंद्रमा के दक्षिणी ध्रुव के निकट सफल लैंडिंग की, जिससे भारत ऐसा करने वाला पहला देश बना; लैंडिंग की वर्षगांठ, 23 अगस्त, को अब राष्ट्रीय अंतरिक्ष दिवस के रूप में मनाया जाता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "The equator is not where Chandrayaan-3 landed; the mission specifically targeted the less-explored polar region.",
+          "hi": "चंद्रयान-3 भूमध्य रेखा पर नहीं उतरा; इस मिशन का विशेष लक्ष्य कम अन्वेषित ध्रुवीय क्षेत्र था।"
+        },
+        "b": {
+          "en": "The far side of the Moon was famously reached by China's Chang'e-4 mission, a different achievement from Chandrayaan-3's south pole landing.",
+          "hi": "चंद्रमा के दूर की ओर (फार साइड) चीन के चांग-4 मिशन द्वारा पहुँचा गया था, जो चंद्रयान-3 की दक्षिणी ध्रुव लैंडिंग से एक अलग उपलब्धि है।"
+        },
+        "c": {
+          "en": "The north pole of the Moon was not the target; Chandrayaan-3's landing site was near the south pole.",
+          "hi": "चंद्रमा का उत्तरी ध्रुव लक्ष्य नहीं था; चंद्रयान-3 का लैंडिंग स्थल दक्षिणी ध्रुव के निकट था।"
+        }
+      },
+      "targetExam": "RMS"
+    },
+    {
+      "key": "bank-ca-rms-32",
+      "difficulty": "HARD",
+      "content": {
+        "en": "After the reorganisation of Jammu and Kashmir in 2019, how many states does the Indian Union currently have?",
+        "hi": "2019 में जम्मू और कश्मीर के पुनर्गठन के बाद, वर्तमान में भारतीय संघ में कितने राज्य हैं?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "29",
+            "hi": "29"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "25",
+            "hi": "25"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "28",
+            "hi": "28"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "30",
+            "hi": "30"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Following the reorganisation of the state of Jammu and Kashmir in 2019 into two Union Territories, the number of states in India stands at 28.",
+        "hi": "2019 में जम्मू और कश्मीर राज्य के दो केंद्र शासित प्रदेशों में पुनर्गठन के बाद, भारत में राज्यों की संख्या 28 है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "29 was the count before the 2019 reorganisation, when Jammu and Kashmir was still a single state.",
+          "hi": "29 की संख्या 2019 के पुनर्गठन से पहले थी, जब जम्मू और कश्मीर अभी भी एक ही राज्य था।"
+        },
+        "b": {
+          "en": "25 is an undercount well below the actual current number of states.",
+          "hi": "25 वास्तविक वर्तमान राज्यों की संख्या से काफी कम गिनती है।"
+        },
+        "d": {
+          "en": "30 overstates the number of states currently in the Indian Union.",
+          "hi": "30 वर्तमान में भारतीय संघ के राज्यों की संख्या को अधिक बताता है।"
+        }
+      },
+      "targetExam": "RMS"
+    },
+    {
+      "key": "bank-ca-rms-33",
+      "difficulty": "HARD",
+      "content": {
+        "en": "How many Union Territories does India currently have, following the 2019 reorganisation of Jammu and Kashmir?",
+        "hi": "2019 में जम्मू और कश्मीर के पुनर्गठन के बाद, भारत में वर्तमान में कितने केंद्र शासित प्रदेश हैं?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "7",
+            "hi": "7"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "8",
+            "hi": "8"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "9",
+            "hi": "9"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "6",
+            "hi": "6"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "After Jammu and Kashmir was reorganised into two Union Territories in 2019, India's total number of Union Territories became 8.",
+        "hi": "2019 में जम्मू और कश्मीर को दो केंद्र शासित प्रदेशों में पुनर्गठित करने के बाद, भारत में केंद्र शासित प्रदेशों की कुल संख्या 8 हो गई।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "7 was the number of Union Territories before the 2019 reorganisation added two more from the former state.",
+          "hi": "7 की संख्या 2019 के पुनर्गठन से पहले थी, जिसके बाद पूर्व राज्य से दो और केंद्र शासित प्रदेश जुड़े।"
+        },
+        "c": {
+          "en": "9 overstates the current count of Union Territories by one.",
+          "hi": "9 वर्तमान केंद्र शासित प्रदेशों की संख्या को एक अधिक बताता है।"
+        },
+        "d": {
+          "en": "6 undercounts the Union Territories by two.",
+          "hi": "6 केंद्र शासित प्रदेशों की संख्या को दो कम गिनता है।"
+        }
+      },
+      "targetExam": "RMS"
+    },
+    {
+      "key": "bank-ca-rms-34",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Major Somnath Sharma, who laid down his life defending Srinagar airport in 1947, was the first recipient of which gallantry award?",
+        "hi": "मेजर सोमनाथ शर्मा, जिन्होंने 1947 में श्रीनगर हवाई अड्डे की रक्षा करते हुए अपने प्राण न्योछावर किए, किस वीरता पुरस्कार के पहले प्राप्तकर्ता थे?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Param Vir Chakra",
+            "hi": "परम वीर चक्र"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Ashoka Chakra",
+            "hi": "अशोक चक्र"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Maha Vir Chakra",
+            "hi": "महावीर चक्र"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Vir Chakra",
+            "hi": "वीर चक्र"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Major Somnath Sharma became the first recipient of the Param Vir Chakra, India's highest wartime gallantry award, for his bravery in the 1947-48 conflict.",
+        "hi": "मेजर सोमनाथ शर्मा 1947-48 के संघर्ष में अपनी वीरता के लिए भारत के सर्वोच्च युद्धकालीन वीरता पुरस्कार, परम वीर चक्र, के पहले प्राप्तकर्ता बने।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "The Ashoka Chakra is the highest peacetime gallantry award and was not the one first awarded to Major Somnath Sharma.",
+          "hi": "अशोक चक्र सर्वोच्च शांतिकालीन वीरता पुरस्कार है और यह वह पुरस्कार नहीं था जो सबसे पहले मेजर सोमनाथ शर्मा को दिया गया।"
+        },
+        "c": {
+          "en": "The Maha Vir Chakra ranks second among wartime gallantry awards, below the Param Vir Chakra.",
+          "hi": "महावीर चक्र युद्धकालीन वीरता पुरस्कारों में दूसरे स्थान पर है, परम वीर चक्र से नीचे।"
+        },
+        "d": {
+          "en": "The Vir Chakra ranks third among wartime gallantry awards, a more junior honour than the one he actually received.",
+          "hi": "वीर चक्र युद्धकालीन वीरता पुरस्कारों में तीसरे स्थान पर है, जो उन्हें वास्तव में मिले सम्मान से कनिष्ठ है।"
+        }
+      },
+      "targetExam": "RMS"
+    },
+    {
+      "key": "bank-ca-rms-35",
+      "difficulty": "HARD",
+      "content": {
+        "en": "The ceremonial boulevard in New Delhi formerly called Rajpath, where the Republic Day parade is held, was renamed in 2022 to which name?",
+        "hi": "नई दिल्ली का वह औपचारिक मार्ग, जिसे पहले राजपथ कहा जाता था और जहाँ गणतंत्र दिवस परेड आयोजित होती है, 2022 में किस नाम पर रखा गया?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Vijay Path",
+            "hi": "विजय पथ"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Rashtra Path",
+            "hi": "राष्ट्र पथ"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Shakti Path",
+            "hi": "शक्ति पथ"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Kartavya Path",
+            "hi": "कर्तव्य पथ"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "Rajpath in New Delhi was renamed Kartavya Path in 2022, meaning 'path of duty', as part of a renewed civic identity for the area.",
+        "hi": "नई दिल्ली के राजपथ का नाम 2022 में बदलकर 'कर्तव्य पथ' रखा गया, जिसका अर्थ है 'कर्तव्य का मार्ग', जो इस क्षेत्र की नई नागरिक पहचान का हिस्सा है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "'Vijay Path' sounds plausible and duty-related in theme but was not the name chosen.",
+          "hi": "'विजय पथ' सुनने में उचित और विषयवस्तु से मेल खाता लगता है, परन्तु यह चुना गया नाम नहीं था।"
+        },
+        "b": {
+          "en": "'Rashtra Path' resembles patriotic naming conventions but is not the actual renamed title.",
+          "hi": "'राष्ट्र पथ' देशभक्तिपूर्ण नामकरण परंपराओं जैसा प्रतीत होता है, परन्तु यह वास्तविक नया नाम नहीं है।"
+        },
+        "c": {
+          "en": "'Shakti Path' is an invented alternative not used for this boulevard.",
+          "hi": "'शक्ति पथ' एक काल्पनिक विकल्प है जिसका इस मार्ग के लिए प्रयोग नहीं किया गया।"
+        }
+      },
+      "targetExam": "RMS"
+    },
+    {
+      "key": "bank-ca-rms-36",
+      "difficulty": "HARD",
+      "content": {
+        "en": "The Rashtriya Indian Military College (RIMC), which prepares young cadets for entry into the National Defence Academy, is located in which city?",
+        "hi": "राष्ट्रीय भारतीय सैन्य महाविद्यालय (आरआईएमसी), जो युवा कैडेटों को राष्ट्रीय रक्षा अकादमी में प्रवेश के लिए तैयार करता है, किस शहर में स्थित है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Pune",
+            "hi": "पुणे"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Chennai",
+            "hi": "चेन्नई"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Dehradun",
+            "hi": "देहरादून"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Jaipur",
+            "hi": "जयपुर"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "The Rashtriya Indian Military College is located in Dehradun, Uttarakhand, and prepares cadets aged around 11-13 for eventual entry into the National Defence Academy.",
+        "hi": "राष्ट्रीय भारतीय सैन्य महाविद्यालय उत्तराखंड के देहरादून में स्थित है, और यह लगभग 11-13 वर्ष की आयु के कैडेटों को अंततः राष्ट्रीय रक्षा अकादमी में प्रवेश के लिए तैयार करता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Pune is home to the National Defence Academy itself, a different and later stage of officer training.",
+          "hi": "पुणे स्वयं राष्ट्रीय रक्षा अकादमी का स्थान है, जो अधिकारी प्रशिक्षण का एक अलग और बाद का चरण है।"
+        },
+        "b": {
+          "en": "Chennai hosts the Officers Training Academy, a separate institution for training officers.",
+          "hi": "चेन्नई अधिकारी प्रशिक्षण अकादमी का स्थान है, जो अधिकारियों को प्रशिक्षित करने वाली एक अलग संस्था है।"
+        },
+        "d": {
+          "en": "Jaipur has no major tri-service defence training institution comparable to the RIMC.",
+          "hi": "जयपुर में आरआईएमसी के समान कोई प्रमुख त्रि-सेवा रक्षा प्रशिक्षण संस्थान नहीं है।"
+        }
+      },
+      "targetExam": "RMS"
+    },
+    {
+      "key": "bank-ca-rms-37",
+      "difficulty": "HARD",
+      "content": {
+        "en": "What is the official motto of the National Cadet Corps (NCC), the youth organisation that trains school and college students in discipline and basic military skills?",
+        "hi": "राष्ट्रीय कैडेट कोर (एनसीसी), जो स्कूल और कॉलेज के छात्रों को अनुशासन और बुनियादी सैन्य कौशल में प्रशिक्षित करने वाला युवा संगठन है, का आधिकारिक आदर्श वाक्य क्या है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Service Before Self",
+            "hi": "सर्विस बिफोर सेल्फ"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Unity and Discipline",
+            "hi": "एकता और अनुशासन"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Duty, Honour, Country",
+            "hi": "ड्यूटी, ऑनर, कंट्री"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Courage and Sacrifice",
+            "hi": "साहस और बलिदान"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "The motto of the National Cadet Corps is 'Unity and Discipline', reflecting the values it aims to build among cadets.",
+        "hi": "राष्ट्रीय कैडेट कोर का आदर्श वाक्य 'एकता और अनुशासन' है, जो कैडेटों में विकसित किए जाने वाले मूल्यों को दर्शाता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "'Service Before Self' is a motto associated with some air force traditions internationally, not the NCC.",
+          "hi": "'सर्विस बिफोर सेल्फ' कुछ अंतरराष्ट्रीय वायु सेना परंपराओं से जुड़ा आदर्श वाक्य है, एनसीसी का नहीं।"
+        },
+        "c": {
+          "en": "'Duty, Honour, Country' is famously the motto of the United States Military Academy at West Point, not the NCC.",
+          "hi": "'ड्यूटी, ऑनर, कंट्री' प्रसिद्ध रूप से संयुक्त राज्य अमेरिका की वेस्ट पॉइंट सैन्य अकादमी का आदर्श वाक्य है, एनसीसी का नहीं।"
+        },
+        "d": {
+          "en": "'Courage and Sacrifice' sounds fitting for a military organisation but is not the NCC's actual motto.",
+          "hi": "'साहस और बलिदान' एक सैन्य संगठन के लिए उपयुक्त प्रतीत होता है, परन्तु यह एनसीसी का वास्तविक आदर्श वाक्य नहीं है।"
+        }
+      },
+      "targetExam": "RMS"
+    },
+    {
+      "key": "bank-ca-rms-38",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Which Schedule of the Constitution of India lists the officially recognised languages of the country?",
+        "hi": "भारत के संविधान की कौन-सी अनुसूची देश की आधिकारिक रूप से मान्यता प्राप्त भाषाओं की सूची देती है?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Eighth Schedule",
+            "hi": "आठवीं अनुसूची"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Second Schedule",
+            "hi": "दूसरी अनुसूची"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "Tenth Schedule",
+            "hi": "दसवीं अनुसूची"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Fifth Schedule",
+            "hi": "पांचवीं अनुसूची"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "The Eighth Schedule of the Constitution lists the officially recognised languages of India.",
+        "hi": "संविधान की आठवीं अनुसूची भारत की आधिकारिक रूप से मान्यता प्राप्त भाषाओं की सूची देती है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "The Second Schedule deals with salaries and allowances of high constitutional officials like the President and judges, not languages.",
+          "hi": "दूसरी अनुसूची राष्ट्रपति और न्यायाधीशों जैसे उच्च संवैधानिक पदाधिकारियों के वेतन और भत्तों से संबंधित है, भाषाओं से नहीं।"
+        },
+        "c": {
+          "en": "The Tenth Schedule contains the anti-defection law relating to Members of Parliament and state legislatures.",
+          "hi": "दसवीं अनुसूची में संसद सदस्यों और राज्य विधानमंडलों से संबंधित दल-बदल विरोधी कानून है।"
+        },
+        "d": {
+          "en": "The Fifth Schedule deals with the administration of Scheduled Areas and Scheduled Tribes, a different subject altogether.",
+          "hi": "पांचवीं अनुसूची अनुसूचित क्षेत्रों और अनुसूचित जनजातियों के प्रशासन से संबंधित है, जो पूरी तरह से एक अलग विषय है।"
+        }
+      },
+      "targetExam": "RMS"
+    },
+    {
+      "key": "bank-ca-rms-39",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Sainik Schools in India were established with the primary aim of preparing students for entry into which institution?",
+        "hi": "भारत में सैनिक स्कूलों की स्थापना मुख्य रूप से छात्रों को किस संस्था में प्रवेश के लिए तैयार करने के उद्देश्य से की गई थी?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "Indian Institutes of Technology",
+            "hi": "भारतीय प्रौद्योगिकी संस्थान"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "Civil Services",
+            "hi": "सिविल सेवाएँ"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "National Defence Academy",
+            "hi": "राष्ट्रीय रक्षा अकादमी"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "Indian Institutes of Management",
+            "hi": "भारतीय प्रबंधन संस्थान"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Sainik Schools were established, starting in 1961 on the initiative of Defence Minister V.K. Krishna Menon, to prepare students academically and physically for entry into the National Defence Academy and a career as officers in the armed forces.",
+        "hi": "सैनिक स्कूलों की स्थापना 1961 में रक्षा मंत्री वी.के. कृष्ण मेनन की पहल पर की गई थी, ताकि छात्रों को शैक्षणिक और शारीरिक रूप से राष्ट्रीय रक्षा अकादमी में प्रवेश और सशस्त्र बलों में अधिकारी के रूप में करियर के लिए तैयार किया जा सके।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "The Indian Institutes of Technology are premier engineering institutes, unrelated to the original purpose of Sainik Schools.",
+          "hi": "भारतीय प्रौद्योगिकी संस्थान प्रमुख इंजीनियरिंग संस्थान हैं, जिनका सैनिक स्कूलों के मूल उद्देश्य से कोई संबंध नहीं है।"
+        },
+        "b": {
+          "en": "Civil Services careers are the goal of coaching institutes and services exams, not the founding aim of Sainik Schools.",
+          "hi": "सिविल सेवाओं में करियर कोचिंग संस्थानों और सेवा परीक्षाओं का लक्ष्य है, न कि सैनिक स्कूलों की स्थापना का उद्देश्य।"
+        },
+        "d": {
+          "en": "The Indian Institutes of Management train students in business administration, a field unrelated to Sainik Schools' original purpose.",
+          "hi": "भारतीय प्रबंधन संस्थान छात्रों को व्यवसाय प्रबंधन में प्रशिक्षित करते हैं, जो सैनिक स्कूलों के मूल उद्देश्य से असंबंधित क्षेत्र है।"
+        }
+      },
+      "targetExam": "RMS"
+    },
+    {
+      "key": "bank-ca-rms-40",
+      "difficulty": "HARD",
+      "content": {
+        "en": "How many Fundamental Rights are currently guaranteed by the Constitution of India, after the Right to Property was removed from this list by the 44th Amendment?",
+        "hi": "44वें संशोधन द्वारा संपत्ति के अधिकार को इस सूची से हटाए जाने के बाद, भारत के संविधान द्वारा वर्तमान में कितने मौलिक अधिकार गारंटीकृत हैं?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "7",
+            "hi": "7"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "5",
+            "hi": "5"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "8",
+            "hi": "8"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "6",
+            "hi": "6"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "After the 44th Amendment (1978) removed the Right to Property from the list of Fundamental Rights and made it a legal right instead, six Fundamental Rights remain guaranteed by the Constitution.",
+        "hi": "44वें संशोधन (1978) द्वारा संपत्ति के अधिकार को मौलिक अधिकारों की सूची से हटाकर इसे एक कानूनी अधिकार बनाए जाने के बाद, संविधान द्वारा छह मौलिक अधिकार गारंटीकृत रहते हैं।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "7 was the original number of Fundamental Rights before the Right to Property was removed.",
+          "hi": "7 मौलिक अधिकारों की मूल संख्या थी, इससे पहले कि संपत्ति के अधिकार को हटाया गया।"
+        },
+        "b": {
+          "en": "5 undercounts the currently guaranteed Fundamental Rights by one.",
+          "hi": "5 वर्तमान में गारंटीकृत मौलिक अधिकारों की संख्या को एक कम गिनता है।"
+        },
+        "c": {
+          "en": "8 overstates the number, going beyond even the original pre-amendment count.",
+          "hi": "8 संख्या को अधिक बताता है, जो संशोधन-पूर्व की मूल संख्या से भी अधिक है।"
+        }
+      },
+      "targetExam": "RMS"
+    }
+  ]
+}

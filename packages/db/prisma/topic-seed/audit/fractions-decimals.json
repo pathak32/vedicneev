@@ -1,0 +1,2327 @@
+{
+  "section": "fractions_decimals",
+  "topicKey": "fractions_decimals",
+  "generatedAt": "2026-09-05T15:38:16.676Z",
+  "questions": [
+    {
+      "key": "bank-ar-fracdec-likedenom-01",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Calculate: 2/7 + 3/7 = ?",
+        "hi": "गणना करें: 2/7 + 3/7 = ?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "5/7",
+            "hi": "5/7"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "5/14",
+            "hi": "5/14"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "-1/7",
+            "hi": "-1/7"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "6/7",
+            "hi": "6/7"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "The denominators are already the same, so just add the numerators: 2 + 3 = 5, giving 5/7, which simplifies to 5/7.",
+        "hi": "हर पहले से समान हैं, इसलिए बस अंशों को जोड़ें: 2 + 3 = 5, जिससे 5/7 मिलता है, जो सरल करने पर 5/7 होता है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Adds the denominators together too, instead of keeping the common denominator unchanged.",
+          "hi": "हरों को भी आपस में जोड़ देता है, जबकि उभयनिष्ठ हर को अपरिवर्तित रखना चाहिए था।"
+        },
+        "c": {
+          "en": "Performs the opposite operation (subtracts instead of adding).",
+          "hi": "विपरीत संक्रिया करता है (जोड़ने के बजाय घटा देता है)।"
+        },
+        "d": {
+          "en": "Off by one in the numerator after combining — a simple arithmetic slip.",
+          "hi": "जोड़ने/घटाने के बाद अंश में एक की गलती — एक साधारण अंकगणितीय चूक।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-fracdec-likedenom-02",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Calculate: 5/9 - 2/9 = ?",
+        "hi": "गणना करें: 5/9 - 2/9 = ?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "7/18",
+            "hi": "7/18"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "1/3",
+            "hi": "1/3"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "7/9",
+            "hi": "7/9"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "2/3",
+            "hi": "2/3"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "The denominators are already the same, so just subtract the numerators: 5 - 2 = 3, giving 3/9, which simplifies to 1/3.",
+        "hi": "हर पहले से समान हैं, इसलिए बस अंशों को घटाएँ: 5 - 2 = 3, जिससे 3/9 मिलता है, जो सरल करने पर 1/3 होता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Adds the denominators together too, instead of keeping the common denominator unchanged.",
+          "hi": "हरों को भी आपस में जोड़ देता है, जबकि उभयनिष्ठ हर को अपरिवर्तित रखना चाहिए था।"
+        },
+        "c": {
+          "en": "Performs the opposite operation (adds instead of subtracting).",
+          "hi": "विपरीत संक्रिया करता है (घटाने के बजाय जोड़ देता है)।"
+        },
+        "d": {
+          "en": "Off by one in the numerator after combining — a simple arithmetic slip.",
+          "hi": "जोड़ने/घटाने के बाद अंश में एक की गलती — एक साधारण अंकगणितीय चूक।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-fracdec-likedenom-03",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Calculate: 1/5 + 2/5 = ?",
+        "hi": "गणना करें: 1/5 + 2/5 = ?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "3/10",
+            "hi": "3/10"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "-1/5",
+            "hi": "-1/5"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "3/5",
+            "hi": "3/5"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "4/5",
+            "hi": "4/5"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "The denominators are already the same, so just add the numerators: 1 + 2 = 3, giving 3/5, which simplifies to 3/5.",
+        "hi": "हर पहले से समान हैं, इसलिए बस अंशों को जोड़ें: 1 + 2 = 3, जिससे 3/5 मिलता है, जो सरल करने पर 3/5 होता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Adds the denominators together too, instead of keeping the common denominator unchanged.",
+          "hi": "हरों को भी आपस में जोड़ देता है, जबकि उभयनिष्ठ हर को अपरिवर्तित रखना चाहिए था।"
+        },
+        "b": {
+          "en": "Performs the opposite operation (subtracts instead of adding).",
+          "hi": "विपरीत संक्रिया करता है (जोड़ने के बजाय घटा देता है)।"
+        },
+        "d": {
+          "en": "Off by one in the numerator after combining — a simple arithmetic slip.",
+          "hi": "जोड़ने/घटाने के बाद अंश में एक की गलती — एक साधारण अंकगणितीय चूक।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-fracdec-likedenom-04",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Calculate: 7/10 - 3/10 = ?",
+        "hi": "गणना करें: 7/10 - 3/10 = ?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "1/2",
+            "hi": "1/2"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "1/1",
+            "hi": "1/1"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "3/5",
+            "hi": "3/5"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "2/5",
+            "hi": "2/5"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "The denominators are already the same, so just subtract the numerators: 7 - 3 = 4, giving 4/10, which simplifies to 2/5.",
+        "hi": "हर पहले से समान हैं, इसलिए बस अंशों को घटाएँ: 7 - 3 = 4, जिससे 4/10 मिलता है, जो सरल करने पर 2/5 होता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Adds the denominators together too, instead of keeping the common denominator unchanged.",
+          "hi": "हरों को भी आपस में जोड़ देता है, जबकि उभयनिष्ठ हर को अपरिवर्तित रखना चाहिए था।"
+        },
+        "b": {
+          "en": "Performs the opposite operation (adds instead of subtracting).",
+          "hi": "विपरीत संक्रिया करता है (घटाने के बजाय जोड़ देता है)।"
+        },
+        "c": {
+          "en": "Off by one in the numerator after combining — a simple arithmetic slip.",
+          "hi": "जोड़ने/घटाने के बाद अंश में एक की गलती — एक साधारण अंकगणितीय चूक।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-fracdec-likedenom-05",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Calculate: 3/8 + 2/8 = ?",
+        "hi": "गणना करें: 3/8 + 2/8 = ?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "5/8",
+            "hi": "5/8"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "5/16",
+            "hi": "5/16"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "1/8",
+            "hi": "1/8"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "3/4",
+            "hi": "3/4"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "The denominators are already the same, so just add the numerators: 3 + 2 = 5, giving 5/8, which simplifies to 5/8.",
+        "hi": "हर पहले से समान हैं, इसलिए बस अंशों को जोड़ें: 3 + 2 = 5, जिससे 5/8 मिलता है, जो सरल करने पर 5/8 होता है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Adds the denominators together too, instead of keeping the common denominator unchanged.",
+          "hi": "हरों को भी आपस में जोड़ देता है, जबकि उभयनिष्ठ हर को अपरिवर्तित रखना चाहिए था।"
+        },
+        "c": {
+          "en": "Performs the opposite operation (subtracts instead of adding).",
+          "hi": "विपरीत संक्रिया करता है (जोड़ने के बजाय घटा देता है)।"
+        },
+        "d": {
+          "en": "Off by one in the numerator after combining — a simple arithmetic slip.",
+          "hi": "जोड़ने/घटाने के बाद अंश में एक की गलती — एक साधारण अंकगणितीय चूक।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-fracdec-likedenom-06",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Calculate: 4/11 + 1/11 = ?",
+        "hi": "गणना करें: 4/11 + 1/11 = ?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "5/22",
+            "hi": "5/22"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "5/11",
+            "hi": "5/11"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "3/11",
+            "hi": "3/11"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "6/11",
+            "hi": "6/11"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "The denominators are already the same, so just add the numerators: 4 + 1 = 5, giving 5/11, which simplifies to 5/11.",
+        "hi": "हर पहले से समान हैं, इसलिए बस अंशों को जोड़ें: 4 + 1 = 5, जिससे 5/11 मिलता है, जो सरल करने पर 5/11 होता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Adds the denominators together too, instead of keeping the common denominator unchanged.",
+          "hi": "हरों को भी आपस में जोड़ देता है, जबकि उभयनिष्ठ हर को अपरिवर्तित रखना चाहिए था।"
+        },
+        "c": {
+          "en": "Performs the opposite operation (subtracts instead of adding).",
+          "hi": "विपरीत संक्रिया करता है (जोड़ने के बजाय घटा देता है)।"
+        },
+        "d": {
+          "en": "Off by one in the numerator after combining — a simple arithmetic slip.",
+          "hi": "जोड़ने/घटाने के बाद अंश में एक की गलती — एक साधारण अंकगणितीय चूक।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-fracdec-likedenom-07",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Calculate: 6/13 - 2/13 = ?",
+        "hi": "गणना करें: 6/13 - 2/13 = ?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "8/13",
+            "hi": "8/13"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "5/13",
+            "hi": "5/13"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "4/13",
+            "hi": "4/13"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "1/13",
+            "hi": "1/13"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "The denominators are already the same, so just subtract the numerators: 6 - 2 = 4, giving 4/13, which simplifies to 4/13.",
+        "hi": "हर पहले से समान हैं, इसलिए बस अंशों को घटाएँ: 6 - 2 = 4, जिससे 4/13 मिलता है, जो सरल करने पर 4/13 होता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Adds the denominators together too, instead of keeping the common denominator unchanged.",
+          "hi": "हरों को भी आपस में जोड़ देता है, जबकि उभयनिष्ठ हर को अपरिवर्तित रखना चाहिए था।"
+        },
+        "b": {
+          "en": "Performs the opposite operation (adds instead of subtracting).",
+          "hi": "विपरीत संक्रिया करता है (घटाने के बजाय जोड़ देता है)।"
+        },
+        "d": {
+          "en": "Off by one in the numerator after combining — a simple arithmetic slip.",
+          "hi": "जोड़ने/घटाने के बाद अंश में एक की गलती — एक साधारण अंकगणितीय चूक।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-fracdec-likedenom-08",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Calculate: 2/9 + 5/9 = ?",
+        "hi": "गणना करें: 2/9 + 5/9 = ?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "7/18",
+            "hi": "7/18"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "-1/3",
+            "hi": "-1/3"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "8/9",
+            "hi": "8/9"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "7/9",
+            "hi": "7/9"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "The denominators are already the same, so just add the numerators: 2 + 5 = 7, giving 7/9, which simplifies to 7/9.",
+        "hi": "हर पहले से समान हैं, इसलिए बस अंशों को जोड़ें: 2 + 5 = 7, जिससे 7/9 मिलता है, जो सरल करने पर 7/9 होता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Adds the denominators together too, instead of keeping the common denominator unchanged.",
+          "hi": "हरों को भी आपस में जोड़ देता है, जबकि उभयनिष्ठ हर को अपरिवर्तित रखना चाहिए था।"
+        },
+        "b": {
+          "en": "Performs the opposite operation (subtracts instead of adding).",
+          "hi": "विपरीत संक्रिया करता है (जोड़ने के बजाय घटा देता है)।"
+        },
+        "c": {
+          "en": "Off by one in the numerator after combining — a simple arithmetic slip.",
+          "hi": "जोड़ने/घटाने के बाद अंश में एक की गलती — एक साधारण अंकगणितीय चूक।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-fracdec-likedenom-09",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Calculate: 8/15 - 3/15 = ?",
+        "hi": "गणना करें: 8/15 - 3/15 = ?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "1/3",
+            "hi": "1/3"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "11/30",
+            "hi": "11/30"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "11/15",
+            "hi": "11/15"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "2/3",
+            "hi": "2/3"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "The denominators are already the same, so just subtract the numerators: 8 - 3 = 5, giving 5/15, which simplifies to 1/3.",
+        "hi": "हर पहले से समान हैं, इसलिए बस अंशों को घटाएँ: 8 - 3 = 5, जिससे 5/15 मिलता है, जो सरल करने पर 1/3 होता है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Adds the denominators together too, instead of keeping the common denominator unchanged.",
+          "hi": "हरों को भी आपस में जोड़ देता है, जबकि उभयनिष्ठ हर को अपरिवर्तित रखना चाहिए था।"
+        },
+        "c": {
+          "en": "Performs the opposite operation (adds instead of subtracting).",
+          "hi": "विपरीत संक्रिया करता है (घटाने के बजाय जोड़ देता है)।"
+        },
+        "d": {
+          "en": "Off by one in the numerator after combining — a simple arithmetic slip.",
+          "hi": "जोड़ने/घटाने के बाद अंश में एक की गलती — एक साधारण अंकगणितीय चूक।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-fracdec-likedenom-10",
+      "difficulty": "EASY",
+      "content": {
+        "en": "Calculate: 1/6 + 2/6 = ?",
+        "hi": "गणना करें: 1/6 + 2/6 = ?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "1/4",
+            "hi": "1/4"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "1/2",
+            "hi": "1/2"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "-1/6",
+            "hi": "-1/6"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "1/1",
+            "hi": "1/1"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "The denominators are already the same, so just add the numerators: 1 + 2 = 3, giving 3/6, which simplifies to 1/2.",
+        "hi": "हर पहले से समान हैं, इसलिए बस अंशों को जोड़ें: 1 + 2 = 3, जिससे 3/6 मिलता है, जो सरल करने पर 1/2 होता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Adds the denominators together too, instead of keeping the common denominator unchanged.",
+          "hi": "हरों को भी आपस में जोड़ देता है, जबकि उभयनिष्ठ हर को अपरिवर्तित रखना चाहिए था।"
+        },
+        "c": {
+          "en": "Performs the opposite operation (subtracts instead of adding).",
+          "hi": "विपरीत संक्रिया करता है (जोड़ने के बजाय घटा देता है)।"
+        },
+        "d": {
+          "en": "Off by one in the numerator after combining — a simple arithmetic slip.",
+          "hi": "जोड़ने/घटाने के बाद अंश में एक की गलती — एक साधारण अंकगणितीय चूक।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-fracdec-todecimal-01",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Convert the fraction 1/4 to a decimal.",
+        "hi": "भिन्न 1/4 को दशमलव में बदलें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "4",
+            "hi": "4"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "0.25",
+            "hi": "0.25"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "2.5",
+            "hi": "2.5"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "0.35",
+            "hi": "0.35"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "1/4 means 1 ÷ 4 = 0.25.",
+        "hi": "1/4 का अर्थ है 1 ÷ 4 = 0.25।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Inverts the fraction before converting — divides the denominator by the numerator instead of the other way around.",
+          "hi": "परिवर्तित करने से पहले भिन्न को उलट देता है — अंश को हर से भाग देने के बजाय हर को अंश से भाग दे देता है।"
+        },
+        "c": {
+          "en": "Misplaces the decimal point by one position (off by a factor of 10).",
+          "hi": "दशमलव बिंदु को एक स्थान गलत रख देता है (10 के गुणक से चूक)।"
+        },
+        "d": {
+          "en": "Off by a small amount — a rounding or arithmetic slip during the division.",
+          "hi": "थोड़ी सी चूक — भाग देते समय पूर्णांकन या अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-fracdec-todecimal-02",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Convert the fraction 3/5 to a decimal.",
+        "hi": "भिन्न 3/5 को दशमलव में बदलें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "1.67",
+            "hi": "1.67"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "6",
+            "hi": "6"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "0.6",
+            "hi": "0.6"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "0.7",
+            "hi": "0.7"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "3/5 means 3 ÷ 5 = 0.6.",
+        "hi": "3/5 का अर्थ है 3 ÷ 5 = 0.6।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Inverts the fraction before converting — divides the denominator by the numerator instead of the other way around.",
+          "hi": "परिवर्तित करने से पहले भिन्न को उलट देता है — अंश को हर से भाग देने के बजाय हर को अंश से भाग दे देता है।"
+        },
+        "b": {
+          "en": "Misplaces the decimal point by one position (off by a factor of 10).",
+          "hi": "दशमलव बिंदु को एक स्थान गलत रख देता है (10 के गुणक से चूक)।"
+        },
+        "d": {
+          "en": "Off by a small amount — a rounding or arithmetic slip during the division.",
+          "hi": "थोड़ी सी चूक — भाग देते समय पूर्णांकन या अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-fracdec-todecimal-03",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Convert the fraction 7/20 to a decimal.",
+        "hi": "भिन्न 7/20 को दशमलव में बदलें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "2.86",
+            "hi": "2.86"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "3.5",
+            "hi": "3.5"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "0.45",
+            "hi": "0.45"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "0.35",
+            "hi": "0.35"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "7/20 means 7 ÷ 20 = 0.35.",
+        "hi": "7/20 का अर्थ है 7 ÷ 20 = 0.35।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Inverts the fraction before converting — divides the denominator by the numerator instead of the other way around.",
+          "hi": "परिवर्तित करने से पहले भिन्न को उलट देता है — अंश को हर से भाग देने के बजाय हर को अंश से भाग दे देता है।"
+        },
+        "b": {
+          "en": "Misplaces the decimal point by one position (off by a factor of 10).",
+          "hi": "दशमलव बिंदु को एक स्थान गलत रख देता है (10 के गुणक से चूक)।"
+        },
+        "c": {
+          "en": "Off by a small amount — a rounding or arithmetic slip during the division.",
+          "hi": "थोड़ी सी चूक — भाग देते समय पूर्णांकन या अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-fracdec-todecimal-04",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Convert the fraction 9/25 to a decimal.",
+        "hi": "भिन्न 9/25 को दशमलव में बदलें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "0.36",
+            "hi": "0.36"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "2.78",
+            "hi": "2.78"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "3.6",
+            "hi": "3.6"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "0.46",
+            "hi": "0.46"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "9/25 means 9 ÷ 25 = 0.36.",
+        "hi": "9/25 का अर्थ है 9 ÷ 25 = 0.36।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Inverts the fraction before converting — divides the denominator by the numerator instead of the other way around.",
+          "hi": "परिवर्तित करने से पहले भिन्न को उलट देता है — अंश को हर से भाग देने के बजाय हर को अंश से भाग दे देता है।"
+        },
+        "c": {
+          "en": "Misplaces the decimal point by one position (off by a factor of 10).",
+          "hi": "दशमलव बिंदु को एक स्थान गलत रख देता है (10 के गुणक से चूक)।"
+        },
+        "d": {
+          "en": "Off by a small amount — a rounding or arithmetic slip during the division.",
+          "hi": "थोड़ी सी चूक — भाग देते समय पूर्णांकन या अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-fracdec-todecimal-05",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Convert the fraction 3/4 to a decimal.",
+        "hi": "भिन्न 3/4 को दशमलव में बदलें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "1.33",
+            "hi": "1.33"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "0.75",
+            "hi": "0.75"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "7.5",
+            "hi": "7.5"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "0.85",
+            "hi": "0.85"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "3/4 means 3 ÷ 4 = 0.75.",
+        "hi": "3/4 का अर्थ है 3 ÷ 4 = 0.75।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Inverts the fraction before converting — divides the denominator by the numerator instead of the other way around.",
+          "hi": "परिवर्तित करने से पहले भिन्न को उलट देता है — अंश को हर से भाग देने के बजाय हर को अंश से भाग दे देता है।"
+        },
+        "c": {
+          "en": "Misplaces the decimal point by one position (off by a factor of 10).",
+          "hi": "दशमलव बिंदु को एक स्थान गलत रख देता है (10 के गुणक से चूक)।"
+        },
+        "d": {
+          "en": "Off by a small amount — a rounding or arithmetic slip during the division.",
+          "hi": "थोड़ी सी चूक — भाग देते समय पूर्णांकन या अंकगणितीय गलती।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-fracdec-multiply-01",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Calculate: 2/3 × 3/4 = ?",
+        "hi": "गणना करें: 2/3 × 3/4 = ?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "17/12",
+            "hi": "17/12"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "6/13",
+            "hi": "6/13"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "1/2",
+            "hi": "1/2"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "9/8",
+            "hi": "9/8"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Multiply numerators together and denominators together: (2 × 3)/(3 × 4) = 6/12, which simplifies to 1/2.",
+        "hi": "अंशों को आपस में और हरों को आपस में गुणा करें: (2 × 3)/(3 × 4) = 6/12, जो सरल करने पर 1/2 होता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Adds the two fractions instead of multiplying them.",
+          "hi": "दोनों भिन्नों को गुणा करने के बजाय जोड़ देता है।"
+        },
+        "b": {
+          "en": "Makes a small slip in the denominator while multiplying across.",
+          "hi": "गुणा करते समय हर में एक छोटी सी चूक कर देता है।"
+        },
+        "d": {
+          "en": "Inverts the first fraction before multiplying, as if this were a division problem instead.",
+          "hi": "गुणा करने से पहले पहली भिन्न को उलट देता है, जैसे यह भाग की समस्या हो।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-fracdec-multiply-02",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Calculate: 5/6 × 2/5 = ?",
+        "hi": "गणना करें: 5/6 × 2/5 = ?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "37/30",
+            "hi": "37/30"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "10/31",
+            "hi": "10/31"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "12/25",
+            "hi": "12/25"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "1/3",
+            "hi": "1/3"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "Multiply numerators together and denominators together: (5 × 2)/(6 × 5) = 10/30, which simplifies to 1/3.",
+        "hi": "अंशों को आपस में और हरों को आपस में गुणा करें: (5 × 2)/(6 × 5) = 10/30, जो सरल करने पर 1/3 होता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Adds the two fractions instead of multiplying them.",
+          "hi": "दोनों भिन्नों को गुणा करने के बजाय जोड़ देता है।"
+        },
+        "b": {
+          "en": "Makes a small slip in the denominator while multiplying across.",
+          "hi": "गुणा करते समय हर में एक छोटी सी चूक कर देता है।"
+        },
+        "c": {
+          "en": "Inverts the first fraction before multiplying, as if this were a division problem instead.",
+          "hi": "गुणा करने से पहले पहली भिन्न को उलट देता है, जैसे यह भाग की समस्या हो।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-fracdec-multiply-03",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Calculate: 3/7 × 7/9 = ?",
+        "hi": "गणना करें: 3/7 × 7/9 = ?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "1/3",
+            "hi": "1/3"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "76/63",
+            "hi": "76/63"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "21/64",
+            "hi": "21/64"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "49/27",
+            "hi": "49/27"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Multiply numerators together and denominators together: (3 × 7)/(7 × 9) = 21/63, which simplifies to 1/3.",
+        "hi": "अंशों को आपस में और हरों को आपस में गुणा करें: (3 × 7)/(7 × 9) = 21/63, जो सरल करने पर 1/3 होता है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Adds the two fractions instead of multiplying them.",
+          "hi": "दोनों भिन्नों को गुणा करने के बजाय जोड़ देता है।"
+        },
+        "c": {
+          "en": "Makes a small slip in the denominator while multiplying across.",
+          "hi": "गुणा करते समय हर में एक छोटी सी चूक कर देता है।"
+        },
+        "d": {
+          "en": "Inverts the first fraction before multiplying, as if this were a division problem instead.",
+          "hi": "गुणा करने से पहले पहली भिन्न को उलट देता है, जैसे यह भाग की समस्या हो।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-fracdec-multiply-04",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Calculate: 4/5 × 5/8 = ?",
+        "hi": "गणना करें: 4/5 × 5/8 = ?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "57/40",
+            "hi": "57/40"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "1/2",
+            "hi": "1/2"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "20/41",
+            "hi": "20/41"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "25/32",
+            "hi": "25/32"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Multiply numerators together and denominators together: (4 × 5)/(5 × 8) = 20/40, which simplifies to 1/2.",
+        "hi": "अंशों को आपस में और हरों को आपस में गुणा करें: (4 × 5)/(5 × 8) = 20/40, जो सरल करने पर 1/2 होता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Adds the two fractions instead of multiplying them.",
+          "hi": "दोनों भिन्नों को गुणा करने के बजाय जोड़ देता है।"
+        },
+        "c": {
+          "en": "Makes a small slip in the denominator while multiplying across.",
+          "hi": "गुणा करते समय हर में एक छोटी सी चूक कर देता है।"
+        },
+        "d": {
+          "en": "Inverts the first fraction before multiplying, as if this were a division problem instead.",
+          "hi": "गुणा करने से पहले पहली भिन्न को उलट देता है, जैसे यह भाग की समस्या हो।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-fracdec-multiply-05",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Calculate: 2/9 × 3/4 = ?",
+        "hi": "गणना करें: 2/9 × 3/4 = ?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "35/36",
+            "hi": "35/36"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "6/37",
+            "hi": "6/37"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "1/6",
+            "hi": "1/6"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "27/8",
+            "hi": "27/8"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Multiply numerators together and denominators together: (2 × 3)/(9 × 4) = 6/36, which simplifies to 1/6.",
+        "hi": "अंशों को आपस में और हरों को आपस में गुणा करें: (2 × 3)/(9 × 4) = 6/36, जो सरल करने पर 1/6 होता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Adds the two fractions instead of multiplying them.",
+          "hi": "दोनों भिन्नों को गुणा करने के बजाय जोड़ देता है।"
+        },
+        "b": {
+          "en": "Makes a small slip in the denominator while multiplying across.",
+          "hi": "गुणा करते समय हर में एक छोटी सी चूक कर देता है।"
+        },
+        "d": {
+          "en": "Inverts the first fraction before multiplying, as if this were a division problem instead.",
+          "hi": "गुणा करने से पहले पहली भिन्न को उलट देता है, जैसे यह भाग की समस्या हो।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-fracdec-compare-01",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Which of these fractions is the LARGEST: 2/3, 1/2, 3/8, 1/4?",
+        "hi": "इनमें से कौन-सी भिन्न सबसे बड़ी है: 2/3, 1/2, 3/8, 1/4?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "1/2",
+            "hi": "1/2"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "3/8",
+            "hi": "3/8"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "1/4",
+            "hi": "1/4"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "2/3",
+            "hi": "2/3"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "Converting each to a decimal: 2/3=0.67, 1/2=0.5, 3/8=0.38, 1/4=0.25. The largest is 2/3.",
+        "hi": "प्रत्येक को दशमलव में बदलने पर: 2/3=0.67, 1/2=0.5, 3/8=0.38, 1/4=0.25। सबसे बड़ी 2/3 है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "A larger fraction, but not the LARGEST of the four options.",
+          "hi": "एक बड़ी भिन्न है, पर चारों विकल्पों में सबसे बड़ी नहीं।"
+        },
+        "b": {
+          "en": "A smaller fraction — easy to mistake for large if you only compare numerators without checking denominators.",
+          "hi": "एक छोटी भिन्न — यदि केवल अंशों की तुलना करें और हरों की जाँच न करें, तो इसे बड़ा समझने की भूल हो सकती है।"
+        },
+        "c": {
+          "en": "The smallest of the four — the exact opposite of what was asked.",
+          "hi": "चारों में सबसे छोटी — जो पूछा गया था उसके बिल्कुल विपरीत।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-fracdec-compare-02",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Which of these fractions is the LARGEST: 5/6, 2/3, 1/2, 3/10?",
+        "hi": "इनमें से कौन-सी भिन्न सबसे बड़ी है: 5/6, 2/3, 1/2, 3/10?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "5/6",
+            "hi": "5/6"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "2/3",
+            "hi": "2/3"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "1/2",
+            "hi": "1/2"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "3/10",
+            "hi": "3/10"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Converting each to a decimal: 5/6=0.83, 2/3=0.67, 1/2=0.5, 3/10=0.3. The largest is 5/6.",
+        "hi": "प्रत्येक को दशमलव में बदलने पर: 5/6=0.83, 2/3=0.67, 1/2=0.5, 3/10=0.3। सबसे बड़ी 5/6 है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "A larger fraction, but not the LARGEST of the four options.",
+          "hi": "एक बड़ी भिन्न है, पर चारों विकल्पों में सबसे बड़ी नहीं।"
+        },
+        "c": {
+          "en": "A smaller fraction — easy to mistake for large if you only compare numerators without checking denominators.",
+          "hi": "एक छोटी भिन्न — यदि केवल अंशों की तुलना करें और हरों की जाँच न करें, तो इसे बड़ा समझने की भूल हो सकती है।"
+        },
+        "d": {
+          "en": "The smallest of the four — the exact opposite of what was asked.",
+          "hi": "चारों में सबसे छोटी — जो पूछा गया था उसके बिल्कुल विपरीत।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-fracdec-compare-03",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Which of these fractions is the LARGEST: 3/5, 7/10, 2/5, 1/3?",
+        "hi": "इनमें से कौन-सी भिन्न सबसे बड़ी है: 3/5, 7/10, 2/5, 1/3?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "3/5",
+            "hi": "3/5"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "7/10",
+            "hi": "7/10"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "2/5",
+            "hi": "2/5"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "1/3",
+            "hi": "1/3"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Converting each to a decimal: 3/5=0.6, 7/10=0.7, 2/5=0.4, 1/3=0.33. The largest is 7/10.",
+        "hi": "प्रत्येक को दशमलव में बदलने पर: 3/5=0.6, 7/10=0.7, 2/5=0.4, 1/3=0.33। सबसे बड़ी 7/10 है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "A larger fraction, but not the LARGEST of the four options.",
+          "hi": "एक बड़ी भिन्न है, पर चारों विकल्पों में सबसे बड़ी नहीं।"
+        },
+        "c": {
+          "en": "A smaller fraction — easy to mistake for large if you only compare numerators without checking denominators.",
+          "hi": "एक छोटी भिन्न — यदि केवल अंशों की तुलना करें और हरों की जाँच न करें, तो इसे बड़ा समझने की भूल हो सकती है।"
+        },
+        "d": {
+          "en": "The smallest of the four — the exact opposite of what was asked.",
+          "hi": "चारों में सबसे छोटी — जो पूछा गया था उसके बिल्कुल विपरीत।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-fracdec-compare-04",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Which of these fractions is the LARGEST: 4/9, 5/6, 1/4, 2/9?",
+        "hi": "इनमें से कौन-सी भिन्न सबसे बड़ी है: 4/9, 5/6, 1/4, 2/9?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "4/9",
+            "hi": "4/9"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "1/4",
+            "hi": "1/4"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "5/6",
+            "hi": "5/6"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "2/9",
+            "hi": "2/9"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Converting each to a decimal: 4/9=0.44, 5/6=0.83, 1/4=0.25, 2/9=0.22. The largest is 5/6.",
+        "hi": "प्रत्येक को दशमलव में बदलने पर: 4/9=0.44, 5/6=0.83, 1/4=0.25, 2/9=0.22। सबसे बड़ी 5/6 है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "A larger fraction, but not the LARGEST of the four options.",
+          "hi": "एक बड़ी भिन्न है, पर चारों विकल्पों में सबसे बड़ी नहीं।"
+        },
+        "b": {
+          "en": "A smaller fraction — easy to mistake for large if you only compare numerators without checking denominators.",
+          "hi": "एक छोटी भिन्न — यदि केवल अंशों की तुलना करें और हरों की जाँच न करें, तो इसे बड़ा समझने की भूल हो सकती है।"
+        },
+        "d": {
+          "en": "The smallest of the four — the exact opposite of what was asked.",
+          "hi": "चारों में सबसे छोटी — जो पूछा गया था उसके बिल्कुल विपरीत।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-fracdec-compare-05",
+      "difficulty": "MEDIUM",
+      "content": {
+        "en": "Which of these fractions is the LARGEST: 5/8, 3/4, 1/2, 3/8?",
+        "hi": "इनमें से कौन-सी भिन्न सबसे बड़ी है: 5/8, 3/4, 1/2, 3/8?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "5/8",
+            "hi": "5/8"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "1/2",
+            "hi": "1/2"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "3/8",
+            "hi": "3/8"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "3/4",
+            "hi": "3/4"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "Converting each to a decimal: 5/8=0.63, 3/4=0.75, 1/2=0.5, 3/8=0.38. The largest is 3/4.",
+        "hi": "प्रत्येक को दशमलव में बदलने पर: 5/8=0.63, 3/4=0.75, 1/2=0.5, 3/8=0.38। सबसे बड़ी 3/4 है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "A larger fraction, but not the LARGEST of the four options.",
+          "hi": "एक बड़ी भिन्न है, पर चारों विकल्पों में सबसे बड़ी नहीं।"
+        },
+        "b": {
+          "en": "A smaller fraction — easy to mistake for large if you only compare numerators without checking denominators.",
+          "hi": "एक छोटी भिन्न — यदि केवल अंशों की तुलना करें और हरों की जाँच न करें, तो इसे बड़ा समझने की भूल हो सकती है।"
+        },
+        "c": {
+          "en": "The smallest of the four — the exact opposite of what was asked.",
+          "hi": "चारों में सबसे छोटी — जो पूछा गया था उसके बिल्कुल विपरीत।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-fracdec-divide-01",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Calculate: 2/3 ÷ 4/9 = ?",
+        "hi": "गणना करें: 2/3 ÷ 4/9 = ?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "3/2",
+            "hi": "3/2"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "8/27",
+            "hi": "8/27"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "27/8",
+            "hi": "27/8"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "2/3",
+            "hi": "2/3"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Dividing by a fraction means multiplying by its reciprocal: 2/3 × 9/4 = 18/12, which simplifies to 3/2.",
+        "hi": "किसी भिन्न से भाग देने का अर्थ है उसके व्युत्क्रम से गुणा करना: 2/3 × 9/4 = 18/12, जो सरल करने पर 3/2 होता है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Multiplies the two fractions straight across instead of first flipping the second fraction.",
+          "hi": "पहले दूसरी भिन्न को पलटने के बजाय दोनों भिन्नों को सीधे गुणा कर देता है।"
+        },
+        "c": {
+          "en": "Flips the wrong fraction (the first one) instead of the second.",
+          "hi": "दूसरी के बजाय गलत भिन्न (पहली) को पलट देता है।"
+        },
+        "d": {
+          "en": "Divides in the reverse order — computes the second fraction ÷ the first instead of the first ÷ the second.",
+          "hi": "उल्टे क्रम में भाग देता है — पहली ÷ दूसरी के बजाय दूसरी ÷ पहली की गणना करता है।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-fracdec-divide-02",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Calculate: 5/6 ÷ 5/12 = ?",
+        "hi": "गणना करें: 5/6 ÷ 5/12 = ?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "25/72",
+            "hi": "25/72"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "2/1",
+            "hi": "2/1"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "72/25",
+            "hi": "72/25"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "1/2",
+            "hi": "1/2"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Dividing by a fraction means multiplying by its reciprocal: 5/6 × 12/5 = 60/30, which simplifies to 2/1.",
+        "hi": "किसी भिन्न से भाग देने का अर्थ है उसके व्युत्क्रम से गुणा करना: 5/6 × 12/5 = 60/30, जो सरल करने पर 2/1 होता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Multiplies the two fractions straight across instead of first flipping the second fraction.",
+          "hi": "पहले दूसरी भिन्न को पलटने के बजाय दोनों भिन्नों को सीधे गुणा कर देता है।"
+        },
+        "c": {
+          "en": "Flips the wrong fraction (the first one) instead of the second.",
+          "hi": "दूसरी के बजाय गलत भिन्न (पहली) को पलट देता है।"
+        },
+        "d": {
+          "en": "Divides in the reverse order — computes the second fraction ÷ the first instead of the first ÷ the second.",
+          "hi": "उल्टे क्रम में भाग देता है — पहली ÷ दूसरी के बजाय दूसरी ÷ पहली की गणना करता है।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-fracdec-divide-03",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Calculate: 3/4 ÷ 9/16 = ?",
+        "hi": "गणना करें: 3/4 ÷ 9/16 = ?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "27/64",
+            "hi": "27/64"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "64/27",
+            "hi": "64/27"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "4/3",
+            "hi": "4/3"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "3/4",
+            "hi": "3/4"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Dividing by a fraction means multiplying by its reciprocal: 3/4 × 16/9 = 48/36, which simplifies to 4/3.",
+        "hi": "किसी भिन्न से भाग देने का अर्थ है उसके व्युत्क्रम से गुणा करना: 3/4 × 16/9 = 48/36, जो सरल करने पर 4/3 होता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Multiplies the two fractions straight across instead of first flipping the second fraction.",
+          "hi": "पहले दूसरी भिन्न को पलटने के बजाय दोनों भिन्नों को सीधे गुणा कर देता है।"
+        },
+        "b": {
+          "en": "Flips the wrong fraction (the first one) instead of the second.",
+          "hi": "दूसरी के बजाय गलत भिन्न (पहली) को पलट देता है।"
+        },
+        "d": {
+          "en": "Divides in the reverse order — computes the second fraction ÷ the first instead of the first ÷ the second.",
+          "hi": "उल्टे क्रम में भाग देता है — पहली ÷ दूसरी के बजाय दूसरी ÷ पहली की गणना करता है।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-fracdec-divide-04",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Calculate: 7/8 ÷ 7/4 = ?",
+        "hi": "गणना करें: 7/8 ÷ 7/4 = ?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "49/32",
+            "hi": "49/32"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "32/49",
+            "hi": "32/49"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "2/1",
+            "hi": "2/1"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "1/2",
+            "hi": "1/2"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "Dividing by a fraction means multiplying by its reciprocal: 7/8 × 4/7 = 28/56, which simplifies to 1/2.",
+        "hi": "किसी भिन्न से भाग देने का अर्थ है उसके व्युत्क्रम से गुणा करना: 7/8 × 4/7 = 28/56, जो सरल करने पर 1/2 होता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "Multiplies the two fractions straight across instead of first flipping the second fraction.",
+          "hi": "पहले दूसरी भिन्न को पलटने के बजाय दोनों भिन्नों को सीधे गुणा कर देता है।"
+        },
+        "b": {
+          "en": "Flips the wrong fraction (the first one) instead of the second.",
+          "hi": "दूसरी के बजाय गलत भिन्न (पहली) को पलट देता है।"
+        },
+        "c": {
+          "en": "Divides in the reverse order — computes the second fraction ÷ the first instead of the first ÷ the second.",
+          "hi": "उल्टे क्रम में भाग देता है — पहली ÷ दूसरी के बजाय दूसरी ÷ पहली की गणना करता है।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-fracdec-divide-05",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Calculate: 2/5 ÷ 4/15 = ?",
+        "hi": "गणना करें: 2/5 ÷ 4/15 = ?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "3/2",
+            "hi": "3/2"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "8/75",
+            "hi": "8/75"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "75/8",
+            "hi": "75/8"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "2/3",
+            "hi": "2/3"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Dividing by a fraction means multiplying by its reciprocal: 2/5 × 15/4 = 30/20, which simplifies to 3/2.",
+        "hi": "किसी भिन्न से भाग देने का अर्थ है उसके व्युत्क्रम से गुणा करना: 2/5 × 15/4 = 30/20, जो सरल करने पर 3/2 होता है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "Multiplies the two fractions straight across instead of first flipping the second fraction.",
+          "hi": "पहले दूसरी भिन्न को पलटने के बजाय दोनों भिन्नों को सीधे गुणा कर देता है।"
+        },
+        "c": {
+          "en": "Flips the wrong fraction (the first one) instead of the second.",
+          "hi": "दूसरी के बजाय गलत भिन्न (पहली) को पलट देता है।"
+        },
+        "d": {
+          "en": "Divides in the reverse order — computes the second fraction ÷ the first instead of the first ÷ the second.",
+          "hi": "उल्टे क्रम में भाग देता है — पहली ÷ दूसरी के बजाय दूसरी ÷ पहली की गणना करता है।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-fracdec-wordproblem-01",
+      "difficulty": "HARD",
+      "content": {
+        "en": "There are 60 litres of water in a tank. If 3/4 of them have been used, how many are left?",
+        "hi": "टंकी में लीटर पानी कुल 60 हैं। यदि उनमें से 3/4 उपयोग हो चुके हैं, तो कितने शेष हैं?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "45",
+            "hi": "45"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "15",
+            "hi": "15"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "37.5",
+            "hi": "37.5"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "18",
+            "hi": "18"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Used: 3/4 × 60 = 45. Remaining: 60 − 45 = 15.",
+        "hi": "उपयोग किए गए: 3/4 × 60 = 45। शेष: 60 − 45 = 15।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This is the amount USED (3/4 of the total), not what remains.",
+          "hi": "यह उपयोग की गई मात्रा (कुल का 3/4) है, जो शेष है वह नहीं।"
+        },
+        "c": {
+          "en": "Only accounts for half the fraction used before subtracting.",
+          "hi": "घटाने से पहले उपयोग की गई भिन्न का केवल आधा हिसाब रखता है।"
+        },
+        "d": {
+          "en": "Subtracts twice the actual amount used, overcorrecting.",
+          "hi": "वास्तव में उपयोग की गई मात्रा से दोगुना घटा देता है, अधिक सुधार कर देता है।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-fracdec-wordproblem-02",
+      "difficulty": "HARD",
+      "content": {
+        "en": "There are 80 marbles in a bag. If 2/5 of them have been used, how many are left?",
+        "hi": "थैले में कंचे कुल 80 हैं। यदि उनमें से 2/5 उपयोग हो चुके हैं, तो कितने शेष हैं?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "32",
+            "hi": "32"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "64",
+            "hi": "64"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "48",
+            "hi": "48"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "16",
+            "hi": "16"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "Used: 2/5 × 80 = 32. Remaining: 80 − 32 = 48.",
+        "hi": "उपयोग किए गए: 2/5 × 80 = 32। शेष: 80 − 32 = 48।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This is the amount USED (2/5 of the total), not what remains.",
+          "hi": "यह उपयोग की गई मात्रा (कुल का 2/5) है, जो शेष है वह नहीं।"
+        },
+        "b": {
+          "en": "Only accounts for half the fraction used before subtracting.",
+          "hi": "घटाने से पहले उपयोग की गई भिन्न का केवल आधा हिसाब रखता है।"
+        },
+        "d": {
+          "en": "Subtracts twice the actual amount used, overcorrecting.",
+          "hi": "वास्तव में उपयोग की गई मात्रा से दोगुना घटा देता है, अधिक सुधार कर देता है।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-fracdec-wordproblem-03",
+      "difficulty": "HARD",
+      "content": {
+        "en": "There are 96 pages in a book. If 5/8 of them have been used, how many are left?",
+        "hi": "किताब के पृष्ठ कुल 96 हैं। यदि उनमें से 5/8 उपयोग हो चुके हैं, तो कितने शेष हैं?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "60",
+            "hi": "60"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "66",
+            "hi": "66"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "39",
+            "hi": "39"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "36",
+            "hi": "36"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "Used: 5/8 × 96 = 60. Remaining: 96 − 60 = 36.",
+        "hi": "उपयोग किए गए: 5/8 × 96 = 60। शेष: 96 − 60 = 36।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This is the amount USED (5/8 of the total), not what remains.",
+          "hi": "यह उपयोग की गई मात्रा (कुल का 5/8) है, जो शेष है वह नहीं।"
+        },
+        "b": {
+          "en": "Only accounts for half the fraction used before subtracting.",
+          "hi": "घटाने से पहले उपयोग की गई भिन्न का केवल आधा हिसाब रखता है।"
+        },
+        "c": {
+          "en": "Subtracts twice the actual amount used, overcorrecting.",
+          "hi": "वास्तव में उपयोग की गई मात्रा से दोगुना घटा देता है, अधिक सुधार कर देता है।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-fracdec-wordproblem-04",
+      "difficulty": "HARD",
+      "content": {
+        "en": "There are 45 students in a class. If 1/3 of them have been used, how many are left?",
+        "hi": "कक्षा में छात्र कुल 45 हैं। यदि उनमें से 1/3 उपयोग हो चुके हैं, तो कितने शेष हैं?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "30",
+            "hi": "30"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "15",
+            "hi": "15"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "37.5",
+            "hi": "37.5"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "33",
+            "hi": "33"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "Used: 1/3 × 45 = 15. Remaining: 45 − 15 = 30.",
+        "hi": "उपयोग किए गए: 1/3 × 45 = 15। शेष: 45 − 15 = 30।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "This is the amount USED (1/3 of the total), not what remains.",
+          "hi": "यह उपयोग की गई मात्रा (कुल का 1/3) है, जो शेष है वह नहीं।"
+        },
+        "c": {
+          "en": "Only accounts for half the fraction used before subtracting.",
+          "hi": "घटाने से पहले उपयोग की गई भिन्न का केवल आधा हिसाब रखता है।"
+        },
+        "d": {
+          "en": "Subtracts twice the actual amount used, overcorrecting.",
+          "hi": "वास्तव में उपयोग की गई मात्रा से दोगुना घटा देता है, अधिक सुधार कर देता है।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-fracdec-wordproblem-05",
+      "difficulty": "HARD",
+      "content": {
+        "en": "There are 120 seats in a hall. If 3/5 of them have been used, how many are left?",
+        "hi": "हॉल में सीटें कुल 120 हैं। यदि उनमें से 3/5 उपयोग हो चुके हैं, तो कितने शेष हैं?"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "72",
+            "hi": "72"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "48",
+            "hi": "48"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "84",
+            "hi": "84"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "51",
+            "hi": "51"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "Used: 3/5 × 120 = 72. Remaining: 120 − 72 = 48.",
+        "hi": "उपयोग किए गए: 3/5 × 120 = 72। शेष: 120 − 72 = 48।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "This is the amount USED (3/5 of the total), not what remains.",
+          "hi": "यह उपयोग की गई मात्रा (कुल का 3/5) है, जो शेष है वह नहीं।"
+        },
+        "c": {
+          "en": "Only accounts for half the fraction used before subtracting.",
+          "hi": "घटाने से पहले उपयोग की गई भिन्न का केवल आधा हिसाब रखता है।"
+        },
+        "d": {
+          "en": "Subtracts twice the actual amount used, overcorrecting.",
+          "hi": "वास्तव में उपयोग की गई मात्रा से दोगुना घटा देता है, अधिक सुधार कर देता है।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-fracdec-decimaltofrac-01",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Convert 0.75 to a fraction in its simplest form.",
+        "hi": "0.75 को सरलतम रूप में भिन्न में बदलें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "75/100",
+            "hi": "75/100"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "19/25",
+            "hi": "19/25"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "4/3",
+            "hi": "4/3"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "3/4",
+            "hi": "3/4"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "0.75 = 75/100, which simplifies (dividing both by their HCF) to 3/4.",
+        "hi": "0.75 = 75/100, जिसे (दोनों को उनके HCF से भाग देकर) सरल करने पर 3/4 मिलता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "The right fraction, but never reduced to its simplest (lowest) terms.",
+          "hi": "सही भिन्न है, पर इसे सरलतम (निम्नतम) रूप में कभी सरल नहीं किया गया।"
+        },
+        "b": {
+          "en": "Off by one in the numerator before simplifying — a small reading slip.",
+          "hi": "सरल करने से पहले अंश में एक की गलती — एक छोटी सी पठन चूक।"
+        },
+        "c": {
+          "en": "Inverts the fraction — flips numerator and denominator.",
+          "hi": "भिन्न को उलट देता है — अंश और हर को बदल देता है।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-fracdec-decimaltofrac-02",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Convert 0.4 to a fraction in its simplest form.",
+        "hi": "0.4 को सरलतम रूप में भिन्न में बदलें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "2/5",
+            "hi": "2/5"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "4/10",
+            "hi": "4/10"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "1/2",
+            "hi": "1/2"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "5/2",
+            "hi": "5/2"
+          }
+        }
+      ],
+      "correctOption": "a",
+      "explanation": {
+        "en": "0.4 = 4/10, which simplifies (dividing both by their HCF) to 2/5.",
+        "hi": "0.4 = 4/10, जिसे (दोनों को उनके HCF से भाग देकर) सरल करने पर 2/5 मिलता है।"
+      },
+      "distractorAnalysis": {
+        "b": {
+          "en": "The right fraction, but never reduced to its simplest (lowest) terms.",
+          "hi": "सही भिन्न है, पर इसे सरलतम (निम्नतम) रूप में कभी सरल नहीं किया गया।"
+        },
+        "c": {
+          "en": "Off by one in the numerator before simplifying — a small reading slip.",
+          "hi": "सरल करने से पहले अंश में एक की गलती — एक छोटी सी पठन चूक।"
+        },
+        "d": {
+          "en": "Inverts the fraction — flips numerator and denominator.",
+          "hi": "भिन्न को उलट देता है — अंश और हर को बदल देता है।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-fracdec-decimaltofrac-03",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Convert 0.36 to a fraction in its simplest form.",
+        "hi": "0.36 को सरलतम रूप में भिन्न में बदलें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "36/100",
+            "hi": "36/100"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "9/25",
+            "hi": "9/25"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "37/100",
+            "hi": "37/100"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "25/9",
+            "hi": "25/9"
+          }
+        }
+      ],
+      "correctOption": "b",
+      "explanation": {
+        "en": "0.36 = 36/100, which simplifies (dividing both by their HCF) to 9/25.",
+        "hi": "0.36 = 36/100, जिसे (दोनों को उनके HCF से भाग देकर) सरल करने पर 9/25 मिलता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "The right fraction, but never reduced to its simplest (lowest) terms.",
+          "hi": "सही भिन्न है, पर इसे सरलतम (निम्नतम) रूप में कभी सरल नहीं किया गया।"
+        },
+        "c": {
+          "en": "Off by one in the numerator before simplifying — a small reading slip.",
+          "hi": "सरल करने से पहले अंश में एक की गलती — एक छोटी सी पठन चूक।"
+        },
+        "d": {
+          "en": "Inverts the fraction — flips numerator and denominator.",
+          "hi": "भिन्न को उलट देता है — अंश और हर को बदल देता है।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-fracdec-decimaltofrac-04",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Convert 0.15 to a fraction in its simplest form.",
+        "hi": "0.15 को सरलतम रूप में भिन्न में बदलें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "15/100",
+            "hi": "15/100"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "4/25",
+            "hi": "4/25"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "3/20",
+            "hi": "3/20"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "20/3",
+            "hi": "20/3"
+          }
+        }
+      ],
+      "correctOption": "c",
+      "explanation": {
+        "en": "0.15 = 15/100, which simplifies (dividing both by their HCF) to 3/20.",
+        "hi": "0.15 = 15/100, जिसे (दोनों को उनके HCF से भाग देकर) सरल करने पर 3/20 मिलता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "The right fraction, but never reduced to its simplest (lowest) terms.",
+          "hi": "सही भिन्न है, पर इसे सरलतम (निम्नतम) रूप में कभी सरल नहीं किया गया।"
+        },
+        "b": {
+          "en": "Off by one in the numerator before simplifying — a small reading slip.",
+          "hi": "सरल करने से पहले अंश में एक की गलती — एक छोटी सी पठन चूक।"
+        },
+        "d": {
+          "en": "Inverts the fraction — flips numerator and denominator.",
+          "hi": "भिन्न को उलट देता है — अंश और हर को बदल देता है।"
+        }
+      },
+      "targetExam": "JNVST"
+    },
+    {
+      "key": "bank-ar-fracdec-decimaltofrac-05",
+      "difficulty": "HARD",
+      "content": {
+        "en": "Convert 0.6 to a fraction in its simplest form.",
+        "hi": "0.6 को सरलतम रूप में भिन्न में बदलें।"
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": {
+            "en": "6/10",
+            "hi": "6/10"
+          }
+        },
+        {
+          "id": "b",
+          "text": {
+            "en": "7/10",
+            "hi": "7/10"
+          }
+        },
+        {
+          "id": "c",
+          "text": {
+            "en": "5/3",
+            "hi": "5/3"
+          }
+        },
+        {
+          "id": "d",
+          "text": {
+            "en": "3/5",
+            "hi": "3/5"
+          }
+        }
+      ],
+      "correctOption": "d",
+      "explanation": {
+        "en": "0.6 = 6/10, which simplifies (dividing both by their HCF) to 3/5.",
+        "hi": "0.6 = 6/10, जिसे (दोनों को उनके HCF से भाग देकर) सरल करने पर 3/5 मिलता है।"
+      },
+      "distractorAnalysis": {
+        "a": {
+          "en": "The right fraction, but never reduced to its simplest (lowest) terms.",
+          "hi": "सही भिन्न है, पर इसे सरलतम (निम्नतम) रूप में कभी सरल नहीं किया गया।"
+        },
+        "b": {
+          "en": "Off by one in the numerator before simplifying — a small reading slip.",
+          "hi": "सरल करने से पहले अंश में एक की गलती — एक छोटी सी पठन चूक।"
+        },
+        "c": {
+          "en": "Inverts the fraction — flips numerator and denominator.",
+          "hi": "भिन्न को उलट देता है — अंश और हर को बदल देता है।"
+        }
+      },
+      "targetExam": "JNVST"
+    }
+  ]
+}
