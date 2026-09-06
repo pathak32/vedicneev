@@ -21,6 +21,19 @@ function generateId(): string {
   return `${Date.now()}-${Math.random().toString(36).slice(2)}`;
 }
 
+// Best-effort background sync of the active student's targetExam onto the
+// parent's own User row (see app/api/auth/sync/route.ts) — same endpoint and
+// same non-blocking error handling as the mock-auth path's user sync above.
+// Not awaited by callers: it's a mirror of client state, not a precondition
+// for anything the UI does next.
+function syncTargetExamToServer(phone: string, targetExam: string): void {
+  fetch("/api/auth/sync", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ phone, targetExam }),
+  }).catch((err) => console.error("Failed to sync targetExam to database:", err));
+}
+
 interface Account {
   parent: ParentAccount;
   students: StudentProfile[];
@@ -175,6 +188,8 @@ export const useAuthStore = create<AuthStoreState>()(
           activeStudentId: state.activeStudentId ?? student.id,
         });
 
+        if (!state.activeStudentId) syncTargetExamToServer(phone, student.targetExam);
+
         return student;
       },
 
@@ -193,13 +208,17 @@ export const useAuthStore = create<AuthStoreState>()(
             },
           },
         });
+
+        if (patch.targetExam && id === state.activeStudentId) syncTargetExamToServer(phone, patch.targetExam);
       },
 
       setActiveStudentId: (id) => {
         const state = get();
         const account = state.activePhone ? state.accounts[state.activePhone] : undefined;
-        if (!account?.students.some((s) => s.id === id)) return;
+        const student = account?.students.find((s) => s.id === id);
+        if (!student) return;
         set({ activeStudentId: id });
+        syncTargetExamToServer(state.activePhone as string, student.targetExam);
       },
 
       recordTestResult: (entry) => {
