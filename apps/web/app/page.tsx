@@ -32,7 +32,7 @@ export default function Home() {
               Master Government Boarding School <span className="text-amber-600">Entrance Exams</span>
             </h1>
             <p className="text-base sm:text-lg text-gray-600 leading-relaxed max-w-2xl mx-auto">
-              Comprehensive preparation for JNVST, AISSEE, and RMS (Classes 6 & 9) featuring real-percentile analytics and curated master papers[cite: 1].
+              Comprehensive preparation for JNVST, AISSEE, and RMS (Classes 6 & 9) featuring real-percentile analytics and curated master papers.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
               <Link href="/sprints" className="w-full sm:w-auto inline-flex items-center justify-center px-6 py-3.5 text-base font-bold text-white bg-amber-600 rounded-2xl shadow-lg hover:bg-amber-700 transition-all gap-2">
@@ -76,7 +76,7 @@ export default function Home() {
 
       <footer className="bg-gray-900 text-gray-300 border-t border-gray-800 pt-16 pb-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-xs text-gray-500">
-          <p>© {new Date().getFullYear()} VedicNeev EdTech Private Limited. All rights reserved[cite: 1].</p>
+          <p>© {new Date().getFullYear()} VedicNeev EdTech Private Limited. All rights reserved.</p>
         </div>
       </footer>
     </div>
