@@ -132,6 +132,95 @@ enum PurchaseStatus {
 }
 
 // ─────────────────────────────────────────────────────────────────────────
+// National Sprints: free, time-synchronized weekly scholarship tests open
+// to guests as well as signed-in parents. Ranks and Gold/Silver/Bronze
+// badges are deliberately never persisted — they're derived live from
+// SprintSubmission rows at read time (see the leaderboard route), so a
+// mid-window leaderboard never goes stale as more students submit.
+// ─────────────────────────────────────────────────────────────────────────
+
+// One scheduled sprint — a fixed [startTime, endTime] window during which
+// every registered participant takes the same paper, assembled from the
+// linked ExamTemplate via the same pipeline /exam/live/[templateSlug]
+// already uses (see generateLiveMockSession in jnvstMockService.ts).
+model NationalSprint {
+  id       String   @id @default(cuid())
+  // Bilingual, e.g. { "en": "JNVST Class 9 National Sprint — 12 Oct", "hi": "..." }
+  title    Json
+  examType ExamType @map("exam_type")
+  classLevel Int    @map("class_level")
+
+  examTemplateId String       @map("exam_template_id")
+  examTemplate   ExamTemplate @relation(fields: [examTemplateId], references: [id], onDelete: Restrict)
+
+  startTime DateTime @map("start_time")
+  endTime   DateTime @map("end_time")
+  isActive  Boolean  @default(true) @map("is_active")
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  registrations SprintRegistration[]
+
+  @@index([examType, classLevel])
+  @@index([startTime])
+  @@map("national_sprints")
+}
+
+// A participant's entry into one sprint — guest (participantName/phone/
+// email captured directly) or linked to a signed-in parent's User row via
+// userId. Either way every registration carries its own participant
+// snapshot fields, since a "student" profile only exists client-side in
+// this app (see useAuthStore's StudentProfile) — there's no server-side
+// student row to join through. Deduped by (sprintId, phone), the one
+// identity key both paths always have, so a guest or a signed-in parent
+// re-registering with the same number reuses their existing entry rather
+// than creating a second one.
+model SprintRegistration {
+  id       String         @id @default(cuid())
+  sprintId String         @map("sprint_id")
+  sprint   NationalSprint @relation(fields: [sprintId], references: [id], onDelete: Cascade)
+
+  // Set when a signed-in parent registered — optional, since a guest has
+  // no User row at all.
+  userId String? @map("user_id")
+  user   User?   @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  participantName String  @map("participant_name")
+  // Raw digits, matching User.phone's existing convention.
+  phone           String
+  email           String?
+  // State name/code, shown on the leaderboard's state filter — free text
+  // against StateConfiguration's known set, not FK-enforced (a sprint can
+  // launch in a state that hasn't been onboarded into that table yet).
+  state           String
+
+  registeredAt DateTime @default(now()) @map("registered_at")
+
+  submission SprintSubmission?
+
+  @@unique([sprintId, phone])
+  @@index([sprintId, state])
+  @@map("sprint_registrations")
+}
+
+// Exactly one per SprintRegistration (@unique below) — the FK's own
+// uniqueness is what actually enforces "single attempt", not
+// application-level logic alone.
+model SprintSubmission {
+  id             String             @id @default(cuid())
+  registrationId String             @unique @map("registration_id")
+  registration   SprintRegistration @relation(fields: [registrationId], references: [id], onDelete: Cascade)
+
+  totalScore       Float    @map("total_score")
+  maxScore         Float    @map("max_score")
+  timeTakenSeconds Int      @map("time_taken_seconds")
+  submittedAt      DateTime @default(now()) @map("submitted_at")
+
+  @@map("sprint_submissions")
+}
+
+// ─────────────────────────────────────────────────────────────────────────
 // Identity
 // ─────────────────────────────────────────────────────────────────────────
 
@@ -163,6 +252,7 @@ model User {
   subscriptions       Subscription[]
   offlineMockSessions OfflineMockSession[]
   purchases           Purchase[]
+  sprintRegistrations SprintRegistration[]
 
   @@index([parentId])
   @@map("users")
@@ -360,8 +450,9 @@ model ExamTemplate {
   createdAt DateTime @default(now()) @map("created_at")
   updatedAt DateTime @updatedAt @map("updated_at")
 
-  sections     ExamTemplateSection[]
-  testSessions TestSession[]
+  sections        ExamTemplateSection[]
+  testSessions    TestSession[]
+  nationalSprints NationalSprint[]
 
   @@index([examType, classLevel])
   @@map("exam_templates")

@@ -13,3 +13,4 @@ export * from "./jnvstMockAssembly";
 export * from "./random";
 export * from "./bootcamp";
 export * from "./storePricing";
+export * from "./sprintRanking";
