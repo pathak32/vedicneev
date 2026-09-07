@@ -37,7 +37,7 @@ export default async function AdminSprintsPage() {
       <div>
         <h1 className="text-2xl font-bold text-foreground">National Sprint Review</h1>
         <p className="text-sm text-muted-foreground">
-          Every active or upcoming sprint's full source question pool, with per-question verification tracking.
+          Every active or upcoming sprint&apos;s full source question pool, with per-question verification tracking.
         </p>
       </div>
 
