@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.0",
+    "@react-pdf/renderer": "^4.9.0",
     "@vedicneev/db": "*",
     "@vedicneev/engine": "*",
     "@vedicneev/ui": "*",

@@ -620,6 +620,12 @@ model Question {
   // Base time allotment in seconds, used by the engine's timer math.
   timeLimitSeconds Int @default(60) @map("time_limit_seconds")
 
+  // Set once an admin has manually checked this item's correctness for a
+  // National Sprint review (see /admin/sprints) — null means not yet
+  // reviewed. Never touched by the mock-assembly pipeline itself, only by
+  // POST /api/admin/sprint-questions/verify.
+  verifiedAt DateTime? @map("verified_at")
+
   createdAt DateTime @default(now()) @map("created_at")
   updatedAt DateTime @updatedAt @map("updated_at")
 
@@ -684,6 +690,12 @@ model PreviousYearQuestion {
   distractorAnalysis Json? @map("distractor_analysis")
 
   difficulty Difficulty @default(MEDIUM)
+
+  // Set once an admin has manually checked this item's correctness for a
+  // National Sprint review (see /admin/sprints) — null means not yet
+  // reviewed. Never touched by the mock-assembly pipeline itself, only by
+  // POST /api/admin/sprint-questions/verify.
+  verifiedAt DateTime? @map("verified_at")
 
   createdAt DateTime @default(now()) @map("created_at")
   updatedAt DateTime @updatedAt @map("updated_at")
