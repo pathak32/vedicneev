@@ -1,84 +1,131 @@
-import Link from 'next/link';
-import { Sparkles, ArrowRight } from 'lucide-react';
+"use client";
 
-export default function Home() {
+import Link from "next/link";
+import { Award, ClipboardList, Printer, ScanLine, Sparkles } from "lucide-react";
+
+import { formatDuration } from "@vedicneev/engine";
+import {
+  Badge,
+  Button,
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@vedicneev/ui";
+
+import { FeatureGrid } from "@/components/marketing/FeatureGrid";
+import { FinalCta } from "@/components/marketing/FinalCta";
+import { HeroSection } from "@/components/marketing/HeroSection";
+import { JnvstLiveMockPromo } from "@/components/marketing/JnvstLiveMockPromo";
+import { PricingTeaser } from "@/components/marketing/PricingTeaser";
+import { Reveal } from "@/components/marketing/Reveal";
+import { TestimonialCarousel } from "@/components/marketing/TestimonialCarousel";
+import { TrustBadges } from "@/components/marketing/TrustBadges";
+import { useActiveStudent } from "@/lib/auth/ActiveStudentContext";
+import { selectStudentTestHistory, useAuthStore } from "@/lib/auth/useAuthStore";
+
+export default function HomePage() {
+  const sampleTimeLimit = formatDuration(45 * 60);
+  const { hasHydrated, activeStudent } = useActiveStudent();
+  const history = useAuthStore((s) =>
+    activeStudent ? selectStudentTestHistory(s, activeStudent.id) : []
+  );
+
   return (
-    <div className="min-h-screen flex flex-col bg-white text-gray-900">
-      <header className="sticky top-0 z-50 w-full border-b border-gray-200 bg-white/95 backdrop-blur">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-          <div className="flex items-center gap-6">
-            <Link href="/" className="flex items-center gap-2">
-              <span className="text-2xl font-black tracking-tight text-gray-900">
-                Vedic<span className="text-amber-600">Neev</span>
-              </span>
-            </Link>
-          </div>
-          <div className="flex items-center gap-4">
-            <Link href="/sprints" className="inline-flex items-center justify-center px-4 py-2 text-sm font-bold text-white bg-amber-600 rounded-xl shadow-sm hover:bg-amber-700 transition-all">
-              Free Mock Test
-            </Link>
-          </div>
-        </div>
-      </header>
+    <main className="flex flex-col">
+      <HeroSection />
 
-      <main className="flex-grow">
-        <section className="relative overflow-hidden bg-gradient-to-b from-amber-50/50 via-white to-white py-16 lg:py-24">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center max-w-3xl mx-auto space-y-6">
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-100/80 text-amber-900 text-xs font-bold uppercase border border-amber-200">
-              <Sparkles className="w-3.5 h-3.5 text-amber-600" />
-              India’s Premier Government Boarding School Foundation
-            </div>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight text-gray-900 leading-tight">
-              Master Government Boarding School <span className="text-amber-600">Entrance Exams</span>
-            </h1>
-            <p className="text-base sm:text-lg text-gray-600 leading-relaxed max-w-2xl mx-auto">
-              Comprehensive preparation for JNVST, AISSEE, and RMS (Classes 6 & 9) featuring real-percentile analytics and curated master papers[cite: 1].
-            </p>
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
-              <Link href="/sprints" className="w-full sm:w-auto inline-flex items-center justify-center px-6 py-3.5 text-base font-bold text-white bg-amber-600 rounded-2xl shadow-lg hover:bg-amber-700 transition-all gap-2">
-                Start Free Mock Test
-                <ArrowRight className="w-4 h-4" />
-              </Link>
-            </div>
-          </div>
-        </section>
+      <section className="flex flex-col items-center gap-8 px-4 pb-20 pt-12 text-center md:px-8">
+        <Reveal delayMs={60} className="flex w-full justify-center">
+          <JnvstLiveMockPromo />
+        </Reveal>
 
-        <section className="py-20 bg-gray-50/50 border-t border-gray-100">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center max-w-2xl mx-auto space-y-4 mb-16">
-              <h2 className="text-3xl sm:text-4xl font-black text-gray-900 tracking-tight">
-                Choose Your Target Board & Class Tier
-              </h2>
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              {[
-                { title: "JNVST (Navodaya)", sub: "Class 6 & 9 Lateral", desc: "Complete preparation matching official blueprint ratios." },
-                { title: "AISSEE (Sainik)", sub: "Class 6 & 9", desc: "Rigorous coverage across Mathematics, Intelligence, and Language." },
-                { title: "RMS (Military)", sub: "Class 6 & 9", desc: "Advanced testing modules aligned with military school pattern." }
-              ].map((t, i) => (
-                <div key={i} className="bg-white rounded-2xl p-8 shadow-sm border border-gray-200 flex flex-col justify-between">
-                  <div className="space-y-4">
-                    <span className="text-xs font-bold px-2.5 py-1 rounded-md bg-gray-100 text-gray-800">{t.sub}</span>
-                    <h3 className="text-xl font-extrabold text-gray-900">{t.title}</h3>
-                    <p className="text-sm text-gray-600">{t.desc}</p>
-                  </div>
-                  <div className="pt-6 mt-6 border-t border-gray-100">
-                    <Link href="/sprints" className="w-full inline-flex items-center justify-center px-4 py-2.5 text-xs font-bold text-amber-900 bg-amber-50 hover:bg-amber-100 rounded-xl">
-                      Explore Sprints & Mocks
-                    </Link>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-      </main>
+        <Reveal delayMs={120} className="w-full max-w-md">
+          <Card className="w-full text-left shadow-sm">
+            <CardHeader>
+              <CardTitle className="flex items-center gap-2">
+                <Sparkles className="h-5 w-5 text-primary" />
+                Vedic Neev
+              </CardTitle>
+              <CardDescription>
+                {hasHydrated && activeStudent
+                  ? `Ready for ${activeStudent.fullName} · ${activeStudent.targetExam}, Class ${activeStudent.targetClass}`
+                  : `Practice engine ready — sample section time limit: ${sampleTimeLimit}`}
+              </CardDescription>
+            </CardHeader>
+            <CardContent className="flex flex-col gap-2">
+              <Button asChild size="lg">
+                <Link href="/exam/demo-jnvst">Start a mock test</Link>
+              </Button>
+              <Button asChild variant="outline">
+                <Link href="/exam/demo-jnvst/omr/print">
+                  <Printer className="h-4 w-4" />
+                  Print OMR sheet
+                </Link>
+              </Button>
+              <Button asChild variant="outline">
+                <Link href="/exam/demo-jnvst/omr/scan">
+                  <ScanLine className="h-4 w-4" />
+                  Scan a filled OMR sheet
+                </Link>
+              </Button>
+            </CardContent>
+          </Card>
+        </Reveal>
 
-      <footer className="bg-gray-900 text-gray-300 border-t border-gray-800 pt-16 pb-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-xs text-gray-500">
-          <p>© {new Date().getFullYear()} VedicNeev EdTech Private Limited. All rights reserved[cite: 1].</p>
-        </div>
-      </footer>
-    </div>
+        {hasHydrated && activeStudent ? (
+          <Reveal delayMs={200} className="w-full max-w-md">
+            <Card className="w-full text-left">
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2 text-base">
+                  <ClipboardList className="h-4 w-4 text-primary" />
+                  {activeStudent.fullName}&apos;s Test History
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                {history.length === 0 ? (
+                  <p className="text-sm text-muted-foreground">No attempts yet — take the mock test above.</p>
+                ) : (
+                  <ul className="flex flex-col gap-2">
+                    {[...history]
+                      .sort((a, b) => b.submittedAt - a.submittedAt)
+                      .map((entry) => (
+                        <li
+                          key={entry.id}
+                          className="flex items-center justify-between rounded-lg border border-border p-3 text-sm"
+                        >
+                          <div>
+                            <p className="font-medium text-foreground">{entry.examName}</p>
+                            <p className="text-xs text-muted-foreground">
+                              {new Date(entry.submittedAt).toLocaleString()}
+                            </p>
+                          </div>
+                          <Badge variant="secondary" className="flex items-center gap-1">
+                            <Award className="h-3 w-3" />
+                            {entry.totalMarks}/{entry.maxMarks}
+                          </Badge>
+                        </li>
+                      ))}
+                  </ul>
+                )}
+              </CardContent>
+            </Card>
+          </Reveal>
+        ) : null}
+
+        <Reveal delayMs={280}>
+          <TrustBadges />
+        </Reveal>
+      </section>
+
+      <div className="divide-y divide-border">
+        <FeatureGrid />
+        <TestimonialCarousel />
+        <PricingTeaser />
+      </div>
+
+      <FinalCta />
+    </main>
   );
 }
