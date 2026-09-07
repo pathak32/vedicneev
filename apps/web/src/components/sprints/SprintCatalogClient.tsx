@@ -1,14 +1,47 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { Badge, Button } from "@vedicneev/ui";
+import { Badge, Button, cn } from "@vedicneev/ui";
 import { Trophy } from "lucide-react";
 
 import { useSprintIdentityStore } from "@/lib/sprints/useSprintIdentityStore";
-import type { SprintListItem } from "@/lib/sprints/types";
+import type { SprintExamType, SprintListItem } from "@/lib/sprints/types";
 import { SprintRegisterDialog } from "./SprintRegisterDialog";
+
+type ExamFilter = "ALL" | SprintExamType;
+type ClassFilter = "ALL" | 6 | 9;
+
+const EXAM_FILTER_OPTIONS: { value: ExamFilter; label: string }[] = [
+  { value: "ALL", label: "All Boards" },
+  { value: "JNVST", label: "JNVST" },
+  { value: "AISSEE", label: "AISSEE" },
+  { value: "RMS", label: "RMS" },
+];
+
+const CLASS_FILTER_OPTIONS: { value: ClassFilter; label: string }[] = [
+  { value: "ALL", label: "All Classes" },
+  { value: 6, label: "Class 6" },
+  { value: 9, label: "Class 9" },
+];
+
+function FilterPill({ active, onClick, children }: { active: boolean; onClick: () => void; children: React.ReactNode }) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      className={cn(
+        "rounded-full border px-3 py-1.5 text-sm font-medium transition-colors",
+        active
+          ? "border-primary bg-primary text-primary-foreground"
+          : "border-border bg-background text-muted-foreground hover:text-foreground"
+      )}
+    >
+      {children}
+    </button>
+  );
+}
 
 type SprintPhase = "LOADING" | "UPCOMING" | "LIVE" | "CLOSED";
 
@@ -49,6 +82,8 @@ export function SprintCatalogClient({ sprints }: { sprints: SprintListItem[] }) 
   // after hydration) is what actually starts the live clock.
   const [now, setNow] = useState<number | null>(null);
   const [registerFor, setRegisterFor] = useState<SprintListItem | null>(null);
+  const [examFilter, setExamFilter] = useState<ExamFilter>("ALL");
+  const [classFilter, setClassFilter] = useState<ClassFilter>("ALL");
   const hasHydrated = useSprintIdentityStore((s) => s.hasHydrated);
   const entries = useSprintIdentityStore((s) => s.bySprintId);
 
@@ -57,6 +92,16 @@ export function SprintCatalogClient({ sprints }: { sprints: SprintListItem[] }) 
     const id = window.setInterval(() => setNow(Date.now()), 1000);
     return () => window.clearInterval(id);
   }, []);
+
+  const filteredSprints = useMemo(
+    () =>
+      sprints.filter(
+        (sprint) =>
+          (examFilter === "ALL" || sprint.examType === examFilter) &&
+          (classFilter === "ALL" || sprint.classLevel === classFilter)
+      ),
+    [sprints, examFilter, classFilter]
+  );
 
   if (sprints.length === 0) {
     return (
@@ -68,12 +113,35 @@ export function SprintCatalogClient({ sprints }: { sprints: SprintListItem[] }) 
 
   return (
     <>
-      <div className="grid gap-4 sm:grid-cols-2">
-        {sprints.map((sprint) => {
-          const phase = phaseOf(sprint, now);
-          const entry = hasHydrated ? (entries[sprint.id] ?? null) : null;
+      <div className="flex flex-wrap items-center gap-4">
+        <div className="flex flex-wrap gap-2">
+          {EXAM_FILTER_OPTIONS.map((option) => (
+            <FilterPill key={option.value} active={examFilter === option.value} onClick={() => setExamFilter(option.value)}>
+              {option.label}
+            </FilterPill>
+          ))}
+        </div>
+        <div className="h-5 w-px bg-border" aria-hidden />
+        <div className="flex flex-wrap gap-2">
+          {CLASS_FILTER_OPTIONS.map((option) => (
+            <FilterPill key={option.value} active={classFilter === option.value} onClick={() => setClassFilter(option.value)}>
+              {option.label}
+            </FilterPill>
+          ))}
+        </div>
+      </div>
 
-          return (
+      {filteredSprints.length === 0 ? (
+        <p className="mt-6 rounded-lg border border-dashed border-border p-8 text-center text-sm text-muted-foreground">
+          No sprints match these filters right now.
+        </p>
+      ) : (
+        <div className="mt-6 grid gap-4 sm:grid-cols-2">
+          {filteredSprints.map((sprint) => {
+            const phase = phaseOf(sprint, now);
+            const entry = hasHydrated ? (entries[sprint.id] ?? null) : null;
+
+            return (
             <div key={sprint.id} className="flex flex-col justify-between rounded-2xl border border-border bg-card p-5 shadow-sm">
               <div>
                 <div className="flex items-center justify-between">
@@ -121,8 +189,9 @@ export function SprintCatalogClient({ sprints }: { sprints: SprintListItem[] }) 
               </div>
             </div>
           );
-        })}
-      </div>
+          })}
+        </div>
+      )}
 
       {registerFor ? (
         <SprintRegisterDialog
