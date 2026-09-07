@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { ShieldCheck, Mail, Phone, MapPin, Heart } from 'lucide-react';
+import { ShieldCheck } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -16,11 +16,11 @@ export default function Footer() {
               </span>
             </Link>
             <p className="text-sm text-gray-400 leading-relaxed max-w-sm">
-              India's premier digital foundation platform for government boarding school entrance examinations, delivering elite mock runners, real-percentile analytics, and weekly national scholarship sprints.
+              India&apos;s premier digital foundation platform for government boarding school entrance examinations, delivering elite mock runners, real-percentile analytics, and weekly national scholarship sprints[cite: 1].
             </p>
             <div className="flex items-center gap-2 text-xs text-amber-400 font-semibold">
               <ShieldCheck className="w-4 h-4" />
-              <span>Secure, Transparent, & Standardized Testing</span>
+              <span>Secure, Transparent, &amp; Standardized Testing</span>
             </div>
           </div>
 
@@ -39,7 +39,7 @@ export default function Footer() {
           <div className="space-y-4">
             <h4 className="text-xs font-bold uppercase tracking-wider text-white">Exam Boards</h4>
             <ul className="space-y-2.5 text-sm">
-              <li><Link href="/sprints" className="hover:text-amber-400 transition-colors">JNVST (Classes 6 & 9)</Link></li>
+              <li><Link href="/sprints" className="hover:text-amber-400 transition-colors">JNVST (Classes 6 &amp; 9)</Link></li>
               <li><Link href="/sprints" className="hover:text-amber-400 transition-colors">AISSEE (Sainik Schools)</Link></li>
               <li><Link href="/sprints" className="hover:text-amber-400 transition-colors">RMS (Military Schools)</Link></li>
               <li><Link href="/dashboard/library" className="hover:text-amber-400 transition-colors">PYQ Archives</Link></li>
@@ -48,11 +48,11 @@ export default function Footer() {
 
           {/* Legal & Support */}
           <div className="space-y-4">
-            <h4 className="text-xs font-bold uppercase tracking-wider text-white">Compliance & Legal</h4>
+            <h4 className="text-xs font-bold uppercase tracking-wider text-white">Compliance &amp; Legal</h4>
             <ul className="space-y-2.5 text-sm">
               <li><Link href="/privacy" className="hover:text-amber-400 transition-colors">Privacy Policy</Link></li>
               <li><Link href="/terms" className="hover:text-amber-400 transition-colors">Terms of Service</Link></li>
-              <li><Link href="/pricing" className="hover:text-amber-400 transition-colors">Refund & Pricing Policy</Link></li>
+              <li><Link href="/pricing" className="hover:text-amber-400 transition-colors">Refund &amp; Pricing Policy</Link></li>
               <li><Link href="/admin/login" className="hover:text-amber-400 transition-colors text-gray-500">Admin Portal</Link></li>
             </ul>
           </div>
@@ -63,7 +63,7 @@ export default function Footer() {
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-500">
           <p>© {new Date().getFullYear()} VedicNeev EdTech Private Limited. All rights reserved[cite: 1].</p>
           <div className="flex items-center gap-1 text-gray-400">
-            <span>Built with precision for India's future leaders</span>
+            <span>Built with precision for India&apos;s future leaders</span>
           </div>
         </div>
 
