@@ -32,7 +32,6 @@ export function SpeedChallengeWidget() {
     if (gameState !== 'playing') return;
 
     if (timeLeft === 0) {
-      // Timeout/unattempted counts as a wrong answer strike per rules
       handleAnswer(-1, true);
       return;
     }
@@ -66,6 +65,8 @@ export function SpeedChallengeWidget() {
     setSelectedOption(optionIdx);
 
     const currentQ = questions[currentIndex];
+    if (!currentQ) return; // Guard clause for TypeScript safety
+
     const isCorrect = !isTimeout && optionIdx === currentQ.correct;
 
     let newStrikes = strikes;
@@ -75,14 +76,12 @@ export function SpeedChallengeWidget() {
       newScore += 1;
       setScore(newScore);
     } else {
-      // Counts wrong selections AND unattempted/timeout answers as strikes
       newStrikes += 1;
       setStrikes(newStrikes);
     }
 
     setTimeout(() => {
       setSelectedOption(null);
-      // Trigger Lead Capture on 3 overall strikes or end of pool
       if (newStrikes >= 3 || currentIndex + 1 >= questions.length) {
         setGameState('lead_capture');
       } else {
@@ -132,7 +131,7 @@ export function SpeedChallengeWidget() {
       )}
 
       {/* PLAYING STATE */}
-      {gameState === 'playing' && questions.length > 0 && (
+      {gameState === 'playing' && questions.length > 0 && questions[currentIndex] && (
         <div className="space-y-6">
           <div className="flex justify-between items-center border-b border-gray-800 pb-4">
             <div className="flex items-center gap-3">
