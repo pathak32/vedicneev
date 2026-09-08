@@ -929,3 +929,13 @@ model BlogPost {
   @@index([category])
   @@map("blog_posts")
 }
+
+model SpeedChallengeQuestion {
+  id        String   @id @default(cuid())
+  question  String
+  options   String[]
+  correct   Int
+  topic     String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
