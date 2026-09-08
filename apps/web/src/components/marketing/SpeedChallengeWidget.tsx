@@ -65,7 +65,7 @@ export function SpeedChallengeWidget() {
     setSelectedOption(optionIdx);
 
     const currentQ = questions[currentIndex];
-    if (!currentQ) return; // Guard clause for TypeScript safety
+    if (!currentQ) return;
 
     const isCorrect = !isTimeout && optionIdx === currentQ.correct;
 
@@ -105,6 +105,8 @@ export function SpeedChallengeWidget() {
     }, 500);
   };
 
+  const currentQ = questions[currentIndex];
+
   return (
     <div className="w-full max-w-2xl mx-auto bg-gradient-to-br from-gray-900 to-gray-950 rounded-3xl p-6 sm:p-8 text-white shadow-2xl border border-amber-500/30">
       
@@ -131,7 +133,7 @@ export function SpeedChallengeWidget() {
       )}
 
       {/* PLAYING STATE */}
-      {gameState === 'playing' && questions.length > 0 && questions[currentIndex] && (
+      {gameState === 'playing' && questions.length > 0 && currentQ && (
         <div className="space-y-6">
           <div className="flex justify-between items-center border-b border-gray-800 pb-4">
             <div className="flex items-center gap-3">
@@ -139,7 +141,7 @@ export function SpeedChallengeWidget() {
                 Question {currentIndex + 1} of {questions.length}
               </span>
               <span className="text-xs text-gray-400 font-medium">
-                Topic: {questions[currentIndex].topic}
+                Topic: {currentQ.topic}
               </span>
             </div>
             
@@ -158,14 +160,14 @@ export function SpeedChallengeWidget() {
 
           <div className="space-y-3">
             <h4 className="text-lg sm:text-xl font-bold text-gray-100">
-              {questions[currentIndex].question}
+              {currentQ.question}
             </h4>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
-            {questions[currentIndex].options.map((option, idx) => {
+            {currentQ.options.map((option, idx) => {
               const isSelected = selectedOption === idx;
-              const isCorrectOpt = idx === questions[currentIndex].correct;
+              const isCorrectOpt = idx === currentQ.correct;
               
               let btnStyle = "bg-gray-800/80 border-gray-700 hover:border-amber-500 text-gray-200";
               if (selectedOption !== null) {
