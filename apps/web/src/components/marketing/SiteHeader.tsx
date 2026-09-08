@@ -7,19 +7,19 @@ import { LandingLanguageSelector } from './LandingLanguageSelector';
 
 export function SiteHeader() {
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-gray-100 bg-white/95 backdrop-blur-md">
+    <header className="sticky top-0 z-50 w-full border-b border-gray-100 bg-white shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
         
         {/* Left: Brand Logo & Name */}
         <Link href="/" className="flex items-center gap-3 group">
-          <div className="w-10 h-10 rounded-2xl bg-amber-600 flex items-center justify-center text-white font-black text-lg shadow-md shadow-amber-600/30 group-hover:scale-105 transition-transform">
+          <div className="w-10 h-10 rounded-xl bg-amber-600 flex items-center justify-center text-white font-black text-lg shadow-md">
             VN
           </div>
           <div className="flex flex-col">
-            <span className="text-xl font-black tracking-tight text-gray-900">
+            <span className="text-xl font-black tracking-tight text-gray-900 leading-none">
               VedicNeev
             </span>
-            <span className="text-[10px] font-bold text-amber-600 uppercase tracking-widest -mt-1">
+            <span className="text-[10px] font-bold text-amber-600 uppercase tracking-widest mt-1">
               Foundation
             </span>
           </div>
