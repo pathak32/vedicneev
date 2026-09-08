@@ -1,11 +1,11 @@
-import { SiteHeader } from '@/components/layout/SiteHeader';
-import { SiteFooter } from '@/components/layout/SiteFooter';
-import { ExamTracksHub } from '@/components/marketing/ExamTracksHub';
-import { FeatureGrid } from '@/components/marketing/FeatureGrid';
-import { Testimonials } from '@/components/marketing/Testimonials';
-import { PricingTeaser } from '@/components/marketing/PricingTeaser';
-import { FinalCTA } from '@/components/marketing/FinalCTA';
-import { SpeedChallengeWidget } from '@/components/marketing/SpeedChallengeWidget';
+import { SiteHeader } from '../src/components/layout/SiteHeader';
+import { SiteFooter } from '../src/components/layout/SiteFooter';
+import { ExamTracksHub } from '../src/components/marketing/ExamTracksHub';
+import { FeatureGrid } from '../src/components/marketing/FeatureGrid';
+import { Testimonials } from '../src/components/marketing/Testimonials';
+import { PricingTeaser } from '../src/components/marketing/PricingTeaser';
+import { FinalCTA } from '../src/components/marketing/FinalCTA';
+import { SpeedChallengeWidget } from '../src/components/marketing/SpeedChallengeWidget';
 import Link from 'next/link';
 
 export default function HomePage() {
