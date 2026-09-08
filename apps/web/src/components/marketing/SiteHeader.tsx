@@ -10,7 +10,6 @@ export function SiteHeader() {
     <header className="sticky top-0 z-50 w-full border-b border-gray-100 bg-white shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
         
-        {/* Left: Brand Logo & Name */}
         <Link href="/" className="flex items-center gap-3 group">
           <div className="w-10 h-10 rounded-xl bg-amber-600 flex items-center justify-center text-white font-black text-lg shadow-md">
             VN
@@ -25,12 +24,12 @@ export function SiteHeader() {
           </div>
         </Link>
 
-        {/* Right: Navigation, Language Switcher, and Auth CTAs */}
         <div className="flex items-center gap-4 sm:gap-6">
           <nav className="hidden md:flex items-center gap-6 text-sm font-bold text-gray-600">
             <Link href="/sprints" className="hover:text-amber-600 transition-colors">Scholarship Sprints</Link>
             <Link href="/store" className="hover:text-amber-600 transition-colors">Store</Link>
             <Link href="/learn" className="hover:text-amber-600 transition-colors">Vedic Math</Link>
+            <Link href="/pricing" className="hover:text-amber-600 transition-colors">Pricing</Link>
           </nav>
 
           <LandingLanguageSelector />
