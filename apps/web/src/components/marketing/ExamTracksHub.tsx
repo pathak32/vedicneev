@@ -2,131 +2,11 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { Award, CheckCircle2, ArrowRight, Shield } from 'lucide-react';
+import { Award, CheckCircle2, ArrowRight, Shield, Play, Printer, ScanLine } from 'lucide-react';
 import { Button, Card, CardContent, CardHeader, CardTitle, CardDescription, Badge } from '@vedicneev/ui';
 
 import { useT } from '@/lib/i18n/useT';
-import type { DictionaryKey } from '@/lib/i18n/dictionary';
-
-type BoardType = 'jnvst' | 'aissee' | 'rms';
-type ClassType = '6' | '9';
-
-interface SectionInfo {
-  nameKey: DictionaryKey;
-  q: string;
-  marks: string;
-}
-
-interface ClassInfo {
-  eligibilityKey: DictionaryKey;
-  duration: string;
-  totalMarks: string;
-  sections: SectionInfo[];
-  link: string;
-}
-
-interface BoardInfo {
-  nameKey: DictionaryKey;
-  badgeKey: DictionaryKey;
-  descKey: DictionaryKey;
-  classes: Record<ClassType, ClassInfo>;
-}
-
-// Board configuration matrices — see dictionary.ts's "ExamTracksHub" section
-// for the translated strings each *Key here resolves to.
-const BOARD_DATA: Record<BoardType, BoardInfo> = {
-  jnvst: {
-    nameKey: 'boardJnvstName',
-    badgeKey: 'boardJnvstBadge',
-    descKey: 'boardJnvstDesc',
-    classes: {
-      '6': {
-        eligibilityKey: 'eligJnvst6',
-        duration: '120 Minutes',
-        totalMarks: '100 Marks (80 Questions)',
-        sections: [
-          { nameKey: 'secMentalAbility', q: '40 Qs', marks: '50 M' },
-          { nameKey: 'secArithmeticTest', q: '20 Qs', marks: '25 M' },
-          { nameKey: 'secLanguageTest', q: '20 Qs', marks: '25 M' },
-        ],
-        link: '/exam/jnvst-live-mock',
-      },
-      '9': {
-        eligibilityKey: 'eligJnvst9',
-        duration: '150 Minutes',
-        totalMarks: '100 Marks (100 Questions)',
-        sections: [
-          { nameKey: 'secMathematics', q: '35 Qs', marks: '35 M' },
-          { nameKey: 'secEnglish', q: '15 Qs', marks: '15 M' },
-          { nameKey: 'secScience', q: '35 Qs', marks: '35 M' },
-          { nameKey: 'secSocialScience', q: '15 Qs', marks: '15 M' },
-        ],
-        link: '/exam/live/jnvst-class-9',
-      },
-    },
-  },
-  aissee: {
-    nameKey: 'boardAisseeName',
-    badgeKey: 'boardAisseeBadge',
-    descKey: 'boardAisseeDesc',
-    classes: {
-      '6': {
-        eligibilityKey: 'eligAissee6',
-        duration: '150 Minutes',
-        totalMarks: '300 Marks (125 Questions)',
-        sections: [
-          { nameKey: 'secMathematics', q: '50 Qs', marks: '150 M' },
-          { nameKey: 'secIntelligenceReasoning', q: '25 Qs', marks: '50 M' },
-          { nameKey: 'secLanguageEnglishRegional', q: '25 Qs', marks: '50 M' },
-          { nameKey: 'secGeneralKnowledge', q: '25 Qs', marks: '50 M' },
-        ],
-        link: '/exam/live/aissee-class-6',
-      },
-      '9': {
-        eligibilityKey: 'eligAissee9',
-        duration: '180 Minutes',
-        totalMarks: '400 Marks (150 Questions)',
-        sections: [
-          { nameKey: 'secMathematics', q: '50 Qs', marks: '200 M' },
-          { nameKey: 'secIntelligence', q: '25 Qs', marks: '50 M' },
-          { nameKey: 'secEnglish', q: '25 Qs', marks: '50 M' },
-          { nameKey: 'secGeneralScience', q: '25 Qs', marks: '50 M' },
-          { nameKey: 'secSocialStudies', q: '25 Qs', marks: '50 M' },
-        ],
-        link: '/exam/live/aissee-class-9',
-      },
-    },
-  },
-  rms: {
-    nameKey: 'boardRmsName',
-    badgeKey: 'boardRmsBadge',
-    descKey: 'boardRmsDesc',
-    classes: {
-      '6': {
-        eligibilityKey: 'eligRms6',
-        duration: '150 Minutes',
-        totalMarks: '150 Marks',
-        sections: [
-          { nameKey: 'secIntelligenceTest', q: '50 Qs', marks: '50 M' },
-          { nameKey: 'secArithmetic', q: '50 Qs', marks: '50 M' },
-          { nameKey: 'secGeneralKnowledge', q: '50 Qs', marks: '50 M' },
-        ],
-        link: '/exam/live/rms-class-6',
-      },
-      '9': {
-        eligibilityKey: 'eligRms9',
-        duration: '180 Minutes',
-        totalMarks: '200 Marks',
-        sections: [
-          { nameKey: 'secEnglish', q: '50 Qs', marks: '50 M' },
-          { nameKey: 'secHindi', q: '50 Qs', marks: '50 M' },
-          { nameKey: 'secSocialScienceScience', q: '100 Qs', marks: '100 M' },
-        ],
-        link: '/exam/live/rms-class-9',
-      },
-    },
-  },
-};
+import { BOARD_DATA, type BoardType, type ClassType } from '@/lib/marketing/examBoards';
 
 export function ExamTracksHub() {
   const t = useT();
@@ -234,6 +114,13 @@ export function ExamTracksHub() {
                       </li>
                     ))}
                   </ul>
+                  <Link
+                    href={`/exam-boards/${selectedBoard}`}
+                    className="mt-3 inline-flex items-center gap-1 text-xs font-bold text-amber-700 hover:underline"
+                  >
+                    {t('viewFullBoardDetails')}
+                    <ArrowRight className="w-3 h-3" />
+                  </Link>
                 </div>
 
                 <div className="flex flex-col justify-between space-y-6 bg-amber-50/40 p-6 rounded-2xl border border-amber-200/60">
@@ -247,12 +134,31 @@ export function ExamTracksHub() {
                     <p className="text-xs text-gray-600 leading-relaxed">{t('eligibilityBlueprintNote')}</p>
                   </div>
 
-                  <Button asChild size="lg" className="w-full bg-amber-600 hover:bg-amber-700 text-white font-extrabold shadow-md gap-2 rounded-xl py-3">
-                    <Link href={currentClassInfo.link}>
-                      {t('launchClassMockSimulation').replace('{class}', selectedClass)}
-                      <ArrowRight className="w-4 h-4" />
-                    </Link>
-                  </Button>
+                  {/* Practice engine actions — moved here from the homepage's
+                      standalone quick-start card so they carry the selected
+                      board/class context instead of sitting context-free. */}
+                  <div className="grid grid-cols-1 gap-2">
+                    <Button asChild size="lg" className="w-full bg-amber-600 hover:bg-amber-700 text-white font-extrabold shadow-md gap-2 rounded-xl py-3">
+                      <Link href={currentClassInfo.link}>
+                        <Play className="w-4 h-4" />
+                        {t('startMockTestLabel')}
+                      </Link>
+                    </Button>
+                    <div className="grid grid-cols-2 gap-2">
+                      <Button asChild variant="outline" size="sm" className="gap-1.5 rounded-xl">
+                        <Link href="/exam/demo-jnvst/omr/print">
+                          <Printer className="w-3.5 h-3.5" />
+                          {t('printOmrLabel')}
+                        </Link>
+                      </Button>
+                      <Button asChild variant="outline" size="sm" className="gap-1.5 rounded-xl">
+                        <Link href="/exam/demo-jnvst/omr/scan">
+                          <ScanLine className="w-3.5 h-3.5" />
+                          {t('scanOmrLabel')}
+                        </Link>
+                      </Button>
+                    </div>
+                  </div>
                 </div>
               </div>
             </CardContent>

@@ -1,25 +1,14 @@
 "use client";
 
 import Link from "next/link";
-import { Award, ClipboardList, Printer, ScanLine, Sparkles } from "lucide-react";
+import { Award, ClipboardList, Headphones, ArrowRight } from "lucide-react";
 
-import { formatDuration } from "@vedicneev/engine";
-import {
-  Badge,
-  Button,
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@vedicneev/ui";
+import { Badge, Card, CardContent, CardHeader, CardTitle } from "@vedicneev/ui";
 
 import { ExamTracksHub } from "@/components/marketing/ExamTracksHub";
 import { FeatureGrid } from "@/components/marketing/FeatureGrid";
 import { FinalCta } from "@/components/marketing/FinalCta";
 import { HeroSection } from "@/components/marketing/HeroSection";
-import { JnvstLiveMockPromo } from "@/components/marketing/JnvstLiveMockPromo";
-import { PodcastAudioPlayer } from "@/components/marketing/PodcastAudioPlayer";
 import { PricingTeaser } from "@/components/marketing/PricingTeaser";
 import { Reveal } from "@/components/marketing/Reveal";
 import { TestimonialCarousel } from "@/components/marketing/TestimonialCarousel";
@@ -28,7 +17,6 @@ import { useActiveStudent } from "@/lib/auth/ActiveStudentContext";
 import { selectStudentTestHistory, useAuthStore } from "@/lib/auth/useAuthStore";
 
 export default function HomePage() {
-  const sampleTimeLimit = formatDuration(45 * 60);
   const { hasHydrated, activeStudent } = useActiveStudent();
   const history = useAuthStore((s) =>
     activeStudent ? selectStudentTestHistory(s, activeStudent.id) : []
@@ -39,45 +27,27 @@ export default function HomePage() {
       <HeroSection />
 
       <section className="flex flex-col items-center gap-8 px-4 pb-20 pt-12 text-center md:px-8">
-        <Reveal delayMs={60} className="flex w-full justify-center">
-          <JnvstLiveMockPromo />
-        </Reveal>
-
-        <Reveal delayMs={120} className="w-full max-w-md">
-          <Card className="w-full text-left shadow-sm">
-            <CardHeader>
-              <CardTitle className="flex items-center gap-2">
-                <Sparkles className="h-5 w-5 text-primary" />
-                Vedic Neev
-              </CardTitle>
-              <CardDescription>
-                {hasHydrated && activeStudent
-                  ? `Ready for ${activeStudent.fullName} · ${activeStudent.targetExam}, Class ${activeStudent.targetClass}`
-                  : `Practice engine ready — sample section time limit: ${sampleTimeLimit}`}
-              </CardDescription>
-            </CardHeader>
-            <CardContent className="flex flex-col gap-2">
-              <Button asChild size="lg">
-                <Link href="/exam/demo-jnvst">Start a mock test</Link>
-              </Button>
-              <Button asChild variant="outline">
-                <Link href="/exam/demo-jnvst/omr/print">
-                  <Printer className="h-4 w-4" />
-                  Print OMR sheet
-                </Link>
-              </Button>
-              <Button asChild variant="outline">
-                <Link href="/exam/demo-jnvst/omr/scan">
-                  <ScanLine className="h-4 w-4" />
-                  Scan a filled OMR sheet
-                </Link>
-              </Button>
-            </CardContent>
-          </Card>
+        {/* Compact podcast trigger — the full player now lives on its own
+            hub page (/podcasts) instead of embedding audio directly into
+            the homepage's main content flow. */}
+        <Reveal delayMs={60} className="w-full max-w-md">
+          <Link
+            href="/podcasts"
+            className="flex items-center gap-3 rounded-2xl border border-border bg-muted/40 p-4 text-left transition-colors hover:bg-accent"
+          >
+            <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-primary/10 text-primary">
+              <Headphones className="h-5 w-5" />
+            </span>
+            <span className="flex-1">
+              <span className="block text-sm font-semibold text-foreground">Listen: The Great Debate</span>
+              <span className="block text-xs text-muted-foreground">Mock Tests vs. Mistake Analysis — Podcast Hub</span>
+            </span>
+            <ArrowRight className="h-4 w-4 shrink-0 text-muted-foreground" />
+          </Link>
         </Reveal>
 
         {hasHydrated && activeStudent ? (
-          <Reveal delayMs={200} className="w-full max-w-md">
+          <Reveal delayMs={120} className="w-full max-w-md">
             <Card className="w-full text-left">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2 text-base">
@@ -116,12 +86,8 @@ export default function HomePage() {
           </Reveal>
         ) : null}
 
-        <Reveal delayMs={280}>
+        <Reveal delayMs={200}>
           <TrustBadges />
-        </Reveal>
-
-        <Reveal delayMs={320} className="w-full max-w-4xl">
-          <PodcastAudioPlayer />
         </Reveal>
       </section>
 

@@ -66,14 +66,11 @@ export function SiteFooter() {
 
         </div>
 
-        {/* Bottom Bar */}
-        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-500">
+        {/* Bottom bar — copyright only. Privacy/Terms/Support already live
+            in the Legal & Compliance column above; repeating them here read
+            as duplicate footer text. */}
+        <div className="pt-8 text-center text-xs text-gray-500 sm:text-left">
           <p>© {new Date().getFullYear()} VedicNeev EdTech Private Limited. All rights reserved.</p>
-          <div className="flex items-center gap-6">
-            <Link href="/privacy" className="hover:text-gray-400">{t("footerPrivacyShort")}</Link>
-            <Link href="/terms" className="hover:text-gray-400">{t("footerTermsShort")}</Link>
-            <Link href="/faq" className="hover:text-gray-400">{t("footerSupport")}</Link>
-          </div>
         </div>
       </div>
     </footer>

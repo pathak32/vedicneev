@@ -3,18 +3,26 @@
 import { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { Button } from "@vedicneev/ui";
-import { Award, ChevronDown, Globe, Sparkles } from "lucide-react";
+import {
+  Button,
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuTrigger,
+} from "@vedicneev/ui";
+import { ChevronDown, GraduationCap, Globe, Sparkles } from "lucide-react";
 
 import { useActiveStudent } from "@/lib/auth/ActiveStudentContext";
 import { selectActiveAccount, useAuthStore } from "@/lib/auth/useAuthStore";
 import { SUPPORTED_LANGUAGES, useLanguageStore } from "@/lib/hooks/useLanguageStore";
 import { useT } from "@/lib/i18n/useT";
+import { BOARD_DATA, type BoardType } from "@/lib/marketing/examBoards";
 import { ExamDropdown } from "./ExamDropdown";
 import { PhoneAuthModal } from "./PhoneAuthModal";
 import { StudentSwitcherDropdown } from "./StudentSwitcherDropdown";
 
-/** Compact hover-reveal language picker, left of the nav links — writes to the same store the hero section and exam runner read. */
+/** Compact hover-reveal language picker — writes to the same store the hero section and exam runner read. */
 function LanguageSwitcher() {
   const languageCode = useLanguageStore((s) => s.languageCode);
   const setLanguage = useLanguageStore((s) => s.setLanguage);
@@ -49,33 +57,27 @@ function LanguageSwitcher() {
   );
 }
 
-/** Floating full-form reminder for the three exam boards this platform covers — only shown once there's room (xl+). */
-function ExamBoardPills() {
+/** Single "Active Exam Boards" dropdown replacing the three unclickable board pills — each item routes to that board's dedicated pattern/eligibility/marking-scheme page. */
+function ExamBoardsMenu() {
   const t = useT();
   return (
-    <div className="hidden items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-4 py-1.5 xl:flex">
-      <span className="flex items-center gap-1 text-[11px] font-extrabold text-primary">
-        <Award className="h-3.5 w-3.5" /> {t("navActiveBoards")}
-      </span>
-      <span
-        className="rounded-md border border-primary/10 bg-background px-2 py-0.5 text-[11px] font-bold text-foreground shadow-sm"
-        title="Jawahar Navodaya Vidyalaya Selection Test"
-      >
-        JNVST (Navodaya)
-      </span>
-      <span
-        className="rounded-md border border-primary/10 bg-background px-2 py-0.5 text-[11px] font-bold text-foreground shadow-sm"
-        title="All India Sainik School Entrance Examination"
-      >
-        AISSEE (Sainik)
-      </span>
-      <span
-        className="rounded-md border border-primary/10 bg-background px-2 py-0.5 text-[11px] font-bold text-foreground shadow-sm"
-        title="Rashtriya Military Schools"
-      >
-        RMS (Military)
-      </span>
-    </div>
+    <DropdownMenu>
+      <DropdownMenuTrigger asChild>
+        <Button type="button" variant="outline" size="sm" className="gap-1.5">
+          <GraduationCap className="h-3.5 w-3.5" />
+          {t("navActiveExamBoards")}
+          <ChevronDown className="h-3.5 w-3.5 text-muted-foreground" />
+        </Button>
+      </DropdownMenuTrigger>
+      <DropdownMenuContent align="start" className="w-56">
+        <DropdownMenuLabel>{t("navActiveExamBoards")}</DropdownMenuLabel>
+        {(Object.keys(BOARD_DATA) as BoardType[]).map((boardKey) => (
+          <DropdownMenuItem key={boardKey} asChild>
+            <Link href={`/exam-boards/${boardKey}`}>{t(BOARD_DATA[boardKey].nameKey)}</Link>
+          </DropdownMenuItem>
+        ))}
+      </DropdownMenuContent>
+    </DropdownMenu>
   );
 }
 
@@ -86,55 +88,47 @@ export function SiteHeader() {
   const t = useT();
 
   return (
-    <header className="sticky top-0 z-40 flex items-center justify-between gap-4 border-b border-border bg-background/95 px-4 py-3 backdrop-blur md:px-8">
-      <div className="flex items-center gap-6">
-        <nav className="hidden items-center gap-5 text-sm text-muted-foreground md:flex">
-          <Link href="/learn" className="hover:text-foreground">
-            {t("navLearn")}
+    <header className="sticky top-0 z-40 flex items-center justify-between gap-4 border-b border-border bg-background/95 px-4 py-2.5 backdrop-blur md:px-8">
+      <Link href="/" className="flex shrink-0 items-center gap-2 font-bold text-foreground">
+        <Sparkles className="h-5 w-5 text-primary" />
+        Vedic Neev
+      </Link>
+
+      <nav className="hidden items-center gap-5 text-sm font-medium text-muted-foreground md:flex">
+        <Link href="/sprints" className="hover:text-foreground">
+          {t("navScholarshipSprints")}
+        </Link>
+        <Link href="/store" className="hover:text-foreground">
+          {t("navStore")}
+        </Link>
+        <Link href="/exam/jnvst-live-mock" className="hover:text-foreground">
+          {t("navMockSeries")}
+        </Link>
+        <Link href="/practice" className="hover:text-foreground">
+          {t("navFreePractice")}
+        </Link>
+        {isAuthenticated ? (
+          <Link href="/dashboard" className="hover:text-foreground">
+            {t("navDashboard")}
           </Link>
-          <Link href="/blog" className="hover:text-foreground">
-            {t("navBlog")}
+        ) : null}
+        {isAuthenticated ? <ExamDropdown /> : null}
+        {isAuthenticated ? (
+          <Link href="/parent" className="hover:text-foreground">
+            {t("navParent")}
           </Link>
-          <Link href="/pricing" className="hover:text-foreground">
-            {t("navPricing")}
-          </Link>
-          {isAuthenticated ? (
-            <Link href="/dashboard" className="hover:text-foreground">
-              {t("navDashboard")}
-            </Link>
-          ) : null}
-          {isAuthenticated ? <ExamDropdown /> : null}
-          {isAuthenticated ? (
-            <Link href="/practice" className="hover:text-foreground">
-              {t("navPractice")}
-            </Link>
-          ) : null}
-          {isAuthenticated ? (
-            <Link href="/parent" className="hover:text-foreground">
-              {t("navParent")}
-            </Link>
-          ) : null}
-        </nav>
+        ) : null}
+      </nav>
+
+      <div className="flex items-center gap-2.5">
         <LanguageSwitcher />
-      </div>
-
-      <ExamBoardPills />
-
-      <div className="flex items-center gap-4">
-        <div className="hidden items-center gap-3 lg:flex">
-          <Link href="/sprints" className="text-xs font-bold text-muted-foreground hover:text-foreground">
-            {t("navMockSeries")}
-          </Link>
-          <Link href="/practice" className="text-xs font-bold text-muted-foreground hover:text-foreground">
-            {t("navFreePractice")}
-          </Link>
-          <Link
-            href="/sprints"
-            className="flex items-center gap-1 rounded-xl border border-primary/20 bg-primary/5 px-3 py-1.5 text-xs font-extrabold text-primary hover:bg-primary/10"
-          >
-            <Sparkles className="h-3.5 w-3.5" /> {t("navWeeklyScholarship")}
-          </Link>
-        </div>
+        <ExamBoardsMenu />
+        <Link
+          href="/sprints"
+          className="hidden items-center gap-1 rounded-xl border border-primary/20 bg-primary/5 px-3 py-1.5 text-xs font-extrabold text-primary hover:bg-primary/10 lg:flex"
+        >
+          <Sparkles className="h-3.5 w-3.5" /> {t("navWeeklyScholarship")}
+        </Link>
 
         {hasHydrated ? (
           isAuthenticated ? (
@@ -145,11 +139,6 @@ export function SiteHeader() {
             </Button>
           )
         ) : null}
-
-        <Link href="/" className="flex items-center gap-2 font-bold text-foreground">
-          <Sparkles className="h-5 w-5 text-primary" />
-          Vedic Neev
-        </Link>
       </div>
 
       <PhoneAuthModal
