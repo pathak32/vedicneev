@@ -6,10 +6,12 @@ import { ChevronLeft, ChevronRight, Quote } from "lucide-react";
 
 import { Reveal } from "@/components/marketing/Reveal";
 import { SAMPLE_TESTIMONIALS } from "@/lib/marketing/testimonials";
+import { useT } from "@/lib/i18n/useT";
 
 const AUTO_ADVANCE_MS = 6000;
 
 export function TestimonialCarousel() {
+  const t = useT();
   const [index, setIndex] = useState(0);
   const [paused, setPaused] = useState(false);
   const count = SAMPLE_TESTIMONIALS.length;
@@ -29,7 +31,7 @@ export function TestimonialCarousel() {
   return (
     <section className="mx-auto w-full max-w-3xl px-4 py-16 md:px-8">
       <Reveal className="mb-10 text-center">
-        <h2 className="text-2xl font-bold text-foreground md:text-3xl">What families are saying</h2>
+        <h2 className="text-2xl font-bold text-foreground md:text-3xl">{t("testimonialsHeading")}</h2>
       </Reveal>
 
       <Reveal className="relative">
