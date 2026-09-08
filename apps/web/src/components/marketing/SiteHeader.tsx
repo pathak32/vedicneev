@@ -1,11 +1,12 @@
 'use client';
 
-import React from 'react';
+import React, { useState } from 'react';
 import Link from 'next/link';
-import { Button } from '@vedicneev/ui';
-import { LandingLanguageSelector } from './LandingLanguageSelector';
+import { Globe } from 'lucide-react';
 
 export function SiteHeader() {
+  const [lang, setLang] = useState<'gu' | 'en'>('gu');
+
   return (
     <header className="sticky top-0 z-50 w-full border-b border-gray-100 bg-white shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
@@ -32,11 +33,17 @@ export function SiteHeader() {
             <Link href="/pricing" className="hover:text-amber-600 transition-colors">Pricing</Link>
           </nav>
 
-          <LandingLanguageSelector />
+          <button 
+            onClick={() => setLang(prev => prev === 'gu' ? 'en' : 'gu')}
+            className="flex items-center gap-2 border border-gray-200 rounded-xl px-3 py-1.5 bg-gray-50 hover:bg-amber-50 hover:border-amber-300 text-xs font-bold text-gray-700 transition-all cursor-pointer"
+          >
+            <Globe className="w-3.5 h-3.5 text-amber-600" />
+            <span>{lang === 'gu' ? 'ગુજરાતી / English' : 'English / ગુજરાતી'}</span>
+          </button>
 
-          <Button asChild size="sm" className="bg-amber-600 hover:bg-amber-700 text-white font-extrabold rounded-xl shadow-sm px-4">
-            <Link href="/exam/jnvst-live-mock">Start Free Mock</Link>
-          </Button>
+          <Link href="/exam/jnvst-live-mock" className="bg-amber-600 hover:bg-amber-700 text-white font-extrabold text-sm rounded-xl shadow-sm px-4 py-2.5 transition-all">
+            Start Free Mock
+          </Link>
         </div>
 
       </div>
