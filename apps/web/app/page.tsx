@@ -1,105 +1,73 @@
-"use client";
-
-import Link from "next/link";
-import { Award, ClipboardList, Headphones, ArrowRight } from "lucide-react";
-
-import { Badge, Card, CardContent, CardHeader, CardTitle } from "@vedicneev/ui";
-
-import { ExamTracksHub } from "@/components/marketing/ExamTracksHub";
-import { FeatureGrid } from "@/components/marketing/FeatureGrid";
-import { FinalCta } from "@/components/marketing/FinalCta";
-import { HeroSection } from "@/components/marketing/HeroSection";
-import { PricingTeaser } from "@/components/marketing/PricingTeaser";
-import { Reveal } from "@/components/marketing/Reveal";
-import { TestimonialCarousel } from "@/components/marketing/TestimonialCarousel";
-import { TrustBadges } from "@/components/marketing/TrustBadges";
-import { useActiveStudent } from "@/lib/auth/ActiveStudentContext";
-import { selectStudentTestHistory, useAuthStore } from "@/lib/auth/useAuthStore";
+import { SiteHeader } from '@/components/layout/SiteHeader';
+import { SiteFooter } from '@/components/layout/SiteFooter';
+import { ExamTracksHub } from '@/components/marketing/ExamTracksHub';
+import { FeatureGrid } from '@/components/marketing/FeatureGrid';
+import { Testimonials } from '@/components/marketing/Testimonials';
+import { PricingTeaser } from '@/components/marketing/PricingTeaser';
+import { FinalCTA } from '@/components/marketing/FinalCTA';
+import { SpeedChallengeWidget } from '@/components/marketing/SpeedChallengeWidget';
+import Link from 'next/link';
 
 export default function HomePage() {
-  const { hasHydrated, activeStudent } = useActiveStudent();
-  const history = useAuthStore((s) =>
-    activeStudent ? selectStudentTestHistory(s, activeStudent.id) : []
-  );
-
   return (
-    <main className="flex flex-col">
-      <HeroSection />
+    <div className="min-h-screen bg-gray-950 text-white flex flex-col selection:bg-amber-500 selection:text-black">
+      <SiteHeader />
+      
+      {/* Hero Section */}
+      <section className="relative pt-24 pb-16 px-4 sm:px-6 lg:px-8 overflow-hidden bg-gradient-to-b from-gray-900 via-gray-950 to-gray-950 border-b border-gray-800/60">
+        <div className="max-w-5xl mx-auto text-center space-y-8">
+          
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-amber-500/10 text-amber-400 text-xs font-bold uppercase tracking-wider border border-amber-500/20">
+            ★ Institutional-Grade Entrance Preparation
+          </div>
 
-      <section className="flex flex-col items-center gap-8 px-4 pb-20 pt-12 text-center md:px-8">
-        {/* Compact podcast trigger — the full player now lives on its own
-            hub page (/podcasts) instead of embedding audio directly into
-            the homepage's main content flow. */}
-        <Reveal delayMs={60} className="w-full max-w-md">
-          <Link
-            href="/podcasts"
-            className="flex items-center gap-3 rounded-2xl border border-border bg-muted/40 p-4 text-left transition-colors hover:bg-accent"
-          >
-            <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-primary/10 text-primary">
-              <Headphones className="h-5 w-5" />
-            </span>
-            <span className="flex-1">
-              <span className="block text-sm font-semibold text-foreground">Listen: The Great Debate</span>
-              <span className="block text-xs text-muted-foreground">Mock Tests vs. Mistake Analysis — Podcast Hub</span>
-            </span>
-            <ArrowRight className="h-4 w-4 shrink-0 text-muted-foreground" />
-          </Link>
-        </Reveal>
+          <h1 className="text-4xl sm:text-6xl font-black tracking-tight leading-tight max-w-4xl mx-auto">
+            Master Government Boarding School Entrances
+          </h1>
+          
+          <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto font-medium">
+            India's premier gamified entrance program featuring <span className="text-amber-400 font-bold">Vedic Math sutras</span>, smart diagnostic tracking, and real OMR-aligned exam simulations.
+          </p>
 
-        {hasHydrated && activeStudent ? (
-          <Reveal delayMs={120} className="w-full max-w-md">
-            <Card className="w-full text-left">
-              <CardHeader>
-                <CardTitle className="flex items-center gap-2 text-base">
-                  <ClipboardList className="h-4 w-4 text-primary" />
-                  {activeStudent.fullName}&apos;s Test History
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                {history.length === 0 ? (
-                  <p className="text-sm text-muted-foreground">No attempts yet — take the mock test above.</p>
-                ) : (
-                  <ul className="flex flex-col gap-2">
-                    {[...history]
-                      .sort((a, b) => b.submittedAt - a.submittedAt)
-                      .map((entry) => (
-                        <li
-                          key={entry.id}
-                          className="flex items-center justify-between rounded-lg border border-border p-3 text-sm"
-                        >
-                          <div>
-                            <p className="font-medium text-foreground">{entry.examName}</p>
-                            <p className="text-xs text-muted-foreground">
-                              {new Date(entry.submittedAt).toLocaleString()}
-                            </p>
-                          </div>
-                          <Badge variant="secondary" className="flex items-center gap-1">
-                            <Award className="h-3 w-3" />
-                            {entry.totalMarks}/{entry.maxMarks}
-                          </Badge>
-                        </li>
-                      ))}
-                  </ul>
-                )}
-              </CardContent>
-            </Card>
-          </Reveal>
-        ) : null}
+          <div className="flex flex-wrap items-center justify-center gap-4 pt-2">
+            <Link
+              href="/exam/jnvst-live-mock"
+              className="bg-amber-600 hover:bg-amber-500 text-white font-bold px-8 py-4 rounded-2xl shadow-lg transition-all text-base"
+            >
+              Start Free Mock Test
+            </Link>
+            <Link
+              href="/exam-strategy"
+              className="bg-gray-800 hover:bg-gray-700 text-gray-200 font-bold px-8 py-4 rounded-2xl border border-gray-700 transition-all text-base"
+            >
+              Read Exam Strategy
+            </Link>
+          </div>
 
-        <Reveal delayMs={200}>
-          <TrustBadges />
-        </Reveal>
+          {/* Speed Challenge Widget Embedded in Hero */}
+          <div className="pt-8">
+            <SpeedChallengeWidget />
+          </div>
+
+        </div>
       </section>
 
+      {/* Exam Tracks Hub */}
       <ExamTracksHub />
 
-      <div className="divide-y divide-border">
-        <FeatureGrid />
-        <TestimonialCarousel />
-        <PricingTeaser />
-      </div>
+      {/* Feature Grid */}
+      <FeatureGrid />
 
-      <FinalCta />
-    </main>
+      {/* Testimonials */}
+      <Testimonials />
+
+      {/* Pricing Teaser */}
+      <PricingTeaser />
+
+      {/* Final CTA */}
+      <FinalCTA />
+
+      <SiteFooter />
+    </div>
   );
 }
