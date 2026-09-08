@@ -63,7 +63,7 @@ export function PodcastAudioPlayer() {
 
         <audio
           ref={audioRef}
-          src="/audio/पचास_मॉक_टेस्ट_या_सटीक_मिस्टेक_एनालिसिस.m4a"
+          src="/audio/great-debate-mock-tests-vs-mistake-analysis.m4a"
           onTimeUpdate={handleTimeUpdate}
           onEnded={() => setIsPlaying(false)}
         />

@@ -1,41 +1,47 @@
-'use client';
-import React from 'react';
-import { SiteHeader } from '@/components/marketing/SiteHeader';
-import { SiteFooter } from '@/components/marketing/SiteFooter';
-import { Button } from '@vedicneev/ui';
-import { Trophy, ArrowRight, Sparkles } from 'lucide-react';
-import Link from 'next/link';
+import { prisma } from "@vedicneev/db";
 
-export default function SprintsPage() {
+import { localize } from "@/lib/exam/localize";
+import type { Multilingual } from "@/lib/exam/types";
+import { SprintCatalogClient } from "@/components/sprints/SprintCatalogClient";
+import type { SprintListItem } from "@/lib/sprints/types";
+
+export const dynamic = "force-dynamic";
+
+/**
+ * Public discovery page for National Sprints — free, time-synchronized
+ * weekly scholarship tests. No sign-in required to browse or register
+ * (see SprintRegisterDialog); a signed-in parent's active student just
+ * pre-fills the form.
+ */
+export default async function SprintsPage() {
+  const sprints = await prisma.nationalSprint.findMany({
+    where: { isActive: true },
+    include: { examTemplate: { select: { slug: true } } },
+    orderBy: { startTime: "asc" },
+    take: 20,
+  });
+
+  const items: SprintListItem[] = sprints.map((sprint) => ({
+    id: sprint.id,
+    title: localize(sprint.title as Multilingual, "en"),
+    examType: sprint.examType,
+    classLevel: sprint.classLevel,
+    templateSlug: sprint.examTemplate.slug,
+    startTime: sprint.startTime.toISOString(),
+    endTime: sprint.endTime.toISOString(),
+  }));
+
   return (
-    <div className="min-h-screen bg-white flex flex-col font-sans">
-      <SiteHeader />
-      <main className="flex-1 max-w-7xl mx-auto px-4 py-12 w-full space-y-8">
-        <div className="text-center space-y-4 max-w-3xl mx-auto">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 text-amber-600 text-xs font-bold uppercase tracking-wider">
-            <Sparkles className="w-3.5 h-3.5" /> National Competitive Sprints
-          </div>
-          <h1 className="text-4xl font-black text-gray-900 tracking-tight">Scholarship Sprints & Live Tracks</h1>
-          <p className="text-gray-600 font-medium">Intensive timed modules engineered for JNVST, AISSEE, and RMS aspirants.</p>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-6">
-          {['JNVST Class 6 Elite Sprint', 'AISSEE Sainik School Sprint', 'RMS Military Foundation Sprint'].map((title, idx) => (
-            <div key={idx} className="border border-gray-200 rounded-2xl p-6 bg-gray-50 flex flex-col justify-between shadow-sm hover:border-amber-500 transition-all">
-              <div className="space-y-3">
-                <div className="w-10 h-10 rounded-xl bg-amber-600 text-white flex items-center justify-center font-bold">
-                  <Trophy className="w-5 h-5" />
-                </div>
-                <h3 className="text-lg font-bold text-gray-900">{title}</h3>
-                <p className="text-xs text-gray-600">Complete 80-question pattern evaluation with Vedic math shortcut integration.</p>
-              </div>
-              <Button asChild className="mt-6 bg-amber-600 hover:bg-amber-700 text-white font-bold rounded-xl">
-                <Link href="/exam/jnvst-live-mock">Launch Sprint <ArrowRight className="w-4 h-4 ml-2" /></Link>
-              </Button>
-            </div>
-          ))}
-        </div>
-      </main>
-      <SiteFooter />
+    <div className="mx-auto max-w-4xl px-4 py-12">
+      <h1 className="text-2xl font-bold text-foreground">National Scholarship Sprints</h1>
+      <p className="mt-1 text-sm text-muted-foreground">
+        Free, weekly, synchronized mock tests for JNVST, AISSEE, and RMS — everyone answers the same paper in the
+        same live window, then climbs an All-India and state-wise leaderboard.
+      </p>
+
+      <div className="mt-8">
+        <SprintCatalogClient sprints={items} />
+      </div>
     </div>
   );
 }

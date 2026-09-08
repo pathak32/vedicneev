@@ -9,6 +9,7 @@ import { Award, ChevronDown, Globe, Sparkles } from "lucide-react";
 import { useActiveStudent } from "@/lib/auth/ActiveStudentContext";
 import { selectActiveAccount, useAuthStore } from "@/lib/auth/useAuthStore";
 import { SUPPORTED_LANGUAGES, useLanguageStore } from "@/lib/hooks/useLanguageStore";
+import { useT } from "@/lib/i18n/useT";
 import { ExamDropdown } from "./ExamDropdown";
 import { PhoneAuthModal } from "./PhoneAuthModal";
 import { StudentSwitcherDropdown } from "./StudentSwitcherDropdown";
@@ -50,10 +51,11 @@ function LanguageSwitcher() {
 
 /** Floating full-form reminder for the three exam boards this platform covers — only shown once there's room (xl+). */
 function ExamBoardPills() {
+  const t = useT();
   return (
     <div className="hidden items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-4 py-1.5 xl:flex">
       <span className="flex items-center gap-1 text-[11px] font-extrabold text-primary">
-        <Award className="h-3.5 w-3.5" /> Active Boards:
+        <Award className="h-3.5 w-3.5" /> {t("navActiveBoards")}
       </span>
       <span
         className="rounded-md border border-primary/10 bg-background px-2 py-0.5 text-[11px] font-bold text-foreground shadow-sm"
@@ -81,34 +83,35 @@ export function SiteHeader() {
   const router = useRouter();
   const { hasHydrated, isAuthenticated } = useActiveStudent();
   const [authOpen, setAuthOpen] = useState(false);
+  const t = useT();
 
   return (
     <header className="sticky top-0 z-40 flex items-center justify-between gap-4 border-b border-border bg-background/95 px-4 py-3 backdrop-blur md:px-8">
       <div className="flex items-center gap-6">
         <nav className="hidden items-center gap-5 text-sm text-muted-foreground md:flex">
           <Link href="/learn" className="hover:text-foreground">
-            Learn
+            {t("navLearn")}
           </Link>
           <Link href="/blog" className="hover:text-foreground">
-            Blog
+            {t("navBlog")}
           </Link>
           <Link href="/pricing" className="hover:text-foreground">
-            Pricing
+            {t("navPricing")}
           </Link>
           {isAuthenticated ? (
             <Link href="/dashboard" className="hover:text-foreground">
-              Dashboard
+              {t("navDashboard")}
             </Link>
           ) : null}
           {isAuthenticated ? <ExamDropdown /> : null}
           {isAuthenticated ? (
             <Link href="/practice" className="hover:text-foreground">
-              Practice
+              {t("navPractice")}
             </Link>
           ) : null}
           {isAuthenticated ? (
             <Link href="/parent" className="hover:text-foreground">
-              Parent Command Center
+              {t("navParent")}
             </Link>
           ) : null}
         </nav>
@@ -120,16 +123,16 @@ export function SiteHeader() {
       <div className="flex items-center gap-4">
         <div className="hidden items-center gap-3 lg:flex">
           <Link href="/sprints" className="text-xs font-bold text-muted-foreground hover:text-foreground">
-            Mock Exam Series
+            {t("navMockSeries")}
           </Link>
           <Link href="/practice" className="text-xs font-bold text-muted-foreground hover:text-foreground">
-            Free Practice
+            {t("navFreePractice")}
           </Link>
           <Link
             href="/sprints"
             className="flex items-center gap-1 rounded-xl border border-primary/20 bg-primary/5 px-3 py-1.5 text-xs font-extrabold text-primary hover:bg-primary/10"
           >
-            <Sparkles className="h-3.5 w-3.5" /> Weekly Scholarship
+            <Sparkles className="h-3.5 w-3.5" /> {t("navWeeklyScholarship")}
           </Link>
         </div>
 
@@ -138,7 +141,7 @@ export function SiteHeader() {
             <StudentSwitcherDropdown />
           ) : (
             <Button type="button" onClick={() => setAuthOpen(true)}>
-              Sign In
+              {t("navSignIn")}
             </Button>
           )
         ) : null}

@@ -1,53 +1,91 @@
-'use client';
-import React from 'react';
-import Link from 'next/link';
-import { SiteHeader } from '@/components/marketing/SiteHeader';
-import { SiteFooter } from '@/components/marketing/SiteFooter';
-import { CheckCircle2, Clock, Award, ArrowLeft } from 'lucide-react';
+"use client";
 
-export default function JnvstMockPage() {
-  return (
-    <div className="min-h-screen bg-white flex flex-col font-sans">
-      <SiteHeader />
-      <main className="flex-1 max-w-4xl mx-auto px-4 py-12 w-full space-y-6">
-        <Link href="/" className="inline-flex items-center text-xs font-bold text-amber-600 hover:underline mb-2">
-          <ArrowLeft className="w-4 h-4 mr-1" /> Back to Home
-        </Link>
-        <div className="bg-gradient-to-r from-amber-600 to-amber-700 text-white p-8 rounded-3xl shadow-lg flex flex-col sm:flex-row justify-between items-center gap-6">
-          <div className="space-y-2 text-center sm:text-left">
-            <span className="bg-white/20 px-3 py-1 rounded-full text-xs font-bold uppercase">JNVST Class 6 Simulation</span>
-            <h1 className="text-3xl font-black">Official NTA / Navodaya Blueprint</h1>
-            <p className="text-amber-100 text-sm">80 Questions • 100 Marks • 120 Minutes Strict Timing</p>
-          </div>
-          <button className="bg-white text-amber-900 hover:bg-amber-50 font-extrabold rounded-xl px-8 py-3 shadow transition-all cursor-pointer">
-            Start Live Test Now
-          </button>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-4">
-          <div className="p-5 border rounded-2xl bg-gray-50 flex items-center gap-4">
-            <Clock className="w-8 h-8 text-amber-600 flex-shrink-0" />
-            <div>
-              <h4 className="font-bold text-gray-900 text-sm">Timed Engine</h4>
-              <p className="text-xs text-gray-600">Auto-submits upon completion.</p>
-            </div>
-          </div>
-          <div className="p-5 border rounded-2xl bg-gray-50 flex items-center gap-4">
-            <CheckCircle2 className="w-8 h-8 text-amber-600 flex-shrink-0" />
-            <div>
-              <h4 className="font-bold text-gray-900 text-sm">Instant Analytics</h4>
-              <p className="text-xs text-gray-600">Detailed percentile breakdown.</p>
-            </div>
-          </div>
-          <div className="p-5 border rounded-2xl bg-gray-50 flex items-center gap-4">
-            <Award className="w-8 h-8 text-amber-600 flex-shrink-0" />
-            <div>
-              <h4 className="font-bold text-gray-900 text-sm">All-India Rank</h4>
-              <p className="text-xs text-gray-600">Compare with peers nationally.</p>
-            </div>
-          </div>
-        </div>
-      </main>
-      <SiteFooter />
-    </div>
-  );
+import { useEffect, useState } from "react";
+import Link from "next/link";
+import { Button } from "@vedicneev/ui";
+
+import { ExamPlayer } from "@/components/exam/ExamPlayer";
+import type { ExamSessionData } from "@/lib/exam/types";
+import { useTestStore } from "@/lib/stores/useTestStore";
+
+// This route calls the generate-mock API on mount and is entirely
+// session-specific once loaded — same noindex reasoning as the rest of
+// /exam/* (see app/exam/[examId]/layout.tsx), just declared directly here
+// since this route is a static sibling of [examId], not a child of it.
+export const dynamic = "force-dynamic";
+
+type LoadState =
+  | { status: "loading" }
+  | { status: "error"; message: string }
+  | { status: "ready"; session: ExamSessionData; warnings: string[] };
+
+/**
+ * Instant-launch entry point for a freshly assembled JNVST mock — fetches
+ * a new paper from /api/exams/jnvst/generate-mock on mount and hands it
+ * straight to <ExamPlayer>, which owns auth/onboarding/entitlement gating
+ * and calls useTestStore.initSession itself once a student is active. No
+ * static examId lookup here (unlike /exam/[examId]), since every visit
+ * assembles a genuinely new paper rather than replaying a fixed one.
+ */
+export default function JnvstLiveMockPage() {
+  const [state, setState] = useState<LoadState>({ status: "loading" });
+
+  useEffect(() => {
+    let cancelled = false;
+
+    // Resume an in-progress attempt from useTestStore's sessionStorage on
+    // reload instead of always drawing a brand new random paper under a
+    // *different* examId — see the identical fix/comment in
+    // app/exam/live/[templateSlug]/page.tsx, which this route's pattern
+    // was generalized from (and shared this bug before this fix).
+    const restored = useTestStore.getState();
+    if (
+      restored.session &&
+      !restored.submitted &&
+      restored.session.examId.startsWith("jnvst-live-mock-")
+    ) {
+      setState({ status: "ready", session: restored.session, warnings: [] });
+      return;
+    }
+
+    fetch("/api/exams/jnvst/generate-mock", { method: "POST" })
+      .then(async (res) => {
+        const data = await res.json();
+        if (cancelled) return;
+        if (!res.ok) {
+          setState({ status: "error", message: data.error ?? "Could not assemble a mock paper." });
+          return;
+        }
+        setState({ status: "ready", session: data.session, warnings: data.warnings ?? [] });
+      })
+      .catch(() => {
+        if (!cancelled) setState({ status: "error", message: "Network error — please try again." });
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  if (state.status === "loading") {
+    return (
+      <div className="flex min-h-[60vh] flex-col items-center justify-center gap-2 p-8 text-center">
+        <p className="text-lg font-semibold text-foreground">Assembling your JNVST mock paper…</p>
+        <p className="text-sm text-muted-foreground">Drawing a fresh 80-question set from the practice bank.</p>
+      </div>
+    );
+  }
+
+  if (state.status === "error") {
+    return (
+      <div className="mx-auto flex max-w-md flex-col items-center gap-4 p-16 text-center">
+        <p className="text-lg font-semibold text-foreground">Couldn&apos;t start this mock</p>
+        <p className="text-sm text-muted-foreground">{state.message}</p>
+        <Button asChild variant="outline">
+          <Link href="/exam/demo-jnvst">Try the demo mock instead</Link>
+        </Button>
+      </div>
+    );
+  }
+
+  return <ExamPlayer session={state.session} practiceMode />;
 }
