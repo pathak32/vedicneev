@@ -144,11 +144,11 @@ enum PurchaseStatus {
 // linked ExamTemplate via the same pipeline /exam/live/[templateSlug]
 // already uses (see generateLiveMockSession in jnvstMockService.ts).
 model NationalSprint {
-  id       String   @id @default(cuid())
+  id         String   @id @default(cuid())
   // Bilingual, e.g. { "en": "JNVST Class 9 National Sprint — 12 Oct", "hi": "..." }
-  title    Json
-  examType ExamType @map("exam_type")
-  classLevel Int    @map("class_level")
+  title      Json
+  examType   ExamType @map("exam_type")
+  classLevel Int      @map("class_level")
 
   examTemplateId String       @map("exam_template_id")
   examTemplate   ExamTemplate @relation(fields: [examTemplateId], references: [id], onDelete: Restrict)
@@ -225,19 +225,19 @@ model SprintSubmission {
 // ─────────────────────────────────────────────────────────────────────────
 
 model User {
-  id                String    @id @default(cuid())
+  id                 String         @id @default(cuid())
   // Phone-first auth (OTP); email is optional/secondary.
-  phone             String    @unique
-  phoneVerifiedAt   DateTime? @map("phone_verified_at")
-  email             String?   @unique
-  name              String?
-  role              UserRole  @default(STUDENT)
-  languagePreference Language @default(EN) @map("language_preference")
-  targetExam        ExamType? @map("target_exam")
+  phone              String         @unique
+  phoneVerifiedAt    DateTime?      @map("phone_verified_at")
+  email              String?        @unique
+  name               String?
+  role               UserRole       @default(STUDENT)
+  languagePreference Language       @default(EN) @map("language_preference")
+  targetExam         ExamType?      @map("target_exam")
   // Target grade for a STUDENT profile, e.g. 5, 6, 8, 9 — null for PARENT accounts.
-  targetClass    Int?            @map("target_class")
-  locality       Locality?
-  quotaCategory  QuotaCategory?  @map("quota_category")
+  targetClass        Int?           @map("target_class")
+  locality           Locality?
+  quotaCategory      QuotaCategory? @map("quota_category")
 
   // A STUDENT account may be linked to a PARENT account that manages it.
   parentId String? @map("parent_id")
@@ -247,12 +247,13 @@ model User {
   createdAt DateTime @default(now()) @map("created_at")
   updatedAt DateTime @updatedAt @map("updated_at")
 
-  testSessions        TestSession[]
-  mistakes            MistakeVault[]
-  subscriptions       Subscription[]
-  offlineMockSessions OfflineMockSession[]
-  purchases           Purchase[]
-  sprintRegistrations SprintRegistration[]
+  testSessions           TestSession[]
+  mistakes               MistakeVault[]
+  subscriptions          Subscription[]
+  offlineMockSessions    OfflineMockSession[]
+  purchases              Purchase[]
+  sprintRegistrations    SprintRegistration[]
+  speedChallengeAttempts SpeedChallengeAttempt[]
 
   @@index([parentId])
   @@map("users")
@@ -296,8 +297,8 @@ model Subscription {
   parent   User   @relation(fields: [parentId], references: [id], onDelete: Cascade)
 
   plan       SubscriptionPlan
-  targetExam ExamType?           @map("target_exam")
-  status     SubscriptionStatus  @default(ACTIVE)
+  targetExam ExamType?          @map("target_exam")
+  status     SubscriptionStatus @default(ACTIVE)
 
   // Amount actually paid, in INR (0 for FREE_EXPLORER).
   amountPaid Float @map("amount_paid")
@@ -334,7 +335,7 @@ model Product {
 
   // Null means every exam (mirrors how targetExam already means "agnostic"
   // when null elsewhere in this schema, e.g. MediaItem.targetExams/Topic).
-  targetExam ExamType? @map("target_exam")
+  targetExam  ExamType?          @map("target_exam")
   // Null means both Class 6 and Class 9 — the equivalent "universal" value
   // for this field, since ContentClassLevel has no explicit BOTH member.
   targetClass ContentClassLevel? @map("target_class")
@@ -426,18 +427,18 @@ model Purchase {
 // ─────────────────────────────────────────────────────────────────────────
 
 model ExamTemplate {
-  id       String   @id @default(cuid())
-  examType ExamType @map("exam_type")
+  id         String   @id @default(cuid())
+  examType   ExamType @map("exam_type")
   // Grade this template applies to — JNVST/AISSEE/RMS each admit primarily
   // at Class 6, with a smaller Class 9 lateral-entry stream; defaults to 6
   // so the existing Class 6 rows need no data migration.
-  classLevel Int    @default(6) @map("class_level")
+  classLevel Int      @default(6) @map("class_level")
   // Bilingual display name, e.g. { "en": "JNVST Class 6", "hi": "जेएनवीएसटी कक्षा 6" }
-  name Json
-  slug String @unique
+  name       Json
+  slug       String   @unique
 
-  totalQuestions Int @map("total_questions")
-  totalMarks     Int @map("total_marks")
+  totalQuestions  Int @map("total_questions")
+  totalMarks      Int @map("total_marks")
   durationMinutes Int @map("duration_minutes")
 
   // Default negative-marking ratio applied per wrong answer (e.g. 0.25 marks
@@ -484,11 +485,11 @@ model ExamTemplateSection {
 
 // Top-level subject area, e.g. Mental Ability, Arithmetic, Language, General Knowledge.
 model Section {
-  id   String @id @default(cuid())
-  key  String @unique
+  id    String @id @default(cuid())
+  key   String @unique
   // Bilingual name, e.g. { "en": "Mental Ability", "hi": "मानसिक योग्यता" }
   name  Json
-  order Int  @default(0)
+  order Int    @default(0)
 
   topics                Topic[]
   examTemplateSections  ExamTemplateSection[]
@@ -504,8 +505,8 @@ model Topic {
   section   Section @relation(fields: [sectionId], references: [id], onDelete: Cascade)
   key       String
   // Bilingual name, e.g. { "en": "Pattern Completion", "hi": "पैटर्न पूर्णता" }
-  name  Json
-  order Int  @default(0)
+  name      Json
+  order     Int     @default(0)
 
   // Null means the topic is exam-agnostic (shown to every student regardless
   // of their chosen target exam) — the existing behavior for every topic
@@ -534,8 +535,8 @@ model Topic {
 // Catalog of Vedic speed-math shortcuts (mirrors @vedicneev/engine's
 // speedShortcuts module), linkable from questions that teach/use them.
 model VedicSpeedHack {
-  id  String @id @default(cuid())
-  key String @unique
+  id          String @id @default(cuid())
+  key         String @unique
   // Bilingual title/description, e.g. { "en": "Multiply by 11", "hi": "11 से गुणा करें" }
   title       Json
   description Json
@@ -551,7 +552,7 @@ model VedicSpeedHack {
 // ─────────────────────────────────────────────────────────────────────────
 
 model Question {
-  id  String  @id @default(cuid())
+  id  String @id @default(cuid())
   // Stable natural key every seed-authored question upserts on, e.g.
   // "jnvst6-ma-numseries-01" — never shown to students. See
   // prisma/seed.ts's backfillLegacyQuestionKeys for how the handful of
@@ -583,8 +584,8 @@ model Question {
   // Multilingual explanation of why `correctOption` is right — step-by-step
   // logical proof or Vedic speed-math shortcut. Same { "en", "hi", ... }
   // shape as `content`.
-  explanation          Json?
-  explanationVideoUrl  String? @map("explanation_video_url")
+  explanation         Json?
+  explanationVideoUrl String? @map("explanation_video_url")
 
   // Multilingual breakdown of why each WRONG option is a common trap answer,
   // keyed by that option's "id" from `options` above (correctOption is never
@@ -652,7 +653,7 @@ model Question {
 // paper would be actively misleading. `year` groups practice sets into
 // year-styled cohorts, not a citation of a real historical paper.
 model PreviousYearQuestion {
-  id String @id @default(cuid())
+  id  String @id @default(cuid())
   // Stable natural key to upsert seed content on, e.g. "jnvst-2021-ma-01".
   key String @unique @map("question_key")
 
@@ -714,11 +715,11 @@ model PreviousYearQuestion {
 // exam-runner language switcher (apps/web) offers every Language regardless
 // of state and falls back to "en" per-field, per the comment on Question.
 model StateConfiguration {
-  id        String @id @default(cuid())
+  id        String   @id @default(cuid())
   // ISO 3166-2:IN style, e.g. "MH", "WB", "TN".
-  stateCode String @map("state_code")
+  stateCode String   @map("state_code")
   // Localized display name, e.g. { "en": "Maharashtra", "hi": "महाराष्ट्र" }
-  stateName Json   @map("state_name")
+  stateName Json     @map("state_name")
   examType  ExamType @map("exam_type")
 
   activeLanguages Language[] @map("active_languages")
@@ -737,12 +738,12 @@ model StateConfiguration {
 // ─────────────────────────────────────────────────────────────────────────
 
 model TestSession {
-  id             String             @id @default(cuid())
-  userId         String             @map("user_id")
-  user           User               @relation(fields: [userId], references: [id], onDelete: Cascade)
-  examTemplateId String             @map("exam_template_id")
-  examTemplate   ExamTemplate       @relation(fields: [examTemplateId], references: [id], onDelete: Restrict)
-  status         TestSessionStatus  @default(IN_PROGRESS)
+  id             String            @id @default(cuid())
+  userId         String            @map("user_id")
+  user           User              @relation(fields: [userId], references: [id], onDelete: Cascade)
+  examTemplateId String            @map("exam_template_id")
+  examTemplate   ExamTemplate      @relation(fields: [examTemplateId], references: [id], onDelete: Restrict)
+  status         TestSessionStatus @default(IN_PROGRESS)
 
   startedAt        DateTime  @default(now()) @map("started_at")
   submittedAt      DateTime? @map("submitted_at")
@@ -781,10 +782,10 @@ model TestResponse {
 // Per-mistake remediation log, tagged by root cause so a student/parent can
 // see targeted "what to fix" trends instead of just a raw wrong-answer list.
 model MistakeVault {
-  id         String @id @default(cuid())
-  userId     String @map("user_id")
-  user       User   @relation(fields: [userId], references: [id], onDelete: Cascade)
-  questionId String @map("question_id")
+  id         String   @id @default(cuid())
+  userId     String   @map("user_id")
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  questionId String   @map("question_id")
   question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
 
   testResponseId String?       @unique @map("test_response_id")
@@ -870,7 +871,7 @@ model OfflineMockSession {
 // nullable — an item can exist in the catalog (title, description, linked
 // topic/hack) before its asset file has actually been uploaded.
 model MediaItem {
-  id     String    @id @default(cuid())
+  id          String    @id @default(cuid())
   // Bilingual title/description, e.g. { "en": "...", "hi": "..." }
   title       Json
   description Json
@@ -913,10 +914,10 @@ model BlogPost {
   slug     String         @unique
   category String
   // Short summary — doubles as the article-card blurb and the meta description.
-  excerpt String
+  excerpt  String
   // Markdown body, rendered to HTML at request time.
-  content String
-  status  BlogPostStatus @default(DRAFT)
+  content  String
+  status   BlogPostStatus @default(DRAFT)
 
   // Set when a post transitions DRAFT -> PUBLISHED (via the admin "Publish
   // Now" action); cleared again if it's unpublished back to DRAFT.
@@ -930,12 +931,36 @@ model BlogPost {
   @@map("blog_posts")
 }
 
+// Homepage hero's gamified lead-gen widget (apps/web/src/components/marketing/SpeedChallengeWidget.tsx) —
+// fully admin-managed via /admin/speed-challenge, not hardcoded in the client.
 model SpeedChallengeQuestion {
   id        String   @id @default(cuid())
   question  String
   options   String[]
   correct   Int
   topic     String
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  isActive  Boolean  @default(true) @map("is_active")
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@index([isActive])
+  @@map("speed_challenge_questions")
+}
+
+// One row per completed (or 3-strike-ended) Speed Challenge run — the
+// widget's lead-capture form POSTs here via /api/speed-challenge/lead-capture,
+// which upserts the User by phone and links the attempt to it. This is the
+// "student user log" the admin leads view (/admin/speed-challenge/leads) reads.
+model SpeedChallengeAttempt {
+  id            String   @id @default(cuid())
+  userId        String   @map("user_id")
+  user          User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  targetClass   Int      @map("target_class")
+  score         Int
+  strikes       Int
+  questionCount Int      @map("question_count")
+  createdAt     DateTime @default(now()) @map("created_at")
+
+  @@index([userId])
+  @@map("speed_challenge_attempts")
 }

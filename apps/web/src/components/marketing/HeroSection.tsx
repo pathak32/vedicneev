@@ -6,6 +6,7 @@ import { cn } from "@vedicneev/ui";
 
 import type { LanguageCode } from "@/lib/exam/types";
 import { SUPPORTED_LANGUAGES, useLanguageStore } from "@/lib/hooks/useLanguageStore";
+import { SpeedChallengeWidget } from "@/components/marketing/SpeedChallengeWidget";
 
 const ROTATE_INTERVAL_MS = 4000;
 
@@ -152,6 +153,11 @@ export function HeroSection() {
             >
               Read Exam Strategy
             </Link>
+          </div>
+
+          {/* Gamified lead-gen widget — DB-backed via /api/speed-challenge/questions, not hardcoded content. */}
+          <div className="pt-8">
+            <SpeedChallengeWidget />
           </div>
         </div>
       </div>

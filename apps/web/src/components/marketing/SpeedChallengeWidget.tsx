@@ -5,7 +5,7 @@ import { Timer, Zap, AlertTriangle, CheckCircle, ArrowRight, RotateCcw, UserChec
 import Link from 'next/link';
 
 interface Question {
-  id: number;
+  id: string;
   question: string;
   options: string[];
   correct: number;
@@ -13,19 +13,21 @@ interface Question {
 }
 
 export function SpeedChallengeWidget() {
-  const [gameState, setGameState] = useState<'idle' | 'playing' | 'lead_capture' | 'gameover'>('idle');
+  const [gameState, setGameState] = useState<'idle' | 'loading' | 'playing' | 'lead_capture' | 'gameover'>('idle');
   const [questions, setQuestions] = useState<Question[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [score, setScore] = useState(0);
   const [strikes, setStrikes] = useState(0);
   const [timeLeft, setTimeLeft] = useState(10);
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
-  
+  const [loadError, setLoadError] = useState<string | null>(null);
+
   // Lead Capture State
   const [studentName, setStudentName] = useState('');
-  const [studentClass, setStudentClass] = useState('Class 6');
+  const [studentClass, setStudentClass] = useState<6 | 9>(6);
   const [mobileNumber, setMobileNumber] = useState('');
   const [isSubmittingLead, setIsSubmittingLead] = useState(false);
+  const [leadError, setLeadError] = useState<string | null>(null);
 
   // Timer effect (10 seconds per question)
   useEffect(() => {
@@ -44,19 +46,26 @@ export function SpeedChallengeWidget() {
   }, [timeLeft, gameState]);
 
   const startGame = async () => {
+    setGameState('loading');
+    setLoadError(null);
     try {
       const res = await fetch('/api/speed-challenge/questions');
       const data = await res.json();
-      if (data.success && data.questions.length > 0) {
-        setQuestions(data.questions);
-        setCurrentIndex(0);
-        setScore(0);
-        setStrikes(0);
-        setTimeLeft(10);
-        setGameState('playing');
+      if (!res.ok || !data.success || data.questions.length === 0) {
+        setLoadError(data.error ?? 'No Speed Challenge questions are available right now.');
+        setGameState('idle');
+        return;
       }
+      setQuestions(data.questions);
+      setCurrentIndex(0);
+      setScore(0);
+      setStrikes(0);
+      setTimeLeft(10);
+      setGameState('playing');
     } catch (err) {
       console.error('Failed to load speed challenge questions', err);
+      setLoadError('Network error — please try again.');
+      setGameState('idle');
     }
   };
 
@@ -91,18 +100,36 @@ export function SpeedChallengeWidget() {
     }, isTimeout ? 200 : 600);
   };
 
-  const handleLeadSubmit = (e: React.FormEvent) => {
+  const handleLeadSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!mobileNumber || mobileNumber.length < 10) {
-      alert('Please enter a valid 10-digit mobile number.');
+    if (!/^\d{10}$/.test(mobileNumber)) {
+      setLeadError('Please enter a valid 10-digit mobile number.');
       return;
     }
+    setLeadError(null);
     setIsSubmittingLead(true);
-    
-    setTimeout(() => {
-      setIsSubmittingLead(false);
+
+    try {
+      const res = await fetch('/api/speed-challenge/lead-capture', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          studentName,
+          targetClass: studentClass,
+          mobileNumber,
+          score,
+          strikes,
+          questionCount: currentIndex + 1,
+        }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error ?? 'Could not save your details.');
       setGameState('gameover');
-    }, 500);
+    } catch (err) {
+      setLeadError(err instanceof Error ? err.message : 'Could not save your details.');
+    } finally {
+      setIsSubmittingLead(false);
+    }
   };
 
   const currentQ = questions[currentIndex];
@@ -110,8 +137,8 @@ export function SpeedChallengeWidget() {
   return (
     <div className="w-full max-w-2xl mx-auto bg-gradient-to-br from-gray-900 to-gray-950 rounded-3xl p-6 sm:p-8 text-white shadow-2xl border border-amber-500/30">
       
-      {/* IDLE STATE */}
-      {gameState === 'idle' && (
+      {/* IDLE / LOADING STATE */}
+      {(gameState === 'idle' || gameState === 'loading') && (
         <div className="text-center space-y-6 py-6">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-amber-500/10 text-amber-400 text-xs font-bold uppercase tracking-wider border border-amber-500/20">
             <Zap className="w-4 h-4 text-amber-400 animate-pulse" /> Live 10-Second Speed Challenge
@@ -120,14 +147,16 @@ export function SpeedChallengeWidget() {
             Test Your Entrance Exam Speed!
           </h3>
           <p className="text-gray-400 text-sm max-w-md mx-auto">
-            Answer under 10 seconds per question. Unattempted timeouts count as wrong answers. 
+            Answer under 10 seconds per question. Unattempted timeouts count as wrong answers.
             Game over on <span className="text-red-400 font-bold">3 total wrong/missed answers</span>.
           </p>
-          <button 
+          {loadError ? <p className="text-xs font-semibold text-red-400">{loadError}</p> : null}
+          <button
             onClick={startGame}
-            className="bg-amber-600 hover:bg-amber-500 text-white font-black px-8 py-4 rounded-2xl shadow-lg transition-all transform hover:scale-105 cursor-pointer text-base"
+            disabled={gameState === 'loading'}
+            className="bg-amber-600 hover:bg-amber-500 text-white font-black px-8 py-4 rounded-2xl shadow-lg transition-all transform hover:scale-105 cursor-pointer text-base disabled:cursor-not-allowed disabled:opacity-60 disabled:hover:scale-100"
           >
-            Start Speed Challenge Now 🚀
+            {gameState === 'loading' ? 'Loading…' : 'Start Speed Challenge Now 🚀'}
           </button>
         </div>
       )}
@@ -227,11 +256,11 @@ export function SpeedChallengeWidget() {
                 <GraduationCap className="absolute left-3 top-3 w-4 h-4 text-gray-500" />
                 <select
                   value={studentClass}
-                  onChange={(e) => setStudentClass(e.target.value)}
+                  onChange={(e) => setStudentClass(Number(e.target.value) as 6 | 9)}
                   className="w-full bg-gray-900 border border-gray-800 rounded-xl px-3 py-2.5 pl-10 text-sm text-white focus:outline-none focus:border-amber-500"
                 >
-                  <option value="Class 6">Class 6 (JNVST / AISSEE / RMS)</option>
-                  <option value="Class 9">Class 9 (JNVST / AISSEE / RMS)</option>
+                  <option value={6}>Class 6 (JNVST / AISSEE / RMS)</option>
+                  <option value={9}>Class 9 (JNVST / AISSEE / RMS)</option>
                 </select>
               </div>
             </div>
@@ -253,10 +282,12 @@ export function SpeedChallengeWidget() {
             </div>
           </div>
 
-          <button 
+          {leadError ? <p className="text-xs font-semibold text-red-400">{leadError}</p> : null}
+
+          <button
             type="submit"
             disabled={isSubmittingLead}
-            className="w-full max-w-sm bg-amber-600 hover:bg-amber-500 text-white font-bold py-3.5 rounded-xl shadow-lg transition-all cursor-pointer text-sm"
+            className="w-full max-w-sm bg-amber-600 hover:bg-amber-500 text-white font-bold py-3.5 rounded-xl shadow-lg transition-all cursor-pointer text-sm disabled:cursor-not-allowed disabled:opacity-60"
           >
             {isSubmittingLead ? 'Generating Report...' : 'View My Detailed Analysis 📊'}
           </button>
@@ -267,7 +298,7 @@ export function SpeedChallengeWidget() {
       {gameState === 'gameover' && (
         <div className="space-y-6 text-center py-4">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-500/10 text-emerald-400 text-xs font-bold uppercase tracking-wider border border-emerald-500/20">
-            Report Generated for {studentName || 'Aspirant'} ({studentClass})
+            Report Generated for {studentName || 'Aspirant'} (Class {studentClass})
           </div>
           
           <h3 className="text-2xl sm:text-3xl font-black">
@@ -288,9 +319,9 @@ export function SpeedChallengeWidget() {
           <div className="bg-amber-500/10 border border-amber-500/30 p-4 rounded-2xl text-left space-y-2 max-w-md mx-auto">
             <h5 className="font-bold text-amber-400 text-xs uppercase tracking-wider">Diagnostic Feedback:</h5>
             <p className="text-xs text-gray-300 leading-relaxed">
-              {score >= 3 
-                ? `Great calculation reflexes, ${studentName}! To secure a top rank in ${studentClass}, you need advanced Vedic calculation modules and strict timed mocks.` 
-                : `You hit your 3 strike limit (including timeouts), ${studentName}. Structured practice with Vedic Math shortcuts will help you improve response speed for ${studentClass}.`}
+              {score >= 3
+                ? `Great calculation reflexes, ${studentName}! To secure a top rank in Class ${studentClass}, you need advanced Vedic calculation modules and strict timed mocks.`
+                : `You hit your 3 strike limit (including timeouts), ${studentName}. Structured practice with Vedic Math shortcuts will help you improve response speed for Class ${studentClass}.`}
             </p>
           </div>
 

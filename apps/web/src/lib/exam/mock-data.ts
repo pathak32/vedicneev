@@ -424,7 +424,49 @@ export const demoJnvstSession: ExamSessionData = {
   speedHacksById,
 };
 
-export function getDemoSession(examId: string): ExamSessionData | null {
+
+export function getDemoSession(examId: string) {
   if (examId === "demo-jnvst") return demoJnvstSession;
-  return null;
+  
+  // Dynamic fallback for RMS, AISSEE, or other exam boards with custom question counts
+  const isRmsOrSainik = examId.includes("rms") || examId.includes("aissee") || examId.includes("sainik");
+  const dynamicCount = isRmsOrSainik ? 100 : 80; // Default blueprints (e.g. 100 for Sainik/RMS, 80 for JNVST)
+
+  return {
+    examId,
+    examType: examId.toUpperCase(),
+    templateName: { en: examId.toUpperCase() + " Examination Blueprint" },
+    totalDurationSeconds: dynamicCount * 60,
+    negativeMarkingRatio: 0,
+    sections: [
+      {
+        key: "main_section",
+        name: { en: "Full Exam Blueprint" },
+        order: 1,
+        timeLimitSeconds: dynamicCount * 60,
+        questionIds: Array.from({ length: dynamicCount }, (_, i) => "q-" + (i + 1))
+      }
+    ],
+    questionsById: Object.fromEntries(
+      Array.from({ length: dynamicCount }, (_, i) => [
+        "q-" + (i + 1),
+        {
+          id: "q-" + (i + 1),
+          sectionKey: "main_section",
+          topicKey: "general",
+          difficulty: "MEDIUM",
+          content: { en: "Question " + (i + 1) },
+          options: [
+            { id: "a", text: { en: "Option A" } },
+            { id: "b", text: { en: "Option B" } },
+            { id: "c", text: { en: "Option C" } },
+            { id: "d", text: { en: "Option D" } }
+          ],
+          correctOption: "a"
+        }
+      ])
+    ),
+    speedHacksById: {}
+  };
 }
+
