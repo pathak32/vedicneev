@@ -434,7 +434,7 @@ export function getDemoSession(examId: string) {
 
   return {
     examId,
-    examType: examId.toUpperCase(),
+    examType: (examId.toUpperCase() in { JNVST: 1, AISSEE: 1, RMS: 1 } ? examId.toUpperCase() : "JNVST") as any,
     templateName: { en: examId.toUpperCase() + " Examination Blueprint" },
     totalDurationSeconds: dynamicCount * 60,
     negativeMarkingRatio: 0,
