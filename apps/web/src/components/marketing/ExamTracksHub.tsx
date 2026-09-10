@@ -146,13 +146,13 @@ export function ExamTracksHub() {
                     </Button>
                     <div className="grid grid-cols-2 gap-2">
                       <Button asChild variant="outline" size="sm" className="gap-1.5 rounded-xl">
-                        <Link href="/exam/demo-jnvst/omr/print">
+                        <Link href={`/exam/${selectedBoard}-class-${selectedClass}-demo/omr/print`}>
                           <Printer className="w-3.5 h-3.5" />
                           {t('printOmrLabel')}
                         </Link>
                       </Button>
                       <Button asChild variant="outline" size="sm" className="gap-1.5 rounded-xl">
-                        <Link href="/exam/demo-jnvst/omr/scan">
+                        <Link href={`/exam/${selectedBoard}-class-${selectedClass}-demo/omr/scan`}>
                           <ScanLine className="w-3.5 h-3.5" />
                           {t('scanOmrLabel')}
                         </Link>

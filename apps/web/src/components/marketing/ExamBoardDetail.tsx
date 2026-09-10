@@ -92,13 +92,13 @@ export function ExamBoardDetail({ board }: { board: BoardType }) {
               </Button>
               <div className="grid grid-cols-2 gap-2">
                 <Button asChild variant="outline" size="sm">
-                  <Link href="/exam/demo-jnvst/omr/print">
+                  <Link href={`/exam/${board}-class-${selectedClass}-demo/omr/print`}>
                     <Printer className="h-3.5 w-3.5" />
                     {t("printOmrLabel")}
                   </Link>
                 </Button>
                 <Button asChild variant="outline" size="sm">
-                  <Link href="/exam/demo-jnvst/omr/scan">
+                  <Link href={`/exam/${board}-class-${selectedClass}-demo/omr/scan`}>
                     <ScanLine className="h-3.5 w-3.5" />
                     {t("scanOmrLabel")}
                   </Link>
