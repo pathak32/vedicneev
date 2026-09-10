@@ -1,8 +1,22 @@
 import { NextResponse } from "next/server";
 
-import { generateTopicPracticeSession } from "@/lib/exam/topicPracticeService";
+import { generateTopicPracticeSession, getTopicSampleQuestions } from "@/lib/exam/topicPracticeService";
 
 export const dynamic = "force-dynamic";
+
+/**
+ * Up to 3 sample questions (one per difficulty) for the pre-auth preview
+ * shown before the Timed/Untimed picker — see getTopicSampleQuestions.
+ * No auth check by design: this is exactly the content that's meant to
+ * be visible before a visitor commits to signing in.
+ */
+export async function GET(_request: Request, { params }: { params: { topicKey: string } }) {
+  const result = await getTopicSampleQuestions(params.topicKey);
+  if ("error" in result) {
+    return NextResponse.json({ error: result.error }, { status: 404 });
+  }
+  return NextResponse.json({ success: true, questions: result.questions });
+}
 
 /**
  * Assembles a single-topic practice session on demand — see

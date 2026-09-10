@@ -149,7 +149,10 @@ export default function PracticeCatalogPage() {
                     </div>
                   </CardHeader>
                   <CardContent className="flex items-center justify-between gap-3">
-                    <span className="text-xs text-muted-foreground">{topic.questionCount} questions</span>
+                    <span className="flex flex-col">
+                      <span className="text-xs font-medium text-foreground">Practice set · Easy to Hard</span>
+                      <span className="text-[11px] text-muted-foreground">{topic.questionCount} questions</span>
+                    </span>
                     <Button asChild size="sm">
                       <Link href={`/practice/${topic.key}`}>Practice</Link>
                     </Button>

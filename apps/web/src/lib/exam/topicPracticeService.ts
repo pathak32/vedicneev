@@ -71,6 +71,49 @@ export async function listPracticeTopics(targetExam?: string, targetClass?: stri
 }
 
 /**
+ * One question per difficulty tier (EASY, MEDIUM, HARD — whichever exist
+ * for this topic, so a thin topic can return fewer than 3) for the
+ * pre-auth sample preview on /practice/[topicKey], shown before the
+ * Timed/Untimed picker so a visitor can see real question difficulty
+ * before committing to a full set. Read-only and side-effect-free, same
+ * as generateTopicPracticeSession below, which it shares its topic/rows
+ * lookup shape with but does not call (a full session assembles every
+ * question in the topic; this only ever needs 3).
+ */
+export async function getTopicSampleQuestions(topicKey: string): Promise<{ questions: ExamQuestion[] } | TopicPracticeError> {
+  const topic = await prisma.topic.findFirst({ where: { key: topicKey }, include: { section: true } });
+  if (!topic) {
+    return { error: `Unknown topic "${topicKey}" — it isn't seeded yet.` };
+  }
+
+  const tiers: QuestionDifficulty[] = ["EASY", "MEDIUM", "HARD"];
+  const rows = await Promise.all(
+    tiers.map((difficulty) =>
+      prisma.question.findFirst({ where: { topicId: topic.id, difficulty }, orderBy: { key: "asc" } })
+    )
+  );
+
+  const questions: ExamQuestion[] = rows
+    .filter((q): q is NonNullable<typeof q> => q !== null)
+    .map((q) => ({
+      id: q.id,
+      sectionKey: topic.section.key,
+      topicKey: topic.key,
+      difficulty: q.difficulty as QuestionDifficulty,
+      content: asMultilingual(q.content, `Question ${q.key} content`),
+      options: (q.options as unknown[]).map((o, idx) => asExamOption(o, `Question ${q.key} option ${idx}`)),
+      correctOption: q.correctOption,
+      figureMetadata: q.figureMetadata ? asFigureMetadata(q.figureMetadata, `Question ${q.key} figureMetadata`) : undefined,
+      vedicSpeedHackId: q.vedicSpeedHackId ?? null,
+      explanation: q.explanation ? asMultilingual(q.explanation, `Question ${q.key} explanation`) : null,
+      explanationVideoUrl: q.explanationVideoUrl ?? null,
+      timeLimitSeconds: q.timeLimitSeconds,
+    }));
+
+  return { questions };
+}
+
+/**
  * Assembles a single-topic practice session straight from the real
  * Question bank (packages/db/prisma/schema.prisma's Question model, seeded
  * from packages/db/prisma/topic-seed/*.ts) — the topic-drill counterpart to
