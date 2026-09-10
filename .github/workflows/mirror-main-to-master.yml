@@ -1,0 +1,25 @@
+name: Mirror main to master
+
+# Vercel's Production deployment tracks GitHub's default branch (master
+# here), while all work is pushed to main. Without this, every push to
+# main only ever builds as a Preview deployment and Production silently
+# goes stale — this mirrors main onto master on every push so Production
+# always tracks what's actually on main, automatically.
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Fast-forward master to main
+        run: git push origin HEAD:master
