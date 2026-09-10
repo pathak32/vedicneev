@@ -94,7 +94,12 @@ near-empty session.
 
 ## 5. Deploy and verify
 
-1. Push to the branch Vercel is tracking (or trigger a deploy manually).
+1. Push to `main`. This repo's GitHub default branch is `master` (not
+   `main`), and Vercel's Production deployment tracks that default branch —
+   `.github/workflows/mirror-main-to-master.yml` fast-forwards `master` to
+   `main` on every push automatically, so pushing to `main` is enough;
+   don't push to `master` directly, since the next mirror run would just
+   overwrite it.
 2. Once live, spot-check: the mock/demo banners on `/pricing` checkout and
    on `/exam/[examId]/results` (WhatsApp dispatch) should read "mock" until
    `RAZORPAY_*` / `WHATSAPP_*` are set, then switch to their real-API
