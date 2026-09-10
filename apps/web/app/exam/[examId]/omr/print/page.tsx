@@ -6,7 +6,7 @@ import { Printer } from "lucide-react";
 
 import { OmrPrintSheet } from "@/components/omr/OmrPrintSheet";
 import { getDemoSession } from "@/lib/exam/mock-data";
-import { buildOmrSpecForSession, orderedQuestionIdsForSession } from "@/lib/exam/omr-bridge";
+import { buildOmrSpecsForSession, orderedQuestionIdsForSession } from "@/lib/exam/omr-bridge";
 
 // Nothing here is prerenderable (demo session data, print-triggering client
 // code) — force dynamic so the build never attempts static collection.
@@ -17,7 +17,7 @@ export default function OmrPrintPage({ params }: { params: { examId: string } })
   if (!session) notFound();
 
   const totalQuestions = orderedQuestionIdsForSession(session).length;
-  const spec = buildOmrSpecForSession(session);
+  const spec = buildOmrSpecsForSession(session);
 
   return (
     <div className="flex flex-col items-center gap-4 bg-muted/40 py-8">
@@ -35,7 +35,7 @@ export default function OmrPrintPage({ params }: { params: { examId: string } })
       </div>
 
       <div className="overflow-auto shadow-lg print:shadow-none">
-        <OmrPrintSheet spec={spec} examName={session.templateName.en} />
+        <OmrPrintSheet specs={specs} examName={session.templateName.en} />
       </div>
     </div>
   );
