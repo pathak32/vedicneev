@@ -10,11 +10,14 @@ export function orderedQuestionIdsForSession(session: ExamSessionData): string[]
 /** Builds an OMR bubble-grid spec sized to this session's actual question count. */
 export function buildOmrSpecForSession(session: ExamSessionData): OmrSheetSpec {
   const totalQuestions = orderedQuestionIdsForSession(session).length;
+  // Dynamically calculate grid columns based on question density and exam type
+  const dynamicColumns = totalQuestions > 90 ? 5 : totalQuestions > 50 ? 4 : totalQuestions > 25 ? 3 : 2;
+
   return generateOmrSheetSpec({
-    examType: "JNVST",
+    examType: session.examType as any,
     totalQuestions,
-    columns: totalQuestions > 40 ? 4 : 2,
-    rollNumberDigits: 6,
+    columns: dynamicColumns,
+    rollNumberDigits: session.examType === "RMS" ? 5 : 6,
   });
 }
 
