@@ -15,6 +15,7 @@ import { AlertTriangle, CheckCircle2, Loader2, ShieldCheck, Tag } from "lucide-r
 
 import { loadRazorpayCheckoutScript } from "@/lib/payments/loadRazorpayCheckout";
 import type { StoreProduct } from "@/lib/store/types";
+import { GuestContactForm } from "./GuestContactForm";
 
 type Step = "form" | "creating-order" | "awaiting-payment" | "polling" | "success" | "error";
 
@@ -29,7 +30,8 @@ export interface StoreCheckoutDialogProps {
   primaryProduct: StoreProduct;
   /** The 1-click order-bump offer (the OMR Kit) — omitted when the primary product IS the OMR Kit. */
   bumpProduct?: StoreProduct;
-  parentPhone: string;
+  /** Omitted for a guest checkout — the purchase starts with no identity at all, and StoreCheckoutDialog collects contact info itself after payment succeeds (see the "success" step below). */
+  parentPhone?: string;
   onCancel: () => void;
   onSuccess: () => void;
 }
@@ -44,6 +46,7 @@ export function StoreCheckoutDialog({ primaryProduct, bumpProduct, parentPhone, 
   const [validatingPromo, setValidatingPromo] = useState(false);
   const [order, setOrder] = useState<{ orderId: string; amount: number; currency: string; keyId: string | null; mock: boolean } | null>(null);
   const [purchaseIds, setPurchaseIds] = useState<string[]>([]);
+  const [guestContactSaved, setGuestContactSaved] = useState(false);
 
   const primaryFinalPrice = applyPromoDiscount(
     primaryProduct.sellingPrice,
@@ -135,6 +138,10 @@ export function StoreCheckoutDialog({ primaryProduct, bumpProduct, parentPhone, 
           order_id: data.orderId,
           name: "Vedic Neev",
           description: primaryProduct.title,
+          // Nudges Razorpay's checkout modal to surface UPI/QR as a payment
+          // method up front — no bespoke QR infrastructure, Razorpay's own
+          // modal already renders the scannable code once this is set.
+          method: { upi: true },
           handler: () => void pollRef.current?.(data.purchaseIds),
           modal: { ondismiss: () => setStep("form") },
         });
@@ -264,9 +271,13 @@ export function StoreCheckoutDialog({ primaryProduct, bumpProduct, parentPhone, 
           <div className="flex flex-col items-center gap-3 py-4 text-center">
             <CheckCircle2 className="h-10 w-10 text-emerald-600" />
             <p className="font-semibold text-foreground">Purchase complete!</p>
-            <Button asChild size="lg">
-              <Link href="/dashboard/library">Go to My Library</Link>
-            </Button>
+            {!parentPhone && !guestContactSaved ? (
+              <GuestContactForm purchaseIds={purchaseIds} onDone={() => setGuestContactSaved(true)} />
+            ) : (
+              <Button asChild size="lg">
+                <Link href="/dashboard/library">Go to My Library</Link>
+              </Button>
+            )}
           </div>
         ) : null}
 

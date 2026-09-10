@@ -3,6 +3,7 @@ import { prisma } from "@vedicneev/db";
 import { applyPromoDiscount } from "@vedicneev/engine";
 
 import { resolveCheckoutUser } from "@/lib/auth/resolveCheckoutUser";
+import { isSupabaseAuthConfigured } from "@/lib/supabase/env";
 import { createRazorpayOrder } from "@/lib/payments/razorpayServer";
 
 // Creates a Razorpay order and PENDING Purchase row(s) — never cache or
@@ -54,9 +55,20 @@ export async function POST(request: Request) {
   const bumpTotal = bumpProducts.reduce((sum, p) => sum + p.sellingPrice, 0);
   const totalAmountInr = primaryFinalPrice + bumpTotal;
 
-  const userResult = await resolveCheckoutUser(body.phone, true);
-  if (!userResult.ok) {
-    return NextResponse.json({ error: userResult.error }, { status: userResult.status });
+  // A phone (or, once Supabase auth is actually wired up, a signed-in
+  // session) resolves to a real user immediately, same as before. With
+  // neither, checkout proceeds as a guest — userId stays null until
+  // POST /api/checkout/guest-contact links (or creates) a real User after
+  // payment succeeds. isSupabaseAuthConfigured() still forces resolution
+  // even with no phone, since a Supabase session carries its own identity
+  // via cookies, not this body — see resolveCheckoutUser.
+  let userId: string | null = null;
+  if (isSupabaseAuthConfigured() || body.phone) {
+    const userResult = await resolveCheckoutUser(body.phone, true);
+    if (!userResult.ok) {
+      return NextResponse.json({ error: userResult.error }, { status: userResult.status });
+    }
+    userId = userResult.user.id;
   }
 
   try {
@@ -68,7 +80,7 @@ export async function POST(request: Request) {
     const purchases = await prisma.$transaction([
       prisma.purchase.create({
         data: {
-          userId: userResult.user.id,
+          userId,
           productId: primaryProduct.id,
           amountPaid: primaryFinalPrice,
           promoCodeId: promo?.id ?? null,
@@ -78,7 +90,7 @@ export async function POST(request: Request) {
       ...bumpProducts.map((p) =>
         prisma.purchase.create({
           data: {
-            userId: userResult.user.id,
+            userId,
             productId: p.id,
             amountPaid: p.sellingPrice,
             razorpayOrderId: order.orderId,

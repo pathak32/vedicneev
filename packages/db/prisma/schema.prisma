@@ -347,6 +347,13 @@ model Product {
   sellingPrice Float   @map("selling_price")
   fileUrl      String? @map("file_url")
 
+  // Admin-editable table of contents — a plain string[] of section/chapter
+  // titles, e.g. ["Chapter 1: Mental Ability", "Chapter 2: Arithmetic"] —
+  // shown in the Store's preview modal so a visitor can see what's inside
+  // before buying, without a real PDF-page-extraction pipeline. Null for
+  // products seeded before this field existed.
+  previewOutline Json? @map("preview_outline")
+
   isActive Boolean @default(true) @map("is_active")
 
   createdAt DateTime @default(now()) @map("created_at")
@@ -392,8 +399,19 @@ model PromoCode {
 model Purchase {
   id String @id @default(cuid())
 
-  userId String @map("user_id")
-  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  // Nullable so checkout can start with zero identity (frictionless guest
+  // purchase) — see guestEmail/guestPhone below, collected right after
+  // payment success and, if they match an existing User, used to link this
+  // row to a real account. Mirrors SprintRegistration's identical guest
+  // pattern (optional userId + its own guest contact fields).
+  userId String? @map("user_id")
+  user   User?   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  // Guest contact info, collected post-payment via POST
+  // /api/checkout/guest-contact — null until then, and null forever for a
+  // purchase made by an already-identified user (userId set at checkout).
+  guestEmail String? @map("guest_email")
+  guestPhone String? @map("guest_phone")
 
   productId String  @map("product_id")
   product   Product @relation(fields: [productId], references: [id], onDelete: Restrict)

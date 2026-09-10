@@ -11,4 +11,6 @@ export interface StoreProduct {
   displayPrice: number;
   sellingPrice: number;
   fileUrl: string | null;
+  /** Table of contents shown in the preview modal before purchase — see Product.previewOutline. Null for products seeded before this field existed. */
+  previewOutline: string[] | null;
 }

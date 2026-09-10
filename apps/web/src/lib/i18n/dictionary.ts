@@ -716,7 +716,14 @@ export const DICTIONARY = {
     ta: "உதவித்தொகை ஸ்பிரிண்ட்",
     gu: "શિષ્યવૃત્તિ સ્પ્રિન્ટ",
   },
-  navStore: { en: "Store", hi: "स्टोर", mr: "स्टोअर", bn: "স্টোর", ta: "அங்காடி", gu: "સ્ટોર" },
+  navStore: {
+    en: "Digital Knowledge Hub",
+    hi: "डिजिटल नॉलेज हब",
+    mr: "डिजिटल नॉलेज हब",
+    bn: "ডিজিটাল নলেজ হাব",
+    ta: "டிஜிட்டல் நாலெட்ஜ் ஹப்",
+    gu: "ડિજિટલ નોલેજ હબ",
+  },
   viewFullBoardDetails: {
     en: "View Full Board Details",
     hi: "पूर्ण बोर्ड विवरण देखें",

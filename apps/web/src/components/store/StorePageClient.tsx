@@ -1,13 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
 import { Badge, Button } from "@vedicneev/ui";
-import { BookOpen, CalendarClock, FileText, Package, ScanLine } from "lucide-react";
+import { BookOpen, CalendarClock, Eye, FileText, Package, ScanLine } from "lucide-react";
 
-import { useActiveStudent } from "@/lib/auth/ActiveStudentContext";
 import { selectActiveParent, useAuthStore } from "@/lib/auth/useAuthStore";
 import type { StoreProduct, StoreProductType } from "@/lib/store/types";
+import { ProductPreviewModal } from "./ProductPreviewModal";
 import { StoreCheckoutDialog } from "./StoreCheckoutDialog";
 
 const PRODUCT_ICON: Record<StoreProductType, typeof Package> = {
@@ -18,9 +17,15 @@ const PRODUCT_ICON: Record<StoreProductType, typeof Package> = {
   MEGA_BUNDLE: Package,
 };
 
+/**
+ * Browsing (the product grid, the preview modal) needs no sign-in at all —
+ * only the checkout dialog itself cares who's buying, and even there an
+ * absent parentPhone just means StoreCheckoutDialog runs its guest-checkout
+ * path (see that component and POST /api/checkout) instead of blocking.
+ */
 export function StorePageClient({ products }: { products: StoreProduct[] }) {
-  const { isAuthenticated } = useActiveStudent();
   const parent = useAuthStore(selectActiveParent);
+  const [previewProduct, setPreviewProduct] = useState<StoreProduct | null>(null);
   const [checkoutProduct, setCheckoutProduct] = useState<StoreProduct | null>(null);
 
   const bumpProduct = products.find((p) => p.productType === "OMR_KIT");
@@ -33,7 +38,10 @@ export function StorePageClient({ products }: { products: StoreProduct[] }) {
           const discountPercent = Math.round((1 - product.sellingPrice / product.displayPrice) * 100);
 
           return (
-            <div key={product.id} className="flex flex-col justify-between rounded-2xl border border-border bg-card p-5 shadow-sm">
+            <div
+              key={product.id}
+              className="flex flex-col justify-between rounded-2xl border border-border bg-card p-5 shadow-sm transition-shadow hover:shadow-md"
+            >
               <div>
                 <div className="flex items-center justify-between">
                   <div className="rounded-xl bg-amber-100 p-2 text-amber-700 dark:bg-amber-950 dark:text-amber-400">
@@ -49,25 +57,36 @@ export function StorePageClient({ products }: { products: StoreProduct[] }) {
                 </div>
               </div>
 
-              {isAuthenticated && parent ? (
-                <Button className="mt-4" onClick={() => setCheckoutProduct(product)}>
+              <div className="mt-4 flex gap-2">
+                <Button variant="outline" onClick={() => setPreviewProduct(product)}>
+                  <Eye className="h-4 w-4" />
+                  Preview
+                </Button>
+                <Button className="flex-1" onClick={() => setCheckoutProduct(product)}>
                   Buy Now
                 </Button>
-              ) : (
-                <Button asChild className="mt-4" variant="outline">
-                  <Link href="/onboarding">Sign in to buy</Link>
-                </Button>
-              )}
+              </div>
             </div>
           );
         })}
       </div>
 
-      {checkoutProduct && parent ? (
+      {previewProduct ? (
+        <ProductPreviewModal
+          product={previewProduct}
+          onClose={() => setPreviewProduct(null)}
+          onBuyNow={() => {
+            setCheckoutProduct(previewProduct);
+            setPreviewProduct(null);
+          }}
+        />
+      ) : null}
+
+      {checkoutProduct ? (
         <StoreCheckoutDialog
           primaryProduct={checkoutProduct}
           bumpProduct={checkoutProduct.productType === "OMR_KIT" ? undefined : bumpProduct}
-          parentPhone={parent.phone}
+          parentPhone={parent?.phone}
           onCancel={() => setCheckoutProduct(null)}
           // Deliberately doesn't close the dialog — it stays open on its
           // own "Purchase complete!" screen (with a link into the
