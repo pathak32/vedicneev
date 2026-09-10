@@ -425,12 +425,28 @@ export const demoJnvstSession: ExamSessionData = {
 };
 
 
+
 export function getDemoSession(examId: string) {
   if (examId === "demo-jnvst") return demoJnvstSession;
   
-  // Dynamic fallback for RMS, AISSEE, or other exam boards with custom question counts
   const isRmsOrSainik = examId.includes("rms") || examId.includes("aissee") || examId.includes("sainik");
-  const dynamicCount = isRmsOrSainik ? 100 : 80; // Default blueprints (e.g. 100 for Sainik/RMS, 80 for JNVST)
+  const dynamicCount = isRmsOrSainik ? 100 : 80;
+
+  const questions = Array.from({ length: dynamicCount }, (_, i) => ({
+    id: "q-" + (i + 1),
+    sectionKey: "main_section",
+    topicKey: "general",
+    difficulty: "MEDIUM",
+    content: { en: "Question " + (i + 1) },
+    options: [
+      { id: "a", text: { en: "Option A" } },
+      { id: "b", text: { en: "Option B" } },
+      { id: "c", text: { en: "Option C" } },
+      { id: "d", text: { en: "Option D" } }
+    ],
+    correctOption: "a",
+    timeLimitSeconds: 60
+  }));
 
   return {
     examId,
@@ -444,29 +460,10 @@ export function getDemoSession(examId: string) {
         name: { en: "Full Exam Blueprint" },
         order: 1,
         timeLimitSeconds: dynamicCount * 60,
-        questionIds: Array.from({ length: dynamicCount }, (_, i) => "q-" + (i + 1))
+        questionIds: questions.map(q => q.id)
       }
     ],
-    questionsById: Object.fromEntries(
-      Array.from({ length: dynamicCount }, (_, i) => [
-        "q-" + (i + 1),
-        {
-          id: "q-" + (i + 1),
-          sectionKey: "main_section",
-          topicKey: "general",
-          difficulty: "MEDIUM",
-          content: { en: "Question " + (i + 1) },
-          options: [
-            { id: "a", text: { en: "Option A" } },
-            { id: "b", text: { en: "Option B" } },
-            { id: "c", text: { en: "Option C" } },
-            { id: "d", text: { en: "Option D" } }
-          ],
-          correctOption: "a"
-        }
-      ])
-    ),
+    questionsById: Object.fromEntries(questions.map(q => [q.id, q])) as any,
     speedHacksById: {}
   };
 }
-
