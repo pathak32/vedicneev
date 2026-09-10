@@ -5,7 +5,7 @@ import type { MarkingScheme } from "@vedicneev/engine";
 
 import { OmrScanner } from "@/components/omr/OmrScanner";
 import { getDemoSession } from "@/lib/exam/mock-data";
-import { buildAnswerKeyForSession, buildOmrSpecForSession } from "@/lib/exam/omr-bridge";
+import { buildAnswerKeyForSession, buildOmrSpecsForSession } from "@/lib/exam/omr-bridge";
 
 // Drives a live camera feed (navigator.mediaDevices) and demo session
 // data — nothing to prerender. Force dynamic so the build never attempts
@@ -16,7 +16,7 @@ export default function OmrScanPage({ params }: { params: { examId: string } }) 
   const session = getDemoSession(params.examId);
   if (!session) notFound();
 
-  const spec = buildOmrSpecForSession(session);
+  const specs = buildOmrSpecsForSession(session);
   const answerKey = buildAnswerKeyForSession(session);
   const scheme: MarkingScheme = {
     correctMarks: 1,
@@ -25,6 +25,6 @@ export default function OmrScanPage({ params }: { params: { examId: string } }) 
   };
 
   return (
-    <OmrScanner examId={params.examId} session={session} spec={spec} answerKey={answerKey} scheme={scheme} />
+    <OmrScanner examId={params.examId} session={session} specs={specs} answerKey={answerKey} scheme={scheme} />
   );
 }

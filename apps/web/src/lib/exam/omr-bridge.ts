@@ -46,14 +46,6 @@ export function buildOmrSpecsForSession(session: ExamSessionData): OmrSheetSpec[
   return specs;
 }
 
-// Backward-compatible single-spec accessor for callers (e.g. the scan page)
-// that only ever grade one physical sheet — buildOmrSpecsForSession always
-// returns at least one spec (the <=QUESTIONS_PER_PAGE branch covers
-// totalQuestions === 0 too), so the index is always valid.
-export function buildOmrSpecForSession(session: ExamSessionData): OmrSheetSpec {
-  return buildOmrSpecsForSession(session)[0]!;
-}
-
 export function buildAnswerKeyForSession(session: ExamSessionData): OmrAnswerKeyEntry[] {
   const orderedIds = orderedQuestionIdsForSession(session);
   return orderedIds.map((questionId, index) => {

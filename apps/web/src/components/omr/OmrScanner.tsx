@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useRef, useState, type ChangeEvent } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState, type ChangeEvent } from "react";
 import { useRouter } from "next/navigation";
 import { Badge, Button, Card, CardContent, cn } from "@vedicneev/ui";
 import {
@@ -38,34 +38,54 @@ const OUTCOME_COLOR: Record<OmrResponseOutcome, string | null> = {
 export interface OmrScannerProps {
   examId: string;
   session: ExamSessionData;
-  spec: OmrSheetSpec;
+  specs: OmrSheetSpec[];
   answerKey: OmrAnswerKeyEntry[];
   scheme: MarkingScheme;
 }
 
 type ScanMode = "camera" | "upload";
-type ScanStage = "idle" | "processing" | "done" | "error";
+type ScanStage = "idle" | "processing" | "captured" | "error";
 
-export function OmrScanner({ examId, session, spec, answerKey, scheme }: OmrScannerProps) {
+interface CompletedPage {
+  sourceCanvas: HTMLCanvasElement;
+  homography: HomographyMatrix;
+  scans: OmrQuestionScan[]; // globally-numbered, matching the session's full answer key
+}
+
+export function OmrScanner({ examId, session, specs, answerKey, scheme }: OmrScannerProps) {
   const router = useRouter();
   const [mode, setMode] = useState<ScanMode>("camera");
   const [stage, setStage] = useState<ScanStage>("idle");
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
+  const [pageIndex, setPageIndex] = useState(0);
+  const [completedPages, setCompletedPages] = useState<CompletedPage[]>([]);
   const [evaluation, setEvaluation] = useState<OmrSheetEvaluationSummary | null>(null);
 
   const videoRef = useRef<HTMLVideoElement>(null);
-  const previewCanvasRef = useRef<HTMLCanvasElement>(null);
+  const previewRefs = useRef<(HTMLCanvasElement | null)[]>([]);
   const streamRef = useRef<MediaStream | null>(null);
-  // Captured frame + fitted homography, held until the preview <canvas> actually
-  // mounts (it's conditionally rendered on stage === "done") so the draw effect
-  // below has something to draw once the ref is live.
-  const pendingPreviewRef = useRef<{ sourceCanvas: HTMLCanvasElement; homography: HomographyMatrix } | null>(
-    null
-  );
+
+  const totalPages = specs.length;
+  const currentSpec = specs[pageIndex];
+  const allDone = pageIndex >= totalPages;
+
+  // Each page's spec numbers its own bubbles 1..spec.totalQuestions — this
+  // is the running offset that converts a page-local question number into
+  // the session-global numbering buildAnswerKeyForSession() uses, so a
+  // multi-page sheet grades against the *whole* session, not just page 1.
+  const pageOffsets = useMemo(() => {
+    const offsets: number[] = [];
+    let running = 0;
+    for (const spec of specs) {
+      offsets.push(running);
+      running += spec.totalQuestions;
+    }
+    return offsets;
+  }, [specs]);
 
   // Camera lifecycle: acquire the stream while in camera mode and no photo has been captured yet.
   useEffect(() => {
-    if (mode !== "camera" || stage !== "idle") return;
+    if (mode !== "camera" || stage !== "idle" || allDone) return;
     let cancelled = false;
 
     async function start() {
@@ -93,7 +113,7 @@ export function OmrScanner({ examId, session, spec, answerKey, scheme }: OmrScan
       streamRef.current?.getTracks().forEach((t) => t.stop());
       streamRef.current = null;
     };
-  }, [mode, stage]);
+  }, [mode, stage, allDone]);
 
   function stopCamera() {
     streamRef.current?.getTracks().forEach((t) => t.stop());
@@ -101,6 +121,9 @@ export function OmrScanner({ examId, session, spec, answerKey, scheme }: OmrScan
   }
 
   function processImage(sourceCanvas: HTMLCanvasElement) {
+    const spec = currentSpec;
+    if (!spec) return;
+
     setStage("processing");
     setErrorMessage(null);
     stopCamera();
@@ -118,7 +141,7 @@ export function OmrScanner({ examId, session, spec, answerKey, scheme }: OmrScan
     const fiducialResult = detectFiducialCorners(gray);
     if (!fiducialResult) {
       setErrorMessage(
-        "Couldn't find the 4 black corner markers. Make sure the whole sheet is in frame, well-lit, and roughly upright, then try again."
+        `Couldn't find the 4 black corner markers on page ${pageIndex + 1} of ${totalPages}. Make sure the whole sheet is in frame, well-lit, and roughly upright, then try again.`
       );
       setStage("error");
       return;
@@ -127,38 +150,43 @@ export function OmrScanner({ examId, session, spec, answerKey, scheme }: OmrScan
     const idealCorners = spec.fiducials.map((f) => ({ x: f.x, y: f.y })) as [Point, Point, Point, Point];
     const homography = computeHomography(idealCorners, fiducialResult.corners);
 
-    const markedByQuestion = new Map<number, string[]>();
+    const markedByLocalQuestion = new Map<number, string[]>();
     for (const bubble of spec.bubbles) {
       const fillRatio = sampleBubbleFillRatio(gray, homography, { x: bubble.x, y: bubble.y });
       if (fillRatio > FILL_THRESHOLD) {
-        const list = markedByQuestion.get(bubble.questionNumber) ?? [];
+        const list = markedByLocalQuestion.get(bubble.questionNumber) ?? [];
         list.push(bubble.option);
-        markedByQuestion.set(bubble.questionNumber, list);
+        markedByLocalQuestion.set(bubble.questionNumber, list);
       }
     }
 
+    const offset = pageOffsets[pageIndex] ?? 0;
     const scans: OmrQuestionScan[] = Array.from({ length: spec.totalQuestions }, (_, i) => ({
-      questionNumber: i + 1,
-      markedOptions: (markedByQuestion.get(i + 1) ?? []) as OmrQuestionScan["markedOptions"],
+      questionNumber: offset + i + 1,
+      markedOptions: (markedByLocalQuestion.get(i + 1) ?? []) as OmrQuestionScan["markedOptions"],
     }));
 
-    const summary = evaluateOmrSheet(scans, answerKey, scheme);
-    pendingPreviewRef.current = { sourceCanvas, homography };
-    setEvaluation(summary);
-    setStage("done");
+    setCompletedPages((prev) => [...prev, { sourceCanvas, homography, scans }]);
+    setStage("captured");
+  }
+
+  function handleRetryPage() {
+    setErrorMessage(null);
+    setStage("idle");
   }
 
   const drawAnnotatedPreview = useCallback(
-    (sourceCanvas: HTMLCanvasElement, homography: HomographyMatrix, summary: OmrSheetEvaluationSummary) => {
-      const previewCanvas = previewCanvasRef.current;
-      if (!previewCanvas) return;
-      previewCanvas.width = sourceCanvas.width;
-      previewCanvas.height = sourceCanvas.height;
-      const ctx = previewCanvas.getContext("2d");
+    (canvas: HTMLCanvasElement | null, page: CompletedPage, spec: OmrSheetSpec, offset: number) => {
+      if (!canvas || !evaluation) return;
+      canvas.width = page.sourceCanvas.width;
+      canvas.height = page.sourceCanvas.height;
+      const ctx = canvas.getContext("2d");
       if (!ctx) return;
-      ctx.drawImage(sourceCanvas, 0, 0);
+      ctx.drawImage(page.sourceCanvas, 0, 0);
 
-      for (const response of summary.responses) {
+      for (const response of evaluation.responses) {
+        const localQuestionNumber = response.questionNumber - offset;
+        if (localQuestionNumber < 1 || localQuestionNumber > spec.totalQuestions) continue;
         const color = OUTCOME_COLOR[response.outcome];
         if (!color) continue;
         const optionsToHighlight =
@@ -168,29 +196,37 @@ export function OmrScanner({ examId, session, spec, answerKey, scheme }: OmrScan
               ? [response.selectedOption]
               : [];
         for (const option of optionsToHighlight) {
-          const bubble = spec.bubbles.find(
-            (b) => b.questionNumber === response.questionNumber && b.option === option
-          );
+          const bubble = spec.bubbles.find((b) => b.questionNumber === localQuestionNumber && b.option === option);
           if (!bubble) continue;
-          const pixel = applyHomography(homography, { x: bubble.x, y: bubble.y });
+          const pixel = applyHomography(page.homography, { x: bubble.x, y: bubble.y });
           ctx.beginPath();
-          ctx.arc(pixel.x, pixel.y, Math.max(8, sourceCanvas.width * 0.008), 0, Math.PI * 2);
+          ctx.arc(pixel.x, pixel.y, Math.max(8, page.sourceCanvas.width * 0.008), 0, Math.PI * 2);
           ctx.strokeStyle = color;
-          ctx.lineWidth = Math.max(2, sourceCanvas.width * 0.002);
+          ctx.lineWidth = Math.max(2, page.sourceCanvas.width * 0.002);
           ctx.stroke();
         }
       }
     },
-    [spec]
+    [evaluation]
   );
 
-  // The preview <canvas> only mounts once stage flips to "done"; draw into it
-  // here, after that mount has actually happened, instead of racing it above.
+  // Once every page has been captured, grade the merged, globally-numbered
+  // scans against the full session answer key — not just the last page.
   useEffect(() => {
-    if (stage !== "done" || !evaluation || !pendingPreviewRef.current) return;
-    const { sourceCanvas, homography } = pendingPreviewRef.current;
-    drawAnnotatedPreview(sourceCanvas, homography, evaluation);
-  }, [stage, evaluation, drawAnnotatedPreview]);
+    if (!allDone || evaluation || completedPages.length !== totalPages || totalPages === 0) return;
+    const allScans = completedPages.flatMap((p) => p.scans);
+    setEvaluation(evaluateOmrSheet(allScans, answerKey, scheme));
+  }, [allDone, evaluation, completedPages, totalPages, answerKey, scheme]);
+
+  // Draw each completed page's annotated preview once the merged evaluation is ready.
+  useEffect(() => {
+    if (!evaluation) return;
+    completedPages.forEach((page, i) => {
+      const spec = specs[i];
+      const offset = pageOffsets[i];
+      if (spec && offset !== undefined) drawAnnotatedPreview(previewRefs.current[i] ?? null, page, spec, offset);
+    });
+  }, [evaluation, completedPages, specs, pageOffsets, drawAnnotatedPreview]);
 
   function handleCapture() {
     const video = videoRef.current;
@@ -229,10 +265,11 @@ export function OmrScanner({ examId, session, spec, answerKey, scheme }: OmrScan
     img.src = objectUrl;
   }
 
-  function handleRetry() {
-    pendingPreviewRef.current = null;
+  function handleRestartAll() {
+    setCompletedPages([]);
     setEvaluation(null);
     setErrorMessage(null);
+    setPageIndex(0);
     setStage("idle");
   }
 
@@ -260,11 +297,18 @@ export function OmrScanner({ examId, session, spec, answerKey, scheme }: OmrScan
       <div>
         <h1 className="text-lg font-bold text-foreground">Scan OMR Sheet</h1>
         <p className="text-sm text-muted-foreground">
-          Line up the printed sheet&apos;s 4 black corner markers with the guide, then capture — or upload a photo.
+          {totalPages > 1
+            ? `This paper printed across ${totalPages} pages — scan each one in order.`
+            : "Line up the printed sheet's 4 black corner markers with the guide, then capture — or upload a photo."}
         </p>
+        {totalPages > 1 && !evaluation ? (
+          <p className="mt-1 text-xs font-semibold text-primary">
+            Page {Math.min(pageIndex + 1, totalPages)} of {totalPages}
+          </p>
+        ) : null}
       </div>
 
-      {stage !== "done" ? (
+      {!allDone && !evaluation && stage !== "captured" ? (
         <div className="flex gap-2">
           <Button
             type="button"
@@ -292,10 +336,15 @@ export function OmrScanner({ examId, session, spec, answerKey, scheme }: OmrScan
         <div className="flex items-start gap-2 rounded-lg border border-destructive/40 bg-destructive/10 p-3 text-sm text-destructive">
           <AlertTriangle className="mt-0.5 h-4 w-4 shrink-0" />
           {errorMessage}
+          {stage === "error" ? (
+            <Button type="button" size="sm" variant="outline" className="ml-auto shrink-0" onClick={handleRetryPage}>
+              Try again
+            </Button>
+          ) : null}
         </div>
       ) : null}
 
-      {mode === "camera" && stage === "idle" ? (
+      {mode === "camera" && stage === "idle" && !allDone ? (
         <Card className="overflow-hidden">
           <div className="relative aspect-[3/4] w-full bg-black">
             {/* eslint-disable-next-line jsx-a11y/media-has-caption */}
@@ -317,19 +366,53 @@ export function OmrScanner({ examId, session, spec, answerKey, scheme }: OmrScan
           <CardContent className="p-3">
             <Button type="button" className="w-full" onClick={handleCapture}>
               <Camera className="h-4 w-4" />
-              Capture
+              Capture {totalPages > 1 ? `Page ${pageIndex + 1}` : ""}
             </Button>
           </CardContent>
         </Card>
       ) : null}
 
-      {stage === "processing" ? (
-        <p className="py-8 text-center text-sm text-muted-foreground">Reading bubbles…</p>
+      {stage === "processing" ? <p className="py-8 text-center text-sm text-muted-foreground">Reading bubbles…</p> : null}
+
+      {allDone && !evaluation ? (
+        <p className="py-8 text-center text-sm text-muted-foreground">Grading your paper…</p>
       ) : null}
 
-      {stage === "done" && evaluation ? (
+      {stage === "captured" && !allDone ? (
+        <div className="flex flex-col items-center gap-3 rounded-lg border border-emerald-500/30 bg-emerald-500/10 p-6 text-center">
+          <CheckCircle2 className="h-6 w-6 text-emerald-600" />
+          <p className="text-sm font-medium text-foreground">
+            Page {pageIndex + 1} of {totalPages} captured.
+          </p>
+          <div className="flex gap-2">
+            <Button type="button" variant="outline" onClick={handleRetryPage}>
+              <RotateCcw className="h-4 w-4" />
+              Rescan this page
+            </Button>
+            <Button
+              type="button"
+              onClick={() => {
+                setStage("idle");
+                setPageIndex((i) => i + 1);
+              }}
+            >
+              {pageIndex + 1 < totalPages ? "Scan Next Page" : "Finish"}
+            </Button>
+          </div>
+        </div>
+      ) : null}
+
+      {evaluation ? (
         <div className="flex flex-col gap-4">
-          <canvas ref={previewCanvasRef} className="w-full rounded-lg border border-border" />
+          {completedPages.map((_, i) => (
+            <canvas
+              key={i}
+              ref={(el) => {
+                previewRefs.current[i] = el;
+              }}
+              className="w-full rounded-lg border border-border"
+            />
+          ))}
 
           <div className="grid grid-cols-2 gap-2 text-center text-sm sm:grid-cols-4">
             <div className="flex flex-col items-center gap-1 rounded-lg bg-emerald-500/10 p-3 text-emerald-600">
@@ -357,9 +440,9 @@ export function OmrScanner({ examId, session, spec, answerKey, scheme }: OmrScan
           </p>
 
           <div className="flex gap-2">
-            <Button type="button" variant="outline" className="flex-1" onClick={handleRetry}>
+            <Button type="button" variant="outline" className="flex-1" onClick={handleRestartAll}>
               <RotateCcw className="h-4 w-4" />
-              Rescan
+              Rescan All
             </Button>
             <Button type="button" className="flex-1" onClick={handleConfirm}>
               Confirm &amp; Generate Diagnostic Report
