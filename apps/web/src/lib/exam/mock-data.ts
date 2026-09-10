@@ -376,54 +376,97 @@ for (const q of [...mentalAbilityQuestions, ...arithmeticQuestions, ...languageQ
 const speedHacksById: Record<string, VedicSpeedHack> = {};
 for (const hack of speedHacks) speedHacksById[hack.id] = hack;
 
+
+const maCount = 40;
+const arCount = 20;
+const laCount = 20;
+const totalJnvst = maCount + arCount + laCount;
+
+const dynamicMa = Array.from({ length: maCount }, (_, i) => ({
+  id: "q-ma-" + (i + 1),
+  sectionKey: "mental_ability",
+  topicKey: "pattern_matching",
+  difficulty: "MEDIUM",
+  content: { en: "Mental Ability Question " + (i + 1), hi: "मानसिक योग्यता प्रश्न " + (i + 1) },
+  options: [
+    { id: "a", text: { en: "Option A" } },
+    { id: "b", text: { en: "Option B" } },
+    { id: "c", text: { en: "Option C" } },
+    { id: "d", text: { en: "Option D" } }
+  ],
+  correctOption: "a",
+  timeLimitSeconds: 60
+}));
+
+const dynamicAr = Array.from({ length: arCount }, (_, i) => ({
+  id: "q-ar-" + (i + 1),
+  sectionKey: "arithmetic",
+  topicKey: "number_systems",
+  difficulty: "MEDIUM",
+  content: { en: "Arithmetic Question " + (i + 1), hi: "अंकगणित प्रश्न " + (i + 1) },
+  options: [
+    { id: "a", text: { en: "Option A" } },
+    { id: "b", text: { en: "Option B" } },
+    { id: "c", text: { en: "Option C" } },
+    { id: "d", text: { en: "Option D" } }
+  ],
+  correctOption: "a",
+  timeLimitSeconds: 60
+}));
+
+const dynamicLa = Array.from({ length: laCount }, (_, i) => ({
+  id: "q-la-" + (i + 1),
+  sectionKey: "language",
+  topicKey: "reading_comprehension",
+  difficulty: "EASY",
+  content: { en: "Language Question " + (i + 1), hi: "भाषा परीक्षण प्रश्न " + (i + 1) },
+  options: [
+    { id: "a", text: { en: "Option A" } },
+    { id: "b", text: { en: "Option B" } },
+    { id: "c", text: { en: "Option C" } },
+    { id: "d", text: { en: "Option D" } }
+  ],
+  correctOption: "a",
+  timeLimitSeconds: 60
+}));
+
+const allJnvstQuestions = [...dynamicMa, ...dynamicAr, ...dynamicLa];
+
 export const demoJnvstSession: ExamSessionData = {
   examId: "demo-jnvst",
   examType: "JNVST",
   templateName: {
-    en: "JNVST Class 6 Selection Test (Demo)",
-    hi: "जेएनवीएसटी कक्षा 6 चयन परीक्षा (डेमो)",
-    mr: "जेएनव्हीएसटी इयत्ता 6 निवड चाचणी (डेमो)",
-    bn: "জেএনভিএসটি ষষ্ঠ শ্রেণির নির্বাচন পরীক্ষা (ডেমো)",
-    ta: "ஜேஎன்விஎஸ்டி 6ஆம் வகுப்பு தேர்வுத் தேர்வு (டெமோ)",
-    gu: "જેએનવીએસટી ધોરણ 6 પસંદગી કસોટી (ડેમો)",
+    en: "JNVST Class 6 Selection Test (Dynamic Blueprint)",
+    hi: "जेएनवीएसटी कक्षा 6 चयन परीक्षा",
   },
-  // Scaled-down demo timing (real JNVST Class 6 is 120 minutes / 80 questions).
-  totalDurationSeconds: 5 * 60 + 3 * 60 + 3 * 60,
+  totalDurationSeconds: totalJnvst * 60,
   negativeMarkingRatio: 0,
   sections: [
     {
       key: "mental_ability",
-      name: {
-        en: "Mental Ability",
-        hi: "मानसिक योग्यता",
-        mr: "मानसिक क्षमता",
-        bn: "মানসিক দক্ষতা",
-        ta: "மனத் திறன்",
-        gu: "માનસિક ક્ષમતા",
-      },
+      name: { en: "Mental Ability", hi: "मानसिक योग्यता" },
       order: 1,
-      timeLimitSeconds: 5 * 60,
-      questionIds: mentalAbilityQuestions.map((q) => q.id),
+      timeLimitSeconds: maCount * 60,
+      questionIds: dynamicMa.map((q) => q.id),
     },
     {
       key: "arithmetic",
       name: { en: "Arithmetic", hi: "अंकगणित" },
       order: 2,
-      timeLimitSeconds: 3 * 60,
-      questionIds: arithmeticQuestions.map((q) => q.id),
+      timeLimitSeconds: arCount * 60,
+      questionIds: dynamicAr.map((q) => q.id),
     },
     {
       key: "language",
       name: { en: "Language", hi: "भाषा" },
       order: 3,
-      timeLimitSeconds: 3 * 60,
-      questionIds: languageQuestions.map((q) => q.id),
+      timeLimitSeconds: laCount * 60,
+      questionIds: dynamicLa.map((q) => q.id),
     },
   ],
-  questionsById,
-  speedHacksById,
+  questionsById: Object.fromEntries(allJnvstQuestions.map(q => [q.id, q])) as any,
+  speedHacksById: {},
 };
-
 
 
 export function getDemoSession(examId: string) {
