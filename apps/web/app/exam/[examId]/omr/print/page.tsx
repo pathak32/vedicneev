@@ -17,7 +17,7 @@ export default function OmrPrintPage({ params }: { params: { examId: string } })
   if (!session) notFound();
 
   const totalQuestions = orderedQuestionIdsForSession(session).length;
-  const spec = buildOmrSpecsForSession(session);
+  const specs = buildOmrSpecsForSession(session);
 
   return (
     <div className="flex flex-col items-center gap-4 bg-muted/40 py-8">

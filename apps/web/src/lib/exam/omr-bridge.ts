@@ -1,60 +1,58 @@
-import { BUBBLE_OPTIONS, generateOmrSheetSpec, type BubbleOption, type OmrAnswerKeyEntry, type OmrSheetSpec } from "@vedicneev/engine";
+import {
+  BUBBLE_OPTIONS,
+  generateOmrSheetSpec,
+  type BubbleOption,
+  type OmrAnswerKeyEntry,
+  type OmrExamType,
+  type OmrSheetSpec,
+} from "@vedicneev/engine";
 
-import type { ExamQuestion, ExamSessionData } from "./types";
+import type { ExamQuestion, ExamSessionData, ExamType } from "./types";
+
+// The app's own ExamType includes "DPS" (private-school admissions), which
+// has no distinct OMR bubble/fiducial layout of its own — the engine's
+// OmrExamType has no such member, so DPS sheets fall back to "OTHER"
+// rather than being force-cast to a type they don't satisfy.
+function toOmrExamType(examType: ExamType): OmrExamType {
+  return examType === "DPS" ? "OTHER" : examType;
+}
 
 /** Global 1-indexed question order, matching the exam player's numbering (section order, then within-section order). */
 export function orderedQuestionIdsForSession(session: ExamSessionData): string[] {
   return session.sections.flatMap((s) => s.questionIds);
 }
 
-/** Builds an OMR bubble-grid spec sized to this session's actual question count. */
-/** Builds an array of OMR bubble-grid specs, chunking questions across multiple A4 pages if necessary. */
+const QUESTIONS_PER_PAGE = 50;
+
+/** Builds an array of OMR bubble-grid specs, chunking questions across multiple A4 pages when the session exceeds one page's capacity. */
 export function buildOmrSpecsForSession(session: ExamSessionData): OmrSheetSpec[] {
-  const orderedIds = orderedQuestionIdsForSession(session);
-  const totalQuestions = orderedIds.length;
-  
-  // Max questions per single A4 page to avoid visual overcrowding / clipping
-  const QUESTIONS_PER_PAGE = 50;
-  
+  const totalQuestions = orderedQuestionIdsForSession(session).length;
+  const examType = toOmrExamType(session.examType);
+  const rollNumberDigits = session.examType === "RMS" ? 5 : 6;
+
   if (totalQuestions <= QUESTIONS_PER_PAGE) {
     const dynamicColumns = totalQuestions > 25 ? 3 : 2;
-    return [
-      generateOmrSheetSpec({
-        examType: session.examType as any,
-        totalQuestions,
-        columns: dynamicColumns,
-        rollNumberDigits: session.examType === "RMS" ? 5 : 6,
-      })
-    ];
+    return [generateOmrSheetSpec({ examType, totalQuestions, columns: dynamicColumns, rollNumberDigits })];
   }
 
-  // Multi-page chunking logic
   const specs: OmrSheetSpec[] = [];
   let remaining = totalQuestions;
-  let offset = 0;
-
   while (remaining > 0) {
     const chunkCount = Math.min(remaining, QUESTIONS_PER_PAGE);
-    specs.push(
-      generateOmrSheetSpec({
-        examType: session.examType as any,
-        totalQuestions: chunkCount,
-        columns: 4,
-        rollNumberDigits: session.examType === "RMS" ? 5 : 6,
-      })
-    );
+    specs.push(generateOmrSheetSpec({ examType, totalQuestions: chunkCount, columns: 4, rollNumberDigits }));
     remaining -= chunkCount;
-    offset += chunkCount;
   }
 
   return specs;
 }
 
-// Backward compatibility wrapper if single spec is expected elsewhere
+// Backward-compatible single-spec accessor for callers (e.g. the scan page)
+// that only ever grade one physical sheet — buildOmrSpecsForSession always
+// returns at least one spec (the <=QUESTIONS_PER_PAGE branch covers
+// totalQuestions === 0 too), so the index is always valid.
 export function buildOmrSpecForSession(session: ExamSessionData): OmrSheetSpec {
-  return buildOmrSpecsForSession(session)[0];
+  return buildOmrSpecsForSession(session)[0]!;
 }
-
 
 export function buildAnswerKeyForSession(session: ExamSessionData): OmrAnswerKeyEntry[] {
   const orderedIds = orderedQuestionIdsForSession(session);

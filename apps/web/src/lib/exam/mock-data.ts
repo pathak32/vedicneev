@@ -1,4 +1,4 @@
-import type { ExamQuestion, ExamSessionData, Multilingual, VedicSpeedHack } from "./types";
+import type { ExamQuestion, ExamSessionData, ExamType, Multilingual, VedicSpeedHack } from "./types";
 
 export const TOPIC_NAMES: Record<string, Multilingual> = {
   number_series: { en: "Number & Letter Series", hi: "संख्या एवं अक्षर श्रृंखला" },
@@ -472,9 +472,9 @@ export const demoJnvstSession: ExamSessionData = {
 
 export function getDemoSession(examId: string) {
   if (examId === "demo-jnvst") return demoJnvstSession;
-  
+
   const lowerId = examId.toLowerCase();
-  let examType = "JNVST";
+  let examType: ExamType = "JNVST";
   let examTitle = "JNVST Class 6 Selection Test";
   let dynamicCount = 80;
 
@@ -492,7 +492,7 @@ export function getDemoSession(examId: string) {
     dynamicCount = 80;
   }
 
-  const questions = Array.from({ length: dynamicCount }, (_, i) => ({
+  const questions: ExamQuestion[] = Array.from({ length: dynamicCount }, (_, i) => ({
     id: "q-" + (i + 1),
     sectionKey: "main_section",
     topicKey: "general",
@@ -508,9 +508,9 @@ export function getDemoSession(examId: string) {
     timeLimitSeconds: 60
   }));
 
-  return {
+  const session: ExamSessionData = {
     examId,
-    examType: examType as any,
+    examType,
     templateName: { en: examTitle },
     totalDurationSeconds: dynamicCount * 60,
     negativeMarkingRatio: 0,
@@ -523,8 +523,8 @@ export function getDemoSession(examId: string) {
         questionIds: questions.map(q => q.id)
       }
     ],
-    questionsById: Object.fromEntries(questions.map(q => [q.id, q])) as any,
+    questionsById: Object.fromEntries(questions.map(q => [q.id, q])),
     speedHacksById: {}
   };
+  return session;
 }
-// Cache breaker Thu Sep 10 13:05:13 IST 2026
