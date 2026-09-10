@@ -8,20 +8,54 @@ export function orderedQuestionIdsForSession(session: ExamSessionData): string[]
 }
 
 /** Builds an OMR bubble-grid spec sized to this session's actual question count. */
-export function buildOmrSpecForSession(session: ExamSessionData): OmrSheetSpec {
-  const totalQuestions = orderedQuestionIdsForSession(session).length;
-  // Dynamically calculate grid columns based on question density and exam type
-  const dynamicColumns = totalQuestions > 90 ? 5 : totalQuestions > 50 ? 4 : totalQuestions > 25 ? 3 : 2;
+/** Builds an array of OMR bubble-grid specs, chunking questions across multiple A4 pages if necessary. */
+export function buildOmrSpecsForSession(session: ExamSessionData): OmrSheetSpec[] {
+  const orderedIds = orderedQuestionIdsForSession(session);
+  const totalQuestions = orderedIds.length;
+  
+  // Max questions per single A4 page to avoid visual overcrowding / clipping
+  const QUESTIONS_PER_PAGE = 50;
+  
+  if (totalQuestions <= QUESTIONS_PER_PAGE) {
+    const dynamicColumns = totalQuestions > 25 ? 3 : 2;
+    return [
+      generateOmrSheetSpec({
+        examType: session.examType as any,
+        totalQuestions,
+        columns: dynamicColumns,
+        rollNumberDigits: session.examType === "RMS" ? 5 : 6,
+      })
+    ];
+  }
 
-  return generateOmrSheetSpec({
-    examType: session.examType as any,
-    totalQuestions,
-    columns: dynamicColumns,
-    rollNumberDigits: session.examType === "RMS" ? 5 : 6,
-  });
+  // Multi-page chunking logic
+  const specs: OmrSheetSpec[] = [];
+  let remaining = totalQuestions;
+  let offset = 0;
+
+  while (remaining > 0) {
+    const chunkCount = Math.min(remaining, QUESTIONS_PER_PAGE);
+    specs.push(
+      generateOmrSheetSpec({
+        examType: session.examType as any,
+        totalQuestions: chunkCount,
+        columns: 4,
+        rollNumberDigits: session.examType === "RMS" ? 5 : 6,
+      })
+    );
+    remaining -= chunkCount;
+    offset += chunkCount;
+  }
+
+  return specs;
 }
 
-/** Maps each question's correct answer to its OMR bubble letter (A-D), by option position. */
+// Backward compatibility wrapper if single spec is expected elsewhere
+export function buildOmrSpecForSession(session: ExamSessionData): OmrSheetSpec {
+  return buildOmrSpecsForSession(session)[0];
+}
+
+
 export function buildAnswerKeyForSession(session: ExamSessionData): OmrAnswerKeyEntry[] {
   const orderedIds = orderedQuestionIdsForSession(session);
   return orderedIds.map((questionId, index) => {
