@@ -470,27 +470,45 @@ export const demoJnvstSession: ExamSessionData = {
 
 
 
+// Real per-board, per-class question counts — matches
+// apps/web/src/lib/marketing/examBoards.ts's BOARD_DATA (the same source
+// of truth the homepage's exam-track picker and exam-board pages use), so
+// a dynamic session's length never drifts from what's advertised there.
+const BLUEPRINT_QUESTION_COUNT: Record<ExamType, { "6": number; "9": number }> = {
+  JNVST: { "6": 80, "9": 100 },
+  AISSEE: { "6": 125, "9": 150 },
+  RMS: { "6": 150, "9": 200 },
+  DPS: { "6": 80, "9": 100 },
+};
+
+const BOARD_FULL_NAME: Record<ExamType, string> = {
+  JNVST: "Jawahar Navodaya Vidyalaya Selection Test (JNVST)",
+  AISSEE: "All India Sainik School Entrance Exam (AISSEE)",
+  RMS: "Rashtriya Military Schools (RMS)",
+  DPS: "DPS & Elite Private Schools",
+};
+
 export function getDemoSession(examId: string) {
   if (examId === "demo-jnvst") return demoJnvstSession;
 
   const lowerId = examId.toLowerCase();
   let examType: ExamType = "JNVST";
-  let examTitle = "JNVST Class 6 Selection Test";
-  let dynamicCount = 80;
 
   if (lowerId.includes("rms") || lowerId.includes("military")) {
     examType = "RMS";
-    examTitle = "Rashtriya Military Schools (RMS) Class 6 Entrance Exam";
-    dynamicCount = 200; // RMS standard blueprint count
   } else if (lowerId.includes("aissee") || lowerId.includes("sainik")) {
     examType = "AISSEE";
-    examTitle = "All India Sainik School Entrance Exam (AISSEE)";
-    dynamicCount = 125; // AISSEE standard blueprint count
   } else if (lowerId.includes("jnvst") || lowerId.includes("navodaya")) {
     examType = "JNVST";
-    examTitle = "Jawahar Navodaya Vidyalaya Selection Test (JNVST)";
-    dynamicCount = 80;
   }
+
+  // Explicit class detection — "class-9"/"class9"/a bare "-9" all count,
+  // same for class 6; defaults to Class 6 when the id names neither (e.g.
+  // a bare "jnvst-live" slug), since every board's Class 6 track is its
+  // primary/first-offered one.
+  const classLevel: "6" | "9" = /class-?9|(?:^|[^0-9])9(?:$|[^0-9])/.test(lowerId) ? "9" : "6";
+  const dynamicCount = BLUEPRINT_QUESTION_COUNT[examType][classLevel];
+  const examTitle = `${BOARD_FULL_NAME[examType]} — Class ${classLevel} Entrance Exam`;
 
   const questions: ExamQuestion[] = Array.from({ length: dynamicCount }, (_, i) => ({
     id: "q-" + (i + 1),

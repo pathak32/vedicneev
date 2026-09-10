@@ -7,6 +7,8 @@ export interface OmrPrintSheetProps {
 
 const BUBBLE_SIZE_MM = 4.2;
 const ROLL_BUBBLE_SIZE_MM = 3.6;
+const WATERMARK_TEXT = "CONFIDENTIAL — VEDIC NEEV EXCLUSIVE PROPERTY. UNAUTHORIZED REPRODUCTION PROHIBITED.";
+const WATERMARK_ROWS = 18;
 
 /** Groups a spec's flat bubble list into one entry per question, in question order. */
 function groupBubblesByQuestion(bubbles: OmrBubblePosition[]): [number, OmrBubblePosition[]][] {
@@ -35,9 +37,26 @@ export function OmrPrintSheet({ specs, examName }: OmrPrintSheetProps) {
         return (
           <div
             key={pageIndex}
-            className="relative mx-auto bg-white text-black print:m-0 print:break-after-page mb-8 shadow-md"
+            className="relative mx-auto overflow-hidden bg-white text-black print:m-0 print:break-after-page mb-8 shadow-md"
             style={{ width: "210mm", height: "297mm", pageBreakAfter: "always" }}
           >
+            {/* Security watermark — rendered first (behind every other
+                layer, no z-index needed) at ~8% opacity. That's faint
+                enough that even where it crosses a bubble or the fiducial
+                search bands, the added darkness stays far under both
+                detection thresholds (0.35 fiducial confidence, 0.42 bubble
+                fill) — verified against sampleDarkness's math: a
+                near-white (~pixel 250+) watermark stroke contributes
+                (255-250)/255 ≈ 0.02, nowhere near either threshold. */}
+            <div className="pointer-events-none absolute inset-0 select-none overflow-hidden" aria-hidden="true">
+              <div
+                className="absolute left-1/2 top-1/2 whitespace-pre text-center text-[13px] font-bold uppercase leading-[40px] text-gray-300"
+                style={{ transform: "translate(-50%, -50%) rotate(-30deg)", width: "380mm", opacity: 0.08 }}
+              >
+                {Array.from({ length: WATERMARK_ROWS }, () => WATERMARK_TEXT).join("\n")}
+              </div>
+            </div>
+
             {/* Fiducial corner markers — scanner homography anchors */}
             {spec.fiducials.map((f) => (
               <div
@@ -91,10 +110,14 @@ export function OmrPrintSheet({ specs, examName }: OmrPrintSheetProps) {
               const rowAnchor = bubbles[0]!;
               return (
                 <div key={`q-${questionNumber}`}>
+                  {/* Right-aligned, ending a full 1mm before option A's own
+                      left edge (bubble center - BUBBLE_SIZE_MM/2) — wide
+                      enough for 3-digit question numbers (AISSEE Class 9
+                      runs to 150) without ever touching the bubble. */}
                   <div
-                    className="absolute w-[6mm] text-right text-[6.5px] font-bold leading-none"
+                    className="absolute w-[9mm] whitespace-nowrap text-right text-[6.5px] font-bold leading-none"
                     style={{
-                      left: `calc(${rowAnchor.x * 100}% - 7mm)`,
+                      left: `calc(${rowAnchor.x * 100}% - 12mm)`,
                       top: `${rowAnchor.y * 100}%`,
                       transform: "translateY(-50%)",
                     }}
