@@ -18,8 +18,9 @@ import { RemedialRecommendations } from "@/components/analytics/RemedialRecommen
 import { ScoreHero, type CandidateProfile } from "@/components/analytics/ScoreHero";
 import { SectionBreakdown } from "@/components/analytics/SectionBreakdown";
 import { SpeedAccuracyMatrix } from "@/components/analytics/SpeedAccuracyMatrix";
+import { PhoneAuthModal } from "@/components/auth/PhoneAuthModal";
 import { useActiveStudent } from "@/lib/auth/ActiveStudentContext";
-import { selectActiveParent, selectNotificationPreferences, useAuthStore } from "@/lib/auth/useAuthStore";
+import { selectActiveAccount, selectActiveParent, selectNotificationPreferences, useAuthStore } from "@/lib/auth/useAuthStore";
 import { SAMPLE_HISTORICAL_CUTOFFS, SAMPLE_STATES } from "@/lib/exam/cutoff-data";
 import { buildDiagnosticReport } from "@/lib/exam/diagnostics";
 import { getDemoSession } from "@/lib/exam/mock-data";
@@ -43,6 +44,7 @@ export default function ExamResultsPage({ params }: { params: { examId: string }
   const submittedAt = useTestStore((s) => s.submittedAt);
   const initSession = useTestStore((s) => s.initSession);
   const { activeStudent } = useActiveStudent();
+  const [authOpen, setAuthOpen] = useState(false);
   const recordTestResult = useAuthStore((s) => s.recordTestResult);
   const logMistakes = useAuthStore((s) => s.logMistakes);
   const parent = useAuthStore(selectActiveParent);
@@ -233,6 +235,36 @@ export default function ExamResultsPage({ params }: { params: { examId: string }
             Go to exam
           </Link>
         </Button>
+      </div>
+    );
+  }
+
+  // An attempt taken via ExamPlayer's allowAnonymous path (the Mock Exam
+  // Series "Sign in later" flow) has a real, submitted report sitting in
+  // useTestStore, but no activeStudent yet — the sign-in prompt deferred
+  // from ExamPlayer lands here instead. Signing in makes activeStudent
+  // non-null, which re-renders straight into the full report below; the
+  // finalize() effect above (gated on `activeStudent`) then fires and syncs
+  // this same submission to /api/exam/submit retroactively, exactly as if
+  // the student had signed in before starting.
+  if (!activeStudent) {
+    return (
+      <div className="mx-auto flex max-w-md flex-col items-center gap-4 p-16 text-center">
+        <p className="text-lg font-semibold text-foreground">Sign in to see your results</p>
+        <p className="text-sm text-muted-foreground">
+          Your score is ready — sign in to save it to a student profile and view the full diagnostic report.
+        </p>
+        <Button type="button" onClick={() => setAuthOpen(true)}>
+          Sign In
+        </Button>
+        <PhoneAuthModal
+          open={authOpen}
+          onOpenChange={setAuthOpen}
+          onAuthenticated={() => {
+            const account = selectActiveAccount(useAuthStore.getState());
+            if (!account || account.students.length === 0) router.push("/onboarding");
+          }}
+        />
       </div>
     );
   }

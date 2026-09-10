@@ -89,6 +89,73 @@ export async function getJnvstClassSixBlueprint(): Promise<JnvstBlueprint | Jnvs
   };
 }
 
+/** Shared PreviousYearQuestion -> ExamQuestion hydration, used by both generateJnvstMockSession and getJnvstSampleQuestions below so the two can never format a question differently. */
+function hydratePyqRow(
+  q: { id: string; sectionId: string; optionsJson: unknown; correctAnswer: number; difficulty: string; questionJson: unknown; explanation: unknown },
+  sectionKeyById: Map<string, JnvstSectionKey>
+): ExamQuestion {
+  const sectionKey = sectionKeyById.get(q.sectionId) ?? "mental_ability";
+  const optionTexts = q.optionsJson as unknown[];
+  const options: ExamOption[] = optionTexts.map((text, index) => ({
+    id: OPTION_IDS[index] ?? String(index),
+    text: asMultilingual(text, `PreviousYearQuestion ${q.id} option ${index}`),
+  }));
+  const correctOption = OPTION_IDS[q.correctAnswer] ?? OPTION_IDS[0];
+
+  return {
+    id: q.id,
+    sectionKey,
+    // PreviousYearQuestion tracks section-level granularity only (no topic
+    // FK, per the model's design) — "pyq" is a fixed marker, not a real
+    // Topic.key, so downstream topic-name lookups (e.g. the Mistake Vault's
+    // TOPIC_NAMES map) should treat it as "uncategorized" rather than crash
+    // on a missing key.
+    topicKey: "pyq",
+    difficulty: q.difficulty as QuestionDifficulty,
+    content: asMultilingual(q.questionJson, `PreviousYearQuestion ${q.id} questionJson`),
+    options,
+    correctOption,
+    explanation: asMultilingual(q.explanation, `PreviousYearQuestion ${q.id} explanation`),
+    timeLimitSeconds: 60,
+  };
+}
+
+/**
+ * One PreviousYearQuestion per section (Mental Ability / Arithmetic /
+ * Language) for the pre-auth preview shown on the Mock Exam Series intro
+ * screen, before a visitor picks "Sign in first" or "Sign in later" — see
+ * getTopicSampleQuestions in topicPracticeService.ts for the same pattern
+ * applied to single-topic practice. Read-only and side-effect-free.
+ */
+export async function getJnvstSampleQuestions(): Promise<{ questions: ExamQuestion[] } | JnvstMockGenerationError> {
+  const template = await prisma.examTemplate.findUnique({
+    where: { slug: JNVST_TEMPLATE_SLUG },
+    include: { sections: { include: { section: true }, orderBy: { order: "asc" } } },
+  });
+  if (!template) {
+    return { error: `Exam template "${JNVST_TEMPLATE_SLUG}" isn't seeded yet.` };
+  }
+
+  const sectionKeyById = new Map<string, JnvstSectionKey>(
+    template.sections.map((s) => [s.sectionId, s.section.key as JnvstSectionKey])
+  );
+
+  const rows = await Promise.all(
+    template.sections.map((s) =>
+      prisma.previousYearQuestion.findFirst({
+        where: { examType: "JNVST", classLevel: 6, sectionId: s.sectionId },
+        orderBy: { id: "asc" },
+      })
+    )
+  );
+
+  const questions = rows
+    .filter((q): q is NonNullable<typeof q> => q !== null)
+    .map((q) => hydratePyqRow(q, sectionKeyById));
+
+  return { questions };
+}
+
 /**
  * Assembles and returns a fresh, ready-to-launch JNVST Class 6 mock paper:
  * fetches the real exam blueprint (ExamTemplate "jnvst-class-6" + its
@@ -142,30 +209,7 @@ export async function generateJnvstMockSession(): Promise<JnvstMockGenerationRes
 
   const questionsById: Record<string, ExamQuestion> = {};
   for (const q of drawnQuestions) {
-    const sectionKey = sectionKeyById.get(q.sectionId) ?? "mental_ability";
-    const optionTexts = q.optionsJson as unknown[];
-    const options: ExamOption[] = optionTexts.map((text, index) => ({
-      id: OPTION_IDS[index] ?? String(index),
-      text: asMultilingual(text, `PreviousYearQuestion ${q.id} option ${index}`),
-    }));
-    const correctOption = OPTION_IDS[q.correctAnswer] ?? OPTION_IDS[0];
-
-    questionsById[q.id] = {
-      id: q.id,
-      sectionKey,
-      // PreviousYearQuestion tracks section-level granularity only (no
-      // topic FK, per the model's design) — "pyq" is a fixed marker, not a
-      // real Topic.key, so downstream topic-name lookups (e.g. the Mistake
-      // Vault's TOPIC_NAMES map) should treat it as "uncategorized" rather
-      // than crash on a missing key.
-      topicKey: "pyq",
-      difficulty: q.difficulty as QuestionDifficulty,
-      content: asMultilingual(q.questionJson, `PreviousYearQuestion ${q.id} questionJson`),
-      options,
-      correctOption,
-      explanation: asMultilingual(q.explanation, `PreviousYearQuestion ${q.id} explanation`),
-      timeLimitSeconds: 60,
-    };
+    questionsById[q.id] = hydratePyqRow(q, sectionKeyById);
   }
 
   const sections: ExamSectionConfig[] = template.sections.map((s) => ({

@@ -24,9 +24,21 @@ export interface ExamPlayerProps {
   session: ExamSessionData;
   /** In Practice Mode, arithmetic questions linked to a Vedic speed hack show an optional tip. */
   practiceMode?: boolean;
+  /**
+   * Skip the sign-in wall and run the attempt without an activeStudent —
+   * the "Sign in later" path from the Mock Exam Series entry screen.
+   * checkExamAccess still runs (subscription/freeMockTestsUsed both
+   * resolve to their signed-out defaults — null/0 — which always grants
+   * FREE_TIER_AVAILABLE), so this only ever opens up the same free first
+   * attempt an anonymous visitor could already get by signing in; a
+   * signed-in student's paid-tier gating is untouched.
+   * app/exam/[examId]/results/page.tsx is where the deferred sign-in
+   * prompt actually lives, once the attempt is submitted.
+   */
+  allowAnonymous?: boolean;
 }
 
-export function ExamPlayer({ session, practiceMode = true }: ExamPlayerProps) {
+export function ExamPlayer({ session, practiceMode = true, allowAnonymous = false }: ExamPlayerProps) {
   const router = useRouter();
   const { hasHydrated, isAuthenticated, activeStudent, needsOnboarding } = useActiveStudent();
   const [authOpen, setAuthOpen] = useState(false);
@@ -59,12 +71,12 @@ export function ExamPlayer({ session, practiceMode = true }: ExamPlayerProps) {
   // session (answers, timers, everything) with a freshly reset one on
   // every remount, defeating the point of persisting it.
   useEffect(() => {
-    if (!activeStudent || !access.allowed || !testStoreHasHydrated) return;
+    if ((!activeStudent && !allowAnonymous) || !access.allowed || !testStoreHasHydrated) return;
     const restored = useTestStore.getState();
     const alreadyResuming = restored.session?.examId === session.examId && !restored.submitted;
     if (alreadyResuming) return;
     initSession(session);
-  }, [session, initSession, activeStudent, access.allowed, testStoreHasHydrated]);
+  }, [session, initSession, activeStudent, allowAnonymous, access.allowed, testStoreHasHydrated]);
 
   // A locked mock test opens the paywall instead of starting the exam.
   useEffect(() => {
@@ -142,7 +154,7 @@ export function ExamPlayer({ session, practiceMode = true }: ExamPlayerProps) {
 
   if (!hasHydrated || !testStoreHasHydrated) return null;
 
-  if (!isAuthenticated) {
+  if (!isAuthenticated && !allowAnonymous) {
     return (
       <div className="mx-auto flex max-w-md flex-col items-center gap-4 p-16 text-center">
         <p className="text-lg font-semibold text-foreground">Sign in to start this test</p>
@@ -164,7 +176,7 @@ export function ExamPlayer({ session, practiceMode = true }: ExamPlayerProps) {
     );
   }
 
-  if (needsOnboarding || !activeStudent) {
+  if (needsOnboarding || (!activeStudent && !allowAnonymous)) {
     return <div className="p-8 text-center text-muted-foreground">Setting up your student profile…</div>;
   }
 
