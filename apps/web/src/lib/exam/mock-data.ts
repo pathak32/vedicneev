@@ -469,11 +469,28 @@ export const demoJnvstSession: ExamSessionData = {
 };
 
 
+
 export function getDemoSession(examId: string) {
   if (examId === "demo-jnvst") return demoJnvstSession;
   
-  const isRmsOrSainik = examId.includes("rms") || examId.includes("aissee") || examId.includes("sainik");
-  const dynamicCount = isRmsOrSainik ? 100 : 80;
+  const lowerId = examId.toLowerCase();
+  let examType = "JNVST";
+  let examTitle = "JNVST Class 6 Selection Test";
+  let dynamicCount = 80;
+
+  if (lowerId.includes("rms") || lowerId.includes("military")) {
+    examType = "RMS";
+    examTitle = "Rashtriya Military Schools (RMS) Class 6 Entrance Exam";
+    dynamicCount = 200; // RMS standard blueprint count
+  } else if (lowerId.includes("aissee") || lowerId.includes("sainik")) {
+    examType = "AISSEE";
+    examTitle = "All India Sainik School Entrance Exam (AISSEE)";
+    dynamicCount = 125; // AISSEE standard blueprint count
+  } else if (lowerId.includes("jnvst") || lowerId.includes("navodaya")) {
+    examType = "JNVST";
+    examTitle = "Jawahar Navodaya Vidyalaya Selection Test (JNVST)";
+    dynamicCount = 80;
+  }
 
   const questions = Array.from({ length: dynamicCount }, (_, i) => ({
     id: "q-" + (i + 1),
@@ -493,14 +510,14 @@ export function getDemoSession(examId: string) {
 
   return {
     examId,
-    examType: (examId.toUpperCase() in { JNVST: 1, AISSEE: 1, RMS: 1 } ? examId.toUpperCase() : "JNVST") as any,
-    templateName: { en: examId.toUpperCase() + " Examination Blueprint" },
+    examType: examType as any,
+    templateName: { en: examTitle },
     totalDurationSeconds: dynamicCount * 60,
     negativeMarkingRatio: 0,
     sections: [
       {
         key: "main_section",
-        name: { en: "Full Exam Blueprint" },
+        name: { en: examType + " Main Blueprint" },
         order: 1,
         timeLimitSeconds: dynamicCount * 60,
         questionIds: questions.map(q => q.id)
