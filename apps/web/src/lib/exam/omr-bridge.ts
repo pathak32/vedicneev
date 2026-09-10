@@ -46,6 +46,22 @@ export function buildOmrSpecsForSession(session: ExamSessionData): OmrSheetSpec[
   return specs;
 }
 
+/**
+ * Deterministic "VN" + 6-digit roll number for a session's OMR sheet —
+ * same examId always reproduces the same number (so reprinting a sheet
+ * doesn't hand a student a different roll number than their first copy),
+ * starting from VN100000. A simple string hash, not cryptographic — this
+ * only needs to be stable and roughly spread out, not unguessable.
+ */
+export function generateVedicNeevRollNumber(examId: string): string {
+  let hash = 0;
+  for (let i = 0; i < examId.length; i++) {
+    hash = (hash * 31 + examId.charCodeAt(i)) >>> 0;
+  }
+  const digits = 100000 + (hash % 900000);
+  return `VN${digits}`;
+}
+
 export function buildAnswerKeyForSession(session: ExamSessionData): OmrAnswerKeyEntry[] {
   const orderedIds = orderedQuestionIdsForSession(session);
   return orderedIds.map((questionId, index) => {

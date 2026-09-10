@@ -6,7 +6,7 @@ import { Printer } from "lucide-react";
 
 import { OmrPrintSheet } from "@/components/omr/OmrPrintSheet";
 import { getDemoSession } from "@/lib/exam/mock-data";
-import { buildOmrSpecsForSession, orderedQuestionIdsForSession } from "@/lib/exam/omr-bridge";
+import { buildOmrSpecsForSession, generateVedicNeevRollNumber, orderedQuestionIdsForSession } from "@/lib/exam/omr-bridge";
 
 // Nothing here is prerenderable (demo session data, print-triggering client
 // code) — force dynamic so the build never attempts static collection.
@@ -35,7 +35,11 @@ export default function OmrPrintPage({ params }: { params: { examId: string } })
       </div>
 
       <div className="overflow-auto shadow-lg print:shadow-none">
-        <OmrPrintSheet specs={specs} examName={session.templateName.en} />
+        <OmrPrintSheet
+          specs={specs}
+          examName={session.templateName.en}
+          vedicNeevRollNumber={generateVedicNeevRollNumber(session.examId)}
+        />
       </div>
     </div>
   );

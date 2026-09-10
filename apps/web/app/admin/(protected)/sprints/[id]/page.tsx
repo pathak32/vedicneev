@@ -1,7 +1,8 @@
 import { notFound } from "next/navigation";
 import { prisma } from "@vedicneev/db";
+import Link from "next/link";
 import { Button } from "@vedicneev/ui";
-import { Download } from "lucide-react";
+import { Download, Users } from "lucide-react";
 
 import { localize } from "@/lib/exam/localize";
 import type { Multilingual } from "@/lib/exam/types";
@@ -30,12 +31,20 @@ export default async function AdminSprintDetailPage({ params }: { params: { id: 
             {pool.questions.length} questions in pool · {pool.totalMarks} marks · {pool.durationMinutes} min
           </p>
         </div>
-        <Button asChild variant="outline">
-          <a href={`/api/admin/sprints/${sprint.id}/export-pdf`} target="_blank" rel="noopener noreferrer">
-            <Download className="h-4 w-4" />
-            Export Master PDF
-          </a>
-        </Button>
+        <div className="flex gap-2">
+          <Button asChild variant="outline">
+            <Link href={`/admin/sprints/${sprint.id}/registrations`}>
+              <Users className="h-4 w-4" />
+              View Registrations
+            </Link>
+          </Button>
+          <Button asChild variant="outline">
+            <a href={`/api/admin/sprints/${sprint.id}/export-pdf`} target="_blank" rel="noopener noreferrer">
+              <Download className="h-4 w-4" />
+              Export Master PDF
+            </a>
+          </Button>
+        </div>
       </div>
 
       <div className="rounded-lg border border-dashed border-amber-500/40 bg-amber-500/5 p-3 text-xs text-muted-foreground">
