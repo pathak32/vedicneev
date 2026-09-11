@@ -23,6 +23,8 @@ export function localizeMediaText(map: MediaBilingualText, language: string): st
   return language === "hi" ? map.hi : map.en;
 }
 
+export type MediaClassLevel = "CLASS_6" | "CLASS_9";
+
 export interface MediaItem {
   id: string;
   title: MediaBilingualText;
@@ -36,14 +38,19 @@ export interface MediaItem {
   /** Bilingual transcript, mainly for AUDIO_POD's transcript toggle. */
   transcript: MediaBilingualText | null;
   topicId: string | null;
+  /** The owning Topic's `key` (e.g. "pattern_completion"), not its DB cuid — findMediaForTopic and the diagnostic engine both identify topics by this stable key, never by topicId. Null exactly when topicId is null. */
+  topicKey: string | null;
   vedicSpeedHackId: string | null;
   targetExams: string[];
+  /** Already resolved server-side (Topic.targetClass inheritance) — null means "both classes" (exactly like Topic.targetExam's own null-means-agnostic convention), not "unresolved." */
+  targetClass: MediaClassLevel | null;
 }
 
 export interface MediaFilterOptions {
   mediaType?: MediaType;
   topicId?: string;
   targetExam?: string;
+  targetClass?: MediaClassLevel;
 }
 
 export function filterMediaItems(items: MediaItem[], options: MediaFilterOptions = {}): MediaItem[] {
@@ -51,6 +58,7 @@ export function filterMediaItems(items: MediaItem[], options: MediaFilterOptions
     if (options.mediaType && item.mediaType !== options.mediaType) return false;
     if (options.topicId && item.topicId !== options.topicId) return false;
     if (options.targetExam && !item.targetExams.includes(options.targetExam)) return false;
+    if (options.targetClass && item.targetClass !== null && item.targetClass !== options.targetClass) return false;
     return true;
   });
 }
@@ -63,8 +71,8 @@ export function findMediaForSpeedHack(items: MediaItem[], vedicSpeedHackId: stri
   return items.filter((item) => item.vedicSpeedHackId === vedicSpeedHackId);
 }
 
-export function findMediaForTopic(items: MediaItem[], topicId: string): MediaItem[] {
-  return items.filter((item) => item.topicId === topicId);
+export function findMediaForTopic(items: MediaItem[], topicKey: string): MediaItem[] {
+  return items.filter((item) => item.topicKey === topicKey);
 }
 
 export function groupMediaByType(items: MediaItem[]): Record<MediaType, MediaItem[]> {

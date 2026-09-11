@@ -1,6 +1,5 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import Link from "next/link";
 import {
   Button,
@@ -10,9 +9,9 @@ import {
   DialogHeader,
   DialogTitle,
 } from "@vedicneev/ui";
-import { formatDuration, localizeMediaText } from "@vedicneev/engine";
+import { localizeMediaText, parseMediaEmbedUrl } from "@vedicneev/engine";
 import type { AccessResult, MediaItem } from "@vedicneev/engine";
-import { GraduationCap, Lock, Pause, Play, Sparkles } from "lucide-react";
+import { GraduationCap, Lock, Sparkles } from "lucide-react";
 
 import type { LanguageCode } from "@/lib/exam/types";
 
@@ -25,6 +24,7 @@ export interface ConceptClinicPlayerProps {
   onUnlockRequested: () => void;
 }
 
+/** Real playback via a YouTube/Vimeo iframe, mounted only while the dialog is open (closing it unmounts the iframe, which stops playback with no provider JS API needed). */
 export function ConceptClinicPlayer({
   item,
   language,
@@ -33,23 +33,7 @@ export function ConceptClinicPlayer({
   access,
   onUnlockRequested,
 }: ConceptClinicPlayerProps) {
-  const [playing, setPlaying] = useState(false);
-  const [progress, setProgress] = useState(0);
-
-  useEffect(() => {
-    if (!open) {
-      setPlaying(false);
-      setProgress(0);
-    }
-  }, [open]);
-
-  useEffect(() => {
-    if (!playing || !access.allowed) return;
-    const intervalId = window.setInterval(() => {
-      setProgress((p) => Math.min(item.durationSeconds, p + 1));
-    }, 1000);
-    return () => window.clearInterval(intervalId);
-  }, [playing, access.allowed, item.durationSeconds]);
+  const embed = item.videoUrl ? parseMediaEmbedUrl(item.videoUrl) : null;
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
@@ -62,39 +46,30 @@ export function ConceptClinicPlayer({
           <DialogDescription>{localizeMediaText(item.description, language)}</DialogDescription>
         </DialogHeader>
 
-        <div className="flex flex-col items-center justify-center gap-3 rounded-lg bg-gradient-to-br from-primary/20 to-muted p-8 text-center">
-          {!access.allowed ? (
-            <>
-              <Lock className="h-8 w-8 text-muted-foreground" />
-              <p className="text-sm text-muted-foreground">Concept clinics are part of Vedic All-Access.</p>
-              <Button type="button" onClick={onUnlockRequested}>
-                Unlock with All-Access
-              </Button>
-            </>
-          ) : (
-            <>
-              <Sparkles className="h-8 w-8 text-primary" />
-              <p className="text-xs uppercase tracking-wide text-muted-foreground">
-                Demo mode — no video file attached
-              </p>
-              <Button type="button" size="lg" onClick={() => setPlaying((p) => !p)}>
-                {playing ? <Pause className="h-4 w-4" /> : <Play className="h-4 w-4" />}
-                {playing ? "Pause" : "Play"}
-              </Button>
-              <div className="w-full">
-                <div className="h-1.5 w-full overflow-hidden rounded-full bg-muted-foreground/20">
-                  <div
-                    className="h-full bg-primary transition-[width]"
-                    style={{ width: `${(progress / item.durationSeconds) * 100}%` }}
-                  />
-                </div>
-                <p className="mt-1 text-xs text-muted-foreground">
-                  {formatDuration(progress)} / {formatDuration(item.durationSeconds)}
-                </p>
-              </div>
-            </>
-          )}
-        </div>
+        {!access.allowed ? (
+          <div className="flex flex-col items-center justify-center gap-3 rounded-lg bg-gradient-to-br from-primary/20 to-muted p-8 text-center">
+            <Lock className="h-8 w-8 text-muted-foreground" />
+            <p className="text-sm text-muted-foreground">Concept clinics are part of Vedic All-Access.</p>
+            <Button type="button" onClick={onUnlockRequested}>
+              Unlock with All-Access
+            </Button>
+          </div>
+        ) : open && embed ? (
+          <div className="aspect-video w-full overflow-hidden rounded-lg">
+            <iframe
+              src={embed.embedUrl}
+              title={localizeMediaText(item.title, language)}
+              className="h-full w-full"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
+        ) : (
+          <div className="flex flex-col items-center justify-center gap-3 rounded-lg bg-gradient-to-br from-primary/20 to-muted p-8 text-center">
+            <Sparkles className="h-8 w-8 text-primary" />
+            <p className="text-xs uppercase tracking-wide text-muted-foreground">This clinic&apos;s video isn&apos;t available yet.</p>
+          </div>
+        )}
 
         {access.allowed ? (
           <Button asChild variant="outline">

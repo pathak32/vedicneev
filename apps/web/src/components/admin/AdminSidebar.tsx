@@ -4,7 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Button, Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger, cn } from "@vedicneev/ui";
-import { BookOpenCheck, LayoutDashboard, Menu, Newspaper, Settings, Sparkles, Trophy, Zap } from "lucide-react";
+import { BookOpenCheck, Film, LayoutDashboard, Menu, Newspaper, Settings, Sparkles, Trophy, Zap } from "lucide-react";
 
 const NAV_ITEMS = [
   { href: "/admin", label: "Overview", icon: LayoutDashboard },
@@ -12,6 +12,7 @@ const NAV_ITEMS = [
   { href: "/admin/exams", label: "Question Bank Seeding", icon: BookOpenCheck },
   { href: "/admin/sprints", label: "National Sprint Review", icon: Trophy },
   { href: "/admin/speed-challenge", label: "Speed Challenge", icon: Zap },
+  { href: "/admin/media", label: "Media Library", icon: Film },
   { href: "/admin/settings", label: "System Settings", icon: Settings },
 ] as const;
 

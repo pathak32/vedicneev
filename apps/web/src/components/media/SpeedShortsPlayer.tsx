@@ -3,13 +3,12 @@
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { Badge, Button, cn } from "@vedicneev/ui";
-import { localizeMediaText } from "@vedicneev/engine";
+import { localizeMediaText, parseMediaEmbedUrl } from "@vedicneev/engine";
 import type { AccessResult, MediaItem } from "@vedicneev/engine";
-import { Lock, Pause, Play, Sparkles, Volume2, VolumeX, X } from "lucide-react";
+import { Lock, Sparkles, X } from "lucide-react";
 
 import type { LanguageCode } from "@/lib/exam/types";
 
-const SPEEDS = [1, 1.25] as const;
 const SWIPE_THRESHOLD_PX = 50;
 
 export interface SpeedShortsPlayerProps {
@@ -24,6 +23,15 @@ export interface SpeedShortsPlayerProps {
   onUnlockRequested: (access: AccessResult) => void;
 }
 
+/**
+ * TikTok-style vertical swipe reel — real playback via a YouTube/Vimeo
+ * iframe (mounted only for the active item, so swiping away naturally stops
+ * it, no provider JS API needed). Video hosting is embed-only (see
+ * parseMediaEmbedUrl), so this drops the old fake Play/Pause/Mute/Speed
+ * buttons that only ever sat over a placeholder — the provider's own player
+ * chrome (`controls=1`) replaces them; swipe/keyboard navigation and the
+ * access-gating overlay stay real and unchanged.
+ */
 export function SpeedShortsPlayer({
   items,
   initialIndex,
@@ -34,48 +42,26 @@ export function SpeedShortsPlayer({
   onUnlockRequested,
 }: SpeedShortsPlayerProps) {
   const [index, setIndex] = useState(initialIndex);
-  const [playing, setPlaying] = useState(true);
-  const [progress, setProgress] = useState(0);
-  const [muted, setMuted] = useState(false);
-  const [speed, setSpeed] = useState<(typeof SPEEDS)[number]>(1);
   const [lang, setLang] = useState<LanguageCode>(language);
   const consumedRef = useRef(new Set<string>());
   const touchStartY = useRef<number | null>(null);
 
   const item = items[index];
   const access = item ? getAccess(item) : { allowed: false, reason: "REQUIRES_ALL_ACCESS" as const, requiresUpgrade: true, suggestedPlans: [] };
+  const embed = item?.videoUrl ? parseMediaEmbedUrl(item.videoUrl) : null;
 
   function goTo(nextIndex: number) {
     if (nextIndex < 0 || nextIndex >= items.length) return;
     setIndex(nextIndex);
-    setProgress(0);
-    setPlaying(true);
   }
 
-  // Simulated playback timer (no real media asset in this demo — see mock-data.ts).
   useEffect(() => {
-    if (!item || !playing || !access.allowed) return;
-    const intervalId = window.setInterval(() => {
-      setProgress((p) => {
-        const next = p + 0.2 * speed;
-        if (next >= item.durationSeconds) {
-          goTo(index + 1 < items.length ? index + 1 : index);
-          return item.durationSeconds;
-        }
-        return next;
-      });
-    }, 200);
-    return () => window.clearInterval(intervalId);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [item, playing, access.allowed, speed]);
-
-  useEffect(() => {
-    if (item && playing && access.allowed && !consumedRef.current.has(item.id)) {
+    if (item && access.allowed && !consumedRef.current.has(item.id)) {
       consumedRef.current.add(item.id);
       onConsumePreview(item);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [item, playing, access.allowed]);
+  }, [item, access.allowed]);
 
   useEffect(() => {
     function handleKeyDown(event: KeyboardEvent) {
@@ -85,9 +71,6 @@ export function SpeedShortsPlayer({
       } else if (event.key === "ArrowDown") {
         event.preventDefault();
         goTo(index + 1);
-      } else if (event.key === " ") {
-        event.preventDefault();
-        setPlaying((p) => !p);
       } else if (event.key === "Escape") {
         onClose();
       }
@@ -123,93 +106,59 @@ export function SpeedShortsPlayer({
           touchStartY.current = null;
         }}
       >
-        {/* Segmented progress bar, one segment per item */}
+        {/* Segmented position indicator, one segment per item — filled for visited/current, empty for upcoming. Real-time fill isn't available without each provider's postMessage JS API. */}
         <div className="absolute inset-x-2 top-2 z-10 flex gap-1">
           {items.map((it, i) => (
             <div key={it.id} className="h-1 flex-1 overflow-hidden rounded-full bg-white/30">
-              <div
-                className="h-full bg-white transition-[width]"
-                style={{
-                  width:
-                    i < index ? "100%" : i === index ? `${(progress / item.durationSeconds) * 100}%` : "0%",
-                }}
-              />
+              <div className="h-full bg-white transition-[width]" style={{ width: i <= index ? "100%" : "0%" }} />
             </div>
           ))}
         </div>
 
-        {/* "Video" surface — placeholder in this demo (see module doc comment) */}
-        <div className="relative flex flex-1 flex-col items-center justify-center gap-3 bg-gradient-to-br from-primary/30 to-neutral-900 p-6 text-center">
-          <Badge variant="secondary" className="absolute left-3 top-8">
+        {/* Video surface */}
+        <div className="relative flex flex-1 flex-col items-center justify-center bg-black">
+          <Badge variant="secondary" className="absolute left-3 top-8 z-10">
             {item.mediaType === "SHORT_VIDEO" ? "Speed Short" : item.mediaType}
           </Badge>
 
           {!access.allowed ? (
-            <div className="flex flex-col items-center gap-3">
+            <div className="flex flex-col items-center gap-3 p-6 text-center">
               <Lock className="h-10 w-10 text-white/80" />
               <p className="text-sm text-white/80">You&apos;ve used your free preview short.</p>
               <Button type="button" onClick={() => onUnlockRequested(access)}>
                 Unlock with All-Access
               </Button>
             </div>
+          ) : embed ? (
+            <iframe
+              key={item.id}
+              src={embed.embedUrl}
+              title={localizeMediaText(item.title, lang)}
+              className="h-full w-full"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
           ) : (
-            <>
+            <div className="flex flex-col items-center gap-3 p-6 text-center">
               <Sparkles className="h-10 w-10 text-primary" />
-              <h2 className="text-xl font-bold">{localizeMediaText(item.title, lang)}</h2>
-              <p className="text-sm text-white/80">{localizeMediaText(item.description, lang)}</p>
-              <p className="text-xs uppercase tracking-wide text-white/50">Demo mode — no video file attached</p>
-            </>
+              <p className="text-sm text-white/60">This short&apos;s video isn&apos;t available yet.</p>
+            </div>
           )}
         </div>
 
-        {/* Overlay controls */}
-        <div className="flex items-center justify-between gap-2 bg-black/60 p-3">
-          <div className="flex items-center gap-2">
-            <Button
-              type="button"
-              size="icon"
-              variant="ghost"
-              className="text-white hover:bg-white/10"
-              disabled={!access.allowed}
-              onClick={() => setPlaying((p) => !p)}
-              aria-label={playing ? "Pause" : "Play"}
-            >
-              {playing ? <Pause className="h-5 w-5" /> : <Play className="h-5 w-5" />}
-            </Button>
-            <Button
-              type="button"
-              size="icon"
-              variant="ghost"
-              className="text-white hover:bg-white/10"
-              onClick={() => setMuted((m) => !m)}
-              aria-label={muted ? "Unmute" : "Mute"}
-            >
-              {muted ? <VolumeX className="h-5 w-5" /> : <Volume2 className="h-5 w-5" />}
-            </Button>
-            <button
-              type="button"
-              onClick={() => setLang(lang === "en" ? "hi" : "en")}
-              className="rounded-md border border-white/30 px-2 py-1 text-xs font-semibold"
-            >
-              {lang === "en" ? "EN" : "हि"}
-            </button>
+        {/* Caption strip */}
+        <div className="flex items-start justify-between gap-2 bg-black/60 p-3">
+          <div className="min-w-0">
+            <h2 className="truncate text-sm font-bold">{localizeMediaText(item.title, lang)}</h2>
+            <p className="line-clamp-2 text-xs text-white/70">{localizeMediaText(item.description, lang)}</p>
           </div>
-
-          <div className="flex items-center gap-1">
-            {SPEEDS.map((s) => (
-              <button
-                key={s}
-                type="button"
-                onClick={() => setSpeed(s)}
-                className={cn(
-                  "rounded-md border px-2 py-1 text-xs font-semibold",
-                  speed === s ? "border-primary bg-primary text-primary-foreground" : "border-white/30 text-white"
-                )}
-              >
-                {s}x
-              </button>
-            ))}
-          </div>
+          <button
+            type="button"
+            onClick={() => setLang(lang === "en" ? "hi" : "en")}
+            className="shrink-0 rounded-md border border-white/30 px-2 py-1 text-xs font-semibold"
+          >
+            {lang === "en" ? "EN" : "हि"}
+          </button>
         </div>
 
         {access.allowed ? (

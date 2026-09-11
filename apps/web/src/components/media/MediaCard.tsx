@@ -44,7 +44,12 @@ export function MediaCard({ item, language, locked, onClick }: MediaCardProps) {
       className="cursor-pointer overflow-hidden transition-shadow hover:shadow-md"
     >
       <div className={`relative flex h-32 items-center justify-center bg-gradient-to-br ${meta.gradient} text-foreground/70`}>
-        {meta.icon}
+        {item.thumbnailUrl ? (
+          // eslint-disable-next-line @next/next/no-img-element -- admin-pasted external URL, not a local asset next/image can optimize
+          <img src={item.thumbnailUrl} alt="" className="absolute inset-0 h-full w-full object-cover" />
+        ) : (
+          meta.icon
+        )}
         {locked ? (
           <div className="absolute inset-0 flex items-center justify-center bg-black/40">
             <Lock className="h-6 w-6 text-white" />

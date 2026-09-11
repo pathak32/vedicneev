@@ -910,6 +910,13 @@ model MediaItem {
 
   targetExams ExamType[] @map("target_exams")
 
+  // "Inherits from owning Topic" when topicId is set (null = use
+  // topic.targetClass, itself null-means-CLASS_6) — same convention as
+  // Question.targetClass. When topicId is null, null instead means "both
+  // classes" (the Product.targetClass convention), since there's no topic
+  // to inherit from. Resolved server-side by lib/media/mediaService.ts.
+  targetClass ContentClassLevel? @map("target_class")
+
   createdAt DateTime @default(now()) @map("created_at")
   updatedAt DateTime @updatedAt @map("updated_at")
 

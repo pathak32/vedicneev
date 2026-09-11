@@ -14,6 +14,7 @@ import {
 import { ArrowLeft, MessageCircle, RotateCcw } from "lucide-react";
 
 import { MistakeVaultDrawer } from "@/components/analytics/MistakeVaultDrawer";
+import { RecommendedMedia } from "@/components/analytics/RecommendedMedia";
 import { RemedialRecommendations } from "@/components/analytics/RemedialRecommendations";
 import { ScoreHero, type CandidateProfile } from "@/components/analytics/ScoreHero";
 import { SectionBreakdown } from "@/components/analytics/SectionBreakdown";
@@ -337,6 +338,8 @@ export default function ExamResultsPage({ params }: { params: { examId: string }
       <SectionBreakdown sections={report.sectionBreakdown} topics={report.topicBreakdown} language={language} />
 
       <RemedialRecommendations weakTopics={report.weakTopics} language={language} />
+
+      <RecommendedMedia weakTopics={report.weakTopics} language={language} />
     </div>
   );
 }

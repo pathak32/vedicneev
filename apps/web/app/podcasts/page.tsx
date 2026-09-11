@@ -2,14 +2,19 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowLeft, Headphones } from "lucide-react";
 
-import { PodcastAudioPlayer } from "@/components/marketing/PodcastAudioPlayer";
+import { PodcastGrid } from "@/components/media/PodcastGrid";
+import { listMedia } from "@/lib/media/mediaService";
+
+export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
   title: "Learning & Podcast Hub",
   description: "Audio breakdowns of exam strategy, mistake analysis, and Vedic Math shortcuts.",
 };
 
-export default function PodcastsPage() {
+export default async function PodcastsPage() {
+  const items = await listMedia({ mediaType: "AUDIO_POD" });
+
   return (
     <main className="mx-auto flex max-w-2xl flex-col gap-6 px-4 py-12">
       <Link href="/" className="inline-flex w-fit items-center gap-1 text-sm font-medium text-primary hover:underline">
@@ -29,7 +34,7 @@ export default function PodcastsPage() {
         </div>
       </div>
 
-      <PodcastAudioPlayer />
+      <PodcastGrid items={items} />
 
       <p className="text-center text-xs text-muted-foreground">
         More episodes are added as new topics are covered — check back for updates.

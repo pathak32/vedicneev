@@ -21,7 +21,7 @@ import { PaywallModal } from "@/components/pricing/PaywallModal";
 import type { MistakeReport } from "@/lib/exam/diagnostics";
 import { MISTAKE_TAG_META } from "@/lib/exam/mistake-vault";
 import type { ExamSessionData, LanguageCode } from "@/lib/exam/types";
-import { mediaCatalog } from "@/lib/media/mock-data";
+import { useMediaCatalog } from "@/lib/media/useMediaCatalog";
 
 /** Reaching this drawer already required Vedic All-Access (see the outer gate below), so every media item it links to is unlocked by construction. */
 const ALWAYS_ALLOWED: AccessResult = { allowed: true, reason: "ALL_ACCESS", requiresUpgrade: false, suggestedPlans: [] };
@@ -50,6 +50,7 @@ function MistakeItem({
   session,
   language,
   examId,
+  mediaCatalog,
   onWatchSpeedHackVideo,
   onWatchConceptClinic,
 }: {
@@ -57,6 +58,7 @@ function MistakeItem({
   session: ExamSessionData;
   language: LanguageCode;
   examId: string;
+  mediaCatalog: MediaItem[];
   onWatchSpeedHackVideo: (item: MediaItem) => void;
   onWatchConceptClinic: (item: MediaItem) => void;
 }) {
@@ -144,6 +146,7 @@ export function MistakeVaultDrawer({
   const [paywallOpen, setPaywallOpen] = useState(false);
   const [speedHackVideoItem, setSpeedHackVideoItem] = useState<MediaItem | null>(null);
   const [conceptClinicItem, setConceptClinicItem] = useState<MediaItem | null>(null);
+  const mediaCatalog = useMediaCatalog();
   const filtered = filter === "ALL" ? mistakes : mistakes.filter((m) => m.mistakeTag === filter);
 
   return (
@@ -208,6 +211,7 @@ export function MistakeVaultDrawer({
                 session={session}
                 language={language}
                 examId={examId}
+                mediaCatalog={mediaCatalog}
                 onWatchSpeedHackVideo={setSpeedHackVideoItem}
                 onWatchConceptClinic={setConceptClinicItem}
               />

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { Badge, Button, cn } from "@vedicneev/ui";
 import { formatDuration, localizeMediaText } from "@vedicneev/engine";
 import type { AccessResult, MediaItem } from "@vedicneev/engine";
@@ -21,10 +21,21 @@ export interface AudioPodPlayerProps {
   onUnlockRequested: () => void;
 }
 
+/**
+ * A persistent bottom mini-player — real playback via a hidden <audio>
+ * element, driven by its own timeupdate/play/pause/ended events (not a
+ * simulated timer). Mounted once at the root layout by
+ * apps/web/src/lib/hooks/useMediaPlayerStore.ts, so it survives
+ * client-side navigation — the "background-play" experience the request
+ * asked for. The decorative waveform bars stay Math.sin-generated (real
+ * waveform analysis needs decoding the audio, out of scope).
+ */
 export function AudioPodPlayer({ item, language, onClose, access, onConsumePreview, onUnlockRequested }: AudioPodPlayerProps) {
+  const audioRef = useRef<HTMLAudioElement | null>(null);
   const [expanded, setExpanded] = useState(true);
   const [playing, setPlaying] = useState(false);
   const [progress, setProgress] = useState(0);
+  const [duration, setDuration] = useState(item.durationSeconds);
   const [rate, setRate] = useState<(typeof RATES)[number]>(1);
   const [showTranscript, setShowTranscript] = useState(false);
   const [lang, setLang] = useState<LanguageCode>(language);
@@ -35,34 +46,59 @@ export function AudioPodPlayer({ item, language, onClose, access, onConsumePrevi
     []
   );
 
+  // A new item swapped in while the mini-player stays mounted (e.g. the
+  // student taps a different podcast without closing the bar first) —
+  // reset local playback state so it doesn't carry over from the last item.
   useEffect(() => {
-    if (!playing || !access.allowed) return;
-    const intervalId = window.setInterval(() => {
-      setProgress((p) => Math.min(item.durationSeconds, p + 0.2 * rate));
-    }, 200);
-    return () => window.clearInterval(intervalId);
-  }, [playing, access.allowed, rate, item.durationSeconds]);
-
-  useEffect(() => {
-    if (progress >= item.durationSeconds) setPlaying(false);
-  }, [progress, item.durationSeconds]);
+    setProgress(0);
+    setDuration(item.durationSeconds);
+    setPlaying(false);
+    setConsumed(false);
+    if (audioRef.current) audioRef.current.playbackRate = rate;
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- intentionally only resets on item change, not on every rate change
+  }, [item.id]);
 
   function handlePlayToggle() {
     if (!access.allowed) {
       onUnlockRequested();
       return;
     }
+    const audio = audioRef.current;
+    if (!audio) return;
     if (!consumed) {
       setConsumed(true);
       onConsumePreview();
     }
-    setPlaying((p) => !p);
+    if (audio.paused) void audio.play();
+    else audio.pause();
   }
 
-  const progressPercent = (progress / item.durationSeconds) * 100;
+  function skip(deltaSeconds: number) {
+    const audio = audioRef.current;
+    if (!audio) return;
+    audio.currentTime = Math.max(0, Math.min(duration, audio.currentTime + deltaSeconds));
+  }
+
+  function handleRateChange(nextRate: (typeof RATES)[number]) {
+    setRate(nextRate);
+    if (audioRef.current) audioRef.current.playbackRate = nextRate;
+  }
+
+  const progressPercent = duration > 0 ? (progress / duration) * 100 : 0;
 
   return (
     <div className="fixed inset-x-0 bottom-0 z-40 border-t border-border bg-background shadow-2xl">
+      {item.audioUrl ? (
+        <audio
+          ref={audioRef}
+          src={item.audioUrl}
+          onTimeUpdate={(e) => setProgress(e.currentTarget.currentTime)}
+          onLoadedMetadata={(e) => setDuration(e.currentTarget.duration || item.durationSeconds)}
+          onPlay={() => setPlaying(true)}
+          onPause={() => setPlaying(false)}
+          onEnded={() => setPlaying(false)}
+        />
+      ) : null}
       <div className="mx-auto max-w-2xl">
         <button
           type="button"
@@ -92,7 +128,7 @@ export function AudioPodPlayer({ item, language, onClose, access, onConsumePrevi
             </div>
           </div>
           <Badge variant="outline" className="shrink-0 text-[10px]">
-            {formatDuration(item.durationSeconds)}
+            {formatDuration(duration)}
           </Badge>
           {expanded ? <ChevronDown className="h-4 w-4" /> : <ChevronUp className="h-4 w-4" />}
           <span
@@ -125,10 +161,7 @@ export function AudioPodPlayer({ item, language, onClose, access, onConsumePrevi
                   {waveform.map((height, i) => (
                     <div
                       key={i}
-                      className={cn(
-                        "w-full rounded-sm",
-                        i / WAVEFORM_BARS < progress / item.durationSeconds ? "bg-primary" : "bg-muted"
-                      )}
+                      className={cn("w-full rounded-sm", duration > 0 && i / WAVEFORM_BARS < progress / duration ? "bg-primary" : "bg-muted")}
                       style={{ height: `${height}%` }}
                     />
                   ))}
@@ -137,45 +170,37 @@ export function AudioPodPlayer({ item, language, onClose, access, onConsumePrevi
                 <input
                   type="range"
                   min={0}
-                  max={item.durationSeconds}
+                  max={duration}
                   step={1}
                   value={progress}
-                  onChange={(e) => setProgress(Number(e.target.value))}
+                  onChange={(e) => {
+                    const next = Number(e.target.value);
+                    setProgress(next);
+                    if (audioRef.current) audioRef.current.currentTime = next;
+                  }}
                   className="w-full accent-primary"
                   aria-label="Seek"
                 />
                 <div className="flex justify-between text-xs text-muted-foreground">
                   <span>{formatDuration(progress)}</span>
-                  <span>{formatDuration(item.durationSeconds)}</span>
+                  <span>{formatDuration(duration)}</span>
                 </div>
 
                 <div className="flex flex-wrap items-center justify-center gap-2">
-                  <Button
-                    type="button"
-                    size="icon"
-                    variant="outline"
-                    onClick={() => setProgress((p) => Math.max(0, p - SKIP_SECONDS))}
-                    aria-label="Back 10 seconds"
-                  >
+                  <Button type="button" size="icon" variant="outline" onClick={() => skip(-SKIP_SECONDS)} aria-label="Back 10 seconds">
                     <RotateCcw className="h-4 w-4" />
                   </Button>
                   <Button type="button" onClick={handlePlayToggle}>
                     {playing ? <Pause className="h-4 w-4" /> : <Play className="h-4 w-4" />}
                   </Button>
-                  <Button
-                    type="button"
-                    size="icon"
-                    variant="outline"
-                    onClick={() => setProgress((p) => Math.min(item.durationSeconds, p + SKIP_SECONDS))}
-                    aria-label="Forward 10 seconds"
-                  >
+                  <Button type="button" size="icon" variant="outline" onClick={() => skip(SKIP_SECONDS)} aria-label="Forward 10 seconds">
                     <RotateCw className="h-4 w-4" />
                   </Button>
                   {RATES.map((r) => (
                     <button
                       key={r}
                       type="button"
-                      onClick={() => setRate(r)}
+                      onClick={() => handleRateChange(r)}
                       className={cn(
                         "rounded-md border px-2 py-1 text-xs font-semibold",
                         rate === r ? "border-primary bg-primary text-primary-foreground" : "border-border text-muted-foreground"

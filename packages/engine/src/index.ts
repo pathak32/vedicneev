@@ -7,6 +7,7 @@ export * from "./omrEvaluator";
 export * from "./omrScan";
 export * from "./entitlements";
 export * from "./media";
+export * from "./mediaEmbed";
 export * from "./whatsappReport";
 export * from "./whatsappOtp";
 export * from "./jnvstMockAssembly";

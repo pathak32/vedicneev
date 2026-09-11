@@ -19,19 +19,35 @@ function makeItem(overrides: Partial<MediaItem> & Pick<MediaItem, "id" | "mediaT
     thumbnailUrl: null,
     transcript: null,
     topicId: null,
+    topicKey: null,
     vedicSpeedHackId: null,
     targetExams: ["JNVST"],
+    targetClass: null,
     ...overrides,
   };
 }
 
 const items: MediaItem[] = [
-  makeItem({ id: "short-1", mediaType: "SHORT_VIDEO", topicId: "speed_calculation", vedicSpeedHackId: "hack-11" }),
-  makeItem({ id: "short-2", mediaType: "SHORT_VIDEO", topicId: "pattern_completion", targetExams: ["JNVST", "RMS"] }),
-  makeItem({ id: "pod-1", mediaType: "AUDIO_POD", topicId: "speed_calculation", vedicSpeedHackId: "hack-11" }),
-  makeItem({ id: "pod-2", mediaType: "AUDIO_POD", topicId: "grammar", targetExams: ["AISSEE"] }),
-  makeItem({ id: "clinic-1", mediaType: "CONCEPT_CLINIC", topicId: "speed_calculation" }),
-  makeItem({ id: "clinic-2", mediaType: "CONCEPT_CLINIC", topicId: "number_series", targetExams: ["JNVST", "RMS"] }),
+  makeItem({ id: "short-1", mediaType: "SHORT_VIDEO", topicId: "t-speed", topicKey: "speed_calculation", vedicSpeedHackId: "hack-11" }),
+  makeItem({
+    id: "short-2",
+    mediaType: "SHORT_VIDEO",
+    topicId: "t-pattern",
+    topicKey: "pattern_completion",
+    targetExams: ["JNVST", "RMS"],
+    targetClass: "CLASS_6",
+  }),
+  makeItem({ id: "pod-1", mediaType: "AUDIO_POD", topicId: "t-speed", topicKey: "speed_calculation", vedicSpeedHackId: "hack-11" }),
+  makeItem({ id: "pod-2", mediaType: "AUDIO_POD", topicId: "t-grammar", topicKey: "grammar", targetExams: ["AISSEE"] }),
+  makeItem({ id: "clinic-1", mediaType: "CONCEPT_CLINIC", topicId: "t-speed", topicKey: "speed_calculation" }),
+  makeItem({
+    id: "clinic-2",
+    mediaType: "CONCEPT_CLINIC",
+    topicId: "t-series",
+    topicKey: "number_series",
+    targetExams: ["JNVST", "RMS"],
+    targetClass: "CLASS_9",
+  }),
 ];
 
 describe("filterMediaItems", () => {
@@ -45,7 +61,7 @@ describe("filterMediaItems", () => {
   });
 
   it("filters by topicId", () => {
-    const result = filterMediaItems(items, { topicId: "speed_calculation" });
+    const result = filterMediaItems(items, { topicId: "t-speed" });
     expect(result.map((i) => i.id)).toEqual(["short-1", "pod-1", "clinic-1"]);
   });
 
@@ -55,8 +71,19 @@ describe("filterMediaItems", () => {
   });
 
   it("combines multiple filters (AND semantics)", () => {
-    const result = filterMediaItems(items, { mediaType: "SHORT_VIDEO", topicId: "pattern_completion" });
+    const result = filterMediaItems(items, { mediaType: "SHORT_VIDEO", topicId: "t-pattern" });
     expect(result.map((i) => i.id)).toEqual(["short-2"]);
+  });
+
+  it("filters by targetClass, treating a null item as agnostic (matches any class)", () => {
+    const result = filterMediaItems(items, { targetClass: "CLASS_9" });
+    expect(result.map((i) => i.id)).toEqual(["short-1", "pod-1", "pod-2", "clinic-1", "clinic-2"]);
+  });
+
+  it("excludes an item explicitly scoped to the other class", () => {
+    const result = filterMediaItems(items, { targetClass: "CLASS_6" });
+    expect(result.map((i) => i.id)).not.toContain("clinic-2");
+    expect(result.map((i) => i.id)).toContain("short-2");
   });
 
   it("returns an empty array when nothing matches", () => {

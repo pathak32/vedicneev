@@ -1543,9 +1543,14 @@ async function main() {
   console.log(`Questions: ${allQuestions.length} processed, ${newQuestionCount} newly created.`);
 
   // ── Media catalog ───────────────────────────────────────────────────
-  // videoUrl/audioUrl/thumbnailUrl are left null: these catalog rows exist
-  // (title, description, linked topic/hack) ahead of the actual asset
-  // uploads, same as a real CMS workflow.
+  // videoUrl/audioUrl point at real, stable, always-embeddable placeholder
+  // assets (official Blender Foundation open movies on YouTube; SoundHelix's
+  // widely-used freely-licensed test mp3s) so the catalog is genuinely
+  // playable end-to-end out of the box — an admin replaces these with real
+  // branded content via /admin/media, the same way any other row here gets
+  // edited after seeding.
+  const BIG_BUCK_BUNNY_YT = "aqz-KE-bpKQ";
+  const SINTEL_YT = "eRsGyueVLvQ";
   const mediaItems = [
     {
       mediaType: "SHORT_VIDEO" as const,
@@ -1555,6 +1560,8 @@ async function main() {
         hi: "98×97 जैसी आधार के निकट संख्याओं को बिना लंबी गुणा प्रक्रिया के गुणा करें।",
       },
       durationSeconds: 45,
+      videoUrl: `https://www.youtube.com/watch?v=${BIG_BUCK_BUNNY_YT}`,
+      thumbnailUrl: `https://img.youtube.com/vi/${BIG_BUCK_BUNNY_YT}/hqdefault.jpg`,
       topicId: speedCalculation.id,
       vedicSpeedHackId: hackNikhilamBase.id,
       targetExams: ["JNVST", "AISSEE"] as ExamType[],
@@ -1567,6 +1574,8 @@ async function main() {
         hi: "अशाब्दिक तर्क आकृति अनुक्रमों में घूर्णन कोण पहचानें।",
       },
       durationSeconds: 38,
+      videoUrl: `https://www.youtube.com/watch?v=${SINTEL_YT}`,
+      thumbnailUrl: `https://img.youtube.com/vi/${SINTEL_YT}/hqdefault.jpg`,
       topicId: patternCompletion.id,
       vedicSpeedHackId: null,
       targetExams: ["JNVST", "AISSEE", "RMS"] as ExamType[],
@@ -1579,6 +1588,7 @@ async function main() {
         hi: "11 से गुणा करने के सैंडविच नियम का 2 मिनट का द्विभाषी विवरण।",
       },
       durationSeconds: 150,
+      audioUrl: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
       topicId: speedCalculation.id,
       vedicSpeedHackId: hackByEleven.id,
       targetExams: ["JNVST", "AISSEE"] as ExamType[],
@@ -1595,6 +1605,7 @@ async function main() {
         hi: "-s या -es कब जोड़ें, और वे अपवाद जो छात्रों को उलझाते हैं।",
       },
       durationSeconds: 200,
+      audioUrl: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
       topicId: grammar.id,
       vedicSpeedHackId: null,
       targetExams: ["JNVST", "AISSEE", "DPS"] as ExamType[],
@@ -1611,6 +1622,8 @@ async function main() {
         hi: "शब्द समस्याओं को समीकरणों में बदलने के लिए चरण-दर-चरण उपचारात्मक क्लिनिक।",
       },
       durationSeconds: 480,
+      videoUrl: `https://www.youtube.com/watch?v=${BIG_BUCK_BUNNY_YT}`,
+      thumbnailUrl: `https://img.youtube.com/vi/${BIG_BUCK_BUNNY_YT}/hqdefault.jpg`,
       topicId: speedCalculation.id,
       vedicSpeedHackId: null,
       targetExams: ["JNVST", "AISSEE"] as ExamType[],
@@ -1623,6 +1636,8 @@ async function main() {
         hi: "किसी भी श्रृंखला प्रश्न के पीछे के नियम को पहचानने की गहन जानकारी।",
       },
       durationSeconds: 360,
+      videoUrl: `https://www.youtube.com/watch?v=${SINTEL_YT}`,
+      thumbnailUrl: `https://img.youtube.com/vi/${SINTEL_YT}/hqdefault.jpg`,
       topicId: numberSeries.id,
       vedicSpeedHackId: null,
       targetExams: ["JNVST", "AISSEE", "RMS"] as ExamType[],

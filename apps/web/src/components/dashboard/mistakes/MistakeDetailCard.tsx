@@ -25,7 +25,6 @@ import type { MistakeLogEntry } from "@/lib/auth/types";
 import { TOPIC_NAMES } from "@/lib/exam/mock-data";
 import { MISTAKE_TAG_META } from "@/lib/exam/mistake-vault";
 import type { ExamQuestion, ExamSessionData, LanguageCode } from "@/lib/exam/types";
-import { mediaCatalog } from "@/lib/media/mock-data";
 
 /** Reaching this card already required Vedic All-Access (gated by the page), so every media item it links to is unlocked by construction. */
 const ALWAYS_ALLOWED: AccessResult = { allowed: true, reason: "ALL_ACCESS", requiresUpgrade: false, suggestedPlans: [] };
@@ -36,9 +35,11 @@ export interface MistakeDetailCardProps {
   session: ExamSessionData;
   language: LanguageCode;
   onToggleReviewed: (id: string) => void;
+  /** Fetched once by the parent page (useMediaCatalog) and threaded down, so a list of N mistakes doesn't fire N /api/media requests. */
+  mediaCatalog: MediaItem[];
 }
 
-export function MistakeDetailCard({ entry, question, session, language, onToggleReviewed }: MistakeDetailCardProps) {
+export function MistakeDetailCard({ entry, question, session, language, onToggleReviewed, mediaCatalog }: MistakeDetailCardProps) {
   const [speedHackVideoItem, setSpeedHackVideoItem] = useState<MediaItem | null>(null);
   const [conceptClinicItem, setConceptClinicItem] = useState<MediaItem | null>(null);
 
