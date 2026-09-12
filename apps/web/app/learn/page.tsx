@@ -49,7 +49,7 @@ export default function LearnPage() {
         </Button>
       </div>
 
-      <Link href="/exam/demo-jnvst" className="text-sm font-medium text-primary hover:underline">
+      <Link href="/#exam-boards" className="text-sm font-medium text-primary hover:underline">
         Or jump straight into a full mock test →
       </Link>
     </main>

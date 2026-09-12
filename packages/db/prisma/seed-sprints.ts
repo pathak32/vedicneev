@@ -19,13 +19,14 @@ const prisma = new PrismaClient();
 const IST_OFFSET_MS = 5.5 * 60 * 60 * 1000;
 const DAY_MS = 24 * 60 * 60 * 1000;
 
-/** Next Sunday (or today, if today is Sunday) at 10:00 IST. */
-function nextSundayTenAmIst(from: Date): Date {
+/** The Sunday after today (never today itself, even if today is Sunday) at 12:00 (noon) IST. */
+function nextSundayNoonIst(from: Date): Date {
   const shifted = new Date(from.getTime() + IST_OFFSET_MS);
-  const daysUntilSunday = (7 - shifted.getUTCDay()) % 7;
+  let daysUntilSunday = (7 - shifted.getUTCDay()) % 7;
+  if (daysUntilSunday === 0) daysUntilSunday = 7;
   const istMidnight = Date.UTC(shifted.getUTCFullYear(), shifted.getUTCMonth(), shifted.getUTCDate()) + daysUntilSunday * DAY_MS;
-  const istTenAm = istMidnight + 10 * 60 * 60 * 1000;
-  return new Date(istTenAm - IST_OFFSET_MS);
+  const istNoon = istMidnight + 12 * 60 * 60 * 1000;
+  return new Date(istNoon - IST_OFFSET_MS);
 }
 
 const BOARD_LABEL: Record<string, { en: string; hi: string }> = {
@@ -44,8 +45,8 @@ async function upsertSprint(templateSlug: string, startTime: Date) {
   });
   const data = {
     title: {
-      en: `${board.en} Class ${template.classLevel} National Sprint`,
-      hi: `${board.hi} कक्षा ${template.classLevel} राष्ट्रीय स्प्रिंट`,
+      en: `${board.en} Class ${template.classLevel} National Test`,
+      hi: `${board.hi} कक्षा ${template.classLevel} राष्ट्रीय परीक्षा`,
     } as Prisma.InputJsonValue,
     examType: template.examType,
     classLevel: template.classLevel,
@@ -74,7 +75,7 @@ const DUAL_TRACK_TEMPLATE_SLUGS = [
 
 async function main() {
   const now = new Date();
-  const nextSunday = nextSundayTenAmIst(now);
+  const nextSunday = nextSundayNoonIst(now);
 
   for (const slug of DUAL_TRACK_TEMPLATE_SLUGS) {
     await upsertSprint(slug, nextSunday);

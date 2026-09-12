@@ -17,7 +17,7 @@ export function ExamTracksHub() {
   const currentClassInfo = currentBoardInfo.classes[selectedClass];
 
   return (
-    <section className="py-16 bg-gradient-to-b from-white via-amber-50/30 to-white w-full">
+    <section id="exam-boards" className="py-16 bg-gradient-to-b from-white via-amber-50/30 to-white w-full">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
 
         {/* Header */}

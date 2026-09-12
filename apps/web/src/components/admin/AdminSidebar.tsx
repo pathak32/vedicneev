@@ -10,7 +10,7 @@ const NAV_ITEMS = [
   { href: "/admin", label: "Overview", icon: LayoutDashboard },
   { href: "/admin/blogs", label: "Blog Drafts Queue", icon: Newspaper },
   { href: "/admin/exams", label: "Question Bank Seeding", icon: BookOpenCheck },
-  { href: "/admin/sprints", label: "National Sprint Review", icon: Trophy },
+  { href: "/admin/sprints", label: "National Test Review", icon: Trophy },
   { href: "/admin/speed-challenge", label: "Speed Challenge", icon: Zap },
   { href: "/admin/media", label: "Media Library", icon: Film },
   { href: "/admin/settings", label: "System Settings", icon: Settings },

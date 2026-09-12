@@ -1,14 +1,20 @@
 "use client";
 
-import { useRouter } from "next/navigation";
+import { Suspense } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 import { Button } from "@vedicneev/ui";
 
 import { OnboardingFlow } from "@/components/auth/OnboardingFlow";
 import { useActiveStudent } from "@/lib/auth/ActiveStudentContext";
 
-export default function OnboardingPage() {
+function OnboardingPageContent() {
   const router = useRouter();
+  const searchParams = useSearchParams();
   const { hasHydrated, isAuthenticated } = useActiveStudent();
+  // Where to return once onboarding is done — e.g. back to the exam that
+  // sent the student here — falling back to "/" when there's nowhere in
+  // particular to return to.
+  const next = searchParams.get("next") || "/";
 
   if (!hasHydrated) return null;
 
@@ -19,8 +25,8 @@ export default function OnboardingPage() {
         <p className="text-sm text-muted-foreground">
           Sign in with your mobile number from the home page before adding a student profile.
         </p>
-        <Button type="button" onClick={() => router.push("/")}>
-          Go to home
+        <Button type="button" onClick={() => router.push(next)}>
+          {next === "/" ? "Go to home" : "Go back"}
         </Button>
       </div>
     );
@@ -32,7 +38,15 @@ export default function OnboardingPage() {
         <h1 className="text-xl font-bold text-foreground">Add a student profile</h1>
         <p className="text-sm text-muted-foreground">Set this up once per child — it takes under a minute.</p>
       </div>
-      <OnboardingFlow onComplete={() => router.push("/")} />
+      <OnboardingFlow onComplete={() => router.push(next)} />
     </div>
+  );
+}
+
+export default function OnboardingPage() {
+  return (
+    <Suspense fallback={null}>
+      <OnboardingPageContent />
+    </Suspense>
   );
 }

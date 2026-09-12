@@ -103,9 +103,39 @@ export function StoreCheckoutDialog({ primaryProduct, bumpProduct, parentPhone, 
         // transient — keep polling
       }
     }
-    setError("We couldn't confirm your payment yet. Check /dashboard/library shortly, or contact support.");
+    setError("We couldn't confirm your payment yet — this can happen if the confirmation is just running late.");
     setStep("error");
   };
+
+  // Fires the instant Razorpay gives its own checkout `handler` on a
+  // successful payment — verifies directly (same HMAC check the working
+  // Subscription flow already uses) instead of only ever waiting on the
+  // async webhook, which is exactly what can go missing (e.g. a
+  // misconfigured merchant domain) and leave a real, paid-for purchase
+  // stuck PENDING with nothing to ever flip it. Falls back to the poll
+  // loop only if this direct check itself fails.
+  async function handlePaymentSuccess(
+    response: { razorpay_order_id: string; razorpay_payment_id: string; razorpay_signature: string },
+    ids: string[]
+  ) {
+    setStep("polling");
+    try {
+      const res = await fetch("/api/checkout/verify", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ ...response, purchaseIds: ids }),
+      });
+      const data = await res.json();
+      if (res.ok && data.verified) {
+        setStep("success");
+        onSuccess();
+        return;
+      }
+    } catch {
+      // fall through to polling below
+    }
+    void pollRef.current?.(ids);
+  }
 
   async function handlePay() {
     setStep("creating-order");
@@ -142,7 +172,8 @@ export function StoreCheckoutDialog({ primaryProduct, bumpProduct, parentPhone, 
           // method up front — no bespoke QR infrastructure, Razorpay's own
           // modal already renders the scannable code once this is set.
           method: { upi: true },
-          handler: () => void pollRef.current?.(data.purchaseIds),
+          handler: (response: { razorpay_order_id: string; razorpay_payment_id: string; razorpay_signature: string }) =>
+            void handlePaymentSuccess(response, data.purchaseIds),
           modal: { ondismiss: () => setStep("form") },
         });
         rzp.open();
@@ -287,6 +318,11 @@ export function StoreCheckoutDialog({ primaryProduct, bumpProduct, parentPhone, 
               <AlertTriangle className="mt-0.5 h-4 w-4 shrink-0" />
               {error}
             </div>
+            {purchaseIds.length > 0 ? (
+              <Button type="button" onClick={() => void pollRef.current?.(purchaseIds)}>
+                Check Payment Status
+              </Button>
+            ) : null}
             <Button type="button" variant="outline" onClick={onCancel}>
               Close
             </Button>

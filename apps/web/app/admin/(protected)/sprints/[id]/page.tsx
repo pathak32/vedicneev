@@ -48,7 +48,7 @@ export default async function AdminSprintDetailPage({ params }: { params: { id: 
       </div>
 
       <div className="rounded-lg border border-dashed border-amber-500/40 bg-amber-500/5 p-3 text-xs text-muted-foreground">
-        This is the full source pool this sprint draws from — each registrant&apos;s actual paper is a randomly-
+        This is the full source pool this test draws from — each registrant&apos;s actual paper is a randomly-
         assembled subset of it (see <code>/exam/live/{pool.templateSlug}</code>), not one fixed document. Verifying
         every item here covers everything a student could see, not just one sample draw.
       </div>

@@ -1,18 +1,21 @@
 import type { MistakeLogEntry, MistakeTagCategory } from "@/lib/auth/types";
-import { getDemoSession } from "./mock-data";
-import type { ExamQuestion, ExamSessionData } from "./types";
+import type { ExamQuestion, Multilingual, VedicSpeedHack } from "./types";
 
 export interface ResolvedMistake {
   question: ExamQuestion;
-  session: ExamSessionData;
+  sectionName: Multilingual;
+  speedHack: VedicSpeedHack | null;
 }
 
-/** Persisted mistakes only store ids — this recovers the question/session content from mock data at render time. */
-export function resolveMistakeQuestion(entry: MistakeLogEntry): ResolvedMistake | null {
-  const session = getDemoSession(entry.examId);
-  const question = session?.questionsById[entry.questionId];
-  if (!session || !question) return null;
-  return { question, session };
+/**
+ * Every mistake now carries its own question/section/speed-hack snapshot
+ * (see MistakeLogEntry's doc comment) — this used to re-derive that from
+ * getDemoSession(entry.examId), which only ever worked for the literal demo
+ * exam and fabricated a fake session (ids "q-1".."q-N") for anything else,
+ * silently dropping every real attempt's mistakes. No lookup needed anymore.
+ */
+export function resolveMistakeQuestion(entry: MistakeLogEntry): ResolvedMistake {
+  return { question: entry.question, sectionName: entry.sectionName, speedHack: entry.speedHack };
 }
 
 export const MISTAKE_TAG_META: Record<MistakeTagCategory, { label: string; className: string }> = {

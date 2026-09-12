@@ -73,7 +73,7 @@ export default function DashboardPage() {
             <Link href="/exam/live">Live Mocks (Class 6 &amp; 9)</Link>
           </Button>
           <Button asChild>
-            <Link href="/exam/demo-jnvst">
+            <Link href="/exam/live">
               <NotebookPen className="h-4 w-4" />
               Take a Mock Test
             </Link>

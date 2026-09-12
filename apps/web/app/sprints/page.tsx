@@ -15,7 +15,7 @@ export const dynamic = "force-dynamic";
  */
 export default async function SprintsPage() {
   const sprints = await prisma.nationalSprint.findMany({
-    where: { isActive: true },
+    where: { isActive: true, endTime: { gte: new Date() } },
     include: { examTemplate: { select: { slug: true } } },
     orderBy: { startTime: "asc" },
     take: 20,
@@ -33,7 +33,7 @@ export default async function SprintsPage() {
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-12">
-      <h1 className="text-2xl font-bold text-foreground">National Scholarship Sprints</h1>
+      <h1 className="text-2xl font-bold text-foreground">National Scholarship Tests</h1>
       <p className="mt-1 text-sm text-muted-foreground">
         Free, weekly, synchronized mock tests for JNVST, AISSEE, and RMS — everyone answers the same paper in the
         same live window, then climbs an All-India and state-wise leaderboard.

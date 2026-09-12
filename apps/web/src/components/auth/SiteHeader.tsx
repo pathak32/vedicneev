@@ -101,7 +101,7 @@ export function SiteHeader() {
         <Link href="/store" className="hover:text-foreground">
           {t("navStore")}
         </Link>
-        <Link href="/exam/jnvst-live-mock" className="hover:text-foreground">
+        <Link href="/#exam-boards" className="hover:text-foreground">
           {t("navMockSeries")}
         </Link>
         <Link href="/practice" className="hover:text-foreground">

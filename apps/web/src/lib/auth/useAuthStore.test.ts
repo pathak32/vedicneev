@@ -1,5 +1,6 @@
 import { beforeEach, describe, expect, it } from "vitest";
 
+import type { ExamQuestion } from "@/lib/exam/types";
 import { DEV_FALLBACK_OTP } from "./mockAuthProvider";
 import {
   selectActiveParent,
@@ -207,9 +208,44 @@ describe("mistake log", () => {
     await signIn(PHONE_A);
     const student = useAuthStore.getState().addStudent(STUDENT);
 
+    function fakeQuestion(id: string): ExamQuestion {
+      return {
+        id,
+        sectionKey: "arithmetic",
+        topicKey: "speed_calculation",
+        difficulty: "MEDIUM",
+        content: { en: "Fake question" },
+        options: [{ id: "a", text: { en: "A" } }, { id: "b", text: { en: "B" } }],
+        correctOption: "a",
+        timeLimitSeconds: 60,
+      };
+    }
+
     useAuthStore.getState().logMistakes([
-      { studentId: student.id, examId: "demo-jnvst", testHistoryEntryId: "th1", questionId: "q1", questionNumber: 1, mistakeTag: "CARELESS_RUSHED", createdAt: Date.now() },
-      { studentId: student.id, examId: "demo-jnvst", testHistoryEntryId: "th1", questionId: "q2", questionNumber: 2, mistakeTag: "CONCEPT_GAP", createdAt: Date.now() },
+      {
+        studentId: student.id,
+        examId: "demo-jnvst",
+        testHistoryEntryId: "th1",
+        questionId: "q1",
+        questionNumber: 1,
+        mistakeTag: "CARELESS_RUSHED",
+        createdAt: Date.now(),
+        question: fakeQuestion("q1"),
+        sectionName: { en: "Arithmetic" },
+        speedHack: null,
+      },
+      {
+        studentId: student.id,
+        examId: "demo-jnvst",
+        testHistoryEntryId: "th1",
+        questionId: "q2",
+        questionNumber: 2,
+        mistakeTag: "CONCEPT_GAP",
+        createdAt: Date.now(),
+        question: fakeQuestion("q2"),
+        sectionName: { en: "Arithmetic" },
+        speedHack: null,
+      },
     ]);
 
     expect(selectUnreviewedMistakeCount(useAuthStore.getState(), student.id)).toBe(2);

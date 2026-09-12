@@ -25,7 +25,7 @@ export async function GET(_request: Request, { params }: { params: { id: string 
 
   const sprint = await prisma.nationalSprint.findUnique({ where: { id: params.id } });
   if (!sprint) {
-    return NextResponse.json({ error: "Sprint not found." }, { status: 404 });
+    return NextResponse.json({ error: "Test not found." }, { status: 404 });
   }
 
   const pool = await loadSprintQuestionPool(sprint.examTemplateId);

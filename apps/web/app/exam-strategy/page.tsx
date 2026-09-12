@@ -78,7 +78,7 @@ export default function ExamStrategyPage() {
         <CardContent className="flex flex-col items-center gap-3 p-8 text-center">
           <p className="text-sm text-muted-foreground">Put this into practice on a real, full-length paper.</p>
           <Button asChild size="lg">
-            <Link href="/exam/demo-jnvst">
+            <Link href="/#exam-boards">
               Start a Free Full-Length Mock
               <ArrowRight className="h-4 w-4" />
             </Link>

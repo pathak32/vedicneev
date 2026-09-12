@@ -8,6 +8,7 @@ import { Trophy } from "lucide-react";
 
 import { useSprintIdentityStore } from "@/lib/sprints/useSprintIdentityStore";
 import type { SprintExamType, SprintListItem } from "@/lib/sprints/types";
+import { CountdownTimer } from "./CountdownTimer";
 import { SprintRegisterDialog } from "./SprintRegisterDialog";
 
 type ExamFilter = "ALL" | SprintExamType;
@@ -106,7 +107,7 @@ export function SprintCatalogClient({ sprints }: { sprints: SprintListItem[] }) 
   if (sprints.length === 0) {
     return (
       <p className="rounded-lg border border-dashed border-border p-8 text-center text-sm text-muted-foreground">
-        No sprints are scheduled right now — check back soon.
+        No tests are scheduled right now — check back soon.
       </p>
     );
   }
@@ -133,7 +134,7 @@ export function SprintCatalogClient({ sprints }: { sprints: SprintListItem[] }) 
 
       {filteredSprints.length === 0 ? (
         <p className="mt-6 rounded-lg border border-dashed border-border p-8 text-center text-sm text-muted-foreground">
-          No sprints match these filters right now.
+          No tests match these filters right now.
         </p>
       ) : (
         <div className="mt-6 grid gap-4 sm:grid-cols-2">
@@ -173,9 +174,17 @@ export function SprintCatalogClient({ sprints }: { sprints: SprintListItem[] }) 
                     </Link>
                   </Button>
                 ) : entry && phase !== "CLOSED" ? (
-                  <Button onClick={() => router.push(`/sprints/${sprint.id}/run`)}>
-                    {phase === "LIVE" ? "Enter Sprint" : "Registered — View Countdown"}
-                  </Button>
+                  <>
+                    {now !== null ? (
+                      <CountdownTimer
+                        targetMs={phase === "UPCOMING" ? new Date(sprint.startTime).getTime() : new Date(sprint.endTime).getTime()}
+                        label={phase === "UPCOMING" ? "Starts in" : "Closes in"}
+                      />
+                    ) : null}
+                    <Button onClick={() => router.push(`/sprints/${sprint.id}/run`)}>
+                      {phase === "LIVE" ? "Enter Test" : "Registered — View Countdown"}
+                    </Button>
+                  </>
                 ) : phase === "CLOSED" ? (
                   <Button asChild variant="outline">
                     <Link href={`/sprints/${sprint.id}/leaderboard`}>

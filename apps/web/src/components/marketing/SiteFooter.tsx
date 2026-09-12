@@ -34,9 +34,9 @@ export function SiteFooter() {
           <div className="space-y-3">
             <h4 className="text-xs font-extrabold text-white uppercase tracking-wider">{t("footerExamBoards")}</h4>
             <ul className="space-y-2 text-xs sm:text-sm">
-              <li><Link href="/exam/jnvst-live-mock" className="hover:text-amber-400 transition-colors">JNVST Class 6 & 9</Link></li>
-              <li><Link href="/sprints" className="hover:text-amber-400 transition-colors">AISSEE Sainik School</Link></li>
-              <li><Link href="/sprints" className="hover:text-amber-400 transition-colors">RMS Military Schools</Link></li>
+              <li><Link href="/#exam-boards" className="hover:text-amber-400 transition-colors">JNVST Class 6 & 9</Link></li>
+              <li><Link href="/#exam-boards" className="hover:text-amber-400 transition-colors">AISSEE Sainik School</Link></li>
+              <li><Link href="/#exam-boards" className="hover:text-amber-400 transition-colors">RMS Military Schools</Link></li>
               <li><Link href="/practice" className="hover:text-amber-400 transition-colors">{t("navFreePractice")}</Link></li>
             </ul>
           </div>

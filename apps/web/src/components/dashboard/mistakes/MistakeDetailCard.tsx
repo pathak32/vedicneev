@@ -24,7 +24,7 @@ import { VedicSpeedTipModal } from "@/components/exam/VedicSpeedTipModal";
 import type { MistakeLogEntry } from "@/lib/auth/types";
 import { TOPIC_NAMES } from "@/lib/exam/mock-data";
 import { MISTAKE_TAG_META } from "@/lib/exam/mistake-vault";
-import type { ExamQuestion, ExamSessionData, LanguageCode } from "@/lib/exam/types";
+import type { ExamQuestion, LanguageCode, Multilingual, VedicSpeedHack } from "@/lib/exam/types";
 
 /** Reaching this card already required Vedic All-Access (gated by the page), so every media item it links to is unlocked by construction. */
 const ALWAYS_ALLOWED: AccessResult = { allowed: true, reason: "ALL_ACCESS", requiresUpgrade: false, suggestedPlans: [] };
@@ -32,21 +32,21 @@ const ALWAYS_ALLOWED: AccessResult = { allowed: true, reason: "ALL_ACCESS", requ
 export interface MistakeDetailCardProps {
   entry: MistakeLogEntry;
   question: ExamQuestion;
-  session: ExamSessionData;
+  sectionName: Multilingual;
+  speedHack: VedicSpeedHack | null;
   language: LanguageCode;
   onToggleReviewed: (id: string) => void;
   /** Fetched once by the parent page (useMediaCatalog) and threaded down, so a list of N mistakes doesn't fire N /api/media requests. */
   mediaCatalog: MediaItem[];
 }
 
-export function MistakeDetailCard({ entry, question, session, language, onToggleReviewed, mediaCatalog }: MistakeDetailCardProps) {
+export function MistakeDetailCard({ entry, question, sectionName, speedHack, language, onToggleReviewed, mediaCatalog }: MistakeDetailCardProps) {
   const [speedHackVideoItem, setSpeedHackVideoItem] = useState<MediaItem | null>(null);
   const [conceptClinicItem, setConceptClinicItem] = useState<MediaItem | null>(null);
 
   const meta = MISTAKE_TAG_META[entry.mistakeTag];
-  const sectionName = session.sections.find((s) => s.key === question.sectionKey)?.name[language] ?? question.sectionKey;
+  const sectionNameLabel = sectionName[language] ?? sectionName.en;
   const topicName = TOPIC_NAMES[question.topicKey]?.[language] ?? question.topicKey;
-  const speedHack = question.vedicSpeedHackId ? session.speedHacksById[question.vedicSpeedHackId] : undefined;
   const speedHackVideo = question.vedicSpeedHackId
     ? findMediaForSpeedHack(mediaCatalog, question.vedicSpeedHackId).find((m) => m.mediaType === "SHORT_VIDEO")
     : undefined;
@@ -61,7 +61,7 @@ export function MistakeDetailCard({ entry, question, session, language, onToggle
       <CardHeader className="flex flex-row flex-wrap items-center justify-between gap-2 space-y-0">
         <div className="flex flex-wrap items-center gap-1.5">
           <Badge variant="outline" className="text-[10px]">
-            {sectionName}
+            {sectionNameLabel}
           </Badge>
           <Badge variant="outline" className="text-[10px]">
             {topicName}

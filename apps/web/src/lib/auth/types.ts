@@ -1,4 +1,4 @@
-import type { LanguageCode } from "@/lib/exam/types";
+import type { ExamQuestion, LanguageCode, Multilingual, VedicSpeedHack } from "@/lib/exam/types";
 
 export type TargetExam = "JNVST" | "AISSEE" | "RMS" | "DPS";
 export type TargetClass = 5 | 6 | 8 | 9;
@@ -64,6 +64,18 @@ export interface MistakeLogEntry {
   mistakeTag: MistakeTagCategory;
   reviewed: boolean;
   createdAt: number;
+  /**
+   * Snapshotted at log time (results/page.tsx), same convention as
+   * selectedOption above. Nothing durable exists that could re-derive a
+   * real attempt's actual question set later — TestHistoryEntry only keeps
+   * score summaries, useTestStore's session is ephemeral sessionStorage,
+   * and live-mock papers draw PYQ pools non-deterministically — so this is
+   * the only reliable way for the Mistake Vault to show the real question
+   * content afterward instead of a fabricated placeholder.
+   */
+  question: ExamQuestion;
+  sectionName: Multilingual;
+  speedHack: VedicSpeedHack | null;
 }
 
 export interface NotificationPreferences {

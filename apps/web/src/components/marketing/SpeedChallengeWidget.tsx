@@ -332,8 +332,8 @@ export function SpeedChallengeWidget() {
             >
               <RotateCcw className="w-4 h-4" /> Try Again
             </button>
-            <Link 
-              href="/exam/jnvst-live-mock"
+            <Link
+              href="/#exam-boards"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-amber-600 hover:bg-amber-500 text-white font-bold px-6 py-3 rounded-xl shadow-lg transition-all text-sm"
             >
               Unlock Full Mock Series <ArrowRight className="w-4 h-4" />

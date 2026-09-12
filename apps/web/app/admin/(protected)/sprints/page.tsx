@@ -35,15 +35,15 @@ export default async function AdminSprintsPage() {
   return (
     <div className="mx-auto flex max-w-4xl flex-col gap-6 pb-16">
       <div>
-        <h1 className="text-2xl font-bold text-foreground">National Sprint Review</h1>
+        <h1 className="text-2xl font-bold text-foreground">National Test Review</h1>
         <p className="text-sm text-muted-foreground">
-          Every active or upcoming sprint&apos;s full source question pool, with per-question verification tracking.
+          Every active or upcoming test&apos;s full source question pool, with per-question verification tracking.
         </p>
       </div>
 
       {rows.length === 0 ? (
         <p className="rounded-lg border border-dashed border-border p-8 text-center text-sm text-muted-foreground">
-          No active or upcoming sprints.
+          No active or upcoming tests.
         </p>
       ) : (
         <div className="flex flex-col gap-3">

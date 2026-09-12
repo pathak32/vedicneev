@@ -1,14 +1,20 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import { useParams } from "next/navigation";
+import { useParams, useRouter } from "next/navigation";
 import { Badge, Button, Card, CardContent, cn, Switch } from "@vedicneev/ui";
+import { checkPracticeAccess } from "@vedicneev/engine";
 
+import { PhoneAuthModal } from "@/components/auth/PhoneAuthModal";
 import { ExamPlayer } from "@/components/exam/ExamPlayer";
+import { PaywallModal } from "@/components/pricing/PaywallModal";
+import { useActiveStudent } from "@/lib/auth/ActiveStudentContext";
+import { selectActiveAccount, selectActiveParent, useAuthStore } from "@/lib/auth/useAuthStore";
 import { localize } from "@/lib/exam/localize";
 import type { ExamQuestion, ExamSessionData } from "@/lib/exam/types";
 import { useLanguageStore } from "@/lib/hooks/useLanguageStore";
+import { selectParentSubscription, useSubscriptionStore } from "@/lib/payments/useSubscriptionStore";
 import { useTestStore } from "@/lib/stores/useTestStore";
 
 /**
@@ -92,11 +98,19 @@ function readableTopicLabel(topicKey: string): string {
  * itself once a student is active.
  */
 export default function TopicPracticePage() {
+  const router = useRouter();
   const params = useParams<{ topicKey: string }>();
   const topicKey = params.topicKey;
   const [state, setState] = useState<LoadState>({ status: "choosing" });
   const [untimed, setUntimed] = useState(true);
   const [samples, setSamples] = useState<ExamQuestion[] | null>(null);
+  const [authOpen, setAuthOpen] = useState(false);
+  const [paywallOpen, setPaywallOpen] = useState(false);
+
+  const { isAuthenticated } = useActiveStudent();
+  const parent = useAuthStore(selectActiveParent);
+  const subscription = useSubscriptionStore((s) => selectParentSubscription(s, parent?.id ?? null));
+  const access = useMemo(() => checkPracticeAccess(subscription), [subscription]);
 
   useEffect(() => {
     let cancelled = false;
@@ -186,10 +200,42 @@ export default function TopicPracticePage() {
             </span>
             <Switch checked={!untimed} onCheckedChange={(checked) => setUntimed(!checked)} aria-label="Toggle timed mode" />
           </label>
-          <Button type="button" onClick={startPractice}>
+          <Button
+            type="button"
+            onClick={() => {
+              if (!isAuthenticated) {
+                setAuthOpen(true);
+              } else if (!access.allowed) {
+                setPaywallOpen(true);
+              } else {
+                startPractice();
+              }
+            }}
+          >
             Start Practice
           </Button>
         </div>
+
+        <PhoneAuthModal
+          open={authOpen}
+          onOpenChange={setAuthOpen}
+          onAuthenticated={() => {
+            setAuthOpen(false);
+            const account = selectActiveAccount(useAuthStore.getState());
+            if (!account || account.students.length === 0) {
+              router.push(`/onboarding?next=${encodeURIComponent(`/practice/${topicKey}`)}`);
+            }
+            // Otherwise the access memo above re-checks naturally once
+            // subscription/isAuthenticated state updates — nothing else to do here.
+          }}
+        />
+        <PaywallModal
+          open={paywallOpen}
+          onOpenChange={setPaywallOpen}
+          feature="PRACTICE_SET"
+          suggestedPlans={access.suggestedPlans}
+          onUnlocked={() => startPractice()}
+        />
       </div>
     );
   }

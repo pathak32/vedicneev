@@ -10,7 +10,7 @@ const NAV_ITEMS = [
   { href: "/dashboard", label: "Overview", icon: LayoutDashboard },
   { href: "/dashboard/mistakes", label: "Mistake Vault", icon: Lightbulb },
   { href: "/dashboard/library", label: "My Library", icon: Library },
-  { href: "/exam/demo-jnvst", label: "Take a Mock Test", icon: NotebookPen },
+  { href: "/exam/live", label: "Take a Mock Test", icon: NotebookPen },
   { href: "/learn", label: "Learn", icon: BookOpen },
   { href: "/parent", label: "Parent Command Center", icon: Users },
 ] as const;

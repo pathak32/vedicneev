@@ -40,18 +40,14 @@ export default function MistakeVaultPage() {
 
   const resolved = useMemo(() => {
     return mistakeLog
-      .map((entry) => {
-        const resolvedQuestion = resolveMistakeQuestion(entry);
-        return resolvedQuestion ? { entry, ...resolvedQuestion } : null;
-      })
-      .filter((row): row is NonNullable<typeof row> => row !== null)
+      .map((entry) => ({ entry, ...resolveMistakeQuestion(entry) }))
       .sort((a, b) => b.entry.createdAt - a.entry.createdAt);
   }, [mistakeLog]);
 
   const subjectOptions = useMemo(() => {
     const bySection = new Map<string, { key: string; name: string; count: number }>();
-    for (const { question, session } of resolved) {
-      const name = session.sections.find((s) => s.key === question.sectionKey)?.name[language] ?? question.sectionKey;
+    for (const { question, sectionName } of resolved) {
+      const name = sectionName[language] ?? sectionName.en;
       const existing = bySection.get(question.sectionKey);
       bySection.set(question.sectionKey, { key: question.sectionKey, name, count: (existing?.count ?? 0) + 1 });
     }
@@ -224,12 +220,13 @@ export default function MistakeVaultPage() {
                 No mistakes match these filters.
               </div>
             ) : (
-              filtered.map(({ entry, question, session }) => (
+              filtered.map(({ entry, question, sectionName, speedHack }) => (
                 <MistakeDetailCard
                   key={entry.id}
                   entry={entry}
                   question={question}
-                  session={session}
+                  sectionName={sectionName}
+                  speedHack={speedHack}
                   language={language}
                   onToggleReviewed={toggleMistakeReviewed}
                   mediaCatalog={mediaCatalog}

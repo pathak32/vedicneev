@@ -14,7 +14,7 @@ export function FinalCta() {
         <h2 className="text-2xl font-bold text-foreground md:text-3xl">{t("finalCtaHeading")}</h2>
         <p className="max-w-xl text-sm text-muted-foreground md:text-base">{t("finalCtaSubheading")}</p>
         <Button asChild size="lg" className="mt-2">
-          <Link href="/exam/demo-jnvst">
+          <Link href="/#exam-boards">
             {t("finalCtaButton")}
             <ArrowRight className="h-4 w-4" />
           </Link>

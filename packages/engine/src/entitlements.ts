@@ -133,6 +133,12 @@ export function checkExamAccess(
   return deny("FREE_TIER_EXHAUSTED", ["EXAM_PASS", "VEDIC_ALL_ACCESS"]);
 }
 
+/** Can this parent start a full topic Practice set (past the 3 free pre-auth sample questions)? Any active Exam Pass or All-Access unlocks it — no free tier, no exam-matching (a Practice topic isn't parameterized by a single exam type the way a mock test is). */
+export function checkPracticeAccess(subscription: ParentSubscription | null, now: number = Date.now()): AccessResult {
+  if (isSubscriptionActive(subscription, now)) return allow("ALL_ACCESS");
+  return deny("REQUIRES_EXAM_PASS_OR_ALL_ACCESS", ["EXAM_PASS", "VEDIC_ALL_ACCESS"]);
+}
+
 /** Can this parent use the OMR scanner for `targetExam`? (Exam Pass for that exam, or All-Access — no free tier.) */
 export function checkOmrScannerAccess(
   subscription: ParentSubscription | null,

@@ -709,12 +709,12 @@ export const DICTIONARY = {
     gu: "સક્રિય પરીક્ષા બોર્ડ",
   },
   navScholarshipSprints: {
-    en: "Scholarship Sprints",
-    hi: "छात्रवृत्ति स्प्रिंट",
-    mr: "शिष्यवृत्ती स्प्रिंट",
-    bn: "বৃত্তি স্প্রিন্ট",
-    ta: "உதவித்தொகை ஸ்பிரிண்ட்",
-    gu: "શિષ્યવૃત્તિ સ્પ્રિન્ટ",
+    en: "Scholarship Tests",
+    hi: "छात्रवृत्ति परीक्षा",
+    mr: "शिष्यवृत्ती चाचणी",
+    bn: "বৃত্তি পরীক্ষা",
+    ta: "உதவித்தொகை தேர்வு",
+    gu: "શિષ્યવૃત્તિ પરીક્ષા",
   },
   navStore: {
     en: "Digital Knowledge Hub",

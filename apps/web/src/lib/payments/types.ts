@@ -46,3 +46,24 @@ export interface VerifyPaymentRequestBody extends RazorpayPaymentPayload {
   planId: PaidPlanId;
   targetExam: EntitlementExamType | null;
 }
+
+/**
+ * Body POST /api/checkout/verify expects — a client-side, synchronous
+ * counterpart to the async webhook (app/api/webhook/payment) for one-time
+ * Store purchases, so a real captured payment is never left PENDING purely
+ * because a webhook delivery got lost. `purchaseIds` is only a hint for the
+ * response shape/UI continuity — the route always re-derives which
+ * purchases to mark PAID from `razorpay_order_id` server-side, the same way
+ * the webhook does, never from this client-supplied list.
+ */
+export interface CheckoutVerifyRequestBody extends RazorpayPaymentPayload {
+  purchaseIds: string[];
+}
+
+/** Shape returned by POST /api/checkout/verify. */
+export interface CheckoutVerifyResponse {
+  verified: boolean;
+  mock: boolean;
+  error?: string;
+  purchaseIds?: string[];
+}

@@ -18,12 +18,16 @@ import { selectActiveParent, useAuthStore } from "@/lib/auth/useAuthStore";
 import type { StoredSubscription } from "@/lib/payments/useSubscriptionStore";
 import { CheckoutFlow } from "./CheckoutFlow";
 
-export type LockedFeature = "MOCK_TEST" | "OMR_SCANNER" | "MISTAKE_VAULT_SOLUTIONS" | "SPEED_HACK_CLINIC";
+export type LockedFeature = "MOCK_TEST" | "OMR_SCANNER" | "MISTAKE_VAULT_SOLUTIONS" | "SPEED_HACK_CLINIC" | "PRACTICE_SET";
 
 const FEATURE_COPY: Record<LockedFeature, { title: string; description: string }> = {
   MOCK_TEST: {
     title: "Unlock this mock test",
     description: "You've used your free mock test. Get an Exam Pass or All-Access to keep practicing.",
+  },
+  PRACTICE_SET: {
+    title: "Unlock full practice sets",
+    description: "You've tried the free sample questions — get an Exam Pass or All-Access to practice the full topic.",
   },
   OMR_SCANNER: {
     title: "Unlock the OMR scanner",

@@ -142,7 +142,7 @@ export function HeroSection() {
 
           <div className="flex flex-col items-center justify-center gap-4 pt-4 sm:flex-row">
             <Link
-              href="/exam/demo-jnvst"
+              href="/#exam-boards"
               className="w-full -translate-y-0 transform rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 px-8 py-4 text-center font-extrabold text-slate-950 shadow-xl shadow-amber-500/20 transition-all hover:-translate-y-0.5 hover:from-amber-400 hover:to-amber-500 sm:w-auto"
             >
               Start Free Mock Test

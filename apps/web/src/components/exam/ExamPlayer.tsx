@@ -83,10 +83,14 @@ export function ExamPlayer({ session, practiceMode = true, allowAnonymous = fals
     if (hasHydrated && activeStudent && !access.allowed) setPaywallOpen(true);
   }, [hasHydrated, activeStudent, access.allowed]);
 
-  // A signed-in parent with no student profiles yet needs to onboard one first.
+  // A signed-in parent with no student profiles yet needs to onboard one
+  // first — carry a `next` redirect so completing onboarding returns here
+  // instead of losing this exam and landing on "/".
   useEffect(() => {
-    if (hasHydrated && needsOnboarding) router.push("/onboarding");
-  }, [hasHydrated, needsOnboarding, router]);
+    if (hasHydrated && needsOnboarding) {
+      router.push(`/onboarding?next=${encodeURIComponent(`/exam/${session.examId}`)}`);
+    }
+  }, [hasHydrated, needsOnboarding, router, session.examId]);
 
   // Live countdown — ticks once per second; tick() itself is a no-op once submitted.
   useEffect(() => {
@@ -169,7 +173,9 @@ export function ExamPlayer({ session, practiceMode = true, allowAnonymous = fals
           onOpenChange={setAuthOpen}
           onAuthenticated={() => {
             const account = selectActiveAccount(useAuthStore.getState());
-            if (!account || account.students.length === 0) router.push("/onboarding");
+            if (!account || account.students.length === 0) {
+              router.push(`/onboarding?next=${encodeURIComponent(`/exam/${session.examId}`)}`);
+            }
           }}
         />
       </div>

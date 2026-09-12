@@ -167,6 +167,9 @@ export default function ExamResultsPage({ params }: { params: { examId: string }
             selectedOption: m.selectedOption,
             mistakeTag: m.mistakeTag,
             createdAt: submittedAt!,
+            question: m.question,
+            sectionName: session!.sections.find((s) => s.key === m.question.sectionKey)?.name ?? { en: m.question.sectionKey },
+            speedHack: m.question.vedicSpeedHackId ? (session!.speedHacksById[m.question.vedicSpeedHackId] ?? null) : null,
           }))
         );
       }
