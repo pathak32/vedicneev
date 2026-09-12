@@ -20,6 +20,7 @@ import { ScoreHero, type CandidateProfile } from "@/components/analytics/ScoreHe
 import { SectionBreakdown } from "@/components/analytics/SectionBreakdown";
 import { SpeedAccuracyMatrix } from "@/components/analytics/SpeedAccuracyMatrix";
 import { PhoneAuthModal } from "@/components/auth/PhoneAuthModal";
+import { useTestModeBypass } from "@/lib/admin/useTestModeBypass";
 import { useActiveStudent } from "@/lib/auth/ActiveStudentContext";
 import { selectActiveAccount, selectActiveParent, selectNotificationPreferences, useAuthStore } from "@/lib/auth/useAuthStore";
 import { SAMPLE_HISTORICAL_CUTOFFS, SAMPLE_STATES } from "@/lib/exam/cutoff-data";
@@ -52,7 +53,19 @@ export default function ExamResultsPage({ params }: { params: { examId: string }
   const notificationPreferences = useAuthStore((s) => selectNotificationPreferences(s, parent?.id ?? null));
   const subscription = useSubscriptionStore((s) => selectParentSubscription(s, parent?.id ?? null));
   const incrementFreeMockUsage = useSubscriptionStore((s) => s.incrementFreeMockUsage);
-  const mistakeVaultAccess = useMemo(() => checkMistakeVaultAccess(subscription), [subscription]);
+  // QA bypass (see useTestModeBypass) — an authenticated admin's browser
+  // skips the Mistake Vault paywall and the anonymous-attempt sign-in wall
+  // below (that wall only ever gates *revealing* an already-computed
+  // report, same as ExamPlayer's existing allowAnonymous path — nothing
+  // is fabricated).
+  const bypass = useTestModeBypass();
+  const mistakeVaultAccess = useMemo(
+    () =>
+      bypass
+        ? { allowed: true as const, reason: "ALL_ACCESS" as const, requiresUpgrade: false, suggestedPlans: [] }
+        : checkMistakeVaultAccess(subscription),
+    [bypass, subscription]
+  );
   const recordedForRef = useRef<string | null>(null);
   const [autoDispatchResult, setAutoDispatchResult] = useState<DispatchResult | null>(null);
   // sampleSize stays null until POST /api/exam/submit resolves — ScoreHero
@@ -251,7 +264,7 @@ export default function ExamResultsPage({ params }: { params: { examId: string }
   // finalize() effect above (gated on `activeStudent`) then fires and syncs
   // this same submission to /api/exam/submit retroactively, exactly as if
   // the student had signed in before starting.
-  if (!activeStudent) {
+  if (!activeStudent && !bypass) {
     return (
       <div className="mx-auto flex max-w-md flex-col items-center gap-4 p-16 text-center">
         <p className="text-lg font-semibold text-foreground">Sign in to see your results</p>

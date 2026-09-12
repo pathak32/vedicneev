@@ -7,6 +7,7 @@ import { checkExamAccess } from "@vedicneev/engine";
 
 import { PhoneAuthModal } from "@/components/auth/PhoneAuthModal";
 import { PaywallModal } from "@/components/pricing/PaywallModal";
+import { useTestModeBypass } from "@/lib/admin/useTestModeBypass";
 import { useActiveStudent } from "@/lib/auth/ActiveStudentContext";
 import { selectActiveAccount, selectActiveParent, useAuthStore } from "@/lib/auth/useAuthStore";
 import { selectFreeMockTestsUsed, selectParentSubscription, useSubscriptionStore } from "@/lib/payments/useSubscriptionStore";
@@ -44,12 +45,22 @@ export function ExamPlayer({ session, practiceMode = true, allowAnonymous = fals
   const [authOpen, setAuthOpen] = useState(false);
   const [paywallOpen, setPaywallOpen] = useState(false);
 
+  // QA bypass (see useTestModeBypass) — an authenticated admin's browser
+  // gets the same free rein as allowAnonymous, plus every entitlement
+  // check below is forced to ALL_ACCESS. A real customer's session always
+  // resolves this to false.
+  const bypass = useTestModeBypass();
+  const skipSignIn = allowAnonymous || bypass;
+
   const parent = useAuthStore(selectActiveParent);
   const subscription = useSubscriptionStore((s) => selectParentSubscription(s, parent?.id ?? null));
   const freeMockTestsUsed = useSubscriptionStore((s) => selectFreeMockTestsUsed(s, activeStudent?.id ?? null));
   const access = useMemo(
-    () => checkExamAccess(subscription, session.examType, freeMockTestsUsed),
-    [subscription, session.examType, freeMockTestsUsed]
+    () =>
+      bypass
+        ? { allowed: true as const, reason: "ALL_ACCESS" as const, requiresUpgrade: false, suggestedPlans: [] }
+        : checkExamAccess(subscription, session.examType, freeMockTestsUsed),
+    [bypass, subscription, session.examType, freeMockTestsUsed]
   );
 
   const storeSession = useTestStore((s) => s.session);
@@ -71,12 +82,12 @@ export function ExamPlayer({ session, practiceMode = true, allowAnonymous = fals
   // session (answers, timers, everything) with a freshly reset one on
   // every remount, defeating the point of persisting it.
   useEffect(() => {
-    if ((!activeStudent && !allowAnonymous) || !access.allowed || !testStoreHasHydrated) return;
+    if ((!activeStudent && !skipSignIn) || !access.allowed || !testStoreHasHydrated) return;
     const restored = useTestStore.getState();
     const alreadyResuming = restored.session?.examId === session.examId && !restored.submitted;
     if (alreadyResuming) return;
     initSession(session);
-  }, [session, initSession, activeStudent, allowAnonymous, access.allowed, testStoreHasHydrated]);
+  }, [session, initSession, activeStudent, skipSignIn, access.allowed, testStoreHasHydrated]);
 
   // A locked mock test opens the paywall instead of starting the exam.
   useEffect(() => {
@@ -158,7 +169,7 @@ export function ExamPlayer({ session, practiceMode = true, allowAnonymous = fals
 
   if (!hasHydrated || !testStoreHasHydrated) return null;
 
-  if (!isAuthenticated && !allowAnonymous) {
+  if (!isAuthenticated && !skipSignIn) {
     return (
       <div className="mx-auto flex max-w-md flex-col items-center gap-4 p-16 text-center">
         <p className="text-lg font-semibold text-foreground">Sign in to start this test</p>
@@ -182,7 +193,7 @@ export function ExamPlayer({ session, practiceMode = true, allowAnonymous = fals
     );
   }
 
-  if (needsOnboarding || (!activeStudent && !allowAnonymous)) {
+  if (needsOnboarding || (!activeStudent && !skipSignIn)) {
     return <div className="p-8 text-center text-muted-foreground">Setting up your student profile…</div>;
   }
 

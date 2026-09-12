@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { prisma } from "@vedicneev/db";
 
+import { getAuthenticatedAdmin } from "@/lib/admin/user";
 import { resolveCheckoutUser } from "@/lib/auth/resolveCheckoutUser";
 import { localize } from "@/lib/exam/localize";
 import type { Multilingual } from "@/lib/exam/types";
@@ -18,6 +19,34 @@ export async function POST(request: Request) {
     body = await request.json();
   } catch {
     return NextResponse.json({ error: "Invalid JSON body." }, { status: 400 });
+  }
+
+  // QA bypass — re-checks getAuthenticatedAdmin() directly rather than
+  // trusting the client's own /api/test-mode/status answer, since this is
+  // real money-relevant data (product ownership). Every active product is
+  // returned as if already paid for, with no real Purchase row needed, so
+  // an admin can click through the whole Digital Knowledge Hub library
+  // without a real transaction.
+  if (await getAuthenticatedAdmin()) {
+    const products = await prisma.product.findMany({ where: { isActive: true }, orderBy: { createdAt: "desc" } });
+    return NextResponse.json({
+      purchases: products.map((product) => ({
+        id: `bypass-${product.id}`,
+        status: "PAID" as const,
+        amountPaid: product.sellingPrice,
+        bootcampStartedAt: null,
+        createdAt: product.createdAt.toISOString(),
+        product: {
+          id: product.id,
+          title: localize(product.title as Multilingual, "en"),
+          description: localize(product.description as Multilingual, "en"),
+          productType: product.productType,
+          targetExam: product.targetExam,
+          targetClass: product.targetClass,
+          fileUrl: product.fileUrl,
+        },
+      })),
+    });
   }
 
   // Read-only lookup (createIfMissing: false) — viewing a library must

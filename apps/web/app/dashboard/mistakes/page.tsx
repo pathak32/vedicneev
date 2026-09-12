@@ -8,6 +8,7 @@ import { Lock, Sparkles } from "lucide-react";
 
 import { MistakeDetailCard } from "@/components/dashboard/mistakes/MistakeDetailCard";
 import { PaywallModal } from "@/components/pricing/PaywallModal";
+import { useTestModeBypass } from "@/lib/admin/useTestModeBypass";
 import { useActiveStudent } from "@/lib/auth/ActiveStudentContext";
 import type { MistakeTagCategory } from "@/lib/auth/types";
 import { selectActiveParent, selectMistakeLogForStudent, useAuthStore } from "@/lib/auth/useAuthStore";
@@ -28,7 +29,17 @@ export default function MistakeVaultPage() {
   const toggleMistakeReviewed = useAuthStore((s) => s.toggleMistakeReviewed);
   const parent = useAuthStore(selectActiveParent);
   const subscription = useSubscriptionStore((s) => selectParentSubscription(s, parent?.id ?? null));
-  const mistakeVaultAccess = useMemo(() => checkMistakeVaultAccess(subscription), [subscription]);
+  // QA bypass (see useTestModeBypass) — still requires a real signed-in
+  // student (there's no real data to show otherwise), just skips that
+  // student's subscription paywall.
+  const bypass = useTestModeBypass();
+  const mistakeVaultAccess = useMemo(
+    () =>
+      bypass
+        ? { allowed: true as const, reason: "ALL_ACCESS" as const, requiresUpgrade: false, suggestedPlans: [] }
+        : checkMistakeVaultAccess(subscription),
+    [bypass, subscription]
+  );
   const [paywallOpen, setPaywallOpen] = useState(false);
   const mediaCatalog = useMediaCatalog();
 

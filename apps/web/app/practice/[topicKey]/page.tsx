@@ -9,6 +9,7 @@ import { checkPracticeAccess } from "@vedicneev/engine";
 import { PhoneAuthModal } from "@/components/auth/PhoneAuthModal";
 import { ExamPlayer } from "@/components/exam/ExamPlayer";
 import { PaywallModal } from "@/components/pricing/PaywallModal";
+import { useTestModeBypass } from "@/lib/admin/useTestModeBypass";
 import { useActiveStudent } from "@/lib/auth/ActiveStudentContext";
 import { selectActiveAccount, selectActiveParent, useAuthStore } from "@/lib/auth/useAuthStore";
 import { localize } from "@/lib/exam/localize";
@@ -111,6 +112,9 @@ export default function TopicPracticePage() {
   const parent = useAuthStore(selectActiveParent);
   const subscription = useSubscriptionStore((s) => selectParentSubscription(s, parent?.id ?? null));
   const access = useMemo(() => checkPracticeAccess(subscription), [subscription]);
+  // QA bypass (see useTestModeBypass) — an authenticated admin's browser
+  // skips both the sign-in wall and the subscription paywall below.
+  const bypass = useTestModeBypass();
 
   useEffect(() => {
     let cancelled = false;
@@ -203,7 +207,9 @@ export default function TopicPracticePage() {
           <Button
             type="button"
             onClick={() => {
-              if (!isAuthenticated) {
+              if (bypass) {
+                startPractice();
+              } else if (!isAuthenticated) {
                 setAuthOpen(true);
               } else if (!access.allowed) {
                 setPaywallOpen(true);
