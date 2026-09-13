@@ -354,6 +354,20 @@ model Product {
   // products seeded before this field existed.
   previewOutline Json? @map("preview_outline")
 
+  // Curated 2-3 worked examples shown in the pre-purchase preview for
+  // MOCK_SERIES/QUESTION_BOOKLET products. Deliberately admin-authored and
+  // denormalized here (same {stem, options, correctOptionId, explanation}
+  // shape as Question) rather than an FK into the real Question bank —
+  // preview content is curated marketing copy, not live bank data, and
+  // shouldn't change if the underlying bank question is later edited.
+  // Array of PreviewSampleQuestion (see apps/web/src/lib/store/types.ts).
+  previewSampleQuestions Json? @map("preview_sample_questions")
+
+  // OMR_KIT preview: a sample A4 sheet image plus short usage instructions,
+  // shown in place of sample questions for that product type.
+  previewOmrImageUrl     String? @map("preview_omr_image_url")
+  previewOmrInstructions Json?   @map("preview_omr_instructions") // string[]
+
   isActive Boolean @default(true) @map("is_active")
 
   createdAt DateTime @default(now()) @map("created_at")

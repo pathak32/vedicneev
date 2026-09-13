@@ -3,6 +3,7 @@ import { prisma } from "@vedicneev/db";
 import { localize } from "@/lib/exam/localize";
 import type { Multilingual } from "@/lib/exam/types";
 import { StorePageClient } from "@/components/store/StorePageClient";
+import { localizePreviewSampleQuestions } from "@/lib/store/previewContent";
 import type { StoreProduct } from "@/lib/store/types";
 
 export const dynamic = "force-dynamic";
@@ -27,6 +28,9 @@ export default async function StorePage() {
     sellingPrice: product.sellingPrice,
     fileUrl: product.fileUrl,
     previewOutline: (product.previewOutline as string[] | null) ?? null,
+    previewSampleQuestions: localizePreviewSampleQuestions(product.previewSampleQuestions, "en"),
+    previewOmrImageUrl: product.previewOmrImageUrl,
+    previewOmrInstructions: (product.previewOmrInstructions as string[] | null) ?? null,
   }));
 
   return (
