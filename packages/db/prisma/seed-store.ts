@@ -4,10 +4,13 @@
  * seed-jnvst-pyqs.ts's precedent — independent of the rest of the seed
  * data, safe to re-run on its own.
  *
- * fileUrl is left null for every product: this project has no in-app file
- * upload pipeline (see MediaItem.videoUrl/OfflineMockSession.scannedImageUrl,
- * which follow the same "populated out of band" convention) — point these
- * at real hosted PDF/OMR-kit URLs before launch.
+ * fileUrl points at a real static placeholder asset for the two products
+ * that sell a downloadable file — apps/web/public/sample-question-bank-
+ * booklet.pdf and the existing public/omr-sample-sheet.svg — matching
+ * MediaItem.videoUrl/OfflineMockSession.scannedImageUrl's "populated out
+ * of band" convention. Swap these for the real production assets before
+ * launch. The other three products are access-based, not file-based, so
+ * fileUrl stays null for them by omission.
  *
  * Product has no natural unique business key in the schema, so this keys
  * off productType instead — safe only because this script seeds exactly
@@ -48,6 +51,7 @@ const PRODUCTS = [
     productType: "QUESTION_BOOKLET" as const,
     displayPrice: 399,
     sellingPrice: 149,
+    fileUrl: "/sample-question-bank-booklet.pdf",
   },
   {
     title: { en: "Printable Offline OMR Kit", hi: "प्रिंट करने योग्य ऑफ़लाइन OMR किट" },
@@ -58,6 +62,7 @@ const PRODUCTS = [
     productType: "OMR_KIT" as const,
     displayPrice: 299,
     sellingPrice: 99,
+    fileUrl: "/omr-sample-sheet.svg",
   },
   {
     title: { en: "The Ultimate Mega Bundle", hi: "अल्टीमेट मेगा बंडल" },
@@ -90,6 +95,7 @@ async function main() {
       productType: product.productType,
       displayPrice: product.displayPrice,
       sellingPrice: product.sellingPrice,
+      fileUrl: "fileUrl" in product ? product.fileUrl : null,
     };
     if (existing) {
       await prisma.product.update({ where: { id: existing.id }, data });
