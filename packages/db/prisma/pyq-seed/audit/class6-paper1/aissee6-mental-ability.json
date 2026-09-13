@@ -313,7 +313,7 @@
       "key": "aissee6-p1-ma-17",
       "year": 2026,
       "difficulty": "MEDIUM",
-      "questionJson": { "en": "Choose the correct mirror image position: if today is Wednesday, what day will it be after 10 days?", "hi": "यदि आज बुधवार है, तो 10 दिनों बाद कौन-सा दिन होगा?" },
+      "questionJson": { "en": "If today is Wednesday, what day will it be after 10 days?", "hi": "यदि आज बुधवार है, तो 10 दिनों बाद कौन-सा दिन होगा?" },
       "optionsJson": [
         { "en": "Friday", "hi": "शुक्रवार" },
         { "en": "Saturday", "hi": "शनिवार" },
@@ -389,7 +389,7 @@
       "key": "aissee6-p1-ma-21",
       "year": 2023,
       "difficulty": "MEDIUM",
-      "questionJson": { "en": "If South-East becomes North after a person turns, through how many degrees did the person turn (minimum, clockwise)?", "hi": "यदि दक्षिण-पूर्व दिशा घूमने के बाद उत्तर बन जाती है, तो व्यक्ति ने न्यूनतम कितने अंश (दक्षिणावर्त) घुमाव लिया?" },
+      "questionJson": { "en": "A person is facing South-East. What is the minimum angle through which the person must turn (in either direction) to face North?", "hi": "एक व्यक्ति दक्षिण-पूर्व की ओर मुख किए हुए है। उत्तर की ओर मुख करने के लिए व्यक्ति को (किसी भी दिशा में) न्यूनतम कितने अंश घूमना होगा?" },
       "optionsJson": [
         { "en": "90°", "hi": "90°" },
         { "en": "135°", "hi": "135°" },
@@ -397,11 +397,11 @@
         { "en": "225°", "hi": "225°" }
       ],
       "correctAnswer": 1,
-      "explanation": { "en": "South-East to North is a 135° clockwise turn on the compass (SE→S→SW→W... the shorter clockwise path SE→E→NE→N is 3 steps of 45° = 135°).", "hi": "दक्षिण-पूर्व से उत्तर तक दक्षिणावर्त घुमाव 135° है (SE→E→NE→N, प्रत्येक 45° के 3 चरण = 135°)।" },
+      "explanation": { "en": "South-East and North are 3 compass steps apart (SE→E→NE→N), each step 45° — the shorter way round is 3×45° = 135°. Turning the other way (SE→S→SW→W→NW→N) would take 225°, so 135° is the minimum.", "hi": "दक्षिण-पूर्व और उत्तर के बीच 3 दिशा-चरणों का अंतर है (SE→E→NE→N), प्रत्येक चरण 45° का — छोटा रास्ता 3×45° = 135° है। दूसरी ओर घूमने पर (SE→S→SW→W→NW→N) 225° लगते, अतः न्यूनतम 135° है।" },
       "distractorAnalysis": {
-        "0": { "en": "This is only one 45°-step short of the actual turn needed.", "hi": "यह वास्तविक आवश्यक घुमाव से एक 45° चरण कम है।" },
+        "0": { "en": "This is only one 45°-step short of the actual minimum turn needed.", "hi": "यह वास्तविक न्यूनतम घुमाव से एक 45° चरण कम है।" },
         "2": { "en": "This would be the turn from South-East to North-West, not North.", "hi": "यह दक्षिण-पूर्व से उत्तर-पश्चिम तक का घुमाव होता, उत्तर तक का नहीं।" },
-        "3": { "en": "Goes past North by taking the longer way around.", "hi": "लंबे रास्ते से घूमकर उत्तर से आगे निकल गए।" }
+        "3": { "en": "This is the longer way round — not the minimum turn.", "hi": "यह लंबा रास्ता है — न्यूनतम घुमाव नहीं।" }
       }
     },
     {
