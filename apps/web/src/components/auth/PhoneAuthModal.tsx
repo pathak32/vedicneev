@@ -12,6 +12,7 @@ import {
 import { Loader2, Phone, ShieldCheck } from "lucide-react";
 
 import { useAuthStore } from "@/lib/auth/useAuthStore";
+import { isSupabaseAuthConfigured } from "@/lib/supabase/env";
 
 const RESEND_SECONDS = 30;
 
@@ -87,7 +88,9 @@ export function PhoneAuthModal({ open, onOpenChange, onAuthenticated }: PhoneAut
           <DialogDescription>
             {step === "phone"
               ? "We'll text a one-time code to verify it's you."
-              : `Sent to +91 ${pendingOtpPhone}. In this demo, the code is always ${"123456"}.`}
+              : isSupabaseAuthConfigured()
+                ? `Sent to +91 ${pendingOtpPhone} on WhatsApp.`
+                : `Sent to +91 ${pendingOtpPhone}. In this demo, the code is always ${"123456"}.`}
           </DialogDescription>
         </DialogHeader>
 
