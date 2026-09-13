@@ -53,6 +53,8 @@ async function main() {
       explanation: item.explanation as unknown as Prisma.InputJsonValue,
       distractorAnalysis: (item.distractorAnalysis as unknown as Prisma.InputJsonValue) ?? Prisma.JsonNull,
       difficulty: item.difficulty,
+      paperNumber: item.paperNumber ?? 1,
+      reviewStatus: item.reviewStatus ?? "PUBLISHED",
     };
 
     const result = await prisma.previousYearQuestion.upsert({

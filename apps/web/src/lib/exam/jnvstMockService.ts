@@ -143,7 +143,7 @@ export async function getJnvstSampleQuestions(): Promise<{ questions: ExamQuesti
   const rows = await Promise.all(
     template.sections.map((s) =>
       prisma.previousYearQuestion.findFirst({
-        where: { examType: "JNVST", classLevel: 6, sectionId: s.sectionId },
+        where: { examType: "JNVST", classLevel: 6, sectionId: s.sectionId, reviewStatus: "PUBLISHED" },
         orderBy: { id: "asc" },
       })
     )
@@ -190,7 +190,12 @@ export async function generateJnvstMockSession(): Promise<JnvstMockGenerationRes
   }));
 
   const pool = await prisma.previousYearQuestion.findMany({
-    where: { examType: "JNVST", classLevel: 6, sectionId: { in: template.sections.map((s) => s.sectionId) } },
+    where: {
+      examType: "JNVST",
+      classLevel: 6,
+      sectionId: { in: template.sections.map((s) => s.sectionId) },
+      reviewStatus: "PUBLISHED",
+    },
     select: { id: true, sectionId: true },
   });
   const poolItems: PyqPoolItem[] = pool.map((p) => ({
@@ -358,7 +363,39 @@ async function assembleFromQuestionBank(
   return { session, warnings: assembled.warnings };
 }
 
-export async function generateLiveMockSession(slug: string): Promise<JnvstMockGenerationResult | JnvstMockGenerationError> {
+/**
+ * Lists every distinct, admin-published mock paper number seeded for a
+ * board/class — used by the /exam/live catalog to decide whether to show a
+ * "Paper 1 / Paper 2 / …" picker (once at least one exists) instead of the
+ * default single random-draw "Start Mock" button. A DRAFT paper never shows
+ * up here — only /admin/mock-papers can see those, until published.
+ */
+export async function listPublishedPapers(examType: ExamType, classLevel: number): Promise<number[]> {
+  const rows = await prisma.previousYearQuestion.findMany({
+    where: { examType, classLevel, reviewStatus: "PUBLISHED" },
+    distinct: ["paperNumber"],
+    select: { paperNumber: true },
+    orderBy: { paperNumber: "asc" },
+  });
+  return rows.map((r) => r.paperNumber);
+}
+
+/**
+ * `paperNumber`, when given, launches that EXACT fixed paper instead of a
+ * fresh random draw from the whole board/class pool — every student gets
+ * the same 125 (or whatever the blueprint calls for) questions, since a
+ * published paper's row count already matches its section quotas exactly
+ * (assembleJnvstMock's "shuffle" then only randomizes presentation order).
+ * Always routes through the PreviousYearQuestion pool when set, bypassing
+ * QUESTION_BANK_MOCK_SLUGS's Question-bank fallback entirely — a specific
+ * paper number only makes sense once real paper content has been seeded
+ * and published for that slug. Omitted, behavior is unchanged from before
+ * this parameter existed.
+ */
+export async function generateLiveMockSession(
+  slug: string,
+  paperNumber?: number
+): Promise<JnvstMockGenerationResult | JnvstMockGenerationError> {
   const template = await prisma.examTemplate.findUnique({
     where: { slug },
     include: { sections: { include: { section: true }, orderBy: { order: "asc" } } },
@@ -379,7 +416,7 @@ export async function generateLiveMockSession(slug: string): Promise<JnvstMockGe
     questionCount: s.questionCount,
   }));
 
-  if ((QUESTION_BANK_MOCK_SLUGS as readonly string[]).includes(slug)) {
+  if (paperNumber === undefined && (QUESTION_BANK_MOCK_SLUGS as readonly string[]).includes(slug)) {
     return assembleFromQuestionBank(template, blueprint, sectionKeyById);
   }
 
@@ -388,6 +425,8 @@ export async function generateLiveMockSession(slug: string): Promise<JnvstMockGe
       examType: template.examType,
       classLevel: template.classLevel,
       sectionId: { in: template.sections.map((s) => s.sectionId) },
+      reviewStatus: "PUBLISHED",
+      ...(paperNumber !== undefined ? { paperNumber } : {}),
     },
     select: { id: true, sectionId: true },
   });

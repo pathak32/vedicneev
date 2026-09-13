@@ -1,0 +1,959 @@
+{
+  "examType": "RMS",
+  "classLevel": 9,
+  "paperNumber": 2,
+  "sectionKey": "mathematics",
+  "generatedAt": "2026-09-13T00:00:00.000Z",
+  "questions": [
+    {
+      "key": "rms9-p2-ma-01",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Simplify: 2^5 ÷ 2^3", "hi": "सरल करें: 2^5 ÷ 2^3" },
+      "optionsJson": [
+        { "en": "2", "hi": "2" },
+        { "en": "4", "hi": "4" },
+        { "en": "8", "hi": "8" },
+        { "en": "16", "hi": "16" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Same base, subtract exponents: 2^5÷2^3 = 2^(5-3) = 2^2 = 4.", "hi": "समान आधार, घातांक घटाएँ: 2^5÷2^3 = 2^(5-3) = 2^2 = 4।" },
+      "distractorAnalysis": {
+        "0": { "en": "Subtracts the exponents incorrectly.", "hi": "घातांकों को गलत घटाया।" },
+        "2": { "en": "Computes 2^3 instead of 2^2.", "hi": "2^2 के बजाय 2^3 की गणना की।" },
+        "3": { "en": "Adds the exponents instead of subtracting them.", "hi": "घातांकों को घटाने के बजाय जोड़ दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-02",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Solve for x: 4x − 3 = 13", "hi": "x के लिए हल करें: 4x − 3 = 13" },
+      "optionsJson": [
+        { "en": "3", "hi": "3" },
+        { "en": "4", "hi": "4" },
+        { "en": "5", "hi": "5" },
+        { "en": "6", "hi": "6" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "4x = 13+3 = 16, so x = 16/4 = 4.", "hi": "4x = 13+3 = 16, अतः x = 16/4 = 4।" },
+      "distractorAnalysis": {
+        "0": { "en": "Arithmetic slip while dividing 16 by 4.", "hi": "16 को 4 से भाग देने में गणना की भूल।" },
+        "2": { "en": "Arithmetic slip while dividing 16 by 4.", "hi": "16 को 4 से भाग देने में गणना की भूल।" },
+        "3": { "en": "Subtracts instead of adding 3 to 13.", "hi": "13 में 3 जोड़ने के बजाय घटा दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-03",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Factorize: x² − 16", "hi": "गुणनखंड करें: x² − 16" },
+      "optionsJson": [
+        { "en": "(x−4)(x−4)", "hi": "(x−4)(x−4)" },
+        { "en": "(x+4)(x−4)", "hi": "(x+4)(x−4)" },
+        { "en": "(x+16)(x−1)", "hi": "(x+16)(x−1)" },
+        { "en": "(x−16)(x+1)", "hi": "(x−16)(x+1)" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "This is a difference of squares: a²−b² = (a+b)(a−b), so x²−16 = (x+4)(x−4).", "hi": "यह वर्गों का अंतर है: a²−b² = (a+b)(a−b), अतः x²−16 = (x+4)(x−4)।" },
+      "distractorAnalysis": {
+        "0": { "en": "Squares (x−4) instead of applying the difference-of-squares identity.", "hi": "वर्गों के अंतर सर्वसमिका लगाने के बजाय (x−4) का वर्ग कर दिया।" },
+        "2": { "en": "Uses factors of 16 that don't actually multiply to give the original expression.", "hi": "16 के ऐसे गुणनखंड लिए जो गुणा करने पर मूल व्यंजक नहीं देते।" },
+        "3": { "en": "Uses factors of 16 that don't actually multiply to give the original expression.", "hi": "16 के ऐसे गुणनखंड लिए जो गुणा करने पर मूल व्यंजक नहीं देते।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-04",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the value of: (3/4) + (1/8) − (1/2)", "hi": "मान ज्ञात करें: (3/4) + (1/8) − (1/2)" },
+      "optionsJson": [
+        { "en": "3/8", "hi": "3/8" },
+        { "en": "1/4", "hi": "1/4" },
+        { "en": "5/8", "hi": "5/8" },
+        { "en": "1/2", "hi": "1/2" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "LCM of 4,8,2 is 8: 6/8+1/8−4/8 = 3/8.", "hi": "4,8,2 का LCM 8 है: 6/8+1/8−4/8 = 3/8।" },
+      "distractorAnalysis": {
+        "1": { "en": "Arithmetic slip while combining the three fractions.", "hi": "तीनों भिन्नों को मिलाने में गणना की भूल।" },
+        "2": { "en": "Forgets to subtract 1/2 in the final step.", "hi": "अंतिम चरण में 1/2 घटाना भूल गए।" },
+        "3": { "en": "Just restates the last term unchanged.", "hi": "अंतिम पद को बिना बदले दोहरा दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-05",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": { "en": "If x + 1/x = 4, find the value of x² + 1/x².", "hi": "यदि x + 1/x = 4 है, तो x² + 1/x² का मान ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "14", "hi": "14" },
+        { "en": "16", "hi": "16" },
+        { "en": "18", "hi": "18" },
+        { "en": "12", "hi": "12" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Squaring both sides: (x+1/x)² = x²+2+1/x² = 16, so x²+1/x² = 16−2 = 14.", "hi": "दोनों पक्षों का वर्ग करने पर: (x+1/x)² = x²+2+1/x² = 16, अतः x²+1/x² = 16−2 = 14।" },
+      "distractorAnalysis": {
+        "1": { "en": "Forgets to subtract the \"+2\" cross-term from squaring.", "hi": "वर्ग करने से आए \"+2\" पद को घटाना भूल गए।" },
+        "2": { "en": "Adds 2 instead of subtracting it.", "hi": "2 घटाने के बजाय जोड़ दिया।" },
+        "3": { "en": "Subtracts 4 instead of 2.", "hi": "2 के बजाय 4 घटा दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-06",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which of these is an irrational number?", "hi": "इनमें से कौन-सी एक अपरिमेय संख्या है?" },
+      "optionsJson": [
+        { "en": "√16", "hi": "√16" },
+        { "en": "√3", "hi": "√3" },
+        { "en": "√25", "hi": "√25" },
+        { "en": "4/5", "hi": "4/5" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "√3 cannot be expressed as a simple fraction and its decimal expansion never terminates or repeats, making it irrational.", "hi": "√3 को एक सरल भिन्न के रूप में व्यक्त नहीं किया जा सकता और इसका दशमलव विस्तार कभी समाप्त नहीं होता और न दोहराता है, अतः यह अपरिमेय है।" },
+      "distractorAnalysis": {
+        "0": { "en": "√16 = 4, a whole number, and thus rational.", "hi": "√16 = 4, एक पूर्ण संख्या, और अतः परिमेय।" },
+        "2": { "en": "√25 = 5, a whole number, and thus rational.", "hi": "√25 = 5, एक पूर्ण संख्या, और अतः परिमेय।" },
+        "3": { "en": "Already expressed as a simple fraction, so it is rational.", "hi": "यह पहले से एक सरल भिन्न के रूप में है, अतः यह परिमेय है।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-07",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the volume of a cube whose side is 4 cm.", "hi": "4 सेमी भुजा वाले एक घन का आयतन ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "16 cm³", "hi": "16 सेमी³" },
+        { "en": "64 cm³", "hi": "64 सेमी³" },
+        { "en": "48 cm³", "hi": "48 सेमी³" },
+        { "en": "12 cm³", "hi": "12 सेमी³" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Volume of a cube = side³ = 4³ = 64 cm³.", "hi": "घन का आयतन = भुजा³ = 4³ = 64 सेमी³।" },
+      "distractorAnalysis": {
+        "0": { "en": "Computes side² instead of side³.", "hi": "भुजा³ के बजाय भुजा² निकाल दिया।" },
+        "2": { "en": "Confuses the formula with a different, incorrect computation.", "hi": "सूत्र को एक भिन्न, गलत गणना से भ्रमित कर दिया।" },
+        "3": { "en": "Multiplies side by 3 instead of cubing it.", "hi": "भुजा का घन करने के बजाय उसे 3 से गुणा कर दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-08",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The sum of the angles of a quadrilateral is always:", "hi": "एक चतुर्भुज के कोणों का योग हमेशा होता है:" },
+      "optionsJson": [
+        { "en": "180°", "hi": "180°" },
+        { "en": "270°", "hi": "270°" },
+        { "en": "360°", "hi": "360°" },
+        { "en": "90°", "hi": "90°" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The interior angles of any quadrilateral always add up to 360°.", "hi": "किसी भी चतुर्भुज के आंतरिक कोणों का योग सदैव 360° होता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the angle sum of a triangle, not a quadrilateral.", "hi": "यह त्रिभुज के कोणों का योग है, चतुर्भुज का नहीं।" },
+        "1": { "en": "Not a standard geometric total for a quadrilateral's angles.", "hi": "यह चतुर्भुज के कोणों के लिए एक मानक ज्यामितीय योग नहीं है।" },
+        "3": { "en": "This is the measure of a single right angle, not the sum of all four angles.", "hi": "यह एक समकोण का माप है, चारों कोणों का योग नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-09",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Evaluate: (−5) × (−2)", "hi": "मान ज्ञात करें: (−5) × (−2)" },
+      "optionsJson": [
+        { "en": "−10", "hi": "−10" },
+        { "en": "10", "hi": "10" },
+        { "en": "−7", "hi": "−7" },
+        { "en": "7", "hi": "7" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "A negative multiplied by a negative gives a positive: (−5)×(−2) = 10.", "hi": "ऋणात्मक को ऋणात्मक से गुणा करने पर धनात्मक प्राप्त होता है: (−5)×(−2) = 10।" },
+      "distractorAnalysis": {
+        "0": { "en": "Forgets that a negative times a negative is positive.", "hi": "यह भूल गए कि ऋणात्मक गुणा ऋणात्मक धनात्मक होता है।" },
+        "2": { "en": "Adds the numbers instead of multiplying them.", "hi": "गुणा करने के बजाय संख्याओं को जोड़ दिया।" },
+        "3": { "en": "Adds the numbers instead of multiplying them, and drops the sign.", "hi": "गुणा करने के बजाय संख्याओं को जोड़ दिया, और चिह्न भी छोड़ दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-10",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "The perimeter of a rectangle is 36 cm and its length is 10 cm. Find its area.", "hi": "एक आयत का परिमाप 36 सेमी है और उसकी लंबाई 10 सेमी है। इसका क्षेत्रफल ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "80 cm²", "hi": "80 सेमी²" },
+        { "en": "160 cm²", "hi": "160 सेमी²" },
+        { "en": "90 cm²", "hi": "90 सेमी²" },
+        { "en": "40 cm²", "hi": "40 सेमी²" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Perimeter = 2(l+b) = 36, so l+b = 18, giving breadth = 18−10 = 8 cm. Area = 10×8 = 80 cm².", "hi": "परिमाप = 2(l+b) = 36, अतः l+b = 18, जिससे चौड़ाई = 18−10 = 8 सेमी। क्षेत्रफल = 10×8 = 80 सेमी²।" },
+      "distractorAnalysis": {
+        "1": { "en": "Doubles the correct area by mistake.", "hi": "सही क्षेत्रफल को गलती से दोगुना कर दिया।" },
+        "2": { "en": "Uses an incorrect breadth value before multiplying.", "hi": "गुणा करने से पहले गलत चौड़ाई मान प्रयोग किया।" },
+        "3": { "en": "Adds instead of multiplying length and breadth.", "hi": "लंबाई और चौड़ाई को गुणा करने के बजाय जोड़ दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-11",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the mean of the data: 6, 10, 14, 18, 22", "hi": "आँकड़ों का माध्य ज्ञात करें: 6, 10, 14, 18, 22" },
+      "optionsJson": [
+        { "en": "12", "hi": "12" },
+        { "en": "14", "hi": "14" },
+        { "en": "16", "hi": "16" },
+        { "en": "18", "hi": "18" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Sum = 6+10+14+18+22 = 70. Mean = 70/5 = 14.", "hi": "योग = 6+10+14+18+22 = 70। माध्य = 70/5 = 14।" },
+      "distractorAnalysis": {
+        "0": { "en": "Arithmetic slip while dividing the sum by 5.", "hi": "योग को 5 से भाग देने में गणना की भूल।" },
+        "2": { "en": "Arithmetic slip while dividing the sum by 5.", "hi": "योग को 5 से भाग देने में गणना की भूल।" },
+        "3": { "en": "This is just the fourth data value, not the mean.", "hi": "यह सूची का चौथा मान मात्र है, माध्य नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-12",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "What is the degree of the polynomial 4x⁴ + 2x − 9?", "hi": "बहुपद 4x⁴ + 2x − 9 की घात क्या है?" },
+      "optionsJson": [
+        { "en": "1", "hi": "1" },
+        { "en": "2", "hi": "2" },
+        { "en": "4", "hi": "4" },
+        { "en": "9", "hi": "9" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The degree of a polynomial is the highest power of the variable — here, x⁴ gives degree 4.", "hi": "बहुपद की घात चर की सबसे बड़ी घात होती है — यहाँ, x⁴ घात 4 देता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the power of the second term, not the highest one.", "hi": "यह दूसरे पद की घात है, सबसे बड़ी नहीं।" },
+        "1": { "en": "Not the highest power present in the polynomial.", "hi": "यह बहुपद में उपस्थित सबसे बड़ी घात नहीं है।" },
+        "3": { "en": "Confuses the constant term's value with the degree.", "hi": "अचर पद के मान को घात से भ्रमित कर दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-13",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the value of x if 4x − 5 = 2x + 9.", "hi": "यदि 4x − 5 = 2x + 9 है, तो x का मान ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "5", "hi": "5" },
+        { "en": "6", "hi": "6" },
+        { "en": "7", "hi": "7" },
+        { "en": "8", "hi": "8" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "4x−2x = 9+5, so 2x=14, x=7.", "hi": "4x−2x = 9+5, अतः 2x=14, x=7।" },
+      "distractorAnalysis": {
+        "0": { "en": "Arithmetic slip while dividing 14 by 2.", "hi": "14 को 2 से भाग देने में गणना की भूल।" },
+        "1": { "en": "Arithmetic slip while dividing 14 by 2.", "hi": "14 को 2 से भाग देने में गणना की भूल।" },
+        "3": { "en": "Subtracts instead of adding 9 and 5.", "hi": "9 और 5 जोड़ने के बजाय घटा दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-14",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which of these is a monomial?", "hi": "इनमें से कौन-सा एक-पदीय (monomial) है?" },
+      "optionsJson": [
+        { "en": "x + y", "hi": "x + y" },
+        { "en": "7x³", "hi": "7x³" },
+        { "en": "x² − y", "hi": "x² − y" },
+        { "en": "x + y − z", "hi": "x + y − z" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "A monomial has exactly one term; \"7x³\" has only one term.", "hi": "एक-पदीय (monomial) में ठीक एक पद होता है; \"7x³\" में केवल एक ही पद है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Has two terms, making it a binomial, not a monomial.", "hi": "इसमें दो पद हैं, अतः यह द्विपदीय है, एक-पदीय नहीं।" },
+        "2": { "en": "Has two terms, making it a binomial, not a monomial.", "hi": "इसमें दो पद हैं, अतः यह द्विपदीय है, एक-पदीय नहीं।" },
+        "3": { "en": "Has three terms, making it a trinomial, not a monomial.", "hi": "इसमें तीन पद हैं, अतः यह त्रिपदीय है, एक-पदीय नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-15",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Two supplementary angles are in the ratio 3:2. Find the larger angle.", "hi": "दो संपूरक कोण 3:2 के अनुपात में हैं। बड़ा कोण ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "108°", "hi": "108°" },
+        { "en": "72°", "hi": "72°" },
+        { "en": "90°", "hi": "90°" },
+        { "en": "120°", "hi": "120°" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Supplementary angles sum to 180°. Total parts = 5. Larger angle = (3/5)×180 = 108°.", "hi": "संपूरक कोणों का योग 180° होता है। कुल भाग = 5। बड़ा कोण = (3/5)×180 = 108°।" },
+      "distractorAnalysis": {
+        "1": { "en": "This is the smaller angle (2/5 of 180°), not the larger one.", "hi": "यह छोटा कोण है (180° का 2/5), बड़ा नहीं।" },
+        "2": { "en": "Assumes the angles are equal (90° each), ignoring the given 3:2 ratio.", "hi": "दिए गए 3:2 अनुपात की अनदेखी करते हुए कोणों को बराबर (90° प्रत्येक) मान लिया।" },
+        "3": { "en": "Overshoots the correct larger angle.", "hi": "सही बड़े कोण से अधिक अनुमान लगाया।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-16",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the value of p(3) if p(x) = x² − 4x + 3.", "hi": "यदि p(x) = x² − 4x + 3 है, तो p(3) का मान ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "0", "hi": "0" },
+        { "en": "3", "hi": "3" },
+        { "en": "6", "hi": "6" },
+        { "en": "−3", "hi": "−3" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "p(3) = 3²−4(3)+3 = 9−12+3 = 0.", "hi": "p(3) = 3²−4(3)+3 = 9−12+3 = 0।" },
+      "distractorAnalysis": {
+        "1": { "en": "Forgets to subtract the middle term, 4x.", "hi": "मध्य पद 4x घटाना भूल गए।" },
+        "2": { "en": "Arithmetic slip while combining 9, −12, and 3.", "hi": "9, −12 और 3 को मिलाने में गणना की भूल।" },
+        "3": { "en": "Arithmetic slip while combining 9, −12, and 3.", "hi": "9, −12 और 3 को मिलाने में गणना की भूल।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-17",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Simplify: (7)² − (4)²", "hi": "सरल करें: (7)² − (4)²" },
+      "optionsJson": [
+        { "en": "3", "hi": "3" },
+        { "en": "33", "hi": "33" },
+        { "en": "9", "hi": "9" },
+        { "en": "49", "hi": "49" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "7²=49, 4²=16, so 49−16 = 33.", "hi": "7²=49, 4²=16, अतः 49−16 = 33।" },
+      "distractorAnalysis": {
+        "0": { "en": "Computes 7−4=3, treating that as if it were already the answer.", "hi": "7−4=3 निकाला, उसे ही उत्तर मान लिया।" },
+        "2": { "en": "Arithmetic slip while subtracting 16 from 49.", "hi": "49 में से 16 घटाने में गणना की भूल।" },
+        "3": { "en": "Just restates 7² without completing the subtraction.", "hi": "घटाव पूरा किए बिना केवल 7² दोहरा दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-18",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A circle has a radius of 14 cm. Find its circumference. (Use π = 22/7)", "hi": "एक वृत्त की त्रिज्या 14 सेमी है। इसकी परिधि ज्ञात करें। (π = 22/7 का प्रयोग करें)" },
+      "optionsJson": [
+        { "en": "44 cm", "hi": "44 सेमी" },
+        { "en": "88 cm", "hi": "88 सेमी" },
+        { "en": "616 cm", "hi": "616 सेमी" },
+        { "en": "176 cm", "hi": "176 सेमी" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Circumference = 2πr = 2×(22/7)×14 = 88 cm.", "hi": "परिधि = 2πr = 2×(22/7)×14 = 88 सेमी।" },
+      "distractorAnalysis": {
+        "0": { "en": "Computes πr instead of 2πr, missing the factor of 2.", "hi": "2πr के बजाय πr निकाल दिया, 2 का गुणांक छूट गया।" },
+        "2": { "en": "This is the circle's area, not its circumference.", "hi": "यह वृत्त का क्षेत्रफल है, परिधि नहीं।" },
+        "3": { "en": "Doubles the correct circumference by mistake.", "hi": "सही परिधि को गलती से दोगुना कर दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-19",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which of the following is a linear equation in one variable?", "hi": "निम्नलिखित में से कौन-सा एक-चर वाला रैखिक समीकरण है?" },
+      "optionsJson": [
+        { "en": "x² − 4 = 0", "hi": "x² − 4 = 0" },
+        { "en": "5x + 2 = 17", "hi": "5x + 2 = 17" },
+        { "en": "xy = 20", "hi": "xy = 20" },
+        { "en": "x³ = 8", "hi": "x³ = 8" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "\"5x + 2 = 17\" has one variable (x) with the highest power 1, making it linear in one variable.", "hi": "\"5x + 2 = 17\" में एक चर (x) है जिसकी सबसे बड़ी घात 1 है, अतः यह एक-चर रैखिक समीकरण है।" },
+      "distractorAnalysis": {
+        "0": { "en": "The variable's highest power is 2, making this quadratic, not linear.", "hi": "चर की सबसे बड़ी घात 2 है, अतः यह द्विघातीय है, रैखिक नहीं।" },
+        "2": { "en": "Has two variables, not one.", "hi": "इसमें दो चर हैं, एक नहीं।" },
+        "3": { "en": "The variable's highest power is 3, not 1.", "hi": "चर की सबसे बड़ी घात 3 है, 1 नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-20",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": { "en": "The area of a triangle with base 16 cm and height 9 cm is:", "hi": "आधार 16 सेमी और ऊँचाई 9 सेमी वाले त्रिभुज का क्षेत्रफल है:" },
+      "optionsJson": [
+        { "en": "144 cm²", "hi": "144 सेमी²" },
+        { "en": "72 cm²", "hi": "72 सेमी²" },
+        { "en": "25 cm²", "hi": "25 सेमी²" },
+        { "en": "288 cm²", "hi": "288 सेमी²" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Area = (1/2)×base×height = (1/2)×16×9 = 72 cm².", "hi": "क्षेत्रफल = (1/2)×आधार×ऊँचाई = (1/2)×16×9 = 72 सेमी²।" },
+      "distractorAnalysis": {
+        "0": { "en": "Forgets to multiply by 1/2 (this is the area of the corresponding rectangle).", "hi": "1/2 से गुणा करना भूल गए (यह संगत आयत का क्षेत्रफल है)।" },
+        "2": { "en": "Adds base and height instead of using the area formula.", "hi": "क्षेत्रफल सूत्र प्रयोग करने के बजाय आधार और ऊँचाई जोड़ दिए।" },
+        "3": { "en": "Doubles the correct area instead of halving the base-times-height product.", "hi": "आधार-ऊँचाई गुणनफल को आधा करने के बजाय सही क्षेत्रफल को दोगुना कर दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-21",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Express 0.666... (repeating) as a fraction.", "hi": "0.666... (आवर्ती) को भिन्न के रूप में व्यक्त करें।" },
+      "optionsJson": [
+        { "en": "2/3", "hi": "2/3" },
+        { "en": "6/10", "hi": "6/10" },
+        { "en": "66/100", "hi": "66/100" },
+        { "en": "1/6", "hi": "1/6" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Let x=0.666..., then 10x=6.666..., subtracting gives 9x=6, so x=6/9=2/3.", "hi": "मान लें x=0.666..., फिर 10x=6.666..., घटाने पर 9x=6, अतः x=6/9=2/3।" },
+      "distractorAnalysis": {
+        "1": { "en": "A terminating decimal approximation, not the exact repeating-decimal value.", "hi": "यह एक सांत दशमलव सन्निकटन है, सटीक आवर्ती-दशमलव मान नहीं।" },
+        "2": { "en": "Treats only two repeating digits instead of the infinitely repeating pattern.", "hi": "अनंत आवर्ती पैटर्न के बजाय केवल दो आवर्ती अंक लिए।" },
+        "3": { "en": "Arithmetic slip in the standard repeating-decimal-to-fraction method.", "hi": "मानक आवर्ती-दशमलव-से-भिन्न विधि में गणना की भूल।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-22",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which of these is a solution of the equation x + 6 = 11?", "hi": "इनमें से कौन-सा समीकरण x + 6 = 11 का हल है?" },
+      "optionsJson": [
+        { "en": "6", "hi": "6" },
+        { "en": "5", "hi": "5" },
+        { "en": "11", "hi": "11" },
+        { "en": "17", "hi": "17" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "x = 11−6 = 5.", "hi": "x = 11−6 = 5।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the number being added, not the solution for x.", "hi": "यह जोड़ी जा रही संख्या है, x का हल नहीं।" },
+        "2": { "en": "This is the right-hand side of the equation, not the solution for x.", "hi": "यह समीकरण का दायाँ पक्ष है, x का हल नहीं।" },
+        "3": { "en": "Adds 6 and 11 instead of subtracting.", "hi": "घटाने के बजाय 6 और 11 जोड़ दिए।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-23",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Two angles are complementary. If one angle is 28°, find the other.", "hi": "दो कोण पूरक हैं। यदि एक कोण 28° है, तो दूसरा ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "52°", "hi": "52°" },
+        { "en": "62°", "hi": "62°" },
+        { "en": "152°", "hi": "152°" },
+        { "en": "72°", "hi": "72°" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Complementary angles sum to 90°, so the other angle = 90−28 = 62°.", "hi": "पूरक कोणों का योग 90° होता है, अतः दूसरा कोण = 90−28 = 62°।" },
+      "distractorAnalysis": {
+        "0": { "en": "Arithmetic slip while subtracting 28 from 90.", "hi": "90 में से 28 घटाने में गणना की भूल।" },
+        "2": { "en": "Uses 180° (supplementary) instead of 90° (complementary).", "hi": "90° (पूरक) के बजाय 180° (संपूरक) का प्रयोग किया।" },
+        "3": { "en": "Arithmetic slip while subtracting 28 from 90.", "hi": "90 में से 28 घटाने में गणना की भूल।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-24",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Simplify: 4⁰ + 6⁰", "hi": "सरल करें: 4⁰ + 6⁰" },
+      "optionsJson": [
+        { "en": "0", "hi": "0" },
+        { "en": "1", "hi": "1" },
+        { "en": "2", "hi": "2" },
+        { "en": "10", "hi": "10" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Any non-zero number raised to the power 0 equals 1, so 4⁰+6⁰ = 1+1 = 2.", "hi": "किसी भी अशून्य संख्या की घात 0 का मान 1 होता है, अतः 4⁰+6⁰ = 1+1 = 2।" },
+      "distractorAnalysis": {
+        "0": { "en": "Incorrectly assumes any number to the power 0 is 0.", "hi": "गलती से मान लिया कि किसी भी संख्या की घात 0 का मान 0 होता है।" },
+        "1": { "en": "Only counts one of the two terms.", "hi": "दो पदों में से केवल एक को गिना।" },
+        "3": { "en": "Confuses 4⁰ and 6⁰ with 4¹ and 6¹, adding those instead.", "hi": "4⁰ और 6⁰ को 4¹ और 6¹ से भ्रमित कर उन्हें जोड़ दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-25",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "If the perimeter of a square is 48 cm, find its area.", "hi": "यदि एक वर्ग का परिमाप 48 सेमी है, तो इसका क्षेत्रफल ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "144 cm²", "hi": "144 सेमी²" },
+        { "en": "48 cm²", "hi": "48 सेमी²" },
+        { "en": "12 cm²", "hi": "12 सेमी²" },
+        { "en": "96 cm²", "hi": "96 सेमी²" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Side = perimeter/4 = 48/4 = 12 cm. Area = side² = 12² = 144 cm².", "hi": "भुजा = परिमाप/4 = 48/4 = 12 सेमी। क्षेत्रफल = भुजा² = 12² = 144 सेमी²।" },
+      "distractorAnalysis": {
+        "1": { "en": "Just restates the perimeter, not the area.", "hi": "केवल परिमाप दोहरा दिया, क्षेत्रफल नहीं।" },
+        "2": { "en": "This is the side length, not the area (side²).", "hi": "यह भुजा की लंबाई है, क्षेत्रफल (भुजा²) नहीं।" },
+        "3": { "en": "Doubles the side length instead of squaring it.", "hi": "भुजा का वर्ग करने के बजाय उसे दोगुना कर दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-26",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Simplify: √72", "hi": "सरल करें: √72" },
+      "optionsJson": [
+        { "en": "6√2", "hi": "6√2" },
+        { "en": "2√6", "hi": "2√6" },
+        { "en": "8√3", "hi": "8√3" },
+        { "en": "36√2", "hi": "36√2" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "72 = 36×2, so √72 = √36×√2 = 6√2.", "hi": "72 = 36×2, अतः √72 = √36×√2 = 6√2।" },
+      "distractorAnalysis": {
+        "1": { "en": "Swaps the coefficient and the number under the root sign.", "hi": "गुणांक और मूल चिह्न के नीचे की संख्या को अदल-बदल कर दिया।" },
+        "2": { "en": "Uses an incorrect factor pair of 72.", "hi": "72 के गलत गुणनखंड युग्म का प्रयोग किया।" },
+        "3": { "en": "Uses an incorrect factor pair of 72.", "hi": "72 के गलत गुणनखंड युग्म का प्रयोग किया।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-27",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "What is the coefficient of x² in 9x² − 5x + 2?", "hi": "9x² − 5x + 2 में x² का गुणांक क्या है?" },
+      "optionsJson": [
+        { "en": "5", "hi": "5" },
+        { "en": "2", "hi": "2" },
+        { "en": "9", "hi": "9" },
+        { "en": "−5", "hi": "−5" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The coefficient is the number multiplying x², which is 9.", "hi": "गुणांक वह संख्या है जो x² से गुणा होती है, जो 9 है।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the magnitude of the coefficient of x, not x².", "hi": "यह x के गुणांक का परिमाण है, x² का नहीं।" },
+        "1": { "en": "This is the constant term, not the coefficient of x².", "hi": "यह अचर पद है, x² का गुणांक नहीं।" },
+        "3": { "en": "This is the coefficient of x, not x².", "hi": "यह x का गुणांक है, x² का नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-28",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A cylinder has a radius of 14 cm and height of 5 cm. Find its curved surface area. (Use π = 22/7)", "hi": "एक बेलन की त्रिज्या 14 सेमी और ऊँचाई 5 सेमी है। इसका वक्र पृष्ठीय क्षेत्रफल ज्ञात करें। (π = 22/7 का प्रयोग करें)" },
+      "optionsJson": [
+        { "en": "440 cm²", "hi": "440 सेमी²" },
+        { "en": "220 cm²", "hi": "220 सेमी²" },
+        { "en": "616 cm²", "hi": "616 सेमी²" },
+        { "en": "880 cm²", "hi": "880 सेमी²" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Curved surface area = 2πrh = 2×(22/7)×14×5 = 440 cm².", "hi": "वक्र पृष्ठीय क्षेत्रफल = 2πrh = 2×(22/7)×14×5 = 440 सेमी²।" },
+      "distractorAnalysis": {
+        "1": { "en": "Forgets to multiply by 2, computing only πrh.", "hi": "2 से गुणा करना भूल गए, केवल πrh निकाल दिया।" },
+        "2": { "en": "Confuses this with the total surface area formula instead of curved surface area.", "hi": "इसे कुल पृष्ठीय क्षेत्रफल सूत्र से भ्रमित कर दिया, वक्र पृष्ठीय क्षेत्रफल के बजाय।" },
+        "3": { "en": "Doubles the correct curved surface area by mistake.", "hi": "सही वक्र पृष्ठीय क्षेत्रफल को गलती से दोगुना कर दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-29",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which of these is a trinomial?", "hi": "इनमें से कौन-सा त्रिपदीय (trinomial) है?" },
+      "optionsJson": [
+        { "en": "5x²", "hi": "5x²" },
+        { "en": "x + y", "hi": "x + y" },
+        { "en": "x² + x + 1", "hi": "x² + x + 1" },
+        { "en": "7", "hi": "7" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "A trinomial has exactly three terms; \"x² + x + 1\" has three terms.", "hi": "एक त्रिपदीय (trinomial) में ठीक तीन पद होते हैं; \"x² + x + 1\" में तीन पद हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "Has only one term, making it a monomial, not a trinomial.", "hi": "इसमें केवल एक पद है, अतः यह एक-पदीय है, त्रिपदीय नहीं।" },
+        "1": { "en": "Has two terms, making it a binomial, not a trinomial.", "hi": "इसमें दो पद हैं, अतः यह द्विपदीय है, त्रिपदीय नहीं।" },
+        "3": { "en": "A single constant term, making it a monomial, not a trinomial.", "hi": "यह एक अकेला अचर पद है, अतः यह एक-पदीय है, त्रिपदीय नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-30",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Find the value of x if the angles (3x)° and (2x)° are complementary.", "hi": "यदि कोण (3x)° और (2x)° पूरक हैं, तो x का मान ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "18", "hi": "18" },
+        { "en": "36", "hi": "36" },
+        { "en": "15", "hi": "15" },
+        { "en": "20", "hi": "20" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Complementary angles sum to 90°: 3x+2x=90, so 5x=90, x=18.", "hi": "पूरक कोणों का योग 90° होता है: 3x+2x=90, अतः 5x=90, x=18।" },
+      "distractorAnalysis": {
+        "1": { "en": "Uses 180° (supplementary) instead of 90° (complementary).", "hi": "90° (पूरक) के बजाय 180° (संपूरक) का प्रयोग किया।" },
+        "2": { "en": "Arithmetic slip while dividing 90 by 5.", "hi": "90 को 5 से भाग देने में गणना की भूल।" },
+        "3": { "en": "Arithmetic slip while dividing 90 by 5.", "hi": "90 को 5 से भाग देने में गणना की भूल।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-31",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Simplify: (3x + 2)(x − 5)", "hi": "सरल करें: (3x + 2)(x − 5)" },
+      "optionsJson": [
+        { "en": "3x² − 13x − 10", "hi": "3x² − 13x − 10" },
+        { "en": "3x² + 13x − 10", "hi": "3x² + 13x − 10" },
+        { "en": "3x² − 17x − 10", "hi": "3x² − 17x − 10" },
+        { "en": "3x² − 13x + 10", "hi": "3x² − 13x + 10" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "(3x+2)(x−5) = 3x²−15x+2x−10 = 3x²−13x−10.", "hi": "(3x+2)(x−5) = 3x²−15x+2x−10 = 3x²−13x−10।" },
+      "distractorAnalysis": {
+        "1": { "en": "Sign error while combining the middle terms −15x and +2x.", "hi": "मध्य पदों −15x और +2x को मिलाने में चिह्न की भूल।" },
+        "2": { "en": "Forgets to add the cross-term +2x, keeping only −15x.", "hi": "क्रॉस-पद +2x जोड़ना भूल गए, केवल −15x रखा।" },
+        "3": { "en": "Sign error on the constant term.", "hi": "अचर पद में चिह्न की भूल।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-32",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which of these numbers is a perfect square?", "hi": "इनमें से कौन-सी संख्या एक पूर्ण वर्ग है?" },
+      "optionsJson": [
+        { "en": "50", "hi": "50" },
+        { "en": "81", "hi": "81" },
+        { "en": "75", "hi": "75" },
+        { "en": "60", "hi": "60" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "81 = 9², making it a perfect square.", "hi": "81 = 9², अतः यह एक पूर्ण वर्ग है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Not the square of any whole number.", "hi": "यह किसी पूर्ण संख्या का वर्ग नहीं है।" },
+        "2": { "en": "Not the square of any whole number.", "hi": "यह किसी पूर्ण संख्या का वर्ग नहीं है।" },
+        "3": { "en": "Not the square of any whole number.", "hi": "यह किसी पूर्ण संख्या का वर्ग नहीं है।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-33",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the value of y if 6y − 2(y − 3) = 22.", "hi": "यदि 6y − 2(y − 3) = 22 है, तो y का मान ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "3", "hi": "3" },
+        { "en": "4", "hi": "4" },
+        { "en": "5", "hi": "5" },
+        { "en": "6", "hi": "6" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "6y−2y+6=22, so 4y=16, y=4.", "hi": "6y−2y+6=22, अतः 4y=16, y=4।" },
+      "distractorAnalysis": {
+        "0": { "en": "Sign error while distributing −2 across (y−3).", "hi": "(y−3) में −2 का वितरण करने में चिह्न की भूल।" },
+        "2": { "en": "Arithmetic slip while dividing 16 by 4.", "hi": "16 को 4 से भाग देने में गणना की भूल।" },
+        "3": { "en": "Arithmetic slip while dividing 16 by 4.", "hi": "16 को 4 से भाग देने में गणना की भूल।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-34",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Find the value of: 8² ÷ 2²", "hi": "मान ज्ञात करें: 8² ÷ 2²" },
+      "optionsJson": [
+        { "en": "4", "hi": "4" },
+        { "en": "16", "hi": "16" },
+        { "en": "32", "hi": "32" },
+        { "en": "8", "hi": "8" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "8²=64, 2²=4, so 64÷4 = 16.", "hi": "8²=64, 2²=4, अतः 64÷4 = 16।" },
+      "distractorAnalysis": {
+        "0": { "en": "Computes 8÷2 first, then treats that as if it were already the squared answer.", "hi": "पहले 8÷2 निकाला, फिर उसे ही वर्गित उत्तर मान लिया।" },
+        "2": { "en": "Arithmetic slip while dividing 64 by 4.", "hi": "64 को 4 से भाग देने में गणना की भूल।" },
+        "3": { "en": "Just restates the base of the numerator's exponent.", "hi": "केवल अंश की घात का आधार दोहरा दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-35",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "The volume of a cuboid is 210 cm³. Its length is 7 cm and breadth is 5 cm. Find its height.", "hi": "एक घनाभ का आयतन 210 सेमी³ है। इसकी लंबाई 7 सेमी और चौड़ाई 5 सेमी है। इसकी ऊँचाई ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "7 cm", "hi": "7 सेमी" },
+        { "en": "6 cm", "hi": "6 सेमी" },
+        { "en": "5 cm", "hi": "5 सेमी" },
+        { "en": "8 cm", "hi": "8 सेमी" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Volume = l×b×h, so h = 210/(7×5) = 210/35 = 6 cm.", "hi": "आयतन = l×b×h, अतः h = 210/(7×5) = 210/35 = 6 सेमी।" },
+      "distractorAnalysis": {
+        "0": { "en": "Just repeats the length value instead of solving for height.", "hi": "ऊँचाई हल करने के बजाय लंबाई का मान ही दोहरा दिया।" },
+        "2": { "en": "Just repeats the breadth value instead of solving for height.", "hi": "ऊँचाई हल करने के बजाय चौड़ाई का मान ही दोहरा दिया।" },
+        "3": { "en": "Arithmetic slip while dividing 210 by 35.", "hi": "210 को 35 से भाग देने में गणना की भूल।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-36",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the value of: |−20| + |−7|", "hi": "मान ज्ञात करें: |−20| + |−7|" },
+      "optionsJson": [
+        { "en": "−27", "hi": "−27" },
+        { "en": "13", "hi": "13" },
+        { "en": "27", "hi": "27" },
+        { "en": "−13", "hi": "−13" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The absolute value of a number is its distance from zero (always non-negative): |−20|=20, |−7|=7, so 20+7=27.", "hi": "किसी संख्या का निरपेक्ष मान शून्य से उसकी दूरी है (सदैव अऋणात्मक): |−20|=20, |−7|=7, अतः 20+7=27।" },
+      "distractorAnalysis": {
+        "0": { "en": "Forgets that absolute value removes the negative sign.", "hi": "यह भूल गए कि निरपेक्ष मान ऋणात्मक चिह्न हटा देता है।" },
+        "1": { "en": "Subtracts instead of adding the two absolute values.", "hi": "दोनों निरपेक्ष मानों को जोड़ने के बजाय घटा दिया।" },
+        "3": { "en": "Combines the subtraction mistake with keeping a negative sign.", "hi": "घटाव की भूल के साथ-साथ ऋणात्मक चिह्न भी रख लिया।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-37",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "How many sides does an octagon have?", "hi": "एक अष्टभुज (octagon) में कितनी भुजाएँ होती हैं?" },
+      "optionsJson": [
+        { "en": "6", "hi": "6" },
+        { "en": "7", "hi": "7" },
+        { "en": "8", "hi": "8" },
+        { "en": "9", "hi": "9" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "An octagon has 8 sides, as indicated by the prefix \"octa-\" (eight).", "hi": "एक अष्टभुज में 8 भुजाएँ होती हैं, जैसा \"ऑक्टा-\" (आठ) उपसर्ग से संकेतित है।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the number of sides in a hexagon, not an octagon.", "hi": "यह एक षट्भुज की भुजाओं की संख्या है, अष्टभुज की नहीं।" },
+        "1": { "en": "This is the number of sides in a heptagon, not an octagon.", "hi": "यह एक सप्तभुज की भुजाओं की संख्या है, अष्टभुज की नहीं।" },
+        "3": { "en": "This is the number of sides in a nonagon, not an octagon.", "hi": "यह एक नवभुज की भुजाओं की संख्या है, अष्टभुज की नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-38",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Rationalize the denominator: 1/√5", "hi": "हर को परिमेय करें: 1/√5" },
+      "optionsJson": [
+        { "en": "√5", "hi": "√5" },
+        { "en": "√5/5", "hi": "√5/5" },
+        { "en": "5/√5", "hi": "5/√5" },
+        { "en": "1/5", "hi": "1/5" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Multiply numerator and denominator by √5: (1×√5)/(√5×√5) = √5/5.", "hi": "अंश और हर को √5 से गुणा करें: (1×√5)/(√5×√5) = √5/5।" },
+      "distractorAnalysis": {
+        "0": { "en": "Forgets to divide by the resulting denominator, 5.", "hi": "परिणामी हर 5 से भाग देना भूल गए।" },
+        "2": { "en": "The denominator still contains a surd — this step isn't fully rationalized.", "hi": "हर में अभी भी करणी (surd) है — यह चरण पूर्णतः परिमेय नहीं है।" },
+        "3": { "en": "Confuses this with squaring 1/√5 instead of rationalizing it.", "hi": "इसे 1/√5 को परिमेय करने के बजाय उसका वर्ग करने से भ्रमित कर दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-39",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "What is the value of 10⁴?", "hi": "10⁴ का मान क्या है?" },
+      "optionsJson": [
+        { "en": "1,000", "hi": "1,000" },
+        { "en": "10,000", "hi": "10,000" },
+        { "en": "40", "hi": "40" },
+        { "en": "100,000", "hi": "100,000" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "10⁴ = 10×10×10×10 = 10,000.", "hi": "10⁴ = 10×10×10×10 = 10,000।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is 10³, not 10⁴.", "hi": "यह 10³ है, 10⁴ नहीं।" },
+        "2": { "en": "Multiplies 10×4 instead of computing the power 10⁴.", "hi": "10⁴ की घात निकालने के बजाय 10×4 गुणा कर दिया।" },
+        "3": { "en": "This is 10⁵, not 10⁴.", "hi": "यह 10⁵ है, 10⁴ नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-40",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The total surface area of a cube with side 5 cm is:", "hi": "5 सेमी भुजा वाले घन का कुल पृष्ठीय क्षेत्रफल है:" },
+      "optionsJson": [
+        { "en": "25 cm²", "hi": "25 सेमी²" },
+        { "en": "150 cm²", "hi": "150 सेमी²" },
+        { "en": "150 cm³", "hi": "150 सेमी³" },
+        { "en": "100 cm²", "hi": "100 सेमी²" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Total surface area of a cube = 6×side² = 6×25 = 150 cm².", "hi": "घन का कुल पृष्ठीय क्षेत्रफल = 6×भुजा² = 6×25 = 150 सेमी²।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is just one face's area (side²), not the total across all 6 faces.", "hi": "यह केवल एक फलक का क्षेत्रफल है (भुजा²), सभी 6 फलकों का कुल नहीं।" },
+        "2": { "en": "Uses the correct number but the wrong unit — cm³ measures volume, not surface area.", "hi": "संख्या सही है पर इकाई गलत है — सेमी³ आयतन मापता है, पृष्ठीय क्षेत्रफल नहीं।" },
+        "3": { "en": "Multiplies by 4 faces instead of all 6.", "hi": "सभी 6 फलकों के बजाय केवल 4 से गुणा किया।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-41",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Find the value of: (−3)²", "hi": "मान ज्ञात करें: (−3)²" },
+      "optionsJson": [
+        { "en": "−9", "hi": "−9" },
+        { "en": "9", "hi": "9" },
+        { "en": "−6", "hi": "−6" },
+        { "en": "6", "hi": "6" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "(−3)² = (−3)×(−3) = 9. An even power makes the result positive.", "hi": "(−3)² = (−3)×(−3) = 9। सम घात परिणाम को धनात्मक बना देती है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Forgets that a negative squared (even power) gives a positive result.", "hi": "यह भूल गए कि ऋणात्मक संख्या का वर्ग (सम घात) धनात्मक परिणाम देता है।" },
+        "2": { "en": "Multiplies −3 by 2 instead of computing the square.", "hi": "वर्ग निकालने के बजाय −3 को 2 से गुणा कर दिया।" },
+        "3": { "en": "Multiplies −3 by 2 and drops the sign.", "hi": "−3 को 2 से गुणा किया और चिह्न भी छोड़ दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-42",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "In a triangle PQR, angle P = 45° and angle Q = 75°. Find angle R.", "hi": "त्रिभुज PQR में, कोण P = 45° और कोण Q = 75° है। कोण R ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "60°", "hi": "60°" },
+        { "en": "70°", "hi": "70°" },
+        { "en": "50°", "hi": "50°" },
+        { "en": "120°", "hi": "120°" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Angle sum of a triangle = 180°: R = 180−45−75 = 60°.", "hi": "त्रिभुज के कोणों का योग = 180°: R = 180−45−75 = 60°।" },
+      "distractorAnalysis": {
+        "1": { "en": "Arithmetic slip while subtracting 45 and 75 from 180.", "hi": "180 में से 45 और 75 घटाने में गणना की भूल।" },
+        "2": { "en": "Arithmetic slip while subtracting 45 and 75 from 180.", "hi": "180 में से 45 और 75 घटाने में गणना की भूल।" },
+        "3": { "en": "Adds 45 and 75 instead of subtracting their sum from 180.", "hi": "180 में से इनका योग घटाने के बजाय 45 और 75 को सीधे जोड़ दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-43",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which of these is a binomial?", "hi": "इनमें से कौन-सा द्विपदीय (binomial) है?" },
+      "optionsJson": [
+        { "en": "6x", "hi": "6x" },
+        { "en": "4x − 3", "hi": "4x − 3" },
+        { "en": "x² + x + 5", "hi": "x² + x + 5" },
+        { "en": "9", "hi": "9" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "A binomial has exactly two terms; \"4x − 3\" has two terms.", "hi": "एक द्विपदीय (binomial) में ठीक दो पद होते हैं; \"4x − 3\" में दो पद हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "Has only one term, making it a monomial, not a binomial.", "hi": "इसमें केवल एक पद है, अतः यह एक-पदीय है, द्विपदीय नहीं।" },
+        "2": { "en": "Has three terms, making it a trinomial, not a binomial.", "hi": "इसमें तीन पद हैं, अतः यह त्रिपदीय है, द्विपदीय नहीं।" },
+        "3": { "en": "A single constant term, making it a monomial, not a binomial.", "hi": "यह एक अकेला अचर पद है, अतः यह एक-पदीय है, द्विपदीय नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-44",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the value of x: x/4 + 3 = 8", "hi": "x का मान ज्ञात करें: x/4 + 3 = 8" },
+      "optionsJson": [
+        { "en": "20", "hi": "20" },
+        { "en": "32", "hi": "32" },
+        { "en": "11", "hi": "11" },
+        { "en": "5", "hi": "5" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "x/4 = 8−3 = 5, so x = 5×4 = 20.", "hi": "x/4 = 8−3 = 5, अतः x = 5×4 = 20।" },
+      "distractorAnalysis": {
+        "1": { "en": "Multiplies 8 (not 5) by 4.", "hi": "5 के बजाय 8 को 4 से गुणा कर दिया।" },
+        "2": { "en": "Adds 3 to 8 instead of subtracting it, before multiplying.", "hi": "गुणा करने से पहले 8 में से 3 घटाने के बजाय जोड़ दिया।" },
+        "3": { "en": "This is the value of x/4 itself, not x.", "hi": "यह x/4 का मान मात्र है, x नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-45",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "How many diagonals does a square have?", "hi": "एक वर्ग में कितने विकर्ण होते हैं?" },
+      "optionsJson": [
+        { "en": "1", "hi": "1" },
+        { "en": "2", "hi": "2" },
+        { "en": "3", "hi": "3" },
+        { "en": "4", "hi": "4" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "A square (any quadrilateral) has exactly 2 diagonals, connecting opposite corners.", "hi": "एक वर्ग (किसी भी चतुर्भुज) में ठीक 2 विकर्ण होते हैं, जो विपरीत कोनों को जोड़ते हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "Undercounts — a square has more than one diagonal.", "hi": "कम गिना — एक वर्ग में एक से अधिक विकर्ण होते हैं।" },
+        "2": { "en": "Overcounts the number of diagonals in a square.", "hi": "वर्ग में विकर्णों की संख्या अधिक गिन ली।" },
+        "3": { "en": "Confuses the number of diagonals with the number of sides/vertices.", "hi": "विकर्णों की संख्या को भुजाओं/शीर्षों की संख्या से भ्रमित कर दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-46",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "If a bus covers 210 km in 3 hours at a uniform speed, how long will it take to cover 350 km at the same speed?", "hi": "यदि एक बस एकसमान गति से 3 घंटे में 210 किमी की दूरी तय करती है, तो उसी गति से 350 किमी तय करने में कितना समय लगेगा?" },
+      "optionsJson": [
+        { "en": "5 hours", "hi": "5 घंटे" },
+        { "en": "4 hours", "hi": "4 घंटे" },
+        { "en": "6 hours", "hi": "6 घंटे" },
+        { "en": "7 hours", "hi": "7 घंटे" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Speed = 210/3 = 70 km/h. Time for 350 km = 350/70 = 5 hours.", "hi": "गति = 210/3 = 70 किमी/घं। 350 किमी के लिए समय = 350/70 = 5 घंटे।" },
+      "distractorAnalysis": {
+        "1": { "en": "Arithmetic slip while dividing 350 by 70.", "hi": "350 को 70 से भाग देने में गणना की भूल।" },
+        "2": { "en": "Arithmetic slip while dividing 350 by 70.", "hi": "350 को 70 से भाग देने में गणना की भूल।" },
+        "3": { "en": "Arithmetic slip while dividing 350 by 70.", "hi": "350 को 70 से भाग देने में गणना की भूल।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-47",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Simplify: 6x + 2x − 3x", "hi": "सरल करें: 6x + 2x − 3x" },
+      "optionsJson": [
+        { "en": "5x", "hi": "5x" },
+        { "en": "11x", "hi": "11x" },
+        { "en": "7x", "hi": "7x" },
+        { "en": "x", "hi": "x" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "6x+2x−3x = (6+2−3)x = 5x.", "hi": "6x+2x−3x = (6+2−3)x = 5x।" },
+      "distractorAnalysis": {
+        "1": { "en": "Adds all three coefficients instead of subtracting the last one.", "hi": "अंतिम गुणांक घटाने के बजाय तीनों को जोड़ दिया।" },
+        "2": { "en": "Arithmetic slip while combining the coefficients.", "hi": "गुणांकों को मिलाने में गणना की भूल।" },
+        "3": { "en": "Arithmetic slip while combining the coefficients.", "hi": "गुणांकों को मिलाने में गणना की भूल।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-48",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A number is increased by 25% to give 75. Find the original number.", "hi": "एक संख्या को 25% बढ़ाकर 75 प्राप्त होता है। मूल संख्या ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "56", "hi": "56" },
+        { "en": "60", "hi": "60" },
+        { "en": "50", "hi": "50" },
+        { "en": "65", "hi": "65" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Let the number be x. x×1.25 = 75, so x = 75/1.25 = 60.", "hi": "मान लें संख्या x है। x×1.25 = 75, अतः x = 75/1.25 = 60।" },
+      "distractorAnalysis": {
+        "0": { "en": "Subtracts 25% of 75 from 75 instead of solving the original equation correctly.", "hi": "समीकरण को सही ढंग से हल करने के बजाय 75 में से 75 का 25% घटा दिया।" },
+        "2": { "en": "Arithmetic slip while dividing 75 by 1.25.", "hi": "75 को 1.25 से भाग देने में गणना की भूल।" },
+        "3": { "en": "Assumes a 15% increase instead of the given 25%.", "hi": "दी गई 25% वृद्धि के बजाय 15% मान ली।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-49",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which of these is an example of a like term with 4y²?", "hi": "इनमें से कौन-सा 4y² के साथ समान पद (like term) का उदाहरण है?" },
+      "optionsJson": [
+        { "en": "4y", "hi": "4y" },
+        { "en": "9y²", "hi": "9y²" },
+        { "en": "4x²", "hi": "4x²" },
+        { "en": "y³", "hi": "y³" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Like terms have the same variable raised to the same power; \"9y²\" also has y raised to the power 2.", "hi": "समान पदों में समान चर समान घात में होता है; \"9y²\" में भी y घात 2 में है।" },
+      "distractorAnalysis": {
+        "0": { "en": "y is raised to power 1 here, not power 2 — different power, not a like term.", "hi": "यहाँ y घात 1 में है, घात 2 में नहीं — भिन्न घात, समान पद नहीं।" },
+        "2": { "en": "Uses a different variable (x instead of y) — not a like term.", "hi": "यहाँ भिन्न चर (y के बजाय x) है — समान पद नहीं।" },
+        "3": { "en": "y is raised to power 3 here, not power 2 — different power, not a like term.", "hi": "यहाँ y घात 3 में है, घात 2 में नहीं — भिन्न घात, समान पद नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p2-ma-50",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": { "en": "The length of a rectangle is three times its breadth. If the perimeter is 64 cm, find the length.", "hi": "एक आयत की लंबाई उसकी चौड़ाई की तिगुनी है। यदि परिमाप 64 सेमी है, तो लंबाई ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "24 cm", "hi": "24 सेमी" },
+        { "en": "8 cm", "hi": "8 सेमी" },
+        { "en": "16 cm", "hi": "16 सेमी" },
+        { "en": "32 cm", "hi": "32 सेमी" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Let breadth = b, length = 3b. Perimeter = 2(3b+b) = 8b = 64, so b=8. Length = 3×8 = 24 cm.", "hi": "मान लें चौड़ाई = b, लंबाई = 3b। परिमाप = 2(3b+b) = 8b = 64, अतः b=8। लंबाई = 3×8 = 24 सेमी।" },
+      "distractorAnalysis": {
+        "1": { "en": "This is the breadth, not the length.", "hi": "यह चौड़ाई है, लंबाई नहीं।" },
+        "2": { "en": "Arithmetic slip while solving for b before tripling it.", "hi": "b को तिगुना करने से पहले उसे हल करने में गणना की भूल।" },
+        "3": { "en": "Arithmetic slip while dividing 64 by 8 before tripling.", "hi": "तिगुना करने से पहले 64 को 8 से भाग देने में गणना की भूल।" }
+      }
+    }
+  ]
+}

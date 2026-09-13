@@ -1,0 +1,484 @@
+{
+  "examType": "AISSEE",
+  "classLevel": 6,
+  "paperNumber": 1,
+  "sectionKey": "general_knowledge",
+  "generatedAt": "2026-09-13T00:00:00.000Z",
+  "questions": [
+    {
+      "key": "aissee6-p1-gk-01",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "What is the capital of India?", "hi": "भारत की राजधानी क्या है?" },
+      "optionsJson": [
+        { "en": "Mumbai", "hi": "मुंबई" },
+        { "en": "New Delhi", "hi": "नई दिल्ली" },
+        { "en": "Kolkata", "hi": "कोलकाता" },
+        { "en": "Chennai", "hi": "चेन्नई" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "New Delhi is the capital of India, housing Parliament and the major government offices.", "hi": "नई दिल्ली भारत की राजधानी है, जहाँ संसद और प्रमुख सरकारी कार्यालय स्थित हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "India's financial capital and largest city, but not the political capital.", "hi": "यह भारत की वित्तीय राजधानी और सबसे बड़ा शहर है, पर राजनीतिक राजधानी नहीं।" },
+        "2": { "en": "A major city and former British-era capital, but not the current capital.", "hi": "यह एक प्रमुख शहर और पूर्व ब्रिटिश काल की राजधानी थी, पर वर्तमान राजधानी नहीं।" },
+        "3": { "en": "A major southern city, but not the capital.", "hi": "यह एक प्रमुख दक्षिणी शहर है, पर राजधानी नहीं।" }
+      }
+    },
+    {
+      "key": "aissee6-p1-gk-02",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Who is known as the \"Father of the Nation\" in India?", "hi": "भारत में किसे \"राष्ट्रपिता\" के नाम से जाना जाता है?" },
+      "optionsJson": [
+        { "en": "Jawaharlal Nehru", "hi": "जवाहरलाल नेहरू" },
+        { "en": "Mahatma Gandhi", "hi": "महात्मा गांधी" },
+        { "en": "Sardar Patel", "hi": "सरदार पटेल" },
+        { "en": "Bhagat Singh", "hi": "भगत सिंह" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Mahatma Gandhi led India's independence movement through non-violence and is honored as the Father of the Nation.", "hi": "महात्मा गांधी ने अहिंसा के माध्यम से भारत के स्वतंत्रता आंदोलन का नेतृत्व किया और उन्हें राष्ट्रपिता कहा जाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "India's first Prime Minister, an important leader but not called the Father of the Nation.", "hi": "भारत के प्रथम प्रधानमंत्री, एक महत्वपूर्ण नेता पर राष्ट्रपिता नहीं कहलाते।" },
+        "2": { "en": "Known as the \"Iron Man of India\" for unifying the princely states, not the Father of the Nation.", "hi": "रियासतों को एकीकृत करने के लिए \"भारत के लौह पुरुष\" कहलाते हैं, राष्ट्रपिता नहीं।" },
+        "3": { "en": "A celebrated freedom fighter and martyr, but not called the Father of the Nation.", "hi": "एक प्रसिद्ध स्वतंत्रता सेनानी और शहीद, पर राष्ट्रपिता नहीं कहलाते।" }
+      }
+    },
+    {
+      "key": "aissee6-p1-gk-03",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which is the longest river in India?", "hi": "भारत की सबसे लंबी नदी कौन-सी है?" },
+      "optionsJson": [
+        { "en": "Yamuna", "hi": "यमुना" },
+        { "en": "Godavari", "hi": "गोदावरी" },
+        { "en": "Ganga", "hi": "गंगा" },
+        { "en": "Narmada", "hi": "नर्मदा" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The Ganga is the longest river flowing within India.", "hi": "गंगा भारत के भीतर बहने वाली सबसे लंबी नदी है।" },
+      "distractorAnalysis": {
+        "0": { "en": "A major tributary of the Ganga, but shorter than it.", "hi": "गंगा की एक प्रमुख सहायक नदी, पर इससे छोटी।" },
+        "1": { "en": "The longest river in peninsular (southern) India, but shorter than the Ganga overall.", "hi": "प्रायद्वीपीय (दक्षिणी) भारत की सबसे लंबी नदी, पर कुल मिलाकर गंगा से छोटी।" },
+        "3": { "en": "An important westward-flowing river, but shorter than the Ganga.", "hi": "एक महत्वपूर्ण पश्चिम की ओर बहने वाली नदी, पर गंगा से छोटी।" }
+      }
+    },
+    {
+      "key": "aissee6-p1-gk-04",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "How many colours are there in the national flag of India?", "hi": "भारत के राष्ट्रीय ध्वज में कितने रंग हैं?" },
+      "optionsJson": [
+        { "en": "2", "hi": "2" },
+        { "en": "3", "hi": "3" },
+        { "en": "4", "hi": "4" },
+        { "en": "5", "hi": "5" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The Indian flag has three colours: saffron, white, and green (plus the navy-blue Ashoka Chakra).", "hi": "भारतीय ध्वज में तीन रंग हैं: केसरिया, सफेद और हरा (साथ ही गहरे नीले रंग का अशोक चक्र)।" },
+      "distractorAnalysis": {
+        "0": { "en": "Undercounts the flag's three main horizontal bands.", "hi": "ध्वज की तीन मुख्य क्षैतिज पट्टियों को कम गिना।" },
+        "2": { "en": "Overcounts by including the chakra as a separate \"colour band\".", "hi": "चक्र को एक अलग \"रंग पट्टी\" मानकर अधिक गिन लिया।" },
+        "3": { "en": "Overcounts the flag's actual number of colour bands.", "hi": "ध्वज की वास्तविक रंग पट्टियों की संख्या से अधिक गिन लिया।" }
+      }
+    },
+    {
+      "key": "aissee6-p1-gk-05",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which gas do plants absorb from the air for photosynthesis?", "hi": "पौधे प्रकाश संश्लेषण के लिए वायु से कौन-सी गैस अवशोषित करते हैं?" },
+      "optionsJson": [
+        { "en": "Oxygen", "hi": "ऑक्सीजन" },
+        { "en": "Nitrogen", "hi": "नाइट्रोजन" },
+        { "en": "Carbon dioxide", "hi": "कार्बन डाइऑक्साइड" },
+        { "en": "Hydrogen", "hi": "हाइड्रोजन" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Plants absorb carbon dioxide and release oxygen during photosynthesis.", "hi": "पौधे प्रकाश संश्लेषण के दौरान कार्बन डाइऑक्साइड अवशोषित करते हैं और ऑक्सीजन छोड़ते हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is what plants release during photosynthesis, not what they absorb.", "hi": "यह वह गैस है जो पौधे प्रकाश संश्लेषण के दौरान छोड़ते हैं, अवशोषित नहीं करते।" },
+        "1": { "en": "The most abundant gas in air, but not the one plants use for photosynthesis.", "hi": "यह वायु में सबसे प्रचुर गैस है, पर प्रकाश संश्लेषण के लिए प्रयुक्त नहीं होती।" },
+        "3": { "en": "Not the gas plants absorb from air for photosynthesis.", "hi": "यह वह गैस नहीं है जो पौधे प्रकाश संश्लेषण के लिए वायु से अवशोषित करते हैं।" }
+      }
+    },
+    {
+      "key": "aissee6-p1-gk-06",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "The Sainik School system in India was established to prepare students for a career in which field?", "hi": "भारत में सैनिक स्कूल प्रणाली छात्रों को किस क्षेत्र में करियर के लिए तैयार करने हेतु स्थापित की गई थी?" },
+      "optionsJson": [
+        { "en": "Medicine", "hi": "चिकित्सा" },
+        { "en": "The Armed Forces", "hi": "सशस्त्र सेना" },
+        { "en": "Civil Services", "hi": "सिविल सेवा" },
+        { "en": "Engineering", "hi": "इंजीनियरिंग" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Sainik Schools were established in 1961 to prepare students academically and physically for entry into the National Defence Academy and the Armed Forces.", "hi": "सैनिक स्कूलों की स्थापना 1961 में छात्रों को राष्ट्रीय रक्षा अकादमी और सशस्त्र सेना में प्रवेश हेतु शैक्षणिक व शारीरिक रूप से तैयार करने के लिए की गई थी।" },
+      "distractorAnalysis": {
+        "0": { "en": "Not the field Sainik Schools were founded to prepare students for.", "hi": "यह वह क्षेत्र नहीं है जिसके लिए सैनिक स्कूलों की स्थापना हुई।" },
+        "2": { "en": "A respected career path, but not the founding purpose of Sainik Schools.", "hi": "यह एक सम्मानित करियर है, पर सैनिक स्कूलों की स्थापना का उद्देश्य नहीं।" },
+        "3": { "en": "Not the field Sainik Schools were founded to prepare students for.", "hi": "यह वह क्षेत्र नहीं है जिसके लिए सैनिक स्कूलों की स्थापना हुई।" }
+      }
+    },
+    {
+      "key": "aissee6-p1-gk-07",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which planet is known as the \"Red Planet\"?", "hi": "किस ग्रह को \"लाल ग्रह\" के नाम से जाना जाता है?" },
+      "optionsJson": [
+        { "en": "Venus", "hi": "शुक्र" },
+        { "en": "Mars", "hi": "मंगल" },
+        { "en": "Jupiter", "hi": "बृहस्पति" },
+        { "en": "Saturn", "hi": "शनि" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Mars appears reddish due to iron oxide (rust) on its surface, earning it the name \"Red Planet\".", "hi": "मंगल की सतह पर आयरन ऑक्साइड (जंग) के कारण यह लालिमा लिए दिखता है, इसीलिए इसे \"लाल ग्रह\" कहा जाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Known as Earth's \"twin\" due to similar size, not for a red colour.", "hi": "आकार में समानता के कारण इसे पृथ्वी का \"जुड़वाँ\" कहा जाता है, लाल रंग के लिए नहीं।" },
+        "2": { "en": "The largest planet in the solar system, not known for a red colour.", "hi": "यह सौरमंडल का सबसे बड़ा ग्रह है, लाल रंग के लिए प्रसिद्ध नहीं।" },
+        "3": { "en": "Known for its prominent rings, not a red colour.", "hi": "यह अपने प्रमुख वलयों के लिए जाना जाता है, लाल रंग के लिए नहीं।" }
+      }
+    },
+    {
+      "key": "aissee6-p1-gk-08",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Who was the first Prime Minister of India?", "hi": "भारत के प्रथम प्रधानमंत्री कौन थे?" },
+      "optionsJson": [
+        { "en": "Jawaharlal Nehru", "hi": "जवाहरलाल नेहरू" },
+        { "en": "Lal Bahadur Shastri", "hi": "लाल बहादुर शास्त्री" },
+        { "en": "Sardar Patel", "hi": "सरदार पटेल" },
+        { "en": "Dr. Rajendra Prasad", "hi": "डॉ. राजेंद्र प्रसाद" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Jawaharlal Nehru became independent India's first Prime Minister in 1947.", "hi": "जवाहरलाल नेहरू 1947 में स्वतंत्र भारत के प्रथम प्रधानमंत्री बने।" },
+      "distractorAnalysis": {
+        "1": { "en": "India's second Prime Minister, not the first.", "hi": "भारत के द्वितीय प्रधानमंत्री, प्रथम नहीं।" },
+        "2": { "en": "India's first Deputy Prime Minister and Home Minister, not the Prime Minister.", "hi": "भारत के प्रथम उप-प्रधानमंत्री और गृह मंत्री, प्रधानमंत्री नहीं।" },
+        "3": { "en": "India's first President, not the first Prime Minister.", "hi": "भारत के प्रथम राष्ट्रपति, प्रथम प्रधानमंत्री नहीं।" }
+      }
+    },
+    {
+      "key": "aissee6-p1-gk-09",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The Param Vir Chakra is India's highest award given for which kind of act?", "hi": "परम वीर चक्र भारत का सर्वोच्च सम्मान किस प्रकार के कार्य के लिए दिया जाता है?" },
+      "optionsJson": [
+        { "en": "Gallantry in the presence of the enemy", "hi": "शत्रु के समक्ष वीरता" },
+        { "en": "Scientific research", "hi": "वैज्ञानिक अनुसंधान" },
+        { "en": "Sports achievement", "hi": "खेल उपलब्धि" },
+        { "en": "Literary work", "hi": "साहित्यिक कार्य" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The Param Vir Chakra is India's highest military decoration, awarded for the highest degree of gallantry in the presence of the enemy.", "hi": "परम वीर चक्र भारत का सर्वोच्च सैन्य सम्मान है, जो शत्रु के समक्ष सर्वोच्च स्तर की वीरता के लिए दिया जाता है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Scientific contributions are recognized through different national awards, not the Param Vir Chakra.", "hi": "वैज्ञानिक योगदान अन्य राष्ट्रीय सम्मानों से मान्यता प्राप्त करते हैं, परम वीर चक्र से नहीं।" },
+        "2": { "en": "Sporting achievements are recognized through awards like the Khel Ratna, not the Param Vir Chakra.", "hi": "खेल उपलब्धियाँ खेल रत्न जैसे सम्मानों से मान्यता प्राप्त करती हैं, परम वीर चक्र से नहीं।" },
+        "3": { "en": "Literary contributions are recognized through awards like the Sahitya Akademi Award, not the Param Vir Chakra.", "hi": "साहित्यिक योगदान साहित्य अकादमी पुरस्कार जैसे सम्मानों से मान्यता प्राप्त करते हैं, परम वीर चक्र से नहीं।" }
+      }
+    },
+    {
+      "key": "aissee6-p1-gk-10",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which is the largest continent in the world?", "hi": "विश्व का सबसे बड़ा महाद्वीप कौन-सा है?" },
+      "optionsJson": [
+        { "en": "Africa", "hi": "अफ्रीका" },
+        { "en": "Asia", "hi": "एशिया" },
+        { "en": "Europe", "hi": "यूरोप" },
+        { "en": "Australia", "hi": "ऑस्ट्रेलिया" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Asia is the largest continent both by area and population.", "hi": "एशिया क्षेत्रफल और जनसंख्या दोनों में सबसे बड़ा महाद्वीप है।" },
+      "distractorAnalysis": {
+        "0": { "en": "The second-largest continent, not the largest.", "hi": "यह दूसरा सबसे बड़ा महाद्वीप है, सबसे बड़ा नहीं।" },
+        "2": { "en": "One of the smaller continents by area.", "hi": "यह क्षेत्रफल में एक छोटे महाद्वीपों में से एक है।" },
+        "3": { "en": "The smallest continent, not the largest.", "hi": "यह सबसे छोटा महाद्वीप है, सबसे बड़ा नहीं।" }
+      }
+    },
+    {
+      "key": "aissee6-p1-gk-11",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which part of the human body pumps blood?", "hi": "मानव शरीर का कौन-सा अंग रक्त पंप करता है?" },
+      "optionsJson": [
+        { "en": "Lungs", "hi": "फेफड़े" },
+        { "en": "Heart", "hi": "हृदय" },
+        { "en": "Kidney", "hi": "गुर्दा" },
+        { "en": "Liver", "hi": "यकृत" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The heart pumps blood throughout the body.", "hi": "हृदय पूरे शरीर में रक्त पंप करता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Responsible for breathing (gas exchange), not pumping blood.", "hi": "यह श्वसन (गैस विनिमय) के लिए ज़िम्मेदार है, रक्त पंप करने के लिए नहीं।" },
+        "2": { "en": "Filters waste from the blood, but doesn't pump it.", "hi": "यह रक्त से अपशिष्ट छानता है, पर उसे पंप नहीं करता।" },
+        "3": { "en": "Processes nutrients and toxins, but doesn't pump blood.", "hi": "यह पोषक तत्वों और विषाक्त पदार्थों को संसाधित करता है, पर रक्त पंप नहीं करता।" }
+      }
+    },
+    {
+      "key": "aissee6-p1-gk-12",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "The Republic Day of India is celebrated on which date?", "hi": "भारत का गणतंत्र दिवस किस तारीख को मनाया जाता है?" },
+      "optionsJson": [
+        { "en": "15th August", "hi": "15 अगस्त" },
+        { "en": "26th January", "hi": "26 जनवरी" },
+        { "en": "2nd October", "hi": "2 अक्टूबर" },
+        { "en": "14th November", "hi": "14 नवंबर" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Republic Day is celebrated on 26th January, marking the date the Constitution of India came into effect in 1950.", "hi": "गणतंत्र दिवस 26 जनवरी को मनाया जाता है, जो 1950 में भारत के संविधान के लागू होने की तारीख है।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is Independence Day, marking freedom from British rule in 1947, not Republic Day.", "hi": "यह स्वतंत्रता दिवस है, जो 1947 में ब्रिटिश शासन से स्वतंत्रता को चिह्नित करता है, गणतंत्र दिवस नहीं।" },
+        "2": { "en": "This is Gandhi Jayanti, marking Mahatma Gandhi's birthday, not Republic Day.", "hi": "यह गांधी जयंती है, महात्मा गांधी के जन्मदिन को चिह्नित करती है, गणतंत्र दिवस नहीं।" },
+        "3": { "en": "This is Children's Day, marking Jawaharlal Nehru's birthday, not Republic Day.", "hi": "यह बाल दिवस है, जवाहरलाल नेहरू के जन्मदिन को चिह्नित करता है, गणतंत्र दिवस नहीं।" }
+      }
+    },
+    {
+      "key": "aissee6-p1-gk-13",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which is the national animal of India?", "hi": "भारत का राष्ट्रीय पशु कौन-सा है?" },
+      "optionsJson": [
+        { "en": "Lion", "hi": "शेर" },
+        { "en": "Tiger", "hi": "बाघ" },
+        { "en": "Elephant", "hi": "हाथी" },
+        { "en": "Leopard", "hi": "तेंदुआ" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The Bengal Tiger is India's national animal, symbolizing strength and grace.", "hi": "बंगाल टाइगर भारत का राष्ट्रीय पशु है, जो शक्ति और अनुग्रह का प्रतीक है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Found in the Gir forest of Gujarat, but not India's national animal.", "hi": "गुजरात के गिर वन में पाया जाता है, पर भारत का राष्ट्रीय पशु नहीं।" },
+        "2": { "en": "An important animal in Indian culture, but not the national animal.", "hi": "भारतीय संस्कृति में महत्वपूर्ण पशु, पर राष्ट्रीय पशु नहीं।" },
+        "3": { "en": "A wild cat found in India, but not the national animal.", "hi": "भारत में पाया जाने वाला एक जंगली बिल्ली प्रजाति, पर राष्ट्रीय पशु नहीं।" }
+      }
+    },
+    {
+      "key": "aissee6-p1-gk-14",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "How many players are there in a cricket team?", "hi": "क्रिकेट टीम में कितने खिलाड़ी होते हैं?" },
+      "optionsJson": [
+        { "en": "9", "hi": "9" },
+        { "en": "10", "hi": "10" },
+        { "en": "11", "hi": "11" },
+        { "en": "12", "hi": "12" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "A cricket team consists of 11 players on the field.", "hi": "एक क्रिकेट टीम में मैदान पर 11 खिलाड़ी होते हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "Undercounts the standard cricket team size.", "hi": "मानक क्रिकेट टीम के आकार को कम गिना।" },
+        "1": { "en": "Close, but one player short of the correct number.", "hi": "निकट है, पर सही संख्या से एक खिलाड़ी कम।" },
+        "3": { "en": "Overcounts — likely confuses it with the full squad size including substitutes.", "hi": "अधिक गिन लिया — संभवतः इसे स्थानापन्न खिलाड़ियों सहित पूरी टीम के आकार से भ्रमित कर दिया।" }
+      }
+    },
+    {
+      "key": "aissee6-p1-gk-15",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The Indian Army, Navy, and Air Force together are known as which of the following?", "hi": "भारतीय सेना, नौसेना और वायुसेना को सम्मिलित रूप से क्या कहा जाता है?" },
+      "optionsJson": [
+        { "en": "Paramilitary Forces", "hi": "अर्धसैनिक बल" },
+        { "en": "Armed Forces", "hi": "सशस्त्र सेना" },
+        { "en": "Police Force", "hi": "पुलिस बल" },
+        { "en": "Civil Defence", "hi": "नागरिक सुरक्षा" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The Army, Navy, and Air Force together form India's Armed Forces.", "hi": "सेना, नौसेना और वायुसेना मिलकर भारत की सशस्त्र सेना बनाते हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "Refers to forces like the BSF or CRPF, not the three main services.", "hi": "यह BSF या CRPF जैसे बलों को दर्शाता है, तीनों मुख्य सेवाओं को नहीं।" },
+        "2": { "en": "Responsible for civil law enforcement, a separate organization from the Armed Forces.", "hi": "यह नागरिक कानून प्रवर्तन के लिए ज़िम्मेदार है, सशस्त्र सेना से अलग संगठन।" },
+        "3": { "en": "Refers to volunteer disaster-response organizations, not the three main services.", "hi": "यह स्वयंसेवी आपदा-प्रतिक्रिया संगठनों को दर्शाता है, तीनों मुख्य सेवाओं को नहीं।" }
+      }
+    },
+    {
+      "key": "aissee6-p1-gk-16",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which is the smallest planet in our solar system?", "hi": "हमारे सौरमंडल का सबसे छोटा ग्रह कौन-सा है?" },
+      "optionsJson": [
+        { "en": "Mercury", "hi": "बुध" },
+        { "en": "Mars", "hi": "मंगल" },
+        { "en": "Venus", "hi": "शुक्र" },
+        { "en": "Earth", "hi": "पृथ्वी" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Mercury is the smallest and closest planet to the Sun.", "hi": "बुध सूर्य के सबसे निकट और सबसे छोटा ग्रह है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Smaller than Earth but larger than Mercury.", "hi": "पृथ्वी से छोटा पर बुध से बड़ा है।" },
+        "2": { "en": "Similar in size to Earth, much larger than Mercury.", "hi": "आकार में पृथ्वी के समान, बुध से बहुत बड़ा।" },
+        "3": { "en": "Larger than Mercury.", "hi": "यह बुध से बड़ा है।" }
+      }
+    },
+    {
+      "key": "aissee6-p1-gk-17",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The National Defence Academy (NDA), where cadets from Sainik Schools often go on to train, is located in which city?", "hi": "राष्ट्रीय रक्षा अकादमी (NDA), जहाँ सैनिक स्कूलों के छात्र प्रायः आगे प्रशिक्षण के लिए जाते हैं, किस शहर में स्थित है?" },
+      "optionsJson": [
+        { "en": "Dehradun", "hi": "देहरादून" },
+        { "en": "Pune", "hi": "पुणे" },
+        { "en": "Khadakwasla", "hi": "खडकवासला" },
+        { "en": "Wellington", "hi": "वेलिंगटन" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The NDA is located at Khadakwasla, near Pune, in Maharashtra.", "hi": "NDA महाराष्ट्र में पुणे के निकट खडकवासला में स्थित है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Home to the Indian Military Academy (IMA), not the NDA.", "hi": "यह भारतीय सैन्य अकादमी (IMA) का स्थान है, NDA का नहीं।" },
+        "1": { "en": "The nearby major city, but the NDA campus itself is at Khadakwasla.", "hi": "यह निकटवर्ती प्रमुख शहर है, पर NDA परिसर वास्तव में खडकवासला में है।" },
+        "3": { "en": "Home to the Defence Services Staff College, not the NDA.", "hi": "यह रक्षा सेवा स्टाफ कॉलेज का स्थान है, NDA का नहीं।" }
+      }
+    },
+    {
+      "key": "aissee6-p1-gk-18",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which organ of the human body helps us to breathe?", "hi": "मानव शरीर का कौन-सा अंग हमें साँस लेने में मदद करता है?" },
+      "optionsJson": [
+        { "en": "Heart", "hi": "हृदय" },
+        { "en": "Lungs", "hi": "फेफड़े" },
+        { "en": "Stomach", "hi": "पेट" },
+        { "en": "Brain", "hi": "मस्तिष्क" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The lungs take in oxygen and release carbon dioxide, enabling breathing.", "hi": "फेफड़े ऑक्सीजन ग्रहण करते हैं और कार्बन डाइऑक्साइड छोड़ते हैं, जिससे श्वसन संभव होता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Pumps blood, but doesn't perform gas exchange for breathing.", "hi": "यह रक्त पंप करता है, पर श्वसन के लिए गैस विनिमय नहीं करता।" },
+        "2": { "en": "Digests food, unrelated to breathing.", "hi": "यह भोजन पचाता है, श्वसन से असंबंधित।" },
+        "3": { "en": "Controls the body's functions but doesn't itself perform gas exchange.", "hi": "यह शरीर के कार्यों को नियंत्रित करता है पर स्वयं गैस विनिमय नहीं करता।" }
+      }
+    },
+    {
+      "key": "aissee6-p1-gk-19",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which festival is known as the \"Festival of Lights\"?", "hi": "किस त्योहार को \"रोशनी का त्योहार\" कहा जाता है?" },
+      "optionsJson": [
+        { "en": "Holi", "hi": "होली" },
+        { "en": "Diwali", "hi": "दिवाली" },
+        { "en": "Eid", "hi": "ईद" },
+        { "en": "Christmas", "hi": "क्रिसमस" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Diwali is celebrated by lighting lamps and is known as the Festival of Lights.", "hi": "दिवाली दीपक जलाकर मनाई जाती है और इसे रोशनी का त्योहार कहा जाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Known as the Festival of Colours, not Lights.", "hi": "इसे रंगों का त्योहार कहा जाता है, रोशनी का नहीं।" },
+        "2": { "en": "A significant religious festival, but not called the Festival of Lights.", "hi": "यह एक महत्वपूर्ण धार्मिक त्योहार है, पर इसे रोशनी का त्योहार नहीं कहा जाता।" },
+        "3": { "en": "A significant religious festival, but not called the Festival of Lights.", "hi": "यह एक महत्वपूर्ण धार्मिक त्योहार है, पर इसे रोशनी का त्योहार नहीं कहा जाता।" }
+      }
+    },
+    {
+      "key": "aissee6-p1-gk-20",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which is the tallest mountain peak in the world?", "hi": "विश्व की सबसे ऊँची पर्वत चोटी कौन-सी है?" },
+      "optionsJson": [
+        { "en": "K2", "hi": "K2" },
+        { "en": "Mount Everest", "hi": "माउंट एवरेस्ट" },
+        { "en": "Kangchenjunga", "hi": "कंचनजंगा" },
+        { "en": "Nanda Devi", "hi": "नंदा देवी" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Mount Everest, in the Himalayas, is the tallest mountain peak in the world.", "hi": "हिमालय में स्थित माउंट एवरेस्ट विश्व की सबसे ऊँची पर्वत चोटी है।" },
+      "distractorAnalysis": {
+        "0": { "en": "The world's second-highest peak, not the tallest.", "hi": "यह विश्व की दूसरी सबसे ऊँची चोटी है, सबसे ऊँची नहीं।" },
+        "2": { "en": "The third-highest peak in the world, not the tallest.", "hi": "यह विश्व की तीसरी सबसे ऊँची चोटी है, सबसे ऊँची नहीं।" },
+        "3": { "en": "The highest peak entirely within India, but not the tallest in the world.", "hi": "यह पूर्णतः भारत के भीतर सबसे ऊँची चोटी है, पर विश्व की सबसे ऊँची नहीं।" }
+      }
+    },
+    {
+      "key": "aissee6-p1-gk-21",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "What do bees make?", "hi": "मधुमक्खियाँ क्या बनाती हैं?" },
+      "optionsJson": [
+        { "en": "Milk", "hi": "दूध" },
+        { "en": "Honey", "hi": "शहद" },
+        { "en": "Silk", "hi": "रेशम" },
+        { "en": "Wax only", "hi": "केवल मोम" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Bees collect nectar from flowers and make honey.", "hi": "मधुमक्खियाँ फूलों से मकरंद इकट्ठा करती हैं और शहद बनाती हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "Produced by mammals, not bees.", "hi": "यह स्तनधारियों द्वारा उत्पादित होता है, मधुमक्खियों द्वारा नहीं।" },
+        "2": { "en": "Produced by silkworms, not bees.", "hi": "यह रेशम के कीड़ों द्वारा उत्पादित होता है, मधुमक्खियों द्वारा नहीं।" },
+        "3": { "en": "Bees do make wax too, but their best-known product is honey.", "hi": "मधुमक्खियाँ मोम भी बनाती हैं, पर उनका सबसे प्रसिद्ध उत्पाद शहद है।" }
+      }
+    },
+    {
+      "key": "aissee6-p1-gk-22",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which Indian state is known as the \"Land of Five Rivers\"?", "hi": "किस भारतीय राज्य को \"पाँच नदियों की भूमि\" कहा जाता है?" },
+      "optionsJson": [
+        { "en": "Haryana", "hi": "हरियाणा" },
+        { "en": "Punjab", "hi": "पंजाब" },
+        { "en": "Rajasthan", "hi": "राजस्थान" },
+        { "en": "Himachal Pradesh", "hi": "हिमाचल प्रदेश" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "\"Punjab\" itself means \"land of five rivers\" (panj = five, aab = water/rivers).", "hi": "\"पंजाब\" शब्द का अर्थ ही \"पाँच नदियों की भूमि\" है (पंज = पाँच, आब = पानी/नदियाँ)।" },
+      "distractorAnalysis": {
+        "0": { "en": "A neighboring state, but the \"five rivers\" name refers specifically to Punjab.", "hi": "यह एक पड़ोसी राज्य है, पर \"पाँच नदियों\" वाला नाम विशेष रूप से पंजाब को दर्शाता है।" },
+        "2": { "en": "Known for its deserts, not for five rivers.", "hi": "यह अपने रेगिस्तानों के लिए जाना जाता है, पाँच नदियों के लिए नहीं।" },
+        "3": { "en": "A hilly state, not associated with the \"five rivers\" name.", "hi": "यह एक पहाड़ी राज्य है, \"पाँच नदियों\" वाले नाम से संबंधित नहीं।" }
+      }
+    },
+    {
+      "key": "aissee6-p1-gk-23",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which instrument is used to measure temperature?", "hi": "तापमान मापने के लिए किस यंत्र का प्रयोग किया जाता है?" },
+      "optionsJson": [
+        { "en": "Barometer", "hi": "बैरोमीटर" },
+        { "en": "Thermometer", "hi": "थर्मामीटर" },
+        { "en": "Speedometer", "hi": "स्पीडोमीटर" },
+        { "en": "Odometer", "hi": "ओडोमीटर" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "A thermometer is used to measure temperature.", "hi": "थर्मामीटर का प्रयोग तापमान मापने के लिए किया जाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Measures atmospheric pressure, not temperature.", "hi": "यह वायुमंडलीय दबाव मापता है, तापमान नहीं।" },
+        "2": { "en": "Measures speed, not temperature.", "hi": "यह गति मापता है, तापमान नहीं।" },
+        "3": { "en": "Measures distance traveled, not temperature.", "hi": "यह तय की गई दूरी मापता है, तापमान नहीं।" }
+      }
+    },
+    {
+      "key": "aissee6-p1-gk-24",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": { "en": "The tricolour flag hoisting ceremony at Wagah Border, near the India-Pakistan border, is most closely associated with which force?", "hi": "भारत-पाकिस्तान सीमा के निकट वाघा बॉर्डर पर तिरंगा फहराने और परेड समारोह किस बल से सर्वाधिक निकटता से संबंधित है?" },
+      "optionsJson": [
+        { "en": "Border Security Force (BSF)", "hi": "सीमा सुरक्षा बल (BSF)" },
+        { "en": "Indian Army", "hi": "भारतीय सेना" },
+        { "en": "Indian Air Force", "hi": "भारतीय वायुसेना" },
+        { "en": "Central Reserve Police Force (CRPF)", "hi": "केंद्रीय रिज़र्व पुलिस बल (CRPF)" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The famous Beating Retreat ceremony at Wagah is conducted by the Border Security Force (BSF), which guards India's borders with Pakistan and Bangladesh.", "hi": "वाघा में प्रसिद्ध बीटिंग रिट्रीट समारोह सीमा सुरक्षा बल (BSF) द्वारा आयोजित किया जाता है, जो भारत की पाकिस्तान और बांग्लादेश सीमाओं की रक्षा करता है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Defends India's land borders and territory, but the Wagah ceremony specifically is a BSF duty.", "hi": "यह भारत की भूमि सीमाओं और क्षेत्र की रक्षा करती है, पर वाघा समारोह विशेष रूप से BSF का दायित्व है।" },
+        "2": { "en": "Defends India's airspace, unrelated to the land border ceremony at Wagah.", "hi": "यह भारत के हवाई क्षेत्र की रक्षा करती है, वाघा के भूमि सीमा समारोह से असंबंधित।" },
+        "3": { "en": "Handles internal security duties, not the Wagah border ceremony.", "hi": "यह आंतरिक सुरक्षा कर्तव्यों को संभालती है, वाघा सीमा समारोह को नहीं।" }
+      }
+    },
+    {
+      "key": "aissee6-p1-gk-25",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which Indian city is known as the \"Pink City\"?", "hi": "किस भारतीय शहर को \"गुलाबी शहर\" कहा जाता है?" },
+      "optionsJson": [
+        { "en": "Udaipur", "hi": "उदयपुर" },
+        { "en": "Jaipur", "hi": "जयपुर" },
+        { "en": "Jodhpur", "hi": "जोधपुर" },
+        { "en": "Bikaner", "hi": "बीकानेर" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Jaipur is known as the \"Pink City\" for the pink-coloured buildings in its old quarter.", "hi": "जयपुर को उसके पुराने क्षेत्र की गुलाबी रंग की इमारतों के कारण \"गुलाबी शहर\" कहा जाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Known as the \"City of Lakes\", not the Pink City.", "hi": "इसे \"झीलों का शहर\" कहा जाता है, गुलाबी शहर नहीं।" },
+        "2": { "en": "Known as the \"Blue City\" for its blue-painted houses, not the Pink City.", "hi": "इसे अपने नीले रंगे घरों के कारण \"नीला शहर\" कहा जाता है, गुलाबी शहर नहीं।" },
+        "3": { "en": "Known for its havelis and desert setting, not called the Pink City.", "hi": "यह अपनी हवेलियों और रेगिस्तानी परिवेश के लिए जाना जाता है, गुलाबी शहर नहीं कहलाता।" }
+      }
+    }
+  ]
+}

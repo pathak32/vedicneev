@@ -31,4 +31,8 @@ export interface PyqSeedItem {
   explanation: LangText;
   /** Per wrong-option breakdown of why it's a common trap answer, keyed by that option's stringified 0-based index into optionsJson (never correctAnswer's own index) — see PreviousYearQuestion.distractorAnalysis. Optional and additive; every pre-existing PYQ file predates this field. */
   distractorAnalysis?: Record<string, LangText>;
+  /** Groups this item into a specific fixed mock paper within its (examType, classLevel) — see PreviousYearQuestion.paperNumber. Defaults to 1 when omitted, matching every pre-existing file (JNVST's pool, the existing AISSEE/RMS Class 9 pool). */
+  paperNumber?: number;
+  /** Defaults to "PUBLISHED" when omitted — every pre-existing PYQ file relies on this default to stay exactly as live as it is today. Set to "DRAFT" for a paper still awaiting admin approval on /admin/mock-papers. */
+  reviewStatus?: "DRAFT" | "PUBLISHED";
 }

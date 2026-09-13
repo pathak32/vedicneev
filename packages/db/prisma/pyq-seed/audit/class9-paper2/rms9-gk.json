@@ -1,0 +1,484 @@
+{
+  "examType": "RMS",
+  "classLevel": 9,
+  "paperNumber": 2,
+  "sectionKey": "general_knowledge",
+  "generatedAt": "2026-09-13T00:00:00.000Z",
+  "questions": [
+    {
+      "key": "rms9-p2-gk-01",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Who was the first President of India?", "hi": "भारत के प्रथम राष्ट्रपति कौन थे?" },
+      "optionsJson": [
+        { "en": "Dr. S. Radhakrishnan", "hi": "डॉ. एस. राधाकृष्णन" },
+        { "en": "Dr. Rajendra Prasad", "hi": "डॉ. राजेंद्र प्रसाद" },
+        { "en": "Zakir Husain", "hi": "ज़ाकिर हुसैन" },
+        { "en": "V. V. Giri", "hi": "वी. वी. गिरी" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Dr. Rajendra Prasad served as India's first President from 1950 to 1962.", "hi": "डॉ. राजेंद्र प्रसाद ने 1950 से 1962 तक भारत के प्रथम राष्ट्रपति के रूप में सेवा की।" },
+      "distractorAnalysis": {
+        "0": { "en": "India's second President, not the first.", "hi": "भारत के द्वितीय राष्ट्रपति, प्रथम नहीं।" },
+        "2": { "en": "India's third President, not the first.", "hi": "भारत के तृतीय राष्ट्रपति, प्रथम नहीं।" },
+        "3": { "en": "India's fourth President, not the first.", "hi": "भारत के चतुर्थ राष्ट्रपति, प्रथम नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p2-gk-02",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which Article of the Indian Constitution guarantees the Right to Equality?", "hi": "भारतीय संविधान का कौन-सा अनुच्छेद समानता के अधिकार की गारंटी देता है?" },
+      "optionsJson": [
+        { "en": "Article 14", "hi": "अनुच्छेद 14" },
+        { "en": "Article 19", "hi": "अनुच्छेद 19" },
+        { "en": "Article 21", "hi": "अनुच्छेद 21" },
+        { "en": "Article 32", "hi": "अनुच्छेद 32" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Article 14 guarantees equality before the law and equal protection of the laws to all citizens.", "hi": "अनुच्छेद 14 सभी नागरिकों को कानून के समक्ष समानता और कानूनों की समान सुरक्षा की गारंटी देता है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Guarantees freedom of speech and other freedoms, a different fundamental right.", "hi": "यह भाषण की स्वतंत्रता और अन्य स्वतंत्रताओं की गारंटी देता है, एक भिन्न मौलिक अधिकार।" },
+        "2": { "en": "Guarantees the right to life and personal liberty, a different fundamental right.", "hi": "यह जीवन और व्यक्तिगत स्वतंत्रता के अधिकार की गारंटी देता है, एक भिन्न मौलिक अधिकार।" },
+        "3": { "en": "Provides the right to constitutional remedies, not the right to equality directly.", "hi": "यह संवैधानिक उपचारों के अधिकार का प्रावधान करता है, समानता के अधिकार को सीधे नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p2-gk-03",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "In which direction does the Sun set?", "hi": "सूर्य किस दिशा में अस्त होता है?" },
+      "optionsJson": [
+        { "en": "North", "hi": "उत्तर" },
+        { "en": "South", "hi": "दक्षिण" },
+        { "en": "East", "hi": "पूर्व" },
+        { "en": "West", "hi": "पश्चिम" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "The Sun sets in the West due to the direction of Earth's rotation.", "hi": "पृथ्वी के घूर्णन की दिशा के कारण सूर्य पश्चिम में अस्त होता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Not the direction of sunset.", "hi": "यह सूर्यास्त की दिशा नहीं है।" },
+        "1": { "en": "Not the direction of sunset.", "hi": "यह सूर्यास्त की दिशा नहीं है।" },
+        "2": { "en": "This is the direction of sunrise, not sunset.", "hi": "यह सूर्योदय की दिशा है, सूर्यास्त की नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p2-gk-04",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which country has the largest land area in the world?", "hi": "विश्व में सबसे बड़ा भूमि क्षेत्रफल किस देश का है?" },
+      "optionsJson": [
+        { "en": "China", "hi": "चीन" },
+        { "en": "United States", "hi": "संयुक्त राज्य अमेरिका" },
+        { "en": "Russia", "hi": "रूस" },
+        { "en": "Canada", "hi": "कनाडा" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Russia is the largest country in the world by land area.", "hi": "रूस क्षेत्रफल के अनुसार विश्व का सबसे बड़ा देश है।" },
+      "distractorAnalysis": {
+        "0": { "en": "A large country, but smaller in area than Russia.", "hi": "यह एक बड़ा देश है, पर क्षेत्रफल में रूस से छोटा।" },
+        "1": { "en": "A large country, but smaller in area than Russia.", "hi": "यह एक बड़ा देश है, पर क्षेत्रफल में रूस से छोटा।" },
+        "3": { "en": "The second-largest country by area, not the largest.", "hi": "यह क्षेत्रफल में दूसरा सबसे बड़ा देश है, सबसे बड़ा नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p2-gk-05",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which is the smallest ocean in the world?", "hi": "विश्व का सबसे छोटा महासागर कौन-सा है?" },
+      "optionsJson": [
+        { "en": "Atlantic Ocean", "hi": "अटलांटिक महासागर" },
+        { "en": "Indian Ocean", "hi": "हिंद महासागर" },
+        { "en": "Arctic Ocean", "hi": "आर्कटिक महासागर" },
+        { "en": "Pacific Ocean", "hi": "प्रशांत महासागर" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The Arctic Ocean is the smallest of the world's five oceans.", "hi": "आर्कटिक महासागर विश्व के पाँच महासागरों में सबसे छोटा है।" },
+      "distractorAnalysis": {
+        "0": { "en": "The second-largest ocean, not the smallest.", "hi": "यह दूसरा सबसे बड़ा महासागर है, सबसे छोटा नहीं।" },
+        "1": { "en": "The third-largest ocean, not the smallest.", "hi": "यह तीसरा सबसे बड़ा महासागर है, सबसे छोटा नहीं।" },
+        "3": { "en": "The largest ocean, the opposite of the smallest.", "hi": "यह सबसे बड़ा महासागर है, सबसे छोटे के विपरीत।" }
+      }
+    },
+    {
+      "key": "rms9-p2-gk-06",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The First War of Independence (Indian Rebellion) against British rule took place in which year?", "hi": "ब्रिटिश शासन के विरुद्ध प्रथम स्वतंत्रता संग्राम (भारतीय विद्रोह) किस वर्ष हुआ था?" },
+      "optionsJson": [
+        { "en": "1757", "hi": "1757" },
+        { "en": "1857", "hi": "1857" },
+        { "en": "1947", "hi": "1947" },
+        { "en": "1600", "hi": "1600" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The First War of Independence took place in 1857, also known as the Indian Rebellion or Sepoy Mutiny.", "hi": "प्रथम स्वतंत्रता संग्राम 1857 में हुआ, जिसे भारतीय विद्रोह या सिपाही विद्रोह भी कहा जाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the year of the Battle of Plassey, not the 1857 rebellion.", "hi": "यह प्लासी के युद्ध का वर्ष है, 1857 के विद्रोह का नहीं।" },
+        "2": { "en": "This is India's independence year, ninety years after the rebellion.", "hi": "यह भारत की स्वतंत्रता का वर्ष है, विद्रोह के नब्बे वर्ष बाद।" },
+        "3": { "en": "This is the year the British East India Company was founded, not the rebellion.", "hi": "यह ब्रिटिश ईस्ट इंडिया कंपनी की स्थापना का वर्ष है, विद्रोह का नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p2-gk-07",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Who wrote India's national song, \"Vande Mataram\"?", "hi": "भारत के राष्ट्रीय गीत \"वंदे मातरम्\" की रचना किसने की?" },
+      "optionsJson": [
+        { "en": "Bankim Chandra Chatterjee", "hi": "बंकिम चंद्र चट्टोपाध्याय" },
+        { "en": "Rabindranath Tagore", "hi": "रवींद्रनाथ टैगोर" },
+        { "en": "Sarojini Naidu", "hi": "सरोजिनी नायडू" },
+        { "en": "Subramania Bharati", "hi": "सुब्रमण्य भारती" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Bankim Chandra Chatterjee wrote \"Vande Mataram\", India's national song.", "hi": "बंकिम चंद्र चट्टोपाध्याय ने \"वंदे मातरम्\", भारत का राष्ट्रीय गीत, लिखा।" },
+      "distractorAnalysis": {
+        "1": { "en": "Composed \"Jana Gana Mana\", India's national anthem, not the national song.", "hi": "इन्होंने \"जन गण मन\", भारत का राष्ट्रगान, रचा, राष्ट्रीय गीत नहीं।" },
+        "2": { "en": "A notable poet and freedom fighter, but not the song's composer.", "hi": "एक प्रसिद्ध कवयित्री और स्वतंत्रता सेनानी, पर गीत की रचयिता नहीं।" },
+        "3": { "en": "A notable Tamil poet and freedom fighter, but not the song's composer.", "hi": "एक प्रसिद्ध तमिल कवि और स्वतंत्रता सेनानी, पर गीत के रचयिता नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p2-gk-08",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The Territorial Army's role, distinct from the regular Indian Army, is best described as:", "hi": "नियमित भारतीय सेना से अलग, टेरिटोरियल आर्मी की भूमिका का सबसे उपयुक्त वर्णन है:" },
+      "optionsJson": [
+        { "en": "A volunteer force supporting the Army part-time", "hi": "अंशकालिक रूप से सेना का सहयोग करने वाला एक स्वयंसेवी बल" },
+        { "en": "The primary combat force in war", "hi": "युद्ध में प्राथमिक युद्धक बल" },
+        { "en": "A civilian police unit", "hi": "एक नागरिक पुलिस इकाई" },
+        { "en": "A sports training academy", "hi": "एक खेल प्रशिक्षण अकादमी" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The Territorial Army is a volunteer organization of citizens who serve part-time alongside their civilian careers, supporting the regular Army when needed.", "hi": "टेरिटोरियल आर्मी नागरिकों का एक स्वयंसेवी संगठन है जो अपने असैनिक करियर के साथ अंशकालिक सेवा करते हैं, आवश्यकता पड़ने पर नियमित सेना का सहयोग करते हैं।" },
+      "distractorAnalysis": {
+        "1": { "en": "The regular Army is the primary combat force; the Territorial Army is a supporting reserve.", "hi": "नियमित सेना प्राथमिक युद्धक बल है; टेरिटोरियल आर्मी एक सहायक रिज़र्व है।" },
+        "2": { "en": "Civil policing is handled by separate law-enforcement bodies, not the Territorial Army.", "hi": "नागरिक पुलिसिंग अलग कानून-प्रवर्तन निकायों द्वारा संभाली जाती है, टेरिटोरियल आर्मी द्वारा नहीं।" },
+        "3": { "en": "Unrelated to sports training — a defence organization, not an academy.", "hi": "यह खेल प्रशिक्षण से असंबंधित है — एक रक्षा संगठन है, अकादमी नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p2-gk-09",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which is the highest civilian award in India?", "hi": "भारत का सर्वोच्च नागरिक सम्मान कौन-सा है?" },
+      "optionsJson": [
+        { "en": "Padma Vibhushan", "hi": "पद्म विभूषण" },
+        { "en": "Padma Bhushan", "hi": "पद्म भूषण" },
+        { "en": "Padma Shri", "hi": "पद्म श्री" },
+        { "en": "Bharat Ratna", "hi": "भारत रत्न" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "The Bharat Ratna is India's highest civilian award, given for exceptional service.", "hi": "भारत रत्न भारत का सर्वोच्च नागरिक सम्मान है, जो असाधारण सेवा के लिए दिया जाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "The second-highest civilian award, not the highest.", "hi": "यह दूसरा सर्वोच्च नागरिक सम्मान है, सर्वोच्च नहीं।" },
+        "1": { "en": "The third-highest civilian award, not the highest.", "hi": "यह तीसरा सर्वोच्च नागरिक सम्मान है, सर्वोच्च नहीं।" },
+        "2": { "en": "The fourth-highest civilian award, not the highest.", "hi": "यह चौथा सर्वोच्च नागरिक सम्मान है, सर्वोच्च नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p2-gk-10",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "\"Operation Sindoor\" and similar named military operations are examples of what India calls its response actions against:", "hi": "\"ऑपरेशन सिंदूर\" जैसे नामित सैन्य अभियान भारत की किसके विरुद्ध प्रतिक्रिया कार्रवाइयों के उदाहरण हैं?" },
+      "optionsJson": [
+        { "en": "Cross-border terrorism", "hi": "सीमा-पार आतंकवाद" },
+        { "en": "Natural disasters", "hi": "प्राकृतिक आपदाएँ" },
+        { "en": "Economic sanctions", "hi": "आर्थिक प्रतिबंध" },
+        { "en": "Trade disputes", "hi": "व्यापार विवाद" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Named Indian military operations of this kind are typically responses to cross-border terrorism and related security threats.", "hi": "इस प्रकार के नामित भारतीय सैन्य अभियान सामान्यतः सीमा-पार आतंकवाद और संबंधित सुरक्षा खतरों के प्रति प्रतिक्रियाएँ होते हैं।" },
+      "distractorAnalysis": {
+        "1": { "en": "Natural disaster response is handled by the NDRF and Armed Forces in a different (humanitarian) capacity, not this kind of operation.", "hi": "प्राकृतिक आपदा प्रतिक्रिया NDRF और सशस्त्र सेना द्वारा एक भिन्न (मानवीय) क्षमता में संभाली जाती है, इस प्रकार के अभियान में नहीं।" },
+        "2": { "en": "Economic sanctions are a diplomatic/financial tool, not a military operation.", "hi": "आर्थिक प्रतिबंध एक कूटनीतिक/वित्तीय उपकरण हैं, सैन्य अभियान नहीं।" },
+        "3": { "en": "Trade disputes are handled through commercial and diplomatic channels, not military operations.", "hi": "व्यापार विवाद वाणिज्यिक और कूटनीतिक माध्यमों से निपटाए जाते हैं, सैन्य अभियानों से नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p2-gk-11",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Chandrayaan-3, India's successful Moon mission, landed on the Moon in which year?", "hi": "चंद्रयान-3, भारत का सफल चंद्र मिशन, किस वर्ष चंद्रमा पर उतरा?" },
+      "optionsJson": [
+        { "en": "2019", "hi": "2019" },
+        { "en": "2021", "hi": "2021" },
+        { "en": "2023", "hi": "2023" },
+        { "en": "2025", "hi": "2025" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Chandrayaan-3 landed successfully near the Moon's South Pole in August 2023.", "hi": "चंद्रयान-3 अगस्त 2023 में चंद्रमा के दक्षिणी ध्रुव के निकट सफलतापूर्वक उतरा।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is close to when Chandrayaan-2 was launched, not when Chandrayaan-3 landed.", "hi": "यह चंद्रयान-2 के प्रक्षेपण के निकट का वर्ष है, चंद्रयान-3 की लैंडिंग का नहीं।" },
+        "1": { "en": "Not the year Chandrayaan-3 landed.", "hi": "यह वह वर्ष नहीं है जब चंद्रयान-3 उतरा।" },
+        "3": { "en": "Later than the actual landing year.", "hi": "यह वास्तविक लैंडिंग वर्ष के बाद का है।" }
+      }
+    },
+    {
+      "key": "rms9-p2-gk-12",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which fundamental duty of Indian citizens is listed in Article 51A of the Constitution?", "hi": "संविधान के अनुच्छेद 51A में भारतीय नागरिकों का कौन-सा मौलिक कर्तव्य सूचीबद्ध है?" },
+      "optionsJson": [
+        { "en": "To protect and improve the natural environment", "hi": "प्राकृतिक पर्यावरण की रक्षा और सुधार करना" },
+        { "en": "To pay income tax on time", "hi": "समय पर आयकर चुकाना" },
+        { "en": "To vote in every election", "hi": "प्रत्येक चुनाव में मतदान करना" },
+        { "en": "To join the armed forces", "hi": "सशस्त्र सेना में शामिल होना" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Article 51A lists Fundamental Duties, including to protect and improve the natural environment and have compassion for living creatures.", "hi": "अनुच्छेद 51A मौलिक कर्तव्यों को सूचीबद्ध करता है, जिसमें प्राकृतिक पर्यावरण की रक्षा-सुधार करना और जीवधारियों के प्रति दयाभाव रखना शामिल है।" },
+      "distractorAnalysis": {
+        "1": { "en": "A legal/financial obligation under tax law, not one of the listed Fundamental Duties.", "hi": "यह कर कानून के अंतर्गत एक कानूनी/वित्तीय दायित्व है, सूचीबद्ध मौलिक कर्तव्यों में से एक नहीं।" },
+        "2": { "en": "Voting is a right/privilege in India's system, not a listed Fundamental Duty.", "hi": "मतदान भारत की व्यवस्था में एक अधिकार/विशेषाधिकार है, सूचीबद्ध मौलिक कर्तव्य नहीं।" },
+        "3": { "en": "Joining the armed forces is voluntary in India, not a constitutional duty.", "hi": "भारत में सशस्त्र सेना में शामिल होना स्वैच्छिक है, संवैधानिक कर्तव्य नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p2-gk-13",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which is the largest desert in the world?", "hi": "विश्व का सबसे बड़ा रेगिस्तान कौन-सा है?" },
+      "optionsJson": [
+        { "en": "Thar Desert", "hi": "थार रेगिस्तान" },
+        { "en": "Gobi Desert", "hi": "गोबी रेगिस्तान" },
+        { "en": "Sahara Desert", "hi": "सहारा रेगिस्तान" },
+        { "en": "Kalahari Desert", "hi": "कालाहारी रेगिस्तान" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The Sahara Desert in Africa is the largest hot desert in the world.", "hi": "अफ्रीका का सहारा रेगिस्तान विश्व का सबसे बड़ा गर्म रेगिस्तान है।" },
+      "distractorAnalysis": {
+        "0": { "en": "A significant desert in India, but much smaller than the Sahara.", "hi": "यह भारत में एक महत्वपूर्ण रेगिस्तान है, पर सहारा से बहुत छोटा।" },
+        "1": { "en": "A large cold desert in Asia, but smaller in area than the Sahara.", "hi": "यह एशिया का एक बड़ा ठंडा रेगिस्तान है, पर क्षेत्रफल में सहारा से छोटा।" },
+        "3": { "en": "A notable desert in southern Africa, but smaller than the Sahara.", "hi": "यह दक्षिणी अफ्रीका का एक उल्लेखनीय रेगिस्तान है, पर सहारा से छोटा।" }
+      }
+    },
+    {
+      "key": "rms9-p2-gk-14",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The Panchayati Raj system in India, providing local self-governance at the village level, was established by which Constitutional Amendment?", "hi": "भारत में पंचायती राज व्यवस्था, जो गाँव स्तर पर स्थानीय स्वशासन प्रदान करती है, किस संविधान संशोधन द्वारा स्थापित की गई थी?" },
+      "optionsJson": [
+        { "en": "42nd Amendment", "hi": "42वाँ संशोधन" },
+        { "en": "73rd Amendment", "hi": "73वाँ संशोधन" },
+        { "en": "86th Amendment", "hi": "86वाँ संशोधन" },
+        { "en": "44th Amendment", "hi": "44वाँ संशोधन" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The 73rd Constitutional Amendment (1992) established the Panchayati Raj system of local self-governance.", "hi": "73वें संविधान संशोधन (1992) ने स्थानीय स्वशासन की पंचायती राज व्यवस्था स्थापित की।" },
+      "distractorAnalysis": {
+        "0": { "en": "Made significant changes to the Preamble and other provisions, but wasn't the Panchayati Raj amendment.", "hi": "इसने प्रस्तावना और अन्य प्रावधानों में महत्वपूर्ण परिवर्तन किए, पर यह पंचायती राज संशोधन नहीं था।" },
+        "2": { "en": "Made education a fundamental right for children, not the Panchayati Raj amendment.", "hi": "इसने शिक्षा को बच्चों का मौलिक अधिकार बनाया, यह पंचायती राज संशोधन नहीं था।" },
+        "3": { "en": "Restored some provisions altered by the 42nd Amendment, not the Panchayati Raj amendment.", "hi": "इसने 42वें संशोधन द्वारा बदले गए कुछ प्रावधानों को बहाल किया, यह पंचायती राज संशोधन नहीं था।" }
+      }
+    },
+    {
+      "key": "rms9-p2-gk-15",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which is the largest state in India by area?", "hi": "क्षेत्रफल के अनुसार भारत का सबसे बड़ा राज्य कौन-सा है?" },
+      "optionsJson": [
+        { "en": "Madhya Pradesh", "hi": "मध्य प्रदेश" },
+        { "en": "Maharashtra", "hi": "महाराष्ट्र" },
+        { "en": "Uttar Pradesh", "hi": "उत्तर प्रदेश" },
+        { "en": "Rajasthan", "hi": "राजस्थान" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Rajasthan is the largest Indian state by area.", "hi": "राजस्थान क्षेत्रफल के अनुसार सबसे बड़ा भारतीय राज्य है।" },
+      "distractorAnalysis": {
+        "0": { "en": "The second-largest state by area, not the largest.", "hi": "यह क्षेत्रफल में दूसरा सबसे बड़ा राज्य है, सबसे बड़ा नहीं।" },
+        "1": { "en": "A large state, but smaller in area than Rajasthan.", "hi": "यह एक बड़ा राज्य है, पर क्षेत्रफल में राजस्थान से छोटा।" },
+        "2": { "en": "India's most populous state, but not the largest by area.", "hi": "यह भारत का सबसे अधिक जनसंख्या वाला राज्य है, पर क्षेत्रफल में सबसे बड़ा नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p2-gk-16",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Who is the constitutional Supreme Commander of the Indian Armed Forces?", "hi": "भारतीय सशस्त्र सेना का संवैधानिक सर्वोच्च सेनापति कौन होता है?" },
+      "optionsJson": [
+        { "en": "The Defence Minister", "hi": "रक्षा मंत्री" },
+        { "en": "The Prime Minister", "hi": "प्रधानमंत्री" },
+        { "en": "The President", "hi": "राष्ट्रपति" },
+        { "en": "The Chief of Defence Staff", "hi": "रक्षा स्टाफ प्रमुख" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The President of India is the constitutional Supreme Commander of the Armed Forces.", "hi": "भारत का राष्ट्रपति सशस्त्र सेना का संवैधानिक सर्वोच्च सेनापति होता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Oversees defence policy and administration, but isn't the constitutional Supreme Commander.", "hi": "यह रक्षा नीति और प्रशासन की देखरेख करता है, पर संवैधानिक सर्वोच्च सेनापति नहीं।" },
+        "1": { "en": "Heads the government and the Cabinet Committee on Security, but isn't the constitutional Supreme Commander.", "hi": "यह सरकार और सुरक्षा पर मंत्रिमंडलीय समिति का प्रमुख होता है, पर संवैधानिक सर्वोच्च सेनापति नहीं।" },
+        "3": { "en": "A senior military coordination role, but not the constitutional Supreme Commander.", "hi": "यह एक वरिष्ठ सैन्य समन्वय भूमिका है, पर संवैधानिक सर्वोच्च सेनापति नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p2-gk-17",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which gas is essential for the process of rusting of iron?", "hi": "लोहे में जंग लगने की प्रक्रिया के लिए कौन-सी गैस आवश्यक है?" },
+      "optionsJson": [
+        { "en": "Nitrogen", "hi": "नाइट्रोजन" },
+        { "en": "Oxygen", "hi": "ऑक्सीजन" },
+        { "en": "Hydrogen", "hi": "हाइड्रोजन" },
+        { "en": "Carbon dioxide", "hi": "कार्बन डाइऑक्साइड" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Rusting occurs when iron reacts with oxygen (and moisture) in the air to form iron oxide.", "hi": "जंग तब लगती है जब लोहा वायु में उपस्थित ऑक्सीजन (और नमी) के साथ अभिक्रिया कर आयरन ऑक्साइड बनाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "The most abundant gas in air, but not directly involved in rusting.", "hi": "यह वायु में सबसे प्रचुर गैस है, पर जंग लगने में सीधे शामिल नहीं।" },
+        "2": { "en": "Not the gas responsible for rusting.", "hi": "यह जंग के लिए ज़िम्मेदार गैस नहीं है।" },
+        "3": { "en": "Not the gas primarily responsible for rusting.", "hi": "यह मुख्य रूप से जंग के लिए ज़िम्मेदार गैस नहीं है।" }
+      }
+    },
+    {
+      "key": "rms9-p2-gk-18",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The Non-Aligned Movement (NAM), which India helped found, primarily emerged during which historical period?", "hi": "गुटनिरपेक्ष आंदोलन (NAM), जिसकी स्थापना में भारत ने सहयोग किया, मुख्यतः किस ऐतिहासिक काल में उभरा?" },
+      "optionsJson": [
+        { "en": "The Cold War era", "hi": "शीत युद्ध का काल" },
+        { "en": "World War II", "hi": "द्वितीय विश्व युद्ध" },
+        { "en": "The Mughal era", "hi": "मुग़ल काल" },
+        { "en": "After the year 2010", "hi": "वर्ष 2010 के बाद" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "NAM emerged during the Cold War as a group of states not formally aligned with either the US or Soviet bloc.", "hi": "NAM शीत युद्ध के दौरान उन राज्यों के समूह के रूप में उभरा जो औपचारिक रूप से न तो अमेरिकी और न ही सोवियत गुट से जुड़े थे।" },
+      "distractorAnalysis": {
+        "1": { "en": "NAM formed after this war ended, in 1961, not during it.", "hi": "NAM इस युद्ध के समाप्त होने के बाद, 1961 में बना, इसके दौरान नहीं।" },
+        "2": { "en": "Centuries before NAM existed.", "hi": "यह NAM के अस्तित्व में आने से सदियों पहले का काल है।" },
+        "3": { "en": "NAM was founded decades earlier, in 1961, not after 2010.", "hi": "NAM की स्थापना दशकों पहले, 1961 में हुई थी, 2010 के बाद नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p2-gk-19",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "How many fundamental rights are guaranteed by the Indian Constitution (as commonly cited)?", "hi": "भारतीय संविधान द्वारा कितने मौलिक अधिकारों की गारंटी दी गई है (जैसा सामान्यतः बताया जाता है)?" },
+      "optionsJson": [
+        { "en": "5", "hi": "5" },
+        { "en": "6", "hi": "6" },
+        { "en": "7", "hi": "7" },
+        { "en": "10", "hi": "10" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The Indian Constitution guarantees 6 fundamental rights (after the Right to Property was removed as a fundamental right in 1978).", "hi": "भारतीय संविधान 6 मौलिक अधिकारों की गारंटी देता है (1978 में संपत्ति के अधिकार को मौलिक अधिकार से हटाए जाने के बाद)।" },
+      "distractorAnalysis": {
+        "0": { "en": "Undercounts the current number of fundamental rights.", "hi": "मौलिक अधिकारों की वर्तमान संख्या को कम गिना।" },
+        "2": { "en": "This was the count before the Right to Property was removed in 1978, not the current one.", "hi": "यह 1978 में संपत्ति के अधिकार को हटाए जाने से पहले की गिनती थी, वर्तमान नहीं।" },
+        "3": { "en": "Overcounts the current number of fundamental rights.", "hi": "मौलिक अधिकारों की वर्तमान संख्या को अधिक गिना।" }
+      }
+    },
+    {
+      "key": "rms9-p2-gk-20",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The \"Dandi March\" (Salt March) led by Mahatma Gandhi took place in which year?", "hi": "महात्मा गांधी के नेतृत्व में \"दांडी मार्च\" (नमक सत्याग्रह) किस वर्ष हुआ?" },
+      "optionsJson": [
+        { "en": "1920", "hi": "1920" },
+        { "en": "1930", "hi": "1930" },
+        { "en": "1942", "hi": "1942" },
+        { "en": "1947", "hi": "1947" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The Dandi March took place in 1930, as part of the Civil Disobedience Movement against the salt tax.", "hi": "दांडी मार्च 1930 में, नमक कर के विरुद्ध सविनय अवज्ञा आंदोलन के भाग के रूप में हुआ।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is when the Non-Cooperation Movement began, not the Dandi March.", "hi": "यह वह वर्ष है जब असहयोग आंदोलन शुरू हुआ, दांडी मार्च नहीं।" },
+        "2": { "en": "This is when the Quit India Movement began, not the Dandi March.", "hi": "यह वह वर्ष है जब भारत छोड़ो आंदोलन शुरू हुआ, दांडी मार्च नहीं।" },
+        "3": { "en": "This is India's independence year, seventeen years after the Dandi March.", "hi": "यह भारत की स्वतंत्रता का वर्ष है, दांडी मार्च के सत्रह वर्ष बाद।" }
+      }
+    },
+    {
+      "key": "rms9-p2-gk-21",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which is the national animal of India?", "hi": "भारत का राष्ट्रीय पशु कौन-सा है?" },
+      "optionsJson": [
+        { "en": "Lion", "hi": "शेर" },
+        { "en": "Elephant", "hi": "हाथी" },
+        { "en": "Tiger", "hi": "बाघ" },
+        { "en": "Leopard", "hi": "तेंदुआ" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The Bengal Tiger is India's national animal, symbolizing strength and grace.", "hi": "बंगाल टाइगर भारत का राष्ट्रीय पशु है, जो शक्ति और अनुग्रह का प्रतीक है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Found in the Gir forest of Gujarat, but not India's national animal.", "hi": "गुजरात के गिर वन में पाया जाता है, पर भारत का राष्ट्रीय पशु नहीं।" },
+        "1": { "en": "An important animal in Indian culture, but not the national animal.", "hi": "भारतीय संस्कृति में महत्वपूर्ण पशु, पर राष्ट्रीय पशु नहीं।" },
+        "3": { "en": "A wild cat found in India, but not the national animal.", "hi": "भारत में पाया जाने वाला एक जंगली बिल्ली प्रजाति, पर राष्ट्रीय पशु नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p2-gk-22",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "The Agnipath scheme, introduced for recruitment into the Indian Armed Forces, primarily changed which aspect of enlistment?", "hi": "भारतीय सशस्त्र सेना में भर्ती के लिए शुरू की गई अग्निपथ योजना ने भर्ती के किस पहलू को मुख्यतः बदला?" },
+      "optionsJson": [
+        { "en": "The tenure/duration of service for recruits", "hi": "भर्तियों की सेवा अवधि" },
+        { "en": "The minimum educational qualification only", "hi": "केवल न्यूनतम शैक्षणिक योग्यता" },
+        { "en": "The rank of the Chief of Army Staff", "hi": "थल सेनाध्यक्ष का पद" },
+        { "en": "The location of military academies", "hi": "सैन्य अकादमियों का स्थान" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The Agnipath scheme introduced a fixed, shorter tenure of service (with a portion retained afterward) for most recruits, called Agniveers.", "hi": "अग्निपथ योजना ने अधिकांश भर्तियों (जिन्हें अग्निवीर कहा जाता है) के लिए एक निश्चित, छोटी सेवा अवधि (जिसमें से कुछ भाग बाद में बनाए रखा जाता है) शुरू की।" },
+      "distractorAnalysis": {
+        "1": { "en": "The scheme's central change is about service tenure, not educational qualifications alone.", "hi": "योजना का केंद्रीय परिवर्तन सेवा अवधि से संबंधित है, केवल शैक्षणिक योग्यताओं से नहीं।" },
+        "2": { "en": "Unrelated to senior command appointments.", "hi": "यह वरिष्ठ कमान नियुक्तियों से असंबंधित है।" },
+        "3": { "en": "Unrelated to where training academies are located.", "hi": "यह प्रशिक्षण अकादमियों के स्थान से असंबंधित है।" }
+      }
+    },
+    {
+      "key": "rms9-p2-gk-23",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which Indian state is the largest producer of coffee?", "hi": "कॉफ़ी का सबसे बड़ा उत्पादक भारतीय राज्य कौन-सा है?" },
+      "optionsJson": [
+        { "en": "Karnataka", "hi": "कर्नाटक" },
+        { "en": "Punjab", "hi": "पंजाब" },
+        { "en": "Rajasthan", "hi": "राजस्थान" },
+        { "en": "Haryana", "hi": "हरियाणा" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Karnataka is India's largest coffee-producing state, particularly in regions like Kodagu (Coorg).", "hi": "कर्नाटक भारत का सबसे बड़ा कॉफ़ी-उत्पादक राज्य है, विशेष रूप से कोडगु (कूर्ग) जैसे क्षेत्रों में।" },
+      "distractorAnalysis": {
+        "1": { "en": "Known for wheat and other crops, not a major coffee producer.", "hi": "यह गेहूँ और अन्य फसलों के लिए जाना जाता है, एक प्रमुख कॉफ़ी उत्पादक नहीं है।" },
+        "2": { "en": "Known for its arid climate, not coffee production.", "hi": "यह अपनी शुष्क जलवायु के लिए जाना जाता है, कॉफ़ी उत्पादन के लिए नहीं।" },
+        "3": { "en": "Known for wheat and dairy, not a major coffee producer.", "hi": "यह गेहूँ और डेयरी के लिए जाना जाता है, एक प्रमुख कॉफ़ी उत्पादक नहीं है।" }
+      }
+    },
+    {
+      "key": "rms9-p2-gk-24",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The National Cadet Corps (NCC) primarily aims to develop which qualities among students?", "hi": "राष्ट्रीय कैडेट कोर (NCC) का मुख्य उद्देश्य छात्रों में किन गुणों का विकास करना है?" },
+      "optionsJson": [
+        { "en": "Character, discipline, and leadership", "hi": "चरित्र, अनुशासन और नेतृत्व" },
+        { "en": "Only academic excellence", "hi": "केवल शैक्षणिक उत्कृष्टता" },
+        { "en": "Only artistic talent", "hi": "केवल कलात्मक प्रतिभा" },
+        { "en": "Only business skills", "hi": "केवल व्यावसायिक कौशल" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The NCC aims to develop character, discipline, secular outlook, spirit of adventure, and leadership qualities among students.", "hi": "NCC का उद्देश्य छात्रों में चरित्र, अनुशासन, धर्मनिरपेक्ष दृष्टिकोण, साहसिक भावना और नेतृत्व गुणों का विकास करना है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Academic excellence is the domain of regular schooling, not the NCC's core aim.", "hi": "शैक्षणिक उत्कृष्टता नियमित स्कूली शिक्षा का क्षेत्र है, NCC का मुख्य उद्देश्य नहीं।" },
+        "2": { "en": "Artistic development is handled by other school activities, not the NCC's core aim.", "hi": "कलात्मक विकास अन्य स्कूली गतिविधियों द्वारा संभाला जाता है, NCC का मुख्य उद्देश्य नहीं।" },
+        "3": { "en": "Business skills are unrelated to the NCC's character and discipline-building purpose.", "hi": "व्यावसायिक कौशल NCC के चरित्र और अनुशासन-निर्माण उद्देश्य से असंबंधित हैं।" }
+      }
+    },
+    {
+      "key": "rms9-p2-gk-25",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": { "en": "India's Right to Information (RTI) Act, empowering citizens to seek information from public authorities, was enacted in which year?", "hi": "भारत का सूचना का अधिकार (RTI) अधिनियम, जो नागरिकों को सार्वजनिक प्राधिकरणों से जानकारी माँगने का अधिकार देता है, किस वर्ष लागू हुआ?" },
+      "optionsJson": [
+        { "en": "1995", "hi": "1995" },
+        { "en": "2005", "hi": "2005" },
+        { "en": "2010", "hi": "2010" },
+        { "en": "2015", "hi": "2015" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The Right to Information Act was enacted in 2005, giving citizens the right to request information from government bodies.", "hi": "सूचना का अधिकार अधिनियम 2005 में लागू हुआ, जो नागरिकों को सरकारी निकायों से जानकारी माँगने का अधिकार देता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "A decade before the RTI Act was actually passed.", "hi": "यह RTI अधिनियम के वास्तविक पारित होने से एक दशक पहले का वर्ष है।" },
+        "2": { "en": "Several years after the RTI Act was already in force.", "hi": "यह RTI अधिनियम के पहले ही लागू होने के कई वर्षों बाद का वर्ष है।" },
+        "3": { "en": "A decade after the RTI Act was actually passed.", "hi": "यह RTI अधिनियम के वास्तविक पारित होने के एक दशक बाद का वर्ष है।" }
+      }
+    }
+  ]
+}

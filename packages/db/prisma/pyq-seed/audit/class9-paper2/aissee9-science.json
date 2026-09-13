@@ -1,0 +1,484 @@
+{
+  "examType": "AISSEE",
+  "classLevel": 9,
+  "paperNumber": 2,
+  "sectionKey": "science",
+  "generatedAt": "2026-09-13T00:00:00.000Z",
+  "questions": [
+    {
+      "key": "aissee9-p2-sc-01",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which is the smallest unit of life?", "hi": "जीवन की सबसे छोटी इकाई कौन-सी है?" },
+      "optionsJson": [
+        { "en": "Tissue", "hi": "ऊतक" },
+        { "en": "Cell", "hi": "कोशिका" },
+        { "en": "Organ", "hi": "अंग" },
+        { "en": "Organism", "hi": "जीव" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The cell is the basic structural and functional unit of all living organisms.", "hi": "कोशिका सभी सजीवों की मूल संरचनात्मक और क्रियात्मक इकाई है।" },
+      "distractorAnalysis": {
+        "0": { "en": "A group of similar cells working together — larger than a single cell.", "hi": "यह समान कोशिकाओं का एक साथ कार्य करने वाला समूह है — एक कोशिका से बड़ा।" },
+        "2": { "en": "A group of tissues forming a functional unit — larger than a cell.", "hi": "यह ऊतकों का समूह है जो एक क्रियात्मक इकाई बनाता है — कोशिका से बड़ा।" },
+        "3": { "en": "A complete living being made of many cells — much larger than a single cell.", "hi": "यह कई कोशिकाओं से बना एक पूर्ण सजीव है — एक कोशिका से बहुत बड़ा।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-sc-02",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which part of the cell is known as the \"powerhouse of the cell\"?", "hi": "कोशिका के किस भाग को \"कोशिका का ऊर्जा गृह\" कहा जाता है?" },
+      "optionsJson": [
+        { "en": "Nucleus", "hi": "केंद्रक" },
+        { "en": "Mitochondria", "hi": "माइटोकॉन्ड्रिया" },
+        { "en": "Ribosome", "hi": "राइबोसोम" },
+        { "en": "Golgi body", "hi": "गॉल्जी उपकरण" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Mitochondria produce energy (ATP) for the cell through respiration, earning them the name \"powerhouse of the cell\".", "hi": "माइटोकॉन्ड्रिया श्वसन के माध्यम से कोशिका के लिए ऊर्जा (ATP) उत्पन्न करता है, इसीलिए इसे \"कोशिका का ऊर्जा गृह\" कहा जाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Controls the cell's activities and holds genetic material, but doesn't produce the cell's main energy.", "hi": "यह कोशिका की गतिविधियों को नियंत्रित करता है और आनुवंशिक पदार्थ रखता है, पर कोशिका की मुख्य ऊर्जा उत्पन्न नहीं करता।" },
+        "2": { "en": "Responsible for protein synthesis, not energy production.", "hi": "यह प्रोटीन संश्लेषण के लिए ज़िम्मेदार है, ऊर्जा उत्पादन के लिए नहीं।" },
+        "3": { "en": "Responsible for packaging and transporting materials, not energy production.", "hi": "यह पदार्थों की पैकेजिंग और परिवहन के लिए ज़िम्मेदार है, ऊर्जा उत्पादन के लिए नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-sc-03",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "What is the SI unit of force?", "hi": "बल की SI इकाई क्या है?" },
+      "optionsJson": [
+        { "en": "Joule", "hi": "जूल" },
+        { "en": "Newton", "hi": "न्यूटन" },
+        { "en": "Watt", "hi": "वाट" },
+        { "en": "Pascal", "hi": "पास्कल" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Force is measured in Newtons (N), named after Sir Isaac Newton.", "hi": "बल को न्यूटन (N) में मापा जाता है, जिसका नाम सर आइज़ैक न्यूटन के नाम पर रखा गया है।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the SI unit of energy/work, not force.", "hi": "यह ऊर्जा/कार्य की SI इकाई है, बल की नहीं।" },
+        "2": { "en": "This is the SI unit of power, not force.", "hi": "यह शक्ति की SI इकाई है, बल की नहीं।" },
+        "3": { "en": "This is the SI unit of pressure, not force.", "hi": "यह दाब की SI इकाई है, बल की नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-sc-04",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which law states that every action has an equal and opposite reaction?", "hi": "कौन-सा नियम बताता है कि प्रत्येक क्रिया की समान और विपरीत प्रतिक्रिया होती है?" },
+      "optionsJson": [
+        { "en": "Newton's First Law", "hi": "न्यूटन का प्रथम नियम" },
+        { "en": "Newton's Second Law", "hi": "न्यूटन का द्वितीय नियम" },
+        { "en": "Newton's Third Law", "hi": "न्यूटन का तृतीय नियम" },
+        { "en": "Law of Gravitation", "hi": "गुरुत्वाकर्षण का नियम" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Newton's Third Law states that for every action, there is an equal and opposite reaction.", "hi": "न्यूटन का तृतीय नियम बताता है कि प्रत्येक क्रिया के लिए, एक समान और विपरीत प्रतिक्रिया होती है।" },
+      "distractorAnalysis": {
+        "0": { "en": "This law describes inertia — an object stays at rest or in motion unless acted on by a force.", "hi": "यह नियम जड़त्व का वर्णन करता है — कोई वस्तु बल लगाए बिना विराम या गति में रहती है।" },
+        "1": { "en": "This law relates force, mass, and acceleration (F=ma), not action-reaction pairs.", "hi": "यह नियम बल, द्रव्यमान और त्वरण को जोड़ता है (F=ma), क्रिया-प्रतिक्रिया युग्मों को नहीं।" },
+        "3": { "en": "This law describes the attraction between masses, not action-reaction pairs.", "hi": "यह नियम द्रव्यमानों के बीच आकर्षण का वर्णन करता है, क्रिया-प्रतिक्रिया युग्मों को नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-sc-05",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which gas is most abundant in the Earth's atmosphere?", "hi": "पृथ्वी के वायुमंडल में सबसे प्रचुर गैस कौन-सी है?" },
+      "optionsJson": [
+        { "en": "Oxygen", "hi": "ऑक्सीजन" },
+        { "en": "Carbon dioxide", "hi": "कार्बन डाइऑक्साइड" },
+        { "en": "Nitrogen", "hi": "नाइट्रोजन" },
+        { "en": "Hydrogen", "hi": "हाइड्रोजन" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Nitrogen makes up about 78% of the Earth's atmosphere, the most abundant gas present.", "hi": "नाइट्रोजन पृथ्वी के वायुमंडल का लगभग 78% भाग बनाती है, जो सबसे प्रचुर उपस्थित गैस है।" },
+      "distractorAnalysis": {
+        "0": { "en": "The second most abundant gas (about 21%), not the most abundant.", "hi": "यह दूसरी सबसे प्रचुर गैस है (लगभग 21%), सबसे प्रचुर नहीं।" },
+        "1": { "en": "Present only in a very small trace amount, not the most abundant.", "hi": "यह केवल एक बहुत छोटी मात्रा में उपस्थित है, सबसे प्रचुर नहीं।" },
+        "3": { "en": "Not a significant component of Earth's atmosphere.", "hi": "यह पृथ्वी के वायुमंडल का महत्वपूर्ण घटक नहीं है।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-sc-06",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The process by which a solid changes directly into a gas without becoming liquid is called:", "hi": "वह प्रक्रिया जिसमें कोई ठोस बिना द्रव बने सीधे गैस में बदल जाता है, कहलाती है:" },
+      "optionsJson": [
+        { "en": "Evaporation", "hi": "वाष्पीकरण" },
+        { "en": "Condensation", "hi": "संघनन" },
+        { "en": "Sublimation", "hi": "ऊर्ध्वपातन" },
+        { "en": "Freezing", "hi": "हिमीकरण" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Sublimation is the direct change of state from solid to gas, as seen in dry ice or camphor.", "hi": "ऊर्ध्वपातन ठोस से सीधे गैस में अवस्था परिवर्तन है, जैसा शुष्क बर्फ या कपूर में देखा जाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the change from liquid to gas, not solid to gas.", "hi": "यह द्रव से गैस में परिवर्तन है, ठोस से गैस में नहीं।" },
+        "1": { "en": "This is the change from gas to liquid, the opposite process.", "hi": "यह गैस से द्रव में परिवर्तन है, विपरीत प्रक्रिया।" },
+        "3": { "en": "This is the change from liquid to solid, unrelated to solid-to-gas change.", "hi": "यह द्रव से ठोस में परिवर्तन है, ठोस-से-गैस परिवर्तन से असंबंधित।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-sc-07",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which organelle is called the \"kitchen of the cell\" because it makes food through photosynthesis?", "hi": "किस कोशिकांग को \"कोशिका की रसोई\" कहा जाता है क्योंकि यह प्रकाश संश्लेषण के माध्यम से भोजन बनाता है?" },
+      "optionsJson": [
+        { "en": "Chloroplast", "hi": "क्लोरोप्लास्ट" },
+        { "en": "Nucleus", "hi": "केंद्रक" },
+        { "en": "Vacuole", "hi": "रिक्तिका" },
+        { "en": "Mitochondria", "hi": "माइटोकॉन्ड्रिया" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Chloroplasts contain chlorophyll and carry out photosynthesis, making food for the plant cell.", "hi": "क्लोरोप्लास्ट में क्लोरोफिल होता है और यह प्रकाश संश्लेषण करता है, जो पादप कोशिका के लिए भोजन बनाता है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Controls the cell's activities and holds genetic material, but doesn't make food.", "hi": "यह कोशिका की गतिविधियों को नियंत्रित करता है और आनुवंशिक पदार्थ रखता है, पर भोजन नहीं बनाता।" },
+        "2": { "en": "Stores water, food, and waste, but doesn't itself make food.", "hi": "यह पानी, भोजन और अपशिष्ट संग्रहित करता है, पर स्वयं भोजन नहीं बनाता।" },
+        "3": { "en": "Produces energy from food already made, rather than making food itself.", "hi": "यह पहले से बने भोजन से ऊर्जा उत्पन्न करता है, स्वयं भोजन नहीं बनाता।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-sc-08",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The number of protons in an atom is called its:", "hi": "एक परमाणु में प्रोटॉनों की संख्या को कहते हैं:" },
+      "optionsJson": [
+        { "en": "Mass number", "hi": "द्रव्यमान संख्या" },
+        { "en": "Atomic number", "hi": "परमाणु संख्या" },
+        { "en": "Valency", "hi": "संयोजकता" },
+        { "en": "Isotope number", "hi": "समस्थानिक संख्या" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The atomic number of an element equals the number of protons in its nucleus.", "hi": "किसी तत्व की परमाणु संख्या उसके नाभिक में प्रोटॉनों की संख्या के बराबर होती है।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the sum of protons and neutrons, not just protons.", "hi": "यह प्रोटॉन और न्यूट्रॉन का योग है, केवल प्रोटॉन नहीं।" },
+        "2": { "en": "This describes an atom's combining capacity, not its proton count.", "hi": "यह परमाणु की संयोजन क्षमता को दर्शाता है, प्रोटॉन संख्या को नहीं।" },
+        "3": { "en": "Not a standard term for proton count — isotopes relate to differing neutron counts.", "hi": "यह प्रोटॉन संख्या के लिए मानक शब्द नहीं है — समस्थानिक भिन्न न्यूट्रॉन संख्या से संबंधित हैं।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-sc-09",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "An object of mass 5 kg is moving with a velocity of 4 m/s. Find its momentum.", "hi": "5 किग्रा द्रव्यमान वाली एक वस्तु 4 मी/से के वेग से गतिमान है। इसका संवेग ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "9 kg m/s", "hi": "9 किग्रा मी/से" },
+        { "en": "20 kg m/s", "hi": "20 किग्रा मी/से" },
+        { "en": "1.25 kg m/s", "hi": "1.25 किग्रा मी/से" },
+        { "en": "0.8 kg m/s", "hi": "0.8 किग्रा मी/से" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Momentum = mass × velocity = 5×4 = 20 kg m/s.", "hi": "संवेग = द्रव्यमान × वेग = 5×4 = 20 किग्रा मी/से।" },
+      "distractorAnalysis": {
+        "0": { "en": "Adds mass and velocity instead of multiplying them.", "hi": "गुणा करने के बजाय द्रव्यमान और वेग को जोड़ दिया।" },
+        "2": { "en": "Divides mass by velocity instead of multiplying.", "hi": "गुणा करने के बजाय द्रव्यमान को वेग से भाग दिया।" },
+        "3": { "en": "Divides velocity by mass instead of multiplying them.", "hi": "गुणा करने के बजाय वेग को द्रव्यमान से भाग दिया।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-sc-10",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which of these is a non-metal?", "hi": "इनमें से कौन-सी एक अधातु है?" },
+      "optionsJson": [
+        { "en": "Iron", "hi": "लोहा" },
+        { "en": "Copper", "hi": "ताँबा" },
+        { "en": "Sulphur", "hi": "गंधक" },
+        { "en": "Aluminium", "hi": "एल्युमिनियम" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Sulphur is a non-metal, lacking the typical metallic properties of shine, malleability, and conductivity.", "hi": "गंधक एक अधातु है, जिसमें चमक, आघातवर्ध्यता और चालकता जैसे विशिष्ट धात्विक गुण नहीं होते।" },
+      "distractorAnalysis": {
+        "0": { "en": "A metal, known for its strength and use in construction.", "hi": "यह एक धातु है, अपनी मज़बूती और निर्माण में उपयोग के लिए जानी जाती है।" },
+        "1": { "en": "A metal, known for its excellent electrical conductivity.", "hi": "यह एक धातु है, अपनी उत्कृष्ट विद्युत चालकता के लिए जानी जाती है।" },
+        "3": { "en": "A metal, known for being lightweight and corrosion-resistant.", "hi": "यह एक धातु है, हल्की और संक्षारण-प्रतिरोधी होने के लिए जानी जाती है।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-sc-11",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "What is the process called by which green plants prepare their own food?", "hi": "वह प्रक्रिया क्या कहलाती है जिसके द्वारा हरे पौधे अपना भोजन स्वयं बनाते हैं?" },
+      "optionsJson": [
+        { "en": "Respiration", "hi": "श्वसन" },
+        { "en": "Photosynthesis", "hi": "प्रकाश संश्लेषण" },
+        { "en": "Transpiration", "hi": "वाष्पोत्सर्जन" },
+        { "en": "Excretion", "hi": "उत्सर्जन" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Photosynthesis is the process by which green plants use sunlight, water, and carbon dioxide to make their own food.", "hi": "प्रकाश संश्लेषण वह प्रक्रिया है जिसके द्वारा हरे पौधे सूर्य के प्रकाश, पानी और कार्बन डाइऑक्साइड का उपयोग करके अपना भोजन बनाते हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "The process of releasing energy from food, not making it.", "hi": "यह भोजन से ऊर्जा मुक्त करने की प्रक्रिया है, उसे बनाने की नहीं।" },
+        "2": { "en": "The loss of water vapor from plant surfaces, not food-making.", "hi": "यह पौधों की सतह से जल वाष्प की हानि है, भोजन बनाना नहीं।" },
+        "3": { "en": "The removal of waste products, unrelated to making food.", "hi": "यह अपशिष्ट उत्पादों को निकालना है, भोजन बनाने से असंबंधित।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-sc-12",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "What is the chemical formula for water?", "hi": "पानी का रासायनिक सूत्र क्या है?" },
+      "optionsJson": [
+        { "en": "CO2", "hi": "CO2" },
+        { "en": "H2O", "hi": "H2O" },
+        { "en": "O2", "hi": "O2" },
+        { "en": "NaCl", "hi": "NaCl" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Water is made of two hydrogen atoms and one oxygen atom, giving the formula H2O.", "hi": "पानी दो हाइड्रोजन परमाणुओं और एक ऑक्सीजन परमाणु से बना है, जो सूत्र H2O देता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the formula for carbon dioxide, not water.", "hi": "यह कार्बन डाइऑक्साइड का सूत्र है, पानी का नहीं।" },
+        "2": { "en": "This is the formula for oxygen gas, not water.", "hi": "यह ऑक्सीजन गैस का सूत्र है, पानी का नहीं।" },
+        "3": { "en": "This is the formula for common salt, not water.", "hi": "यह साधारण नमक का सूत्र है, पानी का नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-sc-13",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "An object falls freely under gravity. Which of these remains constant during the fall (ignoring air resistance)?", "hi": "एक वस्तु गुरुत्वाकर्षण के अंतर्गत मुक्त रूप से गिरती है। गिरने के दौरान इनमें से क्या स्थिर रहता है (वायु प्रतिरोध की अनदेखी करते हुए)?" },
+      "optionsJson": [
+        { "en": "Velocity", "hi": "वेग" },
+        { "en": "Acceleration", "hi": "त्वरण" },
+        { "en": "Distance covered per second", "hi": "प्रति सेकंड तय दूरी" },
+        { "en": "Momentum", "hi": "संवेग" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "During free fall, the acceleration due to gravity (g ≈ 9.8 m/s²) stays constant, while velocity, distance per second, and momentum all keep increasing.", "hi": "मुक्त पतन के दौरान, गुरुत्वीय त्वरण (g ≈ 9.8 मी/से²) स्थिर रहता है, जबकि वेग, प्रति सेकंड दूरी और संवेग सभी बढ़ते रहते हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "Velocity keeps increasing throughout the fall, it doesn't stay constant.", "hi": "वेग पूरे पतन के दौरान बढ़ता रहता है, यह स्थिर नहीं रहता।" },
+        "2": { "en": "This increases each second since velocity is increasing.", "hi": "यह हर सेकंड बढ़ता है क्योंकि वेग बढ़ रहा है।" },
+        "3": { "en": "Momentum increases as velocity increases (mass stays the same).", "hi": "जैसे-जैसे वेग बढ़ता है, संवेग भी बढ़ता है (द्रव्यमान समान रहता है)।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-sc-14",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which blood cells help fight infections in the body?", "hi": "शरीर में संक्रमण से लड़ने में कौन-सी रक्त कोशिकाएँ मदद करती हैं?" },
+      "optionsJson": [
+        { "en": "Red blood cells", "hi": "लाल रक्त कोशिकाएँ" },
+        { "en": "White blood cells", "hi": "श्वेत रक्त कोशिकाएँ" },
+        { "en": "Platelets", "hi": "प्लेटलेट्स" },
+        { "en": "Plasma", "hi": "प्लाज़्मा" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "White blood cells are part of the immune system and fight infections.", "hi": "श्वेत रक्त कोशिकाएँ प्रतिरक्षा प्रणाली का भाग हैं और संक्रमणों से लड़ती हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "Carry oxygen throughout the body, not primarily involved in fighting infection.", "hi": "ये पूरे शरीर में ऑक्सीजन ले जाती हैं, संक्रमण से लड़ने में मुख्य रूप से शामिल नहीं।" },
+        "2": { "en": "Help in blood clotting, not primarily fighting infections.", "hi": "ये रक्त के थक्का जमाने में मदद करते हैं, संक्रमण से लड़ने में मुख्य रूप से नहीं।" },
+        "3": { "en": "The liquid part of blood that carries cells and nutrients, not itself an infection-fighter.", "hi": "यह रक्त का तरल भाग है जो कोशिकाओं और पोषक तत्वों को ले जाता है, स्वयं संक्रमण-सेनानी नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-sc-15",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": { "en": "A force of 10 N acts on a mass of 2 kg. Find the acceleration produced.", "hi": "2 किग्रा द्रव्यमान पर 10 N का बल कार्य करता है। उत्पन्न त्वरण ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "20 m/s²", "hi": "20 मी/से²" },
+        { "en": "5 m/s²", "hi": "5 मी/से²" },
+        { "en": "0.2 m/s²", "hi": "0.2 मी/से²" },
+        { "en": "12 m/s²", "hi": "12 मी/से²" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "By Newton's Second Law, F=ma, so a = F/m = 10/2 = 5 m/s².", "hi": "न्यूटन के द्वितीय नियम से, F=ma, अतः a = F/m = 10/2 = 5 मी/से²।" },
+      "distractorAnalysis": {
+        "0": { "en": "Multiplies force and mass instead of dividing.", "hi": "भाग देने के बजाय बल और द्रव्यमान को गुणा कर दिया।" },
+        "2": { "en": "Divides mass by force instead of force by mass.", "hi": "बल को द्रव्यमान से भाग देने के बजाय द्रव्यमान को बल से भाग दिया।" },
+        "3": { "en": "Adds force and mass instead of dividing.", "hi": "भाग देने के बजाय बल और द्रव्यमान को जोड़ दिया।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-sc-16",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which tissue in plants is responsible for transporting water from roots to leaves?", "hi": "पौधों में कौन-सा ऊतक जड़ों से पत्तियों तक पानी पहुँचाने के लिए ज़िम्मेदार है?" },
+      "optionsJson": [
+        { "en": "Phloem", "hi": "फ्लोएम" },
+        { "en": "Xylem", "hi": "जाइलम" },
+        { "en": "Epidermis", "hi": "बाह्यत्वचा" },
+        { "en": "Cambium", "hi": "कैंबियम" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Xylem tissue transports water and minerals from the roots up to the leaves.", "hi": "जाइलम ऊतक जड़ों से पानी और खनिजों को पत्तियों तक पहुँचाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Transports food (prepared by photosynthesis) throughout the plant, not water from roots.", "hi": "यह पौधे में भोजन (प्रकाश संश्लेषण द्वारा तैयार) पहुँचाता है, जड़ों से पानी नहीं।" },
+        "2": { "en": "The outermost protective layer of cells, not responsible for water transport.", "hi": "यह कोशिकाओं की सबसे बाहरी सुरक्षात्मक परत है, जल परिवहन के लिए ज़िम्मेदार नहीं।" },
+        "3": { "en": "A layer of dividing cells responsible for growth in thickness, not water transport.", "hi": "यह विभाजित होने वाली कोशिकाओं की एक परत है जो मोटाई में वृद्धि के लिए ज़िम्मेदार है, जल परिवहन के लिए नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-sc-17",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which particle in an atom has no charge?", "hi": "परमाणु का कौन-सा कण आवेशरहित होता है?" },
+      "optionsJson": [
+        { "en": "Proton", "hi": "प्रोटॉन" },
+        { "en": "Electron", "hi": "इलेक्ट्रॉन" },
+        { "en": "Neutron", "hi": "न्यूट्रॉन" },
+        { "en": "Ion", "hi": "आयन" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The neutron carries no electric charge, unlike the positively charged proton and negatively charged electron.", "hi": "न्यूट्रॉन पर कोई विद्युत आवेश नहीं होता, धनावेशित प्रोटॉन और ऋणावेशित इलेक्ट्रॉन के विपरीत।" },
+      "distractorAnalysis": {
+        "0": { "en": "Carries a positive charge, not neutral.", "hi": "यह धनात्मक आवेश रखता है, आवेशरहित नहीं।" },
+        "1": { "en": "Carries a negative charge, not neutral.", "hi": "यह ऋणात्मक आवेश रखता है, आवेशरहित नहीं।" },
+        "3": { "en": "An ion is a charged atom or molecule by definition, not neutral.", "hi": "परिभाषा अनुसार एक आयन एक आवेशित परमाणु या अणु है, आवेशरहित नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-sc-18",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A boy pushes a wall with a force but the wall does not move. Which law best explains why the boy feels a force pushing back on him?", "hi": "एक लड़का एक दीवार को बल से धकेलता है पर दीवार नहीं हिलती। कौन-सा नियम सबसे अच्छी तरह बताता है कि लड़के को अपने ऊपर वापस बल क्यों महसूस होता है?" },
+      "optionsJson": [
+        { "en": "Newton's First Law", "hi": "न्यूटन का प्रथम नियम" },
+        { "en": "Newton's Second Law", "hi": "न्यूटन का द्वितीय नियम" },
+        { "en": "Newton's Third Law", "hi": "न्यूटन का तृतीय नियम" },
+        { "en": "Law of Conservation of Mass", "hi": "द्रव्यमान संरक्षण का नियम" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Newton's Third Law explains that the wall pushes back on the boy with an equal and opposite force to the one he applies.", "hi": "न्यूटन का तृतीय नियम बताता है कि दीवार लड़के द्वारा लगाए गए बल के बराबर और विपरीत बल से उस पर वापस बल लगाती है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Describes inertia — why objects resist changes in motion — not the paired-force explanation here.", "hi": "यह जड़त्व का वर्णन करता है — वस्तुएँ गति में परिवर्तन का प्रतिरोध क्यों करती हैं — यहाँ युग्मित-बल स्पष्टीकरण नहीं।" },
+        "1": { "en": "Relates force to mass and acceleration, not the reason for the felt pushback.", "hi": "यह बल को द्रव्यमान और त्वरण से जोड़ता है, महसूस हुए प्रतिघात के कारण को नहीं।" },
+        "3": { "en": "About mass staying constant in a reaction, unrelated to force pairs.", "hi": "यह एक अभिक्रिया में द्रव्यमान के स्थिर रहने से संबंधित है, बल युग्मों से असंबंधित।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-sc-19",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which of these is a renewable source of energy?", "hi": "इनमें से कौन-सा एक नवीकरणीय ऊर्जा स्रोत है?" },
+      "optionsJson": [
+        { "en": "Coal", "hi": "कोयला" },
+        { "en": "Petroleum", "hi": "पेट्रोलियम" },
+        { "en": "Solar energy", "hi": "सौर ऊर्जा" },
+        { "en": "Natural gas", "hi": "प्राकृतिक गैस" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Solar energy comes from the sun and is continuously available, making it renewable.", "hi": "सौर ऊर्जा सूर्य से आती है और लगातार उपलब्ध रहती है, जिससे यह नवीकरणीय है।" },
+      "distractorAnalysis": {
+        "0": { "en": "A fossil fuel that takes millions of years to form — non-renewable.", "hi": "यह एक जीवाश्म ईंधन है जिसे बनने में लाखों वर्ष लगते हैं — अनवीकरणीय।" },
+        "1": { "en": "A fossil fuel that takes millions of years to form — non-renewable.", "hi": "यह एक जीवाश्म ईंधन है जिसे बनने में लाखों वर्ष लगते हैं — अनवीकरणीय।" },
+        "3": { "en": "A fossil fuel that takes millions of years to form — non-renewable.", "hi": "यह एक जीवाश्म ईंधन है जिसे बनने में लाखों वर्ष लगते हैं — अनवीकरणीय।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-sc-20",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which of these is a physical change?", "hi": "इनमें से कौन-सा एक भौतिक परिवर्तन है?" },
+      "optionsJson": [
+        { "en": "Burning of paper", "hi": "कागज़ का जलना" },
+        { "en": "Melting of ice", "hi": "बर्फ का पिघलना" },
+        { "en": "Rusting of iron", "hi": "लोहे में जंग लगना" },
+        { "en": "Digestion of food", "hi": "भोजन का पाचन" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Melting of ice only changes its physical state (solid to liquid) without forming a new substance, making it a physical change.", "hi": "बर्फ का पिघलना केवल इसकी भौतिक अवस्था बदलता है (ठोस से द्रव) बिना कोई नया पदार्थ बनाए, अतः यह एक भौतिक परिवर्तन है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Produces ash and gases, new substances — a chemical change.", "hi": "यह राख और गैसें उत्पन्न करता है, नए पदार्थ — एक रासायनिक परिवर्तन।" },
+        "2": { "en": "Forms a new substance (iron oxide) — a chemical change.", "hi": "यह एक नया पदार्थ (आयरन ऑक्साइड) बनाता है — एक रासायनिक परिवर्तन।" },
+        "3": { "en": "Involves chemical breakdown of food into new substances — a chemical change.", "hi": "इसमें भोजन का नए पदार्थों में रासायनिक विघटन शामिल है — एक रासायनिक परिवर्तन।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-sc-21",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which organ in the human body is primarily responsible for filtering blood and removing waste as urine?", "hi": "मानव शरीर का कौन-सा अंग मुख्य रूप से रक्त को छानने और मूत्र के रूप में अपशिष्ट निकालने के लिए ज़िम्मेदार है?" },
+      "optionsJson": [
+        { "en": "Liver", "hi": "यकृत" },
+        { "en": "Kidney", "hi": "गुर्दा" },
+        { "en": "Lungs", "hi": "फेफड़े" },
+        { "en": "Heart", "hi": "हृदय" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The kidneys filter blood and remove waste products as urine.", "hi": "गुर्दे रक्त को छानते हैं और अपशिष्ट उत्पादों को मूत्र के रूप में निकालते हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "Processes nutrients and toxins from digestion, but doesn't primarily produce urine.", "hi": "यह पाचन से पोषक तत्वों और विषाक्त पदार्थों को संसाधित करता है, पर मुख्य रूप से मूत्र नहीं बनाता।" },
+        "2": { "en": "Responsible for gas exchange during breathing, not filtering blood into urine.", "hi": "यह श्वसन के दौरान गैस विनिमय के लिए ज़िम्मेदार है, रक्त को छानकर मूत्र बनाने के लिए नहीं।" },
+        "3": { "en": "Pumps blood throughout the body, but doesn't filter it into urine.", "hi": "यह पूरे शरीर में रक्त पंप करता है, पर उसे छानकर मूत्र नहीं बनाता।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-sc-22",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A student measures the volume of a stone by displacement of water. This method works because:", "hi": "एक छात्र जल विस्थापन विधि से एक पत्थर का आयतन मापता है। यह विधि इसलिए कार्य करती है क्योंकि:" },
+      "optionsJson": [
+        { "en": "The stone dissolves in water", "hi": "पत्थर पानी में घुल जाता है" },
+        { "en": "The stone displaces a volume of water equal to its own volume", "hi": "पत्थर अपने ही आयतन के बराबर जल का विस्थापन करता है" },
+        { "en": "Water evaporates when the stone is added", "hi": "पत्थर डालने पर पानी वाष्पित हो जाता है" },
+        { "en": "The stone changes the water's temperature", "hi": "पत्थर पानी का तापमान बदल देता है" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "An object submerged in water displaces a volume of water exactly equal to its own volume, which is how displacement measures irregular solids.", "hi": "पानी में डूबी हुई वस्तु अपने ही आयतन के बराबर जल का विस्थापन करती है, जिससे विस्थापन विधि अनियमित ठोसों का आयतन मापती है।" },
+      "distractorAnalysis": {
+        "0": { "en": "A stone doesn't dissolve in water — this isn't why the method works.", "hi": "पत्थर पानी में नहीं घुलता — यह विधि के कार्य करने का कारण नहीं है।" },
+        "2": { "en": "Not the reason displacement measures volume — no meaningful evaporation occurs from this.", "hi": "यह विस्थापन द्वारा आयतन मापने का कारण नहीं है — इससे कोई सार्थक वाष्पीकरण नहीं होता।" },
+        "3": { "en": "Any temperature change is incidental and not why the displacement method works.", "hi": "कोई भी तापमान परिवर्तन आकस्मिक है और विस्थापन विधि के कार्य करने का कारण नहीं है।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-sc-23",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which vitamin is produced by the skin when exposed to sunlight?", "hi": "सूर्य के प्रकाश के संपर्क में आने पर त्वचा द्वारा कौन-सा विटामिन उत्पन्न होता है?" },
+      "optionsJson": [
+        { "en": "Vitamin A", "hi": "विटामिन A" },
+        { "en": "Vitamin C", "hi": "विटामिन C" },
+        { "en": "Vitamin D", "hi": "विटामिन D" },
+        { "en": "Vitamin K", "hi": "विटामिन K" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The skin produces Vitamin D when exposed to sunlight, important for bone health.", "hi": "सूर्य के प्रकाश के संपर्क में आने पर त्वचा विटामिन D उत्पन्न करती है, जो हड्डियों के स्वास्थ्य के लिए महत्वपूर्ण है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Obtained from food (e.g. carrots), not produced by sunlight exposure.", "hi": "यह भोजन से प्राप्त होता है (जैसे गाजर), सूर्य के संपर्क से उत्पन्न नहीं होता।" },
+        "1": { "en": "Obtained from food (e.g. citrus fruits), not produced by sunlight exposure.", "hi": "यह भोजन से प्राप्त होता है (जैसे खट्टे फल), सूर्य के संपर्क से उत्पन्न नहीं होता।" },
+        "3": { "en": "Obtained mainly from leafy greens, not produced by sunlight exposure.", "hi": "यह मुख्यतः हरी पत्तेदार सब्ज़ियों से प्राप्त होता है, सूर्य के संपर्क से उत्पन्न नहीं होता।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-sc-24",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "What is the boiling point of pure water at sea level in Celsius?", "hi": "समुद्र तल पर शुद्ध पानी का क्वथनांक सेल्सियस में क्या है?" },
+      "optionsJson": [
+        { "en": "0°C", "hi": "0°C" },
+        { "en": "50°C", "hi": "50°C" },
+        { "en": "100°C", "hi": "100°C" },
+        { "en": "212°C", "hi": "212°C" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Pure water boils at 100°C at sea level (standard atmospheric pressure).", "hi": "समुद्र तल पर (मानक वायुमंडलीय दाब पर) शुद्ध पानी 100°C पर उबलता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is water's freezing point, not its boiling point.", "hi": "यह पानी का हिमांक है, क्वथनांक नहीं।" },
+        "1": { "en": "Well below water's actual boiling point.", "hi": "यह पानी के वास्तविक क्वथनांक से बहुत नीचे है।" },
+        "3": { "en": "This is 100°C incorrectly expressed as if it were in Fahrenheit, not Celsius.", "hi": "यह 100°C को गलती से फारेनहाइट के रूप में व्यक्त कर दिया, सेल्सियस के रूप में नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-sc-25",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Two isotopes of an element have the same atomic number but different mass numbers. This difference arises because they have:", "hi": "एक तत्व के दो समस्थानिकों की परमाणु संख्या समान पर द्रव्यमान संख्या भिन्न होती है। यह अंतर इसलिए होता है क्योंकि उनमें होते हैं:" },
+      "optionsJson": [
+        { "en": "Different numbers of protons", "hi": "भिन्न प्रोटॉन संख्या" },
+        { "en": "Different numbers of neutrons", "hi": "भिन्न न्यूट्रॉन संख्या" },
+        { "en": "Different numbers of electrons", "hi": "भिन्न इलेक्ट्रॉन संख्या" },
+        { "en": "Different chemical properties entirely", "hi": "पूर्णतः भिन्न रासायनिक गुण" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Isotopes have the same number of protons (same atomic number) but different numbers of neutrons, which changes the mass number.", "hi": "समस्थानिकों में प्रोटॉनों की संख्या समान होती है (समान परमाणु संख्या) पर न्यूट्रॉनों की संख्या भिन्न होती है, जो द्रव्यमान संख्या को बदलती है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Isotopes of the same element always have the same number of protons — that's what makes them the same element.", "hi": "एक ही तत्व के समस्थानिकों में प्रोटॉनों की संख्या सदैव समान होती है — यही उन्हें एक ही तत्व बनाता है।" },
+        "2": { "en": "Neutral isotopes have electrons equal to their protons, which is the same across isotopes.", "hi": "उदासीन समस्थानिकों में इलेक्ट्रॉन उनके प्रोटॉनों के बराबर होते हैं, जो समस्थानिकों में समान रहता है।" },
+        "3": { "en": "Isotopes of the same element have very similar chemical properties, since chemical behavior depends on electron count, not neutron count.", "hi": "एक ही तत्व के समस्थानिकों के रासायनिक गुण बहुत समान होते हैं, क्योंकि रासायनिक व्यवहार इलेक्ट्रॉन संख्या पर निर्भर करता है, न्यूट्रॉन संख्या पर नहीं।" }
+      }
+    }
+  ]
+}

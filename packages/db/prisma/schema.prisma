@@ -730,11 +730,38 @@ model PreviousYearQuestion {
   // POST /api/admin/sprint-questions/verify.
   verifiedAt DateTime? @map("verified_at")
 
+  // Groups rows into a specific, fixed mock paper within one
+  // (examType, classLevel) — distinct from `year`, which groups rows into a
+  // loose practice cohort that JNVST's mock assembly pools and draws from
+  // randomly. Defaults to 1 so every pre-existing row (JNVST's whole pool,
+  // plus the existing AISSEE/RMS Class 9 pool) is untouched and reads as
+  // "paper 1" without a backfill. Only meaningful for the discrete-paper
+  // flow in jnvstMockService.ts's generateLiveMockSession — JNVST's
+  // whole-pool assembly ignores it entirely.
+  paperNumber Int @default(1) @map("paper_number")
+
+  // DRAFT means seeded but not yet admin-approved for students — excluded
+  // from every mock-assembly query (see jnvstMockService.ts) and shown only
+  // on /admin/mock-papers until an admin publishes it. Defaults to
+  // PUBLISHED so every pre-existing row (all boards) keeps its current
+  // live behavior with zero backfill.
+  reviewStatus PaperReviewStatus @default(PUBLISHED) @map("review_status")
+
+  // Pre-existing live columns that predate this model gaining a matching
+  // Prisma field — adding them here (rather than dropping the columns) so
+  // `prisma db push` stops proposing to drop 430 rows of real timestamp
+  // data that was never actually unused, just unmodeled.
   createdAt DateTime @default(now()) @map("created_at")
   updatedAt DateTime @updatedAt @map("updated_at")
 
   @@index([examType, classLevel, year, sectionId])
+  @@index([examType, classLevel, paperNumber])
   @@map("previous_year_questions")
+}
+
+enum PaperReviewStatus {
+  DRAFT
+  PUBLISHED
 }
 
 // Which languages a state's exam papers are actually offered in, per exam

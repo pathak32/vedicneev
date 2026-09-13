@@ -21,7 +21,13 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ error: "Unknown or unsupported exam template slug." }, { status: 400 });
   }
 
-  const result = await generateLiveMockSession(slug);
+  const paperParam = request.nextUrl.searchParams.get("paper");
+  const paperNumber = paperParam !== null ? Number(paperParam) : undefined;
+  if (paperNumber !== undefined && (!Number.isInteger(paperNumber) || paperNumber < 1)) {
+    return NextResponse.json({ error: "Invalid paper number." }, { status: 400 });
+  }
+
+  const result = await generateLiveMockSession(slug, paperNumber);
 
   if ("error" in result) {
     return NextResponse.json({ error: result.error }, { status: 503 });

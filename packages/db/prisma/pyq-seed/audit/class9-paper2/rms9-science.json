@@ -1,0 +1,484 @@
+{
+  "examType": "RMS",
+  "classLevel": 9,
+  "paperNumber": 2,
+  "sectionKey": "science",
+  "generatedAt": "2026-09-13T00:00:00.000Z",
+  "questions": [
+    {
+      "key": "rms9-p2-sc-01",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which is the basic structural and functional unit of life?", "hi": "जीवन की मूल संरचनात्मक और क्रियात्मक इकाई कौन-सी है?" },
+      "optionsJson": [
+        { "en": "Organ", "hi": "अंग" },
+        { "en": "Tissue", "hi": "ऊतक" },
+        { "en": "Cell", "hi": "कोशिका" },
+        { "en": "Organism", "hi": "जीव" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The cell is the basic structural and functional unit of all living organisms.", "hi": "कोशिका सभी सजीवों की मूल संरचनात्मक और क्रियात्मक इकाई है।" },
+      "distractorAnalysis": {
+        "0": { "en": "A group of tissues forming a functional unit — larger than a cell.", "hi": "यह ऊतकों का समूह है जो एक क्रियात्मक इकाई बनाता है — कोशिका से बड़ा।" },
+        "1": { "en": "A group of similar cells working together — larger than a single cell.", "hi": "यह समान कोशिकाओं का एक साथ कार्य करने वाला समूह है — एक कोशिका से बड़ा।" },
+        "3": { "en": "A complete living being made of many cells — much larger than a single cell.", "hi": "यह कई कोशिकाओं से बना एक पूर्ण सजीव है — एक कोशिका से बहुत बड़ा।" }
+      }
+    },
+    {
+      "key": "rms9-p2-sc-02",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which part of the cell controls all its activities and contains genetic material?", "hi": "कोशिका का कौन-सा भाग इसकी सभी गतिविधियों को नियंत्रित करता है और आनुवंशिक पदार्थ रखता है?" },
+      "optionsJson": [
+        { "en": "Mitochondria", "hi": "माइटोकॉन्ड्रिया" },
+        { "en": "Nucleus", "hi": "केंद्रक" },
+        { "en": "Ribosome", "hi": "राइबोसोम" },
+        { "en": "Golgi body", "hi": "गॉल्जी उपकरण" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The nucleus contains the cell's genetic material (DNA) and controls its activities.", "hi": "केंद्रक में कोशिका का आनुवंशिक पदार्थ (DNA) होता है और यह इसकी गतिविधियों को नियंत्रित करता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Produces energy for the cell, but doesn't control its overall activities.", "hi": "यह कोशिका के लिए ऊर्जा उत्पन्न करता है, पर इसकी समग्र गतिविधियों को नियंत्रित नहीं करता।" },
+        "2": { "en": "Responsible for protein synthesis, not overall control of the cell.", "hi": "यह प्रोटीन संश्लेषण के लिए ज़िम्मेदार है, कोशिका का समग्र नियंत्रण नहीं।" },
+        "3": { "en": "Responsible for packaging and transporting materials, not overall control.", "hi": "यह पदार्थों की पैकेजिंग और परिवहन के लिए ज़िम्मेदार है, समग्र नियंत्रण नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p2-sc-03",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "What is the SI unit of work/energy?", "hi": "कार्य/ऊर्जा की SI इकाई क्या है?" },
+      "optionsJson": [
+        { "en": "Newton", "hi": "न्यूटन" },
+        { "en": "Joule", "hi": "जूल" },
+        { "en": "Watt", "hi": "वाट" },
+        { "en": "Pascal", "hi": "पास्कल" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Work and energy are measured in Joules (J).", "hi": "कार्य और ऊर्जा को जूल (J) में मापा जाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the SI unit of force, not energy.", "hi": "यह बल की SI इकाई है, ऊर्जा की नहीं।" },
+        "2": { "en": "This is the SI unit of power (energy per unit time), not energy itself.", "hi": "यह शक्ति (प्रति इकाई समय ऊर्जा) की SI इकाई है, स्वयं ऊर्जा की नहीं।" },
+        "3": { "en": "This is the SI unit of pressure, not energy.", "hi": "यह दाब की SI इकाई है, ऊर्जा की नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p2-sc-04",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which law of motion explains why passengers lurch forward when a moving bus suddenly stops?", "hi": "गति का कौन-सा नियम बताता है कि जब एक चलती बस अचानक रुकती है तो यात्री आगे की ओर क्यों झुक जाते हैं?" },
+      "optionsJson": [
+        { "en": "Newton's First Law (Inertia)", "hi": "न्यूटन का प्रथम नियम (जड़त्व)" },
+        { "en": "Newton's Second Law", "hi": "न्यूटन का द्वितीय नियम" },
+        { "en": "Newton's Third Law", "hi": "न्यूटन का तृतीय नियम" },
+        { "en": "Law of Gravitation", "hi": "गुरुत्वाकर्षण का नियम" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Newton's First Law (inertia) explains that a passenger's body tends to continue moving forward even as the bus stops, until an external force acts on it.", "hi": "न्यूटन का प्रथम नियम (जड़त्व) बताता है कि यात्री का शरीर बस के रुकने पर भी आगे बढ़ने की प्रवृत्ति रखता है, जब तक कोई बाहरी बल उस पर कार्य न करे।" },
+      "distractorAnalysis": {
+        "1": { "en": "Relates force, mass, and acceleration (F=ma), not the reason for lurching due to inertia.", "hi": "यह बल, द्रव्यमान और त्वरण को जोड़ता है (F=ma), जड़त्व के कारण झुकने के कारण को नहीं।" },
+        "2": { "en": "Describes action-reaction force pairs, not the inertia effect here.", "hi": "यह क्रिया-प्रतिक्रिया बल युग्मों का वर्णन करता है, यहाँ जड़त्व प्रभाव को नहीं।" },
+        "3": { "en": "Describes the attraction between masses, unrelated to this lurching effect.", "hi": "यह द्रव्यमानों के बीच आकर्षण का वर्णन करता है, इस झुकने के प्रभाव से असंबंधित।" }
+      }
+    },
+    {
+      "key": "rms9-p2-sc-05",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which gas do we breathe in that our body needs for respiration?", "hi": "श्वसन के लिए हमारे शरीर को किस गैस की आवश्यकता होती है जिसे हम अंदर लेते हैं?" },
+      "optionsJson": [
+        { "en": "Carbon dioxide", "hi": "कार्बन डाइऑक्साइड" },
+        { "en": "Nitrogen", "hi": "नाइट्रोजन" },
+        { "en": "Oxygen", "hi": "ऑक्सीजन" },
+        { "en": "Hydrogen", "hi": "हाइड्रोजन" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Our body needs oxygen for cellular respiration, which releases energy from food.", "hi": "हमारे शरीर को कोशिकीय श्वसन के लिए ऑक्सीजन की आवश्यकता होती है, जो भोजन से ऊर्जा मुक्त करता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is what we exhale, not what we primarily need for respiration.", "hi": "यह वह है जो हम बाहर छोड़ते हैं, श्वसन के लिए मुख्य रूप से आवश्यक नहीं।" },
+        "1": { "en": "The most abundant gas we breathe in, but not the one directly used in respiration.", "hi": "यह वह सबसे प्रचुर गैस है जो हम अंदर लेते हैं, पर श्वसन में सीधे प्रयुक्त नहीं होती।" },
+        "3": { "en": "Not the gas our body uses for respiration.", "hi": "यह वह गैस नहीं है जो हमारा शरीर श्वसन के लिए प्रयोग करता है।" }
+      }
+    },
+    {
+      "key": "rms9-p2-sc-06",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The change of state from liquid to gas is called:", "hi": "द्रव से गैस में अवस्था परिवर्तन कहलाता है:" },
+      "optionsJson": [
+        { "en": "Condensation", "hi": "संघनन" },
+        { "en": "Vaporization", "hi": "वाष्पीकरण" },
+        { "en": "Sublimation", "hi": "ऊर्ध्वपातन" },
+        { "en": "Freezing", "hi": "हिमीकरण" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Vaporization (evaporation/boiling) is the change from liquid to gas.", "hi": "वाष्पीकरण (वाष्पन/उबलना) द्रव से गैस में परिवर्तन है।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the change from gas to liquid, the opposite process.", "hi": "यह गैस से द्रव में परिवर्तन है, विपरीत प्रक्रिया।" },
+        "2": { "en": "This is the direct change from solid to gas, not liquid to gas.", "hi": "यह ठोस से सीधे गैस में परिवर्तन है, द्रव से गैस में नहीं।" },
+        "3": { "en": "This is the change from liquid to solid, unrelated to liquid-to-gas change.", "hi": "यह द्रव से ठोस में परिवर्तन है, द्रव-से-गैस परिवर्तन से असंबंधित।" }
+      }
+    },
+    {
+      "key": "rms9-p2-sc-07",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which organelle is responsible for photosynthesis in plant cells?", "hi": "पादप कोशिकाओं में प्रकाश संश्लेषण के लिए कौन-सा कोशिकांग ज़िम्मेदार है?" },
+      "optionsJson": [
+        { "en": "Nucleus", "hi": "केंद्रक" },
+        { "en": "Vacuole", "hi": "रिक्तिका" },
+        { "en": "Chloroplast", "hi": "क्लोरोप्लास्ट" },
+        { "en": "Mitochondria", "hi": "माइटोकॉन्ड्रिया" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Chloroplasts contain chlorophyll and carry out photosynthesis, making food for the plant cell.", "hi": "क्लोरोप्लास्ट में क्लोरोफिल होता है और यह प्रकाश संश्लेषण करता है, जो पादप कोशिका के लिए भोजन बनाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Controls the cell's activities and holds genetic material, but doesn't make food.", "hi": "यह कोशिका की गतिविधियों को नियंत्रित करता है और आनुवंशिक पदार्थ रखता है, पर भोजन नहीं बनाता।" },
+        "1": { "en": "Stores water, food, and waste, but doesn't itself make food.", "hi": "यह पानी, भोजन और अपशिष्ट संग्रहित करता है, पर स्वयं भोजन नहीं बनाता।" },
+        "3": { "en": "Produces energy from food already made, rather than making food itself.", "hi": "यह पहले से बने भोजन से ऊर्जा उत्पन्न करता है, स्वयं भोजन नहीं बनाता।" }
+      }
+    },
+    {
+      "key": "rms9-p2-sc-08",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The number of protons plus neutrons in an atom is called its:", "hi": "एक परमाणु में प्रोटॉनों और न्यूट्रॉनों की कुल संख्या को कहते हैं:" },
+      "optionsJson": [
+        { "en": "Atomic number", "hi": "परमाणु संख्या" },
+        { "en": "Mass number", "hi": "द्रव्यमान संख्या" },
+        { "en": "Valency", "hi": "संयोजकता" },
+        { "en": "Electron count", "hi": "इलेक्ट्रॉन गणना" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The mass number of an atom equals the total number of protons and neutrons in its nucleus.", "hi": "एक परमाणु की द्रव्यमान संख्या उसके नाभिक में प्रोटॉनों और न्यूट्रॉनों की कुल संख्या के बराबर होती है।" },
+      "distractorAnalysis": {
+        "0": { "en": "This counts only protons, not protons plus neutrons.", "hi": "यह केवल प्रोटॉन गिनता है, प्रोटॉन और न्यूट्रॉन दोनों नहीं।" },
+        "2": { "en": "This describes an atom's combining capacity, not its proton-plus-neutron count.", "hi": "यह परमाणु की संयोजन क्षमता को दर्शाता है, उसकी प्रोटॉन-प्लस-न्यूट्रॉन गणना को नहीं।" },
+        "3": { "en": "Electrons are separate particles, not counted in the mass number.", "hi": "इलेक्ट्रॉन अलग कण हैं, द्रव्यमान संख्या में नहीं गिने जाते।" }
+      }
+    },
+    {
+      "key": "rms9-p2-sc-09",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "An object of mass 8 kg is moving with a velocity of 3 m/s. Find its momentum.", "hi": "8 किग्रा द्रव्यमान वाली एक वस्तु 3 मी/से के वेग से गतिमान है। इसका संवेग ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "11 kg m/s", "hi": "11 किग्रा मी/से" },
+        { "en": "24 kg m/s", "hi": "24 किग्रा मी/से" },
+        { "en": "2.67 kg m/s", "hi": "2.67 किग्रा मी/से" },
+        { "en": "0.375 kg m/s", "hi": "0.375 किग्रा मी/से" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Momentum = mass × velocity = 8×3 = 24 kg m/s.", "hi": "संवेग = द्रव्यमान × वेग = 8×3 = 24 किग्रा मी/से।" },
+      "distractorAnalysis": {
+        "0": { "en": "Adds mass and velocity instead of multiplying them.", "hi": "गुणा करने के बजाय द्रव्यमान और वेग को जोड़ दिया।" },
+        "2": { "en": "Divides mass by velocity instead of multiplying.", "hi": "गुणा करने के बजाय द्रव्यमान को वेग से भाग दिया।" },
+        "3": { "en": "Divides velocity by mass instead of multiplying them.", "hi": "गुणा करने के बजाय वेग को द्रव्यमान से भाग दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p2-sc-10",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which of these is a metal?", "hi": "इनमें से कौन-सी एक धातु है?" },
+      "optionsJson": [
+        { "en": "Sulphur", "hi": "गंधक" },
+        { "en": "Oxygen", "hi": "ऑक्सीजन" },
+        { "en": "Iron", "hi": "लोहा" },
+        { "en": "Carbon", "hi": "कार्बन" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Iron is a metal, known for its strength, shine, and electrical conductivity.", "hi": "लोहा एक धातु है, अपनी मज़बूती, चमक और विद्युत चालकता के लिए जाना जाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "A non-metal, lacking the typical metallic properties.", "hi": "यह एक अधातु है, इसमें विशिष्ट धात्विक गुण नहीं होते।" },
+        "1": { "en": "A non-metal gas, lacking the typical metallic properties.", "hi": "यह एक अधातु गैस है, इसमें विशिष्ट धात्विक गुण नहीं होते।" },
+        "3": { "en": "A non-metal, lacking the typical metallic properties.", "hi": "यह एक अधातु है, इसमें विशिष्ट धात्विक गुण नहीं होते।" }
+      }
+    },
+    {
+      "key": "rms9-p2-sc-11",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "What is the process called by which plants lose water vapor through their leaves?", "hi": "वह प्रक्रिया क्या कहलाती है जिसके द्वारा पौधे अपनी पत्तियों से जल वाष्प की हानि करते हैं?" },
+      "optionsJson": [
+        { "en": "Photosynthesis", "hi": "प्रकाश संश्लेषण" },
+        { "en": "Respiration", "hi": "श्वसन" },
+        { "en": "Transpiration", "hi": "वाष्पोत्सर्जन" },
+        { "en": "Excretion", "hi": "उत्सर्जन" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Transpiration is the loss of water vapor from plant leaves through small pores called stomata.", "hi": "वाष्पोत्सर्जन पौधों की पत्तियों से रंध्र नामक छोटे छिद्रों के माध्यम से जल वाष्प की हानि है।" },
+      "distractorAnalysis": {
+        "0": { "en": "The food-making process using sunlight, not the loss of water vapor.", "hi": "यह सूर्य के प्रकाश का उपयोग करके भोजन बनाने की प्रक्रिया है, जल वाष्प की हानि नहीं।" },
+        "1": { "en": "The process of releasing energy from food, not water vapor loss.", "hi": "यह भोजन से ऊर्जा मुक्त करने की प्रक्रिया है, जल वाष्प की हानि नहीं।" },
+        "3": { "en": "The removal of waste products generally, a broader/different process.", "hi": "यह सामान्यतः अपशिष्ट उत्पादों को निकालना है, एक व्यापक/भिन्न प्रक्रिया।" }
+      }
+    },
+    {
+      "key": "rms9-p2-sc-12",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "What is the chemical formula for common salt?", "hi": "साधारण नमक का रासायनिक सूत्र क्या है?" },
+      "optionsJson": [
+        { "en": "H2O", "hi": "H2O" },
+        { "en": "CO2", "hi": "CO2" },
+        { "en": "NaCl", "hi": "NaCl" },
+        { "en": "O2", "hi": "O2" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Common salt (sodium chloride) is made of sodium and chlorine, giving the formula NaCl.", "hi": "साधारण नमक (सोडियम क्लोराइड) सोडियम और क्लोरीन से बना है, जो सूत्र NaCl देता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the formula for water, not common salt.", "hi": "यह पानी का सूत्र है, साधारण नमक का नहीं।" },
+        "1": { "en": "This is the formula for carbon dioxide, not common salt.", "hi": "यह कार्बन डाइऑक्साइड का सूत्र है, साधारण नमक का नहीं।" },
+        "3": { "en": "This is the formula for oxygen gas, not common salt.", "hi": "यह ऑक्सीजन गैस का सूत्र है, साधारण नमक का नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p2-sc-13",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "An object thrown vertically upward decelerates due to gravity. At the highest point of its path, what is its velocity?", "hi": "ऊर्ध्वाधर रूप से ऊपर फेंकी गई एक वस्तु गुरुत्वाकर्षण के कारण मंद होती है। इसके मार्ग के उच्चतम बिंदु पर इसका वेग क्या है?" },
+      "optionsJson": [
+        { "en": "Maximum", "hi": "अधिकतम" },
+        { "en": "Zero", "hi": "शून्य" },
+        { "en": "Equal to its initial velocity", "hi": "इसके प्रारंभिक वेग के बराबर" },
+        { "en": "Constant throughout", "hi": "पूरे समय स्थिर" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "At the highest point, the object momentarily stops before falling back down, so its velocity is zero there.", "hi": "उच्चतम बिंदु पर, वस्तु नीचे गिरने से पहले क्षण भर के लिए रुक जाती है, अतः वहाँ इसका वेग शून्य होता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Velocity is maximum at the start of the throw, not at the highest point.", "hi": "वेग फेंकने की शुरुआत में अधिकतम होता है, उच्चतम बिंदु पर नहीं।" },
+        "2": { "en": "The velocity decreases continuously due to gravity, so it isn't equal to the initial velocity at the top.", "hi": "गुरुत्वाकर्षण के कारण वेग लगातार घटता है, अतः यह शीर्ष पर प्रारंभिक वेग के बराबर नहीं है।" },
+        "3": { "en": "Velocity keeps changing throughout the motion due to gravity's constant deceleration.", "hi": "गुरुत्वाकर्षण के निरंतर मंदन के कारण गति के दौरान वेग लगातार बदलता रहता है।" }
+      }
+    },
+    {
+      "key": "rms9-p2-sc-14",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which blood cells help in clotting of blood?", "hi": "रक्त के थक्का जमने में कौन-सी रक्त कोशिकाएँ मदद करती हैं?" },
+      "optionsJson": [
+        { "en": "Red blood cells", "hi": "लाल रक्त कोशिकाएँ" },
+        { "en": "White blood cells", "hi": "श्वेत रक्त कोशिकाएँ" },
+        { "en": "Platelets", "hi": "प्लेटलेट्स" },
+        { "en": "Plasma", "hi": "प्लाज़्मा" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Platelets help in blood clotting, preventing excessive bleeding when a blood vessel is injured.", "hi": "प्लेटलेट्स रक्त के थक्का जमने में मदद करते हैं, जिससे रक्त वाहिका के घायल होने पर अत्यधिक रक्तस्राव रुकता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Carry oxygen throughout the body, not primarily involved in clotting.", "hi": "ये पूरे शरीर में ऑक्सीजन ले जाती हैं, थक्का जमने में मुख्य रूप से शामिल नहीं।" },
+        "1": { "en": "Fight infections as part of the immune system, not primarily involved in clotting.", "hi": "ये प्रतिरक्षा प्रणाली के भाग के रूप में संक्रमणों से लड़ते हैं, थक्का जमने में मुख्य रूप से नहीं।" },
+        "3": { "en": "The liquid part of blood that carries cells and nutrients, not itself a clotting agent.", "hi": "यह रक्त का तरल भाग है जो कोशिकाओं और पोषक तत्वों को ले जाता है, स्वयं थक्का जमाने वाला तत्व नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p2-sc-15",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": { "en": "A force of 15 N acts on a mass of 3 kg. Find the acceleration produced.", "hi": "3 किग्रा द्रव्यमान पर 15 N का बल कार्य करता है। उत्पन्न त्वरण ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "45 m/s²", "hi": "45 मी/से²" },
+        { "en": "5 m/s²", "hi": "5 मी/से²" },
+        { "en": "0.2 m/s²", "hi": "0.2 मी/से²" },
+        { "en": "18 m/s²", "hi": "18 मी/से²" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "By Newton's Second Law, F=ma, so a = F/m = 15/3 = 5 m/s².", "hi": "न्यूटन के द्वितीय नियम से, F=ma, अतः a = F/m = 15/3 = 5 मी/से²।" },
+      "distractorAnalysis": {
+        "0": { "en": "Multiplies force and mass instead of dividing.", "hi": "भाग देने के बजाय बल और द्रव्यमान को गुणा कर दिया।" },
+        "2": { "en": "Divides mass by force instead of force by mass.", "hi": "बल को द्रव्यमान से भाग देने के बजाय द्रव्यमान को बल से भाग दिया।" },
+        "3": { "en": "Adds force and mass instead of dividing.", "hi": "भाग देने के बजाय बल और द्रव्यमान को जोड़ दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p2-sc-16",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which tissue in plants transports food (made by photosynthesis) to all parts of the plant?", "hi": "पौधों में कौन-सा ऊतक भोजन (प्रकाश संश्लेषण द्वारा निर्मित) को पौधे के सभी भागों तक पहुँचाता है?" },
+      "optionsJson": [
+        { "en": "Xylem", "hi": "जाइलम" },
+        { "en": "Phloem", "hi": "फ्लोएम" },
+        { "en": "Epidermis", "hi": "बाह्यत्वचा" },
+        { "en": "Cambium", "hi": "कैंबियम" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Phloem tissue transports food made by photosynthesis to all parts of the plant.", "hi": "फ्लोएम ऊतक प्रकाश संश्लेषण द्वारा निर्मित भोजन को पौधे के सभी भागों तक पहुँचाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Transports water and minerals from roots to leaves, not food.", "hi": "यह जड़ों से पत्तियों तक पानी और खनिज पहुँचाता है, भोजन नहीं।" },
+        "2": { "en": "The outermost protective layer of cells, not responsible for food transport.", "hi": "यह कोशिकाओं की सबसे बाहरी सुरक्षात्मक परत है, भोजन परिवहन के लिए ज़िम्मेदार नहीं।" },
+        "3": { "en": "A layer of dividing cells responsible for growth in thickness, not food transport.", "hi": "यह विभाजित होने वाली कोशिकाओं की एक परत है जो मोटाई में वृद्धि के लिए ज़िम्मेदार है, भोजन परिवहन नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p2-sc-17",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which particle in an atom carries a negative charge?", "hi": "परमाणु का कौन-सा कण ऋणात्मक आवेश रखता है?" },
+      "optionsJson": [
+        { "en": "Proton", "hi": "प्रोटॉन" },
+        { "en": "Neutron", "hi": "न्यूट्रॉन" },
+        { "en": "Electron", "hi": "इलेक्ट्रॉन" },
+        { "en": "Nucleus", "hi": "नाभिक" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The electron carries a negative charge and orbits the nucleus.", "hi": "इलेक्ट्रॉन ऋणात्मक आवेश रखता है और नाभिक की परिक्रमा करता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Carries a positive charge, not negative.", "hi": "यह धनात्मक आवेश रखता है, ऋणात्मक नहीं।" },
+        "1": { "en": "Carries no charge (neutral), not negative.", "hi": "यह कोई आवेश नहीं रखता (उदासीन), ऋणात्मक नहीं।" },
+        "3": { "en": "The central part of the atom containing protons and neutrons, not a single charged particle itself.", "hi": "यह परमाणु का केंद्रीय भाग है जिसमें प्रोटॉन और न्यूट्रॉन होते हैं, स्वयं एक आवेशित कण नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p2-sc-18",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "When a gun is fired, the shooter feels a backward push. Which law best explains this?", "hi": "जब एक बंदूक चलाई जाती है, तो निशानेबाज़ को पीछे की ओर धक्का महसूस होता है। कौन-सा नियम इसे सबसे अच्छी तरह बताता है?" },
+      "optionsJson": [
+        { "en": "Newton's First Law", "hi": "न्यूटन का प्रथम नियम" },
+        { "en": "Newton's Second Law", "hi": "न्यूटन का द्वितीय नियम" },
+        { "en": "Newton's Third Law", "hi": "न्यूटन का तृतीय नियम" },
+        { "en": "Law of Conservation of Mass", "hi": "द्रव्यमान संरक्षण का नियम" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Newton's Third Law explains the recoil — as the bullet is pushed forward, an equal and opposite force pushes the gun (and shooter) backward.", "hi": "न्यूटन का तृतीय नियम प्रतिक्षेप को स्पष्ट करता है — जैसे गोली आगे बढ़ती है, वैसे ही एक समान और विपरीत बल बंदूक (और निशानेबाज़) को पीछे धकेलता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Describes inertia — why objects resist changes in motion — not the paired-force recoil explanation.", "hi": "यह जड़त्व का वर्णन करता है — वस्तुएँ गति में परिवर्तन का प्रतिरोध क्यों करती हैं — युग्मित-बल प्रतिक्षेप स्पष्टीकरण नहीं।" },
+        "1": { "en": "Relates force to mass and acceleration, not the reason for the felt recoil.", "hi": "यह बल को द्रव्यमान और त्वरण से जोड़ता है, महसूस हुए प्रतिक्षेप के कारण को नहीं।" },
+        "3": { "en": "About mass staying constant in a reaction, unrelated to force pairs.", "hi": "यह एक अभिक्रिया में द्रव्यमान के स्थिर रहने से संबंधित है, बल युग्मों से असंबंधित।" }
+      }
+    },
+    {
+      "key": "rms9-p2-sc-19",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which of these is a non-renewable source of energy?", "hi": "इनमें से कौन-सा एक अनवीकरणीय ऊर्जा स्रोत है?" },
+      "optionsJson": [
+        { "en": "Solar energy", "hi": "सौर ऊर्जा" },
+        { "en": "Wind energy", "hi": "पवन ऊर्जा" },
+        { "en": "Coal", "hi": "कोयला" },
+        { "en": "Hydropower", "hi": "जल विद्युत" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Coal is a fossil fuel that takes millions of years to form, making it non-renewable.", "hi": "कोयला एक जीवाश्म ईंधन है जिसे बनने में लाखों वर्ष लगते हैं, अतः यह अनवीकरणीय है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Continuously available from the sun — a renewable source.", "hi": "यह सूर्य से लगातार उपलब्ध रहती है — एक नवीकरणीय स्रोत।" },
+        "1": { "en": "Continuously available from moving air — a renewable source.", "hi": "यह चलती हवा से लगातार उपलब्ध रहती है — एक नवीकरणीय स्रोत।" },
+        "3": { "en": "Continuously available from flowing water — a renewable source.", "hi": "यह बहते पानी से लगातार उपलब्ध रहती है — एक नवीकरणीय स्रोत।" }
+      }
+    },
+    {
+      "key": "rms9-p2-sc-20",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which of these is a chemical change?", "hi": "इनमें से कौन-सा एक रासायनिक परिवर्तन है?" },
+      "optionsJson": [
+        { "en": "Melting of wax", "hi": "मोम का पिघलना" },
+        { "en": "Cutting of paper", "hi": "कागज़ का काटना" },
+        { "en": "Rusting of iron", "hi": "लोहे में जंग लगना" },
+        { "en": "Freezing of water", "hi": "पानी का जमना" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Rusting forms a new substance (iron oxide) through a reaction with oxygen and moisture, making it a chemical change.", "hi": "जंग लगना ऑक्सीजन और नमी के साथ अभिक्रिया से एक नया पदार्थ (आयरन ऑक्साइड) बनाता है, अतः यह एक रासायनिक परिवर्तन है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Only changes the physical state of wax without forming a new substance — a physical change.", "hi": "यह केवल मोम की भौतिक अवस्था बदलता है बिना कोई नया पदार्थ बनाए — एक भौतिक परिवर्तन।" },
+        "1": { "en": "Only changes the shape/size of paper without forming a new substance — a physical change.", "hi": "यह केवल कागज़ के आकार को बदलता है बिना कोई नया पदार्थ बनाए — एक भौतिक परिवर्तन।" },
+        "3": { "en": "Only changes the physical state of water without forming a new substance — a physical change.", "hi": "यह केवल पानी की भौतिक अवस्था बदलता है बिना कोई नया पदार्थ बनाए — एक भौतिक परिवर्तन।" }
+      }
+    },
+    {
+      "key": "rms9-p2-sc-21",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which organ in the human body pumps blood to all parts of the body?", "hi": "मानव शरीर का कौन-सा अंग पूरे शरीर में रक्त पंप करता है?" },
+      "optionsJson": [
+        { "en": "Kidney", "hi": "गुर्दा" },
+        { "en": "Liver", "hi": "यकृत" },
+        { "en": "Heart", "hi": "हृदय" },
+        { "en": "Lungs", "hi": "फेफड़े" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The heart pumps blood throughout the body.", "hi": "हृदय पूरे शरीर में रक्त पंप करता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Filters waste from the blood, but doesn't pump it.", "hi": "यह रक्त से अपशिष्ट छानता है, पर उसे पंप नहीं करता।" },
+        "1": { "en": "Processes nutrients and toxins, but doesn't pump blood.", "hi": "यह पोषक तत्वों और विषाक्त पदार्थों को संसाधित करता है, पर रक्त पंप नहीं करता।" },
+        "3": { "en": "Responsible for gas exchange during breathing, not pumping blood.", "hi": "यह श्वसन के दौरान गैस विनिमय के लिए ज़िम्मेदार है, रक्त पंप करने के लिए नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p2-sc-22",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A student measures the volume of an irregularly shaped stone by dropping it into a measuring cylinder with water. This displacement method works because:", "hi": "एक छात्र एक अनियमित आकार के पत्थर का आयतन मापने के लिए इसे पानी वाले मापन सिलेंडर में डालता है। यह विस्थापन विधि इसलिए कार्य करती है क्योंकि:" },
+      "optionsJson": [
+        { "en": "The stone reacts chemically with water", "hi": "पत्थर पानी के साथ रासायनिक रूप से अभिक्रिया करता है" },
+        { "en": "The rise in water level equals the stone's own volume", "hi": "जल स्तर में वृद्धि पत्थर के अपने आयतन के बराबर होती है" },
+        { "en": "The stone changes colour in water", "hi": "पत्थर पानी में रंग बदल देता है" },
+        { "en": "Water becomes heavier when the stone is added", "hi": "पत्थर डालने पर पानी भारी हो जाता है" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The stone displaces a volume of water exactly equal to its own volume, which is why the rise in water level gives the stone's volume.", "hi": "पत्थर अपने ही आयतन के बराबर जल का विस्थापन करता है, इसीलिए जल स्तर में वृद्धि पत्थर का आयतन बताती है।" },
+      "distractorAnalysis": {
+        "0": { "en": "A stone doesn't chemically react with water — this isn't why the method works.", "hi": "पत्थर पानी के साथ रासायनिक रूप से अभिक्रिया नहीं करता — यह विधि के कार्य करने का कारण नहीं है।" },
+        "2": { "en": "Not the reason displacement measures volume.", "hi": "यह विस्थापन द्वारा आयतन मापने का कारण नहीं है।" },
+        "3": { "en": "While true (mass increases), this isn't why the volume-measuring method works.", "hi": "यद्यपि सत्य है (द्रव्यमान बढ़ता है), यह आयतन-मापन विधि के कार्य करने का कारण नहीं है।" }
+      }
+    },
+    {
+      "key": "rms9-p2-sc-23",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which vitamin deficiency commonly causes scurvy?", "hi": "किस विटामिन की कमी सामान्यतः स्कर्वी रोग का कारण बनती है?" },
+      "optionsJson": [
+        { "en": "Vitamin A", "hi": "विटामिन A" },
+        { "en": "Vitamin C", "hi": "विटामिन C" },
+        { "en": "Vitamin D", "hi": "विटामिन D" },
+        { "en": "Vitamin K", "hi": "विटामिन K" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "A deficiency of Vitamin C causes scurvy, which affects gums and connective tissue.", "hi": "विटामिन C की कमी स्कर्वी रोग का कारण बनती है, जो मसूड़ों और संयोजी ऊतक को प्रभावित करती है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Its deficiency causes night blindness, not scurvy.", "hi": "इसकी कमी रतौंधी का कारण बनती है, स्कर्वी का नहीं।" },
+        "2": { "en": "Its deficiency causes weak bones (rickets), not scurvy.", "hi": "इसकी कमी कमज़ोर हड्डियों (रिकेट्स) का कारण बनती है, स्कर्वी का नहीं।" },
+        "3": { "en": "Its deficiency affects blood clotting, not primarily scurvy.", "hi": "इसकी कमी रक्त के थक्का जमने को प्रभावित करती है, मुख्यतः स्कर्वी को नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p2-sc-24",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "What is the freezing point of pure water at sea level in Celsius?", "hi": "समुद्र तल पर शुद्ध पानी का हिमांक सेल्सियस में क्या है?" },
+      "optionsJson": [
+        { "en": "0°C", "hi": "0°C" },
+        { "en": "32°C", "hi": "32°C" },
+        { "en": "100°C", "hi": "100°C" },
+        { "en": "−10°C", "hi": "−10°C" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Pure water freezes at 0°C at sea level (standard atmospheric pressure).", "hi": "समुद्र तल पर (मानक वायुमंडलीय दाब पर) शुद्ध पानी 0°C पर जम जाता है।" },
+      "distractorAnalysis": {
+        "1": { "en": "This is 0°C incorrectly expressed as if it were in Fahrenheit, not Celsius.", "hi": "यह 0°C को गलती से फारेनहाइट के रूप में व्यक्त कर दिया, सेल्सियस के रूप में नहीं।" },
+        "2": { "en": "This is water's boiling point, not its freezing point.", "hi": "यह पानी का क्वथनांक है, हिमांक नहीं।" },
+        "3": { "en": "Below water's actual freezing point at standard pressure.", "hi": "यह मानक दाब पर पानी के वास्तविक हिमांक से नीचे है।" }
+      }
+    },
+    {
+      "key": "rms9-p2-sc-25",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": { "en": "A neutral atom has 11 protons. How many electrons does it have?", "hi": "एक उदासीन परमाणु में 11 प्रोटॉन हैं। इसमें कितने इलेक्ट्रॉन हैं?" },
+      "optionsJson": [
+        { "en": "10", "hi": "10" },
+        { "en": "11", "hi": "11" },
+        { "en": "12", "hi": "12" },
+        { "en": "22", "hi": "22" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "In a neutral atom, the number of electrons equals the number of protons, so it has 11 electrons.", "hi": "एक उदासीन परमाणु में, इलेक्ट्रॉनों की संख्या प्रोटॉनों की संख्या के बराबर होती है, अतः इसमें 11 इलेक्ट्रॉन हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "One less than the correct number — this would make the atom a positively charged ion, not neutral.", "hi": "सही संख्या से एक कम — इससे परमाणु धनावेशित आयन बन जाता, उदासीन नहीं।" },
+        "2": { "en": "One more than the correct number — this would make the atom a negatively charged ion, not neutral.", "hi": "सही संख्या से एक अधिक — इससे परमाणु ऋणावेशित आयन बन जाता, उदासीन नहीं।" },
+        "3": { "en": "Doubles the correct number of electrons by mistake.", "hi": "इलेक्ट्रॉनों की सही संख्या को गलती से दोगुना कर दिया।" }
+      }
+    }
+  ]
+}

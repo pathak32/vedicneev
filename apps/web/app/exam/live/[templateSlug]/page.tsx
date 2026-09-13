@@ -1,8 +1,8 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import Link from "next/link";
-import { useParams } from "next/navigation";
+import { useParams, useSearchParams } from "next/navigation";
 import { Button } from "@vedicneev/ui";
 
 import { ExamPlayer } from "@/components/exam/ExamPlayer";
@@ -29,8 +29,24 @@ type LoadState =
  * useTestStore.initSession itself once a student is active.
  */
 export default function ExamLiveMockPage() {
+  return (
+    <Suspense
+      fallback={
+        <div className="flex min-h-[60vh] flex-col items-center justify-center gap-2 p-8 text-center">
+          <p className="text-lg font-semibold text-foreground">Assembling your mock paper…</p>
+        </div>
+      }
+    >
+      <ExamLiveMockPageContent />
+    </Suspense>
+  );
+}
+
+function ExamLiveMockPageContent() {
   const params = useParams<{ templateSlug: string }>();
   const templateSlug = params.templateSlug;
+  const searchParams = useSearchParams();
+  const paper = searchParams.get("paper");
   const [state, setState] = useState<LoadState>({ status: "loading" });
 
   useEffect(() => {
@@ -53,7 +69,10 @@ export default function ExamLiveMockPage() {
       return;
     }
 
-    fetch(`/api/exams/generate-mock?slug=${encodeURIComponent(templateSlug)}`, { method: "POST" })
+    const url = `/api/exams/generate-mock?slug=${encodeURIComponent(templateSlug)}${
+      paper ? `&paper=${encodeURIComponent(paper)}` : ""
+    }`;
+    fetch(url, { method: "POST" })
       .then(async (res) => {
         const data = await res.json();
         if (cancelled) return;
@@ -69,7 +88,7 @@ export default function ExamLiveMockPage() {
     return () => {
       cancelled = true;
     };
-  }, [templateSlug]);
+  }, [templateSlug, paper]);
 
   if (state.status === "loading") {
     return (

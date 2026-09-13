@@ -1,0 +1,484 @@
+{
+  "examType": "AISSEE",
+  "classLevel": 9,
+  "paperNumber": 2,
+  "sectionKey": "mental_ability",
+  "generatedAt": "2026-09-13T00:00:00.000Z",
+  "questions": [
+    {
+      "key": "aissee9-p2-ma2-01",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Find the odd one out: Triangle, Square, Pentagon, Sphere", "hi": "असंगत आकृति चुनें: त्रिभुज, वर्ग, पंचभुज, गोला" },
+      "optionsJson": [
+        { "en": "Triangle", "hi": "त्रिभुज" },
+        { "en": "Square", "hi": "वर्ग" },
+        { "en": "Pentagon", "hi": "पंचभुज" },
+        { "en": "Sphere", "hi": "गोला" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Triangle, Square, and Pentagon are 2D shapes; a Sphere is a 3D shape.", "hi": "त्रिभुज, वर्ग और पंचभुज द्वि-आयामी आकृतियाँ हैं; गोला एक त्रि-आयामी आकृति है।" },
+      "distractorAnalysis": {
+        "0": { "en": "A flat 2D shape, part of the majority group.", "hi": "यह एक समतल द्वि-आयामी आकृति है, बहुसंख्यक समूह का भाग।" },
+        "1": { "en": "A flat 2D shape, part of the majority group.", "hi": "यह एक समतल द्वि-आयामी आकृति है, बहुसंख्यक समूह का भाग।" },
+        "2": { "en": "A flat 2D shape, part of the majority group.", "hi": "यह एक समतल द्वि-आयामी आकृति है, बहुसंख्यक समूह का भाग।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-ma2-02",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the next term: 2, 6, 12, 20, 30, ___?", "hi": "अगला पद ज्ञात करें: 2, 6, 12, 20, 30, ___?" },
+      "optionsJson": [
+        { "en": "36", "hi": "36" },
+        { "en": "42", "hi": "42" },
+        { "en": "40", "hi": "40" },
+        { "en": "38", "hi": "38" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Each term is n(n+1): 1×2=2, 2×3=6, 3×4=12, 4×5=20, 5×6=30, 6×7=42.", "hi": "प्रत्येक पद n(n+1) है: 1×2=2, 2×3=6, 3×4=12, 4×5=20, 5×6=30, 6×7=42।" },
+      "distractorAnalysis": {
+        "0": { "en": "Continues the differences arithmetically (+6) instead of recognizing the n(n+1) pattern (difference should grow by 2 each time).", "hi": "n(n+1) क्रम पहचानने के बजाय अंतर को समान्तर (+6) मान लिया (जबकि अंतर हर बार 2 से बढ़ना चाहिए)।" },
+        "2": { "en": "Adds 10 to the last term instead of following the growing-difference pattern.", "hi": "बढ़ते अंतर के क्रम का पालन करने के बजाय अंतिम पद में 10 जोड़ दिया।" },
+        "3": { "en": "Adds 8 to the last term instead of following the growing-difference pattern.", "hi": "बढ़ते अंतर के क्रम का पालन करने के बजाय अंतिम पद में 8 जोड़ दिया।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-ma2-03",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "If in a code, MOBILE is written as NPCJMF, how is TABLET written?", "hi": "यदि एक कूट में MOBILE को NPCJMF लिखा जाता है, तो TABLET कैसे लिखा जाएगा?" },
+      "optionsJson": [
+        { "en": "UBCMFU", "hi": "UBCMFU" },
+        { "en": "UBCMFT", "hi": "UBCMFT" },
+        { "en": "TBCMFU", "hi": "TBCMFU" },
+        { "en": "UACMFU", "hi": "UACMFU" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Each letter shifts 1 step forward: T→U, A→B, B→C, L→M, E→F, T→U, giving UBCMFU.", "hi": "प्रत्येक अक्षर एक स्थान आगे बढ़ता है: T→U, A→B, B→C, L→M, E→F, T→U, अतः UBCMFU प्राप्त होता है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Leaves the last letter unshifted by mistake.", "hi": "अंतिम अक्षर को गलती से बिना स्थानांतरित किए छोड़ दिया।" },
+        "2": { "en": "Leaves the first letter unshifted by mistake.", "hi": "पहले अक्षर को गलती से बिना स्थानांतरित किए छोड़ दिया।" },
+        "3": { "en": "Leaves the second letter unshifted by mistake.", "hi": "दूसरे अक्षर को गलती से बिना स्थानांतरित किए छोड़ दिया।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-ma2-04",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": { "en": "A is the brother of B. C is the father of A. D is the sister of C. How is D related to B?", "hi": "A, B का भाई है। C, A का पिता है। D, C की बहन है। D का B से क्या संबंध है?" },
+      "optionsJson": [
+        { "en": "Mother", "hi": "माँ" },
+        { "en": "Sister", "hi": "बहन" },
+        { "en": "Aunt", "hi": "बुआ" },
+        { "en": "Grandmother", "hi": "दादी" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "C is B's father (since A and B are siblings). D is C's sister, making D the paternal aunt (bua) of B.", "hi": "C, B का पिता है (क्योंकि A और B भाई-बहन हैं)। D, C की बहन है, अतः D, B की बुआ है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Confuses D's role with C's spouse, but D is C's sister, not wife.", "hi": "D की भूमिका को C की पत्नी से भ्रमित कर दिया, पर D, C की बहन है, पत्नी नहीं।" },
+        "1": { "en": "Confuses D's generation with B's own — D is one generation above B.", "hi": "D की पीढ़ी को B की अपनी पीढ़ी से भ्रमित कर दिया — D, B से एक पीढ़ी ऊपर है।" },
+        "3": { "en": "Confuses D's generation with one generation further up than she actually is.", "hi": "D की पीढ़ी को उसकी वास्तविक पीढ़ी से एक पीढ़ी और ऊपर मान लिया।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-ma2-05",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Author is to Book as Composer is to ___?", "hi": "लेखक का संबंध पुस्तक से है जैसे संगीतकार का संबंध ___ से है?" },
+      "optionsJson": [
+        { "en": "Song", "hi": "गीत" },
+        { "en": "Instrument", "hi": "वाद्ययंत्र" },
+        { "en": "Concert", "hi": "संगीत समारोह" },
+        { "en": "Voice", "hi": "आवाज़" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "An author creates a book; a composer creates a song (or piece of music).", "hi": "एक लेखक पुस्तक की रचना करता है; एक संगीतकार गीत (या संगीत रचना) की रचना करता है।" },
+      "distractorAnalysis": {
+        "1": { "en": "A tool a composer might use, not the thing they create.", "hi": "यह एक उपकरण है जिसका संगीतकार प्रयोग कर सकता है, वह रचना नहीं जो वह बनाता है।" },
+        "2": { "en": "An event where music is performed, not the created work itself.", "hi": "यह एक आयोजन है जहाँ संगीत प्रस्तुत किया जाता है, स्वयं रचित कृति नहीं।" },
+        "3": { "en": "A means of performing music, not the composer's created work.", "hi": "यह संगीत प्रस्तुत करने का एक साधन है, संगीतकार की रचित कृति नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-ma2-06",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Five students P, Q, R, S, T scored different marks. P scored more than Q but less than R. S scored the highest. T scored more than Q but less than P. Who scored the least?", "hi": "पाँच छात्र P, Q, R, S, T ने अलग-अलग अंक प्राप्त किए। P ने Q से अधिक पर R से कम अंक प्राप्त किए। S ने सबसे अधिक अंक प्राप्त किए। T ने Q से अधिक पर P से कम अंक प्राप्त किए। सबसे कम अंक किसने प्राप्त किए?" },
+      "optionsJson": [
+        { "en": "P", "hi": "P" },
+        { "en": "Q", "hi": "Q" },
+        { "en": "T", "hi": "T" },
+        { "en": "R", "hi": "R" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Order (highest to lowest): S > R > P > T > Q. So Q scored the least.", "hi": "क्रम (सबसे अधिक से सबसे कम): S > R > P > T > Q। अतः Q ने सबसे कम अंक प्राप्त किए।" },
+      "distractorAnalysis": {
+        "0": { "en": "P is in the middle of the ranking, not the lowest.", "hi": "P क्रम में मध्य में है, सबसे कम नहीं।" },
+        "2": { "en": "T scored more than Q, so T isn't the lowest.", "hi": "T ने Q से अधिक अंक प्राप्त किए, अतः T सबसे कम नहीं है।" },
+        "3": { "en": "R scored the second-highest, not the least.", "hi": "R ने दूसरे सबसे अधिक अंक प्राप्त किए, सबसे कम नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-ma2-07",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Complete the series: 100, 90, 80, 70, ___?", "hi": "श्रृंखला पूरी करें: 100, 90, 80, 70, ___?" },
+      "optionsJson": [
+        { "en": "50", "hi": "50" },
+        { "en": "60", "hi": "60" },
+        { "en": "65", "hi": "65" },
+        { "en": "55", "hi": "55" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Each term decreases by 10, so after 70 comes 60.", "hi": "प्रत्येक पद में 10 की कमी होती है, अतः 70 के बाद 60 आएगा।" },
+      "distractorAnalysis": {
+        "0": { "en": "Overshoots by subtracting 20 instead of 10.", "hi": "10 के बजाय 20 घटाकर अधिक आगे बढ़ गए।" },
+        "2": { "en": "Subtracts only 5 instead of 10.", "hi": "10 के बजाय केवल 5 घटाया।" },
+        "3": { "en": "Subtracts only 15 instead of 10.", "hi": "10 के बजाय 15 घटाया।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-ma2-08",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "If South becomes East, East becomes North, and so on (each direction rotates 90° clockwise), what will West become?", "hi": "यदि दक्षिण, पूर्व बन जाता है, पूर्व, उत्तर बन जाता है, इसी क्रम में (प्रत्येक दिशा 90° दक्षिणावर्त घूमती है), तो पश्चिम क्या बनेगा?" },
+      "optionsJson": [
+        { "en": "North", "hi": "उत्तर" },
+        { "en": "South", "hi": "दक्षिण" },
+        { "en": "East", "hi": "पूर्व" },
+        { "en": "West (unchanged)", "hi": "पश्चिम (अपरिवर्तित)" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Each direction rotates 90° clockwise: South→East, East→North, North→West, West→South.", "hi": "प्रत्येक दिशा 90° दक्षिणावर्त घूमती है: दक्षिण→पूर्व, पूर्व→उत्तर, उत्तर→पश्चिम, पश्चिम→दक्षिण।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is where North rotates to, not West.", "hi": "यह वह स्थान है जहाँ उत्तर घूमकर पहुँचता है, पश्चिम नहीं।" },
+        "2": { "en": "This is where South rotates to, not West.", "hi": "यह वह स्थान है जहाँ दक्षिण घूमकर पहुँचता है, पश्चिम नहीं।" },
+        "3": { "en": "Every direction shifts under this rule — West doesn't stay unchanged.", "hi": "इस नियम के अंतर्गत प्रत्येक दिशा बदलती है — पश्चिम अपरिवर्तित नहीं रहता।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-ma2-09",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Find the odd one out: Doctor, Teacher, Engineer, Hospital", "hi": "असंगत शब्द चुनें: डॉक्टर, शिक्षक, इंजीनियर, अस्पताल" },
+      "optionsJson": [
+        { "en": "Doctor", "hi": "डॉक्टर" },
+        { "en": "Teacher", "hi": "शिक्षक" },
+        { "en": "Engineer", "hi": "इंजीनियर" },
+        { "en": "Hospital", "hi": "अस्पताल" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Doctor, Teacher, and Engineer are professions (people); Hospital is a place, not a person.", "hi": "डॉक्टर, शिक्षक और इंजीनियर व्यवसाय हैं (व्यक्ति); अस्पताल एक स्थान है, व्यक्ति नहीं।" },
+      "distractorAnalysis": {
+        "0": { "en": "A profession, part of the majority group.", "hi": "यह एक व्यवसाय है, बहुसंख्यक समूह का भाग।" },
+        "1": { "en": "A profession, part of the majority group.", "hi": "यह एक व्यवसाय है, बहुसंख्यक समूह का भाग।" },
+        "2": { "en": "A profession, part of the majority group.", "hi": "यह एक व्यवसाय है, बहुसंख्यक समूह का भाग।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-ma2-10",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "In a certain code, '5 7 2' means 'roses are red', '8 5 9' means 'red and blue', and '2 6 8' means 'roses blue flower'. What does '5' stand for?", "hi": "एक निश्चित कूट में, '5 7 2' का अर्थ है 'गुलाब लाल हैं', '8 5 9' का अर्थ है 'लाल और नीला', तथा '2 6 8' का अर्थ है 'गुलाब नीला फूल'। '5' किसके लिए है?" },
+      "optionsJson": [
+        { "en": "Roses", "hi": "गुलाब" },
+        { "en": "Red", "hi": "लाल" },
+        { "en": "Blue", "hi": "नीला" },
+        { "en": "Flower", "hi": "फूल" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "'5' is common to sentences 1 and 2, both containing 'red' — so '5' means 'red'.", "hi": "'5' पहले और दूसरे वाक्य में समान है, दोनों में 'लाल' है — अतः '5' का अर्थ 'लाल' है।" },
+      "distractorAnalysis": {
+        "0": { "en": "'2' is common to sentences 1 and 3, both containing 'roses' — that represents 'roses', not '5'.", "hi": "'2' पहले और तीसरे वाक्य में समान है, दोनों में 'गुलाब' है — वह 'गुलाब' दर्शाता है, '5' नहीं।" },
+        "2": { "en": "'8' is common to sentences 2 and 3, both containing 'blue' — that represents 'blue', not '5'.", "hi": "'8' दूसरे और तीसरे वाक्य में समान है, दोनों में 'नीला' है — वह 'नीला' दर्शाता है, '5' नहीं।" },
+        "3": { "en": "Appears only in sentence 3, not shared with any other sentence containing 'red'.", "hi": "यह केवल तीसरे वाक्य में है, 'लाल' वाले किसी अन्य वाक्य में साझा नहीं है।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-ma2-11",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which number should replace the question mark? 5, 10, 20, 40, ?", "hi": "प्रश्न चिह्न के स्थान पर कौन-सी संख्या आएगी? 5, 10, 20, 40, ?" },
+      "optionsJson": [
+        { "en": "60", "hi": "60" },
+        { "en": "70", "hi": "70" },
+        { "en": "80", "hi": "80" },
+        { "en": "50", "hi": "50" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Each term doubles the previous one: 5,10,20,40,80.", "hi": "प्रत्येक पद पिछले पद का दोगुना है: 5,10,20,40,80।" },
+      "distractorAnalysis": {
+        "0": { "en": "Adds 20 to the last term instead of doubling it.", "hi": "अंतिम पद को दोगुना करने के बजाय उसमें 20 जोड़ दिया।" },
+        "1": { "en": "Adds 30 to the last term instead of doubling it.", "hi": "अंतिम पद को दोगुना करने के बजाय उसमें 30 जोड़ दिया।" },
+        "3": { "en": "Adds 10 to the last term instead of doubling it.", "hi": "अंतिम पद को दोगुना करने के बजाय उसमें 10 जोड़ दिया।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-ma2-12",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Statement: All pens are books. All books are tables. Conclusion I: All pens are tables. Conclusion II: Some tables are pens. Which conclusion(s) follow?", "hi": "कथन: सभी पेन किताबें हैं। सभी किताबें मेज़ें हैं। निष्कर्ष I: सभी पेन मेज़ें हैं। निष्कर्ष II: कुछ मेज़ें पेन हैं। कौन-सा/से निष्कर्ष सही है/हैं?" },
+      "optionsJson": [
+        { "en": "Only Conclusion I follows", "hi": "केवल निष्कर्ष I सही है" },
+        { "en": "Only Conclusion II follows", "hi": "केवल निष्कर्ष II सही है" },
+        { "en": "Both Conclusions I and II follow", "hi": "दोनों निष्कर्ष I और II सही हैं" },
+        { "en": "Neither conclusion follows", "hi": "कोई भी निष्कर्ष सही नहीं है" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "If all pens are books and all books are tables, then all pens are tables (I follows), and since all pens are tables, some tables must be pens (II also follows).", "hi": "यदि सभी पेन किताबें हैं और सभी किताबें मेज़ें हैं, तो सभी पेन मेज़ें हैं (I सही है), और चूँकि सभी पेन मेज़ें हैं, कुछ मेज़ें अवश्य पेन होंगी (II भी सही है)।" },
+      "distractorAnalysis": {
+        "0": { "en": "Correctly identifies I but misses that II also logically follows from the same chain.", "hi": "I को सही पहचाना पर यह चूक गए कि II भी उसी श्रृंखला से तार्किक रूप से निकलता है।" },
+        "1": { "en": "Correctly identifies II but misses that I also logically follows from the same chain.", "hi": "II को सही पहचाना पर यह चूक गए कि I भी उसी श्रृंखला से तार्किक रूप से निकलता है।" },
+        "3": { "en": "Both statements chain together validly, so at least one conclusion must follow — this misses both.", "hi": "दोनों कथन वैध रूप से एक-दूसरे से जुड़ते हैं, अतः कम से कम एक निष्कर्ष अवश्य निकलेगा — यह दोनों को चूक गए।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-ma2-13",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Choose the word most opposite in meaning to \"Ancient\".", "hi": "\"Ancient\" के सर्वाधिक विपरीत अर्थ वाला शब्द चुनें।" },
+      "optionsJson": [
+        { "en": "Old", "hi": "Old" },
+        { "en": "Modern", "hi": "Modern" },
+        { "en": "Historic", "hi": "Historic" },
+        { "en": "Aged", "hi": "Aged" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "\"Modern\" means recent or current, the opposite of \"Ancient\" (very old).", "hi": "\"Modern\" का अर्थ है हाल का या वर्तमान, जो \"Ancient\" (बहुत पुराना) के विपरीत है।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is a synonym of \"Ancient\", not its opposite.", "hi": "यह \"Ancient\" का समानार्थी है, विपरीत नहीं।" },
+        "2": { "en": "Related to history/the past, closer in meaning to \"Ancient\" than its opposite.", "hi": "इतिहास/अतीत से संबंधित, अर्थ में \"Ancient\" के विपरीत के बजाय उसके निकट।" },
+        "3": { "en": "This is a synonym of \"Ancient\", not its opposite.", "hi": "यह \"Ancient\" का समानार्थी है, विपरीत नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-ma2-14",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Six friends are sitting around a circular table facing the centre. A is opposite D. B is to the immediate right of A. Where is B relative to D?", "hi": "छह मित्र एक गोल मेज़ के चारों ओर केंद्र की ओर मुख करके बैठे हैं। A, D के सम्मुख है। B, A के ठीक दाईं ओर है। B, D के सापेक्ष कहाँ है?" },
+      "optionsJson": [
+        { "en": "Immediate left of D", "hi": "D के ठीक बाईं ओर" },
+        { "en": "Immediate right of D", "hi": "D के ठीक दाईं ओर" },
+        { "en": "Opposite D", "hi": "D के सम्मुख" },
+        { "en": "Two seats from D", "hi": "D से दो सीट दूर" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "If A is opposite D, and B is immediately to A's right, then going around the circle, B ends up immediately to D's left (since left/right flip across the opposite seat).", "hi": "यदि A, D के सम्मुख है, और B, A के ठीक दाईं ओर है, तो गोल मेज़ पर घूमने पर, B, D के ठीक बाईं ओर आ जाता है (क्योंकि सम्मुख सीट के आर-पार बाएँ/दाएँ पलट जाते हैं)।" },
+      "distractorAnalysis": {
+        "1": { "en": "Assumes left/right stays the same across the opposite seat, which isn't how circular seating works.", "hi": "यह मान लिया कि सम्मुख सीट के आर-पार बाएँ/दाएँ वैसे ही रहते हैं, जबकि गोल बैठक में ऐसा नहीं होता।" },
+        "2": { "en": "This would only be true if B were directly across from D, which isn't the given position.", "hi": "यह तभी सत्य होता यदि B सीधे D के सामने होता, जो दी गई स्थिति नहीं है।" },
+        "3": { "en": "Overstates the distance between B and D's seats.", "hi": "B और D की सीटों के बीच की दूरी को अधिक आंक लिया।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-ma2-15",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Complete the analogy: Doctor is to Patient as Teacher is to ___?", "hi": "सादृश्य पूरा करें: डॉक्टर का संबंध रोगी से है जैसे शिक्षक का संबंध ___ से है?" },
+      "optionsJson": [
+        { "en": "School", "hi": "स्कूल" },
+        { "en": "Student", "hi": "छात्र" },
+        { "en": "Book", "hi": "किताब" },
+        { "en": "Classroom", "hi": "कक्षा" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "A doctor treats a patient; a teacher teaches a student — matching the person served.", "hi": "एक डॉक्टर रोगी का इलाज करता है; एक शिक्षक छात्र को पढ़ाता है — सेवा प्राप्त करने वाले व्यक्ति से मेल खाता हुआ।" },
+      "distractorAnalysis": {
+        "0": { "en": "The place a teacher works, not the person they serve.", "hi": "यह वह स्थान है जहाँ शिक्षक कार्य करता है, वह व्यक्ति नहीं जिसकी वह सेवा करता है।" },
+        "2": { "en": "A tool used in teaching, not the person served.", "hi": "यह पढ़ाने में प्रयुक्त एक उपकरण है, सेवा प्राप्त करने वाला व्यक्ति नहीं।" },
+        "3": { "en": "The place teaching happens, not the person served.", "hi": "यह वह स्थान है जहाँ शिक्षण होता है, सेवा प्राप्त करने वाला व्यक्ति नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-ma2-16",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "If 'ADD' is coded as '1449', how is 'DAD' coded (using the same letter-to-number scheme, where A=1, D=4)?", "hi": "यदि 'ADD' को '1449' के रूप में कूटबद्ध किया जाता है, तो 'DAD' कैसे कूटबद्ध होगा (उसी अक्षर-से-अंक योजना का प्रयोग करते हुए, जहाँ A=1, D=4)?" },
+      "optionsJson": [
+        { "en": "419", "hi": "419" },
+        { "en": "414", "hi": "414" },
+        { "en": "441", "hi": "441" },
+        { "en": "144", "hi": "144" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Each letter's value is written in sequence: D=4, A=1, D=4, giving 414. (In 'ADD'→'1449', 1=A, 4=D, 4=D, and 9 is the sum 1+4+4, following the same pattern for DAD: 4,1,4.)", "hi": "प्रत्येक अक्षर का मान क्रम में लिखा जाता है: D=4, A=1, D=4, अतः 414 प्राप्त होता है। ('ADD'→'1449' में 1=A, 4=D, 4=D, और 9 योग 1+4+4 है, उसी क्रम में DAD के लिए: 4,1,4।)" },
+      "distractorAnalysis": {
+        "0": { "en": "Uses the sum-digit convention from the example instead of just the three individual letter values.", "hi": "केवल तीन व्यक्तिगत अक्षर मानों के बजाय उदाहरण की योग-अंक परंपरा का प्रयोग किया।" },
+        "2": { "en": "Reverses the correct letter order.", "hi": "सही अक्षर क्रम को उलट दिया।" },
+        "3": { "en": "Reuses the digits from 'ADD' directly instead of reordering them for 'DAD'.", "hi": "'DAD' के लिए पुनः क्रमबद्ध करने के बजाय 'ADD' के अंकों का सीधे पुनः प्रयोग किया।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-ma2-17",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Choose the figure that completes the pattern: a circle with 1 dot, a circle with 2 dots, a circle with 3 dots, ___?", "hi": "उस आकृति को चुनें जो क्रम को पूरा करती है: 1 बिंदु वाला वृत्त, 2 बिंदु वाला वृत्त, 3 बिंदु वाला वृत्त, ___?" },
+      "optionsJson": [
+        { "en": "A circle with 4 dots", "hi": "4 बिंदु वाला वृत्त" },
+        { "en": "A circle with 2 dots again", "hi": "फिर से 2 बिंदु वाला वृत्त" },
+        { "en": "A circle with no dots", "hi": "बिना बिंदु वाला वृत्त" },
+        { "en": "A square with 4 dots", "hi": "4 बिंदु वाला वर्ग" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The pattern adds one more dot each step while keeping the shape (circle) the same, so the next figure is a circle with 4 dots.", "hi": "क्रम में आकृति (वृत्त) समान रखते हुए हर चरण पर एक और बिंदु जुड़ता है, अतः अगली आकृति 4 बिंदुओं वाला वृत्त है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Reverses the pattern's progressive increase.", "hi": "क्रम की क्रमिक वृद्धि को उलट दिया।" },
+        "2": { "en": "Breaks the pattern entirely by removing all dots.", "hi": "सभी बिंदु हटाकर क्रम को पूरी तरह तोड़ दिया।" },
+        "3": { "en": "Changes the shape from circle to square, breaking the established pattern.", "hi": "आकृति को वृत्त से वर्ग में बदल दिया, जिससे स्थापित क्रम टूट जाता है।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-ma2-18",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Ravi is taller than Sam but shorter than Tom. Uma is taller than Tom. Who is the tallest?", "hi": "रवि, सैम से लंबा है पर टॉम से छोटा है। उमा, टॉम से लंबी है। सबसे लंबा/लंबी कौन है?" },
+      "optionsJson": [
+        { "en": "Ravi", "hi": "रवि" },
+        { "en": "Sam", "hi": "सैम" },
+        { "en": "Tom", "hi": "टॉम" },
+        { "en": "Uma", "hi": "उमा" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Order (tallest to shortest): Uma > Tom > Ravi > Sam. So Uma is the tallest.", "hi": "क्रम (सबसे लंबे से सबसे छोटे तक): उमा > टॉम > रवि > सैम। अतः उमा सबसे लंबी है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Ravi is shorter than both Tom and Uma, not the tallest.", "hi": "रवि, टॉम और उमा दोनों से छोटा है, सबसे लंबा नहीं।" },
+        "1": { "en": "Sam is the shortest in this group, not the tallest.", "hi": "सैम इस समूह में सबसे छोटा है, सबसे लंबा नहीं।" },
+        "2": { "en": "Tom is shorter than Uma, so Tom isn't the tallest.", "hi": "टॉम, उमा से छोटा है, अतः टॉम सबसे लंबा नहीं है।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-ma2-19",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Find the odd one out: Delhi, Mumbai, Punjab, Chennai", "hi": "असंगत शब्द चुनें: दिल्ली, मुंबई, पंजाब, चेन्नई" },
+      "optionsJson": [
+        { "en": "Delhi", "hi": "दिल्ली" },
+        { "en": "Mumbai", "hi": "मुंबई" },
+        { "en": "Punjab", "hi": "पंजाब" },
+        { "en": "Chennai", "hi": "चेन्नई" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Delhi, Mumbai, and Chennai are cities; Punjab is a state.", "hi": "दिल्ली, मुंबई और चेन्नई शहर हैं; पंजाब एक राज्य है।" },
+      "distractorAnalysis": {
+        "0": { "en": "A city, part of the majority group.", "hi": "यह एक शहर है, बहुसंख्यक समूह का भाग।" },
+        "1": { "en": "A city, part of the majority group.", "hi": "यह एक शहर है, बहुसंख्यक समूह का भाग।" },
+        "3": { "en": "A city, part of the majority group.", "hi": "यह एक शहर है, बहुसंख्यक समूह का भाग।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-ma2-20",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Pointing to a photograph, a man said, \"I am the only son of this man's father.\" How is the man in the photograph related to the speaker?", "hi": "एक तस्वीर की ओर इशारा करते हुए एक व्यक्ति ने कहा, \"मैं इस व्यक्ति के पिता का इकलौता पुत्र हूँ।\" तस्वीर में दिखने वाला व्यक्ति वक्ता से किस प्रकार संबंधित है?" },
+      "optionsJson": [
+        { "en": "Father", "hi": "पिता" },
+        { "en": "Son", "hi": "पुत्र" },
+        { "en": "Brother", "hi": "भाई" },
+        { "en": "Uncle", "hi": "चाचा" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "\"This man's father\" is the speaker's own father (since the speaker is his only son), so the man in the photo is the speaker's son.", "hi": "\"इस व्यक्ति के पिता\" स्वयं वक्ता के पिता हैं (क्योंकि वक्ता उनका इकलौता पुत्र है), अतः तस्वीर में व्यक्ति वक्ता का पुत्र है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Reverses the generational direction of the relationship.", "hi": "संबंध की पीढ़ीगत दिशा को उल्टा कर दिया।" },
+        "2": { "en": "Would apply only if the speaker and the photographed man shared the same father directly, which isn't what's stated.", "hi": "यह तभी लागू होता यदि वक्ता और तस्वीर वाले व्यक्ति के पिता सीधे समान होते, जो कथन में नहीं है।" },
+        "3": { "en": "Confuses the generational level of the relationship.", "hi": "संबंध के पीढ़ीगत स्तर को भ्रमित कर दिया।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-ma2-21",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Complete the series: J, F, M, A, M, ___?", "hi": "श्रृंखला पूरी करें: J, F, M, A, M, ___?" },
+      "optionsJson": [
+        { "en": "J", "hi": "J" },
+        { "en": "A", "hi": "A" },
+        { "en": "S", "hi": "S" },
+        { "en": "O", "hi": "O" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "These are the first letters of the months: January, February, March, April, May, June.", "hi": "ये महीनों के पहले अक्षर हैं: जनवरी, फरवरी, मार्च, अप्रैल, मई, जून।" },
+      "distractorAnalysis": {
+        "1": { "en": "This letter already appeared earlier in the sequence (April), not the next month.", "hi": "यह अक्षर पहले ही क्रम में आ चुका है (अप्रैल), अगला महीना नहीं।" },
+        "2": { "en": "This is a later month's initial, skipping ahead too far.", "hi": "यह एक बाद के महीने का प्रारंभिक अक्षर है, बहुत आगे बढ़ गए।" },
+        "3": { "en": "This is a later month's initial, skipping ahead too far.", "hi": "यह एक बाद के महीने का प्रारंभिक अक्षर है, बहुत आगे बढ़ गए।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-ma2-22",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "In a class, Neha's rank is 12th from the top and 25th from the bottom. How many students are in the class?", "hi": "एक कक्षा में, नेहा का स्थान ऊपर से 12वाँ और नीचे से 25वाँ है। कक्षा में कुल कितने छात्र हैं?" },
+      "optionsJson": [
+        { "en": "37", "hi": "37" },
+        { "en": "36", "hi": "36" },
+        { "en": "38", "hi": "38" },
+        { "en": "35", "hi": "35" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Total = (rank from top) + (rank from bottom) − 1 = 12+25−1 = 36.", "hi": "कुल = (ऊपर से स्थान) + (नीचे से स्थान) − 1 = 12+25−1 = 36।" },
+      "distractorAnalysis": {
+        "0": { "en": "Forgets to subtract 1 for Neha being counted twice.", "hi": "नेहा को दो बार गिनने के कारण 1 घटाना भूल गए।" },
+        "2": { "en": "Adds an extra 2 instead of subtracting 1.", "hi": "1 घटाने के बजाय 2 अतिरिक्त जोड़ दिए।" },
+        "3": { "en": "Subtracts 2 instead of 1.", "hi": "1 के बजाय 2 घटा दिया।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-ma2-23",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Choose the word that is different from the others.", "hi": "वह शब्द चुनें जो बाकियों से भिन्न है।" },
+      "optionsJson": [
+        { "en": "Violin", "hi": "वायलिन" },
+        { "en": "Sitar", "hi": "सितार" },
+        { "en": "Tabla", "hi": "तबला" },
+        { "en": "Painting", "hi": "चित्रकला" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Violin, Sitar, and Tabla are musical instruments; Painting is a visual art form, not an instrument.", "hi": "वायलिन, सितार और तबला वाद्ययंत्र हैं; चित्रकला एक दृश्य कला रूप है, वाद्ययंत्र नहीं।" },
+      "distractorAnalysis": {
+        "0": { "en": "A musical instrument, part of the majority group.", "hi": "यह एक वाद्ययंत्र है, बहुसंख्यक समूह का भाग।" },
+        "1": { "en": "A musical instrument, part of the majority group.", "hi": "यह एक वाद्ययंत्र है, बहुसंख्यक समूह का भाग।" },
+        "2": { "en": "A musical instrument, part of the majority group.", "hi": "यह एक वाद्ययंत्र है, बहुसंख्यक समूह का भाग।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-ma2-24",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "If '÷' means '+', '+' means '−', '−' means '×', and '×' means '÷', find the value of: 10 − 2 × 4 ÷ 3", "hi": "यदि '÷' का अर्थ '+', '+' का अर्थ '−', '−' का अर्थ '×' और '×' का अर्थ '÷' है, तो मान ज्ञात करें: 10 − 2 × 4 ÷ 3" },
+      "optionsJson": [
+        { "en": "8", "hi": "8" },
+        { "en": "18", "hi": "18" },
+        { "en": "26/3", "hi": "26/3" },
+        { "en": "6", "hi": "6" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Substituting the coded meanings, 10 − 2 × 4 ÷ 3 becomes 10 × 2 ÷ 4 + 3. By BODMAS: 10×2=20, 20÷4=5, then 5+3=8.", "hi": "प्रतिस्थापन के बाद: 10 − 2 × 4 ÷ 3 बनता है 10 × 2 ÷ 4 + 3। BODMAS से: 10×2=20, 20÷4=5, फिर 5+3=8।" },
+      "distractorAnalysis": {
+        "1": { "en": "Solves left-to-right ignoring BODMAS: ((10×2)÷4+3) computed in a different, incorrect order.", "hi": "BODMAS की अनदेखी करते हुए बाएँ से दाएँ गलत क्रम में हल किया।" },
+        "2": { "en": "Substitutes only some of the symbols, leaving one operator unchanged.", "hi": "केवल कुछ प्रतीक बदले, एक संकारक को अपरिवर्तित छोड़ दिया।" },
+        "3": { "en": "Ignores the final \"+3\", stopping after computing 10×2÷4−... an incomplete substitution.", "hi": "अंतिम \"+3\" की अनदेखी करते हुए अपूर्ण प्रतिस्थापन के बाद रुक गए।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-ma2-25",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": { "en": "In a certain code language, 'pit na tir' means 'birds fly high', 'tir se lit' means 'high and low', and 'na lit ho' means 'birds low sky'. Which word means 'birds' in that language?", "hi": "एक निश्चित कूट भाषा में, 'pit na tir' का अर्थ है 'पक्षी ऊँचा उड़ते हैं', 'tir se lit' का अर्थ है 'ऊँचा और नीचा', तथा 'na lit ho' का अर्थ है 'पक्षी नीचा आकाश'। उस भाषा में 'पक्षी' के लिए कौन-सा शब्द है?" },
+      "optionsJson": [
+        { "en": "pit", "hi": "pit" },
+        { "en": "na", "hi": "na" },
+        { "en": "tir", "hi": "tir" },
+        { "en": "lit", "hi": "lit" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "'na' is common to sentences 1 and 3, both containing 'birds' — so 'na' means 'birds'.", "hi": "'na' पहले और तीसरे वाक्य में समान है, दोनों में 'पक्षी' है — अतः 'na' का अर्थ 'पक्षी' है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Appears only in sentence 1 and isn't shared with any other sentence containing 'birds'.", "hi": "यह केवल पहले वाक्य में है और 'पक्षी' वाले किसी अन्य वाक्य में साझा नहीं है।" },
+        "2": { "en": "'tir' is common to sentences 1 and 2, both containing 'high', so it means 'high', not 'birds'.", "hi": "'tir' पहले और दूसरे वाक्य में समान है, दोनों में 'ऊँचा' है, अतः इसका अर्थ 'ऊँचा' है, 'पक्षी' नहीं।" },
+        "3": { "en": "'lit' is common to sentences 2 and 3, both containing 'low', so it means 'low', not 'birds'.", "hi": "'lit' दूसरे और तीसरे वाक्य में समान है, दोनों में 'नीचा' है, अतः इसका अर्थ 'नीचा' है, 'पक्षी' नहीं।" }
+      }
+    }
+  ]
+}

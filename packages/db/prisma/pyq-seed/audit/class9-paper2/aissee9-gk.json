@@ -1,0 +1,484 @@
+{
+  "examType": "AISSEE",
+  "classLevel": 9,
+  "paperNumber": 2,
+  "sectionKey": "general_knowledge",
+  "generatedAt": "2026-09-13T00:00:00.000Z",
+  "questions": [
+    {
+      "key": "aissee9-p2-gk-01",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Who was the first President of India?", "hi": "भारत के प्रथम राष्ट्रपति कौन थे?" },
+      "optionsJson": [
+        { "en": "Dr. Rajendra Prasad", "hi": "डॉ. राजेंद्र प्रसाद" },
+        { "en": "Dr. S. Radhakrishnan", "hi": "डॉ. एस. राधाकृष्णन" },
+        { "en": "Zakir Husain", "hi": "ज़ाकिर हुसैन" },
+        { "en": "V. V. Giri", "hi": "वी. वी. गिरी" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Dr. Rajendra Prasad served as India's first President from 1950 to 1962.", "hi": "डॉ. राजेंद्र प्रसाद ने 1950 से 1962 तक भारत के प्रथम राष्ट्रपति के रूप में सेवा की।" },
+      "distractorAnalysis": {
+        "1": { "en": "India's second President, not the first.", "hi": "भारत के द्वितीय राष्ट्रपति, प्रथम नहीं।" },
+        "2": { "en": "India's third President, not the first.", "hi": "भारत के तृतीय राष्ट्रपति, प्रथम नहीं।" },
+        "3": { "en": "India's fourth President, not the first.", "hi": "भारत के चतुर्थ राष्ट्रपति, प्रथम नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-gk-02",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which Article of the Indian Constitution abolishes untouchability?", "hi": "भारतीय संविधान का कौन-सा अनुच्छेद अस्पृश्यता को समाप्त करता है?" },
+      "optionsJson": [
+        { "en": "Article 14", "hi": "अनुच्छेद 14" },
+        { "en": "Article 17", "hi": "अनुच्छेद 17" },
+        { "en": "Article 21", "hi": "अनुच्छेद 21" },
+        { "en": "Article 32", "hi": "अनुच्छेद 32" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Article 17 of the Indian Constitution abolishes untouchability and forbids its practice in any form.", "hi": "भारतीय संविधान का अनुच्छेद 17 अस्पृश्यता को समाप्त करता है और इसके किसी भी रूप में अभ्यास को निषिद्ध करता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Guarantees equality before the law, a related but distinct right.", "hi": "यह कानून के समक्ष समानता की गारंटी देता है, एक संबंधित पर अलग अधिकार।" },
+        "2": { "en": "Guarantees the right to life and personal liberty, a different fundamental right.", "hi": "यह जीवन और व्यक्तिगत स्वतंत्रता के अधिकार की गारंटी देता है, एक भिन्न मौलिक अधिकार।" },
+        "3": { "en": "Provides the right to constitutional remedies, not the abolition of untouchability.", "hi": "यह संवैधानिक उपचारों के अधिकार का प्रावधान करता है, अस्पृश्यता की समाप्ति का नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-gk-03",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "The Sun rises in which direction?", "hi": "सूर्य किस दिशा में उगता है?" },
+      "optionsJson": [
+        { "en": "North", "hi": "उत्तर" },
+        { "en": "South", "hi": "दक्षिण" },
+        { "en": "East", "hi": "पूर्व" },
+        { "en": "West", "hi": "पश्चिम" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The Sun rises in the East due to the direction of Earth's rotation.", "hi": "पृथ्वी के घूर्णन की दिशा के कारण सूर्य पूर्व में उगता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Not the direction of sunrise.", "hi": "यह सूर्योदय की दिशा नहीं है।" },
+        "1": { "en": "Not the direction of sunrise.", "hi": "यह सूर्योदय की दिशा नहीं है।" },
+        "3": { "en": "This is the direction of sunset, not sunrise.", "hi": "यह सूर्यास्त की दिशा है, सूर्योदय की नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-gk-04",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which country has the largest population in the world (as commonly cited in recent years)?", "hi": "विश्व में सबसे अधिक जनसंख्या वाला देश कौन-सा है (जैसा हाल के वर्षों में आमतौर पर बताया जाता है)?" },
+      "optionsJson": [
+        { "en": "United States", "hi": "संयुक्त राज्य अमेरिका" },
+        { "en": "China", "hi": "चीन" },
+        { "en": "India", "hi": "भारत" },
+        { "en": "Indonesia", "hi": "इंडोनेशिया" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "India surpassed China to become the world's most populous country in recent years.", "hi": "हाल के वर्षों में भारत ने चीन को पीछे छोड़कर विश्व का सबसे अधिक जनसंख्या वाला देश बनने का स्थान प्राप्त किया।" },
+      "distractorAnalysis": {
+        "0": { "en": "The third most populous country, not the first.", "hi": "यह तीसरा सबसे अधिक जनसंख्या वाला देश है, पहला नहीं।" },
+        "1": { "en": "Now the second most populous country, having been overtaken.", "hi": "अब यह दूसरा सबसे अधिक जनसंख्या वाला देश है, इसे पीछे छोड़ दिया गया है।" },
+        "3": { "en": "A populous country, but well behind the top spot.", "hi": "यह एक अधिक जनसंख्या वाला देश है, पर शीर्ष स्थान से बहुत पीछे।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-gk-05",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which is the largest ocean in the world?", "hi": "विश्व का सबसे बड़ा महासागर कौन-सा है?" },
+      "optionsJson": [
+        { "en": "Atlantic Ocean", "hi": "अटलांटिक महासागर" },
+        { "en": "Indian Ocean", "hi": "हिंद महासागर" },
+        { "en": "Arctic Ocean", "hi": "आर्कटिक महासागर" },
+        { "en": "Pacific Ocean", "hi": "प्रशांत महासागर" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "The Pacific Ocean is the largest and deepest ocean in the world.", "hi": "प्रशांत महासागर विश्व का सबसे बड़ा और सबसे गहरा महासागर है।" },
+      "distractorAnalysis": {
+        "0": { "en": "The second-largest ocean, not the largest.", "hi": "यह दूसरा सबसे बड़ा महासागर है, सबसे बड़ा नहीं।" },
+        "1": { "en": "The third-largest ocean, not the largest.", "hi": "यह तीसरा सबसे बड़ा महासागर है, सबसे बड़ा नहीं।" },
+        "2": { "en": "The smallest ocean, not the largest.", "hi": "यह सबसे छोटा महासागर है, सबसे बड़ा नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-gk-06",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The Battle of Plassey, a turning point in British colonial rule in India, was fought in which year?", "hi": "प्लासी का युद्ध, जो भारत में ब्रिटिश औपनिवेशिक शासन का एक निर्णायक मोड़ था, किस वर्ष लड़ा गया था?" },
+      "optionsJson": [
+        { "en": "1757", "hi": "1757" },
+        { "en": "1857", "hi": "1857" },
+        { "en": "1947", "hi": "1947" },
+        { "en": "1600", "hi": "1600" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The Battle of Plassey was fought in 1757, marking the beginning of British political control in India.", "hi": "प्लासी का युद्ध 1757 में लड़ा गया था, जो भारत में ब्रिटिश राजनीतिक नियंत्रण की शुरुआत का प्रतीक था।" },
+      "distractorAnalysis": {
+        "1": { "en": "This is the year of the Indian Rebellion (First War of Independence), not the Battle of Plassey.", "hi": "यह भारतीय विद्रोह (प्रथम स्वतंत्रता संग्राम) का वर्ष है, प्लासी के युद्ध का नहीं।" },
+        "2": { "en": "This is India's independence year, not the Battle of Plassey.", "hi": "यह भारत की स्वतंत्रता का वर्ष है, प्लासी के युद्ध का नहीं।" },
+        "3": { "en": "This is the year the British East India Company was founded, not the battle itself.", "hi": "यह ब्रिटिश ईस्ट इंडिया कंपनी की स्थापना का वर्ष है, स्वयं युद्ध का नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-gk-07",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Who wrote the national anthem of India, \"Jana Gana Mana\"?", "hi": "भारत के राष्ट्रगान \"जन गण मन\" की रचना किसने की?" },
+      "optionsJson": [
+        { "en": "Bankim Chandra Chatterjee", "hi": "बंकिम चंद्र चट्टोपाध्याय" },
+        { "en": "Rabindranath Tagore", "hi": "रवींद्रनाथ टैगोर" },
+        { "en": "Sarojini Naidu", "hi": "सरोजिनी नायडू" },
+        { "en": "Subramania Bharati", "hi": "सुब्रमण्य भारती" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Rabindranath Tagore composed \"Jana Gana Mana\", India's national anthem.", "hi": "रवींद्रनाथ टैगोर ने \"जन गण मन\", भारत का राष्ट्रगान, रचा।" },
+      "distractorAnalysis": {
+        "0": { "en": "Wrote \"Vande Mataram\", India's national song, not the national anthem.", "hi": "इन्होंने \"वंदे मातरम्\" लिखा, भारत का राष्ट्रीय गीत, राष्ट्रगान नहीं।" },
+        "2": { "en": "A notable poet and freedom fighter, but not the anthem's composer.", "hi": "एक प्रसिद्ध कवयित्री और स्वतंत्रता सेनानी, पर राष्ट्रगान की रचयिता नहीं।" },
+        "3": { "en": "A notable Tamil poet and freedom fighter, but not the anthem's composer.", "hi": "एक प्रसिद्ध तमिल कवि और स्वतंत्रता सेनानी, पर राष्ट्रगान के रचयिता नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-gk-08",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The Reserve Bank of India (RBI) primarily functions as India's:", "hi": "भारतीय रिज़र्व बैंक (RBI) मुख्य रूप से भारत के किस रूप में कार्य करता है?" },
+      "optionsJson": [
+        { "en": "Central bank", "hi": "केंद्रीय बैंक" },
+        { "en": "Largest commercial bank", "hi": "सबसे बड़ा वाणिज्यिक बैंक" },
+        { "en": "Stock exchange", "hi": "स्टॉक एक्सचेंज" },
+        { "en": "Insurance regulator", "hi": "बीमा नियामक" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The RBI is India's central bank, responsible for regulating the monetary policy and banking system.", "hi": "RBI भारत का केंद्रीय बैंक है, जो मौद्रिक नीति और बैंकिंग प्रणाली को विनियमित करने के लिए ज़िम्मेदार है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Commercial banking is done by banks like SBI, not the RBI itself.", "hi": "वाणिज्यिक बैंकिंग SBI जैसे बैंकों द्वारा की जाती है, स्वयं RBI द्वारा नहीं।" },
+        "2": { "en": "Stock exchanges (like BSE/NSE) are separate entities from the RBI.", "hi": "स्टॉक एक्सचेंज (जैसे BSE/NSE) RBI से अलग संस्थाएँ हैं।" },
+        "3": { "en": "Insurance is regulated by IRDAI, a separate body from the RBI.", "hi": "बीमा IRDAI द्वारा विनियमित होता है, जो RBI से अलग निकाय है।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-gk-09",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which is the highest civilian award in India?", "hi": "भारत का सर्वोच्च नागरिक सम्मान कौन-सा है?" },
+      "optionsJson": [
+        { "en": "Padma Shri", "hi": "पद्म श्री" },
+        { "en": "Padma Bhushan", "hi": "पद्म भूषण" },
+        { "en": "Bharat Ratna", "hi": "भारत रत्न" },
+        { "en": "Padma Vibhushan", "hi": "पद्म विभूषण" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The Bharat Ratna is India's highest civilian award, given for exceptional service.", "hi": "भारत रत्न भारत का सर्वोच्च नागरिक सम्मान है, जो असाधारण सेवा के लिए दिया जाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "The fourth-highest civilian award, not the highest.", "hi": "यह चौथा सर्वोच्च नागरिक सम्मान है, सर्वोच्च नहीं।" },
+        "1": { "en": "The third-highest civilian award, not the highest.", "hi": "यह तीसरा सर्वोच्च नागरिक सम्मान है, सर्वोच्च नहीं।" },
+        "3": { "en": "The second-highest civilian award, not the highest.", "hi": "यह दूसरा सर्वोच्च नागरिक सम्मान है, सर्वोच्च नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-gk-10",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which Indian city hosted the G20 Summit in 2023?", "hi": "2023 में G20 शिखर सम्मेलन की मेज़बानी किस भारतीय शहर ने की?" },
+      "optionsJson": [
+        { "en": "Mumbai", "hi": "मुंबई" },
+        { "en": "New Delhi", "hi": "नई दिल्ली" },
+        { "en": "Bengaluru", "hi": "बेंगलुरु" },
+        { "en": "Kolkata", "hi": "कोलकाता" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "New Delhi hosted the G20 Summit in September 2023, under India's G20 presidency.", "hi": "नई दिल्ली ने भारत की G20 अध्यक्षता के अंतर्गत सितंबर 2023 में G20 शिखर सम्मेलन की मेज़बानी की।" },
+      "distractorAnalysis": {
+        "0": { "en": "Hosted various G20-related meetings, but the main Summit itself was held in New Delhi.", "hi": "यहाँ G20 से संबंधित विभिन्न बैठकें हुईं, पर मुख्य शिखर सम्मेलन नई दिल्ली में आयोजित हुआ।" },
+        "2": { "en": "Hosted various G20-related meetings, but the main Summit itself was held in New Delhi.", "hi": "यहाँ G20 से संबंधित विभिन्न बैठकें हुईं, पर मुख्य शिखर सम्मेलन नई दिल्ली में आयोजित हुआ।" },
+        "3": { "en": "Hosted various G20-related meetings, but the main Summit itself was held in New Delhi.", "hi": "यहाँ G20 से संबंधित विभिन्न बैठकें हुईं, पर मुख्य शिखर सम्मेलन नई दिल्ली में आयोजित हुआ।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-gk-11",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Chandrayaan-3, India's successful Moon mission, landed near which region of the Moon?", "hi": "चंद्रयान-3, भारत का सफल चंद्र मिशन, चंद्रमा के किस क्षेत्र के निकट उतरा?" },
+      "optionsJson": [
+        { "en": "North Pole", "hi": "उत्तरी ध्रुव" },
+        { "en": "South Pole", "hi": "दक्षिणी ध्रुव" },
+        { "en": "The equator", "hi": "भूमध्य रेखा" },
+        { "en": "The far side's centre", "hi": "दूरस्थ पक्ष का केंद्र" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Chandrayaan-3 made history by landing near the Moon's South Pole in August 2023, a region no other mission had reached before.", "hi": "चंद्रयान-3 ने अगस्त 2023 में चंद्रमा के दक्षिणी ध्रुव के निकट उतरकर इतिहास रचा, एक ऐसा क्षेत्र जहाँ इससे पहले कोई अन्य मिशन नहीं पहुँचा था।" },
+      "distractorAnalysis": {
+        "0": { "en": "Not the region Chandrayaan-3 targeted or landed near.", "hi": "यह वह क्षेत्र नहीं है जिसे चंद्रयान-3 ने लक्षित किया या जिसके निकट उतरा।" },
+        "2": { "en": "Earlier Moon missions, including some Apollo landings, targeted equatorial regions — Chandrayaan-3's achievement was specifically the South Pole.", "hi": "पहले के चंद्र मिशनों, कुछ अपोलो लैंडिंग सहित, ने भूमध्यरेखीय क्षेत्रों को लक्षित किया — चंद्रयान-3 की उपलब्धि विशेष रूप से दक्षिणी ध्रुव थी।" },
+        "3": { "en": "Not the region Chandrayaan-3 targeted or landed near.", "hi": "यह वह क्षेत्र नहीं है जिसे चंद्रयान-3 ने लक्षित किया या जिसके निकट उतरा।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-gk-12",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which fundamental duty of Indian citizens is listed in Article 51A of the Constitution?", "hi": "संविधान के अनुच्छेद 51A में भारतीय नागरिकों का कौन-सा मौलिक कर्तव्य सूचीबद्ध है?" },
+      "optionsJson": [
+        { "en": "To pay income tax on time", "hi": "समय पर आयकर चुकाना" },
+        { "en": "To abide by the Constitution and respect its ideals", "hi": "संविधान का पालन करना और उसके आदर्शों का सम्मान करना" },
+        { "en": "To vote in every election", "hi": "प्रत्येक चुनाव में मतदान करना" },
+        { "en": "To join the armed forces", "hi": "सशस्त्र सेना में शामिल होना" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Article 51A lists Fundamental Duties, including to abide by the Constitution and respect its ideals and institutions.", "hi": "अनुच्छेद 51A मौलिक कर्तव्यों को सूचीबद्ध करता है, जिसमें संविधान का पालन करना और उसके आदर्शों व संस्थाओं का सम्मान करना शामिल है।" },
+      "distractorAnalysis": {
+        "0": { "en": "A legal/financial obligation under tax law, not one of the listed Fundamental Duties.", "hi": "यह कर कानून के अंतर्गत एक कानूनी/वित्तीय दायित्व है, सूचीबद्ध मौलिक कर्तव्यों में से एक नहीं।" },
+        "2": { "en": "Voting is a right/privilege in India's system, not a listed Fundamental Duty.", "hi": "मतदान भारत की व्यवस्था में एक अधिकार/विशेषाधिकार है, सूचीबद्ध मौलिक कर्तव्य नहीं।" },
+        "3": { "en": "Joining the armed forces is voluntary in India, not a constitutional duty.", "hi": "भारत में सशस्त्र सेना में शामिल होना स्वैच्छिक है, संवैधानिक कर्तव्य नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-gk-13",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which is the largest desert in the world?", "hi": "विश्व का सबसे बड़ा रेगिस्तान कौन-सा है?" },
+      "optionsJson": [
+        { "en": "Thar Desert", "hi": "थार रेगिस्तान" },
+        { "en": "Sahara Desert", "hi": "सहारा रेगिस्तान" },
+        { "en": "Gobi Desert", "hi": "गोबी रेगिस्तान" },
+        { "en": "Kalahari Desert", "hi": "कालाहारी रेगिस्तान" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The Sahara Desert in Africa is the largest hot desert in the world.", "hi": "अफ्रीका का सहारा रेगिस्तान विश्व का सबसे बड़ा गर्म रेगिस्तान है।" },
+      "distractorAnalysis": {
+        "0": { "en": "A significant desert in India, but much smaller than the Sahara.", "hi": "यह भारत में एक महत्वपूर्ण रेगिस्तान है, पर सहारा से बहुत छोटा।" },
+        "2": { "en": "A large cold desert in Asia, but smaller in area than the Sahara.", "hi": "यह एशिया का एक बड़ा ठंडा रेगिस्तान है, पर क्षेत्रफल में सहारा से छोटा।" },
+        "3": { "en": "A notable desert in southern Africa, but smaller than the Sahara.", "hi": "यह दक्षिणी अफ्रीका का एक उल्लेखनीय रेगिस्तान है, पर सहारा से छोटा।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-gk-14",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The Panchayati Raj system in India primarily provides self-governance at which level?", "hi": "भारत में पंचायती राज व्यवस्था मुख्यतः किस स्तर पर स्वशासन प्रदान करती है?" },
+      "optionsJson": [
+        { "en": "National level", "hi": "राष्ट्रीय स्तर" },
+        { "en": "State level", "hi": "राज्य स्तर" },
+        { "en": "Rural/village level", "hi": "ग्रामीण/गाँव स्तर" },
+        { "en": "District courts", "hi": "ज़िला न्यायालय" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The Panchayati Raj system provides local self-governance at the rural/village level, established by the 73rd Constitutional Amendment.", "hi": "पंचायती राज व्यवस्था 73वें संविधान संशोधन द्वारा स्थापित ग्रामीण/गाँव स्तर पर स्थानीय स्वशासन प्रदान करती है।" },
+      "distractorAnalysis": {
+        "0": { "en": "National governance is handled by the Parliament and central government, not the Panchayati Raj system.", "hi": "राष्ट्रीय शासन संसद और केंद्र सरकार द्वारा संभाला जाता है, पंचायती राज व्यवस्था द्वारा नहीं।" },
+        "1": { "en": "State governance is handled by state legislatures, not the Panchayati Raj system.", "hi": "राज्य शासन राज्य विधानमंडलों द्वारा संभाला जाता है, पंचायती राज व्यवस्था द्वारा नहीं।" },
+        "3": { "en": "District courts are part of the judiciary, unrelated to the Panchayati Raj system of local governance.", "hi": "ज़िला न्यायालय न्यायपालिका का भाग हैं, स्थानीय शासन की पंचायती राज व्यवस्था से असंबंधित।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-gk-15",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which is the smallest state in India by area?", "hi": "क्षेत्रफल के अनुसार भारत का सबसे छोटा राज्य कौन-सा है?" },
+      "optionsJson": [
+        { "en": "Sikkim", "hi": "सिक्किम" },
+        { "en": "Goa", "hi": "गोवा" },
+        { "en": "Tripura", "hi": "त्रिपुरा" },
+        { "en": "Nagaland", "hi": "नागालैंड" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Goa is the smallest Indian state by area.", "hi": "गोवा क्षेत्रफल के अनुसार सबसे छोटा भारतीय राज्य है।" },
+      "distractorAnalysis": {
+        "0": { "en": "A small state, but larger in area than Goa.", "hi": "यह एक छोटा राज्य है, पर क्षेत्रफल में गोवा से बड़ा।" },
+        "2": { "en": "A small state, but larger in area than Goa.", "hi": "यह एक छोटा राज्य है, पर क्षेत्रफल में गोवा से बड़ा।" },
+        "3": { "en": "A small state, but larger in area than Goa.", "hi": "यह एक छोटा राज्य है, पर क्षेत्रफल में गोवा से बड़ा।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-gk-16",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Who is the Supreme Commander of the Indian Armed Forces?", "hi": "भारतीय सशस्त्र सेना का सर्वोच्च सेनापति कौन होता है?" },
+      "optionsJson": [
+        { "en": "The Prime Minister", "hi": "प्रधानमंत्री" },
+        { "en": "The President", "hi": "राष्ट्रपति" },
+        { "en": "The Defence Minister", "hi": "रक्षा मंत्री" },
+        { "en": "The Chief of Defence Staff", "hi": "रक्षा स्टाफ प्रमुख" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The President of India is the constitutional Supreme Commander of the Armed Forces.", "hi": "भारत का राष्ट्रपति सशस्त्र सेना का संवैधानिक सर्वोच्च सेनापति होता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Heads the government and the Cabinet Committee on Security, but isn't the constitutional Supreme Commander.", "hi": "यह सरकार और सुरक्षा पर मंत्रिमंडलीय समिति का प्रमुख होता है, पर संवैधानिक सर्वोच्च सेनापति नहीं।" },
+        "2": { "en": "Oversees defence policy and administration, but isn't the constitutional Supreme Commander.", "hi": "यह रक्षा नीति और प्रशासन की देखरेख करता है, पर संवैधानिक सर्वोच्च सेनापति नहीं।" },
+        "3": { "en": "A senior military coordination role, but not the constitutional Supreme Commander.", "hi": "यह एक वरिष्ठ सैन्य समन्वय भूमिका है, पर संवैधानिक सर्वोच्च सेनापति नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-gk-17",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which gas is commonly used in fire extinguishers?", "hi": "अग्निशामक यंत्रों में सामान्यतः किस गैस का प्रयोग किया जाता है?" },
+      "optionsJson": [
+        { "en": "Oxygen", "hi": "ऑक्सीजन" },
+        { "en": "Carbon dioxide", "hi": "कार्बन डाइऑक्साइड" },
+        { "en": "Hydrogen", "hi": "हाइड्रोजन" },
+        { "en": "Nitrogen", "hi": "नाइट्रोजन" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Carbon dioxide is commonly used in fire extinguishers because it doesn't support combustion and displaces oxygen from the fire.", "hi": "कार्बन डाइऑक्साइड का प्रयोग सामान्यतः अग्निशामक यंत्रों में किया जाता है क्योंकि यह दहन को समर्थन नहीं देता और आग से ऑक्सीजन को विस्थापित करता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Oxygen actually supports and intensifies combustion — the opposite of what's needed.", "hi": "ऑक्सीजन वास्तव में दहन को समर्थन देता है और तीव्र करता है — जो आवश्यकता के विपरीत है।" },
+        "2": { "en": "Hydrogen is highly flammable and would make a fire worse, not extinguish it.", "hi": "हाइड्रोजन अत्यधिक ज्वलनशील है और आग को बदतर बना देगा, बुझाएगा नहीं।" },
+        "3": { "en": "While inert, nitrogen isn't the standard gas used in common fire extinguishers.", "hi": "यद्यपि अक्रिय है, नाइट्रोजन सामान्य अग्निशामक यंत्रों में प्रयुक्त मानक गैस नहीं है।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-gk-18",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The Non-Aligned Movement (NAM), which India was a founding member of, primarily emerged during which period?", "hi": "गुटनिरपेक्ष आंदोलन (NAM), जिसका भारत एक संस्थापक सदस्य था, मुख्यतः किस काल में उभरा?" },
+      "optionsJson": [
+        { "en": "The Cold War era", "hi": "शीत युद्ध का काल" },
+        { "en": "World War I", "hi": "प्रथम विश्व युद्ध" },
+        { "en": "The Mughal era", "hi": "मुग़ल काल" },
+        { "en": "After the year 2000", "hi": "वर्ष 2000 के बाद" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "NAM emerged during the Cold War as a group of states not formally aligned with either the US or Soviet bloc.", "hi": "NAM शीत युद्ध के दौरान उन राज्यों के समूह के रूप में उभरा जो औपचारिक रूप से न तो अमेरिकी और न ही सोवियत गुट से जुड़े थे।" },
+      "distractorAnalysis": {
+        "1": { "en": "Long before NAM existed — NAM formed decades after this war.", "hi": "यह NAM के अस्तित्व में आने से बहुत पहले का काल है — NAM इस युद्ध के दशकों बाद बना।" },
+        "2": { "en": "Centuries before NAM existed.", "hi": "यह NAM के अस्तित्व में आने से सदियों पहले का काल है।" },
+        "3": { "en": "NAM was founded decades earlier, in 1961, not after 2000.", "hi": "NAM की स्थापना दशकों पहले, 1961 में हुई थी, 2000 के बाद नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-gk-19",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "How many states and union territories does India currently have, combined (as commonly cited)?", "hi": "भारत में वर्तमान में कुल कितने राज्य और केंद्र शासित प्रदेश हैं (जैसा सामान्यतः बताया जाता है)?" },
+      "optionsJson": [
+        { "en": "28 states + 8 union territories", "hi": "28 राज्य + 8 केंद्र शासित प्रदेश" },
+        { "en": "29 states + 7 union territories", "hi": "29 राज्य + 7 केंद्र शासित प्रदेश" },
+        { "en": "25 states + 10 union territories", "hi": "25 राज्य + 10 केंद्र शासित प्रदेश" },
+        { "en": "30 states + 5 union territories", "hi": "30 राज्य + 5 केंद्र शासित प्रदेश" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "India currently has 28 states and 8 union territories, following the 2019 reorganization of Jammu & Kashmir.", "hi": "जम्मू-कश्मीर के 2019 के पुनर्गठन के बाद, भारत में वर्तमान में 28 राज्य और 8 केंद्र शासित प्रदेश हैं।" },
+      "distractorAnalysis": {
+        "1": { "en": "This was the count before the 2019 reorganization, not the current one.", "hi": "यह 2019 के पुनर्गठन से पहले की गिनती थी, वर्तमान नहीं।" },
+        "2": { "en": "Does not match either the current or historical official count.", "hi": "यह वर्तमान या ऐतिहासिक किसी भी आधिकारिक गिनती से मेल नहीं खाता।" },
+        "3": { "en": "Does not match either the current or historical official count.", "hi": "यह वर्तमान या ऐतिहासिक किसी भी आधिकारिक गिनती से मेल नहीं खाता।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-gk-20",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The \"Quit India Movement\" was launched by Mahatma Gandhi in which year?", "hi": "\"भारत छोड़ो आंदोलन\" महात्मा गांधी द्वारा किस वर्ष शुरू किया गया था?" },
+      "optionsJson": [
+        { "en": "1920", "hi": "1920" },
+        { "en": "1930", "hi": "1930" },
+        { "en": "1942", "hi": "1942" },
+        { "en": "1947", "hi": "1947" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The Quit India Movement was launched in August 1942, demanding an end to British rule.", "hi": "भारत छोड़ो आंदोलन अगस्त 1942 में शुरू किया गया था, जिसमें ब्रिटिश शासन के अंत की माँग की गई थी।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is when the Non-Cooperation Movement began, not Quit India.", "hi": "यह वह वर्ष है जब असहयोग आंदोलन शुरू हुआ, भारत छोड़ो नहीं।" },
+        "1": { "en": "This is when the Civil Disobedience Movement/Dandi March began, not Quit India.", "hi": "यह वह वर्ष है जब सविनय अवज्ञा आंदोलन/दांडी मार्च शुरू हुआ, भारत छोड़ो नहीं।" },
+        "3": { "en": "This is India's independence year, five years after the Quit India Movement began.", "hi": "यह भारत की स्वतंत्रता का वर्ष है, भारत छोड़ो आंदोलन शुरू होने के पाँच वर्ष बाद।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-gk-21",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which is the national bird of India?", "hi": "भारत का राष्ट्रीय पक्षी कौन-सा है?" },
+      "optionsJson": [
+        { "en": "Parrot", "hi": "तोता" },
+        { "en": "Peacock", "hi": "मोर" },
+        { "en": "Sparrow", "hi": "गौरैया" },
+        { "en": "Eagle", "hi": "बाज़" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The Peacock is India's national bird, known for its vibrant, colourful plumage.", "hi": "मोर भारत का राष्ट्रीय पक्षी है, जो अपने जीवंत, रंगीन पंखों के लिए जाना जाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "A commonly seen bird in India, but not the national bird.", "hi": "यह भारत में सामान्यतः देखा जाने वाला पक्षी है, पर राष्ट्रीय पक्षी नहीं।" },
+        "2": { "en": "India's national bird for common household biodiversity awareness, but not officially the national bird symbol.", "hi": "यह घरेलू जैवविविधता जागरूकता के लिए जाना जाने वाला पक्षी है, पर आधिकारिक राष्ट्रीय पक्षी प्रतीक नहीं।" },
+        "3": { "en": "A powerful bird of prey, but not India's national bird.", "hi": "यह एक शक्तिशाली शिकारी पक्षी है, पर भारत का राष्ट्रीय पक्षी नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-gk-22",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Which of the following defence indigenization initiatives aims to boost domestic manufacturing of military equipment in India?", "hi": "निम्नलिखित में से कौन-सी रक्षा स्वदेशीकरण पहल भारत में सैन्य उपकरणों के घरेलू निर्माण को बढ़ावा देने का लक्ष्य रखती है?" },
+      "optionsJson": [
+        { "en": "Make in India (Defence)", "hi": "मेक इन इंडिया (रक्षा)" },
+        { "en": "Digital India", "hi": "डिजिटल इंडिया" },
+        { "en": "Skill India", "hi": "स्किल इंडिया" },
+        { "en": "Swachh Bharat", "hi": "स्वच्छ भारत" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The \"Make in India\" initiative, applied to the defence sector, promotes domestic manufacturing of military equipment to reduce import dependence.", "hi": "\"मेक इन इंडिया\" पहल, रक्षा क्षेत्र पर लागू होकर, आयात निर्भरता घटाने के लिए सैन्य उपकरणों के घरेलू निर्माण को बढ़ावा देती है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Focuses on digital infrastructure and services, not defence manufacturing.", "hi": "यह डिजिटल अवसंरचना और सेवाओं पर केंद्रित है, रक्षा निर्माण पर नहीं।" },
+        "2": { "en": "Focuses on vocational skill training generally, not specifically defence manufacturing.", "hi": "यह सामान्य व्यावसायिक कौशल प्रशिक्षण पर केंद्रित है, विशेष रूप से रक्षा निर्माण पर नहीं।" },
+        "3": { "en": "Focuses on sanitation and cleanliness, unrelated to defence manufacturing.", "hi": "यह स्वच्छता पर केंद्रित है, रक्षा निर्माण से असंबंधित।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-gk-23",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which Indian state is the largest producer of tea?", "hi": "चाय का सबसे बड़ा उत्पादक भारतीय राज्य कौन-सा है?" },
+      "optionsJson": [
+        { "en": "Assam", "hi": "असम" },
+        { "en": "Kerala", "hi": "केरल" },
+        { "en": "Punjab", "hi": "पंजाब" },
+        { "en": "Rajasthan", "hi": "राजस्थान" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Assam is India's largest tea-producing state, known for its distinct, strong tea.", "hi": "असम भारत का सबसे बड़ा चाय-उत्पादक राज्य है, जो अपनी विशिष्ट, तीखी चाय के लिए जाना जाता है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Produces some tea and spices, but far less than Assam.", "hi": "यह कुछ चाय और मसाले उत्पन्न करता है, पर असम से बहुत कम।" },
+        "2": { "en": "Known for agriculture generally, but not a major tea producer.", "hi": "यह सामान्यतः कृषि के लिए जाना जाता है, पर एक प्रमुख चाय उत्पादक नहीं है।" },
+        "3": { "en": "Known for its arid climate, not tea production.", "hi": "यह अपनी शुष्क जलवायु के लिए जाना जाता है, चाय उत्पादन के लिए नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-gk-24",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The National Cadet Corps (NCC) in India functions under which ministry?", "hi": "भारत में राष्ट्रीय कैडेट कोर (NCC) किस मंत्रालय के अधीन कार्य करता है?" },
+      "optionsJson": [
+        { "en": "Ministry of Education", "hi": "शिक्षा मंत्रालय" },
+        { "en": "Ministry of Defence", "hi": "रक्षा मंत्रालय" },
+        { "en": "Ministry of Home Affairs", "hi": "गृह मंत्रालय" },
+        { "en": "Ministry of Youth Affairs and Sports", "hi": "युवा कार्यक्रम और खेल मंत्रालय" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The NCC functions under the Ministry of Defence, though it operates through schools and colleges nationwide.", "hi": "NCC रक्षा मंत्रालय के अधीन कार्य करता है, यद्यपि यह देशभर के स्कूलों और कॉलेजों के माध्यम से संचालित होता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Runs the general education system, but the NCC itself is administered under Defence.", "hi": "यह सामान्य शिक्षा प्रणाली चलाता है, पर NCC स्वयं रक्षा के अधीन प्रशासित है।" },
+        "2": { "en": "Oversees internal security and paramilitary forces, not the NCC.", "hi": "यह आंतरिक सुरक्षा और अर्धसैनिक बलों की देखरेख करता है, NCC की नहीं।" },
+        "3": { "en": "Oversees sports and youth programs, not the NCC's administrative ministry.", "hi": "यह खेल और युवा कार्यक्रमों की देखरेख करता है, NCC के प्रशासनिक मंत्रालय की नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p2-gk-25",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": { "en": "India's Right to Information (RTI) Act, empowering citizens to seek information from public authorities, was enacted in which year?", "hi": "भारत का सूचना का अधिकार (RTI) अधिनियम, जो नागरिकों को सार्वजनिक प्राधिकरणों से जानकारी माँगने का अधिकार देता है, किस वर्ष लागू हुआ?" },
+      "optionsJson": [
+        { "en": "2005", "hi": "2005" },
+        { "en": "1995", "hi": "1995" },
+        { "en": "2010", "hi": "2010" },
+        { "en": "2015", "hi": "2015" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The Right to Information Act was enacted in 2005, giving citizens the right to request information from government bodies.", "hi": "सूचना का अधिकार अधिनियम 2005 में लागू हुआ, जो नागरिकों को सरकारी निकायों से जानकारी माँगने का अधिकार देता है।" },
+      "distractorAnalysis": {
+        "1": { "en": "A decade before the RTI Act was actually passed.", "hi": "यह RTI अधिनियम के वास्तविक पारित होने से एक दशक पहले का वर्ष है।" },
+        "2": { "en": "Several years after the RTI Act was already in force.", "hi": "यह RTI अधिनियम के पहले ही लागू होने के कई वर्षों बाद का वर्ष है।" },
+        "3": { "en": "A decade after the RTI Act was actually passed.", "hi": "यह RTI अधिनियम के वास्तविक पारित होने के एक दशक बाद का वर्ष है।" }
+      }
+    }
+  ]
+}

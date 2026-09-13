@@ -1,0 +1,484 @@
+{
+  "examType": "RMS",
+  "classLevel": 6,
+  "paperNumber": 1,
+  "sectionKey": "mental_ability",
+  "generatedAt": "2026-09-13T00:00:00.000Z",
+  "questions": [
+    {
+      "key": "rms6-p1-ma-01",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Find the odd one out: Rose, Lily, Lotus, Carrot", "hi": "असंगत शब्द चुनें: गुलाब, लिली, कमल, गाजर" },
+      "optionsJson": [
+        { "en": "Rose", "hi": "गुलाब" },
+        { "en": "Lily", "hi": "लिली" },
+        { "en": "Lotus", "hi": "कमल" },
+        { "en": "Carrot", "hi": "गाजर" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Rose, Lily, and Lotus are flowers; Carrot is a root vegetable.", "hi": "गुलाब, लिली और कमल फूल हैं; गाजर एक जड़-सब्जी है।" },
+      "distractorAnalysis": {
+        "0": { "en": "A flower, part of the majority group.", "hi": "यह एक फूल है, बहुसंख्यक समूह का भाग।" },
+        "1": { "en": "A flower, part of the majority group.", "hi": "यह एक फूल है, बहुसंख्यक समूह का भाग।" },
+        "2": { "en": "A flower, part of the majority group.", "hi": "यह एक फूल है, बहुसंख्यक समूह का भाग।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ma-02",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Complete the series: 5, 10, 15, 20, ___?", "hi": "श्रृंखला पूरी करें: 5, 10, 15, 20, ___?" },
+      "optionsJson": [
+        { "en": "22", "hi": "22" },
+        { "en": "24", "hi": "24" },
+        { "en": "25", "hi": "25" },
+        { "en": "30", "hi": "30" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Each term increases by 5, so after 20 comes 25.", "hi": "प्रत्येक पद में 5 की वृद्धि होती है, अतः 20 के बाद 25 आएगा।" },
+      "distractorAnalysis": {
+        "0": { "en": "Adds 2 instead of the actual pattern step, 5.", "hi": "वास्तविक अंतर 5 के बजाय 2 जोड़ दिया।" },
+        "1": { "en": "Adds 4 instead of 5.", "hi": "5 के बजाय 4 जोड़ दिया।" },
+        "3": { "en": "Skips ahead by adding 10 instead of 5.", "hi": "5 के बजाय 10 जोड़कर आगे बढ़ गए।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ma-03",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "If BOX is coded as CPY, how is PEN coded?", "hi": "यदि BOX को CPY के रूप में कूटबद्ध किया जाता है, तो PEN को कैसे कूटबद्ध किया जाएगा?" },
+      "optionsJson": [
+        { "en": "QFO", "hi": "QFO" },
+        { "en": "QFN", "hi": "QFN" },
+        { "en": "OFN", "hi": "OFN" },
+        { "en": "QEO", "hi": "QEO" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Each letter moves 1 step forward: B→C, O→P, X→Y. Similarly P→Q, E→F, N→O, giving QFO.", "hi": "प्रत्येक अक्षर एक स्थान आगे बढ़ता है: B→C, O→P, X→Y। इसी प्रकार P→Q, E→F, N→O, अतः QFO प्राप्त होता है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Leaves the last letter unshifted by mistake.", "hi": "अंतिम अक्षर को गलती से बिना स्थानांतरित किए छोड़ दिया।" },
+        "2": { "en": "Leaves the first letter unshifted by mistake.", "hi": "पहले अक्षर को गलती से बिना स्थानांतरित किए छोड़ दिया।" },
+        "3": { "en": "Leaves the middle letter unshifted by mistake.", "hi": "मध्य अक्षर को गलती से बिना स्थानांतरित किए छोड़ दिया।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ma-04",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Pointing to a boy, Meena said, \"He is the son of my father's only daughter.\" How is the boy related to Meena?", "hi": "एक लड़के की ओर इशारा करते हुए मीना ने कहा, \"वह मेरे पिता की इकलौती बेटी का पुत्र है।\" वह लड़का मीना से किस प्रकार संबंधित है?" },
+      "optionsJson": [
+        { "en": "Brother", "hi": "भाई" },
+        { "en": "Son", "hi": "पुत्र" },
+        { "en": "Nephew", "hi": "भतीजा" },
+        { "en": "Cousin", "hi": "चचेरा भाई" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Father's only daughter is Meena herself, so the boy (her son) is Meena's own son.", "hi": "पिता की इकलौती बेटी स्वयं मीना ही है, अतः वह लड़का (उसका पुत्र) मीना का अपना पुत्र है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Would apply only if the daughter mentioned were someone other than Meena.", "hi": "यह तभी लागू होता यदि उल्लिखित बेटी मीना से कोई और होती।" },
+        "2": { "en": "Would apply if Meena had a sibling whose son this was, but here the daughter is Meena herself.", "hi": "यह तभी लागू होता यदि यह मीना के भाई-बहन का पुत्र होता, पर यहाँ बेटी स्वयं मीना है।" },
+        "3": { "en": "Confuses the generational level of the relationship.", "hi": "संबंध के पीढ़ीगत स्तर को भ्रमित कर दिया।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ma-05",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Find the missing number: 1, 4, 9, 16, ___?", "hi": "लुप्त संख्या ज्ञात करें: 1, 4, 9, 16, ___?" },
+      "optionsJson": [
+        { "en": "20", "hi": "20" },
+        { "en": "25", "hi": "25" },
+        { "en": "22", "hi": "22" },
+        { "en": "24", "hi": "24" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "These are squares of 1,2,3,4 — the next square is 5² = 25.", "hi": "ये 1,2,3,4 के वर्ग हैं — अगला वर्ग 5² = 25 है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Adds a fixed difference instead of recognizing the square-number pattern.", "hi": "वर्ग-संख्या क्रम पहचानने के बजाय एक निश्चित अंतर जोड़ दिया।" },
+        "2": { "en": "Close to the correct square but computed with an arithmetic slip.", "hi": "सही वर्ग के निकट है पर गणना में भूल हुई।" },
+        "3": { "en": "Undershoots the correct square number.", "hi": "सही वर्ग संख्या से कम अनुमान लगाया।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ma-06",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Soldier is to Army as Sailor is to ___?", "hi": "सैनिक का संबंध सेना से है जैसे नाविक का संबंध ___ से है?" },
+      "optionsJson": [
+        { "en": "Ship", "hi": "जहाज़" },
+        { "en": "Navy", "hi": "नौसेना" },
+        { "en": "Ocean", "hi": "महासागर" },
+        { "en": "Port", "hi": "बंदरगाह" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "A soldier belongs to the Army; a sailor belongs to the Navy — matching the type of force each serves in.", "hi": "एक सैनिक सेना से संबंधित है; एक नाविक नौसेना से संबंधित है — प्रत्येक जिस बल में सेवा करता है, उससे मेल खाता हुआ।" },
+      "distractorAnalysis": {
+        "0": { "en": "Where a sailor works, not the organization (parallel to Army) they belong to.", "hi": "यह वह स्थान है जहाँ नाविक कार्य करता है, वह संगठन (सेना के समानांतर) नहीं जिससे वह संबंधित है।" },
+        "2": { "en": "The environment a sailor works in, not the organization.", "hi": "यह वह वातावरण है जिसमें नाविक कार्य करता है, संगठन नहीं।" },
+        "3": { "en": "A location associated with ships, not the organization a sailor belongs to.", "hi": "यह जहाज़ों से जुड़ा एक स्थान है, वह संगठन नहीं जिससे नाविक संबंधित है।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ma-07",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "In a certain code, HOUSE is written as IPVTF. How is TABLE written in that code?", "hi": "एक निश्चित कूट में HOUSE को IPVTF लिखा जाता है। उसी कूट में TABLE कैसे लिखा जाएगा?" },
+      "optionsJson": [
+        { "en": "UBCMF", "hi": "UBCMF" },
+        { "en": "UBCMG", "hi": "UBCMG" },
+        { "en": "SBCMF", "hi": "SBCMF" },
+        { "en": "UACMF", "hi": "UACMF" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Each letter shifts 1 step forward: T→U, A→B, B→C, L→M, E→F, giving UBCMF.", "hi": "प्रत्येक अक्षर एक स्थान आगे बढ़ता है: T→U, A→B, B→C, L→M, E→F, अतः UBCMF प्राप्त होता है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Shifts the last letter by 2 steps instead of 1.", "hi": "अंतिम अक्षर को 1 के बजाय 2 स्थान आगे बढ़ा दिया।" },
+        "2": { "en": "Leaves the first letter unshifted by mistake.", "hi": "पहले अक्षर को गलती से बिना स्थानांतरित किए छोड़ दिया।" },
+        "3": { "en": "Leaves the second letter unshifted by mistake.", "hi": "दूसरे अक्षर को गलती से बिना स्थानांतरित किए छोड़ दिया।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ma-08",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "X is Y's father. Z is Y's sister. W is Z's mother. How is X related to W?", "hi": "X, Y का पिता है। Z, Y की बहन है। W, Z की माँ है। X का W से क्या संबंध है?" },
+      "optionsJson": [
+        { "en": "Son", "hi": "पुत्र" },
+        { "en": "Father", "hi": "पिता" },
+        { "en": "Husband", "hi": "पति" },
+        { "en": "Brother", "hi": "भाई" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Z is Y's sister, so W (Z's mother) is also Y's mother. X is Y's father, so X and W are spouses — X is W's husband.", "hi": "Z, Y की बहन है, अतः W (Z की माँ) भी Y की माँ है। X, Y का पिता है, अतः X और W पति-पत्नी हैं — X, W का पति है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Confuses X's generation with a younger one — X is of W's own generation, not her child's.", "hi": "X की पीढ़ी को एक छोटी पीढ़ी से भ्रमित कर दिया — X, W की अपनी पीढ़ी का है, उसकी संतान का नहीं।" },
+        "1": { "en": "Would apply if W were X's child, but W is X's spouse here.", "hi": "यह तभी लागू होता यदि W, X की संतान होती, पर यहाँ W, X की पत्नी है।" },
+        "3": { "en": "Would apply only if X and W shared the same parents, which isn't given here.", "hi": "यह तभी लागू होता यदि X और W के माता-पिता समान होते, जो यहाँ नहीं दिया गया।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ma-09",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Find the odd one out: Guitar, Violin, Flute, Football", "hi": "असंगत शब्द चुनें: गिटार, वायलिन, बांसुरी, फुटबॉल" },
+      "optionsJson": [
+        { "en": "Guitar", "hi": "गिटार" },
+        { "en": "Violin", "hi": "वायलिन" },
+        { "en": "Flute", "hi": "बांसुरी" },
+        { "en": "Football", "hi": "फुटबॉल" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Guitar, Violin, and Flute are musical instruments; Football is a sports item.", "hi": "गिटार, वायलिन और बांसुरी वाद्ययंत्र हैं; फुटबॉल एक खेल-सामग्री है।" },
+      "distractorAnalysis": {
+        "0": { "en": "A musical instrument, part of the majority group.", "hi": "यह एक वाद्ययंत्र है, बहुसंख्यक समूह का भाग।" },
+        "1": { "en": "A musical instrument, part of the majority group.", "hi": "यह एक वाद्ययंत्र है, बहुसंख्यक समूह का भाग।" },
+        "2": { "en": "A musical instrument, part of the majority group.", "hi": "यह एक वाद्ययंत्र है, बहुसंख्यक समूह का भाग।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ma-10",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "If NORTH is coded as HTRON (reversed), how is SOUTH coded the same way?", "hi": "यदि NORTH को HTRON (उल्टा) के रूप में कूटबद्ध किया जाता है, तो उसी तरह SOUTH कैसे कूटबद्ध होगा?" },
+      "optionsJson": [
+        { "en": "HTUOS", "hi": "HTUOS" },
+        { "en": "HTUSO", "hi": "HTUSO" },
+        { "en": "SHTUO", "hi": "SHTUO" },
+        { "en": "OHTUS", "hi": "OHTUS" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The code simply reverses the letters: SOUTH reversed letter-by-letter is HTUOS.", "hi": "कूट में अक्षरों को केवल उल्टा कर दिया जाता है: SOUTH को अक्षर-दर-अक्षर उल्टा करने पर HTUOS बनता है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Reverses correctly but swaps the last two letters.", "hi": "सही उल्टा किया पर अंतिम दो अक्षरों को अदल-बदल कर दिया।" },
+        "2": { "en": "Moves only the first letter to the end instead of reversing the whole word.", "hi": "पूरे शब्द को उल्टा करने के बजाय केवल पहले अक्षर को अंत में ले गए।" },
+        "3": { "en": "Moves only the last letter to the front instead of reversing the whole word.", "hi": "पूरे शब्द को उल्टा करने के बजाय केवल अंतिम अक्षर को आगे ले गए।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ma-11",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Suresh walks 4 km East, then turns right and walks 6 km. In which direction is he now facing?", "hi": "सुरेश 4 किमी पूर्व की ओर चलता है, फिर दाईं ओर मुड़कर 6 किमी चलता है। अब वह किस दिशा की ओर मुख किए हुए है?" },
+      "optionsJson": [
+        { "en": "North", "hi": "उत्तर" },
+        { "en": "South", "hi": "दक्षिण" },
+        { "en": "East", "hi": "पूर्व" },
+        { "en": "West", "hi": "पश्चिम" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Facing East, turning right means now facing South.", "hi": "पूर्व की ओर मुख किए हुए दाईं ओर मुड़ने पर अब मुख दक्षिण की ओर हो जाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "This would be the result of turning left from East, not right.", "hi": "यह पूर्व से बाईं ओर मुड़ने का परिणाम होता, दाईं ओर का नहीं।" },
+        "2": { "en": "This was his direction before turning, not after.", "hi": "यह मुड़ने से पहले की दिशा थी, बाद की नहीं।" },
+        "3": { "en": "This would be the result of turning around fully, not just turning right.", "hi": "यह पूरी तरह घूम जाने का परिणाम होता, केवल दाईं ओर मुड़ने का नहीं।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ma-12",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Choose the word that is different from the others.", "hi": "वह शब्द चुनें जो बाकियों से भिन्न है।" },
+      "optionsJson": [
+        { "en": "Ganga", "hi": "गंगा" },
+        { "en": "Yamuna", "hi": "यमुना" },
+        { "en": "Himalayas", "hi": "हिमालय" },
+        { "en": "Godavari", "hi": "गोदावरी" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Ganga, Yamuna, and Godavari are rivers; Himalayas is a mountain range.", "hi": "गंगा, यमुना और गोदावरी नदियाँ हैं; हिमालय एक पर्वत श्रृंखला है।" },
+      "distractorAnalysis": {
+        "0": { "en": "A river, part of the majority group.", "hi": "यह एक नदी है, बहुसंख्यक समूह का भाग।" },
+        "1": { "en": "A river, part of the majority group.", "hi": "यह एक नदी है, बहुसंख्यक समूह का भाग।" },
+        "3": { "en": "A river, part of the majority group.", "hi": "यह एक नदी है, बहुसंख्यक समूह का भाग।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ma-13",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "If '+' means '×', '−' means '÷', '×' means '−', and '÷' means '+', find the value of: 20 ÷ 4 + 3 − 2", "hi": "यदि '+' का अर्थ '×', '−' का अर्थ '÷', '×' का अर्थ '−' और '÷' का अर्थ '+' है, तो मान ज्ञात करें: 20 ÷ 4 + 3 − 2" },
+      "optionsJson": [
+        { "en": "26", "hi": "26" },
+        { "en": "36", "hi": "36" },
+        { "en": "30", "hi": "30" },
+        { "en": "6", "hi": "6" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Substituting the coded meanings, 20 ÷ 4 + 3 − 2 becomes 20 + 4 × 3 ÷ 2. By BODMAS: 4×3=12, 12÷2=6, then 20+6=26.", "hi": "प्रतिस्थापन के बाद: 20 + 4 × 3 ÷ 2। BODMAS से: 4×3=12, 12÷2=6, फिर 20+6=26।" },
+      "distractorAnalysis": {
+        "1": { "en": "Solves left-to-right ignoring BODMAS: (20+4)×3÷2 = 36.", "hi": "BODMAS की अनदेखी करते हुए बाएँ से दाएँ हल किया: (20+4)×3÷2 = 36।" },
+        "2": { "en": "Substitutes only some of the symbols, leaving the last operator unchanged.", "hi": "केवल कुछ प्रतीक बदले, अंतिम संकारक को अपरिवर्तित छोड़ दिया।" },
+        "3": { "en": "Ignores the leading 20, computing only 4×3÷2.", "hi": "आरंभिक 20 की अनदेखी करते हुए केवल 4×3÷2 की गणना की।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ma-14",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Find the missing letter: C, F, I, L, ___?", "hi": "लुप्त अक्षर ज्ञात करें: C, F, I, L, ___?" },
+      "optionsJson": [
+        { "en": "M", "hi": "M" },
+        { "en": "N", "hi": "N" },
+        { "en": "O", "hi": "O" },
+        { "en": "P", "hi": "P" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Each letter skips two ahead: C(+3)F(+3)I(+3)L(+3)O.", "hi": "प्रत्येक अक्षर तीन आगे बढ़ता है: C(+3)F(+3)I(+3)L(+3)O।" },
+      "distractorAnalysis": {
+        "0": { "en": "Only one step ahead of L, not three.", "hi": "L से केवल एक स्थान आगे, तीन नहीं।" },
+        "1": { "en": "Only two steps ahead of L, not three.", "hi": "L से केवल दो स्थान आगे, तीन नहीं।" },
+        "3": { "en": "Overshoots by one extra step beyond the correct letter.", "hi": "सही अक्षर से एक अतिरिक्त स्थान आगे निकल गए।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ma-15",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Pointing to a woman, Arjun said, \"She is the wife of my father's only brother.\" How is the woman related to Arjun?", "hi": "एक महिला की ओर इशारा करते हुए अर्जुन ने कहा, \"वह मेरे पिता के इकलौते भाई की पत्नी है।\" वह महिला अर्जुन से किस प्रकार संबंधित है?" },
+      "optionsJson": [
+        { "en": "Mother", "hi": "माँ" },
+        { "en": "Aunt", "hi": "चाची" },
+        { "en": "Sister", "hi": "बहन" },
+        { "en": "Grandmother", "hi": "दादी" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Father's brother is Arjun's uncle (chacha); his wife is Arjun's aunt (chachi).", "hi": "पिता का भाई अर्जुन के चाचा हैं; उनकी पत्नी अर्जुन की चाची हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "Would apply only if she were married to Arjun's father himself, not his brother.", "hi": "यह तभी लागू होता यदि उसका विवाह स्वयं अर्जुन के पिता से हुआ होता, उनके भाई से नहीं।" },
+        "2": { "en": "Confuses the woman's generation with Arjun's own.", "hi": "महिला की पीढ़ी को अर्जुन की अपनी पीढ़ी से भ्रमित कर दिया।" },
+        "3": { "en": "Confuses the woman's generation with one generation further up.", "hi": "महिला की पीढ़ी को एक पीढ़ी और ऊपर से भ्रमित कर दिया।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ma-16",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which number should replace the question mark? 9, 18, 27, 36, ?", "hi": "प्रश्न चिह्न के स्थान पर कौन-सी संख्या आएगी? 9, 18, 27, 36, ?" },
+      "optionsJson": [
+        { "en": "40", "hi": "40" },
+        { "en": "42", "hi": "42" },
+        { "en": "45", "hi": "45" },
+        { "en": "48", "hi": "48" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "This is the 9-times table: 9,18,27,36,45.", "hi": "यह 9 का पहाड़ा है: 9,18,27,36,45।" },
+      "distractorAnalysis": {
+        "0": { "en": "Adds only 4 instead of the pattern's step, 9.", "hi": "9 के बजाय केवल 4 जोड़ दिया।" },
+        "1": { "en": "Adds only 6 instead of 9.", "hi": "9 के बजाय केवल 6 जोड़ दिया।" },
+        "3": { "en": "Overshoots the correct multiple of 9.", "hi": "सही 9 के गुणज से अधिक अनुमान लगाया।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ma-17",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "If today is Monday, what day will it be after 17 days?", "hi": "यदि आज सोमवार है, तो 17 दिनों बाद कौन-सा दिन होगा?" },
+      "optionsJson": [
+        { "en": "Wednesday", "hi": "बुधवार" },
+        { "en": "Thursday", "hi": "गुरुवार" },
+        { "en": "Friday", "hi": "शुक्रवार" },
+        { "en": "Tuesday", "hi": "मंगलवार" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "17 days = 2 weeks (14 days) + 3 extra days. Monday + 3 days = Thursday.", "hi": "17 दिन = 2 सप्ताह (14 दिन) + 3 अतिरिक्त दिन। सोमवार + 3 दिन = गुरुवार।" },
+      "distractorAnalysis": {
+        "0": { "en": "Only adds 2 extra days instead of 3.", "hi": "3 के बजाय केवल 2 अतिरिक्त दिन जोड़े।" },
+        "2": { "en": "Adds 4 extra days instead of 3.", "hi": "3 के बजाय 4 अतिरिक्त दिन जोड़े।" },
+        "3": { "en": "Adds only 1 extra day instead of 3.", "hi": "3 के बजाय केवल 1 अतिरिक्त दिन जोड़ा।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ma-18",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Knife is to Cut as Needle is to ___?", "hi": "चाकू का संबंध काटने से है जैसे सुई का संबंध ___ से है?" },
+      "optionsJson": [
+        { "en": "Sew", "hi": "सिलना" },
+        { "en": "Poke", "hi": "चुभाना" },
+        { "en": "Thread", "hi": "धागा पिरोना" },
+        { "en": "Point", "hi": "इशारा करना" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "A knife's function is to cut; a needle's function is to sew.", "hi": "चाकू का कार्य काटना है; सुई का कार्य सिलना है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Describes an incidental sharp effect, not the needle's intended function.", "hi": "यह एक आकस्मिक नुकीला प्रभाव दर्शाता है, सुई का अभिप्रेत कार्य नहीं।" },
+        "2": { "en": "A preparatory step before sewing, not the overall function itself.", "hi": "यह सिलाई से पहले की एक तैयारी है, समग्र कार्य नहीं।" },
+        "3": { "en": "Not a function typically associated with a sewing needle.", "hi": "यह सिलाई की सुई से सामान्यतः जुड़ा कार्य नहीं है।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ma-19",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "In a row of soldiers, Vikram is 9th from the left and 14th from the right. How many soldiers are in the row?", "hi": "सैनिकों की एक पंक्ति में, विक्रम बाएँ से 9वें और दाएँ से 14वें स्थान पर है। पंक्ति में कुल कितने सैनिक हैं?" },
+      "optionsJson": [
+        { "en": "22", "hi": "22" },
+        { "en": "23", "hi": "23" },
+        { "en": "24", "hi": "24" },
+        { "en": "21", "hi": "21" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Total = (position from left) + (position from right) − 1 = 9+14−1 = 22.", "hi": "कुल = (बाएँ से स्थान) + (दाएँ से स्थान) − 1 = 9+14−1 = 22।" },
+      "distractorAnalysis": {
+        "1": { "en": "Forgets to subtract 1 for Vikram being counted twice.", "hi": "विक्रम को दो बार गिनने के कारण 1 घटाना भूल गए।" },
+        "2": { "en": "Adds an extra 2 instead of subtracting 1.", "hi": "1 घटाने के बजाय 2 अतिरिक्त जोड़ दिए।" },
+        "3": { "en": "Subtracts 2 instead of 1.", "hi": "1 के बजाय 2 घटा दिया।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ma-20",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Find the odd one out: Helicopter, Aeroplane, Glider, Submarine", "hi": "असंगत शब्द चुनें: हेलीकॉप्टर, हवाई जहाज़, ग्लाइडर, पनडुब्बी" },
+      "optionsJson": [
+        { "en": "Helicopter", "hi": "हेलीकॉप्टर" },
+        { "en": "Aeroplane", "hi": "हवाई जहाज़" },
+        { "en": "Glider", "hi": "ग्लाइडर" },
+        { "en": "Submarine", "hi": "पनडुब्बी" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Helicopter, Aeroplane, and Glider all travel through the air; a Submarine travels underwater.", "hi": "हेलीकॉप्टर, हवाई जहाज़ और ग्लाइडर सभी हवा में चलते हैं; पनडुब्बी पानी के नीचे चलती है।" },
+      "distractorAnalysis": {
+        "0": { "en": "An aircraft, part of the majority group.", "hi": "यह एक विमान है, बहुसंख्यक समूह का भाग।" },
+        "1": { "en": "An aircraft, part of the majority group.", "hi": "यह एक विमान है, बहुसंख्यक समूह का भाग।" },
+        "2": { "en": "An aircraft, part of the majority group.", "hi": "यह एक विमान है, बहुसंख्यक समूह का भाग।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ma-21",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "If facing North-West, through how many degrees (clockwise) must a person turn to face South-East?", "hi": "यदि उत्तर-पश्चिम की ओर मुख किए हुए है, तो दक्षिण-पूर्व की ओर मुख करने के लिए (दक्षिणावर्त) कितने अंश घूमना होगा?" },
+      "optionsJson": [
+        { "en": "90°", "hi": "90°" },
+        { "en": "135°", "hi": "135°" },
+        { "en": "180°", "hi": "180°" },
+        { "en": "270°", "hi": "270°" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "South-East is directly opposite North-West on the compass, so the turn required is 180°.", "hi": "दक्षिण-पूर्व, उत्तर-पश्चिम के ठीक विपरीत दिशा में है, अतः आवश्यक घुमाव 180° है।" },
+      "distractorAnalysis": {
+        "0": { "en": "This would only reach North-East or South-West, not the fully opposite direction.", "hi": "यह केवल उत्तर-पूर्व या दक्षिण-पश्चिम तक पहुँचाता, पूर्णतः विपरीत दिशा तक नहीं।" },
+        "1": { "en": "This would reach South or East, not the fully opposite South-East.", "hi": "यह दक्षिण या पूर्व तक पहुँचाता, पूर्णतः विपरीत दक्षिण-पूर्व तक नहीं।" },
+        "3": { "en": "Overshoots past the opposite direction by going three-quarters of the way around.", "hi": "तीन-चौथाई चक्कर लगाकर विपरीत दिशा से आगे निकल गए।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ma-22",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Complete the analogy: Cow is to Calf as Dog is to ___?", "hi": "सादृश्य पूरा करें: गाय का संबंध बछड़े से है जैसे कुत्ते का संबंध ___ से है?" },
+      "optionsJson": [
+        { "en": "Kitten", "hi": "बिल्ली का बच्चा" },
+        { "en": "Puppy", "hi": "पिल्ला" },
+        { "en": "Cub", "hi": "शावक" },
+        { "en": "Foal", "hi": "बछेड़ा" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "A calf is a baby cow; a puppy is a baby dog.", "hi": "बछड़ा गाय का बच्चा है; पिल्ला कुत्ते का बच्चा है।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is a baby cat, not a baby dog.", "hi": "यह बिल्ली का बच्चा है, कुत्ते का नहीं।" },
+        "2": { "en": "This is a baby lion or tiger, not a baby dog.", "hi": "यह शेर या बाघ का बच्चा है, कुत्ते का नहीं।" },
+        "3": { "en": "This is a baby horse, not a baby dog.", "hi": "यह घोड़े का बच्चा है, कुत्ते का नहीं।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ma-23",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Four friends A, B, C, D are sitting in a row. B is to the immediate right of A. D is at the extreme left. C is between B and D's neighbour... rephrased: D is at the extreme left, A is immediately right of D, B is immediately right of A, and C is at the extreme right. What is the order from left to right?", "hi": "चार मित्र A, B, C, D एक पंक्ति में बैठे हैं। D सबसे बाईं ओर है, A, D के ठीक दाईं ओर है, B, A के ठीक दाईं ओर है, और C सबसे दाईं ओर है। बाएँ से दाएँ क्रम क्या है?" },
+      "optionsJson": [
+        { "en": "D, A, B, C", "hi": "D, A, B, C" },
+        { "en": "A, D, B, C", "hi": "A, D, B, C" },
+        { "en": "D, B, A, C", "hi": "D, B, A, C" },
+        { "en": "D, A, C, B", "hi": "D, A, C, B" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "D is leftmost, then A immediately right of D, then B immediately right of A, and C is rightmost: D, A, B, C.", "hi": "D सबसे बाईं ओर है, फिर A, D के ठीक दाईं ओर, फिर B, A के ठीक दाईं ओर, और C सबसे दाईं ओर: D, A, B, C।" },
+      "distractorAnalysis": {
+        "1": { "en": "Swaps D and A's positions, breaking the 'D at the extreme left' condition.", "hi": "D और A के स्थान बदल दिए, जिससे 'D सबसे बाईं ओर' शर्त टूट जाती है।" },
+        "2": { "en": "Swaps A and B's positions, breaking the given adjacency order.", "hi": "A और B के स्थान बदल दिए, जिससे दी गई निकटता क्रम टूट जाती है।" },
+        "3": { "en": "Swaps B and C's positions, breaking the 'C at the extreme right' condition.", "hi": "B और C के स्थान बदल दिए, जिससे 'C सबसे दाईं ओर' शर्त टूट जाती है।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ma-24",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which figure comes next in the pattern: one dot, two dots, three dots, ___?", "hi": "इस क्रम में अगली आकृति क्या आएगी: एक बिंदु, दो बिंदु, तीन बिंदु, ___?" },
+      "optionsJson": [
+        { "en": "Four dots", "hi": "चार बिंदु" },
+        { "en": "Two dots again", "hi": "फिर से दो बिंदु" },
+        { "en": "One dot", "hi": "एक बिंदु" },
+        { "en": "No dots", "hi": "कोई बिंदु नहीं" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The pattern adds one more dot each step, so after three dots comes four dots.", "hi": "क्रम में हर चरण पर एक और बिंदु जुड़ता है, अतः तीन बिंदुओं के बाद चार बिंदु आएँगे।" },
+      "distractorAnalysis": {
+        "1": { "en": "Reverses the pattern's progressive increase.", "hi": "क्रम की क्रमिक वृद्धि को उलट दिया।" },
+        "2": { "en": "Reverses all the way back to the very first step.", "hi": "पूरी तरह पहले चरण तक वापस चले गए।" },
+        "3": { "en": "Breaks the pattern entirely by removing all dots.", "hi": "सभी बिंदु हटाकर क्रम को पूरी तरह तोड़ दिया।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ma-25",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": { "en": "In a certain code language, 'sa ri ta' means 'sky is blue', 'ta ma ho' means 'blue and green', and 'ri ho ka' means 'sky green bird'. Which word means 'sky' in that language?", "hi": "एक निश्चित कूट भाषा में, 'sa ri ta' का अर्थ है 'आकाश नीला है', 'ta ma ho' का अर्थ है 'नीला और हरा', तथा 'ri ho ka' का अर्थ है 'आकाश हरा पक्षी'। उस भाषा में 'आकाश' के लिए कौन-सा शब्द है?" },
+      "optionsJson": [
+        { "en": "sa", "hi": "sa" },
+        { "en": "ri", "hi": "ri" },
+        { "en": "ta", "hi": "ta" },
+        { "en": "ho", "hi": "ho" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "'ri' is common to sentences 1 and 3, both containing 'sky' — so 'ri' means 'sky'.", "hi": "'ri' पहले और तीसरे वाक्य में समान है, दोनों में 'आकाश' है — अतः 'ri' का अर्थ 'आकाश' है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Appears only in sentence 1 and isn't shared with any other sentence containing 'sky'.", "hi": "यह केवल पहले वाक्य में है और 'आकाश' वाले किसी अन्य वाक्य में साझा नहीं है।" },
+        "2": { "en": "'ta' is common to sentences 1 and 2, both containing 'blue', so it means 'blue', not 'sky'.", "hi": "'ta' पहले और दूसरे वाक्य में समान है, दोनों में 'नीला' है, अतः इसका अर्थ 'नीला' है, 'आकाश' नहीं।" },
+        "3": { "en": "'ho' is common to sentences 2 and 3, both containing 'green', so it means 'green', not 'sky'.", "hi": "'ho' दूसरे और तीसरे वाक्य में समान है, दोनों में 'हरा' है, अतः इसका अर्थ 'हरा' है, 'आकाश' नहीं।" }
+      }
+    }
+  ]
+}

@@ -1,0 +1,959 @@
+{
+  "examType": "RMS",
+  "classLevel": 6,
+  "paperNumber": 1,
+  "sectionKey": "arithmetic",
+  "generatedAt": "2026-09-13T00:00:00.000Z",
+  "questions": [
+    {
+      "key": "rms6-p1-ar-01",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "What is the place value of 5 in 3,527?", "hi": "3,527 में 5 का स्थानीय मान क्या है?" },
+      "optionsJson": [
+        { "en": "5", "hi": "5" },
+        { "en": "50", "hi": "50" },
+        { "en": "500", "hi": "500" },
+        { "en": "5000", "hi": "5000" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "In 3,527, 5 is in the hundreds place, so its place value is 5 × 100 = 500.", "hi": "3,527 में 5 सैकड़े के स्थान पर है, इसलिए इसका स्थानीय मान 5 × 100 = 500 है।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is 5's face value, not its place value.", "hi": "यह 5 का अंकित मान है, स्थानीय मान नहीं।" },
+        "1": { "en": "Mistakes 5 for the tens digit instead of the hundreds digit.", "hi": "5 को दहाई की जगह इकाई-स्थान की भूल से दहाई मान लिया।" },
+        "3": { "en": "Mistakes 5 for the thousands digit — that's actually 3.", "hi": "5 को हजार के स्थान का अंक मान लिया, जबकि वहाँ 3 है।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-02",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Simplify: 30 − 18 ÷ 3 + 2", "hi": "सरल करें: 30 − 18 ÷ 3 + 2" },
+      "optionsJson": [
+        { "en": "26", "hi": "26" },
+        { "en": "8", "hi": "8" },
+        { "en": "16", "hi": "16" },
+        { "en": "4", "hi": "4" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "By BODMAS: 18÷3=6 first, then 30−6+2 = 26.", "hi": "BODMAS नियम से पहले 18÷3=6, फिर 30−6+2 = 26।" },
+      "distractorAnalysis": {
+        "1": { "en": "Subtracts and adds before dividing, ignoring BODMAS order.", "hi": "भाग करने से पहले घटाव-जोड़ कर दिया, BODMAS क्रम की अनदेखी।" },
+        "2": { "en": "Divides 18 by (3+2)=5 instead of just 3.", "hi": "केवल 3 की जगह (3+2)=5 से भाग दिया।" },
+        "3": { "en": "Subtracts 2 at the end instead of adding it.", "hi": "अंत में 2 जोड़ने के बजाय घटा दिया।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-03",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Add: 2/6 + 1/3", "hi": "जोड़ें: 2/6 + 1/3" },
+      "optionsJson": [
+        { "en": "3/9", "hi": "3/9" },
+        { "en": "2/3", "hi": "2/3" },
+        { "en": "1/2", "hi": "1/2" },
+        { "en": "5/6", "hi": "5/6" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "1/3 = 2/6, so 2/6 + 2/6 = 4/6 = 2/3.", "hi": "1/3 = 2/6, अतः 2/6 + 2/6 = 4/6 = 2/3।" },
+      "distractorAnalysis": {
+        "0": { "en": "Adds numerators and denominators separately without a common denominator.", "hi": "बिना समान हर बनाए अंश और हर को अलग-अलग जोड़ दिया।" },
+        "2": { "en": "Arithmetic slip while simplifying 4/6.", "hi": "4/6 को सरल करने में गणना की भूल।" },
+        "3": { "en": "Treats 1/3 as 3/6 instead of the correct 2/6.", "hi": "1/3 को सही 2/6 के बजाय 3/6 मान लिया।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-04",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the LCM of 8 and 20.", "hi": "8 और 20 का LCM ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "4", "hi": "4" },
+        { "en": "40", "hi": "40" },
+        { "en": "160", "hi": "160" },
+        { "en": "60", "hi": "60" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "8 = 2³, 20 = 2²×5. LCM = 2³×5 = 40.", "hi": "8 = 2³, 20 = 2²×5। LCM = 2³×5 = 40।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the HCF of 8 and 20, not the LCM.", "hi": "यह 8 और 20 का HCF है, LCM नहीं।" },
+        "2": { "en": "Simply multiplies 8×20 without removing the common factor.", "hi": "उभयनिष्ठ गुणनखंड हटाए बिना 8×20 का गुणनफल ले लिया।" },
+        "3": { "en": "A common multiple of both, but not the least one.", "hi": "यह दोनों का उभयनिष्ठ गुणज है पर सबसे छोटा नहीं।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-05",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the HCF of 18 and 45.", "hi": "18 और 45 का HCF ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "3", "hi": "3" },
+        { "en": "9", "hi": "9" },
+        { "en": "6", "hi": "6" },
+        { "en": "90", "hi": "90" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "18 = 2×3², 45 = 3²×5. HCF = 3² = 9.", "hi": "18 = 2×3², 45 = 3²×5। HCF = 3² = 9।" },
+      "distractorAnalysis": {
+        "0": { "en": "A common factor of both, but not the highest one.", "hi": "यह दोनों का उभयनिष्ठ गुणनखंड है पर सबसे बड़ा नहीं।" },
+        "2": { "en": "6 divides 18 but not 45, so it isn't a common factor at all.", "hi": "6, 18 को विभाजित करता है पर 45 को नहीं, इसलिए यह उभयनिष्ठ गुणनखंड ही नहीं है।" },
+        "3": { "en": "This is the LCM of 18 and 45, not the HCF.", "hi": "यह 18 और 45 का LCM है, HCF नहीं।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-06",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Convert 0.4 to a fraction in lowest terms.", "hi": "0.4 को निम्नतम रूप में भिन्न में बदलें।" },
+      "optionsJson": [
+        { "en": "2/5", "hi": "2/5" },
+        { "en": "4/10", "hi": "4/10" },
+        { "en": "1/4", "hi": "1/4" },
+        { "en": "4/5", "hi": "4/5" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "0.4 = 4/10, which simplifies (dividing by 2) to 2/5.", "hi": "0.4 = 4/10, जिसे 2 से भाग देने पर 2/5 प्राप्त होता है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Correct value before simplifying — not in lowest terms as asked.", "hi": "यह सही मान है पर निम्नतम रूप में नहीं, जैसा प्रश्न में माँगा गया।" },
+        "2": { "en": "Misreads the decimal digit.", "hi": "दशमलव के अंक को गलत पढ़ा।" },
+        "3": { "en": "Simplifies incorrectly, dividing only the denominator.", "hi": "केवल हर को भाग देकर गलत सरलीकरण किया।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-07",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "What is 25% of 160?", "hi": "160 का 25% कितना है?" },
+      "optionsJson": [
+        { "en": "25", "hi": "25" },
+        { "en": "35", "hi": "35" },
+        { "en": "40", "hi": "40" },
+        { "en": "45", "hi": "45" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "25% of 160 = (25/100) × 160 = 40.", "hi": "160 का 25% = (25/100) × 160 = 40।" },
+      "distractorAnalysis": {
+        "0": { "en": "Just restates the percentage number itself.", "hi": "केवल प्रतिशत की संख्या दोहरा दी।" },
+        "1": { "en": "Arithmetic slip while computing the percentage.", "hi": "प्रतिशत की गणना में भूल।" },
+        "3": { "en": "Overshoots the correct value slightly.", "hi": "सही मान से थोड़ा अधिक अनुमान लगाया।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-08",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A shopkeeper buys a bag for ₹250 and sells it for ₹300. Find the profit percentage.", "hi": "एक दुकानदार एक बैग ₹250 में खरीदता है और ₹300 में बेचता है। लाभ प्रतिशत ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "50%", "hi": "50%" },
+        { "en": "20%", "hi": "20%" },
+        { "en": "16.6%", "hi": "16.6%" },
+        { "en": "25%", "hi": "25%" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Profit = 300−250 = 50. Profit% = (50/250)×100 = 20%.", "hi": "लाभ = 300−250 = 50। लाभ% = (50/250)×100 = 20%।" },
+      "distractorAnalysis": {
+        "0": { "en": "Uses an incorrect base while computing the percentage.", "hi": "प्रतिशत निकालते समय गलत आधार का प्रयोग किया।" },
+        "2": { "en": "Computes profit as a percentage of the selling price instead of the cost price.", "hi": "लाभ को क्रय मूल्य के बजाय विक्रय मूल्य का प्रतिशत मान लिया।" },
+        "3": { "en": "Arithmetic slip while dividing 50 by 250.", "hi": "50 को 250 से भाग देने में गणना की भूल।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-09",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the simple interest on ₹2,000 at 6% per annum for 3 years.", "hi": "₹2,000 पर 6% वार्षिक दर से 3 वर्ष का साधारण ब्याज ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "₹120", "hi": "₹120" },
+        { "en": "₹360", "hi": "₹360" },
+        { "en": "₹2,360", "hi": "₹2,360" },
+        { "en": "₹240", "hi": "₹240" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "SI = (P×R×T)/100 = (2000×6×3)/100 = ₹360.", "hi": "SI = (P×R×T)/100 = (2000×6×3)/100 = ₹360।" },
+      "distractorAnalysis": {
+        "0": { "en": "Calculates interest for only 1 year instead of 3.", "hi": "3 वर्ष के बजाय केवल 1 वर्ष का ब्याज निकाला।" },
+        "2": { "en": "Adds the principal to the interest, giving the total amount instead of just the interest.", "hi": "मूलधन को ब्याज में जोड़कर कुल राशि दे दी, केवल ब्याज नहीं।" },
+        "3": { "en": "Calculates interest for only 2 years instead of 3.", "hi": "3 वर्ष के बजाय केवल 2 वर्ष का ब्याज निकाला।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-10",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Divide ₹900 among P, Q, and R in the ratio 2:3:4. Find P's share.", "hi": "₹900 को P, Q और R में 2:3:4 के अनुपात में बाँटें। P का हिस्सा ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "₹200", "hi": "₹200" },
+        { "en": "₹300", "hi": "₹300" },
+        { "en": "₹400", "hi": "₹400" },
+        { "en": "₹100", "hi": "₹100" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Total parts = 2+3+4 = 9. P's share = (2/9)×900 = ₹200.", "hi": "कुल भाग = 2+3+4 = 9। P का हिस्सा = (2/9)×900 = ₹200।" },
+      "distractorAnalysis": {
+        "1": { "en": "This is Q's share (3/9 of 900), not P's.", "hi": "यह Q का हिस्सा है (900 का 3/9), P का नहीं।" },
+        "2": { "en": "This is R's share (4/9 of 900), not P's.", "hi": "यह R का हिस्सा है (900 का 4/9), P का नहीं।" },
+        "3": { "en": "Divides 900 by 9 twice by mistake instead of scaling by 2/9.", "hi": "2/9 से गुणा करने के बजाय गलती से 900 को 9 से दो बार भाग दे दिया।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-11",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "A cyclist travels 90 km in 5 hours. What is his speed?", "hi": "एक साइकिल चालक 5 घंटे में 90 किमी की दूरी तय करता है। उसकी गति क्या है?" },
+      "optionsJson": [
+        { "en": "15 km/h", "hi": "15 किमी/घं" },
+        { "en": "18 km/h", "hi": "18 किमी/घं" },
+        { "en": "20 km/h", "hi": "20 किमी/घं" },
+        { "en": "22 km/h", "hi": "22 किमी/घं" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Speed = Distance/Time = 90/5 = 18 km/h.", "hi": "गति = दूरी/समय = 90/5 = 18 किमी/घं।" },
+      "distractorAnalysis": {
+        "0": { "en": "Divides 90 by 6 instead of the correct time, 5 hours.", "hi": "सही समय 5 घंटे के बजाय 6 से भाग दे दिया।" },
+        "2": { "en": "Arithmetic slip in the division 90÷5.", "hi": "90÷5 के भाग में गणना की भूल।" },
+        "3": { "en": "Arithmetic slip in the division 90÷5.", "hi": "90÷5 के भाग में गणना की भूल।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-12",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "If 6 soldiers can dig a trench in 20 days, how many days will 15 soldiers take (at the same rate)?", "hi": "यदि 6 सैनिक एक खाई 20 दिनों में खोद सकते हैं, तो 15 सैनिक (उसी दर पर) कितने दिन लेंगे?" },
+      "optionsJson": [
+        { "en": "8 days", "hi": "8 दिन" },
+        { "en": "12 days", "hi": "12 दिन" },
+        { "en": "50 days", "hi": "50 दिन" },
+        { "en": "10 days", "hi": "10 दिन" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Total work = 6×20 = 120 soldier-days. With 15 soldiers: 120/15 = 8 days.", "hi": "कुल कार्य = 6×20 = 120 सैनिक-दिन। 15 सैनिकों के साथ: 120/15 = 8 दिन।" },
+      "distractorAnalysis": {
+        "1": { "en": "Arithmetic slip while dividing 120 by 15.", "hi": "120 को 15 से भाग देने में गणना की भूल।" },
+        "2": { "en": "Wrongly assumes more soldiers means more days needed.", "hi": "गलती से मान लिया कि अधिक सैनिकों से अधिक दिन लगेंगे।" },
+        "3": { "en": "Arithmetic slip while dividing 120 by 15.", "hi": "120 को 15 से भाग देने में गणना की भूल।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-13",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Find the average of 20, 25, 30, and 45.", "hi": "20, 25, 30 और 45 का औसत ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "30", "hi": "30" },
+        { "en": "28", "hi": "28" },
+        { "en": "32", "hi": "32" },
+        { "en": "25", "hi": "25" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Sum = 20+25+30+45 = 120. Average = 120/4 = 30.", "hi": "योग = 20+25+30+45 = 120। औसत = 120/4 = 30।" },
+      "distractorAnalysis": {
+        "1": { "en": "Small arithmetic slip while adding the four numbers.", "hi": "चार संख्याओं को जोड़ने में छोटी गणना भूल।" },
+        "2": { "en": "Small arithmetic slip while dividing the sum by 4.", "hi": "योग को 4 से भाग देने में छोटी गणना भूल।" },
+        "3": { "en": "This is just one number from the list, not the average.", "hi": "यह सूची की एक संख्या मात्र है, औसत नहीं।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-14",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The cost of 4 notebooks is ₹96. What is the cost of 9 notebooks?", "hi": "4 नोटबुक की कीमत ₹96 है। 9 नोटबुक की कीमत क्या होगी?" },
+      "optionsJson": [
+        { "en": "₹216", "hi": "₹216" },
+        { "en": "₹200", "hi": "₹200" },
+        { "en": "₹180", "hi": "₹180" },
+        { "en": "₹864", "hi": "₹864" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Cost of 1 notebook = 96/4 = ₹24. Cost of 9 notebooks = 24×9 = ₹216.", "hi": "1 नोटबुक की कीमत = 96/4 = ₹24। 9 नोटबुक की कीमत = 24×9 = ₹216।" },
+      "distractorAnalysis": {
+        "1": { "en": "Arithmetic slip while multiplying 24×9.", "hi": "24×9 का गुणा करने में गणना की भूल।" },
+        "2": { "en": "Uses an incorrect per-notebook rate.", "hi": "प्रति नोटबुक की गलत दर का उपयोग किया।" },
+        "3": { "en": "Multiplies 96×9 directly instead of finding the per-unit rate first.", "hi": "पहले प्रति इकाई दर निकाले बिना 96×9 सीधे गुणा कर दिया।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-15",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "A sum of money becomes ₹1,440 in 4 years and ₹1,680 in 8 years at simple interest. Find the rate of interest per annum.", "hi": "एक धनराशि साधारण ब्याज पर 4 वर्ष में ₹1,440 और 8 वर्ष में ₹1,680 हो जाती है। वार्षिक ब्याज दर ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "5%", "hi": "5%" },
+        { "en": "6%", "hi": "6%" },
+        { "en": "8%", "hi": "8%" },
+        { "en": "10%", "hi": "10%" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Interest for 4 extra years = 1680−1440 = ₹240, so yearly interest = ₹60. Principal = 1440 − 4×60 = ₹1,200. Rate = (60×100)/1200 = 5%.", "hi": "4 अतिरिक्त वर्षों का ब्याज = 1680−1440 = ₹240, अतः वार्षिक ब्याज = ₹60। मूलधन = 1440 − 4×60 = ₹1,200। दर = (60×100)/1200 = 5%।" },
+      "distractorAnalysis": {
+        "1": { "en": "Divides the yearly interest by the wrong (8-year) amount instead of the true principal.", "hi": "सही मूलधन के बजाय गलत (8 वर्ष वाली) राशि से भाग दे दिया।" },
+        "2": { "en": "Uses ₹1,440 as the principal instead of solving for the true principal first.", "hi": "वास्तविक मूलधन निकाले बिना ₹1,440 को ही मूलधन मान लिया।" },
+        "3": { "en": "Doubles the correct rate by mis-handling the 4-year difference.", "hi": "4 वर्ष के अंतर को गलत तरीके से संभालकर सही दर को दोगुना कर दिया।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-16",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Round 7,362 to the nearest hundred.", "hi": "7,362 को निकटतम सौ तक सन्निकटित करें।" },
+      "optionsJson": [
+        { "en": "7,300", "hi": "7,300" },
+        { "en": "7,400", "hi": "7,400" },
+        { "en": "7,000", "hi": "7,000" },
+        { "en": "7,360", "hi": "7,360" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The tens digit of 7,362 is 6 (≥5), so it rounds up to 7,400.", "hi": "7,362 में दहाई का अंक 6 है (≥5), इसलिए यह पूर्णांकित होकर 7,400 बनता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Rounds down instead of up, ignoring that the tens digit is 5 or more.", "hi": "दहाई का अंक 5 या अधिक होते हुए भी नीचे की ओर पूर्णांकित कर दिया।" },
+        "2": { "en": "Rounds to the nearest thousand instead of the nearest hundred.", "hi": "निकटतम सौ के बजाय निकटतम हजार तक पूर्णांकित किया।" },
+        "3": { "en": "Rounds to the nearest ten instead of the nearest hundred.", "hi": "निकटतम सौ के बजाय निकटतम दहाई तक पूर्णांकित किया।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-17",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Write 1947 in Roman numerals.", "hi": "1947 को रोमन अंकों में लिखें।" },
+      "optionsJson": [
+        { "en": "MCMXLVII", "hi": "MCMXLVII" },
+        { "en": "MCMXLIIV", "hi": "MCMXLIIV" },
+        { "en": "MDCCCCXLVII", "hi": "MDCCCCXLVII" },
+        { "en": "MCMXLVI", "hi": "MCMXLVI" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "1947 = 1000+900+40+7 = M+CM+XL+VII = MCMXLVII.", "hi": "1947 = 1000+900+40+7 = M+CM+XL+VII = MCMXLVII।" },
+      "distractorAnalysis": {
+        "1": { "en": "Places the symbols for 7 in an invalid order.", "hi": "7 के प्रतीकों को अमान्य क्रम में रखा।" },
+        "2": { "en": "Uses an outdated, non-standard way of writing 900 instead of CM.", "hi": "900 लिखने का पुराना, अमानक तरीका प्रयोग किया, CM के बजाय।" },
+        "3": { "en": "Represents 1946, not 1947 (missing the final I).", "hi": "1947 के बजाय 1946 दर्शाता है (अंतिम I गायब)।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-18",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the perimeter of a rectangle with length 15 cm and breadth 9 cm.", "hi": "15 सेमी लंबाई और 9 सेमी चौड़ाई वाले एक आयत का परिमाप ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "24 cm", "hi": "24 सेमी" },
+        { "en": "135 cm", "hi": "135 सेमी" },
+        { "en": "48 cm", "hi": "48 सेमी" },
+        { "en": "50 cm", "hi": "50 सेमी" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Perimeter = 2×(length+breadth) = 2×(15+9) = 48 cm.", "hi": "परिमाप = 2×(लंबाई+चौड़ाई) = 2×(15+9) = 48 सेमी।" },
+      "distractorAnalysis": {
+        "0": { "en": "Adds length and breadth once but forgets to double it.", "hi": "लंबाई और चौड़ाई को एक बार जोड़ा पर दोगुना करना भूल गए।" },
+        "1": { "en": "Computes the area (15×9) instead of the perimeter.", "hi": "परिमाप के बजाय क्षेत्रफल (15×9) निकाल दिया।" },
+        "3": { "en": "Arithmetic slip while doubling 24.", "hi": "24 को दोगुना करने में गणना की भूल।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-19",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the area of a square whose side is 11 cm.", "hi": "11 सेमी भुजा वाले एक वर्ग का क्षेत्रफल ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "44 cm²", "hi": "44 सेमी²" },
+        { "en": "121 cm²", "hi": "121 सेमी²" },
+        { "en": "22 cm²", "hi": "22 सेमी²" },
+        { "en": "110 cm²", "hi": "110 सेमी²" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Area of a square = side² = 11² = 121 cm².", "hi": "वर्ग का क्षेत्रफल = भुजा² = 11² = 121 सेमी²।" },
+      "distractorAnalysis": {
+        "0": { "en": "Confuses the formula with the perimeter of a square with side 11 (4×11=44).", "hi": "इसे वर्ग के परिमाप (4×11=44) से भ्रमित कर दिया।" },
+        "2": { "en": "Computes 2×side instead of side².", "hi": "भुजा² के बजाय 2×भुजा निकाल दिया।" },
+        "3": { "en": "Computes 10×side instead of side².", "hi": "भुजा² के बजाय 10×भुजा निकाल दिया।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-20",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which of these is a prime number?", "hi": "इनमें से कौन-सी एक अभाज्य संख्या है?" },
+      "optionsJson": [
+        { "en": "35", "hi": "35" },
+        { "en": "39", "hi": "39" },
+        { "en": "37", "hi": "37" },
+        { "en": "51", "hi": "51" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "37 has only two factors, 1 and 37, so it is prime; the others factor further (35=5×7, 39=3×13, 51=3×17).", "hi": "37 के केवल दो गुणनखंड हैं, 1 और 37, इसलिए यह अभाज्य है; बाकी संख्याएँ आगे विभाजित होती हैं (35=5×7, 39=3×13, 51=3×17)।" },
+      "distractorAnalysis": {
+        "0": { "en": "35 = 5×7, so it is composite, not prime.", "hi": "35 = 5×7, अतः यह भाज्य है, अभाज्य नहीं।" },
+        "1": { "en": "39 = 3×13, so it is composite, not prime.", "hi": "39 = 3×13, अतः यह भाज्य है, अभाज्य नहीं।" },
+        "3": { "en": "51 = 3×17, so it is composite, not prime.", "hi": "51 = 3×17, अतः यह भाज्य है, अभाज्य नहीं।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-21",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Simplify: 2/5 of 5/6 + 1/3", "hi": "सरल करें: 5/6 का 2/5 + 1/3" },
+      "optionsJson": [
+        { "en": "2/3", "hi": "2/3" },
+        { "en": "1/3", "hi": "1/3" },
+        { "en": "5/6", "hi": "5/6" },
+        { "en": "3/5", "hi": "3/5" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "2/5 of 5/6 = (2×5)/(5×6) = 1/3. Then 1/3 + 1/3 = 2/3.", "hi": "2/5 का 5/6 = (2×5)/(5×6) = 1/3। फिर 1/3 + 1/3 = 2/3।" },
+      "distractorAnalysis": {
+        "1": { "en": "Correctly finds 2/5 of 5/6 but forgets to add the remaining 1/3.", "hi": "2/5 का 5/6 सही निकाला पर शेष 1/3 जोड़ना भूल गए।" },
+        "2": { "en": "Miscomputes 2/5 of 5/6 before adding.", "hi": "जोड़ने से पहले 2/5 का 5/6 गलत निकाला।" },
+        "3": { "en": "Adds numerators and denominators separately instead of using a common denominator.", "hi": "समान हर बनाए बिना अंश और हर को अलग-अलग जोड़ दिया।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-22",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "What is the predecessor of 50,000?", "hi": "50,000 का पूर्ववर्ती क्या है?" },
+      "optionsJson": [
+        { "en": "50,001", "hi": "50,001" },
+        { "en": "49,999", "hi": "49,999" },
+        { "en": "49,000", "hi": "49,000" },
+        { "en": "5,000", "hi": "5,000" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The predecessor of a number is 1 less than it: 50,000−1 = 49,999.", "hi": "किसी संख्या का पूर्ववर्ती उससे 1 कम होता है: 50,000−1 = 49,999।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the successor (1 more), not the predecessor.", "hi": "यह उत्तरवर्ती (1 अधिक) है, पूर्ववर्ती नहीं।" },
+        "2": { "en": "Subtracts 1,000 instead of 1.", "hi": "1 के बजाय 1,000 घटा दिया।" },
+        "3": { "en": "Drops a digit by mistake.", "hi": "गलती से एक अंक छोड़ दिया।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-23",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Two numbers are in the ratio 4:5. If their sum is 90, find the larger number.", "hi": "दो संख्याएँ 4:5 के अनुपात में हैं। यदि उनका योग 90 है, तो बड़ी संख्या ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "40", "hi": "40" },
+        { "en": "50", "hi": "50" },
+        { "en": "45", "hi": "45" },
+        { "en": "36", "hi": "36" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Total parts = 4+5 = 9. Larger number = (5/9)×90 = 50.", "hi": "कुल भाग = 4+5 = 9। बड़ी संख्या = (5/9)×90 = 50।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the smaller number (4/9 of 90), not the larger one.", "hi": "यह छोटी संख्या है (90 का 4/9), बड़ी नहीं।" },
+        "2": { "en": "Divides 90 equally by 2 instead of using the 4:5 ratio.", "hi": "4:5 अनुपात के बजाय 90 को 2 से बराबर भाग दिया।" },
+        "3": { "en": "Arithmetic slip while computing (5/9)×90.", "hi": "(5/9)×90 की गणना में भूल।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-24",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Subtract: 9.6 − 4.75", "hi": "घटाएँ: 9.6 − 4.75" },
+      "optionsJson": [
+        { "en": "4.85", "hi": "4.85" },
+        { "en": "5.15", "hi": "5.15" },
+        { "en": "4.15", "hi": "4.15" },
+        { "en": "5.85", "hi": "5.85" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "9.60 − 4.75 = 4.85.", "hi": "9.60 − 4.75 = 4.85।" },
+      "distractorAnalysis": {
+        "1": { "en": "Misaligns the decimal places before subtracting.", "hi": "घटाने से पहले दशमलव स्थानों का गलत मिलान किया।" },
+        "2": { "en": "Subtracts 5.75 instead of 4.75.", "hi": "4.75 के बजाय 5.75 घटा दिया।" },
+        "3": { "en": "Subtracts 4.0 instead of 4.75, adding the leftover incorrectly.", "hi": "4.75 के बजाय 4.0 घटाकर शेष को गलत जोड़ दिया।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-25",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "A train 200 m long crosses a pole in 20 seconds. Find its speed in km/h.", "hi": "200 मीटर लंबी एक ट्रेन एक खंभे को 20 सेकंड में पार करती है। इसकी गति किमी/घं में ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "10 km/h", "hi": "10 किमी/घं" },
+        { "en": "36 km/h", "hi": "36 किमी/घं" },
+        { "en": "20 km/h", "hi": "20 किमी/घं" },
+        { "en": "40 km/h", "hi": "40 किमी/घं" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Speed = 200m/20s = 10 m/s. Converting: 10 × 18/5 = 36 km/h.", "hi": "गति = 200मी/20से = 10 मी/से। किमी/घं में: 10 × 18/5 = 36 किमी/घं।" },
+      "distractorAnalysis": {
+        "0": { "en": "Gives the speed in m/s, forgetting to convert to km/h.", "hi": "मी/से में गति दे दी, किमी/घं में बदलना भूल गए।" },
+        "2": { "en": "Uses an incorrect conversion factor from m/s to km/h.", "hi": "मी/से से किमी/घं में बदलने का गलत गुणांक प्रयोग किया।" },
+        "3": { "en": "Overshoots by using a doubled conversion factor.", "hi": "दोगुने रूपांतरण गुणांक का प्रयोग कर अधिक अनुमान लगाया।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-26",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Multiply: 3.5 × 1.4", "hi": "गुणा करें: 3.5 × 1.4" },
+      "optionsJson": [
+        { "en": "4.9", "hi": "4.9" },
+        { "en": "4.2", "hi": "4.2" },
+        { "en": "5.6", "hi": "5.6" },
+        { "en": "49", "hi": "49" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "35 × 14 = 490, and with two decimal places total, 3.5 × 1.4 = 4.90 = 4.9.", "hi": "35 × 14 = 490, और कुल दो दशमलव स्थान होने से, 3.5 × 1.4 = 4.90 = 4.9।" },
+      "distractorAnalysis": {
+        "1": { "en": "Arithmetic slip in the multiplication.", "hi": "गुणा में गणना की भूल।" },
+        "2": { "en": "Arithmetic slip in the multiplication.", "hi": "गुणा में गणना की भूल।" },
+        "3": { "en": "Places the decimal point incorrectly, off by one position.", "hi": "दशमलव बिंदु को एक स्थान गलत रखा।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-27",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the value of x: 5x − 8 = 27", "hi": "x का मान ज्ञात करें: 5x − 8 = 27" },
+      "optionsJson": [
+        { "en": "7", "hi": "7" },
+        { "en": "5", "hi": "5" },
+        { "en": "8", "hi": "8" },
+        { "en": "35/5", "hi": "35/5" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "5x = 27+8 = 35, so x = 35/5 = 7.", "hi": "5x = 27+8 = 35, अतः x = 35/5 = 7।" },
+      "distractorAnalysis": {
+        "1": { "en": "Arithmetic slip while dividing 35 by 5.", "hi": "35 को 5 से भाग देने में गणना की भूल।" },
+        "2": { "en": "Subtracts instead of adding before dividing.", "hi": "भाग देने से पहले जोड़ने के बजाय घटा दिया।" },
+        "3": { "en": "This is 7 written as an unsimplified fraction, but the option's form doesn't match the expected numeric answer format.", "hi": "यह 7 को असरलीकृत भिन्न रूप में लिखा गया है, जो अपेक्षित संख्यात्मक उत्तर प्रारूप से मेल नहीं खाता।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-28",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Express 2:5 as a percentage.", "hi": "2:5 को प्रतिशत के रूप में व्यक्त करें।" },
+      "optionsJson": [
+        { "en": "25%", "hi": "25%" },
+        { "en": "52%", "hi": "52%" },
+        { "en": "40%", "hi": "40%" },
+        { "en": "45%", "hi": "45%" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "2:5 = 2/5 = 0.4 = 40%.", "hi": "2:5 = 2/5 = 0.4 = 40%।" },
+      "distractorAnalysis": {
+        "0": { "en": "Just concatenates the two ratio numbers instead of computing 2/5.", "hi": "2/5 की गणना करने के बजाय अनुपात की दोनों संख्याओं को सटा दिया।" },
+        "1": { "en": "Reverses the digits of the wrongly-concatenated approach.", "hi": "गलत तरीके से जोड़े गए अंकों को उलट दिया।" },
+        "3": { "en": "Arithmetic slip while converting 2/5 to a percentage.", "hi": "2/5 को प्रतिशत में बदलने में गणना की भूल।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-29",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A shopkeeper marks an item at ₹800 and gives a discount of 15%. Find the selling price.", "hi": "एक दुकानदार एक वस्तु का अंकित मूल्य ₹800 रखता है और 15% छूट देता है। विक्रय मूल्य ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "₹680", "hi": "₹680" },
+        { "en": "₹720", "hi": "₹720" },
+        { "en": "₹785", "hi": "₹785" },
+        { "en": "₹700", "hi": "₹700" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Discount = 15% of 800 = ₹120. Selling price = 800−120 = ₹680.", "hi": "छूट = 800 का 15% = ₹120। विक्रय मूल्य = 800−120 = ₹680।" },
+      "distractorAnalysis": {
+        "1": { "en": "Subtracts only 10% discount instead of 15%.", "hi": "15% के बजाय केवल 10% छूट घटा दी।" },
+        "2": { "en": "Subtracts only a 1.9% discount instead of 15%.", "hi": "15% के बजाय केवल 1.9% छूट घटा दी।" },
+        "3": { "en": "Subtracts only a 12.5% discount instead of 15%.", "hi": "15% के बजाय केवल 12.5% छूट घटा दी।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-30",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "What is 9 × 6 − 8 ÷ 4?", "hi": "9 × 6 − 8 ÷ 4 का मान क्या है?" },
+      "optionsJson": [
+        { "en": "52", "hi": "52" },
+        { "en": "11.5", "hi": "11.5" },
+        { "en": "46", "hi": "46" },
+        { "en": "40", "hi": "40" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "By BODMAS: 9×6=54, 8÷4=2, so 54−2 = 52.", "hi": "BODMAS नियम से: 9×6=54, 8÷4=2, अतः 54−2 = 52।" },
+      "distractorAnalysis": {
+        "1": { "en": "Subtracts before multiplying/dividing, ignoring BODMAS order.", "hi": "BODMAS क्रम की अनदेखी करते हुए गुणा/भाग से पहले घटाव किया।" },
+        "2": { "en": "Arithmetic slip while subtracting 2 from 54.", "hi": "54 में से 2 घटाने में गणना की भूल।" },
+        "3": { "en": "Computes (9×6−8)÷4 instead of 9×6−(8÷4).", "hi": "9×6−(8÷4) के बजाय (9×6−8)÷4 की गणना की।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-31",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the value of: 5/6 ÷ 10/9", "hi": "मान ज्ञात करें: 5/6 ÷ 10/9" },
+      "optionsJson": [
+        { "en": "3/4", "hi": "3/4" },
+        { "en": "50/54", "hi": "50/54" },
+        { "en": "5/6", "hi": "5/6" },
+        { "en": "4/3", "hi": "4/3" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Dividing by a fraction means multiplying by its reciprocal: 5/6 × 9/10 = 45/60 = 3/4.", "hi": "किसी भिन्न से भाग देना उसके व्युत्क्रम से गुणा करने के समान है: 5/6 × 9/10 = 45/60 = 3/4।" },
+      "distractorAnalysis": {
+        "1": { "en": "Multiplies the two fractions directly instead of using the reciprocal for division.", "hi": "भाग के लिए व्युत्क्रम प्रयोग करने के बजाय दोनों भिन्नों को सीधे गुणा कर दिया।" },
+        "2": { "en": "Just repeats the first fraction unchanged.", "hi": "पहली भिन्न को बिना बदले दोहरा दिया।" },
+        "3": { "en": "Inverts the correct answer's numerator and denominator by mistake.", "hi": "सही उत्तर के अंश और हर को गलती से उलट दिया।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-32",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which is the greatest 3-digit number?", "hi": "सबसे बड़ी 3 अंकों की संख्या कौन-सी है?" },
+      "optionsJson": [
+        { "en": "999", "hi": "999" },
+        { "en": "100", "hi": "100" },
+        { "en": "990", "hi": "990" },
+        { "en": "1000", "hi": "1000" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The greatest 3-digit number is 999 (the number after it, 1000, has 4 digits).", "hi": "सबसे बड़ी 3 अंकों की संख्या 999 है (इसके बाद की संख्या 1000 में 4 अंक हैं)।" },
+      "distractorAnalysis": {
+        "1": { "en": "This is the smallest 3-digit number, not the greatest.", "hi": "यह सबसे छोटी 3 अंकों की संख्या है, सबसे बड़ी नहीं।" },
+        "2": { "en": "A valid 3-digit number, but not the greatest one.", "hi": "यह एक वैध 3 अंकों की संख्या है, पर सबसे बड़ी नहीं।" },
+        "3": { "en": "This has 4 digits, not 3.", "hi": "इसमें 4 अंक हैं, 3 नहीं।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-33",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A soldier spends 2/3 of his salary and saves ₹4,000. Find his total salary.", "hi": "एक सैनिक अपने वेतन का 2/3 खर्च करता है और ₹4,000 बचाता है। उसका कुल वेतन ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "₹12,000", "hi": "₹12,000" },
+        { "en": "₹8,000", "hi": "₹8,000" },
+        { "en": "₹6,000", "hi": "₹6,000" },
+        { "en": "₹16,000", "hi": "₹16,000" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Savings = 1/3 of salary = 4,000, so salary = 4,000×3 = ₹12,000.", "hi": "बचत = वेतन का 1/3 = 4,000, अतः वेतन = 4,000×3 = ₹12,000।" },
+      "distractorAnalysis": {
+        "1": { "en": "This is 2/3 of the correct salary (the spent amount), not the total.", "hi": "यह सही वेतन का 2/3 (खर्च की गई राशि) है, कुल वेतन नहीं।" },
+        "2": { "en": "Multiplies by 1.5 instead of 3.", "hi": "3 के बजाय 1.5 से गुणा किया।" },
+        "3": { "en": "Multiplies by 4 instead of 3.", "hi": "3 के बजाय 4 से गुणा किया।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-34",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Find the product: 205 × 11", "hi": "गुणनफल ज्ञात करें: 205 × 11" },
+      "optionsJson": [
+        { "en": "2,255", "hi": "2,255" },
+        { "en": "2,155", "hi": "2,155" },
+        { "en": "2,250", "hi": "2,250" },
+        { "en": "2,265", "hi": "2,265" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "205 × 11 = 205×10 + 205×1 = 2,050 + 205 = 2,255.", "hi": "205 × 11 = 205×10 + 205×1 = 2,050 + 205 = 2,255।" },
+      "distractorAnalysis": {
+        "1": { "en": "Arithmetic slip while adding 2,050 and 205.", "hi": "2,050 और 205 जोड़ने में गणना की भूल।" },
+        "2": { "en": "Rounds 205 down to 200 before multiplying.", "hi": "गुणा करने से पहले 205 को 200 तक पूर्णांकित कर दिया।" },
+        "3": { "en": "Small addition error in the final step.", "hi": "अंतिम चरण में जोड़ने की छोटी भूल।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-35",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The sum of three consecutive even numbers is 90. Find the largest number.", "hi": "तीन क्रमागत सम संख्याओं का योग 90 है। सबसे बड़ी संख्या ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "28", "hi": "28" },
+        { "en": "30", "hi": "30" },
+        { "en": "32", "hi": "32" },
+        { "en": "34", "hi": "34" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Let numbers be n−2, n, n+2. Sum = 3n = 90, so n = 30. Largest = n+2 = 32.", "hi": "मान लें संख्याएँ n−2, n, n+2 हैं। योग = 3n = 90, अतः n = 30। सबसे बड़ी = n+2 = 32।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the smallest of the three numbers, not the largest.", "hi": "यह तीनों में सबसे छोटी संख्या है, सबसे बड़ी नहीं।" },
+        "1": { "en": "This is the middle number, not the largest.", "hi": "यह मध्य संख्या है, सबसे बड़ी नहीं।" },
+        "3": { "en": "Overshoots by adding 4 instead of 2 to the middle number.", "hi": "मध्य संख्या में 2 के बजाय 4 जोड़कर आगे बढ़ गए।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-36",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Convert 4/5 to a percentage.", "hi": "4/5 को प्रतिशत में बदलें।" },
+      "optionsJson": [
+        { "en": "45%", "hi": "45%" },
+        { "en": "80%", "hi": "80%" },
+        { "en": "54%", "hi": "54%" },
+        { "en": "75%", "hi": "75%" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "4/5 = 0.8 = 80%.", "hi": "4/5 = 0.8 = 80%।" },
+      "distractorAnalysis": {
+        "0": { "en": "Just concatenates the numerator and denominator instead of computing the fraction's value.", "hi": "भिन्न का मान निकालने के बजाय अंश और हर को सटा दिया।" },
+        "2": { "en": "Reverses the digits of the wrongly-concatenated approach.", "hi": "गलत तरीके से जोड़े अंकों को उलट दिया।" },
+        "3": { "en": "Confuses 4/5 with 3/4's percentage value.", "hi": "4/5 को 3/4 के प्रतिशत मान से भ्रमित कर दिया।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-37",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "P can complete a task in 15 days and Q in 30 days. Working together, in how many days will they complete it?", "hi": "P एक कार्य को 15 दिनों में तथा Q उसे 30 दिनों में पूरा कर सकता है। एक साथ कार्य करने पर वे कितने दिनों में कार्य पूरा करेंगे?" },
+      "optionsJson": [
+        { "en": "10 days", "hi": "10 दिन" },
+        { "en": "22.5 days", "hi": "22.5 दिन" },
+        { "en": "45 days", "hi": "45 दिन" },
+        { "en": "7.5 days", "hi": "7.5 दिन" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "P's rate = 1/15, Q's rate = 1/30. Combined = 1/15+1/30 = 2/30+1/30 = 3/30 = 1/10, so together they take 10 days.", "hi": "P की दर = 1/15, Q की दर = 1/30। संयुक्त = 1/15+1/30 = 2/30+1/30 = 3/30 = 1/10, अतः वे मिलकर 10 दिनों में कार्य पूरा करेंगे।" },
+      "distractorAnalysis": {
+        "1": { "en": "Averages the two individual times instead of adding their work rates.", "hi": "कार्य दरों को जोड़ने के बजाय दोनों समयों का औसत निकाल लिया।" },
+        "2": { "en": "Adds the two individual times directly instead of combining rates.", "hi": "दरों को जोड़ने के बजाय दोनों व्यक्तिगत समयों को सीधे जोड़ दिया।" },
+        "3": { "en": "Arithmetic slip while combining the two work rates.", "hi": "दोनों कार्य दरों को जोड़ने में गणना की भूल।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-38",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the greatest number that divides both 36 and 84 exactly.", "hi": "वह सबसे बड़ी संख्या ज्ञात करें जो 36 और 84 दोनों को पूर्णतः विभाजित करती है।" },
+      "optionsJson": [
+        { "en": "6", "hi": "6" },
+        { "en": "12", "hi": "12" },
+        { "en": "9", "hi": "9" },
+        { "en": "18", "hi": "18" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "36 = 2²×3², 84 = 2²×3×7. HCF = 2²×3 = 12.", "hi": "36 = 2²×3², 84 = 2²×3×7। HCF = 2²×3 = 12।" },
+      "distractorAnalysis": {
+        "0": { "en": "A common factor of both, but not the greatest one.", "hi": "यह दोनों का उभयनिष्ठ गुणनखंड है पर सबसे बड़ा नहीं।" },
+        "2": { "en": "9 divides 36 but not 84, so it isn't even a common factor.", "hi": "9, 36 को विभाजित करता है पर 84 को नहीं, अतः यह उभयनिष्ठ गुणनखंड ही नहीं है।" },
+        "3": { "en": "18 divides 36 but not 84, so it isn't a common factor.", "hi": "18, 36 को विभाजित करता है पर 84 को नहीं, अतः यह उभयनिष्ठ गुणनखंड नहीं है।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-39",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "What is the next number in the sequence: 6, 12, 18, 24, ___?", "hi": "इस क्रम में अगली संख्या क्या है: 6, 12, 18, 24, ___?" },
+      "optionsJson": [
+        { "en": "28", "hi": "28" },
+        { "en": "30", "hi": "30" },
+        { "en": "26", "hi": "26" },
+        { "en": "36", "hi": "36" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Each term increases by 6, so the next term after 24 is 30.", "hi": "प्रत्येक पद में 6 की वृद्धि होती है, अतः 24 के बाद अगला पद 30 है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Adds 4 instead of the pattern's actual step, 6.", "hi": "क्रम के वास्तविक अंतर 6 के बजाय 4 जोड़ दिया।" },
+        "2": { "en": "Adds only 2 instead of 6.", "hi": "6 के बजाय केवल 2 जोड़ दिया।" },
+        "3": { "en": "Skips ahead by adding 12 instead of 6.", "hi": "6 के बजाय 12 जोड़कर आगे बढ़ गए।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-40",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "If the cost of 5 kg of wheat is ₹175, find the cost of 8 kg of wheat.", "hi": "यदि 5 किग्रा गेहूँ की कीमत ₹175 है, तो 8 किग्रा गेहूँ की कीमत ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "₹245", "hi": "₹245" },
+        { "en": "₹280", "hi": "₹280" },
+        { "en": "₹1,400", "hi": "₹1,400" },
+        { "en": "₹300", "hi": "₹300" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Cost of 1 kg = 175/5 = ₹35. Cost of 8 kg = 35×8 = ₹280.", "hi": "1 किग्रा की कीमत = 175/5 = ₹35। 8 किग्रा की कीमत = 35×8 = ₹280।" },
+      "distractorAnalysis": {
+        "0": { "en": "Arithmetic slip while multiplying 35×8.", "hi": "35×8 का गुणा करने में गणना की भूल।" },
+        "2": { "en": "Multiplies 175×8 directly instead of finding the per-kg rate first.", "hi": "पहले प्रति किग्रा दर निकाले बिना 175×8 सीधे गुणा कर दिया।" },
+        "3": { "en": "Uses an incorrect per-kg rate.", "hi": "प्रति किग्रा की गलत दर का उपयोग किया।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-41",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which of these fractions is the smallest?", "hi": "इनमें से कौन-सी भिन्न सबसे छोटी है?" },
+      "optionsJson": [
+        { "en": "3/7", "hi": "3/7" },
+        { "en": "5/7", "hi": "5/7" },
+        { "en": "1/7", "hi": "1/7" },
+        { "en": "6/7", "hi": "6/7" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "With the same denominator 7, the fraction with the smallest numerator, 1/7, is the smallest.", "hi": "समान हर 7 होने पर, सबसे छोटे अंश वाली भिन्न 1/7 सबसे छोटी है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Larger than 1/7 since its numerator (3) is larger.", "hi": "इसका अंश (3) बड़ा होने से यह 1/7 से बड़ी है।" },
+        "1": { "en": "One of the larger fractions among the four options.", "hi": "यह चारों विकल्पों में एक बड़ी भिन्न है।" },
+        "3": { "en": "The largest of all four options.", "hi": "यह चारों में सबसे बड़ी भिन्न है।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-42",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A number when divided by 12 gives a quotient of 9 and remainder 7. Find the number.", "hi": "एक संख्या को 12 से भाग देने पर भागफल 9 और शेषफल 7 प्राप्त होता है। संख्या ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "108", "hi": "108" },
+        { "en": "115", "hi": "115" },
+        { "en": "101", "hi": "101" },
+        { "en": "120", "hi": "120" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Number = Divisor × Quotient + Remainder = 12×9+7 = 115.", "hi": "संख्या = भाजक × भागफल + शेषफल = 12×9+7 = 115।" },
+      "distractorAnalysis": {
+        "0": { "en": "Forgets to add the remainder after multiplying.", "hi": "गुणा करने के बाद शेषफल जोड़ना भूल गए।" },
+        "2": { "en": "Subtracts the remainder instead of adding it.", "hi": "शेषफल को जोड़ने के बजाय घटा दिया।" },
+        "3": { "en": "Arithmetic slip while adding 108 and 7.", "hi": "108 और 7 जोड़ने में गणना की भूल।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-43",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "How many grams make 1 kilogram?", "hi": "1 किलोग्राम में कितने ग्राम होते हैं?" },
+      "optionsJson": [
+        { "en": "100", "hi": "100" },
+        { "en": "1,000", "hi": "1,000" },
+        { "en": "10,000", "hi": "10,000" },
+        { "en": "10", "hi": "10" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "1 kilogram = 1,000 grams, by definition of the metric unit.", "hi": "मीट्रिक इकाई की परिभाषा अनुसार 1 किलोग्राम = 1,000 ग्राम।" },
+      "distractorAnalysis": {
+        "0": { "en": "Confuses the kilogram-to-gram conversion with the meter-to-centimeter one.", "hi": "किलोग्राम-ग्राम रूपांतरण को मीटर-सेंटीमीटर रूपांतरण से भ्रमित कर दिया।" },
+        "2": { "en": "Overshoots by a factor of 10.", "hi": "10 गुना अधिक अनुमान लगा दिया।" },
+        "3": { "en": "Confuses kilograms with a much smaller unit relationship.", "hi": "किलोग्राम को एक बहुत छोटी इकाई से भ्रमित कर दिया।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-44",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The angles of a triangle are in the ratio 1:2:3. Find the largest angle.", "hi": "एक त्रिभुज के कोण 1:2:3 के अनुपात में हैं। सबसे बड़ा कोण ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "30°", "hi": "30°" },
+        { "en": "60°", "hi": "60°" },
+        { "en": "90°", "hi": "90°" },
+        { "en": "100°", "hi": "100°" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Sum of angles = 180°. Total parts = 6. Largest angle = (3/6)×180 = 90°.", "hi": "कोणों का योग = 180°। कुल भाग = 6। सबसे बड़ा कोण = (3/6)×180 = 90°।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the smallest angle (1/6 of 180°), not the largest.", "hi": "यह सबसे छोटा कोण है (180° का 1/6), सबसे बड़ा नहीं।" },
+        "1": { "en": "This is the middle angle (2/6 of 180°), not the largest.", "hi": "यह मध्य कोण है (180° का 2/6), सबसे बड़ा नहीं।" },
+        "3": { "en": "Overshoots the correct largest angle.", "hi": "सही सबसे बड़े कोण से अधिक अनुमान लगाया।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-45",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Find the value of: 80 − (15+25)", "hi": "मान ज्ञात करें: 80 − (15+25)" },
+      "optionsJson": [
+        { "en": "40", "hi": "40" },
+        { "en": "50", "hi": "50" },
+        { "en": "30", "hi": "30" },
+        { "en": "45", "hi": "45" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "15+25 = 40, so 80−40 = 40.", "hi": "15+25 = 40, अतः 80−40 = 40।" },
+      "distractorAnalysis": {
+        "1": { "en": "Arithmetic slip while adding 15 and 25.", "hi": "15 और 25 जोड़ने में गणना की भूल।" },
+        "2": { "en": "Arithmetic slip while subtracting 40 from 80.", "hi": "80 में से 40 घटाने में गणना की भूल।" },
+        "3": { "en": "Arithmetic slip while adding 15 and 25.", "hi": "15 और 25 जोड़ने में गणना की भूल।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-46",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A mother is 3 times as old as her daughter. After 10 years, she will be twice as old. Find the daughter's present age.", "hi": "एक माँ की आयु उसकी बेटी की आयु से 3 गुना है। 10 वर्ष बाद, वह 2 गुना होगी। बेटी की वर्तमान आयु ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "10 years", "hi": "10 वर्ष" },
+        { "en": "12 years", "hi": "12 वर्ष" },
+        { "en": "15 years", "hi": "15 वर्ष" },
+        { "en": "8 years", "hi": "8 वर्ष" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Let daughter's age = x, mother's = 3x. After 10 years: 3x+10 = 2(x+10), giving x = 10. Check: daughter 10, mother 30 now; in 10 years, daughter 20, mother 40 = 2×20.", "hi": "मान लें बेटी की आयु = x, माँ की = 3x। 10 वर्ष बाद: 3x+10 = 2(x+10), जिससे x = 10 मिलता है। जाँच: अभी बेटी 10, माँ 30; 10 वर्ष बाद बेटी 20, माँ 40 = 2×20।" },
+      "distractorAnalysis": {
+        "1": { "en": "Solves the equation with an arithmetic slip while isolating x.", "hi": "x निकालते समय गणना की भूल।" },
+        "2": { "en": "Mixes up the multiple (3 times) with a different ratio while setting up the equation.", "hi": "समीकरण बनाते समय 3 गुना को किसी अन्य अनुपात से भ्रमित कर दिया।" },
+        "3": { "en": "Confuses the daughter's age with the age difference between mother and daughter.", "hi": "बेटी की आयु को माँ-बेटी की आयु के अंतर से भ्रमित कर दिया।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-47",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which of these numbers is divisible by both 2 and 5?", "hi": "इनमें से कौन-सी संख्या 2 और 5 दोनों से विभाज्य है?" },
+      "optionsJson": [
+        { "en": "25", "hi": "25" },
+        { "en": "32", "hi": "32" },
+        { "en": "40", "hi": "40" },
+        { "en": "27", "hi": "27" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "40 is even (divisible by 2) and ends in 0 (divisible by 5), so it is divisible by both.", "hi": "40 सम संख्या है (2 से विभाज्य) और 0 पर समाप्त होती है (5 से विभाज्य), अतः यह दोनों से विभाज्य है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Divisible by 5 (ends in 5) but it is odd, so not divisible by 2.", "hi": "5 से विभाज्य है (5 पर समाप्त) पर यह विषम है, अतः 2 से विभाज्य नहीं।" },
+        "1": { "en": "Divisible by 2 but doesn't end in 0 or 5, so not divisible by 5.", "hi": "2 से विभाज्य है पर 0 या 5 पर समाप्त नहीं होती, अतः 5 से विभाज्य नहीं।" },
+        "3": { "en": "Odd and doesn't end in 0 or 5, so it fails both tests.", "hi": "यह विषम है और 0 या 5 पर समाप्त नहीं होती, अतः दोनों शर्तें विफल।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-48",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the value of: (5/6 − 1/3) × 12", "hi": "मान ज्ञात करें: (5/6 − 1/3) × 12" },
+      "optionsJson": [
+        { "en": "8", "hi": "8" },
+        { "en": "6", "hi": "6" },
+        { "en": "10", "hi": "10" },
+        { "en": "4", "hi": "4" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "5/6 − 1/3 = 5/6 − 2/6 = 3/6 = 1/2. Then 1/2 × 12 = 6.", "hi": "5/6 − 1/3 = 5/6 − 2/6 = 3/6 = 1/2। फिर 1/2 × 12 = 6।" },
+      "distractorAnalysis": {
+        "0": { "en": "Arithmetic slip while multiplying 1/2 by 12.", "hi": "1/2 को 12 से गुणा करने में गणना की भूल।" },
+        "2": { "en": "Subtracts the fractions incorrectly before multiplying.", "hi": "गुणा करने से पहले भिन्नों को गलत घटाया।" },
+        "3": { "en": "Uses 1/3 as the result of the subtraction instead of 1/2.", "hi": "घटाव के परिणाम में 1/2 के बजाय 1/3 का प्रयोग किया।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-49",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "What comes next: 3, 6, 12, 24, ___?", "hi": "आगे क्या आएगा: 3, 6, 12, 24, ___?" },
+      "optionsJson": [
+        { "en": "36", "hi": "36" },
+        { "en": "48", "hi": "48" },
+        { "en": "30", "hi": "30" },
+        { "en": "27", "hi": "27" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Each term is double the previous one, so after 24 comes 24×2 = 48.", "hi": "प्रत्येक पद पिछले पद का दोगुना है, अतः 24 के बाद 24×2 = 48 आएगा।" },
+      "distractorAnalysis": {
+        "0": { "en": "Adds 12 to the last term instead of doubling it.", "hi": "अंतिम पद को दोगुना करने के बजाय उसमें 12 जोड़ दिया।" },
+        "2": { "en": "Treats the pattern as adding a fixed number instead of doubling.", "hi": "दोगुना करने के बजाय क्रम को एक निश्चित संख्या जोड़ने वाला मान लिया।" },
+        "3": { "en": "Adds 3 to the last term instead of doubling it.", "hi": "अंतिम पद को दोगुना करने के बजाय उसमें 3 जोड़ दिया।" }
+      }
+    },
+    {
+      "key": "rms6-p1-ar-50",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": { "en": "A tank is filled by pipe X in 12 hours and emptied by pipe Y in 18 hours. If both pipes are opened together, in how many hours will the tank be full?", "hi": "एक टंकी को पाइप X 12 घंटे में भरता है और पाइप Y उसे 18 घंटे में खाली करता है। यदि दोनों पाइप एक साथ खोल दिए जाएँ, तो टंकी कितने घंटे में भर जाएगी?" },
+      "optionsJson": [
+        { "en": "30 hours", "hi": "30 घंटे" },
+        { "en": "6 hours", "hi": "6 घंटे" },
+        { "en": "36 hours", "hi": "36 घंटे" },
+        { "en": "15 hours", "hi": "15 घंटे" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Filling rate = 1/12, emptying rate = 1/18. Net rate = 1/12−1/18 = 3/36−2/36 = 1/36, so the tank fills in 36 hours.", "hi": "भरने की दर = 1/12, खाली करने की दर = 1/18। शुद्ध दर = 1/12−1/18 = 3/36−2/36 = 1/36, अतः टंकी 36 घंटे में भरेगी।" },
+      "distractorAnalysis": {
+        "0": { "en": "Adds the two times directly instead of combining rates.", "hi": "दरों को मिलाने के बजाय दोनों समयों को सीधे जोड़ दिया।" },
+        "1": { "en": "Ignores pipe Y's emptying effect entirely.", "hi": "पाइप Y के खाली करने के प्रभाव को पूरी तरह नज़रअंदाज़ कर दिया।" },
+        "3": { "en": "Confuses the net rate's reciprocal with a much smaller number.", "hi": "शुद्ध दर के व्युत्क्रम को एक बहुत छोटी संख्या से भ्रमित कर दिया।" }
+      }
+    }
+  ]
+}

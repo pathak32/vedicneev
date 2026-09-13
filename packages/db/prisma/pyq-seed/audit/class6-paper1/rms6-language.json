@@ -1,0 +1,484 @@
+{
+  "examType": "RMS",
+  "classLevel": 6,
+  "paperNumber": 1,
+  "sectionKey": "language",
+  "generatedAt": "2026-09-13T00:00:00.000Z",
+  "questions": [
+    {
+      "key": "rms6-p1-la-01",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Choose the correct article: ___ umbrella is useful in the rain.", "hi": "सही आर्टिकल चुनें: ___ umbrella is useful in the rain." },
+      "optionsJson": [
+        { "en": "A", "hi": "A" },
+        { "en": "An", "hi": "An" },
+        { "en": "The (only)", "hi": "The (only)" },
+        { "en": "No article needed", "hi": "किसी आर्टिकल की आवश्यकता नहीं" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "\"Umbrella\" begins with a vowel sound, so it takes \"an\".", "hi": "\"Umbrella\" स्वर ध्वनि से शुरू होता है, अतः इसके साथ \"an\" आता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "\"A\" is used before consonant sounds, not vowel sounds.", "hi": "\"A\" का प्रयोग व्यंजन ध्वनि से पहले होता है, स्वर ध्वनि से पहले नहीं।" },
+        "2": { "en": "\"The\" would be used for a specific, already-known umbrella, not a general one.", "hi": "\"The\" किसी विशेष, पहले से ज्ञात छाते के लिए प्रयोग होता, सामान्य के लिए नहीं।" },
+        "3": { "en": "Singular countable nouns generally need an article.", "hi": "एकवचन गणनीय संज्ञाओं के साथ सामान्यतः आर्टिकल आवश्यक होता है।" }
+      }
+    },
+    {
+      "key": "rms6-p1-la-02",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Choose the correct verb form: The soldiers ___ every morning.", "hi": "सही क्रिया रूप चुनें: The soldiers ___ every morning." },
+      "optionsJson": [
+        { "en": "marches", "hi": "marches" },
+        { "en": "march", "hi": "march" },
+        { "en": "marching", "hi": "marching" },
+        { "en": "marched", "hi": "marched" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "\"Soldiers\" is a plural subject, so the simple present verb takes its base form without \"-s\": \"march\".", "hi": "\"Soldiers\" एक बहुवचन कर्ता है, अतः simple present में क्रिया अपने मूल रूप में बिना \"-s\" के आती है: \"march\"।" },
+      "distractorAnalysis": {
+        "0": { "en": "The \"-s\" form is for third-person singular subjects, not the plural \"soldiers\".", "hi": "\"-s\" रूप तृतीय पुरुष एकवचन कर्ताओं के लिए है, बहुवचन \"soldiers\" के लिए नहीं।" },
+        "2": { "en": "The -ing form needs a helping verb (\"are marching\"), used alone here it's incorrect.", "hi": "-ing रूप के साथ सहायक क्रिया (\"are marching\") चाहिए, यहाँ अकेले प्रयोग गलत है।" },
+        "3": { "en": "The past tense doesn't match \"every morning\", which describes a habitual present action.", "hi": "भूतकाल \"every morning\" से मेल नहीं खाता, जो एक नियमित वर्तमान क्रिया को दर्शाता है।" }
+      }
+    },
+    {
+      "key": "rms6-p1-la-03",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Find the synonym of \"Brave\".", "hi": "\"Brave\" का समानार्थी शब्द चुनें।" },
+      "optionsJson": [
+        { "en": "Weak", "hi": "Weak" },
+        { "en": "Courageous", "hi": "Courageous" },
+        { "en": "Timid", "hi": "Timid" },
+        { "en": "Lazy", "hi": "Lazy" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "\"Courageous\" means showing courage, the same meaning as \"Brave\".", "hi": "\"Courageous\" का अर्थ है साहस दिखाना, जो \"Brave\" के समान ही है।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is closer to an antonym (opposite) of \"Brave\", not a synonym.", "hi": "यह \"Brave\" के विलोम (विपरीतार्थक) के निकट है, समानार्थी नहीं।" },
+        "2": { "en": "This is an antonym of \"Brave\", not a synonym.", "hi": "यह \"Brave\" का विलोम है, समानार्थी नहीं।" },
+        "3": { "en": "Describes a lack of effort, unrelated to bravery.", "hi": "यह प्रयास की कमी को दर्शाता है, साहस से असंबंधित।" }
+      }
+    },
+    {
+      "key": "rms6-p1-la-04",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Find the antonym of \"Victory\".", "hi": "\"Victory\" का विलोम शब्द चुनें।" },
+      "optionsJson": [
+        { "en": "Success", "hi": "Success" },
+        { "en": "Triumph", "hi": "Triumph" },
+        { "en": "Defeat", "hi": "Defeat" },
+        { "en": "Win", "hi": "Win" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "\"Defeat\" means losing, the opposite of \"Victory\".", "hi": "\"Defeat\" का अर्थ है हार, जो \"Victory\" के विपरीत है।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is a synonym of \"Victory\", not its opposite.", "hi": "यह \"Victory\" का समानार्थी है, विपरीत नहीं।" },
+        "1": { "en": "This is a synonym of \"Victory\", not its opposite.", "hi": "यह \"Victory\" का समानार्थी है, विपरीत नहीं।" },
+        "3": { "en": "This is a synonym of \"Victory\", not its opposite.", "hi": "यह \"Victory\" का समानार्थी है, विपरीत नहीं।" }
+      }
+    },
+    {
+      "key": "rms6-p1-la-05",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Choose the correctly spelled word.", "hi": "सही वर्तनी वाला शब्द चुनें।" },
+      "optionsJson": [
+        { "en": "Discipline", "hi": "Discipline" },
+        { "en": "Disipline", "hi": "Disipline" },
+        { "en": "Disciplin", "hi": "Disciplin" },
+        { "en": "Dicipline", "hi": "Dicipline" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "\"Discipline\" is spelled d-i-s-c-i-p-l-i-n-e.", "hi": "\"Discipline\" की वर्तनी है d-i-s-c-i-p-l-i-n-e।" },
+      "distractorAnalysis": {
+        "1": { "en": "Missing the \"c\" after \"dis\".", "hi": "\"dis\" के बाद \"c\" गायब है।" },
+        "2": { "en": "Missing the final \"e\".", "hi": "अंतिम \"e\" गायब है।" },
+        "3": { "en": "Missing the \"s\" after \"di\".", "hi": "\"di\" के बाद \"s\" गायब है।" }
+      }
+    },
+    {
+      "key": "rms6-p1-la-06",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Fill in the blank with the correct preposition: The soldiers marched ___ the bridge.", "hi": "सही preposition से रिक्त स्थान भरें: The soldiers marched ___ the bridge." },
+      "optionsJson": [
+        { "en": "across", "hi": "across" },
+        { "en": "in", "hi": "in" },
+        { "en": "at", "hi": "at" },
+        { "en": "on top", "hi": "on top" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "\"Across\" is used to show movement from one side of something to the other.", "hi": "\"Across\" किसी वस्तु के एक ओर से दूसरी ओर गति दर्शाने के लिए प्रयोग होता है।" },
+      "distractorAnalysis": {
+        "1": { "en": "\"In\" would mean inside an enclosed space, not moving over a bridge.", "hi": "\"In\" का अर्थ किसी घिरे हुए स्थान के अंदर होता, पुल के ऊपर से गुजरने को नहीं।" },
+        "2": { "en": "\"At\" refers to a specific point, not movement across a distance.", "hi": "\"At\" किसी विशेष बिंदु को दर्शाता है, दूरी पार करने की गति को नहीं।" },
+        "3": { "en": "An unnatural phrasing for this context in standard English.", "hi": "मानक अंग्रेज़ी में इस संदर्भ के लिए यह वाक्यांश अस्वाभाविक है।" }
+      }
+    },
+    {
+      "key": "rms6-p1-la-07",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Identify the plural form of \"Foot\".", "hi": "\"Foot\" का बहुवचन रूप पहचानें।" },
+      "optionsJson": [
+        { "en": "Foots", "hi": "Foots" },
+        { "en": "Feets", "hi": "Feets" },
+        { "en": "Feet", "hi": "Feet" },
+        { "en": "Footes", "hi": "Footes" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "\"Foot\" has an irregular plural form: \"Feet\".", "hi": "\"Foot\" का अनियमित बहुवचन रूप है: \"Feet\"।" },
+      "distractorAnalysis": {
+        "0": { "en": "Wrongly applies the regular \"-s\" plural rule to an irregular noun.", "hi": "एक अनियमित संज्ञा पर नियमित \"-s\" बहुवचन नियम गलत तरीके से लगा दिया।" },
+        "1": { "en": "Wrongly adds \"-s\" to the already-irregular plural \"Feet\".", "hi": "पहले से अनियमित बहुवचन \"Feet\" में गलत तरीके से \"-s\" जोड़ दिया।" },
+        "3": { "en": "Wrongly applies the \"-es\" plural rule to an irregular noun.", "hi": "एक अनियमित संज्ञा पर \"-es\" बहुवचन नियम गलत तरीके से लगा दिया।" }
+      }
+    },
+    {
+      "key": "rms6-p1-la-08",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Choose the correct question tag: They are joining the parade, ___?", "hi": "सही question tag चुनें: They are joining the parade, ___?" },
+      "optionsJson": [
+        { "en": "aren't they", "hi": "aren't they" },
+        { "en": "are they", "hi": "are they" },
+        { "en": "don't they", "hi": "don't they" },
+        { "en": "isn't it", "hi": "isn't it" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "A positive statement takes a negative question tag matching the same auxiliary verb and subject: \"are\" → \"aren't they\".", "hi": "एक सकारात्मक वाक्य के साथ उसी सहायक क्रिया और कर्ता वाला नकारात्मक question tag आता है: \"are\" → \"aren't they\"।" },
+      "distractorAnalysis": {
+        "1": { "en": "A positive tag doesn't match a positive statement — tags must be opposite in polarity.", "hi": "सकारात्मक वाक्य के साथ सकारात्मक tag नहीं आता — tag की ध्रुवता विपरीत होनी चाहिए।" },
+        "2": { "en": "Uses \"don't\" instead of matching the auxiliary verb \"are\" already in the sentence.", "hi": "वाक्य में पहले से मौजूद सहायक क्रिया \"are\" से मेल खाने के बजाय \"don't\" प्रयोग किया।" },
+        "3": { "en": "Uses the wrong pronoun \"it\" instead of \"they\" to match the subject.", "hi": "कर्ता से मेल खाने के लिए \"they\" के बजाय गलत सर्वनाम \"it\" प्रयोग किया।" }
+      }
+    },
+    {
+      "key": "rms6-p1-la-09",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Choose the correctly punctuated sentence.", "hi": "सही विराम चिह्न वाला वाक्य चुनें।" },
+      "optionsJson": [
+        { "en": "How brave you are.", "hi": "How brave you are." },
+        { "en": "How brave you are!", "hi": "How brave you are!" },
+        { "en": "how brave you are!", "hi": "how brave you are!" },
+        { "en": "How brave you are?", "hi": "How brave you are?" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "An exclamatory sentence expressing strong feeling begins with a capital letter and ends with an exclamation mark.", "hi": "प्रबल भावना व्यक्त करने वाला विस्मयादिबोधक वाक्य बड़े अक्षर से आरंभ होता है और विस्मयादिबोधक चिह्न से समाप्त होता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Ends with a full stop instead of the exclamation mark this strong feeling calls for.", "hi": "इस प्रबल भावना के लिए आवश्यक विस्मयादिबोधक चिह्न के बजाय पूर्ण विराम से समाप्त होता है।" },
+        "2": { "en": "Fails to capitalize the first letter of the sentence.", "hi": "वाक्य के पहले अक्षर को बड़ा नहीं किया गया।" },
+        "3": { "en": "Ends with a question mark, but this sentence is exclamatory, not a question.", "hi": "प्रश्न चिह्न से समाप्त होता है, पर यह वाक्य विस्मयादिबोधक है, प्रश्न नहीं।" }
+      }
+    },
+    {
+      "key": "rms6-p1-la-10",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Choose the correct past tense of \"Run\".", "hi": "\"Run\" का सही भूतकाल रूप चुनें।" },
+      "optionsJson": [
+        { "en": "Runned", "hi": "Runned" },
+        { "en": "Ran", "hi": "Ran" },
+        { "en": "Run", "hi": "Run" },
+        { "en": "Running", "hi": "Running" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "\"Run\" is an irregular verb; its simple past tense is \"Ran\".", "hi": "\"Run\" एक अनियमित क्रिया है; इसका simple past tense रूप \"Ran\" है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Wrongly applies the regular \"-ed\" past tense rule to an irregular verb.", "hi": "एक अनियमित क्रिया पर नियमित \"-ed\" भूतकाल नियम गलत तरीके से लगा दिया।" },
+        "2": { "en": "This is the base form, not the past tense.", "hi": "यह मूल रूप है, भूतकाल नहीं।" },
+        "3": { "en": "This is the present continuous form, not the past tense.", "hi": "यह present continuous रूप है, भूतकाल नहीं।" }
+      }
+    },
+    {
+      "key": "rms6-p1-la-11",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Read the passage: \"Vikas joined the National Cadet Corps in school. Every Sunday, he practices drills on the ground.\" What does Vikas do every Sunday?", "hi": "गद्यांश पढ़ें: \"विकास ने स्कूल में राष्ट्रीय कैडेट कोर ज्वाइन की। हर रविवार, वह मैदान में अभ्यास करता है।\" विकास हर रविवार क्या करता है?" },
+      "optionsJson": [
+        { "en": "He plays cricket", "hi": "वह क्रिकेट खेलता है" },
+        { "en": "He practices drills", "hi": "वह अभ्यास करता है" },
+        { "en": "He studies at home", "hi": "वह घर पर पढ़ाई करता है" },
+        { "en": "He visits his grandparents", "hi": "वह अपने दादा-दादी से मिलने जाता है" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The passage directly states he practices drills on the ground every Sunday.", "hi": "गद्यांश में स्पष्ट रूप से कहा गया है कि वह हर रविवार मैदान में अभ्यास करता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Not mentioned anywhere in the passage.", "hi": "गद्यांश में कहीं भी इसका उल्लेख नहीं है।" },
+        "2": { "en": "Not mentioned anywhere in the passage.", "hi": "गद्यांश में कहीं भी इसका उल्लेख नहीं है।" },
+        "3": { "en": "Not mentioned anywhere in the passage.", "hi": "गद्यांश में कहीं भी इसका उल्लेख नहीं है।" }
+      }
+    },
+    {
+      "key": "rms6-p1-la-12",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Choose the correct comparative form of \"Strong\".", "hi": "\"Strong\" का सही तुलनात्मक (comparative) रूप चुनें।" },
+      "optionsJson": [
+        { "en": "Strongest", "hi": "Strongest" },
+        { "en": "More strong", "hi": "More strong" },
+        { "en": "Stronger", "hi": "Stronger" },
+        { "en": "Strongly", "hi": "Strongly" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "For short adjectives like \"Strong\", the comparative is formed by adding \"-er\": \"Stronger\".", "hi": "\"Strong\" जैसे छोटे विशेषणों में comparative रूप \"-er\" जोड़कर बनता है: \"Stronger\"।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the superlative form, not the comparative.", "hi": "यह superlative रूप है, comparative नहीं।" },
+        "1": { "en": "Redundantly combines \"more\" with an adjective that already forms its comparative with \"-er\".", "hi": "\"more\" को एक ऐसे विशेषण के साथ जोड़ दिया जो पहले से \"-er\" से अपना comparative बनाता है।" },
+        "3": { "en": "This is an adverb form, not the comparative of the adjective.", "hi": "यह एक क्रिया-विशेषण रूप है, विशेषण का comparative नहीं।" }
+      }
+    },
+    {
+      "key": "rms6-p1-la-13",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Identify the verb in the sentence: \"The captain shouted an order.\"", "hi": "वाक्य में क्रिया (verb) पहचानें: \"The captain shouted an order.\"" },
+      "optionsJson": [
+        { "en": "Captain", "hi": "Captain" },
+        { "en": "Shouted", "hi": "Shouted" },
+        { "en": "An", "hi": "An" },
+        { "en": "Order", "hi": "Order" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "\"Shouted\" is the action word in the sentence, making it the verb.", "hi": "\"Shouted\" वाक्य में क्रिया-शब्द है, अतः यह क्रिया है।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is a noun (the person performing the action), not the verb.", "hi": "यह एक संज्ञा है (क्रिया करने वाला व्यक्ति), क्रिया नहीं।" },
+        "2": { "en": "This is an article, not a verb.", "hi": "यह एक आर्टिकल है, क्रिया नहीं।" },
+        "3": { "en": "This is a noun (what was shouted), not the verb itself.", "hi": "यह एक संज्ञा है (जो चिल्लाया गया), स्वयं क्रिया नहीं।" }
+      }
+    },
+    {
+      "key": "rms6-p1-la-14",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Choose the word opposite in meaning to \"Attack\".", "hi": "\"Attack\" के विपरीत अर्थ वाला शब्द चुनें।" },
+      "optionsJson": [
+        { "en": "Assault", "hi": "Assault" },
+        { "en": "Defend", "hi": "Defend" },
+        { "en": "Charge", "hi": "Charge" },
+        { "en": "Strike", "hi": "Strike" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "\"Defend\" means to protect against an attack, the opposite of \"Attack\".", "hi": "\"Defend\" का अर्थ है हमले से रक्षा करना, जो \"Attack\" के विपरीत है।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is a synonym of \"Attack\", not its opposite.", "hi": "यह \"Attack\" का समानार्थी है, विपरीत नहीं।" },
+        "2": { "en": "This is a synonym of \"Attack\", not its opposite.", "hi": "यह \"Attack\" का समानार्थी है, विपरीत नहीं।" },
+        "3": { "en": "This is a synonym of \"Attack\", not its opposite.", "hi": "यह \"Attack\" का समानार्थी है, विपरीत नहीं।" }
+      }
+    },
+    {
+      "key": "rms6-p1-la-15",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Choose the correctly formed sentence.", "hi": "सही ढंग से बना वाक्य चुनें।" },
+      "optionsJson": [
+        { "en": "They doesn't play football.", "hi": "They doesn't play football." },
+        { "en": "They don't plays football.", "hi": "They don't plays football." },
+        { "en": "They don't play football.", "hi": "They don't play football." },
+        { "en": "They not play football.", "hi": "They not play football." }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "With plural \"They\", the negative uses \"don't\" followed by the base verb form \"play\".", "hi": "बहुवचन \"They\" के साथ, negative में \"don't\" के बाद मूल क्रिया रूप \"play\" आता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "\"Doesn't\" is used with third-person singular subjects, not the plural \"They\".", "hi": "\"Doesn't\" का प्रयोग तृतीय पुरुष एकवचन कर्ताओं के साथ होता है, बहुवचन \"They\" के साथ नहीं।" },
+        "1": { "en": "Adds an unnecessary \"-s\" to the verb even though \"don't\" doesn't require that agreement.", "hi": "\"don't\" को उस मेल की आवश्यकता न होते हुए भी क्रिया में अनावश्यक \"-s\" जोड़ दिया।" },
+        "3": { "en": "Missing the required auxiliary verb \"do\" before \"not\".", "hi": "\"not\" से पहले आवश्यक सहायक क्रिया \"do\" गायब है।" }
+      }
+    },
+    {
+      "key": "rms6-p1-la-16",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Choose the correct plural of \"Man\".", "hi": "\"Man\" का सही बहुवचन चुनें।" },
+      "optionsJson": [
+        { "en": "Mans", "hi": "Mans" },
+        { "en": "Men", "hi": "Men" },
+        { "en": "Man", "hi": "Man" },
+        { "en": "Mens", "hi": "Mens" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "\"Man\" has an irregular plural form: \"Men\".", "hi": "\"Man\" का अनियमित बहुवचन रूप है: \"Men\"।" },
+      "distractorAnalysis": {
+        "0": { "en": "Wrongly applies the regular \"-s\" plural rule to an irregular noun.", "hi": "एक अनियमित संज्ञा पर नियमित \"-s\" बहुवचन नियम गलत तरीके से लगा दिया।" },
+        "2": { "en": "This is the singular form, unchanged, not the plural.", "hi": "यह एकवचन रूप है, अपरिवर्तित, बहुवचन नहीं।" },
+        "3": { "en": "Wrongly adds \"-s\" to the already-irregular plural \"Men\".", "hi": "पहले से अनियमित बहुवचन \"Men\" में गलत तरीके से \"-s\" जोड़ दिया।" }
+      }
+    },
+    {
+      "key": "rms6-p1-la-17",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Choose the correctly ordered sentence using the given words: (drills / every / the / soldiers / practice / day)", "hi": "दिए गए शब्दों से सही क्रम वाला वाक्य चुनें: (drills / every / the / soldiers / practice / day)" },
+      "optionsJson": [
+        { "en": "The soldiers practice drills every day.", "hi": "The soldiers practice drills every day." },
+        { "en": "The soldiers every day practice drills.", "hi": "The soldiers every day practice drills." },
+        { "en": "Every day the drills soldiers practice.", "hi": "Every day the drills soldiers practice." },
+        { "en": "Practice the soldiers drills every day.", "hi": "Practice the soldiers drills every day." }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The standard English word order is Subject-Verb-Object, followed by the time expression: \"The soldiers practice drills every day.\"", "hi": "मानक अंग्रेज़ी शब्द-क्रम है कर्ता-क्रिया-कर्म, उसके बाद समय-वाक्यांश: \"The soldiers practice drills every day.\"" },
+      "distractorAnalysis": {
+        "1": { "en": "Places the time expression between the subject and verb, an unnatural position.", "hi": "समय-वाक्यांश को कर्ता और क्रिया के बीच रखा, जो एक अस्वाभाविक स्थिति है।" },
+        "2": { "en": "Scrambles the word order so the sentence doesn't read naturally.", "hi": "शब्द-क्रम इस तरह उलझा दिया कि वाक्य स्वाभाविक रूप से नहीं पढ़ा जाता।" },
+        "3": { "en": "Starts with the verb, breaking the standard Subject-Verb-Object order.", "hi": "क्रिया से आरंभ किया, जिससे मानक कर्ता-क्रिया-कर्म क्रम टूट जाता है।" }
+      }
+    },
+    {
+      "key": "rms6-p1-la-18",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Choose the correct homophone: The ship needs a new ___.", "hi": "सही समोच्चारित (homophone) शब्द चुनें: The ship needs a new ___." },
+      "optionsJson": [
+        { "en": "sale", "hi": "sale" },
+        { "en": "sail", "hi": "sail" },
+        { "en": "sell", "hi": "sell" },
+        { "en": "cell", "hi": "cell" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "\"Sail\" refers to the cloth that catches wind to move a ship, matching the sentence's meaning.", "hi": "\"Sail\" उस कपड़े को दर्शाता है जो हवा पकड़कर जहाज़ को चलाता है, जो वाक्य के अर्थ से मेल खाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Sounds the same but means an event of selling goods, unrelated to a ship's parts.", "hi": "उच्चारण समान है पर अर्थ वस्तुओं की बिक्री का आयोजन है, जहाज़ के भागों से असंबंधित।" },
+        "2": { "en": "A related word (to give up something for money) but not the noun needed here.", "hi": "यह एक संबंधित शब्द है (धन के बदले कुछ देना) पर यहाँ आवश्यक संज्ञा नहीं।" },
+        "3": { "en": "Sounds different and refers to a small room or biological unit, unrelated to ships.", "hi": "उच्चारण भिन्न है और अर्थ एक छोटा कमरा या जैविक इकाई है, जहाज़ों से असंबंधित।" }
+      }
+    },
+    {
+      "key": "rms6-p1-la-19",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Choose the sentence with the correctly placed possessive apostrophe.", "hi": "स्वामित्व सूचक apostrophe के सही स्थान वाला वाक्य चुनें।" },
+      "optionsJson": [
+        { "en": "The soldiers uniform was clean.", "hi": "The soldiers uniform was clean." },
+        { "en": "The soldier's uniform was clean.", "hi": "The soldier's uniform was clean." },
+        { "en": "The soldiers' uniform was clean.", "hi": "The soldiers' uniform was clean." },
+        { "en": "The soldiers, uniform was clean.", "hi": "The soldiers, uniform was clean." }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "For one soldier possessing the uniform, the apostrophe goes before the \"s\": \"soldier's\".", "hi": "एक सैनिक द्वारा वर्दी के स्वामित्व के लिए, apostrophe \"s\" से पहले आता है: \"soldier's\"।" },
+      "distractorAnalysis": {
+        "0": { "en": "Missing the possessive apostrophe entirely.", "hi": "स्वामित्व दर्शाने वाला apostrophe पूरी तरह गायब है।" },
+        "2": { "en": "The apostrophe after \"s\" would imply more than one soldier, but only one is meant here.", "hi": "\"s\" के बाद apostrophe से एक से अधिक सैनिक का अर्थ निकलता, पर यहाँ केवल एक ही है।" },
+        "3": { "en": "Inserts an unnecessary comma that breaks the sentence's meaning.", "hi": "एक अनावश्यक अल्पविराम डाल दिया जो वाक्य के अर्थ को तोड़ देता है।" }
+      }
+    },
+    {
+      "key": "rms6-p1-la-20",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Choose the correct spelling.", "hi": "सही वर्तनी चुनें।" },
+      "optionsJson": [
+        { "en": "Neccessary", "hi": "Neccessary" },
+        { "en": "Necesary", "hi": "Necesary" },
+        { "en": "Necessary", "hi": "Necessary" },
+        { "en": "Neccesary", "hi": "Neccesary" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "\"Necessary\" is spelled n-e-c-e-s-s-a-r-y, with one \"c\" and two \"s\"s.", "hi": "\"Necessary\" की वर्तनी है n-e-c-e-s-s-a-r-y, एक \"c\" और दो \"s\" के साथ।" },
+      "distractorAnalysis": {
+        "0": { "en": "Has an incorrect double \"c\" instead of a single one.", "hi": "गलत दोहरा \"c\" है, एकल के बजाय।" },
+        "1": { "en": "Missing one of the two required \"s\"s.", "hi": "दो आवश्यक \"s\" में से एक गायब है।" },
+        "3": { "en": "Has the double \"c\" and single \"s\" both wrong at once.", "hi": "दोहरा \"c\" और एकल \"s\" दोनों एक साथ गलत हैं।" }
+      }
+    },
+    {
+      "key": "rms6-p1-la-21",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Identify the adjective in the sentence: \"The brave soldier saluted proudly.\"", "hi": "वाक्य में विशेषण (adjective) पहचानें: \"The brave soldier saluted proudly.\"" },
+      "optionsJson": [
+        { "en": "Brave", "hi": "Brave" },
+        { "en": "Soldier", "hi": "Soldier" },
+        { "en": "Saluted", "hi": "Saluted" },
+        { "en": "Proudly", "hi": "Proudly" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "\"Brave\" describes the noun \"soldier\", making it the adjective.", "hi": "\"Brave\" संज्ञा \"soldier\" का वर्णन करता है, अतः यह विशेषण है।" },
+      "distractorAnalysis": {
+        "1": { "en": "This is the noun being described, not the describing word itself.", "hi": "यह वर्णित की जा रही संज्ञा है, वर्णन करने वाला शब्द नहीं।" },
+        "2": { "en": "This is a verb (an action word), not an adjective.", "hi": "यह एक क्रिया है, विशेषण नहीं।" },
+        "3": { "en": "This is an adverb (describes how he saluted), not an adjective.", "hi": "यह एक क्रिया-विशेषण है (सैल्यूट करने का ढंग बताता है), विशेषण नहीं।" }
+      }
+    },
+    {
+      "key": "rms6-p1-la-22",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Choose the correct pronoun: ___ is a courageous officer.", "hi": "सही सर्वनाम चुनें: ___ is a courageous officer." },
+      "optionsJson": [
+        { "en": "Her", "hi": "Her" },
+        { "en": "She", "hi": "She" },
+        { "en": "Hers", "hi": "Hers" },
+        { "en": "Herself", "hi": "Herself" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "\"She\" is the subject pronoun needed here, since it performs the action \"is\".", "hi": "यहाँ कर्ता सर्वनाम \"She\" चाहिए, क्योंकि यह \"is\" क्रिया का कर्ता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "\"Her\" is an object/possessive pronoun, not used as the subject of a sentence.", "hi": "\"Her\" एक कर्म/स्वामित्व सर्वनाम है, वाक्य के कर्ता के रूप में प्रयोग नहीं होता।" },
+        "2": { "en": "\"Hers\" shows possession without a following noun, not the subject performing the action.", "hi": "\"Hers\" बिना संज्ञा के स्वामित्व दर्शाता है, क्रिया करने वाला कर्ता नहीं।" },
+        "3": { "en": "\"Herself\" is a reflexive pronoun, used when the subject acts on itself.", "hi": "\"Herself\" एक reflexive सर्वनाम है, जब कर्ता स्वयं पर क्रिया करे तब प्रयुक्त होता है।" }
+      }
+    },
+    {
+      "key": "rms6-p1-la-23",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Choose the sentence in the passive voice.", "hi": "passive voice वाला वाक्य चुनें।" },
+      "optionsJson": [
+        { "en": "The general gave the order.", "hi": "The general gave the order." },
+        { "en": "The order was given by the general.", "hi": "The order was given by the general." },
+        { "en": "The general is giving the order.", "hi": "The general is giving the order." },
+        { "en": "The general will give the order.", "hi": "The general will give the order." }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "In the passive voice, the object of the action becomes the subject, and \"was + past participle\" is used: \"The order was given by the general.\"", "hi": "passive voice में, क्रिया के कर्म को कर्ता बना दिया जाता है, और \"was + past participle\" प्रयोग होता है: \"The order was given by the general.\"" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the active voice — the general (subject) performs the action directly.", "hi": "यह active voice है — जनरल (कर्ता) सीधे क्रिया करते हैं।" },
+        "2": { "en": "This is the active voice in the present continuous tense.", "hi": "यह present continuous tense में active voice है।" },
+        "3": { "en": "This is the active voice in the future tense.", "hi": "यह future tense में active voice है।" }
+      }
+    },
+    {
+      "key": "rms6-p1-la-24",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Choose the correct collective noun: A ___ of soldiers marched past.", "hi": "सही समूहवाचक संज्ञा (collective noun) चुनें: A ___ of soldiers marched past." },
+      "optionsJson": [
+        { "en": "Flock", "hi": "Flock" },
+        { "en": "Platoon", "hi": "Platoon" },
+        { "en": "Swarm", "hi": "Swarm" },
+        { "en": "Herd", "hi": "Herd" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "A small group of soldiers is commonly called a \"platoon\".", "hi": "सैनिकों के एक छोटे समूह को सामान्यतः \"platoon\" कहा जाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "\"Flock\" is used for sheep or birds, not soldiers.", "hi": "\"Flock\" का प्रयोग भेड़ों या पक्षियों के लिए होता है, सैनिकों के लिए नहीं।" },
+        "2": { "en": "\"Swarm\" is used for bees or insects, not soldiers.", "hi": "\"Swarm\" का प्रयोग मधुमक्खियों या कीड़ों के लिए होता है, सैनिकों के लिए नहीं।" },
+        "3": { "en": "\"Herd\" is used for cattle, not soldiers.", "hi": "\"Herd\" का प्रयोग मवेशियों के लिए होता है, सैनिकों के लिए नहीं।" }
+      }
+    },
+    {
+      "key": "rms6-p1-la-25",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Choose the sentence with the correct use of \"who\" or \"whom\": To ___ did the medal go?", "hi": "\"who\" या \"whom\" के सही प्रयोग वाला वाक्य चुनें: To ___ did the medal go?" },
+      "optionsJson": [
+        { "en": "who", "hi": "who" },
+        { "en": "whom", "hi": "whom" },
+        { "en": "whose", "hi": "whose" },
+        { "en": "which", "hi": "which" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "\"Whom\" is used as the object of the preposition \"to\" (\"to whom\"), while \"who\" is used as a subject.", "hi": "\"Whom\" preposition \"to\" के कर्म के रूप में प्रयोग होता है (\"to whom\"), जबकि \"who\" कर्ता के रूप में प्रयोग होता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "\"Who\" is used as the subject of a verb, but here the person follows the preposition \"to\".", "hi": "\"Who\" क्रिया के कर्ता के रूप में प्रयोग होता है, पर यहाँ व्यक्ति preposition \"to\" के बाद आता है।" },
+        "2": { "en": "\"Whose\" shows possession, which isn't relevant to this question.", "hi": "\"Whose\" स्वामित्व दर्शाता है, जो इस प्रश्न में प्रासंगिक नहीं है।" },
+        "3": { "en": "\"Which\" is used for things, not people.", "hi": "\"Which\" वस्तुओं के लिए प्रयोग होता है, व्यक्तियों के लिए नहीं।" }
+      }
+    }
+  ]
+}
