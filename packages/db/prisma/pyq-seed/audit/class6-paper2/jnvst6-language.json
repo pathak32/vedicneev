@@ -1,0 +1,389 @@
+{
+  "examType": "JNVST",
+  "classLevel": 6,
+  "paperNumber": 2,
+  "sectionKey": "language",
+  "generatedAt": "2026-09-14T00:00:00.000Z",
+  "questions": [
+    {
+      "key": "jnvst6-p2-la-01",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Choose the correct article: ___ elephant is a large animal.", "hi": "सही आर्टिकल चुनें: ___ elephant is a large animal." },
+      "optionsJson": [
+        { "en": "A", "hi": "A" },
+        { "en": "An", "hi": "An" },
+        { "en": "The", "hi": "The" },
+        { "en": "No article needed", "hi": "किसी आर्टिकल की आवश्यकता नहीं" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "'Elephant' begins with a vowel sound, so the article 'an' is used.", "hi": "'Elephant' एक स्वर ध्वनि से शुरू होता है, इसलिए 'an' आर्टिकल का उपयोग होता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "'A' is used before consonant sounds, not vowel sounds like 'elephant'.", "hi": "'A' व्यंजन ध्वनियों से पहले उपयोग होता है, 'elephant' जैसी स्वर ध्वनि से पहले नहीं।" },
+        "2": { "en": "'The' is used for specific, already-known nouns, not a general statement like this.", "hi": "'The' किसी विशेष, पहले से ज्ञात संज्ञा के लिए उपयोग होता है, इस सामान्य कथन के लिए नहीं।" },
+        "3": { "en": "A singular countable noun like 'elephant' always needs an article here.", "hi": "'elephant' जैसी एकवचन गणनीय संज्ञा को यहाँ हमेशा आर्टिकल चाहिए।" }
+      }
+    },
+    {
+      "key": "jnvst6-p2-la-02",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Choose the correct article: She is ___ honest girl.", "hi": "सही आर्टिकल चुनें: She is ___ honest girl." },
+      "optionsJson": [
+        { "en": "a", "hi": "a" },
+        { "en": "an", "hi": "an" },
+        { "en": "the", "hi": "the" },
+        { "en": "no article needed", "hi": "किसी आर्टिकल की आवश्यकता नहीं" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The 'h' in 'honest' is silent, so it starts with a vowel sound, requiring 'an'.", "hi": "'honest' में 'h' मौन है, इसलिए यह स्वर ध्वनि से शुरू होता है, जिसके लिए 'an' चाहिए।" },
+      "distractorAnalysis": {
+        "0": { "en": "Would be correct only if the 'h' were pronounced, but it is silent here.", "hi": "यह तभी सही होता जब 'h' का उच्चारण होता, पर यहाँ यह मौन है।" },
+        "2": { "en": "'The' is for specific nouns, not a general description like this.", "hi": "'The' विशेष संज्ञाओं के लिए है, इस सामान्य विवरण के लिए नहीं।" },
+        "3": { "en": "A singular countable noun phrase like this always needs an article.", "hi": "इस तरह के एकवचन गणनीय संज्ञा-वाक्यांश को हमेशा आर्टिकल चाहिए।" }
+      }
+    },
+    {
+      "key": "jnvst6-p2-la-03",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Fill in the blank with the correct preposition: The cat is sitting ___ the table.", "hi": "सही पूर्वसर्ग से रिक्त स्थान भरें: The cat is sitting ___ the table." },
+      "optionsJson": [
+        { "en": "on", "hi": "on" },
+        { "en": "in", "hi": "in" },
+        { "en": "into", "hi": "into" },
+        { "en": "at", "hi": "at" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "'On' correctly shows the cat is resting on the surface of the table.", "hi": "'On' सही ढंग से दिखाता है कि बिल्ली मेज़ की सतह पर बैठी है।" },
+      "distractorAnalysis": {
+        "1": { "en": "'In' would suggest the cat is inside an enclosed space, not on a surface.", "hi": "'In' यह दर्शाता कि बिल्ली किसी बंद जगह के अंदर है, सतह पर नहीं।" },
+        "2": { "en": "'Into' shows movement towards the inside, not a resting position on top.", "hi": "'Into' अंदर की ओर गति दिखाता है, ऊपर बैठने की स्थिति नहीं।" },
+        "3": { "en": "'At' is used for points/locations, not for resting on a surface.", "hi": "'At' किसी बिंदु/स्थान के लिए उपयोग होता है, सतह पर बैठने के लिए नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst6-p2-la-04",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Fill in the blank: She has been living in Delhi ___ 2015.", "hi": "रिक्त स्थान भरें: She has been living in Delhi ___ 2015." },
+      "optionsJson": [
+        { "en": "since", "hi": "since" },
+        { "en": "for", "hi": "for" },
+        { "en": "from", "hi": "from" },
+        { "en": "at", "hi": "at" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "'Since' is used with a specific point in time (like a year); 'for' is used with a duration.", "hi": "'Since' किसी निश्चित समय बिंदु (जैसे वर्ष) के साथ उपयोग होता है; 'for' अवधि के साथ उपयोग होता है।" },
+      "distractorAnalysis": {
+        "1": { "en": "'For' is used with a duration (e.g. 'for 9 years'), not a specific starting point like 2015.", "hi": "'For' अवधि (जैसे 'for 9 years') के साथ उपयोग होता है, 2015 जैसे निश्चित प्रारंभ बिंदु के साथ नहीं।" },
+        "2": { "en": "'From' pairs with 'to' to show a range, and doesn't fit the present perfect continuous tense here.", "hi": "'From' सामान्यतः 'to' के साथ जुड़कर सीमा दिखाता है, यहाँ प्रयुक्त वर्तमान पूर्ण सातत्य काल में फिट नहीं बैठता।" },
+        "3": { "en": "'At' is used for precise times or points, not for duration since a year.", "hi": "'At' सटीक समय या बिंदु के लिए उपयोग होता है, किसी वर्ष से चली आ रही अवधि के लिए नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst6-p2-la-05",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Choose the correctly punctuated sentence.", "hi": "सही विरामचिह्न वाला वाक्य चुनें।" },
+      "optionsJson": [
+        { "en": "What is your name.", "hi": "What is your name." },
+        { "en": "what is your name?", "hi": "what is your name?" },
+        { "en": "What is your name?", "hi": "What is your name?" },
+        { "en": "What is your name", "hi": "What is your name" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "A question must start with a capital letter and end with a question mark.", "hi": "प्रश्न बड़े अक्षर से शुरू होना चाहिए और प्रश्नवाचक चिह्न पर समाप्त होना चाहिए।" },
+      "distractorAnalysis": {
+        "0": { "en": "Uses a full stop instead of a question mark for a question.", "hi": "प्रश्न के लिए प्रश्नवाचक चिह्न के बजाय पूर्ण विराम का उपयोग किया।" },
+        "1": { "en": "Fails to capitalize the first word of the sentence.", "hi": "वाक्य का पहला शब्द बड़े अक्षर में नहीं लिखा।" },
+        "3": { "en": "Missing the necessary end punctuation entirely.", "hi": "आवश्यक अंतिम विरामचिह्न पूरी तरह गायब है।" }
+      }
+    },
+    {
+      "key": "jnvst6-p2-la-06",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Identify the noun in the sentence: 'The dog barked loudly.'", "hi": "वाक्य में संज्ञा पहचानें: 'The dog barked loudly.'" },
+      "optionsJson": [
+        { "en": "dog", "hi": "dog" },
+        { "en": "barked", "hi": "barked" },
+        { "en": "loudly", "hi": "loudly" },
+        { "en": "the", "hi": "the" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "'Dog' names a thing/animal, making it the noun in the sentence.", "hi": "'Dog' किसी वस्तु/जानवर का नाम बताता है, इसलिए यह वाक्य में संज्ञा है।" },
+      "distractorAnalysis": {
+        "1": { "en": "'Barked' is a verb — it describes the action performed.", "hi": "'Barked' एक क्रिया है — यह की गई क्रिया का वर्णन करता है।" },
+        "2": { "en": "'Loudly' is an adverb describing how the action was done.", "hi": "'Loudly' एक क्रिया-विशेषण है जो बताता है कि क्रिया कैसे की गई।" },
+        "3": { "en": "'The' is an article, not a noun.", "hi": "'The' एक आर्टिकल है, संज्ञा नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst6-p2-la-07",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Identify the verb in the sentence: 'The children played happily in the park.'", "hi": "वाक्य में क्रिया पहचानें: 'The children played happily in the park.'" },
+      "optionsJson": [
+        { "en": "children", "hi": "children" },
+        { "en": "played", "hi": "played" },
+        { "en": "happily", "hi": "happily" },
+        { "en": "park", "hi": "park" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "'Played' shows the action being performed, making it the verb.", "hi": "'Played' की जा रही क्रिया दर्शाता है, इसलिए यह क्रिया है।" },
+      "distractorAnalysis": {
+        "0": { "en": "'Children' is the noun/subject performing the action, not the action itself.", "hi": "'Children' क्रिया करने वाली संज्ञा/कर्ता है, क्रिया स्वयं नहीं।" },
+        "2": { "en": "'Happily' is an adverb describing how they played.", "hi": "'Happily' एक क्रिया-विशेषण है जो बताता है कि वे कैसे खेले।" },
+        "3": { "en": "'Park' is a noun naming the location, not the action.", "hi": "'Park' स्थान का नाम बताने वाली संज्ञा है, क्रिया नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst6-p2-la-08",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Choose the correct past tense form: Yesterday, she ___ to the market.", "hi": "सही भूतकाल रूप चुनें: Yesterday, she ___ to the market." },
+      "optionsJson": [
+        { "en": "go", "hi": "go" },
+        { "en": "goes", "hi": "goes" },
+        { "en": "went", "hi": "went" },
+        { "en": "going", "hi": "going" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "'Yesterday' signals past time, so the past tense form 'went' is correct.", "hi": "'Yesterday' भूतकाल का समय दर्शाता है, इसलिए भूतकाल रूप 'went' सही है।" },
+      "distractorAnalysis": {
+        "0": { "en": "'Go' is the present tense base form, not the past tense needed here.", "hi": "'Go' वर्तमान काल का मूल रूप है, यहाँ आवश्यक भूतकाल नहीं।" },
+        "1": { "en": "'Goes' is present tense for third person singular, not past tense.", "hi": "'Goes' तृतीय पुरुष एकवचन का वर्तमान काल है, भूतकाल नहीं।" },
+        "3": { "en": "'Going' is the continuous form and needs a helping verb — it isn't simple past by itself.", "hi": "'Going' सातत्य रूप है और सहायक क्रिया चाहिए — यह स्वयं सामान्य भूतकाल नहीं है।" }
+      }
+    },
+    {
+      "key": "jnvst6-p2-la-09",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Choose the correct present continuous form: Right now, they ___ football.", "hi": "सही वर्तमान सातत्य रूप चुनें: Right now, they ___ football." },
+      "optionsJson": [
+        { "en": "play", "hi": "play" },
+        { "en": "played", "hi": "played" },
+        { "en": "are playing", "hi": "are playing" },
+        { "en": "plays", "hi": "plays" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "'Right now' signals an action happening at this moment, requiring the present continuous 'are playing'.", "hi": "'Right now' इस क्षण हो रही क्रिया दर्शाता है, जिसके लिए वर्तमान सातत्य 'are playing' चाहिए।" },
+      "distractorAnalysis": {
+        "0": { "en": "'Play' is simple present, used for habits, not an action happening right now.", "hi": "'Play' सामान्य वर्तमान है, आदतों के लिए उपयोग होता है, अभी हो रही क्रिया के लिए नहीं।" },
+        "1": { "en": "'Played' is past tense, but 'right now' indicates the present moment.", "hi": "'Played' भूतकाल है, पर 'right now' वर्तमान क्षण दर्शाता है।" },
+        "3": { "en": "'Plays' doesn't agree with the plural subject 'they' and isn't continuous.", "hi": "'Plays' बहुवचन कर्ता 'they' से मेल नहीं खाता और सातत्य रूप में भी नहीं है।" }
+      }
+    },
+    {
+      "key": "jnvst6-p2-la-10",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Choose the correct future tense form: Tomorrow, we ___ visit our grandparents.", "hi": "सही भविष्यकाल रूप चुनें: Tomorrow, we ___ visit our grandparents." },
+      "optionsJson": [
+        { "en": "will", "hi": "will" },
+        { "en": "shall have", "hi": "shall have" },
+        { "en": "were", "hi": "were" },
+        { "en": "had", "hi": "had" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "'Tomorrow' signals future time, so 'will' (simple future) is correct.", "hi": "'Tomorrow' भविष्यकाल का समय दर्शाता है, इसलिए 'will' (सामान्य भविष्यकाल) सही है।" },
+      "distractorAnalysis": {
+        "1": { "en": "'Shall have' suggests a future perfect construction, more complex than needed here.", "hi": "'Shall have' भविष्य पूर्ण काल का संकेत देता है, जो यहाँ आवश्यकता से अधिक जटिल है।" },
+        "2": { "en": "'Were' is past tense, but 'tomorrow' requires future tense.", "hi": "'Were' भूतकाल है, पर 'tomorrow' भविष्यकाल चाहता है।" },
+        "3": { "en": "'Had' is past tense, but 'tomorrow' requires future tense.", "hi": "'Had' भूतकाल है, पर 'tomorrow' भविष्यकाल चाहता है।" }
+      }
+    },
+    {
+      "key": "jnvst6-p2-la-11",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Choose the synonym of 'Happy'.", "hi": "'Happy' का पर्यायवाची चुनें।" },
+      "optionsJson": [
+        { "en": "Sad", "hi": "Sad" },
+        { "en": "Joyful", "hi": "Joyful" },
+        { "en": "Angry", "hi": "Angry" },
+        { "en": "Tired", "hi": "Tired" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "'Joyful' means feeling or expressing great happiness, matching 'Happy'.", "hi": "'Joyful' का अर्थ है बहुत खुशी महसूस करना या व्यक्त करना, जो 'Happy' से मेल खाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "'Sad' is an antonym of 'Happy', not a synonym.", "hi": "'Sad', 'Happy' का विलोम है, पर्यायवाची नहीं।" },
+        "2": { "en": "'Angry' describes a different emotion entirely.", "hi": "'Angry' पूरी तरह से एक अलग भावना दर्शाता है।" },
+        "3": { "en": "'Tired' describes physical exhaustion, unrelated to happiness.", "hi": "'Tired' शारीरिक थकान दर्शाता है, खुशी से असंबंधित।" }
+      }
+    },
+    {
+      "key": "jnvst6-p2-la-12",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Choose the synonym of 'Brave'.", "hi": "'Brave' का पर्यायवाची चुनें।" },
+      "optionsJson": [
+        { "en": "Fearful", "hi": "Fearful" },
+        { "en": "Courageous", "hi": "Courageous" },
+        { "en": "Weak", "hi": "Weak" },
+        { "en": "Lazy", "hi": "Lazy" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "'Courageous' means having courage, matching the meaning of 'Brave'.", "hi": "'Courageous' का अर्थ है साहस रखना, जो 'Brave' के अर्थ से मेल खाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "'Fearful' is close to the opposite meaning of 'Brave'.", "hi": "'Fearful' 'Brave' के विपरीत अर्थ के करीब है।" },
+        "2": { "en": "'Weak' is unrelated to and roughly opposite of bravery.", "hi": "'Weak' साहस से असंबंधित और लगभग विपरीत है।" },
+        "3": { "en": "'Lazy' describes a lack of effort, unrelated to courage.", "hi": "'Lazy' प्रयास की कमी दर्शाता है, साहस से असंबंधित।" }
+      }
+    },
+    {
+      "key": "jnvst6-p2-la-13",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Choose the synonym of 'Enormous'.", "hi": "'Enormous' का पर्यायवाची चुनें।" },
+      "optionsJson": [
+        { "en": "Tiny", "hi": "Tiny" },
+        { "en": "Huge", "hi": "Huge" },
+        { "en": "Narrow", "hi": "Narrow" },
+        { "en": "Short", "hi": "Short" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "'Huge' means very large in size, matching 'Enormous'.", "hi": "'Huge' का अर्थ है आकार में बहुत बड़ा, जो 'Enormous' से मेल खाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "'Tiny' is the opposite of 'Enormous'.", "hi": "'Tiny', 'Enormous' का विपरीत है।" },
+        "2": { "en": "'Narrow' describes width, not overall size.", "hi": "'Narrow' चौड़ाई दर्शाता है, समग्र आकार नहीं।" },
+        "3": { "en": "'Short' describes length/height, not the size sense of 'Enormous'.", "hi": "'Short' लंबाई/ऊँचाई दर्शाता है, 'Enormous' के आकार-भाव को नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst6-p2-la-14",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Choose the antonym of 'Hot'.", "hi": "'Hot' का विलोम चुनें।" },
+      "optionsJson": [
+        { "en": "Warm", "hi": "Warm" },
+        { "en": "Cold", "hi": "Cold" },
+        { "en": "Sunny", "hi": "Sunny" },
+        { "en": "Bright", "hi": "Bright" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "'Cold' is the direct opposite of 'Hot' in temperature.", "hi": "'Cold' तापमान में 'Hot' का सीधा विपरीत है।" },
+      "distractorAnalysis": {
+        "0": { "en": "'Warm' is close in meaning to 'Hot', not its opposite.", "hi": "'Warm' अर्थ में 'Hot' के करीब है, उसका विपरीत नहीं।" },
+        "2": { "en": "'Sunny' describes weather, not a temperature opposite.", "hi": "'Sunny' मौसम दर्शाता है, तापमान का विपरीत नहीं।" },
+        "3": { "en": "'Bright' describes light, unrelated to temperature.", "hi": "'Bright' प्रकाश दर्शाता है, तापमान से असंबंधित।" }
+      }
+    },
+    {
+      "key": "jnvst6-p2-la-15",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Choose the antonym of 'Difficult'.", "hi": "'Difficult' का विलोम चुनें।" },
+      "optionsJson": [
+        { "en": "Hard", "hi": "Hard" },
+        { "en": "Easy", "hi": "Easy" },
+        { "en": "Tough", "hi": "Tough" },
+        { "en": "Complex", "hi": "Complex" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "'Easy' means not difficult, the direct opposite of 'Difficult'.", "hi": "'Easy' का अर्थ है कठिन नहीं, जो 'Difficult' का सीधा विपरीत है।" },
+      "distractorAnalysis": {
+        "0": { "en": "'Hard' is a synonym of 'Difficult', not its opposite.", "hi": "'Hard', 'Difficult' का पर्यायवाची है, विपरीत नहीं।" },
+        "2": { "en": "'Tough' is a synonym of 'Difficult', not its opposite.", "hi": "'Tough', 'Difficult' का पर्यायवाची है, विपरीत नहीं।" },
+        "3": { "en": "'Complex' is close in meaning to 'Difficult', not its opposite.", "hi": "'Complex' अर्थ में 'Difficult' के करीब है, विपरीत नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst6-p2-la-16",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Choose the antonym of 'Ancient'.", "hi": "'Ancient' का विलोम चुनें।" },
+      "optionsJson": [
+        { "en": "Old", "hi": "Old" },
+        { "en": "Modern", "hi": "Modern" },
+        { "en": "Historic", "hi": "Historic" },
+        { "en": "Traditional", "hi": "Traditional" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "'Modern' means of the present time, the direct opposite of 'Ancient'.", "hi": "'Modern' का अर्थ है वर्तमान समय का, जो 'Ancient' का सीधा विपरीत है।" },
+      "distractorAnalysis": {
+        "0": { "en": "'Old' is close in meaning to 'Ancient', not its opposite.", "hi": "'Old' अर्थ में 'Ancient' के करीब है, विपरीत नहीं।" },
+        "2": { "en": "'Historic' relates to history, close to 'Ancient' rather than opposite.", "hi": "'Historic' इतिहास से संबंधित है, 'Ancient' के करीब है, विपरीत नहीं।" },
+        "3": { "en": "'Traditional' relates to old customs, close to 'Ancient' rather than opposite.", "hi": "'Traditional' पुरानी परंपराओं से संबंधित है, 'Ancient' के करीब है, विपरीत नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst6-p2-la-17",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Choose the correctly spelt word.", "hi": "सही वर्तनी वाला शब्द चुनें।" },
+      "optionsJson": [
+        { "en": "Neccessary", "hi": "Neccessary" },
+        { "en": "Necessary", "hi": "Necessary" },
+        { "en": "Neccesary", "hi": "Neccesary" },
+        { "en": "Necesary", "hi": "Necesary" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "'Necessary' has one 'c' and two 's's — the correct spelling.", "hi": "'Necessary' में एक 'c' और दो 's' होते हैं — यही सही वर्तनी है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Incorrectly doubles the 'c'.", "hi": "गलती से 'c' को दोगुना कर दिया।" },
+        "2": { "en": "Incorrectly doubles the 'c' and uses only one 's'.", "hi": "गलती से 'c' को दोगुना और केवल एक 's' रखा।" },
+        "3": { "en": "Uses only one 's' instead of two.", "hi": "दो के बजाय केवल एक 's' रखा।" }
+      }
+    },
+    {
+      "key": "jnvst6-p2-la-18",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Choose the correctly spelt word.", "hi": "सही वर्तनी वाला शब्द चुनें।" },
+      "optionsJson": [
+        { "en": "Recieve", "hi": "Recieve" },
+        { "en": "Receive", "hi": "Receive" },
+        { "en": "Receeve", "hi": "Receeve" },
+        { "en": "Receve", "hi": "Receve" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "'Receive' follows the 'i before e except after c' rule, correctly spelt as R-E-C-E-I-V-E.", "hi": "'Receive' 'c के बाद e, i से पहले' के नियम का पालन करता है, सही वर्तनी R-E-C-E-I-V-E है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Breaks the 'i before e except after c' rule by placing 'i' before 'e' after 'c'.", "hi": "'c' के बाद 'e' से पहले 'i' रखकर नियम तोड़ दिया।" },
+        "2": { "en": "Uses a double 'e' incorrectly in the middle.", "hi": "बीच में गलत तरीके से दोहरा 'e' रखा।" },
+        "3": { "en": "Drops the 'i' entirely from the correct spelling.", "hi": "सही वर्तनी से 'i' को पूरी तरह हटा दिया।" }
+      }
+    },
+    {
+      "key": "jnvst6-p2-la-19",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Choose the one-word substitute for: 'A person who studies stars and planets.'", "hi": "इसके लिए एक-शब्द विकल्प चुनें: 'तारों और ग्रहों का अध्ययन करने वाला व्यक्ति।'" },
+      "optionsJson": [
+        { "en": "Astrologer", "hi": "Astrologer" },
+        { "en": "Astronomer", "hi": "Astronomer" },
+        { "en": "Geologist", "hi": "Geologist" },
+        { "en": "Botanist", "hi": "Botanist" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "An 'Astronomer' is a scientist who studies stars, planets, and space.", "hi": "'Astronomer' एक वैज्ञानिक है जो तारों, ग्रहों और अंतरिक्ष का अध्ययन करता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "An 'Astrologer' predicts events based on stars, which is different from scientifically studying them.", "hi": "'Astrologer' तारों के आधार पर घटनाओं का अनुमान लगाता है, जो वैज्ञानिक अध्ययन से अलग है।" },
+        "2": { "en": "A 'Geologist' studies rocks and the Earth's structure, not stars and planets.", "hi": "'Geologist' चट्टानों और पृथ्वी की संरचना का अध्ययन करता है, तारों-ग्रहों का नहीं।" },
+        "3": { "en": "A 'Botanist' studies plants, unrelated to stars and planets.", "hi": "'Botanist' पौधों का अध्ययन करता है, तारों-ग्रहों से असंबंधित।" }
+      }
+    },
+    {
+      "key": "jnvst6-p2-la-20",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Choose the one-word substitute for: 'A place where books are kept for reading or borrowing.'", "hi": "इसके लिए एक-शब्द विकल्प चुनें: 'वह स्थान जहाँ पढ़ने या उधार लेने के लिए किताबें रखी जाती हैं।'" },
+      "optionsJson": [
+        { "en": "Bookstore", "hi": "Bookstore" },
+        { "en": "Library", "hi": "Library" },
+        { "en": "Museum", "hi": "Museum" },
+        { "en": "Archive", "hi": "Archive" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "A 'Library' is a place where books are kept for reading or borrowing, usually free of cost.", "hi": "'Library' वह स्थान है जहाँ पढ़ने या उधार लेने के लिए किताबें रखी जाती हैं, सामान्यतः निःशुल्क।" },
+      "distractorAnalysis": {
+        "0": { "en": "A 'Bookstore' sells books rather than lending them for reading.", "hi": "'Bookstore' किताबें उधार देने के बजाय बेचता है।" },
+        "2": { "en": "A 'Museum' displays objects of historical or scientific interest, not primarily books for reading.", "hi": "'Museum' ऐतिहासिक या वैज्ञानिक महत्व की वस्तुएँ प्रदर्शित करता है, मुख्यतः पढ़ने की किताबें नहीं।" },
+        "3": { "en": "An 'Archive' stores historical records and documents, not a general reading collection.", "hi": "'Archive' ऐतिहासिक अभिलेख और दस्तावेज़ संग्रहीत करता है, सामान्य पठन-संग्रह नहीं।" }
+      }
+    }
+  ]
+}

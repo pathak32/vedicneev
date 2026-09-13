@@ -1,0 +1,674 @@
+{
+  "examType": "JNVST",
+  "classLevel": 9,
+  "paperNumber": 2,
+  "sectionKey": "science",
+  "generatedAt": "2026-09-14T00:00:00.000Z",
+  "questions": [
+    {
+      "key": "jnvst9-p2-sci-01",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "How many physical states of matter are commonly studied at this level?", "hi": "इस स्तर पर सामान्यतः पदार्थ की कितनी भौतिक अवस्थाओं का अध्ययन किया जाता है?" },
+      "optionsJson": [
+        { "en": "Two", "hi": "दो" },
+        { "en": "Three", "hi": "तीन" },
+        { "en": "Four", "hi": "चार" },
+        { "en": "Five", "hi": "पाँच" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Matter commonly exists in three states: solid, liquid, and gas.", "hi": "पदार्थ सामान्यतः तीन अवस्थाओं में पाया जाता है: ठोस, द्रव और गैस।" },
+      "distractorAnalysis": {
+        "0": { "en": "Two states would leave out the gaseous state entirely.", "hi": "दो अवस्थाओं में गैसीय अवस्था पूरी तरह छूट जाती।" },
+        "2": { "en": "Plasma and Bose-Einstein condensate are studied at advanced levels, not this one.", "hi": "प्लाज्मा और बोस-आइंस्टीन कंडेनसेट उच्च स्तर पर पढ़ाए जाते हैं, इस स्तर पर नहीं।" },
+        "3": { "en": "Overcounts beyond the three basic states taught here.", "hi": "यहाँ पढ़ाई जाने वाली तीन मूल अवस्थाओं से अधिक गिन लिया।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-sci-02",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "In which state of matter is the intermolecular force of attraction the strongest?", "hi": "पदार्थ की किस अवस्था में अंतर-आणविक आकर्षण बल सबसे प्रबल होता है?" },
+      "optionsJson": [
+        { "en": "Gas", "hi": "गैस" },
+        { "en": "Liquid", "hi": "द्रव" },
+        { "en": "Solid", "hi": "ठोस" },
+        { "en": "Plasma", "hi": "प्लाज्मा" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "In solids, particles are tightly packed with the strongest intermolecular forces, giving them a fixed shape.", "hi": "ठोस में कण कसकर पैक होते हैं और अंतर-आणविक बल सबसे प्रबल होता है, जो उन्हें निश्चित आकार देता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Gas particles have the weakest intermolecular forces, not the strongest.", "hi": "गैस के कणों में अंतर-आणविक बल सबसे कमजोर होता है, सबसे प्रबल नहीं।" },
+        "1": { "en": "Liquids have moderate forces, weaker than solids.", "hi": "द्रव में मध्यम बल होता है, ठोस से कमजोर।" },
+        "3": { "en": "Plasma is an ionized gas with very weak intermolecular forces.", "hi": "प्लाज्मा एक आयनित गैस है जिसमें अंतर-आणविक बल बहुत कमजोर होता है।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-sci-03",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The direct change of a substance from solid to gas without passing through the liquid state is called:", "hi": "किसी पदार्थ का द्रव अवस्था से गुज़रे बिना सीधे ठोस से गैस में बदलना कहलाता है:" },
+      "optionsJson": [
+        { "en": "Evaporation", "hi": "वाष्पीकरण" },
+        { "en": "Condensation", "hi": "संघनन" },
+        { "en": "Sublimation", "hi": "ऊर्ध्वपातन" },
+        { "en": "Freezing", "hi": "हिमीकरण" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Sublimation is the direct change of state from solid to gas, as seen with substances like camphor or dry ice.", "hi": "ऊर्ध्वपातन ठोस से सीधे गैस में अवस्था परिवर्तन है, जैसा कपूर या सूखी बर्फ में देखा जाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Evaporation is the change from liquid to gas, not solid to gas.", "hi": "वाष्पीकरण द्रव से गैस में परिवर्तन है, ठोस से गैस में नहीं।" },
+        "1": { "en": "Condensation is the change from gas to liquid, the reverse process.", "hi": "संघनन गैस से द्रव में परिवर्तन है, विपरीत प्रक्रिया।" },
+        "3": { "en": "Freezing is the change from liquid to solid, unrelated to this direct solid-to-gas change.", "hi": "हिमीकरण द्रव से ठोस में परिवर्तन है, इस सीधे ठोस-से-गैस परिवर्तन से असंबंधित।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-sci-04",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "What is the SI unit of temperature?", "hi": "तापमान की SI इकाई क्या है?" },
+      "optionsJson": [
+        { "en": "Celsius", "hi": "सेल्सियस" },
+        { "en": "Kelvin", "hi": "केल्विन" },
+        { "en": "Fahrenheit", "hi": "फारेनहाइट" },
+        { "en": "Joule", "hi": "जूल" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The SI (standard international) unit of temperature is the Kelvin (K).", "hi": "तापमान की SI (मानक अंतरराष्ट्रीय) इकाई केल्विन (K) है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Celsius is a commonly used scale, but not the SI unit.", "hi": "सेल्सियस एक सामान्य रूप से उपयोग होने वाला पैमाना है, पर SI इकाई नहीं।" },
+        "2": { "en": "Fahrenheit is another common scale, but not the SI unit.", "hi": "फारेनहाइट एक अन्य सामान्य पैमाना है, पर SI इकाई नहीं।" },
+        "3": { "en": "Joule is the SI unit of energy, not temperature.", "hi": "जूल ऊर्जा की SI इकाई है, तापमान की नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-sci-05",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which of the following is an example of a homogeneous mixture?", "hi": "निम्नलिखित में से कौन सा समांगी मिश्रण का उदाहरण है?" },
+      "optionsJson": [
+        { "en": "Air", "hi": "वायु" },
+        { "en": "Sand and water", "hi": "रेत और पानी" },
+        { "en": "Oil and water", "hi": "तेल और पानी" },
+        { "en": "Iron filings and sulphur", "hi": "लोहे का बुरादा और गंधक" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Air is a homogeneous mixture of gases with a uniform composition throughout.", "hi": "वायु गैसों का एक समांगी मिश्रण है जिसकी संरचना हर जगह एक समान होती है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Sand and water form a heterogeneous mixture — the sand settles and is visibly separate.", "hi": "रेत और पानी विषमांगी मिश्रण बनाते हैं — रेत नीचे बैठ जाती है और स्पष्ट रूप से अलग दिखती है।" },
+        "2": { "en": "Oil and water don't mix uniformly and form a heterogeneous mixture.", "hi": "तेल और पानी समान रूप से नहीं मिलते और विषमांगी मिश्रण बनाते हैं।" },
+        "3": { "en": "Iron filings and sulphur remain visibly distinct, forming a heterogeneous mixture.", "hi": "लोहे का बुरादा और गंधक स्पष्ट रूप से अलग रहते हैं, विषमांगी मिश्रण बनाते हैं।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-sci-06",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which of the following is a compound?", "hi": "निम्नलिखित में से कौन सा एक यौगिक है?" },
+      "optionsJson": [
+        { "en": "Air", "hi": "वायु" },
+        { "en": "Water", "hi": "पानी" },
+        { "en": "Milk", "hi": "दूध" },
+        { "en": "Brass", "hi": "पीतल" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Water (H₂O) is a compound formed by the chemical combination of hydrogen and oxygen in a fixed ratio.", "hi": "पानी (H₂O) हाइड्रोजन और ऑक्सीजन के निश्चित अनुपात में रासायनिक संयोजन से बना एक यौगिक है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Air is a mixture of gases, not chemically bonded together.", "hi": "वायु गैसों का मिश्रण है, रासायनिक रूप से बंधी नहीं।" },
+        "2": { "en": "Milk is a mixture (an emulsion/colloid) of water, fat, and proteins.", "hi": "दूध पानी, वसा और प्रोटीन का मिश्रण (पायस/कोलॉइड) है।" },
+        "3": { "en": "Brass is an alloy — a mixture of copper and zinc, not a chemical compound.", "hi": "पीतल एक मिश्रधातु है — तांबे और जस्ते का मिश्रण, रासायनिक यौगिक नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-sci-07",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which method is used to separate cream from milk?", "hi": "दूध से मलाई अलग करने के लिए कौन सी विधि उपयोग की जाती है?" },
+      "optionsJson": [
+        { "en": "Filtration", "hi": "निस्पंदन" },
+        { "en": "Centrifugation", "hi": "अपकेंद्रण" },
+        { "en": "Sublimation", "hi": "ऊर्ध्वपातन" },
+        { "en": "Evaporation", "hi": "वाष्पीकरण" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Centrifugation spins the mixture at high speed to separate components of different densities, such as cream from milk.", "hi": "अपकेंद्रण मिश्रण को तीव्र गति से घुमाकर अलग-अलग घनत्व वाले घटकों को अलग करता है, जैसे दूध से मलाई।" },
+      "distractorAnalysis": {
+        "0": { "en": "Filtration separates insoluble solids from liquids, not components of similar liquid mixtures like milk.", "hi": "निस्पंदन अघुलनशील ठोस को द्रव से अलग करता है, दूध जैसे समान द्रव मिश्रण के घटकों को नहीं।" },
+        "2": { "en": "Sublimation separates a solid that turns directly to gas, unrelated to milk.", "hi": "ऊर्ध्वपातन उस ठोस को अलग करता है जो सीधे गैस बनता है, दूध से असंबंधित।" },
+        "3": { "en": "Evaporation separates a dissolved solid from a liquid solvent, not cream from milk.", "hi": "वाष्पीकरण घुले हुए ठोस को द्रव विलायक से अलग करता है, दूध से मलाई को नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-sci-08",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Which method is used to separate a mixture of two miscible liquids with different boiling points, such as alcohol and water?", "hi": "अलग-अलग क्वथनांक वाले दो मिश्रणीय द्रवों (जैसे एल्कोहॉल और पानी) के मिश्रण को अलग करने के लिए कौन सी विधि उपयोग होती है?" },
+      "optionsJson": [
+        { "en": "Distillation", "hi": "आसवन" },
+        { "en": "Sedimentation", "hi": "अवसादन" },
+        { "en": "Decantation", "hi": "निथारना" },
+        { "en": "Winnowing", "hi": "ओसाना" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Distillation uses the difference in boiling points to evaporate and then condense the more volatile liquid, separating the two miscible liquids.", "hi": "आसवन क्वथनांक के अंतर का उपयोग करके अधिक वाष्पशील द्रव को वाष्पित और फिर संघनित करता है, जिससे दोनों मिश्रणीय द्रव अलग हो जाते हैं।" },
+      "distractorAnalysis": {
+        "1": { "en": "Sedimentation separates heavier insoluble particles that settle down, not miscible liquids.", "hi": "अवसादन भारी अघुलनशील कणों को अलग करता है जो नीचे बैठ जाते हैं, मिश्रणीय द्रवों को नहीं।" },
+        "2": { "en": "Decantation pours off a liquid from settled solids, not two mixed liquids.", "hi": "निथारना बैठे हुए ठोस से द्रव को उड़ेल देता है, दो मिश्रित द्रवों को नहीं।" },
+        "3": { "en": "Winnowing separates lighter husk from heavier grain using air, unrelated to liquids.", "hi": "ओसाना हवा का उपयोग कर हल्के भूसे को भारी अनाज से अलग करता है, द्रवों से असंबंधित।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-sci-09",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "According to Dalton's atomic theory, atoms of the same element are:", "hi": "डाल्टन के परमाणु सिद्धांत के अनुसार, एक ही तत्व के परमाणु होते हैं:" },
+      "optionsJson": [
+        { "en": "Identical in mass and properties", "hi": "द्रव्यमान और गुणों में समान" },
+        { "en": "Always different in mass", "hi": "द्रव्यमान में हमेशा भिन्न" },
+        { "en": "Made of different sub-particles", "hi": "अलग-अलग उप-कणों से बने" },
+        { "en": "Divisible into smaller elements", "hi": "छोटे तत्वों में विभाज्य" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Dalton's atomic theory states that all atoms of a given element are identical in mass and chemical properties.", "hi": "डाल्टन का परमाणु सिद्धांत बताता है कि किसी दिए गए तत्व के सभी परमाणु द्रव्यमान और रासायनिक गुणों में समान होते हैं।" },
+      "distractorAnalysis": {
+        "1": { "en": "This directly contradicts Dalton's theory, which insists on identical mass within an element.", "hi": "यह सीधे डाल्टन के सिद्धांत के विपरीत है, जो एक तत्व के भीतर समान द्रव्यमान पर बल देता है।" },
+        "2": { "en": "Dalton's original theory treated atoms as indivisible, without describing sub-particles.", "hi": "डाल्टन के मूल सिद्धांत में परमाणुओं को अविभाज्य माना गया, उप-कणों का वर्णन नहीं किया गया।" },
+        "3": { "en": "Elements are not divisible into other elements — this describes compounds, not elements.", "hi": "तत्व अन्य तत्वों में विभाज्य नहीं होते — यह यौगिकों का वर्णन है, तत्वों का नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-sci-10",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "How many atoms are present in one molecule of oxygen gas (O₂)?", "hi": "ऑक्सीजन गैस (O₂) के एक अणु में कितने परमाणु उपस्थित होते हैं?" },
+      "optionsJson": [
+        { "en": "1", "hi": "1" },
+        { "en": "2", "hi": "2" },
+        { "en": "3", "hi": "3" },
+        { "en": "4", "hi": "4" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Oxygen gas is diatomic, meaning each molecule (O₂) is made of 2 oxygen atoms.", "hi": "ऑक्सीजन गैस द्विपरमाणुक होती है, अर्थात प्रत्येक अणु (O₂) 2 ऑक्सीजन परमाणुओं से बना होता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "A single oxygen atom (O) is not the stable gaseous form found in air.", "hi": "एकल ऑक्सीजन परमाणु (O) वायु में पाया जाने वाला स्थिर गैसीय रूप नहीं है।" },
+        "2": { "en": "3 oxygen atoms form ozone (O₃), a different molecule, not regular oxygen gas.", "hi": "3 ऑक्सीजन परमाणु ओज़ोन (O₃) बनाते हैं, जो एक अलग अणु है, सामान्य ऑक्सीजन गैस नहीं।" },
+        "3": { "en": "Oxygen gas molecules are not made of 4 atoms.", "hi": "ऑक्सीजन गैस के अणु 4 परमाणुओं से नहीं बने होते।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-sci-11",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "How many hydrogen atoms are present in one molecule of water (H₂O)?", "hi": "पानी (H₂O) के एक अणु में कितने हाइड्रोजन परमाणु उपस्थित होते हैं?" },
+      "optionsJson": [
+        { "en": "1", "hi": "1" },
+        { "en": "2", "hi": "2" },
+        { "en": "3", "hi": "3" },
+        { "en": "0", "hi": "0" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The formula H₂O shows 2 hydrogen atoms bonded to 1 oxygen atom.", "hi": "सूत्र H₂O 1 ऑक्सीजन परमाणु से जुड़े 2 हाइड्रोजन परमाणु दिखाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "The subscript '2' in H₂O specifically indicates 2 hydrogen atoms, not 1.", "hi": "H₂O में उपलेख '2' विशेष रूप से 2 हाइड्रोजन परमाणु दर्शाता है, 1 नहीं।" },
+        "2": { "en": "Overcounts the hydrogen atoms shown in the formula.", "hi": "सूत्र में दिखाए गए हाइड्रोजन परमाणुओं को अधिक गिन लिया।" },
+        "3": { "en": "Confuses hydrogen's count with oxygen's count (which is 1, not 0 for hydrogen).", "hi": "हाइड्रोजन की गिनती को ऑक्सीजन की गिनती (जो 1 है) से भ्रमित कर दिया।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-sci-12",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The Law of Conservation of Mass states that in a chemical reaction:", "hi": "द्रव्यमान संरक्षण का नियम बताता है कि एक रासायनिक अभिक्रिया में:" },
+      "optionsJson": [
+        { "en": "Mass can neither be created nor destroyed", "hi": "द्रव्यमान न तो उत्पन्न किया जा सकता है न ही नष्ट" },
+        { "en": "Mass always increases", "hi": "द्रव्यमान हमेशा बढ़ता है" },
+        { "en": "Mass always decreases", "hi": "द्रव्यमान हमेशा घटता है" },
+        { "en": "Mass changes unpredictably", "hi": "द्रव्यमान अप्रत्याशित रूप से बदलता है" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The Law of Conservation of Mass states that mass is neither created nor destroyed in a chemical reaction — the total mass of reactants equals the total mass of products.", "hi": "द्रव्यमान संरक्षण का नियम बताता है कि रासायनिक अभिक्रिया में द्रव्यमान न तो उत्पन्न होता है न ही नष्ट — अभिकारकों का कुल द्रव्यमान उत्पादों के कुल द्रव्यमान के बराबर होता है।" },
+      "distractorAnalysis": {
+        "1": { "en": "This contradicts the law — mass stays constant, it does not increase.", "hi": "यह नियम के विपरीत है — द्रव्यमान स्थिर रहता है, बढ़ता नहीं।" },
+        "2": { "en": "This contradicts the law — mass stays constant, it does not decrease.", "hi": "यह नियम के विपरीत है — द्रव्यमान स्थिर रहता है, घटता नहीं।" },
+        "3": { "en": "The law establishes a precise, predictable conservation, not unpredictable change.", "hi": "यह नियम एक सटीक, पूर्वानुमेय संरक्षण स्थापित करता है, अप्रत्याशित परिवर्तन नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-sci-13",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Who discovered the electron?", "hi": "इलेक्ट्रॉन की खोज किसने की?" },
+      "optionsJson": [
+        { "en": "J.J. Thomson", "hi": "जे.जे. थॉमसन" },
+        { "en": "Ernest Rutherford", "hi": "अर्नेस्ट रदरफोर्ड" },
+        { "en": "Niels Bohr", "hi": "नील्स बोर" },
+        { "en": "James Chadwick", "hi": "जेम्स चैडविक" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "J.J. Thomson discovered the electron in 1897 through his cathode ray experiments.", "hi": "जे.जे. थॉमसन ने 1897 में अपने कैथोड किरण प्रयोगों के माध्यम से इलेक्ट्रॉन की खोज की।" },
+      "distractorAnalysis": {
+        "1": { "en": "Ernest Rutherford discovered the atomic nucleus and proposed the nuclear model, not the electron.", "hi": "अर्नेस्ट रदरफोर्ड ने परमाणु नाभिक की खोज की और नाभिकीय मॉडल प्रस्तावित किया, इलेक्ट्रॉन नहीं।" },
+        "2": { "en": "Niels Bohr proposed the model of electron orbits/shells, but did not discover the electron itself.", "hi": "नील्स बोर ने इलेक्ट्रॉन की कक्षाओं/शेल का मॉडल प्रस्तावित किया, पर इलेक्ट्रॉन की खोज नहीं की।" },
+        "3": { "en": "James Chadwick discovered the neutron, not the electron.", "hi": "जेम्स चैडविक ने न्यूट्रॉन की खोज की, इलेक्ट्रॉन की नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-sci-14",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The nucleus of an atom contains which particles?", "hi": "एक परमाणु के नाभिक में कौन से कण होते हैं?" },
+      "optionsJson": [
+        { "en": "Electrons and protons", "hi": "इलेक्ट्रॉन और प्रोटॉन" },
+        { "en": "Protons and neutrons", "hi": "प्रोटॉन और न्यूट्रॉन" },
+        { "en": "Electrons and neutrons", "hi": "इलेक्ट्रॉन और न्यूट्रॉन" },
+        { "en": "Only electrons", "hi": "केवल इलेक्ट्रॉन" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The nucleus contains protons (positively charged) and neutrons (neutral), while electrons orbit around it.", "hi": "नाभिक में प्रोटॉन (धनावेशित) और न्यूट्रॉन (उदासीन) होते हैं, जबकि इलेक्ट्रॉन इसके चारों ओर परिक्रमा करते हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "Electrons orbit outside the nucleus, not inside it.", "hi": "इलेक्ट्रॉन नाभिक के बाहर परिक्रमा करते हैं, अंदर नहीं।" },
+        "2": { "en": "Electrons are not located in the nucleus.", "hi": "इलेक्ट्रॉन नाभिक में स्थित नहीं होते।" },
+        "3": { "en": "Electrons alone would leave out the nucleus's actual constituents entirely.", "hi": "केवल इलेक्ट्रॉन नाभिक के वास्तविक घटकों को पूरी तरह छोड़ देगा।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-sci-15",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "What is the electric charge on a neutron?", "hi": "न्यूट्रॉन पर विद्युत आवेश क्या है?" },
+      "optionsJson": [
+        { "en": "Positive", "hi": "धनात्मक" },
+        { "en": "Negative", "hi": "ऋणात्मक" },
+        { "en": "Neutral (zero)", "hi": "उदासीन (शून्य)" },
+        { "en": "Varies by element", "hi": "तत्व के अनुसार बदलता है" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Neutrons carry no electric charge — they are electrically neutral, as their name suggests.", "hi": "न्यूट्रॉन पर कोई विद्युत आवेश नहीं होता — जैसा नाम से पता चलता है, वे विद्युत रूप से उदासीन होते हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "Protons, not neutrons, carry a positive charge.", "hi": "प्रोटॉन, न्यूट्रॉन नहीं, धनात्मक आवेश रखते हैं।" },
+        "1": { "en": "Electrons, not neutrons, carry a negative charge.", "hi": "इलेक्ट्रॉन, न्यूट्रॉन नहीं, ऋणात्मक आवेश रखते हैं।" },
+        "3": { "en": "A neutron's charge is always zero, regardless of the element.", "hi": "न्यूट्रॉन का आवेश हमेशा शून्य होता है, तत्व चाहे जो भी हो।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-sci-16",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "In a neutral atom, the number of electrons equals the number of:", "hi": "एक उदासीन परमाणु में, इलेक्ट्रॉनों की संख्या किसकी संख्या के बराबर होती है:" },
+      "optionsJson": [
+        { "en": "Neutrons", "hi": "न्यूट्रॉन" },
+        { "en": "Protons", "hi": "प्रोटॉन" },
+        { "en": "Isotopes", "hi": "समस्थानिक" },
+        { "en": "Molecules", "hi": "अणु" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "A neutral atom has no overall charge, so its number of negatively charged electrons must equal its number of positively charged protons.", "hi": "एक उदासीन परमाणु का कोई कुल आवेश नहीं होता, इसलिए उसके ऋणावेशित इलेक्ट्रॉनों की संख्या धनावेशित प्रोटॉनों की संख्या के बराबर होनी चाहिए।" },
+      "distractorAnalysis": {
+        "0": { "en": "Neutron count can vary independently (isotopes) without affecting the atom's neutrality.", "hi": "न्यूट्रॉन की संख्या स्वतंत्र रूप से बदल सकती है (समस्थानिक) बिना परमाणु की उदासीनता को प्रभावित किए।" },
+        "2": { "en": "Isotopes are a concept about differing neutron counts, not a count to match electrons against.", "hi": "समस्थानिक भिन्न न्यूट्रॉन संख्या की अवधारणा है, इलेक्ट्रॉन से मिलाने के लिए कोई संख्या नहीं।" },
+        "3": { "en": "Molecules are groups of atoms, not a relevant subatomic count here.", "hi": "अणु परमाणुओं के समूह हैं, यहाँ प्रासंगिक उप-परमाण्विक गिनती नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-sci-17",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Who is credited with discovering the cell?", "hi": "कोशिका की खोज का श्रेय किसे दिया जाता है?" },
+      "optionsJson": [
+        { "en": "Robert Hooke", "hi": "रॉबर्ट हुक" },
+        { "en": "Charles Darwin", "hi": "चार्ल्स डार्विन" },
+        { "en": "Gregor Mendel", "hi": "ग्रेगर मेंडल" },
+        { "en": "Louis Pasteur", "hi": "लुई पाश्चर" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Robert Hooke first observed and named cells in 1665 while examining cork under a microscope.", "hi": "रॉबर्ट हुक ने 1665 में सूक्ष्मदर्शी के तहत कॉर्क की जांच करते हुए सबसे पहले कोशिकाओं को देखा और नाम दिया।" },
+      "distractorAnalysis": {
+        "1": { "en": "Charles Darwin is known for the theory of evolution, not the discovery of the cell.", "hi": "चार्ल्स डार्विन विकास के सिद्धांत के लिए जाने जाते हैं, कोशिका की खोज के लिए नहीं।" },
+        "2": { "en": "Gregor Mendel is known as the father of genetics, not the discovery of the cell.", "hi": "ग्रेगर मेंडल आनुवंशिकी के जनक माने जाते हैं, कोशिका की खोज के लिए नहीं।" },
+        "3": { "en": "Louis Pasteur is known for germ theory and pasteurization, not the discovery of the cell.", "hi": "लुई पाश्चर जीवाणु सिद्धांत और पाश्चुरीकरण के लिए जाने जाते हैं, कोशिका की खोज के लिए नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-sci-18",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which cell organelle is known as the 'powerhouse of the cell'?", "hi": "किस कोशिकांग को 'कोशिका का ऊर्जा-गृह' कहा जाता है?" },
+      "optionsJson": [
+        { "en": "Nucleus", "hi": "केन्द्रक" },
+        { "en": "Mitochondria", "hi": "माइटोकॉन्ड्रिया" },
+        { "en": "Ribosome", "hi": "राइबोसोम" },
+        { "en": "Golgi body", "hi": "गॉल्जी काय" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Mitochondria produce most of the cell's energy (ATP) through cellular respiration, earning the nickname 'powerhouse of the cell'.", "hi": "माइटोकॉन्ड्रिया कोशिकीय श्वसन के माध्यम से कोशिका की अधिकांश ऊर्जा (ATP) उत्पन्न करता है, जिससे इसे 'कोशिका का ऊर्जा-गृह' कहा जाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "The nucleus controls cell activities and holds genetic material, but doesn't primarily generate energy.", "hi": "केन्द्रक कोशिका की गतिविधियों को नियंत्रित करता है और आनुवंशिक सामग्री रखता है, पर मुख्यतः ऊर्जा उत्पन्न नहीं करता।" },
+        "2": { "en": "Ribosomes synthesize proteins, not energy.", "hi": "राइबोसोम प्रोटीन का संश्लेषण करते हैं, ऊर्जा का नहीं।" },
+        "3": { "en": "The Golgi body packages and transports proteins, not the primary site of energy production.", "hi": "गॉल्जी काय प्रोटीन को पैक और परिवहन करता है, ऊर्जा उत्पादन का मुख्य स्थल नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-sci-19",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which cell organelle is responsible for photosynthesis in plant cells?", "hi": "पादप कोशिकाओं में प्रकाश संश्लेषण के लिए कौन सा कोशिकांग उत्तरदायी है?" },
+      "optionsJson": [
+        { "en": "Chloroplast", "hi": "हरितलवक" },
+        { "en": "Mitochondria", "hi": "माइटोकॉन्ड्रिया" },
+        { "en": "Vacuole", "hi": "रसधानी" },
+        { "en": "Lysosome", "hi": "लाइसोसोम" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Chloroplasts contain chlorophyll and carry out photosynthesis, converting light energy into chemical energy.", "hi": "हरितलवक में क्लोरोफिल होता है और वे प्रकाश संश्लेषण करते हैं, प्रकाश ऊर्जा को रासायनिक ऊर्जा में बदलते हैं।" },
+      "distractorAnalysis": {
+        "1": { "en": "Mitochondria carry out cellular respiration, the reverse-purpose process, not photosynthesis.", "hi": "माइटोकॉन्ड्रिया कोशिकीय श्वसन करता है, जो विपरीत-उद्देश्य प्रक्रिया है, प्रकाश संश्लेषण नहीं।" },
+        "2": { "en": "Vacuoles store water, nutrients, and waste, not perform photosynthesis.", "hi": "रसधानी पानी, पोषक तत्व और अपशिष्ट संग्रहीत करती है, प्रकाश संश्लेषण नहीं करती।" },
+        "3": { "en": "Lysosomes break down waste materials and cell debris, unrelated to photosynthesis.", "hi": "लाइसोसोम अपशिष्ट पदार्थों और कोशिका मलबे को तोड़ता है, प्रकाश संश्लेषण से असंबंधित।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-sci-20",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which part of the cell controls all its activities and contains the genetic material?", "hi": "कोशिका का कौन सा भाग इसकी सभी गतिविधियों को नियंत्रित करता है और आनुवंशिक सामग्री रखता है?" },
+      "optionsJson": [
+        { "en": "Cell membrane", "hi": "कोशिका झिल्ली" },
+        { "en": "Nucleus", "hi": "केन्द्रक" },
+        { "en": "Cytoplasm", "hi": "कोशिकाद्रव्य" },
+        { "en": "Cell wall", "hi": "कोशिका भित्ति" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The nucleus contains the DNA (genetic material) and directs and controls all cellular activities.", "hi": "केन्द्रक में DNA (आनुवंशिक सामग्री) होता है और यह सभी कोशिकीय गतिविधियों को निर्देशित व नियंत्रित करता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "The cell membrane regulates what enters and exits the cell, but doesn't hold the genetic material.", "hi": "कोशिका झिल्ली यह नियंत्रित करती है कि कोशिका में क्या प्रवेश करे और बाहर जाए, पर आनुवंशिक सामग्री नहीं रखती।" },
+        "2": { "en": "Cytoplasm is the jelly-like substance where organelles are suspended, not the control center.", "hi": "कोशिकाद्रव्य वह जेली जैसा पदार्थ है जिसमें कोशिकांग निलंबित रहते हैं, नियंत्रण केंद्र नहीं।" },
+        "3": { "en": "The cell wall provides structural support in plant cells, but doesn't hold the genetic material.", "hi": "कोशिका भित्ति पादप कोशिकाओं में संरचनात्मक सहारा देती है, पर आनुवंशिक सामग्री नहीं रखती।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-sci-21",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which plant tissue is responsible for transporting water and minerals?", "hi": "जल और खनिजों के परिवहन के लिए कौन सा पादप ऊतक उत्तरदायी है?" },
+      "optionsJson": [
+        { "en": "Phloem", "hi": "फ्लोएम" },
+        { "en": "Xylem", "hi": "जाइलम" },
+        { "en": "Epidermis", "hi": "अधिचर्म" },
+        { "en": "Parenchyma", "hi": "मृदूतक" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Xylem tissue transports water and dissolved minerals from the roots upward to the rest of the plant.", "hi": "जाइलम ऊतक जल और घुले हुए खनिजों को जड़ों से पौधे के बाकी हिस्सों तक ऊपर पहुँचाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Phloem transports food (prepared by photosynthesis), not water and minerals.", "hi": "फ्लोएम भोजन (प्रकाश संश्लेषण द्वारा तैयार) का परिवहन करता है, जल और खनिजों का नहीं।" },
+        "2": { "en": "The epidermis is the outer protective covering, not a transport tissue.", "hi": "अधिचर्म बाहरी सुरक्षात्मक आवरण है, परिवहन ऊतक नहीं।" },
+        "3": { "en": "Parenchyma is a general-purpose ground tissue for storage/photosynthesis, not the primary water transporter.", "hi": "मृदूतक भंडारण/प्रकाश संश्लेषण के लिए सामान्य-उद्देश्य आधार ऊतक है, जल का मुख्य परिवहक नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-sci-22",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which plant tissue transports food manufactured by photosynthesis to other parts of the plant?", "hi": "प्रकाश संश्लेषण द्वारा निर्मित भोजन को पौधे के अन्य भागों तक पहुँचाने वाला ऊतक कौन सा है?" },
+      "optionsJson": [
+        { "en": "Xylem", "hi": "जाइलम" },
+        { "en": "Phloem", "hi": "फ्लोएम" },
+        { "en": "Collenchyma", "hi": "स्थूलकोण ऊतक" },
+        { "en": "Sclerenchyma", "hi": "दृढ़ोतक" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Phloem tissue transports food (sugars from photosynthesis) throughout the plant.", "hi": "फ्लोएम ऊतक पौधे भर में भोजन (प्रकाश संश्लेषण से प्राप्त शर्करा) का परिवहन करता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Xylem transports water and minerals, not manufactured food.", "hi": "जाइलम जल और खनिजों का परिवहन करता है, निर्मित भोजन का नहीं।" },
+        "2": { "en": "Collenchyma provides flexible mechanical support, not food transport.", "hi": "स्थूलकोण ऊतक लचीला यांत्रिक सहारा देता है, भोजन परिवहन नहीं।" },
+        "3": { "en": "Sclerenchyma provides rigid mechanical support, not food transport.", "hi": "दृढ़ोतक कठोर यांत्रिक सहारा देता है, भोजन परिवहन नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-sci-23",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which tissue in the human body is responsible for movement?", "hi": "मानव शरीर में गति के लिए कौन सा ऊतक उत्तरदायी है?" },
+      "optionsJson": [
+        { "en": "Nervous tissue", "hi": "तंत्रिका ऊतक" },
+        { "en": "Muscular tissue", "hi": "पेशीय ऊतक" },
+        { "en": "Epithelial tissue", "hi": "उपकला ऊतक" },
+        { "en": "Connective tissue", "hi": "संयोजी ऊतक" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Muscular tissue can contract and relax, producing the movement of body parts.", "hi": "पेशीय ऊतक संकुचित और शिथिल हो सकता है, जिससे शरीर के अंगों की गति उत्पन्न होती है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Nervous tissue transmits signals/impulses; it does not itself contract to cause movement.", "hi": "तंत्रिका ऊतक संकेत/आवेग संचरित करता है; यह स्वयं संकुचित होकर गति उत्पन्न नहीं करता।" },
+        "2": { "en": "Epithelial tissue covers and protects surfaces, not responsible for movement.", "hi": "उपकला ऊतक सतहों को ढकता और सुरक्षित रखता है, गति के लिए उत्तरदायी नहीं।" },
+        "3": { "en": "Connective tissue binds and supports other tissues, not the primary agent of movement.", "hi": "संयोजी ऊतक अन्य ऊतकों को बांधता और सहारा देता है, गति का मुख्य कारक नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-sci-24",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which tissue connects and supports other tissues and organs in the body?", "hi": "शरीर में अन्य ऊतकों और अंगों को जोड़ने और सहारा देने वाला ऊतक कौन सा है?" },
+      "optionsJson": [
+        { "en": "Connective tissue", "hi": "संयोजी ऊतक" },
+        { "en": "Muscular tissue", "hi": "पेशीय ऊतक" },
+        { "en": "Nervous tissue", "hi": "तंत्रिका ऊतक" },
+        { "en": "Epithelial tissue", "hi": "उपकला ऊतक" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Connective tissue (like bone, cartilage, and blood) binds and supports other tissues and organs throughout the body.", "hi": "संयोजी ऊतक (जैसे हड्डी, उपास्थि और रक्त) शरीर भर में अन्य ऊतकों और अंगों को बांधता और सहारा देता है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Muscular tissue's main role is contraction for movement, not structural connection.", "hi": "पेशीय ऊतक की मुख्य भूमिका गति के लिए संकुचन है, संरचनात्मक जोड़ नहीं।" },
+        "2": { "en": "Nervous tissue transmits signals; it doesn't structurally bind organs together.", "hi": "तंत्रिका ऊतक संकेत संचरित करता है; यह संरचनात्मक रूप से अंगों को नहीं जोड़ता।" },
+        "3": { "en": "Epithelial tissue covers surfaces; it doesn't primarily bind internal structures together.", "hi": "उपकला ऊतक सतहों को ढकता है; यह मुख्यतः आंतरिक संरचनाओं को नहीं जोड़ता।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-sci-25",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "What is the SI unit of speed?", "hi": "गति की SI इकाई क्या है?" },
+      "optionsJson": [
+        { "en": "km/h", "hi": "किमी/घंटा" },
+        { "en": "m/s", "hi": "मी/से" },
+        { "en": "N", "hi": "N" },
+        { "en": "kg", "hi": "किग्रा" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The SI unit of speed is metres per second (m/s), from distance (metres) divided by time (seconds).", "hi": "गति की SI इकाई मीटर प्रति सेकंड (मी/से) है, दूरी (मीटर) को समय (सेकंड) से भाग देने पर।" },
+      "distractorAnalysis": {
+        "0": { "en": "km/h is a commonly used unit but not the SI unit.", "hi": "किमी/घंटा एक सामान्य रूप से उपयोग होने वाली इकाई है, पर SI इकाई नहीं।" },
+        "2": { "en": "Newton (N) is the SI unit of force, not speed.", "hi": "न्यूटन (N) बल की SI इकाई है, गति की नहीं।" },
+        "3": { "en": "Kilogram (kg) is the SI unit of mass, not speed.", "hi": "किलोग्राम (किग्रा) द्रव्यमान की SI इकाई है, गति की नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-sci-26",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A car travels 100 m in 20 seconds. What is its speed?", "hi": "एक कार 20 सेकंड में 100 मीटर की दूरी तय करती है। इसकी गति क्या है?" },
+      "optionsJson": [
+        { "en": "2 m/s", "hi": "2 मी/से" },
+        { "en": "5 m/s", "hi": "5 मी/से" },
+        { "en": "20 m/s", "hi": "20 मी/से" },
+        { "en": "2000 m/s", "hi": "2000 मी/से" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Speed = distance ÷ time = 100 ÷ 20 = 5 m/s.", "hi": "गति = दूरी ÷ समय = 100 ÷ 20 = 5 मी/से।" },
+      "distractorAnalysis": {
+        "0": { "en": "An arithmetic slip while dividing 100 by 20.", "hi": "100 को 20 से भाग देने में गणना की भूल।" },
+        "2": { "en": "Repeats the time value instead of computing the actual speed.", "hi": "वास्तविक गति निकालने के बजाय समय के मान को दोहरा दिया।" },
+        "3": { "en": "Multiplies distance and time instead of dividing.", "hi": "भाग देने के बजाय दूरी और समय को गुणा कर दिया।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-sci-27",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which of these quantities is a vector (has both magnitude and direction)?", "hi": "इनमें से कौन सी राशि एक सदिश है (जिसमें परिमाण और दिशा दोनों हों)?" },
+      "optionsJson": [
+        { "en": "Speed", "hi": "चाल" },
+        { "en": "Velocity", "hi": "वेग" },
+        { "en": "Distance", "hi": "दूरी" },
+        { "en": "Time", "hi": "समय" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Velocity has both magnitude and a specified direction, making it a vector quantity.", "hi": "वेग में परिमाण और एक निर्दिष्ट दिशा दोनों होते हैं, जिससे यह एक सदिश राशि है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Speed has only magnitude, no specified direction, making it a scalar.", "hi": "चाल में केवल परिमाण होता है, कोई निर्दिष्ट दिशा नहीं, यह अदिश है।" },
+        "2": { "en": "Distance has only magnitude, making it a scalar.", "hi": "दूरी में केवल परिमाण होता है, यह अदिश है।" },
+        "3": { "en": "Time has only magnitude, making it a scalar.", "hi": "समय में केवल परिमाण होता है, यह अदिश है।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-sci-28",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "If a body covers equal distances in equal intervals of time, its motion is called:", "hi": "यदि कोई वस्तु समान समय अंतराल में समान दूरी तय करती है, तो इसकी गति कहलाती है:" },
+      "optionsJson": [
+        { "en": "Non-uniform motion", "hi": "असमान गति" },
+        { "en": "Uniform motion", "hi": "समान गति" },
+        { "en": "Circular motion", "hi": "वृत्तीय गति" },
+        { "en": "Random motion", "hi": "यादृच्छिक गति" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Motion is called uniform when a body covers equal distances in equal time intervals, meaning constant speed.", "hi": "जब कोई वस्तु समान समय अंतराल में समान दूरी तय करती है, अर्थात स्थिर चाल से चलती है, तो इसे समान गति कहते हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "Non-uniform motion involves unequal distances in equal time intervals, the opposite of what's described.", "hi": "असमान गति में समान समय अंतराल में असमान दूरी तय होती है, जो वर्णित के विपरीत है।" },
+        "2": { "en": "Circular motion describes the path's shape, not whether the speed is constant.", "hi": "वृत्तीय गति मार्ग के आकार को दर्शाती है, चाल स्थिर है या नहीं, यह नहीं।" },
+        "3": { "en": "Random motion has no consistent pattern, unlike the equal-distance description given.", "hi": "यादृच्छिक गति में कोई सुसंगत पैटर्न नहीं होता, दिए गए समान-दूरी विवरण के विपरीत।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-sci-29",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Newton's First Law of Motion is also known as the Law of:", "hi": "न्यूटन का गति का प्रथम नियम किस नाम से भी जाना जाता है:" },
+      "optionsJson": [
+        { "en": "Inertia", "hi": "जड़त्व" },
+        { "en": "Gravitation", "hi": "गुरुत्वाकर्षण" },
+        { "en": "Action-Reaction", "hi": "क्रिया-प्रतिक्रिया" },
+        { "en": "Conservation of Energy", "hi": "ऊर्जा संरक्षण" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Newton's First Law states that an object remains at rest or in uniform motion unless acted upon by an external force — hence it is called the Law of Inertia.", "hi": "न्यूटन का प्रथम नियम बताता है कि कोई वस्तु स्थिर रहती है या समान गति में रहती है जब तक कि उस पर कोई बाह्य बल न लगे — इसलिए इसे जड़त्व का नियम कहा जाता है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Gravitation relates to the force of attraction between masses, a separate law by Newton.", "hi": "गुरुत्वाकर्षण द्रव्यमानों के बीच आकर्षण बल से संबंधित है, न्यूटन का एक अलग नियम।" },
+        "2": { "en": "Action-Reaction describes Newton's Third Law, not the First.", "hi": "क्रिया-प्रतिक्रिया न्यूटन के तृतीय नियम को दर्शाता है, प्रथम को नहीं।" },
+        "3": { "en": "Conservation of Energy is a separate principle, not one of Newton's laws of motion.", "hi": "ऊर्जा संरक्षण एक अलग सिद्धांत है, न्यूटन के गति नियमों में से एक नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-sci-30",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "What is the SI unit of force?", "hi": "बल की SI इकाई क्या है?" },
+      "optionsJson": [
+        { "en": "Joule", "hi": "जूल" },
+        { "en": "Watt", "hi": "वाट" },
+        { "en": "Newton", "hi": "न्यूटन" },
+        { "en": "Pascal", "hi": "पास्कल" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The SI unit of force is the Newton (N), named after Sir Isaac Newton.", "hi": "बल की SI इकाई न्यूटन (N) है, जिसका नाम सर आइज़क न्यूटन के नाम पर रखा गया है।" },
+      "distractorAnalysis": {
+        "0": { "en": "The Joule is the SI unit of energy/work, not force.", "hi": "जूल ऊर्जा/कार्य की SI इकाई है, बल की नहीं।" },
+        "1": { "en": "The Watt is the SI unit of power, not force.", "hi": "वाट शक्ति की SI इकाई है, बल की नहीं।" },
+        "3": { "en": "The Pascal is the SI unit of pressure, not force.", "hi": "पास्कल दाब की SI इकाई है, बल की नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-sci-31",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Using F = ma, find the force needed to give a 2 kg object an acceleration of 3 m/s².", "hi": "F = ma का उपयोग कर 2 किग्रा वस्तु को 3 मी/से² त्वरण देने के लिए आवश्यक बल ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "1 N", "hi": "1 N" },
+        { "en": "5 N", "hi": "5 N" },
+        { "en": "6 N", "hi": "6 N" },
+        { "en": "12 N", "hi": "12 N" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Force = mass × acceleration = 2 × 3 = 6 N.", "hi": "बल = द्रव्यमान × त्वरण = 2 × 3 = 6 N।" },
+      "distractorAnalysis": {
+        "0": { "en": "Subtracts the values instead of multiplying them.", "hi": "गुणा करने के बजाय मानों को घटा दिया।" },
+        "1": { "en": "Adds the values instead of multiplying them.", "hi": "गुणा करने के बजाय मानों को जोड़ दिया।" },
+        "3": { "en": "An arithmetic slip while multiplying 2 and 3.", "hi": "2 और 3 को गुणा करने में गणना की भूल।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-sci-32",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Newton's Third Law of Motion states that:", "hi": "न्यूटन का गति का तृतीय नियम बताता है कि:" },
+      "optionsJson": [
+        { "en": "An object at rest stays at rest", "hi": "स्थिर वस्तु स्थिर रहती है" },
+        { "en": "For every action, there is an equal and opposite reaction", "hi": "प्रत्येक क्रिया के लिए एक बराबर और विपरीत प्रतिक्रिया होती है" },
+        { "en": "Force equals mass times acceleration", "hi": "बल द्रव्यमान गुणा त्वरण के बराबर होता है" },
+        { "en": "Energy cannot be created or destroyed", "hi": "ऊर्जा उत्पन्न या नष्ट नहीं की जा सकती" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Newton's Third Law states that for every action force, there is an equal and opposite reaction force.", "hi": "न्यूटन का तृतीय नियम बताता है कि प्रत्येक क्रिया बल के लिए एक बराबर और विपरीत प्रतिक्रिया बल होता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "This describes Newton's First Law (inertia), not the Third.", "hi": "यह न्यूटन के प्रथम नियम (जड़त्व) का वर्णन करता है, तृतीय का नहीं।" },
+        "2": { "en": "This describes Newton's Second Law (F=ma), not the Third.", "hi": "यह न्यूटन के द्वितीय नियम (F=ma) का वर्णन करता है, तृतीय का नहीं।" },
+        "3": { "en": "This is the Law of Conservation of Energy, a separate principle from Newton's laws of motion.", "hi": "यह ऊर्जा संरक्षण का नियम है, न्यूटन के गति नियमों से एक अलग सिद्धांत।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-sci-33",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "What is the approximate value of acceleration due to gravity (g) on the Earth's surface?", "hi": "पृथ्वी की सतह पर गुरुत्वीय त्वरण (g) का अनुमानित मान क्या है?" },
+      "optionsJson": [
+        { "en": "9.8 m/s²", "hi": "9.8 मी/से²" },
+        { "en": "8.9 m/s²", "hi": "8.9 मी/से²" },
+        { "en": "10.8 m/s²", "hi": "10.8 मी/से²" },
+        { "en": "1.6 m/s²", "hi": "1.6 मी/से²" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The standard approximate value of acceleration due to gravity on Earth's surface is 9.8 m/s².", "hi": "पृथ्वी की सतह पर गुरुत्वीय त्वरण का मानक अनुमानित मान 9.8 मी/से² है।" },
+      "distractorAnalysis": {
+        "1": { "en": "This value transposes the digits of the correct answer.", "hi": "यह मान सही उत्तर के अंकों को उलट देता है।" },
+        "2": { "en": "This overstates Earth's gravitational acceleration.", "hi": "यह पृथ्वी के गुरुत्वीय त्वरण को अधिक बता देता है।" },
+        "3": { "en": "This is closer to the Moon's gravitational acceleration, not Earth's.", "hi": "यह चंद्रमा के गुरुत्वीय त्वरण के करीब है, पृथ्वी के नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-sci-34",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "What force keeps the planets revolving around the Sun?", "hi": "कौन सा बल ग्रहों को सूर्य के चारों ओर परिक्रमा करते रहने में सहायक है?" },
+      "optionsJson": [
+        { "en": "Magnetic force", "hi": "चुंबकीय बल" },
+        { "en": "Gravitational force", "hi": "गुरुत्वाकर्षण बल" },
+        { "en": "Frictional force", "hi": "घर्षण बल" },
+        { "en": "Electrostatic force", "hi": "स्थिरवैद्युत बल" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The Sun's gravitational force pulls on the planets, keeping them in orbit around it.", "hi": "सूर्य का गुरुत्वाकर्षण बल ग्रहों को खींचता है, जिससे वे इसके चारों ओर कक्षा में बने रहते हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "Magnetic force acts between magnetic materials, not the cause of planetary orbits.", "hi": "चुंबकीय बल चुंबकीय पदार्थों के बीच कार्य करता है, ग्रहीय कक्षाओं का कारण नहीं।" },
+        "2": { "en": "Frictional force opposes relative motion between surfaces in contact, not relevant in the vacuum of space.", "hi": "घर्षण बल संपर्क में सतहों के बीच सापेक्ष गति का विरोध करता है, अंतरिक्ष के निर्वात में प्रासंगिक नहीं।" },
+        "3": { "en": "Electrostatic force acts between charged bodies, not the cause of planetary orbits.", "hi": "स्थिरवैद्युत बल आवेशित वस्तुओं के बीच कार्य करता है, ग्रहीय कक्षाओं का कारण नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-sci-35",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The weight of an object is best described as:", "hi": "किसी वस्तु का भार सबसे अच्छी तरह किस रूप में वर्णित किया जाता है:" },
+      "optionsJson": [
+        { "en": "The amount of matter it contains", "hi": "उसमें निहित पदार्थ की मात्रा" },
+        { "en": "The force of gravity acting on it", "hi": "उस पर कार्यरत गुरुत्वाकर्षण बल" },
+        { "en": "Its resistance to change in motion", "hi": "गति में परिवर्तन के प्रति उसका प्रतिरोध" },
+        { "en": "The space it occupies", "hi": "उसके द्वारा घेरा गया स्थान" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Weight is the force of gravity acting on an object's mass (Weight = mass × g), and it can change depending on the gravitational field.", "hi": "भार किसी वस्तु के द्रव्यमान पर कार्यरत गुरुत्वाकर्षण बल है (भार = द्रव्यमान × g), और यह गुरुत्वीय क्षेत्र के अनुसार बदल सकता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "This describes mass, which stays constant, unlike weight which varies with gravity.", "hi": "यह द्रव्यमान का वर्णन करता है, जो स्थिर रहता है, भार के विपरीत जो गुरुत्व के साथ बदलता है।" },
+        "2": { "en": "This describes inertia, a property related to mass, not weight.", "hi": "यह जड़त्व का वर्णन करता है, जो द्रव्यमान से संबंधित गुण है, भार नहीं।" },
+        "3": { "en": "This describes volume, an unrelated physical property.", "hi": "यह आयतन का वर्णन करता है, एक असंबंधित भौतिक गुण।" }
+      }
+    }
+  ]
+}

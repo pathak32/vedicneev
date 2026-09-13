@@ -10,6 +10,8 @@ import { posts as postsAissee6Paper1 } from "./aissee-class-6-paper1";
 import { posts as postsRms6Paper1 } from "./rms-class-6-paper1";
 import { posts as postsAissee9Paper2 } from "./aissee-class-9-paper2";
 import { posts as postsRms9Paper2 } from "./rms-class-9-paper2";
+import { posts as postsJnvst6Paper2 } from "./jnvst-class-6-paper2";
+import { posts as postsJnvst9Paper2 } from "./jnvst-class-9-paper2";
 
 export const pyqSeedItems: PyqSeedItem[] = [
   ...posts2021,
@@ -23,4 +25,6 @@ export const pyqSeedItems: PyqSeedItem[] = [
   ...postsRms6Paper1,
   ...postsAissee9Paper2,
   ...postsRms9Paper2,
+  ...postsJnvst6Paper2,
+  ...postsJnvst9Paper2,
 ];

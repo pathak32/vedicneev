@@ -1,25 +1,69 @@
 /**
- * Seeds the storefront's 5 flagship digital products plus one illustrative
+ * Seeds the storefront's flagship digital products plus one illustrative
  * influencer promo code. Separate from prisma/seed.ts, matching
  * seed-jnvst-pyqs.ts's precedent — independent of the rest of the seed
  * data, safe to re-run on its own.
  *
- * fileUrl points at a real static placeholder asset for the two products
- * that sell a downloadable file — apps/web/public/sample-question-bank-
- * booklet.pdf and the existing public/omr-sample-sheet.svg — matching
- * MediaItem.videoUrl/OfflineMockSession.scannedImageUrl's "populated out
- * of band" convention. Swap these for the real production assets before
- * launch. The other three products are access-based, not file-based, so
- * fileUrl stays null for them by omission.
+ * The question-bank booklet is 6 discrete SKUs (JNVST/AISSEE/RMS × Class 6/
+ * Class 9), each tagged with targetExam/targetClass so the /store filter
+ * (see StorePageClient.tsx) can show a visitor only the exact package for
+ * their exam and grade, instead of one generic booklet covering everyone.
+ *
+ * Each booklet's fileUrl points at a real, exam/class-specific PDF under
+ * apps/web/public/booklets/ — generated from the actual seeded question
+ * bank (not placeholder text) by apps/web/scripts/generate-booklet-pdfs.mts
+ * (a deterministic 40-30-30 easy/medium/hard sample per section, targeting
+ * 500 questions per booklet and capped by whatever reviewed content
+ * actually exists, with full worked solutions — see that script's
+ * "[shortfall]" warnings for which sections still need more content).
+ * Re-run that script to refresh the PDFs after the underlying question
+ * bank changes; this seed just points at whatever's already on disk. The
+ * OMR kit still uses the
+ * existing public/omr-sample-sheet.svg placeholder, matching MediaItem.
+ * videoUrl/OfflineMockSession.scannedImageUrl's "populated out of band"
+ * convention — swap it for a real production asset before launch. The
+ * remaining access-based products (mock series, bootcamp, mega bundle)
+ * have no file, so fileUrl stays null for them by omission.
  *
  * Product has no natural unique business key in the schema, so this keys
- * off productType instead — safe only because this script seeds exactly
- * one row per type; re-running it after a copy/price edit updates the
- * existing row for that type instead of duplicating it.
+ * off (productType, targetExam, targetClass) instead — safe only because
+ * this script seeds exactly one row per that combination; re-running it
+ * after a copy/price edit updates the existing row instead of duplicating
+ * it.
  */
 import { Prisma, PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
+
+const BOOKLET_EXAMS = [
+  { exam: "JNVST" as const, label: { en: "JNVST", hi: "जेएनवीएसटी" } },
+  { exam: "AISSEE" as const, label: { en: "AISSEE (Sainik School)", hi: "एआईएसएसई (सैनिक स्कूल)" } },
+  { exam: "RMS" as const, label: { en: "RMS", hi: "आरएमएस" } },
+];
+const BOOKLET_CLASSES = [
+  { classLevel: "CLASS_6" as const, numeral: 6, label: { en: "Class 6", hi: "कक्षा 6" } },
+  { classLevel: "CLASS_9" as const, numeral: 9, label: { en: "Class 9", hi: "कक्षा 9" } },
+];
+
+const QUESTION_BOOKLETS = BOOKLET_EXAMS.flatMap(({ exam, label: examLabel }) =>
+  BOOKLET_CLASSES.map(({ classLevel, numeral, label: classLabel }) => ({
+    title: {
+      en: `${examLabel.en} ${classLabel.en} Question Bank Booklet (PDF)`,
+      hi: `${examLabel.hi} ${classLabel.hi} प्रश्न बैंक पुस्तिका (PDF)`,
+    },
+    description: {
+      en: `A downloadable PDF of ${examLabel.en} ${classLabel.en} practice questions (40-30-30 difficulty split) with full solutions.`,
+      hi: `पूर्ण समाधान सहित ${examLabel.hi} ${classLabel.hi} अभ्यास प्रश्नों (40-30-30 कठिनाई अनुपात) की डाउनलोड करने योग्य PDF।`,
+    },
+    productType: "QUESTION_BOOKLET" as const,
+    targetExam: exam,
+    targetClass: classLevel,
+    displayPrice: 399,
+    sellingPrice: 149,
+    // Matches the filename generate-booklet-pdfs.mts writes for this exam/class combo.
+    fileUrl: `/booklets/${exam.toLowerCase()}-class-${numeral}-question-bank-booklet.pdf`,
+  }))
+);
 
 const PRODUCTS = [
   {
@@ -42,17 +86,7 @@ const PRODUCTS = [
     displayPrice: 1499,
     sellingPrice: 499,
   },
-  {
-    title: { en: "Digital Question Bank Booklet (PDF)", hi: "डिजिटल प्रश्न बैंक पुस्तिका (PDF)" },
-    description: {
-      en: "A downloadable PDF of practice questions with full solutions.",
-      hi: "पूर्ण समाधान सहित अभ्यास प्रश्नों की डाउनलोड करने योग्य PDF।",
-    },
-    productType: "QUESTION_BOOKLET" as const,
-    displayPrice: 399,
-    sellingPrice: 149,
-    fileUrl: "/sample-question-bank-booklet.pdf",
-  },
+  ...QUESTION_BOOKLETS,
   {
     title: { en: "Printable Offline OMR Kit", hi: "प्रिंट करने योग्य ऑफ़लाइन OMR किट" },
     description: {
@@ -67,8 +101,8 @@ const PRODUCTS = [
   {
     title: { en: "The Ultimate Mega Bundle", hi: "अल्टीमेट मेगा बंडल" },
     description: {
-      en: "Everything: the mock series, the 30-day sprint, the question booklet, and the OMR kit.",
-      hi: "सब कुछ: मॉक सीरीज़, 30-दिवसीय स्प्रिंट, प्रश्न पुस्तिका, और OMR किट।",
+      en: "Everything: the mock series, the 30-day sprint, every question booklet, and the OMR kit.",
+      hi: "सब कुछ: मॉक सीरीज़, 30-दिवसीय स्प्रिंट, हर प्रश्न पुस्तिका, और OMR किट।",
     },
     productType: "MEGA_BUNDLE" as const,
     displayPrice: 2499,
@@ -88,11 +122,17 @@ const PROMO_CODES = [
 
 async function main() {
   for (const product of PRODUCTS) {
-    const existing = await prisma.product.findFirst({ where: { productType: product.productType } });
+    const targetExam = "targetExam" in product ? product.targetExam : null;
+    const targetClass = "targetClass" in product ? product.targetClass : null;
+    const existing = await prisma.product.findFirst({
+      where: { productType: product.productType, targetExam, targetClass },
+    });
     const data = {
       title: product.title as Prisma.InputJsonValue,
       description: product.description as Prisma.InputJsonValue,
       productType: product.productType,
+      targetExam,
+      targetClass,
       displayPrice: product.displayPrice,
       sellingPrice: product.sellingPrice,
       fileUrl: "fileUrl" in product ? product.fileUrl : null,

@@ -1,0 +1,579 @@
+{
+  "examType": "JNVST",
+  "classLevel": 9,
+  "paperNumber": 2,
+  "sectionKey": "social_science",
+  "generatedAt": "2026-09-14T00:00:00.000Z",
+  "questions": [
+    {
+      "key": "jnvst9-p2-ss-01",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "In which year did the French Revolution begin?", "hi": "फ्रांसीसी क्रांति किस वर्ष शुरू हुई?" },
+      "optionsJson": [
+        { "en": "1776", "hi": "1776" },
+        { "en": "1789", "hi": "1789" },
+        { "en": "1804", "hi": "1804" },
+        { "en": "1815", "hi": "1815" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The French Revolution began in 1789 with the storming of the Bastille.", "hi": "फ्रांसीसी क्रांति 1789 में बास्तील के पतन के साथ शुरू हुई।" },
+      "distractorAnalysis": {
+        "0": { "en": "1776 is the year of the American Declaration of Independence, not the French Revolution.", "hi": "1776 अमेरिकी स्वतंत्रता की घोषणा का वर्ष है, फ्रांसीसी क्रांति का नहीं।" },
+        "2": { "en": "1804 is when Napoleon was crowned Emperor, well after the revolution began.", "hi": "1804 में नेपोलियन को सम्राट घोषित किया गया, जो क्रांति शुरू होने के बहुत बाद है।" },
+        "3": { "en": "1815 is the year of the Battle of Waterloo, long after the revolution began.", "hi": "1815 वाटरलू के युद्ध का वर्ष है, क्रांति शुरू होने के काफी बाद।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-ss-02",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "What was the famous slogan of the French Revolution?", "hi": "फ्रांसीसी क्रांति का प्रसिद्ध नारा क्या था?" },
+      "optionsJson": [
+        { "en": "Liberty, Equality, Fraternity", "hi": "स्वतंत्रता, समानता, बंधुत्व" },
+        { "en": "Peace, Land, Bread", "hi": "शांति, भूमि, रोटी" },
+        { "en": "Blood and Iron", "hi": "रक्त और लौह" },
+        { "en": "Workers of the World, Unite", "hi": "दुनिया के मजदूरों, एक हो जाओ" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "'Liberty, Equality, Fraternity' was the guiding slogan of the French Revolution.", "hi": "'स्वतंत्रता, समानता, बंधुत्व' फ्रांसीसी क्रांति का मार्गदर्शक नारा था।" },
+      "distractorAnalysis": {
+        "1": { "en": "'Peace, Land, Bread' was a slogan associated with the Russian Revolution, not the French.", "hi": "'शांति, भूमि, रोटी' रूसी क्रांति से जुड़ा नारा था, फ्रांसीसी से नहीं।" },
+        "2": { "en": "'Blood and Iron' was associated with Bismarck's unification of Germany.", "hi": "'रक्त और लौह' बिस्मार्क द्वारा जर्मनी के एकीकरण से जुड़ा था।" },
+        "3": { "en": "'Workers of the World, Unite' is a socialist/communist slogan, not from the French Revolution.", "hi": "'दुनिया के मजदूरों, एक हो जाओ' एक समाजवादी/साम्यवादी नारा है, फ्रांसीसी क्रांति से नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-ss-03",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Who was the King of France at the time the French Revolution began?", "hi": "फ्रांसीसी क्रांति शुरू होने के समय फ्रांस का राजा कौन था?" },
+      "optionsJson": [
+        { "en": "Louis XIV", "hi": "लुई XIV" },
+        { "en": "Louis XVI", "hi": "लुई XVI" },
+        { "en": "Napoleon Bonaparte", "hi": "नेपोलियन बोनापार्ट" },
+        { "en": "Louis Philippe", "hi": "लुई फिलिप" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Louis XVI was the King of France when the revolution began in 1789; he was later executed in 1793.", "hi": "1789 में क्रांति शुरू होने के समय लुई XVI फ्रांस का राजा था; बाद में 1793 में उसे मृत्युदंड दिया गया।" },
+      "distractorAnalysis": {
+        "0": { "en": "Louis XIV ruled over a century earlier and was not king during the revolution.", "hi": "लुई XIV एक सदी पहले शासन करता था और क्रांति के समय राजा नहीं था।" },
+        "2": { "en": "Napoleon Bonaparte rose to power after the revolution, as a military leader and later emperor.", "hi": "नेपोलियन बोनापार्ट क्रांति के बाद एक सैन्य नेता और बाद में सम्राट के रूप में सत्ता में आया।" },
+        "3": { "en": "Louis Philippe became king decades later, in 1830.", "hi": "लुई फिलिप दशकों बाद, 1830 में राजा बना।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-ss-04",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The Bastille, stormed by revolutionaries on 14 July 1789, was originally used as a:", "hi": "बास्तील, जिसे क्रांतिकारियों ने 14 जुलाई 1789 को घेर लिया था, मूल रूप से किस रूप में उपयोग होता था:" },
+      "optionsJson": [
+        { "en": "Royal palace", "hi": "शाही महल" },
+        { "en": "Prison/fortress symbolizing royal power", "hi": "शाही सत्ता का प्रतीक कारागार/किला" },
+        { "en": "Church", "hi": "गिरजाघर" },
+        { "en": "Marketplace", "hi": "बाज़ार" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The Bastille was a prison/fortress that symbolized the arbitrary power of the monarchy, making its fall a powerful symbol of the revolution.", "hi": "बास्तील एक कारागार/किला था जो राजतंत्र की मनमानी सत्ता का प्रतीक था, जिससे इसका पतन क्रांति का एक शक्तिशाली प्रतीक बन गया।" },
+      "distractorAnalysis": {
+        "0": { "en": "The Bastille was not the royal residence; the king lived at Versailles.", "hi": "बास्तील शाही निवास नहीं था; राजा वर्साय में रहता था।" },
+        "2": { "en": "The Bastille was not a religious building.", "hi": "बास्तील कोई धार्मिक भवन नहीं था।" },
+        "3": { "en": "The Bastille was not a place of trade or commerce.", "hi": "बास्तील व्यापार या वाणिज्य का स्थान नहीं था।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-ss-05",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "In which year did the Russian Revolution take place?", "hi": "रूसी क्रांति किस वर्ष हुई?" },
+      "optionsJson": [
+        { "en": "1905", "hi": "1905" },
+        { "en": "1917", "hi": "1917" },
+        { "en": "1929", "hi": "1929" },
+        { "en": "1939", "hi": "1939" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The major Russian Revolution that overthrew the Tsar and later brought the Bolsheviks to power occurred in 1917.", "hi": "प्रमुख रूसी क्रांति, जिसने ज़ार को उखाड़ फेंका और बाद में बोल्शेविकों को सत्ता में लाई, 1917 में हुई।" },
+      "distractorAnalysis": {
+        "0": { "en": "1905 saw an earlier, unsuccessful Russian revolution, not the major one that changed the government.", "hi": "1905 में एक पहले की, असफल रूसी क्रांति हुई थी, न कि वह प्रमुख क्रांति जिसने सरकार बदली।" },
+        "2": { "en": "1929 marks the start of the Great Depression, not the Russian Revolution.", "hi": "1929 महामंदी की शुरुआत का वर्ष है, रूसी क्रांति का नहीं।" },
+        "3": { "en": "1939 marks the start of World War II, not the Russian Revolution.", "hi": "1939 द्वितीय विश्व युद्ध की शुरुआत का वर्ष है, रूसी क्रांति का नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-ss-06",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Who was the leader of the Bolsheviks during the Russian Revolution?", "hi": "रूसी क्रांति के दौरान बोल्शेविकों के नेता कौन थे?" },
+      "optionsJson": [
+        { "en": "Joseph Stalin", "hi": "जोसेफ स्तालिन" },
+        { "en": "Vladimir Lenin", "hi": "व्लादिमीर लेनिन" },
+        { "en": "Karl Marx", "hi": "कार्ल मार्क्स" },
+        { "en": "Leon Trotsky", "hi": "लियोन ट्रॉट्स्की" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Vladimir Lenin led the Bolsheviks and headed the new Soviet government after the 1917 revolution.", "hi": "व्लादिमीर लेनिन ने बोल्शेविकों का नेतृत्व किया और 1917 की क्रांति के बाद नई सोवियत सरकार का नेतृत्व किया।" },
+      "distractorAnalysis": {
+        "0": { "en": "Joseph Stalin rose to leadership after Lenin's death in 1924, not during the 1917 revolution.", "hi": "जोसेफ स्तालिन 1924 में लेनिन की मृत्यु के बाद नेतृत्व में आया, 1917 की क्रांति के दौरान नहीं।" },
+        "2": { "en": "Karl Marx developed the theory of socialism decades earlier but did not lead the 1917 revolution himself.", "hi": "कार्ल मार्क्स ने दशकों पहले समाजवाद का सिद्धांत विकसित किया, पर स्वयं 1917 की क्रांति का नेतृत्व नहीं किया।" },
+        "3": { "en": "Leon Trotsky was a key Bolshevik leader but not the foremost leader Lenin was.", "hi": "लियोन ट्रॉट्स्की एक प्रमुख बोल्शेविक नेता थे, पर लेनिन जितने सर्वोपरि नेता नहीं थे।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-ss-07",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The Russian Revolution of 1917 led to the establishment of which type of government?", "hi": "1917 की रूसी क्रांति ने किस प्रकार की सरकार की स्थापना की?" },
+      "optionsJson": [
+        { "en": "Democratic monarchy", "hi": "लोकतांत्रिक राजतंत्र" },
+        { "en": "Socialist/Communist government", "hi": "समाजवादी/साम्यवादी सरकार" },
+        { "en": "Military dictatorship", "hi": "सैन्य तानाशाही" },
+        { "en": "Colonial government", "hi": "औपनिवेशिक सरकार" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The revolution overthrew the Tsar and established the world's first socialist/communist state, the Soviet Union.", "hi": "क्रांति ने ज़ार को उखाड़ फेंका और दुनिया का पहला समाजवादी/साम्यवादी राज्य, सोवियत संघ, स्थापित किया।" },
+      "distractorAnalysis": {
+        "0": { "en": "The revolution abolished the monarchy entirely, rather than making it democratic.", "hi": "क्रांति ने राजतंत्र को पूरी तरह समाप्त कर दिया, इसे लोकतांत्रिक बनाने के बजाय।" },
+        "2": { "en": "The new Soviet government was based on socialist ideology, not simply military rule.", "hi": "नई सोवियत सरकार समाजवादी विचारधारा पर आधारित थी, केवल सैन्य शासन नहीं।" },
+        "3": { "en": "Russia was not a colony; this describes a different kind of political arrangement.", "hi": "रूस कोई उपनिवेश नहीं था; यह एक अलग प्रकार की राजनीतिक व्यवस्था का वर्णन है।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-ss-08",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "In which year did Adolf Hitler become Chancellor of Germany?", "hi": "एडोल्फ हिटलर किस वर्ष जर्मनी का चांसलर बना?" },
+      "optionsJson": [
+        { "en": "1919", "hi": "1919" },
+        { "en": "1933", "hi": "1933" },
+        { "en": "1939", "hi": "1939" },
+        { "en": "1945", "hi": "1945" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Adolf Hitler was appointed Chancellor of Germany in January 1933.", "hi": "एडोल्फ हिटलर को जनवरी 1933 में जर्मनी का चांसलर नियुक्त किया गया।" },
+      "distractorAnalysis": {
+        "0": { "en": "1919 is the year the Weimar Republic was established, well before Hitler took power.", "hi": "1919 वाइमर गणराज्य की स्थापना का वर्ष है, हिटलर के सत्ता में आने से काफी पहले।" },
+        "2": { "en": "1939 marks the start of World War II, six years after Hitler became Chancellor.", "hi": "1939 द्वितीय विश्व युद्ध की शुरुआत का वर्ष है, हिटलर के चांसलर बनने के छह साल बाद।" },
+        "3": { "en": "1945 marks the end of World War II and Hitler's death, not his appointment.", "hi": "1945 द्वितीय विश्व युद्ध की समाप्ति और हिटलर की मृत्यु का वर्ष है, उसकी नियुक्ति का नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-ss-09",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "What was Adolf Hitler's political party called?", "hi": "एडोल्फ हिटलर की राजनीतिक पार्टी को क्या कहा जाता था?" },
+      "optionsJson": [
+        { "en": "Bolshevik Party", "hi": "बोल्शेविक पार्टी" },
+        { "en": "Nazi Party", "hi": "नाज़ी पार्टी" },
+        { "en": "Fascist Party", "hi": "फासीवादी पार्टी" },
+        { "en": "Labour Party", "hi": "लेबर पार्टी" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Hitler led the Nazi Party (National Socialist German Workers' Party).", "hi": "हिटलर ने नाज़ी पार्टी (राष्ट्रीय समाजवादी जर्मन श्रमिक पार्टी) का नेतृत्व किया।" },
+      "distractorAnalysis": {
+        "0": { "en": "The Bolshevik Party was Lenin's Russian party, unrelated to Hitler.", "hi": "बोल्शेविक पार्टी लेनिन की रूसी पार्टी थी, हिटलर से असंबंधित।" },
+        "2": { "en": "The Fascist Party was Mussolini's party in Italy, a related but distinct movement.", "hi": "फासीवादी पार्टी इटली में मुसोलिनी की पार्टी थी, एक संबंधित पर अलग आंदोलन।" },
+        "3": { "en": "The Labour Party is a British political party, unrelated to Hitler.", "hi": "लेबर पार्टी एक ब्रिटिश राजनीतिक पार्टी है, हिटलर से असंबंधित।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-ss-10",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The mass murder of six million Jews by the Nazis during World War II is known as:", "hi": "द्वितीय विश्व युद्ध के दौरान नाज़ियों द्वारा साठ लाख यहूदियों की सामूहिक हत्या को क्या कहा जाता है:" },
+      "optionsJson": [
+        { "en": "The Holocaust", "hi": "प्रलय (होलोकॉस्ट)" },
+        { "en": "The Great Purge", "hi": "महान शुद्धिकरण" },
+        { "en": "The Reign of Terror", "hi": "आतंक का राज" },
+        { "en": "The Long March", "hi": "लंबी यात्रा" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The systematic genocide of six million Jews by the Nazis is known as the Holocaust.", "hi": "नाज़ियों द्वारा साठ लाख यहूदियों के व्यवस्थित नरसंहार को होलोकॉस्ट (प्रलय) कहा जाता है।" },
+      "distractorAnalysis": {
+        "1": { "en": "The Great Purge refers to Stalin's political repression in the Soviet Union, a different event.", "hi": "महान शुद्धिकरण सोवियत संघ में स्तालिन के राजनीतिक दमन को दर्शाता है, एक अलग घटना।" },
+        "2": { "en": "The Reign of Terror refers to a violent phase of the French Revolution, unrelated to the Nazis.", "hi": "आतंक का राज फ्रांसीसी क्रांति के एक हिंसक चरण को दर्शाता है, नाज़ियों से असंबंधित।" },
+        "3": { "en": "The Long March refers to a Chinese Communist military retreat, unrelated to the Nazis.", "hi": "लंबी यात्रा एक चीनी साम्यवादी सैन्य वापसी को दर्शाती है, नाज़ियों से असंबंधित।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-ss-11",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which strait separates India from Sri Lanka?", "hi": "कौन सी जलसंधि भारत को श्रीलंका से अलग करती है?" },
+      "optionsJson": [
+        { "en": "Palk Strait", "hi": "पाक जलसंधि" },
+        { "en": "Strait of Malacca", "hi": "मलक्का जलसंधि" },
+        { "en": "Bering Strait", "hi": "बेरिंग जलसंधि" },
+        { "en": "Ten Degree Channel", "hi": "टेन डिग्री चैनल" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The Palk Strait, along with the Gulf of Mannar, separates India from Sri Lanka.", "hi": "पाक जलसंधि, मन्नार की खाड़ी के साथ, भारत को श्रीलंका से अलग करती है।" },
+      "distractorAnalysis": {
+        "1": { "en": "The Strait of Malacca separates Malaysia and Indonesia, far from India-Sri Lanka.", "hi": "मलक्का जलसंधि मलेशिया और इंडोनेशिया को अलग करती है, भारत-श्रीलंका से दूर।" },
+        "2": { "en": "The Bering Strait separates Russia and Alaska (USA), on the other side of the globe.", "hi": "बेरिंग जलसंधि रूस और अलास्का (अमेरिका) को अलग करती है, विश्व के दूसरे छोर पर।" },
+        "3": { "en": "The Ten Degree Channel separates the Andaman and Nicobar Islands from each other, not India from Sri Lanka.", "hi": "टेन डिग्री चैनल अंडमान और निकोबार द्वीप समूह को आपस में अलग करता है, भारत को श्रीलंका से नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-ss-12",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "India lies in which two hemispheres?", "hi": "भारत किन दो गोलार्धों में स्थित है?" },
+      "optionsJson": [
+        { "en": "Northern and Eastern", "hi": "उत्तरी और पूर्वी" },
+        { "en": "Southern and Western", "hi": "दक्षिणी और पश्चिमी" },
+        { "en": "Northern and Western", "hi": "उत्तरी और पश्चिमी" },
+        { "en": "Southern and Eastern", "hi": "दक्षिणी और पूर्वी" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "India is located entirely in the Northern Hemisphere and Eastern Hemisphere.", "hi": "भारत पूरी तरह से उत्तरी गोलार्ध और पूर्वी गोलार्ध में स्थित है।" },
+      "distractorAnalysis": {
+        "1": { "en": "India is not located in the Southern or Western Hemisphere at all.", "hi": "भारत दक्षिणी या पश्चिमी गोलार्ध में बिल्कुल भी स्थित नहीं है।" },
+        "2": { "en": "India lies in the Eastern, not Western, Hemisphere.", "hi": "भारत पूर्वी गोलार्ध में स्थित है, पश्चिमी में नहीं।" },
+        "3": { "en": "India lies in the Northern, not Southern, Hemisphere.", "hi": "भारत उत्तरी गोलार्ध में स्थित है, दक्षिणी में नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-ss-13",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The Tropic of Cancer divides India into approximately how many parts (north and south)?", "hi": "कर्क रेखा भारत को लगभग कितने भागों (उत्तर और दक्षिण) में विभाजित करती है?" },
+      "optionsJson": [
+        { "en": "Two roughly equal parts", "hi": "दो लगभग बराबर भागों में" },
+        { "en": "Three unequal parts", "hi": "तीन असमान भागों में" },
+        { "en": "It doesn't pass through India", "hi": "यह भारत से होकर नहीं गुजरती" },
+        { "en": "Four quadrants", "hi": "चार चतुर्थांशों में" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The Tropic of Cancer passes roughly through the middle of India, dividing it into two roughly equal northern and southern parts.", "hi": "कर्क रेखा भारत के लगभग मध्य से होकर गुजरती है, इसे उत्तर और दक्षिण के दो लगभग बराबर भागों में विभाजित करती है।" },
+      "distractorAnalysis": {
+        "1": { "en": "A single line divides a landmass into two parts, not three.", "hi": "एक रेखा किसी भूभाग को दो भागों में विभाजित करती है, तीन में नहीं।" },
+        "2": { "en": "The Tropic of Cancer does pass through India, through states like Gujarat, Rajasthan, and West Bengal.", "hi": "कर्क रेखा भारत से होकर गुजरती है, गुजरात, राजस्थान और पश्चिम बंगाल जैसे राज्यों से।" },
+        "3": { "en": "A single line creates two regions, not four quadrants.", "hi": "एक रेखा दो क्षेत्र बनाती है, चार चतुर्थांश नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-ss-14",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "The Himalayas are an example of which type of mountains?", "hi": "हिमालय किस प्रकार के पर्वतों का उदाहरण है?" },
+      "optionsJson": [
+        { "en": "Fold mountains", "hi": "वलित पर्वत" },
+        { "en": "Block mountains", "hi": "खंड पर्वत" },
+        { "en": "Volcanic mountains", "hi": "ज्वालामुखी पर्वत" },
+        { "en": "Plateau mountains", "hi": "पठारी पर्वत" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The Himalayas were formed by the collision and folding of tectonic plates, making them fold mountains.", "hi": "हिमालय का निर्माण विवर्तनिक प्लेटों के टकराव और वलन से हुआ, जिससे ये वलित पर्वत हैं।" },
+      "distractorAnalysis": {
+        "1": { "en": "Block mountains form due to faulting, not the folding process that created the Himalayas.", "hi": "खंड पर्वत भ्रंशन से बनते हैं, हिमालय बनाने वाली वलन प्रक्रिया से नहीं।" },
+        "2": { "en": "Volcanic mountains form from magma eruptions, not the tectonic folding of the Himalayas.", "hi": "ज्वालामुखी पर्वत मैग्मा विस्फोट से बनते हैं, हिमालय के विवर्तनिक वलन से नहीं।" },
+        "3": { "en": "A plateau is a flat elevated landform, not a mountain-building type.", "hi": "पठार एक समतल ऊँचा भू-आकार है, पर्वत-निर्माण का प्रकार नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-ss-15",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The Northern Plains of India are mainly formed by the sediments of which rivers?", "hi": "भारत के उत्तरी मैदान मुख्यतः किन नदियों के अवसादों से बने हैं?" },
+      "optionsJson": [
+        { "en": "Godavari, Krishna and Kaveri", "hi": "गोदावरी, कृष्णा और कावेरी" },
+        { "en": "Indus, Ganga and Brahmaputra", "hi": "सिंधु, गंगा और ब्रह्मपुत्र" },
+        { "en": "Narmada and Tapi", "hi": "नर्मदा और तापी" },
+        { "en": "Mahanadi and Subarnarekha", "hi": "महानदी और सुवर्णरेखा" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The Northern Plains were formed by the alluvial deposits of the Indus, Ganga and Brahmaputra river systems.", "hi": "उत्तरी मैदानों का निर्माण सिंधु, गंगा और ब्रह्मपुत्र नदी प्रणालियों के जलोढ़ निक्षेपों से हुआ है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Godavari, Krishna and Kaveri are peninsular rivers that shape southern India's landscape, not the northern plains.", "hi": "गोदावरी, कृष्णा और कावेरी प्रायद्वीपीय नदियाँ हैं जो दक्षिण भारत के भूदृश्य को आकार देती हैं, उत्तरी मैदानों को नहीं।" },
+        "2": { "en": "Narmada and Tapi flow through central India in rift valleys, not forming the northern plains.", "hi": "नर्मदा और तापी मध्य भारत में भ्रंश घाटियों से बहती हैं, उत्तरी मैदान नहीं बनातीं।" },
+        "3": { "en": "Mahanadi and Subarnarekha are eastern peninsular rivers, not the main builders of the northern plains.", "hi": "महानदी और सुवर्णरेखा पूर्वी प्रायद्वीपीय नदियाँ हैं, उत्तरी मैदानों की मुख्य निर्मात्री नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-ss-16",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which is the highest peak located entirely within India?", "hi": "पूरी तरह से भारत के भीतर स्थित सबसे ऊँची चोटी कौन सी है?" },
+      "optionsJson": [
+        { "en": "Kangchenjunga", "hi": "कंचनजंगा" },
+        { "en": "Mount Everest", "hi": "माउंट एवरेस्ट" },
+        { "en": "K2", "hi": "K2" },
+        { "en": "Nanda Devi", "hi": "नंदा देवी" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Kangchenjunga, on the India-Nepal border in Sikkim, is the highest peak located entirely within India.", "hi": "कंचनजंगा, सिक्किम में भारत-नेपाल सीमा पर, पूरी तरह भारत के भीतर स्थित सबसे ऊँची चोटी है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Mount Everest, the world's highest peak, is located in Nepal/Tibet, not India.", "hi": "माउंट एवरेस्ट, विश्व की सबसे ऊँची चोटी, नेपाल/तिब्बत में स्थित है, भारत में नहीं।" },
+        "2": { "en": "K2 is located in Pakistan-administered territory, not within India.", "hi": "K2 पाकिस्तान-प्रशासित क्षेत्र में स्थित है, भारत के भीतर नहीं।" },
+        "3": { "en": "Nanda Devi is a notable peak in India but lower than Kangchenjunga.", "hi": "नंदा देवी भारत की एक उल्लेखनीय चोटी है, पर कंचनजंगा से नीची है।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-ss-17",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "The Thar Desert is located in which Indian state?", "hi": "थार मरुस्थल भारत के किस राज्य में स्थित है?" },
+      "optionsJson": [
+        { "en": "Gujarat", "hi": "गुजरात" },
+        { "en": "Rajasthan", "hi": "राजस्थान" },
+        { "en": "Punjab", "hi": "पंजाब" },
+        { "en": "Haryana", "hi": "हरियाणा" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The Thar Desert (Great Indian Desert) is located mainly in the state of Rajasthan.", "hi": "थार मरुस्थल (महान भारतीय मरुस्थल) मुख्यतः राजस्थान राज्य में स्थित है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Gujarat has some arid areas (Kutch) but the Thar Desert itself is centered in Rajasthan.", "hi": "गुजरात में कुछ शुष्क क्षेत्र (कच्छ) हैं, पर थार मरुस्थल स्वयं राजस्थान में केंद्रित है।" },
+        "2": { "en": "Punjab is a fertile agricultural state, not home to the Thar Desert.", "hi": "पंजाब एक उपजाऊ कृषि राज्य है, थार मरुस्थल का घर नहीं।" },
+        "3": { "en": "Haryana is a fertile plains state, not home to the Thar Desert.", "hi": "हरियाणा एक उपजाऊ मैदानी राज्य है, थार मरुस्थल का घर नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-ss-18",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "India's climate is broadly classified as which type?", "hi": "भारत की जलवायु को व्यापक रूप से किस प्रकार में वर्गीकृत किया जाता है?" },
+      "optionsJson": [
+        { "en": "Monsoon type", "hi": "मानसूनी प्रकार" },
+        { "en": "Polar type", "hi": "ध्रुवीय प्रकार" },
+        { "en": "Mediterranean type", "hi": "भूमध्यसागरीय प्रकार" },
+        { "en": "Equatorial type", "hi": "भूमध्यरेखीय प्रकार" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "India's climate is broadly classified as 'Monsoon type', dominated by seasonal wind reversals bringing rain.", "hi": "भारत की जलवायु को व्यापक रूप से 'मानसूनी प्रकार' में वर्गीकृत किया जाता है, जो वर्षा लाने वाली मौसमी पवन-दिशा परिवर्तन से प्रभावित है।" },
+      "distractorAnalysis": {
+        "1": { "en": "A polar climate is extremely cold year-round, unlike India's varied but generally warm climate.", "hi": "ध्रुवीय जलवायु पूरे वर्ष अत्यंत ठंडी होती है, भारत की विविध पर सामान्यतः गर्म जलवायु के विपरीत।" },
+        "2": { "en": "A Mediterranean climate has mild, wet winters and dry summers, unlike India's monsoon pattern.", "hi": "भूमध्यसागरीय जलवायु में हल्की, गीली सर्दियाँ और शुष्क गर्मियाँ होती हैं, भारत के मानसूनी प्रारूप से भिन्न।" },
+        "3": { "en": "An equatorial climate is hot and wet all year with little seasonal variation, unlike India's distinct seasons.", "hi": "भूमध्यरेखीय जलवायु पूरे वर्ष गर्म और गीली रहती है, बहुत कम मौसमी बदलाव के साथ, भारत की विशिष्ट ऋतुओं से भिन्न।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-ss-19",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The word 'monsoon' is derived from the Arabic word 'mausim', which means:", "hi": "'मानसून' शब्द अरबी शब्द 'मौसिम' से लिया गया है, जिसका अर्थ है:" },
+      "optionsJson": [
+        { "en": "Wind", "hi": "हवा" },
+        { "en": "Rain", "hi": "बारिश" },
+        { "en": "Season", "hi": "ऋतु" },
+        { "en": "Ocean", "hi": "महासागर" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "'Mausim' means 'season' in Arabic, referring to the seasonal reversal of winds that defines the monsoon.", "hi": "अरबी में 'मौसिम' का अर्थ है 'ऋतु', जो मानसून को परिभाषित करने वाली पवनों की मौसमी दिशा-परिवर्तन को दर्शाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "While monsoons involve wind, 'mausim' itself translates to 'season', not 'wind'.", "hi": "यद्यपि मानसून में हवा शामिल है, 'मौसिम' का शाब्दिक अर्थ 'ऋतु' है, 'हवा' नहीं।" },
+        "1": { "en": "While monsoons bring rain, 'mausim' itself translates to 'season', not 'rain'.", "hi": "यद्यपि मानसून बारिश लाता है, 'मौसिम' का शाब्दिक अर्थ 'ऋतु' है, 'बारिश' नहीं।" },
+        "3": { "en": "'Mausim' has no direct connection to the word 'ocean'.", "hi": "'मौसिम' का 'महासागर' शब्द से कोई सीधा संबंध नहीं है।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-ss-20",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": { "en": "The period of October-November in India, marked by clear skies and a gradual withdrawal of rain-bearing winds, is called the season of:", "hi": "भारत में अक्टूबर-नवंबर की अवधि, जो साफ आसमान और वर्षा लाने वाली पवनों की धीरे-धीरे वापसी से चिह्नित होती है, कहलाती है:" },
+      "optionsJson": [
+        { "en": "Advancing monsoon", "hi": "अग्रसर मानसून" },
+        { "en": "Retreating monsoon", "hi": "पीछे हटता मानसून" },
+        { "en": "Cold weather season", "hi": "शीत ऋतु" },
+        { "en": "Summer season", "hi": "ग्रीष्म ऋतु" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "October-November is known as the season of the 'retreating monsoon', as the rain-bearing winds gradually withdraw from the subcontinent.", "hi": "अक्टूबर-नवंबर को 'पीछे हटते मानसून' की ऋतु कहा जाता है, क्योंकि वर्षा लाने वाली पवनें उपमहाद्वीप से धीरे-धीरे वापस चली जाती हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "The advancing monsoon arrives around June, not October-November when it is withdrawing.", "hi": "अग्रसर मानसून जून के आसपास आता है, अक्टूबर-नवंबर में नहीं जब यह वापस जा रहा होता है।" },
+        "2": { "en": "The cold weather season in India typically follows, from December to February.", "hi": "भारत में शीत ऋतु सामान्यतः इसके बाद, दिसंबर से फरवरी तक आती है।" },
+        "3": { "en": "The summer season in India runs from March to May, well before October-November.", "hi": "भारत में ग्रीष्म ऋतु मार्च से मई तक चलती है, अक्टूबर-नवंबर से काफी पहले।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-ss-21",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "In a democracy, who elects the rulers/government?", "hi": "लोकतंत्र में, शासकों/सरकार को कौन चुनता है?" },
+      "optionsJson": [
+        { "en": "The military", "hi": "सेना" },
+        { "en": "The people", "hi": "जनता" },
+        { "en": "A single hereditary ruler", "hi": "एक वंशानुगत शासक" },
+        { "en": "Foreign powers", "hi": "विदेशी शक्तियाँ" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "In a democracy, rulers are chosen by the people through free and fair elections.", "hi": "लोकतंत्र में, शासकों को जनता द्वारा स्वतंत्र और निष्पक्ष चुनावों के माध्यम से चुना जाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Rule by the military describes a military dictatorship, not a democracy.", "hi": "सेना द्वारा शासन एक सैन्य तानाशाही का वर्णन करता है, लोकतंत्र का नहीं।" },
+        "2": { "en": "A hereditary ruler describes a monarchy, not a democracy.", "hi": "एक वंशानुगत शासक राजतंत्र का वर्णन करता है, लोकतंत्र का नहीं।" },
+        "3": { "en": "Rule by foreign powers describes colonialism, the opposite of self-governance in a democracy.", "hi": "विदेशी शक्तियों द्वारा शासन उपनिवेशवाद का वर्णन करता है, लोकतंत्र में स्व-शासन के विपरीत।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-ss-22",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which country ended its apartheid (racial segregation) system and became a democracy in 1994?", "hi": "किस देश ने अपनी रंगभेद (नस्लीय पृथक्करण) व्यवस्था समाप्त की और 1994 में लोकतंत्र बना?" },
+      "optionsJson": [
+        { "en": "South Africa", "hi": "दक्षिण अफ्रीका" },
+        { "en": "Egypt", "hi": "मिस्र" },
+        { "en": "Nigeria", "hi": "नाइजीरिया" },
+        { "en": "Kenya", "hi": "केन्या" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "South Africa dismantled apartheid and held its first democratic elections in 1994, with Nelson Mandela becoming President.", "hi": "दक्षिण अफ्रीका ने रंगभेद को समाप्त किया और 1994 में अपने पहले लोकतांत्रिक चुनाव कराए, जिसमें नेल्सन मंडेला राष्ट्रपति बने।" },
+      "distractorAnalysis": {
+        "1": { "en": "Egypt did not have an apartheid system of this specific kind.", "hi": "मिस्र में इस विशेष प्रकार की रंगभेद व्यवस्था नहीं थी।" },
+        "2": { "en": "Nigeria did not have an apartheid system of this specific kind.", "hi": "नाइजीरिया में इस विशेष प्रकार की रंगभेद व्यवस्था नहीं थी।" },
+        "3": { "en": "Kenya did not have an apartheid system of this specific kind.", "hi": "केन्या में इस विशेष प्रकार की रंगभेद व्यवस्था नहीं थी।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-ss-23",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "In a democracy, decisions are typically made through majority rule while also respecting:", "hi": "लोकतंत्र में, निर्णय सामान्यतः बहुमत के शासन से लिए जाते हैं, साथ ही इसका सम्मान करते हुए:" },
+      "optionsJson": [
+        { "en": "Only the ruling party's wishes", "hi": "केवल सत्तारूढ़ दल की इच्छाओं का" },
+        { "en": "Minority rights", "hi": "अल्पसंख्यक अधिकारों का" },
+        { "en": "The military's authority", "hi": "सेना के अधिकार का" },
+        { "en": "A single dominant family", "hi": "एक ही प्रभावशाली परिवार का" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "A key feature of democracy is that majority decisions are balanced with respect and protection for minority rights.", "hi": "लोकतंत्र की एक प्रमुख विशेषता यह है कि बहुमत के निर्णयों को अल्पसंख्यक अधिकारों के सम्मान और सुरक्षा के साथ संतुलित किया जाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Serving only the ruling party's wishes without regard for others is characteristic of authoritarian rule, not democracy.", "hi": "अन्य लोगों की परवाह किए बिना केवल सत्तारूढ़ दल की इच्छाओं की सेवा करना अधिनायकवादी शासन की विशेषता है, लोकतंत्र की नहीं।" },
+        "2": { "en": "Deferring to military authority describes military rule, not democratic decision-making.", "hi": "सैन्य अधिकार का पालन सैन्य शासन का वर्णन करता है, लोकतांत्रिक निर्णय-प्रक्रिया का नहीं।" },
+        "3": { "en": "Rule benefiting a single family describes a dynastic or monarchic system, not democracy.", "hi": "एक परिवार को लाभ पहुँचाने वाला शासन वंशवादी या राजतंत्रीय व्यवस्था का वर्णन करता है, लोकतंत्र का नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-ss-24",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "On which date did the Constitution of India come into effect?", "hi": "भारत का संविधान किस तिथि को लागू हुआ?" },
+      "optionsJson": [
+        { "en": "15 August 1947", "hi": "15 अगस्त 1947" },
+        { "en": "26 January 1950", "hi": "26 जनवरी 1950" },
+        { "en": "2 October 1948", "hi": "2 अक्टूबर 1948" },
+        { "en": "26 November 1949", "hi": "26 नवंबर 1949" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The Constitution of India came into effect on 26 January 1950, celebrated annually as Republic Day.", "hi": "भारत का संविधान 26 जनवरी 1950 को लागू हुआ, जिसे प्रतिवर्ष गणतंत्र दिवस के रूप में मनाया जाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "15 August 1947 is India's Independence Day, not when the Constitution came into effect.", "hi": "15 अगस्त 1947 भारत का स्वतंत्रता दिवस है, संविधान लागू होने की तिथि नहीं।" },
+        "2": { "en": "2 October is Mahatma Gandhi's birthday, unrelated to the Constitution's effective date.", "hi": "2 अक्टूबर महात्मा गांधी की जयंती है, संविधान की प्रभावी तिथि से असंबंधित।" },
+        "3": { "en": "26 November 1949 is when the Constitution was adopted, but it came into effect two months later.", "hi": "26 नवंबर 1949 को संविधान को अपनाया गया था, पर यह दो महीने बाद लागू हुआ।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-ss-25",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Who is known as the chief architect of the Indian Constitution?", "hi": "भारतीय संविधान का प्रमुख शिल्पकार किसे कहा जाता है?" },
+      "optionsJson": [
+        { "en": "Mahatma Gandhi", "hi": "महात्मा गांधी" },
+        { "en": "Dr. B.R. Ambedkar", "hi": "डॉ. बी.आर. अंबेडकर" },
+        { "en": "Jawaharlal Nehru", "hi": "जवाहरलाल नेहरू" },
+        { "en": "Sardar Vallabhbhai Patel", "hi": "सरदार वल्लभभाई पटेल" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Dr. B.R. Ambedkar, as Chairman of the Drafting Committee, is known as the chief architect of the Indian Constitution.", "hi": "डॉ. बी.आर. अंबेडकर, प्रारूप समिति के अध्यक्ष के रूप में, भारतीय संविधान के प्रमुख शिल्पकार माने जाते हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "Mahatma Gandhi led the independence movement but was not on the Constitution's Drafting Committee.", "hi": "महात्मा गांधी ने स्वतंत्रता आंदोलन का नेतृत्व किया, पर संविधान की प्रारूप समिति में नहीं थे।" },
+        "2": { "en": "Jawaharlal Nehru was India's first Prime Minister, but Ambedkar chaired the Drafting Committee.", "hi": "जवाहरलाल नेहरू भारत के पहले प्रधानमंत्री थे, पर प्रारूप समिति के अध्यक्ष अंबेडकर थे।" },
+        "3": { "en": "Sardar Patel played a key role in integrating princely states, not drafting the Constitution's text.", "hi": "सरदार पटेल ने रियासतों के एकीकरण में प्रमुख भूमिका निभाई, संविधान का पाठ तैयार करने में नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-ss-26",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "What is the minimum voting age in India?", "hi": "भारत में मतदान की न्यूनतम आयु क्या है?" },
+      "optionsJson": [
+        { "en": "16 years", "hi": "16 वर्ष" },
+        { "en": "18 years", "hi": "18 वर्ष" },
+        { "en": "21 years", "hi": "21 वर्ष" },
+        { "en": "25 years", "hi": "25 वर्ष" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The minimum voting age in India is 18 years, lowered from 21 by the 61st Constitutional Amendment in 1988.", "hi": "भारत में मतदान की न्यूनतम आयु 18 वर्ष है, जिसे 1988 में 61वें संवैधानिक संशोधन द्वारा 21 से घटाया गया।" },
+      "distractorAnalysis": {
+        "0": { "en": "16 years is below India's actual minimum voting age.", "hi": "16 वर्ष भारत की वास्तविक न्यूनतम मतदान आयु से कम है।" },
+        "2": { "en": "21 years was the earlier voting age before the 1988 amendment lowered it to 18.", "hi": "21 वर्ष पहले की मतदान आयु थी, जिसे 1988 के संशोधन ने 18 कर दिया।" },
+        "3": { "en": "25 years is well above India's actual minimum voting age.", "hi": "25 वर्ष भारत की वास्तविक न्यूनतम मतदान आयु से काफी अधिक है।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-ss-27",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which body is responsible for conducting free and fair elections in India?", "hi": "भारत में स्वतंत्र और निष्पक्ष चुनाव कराने के लिए कौन सी संस्था उत्तरदायी है?" },
+      "optionsJson": [
+        { "en": "Supreme Court of India", "hi": "भारत का सर्वोच्च न्यायालय" },
+        { "en": "Election Commission of India", "hi": "भारत निर्वाचन आयोग" },
+        { "en": "Parliament of India", "hi": "भारत की संसद" },
+        { "en": "Reserve Bank of India", "hi": "भारतीय रिज़र्व बैंक" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The Election Commission of India is the independent constitutional body responsible for conducting free and fair elections.", "hi": "भारत निर्वाचन आयोग एक स्वतंत्र संवैधानिक संस्था है जो स्वतंत्र और निष्पक्ष चुनाव कराने के लिए उत्तरदायी है।" },
+      "distractorAnalysis": {
+        "0": { "en": "The Supreme Court interprets laws and settles disputes, but does not itself conduct elections.", "hi": "सर्वोच्च न्यायालय कानूनों की व्याख्या करता है और विवाद सुलझाता है, पर स्वयं चुनाव नहीं कराता।" },
+        "2": { "en": "Parliament makes laws; it does not conduct elections itself.", "hi": "संसद कानून बनाती है; यह स्वयं चुनाव नहीं कराती।" },
+        "3": { "en": "The Reserve Bank of India manages the country's monetary policy, unrelated to elections.", "hi": "भारतीय रिज़र्व बैंक देश की मौद्रिक नीति का प्रबंधन करता है, चुनावों से असंबंधित।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-ss-28",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "What is the main economic activity in village Palampur, as described in the NCERT economics chapter?", "hi": "NCERT अर्थशास्त्र के अध्याय में वर्णित गाँव पालमपुर की मुख्य आर्थिक गतिविधि क्या है?" },
+      "optionsJson": [
+        { "en": "Fishing", "hi": "मछली पकड़ना" },
+        { "en": "Farming", "hi": "खेती" },
+        { "en": "Mining", "hi": "खनन" },
+        { "en": "Software services", "hi": "सॉफ्टवेयर सेवाएँ" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Farming is the primary economic activity in village Palampur, alongside some small-scale non-farm activities.", "hi": "गाँव पालमपुर में खेती मुख्य आर्थिक गतिविधि है, साथ ही कुछ छोटे स्तर की गैर-कृषि गतिविधियाँ भी होती हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "Fishing is not described as the village's main activity in this chapter.", "hi": "इस अध्याय में मछली पकड़ना गाँव की मुख्य गतिविधि के रूप में वर्णित नहीं है।" },
+        "2": { "en": "Mining is not described as the village's main activity in this chapter.", "hi": "इस अध्याय में खनन गाँव की मुख्य गतिविधि के रूप में वर्णित नहीं है।" },
+        "3": { "en": "Software services are an urban, modern-economy activity, not Palampur's rural setting.", "hi": "सॉफ्टवेयर सेवाएँ एक शहरी, आधुनिक-अर्थव्यवस्था की गतिविधि है, पालमपुर की ग्रामीण स्थिति नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-ss-29",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which of these is NOT one of the four main factors of production needed for farming, as described in the Palampur chapter?", "hi": "पालमपुर अध्याय में वर्णित खेती के लिए आवश्यक चार मुख्य उत्पादन कारकों में से कौन सा नहीं है?" },
+      "optionsJson": [
+        { "en": "Land", "hi": "भूमि" },
+        { "en": "Labour", "hi": "श्रम" },
+        { "en": "Physical capital", "hi": "भौतिक पूंजी" },
+        { "en": "Foreign exchange", "hi": "विदेशी मुद्रा" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "The four factors of production described are Land, Labour, Physical Capital, and Human Capital — foreign exchange is not among them.", "hi": "वर्णित चार उत्पादन कारक हैं: भूमि, श्रम, भौतिक पूंजी और मानव पूंजी — विदेशी मुद्रा इनमें शामिल नहीं है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Land is indeed one of the four factors of production described.", "hi": "भूमि वास्तव में वर्णित चार उत्पादन कारकों में से एक है।" },
+        "1": { "en": "Labour is indeed one of the four factors of production described.", "hi": "श्रम वास्तव में वर्णित चार उत्पादन कारकों में से एक है।" },
+        "2": { "en": "Physical capital is indeed one of the four factors of production described.", "hi": "भौतिक पूंजी वास्तव में वर्णित चार उत्पादन कारकों में से एक है।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-ss-30",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "What does 'multiple cropping' mean, as used in the Palampur chapter?", "hi": "पालमपुर अध्याय में उपयोग किए गए 'बहुफसलीकरण' का क्या अर्थ है?" },
+      "optionsJson": [
+        { "en": "Growing only one crop for the entire year", "hi": "पूरे वर्ष केवल एक फसल उगाना" },
+        { "en": "Growing more than one crop on the same land in a year", "hi": "एक वर्ष में समान भूमि पर एक से अधिक फसल उगाना" },
+        { "en": "Growing crops in multiple different villages", "hi": "अनेक अलग-अलग गाँवों में फसल उगाना" },
+        { "en": "Selling crops in multiple markets", "hi": "अनेक बाज़ारों में फसल बेचना" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Multiple cropping refers to growing more than one crop on the same piece of land during a year, increasing production from limited land.", "hi": "बहुफसलीकरण का अर्थ है एक वर्ष में समान भूमि के टुकड़े पर एक से अधिक फसल उगाना, जिससे सीमित भूमि से उत्पादन बढ़ता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Growing only one crop is the opposite of multiple cropping.", "hi": "केवल एक फसल उगाना बहुफसलीकरण के विपरीत है।" },
+        "2": { "en": "This describes geographic spread of farming, not the cropping pattern on one piece of land.", "hi": "यह खेती के भौगोलिक विस्तार का वर्णन करता है, एक भूमि-खंड पर फसल-प्रारूप का नहीं।" },
+        "3": { "en": "This describes a marketing/selling strategy, not a cropping pattern.", "hi": "यह एक विपणन/बिक्री रणनीति का वर्णन करता है, फसल-प्रारूप का नहीं।" }
+      }
+    }
+  ]
+}

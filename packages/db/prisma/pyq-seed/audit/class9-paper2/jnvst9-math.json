@@ -1,0 +1,674 @@
+{
+  "examType": "JNVST",
+  "classLevel": 9,
+  "paperNumber": 2,
+  "sectionKey": "mathematics",
+  "generatedAt": "2026-09-14T00:00:00.000Z",
+  "questions": [
+    {
+      "key": "jnvst9-p2-math-01",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which of the following is an irrational number?", "hi": "निम्नलिखित में से कौन सी एक अपरिमेय संख्या है?" },
+      "optionsJson": [
+        { "en": "√16", "hi": "√16" },
+        { "en": "9/2", "hi": "9/2" },
+        { "en": "√2", "hi": "√2" },
+        { "en": "4", "hi": "4" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "√2 cannot be expressed as p/q (integers, q≠0) and its decimal expansion is non-terminating, non-repeating — it is irrational. √16=4 and 9/2 and 4 are all rational.", "hi": "√2 को p/q (पूर्णांक, q≠0) के रूप में व्यक्त नहीं किया जा सकता और इसका दशमलव प्रसार असांत, अनावर्ती है — यह अपरिमेय है। √16=4, 9/2 और 4 सभी परिमेय हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "√16 simplifies to 4, a whole number, which is rational.", "hi": "√16 सरल होकर 4 है, एक पूर्ण संख्या, जो परिमेय है।" },
+        "1": { "en": "9/2 is a ratio of two integers, so it is rational.", "hi": "9/2 दो पूर्णांकों का अनुपात है, इसलिए यह परिमेय है।" },
+        "3": { "en": "4 is a whole number, which is rational.", "hi": "4 एक पूर्ण संख्या है, जो परिमेय है।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-math-02",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Simplify: 2√3 + 3√3", "hi": "सरल करें: 2√3 + 3√3" },
+      "optionsJson": [
+        { "en": "5√3", "hi": "5√3" },
+        { "en": "6√3", "hi": "6√3" },
+        { "en": "5√6", "hi": "5√6" },
+        { "en": "6√6", "hi": "6√6" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Since both terms have the same radical part √3, add the coefficients: 2√3 + 3√3 = 5√3.", "hi": "चूँकि दोनों पदों का करणी भाग √3 समान है, गुणांकों को जोड़ें: 2√3 + 3√3 = 5√3।" },
+      "distractorAnalysis": {
+        "1": { "en": "Adds the coefficients incorrectly, getting 6 instead of 5.", "hi": "गुणांकों को गलत तरीके से जोड़ते हुए 5 के बजाय 6 प्राप्त किया।" },
+        "2": { "en": "Incorrectly multiplies the radicals (√3×√3=3) instead of keeping √3 as is.", "hi": "√3 को वैसे ही रखने के बजाय गलती से करणी को गुणा कर दिया (√3×√3=3)।" },
+        "3": { "en": "Combines both errors above.", "hi": "ऊपर की दोनों भूलों को मिला दिया।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-math-03",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Rationalize the denominator of 1/√2.", "hi": "1/√2 के हर का परिमेयीकरण करें।" },
+      "optionsJson": [
+        { "en": "√2", "hi": "√2" },
+        { "en": "√2/2", "hi": "√2/2" },
+        { "en": "2/√2", "hi": "2/√2" },
+        { "en": "1/2", "hi": "1/2" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Multiply numerator and denominator by √2: (1×√2)/(√2×√2) = √2/2.", "hi": "अंश और हर को √2 से गुणा करें: (1×√2)/(√2×√2) = √2/2।" },
+      "distractorAnalysis": {
+        "0": { "en": "Drops the denominator entirely after multiplying.", "hi": "गुणा करने के बाद हर को पूरी तरह हटा दिया।" },
+        "2": { "en": "The denominator still contains a radical — it isn't rationalized.", "hi": "हर में अभी भी करणी है — यह परिमेयीकृत नहीं है।" },
+        "3": { "en": "Squares both numerator and denominator incorrectly instead of rationalizing.", "hi": "परिमेयीकरण के बजाय अंश और हर दोनों को गलत तरीके से वर्ग कर दिया।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-math-04",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the value of 2³ × 2⁴.", "hi": "2³ × 2⁴ का मान ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "128", "hi": "128" },
+        { "en": "64", "hi": "64" },
+        { "en": "2", "hi": "2" },
+        { "en": "4096", "hi": "4096" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "By the law of exponents, aᵐ×aⁿ=aᵐ⁺ⁿ: 2³×2⁴=2⁷=128.", "hi": "घातांक के नियम से, aᵐ×aⁿ=aᵐ⁺ⁿ: 2³×2⁴=2⁷=128।" },
+      "distractorAnalysis": {
+        "1": { "en": "Computes 2⁶ instead of 2⁷, undercounting the exponent by 1.", "hi": "घातांक को 1 कम गिनते हुए 2⁷ के बजाय 2⁶ निकाला।" },
+        "2": { "en": "Subtracts the exponents (4−3=1) instead of adding them.", "hi": "घातांकों को जोड़ने के बजाय घटा दिया (4−3=1)।" },
+        "3": { "en": "Multiplies the exponents (3×4=12) instead of adding them.", "hi": "घातांकों को जोड़ने के बजाय गुणा कर दिया (3×4=12)।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-math-05",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "What is the degree of the polynomial 3x⁴ − 2x² + 7?", "hi": "बहुपद 3x⁴ − 2x² + 7 की घात क्या है?" },
+      "optionsJson": [
+        { "en": "2", "hi": "2" },
+        { "en": "3", "hi": "3" },
+        { "en": "4", "hi": "4" },
+        { "en": "7", "hi": "7" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The degree of a polynomial is the highest power of the variable; here it is 4 (from 3x⁴).", "hi": "बहुपद की घात चर की उच्चतम घात होती है; यहाँ यह 4 है (3x⁴ से)।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the exponent of the second term, not the highest one.", "hi": "यह दूसरे पद का घातांक है, उच्चतम नहीं।" },
+        "1": { "en": "There is no x³ term in this polynomial.", "hi": "इस बहुपद में कोई x³ पद नहीं है।" },
+        "3": { "en": "7 is the constant term, not the degree.", "hi": "7 अचर पद है, घात नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-math-06",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the zero of the polynomial p(x) = 2x − 4.", "hi": "बहुपद p(x) = 2x − 4 का शून्यक ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "x = −2", "hi": "x = −2" },
+        { "en": "x = 4", "hi": "x = 4" },
+        { "en": "x = 2", "hi": "x = 2" },
+        { "en": "x = −4", "hi": "x = −4" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The zero satisfies p(x)=0: 2x−4=0 ⟹ x=2.", "hi": "शून्यक p(x)=0 को संतुष्ट करता है: 2x−4=0 ⟹ x=2।" },
+      "distractorAnalysis": {
+        "0": { "en": "Uses the wrong sign while solving for x.", "hi": "x हल करते समय गलत चिह्न का उपयोग किया।" },
+        "1": { "en": "States the constant term instead of solving the equation.", "hi": "समीकरण हल करने के बजाय अचर पद बता दिया।" },
+        "3": { "en": "Uses the wrong sign and states the negative of the constant term.", "hi": "गलत चिह्न का उपयोग करते हुए अचर पद का ऋणात्मक मान बता दिया।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-math-07",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Factorize: x² − 9", "hi": "गुणनखंड करें: x² − 9" },
+      "optionsJson": [
+        { "en": "(x−3)(x+3)", "hi": "(x−3)(x+3)" },
+        { "en": "(x−9)(x+1)", "hi": "(x−9)(x+1)" },
+        { "en": "(x−3)²", "hi": "(x−3)²" },
+        { "en": "(x+3)²", "hi": "(x+3)²" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "This is a difference of squares: a²−b²=(a−b)(a+b), so x²−9=x²−3²=(x−3)(x+3).", "hi": "यह वर्गों का अंतर है: a²−b²=(a−b)(a+b), इसलिए x²−9=x²−3²=(x−3)(x+3)।" },
+      "distractorAnalysis": {
+        "1": { "en": "These factors don't multiply back to x²−9.", "hi": "ये गुणनखंड गुणा करने पर x²−9 नहीं देते।" },
+        "2": { "en": "This is a perfect square expansion (x²−6x+9), not the correct difference of squares.", "hi": "यह एक पूर्ण वर्ग विस्तार (x²−6x+9) है, सही वर्गों का अंतर नहीं।" },
+        "3": { "en": "This expands to x²+6x+9, not x²−9.", "hi": "यह विस्तारित होकर x²+6x+9 देता है, x²−9 नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-math-08",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Using the Remainder Theorem, find the remainder when p(x) = x² + 3x + 2 is divided by (x − 1).", "hi": "शेषफल प्रमेय का उपयोग कर ज्ञात करें कि p(x) = x² + 3x + 2 को (x − 1) से भाग देने पर शेषफल क्या होगा।" },
+      "optionsJson": [
+        { "en": "0", "hi": "0" },
+        { "en": "6", "hi": "6" },
+        { "en": "2", "hi": "2" },
+        { "en": "3", "hi": "3" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "By the Remainder Theorem, the remainder equals p(1) = 1² + 3(1) + 2 = 1 + 3 + 2 = 6.", "hi": "शेषफल प्रमेय से, शेषफल p(1) = 1² + 3(1) + 2 = 1 + 3 + 2 = 6 के बराबर है।" },
+      "distractorAnalysis": {
+        "0": { "en": "This would be the remainder only if (x−1) were a factor, but p(1)≠0 here.", "hi": "यह तभी शेषफल होता जब (x−1) एक गुणनखंड होता, पर यहाँ p(1)≠0 है।" },
+        "2": { "en": "States only the constant term instead of evaluating p(1) fully.", "hi": "p(1) का पूरा मूल्यांकन करने के बजाय केवल अचर पद बता दिया।" },
+        "3": { "en": "Misses one term while evaluating p(1).", "hi": "p(1) का मूल्यांकन करते समय एक पद छूट गया।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-math-09",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which of the following is a linear equation in two variables?", "hi": "निम्नलिखित में से कौन सा दो चरों में एक रैखिक समीकरण है?" },
+      "optionsJson": [
+        { "en": "2x + 3y = 5", "hi": "2x + 3y = 5" },
+        { "en": "x² + y = 4", "hi": "x² + y = 4" },
+        { "en": "3x = 9", "hi": "3x = 9" },
+        { "en": "xy = 4", "hi": "xy = 4" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "2x+3y=5 has both x and y with power 1, matching the form ax+by+c=0 — a linear equation in two variables.", "hi": "2x+3y=5 में x और y दोनों की घात 1 है, यह ax+by+c=0 रूप से मेल खाता है — दो चरों में रैखिक समीकरण।" },
+      "distractorAnalysis": {
+        "1": { "en": "x² has power 2, making this a quadratic (non-linear) relation.", "hi": "x² की घात 2 है, यह इसे द्विघात (गैर-रैखिक) संबंध बनाता है।" },
+        "2": { "en": "This involves only one variable, x.", "hi": "इसमें केवल एक चर, x, शामिल है।" },
+        "3": { "en": "The product xy makes this non-linear, not a sum of terms each with power 1.", "hi": "गुणनफल xy इसे गैर-रैखिक बनाता है, प्रत्येक की घात 1 वाले पदों का योग नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-math-10",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "If x + y = 5 and x = 2, find the value of y.", "hi": "यदि x + y = 5 और x = 2 है, तो y का मान ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "2", "hi": "2" },
+        { "en": "5", "hi": "5" },
+        { "en": "3", "hi": "3" },
+        { "en": "7", "hi": "7" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Substituting x=2: 2+y=5, so y=5−2=3.", "hi": "x=2 रखने पर: 2+y=5, इसलिए y=5−2=3।" },
+      "distractorAnalysis": {
+        "0": { "en": "This repeats the given value of x instead of solving for y.", "hi": "y हल करने के बजाय दिए गए x के मान को दोहरा दिया।" },
+        "1": { "en": "This repeats the total instead of solving for the missing value.", "hi": "लुप्त मान हल करने के बजाय कुल योग दोहरा दिया।" },
+        "3": { "en": "Adds x and the total instead of subtracting.", "hi": "घटाने के बजाय x और कुल योग को जोड़ दिया।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-math-11",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "In the equation 3x − 2y + 7 = 0 (standard form ax+by+c=0), what is the value of b?", "hi": "समीकरण 3x − 2y + 7 = 0 (मानक रूप ax+by+c=0) में, b का मान क्या है?" },
+      "optionsJson": [
+        { "en": "3", "hi": "3" },
+        { "en": "−2", "hi": "−2" },
+        { "en": "7", "hi": "7" },
+        { "en": "2", "hi": "2" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Comparing 3x−2y+7=0 with ax+by+c=0: a=3, b=−2, c=7.", "hi": "3x−2y+7=0 की तुलना ax+by+c=0 से करने पर: a=3, b=−2, c=7।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the value of a (coefficient of x), not b.", "hi": "यह a (x का गुणांक) का मान है, b का नहीं।" },
+        "2": { "en": "This is the value of c (the constant), not b.", "hi": "यह c (अचर) का मान है, b का नहीं।" },
+        "3": { "en": "Drops the negative sign of the coefficient.", "hi": "गुणांक के ऋणात्मक चिह्न को हटा दिया।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-math-12",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which point lies on the line x + y = 10?", "hi": "कौन सा बिंदु रेखा x + y = 10 पर स्थित है?" },
+      "optionsJson": [
+        { "en": "(2, 8)", "hi": "(2, 8)" },
+        { "en": "(3, 5)", "hi": "(3, 5)" },
+        { "en": "(4, 7)", "hi": "(4, 7)" },
+        { "en": "(1, 8)", "hi": "(1, 8)" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Checking (2,8): 2+8=10, which satisfies the equation.", "hi": "(2,8) की जाँच करें: 2+8=10, जो समीकरण को संतुष्ट करता है।" },
+      "distractorAnalysis": {
+        "1": { "en": "3+5=8, not 10, so this point doesn't satisfy the equation.", "hi": "3+5=8, 10 नहीं, इसलिए यह बिंदु समीकरण को संतुष्ट नहीं करता।" },
+        "2": { "en": "4+7=11, not 10, so this point doesn't satisfy the equation.", "hi": "4+7=11, 10 नहीं, इसलिए यह बिंदु समीकरण को संतुष्ट नहीं करता।" },
+        "3": { "en": "1+8=9, not 10, so this point doesn't satisfy the equation.", "hi": "1+8=9, 10 नहीं, इसलिए यह बिंदु समीकरण को संतुष्ट नहीं करता।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-math-13",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "In which quadrant does the point (3, −4) lie?", "hi": "बिंदु (3, −4) किस चतुर्थांश में स्थित है?" },
+      "optionsJson": [
+        { "en": "Quadrant I", "hi": "प्रथम चतुर्थांश" },
+        { "en": "Quadrant II", "hi": "द्वितीय चतुर्थांश" },
+        { "en": "Quadrant III", "hi": "तृतीय चतुर्थांश" },
+        { "en": "Quadrant IV", "hi": "चतुर्थ चतुर्थांश" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "A positive x-coordinate and negative y-coordinate places the point in Quadrant IV.", "hi": "धनात्मक x-निर्देशांक और ऋणात्मक y-निर्देशांक बिंदु को चतुर्थ चतुर्थांश में रखता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Quadrant I requires both coordinates to be positive.", "hi": "प्रथम चतुर्थांश के लिए दोनों निर्देशांक धनात्मक होने चाहिए।" },
+        "1": { "en": "Quadrant II requires a negative x-coordinate and positive y-coordinate.", "hi": "द्वितीय चतुर्थांश के लिए ऋणात्मक x और धनात्मक y चाहिए।" },
+        "2": { "en": "Quadrant III requires both coordinates to be negative.", "hi": "तृतीय चतुर्थांश के लिए दोनों निर्देशांक ऋणात्मक होने चाहिए।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-math-14",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "What is the name of the point where the x-axis and y-axis intersect?", "hi": "x-अक्ष और y-अक्ष जिस बिंदु पर प्रतिच्छेद करते हैं, उसे क्या कहा जाता है?" },
+      "optionsJson": [
+        { "en": "Origin", "hi": "मूल बिंदु" },
+        { "en": "Vertex", "hi": "शीर्ष" },
+        { "en": "Focus", "hi": "फोकस" },
+        { "en": "Centroid", "hi": "केन्द्रक" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The point (0,0) where both axes meet is called the Origin.", "hi": "बिंदु (0,0) जहाँ दोनों अक्ष मिलते हैं, उसे मूल बिंदु कहा जाता है।" },
+      "distractorAnalysis": {
+        "1": { "en": "'Vertex' refers to a corner point of a shape or angle, not the axis intersection.", "hi": "'शीर्ष' किसी आकृति या कोण के कोने को कहते हैं, अक्ष-प्रतिच्छेदन को नहीं।" },
+        "2": { "en": "'Focus' is a term used in conic sections, unrelated here.", "hi": "'फोकस' शांकव खंडों में उपयोग होने वाला शब्द है, यहाँ असंबंधित।" },
+        "3": { "en": "'Centroid' refers to the center of a triangle, not the axis intersection.", "hi": "'केन्द्रक' त्रिभुज के केंद्र को कहते हैं, अक्ष-प्रतिच्छेदन को नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-math-15",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "In which quadrant do both coordinates of a point remain negative?", "hi": "किस चतुर्थांश में बिंदु के दोनों निर्देशांक ऋणात्मक रहते हैं?" },
+      "optionsJson": [
+        { "en": "Quadrant I", "hi": "प्रथम चतुर्थांश" },
+        { "en": "Quadrant II", "hi": "द्वितीय चतुर्थांश" },
+        { "en": "Quadrant III", "hi": "तृतीय चतुर्थांश" },
+        { "en": "Quadrant IV", "hi": "चतुर्थ चतुर्थांश" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Quadrant III is defined by both x and y coordinates being negative.", "hi": "तृतीय चतुर्थांश को दोनों x और y निर्देशांकों के ऋणात्मक होने से परिभाषित किया जाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Quadrant I has both coordinates positive.", "hi": "प्रथम चतुर्थांश में दोनों निर्देशांक धनात्मक होते हैं।" },
+        "1": { "en": "Quadrant II has a negative x but positive y.", "hi": "द्वितीय चतुर्थांश में x ऋणात्मक पर y धनात्मक होता है।" },
+        "3": { "en": "Quadrant IV has a positive x but negative y.", "hi": "चतुर्थ चतुर्थांश में x धनात्मक पर y ऋणात्मक होता है।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-math-16",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "What is the sum of the three angles of a triangle?", "hi": "त्रिभुज के तीनों कोणों का योग क्या होता है?" },
+      "optionsJson": [
+        { "en": "90°", "hi": "90°" },
+        { "en": "180°", "hi": "180°" },
+        { "en": "270°", "hi": "270°" },
+        { "en": "360°", "hi": "360°" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The angle sum property of a triangle states that the sum of all three interior angles is always 180°.", "hi": "त्रिभुज का कोण-योग गुण बताता है कि तीनों अंतःकोणों का योग हमेशा 180° होता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "90° is the measure of a right angle, not the full angle sum of a triangle.", "hi": "90° एक समकोण का माप है, त्रिभुज के पूर्ण कोण-योग का नहीं।" },
+        "2": { "en": "270° is three-quarters of a full rotation, not the triangle angle sum.", "hi": "270° एक पूर्ण चक्र का तीन-चौथाई है, त्रिभुज के कोण-योग का नहीं।" },
+        "3": { "en": "360° is the angle sum of a quadrilateral, not a triangle.", "hi": "360° एक चतुर्भुज का कोण-योग है, त्रिभुज का नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-math-17",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Two angles of a triangle measure 50° and 60°. What is the third angle?", "hi": "एक त्रिभुज के दो कोण 50° और 60° हैं। तीसरा कोण क्या है?" },
+      "optionsJson": [
+        { "en": "60°", "hi": "60°" },
+        { "en": "70°", "hi": "70°" },
+        { "en": "80°", "hi": "80°" },
+        { "en": "110°", "hi": "110°" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Since all angles sum to 180°: third angle = 180 − 50 − 60 = 70°.", "hi": "चूँकि सभी कोणों का योग 180° होता है: तीसरा कोण = 180 − 50 − 60 = 70°।" },
+      "distractorAnalysis": {
+        "0": { "en": "Repeats one of the given angles instead of computing the third.", "hi": "तीसरा कोण निकालने के बजाय दिए गए कोणों में से एक को दोहरा दिया।" },
+        "2": { "en": "An arithmetic slip while subtracting from 180°.", "hi": "180° से घटाने में गणना की भूल।" },
+        "3": { "en": "Adds the two given angles instead of subtracting their sum from 180°.", "hi": "180° में से योग घटाने के बजाय दोनों दिए गए कोणों को जोड़ दिया।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-math-18",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Two angles form a linear pair. If one angle is 110°, what is the other?", "hi": "दो कोण एक रैखिक युग्म बनाते हैं। यदि एक कोण 110° है, तो दूसरा क्या है?" },
+      "optionsJson": [
+        { "en": "110°", "hi": "110°" },
+        { "en": "80°", "hi": "80°" },
+        { "en": "70°", "hi": "70°" },
+        { "en": "90°", "hi": "90°" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "A linear pair of angles always sums to 180°: other angle = 180 − 110 = 70°.", "hi": "रैखिक युग्म कोणों का योग हमेशा 180° होता है: दूसरा कोण = 180 − 110 = 70°।" },
+      "distractorAnalysis": {
+        "0": { "en": "Repeats the given angle instead of finding its pair.", "hi": "युग्म निकालने के बजाय दिए गए कोण को दोहरा दिया।" },
+        "1": { "en": "An arithmetic slip while subtracting from 180°.", "hi": "180° से घटाने में गणना की भूल।" },
+        "3": { "en": "Confuses a linear pair (180°) with complementary angles (90°).", "hi": "रैखिक युग्म (180°) को पूरक कोणों (90°) से भ्रमित कर दिया।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-math-19",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": { "en": "The two interior opposite angles of a triangle are 40° and 65°. Find the exterior angle at the third vertex.", "hi": "एक त्रिभुज के दो सम्मुख अंतःकोण 40° और 65° हैं। तीसरे शीर्ष पर बाह्य कोण ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "75°", "hi": "75°" },
+        { "en": "105°", "hi": "105°" },
+        { "en": "115°", "hi": "115°" },
+        { "en": "25°", "hi": "25°" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The exterior angle theorem states the exterior angle equals the sum of the two interior opposite angles: 40+65=105°.", "hi": "बाह्य कोण प्रमेय बताता है कि बाह्य कोण दोनों सम्मुख अंतःकोणों के योग के बराबर होता है: 40+65=105°।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is 180° minus 105°, the interior angle at that vertex, not the exterior angle.", "hi": "यह 180° में से 105° घटाने पर मिलने वाला उस शीर्ष का अंतःकोण है, बाह्य कोण नहीं।" },
+        "2": { "en": "An arithmetic slip while adding the two given angles.", "hi": "दोनों दिए गए कोणों को जोड़ने में गणना की भूल।" },
+        "3": { "en": "Subtracts the two given angles instead of adding them.", "hi": "दोनों दिए गए कोणों को जोड़ने के बजाय घटा दिया।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-math-20",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which congruence criterion states that two triangles are congruent if all three corresponding sides are equal?", "hi": "कौन सा सर्वांगसमता नियम बताता है कि यदि सभी तीन संगत भुजाएँ बराबर हों तो दो त्रिभुज सर्वांगसम होते हैं?" },
+      "optionsJson": [
+        { "en": "SAS", "hi": "SAS" },
+        { "en": "ASA", "hi": "ASA" },
+        { "en": "SSS", "hi": "SSS" },
+        { "en": "RHS", "hi": "RHS" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The SSS (Side-Side-Side) criterion states triangles are congruent when all three pairs of corresponding sides are equal.", "hi": "SSS (भुजा-भुजा-भुजा) नियम बताता है कि जब सभी तीन संगत भुजा-युग्म बराबर हों तो त्रिभुज सर्वांगसम होते हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "SAS (Side-Angle-Side) requires two sides and the included angle, not all three sides.", "hi": "SAS (भुजा-कोण-भुजा) में दो भुजाएँ और उनके बीच का कोण चाहिए, सभी तीन भुजाएँ नहीं।" },
+        "1": { "en": "ASA (Angle-Side-Angle) requires two angles and the included side.", "hi": "ASA (कोण-भुजा-कोण) में दो कोण और उनके बीच की भुजा चाहिए।" },
+        "3": { "en": "RHS (Right angle-Hypotenuse-Side) applies specifically to right triangles.", "hi": "RHS (समकोण-कर्ण-भुजा) विशेष रूप से समकोण त्रिभुजों पर लागू होता है।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-math-21",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "What is the sum of the interior angles of a quadrilateral?", "hi": "एक चतुर्भुज के अंतःकोणों का योग क्या है?" },
+      "optionsJson": [
+        { "en": "180°", "hi": "180°" },
+        { "en": "270°", "hi": "270°" },
+        { "en": "360°", "hi": "360°" },
+        { "en": "450°", "hi": "450°" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "A quadrilateral can be split into two triangles, so its angle sum is 2×180°=360°.", "hi": "एक चतुर्भुज को दो त्रिभुजों में विभाजित किया जा सकता है, इसलिए इसका कोण-योग 2×180°=360° है।" },
+      "distractorAnalysis": {
+        "0": { "en": "180° is the angle sum of a triangle, not a quadrilateral.", "hi": "180° एक त्रिभुज का कोण-योग है, चतुर्भुज का नहीं।" },
+        "1": { "en": "270° does not correspond to any standard polygon's angle sum used at this level.", "hi": "270° इस स्तर पर उपयोग होने वाले किसी मानक बहुभुज के कोण-योग से मेल नहीं खाता।" },
+        "3": { "en": "450° overshoots; a quadrilateral splits into exactly two triangles, not two-and-a-half.", "hi": "450° अधिक है; चतुर्भुज ठीक दो त्रिभुजों में बंटता है, ढाई में नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-math-22",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "In a parallelogram, one angle is 70°. What is the measure of the angle adjacent to it?", "hi": "एक समांतर चतुर्भुज में, एक कोण 70° है। इसके निकटवर्ती कोण का माप क्या है?" },
+      "optionsJson": [
+        { "en": "70°", "hi": "70°" },
+        { "en": "110°", "hi": "110°" },
+        { "en": "90°", "hi": "90°" },
+        { "en": "180°", "hi": "180°" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Adjacent angles in a parallelogram are supplementary (sum to 180°): 180−70=110°.", "hi": "समांतर चतुर्भुज में निकटवर्ती कोण संपूरक होते हैं (योग 180°): 180−70=110°।" },
+      "distractorAnalysis": {
+        "0": { "en": "70° is the measure of the opposite angle, not the adjacent one.", "hi": "70° सम्मुख कोण का माप है, निकटवर्ती का नहीं।" },
+        "2": { "en": "90° would apply only in a rectangle, not a general parallelogram.", "hi": "90° केवल आयत में लागू होता, सामान्य समांतर चतुर्भुज में नहीं।" },
+        "3": { "en": "180° is the sum of the two angles, not the adjacent angle itself.", "hi": "180° दोनों कोणों का योग है, निकटवर्ती कोण स्वयं नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-math-23",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": { "en": "The line segment joining the midpoints of two sides of a triangle is parallel to the third side and half its length. If the third side is 12 cm, what is the length of this segment?", "hi": "त्रिभुज की दो भुजाओं के मध्यबिंदुओं को मिलाने वाला रेखाखंड तीसरी भुजा के समांतर होता है और उसकी आधी लंबाई का होता है। यदि तीसरी भुजा 12 सेमी है, तो इस रेखाखंड की लंबाई क्या है?" },
+      "optionsJson": [
+        { "en": "12 cm", "hi": "12 सेमी" },
+        { "en": "24 cm", "hi": "24 सेमी" },
+        { "en": "6 cm", "hi": "6 सेमी" },
+        { "en": "3 cm", "hi": "3 सेमी" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "By the Midpoint Theorem, this segment is half the third side: 12÷2=6 cm.", "hi": "मध्यबिंदु प्रमेय के अनुसार, यह रेखाखंड तीसरी भुजा की आधी है: 12÷2=6 सेमी।" },
+      "distractorAnalysis": {
+        "0": { "en": "Repeats the third side's length instead of halving it.", "hi": "आधा करने के बजाय तीसरी भुजा की लंबाई को दोहरा दिया।" },
+        "1": { "en": "Doubles the third side instead of halving it.", "hi": "आधा करने के बजाय तीसरी भुजा को दोगुना कर दिया।" },
+        "3": { "en": "Divides by 4 instead of 2.", "hi": "2 के बजाय 4 से भाग दिया।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-math-24",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "An angle inscribed in a semicircle is always:", "hi": "अर्धवृत्त में बना अंतःकोण हमेशा होता है:" },
+      "optionsJson": [
+        { "en": "45°", "hi": "45°" },
+        { "en": "60°", "hi": "60°" },
+        { "en": "90°", "hi": "90°" },
+        { "en": "180°", "hi": "180°" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "An angle inscribed in a semicircle (subtending the diameter) is always a right angle, 90°.", "hi": "अर्धवृत्त में बना अंतःकोण (व्यास पर बना) हमेशा समकोण, अर्थात 90°, होता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "45° is not the fixed value guaranteed by this circle theorem.", "hi": "45° इस वृत्त-प्रमेय द्वारा सुनिश्चित मान नहीं है।" },
+        "1": { "en": "60° is not the fixed value guaranteed by this circle theorem.", "hi": "60° इस वृत्त-प्रमेय द्वारा सुनिश्चित मान नहीं है।" },
+        "3": { "en": "180° would make it a straight line, not a valid inscribed angle.", "hi": "180° इसे एक सीधी रेखा बना देगा, वैध अंतःकोण नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-math-25",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "What can be said about equal chords of a circle regarding the angles they subtend at the center?", "hi": "एक वृत्त की बराबर जीवाओं के केंद्र पर बनाए गए कोणों के बारे में क्या कहा जा सकता है?" },
+      "optionsJson": [
+        { "en": "They subtend equal angles at the center", "hi": "वे केंद्र पर बराबर कोण बनाती हैं" },
+        { "en": "They subtend supplementary angles", "hi": "वे संपूरक कोण बनाती हैं" },
+        { "en": "They subtend complementary angles", "hi": "वे पूरक कोण बनाती हैं" },
+        { "en": "No relationship can be determined", "hi": "कोई संबंध निर्धारित नहीं किया जा सकता" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "A standard circle theorem states equal chords of a circle subtend equal angles at the center.", "hi": "एक मानक वृत्त प्रमेय बताता है कि वृत्त की बराबर जीवाएँ केंद्र पर बराबर कोण बनाती हैं।" },
+      "distractorAnalysis": {
+        "1": { "en": "Supplementary (summing to 180°) is not the relationship this theorem describes.", "hi": "संपूरक (योग 180°) इस प्रमेय द्वारा वर्णित संबंध नहीं है।" },
+        "2": { "en": "Complementary (summing to 90°) is not the relationship this theorem describes.", "hi": "पूरक (योग 90°) इस प्रमेय द्वारा वर्णित संबंध नहीं है।" },
+        "3": { "en": "This is a well-established, provable circle theorem, so a relationship does exist.", "hi": "यह एक सुस्थापित, सिद्ध वृत्त प्रमेय है, इसलिए एक संबंध अवश्य विद्यमान है।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-math-26",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": { "en": "In a cyclic quadrilateral, one pair of opposite angles is 100° and x. Find x.", "hi": "एक चक्रीय चतुर्भुज में, सम्मुख कोणों का एक युग्म 100° और x है। x ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "100°", "hi": "100°" },
+        { "en": "80°", "hi": "80°" },
+        { "en": "90°", "hi": "90°" },
+        { "en": "260°", "hi": "260°" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Opposite angles of a cyclic quadrilateral are supplementary (sum to 180°): x=180−100=80°.", "hi": "चक्रीय चतुर्भुज के सम्मुख कोण संपूरक होते हैं (योग 180°): x=180−100=80°।" },
+      "distractorAnalysis": {
+        "0": { "en": "Repeats the given angle instead of finding its supplement.", "hi": "संपूरक निकालने के बजाय दिए गए कोण को दोहरा दिया।" },
+        "2": { "en": "Confuses this with complementary angles (which sum to 90°).", "hi": "इसे पूरक कोणों (योग 90°) से भ्रमित कर दिया।" },
+        "3": { "en": "Adds 180 to the given angle instead of subtracting from it.", "hi": "दिए गए कोण में से घटाने के बजाय 180 जोड़ दिया।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-math-27",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the area of a triangle with sides 3 cm, 4 cm and 5 cm using Heron's formula.", "hi": "हीरोन के सूत्र का उपयोग कर 3 सेमी, 4 सेमी और 5 सेमी भुजाओं वाले त्रिभुज का क्षेत्रफल ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "6 cm²", "hi": "6 सेमी²" },
+        { "en": "12 cm²", "hi": "12 सेमी²" },
+        { "en": "10 cm²", "hi": "10 सेमी²" },
+        { "en": "7.5 cm²", "hi": "7.5 सेमी²" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Semi-perimeter s=(3+4+5)/2=6. Area=√(s(s−a)(s−b)(s−c))=√(6×3×2×1)=√36=6 cm².", "hi": "अर्ध-परिमाप s=(3+4+5)/2=6। क्षेत्रफल=√(s(s−a)(s−b)(s−c))=√(6×3×2×1)=√36=6 सेमी²।" },
+      "distractorAnalysis": {
+        "1": { "en": "Doubles the correct area, perhaps by forgetting the square root.", "hi": "संभवतः वर्गमूल लेना भूलकर सही क्षेत्रफल को दोगुना कर दिया।" },
+        "2": { "en": "An arithmetic slip while computing the product under the square root.", "hi": "वर्गमूल के अंदर गुणनफल निकालने में गणना की भूल।" },
+        "3": { "en": "Uses the wrong formula (½×base×height with mismatched values) instead of Heron's formula.", "hi": "हीरोन के सूत्र के बजाय गलत सूत्र (½×आधार×ऊँचाई, बेमेल मानों के साथ) का उपयोग किया।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-math-28",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Find the total surface area of a cube with side 5 cm.", "hi": "5 सेमी भुजा वाले एक घन का कुल पृष्ठीय क्षेत्रफल ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "25 cm²", "hi": "25 सेमी²" },
+        { "en": "125 cm²", "hi": "125 सेमी²" },
+        { "en": "150 cm²", "hi": "150 सेमी²" },
+        { "en": "100 cm²", "hi": "100 सेमी²" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Total surface area of a cube = 6×side² = 6×25 = 150 cm².", "hi": "घन का कुल पृष्ठीय क्षेत्रफल = 6×भुजा² = 6×25 = 150 सेमी²।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is only side², the area of one face, not all six.", "hi": "यह केवल भुजा² है, एक फलक का क्षेत्रफल, सभी छह का नहीं।" },
+        "1": { "en": "This is the volume (side³) of the cube, not its surface area.", "hi": "यह घन का आयतन (भुजा³) है, पृष्ठीय क्षेत्रफल नहीं।" },
+        "3": { "en": "Uses 4 faces instead of all 6 in the multiplication.", "hi": "गुणा में सभी 6 फलकों के बजाय 4 का उपयोग किया।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-math-29",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the volume of a cuboid with length 5 cm, breadth 4 cm and height 3 cm.", "hi": "5 सेमी लंबाई, 4 सेमी चौड़ाई और 3 सेमी ऊँचाई वाले एक घनाभ का आयतन ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "12 cm³", "hi": "12 सेमी³" },
+        { "en": "60 cm³", "hi": "60 सेमी³" },
+        { "en": "94 cm³", "hi": "94 सेमी³" },
+        { "en": "47 cm³", "hi": "47 सेमी³" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Volume of a cuboid = length × breadth × height = 5×4×3 = 60 cm³.", "hi": "घनाभ का आयतन = लंबाई × चौड़ाई × ऊँचाई = 5×4×3 = 60 सेमी³।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is breadth × height only, missing the length factor.", "hi": "यह केवल चौड़ाई × ऊँचाई है, लंबाई कारक छूट गया।" },
+        "2": { "en": "This is twice the total surface area formula's partial sum, not the volume.", "hi": "यह कुल पृष्ठीय क्षेत्रफल सूत्र के आंशिक योग का दोगुना है, आयतन नहीं।" },
+        "3": { "en": "This is half the surface area's partial sum, not the volume.", "hi": "यह पृष्ठीय क्षेत्रफल के आंशिक योग का आधा है, आयतन नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-math-30",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Find the volume of a cylinder with radius 7 cm and height 10 cm. (Use π = 22/7)", "hi": "7 सेमी त्रिज्या और 10 सेमी ऊँचाई वाले एक बेलन का आयतन ज्ञात करें। (π = 22/7 का उपयोग करें)" },
+      "optionsJson": [
+        { "en": "1,540 cm³", "hi": "1,540 सेमी³" },
+        { "en": "440 cm³", "hi": "440 सेमी³" },
+        { "en": "220 cm³", "hi": "220 सेमी³" },
+        { "en": "770 cm³", "hi": "770 सेमी³" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Volume = πr²h = (22/7)×7²×10 = (22/7)×49×10 = 22×7×10 = 1,540 cm³.", "hi": "आयतन = πr²h = (22/7)×7²×10 = (22/7)×49×10 = 22×7×10 = 1,540 सेमी³।" },
+      "distractorAnalysis": {
+        "1": { "en": "Uses r instead of r² in the formula.", "hi": "सूत्र में r² के बजाय r का उपयोग किया।" },
+        "2": { "en": "Uses r instead of r² and also misses a factor of height.", "hi": "r² के बजाय r का उपयोग किया और ऊँचाई का कारक भी छूट गया।" },
+        "3": { "en": "An arithmetic slip while multiplying the factors together.", "hi": "कारकों को आपस में गुणा करने में गणना की भूल।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-math-31",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Find the volume of a cone with radius 3 cm and height 7 cm. (Use π = 22/7)", "hi": "3 सेमी त्रिज्या और 7 सेमी ऊँचाई वाले एक शंकु का आयतन ज्ञात करें। (π = 22/7 का उपयोग करें)" },
+      "optionsJson": [
+        { "en": "66 cm³", "hi": "66 सेमी³" },
+        { "en": "198 cm³", "hi": "198 सेमी³" },
+        { "en": "22 cm³", "hi": "22 सेमी³" },
+        { "en": "44 cm³", "hi": "44 सेमी³" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Volume = (1/3)πr²h = (1/3)×(22/7)×9×7 = (1/3)×198 = 66 cm³.", "hi": "आयतन = (1/3)πr²h = (1/3)×(22/7)×9×7 = (1/3)×198 = 66 सेमी³।" },
+      "distractorAnalysis": {
+        "1": { "en": "Forgets to divide by 3, giving the volume of a cylinder instead of a cone.", "hi": "3 से भाग देना भूल गया, यह शंकु के बजाय बेलन का आयतन देता है।" },
+        "2": { "en": "Divides by 9 instead of 3, an error in the fraction.", "hi": "3 के बजाय 9 से भाग दिया, भिन्न में भूल।" },
+        "3": { "en": "Divides by 4.5 instead of 3, an arithmetic slip.", "hi": "3 के बजाय 4.5 से भाग दिया, गणना की भूल।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-math-32",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Find the mean of the numbers 4, 6, 8, 10, 12.", "hi": "संख्याओं 4, 6, 8, 10, 12 का माध्य ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "6", "hi": "6" },
+        { "en": "8", "hi": "8" },
+        { "en": "10", "hi": "10" },
+        { "en": "40", "hi": "40" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Mean = sum of values ÷ number of values = (4+6+8+10+12)÷5 = 40÷5 = 8.", "hi": "माध्य = मानों का योग ÷ मानों की संख्या = (4+6+8+10+12)÷5 = 40÷5 = 8।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the second-smallest value, not the mean.", "hi": "यह दूसरा सबसे छोटा मान है, माध्य नहीं।" },
+        "2": { "en": "This is the middle (median) value, not the mean.", "hi": "यह मध्य (माध्यिका) मान है, माध्य नहीं।" },
+        "3": { "en": "This is the sum of the values, not divided by the count.", "hi": "यह मानों का योग है, गणना से विभाजित नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-math-33",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the median of the numbers 3, 5, 7, 9, 11.", "hi": "संख्याओं 3, 5, 7, 9, 11 की माध्यिका ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "5", "hi": "5" },
+        { "en": "7", "hi": "7" },
+        { "en": "9", "hi": "9" },
+        { "en": "35", "hi": "35" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "With 5 values already in order, the median is the middle (3rd) value: 7.", "hi": "5 मान पहले से क्रम में हैं, माध्यिका मध्य (तीसरा) मान है: 7।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the 2nd value, not the middle one.", "hi": "यह दूसरा मान है, मध्य वाला नहीं।" },
+        "2": { "en": "This is the 4th value, not the middle one.", "hi": "यह चौथा मान है, मध्य वाला नहीं।" },
+        "3": { "en": "This is the sum of all values, not the median.", "hi": "यह सभी मानों का योग है, माध्यिका नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-math-34",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the mode of the data set: 2, 3, 3, 4, 5, 3, 6.", "hi": "आँकड़ा समूह का बहुलक ज्ञात करें: 2, 3, 3, 4, 5, 3, 6।" },
+      "optionsJson": [
+        { "en": "2", "hi": "2" },
+        { "en": "3", "hi": "3" },
+        { "en": "6", "hi": "6" },
+        { "en": "4", "hi": "4" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The mode is the most frequently occurring value; 3 appears three times, more than any other value.", "hi": "बहुलक सबसे अधिक बार आने वाला मान होता है; 3, तीन बार आता है, जो किसी भी अन्य मान से अधिक है।" },
+      "distractorAnalysis": {
+        "0": { "en": "2 appears only once, not the most frequent.", "hi": "2 केवल एक बार आता है, सबसे अधिक बार नहीं।" },
+        "2": { "en": "6 appears only once, not the most frequent.", "hi": "6 केवल एक बार आता है, सबसे अधिक बार नहीं।" },
+        "3": { "en": "4 appears only once, not the most frequent.", "hi": "4 केवल एक बार आता है, सबसे अधिक बार नहीं।" }
+      }
+    },
+    {
+      "key": "jnvst9-p2-math-35",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A die is thrown once. What is the probability of getting an even number?", "hi": "एक पासे को एक बार फेंका जाता है। एक सम संख्या आने की प्रायिकता क्या है?" },
+      "optionsJson": [
+        { "en": "1/6", "hi": "1/6" },
+        { "en": "1/2", "hi": "1/2" },
+        { "en": "1/3", "hi": "1/3" },
+        { "en": "2/3", "hi": "2/3" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Even numbers on a die are {2,4,6} — 3 favorable outcomes out of 6 total: P=3/6=1/2.", "hi": "पासे पर सम संख्याएँ {2,4,6} हैं — 6 में से 3 अनुकूल परिणाम: P=3/6=1/2।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the probability of getting one specific number, not any even number.", "hi": "यह किसी एक विशेष संख्या आने की प्रायिकता है, किसी भी सम संख्या की नहीं।" },
+        "2": { "en": "Miscounts the favorable outcomes as 2 instead of 3.", "hi": "अनुकूल परिणामों को 3 के बजाय 2 गिन लिया।" },
+        "3": { "en": "Miscounts the favorable outcomes as 4 instead of 3.", "hi": "अनुकूल परिणामों को 3 के बजाय 4 गिन लिया।" }
+      }
+    }
+  ]
+}

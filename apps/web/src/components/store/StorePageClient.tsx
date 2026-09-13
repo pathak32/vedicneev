@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import { Badge, Button } from "@vedicneev/ui";
 import { BookOpen, CalendarClock, Eye, FileText, Package, ScanLine } from "lucide-react";
 
@@ -17,6 +17,31 @@ const PRODUCT_ICON: Record<StoreProductType, typeof Package> = {
   MEGA_BUNDLE: Package,
 };
 
+const PRODUCT_TYPE_LABEL: Record<StoreProductType, string> = {
+  MOCK_SERIES: "Mock Series",
+  QUESTION_BOOKLET: "Question Bank Booklet",
+  OMR_KIT: "OMR Kit",
+  LIVE_BOOTCAMP: "Live Bootcamp",
+  MEGA_BUNDLE: "Mega Bundle",
+};
+
+const CLASS_LABEL: Record<"CLASS_6" | "CLASS_9", string> = {
+  CLASS_6: "Class 6",
+  CLASS_9: "Class 9",
+};
+
+type ExamFilter = Exclude<StoreProduct["targetExam"], null>;
+type ClassFilter = "CLASS_6" | "CLASS_9";
+
+/** Pill-style toggle button — active when `active`, otherwise an outline pill. */
+function FilterPill({ active, onClick, children }: { active: boolean; onClick: () => void; children: React.ReactNode }) {
+  return (
+    <Button type="button" size="sm" variant={active ? "default" : "outline"} onClick={onClick}>
+      {children}
+    </Button>
+  );
+}
+
 /**
  * Browsing (the product grid, the preview modal) needs no sign-in at all —
  * only the checkout dialog itself cares who's buying, and even there an
@@ -27,13 +52,91 @@ export function StorePageClient({ products }: { products: StoreProduct[] }) {
   const parent = useAuthStore(selectActiveParent);
   const [previewProduct, setPreviewProduct] = useState<StoreProduct | null>(null);
   const [checkoutProduct, setCheckoutProduct] = useState<StoreProduct | null>(null);
+  const [examFilter, setExamFilter] = useState<ExamFilter | "ALL">("ALL");
+  const [classFilter, setClassFilter] = useState<ClassFilter | "ALL">("ALL");
+  const [typeFilter, setTypeFilter] = useState<StoreProductType | "ALL">("ALL");
 
   const bumpProduct = products.find((p) => p.productType === "OMR_KIT");
 
+  // Only offer a pill for a value that actually appears among the live
+  // products — an exam/class/type combination with nothing seeded for it
+  // yet shouldn't show up as a selectable (and always-empty) filter.
+  const examOptions = useMemo(
+    () => Array.from(new Set(products.map((p) => p.targetExam).filter((v): v is ExamFilter => v !== null))),
+    [products]
+  );
+  const classOptions = useMemo(
+    () => Array.from(new Set(products.map((p) => p.targetClass).filter((v): v is ClassFilter => v !== null))),
+    [products]
+  );
+  const typeOptions = useMemo(() => Array.from(new Set(products.map((p) => p.productType))), [products]);
+
+  // A null targetExam/targetClass on the product means "every exam" /
+  // "both classes" (see schema.prisma's Product model) — that product
+  // stays visible no matter which specific exam/class pill is active,
+  // it's only excluded by an exact, conflicting productType filter.
+  const filteredProducts = products.filter(
+    (product) =>
+      (examFilter === "ALL" || product.targetExam === null || product.targetExam === examFilter) &&
+      (classFilter === "ALL" || product.targetClass === null || product.targetClass === classFilter) &&
+      (typeFilter === "ALL" || product.productType === typeFilter)
+  );
+
   return (
     <>
+      {examOptions.length > 1 || classOptions.length > 1 || typeOptions.length > 1 ? (
+        <div className="mb-6 flex flex-col gap-3">
+          {examOptions.length > 1 ? (
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">Exam</span>
+              <FilterPill active={examFilter === "ALL"} onClick={() => setExamFilter("ALL")}>
+                All
+              </FilterPill>
+              {examOptions.map((exam) => (
+                <FilterPill key={exam} active={examFilter === exam} onClick={() => setExamFilter(exam)}>
+                  {exam}
+                </FilterPill>
+              ))}
+            </div>
+          ) : null}
+
+          {classOptions.length > 1 ? (
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">Class</span>
+              <FilterPill active={classFilter === "ALL"} onClick={() => setClassFilter("ALL")}>
+                All
+              </FilterPill>
+              {classOptions.map((level) => (
+                <FilterPill key={level} active={classFilter === level} onClick={() => setClassFilter(level)}>
+                  {CLASS_LABEL[level]}
+                </FilterPill>
+              ))}
+            </div>
+          ) : null}
+
+          {typeOptions.length > 1 ? (
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">Package Type</span>
+              <FilterPill active={typeFilter === "ALL"} onClick={() => setTypeFilter("ALL")}>
+                All
+              </FilterPill>
+              {typeOptions.map((type) => (
+                <FilterPill key={type} active={typeFilter === type} onClick={() => setTypeFilter(type)}>
+                  {PRODUCT_TYPE_LABEL[type]}
+                </FilterPill>
+              ))}
+            </div>
+          ) : null}
+        </div>
+      ) : null}
+
+      {filteredProducts.length === 0 ? (
+        <p className="rounded-2xl border border-dashed border-border p-8 text-center text-sm text-muted-foreground">
+          No package matches that combination yet.
+        </p>
+      ) : (
       <div className="grid gap-4 sm:grid-cols-2">
-        {products.map((product) => {
+        {filteredProducts.map((product) => {
           const Icon = PRODUCT_ICON[product.productType];
           const discountPercent = Math.round((1 - product.sellingPrice / product.displayPrice) * 100);
 
@@ -70,6 +173,7 @@ export function StorePageClient({ products }: { products: StoreProduct[] }) {
           );
         })}
       </div>
+      )}
 
       {previewProduct ? (
         <ProductPreviewModal
