@@ -17,7 +17,7 @@ export const metadata: Metadata = {
  * registered entity details, effective date) are called out explicitly
  * below rather than invented — fill these in, ideally after legal review,
  * before this page goes live. Everything else describes this app's actual
- * data handling as implemented (see apps/web/app/api/auth/whatsapp-otp,
+ * data handling as implemented (see apps/web/app/api/auth/whatsapp/,
  * packages/db/prisma/schema.prisma, apps/web/src/lib/payments/razorpayServer.ts).
  */
 export default function PrivacyPolicyPage() {

@@ -260,7 +260,7 @@ model User {
 }
 
 // A single-use login code for the WhatsApp-delivered OTP flow
-// (apps/web/app/api/auth/whatsapp-otp/route.ts) — a from-scratch OTP
+// (apps/web/src/lib/auth/whatsappOtpServer.ts) — a from-scratch OTP
 // mechanism (not Supabase's built-in phone provider, which only delivers
 // via a configured third-party SMS gateway) so codes can be sent over the
 // WhatsApp Cloud API credentials this project already has for report

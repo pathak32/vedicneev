@@ -5,7 +5,7 @@ import { getSupabasePublicConfig } from "./env";
 /**
  * Service-role Supabase client — can create/confirm arbitrary users and
  * mint sessions on their behalf, bypassing every RLS policy. Only ever
- * used server-side, only inside apps/web/app/api/auth/whatsapp-otp/route.ts,
+ * used server-side, only inside apps/web/src/lib/auth/whatsappOtpServer.ts,
  * to bridge a WhatsApp-delivered OTP (verified against our own PhoneOtp
  * table, not Supabase's own phone provider) into a real Supabase session:
  * this is the one place that actually needs elevated privileges — every

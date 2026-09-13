@@ -24,10 +24,15 @@ import { isSupabaseAuthConfigured } from "@/lib/supabase/env";
  * same demo-mode convention every other integration in this codebase uses
  * (razorpayServer.ts, the WhatsApp report route) so local/demo dev keeps
  * working without live credentials.
+ *
+ * Shared by the two dedicated route handlers —
+ * app/api/auth/whatsapp/send-otp/route.ts and
+ * app/api/auth/whatsapp/verify-otp/route.ts — so the send/verify halves
+ * stay two thin HTTP adapters over one implementation instead of drifting
+ * apart.
  */
-export const dynamic = "force-dynamic";
 
-const INDIAN_MOBILE_PATTERN = /^[6-9]\d{9}$/;
+export const INDIAN_MOBILE_PATTERN = /^[6-9]\d{9}$/;
 const OTP_TTL_MINUTES = 10;
 const MAX_ATTEMPTS = 5;
 const RESEND_COOLDOWN_SECONDS = 30;
@@ -51,31 +56,7 @@ function syntheticSupabaseEmail(phone: string): string {
   return `phone-91${phone}@phone.internal.vedicneev.com`;
 }
 
-interface RequestBody {
-  action?: "send" | "verify";
-  phone?: string;
-  code?: string;
-}
-
-export async function POST(request: Request) {
-  let body: RequestBody;
-  try {
-    body = await request.json();
-  } catch {
-    return NextResponse.json({ success: false, error: "Invalid JSON body." }, { status: 400 });
-  }
-
-  const phone = body.phone;
-  if (!phone || !INDIAN_MOBILE_PATTERN.test(phone)) {
-    return NextResponse.json({ success: false, error: "Enter a valid 10-digit Indian mobile number." }, { status: 400 });
-  }
-
-  if (body.action === "send") return handleSend(phone);
-  if (body.action === "verify") return handleVerify(phone, body.code);
-  return NextResponse.json({ success: false, error: 'action must be "send" or "verify".' }, { status: 400 });
-}
-
-async function handleSend(phone: string): Promise<NextResponse> {
+export async function sendWhatsAppOtp(phone: string): Promise<NextResponse> {
   const recent = await prisma.phoneOtp.findFirst({ where: { phone }, orderBy: { createdAt: "desc" } });
   if (recent && Date.now() - recent.createdAt.getTime() < RESEND_COOLDOWN_SECONDS * 1000) {
     return NextResponse.json(
@@ -130,7 +111,7 @@ async function handleSend(phone: string): Promise<NextResponse> {
   }
 }
 
-async function handleVerify(phone: string, code: string | undefined): Promise<NextResponse> {
+export async function verifyWhatsAppOtp(phone: string, code: string | undefined): Promise<NextResponse> {
   if (!code) {
     return NextResponse.json({ success: false, error: "code is required." }, { status: 400 });
   }

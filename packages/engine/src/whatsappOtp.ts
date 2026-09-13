@@ -1,6 +1,6 @@
 /**
  * WhatsApp-delivered login OTP formatting. Pure — no fetch, no knowledge of
- * access tokens; apps/web/app/api/auth/whatsapp-otp/route.ts owns the
+ * access tokens; apps/web/src/lib/auth/whatsappOtpServer.ts owns the
  * actual send and reuses whatsappReport.ts's validateWhatsAppPayload (it's
  * already generic over any WhatsAppUtilityTemplatePayload, not report-specific).
  */

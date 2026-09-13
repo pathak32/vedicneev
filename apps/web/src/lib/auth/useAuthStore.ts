@@ -126,7 +126,7 @@ export const useAuthStore = create<AuthStoreState>()(
           }
 
           // Sync user to Postgres — only needed on this mock path; the real
-          // path's /api/auth/whatsapp-otp already resolves/creates the
+          // path's /api/auth/whatsapp/verify-otp already resolves/creates the
           // user itself as part of verification.
           try {
             const res = await fetch("/api/auth/sync", {

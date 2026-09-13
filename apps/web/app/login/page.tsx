@@ -1,0 +1,187 @@
+"use client";
+
+import { Suspense, useEffect, useRef, useState } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
+import { Button } from "@vedicneev/ui";
+import { Loader2, MessageCircle, Phone, ShieldCheck, Sparkles } from "lucide-react";
+
+import { selectActiveAccount, useAuthStore } from "@/lib/auth/useAuthStore";
+
+// Renders entirely from client-side store state — force dynamic so the
+// build never attempts to prerender a signed-out shell.
+export const dynamic = "force-dynamic";
+
+const RESEND_SECONDS = 30;
+
+/**
+ * Dedicated full-page WhatsApp OTP login — same requestOtp/verifyOtp state
+ * machine PhoneAuthModal.tsx drives from a dialog, here as its own route
+ * for anywhere a modal is the wrong fit (a shared link, an email/WhatsApp
+ * deep link, a redirect target from an auth-gated page). Both stay backed
+ * by the same useAuthStore actions, so signing in from either one leaves
+ * identical state.
+ */
+function LoginPageContent() {
+  const router = useRouter();
+  const searchParams = useSearchParams();
+  const next = searchParams.get("next") || "/dashboard";
+
+  const [phone, setPhone] = useState("");
+  const [otp, setOtp] = useState("");
+  const [resendIn, setResendIn] = useState(0);
+
+  const requestOtp = useAuthStore((s) => s.requestOtp);
+  const verifyOtp = useAuthStore((s) => s.verifyOtp);
+  const cancelOtp = useAuthStore((s) => s.cancelOtp);
+  const pendingOtpPhone = useAuthStore((s) => s.pendingOtpPhone);
+  const otpError = useAuthStore((s) => s.otpError);
+  const otpSending = useAuthStore((s) => s.otpSending);
+  const otpVerifying = useAuthStore((s) => s.otpVerifying);
+  const hasHydrated = useAuthStore((s) => s.hasHydrated);
+  const isAuthenticated = useAuthStore((s) => s.activePhone !== null);
+
+  const step = pendingOtpPhone ? "otp" : "phone";
+  const timerRef = useRef<number | null>(null);
+
+  useEffect(() => {
+    if (step !== "otp") return;
+    setResendIn(RESEND_SECONDS);
+    timerRef.current = window.setInterval(() => {
+      setResendIn((s) => Math.max(0, s - 1));
+    }, 1000);
+    return () => {
+      if (timerRef.current) window.clearInterval(timerRef.current);
+    };
+  }, [step, pendingOtpPhone]);
+
+  // Already signed in (e.g. a bookmarked /login hit after a previous
+  // session hydrates) — bounce straight to `next` instead of re-prompting.
+  useEffect(() => {
+    if (hasHydrated && isAuthenticated) router.replace(next);
+  }, [hasHydrated, isAuthenticated, next, router]);
+
+  async function handleSendOtp() {
+    await requestOtp(phone);
+  }
+
+  async function handleVerify() {
+    const result = await verifyOtp(otp);
+    if (!result.success) return;
+
+    setPhone("");
+    setOtp("");
+
+    // Mirrors SiteHeader's onAuthenticated routing: a brand-new account
+    // (no student profiles yet) goes through onboarding first, carrying
+    // `next` along so onboarding can hand off to the original destination.
+    const account = selectActiveAccount(useAuthStore.getState());
+    if (!account || account.students.length === 0) {
+      router.push(`/onboarding?next=${encodeURIComponent(next)}`);
+    } else {
+      router.push(next);
+    }
+  }
+
+  return (
+    <div className="mx-auto flex min-h-[70vh] max-w-sm flex-col justify-center gap-6 px-4 py-12">
+      <div className="text-center">
+        <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-2xl bg-primary/10 text-primary">
+          {step === "phone" ? <Phone className="h-6 w-6" /> : <ShieldCheck className="h-6 w-6" />}
+        </div>
+        <h1 className="text-xl font-bold text-foreground">
+          {step === "phone" ? "Sign in with your mobile number" : "Enter the OTP"}
+        </h1>
+        <p className="mt-1 text-sm text-muted-foreground">
+          {step === "phone"
+            ? "We'll send a one-time code over WhatsApp to verify it's you."
+            : `Sent to +91 ${pendingOtpPhone} on WhatsApp.`}
+        </p>
+      </div>
+
+      {step === "phone" ? (
+        <div className="flex flex-col gap-3 rounded-2xl border border-border bg-card p-5 shadow-sm">
+          <div className="flex items-center gap-2">
+            <span className="flex h-11 shrink-0 items-center rounded-md border border-input bg-muted px-3 text-sm text-muted-foreground">
+              +91
+            </span>
+            <input
+              type="tel"
+              inputMode="numeric"
+              maxLength={10}
+              placeholder="10-digit mobile number"
+              value={phone}
+              onChange={(e) => setPhone(e.target.value.replace(/\D/g, "").slice(0, 10))}
+              className="h-11 w-full rounded-md border border-input bg-background px-3 text-base tracking-wide"
+              aria-label="Mobile number"
+              autoFocus
+            />
+          </div>
+          {otpError ? <p className="text-sm text-destructive">{otpError}</p> : null}
+          <Button
+            type="button"
+            size="lg"
+            className="w-full gap-2"
+            disabled={phone.length !== 10 || otpSending}
+            onClick={handleSendOtp}
+          >
+            {otpSending ? <Loader2 className="h-4 w-4 animate-spin" /> : <MessageCircle className="h-4 w-4" />}
+            Send OTP via WhatsApp
+          </Button>
+        </div>
+      ) : (
+        <div className="flex flex-col gap-3 rounded-2xl border border-border bg-card p-5 shadow-sm">
+          <input
+            type="text"
+            inputMode="numeric"
+            maxLength={6}
+            placeholder="6-digit OTP"
+            value={otp}
+            onChange={(e) => setOtp(e.target.value.replace(/\D/g, "").slice(0, 6))}
+            className="h-12 w-full rounded-md border border-input bg-background px-3 text-center text-2xl tracking-[0.5em]"
+            aria-label="OTP"
+            autoFocus
+          />
+          {otpError ? <p className="text-sm text-destructive">{otpError}</p> : null}
+          <Button
+            type="button"
+            size="lg"
+            className="w-full gap-2"
+            disabled={otp.length !== 6 || otpVerifying}
+            onClick={handleVerify}
+          >
+            {otpVerifying ? <Loader2 className="h-4 w-4 animate-spin" /> : <Sparkles className="h-4 w-4" />}
+            Verify &amp; Continue
+          </Button>
+          <div className="flex items-center justify-between text-sm">
+            <button
+              type="button"
+              className="text-muted-foreground underline-offset-2 hover:underline"
+              onClick={() => {
+                setOtp("");
+                cancelOtp();
+              }}
+            >
+              Change number
+            </button>
+            <button
+              type="button"
+              className="text-primary underline-offset-2 hover:underline disabled:pointer-events-none disabled:text-muted-foreground"
+              disabled={resendIn > 0 || otpSending}
+              onClick={handleSendOtp}
+            >
+              {resendIn > 0 ? `Resend OTP in ${resendIn}s` : "Resend OTP"}
+            </button>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+export default function LoginPage() {
+  return (
+    <Suspense fallback={null}>
+      <LoginPageContent />
+    </Suspense>
+  );
+}
