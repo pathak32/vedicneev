@@ -46,6 +46,9 @@ export interface TestStoreState {
   submitted: boolean;
   submittedAt: number | null;
 
+  /** Controls the "Submit the exam?" confirmation dialog (ExamHeader.tsx) — lifted into the store, not local component state, so ActionDock's last-question Submit button can open the same dialog. */
+  submitDialogOpen: boolean;
+
   /** True once persisted state (sessionStorage) has been restored — gates initSession so a resumed attempt isn't immediately overwritten. */
   hasHydrated: boolean;
 
@@ -71,6 +74,7 @@ export interface TestStoreState {
   switchSection: (sectionIndex: number) => void;
   tick: () => void;
   submitExam: () => void;
+  setSubmitDialogOpen: (open: boolean) => void;
   reset: () => void;
 }
 
@@ -89,6 +93,7 @@ const initialState = {
   lastTickAt: null as number | null,
   submitted: false,
   submittedAt: null as number | null,
+  submitDialogOpen: false,
   hasHydrated: false,
 };
 
@@ -340,6 +345,8 @@ export const useTestStore = create<TestStoreState>()(
           set({ submitted: true, submittedAt: Date.now(), activeQuestionEnteredAt: null, lastTickAt: null });
         },
 
+        setSubmitDialogOpen: (open) => set({ submitDialogOpen: open }),
+
         reset: () => set({ ...initialState, hasHydrated: true }),
       };
     },
@@ -413,6 +420,15 @@ export function selectCurrentQuestion(state: TestStoreState): ExamQuestion | nul
   const questionId = selectCurrentQuestionId(state);
   if (!questionId || !state.session) return null;
   return state.session.questionsById[questionId] ?? null;
+}
+
+/** True on the very last question of the very last section — the point where "Save & Next" has nothing left to advance to, and ActionDock should offer Submit instead. */
+export function selectIsLastQuestion(state: TestStoreState): boolean {
+  if (!state.session) return false;
+  const lastSectionIndex = state.session.sections.length - 1;
+  if (state.currentSectionIndex !== lastSectionIndex) return false;
+  const lastSection = state.session.sections[lastSectionIndex];
+  return state.currentQuestionIndex === (lastSection?.questionIds.length ?? 0) - 1;
 }
 
 export interface StatusCounts {

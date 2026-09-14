@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from "react";
 import {
   Badge,
   Button,
@@ -41,7 +40,8 @@ export function ExamHeader() {
   const submitExam = useTestStore((s) => s.submitExam);
   const submitted = useTestStore((s) => s.submitted);
   const statusCounts = useTestStore((s) => selectStatusCounts(s));
-  const [confirmOpen, setConfirmOpen] = useState(false);
+  const confirmOpen = useTestStore((s) => s.submitDialogOpen);
+  const setConfirmOpen = useTestStore((s) => s.setSubmitDialogOpen);
 
   if (!session) return null;
 
