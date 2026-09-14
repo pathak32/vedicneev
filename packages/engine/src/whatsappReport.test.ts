@@ -63,7 +63,7 @@ describe("formatWhatsAppDiagnosticPayload", () => {
   it("puts the 5 expected values into the body component's parameters, in order", () => {
     const { payload } = formatWhatsAppDiagnosticPayload(report, student, "9876543210");
     const body = payload.template.components.find((c) => c.type === "body");
-    expect(body?.parameters.map((p) => p.text)).toEqual([
+    expect(body?.parameters.map((p) => (p.type === "text" ? p.text : null))).toEqual([
       "Aarav Sharma",
       "JNVST",
       "9/14 (64%)",
@@ -75,7 +75,8 @@ describe("formatWhatsAppDiagnosticPayload", () => {
   it("carries only the URL's path+query as the button parameter, not the full absolute URL", () => {
     const { payload } = formatWhatsAppDiagnosticPayload(report, student, "9876543210");
     const button = payload.template.components.find((c) => c.type === "button");
-    expect(button?.parameters[0]?.text).toBe("exam/demo-jnvst/results?student=abc123");
+    const buttonParam = button?.parameters[0];
+    expect(buttonParam?.type === "text" ? buttonParam.text : null).toBe("exam/demo-jnvst/results?student=abc123");
   });
 
   it("returns a plaintext preview matching buildWhatsAppPlaintextMessage", () => {

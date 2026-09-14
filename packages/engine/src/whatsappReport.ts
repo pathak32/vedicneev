@@ -34,11 +34,18 @@ export interface WhatsAppTextParameter {
   text: string;
 }
 
+/** Parameter shape for a "copy_code" button component — Meta's Authentication-template one-tap-copy button, distinct from a plain text parameter. */
+export interface WhatsAppCouponCodeParameter {
+  type: "coupon_code";
+  coupon_code: string;
+}
+
 export interface WhatsAppTemplateComponent {
   type: "body" | "button";
-  sub_type?: "url";
+  /** "copy_code" (Authentication templates' "Copy Code" button) and "url" (autofill/link button) are Meta's two OTP-relevant button sub-types. */
+  sub_type?: "url" | "copy_code";
   index?: string;
-  parameters: WhatsAppTextParameter[];
+  parameters: (WhatsAppTextParameter | WhatsAppCouponCodeParameter)[];
 }
 
 export interface WhatsAppUtilityTemplatePayload {
@@ -178,13 +185,21 @@ export function validateWhatsAppPayload(payload: WhatsAppUtilityTemplatePayload)
   const body = payload.template?.components?.find((c) => c.type === "body");
   if (!body || body.parameters.length === 0) {
     errors.push("template.components must include a 'body' component with at least one parameter.");
-  } else if (body.parameters.some((p) => !p.text.trim())) {
+  } else if (body.parameters.some((p) => p.type !== "text" || !p.text.trim())) {
     errors.push("template body parameters must not be empty strings.");
   }
 
   const urlButton = payload.template?.components?.find((c) => c.type === "button" && c.sub_type === "url");
   if (urlButton && urlButton.parameters.length === 0) {
     errors.push("a 'button' component with sub_type 'url' must include its URL parameter.");
+  }
+
+  const copyCodeButton = payload.template?.components?.find((c) => c.type === "button" && c.sub_type === "copy_code");
+  if (copyCodeButton) {
+    const param = copyCodeButton.parameters[0];
+    if (!param || param.type !== "coupon_code" || !param.coupon_code.trim()) {
+      errors.push("a 'button' component with sub_type 'copy_code' must include its coupon_code parameter.");
+    }
   }
 
   return { valid: errors.length === 0, errors };

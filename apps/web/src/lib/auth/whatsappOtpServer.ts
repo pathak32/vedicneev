@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { prisma } from "@vedicneev/db";
-import { formatWhatsAppOtpPayload, validateWhatsAppPayload } from "@vedicneev/engine";
+import { formatWhatsAppOtpPayload, validateWhatsAppPayload, type WhatsAppOtpButtonType } from "@vedicneev/engine";
 
 import { generateOtpCode, hashOtpCode, otpCodeMatches } from "@/lib/auth/otpCrypto";
 import { toSupabasePhoneDigits } from "@/lib/auth/phoneFormat";
@@ -46,6 +46,15 @@ const GRAPH_API_VERSION = process.env.WHATSAPP_API_VERSION || "v20.0";
 // missing-template error.
 const OTP_TEMPLATE_NAME = process.env.WHATSAPP_TEMPLATE_NAME || "auth_login";
 const OTP_TEMPLATE_LANG = process.env.WHATSAPP_TEMPLATE_LANG || "en";
+// Set only if the approved template was created with a button (Meta's
+// WhatsApp Manager defaults new Authentication templates to one) — see
+// formatWhatsAppOtpPayload's WhatsAppOtpButtonType doc for what each value
+// sends. Defaults to "NONE" (body-only), the shape this code has always
+// sent; a body-only payload against a template that actually has a button
+// is what produces Meta error #131008 ("Required parameter is missing").
+const rawButtonType = (process.env.WHATSAPP_TEMPLATE_BUTTON_TYPE || "NONE").toUpperCase();
+const OTP_TEMPLATE_BUTTON_TYPE: WhatsAppOtpButtonType =
+  rawButtonType === "COPY_CODE" || rawButtonType === "URL" ? rawButtonType : "NONE";
 
 function toE164(phone: string): string {
   return `+91${phone}`;
@@ -82,7 +91,13 @@ export async function sendWhatsAppOtp(phone: string): Promise<NextResponse> {
     },
   });
 
-  const payload = formatWhatsAppOtpPayload(code, toE164(phone), OTP_TEMPLATE_NAME, OTP_TEMPLATE_LANG);
+  const payload = formatWhatsAppOtpPayload(
+    code,
+    toE164(phone),
+    OTP_TEMPLATE_NAME,
+    OTP_TEMPLATE_LANG,
+    OTP_TEMPLATE_BUTTON_TYPE
+  );
   const validation = validateWhatsAppPayload(payload);
   if (!validation.valid) {
     return NextResponse.json({ success: false, error: validation.errors.join(" ") }, { status: 500 });
