@@ -14,7 +14,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mental_ability",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Select the number pair that is different from the other three options.", hi: "उस संख्या युग्म का चयन करें जो अन्य तीन विकल्पों से भिन्न है।", mr: "इतर तीन पर्यायांपेक्षा वेगळी असलेली संख्या-जोडी निवडा." },
     optionsJson: [
       { en: "14 - 196", hi: "14 - 196", mr: "14 - 196" },
@@ -32,7 +31,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mental_ability",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Select the option that completes the letter analogy: BCD : EFG :: PQR : ?", hi: "उस विकल्प का चयन करें जो अक्षर सादृश्यता को पूरा करता है: BCD : EFG :: PQR : ?", mr: "अक्षर-सादृश्य पूर्ण करणारा पर्याय निवडा: BCD : EFG :: PQR : ?" },
     optionsJson: [
       { en: "STU", hi: "STU", mr: "STU" },
@@ -50,7 +48,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mental_ability",
     difficulty: "MEDIUM",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Find the missing number in the series: 5, 11, 23, 47, ?", hi: "श्रृंखला में लुप्त संख्या ज्ञात कीजिए: 5, 11, 23, 47, ?", mr: "श्रेणीतील लुप्त संख्या शोधा: 5, 11, 23, 47, ?" },
     optionsJson: [
       { en: "91", hi: "91", mr: "91" },
@@ -68,7 +65,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mental_ability",
     difficulty: "HARD",
-    reviewStatus: "DRAFT",
     questionJson: { en: "In a series of numbers based on geometric progression, what is the 7th term of the sequence 3, 6, 12, 24, ...?", hi: "गुणोत्तर श्रेणी पर आधारित संख्याओं की श्रृंखला 3, 6, 12, 24, ... का 7वां पद क्या होगा?", mr: "गुणोत्तर श्रेणीवर आधारित 3, 6, 12, 24, ... या संख्याश्रेणीचे 7वे पद काय असेल?" },
     optionsJson: [
       { en: "96", hi: "96", mr: "96" },
@@ -86,7 +82,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "arithmetic",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Find the Least Common Multiple (LCM) of 12, 18, and 24.", hi: "12, 18 और 24 का लघुत्तम समापवर्त्य (LCM) ज्ञात कीजिए।", mr: "12, 18 आणि 24 चा लघुत्तम सामाईक विभाज्य (LCM) शोधा." },
     optionsJson: [
       { en: "48", hi: "48", mr: "48" },
@@ -104,7 +99,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "arithmetic",
     difficulty: "MEDIUM",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Simplify the fractional expression: (3/4 + 2/5) - 1/2.", hi: "भिन्न व्यंजक को सरल कीजिए: (3/4 + 2/5) - 1/2।", mr: "भिन्न व्यंजक सोपे करा: (3/4 + 2/5) - 1/2." },
     optionsJson: [
       { en: "13/20", hi: "13/20", mr: "13/20" },
@@ -122,7 +116,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "arithmetic",
     difficulty: "HARD",
-    reviewStatus: "DRAFT",
     questionJson: { en: "A sum of ₹4,000 earns a simple interest of ₹960 in 3 years. What is the annual rate of interest?", hi: "₹4,000 की राशि पर 3 वर्षों में ₹960 का साधारण ब्याज मिलता है। वार्षिक ब्याज दर क्या है?", mr: "₹4,000 च्या रकमेवर 3 वर्षांत ₹960 इतके सरळ व्याज मिळते. वार्षिक व्याजदर किती आहे?" },
     optionsJson: [
       { en: "6%", hi: "6%", mr: "6%" },
@@ -140,7 +133,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "language",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Read the sentence and identify the synonym of the word 'ANCIENT': 'The museum housed several ancient manuscripts from the Vedic era.'", hi: "वाक्य को पढ़ें और 'ANCIENT' शब्द का पर्यायवाची चुनें: 'संग्रहालय में वैदिक काल की कई प्राचीन पांडुलिपियां थीं।'", mr: "वाक्य वाचा आणि 'ANCIENT' या शब्दाचा समानार्थी शब्द ओळखा: 'संग्रहालयात वैदिक काळातील अनेक प्राचीन हस्तलिखिते होती.'" },
     optionsJson: [
       { en: "Modern", hi: "आधुनिक", mr: "आधुनिक" },
@@ -158,7 +150,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "language",
     difficulty: "MEDIUM",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Select the correct article to fill in the blank: 'He returned after _____ hour of intensive study.'", hi: "रिक्त स्थान भरने के लिए सही आर्टिकल का चयन करें: 'He returned after _____ hour of intensive study.'", mr: "रिकाम्या जागी भरण्यासाठी योग्य आर्टिकल निवडा: 'He returned after _____ hour of intensive study.'" },
     optionsJson: [
       { en: "a", hi: "a", mr: "a" },
@@ -176,7 +167,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "language",
     difficulty: "HARD",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Choose the correct ANTONYM for the word 'GENEROUS'.", hi: "'GENEROUS' (उदार) शब्द का सही विलोम (ANTONYM) शब्द चुनें।", mr: "'GENEROUS' (उदार) या शब्दाचा योग्य विलोम शब्द (ANTONYM) निवडा." },
     optionsJson: [
       { en: "Kind", hi: "दयालु", mr: "दयाळू" },

@@ -14,7 +14,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mathematics",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: { en: "The sum of three consecutive odd natural numbers is 57. Find the largest number.", hi: "तीन क्रमागत विषम प्राकृतिक संख्याओं का योग 57 है। सबसे बड़ी संख्या ज्ञात कीजिए।" },
     optionsJson: [
       { en: "17", hi: "17" },
@@ -32,7 +31,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mathematics",
     difficulty: "MEDIUM",
-    reviewStatus: "DRAFT",
     questionJson: { en: "A can complete a piece of work alone in 10 days, and B can complete the same work in 15 days. Working together, in how many days can they finish the work?", hi: "A किसी काम को अकेले 10 दिनों में पूरा कर सकता है, और B उसी काम को 15 दिनों में पूरा कर सकता है। एक साथ काम करते हुए वे इस काम को कितने दिनों में समाप्त कर सकते हैं?" },
     optionsJson: [
       { en: "5 days", hi: "5 दिन" },
@@ -50,7 +48,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mathematics",
     difficulty: "HARD",
-    reviewStatus: "DRAFT",
     questionJson: { en: "A right circular cylinder has a height of 14 cm and a curved surface area of 264 cm^2. Find the radius of its circular base.", hi: "एक लम्ब वृत्तीय बेलन की ऊँचाई 14 सेमी और वक्र पृष्ठीय क्षेत्रफल 264 सेमी^2 है। इसके वृत्ताकार आधार की त्रिज्या ज्ञात कीजिए।" },
     optionsJson: [
       { en: "2 cm", hi: "2 सेमी" },
@@ -68,7 +65,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mental_ability",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: { en: "What is the angle between the hour hand and minute hand of an analog clock at 3:00 sharp?", hi: "एक एनालॉग घड़ी में ठीक 3:00 बजे घंटे की सुई और मिनट की सुई के बीच कितने अंश (Degree) का कोण बनता है?" },
     optionsJson: [
       { en: "45°", hi: "45°" },
@@ -86,7 +82,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mental_ability",
     difficulty: "MEDIUM",
-    reviewStatus: "DRAFT",
     questionJson: { en: "In a standard die, the sum of numbers on opposite faces is always 7. If the top face shows 2, what number is on the bottom face?", hi: "एक मानक पासे में विपरीत फलकों पर बनी संख्याओं का योग हमेशा 7 होता है। यदि ऊपरी फलक पर 2 दिखे, तो निचले फलक पर कौन सी संख्या होगी?" },
     optionsJson: [
       { en: "3", hi: "3" },
@@ -104,7 +99,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "science",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Which bacterium is responsible for promoting the formation of curd from milk?", hi: "दूध से दही जमने की प्रक्रिया को बढ़ावा देने के लिए कौन सा जीवाणु (Bacterium) जिम्मेदार है?" },
     optionsJson: [
       { en: "Rhizobium", hi: "राइजोबियम" },
@@ -122,7 +116,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "science",
     difficulty: "MEDIUM",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Which tough, porous, black substance obtained during the destructive distillation of coal is an almost pure form of carbon?", hi: "कोयले के भंजक आसवन (Destructive Distillation) के दौरान प्राप्त कौन सा कठोर, सरंध्र, काला पदार्थ कार्बन का लगभग शुद्ध रूप है?" },
     optionsJson: [
       { en: "Coal Tar", hi: "कोलतार" },
@@ -140,7 +133,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "general_knowledge",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Who gave the famous slogan 'Swaraj is my birthright and I shall have it'?", hi: "'स्वराज्य मेरा जन्मसिद्ध अधिकार है और मैं इसे लेकर रहूँगा' का प्रसिद्ध नारा किसने दिया था?" },
     optionsJson: [
       { en: "Lala Lajpat Rai", hi: "लाला लाजपत राय" },
@@ -158,7 +150,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "general_knowledge",
     difficulty: "MEDIUM",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Which celestial body in our solar system is known as the 'Morning Star' or 'Evening Star'?", hi: "हमारे सौर मंडल में किस खगोलीय पिंड को 'सुबह का तारा' या 'शाम का तारा' कहा जाता है?" },
     optionsJson: [
       { en: "Mars", hi: "मंगल" },
@@ -176,7 +167,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "general_knowledge",
     difficulty: "HARD",
-    reviewStatus: "DRAFT",
     questionJson: { en: "In which year was the historic First Battle of Panipat fought between Babur and Ibrahim Lodi?", hi: "बाबर और इब्राहिम लोदी के बीच पानीपत का ऐतिहासिक प्रथम युद्ध किस वर्ष लड़ा गया था?" },
     optionsJson: [
       { en: "1526 AD", hi: "1526 ई." },

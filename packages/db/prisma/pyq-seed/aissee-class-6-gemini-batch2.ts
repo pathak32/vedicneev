@@ -14,7 +14,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "arithmetic",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Find the perimeter of a rectangle whose length is 15 cm and breadth is 10 cm.", hi: "उस आयत का परिमाप ज्ञात कीजिए जिसकी लंबाई 15 सेमी और चौड़ाई 10 सेमी है।", mr: "ज्या आयताची लांबी 15 सेंमी आणि रुंदी 10 सेंमी आहे, त्याची परिमिती काढा." },
     optionsJson: [
       { en: "25 cm", hi: "25 सेमी", mr: "25 सेंमी" },
@@ -32,7 +31,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "arithmetic",
     difficulty: "MEDIUM",
-    reviewStatus: "DRAFT",
     questionJson: { en: "The average marks obtained by 5 students in a mathematics test is 24. If the marks of a 6th student (36) are added, what is the new average?", hi: "गणित की परीक्षा में 5 छात्रों द्वारा प्राप्त अंकों का औसत 24 है। यदि छठे छात्र के अंक (36) भी जोड़ दिए जाएं, तो नया औसत क्या होगा?", mr: "गणिताच्या परीक्षेत 5 विद्यार्थ्यांनी मिळवलेल्या गुणांची सरासरी 24 आहे. जर सहाव्या विद्यार्थ्याचे गुण (36) त्यात मिळवले, तर नवी सरासरी किती होईल?" },
     optionsJson: [
       { en: "25", hi: "25", mr: "25" },
@@ -50,7 +48,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "arithmetic",
     difficulty: "HARD",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Divide ₹1,200 among A, B, and C in the ratio 2 : 3 : 5. Find the share of B.", hi: "₹1,200 को A, B और C के बीच 2 : 3 : 5 के अनुपात में विभाजित कीजिए। B का हिस्सा ज्ञात कीजिए।", mr: "₹1,200 हे A, B आणि C यांच्यामध्ये 2 : 3 : 5 या प्रमाणात विभागा. B चा वाटा काढा." },
     optionsJson: [
       { en: "₹240", hi: "₹240", mr: "₹240" },
@@ -68,7 +65,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mental_ability",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Find the next letter in the series: B, E, H, K, ?", hi: "श्रृंखला में अगला अक्षर ज्ञात कीजिए: B, E, H, K, ?", mr: "श्रेणीतील पुढील अक्षर शोधा: B, E, H, K, ?" },
     optionsJson: [
       { en: "M", hi: "M", mr: "M" },
@@ -86,7 +82,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mental_ability",
     difficulty: "MEDIUM",
-    reviewStatus: "DRAFT",
     questionJson: { en: "If '+' means 'x' and '-' means '+', evaluate: 15 + 4 - 10.", hi: "यदि '+' का अर्थ 'x' और '-' का अर्थ '+' है, तो हल करें: 15 + 4 - 10।", mr: "जर '+' चा अर्थ 'x' आणि '-' चा अर्थ '+' असेल, तर सोडवा: 15 + 4 - 10." },
     optionsJson: [
       { en: "70", hi: "70", mr: "70" },
@@ -104,7 +99,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "language",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Choose the correct form of the verb: 'She _____ to school on foot every morning.'", hi: "क्रिया का सही रूप चुनें: 'She _____ to school on foot every morning.'", mr: "क्रियापदाचे योग्य रूप निवडा: 'She _____ to school on foot every morning.'" },
     optionsJson: [
       { en: "go", hi: "go", mr: "go" },
@@ -122,7 +116,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "language",
     difficulty: "MEDIUM",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Give a one-word substitution for: 'A person who looks at the bright side of things.'", hi: "वाक्यांश के लिए एक शब्द चुनें: 'वह व्यक्ति जो चीज़ों के उज्ज्वल पक्ष को देखता है।'", mr: "खालील वाक्यांशासाठी एक शब्द सांगा: 'अशी व्यक्ती जी गोष्टींची चांगली बाजू पाहते.'" },
     optionsJson: [
       { en: "Pessimist", hi: "निराशावादी", mr: "निराशावादी" },
@@ -140,7 +133,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "general_knowledge",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Which river is known as the 'Sorrow of Bengal' due to its devastating historical floods?", hi: "ऐतिहासिक विनाशकारी बाढ़ों के कारण किस नदी को 'बंगाल का शोक' कहा जाता है?", mr: "इतिहासातील विनाशकारी पुरांमुळे कोणत्या नदीला 'बंगालचे दुःख' म्हटले जाते?" },
     optionsJson: [
       { en: "Damodar River", hi: "दामोदर नदी", mr: "दामोदर नदी" },
@@ -158,7 +150,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "general_knowledge",
     difficulty: "MEDIUM",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Who among the following was the Chairman of the Drafting Committee of the Indian Constitution?", hi: "निम्नलिखित में से कौन भारतीय संविधान की प्रारूप समिति (Drafting Committee) के अध्यक्ष थे?", mr: "खालीलपैकी कोण भारतीय संविधानाच्या मसुदा समितीचे (Drafting Committee) अध्यक्ष होते?" },
     optionsJson: [
       { en: "Dr. Rajendra Prasad", hi: "डॉ. राजेंद्र प्रसाद", mr: "डॉ. राजेंद्र प्रसाद" },
@@ -176,7 +167,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "general_knowledge",
     difficulty: "HARD",
-    reviewStatus: "DRAFT",
     questionJson: { en: "The prestigious 'Durand Cup' is associated with which sport in India?", hi: "भारत में प्रसिद्ध 'डूरंड कप' (Durand Cup) किस खेल से संबंधित है?", mr: "भारतातील प्रतिष्ठित 'डूरंड कप' (Durand Cup) कोणत्या खेळाशी संबंधित आहे?" },
     optionsJson: [
       { en: "Cricket", hi: "क्रिकेट", mr: "क्रिकेट" },

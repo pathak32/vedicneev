@@ -14,7 +14,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mathematics",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Find the compound interest on ₹10,000 at 10% per annum for 2 years compounded annually.", hi: "₹10,000 पर 10% वार्षिक दर से 2 वर्षों के लिए चक्रवृद्धि ब्याज (Compound Interest) ज्ञात कीजिए।" },
     optionsJson: [
       { en: "₹2,000", hi: "₹2,000" },
@@ -32,7 +31,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mathematics",
     difficulty: "MEDIUM",
-    reviewStatus: "DRAFT",
     questionJson: { en: "The interior angles of a pentagon are in the ratio 1 : 2 : 3 : 4 : 5. What is the measure of the largest interior angle?", hi: "एक पंचभुज (Pentagon) के आंतरिक कोणों का अनुपात 1 : 2 : 3 : 4 : 5 है। सबसे बड़े आंतरिक कोण का माप क्या है?" },
     optionsJson: [
       { en: "144°", hi: "144°" },
@@ -50,7 +48,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mathematics",
     difficulty: "HARD",
-    reviewStatus: "DRAFT",
     questionJson: { en: "A metallic sphere of radius 6 cm is melted and recast into small solid cones of base radius 3 cm and height 2 cm. Find the number of cones formed.", hi: "6 सेमी त्रिज्या वाले धातु के एक गोले को पिघलाकर 3 सेमी आधार त्रिज्या और 2 सेमी ऊंचाई वाले छोटे ठोस शंकुओं में ढाला जाता है। निर्मित शंकुओं की संख्या ज्ञात कीजिए।" },
     optionsJson: [
       { en: "24", hi: "24" },
@@ -68,7 +65,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mental_ability",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: { en: "If 'MILK' is coded as '13-9-12-11' based on English alphabetical order, how is 'WATER' coded?", hi: "यदि अंग्रेजी वर्णमाला के क्रम के अनुसार 'MILK' को '13-9-12-11' के रूप में कोडित किया गया है, तो 'WATER' को कैसे कोडित किया जाएगा?" },
     optionsJson: [
       { en: "23-1-20-5-18", hi: "23-1-20-5-18" },
@@ -86,7 +82,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mental_ability",
     difficulty: "MEDIUM",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Statements: 'All apples are fruits. All fruits are healthy.' Which conclusion is DEFINITELY TRUE?", hi: "कथन: 'सभी सेब फल हैं। सभी फल स्वस्थ हैं।' कौन सा निष्कर्ष निश्चित रूप से सत्य है?" },
     optionsJson: [
       { en: "All healthy items are apples.", hi: "सभी स्वस्थ वस्तुएं सेब हैं।" },
@@ -104,7 +99,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "science",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Which Newton's Law of Motion explains the recoil of a gun when a bullet is fired from it?", hi: "न्यूटन के गति का कौन सा नियम बंदूक से गोली चलाए जाने पर बंदूक के पीछे हटने (Recoil) की व्याख्या करता है?" },
     optionsJson: [
       { en: "First Law of Motion", hi: "गति का प्रथम नियम" },
@@ -122,7 +116,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "science",
     difficulty: "MEDIUM",
-    reviewStatus: "DRAFT",
     questionJson: { en: "What gas is evolved at the anode (positive electrode) during the electrolysis of acidified water?", hi: "अम्लीकृत जल के विद्युत अपघटन (Electrolysis) के दौरान ऐनोड (धनात्मक इलेक्ट्रोड) पर कौन सी गैस निकलती है?" },
     optionsJson: [
       { en: "Hydrogen gas", hi: "हाइड्रोजन गैस" },
@@ -140,7 +133,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "general_knowledge",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Who led the famous Dandi Salt March in March 1930 against the British salt monopoly?", hi: "मार्च 1930 में ब्रिटिश नमक एकाधिकार के खिलाफ प्रसिद्ध दांडी नमक मार्च का नेतृत्व किसने किया था?" },
     optionsJson: [
       { en: "Subhash Chandra Bose", hi: "सुभाष चंद्र बोस" },
@@ -158,7 +150,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "general_knowledge",
     difficulty: "MEDIUM",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Where is the headquarters of the United Nations Educational, Scientific and Cultural Organization (UNESCO) situated?", hi: "संयुक्त राष्ट्र शैक्षिक, वैज्ञानिक एवं सांस्कृतिक संगठन (UNESCO) का मुख्यालय कहाँ स्थित है?" },
     optionsJson: [
       { en: "Geneva, Switzerland", hi: "जेनेवा, स्विट्जरलैंड" },
@@ -176,7 +167,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "general_knowledge",
     difficulty: "HARD",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Which ISRO mission successfully landed the 'Vikram' lander and 'Pragyan' rover near the lunar South Pole in August 2023?", hi: "किस इसरो (ISRO) मिशन ने अगस्त 2023 में चंद्रमा के दक्षिणी ध्रुव के पास 'विक्रम' लैंडर और 'प्रज्ञान' रोवर को सफलतापूर्वक उतारा?" },
     optionsJson: [
       { en: "Chandrayaan-1", hi: "चंद्रयान-1" },

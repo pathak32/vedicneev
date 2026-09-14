@@ -19,7 +19,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mental_ability",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: {
       en: "Four word-pairs are given below. Three of them are alike in a certain way, while one is different. Find the odd one out.",
       hi: "नीचे चार शब्द-युग्म दिए गए हैं। इनमें से तीन किसी तरह समान हैं, जबकि एक अलग है। विषम को चुनें।",
@@ -45,7 +44,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mental_ability",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: {
       en: "Select the option that completes the analogy: Newspaper : Press :: Cloth : ?",
       hi: "उस विकल्प का चयन करें जो सादृश्यता को पूरा करता है: समाचार पत्र : प्रेस :: कपड़ा : ?",
@@ -71,7 +69,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mental_ability",
     difficulty: "MEDIUM",
-    reviewStatus: "DRAFT",
     questionJson: {
       en: "Find the missing number in the series: 3, 7, 15, 31, 63, ?",
       hi: "श्रृंखला में लुप्त संख्या ज्ञात कीजिए: 3, 7, 15, 31, 63, ?",
@@ -97,7 +94,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mental_ability",
     difficulty: "HARD",
-    reviewStatus: "DRAFT",
     questionJson: {
       // Fixed in review: was "coded as '39'" — inconsistent with the
       // sum-of-alphabet-positions rule (M+N+T = 13+14+20 = 47), which the
@@ -126,7 +122,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "arithmetic",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: {
       en: "Find the HCF (Highest Common Factor) of 24 and 36.",
       hi: "24 और 36 का म.स.प. (HCF) ज्ञात कीजिए।",
@@ -152,7 +147,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "arithmetic",
     difficulty: "MEDIUM",
-    reviewStatus: "DRAFT",
     questionJson: {
       en: "What is the value of 3/4 + 5/6 - 1/3?",
       hi: "3/4 + 5/6 - 1/3 का मान क्या है?",
@@ -178,7 +172,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "arithmetic",
     difficulty: "HARD",
-    reviewStatus: "DRAFT",
     questionJson: {
       en: "A shopkeeper buys an article for ₹400 and sells it for ₹500. Find his profit percentage.",
       hi: "एक दुकानदार ₹400 में एक वस्तु खरीदता है और उसे ₹500 में बेचता है। उसका लाभ प्रतिशत ज्ञात कीजिए।",
@@ -204,7 +197,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "language",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: {
       en: "Choose the correct synonym of the word 'ANCIENT'.",
       hi: "'ANCIENT' (प्राचीन) शब्द का सही पर्यायवाची चुनें।",
@@ -230,7 +222,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "language",
     difficulty: "MEDIUM",
-    reviewStatus: "DRAFT",
     questionJson: {
       en: "What is the opposite (antonym) of the word 'BRAVE'?",
       hi: "'BRAVE' (साहसी) शब्द का विलोम (विपरीतार्थक) शब्द क्या है?",
@@ -256,7 +247,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "language",
     difficulty: "HARD",
-    reviewStatus: "DRAFT",
     questionJson: {
       en: "Choose one word for: 'A person who looks at the positive side of things'.",
       hi: "'जो व्यक्ति चीजों के सकारात्मक पहलू को देखता है' के लिए एक शब्द चुनें।",

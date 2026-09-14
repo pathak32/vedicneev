@@ -14,7 +14,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mathematics",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: { en: "What is the smallest natural number by which 392 must be multiplied so that the product becomes a perfect cube?", hi: "वह सबसे छोटी प्राकृतिक संख्या कौन सी है जिससे 392 को गुणा करने पर गुणनफल एक पूर्ण घन बन जाए?" },
     optionsJson: [
       { en: "2", hi: "2" },
@@ -32,7 +31,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mathematics",
     difficulty: "MEDIUM",
-    reviewStatus: "DRAFT",
     questionJson: { en: "If (x + 1/x) = 5, find the value of (x^2 + 1/x^2).", hi: "यदि (x + 1/x) = 5 है, तो (x^2 + 1/x^2) का मान ज्ञात कीजिए।" },
     optionsJson: [
       { en: "23", hi: "23" },
@@ -50,7 +48,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mathematics",
     difficulty: "HARD",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Factorise completely: 4a^2 - 12ab + 9b^2 - 16c^2.", hi: "पूर्ण गुणनखंड कीजिए: 4a^2 - 12ab + 9b^2 - 16c^2।" },
     optionsJson: [
       { en: "(2a - 3b - 4c)(2a - 3b + 4c)", hi: "(2a - 3b - 4c)(2a - 3b + 4c)" },
@@ -68,7 +65,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "science",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Which non-metal is stored under water to prevent it from reacting with atmospheric oxygen?", hi: "किस अधातु को वायुमंडलीय ऑक्सीजन के साथ प्रतिक्रिया करने से रोकने के लिए पानी के नीचे संग्रहित किया जाता है?" },
     optionsJson: [
       { en: "Sodium", hi: "सोडियम" },
@@ -86,7 +82,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "science",
     difficulty: "MEDIUM",
-    reviewStatus: "DRAFT",
     questionJson: { en: "The frequency of a sound wave determines which characteristic of sound?", hi: "ध्वनि तरंग की आवृत्ति (Frequency) ध्वनि की किस विशेषता को निर्धारित करती है?" },
     optionsJson: [
       { en: "Loudness", hi: "प्रबलता (Loudness)" },
@@ -104,7 +99,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "science",
     difficulty: "HARD",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Which zone of a candle flame is the hottest and undergoes complete combustion?", hi: "मोमबत्ती की लौ का कौन सा क्षेत्र सबसे गर्म होता है और जहाँ पूर्ण दहन होता है?" },
     optionsJson: [
       { en: "Innermost Dark Zone", hi: "आंतरिक काला क्षेत्र" },
@@ -122,7 +116,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "social_science",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: { en: "In which vegetation zone are coniferous trees like Chir, Pine, and Deodar predominantly found?", hi: "चीड़ (Chir), पाइन (Pine) और देवदार (Deodar) जैसे शंकुधारी वृक्ष मुख्य रूप से किस वनस्पति क्षेत्र में पाए जाते हैं?" },
     optionsJson: [
       { en: "Tropical Rainforests", hi: "उष्णकटिबंधीय वर्षावन" },
@@ -140,7 +133,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "social_science",
     difficulty: "MEDIUM",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Which is the apex judicial body in India whose decisions are binding on all other courts across the nation?", hi: "भारत में शीर्ष न्यायिक संस्था कौन सी है जिसके फैसले देश की अन्य सभी अदालतों पर बाध्यकारी होते हैं?" },
     optionsJson: [
       { en: "High Court", hi: "उच्च न्यायालय" },
@@ -158,7 +150,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "social_science",
     difficulty: "HARD",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Birsa Munda led a famous tribal uprising against British land policies and local zamindars in which region of India?", hi: "बिरसा मुंडा ने भारत के किस क्षेत्र में ब्रिटिश भू-नीतियों और स्थानीय ज़मींदारों के खिलाफ प्रसिद्ध आदिवासी विद्रोह का नेतृत्व किया था?" },
     optionsJson: [
       { en: "Santhal Parganas", hi: "संथाल परगना" },
@@ -176,7 +167,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mathematics",
     difficulty: "MEDIUM",
-    reviewStatus: "DRAFT",
     questionJson: { en: "12 workers can build a wall in 8 days. How many days will 16 workers take to build the exact same wall working at the same pace?", hi: "12 मजदूर एक दीवार को 8 दिनों में बना सकते हैं। उसी दीवार को उसी गति से बनाने में 16 मजदूरों को कितना समय लगेगा?" },
     optionsJson: [
       { en: "5 days", hi: "5 दिन" },

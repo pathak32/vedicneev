@@ -14,7 +14,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "arithmetic",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Write the Roman numeral representation for the number 94.", hi: "संख्या 94 के लिए प्रयुक्त होने वाली रोमन संख्यांक (Roman Numeral) लिखिए।", mr: "संख्या 94 साठी रोमन अंक (Roman Numeral) लिहा." },
     optionsJson: [
       { en: "LXIV", hi: "LXIV", mr: "LXIV" },
@@ -32,7 +31,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "arithmetic",
     difficulty: "MEDIUM",
-    reviewStatus: "DRAFT",
     questionJson: { en: "A shopkeeper bought a bicycle for ₹2,500 and spent ₹300 on its repair. He then sold it for ₹3,220. Find his profit percentage.", hi: "एक दुकानदार ने ₹2,500 में एक साइकिल खरीदी और उसकी मरम्मत पर ₹300 खर्च किए। उसने इसे ₹3,220 में बेच दिया। उसका लाभ प्रतिशत ज्ञात कीजिए।", mr: "एका दुकानदाराने ₹2,500 मध्ये एक सायकल विकत घेतली आणि तिच्या दुरुस्तीसाठी ₹300 खर्च केले. त्यानंतर त्याने ती ₹3,220 मध्ये विकली. त्याचा नफा टक्केवारी काढा." },
     optionsJson: [
       { en: "10%", hi: "10%", mr: "10%" },
@@ -50,7 +48,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "arithmetic",
     difficulty: "HARD",
-    reviewStatus: "DRAFT",
     questionJson: { en: "A train 180 meters long is running at a speed of 54 km/h. How many seconds will it take to cross a railway platform 220 meters long?", hi: "180 मीटर लंबी एक ट्रेन 54 किमी/घंटा की गति से चल रही है। 220 मीटर लंबे रेलवे प्लेटफॉर्म को पार करने में इसे कितने सेकंड का समय लगेगा?", mr: "180 मीटर लांबीची एक रेल्वे 54 किमी/तास वेगाने धावत आहे. 220 मीटर लांबीचा रेल्वे प्लॅटफॉर्म ओलांडण्यासाठी तिला किती सेकंद लागतील?" },
     optionsJson: [
       { en: "20 seconds", hi: "20 सेकंड", mr: "20 सेकंद" },
@@ -68,7 +65,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mental_ability",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: { en: "A boy walks 10 meters towards East, then turns right and walks 5 meters. In which direction is he facing now?", hi: "एक लड़का पूर्व दिशा की ओर 10 मीटर चलता है, फिर दाईं ओर मुड़ता है और 5 मीटर चलता है। अब उसका मुख किस दिशा में है?", mr: "एक मुलगा पूर्व दिशेला 10 मीटर चालतो, नंतर उजवीकडे वळून 5 मीटर चालतो. आता त्याचे तोंड कोणत्या दिशेला आहे?" },
     optionsJson: [
       { en: "North", hi: "उत्तर", mr: "उत्तर" },
@@ -86,7 +82,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mental_ability",
     difficulty: "MEDIUM",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Pointing to a man, Neha said, 'His mother is the only daughter of my mother.' How is Neha related to the man?", hi: "एक आदमी की ओर इशारा करते हुए नेहा ने कहा, 'उसकी माँ मेरी माँ की इकलौती बेटी है।' नेहा का उस आदमी से क्या संबंध है?", mr: "एका माणसाकडे बोट दाखवत नेहा म्हणाली, 'त्याची आई माझ्या आईची एकुलती एक मुलगी आहे.' नेहाचा त्या माणसाशी काय संबंध आहे?" },
     optionsJson: [
       { en: "Sister", hi: "बहन", mr: "बहीण" },
@@ -104,7 +99,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "language",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Fill in the blank with the appropriate preposition: 'The cat jumped _____ the kitchen table.'", hi: "उचित प्रीपोजिशन (Preposition) से रिक्त स्थान भरें: 'The cat jumped _____ the kitchen table.'", mr: "योग्य प्रीपोझिशन (Preposition) वापरून रिकामी जागा भरा: 'The cat jumped _____ the kitchen table.'" },
     optionsJson: [
       { en: "in", hi: "in", mr: "in" },
@@ -122,7 +116,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "language",
     difficulty: "MEDIUM",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Select the correct meaning of the underlined idiom: 'His unexpected visit was a <u>bolt from the blue</u>.'", hi: "रेखांकित मुहावरे का सही अर्थ चुनें: 'His unexpected visit was a <u>bolt from the blue</u>.'", mr: "अधोरेखित वाक्प्रचाराचा (idiom) योग्य अर्थ निवडा: 'His unexpected visit was a <u>bolt from the blue</u>.'" },
     optionsJson: [
       { en: "A sudden and shocking event", hi: "अचानक और स्तब्ध करने वाली घटना", mr: "अचानक आणि धक्कादायक घटना" },
@@ -140,7 +133,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "general_knowledge",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: { en: "In which city is the National Defence Academy (NDA) situated?", hi: "राष्ट्रीय रक्षा अकादमी (NDA) किस शहर में स्थित है?", mr: "राष्ट्रीय संरक्षण प्रबोधिनी (NDA) कोणत्या शहरात आहे?" },
     optionsJson: [
       { en: "Dehradun", hi: "देहरादून", mr: "डेहराडून" },
@@ -158,7 +150,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "general_knowledge",
     difficulty: "MEDIUM",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Deficiency of which vitamin causes the disease known as 'Scurvy'?", hi: "किस विटामिन की कमी से 'स्कर्वी' (Scurvy) नामक बीमारी होती है?", mr: "कोणत्या व्हिटॅमिनच्या कमतरतेमुळे 'स्कर्व्ही' (Scurvy) हा रोग होतो?" },
     optionsJson: [
       { en: "Vitamin A", hi: "विटामिन A", mr: "व्हिटॅमिन A" },
@@ -176,7 +167,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "general_knowledge",
     difficulty: "HARD",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Which famous UNESCO World Heritage Monument in Delhi was built by Sultan Qutb-ud-din Aibak starting in 1199 AD?", hi: "दिल्ली में स्थित किस प्रसिद्ध यूनेस्को विश्व धरोहर स्मारक का निर्माण 1199 ई. में सुल्तान कुतुबुद्दीन ऐबक द्वारा शुरू करवाया गया था?", mr: "दिल्लीमधील कोणत्या प्रसिद्ध युनेस्को जागतिक वारसा स्मारकाचे बांधकाम सुलतान कुतुबुद्दीन ऐबकने इ.स. 1199 मध्ये सुरू केले?" },
     optionsJson: [
       { en: "Red Fort", hi: "लाल किला", mr: "लाल किल्ला" },

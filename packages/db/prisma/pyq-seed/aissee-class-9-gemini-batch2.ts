@@ -14,7 +14,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mathematics",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Find the remainder when the polynomial x^3 - 3x^2 + 4x - 5 is divided by (x - 1).", hi: "बहुपद x^3 - 3x^2 + 4x - 5 को (x - 1) से विभाजित करने पर शेषफल ज्ञात कीजिए।" },
     optionsJson: [
       { en: "-3", hi: "-3" },
@@ -32,7 +31,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mathematics",
     difficulty: "MEDIUM",
-    reviewStatus: "DRAFT",
     questionJson: { en: "A fair die with faces numbered 1 to 6 is rolled once. What is the probability of getting a prime number?", hi: "1 से 6 तक फलकों वाला एक निष्पक्ष पासा फेंका जाता है। अभाज्य संख्या (Prime Number) आने की प्रायिकता क्या है?" },
     optionsJson: [
       { en: "1/6", hi: "1/6" },
@@ -50,7 +48,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mathematics",
     difficulty: "HARD",
-    reviewStatus: "DRAFT",
     questionJson: { en: "The hypotenuse of a right-angled triangle is 25 cm. If one of the remaining sides is 7 cm, find the area of the triangle.", hi: "एक समकोण त्रिभुज का कर्ण 25 सेमी है। यदि शेष भुजाओं में से एक भुजा 7 सेमी है, तो त्रिभुज का क्षेत्रफल ज्ञात कीजिए।" },
     optionsJson: [
       { en: "84 cm^2", hi: "84 सेमी^2" },
@@ -68,7 +65,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mental_ability",
     difficulty: "MEDIUM",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Five students A, B, C, D, and E are sitting in a row facing North. C is sitting in the middle. A is to the immediate left of C. E is at the extreme right end. Who is sitting between C and E?", hi: "पांच छात्र A, B, C, D और E उत्तर की ओर मुख करके एक पंक्ति में बैठे हैं। C बीच में बैठा है। A, C के तुरंत बाईं ओर है। E सुदूर दाहिने छोर पर है। C और E के बीच में कौन बैठा है?" },
     optionsJson: [
       { en: "B", hi: "B" },
@@ -86,7 +82,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mental_ability",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Seismograph : Earthquake :: Anemometer : ?", hi: "सिस्मोग्राफ : भूकम्प :: एनेमोमीटर : ?" },
     optionsJson: [
       { en: "Atmospheric Pressure", hi: "वायुमंडलीय दाब" },
@@ -104,7 +99,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "science",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Which synthetic polymer is a thermosetting plastic that is a poor conductor of heat and electricity, widely used for making electrical switches?", hi: "कौन सा संश्लेषित बहुलक थर्मोसेटिंग प्लास्टिक का उदाहरण है जो ऊष्मा और बिजली का कुचालक है तथा बिजली के स्विच बनाने में व्यापक रूप से उपयोग होता है?" },
     optionsJson: [
       { en: "Polyethylene", hi: "पॉलीथीन" },
@@ -122,7 +116,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "science",
     difficulty: "HARD",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Two plane mirrors are placed parallel to each other at a distance. How many images of an object placed between them will be formed?", hi: "दो समतल दर्पणों को एक-दूसरे के समानांतर रखा गया है। उनके बीच रखी किसी वस्तु के कितने प्रतिबिंब बनेंगे?" },
     optionsJson: [
       { en: "2", hi: "2" },
@@ -140,7 +133,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "general_knowledge",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: { en: "What is the traditional indigenous agricultural practice of slash-and-burn farming known as in the North-Eastern region of India?", hi: "भारत के पूर्वोत्तर क्षेत्र में 'कर्तन एवं दहन' (Slash-and-burn) कृषि की पारंपरिक स्वदेशी पद्धति को किस नाम से जाना जाता है?" },
     optionsJson: [
       { en: "Jhum Cultivation", hi: "झूम खेती (Jhum)" },
@@ -158,7 +150,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "general_knowledge",
     difficulty: "MEDIUM",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Who acts as the ex-officio Chairman of the Rajya Sabha (Upper House of Indian Parliament)?", hi: "राज्यसभा (भारतीय संसद के उच्च सदन) के पदेन सभापति (Ex-officio Chairman) के रूप में कौन कार्य करता है?" },
     optionsJson: [
       { en: "President of India", hi: "भारत के राष्ट्रपति" },
@@ -176,7 +167,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "general_knowledge",
     difficulty: "HARD",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Project Tiger was launched by the Government of India in which year to promote tiger conservation?", hi: "बाघ संरक्षण को बढ़ावा देने के लिए भारत सरकार द्वारा 'प्रोजेक्ट टाइगर' (Project Tiger) किस वर्ष शुरू किया गया था?" },
     optionsJson: [
       { en: "1951", hi: "1951" },

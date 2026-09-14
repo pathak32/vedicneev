@@ -20,7 +20,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mathematics",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Find the simplified value of (2/3)^(-3) * (2/3)^(5).", hi: "(2/3)^(-3) * (2/3)^(5) का सरलीकृत मान ज्ञात कीजिए।" },
     optionsJson: [
       { en: "4/9", hi: "4/9" },
@@ -38,7 +37,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mathematics",
     difficulty: "MEDIUM",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Solve for x: (3x + 5) / 2 = (2x + 8) / 3.", hi: "x का मान ज्ञात कीजिए: (3x + 5) / 2 = (2x + 8) / 3।" },
     optionsJson: [
       { en: "x = 1", hi: "x = 1" },
@@ -56,7 +54,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mathematics",
     difficulty: "HARD",
-    reviewStatus: "DRAFT",
     questionJson: { en: "The diagonals of a rhombus are 16 cm and 12 cm long. Find the length of each side of the rhombus.", hi: "एक समचतुर्भुज (Rhombus) के विकर्णों की लंबाई 16 सेमी और 12 सेमी है। समचतुर्भुज की प्रत्येक भुजा की लंबाई ज्ञात कीजिए।" },
     optionsJson: [
       { en: "8 cm", hi: "8 सेमी" },
@@ -74,7 +71,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "science",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Which organelle is known as the 'Powerhouse of the Cell'?", hi: "किस कोशिकांग (Cell Organelle) को 'कोशिका का पावरहाउस' कहा जाता है?" },
     optionsJson: [
       { en: "Ribosome", hi: "राइबोसोम" },
@@ -92,7 +88,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "science",
     difficulty: "MEDIUM",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Which type of friction comes into play when one body rolls over the surface of another body?", hi: "जब एक पिंड दूसरे पिंड की सतह पर लुढ़कता है, तो किस प्रकार का घर्षण बल कार्य करता है?" },
     optionsJson: [
       { en: "Static Friction", hi: "स्थैतिक घर्षण" },
@@ -110,7 +105,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "science",
     difficulty: "HARD",
-    reviewStatus: "DRAFT",
     questionJson: { en: "During the electroplating of copper onto an iron key, which electrode should the iron key be attached to?", hi: "लोहे की चाबी पर तांबे (कॉपर) का विद्युत लेपन करते समय लोहे की चाबी को किस इलेक्ट्रोड से जोड़ा जाना चाहिए?" },
     optionsJson: [
       { en: "Positive Terminal (Anode)", hi: "धनात्मक टर्मिनल (ऐनोड)" },
@@ -128,7 +122,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "social_science",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Which Right under the Indian Constitution guarantees freedom against discrimination on grounds of religion, race, caste, sex, or place of birth?", hi: "भारतीय संविधान का कौन सा अधिकार धर्म, मूलवंश, जाति, लिंग या जन्म स्थान के आधार पर भेदभाव के खिलाफ स्वतंत्रता की गारंटी देता है?" },
     optionsJson: [
       { en: "Right to Equality", hi: "समता का अधिकार" },
@@ -146,7 +139,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "social_science",
     difficulty: "MEDIUM",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Who led the Revolt of 1857 in Kanpur?", hi: "कानपुर में 1857 के विद्रोह का नेतृत्व किसने किया था?" },
     optionsJson: [
       { en: "Rani Lakshmibai", hi: "रानी लक्ष्मीबाई" },
@@ -164,7 +156,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "social_science",
     difficulty: "HARD",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Which soil type, also known as 'Regur Soil', is ideal for growing cotton crops in India?", hi: "किस मिट्टी को 'रेगुर मिट्टी' के नाम से भी जाना जाता है और जो भारत में कपास की खेती के लिए सबसे उपयुक्त है?" },
     optionsJson: [
       { en: "Alluvial Soil", hi: "जलोढ़ मिट्टी" },
@@ -182,7 +173,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mathematics",
     difficulty: "MEDIUM",
-    reviewStatus: "DRAFT",
     questionJson: { en: "An item marked at ₹800 is sold for ₹680. What is the discount percentage offered?", hi: "₹800 के अंकित मूल्य वाली वस्तु को ₹680 में बेचा जाता है। दी जाने वाली छूट का प्रतिशत क्या है?" },
     optionsJson: [
       { en: "12%", hi: "12%" },

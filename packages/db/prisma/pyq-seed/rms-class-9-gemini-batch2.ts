@@ -20,7 +20,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mathematics",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Find the range of the given data set: 14, 25, 38, 9, 42, 18, 31.", hi: "दिए गए डेटा सेट का परास (Range) ज्ञात कीजिए: 14, 25, 38, 9, 42, 18, 31।" },
     optionsJson: [
       { en: "31", hi: "31" },
@@ -38,7 +37,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mathematics",
     difficulty: "MEDIUM",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Find the square root of 0.000529.", hi: "0.000529 का वर्गमूल (Square Root) ज्ञात कीजिए।" },
     optionsJson: [
       { en: "0.023", hi: "0.023" },
@@ -56,7 +54,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mathematics",
     difficulty: "HARD",
-    reviewStatus: "DRAFT",
     questionJson: { en: "A circular racetrack has an inner radius of 14 m and an outer radius of 21 m. Find the area of the track path.", hi: "एक वृत्ताकार रेसट्रैक की आंतरिक त्रिज्या 14 मीटर और बाहरी त्रिज्या 21 मीटर है। ट्रैक का क्षेत्रफल ज्ञात कीजिए।" },
     optionsJson: [
       { en: "770 m^2", hi: "770 मीटर^2" },
@@ -74,7 +71,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mental_ability",
     difficulty: "MEDIUM",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Which geometric relationship best represents the categories: 'Planes, Aircrafts, Helicopters'?", hi: "कौन सा तार्किक आरेख श्रेणियों का सबसे अच्छा प्रतिनिधित्व करता है: 'विमान (Aircrafts), हवाई जहाज़ (Planes), और हेलीकॉप्टर'?" },
     optionsJson: [
       { en: "Two non-overlapping circles inside one larger outer circle", hi: "एक बड़े बाहरी वृत्त के अंदर दो गैर-अतिव्यापी वृत्त" },
@@ -92,7 +88,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mental_ability",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: { en: "When a vertical mirror is placed on the right of the word 'NAVY', what is the reversed letter sequence of its mirror image?", hi: "जब 'NAVY' शब्द के दाईं ओर एक लंबवत दर्पण रखा जाता है, तो इसकी दर्पण छवि (Mirror Image) का अक्षर क्रम क्या होगा?" },
     optionsJson: [
       { en: "YVAN", hi: "YVAN (दर्पण परावर्तित अक्षरों के साथ)" },
@@ -110,7 +105,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "science",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Which soft alkali metal can be easily cut with a butter knife and is stored in kerosene oil?", hi: "कौन सी मुलायम क्षार धातु चाकू से आसानी से काटी जा सकती है और इसे मिट्टी के तेल (केरोसिन) में रखा जाता है?" },
     optionsJson: [
       { en: "Iron", hi: "लोहा" },
@@ -128,7 +122,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "science",
     difficulty: "MEDIUM",
-    reviewStatus: "DRAFT",
     questionJson: { en: "What is the SI unit of Pressure equal to one Newton per square meter (1 N/m^2)?", hi: "एक न्यूटन प्रति वर्ग मीटर (1 N/m^2) के बराबर दाब (Pressure) का SI मात्रक क्या है?" },
     optionsJson: [
       { en: "Joule", hi: "जूल" },
@@ -146,7 +139,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "general_knowledge",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Which is the highest mountain peak located entirely within India?", hi: "पूर्णतः भारत के भीतर स्थित सबसे ऊंची पर्वत चोटी कौन सी है?" },
     optionsJson: [
       { en: "K2 (Godwin-Austen)", hi: "के2 (गॉडविन-ऑस्टिन)" },
@@ -164,7 +156,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "general_knowledge",
     difficulty: "MEDIUM",
-    reviewStatus: "DRAFT",
     questionJson: { en: "What is the name of the official aerobatic formation display team of the Indian Air Force?", hi: "भारतीय वायु सेना की आधिकारिक एरोबेटिक फॉर्मेशन डिस्प्ले टीम का क्या नाम है?" },
     optionsJson: [
       { en: "Sarang", hi: "सारंग" },
@@ -182,7 +173,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "general_knowledge",
     difficulty: "HARD",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Fundamental Duties were added to Part IV-A of the Indian Constitution by which Constitutional Amendment Act in 1976?", hi: "1976 में किस संवैधानिक संशोधन अधिनियम द्वारा भारतीय संविधान के भाग IV-A में मौलिक कर्तव्यों को जोड़ा गया था?" },
     optionsJson: [
       { en: "42nd Constitutional Amendment", hi: "42वां संविधान संशोधन" },

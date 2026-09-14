@@ -14,7 +14,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "arithmetic",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Simplify using BODMAS rule: 50 - [20 + {15 - (8 - 3)}].", hi: "BODMAS नियम का उपयोग करके सरल कीजिए: 50 - [20 + {15 - (8 - 3)}]।", mr: "BODMAS नियम वापरून सुलभ करा: 50 - [20 + {15 - (8 - 3)}]." },
     optionsJson: [
       { en: "20", hi: "20", mr: "20" },
@@ -32,7 +31,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "arithmetic",
     difficulty: "MEDIUM",
-    reviewStatus: "DRAFT",
     questionJson: { en: "In a school with 600 students, 45% are girls. How many boys are there in the school?", hi: "600 छात्रों वाले एक स्कूल में 45% लड़कियां हैं। स्कूल में लड़कों की संख्या कितनी है?", mr: "600 विद्यार्थी असलेल्या एका शाळेत 45% मुली आहेत. शाळेत मुलांची संख्या किती आहे?" },
     optionsJson: [
       { en: "270", hi: "270", mr: "270" },
@@ -50,7 +48,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "arithmetic",
     difficulty: "HARD",
-    reviewStatus: "DRAFT",
     questionJson: { en: "If 15 pens cost ₹225, how much will 24 such pens cost?", hi: "यदि 15 पेन का मूल्य ₹225 है, तो ऐसे ही 24 पेन का मूल्य कितना होगा?", mr: "जर 15 पेनांची किंमत ₹225 असेल, तर तशाच 24 पेनांची किंमत किती असेल?" },
     optionsJson: [
       { en: "₹320", hi: "₹320", mr: "₹320" },
@@ -68,7 +65,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mental_ability",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Rohan ranks 7th from the top and 26th from the bottom in a class. How many total students are there in the class?", hi: "रोहन एक कक्षा में ऊपर से 7वें और नीचे से 26वें स्थान पर है। कक्षा में कुल कितने छात्र हैं?", mr: "रोहन एका वर्गात वरून 7व्या आणि खालून 26व्या क्रमांकावर आहे. वर्गात एकूण किती विद्यार्थी आहेत?" },
     optionsJson: [
       { en: "31", hi: "31", mr: "31" },
@@ -86,7 +82,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mental_ability",
     difficulty: "MEDIUM",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Archers : Bow :: Soldiers : ?", hi: "धनुर्धर : धनुष :: सैनिक : ?", mr: "धनुर्धारी : धनुष्य :: सैनिक : ?" },
     optionsJson: [
       { en: "Bullet", hi: "गोली", mr: "गोळी" },
@@ -104,7 +99,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "language",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Choose the correct comparative degree of adjective: 'Prevention is _____ than cure.'", hi: "विशेषण की सही तुलनात्मक डिग्री (Comparative Degree) चुनें: 'Prevention is _____ than cure.'", mr: "विशेषणाची योग्य तुलनात्मक पदवी (Comparative Degree) निवडा: 'Prevention is _____ than cure.'" },
     optionsJson: [
       { en: "good", hi: "good", mr: "good" },
@@ -122,7 +116,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "language",
     difficulty: "MEDIUM",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Identify the CORRECTLY spelt word among the given options.", hi: "दिए गए विकल्पों में से सही वर्तनी (Correct Spelling) वाला शब्द पहचानिए।", mr: "दिलेल्या विकल्पांपैकी योग्य स्पेलिंग (Correct Spelling) असलेला शब्द ओळखा." },
     optionsJson: [
       { en: "Lieutenant", hi: "Lieutenant", mr: "Lieutenant" },
@@ -140,7 +133,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "general_knowledge",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: { en: "What is the official motto of the Indian Army?", hi: "भारतीय सेना (Indian Army) का आधिकारिक ध्येय वाक्य (Motto) क्या है?", mr: "भारतीय सेनेचे (Indian Army) अधिकृत ध्येयवाक्य (Motto) काय आहे?" },
     optionsJson: [
       { en: "Touch the Sky with Glory", hi: "नभः स्पृशं दीप्तम्", mr: "नभः स्पृशं दीप्तम्" },
@@ -158,7 +150,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "general_knowledge",
     difficulty: "MEDIUM",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Which is India's highest military decoration awarded for highest degree of valour or self-sacrifice in the presence of the enemy during wartime?", hi: "युद्ध के दौरान दुश्मन की उपस्थिति में अदम्य साहस और आत्मबलिदान के लिए दिया जाने वाला भारत का सर्वोच्च सैन्य पुरस्कार कौन सा है?", mr: "युद्धकाळात शत्रूसमोर दाखवलेल्या अत्युच्च शौर्यासाठी किंवा आत्मबलिदानासाठी दिला जाणारा भारताचा सर्वोच्च लष्करी सन्मान कोणता आहे?" },
     optionsJson: [
       { en: "Maha Vir Chakra", hi: "महावीर चक्र", mr: "महावीर चक्र" },
@@ -176,7 +167,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "general_knowledge",
     difficulty: "HARD",
-    reviewStatus: "DRAFT",
     questionJson: { en: "What is the official capital city of the North-Eastern state of Nagaland?", hi: "भारत के पूर्वोत्तर राज्य नागालैंड की आधिकारिक राजधानी कौन सी है?", mr: "भारताच्या पूर्वोत्तर राज्य नागालँडची अधिकृत राजधानी कोणती आहे?" },
     optionsJson: [
       { en: "Imphal", hi: "इम्फाल", mr: "इम्फाळ" },

@@ -20,7 +20,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "arithmetic",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Convert the decimal 0.375 into an irreducible simple fraction.", hi: "दशमलव 0.375 को एक सरलतम भिन्न (Irreducible Fraction) में बदलिए।", mr: "0.375 या दशांश संख्येला सर्वात सोप्या (अविभाज्य) अपूर्णांकात रूपांतरित करा." },
     optionsJson: [
       { en: "3/8", hi: "3/8", mr: "3/8" },
@@ -38,7 +37,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "arithmetic",
     difficulty: "MEDIUM",
-    reviewStatus: "DRAFT",
     questionJson: { en: "At what rate of simple interest per annum will a principal sum of ₹2,000 double itself in 8 years?", hi: "साधारण ब्याज की किस वार्षिक दर से ₹2,000 का मूलधन 8 वर्षों में दोगुना हो जाएगा?", mr: "साध्या व्याजाच्या कोणत्या वार्षिक दराने ₹2,000 ची मूळ रक्कम 8 वर्षांत दुप्पट होईल?" },
     optionsJson: [
       { en: "10%", hi: "10%", mr: "10%" },
@@ -56,7 +54,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "arithmetic",
     difficulty: "HARD",
-    reviewStatus: "DRAFT",
     questionJson: { en: "A bus covers a distance of 180 km in 4 hours. How much distance will it cover in 7 hours running at the same speed?", hi: "एक बस 4 घंटे में 180 किमी की दूरी तय करती है। उसी गति से चलते हुए वह 7 घंटे में कितनी दूरी तय करेगी?", mr: "एक बस 4 तासांत 180 किमी अंतर पार करते. तेवढ्याच वेगाने ती 7 तासांत किती अंतर पार करेल?" },
     optionsJson: [
       { en: "285 km", hi: "285 किमी", mr: "285 किमी" },
@@ -74,7 +71,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mental_ability",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: { en: "If 'ARMY' is coded as 'BSNZ', how will 'NAVY' be coded in that same pattern?", hi: "यदि 'ARMY' को 'BSNZ' के रूप में कोडित किया गया है, तो उसी पैटर्न में 'NAVY' को कैसे कोडित किया जाएगा?", mr: "जर 'ARMY' ला 'BSNZ' असे कोड केले असेल, तर त्याच पद्धतीने 'NAVY' ला कसे कोड केले जाईल?" },
     optionsJson: [
       { en: "OBWZ", hi: "OBWZ", mr: "OBWZ" },
@@ -92,7 +88,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mental_ability",
     difficulty: "MEDIUM",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Find the missing term in the sequence: 4, 9, 19, 39, ?", hi: "अनुक्रम में लुप्त पद ज्ञात कीजिए: 4, 9, 19, 39, ?", mr: "या क्रमवारीतील (sequence) लुप्त पद शोधा: 4, 9, 19, 39, ?" },
     optionsJson: [
       { en: "69", hi: "69", mr: "69" },
@@ -110,7 +105,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "language",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Fill in the blank with the correct article: 'Ganga is _____ sacred river of India.'", hi: "सही आर्टिकल से रिक्त स्थान भरें: 'Ganga is _____ sacred river of India.'", mr: "योग्य आर्टिकल (article) वापरून रिकामी जागा भरा: 'Ganga is _____ sacred river of India.'" },
     optionsJson: [
       { en: "a", hi: "a", mr: "a" },
@@ -128,7 +122,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "language",
     difficulty: "MEDIUM",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Choose the correct SYNONYM of the word 'COURAGEOUS'.", hi: "'COURAGEOUS' (साहसी) शब्द का सही पर्यायवाची (SYNONYM) चुनें।", mr: "'COURAGEOUS' या शब्दाचा योग्य समानार्थी शब्द (SYNONYM) निवडा." },
     optionsJson: [
       { en: "Fearful", hi: "डरा हुआ", mr: "घाबरलेला" },
@@ -146,7 +139,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "general_knowledge",
     difficulty: "EASY",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Which military rank in the Indian Air Force is equivalent to a Colonel in the Indian Army?", hi: "भारतीय वायु सेना (IAF) का कौन सा रैंक भारतीय सेना के कर्नल (Colonel) के बराबर है?", mr: "भारतीय हवाई दलातील (IAF) कोणता लष्करी हुद्दा भारतीय लष्करातील कर्नल (Colonel) च्या समान आहे?" },
     optionsJson: [
       { en: "Wing Commander", hi: "विंग कमांडर", mr: "विंग कमांडर" },
@@ -164,7 +156,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "general_knowledge",
     difficulty: "MEDIUM",
-    reviewStatus: "DRAFT",
     questionJson: { en: "What does the abbreviation DRDO stand for in India's defence establishment?", hi: "भारत के रक्षा प्रतिष्ठान में संक्षिप्त नाम DRDO का क्या अर्थ है?", mr: "भारताच्या संरक्षण व्यवस्थेत DRDO या संक्षिप्त नावाचा पूर्ण अर्थ काय आहे?" },
     optionsJson: [
       { en: "Defence Research and Development Organisation", hi: "रक्षा अनुसंधान एवं विकास संगठन", mr: "संरक्षण संशोधन आणि विकास संघटना" },
@@ -182,7 +173,6 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "general_knowledge",
     difficulty: "HARD",
-    reviewStatus: "DRAFT",
     questionJson: { en: "Which main organ in the human body is responsible for filtering metabolic waste products from the blood to produce urine?", hi: "मानव शरीर में कौन सा मुख्य अंग मूत्र बनाने के लिए रक्त से चयापचय अपशिष्ट उत्पादों को छानने के लिए जिम्मेदार है?", mr: "मानवी शरीरातील कोणता मुख्य अवयव रक्तातील चयापचय टाकाऊ पदार्थ गाळून मूत्र तयार करण्यासाठी जबाबदार आहे?" },
     optionsJson: [
       { en: "Liver", hi: "यकृत (Liver)", mr: "यकृत (Liver)" },
