@@ -77,4 +77,51 @@ describe("assembleJnvstMock", () => {
       "arithmetic: only 0 of 20 required questions were available in the PYQ pool."
     );
   });
+
+  describe("recentlyServedIds rotation", () => {
+    const blueprint: SectionBlueprint[] = [{ sectionKey: "mental_ability", questionCount: 3 }];
+
+    it("prefers not-recently-served items when enough are available", () => {
+      const pool = makePool({ mental_ability: 5, arithmetic: 0, language: 0 });
+      const recentlyServedIds = new Set(["mental_ability-0", "mental_ability-1"]);
+
+      const result = assembleJnvstMock(pool, blueprint, noShuffle, { recentlyServedIds });
+
+      const drawn = result.sections[0]!.questionIds;
+      expect(drawn).toHaveLength(3);
+      expect(drawn.some((id) => recentlyServedIds.has(id))).toBe(false);
+    });
+
+    it("falls back to recently-served items to fill the quota once the fresh subset runs out", () => {
+      const pool = makePool({ mental_ability: 5, arithmetic: 0, language: 0 });
+      // Only 1 fresh item left ("mental_ability-4"), but the quota is 3.
+      const recentlyServedIds = new Set(["mental_ability-0", "mental_ability-1", "mental_ability-2", "mental_ability-3"]);
+
+      const result = assembleJnvstMock(pool, blueprint, noShuffle, { recentlyServedIds });
+
+      const drawn = result.sections[0]!.questionIds;
+      expect(drawn).toHaveLength(3);
+      expect(drawn).toContain("mental_ability-4");
+      expect(result.warnings).toEqual([]); // still hit the full quota, just via fallback — not a real shortfall
+    });
+
+    it("never repeats an id within one paper even when falling back to recently-served items", () => {
+      const pool = makePool({ mental_ability: 5, arithmetic: 0, language: 0 });
+      const recentlyServedIds = new Set(["mental_ability-0", "mental_ability-1", "mental_ability-2", "mental_ability-3"]);
+
+      const result = assembleJnvstMock(pool, blueprint, undefined, { recentlyServedIds });
+
+      const drawn = result.sections[0]!.questionIds;
+      expect(new Set(drawn).size).toBe(drawn.length);
+    });
+
+    it("behaves exactly like the no-options call when recentlyServedIds is empty", () => {
+      const pool = makePool({ mental_ability: 5, arithmetic: 0, language: 0 });
+
+      const withEmptySet = assembleJnvstMock(pool, blueprint, noShuffle, { recentlyServedIds: new Set() });
+      const withoutOptions = assembleJnvstMock(pool, blueprint, noShuffle);
+
+      expect(withEmptySet.sections).toEqual(withoutOptions.sections);
+    });
+  });
 });

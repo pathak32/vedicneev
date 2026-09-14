@@ -247,13 +247,14 @@ model User {
   createdAt DateTime @default(now()) @map("created_at")
   updatedAt DateTime @updatedAt @map("updated_at")
 
-  testSessions           TestSession[]
-  mistakes               MistakeVault[]
-  subscriptions          Subscription[]
-  offlineMockSessions    OfflineMockSession[]
-  purchases              Purchase[]
-  sprintRegistrations    SprintRegistration[]
-  speedChallengeAttempts SpeedChallengeAttempt[]
+  testSessions            TestSession[]
+  mistakes                MistakeVault[]
+  subscriptions           Subscription[]
+  offlineMockSessions     OfflineMockSession[]
+  purchases               Purchase[]
+  sprintRegistrations     SprintRegistration[]
+  speedChallengeAttempts  SpeedChallengeAttempt[]
+  recentlyServedQuestions RecentlyServedQuestion[]
 
   @@index([parentId])
   @@map("users")
@@ -483,12 +484,42 @@ model ExamTemplate {
   createdAt DateTime @default(now()) @map("created_at")
   updatedAt DateTime @updatedAt @map("updated_at")
 
-  sections        ExamTemplateSection[]
-  testSessions    TestSession[]
-  nationalSprints NationalSprint[]
+  sections                ExamTemplateSection[]
+  testSessions            TestSession[]
+  nationalSprints         NationalSprint[]
+  recentlyServedQuestions RecentlyServedQuestion[]
 
   @@index([examType, classLevel])
   @@map("exam_templates")
+}
+
+// Tracks which questions a student has already been served for a given
+// ExamTemplate's live mock (packages/engine's assembleJnvstMock rotation —
+// see apps/web/src/lib/exam/jnvstMockService.ts), so the next generated
+// paper can prefer not-recently-served items over ones already shown,
+// instead of drawing fully at random every time from a bank that's often
+// far shallower than "give this student 15+ genuinely fresh papers" would
+// need. questionId deliberately isn't a real FK — a live mock can draw
+// from either PreviousYearQuestion OR Question depending on the exam/class
+// (see QUESTION_BANK_MOCK_SLUGS in jnvstMockService.ts), and no single
+// column can carry a foreign key into two different tables. Recorded once
+// per (user, template, question) the first time it's served — servedAt is
+// only ever set on create, never bumped on a later re-serve, so "oldest
+// served" ordering (for an eventual cycle-back once the whole pool has
+// been shown) stays meaningful.
+model RecentlyServedQuestion {
+  id             String       @id @default(cuid())
+  userId         String       @map("user_id")
+  user           User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+  examTemplateId String       @map("exam_template_id")
+  examTemplate   ExamTemplate @relation(fields: [examTemplateId], references: [id], onDelete: Cascade)
+  questionId     String       @map("question_id")
+
+  servedAt DateTime @default(now()) @map("served_at")
+
+  @@unique([userId, examTemplateId, questionId])
+  @@index([userId, examTemplateId])
+  @@map("recently_served_questions")
 }
 
 // Join model: which sections make up a template, in what order, with what

@@ -6,6 +6,7 @@ import { useParams, useSearchParams } from "next/navigation";
 import { Button } from "@vedicneev/ui";
 
 import { ExamPlayer } from "@/components/exam/ExamPlayer";
+import { selectActiveParent, useAuthStore } from "@/lib/auth/useAuthStore";
 import type { ExamSessionData } from "@/lib/exam/types";
 import { useTestStore } from "@/lib/stores/useTestStore";
 
@@ -72,7 +73,17 @@ function ExamLiveMockPageContent() {
     const url = `/api/exams/generate-mock?slug=${encodeURIComponent(templateSlug)}${
       paper ? `&paper=${encodeURIComponent(paper)}` : ""
     }`;
-    fetch(url, { method: "POST" })
+    // Signed-in parent's phone, when already known at this point —
+    // activates question rotation server-side (see jnvstMockService.ts).
+    // Read via getState() rather than the hook: this effect only needs a
+    // one-time value at fetch time, matching how it already reads
+    // useTestStore.getState() above for the resume check.
+    const parent = selectActiveParent(useAuthStore.getState());
+    fetch(url, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ phone: parent?.phone }),
+    })
       .then(async (res) => {
         const data = await res.json();
         if (cancelled) return;

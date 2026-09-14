@@ -42,6 +42,22 @@ export interface AssembleJnvstMockResult {
   warnings: string[];
 }
 
+export interface AssembleJnvstMockOptions {
+  /**
+   * Ids this same student has already been served for this exam template
+   * (any prior attempt, submitted or not) — see
+   * apps/web/src/lib/exam/jnvstMockService.ts's rotation wiring. When set,
+   * each section draws from its NOT-recently-served items first, only
+   * falling back to recently-served ones to fill a section's quota once
+   * the fresh subset runs out — so a student sees genuinely new questions
+   * for as long as the pool allows, and only ever repeats once every item
+   * in a section has already been shown at least once. Omitted (or an
+   * empty set) reproduces the exact prior behavior — a plain random draw
+   * across the whole pool, no preference either way.
+   */
+  recentlyServedIds?: ReadonlySet<string>;
+}
+
 /**
  * Draws a random, non-repeating subset per section from `pool`, sized to
  * each entry in `blueprint`. If a section's pool is smaller than its quota,
@@ -52,8 +68,10 @@ export interface AssembleJnvstMockResult {
 export function assembleJnvstMock(
   pool: PyqPoolItem[],
   blueprint: SectionBlueprint[],
-  rng: () => number = Math.random
+  rng: () => number = Math.random,
+  options: AssembleJnvstMockOptions = {}
 ): AssembleJnvstMockResult {
+  const recentlyServedIds = options.recentlyServedIds;
   const poolBySection = new Map<JnvstSectionKey, PyqPoolItem[]>();
   for (const item of pool) {
     const bucket = poolBySection.get(item.sectionKey);
@@ -66,7 +84,17 @@ export function assembleJnvstMock(
 
   for (const section of blueprint) {
     const available = poolBySection.get(section.sectionKey) ?? [];
-    const drawn = shuffled(available, rng).slice(0, section.questionCount);
+
+    let drawn: PyqPoolItem[];
+    if (recentlyServedIds && recentlyServedIds.size > 0) {
+      const fresh = available.filter((item) => !recentlyServedIds.has(item.id));
+      const stale = available.filter((item) => recentlyServedIds.has(item.id));
+      const drawnFresh = shuffled(fresh, rng).slice(0, section.questionCount);
+      const stillNeeded = section.questionCount - drawnFresh.length;
+      drawn = stillNeeded > 0 ? [...drawnFresh, ...shuffled(stale, rng).slice(0, stillNeeded)] : drawnFresh;
+    } else {
+      drawn = shuffled(available, rng).slice(0, section.questionCount);
+    }
 
     if (drawn.length < section.questionCount) {
       warnings.push(

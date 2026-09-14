@@ -7,6 +7,36 @@ import { asExamOption, asFigureMetadata, asMultilingual } from "./questionHydrat
 const JNVST_TEMPLATE_SLUG = "jnvst-class-6";
 const OPTION_IDS = ["a", "b", "c", "d"] as const;
 
+/**
+ * Reads which questionIds this student has already been served for this
+ * exam template (any prior attempt, submitted or not) — see
+ * RecentlyServedQuestion's model comment for why questionId isn't a real
+ * FK. Feeds assembleJnvstMock's rotation: a section draws from its
+ * not-recently-served items first, only falling back to recently-served
+ * ones once those run out.
+ */
+async function getRecentlyServedQuestionIds(userId: string, examTemplateId: string): Promise<Set<string>> {
+  const rows = await prisma.recentlyServedQuestion.findMany({
+    where: { userId, examTemplateId },
+    select: { questionId: true },
+  });
+  return new Set(rows.map((r) => r.questionId));
+}
+
+/**
+ * Records a freshly-drawn paper's ids as "served" for this student, so the
+ * next mock for the same template prefers different ones. skipDuplicates
+ * makes this safe even when some ids were already served (the fallback
+ * tier of a rotation draw, or the rare case of redrawing the same paper).
+ */
+async function recordServedQuestions(userId: string, examTemplateId: string, questionIds: string[]): Promise<void> {
+  if (questionIds.length === 0) return;
+  await prisma.recentlyServedQuestion.createMany({
+    data: questionIds.map((questionId) => ({ userId, examTemplateId, questionId })),
+    skipDuplicates: true,
+  });
+}
+
 /** Template slugs launchable via the generalized live-mock path below (packages/db/prisma/seed.ts's ExamTemplate.slug rows) — a template not in this catalog isn't offered as a live mock even if it exists in the DB, so a half-seeded template can't be launched accidentally. */
 export const LIVE_MOCK_TEMPLATE_SLUGS = [
   "jnvst-class-6",
@@ -167,8 +197,17 @@ export async function getJnvstSampleQuestions(): Promise<{ questions: ExamQuesti
  * ExamPlayer already knows how to run — so the API route that calls this
  * can hand the result straight to <ExamPlayer session={...} /> with no
  * further adaptation.
+ *
+ * `userId`, when given, activates rotation (see getRecentlyServedQuestionIds
+ * / assembleJnvstMock's recentlyServedIds) — the draw prefers questions
+ * this student hasn't already seen for this template, and the result is
+ * recorded so the next call keeps preferring fresh ones. Omitted for an
+ * anonymous/"sign in later" attempt, which draws fully at random exactly
+ * as before — there's no student identity to track against.
  */
-export async function generateJnvstMockSession(): Promise<JnvstMockGenerationResult | JnvstMockGenerationError> {
+export async function generateJnvstMockSession(
+  userId?: string
+): Promise<JnvstMockGenerationResult | JnvstMockGenerationError> {
   const template = await prisma.examTemplate.findUnique({
     where: { slug: JNVST_TEMPLATE_SLUG },
     include: { sections: { include: { section: true }, orderBy: { order: "asc" } } },
@@ -203,12 +242,15 @@ export async function generateJnvstMockSession(): Promise<JnvstMockGenerationRes
     sectionKey: sectionKeyById.get(p.sectionId) ?? "mental_ability",
   }));
 
-  const assembled = assembleJnvstMock(poolItems, blueprint);
+  const recentlyServedIds = userId ? await getRecentlyServedQuestionIds(userId, template.id) : undefined;
+  const assembled = assembleJnvstMock(poolItems, blueprint, undefined, { recentlyServedIds });
   const drawnIds = assembled.sections.flatMap((s) => s.questionIds);
 
   if (drawnIds.length === 0) {
     return { error: "No JNVST Previous-Year-Question content is seeded yet — nothing to assemble a mock from." };
   }
+
+  if (userId) await recordServedQuestions(userId, template.id, drawnIds);
 
   const drawnQuestions = await prisma.previousYearQuestion.findMany({ where: { id: { in: drawnIds } } });
 
@@ -295,7 +337,8 @@ async function assembleFromQuestionBank(
     sections: { sectionId: string; order: number; timeLimitSeconds: number | null; section: { key: string; name: unknown } }[];
   },
   blueprint: SectionBlueprint[],
-  sectionKeyById: Map<string, JnvstSectionKey>
+  sectionKeyById: Map<string, JnvstSectionKey>,
+  userId?: string
 ): Promise<JnvstMockGenerationResult | JnvstMockGenerationError> {
   const sectionIds = template.sections.map((s) => s.sectionId);
   const pool = await prisma.question.findMany({
@@ -310,11 +353,14 @@ async function assembleFromQuestionBank(
     sectionKey: sectionKeyById.get(q.topic.sectionId) ?? template.sections[0]!.section.key,
   }));
 
-  const assembled = assembleJnvstMock(poolItems, blueprint);
+  const recentlyServedIds = userId ? await getRecentlyServedQuestionIds(userId, template.id) : undefined;
+  const assembled = assembleJnvstMock(poolItems, blueprint, undefined, { recentlyServedIds });
   const drawnIds = assembled.sections.flatMap((s) => s.questionIds);
   if (drawnIds.length === 0) {
     return { error: `No verified question-bank content is available yet for "${template.slug}".` };
   }
+
+  if (userId) await recordServedQuestions(userId, template.id, drawnIds);
 
   const drawnQuestions = await prisma.question.findMany({
     where: { id: { in: drawnIds } },
@@ -391,10 +437,16 @@ export async function listPublishedPapers(examType: ExamType, classLevel: number
  * paper number only makes sense once real paper content has been seeded
  * and published for that slug. Omitted, behavior is unchanged from before
  * this parameter existed.
+ *
+ * `userId` activates rotation (see generateJnvstMockSession's doc comment)
+ * for a random draw — deliberately NOT applied when `paperNumber` is set,
+ * since a fixed published paper must stay identical for every student who
+ * requests it, not vary by who's asking.
  */
 export async function generateLiveMockSession(
   slug: string,
-  paperNumber?: number
+  paperNumber?: number,
+  userId?: string
 ): Promise<JnvstMockGenerationResult | JnvstMockGenerationError> {
   const template = await prisma.examTemplate.findUnique({
     where: { slug },
@@ -417,7 +469,7 @@ export async function generateLiveMockSession(
   }));
 
   if (paperNumber === undefined && (QUESTION_BANK_MOCK_SLUGS as readonly string[]).includes(slug)) {
-    return assembleFromQuestionBank(template, blueprint, sectionKeyById);
+    return assembleFromQuestionBank(template, blueprint, sectionKeyById, userId);
   }
 
   const pool = await prisma.previousYearQuestion.findMany({
@@ -435,12 +487,16 @@ export async function generateLiveMockSession(
     sectionKey: sectionKeyById.get(p.sectionId) ?? template.sections[0]!.section.key,
   }));
 
-  const assembled = assembleJnvstMock(poolItems, blueprint);
+  const recentlyServedIds =
+    userId && paperNumber === undefined ? await getRecentlyServedQuestionIds(userId, template.id) : undefined;
+  const assembled = assembleJnvstMock(poolItems, blueprint, undefined, { recentlyServedIds });
   const drawnIds = assembled.sections.flatMap((s) => s.questionIds);
 
   if (drawnIds.length === 0) {
     return { error: `No Previous-Year-Question content is seeded yet for "${slug}" — nothing to assemble a mock from.` };
   }
+
+  if (userId && paperNumber === undefined) await recordServedQuestions(userId, template.id, drawnIds);
 
   const drawnQuestions = await prisma.previousYearQuestion.findMany({ where: { id: { in: drawnIds } } });
 

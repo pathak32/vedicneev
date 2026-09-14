@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Badge, Button, Card, CardContent, cn } from "@vedicneev/ui";
 
 import { ExamPlayer } from "@/components/exam/ExamPlayer";
+import { selectActiveParent, useAuthStore } from "@/lib/auth/useAuthStore";
 import { localize } from "@/lib/exam/localize";
 import type { JnvstBlueprint } from "@/lib/exam/jnvstMockService";
 import type { ExamQuestion, ExamSessionData } from "@/lib/exam/types";
@@ -81,6 +82,7 @@ export default function JnvstLiveMockPage() {
   const [blueprint, setBlueprint] = useState<JnvstBlueprint | null>(null);
   const [samples, setSamples] = useState<ExamQuestion[]>([]);
   const language = useLanguageStore((s) => s.languageCode);
+  const parent = useAuthStore(selectActiveParent);
 
   useEffect(() => {
     // Resume an in-progress attempt from useTestStore's sessionStorage on
@@ -118,7 +120,17 @@ export default function JnvstLiveMockPage() {
     let cancelled = false;
     setState({ status: "loading" });
 
-    fetch("/api/exams/jnvst/generate-mock", { method: "POST" })
+    fetch("/api/exams/jnvst/generate-mock", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      // Signed-in parent's phone, when already known at this point —
+      // activates question rotation server-side (see
+      // jnvstMockService.ts). Omitted for a not-yet-signed-in "Sign in
+      // first" attempt (sign-in happens after this fetch, inside
+      // <ExamPlayer>) or a genuinely anonymous "Sign in later" one; either
+      // way the mock still generates, just without rotation for that draw.
+      body: JSON.stringify({ phone: parent?.phone }),
+    })
       .then(async (res) => {
         const data = await res.json();
         if (cancelled) return;
