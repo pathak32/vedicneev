@@ -40,3 +40,4 @@ export const prisma = new Proxy({} as PrismaClient, {
 
 export * from "@prisma/client";
 export * from "./blogPublishing";
+export * from "./sprintScheduling";
