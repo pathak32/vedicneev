@@ -9,760 +9,760 @@
       "key": "jnvst6-p2-ma-01",
       "year": 2026,
       "difficulty": "EASY",
-      "questionJson": { "en": "Find the missing number: 5, 10, 15, 20, ?", "hi": "लुप्त संख्या ज्ञात करें: 5, 10, 15, 20, ?" },
+      "questionJson": { "en": "Find the missing number: 5, 10, 15, 20, ?", "hi": "लुप्त संख्या ज्ञात करें: 5, 10, 15, 20, ?", "mr": "लुप्त संख्या शोधा: 5, 10, 15, 20, ?" },
       "optionsJson": [
-        { "en": "22", "hi": "22" },
-        { "en": "24", "hi": "24" },
-        { "en": "25", "hi": "25" },
-        { "en": "30", "hi": "30" }
+        { "en": "22", "hi": "22", "mr": "22" },
+        { "en": "24", "hi": "24", "mr": "24" },
+        { "en": "25", "hi": "25", "mr": "25" },
+        { "en": "30", "hi": "30", "mr": "30" }
       ],
       "correctAnswer": 2,
-      "explanation": { "en": "The series increases by 5 each time: 5, 10, 15, 20, 25.", "hi": "श्रृंखला हर बार 5 से बढ़ती है: 5, 10, 15, 20, 25।" },
+      "explanation": { "en": "The series increases by 5 each time: 5, 10, 15, 20, 25.", "hi": "श्रृंखला हर बार 5 से बढ़ती है: 5, 10, 15, 20, 25।", "mr": "श्रेणी प्रत्येक वेळी 5 ने वाढते: 5, 10, 15, 20, 25." },
       "distractorAnalysis": {
-        "0": { "en": "Adds only 2 instead of the actual common difference of 5.", "hi": "वास्तविक सार्व अंतर 5 के बजाय केवल 2 जोड़ा।" },
-        "1": { "en": "Adds 4 instead of 5.", "hi": "5 के बजाय 4 जोड़ा।" },
-        "3": { "en": "Jumps two steps ahead (adds 10) instead of one step of 5.", "hi": "5 के एक कदम के बजाय दो कदम आगे (10 जोड़कर) बढ़ गया।" }
+        "0": { "en": "Adds only 2 instead of the actual common difference of 5.", "hi": "वास्तविक सार्व अंतर 5 के बजाय केवल 2 जोड़ा।", "mr": "प्रत्यक्ष सामाईक फरक 5 ऐवजी फक्त 2 जोडले." },
+        "1": { "en": "Adds 4 instead of 5.", "hi": "5 के बजाय 4 जोड़ा।", "mr": "5 ऐवजी 4 जोडले." },
+        "3": { "en": "Jumps two steps ahead (adds 10) instead of one step of 5.", "hi": "5 के एक कदम के बजाय दो कदम आगे (10 जोड़कर) बढ़ गया।", "mr": "5 च्या एका पायरीऐवजी दोन पायऱ्या पुढे (10 जोडून) गेले." }
       }
     },
     {
       "key": "jnvst6-p2-ma-02",
       "year": 2026,
       "difficulty": "EASY",
-      "questionJson": { "en": "Find the missing number: 2, 4, 8, 16, ?", "hi": "लुप्त संख्या ज्ञात करें: 2, 4, 8, 16, ?" },
+      "questionJson": { "en": "Find the missing number: 2, 4, 8, 16, ?", "hi": "लुप्त संख्या ज्ञात करें: 2, 4, 8, 16, ?", "mr": "लुप्त संख्या शोधा: 2, 4, 8, 16, ?" },
       "optionsJson": [
-        { "en": "18", "hi": "18" },
-        { "en": "24", "hi": "24" },
-        { "en": "32", "hi": "32" },
-        { "en": "20", "hi": "20" }
+        { "en": "18", "hi": "18", "mr": "18" },
+        { "en": "24", "hi": "24", "mr": "24" },
+        { "en": "32", "hi": "32", "mr": "32" },
+        { "en": "20", "hi": "20", "mr": "20" }
       ],
       "correctAnswer": 2,
-      "explanation": { "en": "Each term doubles the previous one: 2×2=4, 4×2=8, 8×2=16, 16×2=32.", "hi": "प्रत्येक पद पिछले पद का दोगुना है: 2×2=4, 4×2=8, 8×2=16, 16×2=32।" },
+      "explanation": { "en": "Each term doubles the previous one: 2×2=4, 4×2=8, 8×2=16, 16×2=32.", "hi": "प्रत्येक पद पिछले पद का दोगुना है: 2×2=4, 4×2=8, 8×2=16, 16×2=32।", "mr": "प्रत्येक पद आधीच्या पदाच्या दुप्पट आहे: 2×2=4, 4×2=8, 8×2=16, 16×2=32." },
       "distractorAnalysis": {
-        "0": { "en": "Adds 2 (treats it as an addition series, not doubling).", "hi": "इसे जोड़ श्रृंखला मान लिया, दोगुना नहीं किया।" },
-        "1": { "en": "Adds 8 instead of multiplying by 2.", "hi": "2 से गुणा करने के बजाय 8 जोड़ा।" },
-        "3": { "en": "Adds 4 instead of multiplying by 2.", "hi": "2 से गुणा करने के बजाय 4 जोड़ा।" }
+        "0": { "en": "Adds 2 (treats it as an addition series, not doubling).", "hi": "इसे जोड़ श्रृंखला मान लिया, दोगुना नहीं किया।", "mr": "याला बेरीज-श्रेणी समजून 2 जोडले, दुप्पट केले नाही." },
+        "1": { "en": "Adds 8 instead of multiplying by 2.", "hi": "2 से गुणा करने के बजाय 8 जोड़ा।", "mr": "2 ने गुणण्याऐवजी 8 जोडले." },
+        "3": { "en": "Adds 4 instead of multiplying by 2.", "hi": "2 से गुणा करने के बजाय 4 जोड़ा।", "mr": "2 ने गुणण्याऐवजी 4 जोडले." }
       }
     },
     {
       "key": "jnvst6-p2-ma-03",
       "year": 2026,
       "difficulty": "MEDIUM",
-      "questionJson": { "en": "Find the missing number: 1, 4, 9, 16, ?", "hi": "लुप्त संख्या ज्ञात करें: 1, 4, 9, 16, ?" },
+      "questionJson": { "en": "Find the missing number: 1, 4, 9, 16, ?", "hi": "लुप्त संख्या ज्ञात करें: 1, 4, 9, 16, ?", "mr": "लुप्त संख्या शोधा: 1, 4, 9, 16, ?" },
       "optionsJson": [
-        { "en": "20", "hi": "20" },
-        { "en": "25", "hi": "25" },
-        { "en": "22", "hi": "22" },
-        { "en": "24", "hi": "24" }
+        { "en": "20", "hi": "20", "mr": "20" },
+        { "en": "25", "hi": "25", "mr": "25" },
+        { "en": "22", "hi": "22", "mr": "22" },
+        { "en": "24", "hi": "24", "mr": "24" }
       ],
       "correctAnswer": 1,
-      "explanation": { "en": "These are perfect squares: 1², 2², 3², 4², so next is 5²=25.", "hi": "ये पूर्ण वर्ग हैं: 1², 2², 3², 4², इसलिए अगला 5²=25 है।" },
+      "explanation": { "en": "These are perfect squares: 1², 2², 3², 4², so next is 5²=25.", "hi": "ये पूर्ण वर्ग हैं: 1², 2², 3², 4², इसलिए अगला 5²=25 है।", "mr": "या पूर्ण वर्ग संख्या आहेत: 1², 2², 3², 4², म्हणून पुढील 5²=25 आहे." },
       "distractorAnalysis": {
-        "0": { "en": "Adds 4 (the last difference) instead of following the square pattern.", "hi": "वर्ग पैटर्न के बजाय पिछला अंतर (4) जोड़ दिया।" },
-        "2": { "en": "Adds 6 by guessing an arithmetic pattern instead of squares.", "hi": "वर्ग के बजाय अंकगणितीय पैटर्न मानकर 6 जोड़ा।" },
-        "3": { "en": "Close but not a perfect square (24 ≠ 5²).", "hi": "करीब है पर पूर्ण वर्ग नहीं (24 ≠ 5²)।" }
+        "0": { "en": "Adds 4 (the last difference) instead of following the square pattern.", "hi": "वर्ग पैटर्न के बजाय पिछला अंतर (4) जोड़ दिया।", "mr": "वर्ग-पॅटर्न न पाहता मागील फरक (4) जोडला." },
+        "2": { "en": "Adds 6 by guessing an arithmetic pattern instead of squares.", "hi": "वर्ग के बजाय अंकगणितीय पैटर्न मानकर 6 जोड़ा।", "mr": "वर्गांऐवजी अंकगणिती पॅटर्न गृहीत धरून 6 जोडले." },
+        "3": { "en": "Close but not a perfect square (24 ≠ 5²).", "hi": "करीब है पर पूर्ण वर्ग नहीं (24 ≠ 5²)।", "mr": "जवळ आहे पण पूर्ण वर्ग नाही (24 ≠ 5²)." }
       }
     },
     {
       "key": "jnvst6-p2-ma-04",
       "year": 2026,
       "difficulty": "EASY",
-      "questionJson": { "en": "Find the missing number: 50, 45, 40, 35, ?", "hi": "लुप्त संख्या ज्ञात करें: 50, 45, 40, 35, ?" },
+      "questionJson": { "en": "Find the missing number: 50, 45, 40, 35, ?", "hi": "लुप्त संख्या ज्ञात करें: 50, 45, 40, 35, ?", "mr": "लुप्त संख्या शोधा: 50, 45, 40, 35, ?" },
       "optionsJson": [
-        { "en": "25", "hi": "25" },
-        { "en": "30", "hi": "30" },
-        { "en": "28", "hi": "28" },
-        { "en": "32", "hi": "32" }
+        { "en": "25", "hi": "25", "mr": "25" },
+        { "en": "30", "hi": "30", "mr": "30" },
+        { "en": "28", "hi": "28", "mr": "28" },
+        { "en": "32", "hi": "32", "mr": "32" }
       ],
       "correctAnswer": 1,
-      "explanation": { "en": "The series decreases by 5 each time: 50, 45, 40, 35, 30.", "hi": "श्रृंखला हर बार 5 से घटती है: 50, 45, 40, 35, 30।" },
+      "explanation": { "en": "The series decreases by 5 each time: 50, 45, 40, 35, 30.", "hi": "श्रृंखला हर बार 5 से घटती है: 50, 45, 40, 35, 30।", "mr": "श्रेणी प्रत्येक वेळी 5 ने कमी होते: 50, 45, 40, 35, 30." },
       "distractorAnalysis": {
-        "0": { "en": "Subtracts 10 instead of 5.", "hi": "5 के बजाय 10 घटाया।" },
-        "2": { "en": "Subtracts an inconsistent amount (7).", "hi": "असंगत मान (7) घटाया।" },
-        "3": { "en": "Adds instead of subtracting the common difference.", "hi": "सार्व अंतर घटाने के बजाय जोड़ दिया।" }
+        "0": { "en": "Subtracts 10 instead of 5.", "hi": "5 के बजाय 10 घटाया।", "mr": "5 ऐवजी 10 वजा केले." },
+        "2": { "en": "Subtracts an inconsistent amount (7).", "hi": "असंगत मान (7) घटाया।", "mr": "असंगत मूल्य (7) वजा केले." },
+        "3": { "en": "Adds instead of subtracting the common difference.", "hi": "सार्व अंतर घटाने के बजाय जोड़ दिया।", "mr": "सामाईक फरक वजा करण्याऐवजी जोडला." }
       }
     },
     {
       "key": "jnvst6-p2-ma-05",
       "year": 2026,
       "difficulty": "HARD",
-      "questionJson": { "en": "Find the missing number: 3, 6, 11, 18, ?", "hi": "लुप्त संख्या ज्ञात करें: 3, 6, 11, 18, ?" },
+      "questionJson": { "en": "Find the missing number: 3, 6, 11, 18, ?", "hi": "लुप्त संख्या ज्ञात करें: 3, 6, 11, 18, ?", "mr": "लुप्त संख्या शोधा: 3, 6, 11, 18, ?" },
       "optionsJson": [
-        { "en": "25", "hi": "25" },
-        { "en": "27", "hi": "27" },
-        { "en": "26", "hi": "26" },
-        { "en": "24", "hi": "24" }
+        { "en": "25", "hi": "25", "mr": "25" },
+        { "en": "27", "hi": "27", "mr": "27" },
+        { "en": "26", "hi": "26", "mr": "26" },
+        { "en": "24", "hi": "24", "mr": "24" }
       ],
       "correctAnswer": 1,
-      "explanation": { "en": "The differences are 3, 5, 7, 9 (consecutive odd numbers): 3+3=6, 6+5=11, 11+7=18, 18+9=27.", "hi": "अंतर 3, 5, 7, 9 (क्रमागत विषम संख्याएँ) हैं: 3+3=6, 6+5=11, 11+7=18, 18+9=27।" },
+      "explanation": { "en": "The differences are 3, 5, 7, 9 (consecutive odd numbers): 3+3=6, 6+5=11, 11+7=18, 18+9=27.", "hi": "अंतर 3, 5, 7, 9 (क्रमागत विषम संख्याएँ) हैं: 3+3=6, 6+5=11, 11+7=18, 18+9=27।", "mr": "फरक 3, 5, 7, 9 (क्रमागत विषम संख्या) आहेत: 3+3=6, 6+5=11, 11+7=18, 18+9=27." },
       "distractorAnalysis": {
-        "0": { "en": "Adds only 7 again instead of the next odd number 9.", "hi": "अगली विषम संख्या 9 के बजाय फिर से केवल 7 जोड़ा।" },
-        "2": { "en": "Adds 8, missing that the increments must stay odd.", "hi": "यह भूल गया कि वृद्धि विषम ही रहनी चाहिए, 8 जोड़ दिया।" },
-        "3": { "en": "Adds only 6, underestimating the growing gap.", "hi": "बढ़ते अंतर को कम आंकते हुए केवल 6 जोड़ा।" }
+        "0": { "en": "Adds only 7 again instead of the next odd number 9.", "hi": "अगली विषम संख्या 9 के बजाय फिर से केवल 7 जोड़ा।", "mr": "पुढील विषम संख्या 9 ऐवजी पुन्हा फक्त 7 जोडले." },
+        "2": { "en": "Adds 8, missing that the increments must stay odd.", "hi": "यह भूल गया कि वृद्धि विषम ही रहनी चाहिए, 8 जोड़ दिया।", "mr": "वाढ विषमच राहायला हवी हे विसरून 8 जोडले." },
+        "3": { "en": "Adds only 6, underestimating the growing gap.", "hi": "बढ़ते अंतर को कम आंकते हुए केवल 6 जोड़ा।", "mr": "वाढत्या फरकाचा कमी अंदाज घेऊन फक्त 6 जोडले." }
       }
     },
     {
       "key": "jnvst6-p2-ma-06",
       "year": 2026,
       "difficulty": "EASY",
-      "questionJson": { "en": "Find the missing letter: A, C, E, G, ?", "hi": "लुप्त अक्षर ज्ञात करें: A, C, E, G, ?" },
+      "questionJson": { "en": "Find the missing letter: A, C, E, G, ?", "hi": "लुप्त अक्षर ज्ञात करें: A, C, E, G, ?", "mr": "लुप्त अक्षर शोधा: A, C, E, G, ?" },
       "optionsJson": [
-        { "en": "H", "hi": "H" },
-        { "en": "I", "hi": "I" },
-        { "en": "J", "hi": "J" },
-        { "en": "K", "hi": "K" }
+        { "en": "H", "hi": "H", "mr": "H" },
+        { "en": "I", "hi": "I", "mr": "I" },
+        { "en": "J", "hi": "J", "mr": "J" },
+        { "en": "K", "hi": "K", "mr": "K" }
       ],
       "correctAnswer": 1,
-      "explanation": { "en": "Every alternate letter is skipped: A(1), C(3), E(5), G(7), so next is I(9).", "hi": "हर बार एक अक्षर छोड़ा गया है: A(1), C(3), E(5), G(7), इसलिए अगला I(9) है।" },
+      "explanation": { "en": "Every alternate letter is skipped: A(1), C(3), E(5), G(7), so next is I(9).", "hi": "हर बार एक अक्षर छोड़ा गया है: A(1), C(3), E(5), G(7), इसलिए अगला I(9) है।", "mr": "प्रत्येक वेळी एक अक्षर वगळले आहे: A(1), C(3), E(5), G(7), म्हणून पुढील I(9) आहे." },
       "distractorAnalysis": {
-        "0": { "en": "Picks the very next letter after G instead of skipping one.", "hi": "एक अक्षर छोड़ने के बजाय G के तुरंत बाद वाला अक्षर चुना।" },
-        "2": { "en": "Skips two letters instead of one.", "hi": "एक के बजाय दो अक्षर छोड़ दिए।" },
-        "3": { "en": "Skips three letters, breaking the alternate pattern.", "hi": "एकांतर पैटर्न तोड़ते हुए तीन अक्षर छोड़ दिए।" }
+        "0": { "en": "Picks the very next letter after G instead of skipping one.", "hi": "एक अक्षर छोड़ने के बजाय G के तुरंत बाद वाला अक्षर चुना।", "mr": "एक अक्षर वगळण्याऐवजी G नंतरचे लगेचचे अक्षर घेतले." },
+        "2": { "en": "Skips two letters instead of one.", "hi": "एक के बजाय दो अक्षर छोड़ दिए।", "mr": "एकाऐवजी दोन अक्षरे वगळली." },
+        "3": { "en": "Skips three letters, breaking the alternate pattern.", "hi": "एकांतर पैटर्न तोड़ते हुए तीन अक्षर छोड़ दिए।", "mr": "एकांतर पॅटर्न मोडून तीन अक्षरे वगळली." }
       }
     },
     {
       "key": "jnvst6-p2-ma-07",
       "year": 2026,
       "difficulty": "MEDIUM",
-      "questionJson": { "en": "Find the missing letter: Z, Y, X, W, ?", "hi": "लुप्त अक्षर ज्ञात करें: Z, Y, X, W, ?" },
+      "questionJson": { "en": "Find the missing letter: Z, Y, X, W, ?", "hi": "लुप्त अक्षर ज्ञात करें: Z, Y, X, W, ?", "mr": "लुप्त अक्षर शोधा: Z, Y, X, W, ?" },
       "optionsJson": [
-        { "en": "T", "hi": "T" },
-        { "en": "U", "hi": "U" },
-        { "en": "V", "hi": "V" },
-        { "en": "S", "hi": "S" }
+        { "en": "T", "hi": "T", "mr": "T" },
+        { "en": "U", "hi": "U", "mr": "U" },
+        { "en": "V", "hi": "V", "mr": "V" },
+        { "en": "S", "hi": "S", "mr": "S" }
       ],
       "correctAnswer": 2,
-      "explanation": { "en": "The alphabet runs backwards one step at a time: Z, Y, X, W, V.", "hi": "वर्णमाला एक-एक कदम पीछे चल रही है: Z, Y, X, W, V।" },
+      "explanation": { "en": "The alphabet runs backwards one step at a time: Z, Y, X, W, V.", "hi": "वर्णमाला एक-एक कदम पीछे चल रही है: Z, Y, X, W, V।", "mr": "वर्णमाला एक-एक पायरी उलट क्रमाने चालते: Z, Y, X, W, V." },
       "distractorAnalysis": {
-        "0": { "en": "Skips two letters back instead of one.", "hi": "एक के बजाय दो अक्षर पीछे छोड़ दिए।" },
-        "1": { "en": "Moves forward instead of continuing the backward pattern.", "hi": "पीछे के पैटर्न को जारी रखने के बजाय आगे बढ़ गया।" },
-        "3": { "en": "Skips three letters back.", "hi": "तीन अक्षर पीछे छोड़ दिए।" }
+        "0": { "en": "Skips two letters back instead of one.", "hi": "एक के बजाय दो अक्षर पीछे छोड़ दिए।", "mr": "एकाऐवजी दोन अक्षरे पाठीमागे वगळली." },
+        "1": { "en": "Moves forward instead of continuing the backward pattern.", "hi": "पीछे के पैटर्न को जारी रखने के बजाय आगे बढ़ गया।", "mr": "उलट पॅटर्न सुरू ठेवण्याऐवजी पुढे गेले." },
+        "3": { "en": "Skips three letters back.", "hi": "तीन अक्षर पीछे छोड़ दिए।", "mr": "तीन अक्षरे पाठीमागे वगळली." }
       }
     },
     {
       "key": "jnvst6-p2-ma-08",
       "year": 2026,
       "difficulty": "EASY",
-      "questionJson": { "en": "Find the missing letters: AB, DE, GH, JK, ?", "hi": "लुप्त अक्षर-युग्म ज्ञात करें: AB, DE, GH, JK, ?" },
+      "questionJson": { "en": "Find the missing letters: AB, DE, GH, JK, ?", "hi": "लुप्त अक्षर-युग्म ज्ञात करें: AB, DE, GH, JK, ?", "mr": "लुप्त अक्षर-जोडी शोधा: AB, DE, GH, JK, ?" },
       "optionsJson": [
-        { "en": "LM", "hi": "LM" },
-        { "en": "MN", "hi": "MN" },
-        { "en": "NO", "hi": "NO" },
-        { "en": "OP", "hi": "OP" }
+        { "en": "LM", "hi": "LM", "mr": "LM" },
+        { "en": "MN", "hi": "MN", "mr": "MN" },
+        { "en": "NO", "hi": "NO", "mr": "NO" },
+        { "en": "OP", "hi": "OP", "mr": "OP" }
       ],
       "correctAnswer": 1,
-      "explanation": { "en": "Each pair starts 3 letters after the previous pair's start: A, D, G, J, M — so the answer is MN.", "hi": "प्रत्येक जोड़ी पिछली जोड़ी की शुरुआत से 3 अक्षर आगे शुरू होती है: A, D, G, J, M — इसलिए उत्तर MN है।" },
+      "explanation": { "en": "Each pair starts 3 letters after the previous pair's start: A, D, G, J, M — so the answer is MN.", "hi": "प्रत्येक जोड़ी पिछली जोड़ी की शुरुआत से 3 अक्षर आगे शुरू होती है: A, D, G, J, M — इसलिए उत्तर MN है।", "mr": "प्रत्येक जोडी आधीच्या जोडीच्या सुरुवातीपासून 3 अक्षरे पुढे सुरू होते: A, D, G, J, M — म्हणून उत्तर MN आहे." },
       "distractorAnalysis": {
-        "0": { "en": "Starts only 2 letters after J instead of 3.", "hi": "J के बाद 3 के बजाय केवल 2 अक्षर आगे शुरू किया।" },
-        "2": { "en": "Starts 4 letters after J instead of 3.", "hi": "J के बाद 3 के बजाय 4 अक्षर आगे शुरू किया।" },
-        "3": { "en": "Starts 5 letters after J, doubling the gap.", "hi": "अंतर को दोगुना करते हुए J के बाद 5 अक्षर आगे शुरू किया।" }
+        "0": { "en": "Starts only 2 letters after J instead of 3.", "hi": "J के बाद 3 के बजाय केवल 2 अक्षर आगे शुरू किया।", "mr": "J नंतर 3 ऐवजी फक्त 2 अक्षरे पुढे सुरू केले." },
+        "2": { "en": "Starts 4 letters after J instead of 3.", "hi": "J के बाद 3 के बजाय 4 अक्षर आगे शुरू किया।", "mr": "J नंतर 3 ऐवजी 4 अक्षरे पुढे सुरू केले." },
+        "3": { "en": "Starts 5 letters after J, doubling the gap.", "hi": "अंतर को दोगुना करते हुए J के बाद 5 अक्षर आगे शुरू किया।", "mr": "फरक दुप्पट करत J नंतर 5 अक्षरे पुढे सुरू केले." }
       }
     },
     {
       "key": "jnvst6-p2-ma-09",
       "year": 2026,
       "difficulty": "MEDIUM",
-      "questionJson": { "en": "Find the missing letter: B, D, G, K, ?", "hi": "लुप्त अक्षर ज्ञात करें: B, D, G, K, ?" },
+      "questionJson": { "en": "Find the missing letter: B, D, G, K, ?", "hi": "लुप्त अक्षर ज्ञात करें: B, D, G, K, ?", "mr": "लुप्त अक्षर शोधा: B, D, G, K, ?" },
       "optionsJson": [
-        { "en": "N", "hi": "N" },
-        { "en": "O", "hi": "O" },
-        { "en": "P", "hi": "P" },
-        { "en": "M", "hi": "M" }
+        { "en": "N", "hi": "N", "mr": "N" },
+        { "en": "O", "hi": "O", "mr": "O" },
+        { "en": "P", "hi": "P", "mr": "P" },
+        { "en": "M", "hi": "M", "mr": "M" }
       ],
       "correctAnswer": 1,
-      "explanation": { "en": "Gaps increase by 1 each time (2,3,4,5): B(+2)D(+3)G(+4)K(+5)O.", "hi": "प्रत्येक बार अंतर 1 से बढ़ता है (2,3,4,5): B(+2)D(+3)G(+4)K(+5)O।" },
+      "explanation": { "en": "Gaps increase by 1 each time (2,3,4,5): B(+2)D(+3)G(+4)K(+5)O.", "hi": "प्रत्येक बार अंतर 1 से बढ़ता है (2,3,4,5): B(+2)D(+3)G(+4)K(+5)O।", "mr": "प्रत्येक वेळी फरक 1 ने वाढतो (2,3,4,5): B(+2)D(+3)G(+4)K(+5)O." },
       "distractorAnalysis": {
-        "0": { "en": "Uses a gap of 4 instead of the required 5.", "hi": "आवश्यक 5 के बजाय 4 का अंतर प्रयोग किया।" },
-        "2": { "en": "Uses a gap of 6, overshooting the pattern.", "hi": "पैटर्न से आगे बढ़ते हुए 6 का अंतर प्रयोग किया।" },
-        "3": { "en": "Uses a gap of only 3, repeating the previous step.", "hi": "पिछले चरण को दोहराते हुए केवल 3 का अंतर प्रयोग किया।" }
+        "0": { "en": "Uses a gap of 4 instead of the required 5.", "hi": "आवश्यक 5 के बजाय 4 का अंतर प्रयोग किया।", "mr": "आवश्यक 5 ऐवजी 4 चा फरक वापरला." },
+        "2": { "en": "Uses a gap of 6, overshooting the pattern.", "hi": "पैटर्न से आगे बढ़ते हुए 6 का अंतर प्रयोग किया।", "mr": "पॅटर्नपेक्षा जास्त जाऊन 6 चा फरक वापरला." },
+        "3": { "en": "Uses a gap of only 3, repeating the previous step.", "hi": "पिछले चरण को दोहराते हुए केवल 3 का अंतर प्रयोग किया।", "mr": "मागील पायरी पुन्हा वापरून फक्त 3 चा फरक वापरला." }
       }
     },
     {
       "key": "jnvst6-p2-ma-10",
       "year": 2026,
       "difficulty": "HARD",
-      "questionJson": { "en": "Find the missing letter: C, F, J, O, ?", "hi": "लुप्त अक्षर ज्ञात करें: C, F, J, O, ?" },
+      "questionJson": { "en": "Find the missing letter: C, F, J, O, ?", "hi": "लुप्त अक्षर ज्ञात करें: C, F, J, O, ?", "mr": "लुप्त अक्षर शोधा: C, F, J, O, ?" },
       "optionsJson": [
-        { "en": "S", "hi": "S" },
-        { "en": "T", "hi": "T" },
-        { "en": "U", "hi": "U" },
-        { "en": "R", "hi": "R" }
+        { "en": "S", "hi": "S", "mr": "S" },
+        { "en": "T", "hi": "T", "mr": "T" },
+        { "en": "U", "hi": "U", "mr": "U" },
+        { "en": "R", "hi": "R", "mr": "R" }
       ],
-      "correctAnswer": 1,
-      "explanation": { "en": "Gaps grow as 3,4,5,6: C(+3)F(+4)J(+5)O(+6)U... checking positions C=3,F=6,J=10,O=15,+6=21=U. Recompute: gaps are 3,4,5,6 → next gap is 6, so O(15)+6=21=U. Correct answer is U.", "hi": "अंतर 3,4,5,6 के रूप में बढ़ते हैं: C(3)+3=F(6)+4=J(10)+5=O(15)+6=U(21)। सही उत्तर U है।" },
+      "correctAnswer": 2,
+      "explanation": { "en": "The gaps between letters grow by 1 each time: C(+3)F(+4)J(+5)O(+6)U. Checking positions: C=3, F=6, J=10, O=15, so O+6=21=U.", "hi": "अक्षरों के बीच का अंतर हर बार 1 बढ़ता है: C(+3)F(+4)J(+5)O(+6)U। स्थिति जाँचें: C=3, F=6, J=10, O=15, इसलिए O+6=21=U।", "mr": "अक्षरांमधील फरक प्रत्येक वेळी 1 ने वाढतो: C(+3)F(+4)J(+5)O(+6)U. स्थान पडताळा: C=3, F=6, J=10, O=15, म्हणून O+6=21=U." },
       "distractorAnalysis": {
-        "0": { "en": "Uses a gap of 4 instead of the required 6.", "hi": "आवश्यक 6 के बजाय 4 का अंतर प्रयोग किया।" },
-        "2": { "en": "Uses a gap of 7, one step too far.", "hi": "एक कदम अधिक बढ़ते हुए 7 का अंतर प्रयोग किया।" },
-        "3": { "en": "Uses a gap of 5, repeating the previous increment.", "hi": "पिछली वृद्धि दोहराते हुए 5 का अंतर प्रयोग किया।" }
+        "0": { "en": "Uses a gap of 4 instead of the required 6 (O+4=19=S).", "hi": "आवश्यक 6 के बजाय 4 का अंतर प्रयोग किया (O+4=19=S)।", "mr": "आवश्यक 6 ऐवजी 4 चा फरक वापरला (O+4=19=S)." },
+        "1": { "en": "Repeats the previous increment of 5 instead of advancing to 6 (O+5=20=T).", "hi": "6 तक बढ़ाने के बजाय पिछली वृद्धि 5 को दोहराया (O+5=20=T)।", "mr": "6 पर्यंत न वाढवता मागील वाढ 5 पुन्हा वापरली (O+5=20=T)." },
+        "3": { "en": "Uses a gap of 3, falling short of the required 6 (O+3=18=R).", "hi": "आवश्यक 6 से कम, 3 का अंतर प्रयोग किया (O+3=18=R)।", "mr": "आवश्यक 6 पेक्षा कमी, 3 चा फरक वापरला (O+3=18=R)." }
       }
     },
     {
       "key": "jnvst6-p2-ma-11",
       "year": 2026,
       "difficulty": "EASY",
-      "questionJson": { "en": "Find the odd one out: Rose, Lotus, Marigold, Mango", "hi": "असंगत को चुनें: गुलाब, कमल, गेंदा, आम" },
+      "questionJson": { "en": "Find the odd one out: Rose, Lotus, Marigold, Mango", "hi": "असंगत को चुनें: गुलाब, कमल, गेंदा, आम", "mr": "विजोड घटक निवडा: गुलाब, कमळ, झेंडू, आंबा" },
       "optionsJson": [
-        { "en": "Rose", "hi": "गुलाब" },
-        { "en": "Lotus", "hi": "कमल" },
-        { "en": "Marigold", "hi": "गेंदा" },
-        { "en": "Mango", "hi": "आम" }
+        { "en": "Rose", "hi": "गुलाब", "mr": "गुलाब" },
+        { "en": "Lotus", "hi": "कमल", "mr": "कमळ" },
+        { "en": "Marigold", "hi": "गेंदा", "mr": "झेंडू" },
+        { "en": "Mango", "hi": "आम", "mr": "आंबा" }
       ],
       "correctAnswer": 3,
-      "explanation": { "en": "Rose, Lotus and Marigold are flowers, while Mango is a fruit.", "hi": "गुलाब, कमल और गेंदा फूल हैं, जबकि आम एक फल है।" },
+      "explanation": { "en": "Rose, Lotus and Marigold are flowers, while Mango is a fruit.", "hi": "गुलाब, कमल और गेंदा फूल हैं, जबकि आम एक फल है।", "mr": "गुलाब, कमळ आणि झेंडू ही फुले आहेत, तर आंबा हे फळ आहे." },
       "distractorAnalysis": {
-        "0": { "en": "Rose is a flower, fitting the group.", "hi": "गुलाब एक फूल है, समूह में फिट बैठता है।" },
-        "1": { "en": "Lotus is a flower, fitting the group.", "hi": "कमल एक फूल है, समूह में फिट बैठता है।" },
-        "2": { "en": "Marigold is a flower, fitting the group.", "hi": "गेंदा एक फूल है, समूह में फिट बैठता है।" }
+        "0": { "en": "Rose is a flower, fitting the group.", "hi": "गुलाब एक फूल है, समूह में फिट बैठता है।", "mr": "गुलाब हे फूल आहे, गटात बसते." },
+        "1": { "en": "Lotus is a flower, fitting the group.", "hi": "कमल एक फूल है, समूह में फिट बैठता है।", "mr": "कमळ हे फूल आहे, गटात बसते." },
+        "2": { "en": "Marigold is a flower, fitting the group.", "hi": "गेंदा एक फूल है, समूह में फिट बैठता है।", "mr": "झेंडू हे फूल आहे, गटात बसते." }
       }
     },
     {
       "key": "jnvst6-p2-ma-12",
       "year": 2026,
       "difficulty": "EASY",
-      "questionJson": { "en": "Find the odd one out: Triangle, Square, Circle, Sphere", "hi": "असंगत को चुनें: त्रिभुज, वर्ग, वृत्त, गोला" },
+      "questionJson": { "en": "Find the odd one out: Triangle, Square, Circle, Sphere", "hi": "असंगत को चुनें: त्रिभुज, वर्ग, वृत्त, गोला", "mr": "विजोड घटक निवडा: त्रिकोण, चौरस, वृत्त, गोल" },
       "optionsJson": [
-        { "en": "Triangle", "hi": "त्रिभुज" },
-        { "en": "Square", "hi": "वर्ग" },
-        { "en": "Circle", "hi": "वृत्त" },
-        { "en": "Sphere", "hi": "गोला" }
+        { "en": "Triangle", "hi": "त्रिभुज", "mr": "त्रिकोण" },
+        { "en": "Square", "hi": "वर्ग", "mr": "चौरस" },
+        { "en": "Circle", "hi": "वृत्त", "mr": "वृत्त" },
+        { "en": "Sphere", "hi": "गोला", "mr": "गोल" }
       ],
       "correctAnswer": 3,
-      "explanation": { "en": "Triangle, Square and Circle are 2-D (flat) shapes, while Sphere is a 3-D (solid) shape.", "hi": "त्रिभुज, वर्ग और वृत्त द्वि-आयामी (सपाट) आकृतियाँ हैं, जबकि गोला त्रि-आयामी (ठोस) आकृति है।" },
+      "explanation": { "en": "Triangle, Square and Circle are 2-D (flat) shapes, while Sphere is a 3-D (solid) shape.", "hi": "त्रिभुज, वर्ग और वृत्त द्वि-आयामी (सपाट) आकृतियाँ हैं, जबकि गोला त्रि-आयामी (ठोस) आकृति है।", "mr": "त्रिकोण, चौरस आणि वृत्त ही द्विमितीय (सपाट) आकृती आहेत, तर गोल ही त्रिमितीय (घन) आकृती आहे." },
       "distractorAnalysis": {
-        "0": { "en": "Triangle is a flat shape, fitting the group.", "hi": "त्रिभुज एक सपाट आकृति है, समूह में फिट बैठता है।" },
-        "1": { "en": "Square is a flat shape, fitting the group.", "hi": "वर्ग एक सपाट आकृति है, समूह में फिट बैठता है।" },
-        "2": { "en": "Circle is a flat shape, fitting the group.", "hi": "वृत्त एक सपाट आकृति है, समूह में फिट बैठता है।" }
+        "0": { "en": "Triangle is a flat shape, fitting the group.", "hi": "त्रिभुज एक सपाट आकृति है, समूह में फिट बैठता है।", "mr": "त्रिकोण ही सपाट आकृती आहे, गटात बसते." },
+        "1": { "en": "Square is a flat shape, fitting the group.", "hi": "वर्ग एक सपाट आकृति है, समूह में फिट बैठता है।", "mr": "चौरस ही सपाट आकृती आहे, गटात बसते." },
+        "2": { "en": "Circle is a flat shape, fitting the group.", "hi": "वृत्त एक सपाट आकृति है, समूह में फिट बैठता है।", "mr": "वृत्त ही सपाट आकृती आहे, गटात बसते." }
       }
     },
     {
       "key": "jnvst6-p2-ma-13",
       "year": 2026,
       "difficulty": "MEDIUM",
-      "questionJson": { "en": "Find the odd one out: 8, 27, 64, 100", "hi": "असंगत को चुनें: 8, 27, 64, 100" },
+      "questionJson": { "en": "Find the odd one out: 8, 27, 64, 100", "hi": "असंगत को चुनें: 8, 27, 64, 100", "mr": "विजोड घटक निवडा: 8, 27, 64, 100" },
       "optionsJson": [
-        { "en": "8", "hi": "8" },
-        { "en": "27", "hi": "27" },
-        { "en": "64", "hi": "64" },
-        { "en": "100", "hi": "100" }
+        { "en": "8", "hi": "8", "mr": "8" },
+        { "en": "27", "hi": "27", "mr": "27" },
+        { "en": "64", "hi": "64", "mr": "64" },
+        { "en": "100", "hi": "100", "mr": "100" }
       ],
       "correctAnswer": 3,
-      "explanation": { "en": "8=2³, 27=3³, 64=4³ are perfect cubes, but 100 is not a perfect cube.", "hi": "8=2³, 27=3³, 64=4³ पूर्ण घन हैं, परंतु 100 पूर्ण घन नहीं है।" },
+      "explanation": { "en": "8=2³, 27=3³, 64=4³ are perfect cubes, but 100 is not a perfect cube.", "hi": "8=2³, 27=3³, 64=4³ पूर्ण घन हैं, परंतु 100 पूर्ण घन नहीं है।", "mr": "8=2³, 27=3³, 64=4³ हे पूर्ण घन आहेत, परंतु 100 पूर्ण घन नाही." },
       "distractorAnalysis": {
-        "0": { "en": "8 is a perfect cube, fitting the group.", "hi": "8 एक पूर्ण घन है, समूह में फिट बैठता है।" },
-        "1": { "en": "27 is a perfect cube, fitting the group.", "hi": "27 एक पूर्ण घन है, समूह में फिट बैठता है।" },
-        "2": { "en": "64 is a perfect cube, fitting the group.", "hi": "64 एक पूर्ण घन है, समूह में फिट बैठता है।" }
+        "0": { "en": "8 is a perfect cube, fitting the group.", "hi": "8 एक पूर्ण घन है, समूह में फिट बैठता है।", "mr": "8 हा पूर्ण घन आहे, गटात बसतो." },
+        "1": { "en": "27 is a perfect cube, fitting the group.", "hi": "27 एक पूर्ण घन है, समूह में फिट बैठता है।", "mr": "27 हा पूर्ण घन आहे, गटात बसतो." },
+        "2": { "en": "64 is a perfect cube, fitting the group.", "hi": "64 एक पूर्ण घन है, समूह में फिट बैठता है।", "mr": "64 हा पूर्ण घन आहे, गटात बसतो." }
       }
     },
     {
       "key": "jnvst6-p2-ma-14",
       "year": 2026,
       "difficulty": "EASY",
-      "questionJson": { "en": "Find the odd one out: Delhi, Mumbai, Kolkata, India", "hi": "असंगत को चुनें: दिल्ली, मुंबई, कोलकाता, भारत" },
+      "questionJson": { "en": "Find the odd one out: Delhi, Mumbai, Kolkata, India", "hi": "असंगत को चुनें: दिल्ली, मुंबई, कोलकाता, भारत", "mr": "विजोड घटक निवडा: दिल्ली, मुंबई, कोलकाता, भारत" },
       "optionsJson": [
-        { "en": "Delhi", "hi": "दिल्ली" },
-        { "en": "Mumbai", "hi": "मुंबई" },
-        { "en": "Kolkata", "hi": "कोलकाता" },
-        { "en": "India", "hi": "भारत" }
+        { "en": "Delhi", "hi": "दिल्ली", "mr": "दिल्ली" },
+        { "en": "Mumbai", "hi": "मुंबई", "mr": "मुंबई" },
+        { "en": "Kolkata", "hi": "कोलकाता", "mr": "कोलकाता" },
+        { "en": "India", "hi": "भारत", "mr": "भारत" }
       ],
       "correctAnswer": 3,
-      "explanation": { "en": "Delhi, Mumbai and Kolkata are cities, while India is a country.", "hi": "दिल्ली, मुंबई और कोलकाता शहर हैं, जबकि भारत एक देश है।" },
+      "explanation": { "en": "Delhi, Mumbai and Kolkata are cities, while India is a country.", "hi": "दिल्ली, मुंबई और कोलकाता शहर हैं, जबकि भारत एक देश है।", "mr": "दिल्ली, मुंबई आणि कोलकाता ही शहरे आहेत, तर भारत हा देश आहे." },
       "distractorAnalysis": {
-        "0": { "en": "Delhi is a city, fitting the group.", "hi": "दिल्ली एक शहर है, समूह में फिट बैठता है।" },
-        "1": { "en": "Mumbai is a city, fitting the group.", "hi": "मुंबई एक शहर है, समूह में फिट बैठता है।" },
-        "2": { "en": "Kolkata is a city, fitting the group.", "hi": "कोलकाता एक शहर है, समूह में फिट बैठता है।" }
+        "0": { "en": "Delhi is a city, fitting the group.", "hi": "दिल्ली एक शहर है, समूह में फिट बैठता है।", "mr": "दिल्ली हे शहर आहे, गटात बसते." },
+        "1": { "en": "Mumbai is a city, fitting the group.", "hi": "मुंबई एक शहर है, समूह में फिट बैठता है।", "mr": "मुंबई हे शहर आहे, गटात बसते." },
+        "2": { "en": "Kolkata is a city, fitting the group.", "hi": "कोलकाता एक शहर है, समूह में फिट बैठता है।", "mr": "कोलकाता हे शहर आहे, गटात बसते." }
       }
     },
     {
       "key": "jnvst6-p2-ma-15",
       "year": 2026,
       "difficulty": "MEDIUM",
-      "questionJson": { "en": "Find the odd one out: Knife, Spoon, Fork, Plate", "hi": "असंगत को चुनें: चाकू, चम्मच, कांटा, प्लेट" },
+      "questionJson": { "en": "Find the odd one out: Knife, Spoon, Fork, Plate", "hi": "असंगत को चुनें: चाकू, चम्मच, कांटा, प्लेट", "mr": "विजोड घटक निवडा: सुरी, चमचा, काटा, ताट" },
       "optionsJson": [
-        { "en": "Knife", "hi": "चाकू" },
-        { "en": "Spoon", "hi": "चम्मच" },
-        { "en": "Fork", "hi": "कांटा" },
-        { "en": "Plate", "hi": "प्लेट" }
+        { "en": "Knife", "hi": "चाकू", "mr": "सुरी" },
+        { "en": "Spoon", "hi": "चम्मच", "mr": "चमचा" },
+        { "en": "Fork", "hi": "कांटा", "mr": "काटा" },
+        { "en": "Plate", "hi": "प्लेट", "mr": "ताट" }
       ],
       "correctAnswer": 3,
-      "explanation": { "en": "Knife, Spoon and Fork are cutlery used to eat with; a Plate is used to hold food, not eat with.", "hi": "चाकू, चम्मच और कांटा खाने के लिए उपयोग किए जाने वाले बर्तन हैं; प्लेट भोजन रखने के लिए है, खाने के लिए नहीं।" },
+      "explanation": { "en": "Knife, Spoon and Fork are cutlery used to eat with; a Plate is used to hold food, not eat with.", "hi": "चाकू, चम्मच और कांटा खाने के लिए उपयोग किए जाने वाले बर्तन हैं; प्लेट भोजन रखने के लिए है, खाने के लिए नहीं।", "mr": "सुरी, चमचा आणि काटा ही खाण्यासाठी वापरली जाणारी उपकरणे आहेत; ताट अन्न ठेवण्यासाठी वापरले जाते, खाण्यासाठी नाही." },
       "distractorAnalysis": {
-        "0": { "en": "Knife is cutlery, fitting the group.", "hi": "चाकू एक बर्तन है, समूह में फिट बैठता है।" },
-        "1": { "en": "Spoon is cutlery, fitting the group.", "hi": "चम्मच एक बर्तन है, समूह में फिट बैठता है।" },
-        "2": { "en": "Fork is cutlery, fitting the group.", "hi": "कांटा एक बर्तन है, समूह में फिट बैठता है।" }
+        "0": { "en": "Knife is cutlery, fitting the group.", "hi": "चाकू एक बर्तन है, समूह में फिट बैठता है।", "mr": "सुरी हे खाण्याचे उपकरण आहे, गटात बसते." },
+        "1": { "en": "Spoon is cutlery, fitting the group.", "hi": "चम्मच एक बर्तन है, समूह में फिट बैठता है।", "mr": "चमचा हे खाण्याचे उपकरण आहे, गटात बसते." },
+        "2": { "en": "Fork is cutlery, fitting the group.", "hi": "कांटा एक बर्तन है, समूह में फिट बैठता है।", "mr": "काटा हे खाण्याचे उपकरण आहे, गटात बसते." }
       }
     },
     {
       "key": "jnvst6-p2-ma-16",
       "year": 2026,
       "difficulty": "EASY",
-      "questionJson": { "en": "Hand is to Glove as Foot is to ?", "hi": "हाथ का संबंध दस्ताने से है, जैसे पैर का संबंध किससे है?" },
+      "questionJson": { "en": "Hand is to Glove as Foot is to ?", "hi": "हाथ का संबंध दस्ताने से है, जैसे पैर का संबंध किससे है?", "mr": "हात-हातमोजा यांचे नाते जसे आहे, तसे पाय-कशाचे नाते आहे?" },
       "optionsJson": [
-        { "en": "Shoe", "hi": "जूता" },
-        { "en": "Leg", "hi": "टांग" },
-        { "en": "Sock", "hi": "मोजा" },
-        { "en": "Toe", "hi": "पैर की उंगली" }
+        { "en": "Shoe", "hi": "जूता", "mr": "बूट" },
+        { "en": "Leg", "hi": "टांग", "mr": "टांग" },
+        { "en": "Sock", "hi": "मोजा", "mr": "मोजा" },
+        { "en": "Toe", "hi": "पैर की उंगली", "mr": "पायाचे बोट" }
       ],
       "correctAnswer": 0,
-      "explanation": { "en": "A glove covers and protects the hand; a shoe covers and protects the foot in the same way.", "hi": "दस्ताना हाथ को ढकता और सुरक्षित रखता है; जूता उसी तरह पैर को ढकता और सुरक्षित रखता है।" },
+      "explanation": { "en": "A glove covers and protects the hand; a shoe covers and protects the foot in the same way.", "hi": "दस्ताना हाथ को ढकता और सुरक्षित रखता है; जूता उसी तरह पैर को ढकता और सुरक्षित रखता है।", "mr": "हातमोजा हाताला झाकतो आणि सुरक्षित ठेवतो; बूट त्याच प्रकारे पायाला झाकतो आणि सुरक्षित ठेवतो." },
       "distractorAnalysis": {
-        "1": { "en": "Leg is the body part itself, not a covering, so it doesn't match the glove-hand relationship.", "hi": "टांग शरीर का अंग है, आवरण नहीं, इसलिए दस्ताने-हाथ के संबंध से मेल नहीं खाता।" },
-        "2": { "en": "A sock is worn on the foot but a shoe is the closer match to a protective glove.", "hi": "मोजा पैर में पहना जाता है पर जूता सुरक्षात्मक दस्ताने से अधिक मेल खाता है।" },
-        "3": { "en": "Toe is a part of the foot, not a covering for it.", "hi": "पैर की उंगली पैर का हिस्सा है, उसका आवरण नहीं।" }
+        "1": { "en": "Leg is the body part itself, not a covering, so it doesn't match the glove-hand relationship.", "hi": "टांग शरीर का अंग है, आवरण नहीं, इसलिए दस्ताने-हाथ के संबंध से मेल नहीं खाता।", "mr": "टांग हा शरीराचा भागच आहे, आवरण नाही, म्हणून तो हातमोजा-हात या नात्याशी जुळत नाही." },
+        "2": { "en": "A sock is worn on the foot but a shoe is the closer match to a protective glove.", "hi": "मोजा पैर में पहना जाता है पर जूता सुरक्षात्मक दस्ताने से अधिक मेल खाता है।", "mr": "मोजा पायात घातला जातो पण बूट हा सुरक्षात्मक हातमोजाशी अधिक जवळचा जुळतो." },
+        "3": { "en": "Toe is a part of the foot, not a covering for it.", "hi": "पैर की उंगली पैर का हिस्सा है, उसका आवरण नहीं।", "mr": "पायाचे बोट हा पायाचा भाग आहे, त्याचे आवरण नाही." }
       }
     },
     {
       "key": "jnvst6-p2-ma-17",
       "year": 2026,
       "difficulty": "EASY",
-      "questionJson": { "en": "Doctor is to Hospital as Teacher is to ?", "hi": "डॉक्टर का संबंध अस्पताल से है, जैसे शिक्षक का संबंध किससे है?" },
+      "questionJson": { "en": "Doctor is to Hospital as Teacher is to ?", "hi": "डॉक्टर का संबंध अस्पताल से है, जैसे शिक्षक का संबंध किससे है?", "mr": "डॉक्टर-रुग्णालय यांचे नाते जसे आहे, तसे शिक्षक-कशाचे नाते आहे?" },
       "optionsJson": [
-        { "en": "Book", "hi": "किताब" },
-        { "en": "School", "hi": "विद्यालय" },
-        { "en": "Student", "hi": "छात्र" },
-        { "en": "Chalk", "hi": "चॉक" }
+        { "en": "Book", "hi": "किताब", "mr": "पुस्तक" },
+        { "en": "School", "hi": "विद्यालय", "mr": "शाळा" },
+        { "en": "Student", "hi": "छात्र", "mr": "विद्यार्थी" },
+        { "en": "Chalk", "hi": "चॉक", "mr": "खडू" }
       ],
       "correctAnswer": 1,
-      "explanation": { "en": "A Doctor works at a Hospital; a Teacher works at a School.", "hi": "डॉक्टर अस्पताल में काम करता है; शिक्षक विद्यालय में काम करता है।" },
+      "explanation": { "en": "A Doctor works at a Hospital; a Teacher works at a School.", "hi": "डॉक्टर अस्पताल में काम करता है; शिक्षक विद्यालय में काम करता है।", "mr": "डॉक्टर रुग्णालयात काम करतो; शिक्षक शाळेत काम करतो." },
       "distractorAnalysis": {
-        "0": { "en": "A book is a tool the teacher uses, not the place of work.", "hi": "किताब शिक्षक द्वारा उपयोग किया जाने वाला साधन है, कार्यस्थल नहीं।" },
-        "2": { "en": "Student is who the teacher works with, not the workplace.", "hi": "छात्र वह है जिसके साथ शिक्षक काम करता है, कार्यस्थल नहीं।" },
-        "3": { "en": "Chalk is a tool the teacher uses, not the workplace.", "hi": "चॉक शिक्षक द्वारा उपयोग किया जाने वाला साधन है, कार्यस्थल नहीं।" }
+        "0": { "en": "A book is a tool the teacher uses, not the place of work.", "hi": "किताब शिक्षक द्वारा उपयोग किया जाने वाला साधन है, कार्यस्थल नहीं।", "mr": "पुस्तक हे शिक्षक वापरत असलेले साधन आहे, कामाचे ठिकाण नाही." },
+        "2": { "en": "Student is who the teacher works with, not the workplace.", "hi": "छात्र वह है जिसके साथ शिक्षक काम करता है, कार्यस्थल नहीं।", "mr": "विद्यार्थी ही व्यक्ती आहे ज्यासोबत शिक्षक काम करतो, कामाचे ठिकाण नाही." },
+        "3": { "en": "Chalk is a tool the teacher uses, not the workplace.", "hi": "चॉक शिक्षक द्वारा उपयोग किया जाने वाला साधन है, कार्यस्थल नहीं।", "mr": "खडू हे शिक्षक वापरत असलेले साधन आहे, कामाचे ठिकाण नाही." }
       }
     },
     {
       "key": "jnvst6-p2-ma-18",
       "year": 2026,
       "difficulty": "MEDIUM",
-      "questionJson": { "en": "Bird is to Nest as Man is to ?", "hi": "पक्षी का संबंध घोंसले से है, जैसे मनुष्य का संबंध किससे है?" },
+      "questionJson": { "en": "Bird is to Nest as Man is to ?", "hi": "पक्षी का संबंध घोंसले से है, जैसे मनुष्य का संबंध किससे है?", "mr": "पक्षी-घरटे यांचे नाते जसे आहे, तसे मनुष्य-कशाचे नाते आहे?" },
       "optionsJson": [
-        { "en": "House", "hi": "घर" },
-        { "en": "Sky", "hi": "आकाश" },
-        { "en": "Tree", "hi": "पेड़" },
-        { "en": "Cage", "hi": "पिंजरा" }
+        { "en": "House", "hi": "घर", "mr": "घर" },
+        { "en": "Sky", "hi": "आकाश", "mr": "आकाश" },
+        { "en": "Tree", "hi": "पेड़", "mr": "झाड" },
+        { "en": "Cage", "hi": "पिंजरा", "mr": "पिंजरा" }
       ],
       "correctAnswer": 0,
-      "explanation": { "en": "A Nest is a bird's dwelling place; a House is a man's dwelling place.", "hi": "घोंसला पक्षी का निवास स्थान है; घर मनुष्य का निवास स्थान है।" },
+      "explanation": { "en": "A Nest is a bird's dwelling place; a House is a man's dwelling place.", "hi": "घोंसला पक्षी का निवास स्थान है; घर मनुष्य का निवास स्थान है।", "mr": "घरटे हे पक्ष्याचे निवासस्थान आहे; घर हे मनुष्याचे निवासस्थान आहे." },
       "distractorAnalysis": {
-        "1": { "en": "Sky is where a bird flies, not a dwelling place.", "hi": "आकाश वह है जहाँ पक्षी उड़ता है, निवास स्थान नहीं।" },
-        "2": { "en": "A tree may hold a nest, but is not itself the dwelling for a man.", "hi": "पेड़ पर घोंसला हो सकता है, पर वह मनुष्य के लिए निवास नहीं है।" },
-        "3": { "en": "A cage confines a bird; it is not a natural dwelling for a man.", "hi": "पिंजरा पक्षी को बंद रखता है; यह मनुष्य के लिए स्वाभाविक निवास नहीं है।" }
+        "1": { "en": "Sky is where a bird flies, not a dwelling place.", "hi": "आकाश वह है जहाँ पक्षी उड़ता है, निवास स्थान नहीं।", "mr": "आकाश म्हणजे जिथे पक्षी उडतो, निवासस्थान नाही." },
+        "2": { "en": "A tree may hold a nest, but is not itself the dwelling for a man.", "hi": "पेड़ पर घोंसला हो सकता है, पर वह मनुष्य के लिए निवास नहीं है।", "mr": "झाडावर घरटे असू शकते, पण ते स्वतः मनुष्यासाठी निवासस्थान नाही." },
+        "3": { "en": "A cage confines a bird; it is not a natural dwelling for a man.", "hi": "पिंजरा पक्षी को बंद रखता है; यह मनुष्य के लिए स्वाभाविक निवास नहीं है।", "mr": "पिंजरा पक्ष्याला बंद ठेवतो; ते मनुष्यासाठी नैसर्गिक निवासस्थान नाही." }
       }
     },
     {
       "key": "jnvst6-p2-ma-19",
       "year": 2026,
       "difficulty": "MEDIUM",
-      "questionJson": { "en": "Pen is to Write as Scissors is to ?", "hi": "कलम का संबंध लिखने से है, जैसे कैंची का संबंध किससे है?" },
+      "questionJson": { "en": "Pen is to Write as Scissors is to ?", "hi": "कलम का संबंध लिखने से है, जैसे कैंची का संबंध किससे है?", "mr": "पेन-लिहिणे यांचे नाते जसे आहे, तसे कात्री-कशाचे नाते आहे?" },
       "optionsJson": [
-        { "en": "Cut", "hi": "काटना" },
-        { "en": "Paper", "hi": "कागज़" },
-        { "en": "Sharp", "hi": "तेज़" },
-        { "en": "Fold", "hi": "मोड़ना" }
+        { "en": "Cut", "hi": "काटना", "mr": "कापणे" },
+        { "en": "Paper", "hi": "कागज़", "mr": "कागद" },
+        { "en": "Sharp", "hi": "तेज़", "mr": "तीक्ष्ण" },
+        { "en": "Fold", "hi": "मोड़ना", "mr": "घडी घालणे" }
       ],
       "correctAnswer": 0,
-      "explanation": { "en": "A Pen is used to Write; Scissors are used to Cut.", "hi": "कलम का उपयोग लिखने के लिए होता है; कैंची का उपयोग काटने के लिए होता है।" },
+      "explanation": { "en": "A Pen is used to Write; Scissors are used to Cut.", "hi": "कलम का उपयोग लिखने के लिए होता है; कैंची का उपयोग काटने के लिए होता है।", "mr": "पेन लिहिण्यासाठी वापरले जाते; कात्री कापण्यासाठी वापरली जाते." },
       "distractorAnalysis": {
-        "1": { "en": "Paper is an object scissors act on, not the action itself.", "hi": "कागज़ वह वस्तु है जिस पर कैंची काम करती है, क्रिया नहीं।" },
-        "2": { "en": "Sharp describes a property of scissors, not the action performed.", "hi": "तेज़ कैंची का गुण बताता है, की गई क्रिया नहीं।" },
-        "3": { "en": "Fold is a different action, not what scissors primarily do.", "hi": "मोड़ना एक अलग क्रिया है, जो कैंची मुख्यतः नहीं करती।" }
+        "1": { "en": "Paper is an object scissors act on, not the action itself.", "hi": "कागज़ वह वस्तु है जिस पर कैंची काम करती है, क्रिया नहीं।", "mr": "कागद ही वस्तू आहे जिच्यावर कात्री काम करते, ती क्रिया स्वतः नाही." },
+        "2": { "en": "Sharp describes a property of scissors, not the action performed.", "hi": "तेज़ कैंची का गुण बताता है, की गई क्रिया नहीं।", "mr": "तीक्ष्ण हा कात्रीचा गुणधर्म सांगतो, केलेली क्रिया नाही." },
+        "3": { "en": "Fold is a different action, not what scissors primarily do.", "hi": "मोड़ना एक अलग क्रिया है, जो कैंची मुख्यतः नहीं करती।", "mr": "घडी घालणे ही वेगळी क्रिया आहे, जी कात्री मुख्यतः करत नाही." }
       }
     },
     {
       "key": "jnvst6-p2-ma-20",
       "year": 2026,
       "difficulty": "HARD",
-      "questionJson": { "en": "Fish is to Water as Bird is to ?", "hi": "मछली का संबंध पानी से है, जैसे पक्षी का संबंध किससे है?" },
+      "questionJson": { "en": "Fish is to Water as Bird is to ?", "hi": "मछली का संबंध पानी से है, जैसे पक्षी का संबंध किससे है?", "mr": "मासा-पाणी यांचे नाते जसे आहे, तसे पक्षी-कशाचे नाते आहे?" },
       "optionsJson": [
-        { "en": "Nest", "hi": "घोंसला" },
-        { "en": "Air", "hi": "हवा" },
-        { "en": "Feather", "hi": "पंख" },
-        { "en": "Tree", "hi": "पेड़" }
+        { "en": "Nest", "hi": "घोंसला", "mr": "घरटे" },
+        { "en": "Air", "hi": "हवा", "mr": "हवा" },
+        { "en": "Feather", "hi": "पंख", "mr": "पंख" },
+        { "en": "Tree", "hi": "पेड़", "mr": "झाड" }
       ],
       "correctAnswer": 1,
-      "explanation": { "en": "Water is the natural medium a fish lives and moves in; Air is the natural medium a bird lives and flies in.", "hi": "पानी वह स्वाभाविक माध्यम है जिसमें मछली रहती और चलती है; हवा वह स्वाभाविक माध्यम है जिसमें पक्षी रहता और उड़ता है।" },
+      "explanation": { "en": "Water is the natural medium a fish lives and moves in; Air is the natural medium a bird lives and flies in.", "hi": "पानी वह स्वाभाविक माध्यम है जिसमें मछली रहती और चलती है; हवा वह स्वाभाविक माध्यम है जिसमें पक्षी रहता और उड़ता है।", "mr": "पाणी हे माशाचे नैसर्गिक माध्यम आहे ज्यात तो राहतो आणि फिरतो; हवा हे पक्ष्याचे नैसर्गिक माध्यम आहे ज्यात तो राहतो आणि उडतो." },
       "distractorAnalysis": {
-        "0": { "en": "A nest is a dwelling place, not the medium the bird moves through.", "hi": "घोंसला निवास स्थान है, वह माध्यम नहीं जिसमें पक्षी चलता है।" },
-        "2": { "en": "Feather is a body part of the bird, not its living medium.", "hi": "पंख पक्षी के शरीर का अंग है, उसका जीवन-माध्यम नहीं।" },
-        "3": { "en": "A tree is a resting place, not the medium the bird moves through.", "hi": "पेड़ विश्राम स्थान है, वह माध्यम नहीं जिसमें पक्षी चलता है।" }
+        "0": { "en": "A nest is a dwelling place, not the medium the bird moves through.", "hi": "घोंसला निवास स्थान है, वह माध्यम नहीं जिसमें पक्षी चलता है।", "mr": "घरटे हे निवासस्थान आहे, ते माध्यम नाही ज्यातून पक्षी फिरतो." },
+        "2": { "en": "Feather is a body part of the bird, not its living medium.", "hi": "पंख पक्षी के शरीर का अंग है, उसका जीवन-माध्यम नहीं।", "mr": "पंख हा पक्ष्याच्या शरीराचा भाग आहे, त्याचे जीवन-माध्यम नाही." },
+        "3": { "en": "A tree is a resting place, not the medium the bird moves through.", "hi": "पेड़ विश्राम स्थान है, वह माध्यम नहीं जिसमें पक्षी चलता है।", "mr": "झाड हे विश्रांतीचे ठिकाण आहे, ते माध्यम नाही ज्यातून पक्षी फिरतो." }
       }
     },
     {
       "key": "jnvst6-p2-ma-21",
       "year": 2026,
       "difficulty": "EASY",
-      "questionJson": { "en": "In a certain code, CAT is written as DBU. How is DOG written in that code?", "hi": "एक निश्चित कूट भाषा में CAT को DBU लिखा जाता है। उसी कूट भाषा में DOG को कैसे लिखा जाएगा?" },
+      "questionJson": { "en": "In a certain code, CAT is written as DBU. How is DOG written in that code?", "hi": "एक निश्चित कूट भाषा में CAT को DBU लिखा जाता है। उसी कूट भाषा में DOG को कैसे लिखा जाएगा?", "mr": "एका ठराविक कूट भाषेत CAT ला DBU असे लिहिले जाते. त्याच कूट भाषेत DOG कसे लिहिले जाईल?" },
       "optionsJson": [
-        { "en": "EPH", "hi": "EPH" },
-        { "en": "EQH", "hi": "EQH" },
-        { "en": "FPH", "hi": "FPH" },
-        { "en": "EPI", "hi": "EPI" }
+        { "en": "EPH", "hi": "EPH", "mr": "EPH" },
+        { "en": "EQH", "hi": "EQH", "mr": "EQH" },
+        { "en": "FPH", "hi": "FPH", "mr": "FPH" },
+        { "en": "EPI", "hi": "EPI", "mr": "EPI" }
       ],
       "correctAnswer": 0,
-      "explanation": { "en": "Each letter shifts forward by 1: C→D, A→B, T→U. Applying to DOG: D→E, O→P, G→H, giving EPH.", "hi": "प्रत्येक अक्षर 1 आगे खिसकता है: C→D, A→B, T→U। DOG पर लागू करने पर: D→E, O→P, G→H, अर्थात EPH।" },
+      "explanation": { "en": "Each letter shifts forward by 1: C→D, A→B, T→U. Applying to DOG: D→E, O→P, G→H, giving EPH.", "hi": "प्रत्येक अक्षर 1 आगे खिसकता है: C→D, A→B, T→U। DOG पर लागू करने पर: D→E, O→P, G→H, अर्थात EPH।", "mr": "प्रत्येक अक्षर 1 पुढे सरकते: C→D, A→B, T→U. DOG वर लागू केल्यास: D→E, O→P, G→H, म्हणजे EPH." },
       "distractorAnalysis": {
-        "1": { "en": "Shifts the middle letter by 2 instead of 1.", "hi": "बीच के अक्षर को 1 के बजाय 2 खिसकाया।" },
-        "2": { "en": "Shifts the first letter by 2 instead of 1.", "hi": "पहले अक्षर को 1 के बजाय 2 खिसकाया।" },
-        "3": { "en": "Shifts the last letter by 2 instead of 1.", "hi": "अंतिम अक्षर को 1 के बजाय 2 खिसकाया।" }
+        "1": { "en": "Shifts the middle letter by 2 instead of 1.", "hi": "बीच के अक्षर को 1 के बजाय 2 खिसकाया।", "mr": "मधल्या अक्षराला 1 ऐवजी 2 सरकवले." },
+        "2": { "en": "Shifts the first letter by 2 instead of 1.", "hi": "पहले अक्षर को 1 के बजाय 2 खिसकाया।", "mr": "पहिल्या अक्षराला 1 ऐवजी 2 सरकवले." },
+        "3": { "en": "Shifts the last letter by 2 instead of 1.", "hi": "अंतिम अक्षर को 1 के बजाय 2 खिसकाया।", "mr": "शेवटच्या अक्षराला 1 ऐवजी 2 सरकवले." }
       }
     },
     {
       "key": "jnvst6-p2-ma-22",
       "year": 2026,
       "difficulty": "MEDIUM",
-      "questionJson": { "en": "In a certain code, GARDEN is written as HBSEFO. How is FLOWER written in that code?", "hi": "एक निश्चित कूट भाषा में GARDEN को HBSEFO लिखा जाता है। उसी कूट भाषा में FLOWER को कैसे लिखा जाएगा?" },
+      "questionJson": { "en": "In a certain code, GARDEN is written as HBSEFO. How is FLOWER written in that code?", "hi": "एक निश्चित कूट भाषा में GARDEN को HBSEFO लिखा जाता है। उसी कूट भाषा में FLOWER को कैसे लिखा जाएगा?", "mr": "एका ठराविक कूट भाषेत GARDEN ला HBSEFO असे लिहिले जाते. त्याच कूट भाषेत FLOWER कसे लिहिले जाईल?" },
       "optionsJson": [
-        { "en": "GMPXFS", "hi": "GMPXFS" },
-        { "en": "GMPXFT", "hi": "GMPXFT" },
-        { "en": "GMPWFS", "hi": "GMPWFS" },
-        { "en": "FMPXFS", "hi": "FMPXFS" }
+        { "en": "GMPXFS", "hi": "GMPXFS", "mr": "GMPXFS" },
+        { "en": "GMPXFT", "hi": "GMPXFT", "mr": "GMPXFT" },
+        { "en": "GMPWFS", "hi": "GMPWFS", "mr": "GMPWFS" },
+        { "en": "FMPXFS", "hi": "FMPXFS", "mr": "FMPXFS" }
       ],
       "correctAnswer": 0,
-      "explanation": { "en": "Every letter is shifted forward by 1: F→G, L→M, O→P, W→X, E→F, R→S, giving GMPXFS.", "hi": "प्रत्येक अक्षर 1 आगे खिसकता है: F→G, L→M, O→P, W→X, E→F, R→S, अर्थात GMPXFS।" },
+      "explanation": { "en": "Every letter is shifted forward by 1: F→G, L→M, O→P, W→X, E→F, R→S, giving GMPXFS.", "hi": "प्रत्येक अक्षर 1 आगे खिसकता है: F→G, L→M, O→P, W→X, E→F, R→S, अर्थात GMPXFS।", "mr": "प्रत्येक अक्षर 1 पुढे सरकते: F→G, L→M, O→P, W→X, E→F, R→S, म्हणजे GMPXFS." },
       "distractorAnalysis": {
-        "1": { "en": "Shifts the last letter by 2 instead of 1.", "hi": "अंतिम अक्षर को 1 के बजाय 2 खिसकाया।" },
-        "2": { "en": "Fails to shift the fourth letter (W stays W instead of becoming X).", "hi": "चौथे अक्षर को नहीं खिसकाया (W, X बनने के बजाय W ही रहा)।" },
-        "3": { "en": "Fails to shift the first letter (F stays F instead of becoming G).", "hi": "पहले अक्षर को नहीं खिसकाया (F, G बनने के बजाय F ही रहा)।" }
+        "1": { "en": "Shifts the last letter by 2 instead of 1.", "hi": "अंतिम अक्षर को 1 के बजाय 2 खिसकाया।", "mr": "शेवटच्या अक्षराला 1 ऐवजी 2 सरकवले." },
+        "2": { "en": "Fails to shift the fourth letter (W stays W instead of becoming X).", "hi": "चौथे अक्षर को नहीं खिसकाया (W, X बनने के बजाय W ही रहा)।", "mr": "चौथे अक्षर सरकवले नाही (W चे X न होता W तसेच राहिले)." },
+        "3": { "en": "Fails to shift the first letter (F stays F instead of becoming G).", "hi": "पहले अक्षर को नहीं खिसकाया (F, G बनने के बजाय F ही रहा)।", "mr": "पहिले अक्षर सरकवले नाही (F चे G न होता F तसेच राहिले)." }
       }
     },
     {
       "key": "jnvst6-p2-ma-23",
       "year": 2026,
       "difficulty": "MEDIUM",
-      "questionJson": { "en": "If A=1, B=2, C=3, ... Z=26, what is the value of the word 'CAB'?", "hi": "यदि A=1, B=2, C=3, ... Z=26 है, तो 'CAB' शब्द का मान क्या है?" },
+      "questionJson": { "en": "If A=1, B=2, C=3, ... Z=26, what is the value of the word 'CAB'?", "hi": "यदि A=1, B=2, C=3, ... Z=26 है, तो 'CAB' शब्द का मान क्या है?", "mr": "जर A=1, B=2, C=3, ... Z=26 असेल, तर 'CAB' या शब्दाचे मूल्य किती?" },
       "optionsJson": [
-        { "en": "5", "hi": "5" },
-        { "en": "6", "hi": "6" },
-        { "en": "7", "hi": "7" },
-        { "en": "8", "hi": "8" }
+        { "en": "5", "hi": "5", "mr": "5" },
+        { "en": "6", "hi": "6", "mr": "6" },
+        { "en": "7", "hi": "7", "mr": "7" },
+        { "en": "8", "hi": "8", "mr": "8" }
       ],
       "correctAnswer": 1,
-      "explanation": { "en": "C=3, A=1, B=2. Sum = 3+1+2 = 6.", "hi": "C=3, A=1, B=2। योग = 3+1+2 = 6।" },
+      "explanation": { "en": "C=3, A=1, B=2. Sum = 3+1+2 = 6.", "hi": "C=3, A=1, B=2। योग = 3+1+2 = 6।", "mr": "C=3, A=1, B=2. एकूण = 3+1+2 = 6." },
       "distractorAnalysis": {
-        "0": { "en": "Misses one letter's value while adding (undercounts by 1).", "hi": "जोड़ते समय एक अक्षर का मान छूट गया (1 कम गिना)।" },
-        "2": { "en": "Adds an extra 1 by mistake.", "hi": "गलती से एक अतिरिक्त 1 जोड़ दिया।" },
-        "3": { "en": "Adds an extra 2 by mistake.", "hi": "गलती से एक अतिरिक्त 2 जोड़ दिया।" }
+        "0": { "en": "Misses one letter's value while adding (undercounts by 1).", "hi": "जोड़ते समय एक अक्षर का मान छूट गया (1 कम गिना)।", "mr": "बेरीज करताना एका अक्षराचे मूल्य चुकले (1 कमी मोजले)." },
+        "2": { "en": "Adds an extra 1 by mistake.", "hi": "गलती से एक अतिरिक्त 1 जोड़ दिया।", "mr": "चुकून एक जास्त 1 जोडले." },
+        "3": { "en": "Adds an extra 2 by mistake.", "hi": "गलती से एक अतिरिक्त 2 जोड़ दिया।", "mr": "चुकून एक जास्त 2 जोडले." }
       }
     },
     {
       "key": "jnvst6-p2-ma-24",
       "year": 2026,
       "difficulty": "EASY",
-      "questionJson": { "en": "In a certain code, 'BOOK' is written as '2151511'. How is 'GO' written?", "hi": "एक निश्चित कूट भाषा में 'BOOK' को '2151511' लिखा जाता है। 'GO' को कैसे लिखा जाएगा?" },
+      "questionJson": { "en": "In a certain code, 'BOOK' is written as '2151511'. How is 'GO' written?", "hi": "एक निश्चित कूट भाषा में 'BOOK' को '2151511' लिखा जाता है। 'GO' को कैसे लिखा जाएगा?", "mr": "एका ठराविक कूट भाषेत 'BOOK' ला '2151511' असे लिहिले जाते. 'GO' कसे लिहिले जाईल?" },
       "optionsJson": [
-        { "en": "715", "hi": "715" },
-        { "en": "617", "hi": "617" },
-        { "en": "715, but reversed as 517", "hi": "715, उलटा 517" },
-        { "en": "618", "hi": "618" }
+        { "en": "715", "hi": "715", "mr": "715" },
+        { "en": "617", "hi": "617", "mr": "617" },
+        { "en": "715, but reversed as 517", "hi": "715, उलटा 517", "mr": "715, उलटे 517" },
+        { "en": "618", "hi": "618", "mr": "618" }
       ],
       "correctAnswer": 0,
-      "explanation": { "en": "Each letter is coded by its alphabet position (B=2, O=15, O=15, K=11, written together as 2 15 15 11). Following the pattern: G=7, O=15, giving 7 15, written as 715.", "hi": "प्रत्येक अक्षर उसकी वर्णमाला स्थिति से कूटबद्ध है (B=2, O=15, O=15, K=11)। इसी तरह G=7, O=15, अर्थात 715।" },
+      "explanation": { "en": "Each letter is coded by its alphabet position (B=2, O=15, O=15, K=11, written together as 2 15 15 11). Following the pattern: G=7, O=15, giving 7 15, written as 715.", "hi": "प्रत्येक अक्षर उसकी वर्णमाला स्थिति से कूटबद्ध है (B=2, O=15, O=15, K=11)। इसी तरह G=7, O=15, अर्थात 715।", "mr": "प्रत्येक अक्षर त्याच्या वर्णमाला-स्थानानुसार कूटबद्ध आहे (B=2, O=15, O=15, K=11). त्याच पद्धतीने G=7, O=15, म्हणजे 715." },
       "distractorAnalysis": {
-        "1": { "en": "Uses the wrong position for G (should be 7, not 6).", "hi": "G के लिए गलत स्थिति (7 के बजाय 6) प्रयोग की।" },
-        "2": { "en": "Reverses the digits unnecessarily — the code doesn't reverse.", "hi": "अनावश्यक रूप से अंकों को उलट दिया — कूट में उलटाव नहीं होता।" },
-        "3": { "en": "Uses the wrong position for O (should be 15, not 18).", "hi": "O के लिए गलत स्थिति (15 के बजाय 18) प्रयोग की।" }
+        "1": { "en": "Uses the wrong position for G (should be 7, not 6).", "hi": "G के लिए गलत स्थिति (7 के बजाय 6) प्रयोग की।", "mr": "G साठी चुकीचे स्थान (7 ऐवजी 6) वापरले." },
+        "2": { "en": "Reverses the digits unnecessarily — the code doesn't reverse.", "hi": "अनावश्यक रूप से अंकों को उलट दिया — कूट में उलटाव नहीं होता।", "mr": "अनावश्यकपणे अंक उलटे केले — कूटात उलटवण्याची पद्धत नाही." },
+        "3": { "en": "Uses the wrong position for O (should be 15, not 18).", "hi": "O के लिए गलत स्थिति (15 के बजाय 18) प्रयोग की।", "mr": "O साठी चुकीचे स्थान (15 ऐवजी 18) वापरले." }
       }
     },
     {
       "key": "jnvst6-p2-ma-25",
       "year": 2026,
       "difficulty": "HARD",
-      "questionJson": { "en": "In a certain code language, TABLE is written as UBCMF. How is HOUSE written in that code?", "hi": "एक निश्चित कूट भाषा में TABLE को UBCMF लिखा जाता है। उसी कूट भाषा में HOUSE को कैसे लिखा जाएगा?" },
+      "questionJson": { "en": "In a certain code language, TABLE is written as UBCMF. How is HOUSE written in that code?", "hi": "एक निश्चित कूट भाषा में TABLE को UBCMF लिखा जाता है। उसी कूट भाषा में HOUSE को कैसे लिखा जाएगा?", "mr": "एका ठराविक कूट भाषेत TABLE ला UBCMF असे लिहिले जाते. त्याच कूट भाषेत HOUSE कसे लिहिले जाईल?" },
       "optionsJson": [
-        { "en": "IPVTF", "hi": "IPVTF" },
-        { "en": "IPUTF", "hi": "IPUTF" },
-        { "en": "GPVTF", "hi": "GPVTF" },
-        { "en": "IPVSF", "hi": "IPVSF" }
+        { "en": "IPVTF", "hi": "IPVTF", "mr": "IPVTF" },
+        { "en": "IPUTF", "hi": "IPUTF", "mr": "IPUTF" },
+        { "en": "GPVTF", "hi": "GPVTF", "mr": "GPVTF" },
+        { "en": "IPVSF", "hi": "IPVSF", "mr": "IPVSF" }
       ],
       "correctAnswer": 0,
-      "explanation": { "en": "Every letter shifts forward by 1: T→U, A→B, B→C, L→M, E→F. Applying to HOUSE: H→I, O→P, U→V, S→T, E→F, giving IPVTF.", "hi": "प्रत्येक अक्षर 1 आगे खिसकता है: T→U, A→B, B→C, L→M, E→F। HOUSE पर लागू करने पर: H→I, O→P, U→V, S→T, E→F, अर्थात IPVTF।" },
+      "explanation": { "en": "Every letter shifts forward by 1: T→U, A→B, B→C, L→M, E→F. Applying to HOUSE: H→I, O→P, U→V, S→T, E→F, giving IPVTF.", "hi": "प्रत्येक अक्षर 1 आगे खिसकता है: T→U, A→B, B→C, L→M, E→F। HOUSE पर लागू करने पर: H→I, O→P, U→V, S→T, E→F, अर्थात IPVTF।", "mr": "प्रत्येक अक्षर 1 पुढे सरकते: T→U, A→B, B→C, L→M, E→F. HOUSE वर लागू केल्यास: H→I, O→P, U→V, S→T, E→F, म्हणजे IPVTF." },
       "distractorAnalysis": {
-        "1": { "en": "Fails to shift the third letter (U stays U instead of becoming V).", "hi": "तीसरे अक्षर को नहीं खिसकाया (U, V बनने के बजाय U ही रहा)।" },
-        "2": { "en": "Fails to shift the first letter (H stays H instead of becoming I).", "hi": "पहले अक्षर को नहीं खिसकाया (H, I बनने के बजाय H ही रहा)।" },
-        "3": { "en": "Fails to shift the fourth letter (S stays S instead of becoming T).", "hi": "चौथे अक्षर को नहीं खिसकाया (S, T बनने के बजाय S ही रहा)।" }
+        "1": { "en": "Fails to shift the third letter (U stays U instead of becoming V).", "hi": "तीसरे अक्षर को नहीं खिसकाया (U, V बनने के बजाय U ही रहा)।", "mr": "तिसरे अक्षर सरकवले नाही (U चे V न होता U तसेच राहिले)." },
+        "2": { "en": "Fails to shift the first letter (H stays H instead of becoming I).", "hi": "पहले अक्षर को नहीं खिसकाया (H, I बनने के बजाय H ही रहा)।", "mr": "पहिले अक्षर सरकवले नाही (H चे I न होता H तसेच राहिले)." },
+        "3": { "en": "Fails to shift the fourth letter (S stays S instead of becoming T).", "hi": "चौथे अक्षर को नहीं खिसकाया (S, T बनने के बजाय S ही रहा)।", "mr": "चौथे अक्षर सरकवले नाही (S चे T न होता S तसेच राहिले)." }
       }
     },
     {
       "key": "jnvst6-p2-ma-26",
       "year": 2026,
       "difficulty": "EASY",
-      "questionJson": { "en": "Raju walks 5 km to the North, then turns right and walks 3 km. Which direction is he now facing?", "hi": "राजू 5 किमी उत्तर की ओर चलता है, फिर दायें मुड़कर 3 किमी चलता है। अब वह किस दिशा की ओर मुख किए हुए है?" },
+      "questionJson": { "en": "Raju walks 5 km to the North, then turns right and walks 3 km. Which direction is he now facing?", "hi": "राजू 5 किमी उत्तर की ओर चलता है, फिर दायें मुड़कर 3 किमी चलता है। अब वह किस दिशा की ओर मुख किए हुए है?", "mr": "राजू 5 किमी उत्तर दिशेला चालतो, नंतर उजवीकडे वळून 3 किमी चालतो. आता त्याचे तोंड कोणत्या दिशेला आहे?" },
       "optionsJson": [
-        { "en": "North", "hi": "उत्तर" },
-        { "en": "South", "hi": "दक्षिण" },
-        { "en": "East", "hi": "पूर्व" },
-        { "en": "West", "hi": "पश्चिम" }
+        { "en": "North", "hi": "उत्तर", "mr": "उत्तर" },
+        { "en": "South", "hi": "दक्षिण", "mr": "दक्षिण" },
+        { "en": "East", "hi": "पूर्व", "mr": "पूर्व" },
+        { "en": "West", "hi": "पश्चिम", "mr": "पश्चिम" }
       ],
       "correctAnswer": 2,
-      "explanation": { "en": "Facing North and turning right means he now faces East.", "hi": "उत्तर की ओर मुख करके दायें मुड़ने पर वह अब पूर्व की ओर मुख किए हुए है।" },
+      "explanation": { "en": "Facing North and turning right means he now faces East.", "hi": "उत्तर की ओर मुख करके दायें मुड़ने पर वह अब पूर्व की ओर मुख किए हुए है।", "mr": "उत्तरेकडे तोंड करून उजवीकडे वळल्यास आता त्याचे तोंड पूर्वेकडे आहे." },
       "distractorAnalysis": {
-        "0": { "en": "He was originally facing North but turned right, so his new direction has changed.", "hi": "वह मूल रूप से उत्तर की ओर था पर दायें मुड़ने से उसकी दिशा बदल गई है।" },
-        "1": { "en": "South is the opposite of his original direction, not a right turn from it.", "hi": "दक्षिण उसकी मूल दिशा के विपरीत है, दायें मुड़ने से नहीं मिलता।" },
-        "3": { "en": "West would result from a left turn, not a right turn, from North.", "hi": "पश्चिम उत्तर से बायें मुड़ने पर मिलता, दायें मुड़ने पर नहीं।" }
+        "0": { "en": "He was originally facing North but turned right, so his new direction has changed.", "hi": "वह मूल रूप से उत्तर की ओर था पर दायें मुड़ने से उसकी दिशा बदल गई है।", "mr": "तो मूळत: उत्तरेकडे तोंड करून होता पण उजवीकडे वळल्याने त्याची दिशा बदलली आहे." },
+        "1": { "en": "South is the opposite of his original direction, not a right turn from it.", "hi": "दक्षिण उसकी मूल दिशा के विपरीत है, दायें मुड़ने से नहीं मिलता।", "mr": "दक्षिण ही त्याच्या मूळ दिशेच्या विरुद्ध आहे, उजवीकडे वळल्याने मिळत नाही." },
+        "3": { "en": "West would result from a left turn, not a right turn, from North.", "hi": "पश्चिम उत्तर से बायें मुड़ने पर मिलता, दायें मुड़ने पर नहीं।", "mr": "पश्चिम उत्तरेकडून डावीकडे वळल्यास मिळेल, उजवीकडे वळल्यास नाही." }
       }
     },
     {
       "key": "jnvst6-p2-ma-27",
       "year": 2026,
       "difficulty": "MEDIUM",
-      "questionJson": { "en": "Meena starts from her house and walks 4 km South, then turns left and walks 4 km. She is now to which direction of her house?", "hi": "मीना अपने घर से चलती है और 4 किमी दक्षिण की ओर जाती है, फिर बायें मुड़कर 4 किमी चलती है। अब वह अपने घर से किस दिशा में है?" },
+      "questionJson": { "en": "Meena starts from her house and walks 4 km South, then turns left and walks 4 km. She is now to which direction of her house?", "hi": "मीना अपने घर से चलती है और 4 किमी दक्षिण की ओर जाती है, फिर बायें मुड़कर 4 किमी चलती है। अब वह अपने घर से किस दिशा में है?", "mr": "मीना तिच्या घरापासून निघून 4 किमी दक्षिणेकडे जाते, नंतर डावीकडे वळून 4 किमी चालते. आता ती तिच्या घरापासून कोणत्या दिशेला आहे?" },
       "optionsJson": [
-        { "en": "South-East", "hi": "दक्षिण-पूर्व" },
-        { "en": "South-West", "hi": "दक्षिण-पश्चिम" },
-        { "en": "North-East", "hi": "उत्तर-पूर्व" },
-        { "en": "North-West", "hi": "उत्तर-पश्चिम" }
+        { "en": "South-East", "hi": "दक्षिण-पूर्व", "mr": "दक्षिण-पूर्व" },
+        { "en": "South-West", "hi": "दक्षिण-पश्चिम", "mr": "दक्षिण-पश्चिम" },
+        { "en": "North-East", "hi": "उत्तर-पूर्व", "mr": "उत्तर-पूर्व" },
+        { "en": "North-West", "hi": "उत्तर-पश्चिम", "mr": "उत्तर-पश्चिम" }
       ],
       "correctAnswer": 0,
-      "explanation": { "en": "Facing South and turning left means she now faces East. She walked 4 km South then 4 km East, so she is South-East of her house.", "hi": "दक्षिण की ओर मुख करके बायें मुड़ने पर मुख पूर्व की ओर हो जाता है। वह 4 किमी दक्षिण और फिर 4 किमी पूर्व चली, इसलिए वह अपने घर से दक्षिण-पूर्व में है।" },
+      "explanation": { "en": "Facing South and turning left means she now faces East. She walked 4 km South then 4 km East, so she is South-East of her house.", "hi": "दक्षिण की ओर मुख करके बायें मुड़ने पर मुख पूर्व की ओर हो जाता है। वह 4 किमी दक्षिण और फिर 4 किमी पूर्व चली, इसलिए वह अपने घर से दक्षिण-पूर्व में है।", "mr": "दक्षिणेकडे तोंड करून डावीकडे वळल्यास तोंड पूर्वेकडे होते. ती 4 किमी दक्षिणेकडे आणि नंतर 4 किमी पूर्वेकडे चालली, म्हणून ती तिच्या घरापासून दक्षिण-पूर्वेला आहे." },
       "distractorAnalysis": {
-        "1": { "en": "This would be her position if she had turned right instead of left.", "hi": "यदि वह बायें के बजाय दायें मुड़ती तो यह उसकी स्थिति होती।" },
-        "2": { "en": "This reverses both her direction of travel incorrectly.", "hi": "यह उसकी यात्रा की दिशा को गलत तरीके से उलट देता है।" },
-        "3": { "en": "This mixes up the North-South leg of her journey.", "hi": "यह उसकी यात्रा के उत्तर-दक्षिण भाग को गड़बड़ा देता है।" }
+        "1": { "en": "This would be her position if she had turned right instead of left.", "hi": "यदि वह बायें के बजाय दायें मुड़ती तो यह उसकी स्थिति होती।", "mr": "जर तिने डावीकडे न वळता उजवीकडे वळले असते तर हे तिचे स्थान असते." },
+        "2": { "en": "This reverses both her direction of travel incorrectly.", "hi": "यह उसकी यात्रा की दिशा को गलत तरीके से उलट देता है।", "mr": "यामुळे तिच्या प्रवासाची दिशा चुकीच्या पद्धतीने उलटी होते." },
+        "3": { "en": "This mixes up the North-South leg of her journey.", "hi": "यह उसकी यात्रा के उत्तर-दक्षिण भाग को गड़बड़ा देता है।", "mr": "यामुळे तिच्या प्रवासाचा उत्तर-दक्षिण भाग गोंधळला जातो." }
       }
     },
     {
       "key": "jnvst6-p2-ma-28",
       "year": 2026,
       "difficulty": "EASY",
-      "questionJson": { "en": "A man walks 10 km towards East, then turns back and walks 4 km. How far is he from his starting point?", "hi": "एक व्यक्ति 10 किमी पूर्व की ओर चलता है, फिर वापस मुड़कर 4 किमी चलता है। वह अपने प्रारंभिक बिंदु से कितनी दूर है?" },
+      "questionJson": { "en": "A man walks 10 km towards East, then turns back and walks 4 km. How far is he from his starting point?", "hi": "एक व्यक्ति 10 किमी पूर्व की ओर चलता है, फिर वापस मुड़कर 4 किमी चलता है। वह अपने प्रारंभिक बिंदु से कितनी दूर है?", "mr": "एक माणूस 10 किमी पूर्वेकडे चालतो, नंतर मागे वळून 4 किमी चालतो. तो त्याच्या सुरुवातीच्या बिंदूपासून किती अंतरावर आहे?" },
       "optionsJson": [
-        { "en": "14 km", "hi": "14 किमी" },
-        { "en": "6 km", "hi": "6 किमी" },
-        { "en": "4 km", "hi": "4 किमी" },
-        { "en": "10 km", "hi": "10 किमी" }
+        { "en": "14 km", "hi": "14 किमी", "mr": "14 किमी" },
+        { "en": "6 km", "hi": "6 किमी", "mr": "6 किमी" },
+        { "en": "4 km", "hi": "4 किमी", "mr": "4 किमी" },
+        { "en": "10 km", "hi": "10 किमी", "mr": "10 किमी" }
       ],
       "correctAnswer": 1,
-      "explanation": { "en": "He walked 10 km East then 4 km back (West), so he is 10−4=6 km from the start.", "hi": "वह 10 किमी पूर्व और फिर 4 किमी वापस (पश्चिम) चला, इसलिए वह प्रारंभिक बिंदु से 10−4=6 किमी दूर है।" },
+      "explanation": { "en": "He walked 10 km East then 4 km back (West), so he is 10−4=6 km from the start.", "hi": "वह 10 किमी पूर्व और फिर 4 किमी वापस (पश्चिम) चला, इसलिए वह प्रारंभिक बिंदु से 10−4=6 किमी दूर है।", "mr": "तो 10 किमी पूर्वेकडे आणि नंतर 4 किमी मागे (पश्चिमेकडे) चालला, म्हणून तो सुरुवातीच्या बिंदूपासून 10−4=6 किमी अंतरावर आहे." },
       "distractorAnalysis": {
-        "0": { "en": "Adds the two distances instead of subtracting, as if he never turned back.", "hi": "जैसे वह वापस नहीं मुड़ा, दोनों दूरियों को घटाने के बजाय जोड़ दिया।" },
-        "2": { "en": "Only considers the return leg, ignoring the initial 10 km.", "hi": "प्रारंभिक 10 किमी को नजरअंदाज करते हुए केवल वापसी दूरी पर विचार किया।" },
-        "3": { "en": "Only considers the initial leg, ignoring that he walked back.", "hi": "यह भूलकर कि वह वापस चला, केवल प्रारंभिक दूरी पर विचार किया।" }
+        "0": { "en": "Adds the two distances instead of subtracting, as if he never turned back.", "hi": "जैसे वह वापस नहीं मुड़ा, दोनों दूरियों को घटाने के बजाय जोड़ दिया।", "mr": "जणू तो मागे वळलाच नाही असे समजून दोन अंतरे वजा न करता जोडली." },
+        "2": { "en": "Only considers the return leg, ignoring the initial 10 km.", "hi": "प्रारंभिक 10 किमी को नजरअंदाज करते हुए केवल वापसी दूरी पर विचार किया।", "mr": "सुरुवातीच्या 10 किमीकडे दुर्लक्ष करून फक्त परतीच्या अंतराचा विचार केला." },
+        "3": { "en": "Only considers the initial leg, ignoring that he walked back.", "hi": "यह भूलकर कि वह वापस चला, केवल प्रारंभिक दूरी पर विचार किया।", "mr": "तो मागे चालला हे विसरून फक्त सुरुवातीच्या अंतराचा विचार केला." }
       }
     },
     {
       "key": "jnvst6-p2-ma-29",
       "year": 2026,
       "difficulty": "MEDIUM",
-      "questionJson": { "en": "Facing North, Arjun turns 90° clockwise, then another 90° clockwise. Which direction is he facing now?", "hi": "उत्तर की ओर मुख किए हुए, अर्जुन 90° दक्षिणावर्त मुड़ता है, फिर एक और बार 90° दक्षिणावर्त मुड़ता है। अब वह किस दिशा में है?" },
+      "questionJson": { "en": "Facing North, Arjun turns 90° clockwise, then another 90° clockwise. Which direction is he facing now?", "hi": "उत्तर की ओर मुख किए हुए, अर्जुन 90° दक्षिणावर्त मुड़ता है, फिर एक और बार 90° दक्षिणावर्त मुड़ता है। अब वह किस दिशा में है?", "mr": "उत्तरेकडे तोंड करून अर्जुन 90° घड्याळाच्या दिशेने वळतो, नंतर पुन्हा 90° घड्याळाच्या दिशेने वळतो. आता त्याचे तोंड कोणत्या दिशेला आहे?" },
       "optionsJson": [
-        { "en": "East", "hi": "पूर्व" },
-        { "en": "West", "hi": "पश्चिम" },
-        { "en": "South", "hi": "दक्षिण" },
-        { "en": "North", "hi": "उत्तर" }
+        { "en": "East", "hi": "पूर्व", "mr": "पूर्व" },
+        { "en": "West", "hi": "पश्चिम", "mr": "पश्चिम" },
+        { "en": "South", "hi": "दक्षिण", "mr": "दक्षिण" },
+        { "en": "North", "hi": "उत्तर", "mr": "उत्तर" }
       ],
       "correctAnswer": 2,
-      "explanation": { "en": "North + 90° clockwise = East; East + 90° clockwise = South.", "hi": "उत्तर + 90° दक्षिणावर्त = पूर्व; पूर्व + 90° दक्षिणावर्त = दक्षिण।" },
+      "explanation": { "en": "North + 90° clockwise = East; East + 90° clockwise = South.", "hi": "उत्तर + 90° दक्षिणावर्त = पूर्व; पूर्व + 90° दक्षिणावर्त = दक्षिण।", "mr": "उत्तर + 90° घड्याळाच्या दिशेने = पूर्व; पूर्व + 90° घड्याळाच्या दिशेने = दक्षिण." },
       "distractorAnalysis": {
-        "0": { "en": "This is only his direction after the first turn, not both turns.", "hi": "यह केवल पहले मोड़ के बाद की दिशा है, दोनों मोड़ों के बाद नहीं।" },
-        "1": { "en": "West would result from two 90° anticlockwise turns, not clockwise.", "hi": "पश्चिम दो 90° वामावर्त मोड़ से मिलता, दक्षिणावर्त से नहीं।" },
-        "3": { "en": "This would require four 90° turns (a full circle), not two.", "hi": "इसके लिए चार 90° मोड़ों (पूर्ण चक्र) की आवश्यकता होती, दो की नहीं।" }
+        "0": { "en": "This is only his direction after the first turn, not both turns.", "hi": "यह केवल पहले मोड़ के बाद की दिशा है, दोनों मोड़ों के बाद नहीं।", "mr": "ही फक्त पहिल्या वळणानंतरची दिशा आहे, दोन्ही वळणांनंतरची नाही." },
+        "1": { "en": "West would result from two 90° anticlockwise turns, not clockwise.", "hi": "पश्चिम दो 90° वामावर्त मोड़ से मिलता, दक्षिणावर्त से नहीं।", "mr": "पश्चिम दोन 90° घड्याळाच्या उलट दिशेने वळल्यास मिळेल, घड्याळाच्या दिशेने नाही." },
+        "3": { "en": "This would require four 90° turns (a full circle), not two.", "hi": "इसके लिए चार 90° मोड़ों (पूर्ण चक्र) की आवश्यकता होती, दो की नहीं।", "mr": "यासाठी चार 90° वळणे (पूर्ण फेरी) आवश्यक असतील, दोन नाही." }
       }
     },
     {
       "key": "jnvst6-p2-ma-30",
       "year": 2026,
       "difficulty": "HARD",
-      "questionJson": { "en": "A boy walks 6 km North, then 8 km East. How far is he from his starting point (straight-line distance)?", "hi": "एक लड़का 6 किमी उत्तर, फिर 8 किमी पूर्व चलता है। वह अपने प्रारंभिक बिंदु से (सीधी रेखा में) कितनी दूर है?" },
+      "questionJson": { "en": "A boy walks 6 km North, then 8 km East. How far is he from his starting point (straight-line distance)?", "hi": "एक लड़का 6 किमी उत्तर, फिर 8 किमी पूर्व चलता है। वह अपने प्रारंभिक बिंदु से (सीधी रेखा में) कितनी दूर है?", "mr": "एक मुलगा 6 किमी उत्तरेकडे, नंतर 8 किमी पूर्वेकडे चालतो. तो त्याच्या सुरुवातीच्या बिंदूपासून (सरळ रेषेत) किती अंतरावर आहे?" },
       "optionsJson": [
-        { "en": "14 km", "hi": "14 किमी" },
-        { "en": "10 km", "hi": "10 किमी" },
-        { "en": "12 km", "hi": "12 किमी" },
-        { "en": "2 km", "hi": "2 किमी" }
+        { "en": "14 km", "hi": "14 किमी", "mr": "14 किमी" },
+        { "en": "10 km", "hi": "10 किमी", "mr": "10 किमी" },
+        { "en": "12 km", "hi": "12 किमी", "mr": "12 किमी" },
+        { "en": "2 km", "hi": "2 किमी", "mr": "2 किमी" }
       ],
       "correctAnswer": 1,
-      "explanation": { "en": "This forms a right triangle with legs 6 and 8; the hypotenuse (straight-line distance) is √(6²+8²)=√100=10 km.", "hi": "यह 6 और 8 भुजाओं वाला समकोण त्रिभुज बनाता है; कर्ण (सीधी दूरी) = √(6²+8²)=√100=10 किमी है।" },
+      "explanation": { "en": "This forms a right triangle with legs 6 and 8; the hypotenuse (straight-line distance) is √(6²+8²)=√100=10 km.", "hi": "यह 6 और 8 भुजाओं वाला समकोण त्रिभुज बनाता है; कर्ण (सीधी दूरी) = √(6²+8²)=√100=10 किमी है।", "mr": "यामुळे 6 आणि 8 बाजू असलेला काटकोन त्रिकोण तयार होतो; कर्ण (सरळ अंतर) = √(6²+8²)=√100=10 किमी आहे." },
       "distractorAnalysis": {
-        "0": { "en": "Simply adds the two distances instead of using the Pythagorean relationship.", "hi": "पाइथागोरस संबंध के बजाय दोनों दूरियों को सीधा जोड़ दिया।" },
-        "2": { "en": "An arithmetic slip while computing the square root.", "hi": "वर्गमूल निकालते समय गणना की भूल।" },
-        "3": { "en": "Subtracts the two distances instead of finding the straight-line distance.", "hi": "सीधी दूरी निकालने के बजाय दोनों दूरियों को घटा दिया।" }
+        "0": { "en": "Simply adds the two distances instead of using the Pythagorean relationship.", "hi": "पाइथागोरस संबंध के बजाय दोनों दूरियों को सीधा जोड़ दिया।", "mr": "पायथागोरस संबंध न वापरता दोन अंतरे थेट जोडली." },
+        "2": { "en": "An arithmetic slip while computing the square root.", "hi": "वर्गमूल निकालते समय गणना की भूल।", "mr": "वर्गमूळ काढताना गणिती चूक झाली." },
+        "3": { "en": "Subtracts the two distances instead of finding the straight-line distance.", "hi": "सीधी दूरी निकालने के बजाय दोनों दूरियों को घटा दिया।", "mr": "सरळ अंतर काढण्याऐवजी दोन अंतरे वजा केली." }
       }
     },
     {
       "key": "jnvst6-p2-ma-31",
       "year": 2026,
       "difficulty": "EASY",
-      "questionJson": { "en": "Pointing to a boy, Rekha said, 'He is the son of my mother's only son.' How is the boy related to Rekha?", "hi": "एक लड़के की ओर इशारा करते हुए रेखा ने कहा, 'वह मेरी माँ के इकलौते बेटे का पुत्र है।' वह लड़का रेखा से किस प्रकार संबंधित है?" },
+      "questionJson": { "en": "Pointing to a boy, Rekha said, 'He is the son of my mother's only son.' How is the boy related to Rekha?", "hi": "एक लड़के की ओर इशारा करते हुए रेखा ने कहा, 'वह मेरी माँ के इकलौते बेटे का पुत्र है।' वह लड़का रेखा से किस प्रकार संबंधित है?", "mr": "एका मुलाकडे बोट दाखवत रेखा म्हणाली, 'तो माझ्या आईच्या एकुलत्या एक मुलाचा मुलगा आहे.' तो मुलगा रेखाशी कसा संबंधित आहे?" },
       "optionsJson": [
-        { "en": "Brother", "hi": "भाई" },
-        { "en": "Nephew", "hi": "भतीजा" },
-        { "en": "Son", "hi": "पुत्र" },
-        { "en": "Cousin", "hi": "चचेरा भाई" }
+        { "en": "Brother", "hi": "भाई", "mr": "भाऊ" },
+        { "en": "Nephew", "hi": "भतीजा", "mr": "पुतण्या" },
+        { "en": "Son", "hi": "पुत्र", "mr": "मुलगा" },
+        { "en": "Cousin", "hi": "चचेरा भाई", "mr": "चुलत भाऊ" }
       ],
       "correctAnswer": 1,
-      "explanation": { "en": "Mother's only son is Rekha's brother; the brother's son is Rekha's nephew.", "hi": "माँ का इकलौता बेटा रेखा का भाई है; भाई का बेटा रेखा का भतीजा है।" },
+      "explanation": { "en": "Mother's only son is Rekha's brother; the brother's son is Rekha's nephew.", "hi": "माँ का इकलौता बेटा रेखा का भाई है; भाई का बेटा रेखा का भतीजा है।", "mr": "आईचा एकुलता एक मुलगा रेखाचा भाऊ आहे; भावाचा मुलगा रेखाचा पुतण्या आहे." },
       "distractorAnalysis": {
-        "0": { "en": "The mother's only son is Rekha's brother, but the boy in question is his son, one generation further.", "hi": "माँ का इकलौता बेटा रेखा का भाई है, परंतु प्रश्न में लड़का उसका बेटा है, एक पीढ़ी आगे।" },
-        "2": { "en": "The boy is the son of Rekha's brother, not of Rekha herself.", "hi": "लड़का रेखा के भाई का बेटा है, रेखा का स्वयं का नहीं।" },
-        "3": { "en": "A cousin would be the child of an aunt or uncle by marriage or a sibling of a parent, not this direct brother-nephew link.", "hi": "चचेरा भाई माता-पिता के भाई-बहन की संतान होता है, यह सीधा भाई-भतीजा संबंध नहीं।" }
+        "0": { "en": "The mother's only son is Rekha's brother, but the boy in question is his son, one generation further.", "hi": "माँ का इकलौता बेटा रेखा का भाई है, परंतु प्रश्न में लड़का उसका बेटा है, एक पीढ़ी आगे।", "mr": "आईचा एकुलता एक मुलगा रेखाचा भाऊ आहे, परंतु प्रश्नातील मुलगा त्याचा मुलगा आहे, एक पिढी पुढे." },
+        "2": { "en": "The boy is the son of Rekha's brother, not of Rekha herself.", "hi": "लड़का रेखा के भाई का बेटा है, रेखा का स्वयं का नहीं।", "mr": "तो मुलगा रेखाच्या भावाचा मुलगा आहे, रेखाचा स्वतःचा नाही." },
+        "3": { "en": "A cousin would be the child of an aunt or uncle by marriage or a sibling of a parent, not this direct brother-nephew link.", "hi": "चचेरा भाई माता-पिता के भाई-बहन की संतान होता है, यह सीधा भाई-भतीजा संबंध नहीं।", "mr": "चुलत भाऊ हा मावशी/काका/आत्या यांचे मूल असतो, हा थेट भाऊ-पुतण्या संबंध नाही." }
       }
     },
     {
       "key": "jnvst6-p2-ma-32",
       "year": 2026,
       "difficulty": "MEDIUM",
-      "questionJson": { "en": "Introducing a boy, Meera said, 'His mother is my mother's daughter, but I am not his mother.' How is Meera related to the boy?", "hi": "एक लड़के का परिचय देते हुए मीरा ने कहा, 'उसकी माँ मेरी माँ की पुत्री है, परंतु मैं उसकी माँ नहीं हूँ।' मीरा का उस लड़के से क्या संबंध है?" },
+      "questionJson": { "en": "Introducing a boy, Meera said, 'His mother is my mother's daughter, but I am not his mother.' How is Meera related to the boy?", "hi": "एक लड़के का परिचय देते हुए मीरा ने कहा, 'उसकी माँ मेरी माँ की पुत्री है, परंतु मैं उसकी माँ नहीं हूँ।' मीरा का उस लड़के से क्या संबंध है?", "mr": "एका मुलाची ओळख करून देताना मीरा म्हणाली, 'त्याची आई माझ्या आईची मुलगी आहे, पण मी त्याची आई नाही.' मीराचा त्या मुलाशी काय संबंध आहे?" },
       "optionsJson": [
-        { "en": "Aunt", "hi": "मौसी" },
-        { "en": "Sister", "hi": "बहन" },
-        { "en": "Grandmother", "hi": "नानी" },
-        { "en": "Mother", "hi": "माँ" }
+        { "en": "Aunt", "hi": "मौसी", "mr": "मावशी" },
+        { "en": "Sister", "hi": "बहन", "mr": "बहीण" },
+        { "en": "Grandmother", "hi": "नानी", "mr": "आजी" },
+        { "en": "Mother", "hi": "माँ", "mr": "आई" }
       ],
       "correctAnswer": 0,
-      "explanation": { "en": "My mother's daughter who isn't me is Meera's sister; the boy's mother is Meera's sister, so Meera is his aunt (mausi).", "hi": "मेरी माँ की पुत्री जो मैं नहीं हूँ, वह मीरा की बहन है; लड़के की माँ मीरा की बहन है, इसलिए मीरा उसकी मौसी है।" },
+      "explanation": { "en": "My mother's daughter who isn't me is Meera's sister; the boy's mother is Meera's sister, so Meera is his aunt (mausi).", "hi": "मेरी माँ की पुत्री जो मैं नहीं हूँ, वह मीरा की बहन है; लड़के की माँ मीरा की बहन है, इसलिए मीरा उसकी मौसी है।", "mr": "माझ्या आईची मुलगी जी मी नाही, ती मीराची बहीण आहे; मुलाची आई मीराची बहीण आहे, म्हणून मीरा त्याची मावशी आहे." },
       "distractorAnalysis": {
-        "1": { "en": "Sister describes Meera's relation to the boy's mother, not to the boy himself.", "hi": "बहन मीरा का संबंध लड़के की माँ से बताता है, लड़के से नहीं।" },
-        "2": { "en": "Grandmother would require an extra generation gap that isn't present — Meera and the boy's mother are the same generation.", "hi": "नानी के लिए एक अतिरिक्त पीढ़ी का अंतर चाहिए, जो यहाँ नहीं है — मीरा और लड़के की माँ एक ही पीढ़ी में हैं।" },
-        "3": { "en": "Meera explicitly says she is not his mother.", "hi": "मीरा स्पष्ट रूप से कहती है कि वह उसकी माँ नहीं है।" }
+        "1": { "en": "Sister describes Meera's relation to the boy's mother, not to the boy himself.", "hi": "बहन मीरा का संबंध लड़के की माँ से बताता है, लड़के से नहीं।", "mr": "बहीण हे मीराचे मुलाच्या आईशी असलेले नाते सांगते, मुलाशी नाही." },
+        "2": { "en": "Grandmother would require an extra generation gap that isn't present — Meera and the boy's mother are the same generation.", "hi": "नानी के लिए एक अतिरिक्त पीढ़ी का अंतर चाहिए, जो यहाँ नहीं है — मीरा और लड़के की माँ एक ही पीढ़ी में हैं।", "mr": "आजी होण्यासाठी एक अतिरिक्त पिढीचा फरक हवा, जो इथे नाही — मीरा आणि मुलाची आई एकाच पिढीतल्या आहेत." },
+        "3": { "en": "Meera explicitly says she is not his mother.", "hi": "मीरा स्पष्ट रूप से कहती है कि वह उसकी माँ नहीं है।", "mr": "मीरा स्पष्टपणे म्हणते की ती त्याची आई नाही." }
       }
     },
     {
       "key": "jnvst6-p2-ma-33",
       "year": 2026,
       "difficulty": "EASY",
-      "questionJson": { "en": "Pointing to a photograph, Suresh said, 'She is the daughter of my grandfather's only child.' Who is she to Suresh?", "hi": "एक तस्वीर की ओर इशारा करते हुए सुरेश ने कहा, 'वह मेरे दादाजी की इकलौती संतान की पुत्री है।' वह सुरेश की कौन है?" },
+      "questionJson": { "en": "Pointing to a photograph, Suresh said, 'She is the daughter of my grandfather's only child.' Who is she to Suresh?", "hi": "एक तस्वीर की ओर इशारा करते हुए सुरेश ने कहा, 'वह मेरे दादाजी की इकलौती संतान की पुत्री है।' वह सुरेश की कौन है?", "mr": "एका फोटोकडे बोट दाखवत सुरेश म्हणाला, 'ती माझ्या आजोबांच्या एकुलत्या एक अपत्याची मुलगी आहे.' ती सुरेशची कोण आहे?" },
       "optionsJson": [
-        { "en": "Mother", "hi": "माँ" },
-        { "en": "Sister", "hi": "बहन" },
-        { "en": "Aunt", "hi": "चाची/बुआ" },
-        { "en": "Daughter", "hi": "पुत्री" }
+        { "en": "Mother", "hi": "माँ", "mr": "आई" },
+        { "en": "Sister", "hi": "बहन", "mr": "बहीण" },
+        { "en": "Aunt", "hi": "चाची/बुआ", "mr": "काकी/आत्या" },
+        { "en": "Daughter", "hi": "पुत्री", "mr": "मुलगी" }
       ],
       "correctAnswer": 1,
-      "explanation": { "en": "Grandfather's only child is Suresh's own father or mother; that parent's daughter is Suresh's sister.", "hi": "दादाजी की इकलौती संतान सुरेश के अपने माता या पिता हैं; उस माता/पिता की पुत्री सुरेश की बहन है।" },
+      "explanation": { "en": "Grandfather's only child is Suresh's own father or mother; that parent's daughter is Suresh's sister.", "hi": "दादाजी की इकलौती संतान सुरेश के अपने माता या पिता हैं; उस माता/पिता की पुत्री सुरेश की बहन है।", "mr": "आजोबांचे एकुलते एक अपत्य म्हणजे सुरेशचे स्वतःचे वडील किंवा आई आहेत; त्या पालकाची मुलगी सुरेशची बहीण आहे." },
       "distractorAnalysis": {
-        "0": { "en": "This would make the girl a generation above Suresh, but she's his parent's daughter, i.e., his own generation.", "hi": "इससे लड़की सुरेश से एक पीढ़ी ऊपर हो जाती, पर वह माता-पिता की पुत्री है, यानी सुरेश की ही पीढ़ी में।" },
-        "2": { "en": "An aunt would be the parent's sister, not the parent's own daughter.", "hi": "चाची/बुआ माता-पिता की बहन होती है, माता-पिता की स्वयं की पुत्री नहीं।" },
-        "3": { "en": "This would make Suresh her parent, but the relation described is one generation off from that.", "hi": "इससे सुरेश उसका अभिभावक बन जाता, जबकि वर्णित संबंध इससे एक पीढ़ी अलग है।" }
+        "0": { "en": "This would make the girl a generation above Suresh, but she's his parent's daughter, i.e., his own generation.", "hi": "इससे लड़की सुरेश से एक पीढ़ी ऊपर हो जाती, पर वह माता-पिता की पुत्री है, यानी सुरेश की ही पीढ़ी में।", "mr": "यामुळे ती मुलगी सुरेशपेक्षा एक पिढी वर जाईल, पण ती त्याच्या पालकाची मुलगी आहे, म्हणजे सुरेशच्याच पिढीतील." },
+        "2": { "en": "An aunt would be the parent's sister, not the parent's own daughter.", "hi": "चाची/बुआ माता-पिता की बहन होती है, माता-पिता की स्वयं की पुत्री नहीं।", "mr": "काकी/आत्या ही पालकाची बहीण असते, पालकाची स्वतःची मुलगी नाही." },
+        "3": { "en": "This would make Suresh her parent, but the relation described is one generation off from that.", "hi": "इससे सुरेश उसका अभिभावक बन जाता, जबकि वर्णित संबंध इससे एक पीढ़ी अलग है।", "mr": "यामुळे सुरेश तिचा पालक बनेल, पण वर्णन केलेले नाते यापासून एक पिढी वेगळे आहे." }
       }
     },
     {
       "key": "jnvst6-p2-ma-34",
       "year": 2026,
       "difficulty": "MEDIUM",
-      "questionJson": { "en": "A is the brother of B. B is the sister of C. C is the father of D. How is A related to D?", "hi": "A, B का भाई है। B, C की बहन है। C, D का पिता है। A का D से क्या संबंध है?" },
+      "questionJson": { "en": "A is the brother of B. B is the sister of C. C is the father of D. How is A related to D?", "hi": "A, B का भाई है। B, C की बहन है। C, D का पिता है। A का D से क्या संबंध है?", "mr": "A हा B चा भाऊ आहे. B ही C ची बहीण आहे. C हा D चा पिता आहे. A चा D शी काय संबंध आहे?" },
       "optionsJson": [
-        { "en": "Grandfather", "hi": "दादा" },
-        { "en": "Father", "hi": "पिता" },
-        { "en": "Uncle", "hi": "चाचा/मामा" },
-        { "en": "Brother", "hi": "भाई" }
+        { "en": "Grandfather", "hi": "दादा", "mr": "आजोबा" },
+        { "en": "Father", "hi": "पिता", "mr": "पिता" },
+        { "en": "Uncle", "hi": "चाचा/मामा", "mr": "काका/मामा" },
+        { "en": "Brother", "hi": "भाई", "mr": "भाऊ" }
       ],
       "correctAnswer": 2,
-      "explanation": { "en": "A and C are siblings (both related to B), and C is D's father, so A (C's sibling) is D's uncle.", "hi": "A और C भाई-बहन हैं (दोनों B से संबंधित), और C, D का पिता है, इसलिए A (C का भाई-बहन) D का चाचा/मामा है।" },
+      "explanation": { "en": "A and C are siblings (both related to B), and C is D's father, so A (C's sibling) is D's uncle.", "hi": "A और C भाई-बहन हैं (दोनों B से संबंधित), और C, D का पिता है, इसलिए A (C का भाई-बहन) D का चाचा/मामा है।", "mr": "A आणि C भाऊ-बहीण आहेत (दोघेही B शी संबंधित), आणि C हा D चा पिता आहे, म्हणून A (C चा भाऊ-बहीण) D चा काका/मामा आहे." },
       "distractorAnalysis": {
-        "0": { "en": "Grandfather would require A to be C's parent, but A is C's sibling.", "hi": "दादा के लिए A को C का माता-पिता होना चाहिए, पर A तो C का भाई-बहन है।" },
-        "1": { "en": "C, not A, is D's father as stated directly in the question.", "hi": "प्रश्न में सीधे बताया गया है कि D का पिता C है, A नहीं।" },
-        "3": { "en": "A is D's parent's sibling (uncle), not D's own brother.", "hi": "A, D के माता-पिता का भाई-बहन (चाचा/मामा) है, D का अपना भाई नहीं।" }
+        "0": { "en": "Grandfather would require A to be C's parent, but A is C's sibling.", "hi": "दादा के लिए A को C का माता-पिता होना चाहिए, पर A तो C का भाई-बहन है।", "mr": "आजोबा होण्यासाठी A हा C चा पालक असायला हवा, पण A तर C चा भाऊ-बहीण आहे." },
+        "1": { "en": "C, not A, is D's father as stated directly in the question.", "hi": "प्रश्न में सीधे बताया गया है कि D का पिता C है, A नहीं।", "mr": "प्रश्नात स्पष्टपणे सांगितले आहे की D चा पिता C आहे, A नाही." },
+        "3": { "en": "A is D's parent's sibling (uncle), not D's own brother.", "hi": "A, D के माता-पिता का भाई-बहन (चाचा/मामा) है, D का अपना भाई नहीं।", "mr": "A हा D च्या पालकाचा भाऊ-बहीण (काका/मामा) आहे, D चा स्वतःचा भाऊ नाही." }
       }
     },
     {
       "key": "jnvst6-p2-ma-35",
       "year": 2026,
       "difficulty": "HARD",
-      "questionJson": { "en": "Pointing to a man, a woman said, 'His mother is the only daughter of my mother.' How is the woman related to the man?", "hi": "एक व्यक्ति की ओर इशारा करते हुए एक महिला ने कहा, 'उसकी माँ मेरी माँ की इकलौती पुत्री है।' महिला का उस व्यक्ति से क्या संबंध है?" },
+      "questionJson": { "en": "Pointing to a man, a woman said, 'His mother is the only daughter of my mother.' How is the woman related to the man?", "hi": "एक व्यक्ति की ओर इशारा करते हुए एक महिला ने कहा, 'उसकी माँ मेरी माँ की इकलौती पुत्री है।' महिला का उस व्यक्ति से क्या संबंध है?", "mr": "एका पुरुषाकडे बोट दाखवत एक स्त्री म्हणाली, 'त्याची आई माझ्या आईची एकुलती एक मुलगी आहे.' त्या स्त्रीचा त्या पुरुषाशी काय संबंध आहे?" },
       "optionsJson": [
-        { "en": "Mother", "hi": "माँ" },
-        { "en": "Grandmother", "hi": "दादी/नानी" },
-        { "en": "Sister", "hi": "बहन" },
-        { "en": "Aunt", "hi": "मौसी" }
+        { "en": "Mother", "hi": "माँ", "mr": "आई" },
+        { "en": "Grandmother", "hi": "दादी/नानी", "mr": "आजी" },
+        { "en": "Sister", "hi": "बहन", "mr": "बहीण" },
+        { "en": "Aunt", "hi": "मौसी", "mr": "मावशी" }
       ],
       "correctAnswer": 0,
-      "explanation": { "en": "My mother's only daughter is the woman herself (since she is her mother's only daughter), so the man's mother is the woman herself, making her his mother.", "hi": "मेरी माँ की इकलौती पुत्री स्वयं महिला ही है (क्योंकि वह अपनी माँ की इकलौती पुत्री है), इसलिए व्यक्ति की माँ स्वयं महिला है, यानी वह उसकी माँ है।" },
+      "explanation": { "en": "My mother's only daughter is the woman herself (since she is her mother's only daughter), so the man's mother is the woman herself, making her his mother.", "hi": "मेरी माँ की इकलौती पुत्री स्वयं महिला ही है (क्योंकि वह अपनी माँ की इकलौती पुत्री है), इसलिए व्यक्ति की माँ स्वयं महिला है, यानी वह उसकी माँ है।", "mr": "माझ्या आईची एकुलती एक मुलगी म्हणजे ती स्त्री स्वतःच आहे (कारण ती स्वतःच्या आईची एकुलती एक मुलगी आहे), म्हणून त्या पुरुषाची आई ती स्त्री स्वतःच आहे, म्हणजे ती त्याची आई आहे." },
       "distractorAnalysis": {
-        "1": { "en": "Grandmother would require an extra generation gap that the 'only daughter' phrasing rules out here.", "hi": "दादी/नानी के लिए एक अतिरिक्त पीढ़ी का अंतर चाहिए, जिसे 'इकलौती पुत्री' यहाँ खारिज करता है।" },
-        "2": { "en": "Sister would apply if the man's mother were someone else's daughter, not the woman's own mother's only daughter.", "hi": "बहन तभी लागू होता जब व्यक्ति की माँ किसी और की पुत्री होती, महिला की अपनी माँ की इकलौती पुत्री नहीं।" },
-        "3": { "en": "An aunt (mausi) would be the mother's sister, but here there's no sibling — the woman herself is the only daughter.", "hi": "मौसी माँ की बहन होती है, पर यहाँ कोई भाई-बहन नहीं — महिला स्वयं इकलौती पुत्री है।" }
+        "1": { "en": "Grandmother would require an extra generation gap that the 'only daughter' phrasing rules out here.", "hi": "दादी/नानी के लिए एक अतिरिक्त पीढ़ी का अंतर चाहिए, जिसे 'इकलौती पुत्री' यहाँ खारिज करता है।", "mr": "आजी होण्यासाठी एक अतिरिक्त पिढीचा फरक हवा, जो 'एकुलती एक मुलगी' या वाक्यरचनेने इथे नाकारला जातो." },
+        "2": { "en": "Sister would apply if the man's mother were someone else's daughter, not the woman's own mother's only daughter.", "hi": "बहन तभी लागू होता जब व्यक्ति की माँ किसी और की पुत्री होती, महिला की अपनी माँ की इकलौती पुत्री नहीं।", "mr": "बहीण तेव्हाच लागू झाले असते जेव्हा पुरुषाची आई कोणा दुसऱ्याची मुलगी असती, स्त्रीच्या स्वतःच्या आईची एकुलती एक मुलगी नसती." },
+        "3": { "en": "An aunt (mausi) would be the mother's sister, but here there's no sibling — the woman herself is the only daughter.", "hi": "मौसी माँ की बहन होती है, पर यहाँ कोई भाई-बहन नहीं — महिला स्वयं इकलौती पुत्री है।", "mr": "मावशी ही आईची बहीण असते, पण इथे कोणतीही भावंडे नाहीत — स्त्री स्वतःच एकुलती एक मुलगी आहे." }
       }
     },
     {
       "key": "jnvst6-p2-ma-36",
       "year": 2026,
       "difficulty": "EASY",
-      "questionJson": { "en": "In a queue, Ravi is 7th from the front and 12th from the back. How many students are in the queue?", "hi": "एक पंक्ति में, रवि आगे से 7वें और पीछे से 12वें स्थान पर है। पंक्ति में कुल कितने छात्र हैं?" },
+      "questionJson": { "en": "In a queue, Ravi is 7th from the front and 12th from the back. How many students are in the queue?", "hi": "एक पंक्ति में, रवि आगे से 7वें और पीछे से 12वें स्थान पर है। पंक्ति में कुल कितने छात्र हैं?", "mr": "एका ओळीत, रवी पुढून 7व्या आणि मागून 12व्या स्थानावर आहे. ओळीत एकूण किती विद्यार्थी आहेत?" },
       "optionsJson": [
-        { "en": "17", "hi": "17" },
-        { "en": "18", "hi": "18" },
-        { "en": "19", "hi": "19" },
-        { "en": "20", "hi": "20" }
+        { "en": "17", "hi": "17", "mr": "17" },
+        { "en": "18", "hi": "18", "mr": "18" },
+        { "en": "19", "hi": "19", "mr": "19" },
+        { "en": "20", "hi": "20", "mr": "20" }
       ],
       "correctAnswer": 1,
-      "explanation": { "en": "Total = (position from front) + (position from back) − 1 = 7 + 12 − 1 = 18.", "hi": "कुल = (आगे से स्थान) + (पीछे से स्थान) − 1 = 7 + 12 − 1 = 18।" },
+      "explanation": { "en": "Total = (position from front) + (position from back) − 1 = 7 + 12 − 1 = 18.", "hi": "कुल = (आगे से स्थान) + (पीछे से स्थान) − 1 = 7 + 12 − 1 = 18।", "mr": "एकूण = (पुढून स्थान) + (मागून स्थान) − 1 = 7 + 12 − 1 = 18." },
       "distractorAnalysis": {
-        "0": { "en": "Subtracts 2 instead of 1, undercounting Ravi's own position.", "hi": "रवि की अपनी स्थिति को कम गिनते हुए 1 के बजाय 2 घटाया।" },
-        "2": { "en": "Adds the two positions without subtracting for Ravi being counted twice.", "hi": "रवि को दो बार गिने जाने के लिए घटाए बिना दोनों स्थितियों को जोड़ दिया।" },
-        "3": { "en": "Adds an extra 2, overcounting.", "hi": "अधिक गिनते हुए एक अतिरिक्त 2 जोड़ दिया।" }
+        "0": { "en": "Subtracts 2 instead of 1, undercounting Ravi's own position.", "hi": "रवि की अपनी स्थिति को कम गिनते हुए 1 के बजाय 2 घटाया।", "mr": "रवीचे स्वतःचे स्थान कमी मोजून 1 ऐवजी 2 वजा केले." },
+        "2": { "en": "Adds the two positions without subtracting for Ravi being counted twice.", "hi": "रवि को दो बार गिने जाने के लिए घटाए बिना दोनों स्थितियों को जोड़ दिया।", "mr": "रवी दोनदा मोजला जातो हे लक्षात न घेता दोन्ही स्थाने तशीच जोडली." },
+        "3": { "en": "Adds an extra 2, overcounting.", "hi": "अधिक गिनते हुए एक अतिरिक्त 2 जोड़ दिया।", "mr": "जास्त मोजून एक अतिरिक्त 2 जोडले." }
       }
     },
     {
       "key": "jnvst6-p2-ma-37",
       "year": 2026,
       "difficulty": "MEDIUM",
-      "questionJson": { "en": "In a class of 40 students, Priya ranks 15th from the top. What is her rank from the bottom?", "hi": "40 छात्रों की कक्षा में, प्रिया ऊपर से 15वें स्थान पर है। नीचे से उसका स्थान क्या है?" },
+      "questionJson": { "en": "In a class of 40 students, Priya ranks 15th from the top. What is her rank from the bottom?", "hi": "40 छात्रों की कक्षा में, प्रिया ऊपर से 15वें स्थान पर है। नीचे से उसका स्थान क्या है?", "mr": "40 विद्यार्थ्यांच्या वर्गात, प्रिया वरून 15व्या स्थानावर आहे. खालून तिचे स्थान काय आहे?" },
       "optionsJson": [
-        { "en": "24th", "hi": "24वाँ" },
-        { "en": "25th", "hi": "25वाँ" },
-        { "en": "26th", "hi": "26वाँ" },
-        { "en": "27th", "hi": "27वाँ" }
+        { "en": "24th", "hi": "24वाँ", "mr": "24वा" },
+        { "en": "25th", "hi": "25वाँ", "mr": "25वा" },
+        { "en": "26th", "hi": "26वाँ", "mr": "26वा" },
+        { "en": "27th", "hi": "27वाँ", "mr": "27वा" }
       ],
       "correctAnswer": 2,
-      "explanation": { "en": "Rank from bottom = total − rank from top + 1 = 40 − 15 + 1 = 26.", "hi": "नीचे से स्थान = कुल − ऊपर से स्थान + 1 = 40 − 15 + 1 = 26।" },
+      "explanation": { "en": "Rank from bottom = total − rank from top + 1 = 40 − 15 + 1 = 26.", "hi": "नीचे से स्थान = कुल − ऊपर से स्थान + 1 = 40 − 15 + 1 = 26।", "mr": "खालून स्थान = एकूण − वरून स्थान + 1 = 40 − 15 + 1 = 26." },
       "distractorAnalysis": {
-        "0": { "en": "Forgets to add 1, undercounting by 2.", "hi": "1 जोड़ना भूल गया, 2 कम गिना।" },
-        "1": { "en": "Forgets to add 1, undercounting by 1.", "hi": "1 जोड़ना भूल गया, 1 कम गिना।" },
-        "3": { "en": "Adds 1 extra by mistake.", "hi": "गलती से एक अतिरिक्त 1 जोड़ दिया।" }
+        "0": { "en": "Forgets to add 1, undercounting by 2.", "hi": "1 जोड़ना भूल गया, 2 कम गिना।", "mr": "1 जोडायचे विसरले, 2 कमी मोजले." },
+        "1": { "en": "Forgets to add 1, undercounting by 1.", "hi": "1 जोड़ना भूल गया, 1 कम गिना।", "mr": "1 जोडायचे विसरले, 1 कमी मोजले." },
+        "3": { "en": "Adds 1 extra by mistake.", "hi": "गलती से एक अतिरिक्त 1 जोड़ दिया।", "mr": "चुकून एक जास्त 1 जोडले." }
       }
     },
     {
       "key": "jnvst6-p2-ma-38",
       "year": 2026,
       "difficulty": "EASY",
-      "questionJson": { "en": "Five friends A, B, C, D, E are standing in a line. A is taller than B but shorter than C. D is the tallest, and E is shorter than B. Who is the shortest?", "hi": "पांच मित्र A, B, C, D, E एक पंक्ति में खड़े हैं। A, B से लंबा है परंतु C से छोटा है। D सबसे लंबा है, और E, B से छोटा है। सबसे छोटा कौन है?" },
+      "questionJson": { "en": "Five friends A, B, C, D, E are standing in a line. A is taller than B but shorter than C. D is the tallest, and E is shorter than B. Who is the shortest?", "hi": "पांच मित्र A, B, C, D, E एक पंक्ति में खड़े हैं। A, B से लंबा है परंतु C से छोटा है। D सबसे लंबा है, और E, B से छोटा है। सबसे छोटा कौन है?", "mr": "पाच मित्र A, B, C, D, E एका ओळीत उभे आहेत. A हा B पेक्षा उंच आहे परंतु C पेक्षा कमी उंच आहे. D सर्वात उंच आहे, आणि E हा B पेक्षा कमी उंच आहे. सर्वात कमी उंच कोण आहे?" },
       "optionsJson": [
-        { "en": "A", "hi": "A" },
-        { "en": "B", "hi": "B" },
-        { "en": "E", "hi": "E" },
-        { "en": "C", "hi": "C" }
+        { "en": "A", "hi": "A", "mr": "A" },
+        { "en": "B", "hi": "B", "mr": "B" },
+        { "en": "E", "hi": "E", "mr": "E" },
+        { "en": "C", "hi": "C", "mr": "C" }
       ],
       "correctAnswer": 2,
-      "explanation": { "en": "Order from tallest: D > C > A > B > E, so E is the shortest.", "hi": "सबसे लंबे से क्रम: D > C > A > B > E, इसलिए E सबसे छोटा है।" },
+      "explanation": { "en": "Order from tallest: D > C > A > B > E, so E is the shortest.", "hi": "सबसे लंबे से क्रम: D > C > A > B > E, इसलिए E सबसे छोटा है।", "mr": "सर्वात उंचावरून क्रम: D > C > A > B > E, म्हणून E सर्वात कमी उंच आहे." },
       "distractorAnalysis": {
-        "0": { "en": "A is taller than both B and E, not the shortest.", "hi": "A, B और E दोनों से लंबा है, सबसे छोटा नहीं।" },
-        "1": { "en": "B is taller than E, so B is not the shortest.", "hi": "B, E से लंबा है, इसलिए B सबसे छोटा नहीं है।" },
-        "3": { "en": "C is the second tallest, far from being the shortest.", "hi": "C दूसरा सबसे लंबा है, सबसे छोटे से बहुत दूर।" }
+        "0": { "en": "A is taller than both B and E, not the shortest.", "hi": "A, B और E दोनों से लंबा है, सबसे छोटा नहीं।", "mr": "A हा B आणि E दोघांपेक्षा उंच आहे, सर्वात कमी उंच नाही." },
+        "1": { "en": "B is taller than E, so B is not the shortest.", "hi": "B, E से लंबा है, इसलिए B सबसे छोटा नहीं है।", "mr": "B हा E पेक्षा उंच आहे, म्हणून B सर्वात कमी उंच नाही." },
+        "3": { "en": "C is the second tallest, far from being the shortest.", "hi": "C दूसरा सबसे लंबा है, सबसे छोटे से बहुत दूर।", "mr": "C हा दुसरा सर्वात उंच आहे, सर्वात कमी उंच असण्यापासून खूप दूर." }
       }
     },
     {
       "key": "jnvst6-p2-ma-39",
       "year": 2026,
       "difficulty": "MEDIUM",
-      "questionJson": { "en": "Among five boxes, the red box is heavier than the blue box but lighter than the green box. The yellow box is the heaviest, and the black box is lighter than the blue box. Which box is the second lightest?", "hi": "पांच डिब्बों में, लाल डिब्बा नीले डिब्बे से भारी परंतु हरे डिब्बे से हल्का है। पीला डिब्बा सबसे भारी है, और काला डिब्बा नीले डिब्बे से हल्का है। दूसरा सबसे हल्का डिब्बा कौन सा है?" },
+      "questionJson": { "en": "Among five boxes, the red box is heavier than the blue box but lighter than the green box. The yellow box is the heaviest, and the black box is lighter than the blue box. Which box is the second lightest?", "hi": "पांच डिब्बों में, लाल डिब्बा नीले डिब्बे से भारी परंतु हरे डिब्बे से हल्का है। पीला डिब्बा सबसे भारी है, और काला डिब्बा नीले डिब्बे से हल्का है। दूसरा सबसे हल्का डिब्बा कौन सा है?", "mr": "पाच खोक्यांमध्ये, लाल खोका निळ्या खोक्यापेक्षा जड आहे परंतु हरित खोक्यापेक्षा हलका आहे. पिवळे खोके सर्वात जड आहे, आणि काळे खोके निळ्या खोक्यापेक्षा हलके आहे. दुसरे सर्वात हलके खोके कोणते आहे?" },
       "optionsJson": [
-        { "en": "Black", "hi": "काला" },
-        { "en": "Blue", "hi": "नीला" },
-        { "en": "Red", "hi": "लाल" },
-        { "en": "Green", "hi": "हरा" }
+        { "en": "Black", "hi": "काला", "mr": "काळे" },
+        { "en": "Blue", "hi": "नीला", "mr": "निळे" },
+        { "en": "Red", "hi": "लाल", "mr": "लाल" },
+        { "en": "Green", "hi": "हरा", "mr": "हरित" }
       ],
       "correctAnswer": 1,
-      "explanation": { "en": "Order from heaviest: Yellow > Green > Red > Blue > Black, so the second lightest is Blue.", "hi": "सबसे भारी से क्रम: पीला > हरा > लाल > नीला > काला, इसलिए दूसरा सबसे हल्का नीला है।" },
+      "explanation": { "en": "Order from heaviest: Yellow > Green > Red > Blue > Black, so the second lightest is Blue.", "hi": "सबसे भारी से क्रम: पीला > हरा > लाल > नीला > काला, इसलिए दूसरा सबसे हल्का नीला है।", "mr": "सर्वात जडावरून क्रम: पिवळे > हरित > लाल > निळे > काळे, म्हणून दुसरे सर्वात हलके निळे आहे." },
       "distractorAnalysis": {
-        "0": { "en": "Black is the lightest overall, not the second lightest.", "hi": "काला कुल मिलाकर सबसे हल्का है, दूसरा सबसे हल्का नहीं।" },
-        "2": { "en": "Red is heavier than both blue and black, not near the lightest end.", "hi": "लाल नीले और काले दोनों से भारी है, सबसे हल्के के करीब नहीं।" },
-        "3": { "en": "Green is the second heaviest, opposite end from lightest.", "hi": "हरा दूसरा सबसे भारी है, सबसे हल्के के विपरीत छोर पर।" }
+        "0": { "en": "Black is the lightest overall, not the second lightest.", "hi": "काला कुल मिलाकर सबसे हल्का है, दूसरा सबसे हल्का नहीं।", "mr": "काळे हे एकंदरीत सर्वात हलके आहे, दुसरे सर्वात हलके नाही." },
+        "2": { "en": "Red is heavier than both blue and black, not near the lightest end.", "hi": "लाल नीले और काले दोनों से भारी है, सबसे हल्के के करीब नहीं।", "mr": "लाल हे निळे आणि काळे दोघांपेक्षा जड आहे, सर्वात हलक्याच्या जवळ नाही." },
+        "3": { "en": "Green is the second heaviest, opposite end from lightest.", "hi": "हरा दूसरा सबसे भारी है, सबसे हल्के के विपरीत छोर पर।", "mr": "हरित हे दुसरे सर्वात जड आहे, सर्वात हलक्याच्या विरुद्ध टोकावर." }
       }
     },
     {
       "key": "jnvst6-p2-ma-40",
       "year": 2026,
       "difficulty": "HARD",
-      "questionJson": { "en": "In a row of children facing North, Kiran is 5th from the left and 9th from the right. If two more children join the row at the right end, what is Kiran's position from the right now?", "hi": "उत्तर की ओर मुख किए बच्चों की एक पंक्ति में, किरण बायें से 5वें और दायें से 9वें स्थान पर है। यदि दायें छोर पर दो और बच्चे शामिल हो जाएं, तो अब किरण का दायें से स्थान क्या है?" },
+      "questionJson": { "en": "In a row of children facing North, Kiran is 5th from the left and 9th from the right. If two more children join the row at the right end, what is Kiran's position from the right now?", "hi": "उत्तर की ओर मुख किए बच्चों की एक पंक्ति में, किरण बायें से 5वें और दायें से 9वें स्थान पर है। यदि दायें छोर पर दो और बच्चे शामिल हो जाएं, तो अब किरण का दायें से स्थान क्या है?", "mr": "उत्तरेकडे तोंड करून उभ्या असलेल्या मुलांच्या ओळीत, किरण डावीकडून 5व्या आणि उजवीकडून 9व्या स्थानावर आहे. जर उजव्या टोकाला आणखी दोन मुले सामील झाली, तर आता किरणचे उजवीकडून स्थान काय आहे?" },
       "optionsJson": [
-        { "en": "9th", "hi": "9वाँ" },
-        { "en": "11th", "hi": "11वाँ" },
-        { "en": "10th", "hi": "10वाँ" },
-        { "en": "7th", "hi": "7वाँ" }
+        { "en": "9th", "hi": "9वाँ", "mr": "9वा" },
+        { "en": "11th", "hi": "11वाँ", "mr": "11वा" },
+        { "en": "10th", "hi": "10वाँ", "mr": "10वा" },
+        { "en": "7th", "hi": "7वाँ", "mr": "7वा" }
       ],
       "correctAnswer": 1,
-      "explanation": { "en": "Adding 2 children to the right end pushes everyone's position-from-right up by 2: 9 + 2 = 11th.", "hi": "दायें छोर पर 2 बच्चे जोड़ने से हर किसी का दायें से स्थान 2 बढ़ जाता है: 9 + 2 = 11वाँ।" },
+      "explanation": { "en": "Adding 2 children to the right end pushes everyone's position-from-right up by 2: 9 + 2 = 11th.", "hi": "दायें छोर पर 2 बच्चे जोड़ने से हर किसी का दायें से स्थान 2 बढ़ जाता है: 9 + 2 = 11वाँ।", "mr": "उजव्या टोकाला 2 मुले जोडल्याने प्रत्येकाचे उजवीकडून स्थान 2 ने वाढते: 9 + 2 = 11वा." },
       "distractorAnalysis": {
-        "0": { "en": "Assumes Kiran's position from the right is unaffected, but adding children to that end does change it.", "hi": "मान लिया कि किरण की दायें से स्थिति अप्रभावित रहेगी, पर उस छोर पर बच्चे जोड़ने से यह बदलती है।" },
-        "2": { "en": "Adds only 1 instead of the 2 new children.", "hi": "2 नए बच्चों के बजाय केवल 1 जोड़ा।" },
-        "3": { "en": "Incorrectly subtracts instead of adding the new children joining that end.", "hi": "उस छोर पर जुड़ने वाले नए बच्चों को जोड़ने के बजाय गलती से घटा दिया।" }
+        "0": { "en": "Assumes Kiran's position from the right is unaffected, but adding children to that end does change it.", "hi": "मान लिया कि किरण की दायें से स्थिति अप्रभावित रहेगी, पर उस छोर पर बच्चे जोड़ने से यह बदलती है।", "mr": "किरणच्या उजवीकडून स्थानावर परिणाम होणार नाही असे गृहीत धरले, पण त्या टोकाला मुले जोडल्याने ते बदलते." },
+        "2": { "en": "Adds only 1 instead of the 2 new children.", "hi": "2 नए बच्चों के बजाय केवल 1 जोड़ा।", "mr": "2 नवीन मुलांऐवजी फक्त 1 जोडले." },
+        "3": { "en": "Incorrectly subtracts instead of adding the new children joining that end.", "hi": "उस छोर पर जुड़ने वाले नए बच्चों को जोड़ने के बजाय गलती से घटा दिया।", "mr": "त्या टोकाला सामील होणाऱ्या नवीन मुलांना जोडण्याऐवजी चुकून वजा केले." }
       }
     }
   ]

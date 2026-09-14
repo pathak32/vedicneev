@@ -9,475 +9,1375 @@
       "key": "aissee6-p1-la-01",
       "year": 2022,
       "difficulty": "EASY",
-      "questionJson": { "en": "Choose the correct article: ___ elephant is a large animal.", "hi": "सही आर्टिकल चुनें: ___ elephant is a large animal." },
+      "questionJson": {
+        "en": "Choose the correct article: ___ elephant is a large animal.",
+        "hi": "सही आर्टिकल चुनें: ___ elephant is a large animal.",
+        "mr": "योग्य article निवडा: ___ elephant is a large animal."
+      },
       "optionsJson": [
-        { "en": "A", "hi": "A" },
-        { "en": "An", "hi": "An" },
-        { "en": "The (only)", "hi": "The (only)" },
-        { "en": "No article needed", "hi": "किसी आर्टिकल की आवश्यकता नहीं" }
+        {
+          "en": "A",
+          "hi": "A",
+          "mr": "A"
+        },
+        {
+          "en": "An",
+          "hi": "An",
+          "mr": "An"
+        },
+        {
+          "en": "The (only)",
+          "hi": "The (only)",
+          "mr": "The (only)"
+        },
+        {
+          "en": "No article needed",
+          "hi": "किसी आर्टिकल की आवश्यकता नहीं",
+          "mr": "No article needed"
+        }
       ],
       "correctAnswer": 1,
-      "explanation": { "en": "\"Elephant\" begins with a vowel sound, so it takes \"an\".", "hi": "\"Elephant\" स्वर ध्वनि से शुरू होता है, अतः इसके साथ \"an\" आता है।" },
+      "explanation": {
+        "en": "\"Elephant\" begins with a vowel sound, so it takes \"an\".",
+        "hi": "\"Elephant\" स्वर ध्वनि से शुरू होता है, अतः इसके साथ \"an\" आता है।",
+        "mr": "\"Elephant\" स्वर ध्वनीने सुरू होते, त्यामुळे त्यासोबत \"an\" येते."
+      },
       "distractorAnalysis": {
-        "0": { "en": "\"A\" is used before consonant sounds, not vowel sounds.", "hi": "\"A\" का प्रयोग व्यंजन ध्वनि से पहले होता है, स्वर ध्वनि से पहले नहीं।" },
-        "2": { "en": "\"The\" would be used for a specific, already-known elephant, not a general one.", "hi": "\"The\" किसी विशेष, पहले से ज्ञात हाथी के लिए प्रयोग होता, सामान्य के लिए नहीं।" },
-        "3": { "en": "Singular countable nouns generally need an article.", "hi": "एकवचन गणनीय संज्ञाओं के साथ सामान्यतः आर्टिकल आवश्यक होता है।" }
+        "0": {
+          "en": "\"A\" is used before consonant sounds, not vowel sounds.",
+          "hi": "\"A\" का प्रयोग व्यंजन ध्वनि से पहले होता है, स्वर ध्वनि से पहले नहीं।",
+          "mr": "\"A\" व्यंजन ध्वनीपूर्वी वापरले जाते, स्वर ध्वनीपूर्वी नाही."
+        },
+        "2": {
+          "en": "\"The\" would be used for a specific, already-known elephant, not a general one.",
+          "hi": "\"The\" किसी विशेष, पहले से ज्ञात हाथी के लिए प्रयोग होता, सामान्य के लिए नहीं।",
+          "mr": "\"The\" एका विशिष्ट, आधीच माहीत असलेल्या हत्तीसाठी वापरले जाते, सामान्य हत्तीसाठी नाही."
+        },
+        "3": {
+          "en": "Singular countable nouns generally need an article.",
+          "hi": "एकवचन गणनीय संज्ञाओं के साथ सामान्यतः आर्टिकल आवश्यक होता है।",
+          "mr": "एकवचनी गणनीय नामांसोबत साधारणपणे article आवश्यक असते."
+        }
       }
     },
     {
       "key": "aissee6-p1-la-02",
       "year": 2022,
       "difficulty": "EASY",
-      "questionJson": { "en": "Choose the correct verb form: She ___ to school every day.", "hi": "सही क्रिया रूप चुनें: She ___ to school every day." },
+      "questionJson": {
+        "en": "Choose the correct verb form: She ___ to school every day.",
+        "hi": "सही क्रिया रूप चुनें: She ___ to school every day.",
+        "mr": "योग्य क्रियापद रूप निवडा: She ___ to school every day."
+      },
       "optionsJson": [
-        { "en": "go", "hi": "go" },
-        { "en": "goes", "hi": "goes" },
-        { "en": "going", "hi": "going" },
-        { "en": "gone", "hi": "gone" }
+        {
+          "en": "go",
+          "hi": "go",
+          "mr": "go"
+        },
+        {
+          "en": "goes",
+          "hi": "goes",
+          "mr": "goes"
+        },
+        {
+          "en": "going",
+          "hi": "going",
+          "mr": "going"
+        },
+        {
+          "en": "gone",
+          "hi": "gone",
+          "mr": "gone"
+        }
       ],
       "correctAnswer": 1,
-      "explanation": { "en": "With a third-person singular subject (\"She\") in the simple present tense, the verb takes an \"-s/-es\" ending.", "hi": "तृतीय पुरुष एकवचन कर्ता (\"She\") के साथ simple present tense में क्रिया के अंत में \"-s/-es\" लगता है।" },
+      "explanation": {
+        "en": "With a third-person singular subject (\"She\") in the simple present tense, the verb takes an \"-s/-es\" ending.",
+        "hi": "तृतीय पुरुष एकवचन कर्ता (\"She\") के साथ simple present tense में क्रिया के अंत में \"-s/-es\" लगता है।",
+        "mr": "तृतीय पुरुष एकवचनी कर्त्यासोबत (\"She\") simple present tense मध्ये क्रियापदाच्या शेवटी \"-s/-es\" येते."
+      },
       "distractorAnalysis": {
-        "0": { "en": "The base form, correct for \"I/You/We/They\" but not for \"She\".", "hi": "यह मूल रूप है, \"I/You/We/They\" के लिए सही है, \"She\" के लिए नहीं।" },
-        "2": { "en": "The -ing form needs a helping verb (\"is going\"), used alone here it's incorrect.", "hi": "-ing रूप के साथ सहायक क्रिया (\"is going\") चाहिए, यहाँ अकेले प्रयोग गलत है।" },
-        "3": { "en": "The past participle needs a helping verb (\"has gone\"), used alone here it's incorrect.", "hi": "past participle के साथ सहायक क्रिया (\"has gone\") चाहिए, यहाँ अकेले प्रयोग गलत है।" }
+        "0": {
+          "en": "The base form, correct for \"I/You/We/They\" but not for \"She\".",
+          "hi": "यह मूल रूप है, \"I/You/We/They\" के लिए सही है, \"She\" के लिए नहीं।",
+          "mr": "हे मूळ रूप आहे, \"I/You/We/They\" साठी बरोबर आहे, \"She\" साठी नाही."
+        },
+        "2": {
+          "en": "The -ing form needs a helping verb (\"is going\"), used alone here it's incorrect.",
+          "hi": "-ing रूप के साथ सहायक क्रिया (\"is going\") चाहिए, यहाँ अकेले प्रयोग गलत है।",
+          "mr": "-ing रूपासोबत सहायक क्रियापद (\"is going\") हवे, इथे एकटे वापरणे चुकीचे आहे."
+        },
+        "3": {
+          "en": "The past participle needs a helping verb (\"has gone\"), used alone here it's incorrect.",
+          "hi": "past participle के साथ सहायक क्रिया (\"has gone\") चाहिए, यहाँ अकेले प्रयोग गलत है।",
+          "mr": "past participle सोबत सहायक क्रियापद (\"has gone\") हवे, इथे एकटे वापरणे चुकीचे आहे."
+        }
       }
     },
     {
       "key": "aissee6-p1-la-03",
       "year": 2022,
       "difficulty": "EASY",
-      "questionJson": { "en": "Find the synonym of \"Happy\".", "hi": "\"Happy\" का समानार्थी शब्द चुनें।" },
+      "questionJson": {
+        "en": "Find the synonym of \"Happy\".",
+        "hi": "\"Happy\" का समानार्थी शब्द चुनें।",
+        "mr": "\"Happy\" चा समानार्थी शब्द शोधा."
+      },
       "optionsJson": [
-        { "en": "Sad", "hi": "Sad" },
-        { "en": "Joyful", "hi": "Joyful" },
-        { "en": "Angry", "hi": "Angry" },
-        { "en": "Tired", "hi": "Tired" }
+        {
+          "en": "Sad",
+          "hi": "Sad",
+          "mr": "Sad"
+        },
+        {
+          "en": "Joyful",
+          "hi": "Joyful",
+          "mr": "Joyful"
+        },
+        {
+          "en": "Angry",
+          "hi": "Angry",
+          "mr": "Angry"
+        },
+        {
+          "en": "Tired",
+          "hi": "Tired",
+          "mr": "Tired"
+        }
       ],
       "correctAnswer": 1,
-      "explanation": { "en": "\"Joyful\" means full of joy, the same meaning as \"Happy\".", "hi": "\"Joyful\" का अर्थ है प्रसन्नता से भरा हुआ, जो \"Happy\" के समान ही है।" },
+      "explanation": {
+        "en": "\"Joyful\" means full of joy, the same meaning as \"Happy\".",
+        "hi": "\"Joyful\" का अर्थ है प्रसन्नता से भरा हुआ, जो \"Happy\" के समान ही है।",
+        "mr": "\"Joyful\" म्हणजे आनंदाने भरलेला, जो \"Happy\" सारखाच अर्थ आहे."
+      },
       "distractorAnalysis": {
-        "0": { "en": "This is the antonym (opposite) of \"Happy\", not a synonym.", "hi": "यह \"Happy\" का विलोम (विपरीतार्थक) है, समानार्थी नहीं।" },
-        "2": { "en": "A different emotion, unrelated in meaning to \"Happy\".", "hi": "यह एक भिन्न भावना है, \"Happy\" से अर्थ में असंबंधित।" },
-        "3": { "en": "Describes fatigue, not happiness.", "hi": "यह थकान को दर्शाता है, प्रसन्नता को नहीं।" }
+        "0": {
+          "en": "This is the antonym (opposite) of \"Happy\", not a synonym.",
+          "hi": "यह \"Happy\" का विलोम (विपरीतार्थक) है, समानार्थी नहीं।",
+          "mr": "हा \"Happy\" चा विलोम (उलट अर्थ) आहे, समानार्थी नाही."
+        },
+        "2": {
+          "en": "A different emotion, unrelated in meaning to \"Happy\".",
+          "hi": "यह एक भिन्न भावना है, \"Happy\" से अर्थ में असंबंधित।",
+          "mr": "ही एक वेगळी भावना आहे, \"Happy\" शी अर्थाने असंबंधित."
+        },
+        "3": {
+          "en": "Describes fatigue, not happiness.",
+          "hi": "यह थकान को दर्शाता है, प्रसन्नता को नहीं।",
+          "mr": "हे थकवा दर्शवते, आनंद नाही."
+        }
       }
     },
     {
       "key": "aissee6-p1-la-04",
       "year": 2022,
       "difficulty": "EASY",
-      "questionJson": { "en": "Find the antonym of \"Brave\".", "hi": "\"Brave\" का विलोम शब्द चुनें।" },
+      "questionJson": {
+        "en": "Find the antonym of \"Brave\".",
+        "hi": "\"Brave\" का विलोम शब्द चुनें।",
+        "mr": "\"Brave\" चा विलोम शब्द शोधा."
+      },
       "optionsJson": [
-        { "en": "Bold", "hi": "Bold" },
-        { "en": "Fearless", "hi": "Fearless" },
-        { "en": "Coward", "hi": "Coward" },
-        { "en": "Strong", "hi": "Strong" }
+        {
+          "en": "Bold",
+          "hi": "Bold",
+          "mr": "Bold"
+        },
+        {
+          "en": "Fearless",
+          "hi": "Fearless",
+          "mr": "Fearless"
+        },
+        {
+          "en": "Coward",
+          "hi": "Coward",
+          "mr": "Coward"
+        },
+        {
+          "en": "Strong",
+          "hi": "Strong",
+          "mr": "Strong"
+        }
       ],
       "correctAnswer": 2,
-      "explanation": { "en": "\"Coward\" (cowardly) means lacking courage, the opposite of \"Brave\".", "hi": "\"Coward\" (कायर) का अर्थ है साहस की कमी, जो \"Brave\" के विपरीत है।" },
+      "explanation": {
+        "en": "\"Coward\" (cowardly) means lacking courage, the opposite of \"Brave\".",
+        "hi": "\"Coward\" (कायर) का अर्थ है साहस की कमी, जो \"Brave\" के विपरीत है।",
+        "mr": "\"Coward\" (भित्रा) म्हणजे धैर्याचा अभाव, जो \"Brave\" च्या विरुद्ध आहे."
+      },
       "distractorAnalysis": {
-        "0": { "en": "This is a synonym of \"Brave\", not its opposite.", "hi": "यह \"Brave\" का समानार्थी है, विपरीत नहीं।" },
-        "1": { "en": "This is a synonym of \"Brave\", not its opposite.", "hi": "यह \"Brave\" का समानार्थी है, विपरीत नहीं।" },
-        "3": { "en": "Related to physical power, not directly the opposite of courage.", "hi": "यह शारीरिक शक्ति से संबंधित है, साहस का सीधा विपरीत नहीं।" }
+        "0": {
+          "en": "This is a synonym of \"Brave\", not its opposite.",
+          "hi": "यह \"Brave\" का समानार्थी है, विपरीत नहीं।",
+          "mr": "हा \"Brave\" चा समानार्थी आहे, विरुद्धार्थी नाही."
+        },
+        "1": {
+          "en": "This is a synonym of \"Brave\", not its opposite.",
+          "hi": "यह \"Brave\" का समानार्थी है, विपरीत नहीं।",
+          "mr": "हा \"Brave\" चा समानार्थी आहे, विरुद्धार्थी नाही."
+        },
+        "3": {
+          "en": "Related to physical power, not directly the opposite of courage.",
+          "hi": "यह शारीरिक शक्ति से संबंधित है, साहस का सीधा विपरीत नहीं।",
+          "mr": "हे शारीरिक शक्तीशी संबंधित आहे, धैर्याचे सरळ विरुद्ध नाही."
+        }
       }
     },
     {
       "key": "aissee6-p1-la-05",
       "year": 2023,
       "difficulty": "MEDIUM",
-      "questionJson": { "en": "Choose the correctly spelled word.", "hi": "सही वर्तनी वाला शब्द चुनें।" },
+      "questionJson": {
+        "en": "Choose the correctly spelled word.",
+        "hi": "सही वर्तनी वाला शब्द चुनें।",
+        "mr": "योग्य वर्तनी असलेला शब्द निवडा."
+      },
       "optionsJson": [
-        { "en": "Recieve", "hi": "Recieve" },
-        { "en": "Receive", "hi": "Receive" },
-        { "en": "Receeve", "hi": "Receeve" },
-        { "en": "Receve", "hi": "Receve" }
+        {
+          "en": "Recieve",
+          "hi": "Recieve",
+          "mr": "Recieve"
+        },
+        {
+          "en": "Receive",
+          "hi": "Receive",
+          "mr": "Receive"
+        },
+        {
+          "en": "Receeve",
+          "hi": "Receeve",
+          "mr": "Receeve"
+        },
+        {
+          "en": "Receve",
+          "hi": "Receve",
+          "mr": "Receve"
+        }
       ],
       "correctAnswer": 1,
-      "explanation": { "en": "\"Receive\" follows the rule \"i before e except after c\" — E comes before I after the letter C.", "hi": "\"Receive\" नियम \"i before e except after c\" का पालन करता है — c के बाद E, I से पहले आता है।" },
+      "explanation": {
+        "en": "\"Receive\" follows the rule \"i before e except after c\" — E comes before I after the letter C.",
+        "hi": "\"Receive\" नियम \"i before e except after c\" का पालन करता है — c के बाद E, I से पहले आता है।",
+        "mr": "\"Receive\" हा \"i before e except after c\" या नियमाचे पालन करतो — c नंतर E, I च्या आधी येते."
+      },
       "distractorAnalysis": {
-        "0": { "en": "Breaks the \"i before e except after c\" rule.", "hi": "\"i before e except after c\" नियम का उल्लंघन करता है।" },
-        "2": { "en": "Has an incorrect double-e in the wrong place.", "hi": "गलत स्थान पर दोहरा 'e' है।" },
-        "3": { "en": "Missing the \"i\" before \"ve\".", "hi": "\"ve\" से पहले \"i\" गायब है।" }
+        "0": {
+          "en": "Breaks the \"i before e except after c\" rule.",
+          "hi": "\"i before e except after c\" नियम का उल्लंघन करता है।",
+          "mr": "\"i before e except after c\" या नियमाचे उल्लंघन करतो."
+        },
+        "2": {
+          "en": "Has an incorrect double-e in the wrong place.",
+          "hi": "गलत स्थान पर दोहरा 'e' है।",
+          "mr": "चुकीच्या ठिकाणी दुहेरी 'e' आहे."
+        },
+        "3": {
+          "en": "Missing the \"i\" before \"ve\".",
+          "hi": "\"ve\" से पहले \"i\" गायब है।",
+          "mr": "\"ve\" च्या आधी \"i\" गायब आहे."
+        }
       }
     },
     {
       "key": "aissee6-p1-la-06",
       "year": 2023,
       "difficulty": "EASY",
-      "questionJson": { "en": "Fill in the blank with the correct preposition: The cat is sitting ___ the table.", "hi": "सही preposition से रिक्त स्थान भरें: The cat is sitting ___ the table." },
+      "questionJson": {
+        "en": "Fill in the blank with the correct preposition: The cat is sitting ___ the table.",
+        "hi": "सही preposition से रिक्त स्थान भरें: The cat is sitting ___ the table.",
+        "mr": "योग्य preposition ने रिकामी जागा भरा: The cat is sitting ___ the table."
+      },
       "optionsJson": [
-        { "en": "on", "hi": "on" },
-        { "en": "in", "hi": "in" },
-        { "en": "at", "hi": "at" },
-        { "en": "into", "hi": "into" }
+        {
+          "en": "on",
+          "hi": "on",
+          "mr": "on"
+        },
+        {
+          "en": "in",
+          "hi": "in",
+          "mr": "in"
+        },
+        {
+          "en": "at",
+          "hi": "at",
+          "mr": "at"
+        },
+        {
+          "en": "into",
+          "hi": "into",
+          "mr": "into"
+        }
       ],
       "correctAnswer": 0,
-      "explanation": { "en": "\"On\" is used to show a surface — the cat is on top of the table's surface.", "hi": "\"On\" किसी सतह को दर्शाने के लिए प्रयोग होता है — बिल्ली मेज़ की सतह के ऊपर है।" },
+      "explanation": {
+        "en": "\"On\" is used to show a surface — the cat is on top of the table's surface.",
+        "hi": "\"On\" किसी सतह को दर्शाने के लिए प्रयोग होता है — बिल्ली मेज़ की सतह के ऊपर है।",
+        "mr": "\"On\" पृष्ठभाग दाखवण्यासाठी वापरले जाते — मांजर टेबलाच्या पृष्ठभागावर आहे."
+      },
       "distractorAnalysis": {
-        "1": { "en": "\"In\" would mean inside an enclosed space, which a flat table top isn't.", "hi": "\"In\" का अर्थ किसी घिरे हुए स्थान के अंदर होता, जो एक समतल मेज़ नहीं है।" },
-        "2": { "en": "\"At\" refers to a specific point, not resting on a surface.", "hi": "\"At\" किसी विशेष बिंदु को दर्शाता है, किसी सतह पर बैठने को नहीं।" },
-        "3": { "en": "\"Into\" implies movement toward the inside, not a resting position.", "hi": "\"Into\" अंदर की ओर गति को दर्शाता है, स्थिर स्थिति को नहीं।" }
+        "1": {
+          "en": "\"In\" would mean inside an enclosed space, which a flat table top isn't.",
+          "hi": "\"In\" का अर्थ किसी घिरे हुए स्थान के अंदर होता, जो एक समतल मेज़ नहीं है।",
+          "mr": "\"In\" चा अर्थ बंद जागेच्या आत असे झाले असते, जे सपाट टेबलाच्या पृष्ठभागासाठी लागू नाही."
+        },
+        "2": {
+          "en": "\"At\" refers to a specific point, not resting on a surface.",
+          "hi": "\"At\" किसी विशेष बिंदु को दर्शाता है, किसी सतह पर बैठने को नहीं।",
+          "mr": "\"At\" एका विशिष्ट बिंदूला दर्शवते, पृष्ठभागावर बसण्याला नाही."
+        },
+        "3": {
+          "en": "\"Into\" implies movement toward the inside, not a resting position.",
+          "hi": "\"Into\" अंदर की ओर गति को दर्शाता है, स्थिर स्थिति को नहीं।",
+          "mr": "\"Into\" आतल्या दिशेने होणारी हालचाल दर्शवते, स्थिर स्थिती नाही."
+        }
       }
     },
     {
       "key": "aissee6-p1-la-07",
       "year": 2023,
       "difficulty": "MEDIUM",
-      "questionJson": { "en": "Identify the plural form of \"Child\".", "hi": "\"Child\" का बहुवचन रूप पहचानें।" },
+      "questionJson": {
+        "en": "Identify the plural form of \"Child\".",
+        "hi": "\"Child\" का बहुवचन रूप पहचानें।",
+        "mr": "\"Child\" चे बहुवचन रूप ओळखा."
+      },
       "optionsJson": [
-        { "en": "Childs", "hi": "Childs" },
-        { "en": "Childes", "hi": "Childes" },
-        { "en": "Children", "hi": "Children" },
-        { "en": "Childrens", "hi": "Childrens" }
+        {
+          "en": "Childs",
+          "hi": "Childs",
+          "mr": "Childs"
+        },
+        {
+          "en": "Childes",
+          "hi": "Childes",
+          "mr": "Childes"
+        },
+        {
+          "en": "Children",
+          "hi": "Children",
+          "mr": "Children"
+        },
+        {
+          "en": "Childrens",
+          "hi": "Childrens",
+          "mr": "Childrens"
+        }
       ],
       "correctAnswer": 2,
-      "explanation": { "en": "\"Child\" has an irregular plural form: \"Children\".", "hi": "\"Child\" का अनियमित बहुवचन रूप है: \"Children\"।" },
+      "explanation": {
+        "en": "\"Child\" has an irregular plural form: \"Children\".",
+        "hi": "\"Child\" का अनियमित बहुवचन रूप है: \"Children\"।",
+        "mr": "\"Child\" चे अनियमित बहुवचन रूप आहे: \"Children\"."
+      },
       "distractorAnalysis": {
-        "0": { "en": "Wrongly applies the regular \"-s\" plural rule to an irregular noun.", "hi": "एक अनियमित संज्ञा पर नियमित \"-s\" बहुवचन नियम गलत तरीके से लगा दिया।" },
-        "1": { "en": "Wrongly applies the \"-es\" plural rule to an irregular noun.", "hi": "एक अनियमित संज्ञा पर \"-es\" बहुवचन नियम गलत तरीके से लगा दिया।" },
-        "3": { "en": "Adds an extra, unnecessary \"-s\" to the already-plural \"Children\".", "hi": "पहले से बहुवचन \"Children\" में अनावश्यक अतिरिक्त \"-s\" जोड़ दिया।" }
+        "0": {
+          "en": "Wrongly applies the regular \"-s\" plural rule to an irregular noun.",
+          "hi": "एक अनियमित संज्ञा पर नियमित \"-s\" बहुवचन नियम गलत तरीके से लगा दिया।",
+          "mr": "एका अनियमित नामावर नियमित \"-s\" बहुवचन नियम चुकीच्या पद्धतीने लावला."
+        },
+        "1": {
+          "en": "Wrongly applies the \"-es\" plural rule to an irregular noun.",
+          "hi": "एक अनियमित संज्ञा पर \"-es\" बहुवचन नियम गलत तरीके से लगा दिया।",
+          "mr": "एका अनियमित नामावर \"-es\" बहुवचन नियम चुकीच्या पद्धतीने लावला."
+        },
+        "3": {
+          "en": "Adds an extra, unnecessary \"-s\" to the already-plural \"Children\".",
+          "hi": "पहले से बहुवचन \"Children\" में अनावश्यक अतिरिक्त \"-s\" जोड़ दिया।",
+          "mr": "आधीच बहुवचन असलेल्या \"Children\" मध्ये अनावश्यक अतिरिक्त \"-s\" जोडले."
+        }
       }
     },
     {
       "key": "aissee6-p1-la-08",
       "year": 2023,
       "difficulty": "EASY",
-      "questionJson": { "en": "Choose the correct question tag: She is coming to the party, ___?", "hi": "सही question tag चुनें: She is coming to the party, ___?" },
+      "questionJson": {
+        "en": "Choose the correct question tag: She is coming to the party, ___?",
+        "hi": "सही question tag चुनें: She is coming to the party, ___?",
+        "mr": "योग्य question tag निवडा: She is coming to the party, ___?"
+      },
       "optionsJson": [
-        { "en": "isn't she", "hi": "isn't she" },
-        { "en": "is she", "hi": "is she" },
-        { "en": "doesn't she", "hi": "doesn't she" },
-        { "en": "isn't it", "hi": "isn't it" }
+        {
+          "en": "isn't she",
+          "hi": "isn't she",
+          "mr": "isn't she"
+        },
+        {
+          "en": "is she",
+          "hi": "is she",
+          "mr": "is she"
+        },
+        {
+          "en": "doesn't she",
+          "hi": "doesn't she",
+          "mr": "doesn't she"
+        },
+        {
+          "en": "isn't it",
+          "hi": "isn't it",
+          "mr": "isn't it"
+        }
       ],
       "correctAnswer": 0,
-      "explanation": { "en": "A positive statement takes a negative question tag matching the same auxiliary verb and subject: \"is\" → \"isn't she\".", "hi": "एक सकारात्मक वाक्य के साथ उसी सहायक क्रिया और कर्ता वाला नकारात्मक question tag आता है: \"is\" → \"isn't she\"।" },
+      "explanation": {
+        "en": "A positive statement takes a negative question tag matching the same auxiliary verb and subject: \"is\" → \"isn't she\".",
+        "hi": "एक सकारात्मक वाक्य के साथ उसी सहायक क्रिया और कर्ता वाला नकारात्मक question tag आता है: \"is\" → \"isn't she\"।",
+        "mr": "सकारात्मक वाक्यासोबत त्याच सहायक क्रियापद आणि कर्त्याशी जुळणारा नकारात्मक question tag येतो: \"is\" → \"isn't she\"."
+      },
       "distractorAnalysis": {
-        "1": { "en": "A positive tag doesn't match a positive statement — tags must be opposite in polarity.", "hi": "सकारात्मक वाक्य के साथ सकारात्मक tag नहीं आता — tag की ध्रुवता विपरीत होनी चाहिए।" },
-        "2": { "en": "Uses \"doesn't\" instead of matching the auxiliary verb \"is\" already in the sentence.", "hi": "वाक्य में पहले से मौजूद सहायक क्रिया \"is\" से मेल खाने के बजाय \"doesn't\" प्रयोग किया।" },
-        "3": { "en": "Uses the wrong pronoun \"it\" instead of \"she\" to match the subject.", "hi": "कर्ता से मेल खाने के लिए \"she\" के बजाय गलत सर्वनाम \"it\" प्रयोग किया।" }
+        "1": {
+          "en": "A positive tag doesn't match a positive statement — tags must be opposite in polarity.",
+          "hi": "सकारात्मक वाक्य के साथ सकारात्मक tag नहीं आता — tag की ध्रुवता विपरीत होनी चाहिए।",
+          "mr": "सकारात्मक tag सकारात्मक वाक्याशी जुळत नाही — tag ची ध्रुवता विरुद्ध असावी लागते."
+        },
+        "2": {
+          "en": "Uses \"doesn't\" instead of matching the auxiliary verb \"is\" already in the sentence.",
+          "hi": "वाक्य में पहले से मौजूद सहायक क्रिया \"is\" से मेल खाने के बजाय \"doesn't\" प्रयोग किया।",
+          "mr": "वाक्यात आधीपासून असलेल्या \"is\" सहायक क्रियापदाशी जुळण्याऐवजी \"doesn't\" वापरले."
+        },
+        "3": {
+          "en": "Uses the wrong pronoun \"it\" instead of \"she\" to match the subject.",
+          "hi": "कर्ता से मेल खाने के लिए \"she\" के बजाय गलत सर्वनाम \"it\" प्रयोग किया।",
+          "mr": "कर्त्याशी जुळण्यासाठी \"she\" ऐवजी चुकीचे सर्वनाम \"it\" वापरले."
+        }
       }
     },
     {
       "key": "aissee6-p1-la-09",
       "year": 2024,
       "difficulty": "MEDIUM",
-      "questionJson": { "en": "Choose the correctly punctuated sentence.", "hi": "सही विराम चिह्न वाला वाक्य चुनें।" },
+      "questionJson": {
+        "en": "Choose the correctly punctuated sentence.",
+        "hi": "सही विराम चिह्न वाला वाक्य चुनें।",
+        "mr": "योग्य विरामचिन्हे असलेले वाक्य निवडा."
+      },
       "optionsJson": [
-        { "en": "What is your name.", "hi": "What is your name." },
-        { "en": "What is your name?", "hi": "What is your name?" },
-        { "en": "what is your name?", "hi": "what is your name?" },
-        { "en": "What is your name!", "hi": "What is your name!" }
+        {
+          "en": "What is your name.",
+          "hi": "What is your name.",
+          "mr": "What is your name."
+        },
+        {
+          "en": "What is your name?",
+          "hi": "What is your name?",
+          "mr": "What is your name?"
+        },
+        {
+          "en": "what is your name?",
+          "hi": "what is your name?",
+          "mr": "what is your name?"
+        },
+        {
+          "en": "What is your name!",
+          "hi": "What is your name!",
+          "mr": "What is your name!"
+        }
       ],
       "correctAnswer": 1,
-      "explanation": { "en": "A question must begin with a capital letter and end with a question mark.", "hi": "एक प्रश्न बड़े अक्षर से आरंभ होना चाहिए और प्रश्न चिह्न से समाप्त होना चाहिए।" },
+      "explanation": {
+        "en": "A question must begin with a capital letter and end with a question mark.",
+        "hi": "एक प्रश्न बड़े अक्षर से आरंभ होना चाहिए और प्रश्न चिह्न से समाप्त होना चाहिए।",
+        "mr": "एक प्रश्न मोठ्या अक्षराने सुरू व्हायला हवा आणि प्रश्नचिन्हाने संपायला हवा."
+      },
       "distractorAnalysis": {
-        "0": { "en": "Ends with a full stop instead of the required question mark.", "hi": "आवश्यक प्रश्न चिह्न के बजाय पूर्ण विराम से समाप्त होता है।" },
-        "2": { "en": "Fails to capitalize the first letter of the sentence.", "hi": "वाक्य के पहले अक्षर को बड़ा नहीं किया गया।" },
-        "3": { "en": "Ends with an exclamation mark, appropriate for strong emotion, not a plain question.", "hi": "विस्मयादिबोधक चिह्न से समाप्त होता है, जो तीव्र भावना के लिए उपयुक्त है, सामान्य प्रश्न के लिए नहीं।" }
+        "0": {
+          "en": "Ends with a full stop instead of the required question mark.",
+          "hi": "आवश्यक प्रश्न चिह्न के बजाय पूर्ण विराम से समाप्त होता है।",
+          "mr": "आवश्यक प्रश्नचिन्हाऐवजी पूर्णविरामाने संपते."
+        },
+        "2": {
+          "en": "Fails to capitalize the first letter of the sentence.",
+          "hi": "वाक्य के पहले अक्षर को बड़ा नहीं किया गया।",
+          "mr": "वाक्याचे पहिले अक्षर मोठे केले नाही."
+        },
+        "3": {
+          "en": "Ends with an exclamation mark, appropriate for strong emotion, not a plain question.",
+          "hi": "विस्मयादिबोधक चिह्न से समाप्त होता है, जो तीव्र भावना के लिए उपयुक्त है, सामान्य प्रश्न के लिए नहीं।",
+          "mr": "उद्गारचिन्हाने संपते, जे तीव्र भावनेसाठी योग्य आहे, साध्या प्रश्नासाठी नाही."
+        }
       }
     },
     {
       "key": "aissee6-p1-la-10",
       "year": 2024,
       "difficulty": "EASY",
-      "questionJson": { "en": "Choose the correct past tense of \"Go\".", "hi": "\"Go\" का सही भूतकाल रूप चुनें।" },
+      "questionJson": {
+        "en": "Choose the correct past tense of \"Go\".",
+        "hi": "\"Go\" का सही भूतकाल रूप चुनें।",
+        "mr": "\"Go\" चे योग्य भूतकाळ रूप निवडा."
+      },
       "optionsJson": [
-        { "en": "Goed", "hi": "Goed" },
-        { "en": "Gone", "hi": "Gone" },
-        { "en": "Went", "hi": "Went" },
-        { "en": "Going", "hi": "Going" }
+        {
+          "en": "Goed",
+          "hi": "Goed",
+          "mr": "Goed"
+        },
+        {
+          "en": "Gone",
+          "hi": "Gone",
+          "mr": "Gone"
+        },
+        {
+          "en": "Went",
+          "hi": "Went",
+          "mr": "Went"
+        },
+        {
+          "en": "Going",
+          "hi": "Going",
+          "mr": "Going"
+        }
       ],
       "correctAnswer": 2,
-      "explanation": { "en": "\"Go\" is an irregular verb; its simple past tense is \"Went\".", "hi": "\"Go\" एक अनियमित क्रिया है; इसका simple past tense रूप \"Went\" है।" },
+      "explanation": {
+        "en": "\"Go\" is an irregular verb; its simple past tense is \"Went\".",
+        "hi": "\"Go\" एक अनियमित क्रिया है; इसका simple past tense रूप \"Went\" है।",
+        "mr": "\"Go\" ही एक अनियमित क्रिया आहे; तिचे simple past tense रूप \"Went\" आहे."
+      },
       "distractorAnalysis": {
-        "0": { "en": "Wrongly applies the regular \"-ed\" past tense rule to an irregular verb.", "hi": "एक अनियमित क्रिया पर नियमित \"-ed\" भूतकाल नियम गलत तरीके से लगा दिया।" },
-        "1": { "en": "This is the past participle (used with \"has/have\"), not the simple past tense.", "hi": "यह past participle है (\"has/have\" के साथ प्रयुक्त), simple past tense नहीं।" },
-        "3": { "en": "This is the present continuous form, not the past tense.", "hi": "यह present continuous रूप है, भूतकाल नहीं।" }
+        "0": {
+          "en": "Wrongly applies the regular \"-ed\" past tense rule to an irregular verb.",
+          "hi": "एक अनियमित क्रिया पर नियमित \"-ed\" भूतकाल नियम गलत तरीके से लगा दिया।",
+          "mr": "एका अनियमित क्रियेवर नियमित \"-ed\" भूतकाळ नियम चुकीच्या पद्धतीने लावला."
+        },
+        "1": {
+          "en": "This is the past participle (used with \"has/have\"), not the simple past tense.",
+          "hi": "यह past participle है (\"has/have\" के साथ प्रयुक्त), simple past tense नहीं।",
+          "mr": "हे past participle आहे (\"has/have\" सोबत वापरले जाते), simple past tense नाही."
+        },
+        "3": {
+          "en": "This is the present continuous form, not the past tense.",
+          "hi": "यह present continuous रूप है, भूतकाल नहीं।",
+          "mr": "हे present continuous रूप आहे, भूतकाळ नाही."
+        }
       }
     },
     {
       "key": "aissee6-p1-la-11",
       "year": 2024,
       "difficulty": "MEDIUM",
-      "questionJson": { "en": "Read the passage: \"Rina loves reading books. Every evening, she visits the library near her house.\" Where does Rina go every evening?", "hi": "गद्यांश पढ़ें: \"रीना को किताबें पढ़ना पसंद है। हर शाम वह अपने घर के पास वाली लाइब्रेरी जाती है।\" रीना हर शाम कहाँ जाती है?" },
+      "questionJson": {
+        "en": "Read the passage: \"Rina loves reading books. Every evening, she visits the library near her house.\" Where does Rina go every evening?",
+        "hi": "गद्यांश पढ़ें: \"रीना को किताबें पढ़ना पसंद है। हर शाम वह अपने घर के पास वाली लाइब्रेरी जाती है।\" रीना हर शाम कहाँ जाती है?",
+        "mr": "उतारा वाचा: \"रीनाला पुस्तके वाचायला आवडते. दररोज संध्याकाळी ती तिच्या घराजवळच्या लायब्ररीत जाते.\" रीना दररोज संध्याकाळी कुठे जाते?"
+      },
       "optionsJson": [
-        { "en": "To school", "hi": "स्कूल" },
-        { "en": "To the library", "hi": "लाइब्रेरी" },
-        { "en": "To the market", "hi": "बाज़ार" },
-        { "en": "To the park", "hi": "पार्क" }
+        {
+          "en": "To school",
+          "hi": "स्कूल",
+          "mr": "शाळेत"
+        },
+        {
+          "en": "To the library",
+          "hi": "लाइब्रेरी",
+          "mr": "लायब्ररीत"
+        },
+        {
+          "en": "To the market",
+          "hi": "बाज़ार",
+          "mr": "बाजारात"
+        },
+        {
+          "en": "To the park",
+          "hi": "पार्क",
+          "mr": "पार्कमध्ये"
+        }
       ],
       "correctAnswer": 1,
-      "explanation": { "en": "The passage directly states she visits the library near her house every evening.", "hi": "गद्यांश में स्पष्ट रूप से कहा गया है कि वह हर शाम अपने घर के पास वाली लाइब्रेरी जाती है।" },
+      "explanation": {
+        "en": "The passage directly states she visits the library near her house every evening.",
+        "hi": "गद्यांश में स्पष्ट रूप से कहा गया है कि वह हर शाम अपने घर के पास वाली लाइब्रेरी जाती है।",
+        "mr": "उताऱ्यात स्पष्टपणे सांगितले आहे की ती दररोज संध्याकाळी तिच्या घराजवळच्या लायब्ररीत जाते."
+      },
       "distractorAnalysis": {
-        "0": { "en": "Not mentioned anywhere in the passage.", "hi": "गद्यांश में कहीं भी इसका उल्लेख नहीं है।" },
-        "2": { "en": "Not mentioned anywhere in the passage.", "hi": "गद्यांश में कहीं भी इसका उल्लेख नहीं है।" },
-        "3": { "en": "Not mentioned anywhere in the passage.", "hi": "गद्यांश में कहीं भी इसका उल्लेख नहीं है।" }
+        "0": {
+          "en": "Not mentioned anywhere in the passage.",
+          "hi": "गद्यांश में कहीं भी इसका उल्लेख नहीं है।",
+          "mr": "उताऱ्यात याचा कुठेही उल्लेख नाही."
+        },
+        "2": {
+          "en": "Not mentioned anywhere in the passage.",
+          "hi": "गद्यांश में कहीं भी इसका उल्लेख नहीं है।",
+          "mr": "उताऱ्यात याचा कुठेही उल्लेख नाही."
+        },
+        "3": {
+          "en": "Not mentioned anywhere in the passage.",
+          "hi": "गद्यांश में कहीं भी इसका उल्लेख नहीं है।",
+          "mr": "उताऱ्यात याचा कुठेही उल्लेख नाही."
+        }
       }
     },
     {
       "key": "aissee6-p1-la-12",
       "year": 2024,
       "difficulty": "EASY",
-      "questionJson": { "en": "Choose the correct comparative form of \"Good\".", "hi": "\"Good\" का सही तुलनात्मक (comparative) रूप चुनें।" },
+      "questionJson": {
+        "en": "Choose the correct comparative form of \"Good\".",
+        "hi": "\"Good\" का सही तुलनात्मक (comparative) रूप चुनें।",
+        "mr": "\"Good\" चे योग्य तुलनात्मक (comparative) रूप निवडा."
+      },
       "optionsJson": [
-        { "en": "Gooder", "hi": "Gooder" },
-        { "en": "Better", "hi": "Better" },
-        { "en": "More good", "hi": "More good" },
-        { "en": "Best", "hi": "Best" }
+        {
+          "en": "Gooder",
+          "hi": "Gooder",
+          "mr": "Gooder"
+        },
+        {
+          "en": "Better",
+          "hi": "Better",
+          "mr": "Better"
+        },
+        {
+          "en": "More good",
+          "hi": "More good",
+          "mr": "More good"
+        },
+        {
+          "en": "Best",
+          "hi": "Best",
+          "mr": "Best"
+        }
       ],
       "correctAnswer": 1,
-      "explanation": { "en": "\"Good\" is an irregular adjective; its comparative form is \"Better\".", "hi": "\"Good\" एक अनियमित विशेषण है; इसका comparative रूप \"Better\" है।" },
+      "explanation": {
+        "en": "\"Good\" is an irregular adjective; its comparative form is \"Better\".",
+        "hi": "\"Good\" एक अनियमित विशेषण है; इसका comparative रूप \"Better\" है।",
+        "mr": "\"Good\" हे एक अनियमित विशेषण आहे; त्याचे comparative रूप \"Better\" आहे."
+      },
       "distractorAnalysis": {
-        "0": { "en": "Wrongly applies the regular \"-er\" comparative rule to an irregular adjective.", "hi": "एक अनियमित विशेषण पर नियमित \"-er\" comparative नियम गलत तरीके से लगा दिया।" },
-        "2": { "en": "Redundantly combines \"more\" with an adjective that has its own irregular comparative.", "hi": "\"more\" को एक ऐसे विशेषण के साथ जोड़ दिया जिसका अपना अनियमित comparative रूप है।" },
-        "3": { "en": "This is the superlative form, not the comparative.", "hi": "यह superlative रूप है, comparative नहीं।" }
+        "0": {
+          "en": "Wrongly applies the regular \"-er\" comparative rule to an irregular adjective.",
+          "hi": "एक अनियमित विशेषण पर नियमित \"-er\" comparative नियम गलत तरीके से लगा दिया।",
+          "mr": "एका अनियमित विशेषणावर नियमित \"-er\" comparative नियम चुकीच्या पद्धतीने लावला."
+        },
+        "2": {
+          "en": "Redundantly combines \"more\" with an adjective that has its own irregular comparative.",
+          "hi": "\"more\" को एक ऐसे विशेषण के साथ जोड़ दिया जिसका अपना अनियमित comparative रूप है।",
+          "mr": "\"more\" ला अशा विशेषणासोबत जोडले ज्याचे स्वतःचे अनियमित comparative रूप आहे."
+        },
+        "3": {
+          "en": "This is the superlative form, not the comparative.",
+          "hi": "यह superlative रूप है, comparative नहीं।",
+          "mr": "हे superlative रूप आहे, comparative नाही."
+        }
       }
     },
     {
       "key": "aissee6-p1-la-13",
       "year": 2025,
       "difficulty": "MEDIUM",
-      "questionJson": { "en": "Identify the noun in the sentence: \"The dog barked loudly.\"", "hi": "वाक्य में संज्ञा (noun) पहचानें: \"The dog barked loudly.\"" },
+      "questionJson": {
+        "en": "Identify the noun in the sentence: \"The dog barked loudly.\"",
+        "hi": "वाक्य में संज्ञा (noun) पहचानें: \"The dog barked loudly.\"",
+        "mr": "वाक्यातील संज्ञा (noun) ओळखा: \"The dog barked loudly.\""
+      },
       "optionsJson": [
-        { "en": "The", "hi": "The" },
-        { "en": "Dog", "hi": "Dog" },
-        { "en": "Barked", "hi": "Barked" },
-        { "en": "Loudly", "hi": "Loudly" }
+        {
+          "en": "The",
+          "hi": "The",
+          "mr": "The"
+        },
+        {
+          "en": "Dog",
+          "hi": "Dog",
+          "mr": "Dog"
+        },
+        {
+          "en": "Barked",
+          "hi": "Barked",
+          "mr": "Barked"
+        },
+        {
+          "en": "Loudly",
+          "hi": "Loudly",
+          "mr": "Loudly"
+        }
       ],
       "correctAnswer": 1,
-      "explanation": { "en": "\"Dog\" names a thing/animal, making it the noun in the sentence.", "hi": "\"Dog\" एक वस्तु/जानवर का नाम है, अतः यह वाक्य में संज्ञा है।" },
+      "explanation": {
+        "en": "\"Dog\" names a thing/animal, making it the noun in the sentence.",
+        "hi": "\"Dog\" एक वस्तु/जानवर का नाम है, अतः यह वाक्य में संज्ञा है।",
+        "mr": "\"Dog\" एका वस्तू/प्राण्याचे नाव आहे, म्हणून हे वाक्यातील संज्ञा आहे."
+      },
       "distractorAnalysis": {
-        "0": { "en": "This is an article, not a noun.", "hi": "यह एक आर्टिकल है, संज्ञा नहीं।" },
-        "2": { "en": "This is a verb (an action word), not a noun.", "hi": "यह एक क्रिया (क्रिया-शब्द) है, संज्ञा नहीं।" },
-        "3": { "en": "This is an adverb (describes how the barking happened), not a noun.", "hi": "यह एक क्रिया-विशेषण (भौंकने का ढंग बताता है) है, संज्ञा नहीं।" }
+        "0": {
+          "en": "This is an article, not a noun.",
+          "hi": "यह एक आर्टिकल है, संज्ञा नहीं।",
+          "mr": "हा एक article आहे, संज्ञा नाही."
+        },
+        "2": {
+          "en": "This is a verb (an action word), not a noun.",
+          "hi": "यह एक क्रिया (क्रिया-शब्द) है, संज्ञा नहीं।",
+          "mr": "हे एक क्रियापद (कृती-शब्द) आहे, संज्ञा नाही."
+        },
+        "3": {
+          "en": "This is an adverb (describes how the barking happened), not a noun.",
+          "hi": "यह एक क्रिया-विशेषण (भौंकने का ढंग बताता है) है, संज्ञा नहीं।",
+          "mr": "हे एक क्रियाविशेषण आहे (भुंकण्याची पद्धत सांगते), संज्ञा नाही."
+        }
       }
     },
     {
       "key": "aissee6-p1-la-14",
       "year": 2025,
       "difficulty": "EASY",
-      "questionJson": { "en": "Choose the word opposite in meaning to \"Difficult\".", "hi": "\"Difficult\" के विपरीत अर्थ वाला शब्द चुनें।" },
+      "questionJson": {
+        "en": "Choose the word opposite in meaning to \"Difficult\".",
+        "hi": "\"Difficult\" के विपरीत अर्थ वाला शब्द चुनें।",
+        "mr": "\"Difficult\" च्या विरुद्ध अर्थ असलेला शब्द निवडा."
+      },
       "optionsJson": [
-        { "en": "Hard", "hi": "Hard" },
-        { "en": "Easy", "hi": "Easy" },
-        { "en": "Tough", "hi": "Tough" },
-        { "en": "Complex", "hi": "Complex" }
+        {
+          "en": "Hard",
+          "hi": "Hard",
+          "mr": "Hard"
+        },
+        {
+          "en": "Easy",
+          "hi": "Easy",
+          "mr": "Easy"
+        },
+        {
+          "en": "Tough",
+          "hi": "Tough",
+          "mr": "Tough"
+        },
+        {
+          "en": "Complex",
+          "hi": "Complex",
+          "mr": "Complex"
+        }
       ],
       "correctAnswer": 1,
-      "explanation": { "en": "\"Easy\" means simple to do, the opposite of \"Difficult\".", "hi": "\"Easy\" का अर्थ है करने में सरल, जो \"Difficult\" के विपरीत है।" },
+      "explanation": {
+        "en": "\"Easy\" means simple to do, the opposite of \"Difficult\".",
+        "hi": "\"Easy\" का अर्थ है करने में सरल, जो \"Difficult\" के विपरीत है।",
+        "mr": "\"Easy\" म्हणजे करायला सोपे, जे \"Difficult\" च्या विरुद्ध आहे."
+      },
       "distractorAnalysis": {
-        "0": { "en": "This is a synonym of \"Difficult\", not its opposite.", "hi": "यह \"Difficult\" का समानार्थी है, विपरीत नहीं।" },
-        "2": { "en": "This is a synonym of \"Difficult\", not its opposite.", "hi": "यह \"Difficult\" का समानार्थी है, विपरीत नहीं।" },
-        "3": { "en": "This is a synonym of \"Difficult\", not its opposite.", "hi": "यह \"Difficult\" का समानार्थी है, विपरीत नहीं।" }
+        "0": {
+          "en": "This is a synonym of \"Difficult\", not its opposite.",
+          "hi": "यह \"Difficult\" का समानार्थी है, विपरीत नहीं।",
+          "mr": "हा \"Difficult\" चा समानार्थी आहे, विरुद्धार्थी नाही."
+        },
+        "2": {
+          "en": "This is a synonym of \"Difficult\", not its opposite.",
+          "hi": "यह \"Difficult\" का समानार्थी है, विपरीत नहीं।",
+          "mr": "हा \"Difficult\" चा समानार्थी आहे, विरुद्धार्थी नाही."
+        },
+        "3": {
+          "en": "This is a synonym of \"Difficult\", not its opposite.",
+          "hi": "यह \"Difficult\" का समानार्थी है, विपरीत नहीं।",
+          "mr": "हा \"Difficult\" चा समानार्थी आहे, विरुद्धार्थी नाही."
+        }
       }
     },
     {
       "key": "aissee6-p1-la-15",
       "year": 2025,
       "difficulty": "MEDIUM",
-      "questionJson": { "en": "Choose the correctly formed sentence.", "hi": "सही ढंग से बना वाक्य चुनें।" },
+      "questionJson": {
+        "en": "Choose the correctly formed sentence.",
+        "hi": "सही ढंग से बना वाक्य चुनें।",
+        "mr": "योग्य पद्धतीने बनलेले वाक्य निवडा."
+      },
       "optionsJson": [
-        { "en": "He don't like milk.", "hi": "He don't like milk." },
-        { "en": "He doesn't likes milk.", "hi": "He doesn't likes milk." },
-        { "en": "He doesn't like milk.", "hi": "He doesn't like milk." },
-        { "en": "He not like milk.", "hi": "He not like milk." }
+        {
+          "en": "He don't like milk.",
+          "hi": "He don't like milk.",
+          "mr": "He don't like milk."
+        },
+        {
+          "en": "He doesn't likes milk.",
+          "hi": "He doesn't likes milk.",
+          "mr": "He doesn't likes milk."
+        },
+        {
+          "en": "He doesn't like milk.",
+          "hi": "He doesn't like milk.",
+          "mr": "He doesn't like milk."
+        },
+        {
+          "en": "He not like milk.",
+          "hi": "He not like milk.",
+          "mr": "He not like milk."
+        }
       ],
       "correctAnswer": 2,
-      "explanation": { "en": "With third-person singular \"He\", the negative uses \"doesn't\" followed by the base verb form \"like\".", "hi": "तृतीय पुरुष एकवचन \"He\" के साथ, negative में \"doesn't\" के बाद मूल क्रिया रूप \"like\" आता है।" },
+      "explanation": {
+        "en": "With third-person singular \"He\", the negative uses \"doesn't\" followed by the base verb form \"like\".",
+        "hi": "तृतीय पुरुष एकवचन \"He\" के साथ, negative में \"doesn't\" के बाद मूल क्रिया रूप \"like\" आता है।",
+        "mr": "तृतीय पुरुष एकवचनी \"He\" सोबत, नकारार्थी वाक्यात \"doesn't\" नंतर मूळ क्रियापद रूप \"like\" येते."
+      },
       "distractorAnalysis": {
-        "0": { "en": "\"Don't\" is used with I/You/We/They, not with \"He\".", "hi": "\"Don't\" का प्रयोग I/You/We/They के साथ होता है, \"He\" के साथ नहीं।" },
-        "1": { "en": "Adds an extra \"-s\" to the verb even though \"doesn't\" already carries that agreement.", "hi": "\"doesn't\" पहले से यह मेल दर्शाता है, फिर भी क्रिया में अतिरिक्त \"-s\" जोड़ दिया।" },
-        "3": { "en": "Missing the required auxiliary verb \"does\" before \"not\".", "hi": "\"not\" से पहले आवश्यक सहायक क्रिया \"does\" गायब है।" }
+        "0": {
+          "en": "\"Don't\" is used with I/You/We/They, not with \"He\".",
+          "hi": "\"Don't\" का प्रयोग I/You/We/They के साथ होता है, \"He\" के साथ नहीं।",
+          "mr": "\"Don't\" चा वापर I/You/We/They सोबत होतो, \"He\" सोबत नाही."
+        },
+        "1": {
+          "en": "Adds an extra \"-s\" to the verb even though \"doesn't\" already carries that agreement.",
+          "hi": "\"doesn't\" पहले से यह मेल दर्शाता है, फिर भी क्रिया में अतिरिक्त \"-s\" जोड़ दिया।",
+          "mr": "\"doesn't\" आधीच हा मेळ दर्शवत असूनही क्रियापदात अतिरिक्त \"-s\" जोडले."
+        },
+        "3": {
+          "en": "Missing the required auxiliary verb \"does\" before \"not\".",
+          "hi": "\"not\" से पहले आवश्यक सहायक क्रिया \"does\" गायब है।",
+          "mr": "\"not\" च्या आधी आवश्यक सहायक क्रियापद \"does\" गायब आहे."
+        }
       }
     },
     {
       "key": "aissee6-p1-la-16",
       "year": 2025,
       "difficulty": "EASY",
-      "questionJson": { "en": "Choose the correct plural of \"Mouse\" (the animal).", "hi": "\"Mouse\" (जानवर) का सही बहुवचन चुनें।" },
+      "questionJson": {
+        "en": "Choose the correct plural of \"Mouse\" (the animal).",
+        "hi": "\"Mouse\" (जानवर) का सही बहुवचन चुनें।",
+        "mr": "\"Mouse\" (प्राणी) चे योग्य बहुवचन निवडा."
+      },
       "optionsJson": [
-        { "en": "Mouses", "hi": "Mouses" },
-        { "en": "Mice", "hi": "Mice" },
-        { "en": "Mouse", "hi": "Mouse" },
-        { "en": "Mices", "hi": "Mices" }
+        {
+          "en": "Mouses",
+          "hi": "Mouses",
+          "mr": "Mouses"
+        },
+        {
+          "en": "Mice",
+          "hi": "Mice",
+          "mr": "Mice"
+        },
+        {
+          "en": "Mouse",
+          "hi": "Mouse",
+          "mr": "Mouse"
+        },
+        {
+          "en": "Mices",
+          "hi": "Mices",
+          "mr": "Mices"
+        }
       ],
       "correctAnswer": 1,
-      "explanation": { "en": "\"Mouse\" has an irregular plural form: \"Mice\".", "hi": "\"Mouse\" का अनियमित बहुवचन रूप है: \"Mice\"।" },
+      "explanation": {
+        "en": "\"Mouse\" has an irregular plural form: \"Mice\".",
+        "hi": "\"Mouse\" का अनियमित बहुवचन रूप है: \"Mice\"।",
+        "mr": "\"Mouse\" चे अनियमित बहुवचन रूप आहे: \"Mice\"."
+      },
       "distractorAnalysis": {
-        "0": { "en": "Wrongly applies the regular \"-s\" plural rule to an irregular noun.", "hi": "एक अनियमित संज्ञा पर नियमित \"-s\" बहुवचन नियम गलत तरीके से लगा दिया।" },
-        "2": { "en": "This is the singular form, unchanged, not the plural.", "hi": "यह एकवचन रूप है, अपरिवर्तित, बहुवचन नहीं।" },
-        "3": { "en": "Wrongly adds \"-s\" to the already-irregular plural \"Mice\".", "hi": "पहले से अनियमित बहुवचन \"Mice\" में गलत तरीके से \"-s\" जोड़ दिया।" }
+        "0": {
+          "en": "Wrongly applies the regular \"-s\" plural rule to an irregular noun.",
+          "hi": "एक अनियमित संज्ञा पर नियमित \"-s\" बहुवचन नियम गलत तरीके से लगा दिया।",
+          "mr": "एका अनियमित नामावर नियमित \"-s\" बहुवचन नियम चुकीच्या पद्धतीने लावला."
+        },
+        "2": {
+          "en": "This is the singular form, unchanged, not the plural.",
+          "hi": "यह एकवचन रूप है, अपरिवर्तित, बहुवचन नहीं।",
+          "mr": "हे एकवचनी रूप आहे, न बदललेले, बहुवचन नाही."
+        },
+        "3": {
+          "en": "Wrongly adds \"-s\" to the already-irregular plural \"Mice\".",
+          "hi": "पहले से अनियमित बहुवचन \"Mice\" में गलत तरीके से \"-s\" जोड़ दिया।",
+          "mr": "आधीच अनियमित बहुवचन असलेल्या \"Mice\" मध्ये चुकीच्या पद्धतीने \"-s\" जोडले."
+        }
       }
     },
     {
       "key": "aissee6-p1-la-17",
       "year": 2026,
       "difficulty": "MEDIUM",
-      "questionJson": { "en": "Choose the correctly ordered sentence using the given words: (always / she / the / to / school / walks)", "hi": "दिए गए शब्दों से सही क्रम वाला वाक्य चुनें: (always / she / the / to / school / walks)" },
+      "questionJson": {
+        "en": "Choose the correctly ordered sentence using the given words: (always / she / the / to / school / walks)",
+        "hi": "दिए गए शब्दों से सही क्रम वाला वाक्य चुनें: (always / she / the / to / school / walks)",
+        "mr": "दिलेल्या शब्दांपासून योग्य क्रमाने बनलेले वाक्य निवडा: (always / she / the / to / school / walks)"
+      },
       "optionsJson": [
-        { "en": "She walks always to the school.", "hi": "She walks always to the school." },
-        { "en": "She always walks to the school.", "hi": "She always walks to the school." },
-        { "en": "Always she walks to the school.", "hi": "Always she walks to the school." },
-        { "en": "She walks to the school always.", "hi": "She walks to the school always." }
+        {
+          "en": "She walks always to the school.",
+          "hi": "She walks always to the school.",
+          "mr": "She walks always to the school."
+        },
+        {
+          "en": "She always walks to the school.",
+          "hi": "She always walks to the school.",
+          "mr": "She always walks to the school."
+        },
+        {
+          "en": "Always she walks to the school.",
+          "hi": "Always she walks to the school.",
+          "mr": "Always she walks to the school."
+        },
+        {
+          "en": "She walks to the school always.",
+          "hi": "She walks to the school always.",
+          "mr": "She walks to the school always."
+        }
       ],
       "correctAnswer": 1,
-      "explanation": { "en": "Adverbs of frequency like \"always\" are usually placed before the main verb, after the subject.", "hi": "\"always\" जैसे frequency adverbs सामान्यतः कर्ता के बाद और मुख्य क्रिया से पहले रखे जाते हैं।" },
+      "explanation": {
+        "en": "Adverbs of frequency like \"always\" are usually placed before the main verb, after the subject.",
+        "hi": "\"always\" जैसे frequency adverbs सामान्यतः कर्ता के बाद और मुख्य क्रिया से पहले रखे जाते हैं।",
+        "mr": "\"always\" सारखे frequency adverbs साधारणपणे कर्त्यानंतर आणि मुख्य क्रियापदाच्या आधी ठेवले जातात."
+      },
       "distractorAnalysis": {
-        "0": { "en": "Places \"always\" after the verb instead of the usual position before it.", "hi": "\"always\" को उसकी सामान्य स्थिति (क्रिया से पहले) के बजाय क्रिया के बाद रखा।" },
-        "2": { "en": "Places \"always\" at the very start, which sounds unnatural in standard English word order.", "hi": "\"always\" को बिल्कुल शुरुआत में रखा, जो मानक अंग्रेज़ी शब्द-क्रम में अस्वाभाविक लगता है।" },
-        "3": { "en": "Places \"always\" at the end, a less standard position for this frequency adverb.", "hi": "\"always\" को अंत में रखा, जो इस frequency adverb के लिए कम मानक स्थिति है।" }
+        "0": {
+          "en": "Places \"always\" after the verb instead of the usual position before it.",
+          "hi": "\"always\" को उसकी सामान्य स्थिति (क्रिया से पहले) के बजाय क्रिया के बाद रखा।",
+          "mr": "\"always\" ला त्याच्या नेहमीच्या स्थानाऐवजी (क्रियापदाच्या आधी) क्रियापदानंतर ठेवले."
+        },
+        "2": {
+          "en": "Places \"always\" at the very start, which sounds unnatural in standard English word order.",
+          "hi": "\"always\" को बिल्कुल शुरुआत में रखा, जो मानक अंग्रेज़ी शब्द-क्रम में अस्वाभाविक लगता है।",
+          "mr": "\"always\" ला अगदी सुरुवातीला ठेवले, जे प्रमाण इंग्रजी शब्द-क्रमात अस्वाभाविक वाटते."
+        },
+        "3": {
+          "en": "Places \"always\" at the end, a less standard position for this frequency adverb.",
+          "hi": "\"always\" को अंत में रखा, जो इस frequency adverb के लिए कम मानक स्थिति है।",
+          "mr": "\"always\" ला शेवटी ठेवले, जी या frequency adverb साठी कमी प्रमाण स्थिती आहे."
+        }
       }
     },
     {
       "key": "aissee6-p1-la-18",
       "year": 2026,
       "difficulty": "EASY",
-      "questionJson": { "en": "Choose the correct homophone: I want to ___ a letter.", "hi": "सही समोच्चारित (homophone) शब्द चुनें: I want to ___ a letter." },
+      "questionJson": {
+        "en": "Choose the correct homophone: I want to ___ a letter.",
+        "hi": "सही समोच्चारित (homophone) शब्द चुनें: I want to ___ a letter.",
+        "mr": "योग्य समोच्चारित (homophone) शब्द निवडा: I want to ___ a letter."
+      },
       "optionsJson": [
-        { "en": "right", "hi": "right" },
-        { "en": "write", "hi": "write" },
-        { "en": "rite", "hi": "rite" },
-        { "en": "wright", "hi": "wright" }
+        {
+          "en": "right",
+          "hi": "right",
+          "mr": "right"
+        },
+        {
+          "en": "write",
+          "hi": "write",
+          "mr": "write"
+        },
+        {
+          "en": "rite",
+          "hi": "rite",
+          "mr": "rite"
+        },
+        {
+          "en": "wright",
+          "hi": "wright",
+          "mr": "wright"
+        }
       ],
       "correctAnswer": 1,
-      "explanation": { "en": "\"Write\" means to put words on paper, matching the sentence's meaning.", "hi": "\"Write\" का अर्थ है कागज़ पर शब्द लिखना, जो वाक्य के अर्थ से मेल खाता है।" },
+      "explanation": {
+        "en": "\"Write\" means to put words on paper, matching the sentence's meaning.",
+        "hi": "\"Write\" का अर्थ है कागज़ पर शब्द लिखना, जो वाक्य के अर्थ से मेल खाता है।",
+        "mr": "\"Write\" म्हणजे कागदावर शब्द लिहिणे, जे वाक्याच्या अर्थाशी जुळते."
+      },
       "distractorAnalysis": {
-        "0": { "en": "Sounds the same but means \"correct\" or a direction, not the act of writing.", "hi": "उच्चारण समान है पर अर्थ \"सही\" या एक दिशा है, लिखने की क्रिया नहीं।" },
-        "2": { "en": "Sounds similar but means a ceremony, not the act of writing.", "hi": "उच्चारण मिलता-जुलता है पर अर्थ एक धार्मिक विधि है, लिखने की क्रिया नहीं।" },
-        "3": { "en": "Sounds similar but refers to a maker/builder (as in \"playwright\"), not the act of writing.", "hi": "उच्चारण मिलता-जुलता है पर अर्थ एक निर्माता (जैसे \"playwright\") है, लिखने की क्रिया नहीं।" }
+        "0": {
+          "en": "Sounds the same but means \"correct\" or a direction, not the act of writing.",
+          "hi": "उच्चारण समान है पर अर्थ \"सही\" या एक दिशा है, लिखने की क्रिया नहीं।",
+          "mr": "उच्चार समान आहे पण अर्थ \"बरोबर\" किंवा एक दिशा आहे, लिहिण्याची क्रिया नाही."
+        },
+        "2": {
+          "en": "Sounds similar but means a ceremony, not the act of writing.",
+          "hi": "उच्चारण मिलता-जुलता है पर अर्थ एक धार्मिक विधि है, लिखने की क्रिया नहीं।",
+          "mr": "उच्चार जवळपास समान आहे पण अर्थ एक धार्मिक विधी आहे, लिहिण्याची क्रिया नाही."
+        },
+        "3": {
+          "en": "Sounds similar but refers to a maker/builder (as in \"playwright\"), not the act of writing.",
+          "hi": "उच्चारण मिलता-जुलता है पर अर्थ एक निर्माता (जैसे \"playwright\") है, लिखने की क्रिया नहीं।",
+          "mr": "उच्चार जवळपास समान आहे पण अर्थ एक निर्माता/बांधणारा आहे (जसे \"playwright\"), लिहिण्याची क्रिया नाही."
+        }
       }
     },
     {
       "key": "aissee6-p1-la-19",
       "year": 2022,
       "difficulty": "MEDIUM",
-      "questionJson": { "en": "Choose the sentence with correct use of the possessive apostrophe.", "hi": "स्वामित्व सूचक apostrophe के सही प्रयोग वाला वाक्य चुनें।" },
+      "questionJson": {
+        "en": "Choose the sentence with correct use of the possessive apostrophe.",
+        "hi": "स्वामित्व सूचक apostrophe के सही प्रयोग वाला वाक्य चुनें।",
+        "mr": "स्वामित्व दर्शवणाऱ्या apostrophe च्या योग्य वापरासह वाक्य निवडा."
+      },
       "optionsJson": [
-        { "en": "My friends name is Anil.", "hi": "My friends name is Anil." },
-        { "en": "My friend's name is Anil.", "hi": "My friend's name is Anil." },
-        { "en": "My friends' name is Anil.", "hi": "My friends' name is Anil." },
-        { "en": "My friend, name is Anil.", "hi": "My friend, name is Anil." }
+        {
+          "en": "My friends name is Anil.",
+          "hi": "My friends name is Anil.",
+          "mr": "My friends name is Anil."
+        },
+        {
+          "en": "My friend's name is Anil.",
+          "hi": "My friend's name is Anil.",
+          "mr": "My friend's name is Anil."
+        },
+        {
+          "en": "My friends' name is Anil.",
+          "hi": "My friends' name is Anil.",
+          "mr": "My friends' name is Anil."
+        },
+        {
+          "en": "My friend, name is Anil.",
+          "hi": "My friend, name is Anil.",
+          "mr": "My friend, name is Anil."
+        }
       ],
       "correctAnswer": 1,
-      "explanation": { "en": "A single friend possessing the name needs an apostrophe before the \"s\": \"friend's\".", "hi": "एक मित्र के नाम को दर्शाने के लिए \"s\" से पहले apostrophe आता है: \"friend's\"।" },
+      "explanation": {
+        "en": "A single friend possessing the name needs an apostrophe before the \"s\": \"friend's\".",
+        "hi": "एक मित्र के नाम को दर्शाने के लिए \"s\" से पहले apostrophe आता है: \"friend's\"।",
+        "mr": "एका मित्राच्या नावाचे स्वामित्व दाखवण्यासाठी \"s\" च्या आधी apostrophe येते: \"friend's\"."
+      },
       "distractorAnalysis": {
-        "0": { "en": "Missing the possessive apostrophe entirely.", "hi": "स्वामित्व दर्शाने वाला apostrophe पूरी तरह गायब है।" },
-        "2": { "en": "The apostrophe after \"s\" would imply more than one friend, but only one is meant here.", "hi": "\"s\" के बाद apostrophe से एक से अधिक मित्र का अर्थ निकलता, पर यहाँ केवल एक ही है।" },
-        "3": { "en": "Inserts an unnecessary comma that breaks the sentence's meaning.", "hi": "एक अनावश्यक अल्पविराम डाल दिया जो वाक्य के अर्थ को तोड़ देता है।" }
+        "0": {
+          "en": "Missing the possessive apostrophe entirely.",
+          "hi": "स्वामित्व दर्शाने वाला apostrophe पूरी तरह गायब है।",
+          "mr": "स्वामित्व दर्शवणारे apostrophe पूर्णपणे गायब आहे."
+        },
+        "2": {
+          "en": "The apostrophe after \"s\" would imply more than one friend, but only one is meant here.",
+          "hi": "\"s\" के बाद apostrophe से एक से अधिक मित्र का अर्थ निकलता, पर यहाँ केवल एक ही है।",
+          "mr": "\"s\" नंतरचे apostrophe एकापेक्षा जास्त मित्र असल्याचे दर्शवते, पण इथे फक्त एकच अभिप्रेत आहे."
+        },
+        "3": {
+          "en": "Inserts an unnecessary comma that breaks the sentence's meaning.",
+          "hi": "एक अनावश्यक अल्पविराम डाल दिया जो वाक्य के अर्थ को तोड़ देता है।",
+          "mr": "एक अनावश्यक स्वल्पविराम घातला ज्यामुळे वाक्याचा अर्थ बिघडतो."
+        }
       }
     },
     {
       "key": "aissee6-p1-la-20",
       "year": 2023,
       "difficulty": "EASY",
-      "questionJson": { "en": "Choose the correct spelling.", "hi": "सही वर्तनी चुनें।" },
+      "questionJson": {
+        "en": "Choose the correct spelling.",
+        "hi": "सही वर्तनी चुनें।",
+        "mr": "योग्य वर्तनी निवडा."
+      },
       "optionsJson": [
-        { "en": "Beutiful", "hi": "Beutiful" },
-        { "en": "Beautiful", "hi": "Beautiful" },
-        { "en": "Beautifull", "hi": "Beautifull" },
-        { "en": "Butiful", "hi": "Butiful" }
+        {
+          "en": "Beutiful",
+          "hi": "Beutiful",
+          "mr": "Beutiful"
+        },
+        {
+          "en": "Beautiful",
+          "hi": "Beautiful",
+          "mr": "Beautiful"
+        },
+        {
+          "en": "Beautifull",
+          "hi": "Beautifull",
+          "mr": "Beautifull"
+        },
+        {
+          "en": "Butiful",
+          "hi": "Butiful",
+          "mr": "Butiful"
+        }
       ],
       "correctAnswer": 1,
-      "explanation": { "en": "\"Beautiful\" is spelled b-e-a-u-t-i-f-u-l.", "hi": "\"Beautiful\" की वर्तनी है b-e-a-u-t-i-f-u-l।" },
+      "explanation": {
+        "en": "\"Beautiful\" is spelled b-e-a-u-t-i-f-u-l.",
+        "hi": "\"Beautiful\" की वर्तनी है b-e-a-u-t-i-f-u-l।",
+        "mr": "\"Beautiful\" ची वर्तनी आहे b-e-a-u-t-i-f-u-l."
+      },
       "distractorAnalysis": {
-        "0": { "en": "Missing the \"a\" in the \"eau\" sequence.", "hi": "\"eau\" क्रम में \"a\" गायब है।" },
-        "2": { "en": "Has an incorrect double \"l\" at the end.", "hi": "अंत में गलत दोहरा \"l\" है।" },
-        "3": { "en": "Missing the \"ea\" in the first syllable.", "hi": "पहले syllable में \"ea\" गायब है।" }
+        "0": {
+          "en": "Missing the \"a\" in the \"eau\" sequence.",
+          "hi": "\"eau\" क्रम में \"a\" गायब है।",
+          "mr": "\"eau\" क्रमातील \"a\" गायब आहे."
+        },
+        "2": {
+          "en": "Has an incorrect double \"l\" at the end.",
+          "hi": "अंत में गलत दोहरा \"l\" है।",
+          "mr": "शेवटी चुकीचे दुहेरी \"l\" आहे."
+        },
+        "3": {
+          "en": "Missing the \"ea\" in the first syllable.",
+          "hi": "पहले syllable में \"ea\" गायब है।",
+          "mr": "पहिल्या syllable मध्ये \"ea\" गायब आहे."
+        }
       }
     },
     {
       "key": "aissee6-p1-la-21",
       "year": 2023,
       "difficulty": "MEDIUM",
-      "questionJson": { "en": "Identify the adjective in the sentence: \"The tall boy ran quickly.\"", "hi": "वाक्य में विशेषण (adjective) पहचानें: \"The tall boy ran quickly.\"" },
+      "questionJson": {
+        "en": "Identify the adjective in the sentence: \"The tall boy ran quickly.\"",
+        "hi": "वाक्य में विशेषण (adjective) पहचानें: \"The tall boy ran quickly.\"",
+        "mr": "वाक्यातील विशेषण (adjective) ओळखा: \"The tall boy ran quickly.\""
+      },
       "optionsJson": [
-        { "en": "Tall", "hi": "Tall" },
-        { "en": "Boy", "hi": "Boy" },
-        { "en": "Ran", "hi": "Ran" },
-        { "en": "Quickly", "hi": "Quickly" }
+        {
+          "en": "Tall",
+          "hi": "Tall",
+          "mr": "Tall"
+        },
+        {
+          "en": "Boy",
+          "hi": "Boy",
+          "mr": "Boy"
+        },
+        {
+          "en": "Ran",
+          "hi": "Ran",
+          "mr": "Ran"
+        },
+        {
+          "en": "Quickly",
+          "hi": "Quickly",
+          "mr": "Quickly"
+        }
       ],
       "correctAnswer": 0,
-      "explanation": { "en": "\"Tall\" describes the noun \"boy\", making it the adjective.", "hi": "\"Tall\" संज्ञा \"boy\" का वर्णन करता है, अतः यह विशेषण है।" },
+      "explanation": {
+        "en": "\"Tall\" describes the noun \"boy\", making it the adjective.",
+        "hi": "\"Tall\" संज्ञा \"boy\" का वर्णन करता है, अतः यह विशेषण है।",
+        "mr": "\"Tall\" संज्ञा \"boy\" चे वर्णन करते, म्हणून हे विशेषण आहे."
+      },
       "distractorAnalysis": {
-        "1": { "en": "This is the noun being described, not the describing word itself.", "hi": "यह वर्णित की जा रही संज्ञा है, वर्णन करने वाला शब्द नहीं।" },
-        "2": { "en": "This is a verb (an action word), not an adjective.", "hi": "यह एक क्रिया है, विशेषण नहीं।" },
-        "3": { "en": "This is an adverb (describes how he ran), not an adjective.", "hi": "यह एक क्रिया-विशेषण है (दौड़ने का ढंग बताता है), विशेषण नहीं।" }
+        "1": {
+          "en": "This is the noun being described, not the describing word itself.",
+          "hi": "यह वर्णित की जा रही संज्ञा है, वर्णन करने वाला शब्द नहीं।",
+          "mr": "हे वर्णन केली जाणारी संज्ञा आहे, वर्णन करणारा शब्द नाही."
+        },
+        "2": {
+          "en": "This is a verb (an action word), not an adjective.",
+          "hi": "यह एक क्रिया है, विशेषण नहीं।",
+          "mr": "हे एक क्रियापद (कृती-शब्द) आहे, विशेषण नाही."
+        },
+        "3": {
+          "en": "This is an adverb (describes how he ran), not an adjective.",
+          "hi": "यह एक क्रिया-विशेषण है (दौड़ने का ढंग बताता है), विशेषण नहीं।",
+          "mr": "हे एक क्रियाविशेषण आहे (तो कसा पळाला ते सांगते), विशेषण नाही."
+        }
       }
     },
     {
       "key": "aissee6-p1-la-22",
       "year": 2024,
       "difficulty": "EASY",
-      "questionJson": { "en": "Choose the correct pronoun: ___ is my best friend.", "hi": "सही सर्वनाम चुनें: ___ is my best friend." },
+      "questionJson": {
+        "en": "Choose the correct pronoun: ___ is my best friend.",
+        "hi": "सही सर्वनाम चुनें: ___ is my best friend.",
+        "mr": "योग्य सर्वनाम निवडा: ___ is my best friend."
+      },
       "optionsJson": [
-        { "en": "Him", "hi": "Him" },
-        { "en": "He", "hi": "He" },
-        { "en": "His", "hi": "His" },
-        { "en": "Himself", "hi": "Himself" }
+        {
+          "en": "Him",
+          "hi": "Him",
+          "mr": "Him"
+        },
+        {
+          "en": "He",
+          "hi": "He",
+          "mr": "He"
+        },
+        {
+          "en": "His",
+          "hi": "His",
+          "mr": "His"
+        },
+        {
+          "en": "Himself",
+          "hi": "Himself",
+          "mr": "Himself"
+        }
       ],
       "correctAnswer": 1,
-      "explanation": { "en": "\"He\" is the subject pronoun needed here, since it performs the action \"is\".", "hi": "यहाँ कर्ता सर्वनाम \"He\" चाहिए, क्योंकि यह \"is\" क्रिया का कर्ता है।" },
+      "explanation": {
+        "en": "\"He\" is the subject pronoun needed here, since it performs the action \"is\".",
+        "hi": "यहाँ कर्ता सर्वनाम \"He\" चाहिए, क्योंकि यह \"is\" क्रिया का कर्ता है।",
+        "mr": "इथे कर्ता सर्वनाम \"He\" हवे आहे, कारण तो \"is\" या क्रियापदाची क्रिया करतो."
+      },
       "distractorAnalysis": {
-        "0": { "en": "\"Him\" is an object pronoun, not used as the subject of a sentence.", "hi": "\"Him\" एक कर्म सर्वनाम है, वाक्य के कर्ता के रूप में प्रयोग नहीं होता।" },
-        "2": { "en": "\"His\" shows possession, not the subject performing the action.", "hi": "\"His\" स्वामित्व दर्शाता है, क्रिया करने वाला कर्ता नहीं।" },
-        "3": { "en": "\"Himself\" is a reflexive pronoun, used when the subject acts on itself.", "hi": "\"Himself\" एक reflexive सर्वनाम है, जब कर्ता स्वयं पर क्रिया करे तब प्रयुक्त होता है।" }
+        "0": {
+          "en": "\"Him\" is an object pronoun, not used as the subject of a sentence.",
+          "hi": "\"Him\" एक कर्म सर्वनाम है, वाक्य के कर्ता के रूप में प्रयोग नहीं होता।",
+          "mr": "\"Him\" हे कर्म सर्वनाम आहे, वाक्याचा कर्ता म्हणून वापरले जात नाही."
+        },
+        "2": {
+          "en": "\"His\" shows possession, not the subject performing the action.",
+          "hi": "\"His\" स्वामित्व दर्शाता है, क्रिया करने वाला कर्ता नहीं।",
+          "mr": "\"His\" स्वामित्व दर्शवते, क्रिया करणारा कर्ता नाही."
+        },
+        "3": {
+          "en": "\"Himself\" is a reflexive pronoun, used when the subject acts on itself.",
+          "hi": "\"Himself\" एक reflexive सर्वनाम है, जब कर्ता स्वयं पर क्रिया करे तब प्रयुक्त होता है।",
+          "mr": "\"Himself\" हे reflexive सर्वनाम आहे, जेव्हा कर्ता स्वतःवर क्रिया करतो तेव्हा वापरले जाते."
+        }
       }
     },
     {
       "key": "aissee6-p1-la-23",
       "year": 2024,
       "difficulty": "MEDIUM",
-      "questionJson": { "en": "Choose the sentence in the passive voice.", "hi": "passive voice वाला वाक्य चुनें।" },
+      "questionJson": {
+        "en": "Choose the sentence in the passive voice.",
+        "hi": "passive voice वाला वाक्य चुनें।",
+        "mr": "passive voice असलेले वाक्य निवडा."
+      },
       "optionsJson": [
-        { "en": "The cat chased the mouse.", "hi": "The cat chased the mouse." },
-        { "en": "The mouse was chased by the cat.", "hi": "The mouse was chased by the cat." },
-        { "en": "The cat is chasing the mouse.", "hi": "The cat is chasing the mouse." },
-        { "en": "The cat will chase the mouse.", "hi": "The cat will chase the mouse." }
+        {
+          "en": "The cat chased the mouse.",
+          "hi": "The cat chased the mouse.",
+          "mr": "The cat chased the mouse."
+        },
+        {
+          "en": "The mouse was chased by the cat.",
+          "hi": "The mouse was chased by the cat.",
+          "mr": "The mouse was chased by the cat."
+        },
+        {
+          "en": "The cat is chasing the mouse.",
+          "hi": "The cat is chasing the mouse.",
+          "mr": "The cat is chasing the mouse."
+        },
+        {
+          "en": "The cat will chase the mouse.",
+          "hi": "The cat will chase the mouse.",
+          "mr": "The cat will chase the mouse."
+        }
       ],
       "correctAnswer": 1,
-      "explanation": { "en": "In the passive voice, the object of the action becomes the subject, and \"was + past participle\" is used: \"The mouse was chased by the cat.\"", "hi": "passive voice में, क्रिया के कर्म को कर्ता बना दिया जाता है, और \"was + past participle\" प्रयोग होता है: \"The mouse was chased by the cat.\"" },
+      "explanation": {
+        "en": "In the passive voice, the object of the action becomes the subject, and \"was + past participle\" is used: \"The mouse was chased by the cat.\"",
+        "hi": "passive voice में, क्रिया के कर्म को कर्ता बना दिया जाता है, और \"was + past participle\" प्रयोग होता है: \"The mouse was chased by the cat.\"",
+        "mr": "passive voice मध्ये, क्रियेचा कर्म कर्ता बनतो, आणि \"was + past participle\" वापरले जाते: \"The mouse was chased by the cat.\""
+      },
       "distractorAnalysis": {
-        "0": { "en": "This is the active voice — the cat (subject) performs the action directly.", "hi": "यह active voice है — बिल्ली (कर्ता) सीधे क्रिया करती है।" },
-        "2": { "en": "This is the active voice in the present continuous tense.", "hi": "यह present continuous tense में active voice है।" },
-        "3": { "en": "This is the active voice in the future tense.", "hi": "यह future tense में active voice है।" }
+        "0": {
+          "en": "This is the active voice — the cat (subject) performs the action directly.",
+          "hi": "यह active voice है — बिल्ली (कर्ता) सीधे क्रिया करती है।",
+          "mr": "हे active voice आहे — मांजर (कर्ता) थेट क्रिया करते."
+        },
+        "2": {
+          "en": "This is the active voice in the present continuous tense.",
+          "hi": "यह present continuous tense में active voice है।",
+          "mr": "हे present continuous tense मधील active voice आहे."
+        },
+        "3": {
+          "en": "This is the active voice in the future tense.",
+          "hi": "यह future tense में active voice है।",
+          "mr": "हे future tense मधील active voice आहे."
+        }
       }
     },
     {
       "key": "aissee6-p1-la-24",
       "year": 2025,
       "difficulty": "EASY",
-      "questionJson": { "en": "Choose the correct collective noun: A ___ of sheep grazed in the field.", "hi": "सही समूहवाचक संज्ञा (collective noun) चुनें: A ___ of sheep grazed in the field." },
+      "questionJson": {
+        "en": "Choose the correct collective noun: A ___ of sheep grazed in the field.",
+        "hi": "सही समूहवाचक संज्ञा (collective noun) चुनें: A ___ of sheep grazed in the field.",
+        "mr": "योग्य समूहवाचक संज्ञा (collective noun) निवडा: A ___ of sheep grazed in the field."
+      },
       "optionsJson": [
-        { "en": "Pack", "hi": "Pack" },
-        { "en": "Flock", "hi": "Flock" },
-        { "en": "Herd", "hi": "Herd" },
-        { "en": "Swarm", "hi": "Swarm" }
+        {
+          "en": "Pack",
+          "hi": "Pack",
+          "mr": "Pack"
+        },
+        {
+          "en": "Flock",
+          "hi": "Flock",
+          "mr": "Flock"
+        },
+        {
+          "en": "Herd",
+          "hi": "Herd",
+          "mr": "Herd"
+        },
+        {
+          "en": "Swarm",
+          "hi": "Swarm",
+          "mr": "Swarm"
+        }
       ],
       "correctAnswer": 1,
-      "explanation": { "en": "A group of sheep is called a \"flock\".", "hi": "भेड़ों के समूह को \"flock\" कहा जाता है।" },
+      "explanation": {
+        "en": "A group of sheep is called a \"flock\".",
+        "hi": "भेड़ों के समूह को \"flock\" कहा जाता है।",
+        "mr": "मेंढ्यांच्या समूहाला \"flock\" म्हणतात."
+      },
       "distractorAnalysis": {
-        "0": { "en": "\"Pack\" is used for wolves or dogs, not sheep.", "hi": "\"Pack\" का प्रयोग भेड़ियों या कुत्तों के लिए होता है, भेड़ों के लिए नहीं।" },
-        "2": { "en": "\"Herd\" is more commonly used for cattle, though flock is the standard term for sheep.", "hi": "\"Herd\" आमतौर पर मवेशियों के लिए प्रयोग होता है, जबकि भेड़ों के लिए मानक शब्द flock है।" },
-        "3": { "en": "\"Swarm\" is used for bees or insects, not sheep.", "hi": "\"Swarm\" का प्रयोग मधुमक्खियों या कीड़ों के लिए होता है, भेड़ों के लिए नहीं।" }
+        "0": {
+          "en": "\"Pack\" is used for wolves or dogs, not sheep.",
+          "hi": "\"Pack\" का प्रयोग भेड़ियों या कुत्तों के लिए होता है, भेड़ों के लिए नहीं।",
+          "mr": "\"Pack\" चा वापर लांडगे किंवा कुत्र्यांसाठी होतो, मेंढ्यांसाठी नाही."
+        },
+        "2": {
+          "en": "\"Herd\" is more commonly used for cattle, though flock is the standard term for sheep.",
+          "hi": "\"Herd\" आमतौर पर मवेशियों के लिए प्रयोग होता है, जबकि भेड़ों के लिए मानक शब्द flock है।",
+          "mr": "\"Herd\" साधारणपणे गुरांसाठी वापरले जाते, तर मेंढ्यांसाठी प्रमाण शब्द flock आहे."
+        },
+        "3": {
+          "en": "\"Swarm\" is used for bees or insects, not sheep.",
+          "hi": "\"Swarm\" का प्रयोग मधुमक्खियों या कीड़ों के लिए होता है, भेड़ों के लिए नहीं।",
+          "mr": "\"Swarm\" चा वापर मधमाश्या किंवा किड्यांसाठी होतो, मेंढ्यांसाठी नाही."
+        }
       }
     },
     {
       "key": "aissee6-p1-la-25",
       "year": 2026,
       "difficulty": "HARD",
-      "questionJson": { "en": "Choose the sentence with the correct use of \"who\" or \"whom\": ___ did you meet at the market?", "hi": "\"who\" या \"whom\" के सही प्रयोग वाला वाक्य चुनें: ___ did you meet at the market?" },
+      "questionJson": {
+        "en": "Choose the sentence with the correct use of \"who\" or \"whom\": ___ did you meet at the market?",
+        "hi": "\"who\" या \"whom\" के सही प्रयोग वाला वाक्य चुनें: ___ did you meet at the market?",
+        "mr": "\"who\" किंवा \"whom\" च्या योग्य वापरासह वाक्य निवडा: ___ did you meet at the market?"
+      },
       "optionsJson": [
-        { "en": "Who", "hi": "Who" },
-        { "en": "Whom", "hi": "Whom" },
-        { "en": "Whose", "hi": "Whose" },
-        { "en": "Which", "hi": "Which" }
+        {
+          "en": "Who",
+          "hi": "Who",
+          "mr": "Who"
+        },
+        {
+          "en": "Whom",
+          "hi": "Whom",
+          "mr": "Whom"
+        },
+        {
+          "en": "Whose",
+          "hi": "Whose",
+          "mr": "Whose"
+        },
+        {
+          "en": "Which",
+          "hi": "Which",
+          "mr": "Which"
+        }
       ],
       "correctAnswer": 1,
-      "explanation": { "en": "\"Whom\" is used as the object of the verb \"meet\" (you met whom), while \"who\" is used as a subject.", "hi": "\"Whom\" क्रिया \"meet\" के कर्म के रूप में प्रयोग होता है (you met whom), जबकि \"who\" कर्ता के रूप में प्रयोग होता है।" },
+      "explanation": {
+        "en": "\"Whom\" is used as the object of the verb \"meet\" (you met whom), while \"who\" is used as a subject.",
+        "hi": "\"Whom\" क्रिया \"meet\" के कर्म के रूप में प्रयोग होता है (you met whom), जबकि \"who\" कर्ता के रूप में प्रयोग होता है।",
+        "mr": "\"Whom\" हे \"meet\" या क्रियापदाचे कर्म म्हणून वापरले जाते (you met whom), तर \"who\" कर्ता म्हणून वापरले जाते."
+      },
       "distractorAnalysis": {
-        "0": { "en": "\"Who\" is used as the subject of a verb, but here the person is the object of \"meet\".", "hi": "\"Who\" क्रिया के कर्ता के रूप में प्रयोग होता है, पर यहाँ व्यक्ति \"meet\" का कर्म है।" },
-        "2": { "en": "\"Whose\" shows possession, which isn't relevant to this question.", "hi": "\"Whose\" स्वामित्व दर्शाता है, जो इस प्रश्न में प्रासंगिक नहीं है।" },
-        "3": { "en": "\"Which\" is used for things, not people.", "hi": "\"Which\" वस्तुओं के लिए प्रयोग होता है, व्यक्तियों के लिए नहीं।" }
+        "0": {
+          "en": "\"Who\" is used as the subject of a verb, but here the person is the object of \"meet\".",
+          "hi": "\"Who\" क्रिया के कर्ता के रूप में प्रयोग होता है, पर यहाँ व्यक्ति \"meet\" का कर्म है।",
+          "mr": "\"Who\" क्रियापदाचा कर्ता म्हणून वापरले जाते, पण इथे व्यक्ती \"meet\" चे कर्म आहे."
+        },
+        "2": {
+          "en": "\"Whose\" shows possession, which isn't relevant to this question.",
+          "hi": "\"Whose\" स्वामित्व दर्शाता है, जो इस प्रश्न में प्रासंगिक नहीं है।",
+          "mr": "\"Whose\" स्वामित्व दर्शवते, जे या प्रश्नाशी संबंधित नाही."
+        },
+        "3": {
+          "en": "\"Which\" is used for things, not people.",
+          "hi": "\"Which\" वस्तुओं के लिए प्रयोग होता है, व्यक्तियों के लिए नहीं।",
+          "mr": "\"Which\" वस्तूंसाठी वापरले जाते, व्यक्तींसाठी नाही."
+        }
       }
     }
   ]

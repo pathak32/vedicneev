@@ -12,6 +12,18 @@ import { posts as postsAissee9Paper2 } from "./aissee-class-9-paper2";
 import { posts as postsRms9Paper2 } from "./rms-class-9-paper2";
 import { posts as postsJnvst6Paper2 } from "./jnvst-class-6-paper2";
 import { posts as postsJnvst9Paper2 } from "./jnvst-class-9-paper2";
+import { posts as postsJnvst6GeminiBatch1 } from "./jnvst-class-6-gemini-batch1";
+import { posts as postsJnvst6GeminiBatch2 } from "./jnvst-class-6-gemini-batch2";
+import { posts as postsJnvst9GeminiBatch1 } from "./jnvst-class-9-gemini-batch1";
+import { posts as postsJnvst9GeminiBatch2 } from "./jnvst-class-9-gemini-batch2";
+import { posts as postsAissee6GeminiBatch1 } from "./aissee-class-6-gemini-batch1";
+import { posts as postsAissee6GeminiBatch2 } from "./aissee-class-6-gemini-batch2";
+import { posts as postsAissee9GeminiBatch1 } from "./aissee-class-9-gemini-batch1";
+import { posts as postsAissee9GeminiBatch2 } from "./aissee-class-9-gemini-batch2";
+import { posts as postsRms6GeminiBatch1 } from "./rms-class-6-gemini-batch1";
+import { posts as postsRms6GeminiBatch2 } from "./rms-class-6-gemini-batch2";
+import { posts as postsRms9GeminiBatch1 } from "./rms-class-9-gemini-batch1";
+import { posts as postsRms9GeminiBatch2 } from "./rms-class-9-gemini-batch2";
 
 export const pyqSeedItems: PyqSeedItem[] = [
   ...posts2021,
@@ -27,4 +39,16 @@ export const pyqSeedItems: PyqSeedItem[] = [
   ...postsRms9Paper2,
   ...postsJnvst6Paper2,
   ...postsJnvst9Paper2,
+  ...postsJnvst6GeminiBatch1,
+  ...postsJnvst6GeminiBatch2,
+  ...postsJnvst9GeminiBatch1,
+  ...postsJnvst9GeminiBatch2,
+  ...postsAissee6GeminiBatch1,
+  ...postsAissee6GeminiBatch2,
+  ...postsAissee9GeminiBatch1,
+  ...postsAissee9GeminiBatch2,
+  ...postsRms6GeminiBatch1,
+  ...postsRms6GeminiBatch2,
+  ...postsRms9GeminiBatch1,
+  ...postsRms9GeminiBatch2,
 ];
