@@ -47,15 +47,20 @@ const SERIAL_PREFIX_BY_EXAM: Record<ExamType, string> = {
 };
 
 /**
- * Picks a fresh "VN-<EXAM>-<seq>" code for a new set (e.g. "VN-JNV-007"),
- * sequencing from how many sets already exist for that exam type. Retries a
- * few sequence numbers ahead on a collision (possible under concurrent
+ * Picks a fresh "VN-<EXAM><CLASS>-<seq>" code for a new set (e.g.
+ * "VN-JNV6-007" for JNVST Class 6's 7th registered set), sequencing from
+ * how many sets already exist for that exact (examType, classLevel) pair —
+ * not just examType alone. This is what lets a scan-entry UI offer a clean
+ * "Paper 1..N" dropdown scoped to one exam+class combination (e.g. JNVST
+ * Class 6 papers numbered independently from JNVST Class 9's), instead of
+ * one shared counter interleaving both classes' sets. Retries a few
+ * sequence numbers ahead on a collision (possible under concurrent
  * generation) before falling back to a timestamp-suffixed code that's
  * guaranteed unique.
  */
-async function generateUniqueSerialCode(examType: ExamType): Promise<string> {
-  const prefix = `VN-${SERIAL_PREFIX_BY_EXAM[examType]}`;
-  const existingCount = await prisma.offlineMockSession.count({ where: { examType } });
+async function generateUniqueSerialCode(examType: ExamType, classLevel: number): Promise<string> {
+  const prefix = `VN-${SERIAL_PREFIX_BY_EXAM[examType]}${classLevel}`;
+  const existingCount = await prisma.offlineMockSession.count({ where: { examType, classLevel } });
 
   for (let attempt = 0; attempt < 5; attempt += 1) {
     const seq = existingCount + 1 + attempt;
@@ -128,7 +133,7 @@ export async function generateOfflineMockSession(
     answerKey[String(index + 1)] = BUBBLE_OPTIONS[q.correctAnswer] ?? "A";
   });
 
-  const serialCode = await generateUniqueSerialCode(input.examType);
+  const serialCode = await generateUniqueSerialCode(input.examType, input.classLevel);
 
   const created = await prisma.offlineMockSession.create({
     data: {
@@ -143,6 +148,52 @@ export async function generateOfflineMockSession(
   });
 
   return { session: toPayload(created), warnings };
+}
+
+export interface RegisterOfflineMockInput {
+  examType: ExamType;
+  classLevel: number;
+  /** Ids into PreviousYearQuestion OR Question (either bank), in print order — already assembled elsewhere (e.g. generateLiveMockSession), not drawn by this function. */
+  questionIds: string[];
+  /** 1-based question number -> correct bubble option, matching questionIds' order. */
+  answerKey: Record<string, BubbleOption>;
+  userId?: string;
+}
+
+/**
+ * Registers an ALREADY-ASSEMBLED question set (e.g. one produced by
+ * jnvstMockService.ts's generateLiveMockSession, which section-balances
+ * against the real ExamTemplate blueprint and can draw from either the PYQ
+ * bank or the Question bank) as a real, scannable OfflineMockSession —
+ * unlike generateOfflineMockSession above, this never draws its own
+ * sample; it just freezes whatever set the caller already built under a
+ * fresh serial code. This is what lets a specific pre-generated sample
+ * paper (a fixed, known set of questions in a fixed order) get its own
+ * matching printable OMR sheet, rather than the flat/PYQ-only random draw
+ * generateOfflineMockSession does.
+ */
+export async function registerOfflineMockSession(
+  input: RegisterOfflineMockInput
+): Promise<{ session: OfflineMockSessionPayload } | OfflineOmrServiceError> {
+  if (input.questionIds.length === 0) {
+    return { error: "questionIds must be non-empty." };
+  }
+
+  const serialCode = await generateUniqueSerialCode(input.examType, input.classLevel);
+
+  const created = await prisma.offlineMockSession.create({
+    data: {
+      serialCode,
+      examType: input.examType,
+      classLevel: input.classLevel,
+      totalQuestions: input.questionIds.length,
+      questionIds: input.questionIds,
+      answerKey: input.answerKey,
+      userId: input.userId,
+    },
+  });
+
+  return { session: toPayload(created) };
 }
 
 /**

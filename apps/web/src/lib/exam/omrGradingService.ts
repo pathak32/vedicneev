@@ -145,16 +145,34 @@ export async function gradeOfflineMockSession(
   return result;
 }
 
-/** Groups per-question outcomes by the source PreviousYearQuestion's Section, for a sectional score breakdown. */
+/**
+ * Groups per-question outcomes by the source question's Section, for a
+ * sectional score breakdown. Checks both PreviousYearQuestion and Question
+ * — an offline set registered via registerOfflineMockSession (e.g. a
+ * pre-assembled sample paper) can draw from either bank depending on the
+ * exam/class (see QUESTION_BANK_MOCK_SLUGS in jnvstMockService.ts), unlike
+ * generateOfflineMockSession's own draws, which are always PYQ-only.
+ */
 async function buildSectionBreakdown(
   session: OfflineMockSessionPayload,
   responses: EvaluatedOmrResponse[]
 ): Promise<SectionBreakdownEntry[]> {
-  const pyqRows = await prisma.previousYearQuestion.findMany({
-    where: { id: { in: session.questionIds } },
-    select: { id: true, section: { select: { key: true, name: true } } },
-  });
-  const sectionByQuestionId = new Map(pyqRows.map((row) => [row.id, row.section]));
+  const [pyqRows, questionRows] = await Promise.all([
+    prisma.previousYearQuestion.findMany({
+      where: { id: { in: session.questionIds } },
+      select: { id: true, section: { select: { key: true, name: true } } },
+    }),
+    prisma.question.findMany({
+      where: { id: { in: session.questionIds } },
+      select: { id: true, topic: { select: { section: { select: { key: true, name: true } } } } },
+    }),
+  ]);
+  const sectionByQuestionId = new Map<string, { key: string; name: Prisma.JsonValue }>(
+    pyqRows.map((row) => [row.id, row.section])
+  );
+  for (const row of questionRows) {
+    sectionByQuestionId.set(row.id, row.topic.section);
+  }
 
   const breakdownByKey = new Map<string, SectionBreakdownEntry>();
 
