@@ -37,7 +37,15 @@ const OTP_TTL_MINUTES = 10;
 const MAX_ATTEMPTS = 5;
 const RESEND_COOLDOWN_SECONDS = 30;
 const GRAPH_API_VERSION = process.env.WHATSAPP_API_VERSION || "v20.0";
-const OTP_TEMPLATE_NAME = process.env.WHATSAPP_OTP_TEMPLATE_NAME || "otp_login";
+// Must match the template name/language exactly as approved in Meta's
+// WhatsApp Manager — a mismatch here (e.g. the old "otp_login" default,
+// when the actually-approved template is named "auth_login") is what
+// produces Meta error #132001 "Template name does not exist in the
+// translation": Meta resolves (name, language.code) together, so either
+// field being wrong looks like a missing-translation error, not a
+// missing-template error.
+const OTP_TEMPLATE_NAME = process.env.WHATSAPP_TEMPLATE_NAME || "auth_login";
+const OTP_TEMPLATE_LANG = process.env.WHATSAPP_TEMPLATE_LANG || "en";
 
 function toE164(phone: string): string {
   return `+91${phone}`;
@@ -74,7 +82,7 @@ export async function sendWhatsAppOtp(phone: string): Promise<NextResponse> {
     },
   });
 
-  const payload = formatWhatsAppOtpPayload(code, toE164(phone), OTP_TEMPLATE_NAME);
+  const payload = formatWhatsAppOtpPayload(code, toE164(phone), OTP_TEMPLATE_NAME, OTP_TEMPLATE_LANG);
   const validation = validateWhatsAppPayload(payload);
   if (!validation.valid) {
     return NextResponse.json({ success: false, error: validation.errors.join(" ") }, { status: 500 });

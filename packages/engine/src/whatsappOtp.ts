@@ -11,13 +11,16 @@ import type { WhatsAppUtilityTemplatePayload } from "./whatsappReport";
  * send. The template is assumed pre-approved in Meta's Authentication
  * category with a single body parameter (the code) — this project has no
  * way to create/approve that template itself; see the env var docs for
- * WHATSAPP_OTP_TEMPLATE_NAME.
+ * WHATSAPP_TEMPLATE_NAME/WHATSAPP_TEMPLATE_LANG. `language` is a plain
+ * string (not narrowed to "en" | "hi") since it's driven directly by
+ * WHATSAPP_TEMPLATE_LANG and Meta's approved translations for a template
+ * aren't limited to those two locales.
  */
 export function formatWhatsAppOtpPayload(
   otpCode: string,
   toPhoneE164: string,
   templateName: string,
-  language: "en" | "hi" = "en"
+  language: string = "en"
 ): WhatsAppUtilityTemplatePayload {
   return {
     messaging_product: "whatsapp",
