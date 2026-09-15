@@ -137,27 +137,25 @@ export async function POST(req: Request) {
       },
     });
 
-    // 5. Load available seeded questions. TestResponse.questionId and
-    // MistakeVault.questionId are both foreign keys to Question
-    // specifically — writing an id from anywhere else violates the FK
-    // constraint (Prisma P2003) and 500s the whole request. Two different
-    // ids show up here that aren't in Question:
+    // 5. Load available seeded questions. TestResponse.questionId is a
+    // foreign key to Question specifically — writing an id from anywhere
+    // else still violates that FK constraint (Prisma P2003) and 500s the
+    // whole request, so a PYQ-sourced or unrecognized questionId still
+    // can't get a TestResponse row (out of scope here: fixing that needs
+    // TestResponse to gain its own second FK, a separate, larger change
+    // touching per-question response tracking and percentile calculation,
+    // not attempted in this pass). MistakeVault, however, now has
+    // pyqQuestionId alongside questionId (see that model's comment) — so a
+    // PYQ-sourced wrong answer still can't get a TestResponse row, but it
+    // no longer needs to be silently dropped entirely: the mistake itself
+    // gets logged via pyqQuestionId, just without a linked testResponseId.
+    // Two different kinds of unmatched id show up here:
     //  - the client's in-memory demo/mock fixture (mock-data.ts) uses its
     //    own ids (e.g. "q-ma-1"), which were never seeded anywhere;
     //  - the real PYQ-bank live mock (jnvstMockService.ts) draws from
     //    PreviousYearQuestion, a genuine seeded table, but a different one
-    //    from Question — same FK problem, different cause. Collapsing
-    //    every unmatched question onto one fallback id isn't a real fix
-    //    either — it makes multiple mistakes in the same session collide
-    //    on the same [testSessionId, questionId] unique key, and then on
-    //    MistakeVault.testResponseId's unique constraint the moment a
-    //    second mistake tried to reuse the same (rewritten) TestResponse
-    //    row. Until either the client is wired to real Question-table
-    //    content, or TestResponse/MistakeVault gain a second FK for the
-    //    PYQ bank, the honest fix is to skip both kinds — but distinguish
-    //    them, since "sourced from a real, known bank we just can't link
-    //    yet" and "not found anywhere" are different situations worth
-    //    telling apart in the response and the logs.
+    //    from Question — same TestResponse FK problem, different cause,
+    //    and now routed differently (mistake still logged) below.
     const [dbQuestions, pyqQuestions] = await Promise.all([
       prisma.question.findMany({ select: { id: true } }),
       prisma.previousYearQuestion.findMany({ select: { id: true } }),
@@ -185,15 +183,30 @@ export async function POST(req: Request) {
           continue;
         }
         if (!dbQuestionIds.has(questionId)) {
-          skipped.push(
-            pyqQuestionIds.has(questionId)
-              ? {
-                  questionId,
-                  reason:
-                    "Sourced from the PreviousYearQuestion bank — TestResponse/MistakeVault require a Question-table foreign key, which PYQ ids don't satisfy.",
-                }
-              : { questionId, reason: "Not found in either the Question or PreviousYearQuestion bank." }
-          );
+          if (!pyqQuestionIds.has(questionId)) {
+            skipped.push({ questionId, reason: "Not found in either the Question or PreviousYearQuestion bank." });
+            continue;
+          }
+
+          skipped.push({
+            questionId,
+            reason:
+              "Sourced from the PreviousYearQuestion bank — TestResponse still requires a Question-table foreign key, so no per-question response row was saved; the mistake itself was still logged via MistakeVault.pyqQuestionId below.",
+          });
+          if (!isCorrect) {
+            try {
+              await prisma.mistakeVault.create({
+                data: { userId: user.id, pyqQuestionId: questionId, tagCategory: mistakeTag },
+              });
+            } catch (itemError) {
+              const reason =
+                itemError instanceof Prisma.PrismaClientKnownRequestError
+                  ? `Database error (${itemError.code}) logging this PYQ mistake.`
+                  : "Unexpected error logging this PYQ mistake.";
+              console.error(`Exam submit: failed to log PYQ mistake for question ${questionId}:`, itemError);
+              failed.push({ questionId, reason });
+            }
+          }
           continue;
         }
 

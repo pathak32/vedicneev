@@ -43,6 +43,22 @@ export interface OmrSheetSpec {
   fiducials: [OmrFiducialMarker, OmrFiducialMarker, OmrFiducialMarker, OmrFiducialMarker];
   bubbles: OmrBubblePosition[];
   rollNumberGrid: OmrRollNumberDigitPosition[];
+  /**
+   * Institute Suite only (omrtest.vedicneev.com) — a second, independent
+   * digit-bubble grid alongside rollNumberGrid, for the anti-fraud
+   * sheetToken every TestBatchRosterEntry carries (see
+   * packages/db/prisma/schema.prisma's own comment on why that token, not
+   * the roll number, is what ingestion matching actually keys off).
+   * Encoding it as bubbles rather than a printed barcode/QR means the
+   * exact same bubble-detection pipeline that reads answers and the roll
+   * number also reads this — no second scanning mechanism or external
+   * library to add. Zero-length (sheetTokenDigits: 0) for every sheet spec
+   * that doesn't pass sheetTokenDigits — i.e. every existing JNVST/AISSEE
+   * consumer sheet — so this is purely additive, not a breaking change to
+   * that geometry.
+   */
+  sheetTokenDigits: number;
+  sheetTokenGrid: OmrRollNumberDigitPosition[];
 }
 
 function defaultColumnsFor(totalQuestions: number): number {
@@ -54,6 +70,8 @@ export interface GenerateOmrSheetSpecParams {
   totalQuestions: number;
   columns?: number;
   rollNumberDigits?: number;
+  /** See OmrSheetSpec.sheetTokenDigits — omit entirely for a non-institute sheet. */
+  sheetTokenDigits?: number;
 }
 
 export function generateOmrSheetSpec(params: GenerateOmrSheetSpecParams): OmrSheetSpec {
@@ -115,7 +133,37 @@ export function generateOmrSheetSpec(params: GenerateOmrSheetSpecParams): OmrShe
     }
   }
 
-  return { examType, totalQuestions, columns, questionsPerColumn, rollNumberDigits, fiducials, bubbles, rollNumberGrid };
+  // Sheet-token grid: same shape as the roll-number grid, mirrored into the
+  // header's other half so the two never overlap regardless of digit count.
+  const sheetTokenDigits = params.sheetTokenDigits ?? 0;
+  const tokenGridLeft = 0.52;
+  const tokenGridRight = 0.94;
+  const tokenDigitColWidth = sheetTokenDigits > 0 ? (tokenGridRight - tokenGridLeft) / sheetTokenDigits : 0;
+
+  const sheetTokenGrid: OmrRollNumberDigitPosition[] = [];
+  for (let d = 0; d < sheetTokenDigits; d++) {
+    for (let v = 0; v <= 9; v++) {
+      sheetTokenGrid.push({
+        digitIndex: d,
+        value: v,
+        x: tokenGridLeft + d * tokenDigitColWidth + tokenDigitColWidth / 2,
+        y: rollGridTop + v * valueRowHeight + valueRowHeight / 2,
+      });
+    }
+  }
+
+  return {
+    examType,
+    totalQuestions,
+    columns,
+    questionsPerColumn,
+    rollNumberDigits,
+    fiducials,
+    bubbles,
+    rollNumberGrid,
+    sheetTokenDigits,
+    sheetTokenGrid,
+  };
 }
 
 /** Standard 80-question JNVST bubble grid (4 columns × 20 rows, 6-digit roll number). */

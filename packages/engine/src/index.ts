@@ -15,3 +15,6 @@ export * from "./random";
 export * from "./bootcamp";
 export * from "./storePricing";
 export * from "./sprintRanking";
+export * from "./typingEvaluation";
+export * from "./typingEntitlements";
+export * from "./typingRanking";

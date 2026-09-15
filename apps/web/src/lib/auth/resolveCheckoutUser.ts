@@ -1,9 +1,5 @@
 import { prisma } from "@vedicneev/db";
-
-import { isSupabaseAuthConfigured } from "@/lib/supabase/env";
-import { createSupabaseServerClient } from "@/lib/supabase/server";
-import { toAppPhone } from "./phoneFormat";
-import { resolveDbUser } from "./resolveDbUser";
+import { createSupabaseServerClient, isSupabaseAuthConfigured, resolveDbUser, toAppPhone } from "@vedicneev/auth";
 
 export type ResolveUserResult = { ok: true; user: { id: string } } | { ok: false; status: number; error: string };
 

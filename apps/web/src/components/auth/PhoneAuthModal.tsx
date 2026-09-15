@@ -12,7 +12,7 @@ import {
 import { Loader2, Phone, ShieldCheck } from "lucide-react";
 
 import { useAuthStore } from "@/lib/auth/useAuthStore";
-import { isSupabaseAuthConfigured } from "@/lib/supabase/env";
+import { isSupabaseAuthConfigured } from "@vedicneev/auth";
 
 const RESEND_SECONDS = 30;
 

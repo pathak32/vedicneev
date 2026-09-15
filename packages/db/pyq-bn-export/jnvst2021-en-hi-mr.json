@@ -1,0 +1,2882 @@
+[
+ {
+  "key": "jnvst-2021-ma-01",
+  "section": "mental_ability",
+  "q": {
+   "en": "Find the missing number: 7, 14, 21, 28, ?",
+   "hi": "लुप्त संख्या ज्ञात करें: 7, 14, 21, 28, ?",
+   "mr": "लुप्त संख्या शोधा: 7, 14, 21, 28, ?"
+  },
+  "opts": [
+   {
+    "en": "32",
+    "hi": "32",
+    "mr": "32"
+   },
+   {
+    "en": "35",
+    "hi": "35",
+    "mr": "35"
+   },
+   {
+    "en": "36",
+    "hi": "36",
+    "mr": "36"
+   },
+   {
+    "en": "42",
+    "hi": "42",
+    "mr": "42"
+   }
+  ],
+  "exp": {
+   "en": "These are multiples of 7: 7×1=7, 7×2=14, 7×3=21, 7×4=28, so 7×5=35.",
+   "hi": "ये 7 के गुणज हैं: 7×1=7, 7×2=14, 7×3=21, 7×4=28, इसलिए 7×5=35।",
+   "mr": "हे 7 चे पट आहेत: 7×1=7, 7×2=14, 7×3=21, 7×4=28, म्हणून 7×5=35."
+  }
+ },
+ {
+  "key": "jnvst-2021-ma-02",
+  "section": "mental_ability",
+  "q": {
+   "en": "Find the missing letter: B, D, F, H, ?",
+   "hi": "लुप्त अक्षर ज्ञात करें: B, D, F, H, ?",
+   "mr": "लुप्त अक्षर शोधा: B, D, F, H, ?"
+  },
+  "opts": [
+   {
+    "en": "I",
+    "hi": "I",
+    "mr": "I"
+   },
+   {
+    "en": "J",
+    "hi": "J",
+    "mr": "J"
+   },
+   {
+    "en": "K",
+    "hi": "K",
+    "mr": "K"
+   },
+   {
+    "en": "L",
+    "hi": "L",
+    "mr": "L"
+   }
+  ],
+  "exp": {
+   "en": "The series skips one letter each time (+2): B→D→F→H→J.",
+   "hi": "यह श्रृंखला हर बार एक अक्षर छोड़ती है (+2): B→D→F→H→J।",
+   "mr": "ही मालिका दर वेळी एक अक्षर वगळते (+2): B→D→F→H→J."
+  }
+ },
+ {
+  "key": "jnvst-2021-ma-03",
+  "section": "mental_ability",
+  "q": {
+   "en": "Which one does not belong with the others: Rose, Lotus, Jasmine, Mango?",
+   "hi": "इनमें से कौन-सा अन्य से मेल नहीं खाता: गुलाब, कमल, चमेली, आम?",
+   "mr": "यापैकी कोणता इतरांशी जुळत नाही: गुलाब, कमळ, चमेली, आंबा?"
+  },
+  "opts": [
+   {
+    "en": "Rose",
+    "hi": "गुलाब",
+    "mr": "गुलाब"
+   },
+   {
+    "en": "Lotus",
+    "hi": "कमल",
+    "mr": "कमळ"
+   },
+   {
+    "en": "Jasmine",
+    "hi": "चमेली",
+    "mr": "चमेली"
+   },
+   {
+    "en": "Mango",
+    "hi": "आम",
+    "mr": "आंबा"
+   }
+  ],
+  "exp": {
+   "en": "Rose, Lotus, and Jasmine are flowers; Mango is a fruit.",
+   "hi": "गुलाब, कमल और चमेली फूल हैं; आम एक फल है।",
+   "mr": "गुलाब, कमळ आणि चमेली ही फुले आहेत; आंबा हे फळ आहे."
+  }
+ },
+ {
+  "key": "jnvst-2021-ma-04",
+  "section": "mental_ability",
+  "q": {
+   "en": "Doctor is related to Hospital in the same way as Teacher is related to ?",
+   "hi": "डॉक्टर का अस्पताल से वही संबंध है जो अध्यापक का ? से है।",
+   "mr": "डॉक्टरचा रुग्णालयाशी जसा संबंध आहे, तसाच शिक्षकाचा कशाशी आहे?"
+  },
+  "opts": [
+   {
+    "en": "School",
+    "hi": "विद्यालय",
+    "mr": "शाळा"
+   },
+   {
+    "en": "Book",
+    "hi": "किताब",
+    "mr": "पुस्तक"
+   },
+   {
+    "en": "Student",
+    "hi": "छात्र",
+    "mr": "विद्यार्थी"
+   },
+   {
+    "en": "Classroom",
+    "hi": "कक्षा",
+    "mr": "वर्गखोली"
+   }
+  ],
+  "exp": {
+   "en": "A Doctor works at a Hospital; similarly, a Teacher works at a School.",
+   "hi": "एक डॉक्टर अस्पताल में काम करता है; उसी प्रकार, एक अध्यापक विद्यालय में काम करता है।",
+   "mr": "डॉक्टर रुग्णालयात काम करतो; त्याचप्रमाणे, शिक्षक शाळेत काम करतो."
+  }
+ },
+ {
+  "key": "jnvst-2021-ma-05",
+  "section": "mental_ability",
+  "q": {
+   "en": "If, in a certain code, CAT is written as DBU, how is DOG written in the same code?",
+   "hi": "यदि एक निश्चित कूट भाषा में CAT को DBU लिखा जाता है, तो उसी कूट में DOG को कैसे लिखा जाएगा?",
+   "mr": "जर एका विशिष्ट सांकेतिक भाषेत CAT हे DBU असे लिहितात, तर त्याच सांकेतिक भाषेत DOG कसे लिहिले जाईल?"
+  },
+  "opts": [
+   {
+    "en": "EPH",
+    "hi": "EPH",
+    "mr": "EPH"
+   },
+   {
+    "en": "EPG",
+    "hi": "EPG",
+    "mr": "EPG"
+   },
+   {
+    "en": "FPH",
+    "hi": "FPH",
+    "mr": "FPH"
+   },
+   {
+    "en": "EOH",
+    "hi": "EOH",
+    "mr": "EOH"
+   }
+  ],
+  "exp": {
+   "en": "Each letter is shifted forward by one place in the alphabet: C→D, A→B, T→U. Applying the same rule to DOG: D→E, O→P, G→H, giving EPH. Options EPG, FPH, and EOH each shift only some letters correctly, not all three.",
+   "hi": "प्रत्येक अक्षर को वर्णमाला में एक स्थान आगे खिसकाया जाता है: C→D, A→B, T→U। यही नियम DOG पर लागू करने पर: D→E, O→P, G→H, जिससे EPH प्राप्त होता है। विकल्प EPG, FPH और EOH में केवल कुछ अक्षर ही सही ढंग से खिसके हैं, तीनों नहीं।",
+   "mr": "प्रत्येक अक्षर वर्णमालेत एक स्थान पुढे सरकवले जाते: C→D, A→B, T→U. हाच नियम DOG ला लावल्यास: D→E, O→P, G→H, म्हणजे EPH मिळते. EPG, FPH आणि EOH या पर्यायांमध्ये फक्त काही अक्षरे बरोबर सरकवली आहेत, तिन्ही नाहीत."
+  }
+ },
+ {
+  "key": "jnvst-2021-ma-06",
+  "section": "mental_ability",
+  "q": {
+   "en": "Find the missing number in the pattern: 2, 6, 12, 20, 30, ?",
+   "hi": "पैटर्न में लुप्त संख्या ज्ञात करें: 2, 6, 12, 20, 30, ?",
+   "mr": "पॅटर्नमधील लुप्त संख्या शोधा: 2, 6, 12, 20, 30, ?"
+  },
+  "opts": [
+   {
+    "en": "40",
+    "hi": "40",
+    "mr": "40"
+   },
+   {
+    "en": "42",
+    "hi": "42",
+    "mr": "42"
+   },
+   {
+    "en": "36",
+    "hi": "36",
+    "mr": "36"
+   },
+   {
+    "en": "44",
+    "hi": "44",
+    "mr": "44"
+   }
+  ],
+  "exp": {
+   "en": "Each term is n×(n+1): 1×2=2, 2×3=6, 3×4=12, 4×5=20, 5×6=30, so the next is 6×7=42.",
+   "hi": "प्रत्येक पद n×(n+1) है: 1×2=2, 2×3=6, 3×4=12, 4×5=20, 5×6=30, इसलिए अगला पद 6×7=42 है।",
+   "mr": "प्रत्येक पद n×(n+1) आहे: 1×2=2, 2×3=6, 3×4=12, 4×5=20, 5×6=30, म्हणून पुढील पद 6×7=42 आहे."
+  }
+ },
+ {
+  "key": "jnvst-2021-ma-07",
+  "section": "mental_ability",
+  "q": {
+   "en": "Find the missing number: 1, 1, 2, 3, 5, 8, 13, ?",
+   "hi": "लुप्त संख्या ज्ञात करें: 1, 1, 2, 3, 5, 8, 13, ?",
+   "mr": "लुप्त संख्या शोधा: 1, 1, 2, 3, 5, 8, 13, ?"
+  },
+  "opts": [
+   {
+    "en": "18",
+    "hi": "18",
+    "mr": "18"
+   },
+   {
+    "en": "20",
+    "hi": "20",
+    "mr": "20"
+   },
+   {
+    "en": "21",
+    "hi": "21",
+    "mr": "21"
+   },
+   {
+    "en": "24",
+    "hi": "24",
+    "mr": "24"
+   }
+  ],
+  "exp": {
+   "en": "Each number is the sum of the two numbers before it: 5+8=13, so the next is 8+13=21. Option 18 wrongly adds 5+13, 20 is not the sum of any two consecutive terms, and 24 overshoots the pattern.",
+   "hi": "प्रत्येक संख्या अपने से पहले की दो संख्याओं का योग है: 5+8=13, इसलिए अगली संख्या 8+13=21 है। विकल्प 18 गलती से 5+13 जोड़ता है, 20 किन्हीं भी दो लगातार पदों का योग नहीं है, और 24 पैटर्न से आगे निकल जाता है।",
+   "mr": "प्रत्येक संख्या तिच्या आधीच्या दोन संख्यांची बेरीज आहे: 5+8=13, म्हणून पुढील संख्या 8+13=21 आहे. पर्याय 18 चुकीने 5+13 जोडतो, 20 ही कोणत्याही दोन सलग पदांची बेरीज नाही, आणि 24 पॅटर्नच्या पुढे जाते."
+  }
+ },
+ {
+  "key": "jnvst-2021-ma-08",
+  "section": "mental_ability",
+  "q": {
+   "en": "In a certain code, each letter is replaced by the letter that is the same number of places from the end of the alphabet (A↔Z, B↔Y, C↔X, and so on). If GOLD is written as TLOW in this code, how is SUN written?",
+   "hi": "एक निश्चित कूट भाषा में, प्रत्येक अक्षर को वर्णमाला के अंत से उतने ही स्थान दूर वाले अक्षर से बदला जाता है (A↔Z, B↔Y, C↔X, इत्यादि)। यदि इस कूट में GOLD को TLOW लिखा जाता है, तो SUN को कैसे लिखा जाएगा?",
+   "mr": "एका विशिष्ट सांकेतिक भाषेत, प्रत्येक अक्षर वर्णमालेच्या शेवटापासून तितक्याच अंतरावरील अक्षराने बदलले जाते (A↔Z, B↔Y, C↔X, इत्यादी). जर या कूटात GOLD हे TLOW असे लिहितात, तर SUN कसे लिहिले जाईल?"
+  },
+  "opts": [
+   {
+    "en": "HFM",
+    "hi": "HFM",
+    "mr": "HFM"
+   },
+   {
+    "en": "GFM",
+    "hi": "GFM",
+    "mr": "GFM"
+   },
+   {
+    "en": "HFN",
+    "hi": "HFN",
+    "mr": "HFN"
+   },
+   {
+    "en": "IFM",
+    "hi": "IFM",
+    "mr": "IFM"
+   }
+  ],
+  "exp": {
+   "en": "Mirror mapping: position p pairs with position (27-p). S(19th)→H(8th), U(21st)→F(6th), N(14th)→M(13th), giving HFM. Option GFM shifts the first letter wrong, HFN shifts the last letter wrong, and IFM shifts the first letter wrong.",
+   "hi": "दर्पण मानचित्रण: स्थान p, स्थान (27-p) से जुड़ता है। S(19वां)→H(8वां), U(21वां)→F(6ठा), N(14वां)→M(13वां), जिससे HFM प्राप्त होता है। विकल्प GFM में पहला अक्षर गलत है, HFN में अंतिम अक्षर गलत है, और IFM में पहला अक्षर गलत है।",
+   "mr": "आरसा मांडणी: स्थान p, स्थान (27-p) शी जुळते. S(19वे)→H(8वे), U(21वे)→F(6वे), N(14वे)→M(13वे), म्हणजे HFM मिळते. GFM मध्ये पहिले अक्षर चुकीचे आहे, HFN मध्ये शेवटचे अक्षर चुकीचे आहे, आणि IFM मध्ये पहिले अक्षर चुकीचे आहे."
+  }
+ },
+ {
+  "key": "jnvst-2022-ma-01",
+  "section": "mental_ability",
+  "q": {
+   "en": "Find the missing number: 3, 6, 9, 12, ?, 18",
+   "hi": "लुप्त संख्या ज्ञात करें: 3, 6, 9, 12, ?, 18",
+   "mr": "लुप्त संख्या शोधा: 3, 6, 9, 12, ?, 18"
+  },
+  "opts": [
+   {
+    "en": "14",
+    "hi": "14",
+    "mr": "14"
+   },
+   {
+    "en": "15",
+    "hi": "15",
+    "mr": "15"
+   },
+   {
+    "en": "16",
+    "hi": "16",
+    "mr": "16"
+   },
+   {
+    "en": "17",
+    "hi": "17",
+    "mr": "17"
+   }
+  ],
+  "exp": {
+   "en": "The series increases by 3 each time: 3,6,9,12,15,18. So the missing number is 12+3=15. Option (a) 14 and (c) 16 break the +3 pattern; (d) 17 does too.",
+   "hi": "श्रृंखला हर बार 3 से बढ़ती है: 3,6,9,12,15,18। अतः लुप्त संख्या 12+3=15 है। विकल्प (a) 14 और (c) 16 +3 पैटर्न को तोड़ते हैं; (d) 17 भी ऐसा ही करता है।",
+   "mr": "ही श्रृंखला दर वेळी 3 ने वाढते: 3,6,9,12,15,18. त्यामुळे लुप्त संख्या 12+3=15 आहे. पर्याय (a) 14 आणि (c) 16 हे +3 पॅटर्न मोडतात; (d) 17 सुद्धा तसेच करतो."
+  }
+ },
+ {
+  "key": "jnvst-2022-ma-02",
+  "section": "mental_ability",
+  "q": {
+   "en": "Find the missing letter: B, D, F, H, ?",
+   "hi": "लुप्त अक्षर ज्ञात करें: B, D, F, H, ?",
+   "mr": "लुप्त अक्षर शोधा: B, D, F, H, ?"
+  },
+  "opts": [
+   {
+    "en": "I",
+    "hi": "I",
+    "mr": "I"
+   },
+   {
+    "en": "J",
+    "hi": "J",
+    "mr": "J"
+   },
+   {
+    "en": "K",
+    "hi": "K",
+    "mr": "K"
+   },
+   {
+    "en": "G",
+    "hi": "G",
+    "mr": "G"
+   }
+  ],
+  "exp": {
+   "en": "The series skips one letter each time (+2): B→D→F→H→J. Option (a) I is only +1 from H, breaking the pattern; (c) K and (d) G do not fit the skip-one-letter rule either.",
+   "hi": "यह श्रृंखला हर बार एक अक्षर छोड़ती है (+2): B→D→F→H→J। विकल्प (a) I, H से केवल +1 है, जो पैटर्न को तोड़ता है; (c) K और (d) G भी एक-अक्षर-छोड़ने के नियम में फिट नहीं बैठते।",
+   "mr": "ही श्रृंखला दर वेळी एक अक्षर सोडते (+2): B→D→F→H→J. पर्याय (a) I हा H पासून फक्त +1 आहे, जो पॅटर्न मोडतो; (c) K आणि (d) G सुद्धा एक-अक्षर-सोडण्याच्या नियमात बसत नाहीत."
+  }
+ },
+ {
+  "key": "jnvst-2022-ma-03",
+  "section": "mental_ability",
+  "q": {
+   "en": "Which one does not belong with the others: Rose, Lotus, Jasmine, Mango?",
+   "hi": "इनमें से कौन-सा अन्य से मेल नहीं खाता: गुलाब, कमल, चमेली, आम?",
+   "mr": "यापैकी कोणता इतरांशी जुळत नाही: गुलाब, कमळ, चमेली, आंबा?"
+  },
+  "opts": [
+   {
+    "en": "Rose",
+    "hi": "गुलाब",
+    "mr": "गुलाब"
+   },
+   {
+    "en": "Lotus",
+    "hi": "कमल",
+    "mr": "कमळ"
+   },
+   {
+    "en": "Jasmine",
+    "hi": "चमेली",
+    "mr": "चमेली"
+   },
+   {
+    "en": "Mango",
+    "hi": "आम",
+    "mr": "आंबा"
+   }
+  ],
+  "exp": {
+   "en": "Rose, Lotus, and Jasmine are all flowers; Mango is a fruit, so it does not belong with the group.",
+   "hi": "गुलाब, कमल और चमेली सभी फूल हैं; आम एक फल है, इसलिए यह समूह में फिट नहीं बैठता।",
+   "mr": "गुलाब, कमळ आणि चमेली ही सर्व फुले आहेत; आंबा हे फळ आहे, त्यामुळे ते या गटात बसत नाही."
+  }
+ },
+ {
+  "key": "jnvst-2022-ma-04",
+  "section": "mental_ability",
+  "q": {
+   "en": "Doctor is to Hospital as Teacher is to ?",
+   "hi": "डॉक्टर का संबंध अस्पताल से है जैसे शिक्षक का संबंध किससे है?",
+   "mr": "डॉक्टरचा संबंध रुग्णालयाशी आहे जसा शिक्षकाचा संबंध कशाशी आहे?"
+  },
+  "opts": [
+   {
+    "en": "School",
+    "hi": "विद्यालय",
+    "mr": "शाळा"
+   },
+   {
+    "en": "Office",
+    "hi": "कार्यालय",
+    "mr": "कार्यालय"
+   },
+   {
+    "en": "Court",
+    "hi": "न्यायालय",
+    "mr": "न्यायालय"
+   },
+   {
+    "en": "Clinic",
+    "hi": "क्लिनिक",
+    "mr": "दवाखाना"
+   }
+  ],
+  "exp": {
+   "en": "A Doctor works in a Hospital; similarly, a Teacher works in a School. Office, Court, and Clinic are workplaces for other professions (a clerk, a lawyer, and a doctor's assistant), not a teacher.",
+   "hi": "डॉक्टर अस्पताल में काम करता है; उसी प्रकार शिक्षक विद्यालय में काम करता है। कार्यालय, न्यायालय और क्लिनिक अन्य व्यवसायों (क्लर्क, वकील और चिकित्सा सहायक) के कार्यस्थल हैं, शिक्षक के नहीं।",
+   "mr": "डॉक्टर रुग्णालयात काम करतो; त्याचप्रमाणे शिक्षक शाळेत काम करतो. कार्यालय, न्यायालय आणि दवाखाना ही इतर व्यवसायांची (कारकून, वकील आणि वैद्यकीय सहाय्यक) कामाची ठिकाणे आहेत, शिक्षकाची नाहीत."
+  }
+ },
+ {
+  "key": "jnvst-2022-ma-05",
+  "section": "mental_ability",
+  "q": {
+   "en": "In a certain code, each letter of a word is shifted 2 steps forward in the alphabet (A→C, B→D, and so on). If DOG is coded as FQI, how is CAT coded in the same language?",
+   "hi": "एक निश्चित कोड में, शब्द के प्रत्येक अक्षर को वर्णमाला में 2 स्थान आगे खिसकाया जाता है (A→C, B→D, इत्यादि)। यदि DOG को FQI लिखा जाता है, तो उसी कोड में CAT को कैसे लिखा जाएगा?",
+   "mr": "एका विशिष्ट कोडमध्ये, शब्दातील प्रत्येक अक्षर वर्णमालेत 2 स्थान पुढे सरकवले जाते (A→C, B→D, इत्यादी). जर DOG ला FQI असे लिहिले जाते, तर त्याच कोडमध्ये CAT कसे लिहिले जाईल?"
+  },
+  "opts": [
+   {
+    "en": "ECV",
+    "hi": "ECV",
+    "mr": "ECV"
+   },
+   {
+    "en": "EDV",
+    "hi": "EDV",
+    "mr": "EDV"
+   },
+   {
+    "en": "DCV",
+    "hi": "DCV",
+    "mr": "DCV"
+   },
+   {
+    "en": "ECW",
+    "hi": "ECW",
+    "mr": "ECW"
+   }
+  ],
+  "exp": {
+   "en": "Each letter shifts forward by 2: C→E, A→C, T→V, giving ECV. This matches the rule shown by DOG→FQI (D→F, O→Q, G→I, each +2). Option (b) EDV shifts the second letter incorrectly, (c) DCV shifts the first letter by only +1, and (d) ECW shifts the last letter by +3.",
+   "hi": "प्रत्येक अक्षर 2 आगे खिसकता है: C→E, A→C, T→V, जिससे ECV प्राप्त होता है। यह DOG→FQI (D→F, O→Q, G→I, प्रत्येक +2) द्वारा दिखाए गए नियम से मेल खाता है। विकल्प (b) EDV दूसरे अक्षर को गलत तरीके से खिसकाता है, (c) DCV पहले अक्षर को केवल +1 खिसकाता है, और (d) ECW अंतिम अक्षर को +3 खिसकाता है।",
+   "mr": "प्रत्येक अक्षर 2 पुढे सरकते: C→E, A→C, T→V, त्यामुळे ECV मिळते. हे DOG→FQI (D→F, O→Q, G→I, प्रत्येकी +2) द्वारे दाखवलेल्या नियमाशी जुळते. पर्याय (b) EDV दुसरे अक्षर चुकीच्या पद्धतीने सरकवतो, (c) DCV पहिले अक्षर फक्त +1 सरकवतो, आणि (d) ECW शेवटचे अक्षर +3 सरकवतो."
+  }
+ },
+ {
+  "key": "jnvst-2022-ma-06",
+  "section": "mental_ability",
+  "q": {
+   "en": "Find the missing number in the pattern: 2, 6, 12, 20, 30, ?",
+   "hi": "पैटर्न में लुप्त संख्या ज्ञात करें: 2, 6, 12, 20, 30, ?",
+   "mr": "पॅटर्नमधील लुप्त संख्या शोधा: 2, 6, 12, 20, 30, ?"
+  },
+  "opts": [
+   {
+    "en": "36",
+    "hi": "36",
+    "mr": "36"
+   },
+   {
+    "en": "40",
+    "hi": "40",
+    "mr": "40"
+   },
+   {
+    "en": "42",
+    "hi": "42",
+    "mr": "42"
+   },
+   {
+    "en": "48",
+    "hi": "48",
+    "mr": "48"
+   }
+  ],
+  "exp": {
+   "en": "Each term is n×(n+1): 1×2=2, 2×3=6, 3×4=12, 4×5=20, 5×6=30, so the next term is 6×7=42. Option (a) 36 and (b) 40 undershoot the pattern, while (d) 48 overshoots it.",
+   "hi": "प्रत्येक पद n×(n+1) है: 1×2=2, 2×3=6, 3×4=12, 4×5=20, 5×6=30, इसलिए अगला पद 6×7=42 है। विकल्प (a) 36 और (b) 40 पैटर्न से कम हैं, जबकि (d) 48 पैटर्न से अधिक है।",
+   "mr": "प्रत्येक पद n×(n+1) आहे: 1×2=2, 2×3=6, 3×4=12, 4×5=20, 5×6=30, त्यामुळे पुढील पद 6×7=42 आहे. पर्याय (a) 36 आणि (b) 40 पॅटर्नपेक्षा कमी आहेत, तर (d) 48 पॅटर्नपेक्षा जास्त आहे."
+  }
+ },
+ {
+  "key": "jnvst-2022-ma-07",
+  "section": "mental_ability",
+  "q": {
+   "en": "Find the missing number: 1, 2, 6, 24, 120, ?",
+   "hi": "लुप्त संख्या ज्ञात करें: 1, 2, 6, 24, 120, ?",
+   "mr": "लुप्त संख्या शोधा: 1, 2, 6, 24, 120, ?"
+  },
+  "opts": [
+   {
+    "en": "600",
+    "hi": "600",
+    "mr": "600"
+   },
+   {
+    "en": "720",
+    "hi": "720",
+    "mr": "720"
+   },
+   {
+    "en": "750",
+    "hi": "750",
+    "mr": "750"
+   },
+   {
+    "en": "840",
+    "hi": "840",
+    "mr": "840"
+   }
+  ],
+  "exp": {
+   "en": "Each number is multiplied by an increasing factor: 1×2=2, 2×3=6, 6×4=24, 24×5=120, so the next step is 120×6=720. Option (a) 600 uses ×5 again instead of ×6, (c) 750 and (d) 840 don't match any consistent multiplying pattern from 120.",
+   "hi": "प्रत्येक संख्या को बढ़ते हुए गुणक से गुणा किया जाता है: 1×2=2, 2×3=6, 6×4=24, 24×5=120, इसलिए अगला चरण 120×6=720 है। विकल्प (a) 600 फिर से ×6 के बजाय ×5 का उपयोग करता है, (c) 750 और (d) 840, 120 से किसी सुसंगत गुणा पैटर्न से मेल नहीं खाते।",
+   "mr": "प्रत्येक संख्येला वाढत्या गुणकाने गुणले जाते: 1×2=2, 2×3=6, 6×4=24, 24×5=120, त्यामुळे पुढील पायरी 120×6=720 आहे. पर्याय (a) 600 पुन्हा ×6 ऐवजी ×5 वापरतो, (c) 750 आणि (d) 840, 120 पासूनच्या कोणत्याही सुसंगत गुणाकार पॅटर्नशी जुळत नाहीत."
+  }
+ },
+ {
+  "key": "jnvst-2022-ma-08",
+  "section": "mental_ability",
+  "q": {
+   "en": "In a certain code, each letter is replaced by its opposite letter in the alphabet (A↔Z, B↔Y, C↔X, and so on). How is the word BAG written in this code?",
+   "hi": "एक निश्चित कोड में, प्रत्येक अक्षर को वर्णमाला के उसके विपरीत अक्षर से बदल दिया जाता है (A↔Z, B↔Y, C↔X, इत्यादि)। इस कोड में शब्द BAG कैसे लिखा जाएगा?",
+   "mr": "एका विशिष्ट कोडमध्ये, प्रत्येक अक्षर वर्णमालेतील त्याच्या विरुद्ध अक्षराने बदलले जाते (A↔Z, B↔Y, C↔X, इत्यादी). या कोडमध्ये BAG हा शब्द कसा लिहिला जाईल?"
+  },
+  "opts": [
+   {
+    "en": "YZT",
+    "hi": "YZT",
+    "mr": "YZT"
+   },
+   {
+    "en": "ZYT",
+    "hi": "ZYT",
+    "mr": "ZYT"
+   },
+   {
+    "en": "YZG",
+    "hi": "YZG",
+    "mr": "YZG"
+   },
+   {
+    "en": "XZT",
+    "hi": "XZT",
+    "mr": "XZT"
+   }
+  ],
+  "exp": {
+   "en": "The opposite-letter rule pairs position n with position 27−n. B is the 2nd letter, so its opposite is the 25th letter, Y. A is the 1st letter, opposite is the 26th, Z. G is the 7th letter, opposite is the 20th, T. So BAG becomes YZT. Option (b) ZYT swaps the first two letters, (c) YZG leaves the last letter unchanged, and (d) XZT gets the first letter wrong.",
+   "hi": "विपरीत-अक्षर नियम स्थिति n को स्थिति 27−n से जोड़ता है। B दूसरा अक्षर है, इसलिए इसका विपरीत 25वां अक्षर, Y है। A पहला अक्षर है, विपरीत 26वां, Z है। G सातवां अक्षर है, विपरीत 20वां, T है। अतः BAG, YZT बन जाता है। विकल्प (b) ZYT पहले दो अक्षरों को बदल देता है, (c) YZG अंतिम अक्षर को अपरिवर्तित छोड़ देता है, और (d) XZT में पहला अक्षर गलत है।",
+   "mr": "विरुद्ध-अक्षर नियम स्थिती n ला स्थिती 27−n शी जोडतो. B हे दुसरे अक्षर आहे, त्यामुळे त्याचे विरुद्ध 25 वे अक्षर, Y आहे. A हे पहिले अक्षर आहे, विरुद्ध 26 वे, Z आहे. G हे सातवे अक्षर आहे, विरुद्ध 20 वे, T आहे. त्यामुळे BAG चे YZT होते. पर्याय (b) ZYT पहिली दोन अक्षरे बदलतो, (c) YZG शेवटचे अक्षर तसेच ठेवतो, आणि (d) XZT मध्ये पहिले अक्षर चुकीचे आहे."
+  }
+ },
+ {
+  "key": "jnvst-2023-ma-01",
+  "section": "mental_ability",
+  "q": {
+   "en": "Find the missing number in the series: 3, 6, 9, 12, ?, 18",
+   "hi": "श्रृंखला में लुप्त संख्या ज्ञात करें: 3, 6, 9, 12, ?, 18",
+   "mr": "मालिकेतील लुप्त संख्या शोधा: 3, 6, 9, 12, ?, 18"
+  },
+  "opts": [
+   {
+    "en": "14",
+    "hi": "14",
+    "mr": "14"
+   },
+   {
+    "en": "15",
+    "hi": "15",
+    "mr": "15"
+   },
+   {
+    "en": "16",
+    "hi": "16",
+    "mr": "16"
+   },
+   {
+    "en": "21",
+    "hi": "21",
+    "mr": "21"
+   }
+  ],
+  "exp": {
+   "en": "The series increases by 3 each time: 3+3=6, 6+3=9, 9+3=12, 12+3=15. So 21 would be too large and 14 or 16 break the +3 pattern.",
+   "hi": "श्रृंखला में हर बार 3 जोड़ा जाता है: 3+3=6, 6+3=9, 9+3=12, 12+3=15। इसलिए 21 बहुत बड़ी है और 14 या 16 +3 के पैटर्न को तोड़ते हैं।",
+   "mr": "मालिकेत दर वेळी 3 मिळवले जातात: 3+3=6, 6+3=9, 9+3=12, 12+3=15. त्यामुळे 21 खूप मोठी आहे आणि 14 किंवा 16 +3 च्या पॅटर्नला मोडतात."
+  }
+ },
+ {
+  "key": "jnvst-2023-ma-02",
+  "section": "mental_ability",
+  "q": {
+   "en": "Find the missing letter in the series: B, D, F, H, ?",
+   "hi": "श्रृंखला में लुप्त अक्षर ज्ञात करें: B, D, F, H, ?",
+   "mr": "मालिकेतील लुप्त अक्षर शोधा: B, D, F, H, ?"
+  },
+  "opts": [
+   {
+    "en": "I",
+    "hi": "I",
+    "mr": "I"
+   },
+   {
+    "en": "J",
+    "hi": "J",
+    "mr": "J"
+   },
+   {
+    "en": "K",
+    "hi": "K",
+    "mr": "K"
+   },
+   {
+    "en": "G",
+    "hi": "G",
+    "mr": "G"
+   }
+  ],
+  "exp": {
+   "en": "Each letter skips one letter of the alphabet (a jump of +2 positions): B→D→F→H→J. Option I is only +1 from H (breaks the skip-one pattern), K is +3 from H (skips two), and G would mean going backward.",
+   "hi": "प्रत्येक अक्षर वर्णमाला का एक अक्षर छोड़ता है (+2 स्थान की छलांग): B→D→F→H→J। विकल्प I, H से केवल +1 है (एक-छोड़ने के पैटर्न को तोड़ता है), K, H से +3 है (दो अक्षर छोड़ता है), और G का अर्थ पीछे जाना होगा।",
+   "mr": "प्रत्येक अक्षर वर्णमालेतील एक अक्षर वगळते (+2 स्थानांची उडी): B→D→F→H→J. पर्याय I हा H पासून फक्त +1 आहे (एक-वगळण्याचा पॅटर्न मोडतो), K हा H पासून +3 आहे (दोन अक्षरे वगळतो), आणि G म्हणजे मागे जाणे होईल."
+  }
+ },
+ {
+  "key": "jnvst-2023-ma-03",
+  "section": "mental_ability",
+  "q": {
+   "en": "Which one does not belong with the others: Rose, Lotus, Jasmine, Mango?",
+   "hi": "इनमें से कौन-सा अन्य से मेल नहीं खाता: गुलाब, कमल, चमेली, आम?",
+   "mr": "यापैकी कोणता इतरांशी जुळत नाही: गुलाब, कमळ, चमेली, आंबा?"
+  },
+  "opts": [
+   {
+    "en": "Rose",
+    "hi": "गुलाब",
+    "mr": "गुलाब"
+   },
+   {
+    "en": "Lotus",
+    "hi": "कमल",
+    "mr": "कमळ"
+   },
+   {
+    "en": "Jasmine",
+    "hi": "चमेली",
+    "mr": "चमेली"
+   },
+   {
+    "en": "Mango",
+    "hi": "आम",
+    "mr": "आंबा"
+   }
+  ],
+  "exp": {
+   "en": "Rose, Lotus, and Jasmine are all flowers; Mango is a fruit, so it does not belong with the group.",
+   "hi": "गुलाब, कमल और चमेली सभी फूल हैं; आम एक फल है, इसलिए यह समूह से मेल नहीं खाता।",
+   "mr": "गुलाब, कमळ आणि चमेली ही सर्व फुले आहेत; आंबा हे फळ आहे, त्यामुळे ते या गटाशी जुळत नाही."
+  }
+ },
+ {
+  "key": "jnvst-2023-ma-04",
+  "section": "mental_ability",
+  "q": {
+   "en": "Doctor is to Hospital as Teacher is to ?",
+   "hi": "डॉक्टर का अस्पताल से वही संबंध है जो शिक्षक का किससे है?",
+   "mr": "डॉक्टरचा रुग्णालयाशी जसा संबंध आहे, तसा शिक्षकाचा कशाशी आहे?"
+  },
+  "opts": [
+   {
+    "en": "School",
+    "hi": "स्कूल",
+    "mr": "शाळा"
+   },
+   {
+    "en": "Hospital",
+    "hi": "अस्पताल",
+    "mr": "रुग्णालय"
+   },
+   {
+    "en": "Office",
+    "hi": "कार्यालय",
+    "mr": "कार्यालय"
+   },
+   {
+    "en": "Clinic",
+    "hi": "क्लीनिक",
+    "mr": "दवाखाना"
+   }
+  ],
+  "exp": {
+   "en": "A doctor's workplace is a Hospital; similarly, a teacher's workplace is a School. Hospital and Clinic are both healthcare workplaces (the wrong category, reused from the first pair), and Office is too generic — it is not specific to teaching.",
+   "hi": "डॉक्टर का कार्यस्थल अस्पताल है; उसी प्रकार, शिक्षक का कार्यस्थल स्कूल है। अस्पताल और क्लीनिक दोनों स्वास्थ्य-सेवा से जुड़े कार्यस्थल हैं (गलत श्रेणी, पहली जोड़ी से दोहराई गई), और कार्यालय बहुत सामान्य है — यह शिक्षण के लिए विशिष्ट नहीं है।",
+   "mr": "डॉक्टरचे कार्यस्थळ रुग्णालय आहे; त्याचप्रमाणे, शिक्षकाचे कार्यस्थळ शाळा आहे. रुग्णालय आणि दवाखाना दोन्ही आरोग्यसेवेशी संबंधित कार्यस्थळे आहेत (चुकीची श्रेणी, पहिल्या जोडीतून पुनरावृत्ती), आणि कार्यालय खूप सर्वसाधारण आहे — ते शिकवण्यासाठी विशिष्ट नाही."
+  }
+ },
+ {
+  "key": "jnvst-2023-ma-05",
+  "section": "mental_ability",
+  "q": {
+   "en": "If CAT is coded as DBU, how is DOG coded in the same language?",
+   "hi": "यदि CAT को DBU के रूप में कोडित किया जाता है, तो उसी भाषा में DOG को कैसे कोडित किया जाएगा?",
+   "mr": "जर CAT ला DBU असे कोडित केले असेल, तर त्याच भाषेत DOG कसे कोडित केले जाईल?"
+  },
+  "opts": [
+   {
+    "en": "EPH",
+    "hi": "EPH",
+    "mr": "EPH"
+   },
+   {
+    "en": "EPG",
+    "hi": "EPG",
+    "mr": "EPG"
+   },
+   {
+    "en": "DPH",
+    "hi": "DPH",
+    "mr": "DPH"
+   },
+   {
+    "en": "EQH",
+    "hi": "EQH",
+    "mr": "EQH"
+   }
+  ],
+  "exp": {
+   "en": "Each letter is shifted forward by one place in the alphabet: C→D, A→B, T→U. Applying the same rule to DOG: D→E, O→P, G→H, giving EPH. EPG wrongly leaves the last letter unshifted, DPH wrongly leaves the first letter unshifted, and EQH wrongly shifts O by two places instead of one.",
+   "hi": "प्रत्येक अक्षर को वर्णमाला में एक स्थान आगे खिसकाया जाता है: C→D, A→B, T→U। DOG पर वही नियम लगाने पर: D→E, O→P, G→H, जिससे EPH प्राप्त होता है। EPG गलती से अंतिम अक्षर को नहीं खिसकाता, DPH गलती से पहले अक्षर को नहीं खिसकाता, और EQH गलती से O को एक की बजाय दो स्थान खिसकाता है।",
+   "mr": "प्रत्येक अक्षर वर्णमालेत एक स्थान पुढे सरकवले जाते: C→D, A→B, T→U. DOG वर तोच नियम लावल्यास: D→E, O→P, G→H, ज्यामुळे EPH मिळते. EPG चुकून शेवटचे अक्षर न सरकवता ठेवते, DPH चुकून पहिले अक्षर न सरकवता ठेवते, आणि EQH चुकून O ला एकाऐवजी दोन स्थान सरकवते."
+  }
+ },
+ {
+  "key": "jnvst-2023-ma-06",
+  "section": "mental_ability",
+  "q": {
+   "en": "Find the missing number in the pattern: 2, 5, 10, 17, 26, ?",
+   "hi": "पैटर्न में लुप्त संख्या ज्ञात करें: 2, 5, 10, 17, 26, ?",
+   "mr": "पॅटर्नमधील लुप्त संख्या शोधा: 2, 5, 10, 17, 26, ?"
+  },
+  "opts": [
+   {
+    "en": "35",
+    "hi": "35",
+    "mr": "35"
+   },
+   {
+    "en": "36",
+    "hi": "36",
+    "mr": "36"
+   },
+   {
+    "en": "37",
+    "hi": "37",
+    "mr": "37"
+   },
+   {
+    "en": "39",
+    "hi": "39",
+    "mr": "39"
+   }
+  ],
+  "exp": {
+   "en": "The differences between consecutive terms increase by 2 each time: 5−2=3, 10−5=5, 17−10=7, 26−17=9, so the next difference is 11, giving 26+11=37. (Each term is also one more than a perfect square: 1²+1, 2²+1, 3²+1... so the 6th term is 6²+1=37.) 36 is a trap for students who forget the '+1' and just take 6², while 35 and 39 come from miscounting the difference pattern.",
+   "hi": "क्रमागत पदों के बीच का अंतर हर बार 2 से बढ़ता है: 5−2=3, 10−5=5, 17−10=7, 26−17=9, इसलिए अगला अंतर 11 है, जिससे 26+11=37 प्राप्त होता है। (प्रत्येक पद एक पूर्ण वर्ग से एक अधिक भी है: 1²+1, 2²+1, 3²+1... इसलिए छठा पद 6²+1=37 है।) 36 उन छात्रों के लिए जाल है जो '+1' भूल जाते हैं और केवल 6² लेते हैं, जबकि 35 और 39 अंतर के पैटर्न को गलत गिनने से आते हैं।",
+   "mr": "सलग पदांमधील फरक दर वेळी 2 ने वाढतो: 5−2=3, 10−5=5, 17−10=7, 26−17=9, त्यामुळे पुढील फरक 11 आहे, ज्यामुळे 26+11=37 मिळते. (प्रत्येक पद एका पूर्ण वर्गापेक्षा एकाने जास्त आहे: 1²+1, 2²+1, 3²+1... त्यामुळे सहावे पद 6²+1=37 आहे.) 36 हा त्या विद्यार्थ्यांसाठी सापळा आहे जे '+1' विसरतात आणि फक्त 6² घेतात, तर 35 आणि 39 फरकाचा पॅटर्न चुकीचा मोजल्याने येतात."
+  }
+ },
+ {
+  "key": "jnvst-2023-ma-07",
+  "section": "mental_ability",
+  "q": {
+   "en": "Find the missing number in the series: 1, 2, 6, 24, 120, ?",
+   "hi": "श्रृंखला में लुप्त संख्या ज्ञात करें: 1, 2, 6, 24, 120, ?",
+   "mr": "मालिकेतील लुप्त संख्या शोधा: 1, 2, 6, 24, 120, ?"
+  },
+  "opts": [
+   {
+    "en": "620",
+    "hi": "620",
+    "mr": "620"
+   },
+   {
+    "en": "700",
+    "hi": "700",
+    "mr": "700"
+   },
+   {
+    "en": "720",
+    "hi": "720",
+    "mr": "720"
+   },
+   {
+    "en": "840",
+    "hi": "840",
+    "mr": "840"
+   }
+  ],
+  "exp": {
+   "en": "Each term is multiplied by the next counting number to get the following term: 1×2=2, 2×3=6, 6×4=24, 24×5=120, so 120×6=720. (This is the factorial sequence: 1!, 2!, 3!, 4!, 5!, 6!.) 840 comes from multiplying by 7 instead of 6, and 620/700 are close but do not follow the multiplication rule at all.",
+   "hi": "अगला पद पाने के लिए प्रत्येक पद को अगली गिनती संख्या से गुणा किया जाता है: 1×2=2, 2×3=6, 6×4=24, 24×5=120, इसलिए 120×6=720। (यह एक भाज्य (factorial) श्रृंखला है: 1!, 2!, 3!, 4!, 5!, 6!।) 840, 6 की जगह 7 से गुणा करने से आता है, जबकि 620/700 करीब तो हैं पर गुणा के नियम का बिल्कुल पालन नहीं करते।",
+   "mr": "पुढील पद मिळवण्यासाठी प्रत्येक पदाला पुढील मोजणी संख्येने गुणले जाते: 1×2=2, 2×3=6, 6×4=24, 24×5=120, त्यामुळे 120×6=720. (ही भाज्य (factorial) मालिका आहे: 1!, 2!, 3!, 4!, 5!, 6!.) 840 हे 6 ऐवजी 7 ने गुणल्याने येते, तर 620/700 जवळ असले तरी गुणाकाराच्या नियमाचे अजिबात पालन करत नाहीत."
+  }
+ },
+ {
+  "key": "jnvst-2023-ma-08",
+  "section": "mental_ability",
+  "q": {
+   "en": "In a certain code, 'SUN IS HOT' is written as 'TVO JT IPU'. How will 'MOON IS BIG' be written in that code?",
+   "hi": "एक निश्चित कोड में, 'SUN IS HOT' को 'TVO JT IPU' लिखा जाता है। उसी कोड में 'MOON IS BIG' कैसे लिखा जाएगा?",
+   "mr": "एका विशिष्ट कोडमध्ये, 'SUN IS HOT' हे 'TVO JT IPU' असे लिहिले जाते. त्याच कोडमध्ये 'MOON IS BIG' कसे लिहिले जाईल?"
+  },
+  "opts": [
+   {
+    "en": "NPPO JT CJH",
+    "hi": "NPPO JT CJH",
+    "mr": "NPPO JT CJH"
+   },
+   {
+    "en": "NPOP JT CJH",
+    "hi": "NPOP JT CJH",
+    "mr": "NPOP JT CJH"
+   },
+   {
+    "en": "NPPO IS CJH",
+    "hi": "NPPO IS CJH",
+    "mr": "NPPO IS CJH"
+   },
+   {
+    "en": "MNNO JT CJH",
+    "hi": "MNNO JT CJH",
+    "mr": "MNNO JT CJH"
+   }
+  ],
+  "exp": {
+   "en": "Every letter of every word is shifted forward by one place in the alphabet: S→T, U→V, N→O gives SUN→TVO; I→J, S→T gives IS→JT; H→I, O→P, T→U gives HOT→IPU — this matches the code given. Applying the same +1 shift to MOON IS BIG: M→N, O→P, O→P, N→O gives MOON→NPPO; I→J, S→T gives IS→JT; B→C, I→J, G→H gives BIG→CJH. So the full code is 'NPPO JT CJH'. 'NPOP JT CJH' swaps two middle letters of the first word, 'NPPO IS CJH' mistakenly leaves the short word IS unshifted, and 'MNNO JT CJH' mistakenly leaves the first word unshifted.",
+   "hi": "हर शब्द के हर अक्षर को वर्णमाला में एक स्थान आगे खिसकाया जाता है: S→T, U→V, N→O से SUN→TVO मिलता है; I→J, S→T से IS→JT मिलता है; H→I, O→P, T→U से HOT→IPU मिलता है — यह दिए गए कोड से मेल खाता है। MOON IS BIG पर वही +1 नियम लगाने पर: M→N, O→P, O→P, N→O से MOON→NPPO मिलता है; I→J, S→T से IS→JT मिलता है; B→C, I→J, G→H से BIG→CJH मिलता है। इसलिए पूरा कोड 'NPPO JT CJH' है। 'NPOP JT CJH' पहले शब्द के बीच के दो अक्षरों को अदल-बदल कर देता है, 'NPPO IS CJH' गलती से छोटे शब्द IS को नहीं खिसकाता, और 'MNNO JT CJH' गलती से पहले शब्द को नहीं खिसकाता।",
+   "mr": "प्रत्येक शब्दाचे प्रत्येक अक्षर वर्णमालेत एक स्थान पुढे सरकवले जाते: S→T, U→V, N→O वरून SUN→TVO मिळते; I→J, S→T वरून IS→JT मिळते; H→I, O→P, T→U वरून HOT→IPU मिळते — हे दिलेल्या कोडशी जुळते. MOON IS BIG वर तोच +1 नियम लावल्यास: M→N, O→P, O→P, N→O वरून MOON→NPPO मिळते; I→J, S→T वरून IS→JT मिळते; B→C, I→J, G→H वरून BIG→CJH मिळते. त्यामुळे संपूर्ण कोड 'NPPO JT CJH' आहे. 'NPOP JT CJH' पहिल्या शब्दातील मधली दोन अक्षरे अदलाबदल करते, 'NPPO IS CJH' चुकून लहान शब्द IS न सरकवता ठेवते, आणि 'MNNO JT CJH' चुकून पहिला शब्द न सरकवता ठेवते."
+  }
+ },
+ {
+  "key": "jnvst-2024-ma-01",
+  "section": "mental_ability",
+  "q": {
+   "en": "Find the missing number: 3, 6, 9, 12, ?",
+   "hi": "लुप्त संख्या ज्ञात करें: 3, 6, 9, 12, ?",
+   "mr": "गहाळ संख्या शोधा: 3, 6, 9, 12, ?"
+  },
+  "opts": [
+   {
+    "en": "13",
+    "hi": "13",
+    "mr": "13"
+   },
+   {
+    "en": "14",
+    "hi": "14",
+    "mr": "14"
+   },
+   {
+    "en": "15",
+    "hi": "15",
+    "mr": "15"
+   },
+   {
+    "en": "18",
+    "hi": "18",
+    "mr": "18"
+   }
+  ],
+  "exp": {
+   "en": "Each number increases by 3: 3+3=6, 6+3=9, 9+3=12, 12+3=15. Options (a) 13 and (b) 14 break the constant gap of 3; option (d) 18 adds 6 instead of 3.",
+   "hi": "प्रत्येक संख्या में 3 जोड़ा जाता है: 3+3=6, 6+3=9, 9+3=12, 12+3=15। विकल्प (a) 13 और (b) 14 स्थिर अंतर 3 को तोड़ते हैं; विकल्प (d) 18 में 3 की जगह 6 जोड़ा गया है।",
+   "mr": "प्रत्येक संख्येत 3 मिळवले जाते: 3+3=6, 6+3=9, 9+3=12, 12+3=15. पर्याय (a) 13 आणि (b) 14 स्थिर फरक 3 मोडतात; पर्याय (d) 18 मध्ये 3 ऐवजी 6 मिळवले आहे."
+  }
+ },
+ {
+  "key": "jnvst-2024-ma-02",
+  "section": "mental_ability",
+  "q": {
+   "en": "Find the missing letter: B, D, F, H, ?",
+   "hi": "लुप्त अक्षर ज्ञात करें: B, D, F, H, ?",
+   "mr": "गहाळ अक्षर शोधा: B, D, F, H, ?"
+  },
+  "opts": [
+   {
+    "en": "I",
+    "hi": "I",
+    "mr": "I"
+   },
+   {
+    "en": "J",
+    "hi": "J",
+    "mr": "J"
+   },
+   {
+    "en": "K",
+    "hi": "K",
+    "mr": "K"
+   },
+   {
+    "en": "G",
+    "hi": "G",
+    "mr": "G"
+   }
+  ],
+  "exp": {
+   "en": "The series skips one letter each time (+2): B→D→F→H→J. Option (a) I is only +1 from H, breaking the pattern; (c) K and (d) G do not fit the +2 rule.",
+   "hi": "श्रृंखला हर बार एक अक्षर छोड़ती है (+2): B→D→F→H→J। विकल्प (a) I, H से केवल +1 है, जो पैटर्न को तोड़ता है; (c) K और (d) G, +2 नियम में फिट नहीं बैठते।",
+   "mr": "मालिका दर वेळी एक अक्षर वगळते (+2): B→D→F→H→J. पर्याय (a) I हे H पासून फक्त +1 आहे, जे पॅटर्न मोडते; (c) K आणि (d) G हे +2 नियमात बसत नाहीत."
+  }
+ },
+ {
+  "key": "jnvst-2024-ma-03",
+  "section": "mental_ability",
+  "q": {
+   "en": "Which one does not belong with the others: Rose, Lotus, Jasmine, Mango?",
+   "hi": "इनमें से कौन-सा अन्य से मेल नहीं खाता: गुलाब, कमल, चमेली, आम?",
+   "mr": "यापैकी कोणता इतरांशी जुळत नाही: गुलाब, कमळ, चमेली, आंबा?"
+  },
+  "opts": [
+   {
+    "en": "Rose",
+    "hi": "गुलाब",
+    "mr": "गुलाब"
+   },
+   {
+    "en": "Lotus",
+    "hi": "कमल",
+    "mr": "कमळ"
+   },
+   {
+    "en": "Jasmine",
+    "hi": "चमेली",
+    "mr": "चमेली"
+   },
+   {
+    "en": "Mango",
+    "hi": "आम",
+    "mr": "आंबा"
+   }
+  ],
+  "exp": {
+   "en": "Rose, Lotus, and Jasmine are all flowers; Mango is a fruit, so it is the odd one out.",
+   "hi": "गुलाब, कमल और चमेली सभी फूल हैं; आम एक फल है, इसलिए यह असंगत है।",
+   "mr": "गुलाब, कमळ आणि चमेली हे सर्व फुले आहेत; आंबा हे फळ आहे, म्हणून तेच वेगळे आहे."
+  }
+ },
+ {
+  "key": "jnvst-2024-ma-04",
+  "section": "mental_ability",
+  "q": {
+   "en": "Doctor is to Hospital as Teacher is to ?",
+   "hi": "डॉक्टर का संबंध अस्पताल से है, जैसे शिक्षक का संबंध किससे है?",
+   "mr": "डॉक्टरचा संबंध रुग्णालयाशी आहे, तसाच शिक्षकाचा संबंध कशाशी आहे?"
+  },
+  "opts": [
+   {
+    "en": "Student",
+    "hi": "छात्र",
+    "mr": "विद्यार्थी"
+   },
+   {
+    "en": "School",
+    "hi": "विद्यालय",
+    "mr": "शाळा"
+   },
+   {
+    "en": "Book",
+    "hi": "किताब",
+    "mr": "पुस्तक"
+   },
+   {
+    "en": "Classroom",
+    "hi": "कक्षा",
+    "mr": "वर्ग"
+   }
+  ],
+  "exp": {
+   "en": "A Doctor works at a Hospital; similarly, a Teacher works at a School. 'Student' and 'Classroom' are related to teaching but are not the workplace itself; 'Book' is a tool, not a location.",
+   "hi": "एक डॉक्टर अस्पताल में काम करता है; उसी तरह, एक शिक्षक विद्यालय में काम करता है। 'छात्र' और 'कक्षा' शिक्षण से जुड़े हैं परंतु स्वयं कार्यस्थल नहीं हैं; 'किताब' एक साधन है, स्थान नहीं।",
+   "mr": "डॉक्टर रुग्णालयात काम करतो; त्याचप्रमाणे, शिक्षक शाळेत काम करतो. 'विद्यार्थी' आणि 'वर्ग' अध्यापनाशी संबंधित आहेत पण ते स्वतः कार्यस्थान नाहीत; 'पुस्तक' हे एक साधन आहे, स्थान नाही."
+  }
+ },
+ {
+  "key": "jnvst-2024-ma-05",
+  "section": "mental_ability",
+  "q": {
+   "en": "In a certain code, CAT is written as DBU. How is DOG written in that code?",
+   "hi": "एक निश्चित कोड में, CAT को DBU लिखा जाता है। उसी कोड में DOG कैसे लिखा जाएगा?",
+   "mr": "एका ठराविक कोडमध्ये, CAT हे DBU असे लिहिले जाते. त्याच कोडमध्ये DOG कसे लिहिले जाईल?"
+  },
+  "opts": [
+   {
+    "en": "EPH",
+    "hi": "EPH",
+    "mr": "EPH"
+   },
+   {
+    "en": "DPH",
+    "hi": "DPH",
+    "mr": "DPH"
+   },
+   {
+    "en": "EPG",
+    "hi": "EPG",
+    "mr": "EPG"
+   },
+   {
+    "en": "FQI",
+    "hi": "FQI",
+    "mr": "FQI"
+   }
+  ],
+  "exp": {
+   "en": "Each letter of the word is shifted forward by one place in the alphabet: C→D, A→B, T→U. Applying the same rule to DOG: D→E, O→P, G→H, giving EPH. Option (b) leaves D unshifted, (c) leaves G unshifted, and (d) shifts by two places instead of one.",
+   "hi": "शब्द के प्रत्येक अक्षर को वर्णमाला में एक स्थान आगे खिसकाया जाता है: C→D, A→B, T→U। यही नियम DOG पर लागू करने पर: D→E, O→P, G→H, जिससे EPH प्राप्त होता है। विकल्प (b) में D को नहीं खिसकाया गया, (c) में G को नहीं खिसकाया गया, और (d) में एक की बजाय दो स्थान खिसकाया गया है।",
+   "mr": "शब्दातील प्रत्येक अक्षर वर्णमालेत एक स्थान पुढे सरकवले जाते: C→D, A→B, T→U. हाच नियम DOG ला लावल्यास: D→E, O→P, G→H, म्हणजे EPH मिळते. पर्याय (b) मध्ये D सरकवलेले नाही, (c) मध्ये G सरकवलेले नाही, आणि (d) मध्ये एकाऐवजी दोन स्थाने सरकवली आहेत."
+  }
+ },
+ {
+  "key": "jnvst-2024-ma-06",
+  "section": "mental_ability",
+  "q": {
+   "en": "Find the missing number in the pattern: 2, 5, 10, 17, 26, ?",
+   "hi": "पैटर्न में लुप्त संख्या ज्ञात करें: 2, 5, 10, 17, 26, ?",
+   "mr": "पॅटर्नमधील गहाळ संख्या शोधा: 2, 5, 10, 17, 26, ?"
+  },
+  "opts": [
+   {
+    "en": "35",
+    "hi": "35",
+    "mr": "35"
+   },
+   {
+    "en": "36",
+    "hi": "36",
+    "mr": "36"
+   },
+   {
+    "en": "37",
+    "hi": "37",
+    "mr": "37"
+   },
+   {
+    "en": "39",
+    "hi": "39",
+    "mr": "39"
+   }
+  ],
+  "exp": {
+   "en": "Each term equals n²+1 for its position: 1²+1=2, 2²+1=5, 3²+1=10, 4²+1=17, 5²+1=26, so the 6th term is 6²+1=37.",
+   "hi": "प्रत्येक पद अपनी स्थिति n के लिए n²+1 के बराबर है: 1²+1=2, 2²+1=5, 3²+1=10, 4²+1=17, 5²+1=26, इसलिए छठा पद 6²+1=37 है।",
+   "mr": "प्रत्येक पद त्याच्या स्थान n साठी n²+1 इतके आहे: 1²+1=2, 2²+1=5, 3²+1=10, 4²+1=17, 5²+1=26, म्हणून सहावे पद 6²+1=37 आहे."
+  }
+ },
+ {
+  "key": "jnvst-2024-ma-07",
+  "section": "mental_ability",
+  "q": {
+   "en": "Find the missing number: 4, 9, 19, 39, ?",
+   "hi": "लुप्त संख्या ज्ञात करें: 4, 9, 19, 39, ?",
+   "mr": "गहाळ संख्या शोधा: 4, 9, 19, 39, ?"
+  },
+  "opts": [
+   {
+    "en": "69",
+    "hi": "69",
+    "mr": "69"
+   },
+   {
+    "en": "74",
+    "hi": "74",
+    "mr": "74"
+   },
+   {
+    "en": "78",
+    "hi": "78",
+    "mr": "78"
+   },
+   {
+    "en": "79",
+    "hi": "79",
+    "mr": "79"
+   }
+  ],
+  "exp": {
+   "en": "Each term is double the previous term plus 1: 4×2+1=9, 9×2+1=19, 19×2+1=39, 39×2+1=79. Option (c) 78 comes from doubling without adding 1 — a common slip; options (a) 69 and (b) 74 are arithmetic near-misses that don't satisfy the rule.",
+   "hi": "प्रत्येक पद पिछले पद का दोगुना करके फिर 1 जोड़ने से प्राप्त होता है: 4×2+1=9, 9×2+1=19, 19×2+1=39, 39×2+1=79। विकल्प (c) 78, 1 जोड़े बिना केवल दोगुना करने से आता है — यह एक सामान्य भूल है; (a) 69 और (b) 74 अंकगणितीय त्रुटियों से बने हैं और नियम को संतुष्ट नहीं करते।",
+   "mr": "प्रत्येक पद मागील पदाच्या दुप्पट करून नंतर 1 मिळवून तयार होते: 4×2+1=9, 9×2+1=19, 19×2+1=39, 39×2+1=79. पर्याय (c) 78 हे 1 न मिळवता फक्त दुप्पट केल्याने येते — ही एक सामान्य चूक आहे; (a) 69 आणि (b) 74 अंकगणितीय चुकांमुळे तयार झाले आहेत आणि नियम पूर्ण करत नाहीत."
+  }
+ },
+ {
+  "key": "jnvst-2024-ma-08",
+  "section": "mental_ability",
+  "q": {
+   "en": "In a certain code, SUN IS HOT is written as TVO JT IPU. How will ICE IS COLD be written in that code?",
+   "hi": "एक निश्चित कोड में, SUN IS HOT को TVO JT IPU लिखा जाता है। उसी कोड में ICE IS COLD कैसे लिखा जाएगा?",
+   "mr": "एका ठराविक कोडमध्ये, SUN IS HOT हे TVO JT IPU असे लिहिले जाते. त्याच कोडमध्ये ICE IS COLD कसे लिहिले जाईल?"
+  },
+  "opts": [
+   {
+    "en": "JDF JT DPME",
+    "hi": "JDF JT DPME",
+    "mr": "JDF JT DPME"
+   },
+   {
+    "en": "IDF JT DPME",
+    "hi": "IDF JT DPME",
+    "mr": "IDF JT DPME"
+   },
+   {
+    "en": "JDF IT DPME",
+    "hi": "JDF IT DPME",
+    "mr": "JDF IT DPME"
+   },
+   {
+    "en": "JCE JT DPME",
+    "hi": "JCE JT DPME",
+    "mr": "JCE JT DPME"
+   }
+  ],
+  "exp": {
+   "en": "Every letter in the code shifts one place forward in the alphabet (S→T, U→V, N→O; I→J, S→T; H→I, O→P, T→U). Applying the same +1 shift to ICE IS COLD: I→J, C→D, E→F gives JDF; I→J, S→T gives JT; C→D, O→P, L→M, D→E gives DPME. So the full code is JDF JT DPME. Options (b)-(d) each leave one letter un-shifted by mistake.",
+   "hi": "कोड में प्रत्येक अक्षर वर्णमाला में एक स्थान आगे खिसकता है (S→T, U→V, N→O; I→J, S→T; H→I, O→P, T→U)। यही +1 नियम ICE IS COLD पर लागू करने पर: I→J, C→D, E→F से JDF; I→J, S→T से JT; C→D, O→P, L→M, D→E से DPME प्राप्त होता है। इस प्रकार पूरा कोड JDF JT DPME है। विकल्प (b)-(d) में से प्रत्येक में गलती से एक अक्षर बिना खिसकाए छोड़ दिया गया है।",
+   "mr": "कोडमध्ये प्रत्येक अक्षर वर्णमालेत एक स्थान पुढे सरकते (S→T, U→V, N→O; I→J, S→T; H→I, O→P, T→U). हाच +1 नियम ICE IS COLD ला लावल्यास: I→J, C→D, E→F मुळे JDF; I→J, S→T मुळे JT; C→D, O→P, L→M, D→E मुळे DPME मिळते. अशा प्रकारे संपूर्ण कोड JDF JT DPME आहे. पर्याय (b)-(d) यांपैकी प्रत्येकात चुकून एक अक्षर न सरकवता तसेच ठेवले आहे."
+  }
+ },
+ {
+  "key": "jnvst-2025-ma-01",
+  "section": "mental_ability",
+  "q": {
+   "en": "Find the missing number in the series: 7, 14, 21, 28, ?",
+   "hi": "श्रृंखला में लुप्त संख्या ज्ञात करें: 7, 14, 21, 28, ?",
+   "mr": "मालिकेतील लुप्त संख्या शोधा: 7, 14, 21, 28, ?"
+  },
+  "opts": [
+   {
+    "en": "30",
+    "hi": "30",
+    "mr": "30"
+   },
+   {
+    "en": "33",
+    "hi": "33",
+    "mr": "33"
+   },
+   {
+    "en": "35",
+    "hi": "35",
+    "mr": "35"
+   },
+   {
+    "en": "42",
+    "hi": "42",
+    "mr": "42"
+   }
+  ],
+  "exp": {
+   "en": "The series increases by 7 each time: 7+7=14, 14+7=21, 21+7=28, 28+7=35. The trap option 42 continues the pattern one step too far (35+7), while 30 and 33 break the +7 rule.",
+   "hi": "श्रृंखला हर बार 7 से बढ़ती है: 7+7=14, 14+7=21, 21+7=28, 28+7=35। भ्रामक विकल्प 42 पैटर्न को एक कदम आगे तक ले जाता है (35+7), जबकि 30 और 33 +7 नियम को तोड़ते हैं।",
+   "mr": "मालिका दर वेळी 7 ने वाढते: 7+7=14, 14+7=21, 21+7=28, 28+7=35. फसवा पर्याय 42 पॅटर्न एक पाऊल पुढे नेतो (35+7), तर 30 आणि 33 +7 चा नियम मोडतात."
+  }
+ },
+ {
+  "key": "jnvst-2025-ma-02",
+  "section": "mental_ability",
+  "q": {
+   "en": "Find the missing letter in the series: B, D, F, H, ?",
+   "hi": "श्रृंखला में लुप्त अक्षर ज्ञात करें: B, D, F, H, ?",
+   "mr": "मालिकेतील लुप्त अक्षर शोधा: B, D, F, H, ?"
+  },
+  "opts": [
+   {
+    "en": "I",
+    "hi": "I",
+    "mr": "I"
+   },
+   {
+    "en": "J",
+    "hi": "J",
+    "mr": "J"
+   },
+   {
+    "en": "K",
+    "hi": "K",
+    "mr": "K"
+   },
+   {
+    "en": "G",
+    "hi": "G",
+    "mr": "G"
+   }
+  ],
+  "exp": {
+   "en": "The series skips one letter each time (+2 positions): B→D→F→H→J. I is only +1 from H, K is +3, and G is a step backward, so all three are traps.",
+   "hi": "श्रृंखला हर बार एक अक्षर छोड़ती है (+2 स्थान): B→D→F→H→J। I, H से केवल +1 है, K +3 है, और G एक कदम पीछे है, इसलिए ये तीनों भ्रामक विकल्प हैं।",
+   "mr": "मालिका दर वेळी एक अक्षर वगळते (+2 स्थान): B→D→F→H→J. I हे H पासून फक्त +1 आहे, K +3 आहे, आणि G एक पाऊल मागे आहे, त्यामुळे हे तिन्ही फसवे पर्याय आहेत."
+  }
+ },
+ {
+  "key": "jnvst-2025-ma-03",
+  "section": "mental_ability",
+  "q": {
+   "en": "Which one does not belong with the others: Sparrow, Eagle, Bat, Peacock?",
+   "hi": "इनमें से कौन-सा अन्य से मेल नहीं खाता: गौरैया, चील, चमगादड़, मोर?",
+   "mr": "यापैकी कोणता इतरांशी जुळत नाही: चिमणी, गरुड, वटवाघूळ, मोर?"
+  },
+  "opts": [
+   {
+    "en": "Sparrow",
+    "hi": "गौरैया",
+    "mr": "चिमणी"
+   },
+   {
+    "en": "Eagle",
+    "hi": "चील",
+    "mr": "गरुड"
+   },
+   {
+    "en": "Bat",
+    "hi": "चमगादड़",
+    "mr": "वटवाघूळ"
+   },
+   {
+    "en": "Peacock",
+    "hi": "मोर",
+    "mr": "मोर"
+   }
+  ],
+  "exp": {
+   "en": "Sparrow, Eagle, and Peacock are birds; a Bat is a mammal that flies, so it does not belong with the bird group even though it shares the sky with them.",
+   "hi": "गौरैया, चील और मोर पक्षी हैं; चमगादड़ एक स्तनपायी है जो उड़ता है, इसलिए आकाश साझा करने के बावजूद यह पक्षी समूह से मेल नहीं खाता।",
+   "mr": "चिमणी, गरुड आणि मोर हे पक्षी आहेत; वटवाघूळ हा उडणारा सस्तन प्राणी आहे, त्यामुळे आकाश सामायिक करूनही तो पक्ष्यांच्या गटाशी जुळत नाही."
+  }
+ },
+ {
+  "key": "jnvst-2025-ma-04",
+  "section": "mental_ability",
+  "q": {
+   "en": "Pen is to Write as Knife is to ?",
+   "hi": "पेन का संबंध लिखने से है, जैसे चाकू का संबंध किससे है?",
+   "mr": "पेनचा संबंध लिहिण्याशी आहे, तसा सुरीचा संबंध कशाशी आहे?"
+  },
+  "opts": [
+   {
+    "en": "Sharp",
+    "hi": "तेज",
+    "mr": "तीक्ष्ण"
+   },
+   {
+    "en": "Cut",
+    "hi": "काटना",
+    "mr": "कापणे"
+   },
+   {
+    "en": "Kitchen",
+    "hi": "रसोई",
+    "mr": "स्वयंपाकघर"
+   },
+   {
+    "en": "Blade",
+    "hi": "ब्लेड",
+    "mr": "पाते"
+   }
+  ],
+  "exp": {
+   "en": "A pen's function is to write; a knife's function is to cut. 'Sharp' and 'Blade' describe the knife itself rather than its use, and 'Kitchen' names a place, not a function, so they are traps.",
+   "hi": "पेन का कार्य लिखना है; चाकू का कार्य काटना है। 'तेज' और 'ब्लेड' चाकू के उपयोग के बजाय उसका वर्णन करते हैं, और 'रसोई' एक स्थान है, कार्य नहीं, इसलिए ये भ्रामक विकल्प हैं।",
+   "mr": "पेनचे कार्य लिहिणे आहे; सुरीचे कार्य कापणे आहे. 'तीक्ष्ण' आणि 'पाते' सुरीच्या वापराऐवजी तिचे वर्णन करतात, आणि 'स्वयंपाकघर' एक ठिकाण आहे, कार्य नाही, त्यामुळे हे फसवे पर्याय आहेत."
+  }
+ },
+ {
+  "key": "jnvst-2025-ma-05",
+  "section": "mental_ability",
+  "q": {
+   "en": "In a certain code, CAT is written as DBU (each letter moved one step forward in the alphabet). How is DOG written in the same code?",
+   "hi": "एक निश्चित कोड में, CAT को DBU लिखा जाता है (प्रत्येक अक्षर वर्णमाला में एक कदम आगे बढ़ता है)। उसी कोड में DOG कैसे लिखा जाएगा?",
+   "mr": "एका ठराविक कोडमध्ये, CAT हे DBU असे लिहिले जाते (प्रत्येक अक्षर वर्णमालेत एक पाऊल पुढे सरकते). त्याच कोडमध्ये DOG कसे लिहिले जाईल?"
+  },
+  "opts": [
+   {
+    "en": "EPH",
+    "hi": "EPH",
+    "mr": "EPH"
+   },
+   {
+    "en": "EPI",
+    "hi": "EPI",
+    "mr": "EPI"
+   },
+   {
+    "en": "DPH",
+    "hi": "DPH",
+    "mr": "DPH"
+   },
+   {
+    "en": "EQH",
+    "hi": "EQH",
+    "mr": "EQH"
+   }
+  ],
+  "exp": {
+   "en": "Each letter is shifted one step forward: D→E, O→P, G→H, giving EPH. EPI wrongly shifts G by two steps, DPH leaves D unshifted, and EQH wrongly shifts O by two steps.",
+   "hi": "प्रत्येक अक्षर एक कदम आगे बढ़ता है: D→E, O→P, G→H, जिससे EPH प्राप्त होता है। EPI में G को गलती से दो कदम आगे बढ़ाया गया है, DPH में D को बिना बदले छोड़ दिया गया है, और EQH में O को गलती से दो कदम आगे बढ़ाया गया है।",
+   "mr": "प्रत्येक अक्षर एक पाऊल पुढे सरकते: D→E, O→P, G→H, यामुळे EPH मिळते. EPI मध्ये G चुकून दोन पावले पुढे सरकवले आहे, DPH मध्ये D न बदलता ठेवले आहे, आणि EQH मध्ये O चुकून दोन पावले पुढे सरकवले आहे."
+  }
+ },
+ {
+  "key": "jnvst-2025-ma-06",
+  "section": "mental_ability",
+  "q": {
+   "en": "Find the missing number in the pattern: 2, 6, 12, 20, 30, ?",
+   "hi": "पैटर्न में लुप्त संख्या ज्ञात करें: 2, 6, 12, 20, 30, ?",
+   "mr": "पॅटर्नमधील लुप्त संख्या शोधा: 2, 6, 12, 20, 30, ?"
+  },
+  "opts": [
+   {
+    "en": "36",
+    "hi": "36",
+    "mr": "36"
+   },
+   {
+    "en": "40",
+    "hi": "40",
+    "mr": "40"
+   },
+   {
+    "en": "42",
+    "hi": "42",
+    "mr": "42"
+   },
+   {
+    "en": "44",
+    "hi": "44",
+    "mr": "44"
+   }
+  ],
+  "exp": {
+   "en": "Each term is a product of two consecutive numbers: 1×2=2, 2×3=6, 3×4=12, 4×5=20, 5×6=30, so the next term is 6×7=42. Equivalently, the gap between terms grows by 2 each time (4,6,8,10,12), and 30+12=42.",
+   "hi": "प्रत्येक पद दो क्रमागत संख्याओं का गुणनफल है: 1×2=2, 2×3=6, 3×4=12, 4×5=20, 5×6=30, इसलिए अगला पद 6×7=42 है। समान रूप से, पदों के बीच का अंतर हर बार 2 से बढ़ता है (4,6,8,10,12), और 30+12=42।",
+   "mr": "प्रत्येक पद हे दोन क्रमागत संख्यांचा गुणाकार आहे: 1×2=2, 2×3=6, 3×4=12, 4×5=20, 5×6=30, म्हणून पुढील पद 6×7=42 आहे. त्याचप्रमाणे, पदांमधील फरक दर वेळी 2 ने वाढतो (4,6,8,10,12), आणि 30+12=42."
+  }
+ },
+ {
+  "key": "jnvst-2025-ma-07",
+  "section": "mental_ability",
+  "q": {
+   "en": "Find the missing number in the series: 3, 8, 15, 24, 35, ?",
+   "hi": "श्रृंखला में लुप्त संख्या ज्ञात करें: 3, 8, 15, 24, 35, ?",
+   "mr": "मालिकेतील लुप्त संख्या शोधा: 3, 8, 15, 24, 35, ?"
+  },
+  "opts": [
+   {
+    "en": "45",
+    "hi": "45",
+    "mr": "45"
+   },
+   {
+    "en": "48",
+    "hi": "48",
+    "mr": "48"
+   },
+   {
+    "en": "50",
+    "hi": "50",
+    "mr": "50"
+   },
+   {
+    "en": "46",
+    "hi": "46",
+    "mr": "46"
+   }
+  ],
+  "exp": {
+   "en": "The differences between consecutive terms are 5, 7, 9, 11 — consecutive odd numbers increasing by 2. The next difference is 13, so 35+13=48. The trap 45 wrongly adds 10, 50 wrongly adds 15, and 46 wrongly assumes a constant difference of 11.",
+   "hi": "क्रमागत पदों के बीच अंतर 5, 7, 9, 11 है — जो 2 से बढ़ने वाली क्रमागत विषम संख्याएँ हैं। अगला अंतर 13 है, इसलिए 35+13=48। भ्रामक विकल्प 45 गलती से 10 जोड़ता है, 50 गलती से 15 जोड़ता है, और 46 गलती से स्थिर अंतर 11 मान लेता है।",
+   "mr": "क्रमागत पदांमधील फरक 5, 7, 9, 11 आहे — जे 2 ने वाढणाऱ्या क्रमागत विषम संख्या आहेत. पुढील फरक 13 आहे, म्हणून 35+13=48. फसवा पर्याय 45 चुकून 10 जोडतो, 50 चुकून 15 जोडतो, आणि 46 चुकून स्थिर फरक 11 गृहीत धरतो."
+  }
+ },
+ {
+  "key": "jnvst-2025-ma-08",
+  "section": "mental_ability",
+  "q": {
+   "en": "In a certain code, letters are written using their mirror position in the alphabet (A↔Z, B↔Y, C↔X, and so on). If CAT is written as XZG in this code, how is DOG written?",
+   "hi": "एक निश्चित कोड में, अक्षरों को वर्णमाला में उनकी दर्पण स्थिति का उपयोग करके लिखा जाता है (A↔Z, B↔Y, C↔X, इत्यादि)। यदि इस कोड में CAT को XZG लिखा जाता है, तो DOG कैसे लिखा जाएगा?",
+   "mr": "एका ठराविक कोडमध्ये, अक्षरे वर्णमालेतील त्यांच्या आरशातील (मिरर) स्थानाचा वापर करून लिहिली जातात (A↔Z, B↔Y, C↔X, इत्यादी). जर या कोडमध्ये CAT हे XZG असे लिहिले जाते, तर DOG कसे लिहिले जाईल?"
+  },
+  "opts": [
+   {
+    "en": "WLT",
+    "hi": "WLT",
+    "mr": "WLT"
+   },
+   {
+    "en": "XLT",
+    "hi": "XLT",
+    "mr": "XLT"
+   },
+   {
+    "en": "WMT",
+    "hi": "WMT",
+    "mr": "WMT"
+   },
+   {
+    "en": "WLU",
+    "hi": "WLU",
+    "mr": "WLU"
+   }
+  ],
+  "exp": {
+   "en": "Each letter maps to the letter at the mirrored position from the other end of the alphabet: D(4th)→W(23rd), O(15th)→L(12th), G(7th)→T(20th), giving WLT. XLT wrongly maps D as if it were C, WMT wrongly maps O as if it were N, and WLU wrongly maps G as if it were F.",
+   "hi": "प्रत्येक अक्षर वर्णमाला के दूसरे छोर से दर्पण स्थिति वाले अक्षर से मेल खाता है: D(चौथा)→W(23वां), O(15वां)→L(12वां), G(सातवां)→T(20वां), जिससे WLT प्राप्त होता है। XLT में D को गलती से C मानकर मैप किया गया है, WMT में O को गलती से N मानकर मैप किया गया है, और WLU में G को गलती से F मानकर मैप किया गया है।",
+   "mr": "प्रत्येक अक्षर वर्णमालेच्या दुसऱ्या टोकापासून आरशातील स्थान असलेल्या अक्षराशी जुळते: D(चौथे)→W(23वे), O(15वे)→L(12वे), G(सातवे)→T(20वे), यामुळे WLT मिळते. XLT मध्ये D ला चुकून C समजून जुळवले आहे, WMT मध्ये O ला चुकून N समजून जुळवले आहे, आणि WLU मध्ये G ला चुकून F समजून जुळवले आहे."
+  }
+ },
+ {
+  "key": "jnvst-2021-ar-01",
+  "section": "arithmetic",
+  "q": {
+   "en": "Calculate quickly using the 'square of a number ending in 5' shortcut: 25² = ?",
+   "hi": "'5 पर समाप्त होने वाली संख्या का वर्ग' शॉर्टकट का उपयोग करके शीघ्र गणना करें: 25² = ?",
+   "mr": "'5 ने संपणाऱ्या संख्येचा वर्ग' या शॉर्टकटचा वापर करून शीघ्र गणना करा: 25² = ?"
+  },
+  "opts": [
+   {
+    "en": "525",
+    "hi": "525",
+    "mr": "525"
+   },
+   {
+    "en": "625",
+    "hi": "625",
+    "mr": "625"
+   },
+   {
+    "en": "725",
+    "hi": "725",
+    "mr": "725"
+   },
+   {
+    "en": "615",
+    "hi": "615",
+    "mr": "615"
+   }
+  ],
+  "exp": {
+   "en": "For a number 10a+5, the square is a×(a+1) followed by 25. Here a=2: 2×3=6, then append 25 → 625.",
+   "hi": "10a+5 रूप की संख्या के लिए, वर्ग a×(a+1) के बाद 25 जोड़कर बनता है। यहाँ a=2: 2×3=6, फिर 25 जोड़ें → 625।",
+   "mr": "10a+5 स्वरूपाच्या संख्येसाठी, वर्ग म्हणजे a×(a+1) नंतर 25 जोडून मिळतो. येथे a=2: 2×3=6, नंतर 25 जोडा → 625."
+  }
+ },
+ {
+  "key": "jnvst-2021-ar-02",
+  "section": "arithmetic",
+  "q": {
+   "en": "Use the Nikhilam sutra to calculate quickly: 96 × 94 = ?",
+   "hi": "निखिलम् सूत्र का उपयोग करके शीघ्र गणना करें: 96 × 94 = ?",
+   "mr": "निखिलम् सूत्राचा वापर करून शीघ्र गणना करा: 96 × 94 = ?"
+  },
+  "opts": [
+   {
+    "en": "8924",
+    "hi": "8924",
+    "mr": "8924"
+   },
+   {
+    "en": "9024",
+    "hi": "9024",
+    "mr": "9024"
+   },
+   {
+    "en": "9124",
+    "hi": "9124",
+    "mr": "9124"
+   },
+   {
+    "en": "9034",
+    "hi": "9034",
+    "mr": "9034"
+   }
+  ],
+  "exp": {
+   "en": "Base 100, deviations -4 and -6: (96-6)×100 + (-4×-6) = 9000+24 = 9024.",
+   "hi": "आधार 100, विचलन -4 और -6: (96-6)×100 + (-4×-6) = 9000+24 = 9024।",
+   "mr": "आधार 100, विचलन -4 आणि -6: (96-6)×100 + (-4×-6) = 9000+24 = 9024."
+  }
+ },
+ {
+  "key": "jnvst-2021-ar-03",
+  "section": "arithmetic",
+  "q": {
+   "en": "Calculate quickly using the 'square of a number ending in 5' shortcut: 85² = ?",
+   "hi": "'5 पर समाप्त होने वाली संख्या का वर्ग' शॉर्टकट का उपयोग करके शीघ्र गणना करें: 85² = ?",
+   "mr": "'5 ने संपणाऱ्या संख्येचा वर्ग' या शॉर्टकटचा वापर करून शीघ्र गणना करा: 85² = ?"
+  },
+  "opts": [
+   {
+    "en": "7025",
+    "hi": "7025",
+    "mr": "7025"
+   },
+   {
+    "en": "7125",
+    "hi": "7125",
+    "mr": "7125"
+   },
+   {
+    "en": "7225",
+    "hi": "7225",
+    "mr": "7225"
+   },
+   {
+    "en": "7325",
+    "hi": "7325",
+    "mr": "7325"
+   }
+  ],
+  "exp": {
+   "en": "Here a=8: 8×9=72, then append 25 → 7225.",
+   "hi": "यहाँ a=8: 8×9=72, फिर 25 जोड़ें → 7225।",
+   "mr": "येथे a=8: 8×9=72, नंतर 25 जोडा → 7225."
+  }
+ },
+ {
+  "key": "jnvst-2021-ar-04",
+  "section": "arithmetic",
+  "q": {
+   "en": "Use the Nikhilam sutra to calculate quickly: 998 × 996 = ?",
+   "hi": "निखिलम् सूत्र का उपयोग करके शीघ्र गणना करें: 998 × 996 = ?",
+   "mr": "निखिलम् सूत्राचा वापर करून शीघ्र गणना करा: 998 × 996 = ?"
+  },
+  "opts": [
+   {
+    "en": "994008",
+    "hi": "994008",
+    "mr": "994008"
+   },
+   {
+    "en": "993008",
+    "hi": "993008",
+    "mr": "993008"
+   },
+   {
+    "en": "994108",
+    "hi": "994108",
+    "mr": "994108"
+   },
+   {
+    "en": "992008",
+    "hi": "992008",
+    "mr": "992008"
+   }
+  ],
+  "exp": {
+   "en": "Base 1000, deviations -2 and -4: (998-4)×1000 + (-2×-4) = 994000+8 = 994008.",
+   "hi": "आधार 1000, विचलन -2 और -4: (998-4)×1000 + (-2×-4) = 994000+8 = 994008।",
+   "mr": "आधार 1000, विचलन -2 आणि -4: (998-4)×1000 + (-2×-4) = 994000+8 = 994008."
+  }
+ },
+ {
+  "key": "jnvst-2022-ar-01",
+  "section": "arithmetic",
+  "q": {
+   "en": "Calculate quickly using the ×11 shortcut: 63 × 11 = ?",
+   "hi": "×11 की शॉर्टकट विधि से शीघ्र गणना करें: 63 × 11 = ?",
+   "mr": "×11 च्या शॉर्टकट पद्धतीने शीघ्र गणना करा: 63 × 11 = ?"
+  },
+  "opts": [
+   {
+    "en": "693",
+    "hi": "693",
+    "mr": "693"
+   },
+   {
+    "en": "683",
+    "hi": "683",
+    "mr": "683"
+   },
+   {
+    "en": "603",
+    "hi": "603",
+    "mr": "603"
+   },
+   {
+    "en": "633",
+    "hi": "633",
+    "mr": "633"
+   }
+  ],
+  "exp": {
+   "en": "Sandwich rule for ×11: place the sum of the digits between them. For 63: outer digits stay 6 and 3, and the middle digit is 6+3=9, giving 693. Option (b) 683 uses the wrong sum, (c) 603 skips the sandwich digit entirely, and (d) 633 repeats a digit instead of adding them.",
+   "hi": "×11 के लिए सैंडविच नियम: अंकों के योग को उनके बीच रखें। 63 के लिए: बाहरी अंक 6 और 3 वैसे ही रहते हैं, और मध्य अंक 6+3=9 है, जिससे 693 प्राप्त होता है। विकल्प (b) 683 गलत योग का उपयोग करता है, (c) 603 सैंडविच अंक को पूरी तरह छोड़ देता है, और (d) 633 उन्हें जोड़ने के बजाय एक अंक दोहराता है।",
+   "mr": "×11 साठी सँडविच नियम: अंकांच्या बेरजेला त्यांच्यामध्ये ठेवा. 63 साठी: बाहेरील अंक 6 आणि 3 तसेच राहतात, आणि मधला अंक 6+3=9 आहे, त्यामुळे 693 मिळते. पर्याय (b) 683 चुकीची बेरीज वापरतो, (c) 603 सँडविच अंक पूर्णपणे वगळतो, आणि (d) 633 बेरीज करण्याऐवजी एक अंक पुन्हा वापरतो."
+  }
+ },
+ {
+  "key": "jnvst-2022-ar-02",
+  "section": "arithmetic",
+  "q": {
+   "en": "Calculate quickly using the ×11 shortcut: 78 × 11 = ?",
+   "hi": "×11 की शॉर्टकट विधि से शीघ्र गणना करें: 78 × 11 = ?",
+   "mr": "×11 च्या शॉर्टकट पद्धतीने शीघ्र गणना करा: 78 × 11 = ?"
+  },
+  "opts": [
+   {
+    "en": "848",
+    "hi": "848",
+    "mr": "848"
+   },
+   {
+    "en": "858",
+    "hi": "858",
+    "mr": "858"
+   },
+   {
+    "en": "768",
+    "hi": "768",
+    "mr": "768"
+   },
+   {
+    "en": "758",
+    "hi": "758",
+    "mr": "758"
+   }
+  ],
+  "exp": {
+   "en": "Sandwich rule for ×11 with a carry: the digit sum is 7+8=15, which is more than 9, so write down 5 and carry the 1 over to the left digit: 7+1=8. This gives 8_5_8 → 858. Option (a) 848 forgets to carry the 1, (c) 768 and (d) 758 don't apply the sandwich rule correctly at all.",
+   "hi": "कैरी के साथ ×11 के लिए सैंडविच नियम: अंकों का योग 7+8=15 है, जो 9 से अधिक है, इसलिए 5 लिखें और 1 को बाईं ओर के अंक में कैरी करें: 7+1=8। इससे 8_5_8 → 858 प्राप्त होता है। विकल्प (a) 848 कैरी 1 को भूल जाता है, (c) 768 और (d) 758 सैंडविच नियम को सही ढंग से लागू ही नहीं करते।",
+   "mr": "कॅरीसह ×11 साठी सँडविच नियम: अंकांची बेरीज 7+8=15 आहे, जी 9 पेक्षा जास्त आहे, त्यामुळे 5 लिहा आणि 1 डावीकडील अंकाकडे कॅरी करा: 7+1=8. यामुळे 8_5_8 → 858 मिळते. पर्याय (a) 848 कॅरी 1 विसरतो, (c) 768 आणि (d) 758 सँडविच नियम अजिबात योग्यरित्या लागू करत नाहीत."
+  }
+ },
+ {
+  "key": "jnvst-2022-ar-03",
+  "section": "arithmetic",
+  "q": {
+   "en": "Use the all-from-9-last-from-10 shortcut: 1000 − 456 = ?",
+   "hi": "सभी-9-से-अंतिम-10-से शॉर्टकट का उपयोग करें: 1000 − 456 = ?",
+   "mr": "सर्व-9-मधून-शेवटचा-10-मधून ही शॉर्टकट पद्धत वापरा: 1000 − 456 = ?"
+  },
+  "opts": [
+   {
+    "en": "554",
+    "hi": "554",
+    "mr": "554"
+   },
+   {
+    "en": "644",
+    "hi": "644",
+    "mr": "644"
+   },
+   {
+    "en": "544",
+    "hi": "544",
+    "mr": "544"
+   },
+   {
+    "en": "534",
+    "hi": "534",
+    "mr": "534"
+   }
+  ],
+  "exp": {
+   "en": "For 1000−456, subtract each digit of 456 from 9 except the last, which is subtracted from 10: 9−4=5, 9−5=4, 10−6=4, giving 544. Option (a) 554 makes an error in the tens digit, (b) 644 makes an error in the hundreds digit, and (d) 534 makes an error in the units digit.",
+   "hi": "1000−456 के लिए, 456 के प्रत्येक अंक को 9 से घटाएं, अंतिम को छोड़कर, जिसे 10 से घटाया जाता है: 9−4=5, 9−5=4, 10−6=4, जिससे 544 प्राप्त होता है। विकल्प (a) 554 दहाई के अंक में त्रुटि करता है, (b) 644 सैकड़े के अंक में त्रुटि करता है, और (d) 534 इकाई के अंक में त्रुटि करता है।",
+   "mr": "1000−456 साठी, 456 च्या प्रत्येक अंकाला 9 मधून वजा करा, शेवटचा अंक वगळता, जो 10 मधून वजा केला जातो: 9−4=5, 9−5=4, 10−6=4, त्यामुळे 544 मिळते. पर्याय (a) 554 दहाच्या अंकात चूक करतो, (b) 644 शंभरच्या अंकात चूक करतो, आणि (d) 534 एककाच्या अंकात चूक करतो."
+  }
+ },
+ {
+  "key": "jnvst-2022-ar-04",
+  "section": "arithmetic",
+  "q": {
+   "en": "Use the all-from-9-last-from-10 shortcut: 10000 − 4326 = ?",
+   "hi": "सभी-9-से-अंतिम-10-से शॉर्टकट का उपयोग करें: 10000 − 4326 = ?",
+   "mr": "सर्व-9-मधून-शेवटचा-10-मधून ही शॉर्टकट पद्धत वापरा: 10000 − 4326 = ?"
+  },
+  "opts": [
+   {
+    "en": "5684",
+    "hi": "5684",
+    "mr": "5684"
+   },
+   {
+    "en": "5674",
+    "hi": "5674",
+    "mr": "5674"
+   },
+   {
+    "en": "5774",
+    "hi": "5774",
+    "mr": "5774"
+   },
+   {
+    "en": "5664",
+    "hi": "5664",
+    "mr": "5664"
+   }
+  ],
+  "exp": {
+   "en": "For 10000−4326, subtract each digit of 4326 from 9 except the last, which is subtracted from 10: 9−4=5, 9−3=6, 9−2=7, 10−6=4, giving 5674. Option (a) 5684 makes an error in the units digit, (c) 5774 makes an error in the hundreds digit, and (d) 5664 makes an error in the tens digit.",
+   "hi": "10000−4326 के लिए, 4326 के प्रत्येक अंक को 9 से घटाएं, अंतिम को छोड़कर, जिसे 10 से घटाया जाता है: 9−4=5, 9−3=6, 9−2=7, 10−6=4, जिससे 5674 प्राप्त होता है। विकल्प (a) 5684 इकाई के अंक में त्रुटि करता है, (c) 5774 सैकड़े के अंक में त्रुटि करता है, और (d) 5664 दहाई के अंक में त्रुटि करता है।",
+   "mr": "10000−4326 साठी, 4326 च्या प्रत्येक अंकाला 9 मधून वजा करा, शेवटचा अंक वगळता, जो 10 मधून वजा केला जातो: 9−4=5, 9−3=6, 9−2=7, 10−6=4, त्यामुळे 5674 मिळते. पर्याय (a) 5684 एककाच्या अंकात चूक करतो, (c) 5774 शंभरच्या अंकात चूक करतो, आणि (d) 5664 दहाच्या अंकात चूक करतो."
+  }
+ },
+ {
+  "key": "jnvst-2023-ar-01",
+  "section": "arithmetic",
+  "q": {
+   "en": "Use the Vedic shortcut for squaring a number ending in 5: 25² = ?",
+   "hi": "5 पर समाप्त होने वाली संख्या के वर्ग के लिए वैदिक शॉर्टकट का प्रयोग करें: 25² = ?",
+   "mr": "5 वर संपणाऱ्या संख्येच्या वर्गासाठी वैदिक शॉर्टकट वापरा: 25² = ?"
+  },
+  "opts": [
+   {
+    "en": "605",
+    "hi": "605",
+    "mr": "605"
+   },
+   {
+    "en": "615",
+    "hi": "615",
+    "mr": "615"
+   },
+   {
+    "en": "625",
+    "hi": "625",
+    "mr": "625"
+   },
+   {
+    "en": "635",
+    "hi": "635",
+    "mr": "635"
+   }
+  ],
+  "exp": {
+   "en": "For a number of the form 10a+5, the square is a×(a+1) followed by 25. Here 25=10×2+5, so a=2: a×(a+1)=2×3=6. Append 25 to get 625.",
+   "hi": "10a+5 रूप की संख्या के लिए, वर्ग a×(a+1) के बाद 25 लिखने से प्राप्त होता है। यहाँ 25=10×2+5, इसलिए a=2: a×(a+1)=2×3=6। 625 पाने के लिए 25 जोड़ें।",
+   "mr": "10a+5 रूपाच्या संख्येसाठी, वर्ग a×(a+1) नंतर 25 लिहून मिळतो. येथे 25=10×2+5, त्यामुळे a=2: a×(a+1)=2×3=6. 625 मिळवण्यासाठी 25 जोडा."
+  }
+ },
+ {
+  "key": "jnvst-2023-ar-02",
+  "section": "arithmetic",
+  "q": {
+   "en": "Use the Urdhva-Tiryagbhyam (vertically and crosswise) method to multiply: 23 × 42 = ?",
+   "hi": "गुणा करने के लिए ऊर्ध्व-तिर्यग्भ्याम् (ऊर्ध्वाधर एवं तिरछा) विधि का प्रयोग करें: 23 × 42 = ?",
+   "mr": "गुणाकारासाठी ऊर्ध्व-तिर्यग्भ्याम् (उभे व तिरपे) पद्धत वापरा: 23 × 42 = ?"
+  },
+  "opts": [
+   {
+    "en": "936",
+    "hi": "936",
+    "mr": "936"
+   },
+   {
+    "en": "956",
+    "hi": "956",
+    "mr": "956"
+   },
+   {
+    "en": "966",
+    "hi": "966",
+    "mr": "966"
+   },
+   {
+    "en": "976",
+    "hi": "976",
+    "mr": "976"
+   }
+  ],
+  "exp": {
+   "en": "For ab × cd (23 × 42, so a=2,b=3,c=4,d=2), work in three cross-multiplication steps. Vertical (units): b×d=3×2=6 → units digit 6, carry 0. Crosswise: a×d+b×c=2×2+3×4=4+12=16 → write 6, carry 1. Vertical (tens): a×c=2×4=8, plus the carried 1 = 9. Reading the digits gives 9, 6, 6 → 966.",
+   "hi": "ab × cd (23 × 42, तो a=2,b=3,c=4,d=2) के लिए, तीन क्रॉस-गुणा चरणों में काम करें। ऊर्ध्वाधर (इकाई): b×d=3×2=6 → इकाई अंक 6, कैरी 0। तिरछा: a×d+b×c=2×2+3×4=4+12=16 → 6 लिखें, कैरी 1। ऊर्ध्वाधर (दहाई): a×c=2×4=8, साथ में कैरी किया गया 1 = 9। अंकों को पढ़ने पर 9, 6, 6 → 966 मिलता है।",
+   "mr": "ab × cd (23 × 42, म्हणजे a=2,b=3,c=4,d=2) साठी, तीन क्रॉस-गुणाकार टप्प्यांत काम करा. उभे (एकक): b×d=3×2=6 → एकक अंक 6, कॅरी 0. तिरपे: a×d+b×c=2×2+3×4=4+12=16 → 6 लिहा, कॅरी 1. उभे (दशक): a×c=2×4=8, अधिक कॅरी केलेला 1 = 9. अंक वाचल्यास 9, 6, 6 → 966 मिळते."
+  }
+ },
+ {
+  "key": "jnvst-2023-ar-03",
+  "section": "arithmetic",
+  "q": {
+   "en": "Use the Vedic shortcut for squaring a number ending in 5: 45² = ?",
+   "hi": "5 पर समाप्त होने वाली संख्या के वर्ग के लिए वैदिक शॉर्टकट का प्रयोग करें: 45² = ?",
+   "mr": "5 वर संपणाऱ्या संख्येच्या वर्गासाठी वैदिक शॉर्टकट वापरा: 45² = ?"
+  },
+  "opts": [
+   {
+    "en": "2005",
+    "hi": "2005",
+    "mr": "2005"
+   },
+   {
+    "en": "2015",
+    "hi": "2015",
+    "mr": "2015"
+   },
+   {
+    "en": "2025",
+    "hi": "2025",
+    "mr": "2025"
+   },
+   {
+    "en": "2035",
+    "hi": "2035",
+    "mr": "2035"
+   }
+  ],
+  "exp": {
+   "en": "For a number of the form 10a+5, the square is a×(a+1) followed by 25. Here 45=10×4+5, so a=4: a×(a+1)=4×5=20. Append 25 to get 2025.",
+   "hi": "10a+5 रूप की संख्या के लिए, वर्ग a×(a+1) के बाद 25 लिखने से प्राप्त होता है। यहाँ 45=10×4+5, इसलिए a=4: a×(a+1)=4×5=20। 2025 पाने के लिए 25 जोड़ें।",
+   "mr": "10a+5 रूपाच्या संख्येसाठी, वर्ग a×(a+1) नंतर 25 लिहून मिळतो. येथे 45=10×4+5, त्यामुळे a=4: a×(a+1)=4×5=20. 2025 मिळवण्यासाठी 25 जोडा."
+  }
+ },
+ {
+  "key": "jnvst-2023-ar-04",
+  "section": "arithmetic",
+  "q": {
+   "en": "Use the Urdhva-Tiryagbhyam (vertically and crosswise) method to multiply: 67 × 89 = ?",
+   "hi": "गुणा करने के लिए ऊर्ध्व-तिर्यग्भ्याम् (ऊर्ध्वाधर एवं तिरछा) विधि का प्रयोग करें: 67 × 89 = ?",
+   "mr": "गुणाकारासाठी ऊर्ध्व-तिर्यग्भ्याम् (उभे व तिरपे) पद्धत वापरा: 67 × 89 = ?"
+  },
+  "opts": [
+   {
+    "en": "5943",
+    "hi": "5943",
+    "mr": "5943"
+   },
+   {
+    "en": "5953",
+    "hi": "5953",
+    "mr": "5953"
+   },
+   {
+    "en": "5963",
+    "hi": "5963",
+    "mr": "5963"
+   },
+   {
+    "en": "5973",
+    "hi": "5973",
+    "mr": "5973"
+   }
+  ],
+  "exp": {
+   "en": "For ab × cd (67 × 89, so a=6,b=7,c=8,d=9), work in three cross-multiplication steps, carrying between steps. Vertical (units): b×d=7×9=63 → write 3, carry 6. Crosswise: a×d+b×c=6×9+7×8=54+56=110, plus the carried 6 = 116 → write 6, carry 11. Vertical (tens): a×c=6×8=48, plus the carried 11 = 59 (written in full since there is no further step to carry into). Reading the digits gives 59, 6, 3 → 5963.",
+   "hi": "ab × cd (67 × 89, तो a=6,b=7,c=8,d=9) के लिए, तीन क्रॉस-गुणा चरणों में काम करें, चरणों के बीच कैरी करते हुए। ऊर्ध्वाधर (इकाई): b×d=7×9=63 → 3 लिखें, कैरी 6। तिरछा: a×d+b×c=6×9+7×8=54+56=110, साथ में कैरी किया गया 6 = 116 → 6 लिखें, कैरी 11। ऊर्ध्वाधर (दहाई): a×c=6×8=48, साथ में कैरी किया गया 11 = 59 (पूरा लिखें क्योंकि इसके आगे कैरी करने के लिए कोई चरण नहीं है)। अंकों को पढ़ने पर 59, 6, 3 → 5963 मिलता है।",
+   "mr": "ab × cd (67 × 89, म्हणजे a=6,b=7,c=8,d=9) साठी, तीन क्रॉस-गुणाकार टप्प्यांत काम करा, टप्प्यांदरम्यान कॅरी करत. उभे (एकक): b×d=7×9=63 → 3 लिहा, कॅरी 6. तिरपे: a×d+b×c=6×9+7×8=54+56=110, अधिक कॅरी केलेला 6 = 116 → 6 लिहा, कॅरी 11. उभे (दशक): a×c=6×8=48, अधिक कॅरी केलेला 11 = 59 (पूर्ण लिहा कारण पुढे कॅरी करण्यासाठी टप्पा नाही). अंक वाचल्यास 59, 6, 3 → 5963 मिळते."
+  }
+ },
+ {
+  "key": "jnvst-2024-ar-01",
+  "section": "arithmetic",
+  "q": {
+   "en": "Calculate quickly using the ×11 sandwich rule: 63 × 11 = ?",
+   "hi": "×11 सैंडविच नियम का उपयोग करके शीघ्र गणना करें: 63 × 11 = ?",
+   "mr": "×11 सँडविच नियम वापरून शीघ्र गणना करा: 63 × 11 = ?"
+  },
+  "opts": [
+   {
+    "en": "683",
+    "hi": "683",
+    "mr": "683"
+   },
+   {
+    "en": "693",
+    "hi": "693",
+    "mr": "693"
+   },
+   {
+    "en": "663",
+    "hi": "663",
+    "mr": "663"
+   },
+   {
+    "en": "723",
+    "hi": "723",
+    "mr": "723"
+   }
+  ],
+  "exp": {
+   "en": "Sandwich rule for ×11: place the sum of the digits between them. For 63: outer digits are 6 and 3, and the middle digit is their sum, 6+3=9, giving 693. Options (a) and (c) use the wrong middle digit, and (d) is not close to the pattern at all.",
+   "hi": "×11 के लिए सैंडविच नियम: अंकों के योग को उनके बीच रखें। 63 के लिए: बाहरी अंक 6 और 3 हैं, और मध्य अंक उनका योग है, 6+3=9, जिससे 693 प्राप्त होता है। विकल्प (a) और (c) गलत मध्य अंक का उपयोग करते हैं, और (d) पैटर्न के करीब भी नहीं है।",
+   "mr": "×11 साठी सँडविच नियम: अंकांची बेरीज त्यांच्यामध्ये ठेवा. 63 साठी: बाहेरील अंक 6 आणि 3 आहेत, आणि मधला अंक त्यांची बेरीज आहे, 6+3=9, ज्यामुळे 693 मिळते. पर्याय (a) आणि (c) चुकीचा मधला अंक वापरतात, आणि (d) पॅटर्नच्या जवळपासही नाही."
+  }
+ },
+ {
+  "key": "jnvst-2024-ar-02",
+  "section": "arithmetic",
+  "q": {
+   "en": "Use the Nikhilam (base) method to calculate quickly: 102 × 104 = ?",
+   "hi": "निखिलम् (आधार) विधि का उपयोग करके शीघ्र गणना करें: 102 × 104 = ?",
+   "mr": "निखिलम् (आधार) पद्धत वापरून शीघ्र गणना करा: 102 × 104 = ?"
+  },
+  "opts": [
+   {
+    "en": "10408",
+    "hi": "10408",
+    "mr": "10408"
+   },
+   {
+    "en": "10508",
+    "hi": "10508",
+    "mr": "10508"
+   },
+   {
+    "en": "10608",
+    "hi": "10608",
+    "mr": "10608"
+   },
+   {
+    "en": "10708",
+    "hi": "10708",
+    "mr": "10708"
+   }
+  ],
+  "exp": {
+   "en": "Base 100, deviations +2 and +4: cross-add one number and the other's deviation, (102+4)=106, multiply by the base 100 → 10600, then add the product of the deviations, 2×4=8, giving 10600+8=10608. Options (a), (b), and (d) come from adding the wrong deviation product.",
+   "hi": "आधार 100, विचलन +2 और +4: एक संख्या में दूसरी के विचलन को जोड़ें, (102+4)=106, आधार 100 से गुणा करें → 10600, फिर विचलनों का गुणनफल जोड़ें, 2×4=8, जिससे 10600+8=10608 प्राप्त होता है। विकल्प (a), (b) और (d) गलत विचलन गुणनफल जोड़ने से बनते हैं।",
+   "mr": "आधार 100, विचलन +2 आणि +4: एका संख्येत दुसऱ्याचे विचलन मिळवा, (102+4)=106, आधार 100 ने गुणा करा → 10600, नंतर विचलनांचा गुणाकार मिळवा, 2×4=8, ज्यामुळे 10600+8=10608 मिळते. पर्याय (a), (b) आणि (d) चुकीचा विचलन गुणाकार मिळवल्याने तयार होतात."
+  }
+ },
+ {
+  "key": "jnvst-2024-ar-03",
+  "section": "arithmetic",
+  "q": {
+   "en": "Use the Nikhilam (base) method to calculate quickly: 94 × 98 = ?",
+   "hi": "निखिलम् (आधार) विधि का उपयोग करके शीघ्र गणना करें: 94 × 98 = ?",
+   "mr": "निखिलम् (आधार) पद्धत वापरून शीघ्र गणना करा: 94 × 98 = ?"
+  },
+  "opts": [
+   {
+    "en": "9112",
+    "hi": "9112",
+    "mr": "9112"
+   },
+   {
+    "en": "9212",
+    "hi": "9212",
+    "mr": "9212"
+   },
+   {
+    "en": "9312",
+    "hi": "9312",
+    "mr": "9312"
+   },
+   {
+    "en": "9202",
+    "hi": "9202",
+    "mr": "9202"
+   }
+  ],
+  "exp": {
+   "en": "Base 100, deviations -6 and -2: cross-subtract, (94-2)=92, multiply by the base 100 → 9200, then add the product of the deviations (both negative, so their product is positive), (-6)×(-2)=12, giving 9200+12=9212. Options (a) and (c) use a slightly wrong cross-difference, and (d) adds only 2 instead of 12.",
+   "hi": "आधार 100, विचलन -6 और -2: तिरछा घटाव करें, (94-2)=92, आधार 100 से गुणा करें → 9200, फिर विचलनों का गुणनफल जोड़ें (दोनों ऋणात्मक हैं, इसलिए गुणनफल धनात्मक है), (-6)×(-2)=12, जिससे 9200+12=9212 प्राप्त होता है। विकल्प (a) और (c) थोड़े गलत तिरछे अंतर का उपयोग करते हैं, और (d) में केवल 2 जोड़ा गया है, 12 नहीं।",
+   "mr": "आधार 100, विचलन -6 आणि -2: तिरकस वजाबाकी करा, (94-2)=92, आधार 100 ने गुणा करा → 9200, नंतर विचलनांचा गुणाकार मिळवा (दोन्ही ऋण असल्याने गुणाकार धन आहे), (-6)×(-2)=12, ज्यामुळे 9200+12=9212 मिळते. पर्याय (a) आणि (c) थोडा चुकीचा तिरकस फरक वापरतात, आणि (d) मध्ये फक्त 2 मिळवले आहे, 12 नाही."
+  }
+ },
+ {
+  "key": "jnvst-2024-ar-04",
+  "section": "arithmetic",
+  "q": {
+   "en": "Calculate quickly using the ×11 sandwich rule: 158 × 11 = ?",
+   "hi": "×11 सैंडविच नियम का उपयोग करके शीघ्र गणना करें: 158 × 11 = ?",
+   "mr": "×11 सँडविच नियम वापरून शीघ्र गणना करा: 158 × 11 = ?"
+  },
+  "opts": [
+   {
+    "en": "1638",
+    "hi": "1638",
+    "mr": "1638"
+   },
+   {
+    "en": "1728",
+    "hi": "1728",
+    "mr": "1728"
+   },
+   {
+    "en": "1738",
+    "hi": "1738",
+    "mr": "1738"
+   },
+   {
+    "en": "1748",
+    "hi": "1748",
+    "mr": "1748"
+   }
+  ],
+  "exp": {
+   "en": "For a 3-digit number, sandwich rule: write the first digit, then the sum of each adjacent pair, then the last digit, carrying over when a sum exceeds 9. For 158: first digit 1; 1+5=6; 5+8=13 (write 3, carry 1); last digit 8. Adding the carry to the previous digit: 6+1=7. Reading left to right: 1, 7, 3, 8 → 1738. Options (a), (b), and (d) forget to carry the 1 from 5+8=13 into the next digit.",
+   "hi": "तीन अंकों की संख्या के लिए, सैंडविच नियम: पहला अंक लिखें, फिर प्रत्येक आसन्न जोड़े का योग, फिर अंतिम अंक, और जब योग 9 से अधिक हो तो कैरी करें। 158 के लिए: पहला अंक 1; 1+5=6; 5+8=13 (3 लिखें, 1 कैरी करें); अंतिम अंक 8। कैरी को पिछले अंक में जोड़ें: 6+1=7। बाएं से दाएं पढ़ने पर: 1, 7, 3, 8 → 1738। विकल्प (a), (b) और (d) में 5+8=13 से आने वाले 1 के कैरी को अगले अंक में जोड़ना भूल गए हैं।",
+   "mr": "तीन अंकी संख्येसाठी, सँडविच नियम: पहिला अंक लिहा, नंतर प्रत्येक लगतच्या जोडीची बेरीज, नंतर शेवटचा अंक, आणि बेरीज 9 पेक्षा जास्त झाल्यास कॅरी करा. 158 साठी: पहिला अंक 1; 1+5=6; 5+8=13 (3 लिहा, 1 कॅरी करा); शेवटचा अंक 8. कॅरी मागील अंकात मिळवा: 6+1=7. डावीकडून उजवीकडे वाचल्यास: 1, 7, 3, 8 → 1738. पर्याय (a), (b) आणि (d) मध्ये 5+8=13 मधून येणारा 1 चा कॅरी पुढील अंकात मिळवायला विसरले आहेत."
+  }
+ },
+ {
+  "key": "jnvst-2025-ar-01",
+  "section": "arithmetic",
+  "q": {
+   "en": "Use the all-from-9-last-from-10 method to calculate: 1000 − 643 = ?",
+   "hi": "सभी-9-से-अंतिम-10-से विधि का उपयोग करके गणना करें: 1000 − 643 = ?",
+   "mr": "सर्व-9-मधून-शेवटचे-10-मधून या पद्धतीचा वापर करून गणना करा: 1000 − 643 = ?"
+  },
+  "opts": [
+   {
+    "en": "357",
+    "hi": "357",
+    "mr": "357"
+   },
+   {
+    "en": "347",
+    "hi": "347",
+    "mr": "347"
+   },
+   {
+    "en": "367",
+    "hi": "367",
+    "mr": "367"
+   },
+   {
+    "en": "457",
+    "hi": "457",
+    "mr": "457"
+   }
+  ],
+  "exp": {
+   "en": "This Nikhilam complement shortcut subtracts each digit of 643 from 9, except the last digit, which is subtracted from 10: 9−6=3, 9−4=5, 10−3=7, giving 357.",
+   "hi": "यह निखिलम् पूरक शॉर्टकट 643 के प्रत्येक अंक को 9 से घटाता है, अंतिम अंक को छोड़कर, जिसे 10 से घटाया जाता है: 9−6=3, 9−4=5, 10−3=7, जिससे 357 प्राप्त होता है।",
+   "mr": "हा निखिलम् पूरक शॉर्टकट 643 च्या प्रत्येक अंकाला 9 मधून वजा करतो, शेवटचा अंक वगळता, जो 10 मधून वजा केला जातो: 9−6=3, 9−4=5, 10−3=7, यामुळे 357 मिळते."
+  }
+ },
+ {
+  "key": "jnvst-2025-ar-02",
+  "section": "arithmetic",
+  "q": {
+   "en": "Use the Urdhva-Tiryagbhyam (vertically and crosswise) sutra to calculate: 23 × 42 = ?",
+   "hi": "ऊर्ध्व-तिर्यग्भ्याम् (ऊर्ध्वाधर एवं तिरछा) सूत्र का उपयोग करके गणना करें: 23 × 42 = ?",
+   "mr": "ऊर्ध्व-तिर्यग्भ्याम् (उभ्या व तिरप्या) सूत्राचा वापर करून गणना करा: 23 × 42 = ?"
+  },
+  "opts": [
+   {
+    "en": "966",
+    "hi": "966",
+    "mr": "966"
+   },
+   {
+    "en": "946",
+    "hi": "946",
+    "mr": "946"
+   },
+   {
+    "en": "986",
+    "hi": "986",
+    "mr": "986"
+   },
+   {
+    "en": "906",
+    "hi": "906",
+    "mr": "906"
+   }
+  ],
+  "exp": {
+   "en": "Vertically-and-crosswise for 23×42: units×units = 3×2=6 (write 6); cross-multiply and add = (2×2)+(3×4)=4+12=16 (write 6, carry 1); tens×tens plus carry = (2×4)+1=9. Reading the results together gives 966.",
+   "hi": "23×42 के लिए ऊर्ध्वाधर-तिरछा विधि: इकाई×इकाई = 3×2=6 (6 लिखें); तिरछा गुणा और जोड़ = (2×2)+(3×4)=4+12=16 (6 लिखें, 1 कैरी करें); दहाई×दहाई प्लस कैरी = (2×4)+1=9। परिणामों को साथ पढ़ने पर 966 प्राप्त होता है।",
+   "mr": "23×42 साठी उभी-तिरपी पद्धत: एकक×एकक = 3×2=6 (6 लिहा); तिरपा गुणाकार व बेरीज = (2×2)+(3×4)=4+12=16 (6 लिहा, 1 कॅरी करा); दशक×दशक अधिक कॅरी = (2×4)+1=9. निकाल एकत्र वाचल्यास 966 मिळते."
+  }
+ },
+ {
+  "key": "jnvst-2025-ar-03",
+  "section": "arithmetic",
+  "q": {
+   "en": "Use the all-from-9-last-from-10 method to calculate: 10000 − 3286 = ?",
+   "hi": "सभी-9-से-अंतिम-10-से विधि का उपयोग करके गणना करें: 10000 − 3286 = ?",
+   "mr": "सर्व-9-मधून-शेवटचे-10-मधून या पद्धतीचा वापर करून गणना करा: 10000 − 3286 = ?"
+  },
+  "opts": [
+   {
+    "en": "6714",
+    "hi": "6714",
+    "mr": "6714"
+   },
+   {
+    "en": "6724",
+    "hi": "6724",
+    "mr": "6724"
+   },
+   {
+    "en": "6614",
+    "hi": "6614",
+    "mr": "6614"
+   },
+   {
+    "en": "6704",
+    "hi": "6704",
+    "mr": "6704"
+   }
+  ],
+  "exp": {
+   "en": "Subtract each digit of 3286 from 9, except the last digit, which is subtracted from 10: 9−3=6, 9−2=7, 9−8=1, 10−6=4, giving 6714.",
+   "hi": "3286 के प्रत्येक अंक को 9 से घटाएं, अंतिम अंक को छोड़कर, जिसे 10 से घटाया जाता है: 9−3=6, 9−2=7, 9−8=1, 10−6=4, जिससे 6714 प्राप्त होता है।",
+   "mr": "3286 च्या प्रत्येक अंकाला 9 मधून वजा करा, शेवटचा अंक वगळता, जो 10 मधून वजा केला जातो: 9−3=6, 9−2=7, 9−8=1, 10−6=4, यामुळे 6714 मिळते."
+  }
+ },
+ {
+  "key": "jnvst-2025-ar-04",
+  "section": "arithmetic",
+  "q": {
+   "en": "Use the Urdhva-Tiryagbhyam (vertically and crosswise) sutra to calculate: 67 × 58 = ?",
+   "hi": "ऊर्ध्व-तिर्यग्भ्याम् (ऊर्ध्वाधर एवं तिरछा) सूत्र का उपयोग करके गणना करें: 67 × 58 = ?",
+   "mr": "ऊर्ध्व-तिर्यग्भ्याम् (उभ्या व तिरप्या) सूत्राचा वापर करून गणना करा: 67 × 58 = ?"
+  },
+  "opts": [
+   {
+    "en": "3886",
+    "hi": "3886",
+    "mr": "3886"
+   },
+   {
+    "en": "3876",
+    "hi": "3876",
+    "mr": "3876"
+   },
+   {
+    "en": "3986",
+    "hi": "3986",
+    "mr": "3986"
+   },
+   {
+    "en": "3816",
+    "hi": "3816",
+    "mr": "3816"
+   }
+  ],
+  "exp": {
+   "en": "Vertically-and-crosswise for 67×58: units×units = 7×8=56 (write 6, carry 5); cross-multiply and add = (6×8)+(7×5)=48+35=83, plus carry 5 = 88 (write 8, carry 8); tens×tens plus carry = (6×5)+8=38. Reading the results together gives 3886.",
+   "hi": "67×58 के लिए ऊर्ध्वाधर-तिरछा विधि: इकाई×इकाई = 7×8=56 (6 लिखें, 5 कैरी करें); तिरछा गुणा और जोड़ = (6×8)+(7×5)=48+35=83, प्लस कैरी 5 = 88 (8 लिखें, 8 कैरी करें); दहाई×दहाई प्लस कैरी = (6×5)+8=38। परिणामों को साथ पढ़ने पर 3886 प्राप्त होता है।",
+   "mr": "67×58 साठी उभी-तिरपी पद्धत: एकक×एकक = 7×8=56 (6 लिहा, 5 कॅरी करा); तिरपा गुणाकार व बेरीज = (6×8)+(7×5)=48+35=83, अधिक कॅरी 5 = 88 (8 लिहा, 8 कॅरी करा); दशक×दशक अधिक कॅरी = (6×5)+8=38. निकाल एकत्र वाचल्यास 3886 मिळते."
+  }
+ },
+ {
+  "key": "jnvst-2021-lang-01",
+  "section": "language",
+  "q": {
+   "en": "Fill in the blank: \"She ___ to school every day.\"",
+   "hi": "रिक्त स्थान भरें: \"She ___ to school every day.\"",
+   "mr": "रिकामी जागा भरा: \"She ___ to school every day.\""
+  },
+  "opts": [
+   {
+    "en": "go",
+    "hi": "go",
+    "mr": "go"
+   },
+   {
+    "en": "goes",
+    "hi": "goes",
+    "mr": "goes"
+   },
+   {
+    "en": "going",
+    "hi": "going",
+    "mr": "going"
+   },
+   {
+    "en": "gone",
+    "hi": "gone",
+    "mr": "gone"
+   }
+  ],
+  "exp": {
+   "en": "The subject 'She' is third person singular, so the simple present tense verb takes an '-s': 'goes'.",
+   "hi": "विषय 'She' तृतीय पुरुष एकवचन है, इसलिए सामान्य वर्तमान काल की क्रिया में '-s' जुड़ता है: 'goes'।",
+   "mr": "'She' हा कर्ता तृतीय पुरुष एकवचनी आहे, म्हणून साध्या वर्तमानकाळाच्या क्रियापदाला '-s' जोडले जाते: 'goes'."
+  }
+ },
+ {
+  "key": "jnvst-2021-lang-02",
+  "section": "language",
+  "q": {
+   "en": "Choose the correct plural form of 'Mouse':",
+   "hi": "'Mouse' का सही बहुवचन रूप चुनें:",
+   "mr": "'Mouse' चे योग्य अनेकवचन रूप निवडा:"
+  },
+  "opts": [
+   {
+    "en": "Mouses",
+    "hi": "Mouses",
+    "mr": "Mouses"
+   },
+   {
+    "en": "Mice",
+    "hi": "Mice",
+    "mr": "Mice"
+   },
+   {
+    "en": "Mices",
+    "hi": "Mices",
+    "mr": "Mices"
+   },
+   {
+    "en": "Mouse",
+    "hi": "Mouse",
+    "mr": "Mouse"
+   }
+  ],
+  "exp": {
+   "en": "'Mouse' has an irregular plural: 'Mice', formed by changing the vowel sound, not by adding '-s'.",
+   "hi": "'Mouse' का अनियमित बहुवचन 'Mice' होता है, जो स्वर ध्वनि बदलकर बनता है, न कि '-s' जोड़कर।",
+   "mr": "'Mouse' चे अनियमित अनेकवचन 'Mice' आहे, जे स्वरध्वनी बदलून तयार होते, '-s' जोडून नाही."
+  }
+ },
+ {
+  "key": "jnvst-2021-lang-03",
+  "section": "language",
+  "q": {
+   "en": "Choose the word that is closest in meaning to 'Happy':",
+   "hi": "'Happy' के सबसे निकट अर्थ वाला शब्द चुनें:",
+   "mr": "'Happy' च्या सर्वात जवळचा अर्थ असलेला शब्द निवडा:"
+  },
+  "opts": [
+   {
+    "en": "Sad",
+    "hi": "Sad",
+    "mr": "Sad"
+   },
+   {
+    "en": "Joyful",
+    "hi": "Joyful",
+    "mr": "Joyful"
+   },
+   {
+    "en": "Angry",
+    "hi": "Angry",
+    "mr": "Angry"
+   },
+   {
+    "en": "Tired",
+    "hi": "Tired",
+    "mr": "Tired"
+   }
+  ],
+  "exp": {
+   "en": "'Joyful' means feeling great pleasure, the same as 'Happy'. 'Sad', 'Angry', and 'Tired' are unrelated or opposite feelings.",
+   "hi": "'Joyful' का अर्थ है बहुत अधिक प्रसन्नता महसूस करना, जो 'Happy' के समान है। 'Sad', 'Angry' और 'Tired' असंबंधित या विपरीत भाव हैं।",
+   "mr": "'Joyful' म्हणजे खूप आनंद वाटणे, जे 'Happy' सारखेच आहे. 'Sad', 'Angry' आणि 'Tired' हे असंबंधित किंवा विरुद्ध भाव आहेत."
+  }
+ },
+ {
+  "key": "jnvst-2021-lang-04",
+  "section": "language",
+  "q": {
+   "en": "Choose the correctly spelled word:",
+   "hi": "सही वर्तनी वाला शब्द चुनें:",
+   "mr": "योग्य शब्दलेखन असलेला शब्द निवडा:"
+  },
+  "opts": [
+   {
+    "en": "Recieve",
+    "hi": "Recieve",
+    "mr": "Recieve"
+   },
+   {
+    "en": "Receive",
+    "hi": "Receive",
+    "mr": "Receive"
+   },
+   {
+    "en": "Receeve",
+    "hi": "Receeve",
+    "mr": "Receeve"
+   },
+   {
+    "en": "Receve",
+    "hi": "Receve",
+    "mr": "Receve"
+   }
+  ],
+  "exp": {
+   "en": "The correct spelling follows the rule 'i before e except after c': R-E-C-E-I-V-E. The other options misplace or omit letters.",
+   "hi": "सही वर्तनी नियम 'c के बाद को छोड़कर i, e से पहले आता है' का पालन करती है: R-E-C-E-I-V-E। अन्य विकल्पों में अक्षर गलत स्थान पर हैं या छूट गए हैं।",
+   "mr": "योग्य शब्दलेखन 'c नंतर वगळता i हे e च्या आधी येते' या नियमाचे पालन करते: R-E-C-E-I-V-E. इतर पर्यायांमध्ये अक्षरे चुकीच्या ठिकाणी आहेत किंवा गाळली आहेत."
+  }
+ },
+ {
+  "key": "jnvst-2022-lang-01",
+  "section": "language",
+  "q": {
+   "en": "Choose the correct plural form of 'Mouse':",
+   "hi": "'Mouse' का सही बहुवचन रूप चुनें:",
+   "mr": "'Mouse' चे योग्य अनेकवचन रूप निवडा:"
+  },
+  "opts": [
+   {
+    "en": "Mouses",
+    "hi": "Mouses",
+    "mr": "Mouses"
+   },
+   {
+    "en": "Mice",
+    "hi": "Mice",
+    "mr": "Mice"
+   },
+   {
+    "en": "Mouse's",
+    "hi": "Mouse's",
+    "mr": "Mouse's"
+   },
+   {
+    "en": "Mices",
+    "hi": "Mices",
+    "mr": "Mices"
+   }
+  ],
+  "exp": {
+   "en": "'Mouse' has an irregular plural: 'Mice', not formed by adding '-s'. Option (a) Mouses and (d) Mices wrongly add a regular plural ending, and (c) Mouse's is a possessive form, not a plural.",
+   "hi": "'Mouse' का अनियमित बहुवचन 'Mice' होता है, न कि '-s' जोड़कर। विकल्प (a) Mouses और (d) Mices गलत तरीके से एक नियमित बहुवचन अंत जोड़ते हैं, और (c) Mouse's एक स्वामित्वसूचक रूप है, बहुवचन नहीं।",
+   "mr": "'Mouse' चे अनियमित अनेकवचन 'Mice' आहे, '-s' जोडून नाही. पर्याय (a) Mouses आणि (d) Mices चुकीच्या पद्धतीने नियमित अनेकवचन शेवट जोडतात, आणि (c) Mouse's हे षष्ठी (मालकी दर्शवणारे) रूप आहे, अनेकवचन नाही."
+  }
+ },
+ {
+  "key": "jnvst-2022-lang-02",
+  "section": "language",
+  "q": {
+   "en": "Choose the synonym of 'Happy':",
+   "hi": "'Happy' का समानार्थी शब्द चुनें:",
+   "mr": "'Happy' चा समानार्थी शब्द निवडा:"
+  },
+  "opts": [
+   {
+    "en": "Sad",
+    "hi": "Sad",
+    "mr": "Sad"
+   },
+   {
+    "en": "Joyful",
+    "hi": "Joyful",
+    "mr": "Joyful"
+   },
+   {
+    "en": "Angry",
+    "hi": "Angry",
+    "mr": "Angry"
+   },
+   {
+    "en": "Tired",
+    "hi": "Tired",
+    "mr": "Tired"
+   }
+  ],
+  "exp": {
+   "en": "'Joyful' means feeling great pleasure, the same as 'Happy'. 'Sad' and 'Angry' are opposite or unrelated feelings, and 'Tired' describes low energy, not happiness.",
+   "hi": "'Joyful' का अर्थ है बहुत खुशी महसूस करना, ठीक 'Happy' की तरह। 'Sad' और 'Angry' विपरीत या असंबंधित भावनाएँ हैं, और 'Tired' कम ऊर्जा को दर्शाता है, खुशी को नहीं।",
+   "mr": "'Joyful' म्हणजे खूप आनंद वाटणे, अगदी 'Happy' प्रमाणे. 'Sad' आणि 'Angry' या विरुद्ध किंवा असंबंधित भावना आहेत, आणि 'Tired' कमी ऊर्जा दर्शवते, आनंद नाही."
+  }
+ },
+ {
+  "key": "jnvst-2022-lang-03",
+  "section": "language",
+  "q": {
+   "en": "Fill in the blank: \"She ___ to school every day.\"",
+   "hi": "रिक्त स्थान भरें: \"She ___ to school every day.\"",
+   "mr": "रिकामी जागा भरा: \"She ___ to school every day.\""
+  },
+  "opts": [
+   {
+    "en": "go",
+    "hi": "go",
+    "mr": "go"
+   },
+   {
+    "en": "goes",
+    "hi": "goes",
+    "mr": "goes"
+   },
+   {
+    "en": "going",
+    "hi": "going",
+    "mr": "going"
+   },
+   {
+    "en": "gone",
+    "hi": "gone",
+    "mr": "gone"
+   }
+  ],
+  "exp": {
+   "en": "The subject 'She' is third-person singular, and the sentence describes a habitual action in the simple present tense, which needs the '-s/-es' verb form: 'goes'. 'go' is used with I/you/we/they, 'going' needs a helping verb (is going), and 'gone' is a past participle, not a simple present form.",
+   "hi": "विषय 'She' तृतीय पुरुष एकवचन है, और वाक्य सामान्य वर्तमान काल में एक आदतन क्रिया का वर्णन करता है, जिसके लिए '-s/-es' क्रिया रूप 'goes' आवश्यक है। 'go' का प्रयोग I/you/we/they के साथ होता है, 'going' को एक सहायक क्रिया (is going) की आवश्यकता होती है, और 'gone' भूतकालिक कृदंत है, सामान्य वर्तमान रूप नहीं।",
+   "mr": "विषय 'She' हा तृतीय पुरुष एकवचनी आहे, आणि वाक्य साध्या वर्तमान काळात एक सवयीची क्रिया वर्णन करते, ज्यासाठी '-s/-es' क्रियापद रूप 'goes' आवश्यक आहे. 'go' हे I/you/we/they सोबत वापरले जाते, 'going' ला साहाय्यक क्रियापद (is going) आवश्यक असते, आणि 'gone' हे भूतकालवाचक धातुसाधित विशेषण आहे, साधे वर्तमान रूप नाही."
+  }
+ },
+ {
+  "key": "jnvst-2022-lang-04",
+  "section": "language",
+  "q": {
+   "en": "Choose the correctly spelled word:",
+   "hi": "सही वर्तनी वाला शब्द चुनें:",
+   "mr": "योग्य शब्दलेखन असलेला शब्द निवडा:"
+  },
+  "opts": [
+   {
+    "en": "Recieve",
+    "hi": "Recieve",
+    "mr": "Recieve"
+   },
+   {
+    "en": "Receive",
+    "hi": "Receive",
+    "mr": "Receive"
+   },
+   {
+    "en": "Receeve",
+    "hi": "Receeve",
+    "mr": "Receeve"
+   },
+   {
+    "en": "Receve",
+    "hi": "Receve",
+    "mr": "Receve"
+   }
+  ],
+  "exp": {
+   "en": "The correct spelling is 'Receive', following the rule 'i before e except after c' — since the word has a 'c', the 'e' comes before the 'i'. Option (a) Recieve reverses the ei/ie order, and (c) Receeve and (d) Receve have incorrect vowel patterns.",
+   "hi": "सही वर्तनी 'Receive' है, जो नियम 'c के बाद को छोड़कर i, e से पहले' का पालन करती है — चूंकि शब्द में 'c' है, इसलिए 'e', 'i' से पहले आता है। विकल्प (a) Recieve, ei/ie के क्रम को उलट देता है, और (c) Receeve और (d) Receve में गलत स्वर पैटर्न हैं।",
+   "mr": "योग्य शब्दलेखन 'Receive' आहे, जे 'c नंतर वगळता i, e च्या आधी' या नियमाचे पालन करते — कारण शब्दात 'c' आहे, त्यामुळे 'e' हे 'i' च्या आधी येते. पर्याय (a) Recieve, ei/ie चा क्रम उलटा करतो, आणि (c) Receeve आणि (d) Receve मध्ये चुकीचे स्वर पॅटर्न आहेत."
+  }
+ },
+ {
+  "key": "jnvst-2023-lang-01",
+  "section": "language",
+  "q": {
+   "en": "Fill in the blank: \"She ___ to school every day.\"",
+   "hi": "रिक्त स्थान भरें: \"She ___ to school every day.\"",
+   "mr": "रिकामी जागा भरा: \"She ___ to school every day.\""
+  },
+  "opts": [
+   {
+    "en": "go",
+    "hi": "go",
+    "mr": "go"
+   },
+   {
+    "en": "goes",
+    "hi": "goes",
+    "mr": "goes"
+   },
+   {
+    "en": "going",
+    "hi": "going",
+    "mr": "going"
+   },
+   {
+    "en": "gone",
+    "hi": "gone",
+    "mr": "gone"
+   }
+  ],
+  "exp": {
+   "en": "The subject 'She' is third-person singular, and the sentence describes a habitual action ('every day'), so the simple present tense verb must take an -s/-es ending: 'goes'. 'Go' is used with I/you/we/they, not she; 'going' and 'gone' need a helping verb (is going / has gone) and cannot stand alone here.",
+   "hi": "विषय 'She' तृतीय पुरुष एकवचन है, और वाक्य एक अभ्यस्त क्रिया का वर्णन करता है ('every day'), इसलिए साधारण वर्तमान काल की क्रिया में -s/-es अंत होना चाहिए: 'goes'। 'Go' का प्रयोग I/you/we/they के साथ होता है, she के साथ नहीं; 'going' और 'gone' को एक सहायक क्रिया (is going / has gone) चाहिए और यहाँ अकेले खड़े नहीं हो सकते।",
+   "mr": "विषय 'She' तृतीय पुरुष एकवचनी आहे, आणि वाक्य एक सवयीची क्रिया दर्शवते ('every day'), त्यामुळे साध्या वर्तमानकाळाच्या क्रियापदाला -s/-es शेवट हवा: 'goes'. 'Go' चा वापर I/you/we/they सोबत होतो, she सोबत नाही; 'going' आणि 'gone' ला साहाय्यक क्रियापद (is going / has gone) लागते आणि येथे एकटे उभे राहू शकत नाहीत."
+  }
+ },
+ {
+  "key": "jnvst-2023-lang-02",
+  "section": "language",
+  "q": {
+   "en": "Choose the correct plural form of \"Mouse\":",
+   "hi": "\"Mouse\" का सही बहुवचन रूप चुनें:",
+   "mr": "\"Mouse\" चे योग्य अनेकवचन रूप निवडा:"
+  },
+  "opts": [
+   {
+    "en": "Mouses",
+    "hi": "Mouses",
+    "mr": "Mouses"
+   },
+   {
+    "en": "Mice",
+    "hi": "Mice",
+    "mr": "Mice"
+   },
+   {
+    "en": "Mouse",
+    "hi": "Mouse",
+    "mr": "Mouse"
+   },
+   {
+    "en": "Miced",
+    "hi": "Miced",
+    "mr": "Miced"
+   }
+  ],
+  "exp": {
+   "en": "'Mouse' has an irregular plural formed by changing the vowel sound: 'Mice', not by adding '-s' or '-es'. 'Mouses' and 'Miced' apply the regular rule incorrectly, and 'Mouse' is simply the unchanged singular form.",
+   "hi": "'Mouse' का अनियमित बहुवचन स्वर ध्वनि बदलकर बनता है: 'Mice', न कि '-s' या '-es' जोड़कर। 'Mouses' और 'Miced' नियमित नियम को गलत तरीके से लागू करते हैं, और 'Mouse' केवल अपरिवर्तित एकवचन रूप है।",
+   "mr": "'Mouse' चे अनियमित अनेकवचन स्वर ध्वनी बदलून तयार होते: 'Mice', '-s' किंवा '-es' जोडून नाही. 'Mouses' आणि 'Miced' नियमित नियम चुकीच्या पद्धतीने लागू करतात, आणि 'Mouse' हे फक्त न बदललेले एकवचन रूप आहे."
+  }
+ },
+ {
+  "key": "jnvst-2023-lang-03",
+  "section": "language",
+  "q": {
+   "en": "Choose the antonym (opposite) of \"Brave\":",
+   "hi": "\"Brave\" का विलोम (विपरीतार्थक) शब्द चुनें:",
+   "mr": "\"Brave\" चा विरुद्धार्थी शब्द निवडा:"
+  },
+  "opts": [
+   {
+    "en": "Courageous",
+    "hi": "Courageous",
+    "mr": "Courageous"
+   },
+   {
+    "en": "Cowardly",
+    "hi": "Cowardly",
+    "mr": "Cowardly"
+   },
+   {
+    "en": "Bold",
+    "hi": "Bold",
+    "mr": "Bold"
+   },
+   {
+    "en": "Fearless",
+    "hi": "Fearless",
+    "mr": "Fearless"
+   }
+  ],
+  "exp": {
+   "en": "'Brave' means having courage. Its opposite is 'Cowardly' (lacking courage, afraid to face danger). 'Courageous', 'Bold', and 'Fearless' are all synonyms of 'Brave', not opposites — this is a common trap where students pick a related word instead of a true opposite.",
+   "hi": "'Brave' का अर्थ है साहसी होना। इसका विपरीत 'Cowardly' (साहस की कमी, खतरे का सामना करने से डरना) है। 'Courageous', 'Bold' और 'Fearless' सभी 'Brave' के पर्यायवाची हैं, विपरीतार्थक नहीं — यह एक सामान्य जाल है जहाँ छात्र सच्चे विपरीतार्थक की बजाय संबंधित शब्द चुन लेते हैं।",
+   "mr": "'Brave' म्हणजे धैर्यवान असणे. त्याचा विरुद्धार्थी शब्द 'Cowardly' (धैर्याचा अभाव, धोक्याला सामोरे जाण्यास घाबरणे) आहे. 'Courageous', 'Bold' आणि 'Fearless' हे सर्व 'Brave' चे समानार्थी शब्द आहेत, विरुद्धार्थी नाहीत — हा एक सामान्य सापळा आहे जिथे विद्यार्थी खऱ्या विरुद्धार्थी शब्दाऐवजी संबंधित शब्द निवडतात."
+  }
+ },
+ {
+  "key": "jnvst-2023-lang-04",
+  "section": "language",
+  "q": {
+   "en": "Choose the correctly spelled word:",
+   "hi": "सही वर्तनी वाला शब्द चुनें:",
+   "mr": "योग्य शब्दलेखन असलेला शब्द निवडा:"
+  },
+  "opts": [
+   {
+    "en": "Recieve",
+    "hi": "Recieve",
+    "mr": "Recieve"
+   },
+   {
+    "en": "Receive",
+    "hi": "Receive",
+    "mr": "Receive"
+   },
+   {
+    "en": "Receeve",
+    "hi": "Receeve",
+    "mr": "Receeve"
+   },
+   {
+    "en": "Receve",
+    "hi": "Receve",
+    "mr": "Receve"
+   }
+  ],
+  "exp": {
+   "en": "The correct spelling is 'Receive'. It follows the rule 'i before e, except after c' — since the word contains 'c', the 'e' comes before the 'i': 'ceive'. 'Recieve' breaks this rule by reversing i and e, while 'Receeve' and 'Receve' are simply misspelled forms of the same word.",
+   "hi": "सही वर्तनी 'Receive' है। यह नियम का पालन करता है 'i before e, except after c' — चूंकि शब्द में 'c' है, इसलिए 'e', 'i' से पहले आता है: 'ceive'। 'Recieve' i और e को उलट कर इस नियम को तोड़ता है, जबकि 'Receeve' और 'Receve' उसी शब्द की केवल गलत वर्तनी वाली रूप हैं।",
+   "mr": "योग्य शब्दलेखन 'Receive' आहे. हे नियमाचे पालन करते 'i before e, except after c' — कारण शब्दात 'c' आहे, त्यामुळे 'e' हे 'i' आधी येते: 'ceive'. 'Recieve' i आणि e उलटे करून हा नियम मोडते, तर 'Receeve' आणि 'Receve' हे त्याच शब्दाचे फक्त चुकीच्या शब्दलेखनाचे रूप आहेत."
+  }
+ },
+ {
+  "key": "jnvst-2024-lang-01",
+  "section": "language",
+  "q": {
+   "en": "Choose the correct plural form of 'Mouse':",
+   "hi": "'Mouse' का सही बहुवचन रूप चुनें:",
+   "mr": "'Mouse' चे योग्य अनेकवचन रूप निवडा:"
+  },
+  "opts": [
+   {
+    "en": "Mouses",
+    "hi": "Mouses",
+    "mr": "Mouses"
+   },
+   {
+    "en": "Mice",
+    "hi": "Mice",
+    "mr": "Mice"
+   },
+   {
+    "en": "Mouse",
+    "hi": "Mouse",
+    "mr": "Mouse"
+   },
+   {
+    "en": "Mices",
+    "hi": "Mices",
+    "mr": "Mices"
+   }
+  ],
+  "exp": {
+   "en": "'Mouse' has an irregular plural: 'Mice', not formed by adding '-s' or '-es'.",
+   "hi": "'Mouse' का अनियमित बहुवचन 'Mice' होता है, न कि '-s' या '-es' जोड़कर।",
+   "mr": "'Mouse' चे अनियमित अनेकवचन 'Mice' आहे, '-s' किंवा '-es' जोडून नाही."
+  }
+ },
+ {
+  "key": "jnvst-2024-lang-02",
+  "section": "language",
+  "q": {
+   "en": "Choose the correctly spelled word:",
+   "hi": "सही वर्तनी वाला शब्द चुनें:",
+   "mr": "योग्य शब्दलेखन असलेला शब्द निवडा:"
+  },
+  "opts": [
+   {
+    "en": "Recieve",
+    "hi": "Recieve",
+    "mr": "Recieve"
+   },
+   {
+    "en": "Receive",
+    "hi": "Receive",
+    "mr": "Receive"
+   },
+   {
+    "en": "Receeve",
+    "hi": "Receeve",
+    "mr": "Receeve"
+   },
+   {
+    "en": "Receve",
+    "hi": "Receve",
+    "mr": "Receve"
+   }
+  ],
+  "exp": {
+   "en": "The correct spelling is 'Receive'. English follows the rule 'i before e, except after c' — since the word has a 'c' right before this vowel pair, the order flips to 'ei', giving 'Receive', not 'Recieve'.",
+   "hi": "सही वर्तनी 'Receive' है। अंग्रेजी में नियम है 'i before e, except after c' — चूंकि इस शब्द में स्वर-युग्म से ठीक पहले 'c' आता है, इसलिए क्रम बदलकर 'ei' हो जाता है, जिससे 'Receive' बनता है, न कि 'Recieve'।",
+   "mr": "योग्य शब्दलेखन 'Receive' आहे. इंग्रजीत नियम आहे 'i before e, except after c' — कारण या शब्दात स्वर-जोडीच्या आधी 'c' येते, म्हणून क्रम बदलून 'ei' होतो, ज्यामुळे 'Receive' तयार होते, 'Recieve' नाही."
+  }
+ },
+ {
+  "key": "jnvst-2024-lang-03",
+  "section": "language",
+  "q": {
+   "en": "Fill in the blank: \"She ___ to school every day.\"",
+   "hi": "रिक्त स्थान भरें: \"She ___ to school every day.\"",
+   "mr": "रिकामी जागा भरा: \"She ___ to school every day.\""
+  },
+  "opts": [
+   {
+    "en": "go",
+    "hi": "go",
+    "mr": "go"
+   },
+   {
+    "en": "goes",
+    "hi": "goes",
+    "mr": "goes"
+   },
+   {
+    "en": "going",
+    "hi": "going",
+    "mr": "going"
+   },
+   {
+    "en": "gone",
+    "hi": "gone",
+    "mr": "gone"
+   }
+  ],
+  "exp": {
+   "en": "The subject 'She' is third-person singular, and the sentence describes a habitual action in the present tense, so the verb takes an '-s': 'goes'. 'Go' is for I/you/we/they; 'going' needs a helping verb like 'is'; 'gone' is a past participle.",
+   "hi": "कर्ता 'She' तृतीय पुरुष एकवचन है, और वाक्य वर्तमान काल में एक नियमित क्रिया का वर्णन करता है, इसलिए क्रिया में '-s' जुड़ता है: 'goes'। 'Go' का प्रयोग I/you/we/they के साथ होता है; 'going' के लिए 'is' जैसी सहायक क्रिया चाहिए; 'gone' भूतकालिक कृदंत (past participle) है।",
+   "mr": "कर्ता 'She' तृतीय पुरुष एकवचनी आहे, आणि वाक्य वर्तमानकाळात एक नियमित क्रिया दर्शवते, म्हणून क्रियापदाला '-s' जोडले जाते: 'goes'. 'Go' चा वापर I/you/we/they बरोबर होतो; 'going' साठी 'is' सारखे साहाय्यक क्रियापद लागते; 'gone' हे भूतकालवाचक कृदंत (past participle) आहे."
+  }
+ },
+ {
+  "key": "jnvst-2024-lang-04",
+  "section": "language",
+  "q": {
+   "en": "Choose the antonym of 'Brave':",
+   "hi": "'Brave' का विलोम शब्द चुनें:",
+   "mr": "'Brave' चा विरुद्धार्थी शब्द निवडा:"
+  },
+  "opts": [
+   {
+    "en": "Bold",
+    "hi": "Bold",
+    "mr": "Bold"
+   },
+   {
+    "en": "Coward",
+    "hi": "Coward",
+    "mr": "Coward"
+   },
+   {
+    "en": "Strong",
+    "hi": "Strong",
+    "mr": "Strong"
+   },
+   {
+    "en": "Fearless",
+    "hi": "Fearless",
+    "mr": "Fearless"
+   }
+  ],
+  "exp": {
+   "en": "'Coward' means lacking courage, the opposite of 'Brave'. 'Bold', 'Strong', and 'Fearless' are all synonyms or near-synonyms of 'Brave', not opposites.",
+   "hi": "'Coward' का अर्थ है साहस की कमी, जो 'Brave' के विपरीत है। 'Bold', 'Strong' और 'Fearless' सभी 'Brave' के समानार्थी या निकट-समानार्थी शब्द हैं, विलोम नहीं।",
+   "mr": "'Coward' म्हणजे धैर्याचा अभाव, जो 'Brave' च्या विरुद्ध आहे. 'Bold', 'Strong' आणि 'Fearless' हे सर्व 'Brave' चे समानार्थी किंवा जवळचे समानार्थी शब्द आहेत, विरुद्धार्थी नाहीत."
+  }
+ },
+ {
+  "key": "jnvst-2025-lang-01",
+  "section": "language",
+  "q": {
+   "en": "Choose the correct plural form of \"Mouse\" (the small animal):",
+   "hi": "\"Mouse\" (छोटा जानवर) का सही बहुवचन रूप चुनें:",
+   "mr": "\"Mouse\" (लहान प्राणी) चे योग्य अनेकवचन रूप निवडा:"
+  },
+  "opts": [
+   {
+    "en": "Mouses",
+    "hi": "Mouses",
+    "mr": "Mouses"
+   },
+   {
+    "en": "Mice",
+    "hi": "Mice",
+    "mr": "Mice"
+   },
+   {
+    "en": "Mices",
+    "hi": "Mices",
+    "mr": "Mices"
+   },
+   {
+    "en": "Mouse",
+    "hi": "Mouse",
+    "mr": "Mouse"
+   }
+  ],
+  "exp": {
+   "en": "\"Mouse\" has an irregular plural: \"Mice\", formed by changing the vowel rather than adding \"-s\" or \"-es\". \"Mouses\" and \"Mices\" wrongly apply the regular \"-s\"/\"-es\" rule, and \"Mouse\" is simply the singular form left unchanged.",
+   "hi": "\"Mouse\" का अनियमित बहुवचन \"Mice\" है, जो '-s' या '-es' जोड़ने के बजाय स्वर बदलकर बनता है। \"Mouses\" और \"Mices\" गलती से नियमित '-s'/'-es' नियम लागू करते हैं, और \"Mouse\" केवल एकवचन रूप है जिसे बदला नहीं गया।",
+   "mr": "\"Mouse\" चे अनियमित अनेकवचन \"Mice\" आहे, जे '-s' किंवा '-es' जोडण्याऐवजी स्वर बदलून तयार होते. \"Mouses\" आणि \"Mices\" चुकून नियमित '-s'/'-es' नियम लावतात, आणि \"Mouse\" फक्त एकवचन रूप आहे जे बदलले नाही."
+  }
+ },
+ {
+  "key": "jnvst-2025-lang-02",
+  "section": "language",
+  "q": {
+   "en": "Choose the word that means the same as \"Happy\":",
+   "hi": "\"Happy\" के समान अर्थ वाला शब्द चुनें:",
+   "mr": "\"Happy\" सारखा अर्थ असलेला शब्द निवडा:"
+  },
+  "opts": [
+   {
+    "en": "Sad",
+    "hi": "Sad",
+    "mr": "Sad"
+   },
+   {
+    "en": "Joyful",
+    "hi": "Joyful",
+    "mr": "Joyful"
+   },
+   {
+    "en": "Angry",
+    "hi": "Angry",
+    "mr": "Angry"
+   },
+   {
+    "en": "Tired",
+    "hi": "Tired",
+    "mr": "Tired"
+   }
+  ],
+  "exp": {
+   "en": "\"Joyful\" means feeling great happiness, the same as \"Happy\". \"Sad\" and \"Angry\" are opposite feelings, and \"Tired\" describes low energy, not emotion, so none of them are synonyms.",
+   "hi": "\"Joyful\" का अर्थ है बहुत खुशी महसूस करना, जो \"Happy\" के समान है। \"Sad\" और \"Angry\" विपरीत भावनाएँ हैं, और \"Tired\" कम ऊर्जा को दर्शाता है, भावना को नहीं, इसलिए इनमें से कोई भी पर्यायवाची नहीं है।",
+   "mr": "\"Joyful\" म्हणजे खूप आनंद वाटणे, जे \"Happy\" सारखेच आहे. \"Sad\" आणि \"Angry\" या विरुद्ध भावना आहेत, आणि \"Tired\" कमी ऊर्जा दर्शवते, भावना नाही, त्यामुळे यापैकी कोणताही समानार्थी शब्द नाही."
+  }
+ },
+ {
+  "key": "jnvst-2025-lang-03",
+  "section": "language",
+  "q": {
+   "en": "Fill in the blank: \"Yesterday, she ___ to the market.\"",
+   "hi": "रिक्त स्थान भरें: \"Yesterday, she ___ to the market.\"",
+   "mr": "रिकाम्या जागा भरा: \"Yesterday, she ___ to the market.\""
+  },
+  "opts": [
+   {
+    "en": "go",
+    "hi": "go",
+    "mr": "go"
+   },
+   {
+    "en": "goes",
+    "hi": "goes",
+    "mr": "goes"
+   },
+   {
+    "en": "went",
+    "hi": "went",
+    "mr": "went"
+   },
+   {
+    "en": "going",
+    "hi": "going",
+    "mr": "going"
+   }
+  ],
+  "exp": {
+   "en": "\"Yesterday\" signals the simple past tense, and the past tense of \"go\" is \"went\". \"Go\" and \"goes\" are present-tense forms, and \"going\" needs a helping verb like \"was\" to be grammatically complete, so none of them fit here.",
+   "hi": "\"Yesterday\" सामान्य भूतकाल का संकेत देता है, और \"go\" का भूतकाल रूप \"went\" है। \"Go\" और \"goes\" वर्तमान काल के रूप हैं, और \"going\" को व्याकरणिक रूप से पूर्ण होने के लिए \"was\" जैसी सहायक क्रिया की आवश्यकता होती है, इसलिए इनमें से कोई भी यहाँ सही नहीं बैठता।",
+   "mr": "\"Yesterday\" सामान्य भूतकाळाचे संकेत देतो, आणि \"go\" चे भूतकाळ रूप \"went\" आहे. \"Go\" आणि \"goes\" वर्तमानकाळाची रूपे आहेत, आणि \"going\" व्याकरणदृष्ट्या पूर्ण होण्यासाठी \"was\" सारख्या साहाय्यक क्रियापदाची गरज असते, त्यामुळे यापैकी कोणतेही येथे बसत नाही."
+  }
+ },
+ {
+  "key": "jnvst-2025-lang-04",
+  "section": "language",
+  "q": {
+   "en": "Choose the correctly spelled word:",
+   "hi": "सही वर्तनी वाला शब्द चुनें:",
+   "mr": "योग्य शब्दलेखन असलेला शब्द निवडा:"
+  },
+  "opts": [
+   {
+    "en": "Recieve",
+    "hi": "Recieve",
+    "mr": "Recieve"
+   },
+   {
+    "en": "Receive",
+    "hi": "Receive",
+    "mr": "Receive"
+   },
+   {
+    "en": "Receve",
+    "hi": "Receve",
+    "mr": "Receve"
+   },
+   {
+    "en": "Receeve",
+    "hi": "Receeve",
+    "mr": "Receeve"
+   }
+  ],
+  "exp": {
+   "en": "The correct spelling is \"Receive\" — remember the rule \"i before e, except after c\". \"Recieve\" reverses the i and e after c, and \"Receve\"/\"Receeve\" are missing or add extra letters.",
+   "hi": "सही वर्तनी \"Receive\" है — नियम याद रखें \"i पहले e से, सिवाय c के बाद\"। \"Recieve\" में c के बाद i और e को उलट दिया गया है, और \"Receve\"/\"Receeve\" में अक्षर छूट गए हैं या अतिरिक्त जोड़ दिए गए हैं।",
+   "mr": "योग्य शब्दलेखन \"Receive\" आहे — नियम लक्षात ठेवा \"i आधी e पासून, c नंतर वगळता\". \"Recieve\" मध्ये c नंतर i आणि e उलटवले आहेत, आणि \"Receve\"/\"Receeve\" मध्ये अक्षरे सुटली आहेत किंवा जास्तीची जोडली आहेत."
+  }
+ }
+]

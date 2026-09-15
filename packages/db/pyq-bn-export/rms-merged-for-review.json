@@ -1,0 +1,5947 @@
+[
+  {
+    "key": "rms6-gem1-ma-01",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "mental_ability",
+    "year": 2026,
+    "difficulty": "EASY",
+    "correctAnswer": 1,
+    "question_en": "Rohan ranks 7th from the top and 26th from the bottom in a class. How many total students are there in the class?",
+    "question_hi": "रोहन एक कक्षा में ऊपर से 7वें और नीचे से 26वें स्थान पर है। कक्षा में कुल कितने छात्र हैं?",
+    "question_mr": "रोहन एका वर्गात वरून 7व्या आणि खालून 26व्या क्रमांकावर आहे. वर्गात एकूण किती विद्यार्थी आहेत?",
+    "question_bn_draft": "রোহন একটি ক্লাসে উপর থেকে 7ম এবং নিচ থেকে 26তম স্থানে আছে। ক্লাসে মোট কতজন ছাত্র আছে?",
+    "options_en": [
+      "31",
+      "32",
+      "33",
+      "34"
+    ],
+    "options_hi": [
+      "31",
+      "32",
+      "33",
+      "34"
+    ],
+    "options_mr": [
+      "31",
+      "32",
+      "33",
+      "34"
+    ],
+    "options_bn_draft": [
+      "31",
+      "32",
+      "33",
+      "34"
+    ],
+    "explanation_en": "Total Students = (Rank from top + Rank from bottom) - 1 = (7 + 26) - 1 = 33 - 1 = 32.",
+    "explanation_hi": "कुल छात्र = (ऊपर से स्थान + नीचे से स्थान) - 1 = (7 + 26) - 1 = 33 - 1 = 32।",
+    "explanation_mr": "एकूण विद्यार्थी = (वरून क्रमांक + खालून क्रमांक) - 1 = (7 + 26) - 1 = 33 - 1 = 32.",
+    "explanation_bn_draft": "মোট ছাত্র = (উপর থেকে স্থান + নিচ থেকে স্থান) - 1 = (7 + 26) - 1 = 33 - 1 = 32।"
+  },
+  {
+    "key": "rms6-gem1-ma-02",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "mental_ability",
+    "year": 2026,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 1,
+    "question_en": "Archers : Bow :: Soldiers : ?",
+    "question_hi": "धनुर्धर : धनुष :: सैनिक : ?",
+    "question_mr": "धनुर्धारी : धनुष्य :: सैनिक : ?",
+    "question_bn_draft": "ধনুর্ধরের সাথে ধনুকের যে সম্পর্ক, সৈনিকের সাথে তার সম্পর্ক কীসের সাথে?",
+    "options_en": [
+      "Bullet",
+      "Rifle / Gun",
+      "Uniform",
+      "Cannon"
+    ],
+    "options_hi": [
+      "गोली",
+      "राइफल / बंदूक",
+      "वर्दी",
+      "तोप"
+    ],
+    "options_mr": [
+      "गोळी",
+      "रायफल / बंदूक",
+      "गणवेश",
+      "तोफ"
+    ],
+    "options_bn_draft": [
+      "গুলি",
+      "রাইফেল / বন্দুক",
+      "উর্দি",
+      "কামান"
+    ],
+    "explanation_en": "An archer's primary weapon is a bow; a soldier's primary handheld weapon is a rifle.",
+    "explanation_hi": "धनुर्धर का मुख्य हथियार धनुष है; सैनिक का मुख्य व्यक्तिगत हथियार राइफल है।",
+    "explanation_mr": "धनुर्धाऱ्याचे मुख्य शस्त्र धनुष्य असते; सैनिकाचे मुख्य वैयक्तिक शस्त्र रायफल असते.",
+    "explanation_bn_draft": "একজন ধনুর্ধরের প্রধান অস্ত্র ধনুক; একজন সৈনিকের প্রধান হাতিয়ার রাইফেল।"
+  },
+  {
+    "key": "rms6-gem2-ma-01",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "mental_ability",
+    "year": 2026,
+    "difficulty": "EASY",
+    "correctAnswer": 0,
+    "question_en": "If 'ARMY' is coded as 'BSNZ', how will 'NAVY' be coded in that same pattern?",
+    "question_hi": "यदि 'ARMY' को 'BSNZ' के रूप में कोडित किया गया है, तो उसी पैटर्न में 'NAVY' को कैसे कोडित किया जाएगा?",
+    "question_mr": "जर 'ARMY' ला 'BSNZ' असे कोड केले असेल, तर त्याच पद्धतीने 'NAVY' ला कसे कोड केले जाईल?",
+    "question_bn_draft": "যদি 'ARMY'-কে 'BSNZ' হিসাবে কোড করা হয়, তাহলে একই প্যাটার্নে 'NAVY' কীভাবে কোড করা হবে?",
+    "options_en": [
+      "OBWZ",
+      "OBWA",
+      "MBUX",
+      "PBXA"
+    ],
+    "options_hi": [
+      "OBWZ",
+      "OBWA",
+      "MBUX",
+      "PBXA"
+    ],
+    "options_mr": [
+      "OBWZ",
+      "OBWA",
+      "MBUX",
+      "PBXA"
+    ],
+    "options_bn_draft": [
+      "OBWZ",
+      "OBWA",
+      "MBUX",
+      "PBXA"
+    ],
+    "explanation_en": "Each letter is shifted forward by +1: N+1=O, A+1=B, V+1=W, Y+1=Z. So NAVY becomes OBWZ.",
+    "explanation_hi": "प्रत्येक अक्षर +1 आगे बढ़ता है: N+1=O, A+1=B, V+1=W, Y+1=Z => OBWZ।",
+    "explanation_mr": "प्रत्येक अक्षर +1 पुढे सरकते: N+1=O, A+1=B, V+1=W, Y+1=Z. त्यामुळे NAVY चे OBWZ होते.",
+    "explanation_bn_draft": "প্রতিটি অক্ষর +1 ধাপ এগোয়: N+1=O, A+1=B, V+1=W, Y+1=Z। তাই NAVY হয়ে যায় OBWZ।"
+  },
+  {
+    "key": "rms6-gem2-ma-02",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "mental_ability",
+    "year": 2026,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 1,
+    "question_en": "Find the missing term in the sequence: 4, 9, 19, 39, ?",
+    "question_hi": "अनुक्रम में लुप्त पद ज्ञात कीजिए: 4, 9, 19, 39, ?",
+    "question_mr": "या क्रमवारीतील (sequence) लुप्त पद शोधा: 4, 9, 19, 39, ?",
+    "question_bn_draft": "ধারায় অনুপস্থিত পদটি খুঁজে বার করো: 4, 9, 19, 39, ?",
+    "options_en": [
+      "69",
+      "79",
+      "89",
+      "99"
+    ],
+    "options_hi": [
+      "69",
+      "79",
+      "89",
+      "99"
+    ],
+    "options_mr": [
+      "69",
+      "79",
+      "89",
+      "99"
+    ],
+    "options_bn_draft": [
+      "69",
+      "79",
+      "89",
+      "99"
+    ],
+    "explanation_en": "Pattern is (Previous Term * 2) + 1: (4*2)+1=9; (9*2)+1=19; (19*2)+1=39; (39*2)+1=79.",
+    "explanation_hi": "पैटर्न (पिछला पद * 2) + 1 है: (4*2)+1=9; (9*2)+1=19; (19*2)+1=39; (39*2)+1=79।",
+    "explanation_mr": "पद्धत आहे (आधीचे पद × 2) + 1: (4×2)+1=9; (9×2)+1=19; (19×2)+1=39; (39×2)+1=79.",
+    "explanation_bn_draft": "নিয়মটি হল (আগের পদ * 2) + 1: (4*2)+1=9; (9*2)+1=19; (19*2)+1=39; (39*2)+1=79।"
+  },
+  {
+    "key": "rms6-p1-ma-01",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "mental_ability",
+    "year": 2022,
+    "difficulty": "EASY",
+    "correctAnswer": 3,
+    "question_en": "Find the odd one out: Rose, Lily, Lotus, Carrot",
+    "question_hi": "असंगत शब्द चुनें: गुलाब, लिली, कमल, गाजर",
+    "question_mr": "विजोड शब्द निवडा: गुलाब, लिली, कमळ, गाजर",
+    "question_bn_draft": "অসংগতটি বেছে নাও: গোলাপ, লিলি, পদ্ম, গাজর",
+    "options_en": [
+      "Rose",
+      "Lily",
+      "Lotus",
+      "Carrot"
+    ],
+    "options_hi": [
+      "गुलाब",
+      "लिली",
+      "कमल",
+      "गाजर"
+    ],
+    "options_mr": [
+      "गुलाब",
+      "लिली",
+      "कमळ",
+      "गाजर"
+    ],
+    "options_bn_draft": [
+      "গোলাপ",
+      "লিলি",
+      "পদ্ম",
+      "গাজর"
+    ],
+    "explanation_en": "Rose, Lily, and Lotus are flowers; Carrot is a root vegetable.",
+    "explanation_hi": "गुलाब, लिली और कमल फूल हैं; गाजर एक जड़-सब्जी है।",
+    "explanation_mr": "गुलाब, लिली आणि कमळ ही फुले आहेत; गाजर एक मूळ-भाजी आहे.",
+    "explanation_bn_draft": "গোলাপ, লিলি এবং পদ্ম ফুল; গাজর একটি মূল-জাতীয় সবজি।"
+  },
+  {
+    "key": "rms6-p1-ma-02",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "mental_ability",
+    "year": 2022,
+    "difficulty": "EASY",
+    "correctAnswer": 2,
+    "question_en": "Complete the series: 5, 10, 15, 20, ___?",
+    "question_hi": "श्रृंखला पूरी करें: 5, 10, 15, 20, ___?",
+    "question_mr": "श्रेणी पूर्ण करा: 5, 10, 15, 20, ___?",
+    "question_bn_draft": "ধারাটি সম্পূর্ণ করো: 5, 10, 15, 20, ?",
+    "options_en": [
+      "22",
+      "24",
+      "25",
+      "30"
+    ],
+    "options_hi": [
+      "22",
+      "24",
+      "25",
+      "30"
+    ],
+    "options_mr": [
+      "22",
+      "24",
+      "25",
+      "30"
+    ],
+    "options_bn_draft": [
+      "22",
+      "24",
+      "25",
+      "30"
+    ],
+    "explanation_en": "Each term increases by 5, so after 20 comes 25.",
+    "explanation_hi": "प्रत्येक पद में 5 की वृद्धि होती है, अतः 20 के बाद 25 आएगा।",
+    "explanation_mr": "प्रत्येक पदात 5 ची वाढ होते, म्हणून 20 नंतर 25 येईल.",
+    "explanation_bn_draft": "প্রতিটি পদ 5 করে বাড়ে, তাই 20-এর পরে আসবে 25।"
+  },
+  {
+    "key": "rms6-p1-ma-03",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "mental_ability",
+    "year": 2022,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 0,
+    "question_en": "If BOX is coded as CPY, how is PEN coded?",
+    "question_hi": "यदि BOX को CPY के रूप में कूटबद्ध किया जाता है, तो PEN को कैसे कूटबद्ध किया जाएगा?",
+    "question_mr": "जर BOX ला CPY असे कोडित केले जाते, तर PEN कसे कोडित होईल?",
+    "question_bn_draft": "যদি BOX-কে CPY হিসাবে কোড করা হয়, তাহলে PEN কীভাবে কোড করা হবে?",
+    "options_en": [
+      "QFO",
+      "QFN",
+      "OFN",
+      "QEO"
+    ],
+    "options_hi": [
+      "QFO",
+      "QFN",
+      "OFN",
+      "QEO"
+    ],
+    "options_mr": [
+      "QFO",
+      "QFN",
+      "OFN",
+      "QEO"
+    ],
+    "options_bn_draft": [
+      "QFO",
+      "QFN",
+      "OFN",
+      "QEO"
+    ],
+    "explanation_en": "Each letter moves 1 step forward: B→C, O→P, X→Y. Similarly P→Q, E→F, N→O, giving QFO.",
+    "explanation_hi": "प्रत्येक अक्षर एक स्थान आगे बढ़ता है: B→C, O→P, X→Y। इसी प्रकार P→Q, E→F, N→O, अतः QFO प्राप्त होता है।",
+    "explanation_mr": "प्रत्येक अक्षर 1 स्थान पुढे सरकते: B→C, O→P, X→Y. त्याचप्रमाणे P→Q, E→F, N→O, म्हणजे QFO मिळते.",
+    "explanation_bn_draft": "প্রতিটি অক্ষর 1 ধাপ এগোয়: B→C, O→P, X→Y। একইভাবে P→Q, E→F, N→O, ফলে পাওয়া যায় QFO।"
+  },
+  {
+    "key": "rms6-p1-ma-04",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "mental_ability",
+    "year": 2022,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 1,
+    "question_en": "Pointing to a boy, Meena said, \"He is the son of my father's only daughter.\" How is the boy related to Meena?",
+    "question_hi": "एक लड़के की ओर इशारा करते हुए मीना ने कहा, \"वह मेरे पिता की इकलौती बेटी का पुत्र है।\" वह लड़का मीना से किस प्रकार संबंधित है?",
+    "question_mr": "एका मुलाकडे बोट दाखवत मीनाने म्हटले, \"तो माझ्या वडिलांच्या एकुलत्या मुलीचा मुलगा आहे.\" तो मुलगा मीनाशी कसा संबंधित आहे?",
+    "question_bn_draft": "একটি ছেলের দিকে ইশারা করে মীনা বলল, 'ও আমার বাবার একমাত্র মেয়ের ছেলে।' ছেলেটি মীনার সাথে কী সম্পর্কযুক্ত?",
+    "options_en": [
+      "Brother",
+      "Son",
+      "Nephew",
+      "Cousin"
+    ],
+    "options_hi": [
+      "भाई",
+      "पुत्र",
+      "भतीजा",
+      "चचेरा भाई"
+    ],
+    "options_mr": [
+      "भाऊ",
+      "मुलगा",
+      "पुतण्या",
+      "चुलत भाऊ"
+    ],
+    "options_bn_draft": [
+      "ভাই",
+      "ছেলে",
+      "ভাইপো",
+      "তুতো ভাই"
+    ],
+    "explanation_en": "Father's only daughter is Meena herself, so the boy (her son) is Meena's own son.",
+    "explanation_hi": "पिता की इकलौती बेटी स्वयं मीना ही है, अतः वह लड़का (उसका पुत्र) मीना का अपना पुत्र है।",
+    "explanation_mr": "वडिलांची एकुलती मुलगी स्वतः मीनाच आहे, म्हणून तो मुलगा (तिचा मुलगा) मीनाचाच स्वतःचा मुलगा आहे.",
+    "explanation_bn_draft": "বাবার একমাত্র মেয়ে মীনা নিজেই, তাই ছেলেটি (তার ছেলে) মীনার নিজের ছেলে।"
+  },
+  {
+    "key": "rms6-p1-ma-05",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "mental_ability",
+    "year": 2023,
+    "difficulty": "EASY",
+    "correctAnswer": 1,
+    "question_en": "Find the missing number: 1, 4, 9, 16, ___?",
+    "question_hi": "लुप्त संख्या ज्ञात करें: 1, 4, 9, 16, ___?",
+    "question_mr": "लुप्त संख्या काढा: 1, 4, 9, 16, ___?",
+    "question_bn_draft": "অনুপস্থিত সংখ্যাটি খুঁজে বার করো: 1, 4, 9, 16, ?",
+    "options_en": [
+      "20",
+      "25",
+      "22",
+      "24"
+    ],
+    "options_hi": [
+      "20",
+      "25",
+      "22",
+      "24"
+    ],
+    "options_mr": [
+      "20",
+      "25",
+      "22",
+      "24"
+    ],
+    "options_bn_draft": [
+      "20",
+      "25",
+      "22",
+      "24"
+    ],
+    "explanation_en": "These are squares of 1,2,3,4 — the next square is 5² = 25.",
+    "explanation_hi": "ये 1,2,3,4 के वर्ग हैं — अगला वर्ग 5² = 25 है।",
+    "explanation_mr": "या 1,2,3,4 चे वर्ग आहेत — पुढचा वर्ग 5² = 25 आहे.",
+    "explanation_bn_draft": "এগুলি 1,2,3,4-এর বর্গ — পরের বর্গ হল 5² = 25।"
+  },
+  {
+    "key": "rms6-p1-ma-06",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "mental_ability",
+    "year": 2023,
+    "difficulty": "EASY",
+    "correctAnswer": 1,
+    "question_en": "Soldier is to Army as Sailor is to ___?",
+    "question_hi": "सैनिक का संबंध सेना से है जैसे नाविक का संबंध ___ से है?",
+    "question_mr": "सैनिकाचा संबंध सेनेशी आहे जसा नाविकाचा संबंध ___शी आहे?",
+    "question_bn_draft": "সৈনিকের সাথে সেনাবাহিনীর যে সম্পর্ক, নাবিকের সাথে তার সম্পর্ক কীসের সাথে?",
+    "options_en": [
+      "Ship",
+      "Navy",
+      "Ocean",
+      "Port"
+    ],
+    "options_hi": [
+      "जहाज़",
+      "नौसेना",
+      "महासागर",
+      "बंदरगाह"
+    ],
+    "options_mr": [
+      "जहाज",
+      "नौदल",
+      "महासागर",
+      "बंदर"
+    ],
+    "options_bn_draft": [
+      "জাহাজ",
+      "নৌবাহিনী",
+      "মহাসাগর",
+      "বন্দর"
+    ],
+    "explanation_en": "A soldier belongs to the Army; a sailor belongs to the Navy — matching the type of force each serves in.",
+    "explanation_hi": "एक सैनिक सेना से संबंधित है; एक नाविक नौसेना से संबंधित है — प्रत्येक जिस बल में सेवा करता है, उससे मेल खाता हुआ।",
+    "explanation_mr": "सैनिक सेनेशी संबंधित आहे; नाविक नौदलाशी संबंधित आहे — प्रत्येक ज्या दलात सेवा करतो त्याशी जुळणारे.",
+    "explanation_bn_draft": "একজন সৈনিক সেনাবাহিনীর অন্তর্ভুক্ত; একজন নাবিক নৌবাহিনীর অন্তর্ভুক্ত — প্রত্যেকে যে বাহিনীতে কাজ করে তার সাথে মিলে যায়।"
+  },
+  {
+    "key": "rms6-p1-ma-07",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "mental_ability",
+    "year": 2023,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 0,
+    "question_en": "In a certain code, HOUSE is written as IPVTF. How is TABLE written in that code?",
+    "question_hi": "एक निश्चित कूट में HOUSE को IPVTF लिखा जाता है। उसी कूट में TABLE कैसे लिखा जाएगा?",
+    "question_mr": "एका विशिष्ट कोडमध्ये HOUSE ला IPVTF असे लिहिले जाते. त्याच कोडमध्ये TABLE कसे लिहिले जाईल?",
+    "question_bn_draft": "একটি নির্দিষ্ট কোডে HOUSE-কে IPVTF লেখা হয়। একই কোডে TABLE কীভাবে লেখা হবে?",
+    "options_en": [
+      "UBCMF",
+      "UBCMG",
+      "SBCMF",
+      "UACMF"
+    ],
+    "options_hi": [
+      "UBCMF",
+      "UBCMG",
+      "SBCMF",
+      "UACMF"
+    ],
+    "options_mr": [
+      "UBCMF",
+      "UBCMG",
+      "SBCMF",
+      "UACMF"
+    ],
+    "options_bn_draft": [
+      "UBCMF",
+      "UBCMG",
+      "SBCMF",
+      "UACMF"
+    ],
+    "explanation_en": "Each letter shifts 1 step forward: T→U, A→B, B→C, L→M, E→F, giving UBCMF.",
+    "explanation_hi": "प्रत्येक अक्षर एक स्थान आगे बढ़ता है: T→U, A→B, B→C, L→M, E→F, अतः UBCMF प्राप्त होता है।",
+    "explanation_mr": "प्रत्येक अक्षर 1 स्थान पुढे सरकते: T→U, A→B, B→C, L→M, E→F, म्हणजे UBCMF मिळते.",
+    "explanation_bn_draft": "প্রতিটি অক্ষর 1 ধাপ এগোয়: T→U, A→B, B→C, L→M, E→F, ফলে পাওয়া যায় UBCMF।"
+  },
+  {
+    "key": "rms6-p1-ma-08",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "mental_ability",
+    "year": 2023,
+    "difficulty": "HARD",
+    "correctAnswer": 2,
+    "question_en": "X is Y's father. Z is Y's sister. W is Z's mother. How is X related to W?",
+    "question_hi": "X, Y का पिता है। Z, Y की बहन है। W, Z की माँ है। X का W से क्या संबंध है?",
+    "question_mr": "X हा Y चा वडील आहे. Z ही Y ची बहीण आहे. W ही Z ची आई आहे. X चा W शी काय संबंध आहे?",
+    "question_bn_draft": "X হল Y-এর বাবা। Z হল Y-এর বোন। W হল Z-এর মা। X-এর সাথে W-এর কী সম্পর্ক?",
+    "options_en": [
+      "Son",
+      "Father",
+      "Husband",
+      "Brother"
+    ],
+    "options_hi": [
+      "पुत्र",
+      "पिता",
+      "पति",
+      "भाई"
+    ],
+    "options_mr": [
+      "मुलगा",
+      "वडील",
+      "पती",
+      "भाऊ"
+    ],
+    "options_bn_draft": [
+      "ছেলে",
+      "বাবা",
+      "স্বামী",
+      "ভাই"
+    ],
+    "explanation_en": "Z is Y's sister, so W (Z's mother) is also Y's mother. X is Y's father, so X and W are spouses — X is W's husband.",
+    "explanation_hi": "Z, Y की बहन है, अतः W (Z की माँ) भी Y की माँ है। X, Y का पिता है, अतः X और W पति-पत्नी हैं — X, W का पति है।",
+    "explanation_mr": "Z ही Y ची बहीण आहे, म्हणून W (Z ची आई) ही देखील Y ची आई आहे. X हा Y चा वडील आहे, म्हणून X आणि W हे पती-पत्नी आहेत — X हा W चा पती आहे.",
+    "explanation_bn_draft": "Z হল Y-এর বোন, তাই W (Z-এর মা) হলেন Y-এরও মা। X হলেন Y-এর বাবা, তাই X এবং W স্বামী-স্ত্রী — X হলেন W-এর স্বামী।"
+  },
+  {
+    "key": "rms6-p1-ma-09",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "mental_ability",
+    "year": 2024,
+    "difficulty": "EASY",
+    "correctAnswer": 3,
+    "question_en": "Find the odd one out: Guitar, Violin, Flute, Football",
+    "question_hi": "असंगत शब्द चुनें: गिटार, वायलिन, बांसुरी, फुटबॉल",
+    "question_mr": "विजोड शब्द निवडा: गिटार, व्हायोलिन, बांसुरी, फुटबॉल",
+    "question_bn_draft": "অসংগতটি বেছে নাও: গিটার, বেহালা, বাঁশি, ফুটবল",
+    "options_en": [
+      "Guitar",
+      "Violin",
+      "Flute",
+      "Football"
+    ],
+    "options_hi": [
+      "गिटार",
+      "वायलिन",
+      "बांसुरी",
+      "फुटबॉल"
+    ],
+    "options_mr": [
+      "गिटार",
+      "व्हायोलिन",
+      "बांसुरी",
+      "फुटबॉल"
+    ],
+    "options_bn_draft": [
+      "গিটার",
+      "বেহালা",
+      "বাঁশি",
+      "ফুটবল"
+    ],
+    "explanation_en": "Guitar, Violin, and Flute are musical instruments; Football is a sports item.",
+    "explanation_hi": "गिटार, वायलिन और बांसुरी वाद्ययंत्र हैं; फुटबॉल एक खेल-सामग्री है।",
+    "explanation_mr": "गिटार, व्हायोलिन आणि बांसुरी ही वादयंत्रे आहेत; फुटबॉल हे खेळाचे साहित्य आहे.",
+    "explanation_bn_draft": "গিটার, বেহালা এবং বাঁশি বাদ্যযন্ত্র; ফুটবল একটি খেলার সামগ্রী।"
+  },
+  {
+    "key": "rms6-p1-ma-10",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "mental_ability",
+    "year": 2024,
+    "difficulty": "EASY",
+    "correctAnswer": 0,
+    "question_en": "If NORTH is coded as HTRON (reversed), how is SOUTH coded the same way?",
+    "question_hi": "यदि NORTH को HTRON (उल्टा) के रूप में कूटबद्ध किया जाता है, तो उसी तरह SOUTH कैसे कूटबद्ध होगा?",
+    "question_mr": "जर NORTH ला HTRON (उलटे) असे कोडित केले जाते, तर त्याच पद्धतीने SOUTH कसे कोडित होईल?",
+    "question_bn_draft": "যদি NORTH-কে HTRON (উল্টো) হিসাবে কোড করা হয়, তাহলে একই পদ্ধতিতে SOUTH কীভাবে কোড করা হবে?",
+    "options_en": [
+      "HTUOS",
+      "HTUSO",
+      "SHTUO",
+      "OHTUS"
+    ],
+    "options_hi": [
+      "HTUOS",
+      "HTUSO",
+      "SHTUO",
+      "OHTUS"
+    ],
+    "options_mr": [
+      "HTUOS",
+      "HTUSO",
+      "SHTUO",
+      "OHTUS"
+    ],
+    "options_bn_draft": [
+      "HTUOS",
+      "HTUSO",
+      "SHTUO",
+      "OHTUS"
+    ],
+    "explanation_en": "The code simply reverses the letters: SOUTH reversed letter-by-letter is HTUOS.",
+    "explanation_hi": "कूट में अक्षरों को केवल उल्टा कर दिया जाता है: SOUTH को अक्षर-दर-अक्षर उल्टा करने पर HTUOS बनता है।",
+    "explanation_mr": "कोडमध्ये अक्षरे फक्त उलटी केली जातात: SOUTH अक्षर-दर-अक्षर उलटे केल्यास HTUOS बनते.",
+    "explanation_bn_draft": "কোডে অক্ষরগুলি শুধু উল্টে দেওয়া হয়: SOUTH-কে অক্ষর অনুসারে উল্টে দিলে হয় HTUOS।"
+  },
+  {
+    "key": "rms6-p1-ma-11",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "mental_ability",
+    "year": 2024,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 1,
+    "question_en": "Suresh walks 4 km East, then turns right and walks 6 km. In which direction is he now facing?",
+    "question_hi": "सुरेश 4 किमी पूर्व की ओर चलता है, फिर दाईं ओर मुड़कर 6 किमी चलता है। अब वह किस दिशा की ओर मुख किए हुए है?",
+    "question_mr": "सुरेश 4 किमी पूर्वेकडे चालतो, नंतर उजवीकडे वळून 6 किमी चालतो. आता त्याचे मुख कोणत्या दिशेला आहे?",
+    "question_bn_draft": "সুরেশ পূর্ব দিকে 4 কিমি হাঁটে, তারপর ডানদিকে ঘুরে 6 কিমি হাঁটে। এখন তার মুখ কোন দিকে?",
+    "options_en": [
+      "North",
+      "South",
+      "East",
+      "West"
+    ],
+    "options_hi": [
+      "उत्तर",
+      "दक्षिण",
+      "पूर्व",
+      "पश्चिम"
+    ],
+    "options_mr": [
+      "उत्तर",
+      "दक्षिण",
+      "पूर्व",
+      "पश्चिम"
+    ],
+    "options_bn_draft": [
+      "উত্তর",
+      "দক্ষিণ",
+      "পূর্ব",
+      "পশ্চিম"
+    ],
+    "explanation_en": "Facing East, turning right means now facing South.",
+    "explanation_hi": "पूर्व की ओर मुख किए हुए दाईं ओर मुड़ने पर अब मुख दक्षिण की ओर हो जाता है।",
+    "explanation_mr": "पूर्वेकडे मुख असताना, उजवीकडे वळल्यास आता मुख दक्षिणेकडे होते.",
+    "explanation_bn_draft": "পূর্বমুখী অবস্থায় ডানদিকে ঘুরলে এখন মুখ দক্ষিণ দিকে হয়ে যায়।"
+  },
+  {
+    "key": "rms6-p1-ma-12",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "mental_ability",
+    "year": 2024,
+    "difficulty": "EASY",
+    "correctAnswer": 2,
+    "question_en": "Choose the word that is different from the others.",
+    "question_hi": "वह शब्द चुनें जो बाकियों से भिन्न है।",
+    "question_mr": "बाकीच्यांपेक्षा वेगळा असलेला शब्द निवडा.",
+    "question_bn_draft": "অন্যদের থেকে আলাদা শব্দটি বেছে নাও।",
+    "options_en": [
+      "Ganga",
+      "Yamuna",
+      "Himalayas",
+      "Godavari"
+    ],
+    "options_hi": [
+      "गंगा",
+      "यमुना",
+      "हिमालय",
+      "गोदावरी"
+    ],
+    "options_mr": [
+      "गंगा",
+      "यमुना",
+      "हिमालय",
+      "गोदावरी"
+    ],
+    "options_bn_draft": [
+      "গঙ্গা",
+      "যমুনা",
+      "হিমালয়",
+      "গোদাবরী"
+    ],
+    "explanation_en": "Ganga, Yamuna, and Godavari are rivers; Himalayas is a mountain range.",
+    "explanation_hi": "गंगा, यमुना और गोदावरी नदियाँ हैं; हिमालय एक पर्वत श्रृंखला है।",
+    "explanation_mr": "गंगा, यमुना आणि गोदावरी या नद्या आहेत; हिमालय ही एक पर्वतश्रेणी आहे.",
+    "explanation_bn_draft": "গঙ্গা, যমুনা এবং গোদাবরী নদী; হিমালয় একটি পর্বতমালা।"
+  },
+  {
+    "key": "rms6-p1-ma-13",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "mental_ability",
+    "year": 2025,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 0,
+    "question_en": "If '+' means '×', '−' means '÷', '×' means '−', and '÷' means '+', find the value of: 20 ÷ 4 + 3 − 2",
+    "question_hi": "यदि '+' का अर्थ '×', '−' का अर्थ '÷', '×' का अर्थ '−' और '÷' का अर्थ '+' है, तो मान ज्ञात करें: 20 ÷ 4 + 3 − 2",
+    "question_mr": "जर '+' म्हणजे '×', '−' म्हणजे '÷', '×' म्हणजे '−', आणि '÷' म्हणजे '+' असेल, तर मूल्य काढा: 20 ÷ 4 + 3 − 2",
+    "question_bn_draft": "যদি '+' মানে '×', '−' মানে '÷', '×' মানে '−', এবং '÷' মানে '+' হয়, তাহলে মান নির্ণয় করো: 20 ÷ 4 + 3 − 2",
+    "options_en": [
+      "26",
+      "36",
+      "30",
+      "6"
+    ],
+    "options_hi": [
+      "26",
+      "36",
+      "30",
+      "6"
+    ],
+    "options_mr": [
+      "26",
+      "36",
+      "30",
+      "6"
+    ],
+    "options_bn_draft": [
+      "26",
+      "36",
+      "30",
+      "6"
+    ],
+    "explanation_en": "Substituting the coded meanings, 20 ÷ 4 + 3 − 2 becomes 20 + 4 × 3 ÷ 2. By BODMAS: 4×3=12, 12÷2=6, then 20+6=26.",
+    "explanation_hi": "प्रतिस्थापन के बाद: 20 + 4 × 3 ÷ 2। BODMAS से: 4×3=12, 12÷2=6, फिर 20+6=26।",
+    "explanation_mr": "कोडित अर्थ बदलल्यावर, 20 ÷ 4 + 3 − 2 हे 20 + 4 × 3 ÷ 2 होते. BODMAS नुसार: 4×3=12, 12÷2=6, नंतर 20+6=26.",
+    "explanation_bn_draft": "কোডিত অর্থ বসিয়ে, 20 ÷ 4 + 3 − 2 হয়ে যায় 20 + 4 × 3 ÷ 2। BODMAS অনুযায়ী: 4×3=12, 12÷2=6, তারপর 20+6=26।"
+  },
+  {
+    "key": "rms6-p1-ma-14",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "mental_ability",
+    "year": 2025,
+    "difficulty": "EASY",
+    "correctAnswer": 2,
+    "question_en": "Find the missing letter: C, F, I, L, ___?",
+    "question_hi": "लुप्त अक्षर ज्ञात करें: C, F, I, L, ___?",
+    "question_mr": "लुप्त अक्षर काढा: C, F, I, L, ___?",
+    "question_bn_draft": "অনুপস্থিত অক্ষরটি খুঁজে বার করো: C, F, I, L, ?",
+    "options_en": [
+      "M",
+      "N",
+      "O",
+      "P"
+    ],
+    "options_hi": [
+      "M",
+      "N",
+      "O",
+      "P"
+    ],
+    "options_mr": [
+      "M",
+      "N",
+      "O",
+      "P"
+    ],
+    "options_bn_draft": [
+      "M",
+      "N",
+      "O",
+      "P"
+    ],
+    "explanation_en": "Each letter skips two ahead: C(+3)F(+3)I(+3)L(+3)O.",
+    "explanation_hi": "प्रत्येक अक्षर तीन आगे बढ़ता है: C(+3)F(+3)I(+3)L(+3)O।",
+    "explanation_mr": "प्रत्येक अक्षर तीन पुढे सरकते: C(+3)F(+3)I(+3)L(+3)O.",
+    "explanation_bn_draft": "প্রতিটি অক্ষর তিনটি করে এগোয়: C(+3)F(+3)I(+3)L(+3)O।"
+  },
+  {
+    "key": "rms6-p1-ma-15",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "mental_ability",
+    "year": 2025,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 1,
+    "question_en": "Pointing to a woman, Arjun said, \"She is the wife of my father's only brother.\" How is the woman related to Arjun?",
+    "question_hi": "एक महिला की ओर इशारा करते हुए अर्जुन ने कहा, \"वह मेरे पिता के इकलौते भाई की पत्नी है।\" वह महिला अर्जुन से किस प्रकार संबंधित है?",
+    "question_mr": "एका स्त्रीकडे बोट दाखवत अर्जुनने म्हटले, \"ती माझ्या वडिलांच्या एकुलत्या भावाची पत्नी आहे.\" ती स्त्री अर्जुनशी कशी संबंधित आहे?",
+    "question_bn_draft": "একজন মহিলার দিকে ইশারা করে অর্জুন বলল, 'ও আমার বাবার একমাত্র ভাইয়ের স্ত্রী।' মহিলাটি অর্জুনের সাথে কী সম্পর্কযুক্ত?",
+    "options_en": [
+      "Mother",
+      "Aunt",
+      "Sister",
+      "Grandmother"
+    ],
+    "options_hi": [
+      "माँ",
+      "चाची",
+      "बहन",
+      "दादी"
+    ],
+    "options_mr": [
+      "आई",
+      "काकी",
+      "बहीण",
+      "आजी"
+    ],
+    "options_bn_draft": [
+      "মা",
+      "কাকিমা",
+      "বোন",
+      "ঠাকুমা"
+    ],
+    "explanation_en": "Father's brother is Arjun's uncle (chacha); his wife is Arjun's aunt (chachi).",
+    "explanation_hi": "पिता का भाई अर्जुन के चाचा हैं; उनकी पत्नी अर्जुन की चाची हैं।",
+    "explanation_mr": "वडिलांचा भाऊ हा अर्जुनचा काका आहे; त्याची पत्नी अर्जुनची काकी आहे.",
+    "explanation_bn_draft": "বাবার ভাই অর্জুনের কাকা; তাঁর স্ত্রী অর্জুনের কাকিমা।"
+  },
+  {
+    "key": "rms6-p1-ma-16",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "mental_ability",
+    "year": 2025,
+    "difficulty": "EASY",
+    "correctAnswer": 2,
+    "question_en": "Which number should replace the question mark? 9, 18, 27, 36, ?",
+    "question_hi": "प्रश्न चिह्न के स्थान पर कौन-सी संख्या आएगी? 9, 18, 27, 36, ?",
+    "question_mr": "प्रश्नचिन्हाच्या जागी कोणती संख्या येईल? 9, 18, 27, 36, ?",
+    "question_bn_draft": "প্রশ্নচিহ্নের জায়গায় কোন সংখ্যাটি বসবে? 9, 18, 27, 36, ?",
+    "options_en": [
+      "40",
+      "42",
+      "45",
+      "48"
+    ],
+    "options_hi": [
+      "40",
+      "42",
+      "45",
+      "48"
+    ],
+    "options_mr": [
+      "40",
+      "42",
+      "45",
+      "48"
+    ],
+    "options_bn_draft": [
+      "40",
+      "42",
+      "45",
+      "48"
+    ],
+    "explanation_en": "This is the 9-times table: 9,18,27,36,45.",
+    "explanation_hi": "यह 9 का पहाड़ा है: 9,18,27,36,45।",
+    "explanation_mr": "हा 9 चा पाढा आहे: 9,18,27,36,45.",
+    "explanation_bn_draft": "এটি 9-এর নামতা: 9,18,27,36,45।"
+  },
+  {
+    "key": "rms6-p1-ma-17",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "mental_ability",
+    "year": 2026,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 1,
+    "question_en": "If today is Monday, what day will it be after 17 days?",
+    "question_hi": "यदि आज सोमवार है, तो 17 दिनों बाद कौन-सा दिन होगा?",
+    "question_mr": "जर आज सोमवार आहे, तर 17 दिवसांनंतर कोणता दिवस असेल?",
+    "question_bn_draft": "আজ যদি সোমবার হয়, তাহলে 17 দিন পরে কী বার হবে?",
+    "options_en": [
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Tuesday"
+    ],
+    "options_hi": [
+      "बुधवार",
+      "गुरुवार",
+      "शुक्रवार",
+      "मंगलवार"
+    ],
+    "options_mr": [
+      "बुधवार",
+      "गुरुवार",
+      "शुक्रवार",
+      "मंगळवार"
+    ],
+    "options_bn_draft": [
+      "বুধবার",
+      "বৃহস্পতিবার",
+      "শুক্রবার",
+      "মঙ্গলবার"
+    ],
+    "explanation_en": "17 days = 2 weeks (14 days) + 3 extra days. Monday + 3 days = Thursday.",
+    "explanation_hi": "17 दिन = 2 सप्ताह (14 दिन) + 3 अतिरिक्त दिन। सोमवार + 3 दिन = गुरुवार।",
+    "explanation_mr": "17 दिवस = 2 आठवडे (14 दिवस) + 3 जास्तीचे दिवस. सोमवार + 3 दिवस = गुरुवार.",
+    "explanation_bn_draft": "17 দিন = 2 সপ্তাহ (14 দিন) + 3 অতিরিক্ত দিন। সোমবার + 3 দিন = বৃহস্পতিবার।"
+  },
+  {
+    "key": "rms6-p1-ma-18",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "mental_ability",
+    "year": 2026,
+    "difficulty": "EASY",
+    "correctAnswer": 0,
+    "question_en": "Knife is to Cut as Needle is to ___?",
+    "question_hi": "चाकू का संबंध काटने से है जैसे सुई का संबंध ___ से है?",
+    "question_mr": "चाकूचा संबंध कापण्याशी आहे जसा सुईचा संबंध ___शी आहे?",
+    "question_bn_draft": "ছুরির সাথে কাটার যে সম্পর্ক, সূচের সাথে তার সম্পর্ক কীসের সাথে?",
+    "options_en": [
+      "Sew",
+      "Poke",
+      "Thread",
+      "Point"
+    ],
+    "options_hi": [
+      "सिलना",
+      "चुभाना",
+      "धागा पिरोना",
+      "इशारा करना"
+    ],
+    "options_mr": [
+      "शिवणे",
+      "टोचणे",
+      "दोरा घालणे",
+      "इशारा करणे"
+    ],
+    "options_bn_draft": [
+      "সেলাই করা",
+      "খোঁচা দেওয়া",
+      "সুতো পরানো",
+      "ইশারা করা"
+    ],
+    "explanation_en": "A knife's function is to cut; a needle's function is to sew.",
+    "explanation_hi": "चाकू का कार्य काटना है; सुई का कार्य सिलना है।",
+    "explanation_mr": "चाकूचे कार्य कापणे आहे; सुईचे कार्य शिवणे आहे.",
+    "explanation_bn_draft": "ছুরির কাজ কাটা; সূচের কাজ সেলাই করা।"
+  },
+  {
+    "key": "rms6-p1-ma-19",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "mental_ability",
+    "year": 2022,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 0,
+    "question_en": "In a row of soldiers, Vikram is 9th from the left and 14th from the right. How many soldiers are in the row?",
+    "question_hi": "सैनिकों की एक पंक्ति में, विक्रम बाएँ से 9वें और दाएँ से 14वें स्थान पर है। पंक्ति में कुल कितने सैनिक हैं?",
+    "question_mr": "सैनिकांच्या एका ओळीत, विक्रम डावीकडून 9व्या आणि उजवीकडून 14व्या स्थानावर आहे. ओळीत एकूण किती सैनिक आहेत?",
+    "question_bn_draft": "সৈনিকদের একটি সারিতে, বিক্রম বাঁদিক থেকে 9ম এবং ডানদিক থেকে 14তম স্থানে আছে। সারিতে মোট কতজন সৈনিক আছে?",
+    "options_en": [
+      "22",
+      "23",
+      "24",
+      "21"
+    ],
+    "options_hi": [
+      "22",
+      "23",
+      "24",
+      "21"
+    ],
+    "options_mr": [
+      "22",
+      "23",
+      "24",
+      "21"
+    ],
+    "options_bn_draft": [
+      "22",
+      "23",
+      "24",
+      "21"
+    ],
+    "explanation_en": "Total = (position from left) + (position from right) − 1 = 9+14−1 = 22.",
+    "explanation_hi": "कुल = (बाएँ से स्थान) + (दाएँ से स्थान) − 1 = 9+14−1 = 22।",
+    "explanation_mr": "एकूण = (डावीकडून स्थान) + (उजवीकडून स्थान) − 1 = 9+14−1 = 22.",
+    "explanation_bn_draft": "মোট = (বাঁদিক থেকে স্থান) + (ডানদিক থেকে স্থান) − 1 = 9+14−1 = 22।"
+  },
+  {
+    "key": "rms6-p1-ma-20",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "mental_ability",
+    "year": 2023,
+    "difficulty": "EASY",
+    "correctAnswer": 3,
+    "question_en": "Find the odd one out: Helicopter, Aeroplane, Glider, Submarine",
+    "question_hi": "असंगत शब्द चुनें: हेलीकॉप्टर, हवाई जहाज़, ग्लाइडर, पनडुब्बी",
+    "question_mr": "विजोड शब्द निवडा: हेलिकॉप्टर, विमान, ग्लायडर, पाणबुडी",
+    "question_bn_draft": "অসংগতটি বেছে নাও: হেলিকপ্টার, বিমান, গ্লাইডার, সাবমেরিন",
+    "options_en": [
+      "Helicopter",
+      "Aeroplane",
+      "Glider",
+      "Submarine"
+    ],
+    "options_hi": [
+      "हेलीकॉप्टर",
+      "हवाई जहाज़",
+      "ग्लाइडर",
+      "पनडुब्बी"
+    ],
+    "options_mr": [
+      "हेलिकॉप्टर",
+      "विमान",
+      "ग्लायडर",
+      "पाणबुडी"
+    ],
+    "options_bn_draft": [
+      "হেলিকপ্টার",
+      "বিমান",
+      "গ্লাইডার",
+      "সাবমেরিন"
+    ],
+    "explanation_en": "Helicopter, Aeroplane, and Glider all travel through the air; a Submarine travels underwater.",
+    "explanation_hi": "हेलीकॉप्टर, हवाई जहाज़ और ग्लाइडर सभी हवा में चलते हैं; पनडुब्बी पानी के नीचे चलती है।",
+    "explanation_mr": "हेलिकॉप्टर, विमान आणि ग्लायडर हे सर्व हवेतून प्रवास करतात; पाणबुडी पाण्याखाली प्रवास करते.",
+    "explanation_bn_draft": "হেলিকপ্টার, বিমান এবং গ্লাইডার সবই আকাশপথে চলে; সাবমেরিন জলের নিচে চলে।"
+  },
+  {
+    "key": "rms6-p1-ma-21",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "mental_ability",
+    "year": 2023,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 2,
+    "question_en": "If facing North-West, through how many degrees (clockwise) must a person turn to face South-East?",
+    "question_hi": "यदि उत्तर-पश्चिम की ओर मुख किए हुए है, तो दक्षिण-पूर्व की ओर मुख करने के लिए (दक्षिणावर्त) कितने अंश घूमना होगा?",
+    "question_mr": "जर उत्तर-पश्चिमेकडे मुख असेल, तर दक्षिण-पूर्वेकडे मुख करण्यासाठी (घड्याळाच्या दिशेने) किती अंश फिरावे लागेल?",
+    "question_bn_draft": "উত্তর-পশ্চিমমুখী অবস্থায়, দক্ষিণ-পূর্বমুখী হতে হলে একজন ব্যক্তিকে (ঘড়ির কাঁটার দিকে) কত ডিগ্রি ঘুরতে হবে?",
+    "options_en": [
+      "90°",
+      "135°",
+      "180°",
+      "270°"
+    ],
+    "options_hi": [
+      "90°",
+      "135°",
+      "180°",
+      "270°"
+    ],
+    "options_mr": [
+      "90°",
+      "135°",
+      "180°",
+      "270°"
+    ],
+    "options_bn_draft": [
+      "90°",
+      "135°",
+      "180°",
+      "270°"
+    ],
+    "explanation_en": "South-East is directly opposite North-West on the compass, so the turn required is 180°.",
+    "explanation_hi": "दक्षिण-पूर्व, उत्तर-पश्चिम के ठीक विपरीत दिशा में है, अतः आवश्यक घुमाव 180° है।",
+    "explanation_mr": "दक्षिण-पूर्व ही दिशा उत्तर-पश्चिमेच्या नेमकी विरुद्ध आहे, म्हणून आवश्यक फिरणे 180° आहे.",
+    "explanation_bn_draft": "দক্ষিণ-পূর্ব দিক কম্পাসে উত্তর-পশ্চিমের ঠিক বিপরীতে অবস্থিত, তাই প্রয়োজনীয় ঘূর্ণন হল 180°।"
+  },
+  {
+    "key": "rms6-p1-ma-22",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "mental_ability",
+    "year": 2024,
+    "difficulty": "EASY",
+    "correctAnswer": 1,
+    "question_en": "Complete the analogy: Cow is to Calf as Dog is to ___?",
+    "question_hi": "सादृश्य पूरा करें: गाय का संबंध बछड़े से है जैसे कुत्ते का संबंध ___ से है?",
+    "question_mr": "साधर्म्य पूर्ण करा: गायचा संबंध वासराशी आहे जसा कुत्र्याचा संबंध ___शी आहे?",
+    "question_bn_draft": "সাদৃশ্যটি সম্পূর্ণ করো: গরুর সাথে বাছুরের যে সম্পর্ক, কুকুরের সাথে তার সম্পর্ক কীসের সাথে?",
+    "options_en": [
+      "Kitten",
+      "Puppy",
+      "Cub",
+      "Foal"
+    ],
+    "options_hi": [
+      "बिल्ली का बच्चा",
+      "पिल्ला",
+      "शावक",
+      "बछेड़ा"
+    ],
+    "options_mr": [
+      "मांजरीचे पिल्लू",
+      "पिल्लू",
+      "शावक",
+      "शिंगरू"
+    ],
+    "options_bn_draft": [
+      "বিড়ালছানা",
+      "কুকুরছানা",
+      "শাবক",
+      "ঘোড়ার বাচ্চা"
+    ],
+    "explanation_en": "A calf is a baby cow; a puppy is a baby dog.",
+    "explanation_hi": "बछड़ा गाय का बच्चा है; पिल्ला कुत्ते का बच्चा है।",
+    "explanation_mr": "वासरू हे गायीचे पिल्लू आहे; पिल्लू हे कुत्र्याचे पिल्लू आहे.",
+    "explanation_bn_draft": "বাছুর হল গরুর বাচ্চা; কুকুরছানা হল কুকুরের বাচ্চা।"
+  },
+  {
+    "key": "rms6-p1-ma-23",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "mental_ability",
+    "year": 2024,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 0,
+    "question_en": "Four friends A, B, C, D are sitting in a row. B is to the immediate right of A. D is at the extreme left. C is between B and D's neighbour... rephrased: D is at the extreme left, A is immediately right of D, B is immediately right of A, and C is at the extreme right. What is the order from left to right?",
+    "question_hi": "चार मित्र A, B, C, D एक पंक्ति में बैठे हैं। D सबसे बाईं ओर है, A, D के ठीक दाईं ओर है, B, A के ठीक दाईं ओर है, और C सबसे दाईं ओर है। बाएँ से दाएँ क्रम क्या है?",
+    "question_mr": "चार मित्र A, B, C, D एका ओळीत बसले आहेत. D सर्वात डावीकडे आहे, A हा D च्या अगदी उजवीकडे आहे, B हा A च्या अगदी उजवीकडे आहे, आणि C सर्वात उजवीकडे आहे. डावीकडून उजवीकडे क्रम काय आहे?",
+    "question_bn_draft": "চারজন বন্ধু A, B, C, D একটি সারিতে বসে আছে। D সবচেয়ে বাঁদিকে আছে, A হল D-এর ঠিক ডানদিকে, B হল A-এর ঠিক ডানদিকে, এবং C সবচেয়ে ডানদিকে আছে। বাঁদিক থেকে ডানদিকে ক্রম কী?",
+    "options_en": [
+      "D, A, B, C",
+      "A, D, B, C",
+      "D, B, A, C",
+      "D, A, C, B"
+    ],
+    "options_hi": [
+      "D, A, B, C",
+      "A, D, B, C",
+      "D, B, A, C",
+      "D, A, C, B"
+    ],
+    "options_mr": [
+      "D, A, B, C",
+      "A, D, B, C",
+      "D, B, A, C",
+      "D, A, C, B"
+    ],
+    "options_bn_draft": [
+      "D, A, B, C",
+      "A, D, B, C",
+      "D, B, A, C",
+      "D, A, C, B"
+    ],
+    "explanation_en": "D is leftmost, then A immediately right of D, then B immediately right of A, and C is rightmost: D, A, B, C.",
+    "explanation_hi": "D सबसे बाईं ओर है, फिर A, D के ठीक दाईं ओर, फिर B, A के ठीक दाईं ओर, और C सबसे दाईं ओर: D, A, B, C।",
+    "explanation_mr": "D सर्वात डावीकडे आहे, नंतर A हा D च्या अगदी उजवीकडे, नंतर B हा A च्या अगदी उजवीकडे, आणि C सर्वात उजवीकडे: D, A, B, C.",
+    "explanation_bn_draft": "D সবচেয়ে বাঁদিকে, তারপর A হল D-এর ঠিক ডানদিকে, তারপর B হল A-এর ঠিক ডানদিকে, এবং C সবচেয়ে ডানদিকে: D, A, B, C।"
+  },
+  {
+    "key": "rms6-p1-ma-24",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "mental_ability",
+    "year": 2025,
+    "difficulty": "EASY",
+    "correctAnswer": 0,
+    "question_en": "Which figure comes next in the pattern: one dot, two dots, three dots, ___?",
+    "question_hi": "इस क्रम में अगली आकृति क्या आएगी: एक बिंदु, दो बिंदु, तीन बिंदु, ___?",
+    "question_mr": "या क्रमात पुढील आकृती काय येईल: एक ठिपका, दोन ठिपके, तीन ठिपके, ___?",
+    "question_bn_draft": "প্যাটার্নে পরবর্তী চিত্রটি কী আসবে: একটি বিন্দু, দুটি বিন্দু, তিনটি বিন্দু, ?",
+    "options_en": [
+      "Four dots",
+      "Two dots again",
+      "One dot",
+      "No dots"
+    ],
+    "options_hi": [
+      "चार बिंदु",
+      "फिर से दो बिंदु",
+      "एक बिंदु",
+      "कोई बिंदु नहीं"
+    ],
+    "options_mr": [
+      "चार ठिपके",
+      "पुन्हा दोन ठिपके",
+      "एक ठिपका",
+      "एकही ठिपका नाही"
+    ],
+    "options_bn_draft": [
+      "চারটি বিন্দু",
+      "আবার দুটি বিন্দু",
+      "একটি বিন্দু",
+      "কোনো বিন্দু নেই"
+    ],
+    "explanation_en": "The pattern adds one more dot each step, so after three dots comes four dots.",
+    "explanation_hi": "क्रम में हर चरण पर एक और बिंदु जुड़ता है, अतः तीन बिंदुओं के बाद चार बिंदु आएँगे।",
+    "explanation_mr": "या क्रमात प्रत्येक पायरीत एक जास्त ठिपका जोडला जातो, म्हणून तीन ठिपक्यांनंतर चार ठिपके येतील.",
+    "explanation_bn_draft": "প্যাটার্নে প্রতিটি ধাপে একটি করে বিন্দু যুক্ত হয়, তাই তিনটি বিন্দুর পরে আসবে চারটি বিন্দু।"
+  },
+  {
+    "key": "rms6-p1-ma-25",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "mental_ability",
+    "year": 2026,
+    "difficulty": "HARD",
+    "correctAnswer": 1,
+    "question_en": "In a certain code language, 'sa ri ta' means 'sky is blue', 'ta ma ho' means 'blue and green', and 'ri ho ka' means 'sky green bird'. Which word means 'sky' in that language?",
+    "question_hi": "एक निश्चित कूट भाषा में, 'sa ri ta' का अर्थ है 'आकाश नीला है', 'ta ma ho' का अर्थ है 'नीला और हरा', तथा 'ri ho ka' का अर्थ है 'आकाश हरा पक्षी'। उस भाषा में 'आकाश' के लिए कौन-सा शब्द है?",
+    "question_mr": "एका विशिष्ट कोड भाषेत, 'sa ri ta' म्हणजे 'आकाश निळे आहे', 'ta ma ho' म्हणजे 'निळा आणि हिरवा', आणि 'ri ho ka' म्हणजे 'आकाश हिरवा पक्षी'. त्या भाषेत 'आकाश' साठी कोणता शब्द आहे?",
+    "question_bn_draft": "একটি নির্দিষ্ট কোড ভাষায়, 'sa ri ta' মানে 'আকাশ নীল', 'ta ma ho' মানে 'নীল এবং সবুজ', এবং 'ri ho ka' মানে 'আকাশ সবুজ পাখি'। সেই ভাষায় 'আকাশ'-এর জন্য কোন শব্দটি ব্যবহৃত হয়?",
+    "options_en": [
+      "sa",
+      "ri",
+      "ta",
+      "ho"
+    ],
+    "options_hi": [
+      "sa",
+      "ri",
+      "ta",
+      "ho"
+    ],
+    "options_mr": [
+      "sa",
+      "ri",
+      "ta",
+      "ho"
+    ],
+    "options_bn_draft": [
+      "sa",
+      "ri",
+      "ta",
+      "ho"
+    ],
+    "explanation_en": "'ri' is common to sentences 1 and 3, both containing 'sky' — so 'ri' means 'sky'.",
+    "explanation_hi": "'ri' पहले और तीसरे वाक्य में समान है, दोनों में 'आकाश' है — अतः 'ri' का अर्थ 'आकाश' है।",
+    "explanation_mr": "'ri' हा पहिल्या आणि तिसऱ्या वाक्यात समान आहे, दोन्हीत 'आकाश' आहे — म्हणून 'ri' चा अर्थ 'आकाश' आहे.",
+    "explanation_bn_draft": "'ri' প্রথম ও তৃতীয় বাক্যে সাধারণ, দুটিতেই 'আকাশ' আছে — তাই 'ri' মানে 'আকাশ'।"
+  },
+  {
+    "key": "rms6-gem1-ar-01",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2026,
+    "difficulty": "EASY",
+    "correctAnswer": 0,
+    "question_en": "Simplify using BODMAS rule: 50 - [20 + {15 - (8 - 3)}].",
+    "question_hi": "BODMAS नियम का उपयोग करके सरल कीजिए: 50 - [20 + {15 - (8 - 3)}]।",
+    "question_mr": "BODMAS नियम वापरून सुलभ करा: 50 - [20 + {15 - (8 - 3)}].",
+    "question_bn_draft": "BODMAS নিয়ম ব্যবহার করে সরল করো: 50 - [20 + {15 - (8 - 3)}]।",
+    "options_en": [
+      "20",
+      "25",
+      "30",
+      "35"
+    ],
+    "options_hi": [
+      "20",
+      "25",
+      "30",
+      "35"
+    ],
+    "options_mr": [
+      "20",
+      "25",
+      "30",
+      "35"
+    ],
+    "options_bn_draft": [
+      "20",
+      "25",
+      "30",
+      "35"
+    ],
+    "explanation_en": "Innermost bracket: (8 - 3) = 5. Curly bracket: {15 - 5} = 10. Square bracket: [20 + 10] = 30. Expression = 50 - 30 = 20.",
+    "explanation_hi": "सबसे अंदर का कोष्ठक: (8 - 3) = 5। मंझला कोष्ठक: {15 - 5} = 10। बड़ा कोष्ठक: [20 + 10] = 30। व्यंजक = 50 - 30 = 20।",
+    "explanation_mr": "सर्वात आतील कंस: (8 - 3) = 5. मधला कंस: {15 - 5} = 10. मोठा कंस: [20 + 10] = 30. उदाहरण = 50 - 30 = 20.",
+    "explanation_bn_draft": "সবচেয়ে ভেতরের বন্ধনী: (8 - 3) = 5। মাঝের বন্ধনী: {15 - 5} = 10। বড় বন্ধনী: [20 + 10] = 30। রাশিটি = 50 - 30 = 20।"
+  },
+  {
+    "key": "rms6-gem1-ar-02",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2026,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 1,
+    "question_en": "In a school with 600 students, 45% are girls. How many boys are there in the school?",
+    "question_hi": "600 छात्रों वाले एक स्कूल में 45% लड़कियां हैं। स्कूल में लड़कों की संख्या कितनी है?",
+    "question_mr": "600 विद्यार्थी असलेल्या एका शाळेत 45% मुली आहेत. शाळेत मुलांची संख्या किती आहे?",
+    "question_bn_draft": "একটি স্কুলে 600 জন ছাত্রছাত্রীর মধ্যে 45% মেয়ে। স্কুলে ছেলের সংখ্যা কত?",
+    "options_en": [
+      "270",
+      "330",
+      "350",
+      "360"
+    ],
+    "options_hi": [
+      "270",
+      "330",
+      "350",
+      "360"
+    ],
+    "options_mr": [
+      "270",
+      "330",
+      "350",
+      "360"
+    ],
+    "options_bn_draft": [
+      "270",
+      "330",
+      "350",
+      "360"
+    ],
+    "explanation_en": "Percentage of boys = 100% - 45% = 55%. Number of boys = 55% of 600 = (55 / 100) * 600 = 55 * 6 = 330.",
+    "explanation_hi": "लड़कों का प्रतिशत = 100% - 45% = 55%। लड़कों की संख्या = 600 का 55% = 55 * 6 = 330।",
+    "explanation_mr": "मुलांची टक्केवारी = 100% - 45% = 55%. मुलांची संख्या = 600 च्या 55% = (55/100) * 600 = 55 * 6 = 330.",
+    "explanation_bn_draft": "ছেলের শতকরা হার = 100% - 45% = 55%। ছেলের সংখ্যা = 600-এর 55% = (55/100) * 600 = 55 * 6 = 330।"
+  },
+  {
+    "key": "rms6-gem1-ar-03",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2026,
+    "difficulty": "HARD",
+    "correctAnswer": 1,
+    "question_en": "If 15 pens cost ₹225, how much will 24 such pens cost?",
+    "question_hi": "यदि 15 पेन का मूल्य ₹225 है, तो ऐसे ही 24 पेन का मूल्य कितना होगा?",
+    "question_mr": "जर 15 पेनांची किंमत ₹225 असेल, तर तशाच 24 पेनांची किंमत किती असेल?",
+    "question_bn_draft": "যদি 15টি কলমের দাম ₹225 হয়, তাহলে এরকম 24টি কলমের দাম কত হবে?",
+    "options_en": [
+      "₹320",
+      "₹360",
+      "₹380",
+      "₹400"
+    ],
+    "options_hi": [
+      "₹320",
+      "₹360",
+      "₹380",
+      "₹400"
+    ],
+    "options_mr": [
+      "₹320",
+      "₹360",
+      "₹380",
+      "₹400"
+    ],
+    "options_bn_draft": [
+      "₹320",
+      "₹360",
+      "₹380",
+      "₹400"
+    ],
+    "explanation_en": "Cost of 1 pen = 225 / 15 = ₹15. Cost of 24 pens = 24 * 15 = ₹360.",
+    "explanation_hi": "1 पेन का मूल्य = 225 / 15 = ₹15। 24 पेन का मूल्य = 24 * 15 = ₹360।",
+    "explanation_mr": "1 पेनाची किंमत = 225 / 15 = ₹15. 24 पेनांची किंमत = 24 * 15 = ₹360.",
+    "explanation_bn_draft": "1টি কলমের দাম = 225 / 15 = ₹15। 24টি কলমের দাম = 24 * 15 = ₹360।"
+  },
+  {
+    "key": "rms6-gem2-ar-01",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2026,
+    "difficulty": "EASY",
+    "correctAnswer": 0,
+    "question_en": "Convert the decimal 0.375 into an irreducible simple fraction.",
+    "question_hi": "दशमलव 0.375 को एक सरलतम भिन्न (Irreducible Fraction) में बदलिए।",
+    "question_mr": "0.375 या दशांश संख्येला सर्वात सोप्या (अविभाज्य) अपूर्णांकात रूपांतरित करा.",
+    "question_bn_draft": "0.375 দশমিক সংখ্যাটিকে একটি অখণ্ডনীয় সরল ভগ্নাংশে রূপান্তর করো।",
+    "options_en": [
+      "3/8",
+      "3/4",
+      "5/8",
+      "7/20"
+    ],
+    "options_hi": [
+      "3/8",
+      "3/4",
+      "5/8",
+      "7/20"
+    ],
+    "options_mr": [
+      "3/8",
+      "3/4",
+      "5/8",
+      "7/20"
+    ],
+    "options_bn_draft": [
+      "3/8",
+      "3/4",
+      "5/8",
+      "7/20"
+    ],
+    "explanation_en": "0.375 = 375 / 1000. Dividing numerator and denominator by HCF 125 gives 3 / 8.",
+    "explanation_hi": "0.375 = 375 / 1000। अंश और हर को 125 से विभाजित करने पर 3 / 8 प्राप्त होता है।",
+    "explanation_mr": "0.375 = 375 / 1000. अंश आणि छेद यांना मसावि (HCF) 125 ने भागल्यास 3 / 8 मिळते.",
+    "explanation_bn_draft": "0.375 = 375 / 1000। লব ও হরকে গ.সা.গু. 125 দিয়ে ভাগ করলে পাওয়া যায় 3 / 8।"
+  },
+  {
+    "key": "rms6-gem2-ar-02",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2026,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 1,
+    "question_en": "At what rate of simple interest per annum will a principal sum of ₹2,000 double itself in 8 years?",
+    "question_hi": "साधारण ब्याज की किस वार्षिक दर से ₹2,000 का मूलधन 8 वर्षों में दोगुना हो जाएगा?",
+    "question_mr": "साध्या व्याजाच्या कोणत्या वार्षिक दराने ₹2,000 ची मूळ रक्कम 8 वर्षांत दुप्पट होईल?",
+    "question_bn_draft": "সরল সুদের কোন বার্ষিক হারে ₹2,000-এর একটি আসল 8 বছরে দ্বিগুণ হয়ে যাবে?",
+    "options_en": [
+      "10%",
+      "12.5%",
+      "15%",
+      "8%"
+    ],
+    "options_hi": [
+      "10%",
+      "12.5%",
+      "15%",
+      "8%"
+    ],
+    "options_mr": [
+      "10%",
+      "12.5%",
+      "15%",
+      "8%"
+    ],
+    "options_bn_draft": [
+      "10%",
+      "12.5%",
+      "15%",
+      "8%"
+    ],
+    "explanation_en": "To double, SI must equal Principal P = ₹2,000. SI = (P * R * T) / 100 => 2000 = (2000 * R * 8) / 100 => R = 100 / 8 = 12.5%.",
+    "explanation_hi": "दोगुना होने के लिए, ब्याज SI = मूलधन P होना चाहिए। 2000 = (2000 * R * 8) / 100 => R = 100 / 8 = 12.5%।",
+    "explanation_mr": "रक्कम दुप्पट होण्यासाठी, व्याज (SI) मूळ रकमेइतके म्हणजे ₹2,000 असावे लागेल. SI = (P × R × T) / 100 => 2000 = (2000 × R × 8) / 100 => R = 100 / 8 = 12.5%.",
+    "explanation_bn_draft": "দ্বিগুণ হতে হলে, সুদ (SI) অবশ্যই আসল P = ₹2,000-এর সমান হতে হবে। SI = (P * R * T) / 100 => 2000 = (2000 * R * 8) / 100 => R = 100 / 8 = 12.5%।"
+  },
+  {
+    "key": "rms6-gem2-ar-03",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2026,
+    "difficulty": "HARD",
+    "correctAnswer": 1,
+    "question_en": "A bus covers a distance of 180 km in 4 hours. How much distance will it cover in 7 hours running at the same speed?",
+    "question_hi": "एक बस 4 घंटे में 180 किमी की दूरी तय करती है। उसी गति से चलते हुए वह 7 घंटे में कितनी दूरी तय करेगी?",
+    "question_mr": "एक बस 4 तासांत 180 किमी अंतर पार करते. तेवढ्याच वेगाने ती 7 तासांत किती अंतर पार करेल?",
+    "question_bn_draft": "একটি বাস 4 ঘণ্টায় 180 কিমি দূরত্ব অতিক্রম করে। একই গতিতে চললে 7 ঘণ্টায় এটি কত দূরত্ব অতিক্রম করবে?",
+    "options_en": [
+      "285 km",
+      "315 km",
+      "340 km",
+      "360 km"
+    ],
+    "options_hi": [
+      "285 किमी",
+      "315 किमी",
+      "340 किमी",
+      "360 किमी"
+    ],
+    "options_mr": [
+      "285 किमी",
+      "315 किमी",
+      "340 किमी",
+      "360 किमी"
+    ],
+    "options_bn_draft": [
+      "285 কিমি",
+      "315 কিমি",
+      "340 কিমি",
+      "360 কিমি"
+    ],
+    "explanation_en": "Speed = Distance / Time = 180 / 4 = 45 km/h. Distance in 7 hours = Speed * Time = 45 * 7 = 315 km.",
+    "explanation_hi": "चाल = दूरी / समय = 180 / 4 = 45 किमी/घंटा। 7 घंटे में दूरी = 45 * 7 = 315 किमी।",
+    "explanation_mr": "वेग = अंतर / वेळ = 180 / 4 = 45 किमी/तास. 7 तासांतील अंतर = वेग × वेळ = 45 × 7 = 315 किमी.",
+    "explanation_bn_draft": "গতিবেগ = দূরত্ব / সময় = 180 / 4 = 45 কিমি/ঘণ্টা। 7 ঘণ্টায় দূরত্ব = গতিবেগ * সময় = 45 * 7 = 315 কিমি।"
+  },
+  {
+    "key": "rms6-p1-ar-01",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2022,
+    "difficulty": "EASY",
+    "correctAnswer": 2,
+    "question_en": "What is the place value of 5 in 3,527?",
+    "question_hi": "3,527 में 5 का स्थानीय मान क्या है?",
+    "question_mr": "3,527 मध्ये 5 चे स्थानिक मूल्य किती आहे?",
+    "question_bn_draft": "3,527-এ 5-এর স্থানীয় মান কত?",
+    "options_en": [
+      "5",
+      "50",
+      "500",
+      "5000"
+    ],
+    "options_hi": [
+      "5",
+      "50",
+      "500",
+      "5000"
+    ],
+    "options_mr": [
+      "5",
+      "50",
+      "500",
+      "5000"
+    ],
+    "options_bn_draft": [
+      "5",
+      "50",
+      "500",
+      "5000"
+    ],
+    "explanation_en": "In 3,527, 5 is in the hundreds place, so its place value is 5 × 100 = 500.",
+    "explanation_hi": "3,527 में 5 सैकड़े के स्थान पर है, इसलिए इसका स्थानीय मान 5 × 100 = 500 है।",
+    "explanation_mr": "3,527 मध्ये 5 शेकडेच्या स्थानी आहे, म्हणून त्याचे स्थानिक मूल्य 5 × 100 = 500 आहे.",
+    "explanation_bn_draft": "3,527-এ 5 আছে শতকের স্থানে, তাই এর স্থানীয় মান 5 × 100 = 500।"
+  },
+  {
+    "key": "rms6-p1-ar-02",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2022,
+    "difficulty": "EASY",
+    "correctAnswer": 0,
+    "question_en": "Simplify: 30 − 18 ÷ 3 + 2",
+    "question_hi": "सरल करें: 30 − 18 ÷ 3 + 2",
+    "question_mr": "सरळ करा: 30 − 18 ÷ 3 + 2",
+    "question_bn_draft": "সরল করো: 30 − 18 ÷ 3 + 2",
+    "options_en": [
+      "26",
+      "8",
+      "16",
+      "4"
+    ],
+    "options_hi": [
+      "26",
+      "8",
+      "16",
+      "4"
+    ],
+    "options_mr": [
+      "26",
+      "8",
+      "16",
+      "4"
+    ],
+    "options_bn_draft": [
+      "26",
+      "8",
+      "16",
+      "4"
+    ],
+    "explanation_en": "By BODMAS: 18÷3=6 first, then 30−6+2 = 26.",
+    "explanation_hi": "BODMAS नियम से पहले 18÷3=6, फिर 30−6+2 = 26।",
+    "explanation_mr": "BODMAS नियमानुसार आधी 18÷3=6, नंतर 30−6+2 = 26.",
+    "explanation_bn_draft": "BODMAS অনুযায়ী: প্রথমে 18÷3=6, তারপর 30−6+2 = 26।"
+  },
+  {
+    "key": "rms6-p1-ar-03",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2022,
+    "difficulty": "EASY",
+    "correctAnswer": 1,
+    "question_en": "Add: 2/6 + 1/3",
+    "question_hi": "जोड़ें: 2/6 + 1/3",
+    "question_mr": "बेरीज करा: 2/6 + 1/3",
+    "question_bn_draft": "যোগ করো: 2/6 + 1/3",
+    "options_en": [
+      "3/9",
+      "2/3",
+      "1/2",
+      "5/6"
+    ],
+    "options_hi": [
+      "3/9",
+      "2/3",
+      "1/2",
+      "5/6"
+    ],
+    "options_mr": [
+      "3/9",
+      "2/3",
+      "1/2",
+      "5/6"
+    ],
+    "options_bn_draft": [
+      "3/9",
+      "2/3",
+      "1/2",
+      "5/6"
+    ],
+    "explanation_en": "1/3 = 2/6, so 2/6 + 2/6 = 4/6 = 2/3.",
+    "explanation_hi": "1/3 = 2/6, अतः 2/6 + 2/6 = 4/6 = 2/3।",
+    "explanation_mr": "1/3 = 2/6, त्यामुळे 2/6 + 2/6 = 4/6 = 2/3.",
+    "explanation_bn_draft": "1/3 = 2/6, তাই 2/6 + 2/6 = 4/6 = 2/3।"
+  },
+  {
+    "key": "rms6-p1-ar-04",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2022,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 1,
+    "question_en": "Find the LCM of 8 and 20.",
+    "question_hi": "8 और 20 का LCM ज्ञात करें।",
+    "question_mr": "8 आणि 20 चा लसावि काढा.",
+    "question_bn_draft": "8 এবং 20-এর LCM নির্ণয় করো।",
+    "options_en": [
+      "4",
+      "40",
+      "160",
+      "60"
+    ],
+    "options_hi": [
+      "4",
+      "40",
+      "160",
+      "60"
+    ],
+    "options_mr": [
+      "4",
+      "40",
+      "160",
+      "60"
+    ],
+    "options_bn_draft": [
+      "4",
+      "40",
+      "160",
+      "60"
+    ],
+    "explanation_en": "8 = 2³, 20 = 2²×5. LCM = 2³×5 = 40.",
+    "explanation_hi": "8 = 2³, 20 = 2²×5। LCM = 2³×5 = 40।",
+    "explanation_mr": "8 = 2³, 20 = 2²×5. लसावि = 2³×5 = 40.",
+    "explanation_bn_draft": "8 = 2³, 20 = 2²×5। LCM = 2³×5 = 40।"
+  },
+  {
+    "key": "rms6-p1-ar-05",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2022,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 1,
+    "question_en": "Find the HCF of 18 and 45.",
+    "question_hi": "18 और 45 का HCF ज्ञात करें।",
+    "question_mr": "18 आणि 45 चा मसावि काढा.",
+    "question_bn_draft": "18 এবং 45-এর HCF নির্ণয় করো।",
+    "options_en": [
+      "3",
+      "9",
+      "6",
+      "90"
+    ],
+    "options_hi": [
+      "3",
+      "9",
+      "6",
+      "90"
+    ],
+    "options_mr": [
+      "3",
+      "9",
+      "6",
+      "90"
+    ],
+    "options_bn_draft": [
+      "3",
+      "9",
+      "6",
+      "90"
+    ],
+    "explanation_en": "18 = 2×3², 45 = 3²×5. HCF = 3² = 9.",
+    "explanation_hi": "18 = 2×3², 45 = 3²×5। HCF = 3² = 9।",
+    "explanation_mr": "18 = 2×3², 45 = 3²×5. मसावि = 3² = 9.",
+    "explanation_bn_draft": "18 = 2×3², 45 = 3²×5। HCF = 3² = 9।"
+  },
+  {
+    "key": "rms6-p1-ar-06",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2023,
+    "difficulty": "EASY",
+    "correctAnswer": 0,
+    "question_en": "Convert 0.4 to a fraction in lowest terms.",
+    "question_hi": "0.4 को निम्नतम रूप में भिन्न में बदलें।",
+    "question_mr": "0.4 ला लघुत्तम रूपात अपूर्णांकात बदला.",
+    "question_bn_draft": "0.4-কে সরলতম ভগ্নাংশে রূপান্তর করো।",
+    "options_en": [
+      "2/5",
+      "4/10",
+      "1/4",
+      "4/5"
+    ],
+    "options_hi": [
+      "2/5",
+      "4/10",
+      "1/4",
+      "4/5"
+    ],
+    "options_mr": [
+      "2/5",
+      "4/10",
+      "1/4",
+      "4/5"
+    ],
+    "options_bn_draft": [
+      "2/5",
+      "4/10",
+      "1/4",
+      "4/5"
+    ],
+    "explanation_en": "0.4 = 4/10, which simplifies (dividing by 2) to 2/5.",
+    "explanation_hi": "0.4 = 4/10, जिसे 2 से भाग देने पर 2/5 प्राप्त होता है।",
+    "explanation_mr": "0.4 = 4/10, ज्याला 2 ने भागल्यावर 2/5 मिळते.",
+    "explanation_bn_draft": "0.4 = 4/10, যা 2 দিয়ে ভাগ করলে হয় 2/5।"
+  },
+  {
+    "key": "rms6-p1-ar-07",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2023,
+    "difficulty": "EASY",
+    "correctAnswer": 2,
+    "question_en": "What is 25% of 160?",
+    "question_hi": "160 का 25% कितना है?",
+    "question_mr": "160 च्या 25% किती?",
+    "question_bn_draft": "160-এর 25% কত?",
+    "options_en": [
+      "25",
+      "35",
+      "40",
+      "45"
+    ],
+    "options_hi": [
+      "25",
+      "35",
+      "40",
+      "45"
+    ],
+    "options_mr": [
+      "25",
+      "35",
+      "40",
+      "45"
+    ],
+    "options_bn_draft": [
+      "25",
+      "35",
+      "40",
+      "45"
+    ],
+    "explanation_en": "25% of 160 = (25/100) × 160 = 40.",
+    "explanation_hi": "160 का 25% = (25/100) × 160 = 40।",
+    "explanation_mr": "160 च्या 25% = (25/100) × 160 = 40.",
+    "explanation_bn_draft": "160-এর 25% = (25/100) × 160 = 40।"
+  },
+  {
+    "key": "rms6-p1-ar-08",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2023,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 1,
+    "question_en": "A shopkeeper buys a bag for ₹250 and sells it for ₹300. Find the profit percentage.",
+    "question_hi": "एक दुकानदार एक बैग ₹250 में खरीदता है और ₹300 में बेचता है। लाभ प्रतिशत ज्ञात करें।",
+    "question_mr": "एक दुकानदार एक बॅग ₹250 ला खरेदी करतो आणि ₹300 ला विकतो. नफ्याची टक्केवारी काढा.",
+    "question_bn_draft": "একজন দোকানদার একটি ব্যাগ ₹250-তে কেনেন এবং ₹300-তে বিক্রি করেন। লাভের শতকরা হার নির্ণয় করো।",
+    "options_en": [
+      "50%",
+      "20%",
+      "16.6%",
+      "25%"
+    ],
+    "options_hi": [
+      "50%",
+      "20%",
+      "16.6%",
+      "25%"
+    ],
+    "options_mr": [
+      "50%",
+      "20%",
+      "16.6%",
+      "25%"
+    ],
+    "options_bn_draft": [
+      "50%",
+      "20%",
+      "16.6%",
+      "25%"
+    ],
+    "explanation_en": "Profit = 300−250 = 50. Profit% = (50/250)×100 = 20%.",
+    "explanation_hi": "लाभ = 300−250 = 50। लाभ% = (50/250)×100 = 20%।",
+    "explanation_mr": "नफा = 300−250 = 50. नफा% = (50/250)×100 = 20%.",
+    "explanation_bn_draft": "লাভ = 300−250 = 50। লাভ% = (50/250)×100 = 20%।"
+  },
+  {
+    "key": "rms6-p1-ar-09",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2023,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 1,
+    "question_en": "Find the simple interest on ₹2,000 at 6% per annum for 3 years.",
+    "question_hi": "₹2,000 पर 6% वार्षिक दर से 3 वर्ष का साधारण ब्याज ज्ञात करें।",
+    "question_mr": "₹2,000 वर 6% वार्षिक दराने 3 वर्षांचे सरळ व्याज काढा.",
+    "question_bn_draft": "₹2,000-এ বার্ষিক 6% হারে 3 বছরের সরল সুদ নির্ণয় করো।",
+    "options_en": [
+      "₹120",
+      "₹360",
+      "₹2,360",
+      "₹240"
+    ],
+    "options_hi": [
+      "₹120",
+      "₹360",
+      "₹2,360",
+      "₹240"
+    ],
+    "options_mr": [
+      "₹120",
+      "₹360",
+      "₹2,360",
+      "₹240"
+    ],
+    "options_bn_draft": [
+      "₹120",
+      "₹360",
+      "₹2,360",
+      "₹240"
+    ],
+    "explanation_en": "SI = (P×R×T)/100 = (2000×6×3)/100 = ₹360.",
+    "explanation_hi": "SI = (P×R×T)/100 = (2000×6×3)/100 = ₹360।",
+    "explanation_mr": "SI = (P×R×T)/100 = (2000×6×3)/100 = ₹360.",
+    "explanation_bn_draft": "SI = (P×R×T)/100 = (2000×6×3)/100 = ₹360।"
+  },
+  {
+    "key": "rms6-p1-ar-10",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2023,
+    "difficulty": "HARD",
+    "correctAnswer": 0,
+    "question_en": "Divide ₹900 among P, Q, and R in the ratio 2:3:4. Find P's share.",
+    "question_hi": "₹900 को P, Q और R में 2:3:4 के अनुपात में बाँटें। P का हिस्सा ज्ञात करें।",
+    "question_mr": "₹900 ला P, Q आणि R मध्ये 2:3:4 या प्रमाणात वाटा. P चा वाटा काढा.",
+    "question_bn_draft": "₹900 টাকা P, Q এবং R-এর মধ্যে 2:3:4 অনুপাতে ভাগ করো। P-এর ভাগ নির্ণয় করো।",
+    "options_en": [
+      "₹200",
+      "₹300",
+      "₹400",
+      "₹100"
+    ],
+    "options_hi": [
+      "₹200",
+      "₹300",
+      "₹400",
+      "₹100"
+    ],
+    "options_mr": [
+      "₹200",
+      "₹300",
+      "₹400",
+      "₹100"
+    ],
+    "options_bn_draft": [
+      "₹200",
+      "₹300",
+      "₹400",
+      "₹100"
+    ],
+    "explanation_en": "Total parts = 2+3+4 = 9. P's share = (2/9)×900 = ₹200.",
+    "explanation_hi": "कुल भाग = 2+3+4 = 9। P का हिस्सा = (2/9)×900 = ₹200।",
+    "explanation_mr": "एकूण भाग = 2+3+4 = 9. P चा वाटा = (2/9)×900 = ₹200.",
+    "explanation_bn_draft": "মোট অংশ = 2+3+4 = 9। P-এর ভাগ = (2/9)×900 = ₹200।"
+  },
+  {
+    "key": "rms6-p1-ar-11",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2024,
+    "difficulty": "EASY",
+    "correctAnswer": 1,
+    "question_en": "A cyclist travels 90 km in 5 hours. What is his speed?",
+    "question_hi": "एक साइकिल चालक 5 घंटे में 90 किमी की दूरी तय करता है। उसकी गति क्या है?",
+    "question_mr": "एक सायकलस्वार 5 तासांत 90 किमी अंतर पार करतो. त्याचा वेग किती?",
+    "question_bn_draft": "একজন সাইকেল আরোহী 5 ঘণ্টায় 90 কিমি যান। তাঁর গতিবেগ কত?",
+    "options_en": [
+      "15 km/h",
+      "18 km/h",
+      "20 km/h",
+      "22 km/h"
+    ],
+    "options_hi": [
+      "15 किमी/घं",
+      "18 किमी/घं",
+      "20 किमी/घं",
+      "22 किमी/घं"
+    ],
+    "options_mr": [
+      "15 किमी/तास",
+      "18 किमी/तास",
+      "20 किमी/तास",
+      "22 किमी/तास"
+    ],
+    "options_bn_draft": [
+      "15 কিমি/ঘ",
+      "18 কিমি/ঘ",
+      "20 কিমি/ঘ",
+      "22 কিমি/ঘ"
+    ],
+    "explanation_en": "Speed = Distance/Time = 90/5 = 18 km/h.",
+    "explanation_hi": "गति = दूरी/समय = 90/5 = 18 किमी/घं।",
+    "explanation_mr": "वेग = अंतर/वेळ = 90/5 = 18 किमी/तास.",
+    "explanation_bn_draft": "গতিবেগ = দূরত্ব/সময় = 90/5 = 18 কিমি/ঘ।"
+  },
+  {
+    "key": "rms6-p1-ar-12",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2024,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 0,
+    "question_en": "If 6 soldiers can dig a trench in 20 days, how many days will 15 soldiers take (at the same rate)?",
+    "question_hi": "यदि 6 सैनिक एक खाई 20 दिनों में खोद सकते हैं, तो 15 सैनिक (उसी दर पर) कितने दिन लेंगे?",
+    "question_mr": "जर 6 सैनिक एक खंदक 20 दिवसांत खोदू शकतात, तर 15 सैनिक (त्याच वेगाने) किती दिवसांत खोदतील?",
+    "question_bn_draft": "যদি 6 জন সৈনিক একটি পরিখা 20 দিনে খনন করতে পারে, তাহলে 15 জন সৈনিক (একই হারে) কত দিনে খনন করবে?",
+    "options_en": [
+      "8 days",
+      "12 days",
+      "50 days",
+      "10 days"
+    ],
+    "options_hi": [
+      "8 दिन",
+      "12 दिन",
+      "50 दिन",
+      "10 दिन"
+    ],
+    "options_mr": [
+      "8 दिवस",
+      "12 दिवस",
+      "50 दिवस",
+      "10 दिवस"
+    ],
+    "options_bn_draft": [
+      "8 দিন",
+      "12 দিন",
+      "50 দিন",
+      "10 দিন"
+    ],
+    "explanation_en": "Total work = 6×20 = 120 soldier-days. With 15 soldiers: 120/15 = 8 days.",
+    "explanation_hi": "कुल कार्य = 6×20 = 120 सैनिक-दिन। 15 सैनिकों के साथ: 120/15 = 8 दिन।",
+    "explanation_mr": "एकूण काम = 6×20 = 120 सैनिक-दिवस. 15 सैनिकांसह: 120/15 = 8 दिवस.",
+    "explanation_bn_draft": "মোট কাজ = 6×20 = 120 সৈনিক-দিন। 15 জন সৈনিক দিয়ে: 120/15 = 8 দিন।"
+  },
+  {
+    "key": "rms6-p1-ar-13",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2024,
+    "difficulty": "EASY",
+    "correctAnswer": 0,
+    "question_en": "Find the average of 20, 25, 30, and 45.",
+    "question_hi": "20, 25, 30 और 45 का औसत ज्ञात करें।",
+    "question_mr": "20, 25, 30 आणि 45 ची सरासरी काढा.",
+    "question_bn_draft": "20, 25, 30 এবং 45-এর গড় নির্ণয় করো।",
+    "options_en": [
+      "30",
+      "28",
+      "32",
+      "25"
+    ],
+    "options_hi": [
+      "30",
+      "28",
+      "32",
+      "25"
+    ],
+    "options_mr": [
+      "30",
+      "28",
+      "32",
+      "25"
+    ],
+    "options_bn_draft": [
+      "30",
+      "28",
+      "32",
+      "25"
+    ],
+    "explanation_en": "Sum = 20+25+30+45 = 120. Average = 120/4 = 30.",
+    "explanation_hi": "योग = 20+25+30+45 = 120। औसत = 120/4 = 30।",
+    "explanation_mr": "बेरीज = 20+25+30+45 = 120. सरासरी = 120/4 = 30.",
+    "explanation_bn_draft": "যোগফল = 20+25+30+45 = 120। গড় = 120/4 = 30।"
+  },
+  {
+    "key": "rms6-p1-ar-14",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2024,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 0,
+    "question_en": "The cost of 4 notebooks is ₹96. What is the cost of 9 notebooks?",
+    "question_hi": "4 नोटबुक की कीमत ₹96 है। 9 नोटबुक की कीमत क्या होगी?",
+    "question_mr": "4 वहींची किंमत ₹96 आहे. 9 वहींची किंमत किती असेल?",
+    "question_bn_draft": "4টি নোটবুকের দাম ₹96। 9টি নোটবুকের দাম কত হবে?",
+    "options_en": [
+      "₹216",
+      "₹200",
+      "₹180",
+      "₹864"
+    ],
+    "options_hi": [
+      "₹216",
+      "₹200",
+      "₹180",
+      "₹864"
+    ],
+    "options_mr": [
+      "₹216",
+      "₹200",
+      "₹180",
+      "₹864"
+    ],
+    "options_bn_draft": [
+      "₹216",
+      "₹200",
+      "₹180",
+      "₹864"
+    ],
+    "explanation_en": "Cost of 1 notebook = 96/4 = ₹24. Cost of 9 notebooks = 24×9 = ₹216.",
+    "explanation_hi": "1 नोटबुक की कीमत = 96/4 = ₹24। 9 नोटबुक की कीमत = 24×9 = ₹216।",
+    "explanation_mr": "1 वहीची किंमत = 96/4 = ₹24. 9 वहींची किंमत = 24×9 = ₹216.",
+    "explanation_bn_draft": "1টি নোটবুকের দাম = 96/4 = ₹24। 9টি নোটবুকের দাম = 24×9 = ₹216।"
+  },
+  {
+    "key": "rms6-p1-ar-15",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2024,
+    "difficulty": "HARD",
+    "correctAnswer": 0,
+    "question_en": "A sum of money becomes ₹1,440 in 4 years and ₹1,680 in 8 years at simple interest. Find the rate of interest per annum.",
+    "question_hi": "एक धनराशि साधारण ब्याज पर 4 वर्ष में ₹1,440 और 8 वर्ष में ₹1,680 हो जाती है। वार्षिक ब्याज दर ज्ञात करें।",
+    "question_mr": "एक रक्कम सरळ व्याजावर 4 वर्षांत ₹1,440 आणि 8 वर्षांत ₹1,680 होते. वार्षिक व्याजदर काढा.",
+    "question_bn_draft": "একটি টাকার পরিমাণ সরল সুদে 4 বছরে ₹1,440 এবং 8 বছরে ₹1,680 হয়ে যায়। বার্ষিক সুদের হার নির্ণয় করো।",
+    "options_en": [
+      "5%",
+      "6%",
+      "8%",
+      "10%"
+    ],
+    "options_hi": [
+      "5%",
+      "6%",
+      "8%",
+      "10%"
+    ],
+    "options_mr": [
+      "5%",
+      "6%",
+      "8%",
+      "10%"
+    ],
+    "options_bn_draft": [
+      "5%",
+      "6%",
+      "8%",
+      "10%"
+    ],
+    "explanation_en": "Interest for 4 extra years = 1680−1440 = ₹240, so yearly interest = ₹60. Principal = 1440 − 4×60 = ₹1,200. Rate = (60×100)/1200 = 5%.",
+    "explanation_hi": "4 अतिरिक्त वर्षों का ब्याज = 1680−1440 = ₹240, अतः वार्षिक ब्याज = ₹60। मूलधन = 1440 − 4×60 = ₹1,200। दर = (60×100)/1200 = 5%।",
+    "explanation_mr": "4 जास्त वर्षांचे व्याज = 1680−1440 = ₹240, म्हणजे वार्षिक व्याज = ₹60. मुद्दल = 1440 − 4×60 = ₹1,200. दर = (60×100)/1200 = 5%.",
+    "explanation_bn_draft": "4 অতিরিক্ত বছরের সুদ = 1680−1440 = ₹240, তাই বাৎসরিক সুদ = ₹60। আসল = 1440 − 4×60 = ₹1,200। হার = (60×100)/1200 = 5%।"
+  },
+  {
+    "key": "rms6-p1-ar-16",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2025,
+    "difficulty": "EASY",
+    "correctAnswer": 1,
+    "question_en": "Round 7,362 to the nearest hundred.",
+    "question_hi": "7,362 को निकटतम सौ तक सन्निकटित करें।",
+    "question_mr": "7,362 ला निकटतम शेकड्यापर्यंत पूर्णांकित करा.",
+    "question_bn_draft": "7,362-কে নিকটতম শতকে রাউন্ড করো।",
+    "options_en": [
+      "7,300",
+      "7,400",
+      "7,000",
+      "7,360"
+    ],
+    "options_hi": [
+      "7,300",
+      "7,400",
+      "7,000",
+      "7,360"
+    ],
+    "options_mr": [
+      "7,300",
+      "7,400",
+      "7,000",
+      "7,360"
+    ],
+    "options_bn_draft": [
+      "7,300",
+      "7,400",
+      "7,000",
+      "7,360"
+    ],
+    "explanation_en": "The tens digit of 7,362 is 6 (≥5), so it rounds up to 7,400.",
+    "explanation_hi": "7,362 में दहाई का अंक 6 है (≥5), इसलिए यह पूर्णांकित होकर 7,400 बनता है।",
+    "explanation_mr": "7,362 मध्ये दहाईचा अंक 6 आहे (≥5), म्हणून तो पूर्णांकित होऊन 7,400 होतो.",
+    "explanation_bn_draft": "7,362-এর দশকের অঙ্কটি হল 6 (≥5), তাই এটি রাউন্ড হয়ে হয় 7,400।"
+  },
+  {
+    "key": "rms6-p1-ar-17",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2025,
+    "difficulty": "EASY",
+    "correctAnswer": 0,
+    "question_en": "Write 1947 in Roman numerals.",
+    "question_hi": "1947 को रोमन अंकों में लिखें।",
+    "question_mr": "1947 रोमन अंकांत लिहा.",
+    "question_bn_draft": "1947-কে রোমান সংখ্যায় লেখো।",
+    "options_en": [
+      "MCMXLVII",
+      "MCMXLIIV",
+      "MDCCCCXLVII",
+      "MCMXLVI"
+    ],
+    "options_hi": [
+      "MCMXLVII",
+      "MCMXLIIV",
+      "MDCCCCXLVII",
+      "MCMXLVI"
+    ],
+    "options_mr": [
+      "MCMXLVII",
+      "MCMXLIIV",
+      "MDCCCCXLVII",
+      "MCMXLVI"
+    ],
+    "options_bn_draft": [
+      "MCMXLVII",
+      "MCMXLIIV",
+      "MDCCCCXLVII",
+      "MCMXLVI"
+    ],
+    "explanation_en": "1947 = 1000+900+40+7 = M+CM+XL+VII = MCMXLVII.",
+    "explanation_hi": "1947 = 1000+900+40+7 = M+CM+XL+VII = MCMXLVII।",
+    "explanation_mr": "1947 = 1000+900+40+7 = M+CM+XL+VII = MCMXLVII.",
+    "explanation_bn_draft": "1947 = 1000+900+40+7 = M+CM+XL+VII = MCMXLVII।"
+  },
+  {
+    "key": "rms6-p1-ar-18",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2025,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 2,
+    "question_en": "Find the perimeter of a rectangle with length 15 cm and breadth 9 cm.",
+    "question_hi": "15 सेमी लंबाई और 9 सेमी चौड़ाई वाले एक आयत का परिमाप ज्ञात करें।",
+    "question_mr": "15 सेमी लांबी आणि 9 सेमी रुंदी असलेल्या आयताचा परिमिती काढा.",
+    "question_bn_draft": "15 সেমি দৈর্ঘ্য এবং 9 সেমি প্রস্থবিশিষ্ট একটি আয়তক্ষেত্রের পরিসীমা নির্ণয় করো।",
+    "options_en": [
+      "24 cm",
+      "135 cm",
+      "48 cm",
+      "50 cm"
+    ],
+    "options_hi": [
+      "24 सेमी",
+      "135 सेमी",
+      "48 सेमी",
+      "50 सेमी"
+    ],
+    "options_mr": [
+      "24 सेमी",
+      "135 सेमी",
+      "48 सेमी",
+      "50 सेमी"
+    ],
+    "options_bn_draft": [
+      "24 সেমি",
+      "135 সেমি",
+      "48 সেমি",
+      "50 সেমি"
+    ],
+    "explanation_en": "Perimeter = 2×(length+breadth) = 2×(15+9) = 48 cm.",
+    "explanation_hi": "परिमाप = 2×(लंबाई+चौड़ाई) = 2×(15+9) = 48 सेमी।",
+    "explanation_mr": "परिमिती = 2×(लांबी+रुंदी) = 2×(15+9) = 48 सेमी.",
+    "explanation_bn_draft": "পরিসীমা = 2×(দৈর্ঘ্য+প্রস্থ) = 2×(15+9) = 48 সেমি।"
+  },
+  {
+    "key": "rms6-p1-ar-19",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2025,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 1,
+    "question_en": "Find the area of a square whose side is 11 cm.",
+    "question_hi": "11 सेमी भुजा वाले एक वर्ग का क्षेत्रफल ज्ञात करें।",
+    "question_mr": "11 सेमी बाजू असलेल्या चौरसाचे क्षेत्रफळ काढा.",
+    "question_bn_draft": "11 সেমি বাহুবিশিষ্ট একটি বর্গক্ষেত্রের ক্ষেত্রফল নির্ণয় করো।",
+    "options_en": [
+      "44 cm²",
+      "121 cm²",
+      "22 cm²",
+      "110 cm²"
+    ],
+    "options_hi": [
+      "44 सेमी²",
+      "121 सेमी²",
+      "22 सेमी²",
+      "110 सेमी²"
+    ],
+    "options_mr": [
+      "44 सेमी²",
+      "121 सेमी²",
+      "22 सेमी²",
+      "110 सेमी²"
+    ],
+    "options_bn_draft": [
+      "44 সেমি²",
+      "121 সেমি²",
+      "22 সেমি²",
+      "110 সেমি²"
+    ],
+    "explanation_en": "Area of a square = side² = 11² = 121 cm².",
+    "explanation_hi": "वर्ग का क्षेत्रफल = भुजा² = 11² = 121 सेमी²।",
+    "explanation_mr": "चौरसाचे क्षेत्रफळ = बाजू² = 11² = 121 सेमी².",
+    "explanation_bn_draft": "বর্গক্ষেত্রের ক্ষেত্রফল = বাহু² = 11² = 121 সেমি²।"
+  },
+  {
+    "key": "rms6-p1-ar-20",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2025,
+    "difficulty": "EASY",
+    "correctAnswer": 2,
+    "question_en": "Which of these is a prime number?",
+    "question_hi": "इनमें से कौन-सी एक अभाज्य संख्या है?",
+    "question_mr": "यांपैकी कोणती संख्या अभाज्य आहे?",
+    "question_bn_draft": "এদের মধ্যে কোনটি একটি মৌলিক সংখ্যা?",
+    "options_en": [
+      "35",
+      "39",
+      "37",
+      "51"
+    ],
+    "options_hi": [
+      "35",
+      "39",
+      "37",
+      "51"
+    ],
+    "options_mr": [
+      "35",
+      "39",
+      "37",
+      "51"
+    ],
+    "options_bn_draft": [
+      "35",
+      "39",
+      "37",
+      "51"
+    ],
+    "explanation_en": "37 has only two factors, 1 and 37, so it is prime; the others factor further (35=5×7, 39=3×13, 51=3×17).",
+    "explanation_hi": "37 के केवल दो गुणनखंड हैं, 1 और 37, इसलिए यह अभाज्य है; बाकी संख्याएँ आगे विभाजित होती हैं (35=5×7, 39=3×13, 51=3×17)।",
+    "explanation_mr": "37 ला फक्त दोन अवयव आहेत, 1 आणि 37, म्हणून ती अभाज्य आहे; इतर संख्या आणखी विभागल्या जातात (35=5×7, 39=3×13, 51=3×17).",
+    "explanation_bn_draft": "37-এর মাত্র দুটি গুণনীয়ক আছে, 1 এবং 37, তাই এটি মৌলিক; বাকিগুলি আরও ভাগ করা যায় (35=5×7, 39=3×13, 51=3×17)।"
+  },
+  {
+    "key": "rms6-p1-ar-21",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2022,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 0,
+    "question_en": "Simplify: 2/5 of 5/6 + 1/3",
+    "question_hi": "सरल करें: 5/6 का 2/5 + 1/3",
+    "question_mr": "सरळ करा: 5/6 चा 2/5 + 1/3",
+    "question_bn_draft": "সরল করো: 5/6-এর 2/5 + 1/3",
+    "options_en": [
+      "2/3",
+      "1/3",
+      "5/6",
+      "3/5"
+    ],
+    "options_hi": [
+      "2/3",
+      "1/3",
+      "5/6",
+      "3/5"
+    ],
+    "options_mr": [
+      "2/3",
+      "1/3",
+      "5/6",
+      "3/5"
+    ],
+    "options_bn_draft": [
+      "2/3",
+      "1/3",
+      "5/6",
+      "3/5"
+    ],
+    "explanation_en": "2/5 of 5/6 = (2×5)/(5×6) = 1/3. Then 1/3 + 1/3 = 2/3.",
+    "explanation_hi": "2/5 का 5/6 = (2×5)/(5×6) = 1/3। फिर 1/3 + 1/3 = 2/3।",
+    "explanation_mr": "2/5 चा 5/6 = (2×5)/(5×6) = 1/3. नंतर 1/3 + 1/3 = 2/3.",
+    "explanation_bn_draft": "5/6-এর 2/5 = (2×5)/(5×6) = 1/3। তারপর 1/3 + 1/3 = 2/3।"
+  },
+  {
+    "key": "rms6-p1-ar-22",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2022,
+    "difficulty": "EASY",
+    "correctAnswer": 1,
+    "question_en": "What is the predecessor of 50,000?",
+    "question_hi": "50,000 का पूर्ववर्ती क्या है?",
+    "question_mr": "50,000 चा पूर्ववर्ती किती आहे?",
+    "question_bn_draft": "50,000-এর পূর্ববর্তী সংখ্যা কী?",
+    "options_en": [
+      "50,001",
+      "49,999",
+      "49,000",
+      "5,000"
+    ],
+    "options_hi": [
+      "50,001",
+      "49,999",
+      "49,000",
+      "5,000"
+    ],
+    "options_mr": [
+      "50,001",
+      "49,999",
+      "49,000",
+      "5,000"
+    ],
+    "options_bn_draft": [
+      "50,001",
+      "49,999",
+      "49,000",
+      "5,000"
+    ],
+    "explanation_en": "The predecessor of a number is 1 less than it: 50,000−1 = 49,999.",
+    "explanation_hi": "किसी संख्या का पूर्ववर्ती उससे 1 कम होता है: 50,000−1 = 49,999।",
+    "explanation_mr": "एखाद्या संख्येचा पूर्ववर्ती तिच्यापेक्षा 1 कमी असतो: 50,000−1 = 49,999.",
+    "explanation_bn_draft": "কোনো সংখ্যার পূর্ববর্তী সংখ্যা তার চেয়ে 1 কম হয়: 50,000−1 = 49,999।"
+  },
+  {
+    "key": "rms6-p1-ar-23",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2022,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 1,
+    "question_en": "Two numbers are in the ratio 4:5. If their sum is 90, find the larger number.",
+    "question_hi": "दो संख्याएँ 4:5 के अनुपात में हैं। यदि उनका योग 90 है, तो बड़ी संख्या ज्ञात करें।",
+    "question_mr": "दोन संख्या 4:5 या प्रमाणात आहेत. त्यांची बेरीज 90 असल्यास मोठी संख्या काढा.",
+    "question_bn_draft": "দুটি সংখ্যা 4:5 অনুপাতে আছে। যদি তাদের যোগফল 90 হয়, তাহলে বড় সংখ্যাটি নির্ণয় করো।",
+    "options_en": [
+      "40",
+      "50",
+      "45",
+      "36"
+    ],
+    "options_hi": [
+      "40",
+      "50",
+      "45",
+      "36"
+    ],
+    "options_mr": [
+      "40",
+      "50",
+      "45",
+      "36"
+    ],
+    "options_bn_draft": [
+      "40",
+      "50",
+      "45",
+      "36"
+    ],
+    "explanation_en": "Total parts = 4+5 = 9. Larger number = (5/9)×90 = 50.",
+    "explanation_hi": "कुल भाग = 4+5 = 9। बड़ी संख्या = (5/9)×90 = 50।",
+    "explanation_mr": "एकूण भाग = 4+5 = 9. मोठी संख्या = (5/9)×90 = 50.",
+    "explanation_bn_draft": "মোট অংশ = 4+5 = 9। বড় সংখ্যা = (5/9)×90 = 50।"
+  },
+  {
+    "key": "rms6-p1-ar-24",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2023,
+    "difficulty": "EASY",
+    "correctAnswer": 0,
+    "question_en": "Subtract: 9.6 − 4.75",
+    "question_hi": "घटाएँ: 9.6 − 4.75",
+    "question_mr": "वजा करा: 9.6 − 4.75",
+    "question_bn_draft": "বিয়োগ করো: 9.6 − 4.75",
+    "options_en": [
+      "4.85",
+      "5.15",
+      "4.15",
+      "5.85"
+    ],
+    "options_hi": [
+      "4.85",
+      "5.15",
+      "4.15",
+      "5.85"
+    ],
+    "options_mr": [
+      "4.85",
+      "5.15",
+      "4.15",
+      "5.85"
+    ],
+    "options_bn_draft": [
+      "4.85",
+      "5.15",
+      "4.15",
+      "5.85"
+    ],
+    "explanation_en": "9.60 − 4.75 = 4.85.",
+    "explanation_hi": "9.60 − 4.75 = 4.85।",
+    "explanation_mr": "9.60 − 4.75 = 4.85.",
+    "explanation_bn_draft": "9.60 − 4.75 = 4.85।"
+  },
+  {
+    "key": "rms6-p1-ar-25",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2023,
+    "difficulty": "HARD",
+    "correctAnswer": 1,
+    "question_en": "A train 200 m long crosses a pole in 20 seconds. Find its speed in km/h.",
+    "question_hi": "200 मीटर लंबी एक ट्रेन एक खंभे को 20 सेकंड में पार करती है। इसकी गति किमी/घं में ज्ञात करें।",
+    "question_mr": "200 मीटर लांबीची रेल्वे एक खांब 20 सेकंदांत पार करते. तिचा वेग किमी/तास मध्ये काढा.",
+    "question_bn_draft": "200 মিটার দীর্ঘ একটি ট্রেন একটি খুঁটি 20 সেকেন্ডে অতিক্রম করে। এর গতিবেগ কিমি/ঘণ্টায় নির্ণয় করো।",
+    "options_en": [
+      "10 km/h",
+      "36 km/h",
+      "20 km/h",
+      "40 km/h"
+    ],
+    "options_hi": [
+      "10 किमी/घं",
+      "36 किमी/घं",
+      "20 किमी/घं",
+      "40 किमी/घं"
+    ],
+    "options_mr": [
+      "10 किमी/तास",
+      "36 किमी/तास",
+      "20 किमी/तास",
+      "40 किमी/तास"
+    ],
+    "options_bn_draft": [
+      "10 কিমি/ঘ",
+      "36 কিমি/ঘ",
+      "20 কিমি/ঘ",
+      "40 কিমি/ঘ"
+    ],
+    "explanation_en": "Speed = 200m/20s = 10 m/s. Converting: 10 × 18/5 = 36 km/h.",
+    "explanation_hi": "गति = 200मी/20से = 10 मी/से। किमी/घं में: 10 × 18/5 = 36 किमी/घं।",
+    "explanation_mr": "वेग = 200मी/20से = 10 मी/से. किमी/तास मध्ये: 10 × 18/5 = 36 किमी/तास.",
+    "explanation_bn_draft": "গতিবেগ = 200মি/20সে = 10 মি/সে। কিমি/ঘণ্টায় রূপান্তর করলে: 10 × 18/5 = 36 কিমি/ঘ।"
+  },
+  {
+    "key": "rms6-p1-ar-26",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2024,
+    "difficulty": "EASY",
+    "correctAnswer": 0,
+    "question_en": "Multiply: 3.5 × 1.4",
+    "question_hi": "गुणा करें: 3.5 × 1.4",
+    "question_mr": "गुणाकार करा: 3.5 × 1.4",
+    "question_bn_draft": "গুণ করো: 3.5 × 1.4",
+    "options_en": [
+      "4.9",
+      "4.2",
+      "5.6",
+      "49"
+    ],
+    "options_hi": [
+      "4.9",
+      "4.2",
+      "5.6",
+      "49"
+    ],
+    "options_mr": [
+      "4.9",
+      "4.2",
+      "5.6",
+      "49"
+    ],
+    "options_bn_draft": [
+      "4.9",
+      "4.2",
+      "5.6",
+      "49"
+    ],
+    "explanation_en": "35 × 14 = 490, and with two decimal places total, 3.5 × 1.4 = 4.90 = 4.9.",
+    "explanation_hi": "35 × 14 = 490, और कुल दो दशमलव स्थान होने से, 3.5 × 1.4 = 4.90 = 4.9।",
+    "explanation_mr": "35 × 14 = 490, आणि एकूण दोन दशांश स्थाने असल्याने, 3.5 × 1.4 = 4.90 = 4.9.",
+    "explanation_bn_draft": "35 × 14 = 490, এবং মোট দুটি দশমিক স্থান থাকায়, 3.5 × 1.4 = 4.90 = 4.9।"
+  },
+  {
+    "key": "rms6-p1-ar-27",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2024,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 0,
+    "question_en": "Find the value of x: 5x − 8 = 27",
+    "question_hi": "x का मान ज्ञात करें: 5x − 8 = 27",
+    "question_mr": "x चे मूल्य काढा: 5x − 8 = 27",
+    "question_bn_draft": "x-এর মান নির্ণয় করো: 5x − 8 = 27",
+    "options_en": [
+      "7",
+      "5",
+      "8",
+      "35/5"
+    ],
+    "options_hi": [
+      "7",
+      "5",
+      "8",
+      "35/5"
+    ],
+    "options_mr": [
+      "7",
+      "5",
+      "8",
+      "35/5"
+    ],
+    "options_bn_draft": [
+      "7",
+      "5",
+      "8",
+      "35/5"
+    ],
+    "explanation_en": "5x = 27+8 = 35, so x = 35/5 = 7.",
+    "explanation_hi": "5x = 27+8 = 35, अतः x = 35/5 = 7।",
+    "explanation_mr": "5x = 27+8 = 35, म्हणून x = 35/5 = 7.",
+    "explanation_bn_draft": "5x = 27+8 = 35, তাই x = 35/5 = 7।"
+  },
+  {
+    "key": "rms6-p1-ar-28",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2024,
+    "difficulty": "EASY",
+    "correctAnswer": 2,
+    "question_en": "Express 2:5 as a percentage.",
+    "question_hi": "2:5 को प्रतिशत के रूप में व्यक्त करें।",
+    "question_mr": "2:5 ला टक्केवारीत व्यक्त करा.",
+    "question_bn_draft": "2:5-কে শতকরায় প্রকাশ করো।",
+    "options_en": [
+      "25%",
+      "52%",
+      "40%",
+      "45%"
+    ],
+    "options_hi": [
+      "25%",
+      "52%",
+      "40%",
+      "45%"
+    ],
+    "options_mr": [
+      "25%",
+      "52%",
+      "40%",
+      "45%"
+    ],
+    "options_bn_draft": [
+      "25%",
+      "52%",
+      "40%",
+      "45%"
+    ],
+    "explanation_en": "2:5 = 2/5 = 0.4 = 40%.",
+    "explanation_hi": "2:5 = 2/5 = 0.4 = 40%।",
+    "explanation_mr": "2:5 = 2/5 = 0.4 = 40%.",
+    "explanation_bn_draft": "2:5 = 2/5 = 0.4 = 40%।"
+  },
+  {
+    "key": "rms6-p1-ar-29",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2025,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 0,
+    "question_en": "A shopkeeper marks an item at ₹800 and gives a discount of 15%. Find the selling price.",
+    "question_hi": "एक दुकानदार एक वस्तु का अंकित मूल्य ₹800 रखता है और 15% छूट देता है। विक्रय मूल्य ज्ञात करें।",
+    "question_mr": "एक दुकानदार वस्तूची किंमत ₹800 ठेवतो आणि 15% सूट देतो. विक्री किंमत काढा.",
+    "question_bn_draft": "একজন দোকানদার একটি জিনিসের দাম ₹800 ধার্য করেন এবং 15% ছাড় দেন। বিক্রয়মূল্য নির্ণয় করো।",
+    "options_en": [
+      "₹680",
+      "₹720",
+      "₹785",
+      "₹700"
+    ],
+    "options_hi": [
+      "₹680",
+      "₹720",
+      "₹785",
+      "₹700"
+    ],
+    "options_mr": [
+      "₹680",
+      "₹720",
+      "₹785",
+      "₹700"
+    ],
+    "options_bn_draft": [
+      "₹680",
+      "₹720",
+      "₹785",
+      "₹700"
+    ],
+    "explanation_en": "Discount = 15% of 800 = ₹120. Selling price = 800−120 = ₹680.",
+    "explanation_hi": "छूट = 800 का 15% = ₹120। विक्रय मूल्य = 800−120 = ₹680।",
+    "explanation_mr": "सूट = 800 चा 15% = ₹120. विक्री किंमत = 800−120 = ₹680.",
+    "explanation_bn_draft": "ছাড় = 800-এর 15% = ₹120। বিক্রয়মূল্য = 800−120 = ₹680।"
+  },
+  {
+    "key": "rms6-p1-ar-30",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2025,
+    "difficulty": "EASY",
+    "correctAnswer": 0,
+    "question_en": "What is 9 × 6 − 8 ÷ 4?",
+    "question_hi": "9 × 6 − 8 ÷ 4 का मान क्या है?",
+    "question_mr": "9 × 6 − 8 ÷ 4 चे मूल्य किती?",
+    "question_bn_draft": "9 × 6 − 8 ÷ 4-এর মান কত?",
+    "options_en": [
+      "52",
+      "11.5",
+      "46",
+      "40"
+    ],
+    "options_hi": [
+      "52",
+      "11.5",
+      "46",
+      "40"
+    ],
+    "options_mr": [
+      "52",
+      "11.5",
+      "46",
+      "40"
+    ],
+    "options_bn_draft": [
+      "52",
+      "11.5",
+      "46",
+      "40"
+    ],
+    "explanation_en": "By BODMAS: 9×6=54, 8÷4=2, so 54−2 = 52.",
+    "explanation_hi": "BODMAS नियम से: 9×6=54, 8÷4=2, अतः 54−2 = 52।",
+    "explanation_mr": "BODMAS नियमानुसार: 9×6=54, 8÷4=2, म्हणून 54−2 = 52.",
+    "explanation_bn_draft": "BODMAS অনুযায়ী: 9×6=54, 8÷4=2, তাই 54−2 = 52।"
+  },
+  {
+    "key": "rms6-p1-ar-31",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2022,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 0,
+    "question_en": "Find the value of: 5/6 ÷ 10/9",
+    "question_hi": "मान ज्ञात करें: 5/6 ÷ 10/9",
+    "question_mr": "मूल्य काढा: 5/6 ÷ 10/9",
+    "question_bn_draft": "মান নির্ণয় করো: 5/6 ÷ 10/9",
+    "options_en": [
+      "3/4",
+      "50/54",
+      "5/6",
+      "4/3"
+    ],
+    "options_hi": [
+      "3/4",
+      "50/54",
+      "5/6",
+      "4/3"
+    ],
+    "options_mr": [
+      "3/4",
+      "50/54",
+      "5/6",
+      "4/3"
+    ],
+    "options_bn_draft": [
+      "3/4",
+      "50/54",
+      "5/6",
+      "4/3"
+    ],
+    "explanation_en": "Dividing by a fraction means multiplying by its reciprocal: 5/6 × 9/10 = 45/60 = 3/4.",
+    "explanation_hi": "किसी भिन्न से भाग देना उसके व्युत्क्रम से गुणा करने के समान है: 5/6 × 9/10 = 45/60 = 3/4।",
+    "explanation_mr": "अपूर्णांकाने भागणे म्हणजे त्याच्या व्यस्ताने गुणणे: 5/6 × 9/10 = 45/60 = 3/4.",
+    "explanation_bn_draft": "কোনো ভগ্নাংশ দিয়ে ভাগ করা মানে তার অন্যোন্যক দিয়ে গুণ করা: 5/6 × 9/10 = 45/60 = 3/4।"
+  },
+  {
+    "key": "rms6-p1-ar-32",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2022,
+    "difficulty": "EASY",
+    "correctAnswer": 0,
+    "question_en": "Which is the greatest 3-digit number?",
+    "question_hi": "सबसे बड़ी 3 अंकों की संख्या कौन-सी है?",
+    "question_mr": "सर्वात मोठी 3 अंकी संख्या कोणती आहे?",
+    "question_bn_draft": "সবচেয়ে বড় 3 অঙ্কের সংখ্যা কোনটি?",
+    "options_en": [
+      "999",
+      "100",
+      "990",
+      "1000"
+    ],
+    "options_hi": [
+      "999",
+      "100",
+      "990",
+      "1000"
+    ],
+    "options_mr": [
+      "999",
+      "100",
+      "990",
+      "1000"
+    ],
+    "options_bn_draft": [
+      "999",
+      "100",
+      "990",
+      "1000"
+    ],
+    "explanation_en": "The greatest 3-digit number is 999 (the number after it, 1000, has 4 digits).",
+    "explanation_hi": "सबसे बड़ी 3 अंकों की संख्या 999 है (इसके बाद की संख्या 1000 में 4 अंक हैं)।",
+    "explanation_mr": "सर्वात मोठी 3 अंकी संख्या 999 आहे (त्यानंतरची संख्या, 1000, ला 4 अंक आहेत).",
+    "explanation_bn_draft": "সবচেয়ে বড় 3 অঙ্কের সংখ্যা হল 999 (এর পরের সংখ্যা 1000-এ 4টি অঙ্ক আছে)।"
+  },
+  {
+    "key": "rms6-p1-ar-33",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2023,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 0,
+    "question_en": "A soldier spends 2/3 of his salary and saves ₹4,000. Find his total salary.",
+    "question_hi": "एक सैनिक अपने वेतन का 2/3 खर्च करता है और ₹4,000 बचाता है। उसका कुल वेतन ज्ञात करें।",
+    "question_mr": "एक सैनिक आपल्या पगाराच्या 2/3 खर्च करतो आणि ₹4,000 बचत करतो. त्याचा एकूण पगार काढा.",
+    "question_bn_draft": "একজন সৈনিক তাঁর বেতনের 2/3 খরচ করেন এবং ₹4,000 সঞ্চয় করেন। তাঁর মোট বেতন নির্ণয় করো।",
+    "options_en": [
+      "₹12,000",
+      "₹8,000",
+      "₹6,000",
+      "₹16,000"
+    ],
+    "options_hi": [
+      "₹12,000",
+      "₹8,000",
+      "₹6,000",
+      "₹16,000"
+    ],
+    "options_mr": [
+      "₹12,000",
+      "₹8,000",
+      "₹6,000",
+      "₹16,000"
+    ],
+    "options_bn_draft": [
+      "₹12,000",
+      "₹8,000",
+      "₹6,000",
+      "₹16,000"
+    ],
+    "explanation_en": "Savings = 1/3 of salary = 4,000, so salary = 4,000×3 = ₹12,000.",
+    "explanation_hi": "बचत = वेतन का 1/3 = 4,000, अतः वेतन = 4,000×3 = ₹12,000।",
+    "explanation_mr": "बचत = पगाराचा 1/3 = 4,000, म्हणून पगार = 4,000×3 = ₹12,000.",
+    "explanation_bn_draft": "সঞ্চয় = বেতনের 1/3 = 4,000, তাই বেতন = 4,000×3 = ₹12,000।"
+  },
+  {
+    "key": "rms6-p1-ar-34",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2023,
+    "difficulty": "EASY",
+    "correctAnswer": 0,
+    "question_en": "Find the product: 205 × 11",
+    "question_hi": "गुणनफल ज्ञात करें: 205 × 11",
+    "question_mr": "गुणाकार काढा: 205 × 11",
+    "question_bn_draft": "গুণফল নির্ণয় করো: 205 × 11",
+    "options_en": [
+      "2,255",
+      "2,155",
+      "2,250",
+      "2,265"
+    ],
+    "options_hi": [
+      "2,255",
+      "2,155",
+      "2,250",
+      "2,265"
+    ],
+    "options_mr": [
+      "2,255",
+      "2,155",
+      "2,250",
+      "2,265"
+    ],
+    "options_bn_draft": [
+      "2,255",
+      "2,155",
+      "2,250",
+      "2,265"
+    ],
+    "explanation_en": "205 × 11 = 205×10 + 205×1 = 2,050 + 205 = 2,255.",
+    "explanation_hi": "205 × 11 = 205×10 + 205×1 = 2,050 + 205 = 2,255।",
+    "explanation_mr": "205 × 11 = 205×10 + 205×1 = 2,050 + 205 = 2,255.",
+    "explanation_bn_draft": "205 × 11 = 205×10 + 205×1 = 2,050 + 205 = 2,255।"
+  },
+  {
+    "key": "rms6-p1-ar-35",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2023,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 2,
+    "question_en": "The sum of three consecutive even numbers is 90. Find the largest number.",
+    "question_hi": "तीन क्रमागत सम संख्याओं का योग 90 है। सबसे बड़ी संख्या ज्ञात करें।",
+    "question_mr": "तीन क्रमागत सम संख्यांची बेरीज 90 आहे. सर्वात मोठी संख्या काढा.",
+    "question_bn_draft": "তিনটি ধারাবাহিক জোড় সংখ্যার যোগফল 90। বড় সংখ্যাটি নির্ণয় করো।",
+    "options_en": [
+      "28",
+      "30",
+      "32",
+      "34"
+    ],
+    "options_hi": [
+      "28",
+      "30",
+      "32",
+      "34"
+    ],
+    "options_mr": [
+      "28",
+      "30",
+      "32",
+      "34"
+    ],
+    "options_bn_draft": [
+      "28",
+      "30",
+      "32",
+      "34"
+    ],
+    "explanation_en": "Let numbers be n−2, n, n+2. Sum = 3n = 90, so n = 30. Largest = n+2 = 32.",
+    "explanation_hi": "मान लें संख्याएँ n−2, n, n+2 हैं। योग = 3n = 90, अतः n = 30। सबसे बड़ी = n+2 = 32।",
+    "explanation_mr": "मान लीय संख्या n−2, n, n+2 आहेत. बेरीज = 3n = 90, म्हणून n = 30. सर्वात मोठी = n+2 = 32.",
+    "explanation_bn_draft": "ধরা যাক সংখ্যাগুলি n−2, n, n+2। যোগফল = 3n = 90, তাই n = 30। বড় সংখ্যা = n+2 = 32।"
+  },
+  {
+    "key": "rms6-p1-ar-36",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2024,
+    "difficulty": "EASY",
+    "correctAnswer": 1,
+    "question_en": "Convert 4/5 to a percentage.",
+    "question_hi": "4/5 को प्रतिशत में बदलें।",
+    "question_mr": "4/5 ला टक्केवारीत बदला.",
+    "question_bn_draft": "4/5-কে শতকরায় রূপান্তর করো।",
+    "options_en": [
+      "45%",
+      "80%",
+      "54%",
+      "75%"
+    ],
+    "options_hi": [
+      "45%",
+      "80%",
+      "54%",
+      "75%"
+    ],
+    "options_mr": [
+      "45%",
+      "80%",
+      "54%",
+      "75%"
+    ],
+    "options_bn_draft": [
+      "45%",
+      "80%",
+      "54%",
+      "75%"
+    ],
+    "explanation_en": "4/5 = 0.8 = 80%.",
+    "explanation_hi": "4/5 = 0.8 = 80%।",
+    "explanation_mr": "4/5 = 0.8 = 80%.",
+    "explanation_bn_draft": "4/5 = 0.8 = 80%।"
+  },
+  {
+    "key": "rms6-p1-ar-37",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2024,
+    "difficulty": "HARD",
+    "correctAnswer": 0,
+    "question_en": "P can complete a task in 15 days and Q in 30 days. Working together, in how many days will they complete it?",
+    "question_hi": "P एक कार्य को 15 दिनों में तथा Q उसे 30 दिनों में पूरा कर सकता है। एक साथ कार्य करने पर वे कितने दिनों में कार्य पूरा करेंगे?",
+    "question_mr": "P एक काम 15 दिवसांत आणि Q ते 30 दिवसांत पूर्ण करू शकतो. एकत्र काम केल्यास ते किती दिवसांत काम पूर्ण करतील?",
+    "question_bn_draft": "P একটি কাজ 15 দিনে এবং Q তা 30 দিনে সম্পূর্ণ করতে পারে। একসাথে কাজ করলে তারা কত দিনে কাজটি শেষ করবে?",
+    "options_en": [
+      "10 days",
+      "22.5 days",
+      "45 days",
+      "7.5 days"
+    ],
+    "options_hi": [
+      "10 दिन",
+      "22.5 दिन",
+      "45 दिन",
+      "7.5 दिन"
+    ],
+    "options_mr": [
+      "10 दिवस",
+      "22.5 दिवस",
+      "45 दिवस",
+      "7.5 दिवस"
+    ],
+    "options_bn_draft": [
+      "10 দিন",
+      "22.5 দিন",
+      "45 দিন",
+      "7.5 দিন"
+    ],
+    "explanation_en": "P's rate = 1/15, Q's rate = 1/30. Combined = 1/15+1/30 = 2/30+1/30 = 3/30 = 1/10, so together they take 10 days.",
+    "explanation_hi": "P की दर = 1/15, Q की दर = 1/30। संयुक्त = 1/15+1/30 = 2/30+1/30 = 3/30 = 1/10, अतः वे मिलकर 10 दिनों में कार्य पूरा करेंगे।",
+    "explanation_mr": "P चा वेग = 1/15, Q चा वेग = 1/30. एकत्रित = 1/15+1/30 = 2/30+1/30 = 3/30 = 1/10, म्हणून ते मिळून 10 दिवसांत काम पूर्ण करतील.",
+    "explanation_bn_draft": "P-এর হার = 1/15, Q-এর হার = 1/30। মিলিত হার = 1/15+1/30 = 2/30+1/30 = 3/30 = 1/10, তাই তারা একসাথে 10 দিনে কাজ শেষ করবে।"
+  },
+  {
+    "key": "rms6-p1-ar-38",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2024,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 1,
+    "question_en": "Find the greatest number that divides both 36 and 84 exactly.",
+    "question_hi": "वह सबसे बड़ी संख्या ज्ञात करें जो 36 और 84 दोनों को पूर्णतः विभाजित करती है।",
+    "question_mr": "36 आणि 84 दोघांनाही पूर्णपणे भागणारी सर्वात मोठी संख्या काढा.",
+    "question_bn_draft": "36 এবং 84 উভয়কেই সম্পূর্ণভাবে ভাগ করে এমন সবচেয়ে বড় সংখ্যাটি নির্ণয় করো।",
+    "options_en": [
+      "6",
+      "12",
+      "9",
+      "18"
+    ],
+    "options_hi": [
+      "6",
+      "12",
+      "9",
+      "18"
+    ],
+    "options_mr": [
+      "6",
+      "12",
+      "9",
+      "18"
+    ],
+    "options_bn_draft": [
+      "6",
+      "12",
+      "9",
+      "18"
+    ],
+    "explanation_en": "36 = 2²×3², 84 = 2²×3×7. HCF = 2²×3 = 12.",
+    "explanation_hi": "36 = 2²×3², 84 = 2²×3×7। HCF = 2²×3 = 12।",
+    "explanation_mr": "36 = 2²×3², 84 = 2²×3×7. मसावि = 2²×3 = 12.",
+    "explanation_bn_draft": "36 = 2²×3², 84 = 2²×3×7। HCF = 2²×3 = 12।"
+  },
+  {
+    "key": "rms6-p1-ar-39",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2025,
+    "difficulty": "EASY",
+    "correctAnswer": 1,
+    "question_en": "What is the next number in the sequence: 6, 12, 18, 24, ___?",
+    "question_hi": "इस क्रम में अगली संख्या क्या है: 6, 12, 18, 24, ___?",
+    "question_mr": "या क्रमातील पुढील संख्या कोणती आहे: 6, 12, 18, 24, ___?",
+    "question_bn_draft": "ধারায় পরবর্তী সংখ্যাটি কী: 6, 12, 18, 24, ?",
+    "options_en": [
+      "28",
+      "30",
+      "26",
+      "36"
+    ],
+    "options_hi": [
+      "28",
+      "30",
+      "26",
+      "36"
+    ],
+    "options_mr": [
+      "28",
+      "30",
+      "26",
+      "36"
+    ],
+    "options_bn_draft": [
+      "28",
+      "30",
+      "26",
+      "36"
+    ],
+    "explanation_en": "Each term increases by 6, so the next term after 24 is 30.",
+    "explanation_hi": "प्रत्येक पद में 6 की वृद्धि होती है, अतः 24 के बाद अगला पद 30 है।",
+    "explanation_mr": "प्रत्येक पदात 6 ची वाढ होते, म्हणून 24 नंतरचे पद 30 आहे.",
+    "explanation_bn_draft": "প্রতিটি পদ 6 করে বাড়ে, তাই 24-এর পরের পদ 30।"
+  },
+  {
+    "key": "rms6-p1-ar-40",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2025,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 1,
+    "question_en": "If the cost of 5 kg of wheat is ₹175, find the cost of 8 kg of wheat.",
+    "question_hi": "यदि 5 किग्रा गेहूँ की कीमत ₹175 है, तो 8 किग्रा गेहूँ की कीमत ज्ञात करें।",
+    "question_mr": "जर 5 किग्रॅ गव्हाची किंमत ₹175 आहे, तर 8 किग्रॅ गव्हाची किंमत काढा.",
+    "question_bn_draft": "যদি 5 কেজি গমের দাম ₹175 হয়, তাহলে 8 কেজি গমের দাম নির্ণয় করো।",
+    "options_en": [
+      "₹245",
+      "₹280",
+      "₹1,400",
+      "₹300"
+    ],
+    "options_hi": [
+      "₹245",
+      "₹280",
+      "₹1,400",
+      "₹300"
+    ],
+    "options_mr": [
+      "₹245",
+      "₹280",
+      "₹1,400",
+      "₹300"
+    ],
+    "options_bn_draft": [
+      "₹245",
+      "₹280",
+      "₹1,400",
+      "₹300"
+    ],
+    "explanation_en": "Cost of 1 kg = 175/5 = ₹35. Cost of 8 kg = 35×8 = ₹280.",
+    "explanation_hi": "1 किग्रा की कीमत = 175/5 = ₹35। 8 किग्रा की कीमत = 35×8 = ₹280।",
+    "explanation_mr": "1 किग्रॅची किंमत = 175/5 = ₹35. 8 किग्रॅची किंमत = 35×8 = ₹280.",
+    "explanation_bn_draft": "1 কেজির দাম = 175/5 = ₹35। 8 কেজির দাম = 35×8 = ₹280।"
+  },
+  {
+    "key": "rms6-p1-ar-41",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2022,
+    "difficulty": "EASY",
+    "correctAnswer": 2,
+    "question_en": "Which of these fractions is the smallest?",
+    "question_hi": "इनमें से कौन-सी भिन्न सबसे छोटी है?",
+    "question_mr": "यांपैकी कोणता अपूर्णांक सर्वात लहान आहे?",
+    "question_bn_draft": "এদের মধ্যে কোন ভগ্নাংশটি সবচেয়ে ছোট?",
+    "options_en": [
+      "3/7",
+      "5/7",
+      "1/7",
+      "6/7"
+    ],
+    "options_hi": [
+      "3/7",
+      "5/7",
+      "1/7",
+      "6/7"
+    ],
+    "options_mr": [
+      "3/7",
+      "5/7",
+      "1/7",
+      "6/7"
+    ],
+    "options_bn_draft": [
+      "3/7",
+      "5/7",
+      "1/7",
+      "6/7"
+    ],
+    "explanation_en": "With the same denominator 7, the fraction with the smallest numerator, 1/7, is the smallest.",
+    "explanation_hi": "समान हर 7 होने पर, सबसे छोटे अंश वाली भिन्न 1/7 सबसे छोटी है।",
+    "explanation_mr": "समान छेद 7 असल्याने, सर्वात लहान अंश असलेला अपूर्णांक, 1/7, सर्वात लहान आहे.",
+    "explanation_bn_draft": "একই হর 7 হওয়ায়, সবচেয়ে ছোট লববিশিষ্ট ভগ্নাংশ 1/7 সবচেয়ে ছোট।"
+  },
+  {
+    "key": "rms6-p1-ar-42",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2022,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 1,
+    "question_en": "A number when divided by 12 gives a quotient of 9 and remainder 7. Find the number.",
+    "question_hi": "एक संख्या को 12 से भाग देने पर भागफल 9 और शेषफल 7 प्राप्त होता है। संख्या ज्ञात करें।",
+    "question_mr": "एका संख्येला 12 ने भागल्यास भागफळ 9 आणि बाकी 7 मिळते. ती संख्या काढा.",
+    "question_bn_draft": "একটি সংখ্যাকে 12 দিয়ে ভাগ করলে ভাগফল 9 এবং ভাগশেষ 7 পাওয়া যায়। সংখ্যাটি নির্ণয় করো।",
+    "options_en": [
+      "108",
+      "115",
+      "101",
+      "120"
+    ],
+    "options_hi": [
+      "108",
+      "115",
+      "101",
+      "120"
+    ],
+    "options_mr": [
+      "108",
+      "115",
+      "101",
+      "120"
+    ],
+    "options_bn_draft": [
+      "108",
+      "115",
+      "101",
+      "120"
+    ],
+    "explanation_en": "Number = Divisor × Quotient + Remainder = 12×9+7 = 115.",
+    "explanation_hi": "संख्या = भाजक × भागफल + शेषफल = 12×9+7 = 115।",
+    "explanation_mr": "संख्या = भाजक × भागफळ + बाकी = 12×9+7 = 115.",
+    "explanation_bn_draft": "সংখ্যা = ভাজক × ভাগফল + ভাগশেষ = 12×9+7 = 115।"
+  },
+  {
+    "key": "rms6-p1-ar-43",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2023,
+    "difficulty": "EASY",
+    "correctAnswer": 1,
+    "question_en": "How many grams make 1 kilogram?",
+    "question_hi": "1 किलोग्राम में कितने ग्राम होते हैं?",
+    "question_mr": "1 किलोग्रॅममध्ये किती ग्रॅम असतात?",
+    "question_bn_draft": "1 কিলোগ্রামে কত গ্রাম হয়?",
+    "options_en": [
+      "100",
+      "1,000",
+      "10,000",
+      "10"
+    ],
+    "options_hi": [
+      "100",
+      "1,000",
+      "10,000",
+      "10"
+    ],
+    "options_mr": [
+      "100",
+      "1,000",
+      "10,000",
+      "10"
+    ],
+    "options_bn_draft": [
+      "100",
+      "1,000",
+      "10,000",
+      "10"
+    ],
+    "explanation_en": "1 kilogram = 1,000 grams, by definition of the metric unit.",
+    "explanation_hi": "मीट्रिक इकाई की परिभाषा अनुसार 1 किलोग्राम = 1,000 ग्राम।",
+    "explanation_mr": "मेट्रिक एककाच्या व्याख्येनुसार 1 किलोग्रॅम = 1,000 ग्रॅम.",
+    "explanation_bn_draft": "মেট্রিক এককের সংজ্ঞা অনুযায়ী 1 কিলোগ্রাম = 1,000 গ্রাম।"
+  },
+  {
+    "key": "rms6-p1-ar-44",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2023,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 2,
+    "question_en": "The angles of a triangle are in the ratio 1:2:3. Find the largest angle.",
+    "question_hi": "एक त्रिभुज के कोण 1:2:3 के अनुपात में हैं। सबसे बड़ा कोण ज्ञात करें।",
+    "question_mr": "एका त्रिकोणाचे कोन 1:2:3 या प्रमाणात आहेत. सर्वात मोठा कोन काढा.",
+    "question_bn_draft": "একটি ত্রিভুজের কোণগুলি 1:2:3 অনুপাতে আছে। সবচেয়ে বড় কোণটি নির্ণয় করো।",
+    "options_en": [
+      "30°",
+      "60°",
+      "90°",
+      "100°"
+    ],
+    "options_hi": [
+      "30°",
+      "60°",
+      "90°",
+      "100°"
+    ],
+    "options_mr": [
+      "30°",
+      "60°",
+      "90°",
+      "100°"
+    ],
+    "options_bn_draft": [
+      "30°",
+      "60°",
+      "90°",
+      "100°"
+    ],
+    "explanation_en": "Sum of angles = 180°. Total parts = 6. Largest angle = (3/6)×180 = 90°.",
+    "explanation_hi": "कोणों का योग = 180°। कुल भाग = 6। सबसे बड़ा कोण = (3/6)×180 = 90°।",
+    "explanation_mr": "कोनांची बेरीज = 180°. एकूण भाग = 6. सर्वात मोठा कोन = (3/6)×180 = 90°.",
+    "explanation_bn_draft": "কোণগুলির যোগফল = 180°। মোট অংশ = 6। সবচেয়ে বড় কোণ = (3/6)×180 = 90°।"
+  },
+  {
+    "key": "rms6-p1-ar-45",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2024,
+    "difficulty": "EASY",
+    "correctAnswer": 0,
+    "question_en": "Find the value of: 80 − (15+25)",
+    "question_hi": "मान ज्ञात करें: 80 − (15+25)",
+    "question_mr": "मूल्य काढा: 80 − (15+25)",
+    "question_bn_draft": "মান নির্ণয় করো: 80 − (15+25)",
+    "options_en": [
+      "40",
+      "50",
+      "30",
+      "45"
+    ],
+    "options_hi": [
+      "40",
+      "50",
+      "30",
+      "45"
+    ],
+    "options_mr": [
+      "40",
+      "50",
+      "30",
+      "45"
+    ],
+    "options_bn_draft": [
+      "40",
+      "50",
+      "30",
+      "45"
+    ],
+    "explanation_en": "15+25 = 40, so 80−40 = 40.",
+    "explanation_hi": "15+25 = 40, अतः 80−40 = 40।",
+    "explanation_mr": "15+25 = 40, म्हणून 80−40 = 40.",
+    "explanation_bn_draft": "15+25 = 40, তাই 80−40 = 40।"
+  },
+  {
+    "key": "rms6-p1-ar-46",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2024,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 0,
+    "question_en": "A mother is 3 times as old as her daughter. After 10 years, she will be twice as old. Find the daughter's present age.",
+    "question_hi": "एक माँ की आयु उसकी बेटी की आयु से 3 गुना है। 10 वर्ष बाद, वह 2 गुना होगी। बेटी की वर्तमान आयु ज्ञात करें।",
+    "question_mr": "एक आई तिच्या मुलीच्या वयाच्या 3 पट आहे. 10 वर्षांनंतर, ती 2 पट असेल. मुलीचे सध्याचे वय काढा.",
+    "question_bn_draft": "একজন মায়ের বয়স তাঁর মেয়ের বয়সের 3 গুণ। 10 বছর পর, তা 2 গুণ হবে। মেয়ের বর্তমান বয়স নির্ণয় করো।",
+    "options_en": [
+      "10 years",
+      "12 years",
+      "15 years",
+      "8 years"
+    ],
+    "options_hi": [
+      "10 वर्ष",
+      "12 वर्ष",
+      "15 वर्ष",
+      "8 वर्ष"
+    ],
+    "options_mr": [
+      "10 वर्षे",
+      "12 वर्षे",
+      "15 वर्षे",
+      "8 वर्षे"
+    ],
+    "options_bn_draft": [
+      "10 বছর",
+      "12 বছর",
+      "15 বছর",
+      "8 বছর"
+    ],
+    "explanation_en": "Let daughter's age = x, mother's = 3x. After 10 years: 3x+10 = 2(x+10), giving x = 10. Check: daughter 10, mother 30 now; in 10 years, daughter 20, mother 40 = 2×20.",
+    "explanation_hi": "मान लें बेटी की आयु = x, माँ की = 3x। 10 वर्ष बाद: 3x+10 = 2(x+10), जिससे x = 10 मिलता है। जाँच: अभी बेटी 10, माँ 30; 10 वर्ष बाद बेटी 20, माँ 40 = 2×20।",
+    "explanation_mr": "मान लीय मुलीचे वय = x, आईचे = 3x. 10 वर्षांनंतर: 3x+10 = 2(x+10), ज्यामुळे x = 10 मिळते. पडताळणी: आता मुलगी 10, आई 30; 10 वर्षांनंतर मुलगी 20, आई 40 = 2×20.",
+    "explanation_bn_draft": "ধরা যাক মেয়ের বয়স = x, মায়ের = 3x। 10 বছর পর: 3x+10 = 2(x+10), যা থেকে x = 10 পাওয়া যায়। যাচাই: এখন মেয়ে 10, মা 30; 10 বছর পর মেয়ে 20, মা 40 = 2×20।"
+  },
+  {
+    "key": "rms6-p1-ar-47",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2025,
+    "difficulty": "EASY",
+    "correctAnswer": 2,
+    "question_en": "Which of these numbers is divisible by both 2 and 5?",
+    "question_hi": "इनमें से कौन-सी संख्या 2 और 5 दोनों से विभाज्य है?",
+    "question_mr": "यांपैकी कोणती संख्या 2 आणि 5 दोघांनीही विभाज्य आहे?",
+    "question_bn_draft": "এদের মধ্যে কোন সংখ্যাটি 2 এবং 5 উভয় দ্বারা বিভাজ্য?",
+    "options_en": [
+      "25",
+      "32",
+      "40",
+      "27"
+    ],
+    "options_hi": [
+      "25",
+      "32",
+      "40",
+      "27"
+    ],
+    "options_mr": [
+      "25",
+      "32",
+      "40",
+      "27"
+    ],
+    "options_bn_draft": [
+      "25",
+      "32",
+      "40",
+      "27"
+    ],
+    "explanation_en": "40 is even (divisible by 2) and ends in 0 (divisible by 5), so it is divisible by both.",
+    "explanation_hi": "40 सम संख्या है (2 से विभाज्य) और 0 पर समाप्त होती है (5 से विभाज्य), अतः यह दोनों से विभाज्य है।",
+    "explanation_mr": "40 सम संख्या आहे (2 ने विभाज्य) आणि 0 वर संपते (5 ने विभाज्य), म्हणून ती दोघांनीही विभाज्य आहे.",
+    "explanation_bn_draft": "40 জোড় সংখ্যা (2 দ্বারা বিভাজ্য) এবং 0-তে শেষ হয় (5 দ্বারা বিভাজ্য), তাই এটি উভয় দ্বারাই বিভাজ্য।"
+  },
+  {
+    "key": "rms6-p1-ar-48",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2025,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 1,
+    "question_en": "Find the value of: (5/6 − 1/3) × 12",
+    "question_hi": "मान ज्ञात करें: (5/6 − 1/3) × 12",
+    "question_mr": "मूल्य काढा: (5/6 − 1/3) × 12",
+    "question_bn_draft": "মান নির্ণয় করো: (5/6 − 1/3) × 12",
+    "options_en": [
+      "8",
+      "6",
+      "10",
+      "4"
+    ],
+    "options_hi": [
+      "8",
+      "6",
+      "10",
+      "4"
+    ],
+    "options_mr": [
+      "8",
+      "6",
+      "10",
+      "4"
+    ],
+    "options_bn_draft": [
+      "8",
+      "6",
+      "10",
+      "4"
+    ],
+    "explanation_en": "5/6 − 1/3 = 5/6 − 2/6 = 3/6 = 1/2. Then 1/2 × 12 = 6.",
+    "explanation_hi": "5/6 − 1/3 = 5/6 − 2/6 = 3/6 = 1/2। फिर 1/2 × 12 = 6।",
+    "explanation_mr": "5/6 − 1/3 = 5/6 − 2/6 = 3/6 = 1/2. नंतर 1/2 × 12 = 6.",
+    "explanation_bn_draft": "5/6 − 1/3 = 5/6 − 2/6 = 3/6 = 1/2। তারপর 1/2 × 12 = 6।"
+  },
+  {
+    "key": "rms6-p1-ar-49",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2026,
+    "difficulty": "EASY",
+    "correctAnswer": 1,
+    "question_en": "What comes next: 3, 6, 12, 24, ___?",
+    "question_hi": "आगे क्या आएगा: 3, 6, 12, 24, ___?",
+    "question_mr": "पुढे काय येईल: 3, 6, 12, 24, ___?",
+    "question_bn_draft": "পরের সংখ্যাটি কী: 3, 6, 12, 24, ?",
+    "options_en": [
+      "36",
+      "48",
+      "30",
+      "27"
+    ],
+    "options_hi": [
+      "36",
+      "48",
+      "30",
+      "27"
+    ],
+    "options_mr": [
+      "36",
+      "48",
+      "30",
+      "27"
+    ],
+    "options_bn_draft": [
+      "36",
+      "48",
+      "30",
+      "27"
+    ],
+    "explanation_en": "Each term is double the previous one, so after 24 comes 24×2 = 48.",
+    "explanation_hi": "प्रत्येक पद पिछले पद का दोगुना है, अतः 24 के बाद 24×2 = 48 आएगा।",
+    "explanation_mr": "प्रत्येक पद आधीच्या पदाच्या दुप्पट आहे, म्हणून 24 नंतर 24×2 = 48 येईल.",
+    "explanation_bn_draft": "প্রতিটি পদ আগেরটির দ্বিগুণ, তাই 24-এর পরে আসবে 24×2 = 48।"
+  },
+  {
+    "key": "rms6-p1-ar-50",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "arithmetic",
+    "year": 2026,
+    "difficulty": "HARD",
+    "correctAnswer": 2,
+    "question_en": "A tank is filled by pipe X in 12 hours and emptied by pipe Y in 18 hours. If both pipes are opened together, in how many hours will the tank be full?",
+    "question_hi": "एक टंकी को पाइप X 12 घंटे में भरता है और पाइप Y उसे 18 घंटे में खाली करता है। यदि दोनों पाइप एक साथ खोल दिए जाएँ, तो टंकी कितने घंटे में भर जाएगी?",
+    "question_mr": "एक टाकी X पाईपने 12 तासांत भरते आणि Y पाईपने 18 तासांत रिकामी होते. जर दोन्ही पाईप एकत्र उघडले, तर टाकी किती तासांत भरेल?",
+    "question_bn_draft": "একটি ট্যাংক পাইপ X দ্বারা 12 ঘণ্টায় পূর্ণ হয় এবং পাইপ Y দ্বারা 18 ঘণ্টায় খালি হয়। যদি দুটি পাইপই একসাথে খোলা হয়, তাহলে ট্যাংকটি কত ঘণ্টায় পূর্ণ হবে?",
+    "options_en": [
+      "30 hours",
+      "6 hours",
+      "36 hours",
+      "15 hours"
+    ],
+    "options_hi": [
+      "30 घंटे",
+      "6 घंटे",
+      "36 घंटे",
+      "15 घंटे"
+    ],
+    "options_mr": [
+      "30 तास",
+      "6 तास",
+      "36 तास",
+      "15 तास"
+    ],
+    "options_bn_draft": [
+      "30 ঘণ্টা",
+      "6 ঘণ্টা",
+      "36 ঘণ্টা",
+      "15 ঘণ্টা"
+    ],
+    "explanation_en": "Filling rate = 1/12, emptying rate = 1/18. Net rate = 1/12−1/18 = 3/36−2/36 = 1/36, so the tank fills in 36 hours.",
+    "explanation_hi": "भरने की दर = 1/12, खाली करने की दर = 1/18। शुद्ध दर = 1/12−1/18 = 3/36−2/36 = 1/36, अतः टंकी 36 घंटे में भरेगी।",
+    "explanation_mr": "भरण्याचा वेग = 1/12, रिकामे करण्याचा वेग = 1/18. निव्वळ वेग = 1/12−1/18 = 3/36−2/36 = 1/36, म्हणून टाकी 36 तासांत भरेल.",
+    "explanation_bn_draft": "পূর্ণ করার হার = 1/12, খালি করার হার = 1/18। নিট হার = 1/12−1/18 = 3/36−2/36 = 1/36, তাই ট্যাংকটি 36 ঘণ্টায় পূর্ণ হবে।"
+  },
+  {
+    "key": "rms6-gem1-la-01",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "language",
+    "year": 2026,
+    "difficulty": "EASY",
+    "correctAnswer": 1,
+    "question_en": "Choose the correct comparative degree of adjective: 'Prevention is _____ than cure.'",
+    "question_hi": "विशेषण की सही तुलनात्मक डिग्री (Comparative Degree) चुनें: 'Prevention is _____ than cure.'",
+    "question_mr": "विशेषणाची योग्य तुलनात्मक पदवी (Comparative Degree) निवडा: 'Prevention is _____ than cure.'",
+    "question_bn_draft": "বিশেষণের সঠিক তুলনামূলক (Comparative Degree) রূপটি বেছে নাও: 'Prevention is _____ than cure.'",
+    "options_en": [
+      "good",
+      "better",
+      "best",
+      "more good"
+    ],
+    "options_hi": [
+      "good",
+      "better",
+      "best",
+      "more good"
+    ],
+    "options_mr": [
+      "good",
+      "better",
+      "best",
+      "more good"
+    ],
+    "options_bn_draft": [
+      "good",
+      "better",
+      "best",
+      "more good"
+    ],
+    "explanation_en": "Comparing two ideas ('prevention' vs 'cure') requires the comparative form 'better' (good -> better -> best).",
+    "explanation_hi": "दो चीज़ों की तुलना के लिए 'good' की तुलनात्मक डिग्री 'better' का प्रयोग होता है।",
+    "explanation_mr": "दोन गोष्टींची ('prevention' आणि 'cure') तुलना करताना 'good' या विशेषणाचे तुलनात्मक रूप 'better' वापरले जाते (good -> better -> best).",
+    "explanation_bn_draft": "দুটি বিষয়ের ('prevention' বনাম 'cure') তুলনা করতে 'good'-এর তুলনামূলক রূপ 'better' প্রয়োজন (good -> better -> best)।"
+  },
+  {
+    "key": "rms6-gem1-la-02",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "language",
+    "year": 2026,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 0,
+    "question_en": "Identify the CORRECTLY spelt word among the given options.",
+    "question_hi": "दिए गए विकल्पों में से सही वर्तनी (Correct Spelling) वाला शब्द पहचानिए।",
+    "question_mr": "दिलेल्या विकल्पांपैकी योग्य स्पेलिंग (Correct Spelling) असलेला शब्द ओळखा.",
+    "question_bn_draft": "দেওয়া বিকল্পগুলির মধ্যে সঠিক বানানের শব্দটি চিহ্নিত করো।",
+    "options_en": [
+      "Lieutenant",
+      "Leiutenant",
+      "Lietenant",
+      "Lieutnant"
+    ],
+    "options_hi": [
+      "Lieutenant",
+      "Leiutenant",
+      "Lietenant",
+      "Lieutnant"
+    ],
+    "options_mr": [
+      "Lieutenant",
+      "Leiutenant",
+      "Lietenant",
+      "Lieutnant"
+    ],
+    "options_bn_draft": [
+      "Lieutenant",
+      "Leiutenant",
+      "Lietenant",
+      "Lieutnant"
+    ],
+    "explanation_en": "The correct spelling of the military rank is L-I-E-U-T-E-N-A-N-T.",
+    "explanation_hi": "सैन्य पद 'Lieutenant' की सही वर्तनी L-I-E-U-T-E-N-A-N-T है।",
+    "explanation_mr": "लष्करी पदनाम 'Lieutenant' चे योग्य स्पेलिंग L-I-E-U-T-E-N-A-N-T आहे.",
+    "explanation_bn_draft": "সামরিক পদমর্যাদা 'Lieutenant'-এর সঠিক বানান হল L-I-E-U-T-E-N-A-N-T।"
+  },
+  {
+    "key": "rms6-gem2-la-01",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "language",
+    "year": 2026,
+    "difficulty": "EASY",
+    "correctAnswer": 0,
+    "question_en": "Fill in the blank with the correct article: 'Ganga is _____ sacred river of India.'",
+    "question_hi": "सही आर्टिकल से रिक्त स्थान भरें: 'Ganga is _____ sacred river of India.'",
+    "question_mr": "योग्य आर्टिकल (article) वापरून रिकामी जागा भरा: 'Ganga is _____ sacred river of India.'",
+    "question_bn_draft": "সঠিক আর্টিকেল দিয়ে শূন্যস্থান পূরণ করো: 'Ganga is _____ sacred river of India.'",
+    "options_en": [
+      "a",
+      "an",
+      "the",
+      "no article"
+    ],
+    "options_hi": [
+      "a",
+      "an",
+      "the",
+      "कोई आर्टिकल नहीं"
+    ],
+    "options_mr": [
+      "a",
+      "an",
+      "the",
+      "कोणतेही आर्टिकल नाही"
+    ],
+    "options_bn_draft": [
+      "a",
+      "an",
+      "the",
+      "কোনো আর্টিকেল নেই"
+    ],
+    "explanation_en": "Before 'sacred' starting with consonant sound /s/, indefinite article 'a' is used ('a sacred river').",
+    "explanation_hi": "'sacred' शब्द से पहले अनिश्चित आर्टिकल 'a' का प्रयोग होता है।",
+    "explanation_mr": "व्यंजन ध्वनी /s/ ने सुरू होणाऱ्या 'sacred' या शब्दापूर्वी अनिश्चित आर्टिकल 'a' वापरले जाते ('a sacred river').",
+    "explanation_bn_draft": "ব্যঞ্জনধ্বনি /s/ দিয়ে শুরু হওয়া 'sacred'-এর আগে অনির্দিষ্ট আর্টিকেল 'a' ব্যবহৃত হয় ('a sacred river')।"
+  },
+  {
+    "key": "rms6-gem2-la-02",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "language",
+    "year": 2026,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 1,
+    "question_en": "Choose the correct SYNONYM of the word 'COURAGEOUS'.",
+    "question_hi": "'COURAGEOUS' (साहसी) शब्द का सही पर्यायवाची (SYNONYM) चुनें।",
+    "question_mr": "'COURAGEOUS' या शब्दाचा योग्य समानार्थी शब्द (SYNONYM) निवडा.",
+    "question_bn_draft": "'COURAGEOUS' শব্দটির সঠিক প্রতিশব্দ (SYNONYM) বেছে নাও।",
+    "options_en": [
+      "Fearful",
+      "Brave / Valiant",
+      "Timid",
+      "Weak"
+    ],
+    "options_hi": [
+      "डरा हुआ",
+      "बहादुर / साहसी",
+      "डरपोक",
+      "कमज़ोर"
+    ],
+    "options_mr": [
+      "घाबरलेला",
+      "शूर / साहसी",
+      "भित्रा",
+      "कमकुवत"
+    ],
+    "options_bn_draft": [
+      "Fearful",
+      "Brave / Valiant",
+      "Timid",
+      "Weak"
+    ],
+    "explanation_en": "'Courageous' means possessing or showing bravery; 'Brave' or 'Valiant' is its exact synonym.",
+    "explanation_hi": "'Courageous' का अर्थ बहादुर या साहसी होना है, अतः 'Brave' इसका पर्यायवाची है।",
+    "explanation_mr": "'Courageous' म्हणजे शौर्य किंवा धैर्य असणे किंवा दाखवणे; 'Brave' किंवा 'Valiant' हा त्याचा नेमका समानार्थी शब्द आहे.",
+    "explanation_bn_draft": "'Courageous' মানে সাহসী হওয়া বা সাহস দেখানো; 'Brave' বা 'Valiant' এর প্রকৃত প্রতিশব্দ।"
+  },
+  {
+    "key": "rms6-p1-la-01",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "language",
+    "year": 2022,
+    "difficulty": "EASY",
+    "correctAnswer": 1,
+    "question_en": "Choose the correct article: ___ umbrella is useful in the rain.",
+    "question_hi": "सही आर्टिकल चुनें: ___ umbrella is useful in the rain.",
+    "question_mr": "योग्य आर्टिकल निवडा: ___ umbrella is useful in the rain.",
+    "question_bn_draft": "সঠিক আর্টিকেলটি বেছে নাও: ___ umbrella is useful in the rain.",
+    "options_en": [
+      "A",
+      "An",
+      "The (only)",
+      "No article needed"
+    ],
+    "options_hi": [
+      "A",
+      "An",
+      "The (only)",
+      "किसी आर्टिकल की आवश्यकता नहीं"
+    ],
+    "options_mr": [
+      "A",
+      "An",
+      "The (only)",
+      "कोणत्याही आर्टिकलची आवश्यकता नाही"
+    ],
+    "options_bn_draft": [
+      "A",
+      "An",
+      "The (only)",
+      "কোনো আর্টিকেলের প্রয়োজন নেই"
+    ],
+    "explanation_en": "\"Umbrella\" begins with a vowel sound, so it takes \"an\".",
+    "explanation_hi": "\"Umbrella\" स्वर ध्वनि से शुरू होता है, अतः इसके साथ \"an\" आता है।",
+    "explanation_mr": "\"Umbrella\" स्वर ध्वनीने सुरू होतो, म्हणून त्यासोबत \"an\" येतो.",
+    "explanation_bn_draft": "'Umbrella' একটি স্বরধ্বনি দিয়ে শুরু হয়, তাই এর সাথে 'an' ব্যবহৃত হয়।"
+  },
+  {
+    "key": "rms6-p1-la-02",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "language",
+    "year": 2022,
+    "difficulty": "EASY",
+    "correctAnswer": 1,
+    "question_en": "Choose the correct verb form: The soldiers ___ every morning.",
+    "question_hi": "सही क्रिया रूप चुनें: The soldiers ___ every morning.",
+    "question_mr": "योग्य क्रियापद रूप निवडा: The soldiers ___ every morning.",
+    "question_bn_draft": "সঠিক ক্রিয়ারূপটি বেছে নাও: The soldiers ___ every morning.",
+    "options_en": [
+      "marches",
+      "march",
+      "marching",
+      "marched"
+    ],
+    "options_hi": [
+      "marches",
+      "march",
+      "marching",
+      "marched"
+    ],
+    "options_mr": [
+      "marches",
+      "march",
+      "marching",
+      "marched"
+    ],
+    "options_bn_draft": [
+      "marches",
+      "march",
+      "marching",
+      "marched"
+    ],
+    "explanation_en": "\"Soldiers\" is a plural subject, so the simple present verb takes its base form without \"-s\": \"march\".",
+    "explanation_hi": "\"Soldiers\" एक बहुवचन कर्ता है, अतः simple present में क्रिया अपने मूल रूप में बिना \"-s\" के आती है: \"march\"।",
+    "explanation_mr": "\"Soldiers\" हा बहुवचनी कर्ता आहे, म्हणून simple present मध्ये क्रियापद \"-s\" शिवाय त्याच्या मूळ रूपात येते: \"march\".",
+    "explanation_bn_draft": "'Soldiers' একটি বহুবচন কর্তা, তাই সাধারণ বর্তমান কালে ক্রিয়াটি '-s' ছাড়া তার মূল রূপে আসে: 'march'।"
+  },
+  {
+    "key": "rms6-p1-la-03",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "language",
+    "year": 2022,
+    "difficulty": "EASY",
+    "correctAnswer": 1,
+    "question_en": "Find the synonym of \"Brave\".",
+    "question_hi": "\"Brave\" का समानार्थी शब्द चुनें।",
+    "question_mr": "\"Brave\" चा समानार्थी शब्द निवडा.",
+    "question_bn_draft": "'Brave'-এর প্রতিশব্দ খুঁজে বার করো।",
+    "options_en": [
+      "Weak",
+      "Courageous",
+      "Timid",
+      "Lazy"
+    ],
+    "options_hi": [
+      "Weak",
+      "Courageous",
+      "Timid",
+      "Lazy"
+    ],
+    "options_mr": [
+      "Weak",
+      "Courageous",
+      "Timid",
+      "Lazy"
+    ],
+    "options_bn_draft": [
+      "Weak",
+      "Courageous",
+      "Timid",
+      "Lazy"
+    ],
+    "explanation_en": "\"Courageous\" means showing courage, the same meaning as \"Brave\".",
+    "explanation_hi": "\"Courageous\" का अर्थ है साहस दिखाना, जो \"Brave\" के समान ही है।",
+    "explanation_mr": "\"Courageous\" चा अर्थ धाडस दाखवणे असा आहे, जो \"Brave\" सारखाच आहे.",
+    "explanation_bn_draft": "'Courageous' মানে সাহস দেখানো, যা 'Brave'-এর অর্থের সাথে একই।"
+  },
+  {
+    "key": "rms6-p1-la-04",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "language",
+    "year": 2022,
+    "difficulty": "EASY",
+    "correctAnswer": 2,
+    "question_en": "Find the antonym of \"Victory\".",
+    "question_hi": "\"Victory\" का विलोम शब्द चुनें।",
+    "question_mr": "\"Victory\" चा विरुद्धार्थी शब्द निवडा.",
+    "question_bn_draft": "'Victory'-এর বিপরীত শব্দ খুঁজে বার করো।",
+    "options_en": [
+      "Success",
+      "Triumph",
+      "Defeat",
+      "Win"
+    ],
+    "options_hi": [
+      "Success",
+      "Triumph",
+      "Defeat",
+      "Win"
+    ],
+    "options_mr": [
+      "Success",
+      "Triumph",
+      "Defeat",
+      "Win"
+    ],
+    "options_bn_draft": [
+      "Success",
+      "Triumph",
+      "Defeat",
+      "Win"
+    ],
+    "explanation_en": "\"Defeat\" means losing, the opposite of \"Victory\".",
+    "explanation_hi": "\"Defeat\" का अर्थ है हार, जो \"Victory\" के विपरीत है।",
+    "explanation_mr": "\"Defeat\" चा अर्थ हार असा आहे, जो \"Victory\" च्या विरुद्ध आहे.",
+    "explanation_bn_draft": "'Defeat' মানে হেরে যাওয়া, যা 'Victory'-এর বিপরীত।"
+  },
+  {
+    "key": "rms6-p1-la-05",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "language",
+    "year": 2023,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 0,
+    "question_en": "Choose the correctly spelled word.",
+    "question_hi": "सही वर्तनी वाला शब्द चुनें।",
+    "question_mr": "योग्य स्पेलिंग असलेला शब्द निवडा.",
+    "question_bn_draft": "সঠিক বানানের শব্দটি বেছে নাও।",
+    "options_en": [
+      "Discipline",
+      "Disipline",
+      "Disciplin",
+      "Dicipline"
+    ],
+    "options_hi": [
+      "Discipline",
+      "Disipline",
+      "Disciplin",
+      "Dicipline"
+    ],
+    "options_mr": [
+      "Discipline",
+      "Disipline",
+      "Disciplin",
+      "Dicipline"
+    ],
+    "options_bn_draft": [
+      "Discipline",
+      "Disipline",
+      "Disciplin",
+      "Dicipline"
+    ],
+    "explanation_en": "\"Discipline\" is spelled d-i-s-c-i-p-l-i-n-e.",
+    "explanation_hi": "\"Discipline\" की वर्तनी है d-i-s-c-i-p-l-i-n-e।",
+    "explanation_mr": "\"Discipline\" चे स्पेलिंग आहे d-i-s-c-i-p-l-i-n-e.",
+    "explanation_bn_draft": "'Discipline'-এর বানান হল d-i-s-c-i-p-l-i-n-e।"
+  },
+  {
+    "key": "rms6-p1-la-06",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "language",
+    "year": 2023,
+    "difficulty": "EASY",
+    "correctAnswer": 0,
+    "question_en": "Fill in the blank with the correct preposition: The soldiers marched ___ the bridge.",
+    "question_hi": "सही preposition से रिक्त स्थान भरें: The soldiers marched ___ the bridge.",
+    "question_mr": "योग्य preposition ने रिकामी जागा भरा: The soldiers marched ___ the bridge.",
+    "question_bn_draft": "সঠিক পদান্বয়ী অব্যয় দিয়ে শূন্যস্থান পূরণ করো: The soldiers marched ___ the bridge.",
+    "options_en": [
+      "across",
+      "in",
+      "at",
+      "on top"
+    ],
+    "options_hi": [
+      "across",
+      "in",
+      "at",
+      "on top"
+    ],
+    "options_mr": [
+      "across",
+      "in",
+      "at",
+      "on top"
+    ],
+    "options_bn_draft": [
+      "across",
+      "in",
+      "at",
+      "on top"
+    ],
+    "explanation_en": "\"Across\" is used to show movement from one side of something to the other.",
+    "explanation_hi": "\"Across\" किसी वस्तु के एक ओर से दूसरी ओर गति दर्शाने के लिए प्रयोग होता है।",
+    "explanation_mr": "\"Across\" चा वापर एका बाजूपासून दुसऱ्या बाजूकडे हालचाल दर्शवण्यासाठी होतो.",
+    "explanation_bn_draft": "'Across' কোনো কিছুর একদিক থেকে অন্যদিকে যাওয়ার গতিবিধি বোঝাতে ব্যবহৃত হয়।"
+  },
+  {
+    "key": "rms6-p1-la-07",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "language",
+    "year": 2023,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 2,
+    "question_en": "Identify the plural form of \"Foot\".",
+    "question_hi": "\"Foot\" का बहुवचन रूप पहचानें।",
+    "question_mr": "\"Foot\" चे बहुवचन रूप ओळखा.",
+    "question_bn_draft": "'Foot'-এর বহুবচন রূপ চিহ্নিত করো।",
+    "options_en": [
+      "Foots",
+      "Feets",
+      "Feet",
+      "Footes"
+    ],
+    "options_hi": [
+      "Foots",
+      "Feets",
+      "Feet",
+      "Footes"
+    ],
+    "options_mr": [
+      "Foots",
+      "Feets",
+      "Feet",
+      "Footes"
+    ],
+    "options_bn_draft": [
+      "Foots",
+      "Feets",
+      "Feet",
+      "Footes"
+    ],
+    "explanation_en": "\"Foot\" has an irregular plural form: \"Feet\".",
+    "explanation_hi": "\"Foot\" का अनियमित बहुवचन रूप है: \"Feet\"।",
+    "explanation_mr": "\"Foot\" चे अनियमित बहुवचन रूप आहे: \"Feet\".",
+    "explanation_bn_draft": "'Foot'-এর অনিয়মিত বহুবচন রূপ হল: 'Feet'।"
+  },
+  {
+    "key": "rms6-p1-la-08",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "language",
+    "year": 2023,
+    "difficulty": "EASY",
+    "correctAnswer": 0,
+    "question_en": "Choose the correct question tag: They are joining the parade, ___?",
+    "question_hi": "सही question tag चुनें: They are joining the parade, ___?",
+    "question_mr": "योग्य question tag निवडा: They are joining the parade, ___?",
+    "question_bn_draft": "সঠিক question tag বেছে নাও: They are joining the parade, ___?",
+    "options_en": [
+      "aren't they",
+      "are they",
+      "don't they",
+      "isn't it"
+    ],
+    "options_hi": [
+      "aren't they",
+      "are they",
+      "don't they",
+      "isn't it"
+    ],
+    "options_mr": [
+      "aren't they",
+      "are they",
+      "don't they",
+      "isn't it"
+    ],
+    "options_bn_draft": [
+      "aren't they",
+      "are they",
+      "don't they",
+      "isn't it"
+    ],
+    "explanation_en": "A positive statement takes a negative question tag matching the same auxiliary verb and subject: \"are\" → \"aren't they\".",
+    "explanation_hi": "एक सकारात्मक वाक्य के साथ उसी सहायक क्रिया और कर्ता वाला नकारात्मक question tag आता है: \"are\" → \"aren't they\"।",
+    "explanation_mr": "सकारात्मक वाक्यासोबत त्याच साहाय्यक क्रियापद आणि कर्त्याशी जुळणारा नकारात्मक question tag येतो: \"are\" → \"aren't they\".",
+    "explanation_bn_draft": "একটি ইতিবাচক বাক্যের সাথে একই সহায়ক ক্রিয়া ও কর্তাযুক্ত নেতিবাচক question tag আসে: 'are' → 'aren't they'।"
+  },
+  {
+    "key": "rms6-p1-la-09",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "language",
+    "year": 2024,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 1,
+    "question_en": "Choose the correctly punctuated sentence.",
+    "question_hi": "सही विराम चिह्न वाला वाक्य चुनें।",
+    "question_mr": "योग्य विरामचिन्हे असलेले वाक्य निवडा.",
+    "question_bn_draft": "সঠিক যতিচিহ্নযুক্ত বাক্যটি বেছে নাও।",
+    "options_en": [
+      "How brave you are.",
+      "How brave you are!",
+      "how brave you are!",
+      "How brave you are?"
+    ],
+    "options_hi": [
+      "How brave you are.",
+      "How brave you are!",
+      "how brave you are!",
+      "How brave you are?"
+    ],
+    "options_mr": [
+      "How brave you are.",
+      "How brave you are!",
+      "how brave you are!",
+      "How brave you are?"
+    ],
+    "options_bn_draft": [
+      "How brave you are.",
+      "How brave you are!",
+      "how brave you are!",
+      "How brave you are?"
+    ],
+    "explanation_en": "An exclamatory sentence expressing strong feeling begins with a capital letter and ends with an exclamation mark.",
+    "explanation_hi": "प्रबल भावना व्यक्त करने वाला विस्मयादिबोधक वाक्य बड़े अक्षर से आरंभ होता है और विस्मयादिबोधक चिह्न से समाप्त होता है।",
+    "explanation_mr": "तीव्र भावना व्यक्त करणारे उद्गारवाचक वाक्य मोठ्या अक्षराने सुरू होते आणि उद्गारवाचक चिन्हाने संपते.",
+    "explanation_bn_draft": "প্রবল আবেগ প্রকাশ করা বিস্ময়সূচক বাক্য বড় হাতের অক্ষরে শুরু হয় এবং বিস্ময়সূচক চিহ্ন দিয়ে শেষ হয়।"
+  },
+  {
+    "key": "rms6-p1-la-10",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "language",
+    "year": 2024,
+    "difficulty": "EASY",
+    "correctAnswer": 1,
+    "question_en": "Choose the correct past tense of \"Run\".",
+    "question_hi": "\"Run\" का सही भूतकाल रूप चुनें।",
+    "question_mr": "\"Run\" चे योग्य भूतकाळ रूप निवडा.",
+    "question_bn_draft": "'Run'-এর সঠিক অতীতকালের রূপ বেছে নাও।",
+    "options_en": [
+      "Runned",
+      "Ran",
+      "Run",
+      "Running"
+    ],
+    "options_hi": [
+      "Runned",
+      "Ran",
+      "Run",
+      "Running"
+    ],
+    "options_mr": [
+      "Runned",
+      "Ran",
+      "Run",
+      "Running"
+    ],
+    "options_bn_draft": [
+      "Runned",
+      "Ran",
+      "Run",
+      "Running"
+    ],
+    "explanation_en": "\"Run\" is an irregular verb; its simple past tense is \"Ran\".",
+    "explanation_hi": "\"Run\" एक अनियमित क्रिया है; इसका simple past tense रूप \"Ran\" है।",
+    "explanation_mr": "\"Run\" हे एक अनियमित क्रियापद आहे; त्याचे simple past tense रूप \"Ran\" आहे.",
+    "explanation_bn_draft": "'Run' একটি অনিয়মিত ক্রিয়া; এর সাধারণ অতীতকালের রূপ হল 'Ran'।"
+  },
+  {
+    "key": "rms6-p1-la-11",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "language",
+    "year": 2024,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 1,
+    "question_en": "Read the passage: \"Vikas joined the National Cadet Corps in school. Every Sunday, he practices drills on the ground.\" What does Vikas do every Sunday?",
+    "question_hi": "गद्यांश पढ़ें: \"विकास ने स्कूल में राष्ट्रीय कैडेट कोर ज्वाइन की। हर रविवार, वह मैदान में अभ्यास करता है।\" विकास हर रविवार क्या करता है?",
+    "question_mr": "उतारा वाचा: \"विकासने शाळेत नॅशनल कॅडेट कोर्प्समध्ये प्रवेश घेतला. प्रत्येक रविवारी, तो मैदानात सराव करतो.\" विकास प्रत्येक रविवारी काय करतो?",
+    "question_bn_draft": "অনুচ্ছেদটি পড়ো: 'বিকাশ স্কুলে ন্যাশনাল ক্যাডেট কোরে যোগ দিয়েছে। প্রতি রবিবার, সে মাঠে কুচকাওয়াজের অনুশীলন করে।' বিকাশ প্রতি রবিবার কী করে?",
+    "options_en": [
+      "He plays cricket",
+      "He practices drills",
+      "He studies at home",
+      "He visits his grandparents"
+    ],
+    "options_hi": [
+      "वह क्रिकेट खेलता है",
+      "वह अभ्यास करता है",
+      "वह घर पर पढ़ाई करता है",
+      "वह अपने दादा-दादी से मिलने जाता है"
+    ],
+    "options_mr": [
+      "तो क्रिकेट खेळतो",
+      "तो सराव करतो",
+      "तो घरी अभ्यास करतो",
+      "तो त्याच्या आजी-आजोबांना भेटायला जातो"
+    ],
+    "options_bn_draft": [
+      "সে ক্রিকেট খেলে",
+      "সে কুচকাওয়াজের অনুশীলন করে",
+      "সে বাড়িতে পড়াশোনা করে",
+      "সে তার ঠাকুরদা-ঠাকুমার সাথে দেখা করতে যায়"
+    ],
+    "explanation_en": "The passage directly states he practices drills on the ground every Sunday.",
+    "explanation_hi": "गद्यांश में स्पष्ट रूप से कहा गया है कि वह हर रविवार मैदान में अभ्यास करता है।",
+    "explanation_mr": "उताऱ्यात स्पष्टपणे सांगितले आहे की तो प्रत्येक रविवारी मैदानात सराव करतो.",
+    "explanation_bn_draft": "অনুচ্ছেদে স্পষ্টভাবে বলা হয়েছে যে সে প্রতি রবিবার মাঠে কুচকাওয়াজের অনুশীলন করে।"
+  },
+  {
+    "key": "rms6-p1-la-12",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "language",
+    "year": 2024,
+    "difficulty": "EASY",
+    "correctAnswer": 2,
+    "question_en": "Choose the correct comparative form of \"Strong\".",
+    "question_hi": "\"Strong\" का सही तुलनात्मक (comparative) रूप चुनें।",
+    "question_mr": "\"Strong\" चे योग्य तुलनात्मक (comparative) रूप निवडा.",
+    "question_bn_draft": "'Strong'-এর সঠিক তুলনামূলক (comparative) রূপ বেছে নাও।",
+    "options_en": [
+      "Strongest",
+      "More strong",
+      "Stronger",
+      "Strongly"
+    ],
+    "options_hi": [
+      "Strongest",
+      "More strong",
+      "Stronger",
+      "Strongly"
+    ],
+    "options_mr": [
+      "Strongest",
+      "More strong",
+      "Stronger",
+      "Strongly"
+    ],
+    "options_bn_draft": [
+      "Strongest",
+      "More strong",
+      "Stronger",
+      "Strongly"
+    ],
+    "explanation_en": "For short adjectives like \"Strong\", the comparative is formed by adding \"-er\": \"Stronger\".",
+    "explanation_hi": "\"Strong\" जैसे छोटे विशेषणों में comparative रूप \"-er\" जोड़कर बनता है: \"Stronger\"।",
+    "explanation_mr": "\"Strong\" सारख्या लहान विशेषणांमध्ये comparative रूप \"-er\" जोडून बनते: \"Stronger\".",
+    "explanation_bn_draft": "'Strong'-এর মতো ছোট বিশেষণে '-er' যোগ করে তুলনামূলক রূপ তৈরি হয়: 'Stronger'।"
+  },
+  {
+    "key": "rms6-p1-la-13",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "language",
+    "year": 2025,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 1,
+    "question_en": "Identify the verb in the sentence: \"The captain shouted an order.\"",
+    "question_hi": "वाक्य में क्रिया (verb) पहचानें: \"The captain shouted an order.\"",
+    "question_mr": "वाक्यात क्रियापद (verb) ओळखा: \"The captain shouted an order.\"",
+    "question_bn_draft": "বাক্যে ক্রিয়া (verb) চিহ্নিত করো: 'The captain shouted an order.'",
+    "options_en": [
+      "Captain",
+      "Shouted",
+      "An",
+      "Order"
+    ],
+    "options_hi": [
+      "Captain",
+      "Shouted",
+      "An",
+      "Order"
+    ],
+    "options_mr": [
+      "Captain",
+      "Shouted",
+      "An",
+      "Order"
+    ],
+    "options_bn_draft": [
+      "Captain",
+      "Shouted",
+      "An",
+      "Order"
+    ],
+    "explanation_en": "\"Shouted\" is the action word in the sentence, making it the verb.",
+    "explanation_hi": "\"Shouted\" वाक्य में क्रिया-शब्द है, अतः यह क्रिया है।",
+    "explanation_mr": "\"Shouted\" हा वाक्यातील क्रिया-शब्द आहे, म्हणून तो verb आहे.",
+    "explanation_bn_draft": "'Shouted' বাক্যে কাজ-বাচক শব্দ, তাই এটি ক্রিয়া।"
+  },
+  {
+    "key": "rms6-p1-la-14",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "language",
+    "year": 2025,
+    "difficulty": "EASY",
+    "correctAnswer": 1,
+    "question_en": "Choose the word opposite in meaning to \"Attack\".",
+    "question_hi": "\"Attack\" के विपरीत अर्थ वाला शब्द चुनें।",
+    "question_mr": "\"Attack\" च्या विरुद्ध अर्थ असलेला शब्द निवडा.",
+    "question_bn_draft": "'Attack'-এর বিপরীত অর্থযুক্ত শব্দ বেছে নাও।",
+    "options_en": [
+      "Assault",
+      "Defend",
+      "Charge",
+      "Strike"
+    ],
+    "options_hi": [
+      "Assault",
+      "Defend",
+      "Charge",
+      "Strike"
+    ],
+    "options_mr": [
+      "Assault",
+      "Defend",
+      "Charge",
+      "Strike"
+    ],
+    "options_bn_draft": [
+      "Assault",
+      "Defend",
+      "Charge",
+      "Strike"
+    ],
+    "explanation_en": "\"Defend\" means to protect against an attack, the opposite of \"Attack\".",
+    "explanation_hi": "\"Defend\" का अर्थ है हमले से रक्षा करना, जो \"Attack\" के विपरीत है।",
+    "explanation_mr": "\"Defend\" चा अर्थ हल्ल्यापासून रक्षण करणे असा आहे, जो \"Attack\" च्या विरुद्ध आहे.",
+    "explanation_bn_draft": "'Defend' মানে আক্রমণ থেকে রক্ষা করা, যা 'Attack'-এর বিপরীত।"
+  },
+  {
+    "key": "rms6-p1-la-15",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "language",
+    "year": 2025,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 2,
+    "question_en": "Choose the correctly formed sentence.",
+    "question_hi": "सही ढंग से बना वाक्य चुनें।",
+    "question_mr": "योग्य पद्धतीने बनलेले वाक्य निवडा.",
+    "question_bn_draft": "সঠিকভাবে গঠিত বাক্যটি বেছে নাও।",
+    "options_en": [
+      "They doesn't play football.",
+      "They don't plays football.",
+      "They don't play football.",
+      "They not play football."
+    ],
+    "options_hi": [
+      "They doesn't play football.",
+      "They don't plays football.",
+      "They don't play football.",
+      "They not play football."
+    ],
+    "options_mr": [
+      "They doesn't play football.",
+      "They don't plays football.",
+      "They don't play football.",
+      "They not play football."
+    ],
+    "options_bn_draft": [
+      "They doesn't play football.",
+      "They don't plays football.",
+      "They don't play football.",
+      "They not play football."
+    ],
+    "explanation_en": "With plural \"They\", the negative uses \"don't\" followed by the base verb form \"play\".",
+    "explanation_hi": "बहुवचन \"They\" के साथ, negative में \"don't\" के बाद मूल क्रिया रूप \"play\" आता है।",
+    "explanation_mr": "बहुवचनी \"They\" सोबत, negative मध्ये \"don't\" नंतर मूळ क्रियापद रूप \"play\" येते.",
+    "explanation_bn_draft": "বহুবচন 'They'-র সাথে, নেতিবাচক বাক্যে 'don't'-এর পরে মূল ক্রিয়ারূপ 'play' ব্যবহৃত হয়।"
+  },
+  {
+    "key": "rms6-p1-la-16",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "language",
+    "year": 2025,
+    "difficulty": "EASY",
+    "correctAnswer": 1,
+    "question_en": "Choose the correct plural of \"Man\".",
+    "question_hi": "\"Man\" का सही बहुवचन चुनें।",
+    "question_mr": "\"Man\" चे योग्य बहुवचन निवडा.",
+    "question_bn_draft": "'Man'-এর সঠিক বহুবচন বেছে নাও।",
+    "options_en": [
+      "Mans",
+      "Men",
+      "Man",
+      "Mens"
+    ],
+    "options_hi": [
+      "Mans",
+      "Men",
+      "Man",
+      "Mens"
+    ],
+    "options_mr": [
+      "Mans",
+      "Men",
+      "Man",
+      "Mens"
+    ],
+    "options_bn_draft": [
+      "Mans",
+      "Men",
+      "Man",
+      "Mens"
+    ],
+    "explanation_en": "\"Man\" has an irregular plural form: \"Men\".",
+    "explanation_hi": "\"Man\" का अनियमित बहुवचन रूप है: \"Men\"।",
+    "explanation_mr": "\"Man\" चे अनियमित बहुवचन रूप आहे: \"Men\".",
+    "explanation_bn_draft": "'Man'-এর অনিয়মিত বহুবচন রূপ হল: 'Men'।"
+  },
+  {
+    "key": "rms6-p1-la-17",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "language",
+    "year": 2026,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 0,
+    "question_en": "Choose the correctly ordered sentence using the given words: (drills / every / the / soldiers / practice / day)",
+    "question_hi": "दिए गए शब्दों से सही क्रम वाला वाक्य चुनें: (drills / every / the / soldiers / practice / day)",
+    "question_mr": "दिलेल्या शब्दांपासून योग्य क्रमाने बनलेले वाक्य निवडा: (drills / every / the / soldiers / practice / day)",
+    "question_bn_draft": "দেওয়া শব্দগুলি থেকে সঠিক ক্রমে গঠিত বাক্যটি বেছে নাও: (drills / every / the / soldiers / practice / day)",
+    "options_en": [
+      "The soldiers practice drills every day.",
+      "The soldiers every day practice drills.",
+      "Every day the drills soldiers practice.",
+      "Practice the soldiers drills every day."
+    ],
+    "options_hi": [
+      "The soldiers practice drills every day.",
+      "The soldiers every day practice drills.",
+      "Every day the drills soldiers practice.",
+      "Practice the soldiers drills every day."
+    ],
+    "options_mr": [
+      "The soldiers practice drills every day.",
+      "The soldiers every day practice drills.",
+      "Every day the drills soldiers practice.",
+      "Practice the soldiers drills every day."
+    ],
+    "options_bn_draft": [
+      "The soldiers practice drills every day.",
+      "The soldiers every day practice drills.",
+      "Every day the drills soldiers practice.",
+      "Practice the soldiers drills every day."
+    ],
+    "explanation_en": "The standard English word order is Subject-Verb-Object, followed by the time expression: \"The soldiers practice drills every day.\"",
+    "explanation_hi": "मानक अंग्रेज़ी शब्द-क्रम है कर्ता-क्रिया-कर्म, उसके बाद समय-वाक्यांश: \"The soldiers practice drills every day.\"",
+    "explanation_mr": "मानक इंग्रजी शब्द-क्रम आहे कर्ता-क्रियापद-कर्म, त्यानंतर वेळ-वाक्यांश: \"The soldiers practice drills every day.\"",
+    "explanation_bn_draft": "মানক ইংরেজি শব্দ-ক্রম হল কর্তা-ক্রিয়া-কর্ম, তারপর সময়-বাক্যাংশ: 'The soldiers practice drills every day.'"
+  },
+  {
+    "key": "rms6-p1-la-18",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "language",
+    "year": 2026,
+    "difficulty": "EASY",
+    "correctAnswer": 1,
+    "question_en": "Choose the correct homophone: The ship needs a new ___.",
+    "question_hi": "सही समोच्चारित (homophone) शब्द चुनें: The ship needs a new ___.",
+    "question_mr": "योग्य समानोच्चारित (homophone) शब्द निवडा: The ship needs a new ___.",
+    "question_bn_draft": "সঠিক সমোচ্চারিত (homophone) শব্দটি বেছে নাও: The ship needs a new ___.",
+    "options_en": [
+      "sale",
+      "sail",
+      "sell",
+      "cell"
+    ],
+    "options_hi": [
+      "sale",
+      "sail",
+      "sell",
+      "cell"
+    ],
+    "options_mr": [
+      "sale",
+      "sail",
+      "sell",
+      "cell"
+    ],
+    "options_bn_draft": [
+      "sale",
+      "sail",
+      "sell",
+      "cell"
+    ],
+    "explanation_en": "\"Sail\" refers to the cloth that catches wind to move a ship, matching the sentence's meaning.",
+    "explanation_hi": "\"Sail\" उस कपड़े को दर्शाता है जो हवा पकड़कर जहाज़ को चलाता है, जो वाक्य के अर्थ से मेल खाता है।",
+    "explanation_mr": "\"Sail\" हे त्या कापडाला दर्शवते जे वारा पकडून जहाज चालवते, जे वाक्याच्या अर्थाशी जुळते.",
+    "explanation_bn_draft": "'Sail' সেই কাপড়কে বোঝায় যা বাতাস ধরে জাহাজকে চালায়, যা বাক্যের অর্থের সাথে মেলে।"
+  },
+  {
+    "key": "rms6-p1-la-19",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "language",
+    "year": 2022,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 1,
+    "question_en": "Choose the sentence with the correctly placed possessive apostrophe.",
+    "question_hi": "स्वामित्व सूचक apostrophe के सही स्थान वाला वाक्य चुनें।",
+    "question_mr": "स्वामित्व दर्शवणाऱ्या apostrophe च्या योग्य स्थानासह वाक्य निवडा.",
+    "question_bn_draft": "স্বত্ববাচক apostrophe-র সঠিক স্থানযুক্ত বাক্যটি বেছে নাও।",
+    "options_en": [
+      "The soldiers uniform was clean.",
+      "The soldier's uniform was clean.",
+      "The soldiers' uniform was clean.",
+      "The soldiers, uniform was clean."
+    ],
+    "options_hi": [
+      "The soldiers uniform was clean.",
+      "The soldier's uniform was clean.",
+      "The soldiers' uniform was clean.",
+      "The soldiers, uniform was clean."
+    ],
+    "options_mr": [
+      "The soldiers uniform was clean.",
+      "The soldier's uniform was clean.",
+      "The soldiers' uniform was clean.",
+      "The soldiers, uniform was clean."
+    ],
+    "options_bn_draft": [
+      "The soldiers uniform was clean.",
+      "The soldier's uniform was clean.",
+      "The soldiers' uniform was clean.",
+      "The soldiers, uniform was clean."
+    ],
+    "explanation_en": "For one soldier possessing the uniform, the apostrophe goes before the \"s\": \"soldier's\".",
+    "explanation_hi": "एक सैनिक द्वारा वर्दी के स्वामित्व के लिए, apostrophe \"s\" से पहले आता है: \"soldier's\"।",
+    "explanation_mr": "एका सैनिकाच्या वर्दीच्या मालकीसाठी, apostrophe \"s\" च्या आधी येतो: \"soldier's\".",
+    "explanation_bn_draft": "একজন সৈনিকের উর্দির মালিকানা বোঝাতে apostrophe 's'-এর আগে বসে: 'soldier's'।"
+  },
+  {
+    "key": "rms6-p1-la-20",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "language",
+    "year": 2023,
+    "difficulty": "EASY",
+    "correctAnswer": 2,
+    "question_en": "Choose the correct spelling.",
+    "question_hi": "सही वर्तनी चुनें।",
+    "question_mr": "योग्य स्पेलिंग निवडा.",
+    "question_bn_draft": "সঠিক বানানটি বেছে নাও।",
+    "options_en": [
+      "Neccessary",
+      "Necesary",
+      "Necessary",
+      "Neccesary"
+    ],
+    "options_hi": [
+      "Neccessary",
+      "Necesary",
+      "Necessary",
+      "Neccesary"
+    ],
+    "options_mr": [
+      "Neccessary",
+      "Necesary",
+      "Necessary",
+      "Neccesary"
+    ],
+    "options_bn_draft": [
+      "Neccessary",
+      "Necesary",
+      "Necessary",
+      "Neccesary"
+    ],
+    "explanation_en": "\"Necessary\" is spelled n-e-c-e-s-s-a-r-y, with one \"c\" and two \"s\"s.",
+    "explanation_hi": "\"Necessary\" की वर्तनी है n-e-c-e-s-s-a-r-y, एक \"c\" और दो \"s\" के साथ।",
+    "explanation_mr": "\"Necessary\" चे स्पेलिंग आहे n-e-c-e-s-s-a-r-y, एक \"c\" आणि दोन \"s\" सह.",
+    "explanation_bn_draft": "'Necessary'-এর বানান হল n-e-c-e-s-s-a-r-y, একটি 'c' এবং দুটি 's' সহ।"
+  },
+  {
+    "key": "rms6-p1-la-21",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "language",
+    "year": 2023,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 0,
+    "question_en": "Identify the adjective in the sentence: \"The brave soldier saluted proudly.\"",
+    "question_hi": "वाक्य में विशेषण (adjective) पहचानें: \"The brave soldier saluted proudly.\"",
+    "question_mr": "वाक्यात विशेषण (adjective) ओळखा: \"The brave soldier saluted proudly.\"",
+    "question_bn_draft": "বাক্যে বিশেষণ (adjective) চিহ্নিত করো: 'The brave soldier saluted proudly.'",
+    "options_en": [
+      "Brave",
+      "Soldier",
+      "Saluted",
+      "Proudly"
+    ],
+    "options_hi": [
+      "Brave",
+      "Soldier",
+      "Saluted",
+      "Proudly"
+    ],
+    "options_mr": [
+      "Brave",
+      "Soldier",
+      "Saluted",
+      "Proudly"
+    ],
+    "options_bn_draft": [
+      "Brave",
+      "Soldier",
+      "Saluted",
+      "Proudly"
+    ],
+    "explanation_en": "\"Brave\" describes the noun \"soldier\", making it the adjective.",
+    "explanation_hi": "\"Brave\" संज्ञा \"soldier\" का वर्णन करता है, अतः यह विशेषण है।",
+    "explanation_mr": "\"Brave\" हे \"soldier\" या नामाचे वर्णन करते, म्हणून ते विशेषण आहे.",
+    "explanation_bn_draft": "'Brave' বিশেষ্য 'soldier'-কে বর্ণনা করে, তাই এটি বিশেষণ।"
+  },
+  {
+    "key": "rms6-p1-la-22",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "language",
+    "year": 2024,
+    "difficulty": "EASY",
+    "correctAnswer": 1,
+    "question_en": "Choose the correct pronoun: ___ is a courageous officer.",
+    "question_hi": "सही सर्वनाम चुनें: ___ is a courageous officer.",
+    "question_mr": "योग्य सर्वनाम निवडा: ___ is a courageous officer.",
+    "question_bn_draft": "সঠিক সর্বনামটি বেছে নাও: ___ is a courageous officer.",
+    "options_en": [
+      "Her",
+      "She",
+      "Hers",
+      "Herself"
+    ],
+    "options_hi": [
+      "Her",
+      "She",
+      "Hers",
+      "Herself"
+    ],
+    "options_mr": [
+      "Her",
+      "She",
+      "Hers",
+      "Herself"
+    ],
+    "options_bn_draft": [
+      "Her",
+      "She",
+      "Hers",
+      "Herself"
+    ],
+    "explanation_en": "\"She\" is the subject pronoun needed here, since it performs the action \"is\".",
+    "explanation_hi": "यहाँ कर्ता सर्वनाम \"She\" चाहिए, क्योंकि यह \"is\" क्रिया का कर्ता है।",
+    "explanation_mr": "इथे कर्ता सर्वनाम \"She\" हवे, कारण ते \"is\" या क्रियापदाचा कर्ता आहे.",
+    "explanation_bn_draft": "এখানে কর্তৃকারক সর্বনাম 'She' প্রয়োজন, কারণ এটি 'is' ক্রিয়াটি সম্পাদন করছে।"
+  },
+  {
+    "key": "rms6-p1-la-23",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "language",
+    "year": 2024,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 1,
+    "question_en": "Choose the sentence in the passive voice.",
+    "question_hi": "passive voice वाला वाक्य चुनें।",
+    "question_mr": "passive voice मधील वाक्य निवडा.",
+    "question_bn_draft": "যে বাক্যটি কর্মবাচ্যে (passive voice) আছে সেটি বেছে নাও।",
+    "options_en": [
+      "The general gave the order.",
+      "The order was given by the general.",
+      "The general is giving the order.",
+      "The general will give the order."
+    ],
+    "options_hi": [
+      "The general gave the order.",
+      "The order was given by the general.",
+      "The general is giving the order.",
+      "The general will give the order."
+    ],
+    "options_mr": [
+      "The general gave the order.",
+      "The order was given by the general.",
+      "The general is giving the order.",
+      "The general will give the order."
+    ],
+    "options_bn_draft": [
+      "The general gave the order.",
+      "The order was given by the general.",
+      "The general is giving the order.",
+      "The general will give the order."
+    ],
+    "explanation_en": "In the passive voice, the object of the action becomes the subject, and \"was + past participle\" is used: \"The order was given by the general.\"",
+    "explanation_hi": "passive voice में, क्रिया के कर्म को कर्ता बना दिया जाता है, और \"was + past participle\" प्रयोग होता है: \"The order was given by the general.\"",
+    "explanation_mr": "passive voice मध्ये, क्रियेच्या कर्माला कर्ता बनवले जाते, आणि \"was + past participle\" वापरले जाते: \"The order was given by the general.\"",
+    "explanation_bn_draft": "কর্মবাচ্যে, ক্রিয়ার কর্মটি কর্তা হয়ে যায়, এবং 'was + past participle' ব্যবহৃত হয়: 'The order was given by the general.'"
+  },
+  {
+    "key": "rms6-p1-la-24",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "language",
+    "year": 2025,
+    "difficulty": "EASY",
+    "correctAnswer": 1,
+    "question_en": "Choose the correct collective noun: A ___ of soldiers marched past.",
+    "question_hi": "सही समूहवाचक संज्ञा (collective noun) चुनें: A ___ of soldiers marched past.",
+    "question_mr": "योग्य समूहवाचक संज्ञा (collective noun) निवडा: A ___ of soldiers marched past.",
+    "question_bn_draft": "সঠিক সমষ্টিবাচক বিশেষ্য (collective noun) বেছে নাও: A ___ of soldiers marched past.",
+    "options_en": [
+      "Flock",
+      "Platoon",
+      "Swarm",
+      "Herd"
+    ],
+    "options_hi": [
+      "Flock",
+      "Platoon",
+      "Swarm",
+      "Herd"
+    ],
+    "options_mr": [
+      "Flock",
+      "Platoon",
+      "Swarm",
+      "Herd"
+    ],
+    "options_bn_draft": [
+      "Flock",
+      "Platoon",
+      "Swarm",
+      "Herd"
+    ],
+    "explanation_en": "A small group of soldiers is commonly called a \"platoon\".",
+    "explanation_hi": "सैनिकों के एक छोटे समूह को सामान्यतः \"platoon\" कहा जाता है।",
+    "explanation_mr": "सैनिकांच्या एका लहान गटाला सामान्यतः \"platoon\" म्हणतात.",
+    "explanation_bn_draft": "সৈনিকদের একটি ছোট দলকে সাধারণত 'platoon' বলা হয়।"
+  },
+  {
+    "key": "rms6-p1-la-25",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "language",
+    "year": 2026,
+    "difficulty": "HARD",
+    "correctAnswer": 1,
+    "question_en": "Choose the sentence with the correct use of \"who\" or \"whom\": To ___ did the medal go?",
+    "question_hi": "\"who\" या \"whom\" के सही प्रयोग वाला वाक्य चुनें: To ___ did the medal go?",
+    "question_mr": "\"who\" किंवा \"whom\" च्या योग्य वापरासह वाक्य निवडा: To ___ did the medal go?",
+    "question_bn_draft": "'who' বা 'whom'-এর সঠিক ব্যবহারযুক্ত বাক্যটি বেছে নাও: To ___ did the medal go?",
+    "options_en": [
+      "who",
+      "whom",
+      "whose",
+      "which"
+    ],
+    "options_hi": [
+      "who",
+      "whom",
+      "whose",
+      "which"
+    ],
+    "options_mr": [
+      "who",
+      "whom",
+      "whose",
+      "which"
+    ],
+    "options_bn_draft": [
+      "who",
+      "whom",
+      "whose",
+      "which"
+    ],
+    "explanation_en": "\"Whom\" is used as the object of the preposition \"to\" (\"to whom\"), while \"who\" is used as a subject.",
+    "explanation_hi": "\"Whom\" preposition \"to\" के कर्म के रूप में प्रयोग होता है (\"to whom\"), जबकि \"who\" कर्ता के रूप में प्रयोग होता है।",
+    "explanation_mr": "\"Whom\" चा वापर \"to\" या preposition च्या कर्मासारखा होतो (\"to whom\"), तर \"who\" कर्ता म्हणून वापरले जाते.",
+    "explanation_bn_draft": "'Whom' পদান্বয়ী অব্যয় 'to'-এর কর্ম হিসেবে ব্যবহৃত হয় ('to whom'), যেখানে 'who' কর্তা হিসেবে ব্যবহৃত হয়।"
+  },
+  {
+    "key": "rms6-gem1-gk-01",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "general_knowledge",
+    "year": 2026,
+    "difficulty": "EASY",
+    "correctAnswer": 1,
+    "question_en": "What is the official motto of the Indian Army?",
+    "question_hi": "भारतीय सेना (Indian Army) का आधिकारिक ध्येय वाक्य (Motto) क्या है?",
+    "question_mr": "भारतीय सेनेचे (Indian Army) अधिकृत ध्येयवाक्य (Motto) काय आहे?",
+    "question_bn_draft": "ভারতীয় সেনাবাহিনীর (Indian Army) সরকারি নীতিবাক্য (Motto) কী?",
+    "options_en": [
+      "Touch the Sky with Glory",
+      "Service Before Self (Seva Paramo Dharma)",
+      "Sham No Varunah",
+      "Valour and Wisdom"
+    ],
+    "options_hi": [
+      "नभः स्पृशं दीप्तम्",
+      "सेवा परमो धर्मः (Service Before Self)",
+      "शं नो वरुणः",
+      "वीरता और विवेक"
+    ],
+    "options_mr": [
+      "नभः स्पृशं दीप्तम्",
+      "सेवा परमो धर्मः (Service Before Self)",
+      "शं नो वरुणः",
+      "शौर्य आणि विवेक"
+    ],
+    "options_bn_draft": [
+      "নভঃ স্পৃশং দীপ্তম্",
+      "সেবা পরমো ধর্মঃ (Service Before Self)",
+      "শং নো বরুণঃ",
+      "বীরত্ব ও বিচক্ষণতা"
+    ],
+    "explanation_en": "The official motto of the Indian Army is 'Service Before Self' ('Seva Paramo Dharma' in Sanskrit).",
+    "explanation_hi": "भारतीय सेना का आधिकारिक ध्येय वाक्य 'सेवा परमो धर्मः' (Service Before Self) है।",
+    "explanation_mr": "भारतीय सेनेचे अधिकृत ध्येयवाक्य 'सेवा परमो धर्मः' (Service Before Self) आहे.",
+    "explanation_bn_draft": "ভারতীয় সেনাবাহিনীর সরকারি নীতিবাক্য হল 'সেবা পরমো ধর্মঃ' (Service Before Self)।"
+  },
+  {
+    "key": "rms6-gem1-gk-02",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "general_knowledge",
+    "year": 2026,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 1,
+    "question_en": "Which is India's highest military decoration awarded for highest degree of valour or self-sacrifice in the presence of the enemy during wartime?",
+    "question_hi": "युद्ध के दौरान दुश्मन की उपस्थिति में अदम्य साहस और आत्मबलिदान के लिए दिया जाने वाला भारत का सर्वोच्च सैन्य पुरस्कार कौन सा है?",
+    "question_mr": "युद्धकाळात शत्रूसमोर दाखवलेल्या अत्युच्च शौर्यासाठी किंवा आत्मबलिदानासाठी दिला जाणारा भारताचा सर्वोच्च लष्करी सन्मान कोणता आहे?",
+    "question_bn_draft": "যুদ্ধকালে শত্রুর উপস্থিতিতে সর্বোচ্চ মাত্রার বীরত্ব বা আত্মবলিদানের জন্য প্রদত্ত ভারতের সর্বোচ্চ সামরিক সম্মান কোনটি?",
+    "options_en": [
+      "Maha Vir Chakra",
+      "Param Vir Chakra",
+      "Kirti Chakra",
+      "Ashok Chakra"
+    ],
+    "options_hi": [
+      "महावीर चक्र",
+      "परमवीर चक्र",
+      "कीर्ति चक्र",
+      "अशोक चक्र"
+    ],
+    "options_mr": [
+      "महावीर चक्र",
+      "परमवीर चक्र",
+      "कीर्ती चक्र",
+      "अशोक चक्र"
+    ],
+    "options_bn_draft": [
+      "মহাবীর চক্র",
+      "পরমবীর চক্র",
+      "কীর্তি চক্র",
+      "অশোক চক্র"
+    ],
+    "explanation_en": "The Param Vir Chakra (PVC) is India's highest wartime military award for bravery.",
+    "explanation_hi": "परमवीर चक्र (PVC) युद्धकाल में सर्वोच्च वीरता का भारत का सर्वोच्च सैन्य सम्मान है।",
+    "explanation_mr": "परमवीर चक्र (PVC) हा युद्धकाळातील शौर्यासाठी भारताचा सर्वोच्च लष्करी सन्मान आहे.",
+    "explanation_bn_draft": "পরমবীর চক্র (PVC) যুদ্ধকালীন সর্বোচ্চ বীরত্বের জন্য ভারতের সর্বোচ্চ সামরিক সম্মান।"
+  },
+  {
+    "key": "rms6-gem1-gk-03",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "general_knowledge",
+    "year": 2026,
+    "difficulty": "HARD",
+    "correctAnswer": 1,
+    "question_en": "What is the official capital city of the North-Eastern state of Nagaland?",
+    "question_hi": "भारत के पूर्वोत्तर राज्य नागालैंड की आधिकारिक राजधानी कौन सी है?",
+    "question_mr": "भारताच्या पूर्वोत्तर राज्य नागालँडची अधिकृत राजधानी कोणती आहे?",
+    "question_bn_draft": "ভারতের উত্তর-পূর্বাঞ্চলীয় রাজ্য নাগাল্যান্ডের সরকারি রাজধানী শহর কোনটি?",
+    "options_en": [
+      "Imphal",
+      "Kohima",
+      "Shillong",
+      "Agartala"
+    ],
+    "options_hi": [
+      "इम्फाल",
+      "कोहिमा",
+      "शिलांग",
+      "अगरतला"
+    ],
+    "options_mr": [
+      "इम्फाळ",
+      "कोहिमा",
+      "शिलाँग",
+      "आगरतळा"
+    ],
+    "options_bn_draft": [
+      "ইম্ফল",
+      "কোহিমা",
+      "শিলং",
+      "আগরতলা"
+    ],
+    "explanation_en": "Kohima is the capital city of Nagaland (Imphal is Manipur's capital; Shillong is Meghalaya's; Agartala is Tripura's).",
+    "explanation_hi": "कोहिमा नागालैंड की राजधानी है (इम्फाल मणिपुर की; शिलांग मेघालय की; अगरतला त्रिपुरा की है)।",
+    "explanation_mr": "कोहिमा ही नागालँडची राजधानी आहे (इम्फाळ मणिपूरची, शिलाँग मेघालयची आणि आगरतळा त्रिपुराची राजधानी आहे).",
+    "explanation_bn_draft": "কোহিমা নাগাল্যান্ডের রাজধানী শহর (ইম্ফল মণিপুরের রাজধানী; শিলং মেঘালয়ের; আগরতলা ত্রিপুরার)।"
+  },
+  {
+    "key": "rms6-gem2-gk-01",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "general_knowledge",
+    "year": 2026,
+    "difficulty": "EASY",
+    "correctAnswer": 1,
+    "question_en": "Which military rank in the Indian Air Force is equivalent to a Colonel in the Indian Army?",
+    "question_hi": "भारतीय वायु सेना (IAF) का कौन सा रैंक भारतीय सेना के कर्नल (Colonel) के बराबर है?",
+    "question_mr": "भारतीय हवाई दलातील (IAF) कोणता लष्करी हुद्दा भारतीय लष्करातील कर्नल (Colonel) च्या समान आहे?",
+    "question_bn_draft": "ভারতীয় বিমানবাহিনীর (IAF) কোন পদমর্যাদা ভারতীয় সেনাবাহিনীর কর্নেল (Colonel)-এর সমতুল্য?",
+    "options_en": [
+      "Wing Commander",
+      "Group Captain",
+      "Air Commodore",
+      "Squadron Leader"
+    ],
+    "options_hi": [
+      "विंग कमांडर",
+      "ग्रुप कैप्टन",
+      "एयर कमोडोर",
+      "स्क्वाड्रन लीडर"
+    ],
+    "options_mr": [
+      "विंग कमांडर",
+      "ग्रुप कॅप्टन",
+      "एअर कमोडोर",
+      "स्क्वाड्रन लीडर"
+    ],
+    "options_bn_draft": [
+      "উইং কমান্ডার",
+      "গ্রুপ ক্যাপ্টেন",
+      "এয়ার কমোডোর",
+      "স্কোয়াড্রন লিডার"
+    ],
+    "explanation_en": "In equivalent rank structures, Group Captain (Air Force) = Colonel (Army) = Captain (Navy).",
+    "explanation_hi": "समकक्ष रैंक संरचना में, ग्रुप कैप्टन (वायु सेना) = कर्नल (थल सेना) = कैप्टन (नौसेना) होता है।",
+    "explanation_mr": "समान हुद्दा रचनेत, ग्रुप कॅप्टन (हवाई दल) = कर्नल (लष्कर) = कॅप्टन (नौदल) असतो.",
+    "explanation_bn_draft": "সমতুল্য পদমর্যাদার কাঠামোয়, গ্রুপ ক্যাপ্টেন (বিমানবাহিনী) = কর্নেল (সেনাবাহিনী) = ক্যাপ্টেন (নৌবাহিনী)।"
+  },
+  {
+    "key": "rms6-gem2-gk-02",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "general_knowledge",
+    "year": 2026,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 0,
+    "question_en": "What does the abbreviation DRDO stand for in India's defence establishment?",
+    "question_hi": "भारत के रक्षा प्रतिष्ठान में संक्षिप्त नाम DRDO का क्या अर्थ है?",
+    "question_mr": "भारताच्या संरक्षण व्यवस्थेत DRDO या संक्षिप्त नावाचा पूर्ण अर्थ काय आहे?",
+    "question_bn_draft": "ভারতের প্রতিরক্ষা ব্যবস্থায় DRDO সংক্ষিপ্ত নামটির অর্থ কী?",
+    "options_en": [
+      "Defence Research and Development Organisation",
+      "Department of Railway and Defence Operations",
+      "Defence Resources and Ordnance Office",
+      "Digital Research and Defence Office"
+    ],
+    "options_hi": [
+      "रक्षा अनुसंधान एवं विकास संगठन",
+      "रेलवे एवं रक्षा परिचालन विभाग",
+      "रक्षा संसाधन और आयुध कार्यालय",
+      "डिजिटल अनुसंधान एवं रक्षा कार्यालय"
+    ],
+    "options_mr": [
+      "संरक्षण संशोधन आणि विकास संघटना",
+      "रेल्वे आणि संरक्षण कार्यवाही विभाग",
+      "संरक्षण संसाधन आणि शस्त्रास्त्र कार्यालय",
+      "डिजिटल संशोधन आणि संरक्षण कार्यालय"
+    ],
+    "options_bn_draft": [
+      "প্রতিরক্ষা গবেষণা ও উন্নয়ন সংস্থা",
+      "রেলওয়ে ও প্রতিরক্ষা কার্যক্রম বিভাগ",
+      "প্রতিরক্ষা সম্পদ ও অস্ত্র দপ্তর",
+      "ডিজিটাল গবেষণা ও প্রতিরক্ষা দপ্তর"
+    ],
+    "explanation_en": "DRDO stands for Defence Research and Development Organisation, charged with military R&D.",
+    "explanation_hi": "DRDO का पूर्ण रूप Defence Research and Development Organisation (रक्षा अनुसंधान एवं विकास संगठन) है।",
+    "explanation_mr": "DRDO चा पूर्ण अर्थ Defence Research and Development Organisation (संरक्षण संशोधन आणि विकास संघटना) असा आहे, जी लष्करी संशोधन व विकासाचे काम पाहते.",
+    "explanation_bn_draft": "DRDO-র পূর্ণরূপ হল Defence Research and Development Organisation (প্রতিরক্ষা গবেষণা ও উন্নয়ন সংস্থা), যা সামরিক গবেষণা ও উন্নয়নের দায়িত্বে থাকে।"
+  },
+  {
+    "key": "rms6-gem2-gk-03",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "general_knowledge",
+    "year": 2026,
+    "difficulty": "HARD",
+    "correctAnswer": 1,
+    "question_en": "Which main organ in the human body is responsible for filtering metabolic waste products from the blood to produce urine?",
+    "question_hi": "मानव शरीर में कौन सा मुख्य अंग मूत्र बनाने के लिए रक्त से चयापचय अपशिष्ट उत्पादों को छानने के लिए जिम्मेदार है?",
+    "question_mr": "मानवी शरीरातील कोणता मुख्य अवयव रक्तातील चयापचय टाकाऊ पदार्थ गाळून मूत्र तयार करण्यासाठी जबाबदार आहे?",
+    "question_bn_draft": "মানবদেহের কোন প্রধান অঙ্গ রক্ত থেকে বিপাকীয় বর্জ্য ছেঁকে প্রস্রাব তৈরি করার দায়িত্বে থাকে?",
+    "options_en": [
+      "Liver",
+      "Kidneys",
+      "Lungs",
+      "Pancreas"
+    ],
+    "options_hi": [
+      "यकृत (Liver)",
+      "गुर्दे (Kidneys)",
+      "फेफड़े (Lungs)",
+      "अग्न्याशय (Pancreas)"
+    ],
+    "options_mr": [
+      "यकृत (Liver)",
+      "मूत्रपिंड (Kidneys)",
+      "फुफ्फुसे (Lungs)",
+      "स्वादुपिंड (Pancreas)"
+    ],
+    "options_bn_draft": [
+      "যকৃত",
+      "বৃক্ক",
+      "ফুসফুস",
+      "অগ্ন্যাশয়"
+    ],
+    "explanation_en": "The paired kidneys contain millions of nephrons that filter blood to extract urea and excrete it as urine.",
+    "explanation_hi": "गुर्दे (Kidneys) रक्त को छानकर यूरिया और अतिरिक्त लवणों को मूत्र के रूप में बाहर निकालते हैं।",
+    "explanation_mr": "जोडीने असणाऱ्या मूत्रपिंडांमध्ये लाखो नेफ्रॉन असतात, जे रक्त गाळून त्यातील युरिया वेगळे करतात आणि मूत्राच्या रूपात बाहेर टाकतात.",
+    "explanation_bn_draft": "জোড়া বৃক্কে লক্ষ লক্ষ নেফ্রন থাকে যা রক্ত ছেঁকে ইউরিয়া বের করে এবং তা প্রস্রাব হিসেবে নির্গত করে।"
+  },
+  {
+    "key": "rms6-p1-gk-01",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "general_knowledge",
+    "year": 2022,
+    "difficulty": "EASY",
+    "correctAnswer": 0,
+    "question_en": "What is the capital of India?",
+    "question_hi": "भारत की राजधानी क्या है?",
+    "question_mr": "भारताची राजधानी काय आहे?",
+    "question_bn_draft": "ভারতের রাজধানী কী?",
+    "options_en": [
+      "New Delhi",
+      "Mumbai",
+      "Bengaluru",
+      "Hyderabad"
+    ],
+    "options_hi": [
+      "नई दिल्ली",
+      "मुंबई",
+      "बेंगलुरु",
+      "हैदराबाद"
+    ],
+    "options_mr": [
+      "नवी दिल्ली",
+      "मुंबई",
+      "बंगळूर",
+      "हैदराबाद"
+    ],
+    "options_bn_draft": [
+      "নয়াদিল্লি",
+      "মুম্বই",
+      "বেঙ্গালুরু",
+      "হায়দ্রাবাদ"
+    ],
+    "explanation_en": "New Delhi is the capital of India, housing Parliament and the major government offices.",
+    "explanation_hi": "नई दिल्ली भारत की राजधानी है, जहाँ संसद और प्रमुख सरकारी कार्यालय स्थित हैं।",
+    "explanation_mr": "नवी दिल्ली ही भारताची राजधानी आहे, जिथे संसद आणि प्रमुख सरकारी कार्यालये आहेत.",
+    "explanation_bn_draft": "নয়াদিল্লি ভারতের রাজধানী, যেখানে সংসদ ও প্রধান সরকারি কার্যালয়গুলি অবস্থিত।"
+  },
+  {
+    "key": "rms6-p1-gk-02",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "general_knowledge",
+    "year": 2022,
+    "difficulty": "EASY",
+    "correctAnswer": 1,
+    "question_en": "Rashtriya Military Schools were originally established during which period?",
+    "question_hi": "राष्ट्रीय मिलिट्री स्कूलों की मूल रूप से स्थापना किस काल में हुई थी?",
+    "question_mr": "राष्ट्रीय मिलिटरी स्कूल्सची मूळतः स्थापना कोणत्या काळात झाली?",
+    "question_bn_draft": "রাষ্ট্রীয় মিলিটারি স্কুলগুলি মূলত কোন সময়ে প্রতিষ্ঠিত হয়েছিল?",
+    "options_en": [
+      "After Independence, in 1961",
+      "During British rule, in the 1920s",
+      "During the Mughal era",
+      "After the 1971 war"
+    ],
+    "options_hi": [
+      "स्वतंत्रता के बाद, 1961 में",
+      "ब्रिटिश शासन के दौरान, 1920 के दशक में",
+      "मुग़ल काल के दौरान",
+      "1971 के युद्ध के बाद"
+    ],
+    "options_mr": [
+      "स्वातंत्र्यानंतर, 1961 मध्ये",
+      "ब्रिटिश राजवटीत, 1920 च्या दशकात",
+      "मुघल काळात",
+      "1971 च्या युद्धानंतर"
+    ],
+    "options_bn_draft": [
+      "স্বাধীনতার পরে, ১৯৬১ সালে",
+      "ব্রিটিশ শাসনামলে, ১৯২০-এর দশকে",
+      "মুঘল আমলে",
+      "১৯৭১ সালের যুদ্ধের পরে"
+    ],
+    "explanation_en": "The King George's Royal Indian Military Schools (the precursor to today's Rashtriya Military Schools) were established by the British in the 1920s to prepare boys for military careers.",
+    "explanation_hi": "किंग जॉर्ज रॉयल इंडियन मिलिट्री स्कूल (आज के राष्ट्रीय मिलिट्री स्कूलों के पूर्ववर्ती) ब्रिटिश शासन द्वारा 1920 के दशक में लड़कों को सैन्य करियर के लिए तैयार करने हेतु स्थापित किए गए थे।",
+    "explanation_mr": "किंग जॉर्ज रॉयल इंडियन मिलिटरी स्कूल्स (आजच्या राष्ट्रीय मिलिटरी स्कूल्सचे पूर्ववर्ती) ब्रिटिशांनी 1920 च्या दशकात मुलांना लष्करी कारकिर्दीसाठी तयार करण्यासाठी स्थापन केले होते.",
+    "explanation_bn_draft": "কিং জর্জ রয়্যাল ইন্ডিয়ান মিলিটারি স্কুল (বর্তমান রাষ্ট্রীয় মিলিটারি স্কুলগুলির পূর্বসূরি) ব্রিটিশরা ১৯২০-এর দশকে ছেলেদের সামরিক কর্মজীবনের জন্য প্রস্তুত করতে প্রতিষ্ঠা করেছিল।"
+  },
+  {
+    "key": "rms6-p1-gk-03",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "general_knowledge",
+    "year": 2022,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 1,
+    "question_en": "Which is the longest river in India?",
+    "question_hi": "भारत की सबसे लंबी नदी कौन-सी है?",
+    "question_mr": "भारतातील सर्वात लांब नदी कोणती आहे?",
+    "question_bn_draft": "ভারতের দীর্ঘতম নদী কোনটি?",
+    "options_en": [
+      "Godavari",
+      "Ganga",
+      "Krishna",
+      "Narmada"
+    ],
+    "options_hi": [
+      "गोदावरी",
+      "गंगा",
+      "कृष्णा",
+      "नर्मदा"
+    ],
+    "options_mr": [
+      "गोदावरी",
+      "गंगा",
+      "कृष्णा",
+      "नर्मदा"
+    ],
+    "options_bn_draft": [
+      "গোদাবরী",
+      "গঙ্গা",
+      "কৃষ্ণা",
+      "নর্মদা"
+    ],
+    "explanation_en": "The Ganga is the longest river flowing within India.",
+    "explanation_hi": "गंगा भारत के भीतर बहने वाली सबसे लंबी नदी है।",
+    "explanation_mr": "गंगा ही भारतात वाहणारी सर्वात लांब नदी आहे.",
+    "explanation_bn_draft": "গঙ্গা ভারতের অভ্যন্তরে প্রবাহিত দীর্ঘতম নদী।"
+  },
+  {
+    "key": "rms6-p1-gk-04",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "general_knowledge",
+    "year": 2022,
+    "difficulty": "EASY",
+    "correctAnswer": 2,
+    "question_en": "How many colours are there in the national flag of India?",
+    "question_hi": "भारत के राष्ट्रीय ध्वज में कितने रंग हैं?",
+    "question_mr": "भारताच्या राष्ट्रीय ध्वजात किती रंग आहेत?",
+    "question_bn_draft": "ভারতের জাতীয় পতাকায় কতগুলি রং আছে?",
+    "options_en": [
+      "2",
+      "4",
+      "3",
+      "5"
+    ],
+    "options_hi": [
+      "2",
+      "4",
+      "3",
+      "5"
+    ],
+    "options_mr": [
+      "2",
+      "4",
+      "3",
+      "5"
+    ],
+    "options_bn_draft": [
+      "2",
+      "4",
+      "3",
+      "5"
+    ],
+    "explanation_en": "The Indian flag has three colours: saffron, white, and green (plus the navy-blue Ashoka Chakra).",
+    "explanation_hi": "भारतीय ध्वज में तीन रंग हैं: केसरिया, सफेद और हरा (साथ ही गहरे नीले रंग का अशोक चक्र)।",
+    "explanation_mr": "भारतीय ध्वजात तीन रंग आहेत: भगवा, पांढरा आणि हरित (तसेच गडद निळ्या रंगाचे अशोक चक्र).",
+    "explanation_bn_draft": "ভারতীয় পতাকায় তিনটি রং আছে: গৈরিক (জাফরান), সাদা এবং সবুজ (এবং নেভি-নীল অশোক চক্র)।"
+  },
+  {
+    "key": "rms6-p1-gk-05",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "general_knowledge",
+    "year": 2023,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 2,
+    "question_en": "Which gas do plants absorb from the air for photosynthesis?",
+    "question_hi": "पौधे प्रकाश संश्लेषण के लिए वायु से कौन-सी गैस अवशोषित करते हैं?",
+    "question_mr": "प्रकाश संश्लेषणासाठी झाडे हवेतून कोणता वायू शोषतात?",
+    "question_bn_draft": "সালোকসংশ্লেষণের জন্য গাছপালা বাতাস থেকে কোন গ্যাস শোষণ করে?",
+    "options_en": [
+      "Nitrogen",
+      "Oxygen",
+      "Carbon dioxide",
+      "Hydrogen"
+    ],
+    "options_hi": [
+      "नाइट्रोजन",
+      "ऑक्सीजन",
+      "कार्बन डाइऑक्साइड",
+      "हाइड्रोजन"
+    ],
+    "options_mr": [
+      "नायट्रोजन",
+      "ऑक्सिजन",
+      "कार्बन डायऑक्साइड",
+      "हायड्रोजन"
+    ],
+    "options_bn_draft": [
+      "নাইট্রোজেন",
+      "অক্সিজেন",
+      "কার্বন ডাই-অক্সাইড",
+      "হাইড্রোজেন"
+    ],
+    "explanation_en": "Plants absorb carbon dioxide and release oxygen during photosynthesis.",
+    "explanation_hi": "पौधे प्रकाश संश्लेषण के दौरान कार्बन डाइऑक्साइड अवशोषित करते हैं और ऑक्सीजन छोड़ते हैं।",
+    "explanation_mr": "झाडे प्रकाश संश्लेषणादरम्यान कार्बन डायऑक्साइड शोषतात आणि ऑक्सिजन सोडतात.",
+    "explanation_bn_draft": "সালোকসংশ্লেষণের সময় গাছপালা কার্বন ডাই-অক্সাইড শোষণ করে এবং অক্সিজেন ত্যাগ করে।"
+  },
+  {
+    "key": "rms6-p1-gk-06",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "general_knowledge",
+    "year": 2023,
+    "difficulty": "EASY",
+    "correctAnswer": 0,
+    "question_en": "The Chief of the Army Staff, Navy Staff, and Air Staff together are advised by which body?",
+    "question_hi": "थल सेनाध्यक्ष, नौसेनाध्यक्ष और वायुसेनाध्यक्ष को सम्मिलित रूप से कौन-सी संस्था परामर्श देती है?",
+    "question_mr": "थल सेनाध्यक्ष, नौसेनाध्यक्ष आणि वायुसेनाध्यक्ष यांना एकत्रितपणे कोणती संस्था सल्ला देते?",
+    "question_bn_draft": "সেনাবাহিনী, নৌবাহিনী এবং বিমানবাহিনী প্রধানদের একত্রে কোন সংস্থা পরামর্শ দেয়?",
+    "options_en": [
+      "Chiefs of Staff Committee",
+      "Election Commission",
+      "Planning Commission",
+      "Public Service Commission"
+    ],
+    "options_hi": [
+      "चीफ्स ऑफ स्टाफ कमेटी",
+      "चुनाव आयोग",
+      "योजना आयोग",
+      "लोक सेवा आयोग"
+    ],
+    "options_mr": [
+      "चीफ्स ऑफ स्टाफ कमिटी",
+      "निवडणूक आयोग",
+      "योजना आयोग",
+      "लोकसेवा आयोग"
+    ],
+    "options_bn_draft": [
+      "চিফস অফ স্টাফ কমিটি",
+      "নির্বাচন কমিশন",
+      "পরিকল্পনা কমিশন",
+      "লোকসেবা কমিশন"
+    ],
+    "explanation_en": "The Chiefs of Staff Committee coordinates matters among the Army, Navy, and Air Force chiefs.",
+    "explanation_hi": "चीफ्स ऑफ स्टाफ कमेटी सेना, नौसेना और वायुसेना प्रमुखों के बीच समन्वय करती है।",
+    "explanation_mr": "चीफ्स ऑफ स्टाफ कमिटी सेना, नौसेना आणि वायुसेना प्रमुखांमधील समन्वय साधते.",
+    "explanation_bn_draft": "চিফস অফ স্টাফ কমিটি সেনা, নৌ ও বিমানবাহিনী প্রধানদের মধ্যে সমন্বয় সাধন করে।"
+  },
+  {
+    "key": "rms6-p1-gk-07",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "general_knowledge",
+    "year": 2023,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 3,
+    "question_en": "Which planet is known as the \"Red Planet\"?",
+    "question_hi": "किस ग्रह को \"लाल ग्रह\" के नाम से जाना जाता है?",
+    "question_mr": "कोणत्या ग्रहाला \"लाल ग्रह\" म्हणून ओळखले जाते?",
+    "question_bn_draft": "কোন গ্রহকে \"লাল গ্রহ\" বলা হয়?",
+    "options_en": [
+      "Jupiter",
+      "Venus",
+      "Saturn",
+      "Mars"
+    ],
+    "options_hi": [
+      "बृहस्पति",
+      "शुक्र",
+      "शनि",
+      "मंगल"
+    ],
+    "options_mr": [
+      "गुरू",
+      "शुक्र",
+      "शनी",
+      "मंगळ"
+    ],
+    "options_bn_draft": [
+      "বৃহস্পতি",
+      "শুক্র",
+      "শনি",
+      "মঙ্গল"
+    ],
+    "explanation_en": "Mars appears reddish due to iron oxide (rust) on its surface, earning it the name \"Red Planet\".",
+    "explanation_hi": "मंगल की सतह पर आयरन ऑक्साइड (जंग) के कारण यह लालिमा लिए दिखता है, इसीलिए इसे \"लाल ग्रह\" कहा जाता है।",
+    "explanation_mr": "मंगळाच्या पृष्ठभागावर आयर्न ऑक्साईड (गंज) असल्यामुळे तो लालसर दिसतो, त्यामुळे त्याला \"लाल ग्रह\" म्हणतात.",
+    "explanation_bn_draft": "মঙ্গল গ্রহের পৃষ্ঠে আয়রন অক্সাইড (মরিচা) থাকার কারণে এটিকে লালচে দেখায়, যার কারণে একে \"লাল গ্রহ\" বলা হয়।"
+  },
+  {
+    "key": "rms6-p1-gk-08",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "general_knowledge",
+    "year": 2023,
+    "difficulty": "EASY",
+    "correctAnswer": 1,
+    "question_en": "Who was the first Prime Minister of India?",
+    "question_hi": "भारत के प्रथम प्रधानमंत्री कौन थे?",
+    "question_mr": "भारताचे पहिले पंतप्रधान कोण होते?",
+    "question_bn_draft": "ভারতের প্রথম প্রধানমন্ত্রী কে ছিলেন?",
+    "options_en": [
+      "Sardar Patel",
+      "Jawaharlal Nehru",
+      "Dr. Rajendra Prasad",
+      "Lal Bahadur Shastri"
+    ],
+    "options_hi": [
+      "सरदार पटेल",
+      "जवाहरलाल नेहरू",
+      "डॉ. राजेंद्र प्रसाद",
+      "लाल बहादुर शास्त्री"
+    ],
+    "options_mr": [
+      "सरदार पटेल",
+      "जवाहरलाल नेहरू",
+      "डॉ. राजेंद्र प्रसाद",
+      "लाल बहादूर शास्त्री"
+    ],
+    "options_bn_draft": [
+      "সর্দার প্যাটেল",
+      "জওহরলাল নেহরু",
+      "ড. রাজেন্দ্র প্রসাদ",
+      "লালবাহাদুর শাস্ত্রী"
+    ],
+    "explanation_en": "Jawaharlal Nehru became independent India's first Prime Minister in 1947.",
+    "explanation_hi": "जवाहरलाल नेहरू 1947 में स्वतंत्र भारत के प्रथम प्रधानमंत्री बने।",
+    "explanation_mr": "जवाहरलाल नेहरू 1947 मध्ये स्वतंत्र भारताचे पहिले पंतप्रधान बनले.",
+    "explanation_bn_draft": "জওহরলাল নেহরু ১৯৪৭ সালে স্বাধীন ভারতের প্রথম প্রধানমন্ত্রী হন।"
+  },
+  {
+    "key": "rms6-p1-gk-09",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "general_knowledge",
+    "year": 2024,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 0,
+    "question_en": "The Ashoka Chakra award is given to civilians and soldiers for which kind of act, alongside the military-only Param Vir Chakra?",
+    "question_hi": "सैन्य-विशिष्ट परम वीर चक्र के साथ-साथ, अशोक चक्र सम्मान नागरिकों और सैनिकों को किस प्रकार के कार्य के लिए दिया जाता है?",
+    "question_mr": "सैन्य-विशिष्ट परमवीर चक्राबरोबरच, अशोक चक्र सन्मान नागरिक आणि सैनिकांना कोणत्या प्रकारच्या कृतीसाठी दिला जातो?",
+    "question_bn_draft": "সামরিক-বিশেষ পরমবীর চক্রের পাশাপাশি, অশোক চক্র সম্মান বেসামরিক নাগরিক ও সৈনিকদের কোন ধরনের কাজের জন্য দেওয়া হয়?",
+    "options_en": [
+      "The most conspicuous bravery, distinguished service, or self-sacrifice other than in the face of the enemy",
+      "Best performance in sports",
+      "Excellence in classical dance",
+      "Best scientific invention"
+    ],
+    "options_hi": [
+      "शत्रु के समक्ष से इतर सर्वाधिक विशिष्ट वीरता, उत्कृष्ट सेवा, या आत्म-बलिदान",
+      "खेल में सर्वश्रेष्ठ प्रदर्शन",
+      "शास्त्रीय नृत्य में उत्कृष्टता",
+      "सर्वश्रेष्ठ वैज्ञानिक आविष्कार"
+    ],
+    "options_mr": [
+      "शत्रूसमोर नसताना केलेले सर्वाधिक विशिष्ट शौर्य, उत्कृष्ट सेवा किंवा आत्मबलिदान",
+      "खेळातील सर्वोत्तम कामगिरी",
+      "शास्त्रीय नृत्यातील उत्कृष्टता",
+      "सर्वोत्तम वैज्ञानिक शोध"
+    ],
+    "options_bn_draft": [
+      "শত্রুর মুখোমুখি ছাড়া সর্বাধিক বিশিষ্ট বীরত্ব, বিশিষ্ট সেবা, অথবা আত্মত্যাগ",
+      "খেলাধুলায় সেরা পারফরম্যান্স",
+      "শাস্ত্রীয় নৃত্যে উৎকর্ষতা",
+      "সেরা বৈজ্ঞানিক আবিষ্কার"
+    ],
+    "explanation_en": "The Ashoka Chakra is India's highest peacetime gallantry award, given for the most conspicuous bravery or self-sacrifice away from active combat with the enemy.",
+    "explanation_hi": "अशोक चक्र भारत का सर्वोच्च शांतिकालीन वीरता सम्मान है, जो शत्रु के साथ सक्रिय युद्ध से इतर सर्वाधिक विशिष्ट वीरता या आत्म-बलिदान के लिए दिया जाता है।",
+    "explanation_mr": "अशोक चक्र हा भारताचा सर्वोच्च शांतीकालीन शौर्य सन्मान आहे, जो शत्रूसोबतच्या सक्रिय युद्धाव्यतिरिक्त सर्वाधिक विशिष्ट शौर्य किंवा आत्मबलिदानासाठी दिला जातो.",
+    "explanation_bn_draft": "অশোক চক্র হল ভারতের সর্বোচ্চ শান্তিকালীন বীরত্ব সম্মান, যা শত্রুর সাথে সক্রিয় যুদ্ধের বাইরে সর্বাধিক বিশিষ্ট বীরত্ব বা আত্মত্যাগের জন্য দেওয়া হয়।"
+  },
+  {
+    "key": "rms6-p1-gk-10",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "general_knowledge",
+    "year": 2024,
+    "difficulty": "EASY",
+    "correctAnswer": 3,
+    "question_en": "Which is the largest continent in the world?",
+    "question_hi": "विश्व का सबसे बड़ा महाद्वीप कौन-सा है?",
+    "question_mr": "जगातील सर्वात मोठा महाद्वीप कोणता आहे?",
+    "question_bn_draft": "বিশ্বের বৃহত্তম মহাদেশ কোনটি?",
+    "options_en": [
+      "Europe",
+      "Africa",
+      "Australia",
+      "Asia"
+    ],
+    "options_hi": [
+      "यूरोप",
+      "अफ्रीका",
+      "ऑस्ट्रेलिया",
+      "एशिया"
+    ],
+    "options_mr": [
+      "युरोप",
+      "आफ्रिका",
+      "ऑस्ट्रेलिया",
+      "आशिया"
+    ],
+    "options_bn_draft": [
+      "ইউরোপ",
+      "আফ্রিকা",
+      "অস্ট্রেলিয়া",
+      "এশিয়া"
+    ],
+    "explanation_en": "Asia is the largest continent both by area and population.",
+    "explanation_hi": "एशिया क्षेत्रफल और जनसंख्या दोनों में सबसे बड़ा महाद्वीप है।",
+    "explanation_mr": "आशिया हा क्षेत्रफळ आणि लोकसंख्या या दोन्हींमध्ये सर्वात मोठा महाद्वीप आहे.",
+    "explanation_bn_draft": "এশিয়া আয়তন ও জনসংখ্যা উভয় দিক থেকেই বৃহত্তম মহাদেশ।"
+  },
+  {
+    "key": "rms6-p1-gk-11",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "general_knowledge",
+    "year": 2024,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 2,
+    "question_en": "Which part of the human body pumps blood?",
+    "question_hi": "मानव शरीर का कौन-सा अंग रक्त पंप करता है?",
+    "question_mr": "मानवी शरीराचा कोणता भाग रक्त पंप करतो?",
+    "question_bn_draft": "মানবদেহের কোন অঙ্গ রক্ত পাম্প করে?",
+    "options_en": [
+      "Kidney",
+      "Lungs",
+      "Heart",
+      "Liver"
+    ],
+    "options_hi": [
+      "गुर्दा",
+      "फेफड़े",
+      "हृदय",
+      "यकृत"
+    ],
+    "options_mr": [
+      "मूत्रपिंड",
+      "फुफ्फुसे",
+      "हृदय",
+      "यकृत"
+    ],
+    "options_bn_draft": [
+      "বৃক্ক",
+      "ফুসফুস",
+      "হৃদপিণ্ড",
+      "যকৃত"
+    ],
+    "explanation_en": "The heart pumps blood throughout the body.",
+    "explanation_hi": "हृदय पूरे शरीर में रक्त पंप करता है।",
+    "explanation_mr": "हृदय संपूर्ण शरीरात रक्त पंप करते.",
+    "explanation_bn_draft": "হৃদপিণ্ড সারা শরীরে রক্ত পাম্প করে।"
+  },
+  {
+    "key": "rms6-p1-gk-12",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "general_knowledge",
+    "year": 2024,
+    "difficulty": "EASY",
+    "correctAnswer": 1,
+    "question_en": "India's Independence Day is celebrated on which date?",
+    "question_hi": "भारत का स्वतंत्रता दिवस किस तारीख को मनाया जाता है?",
+    "question_mr": "भारताचा स्वातंत्र्य दिन कोणत्या तारखेला साजरा केला जातो?",
+    "question_bn_draft": "ভারতের স্বাধীনতা দিবস কোন তারিখে পালিত হয়?",
+    "options_en": [
+      "26th January",
+      "15th August",
+      "2nd October",
+      "14th November"
+    ],
+    "options_hi": [
+      "26 जनवरी",
+      "15 अगस्त",
+      "2 अक्टूबर",
+      "14 नवंबर"
+    ],
+    "options_mr": [
+      "26 जानेवारी",
+      "15 ऑगस्ट",
+      "2 ऑक्टोबर",
+      "14 नोव्हेंबर"
+    ],
+    "options_bn_draft": [
+      "২৬শে জানুয়ারি",
+      "১৫ই আগস্ট",
+      "২রা অক্টোবর",
+      "১৪ই নভেম্বর"
+    ],
+    "explanation_en": "India celebrates Independence Day on 15th August, marking freedom from British rule in 1947.",
+    "explanation_hi": "भारत 15 अगस्त को स्वतंत्रता दिवस मनाता है, जो 1947 में ब्रिटिश शासन से स्वतंत्रता को चिह्नित करता है।",
+    "explanation_mr": "भारत 15 ऑगस्ट रोजी स्वातंत्र्य दिन साजरा करतो, जो 1947 मध्ये ब्रिटिश राजवटीपासून मिळालेल्या स्वातंत्र्याला चिन्हांकित करतो.",
+    "explanation_bn_draft": "ভারত ১৫ই আগস্ট স্বাধীনতা দিবস পালন করে, যা ১৯৪৭ সালে ব্রিটিশ শাসন থেকে মুক্তি লাভের স্মারক।"
+  },
+  {
+    "key": "rms6-p1-gk-13",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "general_knowledge",
+    "year": 2025,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 3,
+    "question_en": "Which is the national animal of India?",
+    "question_hi": "भारत का राष्ट्रीय पशु कौन-सा है?",
+    "question_mr": "भारताचा राष्ट्रीय प्राणी कोणता आहे?",
+    "question_bn_draft": "ভারতের জাতীয় পশু কোনটি?",
+    "options_en": [
+      "Leopard",
+      "Elephant",
+      "Lion",
+      "Tiger"
+    ],
+    "options_hi": [
+      "तेंदुआ",
+      "हाथी",
+      "शेर",
+      "बाघ"
+    ],
+    "options_mr": [
+      "बिबट्या",
+      "हात्ती",
+      "सिंह",
+      "वाघ"
+    ],
+    "options_bn_draft": [
+      "চিতাবাঘ",
+      "হাতি",
+      "সিংহ",
+      "বাঘ"
+    ],
+    "explanation_en": "The Bengal Tiger is India's national animal, symbolizing strength and grace.",
+    "explanation_hi": "बंगाल टाइगर भारत का राष्ट्रीय पशु है, जो शक्ति और अनुग्रह का प्रतीक है।",
+    "explanation_mr": "बंगाल टायगर हा भारताचा राष्ट्रीय प्राणी आहे, जो शक्ती आणि सौंदर्याचे प्रतीक आहे.",
+    "explanation_bn_draft": "বেঙ্গল টাইগার ভারতের জাতীয় পশু, যা শক্তি ও কমনীয়তার প্রতীক।"
+  },
+  {
+    "key": "rms6-p1-gk-14",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "general_knowledge",
+    "year": 2025,
+    "difficulty": "EASY",
+    "correctAnswer": 2,
+    "question_en": "How many players are there on a hockey team on the field at one time?",
+    "question_hi": "एक समय में मैदान पर हॉकी टीम के कितने खिलाड़ी होते हैं?",
+    "question_mr": "एका वेळी मैदानावर हॉकी संघाचे किती खेळाडू असतात?",
+    "question_bn_draft": "একসময়ে মাঠে হকি দলে কতজন খেলোয়াড় থাকে?",
+    "options_en": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "options_hi": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "options_mr": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "options_bn_draft": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "explanation_en": "A hockey team fields 11 players at a time, same as a cricket or football team's playing count.",
+    "explanation_hi": "एक हॉकी टीम एक समय में 11 खिलाड़ी मैदान में उतारती है, क्रिकेट या फुटबॉल टीम की खेल संख्या के समान।",
+    "explanation_mr": "एक हॉकी संघ एका वेळी 11 खेळाडू मैदानात उतरवतो, क्रिकेट किंवा फुटबॉल संघाच्या खेळाडू-संख्येसारखेच.",
+    "explanation_bn_draft": "একটি হকি দল একসময়ে ১১ জন খেলোয়াড় মাঠে নামায়, ক্রিকেট বা ফুটবল দলের খেলোয়াড় সংখ্যার মতোই।"
+  },
+  {
+    "key": "rms6-p1-gk-15",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "general_knowledge",
+    "year": 2025,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 0,
+    "question_en": "The Territorial Army in India is best described as which of the following?",
+    "question_hi": "भारत में टेरिटोरियल आर्मी को निम्नलिखित में से कौन-सा वर्णन सबसे उपयुक्त है?",
+    "question_mr": "भारतातील टेरिटोरियल आर्मीचे सर्वोत्तम वर्णन खालीलपैकी कोणते आहे?",
+    "question_bn_draft": "ভারতে টেরিটোরিয়াল আর্মিকে নিচের কোনটি সবচেয়ে ভালোভাবে বর্ণনা করে?",
+    "options_en": [
+      "A volunteer second line of defence made up of citizen soldiers",
+      "The police force of a state",
+      "A private security company",
+      "A youth sports organization"
+    ],
+    "options_hi": [
+      "नागरिक सैनिकों से बनी एक स्वयंसेवी द्वितीय रक्षा पंक्ति",
+      "किसी राज्य का पुलिस बल",
+      "एक निजी सुरक्षा कंपनी",
+      "एक युवा खेल संगठन"
+    ],
+    "options_mr": [
+      "नागरिक सैनिकांनी बनलेली एक स्वयंसेवी दुय्यम संरक्षण फळी",
+      "एका राज्याचे पोलीस दल",
+      "एक खासगी सुरक्षा कंपनी",
+      "एक युवक क्रीडा संघटना"
+    ],
+    "options_bn_draft": [
+      "নাগরিক সৈনিকদের নিয়ে গঠিত একটি স্বেচ্ছাসেবী দ্বিতীয় প্রতিরক্ষা সারি",
+      "একটি রাজ্যের পুলিশ বাহিনী",
+      "একটি বেসরকারি নিরাপত্তা সংস্থা",
+      "একটি যুব ক্রীড়া সংগঠন"
+    ],
+    "explanation_en": "The Territorial Army is a volunteer organization that supports the regular Army, made up of citizens who serve part-time alongside their civilian careers.",
+    "explanation_hi": "टेरिटोरियल आर्मी एक स्वयंसेवी संगठन है जो नियमित सेना का सहयोग करता है, जिसमें नागरिक अपने असैनिक करियर के साथ अंशकालिक सेवा करते हैं।",
+    "explanation_mr": "टेरिटोरियल आर्मी ही एक स्वयंसेवी संघटना आहे जी नियमित सेनेला सहाय्य करते, ज्यात नागरिक आपल्या नागरी करिअरसह अर्धवेळ सेवा करतात.",
+    "explanation_bn_draft": "টেরিটোরিয়াল আর্মি একটি স্বেচ্ছাসেবী সংগঠন যা নিয়মিত সেনাবাহিনীকে সহায়তা করে, যেখানে নাগরিকরা তাদের বেসামরিক কর্মজীবনের পাশাপাশি খণ্ডকালীন সেবা দেন।"
+  },
+  {
+    "key": "rms6-p1-gk-16",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "general_knowledge",
+    "year": 2025,
+    "difficulty": "EASY",
+    "correctAnswer": 3,
+    "question_en": "Which is the smallest planet in our solar system?",
+    "question_hi": "हमारे सौरमंडल का सबसे छोटा ग्रह कौन-सा है?",
+    "question_mr": "आपल्या सूर्यमालेतील सर्वात लहान ग्रह कोणता आहे?",
+    "question_bn_draft": "আমাদের সৌরজগতের ক্ষুদ্রতম গ্রহ কোনটি?",
+    "options_en": [
+      "Earth",
+      "Venus",
+      "Mars",
+      "Mercury"
+    ],
+    "options_hi": [
+      "पृथ्वी",
+      "शुक्र",
+      "मंगल",
+      "बुध"
+    ],
+    "options_mr": [
+      "पृथ्वी",
+      "शुक्र",
+      "मंगळ",
+      "बुध"
+    ],
+    "options_bn_draft": [
+      "পৃথিবী",
+      "শুক্র",
+      "মঙ্গল",
+      "বুধ"
+    ],
+    "explanation_en": "Mercury is the smallest and closest planet to the Sun.",
+    "explanation_hi": "बुध सूर्य के सबसे निकट और सबसे छोटा ग्रह है।",
+    "explanation_mr": "बुध हा सूर्याच्या सर्वात जवळचा आणि सर्वात लहान ग्रह आहे.",
+    "explanation_bn_draft": "বুধ সূর্যের সবচেয়ে কাছের এবং সবচেয়ে ছোট গ্রহ।"
+  },
+  {
+    "key": "rms6-p1-gk-17",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "general_knowledge",
+    "year": 2026,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 1,
+    "question_en": "The Indian Military Academy (IMA), where many Rashtriya Military School cadets go on to train as officers, is located in which city?",
+    "question_hi": "भारतीय सैन्य अकादमी (IMA), जहाँ कई राष्ट्रीय मिलिट्री स्कूल के छात्र आगे अधिकारी बनने का प्रशिक्षण लेते हैं, किस शहर में स्थित है?",
+    "question_mr": "भारतीय सैन्य अकादमी (IMA), जिथे अनेक राष्ट्रीय मिलिटरी स्कूलचे विद्यार्थी पुढे अधिकारी बनण्याचे प्रशिक्षण घेतात, कोणत्या शहरात स्थित आहे?",
+    "question_bn_draft": "ভারতীয় সামরিক একাডেমি (IMA), যেখানে অনেক রাষ্ট্রীয় মিলিটারি স্কুলের ক্যাডেট অফিসার হওয়ার প্রশিক্ষণ নিতে যায়, কোন শহরে অবস্থিত?",
+    "options_en": [
+      "Pune",
+      "Dehradun",
+      "Wellington",
+      "Chennai"
+    ],
+    "options_hi": [
+      "पुणे",
+      "देहरादून",
+      "वेलिंगटन",
+      "चेन्नई"
+    ],
+    "options_mr": [
+      "पुणे",
+      "देहरादून",
+      "वेलिंग्टन",
+      "चेन्नई"
+    ],
+    "options_bn_draft": [
+      "পুণে",
+      "দেহরাদুন",
+      "ওয়েলিংটন",
+      "চেন্নাই"
+    ],
+    "explanation_en": "The Indian Military Academy is located in Dehradun, Uttarakhand.",
+    "explanation_hi": "भारतीय सैन्य अकादमी देहरादून, उत्तराखंड में स्थित है।",
+    "explanation_mr": "भारतीय सैन्य अकादमी देहरादून, उत्तराखंडमध्ये स्थित आहे.",
+    "explanation_bn_draft": "ভারতীয় সামরিক একাডেমি উত্তরাখণ্ডের দেহরাদুনে অবস্থিত।"
+  },
+  {
+    "key": "rms6-p1-gk-18",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "general_knowledge",
+    "year": 2026,
+    "difficulty": "EASY",
+    "correctAnswer": 1,
+    "question_en": "Which organ of the human body helps us to breathe?",
+    "question_hi": "मानव शरीर का कौन-सा अंग हमें साँस लेने में मदद करता है?",
+    "question_mr": "मानवी शरीराचा कोणता अवयव आपल्याला श्वास घेण्यास मदत करतो?",
+    "question_bn_draft": "মানবদেহের কোন অঙ্গ আমাদের শ্বাস নিতে সাহায্য করে?",
+    "options_en": [
+      "Stomach",
+      "Lungs",
+      "Heart",
+      "Brain"
+    ],
+    "options_hi": [
+      "पेट",
+      "फेफड़े",
+      "हृदय",
+      "मस्तिष्क"
+    ],
+    "options_mr": [
+      "पेट",
+      "फुफ्फुसे",
+      "हृदय",
+      "मस्तिष्क"
+    ],
+    "options_bn_draft": [
+      "পাকস্থলী",
+      "ফুসফুস",
+      "হৃদপিণ্ড",
+      "মস্তিষ্ক"
+    ],
+    "explanation_en": "The lungs take in oxygen and release carbon dioxide, enabling breathing.",
+    "explanation_hi": "फेफड़े ऑक्सीजन ग्रहण करते हैं और कार्बन डाइऑक्साइड छोड़ते हैं, जिससे श्वसन संभव होता है।",
+    "explanation_mr": "फुफ्फुसे ऑक्सिजन घेतात आणि कार्बन डायऑक्साइड सोडतात, ज्यामुळे श्वसन शक्य होते.",
+    "explanation_bn_draft": "ফুসফুস অক্সিজেন গ্রহণ করে এবং কার্বন ডাই-অক্সাইড ত্যাগ করে, যা শ্বাসক্রিয়া সম্ভব করে।"
+  },
+  {
+    "key": "rms6-p1-gk-19",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "general_knowledge",
+    "year": 2022,
+    "difficulty": "EASY",
+    "correctAnswer": 1,
+    "question_en": "Which festival is known as the \"Festival of Colours\"?",
+    "question_hi": "किस त्योहार को \"रंगों का त्योहार\" कहा जाता है?",
+    "question_mr": "कोणत्या सणाला \"रंगांचा सण\" म्हणतात?",
+    "question_bn_draft": "কোন উৎসবকে \"রঙের উৎসব\" বলা হয়?",
+    "options_en": [
+      "Diwali",
+      "Holi",
+      "Eid",
+      "Christmas"
+    ],
+    "options_hi": [
+      "दिवाली",
+      "होली",
+      "ईद",
+      "क्रिसमस"
+    ],
+    "options_mr": [
+      "दिवाळी",
+      "होळी",
+      "ईद",
+      "ख्रिसमस"
+    ],
+    "options_bn_draft": [
+      "দীপাবলি",
+      "হোলি",
+      "ঈদ",
+      "বড়দিন"
+    ],
+    "explanation_en": "Holi is celebrated by playing with colours and is known as the Festival of Colours.",
+    "explanation_hi": "होली रंगों से खेलकर मनाई जाती है और इसे रंगों का त्योहार कहा जाता है।",
+    "explanation_mr": "होळी रंग खेळून साजरी केली जाते आणि तिला रंगांचा सण म्हणतात.",
+    "explanation_bn_draft": "হোলি রং খেলে পালিত হয় এবং একে রঙের উৎসব বলা হয়।"
+  },
+  {
+    "key": "rms6-p1-gk-20",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "general_knowledge",
+    "year": 2023,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 3,
+    "question_en": "Which is the tallest mountain peak in the world?",
+    "question_hi": "विश्व की सबसे ऊँची पर्वत चोटी कौन-सी है?",
+    "question_mr": "जगातील सर्वात उंच पर्वतशिखर कोणते आहे?",
+    "question_bn_draft": "বিশ্বের সর্বোচ্চ পর্বতশৃঙ্গ কোনটি?",
+    "options_en": [
+      "Kangchenjunga",
+      "K2",
+      "Nanda Devi",
+      "Mount Everest"
+    ],
+    "options_hi": [
+      "कंचनजंगा",
+      "K2",
+      "नंदा देवी",
+      "माउंट एवरेस्ट"
+    ],
+    "options_mr": [
+      "कांचनजंगा",
+      "के2",
+      "नंदा देवी",
+      "माउंट एव्हरेस्ट"
+    ],
+    "options_bn_draft": [
+      "কাঞ্চনজঙ্ঘা",
+      "কে২",
+      "নন্দা দেবী",
+      "মাউন্ট এভারেস্ট"
+    ],
+    "explanation_en": "Mount Everest, in the Himalayas, is the tallest mountain peak in the world.",
+    "explanation_hi": "हिमालय में स्थित माउंट एवरेस्ट विश्व की सबसे ऊँची पर्वत चोटी है।",
+    "explanation_mr": "हिमालयातील माउंट एव्हरेस्ट हे जगातील सर्वात उंच पर्वतशिखर आहे.",
+    "explanation_bn_draft": "হিমালয়ে অবস্থিত মাউন্ট এভারেস্ট বিশ্বের সর্বোচ্চ পর্বতশৃঙ্গ।"
+  },
+  {
+    "key": "rms6-p1-gk-21",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "general_knowledge",
+    "year": 2023,
+    "difficulty": "EASY",
+    "correctAnswer": 2,
+    "question_en": "What do bees make?",
+    "question_hi": "मधुमक्खियाँ क्या बनाती हैं?",
+    "question_mr": "मधमाश्या काय तयार करतात?",
+    "question_bn_draft": "মৌমাছি কী তৈরি করে?",
+    "options_en": [
+      "Silk",
+      "Milk",
+      "Honey",
+      "Wool"
+    ],
+    "options_hi": [
+      "रेशम",
+      "दूध",
+      "शहद",
+      "ऊन"
+    ],
+    "options_mr": [
+      "रेशीम",
+      "दूध",
+      "मध",
+      "लोकर"
+    ],
+    "options_bn_draft": [
+      "রেশম",
+      "দুধ",
+      "মধু",
+      "পশম"
+    ],
+    "explanation_en": "Bees collect nectar from flowers and make honey.",
+    "explanation_hi": "मधुमक्खियाँ फूलों से मकरंद इकट्ठा करती हैं और शहद बनाती हैं।",
+    "explanation_mr": "मधमाश्या फुलांमधून मकरंद गोळा करतात आणि मध तयार करतात.",
+    "explanation_bn_draft": "মৌমাছি ফুল থেকে মধুরস সংগ্রহ করে মধু তৈরি করে।"
+  },
+  {
+    "key": "rms6-p1-gk-22",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "general_knowledge",
+    "year": 2024,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 3,
+    "question_en": "Which Indian state is known as the \"Land of Five Rivers\"?",
+    "question_hi": "किस भारतीय राज्य को \"पाँच नदियों की भूमि\" कहा जाता है?",
+    "question_mr": "कोणत्या भारतीय राज्याला \"पाच नद्यांची भूमी\" म्हणतात?",
+    "question_bn_draft": "কোন ভারতীয় রাজ্যকে \"পাঁচ নদীর দেশ\" বলা হয়?",
+    "options_en": [
+      "Rajasthan",
+      "Haryana",
+      "Himachal Pradesh",
+      "Punjab"
+    ],
+    "options_hi": [
+      "राजस्थान",
+      "हरियाणा",
+      "हिमाचल प्रदेश",
+      "पंजाब"
+    ],
+    "options_mr": [
+      "राजस्थान",
+      "हरियाणा",
+      "हिमाचल प्रदेश",
+      "पंजाब"
+    ],
+    "options_bn_draft": [
+      "রাজস্থান",
+      "হরিয়ানা",
+      "হিমাচল প্রদেশ",
+      "পাঞ্জাব"
+    ],
+    "explanation_en": "\"Punjab\" itself means \"land of five rivers\" (panj = five, aab = water/rivers).",
+    "explanation_hi": "\"पंजाब\" शब्द का अर्थ ही \"पाँच नदियों की भूमि\" है (पंज = पाँच, आब = पानी/नदियाँ)।",
+    "explanation_mr": "\"पंजाब\" या शब्दाचा अर्थच \"पाच नद्यांची भूमी\" असा आहे (पंज = पाच, आब = पाणी/नद्या).",
+    "explanation_bn_draft": "\"পাঞ্জাব\" শব্দের অর্থই \"পাঁচ নদীর দেশ\" (পঞ্জ = পাঁচ, আব = জল/নদী)।"
+  },
+  {
+    "key": "rms6-p1-gk-23",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "general_knowledge",
+    "year": 2024,
+    "difficulty": "EASY",
+    "correctAnswer": 3,
+    "question_en": "Which instrument is used to measure temperature?",
+    "question_hi": "तापमान मापने के लिए किस यंत्र का प्रयोग किया जाता है?",
+    "question_mr": "तापमान मोजण्यासाठी कोणते उपकरण वापरले जाते?",
+    "question_bn_draft": "তাপমাত্রা মাপার জন্য কোন যন্ত্র ব্যবহার করা হয়?",
+    "options_en": [
+      "Odometer",
+      "Speedometer",
+      "Barometer",
+      "Thermometer"
+    ],
+    "options_hi": [
+      "ओडोमीटर",
+      "स्पीडोमीटर",
+      "बैरोमीटर",
+      "थर्मामीटर"
+    ],
+    "options_mr": [
+      "ओडोमीटर",
+      "स्पीडोमीटर",
+      "बॅरोमीटर",
+      "थर्मोमीटर"
+    ],
+    "options_bn_draft": [
+      "ওডোমিটার",
+      "স্পিডোমিটার",
+      "ব্যারোমিটার",
+      "থার্মোমিটার"
+    ],
+    "explanation_en": "A thermometer is used to measure temperature.",
+    "explanation_hi": "थर्मामीटर का प्रयोग तापमान मापने के लिए किया जाता है।",
+    "explanation_mr": "तापमान मोजण्यासाठी थर्मोमीटरचा वापर केला जातो.",
+    "explanation_bn_draft": "তাপমাত্রা মাপার জন্য থার্মোমিটার ব্যবহার করা হয়।"
+  },
+  {
+    "key": "rms6-p1-gk-24",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "general_knowledge",
+    "year": 2025,
+    "difficulty": "HARD",
+    "correctAnswer": 1,
+    "question_en": "The Indian Coast Guard functions under which ministry?",
+    "question_hi": "भारतीय तटरक्षक बल किस मंत्रालय के अधीन कार्य करता है?",
+    "question_mr": "भारतीय तटरक्षक दल कोणत्या मंत्रालयाच्या अंतर्गत कार्य करते?",
+    "question_bn_draft": "ভারতীয় উপকূলরক্ষী বাহিনী কোন মন্ত্রণালয়ের অধীনে কাজ করে?",
+    "options_en": [
+      "Ministry of Home Affairs",
+      "Ministry of Defence",
+      "Ministry of Shipping",
+      "Ministry of External Affairs"
+    ],
+    "options_hi": [
+      "गृह मंत्रालय",
+      "रक्षा मंत्रालय",
+      "नौवहन मंत्रालय",
+      "विदेश मंत्रालय"
+    ],
+    "options_mr": [
+      "गृह मंत्रालय",
+      "संरक्षण मंत्रालय",
+      "नौवहन मंत्रालय",
+      "विदेश मंत्रालय"
+    ],
+    "options_bn_draft": [
+      "স্বরাষ্ট্র মন্ত্রণালয়",
+      "প্রতিরক্ষা মন্ত্রণালয়",
+      "জাহাজ চলাচল মন্ত্রণালয়",
+      "বৈদেশিক বিষয়ক মন্ত্রণালয়"
+    ],
+    "explanation_en": "The Indian Coast Guard is an armed force that functions under the Ministry of Defence, alongside the Army, Navy, and Air Force.",
+    "explanation_hi": "भारतीय तटरक्षक बल एक सशस्त्र बल है जो सेना, नौसेना और वायुसेना के साथ रक्षा मंत्रालय के अधीन कार्य करता है।",
+    "explanation_mr": "भारतीय तटरक्षक दल हे एक सशस्त्र दल आहे जे सेना, नौसेना आणि वायुसेनेसोबत संरक्षण मंत्रालयाच्या अंतर्गत कार्य करते.",
+    "explanation_bn_draft": "ভারতীয় উপকূলরক্ষী বাহিনী একটি সশস্ত্র বাহিনী যা সেনা, নৌ এবং বিমানবাহিনীর সাথে প্রতিরক্ষা মন্ত্রণালয়ের অধীনে কাজ করে।"
+  },
+  {
+    "key": "rms6-p1-gk-25",
+    "examType": "RMS",
+    "paperNumber": 1,
+    "section": "general_knowledge",
+    "year": 2026,
+    "difficulty": "MEDIUM",
+    "correctAnswer": 2,
+    "question_en": "Which Indian city is known as the \"Pink City\"?",
+    "question_hi": "किस भारतीय शहर को \"गुलाबी शहर\" कहा जाता है?",
+    "question_mr": "कोणत्या भारतीय शहराला \"गुलाबी शहर\" म्हणतात?",
+    "question_bn_draft": "কোন ভারতীয় শহরকে \"গোলাপি শহর\" বলা হয়?",
+    "options_en": [
+      "Jodhpur",
+      "Udaipur",
+      "Jaipur",
+      "Bikaner"
+    ],
+    "options_hi": [
+      "जोधपुर",
+      "उदयपुर",
+      "जयपुर",
+      "बीकानेर"
+    ],
+    "options_mr": [
+      "जोधपूर",
+      "उदयपूर",
+      "जयपूर",
+      "बिकानेर"
+    ],
+    "options_bn_draft": [
+      "যোধপুর",
+      "উদয়পুর",
+      "জয়পুর",
+      "বিকানের"
+    ],
+    "explanation_en": "Jaipur is known as the \"Pink City\" for the pink-coloured buildings in its old quarter.",
+    "explanation_hi": "जयपुर को उसके पुराने क्षेत्र की गुलाबी रंग की इमारतों के कारण \"गुलाबी शहर\" कहा जाता है।",
+    "explanation_mr": "जयपूरला त्याच्या जुन्या भागातील गुलाबी रंगाच्या इमारतींमुळे \"गुलाबी शहर\" म्हटले जाते.",
+    "explanation_bn_draft": "জয়পুরকে তার পুরনো অংশের গোলাপি রঙের বাড়িঘরের কারণে \"গোলাপি শহর\" বলা হয়।"
+  }
+]

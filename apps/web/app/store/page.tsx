@@ -24,6 +24,7 @@ export default async function StorePage() {
     productType: product.productType,
     targetExam: product.targetExam,
     targetClass: product.targetClass,
+    language: product.language,
     displayPrice: product.displayPrice,
     sellingPrice: product.sellingPrice,
     fileUrl: product.fileUrl,

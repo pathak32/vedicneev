@@ -14,6 +14,7 @@
     "seed:store": "tsx prisma/seed-store.ts",
     "seed:sprints": "tsx prisma/seed-sprints.ts",
     "seed:speed-challenge": "tsx prisma/seed-speed-challenge.ts",
+    "seed:typing": "tsx prisma/seed-typing.ts",
     "publish:batch": "tsx prisma/publish-batch.ts",
     "studio": "prisma studio",
     "seed": "tsx prisma/seed.ts",

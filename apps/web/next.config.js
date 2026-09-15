@@ -6,7 +6,7 @@ const nextConfig = {
   // they're also listed here, since Next doesn't compile packages outside
   // apps/web by default.
   output: "standalone",
-  transpilePackages: ["@vedicneev/ui", "@vedicneev/engine", "@vedicneev/db"],
+  transpilePackages: ["@vedicneev/ui", "@vedicneev/engine", "@vedicneev/db", "@vedicneev/auth"],
 };
 
 module.exports = nextConfig;

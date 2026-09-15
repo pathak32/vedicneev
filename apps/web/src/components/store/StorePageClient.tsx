@@ -30,8 +30,18 @@ const CLASS_LABEL: Record<"CLASS_6" | "CLASS_9", string> = {
   CLASS_9: "Class 9",
 };
 
+const LANGUAGE_LABEL: Record<Exclude<StoreProduct["language"], null>, string> = {
+  EN: "English",
+  HI: "Hindi",
+  MR: "Marathi",
+  BN: "Bengali",
+  TA: "Tamil",
+  GU: "Gujarati",
+};
+
 type ExamFilter = Exclude<StoreProduct["targetExam"], null>;
 type ClassFilter = "CLASS_6" | "CLASS_9";
+type LanguageFilter = Exclude<StoreProduct["language"], null>;
 
 /** Pill-style toggle button — active when `active`, otherwise an outline pill. */
 function FilterPill({ active, onClick, children }: { active: boolean; onClick: () => void; children: React.ReactNode }) {
@@ -55,6 +65,7 @@ export function StorePageClient({ products }: { products: StoreProduct[] }) {
   const [examFilter, setExamFilter] = useState<ExamFilter | "ALL">("ALL");
   const [classFilter, setClassFilter] = useState<ClassFilter | "ALL">("ALL");
   const [typeFilter, setTypeFilter] = useState<StoreProductType | "ALL">("ALL");
+  const [languageFilter, setLanguageFilter] = useState<LanguageFilter | "ALL">("ALL");
 
   const bumpProduct = products.find((p) => p.productType === "OMR_KIT");
 
@@ -70,21 +81,30 @@ export function StorePageClient({ products }: { products: StoreProduct[] }) {
     [products]
   );
   const typeOptions = useMemo(() => Array.from(new Set(products.map((p) => p.productType))), [products]);
+  const languageOptions = useMemo(
+    () => Array.from(new Set(products.map((p) => p.language).filter((v): v is LanguageFilter => v !== null))),
+    [products]
+  );
 
   // A null targetExam/targetClass on the product means "every exam" /
   // "both classes" (see schema.prisma's Product model) — that product
   // stays visible no matter which specific exam/class pill is active,
-  // it's only excluded by an exact, conflicting productType filter.
+  // it's only excluded by an exact, conflicting productType filter. A null
+  // language, unlike those two, means "not a language edition" rather than
+  // "every language" (e.g. the mock series) — it stays visible no matter
+  // which language pill is active for the same reason: there's no
+  // conflicting language to filter it out on.
   const filteredProducts = products.filter(
     (product) =>
       (examFilter === "ALL" || product.targetExam === null || product.targetExam === examFilter) &&
       (classFilter === "ALL" || product.targetClass === null || product.targetClass === classFilter) &&
-      (typeFilter === "ALL" || product.productType === typeFilter)
+      (typeFilter === "ALL" || product.productType === typeFilter) &&
+      (languageFilter === "ALL" || product.language === null || product.language === languageFilter)
   );
 
   return (
     <>
-      {examOptions.length > 1 || classOptions.length > 1 || typeOptions.length > 1 ? (
+      {examOptions.length > 1 || classOptions.length > 1 || typeOptions.length > 1 || languageOptions.length > 1 ? (
         <div className="mb-6 flex flex-col gap-3">
           {examOptions.length > 1 ? (
             <div className="flex flex-wrap items-center gap-2">
@@ -123,6 +143,20 @@ export function StorePageClient({ products }: { products: StoreProduct[] }) {
               {typeOptions.map((type) => (
                 <FilterPill key={type} active={typeFilter === type} onClick={() => setTypeFilter(type)}>
                   {PRODUCT_TYPE_LABEL[type]}
+                </FilterPill>
+              ))}
+            </div>
+          ) : null}
+
+          {languageOptions.length > 1 ? (
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">Language</span>
+              <FilterPill active={languageFilter === "ALL"} onClick={() => setLanguageFilter("ALL")}>
+                All
+              </FilterPill>
+              {languageOptions.map((language) => (
+                <FilterPill key={language} active={languageFilter === language} onClick={() => setLanguageFilter(language)}>
+                  {LANGUAGE_LABEL[language]}
                 </FilterPill>
               ))}
             </div>

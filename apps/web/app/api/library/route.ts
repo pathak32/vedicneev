@@ -43,6 +43,7 @@ export async function POST(request: Request) {
           productType: product.productType,
           targetExam: product.targetExam,
           targetClass: product.targetClass,
+          language: product.language,
           fileUrl: product.fileUrl,
         },
       })),

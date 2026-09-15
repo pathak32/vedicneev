@@ -1,14 +1,16 @@
 "use client";
 
-import { useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { NotebookPen } from "lucide-react";
 import { Button } from "@vedicneev/ui";
 
 import { ExamSummaryCard } from "@/components/dashboard/ExamSummaryCard";
 import { MistakeVaultPreviewWidget } from "@/components/dashboard/MistakeVaultPreviewWidget";
+import { EcosystemPromoCard } from "@/components/marketing/EcosystemPromoCard";
 import { useActiveStudent } from "@/lib/auth/ActiveStudentContext";
 import { selectMistakeLogForStudent, selectStudentTestHistory, useAuthStore } from "@/lib/auth/useAuthStore";
+import { cameFromVedicMindAi } from "@/lib/ecosystem/attribution";
 
 // Renders entirely from client-side store state — force dynamic so the
 // build never attempts to prerender a signed-out shell.
@@ -18,6 +20,13 @@ export default function DashboardPage() {
   const { hasHydrated, isAuthenticated, students, activeStudent } = useActiveStudent();
   const history = useAuthStore((s) => (activeStudent ? selectStudentTestHistory(s, activeStudent.id) : []));
   const mistakes = useAuthStore((s) => (activeStudent ? selectMistakeLogForStudent(s, activeStudent.id) : []));
+
+  // Read client-only (localStorage) after mount, not during render, so
+  // server-rendered and first-client-render markup always match.
+  const [isFromVedicMindAi, setIsFromVedicMindAi] = useState(false);
+  useEffect(() => {
+    setIsFromVedicMindAi(cameFromVedicMindAi());
+  }, []);
 
   const sortedHistory = useMemo(
     () => [...history].sort((a, b) => b.submittedAt - a.submittedAt),
@@ -67,6 +76,12 @@ export default function DashboardPage() {
           <p className="text-sm text-muted-foreground">
             {activeStudent.targetExam} · Class {activeStudent.targetClass}
           </p>
+          {isFromVedicMindAi ? (
+            <p className="mt-1 text-sm font-medium text-primary">
+              Great work on your Vedic Mind AI speed-math basics — let&apos;s put that speed to work on a full mock
+              test.
+            </p>
+          ) : null}
         </div>
         <div className="flex gap-2">
           <Button asChild variant="outline">
@@ -101,6 +116,8 @@ export default function DashboardPage() {
       </div>
 
       <MistakeVaultPreviewWidget mistakes={mistakes} />
+
+      {isFromVedicMindAi ? null : <EcosystemPromoCard />}
     </div>
   );
 }

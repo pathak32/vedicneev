@@ -2,8 +2,9 @@ import { NextResponse } from "next/server";
 import { prisma } from "@vedicneev/db";
 import { applyPromoDiscount } from "@vedicneev/engine";
 
+import { isSupabaseAuthConfigured } from "@vedicneev/auth";
+
 import { resolveCheckoutUser } from "@/lib/auth/resolveCheckoutUser";
-import { isSupabaseAuthConfigured } from "@/lib/supabase/env";
 import { createRazorpayOrder } from "@/lib/payments/razorpayServer";
 
 // Creates a Razorpay order and PENDING Purchase row(s) — never cache or

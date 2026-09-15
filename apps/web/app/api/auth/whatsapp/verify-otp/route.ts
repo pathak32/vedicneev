@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 
-import { INDIAN_MOBILE_PATTERN, verifyWhatsAppOtp } from "@/lib/auth/whatsappOtpServer";
+import { INDIAN_MOBILE_PATTERN, verifyWhatsAppOtp } from "@vedicneev/auth";
 
 /**
  * Validates a submitted OTP against the code sent by

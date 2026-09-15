@@ -127,3 +127,45 @@ npx turbo run build lint type-check
 
 All four packages (`@vedicneev/web`, `@vedicneev/db`, `@vedicneev/engine`,
 `@vedicneev/ui`) should report success with zero errors.
+
+## 7. Deploying a subdomain app (`apps/typingtest`, `apps/omrtest`, ...)
+
+This repo has no host-based routing anywhere — no `vercel.json` rewrites,
+no middleware that dispatches by hostname. Each subdomain
+(`typingtest.vedicneev.com`, `omrtest.vedicneev.com`, ...) is its own
+**separate Vercel Project**, pointed at its own app folder. If a subdomain
+serves the wrong app's content (e.g. `typingtest.vedicneev.com` shows
+`apps/web`'s homepage), the domain is attached to the wrong Vercel Project
+— that's a dashboard/DNS fix, not a code change.
+
+To deploy `apps/typingtest`:
+
+1. In Vercel, create a Project from this same GitHub repo (a second Project
+   pointed at the same repo is normal — Vercel doesn't require one project
+   per repo) with: Root Directory = `apps/typingtest`, Build Command =
+   `npx turbo run build --filter=@vedicneev/typingtest...`, Install/Output
+   left default (same npm-workspaces auto-detect §2 describes for
+   `apps/web`).
+2. Under **that Project's** Settings → Domains, add
+   `typingtest.vedicneev.com`. Domains can only serve one Project at a
+   time — if it's already attached elsewhere (e.g. the `apps/web`
+   Project), remove it there first.
+3. Point the `typingtest` CNAME at Namecheap to whatever target Vercel
+   shows once the domain is added to the Project (typically
+   `cname.vercel-dns.com`).
+4. Set this Project's environment variables — a new Project starts with
+   none. Copy these six verbatim from the `apps/web` Project (same
+   Supabase project, same cookie domain — not new ones): `DATABASE_URL`,
+   `DIRECT_URL`, `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`,
+   `NEXT_PUBLIC_COOKIE_DOMAIN=.vedicneev.com`, and `NEXT_PUBLIC_APP_URL`
+   (apps/web's real URL — apps/typingtest's login page links out to it).
+   Without `NEXT_PUBLIC_COOKIE_DOMAIN` set identically on both Projects,
+   the Supabase session cookie apps/web's login sets won't be readable
+   here, and every page under apps/typingtest that requires sign-in will
+   loop back to `/login`. Do **not** add `SUPABASE_SERVICE_ROLE_KEY` here —
+   apps/typingtest never calls the Supabase Admin API, only reads the
+   existing session via the anon key, so this Project has no need for that
+   privileged secret. See `.env.example`'s "Typing Test Suite" section for
+   the full list with explanations.
+
+The same recipe applies to `apps/omrtest` (swap the package name/domain).

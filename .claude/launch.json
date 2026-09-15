@@ -6,6 +6,12 @@
       "runtimeExecutable": "npm",
       "runtimeArgs": ["run", "dev", "--workspace=@vedicneev/web"],
       "port": 3000
+    },
+    {
+      "name": "typingtest",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--workspace=@vedicneev/typingtest"],
+      "port": 3002
     }
   ]
 }

@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 
-import { INDIAN_MOBILE_PATTERN, sendWhatsAppOtp } from "@/lib/auth/whatsappOtpServer";
+import { INDIAN_MOBILE_PATTERN, sendWhatsAppOtp } from "@vedicneev/auth";
 
 /**
  * Generates and dispatches a fresh WhatsApp OTP for a 10-digit Indian

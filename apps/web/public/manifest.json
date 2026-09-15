@@ -1,0 +1,16 @@
+{
+  "name": "VedicNeev — JNVST, AISSEE & RMS Mock Tests",
+  "short_name": "VedicNeev",
+  "description": "K-8 competitive school entrance exam prep for JNVST, AISSEE, and RMS — full mock tests, instant diagnostics, and a Mistake Vault.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#f97316",
+  "icons": [
+    { "src": "/icons/192", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icons/512", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

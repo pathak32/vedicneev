@@ -2,12 +2,10 @@ import { NextResponse } from "next/server";
 import { prisma, type Subscription } from "@vedicneev/db";
 import { PLAN_CONFIG, SUBSCRIPTION_VALIDITY_MS, type EntitlementExamType, type PaidPlanId } from "@vedicneev/engine";
 
-import { toAppPhone } from "@/lib/auth/phoneFormat";
-import { resolveDbUser } from "@/lib/auth/resolveDbUser";
+import { createSupabaseServerClient, isSupabaseAuthConfigured, resolveDbUser, toAppPhone } from "@vedicneev/auth";
+
 import { verifyRazorpayPayment } from "@/lib/payments/razorpayServer";
 import type { VerifyPaymentRequestBody, VerifyPaymentResponse } from "@/lib/payments/types";
-import { isSupabaseAuthConfigured } from "@/lib/supabase/env";
-import { createSupabaseServerClient } from "@/lib/supabase/server";
 
 // Writes a Subscription row on a verified payment — never cache or
 // statically collect this route.

@@ -3,8 +3,11 @@ import { NextRequest, NextResponse } from "next/server";
 import { ExamType } from "@vedicneev/db";
 import { generateOmrSheetSpec, type OmrExamType } from "@vedicneev/engine";
 
+import { getAuthenticatedAdmin } from "@/lib/admin/user";
+import { getAuthenticatedUser } from "@/lib/auth/getAuthenticatedUser";
 import { generateOfflineMockSession, getOfflineMockSessionByCode } from "@/lib/exam/offlineOmrService";
 import { escapeHtml, renderOmrPrintHtml } from "@/lib/omr/renderOmrPrintHtml";
+import { hasOmrEntitlement } from "@/lib/store/omrEntitlement";
 
 // Draws real questions and (in the "generate" branch) writes a new
 // OfflineMockSession row — never cache or statically collect this route.
@@ -82,20 +85,55 @@ function errorResponse(message: string, status: number, format: ResponseFormat):
 }
 
 /**
- * Not a real student session yet (this app has no server-side auth session
- * to check — see the same gap called out on /api/exams/jnvst/generate-mock),
- * so every set generated here is anonymous (OfflineMockSession.userId stays
- * null) until that auth project lands.
+ * A "lookup" (reprint by serialCode) stays open to anyone — it can only
+ * return a set that already exists, including admin-registered sample
+ * papers meant to be freely scannable (see registerOfflineMockSession's
+ * doc comment), so it carries no entitlement cost to gate.
+ *
+ * A "generate" draw is what actually consumes the sellable PYQ content, so
+ * it requires a signed-in student (via the real Supabase Auth session —
+ * see getAuthenticatedUser) with a PAID purchase covering this exam/class
+ * (see hasOmrEntitlement), or an authenticated admin (mirrors the QA
+ * bypass already used by /api/library). The resulting session is linked to
+ * that real userId instead of staying anonymous, which is also what lets
+ * omrGradingService.ts route wrong answers into that student's Mistake
+ * Vault later.
  */
 async function handle(parsed: ParsedRequest): Promise<NextResponse> {
-  const result =
-    parsed.kind === "lookup"
-      ? await getOfflineMockSessionByCode(parsed.serialCode)
-      : await generateOfflineMockSession({
-          examType: parsed.examType,
-          classLevel: parsed.classLevel,
-          totalQuestions: parsed.totalQuestions,
-        });
+  if (parsed.kind === "generate") {
+    const [admin, user] = await Promise.all([getAuthenticatedAdmin(), getAuthenticatedUser()]);
+
+    if (!admin) {
+      if (!user) {
+        return errorResponse("Sign in to generate an offline practice set.", 401, parsed.format);
+      }
+      const entitled = await hasOmrEntitlement(user.id, parsed.examType, parsed.classLevel);
+      if (!entitled) {
+        return errorResponse(
+          `No purchase covers offline OMR practice for ${parsed.examType} Class ${parsed.classLevel} yet — buy the Question Bank Booklet, OMR Kit, or a bundle from the Digital Knowledge Hub first.`,
+          402,
+          parsed.format
+        );
+      }
+    }
+
+    const result = await generateOfflineMockSession({
+      examType: parsed.examType,
+      classLevel: parsed.classLevel,
+      totalQuestions: parsed.totalQuestions,
+      userId: user?.id ?? admin?.id,
+    });
+    return respond(result, parsed);
+  }
+
+  const result = await getOfflineMockSessionByCode(parsed.serialCode);
+  return respond(result, parsed);
+}
+
+async function respond(
+  result: Awaited<ReturnType<typeof generateOfflineMockSession>> | Awaited<ReturnType<typeof getOfflineMockSessionByCode>>,
+  parsed: ParsedRequest
+): Promise<NextResponse> {
 
   if ("error" in result) {
     const status = parsed.kind === "lookup" ? 404 : 503;

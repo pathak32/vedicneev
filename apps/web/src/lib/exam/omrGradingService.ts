@@ -6,17 +6,14 @@
  * result back onto the session row, and auto-routes wrong/spoiled answers
  * into the student's Mistake Vault.
  *
- * Mistake Vault routing has one real architectural limit, checked live
- * rather than assumed: MistakeVault.questionId is a required foreign key to
- * Question, not PreviousYearQuestion (packages/db/prisma/schema.prisma) —
- * the exact same constraint apps/web/app/api/exam/submit/route.ts already
- * hit and documented for the online exam flow. Offline sets are drawn from
- * the PYQ bank (see offlineOmrService.ts), so today those ids essentially
- * never match a real Question row; such mistakes are honestly skipped
- * (reported in `mistakeRoutingSkipped`) rather than forcing a schema change
- * or writing a row that would violate the FK constraint. The day
- * OfflineMockSession also draws from the real Question bank, routing for
- * those ids starts working with no further changes here.
+ * Mistake Vault routing checks both banks: MistakeVault.questionId (a
+ * Question FK) and MistakeVault.pyqQuestionId (a PreviousYearQuestion FK,
+ * packages/db/prisma/schema.prisma) — see that model's own comment for why
+ * a mistake needs exactly one of the two. Offline sets are drawn from the
+ * PYQ bank (see offlineOmrService.ts), so almost every mistake here routes
+ * via pyqQuestionId; a candidate id that matches neither bank is still
+ * honestly skipped (reported in `mistakeRoutingSkipped`) rather than
+ * silently dropped.
  */
 import { Prisma, prisma } from "@vedicneev/db";
 import {
@@ -247,36 +244,42 @@ async function routeMistakes(
   const userId = session.userId;
 
   const candidateIds = mistakeEntries.map((entry) => entry.questionId);
-  const [dbQuestions, existingMistakes] = await Promise.all([
+  const [dbQuestions, dbPyqQuestions, existingMistakes] = await Promise.all([
     prisma.question.findMany({ where: { id: { in: candidateIds } }, select: { id: true } }),
+    prisma.previousYearQuestion.findMany({ where: { id: { in: candidateIds } }, select: { id: true } }),
     prisma.mistakeVault.findMany({
-      where: { userId, questionId: { in: candidateIds } },
-      select: { questionId: true },
+      where: { userId, OR: [{ questionId: { in: candidateIds } }, { pyqQuestionId: { in: candidateIds } }] },
+      select: { questionId: true, pyqQuestionId: true },
     }),
   ]);
   const dbQuestionIds = new Set(dbQuestions.map((q) => q.id));
-  const alreadyLogged = new Set(existingMistakes.map((m) => m.questionId));
+  const dbPyqQuestionIds = new Set(dbPyqQuestions.map((q) => q.id));
+  const alreadyLogged = new Set(existingMistakes.flatMap((m) => [m.questionId, m.pyqQuestionId]).filter((id): id is string => !!id));
 
   const skipped: SkippedMistake[] = [];
   let mistakesLogged = 0;
 
   for (const entry of mistakeEntries) {
-    if (!dbQuestionIds.has(entry.questionId)) {
-      skipped.push({
-        questionId: entry.questionId,
-        reason: "Not in the Question bank — this offline set was drawn from the PYQ bank instead.",
-      });
-      continue;
-    }
     if (alreadyLogged.has(entry.questionId)) {
       skipped.push({ questionId: entry.questionId, reason: "Already logged in this student's Mistake Vault." });
+      continue;
+    }
+
+    const isTopicBankQuestion = dbQuestionIds.has(entry.questionId);
+    const isPyqQuestion = !isTopicBankQuestion && dbPyqQuestionIds.has(entry.questionId);
+    if (!isTopicBankQuestion && !isPyqQuestion) {
+      skipped.push({
+        questionId: entry.questionId,
+        reason: "Not found in either the Question or PreviousYearQuestion bank.",
+      });
       continue;
     }
 
     await prisma.mistakeVault.create({
       data: {
         userId,
-        questionId: entry.questionId,
+        questionId: isTopicBankQuestion ? entry.questionId : null,
+        pyqQuestionId: isPyqQuestion ? entry.questionId : null,
         tagCategory: AUTO_MISTAKE_TAG,
         note: `Auto-logged from offline OMR grading of set ${session.serialCode} (${entry.response.outcome}).`,
       },

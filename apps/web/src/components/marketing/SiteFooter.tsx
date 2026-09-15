@@ -4,7 +4,9 @@ import React from 'react';
 import Link from 'next/link';
 import { ShieldCheck, MapPin } from 'lucide-react';
 
+import { vedicMindAiUrl } from '@/lib/ecosystem/vedicMindAi';
 import { useT } from '@/lib/i18n/useT';
+import { institutePartnerUrl } from '@/lib/institute/instituteUrl';
 
 export function SiteFooter() {
   const t = useT();
@@ -49,6 +51,26 @@ export function SiteFooter() {
               <li><Link href="/blog" className="hover:text-amber-400 transition-colors">{t("footerBlog")}</Link></li>
               <li><Link href="/pricing" className="hover:text-amber-400 transition-colors">{t("footerInstitutionalPricing")}</Link></li>
               <li><Link href="/faq" className="hover:text-amber-400 transition-colors">{t("footerFaq")}</Link></li>
+              <li>
+                <a
+                  href={vedicMindAiUrl('/', 'footer_link')}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-amber-400 transition-colors"
+                >
+                  {t("footerVedicMindAi")}
+                </a>
+              </li>
+              <li>
+                <a
+                  href={institutePartnerUrl('/login', 'footer_link')}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-amber-400 transition-colors"
+                >
+                  {t("footerInstitutePartnerLogin")}
+                </a>
+              </li>
             </ul>
           </div>
 

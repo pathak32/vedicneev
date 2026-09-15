@@ -1,9 +1,11 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 
 import "./globals.css";
 import { SiteHeader } from "@/components/auth/SiteHeader";
+import { EcosystemReferralListener } from "@/components/ecosystem/EcosystemReferralListener";
 import { GlobalAudioPlayer } from "@/components/media/GlobalAudioPlayer";
 import { SiteFooter } from "@/components/marketing/SiteFooter";
+import { ServiceWorkerRegistration } from "@/components/pwa/ServiceWorkerRegistration";
 import { ActiveStudentProvider } from "@/lib/auth/ActiveStudentContext";
 import { SITE_NAME as siteName, SITE_URL as appUrl } from "@/lib/siteConfig";
 
@@ -36,6 +38,13 @@ export const metadata: Metadata = {
   // `robots: { index: false }` overrides on account-gated and
   // session-specific routes (dashboard, parent, onboarding, exam player).
   robots: { index: true, follow: true },
+  // PWA install metadata — see public/manifest.json and
+  // src/components/pwa/ServiceWorkerRegistration.tsx. /icons/[size] (same
+  // branding as app/opengraph-image.tsx) backs both the manifest icons and
+  // the apple-touch-icon here.
+  manifest: "/manifest.json",
+  icons: { apple: "/icons/180" },
+  appleWebApp: { capable: true, statusBarStyle: "default", title: siteName },
   openGraph: {
     type: "website",
     siteName,
@@ -49,6 +58,10 @@ export const metadata: Metadata = {
     title: `${siteName} — JNVST, AISSEE & RMS Mock Tests`,
     description: defaultDescription,
   },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#f97316",
 };
 
 /**
@@ -92,6 +105,8 @@ export default function RootLayout({
           <style>{`.reveal-init { opacity: 1 !important; transform: none !important; }`}</style>
         </noscript>
         <ActiveStudentProvider>
+          <EcosystemReferralListener />
+          <ServiceWorkerRegistration />
           <SiteHeader />
           {children}
           <SiteFooter />

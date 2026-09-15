@@ -4,13 +4,13 @@ import { ArrowUpRight, Sparkles, Zap } from "lucide-react";
 
 import { Button } from "@vedicneev/ui";
 
+import { vedicMindAiUrl } from "@/lib/ecosystem/vedicMindAi";
+
 export const metadata: Metadata = {
   title: "Vedic Math Speed-Computing Engine",
   description:
     "Vedic Neev's speed-math and aptitude acceleration is powered by Vedic Mind AI — try the live demo.",
 };
-
-const VEDIC_MIND_AI_URL = "https://www.vedicmindai.in/demo";
 
 /**
  * Vedic Math instruction isn't reimplemented here — Vedic Neev is a child
@@ -42,7 +42,7 @@ export default function LearnPage() {
           Vedic Mind AI, not duplicated here.
         </p>
         <Button asChild size="lg">
-          <a href={VEDIC_MIND_AI_URL} target="_blank" rel="noopener noreferrer">
+          <a href={vedicMindAiUrl("/demo", "learn_page_cta")} target="_blank" rel="noopener noreferrer">
             Try the Vedic Mind AI demo
             <ArrowUpRight className="h-4 w-4" />
           </a>

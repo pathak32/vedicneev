@@ -61,6 +61,24 @@ export const DICTIONARY = {
     ta: "செயலில் உள்ள வாரியங்கள்:",
     gu: "સક્રિય બોર્ડ:",
   },
+  // Brand name — kept untranslated in every language, same convention as
+  // the JNVST/AISSEE/RMS exam-board acronyms above.
+  navVedicMindAi: {
+    en: "Vedic Mind AI",
+    hi: "Vedic Mind AI",
+    mr: "Vedic Mind AI",
+    bn: "Vedic Mind AI",
+    ta: "Vedic Mind AI",
+    gu: "Vedic Mind AI",
+  },
+  navForInstitutes: {
+    en: "For Institutes",
+    hi: "संस्थानों के लिए",
+    mr: "संस्थांसाठी",
+    bn: "প্রতিষ্ঠানের জন্য",
+    ta: "நிறுவனங்களுக்கு",
+    gu: "સંસ્થાઓ માટે",
+  },
 
   // Footer
   footerMission: {
@@ -96,6 +114,22 @@ export const DICTIONARY = {
     bn: "বৈদিক গণিত শর্টকাট",
     ta: "வேத கணித குறுக்குவழிகள்",
     gu: "વૈદિક ગણિત શોર્ટકટ",
+  },
+  footerVedicMindAi: {
+    en: "Vedic Mind AI (Speed Math)",
+    hi: "Vedic Mind AI (स्पीड मैथ)",
+    mr: "Vedic Mind AI (स्पीड मॅथ)",
+    bn: "Vedic Mind AI (স্পিড ম্যাথ)",
+    ta: "Vedic Mind AI (வேக கணிதம்)",
+    gu: "Vedic Mind AI (સ્પીડ મેથ)",
+  },
+  footerInstitutePartnerLogin: {
+    en: "Institute Partner Login",
+    hi: "संस्थान पार्टनर लॉगिन",
+    mr: "संस्था पार्टनर लॉगिन",
+    bn: "প্রতিষ্ঠান পার্টনার লগইন",
+    ta: "நிறுவன கூட்டாளர் உள்நுழைவு",
+    gu: "સંસ્થા પાર્ટનર લોગિન",
   },
   footerBlog: {
     en: "Exam Strategy Blog",

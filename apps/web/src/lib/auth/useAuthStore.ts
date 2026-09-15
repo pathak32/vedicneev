@@ -1,7 +1,8 @@
 import { create } from "zustand";
 import { createJSONStorage, persist } from "zustand/middleware";
 
-import { isSupabaseAuthConfigured } from "@/lib/supabase/env";
+import { cameFromVedicMindAi } from "@/lib/ecosystem/attribution";
+import { isSupabaseAuthConfigured } from "@vedicneev/auth";
 
 import { sendOtp as mockSendOtp, verifyOtp as mockVerifyOtp } from "./mockAuthProvider";
 import { sendOtp as sendWhatsappOtp, verifyOtp as verifyWhatsappOtp } from "./whatsappOtpClient";
@@ -32,6 +33,19 @@ function syncTargetExamToServer(phone: string, targetExam: string): void {
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ phone, targetExam }),
   }).catch((err) => console.error("Failed to sync targetExam to database:", err));
+}
+
+// Best-effort mirror of a Vedic Mind AI ecosystem referral (see
+// src/lib/ecosystem/attribution.ts) onto the User row, once a phone is
+// known at sign-in — same fire-and-forget convention as the sync above.
+// No-ops server-side when the referral flag isn't set.
+function syncVedicMindReferralToServer(phone: string): void {
+  if (!cameFromVedicMindAi()) return;
+  fetch("/api/auth/sync", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ phone, completedVedicMindBasics: true }),
+  }).catch((err) => console.error("Failed to sync Vedic Mind AI referral to database:", err));
 }
 
 interface Account {
@@ -157,6 +171,8 @@ export const useAuthStore = create<AuthStoreState>()(
           otpVerifying: false,
           otpError: null,
         });
+
+        syncVedicMindReferralToServer(phone);
 
         return { success: true, isNewUser };
       },

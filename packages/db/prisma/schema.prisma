@@ -244,6 +244,17 @@ model User {
   parent   User?   @relation("ParentChildren", fields: [parentId], references: [id], onDelete: SetNull)
   children User[]  @relation("ParentChildren")
 
+  // ── Vedic Mind AI ecosystem (vedicmindai.in, our sibling product) ──────
+  // Set from the client-captured `utm_source=vedicmindai` referral (see
+  // apps/web/src/lib/ecosystem/attribution.ts) the next time this phone
+  // syncs via /api/auth/sync — drives the customized dashboard welcome
+  // message for students arriving from that product.
+  completedVedicMindBasics Boolean @default(false) @map("completed_vedic_mind_basics")
+  // Not yet populated by any flow — reserved so a real account-linking
+  // handoff between the two products (once one exists) has a column to
+  // write into instead of needing a migration at that point.
+  vedicMindAiUserId        String? @map("vedic_mind_ai_user_id")
+
   createdAt DateTime @default(now()) @map("created_at")
   updatedAt DateTime @updatedAt @map("updated_at")
 
@@ -255,6 +266,14 @@ model User {
   sprintRegistrations     SprintRegistration[]
   speedChallengeAttempts  SpeedChallengeAttempt[]
   recentlyServedQuestions RecentlyServedQuestion[]
+  // Set only for the one person (per institute) who administers
+  // omrtest.vedicneev.com — see InstituteAdmin's own comment on why this
+  // reuses the existing User identity instead of a parallel account system.
+  instituteAdmin          InstituteAdmin?
+  // typingtest.vedicneev.com — see the Typing Test Suite section at the
+  // bottom of this file for why these are their own model cluster.
+  typingAttempts          TypingAttempt[]
+  typingSubscription      TypingSubscription?
 
   @@index([parentId])
   @@map("users")
@@ -340,6 +359,14 @@ model Product {
   // Null means both Class 6 and Class 9 — the equivalent "universal" value
   // for this field, since ContentClassLevel has no explicit BOTH member.
   targetClass ContentClassLevel? @map("target_class")
+
+  // Which language the file itself is written in — distinct from
+  // title/description's own bilingual Json (that's the storefront's UI
+  // copy, always shown in the site's current locale; this is the language
+  // of the PDF content a QUESTION_BOOKLET buyer receives). Null means the
+  // product isn't a language-specific edition (every non-booklet type
+  // today), not "every language" — unlike targetExam/targetClass's null.
+  language Language? @map("language")
 
   productType ProductType @map("product_type")
 
@@ -778,6 +805,10 @@ model PreviousYearQuestion {
   // live behavior with zero backfill.
   reviewStatus PaperReviewStatus @default(PUBLISHED) @map("review_status")
 
+  // Back-relation for MistakeVault.pyqQuestionId — see that model's own
+  // comment for why a mistake needs a second FK alongside Question.
+  mistakes MistakeVault[]
+
   // Pre-existing live columns that predate this model gaining a matching
   // Prisma field — adding them here (rather than dropping the columns) so
   // `prisma db push` stops proposing to drop 430 rows of real timestamp
@@ -871,12 +902,26 @@ model TestResponse {
 
 // Per-mistake remediation log, tagged by root cause so a student/parent can
 // see targeted "what to fix" trends instead of just a raw wrong-answer list.
+// A mistake logged against EITHER bank — exactly one of questionId/
+// pyqQuestionId is set, never both, never neither. questionId predates
+// pyqQuestionId (see git history) and was originally required; it's
+// nullable now purely so a PYQ-sourced mistake can omit it, not because a
+// row can lack a source question. Every existing consumer (both writers,
+// omrGradingService.ts and api/exam/submit/route.ts) already checks the
+// PreviousYearQuestion bank as a fallback when a candidate id isn't a real
+// Question id, so this FK addition is what finally lets that fallback
+// write a row instead of silently skipping the mistake — see each
+// writer's own routing comment for the one-FK-per-table constraint this
+// was blocked on before.
 model MistakeVault {
-  id         String   @id @default(cuid())
-  userId     String   @map("user_id")
-  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
-  questionId String   @map("question_id")
-  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  id         String    @id @default(cuid())
+  userId     String    @map("user_id")
+  user       User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  questionId String?   @map("question_id")
+  question   Question? @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  pyqQuestionId String?               @map("pyq_question_id")
+  pyqQuestion   PreviousYearQuestion? @relation(fields: [pyqQuestionId], references: [id], onDelete: Cascade)
 
   testResponseId String?       @unique @map("test_response_id")
   testResponse   TestResponse? @relation(fields: [testResponseId], references: [id], onDelete: SetNull)
@@ -891,6 +936,7 @@ model MistakeVault {
 
   @@index([userId, tagCategory])
   @@index([userId, questionId])
+  @@index([userId, pyqQuestionId])
   @@map("mistake_vault")
 }
 
@@ -1060,4 +1106,435 @@ model SpeedChallengeAttempt {
 
   @@index([userId])
   @@map("speed_challenge_attempts")
+}
+
+// ─────────────────────────────────────────────────────────────────────────
+// Institute Suite (omrtest.vedicneev.com) — B2B batch OMR grading,
+// section-wise analytics, and the Mistake Vault sold to coaching institutes.
+// Deliberately its own model cluster rather than reusing Subscription/
+// Purchase (those are per-User consumer-product billing; an institute's
+// subscription is billed once per institute, shared across every admin and
+// student under it) or MistakeVault directly (a scanned institute sheet has
+// no signed-in User until/unless that student separately has a VedicNeev
+// account — see OmrUpload's own comment on why it stores roster identity,
+// not a User FK).
+// ─────────────────────────────────────────────────────────────────────────
+
+enum InstituteTier {
+  STARTER
+  GROWTH
+  ENTERPRISE
+}
+
+enum InstituteAdminRole {
+  OWNER
+  STAFF
+}
+
+// Append-only reasons for a credit_ledger row — never delete/edit a row to
+// "fix" a balance; write a new row with the correcting delta instead, so
+// SUM(delta) always reconstructs an honest history for a support dispute.
+enum CreditLedgerReason {
+  MONTHLY_GRANT
+  TOPUP_PURCHASE
+  SCAN_CONSUMED
+  SCAN_REJECTED_REFUND
+  MANUAL_ADJUSTMENT
+}
+
+enum OmrUploadStatus {
+  QUEUED
+  GRADED
+  REJECTED_DUPLICATE
+  REJECTED_ROSTER_MISMATCH
+  REJECTED_UNREADABLE
+  NEEDS_MANUAL_REVIEW
+}
+
+model Institute {
+  id         String        @id @default(cuid())
+  name       String
+  slug       String        @unique
+  tier       InstituteTier
+  // Report-card white-labeling (Growth: toggle-able; Enterprise: always on
+  // with no VedicNeev credit — that distinction is enforced in app code,
+  // not the schema, off `tier` + `InstituteSubscription`).
+  logoUrl    String?       @map("logo_url")
+  brandColor String?       @map("brand_color")
+  createdAt  DateTime      @default(now()) @map("created_at")
+
+  branches     InstituteBranch[]
+  admins       InstituteAdmin[]
+  subscription InstituteSubscription?
+  creditLedger InstituteCreditLedger[]
+  testBatches  TestBatch[]
+
+  @@map("institutes")
+}
+
+// Enterprise tier's "multi-branch logins" — a branch is purely an
+// organizational label an InstituteAdmin/TestBatch can be scoped to; credits
+// and billing stay at the Institute level (one shared pool), not per-branch.
+model InstituteBranch {
+  id          String    @id @default(cuid())
+  instituteId String    @map("institute_id")
+  institute   Institute @relation(fields: [instituteId], references: [id], onDelete: Cascade)
+  name        String
+  city        String?
+  createdAt   DateTime  @default(now()) @map("created_at")
+
+  admins      InstituteAdmin[]
+  testBatches TestBatch[]
+
+  @@index([instituteId])
+  @@map("institute_branches")
+}
+
+// One row per human who can sign in to omrtest.vedicneev.com for an
+// Institute. Identity/auth stays on the existing User row (same
+// phone-OTP-to-Supabase-session bridge apps/web already uses — see
+// whatsappOtpServer.ts) rather than a parallel account system; this table
+// only adds the institute-scoped authorization on top of that identity.
+// userId is unique because today one person administers exactly one
+// institute — revisit if a franchise operator ever needs to run several.
+model InstituteAdmin {
+  id          String             @id @default(cuid())
+  userId      String             @unique @map("user_id")
+  user        User               @relation(fields: [userId], references: [id], onDelete: Cascade)
+  instituteId String             @map("institute_id")
+  institute   Institute          @relation(fields: [instituteId], references: [id], onDelete: Cascade)
+  branchId    String?            @map("branch_id")
+  branch      InstituteBranch?   @relation(fields: [branchId], references: [id], onDelete: SetNull)
+  role        InstituteAdminRole @default(OWNER)
+  createdAt   DateTime           @default(now()) @map("created_at")
+
+  @@index([instituteId])
+  @@index([branchId])
+  @@map("institute_admins")
+}
+
+// Reuses the existing SubscriptionStatus enum (ACTIVE/EXPIRED/CANCELLED) —
+// same lifecycle shape as the consumer Subscription model, just billed to
+// an Institute instead of a User.
+model InstituteSubscription {
+  id                 String             @id @default(cuid())
+  instituteId        String             @unique @map("institute_id")
+  institute          Institute          @relation(fields: [instituteId], references: [id], onDelete: Cascade)
+  tier               InstituteTier
+  // Scans granted per billing period at this tier — null means unlimited
+  // (Enterprise), matching OmrUpload/credit-check code treating a null
+  // grant as "skip the balance check entirely" rather than "zero credits".
+  monthlyCreditGrant Int?               @map("monthly_credit_grant")
+  currentPeriodStart DateTime           @map("current_period_start")
+  currentPeriodEnd   DateTime           @map("current_period_end")
+  razorpaySubId      String?            @map("razorpay_subscription_id")
+  status             SubscriptionStatus @default(ACTIVE)
+  createdAt          DateTime           @default(now()) @map("created_at")
+
+  @@map("institute_subscriptions")
+}
+
+// Append-only credit ledger — an institute's live balance is always
+// SUM(delta) WHERE institute_id = X AND created_at >= current_period_start,
+// computed on read rather than cached, so a disputed/duplicate scan can be
+// refunded with a new offsetting row (SCAN_REJECTED_REFUND) instead of an
+// update that erases the audit trail a billing dispute needs.
+model InstituteCreditLedger {
+  id          String             @id @default(cuid())
+  instituteId String             @map("institute_id")
+  institute   Institute          @relation(fields: [instituteId], references: [id], onDelete: Cascade)
+  delta       Int
+  reason      CreditLedgerReason
+  testBatchId String?            @map("test_batch_id")
+  omrUploadId String?            @map("omr_upload_id")
+  createdAt   DateTime           @default(now()) @map("created_at")
+
+  @@index([instituteId, createdAt])
+  @@map("institute_credit_ledger")
+}
+
+// One created test (a printed OMR set + its answer key), scoped to an
+// Institute. sections/answerKey are Json, same rationale as
+// OfflineMockSession above: a point-in-time snapshot of exactly what was
+// printed, immune to a later edit of some shared question bank.
+model TestBatch {
+  id                String           @id @default(cuid())
+  instituteId       String           @map("institute_id")
+  institute         Institute        @relation(fields: [instituteId], references: [id], onDelete: Cascade)
+  branchId          String?          @map("branch_id")
+  branch            InstituteBranch? @relation(fields: [branchId], references: [id], onDelete: SetNull)
+  batchName         String           @map("batch_name")
+  // Institute-chosen code, unique per institute (not globally) — e.g.
+  // "PHY-MOCK-04". The pre-download metadata gate refuses to create a
+  // second TestBatch reusing a code still active for the same institute.
+  testCode          String           @map("test_code")
+  subject           String?
+  // Free-text, not an enum — a coaching institute's exam categories are
+  // unbounded (Engineering/Medical/Board/Civil Services/Custom); this is
+  // purely a reporting/branding label, unlike apps/web's own ExamType enum
+  // which stays scoped to that consumer product's fixed exam boards.
+  // Optional: not collected by the /tests/new metadata gate (Batch
+  // Name/Test Code/Subject/Total Students/Total Questions only) — set
+  // later from the dashboard once it's actually needed for reporting.
+  examCategory      String?          @map("exam_category")
+  totalStudents     Int              @map("total_students")
+  // Needed up front to generate the OMR sheet geometry itself
+  // (packages/engine's generateOmrSheetSpec) — unlike sections/answerKey
+  // below, a sheet literally can't be printed without knowing this.
+  totalQuestions    Int              @map("total_questions")
+  // Both nullable: an institute commonly finalizes section weightings and
+  // the actual answer key closer to exam day, well after sheets are
+  // printed and distributed — TestBatch legitimately exists in a
+  // "sheets generated, answer key pending" state. The (future) grading
+  // service refuses to grade an OmrUpload against a null answerKey rather
+  // than this column enforcing it.
+  sections          Json?
+  answerKey         Json?            @map("answer_key")
+  sheetsGeneratedAt DateTime?        @map("sheets_generated_at")
+  createdAt         DateTime         @default(now()) @map("created_at")
+
+  rosterEntries TestBatchRosterEntry[]
+  omrUploads    OmrUpload[]
+
+  @@unique([instituteId, testCode])
+  @@index([instituteId])
+  @@map("test_batches")
+}
+
+// One row per student slot in a TestBatch, created up-front (sequentially
+// numbered) the moment the batch's metadata form is submitted — this is
+// what makes "download one blank master and photocopy it" self-defeating:
+// every printed sheet already carries a distinct, pre-assigned sheetToken
+// before a single copy exists, so 300 photocopies of one sheet still only
+// ever match ONE roster entry at ingestion (see OmrUpload's dedup rule).
+model TestBatchRosterEntry {
+  id             String    @id @default(cuid())
+  testBatchId    String    @map("test_batch_id")
+  testBatch      TestBatch @relation(fields: [testBatchId], references: [id], onDelete: Cascade)
+  // 1-based, assigned in creation order — the pure-numeric value actually
+  // bubbled onto the sheet's roll-number grid (packages/engine's
+  // OmrSheetSpec.rollNumberGrid only understands digits, not the
+  // TESTCODE- prefix). rollNumber below is the human-readable display
+  // string derived from this at print/render time, never bubbled directly.
+  sequenceNumber Int       @map("sequence_number")
+  // Human-readable on the printed sheet, e.g. "PHY-MOCK-04-0001" — derived
+  // from testCode + sequenceNumber, stored (not computed on read) so it
+  // stays fixed even if the TestBatch's testCode is ever edited later.
+  rollNumber     String    @map("roll_number")
+  studentName    String?   @map("student_name")
+  // Opaque, unguessable, purely numeric — bubbled onto the sheet's own
+  // second digit-grid (OmrSheetSpec.sheetTokenGrid) using the same
+  // detection pipeline as answers and the roll number, no barcode/QR
+  // scanner needed. This (not rollNumber, which is guessable/collidable
+  // across batches) is the actual key the anti-fraud ingestion check
+  // matches against.
+  sheetToken     String    @unique @map("sheet_token")
+  downloadedAt   DateTime? @map("downloaded_at")
+  // Set the moment a scan matching this token grades successfully. A
+  // second scan presenting the same token after this is set is rejected as
+  // REJECTED_DUPLICATE rather than overwriting the first result.
+  consumedAt     DateTime? @map("consumed_at")
+
+  omrUpload OmrUpload?
+
+  @@unique([testBatchId, sequenceNumber])
+  @@index([testBatchId])
+  @@map("test_batch_roster_entries")
+}
+
+// One row per scanned sheet image submitted for grading, whatever the
+// outcome — a rejection is logged here too (never silently dropped) so an
+// institute admin can see exactly why a given sheet didn't count, and so
+// REJECTED_* rows never consume a credit (see the ledger-write ordering
+// note above InstituteCreditLedger's writer in the grading service, once
+// built: credit-consumed row is written only after status flips to GRADED).
+model OmrUpload {
+  id             String                @id @default(cuid())
+  testBatchId    String                @map("test_batch_id")
+  testBatch      TestBatch             @relation(fields: [testBatchId], references: [id], onDelete: Cascade)
+  rosterEntryId  String?               @unique @map("roster_entry_id")
+  rosterEntry    TestBatchRosterEntry? @relation(fields: [rosterEntryId], references: [id], onDelete: SetNull)
+  imageUrl       String                @map("image_url")
+  // Perceptual hash (not exact-byte hash) so a rescanned/re-photographed
+  // copy of the same physical sheet still collides for dedup purposes.
+  imageHash      String                @map("image_hash")
+  status         OmrUploadStatus       @default(QUEUED)
+  rejectReason   String?               @map("reject_reason")
+  gradingResult  Json?                 @map("grading_result")
+  creditConsumed Boolean               @default(false) @map("credit_consumed")
+  createdAt      DateTime              @default(now()) @map("created_at")
+
+  @@unique([testBatchId, imageHash])
+  @@index([testBatchId, status])
+  @@map("omr_uploads")
+}
+
+// ─────────────────────────────────────────────────────────────────────────
+// Typing Test Suite (typingtest.vedicneev.com) — government-exam-style
+// typing simulation, official Gross/Net Speed + Full/Half Mistake grading
+// (see packages/engine/src/typingEvaluation.ts), and the "Typing Speed &
+// Logic" dual-mode module. Its own TypingSubscription/plan rather than
+// reusing Subscription above, same split already used for
+// InstituteSubscription vs Subscription: that model is a K-8 ExamType
+// paywall billed per parent, this is billed per typing-test user
+// independently of any JNVST/AISSEE/RMS/DPS plan they may also hold.
+// ─────────────────────────────────────────────────────────────────────────
+
+enum TypingKeyboardLayout {
+  QWERTY
+  INSCRIPT
+  REMINGTON
+}
+
+// DISABLED = the Backspace key is rejected client-side for the whole
+// attempt (some government exams run this way). ENABLED_WITH_PENALTY =
+// backspace is allowed but every use is counted (TypingAttempt.backspaceCount)
+// for display — it does not itself change the mistake grading, which is
+// always computed by comparing the final typed text to the passage.
+enum BackspacePolicy {
+  DISABLED
+  ENABLED_WITH_PENALTY
+}
+
+enum TypingSubscriptionPlan {
+  FREE
+  PRO
+}
+
+// One catalog entry a candidate can practice against, e.g. "RRB NTPC —
+// English". `name` is bilingual (same {en, hi, ...} Json convention as
+// Question.content below) since the catalog listing itself is shown in
+// whichever UI language the visitor picked, even though the passage body
+// a candidate types is always in a single fixed `language`.
+model TypingExam {
+  id                          String               @id @default(cuid())
+  slug                        String               @unique
+  name                        Json
+  // Free-text issuing body, e.g. "RRB NTPC", "Allahabad High Court",
+  // "UPSSSC", "AIIMS" — a growing, informally-governed list, so a plain
+  // String rather than an enum that would need a migration per new exam.
+  organization                String
+  language                    Language
+  layout                      TypingKeyboardLayout
+  durationSeconds             Int                  @map("duration_seconds")
+  // Standard-word-length key count a full-marks candidate would type in
+  // durationSeconds (word = 5 key depressions including spaces) — drives
+  // the exam listing's displayed target speed, not used in grading itself
+  // (grading always measures the candidate's own typed text).
+  totalKeyDepressionsRequired Int                  @map("total_key_depressions_required")
+  backspacePolicy             BackspacePolicy      @default(ENABLED_WITH_PENALTY) @map("backspace_policy")
+  difficulty                  Difficulty           @default(MEDIUM)
+  isActive                    Boolean              @default(true) @map("is_active")
+  createdAt                   DateTime             @default(now()) @map("created_at")
+  updatedAt                   DateTime             @updatedAt @map("updated_at")
+
+  passages TypingPassage[]
+  attempts TypingAttempt[]
+
+  @@index([isActive])
+  @@map("typing_exams")
+}
+
+// A single practice/test passage under one TypingExam. Not bilingual —
+// unlike the catalog entry above, the body a candidate actually types is
+// always in exactly the one language their chosen exam is scored in.
+model TypingPassage {
+  id                 String     @id @default(cuid())
+  examId             String     @map("exam_id")
+  exam               TypingExam @relation(fields: [examId], references: [id], onDelete: Cascade)
+  content            String
+  wordCount          Int        @map("word_count")
+  keyDepressionCount Int        @map("key_depression_count")
+  isActive           Boolean    @default(true) @map("is_active")
+  createdAt          DateTime   @default(now()) @map("created_at")
+
+  attempts TypingAttempt[]
+
+  @@index([examId, isActive])
+  @@map("typing_passages")
+}
+
+// One completed typing run. Graded by packages/engine/src/typingEvaluation.ts
+// from `typedText` vs the passage's `content` — the numeric fields here are
+// that function's output, persisted rather than recomputed on every read
+// (dashboard history + leaderboard both query these directly).
+model TypingAttempt {
+  id               String        @id @default(cuid())
+  userId           String        @map("user_id")
+  user             User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  examId           String        @map("exam_id")
+  exam             TypingExam    @relation(fields: [examId], references: [id], onDelete: Restrict)
+  passageId        String        @map("passage_id")
+  passage          TypingPassage @relation(fields: [passageId], references: [id], onDelete: Restrict)
+  typedText        String        @map("typed_text")
+  grossSpeedWpm    Float         @map("gross_speed_wpm")
+  netSpeedWpm      Float         @map("net_speed_wpm")
+  accuracyPercent  Float         @map("accuracy_percent")
+  fullMistakes     Int           @map("full_mistakes")
+  halfMistakes     Int           @map("half_mistakes")
+  keyDepressions   Int           @map("key_depressions")
+  backspaceCount   Int           @default(0) @map("backspace_count")
+  timeTakenSeconds Float         @map("time_taken_seconds")
+  completedAt      DateTime      @default(now()) @map("completed_at")
+
+  logicAttempt TypingLogicAttempt?
+
+  @@index([userId, examId])
+  @@index([examId, netSpeedWpm])
+  @@map("typing_attempts")
+}
+
+// Question bank for the "Typing Speed & Logic" dual-mode module — a
+// rapid-fire aptitude/reasoning quiz a candidate takes immediately after a
+// timed typing passage. Bilingual like Question.content: `prompt` is
+// { "en": "...", "hi": "..." }, `options` is { "en": ["...", ...], "hi":
+// ["...", ...] } with matching order/length per language.
+model TypingLogicQuestion {
+  id           String     @id @default(cuid())
+  prompt       Json
+  options      Json
+  correctIndex Int        @map("correct_index")
+  topic        String
+  difficulty   Difficulty @default(MEDIUM)
+  isActive     Boolean    @default(true) @map("is_active")
+  createdAt    DateTime   @default(now()) @map("created_at")
+
+  @@index([isActive, topic])
+  @@map("typing_logic_questions")
+}
+
+// The logic-quiz result for one TypingAttempt — at most one per attempt
+// (a candidate either takes the dual-mode quiz right after submitting that
+// attempt, or doesn't; there's no separate standalone quiz entry point).
+model TypingLogicAttempt {
+  id                String        @id @default(cuid())
+  typingAttemptId   String        @unique @map("typing_attempt_id")
+  typingAttempt     TypingAttempt @relation(fields: [typingAttemptId], references: [id], onDelete: Cascade)
+  questionsAnswered Int           @map("questions_answered")
+  correctCount      Int           @map("correct_count")
+  avgResponseMs     Float         @map("avg_response_ms")
+  logicScore        Float         @map("logic_score")
+  createdAt         DateTime      @default(now()) @map("created_at")
+
+  @@map("typing_logic_attempts")
+}
+
+// A typing-test user's paywall state — see this section's own banner
+// comment for why it's separate from Subscription. One row per user; FREE
+// is the implicit default for anyone with no row at all (checked via
+// packages/engine/src/typingEntitlements.ts, not by relying on a row
+// always existing).
+model TypingSubscription {
+  id                String                 @id @default(cuid())
+  userId            String                 @unique @map("user_id")
+  user              User                   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  plan              TypingSubscriptionPlan @default(FREE)
+  status            SubscriptionStatus     @default(ACTIVE)
+  validUntil        DateTime?              @map("valid_until")
+  razorpayOrderId   String?                @map("razorpay_order_id")
+  razorpayPaymentId String?                @map("razorpay_payment_id")
+  amountPaid        Float                  @default(0) @map("amount_paid")
+  createdAt         DateTime               @default(now()) @map("created_at")
+
+  @@map("typing_subscriptions")
 }

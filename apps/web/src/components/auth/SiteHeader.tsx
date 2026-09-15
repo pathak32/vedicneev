@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import {
@@ -15,8 +15,11 @@ import { ChevronDown, GraduationCap, Globe, Sparkles } from "lucide-react";
 
 import { useActiveStudent } from "@/lib/auth/ActiveStudentContext";
 import { selectActiveAccount, useAuthStore } from "@/lib/auth/useAuthStore";
+import { vedicMindAiUrl } from "@/lib/ecosystem/vedicMindAi";
 import { SUPPORTED_LANGUAGES, useLanguageStore } from "@/lib/hooks/useLanguageStore";
 import { useT } from "@/lib/i18n/useT";
+import { institutePartnerUrl } from "@/lib/institute/instituteUrl";
+import { readInstitutePartnerFlagFromDocument } from "@/lib/institute/partnerFlag";
 import { BOARD_DATA, type BoardType } from "@/lib/marketing/examBoards";
 import { ExamDropdown } from "./ExamDropdown";
 import { PhoneAuthModal } from "./PhoneAuthModal";
@@ -85,6 +88,15 @@ export function SiteHeader() {
   const router = useRouter();
   const { hasHydrated, isAuthenticated } = useActiveStudent();
   const [authOpen, setAuthOpen] = useState(false);
+  // Read once on mount rather than via useState's lazy initializer — this
+  // runs during SSR too (where `document` doesn't exist), and
+  // readInstitutePartnerFlagFromDocument already returns false in that
+  // case, so starting at false and correcting on mount avoids a
+  // hydration-mismatch warning instead of risking one.
+  const [isInstitutePartner, setIsInstitutePartner] = useState(false);
+  useEffect(() => {
+    setIsInstitutePartner(readInstitutePartnerFlagFromDocument());
+  }, []);
   const t = useT();
 
   return (
@@ -107,6 +119,22 @@ export function SiteHeader() {
         <Link href="/practice" className="hover:text-foreground">
           {t("navFreePractice")}
         </Link>
+        <a
+          href={vedicMindAiUrl("/", "header_nav")}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-foreground"
+        >
+          {t("navVedicMindAi")}
+        </a>
+        <a
+          href={institutePartnerUrl(isInstitutePartner ? "/dashboard" : "/login", "header_nav")}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-foreground"
+        >
+          {t("navForInstitutes")}
+        </a>
         {isAuthenticated ? (
           <Link href="/dashboard" className="hover:text-foreground">
             {t("navDashboard")}
