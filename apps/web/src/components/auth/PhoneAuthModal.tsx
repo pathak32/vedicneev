@@ -12,7 +12,9 @@ import {
 import { Loader2, Phone, ShieldCheck } from "lucide-react";
 
 import { useAuthStore } from "@/lib/auth/useAuthStore";
-import { isSupabaseAuthConfigured } from "@vedicneev/auth";
+// Client component — see useAuthStore.ts's identical comment on why this
+// must be the client-safe subpath, not the bare "@vedicneev/auth" specifier.
+import { isSupabaseAuthConfigured } from "@vedicneev/auth/client";
 
 const RESEND_SECONDS = 30;
 

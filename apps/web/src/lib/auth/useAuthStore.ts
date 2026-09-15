@@ -2,7 +2,11 @@ import { create } from "zustand";
 import { createJSONStorage, persist } from "zustand/middleware";
 
 import { cameFromVedicMindAi } from "@/lib/ecosystem/attribution";
-import { isSupabaseAuthConfigured } from "@vedicneev/auth";
+// This file ends up in the browser bundle (it's a Zustand store used by
+// client components) — must import the client-safe subpath, never the
+// bare "@vedicneev/auth" specifier, which also pulls in supabaseServerClient.ts
+// (next/headers) and breaks the client build. See packages/auth/src/client.ts.
+import { isSupabaseAuthConfigured } from "@vedicneev/auth/client";
 
 import { sendOtp as mockSendOtp, verifyOtp as mockVerifyOtp } from "./mockAuthProvider";
 import { sendOtp as sendWhatsappOtp, verifyOtp as verifyWhatsappOtp } from "./whatsappOtpClient";

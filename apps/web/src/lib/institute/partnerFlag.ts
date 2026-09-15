@@ -21,7 +21,10 @@
  * so a flag set at institute login on omrtest.vedicneev.com is readable
  * back here on vedicneev.com.
  */
-import { getSupabaseCookieOptions } from "@vedicneev/auth";
+// This module is imported by SiteHeader.tsx, a client component — must
+// import the client-safe subpath, never the bare "@vedicneev/auth"
+// specifier. See packages/auth/src/client.ts.
+import { getSupabaseCookieOptions } from "@vedicneev/auth/client";
 
 export const INSTITUTE_FLAG_COOKIE = "vn_institute_admin";
 const ONE_YEAR_SECONDS = 60 * 60 * 24 * 365;
