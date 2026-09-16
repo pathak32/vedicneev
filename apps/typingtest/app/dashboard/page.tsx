@@ -42,7 +42,11 @@ export default async function DashboardPage() {
         <T k="dashboardTitle" />
       </h1>
 
-      <TargetExamBanner exams={activeExams} currentExam={candidateProfile?.targetExam ?? null} />
+      <TargetExamBanner
+        exams={activeExams}
+        currentExam={candidateProfile?.targetExam ?? null}
+        currentCustomName={candidateProfile?.customTargetExamName ?? null}
+      />
 
       <StreakBadge
         currentStreak={candidateProfile?.currentStreak ?? 0}

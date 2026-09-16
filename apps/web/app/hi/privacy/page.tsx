@@ -183,8 +183,8 @@ export default function PrivacyPolicyPageHindi() {
         <h2>10. शिकायत अधिकारी और हमसे संपर्क करें</h2>
         <p>यदि आपके पास इस नीति के बारे में प्रश्न हैं या आप अपने अधिकारों का प्रयोग करना चाहते हैं, तो हमारे शिकायत अधिकारी से संपर्क करें:</p>
         <ul>
-          <li>नाम: <strong>[प्रकाशन से पहले भरें]</strong></li>
-          <li>ईमेल: <strong>[प्रकाशन से पहले भरें]</strong></li>
+          <li>नाम: <strong>श्री रवि (Mr. Ravi)</strong></li>
+          <li>ईमेल: <strong>admin@vedicmindai.in</strong></li>
           <li>पंजीकृत पता: <strong>[प्रकाशन से पहले भरें]</strong></li>
         </ul>
         <p className="text-sm text-muted-foreground">

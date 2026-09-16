@@ -22,11 +22,16 @@ export interface TargetExamOption {
   organization: string;
 }
 
+const OTHER_VALUE = "__other__";
+const MAX_CUSTOM_NAME_LENGTH = 100;
+
 export interface TargetExamSelectorProps {
   open: boolean;
   onOpenChange: (open: boolean) => void;
   exams: TargetExamOption[];
   currentExamId: string | null;
+  /** Set only when the candidate previously typed a free-text exam instead of picking from the catalog. */
+  currentCustomName?: string | null;
 }
 
 /**
@@ -34,10 +39,19 @@ export interface TargetExamSelectorProps {
  * preparing for — the "professional exam intent" this product captures
  * instead of any K-12 grade level. Grouped by organization since the
  * catalog spans many issuing bodies (RRB, High Courts, UPSSSC, Police...).
+ * Includes an "Other" option with a free-text field for a candidate whose
+ * exam isn't in the catalog yet, or who just wants general practice.
  */
-export function TargetExamSelector({ open, onOpenChange, exams, currentExamId }: TargetExamSelectorProps) {
+export function TargetExamSelector({
+  open,
+  onOpenChange,
+  exams,
+  currentExamId,
+  currentCustomName,
+}: TargetExamSelectorProps) {
   const router = useRouter();
-  const [selected, setSelected] = useState(currentExamId ?? "");
+  const [selected, setSelected] = useState(currentExamId ?? (currentCustomName ? OTHER_VALUE : ""));
+  const [customName, setCustomName] = useState(currentCustomName ?? "");
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -51,6 +65,10 @@ export function TargetExamSelector({ open, onOpenChange, exams, currentExamId }:
     return [...byOrg.entries()].sort((a, b) => a[0].localeCompare(b[0]));
   }, [exams]);
 
+  const isOther = selected === OTHER_VALUE;
+  const trimmedCustomName = customName.trim();
+  const canSave = isOther ? trimmedCustomName.length > 0 && trimmedCustomName.length <= MAX_CUSTOM_NAME_LENGTH : Boolean(selected);
+
   async function handleSave() {
     setSaving(true);
     setError(null);
@@ -58,7 +76,11 @@ export function TargetExamSelector({ open, onOpenChange, exams, currentExamId }:
       const res = await fetch("/api/profile/target-exam", {
         method: "PATCH",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ targetExamId: selected || null }),
+        body: JSON.stringify(
+          isOther
+            ? { targetExamId: null, customTargetExamName: trimmedCustomName }
+            : { targetExamId: selected || null, customTargetExamName: null }
+        ),
       });
       if (!res.ok) {
         const data = await res.json().catch(() => null);
@@ -106,11 +128,36 @@ export function TargetExamSelector({ open, onOpenChange, exams, currentExamId }:
               ))}
             </div>
           ))}
+
+          <div className="flex flex-col gap-2">
+            <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">Not Listed?</p>
+            <label
+              className="flex cursor-pointer items-center gap-3 rounded-lg border border-border bg-card p-3 text-sm hover:bg-muted/40 has-[[data-state=checked]]:border-primary"
+            >
+              <RadioGroupItem
+                value={OTHER_VALUE}
+                className="h-4 w-4 shrink-0 rounded-full border border-input data-[state=checked]:border-primary data-[state=checked]:bg-primary"
+              />
+              <span className="text-foreground">Other — I'll type my own / just practicing generally</span>
+            </label>
+            {isOther ? (
+              <input
+                type="text"
+                value={customName}
+                onChange={(e) => setCustomName(e.target.value.slice(0, MAX_CUSTOM_NAME_LENGTH))}
+                placeholder="e.g. SSC CGL, or General practice"
+                maxLength={MAX_CUSTOM_NAME_LENGTH}
+                autoFocus
+                className="h-11 w-full rounded-md border border-input bg-background px-3 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                aria-label="Your target exam"
+              />
+            ) : null}
+          </div>
         </RadioGroup>
 
         {error ? <p className="text-sm text-destructive">{error}</p> : null}
 
-        <Button type="button" size="lg" className="w-full gap-2" disabled={saving || !selected} onClick={handleSave}>
+        <Button type="button" size="lg" className="w-full gap-2" disabled={saving || !canSave} onClick={handleSave}>
           {saving ? <Loader2 className="h-4 w-4 animate-spin" /> : null}
           Save Target Exam
         </Button>

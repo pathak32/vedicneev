@@ -1549,6 +1549,14 @@ model TypingCandidateProfile {
   targetExamId String?     @map("target_exam_id")
   targetExam   TypingExam? @relation(fields: [targetExamId], references: [id], onDelete: SetNull)
 
+  // Free-text target exam for a candidate whose exam isn't in the catalog
+  // yet (or who just wants general practice, not tied to a specific exam).
+  // Mutually exclusive with targetExamId — exactly one of the two is set,
+  // enforced by app/api/profile/target-exam/route.ts, the same
+  // one-FK-or-free-text-field-per-row convention TypingAttempt already
+  // uses for passageId vs customPassageText.
+  customTargetExamName String? @map("custom_target_exam_name")
+
   // Daily typing-practice streak — any TypingAttempt (catalog or custom)
   // bumps this, updated inline in app/api/attempts/route.ts right after the
   // attempt is persisted. lastAttemptDate is a calendar-day marker (not a

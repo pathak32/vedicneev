@@ -86,7 +86,7 @@ export default function PrivacyPolicyPage() {
 
         <h2>7. Contact Us</h2>
         <ul>
-          <li>Email: <strong>[Fill in before publishing]</strong></li>
+          <li>Email: <strong>admin@vedicmindai.in</strong></li>
         </ul>
         <p className="text-sm text-muted-foreground">
           This page should receive a legal review before publication, particularly for the placeholders above.

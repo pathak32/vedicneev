@@ -198,8 +198,8 @@ export default function PrivacyPolicyPage() {
           If you have questions about this Policy or wish to exercise your rights, contact our Grievance Officer:
         </p>
         <ul>
-          <li>Name: <strong>[Fill in before publishing]</strong></li>
-          <li>Email: <strong>[Fill in before publishing]</strong></li>
+          <li>Name: <strong>Mr. Ravi</strong></li>
+          <li>Email: <strong>admin@vedicmindai.in</strong></li>
           <li>Registered address: <strong>[Fill in before publishing]</strong></li>
         </ul>
         <p className="text-sm text-muted-foreground">

@@ -80,7 +80,7 @@ export default function PrivacyPolicyPageHindi() {
 
         <h2>7. हमसे संपर्क करें</h2>
         <ul>
-          <li>ईमेल: <strong>[प्रकाशन से पहले भरें]</strong></li>
+          <li>ईमेल: <strong>admin@vedicmindai.in</strong></li>
         </ul>
         <p className="text-sm text-muted-foreground">
           प्रकाशन से पहले इस पृष्ठ को कानूनी समीक्षा प्राप्त करनी चाहिए, विशेष रूप से ऊपर दिए गए प्लेसहोल्डर के लिए।

@@ -138,7 +138,7 @@ export default function TermsOfServicePageHindi() {
         <h2>11. शासकीय कानून</h2>
         <p>
           ये शर्तें भारत के कानूनों द्वारा शासित हैं। विवाद{" "}
-          <strong>[प्रकाशन से पहले अपना पंजीकृत क्षेत्राधिकार/शहर भरें]</strong> की अदालतों के अनन्य अधिकार क्षेत्र
+          <strong>लखनऊ (Lucknow)</strong> की अदालतों के अनन्य अधिकार क्षेत्र
           के अधीन होंगे।
         </p>
 
@@ -151,7 +151,7 @@ export default function TermsOfServicePageHindi() {
 
         <h2>13. हमसे संपर्क करें</h2>
         <p>
-          इन शर्तों के बारे में प्रश्न? हमसे <strong>[प्रकाशन से पहले सहायता/संपर्क ईमेल भरें]</strong> पर संपर्क करें।
+          इन शर्तों के बारे में प्रश्न? हमसे <strong>admin@vedicmindai.in</strong> पर संपर्क करें।
           हमारी <a href="/hi/privacy">गोपनीयता नीति</a> भी देखें।
         </p>
         <p className="text-sm text-muted-foreground">

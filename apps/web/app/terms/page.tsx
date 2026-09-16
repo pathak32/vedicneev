@@ -150,7 +150,7 @@ export default function TermsOfServicePage() {
         <h2>11. Governing Law</h2>
         <p>
           These Terms are governed by the laws of India. Disputes shall be subject to the exclusive jurisdiction of
-          the courts of <strong>[Fill in your registered jurisdiction/city before publishing]</strong>.
+          the courts of <strong>Lucknow</strong>.
         </p>
 
         <h2>12. Changes to These Terms</h2>
@@ -162,7 +162,7 @@ export default function TermsOfServicePage() {
 
         <h2>13. Contact Us</h2>
         <p>
-          Questions about these Terms? Contact us at <strong>[Fill in support/contact email before publishing]</strong>.
+          Questions about these Terms? Contact us at <strong>admin@vedicmindai.in</strong>.
           See also our <a href="/privacy">Privacy Policy</a>.
         </p>
         <p className="text-sm text-muted-foreground">

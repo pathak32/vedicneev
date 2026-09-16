@@ -81,12 +81,12 @@ export default function TermsPage() {
         <h2>8. Governing Law</h2>
         <p>
           These Terms are governed by the laws of India. Disputes are subject to the exclusive jurisdiction of the
-          courts of <strong>[Fill in your registered jurisdiction/city before publishing]</strong>.
+          courts of <strong>Lucknow</strong>.
         </p>
 
         <h2>9. Contact Us</h2>
         <p>
-          Questions about these Terms? Contact us at <strong>[Fill in support/contact email before publishing]</strong>.
+          Questions about these Terms? Contact us at <strong>admin@vedicmindai.in</strong>.
           See also our <a href="/privacy">Privacy Policy</a>.
         </p>
         <p className="text-sm text-muted-foreground">
