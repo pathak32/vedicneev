@@ -1,30 +1,23 @@
-import { notFound, redirect } from "next/navigation";
+import { redirect } from "next/navigation";
 import { prisma } from "@vedicneev/db";
-import { checkTypingPassageAccess, pickDailyPassage } from "@vedicneev/engine";
+import { checkTypingPassageAccess } from "@vedicneev/engine";
 import { Button, Card, CardContent, CardHeader, CardTitle } from "@vedicneev/ui";
 
 import { getAuthenticatedUserId } from "@/lib/supabase/server";
-import { TypingArena } from "@/components/typing/TypingArena";
+import { CustomPracticeFlow } from "@/components/typing/CustomPracticeFlow";
 
 export const dynamic = "force-dynamic";
 
-export default async function TypingTestPage({ params }: { params: { slug: string } }) {
+export default async function CustomPracticePage() {
   const userId = await getAuthenticatedUserId();
-  if (!userId) redirect(`/login?next=${encodeURIComponent(`/exams/${params.slug}/test`)}`);
-
-  const exam = await prisma.typingExam.findUnique({ where: { slug: params.slug } });
-  if (!exam || !exam.isActive) notFound();
-
-  const passages = await prisma.typingPassage.findMany({
-    where: { examId: exam.id, isActive: true },
-    orderBy: { createdAt: "asc" },
-  });
-  if (passages.length === 0) notFound();
+  if (!userId) redirect("/login?next=/practice/custom");
 
   const todayStart = new Date();
   todayStart.setHours(0, 0, 0, 0);
   const [subscription, freePassagesUsedToday] = await Promise.all([
     prisma.typingSubscription.findUnique({ where: { userId } }),
+    // Custom attempts share the same daily counter as catalog attempts —
+    // see app/api/attempts/route.ts's comment on why.
     prisma.typingAttempt.count({ where: { userId, completedAt: { gte: todayStart } } }),
   ]);
 
@@ -60,24 +53,5 @@ export default async function TypingTestPage({ params }: { params: { slug: strin
     );
   }
 
-  const passage = pickDailyPassage(passages)!;
-
-  const bestAttempt = await prisma.typingAttempt.findFirst({
-    where: { userId, passageId: passage.id },
-    orderBy: { netSpeedWpm: "desc" },
-    select: { netSpeedWpm: true },
-  });
-
-  return (
-    <TypingArena
-      examSlug={exam.slug}
-      attemptEndpoint="/api/attempts"
-      passageId={passage.id}
-      passageText={passage.content}
-      durationSeconds={exam.durationSeconds}
-      backspacePolicy={exam.backspacePolicy}
-      layout={exam.layout}
-      personalBestWpm={bestAttempt?.netSpeedWpm}
-    />
-  );
+  return <CustomPracticeFlow />;
 }

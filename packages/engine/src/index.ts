@@ -18,3 +18,6 @@ export * from "./sprintRanking";
 export * from "./typingEvaluation";
 export * from "./typingEntitlements";
 export * from "./typingRanking";
+export * from "./typingWhatsappScorecard";
+export * from "./typingWordDiff";
+export * from "./typingDailyPassage";

@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
-import { Button } from "@vedicneev/ui";
+import { Button, Switch } from "@vedicneev/ui";
 import { Loader2 } from "lucide-react";
 
 import { VirtualKeyboard } from "./VirtualKeyboard";
@@ -10,11 +10,21 @@ import { VirtualKeyboard } from "./VirtualKeyboard";
 export interface TypingArenaProps {
   examSlug: string;
   attemptEndpoint: string;
-  passageId: string;
+  /** Exactly one of passageId/customPassageText is provided by the page — catalog exams pass passageId, Custom Text Practice passes customPassageText directly. */
+  passageId?: string;
+  customPassageText?: string;
   passageText: string;
   durationSeconds: number;
   backspacePolicy: "DISABLED" | "ENABLED_WITH_PENALTY";
   layout: "QWERTY" | "INSCRIPT" | "REMINGTON";
+  /**
+   * Net WPM of the candidate's own best prior attempt on this exact
+   * passage, if any — drives the "ghost pace" bar. This is a constant-pace
+   * projection from that attempt's aggregate speed, not a keystroke replay
+   * (no per-keystroke timing is captured/stored anywhere in this app), so
+   * it's labeled "pace" rather than implying an exact race.
+   */
+  personalBestWpm?: number;
 }
 
 type CharState = "correct" | "incorrect" | "pending";
@@ -37,10 +47,12 @@ export function TypingArena({
   examSlug,
   attemptEndpoint,
   passageId,
+  customPassageText,
   passageText,
   durationSeconds,
   backspacePolicy,
   layout,
+  personalBestWpm,
 }: TypingArenaProps) {
   const router = useRouter();
   const [typed, setTyped] = useState("");
@@ -49,6 +61,7 @@ export function TypingArena({
   const [backspaceCount, setBackspaceCount] = useState(0);
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [showFingerGuide, setShowFingerGuide] = useState(false);
   const inputRef = useRef<HTMLTextAreaElement>(null);
   const submittedRef = useRef(false);
 
@@ -66,7 +79,7 @@ export function TypingArena({
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
-            passageId,
+            ...(passageId ? { passageId } : { customPassageText }),
             typedText: finalTyped,
             timeTakenSeconds,
             backspaceCount,
@@ -86,7 +99,7 @@ export function TypingArena({
         setSubmitting(false);
       }
     },
-    [attemptEndpoint, backspaceCount, durationSeconds, passageId, router, startedAt]
+    [attemptEndpoint, backspaceCount, customPassageText, durationSeconds, passageId, router, startedAt]
   );
 
   useEffect(() => {
@@ -118,23 +131,54 @@ export function TypingArena({
   const nextChar = typedChars.length < chars.length ? chars[typedChars.length]! : null;
   const progressPercent = Math.min(100, Math.round((typedChars.length / Math.max(chars.length, 1)) * 100));
 
+  // Cosmetic only — live feedback while typing. Final grading always comes
+  // from evaluateTypingAttempt server-side once the attempt is submitted.
+  const elapsedSeconds = startedAt ? (Date.now() - startedAt) / 1000 : 0;
+  const liveWpm = elapsedSeconds > 1 ? Math.round(typedChars.length / 5 / (elapsedSeconds / 60)) : 0;
+
+  // Ghost pace: where a candidate typing at a constant personalBestWpm
+  // would be by now, as a % of the passage — not a keystroke-accurate
+  // replay (see the personalBestWpm prop's own comment).
+  const ghostPercent =
+    personalBestWpm && personalBestWpm > 0
+      ? Math.min(100, Math.round((((personalBestWpm * 5 * (elapsedSeconds / 60)) / Math.max(chars.length, 1)) * 100)))
+      : null;
+
+  const isDevanagari = layout !== "QWERTY";
+
   return (
     <div className="mx-auto flex max-w-3xl flex-col gap-5 px-4 py-8">
       <div className="flex items-center justify-between rounded-lg border border-border bg-card px-4 py-3">
         <span className="text-sm text-muted-foreground">Exam: {examSlug}</span>
-        <span
-          className={`text-lg font-bold tabular-nums ${secondsLeft <= 30 ? "text-destructive" : "text-foreground"}`}
-        >
-          {String(Math.floor(secondsLeft / 60)).padStart(2, "0")}:{String(secondsLeft % 60).padStart(2, "0")}
-        </span>
+        <div className="flex items-center gap-4">
+          <span className="text-sm font-semibold tabular-nums text-foreground">{liveWpm} wpm</span>
+          <span
+            className={`text-lg font-bold tabular-nums ${secondsLeft <= 30 ? "text-destructive" : "text-foreground"}`}
+          >
+            {String(Math.floor(secondsLeft / 60)).padStart(2, "0")}:{String(secondsLeft % 60).padStart(2, "0")}
+          </span>
+        </div>
       </div>
 
-      <div className="h-1.5 w-full overflow-hidden rounded-full bg-muted">
+      <div className="relative h-1.5 w-full overflow-hidden rounded-full bg-muted">
         <div className="h-full bg-primary transition-all" style={{ width: `${progressPercent}%` }} />
+        {ghostPercent !== null ? (
+          <div
+            className="absolute top-0 h-full w-0.5 bg-foreground/60"
+            style={{ left: `${ghostPercent}%` }}
+            title={`Your best pace on this passage: ${personalBestWpm} wpm net`}
+          />
+        ) : null}
       </div>
+      {ghostPercent !== null ? (
+        <p className="-mt-3 text-xs text-muted-foreground">
+          Racing your best pace on this passage ({personalBestWpm} wpm net) — the marker above shows where that run
+          would be right now.
+        </p>
+      ) : null}
 
       <div
-        className="select-none rounded-lg border border-border bg-card p-5 text-lg leading-relaxed"
+        className={`select-none rounded-lg border border-border bg-card p-5 text-lg leading-relaxed ${isDevanagari ? "font-devanagari" : ""}`}
         onClick={() => inputRef.current?.focus()}
       >
         {chars.map((char, i) => {
@@ -157,7 +201,7 @@ export function TypingArena({
         onKeyDown={handleKeyDown}
         disabled={submitting || secondsLeft <= 0}
         rows={3}
-        className="w-full rounded-lg border border-input bg-background p-3 font-mono text-base focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+        className={`w-full rounded-lg border border-input bg-background p-3 text-base focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring ${isDevanagari ? "font-devanagari" : "font-mono"}`}
         placeholder="Start typing here — the timer starts on your first keystroke."
         aria-label="Typing input"
       />
@@ -168,7 +212,20 @@ export function TypingArena({
         <p className="text-sm text-muted-foreground">Backspaces used so far: {backspaceCount}</p>
       )}
 
-      {layout === "QWERTY" ? <VirtualKeyboard nextChar={nextChar} /> : null}
+      {layout === "QWERTY" ? (
+        <div className="flex flex-col items-center gap-2">
+          <label className="flex items-center gap-2 text-xs text-muted-foreground">
+            <Switch checked={showFingerGuide} onCheckedChange={setShowFingerGuide} />
+            Show finger guide
+          </label>
+          <VirtualKeyboard nextChar={nextChar} showFingerGuide={showFingerGuide} />
+        </div>
+      ) : (
+        <p className="text-center text-sm text-muted-foreground">
+          Switch your system input method to {layout === "INSCRIPT" ? "Hindi Inscript" : "Hindi Remington (Gail)"}{" "}
+          before you start typing — this exam is graded on that layout.
+        </p>
+      )}
 
       {error ? <p className="text-sm text-destructive">{error}</p> : null}
 

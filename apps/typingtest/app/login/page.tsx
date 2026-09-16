@@ -1,69 +1,68 @@
-"use client";
+import { redirect } from "next/navigation";
 
-import { Suspense } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
-import { Button } from "@vedicneev/ui";
-import { MessageCircle, RefreshCw } from "lucide-react";
+import { getAuthenticatedUserId } from "@/lib/supabase/server";
+import { LoginRedirectCard } from "@/components/auth/LoginRedirectCard";
 
-// Renders entirely from client-side search params — force dynamic so the
-// build never attempts to prerender a signed-out shell.
 export const dynamic = "force-dynamic";
+
+/**
+ * `next` is an attacker-controllable query param — unlike apps/web's own
+ * /login (which legitimately needs to redirect to an absolute URL on a
+ * sibling subdomain for the cross-app handoff, guarded by
+ * crossDomainRedirect.ts's allowlist), this page's `next` only ever needs
+ * to point somewhere within typingtest.vedicneev.com itself. Rejecting
+ * anything that isn't a same-app relative path — including a
+ * protocol-relative "//evil.example" a browser would still treat as
+ * off-site — closes what would otherwise be an open redirect straight out
+ * of a real, freshly-verified session.
+ */
+function safeLocalNext(value: string | undefined): string {
+  if (!value || !value.startsWith("/") || value.startsWith("//")) return "/dashboard";
+  return value;
+}
 
 /**
  * Sign-in for typingtest.vedicneev.com is a shared VedicNeev account, not a
  * separate system — the actual WhatsApp OTP flow lives only in apps/web
  * (src/lib/auth/whatsappOtpServer.ts + useAuthStore), and its session
  * cookie is shared across subdomains via NEXT_PUBLIC_COOKIE_DOMAIN (see
- * src/lib/supabase/env.ts). Rather than duplicate that OTP UI/logic here —
- * the same tension apps/omrtest's own login/page.tsx comment flags for
- * itself — this page sends the visitor to complete sign-in on apps/web,
- * then brings them back: once that finishes, the shared cookie already
- * covers this domain, so "Continue" below just re-checks and redirects.
+ * src/lib/supabase/env.ts).
+ *
+ * This is a Server Component specifically so the ".vedicneev.com" session
+ * cookie can be checked server-side (getAuthenticatedUserId, the same
+ * check every other protected page/route in this app already uses) BEFORE
+ * any login UI ever renders — a visitor who already has a valid shared
+ * session (e.g. signed in on vedicneev.com/omrtest.vedicneev.com earlier,
+ * or just finished the round trip below) is redirected straight to `next`
+ * with no flash of a login screen and no manual click required. This
+ * reuses the one authoritative check every other protected page/route in
+ * this app already relies on, rather than a second, parallel client-side
+ * mechanism (e.g. sniffing document.cookie for Supabase's cookie by name)
+ * that would have to independently parse/validate the session and could
+ * drift out of sync with the real check.
+ *
+ * For a genuinely signed-out visitor, LoginRedirectCard sends them to
+ * apps/web in the SAME tab, carrying an absolute `next` back to this exact
+ * domain/path plus `product=typing`. apps/web's own /login reads that
+ * `product` marker to skip its K-12 "Add a student profile" onboarding
+ * wizard entirely for this sign-in (see crossDomainRedirect.ts +
+ * app/login/page.tsx there) — a typing candidate is never a K-12
+ * parent/student — and once OTP verifies, it redirects the browser
+ * straight back to `next`. Landing back here re-runs this same
+ * server-side check, which now finds the session and completes the
+ * handoff automatically.
  */
-function LoginPageContent() {
-  const router = useRouter();
-  const searchParams = useSearchParams();
-  const next = searchParams.get("next") || "/dashboard";
+export default async function LoginPage({ searchParams }: { searchParams: { next?: string } }) {
+  const next = safeLocalNext(searchParams.next);
+
+  const userId = await getAuthenticatedUserId();
+  if (userId) redirect(next);
+
   const mainAppUrl = process.env.NEXT_PUBLIC_APP_URL || "https://vedicneev.com";
+  const typingAppUrl = process.env.NEXT_PUBLIC_TYPINGTEST_APP_URL || "https://typingtest.vedicneev.com";
 
-  return (
-    <div className="mx-auto flex min-h-[70vh] max-w-sm flex-col justify-center gap-6 px-4 py-12">
-      <div className="text-center">
-        <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-2xl bg-primary/10 text-primary">
-          <MessageCircle className="h-6 w-6" />
-        </div>
-        <h1 className="text-xl font-bold text-foreground">Sign in with your VedicNeev account</h1>
-        <p className="mt-1 text-sm text-muted-foreground">
-          One account works across VedicNeev — sign in with your mobile number over WhatsApp, then come back here.
-        </p>
-      </div>
+  const absoluteNext = `${typingAppUrl}${next}`;
+  const loginUrl = `${mainAppUrl}/login?product=typing&next=${encodeURIComponent(absoluteNext)}`;
 
-      <div className="flex flex-col gap-3 rounded-2xl border border-border bg-card p-5 shadow-sm">
-        <Button asChild size="lg" className="w-full gap-2">
-          <a href={`${mainAppUrl}/login`} target="_blank" rel="noopener noreferrer">
-            <MessageCircle className="h-4 w-4" />
-            Continue on vedicneev.com
-          </a>
-        </Button>
-        <Button
-          type="button"
-          variant="outline"
-          size="lg"
-          className="w-full gap-2"
-          onClick={() => router.replace(next)}
-        >
-          <RefreshCw className="h-4 w-4" />
-          I&apos;ve signed in — Continue
-        </Button>
-      </div>
-    </div>
-  );
-}
-
-export default function LoginPage() {
-  return (
-    <Suspense fallback={null}>
-      <LoginPageContent />
-    </Suspense>
-  );
+  return <LoginRedirectCard loginUrl={loginUrl} />;
 }

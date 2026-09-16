@@ -6,6 +6,7 @@ import { Button } from "@vedicneev/ui";
 import { Loader2, MessageCircle, Phone, ShieldCheck, Sparkles } from "lucide-react";
 
 import { selectActiveAccount, useAuthStore } from "@/lib/auth/useAuthStore";
+import { isCrossOrigin, resolveSafeNext } from "@/lib/auth/crossDomainRedirect";
 
 // Renders entirely from client-side store state — force dynamic so the
 // build never attempts to prerender a signed-out shell.
@@ -24,7 +25,15 @@ const RESEND_SECONDS = 30;
 function LoginPageContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const next = searchParams.get("next") || "/dashboard";
+  const origin = typeof window !== "undefined" ? window.location.origin : "https://vedicneev.com";
+  const next = resolveSafeNext(searchParams.get("next"), origin);
+  // Set by a sibling product (typingtest.vedicneev.com, ...) that links here
+  // for its own WhatsApp OTP sign-in — see apps/typingtest/app/login/page.tsx.
+  // Those candidates have no K-12 student profile and never should be routed
+  // through this app's own onboarding wizard; each product owns capturing
+  // its own kind of "who is this account for" intent (typingtest's dashboard
+  // already prompts for a target exam once the visitor lands there).
+  const isExternalProductIntent = searchParams.get("product") !== null;
 
   const [phone, setPhone] = useState("");
   const [otp, setOtp] = useState("");
@@ -56,9 +65,14 @@ function LoginPageContent() {
 
   // Already signed in (e.g. a bookmarked /login hit after a previous
   // session hydrates) — bounce straight to `next` instead of re-prompting.
+  // `next` may be an absolute cross-subdomain URL (see resolveSafeNext) —
+  // router.replace only handles same-app routes, so a real navigation is
+  // needed to actually leave this origin.
   useEffect(() => {
-    if (hasHydrated && isAuthenticated) router.replace(next);
-  }, [hasHydrated, isAuthenticated, next, router]);
+    if (!hasHydrated || !isAuthenticated) return;
+    if (isCrossOrigin(next, origin)) window.location.replace(next);
+    else router.replace(next);
+  }, [hasHydrated, isAuthenticated, next, origin, router]);
 
   async function handleSendOtp() {
     await requestOtp(phone);
@@ -72,14 +86,23 @@ function LoginPageContent() {
     setOtp("");
 
     // Mirrors SiteHeader's onAuthenticated routing: a brand-new account
-    // (no student profiles yet) goes through onboarding first, carrying
-    // `next` along so onboarding can hand off to the original destination.
+    // (no student profiles yet) goes through this app's own K-12 onboarding
+    // first, carrying `next` along so onboarding can hand off to the
+    // original destination. Skipped entirely for a sibling product's own
+    // sign-in (isExternalProductIntent) — those candidates aren't K-12
+    // parents/students at all, and the product they came from owns
+    // capturing its own onboarding intent (e.g. typingtest's dashboard
+    // prompts for a target exam once the visitor lands there).
     const account = selectActiveAccount(useAuthStore.getState());
-    if (!account || account.students.length === 0) {
+    const needsK12Onboarding = !isExternalProductIntent && (!account || account.students.length === 0);
+
+    if (needsK12Onboarding) {
       router.push(`/onboarding?next=${encodeURIComponent(next)}`);
-    } else {
-      router.push(next);
+      return;
     }
+
+    if (isCrossOrigin(next, origin)) window.location.href = next;
+    else router.push(next);
   }
 
   return (

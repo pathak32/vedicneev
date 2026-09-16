@@ -167,5 +167,16 @@ To deploy `apps/typingtest`:
    existing session via the anon key, so this Project has no need for that
    privileged secret. See `.env.example`'s "Typing Test Suite" section for
    the full list with explanations.
+5. To enable WhatsApp scorecard delivery on the results page, also add
+   `WHATSAPP_ACCESS_TOKEN` and `WHATSAPP_PHONE_NUMBER_ID` to **this**
+   Project — copy the same values already configured on `apps/web` (used
+   there for OTP delivery); these are not new secrets, just re-attaching
+   existing ones to the second Project. Delivery additionally requires a
+   `typing_scorecard_ready` WhatsApp message template to be created and
+   approved in Meta Business Manager (5-parameter body: exam name, net
+   speed, gross speed, accuracy, mistakes — see
+   `packages/engine/src/typingWhatsappScorecard.ts`); without an approved
+   template the send button just reports "not configured" rather than
+   failing loudly.
 
 The same recipe applies to `apps/omrtest` (swap the package name/domain).

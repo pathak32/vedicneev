@@ -1,6 +1,19 @@
 import type { Metadata } from "next";
+import { Noto_Sans_Devanagari } from "next/font/google";
 
 import "./globals.css";
+
+// Mangal (what government portals traditionally reference for Hindi) is a
+// proprietary OS-bundled font with no legitimate web-embeddable
+// distribution — Noto Sans Devanagari is the standard open substitute for
+// correct Devanagari glyph/matra rendering, which is what actually matters
+// for Inscript/Remington passages to display and print correctly.
+const notoSansDevanagari = Noto_Sans_Devanagari({
+  subsets: ["devanagari"],
+  weight: ["400", "600"],
+  variable: "--font-devanagari",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: {
@@ -13,7 +26,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" className={notoSansDevanagari.variable}>
       <body>
         <div className="flex min-h-screen flex-col">
           <header className="border-b border-border bg-card">

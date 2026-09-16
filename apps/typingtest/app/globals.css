@@ -92,3 +92,26 @@
 .type-char-cursor {
   border-left: 2px solid hsl(var(--primary));
 }
+
+/* Correct Devanagari glyph/matra rendering for Inscript/Remington passages
+   — see app/layout.tsx's comment on Noto Sans Devanagari vs Mangal. */
+.font-devanagari {
+  font-family: var(--font-devanagari), "Noto Sans Devanagari", sans-serif;
+}
+
+/* Sentence X-Ray word diff — see @vedicneev/engine's typingWordDiff.ts. */
+.word-diff-correct {
+  color: hsl(var(--success));
+}
+.word-diff-full {
+  color: hsl(var(--destructive-foreground));
+  background-color: hsl(var(--destructive) / 0.85);
+  border-radius: 3px;
+  padding: 0 2px;
+}
+.word-diff-half {
+  color: hsl(38 92% 20%);
+  background-color: hsl(45 93% 65% / 0.55);
+  border-radius: 3px;
+  padding: 0 2px;
+}

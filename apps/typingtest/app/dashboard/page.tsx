@@ -5,6 +5,10 @@ import { Card, CardContent, CardHeader, CardTitle } from "@vedicneev/ui";
 
 import { getAuthenticatedUserId } from "@/lib/supabase/server";
 import { localize } from "@/lib/localize";
+import { TargetExamBanner } from "@/components/profile/TargetExamBanner";
+import { StreakBadge } from "@/components/profile/StreakBadge";
+import { WeakKeyHeatmapCard } from "@/components/profile/WeakKeyHeatmapCard";
+import { PracticeModeSelector } from "@/components/PracticeModeSelector";
 
 export const dynamic = "force-dynamic";
 
@@ -12,12 +16,20 @@ export default async function DashboardPage() {
   const userId = await getAuthenticatedUserId();
   if (!userId) redirect("/login?next=/dashboard");
 
-  const attempts = await prisma.typingAttempt.findMany({
-    where: { userId },
-    include: { exam: true },
-    orderBy: { completedAt: "desc" },
-    take: 25,
-  });
+  const [attempts, candidateProfile, activeExams] = await Promise.all([
+    prisma.typingAttempt.findMany({
+      where: { userId },
+      include: { exam: true },
+      orderBy: { completedAt: "desc" },
+      take: 25,
+    }),
+    prisma.typingCandidateProfile.findUnique({ where: { userId }, include: { targetExam: true } }),
+    prisma.typingExam.findMany({
+      where: { isActive: true },
+      select: { id: true, name: true, organization: true },
+      orderBy: { organization: "asc" },
+    }),
+  ]);
 
   const bestNetSpeed = attempts.reduce((max, a) => Math.max(max, a.netSpeedWpm), 0);
   const avgAccuracy =
@@ -26,6 +38,15 @@ export default async function DashboardPage() {
   return (
     <div className="container flex flex-col gap-6 py-10">
       <h1 className="text-2xl font-bold text-foreground">Your Typing History</h1>
+
+      <TargetExamBanner exams={activeExams} currentExam={candidateProfile?.targetExam ?? null} />
+
+      <StreakBadge
+        currentStreak={candidateProfile?.currentStreak ?? 0}
+        longestStreak={candidateProfile?.longestStreak ?? 0}
+      />
+
+      <PracticeModeSelector />
 
       <div className="grid grid-cols-2 gap-4 sm:grid-cols-3">
         <Card>
@@ -48,6 +69,8 @@ export default async function DashboardPage() {
         </Card>
       </div>
 
+      <WeakKeyHeatmapCard />
+
       <Card>
         <CardHeader>
           <CardTitle className="text-base">Recent Attempts</CardTitle>
@@ -66,7 +89,9 @@ export default async function DashboardPage() {
                 className="flex items-center justify-between gap-4 p-4 text-sm hover:bg-muted/40"
               >
                 <div>
-                  <div className="font-medium text-foreground">{localize(attempt.exam.name)}</div>
+                  <div className="font-medium text-foreground">
+                    {attempt.exam ? localize(attempt.exam.name) : "Custom Text Practice"}
+                  </div>
                   <div className="text-muted-foreground">{attempt.completedAt.toLocaleString()}</div>
                 </div>
                 <div className="flex gap-4 text-right">

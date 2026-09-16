@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { prisma } from "@vedicneev/db";
+import { pickDailyPassage } from "@vedicneev/engine";
 import { Badge, Button, Card, CardContent, CardHeader, CardTitle } from "@vedicneev/ui";
 
 import { localize } from "@/lib/localize";
@@ -10,9 +11,14 @@ export const dynamic = "force-dynamic";
 export default async function ExamDetailPage({ params }: { params: { slug: string } }) {
   const exam = await prisma.typingExam.findUnique({
     where: { slug: params.slug },
-    include: { _count: { select: { passages: { where: { isActive: true } } } } },
+    include: {
+      _count: { select: { passages: { where: { isActive: true } } } },
+      passages: { where: { isActive: true }, select: { id: true, content: true }, orderBy: { createdAt: "asc" } },
+    },
   });
   if (!exam || !exam.isActive) notFound();
+
+  const todaysPassage = pickDailyPassage(exam.passages);
 
   return (
     <div className="container flex max-w-2xl flex-col gap-6 py-10">
@@ -56,6 +62,20 @@ export default async function ExamDetailPage({ params }: { params: { slug: strin
           </div>
         </CardContent>
       </Card>
+
+      {todaysPassage ? (
+        <Card>
+          <CardHeader>
+            <CardTitle className="flex items-center gap-2 text-base">
+              Today&apos;s Passage
+              <Badge variant="secondary">Rotates daily</Badge>
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <p className="line-clamp-3 text-sm text-muted-foreground">{todaysPassage.content}</p>
+          </CardContent>
+        </Card>
+      ) : null}
 
       {exam._count.passages > 0 ? (
         <Button asChild size="lg">

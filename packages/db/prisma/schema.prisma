@@ -274,6 +274,7 @@ model User {
   // bottom of this file for why these are their own model cluster.
   typingAttempts          TypingAttempt[]
   typingSubscription      TypingSubscription?
+  typingCandidateProfile  TypingCandidateProfile?
 
   @@index([parentId])
   @@map("users")
@@ -1428,8 +1429,9 @@ model TypingExam {
   createdAt                   DateTime             @default(now()) @map("created_at")
   updatedAt                   DateTime             @updatedAt @map("updated_at")
 
-  passages TypingPassage[]
-  attempts TypingAttempt[]
+  passages          TypingPassage[]
+  attempts          TypingAttempt[]
+  candidateProfiles TypingCandidateProfile[]
 
   @@index([isActive])
   @@map("typing_exams")
@@ -1455,17 +1457,31 @@ model TypingPassage {
 }
 
 // One completed typing run. Graded by packages/engine/src/typingEvaluation.ts
-// from `typedText` vs the passage's `content` — the numeric fields here are
-// that function's output, persisted rather than recomputed on every read
-// (dashboard history + leaderboard both query these directly).
+// from `typedText` vs the target text — the numeric fields here are that
+// function's output, persisted rather than recomputed on every read
+// (dashboard history + leaderboard both query these directly). Either
+// (examId + passageId) is set for a catalog attempt, or customPassageText
+// is set for a Custom Text Practice attempt (see app/practice/custom) —
+// exactly one of the two, enforced by app/api/attempts/route.ts, the same
+// "one FK-shaped choice per row, enforced by the writer" convention
+// MistakeVault's questionId/pyqQuestionId split already uses. A custom
+// attempt has no examId, so it's automatically excluded from every
+// examId-scoped query (leaderboards, the ghost-race personal-best lookup)
+// without those queries needing to know custom mode exists.
 model TypingAttempt {
-  id               String        @id @default(cuid())
-  userId           String        @map("user_id")
-  user             User          @relation(fields: [userId], references: [id], onDelete: Cascade)
-  examId           String        @map("exam_id")
-  exam             TypingExam    @relation(fields: [examId], references: [id], onDelete: Restrict)
-  passageId        String        @map("passage_id")
-  passage          TypingPassage @relation(fields: [passageId], references: [id], onDelete: Restrict)
+  id     String @id @default(cuid())
+  userId String @map("user_id")
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  examId    String?        @map("exam_id")
+  exam      TypingExam?    @relation(fields: [examId], references: [id], onDelete: Restrict)
+  passageId String?        @map("passage_id")
+  passage   TypingPassage? @relation(fields: [passageId], references: [id], onDelete: Restrict)
+
+  // Set only for a Custom Text Practice attempt — the pasted-in text graded
+  // against, in place of a TypingPassage row.
+  customPassageText String? @map("custom_passage_text")
+
   typedText        String        @map("typed_text")
   grossSpeedWpm    Float         @map("gross_speed_wpm")
   netSpeedWpm      Float         @map("net_speed_wpm")
@@ -1517,6 +1533,34 @@ model TypingLogicAttempt {
   createdAt         DateTime      @default(now()) @map("created_at")
 
   @@map("typing_logic_attempts")
+}
+
+// One row per typing candidate who has declared an active target exam —
+// separate from TypingSubscription below (billing-only, see that model's
+// own banner comment) since a candidate can switch their prep focus
+// freely and for free, independent of plan. Absence of a row simply means
+// "no target chosen yet" (the dashboard prompts the selector), matching
+// TypingSubscription's own "no row = FREE" convention.
+model TypingCandidateProfile {
+  id     String @id @default(cuid())
+  userId String @unique @map("user_id")
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  targetExamId String?     @map("target_exam_id")
+  targetExam   TypingExam? @relation(fields: [targetExamId], references: [id], onDelete: SetNull)
+
+  // Daily typing-practice streak — any TypingAttempt (catalog or custom)
+  // bumps this, updated inline in app/api/attempts/route.ts right after the
+  // attempt is persisted. lastAttemptDate is a calendar-day marker (not a
+  // precise timestamp) purely so "same day again" doesn't double-count.
+  currentStreak   Int       @default(0) @map("current_streak")
+  longestStreak   Int       @default(0) @map("longest_streak")
+  lastAttemptDate DateTime? @map("last_attempt_date")
+
+  updatedAt DateTime @updatedAt @map("updated_at")
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@map("typing_candidate_profiles")
 }
 
 // A typing-test user's paywall state — see this section's own banner

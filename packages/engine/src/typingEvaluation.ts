@@ -25,7 +25,7 @@ function tokenize(text: string): string[] {
   return text.trim().split(/\s+/).filter(Boolean);
 }
 
-function normalizeForComparison(word: string): string {
+export function normalizeForComparison(word: string): string {
   return word.toLowerCase().replace(PUNCTUATION_PATTERN, "");
 }
 
@@ -37,8 +37,12 @@ function round2(value: number): number {
   return Math.round(value * 100) / 100;
 }
 
-/** Longest-common-subsequence backbone of exact-match words, as aligned (targetIndex, typedIndex) pairs in increasing order. */
-function computeExactMatches(target: string[], typed: string[]): Array<[number, number]> {
+export function tokenizeTypingText(text: string): string[] {
+  return tokenize(text);
+}
+
+/** Longest-common-subsequence backbone of exact-match words, as aligned (targetIndex, typedIndex) pairs in increasing order. Exported for typingWordDiff.ts, which needs the same alignment to annotate individual words rather than just count mistakes. */
+export function computeExactMatches(target: string[], typed: string[]): Array<[number, number]> {
   const n = target.length;
   const m = typed.length;
   const dp: Uint32Array[] = Array.from({ length: n + 1 }, () => new Uint32Array(m + 1));
