@@ -9,6 +9,7 @@ import { TargetExamBanner } from "@/components/profile/TargetExamBanner";
 import { StreakBadge } from "@/components/profile/StreakBadge";
 import { WeakKeyHeatmapCard } from "@/components/profile/WeakKeyHeatmapCard";
 import { PracticeModeSelector } from "@/components/PracticeModeSelector";
+import { T } from "@/components/T";
 
 export const dynamic = "force-dynamic";
 
@@ -37,7 +38,9 @@ export default async function DashboardPage() {
 
   return (
     <div className="container flex flex-col gap-6 py-10">
-      <h1 className="text-2xl font-bold text-foreground">Your Typing History</h1>
+      <h1 className="text-2xl font-bold text-foreground">
+        <T k="dashboardTitle" />
+      </h1>
 
       <TargetExamBanner exams={activeExams} currentExam={candidateProfile?.targetExam ?? null} />
 
@@ -52,19 +55,25 @@ export default async function DashboardPage() {
         <Card>
           <CardContent className="p-4">
             <div className="text-2xl font-bold text-foreground">{attempts.length}</div>
-            <div className="text-sm text-muted-foreground">Attempts</div>
+            <div className="text-sm text-muted-foreground">
+              <T k="dashboardAttempts" />
+            </div>
           </CardContent>
         </Card>
         <Card>
           <CardContent className="p-4">
             <div className="text-2xl font-bold text-foreground">{Math.round(bestNetSpeed)} wpm</div>
-            <div className="text-sm text-muted-foreground">Best Net Speed</div>
+            <div className="text-sm text-muted-foreground">
+              <T k="dashboardBestSpeed" />
+            </div>
           </CardContent>
         </Card>
         <Card>
           <CardContent className="p-4">
             <div className="text-2xl font-bold text-foreground">{Math.round(avgAccuracy)}%</div>
-            <div className="text-sm text-muted-foreground">Average Accuracy</div>
+            <div className="text-sm text-muted-foreground">
+              <T k="dashboardAvgAccuracy" />
+            </div>
           </CardContent>
         </Card>
       </div>
@@ -73,7 +82,9 @@ export default async function DashboardPage() {
 
       <Card>
         <CardHeader>
-          <CardTitle className="text-base">Recent Attempts</CardTitle>
+          <CardTitle className="text-base">
+            <T k="dashboardRecentAttempts" />
+          </CardTitle>
         </CardHeader>
         <CardContent className="flex flex-col divide-y divide-border p-0">
           {attempts.length === 0 ? (

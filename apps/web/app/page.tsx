@@ -6,6 +6,7 @@ import { Award, ClipboardList, Headphones, ArrowRight } from "lucide-react";
 import { Badge, Card, CardContent, CardHeader, CardTitle } from "@vedicneev/ui";
 
 import { ExamTracksHub } from "@/components/marketing/ExamTracksHub";
+import { FaqSection } from "@/components/marketing/FaqSection";
 import { FeatureGrid } from "@/components/marketing/FeatureGrid";
 import { FinalCta } from "@/components/marketing/FinalCta";
 import { HeroSection } from "@/components/marketing/HeroSection";
@@ -97,6 +98,7 @@ export default function HomePage() {
         <FeatureGrid />
         <TestimonialCarousel />
         <PricingTeaser />
+        <FaqSection />
       </div>
 
       <FinalCta />

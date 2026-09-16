@@ -830,6 +830,108 @@ export const DICTIONARY = {
     ta: "← அம்சங்களுக்குத் திரும்பு",
     gu: "← ફીચર્સ પર પાછા જાઓ",
   },
+
+  // Homepage FAQ teaser — en/hi are real translations; mr/bn/ta/gu carry
+  // the English text for now (same "guaranteed in English, added
+  // incrementally elsewhere" convention already disclosed on /terms for
+  // question content), consistent with this dictionary's own stated policy
+  // of extending incrementally rather than blocking on full coverage.
+  faqSectionTitle: {
+    en: "Frequently Asked Questions",
+    hi: "अक्सर पूछे जाने वाले प्रश्न",
+    mr: "Frequently Asked Questions",
+    bn: "Frequently Asked Questions",
+    ta: "Frequently Asked Questions",
+    gu: "Frequently Asked Questions",
+  },
+  faqSectionSeeMore: {
+    en: "See all FAQs",
+    hi: "सभी सामान्य प्रश्न देखें",
+    mr: "See all FAQs",
+    bn: "See all FAQs",
+    ta: "See all FAQs",
+    gu: "See all FAQs",
+  },
+  faqQLanguages: {
+    en: "Which languages are supported?",
+    hi: "कौन सी भाषाएँ समर्थित हैं?",
+    mr: "Which languages are supported?",
+    bn: "Which languages are supported?",
+    ta: "Which languages are supported?",
+    gu: "Which languages are supported?",
+  },
+  faqALanguages: {
+    en: "English, Hindi, Marathi, Bengali, and Tamil. You can switch languages at any point during a mock test without losing your progress, timer, or answers.",
+    hi: "अंग्रेज़ी, हिंदी, मराठी, बंगाली, और तमिल। आप मॉक टेस्ट के दौरान किसी भी समय अपनी प्रगति, टाइमर, या उत्तर खोए बिना भाषा बदल सकते हैं।",
+    mr: "English, Hindi, Marathi, Bengali, and Tamil. You can switch languages at any point during a mock test without losing your progress, timer, or answers.",
+    bn: "English, Hindi, Marathi, Bengali, and Tamil. You can switch languages at any point during a mock test without losing your progress, timer, or answers.",
+    ta: "English, Hindi, Marathi, Bengali, and Tamil. You can switch languages at any point during a mock test without losing your progress, timer, or answers.",
+    gu: "English, Hindi, Marathi, Bengali, and Tamil. You can switch languages at any point during a mock test without losing your progress, timer, or answers.",
+  },
+  faqQFree: {
+    en: "Is there a free way to try Vedic Neev?",
+    hi: "क्या वेदिक नींव को निःशुल्क आज़माने का कोई तरीका है?",
+    mr: "Is there a free way to try Vedic Neev?",
+    bn: "Is there a free way to try Vedic Neev?",
+    ta: "Is there a free way to try Vedic Neev?",
+    gu: "Is there a free way to try Vedic Neev?",
+  },
+  faqAFree: {
+    en: "Yes — the Free Explorer tier includes one full-length mock test and a basic score summary at no cost, so you can try the platform before subscribing.",
+    hi: "हाँ — Free Explorer स्तर में एक पूर्ण-लंबाई मॉक टेस्ट और एक बुनियादी स्कोर सारांश निःशुल्क शामिल है, ताकि आप सदस्यता लेने से पहले मंच आज़मा सकें।",
+    mr: "Yes — the Free Explorer tier includes one full-length mock test and a basic score summary at no cost, so you can try the platform before subscribing.",
+    bn: "Yes — the Free Explorer tier includes one full-length mock test and a basic score summary at no cost, so you can try the platform before subscribing.",
+    ta: "Yes — the Free Explorer tier includes one full-length mock test and a basic score summary at no cost, so you can try the platform before subscribing.",
+    gu: "Yes — the Free Explorer tier includes one full-length mock test and a basic score summary at no cost, so you can try the platform before subscribing.",
+  },
+  faqQWhatsapp: {
+    en: "How do I sign in with WhatsApp?",
+    hi: "मैं व्हाट्सएप से साइन इन कैसे करूँ?",
+    mr: "How do I sign in with WhatsApp?",
+    bn: "How do I sign in with WhatsApp?",
+    ta: "How do I sign in with WhatsApp?",
+    gu: "How do I sign in with WhatsApp?",
+  },
+  faqAWhatsapp: {
+    en: "Tap \"Sign In,\" enter your 10-digit mobile number, and we'll send a 6-digit one-time code to that number on WhatsApp — no password needed.",
+    hi: "\"साइन इन\" पर टैप करें, अपना 10-अंकों का मोबाइल नंबर दर्ज करें, और हम उस नंबर पर व्हाट्सएप पर एक 6-अंकों का वन-टाइम कोड भेजेंगे — किसी पासवर्ड की आवश्यकता नहीं।",
+    mr: "Tap \"Sign In,\" enter your 10-digit mobile number, and we'll send a 6-digit one-time code to that number on WhatsApp — no password needed.",
+    bn: "Tap \"Sign In,\" enter your 10-digit mobile number, and we'll send a 6-digit one-time code to that number on WhatsApp — no password needed.",
+    ta: "Tap \"Sign In,\" enter your 10-digit mobile number, and we'll send a 6-digit one-time code to that number on WhatsApp — no password needed.",
+    gu: "Tap \"Sign In,\" enter your 10-digit mobile number, and we'll send a 6-digit one-time code to that number on WhatsApp — no password needed.",
+  },
+  faqQNegativeMarking: {
+    en: "Is negative marking used in these mock tests?",
+    hi: "क्या इन मॉक टेस्ट में नकारात्मक अंकन का उपयोग किया जाता है?",
+    mr: "Is negative marking used in these mock tests?",
+    bn: "Is negative marking used in these mock tests?",
+    ta: "Is negative marking used in these mock tests?",
+    gu: "Is negative marking used in these mock tests?",
+  },
+  faqANegativeMarking: {
+    en: "No — none of the JNVST, AISSEE, or RMS Class 6 patterns use negative marking, so neither do Vedic Neev's mock tests built to those patterns.",
+    hi: "नहीं — JNVST, AISSEE, या RMS कक्षा 6 पैटर्न में से कोई भी नकारात्मक अंकन का उपयोग नहीं करता, इसलिए उन पैटर्न पर बने वेदिक नींव के मॉक टेस्ट भी नहीं करते।",
+    mr: "No — none of the JNVST, AISSEE, or RMS Class 6 patterns use negative marking, so neither do Vedic Neev's mock tests built to those patterns.",
+    bn: "No — none of the JNVST, AISSEE, or RMS Class 6 patterns use negative marking, so neither do Vedic Neev's mock tests built to those patterns.",
+    ta: "No — none of the JNVST, AISSEE, or RMS Class 6 patterns use negative marking, so neither do Vedic Neev's mock tests built to those patterns.",
+    gu: "No — none of the JNVST, AISSEE, or RMS Class 6 patterns use negative marking, so neither do Vedic Neev's mock tests built to those patterns.",
+  },
+  faqQSiblings: {
+    en: "Can one WhatsApp number manage more than one child's profile?",
+    hi: "क्या एक व्हाट्सएप नंबर एक से अधिक बच्चे की प्रोफ़ाइल प्रबंधित कर सकता है?",
+    mr: "Can one WhatsApp number manage more than one child's profile?",
+    bn: "Can one WhatsApp number manage more than one child's profile?",
+    ta: "Can one WhatsApp number manage more than one child's profile?",
+    gu: "Can one WhatsApp number manage more than one child's profile?",
+  },
+  faqASiblings: {
+    en: "Yes — a single parent account can add multiple student profiles (siblings), each with their own exam target, class, and language preference.",
+    hi: "हाँ — एक अभिभावक खाता कई छात्र प्रोफ़ाइल (भाई-बहन) जोड़ सकता है, प्रत्येक का अपना परीक्षा लक्ष्य, कक्षा, और भाषा वरीयता होती है।",
+    mr: "Yes — a single parent account can add multiple student profiles (siblings), each with their own exam target, class, and language preference.",
+    bn: "Yes — a single parent account can add multiple student profiles (siblings), each with their own exam target, class, and language preference.",
+    ta: "Yes — a single parent account can add multiple student profiles (siblings), each with their own exam target, class, and language preference.",
+    gu: "Yes — a single parent account can add multiple student profiles (siblings), each with their own exam target, class, and language preference.",
+  },
 } as const satisfies Record<string, Entry>;
 
 export type DictionaryKey = keyof typeof DICTIONARY;

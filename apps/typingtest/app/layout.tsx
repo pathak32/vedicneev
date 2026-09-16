@@ -3,6 +3,9 @@ import { Noto_Sans_Devanagari } from "next/font/google";
 
 import "./globals.css";
 
+import { SiteHeader } from "@/components/SiteHeader";
+import { SiteFooter } from "@/components/SiteFooter";
+
 // Mangal (what government portals traditionally reference for Hindi) is a
 // proprietary OS-bundled font with no legitimate web-embeddable
 // distribution — Noto Sans Devanagari is the standard open substitute for
@@ -29,25 +32,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className={notoSansDevanagari.variable}>
       <body>
         <div className="flex min-h-screen flex-col">
-          <header className="border-b border-border bg-card">
-            <div className="container flex h-16 items-center justify-between">
-              <a href="/" className="text-lg font-bold text-foreground">
-                VedicNeev <span className="text-primary">Typing Test</span>
-              </a>
-              <nav className="flex items-center gap-4 text-sm font-medium text-muted-foreground">
-                <a href="/dashboard" className="hover:text-foreground">
-                  Dashboard
-                </a>
-                <a href="/login" className="hover:text-foreground">
-                  Sign in
-                </a>
-              </nav>
-            </div>
-          </header>
+          <SiteHeader />
           <main className="flex-1">{children}</main>
-          <footer className="border-t border-border py-6 text-center text-sm text-muted-foreground">
-            A VedicNeev product — government-exam typing practice, bilingual (English/Hindi).
-          </footer>
+          <SiteFooter />
         </div>
       </body>
     </html>

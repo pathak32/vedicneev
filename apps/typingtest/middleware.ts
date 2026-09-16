@@ -8,7 +8,10 @@ import { getSupabaseCookieOptions, getSupabasePublicConfig } from "@/lib/supabas
 // browsable by a signed-out visitor so freemium/paid intent is obvious
 // before anyone is forced through a login wall. Only starting/submitting a
 // test, the dashboard, and the leaderboard require a session.
-const PUBLIC_PATH_PREFIXES = ["/login", "/exams"];
+// "/hi" covers every Hindi-URL twin (blog/faq/legal) under one prefix
+// rather than listing each pair individually — none of those pages need
+// auth, matching their English counterparts below.
+const PUBLIC_PATH_PREFIXES = ["/login", "/exams", "/blog", "/faq", "/privacy", "/terms", "/disclaimer", "/hi"];
 const PUBLIC_EXACT_PATHS = new Set(["/"]);
 
 function isPublicPath(pathname: string): boolean {

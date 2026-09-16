@@ -7,7 +7,7 @@ const description =
 export const metadata: Metadata = {
   title,
   description,
-  alternates: { canonical: "/privacy" },
+  alternates: { canonical: "/privacy", languages: { en: "/privacy", hi: "/hi/privacy" } },
   openGraph: { title, description, url: "/privacy" },
   twitter: { title, description },
 };

@@ -1563,6 +1563,31 @@ model TypingCandidateProfile {
   @@map("typing_candidate_profiles")
 }
 
+// typingtest.vedicneev.com's own blog — deliberately separate from
+// apps/web's BlogPost (English-only, K-8-topic) rather than adding a
+// language field there: different content domain, different app, and
+// bilingual from day one via the same flat {en,hi} Json convention every
+// other bilingual field in this schema already uses. Reuses
+// BlogPostStatus rather than a duplicate enum.
+model TypingBlogPost {
+  id      String @id @default(cuid())
+  slug    String @unique
+  title   Json // { en, hi }
+  excerpt Json // { en, hi }
+  content Json // { en, hi } — Markdown, rendered to HTML at request time
+
+  category String
+
+  status      BlogPostStatus @default(PUBLISHED)
+  publishedAt DateTime?      @map("published_at")
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@index([status, publishedAt])
+  @@map("typing_blog_posts")
+}
+
 // A typing-test user's paywall state — see this section's own banner
 // comment for why it's separate from Subscription. One row per user; FREE
 // is the implicit default for anyone with no row at all (checked via
