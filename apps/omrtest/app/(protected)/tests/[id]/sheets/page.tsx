@@ -34,6 +34,9 @@ export default async function TestSheetsPage({ params }: { params: { id: string 
           {testBatch.answerKey ? "Edit answer key" : "Set answer key"}
         </a>
       </p>
+      <p>
+        <a href={`/tests/${testBatch.id}/upload`}>Upload scanned sheets</a>
+      </p>
     </main>
   );
 }
