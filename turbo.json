@@ -15,18 +15,30 @@
       ]
     },
     "@vedicneev/db#build": {
+      // A package-specific task entry (e.g. "@vedicneev/db#build") REPLACES
+      // the general "build" task's config for that package — it does not
+      // merge with it, so dependsOn must be restated here or it silently
+      // resets to []. `turbo run build --dry` confirmed this exact bug:
+      // @vedicneev/auth#build resolved to dependsOn: [] despite the general
+      // task declaring ["^build"], letting its tsc run concurrently with —
+      // and read a mid-write, incomplete — @vedicneev/db#build's
+      // `prisma generate` output on a cold Vercel build with no prior cache.
+      "dependsOn": ["^build"],
       "outputs": [
         "../../node_modules/@prisma/client/**",
         "../../node_modules/.prisma/client/**"
       ]
     },
     "@vedicneev/engine#build": {
+      "dependsOn": ["^build"],
       "outputs": []
     },
     "@vedicneev/auth#build": {
+      "dependsOn": ["^build"],
       "outputs": []
     },
     "@vedicneev/ui#build": {
+      "dependsOn": ["^build"],
       "outputs": []
     },
     "dev": {
