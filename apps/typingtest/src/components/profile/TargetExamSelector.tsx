@@ -32,6 +32,8 @@ export interface TargetExamSelectorProps {
   currentExamId: string | null;
   /** Set only when the candidate previously typed a free-text exam instead of picking from the catalog. */
   currentCustomName?: string | null;
+  /** Called with the saved values as soon as the PATCH succeeds, so the caller can update its display without waiting on router.refresh(). */
+  onSaved?: (targetExam: TargetExamOption | null, customTargetExamName: string | null) => void;
 }
 
 /**
@@ -48,6 +50,7 @@ export function TargetExamSelector({
   exams,
   currentExamId,
   currentCustomName,
+  onSaved,
 }: TargetExamSelectorProps) {
   const router = useRouter();
   const [selected, setSelected] = useState(currentExamId ?? (currentCustomName ? OTHER_VALUE : ""));
@@ -82,12 +85,13 @@ export function TargetExamSelector({
             : { targetExamId: selected || null, customTargetExamName: null }
         ),
       });
+      const data = await res.json().catch(() => null);
       if (!res.ok) {
-        const data = await res.json().catch(() => null);
         setError(data?.error || "Could not save your target exam.");
         setSaving(false);
         return;
       }
+      onSaved?.(data?.targetExam ?? null, data?.customTargetExamName ?? null);
       onOpenChange(false);
       router.refresh();
     } catch {

@@ -14,9 +14,19 @@ export interface TargetExamBannerProps {
   currentCustomName?: string | null;
 }
 
-/** Dashboard banner showing the candidate's active target exam, with a switcher. Auto-opens the selector once when no target exam has been chosen yet — this is the "capture intent" moment in place of any grade-level field. */
+/**
+ * Dashboard banner showing the candidate's active target exam, with a switcher. Auto-opens the
+ * selector once when no target exam has been chosen yet — this is the "capture intent" moment in
+ * place of any grade-level field.
+ *
+ * Tracks the displayed exam/custom-name in local state (seeded from props) rather than reading
+ * `currentExam`/`currentCustomName` directly, so a save updates the banner the instant the PATCH
+ * response comes back instead of waiting on the parent Server Component's `router.refresh()`.
+ */
 export function TargetExamBanner({ exams, currentExam, currentCustomName }: TargetExamBannerProps) {
-  const hasTarget = currentExam !== null || Boolean(currentCustomName);
+  const [displayedExam, setDisplayedExam] = useState(currentExam);
+  const [displayedCustomName, setDisplayedCustomName] = useState(currentCustomName ?? null);
+  const hasTarget = displayedExam !== null || Boolean(displayedCustomName);
   const [open, setOpen] = useState(!hasTarget && exams.length > 0);
 
   return (
@@ -27,7 +37,9 @@ export function TargetExamBanner({ exams, currentExam, currentCustomName }: Targ
           {hasTarget ? (
             <span className="text-foreground">
               Preparing for:{" "}
-              <span className="font-semibold">{currentExam ? localize(currentExam.name) : currentCustomName}</span>
+              <span className="font-semibold">
+                {displayedExam ? localize(displayedExam.name) : displayedCustomName}
+              </span>
             </span>
           ) : (
             <span className="text-muted-foreground">No target exam selected yet.</span>
@@ -42,8 +54,12 @@ export function TargetExamBanner({ exams, currentExam, currentCustomName }: Targ
         open={open}
         onOpenChange={setOpen}
         exams={exams}
-        currentExamId={currentExam?.id ?? null}
-        currentCustomName={currentCustomName}
+        currentExamId={displayedExam?.id ?? null}
+        currentCustomName={displayedCustomName}
+        onSaved={(exam, customName) => {
+          setDisplayedExam(exam);
+          setDisplayedCustomName(customName);
+        }}
       />
     </>
   );
