@@ -200,15 +200,18 @@ async function persistOmrUpload(params: {
       return { omrUploadId: upload.id, status: upload.status, reason: analysis.reason, rosterEntryId: analysis.rosterEntryId };
     }
 
-    // outcome === "MATCHED" from here on.
+    // outcome === "MATCHED" from here on. Every branch past this point
+    // persists detectedScans — the raw marks this sheet is scanned once
+    // (not re-decoded later) — so /api/tests/[id]/answer-key can grade a
+    // QUEUED row the moment a key is set, without touching the image again.
+    const detectedScans = analysis.scans as unknown as Prisma.InputJsonValue;
+
     if (!analysis.grading) {
       // Roster-matched and readable, but TestBatch.answerKey isn't set yet
       // (see that column's own comment) — held as QUEUED, nothing
-      // consumed. Re-uploading once the key is set is the only way to
-      // grade it today; there's no background re-grade job (out of scope
-      // here, no answer-key-upload UI exists yet either).
+      // consumed, until an admin sets the key via the answer-key route.
       const upload = await tx.omrUpload.create({
-        data: { testBatchId, imageUrl, imageHash, status: "QUEUED", rosterEntryId: analysis.rosterEntryId },
+        data: { testBatchId, imageUrl, imageHash, status: "QUEUED", rosterEntryId: analysis.rosterEntryId, detectedScans },
       });
       return { omrUploadId: upload.id, status: upload.status, rosterEntryId: analysis.rosterEntryId };
     }
@@ -249,7 +252,15 @@ async function persistOmrUpload(params: {
         const reason =
           "No scan credits remain this billing cycle — this sheet is held, ungraded, until the institute upgrades or the cycle renews.";
         const upload = await tx.omrUpload.create({
-          data: { testBatchId, imageUrl, imageHash, status: "QUEUED", rejectReason: reason, rosterEntryId: analysis.rosterEntryId },
+          data: {
+            testBatchId,
+            imageUrl,
+            imageHash,
+            status: "QUEUED",
+            rejectReason: reason,
+            rosterEntryId: analysis.rosterEntryId,
+            detectedScans,
+          },
         });
         return { omrUploadId: upload.id, status: upload.status, reason, rosterEntryId: analysis.rosterEntryId };
       }
@@ -262,6 +273,7 @@ async function persistOmrUpload(params: {
         imageHash,
         status: "GRADED",
         rosterEntryId: analysis.rosterEntryId,
+        detectedScans,
         gradingResult: analysis.grading as unknown as Prisma.InputJsonValue,
         creditConsumed: true,
       },

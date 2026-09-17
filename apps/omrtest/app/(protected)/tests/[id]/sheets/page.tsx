@@ -29,6 +29,11 @@ export default async function TestSheetsPage({ params }: { params: { id: string 
       <a href={`/api/tests/${testBatch.id}/sheets`} target="_blank" rel="noopener noreferrer">
         <button type="button">Download OMR Sheets ({testBatch.totalStudents})</button>
       </a>
+      <p>
+        <a href={`/tests/${testBatch.id}/answer-key`}>
+          {testBatch.answerKey ? "Edit answer key" : "Set answer key"}
+        </a>
+      </p>
     </main>
   );
 }

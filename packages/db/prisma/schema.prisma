@@ -1370,6 +1370,17 @@ model OmrUpload {
   imageHash      String                @map("image_hash")
   status         OmrUploadStatus       @default(QUEUED)
   rejectReason   String?               @map("reject_reason")
+  // Raw per-question marked-bubble reads (OmrQuestionScan[]), captured at
+  // analysis time for EVERY matched-and-readable sheet regardless of
+  // whether grading happened yet — this is what makes a QUEUED-for-no-
+  // answer-key-yet upload re-gradable later (see the answer-key route)
+  // without re-fetching and re-decoding the original image. Null for a
+  // sheet that never got past corner/token detection (REJECTED_UNREADABLE/
+  // ROSTER_MISMATCH/DUPLICATE) — there's nothing to store for those.
+  detectedScans  Json?                 @map("detected_scans")
+  // The scored outcome (packages/engine's OmrSheetEvaluationSummary), set
+  // only once status flips to GRADED — separate from detectedScans above
+  // because a QUEUED row legitimately has marks but no score yet.
   gradingResult  Json?                 @map("grading_result")
   creditConsumed Boolean               @default(false) @map("credit_consumed")
   createdAt      DateTime              @default(now()) @map("created_at")

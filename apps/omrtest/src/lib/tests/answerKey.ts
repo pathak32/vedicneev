@@ -31,3 +31,41 @@ export function parseStoredAnswerKey(raw: unknown): OmrAnswerKeyEntry[] | null {
   }
   return entries.length > 0 ? entries : null;
 }
+
+export type ParseCompactAnswerKeyResult = { ok: true; storedAnswerKey: StoredAnswerKey } | { ok: false; error: string };
+
+/**
+ * Parses the admin UI's fast-entry format — one letter per question, in
+ * order, e.g. "BDACB..." for questions 1-5 — into the same StoredAnswerKey
+ * shape the DB column holds. Deliberately requires EXACTLY `totalQuestions`
+ * characters (no blanks, no partial keys): evaluateOmrSheet
+ * (packages/engine/src/omrEvaluator.ts) throws on any scanned question
+ * missing an answer-key entry, and every scan always covers questions
+ * 1..totalQuestions (see analyzeOmrUpload.ts) — a partial key saved here
+ * would only surface as a hard grading crash on the next upload, not a
+ * clear validation message at save time.
+ */
+export function parseCompactAnswerKey(input: string, totalQuestions: number): ParseCompactAnswerKeyResult {
+  const normalized = input.trim().toUpperCase().replace(/[\s,]+/g, "");
+
+  if (normalized.length !== totalQuestions) {
+    return {
+      ok: false,
+      error: `Answer key must have exactly ${totalQuestions} letters (one per question) — got ${normalized.length}.`,
+    };
+  }
+
+  const storedAnswerKey: StoredAnswerKey = {};
+  for (let i = 0; i < normalized.length; i++) {
+    const letter = normalized[i]!;
+    if (!BUBBLE_OPTION_SET.has(letter)) {
+      return {
+        ok: false,
+        error: `Question ${i + 1}: "${letter}" isn't a valid option — use only A, B, C, or D.`,
+      };
+    }
+    storedAnswerKey[String(i + 1)] = letter as BubbleOption;
+  }
+
+  return { ok: true, storedAnswerKey };
+}
