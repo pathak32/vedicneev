@@ -1,12 +1,14 @@
 import { describe, expect, it } from "vitest";
 
-import type { Point } from "./omr";
+import type { OmrRollNumberDigitPosition, Point } from "./omr";
 import {
   applyHomography,
   computeHomography,
+  decodeDigitGrid,
   detectFiducialCorners,
   sampleDarkness,
   type GrayscaleImage,
+  type HomographyMatrix,
 } from "./omrScan";
 
 function makeBlankImage(width: number, height: number): GrayscaleImage {
@@ -79,6 +81,57 @@ describe("sampleDarkness", () => {
     const image = makeBlankImage(40, 40);
     paintSquare(image, { x: 20, y: 20 }, 6);
     expect(sampleDarkness(image, { x: 20, y: 20 }, 3)).toBeGreaterThan(0.95);
+  });
+});
+
+describe("decodeDigitGrid", () => {
+  const IDENTITY_HOMOGRAPHY: HomographyMatrix = [1, 0, 0, 0, 1, 0, 0, 0, 1];
+  const DIGIT_COUNT = 4;
+  const VALUE_ROW_SPACING = 20;
+  const DIGIT_COL_SPACING = 20;
+
+  /** A digitIndex/value grid laid out on a generous pixel spacing, matching the real spec's shape (one column per digit, 10 value rows). */
+  function buildGrid(): OmrRollNumberDigitPosition[] {
+    const grid: OmrRollNumberDigitPosition[] = [];
+    for (let d = 0; d < DIGIT_COUNT; d++) {
+      for (let v = 0; v <= 9; v++) {
+        grid.push({ digitIndex: d, value: v, x: 10 + d * DIGIT_COL_SPACING, y: 10 + v * VALUE_ROW_SPACING });
+      }
+    }
+    return grid;
+  }
+
+  it("reads a fully and unambiguously filled grid", () => {
+    const grid = buildGrid();
+    const width = 10 + DIGIT_COUNT * DIGIT_COL_SPACING;
+    const height = 10 + 10 * VALUE_ROW_SPACING;
+    const image = makeBlankImage(width, height);
+
+    const trueDigits = [0, 0, 4, 7];
+    trueDigits.forEach((value, digitIndex) => {
+      const cell = grid.find((c) => c.digitIndex === digitIndex && c.value === value)!;
+      paintSquare(image, cell, 5);
+    });
+
+    const result = decodeDigitGrid(image, IDENTITY_HOMOGRAPHY, grid, DIGIT_COUNT, 0.42);
+    expect(result).toEqual({ value: "0047", complete: true });
+  });
+
+  it("marks a digit ambiguous (and the whole result incomplete) when two bubbles in one column are filled", () => {
+    const grid = buildGrid();
+    const width = 10 + DIGIT_COUNT * DIGIT_COL_SPACING;
+    const height = 10 + 10 * VALUE_ROW_SPACING;
+    const image = makeBlankImage(width, height);
+
+    paintSquare(image, grid.find((c) => c.digitIndex === 0 && c.value === 1)!, 5);
+    paintSquare(image, grid.find((c) => c.digitIndex === 1 && c.value === 3)!, 5);
+    paintSquare(image, grid.find((c) => c.digitIndex === 1 && c.value === 8)!, 5); // second fill in digit 1's column
+    paintSquare(image, grid.find((c) => c.digitIndex === 2 && c.value === 9)!, 5);
+    // digit 3 left entirely blank — also ambiguous (zero bubbles filled).
+
+    const result = decodeDigitGrid(image, IDENTITY_HOMOGRAPHY, grid, DIGIT_COUNT, 0.42);
+    expect(result.value).toBe("1?9?");
+    expect(result.complete).toBe(false);
   });
 });
 

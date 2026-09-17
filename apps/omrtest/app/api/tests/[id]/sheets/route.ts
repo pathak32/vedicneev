@@ -1,9 +1,8 @@
 import { NextResponse } from "next/server";
 import { prisma } from "@vedicneev/db";
-import { generateOmrSheetSpec } from "@vedicneev/engine";
 
 import { getInstituteSession } from "@/lib/institute/session";
-import { SHEET_TOKEN_DIGITS } from "@/lib/tests/createTestBatch";
+import { buildInstituteOmrSheetSpec } from "@/lib/omr/instituteSheetSpec";
 import { renderInstituteOmrPrintHtml } from "@/lib/omr/renderInstituteOmrPrintHtml";
 
 // Reads roster entries fresh and stamps downloadedAt — never cache or
@@ -36,13 +35,7 @@ export async function GET(_request: Request, { params }: { params: { id: string 
     return NextResponse.json({ error: "Test batch not found." }, { status: 404 });
   }
 
-  const rollNumberDigits = Math.max(4, String(testBatch.totalStudents).length);
-  const spec = generateOmrSheetSpec({
-    examType: "OTHER",
-    totalQuestions: testBatch.totalQuestions,
-    rollNumberDigits,
-    sheetTokenDigits: SHEET_TOKEN_DIGITS,
-  });
+  const spec = buildInstituteOmrSheetSpec(testBatch);
 
   const html = renderInstituteOmrPrintHtml(
     spec,

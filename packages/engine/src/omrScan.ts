@@ -14,7 +14,7 @@
  * 4-point homography corrects for).
  */
 
-import type { Point } from "./omr";
+import type { OmrRollNumberDigitPosition, Point } from "./omr";
 
 /** Row-major 3×3 homography matrix (9 numbers, h[8] normalized to 1). */
 export type HomographyMatrix = number[];
@@ -191,4 +191,57 @@ export function detectFiducialCorners(
   if (confidence < minConfidence) return null;
 
   return { corners: [topLeft.point, topRight.point, bottomLeft.point, bottomRight.point], confidence };
+}
+
+export interface DigitGridDecodeResult {
+  /**
+   * One character per digit position, left to right (digitIndex 0..N-1) —
+   * e.g. "0047". A digit whose bubble couldn't be read unambiguously is "?"
+   * and also flips `complete` to false; callers (institute ingestion,
+   * roll-number reading) must treat a `complete: false` result as unusable
+   * for matching, not "close enough".
+   */
+  value: string;
+  /** False if any digit had zero, or more than one, bubble above threshold. */
+  complete: boolean;
+}
+
+/**
+ * Reads a full digit-bubble grid (OmrSheetSpec.rollNumberGrid or
+ * .sheetTokenGrid — same {digitIndex, value, x, y} shape either way) through
+ * an already-computed homography, using the identical per-bubble darkness
+ * sampling `sampleBubbleFillRatio` already uses for answer bubbles — same
+ * detection technique, just grouped by digit column instead of by question
+ * number. Exactly one bubble above `threshold` per column is a confident
+ * read; zero or multiple means that digit is ambiguous (a light pencil mark,
+ * a smudge, or a genuinely unfilled/double-filled bubble) and the whole
+ * result is marked incomplete rather than guessing.
+ */
+export function decodeDigitGrid(
+  image: GrayscaleImage,
+  homography: HomographyMatrix,
+  grid: OmrRollNumberDigitPosition[],
+  digitCount: number,
+  threshold: number
+): DigitGridDecodeResult {
+  const cellsByDigit = new Map<number, OmrRollNumberDigitPosition[]>();
+  for (const cell of grid) {
+    const list = cellsByDigit.get(cell.digitIndex) ?? [];
+    list.push(cell);
+    cellsByDigit.set(cell.digitIndex, list);
+  }
+
+  let complete = true;
+  const chars: string[] = [];
+  for (let digitIndex = 0; digitIndex < digitCount; digitIndex++) {
+    const cells = cellsByDigit.get(digitIndex) ?? [];
+    const filled = cells.filter((cell) => sampleBubbleFillRatio(image, homography, cell, 6) > threshold);
+    if (filled.length === 1) {
+      chars.push(String(filled[0]!.value));
+    } else {
+      chars.push("?");
+      complete = false;
+    }
+  }
+  return { value: chars.join(""), complete };
 }

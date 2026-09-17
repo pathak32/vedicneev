@@ -1336,7 +1336,10 @@ model TestBatchRosterEntry {
   // REJECTED_DUPLICATE rather than overwriting the first result.
   consumedAt     DateTime? @map("consumed_at")
 
-  omrUpload OmrUpload?
+  // 1:many now (see OmrUpload's own comment) — a rejected scan must be
+  // re-uploadable, so a roster entry can accumulate more than one attempt
+  // before (or instead of) a successful grade.
+  omrUploads OmrUpload[]
 
   @@unique([testBatchId, sequenceNumber])
   @@index([testBatchId])
@@ -1349,11 +1352,17 @@ model TestBatchRosterEntry {
 // REJECTED_* rows never consume a credit (see the ledger-write ordering
 // note above InstituteCreditLedger's writer in the grading service, once
 // built: credit-consumed row is written only after status flips to GRADED).
+// Deliberately allows MULTIPLE OmrUpload rows per roster entry (rosterEntryId
+// is indexed, not @unique) — a rejected scan (blurry photo, misread token)
+// must still be re-uploadable, so uniqueness can't live on the FK itself.
+// The actual "already graded" guarantee is TestBatchRosterEntry.consumedAt
+// (set only by the one upload that successfully grades), checked inside the
+// grading transaction — see apps/omrtest/src/lib/omr/gradeUpload.ts.
 model OmrUpload {
   id             String                @id @default(cuid())
   testBatchId    String                @map("test_batch_id")
   testBatch      TestBatch             @relation(fields: [testBatchId], references: [id], onDelete: Cascade)
-  rosterEntryId  String?               @unique @map("roster_entry_id")
+  rosterEntryId  String?               @map("roster_entry_id")
   rosterEntry    TestBatchRosterEntry? @relation(fields: [rosterEntryId], references: [id], onDelete: SetNull)
   imageUrl       String                @map("image_url")
   // Perceptual hash (not exact-byte hash) so a rescanned/re-photographed
@@ -1367,6 +1376,7 @@ model OmrUpload {
 
   @@unique([testBatchId, imageHash])
   @@index([testBatchId, status])
+  @@index([rosterEntryId])
   @@map("omr_uploads")
 }
 
@@ -1482,16 +1492,16 @@ model TypingAttempt {
   // against, in place of a TypingPassage row.
   customPassageText String? @map("custom_passage_text")
 
-  typedText        String        @map("typed_text")
-  grossSpeedWpm    Float         @map("gross_speed_wpm")
-  netSpeedWpm      Float         @map("net_speed_wpm")
-  accuracyPercent  Float         @map("accuracy_percent")
-  fullMistakes     Int           @map("full_mistakes")
-  halfMistakes     Int           @map("half_mistakes")
-  keyDepressions   Int           @map("key_depressions")
-  backspaceCount   Int           @default(0) @map("backspace_count")
-  timeTakenSeconds Float         @map("time_taken_seconds")
-  completedAt      DateTime      @default(now()) @map("completed_at")
+  typedText        String   @map("typed_text")
+  grossSpeedWpm    Float    @map("gross_speed_wpm")
+  netSpeedWpm      Float    @map("net_speed_wpm")
+  accuracyPercent  Float    @map("accuracy_percent")
+  fullMistakes     Int      @map("full_mistakes")
+  halfMistakes     Int      @map("half_mistakes")
+  keyDepressions   Int      @map("key_depressions")
+  backspaceCount   Int      @default(0) @map("backspace_count")
+  timeTakenSeconds Float    @map("time_taken_seconds")
+  completedAt      DateTime @default(now()) @map("completed_at")
 
   logicAttempt TypingLogicAttempt?
 
