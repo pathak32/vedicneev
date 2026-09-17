@@ -10,6 +10,10 @@ import { getAuthenticatedSupabaseUserId, getInstituteSession } from "@/lib/insti
  * the entire point of this page). Already-onboarded admins are bounced
  * straight to /dashboard instead of seeing this again.
  */
+// See app/(protected)/layout.tsx's note: reads the request's cookie jar,
+// never a candidate for static generation.
+export const dynamic = "force-dynamic";
+
 export default async function OnboardingPage() {
   const userId = await getAuthenticatedSupabaseUserId();
   if (!userId) redirect("/login");

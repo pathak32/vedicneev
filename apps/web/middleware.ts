@@ -1,5 +1,9 @@
 import { NextResponse, type NextRequest } from "next/server";
-import { refreshSupabaseSession } from "@vedicneev/auth";
+// Edge-Runtime-safe subpath — the bare "@vedicneev/auth" barrel also
+// re-exports Node-only code (otpCrypto's `crypto` import, Prisma via
+// resolveDbUser/whatsappOtp) that middleware.ts, always Edge-run, can't
+// load. See packages/auth/src/edge.ts.
+import { refreshSupabaseSession } from "@vedicneev/auth/edge";
 
 import { ADMIN_SESSION_COOKIE, isValidSessionToken } from "@/lib/admin/session";
 

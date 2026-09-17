@@ -11,7 +11,17 @@ import { getInstituteSession } from "@/lib/institute/session";
  * authenticated but not yet onboarded) is sent to /login rather than
  * /onboarding — a signed-in-but-unboarded visitor reaches /onboarding via
  * login/callback's own redirect, not by landing on a protected page first.
+ *
+ * force-dynamic: every route under here reads the request's cookie jar via
+ * getInstituteSession. Without this, `next build`'s static-generation pass
+ * tries to prerender these pages with no real request in scope —
+ * getInstituteSession then legitimately returns null (no cookies to read),
+ * which crashed dashboard/page.tsx's build (see that file's own fix) rather
+ * than this layout's redirect ever taking effect, since build-time
+ * prerendering doesn't carry a live request for redirect() to act on.
  */
+export const dynamic = "force-dynamic";
+
 export default async function ProtectedLayout({ children }: { children: React.ReactNode }) {
   const session = await getInstituteSession();
   if (!session) redirect("/login");

@@ -1,5 +1,7 @@
 import { NextResponse, type NextRequest } from "next/server";
-import { getSupabaseSessionForMiddleware } from "@vedicneev/auth";
+// Edge-Runtime-safe subpath — see apps/web/middleware.ts's identical note
+// and packages/auth/src/edge.ts.
+import { getSupabaseSessionForMiddleware } from "@vedicneev/auth/edge";
 
 const PUBLIC_PATHS = new Set(["/login"]);
 

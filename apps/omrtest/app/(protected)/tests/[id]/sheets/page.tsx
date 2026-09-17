@@ -3,6 +3,10 @@ import { prisma } from "@vedicneev/db";
 
 import { getInstituteSession } from "@/lib/institute/session";
 
+// Reads the request's cookie jar and does a live DB lookup keyed off the
+// route param — never a candidate for static generation.
+export const dynamic = "force-dynamic";
+
 export default async function TestSheetsPage({ params }: { params: { id: string } }) {
   // getInstituteSession() is guaranteed non-null here — this route lives
   // under app/(protected), whose layout already redirected away otherwise.

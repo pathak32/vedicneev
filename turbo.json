@@ -23,6 +23,9 @@
     "@vedicneev/engine#build": {
       "outputs": []
     },
+    "@vedicneev/auth#build": {
+      "outputs": []
+    },
     "@vedicneev/ui#build": {
       "outputs": []
     },
@@ -36,8 +39,14 @@
       ]
     },
     "type-check": {
+      // Both: dependency packages built (^build) AND this package's own
+      // build (plain "build") — a Next.js app's tsconfig.json includes
+      // .next/types/**/*.ts, generated only by that app's own `next build`;
+      // without the self-dependency, turbo can run type-check before that
+      // build finishes writing those files (TS6053: file not found).
       "dependsOn": [
-        "^build"
+        "^build",
+        "build"
       ]
     },
     "test": {
@@ -75,6 +84,8 @@
     "NEXT_PUBLIC_SUPABASE_URL",
     "NEXT_PUBLIC_SUPABASE_ANON_KEY",
     "SUPABASE_SERVICE_ROLE_KEY",
-    "NEXT_PUBLIC_TYPINGTEST_APP_URL"
+    "NEXT_PUBLIC_TYPINGTEST_APP_URL",
+    "NEXT_PUBLIC_COOKIE_DOMAIN",
+    "NEXT_PUBLIC_INSTITUTE_APP_URL"
   ]
 }
