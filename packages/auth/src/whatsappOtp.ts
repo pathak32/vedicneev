@@ -133,6 +133,13 @@ export async function sendWhatsAppOtp(phone: string): Promise<NextResponse> {
       // of forcing a round-trip through server logs to see it.
       const details = data?.error?.error_data?.details;
       const message = data?.error?.message ?? "WhatsApp API error.";
+      // error.message alone can be as generic as "Authentication Error" —
+      // type/code/error_subcode is what actually distinguishes an expired
+      // token from a permissions/scope problem. Logged raw (not returned to
+      // the client — code/subcode aren't meaningful to an end user) so this
+      // is diagnosable from Vercel's Runtime Logs on the next failure.
+      // eslint-disable-next-line no-console
+      console.error("[sendWhatsAppOtp] Graph API error:", JSON.stringify(data?.error ?? data));
       return NextResponse.json(
         { success: false, mock: false, error: details ? `${message} — ${details}` : message },
         { status: 502 }
