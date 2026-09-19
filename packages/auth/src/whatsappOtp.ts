@@ -126,8 +126,15 @@ export async function sendWhatsAppOtp(phone: string): Promise<NextResponse> {
     });
     const data = await response.json();
     if (!response.ok) {
+      // Meta's top-level error.message is often a generic category (e.g.
+      // "There's an issue with the parameters in your template") — the
+      // actually-actionable specifics (which parameter, what was expected)
+      // live in error.error_data.details, which this surfaces too instead
+      // of forcing a round-trip through server logs to see it.
+      const details = data?.error?.error_data?.details;
+      const message = data?.error?.message ?? "WhatsApp API error.";
       return NextResponse.json(
-        { success: false, mock: false, error: data?.error?.message ?? "WhatsApp API error." },
+        { success: false, mock: false, error: details ? `${message} — ${details}` : message },
         { status: 502 }
       );
     }
