@@ -3,7 +3,14 @@ import { NextResponse, type NextRequest } from "next/server";
 // and packages/auth/src/edge.ts.
 import { getSupabaseSessionForMiddleware } from "@vedicneev/auth/edge";
 
-const PUBLIC_PATHS = new Set(["/login"]);
+// /login itself, plus the two API routes that ARE the login mechanism —
+// an unauthenticated visitor must be able to reach these to become
+// authenticated at all. Missing this exemption sends an unauthenticated
+// POST to /api/auth/whatsapp/send-otp through a 307 redirect to /login,
+// which only handles GET — landing as a 405 "INVALID_REQUEST_METHOD"
+// instead of ever calling the OTP route, which is exactly what broke the
+// live login flow.
+const PUBLIC_PATHS = new Set(["/login", "/api/auth/whatsapp/send-otp", "/api/auth/whatsapp/verify-otp"]);
 
 /**
  * Edge-runtime gate for the whole app — mirrors apps/web/middleware.ts's
