@@ -1,6 +1,7 @@
 import { redirect } from "next/navigation";
 
 import { getAuthenticatedSupabaseUserId, getInstituteSession } from "@/lib/institute/session";
+import { OnboardingForm } from "@/components/OnboardingForm";
 
 /**
  * Reachable by an authenticated Supabase user who has no InstituteAdmin
@@ -24,7 +25,8 @@ export default async function OnboardingPage() {
   return (
     <main>
       <h1>Set up your institute</h1>
-      <p>Institute name, exam category, and branch details are collected here.</p>
+      <p>This takes a minute — you'll be scanning your first sheets right after.</p>
+      <OnboardingForm />
     </main>
   );
 }

@@ -1153,16 +1153,21 @@ enum OmrUploadStatus {
 }
 
 model Institute {
-  id         String        @id @default(cuid())
-  name       String
-  slug       String        @unique
-  tier       InstituteTier
+  id                  String        @id @default(cuid())
+  name                String
+  slug                String        @unique
+  tier                InstituteTier
+  // Free-text, not an enum — same rationale as TestBatch.examCategory: an
+  // institute's primary focus is unbounded and purely a reporting/branding
+  // label. Set once at onboarding; a given TestBatch can still carry its
+  // own, different examCategory later.
+  primaryExamCategory String?       @map("primary_exam_category")
   // Report-card white-labeling (Growth: toggle-able; Enterprise: always on
   // with no VedicNeev credit — that distinction is enforced in app code,
   // not the schema, off `tier` + `InstituteSubscription`).
-  logoUrl    String?       @map("logo_url")
-  brandColor String?       @map("brand_color")
-  createdAt  DateTime      @default(now()) @map("created_at")
+  logoUrl             String?       @map("logo_url")
+  brandColor          String?       @map("brand_color")
+  createdAt           DateTime      @default(now()) @map("created_at")
 
   branches     InstituteBranch[]
   admins       InstituteAdmin[]
