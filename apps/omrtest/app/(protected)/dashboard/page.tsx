@@ -1,8 +1,13 @@
+import Link from "next/link";
 import { redirect } from "next/navigation";
+import { FileSpreadsheet, PlusCircle, ScanLine, Wallet } from "lucide-react";
 import { prisma } from "@vedicneev/db";
 
 import { getInstituteSession } from "@/lib/institute/session";
 import { getInstituteCreditBalance } from "@/lib/institute/credits";
+import { Button, Card, CardContent } from "@vedicneev/ui";
+import { PageHeader } from "@/components/dashboard/PageHeader";
+import { StatusBadge } from "@/components/ui/StatusBadge";
 
 export default async function DashboardPage() {
   const session = await getInstituteSession();
@@ -33,56 +38,124 @@ export default async function DashboardPage() {
   const mostRecentBatch = testBatches[0];
 
   return (
-    <main>
-      <h1>{institute.name}</h1>
-      <p>Scan credit balance: {creditBalance}</p>
+    <>
+      <PageHeader
+        title={institute.name}
+        description="Everything you've scanned and graded, in one place."
+        actions={
+          <>
+            <Button asChild variant="outline">
+              <Link href="/tests/new">
+                <PlusCircle className="h-4 w-4" aria-hidden="true" />
+                Generate OMR Sheets
+              </Link>
+            </Button>
+            {mostRecentBatch ? (
+              <Button asChild>
+                <Link href={`/tests/${mostRecentBatch.id}/upload`}>
+                  <ScanLine className="h-4 w-4" aria-hidden="true" />
+                  Upload Scanned Sheets
+                </Link>
+              </Button>
+            ) : (
+              <Button disabled title="Create a test batch first">
+                <ScanLine className="h-4 w-4" aria-hidden="true" />
+                Upload Scanned Sheets
+              </Button>
+            )}
+          </>
+        }
+      />
 
-      <p>
-        <a href="/tests/new">
-          <button type="button">Generate OMR Sheets</button>
-        </a>{" "}
-        {mostRecentBatch ? (
-          <a href={`/tests/${mostRecentBatch.id}/upload`}>
-            <button type="button">Upload Scanned Sheets</button>
-          </a>
+      <div className="mb-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <Card className="border-slate-200">
+          <CardContent className="flex items-center gap-4 p-6">
+            <span className="flex h-11 w-11 items-center justify-center rounded-lg bg-brand-indigo/10 text-brand-indigo">
+              <Wallet className="h-5 w-5" aria-hidden="true" />
+            </span>
+            <div>
+              <p className="text-2xl font-bold text-slate-900">{creditBalance}</p>
+              <p className="text-sm text-slate-500">Scan credits remaining</p>
+            </div>
+          </CardContent>
+        </Card>
+        <Card className="border-slate-200">
+          <CardContent className="flex items-center gap-4 p-6">
+            <span className="flex h-11 w-11 items-center justify-center rounded-lg bg-brand-indigo/10 text-brand-indigo">
+              <FileSpreadsheet className="h-5 w-5" aria-hidden="true" />
+            </span>
+            <div>
+              <p className="text-2xl font-bold text-slate-900">{testBatches.length}</p>
+              <p className="text-sm text-slate-500">Test batches created</p>
+            </div>
+          </CardContent>
+        </Card>
+        <Card className="border-slate-200 sm:col-span-2 lg:col-span-1">
+          <CardContent className="flex items-center gap-4 p-6">
+            <span className="flex h-11 w-11 items-center justify-center rounded-lg bg-brand-indigo/10 text-brand-indigo">
+              <ScanLine className="h-5 w-5" aria-hidden="true" />
+            </span>
+            <div>
+              <p className="truncate text-2xl font-bold text-slate-900">
+                {mostRecentBatch ? mostRecentBatch.batchName : "—"}
+              </p>
+              <p className="text-sm text-slate-500">Most recent batch</p>
+            </div>
+          </CardContent>
+        </Card>
+      </div>
+
+      <Card className="border-slate-200">
+        <div className="border-b border-slate-200 px-6 py-4">
+          <h2 className="text-base font-semibold text-slate-900">Test Batches</h2>
+        </div>
+        {testBatches.length === 0 ? (
+          <div className="px-6 py-12 text-center">
+            <p className="text-sm text-slate-500">No test batches yet — generate your first one above.</p>
+          </div>
         ) : (
-          <button type="button" disabled title="Create a test batch first">
-            Upload Scanned Sheets
-          </button>
+          <div className="overflow-x-auto">
+            <table className="w-full text-left text-sm">
+              <thead>
+                <tr className="border-b border-slate-200 text-xs uppercase tracking-wide text-slate-400">
+                  <th className="px-6 py-3 font-medium">Batch</th>
+                  <th className="px-6 py-3 font-medium">Test Code</th>
+                  <th className="px-6 py-3 font-medium">Students</th>
+                  <th className="px-6 py-3 font-medium">Answer Key</th>
+                  <th className="px-6 py-3 font-medium">Actions</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-slate-100">
+                {testBatches.map((batch) => (
+                  <tr key={batch.id} className="transition-colors hover:bg-slate-50">
+                    <td className="px-6 py-4 font-medium text-slate-900">{batch.batchName}</td>
+                    <td className="px-6 py-4 text-slate-600">{batch.testCode}</td>
+                    <td className="px-6 py-4 text-slate-600">{batch.totalStudents}</td>
+                    <td className="px-6 py-4">
+                      <StatusBadge tone={batch.answerKey ? "success" : "secondary"}>
+                        {batch.answerKey ? "Set" : "Not set"}
+                      </StatusBadge>
+                    </td>
+                    <td className="px-6 py-4">
+                      <div className="flex gap-4 text-sm font-medium">
+                        <Link href={`/tests/${batch.id}/sheets`} className="text-brand-indigo hover:underline">
+                          Sheets
+                        </Link>
+                        <Link href={`/tests/${batch.id}/upload`} className="text-brand-indigo hover:underline">
+                          Upload
+                        </Link>
+                        <Link href={`/tests/${batch.id}/answer-key`} className="text-brand-indigo hover:underline">
+                          Answer Key
+                        </Link>
+                      </div>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         )}
-      </p>
-
-      <h2>Test Batches</h2>
-      {testBatches.length === 0 ? (
-        <p>No test batches yet — generate your first one above.</p>
-      ) : (
-        <table>
-          <thead>
-            <tr>
-              <th>Batch</th>
-              <th>Test Code</th>
-              <th>Students</th>
-              <th>Answer Key</th>
-              <th></th>
-            </tr>
-          </thead>
-          <tbody>
-            {testBatches.map((batch) => (
-              <tr key={batch.id}>
-                <td>{batch.batchName}</td>
-                <td>{batch.testCode}</td>
-                <td>{batch.totalStudents}</td>
-                <td>{batch.answerKey ? "Set" : "Not set"}</td>
-                <td>
-                  <a href={`/tests/${batch.id}/sheets`}>Sheets</a> &middot;{" "}
-                  <a href={`/tests/${batch.id}/upload`}>Upload</a> &middot;{" "}
-                  <a href={`/tests/${batch.id}/answer-key`}>Answer Key</a>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      )}
-    </main>
+      </Card>
+    </>
   );
 }

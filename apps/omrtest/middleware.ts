@@ -10,7 +10,12 @@ import { getSupabaseSessionForMiddleware } from "@vedicneev/auth/edge";
 // which only handles GET — landing as a 405 "INVALID_REQUEST_METHOD"
 // instead of ever calling the OTP route, which is exactly what broke the
 // live login flow.
-const PUBLIC_PATHS = new Set(["/login", "/api/auth/whatsapp/send-otp", "/api/auth/whatsapp/verify-otp"]);
+//
+// "/" is also public: it's the marketing landing page (app/page.tsx renders
+// it for anyone without a session, and redirects to /dashboard/onboarding
+// itself when a session exists) — without this exemption every anonymous
+// visitor gets bounced straight to /login before that page ever runs.
+const PUBLIC_PATHS = new Set(["/", "/login", "/api/auth/whatsapp/send-otp", "/api/auth/whatsapp/verify-otp"]);
 
 /**
  * Edge-runtime gate for the whole app — mirrors apps/web/middleware.ts's

@@ -2,8 +2,12 @@
 
 import { Suspense, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
+import { MessageCircle, ScanLine } from "lucide-react";
 
 import { sendOtp, verifyOtp } from "@/lib/auth/whatsappOtpClient";
+import { Button, Card, CardContent } from "@vedicneev/ui";
+import { Input } from "@/components/ui/Input";
+import { Label } from "@/components/ui/Label";
 
 const INDIAN_MOBILE_PATTERN = /^[6-9]\d{9}$/;
 const RESEND_SECONDS = 30;
@@ -77,68 +81,99 @@ function LoginForm() {
   }
 
   return (
-    <main>
-      <h1>Institute Partner Sign In</h1>
+    <div className="flex min-h-screen items-center justify-center bg-brand-navy px-4 py-12">
+      <div className="w-full max-w-md">
+        <div className="mb-8 flex flex-col items-center text-center">
+          <span className="flex h-11 w-11 items-center justify-center rounded-lg bg-white/10 text-white">
+            <ScanLine className="h-5 w-5" aria-hidden="true" />
+          </span>
+          <h1 className="mt-4 text-2xl font-bold tracking-tight text-white">Institute Partner Sign In</h1>
+          <p className="mt-1 text-sm text-white/60">Sign in with the mobile number registered on your account.</p>
+        </div>
 
-      {step === "phone" ? (
-        <form
-          onSubmit={(e) => {
-            e.preventDefault();
-            void handleSendOtp();
-          }}
-        >
-          <label htmlFor="phone">Mobile number</label>
-          <input
-            id="phone"
-            type="tel"
-            inputMode="numeric"
-            maxLength={10}
-            value={phone}
-            onChange={(e) => setPhone(e.target.value.replace(/\D/g, ""))}
-            placeholder="10-digit mobile number"
-            disabled={pending}
-          />
-          <button type="submit" disabled={pending}>
-            {pending ? "Sending…" : "Send code"}
-          </button>
-        </form>
-      ) : (
-        <form
-          onSubmit={(e) => {
-            e.preventDefault();
-            void handleVerifyOtp();
-          }}
-        >
-          <p>Code sent to +91 {phone} on WhatsApp.</p>
-          <label htmlFor="code">One-time code</label>
-          <input
-            id="code"
-            type="text"
-            inputMode="numeric"
-            maxLength={6}
-            value={code}
-            onChange={(e) => setCode(e.target.value.replace(/\D/g, ""))}
-            placeholder="6-digit code"
-            disabled={pending}
-          />
-          <button type="submit" disabled={pending}>
-            {pending ? "Verifying…" : "Verify & sign in"}
-          </button>
-          <button
-            type="button"
-            onClick={() => {
-              setStep("phone");
-              setCode("");
-              setError(null);
-            }}
-            disabled={pending}
-          >
-            Use a different number
-          </button>
-        </form>
-      )}
+        <Card className="border-white/10 bg-white shadow-2xl">
+          <CardContent className="p-6">
+            {step === "phone" ? (
+              <form
+                onSubmit={(e) => {
+                  e.preventDefault();
+                  void handleSendOtp();
+                }}
+                className="space-y-4"
+              >
+                <div>
+                  <Label htmlFor="phone">Mobile number</Label>
+                  <div className="flex items-center gap-2">
+                    <span className="flex h-10 items-center rounded-md border border-input bg-slate-50 px-3 text-sm text-slate-500">
+                      +91
+                    </span>
+                    <Input
+                      id="phone"
+                      type="tel"
+                      inputMode="numeric"
+                      maxLength={10}
+                      value={phone}
+                      onChange={(e) => setPhone(e.target.value.replace(/\D/g, ""))}
+                      placeholder="10-digit mobile number"
+                      disabled={pending}
+                    />
+                  </div>
+                </div>
+                <Button type="submit" disabled={pending} className="w-full">
+                  <MessageCircle className="h-4 w-4" aria-hidden="true" />
+                  {pending ? "Sending…" : "Send code on WhatsApp"}
+                </Button>
+              </form>
+            ) : (
+              <form
+                onSubmit={(e) => {
+                  e.preventDefault();
+                  void handleVerifyOtp();
+                }}
+                className="space-y-4"
+              >
+                <p className="text-sm text-slate-600">
+                  Code sent to <span className="font-medium text-slate-900">+91 {phone}</span> on WhatsApp.
+                </p>
+                <div>
+                  <Label htmlFor="code">One-time code</Label>
+                  <Input
+                    id="code"
+                    type="text"
+                    inputMode="numeric"
+                    maxLength={6}
+                    value={code}
+                    onChange={(e) => setCode(e.target.value.replace(/\D/g, ""))}
+                    placeholder="6-digit code"
+                    disabled={pending}
+                  />
+                </div>
+                <Button type="submit" disabled={pending} className="w-full">
+                  {pending ? "Verifying…" : "Verify & sign in"}
+                </Button>
+                <button
+                  type="button"
+                  onClick={() => {
+                    setStep("phone");
+                    setCode("");
+                    setError(null);
+                  }}
+                  disabled={pending}
+                  className="w-full text-center text-sm font-medium text-brand-indigo hover:underline disabled:opacity-50"
+                >
+                  Use a different number
+                </button>
+              </form>
+            )}
 
-      {error ? <p role="alert">{error}</p> : null}
-    </main>
+            {error ? (
+              <p role="alert" className="mt-4 text-sm font-medium text-destructive">
+                {error}
+              </p>
+            ) : null}
+          </CardContent>
+        </Card>
+      </div>
+    </div>
   );
 }

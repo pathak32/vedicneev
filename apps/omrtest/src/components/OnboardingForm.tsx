@@ -3,6 +3,11 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
+import { Button } from "@vedicneev/ui";
+import { Input } from "@/components/ui/Input";
+import { Label } from "@/components/ui/Label";
+import { Select } from "@/components/ui/Select";
+
 interface FormState {
   instituteName: string;
   examCategory: string;
@@ -59,51 +64,63 @@ export function OnboardingForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit}>
-      <label htmlFor="instituteName">Institute Name</label>
-      <input
-        id="instituteName"
-        value={form.instituteName}
-        onChange={(e) => update("instituteName", e.target.value)}
-        placeholder="e.g. Bright Future Academy"
-        disabled={submitting}
-      />
+    <form onSubmit={handleSubmit} className="space-y-5">
+      <div>
+        <Label htmlFor="instituteName">Institute Name</Label>
+        <Input
+          id="instituteName"
+          value={form.instituteName}
+          onChange={(e) => update("instituteName", e.target.value)}
+          placeholder="e.g. Bright Future Academy"
+          disabled={submitting}
+        />
+      </div>
 
-      <label htmlFor="examCategory">Target Exam Category</label>
-      <select
-        id="examCategory"
-        value={form.examCategory}
-        onChange={(e) => update("examCategory", e.target.value)}
-        disabled={submitting}
-      >
-        <option value="JNVST">JNVST</option>
-        <option value="AISSEE">AISSEE</option>
-        <option value="RMS">RMS</option>
-      </select>
+      <div>
+        <Label htmlFor="examCategory">Target Exam Category</Label>
+        <Select
+          id="examCategory"
+          value={form.examCategory}
+          onChange={(e) => update("examCategory", e.target.value)}
+          disabled={submitting}
+        >
+          <option value="JNVST">JNVST</option>
+          <option value="AISSEE">AISSEE</option>
+          <option value="RMS">RMS</option>
+        </Select>
+      </div>
 
-      <label htmlFor="branchCity">Branch / City</label>
-      <input
-        id="branchCity"
-        value={form.branchCity}
-        onChange={(e) => update("branchCity", e.target.value)}
-        placeholder="e.g. Patna"
-        disabled={submitting}
-      />
+      <div>
+        <Label htmlFor="branchCity">Branch / City</Label>
+        <Input
+          id="branchCity"
+          value={form.branchCity}
+          onChange={(e) => update("branchCity", e.target.value)}
+          placeholder="e.g. Patna"
+          disabled={submitting}
+        />
+      </div>
 
-      <label htmlFor="adminName">Admin Name</label>
-      <input
-        id="adminName"
-        value={form.adminName}
-        onChange={(e) => update("adminName", e.target.value)}
-        placeholder="Your full name"
-        disabled={submitting}
-      />
+      <div>
+        <Label htmlFor="adminName">Admin Name</Label>
+        <Input
+          id="adminName"
+          value={form.adminName}
+          onChange={(e) => update("adminName", e.target.value)}
+          placeholder="Your full name"
+          disabled={submitting}
+        />
+      </div>
 
-      <button type="submit" disabled={!isComplete || submitting}>
+      {error ? (
+        <p role="alert" className="text-sm font-medium text-destructive">
+          {error}
+        </p>
+      ) : null}
+
+      <Button type="submit" disabled={!isComplete || submitting} className="w-full">
         {submitting ? "Setting up…" : "Create Institute & Continue"}
-      </button>
-
-      {error ? <p role="alert">{error}</p> : null}
+      </Button>
     </form>
   );
 }

@@ -3,6 +3,11 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
+import { Button, Card, CardContent } from "@vedicneev/ui";
+import { PageHeader } from "@/components/dashboard/PageHeader";
+import { Input } from "@/components/ui/Input";
+import { Label } from "@/components/ui/Label";
+
 interface FormState {
   batchName: string;
   testCode: string;
@@ -73,64 +78,88 @@ export default function NewTestPage() {
   }
 
   return (
-    <main>
-      <h1>New Test</h1>
-      <p>Every field below is required before OMR sheets can be generated for this batch.</p>
+    <>
+      <PageHeader
+        title="New Test"
+        description="Every field below is required before OMR sheets can be generated for this batch."
+        backHref="/dashboard"
+        backLabel="Back to dashboard"
+      />
 
-      <form onSubmit={handleSubmit}>
-        <label htmlFor="batchName">Batch Name</label>
-        <input
-          id="batchName"
-          value={form.batchName}
-          onChange={(e) => update("batchName", e.target.value)}
-          placeholder="e.g. Physics Mock Test 4"
-          disabled={submitting}
-        />
+      <Card className="max-w-2xl border-slate-200">
+        <CardContent className="p-6">
+          <form onSubmit={handleSubmit} className="space-y-5">
+            <div>
+              <Label htmlFor="batchName">Batch Name</Label>
+              <Input
+                id="batchName"
+                value={form.batchName}
+                onChange={(e) => update("batchName", e.target.value)}
+                placeholder="e.g. Physics Mock Test 4"
+                disabled={submitting}
+              />
+            </div>
 
-        <label htmlFor="testCode">Test Code</label>
-        <input
-          id="testCode"
-          value={form.testCode}
-          onChange={(e) => update("testCode", e.target.value)}
-          placeholder="e.g. PHY-MOCK-04"
-          disabled={submitting}
-        />
+            <div>
+              <Label htmlFor="testCode">Test Code</Label>
+              <Input
+                id="testCode"
+                value={form.testCode}
+                onChange={(e) => update("testCode", e.target.value)}
+                placeholder="e.g. PHY-MOCK-04"
+                disabled={submitting}
+              />
+            </div>
 
-        <label htmlFor="subject">Subject</label>
-        <input
-          id="subject"
-          value={form.subject}
-          onChange={(e) => update("subject", e.target.value)}
-          placeholder="e.g. Physics"
-          disabled={submitting}
-        />
+            <div>
+              <Label htmlFor="subject">Subject</Label>
+              <Input
+                id="subject"
+                value={form.subject}
+                onChange={(e) => update("subject", e.target.value)}
+                placeholder="e.g. Physics"
+                disabled={submitting}
+              />
+            </div>
 
-        <label htmlFor="totalStudents">Total Students Appearing</label>
-        <input
-          id="totalStudents"
-          type="number"
-          min={1}
-          value={form.totalStudents}
-          onChange={(e) => update("totalStudents", e.target.value)}
-          disabled={submitting}
-        />
+            <div className="grid grid-cols-2 gap-4">
+              <div>
+                <Label htmlFor="totalStudents">Total Students Appearing</Label>
+                <Input
+                  id="totalStudents"
+                  type="number"
+                  min={1}
+                  value={form.totalStudents}
+                  onChange={(e) => update("totalStudents", e.target.value)}
+                  disabled={submitting}
+                />
+              </div>
 
-        <label htmlFor="totalQuestions">Total Questions</label>
-        <input
-          id="totalQuestions"
-          type="number"
-          min={1}
-          value={form.totalQuestions}
-          onChange={(e) => update("totalQuestions", e.target.value)}
-          disabled={submitting}
-        />
+              <div>
+                <Label htmlFor="totalQuestions">Total Questions</Label>
+                <Input
+                  id="totalQuestions"
+                  type="number"
+                  min={1}
+                  value={form.totalQuestions}
+                  onChange={(e) => update("totalQuestions", e.target.value)}
+                  disabled={submitting}
+                />
+              </div>
+            </div>
 
-        <button type="submit" disabled={!isComplete || submitting}>
-          {submitting ? "Creating…" : "Create Test & Generate Sheets"}
-        </button>
-      </form>
+            {error ? (
+              <p role="alert" className="text-sm font-medium text-destructive">
+                {error}
+              </p>
+            ) : null}
 
-      {error ? <p role="alert">{error}</p> : null}
-    </main>
+            <Button type="submit" disabled={!isComplete || submitting} className="w-full sm:w-auto">
+              {submitting ? "Creating…" : "Create Test & Generate Sheets"}
+            </Button>
+          </form>
+        </CardContent>
+      </Card>
+    </>
   );
 }

@@ -1,6 +1,7 @@
 import { redirect } from "next/navigation";
 
 import { getInstituteSession } from "@/lib/institute/session";
+import { DashboardShell } from "@/components/dashboard/DashboardShell";
 
 /**
  * The real, DB-backed gate for every institute-facing page (dashboard,
@@ -26,5 +27,9 @@ export default async function ProtectedLayout({ children }: { children: React.Re
   const session = await getInstituteSession();
   if (!session) redirect("/login");
 
-  return <>{children}</>;
+  return (
+    <DashboardShell instituteName={session.institute.name} role={session.admin.role}>
+      {children}
+    </DashboardShell>
+  );
 }

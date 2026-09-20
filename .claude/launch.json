@@ -12,6 +12,12 @@
       "runtimeExecutable": "npm",
       "runtimeArgs": ["run", "dev", "--workspace=@vedicneev/typingtest"],
       "port": 3002
+    },
+    {
+      "name": "omrtest",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--workspace=@vedicneev/omrtest"],
+      "port": 3001
     }
   ]
 }
