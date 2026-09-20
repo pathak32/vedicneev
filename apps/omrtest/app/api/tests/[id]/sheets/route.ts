@@ -45,6 +45,7 @@ export async function GET(_request: Request, { params }: { params: { id: string 
       batchName: testBatch.batchName,
       testCode: testBatch.testCode,
       subject: testBatch.subject ?? "",
+      brandColor: testBatch.institute.brandColor,
     },
     testBatch.rosterEntries.map((entry) => ({
       sequenceNumber: entry.sequenceNumber,

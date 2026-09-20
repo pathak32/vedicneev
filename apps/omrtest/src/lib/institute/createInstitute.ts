@@ -2,7 +2,7 @@ import { randomInt } from "crypto";
 import { prisma, type Institute } from "@vedicneev/db";
 
 const EXAM_CATEGORIES = new Set(["JNVST", "AISSEE", "RMS"]);
-const WELCOME_CREDIT_GRANT = 100;
+const WELCOME_CREDIT_GRANT = 10;
 
 export interface CreateInstituteInput {
   userId: string;
