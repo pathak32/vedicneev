@@ -52,7 +52,14 @@ export function CheckoutFlow({ planId, targetExam, parentId, parentPhone, onSucc
         body: JSON.stringify({ ...payload, phone: parentPhone, planId, targetExam }),
       });
       const data: VerifyPaymentResponse = await res.json();
-      if (!res.ok || !data.verified) throw new Error(data.error ?? "Payment could not be verified.");
+      // Check `verified` before `res.ok`: verify-payment returns HTTP 500
+      // with `verified: true` when the Razorpay signature checked out but
+      // the subsequent Subscription-row write failed (see that route's own
+      // comment) — the payment already cleared in that case, so treating
+      // this as a hard failure is exactly the "money deducted, stuck on Buy
+      // Now" bug. Only a genuinely unverified payment (`verified: false`)
+      // is a real failure here.
+      if (!data.verified) throw new Error(data.error ?? "Payment could not be verified.");
 
       // The server just wrote the real Subscription row (POST
       // /api/razorpay/verify-payment) — this local store still drives the
@@ -108,7 +115,7 @@ export function CheckoutFlow({ planId, targetExam, parentId, parentPhone, onSucc
         const res = await fetch("/api/razorpay/create-order", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ planId, targetExam }),
+          body: JSON.stringify({ planId, targetExam, phone: parentPhone }),
         });
         const data: CreateOrderResponse & { error?: string } = await res.json();
         if (!res.ok) throw new Error(data.error ?? "Could not start checkout.");

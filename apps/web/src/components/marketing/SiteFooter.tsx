@@ -80,6 +80,7 @@ export function SiteFooter() {
             <ul className="space-y-2 text-xs sm:text-sm">
               <li><Link href="/privacy" className="hover:text-amber-400 transition-colors">{t("footerPrivacy")}</Link></li>
               <li><Link href="/terms" className="hover:text-amber-400 transition-colors">{t("footerTerms")}</Link></li>
+              <li><Link href="/refund-policy" className="hover:text-amber-400 transition-colors">{t("footerRefund")}</Link></li>
               <li className="flex items-center gap-2 text-gray-400 pt-2 text-xs">
                 <MapPin className="w-3.5 h-3.5 text-amber-500 flex-shrink-0" /> {t("footerLocation")}
               </li>

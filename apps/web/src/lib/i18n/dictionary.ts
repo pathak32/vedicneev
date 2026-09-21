@@ -157,6 +157,7 @@ export const DICTIONARY = {
   },
   footerPrivacy: { en: "Privacy Policy", hi: "गोपनीयता नीति", mr: "गोपनीयता धोरण", bn: "গোপনীয়তা নীতি", ta: "தனியுரிமைக் கொள்கை", gu: "ગોપનીયતા નીતિ" },
   footerTerms: { en: "Terms of Service", hi: "सेवा की शर्तें", mr: "सेवा अटी", bn: "পরিষেবার শর্তাবলী", ta: "சேவை விதிமுறைகள்", gu: "સેવાની શરતો" },
+  footerRefund: { en: "Refund Policy", hi: "धनवापसी नीति", mr: "परतावा धोरण", bn: "ফেরত নীতি", ta: "பணத் திரும்பப் பெறும் கொள்கை", gu: "રિફંડ નીતિ" },
   footerLocation: {
     en: "New Delhi & Lucknow, India",
     hi: "नई दिल्ली और लखनऊ, भारत",

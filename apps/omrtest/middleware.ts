@@ -15,7 +15,15 @@ import { getSupabaseSessionForMiddleware } from "@vedicneev/auth/edge";
 // it for anyone without a session, and redirects to /dashboard/onboarding
 // itself when a session exists) — without this exemption every anonymous
 // visitor gets bounced straight to /login before that page ever runs.
-const PUBLIC_PATHS = new Set(["/", "/login", "/api/auth/whatsapp/send-otp", "/api/auth/whatsapp/verify-otp"]);
+const PUBLIC_PATHS = new Set([
+  "/",
+  "/login",
+  "/terms",
+  "/privacy",
+  "/refund-policy",
+  "/api/auth/whatsapp/send-otp",
+  "/api/auth/whatsapp/verify-otp",
+]);
 
 /**
  * Edge-runtime gate for the whole app — mirrors apps/web/middleware.ts's

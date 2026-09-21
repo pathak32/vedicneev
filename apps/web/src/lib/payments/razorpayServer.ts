@@ -21,6 +21,14 @@ function getServerCredentials(): { keyId: string; keySecret: string } | null {
 export interface CreateOrderInput {
   amountInr: number;
   receipt: string;
+  /**
+   * Echoed back by Razorpay onto both the order and the payment entity —
+   * app/api/webhook/payment/route.ts reads these off a payment.captured
+   * delivery to reconstruct which Subscription to create when the
+   * client-side verify-payment call never ran (tab closed/reloaded before
+   * it fired). Values must be strings; Razorpay's API rejects other types.
+   */
+  notes?: Record<string, string>;
 }
 
 export interface CreateOrderResult {
@@ -53,7 +61,7 @@ export async function createRazorpayOrder(input: CreateOrderInput): Promise<Crea
       "Content-Type": "application/json",
       Authorization: `Basic ${Buffer.from(`${credentials.keyId}:${credentials.keySecret}`).toString("base64")}`,
     },
-    body: JSON.stringify({ amount: amountPaise, currency: "INR", receipt: input.receipt }),
+    body: JSON.stringify({ amount: amountPaise, currency: "INR", receipt: input.receipt, notes: input.notes }),
   });
 
   if (!response.ok) {

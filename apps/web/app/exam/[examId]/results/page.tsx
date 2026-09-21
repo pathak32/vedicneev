@@ -279,7 +279,13 @@ export default function ExamResultsPage({ params }: { params: { examId: string }
           onOpenChange={setAuthOpen}
           onAuthenticated={() => {
             const account = selectActiveAccount(useAuthStore.getState());
-            if (!account || account.students.length === 0) router.push("/onboarding");
+            // Mirrors ExamPlayer.tsx's identical "sign in later" handoff —
+            // without `next`, OnboardingFlow.onComplete falls back to "/"
+            // (see app/onboarding/page.tsx), stranding a first-time signer
+            // on the home page instead of back on their own results here.
+            if (!account || account.students.length === 0) {
+              router.push(`/onboarding?next=${encodeURIComponent(`/exam/${params.examId}/results`)}`);
+            }
           }}
         />
       </div>

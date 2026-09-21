@@ -152,7 +152,11 @@ export default function TopicPracticePage() {
     let cancelled = false;
     setState({ status: "loading" });
 
-    fetch(`/api/practice/${encodeURIComponent(topicKey)}?untimed=${untimed}`, { method: "POST" })
+    fetch(`/api/practice/${encodeURIComponent(topicKey)}?untimed=${untimed}`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ phone: parent?.phone ?? null }),
+    })
       .then(async (res) => {
         const data = await res.json();
         if (cancelled) return;

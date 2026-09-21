@@ -67,3 +67,16 @@ export interface CheckoutVerifyResponse {
   error?: string;
   purchaseIds?: string[];
 }
+
+/**
+ * Shape returned by GET /api/subscription/status — the server-side source
+ * of truth a client can reconcile against when useSubscriptionStore's
+ * localStorage mirror was never written (browser closed/reloaded between
+ * Razorpay's success callback and verify-payment completing) even though
+ * the real Subscription row exists. `subscription` is null when the caller
+ * has no currently-active one.
+ */
+export interface SubscriptionStatusResponse {
+  subscription: VerifiedSubscription | null;
+  error?: string;
+}

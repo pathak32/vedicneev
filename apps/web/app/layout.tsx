@@ -5,6 +5,7 @@ import { SiteHeader } from "@/components/auth/SiteHeader";
 import { EcosystemReferralListener } from "@/components/ecosystem/EcosystemReferralListener";
 import { GlobalAudioPlayer } from "@/components/media/GlobalAudioPlayer";
 import { SiteFooter } from "@/components/marketing/SiteFooter";
+import { SubscriptionReconciler } from "@/components/payments/SubscriptionReconciler";
 import { ServiceWorkerRegistration } from "@/components/pwa/ServiceWorkerRegistration";
 import { ActiveStudentProvider } from "@/lib/auth/ActiveStudentContext";
 import { SITE_NAME as siteName, SITE_URL as appUrl } from "@/lib/siteConfig";
@@ -106,6 +107,7 @@ export default function RootLayout({
         </noscript>
         <ActiveStudentProvider>
           <EcosystemReferralListener />
+          <SubscriptionReconciler />
           <ServiceWorkerRegistration />
           <SiteHeader />
           {children}

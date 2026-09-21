@@ -103,8 +103,8 @@ export default function TermsOfServicePage() {
           Vedic Neev offers a free tier and paid plans (Exam Pass and Vedic All-Access) described on our{" "}
           <a href="/pricing">Pricing</a> page. Paid subscriptions are processed through Razorpay. Prices are shown
           in Indian Rupees (INR) and may change; we will not change the price of an active subscription mid-term
-          without notice. Refund and cancellation terms:{" "}
-          <strong>[Fill in your refund window and process before publishing]</strong>.
+          without notice. Refund and cancellation terms are set out in our{" "}
+          <a href="/refund-policy">Refund Policy</a>.
         </p>
 
         <h2>6. Acceptable Use</h2>
