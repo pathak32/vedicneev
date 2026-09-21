@@ -15,12 +15,20 @@ import { getSupabaseSessionForMiddleware } from "@vedicneev/auth/edge";
 // it for anyone without a session, and redirects to /dashboard/onboarding
 // itself when a session exists) — without this exemption every anonymous
 // visitor gets bounced straight to /login before that page ever runs.
+//
+// /sitemap.xml and /robots.txt (app/sitemap.ts, app/robots.ts) must be
+// exempted for the same reason: Googlebot fetches both anonymously, and
+// without this a 307 to /login is exactly what it gets back instead of
+// the actual sitemap — silently breaking indexing rather than erroring
+// loudly, which is why this is easy to miss.
 const PUBLIC_PATHS = new Set([
   "/",
   "/login",
   "/terms",
   "/privacy",
   "/refund-policy",
+  "/sitemap.xml",
+  "/robots.txt",
   "/api/auth/whatsapp/send-otp",
   "/api/auth/whatsapp/verify-otp",
 ]);

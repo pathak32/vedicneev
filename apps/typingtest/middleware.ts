@@ -12,7 +12,11 @@ import { getSupabaseCookieOptions, getSupabasePublicConfig } from "@/lib/supabas
 // rather than listing each pair individually — none of those pages need
 // auth, matching their English counterparts below.
 const PUBLIC_PATH_PREFIXES = ["/login", "/exams", "/blog", "/faq", "/privacy", "/terms", "/disclaimer", "/hi"];
-const PUBLIC_EXACT_PATHS = new Set(["/"]);
+// /sitemap.xml and /robots.txt (app/sitemap.ts, app/robots.ts) need their
+// own exact-match exemption, same reasoning as "/" — Googlebot fetches
+// both anonymously, and without this it gets a 307 to /login instead of
+// the actual file, silently breaking indexing rather than erroring loudly.
+const PUBLIC_EXACT_PATHS = new Set(["/", "/sitemap.xml", "/robots.txt"]);
 
 function isPublicPath(pathname: string): boolean {
   if (PUBLIC_EXACT_PATHS.has(pathname)) return true;
