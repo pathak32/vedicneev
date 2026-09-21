@@ -22,10 +22,11 @@ export default async function DashboardPage() {
 
   const { institute } = session;
 
-  // No InstituteSubscription exists yet for a pilot institute (Phase 4's
-  // Razorpay wiring isn't built) — the ledger has no billing-period start to
+  // A pilot institute that hasn't subscribed via /billing yet has no
+  // InstituteSubscription row — the ledger has no billing-period start to
   // anchor on in that case, so fall back to the institute's own creation
-  // date, which still correctly sums every ledger row it has ever had.
+  // date, which still correctly sums every ledger row it has ever had
+  // (its one-time welcome grant from createInstitute.ts included).
   const subscription = await prisma.instituteSubscription.findUnique({ where: { instituteId: institute.id } });
   const periodStart = subscription?.currentPeriodStart ?? institute.createdAt;
   const creditBalance = await getInstituteCreditBalance(institute.id, periodStart);

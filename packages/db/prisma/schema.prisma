@@ -1233,7 +1233,18 @@ model InstituteSubscription {
   monthlyCreditGrant Int?               @map("monthly_credit_grant")
   currentPeriodStart DateTime           @map("current_period_start")
   currentPeriodEnd   DateTime           @map("current_period_end")
+  // Reserved for a future real Razorpay Subscriptions/mandate integration —
+  // never written today. The current checkout (apps/omrtest/app/api/
+  // razorpay/) charges one 30-day period per Order, same one-time-payment
+  // model packages/db's own Subscription (consumer) model already uses, so
+  // razorpayOrderId/razorpayPaymentId below (not this field) are what
+  // actually identify the payment that started/renewed a period.
   razorpaySubId      String?            @map("razorpay_subscription_id")
+  // The Order/Payment that started or most recently renewed this period —
+  // read back by the webhook (payment.captured) to make re-applying the
+  // same delivery a no-op instead of re-granting/renewing twice.
+  razorpayOrderId    String?            @map("razorpay_order_id")
+  razorpayPaymentId  String?            @map("razorpay_payment_id")
   status             SubscriptionStatus @default(ACTIVE)
   createdAt          DateTime           @default(now()) @map("created_at")
 
@@ -1253,6 +1264,13 @@ model InstituteCreditLedger {
   reason      CreditLedgerReason
   testBatchId String?            @map("test_batch_id")
   omrUploadId String?            @map("omr_upload_id")
+  // Set only for reason = TOPUP_PURCHASE — the Order/Payment that granted
+  // this row, read back by the webhook (payment.captured) so a redelivered
+  // event can't double-grant the same top-up's credits (findFirst by
+  // razorpayPaymentId before creating a new row — see
+  // applyInstituteCreditTopup in apps/omrtest/src/lib/payments).
+  razorpayOrderId   String?      @map("razorpay_order_id")
+  razorpayPaymentId String?      @map("razorpay_payment_id")
   createdAt   DateTime           @default(now()) @map("created_at")
 
   @@index([instituteId, createdAt])

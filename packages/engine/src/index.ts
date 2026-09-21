@@ -6,6 +6,7 @@ export * from "./omr";
 export * from "./omrEvaluator";
 export * from "./omrScan";
 export * from "./entitlements";
+export * from "./instituteBilling";
 export * from "./media";
 export * from "./mediaEmbed";
 export * from "./whatsappReport";

@@ -69,10 +69,12 @@ export async function createInstitute(input: CreateInstituteInput): Promise<Crea
 
         await tx.user.update({ where: { id: input.userId }, data: { name: adminName } });
 
-        // Pilot welcome grant — Phase 4's Razorpay-backed InstituteSubscription
-        // doesn't exist yet, so createTestBatch's own credit cap is skipped
-        // entirely for this institute (see its comment); this row exists so
-        // the dashboard has a real, non-zero balance to show from day one.
+        // Pilot welcome grant — this institute has no InstituteSubscription
+        // row yet (only created once it checks out a plan via /billing, see
+        // apps/omrtest/src/lib/payments/instituteBillingService.ts), so the
+        // credit-cap check in app/api/tests/[id]/upload and .../answer-key
+        // finds none and skips the cap entirely; this row exists so the
+        // dashboard has a real, non-zero balance to show from day one.
         await tx.instituteCreditLedger.create({
           data: { instituteId: created.id, delta: WELCOME_CREDIT_GRANT, reason: "MONTHLY_GRANT" },
         });
@@ -82,12 +84,25 @@ export async function createInstitute(input: CreateInstituteInput): Promise<Crea
 
       return { ok: true, institute };
     } catch (error) {
-      const isSlugCollision =
-        error instanceof Object &&
-        "code" in error &&
-        (error as { code?: string }).code === "P2002" &&
-        JSON.stringify((error as { meta?: unknown }).meta ?? "").includes("slug");
-      if (isSlugCollision && attempt < 4) continue;
+      const isP2002 = error instanceof Object && "code" in error && (error as { code?: string }).code === "P2002";
+      const meta = isP2002 ? JSON.stringify((error as { meta?: unknown }).meta ?? "") : "";
+
+      if (isP2002 && meta.includes("slug") && attempt < 4) continue;
+
+      // A concurrent double-submit for the same userId (a double-click, or
+      // a client retrying a slow request that actually succeeded) can race
+      // past the findUnique check above — both requests read "no existing
+      // admin" before either commits. InstituteAdmin.userId's unique
+      // constraint is the real backstop in that case, and the whole
+      // $transaction rolls back cleanly when it fires (no partial
+      // institute/branch/credit row is left behind either way) — so this
+      // is a clean "already onboarded" 409, the same result the upfront
+      // check already returns for the non-racing case, not a genuine
+      // server error.
+      if (isP2002 && meta.includes("user_id")) {
+        return { ok: false, status: 409, error: "This account is already linked to an institute." };
+      }
+
       throw error;
     }
   }

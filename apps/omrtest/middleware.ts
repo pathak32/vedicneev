@@ -21,6 +21,13 @@ import { getSupabaseSessionForMiddleware } from "@vedicneev/auth/edge";
 // without this a 307 to /login is exactly what it gets back instead of
 // the actual sitemap — silently breaking indexing rather than erroring
 // loudly, which is why this is easy to miss.
+//
+// /api/webhook/payment needs the same exemption for the same class of bug
+// — Razorpay calls it server-to-server with no Supabase session at all
+// (authenticated purely by its own HMAC signature, verified inside the
+// route itself), so without this exemption every real payment.captured
+// delivery would 307 to /login instead of ever reaching the route,
+// silently breaking institute billing sync rather than erroring loudly.
 const PUBLIC_PATHS = new Set([
   "/",
   "/login",
@@ -31,6 +38,7 @@ const PUBLIC_PATHS = new Set([
   "/robots.txt",
   "/api/auth/whatsapp/send-otp",
   "/api/auth/whatsapp/verify-otp",
+  "/api/webhook/payment",
 ]);
 
 /**

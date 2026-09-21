@@ -6,7 +6,10 @@ import { PlusCircle, ScanLine } from "lucide-react";
 
 import { Badge, cn } from "@vedicneev/ui";
 
-const NAV_ITEMS = [{ href: "/dashboard", label: "Dashboard" }];
+const NAV_ITEMS = [
+  { href: "/dashboard", label: "Dashboard" },
+  { href: "/billing", label: "Billing" },
+];
 
 interface DashboardShellProps {
   instituteName: string;
