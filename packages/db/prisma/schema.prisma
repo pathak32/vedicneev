@@ -1075,6 +1075,67 @@ model BlogPost {
   @@map("blog_posts")
 }
 
+// ─────────────────────────────────────────────────────────────────────────
+// Content Library & Automated LinkedIn Publisher — founder-voice social
+// copy for both brands in the hierarchy: Vedic Mind AI (vedicmindai.in,
+// the parent cognitive-mastery brand) and VedicNeev (the institutional
+// OMR/exam-prep execution engine positioned as powered by it). Deliberately
+// separate from BlogPost above: a BlogPost is long-form SEO content on
+// vedicneev.com itself, this is short-form outbound copy dispatched to a
+// third party (LinkedIn) via /api/linkedin/publish, with its own
+// lifecycle (DRAFT/APPROVED/SCHEDULED/PUBLISHED) driven from /admin/content.
+// ─────────────────────────────────────────────────────────────────────────
+
+enum ContentBlockBrand {
+  VEDIC_MIND
+  VEDIC_NEEV
+}
+
+enum ContentBlockCategory {
+  COGNITIVE_MASTERY
+  VEDIC_MATH
+  INSTITUTIONAL_AUTOMATION
+}
+
+enum ContentBlockStatus {
+  DRAFT
+  APPROVED
+  SCHEDULED
+  PUBLISHED
+}
+
+model ContentBlock {
+  id           String               @id @default(cuid())
+  brand        ContentBlockBrand
+  category     ContentBlockCategory
+
+  // The opening line — a real-world operational observation or coaching
+  // pain point, never a generic marketing lede (see prisma/seed-content-library.ts
+  // for the founder-voice tone rules every seeded hookText follows).
+  hookText     String               @map("hook_text")
+  bodyContent  String               @map("body_content")
+  ctaText      String               @map("cta_text")
+
+  status       ContentBlockStatus   @default(DRAFT)
+  // Set by the admin dashboard's "Schedule" action; null for a DRAFT/
+  // APPROVED block that has no target date yet. Purely a target the admin
+  // works toward — nothing in this codebase auto-fires a publish at this
+  // time, /api/linkedin/publish is always a manual "Publish to LinkedIn" click.
+  scheduledFor DateTime?            @map("scheduled_for")
+
+  // Set only once /api/linkedin/publish's dispatch actually succeeds —
+  // the returned UGC Post URN, kept for audit ("did this really go out,
+  // and to which LinkedIn post") without re-querying LinkedIn's API.
+  linkedinPostUrn String?           @map("linkedin_post_urn")
+  publishedAt     DateTime?         @map("published_at")
+
+  createdAt    DateTime             @default(now()) @map("created_at")
+
+  @@index([brand, status])
+  @@index([status, scheduledFor])
+  @@map("content_blocks")
+}
+
 // Homepage hero's gamified lead-gen widget (apps/web/src/components/marketing/SpeedChallengeWidget.tsx) —
 // fully admin-managed via /admin/speed-challenge, not hardcoded in the client.
 model SpeedChallengeQuestion {
@@ -1412,6 +1473,50 @@ model OmrUpload {
   @@index([testBatchId, status])
   @@index([rosterEntryId])
   @@map("omr_uploads")
+}
+
+// ─────────────────────────────────────────────────────────────────────────
+// B2B outreach (omrtest.vedicneev.com super admin, zero ad-spend growth) —
+// coaching-institute prospects sourced manually/scraped, worked through a
+// WhatsApp send-and-track pipeline from /admin/leads. Deliberately separate
+// from Institute above: a CoachingLead is a prospect who may never sign up,
+// so it can't carry an instituteId FK — createInstitute()'s own onboarding
+// path (apps/omrtest) is what turns a converted director into a real
+// Institute row, independently of this table.
+// ─────────────────────────────────────────────────────────────────────────
+
+enum CoachingLeadStatus {
+  PENDING
+  CONTACTED
+  TRIAL_ACTIVE
+  CONVERTED
+}
+
+model CoachingLead {
+  id            String             @id @default(cuid())
+  instituteName String             @map("institute_name")
+  directorName  String             @map("director_name")
+  city          String
+  state         String
+  district      String
+  // Raw digits including country code (e.g. "919876543210") — same
+  // convention as User.phone, so a converted lead's number matches the
+  // User row provisionTrialCreditsForLead finds-or-creates for it.
+  phoneNumber   String             @map("phone_number")
+  status        CoachingLeadStatus @default(PENDING)
+  notes         String?
+
+  // Set the one time provisionTrialCreditsForLead actually grants the
+  // 10-credit trial (apps/web/src/lib/admin/leadTrialProvisioning.ts) —
+  // guards the "Approve & Send" action against double-granting credits on
+  // a resend to a lead that's already been provisioned.
+  trialCreditsGrantedAt DateTime? @map("trial_credits_granted_at")
+
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@index([status])
+  @@index([phoneNumber])
+  @@map("coaching_leads")
 }
 
 // ─────────────────────────────────────────────────────────────────────────

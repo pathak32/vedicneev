@@ -4,11 +4,13 @@ import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Button, Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger, cn } from "@vedicneev/ui";
-import { BookOpenCheck, Building2, ClipboardCheck, FileSearch, Film, LayoutDashboard, Menu, Newspaper, Package, Settings, Sparkles, Trophy, Zap } from "lucide-react";
+import { BookOpenCheck, Building2, ClipboardCheck, FileSearch, Film, LayoutDashboard, Menu, Newspaper, Package, Send, Settings, Share2, Sparkles, Trophy, Zap } from "lucide-react";
 
 const NAV_ITEMS = [
   { href: "/admin", label: "Overview", icon: LayoutDashboard },
   { href: "/admin/institutes", label: "Institutes (OMR)", icon: Building2 },
+  { href: "/admin/leads", label: "Coaching Leads", icon: Send },
+  { href: "/admin/content", label: "Content Library", icon: Share2 },
   { href: "/admin/blogs", label: "Blog Drafts Queue", icon: Newspaper },
   { href: "/admin/exams", label: "Question Bank Seeding", icon: BookOpenCheck },
   { href: "/admin/questions", label: "Question Bank Export", icon: FileSearch },
