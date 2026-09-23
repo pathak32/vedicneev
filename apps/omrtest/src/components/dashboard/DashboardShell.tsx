@@ -6,6 +6,8 @@ import { PlusCircle, ScanLine } from "lucide-react";
 
 import { Badge, cn } from "@vedicneev/ui";
 
+import { LogoutButton } from "./LogoutButton";
+
 const NAV_ITEMS = [
   { href: "/dashboard", label: "Dashboard" },
   { href: "/billing", label: "Billing" },
@@ -61,13 +63,17 @@ export function DashboardShell({ instituteName, role, children }: DashboardShell
               <PlusCircle className="h-4 w-4" aria-hidden="true" />
               New Test
             </Link>
-            <div className="hidden items-center gap-2 border-l border-white/10 pl-3 text-right md:flex">
-              <div>
+            <div className="hidden items-center gap-3 border-l border-white/10 pl-3 md:flex">
+              <div className="text-right">
                 <p className="text-sm font-medium leading-none text-white">{instituteName}</p>
                 <p className="text-xs leading-none text-white/50">{role}</p>
               </div>
+              <LogoutButton />
             </div>
-            <Badge className="border-transparent bg-white/10 text-white md:hidden">{role}</Badge>
+            <div className="flex items-center gap-1 md:hidden">
+              <Badge className="border-transparent bg-white/10 text-white">{role}</Badge>
+              <LogoutButton />
+            </div>
           </div>
         </div>
       </header>
