@@ -5,6 +5,7 @@ export * from "./diagnostics";
 export * from "./omr";
 export * from "./omrEvaluator";
 export * from "./omrScan";
+export * from "./questionShuffler";
 export * from "./entitlements";
 export * from "./instituteBilling";
 export * from "./media";

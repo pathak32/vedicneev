@@ -1395,6 +1395,22 @@ model TestBatch {
   // than this column enforcing it.
   sections          Json?
   answerKey         Json?            @map("answer_key")
+  // Snapshot of answerKey as an ordered array (index 0 = Q1) at the moment
+  // "Generate Multi-Set Papers" last ran — packages/engine's
+  // generateQuestionSets shuffles against this, not the live `answerKey`
+  // column, so re-running generation always shuffles the SAME master this
+  // institute actually reviewed, even if answerKey is edited afterward.
+  // Each entry may carry question text/options too (MasterQuestionItem in
+  // packages/engine/src/questionShuffler.ts) when the institute supplies
+  // them; when it doesn't, this is just the bare per-question letter.
+  masterQuestions   Json?            @map("master_questions")
+  // One entry per generated set ("SET_1".."SET_5"), each holding that
+  // set's question-order permutation (as master-question 0-based indices)
+  // and the resulting answerKey re-derived at those positions — see
+  // packages/engine/src/questionShuffler.ts's SetMappings type. Null for
+  // every batch that never used multi-set generation (the default,
+  // single-key grading path — see OmrUpload's grading resolution comment).
+  setMappings       Json?            @map("set_mappings")
   sheetsGeneratedAt DateTime?        @map("sheets_generated_at")
   createdAt         DateTime         @default(now()) @map("created_at")
 
@@ -1434,6 +1450,16 @@ model TestBatchRosterEntry {
   // across batches) is the actual key the anti-fraud ingestion check
   // matches against.
   sheetToken     String    @unique @map("sheet_token")
+  // Which generated set ("SET_1".."SET_5") this student's physical paper
+  // is, assigned round-robin across the roster the moment "Generate
+  // Multi-Set Papers" runs — see generate-sets/route.ts. Null for any
+  // batch that never used multi-set generation. Only drives which
+  // Question Paper/OMR sheet download this entry appears under; grading
+  // itself re-detects the set from the scanned Set bubble (see
+  // analyzeOmrUpload.ts) rather than trusting this assignment, so a
+  // physically mixed-up sheet still grades correctly against whichever
+  // set was actually bubbled.
+  setCode        String?   @map("set_code")
   downloadedAt   DateTime? @map("downloaded_at")
   // Set the moment a scan matching this token grades successfully. A
   // second scan presenting the same token after this is set is rejected as
@@ -1463,17 +1489,17 @@ model TestBatchRosterEntry {
 // (set only by the one upload that successfully grades), checked inside the
 // grading transaction — see apps/omrtest/src/lib/omr/gradeUpload.ts.
 model OmrUpload {
-  id             String                @id @default(cuid())
-  testBatchId    String                @map("test_batch_id")
-  testBatch      TestBatch             @relation(fields: [testBatchId], references: [id], onDelete: Cascade)
-  rosterEntryId  String?               @map("roster_entry_id")
-  rosterEntry    TestBatchRosterEntry? @relation(fields: [rosterEntryId], references: [id], onDelete: SetNull)
-  imageUrl       String                @map("image_url")
+  id              String                @id @default(cuid())
+  testBatchId     String                @map("test_batch_id")
+  testBatch       TestBatch             @relation(fields: [testBatchId], references: [id], onDelete: Cascade)
+  rosterEntryId   String?               @map("roster_entry_id")
+  rosterEntry     TestBatchRosterEntry? @relation(fields: [rosterEntryId], references: [id], onDelete: SetNull)
+  imageUrl        String                @map("image_url")
   // Perceptual hash (not exact-byte hash) so a rescanned/re-photographed
   // copy of the same physical sheet still collides for dedup purposes.
-  imageHash      String                @map("image_hash")
-  status         OmrUploadStatus       @default(QUEUED)
-  rejectReason   String?               @map("reject_reason")
+  imageHash       String                @map("image_hash")
+  status          OmrUploadStatus       @default(QUEUED)
+  rejectReason    String?               @map("reject_reason")
   // Raw per-question marked-bubble reads (OmrQuestionScan[]), captured at
   // analysis time for EVERY matched-and-readable sheet regardless of
   // whether grading happened yet — this is what makes a QUEUED-for-no-
@@ -1481,13 +1507,20 @@ model OmrUpload {
   // without re-fetching and re-decoding the original image. Null for a
   // sheet that never got past corner/token detection (REJECTED_UNREADABLE/
   // ROSTER_MISMATCH/DUPLICATE) — there's nothing to store for those.
-  detectedScans  Json?                 @map("detected_scans")
+  detectedScans   Json?                 @map("detected_scans")
+  // "SET_1".."SET_5", read from the sheet's own Set bubble at analysis
+  // time (see analyzeOmrUpload.ts) — captured alongside detectedScans so
+  // the answer-key route's QUEUED re-grade pass can resolve the SAME set
+  // this specific sheet was later, without re-scanning the image or ever
+  // trusting the roster's assigned setCode over what was actually marked.
+  // Null for a single-set batch (no Set bubble to read at all).
+  detectedSetCode String?               @map("detected_set_code")
   // The scored outcome (packages/engine's OmrSheetEvaluationSummary), set
   // only once status flips to GRADED — separate from detectedScans above
   // because a QUEUED row legitimately has marks but no score yet.
-  gradingResult  Json?                 @map("grading_result")
-  creditConsumed Boolean               @default(false) @map("credit_consumed")
-  createdAt      DateTime              @default(now()) @map("created_at")
+  gradingResult   Json?                 @map("grading_result")
+  creditConsumed  Boolean               @default(false) @map("credit_consumed")
+  createdAt       DateTime              @default(now()) @map("created_at")
 
   @@unique([testBatchId, imageHash])
   @@index([testBatchId, status])

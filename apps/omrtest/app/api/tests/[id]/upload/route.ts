@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { Prisma, prisma, type OmrUploadStatus } from "@vedicneev/db";
-import type { OmrSheetEvaluationSummary } from "@vedicneev/engine";
+import type { OmrSheetEvaluationSummary, SetMappings } from "@vedicneev/engine";
 
 import { getInstituteSession } from "@/lib/institute/session";
 import { buildInstituteOmrSheetSpec } from "@/lib/omr/instituteSheetSpec";
@@ -38,6 +38,8 @@ interface UploadResponseBody {
   rosterEntryId?: string;
   rollNumber?: string;
   gradingResult?: OmrSheetEvaluationSummary;
+  /** Which Set bubble was actually read on this sheet — surfaced for display only, never trusted over what analyzeOmrUpload already resolved the grading against. */
+  detectedSetCode?: string | null;
 }
 
 /**
@@ -117,6 +119,10 @@ export async function POST(request: Request, { params }: { params: { id: string 
 
   const spec = buildInstituteOmrSheetSpec(testBatch);
   const answerKeyEntries = parseStoredAnswerKey(testBatch.answerKey);
+  // Written only by generate-sets/route.ts, in exactly this shape — trusted
+  // the same way detectedScans/gradingResult already are elsewhere in this
+  // route, not re-validated field-by-field.
+  const setMappings = (testBatch.setMappings as unknown as SetMappings | null) ?? null;
   const rosterEntries: RosterEntryForMatching[] = testBatch.rosterEntries.map((entry) => ({
     id: entry.id,
     sheetToken: entry.sheetToken,
@@ -124,7 +130,7 @@ export async function POST(request: Request, { params }: { params: { id: string 
     rollNumber: entry.rollNumber,
   }));
 
-  const analysis = analyzeOmrUpload(grayscaleImage, spec, rosterEntries, answerKeyEntries);
+  const analysis = analyzeOmrUpload(grayscaleImage, spec, rosterEntries, answerKeyEntries, setMappings);
 
   const stored = await uploadOmrImage({
     instituteId: session.institute.id,
@@ -211,9 +217,22 @@ async function persistOmrUpload(params: {
       // (see that column's own comment) — held as QUEUED, nothing
       // consumed, until an admin sets the key via the answer-key route.
       const upload = await tx.omrUpload.create({
-        data: { testBatchId, imageUrl, imageHash, status: "QUEUED", rosterEntryId: analysis.rosterEntryId, detectedScans },
+        data: {
+          testBatchId,
+          imageUrl,
+          imageHash,
+          status: "QUEUED",
+          rosterEntryId: analysis.rosterEntryId,
+          detectedScans,
+          detectedSetCode: analysis.detectedSetCode,
+        },
       });
-      return { omrUploadId: upload.id, status: upload.status, rosterEntryId: analysis.rosterEntryId };
+      return {
+        omrUploadId: upload.id,
+        status: upload.status,
+        rosterEntryId: analysis.rosterEntryId,
+        detectedSetCode: analysis.detectedSetCode,
+      };
     }
 
     // Re-read the roster entry INSIDE the transaction — closes the race
@@ -260,9 +279,16 @@ async function persistOmrUpload(params: {
             rejectReason: reason,
             rosterEntryId: analysis.rosterEntryId,
             detectedScans,
+            detectedSetCode: analysis.detectedSetCode,
           },
         });
-        return { omrUploadId: upload.id, status: upload.status, reason, rosterEntryId: analysis.rosterEntryId };
+        return {
+          omrUploadId: upload.id,
+          status: upload.status,
+          reason,
+          rosterEntryId: analysis.rosterEntryId,
+          detectedSetCode: analysis.detectedSetCode,
+        };
       }
     }
 
@@ -274,6 +300,7 @@ async function persistOmrUpload(params: {
         status: "GRADED",
         rosterEntryId: analysis.rosterEntryId,
         detectedScans,
+        detectedSetCode: analysis.detectedSetCode,
         gradingResult: analysis.grading as unknown as Prisma.InputJsonValue,
         creditConsumed: true,
       },
@@ -295,6 +322,7 @@ async function persistOmrUpload(params: {
       rosterEntryId: analysis.rosterEntryId,
       rollNumber: freshRosterEntry.rollNumber,
       gradingResult: analysis.grading,
+      detectedSetCode: analysis.detectedSetCode,
     };
   });
 }

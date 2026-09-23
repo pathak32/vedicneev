@@ -12,12 +12,21 @@ import { SHEET_TOKEN_DIGITS } from "@/lib/tests/createTestBatch";
  * any drift here (e.g. a rollNumberDigits formula that changed between
  * releases) would silently misread every sheet from the older geometry.
  */
-export function buildInstituteOmrSheetSpec(testBatch: { totalQuestions: number; totalStudents: number }): OmrSheetSpec {
+export function buildInstituteOmrSheetSpec(testBatch: {
+  totalQuestions: number;
+  totalStudents: number;
+  setMappings?: unknown;
+}): OmrSheetSpec {
   const rollNumberDigits = Math.max(4, String(testBatch.totalStudents).length);
+  const setCount =
+    testBatch.setMappings && typeof testBatch.setMappings === "object"
+      ? Object.keys(testBatch.setMappings as object).length
+      : 0;
   return generateOmrSheetSpec({
     examType: "OTHER",
     totalQuestions: testBatch.totalQuestions,
     rollNumberDigits,
     sheetTokenDigits: SHEET_TOKEN_DIGITS,
+    setCount,
   });
 }

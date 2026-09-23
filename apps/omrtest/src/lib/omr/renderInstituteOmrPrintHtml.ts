@@ -42,6 +42,8 @@ export interface InstituteOmrRosterEntry {
   rollNumber: string;
   sheetToken: string;
   studentName: string | null;
+  /** "SET_1".."SET_5" — see TestBatchRosterEntry.setCode's own comment. Null/omitted renders no set-bubble marking at all, matching spec.setGrid being empty for a single-set batch. */
+  setCode?: string | null;
 }
 
 const BUBBLE_LABEL_OFFSET = 0.055;
@@ -135,6 +137,19 @@ export function renderInstituteOmrPrintHtml(
     return columns.join("");
   }
 
+  /** The set-code strip: one small labeled bubble per generated set, the one matching `setCode` (e.g. "SET_2" -> 2) marked filled. Renders nothing at all when spec.setGrid is empty (single-set batch). */
+  function renderSetGrid(setCode: string | null | undefined): string {
+    if (spec.setGrid.length === 0) return "";
+    const targetSetNumber = setCode ? Number(setCode.replace(/^SET_/, "")) : null;
+    const bubblesHtml = spec.setGrid
+      .map(
+        (cell) =>
+          `<span class="set-bubble${cell.setNumber === targetSetNumber ? " filled" : ""}" style="left:${cell.x * 100}%;top:${cell.y * 100}%;">${cell.setNumber}</span>`
+      )
+      .join("");
+    return `<div class="set-label" style="top:${(spec.setGrid[0]!.y - 0.014) * 100}%;">Set</div>${bubblesHtml}`;
+  }
+
   const watermarkText = `${escapeHtml(meta.testCode)} · ${escapeHtml(meta.instituteSlug)}`;
   const watermarkTilesHtml = Array.from({ length: 30 })
     .map(() => `<span>${watermarkText}</span>`)
@@ -168,6 +183,7 @@ export function renderInstituteOmrPrintHtml(
     <div class="roll-grid">${rollGridHtml}</div>
     <div class="token-label">Sheet ID (office use)</div>
     <div class="token-grid">${tokenGridHtml}</div>
+    ${renderSetGrid(entry.setCode)}
     ${questionsHtml}
   </div>`;
     })
@@ -233,6 +249,12 @@ export function renderInstituteOmrPrintHtml(
   .roll-bubble { margin: 1px 0; }
   .roll-bubble.filled { background: #000; color: #fff; }
   .bubble { position: absolute; transform: translate(-50%, -50%); }
+  .set-label { position: absolute; left: 6%; font-size: 7px; font-weight: 600; color: var(--brand); }
+  .set-bubble {
+    position: absolute; transform: translate(-50%, -50%); display: inline-flex; align-items: center;
+    justify-content: center; width: 3.6mm; height: 3.6mm; border-radius: 50%; border: 1px solid #000; font-size: 6px;
+  }
+  .set-bubble.filled { background: #000; color: #fff; }
   .q-label { position: absolute; font-size: 7px; font-weight: 600; transform: translate(-100%, -50%); }
   @media print {
     body { background: #fff; }

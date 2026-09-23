@@ -1,6 +1,12 @@
 import { NextResponse } from "next/server";
 import { Prisma, prisma } from "@vedicneev/db";
-import { DEFAULT_MARKING_SCHEME, evaluateOmrSheet, type OmrQuestionScan } from "@vedicneev/engine";
+import {
+  DEFAULT_MARKING_SCHEME,
+  evaluateOmrSheet,
+  resolveAnswerKeyForSet,
+  type OmrQuestionScan,
+  type SetMappings,
+} from "@vedicneev/engine";
 
 import { getInstituteSession } from "@/lib/institute/session";
 import { parseCompactAnswerKey, parseStoredAnswerKey } from "@/lib/tests/answerKey";
@@ -33,10 +39,13 @@ export async function GET(_request: Request, { params }: { params: { id: string 
       }).join("")
     : null;
 
+  const setMappingsForGet = testBatch.setMappings as unknown as SetMappings | null;
+
   return NextResponse.json({
     totalQuestions: testBatch.totalQuestions,
     compactAnswerKey,
     queuedUploadsAwaitingKey,
+    setLabels: setMappingsForGet ? Object.keys(setMappingsForGet) : null,
   });
 }
 
@@ -84,6 +93,7 @@ export async function PATCH(request: Request, { params }: { params: { id: string
 
   // Just built from `parsed.storedAnswerKey` above — always non-empty.
   const answerKeyEntries = parseStoredAnswerKey(parsed.storedAnswerKey)!;
+  const setMappings = (testBatch.setMappings as unknown as SetMappings | null) ?? null;
 
   const result = await prisma.$transaction(
     async (tx) => {
@@ -124,7 +134,13 @@ export async function PATCH(request: Request, { params }: { params: { id: string
         }
 
         const scans = upload.detectedScans as unknown as OmrQuestionScan[];
-        const grading = evaluateOmrSheet(scans, answerKeyEntries, DEFAULT_MARKING_SCHEME);
+        // Same resolution analyzeOmrUpload.ts uses at upload time — a
+        // multi-set sheet re-grades against ITS detected set, never
+        // against the single `answerKeyEntries` blindly, so re-running
+        // "Set Answer Key" can't silently misgrade a queued multi-set
+        // sheet just because this route only knows one key by name.
+        const resolvedAnswerKeyEntries = resolveAnswerKeyForSet(setMappings, upload.detectedSetCode, answerKeyEntries)!;
+        const grading = evaluateOmrSheet(scans, resolvedAnswerKeyEntries, DEFAULT_MARKING_SCHEME);
 
         await tx.omrUpload.update({
           where: { id: upload.id },

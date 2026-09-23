@@ -4,6 +4,7 @@ import {
   decodeDigitGrid,
   detectFiducialCorners,
   evaluateOmrSheet,
+  resolveAnswerKeyForSet,
   sampleBubbleFillRatio,
   type BubbleOption,
   type GrayscaleImage,
@@ -12,6 +13,7 @@ import {
   type OmrSheetEvaluationSummary,
   type OmrSheetSpec,
   type Point,
+  type SetMappings,
 } from "@vedicneev/engine";
 
 /**
@@ -38,8 +40,10 @@ export type OmrAnalysisResult =
       outcome: "MATCHED";
       rosterEntryId: string;
       detectedSheetToken: string;
+      /** "SET_1".."SET_5" when spec.setGrid is non-empty and exactly one set bubble was filled; null for a single-set batch, or when the set bubble couldn't be read unambiguously. */
+      detectedSetCode: string | null;
       scans: OmrQuestionScan[];
-      /** null when there's no answerKey to grade against yet (see TestBatch.answerKey's own comment) — the caller persists this as QUEUED rather than GRADED. */
+      /** null when there's no answerKey to grade against yet — either TestBatch.answerKey is unset (see its own comment), or this is a multi-set batch whose Set bubble couldn't be read. The caller persists this as QUEUED rather than GRADED either way. */
       grading: OmrSheetEvaluationSummary | null;
     };
 
@@ -64,7 +68,10 @@ export function analyzeOmrUpload(
   image: GrayscaleImage,
   spec: OmrSheetSpec,
   rosterEntries: RosterEntryForMatching[],
-  answerKeyEntries: OmrAnswerKeyEntry[] | null
+  /** The single-set batch's frozen key — used as-is whenever spec.setGrid is empty, and as the fallback whenever a multi-set batch's Set bubble can't be read. */
+  defaultAnswerKeyEntries: OmrAnswerKeyEntry[] | null,
+  /** Present only for a multi-set batch (see TestBatch.setMappings) — resolved against whichever Set bubble this sheet actually has filled, never against a pre-assumed set. */
+  setMappings: SetMappings | null = null
 ): OmrAnalysisResult {
   const fiducialResult = detectFiducialCorners(image);
   if (!fiducialResult) {
@@ -104,6 +111,18 @@ export function analyzeOmrUpload(
     };
   }
 
+  // Read exactly like an answer bubble (same threshold, same sampling
+  // call) — the Set strip is just a single-choice question with
+  // spec.setGrid.length options instead of 4. An empty setGrid (every
+  // single-set batch) makes this loop a no-op, leaving detectedSetCode
+  // null and defaultAnswerKeyEntries as the only resolution path below.
+  const filledSetNumbers: number[] = [];
+  for (const cell of spec.setGrid) {
+    const fillRatio = sampleBubbleFillRatio(image, homography, { x: cell.x, y: cell.y }, 6);
+    if (fillRatio > FILL_THRESHOLD) filledSetNumbers.push(cell.setNumber);
+  }
+  const detectedSetCode = filledSetNumbers.length === 1 ? `SET_${filledSetNumbers[0]}` : null;
+
   const markedByQuestion = new Map<number, BubbleOption[]>();
   for (const bubble of spec.bubbles) {
     const fillRatio = sampleBubbleFillRatio(image, homography, { x: bubble.x, y: bubble.y }, 6);
@@ -119,7 +138,17 @@ export function analyzeOmrUpload(
     markedOptions: (markedByQuestion.get(i + 1) ?? []) as BubbleOption[],
   }));
 
-  const grading = answerKeyEntries ? evaluateOmrSheet(scans, answerKeyEntries, DEFAULT_MARKING_SCHEME) : null;
+  // Resolve WHICH answer key to grade against from what was actually
+  // scanned, never from a pre-assumed assignment (see
+  // TestBatchRosterEntry.setCode's own comment) — a multi-set batch whose
+  // Set bubble came back ambiguous falls through to
+  // defaultAnswerKeyEntries, same as a plain single-set batch would, so
+  // this sheet is safely held QUEUED rather than graded against a guess.
+  const resolvedAnswerKeyEntries = resolveAnswerKeyForSet(setMappings, detectedSetCode, defaultAnswerKeyEntries);
 
-  return { outcome: "MATCHED", rosterEntryId: rosterEntry.id, detectedSheetToken, scans, grading };
+  const grading = resolvedAnswerKeyEntries
+    ? evaluateOmrSheet(scans, resolvedAnswerKeyEntries, DEFAULT_MARKING_SCHEME)
+    : null;
+
+  return { outcome: "MATCHED", rosterEntryId: rosterEntry.id, detectedSheetToken, detectedSetCode, scans, grading };
 }

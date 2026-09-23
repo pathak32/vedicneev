@@ -32,6 +32,11 @@ export interface OmrRollNumberDigitPosition extends Point {
   value: number;
 }
 
+/** One bubble in the Set-code strip — `setNumber` is 1-based ("SET_1", "SET_2", ...), matching questionShuffler.ts's SetMappings keys. */
+export interface OmrSetBubblePosition extends Point {
+  setNumber: number;
+}
+
 export type OmrExamType = "JNVST" | "AISSEE" | "RMS" | "OTHER";
 
 export interface OmrSheetSpec {
@@ -59,6 +64,16 @@ export interface OmrSheetSpec {
    */
   sheetTokenDigits: number;
   sheetTokenGrid: OmrRollNumberDigitPosition[];
+  /**
+   * Multi-set generation only (packages/engine/src/questionShuffler.ts) —
+   * a single-choice bubble strip, one bubble per generated set, pre-filled
+   * at print time to whichever set that physical sheet belongs to. Empty
+   * whenever setCount is 0/omitted (every pre-existing sheet spec and
+   * every single-set batch), so this is purely additive geometry, same
+   * backward-compatibility shape sheetTokenDigits already established.
+   */
+  setCount: number;
+  setGrid: OmrSetBubblePosition[];
 }
 
 function defaultColumnsFor(totalQuestions: number): number {
@@ -72,6 +87,8 @@ export interface GenerateOmrSheetSpecParams {
   rollNumberDigits?: number;
   /** See OmrSheetSpec.sheetTokenDigits — omit entirely for a non-institute sheet. */
   sheetTokenDigits?: number;
+  /** See OmrSheetSpec.setCount — omit (or pass <2) entirely for a single-set batch. */
+  setCount?: number;
 }
 
 export function generateOmrSheetSpec(params: GenerateOmrSheetSpecParams): OmrSheetSpec {
@@ -152,6 +169,23 @@ export function generateOmrSheetSpec(params: GenerateOmrSheetSpecParams): OmrShe
     }
   }
 
+  // Set-code strip: a single row of setCount bubbles, in the narrow band
+  // between the roll/token id boxes (which end at rollGridBottom = 0.2)
+  // and the question grid (which starts at gridTop = 0.24) — chosen
+  // specifically because renderInstituteOmrPrintHtml.ts's decorative
+  // id/answer section frames already leave this band empty, so a new
+  // bubble row here can't collide with either.
+  const setCount = params.setCount && params.setCount >= 2 ? params.setCount : 0;
+  const setGridY = 0.222;
+  const setGridLeft = 0.06;
+  const setGridRight = 0.4;
+  const setSpacing = setCount > 1 ? (setGridRight - setGridLeft) / (setCount - 1) : 0;
+
+  const setGrid: OmrSheetSpec["setGrid"] = [];
+  for (let s = 1; s <= setCount; s++) {
+    setGrid.push({ setNumber: s, x: setGridLeft + (s - 1) * setSpacing, y: setGridY });
+  }
+
   return {
     examType,
     totalQuestions,
@@ -163,6 +197,8 @@ export function generateOmrSheetSpec(params: GenerateOmrSheetSpecParams): OmrShe
     rollNumberGrid,
     sheetTokenDigits,
     sheetTokenGrid,
+    setCount,
+    setGrid,
   };
 }
 
