@@ -26,6 +26,11 @@ export const dynamic = "force-dynamic";
 export default async function ProtectedLayout({ children }: { children: React.ReactNode }) {
   const session = await getInstituteSession();
   if (!session) redirect("/login");
+  // A valid InstituteAdmin whose Institute isn't ACTIVE yet (still
+  // PENDING_APPROVAL, or SUSPENDED) gets none of the dashboard/test-creation
+  // pages under here — /onboarding/pending is the one page that IS reachable
+  // in that state, and explains why.
+  if (session.institute.status !== "ACTIVE") redirect("/onboarding/pending");
 
   return (
     <DashboardShell instituteName={session.institute.name} role={session.admin.role}>

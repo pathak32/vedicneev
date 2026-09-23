@@ -38,6 +38,7 @@ const PUBLIC_PATHS = new Set([
   "/robots.txt",
   "/api/auth/whatsapp/send-otp",
   "/api/auth/whatsapp/verify-otp",
+  "/api/auth/password/login",
   "/api/webhook/payment",
 ]);
 

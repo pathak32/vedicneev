@@ -1,8 +1,9 @@
 import { randomInt } from "crypto";
 import { prisma, type Institute } from "@vedicneev/db";
 
+import { hashSecret, validateSecretShape } from "@/lib/auth/password";
+
 const EXAM_CATEGORIES = new Set(["JNVST", "AISSEE", "RMS"]);
-const WELCOME_CREDIT_GRANT = 10;
 
 export interface CreateInstituteInput {
   userId: string;
@@ -10,6 +11,8 @@ export interface CreateInstituteInput {
   examCategory: string;
   branchCity: string;
   adminName: string;
+  /** Optional — a PIN/password set at signup, or left unset to rely on WhatsApp OTP only (settable later from /settings). */
+  password?: string;
 }
 
 export type CreateInstituteResult = { ok: true; institute: Institute } | { ok: false; status: number; error: string };
@@ -46,15 +49,27 @@ export async function createInstitute(input: CreateInstituteInput): Promise<Crea
   if (!branchCity) return { ok: false, status: 400, error: "Branch/City is required." };
   if (!adminName) return { ok: false, status: 400, error: "Admin Name is required." };
 
+  const password = input.password?.trim() || null;
+  if (password) {
+    const shapeError = validateSecretShape(password);
+    if (shapeError) return { ok: false, status: 400, error: shapeError };
+  }
+
   const existing = await prisma.instituteAdmin.findUnique({ where: { userId: input.userId } });
   if (existing) return { ok: false, status: 409, error: "This account is already linked to an institute." };
 
   const baseSlug = slugify(instituteName);
+  const passwordHash = password ? await hashSecret(password) : null;
 
   for (let attempt = 0; attempt < 5; attempt++) {
     const slug = candidateSlug(baseSlug);
     try {
       const institute = await prisma.$transaction(async (tx) => {
+        // status defaults to PENDING_APPROVAL (see InstituteStatus) — no
+        // welcome credit grant happens here anymore; that now happens
+        // exactly once, atomically with the status flip to ACTIVE, when a
+        // VedicNeev super admin approves this institute (see
+        // apps/web/app/api/admin/institutes/[id]/approve/route.ts).
         const created = await tx.institute.create({
           data: { name: instituteName, slug, tier: "STARTER", primaryExamCategory: examCategory },
         });
@@ -64,20 +79,10 @@ export async function createInstitute(input: CreateInstituteInput): Promise<Crea
         });
 
         await tx.instituteAdmin.create({
-          data: { userId: input.userId, instituteId: created.id, branchId: branch.id, role: "OWNER" },
+          data: { userId: input.userId, instituteId: created.id, branchId: branch.id, role: "OWNER", passwordHash },
         });
 
         await tx.user.update({ where: { id: input.userId }, data: { name: adminName } });
-
-        // Pilot welcome grant — this institute has no InstituteSubscription
-        // row yet (only created once it checks out a plan via /billing, see
-        // apps/omrtest/src/lib/payments/instituteBillingService.ts), so the
-        // credit-cap check in app/api/tests/[id]/upload and .../answer-key
-        // finds none and skips the cap entirely; this row exists so the
-        // dashboard has a real, non-zero balance to show from day one.
-        await tx.instituteCreditLedger.create({
-          data: { instituteId: created.id, delta: WELCOME_CREDIT_GRANT, reason: "MONTHLY_GRANT" },
-        });
 
         return created;
       });

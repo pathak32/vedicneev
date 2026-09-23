@@ -13,9 +13,16 @@ interface FormState {
   examCategory: string;
   branchCity: string;
   adminName: string;
+  password: string;
 }
 
-const EMPTY_FORM: FormState = { instituteName: "", examCategory: "JNVST", branchCity: "", adminName: "" };
+const EMPTY_FORM: FormState = {
+  instituteName: "",
+  examCategory: "JNVST",
+  branchCity: "",
+  adminName: "",
+  password: "",
+};
 
 /**
  * One-time signup form for an authenticated-but-unboarded Supabase user —
@@ -55,7 +62,10 @@ export function OnboardingForm() {
         setSubmitting(false);
         return;
       }
-      router.push("/dashboard");
+      // Every new institute starts PENDING_APPROVAL (see createInstitute.ts)
+      // — pushing straight to the pending view skips the redirect hop
+      // app/(protected)/layout.tsx would otherwise bounce /dashboard through.
+      router.push("/onboarding/pending");
       router.refresh();
     } catch {
       setError("Network error — could not reach the server.");
@@ -110,6 +120,21 @@ export function OnboardingForm() {
           placeholder="Your full name"
           disabled={submitting}
         />
+      </div>
+
+      <div>
+        <Label htmlFor="password">Password or PIN (optional)</Label>
+        <Input
+          id="password"
+          type="password"
+          value={form.password}
+          onChange={(e) => update("password", e.target.value)}
+          placeholder="6-digit PIN or a password (8+ characters)"
+          disabled={submitting}
+        />
+        <p className="mt-1 text-xs text-muted-foreground">
+          Set this now for fast daily sign-in, or skip it — WhatsApp OTP always works either way.
+        </p>
       </div>
 
       {error ? (

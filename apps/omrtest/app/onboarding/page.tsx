@@ -22,7 +22,7 @@ export default async function OnboardingPage() {
   if (!userId) redirect("/login");
 
   const session = await getInstituteSession();
-  if (session) redirect("/dashboard");
+  if (session) redirect(session.institute.status === "ACTIVE" ? "/dashboard" : "/onboarding/pending");
 
   return (
     <div className="flex min-h-screen items-center justify-center bg-slate-50 px-4 py-12">

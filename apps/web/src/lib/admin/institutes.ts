@@ -1,8 +1,9 @@
-import { prisma } from "@vedicneev/db";
+import { prisma, type InstituteStatus } from "@vedicneev/db";
 
 export interface InstituteAuditRow {
   id: string;
   name: string;
+  status: InstituteStatus;
   branchCity: string | null;
   adminPhone: string | null;
   examCategory: string | null;
@@ -36,6 +37,7 @@ export async function getAllInstitutesForAdmin(): Promise<InstituteAuditRow[]> {
     return {
       id: institute.id,
       name: institute.name,
+      status: institute.status,
       branchCity: owner?.branch?.city ?? null,
       adminPhone: owner?.user.phone ?? null,
       examCategory: institute.primaryExamCategory,

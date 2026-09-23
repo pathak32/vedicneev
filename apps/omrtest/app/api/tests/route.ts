@@ -20,6 +20,13 @@ export async function POST(request: Request) {
   if (!session) {
     return NextResponse.json({ error: "Not authenticated." }, { status: 401 });
   }
+  // Defense in depth: app/(protected)/layout.tsx already keeps a
+  // non-ACTIVE institute off the /tests/new page entirely, but this is the
+  // route that actually creates a TestBatch, so it enforces the same rule
+  // itself rather than trusting the page never to have been bypassed.
+  if (session.institute.status !== "ACTIVE") {
+    return NextResponse.json({ error: "Your institute is awaiting approval and can't create test batches yet." }, { status: 403 });
+  }
 
   let body: RequestBody;
   try {

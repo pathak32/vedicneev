@@ -1105,31 +1105,31 @@ enum ContentBlockStatus {
 }
 
 model ContentBlock {
-  id           String               @id @default(cuid())
-  brand        ContentBlockBrand
-  category     ContentBlockCategory
+  id       String               @id @default(cuid())
+  brand    ContentBlockBrand
+  category ContentBlockCategory
 
   // The opening line — a real-world operational observation or coaching
   // pain point, never a generic marketing lede (see prisma/seed-content-library.ts
   // for the founder-voice tone rules every seeded hookText follows).
-  hookText     String               @map("hook_text")
-  bodyContent  String               @map("body_content")
-  ctaText      String               @map("cta_text")
+  hookText    String @map("hook_text")
+  bodyContent String @map("body_content")
+  ctaText     String @map("cta_text")
 
-  status       ContentBlockStatus   @default(DRAFT)
+  status       ContentBlockStatus @default(DRAFT)
   // Set by the admin dashboard's "Schedule" action; null for a DRAFT/
   // APPROVED block that has no target date yet. Purely a target the admin
   // works toward — nothing in this codebase auto-fires a publish at this
   // time, /api/linkedin/publish is always a manual "Publish to LinkedIn" click.
-  scheduledFor DateTime?            @map("scheduled_for")
+  scheduledFor DateTime?          @map("scheduled_for")
 
   // Set only once /api/linkedin/publish's dispatch actually succeeds —
   // the returned UGC Post URN, kept for audit ("did this really go out,
   // and to which LinkedIn post") without re-querying LinkedIn's API.
-  linkedinPostUrn String?           @map("linkedin_post_urn")
-  publishedAt     DateTime?         @map("published_at")
+  linkedinPostUrn String?   @map("linkedin_post_urn")
+  publishedAt     DateTime? @map("published_at")
 
-  createdAt    DateTime             @default(now()) @map("created_at")
+  createdAt DateTime @default(now()) @map("created_at")
 
   @@index([brand, status])
   @@index([status, scheduledFor])
@@ -1193,6 +1193,19 @@ enum InstituteAdminRole {
   STAFF
 }
 
+// PENDING_APPROVAL is the default for every newly onboarded institute — no
+// welcome credit grant happens until a VedicNeev super admin approves it
+// (see InstituteCreditLedger's writer in the approval route), and
+// app/(protected)/layout.tsx redirects anything short of ACTIVE to
+// /onboarding/pending instead of the dashboard. SUSPENDED is a manual,
+// post-approval revocation (e.g. a billing dispute) — same gate, same
+// redirect target, distinguished only by that page's copy.
+enum InstituteStatus {
+  PENDING_APPROVAL
+  ACTIVE
+  SUSPENDED
+}
+
 // Append-only reasons for a credit_ledger row — never delete/edit a row to
 // "fix" a balance; write a new row with the correcting delta instead, so
 // SUM(delta) always reconstructs an honest history for a support dispute.
@@ -1214,21 +1227,22 @@ enum OmrUploadStatus {
 }
 
 model Institute {
-  id                  String        @id @default(cuid())
+  id                  String          @id @default(cuid())
   name                String
-  slug                String        @unique
+  slug                String          @unique
   tier                InstituteTier
   // Free-text, not an enum — same rationale as TestBatch.examCategory: an
   // institute's primary focus is unbounded and purely a reporting/branding
   // label. Set once at onboarding; a given TestBatch can still carry its
   // own, different examCategory later.
-  primaryExamCategory String?       @map("primary_exam_category")
+  primaryExamCategory String?         @map("primary_exam_category")
   // Report-card white-labeling (Growth: toggle-able; Enterprise: always on
   // with no VedicNeev credit — that distinction is enforced in app code,
   // not the schema, off `tier` + `InstituteSubscription`).
-  logoUrl             String?       @map("logo_url")
-  brandColor          String?       @map("brand_color")
-  createdAt           DateTime      @default(now()) @map("created_at")
+  logoUrl             String?         @map("logo_url")
+  brandColor          String?         @map("brand_color")
+  status              InstituteStatus @default(PENDING_APPROVAL)
+  createdAt           DateTime        @default(now()) @map("created_at")
 
   branches     InstituteBranch[]
   admins       InstituteAdmin[]
@@ -1265,15 +1279,21 @@ model InstituteBranch {
 // userId is unique because today one person administers exactly one
 // institute — revisit if a franchise operator ever needs to run several.
 model InstituteAdmin {
-  id          String             @id @default(cuid())
-  userId      String             @unique @map("user_id")
-  user        User               @relation(fields: [userId], references: [id], onDelete: Cascade)
-  instituteId String             @map("institute_id")
-  institute   Institute          @relation(fields: [instituteId], references: [id], onDelete: Cascade)
-  branchId    String?            @map("branch_id")
-  branch      InstituteBranch?   @relation(fields: [branchId], references: [id], onDelete: SetNull)
-  role        InstituteAdminRole @default(OWNER)
-  createdAt   DateTime           @default(now()) @map("created_at")
+  id           String             @id @default(cuid())
+  userId       String             @unique @map("user_id")
+  user         User               @relation(fields: [userId], references: [id], onDelete: Cascade)
+  instituteId  String             @map("institute_id")
+  institute    Institute          @relation(fields: [instituteId], references: [id], onDelete: Cascade)
+  branchId     String?            @map("branch_id")
+  branch       InstituteBranch?   @relation(fields: [branchId], references: [id], onDelete: SetNull)
+  role         InstituteAdminRole @default(OWNER)
+  // Bcrypt hash of either a full password or a 6-digit PIN — same column,
+  // since both are just "a secret string hashed the same way" and the
+  // login route never needs to know which shape produced it. Null until
+  // the admin opts into password/PIN login (at onboarding or from
+  // /settings); WhatsApp OTP always remains available regardless.
+  passwordHash String?            @map("password_hash")
+  createdAt    DateTime           @default(now()) @map("created_at")
 
   @@index([instituteId])
   @@index([branchId])
@@ -1318,21 +1338,21 @@ model InstituteSubscription {
 // refunded with a new offsetting row (SCAN_REJECTED_REFUND) instead of an
 // update that erases the audit trail a billing dispute needs.
 model InstituteCreditLedger {
-  id          String             @id @default(cuid())
-  instituteId String             @map("institute_id")
-  institute   Institute          @relation(fields: [instituteId], references: [id], onDelete: Cascade)
-  delta       Int
-  reason      CreditLedgerReason
-  testBatchId String?            @map("test_batch_id")
-  omrUploadId String?            @map("omr_upload_id")
+  id                String             @id @default(cuid())
+  instituteId       String             @map("institute_id")
+  institute         Institute          @relation(fields: [instituteId], references: [id], onDelete: Cascade)
+  delta             Int
+  reason            CreditLedgerReason
+  testBatchId       String?            @map("test_batch_id")
+  omrUploadId       String?            @map("omr_upload_id")
   // Set only for reason = TOPUP_PURCHASE — the Order/Payment that granted
   // this row, read back by the webhook (payment.captured) so a redelivered
   // event can't double-grant the same top-up's credits (findFirst by
   // razorpayPaymentId before creating a new row — see
   // applyInstituteCreditTopup in apps/omrtest/src/lib/payments).
-  razorpayOrderId   String?      @map("razorpay_order_id")
-  razorpayPaymentId String?      @map("razorpay_payment_id")
-  createdAt   DateTime           @default(now()) @map("created_at")
+  razorpayOrderId   String?            @map("razorpay_order_id")
+  razorpayPaymentId String?            @map("razorpay_payment_id")
+  createdAt         DateTime           @default(now()) @map("created_at")
 
   @@index([instituteId, createdAt])
   @@map("institute_credit_ledger")

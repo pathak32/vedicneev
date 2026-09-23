@@ -51,13 +51,15 @@ export async function getInstituteSession(): Promise<InstituteSession | null> {
 
 /**
  * Where to send an InstituteAdmin right after their session is confirmed —
- * shared by the login callback and the protected layout's redirect. `next`
- * is untrusted (it travels through a query string on a login redirect), so
- * it's only ever honored when it's a same-app relative path; anything else
- * (an absolute URL, a `//host` scheme-relative one, or missing) falls back
- * to onboarding-vs-dashboard based on real state instead.
+ * used by the login callback. `next` is untrusted (it travels through a
+ * query string on a login redirect), so it's only ever honored when it's a
+ * same-app relative path; anything else (an absolute URL, a `//host`
+ * scheme-relative one, or missing) falls back to real-state routing
+ * instead: no session -> /onboarding; a session whose Institute isn't
+ * ACTIVE yet -> /onboarding/pending; otherwise -> /dashboard.
  */
-export function resolvePostLoginRedirect(isOnboarded: boolean, next?: string | null): string {
+export function resolvePostLoginRedirect(session: InstituteSession | null, next?: string | null): string {
   if (next && next.startsWith("/") && !next.startsWith("//")) return next;
-  return isOnboarded ? "/dashboard" : "/onboarding";
+  if (!session) return "/onboarding";
+  return session.institute.status === "ACTIVE" ? "/dashboard" : "/onboarding/pending";
 }

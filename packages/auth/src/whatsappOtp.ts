@@ -202,7 +202,7 @@ export async function verifyWhatsAppOtp(phone: string, code: string | undefined)
   return NextResponse.json({ success: true, mock: false, user: { id: dbUser.id, phone: dbUser.phone } });
 }
 
-type BridgeResult = { authUserId: string } | { error: string };
+export type BridgeResult = { authUserId: string } | { error: string };
 
 /**
  * Turns a WhatsApp-verified phone number into a real Supabase session,
@@ -212,6 +212,13 @@ type BridgeResult = { authUserId: string } | { error: string };
  * token, then redeem it through a cookie-aware server client so the
  * resulting sb-access-token/sb-refresh-token cookies land on THIS route's
  * response automatically):
+ *
+ * Exported so a password/PIN login route (see apps/omrtest's
+ * password-login route) can issue the exact same kind of session for an
+ * already-verified phone — "verified" by whatever means that caller used
+ * (OTP here, a bcrypt password/PIN compare there) — satisfying "session
+ * creation and role resolution remain identical regardless of the chosen
+ * login method" by construction: both paths call this one function.
  *
  * 1. admin.createUser — ensures a Supabase auth user exists for this phone
  *    (idempotent; "already registered" is expected and ignored on repeat
@@ -229,7 +236,7 @@ type BridgeResult = { authUserId: string } | { error: string };
  *    readable on the OTHER subdomain too, regardless of which app's route
  *    handler this function runs inside.
  */
-async function bridgeToSupabaseSession(phone: string): Promise<BridgeResult> {
+export async function bridgeToSupabaseSession(phone: string): Promise<BridgeResult> {
   const adminClient = createSupabaseAdminClient();
   if (!adminClient) {
     return { error: "SUPABASE_SERVICE_ROLE_KEY is not configured on the server." };

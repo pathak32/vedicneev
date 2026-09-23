@@ -3,8 +3,8 @@ import { NextResponse } from "next/server";
 import { getAuthenticatedSupabaseUserId } from "@/lib/institute/session";
 import { createInstitute } from "@/lib/institute/createInstitute";
 
-// Writes Institute/InstituteBranch/InstituteAdmin/InstituteCreditLedger rows
-// and updates the User row — never cache or statically collect this route.
+// Writes Institute/InstituteBranch/InstituteAdmin rows and updates the User
+// row — never cache or statically collect this route.
 export const dynamic = "force-dynamic";
 
 interface RequestBody {
@@ -12,6 +12,7 @@ interface RequestBody {
   examCategory?: string;
   branchCity?: string;
   adminName?: string;
+  password?: string;
 }
 
 export async function POST(request: Request) {
@@ -33,6 +34,7 @@ export async function POST(request: Request) {
     examCategory: body.examCategory ?? "",
     branchCity: body.branchCity ?? "",
     adminName: body.adminName ?? "",
+    password: body.password,
   });
 
   if (!result.ok) {

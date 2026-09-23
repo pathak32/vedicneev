@@ -30,7 +30,7 @@ export async function GET(request: NextRequest) {
   }
 
   const session = await getInstituteSession();
-  const redirectUrl = new URL(resolvePostLoginRedirect(Boolean(session), next), request.url);
+  const redirectUrl = new URL(resolvePostLoginRedirect(session, next), request.url);
   const response = NextResponse.redirect(redirectUrl);
 
   // The flag only ever means "authenticated" here, not "fully onboarded" —
