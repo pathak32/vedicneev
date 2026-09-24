@@ -1,6 +1,7 @@
 import { Badge } from "@vedicneev/ui";
 
-import { renderMarkdown } from "@/lib/blog/markdown";
+import { renderMarkdown, splitMarkdownAtMidpoint } from "@/lib/blog/markdown";
+import { BlogCtaBanner } from "./BlogCtaBanner";
 
 export interface BlogArticlePost {
   title: string;
@@ -16,7 +17,12 @@ export interface BlogArticleProps {
 
 /** Shared renderer for a full article — used by both /blog/[slug] (public) and /admin/blogs/[id]/preview (draft). */
 export function BlogArticle({ post }: BlogArticleProps) {
-  const html = renderMarkdown(post.content);
+  // Splits at the middle `##` heading so the mid-article CTA lands on a
+  // real section boundary, never mid-sentence — see splitMarkdownAtMidpoint's
+  // own comment for the short-post fallback (no `after` half at all).
+  const { before, after } = splitMarkdownAtMidpoint(post.content);
+  const beforeHtml = renderMarkdown(before);
+  const afterHtml = after ? renderMarkdown(after) : null;
 
   return (
     <article className="mx-auto flex max-w-2xl flex-col gap-6 px-4 py-12 md:px-8">
@@ -48,8 +54,19 @@ export function BlogArticle({ post }: BlogArticleProps) {
       */}
       <div
         className="prose prose-neutral max-w-none dark:prose-invert prose-headings:font-bold prose-a:text-primary"
-        dangerouslySetInnerHTML={{ __html: html }}
+        dangerouslySetInnerHTML={{ __html: beforeHtml }}
       />
+
+      <BlogCtaBanner />
+
+      {afterHtml ? (
+        <div
+          className="prose prose-neutral max-w-none dark:prose-invert prose-headings:font-bold prose-a:text-primary"
+          dangerouslySetInnerHTML={{ __html: afterHtml }}
+        />
+      ) : null}
+
+      <BlogCtaBanner />
     </article>
   );
 }
