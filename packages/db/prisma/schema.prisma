@@ -1573,6 +1573,75 @@ model CoachingLead {
 }
 
 // ─────────────────────────────────────────────────────────────────────────
+// GymOps & Member Retention Engine — B2B module for independent gyms and
+// boutique fitness studios. Deliberately its own cluster (not reusing any
+// consumer-product models) since gym owners are a separate billing entity
+// with no relation to the VedicNeev student/parent identity graph.
+// ─────────────────────────────────────────────────────────────────────────
+
+enum GymMemberStatus {
+  ACTIVE
+  EXPIRED
+  AT_RISK
+}
+
+model Gym {
+  id                 String             @id @default(cuid())
+  name               String
+  ownerName          String             @map("owner_name")
+  phone              String
+  city               String
+  // Reuses the consumer SubscriptionStatus enum (ACTIVE/EXPIRED/CANCELLED) —
+  // same lifecycle shape; no separate enum needed.
+  subscriptionStatus SubscriptionStatus @default(ACTIVE) @map("subscription_status")
+  createdAt          DateTime           @default(now()) @map("created_at")
+
+  members   GymMember[]
+  dietPlans GymDietPlan[]
+
+  @@map("gyms")
+}
+
+model GymMember {
+  id              String          @id @default(cuid())
+  gymId           String          @map("gym_id")
+  gym             Gym             @relation(fields: [gymId], references: [id], onDelete: Cascade)
+  name            String
+  phone           String
+  membershipStart DateTime        @map("membership_start")
+  membershipEnd   DateTime        @map("membership_end")
+  assignedTrainer String?         @map("assigned_trainer")
+  status          GymMemberStatus @default(ACTIVE)
+  createdAt       DateTime        @default(now()) @map("created_at")
+
+  dietPlans GymDietPlan[]
+
+  @@index([gymId])
+  @@index([gymId, status])
+  @@index([membershipEnd])
+  @@map("gym_members")
+}
+
+model GymDietPlan {
+  id         String    @id @default(cuid())
+  gymId      String    @map("gym_id")
+  gym        Gym       @relation(fields: [gymId], references: [id], onDelete: Cascade)
+  memberId   String    @map("member_id")
+  member     GymMember @relation(fields: [memberId], references: [id], onDelete: Cascade)
+  title      String
+  // Structured nutrition/workout plan — stored as Json so trainers can
+  // author rich nested plans (meals, macros, exercises) without a separate
+  // table per content type.
+  details    Json
+  assignedBy String    @map("assigned_by")
+  createdAt  DateTime  @default(now()) @map("created_at")
+
+  @@index([gymId])
+  @@index([memberId])
+  @@map("gym_diet_plans")
+}
+
+// ─────────────────────────────────────────────────────────────────────────
 // Typing Test Suite (typingtest.vedicneev.com) — government-exam-style
 // typing simulation, official Gross/Net Speed + Full/Half Mistake grading
 // (see packages/engine/src/typingEvaluation.ts), and the "Typing Speed &

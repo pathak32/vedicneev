@@ -33,7 +33,12 @@ async function handleAdminGate(request: NextRequest): Promise<NextResponse> {
 
 export async function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
-  if (pathname.startsWith("/admin") || pathname.startsWith("/api/admin")) {
+  if (
+    pathname.startsWith("/admin") ||
+    pathname.startsWith("/api/admin") ||
+    pathname.startsWith("/gym-ops") ||
+    pathname.startsWith("/api/gym-ops")
+  ) {
     return handleAdminGate(request);
   }
   return refreshSupabaseSession(request);
@@ -43,6 +48,8 @@ export const config = {
   matcher: [
     "/admin/:path*",
     "/api/admin/:path*",
+    "/gym-ops/:path*",
+    "/api/gym-ops/:path*",
     // Supabase session refresh for everything else, excluding static
     // assets/images (the standard @supabase/ssr example matcher),
     // /api/exam/submit, and /api/whatsapp/webhook. exam/submit needs no

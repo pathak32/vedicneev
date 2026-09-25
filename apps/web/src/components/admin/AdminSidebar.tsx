@@ -4,7 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Button, Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger, cn } from "@vedicneev/ui";
-import { BookOpenCheck, Building2, ClipboardCheck, FileSearch, Film, LayoutDashboard, Menu, Newspaper, Package, Send, Settings, Share2, Sparkles, Trophy, Zap } from "lucide-react";
+import { BookOpenCheck, Building2, ClipboardCheck, Dumbbell, FileSearch, Film, LayoutDashboard, Menu, Newspaper, Package, Send, Settings, Share2, Sparkles, Trophy, Zap } from "lucide-react";
 
 const NAV_ITEMS = [
   { href: "/admin", label: "Overview", icon: LayoutDashboard },
@@ -20,6 +20,7 @@ const NAV_ITEMS = [
   { href: "/admin/media", label: "Media Library", icon: Film },
   { href: "/admin/store", label: "Digital Knowledge Hub", icon: Package },
   { href: "/admin/settings", label: "System Settings", icon: Settings },
+  { href: "/gym-ops/dashboard", label: "GymOps Engine", icon: Dumbbell },
 ] as const;
 
 /** True for the exact route, or a sub-route of it — except "/admin" itself, which would otherwise match every admin page. */
@@ -27,6 +28,8 @@ function isActive(pathname: string, href: string): boolean {
   if (href === "/admin") return pathname === "/admin";
   return pathname === href || pathname.startsWith(`${href}/`);
 }
+
+
 
 function NavLinks({ pathname, onNavigate }: { pathname: string; onNavigate?: () => void }) {
   return (
