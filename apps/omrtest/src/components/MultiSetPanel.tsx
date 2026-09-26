@@ -9,8 +9,10 @@ import { Select } from "@/components/ui/Select";
 
 interface MultiSetPanelProps {
   testBatchId: string;
-  /** Passed down from AnswerKeyForm's own load, not re-fetched here, so this panel can gate its button on the exact same "is the master key complete" check that form already computed. */
+  /** Lifted into AnswerKeySection (a shared parent) so a save in the sibling AnswerKeyForm can update this live, instead of only ever reflecting the page's initial server-side render. */
   hasCompleteAnswerKey: boolean;
+  /** Bumped by AnswerKeySection on every answer-key save — triggers a re-fetch here, since a resaved key clears any previously-generated setMappings server-side and this panel's own setLabels would otherwise go stale. */
+  refreshToken: number;
 }
 
 const SET_COUNT_OPTIONS = [2, 3, 4, 5];
@@ -24,7 +26,7 @@ const SET_COUNT_OPTIONS = [2, 3, 4, 5];
  * assignments — there's no "undo," same one-shot-mutation convention
  * /tests/new's own metadata gate already uses.
  */
-export function MultiSetPanel({ testBatchId, hasCompleteAnswerKey }: MultiSetPanelProps) {
+export function MultiSetPanel({ testBatchId, hasCompleteAnswerKey, refreshToken }: MultiSetPanelProps) {
   const [loading, setLoading] = useState(true);
   const [setLabels, setSetLabels] = useState<string[] | null>(null);
   const [setCount, setSetCount] = useState(2);
@@ -33,6 +35,7 @@ export function MultiSetPanel({ testBatchId, hasCompleteAnswerKey }: MultiSetPan
 
   useEffect(() => {
     let cancelled = false;
+    setLoading(true);
     fetch(`/api/tests/${testBatchId}/answer-key`)
       .then((res) => res.json())
       .then((data: { setLabels?: string[] | null }) => {
@@ -44,7 +47,7 @@ export function MultiSetPanel({ testBatchId, hasCompleteAnswerKey }: MultiSetPan
     return () => {
       cancelled = true;
     };
-  }, [testBatchId]);
+  }, [testBatchId, refreshToken]);
 
   async function handleGenerate() {
     setGenerating(true);
