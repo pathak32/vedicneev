@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { Download, KeyRound, ScanLine } from "lucide-react";
+import { Download, FileUp, KeyRound, ScanLine } from "lucide-react";
 import { prisma } from "@vedicneev/db";
 
 import { getInstituteSession } from "@/lib/institute/session";
@@ -53,6 +53,12 @@ export default async function TestSheetsPage({ params }: { params: { id: string 
               <Link href={`/tests/${testBatch.id}/upload`}>
                 <ScanLine className="h-4 w-4" aria-hidden="true" />
                 Upload scanned sheets
+              </Link>
+            </Button>
+            <Button asChild variant="outline">
+              <Link href={`/tests/${testBatch.id}/questions`}>
+                <FileUp className="h-4 w-4" aria-hidden="true" />
+                Upload question paper
               </Link>
             </Button>
           </div>

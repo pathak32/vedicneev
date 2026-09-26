@@ -10,6 +10,7 @@ import {
 
 import { getInstituteSession } from "@/lib/institute/session";
 import { parseCompactAnswerKey, parseStoredAnswerKey } from "@/lib/tests/answerKey";
+import { recordMistakesForGrading } from "@/lib/tests/recordMistakes";
 
 // Reads/writes live DB state on every request — never cache or statically
 // collect this route.
@@ -152,6 +153,14 @@ export async function PATCH(request: Request, { params }: { params: { id: string
           },
         });
         await tx.testBatchRosterEntry.update({ where: { id: upload.rosterEntryId }, data: { consumedAt: new Date() } });
+        await recordMistakesForGrading(tx, {
+          testBatchId: testBatch.id,
+          rosterEntryId: upload.rosterEntryId,
+          omrUploadId: upload.id,
+          grading,
+          detectedSetCode: upload.detectedSetCode,
+          setMappings,
+        });
         await tx.instituteCreditLedger.create({
           data: {
             instituteId: testBatch.instituteId,

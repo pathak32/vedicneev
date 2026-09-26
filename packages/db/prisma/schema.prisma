@@ -1416,10 +1416,80 @@ model TestBatch {
 
   rosterEntries TestBatchRosterEntry[]
   omrUploads    OmrUpload[]
+  questionItems TestBatchQuestionItem[]
 
   @@unique([instituteId, testCode])
   @@index([instituteId])
   @@map("test_batches")
+}
+
+// One row per question, parsed from an uploaded .docx/.pdf question paper
+// (see apps/omrtest/src/lib/parsers) — additive to, never a replacement
+// for, TestBatch.answerKey/masterQuestions (which every existing OMR
+// sheet/grading/multi-set code path already reads and keeps working
+// unchanged). This table exists for what those two JSON columns can't
+// give a foreign key into: a specific parsed question, so a graded wrong
+// answer can point at exactly which one it was (see TestBatchMistake).
+//
+// setCode is nullable — null means "the base/master paper" (mirrors
+// TestBatch.answerKey directly); "SET_1".."SET_4" (surfaced to admins as
+// Set A-D) means this question paper IS that set's own real, distinct
+// content, uploaded as-is rather than shuffled by
+// packages/engine/src/questionShuffler.ts — see the save route's own
+// comment on why that means an identity permutation, not a random one.
+model TestBatchQuestionItem {
+  id             String    @id @default(cuid())
+  testBatchId    String    @map("test_batch_id")
+  testBatch      TestBatch @relation(fields: [testBatchId], references: [id], onDelete: Cascade)
+  setCode        String?   @map("set_code")
+  questionNumber Int       @map("question_number")
+  text           String?
+  optionA        String?   @map("option_a")
+  optionB        String?   @map("option_b")
+  optionC        String?   @map("option_c")
+  optionD        String?   @map("option_d")
+  correctOption  String    @map("correct_option")
+  createdAt      DateTime  @default(now()) @map("created_at")
+
+  mistakes TestBatchMistake[]
+
+  @@unique([testBatchId, setCode, questionNumber])
+  @@index([testBatchId])
+  @@map("test_batch_question_items")
+}
+
+// The institute-scoped diagnostic mistake log — written the moment an
+// OmrUpload grades an INCORRECT response against a question this batch
+// actually has a TestBatchQuestionItem for (see analyzeOmrUpload's
+// caller and the answer-key route's re-grade pass; a batch with no
+// parsed question items for that question number simply never gets a row
+// here, since there's nothing to link to).
+//
+// Deliberately its OWN table, not apps/web's MistakeVault: that model is
+// keyed to a consumer User account, and an institute's
+// TestBatchRosterEntry (a roll number on a roster, not necessarily
+// anyone's VedicNeev login) has no compatible identity to key against —
+// see this table's own admin-facing surface for how an institute
+// actually reviews these.
+model TestBatchMistake {
+  id             String                @id @default(cuid())
+  rosterEntryId  String                @map("roster_entry_id")
+  rosterEntry    TestBatchRosterEntry  @relation(fields: [rosterEntryId], references: [id], onDelete: Cascade)
+  questionItemId String                @map("question_item_id")
+  questionItem   TestBatchQuestionItem @relation(fields: [questionItemId], references: [id], onDelete: Cascade)
+  omrUploadId    String?               @map("omr_upload_id")
+  omrUpload      OmrUpload?            @relation(fields: [omrUploadId], references: [id], onDelete: SetNull)
+  // The option the student actually marked — null covers the (rare) case
+  // where this row is later attributed to a re-grade whose raw scan
+  // somehow has no single marked option, but the response still resolved
+  // to INCORRECT (kept nullable rather than dropping the row, so the
+  // roster entry's mistake history stays complete).
+  selectedOption String?               @map("selected_option")
+  createdAt      DateTime              @default(now()) @map("created_at")
+
+  @@index([rosterEntryId])
+  @@index([questionItemId])
+  @@map("test_batch_mistakes")
 }
 
 // One row per student slot in a TestBatch, created up-front (sequentially
@@ -1470,6 +1540,7 @@ model TestBatchRosterEntry {
   // re-uploadable, so a roster entry can accumulate more than one attempt
   // before (or instead of) a successful grade.
   omrUploads OmrUpload[]
+  mistakes   TestBatchMistake[]
 
   @@unique([testBatchId, sequenceNumber])
   @@index([testBatchId])
@@ -1521,6 +1592,8 @@ model OmrUpload {
   gradingResult   Json?                 @map("grading_result")
   creditConsumed  Boolean               @default(false) @map("credit_consumed")
   createdAt       DateTime              @default(now()) @map("created_at")
+
+  mistakes TestBatchMistake[]
 
   @@unique([testBatchId, imageHash])
   @@index([testBatchId, status])

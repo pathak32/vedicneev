@@ -4,6 +4,7 @@ import { generateQuestionSets, MAX_SET_COUNT, MIN_SET_COUNT, type TestSection } 
 
 import { getInstituteSession } from "@/lib/institute/session";
 import { parseStoredAnswerKey } from "@/lib/tests/answerKey";
+import { assignRosterToSets } from "@/lib/tests/assignRosterToSets";
 
 // Writes TestBatch.masterQuestions/setMappings and every roster entry's
 // setCode — never cache or statically collect this route.
@@ -99,13 +100,7 @@ export async function POST(request: Request, { params }: { params: { id: string 
       },
     });
 
-    // Round-robin by roster order — every set gets as close to an equal
-    // share of the roster as totalStudents/setCount allows.
-    for (let i = 0; i < testBatch.rosterEntries.length; i++) {
-      const entry = testBatch.rosterEntries[i]!;
-      const setCode = setLabels[i % setCount]!;
-      await tx.testBatchRosterEntry.update({ where: { id: entry.id }, data: { setCode } });
-    }
+    await assignRosterToSets(tx, testBatch.id, testBatch.rosterEntries, setLabels);
   });
 
   return NextResponse.json({ success: true, setLabels });

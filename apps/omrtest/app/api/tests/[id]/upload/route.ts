@@ -8,6 +8,7 @@ import { computeAverageImageHash, decodeImageToGrayscale } from "@/lib/omr/decod
 import { analyzeOmrUpload, type OmrAnalysisResult, type RosterEntryForMatching } from "@/lib/omr/analyzeOmrUpload";
 import { uploadOmrImage } from "@/lib/omr/uploadStorage";
 import { parseStoredAnswerKey } from "@/lib/tests/answerKey";
+import { recordMistakesForGrading } from "@/lib/tests/recordMistakes";
 
 // Decodes/stores an uploaded image and writes DB rows on every request —
 // never cache or statically collect this route.
@@ -151,6 +152,7 @@ export async function POST(request: Request, { params }: { params: { id: string 
       imageUrl: stored.imageUrl,
       imageHash,
       analysis,
+      setMappings,
     });
   } catch (error) {
     // A genuine race: two near-simultaneous uploads of byte-identical
@@ -174,8 +176,9 @@ async function persistOmrUpload(params: {
   imageUrl: string;
   imageHash: string;
   analysis: OmrAnalysisResult;
+  setMappings: SetMappings | null;
 }): Promise<UploadResponseBody> {
-  const { testBatchId, instituteId, imageUrl, imageHash, analysis } = params;
+  const { testBatchId, instituteId, imageUrl, imageHash, analysis, setMappings } = params;
 
   return prisma.$transaction(async (tx) => {
     if (analysis.outcome === "UNREADABLE") {
@@ -307,6 +310,15 @@ async function persistOmrUpload(params: {
     });
 
     await tx.testBatchRosterEntry.update({ where: { id: analysis.rosterEntryId }, data: { consumedAt: new Date() } });
+
+    await recordMistakesForGrading(tx, {
+      testBatchId,
+      rosterEntryId: analysis.rosterEntryId,
+      omrUploadId: upload.id,
+      grading: analysis.grading!,
+      detectedSetCode: analysis.detectedSetCode,
+      setMappings,
+    });
 
     // Written only after the GRADED row above successfully committed its
     // own create — same ordering rationale as omrGradingService.ts's
