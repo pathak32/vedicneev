@@ -28,14 +28,25 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "Invalid JSON body." }, { status: 400 });
   }
 
-  const result = await createInstitute({
-    userId,
-    instituteName: body.instituteName ?? "",
-    examCategory: body.examCategory ?? "",
-    branchCity: body.branchCity ?? "",
-    adminName: body.adminName ?? "",
-    password: body.password,
-  });
+  let result;
+  try {
+    result = await createInstitute({
+      userId,
+      instituteName: body.instituteName ?? "",
+      examCategory: body.examCategory ?? "",
+      branchCity: body.branchCity ?? "",
+      adminName: body.adminName ?? "",
+      password: body.password,
+    });
+  } catch (error) {
+    // An uncaught exception here previously reached the browser as a bare
+    // "Network error" (a non-JSON 500 that res.json() then throws on) with
+    // no diagnosable cause — this at least gives the client a real,
+    // parseable error and puts the actual cause in server logs.
+    // eslint-disable-next-line no-console
+    console.error("POST /api/institutes: unexpected error from createInstitute:", error);
+    return NextResponse.json({ error: "Could not create your institute — please try again." }, { status: 500 });
+  }
 
   if (!result.ok) {
     return NextResponse.json({ error: result.error }, { status: result.status });
