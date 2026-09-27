@@ -165,6 +165,26 @@ export function ExamTracksHub() {
           </Card>
         </div>
 
+        {/* NDA/CDS — syllabus-only pages (no question bank/mock yet), kept
+            separate from the interactive board switcher above so adding
+            them never risks the existing JNVST/AISSEE/RMS experience. */}
+        <div className="mx-auto flex max-w-4xl flex-wrap items-center justify-center gap-3">
+          <span className="text-xs font-bold uppercase tracking-wider text-gray-400">Also preparing for</span>
+          {(["nda", "cds"] as const).map((board) => (
+            <Link
+              key={board}
+              href={`/exam-boards/${board}`}
+              className="inline-flex items-center gap-2 rounded-2xl border border-gray-200 bg-white px-4 py-2 text-xs font-extrabold text-gray-700 shadow-xs transition-all hover:bg-amber-50"
+            >
+              <Award className="h-3.5 w-3.5 text-amber-600" />
+              {board.toUpperCase()}
+              <span className="rounded-full bg-amber-100 px-2 py-0.5 text-[10px] font-bold text-amber-800">
+                Syllabus · Coming Soon
+              </span>
+            </Link>
+          ))}
+        </div>
+
       </div>
     </section>
   );
