@@ -77,7 +77,11 @@ const CSV_HEADER_ALIASES: Record<string, string[]> = {
   B: ["b", "optionb"],
   C: ["c", "optionc"],
   D: ["d", "optiond"],
-  correctOption: ["answer", "ans", "correct", "correctoption", "key"],
+  // Deliberately excludes bare "key" — several real exports (e.g. a
+  // question-bank export) have an unrelated identifier/slug column
+  // literally named "key", which would otherwise match first and steal
+  // this column away from the actual answer column.
+  correctOption: ["answer", "ans", "correct", "correctoption", "correctanswer", "answerkey", "rightanswer"],
 };
 
 function splitCsvLine(line: string): string[] {
