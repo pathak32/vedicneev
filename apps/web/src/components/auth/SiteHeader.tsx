@@ -21,6 +21,7 @@ import { useT } from "@/lib/i18n/useT";
 import { institutePartnerUrl } from "@/lib/institute/instituteUrl";
 import { readInstitutePartnerFlagFromDocument } from "@/lib/institute/partnerFlag";
 import { BOARD_DATA, type BoardType } from "@/lib/marketing/examBoards";
+import { COMING_SOON_BOARD_DATA, type ComingSoonBoardType } from "@/lib/marketing/comingSoonBoards";
 import { ExamDropdown } from "./ExamDropdown";
 import { PhoneAuthModal } from "./PhoneAuthModal";
 import { StudentSwitcherDropdown } from "./StudentSwitcherDropdown";
@@ -95,6 +96,12 @@ function ExamBoardsMenu() {
         {(Object.keys(BOARD_DATA) as BoardType[]).map((boardKey) => (
           <DropdownMenuItem key={boardKey} asChild>
             <Link href={`/exam-boards/${boardKey}`}>{t(BOARD_DATA[boardKey].nameKey)}</Link>
+          </DropdownMenuItem>
+        ))}
+        <DropdownMenuLabel>Syllabus · Coming Soon</DropdownMenuLabel>
+        {(Object.keys(COMING_SOON_BOARD_DATA) as ComingSoonBoardType[]).map((boardKey) => (
+          <DropdownMenuItem key={boardKey} asChild>
+            <Link href={`/exam-boards/${boardKey}`}>{COMING_SOON_BOARD_DATA[boardKey].name}</Link>
           </DropdownMenuItem>
         ))}
       </DropdownMenuContent>
