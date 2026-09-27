@@ -14,7 +14,11 @@ const MAX_UPLOAD_BYTES = 15 * 1024 * 1024;
 const SUPPORTED_TYPES = new Set([
   "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
   "application/pdf",
+  "text/plain",
+  "text/csv",
+  "application/vnd.ms-excel",
 ]);
+const SUPPORTED_EXTENSIONS = [".docx", ".pdf", ".txt", ".csv"];
 
 export async function POST(request: Request, { params }: { params: { id: string } }) {
   const session = await getInstituteSession();
@@ -36,17 +40,18 @@ export async function POST(request: Request, { params }: { params: { id: string 
 
   const file = formData.get("file");
   if (!(file instanceof File)) {
-    return NextResponse.json({ error: '"file" is required — a .docx or .pdf question paper.' }, { status: 400 });
+    return NextResponse.json({ error: '"file" is required — a .docx, .pdf, .txt, or .csv question paper.' }, { status: 400 });
   }
-  if (!SUPPORTED_TYPES.has(file.type)) {
-    return NextResponse.json({ error: `Unsupported file type "${file.type}" — upload a .docx or .pdf.` }, { status: 400 });
+  const hasSupportedExtension = SUPPORTED_EXTENSIONS.some((ext) => file.name.toLowerCase().endsWith(ext));
+  if (!SUPPORTED_TYPES.has(file.type) && !hasSupportedExtension) {
+    return NextResponse.json({ error: `Unsupported file type "${file.type}" — upload a .docx, .pdf, .txt, or .csv.` }, { status: 400 });
   }
   if (file.size > MAX_UPLOAD_BYTES) {
     return NextResponse.json({ error: `File is too large (max ${MAX_UPLOAD_BYTES / (1024 * 1024)}MB).` }, { status: 400 });
   }
 
   const buffer = Buffer.from(await file.arrayBuffer());
-  const parsed = await extractTextFromDocument(buffer, file.type);
+  const parsed = await extractTextFromDocument(buffer, file.type, file.name);
   if (!parsed.ok) {
     return NextResponse.json({ error: parsed.error }, { status: 400 });
   }

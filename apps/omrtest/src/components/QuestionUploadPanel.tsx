@@ -207,12 +207,12 @@ export function QuestionUploadPanel({ testBatchId, totalQuestions }: QuestionUpl
           >
             <UploadCloud className="h-8 w-8 text-slate-400" aria-hidden="true" />
             <p className="text-sm font-medium text-slate-700">
-              {file ? file.name : "Drag & drop a .docx or .pdf question paper, or click to browse"}
+              {file ? file.name : "Drag & drop a .docx, .pdf, .txt, or .csv question paper, or click to browse"}
             </p>
             <input
               ref={fileInputRef}
               type="file"
-              accept=".docx,.pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,application/pdf"
+              accept=".docx,.pdf,.txt,.csv,application/vnd.openxmlformats-officedocument.wordprocessingml.document,application/pdf,text/plain,text/csv,application/vnd.ms-excel"
               className="hidden"
               onChange={(e) => pickFile(e.target.files?.[0] ?? null)}
             />

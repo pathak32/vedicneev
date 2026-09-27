@@ -22,27 +22,137 @@ const SUPPORTED_DOCX_TYPES = new Set([
   "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
 ]);
 const SUPPORTED_PDF_TYPES = new Set(["application/pdf"]);
+// Browsers report .csv inconsistently (text/csv, application/vnd.ms-excel,
+// or even empty) — the file's extension is checked too, see isCsvFile.
+const SUPPORTED_TEXT_TYPES = new Set(["text/plain", "text/csv", "application/vnd.ms-excel"]);
+
+function isCsvFile(contentType: string, fileName: string): boolean {
+  return contentType === "text/csv" || contentType === "application/vnd.ms-excel" || fileName.toLowerCase().endsWith(".csv");
+}
 
 /**
- * Extracts raw text from an uploaded .docx or .pdf — the one place both
- * format-specific libraries (mammoth, pdf-parse) are used, so
+ * Extracts raw text from an uploaded .docx, .pdf, .txt, or .csv — the one
+ * place all format-specific readers (mammoth, pdf-parse) are used, so
  * normalizeQuestionsFromText below never needs to know which format
- * produced its input.
+ * produced its input. .csv gets its own column-based parser first since
+ * it's structured data, not a numbered question paper — see
+ * parseCsvQuestions.
  */
-export async function extractTextFromDocument(buffer: Buffer, contentType: string): Promise<ParseDocumentResult> {
+export async function extractTextFromDocument(
+  buffer: Buffer,
+  contentType: string,
+  fileName = ""
+): Promise<ParseDocumentResult> {
   try {
     let text: string;
     if (SUPPORTED_DOCX_TYPES.has(contentType)) {
       text = (await mammoth.extractRawText({ buffer })).value;
     } else if (SUPPORTED_PDF_TYPES.has(contentType)) {
       text = (await pdfParse(buffer)).text;
+    } else if (SUPPORTED_TEXT_TYPES.has(contentType) || fileName.toLowerCase().endsWith(".txt") || fileName.toLowerCase().endsWith(".csv")) {
+      text = buffer.toString("utf-8");
     } else {
-      return { ok: false, error: `Unsupported file type "${contentType}" — upload a .docx or .pdf.` };
+      return { ok: false, error: `Unsupported file type "${contentType}" — upload a .docx, .pdf, .txt, or .csv.` };
     }
+
+    if (isCsvFile(contentType, fileName)) {
+      const csvQuestions = parseCsvQuestions(text);
+      if (csvQuestions) return { ok: true, questions: csvQuestions };
+      // No recognizable header row — fall back to the generic text parser
+      // below rather than failing outright.
+    }
+
     return { ok: true, questions: normalizeQuestionsFromText(text) };
   } catch (error) {
     return { ok: false, error: `Could not read this file: ${error instanceof Error ? error.message : "unknown error"}` };
   }
+}
+
+// Recognized header names per column, matched case-insensitively after
+// stripping spaces/underscores/punctuation.
+const CSV_HEADER_ALIASES: Record<string, string[]> = {
+  questionNumber: ["number", "no", "sno", "qno", "q", "questionnumber", "#"],
+  text: ["question", "text", "questiontext"],
+  A: ["a", "optiona"],
+  B: ["b", "optionb"],
+  C: ["c", "optionc"],
+  D: ["d", "optiond"],
+  correctOption: ["answer", "ans", "correct", "correctoption", "key"],
+};
+
+function splitCsvLine(line: string): string[] {
+  const cells: string[] = [];
+  let current = "";
+  let inQuotes = false;
+  for (let i = 0; i < line.length; i++) {
+    const char = line[i]!;
+    if (inQuotes) {
+      if (char === '"' && line[i + 1] === '"') {
+        current += '"';
+        i++;
+      } else if (char === '"') {
+        inQuotes = false;
+      } else {
+        current += char;
+      }
+    } else if (char === '"') {
+      inQuotes = true;
+    } else if (char === ",") {
+      cells.push(current);
+      current = "";
+    } else {
+      current += char;
+    }
+  }
+  cells.push(current);
+  return cells.map((cell) => cell.trim());
+}
+
+function normalizeHeaderCell(cell: string): string {
+  return cell.toLowerCase().replace(/[\s_.-]/g, "");
+}
+
+/**
+ * Parses a structured question CSV (header row + one row per question).
+ * Returns null when the header row doesn't map to at least a question-text
+ * and answer column, so the caller can fall back to treating the file as
+ * plain text instead of silently producing garbage rows.
+ */
+function parseCsvQuestions(rawText: string): ParsedQuestion[] | null {
+  const lines = rawText.split(/\r?\n/).filter((line) => line.trim().length > 0);
+  if (lines.length < 2) return null;
+
+  const headerCells = splitCsvLine(lines[0]!).map(normalizeHeaderCell);
+  const columnIndex: Partial<Record<string, number>> = {};
+  for (const [field, aliases] of Object.entries(CSV_HEADER_ALIASES)) {
+    const idx = headerCells.findIndex((cell) => aliases.includes(cell));
+    if (idx !== -1) columnIndex[field] = idx;
+  }
+  if (columnIndex.text === undefined || columnIndex.correctOption === undefined) return null;
+
+  return lines.slice(1).map((line, i) => {
+    const cells = splitCsvLine(line);
+    const warnings: string[] = [];
+    const options: Partial<Record<BubbleOption, string>> = {};
+    for (const letter of BUBBLE_OPTIONS) {
+      const idx = columnIndex[letter];
+      const value = idx !== undefined ? cells[idx]?.trim() : undefined;
+      if (value) options[letter] = value;
+    }
+    const missingOptions = BUBBLE_OPTIONS.filter((opt) => !options[opt]);
+    if (missingOptions.length > 0) warnings.push(`Missing option${missingOptions.length > 1 ? "s" : ""}: ${missingOptions.join(", ")}.`);
+
+    const rawAnswer = cells[columnIndex.correctOption!]?.trim().toUpperCase();
+    const correctOption = rawAnswer && (BUBBLE_OPTIONS as readonly string[]).includes(rawAnswer) ? (rawAnswer as BubbleOption) : null;
+    if (!correctOption) warnings.push("No answer detected.");
+
+    const questionNumber =
+      columnIndex.questionNumber !== undefined ? Number(cells[columnIndex.questionNumber]?.trim()) || i + 1 : i + 1;
+    const text = cells[columnIndex.text!]?.trim() ?? "";
+    if (!text) warnings.push("No question text detected.");
+
+    return { questionNumber, text, options, correctOption, warnings };
+  });
 }
 
 // Matches a question's own leading number, e.g. "1.", "12)", "Q3.", "Q.4" —
