@@ -17,6 +17,7 @@ const BASE_NAV_ITEMS = [
 // enforce this server-side, this just keeps the nav from offering a link
 // a FACULTY session would immediately bounce off of.
 const OWNER_NAV_ITEMS = [
+  { href: "/control-room", label: "Control Room" },
   { href: "/branches", label: "Branches" },
   { href: "/faculty", label: "Faculty" },
 ];
