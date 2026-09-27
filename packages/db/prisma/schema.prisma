@@ -275,6 +275,7 @@ model User {
   typingAttempts          TypingAttempt[]
   typingSubscription      TypingSubscription?
   typingCandidateProfile  TypingCandidateProfile?
+  reviewedConceptNotes    ConceptNote[]
 
   @@index([parentId])
   @@map("users")
@@ -616,11 +617,56 @@ model Topic {
   // Class 9 curriculum expansion's topics.
   targetClass ContentClassLevel? @map("target_class")
 
-  questions  Question[]
-  mediaItems MediaItem[]
+  questions    Question[]
+  mediaItems   MediaItem[]
+  conceptNotes ConceptNote[]
 
   @@unique([sectionId, key])
   @@map("topics")
+}
+
+enum ConceptNoteStatus {
+  DRAFT
+  PUBLISHED
+}
+
+// One explanatory note per SUB-concept within a Topic, not one per Topic —
+// e.g. "Fractions & Decimals" splits into "Adding & Subtracting Like
+// Fractions", "Converting Fractions to Decimals", "Multiplying Fractions",
+// etc., each grounded in that sub-concept's own real tagged Question rows
+// (their content/explanation/distractorAnalysis) rather than written from
+// scratch. AI-drafted, never AI-published — see `status` below.
+model ConceptNote {
+  id      String @id @default(cuid())
+  topicId String @map("topic_id")
+  topic   Topic  @relation(fields: [topicId], references: [id], onDelete: Cascade)
+
+  // Stable slug for this sub-concept within its topic, e.g.
+  // "adding-subtracting-like-fractions" — never shown to a student, only
+  // used to keep this row idempotently re-generatable/re-runnable.
+  subConceptKey String @map("sub_concept_key")
+
+  // Bilingual, same {"en", "hi", ...} convention as Question.content.
+  title Json
+
+  // Structured bilingual body: { "en": { "explanation": "...",
+  // "workedExample": "...", "commonMistake": "..." }, "hi": {...} }.
+  body Json
+
+  status ConceptNoteStatus @default(DRAFT)
+
+  // Set only when a person (never automated) moves this to PUBLISHED —
+  // the one gate between an AI draft and a student ever seeing it.
+  reviewedByUserId String?   @map("reviewed_by_user_id")
+  reviewedByUser   User?     @relation(fields: [reviewedByUserId], references: [id], onDelete: SetNull)
+  reviewedAt       DateTime? @map("reviewed_at")
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@unique([topicId, subConceptKey])
+  @@index([topicId, status])
+  @@map("concept_notes")
 }
 
 // Catalog of Vedic speed-math shortcuts (mirrors @vedicneev/engine's
