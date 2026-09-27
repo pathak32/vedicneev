@@ -102,7 +102,10 @@ export function QuestionUploadPanel({ testBatchId, totalQuestions }: QuestionUpl
   const [bankSections, setBankSections] = useState<BankSectionOption[] | null>(null);
   const [bankLoading, setBankLoading] = useState(false);
   const [bankError, setBankError] = useState<string | null>(null);
+  const [allocationUnit, setAllocationUnit] = useState<"count" | "percent">("count");
   const [allocations, setAllocations] = useState<Record<string, number>>({});
+  const [difficultyMixEnabled, setDifficultyMixEnabled] = useState(false);
+  const [difficultyMix, setDifficultyMix] = useState({ EASY: 30, MEDIUM: 50, HARD: 20 });
   const [generating, setGenerating] = useState(false);
   const [generateWarnings, setGenerateWarnings] = useState<string[]>([]);
 
@@ -123,17 +126,34 @@ export function QuestionUploadPanel({ testBatchId, totalQuestions }: QuestionUpl
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [mode]);
 
-  const allocatedTotal = Object.values(allocations).reduce((sum, n) => sum + (n || 0), 0);
+  const allocatedRaw = Object.values(allocations).reduce((sum, n) => sum + (n || 0), 0);
+  // In percent mode, each topic's raw value (0-100) is converted to a
+  // question count relative to this batch's totalQuestions before it's ever
+  // sent to the server — the API always deals in plain counts, percentage
+  // is purely an input convenience.
+  const allocatedTotal =
+    allocationUnit === "percent" ? Math.round((allocatedRaw / 100) * totalQuestions) : allocatedRaw;
 
-  function updateAllocation(topicId: string, count: number) {
-    setAllocations((prev) => ({ ...prev, [topicId]: Math.max(0, count) }));
+  const difficultyMixTotal = difficultyMix.EASY + difficultyMix.MEDIUM + difficultyMix.HARD;
+
+  function updateAllocation(topicId: string, value: number) {
+    setAllocations((prev) => ({ ...prev, [topicId]: Math.max(0, value) }));
+  }
+
+  function updateDifficultyMix(key: keyof typeof difficultyMix, value: number) {
+    setDifficultyMix((prev) => ({ ...prev, [key]: Math.max(0, Math.min(100, value)) }));
   }
 
   async function handleGenerate() {
     const chosen = Object.entries(allocations)
-      .filter(([, count]) => count > 0)
-      .map(([topicId, count]) => ({ topicId, count }));
+      .filter(([, value]) => value > 0)
+      .map(([topicId, value]) => ({
+        topicId,
+        count: allocationUnit === "percent" ? Math.round((value / 100) * totalQuestions) : value,
+      }))
+      .filter((a) => a.count > 0);
     if (chosen.length === 0) return;
+    if (difficultyMixEnabled && difficultyMixTotal !== 100) return;
 
     setGenerating(true);
     setError(null);
@@ -143,7 +163,10 @@ export function QuestionUploadPanel({ testBatchId, totalQuestions }: QuestionUpl
       const res = await fetch(`/api/tests/${testBatchId}/questions/generate-from-bank`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ allocations: chosen }),
+        body: JSON.stringify({
+          allocations: chosen,
+          difficultyMix: difficultyMixEnabled ? difficultyMix : undefined,
+        }),
       });
       const data = await res.json();
       if (!res.ok) {
@@ -403,12 +426,36 @@ export function QuestionUploadPanel({ testBatchId, totalQuestions }: QuestionUpl
       ) : (
         <Card className="border-slate-200">
           <CardContent className="space-y-5 p-6">
-            <div>
-              <h2 className="text-sm font-semibold text-slate-900">Generate a paper from the question bank</h2>
-              <p className="mt-1 text-xs text-slate-500">
-                Pick how many questions to draw from each topic — real, already-tagged questions from the shared bank,
-                assembled and shuffled into one paper. No typing required.
-              </p>
+            <div className="flex flex-wrap items-start justify-between gap-3">
+              <div>
+                <h2 className="text-sm font-semibold text-slate-900">Generate a paper from the question bank</h2>
+                <p className="mt-1 text-xs text-slate-500">
+                  Pick how many questions to draw from each topic — real, already-tagged questions from the shared
+                  bank, assembled and shuffled into one paper. No typing required.
+                </p>
+              </div>
+              <div className="flex flex-shrink-0 rounded-md border border-slate-200 p-0.5 text-xs">
+                <button
+                  type="button"
+                  onClick={() => setAllocationUnit("count")}
+                  className={cn(
+                    "rounded px-2 py-1 font-medium transition-colors",
+                    allocationUnit === "count" ? "bg-slate-100 text-slate-900" : "text-slate-500"
+                  )}
+                >
+                  Count
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setAllocationUnit("percent")}
+                  className={cn(
+                    "rounded px-2 py-1 font-medium transition-colors",
+                    allocationUnit === "percent" ? "bg-slate-100 text-slate-900" : "text-slate-500"
+                  )}
+                >
+                  Percentage
+                </button>
+              </div>
             </div>
 
             {bankLoading ? (
@@ -437,26 +484,78 @@ export function QuestionUploadPanel({ testBatchId, totalQuestions }: QuestionUpl
                             {topic.name}{" "}
                             <span className="text-xs text-slate-400">({topic.questionCount} available)</span>
                           </Label>
-                          <Input
-                            id={`topic-${topic.id}`}
-                            type="number"
-                            min={0}
-                            max={topic.questionCount}
-                            value={allocations[topic.id] || ""}
-                            onChange={(e) => updateAllocation(topic.id, Number(e.target.value) || 0)}
-                            className="h-8 w-20 text-xs"
-                          />
+                          <div className="flex items-center gap-1">
+                            <Input
+                              id={`topic-${topic.id}`}
+                              type="number"
+                              min={0}
+                              max={allocationUnit === "percent" ? 100 : topic.questionCount}
+                              value={allocations[topic.id] || ""}
+                              onChange={(e) => updateAllocation(topic.id, Number(e.target.value) || 0)}
+                              className="h-8 w-20 text-xs"
+                            />
+                            {allocationUnit === "percent" ? <span className="text-xs text-slate-400">%</span> : null}
+                          </div>
                         </div>
                       ))}
                     </div>
                   </div>
                 ))}
 
+                <div className="rounded-md border border-slate-200 p-4">
+                  <label className="flex items-center gap-2 text-sm font-medium text-slate-700">
+                    <input
+                      type="checkbox"
+                      checked={difficultyMixEnabled}
+                      onChange={(e) => setDifficultyMixEnabled(e.target.checked)}
+                      className="h-4 w-4 rounded border-slate-300"
+                    />
+                    Control difficulty mix
+                  </label>
+                  <p className="mt-1 text-xs text-slate-500">
+                    Split each topic's questions across Easy/Medium/Hard by these percentages, instead of drawing
+                    without a difficulty preference.
+                  </p>
+                  {difficultyMixEnabled ? (
+                    <div className="mt-3 flex flex-wrap items-center gap-4">
+                      {(["EASY", "MEDIUM", "HARD"] as const).map((level) => (
+                        <div key={level} className="flex items-center gap-2">
+                          <Label htmlFor={`difficulty-${level}`} className="mb-0 font-normal capitalize">
+                            {level.toLowerCase()}
+                          </Label>
+                          <Input
+                            id={`difficulty-${level}`}
+                            type="number"
+                            min={0}
+                            max={100}
+                            value={difficultyMix[level]}
+                            onChange={(e) => updateDifficultyMix(level, Number(e.target.value) || 0)}
+                            className="h-8 w-16 text-xs"
+                          />
+                          <span className="text-xs text-slate-400">%</span>
+                        </div>
+                      ))}
+                      {difficultyMixTotal !== 100 ? (
+                        <span className="flex items-center gap-1 text-xs text-warning">
+                          <AlertTriangle className="h-3.5 w-3.5" aria-hidden="true" />
+                          Must add up to 100% (currently {difficultyMixTotal}%)
+                        </span>
+                      ) : null}
+                    </div>
+                  ) : null}
+                </div>
+
                 <div className="flex items-center justify-between rounded-md border border-slate-200 bg-slate-50 px-4 py-2 text-sm">
                   <span className="text-slate-600">
-                    {allocatedTotal} of {totalQuestions} questions allocated
+                    {allocationUnit === "percent" ? `${allocatedRaw}% (≈${allocatedTotal} questions)` : allocatedTotal}{" "}
+                    of {totalQuestions} questions allocated
                   </span>
-                  <Button type="button" size="sm" onClick={handleGenerate} disabled={allocatedTotal === 0 || generating}>
+                  <Button
+                    type="button"
+                    size="sm"
+                    onClick={handleGenerate}
+                    disabled={allocatedTotal === 0 || generating || (difficultyMixEnabled && difficultyMixTotal !== 100)}
+                  >
                     <Sparkles className="h-3.5 w-3.5" aria-hidden="true" />
                     {generating ? "Generating…" : "Generate Paper"}
                   </Button>

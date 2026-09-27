@@ -1,9 +1,9 @@
 import { NextResponse } from "next/server";
-import { prisma } from "@vedicneev/db";
+import { prisma, type Difficulty } from "@vedicneev/db";
 
 import { getInstituteSession } from "@/lib/institute/session";
 import { canAccessTestBatch } from "@/lib/institute/facultyScope";
-import { generateQuestionsFromBank, type BankAllocation } from "@/lib/tests/generateFromBank";
+import { generateQuestionsFromBank, type BankAllocation, type DifficultyMix } from "@/lib/tests/generateFromBank";
 
 // Reads the request's cookie jar via getInstituteSession — never
 // prerenderable. Nothing is written here: this only builds a preview, the
@@ -11,8 +11,12 @@ import { generateQuestionsFromBank, type BankAllocation } from "@/lib/tests/gene
 // only route that persists TestBatchQuestionItem rows.
 export const dynamic = "force-dynamic";
 
+const DIFFICULTIES: Difficulty[] = ["EASY", "MEDIUM", "HARD"];
+
 interface RequestBody {
   allocations?: { topicId?: string; count?: number }[];
+  /** Percentages keyed by EASY/MEDIUM/HARD, must sum to 100 — omit entirely for no difficulty preference. */
+  difficultyMix?: Partial<Record<string, number>>;
 }
 
 export async function POST(request: Request, { params }: { params: { id: string } }) {
@@ -48,6 +52,23 @@ export async function POST(request: Request, { params }: { params: { id: string 
     return NextResponse.json({ error: "Pick at least one topic and question count." }, { status: 400 });
   }
 
-  const result = await generateQuestionsFromBank(testBatch, allocations);
+  let difficultyMix: DifficultyMix | undefined;
+  if (body.difficultyMix) {
+    difficultyMix = {};
+    let total = 0;
+    for (const difficulty of DIFFICULTIES) {
+      const value = Number(body.difficultyMix[difficulty] ?? 0);
+      if (!Number.isFinite(value) || value < 0) {
+        return NextResponse.json({ error: `Invalid ${difficulty} percentage.` }, { status: 400 });
+      }
+      difficultyMix[difficulty] = value;
+      total += value;
+    }
+    if (Math.round(total) !== 100) {
+      return NextResponse.json({ error: `Difficulty mix must add up to 100% (got ${total}%).` }, { status: 400 });
+    }
+  }
+
+  const result = await generateQuestionsFromBank(testBatch, allocations, difficultyMix);
   return NextResponse.json(result);
 }
