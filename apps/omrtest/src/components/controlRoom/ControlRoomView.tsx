@@ -6,9 +6,59 @@ import Link from "next/link";
 import { Label } from "@/components/ui/Label";
 import { Input } from "@/components/ui/Input";
 import type { BranchNode, StudentResult } from "@/lib/institute/controlRoomData";
+import type { SubsectionPerformanceRow } from "@/lib/institute/subsectionPerformance";
 
 function fmtPercent(value: number): string {
   return `${value.toFixed(1)}%`;
+}
+
+function SubsectionBreakdown({ rows }: { rows: SubsectionPerformanceRow[] }) {
+  if (rows.length === 0) return null;
+
+  const bySubject = new Map<string, { subjectName: string; rows: SubsectionPerformanceRow[] }>();
+  for (const row of rows) {
+    const existing = bySubject.get(row.subjectId);
+    if (existing) existing.rows.push(row);
+    else bySubject.set(row.subjectId, { subjectName: row.subjectName, rows: [row] });
+  }
+
+  return (
+    <details className="mb-3 rounded-md border border-slate-200 bg-slate-50">
+      <summary className="cursor-pointer px-4 py-2.5 text-sm font-medium text-slate-800">
+        By Subject &amp; Subsection
+      </summary>
+      <div className="flex flex-col gap-3 px-4 pb-4 pt-1">
+        {[...bySubject.values()].map(({ subjectName, rows: subjectRows }) => (
+          <div key={subjectName}>
+            <h3 className="text-xs font-semibold uppercase tracking-wide text-slate-500">{subjectName}</h3>
+            <table className="mt-1 w-full text-left text-xs">
+              <tbody>
+                {subjectRows
+                  .sort((a, b) => {
+                    const accA = a.correctCount / (a.correctCount + a.incorrectCount || 1);
+                    const accB = b.correctCount / (b.correctCount + b.incorrectCount || 1);
+                    return accA - accB;
+                  })
+                  .map((row) => {
+                    const attempted = row.correctCount + row.incorrectCount;
+                    const accuracy = attempted > 0 ? (row.correctCount / attempted) * 100 : 0;
+                    return (
+                      <tr key={row.subsectionId} className="border-b border-slate-100 last:border-0">
+                        <td className="py-1.5 pr-4 text-slate-700">{row.subsectionName}</td>
+                        <td className="py-1.5 pr-4 text-slate-500">
+                          {row.correctCount}/{attempted} correct
+                        </td>
+                        <td className="py-1.5 pr-4 font-medium text-slate-900">{fmtPercent(accuracy)}</td>
+                      </tr>
+                    );
+                  })}
+              </tbody>
+            </table>
+          </div>
+        ))}
+      </div>
+    </details>
+  );
 }
 
 function StudentRow({ student, cutoff }: { student: StudentResult; cutoff: number }) {
@@ -124,10 +174,21 @@ function SubjectSection({ subject, cutoff }: { subject: BranchNode["subjects"][n
   );
 }
 
-function BranchSection({ branch, cutoff }: { branch: BranchNode; cutoff: number }) {
+function BranchSection({
+  branch,
+  cutoff,
+  subsectionPerformance,
+}: {
+  branch: BranchNode;
+  cutoff: number;
+  subsectionPerformance: SubsectionPerformanceRow[];
+}) {
+  const branchSubsectionRows = subsectionPerformance.filter((row) => row.branchId === branch.branchId);
+
   return (
     <div className="rounded-lg border border-slate-200 bg-white p-4">
       <h2 className="mb-3 text-base font-semibold text-slate-900">{branch.branchName}</h2>
+      <SubsectionBreakdown rows={branchSubsectionRows} />
       <div className="flex flex-col gap-2">
         {branch.subjects.map((subject) => (
           <SubjectSection key={subject.subject} subject={subject} cutoff={cutoff} />
@@ -137,7 +198,13 @@ function BranchSection({ branch, cutoff }: { branch: BranchNode; cutoff: number 
   );
 }
 
-export function ControlRoomView({ branches }: { branches: BranchNode[] }) {
+export function ControlRoomView({
+  branches,
+  subsectionPerformance,
+}: {
+  branches: BranchNode[];
+  subsectionPerformance: SubsectionPerformanceRow[];
+}) {
   const [cutoff, setCutoff] = useState(40);
 
   const totals = useMemo(() => {
@@ -183,7 +250,14 @@ export function ControlRoomView({ branches }: { branches: BranchNode[] }) {
       {branches.length === 0 ? (
         <p className="text-sm text-slate-500">No test batches yet.</p>
       ) : (
-        branches.map((branch) => <BranchSection key={branch.branchId ?? "unassigned"} branch={branch} cutoff={cutoff} />)
+        branches.map((branch) => (
+          <BranchSection
+            key={branch.branchId ?? "unassigned"}
+            branch={branch}
+            cutoff={cutoff}
+            subsectionPerformance={subsectionPerformance}
+          />
+        ))
       )}
     </div>
   );

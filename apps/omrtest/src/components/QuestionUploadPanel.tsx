@@ -22,6 +22,10 @@ interface EditableQuestion {
   optionD: string;
   correctOption: "A" | "B" | "C" | "D" | "";
   warnings: string[];
+  /** "" = not yet tagged. Purely a UI convenience for filtering the Subsection dropdown — never sent to the server. */
+  subjectId: string;
+  /** "" = not yet tagged. The only taxonomy field actually persisted. */
+  subsectionId: string;
 }
 
 interface DuplicateMatch {
@@ -29,6 +33,21 @@ interface DuplicateMatch {
   similarity: number;
   matchedBatchName: string;
   matchedText: string;
+}
+
+interface TaxonomySubsectionOption {
+  id: string;
+  name: string;
+}
+
+interface TaxonomySubjectOption {
+  id: string;
+  name: string;
+  subsections: TaxonomySubsectionOption[];
+}
+
+function findSubjectIdForSubsection(subjects: TaxonomySubjectOption[], subsectionId: string): string {
+  return subjects.find((s) => s.subsections.some((sub) => sub.id === subsectionId))?.id ?? "";
 }
 
 const SET_OPTIONS = [
@@ -57,6 +76,7 @@ export function QuestionUploadPanel({ testBatchId, totalQuestions }: QuestionUpl
   const [parsing, setParsing] = useState(false);
   const [questions, setQuestions] = useState<EditableQuestion[] | null>(null);
   const [duplicates, setDuplicates] = useState<DuplicateMatch[]>([]);
+  const [taxonomySubjects, setTaxonomySubjects] = useState<TaxonomySubjectOption[]>([]);
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [saved, setSaved] = useState(false);
@@ -83,6 +103,8 @@ export function QuestionUploadPanel({ testBatchId, totalQuestions }: QuestionUpl
         setError(data.error ?? "Could not parse this document.");
         return;
       }
+      const subjects: TaxonomySubjectOption[] = data.taxonomySubjects ?? [];
+      setTaxonomySubjects(subjects);
       setQuestions(
         (data.questions as {
           questionNumber: number;
@@ -90,16 +112,22 @@ export function QuestionUploadPanel({ testBatchId, totalQuestions }: QuestionUpl
           options: Partial<Record<string, string>>;
           correctOption: string | null;
           warnings: string[];
-        }[]).map((q) => ({
-          questionNumber: q.questionNumber,
-          text: q.text,
-          optionA: q.options.A ?? "",
-          optionB: q.options.B ?? "",
-          optionC: q.options.C ?? "",
-          optionD: q.options.D ?? "",
-          correctOption: (q.correctOption as EditableQuestion["correctOption"]) ?? "",
-          warnings: q.warnings,
-        }))
+          suggestedSubsectionId: string | null;
+        }[]).map((q) => {
+          const subsectionId = q.suggestedSubsectionId ?? "";
+          return {
+            questionNumber: q.questionNumber,
+            text: q.text,
+            optionA: q.options.A ?? "",
+            optionB: q.options.B ?? "",
+            optionC: q.options.C ?? "",
+            optionD: q.options.D ?? "",
+            correctOption: (q.correctOption as EditableQuestion["correctOption"]) ?? "",
+            warnings: q.warnings,
+            subsectionId,
+            subjectId: subsectionId ? findSubjectIdForSubsection(subjects, subsectionId) : "",
+          };
+        })
       );
       setDuplicates(data.duplicates ?? []);
     } catch {
@@ -114,6 +142,18 @@ export function QuestionUploadPanel({ testBatchId, totalQuestions }: QuestionUpl
       if (!prev) return prev;
       const next = [...prev];
       next[index] = { ...next[index]!, [key]: value };
+      return next;
+    });
+  }
+
+  function updateSubject(index: number, subjectId: string) {
+    setQuestions((prev) => {
+      if (!prev) return prev;
+      const next = [...prev];
+      // Changing the subject invalidates whatever subsection was picked
+      // under the old one — never leave a subsectionId that doesn't
+      // belong to the newly selected subject.
+      next[index] = { ...next[index]!, subjectId, subsectionId: "" };
       return next;
     });
   }
@@ -139,6 +179,7 @@ export function QuestionUploadPanel({ testBatchId, totalQuestions }: QuestionUpl
             text: q.text,
             options: { A: q.optionA, B: q.optionB, C: q.optionC, D: q.optionD },
             correctOption: q.correctOption,
+            subsectionId: q.subsectionId || null,
           })),
         }),
       });
@@ -276,51 +317,86 @@ export function QuestionUploadPanel({ testBatchId, totalQuestions }: QuestionUpl
                     <th className="py-2 pr-2">C</th>
                     <th className="py-2 pr-2">D</th>
                     <th className="py-2 pr-2">Answer</th>
+                    <th className="py-2 pr-2">Subject</th>
+                    <th className="py-2 pr-2">Subsection</th>
                   </tr>
                 </thead>
                 <tbody>
-                  {questions.map((q, i) => (
-                    <tr key={q.questionNumber} className="border-b border-slate-100 align-top">
-                      <td className="py-2 pr-2 font-medium text-slate-500">
-                        {q.questionNumber}
-                        {q.warnings.length > 0 ? (
-                          <AlertTriangle
-                            className="mt-1 h-3.5 w-3.5 text-warning"
-                            aria-label={q.warnings.join(" ")}
-                          />
-                        ) : null}
-                      </td>
-                      <td className="min-w-[220px] py-2 pr-2">
-                        <Input
-                          value={q.text}
-                          onChange={(e) => updateQuestion(i, "text", e.target.value)}
-                          className="h-8 text-xs"
-                        />
-                      </td>
-                      {(["optionA", "optionB", "optionC", "optionD"] as const).map((key) => (
-                        <td key={key} className="min-w-[110px] py-2 pr-2">
+                  {questions.map((q, i) => {
+                    const subject = taxonomySubjects.find((s) => s.id === q.subjectId);
+                    return (
+                      <tr key={q.questionNumber} className="border-b border-slate-100 align-top">
+                        <td className="py-2 pr-2 font-medium text-slate-500">
+                          {q.questionNumber}
+                          {q.warnings.length > 0 ? (
+                            <AlertTriangle
+                              className="mt-1 h-3.5 w-3.5 text-warning"
+                              aria-label={q.warnings.join(" ")}
+                            />
+                          ) : null}
+                        </td>
+                        <td className="min-w-[220px] py-2 pr-2">
                           <Input
-                            value={q[key]}
-                            onChange={(e) => updateQuestion(i, key, e.target.value)}
+                            value={q.text}
+                            onChange={(e) => updateQuestion(i, "text", e.target.value)}
                             className="h-8 text-xs"
                           />
                         </td>
-                      ))}
-                      <td className="py-2 pr-2">
-                        <Select
-                          value={q.correctOption}
-                          onChange={(e) => updateQuestion(i, "correctOption", e.target.value as EditableQuestion["correctOption"])}
-                          className={cn("h-8 w-16 text-xs", !q.correctOption && "border-destructive")}
-                        >
-                          <option value="">—</option>
-                          <option value="A">A</option>
-                          <option value="B">B</option>
-                          <option value="C">C</option>
-                          <option value="D">D</option>
-                        </Select>
-                      </td>
-                    </tr>
-                  ))}
+                        {(["optionA", "optionB", "optionC", "optionD"] as const).map((key) => (
+                          <td key={key} className="min-w-[110px] py-2 pr-2">
+                            <Input
+                              value={q[key]}
+                              onChange={(e) => updateQuestion(i, key, e.target.value)}
+                              className="h-8 text-xs"
+                            />
+                          </td>
+                        ))}
+                        <td className="py-2 pr-2">
+                          <Select
+                            value={q.correctOption}
+                            onChange={(e) => updateQuestion(i, "correctOption", e.target.value as EditableQuestion["correctOption"])}
+                            className={cn("h-8 w-16 text-xs", !q.correctOption && "border-destructive")}
+                          >
+                            <option value="">—</option>
+                            <option value="A">A</option>
+                            <option value="B">B</option>
+                            <option value="C">C</option>
+                            <option value="D">D</option>
+                          </Select>
+                        </td>
+                        <td className="min-w-[130px] py-2 pr-2">
+                          <Select
+                            value={q.subjectId}
+                            onChange={(e) => updateSubject(i, e.target.value)}
+                            className="h-8 text-xs"
+                            disabled={taxonomySubjects.length === 0}
+                          >
+                            <option value="">Untagged</option>
+                            {taxonomySubjects.map((s) => (
+                              <option key={s.id} value={s.id}>
+                                {s.name}
+                              </option>
+                            ))}
+                          </Select>
+                        </td>
+                        <td className="min-w-[160px] py-2 pr-2">
+                          <Select
+                            value={q.subsectionId}
+                            onChange={(e) => updateQuestion(i, "subsectionId", e.target.value)}
+                            className="h-8 text-xs"
+                            disabled={!subject}
+                          >
+                            <option value="">—</option>
+                            {subject?.subsections.map((sub) => (
+                              <option key={sub.id} value={sub.id}>
+                                {sub.name}
+                              </option>
+                            ))}
+                          </Select>
+                        </td>
+                      </tr>
+                    );
+                  })}
                 </tbody>
               </table>
             </div>

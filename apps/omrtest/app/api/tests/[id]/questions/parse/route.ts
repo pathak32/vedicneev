@@ -5,6 +5,8 @@ import { getInstituteSession } from "@/lib/institute/session";
 import { canAccessTestBatch } from "@/lib/institute/facultyScope";
 import { extractTextFromDocument } from "@/lib/parsers/documentParser";
 import { findDuplicates } from "@/lib/parsers/duplicateCheck";
+import { guessSubsectionId } from "@/lib/parsers/subsectionHeuristic";
+import { flattenSubsections, getTaxonomyForExamBoard } from "@/lib/institute/taxonomy";
 
 // Reads an uploaded file and the institute's other batches — never cache
 // or statically collect this route. Nothing is written here: this is the
@@ -79,5 +81,16 @@ export async function POST(request: Request, { params }: { params: { id: string 
       }))
   );
 
-  return NextResponse.json({ questions: parsed.questions, duplicates });
+  // Best-effort taxonomy pre-fill — a keyword guess per question, never
+  // authoritative (see subsectionHeuristic.ts). Empty when the batch's
+  // examCategory doesn't match a seeded board; the tagging UI still works
+  // fine with nothing pre-filled.
+  const taxonomySubjects = await getTaxonomyForExamBoard(testBatch.examCategory);
+  const flatSubsections = flattenSubsections(taxonomySubjects);
+  const questions = parsed.questions.map((q) => ({
+    ...q,
+    suggestedSubsectionId: flatSubsections.length > 0 ? guessSubsectionId(q.text, flatSubsections) : null,
+  }));
+
+  return NextResponse.json({ questions, duplicates, taxonomySubjects });
 }

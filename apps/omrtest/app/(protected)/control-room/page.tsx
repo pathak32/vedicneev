@@ -2,6 +2,7 @@ import { redirect } from "next/navigation";
 
 import { getInstituteSession } from "@/lib/institute/session";
 import { buildControlRoomData } from "@/lib/institute/controlRoomData";
+import { buildSubsectionPerformance } from "@/lib/institute/subsectionPerformance";
 import { PageHeader } from "@/components/dashboard/PageHeader";
 import { ControlRoomView } from "@/components/controlRoom/ControlRoomView";
 
@@ -16,7 +17,10 @@ export default async function ControlRoomPage() {
   // see other faculty's/branches' results.
   if (session.admin.role !== "OWNER") redirect("/dashboard");
 
-  const branches = await buildControlRoomData(session.institute.id);
+  const [branches, subsectionPerformance] = await Promise.all([
+    buildControlRoomData(session.institute.id),
+    buildSubsectionPerformance(session.institute.id),
+  ]);
 
   return (
     <>
@@ -26,7 +30,7 @@ export default async function ControlRoomPage() {
         backHref="/dashboard"
         backLabel="Back to dashboard"
       />
-      <ControlRoomView branches={branches} />
+      <ControlRoomView branches={branches} subsectionPerformance={subsectionPerformance} />
     </>
   );
 }

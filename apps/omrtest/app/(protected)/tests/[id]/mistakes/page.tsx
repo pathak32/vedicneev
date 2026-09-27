@@ -26,8 +26,34 @@ export default async function MistakeVaultPage({ params }: { params: { id: strin
 
   const mistakes = await prisma.testBatchMistake.findMany({
     where: { rosterEntry: { testBatchId: testBatch.id } },
-    include: { rosterEntry: true, questionItem: true },
+    include: { rosterEntry: true, questionItem: { include: { subsection: { include: { subject: true } } } } },
   });
+
+  // Conceptual blind spots, not per-question detail — how many DISTINCT
+  // students got at least one question wrong in each subsection, so a
+  // subsection several different students all failed reads as one
+  // meaningful signal rather than N separate question rows. Untagged
+  // questions (no subsectionId) are grouped together rather than dropped,
+  // since tagging is optional and this view should still be useful before
+  // it's done.
+  const subsectionGroups = new Map<string, { name: string; subjectName: string | null; rosterEntryIds: Set<string> }>();
+  for (const mistake of mistakes) {
+    const subsection = mistake.questionItem.subsection;
+    const key = subsection?.id ?? "__untagged__";
+    const existing = subsectionGroups.get(key);
+    if (existing) {
+      existing.rosterEntryIds.add(mistake.rosterEntryId);
+    } else {
+      subsectionGroups.set(key, {
+        name: subsection?.name ?? "Untagged",
+        subjectName: subsection?.subject.name ?? null,
+        rosterEntryIds: new Set([mistake.rosterEntryId]),
+      });
+    }
+  }
+  const sortedSubsectionGroups = [...subsectionGroups.values()].sort(
+    (a, b) => b.rosterEntryIds.size - a.rosterEntryIds.size
+  );
 
   // Group by the specific question ITEM (not just questionNumber) — a
   // multi-set batch can have several TestBatchQuestionItem rows sharing
@@ -79,6 +105,25 @@ export default async function MistakeVaultPage({ params }: { params: { id: strin
         </Card>
       ) : (
         <div className="flex flex-col gap-6">
+          <Card className="border-slate-200">
+            <CardContent className="space-y-3 p-6">
+              <h2 className="text-sm font-semibold text-slate-900">Conceptual blind spots — by subsection</h2>
+              <ul className="flex flex-col gap-1.5 text-sm text-slate-700">
+                {sortedSubsectionGroups.map((group) => (
+                  <li key={`${group.subjectName ?? ""}-${group.name}`} className="flex items-center justify-between gap-4">
+                    <span>
+                      {group.subjectName ? `${group.subjectName} — ` : ""}
+                      {group.name}
+                    </span>
+                    <span className="whitespace-nowrap font-medium text-destructive">
+                      {group.rosterEntryIds.size} student{group.rosterEntryIds.size === 1 ? "" : "s"} failed
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </CardContent>
+          </Card>
+
           {sortedGroups.map(({ questionItem, entries }) => (
             <Card key={questionItem.id} className="border-slate-200">
               <CardContent className="space-y-4 p-6">

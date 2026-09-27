@@ -18,6 +18,7 @@
     "seed:typing-blog": "tsx prisma/seed-typing-blog.ts",
     "seed:content-library": "tsx prisma/seed-content-library.ts",
     "seed:gymops": "tsx prisma/seed-gymops.ts",
+    "seed:taxonomy": "tsx prisma/seed-taxonomy.ts",
     "publish:batch": "tsx prisma/publish-batch.ts",
     "studio": "prisma studio",
     "seed": "tsx prisma/seed.ts",

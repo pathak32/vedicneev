@@ -1458,6 +1458,38 @@ model TestBatch {
   @@map("test_batches")
 }
 
+// A shared curriculum taxonomy — global across every institute (an exam
+// board's Mathematics syllabus is the same regardless of which coaching
+// institute is teaching it), not scoped to an Institute the way
+// TestBatch/InstituteAdmin etc. are. Seeded once (see
+// packages/db/prisma/seedTaxonomy.ts); an institute never creates its own
+// Subject/Subsection rows today.
+model Subject {
+  id        String   @id @default(cuid())
+  name      String
+  examBoard ExamType @map("exam_board")
+  createdAt DateTime @default(now()) @map("created_at")
+
+  subsections Subsection[]
+
+  @@unique([examBoard, name])
+  @@map("subjects")
+}
+
+model Subsection {
+  id        String   @id @default(cuid())
+  subjectId String   @map("subject_id")
+  subject   Subject  @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+  name      String
+  createdAt DateTime @default(now()) @map("created_at")
+
+  questionItems TestBatchQuestionItem[]
+
+  @@unique([subjectId, name])
+  @@index([subjectId])
+  @@map("subsections")
+}
+
 // One row per question, parsed from an uploaded .docx/.pdf question paper
 // (see apps/omrtest/src/lib/parsers) — additive to, never a replacement
 // for, TestBatch.answerKey/masterQuestions (which every existing OMR
@@ -1473,23 +1505,31 @@ model TestBatch {
 // packages/engine/src/questionShuffler.ts — see the save route's own
 // comment on why that means an identity permutation, not a random one.
 model TestBatchQuestionItem {
-  id             String    @id @default(cuid())
-  testBatchId    String    @map("test_batch_id")
-  testBatch      TestBatch @relation(fields: [testBatchId], references: [id], onDelete: Cascade)
-  setCode        String?   @map("set_code")
-  questionNumber Int       @map("question_number")
+  id             String      @id @default(cuid())
+  testBatchId    String      @map("test_batch_id")
+  testBatch      TestBatch   @relation(fields: [testBatchId], references: [id], onDelete: Cascade)
+  setCode        String?     @map("set_code")
+  questionNumber Int         @map("question_number")
   text           String?
-  optionA        String?   @map("option_a")
-  optionB        String?   @map("option_b")
-  optionC        String?   @map("option_c")
-  optionD        String?   @map("option_d")
-  correctOption  String    @map("correct_option")
-  createdAt      DateTime  @default(now()) @map("created_at")
+  optionA        String?     @map("option_a")
+  optionB        String?     @map("option_b")
+  optionC        String?     @map("option_c")
+  optionD        String?     @map("option_d")
+  correctOption  String      @map("correct_option")
+  // Optional taxonomy tag — null means "not yet tagged" (never blocks a
+  // save; the tagging UI's own review step is what actually assigns this,
+  // sometimes pre-filled by a keyword heuristic — see
+  // apps/omrtest/src/lib/parsers/subsectionHeuristic.ts — but always
+  // human-overridable before it's persisted here).
+  subsectionId   String?     @map("subsection_id")
+  subsection     Subsection? @relation(fields: [subsectionId], references: [id], onDelete: SetNull)
+  createdAt      DateTime    @default(now()) @map("created_at")
 
   mistakes TestBatchMistake[]
 
   @@unique([testBatchId, setCode, questionNumber])
   @@index([testBatchId])
+  @@index([subsectionId])
   @@map("test_batch_question_items")
 }
 

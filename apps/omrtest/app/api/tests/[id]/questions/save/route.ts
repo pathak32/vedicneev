@@ -19,6 +19,7 @@ interface SaveQuestionInput {
   text?: string;
   options?: Partial<Record<string, string>>;
   correctOption?: string;
+  subsectionId?: string | null;
 }
 
 interface RequestBody {
@@ -66,7 +67,13 @@ export async function POST(request: Request, { params }: { params: { id: string 
   }
 
   const seenNumbers = new Set<number>();
-  const validated: { questionNumber: number; text: string; options: Partial<Record<BubbleOption, string>>; correctOption: BubbleOption }[] = [];
+  const validated: {
+    questionNumber: number;
+    text: string;
+    options: Partial<Record<BubbleOption, string>>;
+    correctOption: BubbleOption;
+    subsectionId: string | null;
+  }[] = [];
   for (const q of questions) {
     const questionNumber = Number(q.questionNumber);
     if (!Number.isInteger(questionNumber) || questionNumber < 1 || questionNumber > testBatch.totalQuestions) {
@@ -93,6 +100,7 @@ export async function POST(request: Request, { params }: { params: { id: string 
       text: typeof q.text === "string" ? q.text.trim() : "",
       options,
       correctOption: correctOption as BubbleOption,
+      subsectionId: typeof q.subsectionId === "string" && q.subsectionId ? q.subsectionId : null,
     });
   }
   if (seenNumbers.size !== testBatch.totalQuestions) {
@@ -100,6 +108,17 @@ export async function POST(request: Request, { params }: { params: { id: string 
   }
 
   validated.sort((a, b) => a.questionNumber - b.questionNumber);
+
+  // Tagging is optional, but any subsectionId that IS provided must be a
+  // real row — proactively checked so a bad id fails with a clear 400
+  // here rather than surfacing as a raw FK-constraint error.
+  const subsectionIds = Array.from(new Set(validated.map((q) => q.subsectionId).filter((id): id is string => id !== null)));
+  if (subsectionIds.length > 0) {
+    const found = await prisma.subsection.count({ where: { id: { in: subsectionIds } } });
+    if (found !== subsectionIds.length) {
+      return NextResponse.json({ error: "One or more selected subsections are invalid." }, { status: 400 });
+    }
+  }
 
   await prisma.$transaction(async (tx) => {
     await tx.testBatchQuestionItem.deleteMany({ where: { testBatchId: testBatch.id, setCode } });
@@ -114,6 +133,7 @@ export async function POST(request: Request, { params }: { params: { id: string 
         optionC: q.options.C ?? null,
         optionD: q.options.D ?? null,
         correctOption: q.correctOption,
+        subsectionId: q.subsectionId,
       })),
     });
 
