@@ -1188,9 +1188,17 @@ enum InstituteTier {
   ENTERPRISE
 }
 
+// FACULTY is scoped to exactly one branch plus whichever (subject,
+// classLevel) pairs the director assigns it (see
+// InstituteAdminAssignment) — everywhere a TestBatch is read or written,
+// that scope is enforced (apps/omrtest/src/lib/institute/facultyScope.ts).
+// OWNER/STAFF stay unrestricted across the whole institute, which is
+// deliberate: OWNER always keeps full operational access as a fallback
+// even before any branch/faculty setup exists.
 enum InstituteAdminRole {
   OWNER
   STAFF
+  FACULTY
 }
 
 // PENDING_APPROVAL is the default for every newly onboarded institute — no
@@ -1295,9 +1303,28 @@ model InstituteAdmin {
   passwordHash String?            @map("password_hash")
   createdAt    DateTime           @default(now()) @map("created_at")
 
+  assignments InstituteAdminAssignment[]
+
   @@index([instituteId])
   @@index([branchId])
   @@map("institute_admins")
+}
+
+// One row per (subject, classLevel) a FACULTY InstituteAdmin is assigned to
+// teach — a faculty can hold several (e.g. Maths for Class 6 AND Class 7),
+// each its own row under the one login. Meaningless for OWNER/STAFF, which
+// stay unrestricted regardless of any rows here (see facultyScope.ts).
+model InstituteAdminAssignment {
+  id               String         @id @default(cuid())
+  instituteAdminId String         @map("institute_admin_id")
+  instituteAdmin   InstituteAdmin @relation(fields: [instituteAdminId], references: [id], onDelete: Cascade)
+  subject          String
+  classLevel       String         @map("class_level")
+  createdAt        DateTime       @default(now()) @map("created_at")
+
+  @@unique([instituteAdminId, subject, classLevel])
+  @@index([instituteAdminId])
+  @@map("institute_admin_assignments")
 }
 
 // Reuses the existing SubscriptionStatus enum (ACTIVE/EXPIRED/CANCELLED) —
@@ -1374,6 +1401,14 @@ model TestBatch {
   // second TestBatch reusing a code still active for the same institute.
   testCode          String           @map("test_code")
   subject           String?
+  // Free-text (e.g. "6"), not an Int — mirrors subject/examCategory's own
+  // free-text rationale. Drives FACULTY scoping (facultyScope.ts matches
+  // this against InstituteAdminAssignment.classLevel) and, later, the
+  // Control Room's class-wise breakdown. Nullable for backward
+  // compatibility with batches created before this field existed — those
+  // are only ever reachable by OWNER/STAFF, never FACULTY, since FACULTY
+  // scoping requires a match on a real value.
+  classLevel        String?          @map("class_level")
   // Free-text, not an enum — a coaching institute's exam categories are
   // unbounded (Engineering/Medical/Board/Civil Services/Custom); this is
   // purely a reporting/branding label, unlike apps/web's own ExamType enum

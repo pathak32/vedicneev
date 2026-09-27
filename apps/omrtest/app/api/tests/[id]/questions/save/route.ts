@@ -3,6 +3,7 @@ import { Prisma, prisma } from "@vedicneev/db";
 import { BUBBLE_OPTIONS, type BubbleOption, type MasterQuestionItem, type SetMappings } from "@vedicneev/engine";
 
 import { getInstituteSession } from "@/lib/institute/session";
+import { canAccessTestBatch } from "@/lib/institute/facultyScope";
 import { assignRosterToSets } from "@/lib/tests/assignRosterToSets";
 
 // Writes TestBatchQuestionItem rows and, depending on setLabel, either
@@ -40,7 +41,7 @@ export async function POST(request: Request, { params }: { params: { id: string 
     where: { id: params.id },
     include: { rosterEntries: { orderBy: { sequenceNumber: "asc" } } },
   });
-  if (!testBatch || testBatch.instituteId !== session.institute.id) {
+  if (!testBatch || !canAccessTestBatch(session, testBatch)) {
     return NextResponse.json({ error: "Test batch not found." }, { status: 404 });
   }
 

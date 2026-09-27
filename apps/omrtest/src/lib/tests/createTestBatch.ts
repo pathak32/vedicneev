@@ -29,6 +29,8 @@ export interface CreateTestBatchInput {
   batchName: string;
   testCode: string;
   subject: string;
+  classLevel: string;
+  branchId: string | null;
   totalStudents: number;
   totalQuestions: number;
 }
@@ -77,10 +79,12 @@ export async function createTestBatch(input: CreateTestBatchInput): Promise<Crea
   const batchName = input.batchName.trim();
   const testCode = input.testCode.trim().toUpperCase();
   const subject = input.subject.trim();
+  const classLevel = input.classLevel.trim();
 
   if (!batchName) return { ok: false, status: 400, error: "Batch Name is required." };
   if (!testCode) return { ok: false, status: 400, error: "Test Code is required." };
   if (!subject) return { ok: false, status: 400, error: "Subject is required." };
+  if (!classLevel) return { ok: false, status: 400, error: "Class is required." };
   if (!Number.isInteger(input.totalStudents) || input.totalStudents < 1 || input.totalStudents > MAX_TOTAL_STUDENTS) {
     return { ok: false, status: 400, error: `Total Students must be an integer between 1 and ${MAX_TOTAL_STUDENTS}.` };
   }
@@ -122,9 +126,11 @@ export async function createTestBatch(input: CreateTestBatchInput): Promise<Crea
       const batch = await tx.testBatch.create({
         data: {
           instituteId: input.instituteId,
+          branchId: input.branchId,
           batchName,
           testCode,
           subject,
+          classLevel,
           totalStudents: input.totalStudents,
           totalQuestions: input.totalQuestions,
         },

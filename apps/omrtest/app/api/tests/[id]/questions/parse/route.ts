@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { prisma } from "@vedicneev/db";
 
 import { getInstituteSession } from "@/lib/institute/session";
+import { canAccessTestBatch } from "@/lib/institute/facultyScope";
 import { extractTextFromDocument } from "@/lib/parsers/documentParser";
 import { findDuplicates } from "@/lib/parsers/duplicateCheck";
 
@@ -27,7 +28,7 @@ export async function POST(request: Request, { params }: { params: { id: string 
   }
 
   const testBatch = await prisma.testBatch.findUnique({ where: { id: params.id } });
-  if (!testBatch || testBatch.instituteId !== session.institute.id) {
+  if (!testBatch || !canAccessTestBatch(session, testBatch)) {
     return NextResponse.json({ error: "Test batch not found." }, { status: 404 });
   }
 

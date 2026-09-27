@@ -3,6 +3,7 @@ import { prisma } from "@vedicneev/db";
 import type { MasterQuestionItem, SetMappings } from "@vedicneev/engine";
 
 import { getInstituteSession } from "@/lib/institute/session";
+import { canAccessTestBatch } from "@/lib/institute/facultyScope";
 import { renderSetQuestionPaperHtml } from "@/lib/omr/renderSetQuestionPaperHtml";
 
 // Reads live TestBatch state — never cache or statically collect this route.
@@ -15,7 +16,7 @@ export async function GET(_request: Request, { params }: { params: { id: string;
   }
 
   const testBatch = await prisma.testBatch.findUnique({ where: { id: params.id } });
-  if (!testBatch || testBatch.instituteId !== session.institute.id) {
+  if (!testBatch || !canAccessTestBatch(session, testBatch)) {
     return NextResponse.json({ error: "Test batch not found." }, { status: 404 });
   }
 

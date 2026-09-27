@@ -4,6 +4,7 @@ import { Download, FileUp, KeyRound, ScanLine } from "lucide-react";
 import { prisma } from "@vedicneev/db";
 
 import { getInstituteSession } from "@/lib/institute/session";
+import { canAccessTestBatch } from "@/lib/institute/facultyScope";
 import { Button, Card, CardContent } from "@vedicneev/ui";
 import { PageHeader } from "@/components/dashboard/PageHeader";
 
@@ -17,7 +18,7 @@ export default async function TestSheetsPage({ params }: { params: { id: string 
   const session = (await getInstituteSession())!;
 
   const testBatch = await prisma.testBatch.findUnique({ where: { id: params.id } });
-  if (!testBatch || testBatch.instituteId !== session.institute.id) notFound();
+  if (!testBatch || !canAccessTestBatch(session, testBatch)) notFound();
 
   return (
     <>

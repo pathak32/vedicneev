@@ -8,10 +8,17 @@ import { Badge, cn } from "@vedicneev/ui";
 
 import { LogoutButton } from "./LogoutButton";
 
-const NAV_ITEMS = [
+const BASE_NAV_ITEMS = [
   { href: "/dashboard", label: "Dashboard" },
   { href: "/billing", label: "Billing" },
   { href: "/settings", label: "Settings" },
+];
+// Branch/faculty management is director-only — the pages themselves also
+// enforce this server-side, this just keeps the nav from offering a link
+// a FACULTY session would immediately bounce off of.
+const OWNER_NAV_ITEMS = [
+  { href: "/branches", label: "Branches" },
+  { href: "/faculty", label: "Faculty" },
 ];
 
 interface DashboardShellProps {
@@ -22,6 +29,7 @@ interface DashboardShellProps {
 
 export function DashboardShell({ instituteName, role, children }: DashboardShellProps) {
   const pathname = usePathname();
+  const navItems = role === "OWNER" ? [...BASE_NAV_ITEMS, ...OWNER_NAV_ITEMS] : BASE_NAV_ITEMS;
 
   return (
     <div className="flex min-h-screen flex-col bg-slate-50">
@@ -38,7 +46,7 @@ export function DashboardShell({ instituteName, role, children }: DashboardShell
             </Link>
 
             <nav className="flex items-center gap-1">
-              {NAV_ITEMS.map((item) => {
+              {navItems.map((item) => {
                 const active = pathname === item.href;
                 return (
                   <Link

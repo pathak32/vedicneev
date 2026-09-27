@@ -9,6 +9,7 @@ import {
 } from "@vedicneev/engine";
 
 import { getInstituteSession } from "@/lib/institute/session";
+import { canAccessTestBatch } from "@/lib/institute/facultyScope";
 import { parseCompactAnswerKey, parseStoredAnswerKey } from "@/lib/tests/answerKey";
 import { recordMistakesForGrading } from "@/lib/tests/recordMistakes";
 
@@ -24,7 +25,7 @@ export async function GET(_request: Request, { params }: { params: { id: string 
   }
 
   const testBatch = await prisma.testBatch.findUnique({ where: { id: params.id } });
-  if (!testBatch || testBatch.instituteId !== session.institute.id) {
+  if (!testBatch || !canAccessTestBatch(session, testBatch)) {
     return NextResponse.json({ error: "Test batch not found." }, { status: 404 });
   }
 
@@ -72,7 +73,7 @@ export async function PATCH(request: Request, { params }: { params: { id: string
   }
 
   const testBatch = await prisma.testBatch.findUnique({ where: { id: params.id } });
-  if (!testBatch || testBatch.instituteId !== session.institute.id) {
+  if (!testBatch || !canAccessTestBatch(session, testBatch)) {
     return NextResponse.json({ error: "Test batch not found." }, { status: 404 });
   }
 

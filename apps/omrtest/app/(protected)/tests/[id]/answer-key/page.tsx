@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { prisma } from "@vedicneev/db";
 
 import { getInstituteSession } from "@/lib/institute/session";
+import { canAccessTestBatch } from "@/lib/institute/facultyScope";
 import { parseStoredAnswerKey } from "@/lib/tests/answerKey";
 import { AnswerKeySection } from "@/components/AnswerKeySection";
 import { PageHeader } from "@/components/dashboard/PageHeader";
@@ -16,7 +17,7 @@ export default async function AnswerKeyPage({ params }: { params: { id: string }
   const session = (await getInstituteSession())!;
 
   const testBatch = await prisma.testBatch.findUnique({ where: { id: params.id } });
-  if (!testBatch || testBatch.instituteId !== session.institute.id) notFound();
+  if (!testBatch || !canAccessTestBatch(session, testBatch)) notFound();
 
   return (
     <>

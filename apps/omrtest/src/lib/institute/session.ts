@@ -1,8 +1,8 @@
-import { prisma, type Institute, type InstituteAdmin } from "@vedicneev/db";
+import { prisma, type Institute, type InstituteAdmin, type InstituteAdminAssignment, type User } from "@vedicneev/db";
 import { createSupabaseServerClient, isSupabaseAuthConfigured, resolveDbUser, toAppPhone } from "@vedicneev/auth";
 
 export interface InstituteSession {
-  admin: InstituteAdmin;
+  admin: InstituteAdmin & { user: User; assignments: InstituteAdminAssignment[] };
   institute: Institute;
 }
 
@@ -63,7 +63,7 @@ export async function getInstituteSession(): Promise<InstituteSession | null> {
 
   const admin = await prisma.instituteAdmin.findUnique({
     where: { userId },
-    include: { institute: true },
+    include: { institute: true, user: true, assignments: true },
   });
   if (!admin) return null;
 

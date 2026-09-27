@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { prisma } from "@vedicneev/db";
 
 import { getInstituteSession } from "@/lib/institute/session";
+import { canAccessTestBatch } from "@/lib/institute/facultyScope";
 import { buildInstituteOmrSheetSpec } from "@/lib/omr/instituteSheetSpec";
 import { renderInstituteOmrPrintHtml } from "@/lib/omr/renderInstituteOmrPrintHtml";
 
@@ -37,7 +38,7 @@ export async function GET(request: Request, { params }: { params: { id: string }
   // Not found and wrong-institute are reported identically — never confirm
   // to an authenticated admin of one institute that a given test batch id
   // belongs to a DIFFERENT institute.
-  if (!testBatch || testBatch.instituteId !== session.institute.id) {
+  if (!testBatch || !canAccessTestBatch(session, testBatch)) {
     return NextResponse.json({ error: "Test batch not found." }, { status: 404 });
   }
 

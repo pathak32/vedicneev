@@ -3,6 +3,7 @@ import { Prisma, prisma, type OmrUploadStatus } from "@vedicneev/db";
 import type { OmrSheetEvaluationSummary, SetMappings } from "@vedicneev/engine";
 
 import { getInstituteSession } from "@/lib/institute/session";
+import { canAccessTestBatch } from "@/lib/institute/facultyScope";
 import { buildInstituteOmrSheetSpec } from "@/lib/omr/instituteSheetSpec";
 import { computeAverageImageHash, decodeImageToGrayscale } from "@/lib/omr/decodeImage";
 import { analyzeOmrUpload, type OmrAnalysisResult, type RosterEntryForMatching } from "@/lib/omr/analyzeOmrUpload";
@@ -66,7 +67,7 @@ export async function POST(request: Request, { params }: { params: { id: string 
   });
   // Not found and wrong-institute are reported identically — see the
   // sheets route's identical comment on why.
-  if (!testBatch || testBatch.instituteId !== session.institute.id) {
+  if (!testBatch || !canAccessTestBatch(session, testBatch)) {
     return NextResponse.json({ error: "Test batch not found." }, { status: 404 });
   }
 

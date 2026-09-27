@@ -4,6 +4,7 @@ import { FileSpreadsheet, PlusCircle, ScanLine, Wallet } from "lucide-react";
 import { prisma } from "@vedicneev/db";
 
 import { getInstituteSession } from "@/lib/institute/session";
+import { facultyTestBatchWhereClause } from "@/lib/institute/facultyScope";
 import { getInstituteCreditBalance } from "@/lib/institute/credits";
 import { Button, Card, CardContent } from "@vedicneev/ui";
 import { PageHeader } from "@/components/dashboard/PageHeader";
@@ -32,7 +33,7 @@ export default async function DashboardPage() {
   const creditBalance = await getInstituteCreditBalance(institute.id, periodStart);
 
   const testBatches = await prisma.testBatch.findMany({
-    where: { instituteId: institute.id },
+    where: facultyTestBatchWhereClause(session),
     orderBy: { createdAt: "desc" },
     take: 20,
   });
