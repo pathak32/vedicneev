@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { Badge, Button, Card, CardContent, CardHeader, CardTitle } from "@vedicneev/ui";
 import type { ConceptNoteStatus } from "@vedicneev/db";
-import { Check, Loader2, RotateCcw, Save } from "lucide-react";
+import { Check, Loader2, Pencil, RotateCcw, Save } from "lucide-react";
 
 export interface EditableConceptNote {
   id: string;
@@ -35,6 +35,12 @@ function NoteCard({
   const [saving, setSaving] = useState(false);
   const [toggling, setToggling] = useState(false);
   const [dirty, setDirty] = useState(false);
+  // Published notes start collapsed to a summary row — editing them is
+  // still fully supported (nothing here ever locks a published note),
+  // this is purely so a review queue with dozens of already-approved
+  // notes doesn't render every one of them as a wide-open form. Drafts
+  // (what actually needs action) always start expanded.
+  const [expanded, setExpanded] = useState(note.status !== "PUBLISHED");
 
   async function handleSave() {
     setSaving(true);
@@ -55,12 +61,21 @@ function NoteCard({
         <div>
           <CardTitle className="text-base">{note.topicName}</CardTitle>
           <p className="mt-1 text-xs text-muted-foreground">
-            {note.sectionName}
+            {note.title}
             {note.reviewedByName ? ` · last reviewed by ${note.reviewedByName}` : ""}
           </p>
         </div>
-        <Badge variant={note.status === "PUBLISHED" ? "default" : "secondary"}>{note.status}</Badge>
+        <div className="flex items-center gap-2">
+          <Badge variant={note.status === "PUBLISHED" ? "default" : "secondary"}>{note.status}</Badge>
+          {!expanded ? (
+            <Button type="button" variant="outline" size="sm" onClick={() => setExpanded(true)} className="gap-1.5">
+              <Pencil className="h-3.5 w-3.5" />
+              Edit
+            </Button>
+          ) : null}
+        </div>
       </CardHeader>
+      {!expanded ? null : (
       <CardContent className="flex flex-col gap-3 pt-0">
         <div>
           <label className="text-xs font-semibold text-muted-foreground">Sub-concept title</label>
@@ -111,6 +126,11 @@ function NoteCard({
         </div>
 
         <div className="flex justify-end gap-2">
+          {note.status === "PUBLISHED" ? (
+            <Button type="button" variant="ghost" size="sm" onClick={() => setExpanded(false)}>
+              Collapse
+            </Button>
+          ) : null}
           <Button type="button" variant="outline" size="sm" disabled={!dirty || saving} onClick={handleSave} className="gap-1.5">
             {saving ? <Loader2 className="h-3.5 w-3.5 animate-spin" /> : <Save className="h-3.5 w-3.5" />}
             Save edits
@@ -127,6 +147,7 @@ function NoteCard({
           </Button>
         </div>
       </CardContent>
+      )}
     </Card>
   );
 }
