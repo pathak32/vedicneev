@@ -1,3 +1,4 @@
+import { cache } from "react";
 import { prisma, type Institute, type InstituteAdmin, type InstituteAdminAssignment, type User } from "@vedicneev/db";
 import { createSupabaseServerClient, isSupabaseAuthConfigured, resolveDbUser, toAppPhone } from "@vedicneev/auth";
 
@@ -21,7 +22,14 @@ export interface InstituteSession {
  * live in production before this fix (a phone re-using a legacy row could
  * never onboard, on any submission, with no diagnosable client-side error).
  */
-export async function getAuthenticatedSupabaseUserId(): Promise<string | null> {
+/**
+ * Wrapped in React's cache() so a Supabase auth round-trip + resolveDbUser
+ * query runs at most once per request no matter how many times this is
+ * called — app/(protected)/layout.tsx and every page under it each call
+ * this (directly or via getInstituteSession below), and without this,
+ * every single navigation paid for that work twice.
+ */
+export const getAuthenticatedSupabaseUserId = cache(async (): Promise<string | null> => {
   if (!isSupabaseAuthConfigured()) return null;
 
   const supabase = createSupabaseServerClient();
@@ -38,7 +46,7 @@ export async function getAuthenticatedSupabaseUserId(): Promise<string | null> {
 
   const dbUser = await resolveDbUser({ id: user.id, phone: toAppPhone(user.phone) });
   return dbUser.id;
-}
+});
 
 /**
  * The real, DB-backed authorization check — Prisma isn't reachable from
@@ -57,7 +65,7 @@ export async function getAuthenticatedSupabaseUserId(): Promise<string | null> {
  * onboarded" (to route the latter to /onboarding instead of /login), calls
  * getAuthenticatedSupabaseUserId directly rather than through here.
  */
-export async function getInstituteSession(): Promise<InstituteSession | null> {
+export const getInstituteSession = cache(async (): Promise<InstituteSession | null> => {
   const userId = await getAuthenticatedSupabaseUserId();
   if (!userId) return null;
 
@@ -68,7 +76,7 @@ export async function getInstituteSession(): Promise<InstituteSession | null> {
   if (!admin) return null;
 
   return { admin, institute: admin.institute };
-}
+});
 
 /**
  * Where to send an InstituteAdmin right after their session is confirmed —
