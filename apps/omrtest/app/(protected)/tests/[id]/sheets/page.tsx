@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { AlertTriangle, Download, FileUp, KeyRound, ScanLine } from "lucide-react";
+import { AlertTriangle, Download, FileUp, KeyRound, ScanLine, Users } from "lucide-react";
 import { prisma } from "@vedicneev/db";
 
 import { getInstituteSession } from "@/lib/institute/session";
@@ -60,6 +60,12 @@ export default async function TestSheetsPage({ params }: { params: { id: string 
               <Link href={`/tests/${testBatch.id}/questions`}>
                 <FileUp className="h-4 w-4" aria-hidden="true" />
                 Upload question paper
+              </Link>
+            </Button>
+            <Button asChild variant="outline">
+              <Link href={`/tests/${testBatch.id}/roster`}>
+                <Users className="h-4 w-4" aria-hidden="true" />
+                Roster
               </Link>
             </Button>
             <Button asChild variant="outline">
