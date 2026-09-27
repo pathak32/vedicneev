@@ -1548,6 +1548,12 @@ model TestBatchRosterEntry {
   // stays fixed even if the TestBatch's testCode is ever edited later.
   rollNumber     String    @map("roll_number")
   studentName    String?   @map("student_name")
+  // Optional metadata an institute can fill in any time after roster
+  // creation (e.g. from the Roster editor UI) — never required to create
+  // a batch, and unused by grading itself.
+  parentName     String?   @map("parent_name")
+  parentPhone    String?   @map("parent_phone")
+  parentEmail    String?   @map("parent_email")
   // Opaque, unguessable, purely numeric — bubbled onto the sheet's own
   // second digit-grid (OmrSheetSpec.sheetTokenGrid) using the same
   // detection pipeline as answers and the roll number, no barcode/QR
