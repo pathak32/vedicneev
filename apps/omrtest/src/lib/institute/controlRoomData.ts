@@ -84,15 +84,19 @@ export async function buildControlRoomData(instituteId: string): Promise<BranchN
       branchMap.set(branchKey, branchNode);
     }
 
+    // Grouped case-insensitively — subject/classLevel are free text (see
+    // TestBatch's own schema comment), so "Maths" and "maths" from two
+    // different batches must land in the same group rather than splitting
+    // silently. The first-seen casing is what's displayed.
     const subjectName = batch.subject?.trim() || "Unspecified subject";
-    let subjectNode = branchNode.subjects.find((s) => s.subject === subjectName);
+    let subjectNode = branchNode.subjects.find((s) => s.subject.toLowerCase() === subjectName.toLowerCase());
     if (!subjectNode) {
       subjectNode = { subject: subjectName, classes: [] };
       branchNode.subjects.push(subjectNode);
     }
 
     const classLevel = batch.classLevel?.trim() || "Unspecified class";
-    let classNode = subjectNode.classes.find((c) => c.classLevel === classLevel);
+    let classNode = subjectNode.classes.find((c) => c.classLevel.toLowerCase() === classLevel.toLowerCase());
     if (!classNode) {
       classNode = { classLevel, batches: [] };
       subjectNode.classes.push(classNode);
