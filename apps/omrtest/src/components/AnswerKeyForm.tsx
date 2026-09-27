@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { CheckCircle2, Loader2, Pencil, ShieldCheck } from "lucide-react";
+import { toast } from "sonner";
 
 import { Button, Card, CardContent } from "@vedicneev/ui";
 import { Label } from "@/components/ui/Label";
@@ -90,12 +91,15 @@ export function AnswerKeyForm({ testBatchId, totalQuestions, onSaved, onConfirme
       const data = await res.json();
       if (!res.ok) {
         setError(data.error ?? "Could not confirm the answer key.");
+        toast.error(data.error ?? "Could not confirm the answer key.");
         return;
       }
       setState((prev) => (prev ? { ...prev, confirmed: true } : prev));
       onConfirmedChange?.(true);
+      toast.success("Answer key confirmed.");
     } catch {
       setError("Network error — could not reach the server.");
+      toast.error("Network error — could not reach the server.");
     } finally {
       setConfirming(false);
     }
@@ -116,6 +120,7 @@ export function AnswerKeyForm({ testBatchId, totalQuestions, onSaved, onConfirme
       const data = await res.json();
       if (!res.ok) {
         setError(data.error ?? "Could not save the answer key.");
+        toast.error(data.error ?? "Could not save the answer key.");
         setSaving(false);
         return;
       }
@@ -129,8 +134,10 @@ export function AnswerKeyForm({ testBatchId, totalQuestions, onSaved, onConfirme
       // route's own comment) — reflect that immediately rather than
       // waiting for a reload.
       onConfirmedChange?.(false);
+      toast.success("Answer key saved.");
     } catch {
       setError("Network error — could not reach the server.");
+      toast.error("Network error — could not reach the server.");
     } finally {
       setSaving(false);
     }

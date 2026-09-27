@@ -1,9 +1,10 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { AlertTriangle, FileText, Loader2, Shuffle } from "lucide-react";
+import { AlertTriangle, FileText, Shuffle } from "lucide-react";
+import { toast } from "sonner";
 
-import { Button, Card, CardContent } from "@vedicneev/ui";
+import { Button, Card, CardContent, Skeleton } from "@vedicneev/ui";
 import { Label } from "@/components/ui/Label";
 import { Select } from "@/components/ui/Select";
 
@@ -63,11 +64,14 @@ export function MultiSetPanel({ testBatchId, hasCompleteAnswerKey, isAnswerKeyCo
       const data = await res.json();
       if (!res.ok) {
         setError(data.error ?? "Could not generate sets.");
+        toast.error(data.error ?? "Could not generate sets.");
         return;
       }
       setSetLabels(data.setLabels);
+      toast.success(`${data.setLabels.length} sets generated.`);
     } catch {
       setError("Network error — could not reach the server.");
+      toast.error("Network error — could not reach the server.");
     } finally {
       setGenerating(false);
     }
@@ -76,9 +80,9 @@ export function MultiSetPanel({ testBatchId, hasCompleteAnswerKey, isAnswerKeyCo
   if (loading) {
     return (
       <Card className="max-w-2xl border-slate-200">
-        <CardContent className="flex items-center gap-2 p-6 text-sm text-slate-500">
-          <Loader2 className="h-4 w-4 animate-spin" aria-hidden="true" />
-          Loading…
+        <CardContent className="space-y-3 p-6">
+          <Skeleton className="h-4 w-2/3" />
+          <Skeleton className="h-9 w-full" />
         </CardContent>
       </Card>
     );

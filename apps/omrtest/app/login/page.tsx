@@ -2,15 +2,27 @@
 
 import { Suspense, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
-import { KeyRound, MessageCircle, ScanLine } from "lucide-react";
+import { AnimatePresence, motion } from "framer-motion";
+import { KeyRound, MessageCircle, ScanLine, Sparkles } from "lucide-react";
+import { toast } from "sonner";
 
 import { sendOtp, verifyOtp } from "@/lib/auth/whatsappOtpClient";
 import { loginWithPassword } from "@/lib/auth/passwordLoginClient";
-import { Button, Card, CardContent, cn } from "@vedicneev/ui";
+import { Button, cn } from "@vedicneev/ui";
 import { Input } from "@/components/ui/Input";
 import { Label } from "@/components/ui/Label";
 
 const INDIAN_MOBILE_PATTERN = /^[6-9]\d{9}$/;
+
+// A phone number is an identifier, not a secret — this only pre-fills it
+// and switches to the Password tab so a presenter isn't typing 10 digits
+// live; the PIN itself is never stored here and is always typed by hand.
+const DEMO_ACCOUNT_LABEL = "Sukhoi Academy";
+const DEMO_ACCOUNT_PHONE = "9000000001";
+
+const glassInputClass =
+  "border-white/10 bg-white/5 text-white placeholder:text-white/30 focus-visible:ring-white/30 focus-visible:ring-offset-0";
+const glassLabelClass = "text-white/70";
 
 /**
  * Institute partner sign-in — two independent methods sharing one
@@ -32,6 +44,31 @@ export default function LoginPage() {
 
 type LoginMethod = "otp" | "password";
 type OtpStep = "phone" | "otp";
+
+function GlowBackdrop() {
+  return (
+    <div className="pointer-events-none absolute inset-0 overflow-hidden">
+      <motion.div
+        className="absolute left-[-10%] top-[-15%] h-[36rem] w-[36rem] rounded-full bg-brand-indigo/30 blur-[120px]"
+        animate={{ opacity: [0.5, 0.8, 0.5], scale: [1, 1.08, 1] }}
+        transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
+      />
+      <motion.div
+        className="absolute bottom-[-20%] right-[-10%] h-[30rem] w-[30rem] rounded-full bg-indigo-400/20 blur-[120px]"
+        animate={{ opacity: [0.4, 0.7, 0.4], scale: [1, 1.1, 1] }}
+        transition={{ duration: 12, repeat: Infinity, ease: "easeInOut", delay: 1 }}
+      />
+      <div
+        className="absolute inset-0 opacity-[0.03]"
+        style={{
+          backgroundImage:
+            "linear-gradient(rgba(255,255,255,0.6) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.6) 1px, transparent 1px)",
+          backgroundSize: "48px 48px",
+        }}
+      />
+    </div>
+  );
+}
 
 /**
  * useSearchParams (to read `next`/`error`) opts a component out of static
@@ -62,12 +99,19 @@ function LoginForm() {
     router.push(callbackUrl);
   }
 
-  function switchMethod(next: LoginMethod) {
-    setMethod(next);
+  function switchMethod(nextMethod: LoginMethod) {
+    setMethod(nextMethod);
     setOtpStep("phone");
     setCode("");
     setPassword("");
     setError(null);
+  }
+
+  function fillDemoNumber() {
+    setMethod("password");
+    setPhone(DEMO_ACCOUNT_PHONE);
+    setError(null);
+    toast(`${DEMO_ACCOUNT_LABEL} number filled — enter the PIN to sign in.`);
   }
 
   async function handleSendOtp() {
@@ -81,8 +125,10 @@ function LoginForm() {
     setPending(false);
     if (!result.success) {
       setError(result.error ?? "Could not send the code. Try again.");
+      toast.error(result.error ?? "Could not send the code.");
       return;
     }
+    toast.success("Code sent on WhatsApp.");
     setOtpStep("otp");
   }
 
@@ -93,8 +139,10 @@ function LoginForm() {
     setPending(false);
     if (!result.success) {
       setError(result.error ?? "Incorrect code. Try again.");
+      toast.error(result.error ?? "Incorrect code.");
       return;
     }
+    toast.success("Signed in.");
     goToCallback();
   }
 
@@ -113,53 +161,97 @@ function LoginForm() {
     setPending(false);
     if (!result.success) {
       setError(result.error ?? "Incorrect phone number or password.");
+      toast.error(result.error ?? "Incorrect phone number or password.");
       return;
     }
+    toast.success("Signed in.");
     goToCallback();
   }
 
   return (
-    <div className="flex min-h-screen items-center justify-center bg-brand-navy px-4 py-12">
-      <div className="w-full max-w-md">
+    <div className="relative flex min-h-screen items-center justify-center overflow-hidden bg-brand-navy px-4 py-12">
+      <GlowBackdrop />
+
+      <motion.div
+        initial={{ opacity: 0, y: 12 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, ease: "easeOut" }}
+        className="relative z-10 w-full max-w-md"
+      >
         <div className="mb-8 flex flex-col items-center text-center">
-          <span className="flex h-11 w-11 items-center justify-center rounded-lg bg-white/10 text-white">
+          <span className="flex h-11 w-11 items-center justify-center rounded-xl border border-white/10 bg-white/10 text-white shadow-[0_0_30px_-5px_rgba(99,102,241,0.6)]">
             <ScanLine className="h-5 w-5" aria-hidden="true" />
           </span>
           <h1 className="mt-4 text-2xl font-bold tracking-tight text-white">Institute Partner Sign In</h1>
-          <p className="mt-1 text-sm text-white/60">Sign in with the mobile number registered on your account.</p>
+          <p className="mt-1 text-sm text-white/50">Sign in with the mobile number registered on your account.</p>
         </div>
 
-        <Card className="border-white/10 bg-white shadow-2xl">
-          <CardContent className="p-6">
-            <div className="mb-5 grid grid-cols-2 gap-1 rounded-lg bg-slate-100 p-1">
-              <button
-                type="button"
-                onClick={() => switchMethod("password")}
-                disabled={pending}
-                className={cn(
-                  "flex items-center justify-center gap-1.5 rounded-md py-1.5 text-sm font-medium transition-colors",
-                  method === "password" ? "bg-white text-slate-900 shadow-sm" : "text-slate-500 hover:text-slate-700"
-                )}
-              >
+        <button
+          type="button"
+          onClick={fillDemoNumber}
+          disabled={pending}
+          className="group mb-4 flex w-full items-center justify-between gap-3 rounded-xl border border-indigo-400/30 bg-gradient-to-r from-indigo-500/15 via-indigo-400/10 to-transparent px-4 py-3 text-left transition-all hover:border-indigo-400/60 hover:from-indigo-500/25 disabled:cursor-not-allowed disabled:opacity-60"
+        >
+          <span className="flex items-center gap-2.5">
+            <span className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-lg bg-indigo-400/20 text-indigo-300">
+              <Sparkles className="h-4 w-4" aria-hidden="true" />
+            </span>
+            <span>
+              <span className="block text-sm font-semibold text-white">Instant Demo Access</span>
+              <span className="block text-xs text-white/50">{DEMO_ACCOUNT_LABEL} · fills number, no OTP needed</span>
+            </span>
+          </span>
+          <span className="rounded-full border border-white/10 bg-white/5 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-white/60 transition-colors group-hover:text-white/90">
+            Demo
+          </span>
+        </button>
+
+        <div className="rounded-2xl border border-white/10 bg-white/[0.04] p-6 shadow-2xl backdrop-blur-xl">
+          <div className="mb-5 grid grid-cols-2 gap-1 rounded-lg border border-white/5 bg-white/5 p-1">
+            <button
+              type="button"
+              onClick={() => switchMethod("password")}
+              disabled={pending}
+              className={cn(
+                "relative flex items-center justify-center gap-1.5 rounded-md py-1.5 text-sm font-medium transition-colors",
+                method === "password" ? "text-white" : "text-white/40 hover:text-white/70"
+              )}
+            >
+              {method === "password" ? (
+                <motion.span layoutId="login-tab-pill" className="absolute inset-0 rounded-md bg-white/10" transition={{ duration: 0.2 }} />
+              ) : null}
+              <span className="relative flex items-center gap-1.5">
                 <KeyRound className="h-3.5 w-3.5" aria-hidden="true" />
                 Password
-              </button>
-              <button
-                type="button"
-                onClick={() => switchMethod("otp")}
-                disabled={pending}
-                className={cn(
-                  "flex items-center justify-center gap-1.5 rounded-md py-1.5 text-sm font-medium transition-colors",
-                  method === "otp" ? "bg-white text-slate-900 shadow-sm" : "text-slate-500 hover:text-slate-700"
-                )}
-              >
+              </span>
+            </button>
+            <button
+              type="button"
+              onClick={() => switchMethod("otp")}
+              disabled={pending}
+              className={cn(
+                "relative flex items-center justify-center gap-1.5 rounded-md py-1.5 text-sm font-medium transition-colors",
+                method === "otp" ? "text-white" : "text-white/40 hover:text-white/70"
+              )}
+            >
+              {method === "otp" ? (
+                <motion.span layoutId="login-tab-pill" className="absolute inset-0 rounded-md bg-white/10" transition={{ duration: 0.2 }} />
+              ) : null}
+              <span className="relative flex items-center gap-1.5">
                 <MessageCircle className="h-3.5 w-3.5" aria-hidden="true" />
                 WhatsApp OTP
-              </button>
-            </div>
+              </span>
+            </button>
+          </div>
 
+          <AnimatePresence mode="wait">
             {method === "password" ? (
-              <form
+              <motion.form
+                key="password"
+                initial={{ opacity: 0, x: -8 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: 8 }}
+                transition={{ duration: 0.15 }}
                 onSubmit={(e) => {
                   e.preventDefault();
                   void handlePasswordLogin();
@@ -167,9 +259,11 @@ function LoginForm() {
                 className="space-y-4"
               >
                 <div>
-                  <Label htmlFor="phone-password">Mobile number</Label>
+                  <Label htmlFor="phone-password" className={glassLabelClass}>
+                    Mobile number
+                  </Label>
                   <div className="flex items-center gap-2">
-                    <span className="flex h-10 items-center rounded-md border border-input bg-slate-50 px-3 text-sm text-slate-500">
+                    <span className="flex h-10 items-center rounded-md border border-white/10 bg-white/5 px-3 text-sm text-white/40">
                       +91
                     </span>
                     <Input
@@ -181,11 +275,14 @@ function LoginForm() {
                       onChange={(e) => setPhone(e.target.value.replace(/\D/g, ""))}
                       placeholder="10-digit mobile number"
                       disabled={pending}
+                      className={glassInputClass}
                     />
                   </div>
                 </div>
                 <div>
-                  <Label htmlFor="password">Password or PIN</Label>
+                  <Label htmlFor="password" className={glassLabelClass}>
+                    Password or PIN
+                  </Label>
                   <Input
                     id="password"
                     type="password"
@@ -193,17 +290,23 @@ function LoginForm() {
                     onChange={(e) => setPassword(e.target.value)}
                     placeholder="Your password or 6-digit PIN"
                     disabled={pending}
+                    className={glassInputClass}
                   />
                 </div>
                 <Button type="submit" disabled={pending} className="w-full">
                   {pending ? "Signing in…" : "Login with Password"}
                 </Button>
-                <p className="text-center text-xs text-slate-500">
+                <p className="text-center text-xs text-white/40">
                   First time signing in, or forgot your password? Use WhatsApp OTP instead.
                 </p>
-              </form>
+              </motion.form>
             ) : otpStep === "phone" ? (
-              <form
+              <motion.form
+                key="otp-phone"
+                initial={{ opacity: 0, x: -8 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: 8 }}
+                transition={{ duration: 0.15 }}
                 onSubmit={(e) => {
                   e.preventDefault();
                   void handleSendOtp();
@@ -211,9 +314,11 @@ function LoginForm() {
                 className="space-y-4"
               >
                 <div>
-                  <Label htmlFor="phone">Mobile number</Label>
+                  <Label htmlFor="phone" className={glassLabelClass}>
+                    Mobile number
+                  </Label>
                   <div className="flex items-center gap-2">
-                    <span className="flex h-10 items-center rounded-md border border-input bg-slate-50 px-3 text-sm text-slate-500">
+                    <span className="flex h-10 items-center rounded-md border border-white/10 bg-white/5 px-3 text-sm text-white/40">
                       +91
                     </span>
                     <Input
@@ -225,6 +330,7 @@ function LoginForm() {
                       onChange={(e) => setPhone(e.target.value.replace(/\D/g, ""))}
                       placeholder="10-digit mobile number"
                       disabled={pending}
+                      className={glassInputClass}
                     />
                   </div>
                 </div>
@@ -232,20 +338,27 @@ function LoginForm() {
                   <MessageCircle className="h-4 w-4" aria-hidden="true" />
                   {pending ? "Sending…" : "Send code on WhatsApp"}
                 </Button>
-              </form>
+              </motion.form>
             ) : (
-              <form
+              <motion.form
+                key="otp-code"
+                initial={{ opacity: 0, x: -8 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: 8 }}
+                transition={{ duration: 0.15 }}
                 onSubmit={(e) => {
                   e.preventDefault();
                   void handleVerifyOtp();
                 }}
                 className="space-y-4"
               >
-                <p className="text-sm text-slate-600">
-                  Code sent to <span className="font-medium text-slate-900">+91 {phone}</span> on WhatsApp.
+                <p className="text-sm text-white/60">
+                  Code sent to <span className="font-medium text-white">+91 {phone}</span> on WhatsApp.
                 </p>
                 <div>
-                  <Label htmlFor="code">One-time code</Label>
+                  <Label htmlFor="code" className={glassLabelClass}>
+                    One-time code
+                  </Label>
                   <Input
                     id="code"
                     type="text"
@@ -255,6 +368,7 @@ function LoginForm() {
                     onChange={(e) => setCode(e.target.value.replace(/\D/g, ""))}
                     placeholder="6-digit code"
                     disabled={pending}
+                    className={glassInputClass}
                   />
                 </div>
                 <Button type="submit" disabled={pending} className="w-full">
@@ -268,21 +382,21 @@ function LoginForm() {
                     setError(null);
                   }}
                   disabled={pending}
-                  className="w-full text-center text-sm font-medium text-brand-indigo hover:underline disabled:opacity-50"
+                  className="w-full text-center text-sm font-medium text-indigo-300 hover:underline disabled:opacity-50"
                 >
                   Use a different number
                 </button>
-              </form>
+              </motion.form>
             )}
+          </AnimatePresence>
 
-            {error ? (
-              <p role="alert" className="mt-4 text-sm font-medium text-destructive">
-                {error}
-              </p>
-            ) : null}
-          </CardContent>
-        </Card>
-      </div>
+          {error ? (
+            <p role="alert" className="mt-4 text-sm font-medium text-red-400">
+              {error}
+            </p>
+          ) : null}
+        </div>
+      </motion.div>
     </div>
   );
 }

@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Loader2 } from "lucide-react";
+import { toast } from "sonner";
 
 import { Button, Card, CardContent } from "@vedicneev/ui";
 import { Input } from "@/components/ui/Input";
@@ -72,11 +73,14 @@ export function RosterEditor({ testBatchId, entries: initialEntries }: RosterEdi
       const data = await res.json();
       if (!res.ok) {
         setError(data.error ?? "Could not save roster changes.");
+        toast.error(data.error ?? "Could not save roster changes.");
         return;
       }
       setSaved(true);
+      toast.success(`${changedRows.length} roster row${changedRows.length === 1 ? "" : "s"} saved.`);
     } catch {
       setError("Network error — could not reach the server.");
+      toast.error("Network error — could not reach the server.");
     } finally {
       setSaving(false);
     }

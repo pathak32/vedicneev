@@ -1,14 +1,15 @@
 import Link from "next/link";
 import { redirect } from "next/navigation";
-import { FileSpreadsheet, PlusCircle, ScanLine, Wallet } from "lucide-react";
+import { PlusCircle, ScanLine } from "lucide-react";
 import { prisma } from "@vedicneev/db";
 
 import { getInstituteSession } from "@/lib/institute/session";
 import { facultyTestBatchWhereClause } from "@/lib/institute/facultyScope";
 import { getInstituteCreditBalance } from "@/lib/institute/credits";
-import { Button, Card, CardContent } from "@vedicneev/ui";
+import { Button, Card } from "@vedicneev/ui";
 import { PageHeader } from "@/components/dashboard/PageHeader";
 import { StatusBadge } from "@/components/ui/StatusBadge";
+import { DashboardMetrics } from "@/components/dashboard/DashboardMetrics";
 
 export default async function DashboardPage() {
   const session = await getInstituteSession();
@@ -69,43 +70,11 @@ export default async function DashboardPage() {
         }
       />
 
-      <div className="mb-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        <Card className="border-slate-200">
-          <CardContent className="flex items-center gap-4 p-6">
-            <span className="flex h-11 w-11 items-center justify-center rounded-lg bg-brand-indigo/10 text-brand-indigo">
-              <Wallet className="h-5 w-5" aria-hidden="true" />
-            </span>
-            <div>
-              <p className="text-2xl font-bold text-slate-900">{creditBalance}</p>
-              <p className="text-sm text-slate-500">Scan credits remaining</p>
-            </div>
-          </CardContent>
-        </Card>
-        <Card className="border-slate-200">
-          <CardContent className="flex items-center gap-4 p-6">
-            <span className="flex h-11 w-11 items-center justify-center rounded-lg bg-brand-indigo/10 text-brand-indigo">
-              <FileSpreadsheet className="h-5 w-5" aria-hidden="true" />
-            </span>
-            <div>
-              <p className="text-2xl font-bold text-slate-900">{testBatches.length}</p>
-              <p className="text-sm text-slate-500">Test batches created</p>
-            </div>
-          </CardContent>
-        </Card>
-        <Card className="border-slate-200 sm:col-span-2 lg:col-span-1">
-          <CardContent className="flex items-center gap-4 p-6">
-            <span className="flex h-11 w-11 items-center justify-center rounded-lg bg-brand-indigo/10 text-brand-indigo">
-              <ScanLine className="h-5 w-5" aria-hidden="true" />
-            </span>
-            <div>
-              <p className="truncate text-2xl font-bold text-slate-900">
-                {mostRecentBatch ? mostRecentBatch.batchName : "—"}
-              </p>
-              <p className="text-sm text-slate-500">Most recent batch</p>
-            </div>
-          </CardContent>
-        </Card>
-      </div>
+      <DashboardMetrics
+        creditBalance={creditBalance}
+        batchCount={testBatches.length}
+        mostRecentBatchName={mostRecentBatch ? mostRecentBatch.batchName : null}
+      />
 
       <Card className="border-slate-200">
         <div className="border-b border-slate-200 px-6 py-4">
