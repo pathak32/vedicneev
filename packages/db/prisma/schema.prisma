@@ -1430,6 +1430,14 @@ model TestBatch {
   // than this column enforcing it.
   sections          Json?
   answerKey         Json?            @map("answer_key")
+  // Set only by an explicit "Confirm Answer Key" action (never implied by
+  // a save) — Generate Multi-Set Papers refuses to run until this is set,
+  // so a set is never shuffled from a key nobody has actually signed off
+  // on. Any subsequent edit to answerKey (the compact-textarea save or the
+  // document-upload save route's base-paper path) resets this back to
+  // null, since a re-confirmation is exactly the point: the previous
+  // confirmation was for different content.
+  answerKeyConfirmedAt DateTime?      @map("answer_key_confirmed_at")
   // Snapshot of answerKey as an ordered array (index 0 = Q1) at the moment
   // "Generate Multi-Set Papers" last ran — packages/engine's
   // generateQuestionSets shuffles against this, not the live `answerKey`

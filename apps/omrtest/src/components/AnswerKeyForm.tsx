@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Loader2, Pencil } from "lucide-react";
+import { CheckCircle2, Loader2, Pencil, ShieldCheck } from "lucide-react";
 
 import { Button, Card, CardContent } from "@vedicneev/ui";
 import { Label } from "@/components/ui/Label";
@@ -12,11 +12,14 @@ interface AnswerKeyFormProps {
   totalQuestions: number;
   /** Fires after every successful save, with whether the saved key is now complete — MultiSetPanel (a sibling, not a child) needs this to unlock, since it can't see this form's own state otherwise. */
   onSaved?: (isComplete: boolean) => void;
+  /** Fires whenever the confirmed state changes (initial load, a save that un-confirms it, or an explicit Confirm) — same cross-sibling need as onSaved. */
+  onConfirmedChange?: (confirmed: boolean) => void;
 }
 
 interface AnswerKeyState {
   compactAnswerKey: string | null;
   queuedUploadsAwaitingKey: number;
+  confirmed: boolean;
 }
 
 interface SaveResult {
@@ -38,7 +41,7 @@ interface SaveResult {
  * reads as "did that save actually work?" — SAVED mode shows a plain
  * summary + an explicit Edit action instead.
  */
-export function AnswerKeyForm({ testBatchId, totalQuestions, onSaved }: AnswerKeyFormProps) {
+export function AnswerKeyForm({ testBatchId, totalQuestions, onSaved, onConfirmedChange }: AnswerKeyFormProps) {
   const [loading, setLoading] = useState(true);
   const [state, setState] = useState<AnswerKeyState | null>(null);
   const [value, setValue] = useState("");
@@ -46,6 +49,7 @@ export function AnswerKeyForm({ testBatchId, totalQuestions, onSaved }: AnswerKe
   const [error, setError] = useState<string | null>(null);
   const [saving, setSaving] = useState(false);
   const [saveResult, setSaveResult] = useState<SaveResult | null>(null);
+  const [confirming, setConfirming] = useState(false);
 
   useEffect(() => {
     let cancelled = false;
@@ -62,6 +66,7 @@ export function AnswerKeyForm({ testBatchId, totalQuestions, onSaved }: AnswerKe
           // never-set batch (compactAnswerKey null) opens straight into
           // the editable field.
           setEditing(!data.compactAnswerKey);
+          onConfirmedChange?.(data.confirmed);
         }
         setLoading(false);
       })
@@ -74,7 +79,27 @@ export function AnswerKeyForm({ testBatchId, totalQuestions, onSaved }: AnswerKe
     return () => {
       cancelled = true;
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [testBatchId]);
+
+  async function handleConfirm() {
+    setConfirming(true);
+    setError(null);
+    try {
+      const res = await fetch(`/api/tests/${testBatchId}/answer-key/confirm`, { method: "POST" });
+      const data = await res.json();
+      if (!res.ok) {
+        setError(data.error ?? "Could not confirm the answer key.");
+        return;
+      }
+      setState((prev) => (prev ? { ...prev, confirmed: true } : prev));
+      onConfirmedChange?.(true);
+    } catch {
+      setError("Network error — could not reach the server.");
+    } finally {
+      setConfirming(false);
+    }
+  }
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -95,9 +120,15 @@ export function AnswerKeyForm({ testBatchId, totalQuestions, onSaved }: AnswerKe
         return;
       }
       setSaveResult({ regradedCount: data.regradedCount, stillHeldCount: data.stillHeldCount });
-      setState((prev) => (prev ? { ...prev, compactAnswerKey: value, queuedUploadsAwaitingKey: data.stillHeldCount } : prev));
+      setState((prev) =>
+        prev ? { ...prev, compactAnswerKey: value, queuedUploadsAwaitingKey: data.stillHeldCount, confirmed: false } : prev
+      );
       setEditing(false);
       onSaved?.(true);
+      // The save just un-confirmed this key server-side (see the PATCH
+      // route's own comment) — reflect that immediately rather than
+      // waiting for a reload.
+      onConfirmedChange?.(false);
     } catch {
       setError("Network error — could not reach the server.");
     } finally {
@@ -147,10 +178,23 @@ export function AnswerKeyForm({ testBatchId, totalQuestions, onSaved }: AnswerKe
               <p className="text-sm font-medium text-slate-900">Answer key saved</p>
               <p className="text-xs text-slate-500">{totalQuestions} / {totalQuestions} questions</p>
             </div>
-            <Button type="button" variant="outline" size="sm" onClick={handleEdit}>
-              <Pencil className="h-3.5 w-3.5" aria-hidden="true" />
-              Edit
-            </Button>
+            <div className="flex items-center gap-2">
+              {state.confirmed ? (
+                <span className="inline-flex items-center gap-1.5 whitespace-nowrap rounded-full bg-success/10 px-3 py-1.5 text-xs font-medium text-success">
+                  <CheckCircle2 className="h-3.5 w-3.5" aria-hidden="true" />
+                  Confirmed
+                </span>
+              ) : (
+                <Button type="button" size="sm" onClick={handleConfirm} disabled={confirming}>
+                  <ShieldCheck className="h-3.5 w-3.5" aria-hidden="true" />
+                  {confirming ? "Confirming…" : "Confirm Answer Key"}
+                </Button>
+              )}
+              <Button type="button" variant="outline" size="sm" onClick={handleEdit}>
+                <Pencil className="h-3.5 w-3.5" aria-hidden="true" />
+                Edit
+              </Button>
+            </div>
           </div>
         ) : (
           <form onSubmit={handleSubmit} className="space-y-3">

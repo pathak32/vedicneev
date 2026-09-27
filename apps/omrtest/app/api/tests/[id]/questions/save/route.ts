@@ -146,7 +146,9 @@ export async function POST(request: Request, { params }: { params: { id: string 
       // path keeps working unchanged (see TestBatch.masterQuestions' own
       // comment). Deliberately does NOT touch an existing setMappings —
       // same conservative "don't silently invalidate already-generated
-      // sets" call the answer-key textarea save makes today.
+      // sets" call the answer-key textarea save makes today; the
+      // director instead has to notice the "unconfirmed" state below and
+      // re-generate deliberately.
       const answerKeyRecord: Record<string, BubbleOption> = {};
       const masterQuestions: MasterQuestionItem[] = validated.map((q) => {
         answerKeyRecord[String(q.questionNumber)] = q.correctOption;
@@ -157,6 +159,7 @@ export async function POST(request: Request, { params }: { params: { id: string 
         data: {
           answerKey: answerKeyRecord,
           masterQuestions: masterQuestions as unknown as Prisma.InputJsonValue,
+          answerKeyConfirmedAt: null,
           ...examCategoryUpdate,
         },
       });

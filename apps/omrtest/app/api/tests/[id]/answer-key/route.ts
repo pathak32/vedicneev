@@ -48,6 +48,7 @@ export async function GET(_request: Request, { params }: { params: { id: string 
     compactAnswerKey,
     queuedUploadsAwaitingKey,
     setLabels: setMappingsForGet ? Object.keys(setMappingsForGet) : null,
+    confirmed: testBatch.answerKeyConfirmedAt != null,
   });
 }
 
@@ -99,7 +100,11 @@ export async function PATCH(request: Request, { params }: { params: { id: string
 
   const result = await prisma.$transaction(
     async (tx) => {
-      await tx.testBatch.update({ where: { id: testBatch.id }, data: { answerKey: parsed.storedAnswerKey } });
+      // Editing the key always un-confirms it — see TestBatch.answerKeyConfirmedAt's own comment on why.
+      await tx.testBatch.update({
+        where: { id: testBatch.id },
+        data: { answerKey: parsed.storedAnswerKey, answerKeyConfirmedAt: null },
+      });
 
       const queuedUploads = await tx.omrUpload.findMany({
         where: { testBatchId: testBatch.id, status: "QUEUED", rosterEntryId: { not: null } },

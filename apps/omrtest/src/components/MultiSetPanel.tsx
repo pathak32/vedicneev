@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { FileText, Loader2, Shuffle } from "lucide-react";
+import { AlertTriangle, FileText, Loader2, Shuffle } from "lucide-react";
 
 import { Button, Card, CardContent } from "@vedicneev/ui";
 import { Label } from "@/components/ui/Label";
@@ -11,7 +11,9 @@ interface MultiSetPanelProps {
   testBatchId: string;
   /** Lifted into AnswerKeySection (a shared parent) so a save in the sibling AnswerKeyForm can update this live, instead of only ever reflecting the page's initial server-side render. */
   hasCompleteAnswerKey: boolean;
-  /** Bumped by AnswerKeySection on every answer-key save — triggers a re-fetch here, since a resaved key clears any previously-generated setMappings server-side and this panel's own setLabels would otherwise go stale. */
+  /** Same lift as hasCompleteAnswerKey — Generate Multi-Set Papers refuses to run without this (see TestBatch.answerKeyConfirmedAt's own comment). */
+  isAnswerKeyConfirmed: boolean;
+  /** Bumped by AnswerKeySection on every answer-key save — triggers a re-fetch here, since this panel's own setLabels would otherwise go stale. */
   refreshToken: number;
 }
 
@@ -26,7 +28,7 @@ const SET_COUNT_OPTIONS = [2, 3, 4, 5];
  * assignments — there's no "undo," same one-shot-mutation convention
  * /tests/new's own metadata gate already uses.
  */
-export function MultiSetPanel({ testBatchId, hasCompleteAnswerKey, refreshToken }: MultiSetPanelProps) {
+export function MultiSetPanel({ testBatchId, hasCompleteAnswerKey, isAnswerKeyConfirmed, refreshToken }: MultiSetPanelProps) {
   const [loading, setLoading] = useState(true);
   const [setLabels, setSetLabels] = useState<string[] | null>(null);
   const [setCount, setSetCount] = useState(2);
@@ -100,7 +102,7 @@ export function MultiSetPanel({ testBatchId, hasCompleteAnswerKey, refreshToken 
               id="setCount"
               value={String(setCount)}
               onChange={(e) => setSetCount(Number(e.target.value))}
-              disabled={generating || !hasCompleteAnswerKey}
+              disabled={generating || !hasCompleteAnswerKey || !isAnswerKeyConfirmed}
             >
               {SET_COUNT_OPTIONS.map((count) => (
                 <option key={count} value={count}>
@@ -109,7 +111,7 @@ export function MultiSetPanel({ testBatchId, hasCompleteAnswerKey, refreshToken 
               ))}
             </Select>
           </div>
-          <Button type="button" onClick={handleGenerate} disabled={generating || !hasCompleteAnswerKey}>
+          <Button type="button" onClick={handleGenerate} disabled={generating || !hasCompleteAnswerKey || !isAnswerKeyConfirmed}>
             <Shuffle className="h-4 w-4" aria-hidden="true" />
             {generating ? "Generating…" : "Generate Multi-Set Papers"}
           </Button>
@@ -117,6 +119,16 @@ export function MultiSetPanel({ testBatchId, hasCompleteAnswerKey, refreshToken 
 
         {!hasCompleteAnswerKey ? (
           <p className="text-xs text-slate-500">Save a complete master answer key above before generating sets.</p>
+        ) : !isAnswerKeyConfirmed ? (
+          <p className="text-xs text-slate-500">Confirm the answer key above before generating sets.</p>
+        ) : null}
+
+        {isAnswerKeyConfirmed === false && setLabels && setLabels.length > 0 ? (
+          <p className="flex items-start gap-1.5 rounded-md border border-warning/30 bg-warning/10 px-3 py-2 text-xs text-slate-700">
+            <AlertTriangle className="mt-0.5 h-3.5 w-3.5 flex-shrink-0 text-warning" aria-hidden="true" />
+            The answer key changed since these sets were generated — the Question Papers/OMR Sheets below no longer
+            match it. Confirm the new key, then regenerate before printing or distributing them again.
+          </p>
         ) : null}
 
         {error ? (

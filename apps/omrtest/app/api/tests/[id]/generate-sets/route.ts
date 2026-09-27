@@ -79,6 +79,15 @@ export async function POST(request: Request, { params }: { params: { id: string 
       { status: 400 }
     );
   }
+  // Confirmation is its own explicit step (see
+  // TestBatch.answerKeyConfirmedAt's own comment) — a complete key isn't
+  // enough on its own, since "complete" doesn't mean "reviewed."
+  if (!testBatch.answerKeyConfirmedAt) {
+    return NextResponse.json(
+      { error: "Confirm the answer key before generating sets." },
+      { status: 400 }
+    );
+  }
   const masterAnswerKey = Array.from(
     { length: testBatch.totalQuestions },
     (_, i) => masterEntries.find((e) => e.questionNumber === i + 1)!.correctOption
