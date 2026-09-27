@@ -1,4 +1,5 @@
 import { redirect } from "next/navigation";
+import { Building2 } from "lucide-react";
 import { prisma } from "@vedicneev/db";
 
 import { getInstituteSession } from "@/lib/institute/session";
@@ -31,18 +32,21 @@ export default async function BranchesPage() {
       />
 
       <div className="flex max-w-3xl flex-col gap-6">
-        <Card className="border-slate-200">
+        <Card className="border-slate-200 transition-shadow hover:shadow-md">
           <CardContent className="p-6">
             <AddBranchForm />
           </CardContent>
         </Card>
 
-        <Card className="border-slate-200">
+        <Card className="border-slate-200 transition-shadow hover:shadow-md">
           <div className="border-b border-slate-200 px-6 py-4">
             <h2 className="text-base font-semibold text-slate-900">Existing Branches</h2>
           </div>
           {branches.length === 0 ? (
-            <div className="px-6 py-12 text-center">
+            <div className="flex flex-col items-center gap-2 px-6 py-12 text-center">
+              <span className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-100 text-slate-400">
+                <Building2 className="h-5 w-5" aria-hidden="true" />
+              </span>
               <p className="text-sm text-slate-500">No branches yet — add your first one above.</p>
             </div>
           ) : (
@@ -56,7 +60,7 @@ export default async function BranchesPage() {
                 </thead>
                 <tbody className="divide-y divide-slate-100">
                   {branches.map((branch) => (
-                    <tr key={branch.id}>
+                    <tr key={branch.id} className="transition-colors hover:bg-slate-50">
                       <td className="px-6 py-4 font-medium text-slate-900">{branch.name}</td>
                       <td className="px-6 py-4 text-slate-600">{branch.city ?? "—"}</td>
                     </tr>

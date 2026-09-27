@@ -6,6 +6,7 @@ import { getInstituteSession } from "@/lib/institute/session";
 import { canAccessTestBatch } from "@/lib/institute/facultyScope";
 import { Card, CardContent } from "@vedicneev/ui";
 import { PageHeader } from "@/components/dashboard/PageHeader";
+import { BlindSpotChart } from "@/components/mistakes/BlindSpotChart";
 
 // Session/ownership check does a live DB lookup keyed off the route param
 // — never a candidate for static generation.
@@ -108,19 +109,12 @@ export default async function MistakeVaultPage({ params }: { params: { id: strin
           <Card className="border-slate-200">
             <CardContent className="space-y-3 p-6">
               <h2 className="text-sm font-semibold text-slate-900">Conceptual blind spots — by subsection</h2>
-              <ul className="flex flex-col gap-1.5 text-sm text-slate-700">
-                {sortedSubsectionGroups.map((group) => (
-                  <li key={`${group.subjectName ?? ""}-${group.name}`} className="flex items-center justify-between gap-4">
-                    <span>
-                      {group.subjectName ? `${group.subjectName} — ` : ""}
-                      {group.name}
-                    </span>
-                    <span className="whitespace-nowrap font-medium text-destructive">
-                      {group.rosterEntryIds.size} student{group.rosterEntryIds.size === 1 ? "" : "s"} failed
-                    </span>
-                  </li>
-                ))}
-              </ul>
+              <BlindSpotChart
+                rows={sortedSubsectionGroups.map((group) => ({
+                  label: group.subjectName ? `${group.subjectName} — ${group.name}` : group.name,
+                  count: group.rosterEntryIds.size,
+                }))}
+              />
             </CardContent>
           </Card>
 

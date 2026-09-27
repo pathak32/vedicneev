@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import { toast } from "sonner";
 
 import { Button, Card, CardContent } from "@vedicneev/ui";
 import { Input } from "@/components/ui/Input";
@@ -106,12 +107,15 @@ export function NewTestForm({ isFaculty, branches, assignments }: NewTestFormPro
       const data = await res.json();
       if (!res.ok) {
         setError(data.error ?? "Could not create this test batch.");
+        toast.error(data.error ?? "Could not create this test batch.");
         setSubmitting(false);
         return;
       }
+      toast.success("Test batch created.");
       router.push(`/tests/${data.testBatchId}/sheets`);
     } catch {
       setError("Network error — could not reach the server.");
+      toast.error("Network error — could not reach the server.");
       setSubmitting(false);
     }
   }

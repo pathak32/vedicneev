@@ -8,6 +8,9 @@ import { Target, TrendingUp, Users } from "lucide-react";
 import { Badge, Card, CardContent, cn } from "@vedicneev/ui";
 import { Label } from "@/components/ui/Label";
 import { Input } from "@/components/ui/Input";
+import { CutoffDonutChart } from "@/components/charts/CutoffDonutChart";
+import { HorizontalBarChart } from "@/components/charts/HorizontalBarChart";
+import { accuracyColor, CHART_COLORS } from "@/components/charts/colors";
 import type { BranchNode, StudentResult } from "@/lib/institute/controlRoomData";
 import type { SubsectionPerformanceRow } from "@/lib/institute/subsectionPerformance";
 
@@ -50,39 +53,26 @@ function SubsectionBreakdown({ rows }: { rows: SubsectionPerformanceRow[] }) {
   }
 
   return (
-    <details className="mb-3 rounded-md border border-slate-200 bg-slate-50">
+    <details className="mb-3 rounded-md border border-slate-200 bg-slate-50" open>
       <summary className="cursor-pointer select-none px-4 py-2.5 text-sm font-medium text-slate-800 transition-colors hover:text-brand-indigo">
-        By Subject &amp; Subsection
+        By Subject &amp; Subsection — accuracy
       </summary>
-      <div className="flex flex-col gap-3 px-4 pb-4 pt-1">
-        {[...bySubject.values()].map(({ subjectName, rows: subjectRows }) => (
-          <div key={subjectName}>
-            <h3 className="text-xs font-semibold uppercase tracking-wide text-slate-500">{subjectName}</h3>
-            <table className="mt-1 w-full text-left text-xs">
-              <tbody>
-                {subjectRows
-                  .sort((a, b) => {
-                    const accA = a.correctCount / (a.correctCount + a.incorrectCount || 1);
-                    const accB = b.correctCount / (b.correctCount + b.incorrectCount || 1);
-                    return accA - accB;
-                  })
-                  .map((row) => {
-                    const attempted = row.correctCount + row.incorrectCount;
-                    const accuracy = attempted > 0 ? (row.correctCount / attempted) * 100 : 0;
-                    return (
-                      <tr key={row.subsectionId} className="border-b border-slate-100 last:border-0">
-                        <td className="py-1.5 pr-4 text-slate-700">{row.subsectionName}</td>
-                        <td className="py-1.5 pr-4 text-slate-500">
-                          {row.correctCount}/{attempted} correct
-                        </td>
-                        <td className="py-1.5 pr-4 font-medium text-slate-900">{fmtPercent(accuracy)}</td>
-                      </tr>
-                    );
-                  })}
-              </tbody>
-            </table>
-          </div>
-        ))}
+      <div className="flex flex-col gap-4 px-4 pb-4 pt-1">
+        {[...bySubject.values()].map(({ subjectName, rows: subjectRows }) => {
+          const chartData = subjectRows
+            .map((row) => {
+              const attempted = row.correctCount + row.incorrectCount;
+              const accuracy = attempted > 0 ? (row.correctCount / attempted) * 100 : 0;
+              return { label: row.subsectionName, value: accuracy, color: accuracyColor(accuracy) };
+            })
+            .sort((a, b) => a.value - b.value);
+          return (
+            <div key={subjectName}>
+              <h3 className="text-xs font-semibold uppercase tracking-wide text-slate-500">{subjectName}</h3>
+              <HorizontalBarChart data={chartData} max={100} valueSuffix="%" />
+            </div>
+          );
+        })}
       </div>
     </details>
   );
@@ -97,7 +87,17 @@ function StudentRow({ student, cutoff }: { student: StudentResult; cutoff: numbe
       <td className="py-2 pr-4 text-slate-600">
         {student.correctCount}/{student.totalQuestions}
       </td>
-      <td className="py-2 pr-4 text-slate-600">{fmtPercent(student.percent)}</td>
+      <td className="py-2 pr-4">
+        <div className="flex items-center gap-2">
+          <span className="w-9 text-slate-600">{fmtPercent(student.percent)}</span>
+          <div className="h-1.5 w-16 overflow-hidden rounded-full bg-slate-100">
+            <div
+              className={cn("h-full rounded-full", above ? "bg-success" : "bg-destructive")}
+              style={{ width: `${Math.min(100, student.percent)}%` }}
+            />
+          </div>
+        </div>
+      </td>
       <td className="py-2 pr-4">
         <Badge
           className={cn(
@@ -116,24 +116,34 @@ function BatchSection({ batch, cutoff }: { batch: BranchNode["subjects"][number]
   const aboveCount = batch.students.filter((s) => s.percent >= cutoff).length;
   const belowCount = batch.appeared - aboveCount;
 
+  const abovePct = batch.appeared > 0 ? (aboveCount / batch.appeared) * 100 : 0;
+
   return (
     <details className="rounded-md border border-slate-200 bg-white transition-colors hover:border-brand-indigo/30">
-      <summary className="flex cursor-pointer select-none items-center justify-between gap-4 px-4 py-3 text-sm">
-        <div>
-          <span className="font-medium text-slate-900">{batch.batchName}</span>
-          <span className="ml-2 text-slate-400">({batch.testCode})</span>
+      <summary className="flex cursor-pointer select-none flex-col gap-2 px-4 py-3 text-sm">
+        <div className="flex items-center justify-between gap-4">
+          <div>
+            <span className="font-medium text-slate-900">{batch.batchName}</span>
+            <span className="ml-2 text-slate-400">({batch.testCode})</span>
+          </div>
+          <div className="flex items-center gap-4 text-xs text-slate-500">
+            <span>
+              {batch.appeared}/{batch.totalStudents} appeared
+            </span>
+            <span>Avg {fmtPercent(batch.averagePercent)}</span>
+            <Badge className="border-transparent bg-success/10 text-success">{aboveCount} above</Badge>
+            <Badge className="border-transparent bg-destructive/10 text-destructive">{belowCount} below</Badge>
+            <Link href={`/tests/${batch.id}/sheets`} className="font-medium text-brand-indigo hover:underline" onClick={(e) => e.stopPropagation()}>
+              Open batch
+            </Link>
+          </div>
         </div>
-        <div className="flex items-center gap-4 text-xs text-slate-500">
-          <span>
-            {batch.appeared}/{batch.totalStudents} appeared
-          </span>
-          <span>Avg {fmtPercent(batch.averagePercent)}</span>
-          <Badge className="border-transparent bg-success/10 text-success">{aboveCount} above</Badge>
-          <Badge className="border-transparent bg-destructive/10 text-destructive">{belowCount} below</Badge>
-          <Link href={`/tests/${batch.id}/sheets`} className="font-medium text-brand-indigo hover:underline" onClick={(e) => e.stopPropagation()}>
-            Open batch
-          </Link>
-        </div>
+        {batch.appeared > 0 ? (
+          <div className="flex h-1.5 w-full overflow-hidden rounded-full bg-slate-100">
+            <div className="h-full bg-success" style={{ width: `${abovePct}%` }} />
+            <div className="h-full bg-destructive" style={{ width: `${100 - abovePct}%` }} />
+          </div>
+        ) : null}
       </summary>
       <div className="border-t border-slate-100 px-4 py-3">
         {batch.students.length === 0 ? (
@@ -259,6 +269,25 @@ export function ControlRoomView({
     return { appeared, avg: appeared > 0 ? scoreSum / appeared : 0, aboveCutoff };
   }, [branches, cutoff]);
 
+  const branchAverages = useMemo(() => {
+    return branches
+      .map((branch) => {
+        let appeared = 0;
+        let scoreSum = 0;
+        for (const subject of branch.subjects) {
+          for (const classNode of subject.classes) {
+            for (const batch of classNode.batches) {
+              appeared += batch.appeared;
+              scoreSum += batch.averagePercent * batch.appeared;
+            }
+          }
+        }
+        const avg = appeared > 0 ? scoreSum / appeared : 0;
+        return { label: branch.branchName, value: avg, color: accuracyColor(avg) };
+      })
+      .filter((row) => row.value > 0 || branches.length === 1);
+  }, [branches]);
+
   return (
     <div className="flex flex-col gap-6">
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -269,6 +298,38 @@ export function ControlRoomView({
           value={totals.appeared > 0 ? `${totals.aboveCutoff}/${totals.appeared}` : "—"}
           label={`Above ${cutoff}% cutoff`}
         />
+      </div>
+
+      <div className="grid gap-4 lg:grid-cols-2">
+        <Card className="border-slate-200">
+          <CardContent className="p-4">
+            <div className="mb-1 flex items-center justify-between">
+              <h2 className="text-sm font-semibold text-slate-900">Above vs Below Cutoff</h2>
+              <div className="flex items-center gap-3 text-xs text-slate-500">
+                <span className="flex items-center gap-1">
+                  <span className="h-2 w-2 rounded-full" style={{ backgroundColor: CHART_COLORS.success }} />
+                  Above
+                </span>
+                <span className="flex items-center gap-1">
+                  <span className="h-2 w-2 rounded-full" style={{ backgroundColor: CHART_COLORS.destructive }} />
+                  Below
+                </span>
+              </div>
+            </div>
+            <CutoffDonutChart above={totals.aboveCutoff} below={totals.appeared - totals.aboveCutoff} />
+          </CardContent>
+        </Card>
+
+        <Card className="border-slate-200">
+          <CardContent className="p-4">
+            <h2 className="mb-2 text-sm font-semibold text-slate-900">Branch-wise Average</h2>
+            {branchAverages.length > 0 ? (
+              <HorizontalBarChart data={branchAverages} max={100} valueSuffix="%" />
+            ) : (
+              <p className="py-8 text-center text-sm text-slate-400">No graded results yet.</p>
+            )}
+          </CardContent>
+        </Card>
       </div>
 
       <Card className="border-slate-200">

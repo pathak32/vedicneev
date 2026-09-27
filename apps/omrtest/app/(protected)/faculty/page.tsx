@@ -1,4 +1,5 @@
 import { redirect } from "next/navigation";
+import { Users } from "lucide-react";
 import { prisma } from "@vedicneev/db";
 
 import { getInstituteSession } from "@/lib/institute/session";
@@ -35,7 +36,7 @@ export default async function FacultyPage() {
       />
 
       <div className="flex max-w-3xl flex-col gap-6">
-        <Card className="border-slate-200">
+        <Card className="border-slate-200 transition-shadow hover:shadow-md">
           <CardContent className="p-6">
             {branches.length === 0 ? (
               <p className="text-sm text-slate-500">
@@ -47,12 +48,15 @@ export default async function FacultyPage() {
           </CardContent>
         </Card>
 
-        <Card className="border-slate-200">
+        <Card className="border-slate-200 transition-shadow hover:shadow-md">
           <div className="border-b border-slate-200 px-6 py-4">
             <h2 className="text-base font-semibold text-slate-900">Existing Faculty</h2>
           </div>
           {faculty.length === 0 ? (
-            <div className="px-6 py-12 text-center">
+            <div className="flex flex-col items-center gap-2 px-6 py-12 text-center">
+              <span className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-100 text-slate-400">
+                <Users className="h-5 w-5" aria-hidden="true" />
+              </span>
               <p className="text-sm text-slate-500">No faculty accounts yet — add your first one above.</p>
             </div>
           ) : (
@@ -69,7 +73,7 @@ export default async function FacultyPage() {
                 </thead>
                 <tbody className="divide-y divide-slate-100">
                   {faculty.map((f) => (
-                    <tr key={f.id}>
+                    <tr key={f.id} className="transition-colors hover:bg-slate-50">
                       <td className="px-6 py-4 font-medium text-slate-900">{f.user.name ?? "—"}</td>
                       <td className="px-6 py-4 text-slate-600">+91 {f.user.phone}</td>
                       <td className="px-6 py-4 text-slate-600">{f.branch?.name ?? "—"}</td>

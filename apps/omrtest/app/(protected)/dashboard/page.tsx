@@ -10,6 +10,7 @@ import { Button, Card } from "@vedicneev/ui";
 import { PageHeader } from "@/components/dashboard/PageHeader";
 import { StatusBadge } from "@/components/ui/StatusBadge";
 import { DashboardMetrics } from "@/components/dashboard/DashboardMetrics";
+import { QuickActions } from "@/components/dashboard/QuickActions";
 
 export default async function DashboardPage() {
   const session = await getInstituteSession();
@@ -68,6 +69,11 @@ export default async function DashboardPage() {
             )}
           </>
         }
+      />
+
+      <QuickActions
+        uploadHref={mostRecentBatch ? `/tests/${mostRecentBatch.id}/upload` : null}
+        isOwner={session.admin.role === "OWNER"}
       />
 
       <DashboardMetrics

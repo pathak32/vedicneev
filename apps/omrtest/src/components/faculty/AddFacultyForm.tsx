@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { Plus, Trash2 } from "lucide-react";
+import { toast } from "sonner";
 
 import { Button } from "@vedicneev/ui";
 import { Input } from "@/components/ui/Input";
@@ -56,14 +57,17 @@ export function AddFacultyForm({ branches }: { branches: Branch[] }) {
       const data = await res.json();
       if (!res.ok) {
         setError(data.error ?? "Could not add this faculty account.");
+        toast.error(data.error ?? "Could not add this faculty account.");
         return;
       }
+      toast.success(`${name} added as faculty.`);
       setName("");
       setPhone("");
       setAssignments([{ ...EMPTY_ROW }]);
       router.refresh();
     } catch {
       setError("Network error — could not reach the server.");
+      toast.error("Network error — could not reach the server.");
     } finally {
       setSubmitting(false);
     }
