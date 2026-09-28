@@ -98,26 +98,26 @@ export const COMING_SOON_BOARD_DATA: Record<ComingSoonBoardType, ComingSoonBoard
     subjects: [
       {
         name: "English",
-        subsections: [{ name: "Grammar, Vocabulary & Comprehension", blurb: "Sentence correction, synonyms/antonyms, and reading comprehension." }],
+        subsections: [{ name: "Grammar, Vocabulary & Comprehension", blurb: "Sentence correction, synonyms/antonyms, and reading comprehension.", topicKey: "cds_english" }],
       },
       {
         name: "General Knowledge",
         subsections: [
-          { name: "Current Events", blurb: "National and international news, especially defense and government affairs." },
-          { name: "History", blurb: "Indian and world history, with focus on the freedom struggle." },
-          { name: "Geography", blurb: "Physical, Indian, and world geography." },
-          { name: "Politics & Constitution", blurb: "The Indian Constitution, governance, and civics." },
-          { name: "Science", blurb: "General science across physics, chemistry, and biology." },
+          { name: "Current Events", blurb: "National and international news, especially defense and government affairs.", topicKey: "cds_gk_current_events" },
+          { name: "History", blurb: "Indian and world history, with focus on the freedom struggle.", topicKey: "cds_gk_history" },
+          { name: "Geography", blurb: "Physical, Indian, and world geography.", topicKey: "cds_gk_geography" },
+          { name: "Politics & Constitution", blurb: "The Indian Constitution, governance, and civics.", topicKey: "cds_gk_politics_constitution" },
+          { name: "Science", blurb: "General science across physics, chemistry, and biology.", topicKey: "cds_gk_science" },
         ],
       },
       {
         name: "Elementary Mathematics",
         subsections: [
-          { name: "Arithmetic", blurb: "Number systems, ratios, percentages, and basic computation." },
-          { name: "Algebra", blurb: "Basic equations, sets, and progressions at a Class 10 level." },
-          { name: "Trigonometry", blurb: "Trigonometric ratios and simple identities." },
-          { name: "Geometry & Mensuration", blurb: "Lines, angles, area, and volume of standard shapes." },
-          { name: "Statistics", blurb: "Basic data interpretation, mean, median, and mode." },
+          { name: "Arithmetic", blurb: "Number systems, ratios, percentages, and basic computation.", topicKey: "cds_math_arithmetic" },
+          { name: "Algebra", blurb: "Basic equations, sets, and progressions at a Class 10 level.", topicKey: "cds_math_algebra" },
+          { name: "Trigonometry", blurb: "Trigonometric ratios and simple identities.", topicKey: "cds_math_trigonometry" },
+          { name: "Geometry & Mensuration", blurb: "Lines, angles, area, and volume of standard shapes.", topicKey: "cds_math_geometry_mensuration" },
+          { name: "Statistics", blurb: "Basic data interpretation, mean, median, and mode.", topicKey: "cds_math_statistics" },
         ],
       },
     ],
