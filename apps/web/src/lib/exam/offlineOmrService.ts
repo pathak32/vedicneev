@@ -38,7 +38,11 @@ export interface OfflineMockSessionPayload {
 
 export type OfflineOmrServiceError = { error: string };
 
-const SERIAL_PREFIX_BY_EXAM: Record<ExamType, string> = {
+// NDA/CDS deliberately excluded — no OMR/offline-mock pipeline exists for
+// them yet (they're question-bank + concept-note only, see
+// packages/db/prisma/seed-nda-content.ts), so there's no serial prefix to
+// assign until that's actually built.
+const SERIAL_PREFIX_BY_EXAM: Partial<Record<ExamType, string>> = {
   JNVST: "JNV",
   AISSEE: "AIS",
   RMS: "RMS",
@@ -59,7 +63,9 @@ const SERIAL_PREFIX_BY_EXAM: Record<ExamType, string> = {
  * guaranteed unique.
  */
 async function generateUniqueSerialCode(examType: ExamType, classLevel: number): Promise<string> {
-  const prefix = `VN-${SERIAL_PREFIX_BY_EXAM[examType]}${classLevel}`;
+  const examPrefix = SERIAL_PREFIX_BY_EXAM[examType];
+  if (!examPrefix) throw new Error(`No offline-mock serial prefix configured for exam type "${examType}".`);
+  const prefix = `VN-${examPrefix}${classLevel}`;
   const existingCount = await prisma.offlineMockSession.count({ where: { examType, classLevel } });
 
   for (let attempt = 0; attempt < 5; attempt += 1) {

@@ -14,7 +14,7 @@ export interface StoreProduct {
   title: string;
   description: string;
   productType: StoreProductType;
-  targetExam: "JNVST" | "AISSEE" | "RMS" | "DPS" | "OTHER" | null;
+  targetExam: "JNVST" | "AISSEE" | "RMS" | "DPS" | "NDA" | "CDS" | "OTHER" | null;
   targetClass: "CLASS_6" | "CLASS_9" | null;
   /** Language the file itself is written in (e.g. a QUESTION_BOOKLET's PDF) — null for product types that aren't language editions. */
   language: "EN" | "HI" | "MR" | "BN" | "TA" | "GU" | null;

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowLeft, ArrowRight, Clock, ScrollText, Sparkles } from "lucide-react";
+import { ArrowLeft, ArrowRight, Clock, PenLine, ScrollText, Sparkles } from "lucide-react";
 import { Badge, Card, CardContent, CardHeader, CardTitle, CardDescription } from "@vedicneev/ui";
 
 import type { BoardType } from "@/lib/marketing/examBoards";
@@ -17,6 +17,7 @@ const OTHER_BOARD_LABELS: Record<BoardType, string> = { jnvst: "JNVST", aissee: 
  */
 export function ComingSoonBoardDetail({ board }: { board: ComingSoonBoardType }) {
   const info = COMING_SOON_BOARD_DATA[board];
+  const hasQuestionBank = info.subjects.some((subject) => subject.subsections.some((sub) => sub.topicKey));
 
   return (
     <main className="mx-auto flex max-w-4xl flex-col gap-6 px-4 py-12">
@@ -69,8 +70,21 @@ export function ComingSoonBoardDetail({ board }: { board: ComingSoonBoardType })
               <ul className="mt-2 flex flex-col gap-1.5">
                 {subject.subsections.map((sub) => (
                   <li key={sub.name} className="rounded-lg border border-border bg-muted/30 p-2.5 text-sm">
-                    <span className="font-medium text-foreground">{sub.name}</span>
-                    <span className="text-muted-foreground"> — {sub.blurb}</span>
+                    <div className="flex flex-wrap items-center justify-between gap-2">
+                      <span>
+                        <span className="font-medium text-foreground">{sub.name}</span>
+                        <span className="text-muted-foreground"> — {sub.blurb}</span>
+                      </span>
+                      {sub.topicKey ? (
+                        <Link
+                          href={`/practice/${sub.topicKey}`}
+                          className="inline-flex shrink-0 items-center gap-1 rounded-md border border-primary/40 bg-primary/5 px-2 py-1 text-xs font-bold text-primary hover:bg-primary/10"
+                        >
+                          <PenLine className="h-3 w-3" />
+                          Practice Questions
+                        </Link>
+                      ) : null}
+                    </div>
                   </li>
                 ))}
               </ul>
@@ -84,14 +98,29 @@ export function ComingSoonBoardDetail({ board }: { board: ComingSoonBoardType })
           <span className="flex h-11 w-11 items-center justify-center rounded-full bg-primary/10 text-primary">
             <Clock className="h-5 w-5" />
           </span>
-          <p className="flex items-center gap-1.5 text-sm font-semibold text-foreground">
-            <Sparkles className="h-4 w-4 text-primary" />
-            Question bank, mock tests & OMR practice — coming soon
-          </p>
-          <p className="max-w-md text-xs text-muted-foreground">
-            The full {info.name.split(" ")[0]} question bank and live mock experience is being built next. This
-            page will update automatically once it&apos;s ready.
-          </p>
+          {hasQuestionBank ? (
+            <>
+              <p className="flex items-center gap-1.5 text-sm font-semibold text-foreground">
+                <Sparkles className="h-4 w-4 text-primary" />
+                Full-length mock test & OMR practice — coming soon
+              </p>
+              <p className="max-w-md text-xs text-muted-foreground">
+                Topic-wise practice questions are live now — tap &quot;Practice Questions&quot; on any subsection
+                above. A full timed mock paper and OMR scanning for {info.name.split(" ")[0]} are being built next.
+              </p>
+            </>
+          ) : (
+            <>
+              <p className="flex items-center gap-1.5 text-sm font-semibold text-foreground">
+                <Sparkles className="h-4 w-4 text-primary" />
+                Question bank, mock tests & OMR practice — coming soon
+              </p>
+              <p className="max-w-md text-xs text-muted-foreground">
+                The full {info.name.split(" ")[0]} question bank and live mock experience is being built next. This
+                page will update automatically once it&apos;s ready.
+              </p>
+            </>
+          )}
         </CardContent>
       </Card>
 

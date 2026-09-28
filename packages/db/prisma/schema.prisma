@@ -44,6 +44,8 @@ enum ExamType {
   AISSEE
   RMS
   DPS
+  NDA
+  CDS
   OTHER
 }
 

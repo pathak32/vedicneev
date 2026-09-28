@@ -15,7 +15,7 @@ const PRODUCT_TYPE_OPTIONS: { value: StoreProductType; label: string }[] = [
   { value: "MEGA_BUNDLE", label: "Mega Bundle" },
 ];
 
-const EXAM_OPTIONS = ["JNVST", "AISSEE", "RMS", "DPS", "OTHER"] as const;
+const EXAM_OPTIONS = ["JNVST", "AISSEE", "RMS", "DPS", "NDA", "CDS", "OTHER"] as const;
 const OPTION_IDS = ["a", "b", "c", "d"] as const;
 
 export interface ProductSampleQuestionFormValue {

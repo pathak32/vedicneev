@@ -3,6 +3,12 @@ export type ComingSoonBoardType = "nda" | "cds";
 export interface ComingSoonSubsection {
   name: string;
   blurb: string;
+  // Set once a real Question bank + ConceptNote exist for this subsection
+  // (packages/db/prisma/seed-nda-content.ts) — links straight into the
+  // same /practice/[topicKey] flow JNVST/AISSEE/RMS topics already use
+  // (topicPracticeService.ts is topic-key-driven, not exam-gated, so this
+  // needed no new route). Omitted means still syllabus-only.
+  topicKey?: string;
 }
 
 export interface ComingSoonSubject {
@@ -50,29 +56,29 @@ export const COMING_SOON_BOARD_DATA: Record<ComingSoonBoardType, ComingSoonBoard
       {
         name: "Mathematics",
         subsections: [
-          { name: "Algebra", blurb: "Sets, relations, quadratic equations, logarithms, and complex numbers." },
-          { name: "Matrices & Determinants", blurb: "Basic operations and solving simultaneous equations using matrices." },
-          { name: "Trigonometry", blurb: "Trigonometric ratios, identities, and heights & distances applications." },
-          { name: "Analytical Geometry", blurb: "Straight lines, circles, and 3D geometry of planes and lines." },
-          { name: "Differential Calculus", blurb: "Limits, continuity, and differentiation of functions." },
-          { name: "Integral Calculus & Differential Equations", blurb: "Integration techniques and simple differential equations." },
-          { name: "Vectors", blurb: "Vector algebra and its applications to geometry and mechanics." },
-          { name: "Statistics & Probability", blurb: "Measures of central tendency, dispersion, and basic probability." },
+          { name: "Algebra", blurb: "Sets, relations, quadratic equations, logarithms, and complex numbers.", topicKey: "nda_algebra" },
+          { name: "Matrices & Determinants", blurb: "Basic operations and solving simultaneous equations using matrices.", topicKey: "nda_matrices_determinants" },
+          { name: "Trigonometry", blurb: "Trigonometric ratios, identities, and heights & distances applications.", topicKey: "nda_trigonometry" },
+          { name: "Analytical Geometry", blurb: "Straight lines, circles, and 3D geometry of planes and lines.", topicKey: "nda_analytical_geometry" },
+          { name: "Differential Calculus", blurb: "Limits, continuity, and differentiation of functions.", topicKey: "nda_differential_calculus" },
+          { name: "Integral Calculus & Differential Equations", blurb: "Integration techniques and simple differential equations.", topicKey: "nda_integral_calculus" },
+          { name: "Vectors", blurb: "Vector algebra and its applications to geometry and mechanics.", topicKey: "nda_vectors" },
+          { name: "Statistics & Probability", blurb: "Measures of central tendency, dispersion, and basic probability.", topicKey: "nda_statistics_probability" },
         ],
       },
       {
         name: "English",
-        subsections: [{ name: "Grammar, Vocabulary & Comprehension", blurb: "Testing grasp of English through usage, error-spotting, and passages." }],
+        subsections: [{ name: "Grammar, Vocabulary & Comprehension", blurb: "Testing grasp of English through usage, error-spotting, and passages.", topicKey: "nda_english" }],
       },
       {
         name: "General Knowledge",
         subsections: [
-          { name: "Physics", blurb: "Class 11-12 level mechanics, heat, light, and electricity." },
-          { name: "Chemistry", blurb: "Basic chemical reactions, the periodic table, and everyday chemistry." },
-          { name: "General Science", blurb: "Biology, human body, and environmental science basics." },
-          { name: "History & Freedom Movement", blurb: "Indian history with emphasis on the independence movement." },
-          { name: "Geography", blurb: "Physical, Indian, and world geography." },
-          { name: "Current Events", blurb: "National and international events, especially defense-related." },
+          { name: "Physics", blurb: "Class 11-12 level mechanics, heat, light, and electricity.", topicKey: "nda_gk_physics" },
+          { name: "Chemistry", blurb: "Basic chemical reactions, the periodic table, and everyday chemistry.", topicKey: "nda_gk_chemistry" },
+          { name: "General Science", blurb: "Biology, human body, and environmental science basics.", topicKey: "nda_gk_general_science" },
+          { name: "History & Freedom Movement", blurb: "Indian history with emphasis on the independence movement.", topicKey: "nda_gk_history" },
+          { name: "Geography", blurb: "Physical, Indian, and world geography.", topicKey: "nda_gk_geography" },
+          { name: "Current Events", blurb: "National and international events, especially defense-related.", topicKey: "nda_gk_current_events" },
         ],
       },
     ],

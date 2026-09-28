@@ -1,7 +1,7 @@
 import { Prisma } from "@vedicneev/db";
 
 export const PRODUCT_TYPES = ["MOCK_SERIES", "QUESTION_BOOKLET", "OMR_KIT", "LIVE_BOOTCAMP", "MEGA_BUNDLE"] as const;
-export const EXAM_TYPES = ["JNVST", "AISSEE", "RMS", "DPS", "OTHER"] as const;
+export const EXAM_TYPES = ["JNVST", "AISSEE", "RMS", "DPS", "NDA", "CDS", "OTHER"] as const;
 export const CLASS_LEVELS = ["CLASS_6", "CLASS_9"] as const;
 
 export interface SampleQuestionBody {
