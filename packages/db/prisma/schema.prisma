@@ -46,6 +46,7 @@ enum ExamType {
   DPS
   NDA
   CDS
+  UPSS
   OTHER
 }
 
@@ -120,6 +121,7 @@ enum ProductType {
   OMR_KIT
   LIVE_BOOTCAMP
   MEGA_BUNDLE
+  STUDY_NOTES
 }
 
 enum PromoDiscountType {
@@ -622,9 +624,51 @@ model Topic {
   questions    Question[]
   mediaItems   MediaItem[]
   conceptNotes ConceptNote[]
+  notePdfs     TopicNotePdf[]
 
   @@unique([sectionId, key])
   @@map("topics")
+}
+
+// Registry for the externally-authored handwritten-style per-topic PDF
+// notes (produced by a separate tool, see D:\Projects\notes handwritten\ —
+// outside this repo). `classLevel`/`topicNumber` is THAT pipeline's own
+// numbering (1-72, independently numbered per class level) — it is NOT the
+// same granularity as this schema's Topic model, so most rows can only be
+// matched to a Topic at the coarse `sectionKey` level (mental_ability/
+// arithmetic/language/general_knowledge for Class 6; mathematics/language/
+// science/social_science for Class 9). `matchedTopicId` is set only for the
+// subset confidently verified to correspond 1:1 to a real Topic row (e.g.
+// Class 6 Fractions & Decimals' topic-42..48 all matching the existing
+// "fractions_decimals" Topic) — left null otherwise, so a consumer (e.g.
+// Mistake Vault remediation) falls back to "browse this section's notes"
+// rather than a false precise link.
+model TopicNotePdf {
+  id          String @id @default(cuid())
+  classLevel  Int    @map("class_level")
+  topicNumber Int    @map("topic_number")
+  sectionKey  String @map("section_key")
+
+  titleEn String  @map("title_en")
+  titleHi String? @map("title_hi")
+
+  matchedTopicId String? @map("matched_topic_id")
+  matchedTopic   Topic?  @relation(fields: [matchedTopicId], references: [id], onDelete: SetNull)
+
+  // Signed/pre-hosted Supabase Storage URLs — same "plain pre-hosted URL"
+  // convention as Product.fileUrl. Null until the upload step (see
+  // packages/db/prisma/seed-study-note-pdfs.ts) has actually run with real
+  // SUPABASE_SERVICE_ROLE_KEY credentials.
+  pdfUrlEn String? @map("pdf_url_en")
+  pdfUrlHi String? @map("pdf_url_hi")
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@unique([classLevel, topicNumber])
+  @@index([matchedTopicId])
+  @@index([sectionKey])
+  @@map("topic_note_pdfs")
 }
 
 enum ConceptNoteStatus {

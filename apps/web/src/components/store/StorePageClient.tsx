@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import { Badge, Button } from "@vedicneev/ui";
-import { BookOpen, CalendarClock, Eye, FileText, Package, ScanLine } from "lucide-react";
+import { BookOpen, CalendarClock, Eye, FileText, NotebookText, Package, ScanLine } from "lucide-react";
 
 import { selectActiveParent, useAuthStore } from "@/lib/auth/useAuthStore";
 import type { StoreProduct, StoreProductType } from "@/lib/store/types";
@@ -15,6 +15,7 @@ const PRODUCT_ICON: Record<StoreProductType, typeof Package> = {
   OMR_KIT: ScanLine,
   LIVE_BOOTCAMP: CalendarClock,
   MEGA_BUNDLE: Package,
+  STUDY_NOTES: NotebookText,
 };
 
 const PRODUCT_TYPE_LABEL: Record<StoreProductType, string> = {
@@ -23,6 +24,7 @@ const PRODUCT_TYPE_LABEL: Record<StoreProductType, string> = {
   OMR_KIT: "OMR Kit",
   LIVE_BOOTCAMP: "Live Bootcamp",
   MEGA_BUNDLE: "Mega Bundle",
+  STUDY_NOTES: "Handwritten Study Notes",
 };
 
 const CLASS_LABEL: Record<"CLASS_6" | "CLASS_9", string> = {

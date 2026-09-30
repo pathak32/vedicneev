@@ -13,9 +13,10 @@ const PRODUCT_TYPE_OPTIONS: { value: StoreProductType; label: string }[] = [
   { value: "OMR_KIT", label: "OMR Kit" },
   { value: "LIVE_BOOTCAMP", label: "Live Bootcamp" },
   { value: "MEGA_BUNDLE", label: "Mega Bundle" },
+  { value: "STUDY_NOTES", label: "Study Notes" },
 ];
 
-const EXAM_OPTIONS = ["JNVST", "AISSEE", "RMS", "DPS", "NDA", "CDS", "OTHER"] as const;
+const EXAM_OPTIONS = ["JNVST", "AISSEE", "RMS", "DPS", "NDA", "CDS", "UPSS", "OTHER"] as const;
 const OPTION_IDS = ["a", "b", "c", "d"] as const;
 
 export interface ProductSampleQuestionFormValue {

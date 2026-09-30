@@ -1,4 +1,4 @@
-export type SprintExamType = "JNVST" | "AISSEE" | "RMS" | "DPS" | "NDA" | "CDS" | "OTHER";
+export type SprintExamType = "JNVST" | "AISSEE" | "RMS" | "DPS" | "NDA" | "CDS" | "UPSS" | "OTHER";
 
 export interface SprintListItem {
   id: string;

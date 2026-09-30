@@ -13,10 +13,12 @@ import {
 import {
   findMediaForSpeedHack,
   findMediaForTopic,
+  findStudyNoteForTopic,
   type AccessResult,
   type MediaItem,
+  type StudyNoteTopicPdf,
 } from "@vedicneev/engine";
-import { AlertTriangle, BookOpen, CheckCheck, Film, PlayCircle, Sparkles } from "lucide-react";
+import { AlertTriangle, BookOpen, CheckCheck, Film, NotebookText, PlayCircle, Sparkles } from "lucide-react";
 
 import { ConceptClinicPlayer } from "@/components/media/ConceptClinicPlayer";
 import { SpeedShortsPlayer } from "@/components/media/SpeedShortsPlayer";
@@ -38,9 +40,11 @@ export interface MistakeDetailCardProps {
   onToggleReviewed: (id: string) => void;
   /** Fetched once by the parent page (useMediaCatalog) and threaded down, so a list of N mistakes doesn't fire N /api/media requests. */
   mediaCatalog: MediaItem[];
+  /** Fetched once by the parent page (useStudyNoteCatalog) — same reasoning as mediaCatalog. */
+  studyNoteCatalog: StudyNoteTopicPdf[];
 }
 
-export function MistakeDetailCard({ entry, question, sectionName, speedHack, language, onToggleReviewed, mediaCatalog }: MistakeDetailCardProps) {
+export function MistakeDetailCard({ entry, question, sectionName, speedHack, language, onToggleReviewed, mediaCatalog, studyNoteCatalog }: MistakeDetailCardProps) {
   const [speedHackVideoItem, setSpeedHackVideoItem] = useState<MediaItem | null>(null);
   const [conceptClinicItem, setConceptClinicItem] = useState<MediaItem | null>(null);
 
@@ -51,6 +55,8 @@ export function MistakeDetailCard({ entry, question, sectionName, speedHack, lan
     ? findMediaForSpeedHack(mediaCatalog, question.vedicSpeedHackId).find((m) => m.mediaType === "SHORT_VIDEO")
     : undefined;
   const conceptClinic = findMediaForTopic(mediaCatalog, question.topicKey).find((m) => m.mediaType === "CONCEPT_CLINIC");
+  const studyNote = findStudyNoteForTopic(studyNoteCatalog, question.topicKey);
+  const studyNoteUrl = studyNote ? (language === "hi" ? (studyNote.pdfUrlHi ?? studyNote.pdfUrlEn) : (studyNote.pdfUrlEn ?? studyNote.pdfUrlHi)) : null;
   const selectedOptionText = entry.selectedOption
     ? question.options.find((o) => o.id === entry.selectedOption)?.text?.[language]
     : undefined;
@@ -110,6 +116,14 @@ export function MistakeDetailCard({ entry, question, sectionName, speedHack, lan
             <Button type="button" variant="outline" size="sm" onClick={() => setConceptClinicItem(conceptClinic)}>
               <Film className="h-3.5 w-3.5" />
               Watch Concept Clinic
+            </Button>
+          ) : null}
+          {studyNoteUrl ? (
+            <Button asChild type="button" variant="outline" size="sm">
+              <a href={studyNoteUrl} target="_blank" rel="noopener noreferrer">
+                <NotebookText className="h-3.5 w-3.5" />
+                Read Handwritten Notes
+              </a>
             </Button>
           ) : null}
           <Button asChild type="button" variant="outline" size="sm">

@@ -10,6 +10,7 @@ export * from "./entitlements";
 export * from "./instituteBilling";
 export * from "./media";
 export * from "./mediaEmbed";
+export * from "./studyNotes";
 export * from "./whatsappReport";
 export * from "./whatsappOtp";
 export * from "./jnvstMockAssembly";

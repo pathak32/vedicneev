@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { Button } from "@vedicneev/ui";
 import { getBootcampProgress, BOOTCAMP_TOTAL_DAYS } from "@vedicneev/engine";
-import { BookOpen, CalendarClock, Download, FileText, Package, PlayCircle, ScanLine } from "lucide-react";
+import { BookOpen, CalendarClock, Download, FileText, NotebookText, Package, PlayCircle, ScanLine } from "lucide-react";
 
 import { useActiveStudent } from "@/lib/auth/ActiveStudentContext";
 import { selectActiveParent, useAuthStore } from "@/lib/auth/useAuthStore";
@@ -34,6 +34,7 @@ const PRODUCT_ICON: Record<StoreProductType, typeof Package> = {
   OMR_KIT: ScanLine,
   LIVE_BOOTCAMP: CalendarClock,
   MEGA_BUNDLE: Package,
+  STUDY_NOTES: NotebookText,
 };
 
 export default function DashboardLibraryPage() {

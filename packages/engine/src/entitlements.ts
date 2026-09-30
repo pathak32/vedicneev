@@ -10,7 +10,7 @@ import type { MediaType } from "./media";
 export type SubscriptionPlanId = "FREE_EXPLORER" | "EXAM_PASS" | "VEDIC_ALL_ACCESS";
 export type PaidPlanId = Exclude<SubscriptionPlanId, "FREE_EXPLORER">;
 export type SubscriptionStatus = "ACTIVE" | "EXPIRED" | "CANCELLED";
-export type EntitlementExamType = "JNVST" | "AISSEE" | "RMS" | "DPS";
+export type EntitlementExamType = "JNVST" | "AISSEE" | "RMS" | "DPS" | "NDA" | "CDS" | "UPSS";
 
 export interface ParentSubscription {
   plan: SubscriptionPlanId;
@@ -141,6 +141,30 @@ export function checkPracticeAccess(subscription: ParentSubscription | null, now
 
 /** Can this parent use the OMR scanner for `targetExam`? (Exam Pass for that exam, or All-Access — no free tier.) */
 export function checkOmrScannerAccess(
+  subscription: ParentSubscription | null,
+  targetExam: EntitlementExamType,
+  now: number = Date.now()
+): AccessResult {
+  if (isSubscriptionActive(subscription, now)) {
+    if (subscription.plan === "VEDIC_ALL_ACCESS") return allow("ALL_ACCESS");
+    if (subscription.plan === "EXAM_PASS" && subscription.targetExam === targetExam) {
+      return allow("EXAM_PASS_MATCH");
+    }
+  }
+  return deny("REQUIRES_EXAM_PASS_OR_ALL_ACCESS", ["EXAM_PASS", "VEDIC_ALL_ACCESS"]);
+}
+
+/**
+ * Can this parent read/download the handwritten study-notes PDFs for
+ * `targetExam` for free, as part of their subscription — same shape as
+ * checkOmrScannerAccess (Exam Pass for that exact exam, or All-Access; no
+ * free tier). A `false` result doesn't mean "no access at all" — it means
+ * this parent needs to buy the matching STUDY_NOTES Product standalone
+ * instead (see Product.productType and /store's existing checkout flow),
+ * same two-path pattern the digital-sale side of this feature already uses
+ * for QUESTION_BOOKLET/OMR_KIT.
+ */
+export function checkStudyNotesAccess(
   subscription: ParentSubscription | null,
   targetExam: EntitlementExamType,
   now: number = Date.now()

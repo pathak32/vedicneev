@@ -14,6 +14,7 @@ import type { MistakeTagCategory } from "@/lib/auth/types";
 import { selectActiveParent, selectMistakeLogForStudent, useAuthStore } from "@/lib/auth/useAuthStore";
 import { MISTAKE_TAG_META, resolveMistakeQuestion } from "@/lib/exam/mistake-vault";
 import { useMediaCatalog } from "@/lib/media/useMediaCatalog";
+import { useStudyNoteCatalog } from "@/lib/notes/useStudyNoteCatalog";
 import { selectParentSubscription, useSubscriptionStore } from "@/lib/payments/useSubscriptionStore";
 
 // Renders entirely from client-side store state — force dynamic so the
@@ -42,6 +43,7 @@ export default function MistakeVaultPage() {
   );
   const [paywallOpen, setPaywallOpen] = useState(false);
   const mediaCatalog = useMediaCatalog();
+  const studyNoteCatalog = useStudyNoteCatalog();
 
   const [subjectFilter, setSubjectFilter] = useState<string>(SUBJECT_ALL);
   const [tagFilter, setTagFilter] = useState<MistakeTagCategory | typeof TAG_ALL>(TAG_ALL);
@@ -241,6 +243,7 @@ export default function MistakeVaultPage() {
                   language={language}
                   onToggleReviewed={toggleMistakeReviewed}
                   mediaCatalog={mediaCatalog}
+                  studyNoteCatalog={studyNoteCatalog}
                 />
               ))
             )}
