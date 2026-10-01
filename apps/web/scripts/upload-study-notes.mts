@@ -24,6 +24,15 @@
 import fs from "node:fs";
 import path from "node:path";
 
+// tsx doesn't auto-load .env (that only happens implicitly when Prisma's
+// own client is instantiated, which doesn't help callers that only need
+// @vedicneev/auth's env vars) — load it manually so this script works the
+// same way whether run alone or alongside the Prisma-backed seed scripts.
+for (const line of fs.readFileSync(path.join(process.cwd(), ".env"), "utf-8").split("\n")) {
+  const m = line.match(/^([A-Z_][A-Z0-9_]*)="?(.*?)"?$/);
+  if (m) process.env[m[1]!] = m[2];
+}
+
 // Named ESM exports from @vedicneev/auth don't statically resolve under this
 // file's strict ESM (.mts) mode — same cjs-module-lexer limitation documented
 // in generate-sample-papers.mts's import of @vedicneev/engine. Runtime-only
@@ -127,12 +136,21 @@ async function main() {
 
   console.log(`Uploading ${MASTER_BOOKS.length} master books to bucket "${BUCKET}"...`);
   let bookCount = 0;
+  const failedBooks: string[] = [];
   for (const book of MASTER_BOOKS) {
     if (!fs.existsSync(book.localPath)) {
       console.warn(`  SKIP (file not found): ${book.localPath}`);
       continue;
     }
-    const signedUrl = await uploadFile(admin, book.localPath, book.storagePath);
+    let signedUrl: string;
+    try {
+      signedUrl = await uploadFile(admin, book.localPath, book.storagePath);
+    } catch (err) {
+      const sizeMb = (fs.statSync(book.localPath).size / 1024 / 1024).toFixed(1);
+      console.error(`  FAIL (${sizeMb}MB): ${book.storagePath} — ${err instanceof Error ? err.message : err}`);
+      failedBooks.push(`${book.storagePath} (${sizeMb}MB)`);
+      continue;
+    }
     await prisma.product.upsert({
       where: { id: `study-notes-${book.examType.toLowerCase()}-class${book.classLevel}-${book.language.toLowerCase()}` },
       update: {
@@ -166,16 +184,23 @@ async function main() {
 
   console.log(`Uploading per-topic PDFs (288 files) and updating TopicNotePdf rows...`);
   let topicCount = 0;
+  const failedTopics: string[] = [];
   for (const classLevel of [6, 9] as const) {
     for (let topicNumber = 1; topicNumber <= 72; topicNumber++) {
       const { en, hi } = topicPdfPaths(classLevel, topicNumber);
       const updates: { pdfUrlEn?: string; pdfUrlHi?: string } = {};
 
-      if (fs.existsSync(en)) {
-        updates.pdfUrlEn = await uploadFile(admin, en, `topics/class-${classLevel}/english/topic-${topicNumber}.pdf`);
-      }
-      if (fs.existsSync(hi)) {
-        updates.pdfUrlHi = await uploadFile(admin, hi, `topics/class-${classLevel}/hindi/topic-${topicNumber}.pdf`);
+      try {
+        if (fs.existsSync(en)) {
+          updates.pdfUrlEn = await uploadFile(admin, en, `topics/class-${classLevel}/english/topic-${topicNumber}.pdf`);
+        }
+        if (fs.existsSync(hi)) {
+          updates.pdfUrlHi = await uploadFile(admin, hi, `topics/class-${classLevel}/hindi/topic-${topicNumber}.pdf`);
+        }
+      } catch (err) {
+        console.error(`  FAIL: class ${classLevel} topic ${topicNumber} — ${err instanceof Error ? err.message : err}`);
+        failedTopics.push(`class ${classLevel} topic ${topicNumber}`);
+        continue;
       }
       if (Object.keys(updates).length === 0) {
         console.warn(`  SKIP (no files found): class ${classLevel} topic ${topicNumber}`);
@@ -191,6 +216,8 @@ async function main() {
   }
 
   console.log(`Done. Uploaded/updated ${bookCount} master books and ${topicCount} per-topic PDFs.`);
+  if (failedBooks.length > 0) console.log(`Master books that FAILED (likely bucket file-size limit):\n  ${failedBooks.join("\n  ")}`);
+  if (failedTopics.length > 0) console.log(`Per-topic PDFs that FAILED:\n  ${failedTopics.join("\n  ")}`);
 }
 
 main()
