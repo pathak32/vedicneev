@@ -197,6 +197,7 @@ export function AdminLeadsManager({ initialLeads }: { initialLeads: CoachingLead
                         <Badge variant={badge.variant} className={badge.className}>
                           {lead.status.replace("_", " ")}
                         </Badge>
+                        {lead.source ? <Badge variant="outline">Source: {lead.source}</Badge> : null}
                         {lead.trialCreditsGrantedAt ? (
                           <Badge variant="outline">{TRIAL_CREDIT_GRANT} trial credits granted</Badge>
                         ) : null}

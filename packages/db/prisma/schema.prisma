@@ -1814,6 +1814,11 @@ model CoachingLead {
   status        CoachingLeadStatus @default(PENDING)
   notes         String?
 
+  // Where the lead came from, e.g. "linkedin / post-12 / oct-campaign" from
+  // the /for-institutes page's utm_source/utm_medium/utm_campaign, or
+  // "website" with no tags. Null for leads added by hand in /admin/leads.
+  source        String?
+
   // Set the one time provisionTrialCreditsForLead actually grants the
   // 10-credit trial (apps/web/src/lib/admin/leadTrialProvisioning.ts) —
   // guards the "Approve & Send" action against double-granting credits on
