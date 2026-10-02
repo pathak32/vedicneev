@@ -77,7 +77,7 @@ function normalizeOptions(raw: unknown): Record<BookletOptionKey, string> | null
     for (const entry of raw) {
       // Real corpus shape: plain strings prefixed with their letter, e.g. "A. 30".
       if (typeof entry === "string") {
-        const m = entry.match(/^\s*([A-Da-d])[.)]\s*(.*)$/s);
+        const m = entry.match(/^\s*([A-Da-d])[.)]\s*([\s\S]*)$/);
         if (m) options[m[1]!.toUpperCase() as BookletOptionKey] = m[2]!.trim();
         continue;
       }
