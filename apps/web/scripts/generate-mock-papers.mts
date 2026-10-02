@@ -97,10 +97,52 @@ function shuffle<T>(arr: T[]): T[] {
   return a;
 }
 
-/** Samples up to `count` questions from the pool, split as evenly as possible across the sections actually present, so one section doesn't dominate just because it has more cleared topics. */
-function sampleProportionally(pool: MockPaperQuestion[], count: number, classLevel: QuestionBookletClassLevel): MockPaperQuestion[] {
-  const bySection = new Map<string, MockPaperQuestion[]>();
+/** Collapses exact-text (whitespace/case-insensitive) duplicate questions, keeping the first occurrence — the real corpus is known to carry some repeated/near-identical questions within a topic (see the second-pass notes), and a public sample paper showing the same question twice looks broken. */
+function dedupeByQuestionText(pool: MockPaperQuestion[]): MockPaperQuestion[] {
+  const seen = new Set<string>();
+  const out: MockPaperQuestion[] = [];
   for (const q of pool) {
+    const key = q.question.trim().toLowerCase().replace(/\s+/g, " ");
+    if (seen.has(key)) continue;
+    seen.add(key);
+    out.push(q);
+  }
+  return out;
+}
+
+/**
+ * Picks `n` questions from `pool`, balancing the correct-answer letter as
+ * evenly as possible (round-robin across A/B/C/D) rather than picking
+ * randomly. A public sample paper whose answer key skews toward one
+ * letter is a real, exploitable quality defect (guess the majority
+ * letter), not just a cosmetic one — worth protecting against even when
+ * the underlying pool happens to be letter-skewed.
+ */
+function pickLetterBalanced(pool: MockPaperQuestion[], n: number): MockPaperQuestion[] {
+  const byLetter = new Map<string, MockPaperQuestion[]>();
+  for (const q of shuffle(pool)) {
+    const bucket = byLetter.get(q.correctOption) ?? [];
+    bucket.push(q);
+    byLetter.set(q.correctOption, bucket);
+  }
+  const letters = [...byLetter.keys()];
+  const picked: MockPaperQuestion[] = [];
+  let letterIndex = 0;
+  while (picked.length < n && letters.some((l) => (byLetter.get(l)?.length ?? 0) > 0)) {
+    const letter = letters[letterIndex % letters.length]!;
+    letterIndex++;
+    const bucket = byLetter.get(letter)!;
+    const next = bucket.shift();
+    if (next) picked.push(next);
+  }
+  return picked;
+}
+
+/** Samples up to `count` questions from the pool, split as evenly as possible across the sections actually present (so one section doesn't dominate just because it has more cleared topics), deduped, and with the correct-answer letters balanced within what's picked. */
+function sampleProportionally(pool: MockPaperQuestion[], count: number, classLevel: QuestionBookletClassLevel): MockPaperQuestion[] {
+  const deduped = dedupeByQuestionText(pool);
+  const bySection = new Map<string, MockPaperQuestion[]>();
+  for (const q of deduped) {
     const section = sectionOf(classLevel, q.topicNumber);
     const bucket = bySection.get(section) ?? [];
     bucket.push(q);
@@ -110,9 +152,15 @@ function sampleProportionally(pool: MockPaperQuestion[], count: number, classLev
   const perSection = Math.ceil(count / Math.max(sections.length, 1));
   const picked: MockPaperQuestion[] = [];
   for (const section of sections) {
-    picked.push(...shuffle(bySection.get(section)!).slice(0, perSection));
+    picked.push(...pickLetterBalanced(bySection.get(section)!, perSection));
   }
-  return shuffle(picked).slice(0, count);
+  const final = shuffle(picked).slice(0, count);
+
+  const letterCounts: Record<string, number> = {};
+  for (const q of final) letterCounts[q.correctOption] = (letterCounts[q.correctOption] ?? 0) + 1;
+  console.log(`  Answer-key letter distribution: ${JSON.stringify(letterCounts)}`);
+
+  return final;
 }
 
 async function main() {
