@@ -97,13 +97,58 @@ function isFollowUpDue(lead: CoachingLead): boolean {
   return new Date(lead.nextFollowUpAt).getTime() <= endOfToday.getTime();
 }
 
+interface FeedbackRequest {
+  link: string;
+  message: string;
+  whatsappUrl: string;
+}
+
 function LeadDetails({
   lead,
+  graded,
+  feedbackStatus,
   onPatch,
 }: {
   lead: CoachingLead;
+  graded: number | undefined;
+  feedbackStatus: string | undefined;
   onPatch: (id: string, data: Record<string, unknown>) => Promise<boolean>;
 }) {
+  const [feedbackRequest, setFeedbackRequest] = useState<FeedbackRequest | null>(null);
+  const [requesting, setRequesting] = useState(false);
+  const [requestError, setRequestError] = useState<string | null>(null);
+  const [requestCopied, setRequestCopied] = useState(false);
+
+  async function requestFeedback() {
+    setRequesting(true);
+    setRequestError(null);
+    try {
+      const res = await fetch("/api/admin/case-studies", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ leadId: lead.id }),
+      });
+      const json = await res.json();
+      if (!res.ok) throw new Error(json.error ?? "Could not create the link.");
+      setFeedbackRequest({ link: json.link, message: json.message, whatsappUrl: json.whatsappUrl });
+    } catch (err) {
+      setRequestError(err instanceof Error ? err.message : "Could not create the link.");
+    } finally {
+      setRequesting(false);
+    }
+  }
+
+  async function copyRequest() {
+    if (!feedbackRequest) return;
+    try {
+      await navigator.clipboard.writeText(feedbackRequest.message);
+      setRequestCopied(true);
+      setTimeout(() => setRequestCopied(false), 1500);
+    } catch {
+      // Clipboard can be blocked; the message is selectable above.
+    }
+  }
+
   const [templateKey, setTemplateKey] = useState(TEMPLATES[0]!.key);
   const [copied, setCopied] = useState(false);
   const [linkedinUrl, setLinkedinUrl] = useState(lead.linkedinUrl ?? "");
@@ -216,11 +261,71 @@ function LeadDetails({
           Save details
         </Button>
       </div>
+
+      <div className="flex flex-col gap-2 border-t border-border pt-3">
+        <p className="text-xs font-semibold text-muted-foreground">Pilot feedback</p>
+        {graded === undefined ? (
+          <p className="text-xs text-muted-foreground">
+            No institute account found for this phone yet, so there is no usage to show. You can still ask for feedback.
+          </p>
+        ) : (
+          <p className="text-xs text-muted-foreground">
+            {graded > 0
+              ? `${graded} sheet${graded === 1 ? "" : "s"} graded so far. A good moment to ask how it went.`
+              : "Account exists, but no sheets graded yet. Wait for their first batch."}
+          </p>
+        )}
+        {feedbackStatus ? (
+          <p className="text-xs text-foreground">
+            Feedback status: {feedbackStatus.toLowerCase()}. Review it in{" "}
+            <a href="/admin/case-studies" className="text-primary underline">
+              Case Studies
+            </a>
+            .
+          </p>
+        ) : null}
+        <div>
+          <Button type="button" size="sm" variant="outline" disabled={requesting} onClick={requestFeedback}>
+            {requesting ? <Loader2 className="h-3.5 w-3.5 animate-spin" /> : null}
+            {feedbackStatus ? "Show feedback link again" : "Request feedback"}
+          </Button>
+        </div>
+        {requestError ? <p className="text-xs text-destructive">{requestError}</p> : null}
+        {feedbackRequest ? (
+          <div className="flex flex-col gap-2">
+            <pre className="whitespace-pre-wrap rounded-md border border-border bg-background p-3 text-sm text-foreground">
+              {feedbackRequest.message}
+            </pre>
+            <div className="flex flex-wrap gap-2">
+              <Button type="button" size="sm" variant="outline" onClick={copyRequest} className="gap-1.5">
+                {requestCopied ? <Check className="h-3.5 w-3.5" /> : <Copy className="h-3.5 w-3.5" />}
+                {requestCopied ? "Copied" : "Copy message"}
+              </Button>
+              <a
+                href={feedbackRequest.whatsappUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex h-9 items-center gap-1.5 rounded-md bg-emerald-600 px-3 text-sm font-medium text-white hover:bg-emerald-700"
+              >
+                <ExternalLink className="h-3.5 w-3.5" /> Open in WhatsApp
+              </a>
+            </div>
+          </div>
+        ) : null}
+      </div>
     </div>
   );
 }
 
-export function AdminLeadsManager({ initialLeads }: { initialLeads: CoachingLead[] }) {
+export function AdminLeadsManager({
+  initialLeads,
+  gradedByLead,
+  feedbackStatusByLead,
+}: {
+  initialLeads: CoachingLead[];
+  gradedByLead: Record<string, number>;
+  feedbackStatusByLead: Record<string, string>;
+}) {
   const [leads, setLeads] = useState<CoachingLead[]>(initialLeads);
   const [expandedId, setExpandedId] = useState<string | null>(null);
   const [sendingId, setSendingId] = useState<string | null>(null);
@@ -449,6 +554,14 @@ export function AdminLeadsManager({ initialLeads }: { initialLeads: CoachingLead
                           </Badge>
                         ) : null}
                         {lead.source ? <Badge variant="outline">Source: {lead.source}</Badge> : null}
+                        {gradedByLead[lead.id] !== undefined ? (
+                          <Badge variant={gradedByLead[lead.id]! > 0 ? "default" : "outline"}>
+                            {gradedByLead[lead.id]} sheets graded
+                          </Badge>
+                        ) : null}
+                        {feedbackStatusByLead[lead.id] ? (
+                          <Badge variant="outline">Feedback: {feedbackStatusByLead[lead.id]!.toLowerCase()}</Badge>
+                        ) : null}
                         {lead.trialCreditsGrantedAt ? (
                           <Badge variant="outline">{TRIAL_CREDIT_GRANT} trial credits granted</Badge>
                         ) : null}
@@ -488,7 +601,15 @@ export function AdminLeadsManager({ initialLeads }: { initialLeads: CoachingLead
                     </div>
                   </div>
 
-                  {expanded ? <LeadDetails key={lead.id} lead={lead} onPatch={patchLead} /> : null}
+                  {expanded ? (
+                    <LeadDetails
+                      key={lead.id}
+                      lead={lead}
+                      graded={gradedByLead[lead.id]}
+                      feedbackStatus={feedbackStatusByLead[lead.id]}
+                      onPatch={patchLead}
+                    />
+                  ) : null}
 
                   <div className="flex justify-end">
                     <Button type="button" size="sm" disabled={sending} onClick={() => handleSend(lead)} className="gap-1.5">

@@ -1827,6 +1827,8 @@ model CoachingLead {
   // Set when the WhatsApp outreach is dispatched from /admin/leads.
   lastContactedAt DateTime? @map("last_contacted_at")
 
+  pilotFeedbacks PilotFeedback[]
+
   // Set the one time provisionTrialCreditsForLead actually grants the
   // 10-credit trial (apps/web/src/lib/admin/leadTrialProvisioning.ts) —
   // guards the "Approve & Send" action against double-granting credits on
@@ -1907,6 +1909,56 @@ model GymDietPlan {
   @@index([gymId])
   @@index([memberId])
   @@map("gym_diet_plans")
+}
+
+enum PilotFeedbackStatus {
+  REQUESTED
+  RESPONDED
+  APPROVED
+  DECLINED
+}
+
+// The pilot-to-case-study loop: after a lead has tried one real batch, the
+// admin sends them a private /feedback/<token> link. Their answers are kept
+// verbatim; nothing here is ever written or paraphrased on their behalf. A
+// response can only become a public case study if the contact ticked the
+// consent box on the form AND an admin then approves it (status APPROVED).
+model PilotFeedback {
+  id    String @id @default(cuid())
+  // Unguessable random string used in the public link; never the row id.
+  token String @unique
+
+  leadId String?       @map("lead_id")
+  lead   CoachingLead? @relation(fields: [leadId], references: [id], onDelete: SetNull)
+
+  // Snapshot of who this is, so the record survives the lead being deleted.
+  instituteName String @map("institute_name")
+  contactName   String @map("contact_name")
+  state         String @default("")
+
+  status PilotFeedbackStatus @default(REQUESTED)
+
+  // The three questions, answered in the contact's own words.
+  answerBefore     String? @map("answer_before")
+  answerExperience String? @map("answer_experience")
+  answerMissing    String? @map("answer_missing")
+  // "yes" | "maybe" | "no"
+  wouldUseAgain    String? @map("would_use_again")
+
+  // Consent given on the form: may we quote their words, and may we name them.
+  consentQuote Boolean @default(false) @map("consent_quote")
+  consentName  Boolean @default(false) @map("consent_name")
+
+  // The exact sentence an admin chose to feature. Must be copied from the
+  // answers above, not rewritten.
+  publishQuote String? @map("publish_quote")
+
+  respondedAt DateTime? @map("responded_at")
+  createdAt   DateTime  @default(now()) @map("created_at")
+
+  @@index([status])
+  @@index([leadId])
+  @@map("pilot_feedbacks")
 }
 
 // ─────────────────────────────────────────────────────────────────────────
