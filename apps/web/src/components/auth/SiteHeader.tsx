@@ -152,14 +152,20 @@ export function SiteHeader() {
         >
           {t("navVedicMindAi")}
         </a>
-        <a
-          href={institutePartnerUrl(isInstitutePartner ? "/dashboard" : "/login", "header_nav")}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:text-foreground"
-        >
-          {t("navForInstitutes")}
-        </a>
+        {isInstitutePartner ? (
+          <a
+            href={institutePartnerUrl("/dashboard", "header_nav")}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-foreground"
+          >
+            {t("navForInstitutes")}
+          </a>
+        ) : (
+          <Link href="/for-institutes" className="hover:text-foreground">
+            {t("navForInstitutes")}
+          </Link>
+        )}
         {isAuthenticated ? (
           <Link href="/dashboard" className="hover:text-foreground">
             {t("navDashboard")}
