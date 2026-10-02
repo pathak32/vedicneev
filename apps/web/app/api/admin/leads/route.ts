@@ -14,6 +14,7 @@ interface LeadInput {
   district?: string;
   phoneNumber?: string;
   notes?: string;
+  linkedinUrl?: string;
 }
 
 interface CreateBody {
@@ -71,6 +72,7 @@ export async function POST(request: Request) {
         district: input.district!.trim(),
         phoneNumber: normalizeLeadPhone(input.phoneNumber!),
         notes: input.notes?.trim() || null,
+        linkedinUrl: input.linkedinUrl?.trim() || null,
       })),
     });
 

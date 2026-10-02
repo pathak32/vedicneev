@@ -1819,6 +1819,14 @@ model CoachingLead {
   // "website" with no tags. Null for leads added by hand in /admin/leads.
   source        String?
 
+  // Outreach tracking used by the /admin/leads tracker. linkedinUrl is the
+  // lead's own profile, pasted by hand; nothing here ever talks to LinkedIn.
+  linkedinUrl     String?   @map("linkedin_url")
+  // The next time to follow up with this lead; null means nothing scheduled.
+  nextFollowUpAt  DateTime? @map("next_follow_up_at")
+  // Set when the WhatsApp outreach is dispatched from /admin/leads.
+  lastContactedAt DateTime? @map("last_contacted_at")
+
   // Set the one time provisionTrialCreditsForLead actually grants the
   // 10-credit trial (apps/web/src/lib/admin/leadTrialProvisioning.ts) —
   // guards the "Approve & Send" action against double-granting credits on

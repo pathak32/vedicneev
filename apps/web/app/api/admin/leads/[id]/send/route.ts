@@ -62,6 +62,7 @@ export async function POST(_request: Request, { params }: { params: { id: string
     where: { id: lead.id },
     data: {
       status: lead.status === "PENDING" ? "CONTACTED" : lead.status,
+      lastContactedAt: new Date(),
       ...(shouldProvision ? { trialCreditsGrantedAt: new Date() } : {}),
     },
   });
