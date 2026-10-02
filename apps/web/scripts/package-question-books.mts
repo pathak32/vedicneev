@@ -89,6 +89,15 @@ const CLASS_LEVELS: QuestionBookletClassLevel[] = [6, 9];
 const LANGUAGES: BookletLanguage[] = ["en", "hi"];
 const LANGUAGE_TO_PRISMA: Record<BookletLanguage, "EN" | "HI"> = { en: "EN", hi: "HI" };
 
+// Per explicit user decision (see _review/OPEN_ISSUES.md, "URGENT: class9/hi
+// translation script is broken"): most class9/hi topic files on disk are
+// untranslated raw English, not real Hindi, even though they pass structural
+// validation and the artifact scan (both only check shape/known phrases, not
+// language). Packaging would otherwise ship that content as a "Hindi" book.
+// Paused until the translation is fixed and re-verified — remove this once
+// class9/hi is back in scope.
+const PAUSED_COMBOS = new Set<string>(["9-hi"]);
+
 const EXAM_LABEL: Record<QuestionBookletExamType, string> = {
   JNVST: "JNVST",
   RMS: "RMS",
@@ -223,6 +232,11 @@ async function main() {
 
   for (const classLevel of CLASS_LEVELS) {
     for (const language of LANGUAGES) {
+      if (PAUSED_COMBOS.has(`${classLevel}-${language}`)) {
+        console.log(`\nSkipping class${classLevel}/${language} — paused pending Hindi translation fix (see _review/OPEN_ISSUES.md).`);
+        continue;
+      }
+
       const corpus = corpusByKey.get(`${classLevel}-${language}`)!;
       const isClean = corpus.structuralErrors.length === 0 && corpus.artifactFlags.length === 0;
       const hasAnyContent = corpus.topics.length > 0;
