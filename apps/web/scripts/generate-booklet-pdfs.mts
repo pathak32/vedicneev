@@ -31,8 +31,10 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import React from "react";
-import { Document, Font, Page, StyleSheet, Text, View, renderToBuffer } from "@react-pdf/renderer";
+import { Document, Page, Text, View, renderToBuffer } from "@react-pdf/renderer";
 import { prisma } from "@vedicneev/db";
+
+import { PDF_LANGUAGE_LABEL as LANGUAGE_LABEL, SUPPORTED_PDF_LANGUAGES, buildPdfStyles, registerFontIfNeeded, type PdfLanguage } from "./lib/pdfFonts.mjs";
 
 const h = React.createElement;
 
@@ -40,47 +42,9 @@ type ExamType = "JNVST" | "AISSEE" | "RMS";
 type ClassLevel = 6 | 9;
 type ContentClassLevel = "CLASS_6" | "CLASS_9";
 type DifficultyBucket = "EASY" | "MEDIUM" | "HARD";
-type Language = "en" | "hi" | "mr" | "bn" | "gu" | "ta";
+type Language = PdfLanguage;
 
-const SUPPORTED_LANGUAGES: readonly Language[] = ["en", "hi", "mr", "bn", "gu", "ta"];
-
-const LANGUAGE_LABEL: Record<Language, string> = {
-  en: "English",
-  hi: "Hindi",
-  mr: "Marathi",
-  bn: "Bengali",
-  gu: "Gujarati",
-  ta: "Tamil",
-};
-
-/**
- * Devanagari (hi/mr) shares one script/font; bn/gu/ta each need their own.
- * `null` means "Helvetica has real glyphs for this" (English only).
- */
-const FONT_FAMILY_BY_LANGUAGE: Record<Language, string | null> = {
-  en: null,
-  hi: "NotoSansDevanagari",
-  mr: "NotoSansDevanagari",
-  bn: "NotoSansBengali",
-  gu: "NotoSansGujarati",
-  ta: "NotoSansTamil",
-};
-
-const FONTS_DIR = path.join(path.dirname(fileURLToPath(import.meta.url)), "fonts");
-
-function registerFontIfNeeded(language: Language): string {
-  const family = FONT_FAMILY_BY_LANGUAGE[language];
-  if (!family) return "Helvetica";
-
-  Font.register({
-    family,
-    fonts: [
-      { src: path.join(FONTS_DIR, `${family}-Regular.ttf`), fontWeight: "normal" },
-      { src: path.join(FONTS_DIR, `${family}-Bold.ttf`), fontWeight: "bold" },
-    ],
-  });
-  return family;
-}
+const SUPPORTED_LANGUAGES = SUPPORTED_PDF_LANGUAGES;
 
 function parseLanguageArg(): Language {
   const arg = process.argv.find((a) => a.startsWith("--lang="));
@@ -257,64 +221,12 @@ async function loadBookletQuestions(
   return selected;
 }
 
-/**
- * Built as a function (not a module-level constant) because the font
- * family depends on --lang, resolved at runtime via registerFontIfNeeded.
- * Helvetica's built-in bold/italic faces are addressed by suffixing the
- * family name ("Helvetica-Bold"); a custom Noto family instead picks its
- * registered weight via fontWeight, and skips italic entirely — only a
- * Regular+Bold face was registered for each script (see
- * FONT_FAMILY_BY_LANGUAGE), so emphasis for those falls back to color/size
- * instead of a missing italic glyph set.
- */
-function buildStyles(fontFamily: string) {
-  const isCustomFont = fontFamily !== "Helvetica";
-  const bold = isCustomFont ? { fontFamily, fontWeight: "bold" as const } : { fontFamily: "Helvetica-Bold" };
-  const emphasis = isCustomFont
-    ? { fontFamily, color: "#444444" as const }
-    : { fontFamily: "Helvetica-Oblique", color: "#444444" as const };
-
-  return StyleSheet.create({
-    page: { paddingTop: 36, paddingBottom: 48, paddingHorizontal: 40, fontSize: 10, fontFamily },
-    title: { fontSize: 16, marginBottom: 4, ...bold },
-    subtitle: { fontSize: 10, color: "#555555", marginBottom: 10 },
-    metaRow: { flexDirection: "row", flexWrap: "wrap", marginBottom: 10 },
-    metaItem: { marginRight: 16, marginBottom: 2, color: "#555555" },
-    sectionHeading: {
-      fontSize: 12,
-      marginTop: 14,
-      marginBottom: 8,
-      paddingBottom: 3,
-      borderBottomWidth: 1,
-      borderBottomColor: "#d4d4d4",
-      borderBottomStyle: "solid",
-      ...bold,
-    },
-    questionBlock: { marginBottom: 10 },
-    questionStem: { marginBottom: 4, ...bold },
-    difficultyTag: { fontSize: 8, color: "#92400e" },
-    option: { flexDirection: "row", marginBottom: 2, paddingLeft: 10 },
-    optionCorrect: { color: "#065f46", ...bold },
-    optionLabel: { width: 16 },
-    explanation: { marginTop: 4, marginLeft: 10, fontSize: 9, ...emphasis },
-    pageNumber: {
-      position: "absolute",
-      bottom: 20,
-      left: 0,
-      right: 40,
-      textAlign: "right",
-      fontSize: 8,
-      color: "#888888",
-    },
-  });
-}
-
 function buildBookletDocument(
   examLabel: string,
   classLevel: ClassLevel,
   language: Language,
   questions: BookletQuestion[],
-  styles: ReturnType<typeof buildStyles>
+  styles: ReturnType<typeof buildPdfStyles>
 ) {
   const bySection = new Map<string, BookletQuestion[]>();
   for (const q of questions) {
@@ -387,7 +299,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 async function main() {
   const language = parseLanguageArg();
   const fontFamily = registerFontIfNeeded(language);
-  const styles = buildStyles(fontFamily);
+  const styles = buildPdfStyles(fontFamily);
 
   console.log(`Generating booklets in ${LANGUAGE_LABEL[language]} (--lang=${language})...`);
 
