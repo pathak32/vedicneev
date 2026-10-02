@@ -49,6 +49,33 @@ describe("validateQuestionBookletTopic", () => {
     });
   });
 
+  it("accepts the real corpus shape: string options with letter prefixes, id, topicName", () => {
+    const real = {
+      topicId: 1,
+      topicName: "Recognizing Perfect Square Sequences",
+      questions: [
+        {
+          difficulty: "easy",
+          question: "What is 8² (8 squared)?",
+          options: ["A. 16", "B. 54", "C. 64", "D. 72"],
+          answer: "C",
+          explanation: "8² = 8 × 8 = 64.",
+          id: 3,
+        },
+      ],
+    };
+    const result = validateQuestionBookletTopic(real);
+    expect(result.ok).toBe(true);
+    expect(result.questions[0]).toEqual({
+      questionNumber: 3,
+      question: "What is 8² (8 squared)?",
+      options: { A: "16", B: "54", C: "64", D: "72" },
+      correctOption: "C",
+      explanation: "8² = 8 × 8 = 64.",
+    });
+    expect(extractTopicTitle(real, 1)).toBe("Recognizing Perfect Square Sequences");
+  });
+
   it("rejects neither an array nor a {questions: []} object", () => {
     const result = validateQuestionBookletTopic({ foo: "bar" });
     expect(result.ok).toBe(false);

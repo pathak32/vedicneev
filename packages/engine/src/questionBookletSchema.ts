@@ -48,7 +48,7 @@ export interface QuestionBookletValidationResult {
 export function extractTopicTitle(raw: unknown, topicNumber: number): string {
   if (raw && typeof raw === "object" && !Array.isArray(raw)) {
     const record = raw as Record<string, unknown>;
-    const title = record.topicTitle ?? record.title ?? record.name;
+    const title = record.topicTitle ?? record.topicName ?? record.title ?? record.name;
     if (typeof title === "string" && title.trim().length > 0) return title;
   }
   return `Topic ${topicNumber}`;
@@ -57,7 +57,7 @@ export function extractTopicTitle(raw: unknown, topicNumber: number): string {
 const QUESTION_TEXT_ALIASES = ["question", "stem", "text", "questionText"];
 const EXPLANATION_ALIASES = ["explanation", "solution", "workedSolution"];
 const ANSWER_ALIASES = ["correctOption", "answer", "correctAnswer"];
-const NUMBER_ALIASES = ["questionNumber", "number", "no", "qNo"];
+const NUMBER_ALIASES = ["questionNumber", "number", "no", "qNo", "id"];
 const OPTIONS_ALIASES = ["options", "choices"];
 
 function firstStringField(record: Record<string, unknown>, aliases: string[]): string | undefined {
@@ -75,6 +75,12 @@ function normalizeOptions(raw: unknown): Record<BookletOptionKey, string> | null
   if (Array.isArray(raw)) {
     const options: Partial<Record<BookletOptionKey, string>> = {};
     for (const entry of raw) {
+      // Real corpus shape: plain strings prefixed with their letter, e.g. "A. 30".
+      if (typeof entry === "string") {
+        const m = entry.match(/^\s*([A-Da-d])[.)]\s*([\s\S]*)$/);
+        if (m) options[m[1]!.toUpperCase() as BookletOptionKey] = m[2]!.trim();
+        continue;
+      }
       if (!entry || typeof entry !== "object") continue;
       const e = entry as Record<string, unknown>;
       const label = String(e.id ?? e.label ?? e.key ?? "").toUpperCase();
