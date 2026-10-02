@@ -14,6 +14,7 @@ const CATEGORY_LABEL: Record<ContentBlockCategory, string> = {
   COGNITIVE_MASTERY: "Cognitive Mastery",
   VEDIC_MATH: "Vedic Math",
   INSTITUTIONAL_AUTOMATION: "Institutional Automation",
+  EXAM_PREPARATION: "Exam Preparation",
 };
 
 const STATUS_BADGE: Record<ContentBlockStatus, { variant: "default" | "secondary" | "outline"; className?: string }> = {
@@ -49,6 +50,8 @@ export function AdminContentLibraryManager({ initialBlocks }: { initialBlocks: C
   const [edit, setEdit] = useState<EditState | null>(null);
   const [busyId, setBusyId] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [batchStart, setBatchStart] = useState("");
+  const [batching, setBatching] = useState(false);
 
   const filtered = useMemo(() => {
     const q = search.trim().toLowerCase();
@@ -114,6 +117,34 @@ export function AdminContentLibraryManager({ initialBlocks }: { initialBlocks: C
     setBusyId(null);
   }
 
+  async function handleUnschedule(id: string) {
+    setBusyId(id);
+    await patchBlock(id, { status: "DRAFT", scheduledFor: null });
+    setBusyId(null);
+  }
+
+  async function handleAutoSchedule() {
+    if (!batchStart) {
+      setError("Pick a start date for the auto-schedule.");
+      return;
+    }
+    setBatching(true);
+    setError(null);
+    try {
+      const res = await fetch("/api/admin/content/schedule-batch", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ startDate: batchStart }),
+      });
+      const json = await res.json();
+      if (!res.ok) throw new Error(json.error ?? "Auto-schedule failed.");
+      window.location.reload();
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Auto-schedule failed.");
+      setBatching(false);
+    }
+  }
+
   async function handlePublish(id: string) {
     setBusyId(id);
     setError(null);
@@ -135,6 +166,20 @@ export function AdminContentLibraryManager({ initialBlocks }: { initialBlocks: C
 
   return (
     <div className="flex flex-col gap-4">
+      <div className="flex flex-wrap items-center gap-2 rounded-md border border-border p-3">
+        <span className="text-sm font-medium text-foreground">Auto-schedule all drafts, 2 per day (9:00 AM + 5:00 PM IST) from</span>
+        <input
+          type="date"
+          value={batchStart}
+          onChange={(e) => setBatchStart(e.target.value)}
+          className="h-9 rounded-md border border-border bg-background px-2 text-sm"
+        />
+        <Button type="button" size="sm" disabled={batching} onClick={handleAutoSchedule}>
+          {batching ? <Loader2 className="h-3.5 w-3.5 animate-spin" /> : null}
+          Auto-schedule
+        </Button>
+      </div>
+
       <div className="flex flex-wrap items-center gap-2">
         <input
           value={search}
@@ -160,6 +205,7 @@ export function AdminContentLibraryManager({ initialBlocks }: { initialBlocks: C
           <option value="COGNITIVE_MASTERY">Cognitive Mastery</option>
           <option value="VEDIC_MATH">Vedic Math</option>
           <option value="INSTITUTIONAL_AUTOMATION">Institutional Automation</option>
+          <option value="EXAM_PREPARATION">Exam Preparation</option>
         </select>
       </div>
 
@@ -273,6 +319,11 @@ export function AdminContentLibraryManager({ initialBlocks }: { initialBlocks: C
                           <Button type="button" variant="outline" size="sm" onClick={() => startEdit(block)} className="gap-1.5">
                             <Pencil className="h-3.5 w-3.5" /> Edit / Schedule
                           </Button>
+                          {block.status === "SCHEDULED" ? (
+                            <Button type="button" variant="outline" size="sm" disabled={busy} onClick={() => handleUnschedule(block.id)}>
+                              Back to Draft
+                            </Button>
+                          ) : null}
                           <Button
                             type="button"
                             size="sm"

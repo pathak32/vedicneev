@@ -18,6 +18,7 @@ const OTHER_BOARD_LABELS: Record<BoardType, string> = { jnvst: "JNVST", aissee: 
 export function ComingSoonBoardDetail({ board }: { board: ComingSoonBoardType }) {
   const info = COMING_SOON_BOARD_DATA[board];
   const hasQuestionBank = info.subjects.some((subject) => subject.subsections.some((sub) => sub.topicKey));
+  const shortName = info.shortName ?? info.name.split(" ")[0];
 
   return (
     <main className="mx-auto flex max-w-4xl flex-col gap-6 px-4 py-12">
@@ -106,7 +107,7 @@ export function ComingSoonBoardDetail({ board }: { board: ComingSoonBoardType })
               </p>
               <p className="max-w-md text-xs text-muted-foreground">
                 Topic-wise practice questions are live now — tap &quot;Practice Questions&quot; on any subsection
-                above. A full timed mock paper and OMR scanning for {info.name.split(" ")[0]} are being built next.
+                above. A full timed mock paper and OMR scanning for {shortName} are being built next.
               </p>
             </>
           ) : (
@@ -116,7 +117,7 @@ export function ComingSoonBoardDetail({ board }: { board: ComingSoonBoardType })
                 Question bank, mock tests & OMR practice — coming soon
               </p>
               <p className="max-w-md text-xs text-muted-foreground">
-                The full {info.name.split(" ")[0]} question bank and live mock experience is being built next. This
+                The full {shortName} question bank and live mock experience is being built next. This
                 page will update automatically once it&apos;s ready.
               </p>
             </>

@@ -1,0 +1,22 @@
+name: Publish scheduled LinkedIn posts
+
+# Vercel's Hobby plan only allows one cron run per day, so the twice-daily
+# LinkedIn slots (9:00 AM and 5:00 PM IST = 03:30 and 11:30 UTC) are driven
+# from here instead. The endpoint posts at most one due block per call and
+# does nothing if no block's scheduledFor time has arrived yet.
+on:
+  schedule:
+    - cron: "30 3,11 * * *"
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call publish-linkedin cron endpoint
+        env:
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+        run: |
+          curl --fail-with-body -sS \
+            -H "Authorization: Bearer $CRON_SECRET" \
+            "https://www.vedicneev.com/api/cron/publish-linkedin"
