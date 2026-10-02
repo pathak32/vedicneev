@@ -14,6 +14,7 @@ const CATEGORY_LABEL: Record<ContentBlockCategory, string> = {
   COGNITIVE_MASTERY: "Cognitive Mastery",
   VEDIC_MATH: "Vedic Math",
   INSTITUTIONAL_AUTOMATION: "Institutional Automation",
+  EXAM_PREPARATION: "Exam Preparation",
 };
 
 const STATUS_BADGE: Record<ContentBlockStatus, { variant: "default" | "secondary" | "outline"; className?: string }> = {
@@ -204,6 +205,7 @@ export function AdminContentLibraryManager({ initialBlocks }: { initialBlocks: C
           <option value="COGNITIVE_MASTERY">Cognitive Mastery</option>
           <option value="VEDIC_MATH">Vedic Math</option>
           <option value="INSTITUTIONAL_AUTOMATION">Institutional Automation</option>
+          <option value="EXAM_PREPARATION">Exam Preparation</option>
         </select>
       </div>
 

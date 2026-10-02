@@ -1,4 +1,4 @@
-export type ComingSoonBoardType = "nda" | "cds";
+export type ComingSoonBoardType = "nda" | "cds" | "upsainik";
 
 export interface ComingSoonSubsection {
   name: string;
@@ -23,6 +23,8 @@ export interface ComingSoonPaper {
 
 export interface ComingSoonBoardInfo {
   name: string;
+  // Short label used in the "coming soon" copy; falls back to the first word of `name`.
+  shortName?: string;
   badge: string;
   description: string;
   conductedBy: string;
@@ -118,6 +120,48 @@ export const COMING_SOON_BOARD_DATA: Record<ComingSoonBoardType, ComingSoonBoard
           { name: "Trigonometry", blurb: "Trigonometric ratios and simple identities.", topicKey: "cds_math_trigonometry" },
           { name: "Geometry & Mensuration", blurb: "Lines, angles, area, and volume of standard shapes.", topicKey: "cds_math_geometry_mensuration" },
           { name: "Statistics", blurb: "Basic data interpretation, mean, median, and mode.", topicKey: "cds_math_statistics" },
+        ],
+      },
+    ],
+  },
+  upsainik: {
+    name: "UP Sainik School",
+    shortName: "UP Sainik School",
+    badge: "Sainik School Entrance · Class 6 & 9",
+    description:
+      "A preparation guide for entrance to Sainik Schools in Uttar Pradesh. The topic list below is indicative, drawn from the areas Sainik-style entrance papers usually cover, so students can start building basics now. Always confirm the exact pattern, eligibility and dates in the current official notification.",
+    conductedBy: "Conducting authority, dates and pattern: see the current official notification",
+    eligibility:
+      "Age, class and domicile rules are set each year by the admitting authority. Read the current official notification before applying.",
+    papers: [{ name: "Paper pattern", detail: "Published in the official notification each year" }],
+    subjects: [
+      {
+        name: "Mathematics",
+        subsections: [
+          { name: "Number Sense & Arithmetic", blurb: "Whole numbers, fractions, decimals, percentages, ratio and everyday calculation." },
+          { name: "Mensuration & Geometry Basics", blurb: "Perimeter, area, angles, and properties of common shapes." },
+          { name: "Word Problems", blurb: "Turning a short story into the right sum, step by step." },
+        ],
+      },
+      {
+        name: "Language",
+        subsections: [
+          { name: "Reading Comprehension", blurb: "Understanding a short passage and answering questions from it." },
+          { name: "Grammar & Vocabulary", blurb: "Usage, sentence correction, synonyms and antonyms." },
+        ],
+      },
+      {
+        name: "Intelligence & Reasoning",
+        subsections: [
+          { name: "Series, Analogies & Odd One Out", blurb: "Spotting the rule behind a pattern of numbers, letters or figures." },
+          { name: "Coding-Decoding & Direction Sense", blurb: "Short logic puzzles that reward a calm, step-by-step approach." },
+        ],
+      },
+      {
+        name: "General Knowledge & Science",
+        subsections: [
+          { name: "Everyday Science & Environment", blurb: "Basic ideas about the world around us, at school level." },
+          { name: "General Awareness", blurb: "India, geography, history and current events at a child-friendly level." },
         ],
       },
     ],

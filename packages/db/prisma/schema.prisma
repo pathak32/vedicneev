@@ -1187,6 +1187,7 @@ enum ContentBlockCategory {
   COGNITIVE_MASTERY
   VEDIC_MATH
   INSTITUTIONAL_AUTOMATION
+  EXAM_PREPARATION
 }
 
 enum ContentBlockStatus {
