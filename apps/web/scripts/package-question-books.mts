@@ -272,16 +272,43 @@ async function renderCompiledBookVolumes(
   throw new Error(`Could not split ${examLabel} Class ${classLevel} (${languageLabel}) under ${MAX_VOLUME_BYTES} bytes even at ${maxVolumeCount} volumes.`);
 }
 
+const UPLOAD_MAX_ATTEMPTS = 4;
+
+function sleep(ms: number) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+/**
+ * A long, sequential run (72 topics + several compiled volumes per
+ * class/language, real network calls throughout) is one dropped connection
+ * away from losing an hour of rendering work — a bare "fetch failed" from a
+ * Wi-Fi hiccup previously killed the whole script with nothing yet uploaded
+ * after the failure point. Retries with exponential backoff (1s/2s/4s)
+ * before giving up for real; `upsert: true` already makes re-uploading the
+ * same path safe, so a retry here never risks a duplicate/corrupt object.
+ */
 async function uploadBuffer(
   admin: NonNullable<ReturnType<typeof createSupabaseAdminClient>>,
   buffer: Buffer,
   storagePath: string
 ): Promise<string> {
-  const { error: uploadError } = await admin.storage.from(BUCKET).upload(storagePath, buffer, { contentType: "application/pdf", upsert: true });
-  if (uploadError) throw new Error(`Upload failed for ${storagePath}: ${uploadError.message}`);
-  const { data, error: signError } = await admin.storage.from(BUCKET).createSignedUrl(storagePath, SIGNED_URL_TTL_SECONDS);
-  if (signError || !data) throw new Error(`Signing failed for ${storagePath}: ${signError?.message ?? "unknown error"}`);
-  return data.signedUrl;
+  let lastError: string = "unknown error";
+  for (let attempt = 1; attempt <= UPLOAD_MAX_ATTEMPTS; attempt++) {
+    const { error: uploadError } = await admin.storage.from(BUCKET).upload(storagePath, buffer, { contentType: "application/pdf", upsert: true });
+    if (!uploadError) {
+      const { data, error: signError } = await admin.storage.from(BUCKET).createSignedUrl(storagePath, SIGNED_URL_TTL_SECONDS);
+      if (!signError && data) return data.signedUrl;
+      lastError = `Signing failed: ${signError?.message ?? "unknown error"}`;
+    } else {
+      lastError = `Upload failed: ${uploadError.message}`;
+    }
+    if (attempt < UPLOAD_MAX_ATTEMPTS) {
+      const backoffMs = 1000 * 2 ** (attempt - 1);
+      console.warn(`  [retry ${attempt}/${UPLOAD_MAX_ATTEMPTS - 1}] ${storagePath} — ${lastError}. Retrying in ${backoffMs}ms...`);
+      await sleep(backoffMs);
+    }
+  }
+  throw new Error(`${lastError} for ${storagePath} after ${UPLOAD_MAX_ATTEMPTS} attempts.`);
 }
 
 async function main() {
