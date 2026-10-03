@@ -47,33 +47,35 @@ function questionBlock(q: MockPaperQuestion, displayNumber: number, styles: Retu
   );
 }
 
-/** The question paper itself — no answers or explanations shown, matching a real exam paper. */
-export function buildMockPaperDocument(meta: MockPaperMeta, questions: MockPaperQuestion[], styles: ReturnType<typeof buildPdfStyles>) {
+/** Just the `<Page>` for a question paper — no answers or explanations, matching a real exam paper. Extracted from buildMockPaperDocument so a combined multi-paper book (generate-sample-paper-books.mts) can compose several of these under one `<Document>` instead of one PDF per paper. */
+export function buildMockPaperPage(meta: MockPaperMeta, questions: MockPaperQuestion[], styles: ReturnType<typeof buildPdfStyles>) {
   const title = `${meta.examLabel} Class ${meta.classLevel} — Sample Mock Paper${meta.setLabel ? ` — ${meta.setLabel}` : ""}${meta.languageLabel ? ` (${meta.languageLabel})` : ""}`;
 
   return h(
-    Document,
-    { title },
+    Page,
+    { size: "A4", style: styles.page },
+    h(Text, { style: styles.title }, title),
+    h(Text, { style: styles.subtitle }, "VedicNeev — practice paper. Not an official exam document."),
     h(
-      Page,
-      { size: "A4", style: styles.page },
-      h(Text, { style: styles.title }, title),
-      h(Text, { style: styles.subtitle }, "VedicNeev — practice paper. Not an official exam document."),
-      h(
-        View,
-        { style: styles.metaRow },
-        h(Text, { style: styles.metaItem }, `Total Questions: ${questions.length}`),
-        h(Text, { style: styles.metaItem }, `Total Marks: ${meta.totalMarks}`),
-        h(Text, { style: styles.metaItem }, `Duration: ${meta.durationMinutes} min`)
-      ),
-      ...questions.map((q, i) => questionBlock(q, i + 1, styles)),
-      h(Text, {
-        style: styles.pageNumber,
-        render: ({ pageNumber, totalPages }: { pageNumber: number; totalPages: number }) => `Page ${pageNumber} of ${totalPages}`,
-        fixed: true,
-      })
-    )
+      View,
+      { style: styles.metaRow },
+      h(Text, { style: styles.metaItem }, `Total Questions: ${questions.length}`),
+      h(Text, { style: styles.metaItem }, `Total Marks: ${meta.totalMarks}`),
+      h(Text, { style: styles.metaItem }, `Duration: ${meta.durationMinutes} min`)
+    ),
+    ...questions.map((q, i) => questionBlock(q, i + 1, styles)),
+    h(Text, {
+      style: styles.pageNumber,
+      render: ({ pageNumber, totalPages }: { pageNumber: number; totalPages: number }) => `Page ${pageNumber} of ${totalPages}`,
+      fixed: true,
+    })
   );
+}
+
+/** The question paper itself, as a standalone single-paper PDF document. */
+export function buildMockPaperDocument(meta: MockPaperMeta, questions: MockPaperQuestion[], styles: ReturnType<typeof buildPdfStyles>) {
+  const title = `${meta.examLabel} Class ${meta.classLevel} — Sample Mock Paper${meta.setLabel ? ` — ${meta.setLabel}` : ""}${meta.languageLabel ? ` (${meta.languageLabel})` : ""}`;
+  return h(Document, { title }, buildMockPaperPage(meta, questions, styles));
 }
 
 /** The answer key — a separate document (or the caller can concatenate pages) so the paper itself never leaks answers when shared alone. */

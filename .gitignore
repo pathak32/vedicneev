@@ -48,3 +48,12 @@ yarn-error.log*
 .vscode/*
 !.vscode/extensions.json
 .idea/
+
+# generated mock-paper / sample-paper-book PDFs — local build output, uploaded
+# to Supabase Storage by their own scripts rather than committed to git.
+apps/web/public/mock-papers/
+apps/web/public/sample-paper-books/
+# answer keys for the sample-paper-book product — never committed; this is
+# exactly the secret the book's no-printed-answer-key design depends on
+# withholding, see generate-sample-paper-books.mts's own comment.
+apps/web/scripts/output/
