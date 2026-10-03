@@ -27,6 +27,8 @@ export interface MockPaperMeta {
   languageLabel: string;
   totalMarks: number;
   durationMinutes: number;
+  /** e.g. "Set 7 of 20" — included in the title when a paper is one of several numbered sets. */
+  setLabel?: string;
 }
 
 function questionBlock(q: MockPaperQuestion, displayNumber: number, styles: ReturnType<typeof buildPdfStyles>) {
@@ -47,7 +49,7 @@ function questionBlock(q: MockPaperQuestion, displayNumber: number, styles: Retu
 
 /** The question paper itself — no answers or explanations shown, matching a real exam paper. */
 export function buildMockPaperDocument(meta: MockPaperMeta, questions: MockPaperQuestion[], styles: ReturnType<typeof buildPdfStyles>) {
-  const title = `${meta.examLabel} Class ${meta.classLevel} — Sample Mock Paper${meta.languageLabel ? ` (${meta.languageLabel})` : ""}`;
+  const title = `${meta.examLabel} Class ${meta.classLevel} — Sample Mock Paper${meta.setLabel ? ` — ${meta.setLabel}` : ""}${meta.languageLabel ? ` (${meta.languageLabel})` : ""}`;
 
   return h(
     Document,
@@ -76,7 +78,7 @@ export function buildMockPaperDocument(meta: MockPaperMeta, questions: MockPaper
 
 /** The answer key — a separate document (or the caller can concatenate pages) so the paper itself never leaks answers when shared alone. */
 export function buildMockPaperAnswerKeyDocument(meta: MockPaperMeta, questions: MockPaperQuestion[], styles: ReturnType<typeof buildPdfStyles>) {
-  const title = `${meta.examLabel} Class ${meta.classLevel} — Sample Mock Paper: Answer Key${meta.languageLabel ? ` (${meta.languageLabel})` : ""}`;
+  const title = `${meta.examLabel} Class ${meta.classLevel} — Sample Mock Paper: Answer Key${meta.setLabel ? ` — ${meta.setLabel}` : ""}${meta.languageLabel ? ` (${meta.languageLabel})` : ""}`;
 
   return h(
     Document,
