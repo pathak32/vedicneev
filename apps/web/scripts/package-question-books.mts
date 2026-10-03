@@ -97,6 +97,14 @@ const SIGNED_URL_TTL_SECONDS = 60 * 60 * 24 * 365;
 // Supabase Storage's own per-file cap on the plan this project uses (see
 // upload-split-study-notes.mts's identical reason for splitting).
 const MAX_VOLUME_BYTES = 48 * 1024 * 1024;
+// react-pdf's layout pass scales roughly QUADRATICALLY with document size,
+// not linearly — measured empirically: 409 questions ~13s, 815 ~52s, 5911
+// (a full-syllabus exam like RMS/AISSEE/UPSS) extrapolates to ~45 MINUTES
+// for a single document. Always starting the volume-count search at 1 (as
+// if testing a ~500-question book first) is exactly how that catastrophic
+// single-document render gets attempted. 500 questions/volume keeps a
+// single render under ~20s based on the same data.
+const TARGET_QUESTIONS_PER_VOLUME = 500;
 
 type BookletLanguage = "en" | "hi";
 const CLASS_LEVELS: QuestionBookletClassLevel[] = [6, 9];
@@ -224,7 +232,15 @@ async function renderCompiledBookVolumes(
   topics: BookletTopicSection[],
   styles: ReturnType<typeof buildPdfStyles>
 ): Promise<{ volumeLabel: string | undefined; buffer: Buffer }[]> {
-  for (let volumeCount = 1; volumeCount <= 10; volumeCount++) {
+  const totalQuestions = topics.reduce((sum, t) => sum + t.questions.length, 0);
+  // Start from a question-count-based estimate rather than always trying a
+  // single un-split document first — see TARGET_QUESTIONS_PER_VOLUME's
+  // comment for why that first attempt alone can take the better part of an
+  // hour for a large corpus. The byte-size check below is still the actual
+  // pass/fail gate; this only picks a sane starting point for it.
+  const startingVolumeCount = Math.max(1, Math.ceil(totalQuestions / TARGET_QUESTIONS_PER_VOLUME));
+  const maxVolumeCount = startingVolumeCount + 10;
+  for (let volumeCount = startingVolumeCount; volumeCount <= maxVolumeCount; volumeCount++) {
     const groups = splitTopicsIntoVolumes(topics, volumeCount);
     const rendered = await Promise.all(
       groups.map(async (group, i) => {
@@ -237,7 +253,7 @@ async function renderCompiledBookVolumes(
     );
     if (rendered.every((r) => r.buffer.length <= MAX_VOLUME_BYTES)) return rendered;
   }
-  throw new Error(`Could not split ${examLabel} Class ${classLevel} (${languageLabel}) under ${MAX_VOLUME_BYTES} bytes even at 10 volumes.`);
+  throw new Error(`Could not split ${examLabel} Class ${classLevel} (${languageLabel}) under ${MAX_VOLUME_BYTES} bytes even at ${maxVolumeCount} volumes.`);
 }
 
 async function uploadBuffer(
