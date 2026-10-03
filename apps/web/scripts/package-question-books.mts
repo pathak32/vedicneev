@@ -21,6 +21,15 @@
  * artifact flag in ANY of its topics is refused entirely — no partial or
  * "mostly clean" book is ever packaged. Fix the flagged file(s) and re-run.
  *
+ * Structural validity alone is not sufficient to sell a topic, though —
+ * real answer/content errors have passed that check before. Each topic is
+ * additionally required to be listed in SECOND_PASS_CLEARED.json (the same
+ * manifest generate-mock-papers.mts gates on, populated as the independent
+ * blind second-pass review clears topics); anything not yet cleared is
+ * silently excluded from that topic's packaging rather than treated as a
+ * hard error, so a partially-cleared class/language corpus still packages
+ * what IS cleared.
+ *
  * PRODUCT-ID COLLISION WARNING: seed-store.ts already seeds its OWN
  * QUESTION_BOOKLET rows (a 500-question sample drawn live from the
  * Question/PreviousYearQuestion DB tables, via generate-booklet-pdfs.mts)
@@ -77,7 +86,12 @@ import { prisma } from "@vedicneev/db";
 import { registerFontIfNeeded, buildPdfStyles, PDF_LANGUAGE_LABEL } from "./lib/pdfFonts.mjs";
 import { buildCompiledBookDocument, buildTopicDocument, splitTopicsIntoVolumes, type BookletTopicSection } from "./lib/questionBookletDocument.mjs";
 
-const NOTES_ROOT = "D:\\Projects\\notes handwritten";
+// Overridable for environments where the question bank isn't under this fixed
+// local Windows path (e.g. a cloud session with the content checked out as
+// its own repo, whose root IS the questions directory) — the default stays
+// the user's local layout ("D:\...\notes handwritten\questions\...") so
+// nothing changes for normal local runs.
+const QUESTIONS_ROOT = process.env.QUESTION_BANK_ROOT || path.join("D:\\Projects\\notes handwritten", "questions");
 const BUCKET = process.env.SUPABASE_STUDY_NOTES_BUCKET || "study-notes";
 const SIGNED_URL_TTL_SECONDS = 60 * 60 * 24 * 365;
 // Supabase Storage's own per-file cap on the plan this project uses (see
@@ -89,6 +103,36 @@ const CLASS_LEVELS: QuestionBookletClassLevel[] = [6, 9];
 const LANGUAGES: BookletLanguage[] = ["en", "hi"];
 const LANGUAGE_TO_PRISMA: Record<BookletLanguage, "EN" | "HI"> = { en: "EN", hi: "HI" };
 
+// Per explicit user decision (see _review/OPEN_ISSUES.md, "URGENT: class9/hi
+// translation script is broken"): most class9/hi topic files on disk are
+// untranslated raw English, not real Hindi, even though they pass structural
+// validation and the artifact scan (both only check shape/known phrases, not
+// language). Packaging would otherwise ship that content as a "Hindi" book.
+// Paused until the translation is fixed and re-verified — remove this once
+// class9/hi is back in scope.
+const PAUSED_COMBOS = new Set<string>(["9-hi"]);
+
+// Structural validity + the artifact scan alone are not enough to call a
+// topic sellable — this project's whole second-pass process exists because
+// real answer/content errors have passed both those checks before (the
+// water-image topics, several GK facts, several arithmetic slips). Only
+// topics listed in SECOND_PASS_CLEARED.json (the same manifest
+// generate-mock-papers.mts gates on) are eligible here; anything else is
+// held back automatically as more of the corpus clears second pass, with no
+// code change needed.
+const SECOND_PASS_CLEARED_PATH = path.join(QUESTIONS_ROOT, "_review", "SECOND_PASS_CLEARED.json");
+interface ClearedEntry {
+  classLevel: number;
+  language: string;
+  topics: number[];
+}
+function loadClearedTopics(classLevel: QuestionBookletClassLevel, language: BookletLanguage): Set<number> {
+  if (!fs.existsSync(SECOND_PASS_CLEARED_PATH)) return new Set();
+  const data = JSON.parse(fs.readFileSync(SECOND_PASS_CLEARED_PATH, "utf-8")) as { cleared: ClearedEntry[] };
+  const entry = data.cleared.find((e) => e.classLevel === classLevel && e.language === language);
+  return new Set(entry?.topics ?? []);
+}
+
 const EXAM_LABEL: Record<QuestionBookletExamType, string> = {
   JNVST: "JNVST",
   RMS: "RMS",
@@ -97,7 +141,7 @@ const EXAM_LABEL: Record<QuestionBookletExamType, string> = {
 };
 
 function topicFilePath(classLevel: QuestionBookletClassLevel, language: BookletLanguage, topicNumber: number): string {
-  return path.join(NOTES_ROOT, "questions", `class${classLevel}`, language, `topic-${topicNumber}.json`);
+  return path.join(QUESTIONS_ROOT, `class${classLevel}`, language, `topic-${topicNumber}.json`);
 }
 
 interface LoadedCorpus {
@@ -105,11 +149,13 @@ interface LoadedCorpus {
   missing: number[];
   structuralErrors: { topicNumber: number; message: string }[];
   artifactFlags: { topicNumber: number; questionNumber: number; matchedPhrase: string; excerpt: string }[];
+  notSecondPassCleared: number[];
 }
 
 /** Loads and validates every topic file for one (class, language) — collects every problem rather than stopping at the first, so one run reports the full quality picture. */
 function loadCorpus(classLevel: QuestionBookletClassLevel, language: BookletLanguage): LoadedCorpus {
-  const result: LoadedCorpus = { topics: [], missing: [], structuralErrors: [], artifactFlags: [] };
+  const result: LoadedCorpus = { topics: [], missing: [], structuralErrors: [], artifactFlags: [], notSecondPassCleared: [] };
+  const cleared = loadClearedTopics(classLevel, language);
 
   for (let topicNumber = 1; topicNumber <= 72; topicNumber++) {
     const filePath = topicFilePath(classLevel, language, topicNumber);
@@ -136,6 +182,11 @@ function loadCorpus(classLevel: QuestionBookletClassLevel, language: BookletLang
     for (const a of artifacts) result.artifactFlags.push({ topicNumber, ...a });
     if (artifacts.length > 0) continue; // don't ship this topic's content until it's re-verified
 
+    if (!cleared.has(topicNumber)) {
+      result.notSecondPassCleared.push(topicNumber);
+      continue; // structurally fine, but not yet through the independent blind second pass
+    }
+
     result.topics.push({ topicNumber, topicTitle: extractTopicTitle(raw, topicNumber), questions });
   }
 
@@ -159,7 +210,10 @@ function reportCorpus(classLevel: QuestionBookletClassLevel, language: BookletLa
     }
     if (corpus.artifactFlags.length > 20) console.error(`    ...and ${corpus.artifactFlags.length - 20} more.`);
   }
-  console.log(`  [${label}] ${corpus.topics.length}/72 topics clean and ready to package.`);
+  if (corpus.notSecondPassCleared.length > 0) {
+    console.warn(`  [${label}] ${corpus.notSecondPassCleared.length} topic(s) structurally fine but not yet second-pass cleared, excluded from packaging: ${corpus.notSecondPassCleared.join(", ")}`);
+  }
+  console.log(`  [${label}] ${corpus.topics.length}/72 topics second-pass cleared and ready to package.`);
 }
 
 /** Renders a compiled book, splitting into more volumes (never cutting a topic across two) until every volume fits under MAX_VOLUME_BYTES. */
@@ -223,6 +277,11 @@ async function main() {
 
   for (const classLevel of CLASS_LEVELS) {
     for (const language of LANGUAGES) {
+      if (PAUSED_COMBOS.has(`${classLevel}-${language}`)) {
+        console.log(`\nSkipping class${classLevel}/${language} — paused pending Hindi translation fix (see _review/OPEN_ISSUES.md).`);
+        continue;
+      }
+
       const corpus = corpusByKey.get(`${classLevel}-${language}`)!;
       const isClean = corpus.structuralErrors.length === 0 && corpus.artifactFlags.length === 0;
       const hasAnyContent = corpus.topics.length > 0;
@@ -231,7 +290,8 @@ async function main() {
         continue;
       }
       if (!hasAnyContent) {
-        console.log(`\nSkipping class${classLevel}/${language} — no topic files found yet.`);
+        const reason = corpus.notSecondPassCleared.length > 0 ? "no topics are second-pass cleared yet" : "no topic files found yet";
+        console.log(`\nSkipping class${classLevel}/${language} — ${reason}.`);
         continue;
       }
 
