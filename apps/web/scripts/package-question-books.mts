@@ -45,9 +45,15 @@
  * only the unresolved (productType, targetExam, targetClass, language)
  * re-seed conflict above remains.
  *
- * Run with: npx tsx apps/web/scripts/package-question-books.mts [--dry-run]
+ * Run with: npx tsx apps/web/scripts/package-question-books.mts [--dry-run] [--out-dir=<path>]
  * --dry-run renders and reports without touching Supabase or the DB —
  * useful to validate the question content before anything goes live.
+ * --out-dir=<path> additionally writes every rendered PDF (per-topic and
+ * compiled volumes) to <path>, mirroring the Storage object layout, so the
+ * actual files can be reviewed/delivered before Supabase credentials are
+ * available. Safe to combine with --dry-run (no upload, no DB write, just
+ * local files); combining it with a real run also keeps a local copy of
+ * everything that gets uploaded.
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -105,6 +111,16 @@ const MAX_VOLUME_BYTES = 48 * 1024 * 1024;
 // single-document render gets attempted. 500 questions/volume keeps a
 // single render under ~20s based on the same data.
 const TARGET_QUESTIONS_PER_VOLUME = 500;
+
+const OUT_DIR_ARG = process.argv.find((a) => a.startsWith("--out-dir="));
+const OUT_DIR = OUT_DIR_ARG ? OUT_DIR_ARG.slice("--out-dir=".length) : null;
+
+function writeLocal(relativeStoragePath: string, buffer: Buffer) {
+  if (!OUT_DIR) return;
+  const outPath = path.join(OUT_DIR, relativeStoragePath);
+  fs.mkdirSync(path.dirname(outPath), { recursive: true });
+  fs.writeFileSync(outPath, buffer);
+}
 
 type BookletLanguage = "en" | "hi";
 const CLASS_LEVELS: QuestionBookletClassLevel[] = [6, 9];
@@ -318,8 +334,9 @@ async function main() {
       console.log(`\nclass${classLevel}/${language}: rendering ${corpus.topics.length} per-topic PDFs...`);
       for (const topic of corpus.topics) {
         const buffer = await renderToBuffer(buildTopicDocument(classLevel, topic, fontFamily, styles));
+        const storagePath = `question-books/topics/class-${classLevel}/${language}/topic-${topic.topicNumber}.pdf`;
+        writeLocal(storagePath, buffer);
         if (!dryRun) {
-          const storagePath = `question-books/topics/class-${classLevel}/${language}/topic-${topic.topicNumber}.pdf`;
           await uploadBuffer(admin!, buffer, storagePath);
         }
         topicPdfCount++;
@@ -337,9 +354,11 @@ async function main() {
           const sizeMb = (buffer.length / 1024 / 1024).toFixed(1);
           console.log(`  ${examType} Class ${classLevel} (${language})${volumeLabel ? ` [${volumeLabel}]` : ""}: ${sizeMb}MB`);
 
+          const storagePath = `question-books/compiled/${id}.pdf`;
+          writeLocal(storagePath, buffer);
+
           if (dryRun) continue;
 
-          const storagePath = `question-books/compiled/${id}.pdf`;
           const signedUrl = await uploadBuffer(admin!, buffer, storagePath);
           const totalQuestions = examTopics.reduce((sum, t) => sum + t.questions.length, 0);
           const titleEn = `${EXAM_LABEL[examType]} Class ${classLevel} — Complete Question Bank${language === "hi" ? " (Hindi)" : ""}${volumeLabel ? ` — ${volumeLabel}` : ""}`;
