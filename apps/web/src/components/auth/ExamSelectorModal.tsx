@@ -13,7 +13,7 @@ import {
   DialogHeader,
   DialogTitle,
 } from "@vedicneev/ui";
-import { Check, Landmark, ShieldCheck, Swords } from "lucide-react";
+import { Check, Landmark, Shield, ShieldCheck, Swords } from "lucide-react";
 
 import type { TargetExam } from "@/lib/auth/types";
 
@@ -25,7 +25,7 @@ export interface ExamSelectorModalProps {
   onSelect: (exam: TargetExam) => void;
 }
 
-type SwitchableExam = Extract<TargetExam, "JNVST" | "AISSEE" | "RMS">;
+type SwitchableExam = Extract<TargetExam, "JNVST" | "AISSEE" | "RMS" | "UPSS">;
 
 const EXAM_TRACKS: {
   value: SwitchableExam;
@@ -54,6 +54,13 @@ const EXAM_TRACKS: {
     tagline: "Rashtriya Military School",
     description: "An even quad-split across Math, Language, GK, and Intelligence, plus Current Affairs.",
     icon: Swords,
+  },
+  {
+    value: "UPSS",
+    title: "UPSS",
+    tagline: "UP Sainik School",
+    description: "State-level Sainik School entrance — Math, Language, GK, and Intelligence sections.",
+    icon: Shield,
   },
 ];
 

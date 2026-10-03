@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import {
   Button,
   DropdownMenu,
@@ -109,8 +109,17 @@ function ExamBoardsMenu() {
   );
 }
 
+// The minimal new-visitor funnel (/start, /onboarding) is deliberately a
+// single uncluttered screen at a time — this header's nav links, language
+// switcher, and exam-board dropdown are exactly the "too many options"
+// this funnel exists to avoid. Hidden only on these routes; every other
+// page — including /login itself, shared with sibling products like
+// typingtest's own sign-in — keeps the header unchanged.
+const HEADER_HIDDEN_PREFIXES = ["/start", "/onboarding"];
+
 export function SiteHeader() {
   const router = useRouter();
+  const pathname = usePathname();
   const { hasHydrated, isAuthenticated } = useActiveStudent();
   const [authOpen, setAuthOpen] = useState(false);
   // Read once on mount rather than via useState's lazy initializer — this
@@ -123,6 +132,8 @@ export function SiteHeader() {
     setIsInstitutePartner(readInstitutePartnerFlagFromDocument());
   }, []);
   const t = useT();
+
+  if (HEADER_HIDDEN_PREFIXES.some((prefix) => pathname?.startsWith(prefix))) return null;
 
   return (
     <header className="sticky top-0 z-40 flex items-center justify-between gap-4 border-b border-border bg-background/95 px-4 py-2.5 backdrop-blur md:px-8">
