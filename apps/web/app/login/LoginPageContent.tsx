@@ -92,11 +92,11 @@ export function LoginPageContent({ next, isExternalProductIntent }: LoginPageCon
           {step === "phone" ? <Phone className="h-6 w-6" /> : <ShieldCheck className="h-6 w-6" />}
         </div>
         <h1 className="text-xl font-bold text-foreground">
-          {step === "phone" ? "Sign in with your mobile number" : "Enter the OTP"}
+          {step === "phone" ? "Sign in with your WhatsApp number" : "Enter the OTP"}
         </h1>
         <p className="mt-1 text-sm text-muted-foreground">
           {step === "phone"
-            ? "We'll send a one-time code over WhatsApp to verify it's you."
+            ? "We verify over WhatsApp — enter a number that has WhatsApp on it, not just any mobile number."
             : `Sent to +91 ${pendingOtpPhone} on WhatsApp.`}
         </p>
       </div>
@@ -111,11 +111,11 @@ export function LoginPageContent({ next, isExternalProductIntent }: LoginPageCon
               type="tel"
               inputMode="numeric"
               maxLength={10}
-              placeholder="10-digit mobile number"
+              placeholder="10-digit WhatsApp number"
               value={phone}
               onChange={(e) => setPhone(e.target.value.replace(/\D/g, "").slice(0, 10))}
               className="h-11 w-full rounded-md border border-input bg-background px-3 text-base tracking-wide"
-              aria-label="Mobile number"
+              aria-label="WhatsApp number"
               autoFocus
             />
           </div>

@@ -36,29 +36,29 @@ const EXAM_TRACKS: {
 }[] = [
   {
     value: "JNVST",
-    title: "JNVST",
-    tagline: "Jawahar Navodaya Vidyalaya",
+    title: "Jawahar Navodaya Vidyalaya (JNVST)",
+    tagline: "Navodaya Vidyalaya Entrance",
     description: "50% weight on Mental Ability, plus Arithmetic and Language sections.",
     icon: Landmark,
   },
   {
     value: "AISSEE",
-    title: "AISSEE",
+    title: "All India Sainik Schools Entrance Examination (AISSEE)",
     tagline: "Sainik School Entrance",
     description: "A Math & General Knowledge intensive track, with dedicated Defence awareness content.",
     icon: ShieldCheck,
   },
   {
     value: "RMS",
-    title: "RMS",
-    tagline: "Rashtriya Military School",
+    title: "Rashtriya Military School (RMS)",
+    tagline: "Military School Entrance",
     description: "An even quad-split across Math, Language, GK, and Intelligence, plus Current Affairs.",
     icon: Swords,
   },
   {
     value: "UPSS",
-    title: "UPSS",
-    tagline: "UP Sainik School",
+    title: "Uttar Pradesh Sainik School (UPSS)",
+    tagline: "UP Sainik School Entrance",
     description: "State-level Sainik School entrance — Math, Language, GK, and Intelligence sections.",
     icon: Shield,
   },
@@ -80,7 +80,7 @@ export function ExamSelectorModal({ open, onOpenChange, currentExam, onSelect }:
             This decides which practice topics and question banks you see — you can change it any time.
           </DialogDescription>
         </DialogHeader>
-        <div className="grid gap-3 sm:grid-cols-3">
+        <div className="grid gap-3 sm:grid-cols-2">
           {EXAM_TRACKS.map((track) => {
             const Icon = track.icon;
             const isActive = currentExam === track.value;

@@ -11,10 +11,10 @@ import type { LanguageCode } from "@/lib/exam/types";
 
 const TARGET_CLASSES: TargetClass[] = [5, 6, 8, 9];
 const TARGET_EXAMS: { value: TargetExam; label: string }[] = [
-  { value: "JNVST", label: "JNVST (Navodaya Vidyalaya)" },
-  { value: "RMS", label: "RMS (Rashtriya Military School)" },
-  { value: "AISSEE", label: "AISSEE (Sainik School)" },
-  { value: "UPSS", label: "UPSS (UP Sainik School)" },
+  { value: "JNVST", label: "Jawahar Navodaya Vidyalaya (JNVST)" },
+  { value: "RMS", label: "Rashtriya Military School (RMS)" },
+  { value: "AISSEE", label: "All India Sainik Schools Entrance Examination (AISSEE)" },
+  { value: "UPSS", label: "Uttar Pradesh Sainik School (UPSS)" },
   { value: "DPS", label: "Elite Private Schools (DPS & similar)" },
 ];
 const LANGUAGES: { value: LanguageCode; label: string }[] = SUPPORTED_LANGUAGES.map((l) => ({
@@ -74,13 +74,16 @@ function MultiOptionGrid<T extends string>({
   options,
   values,
   onToggle,
+  columns = 2,
 }: {
   options: { value: T; label: string }[];
   values: T[];
   onToggle: (value: T) => void;
+  /** Full exam names are too long for a 2-up grid without awkward wrapping — pass 1 for a stacked list. */
+  columns?: 1 | 2;
 }) {
   return (
-    <div className="grid grid-cols-2 gap-2">
+    <div className={cn("grid gap-2", columns === 1 ? "grid-cols-1" : "grid-cols-2")}>
       {options.map((option) => {
         const checked = values.includes(option.value);
         return (
@@ -218,7 +221,7 @@ export function OnboardingFlow({ onComplete }: OnboardingFlowProps) {
                 Target exam{targetExams.length > 1 ? "s" : ""}
                 <span className="ml-1 font-normal text-muted-foreground">(pick as many as apply)</span>
               </p>
-              <MultiOptionGrid options={TARGET_EXAMS} values={targetExams} onToggle={toggleExam} />
+              <MultiOptionGrid options={TARGET_EXAMS} values={targetExams} onToggle={toggleExam} columns={1} />
             </div>
             <div className="flex flex-col gap-2">
               <p className="text-sm font-medium text-foreground">Primary language</p>

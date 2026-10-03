@@ -23,10 +23,10 @@ function OnboardingPageContent() {
   if (!isAuthenticated) {
     return (
       <WizardTheme>
-        <div className="mx-auto flex max-w-md flex-col items-center gap-4 p-12 text-center">
+        <div className="mx-auto flex max-w-md flex-1 flex-col items-center justify-center gap-4 p-12 text-center">
           <p className="text-lg font-semibold text-foreground">Sign in first</p>
           <p className="text-sm text-muted-foreground">
-            Sign in with your mobile number from the home page before adding a student profile.
+            Sign in with your WhatsApp number before adding a student profile.
           </p>
           <Button type="button" onClick={() => router.push(next)}>
             {next === "/" ? "Go to home" : "Go back"}
@@ -38,7 +38,7 @@ function OnboardingPageContent() {
 
   return (
     <WizardTheme>
-      <div className="flex min-h-screen flex-col items-center justify-center gap-4 p-6">
+      <div className="flex flex-1 flex-col items-center justify-center gap-4 p-6">
         <div className="text-center">
           <h1 className="text-xl font-bold text-foreground">Add a student profile</h1>
           <p className="text-sm text-muted-foreground">Set this up once per child — it takes under a minute.</p>

@@ -23,7 +23,7 @@ export default async function StartPage() {
 
   return (
     <WizardTheme>
-      <div className="mx-auto flex min-h-screen max-w-md flex-col items-center justify-center gap-10 px-4 py-12 text-center">
+      <div className="mx-auto flex w-full max-w-md flex-1 flex-col items-center justify-center gap-10 px-4 py-12 text-center">
         <div className="flex flex-col items-center gap-3">
           <span className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">VedicNeev</span>
           <h1 className="text-3xl font-bold leading-tight text-foreground">
