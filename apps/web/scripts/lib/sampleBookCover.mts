@@ -39,8 +39,16 @@ export function buildCoverPage(
     ),
 
     h(Text, { style: { fontSize: 12, fontWeight: 700, marginTop: 6 } }, "Exam pattern this book follows"),
+    // No fontStyle: "italic" here — the registered Devanagari face (pdfFonts.mts)
+    // only has Regular/Bold, no italic, and react-pdf hard-fails rendering
+    // (rather than falling back) when a style requests a weight/style
+    // combination that isn't registered for the active font family. Confirmed
+    // live: this line crashed RMS/UPSS's Hindi book (both patternIsEstimated)
+    // while JNVST/AISSEE's Hindi books (not estimated, line never rendered)
+    // were unaffected. Color carries the same "caution" emphasis instead,
+    // matching buildPdfStyles' own emphasis-falls-back-to-color convention.
     pattern.patternIsEstimated
-      ? h(Text, { style: { fontSize: 8.5, color: "#a3781b", marginTop: 2, marginBottom: 4, fontStyle: "italic" } },
+      ? h(Text, { style: { fontSize: 8.5, color: "#a3781b", marginTop: 2, marginBottom: 4 } },
           "Best available estimate of the real pattern, not yet confirmed against an official notification — see this book's product notes.")
       : null,
     h(

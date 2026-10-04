@@ -133,7 +133,11 @@ export function buildMockPaperAnswerKeyDocument(meta: MockPaperMeta, sections: B
           View,
           { key: displayNumber, style: { marginBottom: 10 }, wrap: false },
           h(Text, { style: { marginBottom: 4, fontWeight: 700 } }, `${displayNumber}. Correct answer: ${q.correctOption}`),
-          h(Text, { style: { marginTop: 4, marginLeft: 10, fontSize: 9, fontStyle: "italic" } }, sanitizeForPdf(q.explanation))
+          // styles.explanation (pdfFonts.mts), not an inline fontStyle: "italic" —
+          // the registered Devanagari face has no italic variant and react-pdf
+          // hard-fails rendering rather than falling back (confirmed live, see
+          // sampleBookCover.mts's own fix for the same bug class).
+          h(Text, { style: styles.explanation }, sanitizeForPdf(q.explanation))
         )
       );
     }
