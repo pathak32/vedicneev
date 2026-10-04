@@ -270,6 +270,7 @@ model User {
   sprintRegistrations     SprintRegistration[]
   speedChallengeAttempts  SpeedChallengeAttempt[]
   recentlyServedQuestions RecentlyServedQuestion[]
+  omrScanAttempts         OmrScanAttempt[]
   // Set only for the one person (per institute) who administers
   // omrtest.vedicneev.com — see InstituteAdmin's own comment on why this
   // reuses the existing User identity instead of a parallel account system.
@@ -409,8 +410,95 @@ model Product {
 
   purchases Purchase[]
 
+  // Phase 3: sealed set-level answer keys and consumer scan history for the
+  // sample-paper-book product (MOCK_SERIES rows this packaging script
+  // creates) — see SampleBookAnswerKey/OmrScanAttempt's own comments.
+  sampleBookAnswerKeys SampleBookAnswerKey[]
+  omrScanAttempts      OmrScanAttempt[]
+
   @@index([productType])
   @@map("products")
+}
+
+// The sealed answer key for one (Product, set) of the sample-paper-book
+// product — written by apps/web/scripts/package-sample-paper-books.mts at
+// upload time (replacing that script's earlier local-JSON-only output),
+// read only server-side by the scan API, never served to the client. One
+// row per set, not per buyer — many buyers' copies of the same printed
+// book share one key, same as the physical product itself.
+model SampleBookAnswerKey {
+  id        String  @id @default(cuid())
+  productId String  @map("product_id")
+  product   Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+  // "Set 7 of 20" -> 7. Matches the setLabel printed on both the paper and
+  // its matching OMR sheet (see omrSheetDocument.mts).
+  setNumber Int @map("set_number")
+
+  totalQuestions Int @map("total_questions")
+  // Array of {questionNumber, correctOption, marksEach} — marksEach travels
+  // with each entry rather than a single scheme-wide constant, because
+  // these exams mix different marks per section (see EXAM_PATTERNS in
+  // apps/web/scripts/lib/mockPaperSelection.mts); @vedicneev/engine's
+  // MarkingScheme/evaluateOmrSheet assume one uniform correctMarks value
+  // and can't express that, so the scan route grades question-by-question
+  // with evaluateOmrQuestion instead of evaluateOmrSheet.
+  answerKey Json @map("answer_key")
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@unique([productId, setNumber])
+  @@map("sample_book_answer_keys")
+}
+
+// One buyer's one scan of one (Product, set) — deliberately decoupled from
+// SampleBookAnswerKey (the shared sealed template) rather than reusing
+// OfflineMockSession, which is architected one-row-per-physical-sheet with
+// a single overwritable gradingResult: fine for an institute's own printed
+// batch, but wrong here, where many buyers share one printed template and
+// buyer #2's scan must never overwrite buyer #1's (confirmed during this
+// feature's design review). Multiple attempts per (userId, productId,
+// setNumber) are allowed — a blurry photo shouldn't be a dead end — the
+// most recent is what the dashboard shows.
+model OmrScanAttempt {
+  id        String  @id @default(cuid())
+  userId    String  @map("user_id")
+  user      User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  productId String  @map("product_id")
+  product   Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+  setNumber Int     @map("set_number")
+
+  // Signed Supabase Storage URL, same documented tradeoff as
+  // apps/omrtest/src/lib/omr/uploadStorage.ts's identical choice: expires
+  // after that helper's TTL, and there's no "review this scan" UI yet to
+  // need a fresher one — acceptable for the same reason it was acceptable
+  // there.
+  imageUrl String @map("image_url")
+
+  status OmrScanStatus @default(SCORED)
+
+  // Null when status is UNREADABLE (no grading to report) — see failureReason instead.
+  totalMarks       Float? @map("total_marks")
+  maxMarks         Float? @map("max_marks")
+  correctCount     Int?   @map("correct_count")
+  incorrectCount   Int?   @map("incorrect_count")
+  unattemptedCount Int?   @map("unattempted_count")
+  invalidCount     Int?   @map("invalid_count")
+  // Array of EvaluatedOmrResponse-shaped rows (packages/engine/src/omrEvaluator.ts)
+  // — the full per-question breakdown shown back to the buyer.
+  breakdown Json? @map("breakdown")
+
+  failureReason String? @map("failure_reason")
+
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@index([userId, productId, setNumber])
+  @@map("omr_scan_attempts")
+}
+
+enum OmrScanStatus {
+  SCORED
+  UNREADABLE
 }
 
 // An influencer's discount/affiliate-attribution code. usageCount only

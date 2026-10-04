@@ -43,7 +43,7 @@ for (const line of fs.readFileSync(path.join(process.cwd(), ".env"), "utf-8").sp
 import type { createSupabaseAdminClient } from "@vedicneev/auth";
 import authRuntime from "@vedicneev/auth";
 const { createSupabaseAdminClient: createSupabaseAdminClientImpl } = authRuntime as unknown as typeof import("@vedicneev/auth");
-import { prisma } from "@vedicneev/db";
+import { Prisma, prisma } from "@vedicneev/db";
 
 import { Document, renderToBuffer } from "@react-pdf/renderer";
 import { registerFontIfNeeded, buildPdfStyles, PDF_LANGUAGE_LABEL } from "./lib/pdfFonts.mjs";
@@ -117,6 +117,8 @@ async function uploadBuffer(
 interface AnswerKeyEntry {
   questionNumber: number;
   correctOption: string;
+  /** Travels per-question since these exams mix different marks per section — see SampleBookAnswerKey.answerKey's own schema comment. */
+  marksEach: number;
 }
 function flattenAnswerKey(sections: BuiltSection[]): AnswerKeyEntry[] {
   const out: AnswerKeyEntry[] = [];
@@ -124,7 +126,7 @@ function flattenAnswerKey(sections: BuiltSection[]): AnswerKeyEntry[] {
   for (const section of sections) {
     for (const q of section.questions) {
       n++;
-      out.push({ questionNumber: n, correctOption: q.correctOption });
+      out.push({ questionNumber: n, correctOption: q.correctOption, marksEach: section.marksEach });
     }
   }
   return out;
@@ -251,13 +253,28 @@ async function main() {
             isActive: true,
           },
         });
+
+        // The sealed per-set answer keys — written to the DB (read only by
+        // the scan API, never served to the client), not just the local
+        // JSON above. Must come AFTER the Product upsert above: this FKs
+        // to Product.id, which has to already exist. This is what actually
+        // closes the gap generate-sample-paper-books.mts's own header
+        // flagged: "Phase 3 needs to move these into a real DB table
+        // instead of reading the local file."
+        for (const { setNumber, totalQuestions: setTotalQuestions, answerKey } of answerKeysBySet) {
+          await prisma.sampleBookAnswerKey.upsert({
+            where: { productId_setNumber: { productId: id, setNumber } },
+            update: { totalQuestions: setTotalQuestions, answerKey: answerKey as unknown as Prisma.InputJsonValue },
+            create: { productId: id, setNumber, totalQuestions: setTotalQuestions, answerKey: answerKey as unknown as Prisma.InputJsonValue },
+          });
+        }
       }
     }
   }
 
   console.log(`\nDone. ${dryRun ? "Would render" : "Rendered/uploaded"} ${bookCount} sample-paper book(s)/Product row(s).`);
   if (!dryRun && bookCount > 0) {
-    console.log(`Answer keys written locally to ${keysDir} — NOT uploaded anywhere; Phase 3 needs to move these into a real DB table before the scan-and-score feature can read them.`);
+    console.log(`Answer keys written to the sample_book_answer_keys table (one row per set) — read only by /api/sample-book/scan, never served to the client. A local copy also sits in ${keysDir} for quick inspection.`);
   }
 }
 
