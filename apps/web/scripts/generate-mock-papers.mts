@@ -1,10 +1,11 @@
 /**
- * Generates a numbered batch of "mock paper" sets per exam board — shuffled,
- * proportionally-sampled sets of real, verified questions with separate
- * answer keys. This is the platform's giveaway sample-paper product:
- * students get a numbered set (e.g. "Set 7 of 20") rather than a single
- * one-off sample, so the same exam/class/language can offer many distinct
- * sittings without the generator re-running from scratch each time.
+ * Generates a numbered batch of "mock paper" sets per exam board — real
+ * exam-pattern sections (see lib/mockPaperSelection.mts's EXAM_PATTERNS),
+ * proportionally-sampled real verified questions, with a separate answer
+ * key PDF. This is the platform's giveaway sample-paper product: students
+ * get a numbered set (e.g. "Set 7 of 20") rather than a single one-off
+ * sample, so the same exam/class/language can offer many distinct sittings
+ * without the generator re-running from scratch each time.
  *
  * This is NOT the sellable "20 Sample Papers" book product (see
  * generate-sample-paper-books.mts) — that one binds each paper with a
@@ -19,7 +20,7 @@
  * script and generate-sample-paper-books.mts build on.
  *
  * Run with:
- *   npx tsx apps/web/scripts/generate-mock-papers.mts --exam=JNVST --class=6 --lang=en [--sets=20] [--count=30]
+ *   npx tsx apps/web/scripts/generate-mock-papers.mts --exam=JNVST --class=6 --lang=en [--sets=20]
  *
  * QUESTION_BANK_ROOT overrides where the question bank is checked out
  * (defaults to the user's local "D:\...\notes handwritten\questions" path).
@@ -34,8 +35,9 @@ const { QUESTION_BOOKLET_EXAM_TYPES } = engineRuntime as unknown as typeof impor
 
 import { renderToBuffer } from "@react-pdf/renderer";
 import { registerFontIfNeeded, buildPdfStyles, PDF_LANGUAGE_LABEL } from "./lib/pdfFonts.mjs";
-import { buildMockPaperAnswerKeyDocument, buildMockPaperDocument } from "./lib/mockPaperDocument.mjs";
+import { buildMockPaperAnswerKeyDocument, buildMockPaperDocument, type MockPaperMeta } from "./lib/mockPaperDocument.mjs";
 import { EXAM_LABEL, selectSets } from "./lib/mockPaperSelection.mjs";
+import { randomRollNumber } from "./lib/omrSheetDocument.mjs";
 
 function parseArgs() {
   const get = (name: string, fallback?: string) => {
@@ -53,26 +55,22 @@ function parseArgs() {
     process.exit(1);
   }
   const lang = (get("lang", "en") as "en" | "hi");
-  const count = Number(get("count", "30"));
   const sets = Number(get("sets", "20"));
-  return { exam, classLevel, lang, count, sets };
+  return { exam, classLevel, lang, sets };
 }
 
 async function main() {
-  const { exam, classLevel, lang, count, sets } = parseArgs();
-  const { clearedTopicCount, poolSize, sets: builtSets } = selectSets(exam, classLevel, lang, count, sets);
+  const { exam, classLevel, lang, sets } = parseArgs();
+  const { clearedTopicCount, poolSizeBySection, pattern, sets: builtSets } = selectSets(exam, classLevel, lang, sets);
 
-  console.log(`${EXAM_LABEL[exam]} Class ${classLevel} (${lang}): ${clearedTopicCount} second-pass-cleared topic(s) on this exam's syllabus.`);
-  if (poolSize === 0) {
+  console.log(`${EXAM_LABEL[exam]} Class ${classLevel} (${lang}): ${clearedTopicCount} second-pass-cleared topic(s) available.`);
+  console.log(`Pool by section: ${JSON.stringify(poolSizeBySection)}`);
+  if (builtSets.length === 0) {
     console.log("Nothing eligible yet — no mock papers generated. Clear more topics in SECOND_PASS_CLEARED.json and re-run.");
     return;
   }
-  console.log(`Pooled ${poolSize} unique eligible questions.`);
-  const totalNeeded = count * sets;
-  if (poolSize < totalNeeded) {
-    console.warn(`Pool has ${poolSize} unique questions but ${sets} sets × ${count} questions need ${totalNeeded} — some questions will repeat across sets (rotation with light reuse), spread as evenly as possible.`);
-  } else {
-    console.log(`Pool is large enough for all ${sets} sets to be fully distinct from each other.`);
+  if (builtSets.length < sets) {
+    console.warn(`Only ${builtSets.length} of the requested ${sets} sets could be built — at least one section's pool ran out entirely.`);
   }
 
   const fontFamily = registerFontIfNeeded(lang);
@@ -83,22 +81,25 @@ async function main() {
 
   for (let i = 0; i < builtSets.length; i++) {
     const setNumber = i + 1;
-    const selected = builtSets[i]!;
-    const letterCounts: Record<string, number> = {};
-    for (const q of selected) letterCounts[q.correctOption] = (letterCounts[q.correctOption] ?? 0) + 1;
-    console.log(`  Set ${setNumber}: ${selected.length} questions, answer-key letters ${JSON.stringify(letterCounts)}`);
+    const sections = builtSets[i]!;
+    const totalQuestions = sections.reduce((sum, s) => sum + s.questions.length, 0);
+    const totalMarks = sections.reduce((sum, s) => sum + s.questions.length * s.marksEach, 0);
+    console.log(`  Set ${setNumber}: ${totalQuestions} questions across ${sections.length} sections, ${totalMarks} marks.`);
 
-    const meta = {
+    const meta: MockPaperMeta = {
       examLabel: EXAM_LABEL[exam],
       classLevel,
       languageLabel: PDF_LANGUAGE_LABEL[lang],
-      totalMarks: selected.length,
-      durationMinutes: Math.max(30, selected.length * 1.5),
+      durationMinutes: pattern.durationMinutes,
+      negativeMarking: pattern.negativeMarking,
+      totalMarks,
+      totalQuestions,
       setLabel: sets > 1 ? `Set ${setNumber} of ${sets}` : undefined,
+      rollNumber: randomRollNumber(6),
     };
 
-    const paperBuffer = await renderToBuffer(buildMockPaperDocument(meta, selected, styles));
-    const keyBuffer = await renderToBuffer(buildMockPaperAnswerKeyDocument(meta, selected, styles));
+    const paperBuffer = await renderToBuffer(buildMockPaperDocument(meta, sections, styles));
+    const keyBuffer = await renderToBuffer(buildMockPaperAnswerKeyDocument(meta, sections, styles));
 
     const setSlug = String(setNumber).padStart(2, "0");
     fs.writeFileSync(path.join(outDir, `set-${setSlug}.pdf`), paperBuffer);

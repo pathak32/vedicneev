@@ -59,6 +59,38 @@ export function registerFontIfNeeded(language: PdfLanguage): string {
 }
 
 /**
+ * react-pdf's English rendering path uses Helvetica — one of the PDF
+ * base-14 fonts, fixed to WinAnsi/Latin-1 encoding. Several characters
+ * routine in a maths/science question bank fall outside that encoding
+ * entirely and silently render as garbage (a wrong Latin-1 character that
+ * happens to share the same byte value, or nothing at all) rather than
+ * erroring — confirmed one by one with an isolated render, see this fix's
+ * own commit message for the exact before/after. °, ×, ÷, ½ ARE in Latin-1
+ * and render correctly; this list is only the ones that don't.
+ *
+ * Applied to every question/option/explanation string before it reaches a
+ * `<Text>`, regardless of language, rather than only for English — simpler
+ * than conditionally branching per registered font, and these substitutions
+ * read fine in Hindi/other-script documents too.
+ */
+const PDF_UNSUPPORTED_GLYPHS: [RegExp, string][] = [
+  [/₹/g, "Rs. "],
+  [/π/g, "pi"],
+  [/√/g, "sqrt "],
+  [/≈/g, "~="],
+  [/≠/g, "!="],
+  [/≤/g, "<="],
+  [/≥/g, ">="],
+  [/∞/g, "infinity"],
+];
+
+export function sanitizeForPdf(text: string): string {
+  let out = text;
+  for (const [pattern, replacement] of PDF_UNSUPPORTED_GLYPHS) out = out.replace(pattern, replacement);
+  return out;
+}
+
+/**
  * Built as a function (not a module-level constant) because the font
  * family is only known at runtime, resolved via registerFontIfNeeded.
  * Helvetica's built-in bold/italic faces are addressed by suffixing the

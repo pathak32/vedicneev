@@ -11,7 +11,7 @@ import React from "react";
 import { Document, Page, Text, View } from "@react-pdf/renderer";
 import type { QuestionBookletQuestion } from "@vedicneev/engine";
 
-import { buildPdfStyles } from "./pdfFonts.mjs";
+import { buildPdfStyles, sanitizeForPdf } from "./pdfFonts.mjs";
 
 const h = React.createElement;
 
@@ -25,7 +25,7 @@ function questionBlock(q: QuestionBookletQuestion, displayNumber: number, styles
   return h(
     View,
     { key: displayNumber, style: styles.questionBlock, wrap: false },
-    h(Text, { style: styles.questionStem }, `Q${displayNumber}. ${q.question}`),
+    h(Text, { style: styles.questionStem }, `Q${displayNumber}. ${sanitizeForPdf(q.question)}`),
     ...(["A", "B", "C", "D"] as const).map((label) =>
       h(
         View,
@@ -34,11 +34,11 @@ function questionBlock(q: QuestionBookletQuestion, displayNumber: number, styles
         h(
           Text,
           { style: q.correctOption === label ? styles.optionCorrect : undefined },
-          `${q.options[label]}${q.correctOption === label ? "  (Correct)" : ""}`
+          `${sanitizeForPdf(q.options[label])}${q.correctOption === label ? "  (Correct)" : ""}`
         )
       )
     ),
-    h(Text, { style: styles.explanation }, `Explanation: ${q.explanation}`)
+    h(Text, { style: styles.explanation }, `Explanation: ${sanitizeForPdf(q.explanation)}`)
   );
 }
 

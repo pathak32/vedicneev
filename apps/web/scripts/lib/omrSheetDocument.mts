@@ -6,15 +6,13 @@
  * module comment on why).
  *
  * Deliberately simpler than the Institute Suite's sheets
- * (apps/omrtest/src/lib/omr/renderInstituteOmrPrintHtml.ts): no roll-number
- * grid, no sheet-token digit grid, no pre-filled set bubble. This sheet is
- * bound into a retail "20 Sample Papers" book, not issued by a teacher to a
- * known roster — a logged-in buyer just tells the app which set they're
- * uploading via a dropdown, so there's nothing here that needs decoding
- * beyond the 4 fiducial corners and the answer bubbles themselves. Build
- * the spec with `generateOmrSheetSpec({ examType, totalQuestions,
- * rollNumberDigits: 0 })` — omitting sheetTokenDigits/setCount already
- * defaults them to 0 (see GenerateOmrSheetSpecParams).
+ * (apps/omrtest/src/lib/omr/renderInstituteOmrPrintHtml.ts) in one respect:
+ * no sheet-token digit grid and no pre-filled set bubble, since a logged-in
+ * buyer picks their set from a dropdown rather than having it decoded from
+ * the image. It DOES carry a roll number, pre-bubbled with a randomly
+ * generated number per set — purely for exam-day realism (a student
+ * practicing without ever filling a roll number grid is missing part of
+ * what real exam day feels like), not read by the scanner for anything.
  *
  * Everything is drawn in ONE `<Svg>` (viewBox in real A4 point units, not a
  * normalized 0-1 box) rather than mixing normal-flow Text/View with an
@@ -23,8 +21,10 @@
  * ambiguity about stacking order between two different layout systems.
  */
 import React from "react";
-import { Circle, Document, Line, Page, Rect, Svg, Text as SvgText } from "@react-pdf/renderer";
+import { Circle, Page, Rect, Svg, Text as SvgText } from "@react-pdf/renderer";
 import type { OmrSheetSpec } from "@vedicneev/engine";
+
+import { footer } from "./mockPaperDocument.mjs";
 
 const h = React.createElement;
 
@@ -39,21 +39,42 @@ function py(y: number): number {
   return y * PAGE_HEIGHT;
 }
 
+/**
+ * @react-pdf/renderer's SVGTextProps type (node_modules/@react-pdf/types/svg.d.ts)
+ * doesn't declare `fontSize`/`fontWeight` at all, even though the renderer
+ * demonstrably honors both at runtime (verified visually — see this
+ * product's commit history) — a type-definition gap in the library itself,
+ * not a real runtime restriction. This thin wrapper is the one place that
+ * cast lives, instead of scattering `as any` through every call site below.
+ */
+function svgText(props: { key: string; x: number; y: number; fontSize: number; fontWeight?: number; textAnchor?: "start" | "middle" | "end" }, text: string) {
+  return h(SvgText, props as unknown as React.ComponentProps<typeof SvgText>, text);
+}
+
 export interface OmrSheetMeta {
   examLabel: string;
   classLevel: 6 | 9;
   languageLabel: string;
   /** e.g. "Set 7 of 20" */
   setLabel: string;
+  /** Pre-printed AND pre-bubbled on this sheet — see this module's header comment on why. */
+  rollNumber: string;
 }
 
 const BUBBLE_RADIUS = 6.5;
+
+/** Generates a random roll number of the given length, e.g. randomRollNumber(6) -> "482917". Leading zero is fine — it's a demo identifier, not a real allotment. */
+export function randomRollNumber(digits: number): string {
+  let s = "";
+  for (let i = 0; i < digits; i++) s += Math.floor(Math.random() * 10).toString();
+  return s;
+}
 
 /** Just the `<Page>` for one OMR sheet — composed alongside its paper's pages under one `<Document>` by generate-sample-paper-books.mts. */
 export function buildOmrSheetPage(meta: OmrSheetMeta, spec: OmrSheetSpec) {
   const fiducialSize = 16;
 
-  const children = [
+  const children: React.ReactElement[] = [
     // Outer frame, inset to the fiducials' own margin, purely visual.
     h(Rect, {
       key: "frame",
@@ -66,22 +87,50 @@ export function buildOmrSheetPage(meta: OmrSheetMeta, spec: OmrSheetSpec) {
       strokeWidth: 1,
     }),
 
-    // Header text.
-    h(SvgText, { key: "title", x: px(0.5), y: py(0.055), textAnchor: "middle", fontSize: 15, fontWeight: 700 },
-      `${meta.examLabel} Class ${meta.classLevel} — OMR Answer Sheet`),
-    h(SvgText, { key: "subtitle", x: px(0.5), y: py(0.075), textAnchor: "middle", fontSize: 10 },
-      `${meta.setLabel} · ${meta.languageLabel} · VedicNeev`),
-    h(SvgText, { key: "instructions1", x: px(0.5), y: py(0.1), textAnchor: "middle", fontSize: 8.5 },
-      "Use a dark pen or pencil. Fill one bubble completely per question. Do not fold this sheet."),
-    h(SvgText, { key: "instructions2", x: px(0.5), y: py(0.115), textAnchor: "middle", fontSize: 8.5 },
-      "Scored only by scanning: log in at vedicneev.com, select this set, and upload a clear photo of this sheet."),
+    // Right column: exam identity (mirrors the roll-number column's left-side layout).
+    svgText({ key: "title", x: px(0.73), y: py(0.075), textAnchor: "middle", fontSize: 13, fontWeight: 700 }, `${meta.examLabel} Class ${meta.classLevel}`),
+    svgText({ key: "title2", x: px(0.73), y: py(0.09), textAnchor: "middle", fontSize: 11, fontWeight: 700 }, "OMR Answer Sheet"),
+    svgText({ key: "subtitle", x: px(0.73), y: py(0.108), textAnchor: "middle", fontSize: 9 }, `${meta.setLabel} · ${meta.languageLabel} · VedicNeev`),
+    svgText({ key: "name-label", x: px(0.52), y: py(0.13), fontSize: 8 }, "Name:"),
+    h(Rect, { key: "name-line", x: px(0.57), y: py(0.124), width: px(0.37), height: 0.5, fill: "#555555" }),
+    svgText({ key: "date-label", x: px(0.52), y: py(0.145), fontSize: 8 }, "Date:"),
+    h(Rect, { key: "date-line", x: px(0.57), y: py(0.139), width: px(0.37), height: 0.5, fill: "#555555" }),
 
-    // Name / Date lines — for the student's own reference only, not read by the scanner.
-    h(Line, { key: "name-line", x1: px(0.08), y1: py(0.16), x2: px(0.5), y2: py(0.16), stroke: "#555", strokeWidth: 0.75 }),
-    h(SvgText, { key: "name-label", x: px(0.08), y: py(0.175), fontSize: 8 }, "Name"),
-    h(Line, { key: "date-line", x1: px(0.58), y1: py(0.16), x2: px(0.92), y2: py(0.16), stroke: "#555", strokeWidth: 0.75 }),
-    h(SvgText, { key: "date-label", x: px(0.58), y: py(0.175), fontSize: 8 }, "Date"),
+    // Instructions band, full width, below both header columns.
+    svgText({ key: "instructions1", x: px(0.5), y: py(0.215), textAnchor: "middle", fontSize: 8 }, "Use a dark pen or pencil. Fill one bubble completely per question. Do not fold this sheet."),
+    svgText({ key: "instructions2", x: px(0.5), y: py(0.228), textAnchor: "middle", fontSize: 8 }, "Scored only by scanning: log in at vedicneev.com, select this set, and upload a clear photo of this sheet."),
   ];
+
+  // Left column: ROLL NUMBER label + printed digits, in ONE line squeezed into
+  // the fiducial-margin band (y 0.02-0.06) — deliberately above, not
+  // overlapping, generateOmrSheetSpec's own rollNumberGrid (which the engine
+  // hardcodes to start at y=0.06 for its 10 value-rows per digit); printing
+  // a label/box row inside that same 0.06-0.2 span visually collided with
+  // the bubbles themselves (confirmed — see this fix's own commit).
+  const rollDigits = meta.rollNumber.split("");
+  const rollGridLeft = 0.06;
+  children.push(
+    svgText(
+      { key: "rollno-label", x: px(rollGridLeft), y: py(0.045), fontSize: 9, fontWeight: 700 },
+      `ROLL NUMBER:  ${rollDigits.join("  ")}`
+    )
+  );
+  // The roll-number bubble grid itself, from the spec — pre-filled solid for the digit matching this sheet's roll number, outline for every other digit at that column.
+  const rollNumberSet = new Set(rollDigits.map((d, i) => `${i}-${d}`));
+  for (const entry of spec.rollNumberGrid) {
+    const isFilled = rollNumberSet.has(`${entry.digitIndex}-${entry.value}`);
+    children.push(
+      h(Circle, {
+        key: `rollgrid-${entry.digitIndex}-${entry.value}`,
+        cx: px(entry.x),
+        cy: py(entry.y),
+        r: 4.5,
+        fill: isFilled ? "#000000" : "none",
+        stroke: "#000000",
+        strokeWidth: 0.75,
+      })
+    );
+  }
 
   // Fiducial corner markers — must stay solid filled squares; the scanner's
   // detectFiducialCorners looks for the darkest small blob in each quadrant.
@@ -105,7 +154,7 @@ export function buildOmrSheetPage(meta: OmrSheetMeta, spec: OmrSheetSpec) {
   }
   for (const [qNum, bubble] of firstBubbleByQuestion) {
     children.push(
-      h(SvgText, {
+      svgText({
         key: `qlabel-${qNum}`,
         x: px(bubble.x) - 14,
         y: py(bubble.y) + 3,
@@ -128,7 +177,7 @@ export function buildOmrSheetPage(meta: OmrSheetMeta, spec: OmrSheetSpec) {
         stroke: "#000000",
         strokeWidth: 1,
       }),
-      h(SvgText, {
+      svgText({
         key: `bubble-label-${b.questionNumber}-${b.option}`,
         x: px(b.x),
         y: py(b.y) + 2.5,
@@ -141,11 +190,7 @@ export function buildOmrSheetPage(meta: OmrSheetMeta, spec: OmrSheetSpec) {
   return h(
     Page,
     { size: "A4", style: { padding: 0 } },
-    h(Svg, { width: "100%", height: "100%", viewBox: `0 0 ${PAGE_WIDTH} ${PAGE_HEIGHT}` }, ...children)
+    h(Svg, { width: "100%", height: "100%", viewBox: `0 0 ${PAGE_WIDTH} ${PAGE_HEIGHT}` }, ...children),
+    footer(meta.examLabel, meta.classLevel)
   );
-}
-
-/** Standalone single-sheet PDF document, for ad-hoc preview/testing. */
-export function buildOmrSheetDocument(meta: OmrSheetMeta, spec: OmrSheetSpec) {
-  return h(Document, { title: `${meta.examLabel} Class ${meta.classLevel} — OMR Sheet — ${meta.setLabel}` }, buildOmrSheetPage(meta, spec));
 }
