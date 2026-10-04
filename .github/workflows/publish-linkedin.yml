@@ -1,12 +1,14 @@
 name: Publish scheduled LinkedIn posts
 
-# Vercel's Hobby plan only allows one cron run per day, so the twice-daily
-# LinkedIn slots (9:00 AM and 5:00 PM IST = 03:30 and 11:30 UTC) are driven
-# from here instead. The endpoint posts at most one due block per call and
-# does nothing if no block's scheduledFor time has arrived yet.
+# Vercel's Hobby plan only allows one cron run per day, so publishing is
+# driven from here. GitHub's scheduler can start a run hours late, so this
+# runs hourly rather than only at the two slot times (9:00 AM and 5:00 PM
+# IST): the endpoint posts at most one due block per call and does nothing
+# if no block's scheduledFor time has arrived, so extra runs are harmless
+# and a delayed slot is picked up by the next run.
 on:
   schedule:
-    - cron: "30 3,11 * * *"
+    - cron: "5 * * * *"
   workflow_dispatch:
 
 jobs:
