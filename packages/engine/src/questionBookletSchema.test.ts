@@ -143,7 +143,7 @@ describe("scanForUnsupportedGlyphs", () => {
 
   it("allows curated safe typography extras", () => {
     const { questions } = validateQuestionBookletTopic([
-      { ...GOOD_QUESTION, question: "A triangle has a 90° angle; its hypotenuse is 5 cm. 3 × 4 = ? (½ credit for working)." },
+      { ...GOOD_QUESTION, question: "A triangle has a 90° angle; its hypotenuse is 5 cm. 3 × 4 = ? (½ credit for working). What is 5³ and 8²?" },
     ]);
     expect(scanForUnsupportedGlyphs(questions)).toEqual([]);
   });

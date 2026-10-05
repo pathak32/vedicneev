@@ -277,7 +277,7 @@ export interface GlyphFinding {
 // an English Class-6 question, so this scan deliberately flags anything
 // outside the allowlist rather than only checking "does Helvetica have a
 // glyph for this."
-const GLYPH_SAFE_EXTRA_CHARS = new Set(["°", "×", "÷", "½", "¼", "¾", "’", "‘", "“", "”", "–", "—", "…", "•", "·"]);
+const GLYPH_SAFE_EXTRA_CHARS = new Set(["°", "×", "÷", "½", "¼", "¾", "²", "³", "’", "‘", "“", "”", "–", "—", "…", "•", "·"]);
 
 function firstSuspiciousChar(text: string): { char: string; codePoint: number } | null {
   for (const char of text) {
