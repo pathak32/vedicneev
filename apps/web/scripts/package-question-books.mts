@@ -21,6 +21,15 @@
  * artifact flag in ANY of its topics is refused entirely — no partial or
  * "mostly clean" book is ever packaged. Fix the flagged file(s) and re-run.
  *
+ * Structural validity alone is not sufficient to sell a topic, though —
+ * real answer/content errors have passed that check before. Each topic is
+ * additionally required to be listed in SECOND_PASS_CLEARED.json (the same
+ * manifest generate-mock-papers.mts gates on, populated as the independent
+ * blind second-pass review clears topics); anything not yet cleared is
+ * silently excluded from that topic's packaging rather than treated as a
+ * hard error, so a partially-cleared class/language corpus still packages
+ * what IS cleared.
+ *
  * PRODUCT-ID COLLISION WARNING: seed-store.ts already seeds its OWN
  * QUESTION_BOOKLET rows (a 500-question sample drawn live from the
  * Question/PreviousYearQuestion DB tables, via generate-booklet-pdfs.mts)
@@ -36,9 +45,15 @@
  * only the unresolved (productType, targetExam, targetClass, language)
  * re-seed conflict above remains.
  *
- * Run with: npx tsx apps/web/scripts/package-question-books.mts [--dry-run]
+ * Run with: npx tsx apps/web/scripts/package-question-books.mts [--dry-run] [--out-dir=<path>]
  * --dry-run renders and reports without touching Supabase or the DB —
  * useful to validate the question content before anything goes live.
+ * --out-dir=<path> additionally writes every rendered PDF (per-topic and
+ * compiled volumes) to <path>, mirroring the Storage object layout, so the
+ * actual files can be reviewed/delivered before Supabase credentials are
+ * available. Safe to combine with --dry-run (no upload, no DB write, just
+ * local files); combining it with a real run also keeps a local copy of
+ * everything that gets uploaded.
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -51,6 +66,7 @@ import type {
   extractTopicTitle,
   isTopicInExamSyllabus,
   scanForSelfCorrectionArtifacts,
+  scanForUnsupportedGlyphs,
   validateQuestionBookletTopic,
   QuestionBookletClassLevel,
   QuestionBookletExamType,
@@ -60,6 +76,7 @@ const {
   extractTopicTitle,
   isTopicInExamSyllabus,
   scanForSelfCorrectionArtifacts,
+  scanForUnsupportedGlyphs,
   validateQuestionBookletTopic,
   QUESTION_BOOKLET_EXAM_TYPES,
 } = engineRuntime as unknown as typeof import("@vedicneev/engine");
@@ -77,17 +94,70 @@ import { prisma } from "@vedicneev/db";
 import { registerFontIfNeeded, buildPdfStyles, PDF_LANGUAGE_LABEL } from "./lib/pdfFonts.mjs";
 import { buildCompiledBookDocument, buildTopicDocument, splitTopicsIntoVolumes, type BookletTopicSection } from "./lib/questionBookletDocument.mjs";
 
-const NOTES_ROOT = "D:\\Projects\\notes handwritten";
+// Overridable for environments where the question bank isn't under this fixed
+// local Windows path (e.g. a cloud session with the content checked out as
+// its own repo, whose root IS the questions directory) — the default stays
+// the user's local layout ("D:\...\notes handwritten\questions\...") so
+// nothing changes for normal local runs.
+const QUESTIONS_ROOT = process.env.QUESTION_BANK_ROOT || path.join("D:\\Projects\\notes handwritten", "questions");
 const BUCKET = process.env.SUPABASE_STUDY_NOTES_BUCKET || "study-notes";
 const SIGNED_URL_TTL_SECONDS = 60 * 60 * 24 * 365;
 // Supabase Storage's own per-file cap on the plan this project uses (see
 // upload-split-study-notes.mts's identical reason for splitting).
 const MAX_VOLUME_BYTES = 48 * 1024 * 1024;
+// react-pdf's layout pass scales roughly QUADRATICALLY with document size,
+// not linearly — measured empirically: 409 questions ~13s, 815 ~52s, 5911
+// (a full-syllabus exam like RMS/AISSEE/UPSS) extrapolates to ~45 MINUTES
+// for a single document. Always starting the volume-count search at 1 (as
+// if testing a ~500-question book first) is exactly how that catastrophic
+// single-document render gets attempted. 500 questions/volume keeps a
+// single render under ~20s based on the same data.
+const TARGET_QUESTIONS_PER_VOLUME = 500;
+
+const OUT_DIR_ARG = process.argv.find((a) => a.startsWith("--out-dir="));
+const OUT_DIR = OUT_DIR_ARG ? OUT_DIR_ARG.slice("--out-dir=".length) : null;
+
+function writeLocal(relativeStoragePath: string, buffer: Buffer) {
+  if (!OUT_DIR) return;
+  const outPath = path.join(OUT_DIR, relativeStoragePath);
+  fs.mkdirSync(path.dirname(outPath), { recursive: true });
+  fs.writeFileSync(outPath, buffer);
+}
 
 type BookletLanguage = "en" | "hi";
 const CLASS_LEVELS: QuestionBookletClassLevel[] = [6, 9];
 const LANGUAGES: BookletLanguage[] = ["en", "hi"];
 const LANGUAGE_TO_PRISMA: Record<BookletLanguage, "EN" | "HI"> = { en: "EN", hi: "HI" };
+
+// Per explicit user decision (see _review/OPEN_ISSUES.md, "URGENT: class9/hi
+// translation script is broken"): most class9/hi topic files on disk are
+// untranslated raw English, not real Hindi, even though they pass structural
+// validation and the artifact scan (both only check shape/known phrases, not
+// language). Packaging would otherwise ship that content as a "Hindi" book.
+// Paused until the translation is fixed and re-verified — remove this once
+// class9/hi is back in scope.
+const PAUSED_COMBOS = new Set<string>(["9-hi"]);
+
+// Structural validity + the artifact scan alone are not enough to call a
+// topic sellable — this project's whole second-pass process exists because
+// real answer/content errors have passed both those checks before (the
+// water-image topics, several GK facts, several arithmetic slips). Only
+// topics listed in SECOND_PASS_CLEARED.json (the same manifest
+// generate-mock-papers.mts gates on) are eligible here; anything else is
+// held back automatically as more of the corpus clears second pass, with no
+// code change needed.
+const SECOND_PASS_CLEARED_PATH = path.join(QUESTIONS_ROOT, "_review", "SECOND_PASS_CLEARED.json");
+interface ClearedEntry {
+  classLevel: number;
+  language: string;
+  topics: number[];
+}
+function loadClearedTopics(classLevel: QuestionBookletClassLevel, language: BookletLanguage): Set<number> {
+  if (!fs.existsSync(SECOND_PASS_CLEARED_PATH)) return new Set();
+  const data = JSON.parse(fs.readFileSync(SECOND_PASS_CLEARED_PATH, "utf-8")) as { cleared: ClearedEntry[] };
+  const entry = data.cleared.find((e) => e.classLevel === classLevel && e.language === language);
+  return new Set(entry?.topics ?? []);
+}
 
 const EXAM_LABEL: Record<QuestionBookletExamType, string> = {
   JNVST: "JNVST",
@@ -97,7 +167,7 @@ const EXAM_LABEL: Record<QuestionBookletExamType, string> = {
 };
 
 function topicFilePath(classLevel: QuestionBookletClassLevel, language: BookletLanguage, topicNumber: number): string {
-  return path.join(NOTES_ROOT, "questions", `class${classLevel}`, language, `topic-${topicNumber}.json`);
+  return path.join(QUESTIONS_ROOT, `class${classLevel}`, language, `topic-${topicNumber}.json`);
 }
 
 interface LoadedCorpus {
@@ -105,11 +175,14 @@ interface LoadedCorpus {
   missing: number[];
   structuralErrors: { topicNumber: number; message: string }[];
   artifactFlags: { topicNumber: number; questionNumber: number; matchedPhrase: string; excerpt: string }[];
+  glyphFlags: { topicNumber: number; questionNumber: number; field: string; char: string; codePoint: number; excerpt: string }[];
+  notSecondPassCleared: number[];
 }
 
 /** Loads and validates every topic file for one (class, language) — collects every problem rather than stopping at the first, so one run reports the full quality picture. */
 function loadCorpus(classLevel: QuestionBookletClassLevel, language: BookletLanguage): LoadedCorpus {
-  const result: LoadedCorpus = { topics: [], missing: [], structuralErrors: [], artifactFlags: [] };
+  const result: LoadedCorpus = { topics: [], missing: [], structuralErrors: [], artifactFlags: [], glyphFlags: [], notSecondPassCleared: [] };
+  const cleared = loadClearedTopics(classLevel, language);
 
   for (let topicNumber = 1; topicNumber <= 72; topicNumber++) {
     const filePath = topicFilePath(classLevel, language, topicNumber);
@@ -136,6 +209,20 @@ function loadCorpus(classLevel: QuestionBookletClassLevel, language: BookletLang
     for (const a of artifacts) result.artifactFlags.push({ topicNumber, ...a });
     if (artifacts.length > 0) continue; // don't ship this topic's content until it's re-verified
 
+    // Non-English scripts legitimately use high codepoints throughout and
+    // would false-positive on every character — scanForUnsupportedGlyphs is
+    // English-only by design (see its own doc comment).
+    if (language === "en") {
+      const glyphs = scanForUnsupportedGlyphs(questions);
+      for (const g of glyphs) result.glyphFlags.push({ topicNumber, ...g });
+      if (glyphs.length > 0) continue; // don't ship a misprinted/mis-pasted glyph
+    }
+
+    if (!cleared.has(topicNumber)) {
+      result.notSecondPassCleared.push(topicNumber);
+      continue; // structurally fine, but not yet through the independent blind second pass
+    }
+
     result.topics.push({ topicNumber, topicTitle: extractTopicTitle(raw, topicNumber), questions });
   }
 
@@ -159,7 +246,17 @@ function reportCorpus(classLevel: QuestionBookletClassLevel, language: BookletLa
     }
     if (corpus.artifactFlags.length > 20) console.error(`    ...and ${corpus.artifactFlags.length - 20} more.`);
   }
-  console.log(`  [${label}] ${corpus.topics.length}/72 topics clean and ready to package.`);
+  if (corpus.glyphFlags.length > 0) {
+    console.error(`  [${label}] ${corpus.glyphFlags.length} suspicious-character flag(s) — these topics need re-verification before packaging:`);
+    for (const f of corpus.glyphFlags.slice(0, 20)) {
+      console.error(`    topic-${f.topicNumber}.json Q${f.questionNumber} (${f.field}) — char "${f.char}" (U+${f.codePoint.toString(16).toUpperCase().padStart(4, "0")}): "...${f.excerpt}..."`);
+    }
+    if (corpus.glyphFlags.length > 20) console.error(`    ...and ${corpus.glyphFlags.length - 20} more.`);
+  }
+  if (corpus.notSecondPassCleared.length > 0) {
+    console.warn(`  [${label}] ${corpus.notSecondPassCleared.length} topic(s) structurally fine but not yet second-pass cleared, excluded from packaging: ${corpus.notSecondPassCleared.join(", ")}`);
+  }
+  console.log(`  [${label}] ${corpus.topics.length}/72 topics second-pass cleared and ready to package.`);
 }
 
 /** Renders a compiled book, splitting into more volumes (never cutting a topic across two) until every volume fits under MAX_VOLUME_BYTES. */
@@ -170,7 +267,15 @@ async function renderCompiledBookVolumes(
   topics: BookletTopicSection[],
   styles: ReturnType<typeof buildPdfStyles>
 ): Promise<{ volumeLabel: string | undefined; buffer: Buffer }[]> {
-  for (let volumeCount = 1; volumeCount <= 10; volumeCount++) {
+  const totalQuestions = topics.reduce((sum, t) => sum + t.questions.length, 0);
+  // Start from a question-count-based estimate rather than always trying a
+  // single un-split document first — see TARGET_QUESTIONS_PER_VOLUME's
+  // comment for why that first attempt alone can take the better part of an
+  // hour for a large corpus. The byte-size check below is still the actual
+  // pass/fail gate; this only picks a sane starting point for it.
+  const startingVolumeCount = Math.max(1, Math.ceil(totalQuestions / TARGET_QUESTIONS_PER_VOLUME));
+  const maxVolumeCount = startingVolumeCount + 10;
+  for (let volumeCount = startingVolumeCount; volumeCount <= maxVolumeCount; volumeCount++) {
     const groups = splitTopicsIntoVolumes(topics, volumeCount);
     const rendered = await Promise.all(
       groups.map(async (group, i) => {
@@ -183,19 +288,46 @@ async function renderCompiledBookVolumes(
     );
     if (rendered.every((r) => r.buffer.length <= MAX_VOLUME_BYTES)) return rendered;
   }
-  throw new Error(`Could not split ${examLabel} Class ${classLevel} (${languageLabel}) under ${MAX_VOLUME_BYTES} bytes even at 10 volumes.`);
+  throw new Error(`Could not split ${examLabel} Class ${classLevel} (${languageLabel}) under ${MAX_VOLUME_BYTES} bytes even at ${maxVolumeCount} volumes.`);
 }
 
+const UPLOAD_MAX_ATTEMPTS = 4;
+
+function sleep(ms: number) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+/**
+ * A long, sequential run (72 topics + several compiled volumes per
+ * class/language, real network calls throughout) is one dropped connection
+ * away from losing an hour of rendering work — a bare "fetch failed" from a
+ * Wi-Fi hiccup previously killed the whole script with nothing yet uploaded
+ * after the failure point. Retries with exponential backoff (1s/2s/4s)
+ * before giving up for real; `upsert: true` already makes re-uploading the
+ * same path safe, so a retry here never risks a duplicate/corrupt object.
+ */
 async function uploadBuffer(
   admin: NonNullable<ReturnType<typeof createSupabaseAdminClient>>,
   buffer: Buffer,
   storagePath: string
 ): Promise<string> {
-  const { error: uploadError } = await admin.storage.from(BUCKET).upload(storagePath, buffer, { contentType: "application/pdf", upsert: true });
-  if (uploadError) throw new Error(`Upload failed for ${storagePath}: ${uploadError.message}`);
-  const { data, error: signError } = await admin.storage.from(BUCKET).createSignedUrl(storagePath, SIGNED_URL_TTL_SECONDS);
-  if (signError || !data) throw new Error(`Signing failed for ${storagePath}: ${signError?.message ?? "unknown error"}`);
-  return data.signedUrl;
+  let lastError: string = "unknown error";
+  for (let attempt = 1; attempt <= UPLOAD_MAX_ATTEMPTS; attempt++) {
+    const { error: uploadError } = await admin.storage.from(BUCKET).upload(storagePath, buffer, { contentType: "application/pdf", upsert: true });
+    if (!uploadError) {
+      const { data, error: signError } = await admin.storage.from(BUCKET).createSignedUrl(storagePath, SIGNED_URL_TTL_SECONDS);
+      if (!signError && data) return data.signedUrl;
+      lastError = `Signing failed: ${signError?.message ?? "unknown error"}`;
+    } else {
+      lastError = `Upload failed: ${uploadError.message}`;
+    }
+    if (attempt < UPLOAD_MAX_ATTEMPTS) {
+      const backoffMs = 1000 * 2 ** (attempt - 1);
+      console.warn(`  [retry ${attempt}/${UPLOAD_MAX_ATTEMPTS - 1}] ${storagePath} — ${lastError}. Retrying in ${backoffMs}ms...`);
+      await sleep(backoffMs);
+    }
+  }
+  throw new Error(`${lastError} for ${storagePath} after ${UPLOAD_MAX_ATTEMPTS} attempts.`);
 }
 
 async function main() {
@@ -223,6 +355,11 @@ async function main() {
 
   for (const classLevel of CLASS_LEVELS) {
     for (const language of LANGUAGES) {
+      if (PAUSED_COMBOS.has(`${classLevel}-${language}`)) {
+        console.log(`\nSkipping class${classLevel}/${language} — paused pending Hindi translation fix (see _review/OPEN_ISSUES.md).`);
+        continue;
+      }
+
       const corpus = corpusByKey.get(`${classLevel}-${language}`)!;
       const isClean = corpus.structuralErrors.length === 0 && corpus.artifactFlags.length === 0;
       const hasAnyContent = corpus.topics.length > 0;
@@ -231,7 +368,8 @@ async function main() {
         continue;
       }
       if (!hasAnyContent) {
-        console.log(`\nSkipping class${classLevel}/${language} — no topic files found yet.`);
+        const reason = corpus.notSecondPassCleared.length > 0 ? "no topics are second-pass cleared yet" : "no topic files found yet";
+        console.log(`\nSkipping class${classLevel}/${language} — ${reason}.`);
         continue;
       }
 
@@ -242,8 +380,9 @@ async function main() {
       console.log(`\nclass${classLevel}/${language}: rendering ${corpus.topics.length} per-topic PDFs...`);
       for (const topic of corpus.topics) {
         const buffer = await renderToBuffer(buildTopicDocument(classLevel, topic, fontFamily, styles));
+        const storagePath = `question-books/topics/class-${classLevel}/${language}/topic-${topic.topicNumber}.pdf`;
+        writeLocal(storagePath, buffer);
         if (!dryRun) {
-          const storagePath = `question-books/topics/class-${classLevel}/${language}/topic-${topic.topicNumber}.pdf`;
           await uploadBuffer(admin!, buffer, storagePath);
         }
         topicPdfCount++;
@@ -261,9 +400,11 @@ async function main() {
           const sizeMb = (buffer.length / 1024 / 1024).toFixed(1);
           console.log(`  ${examType} Class ${classLevel} (${language})${volumeLabel ? ` [${volumeLabel}]` : ""}: ${sizeMb}MB`);
 
+          const storagePath = `question-books/compiled/${id}.pdf`;
+          writeLocal(storagePath, buffer);
+
           if (dryRun) continue;
 
-          const storagePath = `question-books/compiled/${id}.pdf`;
           const signedUrl = await uploadBuffer(admin!, buffer, storagePath);
           const totalQuestions = examTopics.reduce((sum, t) => sum + t.questions.length, 0);
           const titleEn = `${EXAM_LABEL[examType]} Class ${classLevel} — Complete Question Bank${language === "hi" ? " (Hindi)" : ""}${volumeLabel ? ` — ${volumeLabel}` : ""}`;

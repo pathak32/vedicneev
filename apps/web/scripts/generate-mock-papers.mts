@@ -1,44 +1,43 @@
 /**
- * Generates a free sample "mock paper" per exam board — a shuffled,
- * proportionally-sampled set of real, verified questions with a separate
- * answer key — meant to be given away directly (e.g. in a DM to a social
- * media follower who asks for a sample), not sold through the Store.
+ * Generates a numbered batch of "mock paper" sets per exam board — real
+ * exam-pattern sections (see lib/mockPaperSelection.mts's EXAM_PATTERNS),
+ * proportionally-sampled real verified questions, with a separate answer
+ * key PDF. This is the platform's giveaway sample-paper product: students
+ * get a numbered set (e.g. "Set 7 of 20") rather than a single one-off
+ * sample, so the same exam/class/language can offer many distinct sittings
+ * without the generator re-running from scratch each time.
  *
- * ZERO ERROR TOLERANCE FOR CUSTOMER-FACING OUTPUT: this script only draws
- * from topics listed in NOTES_ROOT/_review/SECOND_PASS_CLEARED.json — the
- * manifest of topics that have been through the independent blind
- * second-pass review (VERIFY_INSTRUCTIONS.md), not just the first
- * automated pass. A topic that has only had the first pass is NOT eligible
- * here even if it has zero structural errors, because this session found
- * concrete, real errors (a systemic 106-question premise defect, several
- * wrong answers) that only the second pass caught. As more topics clear
- * the second pass, add them to that manifest and this script's available
- * question pool grows automatically — no code change needed.
+ * This is NOT the sellable "20 Sample Papers" book product (see
+ * generate-sample-paper-books.mts) — that one binds each paper with a
+ * matching OMR sheet and withholds the answer key entirely (scored only via
+ * a logged-in OMR scan), by deliberate product decision. This script's
+ * output (paper + a plain answer-key PDF, both freely downloadable) is
+ * meant for lighter-weight giveaways, e.g. a social-media lead magnet.
  *
- * Run with: npx tsx apps/web/scripts/generate-mock-papers.mts --exam=JNVST --class=6 --lang=en [--count=30]
+ * ZERO ERROR TOLERANCE FOR CUSTOMER-FACING OUTPUT: only draws from topics
+ * listed in QUESTION_BANK_ROOT/_review/SECOND_PASS_CLEARED.json — see
+ * lib/mockPaperSelection.mts for the shared gating/picking logic both this
+ * script and generate-sample-paper-books.mts build on.
+ *
+ * Run with:
+ *   npx tsx apps/web/scripts/generate-mock-papers.mts --exam=JNVST --class=6 --lang=en [--sets=20]
+ *
+ * QUESTION_BANK_ROOT overrides where the question bank is checked out
+ * (defaults to the user's local "D:\...\notes handwritten\questions" path).
  */
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
-import type { extractTopicTitle, isTopicInExamSyllabus, sectionKeyForTopic, validateQuestionBookletTopic, QuestionBookletClassLevel, QuestionBookletExamType, QuestionBookletQuestion } from "@vedicneev/engine";
+import type { QuestionBookletClassLevel, QuestionBookletExamType } from "@vedicneev/engine";
 import engineRuntime from "@vedicneev/engine";
-const { extractTopicTitle: extractTitleImpl, isTopicInExamSyllabus: inSyllabus, sectionKeyForTopic: sectionOf, validateQuestionBookletTopic: validateTopic, QUESTION_BOOKLET_EXAM_TYPES } =
-  engineRuntime as unknown as typeof import("@vedicneev/engine");
+const { QUESTION_BOOKLET_EXAM_TYPES } = engineRuntime as unknown as typeof import("@vedicneev/engine");
 
 import { renderToBuffer } from "@react-pdf/renderer";
 import { registerFontIfNeeded, buildPdfStyles, PDF_LANGUAGE_LABEL } from "./lib/pdfFonts.mjs";
-import { buildMockPaperAnswerKeyDocument, buildMockPaperDocument, type MockPaperQuestion } from "./lib/mockPaperDocument.mjs";
-
-const NOTES_ROOT = "D:\\Projects\\notes handwritten\\questions";
-const CLEARED_MANIFEST = path.join(NOTES_ROOT, "_review", "SECOND_PASS_CLEARED.json");
-
-const EXAM_LABEL: Record<QuestionBookletExamType, string> = {
-  JNVST: "JNVST",
-  RMS: "RMS",
-  AISSEE: "AISSEE (Sainik School)",
-  UPSS: "UPSS",
-};
+import { buildMockPaperAnswerKeyDocument, buildMockPaperDocument, type MockPaperMeta } from "./lib/mockPaperDocument.mjs";
+import { EXAM_LABEL, selectSets } from "./lib/mockPaperSelection.mjs";
+import { randomRollNumber } from "./lib/omrSheetDocument.mjs";
 
 function parseArgs() {
   const get = (name: string, fallback?: string) => {
@@ -56,157 +55,58 @@ function parseArgs() {
     process.exit(1);
   }
   const lang = (get("lang", "en") as "en" | "hi");
-  const count = Number(get("count", "30"));
-  return { exam, classLevel, lang, count };
-}
-
-interface ClearedEntry {
-  classLevel: number;
-  language: string;
-  topics: number[];
-}
-
-function loadClearedTopics(classLevel: QuestionBookletClassLevel, lang: "en" | "hi"): number[] {
-  if (!fs.existsSync(CLEARED_MANIFEST)) {
-    console.error(`No second-pass-cleared manifest found at ${CLEARED_MANIFEST} — nothing is eligible for a mock paper yet.`);
-    return [];
-  }
-  const data = JSON.parse(fs.readFileSync(CLEARED_MANIFEST, "utf-8")) as { cleared: ClearedEntry[] };
-  const entry = data.cleared.find((e) => e.classLevel === classLevel && e.language === lang);
-  return entry?.topics ?? [];
-}
-
-function loadTopicQuestions(classLevel: QuestionBookletClassLevel, lang: "en" | "hi", topicNumber: number): MockPaperQuestion[] {
-  const filePath = path.join(NOTES_ROOT, `class${classLevel}`, lang, `topic-${topicNumber}.json`);
-  if (!fs.existsSync(filePath)) return [];
-  const raw = JSON.parse(fs.readFileSync(filePath, "utf-8"));
-  const { ok, questions } = validateTopic(raw);
-  if (!ok) {
-    console.warn(`  topic-${topicNumber}.json has structural errors despite being marked second-pass-cleared — skipping it. Check the manifest.`);
-    return [];
-  }
-  return questions.map((q: QuestionBookletQuestion) => ({ ...q, topicNumber }));
-}
-
-function shuffle<T>(arr: T[]): T[] {
-  const a = [...arr];
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j]!, a[i]!];
-  }
-  return a;
-}
-
-/** Collapses exact-text (whitespace/case-insensitive) duplicate questions, keeping the first occurrence — the real corpus is known to carry some repeated/near-identical questions within a topic (see the second-pass notes), and a public sample paper showing the same question twice looks broken. */
-function dedupeByQuestionText(pool: MockPaperQuestion[]): MockPaperQuestion[] {
-  const seen = new Set<string>();
-  const out: MockPaperQuestion[] = [];
-  for (const q of pool) {
-    const key = q.question.trim().toLowerCase().replace(/\s+/g, " ");
-    if (seen.has(key)) continue;
-    seen.add(key);
-    out.push(q);
-  }
-  return out;
-}
-
-/**
- * Picks `n` questions from `pool`, balancing the correct-answer letter as
- * evenly as possible (round-robin across A/B/C/D) rather than picking
- * randomly. A public sample paper whose answer key skews toward one
- * letter is a real, exploitable quality defect (guess the majority
- * letter), not just a cosmetic one — worth protecting against even when
- * the underlying pool happens to be letter-skewed.
- */
-function pickLetterBalanced(pool: MockPaperQuestion[], n: number): MockPaperQuestion[] {
-  const byLetter = new Map<string, MockPaperQuestion[]>();
-  for (const q of shuffle(pool)) {
-    const bucket = byLetter.get(q.correctOption) ?? [];
-    bucket.push(q);
-    byLetter.set(q.correctOption, bucket);
-  }
-  const letters = [...byLetter.keys()];
-  const picked: MockPaperQuestion[] = [];
-  let letterIndex = 0;
-  while (picked.length < n && letters.some((l) => (byLetter.get(l)?.length ?? 0) > 0)) {
-    const letter = letters[letterIndex % letters.length]!;
-    letterIndex++;
-    const bucket = byLetter.get(letter)!;
-    const next = bucket.shift();
-    if (next) picked.push(next);
-  }
-  return picked;
-}
-
-/** Samples up to `count` questions from the pool, split as evenly as possible across the sections actually present (so one section doesn't dominate just because it has more cleared topics), deduped, and with the correct-answer letters balanced within what's picked. */
-function sampleProportionally(pool: MockPaperQuestion[], count: number, classLevel: QuestionBookletClassLevel): MockPaperQuestion[] {
-  const deduped = dedupeByQuestionText(pool);
-  const bySection = new Map<string, MockPaperQuestion[]>();
-  for (const q of deduped) {
-    const section = sectionOf(classLevel, q.topicNumber);
-    const bucket = bySection.get(section) ?? [];
-    bucket.push(q);
-    bySection.set(section, bucket);
-  }
-  const sections = [...bySection.keys()];
-  const perSection = Math.ceil(count / Math.max(sections.length, 1));
-  const picked: MockPaperQuestion[] = [];
-  for (const section of sections) {
-    picked.push(...pickLetterBalanced(bySection.get(section)!, perSection));
-  }
-  const final = shuffle(picked).slice(0, count);
-
-  const letterCounts: Record<string, number> = {};
-  for (const q of final) letterCounts[q.correctOption] = (letterCounts[q.correctOption] ?? 0) + 1;
-  console.log(`  Answer-key letter distribution: ${JSON.stringify(letterCounts)}`);
-
-  return final;
+  const sets = Number(get("sets", "20"));
+  return { exam, classLevel, lang, sets };
 }
 
 async function main() {
-  const { exam, classLevel, lang, count } = parseArgs();
-  const clearedTopics = loadClearedTopics(classLevel, lang).filter((t) => inSyllabus(exam, classLevel, t));
+  const { exam, classLevel, lang, sets } = parseArgs();
+  const { clearedTopicCount, poolSizeBySection, pattern, sets: builtSets } = selectSets(exam, classLevel, lang, sets);
 
-  console.log(`${EXAM_LABEL[exam]} Class ${classLevel} (${lang}): ${clearedTopics.length} second-pass-cleared topic(s) on this exam's syllabus.`);
-  if (clearedTopics.length === 0) {
-    console.log("Nothing eligible yet — no mock paper generated. Clear more topics in SECOND_PASS_CLEARED.json and re-run.");
+  console.log(`${EXAM_LABEL[exam]} Class ${classLevel} (${lang}): ${clearedTopicCount} second-pass-cleared topic(s) available.`);
+  console.log(`Pool by section: ${JSON.stringify(poolSizeBySection)}`);
+  if (builtSets.length === 0) {
+    console.log("Nothing eligible yet — no mock papers generated. Clear more topics in SECOND_PASS_CLEARED.json and re-run.");
     return;
   }
-
-  const pool: MockPaperQuestion[] = [];
-  for (const t of clearedTopics) pool.push(...loadTopicQuestions(classLevel, lang, t));
-  console.log(`Pooled ${pool.length} eligible questions across ${new Set(pool.map((q) => sectionOf(classLevel, q.topicNumber))).size} section(s).`);
-
-  if (pool.length < count) {
-    console.warn(`Only ${pool.length} questions available, fewer than the requested ${count} — the paper will be shorter than usual.`);
-  }
-
-  const selected = sampleProportionally(pool, count, classLevel);
-  if (selected.length === 0) {
-    console.log("No questions selected — nothing to render.");
-    return;
+  if (builtSets.length < sets) {
+    console.warn(`Only ${builtSets.length} of the requested ${sets} sets could be built — at least one section's pool ran out entirely.`);
   }
 
   const fontFamily = registerFontIfNeeded(lang);
   const styles = buildPdfStyles(fontFamily);
-  const meta = {
-    examLabel: EXAM_LABEL[exam],
-    classLevel,
-    languageLabel: PDF_LANGUAGE_LABEL[lang],
-    totalMarks: selected.length,
-    durationMinutes: Math.max(30, selected.length * 1.5),
-  };
-
-  const paperBuffer = await renderToBuffer(buildMockPaperDocument(meta, selected, styles));
-  const keyBuffer = await renderToBuffer(buildMockPaperAnswerKeyDocument(meta, selected, styles));
-
-  const outDir = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "public", "mock-papers");
+  const examSlug = exam.toLowerCase();
+  const outDir = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "public", "mock-papers", `${examSlug}-class-${classLevel}-${lang}`);
   fs.mkdirSync(outDir, { recursive: true });
-  const slug = `${exam.toLowerCase()}-class-${classLevel}-${lang}-mock-sample`;
-  fs.writeFileSync(path.join(outDir, `${slug}.pdf`), paperBuffer);
-  fs.writeFileSync(path.join(outDir, `${slug}-answer-key.pdf`), keyBuffer);
 
-  console.log(`Wrote ${selected.length}-question paper + answer key to apps/web/public/mock-papers/${slug}*.pdf`);
+  for (let i = 0; i < builtSets.length; i++) {
+    const setNumber = i + 1;
+    const sections = builtSets[i]!;
+    const totalQuestions = sections.reduce((sum, s) => sum + s.questions.length, 0);
+    const totalMarks = sections.reduce((sum, s) => sum + s.questions.length * s.marksEach, 0);
+    console.log(`  Set ${setNumber}: ${totalQuestions} questions across ${sections.length} sections, ${totalMarks} marks.`);
+
+    const meta: MockPaperMeta = {
+      examLabel: EXAM_LABEL[exam],
+      classLevel,
+      languageLabel: PDF_LANGUAGE_LABEL[lang],
+      durationMinutes: pattern.durationMinutes,
+      negativeMarking: pattern.negativeMarking,
+      totalMarks,
+      totalQuestions,
+      setLabel: sets > 1 ? `Set ${setNumber} of ${sets}` : undefined,
+      rollNumber: randomRollNumber(6),
+    };
+
+    const paperBuffer = await renderToBuffer(buildMockPaperDocument(meta, sections, styles));
+    const keyBuffer = await renderToBuffer(buildMockPaperAnswerKeyDocument(meta, sections, styles));
+
+    const setSlug = String(setNumber).padStart(2, "0");
+    fs.writeFileSync(path.join(outDir, `set-${setSlug}.pdf`), paperBuffer);
+    fs.writeFileSync(path.join(outDir, `set-${setSlug}-answer-key.pdf`), keyBuffer);
+  }
+
+  console.log(`\nWrote ${builtSets.length} set(s) (paper + answer key) to apps/web/public/mock-papers/${examSlug}-class-${classLevel}-${lang}/`);
 }
 
 main().catch((err) => {
