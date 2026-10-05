@@ -277,7 +277,18 @@ export interface GlyphFinding {
 // an English Class-6 question, so this scan deliberately flags anything
 // outside the allowlist rather than only checking "does Helvetica have a
 // glyph for this."
-const GLYPH_SAFE_EXTRA_CHARS = new Set(["°", "×", "÷", "½", "¼", "¾", "²", "³", "’", "‘", "“", "”", "–", "—", "…", "•", "·"]);
+//
+// ₹/π/√/≈/≠/≤/≥/∞ are a SEPARATE, already-solved case: apps/web/scripts/
+// lib/pdfFonts.mts's sanitizeForPdf() reliably substitutes every one of
+// these for a plain-ASCII equivalent (₹→"Rs. ", √→"sqrt ", etc.) before any
+// PDF is rendered — they are routine in profit/loss and
+// area/perimeter/HCF-LCM content. This scan runs on the RAW pre-sanitized
+// text, so without this exclusion it mass-flags perfectly fine, already-
+// handled questions across dozens of topics (confirmed: a first version of
+// this scanner wrongly excluded 70-80+ questions each from topics 47-61,
+// the profit/loss and area/perimeter ranges) instead of only catching the
+// genuinely-unhandled Wingdings/Symbol-paste failure this scan exists for.
+const GLYPH_SAFE_EXTRA_CHARS = new Set(["°", "×", "÷", "½", "¼", "¾", "²", "³", "’", "‘", "“", "”", "–", "—", "…", "•", "·", "₹", "π", "√", "≈", "≠", "≤", "≥", "∞"]);
 
 function firstSuspiciousChar(text: string): { char: string; codePoint: number } | null {
   for (const char of text) {

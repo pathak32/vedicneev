@@ -148,6 +148,13 @@ describe("scanForUnsupportedGlyphs", () => {
     expect(scanForUnsupportedGlyphs(questions)).toEqual([]);
   });
 
+  it("does not flag ₹/π/√/≈/≠/≤/≥/∞ — sanitizeForPdf already substitutes every one of these before rendering, and they're routine in profit/loss and area/perimeter content (regression: an earlier version of this scanner wrongly excluded 70-80+ questions each from several real topics over exactly this)", () => {
+    const { questions } = validateQuestionBookletTopic([
+      { ...GOOD_QUESTION, question: "A shopkeeper bought an item for ₹500. If π ≈ 3.14 and √16 = 4, and the profit is ≥10% but ≤20% (never ∞ or ≠ the cost price), find the selling price." },
+    ]);
+    expect(scanForUnsupportedGlyphs(questions)).toEqual([]);
+  });
+
   it("flags a Wingdings/Symbol-paste character even though it decodes as a printable letter (the Q80 UPSS Set 1 failure)", () => {
     const { questions } = validateQuestionBookletTopic([
       { ...GOOD_QUESTION, question: "In the analogy ™™ Ç ?, what is the missing figure? (Vertical mirror)" },
