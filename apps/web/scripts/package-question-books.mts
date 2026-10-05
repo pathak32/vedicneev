@@ -66,6 +66,7 @@ import type {
   extractTopicTitle,
   isTopicInExamSyllabus,
   scanForSelfCorrectionArtifacts,
+  scanForUnsupportedGlyphs,
   validateQuestionBookletTopic,
   QuestionBookletClassLevel,
   QuestionBookletExamType,
@@ -75,6 +76,7 @@ const {
   extractTopicTitle,
   isTopicInExamSyllabus,
   scanForSelfCorrectionArtifacts,
+  scanForUnsupportedGlyphs,
   validateQuestionBookletTopic,
   QUESTION_BOOKLET_EXAM_TYPES,
 } = engineRuntime as unknown as typeof import("@vedicneev/engine");
@@ -173,12 +175,13 @@ interface LoadedCorpus {
   missing: number[];
   structuralErrors: { topicNumber: number; message: string }[];
   artifactFlags: { topicNumber: number; questionNumber: number; matchedPhrase: string; excerpt: string }[];
+  glyphFlags: { topicNumber: number; questionNumber: number; field: string; char: string; codePoint: number; excerpt: string }[];
   notSecondPassCleared: number[];
 }
 
 /** Loads and validates every topic file for one (class, language) — collects every problem rather than stopping at the first, so one run reports the full quality picture. */
 function loadCorpus(classLevel: QuestionBookletClassLevel, language: BookletLanguage): LoadedCorpus {
-  const result: LoadedCorpus = { topics: [], missing: [], structuralErrors: [], artifactFlags: [], notSecondPassCleared: [] };
+  const result: LoadedCorpus = { topics: [], missing: [], structuralErrors: [], artifactFlags: [], glyphFlags: [], notSecondPassCleared: [] };
   const cleared = loadClearedTopics(classLevel, language);
 
   for (let topicNumber = 1; topicNumber <= 72; topicNumber++) {
@@ -205,6 +208,15 @@ function loadCorpus(classLevel: QuestionBookletClassLevel, language: BookletLang
     const artifacts = scanForSelfCorrectionArtifacts(questions);
     for (const a of artifacts) result.artifactFlags.push({ topicNumber, ...a });
     if (artifacts.length > 0) continue; // don't ship this topic's content until it's re-verified
+
+    // Non-English scripts legitimately use high codepoints throughout and
+    // would false-positive on every character — scanForUnsupportedGlyphs is
+    // English-only by design (see its own doc comment).
+    if (language === "en") {
+      const glyphs = scanForUnsupportedGlyphs(questions);
+      for (const g of glyphs) result.glyphFlags.push({ topicNumber, ...g });
+      if (glyphs.length > 0) continue; // don't ship a misprinted/mis-pasted glyph
+    }
 
     if (!cleared.has(topicNumber)) {
       result.notSecondPassCleared.push(topicNumber);
@@ -233,6 +245,13 @@ function reportCorpus(classLevel: QuestionBookletClassLevel, language: BookletLa
       console.error(`    topic-${f.topicNumber}.json Q${f.questionNumber} — matched "${f.matchedPhrase}": "...${f.excerpt}..."`);
     }
     if (corpus.artifactFlags.length > 20) console.error(`    ...and ${corpus.artifactFlags.length - 20} more.`);
+  }
+  if (corpus.glyphFlags.length > 0) {
+    console.error(`  [${label}] ${corpus.glyphFlags.length} suspicious-character flag(s) — these topics need re-verification before packaging:`);
+    for (const f of corpus.glyphFlags.slice(0, 20)) {
+      console.error(`    topic-${f.topicNumber}.json Q${f.questionNumber} (${f.field}) — char "${f.char}" (U+${f.codePoint.toString(16).toUpperCase().padStart(4, "0")}): "...${f.excerpt}..."`);
+    }
+    if (corpus.glyphFlags.length > 20) console.error(`    ...and ${corpus.glyphFlags.length - 20} more.`);
   }
   if (corpus.notSecondPassCleared.length > 0) {
     console.warn(`  [${label}] ${corpus.notSecondPassCleared.length} topic(s) structurally fine but not yet second-pass cleared, excluded from packaging: ${corpus.notSecondPassCleared.join(", ")}`);

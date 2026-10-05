@@ -83,11 +83,14 @@ function sectionBanner(section: BuiltSection, index: number) {
   );
 }
 
+const DIFFICULTY_LABEL = { EASY: "Easy", MEDIUM: "Medium", HARD: "Hard" } as const;
+
 function questionBlock(q: BuiltSection["questions"][number], displayNumber: number, styles: ReturnType<typeof buildPdfStyles>) {
   return h(
     View,
     { key: displayNumber, style: styles.questionBlock, wrap: false },
     h(Text, { style: styles.questionStem }, `${displayNumber}. ${sanitizeForPdf(q.question)}`),
+    q.difficulty ? h(Text, { style: styles.difficultyTag }, `[${DIFFICULTY_LABEL[q.difficulty]}]`) : null,
     ...(["A", "B", "C", "D"] as const).map((label) =>
       h(
         View,

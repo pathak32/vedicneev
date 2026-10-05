@@ -16,10 +16,22 @@
 import fs from "node:fs";
 import path from "node:path";
 
-import type { sectionKeyForTopic, validateQuestionBookletTopic, QuestionBookletClassLevel, QuestionBookletExamType, QuestionBookletQuestion } from "@vedicneev/engine";
+import type {
+  sectionKeyForTopic,
+  scanForSelfCorrectionArtifacts,
+  scanForUnsupportedGlyphs,
+  validateQuestionBookletTopic,
+  QuestionBookletClassLevel,
+  QuestionBookletExamType,
+  QuestionBookletQuestion,
+} from "@vedicneev/engine";
 import engineRuntime from "@vedicneev/engine";
-const { sectionKeyForTopic: sectionOf, validateQuestionBookletTopic: validateTopic } =
-  engineRuntime as unknown as typeof import("@vedicneev/engine");
+const {
+  sectionKeyForTopic: sectionOf,
+  scanForSelfCorrectionArtifacts: scanArtifacts,
+  scanForUnsupportedGlyphs: scanGlyphs,
+  validateQuestionBookletTopic: validateTopic,
+} = engineRuntime as unknown as typeof import("@vedicneev/engine");
 
 // Overridable for environments where the question bank isn't under the
 // user's local Windows path (e.g. a cloud session with the content checked
@@ -158,7 +170,22 @@ function loadTopicQuestions(classLevel: QuestionBookletClassLevel, lang: "en" | 
     console.warn(`  topic-${topicNumber}.json has structural errors despite being marked second-pass-cleared — skipping it. Check the manifest.`);
     return [];
   }
-  return questions.map((q: QuestionBookletQuestion) => ({ ...q, topicNumber }));
+
+  // Same zero-error-tolerance checks package-question-books.mts applies,
+  // but excluding only the flagged QUESTIONS rather than the whole topic —
+  // this product samples individual questions from a pool rather than
+  // shipping a fixed per-topic document, so a topic with one bad question
+  // doesn't need to lose the rest of its otherwise-good pool.
+  const flagged = new Set<number>();
+  for (const a of scanArtifacts(questions)) flagged.add(a.questionNumber);
+  if (lang === "en") {
+    for (const g of scanGlyphs(questions)) flagged.add(g.questionNumber);
+  }
+  if (flagged.size > 0) {
+    console.warn(`  topic-${topicNumber}.json: excluding ${flagged.size} flagged question(s) (self-correction artifact or suspicious character) from the sample-paper pool — fix the source file and re-run to bring them back.`);
+  }
+
+  return questions.filter((q: QuestionBookletQuestion) => !flagged.has(q.questionNumber)).map((q: QuestionBookletQuestion) => ({ ...q, topicNumber }));
 }
 
 function shuffle<T>(arr: T[]): T[] {

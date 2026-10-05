@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { extractTopicTitle, scanForSelfCorrectionArtifacts, validateQuestionBookletTopic } from "./questionBookletSchema";
+import { extractTopicTitle, scanForSelfCorrectionArtifacts, scanForUnsupportedGlyphs, validateQuestionBookletTopic } from "./questionBookletSchema";
 
 const GOOD_QUESTION = {
   questionNumber: 1,
@@ -72,8 +72,19 @@ describe("validateQuestionBookletTopic", () => {
       options: { A: "16", B: "54", C: "64", D: "72" },
       correctOption: "C",
       explanation: "8² = 8 × 8 = 64.",
+      difficulty: "EASY",
     });
     expect(extractTopicTitle(real, 1)).toBe("Recognizing Perfect Square Sequences");
+  });
+
+  it("normalizes difficulty case/synonyms and ignores unrecognized values", () => {
+    const withDifficulty = (difficulty: unknown) =>
+      validateQuestionBookletTopic([{ ...GOOD_QUESTION, difficulty }]).questions[0]?.difficulty;
+    expect(withDifficulty("Hard")).toBe("HARD");
+    expect(withDifficulty("moderate")).toBe("MEDIUM");
+    expect(withDifficulty("tough")).toBe("HARD");
+    expect(withDifficulty("nonsense")).toBeUndefined();
+    expect(withDifficulty(undefined)).toBeUndefined();
   });
 
   it("rejects neither an array nor a {questions: []} object", () => {
@@ -121,6 +132,40 @@ describe("scanForSelfCorrectionArtifacts", () => {
       { ...GOOD_QUESTION, explanation: "Wait, actually, i made a mistake here." },
     ]);
     expect(scanForSelfCorrectionArtifacts(questions)).toHaveLength(1);
+  });
+});
+
+describe("scanForUnsupportedGlyphs", () => {
+  it("finds nothing in clean plain-ASCII content", () => {
+    const { questions } = validateQuestionBookletTopic([GOOD_QUESTION]);
+    expect(scanForUnsupportedGlyphs(questions)).toEqual([]);
+  });
+
+  it("allows curated safe typography extras", () => {
+    const { questions } = validateQuestionBookletTopic([
+      { ...GOOD_QUESTION, question: "A triangle has a 90° angle; its hypotenuse is 5 cm. 3 × 4 = ? (½ credit for working)." },
+    ]);
+    expect(scanForUnsupportedGlyphs(questions)).toEqual([]);
+  });
+
+  it("flags a Wingdings/Symbol-paste character even though it decodes as a printable letter (the Q80 UPSS Set 1 failure)", () => {
+    const { questions } = validateQuestionBookletTopic([
+      { ...GOOD_QUESTION, question: "In the analogy ™™ Ç ?, what is the missing figure? (Vertical mirror)" },
+    ]);
+    const findings = scanForUnsupportedGlyphs(questions);
+    expect(findings.length).toBeGreaterThan(0);
+    expect(findings[0]!.field).toBe("question");
+    expect(findings[0]!.char).toBe("™");
+  });
+
+  it("flags a bad character in options or explanation too, keyed by field", () => {
+    const { questions } = validateQuestionBookletTopic([
+      { ...GOOD_QUESTION, options: { A: "54", B: "56", C: "58Æ", D: "64" } },
+    ]);
+    const findings = scanForUnsupportedGlyphs(questions);
+    expect(findings).toHaveLength(1);
+    expect(findings[0]!.field).toBe("options");
+    expect(findings[0]!.char).toBe("Æ");
   });
 });
 

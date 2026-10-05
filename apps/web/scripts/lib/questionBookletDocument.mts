@@ -15,6 +15,8 @@ import { buildPdfStyles, sanitizeForPdf } from "./pdfFonts.mjs";
 
 const h = React.createElement;
 
+const DIFFICULTY_LABEL = { EASY: "Easy", MEDIUM: "Medium", HARD: "Hard" } as const;
+
 export interface BookletTopicSection {
   topicNumber: number;
   topicTitle: string;
@@ -26,6 +28,7 @@ function questionBlock(q: QuestionBookletQuestion, displayNumber: number, styles
     View,
     { key: displayNumber, style: styles.questionBlock, wrap: false },
     h(Text, { style: styles.questionStem }, `Q${displayNumber}. ${sanitizeForPdf(q.question)}`),
+    q.difficulty ? h(Text, { style: styles.difficultyTag }, `[${DIFFICULTY_LABEL[q.difficulty]}]`) : null,
     ...(["A", "B", "C", "D"] as const).map((label) =>
       h(
         View,

@@ -15,12 +15,24 @@
 export const BOOKLET_OPTION_KEYS = ["A", "B", "C", "D"] as const;
 export type BookletOptionKey = (typeof BOOKLET_OPTION_KEYS)[number];
 
+export const BOOKLET_DIFFICULTIES = ["EASY", "MEDIUM", "HARD"] as const;
+export type BookletDifficulty = (typeof BOOKLET_DIFFICULTIES)[number];
+
 export interface QuestionBookletQuestion {
   questionNumber: number;
   question: string;
   options: Record<BookletOptionKey, string>;
   correctOption: BookletOptionKey;
   explanation: string;
+  /**
+   * Optional because most already-cleared topic files predate this field.
+   * The real corpus does carry a per-question `difficulty` key in plenty of
+   * places (confirmed in this module's own test fixtures) — this was
+   * previously being silently parsed away rather than missing outright, so
+   * wiring it through surfaces data that already exists instead of
+   * requiring a fresh authoring/backfill pass.
+   */
+  difficulty?: BookletDifficulty;
 }
 
 export interface QuestionBookletValidationError {
@@ -59,6 +71,16 @@ const EXPLANATION_ALIASES = ["explanation", "solution", "workedSolution"];
 const ANSWER_ALIASES = ["correctOption", "answer", "correctAnswer"];
 const NUMBER_ALIASES = ["questionNumber", "number", "no", "qNo", "id"];
 const OPTIONS_ALIASES = ["options", "choices"];
+const DIFFICULTY_ALIASES = ["difficulty", "level"];
+
+/** Tolerates "easy"/"Easy"/"EASY" and a couple of common synonyms; anything else is treated as absent rather than a validation error — an unrecognized value is far more likely a typo in free-form content than a reason to reject an otherwise-good question. */
+function normalizeDifficulty(raw: unknown): BookletDifficulty | undefined {
+  const value = String(raw ?? "").trim().toUpperCase();
+  if ((BOOKLET_DIFFICULTIES as readonly string[]).includes(value)) return value as BookletDifficulty;
+  if (value === "MED" || value === "MODERATE") return "MEDIUM";
+  if (value === "DIFFICULT" || value === "TOUGH") return "HARD";
+  return undefined;
+}
 
 function firstStringField(record: Record<string, unknown>, aliases: string[]): string | undefined {
   for (const key of aliases) {
@@ -169,7 +191,9 @@ export function validateQuestionBookletTopic(raw: unknown): QuestionBookletValid
       return;
     }
 
-    questions.push({ questionNumber, question, options, correctOption, explanation });
+    const difficulty = normalizeDifficulty(DIFFICULTY_ALIASES.map((key) => record[key]).find((v) => v !== undefined));
+
+    questions.push({ questionNumber, question, options, correctOption, explanation, ...(difficulty ? { difficulty } : {}) });
   });
 
   return { ok: errors.length === 0, questions, errors };
@@ -228,6 +252,66 @@ export function scanForSelfCorrectionArtifacts(questions: QuestionBookletQuestio
         found.push({ questionNumber: q.questionNumber, matchedPhrase: phrase, excerpt: q.explanation.slice(start, end) });
         break; // one flag per question is enough to route it to review
       }
+    }
+  }
+  return found;
+}
+
+export interface GlyphFinding {
+  questionNumber: number;
+  field: "question" | "options" | "explanation";
+  char: string;
+  codePoint: number;
+  excerpt: string;
+}
+
+// Characters outside plain ASCII that are known-good in an English Helvetica
+// PDF and legitimately show up in authored content (smart quotes, dashes,
+// degree/multiplication/division signs, common fractions). Anything else
+// above ASCII is either a glyph the base font can't render, or — the actual
+// failure found in the live UPSS Class 6 Set 1 sample paper (Q80, an
+// "analogy"/mirror-image question) — a Wingdings/Symbol-font character
+// pasted from Word that happens to decode as a DIFFERENT, perfectly
+// printable Latin-1 letter (an intended arrow/shape glyph landing as "Ç" or
+// "™"). Both failure modes produce a byte that looks fine but is wrong for
+// an English Class-6 question, so this scan deliberately flags anything
+// outside the allowlist rather than only checking "does Helvetica have a
+// glyph for this."
+const GLYPH_SAFE_EXTRA_CHARS = new Set(["°", "×", "÷", "½", "¼", "¾", "’", "‘", "“", "”", "–", "—", "…", "•", "·"]);
+
+function firstSuspiciousChar(text: string): { char: string; codePoint: number } | null {
+  for (const char of text) {
+    const codePoint = char.codePointAt(0)!;
+    if (codePoint >= 0x20 && codePoint <= 0x7e) continue;
+    if (GLYPH_SAFE_EXTRA_CHARS.has(char)) continue;
+    return { char, codePoint };
+  }
+  return null;
+}
+
+/**
+ * English-content-only scan (Hindi/Marathi/Bengali/Gujarati/Tamil topic
+ * files legitimately use high codepoints throughout and would false-positive
+ * on every character — never call this for those). Every topic file should
+ * pass this before packaging, with the same per-topic-exclusion treatment
+ * already applied to scanForSelfCorrectionArtifacts above rather than
+ * aborting the whole run over one bad question.
+ */
+export function scanForUnsupportedGlyphs(questions: QuestionBookletQuestion[]): GlyphFinding[] {
+  const found: GlyphFinding[] = [];
+  for (const q of questions) {
+    const fields: [GlyphFinding["field"], string][] = [
+      ["question", q.question],
+      ...BOOKLET_OPTION_KEYS.map((key): [GlyphFinding["field"], string] => ["options", q.options[key]]),
+      ["explanation", q.explanation],
+    ];
+    for (const [field, text] of fields) {
+      const hit = firstSuspiciousChar(text);
+      if (!hit) continue;
+      const index = text.indexOf(hit.char);
+      const start = Math.max(0, index - 20);
+      const end = Math.min(text.length, index + 20);
+      found.push({ questionNumber: q.questionNumber, field, char: hit.char, codePoint: hit.codePoint, excerpt: text.slice(start, end) });
     }
   }
   return found;
