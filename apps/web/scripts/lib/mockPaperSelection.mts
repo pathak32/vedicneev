@@ -202,6 +202,22 @@ function questionKey(q: MockPaperQuestion): string {
   return q.question.trim().toLowerCase().replace(/\s+/g, " ");
 }
 
+/**
+ * Sections where the live UPSS Class 6 feedback ("English level thoda high
+ * hai, GK bhi thoda high hai") applies — Language and General Knowledge.
+ * Per explicit user decision, fixed by leaning on the difficulty tags
+ * already shipped in #15 rather than rewriting content: these sections draw
+ * Easy/Medium questions first and only reach into Hard (or untagged, which
+ * ranks ahead of Hard since most of the corpus predates tagging and isn't
+ * known to be hard) once a set's Easy/Medium supply for a given
+ * correct-answer letter is exhausted.
+ */
+const DIFFICULTY_BIASED_SECTIONS: ReadonlySet<SectionKey> = new Set(["language", "general_knowledge"]);
+const DIFFICULTY_RANK: Record<string, number> = { EASY: 0, MEDIUM: 1, HARD: 3 };
+function difficultyRank(q: MockPaperQuestion): number {
+  return q.difficulty ? DIFFICULTY_RANK[q.difficulty]! : 2;
+}
+
 /** Collapses exact-text (whitespace/case-insensitive) duplicate questions, keeping the first occurrence — the real corpus is known to carry some repeated/near-identical questions within a topic, and a sample paper showing the same question twice looks broken. */
 function dedupeByQuestionText(pool: MockPaperQuestion[]): MockPaperQuestion[] {
   const seen = new Set<string>();
@@ -226,7 +242,8 @@ function dedupeByQuestionText(pool: MockPaperQuestion[]): MockPaperQuestion[] {
  * least-used-first order already produces exactly that behavior, and a
  * section with ample pool (several times n × sets) simply never repeats.
  */
-function pickForSet(pool: MockPaperQuestion[], n: number, usage: Map<string, number>): MockPaperQuestion[] {
+function pickForSet(pool: MockPaperQuestion[], n: number, usage: Map<string, number>, section: SectionKey): MockPaperQuestion[] {
+  const biasDifficulty = DIFFICULTY_BIASED_SECTIONS.has(section);
   const byLetter = new Map<string, MockPaperQuestion[]>();
   for (const q of shuffle(pool)) {
     const bucket = byLetter.get(q.correctOption) ?? [];
@@ -234,8 +251,15 @@ function pickForSet(pool: MockPaperQuestion[], n: number, usage: Map<string, num
     byLetter.set(q.correctOption, bucket);
   }
   // Within each letter, least-used-so-far first (ties already randomized by the shuffle above, stable sort preserves that order among equal usage counts).
+  // For Language/GK, difficulty rank sorts first so Easy/Medium exhaust before Hard is ever reached, same shuffle+usage tiebreak within each rank.
   for (const bucket of byLetter.values()) {
-    bucket.sort((a, b) => (usage.get(questionKey(a)) ?? 0) - (usage.get(questionKey(b)) ?? 0));
+    bucket.sort((a, b) => {
+      if (biasDifficulty) {
+        const rankDiff = difficultyRank(a) - difficultyRank(b);
+        if (rankDiff !== 0) return rankDiff;
+      }
+      return (usage.get(questionKey(a)) ?? 0) - (usage.get(questionKey(b)) ?? 0);
+    });
   }
 
   const letters = [...byLetter.keys()];
@@ -271,7 +295,7 @@ function buildOneSet(
     section: spec.section,
     label: spec.label,
     marksEach: spec.marksEach,
-    questions: pickForSet(poolBySection.get(spec.section) ?? [], spec.count, usage),
+    questions: pickForSet(poolBySection.get(spec.section) ?? [], spec.count, usage, spec.section),
   }));
 }
 
