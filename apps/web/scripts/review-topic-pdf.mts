@@ -86,13 +86,32 @@ async function renderOne(classLevel: QuestionBookletClassLevel, lang: "en" | "hi
   }
 
   const topicTitle = getTitle(raw, topicNumber);
+
+  // The filename should always be searchable by an English subject name,
+  // even when rendering the Hindi PDF — some Hindi topic files have their
+  // title field written in Devanagari, which slugify() can't turn into an
+  // ASCII slug, so without this the file would fall back to a plain
+  // "topic-N.pdf" name with nothing to search on.
+  let filenameTitle = topicTitle;
+  if (lang === "hi") {
+    const enFilePath = path.join(QUESTIONS_ROOT, `class${classLevel}`, "en", `topic-${topicNumber}.json`);
+    if (fs.existsSync(enFilePath)) {
+      try {
+        const enRaw = JSON.parse(fs.readFileSync(enFilePath, "utf-8"));
+        filenameTitle = getTitle(enRaw, topicNumber);
+      } catch {
+        // fall through and keep the Hindi title
+      }
+    }
+  }
+
   const pdfLang = lang === "hi" ? "hi" : "en";
   const fontFamily = registerFontIfNeeded(pdfLang);
   const styles = buildPdfStyles(fontFamily);
   const doc = buildTopicDocument(classLevel, { topicNumber, topicTitle, questions }, fontFamily, styles);
   const buffer = await renderToBuffer(doc);
 
-  const slug = slugify(topicTitle);
+  const slug = slugify(filenameTitle);
   const fileName = slug
     ? `class${classLevel}-${lang}-topic-${topicNumber}-${slug}.pdf`
     : `class${classLevel}-${lang}-topic-${topicNumber}.pdf`;
