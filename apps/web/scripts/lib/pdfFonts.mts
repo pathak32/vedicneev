@@ -65,8 +65,14 @@ export function registerFontIfNeeded(language: PdfLanguage): string {
  * entirely and silently render as garbage (a wrong Latin-1 character that
  * happens to share the same byte value, or nothing at all) rather than
  * erroring — confirmed one by one with an isolated render, see this fix's
- * own commit message for the exact before/after. °, ×, ÷, ½ ARE in Latin-1
- * and render correctly; this list is only the ones that don't.
+ * own commit message for the exact before/after. °, ×, ÷, ½, ¼, ¾, ², ³, ¹
+ * and every other character in the Latin-1 Supplement range (U+00A0-00FF)
+ * ARE in WinAnsi and render correctly; this list is only the ones that
+ * don't — confirmed by scanning the real class6/en + class9/en corpus for
+ * every character outside that safe range (arrows, the Unicode minus sign,
+ * check/cross marks, set-theory/geometry notation, Greek letters used as
+ * variable names, and Unicode super/subscript digits and letters from
+ * exponents and chemical formulas).
  *
  * Applied to every question/option/explanation string before it reaches a
  * `<Text>`, regardless of language, rather than only for English — simpler
@@ -77,16 +83,84 @@ const PDF_UNSUPPORTED_GLYPHS: [RegExp, string][] = [
   [/₹/g, "Rs. "],
   [/π/g, "pi"],
   [/√/g, "sqrt "],
+  [/∛/g, "cbrt "],
   [/≈/g, "~="],
   [/≠/g, "!="],
   [/≤/g, "<="],
   [/≥/g, ">="],
   [/∞/g, "infinity"],
+  [/−/g, "-"],
+  [/→/g, "->"],
+  [/↔/g, "<->"],
+  [/⇌/g, "<=>"],
+  [/⟹/g, "=>"],
+  [/↑/g, " (gas released)"],
+  [/✓/g, " (correct)"],
+  [/✗/g, " (incorrect)"],
+  [/∠/g, "angle "],
+  [/⅓/g, "1/3"],
+  [/⅔/g, "2/3"],
+  [/∩/g, " intersection "],
+  [/∪/g, " union "],
+  [/⊆/g, " subset-or-equal-to "],
+  [/⊂/g, " subset-of "],
+  [/∈/g, " is-an-element-of "],
+  [/∅/g, "the empty set"],
+  [/∥/g, " parallel-to "],
+  [/⊥/g, " perpendicular-to "],
+  [/∝/g, " proportional-to "],
+  [/≅/g, " congruent-to "],
+  [/θ/g, "theta"],
+  [/λ/g, "lambda"],
+  [/μ/g, "mu"],
+  [/β/g, "beta"],
+  [/α/g, "alpha"],
+  [/η/g, "eta"],
+  [/Δ/g, "delta"],
 ];
+
+/**
+ * Unicode superscript characters (exponents, e.g. aᵐ⁺ⁿ, 4⁻¹) collapsed to
+ * an ASCII "^(...)" marker — kept distinct from a plain digit so "exponent"
+ * meaning survives the substitution. ¹²³ are included here too (so a mixed
+ * run like "⁻¹" groups correctly instead of splitting into "^(-)" + a
+ * stray literal "¹"), but a run made ENTIRELY of ¹/²/³ is left untouched
+ * below — those three are in the Latin-1 Supplement range and already
+ * render correctly as literal superscripts, same as °/×/÷.
+ */
+const SUPERSCRIPT_CHAR_MAP: Record<string, string> = {
+  "⁰": "0", "¹": "1", "²": "2", "³": "3", "⁴": "4", "⁵": "5", "⁶": "6", "⁷": "7", "⁸": "8", "⁹": "9",
+  "⁺": "+", "⁻": "-", "⁽": "(", "⁾": ")", "ⁿ": "n",
+  "ᵃ": "a", "ᵏ": "k", "ᵒ": "o", "ᵖ": "p", "ʸ": "y", "ˣ": "x", "ʳ": "r", "ᵐ": "m",
+};
+const SUPERSCRIPT_SAFE_ALONE = new Set(["¹", "²", "³"]);
+const SUPERSCRIPT_RUN = new RegExp(`[${Object.keys(SUPERSCRIPT_CHAR_MAP).join("")}]+`, "g");
+
+/**
+ * Unicode subscript characters (chemical formulas like H₂O, variable
+ * indices like SP₁, and angle-notation subscripts like θᵢ/θᵣ for angle of
+ * incidence/reflection) collapsed to plain ASCII digits/letters with no
+ * marker — unlike exponents, a subscripted chemical formula or indexed
+ * variable reads perfectly normally in plain ASCII ("H2O", "SP1", "θi/θr").
+ * ᵢ/ᵣ here (U+1D62/U+1D63, Latin Subscript Modifier Letters) are visually
+ * close to but a different codepoint from the superscript ʳ etc. above —
+ * confirmed against the real corpus, not assumed.
+ */
+const SUBSCRIPT_CHAR_MAP: Record<string, string> = {
+  "₀": "0", "₁": "1", "₂": "2", "₃": "3", "₄": "4", "₅": "5", "₆": "6", "₇": "7", "₈": "8", "₉": "9",
+  "₊": "+", "₋": "-", "ₙ": "n", "ᵢ": "i", "ᵣ": "r",
+};
+const SUBSCRIPT_RUN = new RegExp(`[${Object.keys(SUBSCRIPT_CHAR_MAP).join("")}]+`, "g");
 
 export function sanitizeForPdf(text: string): string {
   let out = text;
   for (const [pattern, replacement] of PDF_UNSUPPORTED_GLYPHS) out = out.replace(pattern, replacement);
+  out = out.replace(SUPERSCRIPT_RUN, (run) => {
+    const chars = [...run];
+    if (chars.every((c) => SUPERSCRIPT_SAFE_ALONE.has(c))) return run;
+    return `^(${chars.map((c) => SUPERSCRIPT_CHAR_MAP[c] ?? "").join("")})`;
+  });
+  out = out.replace(SUBSCRIPT_RUN, (run) => [...run].map((c) => SUBSCRIPT_CHAR_MAP[c] ?? "").join(""));
   return out;
 }
 

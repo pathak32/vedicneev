@@ -155,6 +155,17 @@ describe("scanForUnsupportedGlyphs", () => {
     expect(scanForUnsupportedGlyphs(questions)).toEqual([]);
   });
 
+  it("does not flag the full real-corpus set found across class6/en + class9/en — arrows, minus sign, check/cross marks, set/geometry notation, Greek variable names, super/subscripts, Latin-1 Supplement letters, or newlines (regression: a full-corpus scan after the ₹/π/√ fix found ~55 more unhandled characters across thousands of questions)", () => {
+    const { questions } = validateQuestionBookletTopic([
+      {
+        ...GOOD_QUESTION,
+        question: "A(1) → C(3), gap = −2. Reverse cipher: A↔Z. ∠AEF = 3x; lines AB ∥ CD; A ⊆ B; x ∈ A; café.\nNext line.",
+        explanation: "Check: 3×2+2=8 ✓, 9≠8 ✗. θ=48°, λ=500nm, μ=2, aᵏ×aⁿ=aᵏ⁺ⁿ, H₂SO₄ → H₂O + SO₃↑. 33⅓% and ∛216. Angle of incidence θᵢ equals angle of reflection θᵣ.",
+      },
+    ]);
+    expect(scanForUnsupportedGlyphs(questions)).toEqual([]);
+  });
+
   it("flags a Wingdings/Symbol-paste character even though it decodes as a printable letter (the Q80 UPSS Set 1 failure)", () => {
     const { questions } = validateQuestionBookletTopic([
       { ...GOOD_QUESTION, question: "In the analogy ™™ Ç ?, what is the missing figure? (Vertical mirror)" },
@@ -166,13 +177,16 @@ describe("scanForUnsupportedGlyphs", () => {
   });
 
   it("flags a bad character in options or explanation too, keyed by field", () => {
+    // Ж (Cyrillic) rather than Æ — Æ is Latin-1 Supplement and genuinely
+    // renders fine in WinAnsi, so it's correctly no longer flagged; this
+    // test just needs any character outside every safe range.
     const { questions } = validateQuestionBookletTopic([
-      { ...GOOD_QUESTION, options: { A: "54", B: "56", C: "58Æ", D: "64" } },
+      { ...GOOD_QUESTION, options: { A: "54", B: "56", C: "58Ж", D: "64" } },
     ]);
     const findings = scanForUnsupportedGlyphs(questions);
     expect(findings).toHaveLength(1);
     expect(findings[0]!.field).toBe("options");
-    expect(findings[0]!.char).toBe("Æ");
+    expect(findings[0]!.char).toBe("Ж");
   });
 });
 
