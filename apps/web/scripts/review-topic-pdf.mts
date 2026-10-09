@@ -16,8 +16,11 @@
  * Run with:
  *   npx tsx apps/web/scripts/review-topic-pdf.mts --class=9 --lang=hi --topic=13
  *   npx tsx apps/web/scripts/review-topic-pdf.mts --class=9 --lang=hi --topics=1-72   (all of them, or any list/range: 1,2,5-10)
- * Writes to ./review-pdfs/class<N>-<lang>-topic-<N>.pdf (relative to
- * wherever you run the command from) unless --out-dir=<path> is given.
+ * Writes to ./review-pdfs/class<N>-<lang>-topic-<N>-<topic-name>.pdf
+ * (relative to wherever you run the command from) unless --out-dir=<path>
+ * is given. The topic name is slugified from the file's own title so you
+ * can search/sort the folder by subject (e.g. "geometric", "age") instead
+ * of having to remember which number is which topic.
  * A missing or structurally broken topic is reported and skipped —
  * it does not stop the rest of the batch.
  */
@@ -34,6 +37,14 @@ import { registerFontIfNeeded, buildPdfStyles } from "./lib/pdfFonts.mjs";
 import { buildTopicDocument } from "./lib/questionBookletDocument.mjs";
 
 const QUESTIONS_ROOT = process.env.QUESTION_BANK_ROOT || path.join("D:\\Projects\\notes handwritten", "questions");
+
+function slugify(title: string): string {
+  return title
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .slice(0, 60);
+}
 
 function parseArgs() {
   const get = (name: string) => process.argv.find((a) => a.startsWith(`--${name}=`))?.split("=")[1];
@@ -81,7 +92,11 @@ async function renderOne(classLevel: QuestionBookletClassLevel, lang: "en" | "hi
   const doc = buildTopicDocument(classLevel, { topicNumber, topicTitle, questions }, fontFamily, styles);
   const buffer = await renderToBuffer(doc);
 
-  const out = path.join(outDir, `class${classLevel}-${lang}-topic-${topicNumber}.pdf`);
+  const slug = slugify(topicTitle);
+  const fileName = slug
+    ? `class${classLevel}-${lang}-topic-${topicNumber}-${slug}.pdf`
+    : `class${classLevel}-${lang}-topic-${topicNumber}.pdf`;
+  const out = path.join(outDir, fileName);
   fs.mkdirSync(path.dirname(out), { recursive: true });
   fs.writeFileSync(out, buffer);
   console.log(`topic-${topicNumber}: wrote ${questions.length} questions — "${topicTitle}" -> ${out}`);
