@@ -1,22 +1,25 @@
 /**
- * Renders a single topic to a real, readable PDF on your own machine —
+ * Renders one or more topics to real, readable PDFs on your own machine —
  * for the human second-pass review itself, which has to happen BEFORE a
  * topic is marked cleared in _review/SECOND_PASS_CLEARED.json. The real
  * packaging script (package-question-books.mts) deliberately only
  * renders topics that are ALREADY cleared, which is backwards for this:
  * you can't read a topic as a finished PDF to decide whether to clear it
  * if the renderer refuses to touch it until it's cleared. This script
- * has no such gate — it renders exactly the topic you ask for, however
- * it currently looks, cleared or not.
+ * has no such gate — it renders exactly the topics you ask for, however
+ * they currently look, cleared or not.
  *
- * Writes no DB, no Supabase upload — just a PDF file on disk you can
- * open in any normal PDF reader and read question-by-question, same
- * layout as what a buyer would eventually see.
+ * Writes no DB, no Supabase upload — just PDF files on disk you can open
+ * in any normal PDF reader and read question-by-question, same layout
+ * as what a buyer would eventually see.
  *
  * Run with:
  *   npx tsx apps/web/scripts/review-topic-pdf.mts --class=9 --lang=hi --topic=13
- * Writes to ./review-pdfs/class9-hi-topic-13.pdf (relative to wherever
- * you run the command from) unless --out=<path> is given.
+ *   npx tsx apps/web/scripts/review-topic-pdf.mts --class=9 --lang=hi --topics=1-72   (all of them, or any list/range: 1,2,5-10)
+ * Writes to ./review-pdfs/class<N>-<lang>-topic-<N>.pdf (relative to
+ * wherever you run the command from) unless --out-dir=<path> is given.
+ * A missing or structurally broken topic is reported and skipped —
+ * it does not stop the rest of the batch.
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -36,23 +39,39 @@ function parseArgs() {
   const get = (name: string) => process.argv.find((a) => a.startsWith(`--${name}=`))?.split("=")[1];
   const classLevel = Number(get("class") ?? "6") as QuestionBookletClassLevel;
   const lang = (get("lang") ?? "en") as "en" | "hi";
-  const topicNumber = Number(get("topic"));
-  if (!topicNumber) throw new Error("--topic=<number> is required");
-  const out = get("out") ?? path.join("review-pdfs", `class${classLevel}-${lang}-topic-${topicNumber}.pdf`);
-  return { classLevel, lang, topicNumber, out };
+  const outDir = get("out-dir") ?? "review-pdfs";
+
+  const single = get("topic");
+  const multi = get("topics");
+  if (!single && !multi) throw new Error("--topic=<number> or --topics=<list/range, e.g. 1-72 or 1,2,5-10> is required");
+
+  const topics = new Set<number>();
+  if (single) topics.add(Number(single));
+  if (multi) {
+    for (const part of multi.split(",")) {
+      if (part.includes("-")) {
+        const [from, to] = part.split("-").map(Number);
+        for (let t = from!; t <= to!; t++) topics.add(t);
+      } else {
+        topics.add(Number(part));
+      }
+    }
+  }
+  return { classLevel, lang, outDir, topics: [...topics].sort((a, b) => a - b) };
 }
 
-async function main() {
-  const { classLevel, lang, topicNumber, out } = parseArgs();
+async function renderOne(classLevel: QuestionBookletClassLevel, lang: "en" | "hi", topicNumber: number, outDir: string) {
   const filePath = path.join(QUESTIONS_ROOT, `class${classLevel}`, lang, `topic-${topicNumber}.json`);
-  if (!fs.existsSync(filePath)) throw new Error(`Not found: ${filePath}`);
+  if (!fs.existsSync(filePath)) {
+    console.log(`topic-${topicNumber}: SKIPPED — file not found`);
+    return;
+  }
 
   const raw = JSON.parse(fs.readFileSync(filePath, "utf-8"));
   const { ok, questions, errors } = validateTopic(raw);
   if (!ok) {
-    console.error(`topic-${topicNumber}.json has structural errors — fix these before review:`);
-    for (const e of errors) console.error(`  Q${e.questionNumber ?? "?"}: ${e.message}`);
-    process.exit(1);
+    console.log(`topic-${topicNumber}: SKIPPED — structural errors: ${errors.map((e) => e.message).join("; ")}`);
+    return;
   }
 
   const topicTitle = getTitle(raw, topicNumber);
@@ -62,10 +81,18 @@ async function main() {
   const doc = buildTopicDocument(classLevel, { topicNumber, topicTitle, questions }, fontFamily, styles);
   const buffer = await renderToBuffer(doc);
 
+  const out = path.join(outDir, `class${classLevel}-${lang}-topic-${topicNumber}.pdf`);
   fs.mkdirSync(path.dirname(out), { recursive: true });
   fs.writeFileSync(out, buffer);
-  console.log(`Wrote ${questions.length} questions to: ${path.resolve(out)}`);
-  console.log(`Topic: "${topicTitle}"`);
+  console.log(`topic-${topicNumber}: wrote ${questions.length} questions — "${topicTitle}" -> ${out}`);
+}
+
+async function main() {
+  const { classLevel, lang, outDir, topics } = parseArgs();
+  for (const topicNumber of topics) {
+    await renderOne(classLevel, lang, topicNumber, outDir);
+  }
+  console.log(`\nDone. ${topics.length} topic(s) requested — check above for any skipped. Folder: ${path.resolve(outDir)}`);
 }
 
 main();
