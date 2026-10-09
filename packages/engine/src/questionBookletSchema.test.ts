@@ -166,6 +166,18 @@ describe("scanForUnsupportedGlyphs", () => {
     expect(scanForUnsupportedGlyphs(questions)).toEqual([]);
   });
 
+  it("does not flag the class6/en non-verbal-reasoning glyph set found in a second full-corpus scan — directional arrows, shape glyphs, mirror-letter/Hangul analogy puzzles, floor brackets, currency, repeating-decimal macron, and uppercase Greek letters (regression: a scan after the first fix round still found 206 flags in class6/en alone)", () => {
+    const { questions } = validateQuestionBookletTopic([
+      {
+        ...GOOD_QUESTION,
+        question: "Leftward (←), Downward (↓), up-left (↖), up-right (↗), down-right (↘), down-left (↙). A star (★☆✦), heart (♥♡), diamond (◆◇◈◊), circle (●○◯), square (■□☐).",
+        explanation:
+          "Triangles: ▲△▼▽∇◀◁▶◊◷◸◹◺. Arc/corner: ⌐⌢⌣⌜⌝⌟. Mirror puzzle: P : Ԁ :: E : Ǝ, N : И :: C : Ɔ, b : ƃ, B : Ḃ, E : Ę, F : Ⅎ, L : ⅂ : ⅃. Hangul: ㄱ:ㄴ::ㄷ:ㄹ. Floor: ⌊7÷2⌋. Brackets: ⟨x⟩. ⊙ ∂ ⊃ ≡. Greek: Γ Φ Ω Ψ Η. Currency: € ₨. Repeating: 0.83̄.",
+      },
+    ]);
+    expect(scanForUnsupportedGlyphs(questions)).toEqual([]);
+  });
+
   it("flags a Wingdings/Symbol-paste character even though it decodes as a printable letter (the Q80 UPSS Set 1 failure)", () => {
     const { questions } = validateQuestionBookletTopic([
       { ...GOOD_QUESTION, question: "In the analogy ™™ Ç ?, what is the missing figure? (Vertical mirror)" },

@@ -49,9 +49,39 @@ describe("sanitizeForPdf", () => {
     expect(sanitizeForPdf("SP₁ and SP₂")).toBe("SP1 and SP2");
   });
 
-  it("handles the real chained chemistry-equation shape with an arrow and a gas-evolution marker", () => {
+  it("handles the real chained chemistry-equation shape with an arrow and an up-arrow marker", () => {
+    // ↑ is deliberately context-free ("(up arrow)") rather than
+    // chemistry-specific wording, since the same character is reused for
+    // plain compass-direction reasoning questions elsewhere in the corpus.
     expect(sanitizeForPdf("H₂SO₄ + Na₂CO₃ → Na₂SO₄ + H₂O + CO₂↑")).toBe(
-      "H2SO4 + Na2CO3 -> Na2SO4 + H2O + CO2 (gas released)"
+      "H2SO4 + Na2CO3 -> Na2SO4 + H2O + CO2 (up arrow)"
     );
+  });
+
+  it("substitutes the diagonal/directional arrows and uppercase Greek letters found in class6/en non-verbal-reasoning content", () => {
+    expect(sanitizeForPdf("Leftward (←), Downward (↓), up-left (↖), up-right (↗), down-right (↘), down-left (↙)")).toBe(
+      "Leftward ( (left arrow)), Downward ( (down arrow)), up-left ( (up-left arrow)), up-right ( (up-right arrow)), down-right ( (down-right arrow)), down-left ( (down-left arrow))"
+    );
+    expect(sanitizeForPdf("Γ shape, Φ : Φ :: Ω : ?, Ψ, 'ΗI' reversed")).toBe("Gamma shape, Phi : Phi :: Omega : ?, Psi, 'EtaI' reversed");
+  });
+
+  it("substitutes non-verbal-reasoning shape glyphs by name, distinguishing filled vs. outline", () => {
+    expect(sanitizeForPdf("★ ☆ ✦ ♥ ♡ ◆ ◇ ◈ ◊ ● ○ ◯ ■ □ ☐")).toBe(
+      "(filled star) (star) (four-pointed star) (filled heart) (heart) (filled diamond) (diamond) (diamond-in-diamond) (small diamond) (filled circle) (circle) (large circle) (filled square) (square) (empty box)"
+    );
+    expect(sanitizeForPdf("▲ △ ▼ ▽ ∇ ◀ ◁ ▶ ▷")).toBe(
+      "(filled triangle, up) (triangle, up) (filled triangle, down) (triangle, down) (triangle, down) (filled triangle, left) (triangle, left) (filled triangle, right) (triangle, right)"
+    );
+  });
+
+  it("substitutes the topic-31 mirror-letter and Hangul-jamo analogy glyphs and the floor-function brackets", () => {
+    expect(sanitizeForPdf("P : Ԁ :: E : Ǝ, N : И :: C : Ɔ")).toBe("P : (mirrored P) :: E : (mirrored E), N : (mirrored N) :: C : (mirrored C)");
+    expect(sanitizeForPdf("ㄱ : ㄴ :: ㄷ : ㄹ")).toBe("(Hangul kiyeok symbol) : (Hangul nieun symbol) :: (Hangul tikeut symbol) : (Hangul rieul symbol)");
+    expect(sanitizeForPdf("layers = ⌊7÷2⌋ = ⌊3.5⌋ = 3")).toBe("layers = floor(7÷2) = floor(3.5) = 3");
+  });
+
+  it("substitutes currency symbols and the repeating-decimal combining macron", () => {
+    expect(sanitizeForPdf("The symbol € and ₨ represent currency")).toBe("The symbol EUR  and Rs.  represent currency");
+    expect(sanitizeForPdf("0.8333... or 0.83̄ (repeating decimal)")).toBe("0.8333... or 0.83... (repeating) (repeating decimal)");
   });
 });
