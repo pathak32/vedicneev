@@ -53,6 +53,15 @@ const CLASS_9_RANGES: TopicRangeRule[] = [
   // section: world geography, full-forms/abbreviations, space & science
   // facts, sports & awards, government schemes).
   { from: 73, to: 77, sectionKey: "general_knowledge" },
+  // New non-verbal/figural reasoning topics — class9 previously had zero
+  // (class6 has rich coverage at topics 25-38, never carried forward).
+  // All written as plain text (no diagrams), the same way dice/mirror/
+  // paper-folding questions already appear in real text-only exam banks.
+  { from: 78, to: 81, sectionKey: "mental_ability" },
+  // New Polygons topic (interior/exterior angles, diagonals, regular
+  // polygon properties) — a real UPSS booklet has several such questions
+  // that didn't cleanly belong to any existing Triangles/Quadrilaterals topic.
+  { from: 82, to: 82, sectionKey: "mathematics" },
 ];
 
 /**
