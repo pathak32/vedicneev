@@ -5,6 +5,7 @@ import { getAuthenticatedAdmin } from "@/lib/admin/user";
 import { composeLinkedInPost } from "@/lib/linkedin/composePost";
 import { publishLinkedInPost, type PublishLinkedInPostResult } from "@/lib/linkedin/linkedinService";
 import { mirrorToCompanyPage } from "@/lib/linkedin/pageMirror";
+import { getPostCard } from "@/lib/linkedin/cardFetch";
 
 export const dynamic = "force-dynamic";
 
@@ -45,9 +46,10 @@ export async function POST(request: Request) {
   // LinkedIn credentials configured in this project yet, so log the exact
   // payload and proceed as if the dispatch succeeded rather than failing
   // the whole admin action.
+  const card = accessToken && authorUrn ? await getPostCard(block) : null;
   const result: PublishLinkedInPostResult =
     accessToken && authorUrn
-      ? await publishLinkedInPost(text)
+      ? await publishLinkedInPost(text, card ? { bytes: card.bytes, altText: card.altText } : undefined)
       : (() => {
           // eslint-disable-next-line no-console
           console.info("[mock LinkedIn] Not actually published. Post text:", text);
@@ -65,7 +67,7 @@ export async function POST(request: Request) {
 
   // Only a real profile post is copied to the Company Page, never a mock run.
   if (accessToken && authorUrn) {
-    const mirror = await mirrorToCompanyPage({ blockId: block.id, text });
+    const mirror = await mirrorToCompanyPage({ blockId: block.id, text, imageUrl: card?.url });
     if (mirror.attempted && !mirror.ok) console.warn("[LinkedIn page mirror] failed:", mirror.error);
   }
 

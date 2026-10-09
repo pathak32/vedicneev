@@ -18,7 +18,12 @@ export interface PageMirrorResult {
   error?: string;
 }
 
-export async function mirrorToCompanyPage(input: { blockId: string; text: string }): Promise<PageMirrorResult> {
+export async function mirrorToCompanyPage(input: {
+  blockId: string;
+  text: string;
+  // Present only for posts with an image card; Make.com can route on it.
+  imageUrl?: string;
+}): Promise<PageMirrorResult> {
   const url = process.env.MAKE_LINKEDIN_WEBHOOK_URL;
   if (!url) return { attempted: false, ok: false };
 
@@ -26,7 +31,7 @@ export async function mirrorToCompanyPage(input: { blockId: string; text: string
     const response = await fetch(url, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ blockId: input.blockId, text: input.text }),
+      body: JSON.stringify({ blockId: input.blockId, text: input.text, imageUrl: input.imageUrl ?? "" }),
       signal: AbortSignal.timeout(TIMEOUT_MS),
     });
     if (!response.ok) return { attempted: true, ok: false, error: `Webhook returned ${response.status}.` };

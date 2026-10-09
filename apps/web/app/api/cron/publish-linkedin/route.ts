@@ -4,6 +4,7 @@ import { prisma } from "@vedicneev/db";
 import { composeLinkedInPost } from "@/lib/linkedin/composePost";
 import { publishLinkedInPost } from "@/lib/linkedin/linkedinService";
 import { mirrorToCompanyPage } from "@/lib/linkedin/pageMirror";
+import { getPostCard } from "@/lib/linkedin/cardFetch";
 
 /**
  * Vercel Cron target (see vercel.json) that posts SCHEDULED content blocks
@@ -42,7 +43,10 @@ export async function GET(request: Request) {
   const results: { id: string; ok: boolean; error?: string }[] = [];
   for (const block of due) {
     const text = composeLinkedInPost(block);
-    const result = await publishLinkedInPost(text);
+    // Maths posts get an image card when LINKEDIN_IMAGE_CARDS=true; null means plain text.
+    const card = await getPostCard(block);
+    const result = await publishLinkedInPost(text, card ? { bytes: card.bytes, altText: card.altText } : undefined);
+    if (card && result.imageSkipped) console.warn("[LinkedIn card] image could not be attached; posted as text.");
     if (!result.success) {
       results.push({ id: block.id, ok: false, error: result.error });
       continue;
@@ -52,7 +56,7 @@ export async function GET(request: Request) {
       data: { status: "PUBLISHED", publishedAt: new Date(), linkedinPostUrn: result.postUrn },
     });
     // Best-effort copy to the Company Page via Make.com; never affects the result above.
-    const mirror = await mirrorToCompanyPage({ blockId: block.id, text });
+    const mirror = await mirrorToCompanyPage({ blockId: block.id, text, imageUrl: card?.url });
     if (mirror.attempted && !mirror.ok) console.warn("[LinkedIn page mirror] failed:", mirror.error);
     results.push({ id: block.id, ok: true });
   }
