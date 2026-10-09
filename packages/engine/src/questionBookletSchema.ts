@@ -278,22 +278,56 @@ export interface GlyphFinding {
 // outside the allowlist rather than only checking "does Helvetica have a
 // glyph for this."
 //
-// ₹/π/√/≈/≠/≤/≥/∞ are a SEPARATE, already-solved case: apps/web/scripts/
-// lib/pdfFonts.mts's sanitizeForPdf() reliably substitutes every one of
-// these for a plain-ASCII equivalent (₹→"Rs. ", √→"sqrt ", etc.) before any
-// PDF is rendered — they are routine in profit/loss and
-// area/perimeter/HCF-LCM content. This scan runs on the RAW pre-sanitized
-// text, so without this exclusion it mass-flags perfectly fine, already-
-// handled questions across dozens of topics (confirmed: a first version of
-// this scanner wrongly excluded 70-80+ questions each from topics 47-61,
-// the profit/loss and area/perimeter ranges) instead of only catching the
-// genuinely-unhandled Wingdings/Symbol-paste failure this scan exists for.
-const GLYPH_SAFE_EXTRA_CHARS = new Set(["°", "×", "÷", "½", "¼", "¾", "²", "³", "’", "‘", "“", "”", "–", "—", "…", "•", "·", "₹", "π", "√", "≈", "≠", "≤", "≥", "∞"]);
+// Latin-1 Supplement (U+00A0-U+00FF) matches WinAnsiEncoding exactly in
+// that range (°, ×, ÷, ½, ¼, ¾, ², ³, ¹, è, etc. all live here) — safe to
+// render as-is in a Helvetica PDF with no substitution, so treated as an
+// inherently-safe range rather than an ever-growing hand-picked list.
+const LATIN1_SUPPLEMENT_MIN = 0xa0;
+const LATIN1_SUPPLEMENT_MAX = 0xff;
+
+// ₹/π/√/≈/≠/≤/≥/∞ (and the larger set added below — arrows, minus sign,
+// check/cross marks, set-theory/geometry notation, Greek letters, and
+// super/subscript digits and letters) are a SEPARATE, already-solved case:
+// apps/web/scripts/lib/pdfFonts.mts's sanitizeForPdf() reliably substitutes
+// every one of these for a plain-ASCII equivalent (₹→"Rs. ", √→"sqrt ",
+// →→"->", θ→"theta", superscript runs→"^(...)", etc.) before any PDF is
+// rendered. This scan runs on the RAW pre-sanitized text, so without this
+// exclusion it mass-flags perfectly fine, already-handled questions
+// (confirmed twice now: a first version wrongly excluded 70-80+ questions
+// each from topics 47-61 over ₹/π/√ alone; a full corpus scan of class6/en
+// + class9/en then found ~55 more such characters — most of them ordinary
+// geometry/algebra/chemistry notation like ∠, ∛, θ, H₂O-style subscripts,
+// and aⁿ-style superscripts — totaling thousands of flagged questions that
+// were never actually broken, just unhandled by this allowlist) instead of
+// only catching the genuinely-unhandled Wingdings/Symbol-paste failure this
+// scan exists for.
+const GLYPH_SAFE_EXTRA_CHARS = new Set([
+  // CP1252 punctuation outside the Latin-1 Supplement range (smart quotes, dashes, ellipsis, bullet)
+  "’", "‘", "“", "”", "–", "—", "…", "•", "·",
+  // Substitution-handled by sanitizeForPdf (see comment above)
+  "₹", "π", "√", "≈", "≠", "≤", "≥", "∞",
+  "−", "→", "↔", "↑", "↓", "↖", "↗", "↘", "↙", "←", "⇌", "⟹", "✓", "✗",
+  "∠", "∛", "⅓", "⅔", "⅑", "∩", "∪", "⊆", "⊂", "⊃", "∈", "∅", "∥", "⊥", "∝", "≅", "≡",
+  "θ", "λ", "μ", "β", "α", "η", "Δ", "Γ", "Φ", "Ω", "Ψ", "Η",
+  // Non-verbal-reasoning shape glyphs (see pdfFonts.mts's comment for why these are substituted, not rendered literally)
+  "★", "☆", "✦", "♥", "♡", "◆", "◇", "◈", "◊", "●", "○", "◯", "■", "□", "☐",
+  "▲", "△", "▼", "▽", "∇", "◀", "◁", "▶", "▷", "◹", "◸", "◺", "◷",
+  "⌐", "⌢", "⌣", "⌜", "⌝", "⌞", "⌟", "⌊", "⌋", "⟨", "⟩", "⊙", "∂", "┌",
+  // "Mirror image of a letter" analogy-puzzle glyphs (topic-31) and the Hangul jamo used alongside them — see pdfFonts.mts's comment
+  "Ⅎ", "⅂", "⅃", "Ԁ", "Я", "Ǝ", "Ɔ", "ƃ", "Ę", "Ḃ", "И", "ㄱ", "ㄴ", "ㄷ", "ㄹ",
+  "€", "₨", "̄",
+  // Superscript block (exponents) — collapsed to "^(...)" by sanitizeForPdf. ¹²³ excluded: those are Latin-1 Supplement and already safe as-is.
+  "⁰", "⁴", "⁵", "⁶", "⁷", "⁸", "⁹", "⁺", "⁻", "⁽", "⁾", "ⁿ", "ᵃ", "ᵏ", "ᵒ", "ᵖ", "ʸ", "ˣ", "ʳ", "ᵐ",
+  // Subscript block (e.g. H₂O, SP₁, θᵢ/θᵣ) — collapsed to plain digits/letters by sanitizeForPdf
+  "₀", "₁", "₂", "₃", "₄", "₅", "₆", "₇", "₈", "₉", "₊", "₋", "ₙ", "ᵢ", "ᵣ",
+]);
 
 function firstSuspiciousChar(text: string): { char: string; codePoint: number } | null {
   for (const char of text) {
     const codePoint = char.codePointAt(0)!;
     if (codePoint >= 0x20 && codePoint <= 0x7e) continue;
+    if (codePoint === 0x0a || codePoint === 0x09) continue; // newline/tab — a line break, not a glyph problem
+    if (codePoint >= LATIN1_SUPPLEMENT_MIN && codePoint <= LATIN1_SUPPLEMENT_MAX) continue;
     if (GLYPH_SAFE_EXTRA_CHARS.has(char)) continue;
     return { char, codePoint };
   }

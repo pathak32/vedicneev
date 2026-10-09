@@ -129,14 +129,17 @@ const CLASS_LEVELS: QuestionBookletClassLevel[] = [6, 9];
 const LANGUAGES: BookletLanguage[] = ["en", "hi"];
 const LANGUAGE_TO_PRISMA: Record<BookletLanguage, "EN" | "HI"> = { en: "EN", hi: "HI" };
 
-// Per explicit user decision (see _review/OPEN_ISSUES.md, "URGENT: class9/hi
-// translation script is broken"): most class9/hi topic files on disk are
-// untranslated raw English, not real Hindi, even though they pass structural
-// validation and the artifact scan (both only check shape/known phrases, not
-// language). Packaging would otherwise ship that content as a "Hindi" book.
-// Paused until the translation is fixed and re-verified — remove this once
-// class9/hi is back in scope.
-const PAUSED_COMBOS = new Set<string>(["9-hi"]);
+// class9/hi was paused per _review/OPEN_ISSUES.md ("URGENT: class9/hi
+// translation script is broken" — most topic files on disk were untranslated
+// raw English, not real Hindi, even though they passed structural validation
+// and the artifact scan, since both only check shape/known phrases, not
+// language). All 56 affected topics have since been retranslated and
+// verified (schema-valid, numbers/answers unchanged, self-correction-phrase-
+// free, English test material kept verbatim where the topic tests English
+// itself). Unpaused — class9/hi is still gated as normal by
+// SECOND_PASS_CLEARED.json below until the retranslated topics are added to
+// that manifest.
+const PAUSED_COMBOS = new Set<string>([]);
 
 // Structural validity + the artifact scan alone are not enough to call a
 // topic sellable — this project's whole second-pass process exists because
