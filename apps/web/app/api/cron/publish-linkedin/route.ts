@@ -3,6 +3,7 @@ import { prisma } from "@vedicneev/db";
 
 import { composeLinkedInPost } from "@/lib/linkedin/composePost";
 import { publishLinkedInPost } from "@/lib/linkedin/linkedinService";
+import { mirrorToCompanyPage } from "@/lib/linkedin/pageMirror";
 
 /**
  * Vercel Cron target (see vercel.json) that posts SCHEDULED content blocks
@@ -40,7 +41,8 @@ export async function GET(request: Request) {
 
   const results: { id: string; ok: boolean; error?: string }[] = [];
   for (const block of due) {
-    const result = await publishLinkedInPost(composeLinkedInPost(block));
+    const text = composeLinkedInPost(block);
+    const result = await publishLinkedInPost(text);
     if (!result.success) {
       results.push({ id: block.id, ok: false, error: result.error });
       continue;
@@ -49,6 +51,9 @@ export async function GET(request: Request) {
       where: { id: block.id },
       data: { status: "PUBLISHED", publishedAt: new Date(), linkedinPostUrn: result.postUrn },
     });
+    // Best-effort copy to the Company Page via Make.com; never affects the result above.
+    const mirror = await mirrorToCompanyPage({ blockId: block.id, text });
+    if (mirror.attempted && !mirror.ok) console.warn("[LinkedIn page mirror] failed:", mirror.error);
     results.push({ id: block.id, ok: true });
   }
 

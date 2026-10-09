@@ -4,6 +4,7 @@ import { prisma } from "@vedicneev/db";
 import { getAuthenticatedAdmin } from "@/lib/admin/user";
 import { composeLinkedInPost } from "@/lib/linkedin/composePost";
 import { publishLinkedInPost, type PublishLinkedInPostResult } from "@/lib/linkedin/linkedinService";
+import { mirrorToCompanyPage } from "@/lib/linkedin/pageMirror";
 
 export const dynamic = "force-dynamic";
 
@@ -61,6 +62,12 @@ export async function POST(request: Request) {
     where: { id: block.id },
     data: { status: "PUBLISHED", publishedAt: new Date(), linkedinPostUrn: result.postUrn },
   });
+
+  // Only a real profile post is copied to the Company Page, never a mock run.
+  if (accessToken && authorUrn) {
+    const mirror = await mirrorToCompanyPage({ blockId: block.id, text });
+    if (mirror.attempted && !mirror.ok) console.warn("[LinkedIn page mirror] failed:", mirror.error);
+  }
 
   return NextResponse.json({ success: true, block: updated, mock: !accessToken || !authorUrn });
 }
