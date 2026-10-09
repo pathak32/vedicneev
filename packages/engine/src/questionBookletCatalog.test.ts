@@ -32,6 +32,7 @@ describe("sectionKeyForTopic", () => {
       [49, 58, "language"],
       [59, 69, "science"],
       [70, 72, "social_science"],
+      [73, 77, "general_knowledge"],
     ];
     for (const [from, to, sectionKey] of expectations) {
       expect(sectionKeyForTopic(9, from)).toBe(sectionKey);
@@ -42,6 +43,7 @@ describe("sectionKeyForTopic", () => {
   it("rejects an out-of-range topic number", () => {
     expect(() => sectionKeyForTopic(6, 73)).toThrow();
     expect(() => sectionKeyForTopic(6, 0)).toThrow();
+    expect(() => sectionKeyForTopic(9, 78)).toThrow();
   });
 });
 

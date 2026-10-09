@@ -46,8 +46,25 @@ export const EXAM_LABEL: Record<QuestionBookletExamType, string> = {
   UPSS: "UPSS",
 };
 
-/** One of the 4 syllabus sections sectionKeyForTopic ever returns. */
+/** One of the 4 syllabus sections a mock paper ever draws from. */
 export type SectionKey = "mental_ability" | "arithmetic" | "language" | "general_knowledge";
+
+/**
+ * questionBookletCatalog's sectionKeyForTopic returns finer-grained labels
+ * than this module's 4-bucket SectionKey — class9 topics come back as
+ * "mathematics", "science" or "social_science" rather than "arithmetic" /
+ * "general_knowledge". Science and social-science topics are both general
+ * knowledge for exam-section purposes (same as questionBookletCatalog's own
+ * JNVST_EXCLUDED_SECTION_KEYS already treating all three identically).
+ * Without this normalization, every class9 sample paper would silently pull
+ * zero Mathematics and zero General Knowledge questions, since nothing
+ * would ever match those two bucket names.
+ */
+function toSectionKey(rawSectionKey: string): SectionKey {
+  if (rawSectionKey === "mathematics") return "arithmetic";
+  if (rawSectionKey === "science" || rawSectionKey === "social_science") return "general_knowledge";
+  return rawSectionKey as SectionKey;
+}
 
 export interface ExamSectionSpec {
   section: SectionKey;
@@ -322,7 +339,7 @@ export function selectSets(exam: QuestionBookletExamType, classLevel: QuestionBo
 
   const poolBySection = new Map<SectionKey, MockPaperQuestion[]>();
   for (const q of pool) {
-    const section = sectionOf(classLevel, q.topicNumber) as SectionKey;
+    const section = toSectionKey(sectionOf(classLevel, q.topicNumber));
     const bucket = poolBySection.get(section) ?? [];
     bucket.push(q);
     poolBySection.set(section, bucket);

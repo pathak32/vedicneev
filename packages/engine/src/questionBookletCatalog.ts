@@ -2,13 +2,19 @@
  * Shared topic catalog for the externally-authored question bank (see
  * D:\Projects\notes handwritten\questions\{class6,class9}\{en,hi}\topic-N.json
  * — outside this repo, produced/fixed by a separate authoring pass). This
- * is the SAME 1-72-per-class-level numbering and sectionKey assignment as
- * TopicNotePdf/seed-study-note-pdfs.ts's CLASS_6_RANGES/CLASS_9_RANGES
- * (verified live against the DB there) — duplicated here rather than
- * imported because that file lives in packages/db/prisma (a seed script,
- * not an importable module) while this needs to be usable from a pure
- * packaging script with no Prisma/DB dependency. Keep the two in sync if
- * the numbering ever changes.
+ * was originally the SAME 1-72-per-class-level numbering and sectionKey
+ * assignment as TopicNotePdf/seed-study-note-pdfs.ts's CLASS_6_RANGES/
+ * CLASS_9_RANGES (verified live against the DB there) — duplicated here
+ * rather than imported because that file lives in packages/db/prisma (a
+ * seed script, not an importable module) while this needs to be usable
+ * from a pure packaging script with no Prisma/DB dependency.
+ *
+ * Class 9 topics 73+ (added to close a General Knowledge coverage gap) are
+ * NEW to this catalog only — they intentionally do NOT exist in
+ * seed-study-note-pdfs.ts, which seeds a separate markdown-based study-notes
+ * product from its own externally-authored topic-N.md files. Adding topics
+ * here does not add them there; that's separate content work for that
+ * product if it's ever wanted. Keep the two in sync for topics 1-72 only.
  */
 
 export type QuestionBookletClassLevel = 6 | 9;
@@ -41,6 +47,12 @@ const CLASS_9_RANGES: TopicRangeRule[] = [
   { from: 49, to: 58, sectionKey: "language" },
   { from: 59, to: 69, sectionKey: "science" },
   { from: 70, to: 72, sectionKey: "social_science" },
+  // New topics authored to close the General Knowledge coverage gap found
+  // against a real UPSS Class IX question booklet (class9 previously had
+  // only 3 GK-adjacent topics — 70-72 — against that exam's broad GK
+  // section: world geography, full-forms/abbreviations, space & science
+  // facts, sports & awards, government schemes).
+  { from: 73, to: 77, sectionKey: "general_knowledge" },
 ];
 
 /**
@@ -53,10 +65,19 @@ const CLASS_9_RANGES: TopicRangeRule[] = [
  */
 const JNVST_EXCLUDED_SECTION_KEYS = new Set(["general_knowledge", "science", "social_science"]);
 
+function rangesFor(classLevel: QuestionBookletClassLevel): TopicRangeRule[] {
+  return classLevel === 6 ? CLASS_6_RANGES : CLASS_9_RANGES;
+}
+
+/** The highest topic number defined for this class level — not hardcoded, so adding a new range entry automatically extends every function below. */
+function maxTopicNumber(classLevel: QuestionBookletClassLevel): number {
+  return Math.max(...rangesFor(classLevel).map((r) => r.to));
+}
+
 function resolveRange(classLevel: QuestionBookletClassLevel, topicNumber: number): TopicRangeRule {
-  const ranges = classLevel === 6 ? CLASS_6_RANGES : CLASS_9_RANGES;
+  const ranges = rangesFor(classLevel);
   const match = ranges.find((r) => topicNumber >= r.from && topicNumber <= r.to);
-  if (!match) throw new Error(`No section range covers class ${classLevel} topic ${topicNumber} (expected 1-72).`);
+  if (!match) throw new Error(`No section range covers class ${classLevel} topic ${topicNumber} (expected 1-${maxTopicNumber(classLevel)}).`);
   return match;
 }
 
@@ -80,10 +101,10 @@ export function isTopicInExamSyllabus(
   return !JNVST_EXCLUDED_SECTION_KEYS.has(sectionKeyForTopic(classLevel, topicNumber));
 }
 
-/** Every topic number (1-72) included in this exam's syllabus for this class level, in order. */
+/** Every topic number included in this exam's syllabus for this class level, in order. */
 export function topicNumbersForExam(examType: QuestionBookletExamType, classLevel: QuestionBookletClassLevel): number[] {
   const numbers: number[] = [];
-  for (let topicNumber = 1; topicNumber <= 72; topicNumber++) {
+  for (let topicNumber = 1; topicNumber <= maxTopicNumber(classLevel); topicNumber++) {
     if (isTopicInExamSyllabus(examType, classLevel, topicNumber)) numbers.push(topicNumber);
   }
   return numbers;
