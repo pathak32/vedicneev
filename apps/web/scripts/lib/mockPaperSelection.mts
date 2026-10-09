@@ -76,12 +76,15 @@ export interface ExamPattern {
  * Intelligence 25q/50m (2/q), General Knowledge 25q/50m (2/q). Source:
  * official NTA pattern as reported by Careers360 for the April 2025 sitting.
  *
- * UPSS (UP Sainik School) Class 6: confirmed to be the UP Sainik School
- * Society's OWN separate entrance exam (different conducting body and exam
- * date from the national AISSEE), but the section/question/mark structure
- * could not be independently verified against UP Sainik School's own
- * official pattern document — reusing the AISSEE structure here as the
- * best available estimate (patternIsEstimated: true) pending confirmation.
+ * UPSS (UP Sainik School) Class 9, 2025-26: confirmed against an actual
+ * official CET-2025-2026 Class IX question booklet (Set A) — 200 questions /
+ * 200 marks (1 mark flat, every question) / 2.5 hours, no negative marking.
+ * Printed structure: Part-1 English (50 Ques.), Part-2 General Knowledge
+ * (50 Ques.), Part-3 Mathematics/Intelligence Test (75+25 Ques.) — i.e.
+ * Mathematics 75 + Intelligence Test 25 inside one combined part. This
+ * replaces the earlier AISSEE-shaped estimate below, which had the English
+ * and General Knowledge counts at half their real size and used 2-3 marks
+ * per question instead of a flat 1.
  *
  * RMS Class 6: web research for this module found a DIFFERENT published
  * figure (4 sections — English/Mathematics/Intelligence/GK — at 50 marks
@@ -118,14 +121,14 @@ export const EXAM_PATTERNS: Record<QuestionBookletExamType, ExamPattern> = {
   },
   UPSS: {
     sections: [
-      { section: "language", label: "Language", count: 25, marksEach: 2 },
-      { section: "arithmetic", label: "Mathematics", count: 50, marksEach: 3 },
-      { section: "mental_ability", label: "Intelligence", count: 25, marksEach: 2 },
-      { section: "general_knowledge", label: "General Knowledge", count: 25, marksEach: 2 },
+      { section: "language", label: "English", count: 50, marksEach: 1 },
+      { section: "general_knowledge", label: "General Knowledge", count: 50, marksEach: 1 },
+      { section: "arithmetic", label: "Mathematics", count: 75, marksEach: 1 },
+      { section: "mental_ability", label: "Intelligence Test", count: 25, marksEach: 1 },
     ],
     durationMinutes: 150,
     negativeMarking: false,
-    patternIsEstimated: true,
+    patternIsEstimated: false,
   },
   RMS: {
     sections: [
