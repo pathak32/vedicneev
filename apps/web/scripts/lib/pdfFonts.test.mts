@@ -80,6 +80,13 @@ describe("sanitizeForPdf", () => {
     expect(sanitizeForPdf("layers = ⌊7÷2⌋ = ⌊3.5⌋ = 3")).toBe("layers = floor(7÷2) = floor(3.5) = 3");
   });
 
+  it("substitutes box-drawing and bottom-left-corner letter-shape glyphs (found in a third scan of class6/en)", () => {
+    expect(sanitizeForPdf("the letter looks like '┌' (corner at the top)")).toBe(
+      "the letter looks like '(top-left corner shape)' (corner at the top)"
+    );
+    expect(sanitizeForPdf("reflected left to right (like: ⌞)")).toBe("reflected left to right (like: (bottom-left corner bracket))");
+  });
+
   it("substitutes currency symbols and the repeating-decimal combining macron", () => {
     expect(sanitizeForPdf("The symbol € and ₨ represent currency")).toBe("The symbol EUR  and Rs.  represent currency");
     expect(sanitizeForPdf("0.8333... or 0.83̄ (repeating decimal)")).toBe("0.8333... or 0.83... (repeating) (repeating decimal)");

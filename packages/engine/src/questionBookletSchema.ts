@@ -312,7 +312,7 @@ const GLYPH_SAFE_EXTRA_CHARS = new Set([
   // Non-verbal-reasoning shape glyphs (see pdfFonts.mts's comment for why these are substituted, not rendered literally)
   "★", "☆", "✦", "♥", "♡", "◆", "◇", "◈", "◊", "●", "○", "◯", "■", "□", "☐",
   "▲", "△", "▼", "▽", "∇", "◀", "◁", "▶", "▷", "◹", "◸", "◺", "◷",
-  "⌐", "⌢", "⌣", "⌜", "⌝", "⌟", "⌊", "⌋", "⟨", "⟩", "⊙", "∂",
+  "⌐", "⌢", "⌣", "⌜", "⌝", "⌞", "⌟", "⌊", "⌋", "⟨", "⟩", "⊙", "∂", "┌",
   // "Mirror image of a letter" analogy-puzzle glyphs (topic-31) and the Hangul jamo used alongside them — see pdfFonts.mts's comment
   "Ⅎ", "⅂", "⅃", "Ԁ", "Я", "Ǝ", "Ɔ", "ƃ", "Ę", "Ḃ", "И", "ㄱ", "ㄴ", "ㄷ", "ㄹ",
   "€", "₨", "̄",

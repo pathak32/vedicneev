@@ -172,7 +172,7 @@ describe("scanForUnsupportedGlyphs", () => {
         ...GOOD_QUESTION,
         question: "Leftward (←), Downward (↓), up-left (↖), up-right (↗), down-right (↘), down-left (↙). A star (★☆✦), heart (♥♡), diamond (◆◇◈◊), circle (●○◯), square (■□☐).",
         explanation:
-          "Triangles: ▲△▼▽∇◀◁▶◊◷◸◹◺. Arc/corner: ⌐⌢⌣⌜⌝⌟. Mirror puzzle: P : Ԁ :: E : Ǝ, N : И :: C : Ɔ, b : ƃ, B : Ḃ, E : Ę, F : Ⅎ, L : ⅂ : ⅃. Hangul: ㄱ:ㄴ::ㄷ:ㄹ. Floor: ⌊7÷2⌋. Brackets: ⟨x⟩. ⊙ ∂ ⊃ ≡. Greek: Γ Φ Ω Ψ Η. Currency: € ₨. Repeating: 0.83̄.",
+          "Triangles: ▲△▼▽∇◀◁▶◊◷◸◹◺. Arc/corner: ⌐⌢⌣⌜⌝⌞⌟┌. Mirror puzzle: P : Ԁ :: E : Ǝ, N : И :: C : Ɔ, b : ƃ, B : Ḃ, E : Ę, F : Ⅎ, L : ⅂ : ⅃. Hangul: ㄱ:ㄴ::ㄷ:ㄹ. Floor: ⌊7÷2⌋. Brackets: ⟨x⟩. ⊙ ∂ ⊃ ≡. Greek: Γ Φ Ω Ψ Η. Currency: € ₨. Repeating: 0.83̄.",
       },
     ]);
     expect(scanForUnsupportedGlyphs(questions)).toEqual([]);
