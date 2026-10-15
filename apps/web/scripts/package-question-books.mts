@@ -65,6 +65,7 @@ import { renderToBuffer } from "@react-pdf/renderer";
 import type {
   extractTopicTitle,
   isTopicInExamSyllabus,
+  maxTopicNumber,
   scanForSelfCorrectionArtifacts,
   scanForUnsupportedGlyphs,
   validateQuestionBookletTopic,
@@ -75,6 +76,7 @@ import engineRuntime from "@vedicneev/engine";
 const {
   extractTopicTitle,
   isTopicInExamSyllabus,
+  maxTopicNumber,
   scanForSelfCorrectionArtifacts,
   scanForUnsupportedGlyphs,
   validateQuestionBookletTopic,
@@ -187,7 +189,7 @@ function loadCorpus(classLevel: QuestionBookletClassLevel, language: BookletLang
   const result: LoadedCorpus = { topics: [], missing: [], structuralErrors: [], artifactFlags: [], glyphFlags: [], notSecondPassCleared: [] };
   const cleared = loadClearedTopics(classLevel, language);
 
-  for (let topicNumber = 1; topicNumber <= 72; topicNumber++) {
+  for (let topicNumber = 1; topicNumber <= maxTopicNumber(classLevel); topicNumber++) {
     const filePath = topicFilePath(classLevel, language, topicNumber);
     if (!fs.existsSync(filePath)) {
       result.missing.push(topicNumber);
@@ -234,8 +236,9 @@ function loadCorpus(classLevel: QuestionBookletClassLevel, language: BookletLang
 
 function reportCorpus(classLevel: QuestionBookletClassLevel, language: BookletLanguage, corpus: LoadedCorpus) {
   const label = `class${classLevel}/${language}`;
+  const total = maxTopicNumber(classLevel);
   if (corpus.missing.length > 0) {
-    console.warn(`  [${label}] ${corpus.missing.length}/72 topic files not found (expected if that corpus isn't generated/synced yet).`);
+    console.warn(`  [${label}] ${corpus.missing.length}/${total} topic files not found (expected if that corpus isn't generated/synced yet).`);
   }
   if (corpus.structuralErrors.length > 0) {
     console.error(`  [${label}] ${corpus.structuralErrors.length} structural error(s):`);
@@ -259,7 +262,7 @@ function reportCorpus(classLevel: QuestionBookletClassLevel, language: BookletLa
   if (corpus.notSecondPassCleared.length > 0) {
     console.warn(`  [${label}] ${corpus.notSecondPassCleared.length} topic(s) structurally fine but not yet second-pass cleared, excluded from packaging: ${corpus.notSecondPassCleared.join(", ")}`);
   }
-  console.log(`  [${label}] ${corpus.topics.length}/72 topics second-pass cleared and ready to package.`);
+  console.log(`  [${label}] ${corpus.topics.length}/${total} topics second-pass cleared and ready to package.`);
 }
 
 /** Renders a compiled book, splitting into more volumes (never cutting a topic across two) until every volume fits under MAX_VOLUME_BYTES. */

@@ -79,7 +79,7 @@ function rangesFor(classLevel: QuestionBookletClassLevel): TopicRangeRule[] {
 }
 
 /** The highest topic number defined for this class level — not hardcoded, so adding a new range entry automatically extends every function below. */
-function maxTopicNumber(classLevel: QuestionBookletClassLevel): number {
+export function maxTopicNumber(classLevel: QuestionBookletClassLevel): number {
   return Math.max(...rangesFor(classLevel).map((r) => r.to));
 }
 
