@@ -8,12 +8,24 @@
  * script-only .mts/.ts file (no JSX pragma configured for this context).
  */
 import React from "react";
-import { Document, Page, Text, View } from "@react-pdf/renderer";
+import { Document, Link, Page, Text, View } from "@react-pdf/renderer";
 import type { QuestionBookletQuestion } from "@vedicneev/engine";
 
 import { buildPdfStyles, sanitizeForPdf } from "./pdfFonts.mjs";
 
 const h = React.createElement;
+
+const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=in.vedicmindai.app";
+
+/** Brand footer (site + app links) rendered on every page, including the cover, via `fixed`. */
+function brandFooter(styles: ReturnType<typeof buildPdfStyles>) {
+  return h(
+    View,
+    { style: styles.footerBrand, fixed: true },
+    h(Text, null, "vedicneev.com  •  omrtest.vedicneev.com  •  vedicmindai.in  •  App: "),
+    h(Link, { src: PLAY_STORE_URL, style: styles.footerBrandLink }, "VedicMindAi on Google Play")
+  );
+}
 
 const DIFFICULTY_LABEL = { EASY: "Easy", MEDIUM: "Medium", HARD: "Hard" } as const;
 
@@ -61,6 +73,7 @@ export function buildTopicDocument(
       h(Text, { style: styles.title }, `Class ${classLevel} — Topic ${topic.topicNumber}: ${topic.topicTitle}`),
       h(Text, { style: styles.subtitle }, `${topic.questions.length} questions with full worked solutions.`),
       ...topic.questions.map((q, i) => questionBlock(q, i + 1, styles)),
+      brandFooter(styles),
       h(Text, {
         style: styles.pageNumber,
         render: ({ pageNumber, totalPages }: { pageNumber: number; totalPages: number }) => `Page ${pageNumber} of ${totalPages}`,
@@ -153,6 +166,7 @@ export function buildCompiledBookDocument(
         ),
         ...topic.questions.map((q, i) => questionBlock(q, i + 1, styles)),
       ]),
+      brandFooter(styles),
       h(Text, {
         style: styles.pageNumber,
         render: ({ pageNumber, totalPages }: { pageNumber: number; totalPages: number }) => `Page ${pageNumber} of ${totalPages}`,

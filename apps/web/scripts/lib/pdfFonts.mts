@@ -309,6 +309,19 @@ export function buildPdfStyles(fontFamily: string) {
       fontSize: 8,
       color: "#888888",
     },
+    footerBrand: {
+      position: "absolute",
+      bottom: 20,
+      left: 40,
+      right: 140,
+      flexDirection: "row",
+      fontSize: 7,
+      color: "#999999",
+    },
+    footerBrandLink: {
+      color: "#999999",
+      textDecoration: "none",
+    },
   });
 }
 
