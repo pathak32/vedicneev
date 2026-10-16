@@ -279,8 +279,10 @@ export function buildPdfStyles(fontFamily: string) {
     subtitle: { fontSize: 10, color: "#555555", marginBottom: 10 },
     metaRow: { flexDirection: "row", flexWrap: "wrap", marginBottom: 10 },
     metaItem: { marginRight: 16, marginBottom: 2, color: "#555555" },
-    coverTopicsLabel: { fontSize: 10, marginBottom: 4, ...bold },
-    coverTopicsList: { fontSize: 9, color: "#333333", marginBottom: 14, lineHeight: 1.4 },
+    coverTopicsLabel: { fontSize: 10, marginBottom: 6, marginTop: 4, ...bold },
+    tocRow: { flexDirection: "row", justifyContent: "space-between", marginBottom: 3 },
+    tocTopic: { fontSize: 9, color: "#333333", flexGrow: 1, flexShrink: 1, paddingRight: 8 },
+    tocPage: { fontSize: 9, color: "#555555" },
     sectionHeading: {
       fontSize: 12,
       marginTop: 14,

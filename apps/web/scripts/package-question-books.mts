@@ -283,16 +283,38 @@ async function renderCompiledBookVolumes(
   const maxVolumeCount = startingVolumeCount + 10;
   for (let volumeCount = startingVolumeCount; volumeCount <= maxVolumeCount; volumeCount++) {
     const groups = splitTopicsIntoVolumes(topics, volumeCount);
+    // First pass also doubles as page-discovery: each topic heading's
+    // render() callback reports which page it actually landed on (via
+    // onTopicPage), captured per volume, so an accepted grouping can be
+    // re-rendered once more with real page numbers on its cover's table of
+    // contents — react-pdf has no way to look that up ahead of time from
+    // the cover itself. Rejected (oversized) candidates never get a second
+    // pass, so this stays cheap for the common case of 1-2 retries.
+    const pageMaps = groups.map(() => new Map<number, number>());
     const rendered = await Promise.all(
       groups.map(async (group, i) => {
         const volumeLabel = groups.length > 1 ? `Volume ${i + 1} of ${groups.length}` : undefined;
         const buffer = await renderToBuffer(
-          buildCompiledBookDocument({ examLabel, classLevel, languageLabel, volumeLabel }, group, styles)
+          buildCompiledBookDocument({ examLabel, classLevel, languageLabel, volumeLabel }, group, styles, {
+            onTopicPage: (topicNumber, pageNumber) => pageMaps[i]!.set(topicNumber, pageNumber),
+          })
         );
         return { volumeLabel, buffer };
       })
     );
-    if (rendered.every((r) => r.buffer.length <= MAX_VOLUME_BYTES)) return rendered;
+    if (rendered.every((r) => r.buffer.length <= MAX_VOLUME_BYTES)) {
+      return Promise.all(
+        groups.map(async (group, i) => {
+          const volumeLabel = rendered[i]!.volumeLabel;
+          const buffer = await renderToBuffer(
+            buildCompiledBookDocument({ examLabel, classLevel, languageLabel, volumeLabel }, group, styles, {
+              topicPageMap: pageMaps[i]!,
+            })
+          );
+          return { volumeLabel, buffer };
+        })
+      );
+    }
   }
   throw new Error(`Could not split ${examLabel} Class ${classLevel} (${languageLabel}) under ${MAX_VOLUME_BYTES} bytes even at ${maxVolumeCount} volumes.`);
 }

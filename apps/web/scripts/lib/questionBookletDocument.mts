@@ -78,22 +78,40 @@ export interface CompiledBookMeta {
   volumeLabel?: string;
 }
 
+export interface CompiledBookTocOptions {
+  /**
+   * Called once per topic, during layout, with the page number that
+   * topic's heading actually landed on within THIS volume's document
+   * (page 1 = this volume's own cover page). react-pdf only exposes a
+   * page number at the point in the document being laid out — there is
+   * no built-in way to look ahead from the cover and ask "what page will
+   * topic 37 start on?". Collect it here on a first, throwaway render
+   * pass, then pass the result back in as `topicPageMap` on a second real
+   * pass so the cover's table of contents can print real page numbers.
+   */
+  onTopicPage?: (topicNumber: number, pageNumber: number) => void;
+  /** Topic number -> page number within this volume, from a prior pass's onTopicPage calls. When provided, the cover prints a real page-numbered table of contents instead of a plain topic list. */
+  topicPageMap?: Map<number, number>;
+}
+
 /** The compiled master book for one (exam, class, language) — every syllabus-eligible topic's questions, in topic order, as one document. */
 export function buildCompiledBookDocument(
   meta: CompiledBookMeta,
   topics: BookletTopicSection[],
-  styles: ReturnType<typeof buildPdfStyles>
+  styles: ReturnType<typeof buildPdfStyles>,
+  tocOptions: CompiledBookTocOptions = {}
 ) {
   const totalQuestions = topics.reduce((sum, t) => sum + t.questions.length, 0);
   const volumeSuffix = meta.volumeLabel ? ` — ${meta.volumeLabel}` : "";
   const title = `${meta.examLabel} Class ${meta.classLevel} Question Bank${meta.languageLabel ? ` (${meta.languageLabel})` : ""}${volumeSuffix}`;
+  const { onTopicPage, topicPageMap } = tocOptions;
 
   return h(
     Document,
     { title },
     h(
       Page,
-      { size: "A4", style: styles.page },
+      { size: "A4", style: styles.page, bookmark: "Cover & Table of Contents" },
       h(Text, { style: styles.title }, title),
       h(
         Text,
@@ -106,17 +124,32 @@ export function buildCompiledBookDocument(
         h(Text, { style: styles.metaItem }, `Topics: ${topics.length}`),
         h(Text, { style: styles.metaItem }, `Total Questions: ${totalQuestions}`)
       ),
-      h(Text, { style: styles.coverTopicsLabel }, "Topics covered in this volume:"),
-      h(
-        Text,
-        { style: styles.coverTopicsList },
-        topics.map((t) => `${t.topicNumber}. ${t.topicTitle}`).join("   •   ")
+      h(Text, { style: styles.coverTopicsLabel }, "Table of Contents:"),
+      ...topics.map((t) =>
+        h(
+          View,
+          { key: `toc-${t.topicNumber}`, style: styles.tocRow },
+          h(Text, { style: styles.tocTopic }, `${t.topicNumber}. ${t.topicTitle}`),
+          h(
+            Text,
+            { style: styles.tocPage },
+            topicPageMap ? `Page ${topicPageMap.get(t.topicNumber) ?? "?"}` : ""
+          )
+        )
       ),
       ...topics.flatMap((topic) => [
         h(
           Text,
-          { key: `heading-${topic.topicNumber}`, style: styles.sectionHeading },
-          `Topic ${topic.topicNumber}: ${topic.topicTitle} (${topic.questions.length} questions)`
+          {
+            key: `heading-${topic.topicNumber}`,
+            style: styles.sectionHeading,
+            break: true,
+            bookmark: `${topic.topicNumber}. ${topic.topicTitle}`,
+            render: ({ pageNumber }: { pageNumber: number }) => {
+              onTopicPage?.(topic.topicNumber, pageNumber);
+              return `Topic ${topic.topicNumber}: ${topic.topicTitle} (${topic.questions.length} questions)`;
+            },
+          }
         ),
         ...topic.questions.map((q, i) => questionBlock(q, i + 1, styles)),
       ]),
