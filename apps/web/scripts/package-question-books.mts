@@ -408,6 +408,7 @@ async function main() {
 
           const storagePath = `question-books/compiled/${id}.pdf`;
           writeLocal(storagePath, buffer);
+          bookCount++;
 
           if (dryRun) continue;
 
@@ -441,7 +442,6 @@ async function main() {
               isActive: true,
             },
           });
-          bookCount++;
         }
       }
     }
