@@ -106,6 +106,12 @@ export function buildCompiledBookDocument(
         h(Text, { style: styles.metaItem }, `Topics: ${topics.length}`),
         h(Text, { style: styles.metaItem }, `Total Questions: ${totalQuestions}`)
       ),
+      h(Text, { style: styles.coverTopicsLabel }, "Topics covered in this volume:"),
+      h(
+        Text,
+        { style: styles.coverTopicsList },
+        topics.map((t) => `${t.topicNumber}. ${t.topicTitle}`).join("   •   ")
+      ),
       ...topics.flatMap((topic) => [
         h(
           Text,
