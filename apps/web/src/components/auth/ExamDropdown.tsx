@@ -17,7 +17,7 @@ import { useAuthStore } from "@/lib/auth/useAuthStore";
 import type { TargetExam } from "@/lib/auth/types";
 import { ExamSelectorModal } from "./ExamSelectorModal";
 
-const SWITCHABLE_EXAMS: Extract<TargetExam, "JNVST" | "AISSEE" | "RMS">[] = ["JNVST", "AISSEE", "RMS"];
+const SWITCHABLE_EXAMS: Extract<TargetExam, "JNVST" | "AISSEE" | "RMS" | "UPSS">[] = ["JNVST", "AISSEE", "RMS", "UPSS"];
 
 /**
  * Persistent header control for switching the active student's target exam

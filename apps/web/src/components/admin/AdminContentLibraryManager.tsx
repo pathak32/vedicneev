@@ -3,7 +3,7 @@
 import { useMemo, useState } from "react";
 import { Badge, Button, Card, CardContent } from "@vedicneev/ui";
 import type { ContentBlock, ContentBlockBrand, ContentBlockCategory, ContentBlockStatus } from "@vedicneev/db";
-import { ChevronDown, ChevronUp, Linkedin, Loader2, Pencil, Save } from "lucide-react";
+import { ChevronDown, ChevronUp, Image as ImageIcon, Linkedin, Loader2, Pencil, Save } from "lucide-react";
 
 const BRAND_LABEL: Record<ContentBlockBrand, string> = {
   VEDIC_MIND: "Vedic Mind AI",
@@ -319,6 +319,16 @@ export function AdminContentLibraryManager({ initialBlocks }: { initialBlocks: C
                           <Button type="button" variant="outline" size="sm" onClick={() => startEdit(block)} className="gap-1.5">
                             <Pencil className="h-3.5 w-3.5" /> Edit / Schedule
                           </Button>
+                          {block.brand === "VEDIC_MIND" && block.category === "VEDIC_MATH" ? (
+                            <a
+                              href={`/api/content/${block.id}/card`}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="inline-flex h-9 items-center gap-1.5 rounded-md border border-border px-3 text-sm font-medium hover:bg-accent"
+                            >
+                              <ImageIcon className="h-3.5 w-3.5" /> Preview image card
+                            </a>
+                          ) : null}
                           {block.status === "SCHEDULED" ? (
                             <Button type="button" variant="outline" size="sm" disabled={busy} onClick={() => handleUnschedule(block.id)}>
                               Back to Draft

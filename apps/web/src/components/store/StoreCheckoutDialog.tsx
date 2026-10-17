@@ -32,15 +32,17 @@ export interface StoreCheckoutDialogProps {
   bumpProduct?: StoreProduct;
   /** Omitted for a guest checkout — the purchase starts with no identity at all, and StoreCheckoutDialog collects contact info itself after payment succeeds (see the "success" step below). */
   parentPhone?: string;
+  /** Pre-fills and auto-validates the promo field on mount — used by /buy/[productId]'s `?promo=` deep link so a video-specific code applies without the viewer typing anything. Invalid/expired codes just surface the same promoError a manual entry would, never block checkout. */
+  initialPromoCode?: string;
   onCancel: () => void;
   onSuccess: () => void;
 }
 
-export function StoreCheckoutDialog({ primaryProduct, bumpProduct, parentPhone, onCancel, onSuccess }: StoreCheckoutDialogProps) {
+export function StoreCheckoutDialog({ primaryProduct, bumpProduct, parentPhone, initialPromoCode, onCancel, onSuccess }: StoreCheckoutDialogProps) {
   const [step, setStep] = useState<Step>("form");
   const [error, setError] = useState<string | null>(null);
   const [includeBump, setIncludeBump] = useState(false);
-  const [promoInput, setPromoInput] = useState("");
+  const [promoInput, setPromoInput] = useState(initialPromoCode ?? "");
   const [promoError, setPromoError] = useState<string | null>(null);
   const [appliedPromo, setAppliedPromo] = useState<AppliedPromo | null>(null);
   const [validatingPromo, setValidatingPromo] = useState(false);
@@ -54,8 +56,16 @@ export function StoreCheckoutDialog({ primaryProduct, bumpProduct, parentPhone, 
   );
   const totalPrice = primaryFinalPrice + (includeBump && bumpProduct ? bumpProduct.sellingPrice : 0);
 
-  async function handleApplyPromo() {
-    const code = promoInput.trim();
+  // Auto-validates a deep-link promo code once on mount — passed explicitly
+  // rather than read back from promoInput state, which wouldn't be settled
+  // yet on the same render that set it.
+  useEffect(() => {
+    if (initialPromoCode) void handleApplyPromo(initialPromoCode);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  async function handleApplyPromo(codeOverride?: string) {
+    const code = (codeOverride ?? promoInput).trim();
     if (!code) return;
     setValidatingPromo(true);
     setPromoError(null);
@@ -244,7 +254,7 @@ export function StoreCheckoutDialog({ primaryProduct, bumpProduct, parentPhone, 
                   placeholder="e.g. GAURAV199"
                   className="h-10 flex-1 rounded-md border border-input bg-background px-3 text-sm uppercase"
                 />
-                <Button type="button" variant="outline" size="sm" onClick={handleApplyPromo} disabled={validatingPromo || !promoInput.trim()}>
+                <Button type="button" variant="outline" size="sm" onClick={() => handleApplyPromo()} disabled={validatingPromo || !promoInput.trim()}>
                   {validatingPromo ? <Loader2 className="h-4 w-4 animate-spin" /> : "Apply"}
                 </Button>
               </div>

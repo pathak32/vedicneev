@@ -1,11 +1,14 @@
 import type { ExamQuestion, LanguageCode, Multilingual, VedicSpeedHack } from "@/lib/exam/types";
 
-export type TargetExam = "JNVST" | "AISSEE" | "RMS" | "DPS";
+export type TargetExam = "JNVST" | "AISSEE" | "RMS" | "UPSS" | "DPS";
 export type TargetClass = 5 | 6 | 8 | 9;
 export type Locality = "RURAL" | "URBAN";
 export type QuotaCategory = "GEN" | "OBC" | "SC" | "ST" | "DEFENSE";
 
-export const MAX_STUDENT_PROFILES = 3;
+// Raised from 3 to let a single student select every Navodaya-style exam
+// (JNVST + RMS + AISSEE + UPSS) in one onboarding pass — each selected exam
+// becomes its own StudentProfile (see OnboardingFlow's multi-select step).
+export const MAX_STUDENT_PROFILES = 6;
 
 export interface ParentAccount {
   id: string;

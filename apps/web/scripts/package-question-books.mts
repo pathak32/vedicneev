@@ -65,7 +65,9 @@ import { renderToBuffer } from "@react-pdf/renderer";
 import type {
   extractTopicTitle,
   isTopicInExamSyllabus,
+  maxTopicNumber,
   scanForSelfCorrectionArtifacts,
+  scanForUnsupportedGlyphs,
   validateQuestionBookletTopic,
   QuestionBookletClassLevel,
   QuestionBookletExamType,
@@ -74,7 +76,9 @@ import engineRuntime from "@vedicneev/engine";
 const {
   extractTopicTitle,
   isTopicInExamSyllabus,
+  maxTopicNumber,
   scanForSelfCorrectionArtifacts,
+  scanForUnsupportedGlyphs,
   validateQuestionBookletTopic,
   QUESTION_BOOKLET_EXAM_TYPES,
 } = engineRuntime as unknown as typeof import("@vedicneev/engine");
@@ -127,14 +131,17 @@ const CLASS_LEVELS: QuestionBookletClassLevel[] = [6, 9];
 const LANGUAGES: BookletLanguage[] = ["en", "hi"];
 const LANGUAGE_TO_PRISMA: Record<BookletLanguage, "EN" | "HI"> = { en: "EN", hi: "HI" };
 
-// Per explicit user decision (see _review/OPEN_ISSUES.md, "URGENT: class9/hi
-// translation script is broken"): most class9/hi topic files on disk are
-// untranslated raw English, not real Hindi, even though they pass structural
-// validation and the artifact scan (both only check shape/known phrases, not
-// language). Packaging would otherwise ship that content as a "Hindi" book.
-// Paused until the translation is fixed and re-verified — remove this once
-// class9/hi is back in scope.
-const PAUSED_COMBOS = new Set<string>(["9-hi"]);
+// class9/hi was paused per _review/OPEN_ISSUES.md ("URGENT: class9/hi
+// translation script is broken" — most topic files on disk were untranslated
+// raw English, not real Hindi, even though they passed structural validation
+// and the artifact scan, since both only check shape/known phrases, not
+// language). All 56 affected topics have since been retranslated and
+// verified (schema-valid, numbers/answers unchanged, self-correction-phrase-
+// free, English test material kept verbatim where the topic tests English
+// itself). Unpaused — class9/hi is still gated as normal by
+// SECOND_PASS_CLEARED.json below until the retranslated topics are added to
+// that manifest.
+const PAUSED_COMBOS = new Set<string>([]);
 
 // Structural validity + the artifact scan alone are not enough to call a
 // topic sellable — this project's whole second-pass process exists because
@@ -173,15 +180,16 @@ interface LoadedCorpus {
   missing: number[];
   structuralErrors: { topicNumber: number; message: string }[];
   artifactFlags: { topicNumber: number; questionNumber: number; matchedPhrase: string; excerpt: string }[];
+  glyphFlags: { topicNumber: number; questionNumber: number; field: string; char: string; codePoint: number; excerpt: string }[];
   notSecondPassCleared: number[];
 }
 
 /** Loads and validates every topic file for one (class, language) — collects every problem rather than stopping at the first, so one run reports the full quality picture. */
 function loadCorpus(classLevel: QuestionBookletClassLevel, language: BookletLanguage): LoadedCorpus {
-  const result: LoadedCorpus = { topics: [], missing: [], structuralErrors: [], artifactFlags: [], notSecondPassCleared: [] };
+  const result: LoadedCorpus = { topics: [], missing: [], structuralErrors: [], artifactFlags: [], glyphFlags: [], notSecondPassCleared: [] };
   const cleared = loadClearedTopics(classLevel, language);
 
-  for (let topicNumber = 1; topicNumber <= 72; topicNumber++) {
+  for (let topicNumber = 1; topicNumber <= maxTopicNumber(classLevel); topicNumber++) {
     const filePath = topicFilePath(classLevel, language, topicNumber);
     if (!fs.existsSync(filePath)) {
       result.missing.push(topicNumber);
@@ -206,6 +214,15 @@ function loadCorpus(classLevel: QuestionBookletClassLevel, language: BookletLang
     for (const a of artifacts) result.artifactFlags.push({ topicNumber, ...a });
     if (artifacts.length > 0) continue; // don't ship this topic's content until it's re-verified
 
+    // Non-English scripts legitimately use high codepoints throughout and
+    // would false-positive on every character — scanForUnsupportedGlyphs is
+    // English-only by design (see its own doc comment).
+    if (language === "en") {
+      const glyphs = scanForUnsupportedGlyphs(questions);
+      for (const g of glyphs) result.glyphFlags.push({ topicNumber, ...g });
+      if (glyphs.length > 0) continue; // don't ship a misprinted/mis-pasted glyph
+    }
+
     if (!cleared.has(topicNumber)) {
       result.notSecondPassCleared.push(topicNumber);
       continue; // structurally fine, but not yet through the independent blind second pass
@@ -219,8 +236,9 @@ function loadCorpus(classLevel: QuestionBookletClassLevel, language: BookletLang
 
 function reportCorpus(classLevel: QuestionBookletClassLevel, language: BookletLanguage, corpus: LoadedCorpus) {
   const label = `class${classLevel}/${language}`;
+  const total = maxTopicNumber(classLevel);
   if (corpus.missing.length > 0) {
-    console.warn(`  [${label}] ${corpus.missing.length}/72 topic files not found (expected if that corpus isn't generated/synced yet).`);
+    console.warn(`  [${label}] ${corpus.missing.length}/${total} topic files not found (expected if that corpus isn't generated/synced yet).`);
   }
   if (corpus.structuralErrors.length > 0) {
     console.error(`  [${label}] ${corpus.structuralErrors.length} structural error(s):`);
@@ -234,10 +252,17 @@ function reportCorpus(classLevel: QuestionBookletClassLevel, language: BookletLa
     }
     if (corpus.artifactFlags.length > 20) console.error(`    ...and ${corpus.artifactFlags.length - 20} more.`);
   }
+  if (corpus.glyphFlags.length > 0) {
+    console.error(`  [${label}] ${corpus.glyphFlags.length} suspicious-character flag(s) — these topics need re-verification before packaging:`);
+    for (const f of corpus.glyphFlags.slice(0, 20)) {
+      console.error(`    topic-${f.topicNumber}.json Q${f.questionNumber} (${f.field}) — char "${f.char}" (U+${f.codePoint.toString(16).toUpperCase().padStart(4, "0")}): "...${f.excerpt}..."`);
+    }
+    if (corpus.glyphFlags.length > 20) console.error(`    ...and ${corpus.glyphFlags.length - 20} more.`);
+  }
   if (corpus.notSecondPassCleared.length > 0) {
     console.warn(`  [${label}] ${corpus.notSecondPassCleared.length} topic(s) structurally fine but not yet second-pass cleared, excluded from packaging: ${corpus.notSecondPassCleared.join(", ")}`);
   }
-  console.log(`  [${label}] ${corpus.topics.length}/72 topics second-pass cleared and ready to package.`);
+  console.log(`  [${label}] ${corpus.topics.length}/${total} topics second-pass cleared and ready to package.`);
 }
 
 /** Renders a compiled book, splitting into more volumes (never cutting a topic across two) until every volume fits under MAX_VOLUME_BYTES. */
@@ -258,16 +283,38 @@ async function renderCompiledBookVolumes(
   const maxVolumeCount = startingVolumeCount + 10;
   for (let volumeCount = startingVolumeCount; volumeCount <= maxVolumeCount; volumeCount++) {
     const groups = splitTopicsIntoVolumes(topics, volumeCount);
+    // First pass also doubles as page-discovery: each topic heading's
+    // render() callback reports which page it actually landed on (via
+    // onTopicPage), captured per volume, so an accepted grouping can be
+    // re-rendered once more with real page numbers on its cover's table of
+    // contents — react-pdf has no way to look that up ahead of time from
+    // the cover itself. Rejected (oversized) candidates never get a second
+    // pass, so this stays cheap for the common case of 1-2 retries.
+    const pageMaps = groups.map(() => new Map<number, number>());
     const rendered = await Promise.all(
       groups.map(async (group, i) => {
         const volumeLabel = groups.length > 1 ? `Volume ${i + 1} of ${groups.length}` : undefined;
         const buffer = await renderToBuffer(
-          buildCompiledBookDocument({ examLabel, classLevel, languageLabel, volumeLabel }, group, styles)
+          buildCompiledBookDocument({ examLabel, classLevel, languageLabel, volumeLabel }, group, styles, {
+            onTopicPage: (topicNumber, pageNumber) => pageMaps[i]!.set(topicNumber, pageNumber),
+          })
         );
         return { volumeLabel, buffer };
       })
     );
-    if (rendered.every((r) => r.buffer.length <= MAX_VOLUME_BYTES)) return rendered;
+    if (rendered.every((r) => r.buffer.length <= MAX_VOLUME_BYTES)) {
+      return Promise.all(
+        groups.map(async (group, i) => {
+          const volumeLabel = rendered[i]!.volumeLabel;
+          const buffer = await renderToBuffer(
+            buildCompiledBookDocument({ examLabel, classLevel, languageLabel, volumeLabel }, group, styles, {
+              topicPageMap: pageMaps[i]!,
+            })
+          );
+          return { volumeLabel, buffer };
+        })
+      );
+    }
   }
   throw new Error(`Could not split ${examLabel} Class ${classLevel} (${languageLabel}) under ${MAX_VOLUME_BYTES} bytes even at ${maxVolumeCount} volumes.`);
 }
@@ -383,6 +430,7 @@ async function main() {
 
           const storagePath = `question-books/compiled/${id}.pdf`;
           writeLocal(storagePath, buffer);
+          bookCount++;
 
           if (dryRun) continue;
 
@@ -416,7 +464,6 @@ async function main() {
               isActive: true,
             },
           });
-          bookCount++;
         }
       }
     }

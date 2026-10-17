@@ -11,9 +11,10 @@ import type { LanguageCode } from "@/lib/exam/types";
 
 const TARGET_CLASSES: TargetClass[] = [5, 6, 8, 9];
 const TARGET_EXAMS: { value: TargetExam; label: string }[] = [
-  { value: "JNVST", label: "JNVST" },
-  { value: "AISSEE", label: "AISSEE (Sainik School)" },
-  { value: "RMS", label: "RMS" },
+  { value: "JNVST", label: "Jawahar Navodaya Vidyalaya (JNVST)" },
+  { value: "RMS", label: "Rashtriya Military School (RMS)" },
+  { value: "AISSEE", label: "All India Sainik Schools Entrance Examination (AISSEE)" },
+  { value: "UPSS", label: "Uttar Pradesh Sainik School (UPSS)" },
   { value: "DPS", label: "Elite Private Schools (DPS & similar)" },
 ];
 const LANGUAGES: { value: LanguageCode; label: string }[] = SUPPORTED_LANGUAGES.map((l) => ({
@@ -32,7 +33,7 @@ const QUOTA_CATEGORIES: { value: QuotaCategory; label: string }[] = [
   { value: "DEFENSE", label: "Defense" },
 ];
 
-const STEPS = ["Child & Grade", "Exam & Language", "Quota & Category"];
+const STEPS = ["Child & Grade", "Target Exams", "Quota & Category"];
 
 export interface OnboardingFlowProps {
   onComplete: () => void;
@@ -68,6 +69,52 @@ function OptionGrid<T extends string | number>({
   );
 }
 
+/** Same visual language as OptionGrid, but any number of options can be active at once — used for picking every exam a student wants to prepare for in one pass. */
+function MultiOptionGrid<T extends string>({
+  options,
+  values,
+  onToggle,
+  columns = 2,
+}: {
+  options: { value: T; label: string }[];
+  values: T[];
+  onToggle: (value: T) => void;
+  /** Full exam names are too long for a 2-up grid without awkward wrapping — pass 1 for a stacked list. */
+  columns?: 1 | 2;
+}) {
+  return (
+    <div className={cn("grid gap-2", columns === 1 ? "grid-cols-1" : "grid-cols-2")}>
+      {options.map((option) => {
+        const checked = values.includes(option.value);
+        return (
+          <button
+            key={option.value}
+            type="button"
+            aria-pressed={checked}
+            onClick={() => onToggle(option.value)}
+            className={cn(
+              "flex items-center gap-2 rounded-lg border-2 px-4 py-3 text-left text-sm font-medium transition-colors",
+              checked
+                ? "border-primary bg-primary/10 text-foreground"
+                : "border-border bg-card text-foreground hover:border-primary/50"
+            )}
+          >
+            <span
+              className={cn(
+                "flex h-4 w-4 shrink-0 items-center justify-center rounded border-2",
+                checked ? "border-primary bg-primary text-primary-foreground" : "border-muted-foreground"
+              )}
+            >
+              {checked ? <CheckCircle2 className="h-3 w-3" /> : null}
+            </span>
+            {option.label}
+          </button>
+        );
+      })}
+    </div>
+  );
+}
+
 export function OnboardingFlow({ onComplete }: OnboardingFlowProps) {
   const addStudent = useAuthStore((s) => s.addStudent);
   const [step, setStep] = useState(0);
@@ -75,27 +122,39 @@ export function OnboardingFlow({ onComplete }: OnboardingFlowProps) {
 
   const [fullName, setFullName] = useState("");
   const [targetClass, setTargetClass] = useState<TargetClass | null>(null);
-  const [targetExam, setTargetExam] = useState<TargetExam | null>(null);
-  const [languagePreference, setLanguagePreference] = useState<LanguageCode | null>(null);
-  const [locality, setLocality] = useState<Locality | null>(null);
-  const [quotaCategory, setQuotaCategory] = useState<QuotaCategory | null>(null);
+  // Multi-select: a student preparing for several exams at once (e.g. every
+  // Navodaya-style option — JNVST + RMS + AISSEE + UPSS) gets one
+  // StudentProfile per exam below, all sharing this same name/class/language/
+  // locality/quota — rather than repeating the whole wizard per exam.
+  const [targetExams, setTargetExams] = useState<TargetExam[]>([]);
+  const [languagePreference, setLanguagePreference] = useState<LanguageCode | null>("en");
+  // Pre-selected (not forced) so a parent in a hurry can just tap through
+  // this step — still fully editable before finishing.
+  const [locality, setLocality] = useState<Locality | null>("URBAN");
+  const [quotaCategory, setQuotaCategory] = useState<QuotaCategory | null>("GEN");
 
   const canProceedStep0 = fullName.trim().length > 0 && targetClass !== null;
-  const canProceedStep1 = targetExam !== null && languagePreference !== null;
+  const canProceedStep1 = targetExams.length > 0 && languagePreference !== null;
   const canFinish = locality !== null && quotaCategory !== null;
 
+  function toggleExam(exam: TargetExam) {
+    setTargetExams((prev) => (prev.includes(exam) ? prev.filter((e) => e !== exam) : [...prev, exam]));
+  }
+
   function handleFinish() {
-    if (!targetClass || !targetExam || !languagePreference || !locality || !quotaCategory) return;
-    const input: NewStudentInput = {
-      fullName: fullName.trim(),
-      targetClass,
-      targetExam,
-      languagePreference,
-      locality,
-      quotaCategory,
-    };
+    if (!targetClass || targetExams.length === 0 || !languagePreference || !locality || !quotaCategory) return;
     try {
-      addStudent(input);
+      for (const targetExam of targetExams) {
+        const input: NewStudentInput = {
+          fullName: fullName.trim(),
+          targetClass,
+          targetExam,
+          languagePreference,
+          locality,
+          quotaCategory,
+        };
+        addStudent(input);
+      }
       onComplete();
     } catch (err) {
       setError(err instanceof Error ? err.message : "Could not add this student profile.");
@@ -158,8 +217,11 @@ export function OnboardingFlow({ onComplete }: OnboardingFlowProps) {
         {step === 1 ? (
           <>
             <div className="flex flex-col gap-2">
-              <p className="text-sm font-medium text-foreground">Target exam</p>
-              <OptionGrid options={TARGET_EXAMS} value={targetExam} onChange={setTargetExam} />
+              <p className="text-sm font-medium text-foreground">
+                Target exam{targetExams.length > 1 ? "s" : ""}
+                <span className="ml-1 font-normal text-muted-foreground">(pick as many as apply)</span>
+              </p>
+              <MultiOptionGrid options={TARGET_EXAMS} values={targetExams} onToggle={toggleExam} columns={1} />
             </div>
             <div className="flex flex-col gap-2">
               <p className="text-sm font-medium text-foreground">Primary language</p>

@@ -176,7 +176,15 @@ export default function DashboardLibraryPage() {
                 </div>
                 <div className="flex gap-2">
                   {(purchase.product.productType === "MOCK_SERIES" || purchase.product.productType === "MEGA_BUNDLE") &&
-                  liveMockSlug ? (
+                  liveMockSlug &&
+                  // A downloadable product (e.g. the sample-paper-book — a
+                  // MOCK_SERIES row with a real fileUrl, see
+                  // package-sample-paper-books.mts) isn't the live online
+                  // mock system this button starts; seeded live-access
+                  // MOCK_SERIES/MEGA_BUNDLE rows have no fileUrl (see
+                  // seed-store.ts), so that field is what actually tells
+                  // the two apart here.
+                  !purchase.product.fileUrl ? (
                     <Button asChild size="sm">
                       <Link href={`/exam/live/${liveMockSlug}`}>
                         <PlayCircle className="h-4 w-4" />
@@ -189,6 +197,14 @@ export default function DashboardLibraryPage() {
                       <Link href={purchase.product.fileUrl} target="_blank" rel="noopener noreferrer">
                         <Download className="h-4 w-4" />
                         Download
+                      </Link>
+                    </Button>
+                  ) : null}
+                  {purchase.product.productType === "MOCK_SERIES" && purchase.product.fileUrl ? (
+                    <Button asChild size="sm">
+                      <Link href={`/dashboard/scan?productId=${purchase.product.id}`}>
+                        <ScanLine className="h-4 w-4" />
+                        Scan & Score
                       </Link>
                     </Button>
                   ) : null}

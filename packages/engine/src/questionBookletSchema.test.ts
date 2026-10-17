@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { extractTopicTitle, scanForSelfCorrectionArtifacts, validateQuestionBookletTopic } from "./questionBookletSchema";
+import { extractTopicTitle, scanForSelfCorrectionArtifacts, scanForUnsupportedGlyphs, validateQuestionBookletTopic } from "./questionBookletSchema";
 
 const GOOD_QUESTION = {
   questionNumber: 1,
@@ -72,8 +72,19 @@ describe("validateQuestionBookletTopic", () => {
       options: { A: "16", B: "54", C: "64", D: "72" },
       correctOption: "C",
       explanation: "8² = 8 × 8 = 64.",
+      difficulty: "EASY",
     });
     expect(extractTopicTitle(real, 1)).toBe("Recognizing Perfect Square Sequences");
+  });
+
+  it("normalizes difficulty case/synonyms and ignores unrecognized values", () => {
+    const withDifficulty = (difficulty: unknown) =>
+      validateQuestionBookletTopic([{ ...GOOD_QUESTION, difficulty }]).questions[0]?.difficulty;
+    expect(withDifficulty("Hard")).toBe("HARD");
+    expect(withDifficulty("moderate")).toBe("MEDIUM");
+    expect(withDifficulty("tough")).toBe("HARD");
+    expect(withDifficulty("nonsense")).toBeUndefined();
+    expect(withDifficulty(undefined)).toBeUndefined();
   });
 
   it("rejects neither an array nor a {questions: []} object", () => {
@@ -121,6 +132,73 @@ describe("scanForSelfCorrectionArtifacts", () => {
       { ...GOOD_QUESTION, explanation: "Wait, actually, i made a mistake here." },
     ]);
     expect(scanForSelfCorrectionArtifacts(questions)).toHaveLength(1);
+  });
+});
+
+describe("scanForUnsupportedGlyphs", () => {
+  it("finds nothing in clean plain-ASCII content", () => {
+    const { questions } = validateQuestionBookletTopic([GOOD_QUESTION]);
+    expect(scanForUnsupportedGlyphs(questions)).toEqual([]);
+  });
+
+  it("allows curated safe typography extras", () => {
+    const { questions } = validateQuestionBookletTopic([
+      { ...GOOD_QUESTION, question: "A triangle has a 90° angle; its hypotenuse is 5 cm. 3 × 4 = ? (½ credit for working). What is 5³ and 8²?" },
+    ]);
+    expect(scanForUnsupportedGlyphs(questions)).toEqual([]);
+  });
+
+  it("does not flag ₹/π/√/≈/≠/≤/≥/∞ — sanitizeForPdf already substitutes every one of these before rendering, and they're routine in profit/loss and area/perimeter content (regression: an earlier version of this scanner wrongly excluded 70-80+ questions each from several real topics over exactly this)", () => {
+    const { questions } = validateQuestionBookletTopic([
+      { ...GOOD_QUESTION, question: "A shopkeeper bought an item for ₹500. If π ≈ 3.14 and √16 = 4, and the profit is ≥10% but ≤20% (never ∞ or ≠ the cost price), find the selling price." },
+    ]);
+    expect(scanForUnsupportedGlyphs(questions)).toEqual([]);
+  });
+
+  it("does not flag the full real-corpus set found across class6/en + class9/en — arrows, minus sign, check/cross marks, set/geometry notation, Greek variable names, super/subscripts, Latin-1 Supplement letters, or newlines (regression: a full-corpus scan after the ₹/π/√ fix found ~55 more unhandled characters across thousands of questions)", () => {
+    const { questions } = validateQuestionBookletTopic([
+      {
+        ...GOOD_QUESTION,
+        question: "A(1) → C(3), gap = −2. Reverse cipher: A↔Z. ∠AEF = 3x; lines AB ∥ CD; A ⊆ B; x ∈ A; café.\nNext line.",
+        explanation: "Check: 3×2+2=8 ✓, 9≠8 ✗. θ=48°, λ=500nm, μ=2, aᵏ×aⁿ=aᵏ⁺ⁿ, H₂SO₄ → H₂O + SO₃↑. 33⅓% and ∛216. Angle of incidence θᵢ equals angle of reflection θᵣ.",
+      },
+    ]);
+    expect(scanForUnsupportedGlyphs(questions)).toEqual([]);
+  });
+
+  it("does not flag the class6/en non-verbal-reasoning glyph set found in a second full-corpus scan — directional arrows, shape glyphs, mirror-letter/Hangul analogy puzzles, floor brackets, currency, repeating-decimal macron, and uppercase Greek letters (regression: a scan after the first fix round still found 206 flags in class6/en alone)", () => {
+    const { questions } = validateQuestionBookletTopic([
+      {
+        ...GOOD_QUESTION,
+        question: "Leftward (←), Downward (↓), up-left (↖), up-right (↗), down-right (↘), down-left (↙). A star (★☆✦), heart (♥♡), diamond (◆◇◈◊), circle (●○◯), square (■□☐).",
+        explanation:
+          "Triangles: ▲△▼▽∇◀◁▶◊◷◸◹◺. Arc/corner: ⌐⌢⌣⌜⌝⌞⌟┌. Mirror puzzle: P : Ԁ :: E : Ǝ, N : И :: C : Ɔ, b : ƃ, B : Ḃ, E : Ę, F : Ⅎ, L : ⅂ : ⅃. Hangul: ㄱ:ㄴ::ㄷ:ㄹ. Floor: ⌊7÷2⌋. Brackets: ⟨x⟩. ⊙ ∂ ⊃ ≡. Greek: Γ Φ Ω Ψ Η. Currency: € ₨. Repeating: 0.83̄.",
+      },
+    ]);
+    expect(scanForUnsupportedGlyphs(questions)).toEqual([]);
+  });
+
+  it("flags a Wingdings/Symbol-paste character even though it decodes as a printable letter (the Q80 UPSS Set 1 failure)", () => {
+    const { questions } = validateQuestionBookletTopic([
+      { ...GOOD_QUESTION, question: "In the analogy ™™ Ç ?, what is the missing figure? (Vertical mirror)" },
+    ]);
+    const findings = scanForUnsupportedGlyphs(questions);
+    expect(findings.length).toBeGreaterThan(0);
+    expect(findings[0]!.field).toBe("question");
+    expect(findings[0]!.char).toBe("™");
+  });
+
+  it("flags a bad character in options or explanation too, keyed by field", () => {
+    // Ж (Cyrillic) rather than Æ — Æ is Latin-1 Supplement and genuinely
+    // renders fine in WinAnsi, so it's correctly no longer flagged; this
+    // test just needs any character outside every safe range.
+    const { questions } = validateQuestionBookletTopic([
+      { ...GOOD_QUESTION, options: { A: "54", B: "56", C: "58Ж", D: "64" } },
+    ]);
+    const findings = scanForUnsupportedGlyphs(questions);
+    expect(findings).toHaveLength(1);
+    expect(findings[0]!.field).toBe("options");
+    expect(findings[0]!.char).toBe("Ж");
   });
 });
 
