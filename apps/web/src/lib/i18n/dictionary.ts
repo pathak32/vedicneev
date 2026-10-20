@@ -933,6 +933,100 @@ export const DICTIONARY = {
     ta: "Yes — a single parent account can add multiple student profiles (siblings), each with their own exam target, class, and language preference.",
     gu: "Yes — a single parent account can add multiple student profiles (siblings), each with their own exam target, class, and language preference.",
   },
+
+  // LoginPageContent (phone + OTP sign-in form) — mr/bn/ta/gu not yet
+  // translated for this section (English placeholder), same as the
+  // faqQWhatsapp/faqAWhatsapp entries above covering the same flow.
+  loginPhoneHeading: {
+    en: "Sign in with your WhatsApp number",
+    hi: "अपने व्हाट्सएप नंबर से साइन इन करें",
+    mr: "Sign in with your WhatsApp number",
+    bn: "Sign in with your WhatsApp number",
+    ta: "Sign in with your WhatsApp number",
+    gu: "Sign in with your WhatsApp number",
+  },
+  loginPhoneSubheading: {
+    en: "We verify over WhatsApp — enter a number that has WhatsApp on it, not just any mobile number.",
+    hi: "हम व्हाट्सएप पर सत्यापन करते हैं — ऐसा नंबर दर्ज करें जिस पर व्हाट्सएप हो, सिर्फ़ कोई भी मोबाइल नंबर नहीं।",
+    mr: "We verify over WhatsApp — enter a number that has WhatsApp on it, not just any mobile number.",
+    bn: "We verify over WhatsApp — enter a number that has WhatsApp on it, not just any mobile number.",
+    ta: "We verify over WhatsApp — enter a number that has WhatsApp on it, not just any mobile number.",
+    gu: "We verify over WhatsApp — enter a number that has WhatsApp on it, not just any mobile number.",
+  },
+  loginOtpHeading: {
+    en: "Enter the OTP",
+    hi: "OTP दर्ज करें",
+    mr: "Enter the OTP",
+    bn: "Enter the OTP",
+    ta: "Enter the OTP",
+    gu: "Enter the OTP",
+  },
+  // "{phone}" is replaced with the entered phone number by the caller.
+  loginOtpSubheading: {
+    en: "Sent to +91 {phone} on WhatsApp.",
+    hi: "+91 {phone} पर व्हाट्सएप के ज़रिए भेजा गया।",
+    mr: "Sent to +91 {phone} on WhatsApp.",
+    bn: "Sent to +91 {phone} on WhatsApp.",
+    ta: "Sent to +91 {phone} on WhatsApp.",
+    gu: "Sent to +91 {phone} on WhatsApp.",
+  },
+  loginPhonePlaceholder: {
+    en: "10-digit WhatsApp number",
+    hi: "10-अंकों का व्हाट्सएप नंबर",
+    mr: "10-digit WhatsApp number",
+    bn: "10-digit WhatsApp number",
+    ta: "10-digit WhatsApp number",
+    gu: "10-digit WhatsApp number",
+  },
+  loginSendOtpButton: {
+    en: "Send OTP via WhatsApp",
+    hi: "व्हाट्सएप से OTP भेजें",
+    mr: "Send OTP via WhatsApp",
+    bn: "Send OTP via WhatsApp",
+    ta: "Send OTP via WhatsApp",
+    gu: "Send OTP via WhatsApp",
+  },
+  loginOtpPlaceholder: {
+    en: "6-digit OTP",
+    hi: "6-अंकों का OTP",
+    mr: "6-digit OTP",
+    bn: "6-digit OTP",
+    ta: "6-digit OTP",
+    gu: "6-digit OTP",
+  },
+  loginVerifyButton: {
+    en: "Verify & Continue",
+    hi: "सत्यापित करें और आगे बढ़ें",
+    mr: "Verify & Continue",
+    bn: "Verify & Continue",
+    ta: "Verify & Continue",
+    gu: "Verify & Continue",
+  },
+  loginChangeNumber: {
+    en: "Change number",
+    hi: "नंबर बदलें",
+    mr: "Change number",
+    bn: "Change number",
+    ta: "Change number",
+    gu: "Change number",
+  },
+  loginResendOtp: {
+    en: "Resend OTP",
+    hi: "OTP फिर से भेजें",
+    mr: "Resend OTP",
+    bn: "Resend OTP",
+    ta: "Resend OTP",
+    gu: "Resend OTP",
+  },
+  // "{s}" is replaced with the remaining seconds by the caller.
+  loginResendOtpIn: {
+    en: "Resend OTP in {s}s",
+    hi: "{s} सेकंड में OTP फिर से भेजें",
+    mr: "Resend OTP in {s}s",
+    bn: "Resend OTP in {s}s",
+    ta: "Resend OTP in {s}s",
+    gu: "Resend OTP in {s}s",
+  },
 } as const satisfies Record<string, Entry>;
 
 export type DictionaryKey = keyof typeof DICTIONARY;

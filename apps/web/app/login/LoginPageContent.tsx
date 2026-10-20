@@ -7,6 +7,7 @@ import { Loader2, MessageCircle, Phone, ShieldCheck, Sparkles } from "lucide-rea
 
 import { selectActiveAccount, useAuthStore } from "@/lib/auth/useAuthStore";
 import { isCrossOrigin } from "@/lib/auth/crossDomainRedirect";
+import { useT } from "@/lib/i18n/useT";
 
 const RESEND_SECONDS = 30;
 
@@ -26,6 +27,7 @@ export interface LoginPageContentProps {
  */
 export function LoginPageContent({ next, isExternalProductIntent }: LoginPageContentProps) {
   const router = useRouter();
+  const t = useT();
   const origin = typeof window !== "undefined" ? window.location.origin : "https://vedicneev.com";
 
   const [phone, setPhone] = useState("");
@@ -92,12 +94,12 @@ export function LoginPageContent({ next, isExternalProductIntent }: LoginPageCon
           {step === "phone" ? <Phone className="h-6 w-6" /> : <ShieldCheck className="h-6 w-6" />}
         </div>
         <h1 className="text-xl font-bold text-foreground">
-          {step === "phone" ? "Sign in with your WhatsApp number" : "Enter the OTP"}
+          {step === "phone" ? t("loginPhoneHeading") : t("loginOtpHeading")}
         </h1>
         <p className="mt-1 text-sm text-muted-foreground">
           {step === "phone"
-            ? "We verify over WhatsApp — enter a number that has WhatsApp on it, not just any mobile number."
-            : `Sent to +91 ${pendingOtpPhone} on WhatsApp.`}
+            ? t("loginPhoneSubheading")
+            : t("loginOtpSubheading").replace("{phone}", pendingOtpPhone ?? "")}
         </p>
       </div>
 
@@ -111,11 +113,11 @@ export function LoginPageContent({ next, isExternalProductIntent }: LoginPageCon
               type="tel"
               inputMode="numeric"
               maxLength={10}
-              placeholder="10-digit WhatsApp number"
+              placeholder={t("loginPhonePlaceholder")}
               value={phone}
               onChange={(e) => setPhone(e.target.value.replace(/\D/g, "").slice(0, 10))}
               className="h-11 w-full rounded-md border border-input bg-background px-3 text-base tracking-wide"
-              aria-label="WhatsApp number"
+              aria-label={t("loginPhonePlaceholder")}
               autoFocus
             />
           </div>
@@ -128,7 +130,7 @@ export function LoginPageContent({ next, isExternalProductIntent }: LoginPageCon
             onClick={handleSendOtp}
           >
             {otpSending ? <Loader2 className="h-4 w-4 animate-spin" /> : <MessageCircle className="h-4 w-4" />}
-            Send OTP via WhatsApp
+            {t("loginSendOtpButton")}
           </Button>
         </div>
       ) : (
@@ -137,11 +139,11 @@ export function LoginPageContent({ next, isExternalProductIntent }: LoginPageCon
             type="text"
             inputMode="numeric"
             maxLength={6}
-            placeholder="6-digit OTP"
+            placeholder={t("loginOtpPlaceholder")}
             value={otp}
             onChange={(e) => setOtp(e.target.value.replace(/\D/g, "").slice(0, 6))}
             className="h-12 w-full rounded-md border border-input bg-background px-3 text-center text-2xl tracking-[0.5em]"
-            aria-label="OTP"
+            aria-label={t("loginOtpPlaceholder")}
             autoFocus
           />
           {otpError ? <p className="text-sm text-destructive">{otpError}</p> : null}
@@ -153,7 +155,7 @@ export function LoginPageContent({ next, isExternalProductIntent }: LoginPageCon
             onClick={handleVerify}
           >
             {otpVerifying ? <Loader2 className="h-4 w-4 animate-spin" /> : <Sparkles className="h-4 w-4" />}
-            Verify &amp; Continue
+            {t("loginVerifyButton")}
           </Button>
           <div className="flex items-center justify-between text-sm">
             <button
@@ -164,7 +166,7 @@ export function LoginPageContent({ next, isExternalProductIntent }: LoginPageCon
                 cancelOtp();
               }}
             >
-              Change number
+              {t("loginChangeNumber")}
             </button>
             <button
               type="button"
@@ -172,7 +174,7 @@ export function LoginPageContent({ next, isExternalProductIntent }: LoginPageCon
               disabled={resendIn > 0 || otpSending}
               onClick={handleSendOtp}
             >
-              {resendIn > 0 ? `Resend OTP in ${resendIn}s` : "Resend OTP"}
+              {resendIn > 0 ? t("loginResendOtpIn").replace("{s}", String(resendIn)) : t("loginResendOtp")}
             </button>
           </div>
         </div>
