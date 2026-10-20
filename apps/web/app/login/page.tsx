@@ -2,6 +2,7 @@ import { redirect } from "next/navigation";
 
 import { getAuthenticatedUser } from "@/lib/auth/getAuthenticatedUser";
 import { resolveSafeNext } from "@/lib/auth/crossDomainRedirect";
+import { WizardTheme } from "@/components/auth/WizardTheme";
 import { LoginPageContent } from "./LoginPageContent";
 
 export const dynamic = "force-dynamic";
@@ -41,5 +42,12 @@ export default async function LoginPage({
   const user = await getAuthenticatedUser();
   if (user) redirect(next);
 
-  return <LoginPageContent next={next} isExternalProductIntent={searchParams.product !== undefined} />;
+  return (
+    <WizardTheme>
+      <div className="mx-auto flex w-full max-w-md flex-1 flex-col items-center justify-center px-4 py-12">
+        <span className="mb-6 text-xs font-semibold uppercase tracking-[0.2em] text-primary">VedicNeev</span>
+        <LoginPageContent next={next} isExternalProductIntent={searchParams.product !== undefined} />
+      </div>
+    </WizardTheme>
+  );
 }
