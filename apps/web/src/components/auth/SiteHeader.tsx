@@ -56,13 +56,15 @@ function ExamBoardsMenu() {
   );
 }
 
-// The minimal new-visitor funnel (/start, /onboarding) is deliberately a
-// single uncluttered screen at a time — this header's nav links, language
-// switcher, and exam-board dropdown are exactly the "too many options"
-// this funnel exists to avoid. Hidden only on these routes; every other
-// page — including /login itself, shared with sibling products like
-// typingtest's own sign-in — keeps the header unchanged.
-const HEADER_HIDDEN_PREFIXES = ["/start", "/onboarding"];
+// The minimal new-visitor funnel (/start, /login, /onboarding) is
+// deliberately a single uncluttered screen at a time — this header's nav
+// links, language switcher, and exam-board dropdown are exactly the "too
+// many options" this funnel exists to avoid. /login is included (even
+// though it's shared with sibling products like typingtest's own sign-in)
+// per product decision: a clean sign-in screen matters more there than
+// header consistency with the rest of the site — see LoginPageContent's
+// own WizardTheme wrapper in app/login/page.tsx.
+const HEADER_HIDDEN_PREFIXES = ["/start", "/login", "/onboarding"];
 
 export function SiteHeader() {
   const router = useRouter();
