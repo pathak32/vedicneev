@@ -65,15 +65,15 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mental_ability",
     difficulty: "MEDIUM",
-    questionJson: { en: "Five students A, B, C, D, and E are sitting in a row facing North. C is sitting in the middle. A is to the immediate left of C. E is at the extreme right end. Who is sitting between C and E?", hi: "पांच छात्र A, B, C, D और E उत्तर की ओर मुख करके एक पंक्ति में बैठे हैं। C बीच में बैठा है। A, C के तुरंत बाईं ओर है। E सुदूर दाहिने छोर पर है। C और E के बीच में कौन बैठा है?" },
+    questionJson: { en: "Five students A, B, C, D, and E are sitting in a row facing North. C is sitting in the middle. A is to the immediate left of C. E is at the extreme right end. D is at the extreme left end. Who is sitting between C and E?", hi: "पांच छात्र A, B, C, D और E उत्तर की ओर मुख करके एक पंक्ति में बैठे हैं। C बीच में बैठा है। A, C के तुरंत बाईं ओर है। E सुदूर दाहिने छोर पर है। D सुदूर बाएँ छोर पर है। C और E के बीच में कौन बैठा है?" },
     optionsJson: [
+      { en: "A", hi: "A" },
       { en: "B", hi: "B" },
       { en: "D", hi: "D" },
-      { en: "Either B or D", hi: "या तो B या D" },
       { en: "Cannot be determined", hi: "निर्धारित नहीं किया जा सकता" }
     ],
-    correctAnswer: 2,
-    explanation: { en: "Arrangement positions: 1 2 3(C) 4 5(E). Position 2 is A. Remaining positions 1 and 4 can be occupied by B or D. So the person at position 4 (between C and E) is either B or D.", hi: "स्थान: 1 2 3(C) 4 5(E)। स्थान 2 पर A है। शेष स्थान 1 और 4 पर B या D हो सकते हैं। अतः C और E के बीच (स्थान 4 पर) B या D होगा।" },
+    correctAnswer: 1,
+    explanation: { en: "Positions left to right: 1 2 3 4 5. C is at 3, A is at 2 (immediate left of C), E is at 5 and D is at 1 (extreme left). The only person left is B, who sits at position 4 — between C and E.", hi: "स्थान बाएँ से दाएँ: 1 2 3 4 5। C स्थान 3 पर, A स्थान 2 पर (C के तुरंत बाएँ), E स्थान 5 पर और D स्थान 1 पर (सुदूर बाएँ) है। शेष B स्थान 4 पर बैठा है — C और E के बीच।" },
   },
   {
     key: "aissee9-gem2-ma-02",

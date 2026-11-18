@@ -263,12 +263,12 @@
         { "en": "Opposite D", "hi": "D के सम्मुख" },
         { "en": "Two seats from D", "hi": "D से दो सीट दूर" }
       ],
-      "correctAnswer": 0,
-      "explanation": { "en": "If A is opposite D, and B is immediately to A's left, then going around the circle, B ends up immediately to D's right (left/right flip across the opposite seat).", "hi": "यदि A, D के सम्मुख है, और B, A के ठीक बाईं ओर है, तो गोल मेज़ पर घूमने पर, B, D के ठीक दाईं ओर आ जाता है (सम्मुख सीट के आर-पार बाएँ/दाएँ पलट जाते हैं)।" },
+      "correctAnswer": 3,
+      "explanation": { "en": "Number the six seats around the table 0 to 5, with A at seat 0 and D opposite at seat 3. B sits immediately to A's left (seat 1 or seat 5). Either way, B is two seats away from D.", "hi": "मेज़ के चारों ओर छह सीटों को 0 से 5 तक गिनें, A सीट 0 पर और D उसके सम्मुख सीट 3 पर। B, A के ठीक बाईं ओर (सीट 1 या सीट 5) बैठा है। दोनों स्थितियों में B, D से दो सीट दूर है।" },
       "distractorAnalysis": {
-        "1": { "en": "Assumes left/right stays the same across the opposite seat, which isn't how circular seating works.", "hi": "यह मान लिया कि सम्मुख सीट के आर-पार बाएँ/दाएँ वैसे ही रहते हैं, जबकि गोल बैठक में ऐसा नहीं होता।" },
-        "2": { "en": "This would only be true if B were directly across from D, which isn't the given position.", "hi": "यह तभी सत्य होता यदि B सीधे D के सामने होता, जो दी गई स्थिति नहीं है।" },
-        "3": { "en": "Overstates the distance between B and D's seats.", "hi": "B और D की सीटों के बीच की दूरी को अधिक आंक लिया।" }
+        "0": { "en": "D's immediate neighbours are two seats away from A, so A's neighbour B cannot be next to D.", "hi": "D के ठीक पास वाले व्यक्ति A से दो सीट दूर हैं, इसलिए A का पड़ोसी B, D के ठीक पास नहीं हो सकता।" },
+        "1": { "en": "D's immediate neighbours are two seats away from A, so A's neighbour B cannot be next to D.", "hi": "D के ठीक पास वाले व्यक्ति A से दो सीट दूर हैं, इसलिए A का पड़ोसी B, D के ठीक पास नहीं हो सकता।" },
+        "2": { "en": "Only A sits directly opposite D; B sits next to A, not opposite D.", "hi": "D के ठीक सामने केवल A बैठा है; B, A के पास बैठा है, D के सामने नहीं।" }
       }
     },
     {
@@ -370,7 +370,7 @@
       "key": "rms9-p2-ma2-20",
       "year": 2023,
       "difficulty": "MEDIUM",
-      "questionJson": { "en": "Pointing to a photograph, a woman said, \"I am the only daughter of this woman's mother.\" How is the woman in the photograph related to the speaker?", "hi": "एक तस्वीर की ओर इशारा करते हुए एक महिला ने कहा, \"मैं इस महिला की माँ की इकलौती बेटी हूँ।\" तस्वीर में दिखने वाली महिला वक्ता से किस प्रकार संबंधित है?" },
+      "questionJson": { "en": "Pointing to a photograph, a woman said, \"That woman's mother is the only daughter of my mother.\" How is the woman in the photograph related to the speaker?", "hi": "एक तस्वीर की ओर इशारा करते हुए एक महिला ने कहा, \"उस महिला की माँ मेरी माँ की इकलौती बेटी है।\" तस्वीर में दिखने वाली महिला वक्ता से किस प्रकार संबंधित है?" },
       "optionsJson": [
         { "en": "Mother", "hi": "माँ" },
         { "en": "Daughter", "hi": "बेटी" },
@@ -378,10 +378,10 @@
         { "en": "Aunt", "hi": "बुआ" }
       ],
       "correctAnswer": 1,
-      "explanation": { "en": "\"This woman's mother\" is the speaker's own mother (since the speaker is her only daughter), so the woman in the photo is the speaker's daughter.", "hi": "\"इस महिला की माँ\" स्वयं वक्ता की माँ हैं (क्योंकि वक्ता उनकी इकलौती बेटी है), अतः तस्वीर में महिला वक्ता की बेटी है।" },
+      "explanation": { "en": "The only daughter of the speaker's mother is the speaker herself, so the photographed woman's mother is the speaker — making the woman in the photo the speaker's daughter.", "hi": "वक्ता की माँ की इकलौती बेटी स्वयं वक्ता है, अतः तस्वीर वाली महिला की माँ वक्ता है — इसलिए तस्वीर में महिला वक्ता की बेटी है।" },
       "distractorAnalysis": {
         "0": { "en": "Reverses the generational direction of the relationship.", "hi": "संबंध की पीढ़ीगत दिशा को उल्टा कर दिया।" },
-        "2": { "en": "Would apply only if the speaker and the photographed woman shared the same mother directly, which isn't what's stated.", "hi": "यह तभी लागू होता यदि वक्ता और तस्वीर वाली महिला की माँ सीधे समान होती, जो कथन में नहीं है।" },
+        "2": { "en": "Would apply only if both women had the same mother, but the photographed woman's mother is the speaker herself.", "hi": "यह तभी लागू होता यदि दोनों की माँ एक ही होती, पर यहाँ तस्वीर वाली महिला की माँ स्वयं वक्ता है।" },
         "3": { "en": "Confuses the generational level of the relationship.", "hi": "संबंध के पीढ़ीगत स्तर को भ्रमित कर दिया।" }
       }
     },

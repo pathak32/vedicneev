@@ -156,7 +156,7 @@ export const posts: PyqSeedItem[] = [
       { en: "1/2", hi: "1/2", mr: "1/2" },
       { en: "5/4", hi: "5/4", mr: "5/4" },
       { en: "11/12", hi: "11/12", mr: "11/12" },
-      { en: "1 1/4", hi: "1 1/4", mr: "1 1/4" },
+      { en: "1 1/2", hi: "1 1/2", mr: "1 1/2" },
     ],
     correctAnswer: 1,
     explanation: {

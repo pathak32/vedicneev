@@ -263,12 +263,12 @@
         { "en": "Opposite D", "hi": "D के सम्मुख" },
         { "en": "Two seats from D", "hi": "D से दो सीट दूर" }
       ],
-      "correctAnswer": 0,
-      "explanation": { "en": "If A is opposite D, and B is immediately to A's right, then going around the circle, B ends up immediately to D's left (since left/right flip across the opposite seat).", "hi": "यदि A, D के सम्मुख है, और B, A के ठीक दाईं ओर है, तो गोल मेज़ पर घूमने पर, B, D के ठीक बाईं ओर आ जाता है (क्योंकि सम्मुख सीट के आर-पार बाएँ/दाएँ पलट जाते हैं)।" },
+      "correctAnswer": 3,
+      "explanation": { "en": "Number the six seats around the table 0 to 5, with A at seat 0 and D opposite at seat 3. B sits immediately to A's right (seat 1 or seat 5). Either way, B is two seats away from D.", "hi": "मेज़ के चारों ओर छह सीटों को 0 से 5 तक गिनें, A सीट 0 पर और D उसके सम्मुख सीट 3 पर। B, A के ठीक दाईं ओर (सीट 1 या सीट 5) बैठा है। दोनों स्थितियों में B, D से दो सीट दूर है।" },
       "distractorAnalysis": {
-        "1": { "en": "Assumes left/right stays the same across the opposite seat, which isn't how circular seating works.", "hi": "यह मान लिया कि सम्मुख सीट के आर-पार बाएँ/दाएँ वैसे ही रहते हैं, जबकि गोल बैठक में ऐसा नहीं होता।" },
-        "2": { "en": "This would only be true if B were directly across from D, which isn't the given position.", "hi": "यह तभी सत्य होता यदि B सीधे D के सामने होता, जो दी गई स्थिति नहीं है।" },
-        "3": { "en": "Overstates the distance between B and D's seats.", "hi": "B और D की सीटों के बीच की दूरी को अधिक आंक लिया।" }
+        "0": { "en": "D's immediate neighbours are two seats away from A, so A's neighbour B cannot be next to D.", "hi": "D के ठीक पास वाले व्यक्ति A से दो सीट दूर हैं, इसलिए A का पड़ोसी B, D के ठीक पास नहीं हो सकता।" },
+        "1": { "en": "D's immediate neighbours are two seats away from A, so A's neighbour B cannot be next to D.", "hi": "D के ठीक पास वाले व्यक्ति A से दो सीट दूर हैं, इसलिए A का पड़ोसी B, D के ठीक पास नहीं हो सकता।" },
+        "2": { "en": "Only A sits directly opposite D; B sits next to A, not opposite D.", "hi": "D के ठीक सामने केवल A बैठा है; B, A के पास बैठा है, D के सामने नहीं।" }
       }
     },
     {
@@ -294,7 +294,7 @@
       "key": "aissee9-p2-ma2-16",
       "year": 2025,
       "difficulty": "MEDIUM",
-      "questionJson": { "en": "If 'ADD' is coded as '1449', how is 'DAD' coded (using the same letter-to-number scheme, where A=1, D=4)?", "hi": "यदि 'ADD' को '1449' के रूप में कूटबद्ध किया जाता है, तो 'DAD' कैसे कूटबद्ध होगा (उसी अक्षर-से-अंक योजना का प्रयोग करते हुए, जहाँ A=1, D=4)?" },
+      "questionJson": { "en": "If 'ADD' is coded as '144', how is 'DAD' coded (using the same letter-to-number scheme, where A=1, D=4)?", "hi": "यदि 'ADD' को '144' के रूप में कूटबद्ध किया जाता है, तो 'DAD' कैसे कूटबद्ध होगा (उसी अक्षर-से-अंक योजना का प्रयोग करते हुए, जहाँ A=1, D=4)?" },
       "optionsJson": [
         { "en": "419", "hi": "419" },
         { "en": "414", "hi": "414" },
@@ -302,10 +302,10 @@
         { "en": "144", "hi": "144" }
       ],
       "correctAnswer": 1,
-      "explanation": { "en": "Each letter's value is written in sequence: D=4, A=1, D=4, giving 414. (In 'ADD'→'1449', 1=A, 4=D, 4=D, and 9 is the sum 1+4+4, following the same pattern for DAD: 4,1,4.)", "hi": "प्रत्येक अक्षर का मान क्रम में लिखा जाता है: D=4, A=1, D=4, अतः 414 प्राप्त होता है। ('ADD'→'1449' में 1=A, 4=D, 4=D, और 9 योग 1+4+4 है, उसी क्रम में DAD के लिए: 4,1,4।)" },
+      "explanation": { "en": "Each letter is replaced by its number in the same order: D=4, A=1, D=4, giving 414.", "hi": "प्रत्येक अक्षर को उसी क्रम में उसकी संख्या से बदला जाता है: D=4, A=1, D=4, अतः 414।" },
       "distractorAnalysis": {
-        "0": { "en": "Uses the sum-digit convention from the example instead of just the three individual letter values.", "hi": "केवल तीन व्यक्तिगत अक्षर मानों के बजाय उदाहरण की योग-अंक परंपरा का प्रयोग किया।" },
-        "2": { "en": "Reverses the correct letter order.", "hi": "सही अक्षर क्रम को उलट दिया।" },
+        "0": { "en": "Appends an extra digit that isn't part of the scheme.", "hi": "योजना का भाग न होने वाला एक अतिरिक्त अंक जोड़ दिया।" },
+        "2": { "en": "Writes the digits in the wrong order (D, D, A).", "hi": "अंकों को गलत क्रम (D, D, A) में लिखा।" },
         "3": { "en": "Reuses the digits from 'ADD' directly instead of reordering them for 'DAD'.", "hi": "'DAD' के लिए पुनः क्रमबद्ध करने के बजाय 'ADD' के अंकों का सीधे पुनः प्रयोग किया।" }
       }
     },
@@ -370,7 +370,7 @@
       "key": "aissee9-p2-ma2-20",
       "year": 2023,
       "difficulty": "MEDIUM",
-      "questionJson": { "en": "Pointing to a photograph, a man said, \"I am the only son of this man's father.\" How is the man in the photograph related to the speaker?", "hi": "एक तस्वीर की ओर इशारा करते हुए एक व्यक्ति ने कहा, \"मैं इस व्यक्ति के पिता का इकलौता पुत्र हूँ।\" तस्वीर में दिखने वाला व्यक्ति वक्ता से किस प्रकार संबंधित है?" },
+      "questionJson": { "en": "Pointing to a photograph, a man said, \"That man's father is the only son of my father.\" How is the man in the photograph related to the speaker?", "hi": "एक तस्वीर की ओर इशारा करते हुए एक व्यक्ति ने कहा, \"उस व्यक्ति के पिता मेरे पिता के इकलौते पुत्र हैं।\" तस्वीर में दिखने वाला व्यक्ति वक्ता से किस प्रकार संबंधित है?" },
       "optionsJson": [
         { "en": "Father", "hi": "पिता" },
         { "en": "Son", "hi": "पुत्र" },
@@ -378,10 +378,10 @@
         { "en": "Uncle", "hi": "चाचा" }
       ],
       "correctAnswer": 1,
-      "explanation": { "en": "\"This man's father\" is the speaker's own father (since the speaker is his only son), so the man in the photo is the speaker's son.", "hi": "\"इस व्यक्ति के पिता\" स्वयं वक्ता के पिता हैं (क्योंकि वक्ता उनका इकलौता पुत्र है), अतः तस्वीर में व्यक्ति वक्ता का पुत्र है।" },
+      "explanation": { "en": "The only son of the speaker's father is the speaker himself, so the photographed man's father is the speaker — making the man in the photo the speaker's son.", "hi": "वक्ता के पिता का इकलौता पुत्र स्वयं वक्ता है, अतः तस्वीर वाले व्यक्ति के पिता वक्ता हैं — इसलिए तस्वीर में व्यक्ति वक्ता का पुत्र है।" },
       "distractorAnalysis": {
         "0": { "en": "Reverses the generational direction of the relationship.", "hi": "संबंध की पीढ़ीगत दिशा को उल्टा कर दिया।" },
-        "2": { "en": "Would apply only if the speaker and the photographed man shared the same father directly, which isn't what's stated.", "hi": "यह तभी लागू होता यदि वक्ता और तस्वीर वाले व्यक्ति के पिता सीधे समान होते, जो कथन में नहीं है।" },
+        "2": { "en": "Would apply only if both men had the same father, but the photographed man's father is the speaker himself.", "hi": "यह तभी लागू होता यदि दोनों के पिता एक ही होते, पर यहाँ तस्वीर वाले व्यक्ति के पिता स्वयं वक्ता हैं।" },
         "3": { "en": "Confuses the generational level of the relationship.", "hi": "संबंध के पीढ़ीगत स्तर को भ्रमित कर दिया।" }
       }
     },

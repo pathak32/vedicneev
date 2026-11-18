@@ -52,7 +52,7 @@ export const posts: PyqSeedItem[] = [
     optionsJson: [
       { en: "20 seconds", hi: "20 सेकंड", mr: "20 सेकंद" },
       { en: "22.5 seconds", hi: "22.5 सेकंड", mr: "22.5 सेकंद" },
-      { en: "26.6 seconds", hi: "26.6 सेकंड", mr: "26.6 सेकंद" },
+      { en: "26.7 seconds", hi: "26.7 सेकंड", mr: "26.7 सेकंद" },
       { en: "30 seconds", hi: "30 सेकंड", mr: "30 सेकंद" }
     ],
     correctAnswer: 2,

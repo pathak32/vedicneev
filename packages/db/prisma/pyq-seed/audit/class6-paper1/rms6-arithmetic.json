@@ -508,14 +508,14 @@
         { "en": "7", "hi": "7", "mr": "7" },
         { "en": "5", "hi": "5", "mr": "5" },
         { "en": "8", "hi": "8", "mr": "8" },
-        { "en": "35/5", "hi": "35/5", "mr": "35/5" }
+        { "en": "42", "hi": "42", "mr": "42" }
       ],
       "correctAnswer": 0,
       "explanation": { "en": "5x = 27+8 = 35, so x = 35/5 = 7.", "hi": "5x = 27+8 = 35, अतः x = 35/5 = 7।", "mr": "5x = 27+8 = 35, म्हणून x = 35/5 = 7." },
       "distractorAnalysis": {
         "1": { "en": "Arithmetic slip while dividing 35 by 5.", "hi": "35 को 5 से भाग देने में गणना की भूल।", "mr": "35 ला 5 ने भागताना गणनेत चूक." },
         "2": { "en": "Subtracts instead of adding before dividing.", "hi": "भाग देने से पहले जोड़ने के बजाय घटा दिया।", "mr": "भागण्यापूर्वी जोडण्याऐवजी वजा केले." },
-        "3": { "en": "This is 7 written as an unsimplified fraction, but the option's form doesn't match the expected numeric answer format.", "hi": "यह 7 को असरलीकृत भिन्न रूप में लिखा गया है, जो अपेक्षित संख्यात्मक उत्तर प्रारूप से मेल नहीं खाता।", "mr": "हे 7 चे असरळीकृत अपूर्णांक रूप आहे, जे अपेक्षित संख्यात्मक उत्तर स्वरूपाशी जुळत नाही." }
+        "3": { "en": "Not the result of solving the equation correctly.", "hi": "समीकरण को सही हल करने पर यह मान नहीं मिलता।", "mr": "समीकरण योग्य रीतीने सोडवल्यास हे मूल्य मिळत नाही." }
       }
     },
     {

@@ -31,15 +31,15 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "mathematics",
     difficulty: "MEDIUM",
-    questionJson: { en: "The interior angles of a pentagon are in the ratio 1 : 2 : 3 : 4 : 5. What is the measure of the largest interior angle?", hi: "एक पंचभुज (Pentagon) के आंतरिक कोणों का अनुपात 1 : 2 : 3 : 4 : 5 है। सबसे बड़े आंतरिक कोण का माप क्या है?" },
+    questionJson: { en: "The interior angles of a pentagon are in the ratio 2 : 3 : 4 : 5 : 6. What is the measure of the largest interior angle?", hi: "एक पंचभुज (Pentagon) के आंतरिक कोणों का अनुपात 2 : 3 : 4 : 5 : 6 है। सबसे बड़े आंतरिक कोण का माप क्या है?" },
     optionsJson: [
       { en: "144°", hi: "144°" },
-      { en: "180°", hi: "180°" },
-      { en: "108°", hi: "108°" },
-      { en: "120°", hi: "120°" }
+      { en: "150°", hi: "150°" },
+      { en: "162°", hi: "162°" },
+      { en: "108°", hi: "108°" }
     ],
-    correctAnswer: 1,
-    explanation: { en: "Sum of interior angles of a pentagon = (5 - 2) * 180° = 540°. Total ratio parts = 1+2+3+4+5 = 15. Value of 1 part = 540 / 15 = 36°. Largest angle = 5 * 36° = 180°.", hi: "पंचभुज के आंतरिक कोणों का योग = (5 - 2) * 180° = 540°। अनुपात का योग = 15। 1 भाग = 36°। सबसे बड़ा कोण = 5 * 36° = 180°।" },
+    correctAnswer: 2,
+    explanation: { en: "Sum of interior angles of a pentagon = (5 - 2) * 180° = 540°. Total ratio parts = 2+3+4+5+6 = 20. Value of 1 part = 540 / 20 = 27°. Largest angle = 6 * 27° = 162°.", hi: "पंचभुज के आंतरिक कोणों का योग = (5 - 2) * 180° = 540°। अनुपात का योग = 20। 1 भाग = 27°। सबसे बड़ा कोण = 6 * 27° = 162°।" },
   },
   {
     key: "aissee9-gem1-mt-03",
@@ -124,7 +124,7 @@ export const posts: PyqSeedItem[] = [
       { en: "Carbon dioxide gas", hi: "कार्बन डाइऑक्साइड गैस" }
     ],
     correctAnswer: 1,
-    explanation: { en: "During electrolysis of H2O, negatively charged oxide ions move to the positive anode to release Oxygen gas, while positively charged hydrogen ions release Hydrogen gas at the negative cathode.", hi: "जल के विद्युत अपघटन में ऑक्सीजन गैस धनात्मक ऐनोड पर और हाइड्रोजन गैस ऋणात्मक कैथोड पर मुक्त होती है।" },
+    explanation: { en: "During electrolysis of H2O, negatively charged ions (hydroxide, OH⁻) move to the positive anode, where oxygen gas is released, while positively charged hydrogen ions gain electrons at the negative cathode to release Hydrogen gas.", hi: "जल के विद्युत अपघटन में ऑक्सीजन गैस धनात्मक ऐनोड पर और हाइड्रोजन गैस ऋणात्मक कैथोड पर मुक्त होती है।" },
   },
   {
     key: "aissee9-gem1-gk-01",

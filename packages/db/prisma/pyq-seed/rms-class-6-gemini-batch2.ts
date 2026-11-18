@@ -105,15 +105,15 @@ export const posts: PyqSeedItem[] = [
     year: 2026,
     sectionKey: "language",
     difficulty: "EASY",
-    questionJson: { en: "Fill in the blank with the correct article: 'Ganga is _____ sacred river of India.'", hi: "सही आर्टिकल से रिक्त स्थान भरें: 'Ganga is _____ sacred river of India.'", mr: "योग्य आर्टिकल (article) वापरून रिकामी जागा भरा: 'Ganga is _____ sacred river of India.'" },
+    questionJson: { en: "Fill in the blank with the correct article: 'Ganga is _____ most sacred river of India.'", hi: "सही आर्टिकल से रिक्त स्थान भरें: 'Ganga is _____ most sacred river of India.'", mr: "योग्य आर्टिकल (article) वापरून रिकामी जागा भरा: 'Ganga is _____ most sacred river of India.'" },
     optionsJson: [
       { en: "a", hi: "a", mr: "a" },
       { en: "an", hi: "an", mr: "an" },
       { en: "the", hi: "the", mr: "the" },
       { en: "no article", hi: "कोई आर्टिकल नहीं", mr: "कोणतेही आर्टिकल नाही" }
     ],
-    correctAnswer: 0,
-    explanation: { en: "Before 'sacred' starting with consonant sound /s/, indefinite article 'a' is used ('a sacred river').", hi: "'sacred' शब्द से पहले अनिश्चित आर्टिकल 'a' का प्रयोग होता है।", mr: "व्यंजन ध्वनी /s/ ने सुरू होणाऱ्या 'sacred' या शब्दापूर्वी अनिश्चित आर्टिकल 'a' वापरले जाते ('a sacred river')." },
+    correctAnswer: 2,
+    explanation: { en: "A superlative ('most sacred') always takes the definite article 'the'.", hi: "उत्कृष्टता सूचक रूप ('most sacred') के साथ हमेशा निश्चित आर्टिकल 'the' का प्रयोग होता है।", mr: "अतिशयदर्शक रूपासोबत ('most sacred') नेहमी निश्चित आर्टिकल 'the' वापरले जाते." },
   },
   {
     key: "rms6-gem2-la-02",

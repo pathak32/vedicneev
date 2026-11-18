@@ -427,7 +427,7 @@
       "key": "rms6-p1-ma-23",
       "year": 2024,
       "difficulty": "MEDIUM",
-      "questionJson": { "en": "Four friends A, B, C, D are sitting in a row. B is to the immediate right of A. D is at the extreme left. C is between B and D's neighbour... rephrased: D is at the extreme left, A is immediately right of D, B is immediately right of A, and C is at the extreme right. What is the order from left to right?", "hi": "चार मित्र A, B, C, D एक पंक्ति में बैठे हैं। D सबसे बाईं ओर है, A, D के ठीक दाईं ओर है, B, A के ठीक दाईं ओर है, और C सबसे दाईं ओर है। बाएँ से दाएँ क्रम क्या है?", "mr": "चार मित्र A, B, C, D एका ओळीत बसले आहेत. D सर्वात डावीकडे आहे, A हा D च्या अगदी उजवीकडे आहे, B हा A च्या अगदी उजवीकडे आहे, आणि C सर्वात उजवीकडे आहे. डावीकडून उजवीकडे क्रम काय आहे?" },
+      "questionJson": { "en": "Four friends A, B, C, D are sitting in a row. D is at the extreme left, A is immediately right of D, B is immediately right of A, and C is at the extreme right. What is the order from left to right?", "hi": "चार मित्र A, B, C, D एक पंक्ति में बैठे हैं। D सबसे बाईं ओर है, A, D के ठीक दाईं ओर है, B, A के ठीक दाईं ओर है, और C सबसे दाईं ओर है। बाएँ से दाएँ क्रम क्या है?", "mr": "चार मित्र A, B, C, D एका रांगेत बसले आहेत. D सर्वात डावीकडे आहे, A हा D च्या लगेच उजवीकडे आहे, B हा A च्या लगेच उजवीकडे आहे आणि C सर्वात उजवीकडे आहे. डावीकडून उजवीकडे क्रम काय आहे?" },
       "optionsJson": [
         { "en": "D, A, B, C", "hi": "D, A, B, C", "mr": "D, A, B, C" },
         { "en": "A, D, B, C", "hi": "A, D, B, C", "mr": "A, D, B, C" },
