@@ -25,6 +25,26 @@ import { posts as postsRms6GeminiBatch2 } from "./rms-class-6-gemini-batch2";
 import { posts as postsRms9GeminiBatch1 } from "./rms-class-9-gemini-batch1";
 import { posts as postsRms9GeminiBatch2 } from "./rms-class-9-gemini-batch2";
 
+// Gemini-drafted supplementary items: each file's header says "Seeded as DRAFT",
+// but the items omit reviewStatus, which defaults them to live Paper 1 and
+// inflates that paper past its blueprint quota. Pinned to their own draft paper
+// number (99, clear of the sequential 1..20 set numbering) until reviewed.
+const SUPPLEMENTARY_PAPER_NUMBER = 99;
+const geminiBatches: PyqSeedItem[] = [
+  ...postsJnvst6GeminiBatch1,
+  ...postsJnvst6GeminiBatch2,
+  ...postsJnvst9GeminiBatch1,
+  ...postsJnvst9GeminiBatch2,
+  ...postsAissee6GeminiBatch1,
+  ...postsAissee6GeminiBatch2,
+  ...postsAissee9GeminiBatch1,
+  ...postsAissee9GeminiBatch2,
+  ...postsRms6GeminiBatch1,
+  ...postsRms6GeminiBatch2,
+  ...postsRms9GeminiBatch1,
+  ...postsRms9GeminiBatch2,
+].map((item) => ({ ...item, paperNumber: SUPPLEMENTARY_PAPER_NUMBER, reviewStatus: "DRAFT" as const }));
+
 export const pyqSeedItems: PyqSeedItem[] = [
   ...posts2021,
   ...posts2022,
@@ -39,16 +59,5 @@ export const pyqSeedItems: PyqSeedItem[] = [
   ...postsRms9Paper2,
   ...postsJnvst6Paper2,
   ...postsJnvst9Paper2,
-  ...postsJnvst6GeminiBatch1,
-  ...postsJnvst6GeminiBatch2,
-  ...postsJnvst9GeminiBatch1,
-  ...postsJnvst9GeminiBatch2,
-  ...postsAissee6GeminiBatch1,
-  ...postsAissee6GeminiBatch2,
-  ...postsAissee9GeminiBatch1,
-  ...postsAissee9GeminiBatch2,
-  ...postsRms6GeminiBatch1,
-  ...postsRms6GeminiBatch2,
-  ...postsRms9GeminiBatch1,
-  ...postsRms9GeminiBatch2,
+  ...geminiBatches,
 ];

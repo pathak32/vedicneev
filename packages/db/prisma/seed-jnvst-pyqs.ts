@@ -54,13 +54,15 @@ async function main() {
       distractorAnalysis: (item.distractorAnalysis as unknown as Prisma.InputJsonValue) ?? Prisma.JsonNull,
       difficulty: item.difficulty,
       paperNumber: item.paperNumber ?? 1,
-      reviewStatus: item.reviewStatus ?? "PUBLISHED",
     };
 
+    // reviewStatus is only set on create: it's an admin decision (made on
+    // /admin/mock-papers), so re-running this seed after editing content
+    // must never silently unpublish — or publish — an existing paper.
     const result = await prisma.previousYearQuestion.upsert({
       where: { key: item.key },
       update: data,
-      create: { key: item.key, ...data },
+      create: { key: item.key, ...data, reviewStatus: item.reviewStatus ?? "PUBLISHED" },
     });
     if (result.createdAt.getTime() === result.updatedAt.getTime()) newCount += 1;
   }
