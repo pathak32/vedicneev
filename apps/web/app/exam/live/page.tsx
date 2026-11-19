@@ -55,7 +55,7 @@ export default async function ExamLiveCatalogPage() {
                   {template.totalQuestions} questions &middot; {template.totalMarks} marks &middot; {template.durationMinutes} min
                 </p>
               </div>
-              {papers.length > 0 ? (
+              {papers.length > 1 ? (
                 <div className="mt-4 flex flex-wrap gap-2">
                   {papers.map((n) => (
                     <Button key={n} asChild variant="outline" size="sm">
@@ -64,8 +64,18 @@ export default async function ExamLiveCatalogPage() {
                   ))}
                 </div>
               ) : (
+                // Zero or one published paper: nothing to choose between, so show a plain "Start Mock".
+                // With exactly one, still pin it so the fixed, reviewed paper is served.
                 <Button asChild className="mt-4">
-                  <Link href={`/exam/live/${template.slug}`}>Start Mock</Link>
+                  <Link
+                    href={
+                      papers.length === 1
+                        ? `/exam/live/${template.slug}?paper=${papers[0]}`
+                        : `/exam/live/${template.slug}`
+                    }
+                  >
+                    Start Mock
+                  </Link>
                 </Button>
               )}
             </div>
