@@ -1,0 +1,484 @@
+{
+  "examType": "AISSEE",
+  "classLevel": 9,
+  "paperNumber": 3,
+  "sectionKey": "general_knowledge",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "aissee9-p3-gk-01",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "What is the capital of the state of Kerala?", "hi": "केरल राज्य की राजधानी क्या है?" },
+      "optionsJson": [
+        { "en": "Kochi", "hi": "कोच्चि" },
+        { "en": "Kozhikode", "hi": "कोझिकोड" },
+        { "en": "Thiruvananthapuram", "hi": "तिरुवनंतपुरम" },
+        { "en": "Thrissur", "hi": "त्रिशूर" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Thiruvananthapuram is the capital of Kerala and is located in the far south of the state.", "hi": "तिरुवनंतपुरम केरल की राजधानी है और राज्य के सुदूर दक्षिण में स्थित है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Kochi is Kerala's major port and commercial city, but not the capital.", "hi": "कोच्चि केरल का प्रमुख बंदरगाह और व्यापारिक शहर है, परंतु राजधानी नहीं है।" },
+        "1": { "en": "Kozhikode is a historic spice-trading city on the Malabar Coast, not the capital.", "hi": "कोझिकोड मालाबार तट पर मसालों के व्यापार का ऐतिहासिक शहर है, राजधानी नहीं।" },
+        "3": { "en": "Thrissur is known as the cultural capital of Kerala, but it is not the state capital.", "hi": "त्रिशूर को केरल की सांस्कृतिक राजधानी कहा जाता है, परंतु यह राज्य की राजधानी नहीं है।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-gk-02",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "At Devprayag, the Alaknanda meets which other headstream, rising from the Gangotri Glacier, to form the river Ganga?", "hi": "देवप्रयाग में अलकनंदा गंगोत्री हिमनद से निकलने वाली किस अन्य धारा से मिलकर गंगा नदी बनाती है?" },
+      "optionsJson": [
+        { "en": "Bhagirathi", "hi": "भागीरथी" },
+        { "en": "Mandakini", "hi": "मंदाकिनी" },
+        { "en": "Yamuna", "hi": "यमुना" },
+        { "en": "Gandak", "hi": "गंडक" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The Bhagirathi rises from the Gangotri Glacier and joins the Alaknanda at Devprayag in Uttarakhand; from there the combined stream is called the Ganga.", "hi": "भागीरथी गंगोत्री हिमनद से निकलती है और उत्तराखंड के देवप्रयाग में अलकनंदा से मिलती है; वहाँ से संयुक्त धारा गंगा कहलाती है।" },
+      "distractorAnalysis": {
+        "1": { "en": "The Mandakini is a tributary of the Alaknanda, joining it at Rudraprayag, and does not rise from Gangotri.", "hi": "मंदाकिनी अलकनंदा की सहायक नदी है जो रुद्रप्रयाग में उससे मिलती है; यह गंगोत्री से नहीं निकलती।" },
+        "2": { "en": "The Yamuna rises from Yamunotri and flows separately, meeting the Ganga at Prayagraj.", "hi": "यमुना यमुनोत्री से निकलती है और अलग बहती हुई प्रयागराज में गंगा से मिलती है।" },
+        "3": { "en": "The Gandak is a tributary that joins the Ganga near Patna, far downstream of Devprayag.", "hi": "गंडक एक सहायक नदी है जो देवप्रयाग से बहुत आगे पटना के निकट गंगा में मिलती है।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-gk-03",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which of the following state capitals lies on the banks of the river Gomti?", "hi": "निम्नलिखित में से कौन-सी राज्य राजधानी गोमती नदी के तट पर स्थित है?" },
+      "optionsJson": [
+        { "en": "Patna", "hi": "पटना" },
+        { "en": "Lucknow", "hi": "लखनऊ" },
+        { "en": "Bhopal", "hi": "भोपाल" },
+        { "en": "Ranchi", "hi": "रांची" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Lucknow, the capital of Uttar Pradesh, is built on the banks of the Gomti, a tributary of the Ganga.", "hi": "उत्तर प्रदेश की राजधानी लखनऊ गंगा की सहायक नदी गोमती के तट पर बसी है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Patna lies on the southern bank of the Ganga, not the Gomti.", "hi": "पटना गंगा के दक्षिणी तट पर स्थित है, गोमती पर नहीं।" },
+        "2": { "en": "Bhopal is known for its lakes and is not on the Gomti.", "hi": "भोपाल अपनी झीलों के लिए प्रसिद्ध है और गोमती पर स्थित नहीं है।" },
+        "3": { "en": "Ranchi lies on the Chota Nagpur Plateau, near the source of the Subarnarekha, not on the Gomti.", "hi": "रांची छोटा नागपुर पठार पर सुवर्णरेखा के उद्गम के निकट स्थित है, गोमती पर नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-gk-04",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Which of the following is the highest mountain peak located entirely within India (not on its border)?", "hi": "निम्नलिखित में से कौन-सा पर्वत शिखर पूर्णतः भारत के भीतर (सीमा पर नहीं) स्थित सबसे ऊँचा शिखर है?" },
+      "optionsJson": [
+        { "en": "Kamet", "hi": "कामेट" },
+        { "en": "Anamudi", "hi": "अनाईमुडी" },
+        { "en": "Doddabetta", "hi": "दोदाबेट्टा" },
+        { "en": "Nanda Devi", "hi": "नंदा देवी" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Nanda Devi (about 7,816 m) in Uttarakhand is the highest peak lying wholly within India. Kangchenjunga is higher but lies on the India-Nepal border.", "hi": "उत्तराखंड में नंदा देवी (लगभग 7,816 मी.) पूर्णतः भारत के भीतर स्थित सबसे ऊँचा शिखर है। कंचनजंगा अधिक ऊँचा है, परंतु वह भारत-नेपाल सीमा पर स्थित है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Kamet (about 7,756 m) lies in Uttarakhand close to the Tibet border and is lower than Nanda Devi.", "hi": "कामेट (लगभग 7,756 मी.) उत्तराखंड में तिब्बत सीमा के निकट स्थित है और नंदा देवी से नीचा है।" },
+        "1": { "en": "Anamudi (about 2,695 m) is the highest peak of peninsular India, far lower than Himalayan peaks.", "hi": "अनाईमुडी (लगभग 2,695 मी.) प्रायद्वीपीय भारत का सबसे ऊँचा शिखर है, जो हिमालय के शिखरों से बहुत नीचा है।" },
+        "2": { "en": "Doddabetta (about 2,637 m) is the highest peak of the Nilgiris, much lower than Nanda Devi.", "hi": "दोदाबेट्टा (लगभग 2,637 मी.) नीलगिरि का सबसे ऊँचा शिखर है, जो नंदा देवी से बहुत नीचा है।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-gk-05",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Anamudi, the highest peak of peninsular India, is part of which hill range?", "hi": "प्रायद्वीपीय भारत का सबसे ऊँचा शिखर अनाईमुडी किस पर्वत श्रेणी का भाग है?" },
+      "optionsJson": [
+        { "en": "Eastern Ghats", "hi": "पूर्वी घाट" },
+        { "en": "Western Ghats", "hi": "पश्चिमी घाट" },
+        { "en": "Aravalli Range", "hi": "अरावली श्रेणी" },
+        { "en": "Satpura Range", "hi": "सतपुड़ा श्रेणी" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Anamudi (about 2,695 m) stands in the Anamalai Hills of the Western Ghats in Kerala.", "hi": "अनाईमुडी (लगभग 2,695 मी.) केरल में पश्चिमी घाट की अन्नामलाई पहाड़ियों में स्थित है।" },
+      "distractorAnalysis": {
+        "0": { "en": "The Eastern Ghats are lower and discontinuous; their peaks do not reach Anamudi's height.", "hi": "पूर्वी घाट अपेक्षाकृत नीचे और खंडित हैं; उनके शिखर अनाईमुडी की ऊँचाई तक नहीं पहुँचते।" },
+        "2": { "en": "The Aravalli Range lies in Rajasthan and Gujarat; its highest peak is Guru Shikhar at Mount Abu.", "hi": "अरावली श्रेणी राजस्थान और गुजरात में है; इसका सबसे ऊँचा शिखर माउंट आबू का गुरु शिखर है।" },
+        "3": { "en": "The Satpura Range lies in central India; its highest peak is Dhupgarh, not Anamudi.", "hi": "सतपुड़ा श्रेणी मध्य भारत में है; इसका सबसे ऊँचा शिखर धूपगढ़ है, अनाईमुडी नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-gk-06",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which of the following rivers flows westward through a rift valley and drains into the Arabian Sea?", "hi": "निम्नलिखित में से कौन-सी नदी भ्रंश घाटी से होकर पश्चिम की ओर बहती है और अरब सागर में गिरती है?" },
+      "optionsJson": [
+        { "en": "Narmada", "hi": "नर्मदा" },
+        { "en": "Godavari", "hi": "गोदावरी" },
+        { "en": "Mahanadi", "hi": "महानदी" },
+        { "en": "Krishna", "hi": "कृष्णा" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The Narmada flows west through a rift valley between the Vindhya and Satpura ranges and falls into the Arabian Sea in the Gulf of Khambhat.", "hi": "नर्मदा विंध्य और सतपुड़ा श्रेणियों के बीच भ्रंश घाटी में पश्चिम की ओर बहती है और खंभात की खाड़ी में अरब सागर से मिलती है।" },
+      "distractorAnalysis": {
+        "1": { "en": "The Godavari flows eastward and drains into the Bay of Bengal.", "hi": "गोदावरी पूर्व की ओर बहती है और बंगाल की खाड़ी में गिरती है।" },
+        "2": { "en": "The Mahanadi flows east through Chhattisgarh and Odisha into the Bay of Bengal.", "hi": "महानदी छत्तीसगढ़ और ओडिशा से होकर पूर्व की ओर बहती हुई बंगाल की खाड़ी में गिरती है।" },
+        "3": { "en": "The Krishna rises in the Western Ghats but flows eastward into the Bay of Bengal.", "hi": "कृष्णा पश्चिमी घाट से निकलती है परंतु पूर्व की ओर बहकर बंगाल की खाड़ी में गिरती है।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-gk-07",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which is the smallest continent in the world by area?", "hi": "क्षेत्रफल की दृष्टि से विश्व का सबसे छोटा महाद्वीप कौन-सा है?" },
+      "optionsJson": [
+        { "en": "Europe", "hi": "यूरोप" },
+        { "en": "Antarctica", "hi": "अंटार्कटिका" },
+        { "en": "South America", "hi": "दक्षिण अमेरिका" },
+        { "en": "Australia (Oceania)", "hi": "ऑस्ट्रेलिया (ओशिनिया)" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Australia (Oceania) covers about 8.5 million sq km, making it the smallest of the seven continents.", "hi": "ऑस्ट्रेलिया (ओशिनिया) का क्षेत्रफल लगभग 85 लाख वर्ग किमी है, जो सात महाद्वीपों में सबसे छोटा है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Europe covers about 10 million sq km, which is larger than Australia.", "hi": "यूरोप का क्षेत्रफल लगभग 1 करोड़ वर्ग किमी है, जो ऑस्ट्रेलिया से बड़ा है।" },
+        "1": { "en": "Antarctica covers about 14 million sq km, larger than Australia.", "hi": "अंटार्कटिका का क्षेत्रफल लगभग 1.4 करोड़ वर्ग किमी है, जो ऑस्ट्रेलिया से बड़ा है।" },
+        "2": { "en": "South America covers about 17.8 million sq km, much larger than Australia.", "hi": "दक्षिण अमेरिका का क्षेत्रफल लगभग 1.78 करोड़ वर्ग किमी है, जो ऑस्ट्रेलिया से बहुत बड़ा है।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-gk-08",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which strait separates peninsular India from Sri Lanka?", "hi": "कौन-सी जलसंधि प्रायद्वीपीय भारत को श्रीलंका से अलग करती है?" },
+      "optionsJson": [
+        { "en": "Strait of Malacca", "hi": "मलक्का जलसंधि" },
+        { "en": "Bering Strait", "hi": "बेरिंग जलसंधि" },
+        { "en": "Palk Strait", "hi": "पाक जलसंधि" },
+        { "en": "Strait of Hormuz", "hi": "होर्मुज़ जलसंधि" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The Palk Strait lies between Tamil Nadu in India and the island nation of Sri Lanka, connecting the Palk Bay with the Bay of Bengal.", "hi": "पाक जलसंधि भारत के तमिलनाडु और द्वीपीय देश श्रीलंका के बीच स्थित है और पाक खाड़ी को बंगाल की खाड़ी से जोड़ती है।" },
+      "distractorAnalysis": {
+        "0": { "en": "The Strait of Malacca lies between the Malay Peninsula and Sumatra.", "hi": "मलक्का जलसंधि मलय प्रायद्वीप और सुमात्रा के बीच स्थित है।" },
+        "1": { "en": "The Bering Strait separates Asia (Russia) from North America (Alaska).", "hi": "बेरिंग जलसंधि एशिया (रूस) को उत्तरी अमेरिका (अलास्का) से अलग करती है।" },
+        "3": { "en": "The Strait of Hormuz connects the Persian Gulf with the Gulf of Oman.", "hi": "होर्मुज़ जलसंधि फ़ारस की खाड़ी को ओमान की खाड़ी से जोड़ती है।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-gk-09",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which Indian state has the longest coastline on the mainland?", "hi": "भारत की मुख्य भूमि पर किस राज्य की तटरेखा सबसे लंबी है?" },
+      "optionsJson": [
+        { "en": "Gujarat", "hi": "गुजरात" },
+        { "en": "Andhra Pradesh", "hi": "आंध्र प्रदेश" },
+        { "en": "Tamil Nadu", "hi": "तमिलनाडु" },
+        { "en": "Maharashtra", "hi": "महाराष्ट्र" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Gujarat has the longest coastline of any Indian state, about 1,600 km, along the Arabian Sea, the Gulf of Kutch and the Gulf of Khambhat.", "hi": "गुजरात की तटरेखा भारत के सभी राज्यों में सबसे लंबी, लगभग 1,600 किमी है, जो अरब सागर, कच्छ की खाड़ी और खंभात की खाड़ी के साथ फैली है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Andhra Pradesh has a coastline of roughly 970 km, shorter than Gujarat's.", "hi": "आंध्र प्रदेश की तटरेखा लगभग 970 किमी है, जो गुजरात से छोटी है।" },
+        "2": { "en": "Tamil Nadu has a coastline of roughly 1,076 km, shorter than Gujarat's.", "hi": "तमिलनाडु की तटरेखा लगभग 1,076 किमी है, जो गुजरात से छोटी है।" },
+        "3": { "en": "Maharashtra has a coastline of roughly 720 km, much shorter than Gujarat's.", "hi": "महाराष्ट्र की तटरेखा लगभग 720 किमी है, जो गुजरात से बहुत छोटी है।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-gk-10",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "The Tropic of Cancer passes through how many Indian states?", "hi": "कर्क रेखा भारत के कितने राज्यों से होकर गुजरती है?" },
+      "optionsJson": [
+        { "en": "7", "hi": "7" },
+        { "en": "8", "hi": "8" },
+        { "en": "9", "hi": "9" },
+        { "en": "10", "hi": "10" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The Tropic of Cancer crosses eight states: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram.", "hi": "कर्क रेखा आठ राज्यों से गुजरती है: गुजरात, राजस्थान, मध्य प्रदेश, छत्तीसगढ़, झारखंड, पश्चिम बंगाल, त्रिपुरा और मिज़ोरम।" },
+      "distractorAnalysis": {
+        "0": { "en": "Seven undercounts the states; Tripura and Mizoram in the northeast are also crossed.", "hi": "सात की संख्या कम है; पूर्वोत्तर के त्रिपुरा और मिज़ोरम से भी कर्क रेखा गुजरती है।" },
+        "2": { "en": "Nine overcounts; states such as Odisha and Bihar are not crossed by the line.", "hi": "नौ की संख्या अधिक है; ओडिशा और बिहार जैसे राज्यों से यह रेखा नहीं गुजरती।" },
+        "3": { "en": "Ten overcounts; the line passes through only eight states.", "hi": "दस की संख्या अधिक है; यह रेखा केवल आठ राज्यों से गुजरती है।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-gk-11",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which river is called the \"Sorrow of Bihar\" because of its frequent floods and shifting course?", "hi": "बार-बार आने वाली बाढ़ और बदलते मार्ग के कारण किस नदी को \"बिहार का शोक\" कहा जाता है?" },
+      "optionsJson": [
+        { "en": "Gandak", "hi": "गंडक" },
+        { "en": "Son", "hi": "सोन" },
+        { "en": "Kosi", "hi": "कोसी" },
+        { "en": "Ghaghara", "hi": "घाघरा" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The Kosi, which descends from Nepal, carries heavy silt and has repeatedly shifted its course, causing devastating floods in north Bihar.", "hi": "नेपाल से उतरने वाली कोसी भारी मात्रा में गाद लाती है और बार-बार अपना मार्ग बदलती रही है, जिससे उत्तर बिहार में विनाशकारी बाढ़ आती है।" },
+      "distractorAnalysis": {
+        "0": { "en": "The Gandak also floods parts of Bihar, but it is not known by this name.", "hi": "गंडक भी बिहार के कुछ भागों में बाढ़ लाती है, परंतु यह इस नाम से नहीं जानी जाती।" },
+        "1": { "en": "The Son is a southern tributary of the Ganga and is not famed for devastating floods.", "hi": "सोन गंगा की दक्षिणी सहायक नदी है और विनाशकारी बाढ़ के लिए प्रसिद्ध नहीं है।" },
+        "3": { "en": "The Ghaghara mainly affects eastern Uttar Pradesh and is not called the Sorrow of Bihar.", "hi": "घाघरा मुख्यतः पूर्वी उत्तर प्रदेश को प्रभावित करती है और इसे बिहार का शोक नहीं कहा जाता।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-gk-12",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "What is the capital of Australia?", "hi": "ऑस्ट्रेलिया की राजधानी क्या है?" },
+      "optionsJson": [
+        { "en": "Sydney", "hi": "सिडनी" },
+        { "en": "Melbourne", "hi": "मेलबर्न" },
+        { "en": "Perth", "hi": "पर्थ" },
+        { "en": "Canberra", "hi": "कैनबरा" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Canberra is the capital of Australia. It was purpose-built as the capital as a compromise between Sydney and Melbourne.", "hi": "कैनबरा ऑस्ट्रेलिया की राजधानी है। इसे सिडनी और मेलबर्न के बीच समझौते के रूप में राजधानी के लिए विशेष रूप से बसाया गया था।" },
+      "distractorAnalysis": {
+        "0": { "en": "Sydney is Australia's largest city, but not its capital.", "hi": "सिडनी ऑस्ट्रेलिया का सबसे बड़ा शहर है, परंतु राजधानी नहीं।" },
+        "1": { "en": "Melbourne served as the temporary seat of government until 1927, but is not the capital.", "hi": "मेलबर्न 1927 तक सरकार की अस्थायी गद्दी रहा, परंतु राजधानी नहीं है।" },
+        "2": { "en": "Perth is the capital of the state of Western Australia, not of the country.", "hi": "पर्थ पश्चिमी ऑस्ट्रेलिया राज्य की राजधानी है, देश की नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-gk-13",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Chilika Lake, the largest coastal lagoon in India, lies on the Bay of Bengal coast in which state?", "hi": "भारत की सबसे बड़ी तटीय लैगून चिल्का झील बंगाल की खाड़ी के तट पर किस राज्य में स्थित है?" },
+      "optionsJson": [
+        { "en": "Odisha", "hi": "ओडिशा" },
+        { "en": "Andhra Pradesh", "hi": "आंध्र प्रदेश" },
+        { "en": "Tamil Nadu", "hi": "तमिलनाडु" },
+        { "en": "West Bengal", "hi": "पश्चिम बंगाल" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Chilika is a brackish-water lagoon on the coast of Odisha, famous for migratory birds and Irrawaddy dolphins.", "hi": "चिल्का ओडिशा के तट पर स्थित खारे पानी की लैगून है, जो प्रवासी पक्षियों और इरावदी डॉल्फ़िन के लिए प्रसिद्ध है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Andhra Pradesh has the Pulicat lagoon (shared with Tamil Nadu), not Chilika.", "hi": "आंध्र प्रदेश में पुलिकट लैगून (तमिलनाडु के साथ साझा) है, चिल्का नहीं।" },
+        "2": { "en": "Tamil Nadu shares the Pulicat lagoon with Andhra Pradesh, but Chilika is not there.", "hi": "तमिलनाडु आंध्र प्रदेश के साथ पुलिकट लैगून साझा करता है, परंतु चिल्का वहाँ नहीं है।" },
+        "3": { "en": "West Bengal's coast has the Sundarbans delta, not Chilika Lake.", "hi": "पश्चिम बंगाल के तट पर सुंदरबन डेल्टा है, चिल्का झील नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-gk-14",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "The Atacama Desert, one of the driest places on Earth, lies mainly in which country?", "hi": "पृथ्वी के सबसे शुष्क स्थानों में से एक अटाकामा मरुस्थल मुख्यतः किस देश में स्थित है?" },
+      "optionsJson": [
+        { "en": "Peru", "hi": "पेरू" },
+        { "en": "Argentina", "hi": "अर्जेंटीना" },
+        { "en": "Chile", "hi": "चिली" },
+        { "en": "Bolivia", "hi": "बोलीविया" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The Atacama Desert stretches along the Pacific coast of South America and lies mainly in northern Chile, in the rain shadow of the Andes.", "hi": "अटाकामा मरुस्थल दक्षिण अमेरिका के प्रशांत तट के साथ फैला है और मुख्यतः उत्तरी चिली में एंडीज़ की वृष्टि छाया में स्थित है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Only a small northern fringe extends toward Peru; the desert lies mainly in Chile.", "hi": "केवल इसका उत्तरी छोर पेरू की ओर फैला है; मरुस्थल मुख्यतः चिली में है।" },
+        "1": { "en": "Argentina has the Patagonian and Monte deserts, not the Atacama.", "hi": "अर्जेंटीना में पैटागोनिया और मोंटे मरुस्थल हैं, अटाकामा नहीं।" },
+        "3": { "en": "Bolivia is mostly highland and does not contain the main Atacama region.", "hi": "बोलीविया मुख्यतः उच्चभूमि है और इसमें अटाकामा का मुख्य क्षेत्र नहीं आता।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-gk-15",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Which of the following Indian states does NOT share a border with Nepal?", "hi": "निम्नलिखित में से कौन-सा भारतीय राज्य नेपाल के साथ सीमा साझा नहीं करता?" },
+      "optionsJson": [
+        { "en": "Uttarakhand", "hi": "उत्तराखंड" },
+        { "en": "Bihar", "hi": "बिहार" },
+        { "en": "Sikkim", "hi": "सिक्किम" },
+        { "en": "Himachal Pradesh", "hi": "हिमाचल प्रदेश" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Nepal borders five Indian states: Uttarakhand, Uttar Pradesh, Bihar, Sikkim and West Bengal. Himachal Pradesh borders Tibet (China), not Nepal.", "hi": "नेपाल की सीमा पाँच भारतीय राज्यों से लगती है: उत्तराखंड, उत्तर प्रदेश, बिहार, सिक्किम और पश्चिम बंगाल। हिमाचल प्रदेश की सीमा तिब्बत (चीन) से लगती है, नेपाल से नहीं।" },
+      "distractorAnalysis": {
+        "0": { "en": "Uttarakhand shares a border with Nepal along the Mahakali (Sharda) river.", "hi": "उत्तराखंड महाकाली (शारदा) नदी के साथ नेपाल से सीमा साझा करता है।" },
+        "1": { "en": "Bihar shares a long northern border with Nepal.", "hi": "बिहार की उत्तरी सीमा का लंबा भाग नेपाल से लगता है।" },
+        "2": { "en": "Sikkim shares its western border with Nepal.", "hi": "सिक्किम की पश्चिमी सीमा नेपाल से लगती है।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-gk-16",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Who founded the Maurya Empire around 321 BCE with the guidance of Chanakya?", "hi": "चाणक्य के मार्गदर्शन में लगभग 321 ई.पू. में मौर्य साम्राज्य की स्थापना किसने की थी?" },
+      "optionsJson": [
+        { "en": "Ashoka", "hi": "अशोक" },
+        { "en": "Chandragupta Maurya", "hi": "चंद्रगुप्त मौर्य" },
+        { "en": "Bindusara", "hi": "बिंदुसार" },
+        { "en": "Harshavardhana", "hi": "हर्षवर्धन" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Chandragupta Maurya overthrew the Nanda dynasty with Chanakya's help and founded the Maurya Empire.", "hi": "चंद्रगुप्त मौर्य ने चाणक्य की सहायता से नंद वंश को हटाकर मौर्य साम्राज्य की स्थापना की।" },
+      "distractorAnalysis": {
+        "0": { "en": "Ashoka was Chandragupta's grandson and ruled much later, after expanding the empire.", "hi": "अशोक चंद्रगुप्त के पौत्र थे और साम्राज्य का विस्तार करते हुए बहुत बाद में शासक बने।" },
+        "2": { "en": "Bindusara was Chandragupta's son and successor, not the founder.", "hi": "बिंदुसार चंद्रगुप्त के पुत्र और उत्तराधिकारी थे, संस्थापक नहीं।" },
+        "3": { "en": "Harshavardhana ruled in the 7th century CE, nearly a thousand years later.", "hi": "हर्षवर्धन ने सातवीं शताब्दी ईस्वी में शासन किया, यानी लगभग एक हज़ार वर्ष बाद।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-gk-17",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The Rajya Sabha, the upper house of the Indian Parliament, is also known as the:", "hi": "भारतीय संसद के उच्च सदन राज्य सभा को और किस नाम से जाना जाता है?" },
+      "optionsJson": [
+        { "en": "Council of States", "hi": "राज्यों की परिषद्" },
+        { "en": "House of the People", "hi": "जन सदन" },
+        { "en": "Legislative Council", "hi": "विधान परिषद्" },
+        { "en": "Assembly of Governors", "hi": "राज्यपालों की सभा" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Rajya Sabha means the Council of States; it represents the states and union territories of India.", "hi": "राज्य सभा का अर्थ है राज्यों की परिषद्; यह भारत के राज्यों और संघ राज्य क्षेत्रों का प्रतिनिधित्व करती है।" },
+      "distractorAnalysis": {
+        "1": { "en": "The House of the People is the Lok Sabha, the lower house.", "hi": "जन सदन लोक सभा है, जो निचला सदन है।" },
+        "2": { "en": "The Legislative Council is the upper house of a state legislature in some states, not of Parliament.", "hi": "विधान परिषद् कुछ राज्यों के विधानमंडल का उच्च सदन है, संसद का नहीं।" },
+        "3": { "en": "There is no such body in the Indian Parliament.", "hi": "भारतीय संसद में ऐसी कोई संस्था नहीं है।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-gk-18",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which vitamin is synthesised in the human skin on exposure to sunlight?", "hi": "सूर्य के प्रकाश के संपर्क में आने पर मानव त्वचा में कौन-सा विटामिन बनता है?" },
+      "optionsJson": [
+        { "en": "Vitamin A", "hi": "विटामिन A" },
+        { "en": "Vitamin B12", "hi": "विटामिन B12" },
+        { "en": "Vitamin D", "hi": "विटामिन D" },
+        { "en": "Vitamin K", "hi": "विटामिन K" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Sunlight helps the skin make Vitamin D, which is needed for strong bones and teeth.", "hi": "सूर्य का प्रकाश त्वचा में विटामिन D बनाने में सहायक होता है, जो मज़बूत हड्डियों और दाँतों के लिए आवश्यक है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Vitamin A comes from foods such as carrots and papaya and is not made by sunlight in the skin.", "hi": "विटामिन A गाजर और पपीते जैसे भोजन से मिलता है; यह त्वचा में धूप से नहीं बनता।" },
+        "1": { "en": "Vitamin B12 comes from animal-based foods and is made by microbes, not by sunlight.", "hi": "विटामिन B12 पशु-आधारित भोजन से मिलता है और सूक्ष्मजीवों द्वारा बनता है, धूप से नहीं।" },
+        "3": { "en": "Vitamin K comes from green leafy vegetables and gut bacteria, not from sunlight.", "hi": "विटामिन K हरी पत्तेदार सब्ज़ियों और आँतों के जीवाणुओं से मिलता है, धूप से नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-gk-19",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which classical dance form originated in the state of Kerala?", "hi": "कौन-सा शास्त्रीय नृत्य रूप केरल राज्य में उत्पन्न हुआ?" },
+      "optionsJson": [
+        { "en": "Kuchipudi", "hi": "कुचिपुड़ी" },
+        { "en": "Kathakali", "hi": "कथकली" },
+        { "en": "Odissi", "hi": "ओडिशी" },
+        { "en": "Kathak", "hi": "कथक" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Kathakali is a classical dance-drama of Kerala known for elaborate costumes, face makeup and expressive gestures.", "hi": "कथकली केरल का शास्त्रीय नृत्य-नाट्य है, जो भव्य वेशभूषा, चेहरे की रंग-सज्जा और भावपूर्ण मुद्राओं के लिए प्रसिद्ध है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Kuchipudi originated in Andhra Pradesh.", "hi": "कुचिपुड़ी की उत्पत्ति आंध्र प्रदेश में हुई।" },
+        "2": { "en": "Odissi originated in Odisha.", "hi": "ओडिशी की उत्पत्ति ओडिशा में हुई।" },
+        "3": { "en": "Kathak developed in north India, in regions such as Uttar Pradesh and Rajasthan.", "hi": "कथक का विकास उत्तर भारत में, उत्तर प्रदेश और राजस्थान जैसे क्षेत्रों में हुआ।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-gk-20",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Mahatma Gandhi gave the call \"Do or Die\" in 1942 during which movement?", "hi": "महात्मा गांधी ने 1942 में किस आंदोलन के दौरान \"करो या मरो\" का नारा दिया?" },
+      "optionsJson": [
+        { "en": "Non-Cooperation Movement", "hi": "असहयोग आंदोलन" },
+        { "en": "Civil Disobedience Movement", "hi": "सविनय अवज्ञा आंदोलन" },
+        { "en": "Swadeshi Movement", "hi": "स्वदेशी आंदोलन" },
+        { "en": "Quit India Movement", "hi": "भारत छोड़ो आंदोलन" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Gandhi gave the \"Do or Die\" call at Bombay in August 1942, launching the Quit India Movement demanding an end to British rule.", "hi": "गांधीजी ने अगस्त 1942 में बंबई में \"करो या मरो\" का आह्वान कर भारत छोड़ो आंदोलन शुरू किया, जिसमें ब्रिटिश शासन की समाप्ति की माँग की गई।" },
+      "distractorAnalysis": {
+        "0": { "en": "The Non-Cooperation Movement began in 1920-22, not in 1942.", "hi": "असहयोग आंदोलन 1920-22 में हुआ था, 1942 में नहीं।" },
+        "1": { "en": "The Civil Disobedience Movement began in 1930 with the Dandi March.", "hi": "सविनय अवज्ञा आंदोलन 1930 में डांडी यात्रा के साथ शुरू हुआ।" },
+        "2": { "en": "The Swadeshi Movement arose in 1905 after the partition of Bengal.", "hi": "स्वदेशी आंदोलन 1905 में बंगाल विभाजन के बाद उभरा।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-gk-21",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which of the following is a Kharif crop in India?", "hi": "निम्नलिखित में से भारत में कौन-सी खरीफ़ की फ़सल है?" },
+      "optionsJson": [
+        { "en": "Wheat", "hi": "गेहूँ" },
+        { "en": "Mustard", "hi": "सरसों" },
+        { "en": "Rice", "hi": "चावल (धान)" },
+        { "en": "Barley", "hi": "जौ" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Rice is sown with the onset of the monsoon in June-July and harvested in September-October, so it is a Kharif crop.", "hi": "धान की बुवाई जून-जुलाई में मानसून के आगमन के साथ होती है और कटाई सितंबर-अक्टूबर में होती है, इसलिए यह खरीफ़ की फ़सल है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Wheat is sown in winter (October-December) and is a Rabi crop.", "hi": "गेहूँ की बुवाई सर्दियों (अक्टूबर-दिसंबर) में होती है और यह रबी की फ़सल है।" },
+        "1": { "en": "Mustard is sown in winter and harvested in spring; it is a Rabi crop.", "hi": "सरसों की बुवाई सर्दियों में और कटाई वसंत में होती है; यह रबी की फ़सल है।" },
+        "3": { "en": "Barley is a winter-sown Rabi crop.", "hi": "जौ सर्दियों में बोई जाने वाली रबी की फ़सल है।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-gk-22",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Who presides over a joint sitting of the two Houses of the Indian Parliament?", "hi": "भारतीय संसद के दोनों सदनों की संयुक्त बैठक की अध्यक्षता कौन करता है?" },
+      "optionsJson": [
+        { "en": "The President", "hi": "राष्ट्रपति" },
+        { "en": "The Speaker of the Lok Sabha", "hi": "लोक सभा अध्यक्ष" },
+        { "en": "The Vice President", "hi": "उपराष्ट्रपति" },
+        { "en": "The Prime Minister", "hi": "प्रधानमंत्री" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Under Article 108, the Speaker of the Lok Sabha presides over a joint sitting; the President only summons it.", "hi": "अनुच्छेद 108 के अंतर्गत लोक सभा अध्यक्ष संयुक्त बैठक की अध्यक्षता करता है; राष्ट्रपति केवल उसे आहूत करता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "The President summons the joint sitting but does not preside over it.", "hi": "राष्ट्रपति संयुक्त बैठक बुलाता है, परंतु उसकी अध्यक्षता नहीं करता।" },
+        "2": { "en": "The Vice President is the ex-officio Chairman of the Rajya Sabha only, not of a joint sitting.", "hi": "उपराष्ट्रपति केवल राज्य सभा का पदेन सभापति होता है, संयुक्त बैठक का नहीं।" },
+        "3": { "en": "The Prime Minister leads the government but does not preside over Parliament.", "hi": "प्रधानमंत्री सरकार का नेतृत्व करता है, परंतु संसद की अध्यक्षता नहीं करता।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-gk-23",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which Indus Valley Civilisation site is famous for its \"Great Bath\"?", "hi": "सिंधु घाटी सभ्यता का कौन-सा स्थल अपने \"विशाल स्नानागार\" के लिए प्रसिद्ध है?" },
+      "optionsJson": [
+        { "en": "Mohenjo-daro", "hi": "मोहनजोदड़ो" },
+        { "en": "Harappa", "hi": "हड़प्पा" },
+        { "en": "Lothal", "hi": "लोथल" },
+        { "en": "Kalibangan", "hi": "कालीबंगा" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The Great Bath, a large brick-lined water tank, was found at Mohenjo-daro in present-day Sindh, Pakistan.", "hi": "विशाल स्नानागार, ईंटों से बना एक बड़ा जलकुंड, वर्तमान पाकिस्तान के सिंध प्रांत में मोहनजोदड़ो से मिला है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Harappa is known for its granaries and the first discovery of the civilisation, not the Great Bath.", "hi": "हड़प्पा अपने अन्नागारों और सभ्यता की पहली खोज के लिए जाना जाता है, विशाल स्नानागार के लिए नहीं।" },
+        "2": { "en": "Lothal in Gujarat is known for its dockyard.", "hi": "गुजरात का लोथल अपने गोदी-बाड़े (डॉकयार्ड) के लिए प्रसिद्ध है।" },
+        "3": { "en": "Kalibangan in Rajasthan is known for its ploughed field and fire altars.", "hi": "राजस्थान का कालीबंगा जुते हुए खेत और अग्निवेदियों के लिए प्रसिद्ध है।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-gk-24",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Project Tiger, the conservation programme to protect the tiger in India, was launched in which year?", "hi": "भारत में बाघ के संरक्षण के लिए चलाया गया प्रोजेक्ट टाइगर किस वर्ष शुरू किया गया था?" },
+      "optionsJson": [
+        { "en": "1952", "hi": "1952" },
+        { "en": "1969", "hi": "1969" },
+        { "en": "1972", "hi": "1972" },
+        { "en": "1973", "hi": "1973" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Project Tiger was launched on 1 April 1973, beginning with nine tiger reserves, including Jim Corbett National Park.", "hi": "प्रोजेक्ट टाइगर 1 अप्रैल 1973 को शुरू हुआ, जिसकी शुरुआत जिम कॉर्बेट राष्ट्रीय उद्यान सहित नौ बाघ अभयारण्यों से हुई।" },
+      "distractorAnalysis": {
+        "0": { "en": "1952 is when the Indian Board for Wildlife was formed, not when Project Tiger began.", "hi": "1952 में भारतीय वन्यजीव बोर्ड का गठन हुआ था, प्रोजेक्ट टाइगर की शुरुआत नहीं।" },
+        "1": { "en": "In 1969 the IUCN General Assembly in Delhi raised concern over declining tigers; the project began later.", "hi": "1969 में दिल्ली में IUCN महासभा में बाघों की घटती संख्या पर चिंता जताई गई थी; परियोजना बाद में शुरू हुई।" },
+        "2": { "en": "1972 is the year of the Wildlife Protection Act, which came just before the project.", "hi": "1972 वन्यजीव संरक्षण अधिनियम का वर्ष है, जो परियोजना से ठीक पहले आया।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-gk-25",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The ozone layer, which absorbs harmful ultraviolet radiation from the Sun, is found in which layer of the atmosphere?", "hi": "सूर्य की हानिकारक पराबैंगनी किरणों को सोखने वाली ओज़ोन परत वायुमंडल की किस परत में पाई जाती है?" },
+      "optionsJson": [
+        { "en": "Troposphere", "hi": "क्षोभमंडल" },
+        { "en": "Mesosphere", "hi": "मध्यमंडल" },
+        { "en": "Stratosphere", "hi": "समतापमंडल" },
+        { "en": "Exosphere", "hi": "बहिर्मंडल" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The ozone layer lies in the stratosphere, roughly 15 to 35 km above the Earth's surface.", "hi": "ओज़ोन परत समतापमंडल में, पृथ्वी की सतह से लगभग 15 से 35 किमी ऊपर स्थित है।" },
+      "distractorAnalysis": {
+        "0": { "en": "The troposphere is the lowest layer, where weather occurs; it has only a little ozone.", "hi": "क्षोभमंडल सबसे निचली परत है जहाँ मौसम की घटनाएँ होती हैं; इसमें ओज़ोन बहुत कम होती है।" },
+        "1": { "en": "The mesosphere lies above the stratosphere and has very little ozone.", "hi": "मध्यमंडल समतापमंडल के ऊपर है और इसमें ओज़ोन बहुत कम होती है।" },
+        "3": { "en": "The exosphere is the outermost layer, fading into space, and holds no ozone layer.", "hi": "बहिर्मंडल सबसे बाहरी परत है जो अंतरिक्ष में विलीन हो जाती है; इसमें ओज़ोन परत नहीं है।" }
+      }
+    }
+  ]
+}

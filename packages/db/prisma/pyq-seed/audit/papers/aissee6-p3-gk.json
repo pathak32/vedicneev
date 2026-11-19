@@ -1,0 +1,984 @@
+{
+  "examType": "AISSEE",
+  "classLevel": 6,
+  "paperNumber": 3,
+  "sectionKey": "general_knowledge",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "aissee6-p3-gk-01",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "In 1930, Mahatma Gandhi led the Dandi March to protest against which British law?",
+        "hi": "1930 में महात्मा गांधी ने डांडी यात्रा का नेतृत्व किस ब्रिटिश कानून के विरोध में किया था?",
+        "mr": "1930 मध्ये महात्मा गांधींनी दांडी यात्रेचे नेतृत्व कोणत्या ब्रिटिश कायद्याच्या विरोधात केले होते?"
+      },
+      "optionsJson": [
+        { "en": "Forest law", "hi": "वन कानून", "mr": "वन कायदा" },
+        { "en": "Salt law", "hi": "नमक कानून", "mr": "मिठाचा कायदा" },
+        { "en": "Press law", "hi": "प्रेस कानून", "mr": "वृत्तपत्र कायदा" },
+        { "en": "Arms law", "hi": "शस्त्र कानून", "mr": "शस्त्र कायदा" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Gandhiji walked from Sabarmati Ashram to Dandi in 1930 and made salt from seawater, openly breaking the British salt law, which taxed salt and did not allow people to make it.",
+        "hi": "1930 में गांधीजी साबरमती आश्रम से डांडी तक पैदल गए और समुद्र के पानी से नमक बनाकर नमक कानून तोड़ा, जिसमें नमक पर कर लगता था और लोगों को नमक बनाने की अनुमति नहीं थी।",
+        "mr": "1930 मध्ये गांधीजी साबरमती आश्रमातून दांडीपर्यंत पायी गेले आणि समुद्राच्या पाण्यापासून मीठ बनवून मिठाचा कायदा मोडला; या कायद्यानुसार मिठावर कर होता आणि लोकांना मीठ बनवण्याची परवानगी नव्हती."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Forest laws were opposed in some other local protests, but the Dandi March was not about forests.",
+          "hi": "वन कानूनों का विरोध कुछ अन्य स्थानीय आंदोलनों में हुआ था, पर डांडी यात्रा का वनों से संबंध नहीं था।",
+          "mr": "वन कायद्यांना काही इतर स्थानिक आंदोलनांत विरोध झाला होता, पण दांडी यात्रेचा जंगलांशी संबंध नव्हता."
+        },
+        "2": {
+          "en": "Press laws limited newspapers, but the Dandi March was not a protest against them.",
+          "hi": "प्रेस कानून अख़बारों पर रोक लगाते थे, पर डांडी यात्रा उनके विरोध में नहीं थी।",
+          "mr": "वृत्तपत्र कायदे वृत्तपत्रांवर बंधने घालत होते, पण दांडी यात्रा त्यांच्या विरोधात नव्हती."
+        },
+        "3": {
+          "en": "Arms laws controlled weapons, but the Dandi March was not aimed at them.",
+          "hi": "शस्त्र कानून हथियारों को नियंत्रित करते थे, पर डांडी यात्रा का लक्ष्य वे नहीं थे।",
+          "mr": "शस्त्र कायदे शस्त्रांवर नियंत्रण ठेवत होते, पण दांडी यात्रेचे लक्ष्य ते नव्हते."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-gk-02",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "The Quit India Movement, with the call 'Do or Die', was launched by Mahatma Gandhi in which year?",
+        "hi": "'करो या मरो' के आह्वान के साथ भारत छोड़ो आंदोलन महात्मा गांधी ने किस वर्ष शुरू किया था?",
+        "mr": "'करा किंवा मरा' या आवाहनासह 'छोडो भारत' चळवळ महात्मा गांधींनी कोणत्या वर्षी सुरू केली होती?"
+      },
+      "optionsJson": [
+        { "en": "1930", "hi": "1930", "mr": "1930" },
+        { "en": "1919", "hi": "1919", "mr": "1919" },
+        { "en": "1942", "hi": "1942", "mr": "1942" },
+        { "en": "1947", "hi": "1947", "mr": "1947" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The Quit India Movement was launched in August 1942 at Bombay, when Gandhiji asked the British to leave India and gave the call 'Do or Die'.",
+        "hi": "भारत छोड़ो आंदोलन अगस्त 1942 में बंबई में शुरू हुआ, जब गांधीजी ने अंग्रेज़ों से भारत छोड़ने को कहा और 'करो या मरो' का आह्वान किया।",
+        "mr": "छोडो भारत चळवळ ऑगस्ट 1942 मध्ये मुंबईत सुरू झाली, तेव्हा गांधीजींनी इंग्रजांना भारत सोडण्यास सांगितले आणि 'करा किंवा मरा' असे आवाहन केले."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "1930 is the year of the Dandi March and the Civil Disobedience Movement.",
+          "hi": "1930 डांडी यात्रा और सविनय अवज्ञा आंदोलन का वर्ष है।",
+          "mr": "1930 हे दांडी यात्रा आणि सविनय कायदेभंग चळवळीचे वर्ष आहे."
+        },
+        "1": {
+          "en": "1919 is the year of the Jallianwala Bagh massacre and the Rowlatt Act protests.",
+          "hi": "1919 जलियाँवाला बाग हत्याकांड और रौलट एक्ट के विरोध का वर्ष है।",
+          "mr": "1919 हे जालियनवाला बाग हत्याकांड आणि रौलट कायद्याच्या विरोधाचे वर्ष आहे."
+        },
+        "3": {
+          "en": "1947 is the year India became independent, five years after the movement began.",
+          "hi": "1947 में भारत स्वतंत्र हुआ, यानी आंदोलन शुरू होने के पाँच वर्ष बाद।",
+          "mr": "1947 मध्ये भारत स्वतंत्र झाला, म्हणजे चळवळ सुरू झाल्यानंतर पाच वर्षांनी."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-gk-03",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Who is known as the 'Iron Man of India' for his role in uniting the princely states after Independence?",
+        "hi": "स्वतंत्रता के बाद रियासतों को भारत में मिलाने में अपनी भूमिका के लिए 'भारत का लौह पुरुष' किसे कहा जाता है?",
+        "mr": "स्वातंत्र्यानंतर संस्थाने भारतात विलीन करण्यातील भूमिकेमुळे 'भारताचे लोहपुरुष' कोणाला म्हटले जाते?"
+      },
+      "optionsJson": [
+        { "en": "Sardar Vallabhbhai Patel", "hi": "सरदार वल्लभभाई पटेल", "mr": "सरदार वल्लभभाई पटेल" },
+        { "en": "Jawaharlal Nehru", "hi": "जवाहरलाल नेहरू", "mr": "जवाहरलाल नेहरू" },
+        { "en": "Subhas Chandra Bose", "hi": "सुभाष चंद्र बोस", "mr": "सुभाषचंद्र बोस" },
+        { "en": "Lal Bahadur Shastri", "hi": "लाल बहादुर शास्त्री", "mr": "लाल बहादूर शास्त्री" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Sardar Vallabhbhai Patel, India's first Deputy Prime Minister and Home Minister, persuaded more than 500 princely states to join India, so he is called the 'Iron Man of India'.",
+        "hi": "सरदार वल्लभभाई पटेल, भारत के पहले उप-प्रधानमंत्री और गृह मंत्री, ने 500 से अधिक रियासतों को भारत में मिलने के लिए राज़ी किया, इसलिए उन्हें 'भारत का लौह पुरुष' कहा जाता है।",
+        "mr": "सरदार वल्लभभाई पटेल, भारताचे पहिले उपपंतप्रधान आणि गृहमंत्री, यांनी 500 हून अधिक संस्थाने भारतात विलीन होण्यासाठी राजी केली, म्हणून त्यांना 'भारताचे लोहपुरुष' म्हटले जाते."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Nehru was the first Prime Minister of India, but he is not called the Iron Man of India.",
+          "hi": "नेहरू भारत के पहले प्रधानमंत्री थे, पर उन्हें भारत का लौह पुरुष नहीं कहा जाता।",
+          "mr": "नेहरू भारताचे पहिले पंतप्रधान होते, पण त्यांना भारताचे लोहपुरुष म्हटले जात नाही."
+        },
+        "2": {
+          "en": "Subhas Chandra Bose is remembered as Netaji and as the leader of the Azad Hind Fauj.",
+          "hi": "सुभाष चंद्र बोस को नेताजी और आज़ाद हिंद फ़ौज के नेता के रूप में याद किया जाता है।",
+          "mr": "सुभाषचंद्र बोस यांना नेताजी आणि आझाद हिंद फौजेचे नेते म्हणून ओळखले जाते."
+        },
+        "3": {
+          "en": "Lal Bahadur Shastri became the second Prime Minister and gave the slogan 'Jai Jawan Jai Kisan'.",
+          "hi": "लाल बहादुर शास्त्री दूसरे प्रधानमंत्री बने और उन्होंने 'जय जवान जय किसान' का नारा दिया।",
+          "mr": "लाल बहादूर शास्त्री दुसरे पंतप्रधान झाले आणि त्यांनी 'जय जवान जय किसान' ही घोषणा दिली."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-gk-04",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Who was the Chairman of the Drafting Committee of the Constitution of India?",
+        "hi": "भारतीय संविधान की प्रारूप समिति के अध्यक्ष कौन थे?",
+        "mr": "भारतीय संविधानाच्या मसुदा समितीचे अध्यक्ष कोण होते?"
+      },
+      "optionsJson": [
+        { "en": "Jawaharlal Nehru", "hi": "जवाहरलाल नेहरू", "mr": "जवाहरलाल नेहरू" },
+        { "en": "Dr Rajendra Prasad", "hi": "डॉ. राजेंद्र प्रसाद", "mr": "डॉ. राजेंद्र प्रसाद" },
+        { "en": "Sardar Vallabhbhai Patel", "hi": "सरदार वल्लभभाई पटेल", "mr": "सरदार वल्लभभाई पटेल" },
+        { "en": "Dr B. R. Ambedkar", "hi": "डॉ. बी. आर. अंबेडकर", "mr": "डॉ. बी. आर. आंबेडकर" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Dr B. R. Ambedkar chaired the Drafting Committee of the Constituent Assembly, which prepared the draft of the Constitution, so he is called the chief architect of the Constitution.",
+        "hi": "डॉ. बी. आर. अंबेडकर संविधान सभा की प्रारूप समिति के अध्यक्ष थे, जिसने संविधान का मसौदा तैयार किया, इसलिए उन्हें संविधान का मुख्य शिल्पकार कहा जाता है।",
+        "mr": "डॉ. बी. आर. आंबेडकर हे संविधान सभेच्या मसुदा समितीचे अध्यक्ष होते, या समितीने संविधानाचा मसुदा तयार केला; म्हणून त्यांना संविधानाचे प्रमुख शिल्पकार म्हटले जाते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Nehru moved the Objectives Resolution in the Constituent Assembly but did not chair the Drafting Committee.",
+          "hi": "नेहरू ने संविधान सभा में उद्देश्य प्रस्ताव रखा था, पर वे प्रारूप समिति के अध्यक्ष नहीं थे।",
+          "mr": "नेहरूंनी संविधान सभेत उद्देश पत्रिकेचा ठराव मांडला होता, पण ते मसुदा समितीचे अध्यक्ष नव्हते."
+        },
+        "1": {
+          "en": "Dr Rajendra Prasad was the President of the Constituent Assembly, not the head of its Drafting Committee.",
+          "hi": "डॉ. राजेंद्र प्रसाद संविधान सभा के अध्यक्ष थे, प्रारूप समिति के प्रमुख नहीं।",
+          "mr": "डॉ. राजेंद्र प्रसाद हे संविधान सभेचे अध्यक्ष होते, मसुदा समितीचे प्रमुख नव्हते."
+        },
+        "2": {
+          "en": "Sardar Patel led important committees on fundamental rights and minorities, but not the Drafting Committee.",
+          "hi": "सरदार पटेल ने मौलिक अधिकारों और अल्पसंख्यकों संबंधी महत्वपूर्ण समितियों का नेतृत्व किया, पर प्रारूप समिति का नहीं।",
+          "mr": "सरदार पटेल यांनी मूलभूत हक्क व अल्पसंख्याकांसंबंधी महत्त्वाच्या समित्यांचे नेतृत्व केले, पण मसुदा समितीचे नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-gk-05",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Under which Fundamental Right has untouchability been abolished in India?",
+        "hi": "भारत में अस्पृश्यता का अंत किस मौलिक अधिकार के अंतर्गत किया गया है?",
+        "mr": "भारतात अस्पृश्यता कोणत्या मूलभूत हक्काच्या अंतर्गत नष्ट करण्यात आली आहे?"
+      },
+      "optionsJson": [
+        { "en": "Right to Equality", "hi": "समता का अधिकार", "mr": "समतेचा हक्क" },
+        { "en": "Right to Freedom", "hi": "स्वतंत्रता का अधिकार", "mr": "स्वातंत्र्याचा हक्क" },
+        { "en": "Right against Exploitation", "hi": "शोषण के विरुद्ध अधिकार", "mr": "शोषणाविरुद्धचा हक्क" },
+        { "en": "Cultural and Educational Rights", "hi": "सांस्कृतिक और शैक्षिक अधिकार", "mr": "सांस्कृतिक व शैक्षणिक हक्क" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Article 17, which is part of the Right to Equality, abolishes untouchability and makes its practice in any form a punishable offence.",
+        "hi": "अनुच्छेद 17, जो समता के अधिकार का भाग है, अस्पृश्यता को समाप्त करता है और किसी भी रूप में उसके पालन को दंडनीय अपराध बनाता है।",
+        "mr": "कलम 17, जे समतेच्या हक्काचा भाग आहे, अस्पृश्यता नष्ट करते आणि कोणत्याही स्वरूपात तिचे पालन करणे हा दंडनीय अपराध ठरवते."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "The Right to Freedom covers speech, movement and similar freedoms, not the abolition of untouchability.",
+          "hi": "स्वतंत्रता का अधिकार बोलने, आने-जाने जैसी स्वतंत्रताओं से जुड़ा है, अस्पृश्यता के अंत से नहीं।",
+          "mr": "स्वातंत्र्याचा हक्क बोलणे, फिरणे अशा स्वातंत्र्यांशी संबंधित आहे, अस्पृश्यता नष्ट करण्याशी नाही."
+        },
+        "2": {
+          "en": "The Right against Exploitation bans forced labour and child labour in dangerous jobs.",
+          "hi": "शोषण के विरुद्ध अधिकार बेगार और खतरनाक कामों में बाल श्रम पर रोक लगाता है।",
+          "mr": "शोषणाविरुद्धचा हक्क सक्तीचे श्रम आणि धोकादायक कामांत बालमजुरीला बंदी घालतो."
+        },
+        "3": {
+          "en": "Cultural and Educational Rights protect the language, culture and schools of minorities.",
+          "hi": "सांस्कृतिक और शैक्षिक अधिकार अल्पसंख्यकों की भाषा, संस्कृति और विद्यालयों की रक्षा करते हैं।",
+          "mr": "सांस्कृतिक व शैक्षणिक हक्क अल्पसंख्याकांची भाषा, संस्कृती आणि शाळा यांचे संरक्षण करतात."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-gk-06",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "What is the minimum age to vote in elections in India?",
+        "hi": "भारत में चुनावों में मतदान करने की न्यूनतम आयु कितनी है?",
+        "mr": "भारतात निवडणुकीत मतदान करण्यासाठी किमान वय किती आहे?"
+      },
+      "optionsJson": [
+        { "en": "16 years", "hi": "16 वर्ष", "mr": "16 वर्षे" },
+        { "en": "21 years", "hi": "21 वर्ष", "mr": "21 वर्षे" },
+        { "en": "18 years", "hi": "18 वर्ष", "mr": "18 वर्षे" },
+        { "en": "25 years", "hi": "25 वर्ष", "mr": "25 वर्षे" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Every Indian citizen who is 18 years old or more has the right to vote in elections; the voting age was lowered from 21 to 18 in 1988.",
+        "hi": "18 वर्ष या उससे अधिक आयु का प्रत्येक भारतीय नागरिक चुनाव में मतदान कर सकता है; 1988 में मतदान की आयु 21 से घटाकर 18 वर्ष की गई थी।",
+        "mr": "18 वर्षे किंवा त्याहून अधिक वयाचा प्रत्येक भारतीय नागरिक निवडणुकीत मतदान करू शकतो; 1988 मध्ये मतदानाचे वय 21 वरून 18 वर्षे करण्यात आले."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "A 16-year-old is too young to vote in Indian elections.",
+          "hi": "16 वर्ष का व्यक्ति भारतीय चुनावों में मतदान के लिए बहुत छोटा है।",
+          "mr": "16 वर्षांची व्यक्ती भारतीय निवडणुकांत मतदानासाठी खूप लहान आहे."
+        },
+        "1": {
+          "en": "21 years was the voting age earlier, but it was lowered to 18 in 1988.",
+          "hi": "पहले मतदान की आयु 21 वर्ष थी, पर 1988 में इसे घटाकर 18 वर्ष कर दिया गया।",
+          "mr": "पूर्वी मतदानाचे वय 21 वर्षे होते, पण 1988 मध्ये ते 18 वर्षे करण्यात आले."
+        },
+        "3": {
+          "en": "25 years is the minimum age to contest Lok Sabha elections, not to vote.",
+          "hi": "25 वर्ष लोकसभा चुनाव लड़ने की न्यूनतम आयु है, मतदान की नहीं।",
+          "mr": "25 वर्षे हे लोकसभा निवडणूक लढवण्याचे किमान वय आहे, मतदानाचे नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-gk-07",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "In which city did the Jallianwala Bagh massacre of 1919 take place?",
+        "hi": "1919 का जलियाँवाला बाग हत्याकांड किस शहर में हुआ था?",
+        "mr": "1919 चे जालियनवाला बाग हत्याकांड कोणत्या शहरात घडले होते?"
+      },
+      "optionsJson": [
+        { "en": "Lahore", "hi": "लाहौर", "mr": "लाहोर" },
+        { "en": "Delhi", "hi": "दिल्ली", "mr": "दिल्ली" },
+        { "en": "Meerut", "hi": "मेरठ", "mr": "मेरठ" },
+        { "en": "Amritsar", "hi": "अमृतसर", "mr": "अमृतसर" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "On 13 April 1919, British troops under General Dyer fired on a peaceful crowd gathered at Jallianwala Bagh in Amritsar, Punjab.",
+        "hi": "13 अप्रैल 1919 को जनरल डायर के नेतृत्व में ब्रिटिश सैनिकों ने पंजाब के अमृतसर में जलियाँवाला बाग में एकत्र शांतिपूर्ण भीड़ पर गोलियाँ चलाईं।",
+        "mr": "13 एप्रिल 1919 रोजी जनरल डायरच्या नेतृत्वाखालील ब्रिटिश सैनिकांनी पंजाबमधील अमृतसर येथे जालियनवाला बागेत जमलेल्या शांत जमावावर गोळीबार केला."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Lahore is a major city of undivided Punjab, but the massacre did not happen there.",
+          "hi": "लाहौर अविभाजित पंजाब का प्रमुख शहर है, पर हत्याकांड वहाँ नहीं हुआ था।",
+          "mr": "लाहोर हे अविभाजित पंजाबमधील प्रमुख शहर आहे, पण हत्याकांड तेथे घडले नव्हते."
+        },
+        "1": {
+          "en": "Delhi is the national capital, but the massacre did not take place there.",
+          "hi": "दिल्ली देश की राजधानी है, पर हत्याकांड वहाँ नहीं हुआ था।",
+          "mr": "दिल्ली ही देशाची राजधानी आहे, पण हत्याकांड तेथे घडले नव्हते."
+        },
+        "2": {
+          "en": "Meerut is where the Revolt of 1857 began, not where this massacre happened.",
+          "hi": "मेरठ से 1857 का विद्रोह शुरू हुआ था, यह हत्याकांड वहाँ नहीं हुआ।",
+          "mr": "मेरठ येथून 1857 चा उठाव सुरू झाला होता, हे हत्याकांड तेथे घडले नव्हते."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-gk-08",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Who gave the famous slogan 'Swaraj is my birthright, and I shall have it'?",
+        "hi": "'स्वराज्य मेरा जन्मसिद्ध अधिकार है और मैं उसे लेकर रहूँगा' यह प्रसिद्ध नारा किसने दिया?",
+        "mr": "'स्वराज्य हा माझा जन्मसिद्ध हक्क आहे आणि तो मी मिळवणारच' ही प्रसिद्ध घोषणा कोणी दिली?"
+      },
+      "optionsJson": [
+        { "en": "Gopal Krishna Gokhale", "hi": "गोपाल कृष्ण गोखले", "mr": "गोपाळ कृष्ण गोखले" },
+        { "en": "Bal Gangadhar Tilak", "hi": "बाल गंगाधर तिलक", "mr": "बाळ गंगाधर टिळक" },
+        { "en": "Bhagat Singh", "hi": "भगत सिंह", "mr": "भगतसिंग" },
+        { "en": "Subhas Chandra Bose", "hi": "सुभाष चंद्र बोस", "mr": "सुभाषचंद्र बोस" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Bal Gangadhar Tilak, called Lokmanya, gave this slogan to inspire Indians to demand self-rule from the British.",
+        "hi": "लोकमान्य कहलाने वाले बाल गंगाधर तिलक ने भारतीयों को अंग्रेज़ों से स्वशासन माँगने की प्रेरणा देने के लिए यह नारा दिया।",
+        "mr": "लोकमान्य म्हणून ओळखल्या जाणाऱ्या बाळ गंगाधर टिळकांनी भारतीयांना इंग्रजांकडे स्वराज्याची मागणी करण्याची प्रेरणा देण्यासाठी ही घोषणा दिली."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Gokhale was a moderate leader and Gandhiji's political guide, not the source of this slogan.",
+          "hi": "गोखले नरमपंथी नेता और गांधीजी के राजनीतिक मार्गदर्शक थे, यह नारा उनका नहीं है।",
+          "mr": "गोखले हे मवाळ नेते आणि गांधीजींचे राजकीय मार्गदर्शक होते, ही घोषणा त्यांची नाही."
+        },
+        "2": {
+          "en": "Bhagat Singh is linked with the slogan 'Inquilab Zindabad'.",
+          "hi": "भगत सिंह 'इंकलाब ज़िंदाबाद' के नारे से जुड़े हैं।",
+          "mr": "भगतसिंग हे 'इन्कलाब जिंदाबाद' या घोषणेशी जोडलेले आहेत."
+        },
+        "3": {
+          "en": "Netaji Bose is linked with the slogan 'Give me blood, and I will give you freedom'.",
+          "hi": "नेताजी बोस 'तुम मुझे खून दो, मैं तुम्हें आज़ादी दूँगा' के नारे से जुड़े हैं।",
+          "mr": "नेताजी बोस हे 'तुम्ही मला रक्त द्या, मी तुम्हाला स्वातंत्र्य देईन' या घोषणेशी जोडलेले आहेत."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-gk-09",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "In which year was the Indian National Congress founded?",
+        "hi": "भारतीय राष्ट्रीय कांग्रेस की स्थापना किस वर्ष हुई थी?",
+        "mr": "भारतीय राष्ट्रीय काँग्रेसची स्थापना कोणत्या वर्षी झाली होती?"
+      },
+      "optionsJson": [
+        { "en": "1857", "hi": "1857", "mr": "1857" },
+        { "en": "1885", "hi": "1885", "mr": "1885" },
+        { "en": "1905", "hi": "1905", "mr": "1905" },
+        { "en": "1919", "hi": "1919", "mr": "1919" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "The Indian National Congress was founded in 1885 with the help of A. O. Hume, and its first session was held in Bombay.",
+        "hi": "भारतीय राष्ट्रीय कांग्रेस की स्थापना 1885 में ए. ओ. ह्यूम की सहायता से हुई, और इसका पहला अधिवेशन बंबई में हुआ।",
+        "mr": "भारतीय राष्ट्रीय काँग्रेसची स्थापना 1885 मध्ये ए. ओ. ह्यूम यांच्या मदतीने झाली आणि तिचे पहिले अधिवेशन मुंबईत भरले."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "1857 is the year of the great Revolt against the British, not the founding of the Congress.",
+          "hi": "1857 अंग्रेज़ों के विरुद्ध महान विद्रोह का वर्ष है, कांग्रेस की स्थापना का नहीं।",
+          "mr": "1857 हे इंग्रजांविरुद्धच्या मोठ्या उठावाचे वर्ष आहे, काँग्रेसच्या स्थापनेचे नाही."
+        },
+        "2": {
+          "en": "1905 is the year Bengal was partitioned, which led to the Swadeshi Movement.",
+          "hi": "1905 में बंगाल का विभाजन हुआ, जिससे स्वदेशी आंदोलन शुरू हुआ।",
+          "mr": "1905 मध्ये बंगालची फाळणी झाली, ज्यामुळे स्वदेशी चळवळ सुरू झाली."
+        },
+        "3": {
+          "en": "1919 is the year of the Jallianwala Bagh massacre, many years after the Congress was founded.",
+          "hi": "1919 जलियाँवाला बाग हत्याकांड का वर्ष है, जो कांग्रेस की स्थापना के कई वर्ष बाद है।",
+          "mr": "1919 हे जालियनवाला बाग हत्याकांडाचे वर्ष आहे, जे काँग्रेसच्या स्थापनेनंतर अनेक वर्षांनी आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-gk-10",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which movement, launched by Mahatma Gandhi in 1920, asked Indians to boycott British courts, schools and foreign cloth?",
+        "hi": "महात्मा गांधी द्वारा 1920 में शुरू किए गए किस आंदोलन में भारतीयों से ब्रिटिश अदालतों, विद्यालयों और विदेशी कपड़ों के बहिष्कार को कहा गया?",
+        "mr": "महात्मा गांधींनी 1920 मध्ये सुरू केलेल्या कोणत्या चळवळीत भारतीयांना ब्रिटिश न्यायालये, शाळा आणि परदेशी कापडावर बहिष्कार घालण्यास सांगितले गेले?"
+      },
+      "optionsJson": [
+        { "en": "Non-Cooperation Movement", "hi": "असहयोग आंदोलन", "mr": "असहकार चळवळ" },
+        { "en": "Quit India Movement", "hi": "भारत छोड़ो आंदोलन", "mr": "छोडो भारत चळवळ" },
+        { "en": "Champaran Satyagraha", "hi": "चंपारण सत्याग्रह", "mr": "चंपारण सत्याग्रह" },
+        { "en": "Dandi March", "hi": "डांडी यात्रा", "mr": "दांडी यात्रा" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "In the Non-Cooperation Movement (1920-22), Indians gave up government titles, schools and courts and boycotted foreign cloth to stop cooperating with British rule.",
+        "hi": "असहयोग आंदोलन (1920-22) में भारतीयों ने सरकारी उपाधियाँ, विद्यालय और अदालतें छोड़ दीं और ब्रिटिश शासन से सहयोग रोकने के लिए विदेशी कपड़ों का बहिष्कार किया।",
+        "mr": "असहकार चळवळीत (1920-22) भारतीयांनी सरकारी पदव्या, शाळा आणि न्यायालये सोडली आणि ब्रिटिश सत्तेला सहकार्य थांबवण्यासाठी परदेशी कापडावर बहिष्कार घातला."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "The Quit India Movement began in 1942 and demanded that the British leave India.",
+          "hi": "भारत छोड़ो आंदोलन 1942 में शुरू हुआ और इसमें अंग्रेज़ों से भारत छोड़ने की माँग की गई।",
+          "mr": "छोडो भारत चळवळ 1942 मध्ये सुरू झाली आणि तीत इंग्रजांनी भारत सोडावा अशी मागणी करण्यात आली."
+        },
+        "2": {
+          "en": "The Champaran Satyagraha (1917) supported indigo farmers of Bihar, and it came before 1920.",
+          "hi": "चंपारण सत्याग्रह (1917) बिहार के नील किसानों के पक्ष में था और 1920 से पहले हुआ था।",
+          "mr": "चंपारण सत्याग्रह (1917) बिहारमधील नीळ शेतकऱ्यांच्या बाजूने होता आणि तो 1920 पूर्वी झाला."
+        },
+        "3": {
+          "en": "The Dandi March took place in 1930 and was a protest against the salt law.",
+          "hi": "डांडी यात्रा 1930 में हुई और यह नमक कानून के विरोध में थी।",
+          "mr": "दांडी यात्रा 1930 मध्ये झाली आणि ती मिठाच्या कायद्याच्या विरोधात होती."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-gk-11",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "India's national song 'Vande Mataram' first appeared in which novel by Bankim Chandra Chattopadhyay?",
+        "hi": "भारत का राष्ट्रीय गीत 'वंदे मातरम्' बंकिमचंद्र चट्टोपाध्याय के किस उपन्यास में पहली बार आया था?",
+        "mr": "भारताचे राष्ट्रगीत 'वंदे मातरम्' बंकिमचंद्र चट्टोपाध्याय यांच्या कोणत्या कादंबरीत प्रथम आले होते?"
+      },
+      "optionsJson": [
+        { "en": "Gitanjali", "hi": "गीतांजलि", "mr": "गीतांजली" },
+        { "en": "Godan", "hi": "गोदान", "mr": "गोदान" },
+        { "en": "Anandamath", "hi": "आनंदमठ", "mr": "आनंदमठ" },
+        { "en": "Gora", "hi": "गोरा", "mr": "गोरा" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "'Vande Mataram' appeared in Bankim Chandra Chattopadhyay's novel Anandamath (1882) and became a source of inspiration during the freedom struggle.",
+        "hi": "'वंदे मातरम्' बंकिमचंद्र चट्टोपाध्याय के उपन्यास आनंदमठ (1882) में आया और स्वतंत्रता संग्राम के दौरान प्रेरणा का स्रोत बना।",
+        "mr": "'वंदे मातरम्' बंकिमचंद्र चट्टोपाध्याय यांच्या आनंदमठ (1882) या कादंबरीत आले आणि स्वातंत्र्यलढ्यात प्रेरणास्रोत ठरले."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Gitanjali is a collection of poems by Rabindranath Tagore, not a novel by Bankim Chandra.",
+          "hi": "गीतांजलि रवींद्रनाथ टैगोर की कविताओं का संग्रह है, बंकिमचंद्र का उपन्यास नहीं।",
+          "mr": "गीतांजली हा रवींद्रनाथ टागोरांचा कवितासंग्रह आहे, बंकिमचंद्रांची कादंबरी नाही."
+        },
+        "1": {
+          "en": "Godan is a novel by Premchand, not by Bankim Chandra.",
+          "hi": "गोदान प्रेमचंद का उपन्यास है, बंकिमचंद्र का नहीं।",
+          "mr": "गोदान ही प्रेमचंद यांची कादंबरी आहे, बंकिमचंद्रांची नाही."
+        },
+        "3": {
+          "en": "Gora is a novel by Rabindranath Tagore, not by Bankim Chandra.",
+          "hi": "गोरा रवींद्रनाथ टैगोर का उपन्यास है, बंकिमचंद्र का नहीं।",
+          "mr": "गोरा ही रवींद्रनाथ टागोरांची कादंबरी आहे, बंकिमचंद्रांची नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-gk-12",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Who formally appoints the Prime Minister of India?",
+        "hi": "भारत के प्रधानमंत्री की औपचारिक नियुक्ति कौन करता है?",
+        "mr": "भारताच्या पंतप्रधानांची औपचारिक नियुक्ती कोण करतो?"
+      },
+      "optionsJson": [
+        { "en": "Chief Justice of India", "hi": "भारत के मुख्य न्यायाधीश", "mr": "भारताचे सरन्यायाधीश" },
+        { "en": "Speaker of the Lok Sabha", "hi": "लोकसभा अध्यक्ष", "mr": "लोकसभेचे अध्यक्ष" },
+        { "en": "Vice-President of India", "hi": "भारत के उपराष्ट्रपति", "mr": "भारताचे उपराष्ट्रपती" },
+        { "en": "President of India", "hi": "भारत के राष्ट्रपति", "mr": "भारताचे राष्ट्रपती" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "The President of India formally appoints as Prime Minister the leader of the party or alliance that has the support of a majority in the Lok Sabha.",
+        "hi": "भारत के राष्ट्रपति लोकसभा में बहुमत का समर्थन रखने वाले दल या गठबंधन के नेता को औपचारिक रूप से प्रधानमंत्री नियुक्त करते हैं।",
+        "mr": "लोकसभेत बहुमताचा पाठिंबा असलेल्या पक्षाच्या किंवा आघाडीच्या नेत्याची भारताचे राष्ट्रपती औपचारिकपणे पंतप्रधानपदी नियुक्ती करतात."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The Chief Justice heads the judiciary and has no role in appointing the Prime Minister.",
+          "hi": "मुख्य न्यायाधीश न्यायपालिका के प्रमुख हैं और प्रधानमंत्री की नियुक्ति में उनकी कोई भूमिका नहीं है।",
+          "mr": "सरन्यायाधीश हे न्यायव्यवस्थेचे प्रमुख आहेत आणि पंतप्रधानांच्या नियुक्तीत त्यांची कोणतीही भूमिका नाही."
+        },
+        "1": {
+          "en": "The Speaker presides over the Lok Sabha but does not appoint the Prime Minister.",
+          "hi": "अध्यक्ष लोकसभा की अध्यक्षता करते हैं, पर प्रधानमंत्री की नियुक्ति नहीं करते।",
+          "mr": "अध्यक्ष लोकसभेचे अध्यक्षस्थान भूषवतात, पण पंतप्रधानांची नियुक्ती करत नाहीत."
+        },
+        "2": {
+          "en": "The Vice-President chairs the Rajya Sabha and does not appoint the Prime Minister.",
+          "hi": "उपराष्ट्रपति राज्यसभा के सभापति होते हैं और प्रधानमंत्री की नियुक्ति नहीं करते।",
+          "mr": "उपराष्ट्रपती राज्यसभेचे सभापती असतात आणि पंतप्रधानांची नियुक्ती करत नाहीत."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-gk-13",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Which is the lowest level of local self-government in rural India?",
+        "hi": "ग्रामीण भारत में स्थानीय स्वशासन का सबसे निचला स्तर कौन-सा है?",
+        "mr": "ग्रामीण भारतातील स्थानिक स्वराज्य संस्थेचा सर्वात खालचा स्तर कोणता आहे?"
+      },
+      "optionsJson": [
+        { "en": "Zila Parishad", "hi": "जिला परिषद", "mr": "जिल्हा परिषद" },
+        { "en": "Panchayat Samiti", "hi": "पंचायत समिति", "mr": "पंचायत समिती" },
+        { "en": "Gram Panchayat", "hi": "ग्राम पंचायत", "mr": "ग्रामपंचायत" },
+        { "en": "Municipal Corporation", "hi": "नगर निगम", "mr": "महानगरपालिका" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The Gram Panchayat, elected by the people of a village, is the lowest level of the three-tier Panchayati Raj system in rural India.",
+        "hi": "गाँव के लोगों द्वारा चुनी गई ग्राम पंचायत ग्रामीण भारत की त्रि-स्तरीय पंचायती राज व्यवस्था का सबसे निचला स्तर है।",
+        "mr": "गावातील लोकांनी निवडलेली ग्रामपंचायत ही ग्रामीण भारतातील त्रिस्तरीय पंचायत राज व्यवस्थेचा सर्वात खालचा स्तर आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The Zila Parishad works at the district level, the top tier of Panchayati Raj.",
+          "hi": "जिला परिषद ज़िला स्तर पर काम करती है, जो पंचायती राज का सबसे ऊपरी स्तर है।",
+          "mr": "जिल्हा परिषद जिल्हा स्तरावर काम करते, जो पंचायत राजचा सर्वात वरचा स्तर आहे."
+        },
+        "1": {
+          "en": "The Panchayat Samiti works at the block level, the middle tier above the village.",
+          "hi": "पंचायत समिति खंड (ब्लॉक) स्तर पर काम करती है, जो गाँव से ऊपर का मध्य स्तर है।",
+          "mr": "पंचायत समिती तालुका (गट) स्तरावर काम करते, जो गावाच्या वरचा मधला स्तर आहे."
+        },
+        "3": {
+          "en": "A Municipal Corporation governs large cities, so it belongs to urban, not rural, government.",
+          "hi": "नगर निगम बड़े शहरों का शासन चलाता है, इसलिए वह ग्रामीण नहीं बल्कि शहरी शासन का हिस्सा है।",
+          "mr": "महानगरपालिका मोठ्या शहरांचा कारभार पाहते, म्हणून ती ग्रामीण नव्हे तर शहरी शासनाचा भाग आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-gk-14",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "The Constituent Assembly adopted the Constitution of India on 26 November of which year?",
+        "hi": "संविधान सभा ने भारत के संविधान को 26 नवंबर को किस वर्ष अपनाया था?",
+        "mr": "संविधान सभेने भारताच्या संविधानाचा 26 नोव्हेंबर रोजी कोणत्या वर्षी स्वीकार केला होता?"
+      },
+      "optionsJson": [
+        { "en": "1949", "hi": "1949", "mr": "1949" },
+        { "en": "1946", "hi": "1946", "mr": "1946" },
+        { "en": "1947", "hi": "1947", "mr": "1947" },
+        { "en": "1950", "hi": "1950", "mr": "1950" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "The Constituent Assembly adopted the Constitution on 26 November 1949 after about three years of work; it came into force on 26 January 1950.",
+        "hi": "लगभग तीन वर्षों के कार्य के बाद संविधान सभा ने 26 नवंबर 1949 को संविधान अपनाया; यह 26 जनवरी 1950 को लागू हुआ।",
+        "mr": "सुमारे तीन वर्षांच्या कामानंतर संविधान सभेने 26 नोव्हेंबर 1949 रोजी संविधान स्वीकारले; ते 26 जानेवारी 1950 रोजी लागू झाले."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "1946 is the year the Constituent Assembly first met, not the year it adopted the Constitution.",
+          "hi": "1946 वह वर्ष है जब संविधान सभा की पहली बैठक हुई, न कि संविधान अपनाने का वर्ष।",
+          "mr": "1946 हे संविधान सभेची पहिली बैठक झाल्याचे वर्ष आहे, संविधान स्वीकारल्याचे नाही."
+        },
+        "2": {
+          "en": "1947 is the year of Independence, when the Constitution was still being drafted.",
+          "hi": "1947 स्वतंत्रता का वर्ष है, तब संविधान का मसौदा तैयार किया जा रहा था।",
+          "mr": "1947 हे स्वातंत्र्याचे वर्ष आहे, तेव्हा संविधानाचा मसुदा तयार केला जात होता."
+        },
+        "3": {
+          "en": "1950 is the year the Constitution came into force on 26 January, not the year it was adopted.",
+          "hi": "1950 वह वर्ष है जब 26 जनवरी को संविधान लागू हुआ, न कि इसे अपनाने का वर्ष।",
+          "mr": "1950 हे 26 जानेवारी रोजी संविधान लागू झाल्याचे वर्ष आहे, ते स्वीकारल्याचे नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-gk-15",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Rani Lakshmibai, who fought bravely against the British in the Revolt of 1857, was the queen of which state?",
+        "hi": "1857 के विद्रोह में अंग्रेज़ों से वीरतापूर्वक लड़ने वाली रानी लक्ष्मीबाई किस राज्य की रानी थीं?",
+        "mr": "1857 च्या उठावात इंग्रजांशी शौर्याने लढणाऱ्या राणी लक्ष्मीबाई कोणत्या संस्थानाच्या राणी होत्या?"
+      },
+      "optionsJson": [
+        { "en": "Kittur", "hi": "कित्तूर", "mr": "कित्तूर" },
+        { "en": "Mysore", "hi": "मैसूर", "mr": "म्हैसूर" },
+        { "en": "Awadh", "hi": "अवध", "mr": "अवध" },
+        { "en": "Jhansi", "hi": "झाँसी", "mr": "झाशी" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Rani Lakshmibai was the queen of Jhansi. She refused to give up her state to the British and died fighting in 1858.",
+        "hi": "रानी लक्ष्मीबाई झाँसी की रानी थीं। उन्होंने अपना राज्य अंग्रेज़ों को देने से इनकार किया और 1858 में लड़ते हुए वीरगति पाई।",
+        "mr": "राणी लक्ष्मीबाई झाशीच्या राणी होत्या. त्यांनी आपले राज्य इंग्रजांना देण्यास नकार दिला आणि 1858 मध्ये लढताना वीरगती प्राप्त केली."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Kittur was ruled by Rani Chennamma, who fought the British earlier, in 1824.",
+          "hi": "कित्तूर पर रानी चेन्नम्मा का शासन था, जिन्होंने अंग्रेज़ों से पहले, 1824 में, युद्ध किया था।",
+          "mr": "कित्तूरवर राणी चन्नम्मा यांचे राज्य होते, ज्यांनी इंग्रजांशी त्यापूर्वी, 1824 मध्ये, लढा दिला होता."
+        },
+        "1": {
+          "en": "Mysore is linked with Hyder Ali and Tipu Sultan, who fought the British in the 1700s.",
+          "hi": "मैसूर का संबंध हैदर अली और टीपू सुल्तान से है, जिन्होंने 1700 के दशक में अंग्रेज़ों से युद्ध किया।",
+          "mr": "म्हैसूरचा संबंध हैदर अली आणि टिपू सुलतान यांच्याशी आहे, ज्यांनी 1700 च्या दशकात इंग्रजांशी युद्ध केले."
+        },
+        "2": {
+          "en": "Awadh was led in 1857 by Begum Hazrat Mahal, not by Rani Lakshmibai.",
+          "hi": "अवध का नेतृत्व 1857 में बेगम हज़रत महल ने किया, रानी लक्ष्मीबाई ने नहीं।",
+          "mr": "अवधचे नेतृत्व 1857 मध्ये बेगम हजरत महल यांनी केले, राणी लक्ष्मीबाईंनी नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-gk-16",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Which gas forms the largest part of the air in Earth's atmosphere?",
+        "hi": "पृथ्वी के वायुमंडल की हवा का सबसे बड़ा भाग कौन-सी गैस बनाती है?",
+        "mr": "पृथ्वीच्या वातावरणातील हवेचा सर्वात मोठा भाग कोणता वायू बनवतो?"
+      },
+      "optionsJson": [
+        { "en": "Oxygen", "hi": "ऑक्सीजन", "mr": "ऑक्सिजन" },
+        { "en": "Nitrogen", "hi": "नाइट्रोजन", "mr": "नायट्रोजन" },
+        { "en": "Carbon dioxide", "hi": "कार्बन डाइऑक्साइड", "mr": "कार्बन डायऑक्साइड" },
+        { "en": "Hydrogen", "hi": "हाइड्रोजन", "mr": "हायड्रोजन" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Nitrogen makes up about 78 per cent of the air, which is more than any other gas.",
+        "hi": "नाइट्रोजन हवा का लगभग 78 प्रतिशत भाग है, जो किसी भी अन्य गैस से अधिक है।",
+        "mr": "नायट्रोजन हवेचा सुमारे 78 टक्के भाग आहे, जो इतर कोणत्याही वायूपेक्षा जास्त आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Oxygen is the second most common gas, making up about 21 per cent of the air.",
+          "hi": "ऑक्सीजन दूसरी सबसे अधिक पाई जाने वाली गैस है, जो हवा का लगभग 21 प्रतिशत है।",
+          "mr": "ऑक्सिजन हा दुसरा सर्वाधिक आढळणारा वायू आहे, जो हवेचा सुमारे 21 टक्के आहे."
+        },
+        "2": {
+          "en": "Carbon dioxide is present only in a tiny amount, less than 1 per cent of the air.",
+          "hi": "कार्बन डाइऑक्साइड बहुत थोड़ी मात्रा में है, हवा का 1 प्रतिशत से भी कम।",
+          "mr": "कार्बन डायऑक्साइड फारच थोड्या प्रमाणात आहे, हवेच्या 1 टक्क्यापेक्षाही कमी."
+        },
+        "3": {
+          "en": "Hydrogen is found in the air only in a very tiny amount.",
+          "hi": "हाइड्रोजन हवा में बहुत ही कम मात्रा में पाई जाती है।",
+          "mr": "हायड्रोजन हवेत फारच अल्प प्रमाणात आढळतो."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-gk-17",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Which organ of the human body filters the blood and removes waste in the form of urine?",
+        "hi": "मानव शरीर का कौन-सा अंग रक्त को छानकर अपशिष्ट पदार्थों को मूत्र के रूप में बाहर निकालता है?",
+        "mr": "मानवी शरीरातील कोणता अवयव रक्त गाळून टाकाऊ पदार्थ मूत्राच्या रूपात बाहेर टाकतो?"
+      },
+      "optionsJson": [
+        { "en": "Heart", "hi": "हृदय", "mr": "हृदय" },
+        { "en": "Liver", "hi": "यकृत", "mr": "यकृत" },
+        { "en": "Kidney", "hi": "गुर्दा", "mr": "मूत्रपिंड" },
+        { "en": "Lungs", "hi": "फेफड़े", "mr": "फुफ्फुसे" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The two kidneys filter the blood, remove waste and extra water, and pass them out of the body as urine.",
+        "hi": "दो गुर्दे रक्त को छानते हैं, अपशिष्ट पदार्थ और अतिरिक्त पानी अलग करते हैं और उन्हें मूत्र के रूप में शरीर से बाहर निकालते हैं।",
+        "mr": "दोन मूत्रपिंडे रक्त गाळतात, टाकाऊ पदार्थ आणि जास्तीचे पाणी वेगळे करतात आणि ते मूत्राच्या रूपात शरीराबाहेर टाकतात."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The heart pumps blood around the body but does not make urine.",
+          "hi": "हृदय पूरे शरीर में रक्त पंप करता है, पर मूत्र नहीं बनाता।",
+          "mr": "हृदय संपूर्ण शरीरात रक्त पंप करते, पण मूत्र तयार करत नाही."
+        },
+        "1": {
+          "en": "The liver makes bile and helps digestion, but it does not make urine.",
+          "hi": "यकृत पित्त बनाता है और पाचन में मदद करता है, पर मूत्र नहीं बनाता।",
+          "mr": "यकृत पित्त तयार करते आणि पचनास मदत करते, पण मूत्र तयार करत नाही."
+        },
+        "3": {
+          "en": "The lungs take in oxygen and give out carbon dioxide, not urine.",
+          "hi": "फेफड़े ऑक्सीजन लेते और कार्बन डाइऑक्साइड छोड़ते हैं, मूत्र नहीं बनाते।",
+          "mr": "फुफ्फुसे ऑक्सिजन घेतात आणि कार्बन डायऑक्साइड बाहेर टाकतात, मूत्र तयार करत नाहीत."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-gk-18",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "How many interlocked rings are there in the Olympic symbol?",
+        "hi": "ओलंपिक चिह्न में आपस में जुड़े हुए कितने छल्ले होते हैं?",
+        "mr": "ऑलिंपिक चिन्हात एकमेकांत गुंफलेली किती कडी असतात?"
+      },
+      "optionsJson": [
+        { "en": "5", "hi": "5", "mr": "5" },
+        { "en": "4", "hi": "4", "mr": "4" },
+        { "en": "6", "hi": "6", "mr": "6" },
+        { "en": "7", "hi": "7", "mr": "7" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "The Olympic symbol has five interlocked rings of blue, yellow, black, green and red, standing for the coming together of athletes from around the world.",
+        "hi": "ओलंपिक चिह्न में नीले, पीले, काले, हरे और लाल रंग के पाँच आपस में जुड़े छल्ले होते हैं, जो दुनिया भर के खिलाड़ियों के एक साथ आने का प्रतीक हैं।",
+        "mr": "ऑलिंपिक चिन्हात निळी, पिवळी, काळी, हिरवी आणि लाल अशी पाच एकमेकांत गुंफलेली कडी असतात, जी जगभरातील खेळाडूंच्या एकत्र येण्याचे प्रतीक आहेत."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "The symbol has five rings, so 4 is one too few.",
+          "hi": "चिह्न में पाँच छल्ले होते हैं, इसलिए 4 एक कम है।",
+          "mr": "चिन्हात पाच कडी असतात, म्हणून 4 हे एकाने कमी आहे."
+        },
+        "2": {
+          "en": "The symbol has five rings, so 6 is one too many.",
+          "hi": "चिह्न में पाँच छल्ले होते हैं, इसलिए 6 एक अधिक है।",
+          "mr": "चिन्हात पाच कडी असतात, म्हणून 6 हे एकाने जास्त आहे."
+        },
+        "3": {
+          "en": "The symbol has five rings, so 7 is two too many.",
+          "hi": "चिह्न में पाँच छल्ले होते हैं, इसलिए 7 दो अधिक है।",
+          "mr": "चिन्हात पाच कडी असतात, म्हणून 7 हे दोनाने जास्त आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-gk-19",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which river is called the 'Sorrow of Bihar' because its floods often cause great damage?",
+        "hi": "किस नदी को 'बिहार का शोक' कहा जाता है, क्योंकि उसकी बाढ़ से अक्सर भारी नुकसान होता है?",
+        "mr": "कोणत्या नदीला 'बिहारचे दुःख' म्हटले जाते, कारण तिच्या पुरामुळे अनेकदा मोठे नुकसान होते?"
+      },
+      "optionsJson": [
+        { "en": "Damodar", "hi": "दामोदर", "mr": "दामोदर" },
+        { "en": "Narmada", "hi": "नर्मदा", "mr": "नर्मदा" },
+        { "en": "Tapti", "hi": "ताप्ती", "mr": "तापी" },
+        { "en": "Kosi", "hi": "कोसी", "mr": "कोसी" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "The Kosi, which comes down from the Himalayas, often changes its course and floods large parts of north Bihar, so it is called the 'Sorrow of Bihar'.",
+        "hi": "हिमालय से उतरने वाली कोसी अक्सर अपना मार्ग बदलती है और उत्तरी बिहार के बड़े हिस्सों में बाढ़ लाती है, इसलिए इसे 'बिहार का शोक' कहा जाता है।",
+        "mr": "हिमालयातून उतरणारी कोसी नदी अनेकदा आपला मार्ग बदलते आणि उत्तर बिहारच्या मोठ्या भागात पूर आणते, म्हणून तिला 'बिहारचे दुःख' म्हटले जाते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The Damodar was once called the 'Sorrow of Bengal' because of its floods, not the Sorrow of Bihar.",
+          "hi": "दामोदर को कभी बाढ़ के कारण 'बंगाल का शोक' कहा जाता था, 'बिहार का शोक' नहीं।",
+          "mr": "दामोदरला पुरांमुळे एकेकाळी 'बंगालचे दुःख' म्हटले जात असे, 'बिहारचे दुःख' नाही."
+        },
+        "1": {
+          "en": "The Narmada flows west through central India into the Arabian Sea and does not flow through Bihar.",
+          "hi": "नर्मदा मध्य भारत से पश्चिम की ओर बहकर अरब सागर में गिरती है और बिहार से नहीं बहती।",
+          "mr": "नर्मदा मध्य भारतातून पश्चिमेकडे वाहत अरबी समुद्राला मिळते आणि बिहारमधून वाहत नाही."
+        },
+        "2": {
+          "en": "The Tapti flows west into the Arabian Sea and does not flow through Bihar.",
+          "hi": "ताप्ती पश्चिम की ओर बहकर अरब सागर में गिरती है और बिहार से नहीं बहती।",
+          "mr": "तापी पश्चिमेकडे वाहत अरबी समुद्राला मिळते आणि बिहारमधून वाहत नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-gk-20",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Bihu, a popular festival celebrated with folk dance and music, belongs to which Indian state?",
+        "hi": "लोकनृत्य और संगीत के साथ मनाया जाने वाला लोकप्रिय त्योहार बिहू भारत के किस राज्य का है?",
+        "mr": "लोकनृत्य आणि संगीतासह साजरा होणारा लोकप्रिय सण बिहू भारतातील कोणत्या राज्याचा आहे?"
+      },
+      "optionsJson": [
+        { "en": "Punjab", "hi": "पंजाब", "mr": "पंजाब" },
+        { "en": "Assam", "hi": "असम", "mr": "आसाम" },
+        { "en": "Kerala", "hi": "केरल", "mr": "केरळ" },
+        { "en": "Gujarat", "hi": "गुजरात", "mr": "गुजरात" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Bihu is the main festival of Assam, celebrated with the Bihu dance and songs at different times of the farming year.",
+        "hi": "बिहू असम का प्रमुख त्योहार है, जो खेती के वर्ष के अलग-अलग समय पर बिहू नृत्य और गीतों के साथ मनाया जाता है।",
+        "mr": "बिहू हा आसामचा प्रमुख सण आहे, जो शेतीच्या वर्षातील वेगवेगळ्या वेळी बिहू नृत्य आणि गाण्यांसह साजरा केला जातो."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Punjab is known for Baisakhi and Bhangra, not Bihu.",
+          "hi": "पंजाब बैसाखी और भांगड़ा के लिए जाना जाता है, बिहू के लिए नहीं।",
+          "mr": "पंजाब हे बैसाखी आणि भांगड्यासाठी ओळखले जाते, बिहूसाठी नाही."
+        },
+        "2": {
+          "en": "Kerala is known for the harvest festival Onam, not Bihu.",
+          "hi": "केरल फ़सल के त्योहार ओणम के लिए जाना जाता है, बिहू के लिए नहीं।",
+          "mr": "केरळ हे कापणीच्या ओणम सणासाठी ओळखले जाते, बिहूसाठी नाही."
+        },
+        "3": {
+          "en": "Gujarat is known for Navratri and the Garba dance, not Bihu.",
+          "hi": "गुजरात नवरात्रि और गरबा नृत्य के लिए जाना जाता है, बिहू के लिए नहीं।",
+          "mr": "गुजरात हे नवरात्र आणि गरबा नृत्यासाठी ओळखले जाते, बिहूसाठी नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-gk-21",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which one of the following is a Kharif crop, sown at the beginning of the monsoon?",
+        "hi": "निम्नलिखित में से कौन-सी खरीफ़ फ़सल है, जिसे मानसून की शुरुआत में बोया जाता है?",
+        "mr": "खालीलपैकी कोणते पीक खरीप हंगामातील आहे, जे पावसाळ्याच्या सुरुवातीला पेरले जाते?"
+      },
+      "optionsJson": [
+        { "en": "Rice", "hi": "चावल", "mr": "भात" },
+        { "en": "Wheat", "hi": "गेहूँ", "mr": "गहू" },
+        { "en": "Mustard", "hi": "सरसों", "mr": "मोहरी" },
+        { "en": "Gram", "hi": "चना", "mr": "हरभरा" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Rice is sown at the start of the monsoon (June-July) and harvested in autumn, so it is a Kharif crop.",
+        "hi": "चावल मानसून की शुरुआत (जून-जुलाई) में बोया जाता है और शरद ऋतु में काटा जाता है, इसलिए यह खरीफ़ फ़सल है।",
+        "mr": "भात पावसाळ्याच्या सुरुवातीला (जून-जुलै) पेरला जातो आणि शरद ऋतूत कापला जातो, म्हणून ते खरीप पीक आहे."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Wheat is sown in winter and harvested in spring, so it is a Rabi crop.",
+          "hi": "गेहूँ सर्दियों में बोया जाता है और वसंत में काटा जाता है, इसलिए यह रबी फ़सल है।",
+          "mr": "गहू हिवाळ्यात पेरला जातो आणि वसंतात कापला जातो, म्हणून ते रब्बी पीक आहे."
+        },
+        "2": {
+          "en": "Mustard is sown in winter, so it is a Rabi crop.",
+          "hi": "सरसों सर्दियों में बोई जाती है, इसलिए यह रबी फ़सल है।",
+          "mr": "मोहरी हिवाळ्यात पेरली जाते, म्हणून ते रब्बी पीक आहे."
+        },
+        "3": {
+          "en": "Gram is sown in winter, so it is a Rabi crop.",
+          "hi": "चना सर्दियों में बोया जाता है, इसलिए यह रबी फ़सल है।",
+          "mr": "हरभरा हिवाळ्यात पेरला जातो, म्हणून ते रब्बी पीक आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-gk-22",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which is the hardest natural substance known?",
+        "hi": "ज्ञात सबसे कठोर प्राकृतिक पदार्थ कौन-सा है?",
+        "mr": "ज्ञात असलेला सर्वात कठीण नैसर्गिक पदार्थ कोणता आहे?"
+      },
+      "optionsJson": [
+        { "en": "Iron", "hi": "लोहा", "mr": "लोखंड" },
+        { "en": "Graphite", "hi": "ग्रेफाइट", "mr": "ग्रेफाइट" },
+        { "en": "Diamond", "hi": "हीरा", "mr": "हिरा" },
+        { "en": "Gold", "hi": "सोना", "mr": "सोने" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Diamond, a form of pure carbon whose atoms are packed in a very strong network, is the hardest natural substance.",
+        "hi": "हीरा शुद्ध कार्बन का एक रूप है जिसके परमाणु बहुत मज़बूत जाल में बँधे होते हैं; यह सबसे कठोर प्राकृतिक पदार्थ है।",
+        "mr": "हिरा हा शुद्ध कार्बनचा एक प्रकार आहे ज्यातील अणू अतिशय मजबूत जाळ्यात बांधलेले असतात; तो सर्वात कठीण नैसर्गिक पदार्थ आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Iron is a strong metal, but it is much softer than diamond.",
+          "hi": "लोहा मज़बूत धातु है, पर हीरे से बहुत नरम है।",
+          "mr": "लोखंड हा मजबूत धातू आहे, पण हिऱ्यापेक्षा खूपच मऊ आहे."
+        },
+        "1": {
+          "en": "Graphite is also made of carbon, but it is very soft and is used in pencil leads.",
+          "hi": "ग्रेफाइट भी कार्बन से बना है, पर यह बहुत नरम होता है और पेंसिल की नोक में काम आता है।",
+          "mr": "ग्रेफाइटही कार्बनपासून बनलेले आहे, पण ते खूप मऊ असते आणि पेन्सिलच्या शिशात वापरले जाते."
+        },
+        "3": {
+          "en": "Gold is a very soft metal that can be easily beaten into thin sheets.",
+          "hi": "सोना बहुत नरम धातु है जिसे आसानी से पीटकर पतली चादरें बनाई जा सकती हैं।",
+          "mr": "सोने हा खूप मऊ धातू आहे, ज्याचे सहज ठोकून पातळ पत्रे बनवता येतात."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-gk-23",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Which Indian scientist won the Nobel Prize in Physics in 1930 for his work on the scattering of light?",
+        "hi": "किस भारतीय वैज्ञानिक को प्रकाश के प्रकीर्णन पर किए गए कार्य के लिए 1930 में भौतिकी का नोबेल पुरस्कार मिला?",
+        "mr": "प्रकाशाच्या प्रकीर्णनावरील कार्यासाठी 1930 मध्ये भौतिकशास्त्राचा नोबेल पुरस्कार कोणत्या भारतीय शास्त्रज्ञाला मिळाला?"
+      },
+      "optionsJson": [
+        { "en": "Homi Jehangir Bhabha", "hi": "होमी जहाँगीर भाभा", "mr": "होमी जहांगीर भाभा" },
+        { "en": "C. V. Raman", "hi": "सी. वी. रमन", "mr": "सी. व्ही. रमन" },
+        { "en": "Jagadish Chandra Bose", "hi": "जगदीश चंद्र बोस", "mr": "जगदीशचंद्र बोस" },
+        { "en": "Vikram Sarabhai", "hi": "विक्रम साराभाई", "mr": "विक्रम साराभाई" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "C. V. Raman discovered that light changes its colour slightly when scattered by a substance (the Raman effect) and received the 1930 Nobel Prize in Physics; India celebrates National Science Day on 28 February to mark this discovery.",
+        "hi": "सी. वी. रमन ने खोजा कि किसी पदार्थ द्वारा बिखेरे जाने पर प्रकाश का रंग थोड़ा बदल जाता है (रमन प्रभाव) और उन्हें 1930 का भौतिकी का नोबेल पुरस्कार मिला; इस खोज की याद में भारत 28 फ़रवरी को राष्ट्रीय विज्ञान दिवस मनाता है।",
+        "mr": "सी. व्ही. रमन यांनी शोधून काढले की एखाद्या पदार्थाकडून विखुरला गेल्यावर प्रकाशाचा रंग थोडा बदलतो (रमन परिणाम) आणि त्यांना 1930 चा भौतिकशास्त्राचा नोबेल पुरस्कार मिळाला; या शोधाच्या स्मरणार्थ भारत 28 फेब्रुवारी रोजी राष्ट्रीय विज्ञान दिन साजरा करतो."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Homi Bhabha is known as the father of India's nuclear programme and did not win a Nobel Prize.",
+          "hi": "होमी भाभा भारत के परमाणु कार्यक्रम के जनक माने जाते हैं और उन्हें नोबेल पुरस्कार नहीं मिला।",
+          "mr": "होमी भाभा हे भारताच्या अणुकार्यक्रमाचे जनक मानले जातात आणि त्यांना नोबेल पुरस्कार मिळाला नाही."
+        },
+        "2": {
+          "en": "J. C. Bose showed that plants respond to stimuli and worked on radio waves, but he did not win a Nobel Prize.",
+          "hi": "जे. सी. बोस ने दिखाया कि पौधे उत्तेजनाओं पर प्रतिक्रिया करते हैं और रेडियो तरंगों पर कार्य किया, पर उन्हें नोबेल पुरस्कार नहीं मिला।",
+          "mr": "जे. सी. बोस यांनी दाखवून दिले की वनस्पती उद्दीपनांना प्रतिसाद देतात आणि त्यांनी रेडिओ लहरींवर काम केले, पण त्यांना नोबेल पुरस्कार मिळाला नाही."
+        },
+        "3": {
+          "en": "Vikram Sarabhai is known as the father of India's space programme and did not win a Nobel Prize.",
+          "hi": "विक्रम साराभाई भारत के अंतरिक्ष कार्यक्रम के जनक माने जाते हैं और उन्हें नोबेल पुरस्कार नहीं मिला।",
+          "mr": "विक्रम साराभाई हे भारताच्या अंतराळ कार्यक्रमाचे जनक मानले जातात आणि त्यांना नोबेल पुरस्कार मिळाला नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-gk-24",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "The famous Ajanta Caves, known for ancient Buddhist paintings and rock-cut architecture, are located in which state?",
+        "hi": "प्राचीन बौद्ध चित्रों और शैलकृत वास्तुकला के लिए प्रसिद्ध अजंता की गुफाएँ किस राज्य में स्थित हैं?",
+        "mr": "प्राचीन बौद्ध चित्रे आणि लेणी-स्थापत्यासाठी प्रसिद्ध असलेली अजिंठा लेणी कोणत्या राज्यात आहेत?"
+      },
+      "optionsJson": [
+        { "en": "Madhya Pradesh", "hi": "मध्य प्रदेश", "mr": "मध्य प्रदेश" },
+        { "en": "Odisha", "hi": "ओडिशा", "mr": "ओडिशा" },
+        { "en": "Karnataka", "hi": "कर्नाटक", "mr": "कर्नाटक" },
+        { "en": "Maharashtra", "hi": "महाराष्ट्र", "mr": "महाराष्ट्र" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "The Ajanta Caves are cut into a rock cliff in Maharashtra and are famous for their wall paintings that show the life of the Buddha.",
+        "hi": "अजंता की गुफाएँ महाराष्ट्र में एक चट्टानी पहाड़ी को काटकर बनाई गई हैं और बुद्ध के जीवन को दर्शाने वाले भित्तिचित्रों के लिए प्रसिद्ध हैं।",
+        "mr": "अजिंठा लेणी महाराष्ट्रात एका खडकाळ कड्यात कोरलेली आहेत आणि बुद्धांच्या जीवनाचे दर्शन घडवणाऱ्या भित्तिचित्रांसाठी प्रसिद्ध आहेत."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Madhya Pradesh is known for the rock shelters of Bhimbetka and the stupa at Sanchi, not the Ajanta Caves.",
+          "hi": "मध्य प्रदेश भीमबेटका के शैलाश्रयों और साँची के स्तूप के लिए जाना जाता है, अजंता की गुफाओं के लिए नहीं।",
+          "mr": "मध्य प्रदेश हे भीमबेटकाच्या शैलाश्रयांसाठी आणि सांचीच्या स्तूपासाठी ओळखले जाते, अजिंठा लेण्यांसाठी नाही."
+        },
+        "1": {
+          "en": "Odisha has the Udayagiri and Khandagiri caves, which are different from the Ajanta Caves.",
+          "hi": "ओडिशा में उदयगिरि और खंडगिरि की गुफाएँ हैं, जो अजंता की गुफाओं से अलग हैं।",
+          "mr": "ओडिशामध्ये उदयगिरी आणि खंडगिरी लेणी आहेत, ज्या अजिंठा लेण्यांपेक्षा वेगळ्या आहेत."
+        },
+        "2": {
+          "en": "Karnataka has the Badami cave temples, which are different from the Ajanta Caves.",
+          "hi": "कर्नाटक में बादामी के गुफा मंदिर हैं, जो अजंता की गुफाओं से अलग हैं।",
+          "mr": "कर्नाटकमध्ये बदामीची लेणी-मंदिरे आहेत, जी अजिंठा लेण्यांपेक्षा वेगळी आहेत."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-gk-25",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "In pollination, pollen grains are transferred from the anther to which part of a flower?",
+        "hi": "परागण में परागकण परागकोश से फूल के किस भाग तक पहुँचाए जाते हैं?",
+        "mr": "परागीभवनात परागकण परागकोशातून फुलाच्या कोणत्या भागापर्यंत पोहोचवले जातात?"
+      },
+      "optionsJson": [
+        { "en": "Sepal", "hi": "बाह्यदल", "mr": "निदल" },
+        { "en": "Ovule", "hi": "बीजांड", "mr": "बीजांड" },
+        { "en": "Stigma", "hi": "वर्तिकाग्र", "mr": "वर्तिकाग्र" },
+        { "en": "Petal", "hi": "पंखुड़ी", "mr": "पाकळी" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Pollination is the transfer of pollen from the anther to the stigma, the sticky top of the female part of the flower; insects, wind or water often carry the pollen.",
+        "hi": "परागण में परागकण परागकोश से वर्तिकाग्र तक पहुँचते हैं, जो फूल के मादा भाग का चिपचिपा ऊपरी सिरा है; परागकणों को प्रायः कीट, हवा या पानी ले जाते हैं।",
+        "mr": "परागीभवन म्हणजे परागकण परागकोशातून वर्तिकाग्रापर्यंत पोहोचणे, जो फुलाच्या स्त्री-भागाचा चिकट वरचे टोक असते; परागकण बहुतेकदा कीटक, वारा किंवा पाणी वाहून नेतात."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Sepals are the small green leaf-like parts that protect the flower bud; they do not receive pollen.",
+          "hi": "बाह्यदल छोटे हरे पत्ती जैसे भाग होते हैं जो कली की रक्षा करते हैं; वे परागकण ग्रहण नहीं करते।",
+          "mr": "निदले ही लहान हिरवी पानांसारखी अवयवे असतात जी कळीचे संरक्षण करतात; ती परागकण स्वीकारत नाहीत."
+        },
+        "1": {
+          "en": "The ovule lies deep inside the ovary and is reached by the pollen only later, during fertilisation, not during pollination.",
+          "hi": "बीजांड अंडाशय के भीतर गहराई में होता है और परागकण वहाँ बाद में निषेचन के समय पहुँचते हैं, परागण के समय नहीं।",
+          "mr": "बीजांड किंजपुटाच्या आत खोलवर असते आणि परागकण तेथे नंतर फलनाच्या वेळी पोहोचतात, परागीभवनाच्या वेळी नाही."
+        },
+        "3": {
+          "en": "Petals are the colourful parts that attract insects, but pollen is not deposited on them to form seeds.",
+          "hi": "पंखुड़ियाँ रंगीन भाग हैं जो कीटों को आकर्षित करती हैं, पर बीज बनने के लिए परागकण उन पर नहीं पहुँचाए जाते।",
+          "mr": "पाकळ्या हे रंगीत भाग आहेत जे कीटकांना आकर्षित करतात, पण बीज तयार होण्यासाठी परागकण त्यांच्यावर पोहोचवले जात नाहीत."
+        }
+      }
+    }
+  ]
+}

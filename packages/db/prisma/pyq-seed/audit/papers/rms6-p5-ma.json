@@ -1,0 +1,484 @@
+{
+  "examType": "RMS",
+  "classLevel": 6,
+  "paperNumber": 5,
+  "sectionKey": "mental_ability",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "rms6-p5-ma-01",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Find the odd one out: Sparrow, Eagle, Bat, Parrot", "hi": "असंगत शब्द चुनें: गौरैया, गरुड़, चमगादड़, तोता", "mr": "विजोड शब्द निवडा: चिमणी, गरुड, वटवाघूळ, पोपट" },
+      "optionsJson": [
+        { "en": "Sparrow", "hi": "गौरैया", "mr": "चिमणी" },
+        { "en": "Eagle", "hi": "गरुड़", "mr": "गरुड" },
+        { "en": "Bat", "hi": "चमगादड़", "mr": "वटवाघूळ" },
+        { "en": "Parrot", "hi": "तोता", "mr": "पोपट" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Sparrow, Eagle and Parrot are birds that lay eggs and have feathers. A bat can fly, but it is a mammal that gives birth to its young ones.", "hi": "गौरैया, गरुड़ और तोता पक्षी हैं, जो अंडे देते हैं और जिनके पंख होते हैं। चमगादड़ उड़ सकता है, पर वह स्तनधारी है और बच्चों को जन्म देता है।", "mr": "चिमणी, गरुड आणि पोपट हे पक्षी आहेत; ते अंडी घालतात आणि त्यांना पिसे असतात. वटवाघूळ उडू शकते, पण तो सस्तन प्राणी आहे आणि पिलांना जन्म देतो." },
+      "distractorAnalysis": {
+        "0": { "en": "A bird, part of the majority group.", "hi": "यह एक पक्षी है, बहुसंख्यक समूह का भाग।", "mr": "हा एक पक्षी आहे, बहुसंख्य गटाचा भाग." },
+        "1": { "en": "A bird, part of the majority group.", "hi": "यह एक पक्षी है, बहुसंख्यक समूह का भाग।", "mr": "हा एक पक्षी आहे, बहुसंख्य गटाचा भाग." },
+        "3": { "en": "A bird, part of the majority group.", "hi": "यह एक पक्षी है, बहुसंख्यक समूह का भाग।", "mr": "हा एक पक्षी आहे, बहुसंख्य गटाचा भाग." }
+      }
+    },
+    {
+      "key": "rms6-p5-ma-02",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Statements: All pens are books. All books are chairs. Which conclusion definitely follows?", "hi": "कथन: सभी पेन किताबें हैं। सभी किताबें कुर्सियाँ हैं। कौन-सा निष्कर्ष निश्चित रूप से सही है?", "mr": "विधाने: सर्व पेने पुस्तके आहेत. सर्व पुस्तके खुर्च्या आहेत. कोणता निष्कर्ष निश्चितपणे बरोबर आहे?" },
+      "optionsJson": [
+        { "en": "All pens are chairs", "hi": "सभी पेन कुर्सियाँ हैं", "mr": "सर्व पेने खुर्च्या आहेत" },
+        { "en": "All chairs are pens", "hi": "सभी कुर्सियाँ पेन हैं", "mr": "सर्व खुर्च्या पेने आहेत" },
+        { "en": "All books are pens", "hi": "सभी किताबें पेन हैं", "mr": "सर्व पुस्तके पेने आहेत" },
+        { "en": "Some chairs are not books", "hi": "कुछ कुर्सियाँ किताबें नहीं हैं", "mr": "काही खुर्च्या पुस्तके नाहीत" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Pens lie inside books and books lie inside chairs, so every pen is a chair.", "hi": "पेन किताबों के भीतर हैं और किताबें कुर्सियों के भीतर, इसलिए हर पेन कुर्सी है।", "mr": "पेने पुस्तकांच्या आत आहेत आणि पुस्तके खुर्च्यांच्या आत, म्हणून प्रत्येक पेन ही खुर्ची आहे." },
+      "distractorAnalysis": {
+        "1": { "en": "Reverses the statements; a bigger group need not fit inside a smaller one.", "hi": "कथनों को उलट दिया; बड़ा समूह छोटे समूह के भीतर होना ज़रूरी नहीं।", "mr": "विधाने उलटी केली; मोठा गट लहान गटाच्या आत असणे आवश्यक नाही." },
+        "2": { "en": "Reverses the first statement; books are not necessarily pens.", "hi": "पहले कथन को उलट दिया; किताबें ज़रूरी नहीं कि पेन हों।", "mr": "पहिले विधान उलटे केले; पुस्तके म्हणजे पेनच असे नाही." },
+        "3": { "en": "Cannot be concluded; the statements say nothing about chairs that are not books.", "hi": "यह निष्कर्ष नहीं निकलता; कथन उन कुर्सियों के बारे में कुछ नहीं बताते जो किताबें नहीं हैं।", "mr": "हा निष्कर्ष निघत नाही; पुस्तके नसलेल्या खुर्च्यांबद्दल विधाने काहीच सांगत नाहीत." }
+      }
+    },
+    {
+      "key": "rms6-p5-ma-03",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "In a class of 40 students, 28 like cricket and 22 like football. Every student likes at least one of the two games. How many students like both games?", "hi": "40 विद्यार्थियों की एक कक्षा में 28 को क्रिकेट पसंद है और 22 को फुटबॉल। हर विद्यार्थी को कम से कम एक खेल पसंद है। कितने विद्यार्थियों को दोनों खेल पसंद हैं?", "mr": "40 विद्यार्थ्यांच्या वर्गात 28 जणांना क्रिकेट आवडते आणि 22 जणांना फुटबॉल. प्रत्येक विद्यार्थ्याला किमान एक खेळ आवडतो. किती विद्यार्थ्यांना दोन्ही खेळ आवडतात?" },
+      "optionsJson": [
+        { "en": "10", "hi": "10", "mr": "10" },
+        { "en": "18", "hi": "18", "mr": "18" },
+        { "en": "28", "hi": "28", "mr": "28" },
+        { "en": "50", "hi": "50", "mr": "50" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Both = 28 + 22 − 40 = 10.", "hi": "दोनों = 28 + 22 − 40 = 10।", "mr": "दोन्ही = 28 + 22 − 40 = 10." },
+      "distractorAnalysis": {
+        "1": { "en": "This is 40 − 22, the students who do not like football.", "hi": "यह 40 − 22 है, यानी वे विद्यार्थी जिन्हें फुटबॉल पसंद नहीं।", "mr": "हे 40 − 22 आहे, म्हणजे ज्यांना फुटबॉल आवडत नाही ते विद्यार्थी." },
+        "2": { "en": "This is only the number who like cricket.", "hi": "यह केवल क्रिकेट पसंद करने वालों की संख्या है।", "mr": "ही फक्त क्रिकेट आवडणाऱ्यांची संख्या आहे." },
+        "3": { "en": "This is 28 + 22, which counts the students who like both twice.", "hi": "यह 28 + 22 है, जिसमें दोनों खेल पसंद करने वालों को दो बार गिना गया है।", "mr": "हे 28 + 22 आहे, यात दोन्ही खेळ आवडणाऱ्यांची दोनदा गणना झाली आहे." }
+      }
+    },
+    {
+      "key": "rms6-p5-ma-04",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the next number in the series: 3, 6, 11, 18, 27, ?", "hi": "श्रृंखला में अगली संख्या ज्ञात करें: 3, 6, 11, 18, 27, ?", "mr": "श्रेणीतील पुढील संख्या शोधा: 3, 6, 11, 18, 27, ?" },
+      "optionsJson": [
+        { "en": "35", "hi": "35", "mr": "35" },
+        { "en": "36", "hi": "36", "mr": "36" },
+        { "en": "37", "hi": "37", "mr": "37" },
+        { "en": "38", "hi": "38", "mr": "38" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "The gaps are 3, 5, 7, 9 (odd numbers), so the next gap is 11 and 27 + 11 = 38.", "hi": "अंतर 3, 5, 7, 9 (विषम संख्याएँ) हैं, अतः अगला अंतर 11 होगा और 27 + 11 = 38।", "mr": "फरक 3, 5, 7, 9 (विषम संख्या) आहेत, म्हणून पुढचा फरक 11 आणि 27 + 11 = 38." },
+      "distractorAnalysis": {
+        "0": { "en": "Adds 8, which breaks the pattern of rising odd gaps.", "hi": "8 जोड़ा, जिससे बढ़ते विषम अंतर का क्रम टूट जाता है।", "mr": "8 जोडले, त्यामुळे वाढत्या विषम फरकाचा क्रम तुटतो." },
+        "1": { "en": "Adds 9 again, repeating the last gap instead of increasing it.", "hi": "फिर से 9 जोड़ा, अंतर बढ़ाने के बजाय पिछला अंतर दोहरा दिया।", "mr": "पुन्हा 9 जोडले; फरक वाढवण्याऐवजी मागचाच फरक पुन्हा वापरला." },
+        "2": { "en": "Adds 10, but the gaps are odd numbers (3, 5, 7, 9, 11).", "hi": "10 जोड़ा, पर अंतर विषम संख्याएँ (3, 5, 7, 9, 11) हैं।", "mr": "10 जोडले, पण फरक विषम संख्या (3, 5, 7, 9, 11) आहेत." }
+      }
+    },
+    {
+      "key": "rms6-p5-ma-05",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Find the missing number. Row 1: 2, 3, 6. Row 2: 4, 5, 20. Row 3: 6, 7, ?", "hi": "लुप्त संख्या ज्ञात करें। पंक्ति 1: 2, 3, 6। पंक्ति 2: 4, 5, 20। पंक्ति 3: 6, 7, ?", "mr": "हरवलेली संख्या शोधा. ओळ 1: 2, 3, 6. ओळ 2: 4, 5, 20. ओळ 3: 6, 7, ?" },
+      "optionsJson": [
+        { "en": "13", "hi": "13", "mr": "13" },
+        { "en": "30", "hi": "30", "mr": "30" },
+        { "en": "36", "hi": "36", "mr": "36" },
+        { "en": "42", "hi": "42", "mr": "42" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "In each row the third number is the product of the first two: 2 × 3 = 6, 4 × 5 = 20, so 6 × 7 = 42.", "hi": "प्रत्येक पंक्ति में तीसरी संख्या पहली दो संख्याओं का गुणनफल है: 2 × 3 = 6, 4 × 5 = 20, इसलिए 6 × 7 = 42।", "mr": "प्रत्येक ओळीत तिसरी संख्या पहिल्या दोन संख्यांचा गुणाकार आहे: 2 × 3 = 6, 4 × 5 = 20, म्हणून 6 × 7 = 42." },
+      "distractorAnalysis": {
+        "0": { "en": "Adds 6 + 7 instead of multiplying.", "hi": "गुणा करने के बजाय 6 + 7 जोड़ दिया।", "mr": "गुणण्याऐवजी 6 + 7 जोडले." },
+        "1": { "en": "This is 6 × 5; a number from the row above was used by mistake.", "hi": "यह 6 × 5 है; ऊपर की पंक्ति की एक संख्या गलती से ले ली।", "mr": "हे 6 × 5 आहे; वरच्या ओळीतील एक संख्या चुकून वापरली." },
+        "2": { "en": "This is 6 × 6, not 6 × 7.", "hi": "यह 6 × 6 है, 6 × 7 नहीं।", "mr": "हे 6 × 6 आहे, 6 × 7 नाही." }
+      }
+    },
+    {
+      "key": "rms6-p5-ma-06",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Out of 50 people in a society, 30 drink tea, 28 drink coffee and 8 drink neither. How many people drink both tea and coffee?", "hi": "एक सोसायटी के 50 लोगों में से 30 चाय पीते हैं, 28 कॉफ़ी पीते हैं और 8 दोनों में से कुछ नहीं पीते। कितने लोग चाय और कॉफ़ी दोनों पीते हैं?", "mr": "एका सोसायटीतील 50 लोकांपैकी 30 जण चहा पितात, 28 जण कॉफी पितात आणि 8 जण दोन्हीपैकी काहीच पीत नाहीत. किती जण चहा आणि कॉफी दोन्ही पितात?" },
+      "optionsJson": [
+        { "en": "16", "hi": "16", "mr": "16" },
+        { "en": "22", "hi": "22", "mr": "22" },
+        { "en": "42", "hi": "42", "mr": "42" },
+        { "en": "58", "hi": "58", "mr": "58" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "People who drink at least one = 50 − 8 = 42. Both = 30 + 28 − 42 = 16.", "hi": "कम से कम एक पेय पीने वाले = 50 − 8 = 42। दोनों = 30 + 28 − 42 = 16।", "mr": "किमान एक पेय पिणारे = 50 − 8 = 42. दोन्ही = 30 + 28 − 42 = 16." },
+      "distractorAnalysis": {
+        "1": { "en": "This is 50 − 28, the people who do not drink coffee.", "hi": "यह 50 − 28 है, यानी कॉफ़ी न पीने वाले लोग।", "mr": "हे 50 − 28 आहे, म्हणजे कॉफी न पिणारे लोक." },
+        "2": { "en": "This is the number who drink at least one of the two drinks, not both.", "hi": "यह उन लोगों की संख्या है जो कम से कम एक पेय पीते हैं, दोनों नहीं।", "mr": "ही किमान एक पेय पिणाऱ्यांची संख्या आहे, दोन्ही पिणाऱ्यांची नाही." },
+        "3": { "en": "This is 30 + 28, which counts the people who drink both twice.", "hi": "यह 30 + 28 है, जिसमें दोनों पीने वालों को दो बार गिना गया है।", "mr": "हे 30 + 28 आहे, यात दोन्ही पिणाऱ्यांची दोनदा गणना झाली आहे." }
+      }
+    },
+    {
+      "key": "rms6-p5-ma-07",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Statements: Some doctors are teachers. All teachers are singers. Which conclusion must be true?", "hi": "कथन: कुछ डॉक्टर शिक्षक हैं। सभी शिक्षक गायक हैं। कौन-सा निष्कर्ष अवश्य सही है?", "mr": "विधाने: काही डॉक्टर शिक्षक आहेत. सर्व शिक्षक गायक आहेत. कोणता निष्कर्ष नक्कीच बरोबर आहे?" },
+      "optionsJson": [
+        { "en": "All doctors are singers", "hi": "सभी डॉक्टर गायक हैं", "mr": "सर्व डॉक्टर गायक आहेत" },
+        { "en": "All singers are teachers", "hi": "सभी गायक शिक्षक हैं", "mr": "सर्व गायक शिक्षक आहेत" },
+        { "en": "No doctor is a singer", "hi": "कोई डॉक्टर गायक नहीं है", "mr": "कोणताही डॉक्टर गायक नाही" },
+        { "en": "Some doctors are singers", "hi": "कुछ डॉक्टर गायक हैं", "mr": "काही डॉक्टर गायक आहेत" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "The doctors who are teachers are also singers, because all teachers are singers. So some doctors are singers.", "hi": "जो डॉक्टर शिक्षक हैं वे गायक भी हैं, क्योंकि सभी शिक्षक गायक हैं। इसलिए कुछ डॉक्टर गायक हैं।", "mr": "जे डॉक्टर शिक्षक आहेत ते गायकही आहेत, कारण सर्व शिक्षक गायक आहेत. म्हणून काही डॉक्टर गायक आहेत." },
+      "distractorAnalysis": {
+        "0": { "en": "Only some doctors are teachers, so we cannot say all doctors are singers.", "hi": "केवल कुछ डॉक्टर शिक्षक हैं, इसलिए यह नहीं कह सकते कि सभी डॉक्टर गायक हैं।", "mr": "फक्त काही डॉक्टर शिक्षक आहेत, म्हणून सर्व डॉक्टर गायक आहेत असे म्हणता येत नाही." },
+        "1": { "en": "Reverses the second statement; singers who are not teachers may exist.", "hi": "दूसरे कथन को उलट दिया; ऐसे गायक हो सकते हैं जो शिक्षक नहीं हैं।", "mr": "दुसरे विधान उलटे केले; शिक्षक नसलेले गायकही असू शकतात." },
+        "2": { "en": "Contradicts the statements, since the doctors who are teachers are singers.", "hi": "कथनों के विपरीत है, क्योंकि जो डॉक्टर शिक्षक हैं वे गायक हैं।", "mr": "विधानांच्या विरुद्ध आहे, कारण जे डॉक्टर शिक्षक आहेत ते गायक आहेत." }
+      }
+    },
+    {
+      "key": "rms6-p5-ma-08",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Cats and dogs are two different kinds of animals. Which description shows how Cats, Dogs and Animals are drawn in a Venn diagram?", "hi": "बिल्ली और कुत्ते दो अलग-अलग प्रकार के जानवर हैं। वेन आरेख में बिल्ली, कुत्ते और जानवर को कौन-सा वर्णन सही दर्शाता है?", "mr": "मांजर आणि कुत्रा हे दोन वेगवेगळ्या प्रकारचे प्राणी आहेत. व्हेन आकृतीत मांजर, कुत्रा आणि प्राणी हे कसे दाखवले जातात, याचे कोणते वर्णन बरोबर आहे?" },
+      "optionsJson": [
+        { "en": "Three separate circles that do not touch each other", "hi": "तीन अलग वृत्त जो एक-दूसरे को छूते नहीं", "mr": "तीन वेगवेगळी वर्तुळे जी एकमेकांना स्पर्श करत नाहीत" },
+        { "en": "Two separate circles (Cats, Dogs), both lying inside one bigger circle (Animals)", "hi": "दो अलग वृत्त (बिल्ली, कुत्ते), दोनों एक बड़े वृत्त (जानवर) के भीतर", "mr": "दोन वेगळी वर्तुळे (मांजर, कुत्रा), दोन्ही एका मोठ्या वर्तुळाच्या (प्राणी) आत" },
+        { "en": "Two overlapping circles (Cats, Dogs), both lying inside one bigger circle (Animals)", "hi": "दो आपस में मिलते हुए वृत्त (बिल्ली, कुत्ते), दोनों एक बड़े वृत्त (जानवर) के भीतर", "mr": "एकमेकांना छेदणारी दोन वर्तुळे (मांजर, कुत्रा), दोन्ही एका मोठ्या वर्तुळाच्या (प्राणी) आत" },
+        { "en": "Three circles that overlap each other", "hi": "तीन वृत्त जो आपस में मिलते हैं", "mr": "तीन वर्तुळे जी एकमेकांना छेदतात" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "No animal is both a cat and a dog, so those two circles stay apart. Both are kinds of animals, so they lie inside the Animals circle.", "hi": "कोई जानवर एक साथ बिल्ली और कुत्ता नहीं हो सकता, इसलिए दोनों वृत्त अलग रहते हैं। दोनों जानवर हैं, इसलिए वे जानवर वाले वृत्त के भीतर आते हैं।", "mr": "कोणताही प्राणी एकाच वेळी मांजर आणि कुत्रा असू शकत नाही, म्हणून ती दोन वर्तुळे वेगळी राहतात. दोन्ही प्राणी आहेत, म्हणून ती प्राणी या वर्तुळाच्या आत येतात." },
+      "distractorAnalysis": {
+        "0": { "en": "Cats and dogs are animals, so their circles cannot be outside the Animals circle.", "hi": "बिल्ली और कुत्ते जानवर हैं, इसलिए उनके वृत्त जानवर वाले वृत्त के बाहर नहीं हो सकते।", "mr": "मांजर आणि कुत्रा प्राणी आहेत, म्हणून त्यांची वर्तुळे प्राणी वर्तुळाच्या बाहेर असू शकत नाहीत." },
+        "2": { "en": "No animal is both a cat and a dog, so the two circles must not overlap.", "hi": "कोई जानवर एक साथ बिल्ली और कुत्ता नहीं है, इसलिए दोनों वृत्त आपस में नहीं मिलने चाहिए।", "mr": "कोणताही प्राणी एकाच वेळी मांजर आणि कुत्रा नाही, म्हणून दोन वर्तुळे एकमेकांना छेदू नयेत." },
+        "3": { "en": "Three overlapping circles would wrongly mean that some cats are dogs.", "hi": "तीन वृत्तों के आपस में मिलने का मतलब होगा कि कुछ बिल्लियाँ कुत्ते हैं, जो गलत है।", "mr": "तीन वर्तुळे एकमेकांना छेदणे म्हणजे काही मांजरी कुत्रे आहेत असा चुकीचा अर्थ होईल." }
+      }
+    },
+    {
+      "key": "rms6-p5-ma-09",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the number that replaces the question mark: 2 : 8 :: 3 : 27 :: 4 : ?", "hi": "प्रश्नचिह्न के स्थान पर आने वाली संख्या ज्ञात करें: 2 : 8 :: 3 : 27 :: 4 : ?", "mr": "प्रश्नचिन्हाच्या जागी येणारी संख्या शोधा: 2 : 8 :: 3 : 27 :: 4 : ?" },
+      "optionsJson": [
+        { "en": "16", "hi": "16", "mr": "16" },
+        { "en": "36", "hi": "36", "mr": "36" },
+        { "en": "64", "hi": "64", "mr": "64" },
+        { "en": "81", "hi": "81", "mr": "81" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "2³ = 8 and 3³ = 27, so each second number is the cube of the first: 4³ = 64.", "hi": "2³ = 8 और 3³ = 27, अतः दूसरी संख्या पहली संख्या का घन है: 4³ = 64।", "mr": "2³ = 8 आणि 3³ = 27, म्हणून दुसरी संख्या ही पहिल्या संख्येचा घन आहे: 4³ = 64." },
+      "distractorAnalysis": {
+        "0": { "en": "This is 4², the square, but the pattern uses cubes.", "hi": "यह 4² यानी वर्ग है, जबकि क्रम में घन का प्रयोग है।", "mr": "हा 4² म्हणजे वर्ग आहे, पण क्रमात घन वापरला आहे." },
+        "1": { "en": "This is 4 × 9; the multiplier 9 fits only the second pair, not the first.", "hi": "यह 4 × 9 है; गुणक 9 केवल दूसरी जोड़ी में बैठता है, पहली में नहीं।", "mr": "हे 4 × 9 आहे; गुणक 9 फक्त दुसऱ्या जोडीला जुळतो, पहिलीला नाही." },
+        "3": { "en": "This is 3⁴, which is built from 3, not from 4.", "hi": "यह 3⁴ है, जो 3 से बनता है, 4 से नहीं।", "mr": "हे 3⁴ आहे, जे 3 पासून बनते, 4 पासून नाही." }
+      }
+    },
+    {
+      "key": "rms6-p5-ma-10",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the missing number in the pairs: (4, 17), (5, 26), (6, 37), (7, ?)", "hi": "जोड़ियों में लुप्त संख्या ज्ञात करें: (4, 17), (5, 26), (6, 37), (7, ?)", "mr": "जोड्यांमधील हरवलेली संख्या शोधा: (4, 17), (5, 26), (6, 37), (7, ?)" },
+      "optionsJson": [
+        { "en": "45", "hi": "45", "mr": "45" },
+        { "en": "48", "hi": "48", "mr": "48" },
+        { "en": "49", "hi": "49", "mr": "49" },
+        { "en": "50", "hi": "50", "mr": "50" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "The second number is the square of the first plus 1: 4² + 1 = 17, 5² + 1 = 26, 6² + 1 = 37, so 7² + 1 = 50.", "hi": "दूसरी संख्या = पहली संख्या का वर्ग + 1: 4² + 1 = 17, 5² + 1 = 26, 6² + 1 = 37, अतः 7² + 1 = 50।", "mr": "दुसरी संख्या = पहिल्या संख्येचा वर्ग + 1: 4² + 1 = 17, 5² + 1 = 26, 6² + 1 = 37, म्हणून 7² + 1 = 50." },
+      "distractorAnalysis": {
+        "0": { "en": "The gaps are 9, 11, so the next gap is 13; adding 8 breaks the pattern.", "hi": "अंतर 9, 11 हैं, अतः अगला अंतर 13 होगा; 8 जोड़ने से क्रम टूटता है।", "mr": "फरक 9, 11 आहेत, म्हणून पुढचा फरक 13; 8 जोडल्याने क्रम तुटतो." },
+        "1": { "en": "This is 7² − 1; the minus sign was used instead of plus.", "hi": "यह 7² − 1 है; जोड़ने के बजाय घटा दिया।", "mr": "हे 7² − 1 आहे; जोडण्याऐवजी वजा केले." },
+        "2": { "en": "This is 7² only; the + 1 step was forgotten.", "hi": "यह केवल 7² है; + 1 वाला चरण छूट गया।", "mr": "हे फक्त 7² आहे; + 1 ही पायरी राहून गेली." }
+      }
+    },
+    {
+      "key": "rms6-p5-ma-11",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "A pattern of colours repeats in this order: red, blue, blue, green, red, blue, blue, green, and so on. What is the colour of the 14th item?", "hi": "रंगों का एक क्रम इसी तरह दोहराया जाता है: लाल, नीला, नीला, हरा, लाल, नीला, नीला, हरा, और इसी प्रकार आगे। 14वीं वस्तु का रंग क्या है?", "mr": "रंगांचा एक क्रम याच पद्धतीने पुन्हा पुन्हा येतो: लाल, निळा, निळा, हिरवा, लाल, निळा, निळा, हिरवा, आणि असेच पुढे. 14 व्या वस्तूचा रंग कोणता?" },
+      "optionsJson": [
+        { "en": "Blue", "hi": "नीला", "mr": "निळा" },
+        { "en": "Green", "hi": "हरा", "mr": "हिरवा" },
+        { "en": "Red", "hi": "लाल", "mr": "लाल" },
+        { "en": "Yellow", "hi": "पीला", "mr": "पिवळा" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The group of 4 (red, blue, blue, green) repeats. 14 = 3 groups of 4 (12 items) + 2, so the 14th item is the 2nd of the group: blue.", "hi": "4 रंगों का समूह (लाल, नीला, नीला, हरा) दोहराता है। 14 = 4 के 3 समूह (12 वस्तुएँ) + 2, इसलिए 14वीं वस्तु समूह की दूसरी है: नीला।", "mr": "4 रंगांचा गट (लाल, निळा, निळा, हिरवा) पुन्हा पुन्हा येतो. 14 = 4 चे 3 गट (12 वस्तू) + 2, म्हणून 14 वी वस्तू गटातील दुसरी आहे: निळा." },
+      "distractorAnalysis": {
+        "1": { "en": "Green is the 4th, 8th, 12th and 16th item, not the 14th.", "hi": "हरा रंग 4थी, 8वीं, 12वीं और 16वीं वस्तु का है, 14वीं का नहीं।", "mr": "हिरवा रंग 4 थ्या, 8 व्या, 12 व्या आणि 16 व्या वस्तूचा आहे, 14 व्या वस्तूचा नाही." },
+        "2": { "en": "Red is the 1st, 5th, 9th and 13th item; the 14th comes right after the 13th.", "hi": "लाल रंग 1ली, 5वीं, 9वीं और 13वीं वस्तु का है; 14वीं उसके ठीक बाद आती है।", "mr": "लाल रंग 1 ल्या, 5 व्या, 9 व्या आणि 13 व्या वस्तूचा आहे; 14 वी त्याच्या लगेच नंतर येते." },
+        "3": { "en": "Yellow does not appear anywhere in the pattern.", "hi": "पीला रंग क्रम में कहीं नहीं आता।", "mr": "पिवळा रंग क्रमात कुठेच येत नाही." }
+      }
+    },
+    {
+      "key": "rms6-p5-ma-12",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Shapes are drawn in this order: a triangle, a square, a pentagon, a hexagon, and so on, each having one side more than the previous shape. How many sides does the 8th shape have?", "hi": "आकृतियाँ इस क्रम में बनाई गई हैं: त्रिभुज, वर्ग, पंचभुज, षट्भुज, और आगे भी, हर आकृति में पिछली से एक भुजा अधिक है। 8वीं आकृति में कितनी भुजाएँ हैं?", "mr": "आकृत्या या क्रमाने काढल्या आहेत: त्रिकोण, चौरस, पंचकोन, षटकोन, आणि पुढेही, प्रत्येक आकृतीला मागच्या आकृतीपेक्षा एक बाजू जास्त आहे. 8 व्या आकृतीला किती बाजू आहेत?" },
+      "optionsJson": [
+        { "en": "10", "hi": "10", "mr": "10" },
+        { "en": "11", "hi": "11", "mr": "11" },
+        { "en": "12", "hi": "12", "mr": "12" },
+        { "en": "24", "hi": "24", "mr": "24" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The 1st shape has 3 sides and each next shape adds 1. The 8th shape has 3 + 7 = 10 sides.", "hi": "पहली आकृति में 3 भुजाएँ हैं और हर अगली आकृति में 1 बढ़ती है। 8वीं आकृति में 3 + 7 = 10 भुजाएँ हैं।", "mr": "पहिल्या आकृतीला 3 बाजू आहेत आणि प्रत्येक पुढच्या आकृतीला 1 ने वाढतात. 8 व्या आकृतीला 3 + 7 = 10 बाजू आहेत." },
+      "distractorAnalysis": {
+        "1": { "en": "Adds 8 to 3, but only 7 steps separate the 1st and the 8th shape.", "hi": "3 में 8 जोड़ दिया, जबकि पहली और 8वीं आकृति के बीच केवल 7 कदम हैं।", "mr": "3 मध्ये 8 जोडले, पण पहिली आणि 8 वी आकृती यांच्यात फक्त 7 पायऱ्या आहेत." },
+        "2": { "en": "Adds 9 to 3, which is two steps too many.", "hi": "3 में 9 जोड़ दिया, जो दो कदम अधिक है।", "mr": "3 मध्ये 9 जोडले, जे दोन पायऱ्या जास्त आहेत." },
+        "3": { "en": "Multiplies 3 × 8 instead of adding one side each time.", "hi": "हर बार एक भुजा जोड़ने के बजाय 3 × 8 कर दिया।", "mr": "प्रत्येक वेळी एक बाजू जोडण्याऐवजी 3 × 8 केले." }
+      }
+    },
+    {
+      "key": "rms6-p5-ma-13",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "In a group of 60 students, 35 like mango, 28 like orange and 10 like neither fruit. How many students like only mango?", "hi": "60 विद्यार्थियों के एक समूह में 35 को आम पसंद है, 28 को संतरा पसंद है और 10 को दोनों में से कोई फल पसंद नहीं। कितने विद्यार्थियों को केवल आम पसंद है?", "mr": "60 विद्यार्थ्यांच्या गटात 35 जणांना आंबा आवडतो, 28 जणांना संत्रे आवडते आणि 10 जणांना दोन्हीपैकी कोणतेही फळ आवडत नाही. किती विद्यार्थ्यांना फक्त आंबा आवडतो?" },
+      "optionsJson": [
+        { "en": "13", "hi": "13", "mr": "13" },
+        { "en": "22", "hi": "22", "mr": "22" },
+        { "en": "28", "hi": "28", "mr": "28" },
+        { "en": "35", "hi": "35", "mr": "35" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Students liking at least one fruit = 60 − 10 = 50. Both = 35 + 28 − 50 = 13. Only mango = 35 − 13 = 22.", "hi": "कम से कम एक फल पसंद करने वाले = 60 − 10 = 50। दोनों = 35 + 28 − 50 = 13। केवल आम = 35 − 13 = 22।", "mr": "किमान एक फळ आवडणारे = 60 − 10 = 50. दोन्ही = 35 + 28 − 50 = 13. फक्त आंबा = 35 − 13 = 22." },
+      "distractorAnalysis": {
+        "0": { "en": "This is the number who like both fruits, not only mango.", "hi": "यह दोनों फल पसंद करने वालों की संख्या है, केवल आम वालों की नहीं।", "mr": "ही दोन्ही फळे आवडणाऱ्यांची संख्या आहे, फक्त आंबा आवडणाऱ्यांची नाही." },
+        "2": { "en": "This is the total number who like orange.", "hi": "यह संतरा पसंद करने वालों की कुल संख्या है।", "mr": "ही संत्रे आवडणाऱ्यांची एकूण संख्या आहे." },
+        "3": { "en": "This is everyone who likes mango, including those who like orange too.", "hi": "यह आम पसंद करने वाले सभी हैं, इनमें संतरा भी पसंद करने वाले शामिल हैं।", "mr": "हे आंबा आवडणारे सर्व आहेत, यात संत्रेही आवडणारे समाविष्ट आहेत." }
+      }
+    },
+    {
+      "key": "rms6-p5-ma-14",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Statements: All roses are flowers. Some flowers are red. Which conclusion must be true?", "hi": "कथन: सभी गुलाब फूल हैं। कुछ फूल लाल हैं। कौन-सा निष्कर्ष अवश्य सही है?", "mr": "विधाने: सर्व गुलाब फुले आहेत. काही फुले लाल आहेत. कोणता निष्कर्ष नक्कीच बरोबर आहे?" },
+      "optionsJson": [
+        { "en": "All red things are roses", "hi": "सभी लाल वस्तुएँ गुलाब हैं", "mr": "सर्व लाल वस्तू गुलाब आहेत" },
+        { "en": "Some roses are red", "hi": "कुछ गुलाब लाल हैं", "mr": "काही गुलाब लाल आहेत" },
+        { "en": "No rose is red", "hi": "कोई गुलाब लाल नहीं है", "mr": "कोणताही गुलाब लाल नाही" },
+        { "en": "None of the three conclusions above must be true", "hi": "ऊपर के तीनों निष्कर्षों में से कोई भी अवश्य सही नहीं है", "mr": "वरील तिन्ही निष्कर्षांपैकी कोणताही नक्कीच बरोबर नाही" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "The red flowers could be other flowers (like hibiscus) and not roses, so 'some roses are red' is only possible, not certain. 'All red things are roses' and 'No rose is red' are not forced either. So none of them must be true.", "hi": "लाल फूल गुड़हल जैसे दूसरे फूल हो सकते हैं, गुलाब नहीं; इसलिए 'कुछ गुलाब लाल हैं' केवल संभव है, निश्चित नहीं। 'सभी लाल वस्तुएँ गुलाब हैं' और 'कोई गुलाब लाल नहीं है' भी अनिवार्य नहीं हैं। अतः इनमें से कोई भी अवश्य सही नहीं है।", "mr": "लाल फुले जास्वंदासारखी इतर फुले असू शकतात, गुलाब नाही; म्हणून 'काही गुलाब लाल आहेत' हे फक्त शक्य आहे, निश्चित नाही. 'सर्व लाल वस्तू गुलाब आहेत' आणि 'कोणताही गुलाब लाल नाही' हेही अनिवार्य नाहीत. म्हणून त्यांपैकी कोणताही निष्कर्ष नक्कीच बरोबर नाही." },
+      "distractorAnalysis": {
+        "0": { "en": "Nothing says red things are only roses; red flowers may be other flowers, and red things need not be flowers at all.", "hi": "कथनों में ऐसा कुछ नहीं कि लाल चीज़ें केवल गुलाब हैं; लाल फूल दूसरे फूल भी हो सकते हैं, और लाल चीज़ें फूल ही हों यह ज़रूरी नहीं।", "mr": "विधानांत लाल वस्तू फक्त गुलाबच आहेत असे काही नाही; लाल फुले इतर फुलेही असू शकतात, आणि लाल वस्तू फूलच असतात असेही नाही." },
+        "1": { "en": "Possible, but not certain; the red flowers may not include any rose.", "hi": "संभव है, पर निश्चित नहीं; हो सकता है लाल फूलों में कोई गुलाब न हो।", "mr": "शक्य आहे, पण निश्चित नाही; लाल फुलांमध्ये एकही गुलाब नसू शकतो." },
+        "2": { "en": "Also not forced; some roses may well be red.", "hi": "यह भी अनिवार्य नहीं; कुछ गुलाब लाल हो भी सकते हैं।", "mr": "हेही अनिवार्य नाही; काही गुलाब लाल असूही शकतात." }
+      }
+    },
+    {
+      "key": "rms6-p5-ma-15",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Look at three number groups. Group 1: outer numbers 3, 4, 5 with 12 in the centre. Group 2: outer numbers 6, 2, 7 with 15 in the centre. Group 3: outer numbers 8, 1, 9 with ? in the centre. Find the missing centre number.", "hi": "तीन संख्या-समूहों को देखें। समूह 1: बाहरी संख्याएँ 3, 4, 5 और बीच में 12। समूह 2: बाहरी संख्याएँ 6, 2, 7 और बीच में 15। समूह 3: बाहरी संख्याएँ 8, 1, 9 और बीच में ?। बीच की लुप्त संख्या ज्ञात करें।", "mr": "तीन संख्या-गट पाहा. गट 1: बाहेरील संख्या 3, 4, 5 आणि मध्यभागी 12. गट 2: बाहेरील संख्या 6, 2, 7 आणि मध्यभागी 15. गट 3: बाहेरील संख्या 8, 1, 9 आणि मध्यभागी ?. मध्यभागीची हरवलेली संख्या शोधा." },
+      "optionsJson": [
+        { "en": "17", "hi": "17", "mr": "17" },
+        { "en": "18", "hi": "18", "mr": "18" },
+        { "en": "19", "hi": "19", "mr": "19" },
+        { "en": "72", "hi": "72", "mr": "72" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The centre number is the sum of the outer numbers: 3 + 4 + 5 = 12, 6 + 2 + 7 = 15, so 8 + 1 + 9 = 18.", "hi": "बीच की संख्या बाहरी संख्याओं का योग है: 3 + 4 + 5 = 12, 6 + 2 + 7 = 15, इसलिए 8 + 1 + 9 = 18।", "mr": "मध्यभागीची संख्या बाहेरील संख्यांची बेरीज आहे: 3 + 4 + 5 = 12, 6 + 2 + 7 = 15, म्हणून 8 + 1 + 9 = 18." },
+      "distractorAnalysis": {
+        "0": { "en": "This is 8 + 9 only; the number 1 was left out.", "hi": "यह केवल 8 + 9 है; संख्या 1 छूट गई।", "mr": "ही फक्त 8 + 9 आहे; संख्या 1 राहून गेली." },
+        "2": { "en": "One more than the true sum; check the addition 8 + 1 + 9.", "hi": "वास्तविक योग से एक अधिक; जोड़ 8 + 1 + 9 जाँचें।", "mr": "खऱ्या बेरजेपेक्षा एकने जास्त; बेरीज 8 + 1 + 9 तपासा." },
+        "3": { "en": "This is 8 × 1 × 9; the rule uses addition, not multiplication.", "hi": "यह 8 × 1 × 9 है; नियम में जोड़ है, गुणा नहीं।", "mr": "हे 8 × 1 × 9 आहे; नियमात बेरीज आहे, गुणाकार नाही." }
+      }
+    },
+    {
+      "key": "rms6-p5-ma-16",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "A pattern of dots is made: the 1st figure has 1 dot, the 2nd figure has 4 dots, the 3rd figure has 9 dots, the 4th figure has 16 dots, and so on. How many dots will the 9th figure have?", "hi": "बिंदुओं का एक क्रम बनाया गया है: पहली आकृति में 1 बिंदु, दूसरी में 4 बिंदु, तीसरी में 9 बिंदु, चौथी में 16 बिंदु, और इसी प्रकार आगे। 9वीं आकृति में कितने बिंदु होंगे?", "mr": "ठिपक्यांची एक मांडणी केली आहे: पहिल्या आकृतीत 1 ठिपका, दुसऱ्यात 4 ठिपके, तिसऱ्यात 9 ठिपके, चौथ्यात 16 ठिपके, आणि असेच पुढे. 9 व्या आकृतीत किती ठिपके असतील?" },
+      "optionsJson": [
+        { "en": "18", "hi": "18", "mr": "18" },
+        { "en": "72", "hi": "72", "mr": "72" },
+        { "en": "81", "hi": "81", "mr": "81" },
+        { "en": "90", "hi": "90", "mr": "90" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The numbers 1, 4, 9, 16 are 1², 2², 3², 4². So the 9th figure has 9² = 81 dots.", "hi": "संख्याएँ 1, 4, 9, 16 क्रमशः 1², 2², 3², 4² हैं। अतः 9वीं आकृति में 9² = 81 बिंदु होंगे।", "mr": "संख्या 1, 4, 9, 16 या अनुक्रमे 1², 2², 3², 4² आहेत. म्हणून 9 व्या आकृतीत 9² = 81 ठिपके असतील." },
+      "distractorAnalysis": {
+        "0": { "en": "This is 9 × 2; the figure number was doubled instead of squared.", "hi": "यह 9 × 2 है; आकृति संख्या का वर्ग करने के बजाय दुगुना कर दिया।", "mr": "हे 9 × 2 आहे; आकृती क्रमांकाचा वर्ग करण्याऐवजी दुप्पट केला." },
+        "1": { "en": "This is 9 × 8; the figure number was multiplied by one less than itself.", "hi": "यह 9 × 8 है; आकृति संख्या को अपने से एक कम संख्या से गुणा कर दिया।", "mr": "हे 9 × 8 आहे; आकृती क्रमांकाला त्याच्यापेक्षा एकने कमी संख्येने गुणले." },
+        "3": { "en": "This is 9 × 10, which is more than 9 × 9.", "hi": "यह 9 × 10 है, जो 9 × 9 से अधिक है।", "mr": "हे 9 × 10 आहे, जे 9 × 9 पेक्षा जास्त आहे." }
+      }
+    },
+    {
+      "key": "rms6-p5-ma-17",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Matchsticks are used to make squares in a row, where neighbouring squares share a side. One square needs 4 sticks, two squares need 7 sticks and three squares need 10 sticks. How many sticks are needed for 8 squares?", "hi": "माचिस की तीलियों से एक पंक्ति में वर्ग बनाए जाते हैं, जिनमें पास-पास के वर्ग एक भुजा साझा करते हैं। एक वर्ग के लिए 4 तीलियाँ, दो वर्गों के लिए 7 तीलियाँ और तीन वर्गों के लिए 10 तीलियाँ चाहिए। 8 वर्गों के लिए कितनी तीलियाँ चाहिए?", "mr": "आगकाड्यांनी एका रांगेत चौरस बनवले जातात, ज्यात शेजारचे चौरस एक बाजू सामायिक करतात. एका चौरसाला 4 काड्या, दोन चौरसांना 7 काड्या आणि तीन चौरसांना 10 काड्या लागतात. 8 चौरसांसाठी किती काड्या लागतील?" },
+      "optionsJson": [
+        { "en": "24", "hi": "24", "mr": "24" },
+        { "en": "25", "hi": "25", "mr": "25" },
+        { "en": "28", "hi": "28", "mr": "28" },
+        { "en": "32", "hi": "32", "mr": "32" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The first square takes 4 sticks and each new square adds 3 more. For 8 squares: 4 + 7 × 3 = 25.", "hi": "पहले वर्ग में 4 तीलियाँ लगती हैं और हर नए वर्ग में 3 और। 8 वर्गों के लिए: 4 + 7 × 3 = 25।", "mr": "पहिल्या चौरसाला 4 काड्या लागतात आणि प्रत्येक नवीन चौरसाला आणखी 3. 8 चौरसांसाठी: 4 + 7 × 3 = 25." },
+      "distractorAnalysis": {
+        "0": { "en": "This is 3 × 8; the extra stick needed to close the first square was forgotten.", "hi": "यह 3 × 8 है; पहले वर्ग को पूरा करने की एक अतिरिक्त तीली छूट गई।", "mr": "हे 3 × 8 आहे; पहिला चौरस पूर्ण करण्याची एक जास्तीची काडी राहून गेली." },
+        "2": { "en": "This is 4 + 8 × 3, which counts one square too many.", "hi": "यह 4 + 8 × 3 है, जिसमें एक वर्ग अधिक गिना गया है।", "mr": "हे 4 + 8 × 3 आहे, यात एक चौरस जास्त मोजला गेला आहे." },
+        "3": { "en": "This is 4 × 8, which ignores the shared sides.", "hi": "यह 4 × 8 है, जिसमें साझा भुजाओं की अनदेखी हुई है।", "mr": "हे 4 × 8 आहे, यात सामायिक बाजूंकडे दुर्लक्ष झाले आहे." }
+      }
+    },
+    {
+      "key": "rms6-p5-ma-18",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "In a hostel of 45 children, 27 can swim, 19 can cycle and 9 can do both. How many children can do neither?", "hi": "45 बच्चों के एक छात्रावास में 27 तैर सकते हैं, 19 साइकिल चला सकते हैं और 9 दोनों कर सकते हैं। कितने बच्चे दोनों में से कुछ नहीं कर सकते?", "mr": "45 मुलांच्या वसतिगृहात 27 जणांना पोहता येते, 19 जणांना सायकल चालवता येते आणि 9 जणांना दोन्ही येते. किती मुलांना दोन्हीपैकी काहीच येत नाही?" },
+      "optionsJson": [
+        { "en": "8", "hi": "8", "mr": "8" },
+        { "en": "9", "hi": "9", "mr": "9" },
+        { "en": "10", "hi": "10", "mr": "10" },
+        { "en": "18", "hi": "18", "mr": "18" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Children who can do at least one = 27 + 19 − 9 = 37. Neither = 45 − 37 = 8.", "hi": "कम से कम एक काम कर सकने वाले बच्चे = 27 + 19 − 9 = 37। दोनों में से कुछ नहीं = 45 − 37 = 8।", "mr": "किमान एक गोष्ट येणारी मुले = 27 + 19 − 9 = 37. दोन्हीपैकी काहीच नाही = 45 − 37 = 8." },
+      "distractorAnalysis": {
+        "1": { "en": "This is the number who can do both, not neither.", "hi": "यह दोनों कर सकने वालों की संख्या है, किसी को न कर पाने वालों की नहीं।", "mr": "ही दोन्ही येणाऱ्यांची संख्या आहे, काहीच न येणाऱ्यांची नाही." },
+        "2": { "en": "This is the number who can only cycle (19 − 9).", "hi": "यह केवल साइकिल चला सकने वालों की संख्या (19 − 9) है।", "mr": "ही फक्त सायकल चालवता येणाऱ्यांची संख्या (19 − 9) आहे." },
+        "3": { "en": "This is the number who can only swim (27 − 9).", "hi": "यह केवल तैर सकने वालों की संख्या (27 − 9) है।", "mr": "ही फक्त पोहता येणाऱ्यांची संख्या (27 − 9) आहे." }
+      }
+    },
+    {
+      "key": "rms6-p5-ma-19",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "In a certain code, CAT is written as ECV. How is DOG written in that code?", "hi": "एक निश्चित कूट भाषा में CAT को ECV लिखा जाता है। उसी कूट में DOG कैसे लिखा जाएगा?", "mr": "एका विशिष्ट सांकेतिक भाषेत CAT हा ECV असा लिहिला जातो. त्याच संकेतात DOG कसा लिहिला जाईल?" },
+      "optionsJson": [
+        { "en": "FPI", "hi": "FPI", "mr": "FPI" },
+        { "en": "FQH", "hi": "FQH", "mr": "FQH" },
+        { "en": "FQI", "hi": "FQI", "mr": "FQI" },
+        { "en": "FQJ", "hi": "FQJ", "mr": "FQJ" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Every letter moves 2 steps forward: C→E, A→C, T→V. So D→F, O→Q, G→I, giving FQI.", "hi": "हर अक्षर 2 स्थान आगे बढ़ता है: C→E, A→C, T→V। अतः D→F, O→Q, G→I, यानी FQI।", "mr": "प्रत्येक अक्षर 2 स्थाने पुढे जातो: C→E, A→C, T→V. म्हणून D→F, O→Q, G→I, म्हणजे FQI." },
+      "distractorAnalysis": {
+        "0": { "en": "The middle letter O moves only 1 step to P instead of 2 steps to Q.", "hi": "बीच का अक्षर O केवल 1 स्थान बढ़कर P बना, जबकि 2 स्थान बढ़कर Q बनना चाहिए।", "mr": "मधले अक्षर O फक्त 1 स्थान पुढे जाऊन P झाले, खरे तर 2 स्थाने पुढे जाऊन Q व्हायला हवे." },
+        "1": { "en": "The last letter G moves only 1 step to H instead of 2 steps to I.", "hi": "अंतिम अक्षर G केवल 1 स्थान बढ़कर H बना, जबकि 2 स्थान बढ़कर I बनना चाहिए।", "mr": "शेवटचे अक्षर G फक्त 1 स्थान पुढे जाऊन H झाले, खरे तर 2 स्थाने पुढे जाऊन I व्हायला हवे." },
+        "3": { "en": "The last letter G moves 3 steps to J instead of 2.", "hi": "अंतिम अक्षर G 2 के बजाय 3 स्थान बढ़कर J बना।", "mr": "शेवटचे अक्षर G 2 ऐवजी 3 स्थाने पुढे जाऊन J झाले." }
+      }
+    },
+    {
+      "key": "rms6-p5-ma-20",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Riya starts from her home and walks 5 m towards the north. She turns right and walks 3 m. Then she turns right again and walks 5 m. How far and in which direction is she from her home now?", "hi": "रिया अपने घर से उत्तर दिशा में 5 मीटर चलती है। वह दाएँ मुड़कर 3 मीटर चलती है। फिर वह दोबारा दाएँ मुड़कर 5 मीटर चलती है। अब वह अपने घर से कितनी दूर और किस दिशा में है?", "mr": "रिया तिच्या घरापासून उत्तरेकडे 5 मीटर चालते. ती उजवीकडे वळून 3 मीटर चालते. मग ती पुन्हा उजवीकडे वळून 5 मीटर चालते. आता ती तिच्या घरापासून किती अंतरावर आणि कोणत्या दिशेला आहे?" },
+      "optionsJson": [
+        { "en": "3 m west", "hi": "3 मीटर पश्चिम में", "mr": "3 मीटर पश्चिमेला" },
+        { "en": "5 m east", "hi": "5 मीटर पूर्व में", "mr": "5 मीटर पूर्वेला" },
+        { "en": "13 m north", "hi": "13 मीटर उत्तर में", "mr": "13 मीटर उत्तरेला" },
+        { "en": "3 m east", "hi": "3 मीटर पूर्व में", "mr": "3 मीटर पूर्वेला" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "She goes north 5 m. Turning right she faces east and walks 3 m. Turning right again she faces south and walks 5 m, which cancels the northward walk. She is 3 m east of her home.", "hi": "वह उत्तर में 5 मीटर चलती है। दाएँ मुड़ने पर वह पूर्व की ओर 3 मीटर चलती है। फिर दाएँ मुड़ने पर वह दक्षिण की ओर 5 मीटर चलती है, जिससे उत्तर वाली दूरी कट जाती है। वह घर से 3 मीटर पूर्व में है।", "mr": "ती उत्तरेकडे 5 मीटर चालते. उजवीकडे वळल्यावर ती पूर्वेकडे 3 मीटर चालते. पुन्हा उजवीकडे वळल्यावर ती दक्षिणेकडे 5 मीटर चालते, त्यामुळे उत्तरेकडील अंतर रद्द होते. ती घरापासून 3 मीटर पूर्वेला आहे." },
+      "distractorAnalysis": {
+        "0": { "en": "The right side of north is east, not west.", "hi": "उत्तर की दाईं ओर पूर्व होता है, पश्चिम नहीं।", "mr": "उत्तरेच्या उजवीकडे पूर्व असते, पश्चिम नाही." },
+        "1": { "en": "The eastward walk was only 3 m; the two 5 m walks cancel each other.", "hi": "पूर्व की ओर की दूरी केवल 3 मीटर थी; दोनों 5 मीटर की दूरियाँ एक-दूसरे को काट देती हैं।", "mr": "पूर्वेकडील अंतर फक्त 3 मीटर होते; दोन्ही 5 मीटर अंतरे एकमेकांना रद्द करतात." },
+        "2": { "en": "Adds all distances (5 + 3 + 5) and ignores the turns; the second 5 m walk goes south.", "hi": "सभी दूरियाँ (5 + 3 + 5) जोड़ दीं और मोड़ों की अनदेखी की; दूसरी 5 मीटर की दूरी दक्षिण की ओर है।", "mr": "सर्व अंतरे (5 + 3 + 5) जोडली आणि वळणांकडे दुर्लक्ष केले; दुसरे 5 मीटर अंतर दक्षिणेकडे आहे." }
+      }
+    },
+    {
+      "key": "rms6-p5-ma-21",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Pointing to a girl, Anil said, 'She is the daughter of my mother's only brother.' How is the girl related to Anil?", "hi": "एक लड़की की ओर इशारा करते हुए अनिल ने कहा, 'वह मेरी माँ के इकलौते भाई की बेटी है।' वह लड़की अनिल की क्या लगती है?", "mr": "एका मुलीकडे बोट दाखवून अनिल म्हणाला, 'ती माझ्या आईच्या एकुलत्या एक भावाची मुलगी आहे.' ती मुलगी अनिलची कोण आहे?" },
+      "optionsJson": [
+        { "en": "Sister", "hi": "बहन", "mr": "बहीण" },
+        { "en": "Niece", "hi": "भतीजी", "mr": "पुतणी" },
+        { "en": "Aunt", "hi": "मौसी", "mr": "मावशी" },
+        { "en": "Cousin", "hi": "ममेरी बहन", "mr": "मामेबहीण" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Anil's mother's brother is his maternal uncle (mama). The daughter of the maternal uncle is Anil's cousin.", "hi": "अनिल की माँ का भाई उसका मामा है। मामा की बेटी अनिल की ममेरी बहन (कज़िन) है।", "mr": "अनिलच्या आईचा भाऊ म्हणजे त्याचा मामा. मामाची मुलगी म्हणजे अनिलची मामेबहीण (कझिन)." },
+      "distractorAnalysis": {
+        "0": { "en": "A sister is the daughter of Anil's own parents, not of his uncle.", "hi": "बहन अनिल के अपने माता-पिता की बेटी होती है, उसके मामा की नहीं।", "mr": "बहीण ही अनिलच्या स्वतःच्या आईवडिलांची मुलगी असते, मामाची नाही." },
+        "1": { "en": "A niece is the daughter of Anil's brother or sister, not of his mother's brother.", "hi": "भतीजी या भांजी अनिल के भाई या बहन की बेटी होती है, उसकी माँ के भाई की नहीं।", "mr": "पुतणी किंवा भाची ही अनिलच्या भावाची किंवा बहिणीची मुलगी असते, आईच्या भावाची नाही." },
+        "2": { "en": "An aunt belongs to the generation above Anil; the girl is of his own generation.", "hi": "मौसी अनिल से ऊपर की पीढ़ी की होती है; यह लड़की उसकी अपनी पीढ़ी की है।", "mr": "मावशी अनिलच्या वरच्या पिढीतील असते; ही मुलगी त्याच्या स्वतःच्या पिढीतील आहे." }
+      }
+    },
+    {
+      "key": "rms6-p5-ma-22",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Mohan stands 12th from the left end in a row of 31 students. What is his position from the right end?", "hi": "31 विद्यार्थियों की एक पंक्ति में मोहन बाएँ सिरे से 12वें स्थान पर खड़ा है। दाएँ सिरे से उसका स्थान कौन-सा है?", "mr": "31 विद्यार्थ्यांच्या रांगेत मोहन डाव्या टोकापासून 12 व्या स्थानावर उभा आहे. उजव्या टोकापासून त्याचे स्थान कोणते?" },
+      "optionsJson": [
+        { "en": "18th", "hi": "18वाँ", "mr": "18 वा" },
+        { "en": "19th", "hi": "19वाँ", "mr": "19 वा" },
+        { "en": "20th", "hi": "20वाँ", "mr": "20 वा" },
+        { "en": "21st", "hi": "21वाँ", "mr": "21 वा" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Position from the right = 31 − 12 + 1 = 20.", "hi": "दाएँ से स्थान = 31 − 12 + 1 = 20।", "mr": "उजवीकडून स्थान = 31 − 12 + 1 = 20." },
+      "distractorAnalysis": {
+        "0": { "en": "Subtracts one extra: 31 − 12 − 1 = 18.", "hi": "एक अधिक घटा दिया: 31 − 12 − 1 = 18।", "mr": "एक जास्त वजा केले: 31 − 12 − 1 = 18." },
+        "1": { "en": "This is 31 − 12, the number of students to his right; Mohan himself must be counted too.", "hi": "यह 31 − 12 है, यानी उसके दाईं ओर के विद्यार्थी; मोहन को भी गिनना होगा।", "mr": "हे 31 − 12 आहे, म्हणजे त्याच्या उजवीकडील विद्यार्थी; मोहनलाही मोजावे लागेल." },
+        "3": { "en": "Adds 2 instead of 1 (31 − 12 + 2).", "hi": "1 के बजाय 2 जोड़ दिया (31 − 12 + 2)।", "mr": "1 ऐवजी 2 जोडले (31 − 12 + 2)." }
+      }
+    },
+    {
+      "key": "rms6-p5-ma-23",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": { "en": "What is the angle between the hour hand and the minute hand of a clock at 3:30? (A full circle is 360°.)", "hi": "घड़ी में 3:30 बजे घंटे की सुई और मिनट की सुई के बीच का कोण कितना होता है? (पूरा वृत्त 360° का होता है।)", "mr": "घड्याळात 3:30 वाजता तासकाटा आणि मिनिटकाटा यांच्यातील कोन किती असतो? (पूर्ण वर्तुळ 360° चे असते.)" },
+      "optionsJson": [
+        { "en": "60°", "hi": "60°", "mr": "60°" },
+        { "en": "75°", "hi": "75°", "mr": "75°" },
+        { "en": "90°", "hi": "90°", "mr": "90°" },
+        { "en": "105°", "hi": "105°", "mr": "105°" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "At 3:30 the minute hand is at 6, which is 180° from 12. The hour hand has moved 3 hours (90°) plus half an hour (15°) = 105°. The angle is 180° − 105° = 75°.", "hi": "3:30 पर मिनट की सुई 6 पर होती है, जो 12 से 180° दूर है। घंटे की सुई 3 घंटे (90°) और आधे घंटे (15°) यानी 105° चल चुकी होती है। कोण = 180° − 105° = 75°।", "mr": "3:30 वाजता मिनिटकाटा 6 वर असतो, जो 12 पासून 180° दूर आहे. तासकाटा 3 तास (90°) आणि अर्धा तास (15°) म्हणजे 105° पुढे गेलेला असतो. कोन = 180° − 105° = 75°." },
+      "distractorAnalysis": {
+        "0": { "en": "That is only 2 numbers on the dial (2 × 30°), but the hands are 2 and a half numbers apart.", "hi": "यह डायल की केवल 2 संख्याओं (2 × 30°) की दूरी है, जबकि सुइयाँ ढाई संख्याओं की दूरी पर हैं।", "mr": "ही डायलवरील फक्त 2 अंकांची (2 × 30°) दूरी आहे, पण काटे अडीच अंकांच्या अंतरावर आहेत." },
+        "2": { "en": "This is the angle at 3:00, not 3:30, because the hour hand also moves forward.", "hi": "यह 3:00 बजे का कोण है, 3:30 का नहीं, क्योंकि घंटे की सुई भी आगे बढ़ती है।", "mr": "हा 3:00 वाजताचा कोन आहे, 3:30 चा नाही, कारण तासकाटाही पुढे सरकतो." },
+        "3": { "en": "This is only the position of the hour hand from 12, not the angle between the hands.", "hi": "यह केवल 12 से घंटे की सुई की स्थिति है, सुइयों के बीच का कोण नहीं।", "mr": "ही फक्त 12 पासून तासकाट्याची स्थिती आहे, काट्यांमधील कोन नाही." }
+      }
+    },
+    {
+      "key": "rms6-p5-ma-24",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "If 5 March 2025 was a Wednesday, which day of the week was 28 March 2025?", "hi": "यदि 5 मार्च 2025 को बुधवार था, तो 28 मार्च 2025 को सप्ताह का कौन-सा दिन था?", "mr": "जर 5 मार्च 2025 रोजी बुधवार होता, तर 28 मार्च 2025 रोजी आठवड्याचा कोणता वार होता?" },
+      "optionsJson": [
+        { "en": "Wednesday", "hi": "बुधवार", "mr": "बुधवार" },
+        { "en": "Thursday", "hi": "गुरुवार", "mr": "गुरुवार" },
+        { "en": "Friday", "hi": "शुक्रवार", "mr": "शुक्रवार" },
+        { "en": "Saturday", "hi": "शनिवार", "mr": "शनिवार" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "From 5 March to 28 March is 23 days. 23 = 3 × 7 + 2, so the day is 2 days after Wednesday: Friday.", "hi": "5 मार्च से 28 मार्च तक 23 दिन हैं। 23 = 3 × 7 + 2, इसलिए वह दिन बुधवार से 2 दिन बाद का होगा: शुक्रवार।", "mr": "5 मार्च ते 28 मार्च हे 23 दिवस आहेत. 23 = 3 × 7 + 2, म्हणून तो वार बुधवारनंतर 2 दिवसांनी येणारा असेल: शुक्रवार." },
+      "distractorAnalysis": {
+        "0": { "en": "This would be after exactly 21 or 28 days, a whole number of weeks; here there are 23 days.", "hi": "यह ठीक 21 या 28 दिन बाद होता, यानी पूरे सप्ताह; यहाँ 23 दिन हैं।", "mr": "हा अगदी 21 किंवा 28 दिवसांनी आला असता, म्हणजे पूर्ण आठवडे; येथे 23 दिवस आहेत." },
+        "1": { "en": "This is only 1 day after Wednesday, but the leftover days are 2.", "hi": "यह बुधवार के केवल 1 दिन बाद है, जबकि शेष दिन 2 हैं।", "mr": "हा बुधवारनंतर फक्त 1 दिवसाने आहे, पण उरलेले दिवस 2 आहेत." },
+        "3": { "en": "This is 3 days after Wednesday, one too many; it comes from counting 24 days.", "hi": "यह बुधवार के 3 दिन बाद है, एक अधिक; यह 24 दिन गिनने से आता है।", "mr": "हा बुधवारनंतर 3 दिवसांनी आहे, एक जास्त; हे 24 दिवस मोजल्याने येते." }
+      }
+    },
+    {
+      "key": "rms6-p5-ma-25",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": { "en": "A father is 4 times as old as his son. After 5 years, the father will be 3 times as old as the son. What is the son's present age?", "hi": "एक पिता की आयु उसके पुत्र की आयु की 4 गुना है। 5 वर्ष बाद पिता की आयु पुत्र की आयु की 3 गुना होगी। पुत्र की वर्तमान आयु कितनी है?", "mr": "एका वडिलांचे वय त्यांच्या मुलाच्या वयाच्या 4 पट आहे. 5 वर्षांनंतर वडिलांचे वय मुलाच्या वयाच्या 3 पट असेल. मुलाचे सध्याचे वय किती?" },
+      "optionsJson": [
+        { "en": "8 years", "hi": "8 वर्ष", "mr": "8 वर्षे" },
+        { "en": "10 years", "hi": "10 वर्ष", "mr": "10 वर्षे" },
+        { "en": "12 years", "hi": "12 वर्ष", "mr": "12 वर्षे" },
+        { "en": "15 years", "hi": "15 वर्ष", "mr": "15 वर्षे" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "If the son is 10, the father is 40. After 5 years they are 15 and 45, and 45 = 3 × 15. (The equation 4x + 5 = 3(x + 5) also gives x = 10.)", "hi": "यदि पुत्र 10 वर्ष का है तो पिता 40 वर्ष के हैं। 5 वर्ष बाद वे 15 और 45 वर्ष के होंगे, और 45 = 3 × 15। (समीकरण 4x + 5 = 3(x + 5) से भी x = 10 मिलता है।)", "mr": "मुलगा 10 वर्षांचा असेल तर वडील 40 वर्षांचे आहेत. 5 वर्षांनंतर ते 15 आणि 45 वर्षांचे असतील आणि 45 = 3 × 15. (समीकरण 4x + 5 = 3(x + 5) वरूनही x = 10 मिळते.)" },
+      "distractorAnalysis": {
+        "0": { "en": "Son 8, father 32; after 5 years 13 and 37, and 37 is not 3 × 13.", "hi": "पुत्र 8, पिता 32; 5 वर्ष बाद 13 और 37, और 37, 3 × 13 नहीं है।", "mr": "मुलगा 8, वडील 32; 5 वर्षांनंतर 13 आणि 37, आणि 37 हे 3 × 13 नाही." },
+        "2": { "en": "Son 12, father 48; after 5 years 17 and 53, and 53 is not 3 × 17.", "hi": "पुत्र 12, पिता 48; 5 वर्ष बाद 17 और 53, और 53, 3 × 17 नहीं है।", "mr": "मुलगा 12, वडील 48; 5 वर्षांनंतर 17 आणि 53, आणि 53 हे 3 × 17 नाही." },
+        "3": { "en": "Son 15, father 60; after 5 years 20 and 65, and 65 is not 3 × 20.", "hi": "पुत्र 15, पिता 60; 5 वर्ष बाद 20 और 65, और 65, 3 × 20 नहीं है।", "mr": "मुलगा 15, वडील 60; 5 वर्षांनंतर 20 आणि 65, आणि 65 हे 3 × 20 नाही." }
+      }
+    }
+  ]
+}

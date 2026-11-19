@@ -1,0 +1,859 @@
+{
+  "examType": "AISSEE",
+  "classLevel": 9,
+  "paperNumber": 5,
+  "sectionKey": "mathematics",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "aissee9-p5-mt-26",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "What is the smallest prime number greater than 50?",
+        "hi": "50 से बड़ी सबसे छोटी अभाज्य संख्या कौन-सी है?"
+      },
+      "optionsJson": [
+        { "en": "51", "hi": "51" },
+        { "en": "53", "hi": "53" },
+        { "en": "55", "hi": "55" },
+        { "en": "57", "hi": "57" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "51 = 3 × 17, so it is not prime. 52 is even. 53 has no divisor other than 1 and itself (it is not divisible by 2, 3, 5 or 7), so 53 is the smallest prime greater than 50.",
+        "hi": "51 = 3 × 17, इसलिए यह अभाज्य नहीं है। 52 सम संख्या है। 53 का 1 और स्वयं के अलावा कोई भाजक नहीं है (यह 2, 3, 5 या 7 से विभाज्य नहीं है), इसलिए 53 ही 50 से बड़ी सबसे छोटी अभाज्य संख्या है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "51 = 3 × 17, so it is composite.",
+          "hi": "51 = 3 × 17, इसलिए यह भाज्य संख्या है।"
+        },
+        "2": {
+          "en": "55 = 5 × 11, so it is composite.",
+          "hi": "55 = 5 × 11, इसलिए यह भाज्य संख्या है।"
+        },
+        "3": {
+          "en": "57 = 3 × 19, so it is composite.",
+          "hi": "57 = 3 × 19, इसलिए यह भाज्य संख्या है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-27",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "₹720 is divided between Asha and Bina in the ratio 5 : 4. How much does Asha get?",
+        "hi": "₹720 को आशा और बीना के बीच 5 : 4 के अनुपात में बाँटा जाता है। आशा को कितनी राशि मिलेगी?"
+      },
+      "optionsJson": [
+        { "en": "₹320", "hi": "₹320" },
+        { "en": "₹360", "hi": "₹360" },
+        { "en": "₹450", "hi": "₹450" },
+        { "en": "₹400", "hi": "₹400" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Total parts = 5 + 4 = 9, so one part = 720 ÷ 9 = ₹80. Asha's share = 5 × 80 = ₹400.",
+        "hi": "कुल भाग = 5 + 4 = 9, अतः एक भाग = 720 ÷ 9 = ₹80। आशा का हिस्सा = 5 × 80 = ₹400।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "This is Bina's share (4 parts × ₹80), not Asha's.",
+          "hi": "यह बीना का हिस्सा (4 भाग × ₹80) है, आशा का नहीं।"
+        },
+        "1": {
+          "en": "Splits the amount equally, ignoring the ratio.",
+          "hi": "अनुपात को अनदेखा करके राशि को बराबर बाँट दिया।"
+        },
+        "2": {
+          "en": "Divides by the sum of the two ratio terms incorrectly (takes 5/8 of 720 instead of 5/9).",
+          "hi": "अनुपात के पदों के योग से गलत भाग दिया (720 का 5/9 लेने के बजाय 5/8 लिया)।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-28",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "What is the value of 15% of 240 + 25% of 80?",
+        "hi": "240 का 15% + 80 का 25% का मान क्या है?"
+      },
+      "optionsJson": [
+        { "en": "56", "hi": "56" },
+        { "en": "46", "hi": "46" },
+        { "en": "60", "hi": "60" },
+        { "en": "66", "hi": "66" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "15% of 240 = 0.15 × 240 = 36. 25% of 80 = 0.25 × 80 = 20. Sum = 36 + 20 = 56.",
+        "hi": "240 का 15% = 0.15 × 240 = 36। 80 का 25% = 0.25 × 80 = 20। योग = 36 + 20 = 56।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Takes 25% of 80 as 10 instead of 20.",
+          "hi": "80 का 25% 20 के बजाय 10 मान लिया।"
+        },
+        "2": {
+          "en": "Miscalculates 15% of 240 as 40 instead of 36.",
+          "hi": "240 का 15% 36 के बजाय 40 निकाल लिया।"
+        },
+        "3": {
+          "en": "Takes 25% of 80 as 30 instead of 20.",
+          "hi": "80 का 25% 20 के बजाय 30 मान लिया।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-29",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "What is the simple interest on ₹5,000 for 3 years at 8% per annum?",
+        "hi": "₹5,000 पर 3 वर्ष के लिए 8% वार्षिक दर से साधारण ब्याज कितना होगा?"
+      },
+      "optionsJson": [
+        { "en": "₹400", "hi": "₹400" },
+        { "en": "₹800", "hi": "₹800" },
+        { "en": "₹1,200", "hi": "₹1,200" },
+        { "en": "₹1,500", "hi": "₹1,500" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "SI = (P × R × T) / 100 = (5000 × 8 × 3) / 100 = ₹1,200.",
+        "hi": "साधारण ब्याज = (मूलधन × दर × समय) / 100 = (5000 × 8 × 3) / 100 = ₹1,200।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "This is the interest for only 1 year (₹5,000 × 8%).",
+          "hi": "यह केवल 1 वर्ष का ब्याज (₹5,000 का 8%) है।"
+        },
+        "1": {
+          "en": "This is the interest for 2 years, not 3 years.",
+          "hi": "यह 2 वर्ष का ब्याज है, 3 वर्ष का नहीं।"
+        },
+        "3": {
+          "en": "Uses a rate of 10% instead of 8%.",
+          "hi": "8% के बजाय 10% की दर ले ली।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-30",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "What is the mean of the numbers 4, 8, 12, 16 and 20?",
+        "hi": "संख्याओं 4, 8, 12, 16 और 20 का माध्य क्या है?"
+      },
+      "optionsJson": [
+        { "en": "10", "hi": "10" },
+        { "en": "14", "hi": "14" },
+        { "en": "16", "hi": "16" },
+        { "en": "12", "hi": "12" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Sum = 4 + 8 + 12 + 16 + 20 = 60. Mean = 60 ÷ 5 = 12.",
+        "hi": "योग = 4 + 8 + 12 + 16 + 20 = 60। माध्य = 60 ÷ 5 = 12।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Adds the numbers incorrectly, getting a sum of 50 instead of 60.",
+          "hi": "संख्याओं को गलत जोड़ा, 60 के बजाय योग 50 निकाल लिया।"
+        },
+        "1": {
+          "en": "Adds the numbers incorrectly, getting a sum of 70 instead of 60.",
+          "hi": "संख्याओं को गलत जोड़ा, 60 के बजाय योग 70 निकाल लिया।"
+        },
+        "2": {
+          "en": "Adds the numbers incorrectly, getting a sum of 80 instead of 60.",
+          "hi": "संख्याओं को गलत जोड़ा, 60 के बजाय योग 80 निकाल लिया।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-31",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Solve for x: 4x − 9 = 15",
+        "hi": "x के लिए हल करें: 4x − 9 = 15"
+      },
+      "optionsJson": [
+        { "en": "4", "hi": "4" },
+        { "en": "6", "hi": "6" },
+        { "en": "8", "hi": "8" },
+        { "en": "24", "hi": "24" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Add 9 to both sides: 4x = 24. Divide by 4: x = 6.",
+        "hi": "दोनों पक्षों में 9 जोड़ें: 4x = 24। 4 से भाग दें: x = 6।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Makes an arithmetic slip while adding 9 to 15 (gets 16 instead of 24).",
+          "hi": "15 में 9 जोड़ने में गणना की भूल की (24 के बजाय 16 प्राप्त किया)।"
+        },
+        "2": {
+          "en": "Makes an arithmetic slip while adding 9 to 15 (gets 32 on the right side instead of 24).",
+          "hi": "15 में 9 जोड़ने में गणना की भूल की (24 के बजाय 32 प्राप्त किया)।"
+        },
+        "3": {
+          "en": "Finds 4x = 24 but forgets to divide by 4.",
+          "hi": "4x = 24 तो निकाला, पर 4 से भाग देना भूल गया।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-32",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "A trader sells an article for ₹1,260 and earns a profit of 12.5%. What is the cost price of the article?",
+        "hi": "एक व्यापारी एक वस्तु को ₹1,260 में बेचकर 12.5% का लाभ कमाता है। वस्तु का क्रय मूल्य कितना है?"
+      },
+      "optionsJson": [
+        { "en": "₹1,102.50", "hi": "₹1,102.50" },
+        { "en": "₹1,200", "hi": "₹1,200" },
+        { "en": "₹1,120", "hi": "₹1,120" },
+        { "en": "₹1,417.50", "hi": "₹1,417.50" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "SP = CP × (1 + 12.5/100) = CP × 9/8. So CP = 1260 × 8/9 = ₹1,120. Check: 12.5% of 1,120 = ₹140, and 1,120 + 140 = 1,260.",
+        "hi": "विक्रय मूल्य = क्रय मूल्य × (1 + 12.5/100) = क्रय मूल्य × 9/8। अतः क्रय मूल्य = 1260 × 8/9 = ₹1,120। जाँच: 1,120 का 12.5% = ₹140 और 1,120 + 140 = 1,260।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Subtracts 12.5% of the selling price from the selling price, but the profit is a percentage of the cost price, not the selling price.",
+          "hi": "विक्रय मूल्य में से उसका 12.5% घटा दिया, जबकि लाभ क्रय मूल्य पर निकाला जाता है, विक्रय मूल्य पर नहीं।"
+        },
+        "1": {
+          "en": "Does not satisfy the data: 12.5% of 1,200 is ₹150, which gives a selling price of ₹1,350, not ₹1,260.",
+          "hi": "यह आँकड़ों से मेल नहीं खाता: 1,200 का 12.5% = ₹150 होता है, जिससे विक्रय मूल्य ₹1,350 आता है, ₹1,260 नहीं।"
+        },
+        "3": {
+          "en": "Multiplies the selling price by 1.125 instead of dividing by it.",
+          "hi": "विक्रय मूल्य को 1.125 से भाग देने के बजाय गुणा कर दिया।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-33",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "The price of a television is first increased by 20%, and then the new price is decreased by 20%. What is the net change in the original price?",
+        "hi": "एक टेलीविज़न की कीमत पहले 20% बढ़ाई जाती है और फिर नई कीमत में 20% की कमी की जाती है। मूल कीमत में कुल परिवर्तन कितना हुआ?"
+      },
+      "optionsJson": [
+        { "en": "4% decrease", "hi": "4% की कमी" },
+        { "en": "No change", "hi": "कोई परिवर्तन नहीं" },
+        { "en": "4% increase", "hi": "4% की वृद्धि" },
+        { "en": "2% decrease", "hi": "2% की कमी" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Let the original price be 100. After a 20% increase it is 120. A 20% decrease on 120 is 24, giving 96. The price falls from 100 to 96, a net decrease of 4%.",
+        "hi": "माना मूल कीमत 100 है। 20% वृद्धि के बाद यह 120 हो जाती है। 120 का 20% = 24 घटाने पर 96 मिलता है। कीमत 100 से घटकर 96 हुई, अर्थात कुल 4% की कमी।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Assumes +20% and −20% cancel, but the two percentages are taken on different bases (100 and 120).",
+          "hi": "मान लिया कि +20% और −20% एक-दूसरे को काट देते हैं, जबकि दोनों प्रतिशत अलग-अलग आधारों (100 और 120) पर निकाले गए हैं।"
+        },
+        "2": {
+          "en": "Gets the direction of the change wrong; the final price (96) is lower than the original (100).",
+          "hi": "परिवर्तन की दिशा गलत ली; अंतिम कीमत (96) मूल कीमत (100) से कम है।"
+        },
+        "3": {
+          "en": "Does not match the calculation: the final price is 96 per 100, which is a 4% fall, not 2%.",
+          "hi": "गणना से मेल नहीं खाता: प्रति 100 पर अंतिम कीमत 96 है, यानी 4% की कमी, 2% की नहीं।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-34",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Pipe A can fill an empty tank in 12 hours, and an outlet pipe C can empty the full tank in 20 hours. If both pipes are opened together when the tank is empty, in how many hours will the tank be full?",
+        "hi": "नल A एक खाली टंकी को 12 घंटे में भर सकता है और निकास नल C पूरी भरी टंकी को 20 घंटे में खाली कर सकता है। यदि टंकी खाली होने पर दोनों नल एक साथ खोल दिए जाएँ, तो टंकी कितने घंटे में भर जाएगी?"
+      },
+      "optionsJson": [
+        { "en": "8 hours", "hi": "8 घंटे" },
+        { "en": "16 hours", "hi": "16 घंटे" },
+        { "en": "32 hours", "hi": "32 घंटे" },
+        { "en": "30 hours", "hi": "30 घंटे" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "In one hour, A fills 1/12 of the tank and C empties 1/20. Net filling in one hour = 1/12 − 1/20 = (5 − 3)/60 = 1/30. So the tank is full in 30 hours.",
+        "hi": "एक घंटे में A टंकी का 1/12 भाग भरता है और C 1/20 भाग खाली करता है। एक घंटे में कुल भराव = 1/12 − 1/20 = (5 − 3)/60 = 1/30। अतः टंकी 30 घंटे में भर जाएगी।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Subtracts the times (20 − 12) instead of subtracting the rates of work.",
+          "hi": "कार्य की दरों को घटाने के बजाय समयों को घटा दिया (20 − 12)।"
+        },
+        "1": {
+          "en": "Takes the average of the two times, (12 + 20)/2, which has no meaning here.",
+          "hi": "दोनों समयों का औसत (12 + 20)/2 ले लिया, जिसका यहाँ कोई अर्थ नहीं है।"
+        },
+        "2": {
+          "en": "Adds the two times (12 + 20) instead of combining the rates of work.",
+          "hi": "कार्य की दरों को मिलाने के बजाय दोनों समयों को जोड़ दिया (12 + 20)।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-35",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "What is the difference between the compound interest and the simple interest on ₹8,000 for 2 years at 5% per annum (interest compounded annually)?",
+        "hi": "₹8,000 पर 2 वर्ष के लिए 5% वार्षिक दर से चक्रवृद्धि ब्याज (वार्षिक संयोजन) और साधारण ब्याज का अंतर कितना है?"
+      },
+      "optionsJson": [
+        { "en": "₹10", "hi": "₹10" },
+        { "en": "₹20", "hi": "₹20" },
+        { "en": "₹40", "hi": "₹40" },
+        { "en": "₹400", "hi": "₹400" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "SI = 8000 × 5 × 2 / 100 = ₹800. Amount under CI = 8000 × (1.05)² = ₹8,820, so CI = 8820 − 8000 = ₹820. Difference = 820 − 800 = ₹20.",
+        "hi": "साधारण ब्याज = 8000 × 5 × 2 / 100 = ₹800। चक्रवृद्धि ब्याज के अनुसार मिश्रधन = 8000 × (1.05)² = ₹8,820, अतः चक्रवृद्धि ब्याज = 8820 − 8000 = ₹820। अंतर = 820 − 800 = ₹20।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Arithmetic slip: this is half of the actual difference.",
+          "hi": "गणना की भूल: यह वास्तविक अंतर का आधा है।"
+        },
+        "2": {
+          "en": "Decimal-place slip: uses 0.005 instead of (0.05)² = 0.0025 when computing P(r/100)².",
+          "hi": "दशमलव की भूल: P(r/100)² निकालते समय (0.05)² = 0.0025 के बजाय 0.005 ले लिया।"
+        },
+        "3": {
+          "en": "This is the interest for one year (8000 × 5%), not the difference between CI and SI.",
+          "hi": "यह एक वर्ष का ब्याज (8000 का 5%) है, चक्रवृद्धि और साधारण ब्याज का अंतर नहीं।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-36",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "The decimal 0.363636… (the digits 36 repeating forever) is equal to which fraction in lowest terms?",
+        "hi": "दशमलव 0.363636… (अंक 36 अनंत तक दोहराए जाते हैं) न्यूनतम पदों में किस भिन्न के बराबर है?"
+      },
+      "optionsJson": [
+        { "en": "4/11", "hi": "4/11" },
+        { "en": "9/25", "hi": "9/25" },
+        { "en": "1/3", "hi": "1/3" },
+        { "en": "7/20", "hi": "7/20" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Let x = 0.3636… Then 100x = 36.3636…. Subtracting, 99x = 36, so x = 36/99 = 4/11.",
+        "hi": "माना x = 0.3636… तब 100x = 36.3636…। घटाने पर 99x = 36, अतः x = 36/99 = 4/11।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "9/25 = 0.36 exactly, a terminating decimal; it ignores the repeating digits.",
+          "hi": "9/25 = 0.36 ठीक-ठीक, एक सांत दशमलव है; यह दोहराए जाने वाले अंकों को अनदेखा करता है।"
+        },
+        "2": {
+          "en": "1/3 = 0.3333…, which is not equal to 0.3636….",
+          "hi": "1/3 = 0.3333…, जो 0.3636… के बराबर नहीं है।"
+        },
+        "3": {
+          "en": "7/20 = 0.35, which is not equal to 0.3636….",
+          "hi": "7/20 = 0.35, जो 0.3636… के बराबर नहीं है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-37",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "In an election between two candidates, every valid vote was cast for one of the two. The winner got 55% of the valid votes and won by 1,200 votes. How many valid votes were cast in total?",
+        "hi": "दो उम्मीदवारों के बीच एक चुनाव में प्रत्येक वैध मत दोनों में से किसी एक को दिया गया। विजेता को वैध मतों का 55% मिला और वह 1,200 मतों से जीता। कुल कितने वैध मत डाले गए?"
+      },
+      "optionsJson": [
+        { "en": "2,400", "hi": "2,400" },
+        { "en": "10,000", "hi": "10,000" },
+        { "en": "12,000", "hi": "12,000" },
+        { "en": "24,000", "hi": "24,000" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The loser got 100% − 55% = 45%. The winning margin = 55% − 45% = 10% of the total valid votes. So 10% of total = 1,200, giving total = 12,000.",
+        "hi": "हारने वाले को 100% − 55% = 45% मत मिले। जीत का अंतर = 55% − 45% = कुल वैध मतों का 10%। अतः कुल का 10% = 1,200, जिससे कुल मत = 12,000।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Does not fit the data: 10% of 2,400 is only 240, not 1,200.",
+          "hi": "आँकड़ों से मेल नहीं खाता: 2,400 का 10% केवल 240 है, 1,200 नहीं।"
+        },
+        "1": {
+          "en": "Does not fit the data: 10% of 10,000 is 1,000, not 1,200.",
+          "hi": "आँकड़ों से मेल नहीं खाता: 10,000 का 10% = 1,000 है, 1,200 नहीं।"
+        },
+        "3": {
+          "en": "Treats the margin as 5% (55% − 50%) of the total instead of 10% (55% − 45%).",
+          "hi": "अंतर को कुल का 10% (55% − 45%) मानने के बजाय 5% (55% − 50%) मान लिया।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-38",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "If the cost price of 20 articles is equal to the selling price of 16 articles, what is the profit percentage?",
+        "hi": "यदि 20 वस्तुओं का क्रय मूल्य 16 वस्तुओं के विक्रय मूल्य के बराबर है, तो लाभ प्रतिशत कितना है?"
+      },
+      "optionsJson": [
+        { "en": "20%", "hi": "20%" },
+        { "en": "28%", "hi": "28%" },
+        { "en": "30%", "hi": "30%" },
+        { "en": "25%", "hi": "25%" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Let the cost price of each article be ₹1. Then the selling price of 16 articles = cost of 20 articles = ₹20, so the selling price of one article = 20/16 = ₹1.25. Profit = ₹0.25 on a cost of ₹1, i.e. 25%.",
+        "hi": "माना प्रत्येक वस्तु का क्रय मूल्य ₹1 है। तब 16 वस्तुओं का विक्रय मूल्य = 20 वस्तुओं का क्रय मूल्य = ₹20, अतः एक वस्तु का विक्रय मूल्य = 20/16 = ₹1.25। ₹1 की लागत पर लाभ ₹0.25 है, अर्थात 25%।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Divides the gain of 4 articles by 20 (the cost basis of the larger lot) instead of by 16, the number actually sold.",
+          "hi": "4 वस्तुओं के लाभ को वास्तव में बिकी 16 वस्तुओं से भाग देने के बजाय 20 से भाग दे दिया।"
+        },
+        "1": {
+          "en": "Does not follow from the data: a selling price of ₹1.28 per article would need 20 articles' cost to equal 15.6 articles' selling price.",
+          "hi": "आँकड़ों से नहीं निकलता: प्रति वस्तु ₹1.28 विक्रय मूल्य होने पर 20 वस्तुओं का क्रय मूल्य 15.6 वस्तुओं के विक्रय मूल्य के बराबर होता।"
+        },
+        "2": {
+          "en": "Does not follow from the data: a 30% profit would make 20 articles' cost equal to about 15.4 articles' selling price, not 16.",
+          "hi": "आँकड़ों से नहीं निकलता: 30% लाभ पर 20 वस्तुओं का क्रय मूल्य लगभग 15.4 वस्तुओं के विक्रय मूल्य के बराबर होता, 16 के नहीं।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-39",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "A man drives 60 km from his town to a city at 30 km/h and returns along the same road at 20 km/h. What is his average speed for the whole journey?",
+        "hi": "एक व्यक्ति अपने कस्बे से एक शहर तक 60 किमी की दूरी 30 किमी/घंटा की चाल से तय करता है और उसी सड़क से 20 किमी/घंटा की चाल से लौटता है। पूरी यात्रा में उसकी औसत चाल क्या है?"
+      },
+      "optionsJson": [
+        { "en": "25 km/h", "hi": "25 किमी/घंटा" },
+        { "en": "24 km/h", "hi": "24 किमी/घंटा" },
+        { "en": "50 km/h", "hi": "50 किमी/घंटा" },
+        { "en": "12 km/h", "hi": "12 किमी/घंटा" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Time going = 60/30 = 2 hours. Time returning = 60/20 = 3 hours. Total distance = 120 km, total time = 5 hours. Average speed = 120/5 = 24 km/h.",
+        "hi": "जाने में समय = 60/30 = 2 घंटे। लौटने में समय = 60/20 = 3 घंटे। कुल दूरी = 120 किमी, कुल समय = 5 घंटे। औसत चाल = 120/5 = 24 किमी/घंटा।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Takes the simple average of 30 and 20, but the two legs take different times.",
+          "hi": "30 और 20 का साधारण औसत ले लिया, जबकि दोनों चरणों में समय अलग-अलग लगता है।"
+        },
+        "2": {
+          "en": "Adds the two speeds instead of dividing total distance by total time.",
+          "hi": "कुल दूरी को कुल समय से भाग देने के बजाय दोनों चालों को जोड़ दिया।"
+        },
+        "3": {
+          "en": "Divides only the one-way distance (60 km) by the total time (5 hours).",
+          "hi": "केवल एक तरफ़ की दूरी (60 किमी) को कुल समय (5 घंटे) से भाग दे दिया।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-40",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "If x + y = 10 and xy = 21, what is the value of x² + y²?",
+        "hi": "यदि x + y = 10 और xy = 21 है, तो x² + y² का मान क्या है?"
+      },
+      "optionsJson": [
+        { "en": "58", "hi": "58" },
+        { "en": "79", "hi": "79" },
+        { "en": "100", "hi": "100" },
+        { "en": "142", "hi": "142" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Using (x + y)² = x² + y² + 2xy: 100 = x² + y² + 42, so x² + y² = 100 − 42 = 58.",
+        "hi": "(x + y)² = x² + y² + 2xy का उपयोग करने पर: 100 = x² + y² + 42, अतः x² + y² = 100 − 42 = 58।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Subtracts xy (21) instead of 2xy (42) from (x + y)².",
+          "hi": "(x + y)² में से 2xy (42) घटाने के बजाय xy (21) घटा दिया।"
+        },
+        "2": {
+          "en": "Gives (x + y)² itself and forgets to subtract 2xy.",
+          "hi": "(x + y)² का ही मान दे दिया और 2xy घटाना भूल गया।"
+        },
+        "3": {
+          "en": "Adds 2xy to (x + y)² instead of subtracting it.",
+          "hi": "(x + y)² में से 2xy घटाने के बजाय जोड़ दिया।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-41",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "The three angles of a triangle are (2x + 10)°, (3x − 5)° and (x + 25)°. What is the measure of the largest angle?",
+        "hi": "एक त्रिभुज के तीनों कोण (2x + 10)°, (3x − 5)° और (x + 25)° हैं। सबसे बड़े कोण की माप क्या है?"
+      },
+      "optionsJson": [
+        { "en": "50°", "hi": "50°" },
+        { "en": "60°", "hi": "60°" },
+        { "en": "70°", "hi": "70°" },
+        { "en": "75°", "hi": "75°" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Angle sum: (2x + 10) + (3x − 5) + (x + 25) = 180, so 6x + 30 = 180 and x = 25. The angles are 60°, 70° and 50°. The largest is 70°.",
+        "hi": "कोणों का योग: (2x + 10) + (3x − 5) + (x + 25) = 180, अतः 6x + 30 = 180 और x = 25। कोण 60°, 70° और 50° हैं। सबसे बड़ा कोण 70° है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "This is the smallest angle (x + 25 = 50°), not the largest.",
+          "hi": "यह सबसे छोटा कोण (x + 25 = 50°) है, सबसे बड़ा नहीं।"
+        },
+        "1": {
+          "en": "This is the middle angle (2x + 10 = 60°), not the largest.",
+          "hi": "यह मध्य कोण (2x + 10 = 60°) है, सबसे बड़ा नहीं।"
+        },
+        "3": {
+          "en": "Computes 3x = 75 and forgets to subtract 5 from the angle (3x − 5).",
+          "hi": "3x = 75 निकाला और कोण (3x − 5) में से 5 घटाना भूल गया।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-42",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "A cuboid has length 8 cm, breadth 6 cm and height 5 cm. What is its total surface area?",
+        "hi": "एक घनाभ की लंबाई 8 सेमी, चौड़ाई 6 सेमी और ऊँचाई 5 सेमी है। इसका संपूर्ण पृष्ठीय क्षेत्रफल क्या है?"
+      },
+      "optionsJson": [
+        { "en": "118 cm²", "hi": "118 सेमी²" },
+        { "en": "240 cm²", "hi": "240 सेमी²" },
+        { "en": "472 cm²", "hi": "472 सेमी²" },
+        { "en": "236 cm²", "hi": "236 सेमी²" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Total surface area = 2(lb + bh + hl) = 2(8×6 + 6×5 + 5×8) = 2(48 + 30 + 40) = 2 × 118 = 236 cm².",
+        "hi": "संपूर्ण पृष्ठीय क्षेत्रफल = 2(lb + bh + hl) = 2(8×6 + 6×5 + 5×8) = 2(48 + 30 + 40) = 2 × 118 = 236 सेमी²।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Finds lb + bh + hl = 118 but forgets to multiply by 2.",
+          "hi": "lb + bh + hl = 118 निकाला पर 2 से गुणा करना भूल गया।"
+        },
+        "1": {
+          "en": "This is the volume (8 × 6 × 5 = 240 cm³), not the surface area.",
+          "hi": "यह आयतन (8 × 6 × 5 = 240 सेमी³) है, पृष्ठीय क्षेत्रफल नहीं।"
+        },
+        "2": {
+          "en": "Multiplies by 4 instead of 2.",
+          "hi": "2 के बजाय 4 से गुणा कर दिया।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-43",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "What are the coordinates of the midpoint of the line segment joining A(−3, 7) and B(5, 1)?",
+        "hi": "A(−3, 7) और B(5, 1) को मिलाने वाले रेखाखंड के मध्य-बिंदु के निर्देशांक क्या हैं?"
+      },
+      "optionsJson": [
+        { "en": "(1, 4)", "hi": "(1, 4)" },
+        { "en": "(4, 1)", "hi": "(4, 1)" },
+        { "en": "(2, 8)", "hi": "(2, 8)" },
+        { "en": "(−4, 3)", "hi": "(−4, 3)" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Midpoint = ((x₁ + x₂)/2, (y₁ + y₂)/2) = ((−3 + 5)/2, (7 + 1)/2) = (1, 4).",
+        "hi": "मध्य-बिंदु = ((x₁ + x₂)/2, (y₁ + y₂)/2) = ((−3 + 5)/2, (7 + 1)/2) = (1, 4)।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Swaps the x and y coordinates of the midpoint.",
+          "hi": "मध्य-बिंदु के x और y निर्देशांक आपस में बदल दिए।"
+        },
+        "2": {
+          "en": "Adds the coordinates but forgets to divide by 2.",
+          "hi": "निर्देशांकों को जोड़ा पर 2 से भाग देना भूल गया।"
+        },
+        "3": {
+          "en": "Takes half of the differences of the coordinates instead of half of their sums.",
+          "hi": "निर्देशांकों के योग का आधा लेने के बजाय उनके अंतर का आधा ले लिया।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-44",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "A bag contains 5 red balls, 3 blue balls and 2 green balls. One ball is drawn at random. What is the probability that it is not blue?",
+        "hi": "एक थैले में 5 लाल गेंदें, 3 नीली गेंदें और 2 हरी गेंदें हैं। एक गेंद यादृच्छिक रूप से निकाली जाती है। उसके नीली न होने की प्रायिकता क्या है?"
+      },
+      "optionsJson": [
+        { "en": "3/10", "hi": "3/10" },
+        { "en": "7/10", "hi": "7/10" },
+        { "en": "1/2", "hi": "1/2" },
+        { "en": "4/5", "hi": "4/5" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Total balls = 5 + 3 + 2 = 10. Balls that are not blue = 5 + 2 = 7. So P(not blue) = 7/10 (equivalently 1 − 3/10).",
+        "hi": "कुल गेंदें = 5 + 3 + 2 = 10। नीली न होने वाली गेंदें = 5 + 2 = 7। अतः P(नीली नहीं) = 7/10 (या 1 − 3/10)।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "This is the probability that the ball is blue, not that it is not blue.",
+          "hi": "यह गेंद के नीली होने की प्रायिकता है, नीली न होने की नहीं।"
+        },
+        "2": {
+          "en": "This is the probability that the ball is red (5/10).",
+          "hi": "यह गेंद के लाल होने की प्रायिकता (5/10) है।"
+        },
+        "3": {
+          "en": "This is the probability that the ball is not green (8/10).",
+          "hi": "यह गेंद के हरी न होने की प्रायिकता (8/10) है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-45",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "A vessel contains 40 litres of pure milk. 4 litres of milk are taken out and replaced with water. Then 4 litres of the mixture are taken out and again replaced with water. How much pure milk is now left in the vessel?",
+        "hi": "एक बर्तन में 40 लीटर शुद्ध दूध है। उसमें से 4 लीटर दूध निकालकर उसकी जगह पानी मिला दिया जाता है। फिर मिश्रण में से 4 लीटर निकालकर पुनः उसकी जगह पानी मिला दिया जाता है। अब बर्तन में कितना शुद्ध दूध बचा है?"
+      },
+      "optionsJson": [
+        { "en": "32 litres", "hi": "32 लीटर" },
+        { "en": "36 litres", "hi": "36 लीटर" },
+        { "en": "32.4 litres", "hi": "32.4 लीटर" },
+        { "en": "30 litres", "hi": "30 लीटर" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Each time, 4 out of 40 litres (one-tenth) of the contents is removed, so the milk left is multiplied by 9/10. Milk left = 40 × (9/10) × (9/10) = 32.4 litres. Check: after the first step, milk = 36 L; the second draw removes 4 L of mixture containing 3.6 L milk, leaving 36 − 3.6 = 32.4 L.",
+        "hi": "हर बार 40 लीटर में से 4 लीटर (दसवाँ भाग) निकाला जाता है, इसलिए बचा हुआ दूध 9/10 गुना हो जाता है। बचा दूध = 40 × (9/10) × (9/10) = 32.4 लीटर। जाँच: पहले चरण के बाद दूध = 36 लीटर; दूसरी बार निकाले गए 4 लीटर मिश्रण में 3.6 लीटर दूध है, अतः बचा दूध = 36 − 3.6 = 32.4 लीटर।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Assumes 4 litres of pure milk is removed each time (40 − 4 − 4), but the second time the mixture removed contains water too.",
+          "hi": "मान लिया कि हर बार 4 लीटर शुद्ध दूध निकला (40 − 4 − 4), जबकि दूसरी बार निकाले गए मिश्रण में पानी भी है।"
+        },
+        "1": {
+          "en": "This is the milk left after only the first operation (40 − 4).",
+          "hi": "यह केवल पहली प्रक्रिया के बाद बचा दूध (40 − 4) है।"
+        },
+        "3": {
+          "en": "Does not follow from the process: after two operations the milk is 32.4 L, not 30 L.",
+          "hi": "प्रक्रिया से नहीं निकलता: दो प्रक्रियाओं के बाद दूध 32.4 लीटर बचता है, 30 लीटर नहीं।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-46",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "A and B together can complete a piece of work in 12 days, B and C together in 15 days, and A and C together in 20 days. In how many days can A alone complete the work?",
+        "hi": "A और B मिलकर एक कार्य को 12 दिन में, B और C मिलकर 15 दिन में तथा A और C मिलकर 20 दिन में पूरा कर सकते हैं। A अकेला उस कार्य को कितने दिन में पूरा कर सकता है?"
+      },
+      "optionsJson": [
+        { "en": "20 days", "hi": "20 दिन" },
+        { "en": "60 days", "hi": "60 दिन" },
+        { "en": "24 days", "hi": "24 दिन" },
+        { "en": "30 days", "hi": "30 दिन" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Adding the three daily rates: 2(A + B + C) = 1/12 + 1/15 + 1/20 = (5 + 4 + 3)/60 = 1/5, so A + B + C = 1/10 per day. Then A = (A + B + C) − (B + C) = 1/10 − 1/15 = 1/30. So A alone takes 30 days.",
+        "hi": "तीनों की दैनिक कार्य-दरों को जोड़ने पर: 2(A + B + C) = 1/12 + 1/15 + 1/20 = (5 + 4 + 3)/60 = 1/5, अतः A + B + C = 1/10 प्रतिदिन। तब A = (A + B + C) − (B + C) = 1/10 − 1/15 = 1/30। अतः A अकेला 30 दिन में कार्य पूरा करेगा।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "This is the time B alone would take (1/10 − 1/20 = 1/20 per day), not A.",
+          "hi": "यह B के अकेले लगने वाला समय (1/10 − 1/20 = 1/20 प्रतिदिन) है, A का नहीं।"
+        },
+        "1": {
+          "en": "This is the time C alone would take (1/10 − 1/12 = 1/60 per day), not A.",
+          "hi": "यह C के अकेले लगने वाला समय (1/10 − 1/12 = 1/60 प्रतिदिन) है, A का नहीं।"
+        },
+        "2": {
+          "en": "Does not satisfy the data: if A = 1/24 per day, then A + B = 1/12 gives B = 1/24 and A + C = 1/20 gives C = 1/120, so B + C = 1/20, not the given 1/15.",
+          "hi": "आँकड़ों से मेल नहीं खाता: A की दर 1/24 प्रतिदिन लेने पर A + B = 1/12 से B = 1/24 और A + C = 1/20 से C = 1/120 आता है, जिससे B + C = 1/20 होता है, दिया गया 1/15 नहीं।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-47",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "A shopkeeper sells an article at a loss of 10%. Had he sold it for ₹180 more, he would have gained 5%. What is the cost price of the article?",
+        "hi": "एक दुकानदार एक वस्तु को 10% हानि पर बेचता है। यदि वह उसे ₹180 अधिक में बेचता, तो उसे 5% लाभ होता। वस्तु का क्रय मूल्य कितना है?"
+      },
+      "optionsJson": [
+        { "en": "₹1,200", "hi": "₹1,200" },
+        { "en": "₹1,500", "hi": "₹1,500" },
+        { "en": "₹1,800", "hi": "₹1,800" },
+        { "en": "₹3,600", "hi": "₹3,600" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Selling at a 10% loss gives 0.90 × CP; selling at a 5% gain gives 1.05 × CP. The difference is 1.05 CP − 0.90 CP = 0.15 CP = ₹180, so CP = 180 / 0.15 = ₹1,200.",
+        "hi": "10% हानि पर विक्रय मूल्य 0.90 × क्रय मूल्य और 5% लाभ पर 1.05 × क्रय मूल्य होता है। अंतर = 1.05 क्र.मू. − 0.90 क्र.मू. = 0.15 क्र.मू. = ₹180, अतः क्रय मूल्य = 180 / 0.15 = ₹1,200।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Does not satisfy the conditions: 15% of ₹1,500 is ₹225, not ₹180.",
+          "hi": "शर्तें पूरी नहीं होतीं: ₹1,500 का 15% = ₹225 होता है, ₹180 नहीं।"
+        },
+        "2": {
+          "en": "Treats ₹180 as 10% of the cost price, using only the loss percentage.",
+          "hi": "₹180 को क्रय मूल्य का 10% मान लिया, केवल हानि प्रतिशत का उपयोग किया।"
+        },
+        "3": {
+          "en": "Treats ₹180 as 5% of the cost price, using only the gain percentage.",
+          "hi": "₹180 को क्रय मूल्य का 5% मान लिया, केवल लाभ प्रतिशत का उपयोग किया।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-48",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "If x > 0 and x² + 1/x² = 14, what is the value of x³ + 1/x³?",
+        "hi": "यदि x > 0 और x² + 1/x² = 14 है, तो x³ + 1/x³ का मान क्या है?"
+      },
+      "optionsJson": [
+        { "en": "44", "hi": "44" },
+        { "en": "52", "hi": "52" },
+        { "en": "64", "hi": "64" },
+        { "en": "76", "hi": "76" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "(x + 1/x)² = x² + 1/x² + 2 = 16, and since x > 0, x + 1/x = 4. Then x³ + 1/x³ = (x + 1/x)³ − 3(x + 1/x) = 64 − 12 = 52.",
+        "hi": "(x + 1/x)² = x² + 1/x² + 2 = 16 और x > 0 होने से x + 1/x = 4। तब x³ + 1/x³ = (x + 1/x)³ − 3(x + 1/x) = 64 − 12 = 52।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Uses x³ + 1/x³ = (x + 1/x)(x² + 1/x² − 1) but subtracts 3 instead of 1, getting 4 × 11 = 44 instead of 4 × 13 = 52.",
+          "hi": "x³ + 1/x³ = (x + 1/x)(x² + 1/x² − 1) का उपयोग किया पर 1 के बजाय 3 घटा दिया, जिससे 4 × 13 = 52 के बजाय 4 × 11 = 44 मिला।"
+        },
+        "2": {
+          "en": "Uses (x + 1/x)³ = 64 and forgets to subtract 3(x + 1/x) = 12.",
+          "hi": "(x + 1/x)³ = 64 लिया और 3(x + 1/x) = 12 घटाना भूल गया।"
+        },
+        "3": {
+          "en": "Adds 3(x + 1/x) = 12 to 64 instead of subtracting it.",
+          "hi": "64 में से 3(x + 1/x) = 12 घटाने के बजाय जोड़ दिया।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-49",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "A hemispherical bowl of internal radius 6 cm is completely filled with water. The water is poured into a cylindrical vessel of base radius 3 cm. What is the height of the water in the cylindrical vessel?",
+        "hi": "आंतरिक त्रिज्या 6 सेमी का एक अर्धगोलाकार कटोरा पानी से पूरा भरा है। इस पानी को आधार त्रिज्या 3 सेमी वाले एक बेलनाकार बर्तन में उँडेल दिया जाता है। बेलनाकार बर्तन में पानी की ऊँचाई कितनी होगी?"
+      },
+      "optionsJson": [
+        { "en": "8 cm", "hi": "8 सेमी" },
+        { "en": "12 cm", "hi": "12 सेमी" },
+        { "en": "16 cm", "hi": "16 सेमी" },
+        { "en": "24 cm", "hi": "24 सेमी" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Volume of the hemisphere = (2/3)πr³ = (2/3)π(6)³ = 144π cm³. Volume of water in the cylinder = π(3)²h = 9πh. Equating, 9πh = 144π, so h = 16 cm.",
+        "hi": "अर्धगोले का आयतन = (2/3)πr³ = (2/3)π(6)³ = 144π सेमी³। बेलन में पानी का आयतन = π(3)²h = 9πh। बराबर करने पर 9πh = 144π, अतः h = 16 सेमी।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Uses only half of the hemisphere's volume (72π) while equating.",
+          "hi": "बराबर करते समय अर्धगोले के आयतन का केवल आधा (72π) लिया।"
+        },
+        "1": {
+          "en": "Does not follow from the volumes: 9π × 12 = 108π, which is not 144π.",
+          "hi": "आयतनों से नहीं निकलता: 9π × 12 = 108π होता है, जो 144π नहीं है।"
+        },
+        "3": {
+          "en": "Treats the bowl's volume as πr²h with h = 6 (216π) instead of (2/3)πr³ = 144π.",
+          "hi": "कटोरे का आयतन (2/3)πr³ = 144π के बजाय h = 6 लेकर πr²h (216π) मान लिया।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-50",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Five years ago, a father was 7 times as old as his son. Five years from now, the father will be 3 times as old as his son. What is the son's present age?",
+        "hi": "पाँच वर्ष पहले एक पिता की आयु अपने पुत्र की आयु की 7 गुनी थी। अब से पाँच वर्ष बाद पिता की आयु पुत्र की आयु की 3 गुनी होगी। पुत्र की वर्तमान आयु क्या है?"
+      },
+      "optionsJson": [
+        { "en": "8 years", "hi": "8 वर्ष" },
+        { "en": "12 years", "hi": "12 वर्ष" },
+        { "en": "15 years", "hi": "15 वर्ष" },
+        { "en": "10 years", "hi": "10 वर्ष" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Let the father's and son's present ages be F and S. Then F − 5 = 7(S − 5), so F = 7S − 30. Also F + 5 = 3(S + 5), so F = 3S + 10. Equating, 7S − 30 = 3S + 10, so 4S = 40 and S = 10. (Father is 40; check: 35 = 7 × 5 and 45 = 3 × 15.)",
+        "hi": "माना पिता और पुत्र की वर्तमान आयु F और S है। तब F − 5 = 7(S − 5), अतः F = 7S − 30। साथ ही F + 5 = 3(S + 5), अतः F = 3S + 10। बराबर करने पर 7S − 30 = 3S + 10, अतः 4S = 40 और S = 10। (पिता की आयु 40 वर्ष है; जाँच: 35 = 7 × 5 और 45 = 3 × 15।)"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Does not satisfy the conditions: with S = 8, the first condition gives F = 26, but then F + 5 = 31 is not 3 × 13 = 39.",
+          "hi": "शर्तें पूरी नहीं होतीं: S = 8 लेने पर पहली शर्त से F = 26 आता है, पर तब F + 5 = 31 है, 3 × 13 = 39 नहीं।"
+        },
+        "1": {
+          "en": "Does not satisfy the conditions: with S = 12, the first condition gives F = 54, but then F + 5 = 59 is not 3 × 17 = 51.",
+          "hi": "शर्तें पूरी नहीं होतीं: S = 12 लेने पर पहली शर्त से F = 54 आता है, पर तब F + 5 = 59 है, 3 × 17 = 51 नहीं।"
+        },
+        "2": {
+          "en": "Does not satisfy the conditions: with S = 15, the first condition gives F = 75, but then F + 5 = 80 is not 3 × 20 = 60.",
+          "hi": "शर्तें पूरी नहीं होतीं: S = 15 लेने पर पहली शर्त से F = 75 आता है, पर तब F + 5 = 80 है, 3 × 20 = 60 नहीं।"
+        }
+      }
+    }
+  ]
+}

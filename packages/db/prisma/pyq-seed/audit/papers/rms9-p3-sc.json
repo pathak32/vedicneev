@@ -1,0 +1,484 @@
+{
+  "examType": "RMS",
+  "classLevel": 9,
+  "paperNumber": 3,
+  "sectionKey": "science",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "rms9-p3-sc-01",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "A car travels at a constant speed of 72 km/h. What is its speed in m/s?", "hi": "एक कार 72 किमी/घंटा की स्थिर चाल से चल रही है। m/s में इसकी चाल कितनी है?" },
+      "optionsJson": [
+        { "en": "10 m/s", "hi": "10 m/s" },
+        { "en": "20 m/s", "hi": "20 m/s" },
+        { "en": "25 m/s", "hi": "25 m/s" },
+        { "en": "36 m/s", "hi": "36 m/s" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "To convert km/h to m/s, multiply by 1000/3600 = 5/18. So 72 × 5/18 = 20 m/s.", "hi": "किमी/घंटा को m/s में बदलने के लिए 1000/3600 = 5/18 से गुणा करते हैं। इसलिए 72 × 5/18 = 20 m/s।" },
+      "distractorAnalysis": {
+        "0": { "en": "This comes from dividing 72 by 7.2 instead of by 3.6.", "hi": "यह 72 को 3.6 की जगह 7.2 से भाग देने पर आता है।" },
+        "2": { "en": "25 m/s corresponds to 90 km/h, not 72 km/h.", "hi": "25 m/s का मान 90 किमी/घंटा के बराबर है, 72 किमी/घंटा के नहीं।" },
+        "3": { "en": "This results from simply halving 72, which is not the correct conversion factor.", "hi": "यह 72 को केवल आधा करने से आता है, जो सही परिवर्तन गुणांक नहीं है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-sc-02",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": { "en": "A ball is thrown vertically upward with a speed of 20 m/s and returns to the thrower's hand. Taking g = 10 m/s² and ignoring air resistance, what is the total time the ball stays in the air?", "hi": "एक गेंद को 20 m/s की चाल से ऊर्ध्वाधर ऊपर की ओर फेंका जाता है और वह फेंकने वाले के हाथ में लौट आती है। g = 10 m/s² लेते हुए और वायु प्रतिरोध की उपेक्षा करते हुए, गेंद कुल कितने समय तक हवा में रहती है?" },
+      "optionsJson": [
+        { "en": "2 s", "hi": "2 s" },
+        { "en": "10 s", "hi": "10 s" },
+        { "en": "4 s", "hi": "4 s" },
+        { "en": "8 s", "hi": "8 s" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "At the top the speed becomes zero, so time to rise t = v/g = 20/10 = 2 s. The fall takes the same time, so the total time of flight is 2 × 2 = 4 s.", "hi": "सबसे ऊँचे बिंदु पर चाल शून्य हो जाती है, इसलिए ऊपर जाने का समय t = v/g = 20/10 = 2 s है। नीचे आने में भी उतना ही समय लगता है, अतः कुल उड़ान समय 2 × 2 = 4 s है।" },
+      "distractorAnalysis": {
+        "0": { "en": "2 s is only the time taken to reach the highest point; the return trip is not counted.", "hi": "2 s केवल सबसे ऊँचे बिंदु तक पहुँचने का समय है; वापसी का समय नहीं जोड़ा गया है।" },
+        "1": { "en": "This comes from wrongly dividing the speed 20 by 2 instead of by g = 10.", "hi": "यह चाल 20 को g = 10 से भाग देने की जगह 2 से भाग देने की गलती से आता है।" },
+        "3": { "en": "8 s doubles the correct total time by counting the rise and fall twice over.", "hi": "8 s सही कुल समय का दोगुना है, जिसमें चढ़ने और गिरने का समय दो बार गिन लिया गया है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-sc-03",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A constant force of 20 N acts for 3 s on a 4 kg block that is initially at rest on a smooth horizontal surface. What is the speed of the block at the end of 3 s?", "hi": "एक चिकनी क्षैतिज सतह पर विराम में रखे 4 kg के गुटके पर 20 N का स्थिर बल 3 s तक लगता है। 3 s के अंत में गुटके की चाल कितनी होगी?" },
+      "optionsJson": [
+        { "en": "15 m/s", "hi": "15 m/s" },
+        { "en": "5 m/s", "hi": "5 m/s" },
+        { "en": "12 m/s", "hi": "12 m/s" },
+        { "en": "60 m/s", "hi": "60 m/s" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Acceleration a = F/m = 20/4 = 5 m/s². Starting from rest, v = at = 5 × 3 = 15 m/s.", "hi": "त्वरण a = F/m = 20/4 = 5 m/s²। विराम से शुरू करने पर v = at = 5 × 3 = 15 m/s।" },
+      "distractorAnalysis": {
+        "1": { "en": "5 m/s is just the acceleration; it was not multiplied by the time of 3 s.", "hi": "5 m/s केवल त्वरण है; इसे 3 s के समय से गुणा नहीं किया गया।" },
+        "2": { "en": "12 m/s comes from multiplying mass by time (4 × 3), which has no physical meaning here.", "hi": "12 m/s द्रव्यमान और समय के गुणनफल (4 × 3) से आता है, जिसका यहाँ कोई भौतिक अर्थ नहीं है।" },
+        "3": { "en": "60 m/s comes from multiplying force by time without dividing by the mass.", "hi": "60 m/s बल और समय को गुणा करने से आता है, जिसमें द्रव्यमान से भाग नहीं दिया गया।" }
+      }
+    },
+    {
+      "key": "rms9-p3-sc-04",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "A swimmer pushes the water backward with her hands and feet and moves forward. Which law of motion explains this?", "hi": "एक तैराक अपने हाथों और पैरों से पानी को पीछे की ओर धकेलती है और आगे बढ़ती है। इसे गति का कौन-सा नियम समझाता है?" },
+      "optionsJson": [
+        { "en": "Newton's first law of motion", "hi": "न्यूटन का गति का पहला नियम" },
+        { "en": "Newton's second law of motion", "hi": "न्यूटन का गति का दूसरा नियम" },
+        { "en": "Law of universal gravitation", "hi": "सार्वत्रिक गुरुत्वाकर्षण का नियम" },
+        { "en": "Newton's third law of motion", "hi": "न्यूटन का गति का तीसरा नियम" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "The swimmer pushes the water backward (action) and the water pushes her forward with an equal and opposite force (reaction). This is Newton's third law.", "hi": "तैराक पानी को पीछे धकेलती है (क्रिया) और पानी उसे बराबर और विपरीत बल से आगे धकेलता है (प्रतिक्रिया)। यह न्यूटन का तीसरा नियम है।" },
+      "distractorAnalysis": {
+        "0": { "en": "The first law deals with inertia and balanced forces, not with action-reaction pairs.", "hi": "पहला नियम जड़त्व और संतुलित बलों से संबंधित है, क्रिया-प्रतिक्रिया युग्मों से नहीं।" },
+        "1": { "en": "The second law relates force, mass and acceleration; it does not explain the push-back pair of forces.", "hi": "दूसरा नियम बल, द्रव्यमान और त्वरण का संबंध बताता है; यह बलों के इस युग्म को नहीं समझाता।" },
+        "2": { "en": "Gravitation describes the attraction between masses and is not responsible for the swimmer moving forward.", "hi": "गुरुत्वाकर्षण द्रव्यमानों के बीच आकर्षण बताता है और तैराक के आगे बढ़ने का कारण नहीं है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-sc-05",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A boy of mass 40 kg climbs a staircase and reaches a height of 5 m. Taking g = 10 m/s², how much work does he do against gravity?", "hi": "40 kg द्रव्यमान का एक लड़का सीढ़ियाँ चढ़कर 5 m की ऊँचाई पर पहुँचता है। g = 10 m/s² लेने पर वह गुरुत्व के विरुद्ध कितना कार्य करता है?" },
+      "optionsJson": [
+        { "en": "200 J", "hi": "200 J" },
+        { "en": "2000 J", "hi": "2000 J" },
+        { "en": "20000 J", "hi": "20000 J" },
+        { "en": "400 J", "hi": "400 J" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Work done against gravity = mgh = 40 × 10 × 5 = 2000 J.", "hi": "गुरुत्व के विरुद्ध किया गया कार्य = mgh = 40 × 10 × 5 = 2000 J।" },
+      "distractorAnalysis": {
+        "0": { "en": "200 J is ten times too small, as if g were taken as 1 m/s² or the height as 0.5 m.", "hi": "200 J दस गुना कम है, जैसे g = 1 m/s² या ऊँचाई 0.5 m ले ली गई हो।" },
+        "2": { "en": "20000 J is ten times too large because of an extra factor of 10.", "hi": "20000 J दस गुना अधिक है क्योंकि 10 का एक अतिरिक्त गुणक लग गया है।" },
+        "3": { "en": "400 J is only mg (the weight, 40 × 10); the height was not multiplied.", "hi": "400 J केवल mg (भार, 40 × 10) है; ऊँचाई से गुणा नहीं किया गया।" }
+      }
+    },
+    {
+      "key": "rms9-p3-sc-06",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "A car of mass 1000 kg moving at 20 m/s is brought to rest by a constant braking force over a distance of 40 m. What is the magnitude of the braking force?", "hi": "20 m/s की चाल से चल रही 1000 kg द्रव्यमान की एक कार को स्थिर ब्रेकिंग बल द्वारा 40 m की दूरी में रोका जाता है। ब्रेकिंग बल का परिमाण कितना है?" },
+      "optionsJson": [
+        { "en": "500 N", "hi": "500 N" },
+        { "en": "2500 N", "hi": "2500 N" },
+        { "en": "5000 N", "hi": "5000 N" },
+        { "en": "10000 N", "hi": "10000 N" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Initial kinetic energy = ½ × 1000 × 20² = 200000 J. By the work-energy theorem, F × d = 200000 J, so F = 200000/40 = 5000 N.", "hi": "प्रारंभिक गतिज ऊर्जा = ½ × 1000 × 20² = 200000 J। कार्य-ऊर्जा प्रमेय से F × d = 200000 J, अतः F = 200000/40 = 5000 N।" },
+      "distractorAnalysis": {
+        "0": { "en": "500 N is ten times too small, from a slip in the kinetic energy calculation.", "hi": "500 N दस गुना कम है, जो गतिज ऊर्जा की गणना में हुई गलती से आता है।" },
+        "1": { "en": "2500 N comes from dividing by an extra factor of 2 (using ½ twice).", "hi": "2500 N में 2 से एक अतिरिक्त भाग (½ दो बार प्रयोग) हो गया है।" },
+        "3": { "en": "10000 N comes from using mv² = 400000 J as the work and forgetting the factor ½ in kinetic energy.", "hi": "10000 N में गतिज ऊर्जा का गुणक ½ भूलकर mv² = 400000 J को कार्य मान लिया गया है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-sc-07",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "A machine does 3000 J of work in 20 s. What is its power?", "hi": "एक मशीन 20 s में 3000 J कार्य करती है। उसकी शक्ति कितनी है?" },
+      "optionsJson": [
+        { "en": "150 W", "hi": "150 W" },
+        { "en": "15 W", "hi": "15 W" },
+        { "en": "1500 W", "hi": "1500 W" },
+        { "en": "60000 W", "hi": "60000 W" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Power = work / time = 3000 / 20 = 150 W.", "hi": "शक्ति = कार्य / समय = 3000 / 20 = 150 W।" },
+      "distractorAnalysis": {
+        "1": { "en": "15 W is ten times too small, a division slip.", "hi": "15 W दस गुना कम है, जो भाग की गलती है।" },
+        "2": { "en": "1500 W is ten times too large, a division slip.", "hi": "1500 W दस गुना अधिक है, जो भाग की गलती है।" },
+        "3": { "en": "60000 W results from multiplying work by time instead of dividing.", "hi": "60000 W कार्य को समय से भाग देने की जगह गुणा करने से आता है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-sc-08",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A sound wave has a frequency of 500 Hz and a wavelength of 0.68 m. What is the speed of the wave?", "hi": "एक ध्वनि तरंग की आवृत्ति 500 Hz और तरंगदैर्ध्य 0.68 m है। तरंग की चाल कितनी है?" },
+      "optionsJson": [
+        { "en": "170 m/s", "hi": "170 m/s" },
+        { "en": "680 m/s", "hi": "680 m/s" },
+        { "en": "735 m/s", "hi": "735 m/s" },
+        { "en": "340 m/s", "hi": "340 m/s" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Wave speed v = frequency × wavelength = 500 × 0.68 = 340 m/s.", "hi": "तरंग की चाल v = आवृत्ति × तरंगदैर्ध्य = 500 × 0.68 = 340 m/s।" },
+      "distractorAnalysis": {
+        "0": { "en": "170 m/s is half the correct value, from an arithmetic slip.", "hi": "170 m/s सही मान का आधा है, जो गणना की गलती से आता है।" },
+        "1": { "en": "680 m/s is double the correct value, from an arithmetic slip.", "hi": "680 m/s सही मान का दोगुना है, जो गणना की गलती से आता है।" },
+        "2": { "en": "735 m/s comes from dividing frequency by wavelength (500 / 0.68) instead of multiplying.", "hi": "735 m/s आवृत्ति को तरंगदैर्ध्य से गुणा करने की जगह भाग देने (500 / 0.68) से आता है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-sc-09",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A girl standing in front of a large cliff claps her hands and hears the echo 3 s later. If the speed of sound in air is 340 m/s, how far is the cliff from her?", "hi": "एक बड़ी चट्टान के सामने खड़ी लड़की ताली बजाती है और 3 s बाद प्रतिध्वनि सुनती है। यदि वायु में ध्वनि की चाल 340 m/s है, तो चट्टान उससे कितनी दूर है?" },
+      "optionsJson": [
+        { "en": "1020 m", "hi": "1020 m" },
+        { "en": "510 m", "hi": "510 m" },
+        { "en": "255 m", "hi": "255 m" },
+        { "en": "113 m", "hi": "113 m" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "In 3 s the sound travels 340 × 3 = 1020 m, which is the distance to the cliff and back. So the cliff is 1020 / 2 = 510 m away.", "hi": "3 s में ध्वनि 340 × 3 = 1020 m चलती है, जो चट्टान तक जाने और लौटने की कुल दूरी है। अतः चट्टान 1020 / 2 = 510 m दूर है।" },
+      "distractorAnalysis": {
+        "0": { "en": "1020 m is the total path to the cliff and back; it was not halved.", "hi": "1020 m चट्टान तक जाने और लौटने का कुल पथ है; इसे आधा नहीं किया गया।" },
+        "2": { "en": "255 m results from halving the one-way distance a second time.", "hi": "255 m एक ओर की दूरी को दूसरी बार आधा करने से आता है।" },
+        "3": { "en": "113 m comes from dividing the speed by the time (340 / 3), which is not a distance.", "hi": "113 m चाल को समय से भाग देने (340 / 3) से आता है, जो दूरी नहीं है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-sc-10",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A girl stands 2 m in front of a plane mirror. She walks 1 m towards the mirror. What is the distance between her and her image now?", "hi": "एक लड़की समतल दर्पण के सामने 2 m की दूरी पर खड़ी है। वह दर्पण की ओर 1 m चलती है। अब उसके और उसके प्रतिबिंब के बीच की दूरी कितनी है?" },
+      "optionsJson": [
+        { "en": "4 m", "hi": "4 m" },
+        { "en": "1 m", "hi": "1 m" },
+        { "en": "2 m", "hi": "2 m" },
+        { "en": "3 m", "hi": "3 m" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "After walking, she is 1 m from the mirror. A plane mirror forms the image 1 m behind it, so the distance between her and the image is 1 + 1 = 2 m.", "hi": "चलने के बाद वह दर्पण से 1 m दूर है। समतल दर्पण प्रतिबिंब को उसके पीछे 1 m पर बनाता है, इसलिए उसके और प्रतिबिंब के बीच की दूरी 1 + 1 = 2 m है।" },
+      "distractorAnalysis": {
+        "0": { "en": "4 m was the distance between her and the image before she moved (2 + 2).", "hi": "4 m चलने से पहले उसके और प्रतिबिंब के बीच की दूरी (2 + 2) थी।" },
+        "1": { "en": "1 m is only her distance from the mirror, not from the image.", "hi": "1 m केवल दर्पण से उसकी दूरी है, प्रतिबिंब से नहीं।" },
+        "3": { "en": "3 m has no basis; the image is as far behind the mirror as she is in front of it.", "hi": "3 m का कोई आधार नहीं है; प्रतिबिंब दर्पण के पीछे उतनी ही दूरी पर बनता है जितनी दूरी पर वह आगे खड़ी है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-sc-11",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": { "en": "A ray of light falls on a plane mirror. Keeping the incident ray fixed, the mirror is rotated by 20° about an axis lying in its surface and perpendicular to the plane of incidence. Through what angle does the reflected ray turn?", "hi": "प्रकाश की एक किरण समतल दर्पण पर पड़ती है। आपतित किरण को स्थिर रखते हुए दर्पण को उसके तल में स्थित तथा आपतन तल के लंबवत अक्ष के परितः 20° घुमाया जाता है। परावर्तित किरण कितने कोण से घूम जाएगी?" },
+      "optionsJson": [
+        { "en": "10°", "hi": "10°" },
+        { "en": "20°", "hi": "20°" },
+        { "en": "80°", "hi": "80°" },
+        { "en": "40°", "hi": "40°" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "When a mirror turns by an angle θ with the incident ray fixed, the normal also turns by θ, so the angle of incidence changes by θ and the angle of reflection also changes by θ. The reflected ray therefore turns by 2θ = 40°.", "hi": "जब आपतित किरण स्थिर हो और दर्पण θ कोण से घूमे, तो अभिलंब भी θ से घूमता है, इसलिए आपतन कोण θ से बदलता है और परावर्तन कोण भी θ से बदलता है। अतः परावर्तित किरण 2θ = 40° घूमती है।" },
+      "distractorAnalysis": {
+        "0": { "en": "10° is half the mirror's rotation; the reflected ray turns by more, not less.", "hi": "10° दर्पण के घूर्णन का आधा है; परावर्तित किरण इससे अधिक घूमती है, कम नहीं।" },
+        "1": { "en": "20° would be correct only if the reflected ray turned by the same angle as the mirror, ignoring the change in the angle of incidence.", "hi": "20° तभी सही होता जब परावर्तित किरण दर्पण के बराबर घूमती, जिसमें आपतन कोण में होने वाला परिवर्तन छूट गया है।" },
+        "2": { "en": "80° is four times the rotation; the correct factor is two.", "hi": "80° घूर्णन का चार गुना है; सही गुणक दो है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-sc-12",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which of the following is a chemical change?", "hi": "निम्नलिखित में से कौन-सा एक रासायनिक परिवर्तन है?" },
+      "optionsJson": [
+        { "en": "Rusting of iron", "hi": "लोहे में जंग लगना" },
+        { "en": "Melting of ice", "hi": "बर्फ का पिघलना" },
+        { "en": "Dissolving sugar in water", "hi": "चीनी का पानी में घुलना" },
+        { "en": "Boiling of water", "hi": "पानी का उबलना" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Rusting forms a new substance, hydrated iron oxide, from iron, oxygen and moisture. A new substance is formed, so it is a chemical change.", "hi": "जंग लगने में लोहा, ऑक्सीजन और नमी से एक नया पदार्थ, जलयोजित आयरन ऑक्साइड, बनता है। नया पदार्थ बनने के कारण यह रासायनिक परिवर्तन है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Melting only changes ice from solid to liquid water; no new substance forms, so it is physical.", "hi": "पिघलने में बर्फ केवल ठोस से द्रव जल बनती है; कोई नया पदार्थ नहीं बनता, इसलिए यह भौतिक परिवर्तन है।" },
+        "2": { "en": "Sugar dissolves and can be recovered by evaporating the water; this is a physical change.", "hi": "चीनी घुलती है और पानी को वाष्पित करके पुनः प्राप्त की जा सकती है; यह भौतिक परिवर्तन है।" },
+        "3": { "en": "Boiling changes water from liquid to vapour; it is still water, so it is a physical change.", "hi": "उबलने में पानी द्रव से वाष्प बनता है; वह फिर भी पानी ही है, इसलिए यह भौतिक परिवर्तन है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-sc-13",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A small bulb draws a current of 0.5 A when connected to a 6 V battery. What is the resistance of the bulb's filament?", "hi": "एक छोटा बल्ब 6 V की बैटरी से जोड़ने पर 0.5 A की धारा लेता है। बल्ब के तंतु का प्रतिरोध कितना है?" },
+      "optionsJson": [
+        { "en": "12 Ω", "hi": "12 Ω" },
+        { "en": "3 Ω", "hi": "3 Ω" },
+        { "en": "6 Ω", "hi": "6 Ω" },
+        { "en": "0.083 Ω", "hi": "0.083 Ω" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "By Ohm's law, R = V / I = 6 / 0.5 = 12 Ω.", "hi": "ओम के नियम से R = V / I = 6 / 0.5 = 12 Ω।" },
+      "distractorAnalysis": {
+        "1": { "en": "3 comes from multiplying V and I (6 × 0.5), which gives power in watts, not resistance.", "hi": "3 वोल्टता और धारा को गुणा करने (6 × 0.5) से आता है, जो वाट में शक्ति देता है, प्रतिरोध नहीं।" },
+        "2": { "en": "6 is simply the voltage; the current was ignored.", "hi": "6 केवल वोल्टता है; धारा को अनदेखा कर दिया गया।" },
+        "3": { "en": "0.083 comes from inverting the formula (I / V) instead of V / I.", "hi": "0.083 सूत्र उलटने (V / I की जगह I / V) से आता है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-sc-14",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Two resistors of 6 Ω and 3 Ω are connected in parallel across a 12 V battery. What is the total current drawn from the battery?", "hi": "6 Ω और 3 Ω के दो प्रतिरोधक 12 V की बैटरी से समानांतर क्रम में जुड़े हैं। बैटरी से ली गई कुल धारा कितनी है?" },
+      "optionsJson": [
+        { "en": "4 A", "hi": "4 A" },
+        { "en": "6 A", "hi": "6 A" },
+        { "en": "2 A", "hi": "2 A" },
+        { "en": "1.33 A", "hi": "1.33 A" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "In parallel each resistor has 12 V across it. Current in the 6 Ω resistor = 12/6 = 2 A and in the 3 Ω resistor = 12/3 = 4 A. Total current = 2 + 4 = 6 A (equivalent resistance 2 Ω, and 12/2 = 6 A).", "hi": "समानांतर क्रम में प्रत्येक प्रतिरोधक पर 12 V होता है। 6 Ω में धारा = 12/6 = 2 A और 3 Ω में धारा = 12/3 = 4 A। कुल धारा = 2 + 4 = 6 A (तुल्य प्रतिरोध 2 Ω, और 12/2 = 6 A)।" },
+      "distractorAnalysis": {
+        "0": { "en": "4 A is only the current through the 3 Ω resistor.", "hi": "4 A केवल 3 Ω प्रतिरोधक में बहने वाली धारा है।" },
+        "2": { "en": "2 A is only the current through the 6 Ω resistor.", "hi": "2 A केवल 6 Ω प्रतिरोधक में बहने वाली धारा है।" },
+        "3": { "en": "1.33 A is the current if the resistors were in series (12 / 9), not in parallel.", "hi": "1.33 A वह धारा है जो प्रतिरोधक श्रेणी क्रम में होने पर मिलती (12 / 9), समानांतर में नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p3-sc-15",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Five 100 W bulbs are used for 4 hours every day. How many units (kWh) of electrical energy do they consume in 30 days?", "hi": "पाँच 100 W के बल्ब प्रतिदिन 4 घंटे जलाए जाते हैं। वे 30 दिनों में कितनी यूनिट (kWh) विद्युत ऊर्जा खर्च करेंगे?" },
+      "optionsJson": [
+        { "en": "6 units", "hi": "6 यूनिट" },
+        { "en": "600 units", "hi": "600 यूनिट" },
+        { "en": "60 units", "hi": "60 यूनिट" },
+        { "en": "2 units", "hi": "2 यूनिट" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Total power = 5 × 100 W = 0.5 kW. Energy per day = 0.5 × 4 = 2 kWh. In 30 days = 2 × 30 = 60 kWh = 60 units.", "hi": "कुल शक्ति = 5 × 100 W = 0.5 kW। एक दिन की ऊर्जा = 0.5 × 4 = 2 kWh। 30 दिनों में = 2 × 30 = 60 kWh = 60 यूनिट।" },
+      "distractorAnalysis": {
+        "0": { "en": "6 units is ten times too small, usually from a slip while converting watts to kilowatts.", "hi": "6 यूनिट दस गुना कम है, जो प्रायः वाट को किलोवाट में बदलने की गलती से आता है।" },
+        "1": { "en": "600 units is ten times too large, from not converting watts to kilowatts correctly.", "hi": "600 यूनिट दस गुना अधिक है, जो वाट को किलोवाट में सही न बदलने से आता है।" },
+        "3": { "en": "2 units is the energy used in one day only, not in 30 days.", "hi": "2 यूनिट केवल एक दिन में खर्च ऊर्जा है, 30 दिनों की नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p3-sc-16",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Why is a fuse used in a household electric circuit?", "hi": "घरेलू विद्युत परिपथ में फ्यूज़ का उपयोग क्यों किया जाता है?" },
+      "optionsJson": [
+        { "en": "To increase the voltage when the supply is low", "hi": "आपूर्ति कम होने पर वोल्टता बढ़ाने के लिए" },
+        { "en": "To store extra current for later use", "hi": "अतिरिक्त धारा को बाद में उपयोग के लिए जमा करने के लिए" },
+        { "en": "To reduce the resistance of the appliances", "hi": "उपकरणों का प्रतिरोध घटाने के लिए" },
+        { "en": "To melt and break the circuit when the current becomes too large", "hi": "धारा बहुत अधिक होने पर पिघलकर परिपथ को तोड़ देने के लिए" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "A fuse wire has a low melting point. When an excessive current flows (overload or short circuit), the wire heats up, melts and breaks the circuit, protecting the appliances.", "hi": "फ्यूज़ तार का गलनांक कम होता है। अत्यधिक धारा (अतिभार या लघुपथन) बहने पर तार गर्म होकर पिघल जाता है और परिपथ टूट जाता है, जिससे उपकरण सुरक्षित रहते हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "A fuse does not raise voltage; it only protects the circuit.", "hi": "फ्यूज़ वोल्टता नहीं बढ़ाता; वह केवल परिपथ की सुरक्षा करता है।" },
+        "1": { "en": "Current cannot be stored by a fuse; a fuse is a safety device.", "hi": "फ्यूज़ धारा को जमा नहीं कर सकता; वह एक सुरक्षा उपकरण है।" },
+        "2": { "en": "A fuse has nothing to do with the resistance of appliances.", "hi": "फ्यूज़ का उपकरणों के प्रतिरोध से कोई संबंध नहीं है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-sc-17",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Why does taking an antacid such as milk of magnesia relieve acidity (indigestion)?", "hi": "मिल्क ऑफ मैग्नीशिया जैसी प्रति-अम्ल (एंटैसिड) लेने से अम्लता (अपच) में आराम क्यों मिलता है?" },
+      "optionsJson": [
+        { "en": "It is a mild acid that helps in digesting food", "hi": "यह एक हल्का अम्ल है जो भोजन पचाने में सहायता करता है" },
+        { "en": "It increases the production of hydrochloric acid in the stomach", "hi": "यह आमाशय में हाइड्रोक्लोरिक अम्ल का उत्पादन बढ़ाता है" },
+        { "en": "It is a mild base that neutralises the excess hydrochloric acid in the stomach", "hi": "यह एक हल्का क्षार है जो आमाशय के अतिरिक्त हाइड्रोक्लोरिक अम्ल को उदासीन कर देता है" },
+        { "en": "It breaks down food into smaller pieces by physical action", "hi": "यह भौतिक क्रिया द्वारा भोजन को छोटे टुकड़ों में तोड़ देता है" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Acidity is caused by excess hydrochloric acid in the stomach. Milk of magnesia is a mild base, and a base neutralises an acid to form salt and water, which gives relief.", "hi": "अम्लता आमाशय में अतिरिक्त हाइड्रोक्लोरिक अम्ल के कारण होती है। मिल्क ऑफ मैग्नीशिया एक हल्का क्षार है और क्षार अम्ल को उदासीन करके लवण और जल बनाता है, जिससे आराम मिलता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Adding an acid would increase acidity, not relieve it; milk of magnesia is a base.", "hi": "अम्ल मिलाने से अम्लता बढ़ती, घटती नहीं; मिल्क ऑफ मैग्नीशिया क्षार है।" },
+        "1": { "en": "Producing more acid would worsen the problem.", "hi": "अधिक अम्ल बनने से समस्या और बढ़ जाती।" },
+        "3": { "en": "An antacid works by a chemical reaction (neutralisation), not by physically breaking down food.", "hi": "प्रति-अम्ल रासायनिक अभिक्रिया (उदासीनीकरण) से कार्य करता है, भोजन को भौतिक रूप से तोड़कर नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p3-sc-18",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which method is most suitable for separating a mixture of two miscible liquids with different boiling points, such as acetone (56 °C) and water (100 °C)?", "hi": "भिन्न क्वथनांक वाले दो मिश्रणीय द्रवों, जैसे ऐसीटोन (56 °C) और जल (100 °C), के मिश्रण को पृथक करने की सबसे उपयुक्त विधि कौन-सी है?" },
+      "optionsJson": [
+        { "en": "Filtration", "hi": "निस्पंदन (छानना)" },
+        { "en": "Sublimation", "hi": "ऊर्ध्वपातन" },
+        { "en": "Decantation", "hi": "निथारना" },
+        { "en": "Distillation", "hi": "आसवन" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Distillation separates liquids using the difference in their boiling points. Acetone boils first, its vapour is condensed and collected, and water is left behind.", "hi": "आसवन द्रवों को उनके क्वथनांकों के अंतर के आधार पर पृथक करता है। ऐसीटोन पहले उबलता है, उसकी वाष्प को संघनित करके एकत्र कर लिया जाता है और जल शेष रह जाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Filtration separates insoluble solids from liquids; both components here are liquids that mix completely.", "hi": "निस्पंदन अघुलनशील ठोस को द्रव से अलग करता है; यहाँ दोनों घटक पूरी तरह मिश्रित द्रव हैं।" },
+        "1": { "en": "Sublimation separates a solid that turns directly into vapour from other solids.", "hi": "ऊर्ध्वपातन उस ठोस को अन्य ठोसों से अलग करता है जो सीधे वाष्प बन जाता है।" },
+        "2": { "en": "Decantation separates immiscible liquids or a settled solid from a liquid, not miscible liquids.", "hi": "निथारना अमिश्रणीय द्रवों या बैठे हुए ठोस को द्रव से अलग करता है, मिश्रणीय द्रवों को नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p3-sc-19",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Besides sunlight and chlorophyll, which raw materials does a green plant need for photosynthesis?", "hi": "सूर्य के प्रकाश और क्लोरोफिल के अतिरिक्त हरे पौधे को प्रकाश-संश्लेषण के लिए किन कच्ची सामग्रियों की आवश्यकता होती है?" },
+      "optionsJson": [
+        { "en": "Oxygen and glucose", "hi": "ऑक्सीजन और ग्लूकोज़" },
+        { "en": "Carbon dioxide and water", "hi": "कार्बन डाइऑक्साइड और जल" },
+        { "en": "Oxygen and water", "hi": "ऑक्सीजन और जल" },
+        { "en": "Carbon dioxide and glucose", "hi": "कार्बन डाइऑक्साइड और ग्लूकोज़" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "In photosynthesis, plants use carbon dioxide and water to make glucose and release oxygen.", "hi": "प्रकाश-संश्लेषण में पौधे कार्बन डाइऑक्साइड और जल का उपयोग करके ग्लूकोज़ बनाते हैं और ऑक्सीजन छोड़ते हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "Oxygen and glucose are products of photosynthesis, not raw materials.", "hi": "ऑक्सीजन और ग्लूकोज़ प्रकाश-संश्लेषण के उत्पाद हैं, कच्ची सामग्री नहीं।" },
+        "2": { "en": "Oxygen is released in the process, not taken in as a raw material.", "hi": "ऑक्सीजन इस प्रक्रिया में निकलती है, कच्ची सामग्री के रूप में ली नहीं जाती।" },
+        "3": { "en": "Glucose is the food made by the plant; it is not a raw material.", "hi": "ग्लूकोज़ पौधे द्वारा बनाया गया भोजन है; यह कच्ची सामग्री नहीं है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-sc-20",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "The electronic configuration of an element Y is 2, 8, 3. If oxygen has a valency of 2, what is the formula of the oxide of Y?", "hi": "एक तत्व Y का इलेक्ट्रॉनिक विन्यास 2, 8, 3 है। यदि ऑक्सीजन की संयोजकता 2 है, तो Y के ऑक्साइड का सूत्र क्या होगा?" },
+      "optionsJson": [
+        { "en": "YO", "hi": "YO" },
+        { "en": "YO₃", "hi": "YO₃" },
+        { "en": "Y₂O₃", "hi": "Y₂O₃" },
+        { "en": "Y₃O₂", "hi": "Y₃O₂" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Y has 3 electrons in its outermost shell, so its valency is 3 (it loses 3 electrons). Oxygen's valency is 2. Criss-crossing the valencies gives Y₂O₃.", "hi": "Y के बाहरी कोश में 3 इलेक्ट्रॉन हैं, इसलिए उसकी संयोजकता 3 है (वह 3 इलेक्ट्रॉन त्यागता है)। ऑक्सीजन की संयोजकता 2 है। संयोजकताओं को आड़ा-तिरछा करने पर Y₂O₃ मिलता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "YO assumes equal valencies for both elements, but Y has 3 and oxygen 2.", "hi": "YO में दोनों तत्वों की संयोजकता बराबर मान ली गई है, जबकि Y की 3 और ऑक्सीजन की 2 है।" },
+        "1": { "en": "YO₃ uses a valency of 3 for oxygen, but oxygen's valency is 2.", "hi": "YO₃ में ऑक्सीजन की संयोजकता 3 मानी गई है, जबकि वह 2 है।" },
+        "3": { "en": "Y₃O₂ criss-crosses the valencies the wrong way round.", "hi": "Y₃O₂ में संयोजकताओं को गलत दिशा में आड़ा-तिरछा किया गया है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-sc-21",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which plant tissue carries the food prepared in the leaves to the other parts of the plant?", "hi": "कौन-सा पादप ऊतक पत्तियों में बने भोजन को पौधे के अन्य भागों तक पहुँचाता है?" },
+      "optionsJson": [
+        { "en": "Phloem", "hi": "फ्लोएम" },
+        { "en": "Xylem", "hi": "जाइलम" },
+        { "en": "Parenchyma", "hi": "पैरेन्काइमा" },
+        { "en": "Sclerenchyma", "hi": "स्क्लेरेन्काइमा" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Phloem conducts the food made in the leaves (translocation) to all parts of the plant.", "hi": "फ्लोएम पत्तियों में बने भोजन को पौधे के सभी भागों तक पहुँचाता है (स्थानांतरण)।" },
+      "distractorAnalysis": {
+        "1": { "en": "Xylem carries water and minerals from the roots upward, not food from the leaves.", "hi": "जाइलम जड़ों से जल और खनिज ऊपर ले जाता है, पत्तियों से भोजन नहीं।" },
+        "2": { "en": "Parenchyma is a simple tissue mainly for storage and support, not for long-distance transport of food.", "hi": "पैरेन्काइमा मुख्यतः भंडारण और सहारे का सरल ऊतक है, भोजन के लंबी दूरी तक परिवहन का नहीं।" },
+        "3": { "en": "Sclerenchyma gives hardness and strength to the plant and does not transport food.", "hi": "स्क्लेरेन्काइमा पौधे को कठोरता और मजबूती देता है, भोजन का परिवहन नहीं करता।" }
+      }
+    },
+    {
+      "key": "rms9-p3-sc-22",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "In the human female reproductive system, where does fertilisation normally take place?", "hi": "मानव मादा जनन तंत्र में निषेचन सामान्यतः कहाँ होता है?" },
+      "optionsJson": [
+        { "en": "Ovary", "hi": "अंडाशय" },
+        { "en": "Uterus", "hi": "गर्भाशय" },
+        { "en": "Oviduct (fallopian tube)", "hi": "अंडवाहिनी (फैलोपियन नलिका)" },
+        { "en": "Vagina", "hi": "योनि" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The egg released from the ovary travels into the oviduct, where it meets the sperm and is fertilised. The zygote then moves to the uterus.", "hi": "अंडाशय से निकला अंड अंडवाहिनी में जाता है, जहाँ शुक्राणु से मिलकर निषेचित होता है। इसके बाद युग्मनज गर्भाशय में पहुँचता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "The ovary produces and releases eggs but is not where fertilisation takes place.", "hi": "अंडाशय अंड बनाता और छोड़ता है, पर निषेचन वहाँ नहीं होता।" },
+        "1": { "en": "The uterus is where the embryo implants and develops after fertilisation.", "hi": "गर्भाशय में निषेचन के बाद भ्रूण स्थापित होकर विकसित होता है।" },
+        "3": { "en": "The vagina receives the sperm and is the birth canal; fertilisation does not occur there.", "hi": "योनि शुक्राणु ग्रहण करती है और जन्म-नलिका है; निषेचन वहाँ नहीं होता।" }
+      }
+    },
+    {
+      "key": "rms9-p3-sc-23",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which of the following diseases is correctly matched with the type of microorganism that causes it?", "hi": "निम्नलिखित में से कौन-सा रोग उसे उत्पन्न करने वाले सूक्ष्मजीव के प्रकार के साथ सही मिलाया गया है?" },
+      "optionsJson": [
+        { "en": "Tuberculosis – virus", "hi": "तपेदिक – विषाणु" },
+        { "en": "Dengue – bacterium", "hi": "डेंगू – जीवाणु" },
+        { "en": "Malaria – fungus", "hi": "मलेरिया – कवक" },
+        { "en": "Typhoid – bacterium", "hi": "टाइफाइड – जीवाणु" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Typhoid is caused by the bacterium Salmonella typhi. Tuberculosis is bacterial, dengue is viral and malaria is caused by a protozoan (Plasmodium).", "hi": "टाइफाइड साल्मोनेला टाइफी नामक जीवाणु से होता है। तपेदिक जीवाणु से, डेंगू विषाणु से और मलेरिया एक प्रोटोज़ोआ (प्लाज़्मोडियम) से होता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Tuberculosis is caused by a bacterium (Mycobacterium tuberculosis), not a virus.", "hi": "तपेदिक जीवाणु (माइकोबैक्टीरियम ट्यूबरकुलोसिस) से होता है, विषाणु से नहीं।" },
+        "1": { "en": "Dengue is caused by a virus, not a bacterium.", "hi": "डेंगू विषाणु से होता है, जीवाणु से नहीं।" },
+        "2": { "en": "Malaria is caused by a protozoan (Plasmodium), not a fungus.", "hi": "मलेरिया प्रोटोज़ोआ (प्लाज़्मोडियम) से होता है, कवक से नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p3-sc-24",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "In the food chain grass → grasshopper → frog → snake, the grass stores 10000 J of energy. According to the 10 percent law, how much energy is available to the snake?", "hi": "खाद्य श्रृंखला घास → टिड्डा → मेंढक → साँप में घास 10000 J ऊर्जा संचित करती है। 10 प्रतिशत नियम के अनुसार साँप को कितनी ऊर्जा प्राप्त होगी?" },
+      "optionsJson": [
+        { "en": "100 J", "hi": "100 J" },
+        { "en": "10 J", "hi": "10 J" },
+        { "en": "1000 J", "hi": "1000 J" },
+        { "en": "1 J", "hi": "1 J" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Only 10% of the energy passes to the next level: grass 10000 J → grasshopper 1000 J → frog 100 J → snake 10 J.", "hi": "ऊर्जा का केवल 10% अगले स्तर तक पहुँचता है: घास 10000 J → टिड्डा 1000 J → मेंढक 100 J → साँप 10 J।" },
+      "distractorAnalysis": {
+        "0": { "en": "100 J is the energy reaching the frog, one level before the snake.", "hi": "100 J मेंढक तक पहुँचने वाली ऊर्जा है, जो साँप से एक स्तर पहले है।" },
+        "2": { "en": "1000 J is the energy reaching the grasshopper, two levels before the snake.", "hi": "1000 J टिड्डे तक पहुँचने वाली ऊर्जा है, जो साँप से दो स्तर पहले है।" },
+        "3": { "en": "1 J would be the energy at a fifth level, which does not exist in this chain.", "hi": "1 J पाँचवें स्तर की ऊर्जा होती, जो इस श्रृंखला में है ही नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p3-sc-25",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "The ozone layer in the stratosphere protects living organisms from which harmful radiation of the Sun?", "hi": "समतापमंडल में स्थित ओज़ोन परत सूर्य के किस हानिकारक विकिरण से जीवों की रक्षा करती है?" },
+      "optionsJson": [
+        { "en": "Ultraviolet rays", "hi": "पराबैंगनी किरणें" },
+        { "en": "Infrared rays", "hi": "अवरक्त किरणें" },
+        { "en": "Visible light", "hi": "दृश्य प्रकाश" },
+        { "en": "Radio waves", "hi": "रेडियो तरंगें" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The ozone layer absorbs most of the Sun's harmful ultraviolet radiation, which can cause skin cancer and eye damage.", "hi": "ओज़ोन परत सूर्य की अधिकांश हानिकारक पराबैंगनी विकिरण को अवशोषित कर लेती है, जो त्वचा कैंसर और आँखों को हानि पहुँचा सकती है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Infrared rays mainly carry heat and are not the radiation blocked by ozone.", "hi": "अवरक्त किरणें मुख्यतः ऊष्मा लाती हैं और ओज़ोन द्वारा रोकी जाने वाली विकिरण नहीं हैं।" },
+        "2": { "en": "Visible light passes through the atmosphere and is needed for life; ozone does not block it.", "hi": "दृश्य प्रकाश वायुमंडल से गुज़रता है और जीवन के लिए आवश्यक है; ओज़ोन उसे नहीं रोकती।" },
+        "3": { "en": "Radio waves are not harmful in this way and are not absorbed by the ozone layer.", "hi": "रेडियो तरंगें इस प्रकार हानिकारक नहीं हैं और ओज़ोन परत द्वारा अवशोषित नहीं होतीं।" }
+      }
+    }
+  ]
+}

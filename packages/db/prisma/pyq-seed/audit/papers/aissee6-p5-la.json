@@ -1,0 +1,984 @@
+{
+  "examType": "AISSEE",
+  "classLevel": 6,
+  "paperNumber": 5,
+  "sectionKey": "language",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "aissee6-p5-la-01",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Choose the correct sentence.",
+        "hi": "सही वाक्य चुनिए।",
+        "mr": "योग्य वाक्य निवडा."
+      },
+      "optionsJson": [
+        { "en": "She don't like mangoes.", "hi": "She don't like mangoes.", "mr": "She don't like mangoes." },
+        { "en": "She doesn't like mangoes.", "hi": "She doesn't like mangoes.", "mr": "She doesn't like mangoes." },
+        { "en": "She not like mangoes.", "hi": "She not like mangoes.", "mr": "She not like mangoes." },
+        { "en": "She doesn't likes mangoes.", "hi": "She doesn't likes mangoes.", "mr": "She doesn't likes mangoes." }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "With the singular subject \"She\", the negative helping verb is \"doesn't\" and the main verb stays in its base form \"like\".",
+        "hi": "एकवचन कर्ता \"She\" के साथ नकारात्मक सहायक क्रिया \"doesn't\" आती है और मुख्य क्रिया अपने मूल रूप \"like\" में रहती है।",
+        "mr": "एकवचनी कर्ता \"She\" सोबत नकारार्थी सहायक क्रियापद \"doesn't\" येते आणि मुख्य क्रियापद मूळ रूप \"like\" मध्येच राहते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "\"don't\" is used with plural subjects and with I/you, not with \"She\".",
+          "hi": "\"don't\" बहुवचन कर्ताओं तथा I/you के साथ आता है, \"She\" के साथ नहीं।",
+          "mr": "\"don't\" अनेकवचनी कर्त्यांसोबत आणि I/you सोबत येते, \"She\" सोबत नाही."
+        },
+        "2": {
+          "en": "A negative sentence in the simple present needs \"do/does\" before \"not\"; \"She not like\" has no helping verb.",
+          "hi": "साधारण वर्तमान काल के नकारात्मक वाक्य में \"not\" से पहले \"do/does\" चाहिए; \"She not like\" में सहायक क्रिया नहीं है।",
+          "mr": "साध्या वर्तमानकाळातील नकारार्थी वाक्यात \"not\" च्या आधी \"do/does\" हवे; \"She not like\" मध्ये सहायक क्रियापद नाही."
+        },
+        "3": {
+          "en": "After \"doesn't\" the main verb must be in its base form, so \"likes\" is wrong.",
+          "hi": "\"doesn't\" के बाद मुख्य क्रिया मूल रूप में होनी चाहिए, इसलिए \"likes\" गलत है।",
+          "mr": "\"doesn't\" नंतर मुख्य क्रियापद मूळ रूपात हवे, म्हणून \"likes\" चुकीचे आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-la-02",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Choose the correct word to fill the blank: Priya ___ a beautiful song at the school function yesterday.",
+        "hi": "रिक्त स्थान के लिए सही शब्द चुनिए: Priya ___ a beautiful song at the school function yesterday.",
+        "mr": "रिकाम्या जागी योग्य शब्द निवडा: Priya ___ a beautiful song at the school function yesterday."
+      },
+      "optionsJson": [
+        { "en": "sing", "hi": "sing", "mr": "sing" },
+        { "en": "sings", "hi": "sings", "mr": "sings" },
+        { "en": "singing", "hi": "singing", "mr": "singing" },
+        { "en": "sang", "hi": "sang", "mr": "sang" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "\"Yesterday\" shows a finished action in the past, so the simple past form \"sang\" is needed.",
+        "hi": "\"Yesterday\" बीते समय में पूरी हो चुकी क्रिया दर्शाता है, इसलिए साधारण भूतकाल का रूप \"sang\" चाहिए।",
+        "mr": "\"Yesterday\" भूतकाळात पूर्ण झालेली क्रिया दाखवतो, म्हणून साधा भूतकाळी रूप \"sang\" हवे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "\"sing\" is the base form and does not show past time.",
+          "hi": "\"sing\" मूल रूप है और भूतकाल नहीं दर्शाता।",
+          "mr": "\"sing\" हे मूळ रूप आहे आणि ते भूतकाळ दाखवत नाही."
+        },
+        "1": {
+          "en": "\"sings\" is simple present tense, which does not match \"yesterday\".",
+          "hi": "\"sings\" साधारण वर्तमान काल है, जो \"yesterday\" से मेल नहीं खाता।",
+          "mr": "\"sings\" साधा वर्तमानकाळ आहे, जो \"yesterday\" शी जुळत नाही."
+        },
+        "2": {
+          "en": "\"singing\" alone cannot be the main verb; it needs a helping verb such as \"was\".",
+          "hi": "\"singing\" अकेले मुख्य क्रिया नहीं हो सकता; इसके साथ \"was\" जैसी सहायक क्रिया चाहिए।",
+          "mr": "\"singing\" एकटे मुख्य क्रियापद होऊ शकत नाही; त्यासोबत \"was\" सारखे सहायक क्रियापद हवे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-la-03",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Choose the correct passive voice of the sentence: The cook prepares dinner every evening.",
+        "hi": "वाक्य का सही कर्मवाच्य (Passive Voice) चुनिए: The cook prepares dinner every evening.",
+        "mr": "वाक्याचे योग्य कर्मणी रूप (Passive Voice) निवडा: The cook prepares dinner every evening."
+      },
+      "optionsJson": [
+        { "en": "Dinner is prepared by the cook every evening.", "hi": "Dinner is prepared by the cook every evening.", "mr": "Dinner is prepared by the cook every evening." },
+        { "en": "Dinner was prepared by the cook every evening.", "hi": "Dinner was prepared by the cook every evening.", "mr": "Dinner was prepared by the cook every evening." },
+        { "en": "Dinner is being prepared by the cook every evening.", "hi": "Dinner is being prepared by the cook every evening.", "mr": "Dinner is being prepared by the cook every evening." },
+        { "en": "Dinner has been prepared by the cook every evening.", "hi": "Dinner has been prepared by the cook every evening.", "mr": "Dinner has been prepared by the cook every evening." }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "The active sentence is in the simple present tense, so the passive uses \"is/are + past participle\". \"Dinner\" is singular, so \"is prepared\" is correct.",
+        "hi": "सक्रिय वाक्य साधारण वर्तमान काल में है, इसलिए कर्मवाच्य में \"is/are + past participle\" आता है। \"Dinner\" एकवचन है, अतः \"is prepared\" सही है।",
+        "mr": "कर्तरी वाक्य साध्या वर्तमानकाळात आहे, म्हणून कर्मणी रूपात \"is/are + past participle\" येते. \"Dinner\" एकवचनी आहे, त्यामुळे \"is prepared\" योग्य आहे."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "\"was prepared\" is the simple past passive, which changes the tense of the sentence.",
+          "hi": "\"was prepared\" साधारण भूतकाल का कर्मवाच्य है, जो वाक्य का काल बदल देता है।",
+          "mr": "\"was prepared\" हे साध्या भूतकाळाचे कर्मणी रूप आहे, ते वाक्याचा काळ बदलते."
+        },
+        "2": {
+          "en": "\"is being prepared\" is the present continuous passive and would mean the cooking is happening right now.",
+          "hi": "\"is being prepared\" वर्तमान सतत काल का कर्मवाच्य है और इसका अर्थ होगा कि खाना अभी बन रहा है।",
+          "mr": "\"is being prepared\" हे चालू वर्तमानकाळाचे कर्मणी रूप आहे आणि त्याचा अर्थ स्वयंपाक आत्ता चालू आहे असा होईल."
+        },
+        "3": {
+          "en": "\"has been prepared\" is the present perfect passive and shows a completed action, not a habit.",
+          "hi": "\"has been prepared\" पूर्ण वर्तमान काल का कर्मवाच्य है और पूरी हो चुकी क्रिया दर्शाता है, आदत नहीं।",
+          "mr": "\"has been prepared\" हे पूर्ण वर्तमानकाळाचे कर्मणी रूप आहे आणि ते पूर्ण झालेली क्रिया दाखवते, सवय नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-la-04",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Choose the correct indirect speech of the sentence: Rahul said, \"I am hungry.\"",
+        "hi": "वाक्य का सही अप्रत्यक्ष कथन (Indirect Speech) चुनिए: Rahul said, \"I am hungry.\"",
+        "mr": "वाक्याचे योग्य अप्रत्यक्ष कथन (Indirect Speech) निवडा: Rahul said, \"I am hungry.\""
+      },
+      "optionsJson": [
+        { "en": "Rahul said that I was hungry.", "hi": "Rahul said that I was hungry.", "mr": "Rahul said that I was hungry." },
+        { "en": "Rahul said that he is hungry.", "hi": "Rahul said that he is hungry.", "mr": "Rahul said that he is hungry." },
+        { "en": "Rahul said that he was hungry.", "hi": "Rahul said that he was hungry.", "mr": "Rahul said that he was hungry." },
+        { "en": "Rahul said that he had been hungry.", "hi": "Rahul said that he had been hungry.", "mr": "Rahul said that he had been hungry." }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "\"I\" refers to Rahul, so it becomes \"he\". Because the reporting verb \"said\" is in the past tense, the present \"am\" shifts back to \"was\".",
+        "hi": "\"I\" राहुल के लिए है, इसलिए वह \"he\" बन जाता है। रिपोर्टिंग क्रिया \"said\" भूतकाल में है, इसलिए वर्तमान \"am\" बदलकर \"was\" हो जाता है।",
+        "mr": "\"I\" हा राहुलसाठी आहे, म्हणून तो \"he\" होतो. रिपोर्टिंग क्रियापद \"said\" भूतकाळात आहे, म्हणून वर्तमानकाळी \"am\" बदलून \"was\" होते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "\"I\" must change to \"he\" because it refers to Rahul, the speaker.",
+          "hi": "\"I\" को \"he\" में बदलना चाहिए क्योंकि वह बोलने वाले राहुल के लिए है।",
+          "mr": "\"I\" चे \"he\" करायला हवे कारण तो बोलणाऱ्या राहुलसाठी आहे."
+        },
+        "1": {
+          "en": "With the past reporting verb \"said\", the present tense \"is\" must shift back to \"was\".",
+          "hi": "भूतकाल की रिपोर्टिंग क्रिया \"said\" के साथ वर्तमान \"is\" को बदलकर \"was\" करना चाहिए।",
+          "mr": "भूतकाळी रिपोर्टिंग क्रियापद \"said\" सोबत वर्तमानकाळी \"is\" बदलून \"was\" करायला हवे."
+        },
+        "3": {
+          "en": "Simple present shifts to simple past (\"was\"), not to past perfect (\"had been\").",
+          "hi": "साधारण वर्तमान काल बदलकर साधारण भूतकाल (\"was\") होता है, पूर्ण भूतकाल (\"had been\") नहीं।",
+          "mr": "साधा वर्तमानकाळ साध्या भूतकाळात (\"was\") बदलतो, पूर्ण भूतकाळात (\"had been\") नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-la-05",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Choose the word closest in meaning to \"brave\".",
+        "hi": "\"brave\" शब्द के सबसे निकट अर्थ वाला शब्द चुनिए।",
+        "mr": "\"brave\" या शब्दाच्या सर्वात जवळचा अर्थ असलेला शब्द निवडा."
+      },
+      "optionsJson": [
+        { "en": "timid", "hi": "timid", "mr": "timid" },
+        { "en": "lazy", "hi": "lazy", "mr": "lazy" },
+        { "en": "courageous", "hi": "courageous", "mr": "courageous" },
+        { "en": "selfish", "hi": "selfish", "mr": "selfish" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "\"Courageous\" means having courage, which is the same as being brave.",
+        "hi": "\"Courageous\" का अर्थ है साहसी होना, जो \"brave\" के समान ही है।",
+        "mr": "\"Courageous\" म्हणजे धैर्यवान असणे, जे \"brave\" सारखेच आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "\"Timid\" means shy and easily frightened, the opposite of brave.",
+          "hi": "\"Timid\" का अर्थ है डरपोक, जो \"brave\" का विलोम है।",
+          "mr": "\"Timid\" म्हणजे भित्रा, जो \"brave\" चा विरुद्धार्थी आहे."
+        },
+        "1": {
+          "en": "\"Lazy\" means unwilling to work; it has nothing to do with bravery.",
+          "hi": "\"Lazy\" का अर्थ है आलसी; इसका बहादुरी से कोई संबंध नहीं है।",
+          "mr": "\"Lazy\" म्हणजे आळशी; त्याचा शौर्याशी काहीही संबंध नाही."
+        },
+        "3": {
+          "en": "\"Selfish\" means caring only about oneself; it is not a synonym of brave.",
+          "hi": "\"Selfish\" का अर्थ है स्वार्थी; यह \"brave\" का पर्यायवाची नहीं है।",
+          "mr": "\"Selfish\" म्हणजे स्वार्थी; तो \"brave\" चा समानार्थी शब्द नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-la-06",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Choose the correct preposition: The principal congratulated the winners ___ their success.",
+        "hi": "सही पूर्वसर्ग (Preposition) चुनिए: The principal congratulated the winners ___ their success.",
+        "mr": "योग्य शब्दयोगी अव्यय (Preposition) निवडा: The principal congratulated the winners ___ their success."
+      },
+      "optionsJson": [
+        { "en": "in", "hi": "in", "mr": "in" },
+        { "en": "on", "hi": "on", "mr": "on" },
+        { "en": "at", "hi": "at", "mr": "at" },
+        { "en": "with", "hi": "with", "mr": "with" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "The verb \"congratulate\" is followed by \"on\" when we name the achievement: congratulate someone on their success.",
+        "hi": "जब उपलब्धि का नाम बताया जाता है तो \"congratulate\" के बाद \"on\" आता है: congratulate someone on their success.",
+        "mr": "कामगिरीचे नाव सांगताना \"congratulate\" नंतर \"on\" येते: congratulate someone on their success."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "\"in\" is not the preposition used after \"congratulate\"; we say \"congratulate on\".",
+          "hi": "\"congratulate\" के बाद \"in\" नहीं आता; हम \"congratulate on\" कहते हैं।",
+          "mr": "\"congratulate\" नंतर \"in\" येत नाही; आपण \"congratulate on\" म्हणतो."
+        },
+        "2": {
+          "en": "\"at\" is used for places and points in time, and does not fit after \"congratulate\".",
+          "hi": "\"at\" का प्रयोग स्थान और समय-बिंदु के लिए होता है और यह \"congratulate\" के बाद उचित नहीं है।",
+          "mr": "\"at\" स्थळ आणि वेळेच्या बिंदूसाठी वापरतात आणि ते \"congratulate\" नंतर योग्य नाही."
+        },
+        "3": {
+          "en": "\"with\" does not combine with \"congratulate\" in this meaning.",
+          "hi": "इस अर्थ में \"with\" का \"congratulate\" के साथ प्रयोग नहीं होता।",
+          "mr": "या अर्थाने \"with\" चा \"congratulate\" सोबत वापर होत नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-la-07",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "A group of lions is called a ___.",
+        "hi": "शेरों के एक समूह को अंग्रेज़ी में ___ कहते हैं।",
+        "mr": "सिंहांच्या समूहाला इंग्रजीत ___ म्हणतात."
+      },
+      "optionsJson": [
+        { "en": "herd", "hi": "herd", "mr": "herd" },
+        { "en": "flock", "hi": "flock", "mr": "flock" },
+        { "en": "pack", "hi": "pack", "mr": "pack" },
+        { "en": "pride", "hi": "pride", "mr": "pride" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "The collective noun for lions is \"pride\".",
+        "hi": "शेरों के समूह के लिए समूहवाचक संज्ञा \"pride\" है।",
+        "mr": "सिंहांच्या समूहासाठी समूहवाचक नाम \"pride\" आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "\"Herd\" is used for cattle, elephants or deer, not lions.",
+          "hi": "\"Herd\" का प्रयोग गाय-बैल, हाथी या हिरण के समूह के लिए होता है, शेरों के लिए नहीं।",
+          "mr": "\"Herd\" गुरे, हत्ती किंवा हरणांच्या कळपासाठी वापरतात, सिंहांसाठी नाही."
+        },
+        "1": {
+          "en": "\"Flock\" is used for birds or sheep, not lions.",
+          "hi": "\"Flock\" का प्रयोग पक्षियों या भेड़ों के समूह के लिए होता है, शेरों के लिए नहीं।",
+          "mr": "\"Flock\" पक्षी किंवा मेंढ्यांच्या समूहासाठी वापरतात, सिंहांसाठी नाही."
+        },
+        "2": {
+          "en": "\"Pack\" is used for wolves or dogs, not lions.",
+          "hi": "\"Pack\" का प्रयोग भेड़ियों या कुत्तों के समूह के लिए होता है, शेरों के लिए नहीं।",
+          "mr": "\"Pack\" लांडगे किंवा कुत्र्यांच्या टोळीसाठी वापरतात, सिंहांसाठी नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-la-08",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Rearrange the words to form a meaningful sentence: the / flowers / garden / in / are / blooming / the",
+        "hi": "शब्दों को सही क्रम में लगाकर अर्थपूर्ण वाक्य बनाइए: the / flowers / garden / in / are / blooming / the",
+        "mr": "शब्द योग्य क्रमाने लावून अर्थपूर्ण वाक्य तयार करा: the / flowers / garden / in / are / blooming / the"
+      },
+      "optionsJson": [
+        { "en": "The flowers in the garden are blooming.", "hi": "The flowers in the garden are blooming.", "mr": "The flowers in the garden are blooming." },
+        { "en": "The garden in the flowers are blooming.", "hi": "The garden in the flowers are blooming.", "mr": "The garden in the flowers are blooming." },
+        { "en": "Blooming are in the flowers garden the.", "hi": "Blooming are in the flowers garden the.", "mr": "Blooming are in the flowers garden the." },
+        { "en": "Are the flowers garden in the blooming.", "hi": "Are the flowers garden in the blooming.", "mr": "Are the flowers garden in the blooming." }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "The subject is \"The flowers in the garden\" and the verb phrase is \"are blooming\", giving a complete and meaningful sentence.",
+        "hi": "कर्ता \"The flowers in the garden\" है और क्रिया-पद \"are blooming\" है, जिससे पूरा और अर्थपूर्ण वाक्य बनता है।",
+        "mr": "कर्ता \"The flowers in the garden\" आहे आणि क्रियापद \"are blooming\" आहे, त्यामुळे पूर्ण आणि अर्थपूर्ण वाक्य तयार होते."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "It says the flowers contain a garden, which makes no sense, and \"garden ... are\" does not agree.",
+          "hi": "इसका अर्थ निकलता है कि फूलों के अंदर बगीचा है, जो बेतुका है, और \"garden ... are\" में वचन भी मेल नहीं खाता।",
+          "mr": "यातून फुलांमध्ये बाग आहे असा अर्थ निघतो, जो अर्थहीन आहे, आणि \"garden ... are\" मध्ये वचनही जुळत नाही."
+        },
+        "2": {
+          "en": "The words are in a jumbled order and do not form a sentence.",
+          "hi": "शब्द उलटे-पुलटे क्रम में हैं और वाक्य नहीं बनता।",
+          "mr": "शब्द विस्कळीत क्रमात आहेत आणि वाक्य तयार होत नाही."
+        },
+        "3": {
+          "en": "Starting with \"Are\" turns it into a broken question without a clear meaning.",
+          "hi": "\"Are\" से शुरू करने पर यह बिना स्पष्ट अर्थ वाला टूटा-फूटा प्रश्न बन जाता है।",
+          "mr": "\"Are\" ने सुरू केल्यास स्पष्ट अर्थ नसलेला तुटक प्रश्न तयार होतो."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-la-09",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which of the following sentences has no error?",
+        "hi": "निम्नलिखित में से किस वाक्य में कोई त्रुटि नहीं है?",
+        "mr": "खालीलपैकी कोणत्या वाक्यात कोणतीही चूक नाही?"
+      },
+      "optionsJson": [
+        { "en": "Each of the players have received a medal.", "hi": "Each of the players have received a medal.", "mr": "Each of the players have received a medal." },
+        { "en": "The teacher, along with the students, are going on a trip.", "hi": "The teacher, along with the students, are going on a trip.", "mr": "The teacher, along with the students, are going on a trip." },
+        { "en": "Neither Anil nor his brothers were invited to the party.", "hi": "Neither Anil nor his brothers were invited to the party.", "mr": "Neither Anil nor his brothers were invited to the party." },
+        { "en": "One of my friends live in Pune.", "hi": "One of my friends live in Pune.", "mr": "One of my friends live in Pune." }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "With \"neither ... nor\", the verb agrees with the nearer subject. \"Brothers\" is plural, so \"were\" is correct.",
+        "hi": "\"neither ... nor\" के साथ क्रिया पास वाले कर्ता के अनुसार चलती है। \"Brothers\" बहुवचन है, इसलिए \"were\" सही है।",
+        "mr": "\"neither ... nor\" सोबत क्रियापद जवळच्या कर्त्यानुसार येते. \"Brothers\" अनेकवचनी आहे, म्हणून \"were\" योग्य आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "\"Each\" is singular, so the verb should be \"has\" (Each of the players has received a medal).",
+          "hi": "\"Each\" एकवचन है, इसलिए क्रिया \"has\" होनी चाहिए (Each of the players has received a medal)।",
+          "mr": "\"Each\" एकवचनी आहे, म्हणून क्रियापद \"has\" हवे (Each of the players has received a medal)."
+        },
+        "1": {
+          "en": "The subject is \"teacher\"; \"along with the students\" does not make it plural, so the verb should be \"is\".",
+          "hi": "कर्ता \"teacher\" है; \"along with the students\" उसे बहुवचन नहीं बनाता, इसलिए क्रिया \"is\" होनी चाहिए।",
+          "mr": "कर्ता \"teacher\" आहे; \"along with the students\" मुळे तो अनेकवचनी होत नाही, म्हणून क्रियापद \"is\" हवे."
+        },
+        "3": {
+          "en": "The subject is \"One\", which is singular, so the verb should be \"lives\".",
+          "hi": "कर्ता \"One\" है, जो एकवचन है, इसलिए क्रिया \"lives\" होनी चाहिए।",
+          "mr": "कर्ता \"One\" आहे, जो एकवचनी आहे, म्हणून क्रियापद \"lives\" हवे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-la-10",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Choose the correct word to fill the blank: The match was called off ___ heavy rain.",
+        "hi": "रिक्त स्थान के लिए सही शब्द चुनिए: The match was called off ___ heavy rain.",
+        "mr": "रिकाम्या जागी योग्य शब्द निवडा: The match was called off ___ heavy rain."
+      },
+      "optionsJson": [
+        { "en": "because of", "hi": "because of", "mr": "because of" },
+        { "en": "because", "hi": "because", "mr": "because" },
+        { "en": "because that", "hi": "because that", "mr": "because that" },
+        { "en": "since of", "hi": "since of", "mr": "since of" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "\"Because of\" is followed by a noun phrase such as \"heavy rain\", while \"because\" needs a full clause with a subject and verb.",
+        "hi": "\"Because of\" के बाद \"heavy rain\" जैसा संज्ञा-पद आता है, जबकि \"because\" के बाद कर्ता और क्रिया वाला पूरा उपवाक्य चाहिए।",
+        "mr": "\"Because of\" नंतर \"heavy rain\" सारखे नामपद येते, तर \"because\" नंतर कर्ता आणि क्रियापद असलेले पूर्ण उपवाक्य लागते."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "\"because\" must be followed by a subject and a verb, not just a noun phrase.",
+          "hi": "\"because\" के बाद कर्ता और क्रिया आनी चाहिए, केवल संज्ञा-पद नहीं।",
+          "mr": "\"because\" नंतर कर्ता आणि क्रियापद यायला हवे, फक्त नामपद नाही."
+        },
+        "2": {
+          "en": "\"because that\" is not a correct conjunction phrase in standard English.",
+          "hi": "\"because that\" मानक अंग्रेज़ी में सही योजक-पद नहीं है।",
+          "mr": "\"because that\" हे प्रमाण इंग्रजीत योग्य उभयान्वयी शब्दसमूह नाही."
+        },
+        "3": {
+          "en": "\"since of\" is not a correct phrase in English.",
+          "hi": "\"since of\" अंग्रेज़ी में सही पद नहीं है।",
+          "mr": "\"since of\" हा इंग्रजीतील योग्य शब्दसमूह नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-la-11",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Change into active voice: The window was broken by the children.",
+        "hi": "सक्रिय वाच्य (Active Voice) में बदलिए: The window was broken by the children.",
+        "mr": "कर्तरी रूपात (Active Voice) बदला: The window was broken by the children."
+      },
+      "optionsJson": [
+        { "en": "The children break the window.", "hi": "The children break the window.", "mr": "The children break the window." },
+        { "en": "The children have broken the window.", "hi": "The children have broken the window.", "mr": "The children have broken the window." },
+        { "en": "The children were breaking the window.", "hi": "The children were breaking the window.", "mr": "The children were breaking the window." },
+        { "en": "The children broke the window.", "hi": "The children broke the window.", "mr": "The children broke the window." }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "\"was broken\" is the simple past passive, so the active form uses the simple past \"broke\".",
+        "hi": "\"was broken\" साधारण भूतकाल का कर्मवाच्य है, इसलिए सक्रिय रूप में साधारण भूतकाल \"broke\" आता है।",
+        "mr": "\"was broken\" हे साध्या भूतकाळाचे कर्मणी रूप आहे, म्हणून कर्तरी रूपात साधा भूतकाळ \"broke\" येतो."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "\"break\" is simple present and changes the tense of the original sentence.",
+          "hi": "\"break\" साधारण वर्तमान काल है और मूल वाक्य का काल बदल देता है।",
+          "mr": "\"break\" साधा वर्तमानकाळ आहे आणि तो मूळ वाक्याचा काळ बदलतो."
+        },
+        "1": {
+          "en": "\"have broken\" is present perfect, which does not match the simple past passive.",
+          "hi": "\"have broken\" पूर्ण वर्तमान काल है, जो साधारण भूतकाल के कर्मवाच्य से मेल नहीं खाता।",
+          "mr": "\"have broken\" पूर्ण वर्तमानकाळ आहे, जो साध्या भूतकाळाच्या कर्मणी रूपाशी जुळत नाही."
+        },
+        "2": {
+          "en": "\"were breaking\" is past continuous and would correspond to \"was being broken\".",
+          "hi": "\"were breaking\" भूतकालिक सतत काल है और \"was being broken\" के अनुरूप होता।",
+          "mr": "\"were breaking\" चालू भूतकाळ आहे आणि तो \"was being broken\" शी संबंधित असेल."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-la-12",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Choose the correct indirect speech of the sentence: The teacher said to the class, \"Open your books.\"",
+        "hi": "वाक्य का सही अप्रत्यक्ष कथन (Indirect Speech) चुनिए: The teacher said to the class, \"Open your books.\"",
+        "mr": "वाक्याचे योग्य अप्रत्यक्ष कथन (Indirect Speech) निवडा: The teacher said to the class, \"Open your books.\""
+      },
+      "optionsJson": [
+        { "en": "The teacher told the class that they open their books.", "hi": "The teacher told the class that they open their books.", "mr": "The teacher told the class that they open their books." },
+        { "en": "The teacher told the class to open their books.", "hi": "The teacher told the class to open their books.", "mr": "The teacher told the class to open their books." },
+        { "en": "The teacher said to the class to open your books.", "hi": "The teacher said to the class to open your books.", "mr": "The teacher said to the class to open your books." },
+        { "en": "The teacher asked the class that open their books.", "hi": "The teacher asked the class that open their books.", "mr": "The teacher asked the class that open their books." }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "A command is reported with a verb like \"told\" followed by \"to + verb\", and \"your\" changes to \"their\".",
+        "hi": "आदेश को \"told\" जैसी क्रिया के बाद \"to + क्रिया\" लगाकर बताया जाता है, और \"your\" बदलकर \"their\" हो जाता है।",
+        "mr": "आज्ञा सांगताना \"told\" सारखे क्रियापद आणि त्यानंतर \"to + क्रियापद\" वापरतात, आणि \"your\" बदलून \"their\" होते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "A command is not reported with \"that\" and a statement; it needs \"to + verb\".",
+          "hi": "आदेश को \"that\" और कथन के रूप में नहीं बताया जाता; इसके लिए \"to + क्रिया\" चाहिए।",
+          "mr": "आज्ञा \"that\" आणि विधानाच्या रूपात सांगत नाहीत; त्यासाठी \"to + क्रियापद\" हवे."
+        },
+        "2": {
+          "en": "\"said to\" should become \"told\" and \"your\" must change to \"their\" in indirect speech.",
+          "hi": "अप्रत्यक्ष कथन में \"said to\" को \"told\" और \"your\" को \"their\" होना चाहिए।",
+          "mr": "अप्रत्यक्ष कथनात \"said to\" चे \"told\" आणि \"your\" चे \"their\" व्हायला हवे."
+        },
+        "3": {
+          "en": "\"asked\" is used for questions, and \"that open their books\" is not grammatical.",
+          "hi": "\"asked\" प्रश्नों के लिए प्रयोग होता है और \"that open their books\" व्याकरणिक रूप से सही नहीं है।",
+          "mr": "\"asked\" प्रश्नांसाठी वापरतात आणि \"that open their books\" व्याकरणदृष्ट्या बरोबर नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-la-13",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "The sentence \"I prefer tea than coffee.\" contains an error. Choose the corrected sentence.",
+        "hi": "वाक्य \"I prefer tea than coffee.\" में त्रुटि है। सुधारा हुआ सही वाक्य चुनिए।",
+        "mr": "\"I prefer tea than coffee.\" या वाक्यात चूक आहे. दुरुस्त केलेले योग्य वाक्य निवडा."
+      },
+      "optionsJson": [
+        { "en": "I prefer tea to coffee.", "hi": "I prefer tea to coffee.", "mr": "I prefer tea to coffee." },
+        { "en": "I prefer tea from coffee.", "hi": "I prefer tea from coffee.", "mr": "I prefer tea from coffee." },
+        { "en": "I prefer tea than coffee.", "hi": "I prefer tea than coffee.", "mr": "I prefer tea than coffee." },
+        { "en": "I prefer tea against coffee.", "hi": "I prefer tea against coffee.", "mr": "I prefer tea against coffee." }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "The verb \"prefer\" is followed by \"to\" when two things are compared: prefer one thing to another.",
+        "hi": "जब दो चीज़ों की तुलना की जाती है तो \"prefer\" के बाद \"to\" आता है: prefer one thing to another.",
+        "mr": "दोन गोष्टींची तुलना करताना \"prefer\" नंतर \"to\" येते: prefer one thing to another."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "\"prefer ... from\" is not a correct pattern in English.",
+          "hi": "\"prefer ... from\" अंग्रेज़ी में सही रचना नहीं है।",
+          "mr": "\"prefer ... from\" ही इंग्रजीतील योग्य रचना नाही."
+        },
+        "2": {
+          "en": "This is the original sentence; \"than\" does not go with \"prefer\", so the error remains.",
+          "hi": "यह मूल वाक्य ही है; \"prefer\" के साथ \"than\" नहीं आता, इसलिए त्रुटि बनी रहती है।",
+          "mr": "हे मूळ वाक्यच आहे; \"prefer\" सोबत \"than\" येत नाही, म्हणून चूक तशीच राहते."
+        },
+        "3": {
+          "en": "\"prefer ... against\" is not a correct pattern in English.",
+          "hi": "\"prefer ... against\" अंग्रेज़ी में सही रचना नहीं है।",
+          "mr": "\"prefer ... against\" ही इंग्रजीतील योग्य रचना नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-la-14",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Choose the correct word to fill the blank: If I ___ a bird, I would fly across the oceans.",
+        "hi": "रिक्त स्थान के लिए सही शब्द चुनिए: If I ___ a bird, I would fly across the oceans.",
+        "mr": "रिकाम्या जागी योग्य शब्द निवडा: If I ___ a bird, I would fly across the oceans."
+      },
+      "optionsJson": [
+        { "en": "am", "hi": "am", "mr": "am" },
+        { "en": "will be", "hi": "will be", "mr": "will be" },
+        { "en": "were", "hi": "were", "mr": "were" },
+        { "en": "have been", "hi": "have been", "mr": "have been" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The sentence describes an imaginary situation (\"I would fly\"), so the \"if\" part uses \"were\" for all subjects.",
+        "hi": "वाक्य एक काल्पनिक स्थिति बताता है (\"I would fly\"), इसलिए \"if\" वाले भाग में सभी कर्ताओं के साथ \"were\" आता है।",
+        "mr": "वाक्य एक काल्पनिक परिस्थिती सांगते (\"I would fly\"), म्हणून \"if\" च्या भागात सर्व कर्त्यांसोबत \"were\" येते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "\"am\" states a real fact; an imaginary \"if\" clause needs \"were\".",
+          "hi": "\"am\" वास्तविक तथ्य बताता है; काल्पनिक \"if\" उपवाक्य में \"were\" चाहिए।",
+          "mr": "\"am\" वास्तविक वस्तुस्थिती सांगते; काल्पनिक \"if\" उपवाक्यात \"were\" हवे."
+        },
+        "1": {
+          "en": "\"will be\" is used for real future possibilities, and cannot go with \"would fly\".",
+          "hi": "\"will be\" वास्तविक भविष्य की संभावनाओं के लिए आता है और \"would fly\" के साथ नहीं चलता।",
+          "mr": "\"will be\" वास्तविक भविष्यकालीन शक्यतांसाठी येते आणि \"would fly\" सोबत जुळत नाही."
+        },
+        "3": {
+          "en": "\"have been\" is present perfect and does not suit an imaginary present situation.",
+          "hi": "\"have been\" पूर्ण वर्तमान काल है और काल्पनिक वर्तमान स्थिति के लिए उपयुक्त नहीं है।",
+          "mr": "\"have been\" पूर्ण वर्तमानकाळ आहे आणि काल्पनिक वर्तमान परिस्थितीसाठी योग्य नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-la-15",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Arrange the parts P, Q, R and S in the correct order to form a meaningful sentence. P: My uncle  Q: who works in a bank  R: has bought  S: a new scooter",
+        "hi": "P, Q, R और S को सही क्रम में लगाकर अर्थपूर्ण वाक्य बनाइए। P: My uncle  Q: who works in a bank  R: has bought  S: a new scooter",
+        "mr": "P, Q, R आणि S योग्य क्रमाने लावून अर्थपूर्ण वाक्य तयार करा. P: My uncle  Q: who works in a bank  R: has bought  S: a new scooter"
+      },
+      "optionsJson": [
+        { "en": "PRSQ", "hi": "PRSQ", "mr": "PRSQ" },
+        { "en": "QPRS", "hi": "QPRS", "mr": "QPRS" },
+        { "en": "SRQP", "hi": "SRQP", "mr": "SRQP" },
+        { "en": "PQRS", "hi": "PQRS", "mr": "PQRS" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "PQRS gives \"My uncle who works in a bank has bought a new scooter.\" The clause Q describes the uncle, so it must come right after P.",
+        "hi": "PQRS से वाक्य बनता है \"My uncle who works in a bank has bought a new scooter.\" Q उपवाक्य चाचा का वर्णन करता है, इसलिए उसे P के ठीक बाद आना चाहिए।",
+        "mr": "PQRS मुळे वाक्य तयार होते \"My uncle who works in a bank has bought a new scooter.\" Q उपवाक्य काकांचे वर्णन करते, म्हणून ते P च्या लगेच नंतर यायला हवे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "In PRSQ, \"who works in a bank\" ends up describing the scooter instead of the uncle, which is illogical.",
+          "hi": "PRSQ में \"who works in a bank\" चाचा की जगह स्कूटर का वर्णन करने लगता है, जो तर्कहीन है।",
+          "mr": "PRSQ मध्ये \"who works in a bank\" हे काकांऐवजी स्कूटरचे वर्णन करू लागते, जे तर्कसंगत नाही."
+        },
+        "1": {
+          "en": "QPRS starts with a clause \"who works in a bank\" that has nothing before it to describe.",
+          "hi": "QPRS की शुरुआत \"who works in a bank\" उपवाक्य से होती है, जिसके पहले कोई ऐसा शब्द नहीं जिसका यह वर्णन करे।",
+          "mr": "QPRS ची सुरुवात \"who works in a bank\" या उपवाक्याने होते, ज्याच्या आधी वर्णन करण्यासाठी कोणताही शब्द नाही."
+        },
+        "2": {
+          "en": "SRQP reads \"A new scooter has bought who works in a bank my uncle\", which is meaningless.",
+          "hi": "SRQP से \"A new scooter has bought who works in a bank my uncle\" बनता है, जो अर्थहीन है।",
+          "mr": "SRQP मुळे \"A new scooter has bought who works in a bank my uncle\" असे वाक्य तयार होते, जे अर्थहीन आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-la-16",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Choose the word opposite in meaning to \"generous\".",
+        "hi": "\"generous\" का विलोम (विपरीतार्थक) शब्द चुनिए।",
+        "mr": "\"generous\" चा विरुद्धार्थी शब्द निवडा."
+      },
+      "optionsJson": [
+        { "en": "kind", "hi": "kind", "mr": "kind" },
+        { "en": "stingy", "hi": "stingy", "mr": "stingy" },
+        { "en": "helpful", "hi": "helpful", "mr": "helpful" },
+        { "en": "wealthy", "hi": "wealthy", "mr": "wealthy" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "A generous person gives freely, while a stingy person hates to give or spend, so the two words are opposites.",
+        "hi": "उदार व्यक्ति खुले मन से देता है, जबकि कंजूस व्यक्ति देने या खर्च करने से कतराता है, इसलिए दोनों शब्द विलोम हैं।",
+        "mr": "उदार माणूस मोकळ्या मनाने देतो, तर कंजूष माणूस देण्यास किंवा खर्च करण्यास टाळतो, म्हणून हे दोन्ही शब्द विरुद्धार्थी आहेत."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "\"Kind\" is close in meaning to \"generous\", not opposite.",
+          "hi": "\"Kind\" का अर्थ \"generous\" के करीब है, विपरीत नहीं।",
+          "mr": "\"Kind\" चा अर्थ \"generous\" च्या जवळचा आहे, विरुद्ध नाही."
+        },
+        "2": {
+          "en": "\"Helpful\" is similar in spirit to \"generous\", not opposite.",
+          "hi": "\"Helpful\" भाव में \"generous\" जैसा ही है, विपरीत नहीं।",
+          "mr": "\"Helpful\" भावार्थाने \"generous\" सारखाच आहे, विरुद्ध नाही."
+        },
+        "3": {
+          "en": "\"Wealthy\" means rich; a wealthy person can be generous or stingy, so it is not the opposite.",
+          "hi": "\"Wealthy\" का अर्थ अमीर है; अमीर व्यक्ति उदार या कंजूस दोनों हो सकता है, इसलिए यह विलोम नहीं है।",
+          "mr": "\"Wealthy\" म्हणजे श्रीमंत; श्रीमंत माणूस उदार किंवा कंजूष दोन्ही असू शकतो, म्हणून हा विरुद्धार्थी शब्द नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-la-17",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Choose the correct meaning of the idiom \"to break the ice\".",
+        "hi": "मुहावरे \"to break the ice\" का सही अर्थ चुनिए।",
+        "mr": "\"to break the ice\" या वाक्प्रचाराचा योग्य अर्थ निवडा."
+      },
+      "optionsJson": [
+        { "en": "To start a friendly conversation in an awkward situation", "hi": "असहज स्थिति में मित्रतापूर्ण बातचीत शुरू करना", "mr": "अवघडलेल्या परिस्थितीत मैत्रीपूर्ण संभाषण सुरू करणे" },
+        { "en": "To smash a block of frozen water", "hi": "जमे हुए पानी की सिल्ली को तोड़ना", "mr": "गोठलेल्या पाण्याची लादी फोडणे" },
+        { "en": "To lose one's temper suddenly", "hi": "अचानक गुस्से में आ जाना", "mr": "अचानक रागावणे" },
+        { "en": "To become very cold", "hi": "बहुत ठंडा हो जाना", "mr": "खूप थंड होणे" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "\"To break the ice\" means to say or do something that makes people feel relaxed and begin talking, especially when they first meet.",
+        "hi": "\"To break the ice\" का अर्थ है कुछ ऐसा कहना या करना जिससे लोग सहज महसूस करें और बातचीत शुरू करें, खासकर पहली मुलाकात में।",
+        "mr": "\"To break the ice\" म्हणजे असे काहीतरी बोलणे किंवा करणे ज्यामुळे लोकांना सहज वाटते आणि ते बोलू लागतात, विशेषतः पहिल्या भेटीत."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "This is the literal meaning; the idiom has a figurative meaning about starting a conversation.",
+          "hi": "यह शाब्दिक अर्थ है; मुहावरे का आलंकारिक अर्थ बातचीत शुरू करने से जुड़ा है।",
+          "mr": "हा शाब्दिक अर्थ आहे; या वाक्प्रचाराचा लाक्षणिक अर्थ संभाषण सुरू करण्याशी संबंधित आहे."
+        },
+        "2": {
+          "en": "Losing one's temper is a different idea, expressed by idioms such as \"to lose one's cool\".",
+          "hi": "गुस्से में आ जाना अलग भाव है, जिसके लिए \"to lose one's cool\" जैसे मुहावरे होते हैं।",
+          "mr": "रागावणे हा वेगळा भाव आहे, ज्यासाठी \"to lose one's cool\" सारखे वाक्प्रचार आहेत."
+        },
+        "3": {
+          "en": "The idiom has nothing to do with temperature or feeling cold.",
+          "hi": "इस मुहावरे का तापमान या ठंड लगने से कोई संबंध नहीं है।",
+          "mr": "या वाक्प्रचाराचा तापमानाशी किंवा थंडी वाजण्याशी काहीही संबंध नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-la-18",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Choose one word for the following: A person who can speak two languages fluently.",
+        "hi": "निम्नलिखित के लिए एक शब्द चुनिए: वह व्यक्ति जो दो भाषाएँ धाराप्रवाह बोल सकता हो।",
+        "mr": "खालील वर्णनासाठी एक शब्द निवडा: दोन भाषा अस्खलितपणे बोलू शकणारी व्यक्ती."
+      },
+      "optionsJson": [
+        { "en": "bilateral", "hi": "bilateral", "mr": "bilateral" },
+        { "en": "bifocal", "hi": "bifocal", "mr": "bifocal" },
+        { "en": "bilingual", "hi": "bilingual", "mr": "bilingual" },
+        { "en": "biennial", "hi": "biennial", "mr": "biennial" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "\"Bilingual\" comes from \"bi\" (two) and \"lingual\" (of language), so it describes someone who speaks two languages.",
+        "hi": "\"Bilingual\" शब्द \"bi\" (दो) और \"lingual\" (भाषा से संबंधित) से बना है, इसलिए यह दो भाषाएँ बोलने वाले व्यक्ति को बताता है।",
+        "mr": "\"Bilingual\" हा शब्द \"bi\" (दोन) आणि \"lingual\" (भाषेशी संबंधित) यापासून बनला आहे, म्हणून तो दोन भाषा बोलणाऱ्या व्यक्तीचे वर्णन करतो."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "\"Bilateral\" means involving two sides or two parties, such as a bilateral agreement.",
+          "hi": "\"Bilateral\" का अर्थ है दो पक्षों या दो पहलुओं से जुड़ा, जैसे द्विपक्षीय समझौता।",
+          "mr": "\"Bilateral\" म्हणजे दोन बाजू किंवा दोन पक्षांशी संबंधित, जसे द्विपक्षीय करार."
+        },
+        "1": {
+          "en": "\"Bifocal\" describes spectacles whose lenses have two focal parts.",
+          "hi": "\"Bifocal\" उस चश्मे के लिए है जिसके लेंस में दो फोकस वाले भाग होते हैं।",
+          "mr": "\"Bifocal\" हा दोन फोकस भाग असलेल्या लेन्सच्या चष्म्यासाठी वापरतात."
+        },
+        "3": {
+          "en": "\"Biennial\" means happening once every two years.",
+          "hi": "\"Biennial\" का अर्थ है हर दो साल में एक बार होने वाला।",
+          "mr": "\"Biennial\" म्हणजे दर दोन वर्षांतून एकदा होणारे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-la-19",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Read the passage and answer the question.\n\nTara spent her summer holidays in her grandmother's village. Every morning she woke up to the crowing of roosters and helped her grandmother milk the cow. In the afternoons she played under the old banyan tree with the village children. When it was time to leave, Tara hugged everyone and promised to return the next summer.\n\nWhy did Tara promise to return the next summer?",
+        "hi": "गद्यांश पढ़िए और प्रश्न का उत्तर दीजिए।\n\nतारा ने अपनी गर्मी की छुट्टियाँ अपनी दादी के गाँव में बिताईं। हर सुबह वह मुर्गों की बाँग सुनकर जागती और दादी की गाय का दूध दुहने में मदद करती थी। दोपहर में वह पुराने बरगद के पेड़ के नीचे गाँव के बच्चों के साथ खेलती थी। जाने का समय आया तो तारा ने सबको गले लगाया और अगली गर्मियों में लौटने का वादा किया।\n\nतारा ने अगली गर्मियों में लौटने का वादा क्यों किया?",
+        "mr": "उतारा वाचा आणि प्रश्नाचे उत्तर द्या.\n\nताराने उन्हाळ्याच्या सुट्ट्या आजीच्या गावात घालवल्या. दररोज सकाळी ती कोंबड्यांच्या आरवण्याने जागी होई आणि आजीला गायीचे दूध काढण्यात मदत करी. दुपारी ती जुन्या वडाच्या झाडाखाली गावातील मुलांसोबत खेळत असे. निघण्याची वेळ आली तेव्हा ताराने सर्वांना मिठी मारली आणि पुढच्या उन्हाळ्यात परत येण्याचे वचन दिले.\n\nताराने पुढच्या उन्हाळ्यात परत येण्याचे वचन का दिले?"
+      },
+      "optionsJson": [
+        { "en": "She wanted to buy a cow from the village", "hi": "वह गाँव से एक गाय खरीदना चाहती थी", "mr": "तिला गावातून एक गाय विकत घ्यायची होती" },
+        { "en": "Her school was going to shift to the village", "hi": "उसका स्कूल गाँव में स्थानांतरित होने वाला था", "mr": "तिची शाळा गावात हलवली जाणार होती" },
+        { "en": "Her grandmother was unwell", "hi": "उसकी दादी बीमार थीं", "mr": "तिची आजी आजारी होती" },
+        { "en": "She had enjoyed her stay in the village", "hi": "उसे गाँव में रहना अच्छा लगा था", "mr": "तिला गावातील मुक्काम आवडला होता" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "The passage describes Tara's happy mornings and afternoons in the village and her warm goodbye, which shows she enjoyed her stay and wished to come back.",
+        "hi": "गद्यांश तारा की गाँव की खुशनुमा सुबहों और दोपहरों तथा उसकी आत्मीय विदाई का वर्णन करता है, जिससे पता चलता है कि उसे वहाँ रहना अच्छा लगा और वह लौटना चाहती थी।",
+        "mr": "उतारा ताराच्या गावातील आनंदी सकाळी-दुपारी आणि तिच्या प्रेमळ निरोपाचे वर्णन करतो, यावरून तिला तिथला मुक्काम आवडला आणि तिला परत यायचे होते हे समजते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Nothing in the passage says Tara wanted to buy a cow; she only helped milk her grandmother's cow.",
+          "hi": "गद्यांश में कहीं नहीं कहा गया कि तारा गाय खरीदना चाहती थी; उसने केवल दादी की गाय का दूध दुहने में मदद की।",
+          "mr": "ताराला गाय विकत घ्यायची होती असे उताऱ्यात कुठेही नाही; तिने फक्त आजीच्या गायीचे दूध काढण्यात मदत केली."
+        },
+        "1": {
+          "en": "The passage does not mention any plan to shift her school.",
+          "hi": "गद्यांश में उसके स्कूल के स्थानांतरण की किसी योजना का उल्लेख नहीं है।",
+          "mr": "तिची शाळा हलवण्याच्या कोणत्याही योजनेचा उल्लेख उताऱ्यात नाही."
+        },
+        "2": {
+          "en": "There is no hint in the passage that the grandmother was unwell.",
+          "hi": "गद्यांश में ऐसा कोई संकेत नहीं है कि दादी बीमार थीं।",
+          "mr": "आजी आजारी होती असा कोणताही संकेत उताऱ्यात नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-la-20",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Read the passage and answer the question.\n\nHoney bees pass on information through a special dance. When a worker bee finds flowers rich in nectar, it returns to the hive and dances in a pattern that shows the direction and distance of the flowers. The faster the dance, the nearer the flowers are. This remarkable system helps the whole colony gather food quickly.\n\nWhat is the main idea of the passage?",
+        "hi": "गद्यांश पढ़िए और प्रश्न का उत्तर दीजिए।\n\nमधुमक्खियाँ एक खास नृत्य के ज़रिए जानकारी देती हैं। जब कोई श्रमिक मधुमक्खी ऐसे फूल खोज लेती है जिनमें भरपूर रस होता है, तो वह छत्ते में लौटकर ऐसा नृत्य करती है जो फूलों की दिशा और दूरी बताता है। नृत्य जितना तेज़ होता है, फूल उतने ही पास होते हैं। यह अद्भुत व्यवस्था पूरी बस्ती को जल्दी भोजन जुटाने में मदद करती है।\n\nइस गद्यांश का मुख्य विचार क्या है?",
+        "mr": "उतारा वाचा आणि प्रश्नाचे उत्तर द्या.\n\nमधमाश्या एका खास नृत्याद्वारे माहिती देतात. एखाद्या कामकरी मधमाशीला भरपूर मकरंद असलेली फुले सापडली की ती पोळ्यात परत येऊन अशा प्रकारे नाचते की त्यातून फुलांची दिशा आणि अंतर समजते. नृत्य जितके वेगवान, तितकी फुले जवळ असतात. ही अद्भुत व्यवस्था संपूर्ण वसाहतीला अन्न पटकन गोळा करण्यात मदत करते.\n\nया उताऱ्याची मध्यवर्ती कल्पना कोणती?"
+      },
+      "optionsJson": [
+        { "en": "Honey bees prefer to live in large hives", "hi": "मधुमक्खियाँ बड़े छत्तों में रहना पसंद करती हैं", "mr": "मधमाश्यांना मोठ्या पोळ्यांत राहायला आवडते" },
+        { "en": "Honey bees use a dance to tell one another where food is found", "hi": "मधुमक्खियाँ नृत्य के ज़रिए एक-दूसरे को बताती हैं कि भोजन कहाँ मिलेगा", "mr": "मधमाश्या नृत्याद्वारे अन्न कुठे मिळेल हे एकमेकींना सांगतात" },
+        { "en": "Worker bees dance only when they are tired", "hi": "श्रमिक मधुमक्खियाँ केवल तब नृत्य करती हैं जब वे थक जाती हैं", "mr": "कामकरी मधमाश्या फक्त थकल्यावरच नाचतात" },
+        { "en": "Honey bees can make honey from only a few kinds of flowers", "hi": "मधुमक्खियाँ केवल कुछ ही प्रकार के फूलों से शहद बना सकती हैं", "mr": "मधमाश्या फक्त काही प्रकारच्या फुलांपासूनच मध बनवू शकतात" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Every sentence of the passage explains how the bees' dance shows the direction and distance of food, so that is the main idea.",
+        "hi": "गद्यांश का हर वाक्य बताता है कि मधुमक्खियों का नृत्य भोजन की दिशा और दूरी कैसे दर्शाता है, इसलिए यही मुख्य विचार है।",
+        "mr": "उताऱ्यातील प्रत्येक वाक्य मधमाश्यांचे नृत्य अन्नाची दिशा आणि अंतर कसे दाखवते हे सांगते, म्हणून हीच मध्यवर्ती कल्पना आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The passage says nothing about the size of hives or where bees prefer to live.",
+          "hi": "गद्यांश में छत्तों के आकार या मधुमक्खियों के पसंदीदा निवास के बारे में कुछ नहीं कहा गया।",
+          "mr": "उताऱ्यात पोळ्यांच्या आकाराबद्दल किंवा मधमाश्यांच्या आवडत्या निवासाबद्दल काहीही सांगितलेले नाही."
+        },
+        "2": {
+          "en": "The bee dances to share information about flowers, not because it is tired.",
+          "hi": "मधुमक्खी फूलों की जानकारी देने के लिए नृत्य करती है, थकान के कारण नहीं।",
+          "mr": "मधमाशी फुलांची माहिती देण्यासाठी नाचते, थकल्यामुळे नाही."
+        },
+        "3": {
+          "en": "The passage does not discuss which flowers honey can be made from.",
+          "hi": "गद्यांश में यह चर्चा नहीं है कि शहद किन फूलों से बन सकता है।",
+          "mr": "मध कोणत्या फुलांपासून बनू शकतो याची चर्चा उताऱ्यात नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-la-21",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Choose the grammatically correct sentence.",
+        "hi": "व्याकरण की दृष्टि से सही वाक्य चुनिए।",
+        "mr": "व्याकरणदृष्ट्या योग्य वाक्य निवडा."
+      },
+      "optionsJson": [
+        { "en": "Scarcely had she opened the door than the phone rang.", "hi": "Scarcely had she opened the door than the phone rang.", "mr": "Scarcely had she opened the door than the phone rang." },
+        { "en": "Hardly he had reached the station when the train left.", "hi": "Hardly he had reached the station when the train left.", "mr": "Hardly he had reached the station when the train left." },
+        { "en": "Hardly had he reached the station when the train left.", "hi": "Hardly had he reached the station when the train left.", "mr": "Hardly had he reached the station when the train left." },
+        { "en": "No sooner had they sat down when the lights went out.", "hi": "No sooner had they sat down when the lights went out.", "mr": "No sooner had they sat down when the lights went out." }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "\"Hardly\" at the start of a sentence is followed by the inverted order \"had he\" and is paired with \"when\".",
+        "hi": "वाक्य के आरंभ में \"Hardly\" के बाद उलटा क्रम \"had he\" आता है और इसके साथ \"when\" जुड़ता है।",
+        "mr": "वाक्याच्या सुरुवातीला \"Hardly\" नंतर उलटा क्रम \"had he\" येतो आणि त्यासोबत \"when\" जोडले जाते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "\"Scarcely\" pairs with \"when\", not \"than\".",
+          "hi": "\"Scarcely\" के साथ \"when\" आता है, \"than\" नहीं।",
+          "mr": "\"Scarcely\" सोबत \"when\" येते, \"than\" नाही."
+        },
+        "1": {
+          "en": "After \"Hardly\" the helping verb must come before the subject: \"had he\", not \"he had\".",
+          "hi": "\"Hardly\" के बाद सहायक क्रिया कर्ता से पहले आती है: \"had he\", \"he had\" नहीं।",
+          "mr": "\"Hardly\" नंतर सहायक क्रियापद कर्त्याच्या आधी येते: \"had he\", \"he had\" नाही."
+        },
+        "3": {
+          "en": "\"No sooner\" pairs with \"than\", not \"when\".",
+          "hi": "\"No sooner\" के साथ \"than\" आता है, \"when\" नहीं।",
+          "mr": "\"No sooner\" सोबत \"than\" येते, \"when\" नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-la-22",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Choose the correct passive form of the sentence: Open the door.",
+        "hi": "वाक्य का सही कर्मवाच्य रूप चुनिए: Open the door.",
+        "mr": "वाक्याचे योग्य कर्मणी रूप निवडा: Open the door."
+      },
+      "optionsJson": [
+        { "en": "Let the door be opened.", "hi": "Let the door be opened.", "mr": "Let the door be opened." },
+        { "en": "The door is opened.", "hi": "The door is opened.", "mr": "The door is opened." },
+        { "en": "Let the door opened.", "hi": "Let the door opened.", "mr": "Let the door opened." },
+        { "en": "The door should open.", "hi": "The door should open.", "mr": "The door should open." }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "The passive of an imperative sentence is formed with \"Let + object + be + past participle\", so \"Open the door\" becomes \"Let the door be opened\".",
+        "hi": "आज्ञार्थक वाक्य का कर्मवाच्य \"Let + कर्म + be + past participle\" से बनता है, इसलिए \"Open the door\" का रूप \"Let the door be opened\" होता है।",
+        "mr": "आज्ञार्थी वाक्याचे कर्मणी रूप \"Let + कर्म + be + past participle\" याने बनते, म्हणून \"Open the door\" चे \"Let the door be opened\" होते."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "This is a plain statement in the simple present passive and loses the sense of a command.",
+          "hi": "यह साधारण वर्तमान काल का सामान्य कथन है और इसमें आदेश का भाव नहीं रहता।",
+          "mr": "हे साध्या वर्तमानकाळातील साधे विधान आहे आणि त्यात आज्ञेचा भाव राहत नाही."
+        },
+        "2": {
+          "en": "\"be\" is missing; the correct pattern is \"Let ... be opened\".",
+          "hi": "इसमें \"be\" छूट गया है; सही रचना \"Let ... be opened\" है।",
+          "mr": "यात \"be\" राहिले आहे; योग्य रचना \"Let ... be opened\" अशी आहे."
+        },
+        "3": {
+          "en": "\"should open\" is an active form (the door opens by itself), not a passive one.",
+          "hi": "\"should open\" सक्रिय रूप है (दरवाज़ा खुद खुले), कर्मवाच्य नहीं।",
+          "mr": "\"should open\" हे कर्तरी रूप आहे (दार आपोआप उघडावे), कर्मणी नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-la-23",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Arrange the sentences in the correct order to form a meaningful paragraph. P: He packed his bag and ran to the bus stop.  Q: Arjun woke up late on Monday morning.  R: Luckily, the bus was a few minutes late.  S: He caught it just in time and reached school before the bell.",
+        "hi": "वाक्यों को सही क्रम में लगाकर अर्थपूर्ण अनुच्छेद बनाइए। P: He packed his bag and ran to the bus stop.  Q: Arjun woke up late on Monday morning.  R: Luckily, the bus was a few minutes late.  S: He caught it just in time and reached school before the bell.",
+        "mr": "वाक्ये योग्य क्रमाने लावून अर्थपूर्ण परिच्छेद तयार करा. P: He packed his bag and ran to the bus stop.  Q: Arjun woke up late on Monday morning.  R: Luckily, the bus was a few minutes late.  S: He caught it just in time and reached school before the bell."
+      },
+      "optionsJson": [
+        { "en": "PQRS", "hi": "PQRS", "mr": "PQRS" },
+        { "en": "QPSR", "hi": "QPSR", "mr": "QPSR" },
+        { "en": "QRPS", "hi": "QRPS", "mr": "QRPS" },
+        { "en": "QPRS", "hi": "QPRS", "mr": "QPRS" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Q introduces Arjun, P shows his hurry, R says the bus was late, and S tells the result: he caught \"it\" (the bus) in time. So the order is QPRS.",
+        "hi": "Q में अर्जुन का परिचय है, P में उसकी जल्दबाज़ी है, R में बताया गया है कि बस देर से थी, और S में परिणाम है कि उसने \"it\" (बस) समय पर पकड़ ली। इसलिए क्रम QPRS है।",
+        "mr": "Q मध्ये अर्जुनची ओळख आहे, P मध्ये त्याची घाई दिसते, R मध्ये बस उशिरा होती असे सांगितले आहे आणि S मध्ये परिणाम आहे की त्याने \"it\" (बस) वेळेवर पकडली. म्हणून क्रम QPRS आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "PQRS begins with \"He\" before we know who \"He\" is; Arjun is introduced only in Q.",
+          "hi": "PQRS \"He\" से शुरू होता है जबकि पता ही नहीं कि \"He\" कौन है; अर्जुन का परिचय केवल Q में है।",
+          "mr": "PQRS ची सुरुवात \"He\" ने होते, पण \"He\" कोण ते माहीत नाही; अर्जुनची ओळख फक्त Q मध्ये आहे."
+        },
+        "1": {
+          "en": "In QPSR, \"it\" in S refers to the bus, which is explained only later in R, so the ending feels broken.",
+          "hi": "QPSR में S का \"it\" बस के लिए है, जिसकी बात R में बाद में आती है, इसलिए अंत बिखरा हुआ लगता है।",
+          "mr": "QPSR मध्ये S मधील \"it\" बससाठी आहे, जिचा उल्लेख R मध्ये नंतर येतो, म्हणून शेवट विस्कळीत वाटतो."
+        },
+        "2": {
+          "en": "In QRPS, \"Luckily, the bus was late\" comes before he even leaves home, so \"Luckily\" has no reason yet.",
+          "hi": "QRPS में \"Luckily, the bus was late\" उसके घर से निकलने से पहले ही आ जाता है, इसलिए \"Luckily\" का कोई कारण नहीं बनता।",
+          "mr": "QRPS मध्ये \"Luckily, the bus was late\" तो घरातून निघण्याआधीच येते, म्हणून \"Luckily\" ला अजून कारण नसते."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-la-24",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Choose the correct word group to fill the blank: By next April, my parents ___ in this city for twenty years.",
+        "hi": "रिक्त स्थान के लिए सही शब्द-समूह चुनिए: By next April, my parents ___ in this city for twenty years.",
+        "mr": "रिकाम्या जागी योग्य शब्दसमूह निवडा: By next April, my parents ___ in this city for twenty years."
+      },
+      "optionsJson": [
+        { "en": "will live", "hi": "will live", "mr": "will live" },
+        { "en": "will have lived", "hi": "will have lived", "mr": "will have lived" },
+        { "en": "have lived", "hi": "have lived", "mr": "have lived" },
+        { "en": "would live", "hi": "would live", "mr": "would live" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "The sentence talks about a period that will be complete by a point in the future (\"By next April\"), so the future perfect \"will have lived\" is used.",
+        "hi": "वाक्य एक ऐसी अवधि के बारे में है जो भविष्य के एक बिंदु (\"By next April\") तक पूरी हो जाएगी, इसलिए पूर्ण भविष्यत् काल \"will have lived\" आता है।",
+        "mr": "वाक्य भविष्यातील एका बिंदूपर्यंत (\"By next April\") पूर्ण होणाऱ्या कालावधीबद्दल आहे, म्हणून पूर्ण भविष्यकाळ \"will have lived\" येतो."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "\"will live\" is simple future and does not show the completed twenty years by next April.",
+          "hi": "\"will live\" साधारण भविष्यत् काल है और अगले अप्रैल तक पूरे हुए बीस वर्ष नहीं दर्शाता।",
+          "mr": "\"will live\" साधा भविष्यकाळ आहे आणि पुढच्या एप्रिलपर्यंत पूर्ण झालेली वीस वर्षे दाखवत नाही."
+        },
+        "2": {
+          "en": "\"have lived\" is present perfect and cannot go with a future time expression like \"By next April\".",
+          "hi": "\"have lived\" पूर्ण वर्तमान काल है और \"By next April\" जैसे भविष्य-सूचक पद के साथ नहीं आ सकता।",
+          "mr": "\"have lived\" पूर्ण वर्तमानकाळ आहे आणि \"By next April\" सारख्या भविष्यदर्शक शब्दांसोबत येऊ शकत नाही."
+        },
+        "3": {
+          "en": "\"would live\" expresses a past habit or an imaginary situation, not a duration completed in the future.",
+          "hi": "\"would live\" बीती आदत या काल्पनिक स्थिति दर्शाता है, भविष्य में पूरी होने वाली अवधि नहीं।",
+          "mr": "\"would live\" भूतकाळातील सवय किंवा काल्पनिक परिस्थिती दाखवते, भविष्यात पूर्ण होणारा कालावधी नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-la-25",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Choose the correct indirect speech of the sentence: Mother said to me, \"Where are you going?\"",
+        "hi": "वाक्य का सही अप्रत्यक्ष कथन (Indirect Speech) चुनिए: Mother said to me, \"Where are you going?\"",
+        "mr": "वाक्याचे योग्य अप्रत्यक्ष कथन (Indirect Speech) निवडा: Mother said to me, \"Where are you going?\""
+      },
+      "optionsJson": [
+        { "en": "Mother told me where I was going.", "hi": "Mother told me where I was going.", "mr": "Mother told me where I was going." },
+        { "en": "Mother asked me where was I going.", "hi": "Mother asked me where was I going.", "mr": "Mother asked me where was I going." },
+        { "en": "Mother asked me where I was going.", "hi": "Mother asked me where I was going.", "mr": "Mother asked me where I was going." },
+        { "en": "Mother asked me that where I was going.", "hi": "Mother asked me that where I was going.", "mr": "Mother asked me that where I was going." }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "A question is reported with \"asked\", the question word \"where\" is kept, the word order becomes that of a statement, \"you\" becomes \"I\", and \"are going\" shifts back to \"was going\".",
+        "hi": "प्रश्न को \"asked\" से बताया जाता है, प्रश्नवाचक शब्द \"where\" रहता है, शब्द-क्रम सामान्य कथन जैसा हो जाता है, \"you\" बदलकर \"I\" और \"are going\" बदलकर \"was going\" हो जाता है।",
+        "mr": "प्रश्न \"asked\" ने सांगतात, प्रश्नवाचक शब्द \"where\" तसाच राहतो, शब्दक्रम विधानासारखा होतो, \"you\" चे \"I\" आणि \"are going\" चे \"was going\" होते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "\"told\" is used for statements; a question is reported with \"asked\".",
+          "hi": "\"told\" कथनों के लिए प्रयोग होता है; प्रश्न को \"asked\" से बताया जाता है।",
+          "mr": "\"told\" विधानांसाठी वापरतात; प्रश्न \"asked\" ने सांगतात."
+        },
+        "1": {
+          "en": "In reported questions the word order is that of a statement: \"I was going\", not \"was I going\".",
+          "hi": "अप्रत्यक्ष प्रश्न में शब्द-क्रम सामान्य कथन जैसा होता है: \"I was going\", \"was I going\" नहीं।",
+          "mr": "अप्रत्यक्ष प्रश्नात शब्दक्रम विधानासारखा असतो: \"I was going\", \"was I going\" नाही."
+        },
+        "3": {
+          "en": "\"that\" is not used before a question word in reported questions.",
+          "hi": "अप्रत्यक्ष प्रश्न में प्रश्नवाचक शब्द से पहले \"that\" नहीं लगता।",
+          "mr": "अप्रत्यक्ष प्रश्नात प्रश्नवाचक शब्दाआधी \"that\" वापरत नाही."
+        }
+      }
+    }
+  ]
+}

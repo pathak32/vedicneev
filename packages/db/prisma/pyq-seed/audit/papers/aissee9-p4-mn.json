@@ -1,0 +1,484 @@
+{
+  "examType": "AISSEE",
+  "classLevel": 9,
+  "paperNumber": 4,
+  "sectionKey": "mental_ability",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "aissee9-p4-mn-01",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "In a certain code, MANGO is written as NBOHP. How will APPLE be written in that code?", "hi": "एक निश्चित कूट भाषा में MANGO को NBOHP लिखा जाता है। उसी कूट में APPLE को कैसे लिखा जाएगा?" },
+      "optionsJson": [
+        { "en": "BQPMF", "hi": "BQPMF" },
+        { "en": "CQQMF", "hi": "CQQMF" },
+        { "en": "BQQMF", "hi": "BQQMF" },
+        { "en": "BPQMF", "hi": "BPQMF" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Each letter is replaced by the next letter of the alphabet: M→N, A→B, N→O, G→H, O→P. So A→B, P→Q, P→Q, L→M, E→F, giving BQQMF.", "hi": "प्रत्येक अक्षर को वर्णमाला के अगले अक्षर से बदला गया है: M→N, A→B, N→O, G→H, O→P। अतः A→B, P→Q, P→Q, L→M, E→F, जिससे BQQMF बनता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Shifts the first P but leaves the second P unchanged.", "hi": "पहले P को बदलता है, पर दूसरे P को अपरिवर्तित छोड़ देता है।" },
+        "1": { "en": "Shifts the first letter A by two places instead of one.", "hi": "पहले अक्षर A को एक के बजाय दो स्थान आगे खिसका देता है।" },
+        "3": { "en": "Leaves the first P unchanged but shifts the second P.", "hi": "पहले P को अपरिवर्तित छोड़ देता है, पर दूसरे P को बदलता है।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-mn-02",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Rahul walks 5 km towards the north, then turns right and walks 12 km. How far is he from his starting point?", "hi": "राहुल उत्तर की ओर 5 किमी चलता है, फिर दाएँ मुड़कर 12 किमी चलता है। वह अपने प्रारंभिक बिंदु से कितनी दूरी पर है?" },
+      "optionsJson": [
+        { "en": "13 km", "hi": "13 किमी" },
+        { "en": "17 km", "hi": "17 किमी" },
+        { "en": "7 km", "hi": "7 किमी" },
+        { "en": "15 km", "hi": "15 किमी" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The two walks are at right angles (north, then east), so the straight-line distance is √(5² + 12²) = √169 = 13 km.", "hi": "दोनों यात्राएँ समकोण पर हैं (पहले उत्तर, फिर पूर्व), इसलिए सीधी दूरी √(5² + 12²) = √169 = 13 किमी है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Adds the two distances (5 + 12) instead of using Pythagoras' theorem.", "hi": "पाइथागोरस प्रमेय के बजाय दोनों दूरियों को जोड़ देता है (5 + 12)।" },
+        "2": { "en": "Subtracts the distances (12 − 5), which is valid only for opposite directions.", "hi": "दूरियों को घटाता है (12 − 5), जो केवल विपरीत दिशाओं में चलने पर सही होता है।" },
+        "3": { "en": "Not supported by the right-angled triangle: 15² = 225, not 169.", "hi": "समकोण त्रिभुज से मेल नहीं खाता: 15² = 225 है, 169 नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-mn-03",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Ravi ranks 7th from the top in a class of 30 students. What is his rank from the bottom?", "hi": "30 विद्यार्थियों की कक्षा में रवि का स्थान ऊपर से 7वाँ है। नीचे से उसका स्थान कौन-सा है?" },
+      "optionsJson": [
+        { "en": "23rd", "hi": "23वाँ" },
+        { "en": "22nd", "hi": "22वाँ" },
+        { "en": "25th", "hi": "25वाँ" },
+        { "en": "24th", "hi": "24वाँ" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Rank from the bottom = total − rank from the top + 1 = 30 − 7 + 1 = 24.", "hi": "नीचे से स्थान = कुल − ऊपर से स्थान + 1 = 30 − 7 + 1 = 24।" },
+      "distractorAnalysis": {
+        "0": { "en": "Computes 30 − 7 and forgets to add 1 for Ravi himself.", "hi": "30 − 7 निकालता है और रवि को गिनने के लिए 1 जोड़ना भूल जाता है।" },
+        "1": { "en": "Subtracts an extra 1 instead of adding 1.", "hi": "1 जोड़ने के बजाय एक और 1 घटा देता है।" },
+        "2": { "en": "Overcounts by one by adding 2 instead of 1.", "hi": "1 के बजाय 2 जोड़कर एक अधिक गिन लेता है।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-mn-04",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Find the odd one out from the numbers: 27, 64, 100, 8", "hi": "दी गई संख्याओं में से असंगत संख्या चुनें: 27, 64, 100, 8" },
+      "optionsJson": [
+        { "en": "64", "hi": "64" },
+        { "en": "100", "hi": "100" },
+        { "en": "27", "hi": "27" },
+        { "en": "8", "hi": "8" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "8 = 2³, 27 = 3³ and 64 = 4³ are perfect cubes, but 100 is not a perfect cube (it is the perfect square 10²).", "hi": "8 = 2³, 27 = 3³ और 64 = 4³ पूर्ण घन हैं, परन्तु 100 पूर्ण घन नहीं है (यह पूर्ण वर्ग 10² है)।" },
+      "distractorAnalysis": {
+        "0": { "en": "64 = 4³ is a perfect cube, so it belongs to the majority group.", "hi": "64 = 4³ पूर्ण घन है, इसलिए यह बहुसंख्यक समूह का भाग है।" },
+        "2": { "en": "27 = 3³ is a perfect cube, so it belongs to the majority group.", "hi": "27 = 3³ पूर्ण घन है, इसलिए यह बहुसंख्यक समूह का भाग है।" },
+        "3": { "en": "8 = 2³ is a perfect cube, so it belongs to the majority group.", "hi": "8 = 2³ पूर्ण घन है, इसलिए यह बहुसंख्यक समूह का भाग है।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-mn-05",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "In a certain code, BOOK is written as YLLP. How will MILK be written in that code?", "hi": "एक निश्चित कूट में BOOK को YLLP लिखा जाता है। उसी कूट में MILK को कैसे लिखा जाएगा?" },
+      "optionsJson": [
+        { "en": "NROP", "hi": "NROP" },
+        { "en": "NQOP", "hi": "NQOP" },
+        { "en": "MROP", "hi": "MROP" },
+        { "en": "NROQ", "hi": "NROQ" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Each letter is replaced by its opposite letter (A↔Z, B↔Y, ...): B→Y, O→L, K→P. So M→N, I→R, L→O, K→P, giving NROP.", "hi": "प्रत्येक अक्षर को उसके विपरीत अक्षर (A↔Z, B↔Y, ...) से बदला गया है: B→Y, O→L, K→P। अतः M→N, I→R, L→O, K→P, जिससे NROP बनता है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Gives Q for I; the opposite of I (9th letter) is R (18th letter).", "hi": "I के लिए Q देता है; I (9वाँ अक्षर) का विपरीत अक्षर R (18वाँ अक्षर) है।" },
+        "2": { "en": "Leaves the first letter M unchanged instead of converting it to N.", "hi": "पहले अक्षर M को N में बदलने के बजाय वैसा ही छोड़ देता है।" },
+        "3": { "en": "Gives Q for K; the code for K is P, as shown in BOOK → YLLP.", "hi": "K के लिए Q देता है; K का कूट P है, जैसा BOOK → YLLP में दिखता है।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-mn-06",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A person facing East turns 90° anticlockwise and then 135° clockwise. In which direction is he facing now?", "hi": "पूर्व की ओर मुँह किए एक व्यक्ति पहले 90° वामावर्त घूमता है और फिर 135° दक्षिणावर्त घूमता है। अब उसका मुँह किस दिशा में है?" },
+      "optionsJson": [
+        { "en": "South-West", "hi": "दक्षिण-पश्चिम" },
+        { "en": "North-East", "hi": "उत्तर-पूर्व" },
+        { "en": "South-East", "hi": "दक्षिण-पूर्व" },
+        { "en": "East", "hi": "पूर्व" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The net turn is 135° − 90° = 45° clockwise from East. A 45° clockwise turn from East gives South-East.", "hi": "कुल घुमाव पूर्व से 135° − 90° = 45° दक्षिणावर्त है। पूर्व से 45° दक्षिणावर्त घूमने पर दक्षिण-पूर्व दिशा मिलती है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Would result from turning 135° anticlockwise from North, not clockwise.", "hi": "यह उत्तर से 135° वामावर्त घूमने पर मिलता, दक्षिणावर्त नहीं।" },
+        "1": { "en": "Would be the result of a 45° anticlockwise net turn, the wrong sense of rotation.", "hi": "यह 45° वामावर्त कुल घुमाव का परिणाम होता, जो घुमाव की गलत दिशा है।" },
+        "3": { "en": "Ignores the leftover 45° after the two turns partly cancel.", "hi": "दोनों घुमावों के आंशिक रूप से कटने के बाद बचे 45° को अनदेखा कर देता है।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-mn-07",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "In a row of girls, Meena is 12th from the left and Sita is 15th from the right. If they interchange their positions, Meena becomes 20th from the left. How many girls are there in the row?", "hi": "लड़कियों की एक पंक्ति में मीना बाएँ से 12वें और सीता दाएँ से 15वें स्थान पर है। यदि वे आपस में स्थान बदल लें, तो मीना बाएँ से 20वें स्थान पर आ जाती है। पंक्ति में कुल कितनी लड़कियाँ हैं?" },
+      "optionsJson": [
+        { "en": "33", "hi": "33" },
+        { "en": "35", "hi": "35" },
+        { "en": "36", "hi": "36" },
+        { "en": "34", "hi": "34" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "After the interchange Meena stands where Sita stood, so Sita's original place is 20th from the left and 15th from the right. Total = 20 + 15 − 1 = 34.", "hi": "स्थान बदलने के बाद मीना वहाँ खड़ी है जहाँ पहले सीता थी, इसलिए सीता का मूल स्थान बाएँ से 20वाँ और दाएँ से 15वाँ है। कुल = 20 + 15 − 1 = 34।" },
+      "distractorAnalysis": {
+        "0": { "en": "Subtracts 2 instead of 1, undercounting by one.", "hi": "1 के बजाय 2 घटाता है, जिससे एक कम गिनती होती है।" },
+        "1": { "en": "Adds 20 + 15 without removing the girl who is counted twice.", "hi": "20 + 15 जोड़ देता है और दो बार गिनी गई लड़की को नहीं घटाता।" },
+        "2": { "en": "Adds an extra 1 instead of subtracting 1, overcounting by two.", "hi": "1 घटाने के बजाय 1 और जोड़ देता है, जिससे दो अधिक गिनती होती है।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-mn-08",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Pointing to a man, Sunita says, “He is the son of my mother’s only brother.” How is the man related to Sunita?", "hi": "एक पुरुष की ओर संकेत करते हुए सुनीता कहती है, “यह मेरी माँ के इकलौते भाई का पुत्र है।” वह पुरुष सुनीता का कौन है?" },
+      "optionsJson": [
+        { "en": "Brother", "hi": "भाई" },
+        { "en": "Cousin", "hi": "ममेरा भाई" },
+        { "en": "Uncle", "hi": "मामा" },
+        { "en": "Nephew", "hi": "भतीजा" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Sunita’s mother’s only brother is her maternal uncle (mama). His son is Sunita’s maternal cousin.", "hi": "सुनीता की माँ का इकलौता भाई उसका मामा है। मामा का पुत्र सुनीता का ममेरा भाई है।" },
+      "distractorAnalysis": {
+        "0": { "en": "A brother would be a son of Sunita’s own parents, not of her uncle.", "hi": "सगा भाई सुनीता के अपने माता-पिता का पुत्र होता, मामा का नहीं।" },
+        "2": { "en": "The maternal uncle is the father of this man, not the man himself.", "hi": "मामा इस पुरुष के पिता हैं, स्वयं यह पुरुष नहीं।" },
+        "3": { "en": "A nephew would be the son of Sunita’s brother or sister.", "hi": "भतीजा सुनीता के भाई या बहन का पुत्र होता है।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-mn-09",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "In a certain code language, 'we eat mango' is written as 'ba ro si', 'mango tastes sweet' is written as 'si ku ja', and 'they eat sweet' is written as 'ro ja de'. Which code word stands for 'eat'?", "hi": "एक निश्चित कूट भाषा में 'हम आम खाते' को 'ba ro si', 'आम मीठा लगता' को 'si ku ja' और 'वे मीठा खाते' को 'ro ja de' लिखा जाता है। 'खाते' के लिए कौन-सा कूट शब्द है?" },
+      "optionsJson": [
+        { "en": "si", "hi": "si" },
+        { "en": "ba", "hi": "ba" },
+        { "en": "ro", "hi": "ro" },
+        { "en": "de", "hi": "de" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "'Eat' is the only word common to the first and third statements, and the only code word common to them is 'ro'. So 'eat' = 'ro'.", "hi": "'खाते' पहले और तीसरे कथन में उभयनिष्ठ शब्द है, और इन दोनों में उभयनिष्ठ कूट शब्द केवल 'ro' है। अतः 'खाते' = 'ro'।" },
+      "distractorAnalysis": {
+        "0": { "en": "'si' is common to the first and second statements, so it stands for 'mango'.", "hi": "'si' पहले और दूसरे कथन में उभयनिष्ठ है, इसलिए यह 'आम' का कूट है।" },
+        "1": { "en": "'ba' appears only in the first statement, where it matches 'we'.", "hi": "'ba' केवल पहले कथन में आता है, जहाँ यह 'हम' से मेल खाता है।" },
+        "3": { "en": "'de' appears only in the third statement, where it matches 'they'.", "hi": "'de' केवल तीसरे कथन में आता है, जहाँ यह 'वे' से मेल खाता है।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-mn-10",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Shortly after sunrise one morning, Rina stands so that her shadow falls to her right. In which direction is she facing?", "hi": "एक सुबह सूर्योदय के कुछ देर बाद रीना इस प्रकार खड़ी है कि उसकी परछाईं उसके दाईं ओर पड़ रही है। वह किस दिशा की ओर मुँह करके खड़ी है?" },
+      "optionsJson": [
+        { "en": "South", "hi": "दक्षिण" },
+        { "en": "North", "hi": "उत्तर" },
+        { "en": "East", "hi": "पूर्व" },
+        { "en": "West", "hi": "पश्चिम" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "In the morning the Sun is in the east, so shadows fall towards the west. Her right side points west, which happens when she faces south.", "hi": "सुबह सूर्य पूर्व में होता है, इसलिए परछाईं पश्चिम की ओर पड़ती है। उसका दायाँ हाथ पश्चिम की ओर है, जो तब होता है जब उसका मुँह दक्षिण की ओर हो।" },
+      "distractorAnalysis": {
+        "1": { "en": "Facing north puts her right side towards the east, towards the Sun, not the shadow.", "hi": "उत्तर की ओर मुँह होने पर उसका दायाँ हाथ पूर्व की ओर होता, यानी सूर्य की ओर, परछाईं की ओर नहीं।" },
+        "2": { "en": "Facing east puts her right side towards the south, not the west.", "hi": "पूर्व की ओर मुँह होने पर उसका दायाँ हाथ दक्षिण की ओर होता, पश्चिम की ओर नहीं।" },
+        "3": { "en": "Facing west puts her right side towards the north, not the west.", "hi": "पश्चिम की ओर मुँह होने पर उसका दायाँ हाथ उत्तर की ओर होता, पश्चिम की ओर नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-mn-11",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "In a row of students, Arjun is 8th from the left and Bilal is 14th from the right. Arjun is to the left of Bilal and there are 5 students between them. How many students are there in the row?", "hi": "विद्यार्थियों की एक पंक्ति में अर्जुन बाएँ से 8वें और बिलाल दाएँ से 14वें स्थान पर है। अर्जुन, बिलाल के बाईं ओर है और उन दोनों के बीच 5 विद्यार्थी हैं। पंक्ति में कुल कितने विद्यार्थी हैं?" },
+      "optionsJson": [
+        { "en": "26", "hi": "26" },
+        { "en": "27", "hi": "27" },
+        { "en": "28", "hi": "28" },
+        { "en": "25", "hi": "25" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Bilal's position from the left = 8 + 5 + 1 = 14. He is also 14th from the right, so total = 14 + 14 − 1 = 27.", "hi": "बिलाल का बाएँ से स्थान = 8 + 5 + 1 = 14। वह दाएँ से भी 14वाँ है, अतः कुल = 14 + 14 − 1 = 27।" },
+      "distractorAnalysis": {
+        "0": { "en": "Subtracts 2 instead of 1 when combining the two positions.", "hi": "दोनों स्थानों को मिलाते समय 1 के बजाय 2 घटा देता है।" },
+        "2": { "en": "Adds 14 + 14 without subtracting the student who is counted twice.", "hi": "14 + 14 जोड़ देता है और दो बार गिने गए विद्यार्थी को नहीं घटाता।" },
+        "3": { "en": "Wrongly subtracts 2 from the correct sum 8 + 5 + 14 = 27, as if Arjun and Bilal were both counted twice.", "hi": "सही योग 8 + 5 + 14 = 27 में से गलती से 2 घटा देता है, मानो अर्जुन और बिलाल दोनों दो बार गिने गए हों।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-mn-12",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "What is the smaller angle between the hour hand and the minute hand of a clock at 4:40?", "hi": "घड़ी में 4:40 बजे घंटे की सुई और मिनट की सुई के बीच का छोटा कोण कितना होता है?" },
+      "optionsJson": [
+        { "en": "80°", "hi": "80°" },
+        { "en": "90°", "hi": "90°" },
+        { "en": "110°", "hi": "110°" },
+        { "en": "100°", "hi": "100°" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "The minute hand is at 40 × 6° = 240°. The hour hand is at 4 × 30° + 40 × 0.5° = 140°. The difference is 240° − 140° = 100°.", "hi": "मिनट की सुई 40 × 6° = 240° पर है। घंटे की सुई 4 × 30° + 40 × 0.5° = 140° पर है। अंतर 240° − 140° = 100° है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Places the hour hand at 160°, as if it were exactly on 5:20 position.", "hi": "घंटे की सुई को 160° पर मान लेता है, मानो वह 5:20 की स्थिति में हो।" },
+        "1": { "en": "Assumes the hands are perpendicular without calculating their positions.", "hi": "स्थितियाँ निकाले बिना मान लेता है कि सुइयाँ एक-दूसरे के लंबवत हैं।" },
+        "2": { "en": "Places the hour hand at 130°, counting only 10° of movement instead of 20° in 40 minutes.", "hi": "घंटे की सुई को 130° पर मान लेता है, यानी 40 मिनट में 20° के बजाय केवल 10° खिसकाव गिनता है।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-mn-13",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "In a certain code, PAINT is written as QCLRY, where the 1st, 2nd, 3rd, 4th and 5th letters are shifted forward by 1, 2, 3, 4 and 5 places respectively. How will CLOTH be written in that code?", "hi": "एक निश्चित कूट में PAINT को QCLRY लिखा जाता है, जिसमें पहले, दूसरे, तीसरे, चौथे और पाँचवें अक्षर को क्रमशः 1, 2, 3, 4 और 5 स्थान आगे खिसकाया गया है। उसी कूट में CLOTH को कैसे लिखा जाएगा?" },
+      "optionsJson": [
+        { "en": "DNRXM", "hi": "DNRXM" },
+        { "en": "DNQXM", "hi": "DNQXM" },
+        { "en": "DMRXM", "hi": "DMRXM" },
+        { "en": "DNRWM", "hi": "DNRWM" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "C+1 = D, L+2 = N, O+3 = R, T+4 = X, H+5 = M. So CLOTH is written as DNRXM.", "hi": "C+1 = D, L+2 = N, O+3 = R, T+4 = X, H+5 = M। अतः CLOTH को DNRXM लिखा जाएगा।" },
+      "distractorAnalysis": {
+        "1": { "en": "Shifts O by 2 (giving Q) instead of 3.", "hi": "O को 3 के बजाय 2 स्थान आगे खिसकाता है (Q मिलता है)।" },
+        "2": { "en": "Shifts L by 1 (giving M) instead of 2.", "hi": "L को 2 के बजाय 1 स्थान आगे खिसकाता है (M मिलता है)।" },
+        "3": { "en": "Shifts T by 3 (giving W) instead of 4.", "hi": "T को 4 के बजाय 3 स्थान आगे खिसकाता है (W मिलता है)।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-mn-14",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A man walks 10 m towards the west, turns left and walks 6 m, turns left again and walks 10 m, and finally turns right and walks 4 m. In which direction and at what distance is he from his starting point?", "hi": "एक व्यक्ति पश्चिम की ओर 10 मीटर चलता है, फिर बाएँ मुड़कर 6 मीटर चलता है, फिर बाएँ मुड़कर 10 मीटर चलता है और अंत में दाएँ मुड़कर 4 मीटर चलता है। वह अपने प्रारंभिक बिंदु से किस दिशा में और कितनी दूरी पर है?" },
+      "optionsJson": [
+        { "en": "10 m North", "hi": "10 मीटर उत्तर" },
+        { "en": "6 m South", "hi": "6 मीटर दक्षिण" },
+        { "en": "10 m South", "hi": "10 मीटर दक्षिण" },
+        { "en": "14 m South", "hi": "14 मीटर दक्षिण" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "West 10 m, then left (south) 6 m, then left (east) 10 m brings him back in line with the start, 6 m south of it. Turning right (south) and walking 4 m makes him 6 + 4 = 10 m south of the start.", "hi": "पश्चिम 10 मीटर, फिर बाएँ (दक्षिण) 6 मीटर, फिर बाएँ (पूर्व) 10 मीटर चलने पर वह प्रारंभिक बिंदु की सीध में, उससे 6 मीटर दक्षिण में आ जाता है। दाएँ (दक्षिण) मुड़कर 4 मीटर चलने पर वह प्रारंभिक बिंदु से 6 + 4 = 10 मीटर दक्षिण में है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Gets the direction wrong; every turn after the first leads south, never north.", "hi": "दिशा गलत है; पहले मोड़ के बाद हर मोड़ उसे दक्षिण की ओर ले जाता है, उत्तर की ओर कभी नहीं।" },
+        "1": { "en": "Stops after the third leg and leaves out the final 4 m.", "hi": "तीसरे चरण पर रुक जाता है और अंतिम 4 मीटर को छोड़ देता है।" },
+        "3": { "en": "Adds 4 m to 10 m instead of to the 6 m southward distance.", "hi": "4 मीटर को 6 मीटर की दक्षिणी दूरी में जोड़ने के बजाय 10 मीटर में जोड़ देता है।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-mn-15",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "In a race, A finished after C but before B. D finished after B but before E. Who finished third?", "hi": "एक दौड़ में A, C के बाद लेकिन B से पहले पहुँचा। D, B के बाद लेकिन E से पहले पहुँचा। तीसरे स्थान पर कौन रहा?" },
+      "optionsJson": [
+        { "en": "A", "hi": "A" },
+        { "en": "B", "hi": "B" },
+        { "en": "D", "hi": "D" },
+        { "en": "C", "hi": "C" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The order of finishing is C, A, B, D, E. So the third runner is B.", "hi": "पहुँचने का क्रम C, A, B, D, E है। अतः तीसरे स्थान पर B रहा।" },
+      "distractorAnalysis": {
+        "0": { "en": "A finished second, right after C.", "hi": "A दूसरे स्थान पर रहा, C के ठीक बाद।" },
+        "2": { "en": "D finished fourth, after B.", "hi": "D चौथे स्थान पर रहा, B के बाद।" },
+        "3": { "en": "C finished first, ahead of A.", "hi": "C पहले स्थान पर रहा, A से आगे।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-mn-16",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": { "en": "15 August 2025 was a Friday. What day of the week was 26 January 2026?", "hi": "15 अगस्त 2025 को शुक्रवार था। 26 जनवरी 2026 को सप्ताह का कौन-सा दिन था?" },
+      "optionsJson": [
+        { "en": "Sunday", "hi": "रविवार" },
+        { "en": "Tuesday", "hi": "मंगलवार" },
+        { "en": "Saturday", "hi": "शनिवार" },
+        { "en": "Monday", "hi": "सोमवार" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Days from 15 August to 26 January = 16 (rest of August) + 30 + 31 + 30 + 31 + 26 = 164 days. 164 = 23 × 7 + 3, so there are 3 odd days. Friday + 3 days = Monday.", "hi": "15 अगस्त से 26 जनवरी तक दिन = 16 (अगस्त के शेष) + 30 + 31 + 30 + 31 + 26 = 164 दिन। 164 = 23 × 7 + 3, अतः 3 अतिरिक्त दिन हैं। शुक्रवार + 3 दिन = सोमवार।" },
+      "distractorAnalysis": {
+        "0": { "en": "Corresponds to 2 odd days, an undercount of one day.", "hi": "यह 2 अतिरिक्त दिनों के अनुरूप है, यानी एक दिन कम गिनना।" },
+        "1": { "en": "Corresponds to 4 odd days, an overcount of one day.", "hi": "यह 4 अतिरिक्त दिनों के अनुरूप है, यानी एक दिन अधिक गिनना।" },
+        "2": { "en": "Corresponds to only 1 odd day, so two days are missed.", "hi": "यह केवल 1 अतिरिक्त दिन के अनुरूप है, जिससे दो दिन छूट जाते हैं।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-mn-17",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "In a certain code, RIVER is written as TGXCT. How will MOUSE be written in that code?", "hi": "एक निश्चित कूट में RIVER को TGXCT लिखा जाता है। उसी कूट में MOUSE को कैसे लिखा जाएगा?" },
+      "optionsJson": [
+        { "en": "OMWQG", "hi": "OMWQG" },
+        { "en": "OMWSG", "hi": "OMWSG" },
+        { "en": "OOWQG", "hi": "OOWQG" },
+        { "en": "OMVQG", "hi": "OMVQG" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The letters alternately move 2 places forward and 2 places backward: R+2 = T, I−2 = G, V+2 = X, E−2 = C, R+2 = T. For MOUSE: M+2 = O, O−2 = M, U+2 = W, S−2 = Q, E+2 = G, giving OMWQG.", "hi": "अक्षर बारी-बारी से 2 स्थान आगे और 2 स्थान पीछे जाते हैं: R+2 = T, I−2 = G, V+2 = X, E−2 = C, R+2 = T। MOUSE के लिए: M+2 = O, O−2 = M, U+2 = W, S−2 = Q, E+2 = G, जिससे OMWQG बनता है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Leaves S unchanged instead of moving it 2 places back to Q.", "hi": "S को 2 स्थान पीछे Q करने के बजाय अपरिवर्तित छोड़ देता है।" },
+        "2": { "en": "Leaves the second letter O unchanged instead of moving it back to M.", "hi": "दूसरे अक्षर O को M में बदलने के बजाय अपरिवर्तित छोड़ देता है।" },
+        "3": { "en": "Moves U forward by only 1 place (V) instead of 2 (W).", "hi": "U को 2 स्थान (W) के बजाय केवल 1 स्थान (V) आगे खिसकाता है।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-mn-18",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Starting from point A, a man walks 20 km towards the north, turns right and walks 5 km, then turns right again and walks 8 km. How far and in which direction is he from point A?", "hi": "बिंदु A से एक व्यक्ति उत्तर की ओर 20 किमी चलता है, फिर दाएँ मुड़कर 5 किमी चलता है, फिर दोबारा दाएँ मुड़कर 8 किमी चलता है। वह बिंदु A से कितनी दूरी पर और किस दिशा में है?" },
+      "optionsJson": [
+        { "en": "17 km, North-East", "hi": "17 किमी, उत्तर-पूर्व" },
+        { "en": "13 km, North-West", "hi": "13 किमी, उत्तर-पश्चिम" },
+        { "en": "13 km, North-East", "hi": "13 किमी, उत्तर-पूर्व" },
+        { "en": "12 km, North", "hi": "12 किमी, उत्तर" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "He goes 20 km north, then 5 km east, then 8 km south. Net displacement: 20 − 8 = 12 km north and 5 km east. Distance = √(12² + 5²) = 13 km, towards the North-East.", "hi": "वह 20 किमी उत्तर, फिर 5 किमी पूर्व, फिर 8 किमी दक्षिण चलता है। कुल विस्थापन: 20 − 8 = 12 किमी उत्तर और 5 किमी पूर्व। दूरी = √(12² + 5²) = 13 किमी, उत्तर-पूर्व की ओर।" },
+      "distractorAnalysis": {
+        "0": { "en": "Adds 12 + 5 instead of using Pythagoras' theorem.", "hi": "पाइथागोरस प्रमेय के बजाय 12 + 5 जोड़ देता है।" },
+        "1": { "en": "Has the correct distance but the sideways displacement is east, not west.", "hi": "दूरी सही है, पर बग़ल का विस्थापन पूर्व की ओर है, पश्चिम की ओर नहीं।" },
+        "3": { "en": "Ignores the 5 km sideways walk, which keeps him from being due north.", "hi": "5 किमी की बग़ल की यात्रा को अनदेखा करता है, जिसके कारण वह ठीक उत्तर में नहीं है।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-mn-19",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Rohit is 12th from the top and Mohan is 7th from the bottom in the rank list of a class. If Rohit is 6 places above Mohan, how many students are there in the class?", "hi": "एक कक्षा की रैंक सूची में रोहित ऊपर से 12वें और मोहन नीचे से 7वें स्थान पर है। यदि रोहित मोहन से 6 स्थान ऊपर है, तो कक्षा में कुल कितने विद्यार्थी हैं?" },
+      "optionsJson": [
+        { "en": "23", "hi": "23" },
+        { "en": "24", "hi": "24" },
+        { "en": "25", "hi": "25" },
+        { "en": "30", "hi": "30" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Mohan is 6 places below Rohit, so he is 12 + 6 = 18th from the top. He is 7th from the bottom, so total = 18 + 7 − 1 = 24.", "hi": "मोहन, रोहित से 6 स्थान नीचे है, इसलिए वह ऊपर से 12 + 6 = 18वें स्थान पर है। वह नीचे से 7वाँ है, अतः कुल = 18 + 7 − 1 = 24।" },
+      "distractorAnalysis": {
+        "0": { "en": "Subtracts 2 instead of 1, undercounting by one.", "hi": "1 के बजाय 2 घटाता है, जिससे एक कम गिनती होती है।" },
+        "2": { "en": "Adds 18 + 7 without removing Mohan, who is counted twice.", "hi": "18 + 7 जोड़ देता है और दो बार गिने गए मोहन को नहीं घटाता।" },
+        "3": { "en": "Adds 12 and 18, which are both ranks from the top and cannot be added.", "hi": "12 और 18 को जोड़ देता है, जबकि दोनों ऊपर से स्थान हैं और उन्हें जोड़ा नहीं जा सकता।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-mn-20",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Find the next term: 2, 3, 5, 8, 12, 17, ___?", "hi": "अगला पद ज्ञात करें: 2, 3, 5, 8, 12, 17, ___?" },
+      "optionsJson": [
+        { "en": "22", "hi": "22" },
+        { "en": "24", "hi": "24" },
+        { "en": "25", "hi": "25" },
+        { "en": "23", "hi": "23" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "The differences are 1, 2, 3, 4, 5, increasing by 1 each time. The next difference is 6, so the next term is 17 + 6 = 23.", "hi": "अंतर 1, 2, 3, 4, 5 हैं, जो हर बार 1 बढ़ते हैं। अगला अंतर 6 होगा, अतः अगला पद 17 + 6 = 23 है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Adds 5 again instead of the next difference, 6.", "hi": "अगले अंतर 6 के बजाय फिर से 5 जोड़ देता है।" },
+        "1": { "en": "Adds 7, skipping ahead in the pattern of differences.", "hi": "7 जोड़ देता है, जिससे अंतरों का क्रम छूट जाता है।" },
+        "2": { "en": "Adds 8, which does not follow the differences 1, 2, 3, 4, 5.", "hi": "8 जोड़ देता है, जो अंतरों 1, 2, 3, 4, 5 के क्रम से मेल नहीं खाता।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-mn-21",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": { "en": "In a certain code, 'P # Q' means P is the father of Q; 'P * Q' means P is the sister of Q; 'P @ Q' means P is the son of Q. What does 'A * B # C' mean?", "hi": "एक निश्चित कूट में 'P # Q' का अर्थ है P, Q का पिता है; 'P * Q' का अर्थ है P, Q की बहन है; 'P @ Q' का अर्थ है P, Q का पुत्र है। 'A * B # C' का क्या अर्थ है?" },
+      "optionsJson": [
+        { "en": "A is the mother of C", "hi": "A, C की माता है" },
+        { "en": "A is the grandmother of C", "hi": "A, C की दादी है" },
+        { "en": "A is the paternal aunt of C", "hi": "A, C की बुआ है" },
+        { "en": "A is the niece of C", "hi": "A, C की भतीजी है" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "'A * B' means A is the sister of B, and 'B # C' means B is the father of C. So A is the sister of C's father, which makes A the paternal aunt of C.", "hi": "'A * B' का अर्थ है A, B की बहन है और 'B # C' का अर्थ है B, C का पिता है। अतः A, C के पिता की बहन है, यानी A, C की बुआ है।" },
+      "distractorAnalysis": {
+        "0": { "en": "B is the father of C, so A, being B’s sister, cannot be C’s mother.", "hi": "B, C का पिता है, इसलिए B की बहन A, C की माता नहीं हो सकती।" },
+        "1": { "en": "A is in the same generation as C's father, not one generation above him.", "hi": "A, C के पिता की ही पीढ़ी की है, उनसे एक पीढ़ी ऊपर की नहीं।" },
+        "3": { "en": "Reverses the relation; C is A’s nephew or niece, not the other way round.", "hi": "संबंध को उलट देता है; C, A का भतीजा या भतीजी है, इसके विपरीत नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-mn-22",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Statements: All pens are books. Some books are bags. Conclusions: I. Some pens are bags. II. Some bags are books. Which of the following is correct?", "hi": "कथन: सभी पेन किताबें हैं। कुछ किताबें थैले हैं। निष्कर्ष: I. कुछ पेन थैले हैं। II. कुछ थैले किताबें हैं। निम्नलिखित में से कौन-सा सही है?" },
+      "optionsJson": [
+        { "en": "Only conclusion II follows", "hi": "केवल निष्कर्ष II अनुसरण करता है" },
+        { "en": "Only conclusion I follows", "hi": "केवल निष्कर्ष I अनुसरण करता है" },
+        { "en": "Both I and II follow", "hi": "I और II दोनों अनुसरण करते हैं" },
+        { "en": "Neither I nor II follows", "hi": "न तो I और न ही II अनुसरण करता है" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "'Some books are bags' can be reversed to 'Some bags are books', so II follows. The books that are bags need not be pens, so no link between pens and bags is forced, and I does not follow.", "hi": "'कुछ किताबें थैले हैं' को पलटकर 'कुछ थैले किताबें हैं' लिखा जा सकता है, इसलिए II अनुसरण करता है। जो किताबें थैले हैं, वे पेन हों यह आवश्यक नहीं, इसलिए पेन और थैलों के बीच कोई संबंध सिद्ध नहीं होता और I अनुसरण नहीं करता।" },
+      "distractorAnalysis": {
+        "1": { "en": "Wrongly links pens to bags through books, although the overlap of books and bags may not include any pens.", "hi": "किताबों के माध्यम से पेन को थैलों से गलत तरीके से जोड़ता है, जबकि किताबों और थैलों का उभयनिष्ठ भाग पेनों को शामिल न भी करे।" },
+        "2": { "en": "Accepts conclusion I, which is not forced by the statements.", "hi": "निष्कर्ष I को स्वीकार करता है, जो कथनों से सिद्ध नहीं होता।" },
+        "3": { "en": "Rejects II, which is simply the reverse of the second statement.", "hi": "II को अस्वीकार करता है, जो दूसरे कथन का ही उलटा रूप है।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-mn-23",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the missing group of letters: ACE : GIK :: BDF : ___?", "hi": "लुप्त अक्षर-समूह ज्ञात करें: ACE : GIK :: BDF : ___?" },
+      "optionsJson": [
+        { "en": "HIL", "hi": "HIL" },
+        { "en": "HJL", "hi": "HJL" },
+        { "en": "IJL", "hi": "IJL" },
+        { "en": "HJM", "hi": "HJM" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Each letter moves 6 places forward: A→G, C→I, E→K. Similarly B→H, D→J, F→L, giving HJL.", "hi": "प्रत्येक अक्षर 6 स्थान आगे जाता है: A→G, C→I, E→K। इसी प्रकार B→H, D→J, F→L, जिससे HJL बनता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Moves D forward by only 5 places (I) instead of 6.", "hi": "D को 6 के बजाय केवल 5 स्थान आगे खिसकाता है (I)।" },
+        "2": { "en": "Moves B forward by 7 places (I) instead of 6.", "hi": "B को 6 के बजाय 7 स्थान आगे खिसकाता है (I)।" },
+        "3": { "en": "Moves F forward by 7 places (M) instead of 6.", "hi": "F को 6 के बजाय 7 स्थान आगे खिसकाता है (M)।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-mn-24",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Find the next letter in the series: A, C, F, J, O, ___?", "hi": "श्रृंखला में अगला अक्षर ज्ञात करें: A, C, F, J, O, ___?" },
+      "optionsJson": [
+        { "en": "T", "hi": "T" },
+        { "en": "V", "hi": "V" },
+        { "en": "S", "hi": "S" },
+        { "en": "U", "hi": "U" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "The letter positions are 1, 3, 6, 10, 15 with gaps 2, 3, 4, 5. The next gap is 6, so the next position is 15 + 6 = 21, which is U.", "hi": "अक्षरों के क्रम 1, 3, 6, 10, 15 हैं, जिनके बीच अंतर 2, 3, 4, 5 हैं। अगला अंतर 6 होगा, अतः अगला क्रम 15 + 6 = 21 है, जो U है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Position 20, which comes from adding 5 again instead of 6.", "hi": "क्रम 20, जो 6 के बजाय फिर से 5 जोड़ने से मिलता है।" },
+        "1": { "en": "Position 22, which comes from adding 7 instead of 6.", "hi": "क्रम 22, जो 6 के बजाय 7 जोड़ने से मिलता है।" },
+        "2": { "en": "Position 19, which comes from adding 4 instead of 6.", "hi": "क्रम 19, जो 6 के बजाय 4 जोड़ने से मिलता है।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-mn-25",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Five friends A, B, C, D and E sit in a row facing north. C sits at the extreme right end. A sits immediately to the left of C. E sits in the middle. B sits to the left of D. Who sits at the extreme left end?", "hi": "पाँच मित्र A, B, C, D और E उत्तर की ओर मुँह करके एक पंक्ति में बैठे हैं। C सबसे दाएँ छोर पर बैठा है। A, C के ठीक बाईं ओर बैठा है। E बीच में बैठा है। B, D के बाईं ओर बैठा है। सबसे बाएँ छोर पर कौन बैठा है?" },
+      "optionsJson": [
+        { "en": "B", "hi": "B" },
+        { "en": "D", "hi": "D" },
+        { "en": "A", "hi": "A" },
+        { "en": "E", "hi": "E" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Number the seats 1 to 5 from the left. C is in seat 5, A in seat 4 and E in seat 3. B and D take seats 1 and 2, and since B is to the left of D, B is in seat 1 and D in seat 2.", "hi": "सीटों को बाएँ से 1 से 5 तक गिनें। C सीट 5 पर, A सीट 4 पर और E सीट 3 पर है। B और D सीट 1 और 2 पर बैठते हैं, और B, D के बाईं ओर है, इसलिए B सीट 1 पर और D सीट 2 पर है।" },
+      "distractorAnalysis": {
+        "1": { "en": "D sits in seat 2, immediately to the right of B.", "hi": "D सीट 2 पर बैठा है, B के ठीक दाईं ओर।" },
+        "2": { "en": "A sits in seat 4, next to C at the right end.", "hi": "A सीट 4 पर बैठा है, दाएँ छोर पर बैठे C के बगल में।" },
+        "3": { "en": "E sits in the middle seat, not at the left end.", "hi": "E बीच की सीट पर बैठा है, बाएँ छोर पर नहीं।" }
+      }
+    }
+  ]
+}

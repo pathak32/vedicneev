@@ -1,0 +1,984 @@
+{
+  "examType": "RMS",
+  "classLevel": 6,
+  "paperNumber": 4,
+  "sectionKey": "general_knowledge",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "rms6-p4-gk-01",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Which institution is India's central bank, which issues banknotes and controls the supply of money in the country?",
+        "hi": "भारत का केंद्रीय बैंक कौन-सी संस्था है, जो बैंक नोट जारी करती है और देश में मुद्रा की आपूर्ति को नियंत्रित करती है?",
+        "mr": "भारताची मध्यवर्ती बँक कोणती संस्था आहे, जी बँकनोट जारी करते आणि देशातील पैशाच्या पुरवठ्यावर नियंत्रण ठेवते?"
+      },
+      "optionsJson": [
+        { "en": "State Bank of India", "hi": "भारतीय स्टेट बैंक", "mr": "भारतीय स्टेट बँक" },
+        { "en": "Reserve Bank of India", "hi": "भारतीय रिज़र्व बैंक", "mr": "भारतीय रिझर्व्ह बँक" },
+        { "en": "NABARD", "hi": "नाबार्ड", "mr": "नाबार्ड" },
+        { "en": "SEBI", "hi": "सेबी", "mr": "सेबी" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "The Reserve Bank of India (RBI), set up in 1935, is the country's central bank. It issues banknotes and regulates banks.",
+        "hi": "भारतीय रिज़र्व बैंक (RBI), जिसकी स्थापना 1935 में हुई थी, देश का केंद्रीय बैंक है। यह बैंक नोट जारी करता है और बैंकों का नियमन करता है।",
+        "mr": "भारतीय रिझर्व्ह बँक (RBI) ही 1935 मध्ये स्थापन झालेली देशाची मध्यवर्ती बँक आहे. ती बँकनोट जारी करते आणि बँकांचे नियमन करते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The State Bank of India is the largest commercial bank that serves ordinary customers; it is not the central bank.",
+          "hi": "भारतीय स्टेट बैंक सबसे बड़ा वाणिज्यिक बैंक है जो आम ग्राहकों को सेवाएँ देता है; यह केंद्रीय बैंक नहीं है।",
+          "mr": "भारतीय स्टेट बँक ही सर्वसामान्य ग्राहकांना सेवा देणारी सर्वात मोठी व्यापारी बँक आहे; ती मध्यवर्ती बँक नाही."
+        },
+        "2": {
+          "en": "NABARD helps finance farming and rural development; it does not issue banknotes.",
+          "hi": "नाबार्ड खेती और ग्रामीण विकास के लिए वित्त की सहायता करता है; यह बैंक नोट जारी नहीं करता।",
+          "mr": "नाबार्ड शेती आणि ग्रामीण विकासासाठी आर्थिक साहाय्य करते; ती बँकनोट जारी करत नाही."
+        },
+        "3": {
+          "en": "SEBI regulates the share (securities) market; it is not a bank.",
+          "hi": "सेबी शेयर (प्रतिभूति) बाज़ार का नियमन करता है; यह कोई बैंक नहीं है।",
+          "mr": "सेबी शेअर (रोखे) बाजाराचे नियमन करते; ती बँक नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p4-gk-02",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "When people exchange goods directly for other goods, without using money, the system is called:",
+        "hi": "जब लोग धन का उपयोग किए बिना वस्तुओं का सीधे वस्तुओं से आदान-प्रदान करते हैं, तो इस व्यवस्था को क्या कहते हैं?",
+        "mr": "जेव्हा लोक पैशाचा वापर न करता वस्तूंची थेट वस्तूंशी देवाणघेवाण करतात, तेव्हा त्या पद्धतीला काय म्हणतात?"
+      },
+      "optionsJson": [
+        { "en": "Barter", "hi": "वस्तु विनिमय", "mr": "वस्तुविनिमय" },
+        { "en": "Taxation", "hi": "कराधान", "mr": "कर आकारणी" },
+        { "en": "Auction", "hi": "नीलामी", "mr": "लिलाव" },
+        { "en": "Banking", "hi": "बैंकिंग", "mr": "बँकिंग" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "In the barter system, goods are traded for goods, for example a farmer giving rice in return for cloth. Money later made trade easier.",
+        "hi": "वस्तु विनिमय प्रणाली में वस्तुओं के बदले वस्तुएँ दी जाती हैं, जैसे कोई किसान चावल देकर कपड़ा लेता है। बाद में धन ने व्यापार को आसान बना दिया।",
+        "mr": "वस्तुविनिमय पद्धतीत वस्तूंच्या बदल्यात वस्तू दिल्या जातात, उदाहरणार्थ शेतकरी तांदूळ देऊन कापड घेतो. पुढे पैशामुळे व्यापार सोपा झाला."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Taxation means the government collects money from citizens; it is not an exchange of goods for goods.",
+          "hi": "कराधान का अर्थ है सरकार द्वारा नागरिकों से धन वसूलना; यह वस्तुओं का वस्तुओं से आदान-प्रदान नहीं है।",
+          "mr": "कर आकारणी म्हणजे सरकारने नागरिकांकडून पैसे गोळा करणे; ती वस्तूंची वस्तूंशी देवाणघेवाण नाही."
+        },
+        "2": {
+          "en": "An auction is a sale in which goods go to the person who offers the highest price, usually in money.",
+          "hi": "नीलामी ऐसी बिक्री है जिसमें वस्तु सबसे ऊँची बोली लगाने वाले को मिलती है, आमतौर पर धन के बदले।",
+          "mr": "लिलाव म्हणजे अशी विक्री ज्यात वस्तू सर्वात जास्त बोली लावणाऱ्याला मिळते, सहसा पैशाच्या बदल्यात."
+        },
+        "3": {
+          "en": "Banking means keeping and lending money; it does not mean exchanging goods directly.",
+          "hi": "बैंकिंग का अर्थ धन जमा करना और उधार देना है; इसमें वस्तुओं का सीधा आदान-प्रदान नहीं होता।",
+          "mr": "बँकिंग म्हणजे पैसे ठेवणे आणि कर्ज देणे; यात वस्तूंची थेट देवाणघेवाण होत नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p4-gk-03",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "India's first satellite, launched in 1975, was named after a famous ancient Indian mathematician and astronomer. What was it called?",
+        "hi": "भारत का पहला उपग्रह, जिसे 1975 में प्रक्षेपित किया गया, एक प्रसिद्ध प्राचीन भारतीय गणितज्ञ और खगोलशास्त्री के नाम पर रखा गया था। उसका नाम क्या था?",
+        "mr": "भारताचा पहिला उपग्रह, जो 1975 मध्ये प्रक्षेपित करण्यात आला, तो एका प्रसिद्ध प्राचीन भारतीय गणितज्ञ आणि खगोलशास्त्रज्ञाच्या नावावरून ठेवला होता. त्याचे नाव काय होते?"
+      },
+      "optionsJson": [
+        { "en": "Bhaskara", "hi": "भास्कर", "mr": "भास्कर" },
+        { "en": "Rohini", "hi": "रोहिणी", "mr": "रोहिणी" },
+        { "en": "INSAT-1A", "hi": "इन्सैट-1ए", "mr": "इन्सॅट-1ए" },
+        { "en": "Aryabhata", "hi": "आर्यभट्ट", "mr": "आर्यभट" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Aryabhata, launched in 1975, was India's first satellite and was named after the ancient astronomer and mathematician Aryabhata.",
+        "hi": "1975 में प्रक्षेपित आर्यभट्ट भारत का पहला उपग्रह था और इसका नाम प्राचीन खगोलशास्त्री और गणितज्ञ आर्यभट्ट के नाम पर रखा गया।",
+        "mr": "1975 मध्ये प्रक्षेपित झालेला आर्यभट हा भारताचा पहिला उपग्रह होता आणि त्याचे नाव प्राचीन खगोलशास्त्रज्ञ व गणितज्ञ आर्यभट यांच्या नावावरून ठेवले होते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The Bhaskara satellite was launched in 1979, after Aryabhata, so it was not the first.",
+          "hi": "भास्कर उपग्रह 1979 में, आर्यभट्ट के बाद, प्रक्षेपित हुआ था, इसलिए वह पहला नहीं था।",
+          "mr": "भास्कर उपग्रह 1979 मध्ये, आर्यभटनंतर, प्रक्षेपित झाला होता, म्हणून तो पहिला नव्हता."
+        },
+        "1": {
+          "en": "The Rohini satellites were launched from 1979 onwards, well after Aryabhata.",
+          "hi": "रोहिणी उपग्रह 1979 के बाद से प्रक्षेपित किए गए, यानी आर्यभट्ट के काफ़ी बाद।",
+          "mr": "रोहिणी उपग्रह 1979 नंतर प्रक्षेपित करण्यात आले, म्हणजे आर्यभटच्या बऱ्याच नंतर."
+        },
+        "2": {
+          "en": "INSAT-1A was a communication satellite launched in 1982; it is not named after a mathematician.",
+          "hi": "इन्सैट-1ए 1982 में प्रक्षेपित एक संचार उपग्रह था; इसका नाम किसी गणितज्ञ के नाम पर नहीं है।",
+          "mr": "इन्सॅट-1ए हा 1982 मध्ये प्रक्षेपित झालेला संपर्क उपग्रह होता; त्याचे नाव कोणत्याही गणितज्ञाच्या नावावरून नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p4-gk-04",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "At what minimum age can an Indian citizen vote in elections?",
+        "hi": "भारत का नागरिक चुनाव में मतदान करने के लिए न्यूनतम किस आयु का होना चाहिए?",
+        "mr": "भारताचा नागरिक निवडणुकीत मतदान करण्यासाठी किमान किती वर्षांचा असावा लागतो?"
+      },
+      "optionsJson": [
+        { "en": "16 years", "hi": "16 वर्ष", "mr": "16 वर्षे" },
+        { "en": "18 years", "hi": "18 वर्ष", "mr": "18 वर्षे" },
+        { "en": "21 years", "hi": "21 वर्ष", "mr": "21 वर्षे" },
+        { "en": "25 years", "hi": "25 वर्ष", "mr": "25 वर्षे" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Every Indian citizen who is 18 years old or more has the right to vote.",
+        "hi": "18 वर्ष या उससे अधिक आयु का प्रत्येक भारतीय नागरिक मतदान करने का अधिकार रखता है।",
+        "mr": "18 वर्षे किंवा त्याहून अधिक वयाच्या प्रत्येक भारतीय नागरिकाला मतदानाचा अधिकार आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "At 16 years a person is too young to be a voter in India.",
+          "hi": "भारत में 16 वर्ष की आयु में कोई व्यक्ति मतदाता नहीं बन सकता।",
+          "mr": "भारतात 16 वर्षांचा व्यक्ती मतदार होऊ शकत नाही."
+        },
+        "2": {
+          "en": "21 years was the voting age until it was lowered to 18 in 1989.",
+          "hi": "1989 में घटाकर 18 वर्ष किए जाने तक मतदान की आयु 21 वर्ष थी।",
+          "mr": "1989 मध्ये ती 18 वर्षे करण्यात येईपर्यंत मतदानाचे वय 21 वर्षे होते."
+        },
+        "3": {
+          "en": "25 years is the minimum age to contest elections to the Lok Sabha or a state assembly, not to vote.",
+          "hi": "25 वर्ष लोकसभा या राज्य विधानसभा का चुनाव लड़ने की न्यूनतम आयु है, मतदान की नहीं।",
+          "mr": "25 वर्षे हे लोकसभा किंवा राज्य विधानसभेची निवडणूक लढवण्याचे किमान वय आहे, मतदानाचे नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p4-gk-05",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Which layer of the atmosphere protects living things from the Sun's harmful ultraviolet rays?",
+        "hi": "वायुमंडल की कौन-सी परत जीवों को सूर्य की हानिकारक पराबैंगनी किरणों से बचाती है?",
+        "mr": "वातावरणाचा कोणता थर सजीवांचे सूर्याच्या हानिकारक अतिनील किरणांपासून संरक्षण करतो?"
+      },
+      "optionsJson": [
+        { "en": "Troposphere", "hi": "क्षोभमंडल", "mr": "तपांबर" },
+        { "en": "Ionosphere", "hi": "आयनमंडल", "mr": "आयनांबर" },
+        { "en": "Ozone layer", "hi": "ओज़ोन परत", "mr": "ओझोन थर" },
+        { "en": "Exosphere", "hi": "बहिर्मंडल", "mr": "बाह्यांबर" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The ozone layer, found in the stratosphere, absorbs most of the Sun's harmful ultraviolet rays.",
+        "hi": "समतापमंडल में स्थित ओज़ोन परत सूर्य की अधिकांश हानिकारक पराबैंगनी किरणों को सोख लेती है।",
+        "mr": "स्थितांबरात असलेला ओझोन थर सूर्याच्या बहुतेक हानिकारक अतिनील किरणांचे शोषण करतो."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The troposphere is the lowest layer, where we live and where weather happens; it does not shield us from ultraviolet rays.",
+          "hi": "क्षोभमंडल सबसे निचली परत है, जहाँ हम रहते हैं और मौसम बनता है; यह पराबैंगनी किरणों से हमारी रक्षा नहीं करती।",
+          "mr": "तपांबर हा सर्वात खालचा थर आहे, जिथे आपण राहतो आणि हवामान घडते; तो अतिनील किरणांपासून आपले रक्षण करत नाही."
+        },
+        "1": {
+          "en": "The ionosphere is a high region that reflects radio waves; it is not the ultraviolet shield.",
+          "hi": "आयनमंडल एक ऊँचा क्षेत्र है जो रेडियो तरंगों को परावर्तित करता है; यह पराबैंगनी किरणों की ढाल नहीं है।",
+          "mr": "आयनांबर हा उंचावरचा प्रदेश आहे जो रेडिओ लहरींचे परावर्तन करतो; तो अतिनील किरणांपासून बचाव करणारा थर नाही."
+        },
+        "3": {
+          "en": "The exosphere is the outermost layer, which slowly fades into space.",
+          "hi": "बहिर्मंडल सबसे बाहरी परत है, जो धीरे-धीरे अंतरिक्ष में विलीन हो जाती है।",
+          "mr": "बाह्यांबर हा सर्वात बाहेरचा थर आहे, जो हळूहळू अवकाशात विरून जातो."
+        }
+      }
+    },
+    {
+      "key": "rms6-p4-gk-06",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "GST is a tax collected on most goods and services in India. What does GST stand for?",
+        "hi": "GST भारत में अधिकांश वस्तुओं और सेवाओं पर लगाया जाने वाला कर है। GST का पूरा नाम क्या है?",
+        "mr": "GST हा भारतात बहुतेक वस्तू आणि सेवांवर आकारला जाणारा कर आहे. GST चे पूर्ण रूप काय आहे?"
+      },
+      "optionsJson": [
+        { "en": "Goods and Services Tax", "hi": "वस्तु एवं सेवा कर", "mr": "वस्तू आणि सेवा कर" },
+        { "en": "General Sales Tariff", "hi": "सामान्य बिक्री शुल्क", "mr": "सामान्य विक्री शुल्क" },
+        { "en": "Government Savings Treasury", "hi": "सरकारी बचत कोषागार", "mr": "सरकारी बचत कोषागार" },
+        { "en": "Grain and Seed Trade", "hi": "अनाज और बीज व्यापार", "mr": "धान्य आणि बियाणे व्यापार" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "GST stands for Goods and Services Tax. It was introduced in July 2017 and replaced many separate taxes with a single tax.",
+        "hi": "GST का अर्थ है वस्तु एवं सेवा कर। इसे जुलाई 2017 में लागू किया गया और इसने अनेक अलग-अलग करों की जगह एक ही कर की व्यवस्था की।",
+        "mr": "GST म्हणजे वस्तू आणि सेवा कर. तो जुलै 2017 मध्ये लागू करण्यात आला आणि त्याने अनेक वेगवेगळ्या करांच्या जागी एकच कर आणला."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "This is not the name of the tax. Sales tax was one of the older taxes that GST replaced.",
+          "hi": "यह इस कर का नाम नहीं है। बिक्री कर उन पुराने करों में से एक था जिनकी जगह GST ने ली।",
+          "mr": "हे या कराचे नाव नाही. विक्री कर हा GST ने बदललेल्या जुन्या करांपैकी एक होता."
+        },
+        "2": {
+          "en": "A treasury is the place where government funds are kept; it is not a tax.",
+          "hi": "कोषागार वह स्थान है जहाँ सरकारी धन रखा जाता है; यह कोई कर नहीं है।",
+          "mr": "कोषागार म्हणजे सरकारी निधी ठेवण्याचे ठिकाण; तो कर नाही."
+        },
+        "3": {
+          "en": "This is not a real tax; GST covers many kinds of goods and services, not only grain and seeds.",
+          "hi": "यह कोई वास्तविक कर नहीं है; GST अनेक प्रकार की वस्तुओं और सेवाओं पर लगता है, केवल अनाज और बीज पर नहीं।",
+          "mr": "हा खरा कर नाही; GST अनेक प्रकारच्या वस्तू आणि सेवांवर लागतो, फक्त धान्य आणि बियाण्यांवर नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p4-gk-07",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "In August 2023, the Vikram lander of India's Chandrayaan-3 mission landed safely near which part of the Moon?",
+        "hi": "अगस्त 2023 में भारत के चंद्रयान-3 मिशन का 'विक्रम' लैंडर चंद्रमा के किस भाग के पास सुरक्षित उतरा?",
+        "mr": "ऑगस्ट 2023 मध्ये भारताच्या चांद्रयान-3 मोहिमेचे 'विक्रम' लँडर चंद्राच्या कोणत्या भागाजवळ सुरक्षितपणे उतरले?"
+      },
+      "optionsJson": [
+        { "en": "The north pole", "hi": "उत्तरी ध्रुव", "mr": "उत्तर ध्रुव" },
+        { "en": "The centre of the side facing Earth", "hi": "पृथ्वी की ओर वाले भाग का केंद्र", "mr": "पृथ्वीकडे असलेल्या बाजूचा मध्यभाग" },
+        { "en": "The far side that never faces Earth", "hi": "वह दूर वाला भाग जो कभी पृथ्वी की ओर नहीं होता", "mr": "पृथ्वीकडे कधीही न येणारी चंद्राची पलीकडची बाजू" },
+        { "en": "The south polar region", "hi": "दक्षिणी ध्रुवीय क्षेत्र", "mr": "दक्षिण ध्रुवीय प्रदेश" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "On 23 August 2023, the Vikram lander touched down near the Moon's south polar region, an area where scientists look for water ice.",
+        "hi": "23 अगस्त 2023 को विक्रम लैंडर चंद्रमा के दक्षिणी ध्रुवीय क्षेत्र के पास उतरा, जहाँ वैज्ञानिक जल-बर्फ़ की खोज करते हैं।",
+        "mr": "23 ऑगस्ट 2023 रोजी विक्रम लँडर चंद्राच्या दक्षिण ध्रुवीय प्रदेशाजवळ उतरले, जिथे शास्त्रज्ञ पाण्याच्या बर्फाचा शोध घेतात."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The mission was aimed at the south, not the north pole of the Moon.",
+          "hi": "यह मिशन चंद्रमा के उत्तरी नहीं, बल्कि दक्षिणी ध्रुव की ओर लक्षित था।",
+          "mr": "ही मोहीम चंद्राच्या उत्तर ध्रुवासाठी नव्हती, तर दक्षिण ध्रुवासाठी होती."
+        },
+        "1": {
+          "en": "The centre of the Earth-facing side is not where Chandrayaan-3 landed.",
+          "hi": "पृथ्वी की ओर वाले भाग का केंद्र वह जगह नहीं है जहाँ चंद्रयान-3 उतरा।",
+          "mr": "पृथ्वीकडे असलेल्या बाजूचा मध्यभाग ही चांद्रयान-3 उतरण्याची जागा नव्हती."
+        },
+        "2": {
+          "en": "Chandrayaan-3 did not land on the far side, the half of the Moon that always faces away from Earth.",
+          "hi": "चंद्रयान-3 दूर वाले भाग पर नहीं उतरा, जो चंद्रमा का वह आधा हिस्सा है जो हमेशा पृथ्वी से विपरीत दिशा में रहता है।",
+          "mr": "चांद्रयान-3 पलीकडच्या बाजूवर उतरले नाही, जी चंद्राची नेहमी पृथ्वीच्या विरुद्ध दिशेला असणारी अर्धी बाजू आहे."
+        }
+      }
+    },
+    {
+      "key": "rms6-p4-gk-08",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Who is traditionally believed to have composed the Sanskrit epic Ramayana?",
+        "hi": "संस्कृत महाकाव्य रामायण की रचना परंपरागत रूप से किसने की मानी जाती है?",
+        "mr": "संस्कृत महाकाव्य रामायण कोणी रचले, असे परंपरेने मानले जाते?"
+      },
+      "optionsJson": [
+        { "en": "Vyasa", "hi": "वेदव्यास", "mr": "व्यास" },
+        { "en": "Valmiki", "hi": "वाल्मीकि", "mr": "वाल्मीकी" },
+        { "en": "Kalidasa", "hi": "कालिदास", "mr": "कालिदास" },
+        { "en": "Tulsidas", "hi": "तुलसीदास", "mr": "तुलसीदास" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Maharishi Valmiki is traditionally credited with composing the Ramayana in Sanskrit and is called the Adi Kavi, the first poet.",
+        "hi": "परंपरा के अनुसार महर्षि वाल्मीकि ने संस्कृत में रामायण की रचना की और उन्हें आदि कवि, यानी पहला कवि, कहा जाता है।",
+        "mr": "परंपरेनुसार महर्षी वाल्मीकींनी संस्कृतमध्ये रामायणाची रचना केली आणि त्यांना आदिकवी, म्हणजे पहिले कवी, म्हटले जाते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Vyasa is traditionally credited with composing the Mahabharata, not the Ramayana.",
+          "hi": "परंपरा के अनुसार व्यास को महाभारत का रचयिता माना जाता है, रामायण का नहीं।",
+          "mr": "परंपरेनुसार व्यासांना महाभारताचे रचनाकार मानले जाते, रामायणाचे नाही."
+        },
+        "2": {
+          "en": "Kalidasa wrote works such as Abhijnanashakuntalam and Meghaduta, not the Ramayana.",
+          "hi": "कालिदास ने अभिज्ञान शाकुंतलम् और मेघदूत जैसी रचनाएँ कीं, रामायण नहीं।",
+          "mr": "कालिदासांनी अभिज्ञानशाकुंतलम् आणि मेघदूत यांसारख्या रचना केल्या, रामायण नाही."
+        },
+        "3": {
+          "en": "Tulsidas wrote the Ramcharitmanas, a later retelling in Awadhi, not the original Sanskrit epic.",
+          "hi": "तुलसीदास ने अवधी भाषा में रामचरितमानस लिखा, जो बाद की पुनर्कथा है, मूल संस्कृत महाकाव्य नहीं।",
+          "mr": "तुलसीदासांनी अवधी भाषेत रामचरितमानस लिहिले, जे नंतरचे पुनर्कथन आहे, मूळ संस्कृत महाकाव्य नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p4-gk-09",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which of the following is an activity of the primary sector of the economy?",
+        "hi": "निम्नलिखित में से कौन-सी अर्थव्यवस्था के प्राथमिक क्षेत्र की गतिविधि है?",
+        "mr": "खालीलपैकी कोणती क्रिया अर्थव्यवस्थेच्या प्राथमिक क्षेत्रातील आहे?"
+      },
+      "optionsJson": [
+        { "en": "Making cloth in a mill", "hi": "मिल में कपड़ा बनाना", "mr": "गिरणीत कापड तयार करणे" },
+        { "en": "Teaching in a school", "hi": "स्कूल में पढ़ाना", "mr": "शाळेत शिकवणे" },
+        { "en": "Growing wheat on a farm", "hi": "खेत में गेहूँ उगाना", "mr": "शेतात गहू पिकवणे" },
+        { "en": "Running a bank", "hi": "बैंक चलाना", "mr": "बँक चालवणे" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The primary sector uses natural resources directly, as in farming, fishing and mining. Growing wheat is farming.",
+        "hi": "प्राथमिक क्षेत्र प्राकृतिक संसाधनों का सीधा उपयोग करता है, जैसे खेती, मछली पकड़ना और खनन। गेहूँ उगाना खेती है।",
+        "mr": "प्राथमिक क्षेत्र नैसर्गिक संसाधनांचा थेट वापर करते, जसे शेती, मासेमारी आणि खाणकाम. गहू पिकवणे ही शेती आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Making cloth in a mill is manufacturing, which belongs to the secondary sector.",
+          "hi": "मिल में कपड़ा बनाना विनिर्माण है, जो द्वितीयक क्षेत्र में आता है।",
+          "mr": "गिरणीत कापड तयार करणे हे उत्पादन आहे, जे दुय्यम क्षेत्रात येते."
+        },
+        "1": {
+          "en": "Teaching is a service, so it belongs to the tertiary sector.",
+          "hi": "पढ़ाना एक सेवा है, इसलिए यह तृतीयक क्षेत्र में आता है।",
+          "mr": "शिकवणे ही एक सेवा आहे, म्हणून ती तृतीयक क्षेत्रात येते."
+        },
+        "3": {
+          "en": "Banking is a service, so it belongs to the tertiary sector.",
+          "hi": "बैंकिंग एक सेवा है, इसलिए यह तृतीयक क्षेत्र में आता है।",
+          "mr": "बँकिंग ही एक सेवा आहे, म्हणून ती तृतीयक क्षेत्रात येते."
+        }
+      }
+    },
+    {
+      "key": "rms6-p4-gk-10",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Which scientist, who later became the President of India, is popularly called the 'Missile Man of India'?",
+        "hi": "किस वैज्ञानिक को, जो आगे चलकर भारत के राष्ट्रपति बने, 'भारत का मिसाइल मैन' कहा जाता है?",
+        "mr": "ज्यांना 'भारताचे मिसाइल मॅन' म्हटले जाते आणि जे पुढे भारताचे राष्ट्रपती झाले, ते शास्त्रज्ञ कोण?"
+      },
+      "optionsJson": [
+        { "en": "Homi J. Bhabha", "hi": "होमी जे. भाभा", "mr": "होमी जे. भाभा" },
+        { "en": "C. V. Raman", "hi": "सी. वी. रमन", "mr": "सी. व्ही. रमण" },
+        { "en": "A. P. J. Abdul Kalam", "hi": "ए. पी. जे. अब्दुल कलाम", "mr": "ए. पी. जे. अब्दुल कलाम" },
+        { "en": "Vikram Sarabhai", "hi": "विक्रम साराभाई", "mr": "विक्रम साराभाई" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Dr A. P. J. Abdul Kalam led India's rocket and missile programmes at ISRO and DRDO, which earned him the name 'Missile Man', and he later became President.",
+        "hi": "डॉ. ए. पी. जे. अब्दुल कलाम ने इसरो और डीआरडीओ में भारत के रॉकेट और मिसाइल कार्यक्रमों का नेतृत्व किया, इसलिए उन्हें 'मिसाइल मैन' कहा गया; वे आगे चलकर राष्ट्रपति बने।",
+        "mr": "डॉ. ए. पी. जे. अब्दुल कलाम यांनी इस्रो आणि डीआरडीओमध्ये भारताच्या रॉकेट व क्षेपणास्त्र कार्यक्रमांचे नेतृत्व केले, म्हणून त्यांना 'मिसाइल मॅन' म्हटले गेले; ते पुढे राष्ट्रपती झाले."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Homi J. Bhabha is known as the father of India's nuclear programme and was never President.",
+          "hi": "होमी जे. भाभा को भारत के परमाणु कार्यक्रम का जनक कहा जाता है; वे कभी राष्ट्रपति नहीं बने।",
+          "mr": "होमी जे. भाभा हे भारताच्या अणुकार्यक्रमाचे जनक मानले जातात; ते कधीही राष्ट्रपती झाले नाहीत."
+        },
+        "1": {
+          "en": "C. V. Raman won the Nobel Prize in Physics for his work on the scattering of light; he was not President.",
+          "hi": "सी. वी. रमन ने प्रकाश के प्रकीर्णन पर अपने कार्य के लिए भौतिकी का नोबेल पुरस्कार जीता; वे राष्ट्रपति नहीं बने।",
+          "mr": "सी. व्ही. रमण यांनी प्रकाशाच्या प्रकीर्णनावरील कार्यासाठी भौतिकशास्त्राचे नोबेल पारितोषिक मिळवले; ते राष्ट्रपती झाले नाहीत."
+        },
+        "3": {
+          "en": "Vikram Sarabhai is called the father of India's space programme and was never President.",
+          "hi": "विक्रम साराभाई को भारत के अंतरिक्ष कार्यक्रम का जनक कहा जाता है; वे कभी राष्ट्रपति नहीं बने।",
+          "mr": "विक्रम साराभाई हे भारताच्या अंतराळ कार्यक्रमाचे जनक मानले जातात; ते कधीही राष्ट्रपती झाले नाहीत."
+        }
+      }
+    },
+    {
+      "key": "rms6-p4-gk-11",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which is the world's largest mangrove forest, spread across West Bengal and Bangladesh and home to the Royal Bengal Tiger?",
+        "hi": "पश्चिम बंगाल और बांग्लादेश में फैला, रॉयल बंगाल टाइगर का घर, विश्व का सबसे बड़ा मैंग्रोव वन कौन-सा है?",
+        "mr": "पश्चिम बंगाल आणि बांगलादेशात पसरलेले, रॉयल बंगाल वाघाचे घर असलेले जगातील सर्वात मोठे खारफुटी (मॅन्ग्रोव्ह) जंगल कोणते?"
+      },
+      "optionsJson": [
+        { "en": "Sundarbans", "hi": "सुंदरबन", "mr": "सुंदरबन" },
+        { "en": "Bhitarkanika", "hi": "भितरकनिका", "mr": "भितरकनिका" },
+        { "en": "Pichavaram", "hi": "पिचवरम", "mr": "पिचवरम" },
+        { "en": "Gir Forest", "hi": "गिर वन", "mr": "गीर जंगल" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "The Sundarbans lie in the delta of the Ganga and Brahmaputra rivers and form the largest mangrove forest in the world.",
+        "hi": "सुंदरबन गंगा और ब्रह्मपुत्र नदियों के डेल्टा में स्थित है और विश्व का सबसे बड़ा मैंग्रोव वन है।",
+        "mr": "सुंदरबन गंगा आणि ब्रह्मपुत्रा नद्यांच्या त्रिभुज प्रदेशात असून ते जगातील सर्वात मोठे खारफुटीचे जंगल आहे."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Bhitarkanika in Odisha is also a mangrove forest, but it is much smaller than the Sundarbans.",
+          "hi": "ओडिशा का भितरकनिका भी मैंग्रोव वन है, पर यह सुंदरबन से बहुत छोटा है।",
+          "mr": "ओडिशातील भितरकनिका हेही खारफुटीचे जंगल आहे, पण ते सुंदरबनपेक्षा खूपच लहान आहे."
+        },
+        "2": {
+          "en": "Pichavaram in Tamil Nadu is a mangrove forest too, but it is far smaller than the Sundarbans.",
+          "hi": "तमिलनाडु का पिचवरम भी मैंग्रोव वन है, पर यह सुंदरबन से कहीं छोटा है।",
+          "mr": "तमिळनाडूतील पिचवरमही खारफुटीचे जंगल आहे, पण ते सुंदरबनपेक्षा खूपच लहान आहे."
+        },
+        "3": {
+          "en": "Gir in Gujarat is a dry forest famous for Asiatic lions; it is not a mangrove forest.",
+          "hi": "गुजरात का गिर शुष्क वन है, जो एशियाई शेरों के लिए प्रसिद्ध है; यह मैंग्रोव वन नहीं है।",
+          "mr": "गुजरातमधील गीर हे आशियाई सिंहांसाठी प्रसिद्ध असलेले कोरडे जंगल आहे; ते खारफुटीचे जंगल नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p4-gk-12",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Who wrote 'Jana Gana Mana', the national anthem of India?",
+        "hi": "भारत के राष्ट्रगान 'जन गण मन' की रचना किसने की थी?",
+        "mr": "भारताचे राष्ट्रगीत 'जन गण मन' कोणी लिहिले?"
+      },
+      "optionsJson": [
+        { "en": "Bankim Chandra Chattopadhyay", "hi": "बंकिमचंद्र चट्टोपाध्याय", "mr": "बंकिमचंद्र चट्टोपाध्याय" },
+        { "en": "Muhammad Iqbal", "hi": "मोहम्मद इक़बाल", "mr": "मुहम्मद इक्बाल" },
+        { "en": "Subramania Bharati", "hi": "सुब्रमण्य भारती", "mr": "सुब्रमण्य भारती" },
+        { "en": "Rabindranath Tagore", "hi": "रवींद्रनाथ टैगोर", "mr": "रवींद्रनाथ टागोर" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Rabindranath Tagore wrote 'Jana Gana Mana' in Bengali. Its first stanza was adopted as India's national anthem in 1950.",
+        "hi": "रवींद्रनाथ टैगोर ने 'जन गण मन' बांग्ला में लिखा था। इसके पहले पद को 1950 में भारत के राष्ट्रगान के रूप में अपनाया गया।",
+        "mr": "रवींद्रनाथ टागोर यांनी 'जन गण मन' बंगालीत लिहिले. त्याचे पहिले कडवे 1950 मध्ये भारताचे राष्ट्रगीत म्हणून स्वीकारण्यात आले."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Bankim Chandra Chattopadhyay wrote 'Vande Mataram', India's national song.",
+          "hi": "बंकिमचंद्र चट्टोपाध्याय ने 'वंदे मातरम्' लिखा, जो भारत का राष्ट्रीय गीत है।",
+          "mr": "बंकिमचंद्र चट्टोपाध्याय यांनी 'वंदे मातरम्' लिहिले, जे भारताचे राष्ट्रीय गीत आहे."
+        },
+        "1": {
+          "en": "Muhammad Iqbal wrote the patriotic poem 'Saare Jahan Se Accha'.",
+          "hi": "मोहम्मद इक़बाल ने देशभक्ति की कविता 'सारे जहाँ से अच्छा' लिखी।",
+          "mr": "मुहम्मद इक्बाल यांनी 'सारे जहाँ से अच्छा' ही देशभक्तिपर कविता लिहिली."
+        },
+        "2": {
+          "en": "Subramania Bharati was a Tamil poet known for his patriotic songs in Tamil, not the author of the national anthem.",
+          "hi": "सुब्रमण्य भारती तमिल कवि थे जो तमिल में अपने देशभक्ति गीतों के लिए जाने जाते हैं; वे राष्ट्रगान के रचयिता नहीं हैं।",
+          "mr": "सुब्रमण्य भारती हे तमिळ भाषेतील देशभक्तिपर गीतांसाठी प्रसिद्ध कवी होते; ते राष्ट्रगीताचे रचनाकार नाहीत."
+        }
+      }
+    },
+    {
+      "key": "rms6-p4-gk-13",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which device converts sunlight directly into electricity?",
+        "hi": "कौन-सा उपकरण सूर्य के प्रकाश को सीधे विद्युत में बदलता है?",
+        "mr": "कोणते उपकरण सूर्यप्रकाशाचे थेट विजेमध्ये रूपांतर करते?"
+      },
+      "optionsJson": [
+        { "en": "Solar cell", "hi": "सौर सेल", "mr": "सौर सेल" },
+        { "en": "Battery", "hi": "बैटरी", "mr": "बॅटरी" },
+        { "en": "Transformer", "hi": "ट्रांसफ़ॉर्मर", "mr": "ट्रान्सफॉर्मर" },
+        { "en": "Electric motor", "hi": "विद्युत मोटर", "mr": "विद्युत मोटर" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "A solar cell, usually made of silicon, produces electricity when sunlight falls on it. Many solar cells together form a solar panel.",
+        "hi": "सौर सेल, जो प्रायः सिलिकॉन का बना होता है, पर सूर्य का प्रकाश पड़ने से विद्युत बनती है। अनेक सौर सेल मिलकर सौर पैनल बनाते हैं।",
+        "mr": "सौर सेल, जो सहसा सिलिकॉनचा बनलेला असतो, त्यावर सूर्यप्रकाश पडला की वीज तयार होते. अनेक सौर सेल मिळून सौर पॅनेल बनते."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "A battery gives electricity through chemical reactions inside it; it does not use sunlight directly.",
+          "hi": "बैटरी अपने भीतर होने वाली रासायनिक अभिक्रियाओं से विद्युत देती है; वह सीधे सूर्य के प्रकाश का उपयोग नहीं करती।",
+          "mr": "बॅटरी तिच्या आतील रासायनिक अभिक्रियांमधून वीज देते; ती सूर्यप्रकाशाचा थेट वापर करत नाही."
+        },
+        "2": {
+          "en": "A transformer only changes the voltage of alternating current; it does not produce electricity from light.",
+          "hi": "ट्रांसफ़ॉर्मर केवल प्रत्यावर्ती धारा का वोल्टेज बदलता है; वह प्रकाश से विद्युत नहीं बनाता।",
+          "mr": "ट्रान्सफॉर्मर फक्त प्रत्यावर्ती प्रवाहाचा व्होल्टेज बदलतो; तो प्रकाशापासून वीज तयार करत नाही."
+        },
+        "3": {
+          "en": "An electric motor does the opposite job: it changes electrical energy into motion.",
+          "hi": "विद्युत मोटर उलटा काम करती है: वह विद्युत ऊर्जा को गति में बदलती है।",
+          "mr": "विद्युत मोटर उलटे काम करते: ती विद्युत ऊर्जेचे गतीत रूपांतर करते."
+        }
+      }
+    },
+    {
+      "key": "rms6-p4-gk-14",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Which of these wastes breaks down naturally over time and can turn into manure?",
+        "hi": "इनमें से कौन-सा कचरा समय के साथ प्राकृतिक रूप से सड़कर खाद बन सकता है?",
+        "mr": "यांपैकी कोणता कचरा कालांतराने नैसर्गिकरीत्या कुजून खत बनू शकतो?"
+      },
+      "optionsJson": [
+        { "en": "Plastic bottle", "hi": "प्लास्टिक की बोतल", "mr": "प्लास्टिकची बाटली" },
+        { "en": "Glass jar", "hi": "काँच का जार", "mr": "काचेची बरणी" },
+        { "en": "Vegetable peels", "hi": "सब्ज़ियों के छिलके", "mr": "भाज्यांची सालं" },
+        { "en": "Aluminium can", "hi": "एल्युमिनियम का डिब्बा", "mr": "ॲल्युमिनियमचा डबा" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Vegetable peels are biodegradable. Tiny organisms break them down into compost, which enriches the soil.",
+        "hi": "सब्ज़ियों के छिलके जैव-अपघटनीय होते हैं। सूक्ष्म जीव उन्हें सड़ाकर कंपोस्ट बना देते हैं, जो मिट्टी को उपजाऊ बनाता है।",
+        "mr": "भाज्यांची सालं जैवविघटनशील असतात. सूक्ष्मजीव त्यांचे विघटन करून कंपोस्ट बनवतात, जे जमिनीला सुपीक करते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Plastic takes hundreds of years to break down and harms the environment.",
+          "hi": "प्लास्टिक को सड़ने में सैकड़ों वर्ष लगते हैं और यह पर्यावरण को नुकसान पहुँचाता है।",
+          "mr": "प्लास्टिक कुजण्यास शेकडो वर्षे लागतात आणि ते पर्यावरणाला हानी पोहोचवते."
+        },
+        "1": {
+          "en": "Glass does not rot into manure; it is best collected and recycled.",
+          "hi": "काँच सड़कर खाद नहीं बनता; उसे इकट्ठा करके पुनर्चक्रित करना सबसे अच्छा है।",
+          "mr": "काच कुजून खत बनत नाही; तो गोळा करून पुनर्वापर करणे सर्वात चांगले."
+        },
+        "3": {
+          "en": "An aluminium can does not rot into manure; it can be melted and recycled.",
+          "hi": "एल्युमिनियम का डिब्बा सड़कर खाद नहीं बनता; उसे पिघलाकर पुनर्चक्रित किया जा सकता है।",
+          "mr": "ॲल्युमिनियमचा डबा कुजून खत बनत नाही; तो वितळवून त्याचा पुनर्वापर करता येतो."
+        }
+      }
+    },
+    {
+      "key": "rms6-p4-gk-15",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Which of the following is an aircraft carrier of the Indian Navy?",
+        "hi": "निम्नलिखित में से कौन-सा भारतीय नौसेना का विमानवाहक पोत है?",
+        "mr": "खालीलपैकी कोणती भारतीय नौदलाची विमानवाहू युद्धनौका आहे?"
+      },
+      "optionsJson": [
+        { "en": "INS Arihant", "hi": "आईएनएस अरिहंत", "mr": "आयएनएस अरिहंत" },
+        { "en": "INS Kalvari", "hi": "आईएनएस कलवरी", "mr": "आयएनएस कलवरी" },
+        { "en": "INS Shivalik", "hi": "आईएनएस शिवालिक", "mr": "आयएनएस शिवालिक" },
+        { "en": "INS Vikrant", "hi": "आईएनएस विक्रांत", "mr": "आयएनएस विक्रांत" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "INS Vikrant is an aircraft carrier, a ship from which fighter aircraft take off and land. It is India's first aircraft carrier built in India and was commissioned in 2022.",
+        "hi": "आईएनएस विक्रांत एक विमानवाहक पोत है, यानी ऐसा जहाज़ जिससे लड़ाकू विमान उड़ान भरते और उतरते हैं। यह भारत में बना भारत का पहला विमानवाहक पोत है और 2022 में नौसेना में शामिल हुआ।",
+        "mr": "आयएनएस विक्रांत ही विमानवाहू युद्धनौका आहे, म्हणजे अशी नौका जिच्यावरून लढाऊ विमाने उड्डाण करतात आणि उतरतात. ही भारतात बनलेली भारताची पहिली विमानवाहू नौका असून 2022 मध्ये नौदलात दाखल झाली."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "INS Arihant is a nuclear-powered submarine that can carry ballistic missiles, not an aircraft carrier.",
+          "hi": "आईएनएस अरिहंत परमाणु-चालित पनडुब्बी है जो बैलिस्टिक मिसाइलें ले जा सकती है; यह विमानवाहक पोत नहीं है।",
+          "mr": "आयएनएस अरिहंत ही अणुऊर्जेवर चालणारी पाणबुडी आहे जी बॅलिस्टिक क्षेपणास्त्रे वाहून नेऊ शकते; ती विमानवाहू नौका नाही."
+        },
+        "1": {
+          "en": "INS Kalvari is a diesel-electric submarine, not an aircraft carrier.",
+          "hi": "आईएनएस कलवरी डीज़ल-इलेक्ट्रिक पनडुब्बी है, विमानवाहक पोत नहीं।",
+          "mr": "आयएनएस कलवरी ही डिझेल-इलेक्ट्रिक पाणबुडी आहे, विमानवाहू नौका नाही."
+        },
+        "2": {
+          "en": "INS Shivalik is a stealth frigate, a smaller warship that does not operate fighter jets.",
+          "hi": "आईएनएस शिवालिक एक स्टील्थ फ्रिगेट है, यानी छोटा युद्धपोत जिससे लड़ाकू जेट नहीं उड़ते।",
+          "mr": "आयएनएस शिवालिक ही स्टेल्थ फ्रिगेट आहे, म्हणजे लहान युद्धनौका जिच्यावरून लढाऊ जेट उड्डाण करत नाहीत."
+        }
+      }
+    },
+    {
+      "key": "rms6-p4-gk-16",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "The famous Sun Temple at Konark, shaped like a giant chariot with carved stone wheels, is located in which state?",
+        "hi": "पत्थर के नक़्क़ाशीदार पहियों वाले विशाल रथ के आकार का प्रसिद्ध कोणार्क सूर्य मंदिर किस राज्य में स्थित है?",
+        "mr": "कोरीव दगडी चाके असलेल्या भव्य रथाच्या आकाराचे प्रसिद्ध कोणार्क सूर्य मंदिर कोणत्या राज्यात आहे?"
+      },
+      "optionsJson": [
+        { "en": "Tamil Nadu", "hi": "तमिलनाडु", "mr": "तमिळनाडू" },
+        { "en": "Odisha", "hi": "ओडिशा", "mr": "ओडिशा" },
+        { "en": "Gujarat", "hi": "गुजरात", "mr": "गुजरात" },
+        { "en": "Karnataka", "hi": "कर्नाटक", "mr": "कर्नाटक" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "The Konark Sun Temple stands on the coast of Odisha, near Puri. It was built in the 13th century and is a UNESCO World Heritage Site.",
+        "hi": "कोणार्क सूर्य मंदिर ओडिशा के तट पर पुरी के पास स्थित है। यह 13वीं शताब्दी में बना था और यूनेस्को का विश्व धरोहर स्थल है।",
+        "mr": "कोणार्क सूर्य मंदिर ओडिशाच्या किनाऱ्यावर पुरीजवळ आहे. ते 13 व्या शतकात बांधले गेले असून युनेस्कोचे जागतिक वारसा स्थळ आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Tamil Nadu is known for Dravidian temples such as the Brihadisvara Temple at Thanjavur, not for Konark.",
+          "hi": "तमिलनाडु तंजावुर के बृहदीश्वर मंदिर जैसे द्रविड़ शैली के मंदिरों के लिए जाना जाता है, कोणार्क के लिए नहीं।",
+          "mr": "तमिळनाडू तंजावूरच्या बृहदीश्वर मंदिरासारख्या द्रविड शैलीच्या मंदिरांसाठी ओळखले जाते, कोणार्कसाठी नाही."
+        },
+        "2": {
+          "en": "Gujarat has a different Sun Temple at Modhera, not the one at Konark.",
+          "hi": "गुजरात में मोढेरा का एक अलग सूर्य मंदिर है, कोणार्क वाला नहीं।",
+          "mr": "गुजरातमध्ये मोढेरा येथे वेगळे सूर्य मंदिर आहे, कोणार्कचे नाही."
+        },
+        "3": {
+          "en": "Karnataka is known for Hoysala temples at Belur and Halebidu, not for Konark.",
+          "hi": "कर्नाटक बेलूर और हलेबीडु के होयसल मंदिरों के लिए जाना जाता है, कोणार्क के लिए नहीं।",
+          "mr": "कर्नाटक बेलूर आणि हळेबीडूच्या होयसळ मंदिरांसाठी ओळखले जाते, कोणार्कसाठी नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p4-gk-17",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "In the 1970s, villagers in the Himalayan region of present-day Uttarakhand hugged trees to stop them from being cut down. This movement is called:",
+        "hi": "1970 के दशक में आज के उत्तराखंड के हिमालयी क्षेत्र में ग्रामीणों ने पेड़ों को कटने से बचाने के लिए उनसे लिपटकर विरोध किया। इस आंदोलन को क्या कहते हैं?",
+        "mr": "1970 च्या दशकात सध्याच्या उत्तराखंडच्या हिमालयीन प्रदेशातील गावकऱ्यांनी झाडे तोडली जाऊ नयेत म्हणून त्यांना मिठी मारली. या आंदोलनाला काय म्हणतात?"
+      },
+      "optionsJson": [
+        { "en": "Quit India Movement", "hi": "भारत छोड़ो आंदोलन", "mr": "चले जाव चळवळ" },
+        { "en": "Bhoodan Movement", "hi": "भूदान आंदोलन", "mr": "भूदान चळवळ" },
+        { "en": "Chipko Movement", "hi": "चिपको आंदोलन", "mr": "चिपको आंदोलन" },
+        { "en": "Swadeshi Movement", "hi": "स्वदेशी आंदोलन", "mr": "स्वदेशी चळवळ" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "In the Chipko Movement, whose name means 'to cling', villagers, including many women such as Gaura Devi, hugged trees to protect forests.",
+        "hi": "चिपको आंदोलन, जिसका अर्थ है 'चिपक जाना', में गौरा देवी जैसी अनेक महिलाओं सहित ग्रामीणों ने वनों की रक्षा के लिए पेड़ों को गले लगाया।",
+        "mr": "चिपको आंदोलन, ज्याचा अर्थ 'चिकटून राहणे' असा आहे, यात गौरा देवींसारख्या अनेक महिलांसह गावकऱ्यांनी जंगलांच्या रक्षणासाठी झाडांना मिठी मारली."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The Quit India Movement of 1942 was a freedom struggle demanding an end to British rule, not a forest-saving movement.",
+          "hi": "1942 का भारत छोड़ो आंदोलन ब्रिटिश शासन की समाप्ति की माँग करने वाला स्वतंत्रता संघर्ष था, वन बचाने का आंदोलन नहीं।",
+          "mr": "1942 ची चले जाव चळवळ ब्रिटिश सत्ता संपवण्याची मागणी करणारा स्वातंत्र्यलढा होता, जंगल वाचवण्याची चळवळ नव्हती."
+        },
+        "1": {
+          "en": "In the Bhoodan Movement, Vinoba Bhave asked landowners to donate land to the landless.",
+          "hi": "भूदान आंदोलन में विनोबा भावे ने भूस्वामियों से भूमिहीनों को ज़मीन दान करने का आग्रह किया।",
+          "mr": "भूदान चळवळीत विनोबा भावे यांनी जमीनदारांना भूमिहीनांना जमीन दान करण्याचे आवाहन केले."
+        },
+        "3": {
+          "en": "The Swadeshi Movement urged people to use Indian-made goods and boycott foreign goods.",
+          "hi": "स्वदेशी आंदोलन में लोगों से भारत में बनी वस्तुओं के उपयोग और विदेशी वस्तुओं के बहिष्कार का आग्रह किया गया।",
+          "mr": "स्वदेशी चळवळीत लोकांना भारतात बनलेल्या वस्तू वापरण्याचे आणि परदेशी वस्तूंवर बहिष्कार घालण्याचे आवाहन करण्यात आले."
+        }
+      }
+    },
+    {
+      "key": "rms6-p4-gk-18",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "ISRO's main rocket launch centre, the Satish Dhawan Space Centre at Sriharikota, is located in which state?",
+        "hi": "इसरो का प्रमुख रॉकेट प्रक्षेपण केंद्र, श्रीहरिकोटा स्थित सतीश धवन अंतरिक्ष केंद्र, किस राज्य में है?",
+        "mr": "इस्रोचे मुख्य रॉकेट प्रक्षेपण केंद्र, श्रीहरिकोटा येथील सतीश धवन अंतराळ केंद्र, कोणत्या राज्यात आहे?"
+      },
+      "optionsJson": [
+        { "en": "Andhra Pradesh", "hi": "आंध्र प्रदेश", "mr": "आंध्र प्रदेश" },
+        { "en": "Kerala", "hi": "केरल", "mr": "केरळ" },
+        { "en": "Odisha", "hi": "ओडिशा", "mr": "ओडिशा" },
+        { "en": "Tamil Nadu", "hi": "तमिलनाडु", "mr": "तमिळनाडू" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Sriharikota is a barrier island off the east coast of Andhra Pradesh, and ISRO launches most of its large rockets from there.",
+        "hi": "श्रीहरिकोटा आंध्र प्रदेश के पूर्वी तट के पास एक अवरोधक द्वीप है, और इसरो अपने अधिकांश बड़े रॉकेट वहीं से प्रक्षेपित करता है।",
+        "mr": "श्रीहरिकोटा हे आंध्र प्रदेशच्या पूर्व किनाऱ्याजवळील एक अडथळा बेट आहे आणि इस्रो आपले बहुतेक मोठे रॉकेट तिथूनच प्रक्षेपित करते."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Kerala has Thumba, where small sounding rockets are launched, but the main launch centre is not there.",
+          "hi": "केरल में थुम्बा है, जहाँ छोटे साउंडिंग रॉकेट छोड़े जाते हैं, पर मुख्य प्रक्षेपण केंद्र वहाँ नहीं है।",
+          "mr": "केरळमध्ये थुंबा आहे, जिथून लहान साउंडिंग रॉकेट सोडले जातात, पण मुख्य प्रक्षेपण केंद्र तिथे नाही."
+        },
+        "2": {
+          "en": "Odisha has Abdul Kalam Island, used for testing missiles, not for ISRO's main launches.",
+          "hi": "ओडिशा में अब्दुल कलाम द्वीप है, जिसका उपयोग मिसाइल परीक्षण के लिए होता है, इसरो के मुख्य प्रक्षेपणों के लिए नहीं।",
+          "mr": "ओडिशामध्ये अब्दुल कलाम बेट आहे, ज्याचा वापर क्षेपणास्त्र चाचण्यांसाठी होतो, इस्रोच्या मुख्य प्रक्षेपणांसाठी नाही."
+        },
+        "3": {
+          "en": "Tamil Nadu lies just south of Sriharikota, but the centre itself is not in that state.",
+          "hi": "तमिलनाडु श्रीहरिकोटा के ठीक दक्षिण में है, पर केंद्र स्वयं उस राज्य में नहीं है।",
+          "mr": "तमिळनाडू श्रीहरिकोटाच्या अगदी दक्षिणेला आहे, पण केंद्र त्या राज्यात नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p4-gk-19",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Which vitamin does our skin make when it is exposed to sunlight?",
+        "hi": "धूप के संपर्क में आने पर हमारी त्वचा कौन-सा विटामिन बनाती है?",
+        "mr": "उन्हाच्या संपर्कात आल्यावर आपली त्वचा कोणते जीवनसत्त्व तयार करते?"
+      },
+      "optionsJson": [
+        { "en": "Vitamin A", "hi": "विटामिन A", "mr": "जीवनसत्त्व A" },
+        { "en": "Vitamin B", "hi": "विटामिन B", "mr": "जीवनसत्त्व B" },
+        { "en": "Vitamin C", "hi": "विटामिन C", "mr": "जीवनसत्त्व C" },
+        { "en": "Vitamin D", "hi": "विटामिन D", "mr": "जीवनसत्त्व D" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Our skin makes vitamin D in sunlight. It helps the body absorb calcium for strong bones and teeth, and a lack of it can cause rickets.",
+        "hi": "धूप में हमारी त्वचा विटामिन D बनाती है। यह शरीर को कैल्शियम सोखने में मदद करता है, जिससे हड्डियाँ और दाँत मज़बूत होते हैं; इसकी कमी से रिकेट्स हो सकता है।",
+        "mr": "उन्हात आपली त्वचा जीवनसत्त्व D तयार करते. ते शरीराला कॅल्शियम शोषून घेण्यास मदत करते, ज्यामुळे हाडे आणि दात मजबूत होतात; त्याच्या कमतरतेमुळे मुडदूस होऊ शकतो."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Vitamin A comes from food such as carrots and milk, and it helps keep our eyesight healthy.",
+          "hi": "विटामिन A गाजर और दूध जैसे आहार से मिलता है और आँखों की रोशनी स्वस्थ रखने में मदद करता है।",
+          "mr": "जीवनसत्त्व A गाजर आणि दूध यांसारख्या आहारातून मिळते आणि दृष्टी चांगली ठेवण्यास मदत करते."
+        },
+        "1": {
+          "en": "The B vitamins come mainly from food such as cereals and pulses and help the body release energy from food.",
+          "hi": "B समूह के विटामिन मुख्यतः अनाज और दालों जैसे आहार से मिलते हैं और भोजन से ऊर्जा निकालने में मदद करते हैं।",
+          "mr": "B गटातील जीवनसत्त्वे मुख्यतः धान्ये आणि डाळी यांसारख्या आहारातून मिळतात आणि अन्नातून ऊर्जा मिळवण्यास मदत करतात."
+        },
+        "2": {
+          "en": "Vitamin C comes from food such as oranges and amla, and it helps prevent scurvy.",
+          "hi": "विटामिन C संतरे और आँवले जैसे आहार से मिलता है और स्कर्वी रोग से बचाता है।",
+          "mr": "जीवनसत्त्व C संत्री आणि आवळा यांसारख्या आहारातून मिळते आणि स्कर्व्ही रोगापासून बचाव करते."
+        }
+      }
+    },
+    {
+      "key": "rms6-p4-gk-20",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which leader gave the call 'Do or Die' at the start of the Quit India Movement in 1942?",
+        "hi": "1942 में भारत छोड़ो आंदोलन के आरंभ में 'करो या मरो' का आह्वान किस नेता ने किया था?",
+        "mr": "1942 मध्ये चले जाव चळवळीच्या सुरुवातीला 'करा किंवा मरा' असे आवाहन कोणत्या नेत्याने केले?"
+      },
+      "optionsJson": [
+        { "en": "Mahatma Gandhi", "hi": "महात्मा गांधी", "mr": "महात्मा गांधी" },
+        { "en": "Subhas Chandra Bose", "hi": "सुभाष चंद्र बोस", "mr": "सुभाषचंद्र बोस" },
+        { "en": "Bhagat Singh", "hi": "भगत सिंह", "mr": "भगतसिंग" },
+        { "en": "Bal Gangadhar Tilak", "hi": "बाल गंगाधर तिलक", "mr": "बाळ गंगाधर टिळक" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "On 8 August 1942, in Bombay, Mahatma Gandhi gave the call 'Do or Die' and launched the Quit India Movement.",
+        "hi": "8 अगस्त 1942 को बंबई में महात्मा गांधी ने 'करो या मरो' का आह्वान किया और भारत छोड़ो आंदोलन शुरू किया।",
+        "mr": "8 ऑगस्ट 1942 रोजी मुंबईत महात्मा गांधींनी 'करा किंवा मरा' असे आवाहन करून चले जाव चळवळ सुरू केली."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Subhas Chandra Bose is remembered for founding the Azad Hind Fauj (Indian National Army), not for this call.",
+          "hi": "सुभाष चंद्र बोस आज़ाद हिंद फ़ौज (इंडियन नेशनल आर्मी) की स्थापना के लिए याद किए जाते हैं, इस आह्वान के लिए नहीं।",
+          "mr": "सुभाषचंद्र बोस आझाद हिंद फौजेच्या (इंडियन नॅशनल आर्मी) स्थापनेसाठी ओळखले जातात, या आवाहनासाठी नाही."
+        },
+        "2": {
+          "en": "Bhagat Singh popularised 'Inquilab Zindabad' and was executed in 1931, long before 1942.",
+          "hi": "भगत सिंह ने 'इंक़लाब ज़िंदाबाद' का नारा लोकप्रिय किया और उन्हें 1931 में फाँसी दी गई, यानी 1942 से बहुत पहले।",
+          "mr": "भगतसिंग यांनी 'इन्कलाब झिंदाबाद' ही घोषणा लोकप्रिय केली आणि त्यांना 1931 मध्ये फाशी देण्यात आली, म्हणजे 1942 च्या खूप आधी."
+        },
+        "3": {
+          "en": "Bal Gangadhar Tilak died in 1920 and is known for saying 'Swaraj is my birthright'.",
+          "hi": "बाल गंगाधर तिलक का निधन 1920 में हो गया था और वे 'स्वराज्य मेरा जन्मसिद्ध अधिकार है' कहने के लिए जाने जाते हैं।",
+          "mr": "बाळ गंगाधर टिळक यांचे 1920 मध्ये निधन झाले आणि ते 'स्वराज्य हा माझा जन्मसिद्ध हक्क आहे' या उद्गारासाठी प्रसिद्ध आहेत."
+        }
+      }
+    },
+    {
+      "key": "rms6-p4-gk-21",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Project Tiger, launched to protect India's tigers and their habitats, began in which year?",
+        "hi": "भारत के बाघों और उनके आवासों की रक्षा के लिए शुरू की गई 'प्रोजेक्ट टाइगर' योजना किस वर्ष आरंभ हुई?",
+        "mr": "भारतातील वाघ आणि त्यांच्या अधिवासांचे संरक्षण करण्यासाठी सुरू केलेला 'प्रोजेक्ट टायगर' कोणत्या वर्षी सुरू झाला?"
+      },
+      "optionsJson": [
+        { "en": "1947", "hi": "1947", "mr": "1947" },
+        { "en": "1973", "hi": "1973", "mr": "1973" },
+        { "en": "1992", "hi": "1992", "mr": "1992" },
+        { "en": "2005", "hi": "2005", "mr": "2005" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Project Tiger was launched in 1973, when the number of tigers had fallen sharply. It began with a few tiger reserves, and many more have been added since.",
+        "hi": "प्रोजेक्ट टाइगर 1973 में शुरू हुआ, जब बाघों की संख्या तेज़ी से घट गई थी। यह कुछ बाघ अभयारण्यों से शुरू हुआ और बाद में कई और जोड़े गए।",
+        "mr": "प्रोजेक्ट टायगर 1973 मध्ये सुरू झाला, जेव्हा वाघांची संख्या झपाट्याने घटली होती. तो काही व्याघ्र प्रकल्पांपासून सुरू झाला आणि नंतर आणखी अनेक जोडले गेले."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "1947 is the year India became independent; Project Tiger began much later.",
+          "hi": "1947 वह वर्ष है जब भारत स्वतंत्र हुआ; प्रोजेक्ट टाइगर बहुत बाद में शुरू हुआ।",
+          "mr": "1947 हे भारत स्वतंत्र झाल्याचे वर्ष आहे; प्रोजेक्ट टायगर खूप नंतर सुरू झाला."
+        },
+        "2": {
+          "en": "1992 is the year Project Elephant began, to protect elephants.",
+          "hi": "1992 वह वर्ष है जब हाथियों की रक्षा के लिए प्रोजेक्ट एलीफ़ेंट शुरू हुआ।",
+          "mr": "1992 हे हत्तींच्या संरक्षणासाठी प्रोजेक्ट एलिफंट सुरू झाल्याचे वर्ष आहे."
+        },
+        "3": {
+          "en": "In 2005 a Tiger Task Force was formed to review tiger conservation, long after the project had begun.",
+          "hi": "2005 में बाघ संरक्षण की समीक्षा के लिए टाइगर टास्क फ़ोर्स बनाई गई, यानी परियोजना शुरू होने के बहुत बाद।",
+          "mr": "2005 मध्ये वाघ संवर्धनाचा आढावा घेण्यासाठी टायगर टास्क फोर्स स्थापन झाली, म्हणजे प्रकल्प सुरू होऊन खूप काळानंतर."
+        }
+      }
+    },
+    {
+      "key": "rms6-p4-gk-22",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "On which date did the Constitution of India come into effect?",
+        "hi": "भारत का संविधान किस तिथि को लागू हुआ?",
+        "mr": "भारताची राज्यघटना कोणत्या तारखेला अमलात आली?"
+      },
+      "optionsJson": [
+        { "en": "15 August 1947", "hi": "15 अगस्त 1947", "mr": "15 ऑगस्ट 1947" },
+        { "en": "26 November 1949", "hi": "26 नवंबर 1949", "mr": "26 नोव्हेंबर 1949" },
+        { "en": "26 January 1950", "hi": "26 जनवरी 1950", "mr": "26 जानेवारी 1950" },
+        { "en": "26 January 1930", "hi": "26 जनवरी 1930", "mr": "26 जानेवारी 1930" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The Constitution came into effect on 26 January 1950, and India became a republic. This day is celebrated every year as Republic Day.",
+        "hi": "संविधान 26 जनवरी 1950 को लागू हुआ और भारत गणराज्य बना। यह दिन हर वर्ष गणतंत्र दिवस के रूप में मनाया जाता है।",
+        "mr": "राज्यघटना 26 जानेवारी 1950 रोजी अमलात आली आणि भारत प्रजासत्ताक झाला. हा दिवस दरवर्षी प्रजासत्ताक दिन म्हणून साजरा केला जातो."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "15 August 1947 is the day India became independent, not the day the Constitution came into effect.",
+          "hi": "15 अगस्त 1947 वह दिन है जब भारत स्वतंत्र हुआ, न कि वह दिन जब संविधान लागू हुआ।",
+          "mr": "15 ऑगस्ट 1947 हा भारत स्वतंत्र झाल्याचा दिवस आहे, राज्यघटना अमलात आल्याचा नाही."
+        },
+        "1": {
+          "en": "On 26 November 1949 the Constituent Assembly adopted the Constitution, but it came into effect later.",
+          "hi": "26 नवंबर 1949 को संविधान सभा ने संविधान को अपनाया, पर यह बाद में लागू हुआ।",
+          "mr": "26 नोव्हेंबर 1949 रोजी संविधान सभेने राज्यघटना स्वीकारली, पण ती नंतर अमलात आली."
+        },
+        "3": {
+          "en": "On 26 January 1930 the Indian National Congress observed Purna Swaraj Day, and the date was chosen later to honour it.",
+          "hi": "26 जनवरी 1930 को भारतीय राष्ट्रीय कांग्रेस ने पूर्ण स्वराज दिवस मनाया था, और बाद में इस तिथि को उसके सम्मान में चुना गया।",
+          "mr": "26 जानेवारी 1930 रोजी भारतीय राष्ट्रीय काँग्रेसने पूर्ण स्वराज्य दिन पाळला होता, आणि त्याच्या सन्मानार्थ पुढे हीच तारीख निवडण्यात आली."
+        }
+      }
+    },
+    {
+      "key": "rms6-p4-gk-23",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which is the smallest state of India by area?",
+        "hi": "क्षेत्रफल की दृष्टि से भारत का सबसे छोटा राज्य कौन-सा है?",
+        "mr": "क्षेत्रफळाच्या दृष्टीने भारतातील सर्वात लहान राज्य कोणते?"
+      },
+      "optionsJson": [
+        { "en": "Sikkim", "hi": "सिक्किम", "mr": "सिक्कीम" },
+        { "en": "Tripura", "hi": "त्रिपुरा", "mr": "त्रिपुरा" },
+        { "en": "Manipur", "hi": "मणिपुर", "mr": "मणिपूर" },
+        { "en": "Goa", "hi": "गोवा", "mr": "गोवा" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Goa covers only about 3,700 square kilometres, which makes it the smallest state of India by area. Sikkim and Tripura come next.",
+        "hi": "गोवा केवल लगभग 3,700 वर्ग किलोमीटर में फैला है, जो उसे क्षेत्रफल में भारत का सबसे छोटा राज्य बनाता है। इसके बाद सिक्किम और त्रिपुरा आते हैं।",
+        "mr": "गोवा केवळ सुमारे 3,700 चौरस किलोमीटरवर पसरलेले आहे, त्यामुळे ते क्षेत्रफळात भारतातील सर्वात लहान राज्य आहे. त्यानंतर सिक्कीम आणि त्रिपुरा यांचा क्रमांक येतो."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Sikkim covers about 7,100 square kilometres, almost twice the area of Goa, so it is the second smallest state, not the smallest.",
+          "hi": "सिक्किम लगभग 7,100 वर्ग किलोमीटर में फैला है, जो गोवा के क्षेत्रफल का लगभग दोगुना है, इसलिए यह दूसरा सबसे छोटा राज्य है, सबसे छोटा नहीं।",
+          "mr": "सिक्कीम सुमारे 7,100 चौरस किलोमीटरवर पसरलेले आहे, जे गोव्याच्या क्षेत्रफळाच्या जवळजवळ दुप्पट आहे, म्हणून ते दुसरे सर्वात लहान राज्य आहे, सर्वात लहान नाही."
+        },
+        "1": {
+          "en": "Tripura covers about 10,500 square kilometres, nearly three times the area of Goa, so it is only the third smallest state.",
+          "hi": "त्रिपुरा लगभग 10,500 वर्ग किलोमीटर में फैला है, जो गोवा के क्षेत्रफल का लगभग तीन गुना है, इसलिए यह केवल तीसरा सबसे छोटा राज्य है।",
+          "mr": "त्रिपुरा सुमारे 10,500 चौरस किलोमीटरवर पसरलेले आहे, जे गोव्याच्या क्षेत्रफळाच्या जवळजवळ तिप्पट आहे, म्हणून ते फक्त तिसरे सर्वात लहान राज्य आहे."
+        },
+        "2": {
+          "en": "Manipur covers about 22,300 square kilometres, which is far larger than Goa, so it is not the smallest state.",
+          "hi": "मणिपुर लगभग 22,300 वर्ग किलोमीटर में फैला है, जो गोवा से कहीं बड़ा है, इसलिए यह सबसे छोटा राज्य नहीं है।",
+          "mr": "मणिपूर सुमारे 22,300 चौरस किलोमीटरवर पसरलेले आहे, जे गोव्यापेक्षा खूप मोठे आहे, म्हणून ते सर्वात लहान राज्य नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p4-gk-24",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "In 2008, which Indian shooter won India's first individual Olympic gold medal, in the 10 m air rifle event?",
+        "hi": "2008 में किस भारतीय निशानेबाज़ ने 10 मीटर एयर राइफ़ल स्पर्धा में भारत का पहला व्यक्तिगत ओलंपिक स्वर्ण पदक जीता?",
+        "mr": "2008 मध्ये कोणत्या भारतीय नेमबाजाने 10 मीटर एअर रायफल प्रकारात भारताचे पहिले वैयक्तिक ऑलिंपिक सुवर्णपदक जिंकले?"
+      },
+      "optionsJson": [
+        { "en": "Rajyavardhan Singh Rathore", "hi": "राज्यवर्धन सिंह राठौड़", "mr": "राज्यवर्धनसिंग राठोड" },
+        { "en": "Gagan Narang", "hi": "गगन नारंग", "mr": "गगन नारंग" },
+        { "en": "Vijay Kumar", "hi": "विजय कुमार", "mr": "विजय कुमार" },
+        { "en": "Abhinav Bindra", "hi": "अभिनव बिंद्रा", "mr": "अभिनव बिंद्रा" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Abhinav Bindra won the gold medal in the men's 10 m air rifle event at the Beijing Olympics in 2008.",
+        "hi": "अभिनव बिंद्रा ने 2008 के बीजिंग ओलंपिक में पुरुषों की 10 मीटर एयर राइफ़ल स्पर्धा में स्वर्ण पदक जीता।",
+        "mr": "अभिनव बिंद्रा यांनी 2008 च्या बीजिंग ऑलिंपिकमध्ये पुरुषांच्या 10 मीटर एअर रायफल प्रकारात सुवर्णपदक जिंकले."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Rajyavardhan Singh Rathore won a silver medal in double trap shooting at the 2004 Athens Olympics.",
+          "hi": "राज्यवर्धन सिंह राठौड़ ने 2004 के एथेंस ओलंपिक में डबल ट्रैप निशानेबाज़ी में रजत पदक जीता।",
+          "mr": "राज्यवर्धनसिंग राठोड यांनी 2004 च्या अथेन्स ऑलिंपिकमध्ये डबल ट्रॅप नेमबाजीत रौप्यपदक जिंकले."
+        },
+        "1": {
+          "en": "Gagan Narang won a bronze medal in the 10 m air rifle event at the 2012 London Olympics.",
+          "hi": "गगन नारंग ने 2012 के लंदन ओलंपिक में 10 मीटर एयर राइफ़ल स्पर्धा में कांस्य पदक जीता।",
+          "mr": "गगन नारंग यांनी 2012 च्या लंडन ऑलिंपिकमध्ये 10 मीटर एअर रायफल प्रकारात कांस्यपदक जिंकले."
+        },
+        "2": {
+          "en": "Vijay Kumar won a silver medal in the 25 m rapid fire pistol event at the 2012 London Olympics.",
+          "hi": "विजय कुमार ने 2012 के लंदन ओलंपिक में 25 मीटर रैपिड फ़ायर पिस्टल स्पर्धा में रजत पदक जीता।",
+          "mr": "विजय कुमार यांनी 2012 च्या लंडन ऑलिंपिकमध्ये 25 मीटर रॅपिड फायर पिस्तूल प्रकारात रौप्यपदक जिंकले."
+        }
+      }
+    },
+    {
+      "key": "rms6-p4-gk-25",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "In which Indian state did the classical dance form Bharatanatyam originate?",
+        "hi": "शास्त्रीय नृत्य शैली भरतनाट्यम का उद्गम किस भारतीय राज्य में हुआ?",
+        "mr": "शास्त्रीय नृत्यप्रकार भरतनाट्यमचा उगम भारताच्या कोणत्या राज्यात झाला?"
+      },
+      "optionsJson": [
+        { "en": "Kerala", "hi": "केरल", "mr": "केरळ" },
+        { "en": "Odisha", "hi": "ओडिशा", "mr": "ओडिशा" },
+        { "en": "Tamil Nadu", "hi": "तमिलनाडु", "mr": "तमिळनाडू" },
+        { "en": "Andhra Pradesh", "hi": "आंध्र प्रदेश", "mr": "आंध्र प्रदेश" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Bharatanatyam originated in the temples of Tamil Nadu, where it was performed as a form of worship.",
+        "hi": "भरतनाट्यम का उद्गम तमिलनाडु के मंदिरों में हुआ, जहाँ यह उपासना के रूप में प्रस्तुत किया जाता था।",
+        "mr": "भरतनाट्यमचा उगम तमिळनाडूतील मंदिरांमध्ये झाला, जिथे ते उपासनेचा एक प्रकार म्हणून सादर केले जात असे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Kerala is known for the classical dances Kathakali and Mohiniyattam.",
+          "hi": "केरल कथकली और मोहिनीअट्टम जैसे शास्त्रीय नृत्यों के लिए जाना जाता है।",
+          "mr": "केरळ कथकली आणि मोहिनीअट्टम या शास्त्रीय नृत्यांसाठी ओळखले जाते."
+        },
+        "1": {
+          "en": "Odisha is the home of the classical dance Odissi.",
+          "hi": "ओडिशा शास्त्रीय नृत्य ओडिसी का घर है।",
+          "mr": "ओडिशा हे ओडिसी या शास्त्रीय नृत्याचे माहेरघर आहे."
+        },
+        "3": {
+          "en": "Andhra Pradesh is the home of the classical dance Kuchipudi.",
+          "hi": "आंध्र प्रदेश शास्त्रीय नृत्य कुचिपुड़ी का घर है।",
+          "mr": "आंध्र प्रदेश हे कुचिपुडी या शास्त्रीय नृत्याचे माहेरघर आहे."
+        }
+      }
+    }
+  ]
+}

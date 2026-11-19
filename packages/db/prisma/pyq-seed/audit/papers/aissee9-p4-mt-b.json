@@ -1,0 +1,1159 @@
+{
+  "examType": "AISSEE",
+  "classLevel": 9,
+  "paperNumber": 4,
+  "sectionKey": "mathematics",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "aissee9-p4-mt-26",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "A 13 m long ladder leans against a vertical wall. Its foot is 5 m away from the base of the wall. How high up the wall does the ladder reach?",
+        "hi": "13 मी लंबी एक सीढ़ी एक ऊर्ध्वाधर दीवार से टिकी है। सीढ़ी का निचला सिरा दीवार के आधार से 5 मी दूर है। सीढ़ी दीवार पर कितनी ऊँचाई तक पहुँचती है?"
+      },
+      "optionsJson": [
+        {
+          "en": "8 m",
+          "hi": "8 मी"
+        },
+        {
+          "en": "12 m",
+          "hi": "12 मी"
+        },
+        {
+          "en": "18 m",
+          "hi": "18 मी"
+        },
+        {
+          "en": "10 m",
+          "hi": "10 मी"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "The ladder, wall and ground form a right triangle with hypotenuse 13 m and base 5 m. Height = √(13² − 5²) = √(169 − 25) = √144 = 12 m.",
+        "hi": "सीढ़ी, दीवार और ज़मीन एक समकोण त्रिभुज बनाते हैं जिसका कर्ण 13 मी और आधार 5 मी है। ऊँचाई = √(13² − 5²) = √(169 − 25) = √144 = 12 मी।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Subtracts the lengths directly (13 − 5) instead of using the Pythagoras theorem.",
+          "hi": "पाइथागोरस प्रमेय के बजाय लंबाइयों को सीधे घटा दिया (13 − 5)।"
+        },
+        "2": {
+          "en": "Adds the lengths (13 + 5), which is not related to the height.",
+          "hi": "लंबाइयों को जोड़ दिया (13 + 5), जिसका ऊँचाई से कोई संबंध नहीं है।"
+        },
+        "3": {
+          "en": "A guess: 10² + 5² = 125, which does not equal 13² = 169.",
+          "hi": "यह अनुमान है: 10² + 5² = 125, जो 13² = 169 के बराबर नहीं है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p4-mt-27",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "The sides of a triangle are 13 cm, 14 cm and 15 cm. What is its area?",
+        "hi": "एक त्रिभुज की भुजाएँ 13 सेमी, 14 सेमी और 15 सेमी हैं। इसका क्षेत्रफल क्या है?"
+      },
+      "optionsJson": [
+        {
+          "en": "84 cm²",
+          "hi": "84 सेमी²"
+        },
+        {
+          "en": "91 cm²",
+          "hi": "91 सेमी²"
+        },
+        {
+          "en": "72 cm²",
+          "hi": "72 सेमी²"
+        },
+        {
+          "en": "105 cm²",
+          "hi": "105 सेमी²"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Semi-perimeter s = (13 + 14 + 15)/2 = 21. By Heron's formula, area = √(21 × 8 × 7 × 6) = √7056 = 84 cm².",
+        "hi": "अर्ध-परिमाप s = (13 + 14 + 15)/2 = 21। हीरोन के सूत्र से क्षेत्रफल = √(21 × 8 × 7 × 6) = √7056 = 84 सेमी²।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Takes half the product of the sides 13 and 14, which is valid only for a right angle between them.",
+          "hi": "भुजाओं 13 और 14 के गुणनफल का आधा लिया, जो केवल तब सही है जब उनके बीच समकोण हो।"
+        },
+        "2": {
+          "en": "An arithmetic slip while evaluating the square root in Heron's formula.",
+          "hi": "हीरोन के सूत्र में वर्गमूल निकालते समय गणना की भूल।"
+        },
+        "3": {
+          "en": "Takes half the product of the sides 14 and 15, wrongly assuming a right angle between them.",
+          "hi": "भुजाओं 14 और 15 के गुणनफल का आधा लिया, यह मानकर कि उनके बीच समकोण है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p4-mt-28",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "In a circle of radius 10 cm, a chord is 16 cm long. What is the perpendicular distance of the chord from the centre of the circle?",
+        "hi": "10 सेमी त्रिज्या वाले एक वृत्त में एक जीवा की लंबाई 16 सेमी है। वृत्त के केंद्र से जीवा की लंबवत दूरी कितनी है?"
+      },
+      "optionsJson": [
+        {
+          "en": "8 cm",
+          "hi": "8 सेमी"
+        },
+        {
+          "en": "12 cm",
+          "hi": "12 सेमी"
+        },
+        {
+          "en": "6 cm",
+          "hi": "6 सेमी"
+        },
+        {
+          "en": "2 cm",
+          "hi": "2 सेमी"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The perpendicular from the centre bisects the chord, so half-chord = 8 cm. Distance = √(10² − 8²) = √(100 − 64) = √36 = 6 cm.",
+        "hi": "केंद्र से जीवा पर डाला गया लंब जीवा को समद्विभाजित करता है, अतः आधी जीवा = 8 सेमी। दूरी = √(10² − 8²) = √(100 − 64) = √36 = 6 सेमी।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Gives the half-length of the chord instead of the distance from the centre.",
+          "hi": "केंद्र से दूरी के बजाय जीवा की आधी लंबाई बता दी।"
+        },
+        "1": {
+          "en": "Not obtained from any valid step; 12² + 8² = 208, which is not 10² = 100.",
+          "hi": "यह किसी भी सही चरण से नहीं आता; 12² + 8² = 208, जो 10² = 100 नहीं है।"
+        },
+        "3": {
+          "en": "Subtracts the half-chord from the radius (10 − 8) instead of using the Pythagoras theorem.",
+          "hi": "पाइथागोरस प्रमेय के बजाय त्रिज्या में से आधी जीवा घटा दी (10 − 8)।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p4-mt-29",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "A chord AB of a circle with centre O subtends an angle of 70° at the centre. What angle does the chord subtend at a point P on the major arc AB?",
+        "hi": "O केंद्र वाले एक वृत्त की जीवा AB केंद्र पर 70° का कोण बनाती है। दीर्घ चाप AB पर स्थित किसी बिंदु P पर यह जीवा कितना कोण बनाती है?"
+      },
+      "optionsJson": [
+        {
+          "en": "70°",
+          "hi": "70°"
+        },
+        {
+          "en": "140°",
+          "hi": "140°"
+        },
+        {
+          "en": "110°",
+          "hi": "110°"
+        },
+        {
+          "en": "35°",
+          "hi": "35°"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "The angle subtended by an arc at the centre is double the angle subtended at any point on the remaining part of the circle. So ∠APB = 70° ÷ 2 = 35°.",
+        "hi": "किसी चाप द्वारा केंद्र पर बनाया गया कोण, वृत्त के शेष भाग के किसी भी बिंदु पर बने कोण का दुगुना होता है। अतः ∠APB = 70° ÷ 2 = 35°।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Assumes the angle at the circumference equals the angle at the centre.",
+          "hi": "मान लिया कि परिधि पर बना कोण केंद्र पर बने कोण के बराबर है।"
+        },
+        "1": {
+          "en": "Doubles the central angle instead of halving it.",
+          "hi": "केंद्रीय कोण को आधा करने के बजाय दुगुना कर दिया।"
+        },
+        "2": {
+          "en": "Subtracts 70° from 180° without applying the central angle theorem.",
+          "hi": "केंद्रीय कोण प्रमेय लगाए बिना 180° में से 70° घटा दिया।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p4-mt-30",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "ABCD is a cyclic quadrilateral in which ∠A = 75° and ∠B = 100°. What is the measure of ∠D?",
+        "hi": "ABCD एक चक्रीय चतुर्भुज है जिसमें ∠A = 75° और ∠B = 100° है। ∠D की माप क्या है?"
+      },
+      "optionsJson": [
+        {
+          "en": "80°",
+          "hi": "80°"
+        },
+        {
+          "en": "105°",
+          "hi": "105°"
+        },
+        {
+          "en": "75°",
+          "hi": "75°"
+        },
+        {
+          "en": "100°",
+          "hi": "100°"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Opposite angles of a cyclic quadrilateral are supplementary. ∠D is opposite to ∠B, so ∠D = 180° − 100° = 80°.",
+        "hi": "चक्रीय चतुर्भुज के सम्मुख कोणों का योग 180° होता है। ∠D, ∠B के सम्मुख है, अतः ∠D = 180° − 100° = 80°।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "This is ∠C (180° − 75°), the angle opposite to ∠A, not ∠D.",
+          "hi": "यह ∠C (180° − 75°) है, जो ∠A के सम्मुख कोण है, ∠D नहीं।"
+        },
+        "2": {
+          "en": "Wrongly assumes ∠D equals the given angle ∠A instead of using the opposite-angle property.",
+          "hi": "सम्मुख कोणों के गुण का प्रयोग करने के बजाय गलती से मान लिया कि ∠D दिए गए कोण ∠A के बराबर है।"
+        },
+        "3": {
+          "en": "Wrongly assumes ∠D equals ∠B instead of being supplementary to it.",
+          "hi": "∠D को ∠B का संपूरक मानने के बजाय उसके बराबर मान लिया।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p4-mt-31",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "A solid cone has base radius 7 cm and vertical height 24 cm. What is its total surface area? (Take π = 22/7)",
+        "hi": "एक ठोस शंकु की आधार त्रिज्या 7 सेमी और ऊर्ध्वाधर ऊँचाई 24 सेमी है। इसका संपूर्ण पृष्ठीय क्षेत्रफल क्या है? (π = 22/7 लें)"
+      },
+      "optionsJson": [
+        {
+          "en": "550 cm²",
+          "hi": "550 सेमी²"
+        },
+        {
+          "en": "858 cm²",
+          "hi": "858 सेमी²"
+        },
+        {
+          "en": "704 cm²",
+          "hi": "704 सेमी²"
+        },
+        {
+          "en": "154 cm²",
+          "hi": "154 सेमी²"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Slant height l = √(7² + 24²) = √625 = 25 cm. Total surface area = πr(l + r) = (22/7) × 7 × (25 + 7) = 22 × 32 = 704 cm².",
+        "hi": "तिर्यक ऊँचाई l = √(7² + 24²) = √625 = 25 सेमी। संपूर्ण पृष्ठीय क्षेत्रफल = πr(l + r) = (22/7) × 7 × (25 + 7) = 22 × 32 = 704 सेमी²।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "This is only the curved surface area πrl = 22 × 25; the base area is left out.",
+          "hi": "यह केवल वक्र पृष्ठीय क्षेत्रफल πrl = 22 × 25 है; आधार का क्षेत्रफल छोड़ दिया।"
+        },
+        "1": {
+          "en": "Adds the diameter (14) instead of the radius (7) to the slant height.",
+          "hi": "तिर्यक ऊँचाई में त्रिज्या (7) के बजाय व्यास (14) जोड़ दिया।"
+        },
+        "3": {
+          "en": "This is only the base area πr² = 154 cm².",
+          "hi": "यह केवल आधार का क्षेत्रफल πr² = 154 सेमी² है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p4-mt-32",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "A circle passes through all four vertices of a rectangle of length 16 cm and breadth 12 cm. What is the area of the circle?",
+        "hi": "16 सेमी लंबाई और 12 सेमी चौड़ाई वाले एक आयत के चारों शीर्षों से होकर एक वृत्त गुज़रता है। उस वृत्त का क्षेत्रफल क्या है?"
+      },
+      "optionsJson": [
+        {
+          "en": "25π cm²",
+          "hi": "25π सेमी²"
+        },
+        {
+          "en": "400π cm²",
+          "hi": "400π सेमी²"
+        },
+        {
+          "en": "10π cm²",
+          "hi": "10π सेमी²"
+        },
+        {
+          "en": "100π cm²",
+          "hi": "100π सेमी²"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "The diagonal of the rectangle is a diameter of the circle. Diagonal = √(16² + 12²) = √400 = 20 cm, so radius = 10 cm and area = π × 10² = 100π cm².",
+        "hi": "आयत का विकर्ण वृत्त का व्यास होता है। विकर्ण = √(16² + 12²) = √400 = 20 सेमी, अतः त्रिज्या = 10 सेमी और क्षेत्रफल = π × 10² = 100π सेमी²।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Uses half the correct radius (5 cm) when squaring.",
+          "hi": "वर्ग करते समय सही त्रिज्या की आधी (5 सेमी) का प्रयोग किया।"
+        },
+        "1": {
+          "en": "Uses the diameter 20 cm as the radius.",
+          "hi": "व्यास 20 सेमी को ही त्रिज्या मान लिया।"
+        },
+        "2": {
+          "en": "Gives π times the radius instead of π times the square of the radius.",
+          "hi": "π × त्रिज्या² के बजाय π × त्रिज्या दे दिया।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p4-mt-33",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "A solid cube of edge 6 cm is cut into 27 identical small cubes. By how many cm² does the total surface area increase?",
+        "hi": "6 सेमी भुजा वाले एक ठोस घन को 27 एक जैसे छोटे घनों में काटा जाता है। कुल पृष्ठीय क्षेत्रफल कितने सेमी² बढ़ जाता है?"
+      },
+      "optionsJson": [
+        {
+          "en": "432 cm²",
+          "hi": "432 सेमी²"
+        },
+        {
+          "en": "216 cm²",
+          "hi": "216 सेमी²"
+        },
+        {
+          "en": "648 cm²",
+          "hi": "648 सेमी²"
+        },
+        {
+          "en": "324 cm²",
+          "hi": "324 सेमी²"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Each small cube has edge 6 ÷ 3 = 2 cm, so its surface area is 6 × 4 = 24 cm². Total new area = 27 × 24 = 648 cm². Original area = 6 × 36 = 216 cm². Increase = 648 − 216 = 432 cm².",
+        "hi": "प्रत्येक छोटे घन की भुजा 6 ÷ 3 = 2 सेमी है, अतः उसका पृष्ठीय क्षेत्रफल 6 × 4 = 24 सेमी² है। नया कुल क्षेत्रफल = 27 × 24 = 648 सेमी²। मूल क्षेत्रफल = 6 × 36 = 216 सेमी²। वृद्धि = 648 − 216 = 432 सेमी²।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "This is just the original surface area of the big cube, not the increase.",
+          "hi": "यह केवल बड़े घन का मूल पृष्ठीय क्षेत्रफल है, वृद्धि नहीं।"
+        },
+        "2": {
+          "en": "This is the new total surface area; the original area is not subtracted.",
+          "hi": "यह नया कुल पृष्ठीय क्षेत्रफल है; मूल क्षेत्रफल घटाया नहीं गया।"
+        },
+        "3": {
+          "en": "Takes half of the new total area, which has no basis in the problem.",
+          "hi": "नए कुल क्षेत्रफल का आधा ले लिया, जिसका प्रश्न में कोई आधार नहीं है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p4-mt-34",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Two concentric circles have radii 13 cm and 5 cm. A chord of the larger circle touches the smaller circle. What is the length of this chord?",
+        "hi": "दो संकेंद्रीय वृत्तों की त्रिज्याएँ 13 सेमी और 5 सेमी हैं। बड़े वृत्त की एक जीवा छोटे वृत्त को स्पर्श करती है। इस जीवा की लंबाई कितनी है?"
+      },
+      "optionsJson": [
+        {
+          "en": "12 cm",
+          "hi": "12 सेमी"
+        },
+        {
+          "en": "24 cm",
+          "hi": "24 सेमी"
+        },
+        {
+          "en": "26 cm",
+          "hi": "26 सेमी"
+        },
+        {
+          "en": "18 cm",
+          "hi": "18 सेमी"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "The chord touches the smaller circle at its midpoint, and this radius (5 cm) is perpendicular to the chord. Half-chord = √(13² − 5²) = √144 = 12 cm, so the chord = 2 × 12 = 24 cm.",
+        "hi": "जीवा छोटे वृत्त को अपने मध्य-बिंदु पर स्पर्श करती है और यह त्रिज्या (5 सेमी) जीवा पर लंब होती है। आधी जीवा = √(13² − 5²) = √144 = 12 सेमी, अतः जीवा = 2 × 12 = 24 सेमी।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "This is only the half-chord; it is not doubled.",
+          "hi": "यह केवल आधी जीवा है; इसे दुगुना नहीं किया गया।"
+        },
+        "2": {
+          "en": "This is the diameter of the larger circle, which is the longest chord, not the tangent chord.",
+          "hi": "यह बड़े वृत्त का व्यास है जो सबसे लंबी जीवा है, स्पर्श करने वाली जीवा नहीं।"
+        },
+        "3": {
+          "en": "Adds the two radii (13 + 5) which has no geometric meaning here.",
+          "hi": "दोनों त्रिज्याओं को जोड़ दिया (13 + 5), जिसका यहाँ कोई ज्यामितीय अर्थ नहीं है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p4-mt-35",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "In triangle ABC, D is the midpoint of BC and E is the midpoint of the median AD. If the area of triangle ABC is 60 cm², what is the area of triangle BED?",
+        "hi": "त्रिभुज ABC में D, भुजा BC का मध्य-बिंदु है और E, माध्यिका AD का मध्य-बिंदु है। यदि त्रिभुज ABC का क्षेत्रफल 60 सेमी² है, तो त्रिभुज BED का क्षेत्रफल क्या है?"
+      },
+      "optionsJson": [
+        {
+          "en": "30 cm²",
+          "hi": "30 सेमी²"
+        },
+        {
+          "en": "20 cm²",
+          "hi": "20 सेमी²"
+        },
+        {
+          "en": "15 cm²",
+          "hi": "15 सेमी²"
+        },
+        {
+          "en": "10 cm²",
+          "hi": "10 सेमी²"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "A median divides a triangle into two equal areas, so area(ABD) = 30 cm². In triangle ABD, BE is a median (E is the midpoint of AD), so area(BED) = 30 ÷ 2 = 15 cm².",
+        "hi": "माध्यिका त्रिभुज को बराबर क्षेत्रफल के दो भागों में बाँटती है, अतः क्षेत्रफल (ABD) = 30 सेमी²। त्रिभुज ABD में BE माध्यिका है (E, AD का मध्य-बिंदु है), अतः क्षेत्रफल (BED) = 30 ÷ 2 = 15 सेमी²।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "This is the area of triangle ABD; the second halving by median BE is missed.",
+          "hi": "यह त्रिभुज ABD का क्षेत्रफल है; माध्यिका BE द्वारा दूसरी बार आधा करना छूट गया।"
+        },
+        "1": {
+          "en": "Wrongly divides the area by 3, as if the triangle split into three equal parts.",
+          "hi": "क्षेत्रफल को 3 से भाग दे दिया, मानो त्रिभुज तीन बराबर भागों में बँटा हो।"
+        },
+        "3": {
+          "en": "Divides the area by 6, halving too many times.",
+          "hi": "क्षेत्रफल को 6 से भाग दे दिया, आवश्यकता से अधिक बार आधा किया।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p4-mt-36",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "The area of a rhombus is 120 cm² and one of its diagonals is 24 cm long. What is the perimeter of the rhombus?",
+        "hi": "एक समचतुर्भुज का क्षेत्रफल 120 सेमी² है और उसका एक विकर्ण 24 सेमी लंबा है। समचतुर्भुज का परिमाप क्या है?"
+      },
+      "optionsJson": [
+        {
+          "en": "48 cm",
+          "hi": "48 सेमी"
+        },
+        {
+          "en": "60 cm",
+          "hi": "60 सेमी"
+        },
+        {
+          "en": "34 cm",
+          "hi": "34 सेमी"
+        },
+        {
+          "en": "52 cm",
+          "hi": "52 सेमी"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Area = ½ × d₁ × d₂, so 120 = ½ × 24 × d₂ and d₂ = 10 cm. The diagonals bisect each other at right angles, so side = √(12² + 5²) = 13 cm. Perimeter = 4 × 13 = 52 cm.",
+        "hi": "क्षेत्रफल = ½ × d₁ × d₂, अतः 120 = ½ × 24 × d₂ और d₂ = 10 सेमी। विकर्ण एक-दूसरे को समकोण पर समद्विभाजित करते हैं, अतः भुजा = √(12² + 5²) = 13 सेमी। परिमाप = 4 × 13 = 52 सेमी।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Takes twice the given diagonal (2 × 24) as the perimeter.",
+          "hi": "दिए गए विकर्ण का दुगुना (2 × 24) परिमाप मान लिया।"
+        },
+        "1": {
+          "en": "Halves the area (120 ÷ 2) and treats it as the perimeter.",
+          "hi": "क्षेत्रफल का आधा (120 ÷ 2) लेकर उसे परिमाप मान लिया।"
+        },
+        "2": {
+          "en": "Adds the two diagonals (24 + 10), which is not the perimeter.",
+          "hi": "दोनों विकर्णों को जोड़ दिया (24 + 10), जो परिमाप नहीं है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p4-mt-37",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "The parallel sides of a trapezium are 8 cm and 12 cm, and the distance between them is 5 cm. What is its area?",
+        "hi": "एक समलंब चतुर्भुज की समांतर भुजाएँ 8 सेमी और 12 सेमी हैं तथा उनके बीच की दूरी 5 सेमी है। इसका क्षेत्रफल क्या है?"
+      },
+      "optionsJson": [
+        {
+          "en": "50 cm²",
+          "hi": "50 सेमी²"
+        },
+        {
+          "en": "100 cm²",
+          "hi": "100 सेमी²"
+        },
+        {
+          "en": "60 cm²",
+          "hi": "60 सेमी²"
+        },
+        {
+          "en": "40 cm²",
+          "hi": "40 सेमी²"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Area = ½ × (sum of parallel sides) × height = ½ × (8 + 12) × 5 = ½ × 20 × 5 = 50 cm².",
+        "hi": "क्षेत्रफल = ½ × (समांतर भुजाओं का योग) × ऊँचाई = ½ × (8 + 12) × 5 = ½ × 20 × 5 = 50 सेमी²।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Forgets the factor ½ in the formula.",
+          "hi": "सूत्र में ½ का गुणांक भूल गए।"
+        },
+        "2": {
+          "en": "Multiplies only the longer parallel side by the height (12 × 5).",
+          "hi": "केवल लंबी समांतर भुजा को ऊँचाई से गुणा किया (12 × 5)।"
+        },
+        "3": {
+          "en": "Multiplies only the shorter parallel side by the height (8 × 5).",
+          "hi": "केवल छोटी समांतर भुजा को ऊँचाई से गुणा किया (8 × 5)।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p4-mt-38",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "The circumference of a circular park is 44 m. What is the area of the park? (Take π = 22/7)",
+        "hi": "एक गोलाकार पार्क की परिधि 44 मी है। पार्क का क्षेत्रफल क्या है? (π = 22/7 लें)"
+      },
+      "optionsJson": [
+        {
+          "en": "44 m²",
+          "hi": "44 मी²"
+        },
+        {
+          "en": "154 m²",
+          "hi": "154 मी²"
+        },
+        {
+          "en": "308 m²",
+          "hi": "308 मी²"
+        },
+        {
+          "en": "77 m²",
+          "hi": "77 मी²"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "2πr = 44 gives r = 44 × 7 ÷ 44 = 7 m. Area = πr² = (22/7) × 7 × 7 = 154 m².",
+        "hi": "2πr = 44 से r = 44 × 7 ÷ 44 = 7 मी। क्षेत्रफल = πr² = (22/7) × 7 × 7 = 154 मी²।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Repeats the circumference value, which is a length rather than an area.",
+          "hi": "परिधि का मान ही दोहरा दिया, जो क्षेत्रफल नहीं बल्कि लंबाई है।"
+        },
+        "2": {
+          "en": "Doubles the correct area, using 2πr² instead of πr².",
+          "hi": "सही क्षेत्रफल को दुगुना कर दिया, πr² के बजाय 2πr² का प्रयोग किया।"
+        },
+        "3": {
+          "en": "Halves the correct area, using πr²/2 instead of πr².",
+          "hi": "सही क्षेत्रफल को आधा कर दिया, πr² के बजाय πr²/2 का प्रयोग किया।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p4-mt-39",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "An exterior angle of a triangle is 132°, and its two interior opposite angles are in the ratio 5 : 6. What is the measure of the smaller of these two interior opposite angles?",
+        "hi": "एक त्रिभुज का एक बाह्य कोण 132° है और उसके दो अंतःसम्मुख कोणों का अनुपात 5 : 6 है। इन दोनों अंतःसम्मुख कोणों में छोटे कोण की माप क्या है?"
+      },
+      "optionsJson": [
+        {
+          "en": "66°",
+          "hi": "66°"
+        },
+        {
+          "en": "72°",
+          "hi": "72°"
+        },
+        {
+          "en": "60°",
+          "hi": "60°"
+        },
+        {
+          "en": "48°",
+          "hi": "48°"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "An exterior angle equals the sum of the two interior opposite angles, so 5k + 6k = 132° gives k = 12°. The smaller angle is 5 × 12° = 60° (the other is 72°).",
+        "hi": "बाह्य कोण दोनों अंतःसम्मुख कोणों के योग के बराबर होता है, अतः 5k + 6k = 132° से k = 12°। छोटा कोण 5 × 12° = 60° है (दूसरा कोण 72° है)।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Takes half of the exterior angle, assuming the two angles are equal.",
+          "hi": "बाह्य कोण का आधा ले लिया, यह मानकर कि दोनों कोण बराबर हैं।"
+        },
+        "1": {
+          "en": "This is the larger of the two angles (6 × 12°), not the smaller.",
+          "hi": "यह दोनों में बड़ा कोण (6 × 12°) है, छोटा नहीं।"
+        },
+        "3": {
+          "en": "Uses 180° − 132° = 48°, which is the adjacent interior angle, not an opposite one.",
+          "hi": "180° − 132° = 48° का प्रयोग किया, जो संलग्न अंतः कोण है, सम्मुख कोण नहीं।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p4-mt-40",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "The midpoints of the four sides of a rectangle measuring 10 cm by 6 cm are joined in order to form a quadrilateral. What is the area of this quadrilateral?",
+        "hi": "10 सेमी × 6 सेमी माप वाले एक आयत की चारों भुजाओं के मध्य-बिंदुओं को क्रम से मिलाकर एक चतुर्भुज बनाया जाता है। इस चतुर्भुज का क्षेत्रफल क्या है?"
+      },
+      "optionsJson": [
+        {
+          "en": "60 cm²",
+          "hi": "60 सेमी²"
+        },
+        {
+          "en": "15 cm²",
+          "hi": "15 सेमी²"
+        },
+        {
+          "en": "32 cm²",
+          "hi": "32 सेमी²"
+        },
+        {
+          "en": "30 cm²",
+          "hi": "30 सेमी²"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "The new quadrilateral is a rhombus whose diagonals are the length and breadth of the rectangle (10 cm and 6 cm). Area = ½ × 10 × 6 = 30 cm², which is half the area of the rectangle.",
+        "hi": "नया चतुर्भुज एक समचतुर्भुज है जिसके विकर्ण आयत की लंबाई और चौड़ाई (10 सेमी और 6 सेमी) हैं। क्षेत्रफल = ½ × 10 × 6 = 30 सेमी², जो आयत के क्षेत्रफल का आधा है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "This is the area of the whole rectangle (10 × 6), not of the inner quadrilateral.",
+          "hi": "यह पूरे आयत का क्षेत्रफल (10 × 6) है, भीतरी चतुर्भुज का नहीं।"
+        },
+        "1": {
+          "en": "Takes a quarter of the rectangle's area instead of half.",
+          "hi": "आयत के क्षेत्रफल का आधा लेने के बजाय चौथाई ले लिया।"
+        },
+        "2": {
+          "en": "Uses the perimeter of the rectangle, 2(10 + 6) = 32, instead of an area.",
+          "hi": "क्षेत्रफल के बजाय आयत का परिमाप 2(10 + 6) = 32 ले लिया।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p4-mt-41",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "The product of two positive integers is 1800 and their HCF is 10. What is their LCM?",
+        "hi": "दो धनात्मक पूर्णांकों का गुणनफल 1800 है और उनका म.स.प. (HCF) 10 है। उनका ल.स.प. (LCM) क्या है?"
+      },
+      "optionsJson": [
+        {
+          "en": "18",
+          "hi": "18"
+        },
+        {
+          "en": "180",
+          "hi": "180"
+        },
+        {
+          "en": "1790",
+          "hi": "1790"
+        },
+        {
+          "en": "360",
+          "hi": "360"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "For two numbers, HCF × LCM = product of the numbers. So LCM = 1800 ÷ 10 = 180.",
+        "hi": "दो संख्याओं के लिए म.स.प. × ल.स.प. = संख्याओं का गुणनफल। अतः ल.स.प. = 1800 ÷ 10 = 180।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Divides by 100 instead of 10, losing a factor of 10.",
+          "hi": "10 के बजाय 100 से भाग दे दिया, जिससे एक गुणनखंड 10 घट गया।"
+        },
+        "2": {
+          "en": "Subtracts the HCF from the product instead of dividing.",
+          "hi": "भाग देने के बजाय गुणनफल में से म.स.प. घटा दिया।"
+        },
+        "3": {
+          "en": "Doubles the correct LCM, which cannot satisfy HCF × LCM = 1800.",
+          "hi": "सही ल.स.प. को दुगुना कर दिया, जो म.स.प. × ल.स.प. = 1800 को संतुष्ट नहीं करता।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p4-mt-42",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "What is the median of the data 7, 3, 9, 5, 12, 8?",
+        "hi": "आँकड़ों 7, 3, 9, 5, 12, 8 की माध्यिका क्या है?"
+      },
+      "optionsJson": [
+        {
+          "en": "7",
+          "hi": "7"
+        },
+        {
+          "en": "8",
+          "hi": "8"
+        },
+        {
+          "en": "7.5",
+          "hi": "7.5"
+        },
+        {
+          "en": "6.5",
+          "hi": "6.5"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Arranging in order: 3, 5, 7, 8, 9, 12. There are 6 values, so the median is the average of the 3rd and 4th values: (7 + 8)/2 = 7.5.",
+        "hi": "क्रम में लगाने पर: 3, 5, 7, 8, 9, 12। कुल 6 मान हैं, अतः माध्यिका तीसरे और चौथे मान का औसत है: (7 + 8)/2 = 7.5।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Picks only the 3rd value instead of averaging the two middle values.",
+          "hi": "दो मध्य मानों का औसत लेने के बजाय केवल तीसरा मान चुन लिया।"
+        },
+        "1": {
+          "en": "Picks only the 4th value instead of averaging the two middle values.",
+          "hi": "दो मध्य मानों का औसत लेने के बजाय केवल चौथा मान चुन लिया।"
+        },
+        "3": {
+          "en": "Averages 5 and 8, which are not the two middle values of the sorted data (7 and 8).",
+          "hi": "5 और 8 का औसत ले लिया, जो क्रमित आँकड़ों के दो मध्य मान (7 और 8) नहीं हैं।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p4-mt-43",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Two fair dice are thrown together. What is the probability that the sum of the numbers on the top faces is 8?",
+        "hi": "दो निष्पक्ष पासे एक साथ फेंके जाते हैं। ऊपरी फलकों पर आई संख्याओं का योग 8 होने की प्रायिकता क्या है?"
+      },
+      "optionsJson": [
+        {
+          "en": "5/36",
+          "hi": "5/36"
+        },
+        {
+          "en": "1/6",
+          "hi": "1/6"
+        },
+        {
+          "en": "1/9",
+          "hi": "1/9"
+        },
+        {
+          "en": "7/36",
+          "hi": "7/36"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "There are 36 equally likely outcomes. The favourable ones are (2,6), (3,5), (4,4), (5,3), (6,2), which is 5 outcomes. Probability = 5/36.",
+        "hi": "कुल 36 समसंभाव्य परिणाम हैं। अनुकूल परिणाम (2,6), (3,5), (4,4), (5,3), (6,2) हैं, यानी 5 परिणाम। प्रायिकता = 5/36।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Counts 6 favourable outcomes (6/36), probably double-counting (4,4).",
+          "hi": "6 अनुकूल परिणाम (6/36) गिने, संभवतः (4,4) को दो बार गिन लिया।"
+        },
+        "2": {
+          "en": "Counts only 4 favourable outcomes (4/36), missing the pair (4,4).",
+          "hi": "केवल 4 अनुकूल परिणाम (4/36) गिने, जोड़ी (4,4) छूट गई।"
+        },
+        "3": {
+          "en": "Counts 7 favourable outcomes, which is the count for a sum of 7 rather than 8.",
+          "hi": "7 अनुकूल परिणाम गिने, जो योग 8 के बजाय योग 7 के लिए होते हैं।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p4-mt-44",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Rationalise the denominator of 1/(√5 − 2) and simplify.",
+        "hi": "1/(√5 − 2) के हर का परिमेयीकरण कीजिए और सरल कीजिए।"
+      },
+      "optionsJson": [
+        {
+          "en": "√5 − 2",
+          "hi": "√5 − 2"
+        },
+        {
+          "en": "√5 + 4",
+          "hi": "√5 + 4"
+        },
+        {
+          "en": "2 − √5",
+          "hi": "2 − √5"
+        },
+        {
+          "en": "√5 + 2",
+          "hi": "√5 + 2"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Multiply the numerator and denominator by the conjugate (√5 + 2): 1/(√5 − 2) × (√5 + 2)/(√5 + 2) = (√5 + 2)/(5 − 4) = √5 + 2.",
+        "hi": "अंश और हर को संयुग्मी (√5 + 2) से गुणा करें: 1/(√5 − 2) × (√5 + 2)/(√5 + 2) = (√5 + 2)/(5 − 4) = √5 + 2।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Simply copies the denominator without rationalising.",
+          "hi": "परिमेयीकरण किए बिना हर को ही लिख दिया।"
+        },
+        "1": {
+          "en": "Makes an error in the conjugate step by adding 4 instead of 2.",
+          "hi": "संयुग्मी वाले चरण में 2 के बजाय 4 जोड़ने की भूल की।"
+        },
+        "2": {
+          "en": "Takes the negative of the denominator's value, ignoring that the reciprocal is needed.",
+          "hi": "हर का ऋणात्मक मान ले लिया, यह भूलकर कि व्युत्क्रम चाहिए।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p4-mt-45",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "A train 150 m long crosses a platform 250 m long in 20 seconds. What is the speed of the train in km/h?",
+        "hi": "150 मी लंबी एक रेलगाड़ी 250 मी लंबे प्लेटफ़ॉर्म को 20 सेकंड में पार करती है। रेलगाड़ी की चाल km/h में कितनी है?"
+      },
+      "optionsJson": [
+        {
+          "en": "20 km/h",
+          "hi": "20 km/h"
+        },
+        {
+          "en": "72 km/h",
+          "hi": "72 km/h"
+        },
+        {
+          "en": "27 km/h",
+          "hi": "27 km/h"
+        },
+        {
+          "en": "45 km/h",
+          "hi": "45 km/h"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Distance covered = 150 + 250 = 400 m in 20 s, so speed = 20 m/s. Converting to km/h: 20 × 18/5 = 72 km/h.",
+        "hi": "तय की गई दूरी = 150 + 250 = 400 मी, समय 20 सेकंड, अतः चाल = 20 मी/से। km/h में बदलने पर: 20 × 18/5 = 72 km/h।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Gives the speed in m/s (20) without converting to km/h.",
+          "hi": "km/h में बदले बिना चाल m/s में (20) ही लिख दी।"
+        },
+        "2": {
+          "en": "Uses only the train's length (150 m ÷ 20 s = 7.5 m/s) and converts it.",
+          "hi": "केवल रेलगाड़ी की लंबाई (150 मी ÷ 20 से = 7.5 मी/से) ली और उसे बदला।"
+        },
+        "3": {
+          "en": "Uses only the platform's length (250 m ÷ 20 s = 12.5 m/s) and converts it.",
+          "hi": "केवल प्लेटफ़ॉर्म की लंबाई (250 मी ÷ 20 से = 12.5 मी/से) ली और उसे बदला।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p4-mt-46",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "A boat takes 6 hours to go 24 km upstream and 36 km downstream. It takes 6.5 hours to go 36 km upstream and 24 km downstream. What is the speed of the stream?",
+        "hi": "एक नाव 24 km धारा के विपरीत और 36 km धारा के अनुकूल जाने में 6 घंटे लेती है। 36 km धारा के विपरीत और 24 km धारा के अनुकूल जाने में वह 6.5 घंटे लेती है। धारा की चाल क्या है?"
+      },
+      "optionsJson": [
+        {
+          "en": "4 km/h",
+          "hi": "4 km/h"
+        },
+        {
+          "en": "2 km/h",
+          "hi": "2 km/h"
+        },
+        {
+          "en": "10 km/h",
+          "hi": "10 km/h"
+        },
+        {
+          "en": "5 km/h",
+          "hi": "5 km/h"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Let the upstream speed be u km/h and the downstream speed be d km/h. Then 24/u + 36/d = 6 and 36/u + 24/d = 6.5. Adding: 60(1/u + 1/d) = 12.5, so 1/u + 1/d = 5/24. Subtracting: 12(1/u − 1/d) = 0.5, so 1/u − 1/d = 1/24. Hence 1/u = 1/8 and 1/d = 1/12, giving u = 8 km/h and d = 12 km/h. Speed of the stream = (12 − 8)/2 = 2 km/h. Check: 24/8 + 36/12 = 3 + 3 = 6 and 36/8 + 24/12 = 4.5 + 2 = 6.5.",
+        "hi": "माना धारा के विपरीत चाल u km/h और धारा के अनुकूल चाल d km/h है। तब 24/u + 36/d = 6 और 36/u + 24/d = 6.5। जोड़ने पर 60(1/u + 1/d) = 12.5, अतः 1/u + 1/d = 5/24। घटाने पर 12(1/u − 1/d) = 0.5, अतः 1/u − 1/d = 1/24। इसलिए 1/u = 1/8 और 1/d = 1/12, अर्थात u = 8 km/h और d = 12 km/h। धारा की चाल = (12 − 8)/2 = 2 km/h। जाँच: 24/8 + 36/12 = 3 + 3 = 6 और 36/8 + 24/12 = 4.5 + 2 = 6.5।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Takes the full difference of the two speeds (12 − 8) instead of half of it.",
+          "hi": "दोनों चालों का पूरा अंतर (12 − 8) ले लिया, उसका आधा नहीं लिया।"
+        },
+        "2": {
+          "en": "Finds the speed of the boat in still water, (8 + 12)/2 = 10 km/h, not the speed of the stream.",
+          "hi": "स्थिर जल में नाव की चाल (8 + 12)/2 = 10 km/h निकाली, धारा की चाल नहीं।"
+        },
+        "3": {
+          "en": "Wrongly divides the sum of the two speeds by 4, (8 + 12)/4, instead of finding half their difference.",
+          "hi": "दोनों चालों के अंतर का आधा निकालने के बजाय उनके योग को 4 से भाग दे दिया, (8 + 12)/4।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p4-mt-47",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "The sum of the first n natural numbers is 465. What is the value of n?",
+        "hi": "प्रथम n प्राकृत संख्याओं का योग 465 है। n का मान क्या है?"
+      },
+      "optionsJson": [
+        {
+          "en": "29",
+          "hi": "29"
+        },
+        {
+          "en": "31",
+          "hi": "31"
+        },
+        {
+          "en": "30",
+          "hi": "30"
+        },
+        {
+          "en": "32",
+          "hi": "32"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "n(n + 1)/2 = 465 gives n(n + 1) = 930. Since 30 × 31 = 930, n = 30.",
+        "hi": "n(n + 1)/2 = 465 से n(n + 1) = 930। चूँकि 30 × 31 = 930, अतः n = 30।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "For n = 29 the sum is 29 × 30/2 = 435, not 465.",
+          "hi": "n = 29 के लिए योग 29 × 30/2 = 435 होता है, 465 नहीं।"
+        },
+        "1": {
+          "en": "For n = 31 the sum is 31 × 32/2 = 496, not 465.",
+          "hi": "n = 31 के लिए योग 31 × 32/2 = 496 होता है, 465 नहीं।"
+        },
+        "3": {
+          "en": "For n = 32 the sum is 32 × 33/2 = 528, not 465.",
+          "hi": "n = 32 के लिए योग 32 × 33/2 = 528 होता है, 465 नहीं।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p4-mt-48",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "A can complete a piece of work in 12 days and B can complete it in 15 days. Working together, A, B and C finish the same work in 4 days. In how many days can C alone complete the work?",
+        "hi": "A एक कार्य को 12 दिन में और B उसी कार्य को 15 दिन में पूरा कर सकता है। A, B और C मिलकर वही कार्य 4 दिन में पूरा करते हैं। C अकेला उस कार्य को कितने दिन में पूरा कर सकता है?"
+      },
+      "optionsJson": [
+        {
+          "en": "8 days",
+          "hi": "8 दिन"
+        },
+        {
+          "en": "10 days",
+          "hi": "10 दिन"
+        },
+        {
+          "en": "12 days",
+          "hi": "12 दिन"
+        },
+        {
+          "en": "9 days",
+          "hi": "9 दिन"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Work done per day by all three = 1/4. C's one-day work = 1/4 − 1/12 − 1/15 = (15 − 5 − 4)/60 = 6/60 = 1/10. So C alone takes 10 days.",
+        "hi": "तीनों का एक दिन का कार्य = 1/4। C का एक दिन का कार्य = 1/4 − 1/12 − 1/15 = (15 − 5 − 4)/60 = 6/60 = 1/10। अतः C अकेला 10 दिन में कार्य पूरा करेगा।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "A calculation slip in the common denominator step, giving 1/8.",
+          "hi": "समान हर वाले चरण में गणना की भूल, जिससे 1/8 आ गया।"
+        },
+        "2": {
+          "en": "Copies A's time (12 days) without computing C's own rate.",
+          "hi": "C की अपनी दर निकाले बिना A का समय (12 दिन) लिख दिया।"
+        },
+        "3": {
+          "en": "A calculation slip that gives C's rate as 1/9; the correct value of 1/4 − 1/12 − 1/15 is 1/10.",
+          "hi": "गणना की भूल जिससे C की दर 1/9 आ गई; 1/4 − 1/12 − 1/15 का सही मान 1/10 है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p4-mt-49",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "What is the distance between the points P(−2, 3) and Q(4, −5)?",
+        "hi": "बिंदुओं P(−2, 3) और Q(4, −5) के बीच की दूरी क्या है?"
+      },
+      "optionsJson": [
+        {
+          "en": "10 units",
+          "hi": "10 इकाई"
+        },
+        {
+          "en": "14 units",
+          "hi": "14 इकाई"
+        },
+        {
+          "en": "12 units",
+          "hi": "12 इकाई"
+        },
+        {
+          "en": "8 units",
+          "hi": "8 इकाई"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "The horizontal difference is 4 − (−2) = 6 and the vertical difference is −5 − 3 = −8. Distance = √(6² + 8²) = √100 = 10 units.",
+        "hi": "क्षैतिज अंतर 4 − (−2) = 6 और ऊर्ध्वाधर अंतर −5 − 3 = −8 है। दूरी = √(6² + 8²) = √100 = 10 इकाई।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Adds the two differences (6 + 8) instead of using the distance formula.",
+          "hi": "दूरी सूत्र के बजाय दोनों अंतरों को जोड़ दिया (6 + 8)।"
+        },
+        "2": {
+          "en": "Not obtained from a valid calculation; 6² + 8² = 100, not 12² = 144.",
+          "hi": "यह किसी सही गणना से नहीं आता; 6² + 8² = 100 है, 12² = 144 नहीं।"
+        },
+        "3": {
+          "en": "Uses only the vertical difference (8) and ignores the horizontal one.",
+          "hi": "केवल ऊर्ध्वाधर अंतर (8) लिया और क्षैतिज अंतर छोड़ दिया।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p4-mt-50",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "A shopkeeper marks a school bag at ₹800 and allows two successive discounts of 20% and 10%. What is the selling price of the bag?",
+        "hi": "एक दुकानदार एक स्कूल बैग पर ₹800 मूल्य अंकित करता है और 20% तथा 10% की दो क्रमिक छूटें देता है। बैग का विक्रय मूल्य क्या है?"
+      },
+      "optionsJson": [
+        {
+          "en": "₹560",
+          "hi": "₹560"
+        },
+        {
+          "en": "₹600",
+          "hi": "₹600"
+        },
+        {
+          "en": "₹640",
+          "hi": "₹640"
+        },
+        {
+          "en": "₹576",
+          "hi": "₹576"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "After the 20% discount: 800 × 0.80 = ₹640. After the further 10% discount: 640 × 0.90 = ₹576.",
+        "hi": "20% छूट के बाद: 800 × 0.80 = ₹640। इसके बाद 10% छूट देने पर: 640 × 0.90 = ₹576।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Adds the discounts to get 30% off the marked price (800 × 0.70).",
+          "hi": "दोनों छूटें जोड़कर अंकित मूल्य पर 30% छूट मान ली (800 × 0.70)।"
+        },
+        "1": {
+          "en": "Applies a single 25% discount, which is not what the two successive discounts give.",
+          "hi": "एक ही 25% छूट लगा दी, जो दो क्रमिक छूटों का परिणाम नहीं है।"
+        },
+        "2": {
+          "en": "Applies only the first discount of 20% and stops.",
+          "hi": "केवल पहली 20% छूट लगाकर रुक गए।"
+        }
+      }
+    }
+  ]
+}

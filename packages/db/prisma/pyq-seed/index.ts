@@ -12,6 +12,7 @@ import { posts as postsAissee9Paper2 } from "./aissee-class-9-paper2";
 import { posts as postsRms9Paper2 } from "./rms-class-9-paper2";
 import { posts as postsJnvst6Paper2 } from "./jnvst-class-6-paper2";
 import { posts as postsJnvst9Paper2 } from "./jnvst-class-9-paper2";
+import { posts as postsMockPapersBank } from "./mock-papers-bank";
 import { posts as postsJnvst6GeminiBatch1 } from "./jnvst-class-6-gemini-batch1";
 import { posts as postsJnvst6GeminiBatch2 } from "./jnvst-class-6-gemini-batch2";
 import { posts as postsJnvst9GeminiBatch1 } from "./jnvst-class-9-gemini-batch1";
@@ -59,5 +60,6 @@ export const pyqSeedItems: PyqSeedItem[] = [
   ...postsRms9Paper2,
   ...postsJnvst6Paper2,
   ...postsJnvst9Paper2,
+  ...postsMockPapersBank,
   ...geminiBatches,
 ];

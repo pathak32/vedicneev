@@ -1,0 +1,484 @@
+{
+  "examType": "RMS",
+  "classLevel": 6,
+  "paperNumber": 2,
+  "sectionKey": "mental_ability",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "rms6-p2-ma-01",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Complete the series: 7, 14, 21, 28, ___?", "hi": "श्रृंखला पूरी करें: 7, 14, 21, 28, ___?", "mr": "श्रेणी पूर्ण करा: 7, 14, 21, 28, ___?" },
+      "optionsJson": [
+        { "en": "32", "hi": "32", "mr": "32" },
+        { "en": "35", "hi": "35", "mr": "35" },
+        { "en": "36", "hi": "36", "mr": "36" },
+        { "en": "42", "hi": "42", "mr": "42" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "These are multiples of 7 (each term adds 7), so the next term is 28 + 7 = 35.", "hi": "ये 7 के गुणज हैं (प्रत्येक पद में 7 जुड़ता है), अतः अगला पद 28 + 7 = 35 है।", "mr": "ही 7 ची गुणक आहेत (प्रत्येक पदात 7 मिळवले जातात), म्हणून पुढचे पद 28 + 7 = 35 आहे." },
+      "distractorAnalysis": {
+        "0": { "en": "Adds 4 instead of the actual step, 7.", "hi": "वास्तविक अंतर 7 के बजाय 4 जोड़ दिया।", "mr": "वास्तविक फरक 7 ऐवजी 4 जोडले." },
+        "2": { "en": "Adds 8 instead of 7.", "hi": "7 के बजाय 8 जोड़ दिया।", "mr": "7 ऐवजी 8 जोडले." },
+        "3": { "en": "Adds 14, which is double the actual step.", "hi": "14 जोड़ दिया, जो वास्तविक अंतर का दोगुना है।", "mr": "14 जोडले, जे वास्तविक फरकाच्या दुप्पट आहे." }
+      }
+    },
+    {
+      "key": "rms6-p2-ma-02",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Find the odd one out: Mango, Banana, Potato, Apple", "hi": "असंगत शब्द चुनें: आम, केला, आलू, सेब", "mr": "विजोड शब्द निवडा: आंबा, केळे, बटाटा, सफरचंद" },
+      "optionsJson": [
+        { "en": "Mango", "hi": "आम", "mr": "आंबा" },
+        { "en": "Banana", "hi": "केला", "mr": "केळे" },
+        { "en": "Potato", "hi": "आलू", "mr": "बटाटा" },
+        { "en": "Apple", "hi": "सेब", "mr": "सफरचंद" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Mango, Banana and Apple are fruits; Potato is a vegetable (an underground tuber).", "hi": "आम, केला और सेब फल हैं; आलू एक सब्जी (भूमिगत कंद) है।", "mr": "आंबा, केळे आणि सफरचंद ही फळे आहेत; बटाटा ही भाजी (जमिनीखालील कंद) आहे." },
+      "distractorAnalysis": {
+        "0": { "en": "A fruit, part of the majority group.", "hi": "यह एक फल है, बहुसंख्यक समूह का भाग।", "mr": "हे एक फळ आहे, बहुसंख्य गटाचा भाग." },
+        "1": { "en": "A fruit, part of the majority group.", "hi": "यह एक फल है, बहुसंख्यक समूह का भाग।", "mr": "हे एक फळ आहे, बहुसंख्य गटाचा भाग." },
+        "3": { "en": "A fruit, part of the majority group.", "hi": "यह एक फल है, बहुसंख्यक समूह का भाग।", "mr": "हे एक फळ आहे, बहुसंख्य गटाचा भाग." }
+      }
+    },
+    {
+      "key": "rms6-p2-ma-03",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Complete the analogy: Bird : Nest :: Bee : ?", "hi": "समान संबंध पूरा करें: पक्षी : घोंसला :: मधुमक्खी : ?", "mr": "तसेच नाते पूर्ण करा: पक्षी : घरटे :: मधमाशी : ?" },
+      "optionsJson": [
+        { "en": "Hive", "hi": "छत्ता", "mr": "पोळे" },
+        { "en": "Web", "hi": "जाला", "mr": "जाळे" },
+        { "en": "Den", "hi": "मांद", "mr": "गुहा" },
+        { "en": "Burrow", "hi": "बिल", "mr": "बीळ" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "A bird lives in a nest; in the same way, a bee lives in a hive.", "hi": "पक्षी घोंसले में रहता है; उसी प्रकार मधुमक्खी छत्ते में रहती है।", "mr": "पक्षी घरट्यात राहतो; त्याचप्रमाणे मधमाशी पोळ्यात राहते." },
+      "distractorAnalysis": {
+        "1": { "en": "A web is the home of a spider, not a bee.", "hi": "जाला मकड़ी का घर होता है, मधुमक्खी का नहीं।", "mr": "जाळे हे कोळ्याचे घर असते, मधमाशीचे नाही." },
+        "2": { "en": "A den is the home of a wild animal such as a lion.", "hi": "मांद सिंह जैसे जंगली जानवर का घर होती है।", "mr": "गुहा हे सिंहासारख्या जंगली प्राण्याचे घर असते." },
+        "3": { "en": "A burrow is the home of an animal such as a rabbit.", "hi": "बिल खरगोश जैसे जानवर का घर होता है।", "mr": "बीळ हे सशासारख्या प्राण्याचे घर असते." }
+      }
+    },
+    {
+      "key": "rms6-p2-ma-04",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Complete the letter series: A, C, E, G, ___?", "hi": "अक्षर श्रृंखला पूरी करें: A, C, E, G, ___?", "mr": "अक्षर श्रेणी पूर्ण करा: A, C, E, G, ___?" },
+      "optionsJson": [
+        { "en": "H", "hi": "H", "mr": "H" },
+        { "en": "J", "hi": "J", "mr": "J" },
+        { "en": "K", "hi": "K", "mr": "K" },
+        { "en": "I", "hi": "I", "mr": "I" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "The letters are at positions 1, 3, 5, 7 in the alphabet (one letter skipped each time), so the next is position 9, which is I.", "hi": "ये अक्षर वर्णमाला में 1, 3, 5, 7 स्थान पर हैं (हर बार एक अक्षर छोड़ा गया है), अतः अगला स्थान 9 है, जो I है।", "mr": "ही अक्षरे वर्णमालेत 1, 3, 5, 7 व्या स्थानी आहेत (प्रत्येक वेळी एक अक्षर सोडले आहे), म्हणून पुढचे स्थान 9 आहे, ते म्हणजे I." },
+      "distractorAnalysis": {
+        "0": { "en": "H is the very next letter, but the series skips one letter each time.", "hi": "H अगला ही अक्षर है, पर श्रृंखला में हर बार एक अक्षर छोड़ा जाता है।", "mr": "H हे अगदी पुढचे अक्षर आहे, पण श्रेणीत प्रत्येक वेळी एक अक्षर सोडले जाते." },
+        "1": { "en": "J is at position 10; the pattern needs position 9.", "hi": "J स्थान 10 पर है; क्रम में स्थान 9 चाहिए।", "mr": "J हे 10 व्या स्थानी आहे; क्रमात 9 वे स्थान हवे." },
+        "2": { "en": "K is at position 11, which is too far ahead.", "hi": "K स्थान 11 पर है, जो बहुत आगे है।", "mr": "K हे 11 व्या स्थानी आहे, जे खूप पुढे आहे." }
+      }
+    },
+    {
+      "key": "rms6-p2-ma-05",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the next number: 2, 6, 18, 54, ___?", "hi": "अगली संख्या ज्ञात करें: 2, 6, 18, 54, ___?", "mr": "पुढची संख्या शोधा: 2, 6, 18, 54, ___?" },
+      "optionsJson": [
+        { "en": "108", "hi": "108", "mr": "108" },
+        { "en": "148", "hi": "148", "mr": "148" },
+        { "en": "162", "hi": "162", "mr": "162" },
+        { "en": "216", "hi": "216", "mr": "216" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Each term is multiplied by 3 to get the next: 54 × 3 = 162.", "hi": "प्रत्येक पद को 3 से गुणा करने पर अगला पद मिलता है: 54 × 3 = 162।", "mr": "प्रत्येक पदाला 3 ने गुणले की पुढचे पद मिळते: 54 × 3 = 162." },
+      "distractorAnalysis": {
+        "0": { "en": "Multiplies by 2 (54 × 2) instead of 3.", "hi": "3 के बजाय 2 से गुणा किया (54 × 2)।", "mr": "3 ऐवजी 2 ने गुणले (54 × 2)." },
+        "1": { "en": "Does not follow the multiply-by-3 pattern.", "hi": "यह 3 से गुणा करने के क्रम का पालन नहीं करता।", "mr": "हे 3 ने गुणण्याच्या क्रमाचे पालन करत नाही." },
+        "3": { "en": "Multiplies by 4 (54 × 4) instead of 3.", "hi": "3 के बजाय 4 से गुणा किया (54 × 4)।", "mr": "3 ऐवजी 4 ने गुणले (54 × 4)." }
+      }
+    },
+    {
+      "key": "rms6-p2-ma-06",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the missing number: 8 : 64 :: 9 : ?", "hi": "लुप्त संख्या ज्ञात करें: 8 : 64 :: 9 : ?", "mr": "गाळलेली संख्या शोधा: 8 : 64 :: 9 : ?" },
+      "optionsJson": [
+        { "en": "72", "hi": "72", "mr": "72" },
+        { "en": "81", "hi": "81", "mr": "81" },
+        { "en": "90", "hi": "90", "mr": "90" },
+        { "en": "99", "hi": "99", "mr": "99" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "64 = 8 × 8 is the square of 8, so the square of 9 is 9 × 9 = 81.", "hi": "64 = 8 × 8, यानी 8 का वर्ग है; अतः 9 का वर्ग 9 × 9 = 81 होगा।", "mr": "64 = 8 × 8, म्हणजे 8 चा वर्ग आहे; म्हणून 9 चा वर्ग 9 × 9 = 81 होईल." },
+      "distractorAnalysis": {
+        "0": { "en": "This is 9 × 8; the square of 9 needs 9 × 9.", "hi": "यह 9 × 8 है; 9 के वर्ग के लिए 9 × 9 चाहिए।", "mr": "हे 9 × 8 आहे; 9 च्या वर्गासाठी 9 × 9 हवे." },
+        "2": { "en": "This is 9 × 10, not the square of 9.", "hi": "यह 9 × 10 है, 9 का वर्ग नहीं।", "mr": "हे 9 × 10 आहे, 9 चा वर्ग नाही." },
+        "3": { "en": "This is 9 × 11, not the square of 9.", "hi": "यह 9 × 11 है, 9 का वर्ग नहीं।", "mr": "हे 9 × 11 आहे, 9 चा वर्ग नाही." }
+      }
+    },
+    {
+      "key": "rms6-p2-ma-07",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the odd one out: 48, 25, 36, 64", "hi": "असंगत संख्या चुनें: 48, 25, 36, 64", "mr": "विजोड संख्या निवडा: 48, 25, 36, 64" },
+      "optionsJson": [
+        { "en": "48", "hi": "48", "mr": "48" },
+        { "en": "25", "hi": "25", "mr": "25" },
+        { "en": "36", "hi": "36", "mr": "36" },
+        { "en": "64", "hi": "64", "mr": "64" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "25, 36 and 64 are perfect squares (5², 6² and 8²); 48 is not a perfect square.", "hi": "25, 36 और 64 पूर्ण वर्ग संख्याएँ हैं (5², 6² और 8²); 48 पूर्ण वर्ग नहीं है।", "mr": "25, 36 आणि 64 या पूर्ण वर्ग संख्या आहेत (5², 6² आणि 8²); 48 ही पूर्ण वर्ग संख्या नाही." },
+      "distractorAnalysis": {
+        "1": { "en": "25 = 5 × 5, a perfect square like the majority.", "hi": "25 = 5 × 5, बहुसंख्यक समूह की तरह पूर्ण वर्ग है।", "mr": "25 = 5 × 5, बहुसंख्य गटाप्रमाणे पूर्ण वर्ग आहे." },
+        "2": { "en": "36 = 6 × 6, a perfect square like the majority.", "hi": "36 = 6 × 6, बहुसंख्यक समूह की तरह पूर्ण वर्ग है।", "mr": "36 = 6 × 6, बहुसंख्य गटाप्रमाणे पूर्ण वर्ग आहे." },
+        "3": { "en": "64 = 8 × 8, a perfect square like the majority.", "hi": "64 = 8 × 8, बहुसंख्यक समूह की तरह पूर्ण वर्ग है।", "mr": "64 = 8 × 8, बहुसंख्य गटाप्रमाणे पूर्ण वर्ग आहे." }
+      }
+    },
+    {
+      "key": "rms6-p2-ma-08",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Complete the series: AZ, BY, CX, DW, ___?", "hi": "श्रृंखला पूरी करें: AZ, BY, CX, DW, ___?", "mr": "श्रेणी पूर्ण करा: AZ, BY, CX, DW, ___?" },
+      "optionsJson": [
+        { "en": "FU", "hi": "FU", "mr": "FU" },
+        { "en": "EU", "hi": "EU", "mr": "EU" },
+        { "en": "FV", "hi": "FV", "mr": "FV" },
+        { "en": "EV", "hi": "EV", "mr": "EV" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "The first letters go forward (A, B, C, D, E) and the second letters go backward (Z, Y, X, W, V), so the next pair is EV.", "hi": "पहले अक्षर आगे बढ़ते हैं (A, B, C, D, E) और दूसरे अक्षर पीछे जाते हैं (Z, Y, X, W, V), अतः अगली जोड़ी EV है।", "mr": "पहिली अक्षरे पुढे जातात (A, B, C, D, E) आणि दुसरी अक्षरे मागे जातात (Z, Y, X, W, V), म्हणून पुढची जोडी EV आहे." },
+      "distractorAnalysis": {
+        "0": { "en": "Skips E in the first letter and V in the second letter.", "hi": "पहले अक्षर में E और दूसरे अक्षर में V को छोड़ दिया।", "mr": "पहिल्या अक्षरात E आणि दुसऱ्या अक्षरात V सोडले." },
+        "1": { "en": "The first letter is right, but the second letter should be V, not U.", "hi": "पहला अक्षर सही है, पर दूसरा अक्षर V होना चाहिए, U नहीं।", "mr": "पहिले अक्षर बरोबर आहे, पण दुसरे अक्षर V हवे, U नाही." },
+        "2": { "en": "The second letter is right, but the first letter should be E, not F.", "hi": "दूसरा अक्षर सही है, पर पहला अक्षर E होना चाहिए, F नहीं।", "mr": "दुसरे अक्षर बरोबर आहे, पण पहिले अक्षर E हवे, F नाही." }
+      }
+    },
+    {
+      "key": "rms6-p2-ma-09",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Complete the analogy: Pen : Write :: Knife : ?", "hi": "समान संबंध पूरा करें: पेन : लिखना :: चाकू : ?", "mr": "तसेच नाते पूर्ण करा: पेन : लिहिणे :: चाकू : ?" },
+      "optionsJson": [
+        { "en": "Sharp", "hi": "तेज़", "mr": "धारदार" },
+        { "en": "Cut", "hi": "काटना", "mr": "कापणे" },
+        { "en": "Steel", "hi": "स्टील", "mr": "स्टील" },
+        { "en": "Fruit", "hi": "फल", "mr": "फळ" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "A pen is used to write; a knife is used to cut.", "hi": "पेन का उपयोग लिखने के लिए होता है; चाकू का उपयोग काटने के लिए होता है।", "mr": "पेनचा उपयोग लिहिण्यासाठी होतो; चाकूचा उपयोग कापण्यासाठी होतो." },
+      "distractorAnalysis": {
+        "0": { "en": "Describes a quality of a knife, not what it is used for.", "hi": "यह चाकू का गुण बताता है, उसका उपयोग नहीं।", "mr": "हा चाकूचा गुण सांगतो, त्याचा उपयोग नाही." },
+        "2": { "en": "A material a knife may be made of, not its use.", "hi": "यह वह पदार्थ है जिससे चाकू बन सकता है, उसका उपयोग नहीं।", "mr": "हा चाकू ज्यापासून बनू शकतो तो पदार्थ आहे, त्याचा उपयोग नाही." },
+        "3": { "en": "Something a knife may cut, not its use.", "hi": "यह वह चीज़ है जिसे चाकू काट सकता है, उसका उपयोग नहीं।", "mr": "ही अशी वस्तू आहे जी चाकू कापू शकतो, त्याचा उपयोग नाही." }
+      }
+    },
+    {
+      "key": "rms6-p2-ma-10",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the next number: 3, 4, 6, 9, 13, ___?", "hi": "अगली संख्या ज्ञात करें: 3, 4, 6, 9, 13, ___?", "mr": "पुढची संख्या शोधा: 3, 4, 6, 9, 13, ___?" },
+      "optionsJson": [
+        { "en": "18", "hi": "18", "mr": "18" },
+        { "en": "17", "hi": "17", "mr": "17" },
+        { "en": "19", "hi": "19", "mr": "19" },
+        { "en": "20", "hi": "20", "mr": "20" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The differences between terms are 1, 2, 3, 4, so the next difference is 5: 13 + 5 = 18.", "hi": "पदों के बीच का अंतर 1, 2, 3, 4 है, अतः अगला अंतर 5 होगा: 13 + 5 = 18।", "mr": "पदांमधील फरक 1, 2, 3, 4 आहेत, म्हणून पुढचा फरक 5 असेल: 13 + 5 = 18." },
+      "distractorAnalysis": {
+        "1": { "en": "Adds 4 again instead of 5.", "hi": "5 के बजाय फिर से 4 जोड़ दिया।", "mr": "5 ऐवजी पुन्हा 4 जोडले." },
+        "2": { "en": "Adds 6, skipping the difference 5.", "hi": "6 जोड़ दिया, अंतर 5 को छोड़ दिया।", "mr": "6 जोडले, फरक 5 सोडून दिला." },
+        "3": { "en": "Adds 7, which does not fit the growing differences.", "hi": "7 जोड़ दिया, जो बढ़ते हुए अंतरों के क्रम में नहीं बैठता।", "mr": "7 जोडले, जे वाढत्या फरकांच्या क्रमात बसत नाही." }
+      }
+    },
+    {
+      "key": "rms6-p2-ma-11",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Find the next number: 1, 2, 6, 24, 120, ___?", "hi": "अगली संख्या ज्ञात करें: 1, 2, 6, 24, 120, ___?", "mr": "पुढची संख्या शोधा: 1, 2, 6, 24, 120, ___?" },
+      "optionsJson": [
+        { "en": "600", "hi": "600", "mr": "600" },
+        { "en": "620", "hi": "620", "mr": "620" },
+        { "en": "720", "hi": "720", "mr": "720" },
+        { "en": "840", "hi": "840", "mr": "840" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The terms are multiplied by 2, 3, 4, 5, 6 in turn: 1×2 = 2, 2×3 = 6, 6×4 = 24, 24×5 = 120, 120×6 = 720.", "hi": "पदों को क्रम से 2, 3, 4, 5, 6 से गुणा किया गया है: 1×2 = 2, 2×3 = 6, 6×4 = 24, 24×5 = 120, 120×6 = 720।", "mr": "पदांना क्रमाने 2, 3, 4, 5, 6 ने गुणले आहे: 1×2 = 2, 2×3 = 6, 6×4 = 24, 24×5 = 120, 120×6 = 720." },
+      "distractorAnalysis": {
+        "0": { "en": "Multiplies by 5 again (120 × 5) instead of 6.", "hi": "6 के बजाय फिर से 5 से गुणा किया (120 × 5)।", "mr": "6 ऐवजी पुन्हा 5 ने गुणले (120 × 5)." },
+        "1": { "en": "Does not follow the multipliers 2, 3, 4, 5, 6.", "hi": "यह गुणकों 2, 3, 4, 5, 6 के क्रम का पालन नहीं करता।", "mr": "हे गुणक 2, 3, 4, 5, 6 च्या क्रमाचे पालन करत नाही." },
+        "3": { "en": "Multiplies by 7 (120 × 7), skipping the multiplier 6.", "hi": "7 से गुणा किया (120 × 7), गुणक 6 को छोड़ दिया।", "mr": "7 ने गुणले (120 × 7), गुणक 6 सोडून दिला." }
+      }
+    },
+    {
+      "key": "rms6-p2-ma-12",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Find the odd one out: Triangle, Square, Rectangle, Circle", "hi": "असंगत चुनें: त्रिभुज, वर्ग, आयत, वृत्त", "mr": "विजोड निवडा: त्रिकोण, चौरस, आयत, वर्तुळ" },
+      "optionsJson": [
+        { "en": "Triangle", "hi": "त्रिभुज", "mr": "त्रिकोण" },
+        { "en": "Square", "hi": "वर्ग", "mr": "चौरस" },
+        { "en": "Rectangle", "hi": "आयत", "mr": "आयत" },
+        { "en": "Circle", "hi": "वृत्त", "mr": "वर्तुळ" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Triangle, Square and Rectangle are closed figures made of straight sides; a Circle is a curved figure with no straight sides or corners.", "hi": "त्रिभुज, वर्ग और आयत सरल रेखाओं से बनी बंद आकृतियाँ हैं; वृत्त एक वक्र आकृति है जिसमें न सीधी भुजाएँ हैं, न कोने।", "mr": "त्रिकोण, चौरस आणि आयत या सरळ बाजूंनी बनलेल्या बंद आकृती आहेत; वर्तुळ ही वक्र आकृती आहे, तिला सरळ बाजू किंवा कोपरे नसतात." },
+      "distractorAnalysis": {
+        "0": { "en": "Has straight sides and corners, like the majority group.", "hi": "इसमें सीधी भुजाएँ और कोने हैं, बहुसंख्यक समूह की तरह।", "mr": "यात सरळ बाजू आणि कोपरे आहेत, बहुसंख्य गटाप्रमाणे." },
+        "1": { "en": "Has straight sides and corners, like the majority group.", "hi": "इसमें सीधी भुजाएँ और कोने हैं, बहुसंख्यक समूह की तरह।", "mr": "यात सरळ बाजू आणि कोपरे आहेत, बहुसंख्य गटाप्रमाणे." },
+        "2": { "en": "Has straight sides and corners, like the majority group.", "hi": "इसमें सीधी भुजाएँ और कोने हैं, बहुसंख्यक समूह की तरह।", "mr": "यात सरळ बाजू आणि कोपरे आहेत, बहुसंख्य गटाप्रमाणे." }
+      }
+    },
+    {
+      "key": "rms6-p2-ma-13",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Complete the analogy: Water : Thirst :: Food : ?", "hi": "समान संबंध पूरा करें: पानी : प्यास :: भोजन : ?", "mr": "तसेच नाते पूर्ण करा: पाणी : तहान :: अन्न : ?" },
+      "optionsJson": [
+        { "en": "Hunger", "hi": "भूख", "mr": "भूक" },
+        { "en": "Taste", "hi": "स्वाद", "mr": "चव" },
+        { "en": "Plate", "hi": "थाली", "mr": "ताट" },
+        { "en": "Kitchen", "hi": "रसोई", "mr": "स्वयंपाकघर" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Water satisfies thirst; in the same way, food satisfies hunger.", "hi": "पानी प्यास बुझाता है; उसी प्रकार भोजन भूख मिटाता है।", "mr": "पाणी तहान भागवते; त्याचप्रमाणे अन्न भूक भागवते." },
+      "distractorAnalysis": {
+        "1": { "en": "Food has taste, but it does not satisfy taste.", "hi": "भोजन में स्वाद होता है, पर वह स्वाद को शांत नहीं करता।", "mr": "अन्नाला चव असते, पण ते चव भागवत नाही." },
+        "2": { "en": "A plate is only what food is served on.", "hi": "थाली केवल वह बर्तन है जिसमें भोजन परोसा जाता है।", "mr": "ताट हे फक्त अन्न वाढण्याचे भांडे आहे." },
+        "3": { "en": "A kitchen is only the place where food is cooked.", "hi": "रसोई केवल वह स्थान है जहाँ भोजन पकाया जाता है।", "mr": "स्वयंपाकघर हे फक्त अन्न शिजवण्याचे ठिकाण आहे." }
+      }
+    },
+    {
+      "key": "rms6-p2-ma-14",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the odd one out: 3, 9, 5, 11", "hi": "असंगत संख्या चुनें: 3, 9, 5, 11", "mr": "विजोड संख्या निवडा: 3, 9, 5, 11" },
+      "optionsJson": [
+        { "en": "3", "hi": "3", "mr": "3" },
+        { "en": "9", "hi": "9", "mr": "9" },
+        { "en": "5", "hi": "5", "mr": "5" },
+        { "en": "11", "hi": "11", "mr": "11" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "3, 5 and 11 are prime numbers; 9 = 3 × 3 is not a prime number.", "hi": "3, 5 और 11 अभाज्य संख्याएँ हैं; 9 = 3 × 3 अभाज्य संख्या नहीं है।", "mr": "3, 5 आणि 11 या मूळ संख्या आहेत; 9 = 3 × 3 ही मूळ संख्या नाही." },
+      "distractorAnalysis": {
+        "0": { "en": "A prime number (only factors are 1 and 3), like the majority.", "hi": "यह अभाज्य संख्या है (केवल गुणनखंड 1 और 3), बहुसंख्यक समूह की तरह।", "mr": "ही मूळ संख्या आहे (फक्त अवयव 1 आणि 3), बहुसंख्य गटाप्रमाणे." },
+        "2": { "en": "A prime number (only factors are 1 and 5), like the majority.", "hi": "यह अभाज्य संख्या है (केवल गुणनखंड 1 और 5), बहुसंख्यक समूह की तरह।", "mr": "ही मूळ संख्या आहे (फक्त अवयव 1 आणि 5), बहुसंख्य गटाप्रमाणे." },
+        "3": { "en": "A prime number (only factors are 1 and 11), like the majority.", "hi": "यह अभाज्य संख्या है (केवल गुणनखंड 1 और 11), बहुसंख्यक समूह की तरह।", "mr": "ही मूळ संख्या आहे (फक्त अवयव 1 आणि 11), बहुसंख्य गटाप्रमाणे." }
+      }
+    },
+    {
+      "key": "rms6-p2-ma-15",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "If CAT is written as ECV in a code, how will DOG be written in the same code?", "hi": "यदि किसी कूट भाषा में CAT को ECV लिखा जाता है, तो उसी कूट में DOG को कैसे लिखा जाएगा?", "mr": "एका सांकेतिक भाषेत CAT हे ECV असे लिहिले जाते, तर त्याच संकेतात DOG हे कसे लिहिले जाईल?" },
+      "optionsJson": [
+        { "en": "EPH", "hi": "EPH", "mr": "EPH" },
+        { "en": "GRJ", "hi": "GRJ", "mr": "GRJ" },
+        { "en": "FQI", "hi": "FQI", "mr": "FQI" },
+        { "en": "FQH", "hi": "FQH", "mr": "FQH" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Each letter moves 2 places forward in the alphabet: C→E, A→C, T→V. So D→F, O→Q, G→I, giving FQI.", "hi": "प्रत्येक अक्षर वर्णमाला में 2 स्थान आगे बढ़ता है: C→E, A→C, T→V। अतः D→F, O→Q, G→I, यानी FQI।", "mr": "प्रत्येक अक्षर वर्णमालेत 2 स्थाने पुढे जाते: C→E, A→C, T→V. म्हणून D→F, O→Q, G→I, म्हणजे FQI." },
+      "distractorAnalysis": {
+        "0": { "en": "Moves each letter only 1 place forward instead of 2.", "hi": "प्रत्येक अक्षर को 2 के बजाय केवल 1 स्थान आगे बढ़ाया।", "mr": "प्रत्येक अक्षर 2 ऐवजी फक्त 1 स्थान पुढे नेले." },
+        "1": { "en": "Moves each letter 3 places forward instead of 2.", "hi": "प्रत्येक अक्षर को 2 के बजाय 3 स्थान आगे बढ़ाया।", "mr": "प्रत्येक अक्षर 2 ऐवजी 3 स्थाने पुढे नेले." },
+        "3": { "en": "The first two letters are right, but G moves to I, not H.", "hi": "पहले दो अक्षर सही हैं, पर G का कूट I होगा, H नहीं।", "mr": "पहिली दोन अक्षरे बरोबर आहेत, पण G चे संकेत I होईल, H नाही." }
+      }
+    },
+    {
+      "key": "rms6-p2-ma-16",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "In a certain code, MANGO is written as NBOHP. How will PEACH be written in that code?", "hi": "एक निश्चित कूट भाषा में MANGO को NBOHP लिखा जाता है। उसी कूट में PEACH को कैसे लिखा जाएगा?", "mr": "एका विशिष्ट सांकेतिक भाषेत MANGO हे NBOHP असे लिहिले जाते. त्याच संकेतात PEACH हे कसे लिहिले जाईल?" },
+      "optionsJson": [
+        { "en": "ODZBG", "hi": "ODZBG", "mr": "ODZBG" },
+        { "en": "QFBCI", "hi": "QFBCI", "mr": "QFBCI" },
+        { "en": "RGCEJ", "hi": "RGCEJ", "mr": "RGCEJ" },
+        { "en": "QFBDI", "hi": "QFBDI", "mr": "QFBDI" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Each letter is replaced by the next letter of the alphabet: M→N, A→B, N→O, G→H, O→P. So P→Q, E→F, A→B, C→D, H→I, giving QFBDI.", "hi": "प्रत्येक अक्षर को वर्णमाला के अगले अक्षर से बदला गया है: M→N, A→B, N→O, G→H, O→P। अतः P→Q, E→F, A→B, C→D, H→I, यानी QFBDI।", "mr": "प्रत्येक अक्षर वर्णमालेतील पुढच्या अक्षराने बदलले आहे: M→N, A→B, N→O, G→H, O→P. म्हणून P→Q, E→F, A→B, C→D, H→I, म्हणजे QFBDI." },
+      "distractorAnalysis": {
+        "0": { "en": "Moves each letter one place backward instead of forward.", "hi": "प्रत्येक अक्षर को आगे के बजाय एक स्थान पीछे किया।", "mr": "प्रत्येक अक्षर पुढे ऐवजी एक स्थान मागे नेले." },
+        "1": { "en": "The fourth letter is wrong: C should become D, not C.", "hi": "चौथा अक्षर गलत है: C का कूट D होना चाहिए, C नहीं।", "mr": "चौथे अक्षर चुकीचे आहे: C चे संकेत D हवे, C नाही." },
+        "2": { "en": "Moves each letter two places forward instead of one.", "hi": "प्रत्येक अक्षर को एक के बजाय दो स्थान आगे बढ़ाया।", "mr": "प्रत्येक अक्षर एक ऐवजी दोन स्थाने पुढे नेले." }
+      }
+    },
+    {
+      "key": "rms6-p2-ma-17",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Ravi walks 5 km towards the north, then turns right and walks 3 km, and then turns right again and walks 5 km. How far and in which direction is he from his starting point?", "hi": "रवि उत्तर की ओर 5 किमी चलता है, फिर दाएँ मुड़कर 3 किमी चलता है और फिर दोबारा दाएँ मुड़कर 5 किमी चलता है। वह अपने आरंभिक बिंदु से कितनी दूर और किस दिशा में है?", "mr": "रवी उत्तरेकडे 5 किमी चालतो, मग उजवीकडे वळून 3 किमी चालतो आणि पुन्हा उजवीकडे वळून 5 किमी चालतो. तो आपल्या सुरुवातीच्या ठिकाणापासून किती अंतरावर आणि कोणत्या दिशेला आहे?" },
+      "optionsJson": [
+        { "en": "3 km East", "hi": "3 किमी पूर्व", "mr": "3 किमी पूर्व" },
+        { "en": "3 km West", "hi": "3 किमी पश्चिम", "mr": "3 किमी पश्चिम" },
+        { "en": "5 km East", "hi": "5 किमी पूर्व", "mr": "5 किमी पूर्व" },
+        { "en": "8 km North", "hi": "8 किमी उत्तर", "mr": "8 किमी उत्तर" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Facing north, a right turn faces east (3 km); another right turn faces south (5 km), which cancels the first 5 km north. He is 3 km east of the start.", "hi": "उत्तर की ओर मुँह करके दाएँ मुड़ने पर पूर्व की ओर (3 किमी) चलता है; फिर दाएँ मुड़ने पर दक्षिण की ओर (5 किमी) चलता है, जो पहले के 5 किमी उत्तर को रद्द कर देता है। वह आरंभिक बिंदु से 3 किमी पूर्व में है।", "mr": "उत्तरेकडे तोंड करून उजवीकडे वळल्यास पूर्वेकडे (3 किमी) चालतो; पुन्हा उजवीकडे वळल्यास दक्षिणेकडे (5 किमी) चालतो, ज्यामुळे आधीचे 5 किमी उत्तरेचे अंतर रद्द होते. तो सुरुवातीच्या ठिकाणापासून 3 किमी पूर्वेला आहे." },
+      "distractorAnalysis": {
+        "1": { "en": "West would result from left turns, but Ravi turned right.", "hi": "पश्चिम दिशा बाएँ मुड़ने पर आती, पर रवि दाएँ मुड़ा।", "mr": "पश्चिम दिशा डावीकडे वळल्यास आली असती, पण रवी उजवीकडे वळला." },
+        "2": { "en": "The 5 km north and 5 km south cancel; only 3 km east remains.", "hi": "5 किमी उत्तर और 5 किमी दक्षिण एक-दूसरे को रद्द कर देते हैं; केवल 3 किमी पूर्व बचता है।", "mr": "5 किमी उत्तर आणि 5 किमी दक्षिण एकमेकांना रद्द करतात; फक्त 3 किमी पूर्व उरते." },
+        "3": { "en": "He did not keep going north; the later south walk cancels the north walk.", "hi": "वह लगातार उत्तर की ओर नहीं चला; बाद का दक्षिण का चलना उत्तर के चलने को रद्द कर देता है।", "mr": "तो सतत उत्तरेकडे गेला नाही; नंतरचे दक्षिणेकडील चालणे उत्तरेकडील चालणे रद्द करते." }
+      }
+    },
+    {
+      "key": "rms6-p2-ma-18",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Pointing to a girl, Meena said, \"She is the daughter of my mother's only son.\" How is the girl related to Meena?", "hi": "एक लड़की की ओर इशारा करते हुए मीना ने कहा, \"वह मेरी माँ के इकलौते पुत्र की बेटी है।\" वह लड़की मीना की क्या लगती है?", "mr": "एका मुलीकडे बोट दाखवून मीना म्हणाली, \"ती माझ्या आईच्या एकुलत्या एक मुलाची मुलगी आहे.\" ती मुलगी मीनाची कोण लागते?" },
+      "optionsJson": [
+        { "en": "Sister", "hi": "बहन", "mr": "बहीण" },
+        { "en": "Niece", "hi": "भतीजी", "mr": "पुतणी" },
+        { "en": "Cousin", "hi": "चचेरी बहन", "mr": "चुलत बहीण" },
+        { "en": "Daughter", "hi": "बेटी", "mr": "मुलगी" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Meena's mother's only son is Meena's brother. The girl is the daughter of Meena's brother, so she is Meena's niece.", "hi": "मीना की माँ का इकलौता पुत्र मीना का भाई है। वह लड़की मीना के भाई की बेटी है, इसलिए वह मीना की भतीजी है।", "mr": "मीनाच्या आईचा एकुलता एक मुलगा म्हणजे मीनाचा भाऊ. ती मुलगी मीनाच्या भावाची मुलगी आहे, म्हणून ती मीनाची पुतणी आहे." },
+      "distractorAnalysis": {
+        "0": { "en": "A sister would be a daughter of Meena's mother, not of her brother.", "hi": "बहन मीना की माँ की बेटी होती, उसके भाई की बेटी नहीं।", "mr": "बहीण ही मीनाच्या आईची मुलगी असती, तिच्या भावाची मुलगी नाही." },
+        "2": { "en": "A cousin is a child of Meena's uncle or aunt, not of her brother.", "hi": "चचेरी बहन मीना के चाचा या बुआ की संतान होती है, उसके भाई की नहीं।", "mr": "चुलत बहीण ही मीनाच्या काका किंवा आत्याची मुलगी असते, तिच्या भावाची नाही." },
+        "3": { "en": "The girl's father is Meena's brother, not Meena's husband.", "hi": "उस लड़की के पिता मीना के भाई हैं, मीना के पति नहीं।", "mr": "त्या मुलीचे वडील मीनाचे भाऊ आहेत, मीनाचे पती नाहीत." }
+      }
+    },
+    {
+      "key": "rms6-p2-ma-19",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Rahul is 7th from the front and 12th from the back in a queue. How many students are there in the queue?", "hi": "एक पंक्ति में राहुल आगे से 7वें और पीछे से 12वें स्थान पर है। पंक्ति में कुल कितने विद्यार्थी हैं?", "mr": "एका रांगेत राहुल पुढून 7 वा आणि मागून 12 वा आहे. रांगेत एकूण किती विद्यार्थी आहेत?" },
+      "optionsJson": [
+        { "en": "19", "hi": "19", "mr": "19" },
+        { "en": "20", "hi": "20", "mr": "20" },
+        { "en": "18", "hi": "18", "mr": "18" },
+        { "en": "17", "hi": "17", "mr": "17" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Rahul is counted in both positions, so total = 7 + 12 − 1 = 18.", "hi": "राहुल दोनों गिनतियों में शामिल है, इसलिए कुल = 7 + 12 − 1 = 18।", "mr": "राहुल दोन्ही मोजणीत समाविष्ट आहे, म्हणून एकूण = 7 + 12 − 1 = 18." },
+      "distractorAnalysis": {
+        "0": { "en": "Adds 7 + 12 but forgets that Rahul is counted twice.", "hi": "7 + 12 जोड़ दिया, पर यह भूल गया कि राहुल दो बार गिना गया है।", "mr": "7 + 12 जोडले, पण राहुल दोनदा मोजला गेला हे विसरले." },
+        "1": { "en": "Adds 1 instead of subtracting 1.", "hi": "1 घटाने के बजाय 1 जोड़ दिया।", "mr": "1 वजा करण्याऐवजी 1 मिळवले." },
+        "3": { "en": "Subtracts 2 instead of 1.", "hi": "1 के बजाय 2 घटा दिया।", "mr": "1 ऐवजी 2 वजा केले." }
+      }
+    },
+    {
+      "key": "rms6-p2-ma-20",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "What is the angle between the hour hand and the minute hand of a clock at 4 o'clock?", "hi": "घड़ी में 4 बजे घंटे की सुई और मिनट की सुई के बीच कितना कोण होता है?", "mr": "घड्याळात 4 वाजता तासकाटा आणि मिनिटकाटा यांच्यातील कोन किती असतो?" },
+      "optionsJson": [
+        { "en": "90°", "hi": "90°", "mr": "90°" },
+        { "en": "100°", "hi": "100°", "mr": "100°" },
+        { "en": "150°", "hi": "150°", "mr": "150°" },
+        { "en": "120°", "hi": "120°", "mr": "120°" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Each hour mark on a clock is 30° apart. At 4 o'clock the minute hand is at 12 and the hour hand is at 4, which is 4 × 30° = 120° away.", "hi": "घड़ी में प्रत्येक घंटे के निशान के बीच 30° का अंतर होता है। 4 बजे मिनट की सुई 12 पर और घंटे की सुई 4 पर होती है, जो 4 × 30° = 120° दूर है।", "mr": "घड्यात प्रत्येक तासाच्या खुणेमध्ये 30° चे अंतर असते. 4 वाजता मिनिटकाटा 12 वर आणि तासकाटा 4 वर असतो, जे 4 × 30° = 120° दूर आहे." },
+      "distractorAnalysis": {
+        "0": { "en": "This is the angle at 3 o'clock (3 × 30°).", "hi": "यह 3 बजे का कोण है (3 × 30°)।", "mr": "हा 3 वाजताचा कोन आहे (3 × 30°)." },
+        "1": { "en": "Not a multiple of 30°, so it cannot be the angle at a whole hour.", "hi": "यह 30° का गुणज नहीं है, इसलिए पूरे घंटे पर यह कोण नहीं हो सकता।", "mr": "हा 30° चा गुणक नाही, म्हणून पूर्ण तासाला हा कोन असू शकत नाही." },
+        "2": { "en": "This is the angle at 5 o'clock (5 × 30°).", "hi": "यह 5 बजे का कोण है (5 × 30°)।", "mr": "हा 5 वाजताचा कोन आहे (5 × 30°)." }
+      }
+    },
+    {
+      "key": "rms6-p2-ma-21",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Today is Wednesday. What day of the week will it be after 45 days?", "hi": "आज बुधवार है। 45 दिन बाद सप्ताह का कौन-सा दिन होगा?", "mr": "आज बुधवार आहे. 45 दिवसांनंतर आठवड्याचा कोणता वार असेल?" },
+      "optionsJson": [
+        { "en": "Thursday", "hi": "गुरुवार", "mr": "गुरुवार" },
+        { "en": "Friday", "hi": "शुक्रवार", "mr": "शुक्रवार" },
+        { "en": "Sunday", "hi": "रविवार", "mr": "रविवार" },
+        { "en": "Saturday", "hi": "शनिवार", "mr": "शनिवार" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "45 days = 6 weeks + 3 days. After 6 full weeks it is again Wednesday, and 3 more days gives Saturday.", "hi": "45 दिन = 6 सप्ताह + 3 दिन। 6 पूरे सप्ताह बाद फिर बुधवार होगा, और 3 दिन आगे शनिवार आता है।", "mr": "45 दिवस = 6 आठवडे + 3 दिवस. 6 पूर्ण आठवड्यांनंतर पुन्हा बुधवार येतो, आणि आणखी 3 दिवसांनी शनिवार येतो." },
+      "distractorAnalysis": {
+        "0": { "en": "This is only 1 day after Wednesday; the extra days are 3.", "hi": "यह बुधवार के केवल 1 दिन बाद है; अतिरिक्त दिन 3 हैं।", "mr": "हा बुधवारनंतर फक्त 1 दिवस आहे; अतिरिक्त दिवस 3 आहेत." },
+        "1": { "en": "This is only 2 days after Wednesday; the extra days are 3.", "hi": "यह बुधवार के केवल 2 दिन बाद है; अतिरिक्त दिन 3 हैं।", "mr": "हा बुधवारनंतर फक्त 2 दिवस आहे; अतिरिक्त दिवस 3 आहेत." },
+        "2": { "en": "This is 4 days after Wednesday; the extra days are only 3.", "hi": "यह बुधवार के 4 दिन बाद है; अतिरिक्त दिन केवल 3 हैं।", "mr": "हा बुधवारनंतर 4 दिवस आहे; अतिरिक्त दिवस फक्त 3 आहेत." }
+      }
+    },
+    {
+      "key": "rms6-p2-ma-22",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "How many times is the digit 1 written when we write all the numbers from 1 to 20?", "hi": "1 से 20 तक की सभी संख्याएँ लिखने पर अंक 1 कुल कितनी बार लिखा जाता है?", "mr": "1 ते 20 पर्यंतच्या सर्व संख्या लिहिताना अंक 1 एकूण किती वेळा लिहिला जातो?" },
+      "optionsJson": [
+        { "en": "12", "hi": "12", "mr": "12" },
+        { "en": "10", "hi": "10", "mr": "10" },
+        { "en": "11", "hi": "11", "mr": "11" },
+        { "en": "13", "hi": "13", "mr": "13" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The digit 1 appears once in 1, once in 10, twice in 11, and once each in 12 to 19 (8 times). Total = 1 + 1 + 2 + 8 = 12.", "hi": "अंक 1, 1 में एक बार, 10 में एक बार, 11 में दो बार और 12 से 19 में प्रत्येक में एक बार (8 बार) आता है। कुल = 1 + 1 + 2 + 8 = 12।", "mr": "अंक 1 हा 1 मध्ये एकदा, 10 मध्ये एकदा, 11 मध्ये दोनदा आणि 12 ते 19 मध्ये प्रत्येकी एकदा (8 वेळा) येतो. एकूण = 1 + 1 + 2 + 8 = 12." },
+      "distractorAnalysis": {
+        "1": { "en": "Undercounts; 11 has the digit 1 twice and 12 to 19 add eight more.", "hi": "कम गिना; 11 में अंक 1 दो बार है और 12 से 19 में आठ बार और आता है।", "mr": "कमी मोजले; 11 मध्ये अंक 1 दोनदा आहे आणि 12 ते 19 मध्ये आणखी आठ वेळा येतो." },
+        "2": { "en": "Counts the 11 numbers that contain a 1, but 11 has the digit twice.", "hi": "1 वाली 11 संख्याएँ गिनीं, पर 11 में अंक दो बार आता है।", "mr": "1 असलेल्या 11 संख्या मोजल्या, पण 11 मध्ये अंक दोनदा येतो." },
+        "3": { "en": "Overcounts; 20 does not contain the digit 1.", "hi": "अधिक गिना; 20 में अंक 1 नहीं है।", "mr": "जास्त मोजले; 20 मध्ये अंक 1 नाही." }
+      }
+    },
+    {
+      "key": "rms6-p2-ma-23",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "P is taller than Q. R is taller than P. S is shorter than Q. Who is the shortest of the four?", "hi": "P, Q से लंबा है। R, P से लंबा है। S, Q से छोटा है। चारों में सबसे छोटा कौन है?", "mr": "P हा Q पेक्षा उंच आहे. R हा P पेक्षा उंच आहे. S हा Q पेक्षा कमी उंचीचा आहे. चौघांमध्ये सर्वात कमी उंचीचा कोण आहे?" },
+      "optionsJson": [
+        { "en": "Q", "hi": "Q", "mr": "Q" },
+        { "en": "S", "hi": "S", "mr": "S" },
+        { "en": "P", "hi": "P", "mr": "P" },
+        { "en": "R", "hi": "R", "mr": "R" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "From the statements, R > P > Q > S in height, so S is the shortest.", "hi": "कथनों से ऊँचाई का क्रम R > P > Q > S बनता है, इसलिए S सबसे छोटा है।", "mr": "विधानांवरून उंचीचा क्रम R > P > Q > S असा येतो, म्हणून S सर्वात कमी उंचीचा आहे." },
+      "distractorAnalysis": {
+        "0": { "en": "Q is taller than S, so Q is not the shortest.", "hi": "Q, S से लंबा है, इसलिए Q सबसे छोटा नहीं है।", "mr": "Q हा S पेक्षा उंच आहे, म्हणून Q सर्वात कमी उंचीचा नाही." },
+        "2": { "en": "P is taller than Q, so P is not the shortest.", "hi": "P, Q से लंबा है, इसलिए P सबसे छोटा नहीं है।", "mr": "P हा Q पेक्षा उंच आहे, म्हणून P सर्वात कमी उंचीचा नाही." },
+        "3": { "en": "R is taller than P, so R is the tallest, not the shortest.", "hi": "R, P से लंबा है, इसलिए R सबसे लंबा है, सबसे छोटा नहीं।", "mr": "R हा P पेक्षा उंच आहे, म्हणून R सर्वात उंच आहे, सर्वात कमी उंचीचा नाही." }
+      }
+    },
+    {
+      "key": "rms6-p2-ma-24",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "If the letters of the word PLANET are arranged in alphabetical order, which letter will be in the fourth place from the left?", "hi": "यदि PLANET शब्द के अक्षरों को वर्णमाला क्रम में व्यवस्थित किया जाए, तो बाएँ से चौथे स्थान पर कौन-सा अक्षर होगा?", "mr": "PLANET या शब्दातील अक्षरे वर्णक्रमानुसार लावली, तर डावीकडून चौथ्या स्थानी कोणते अक्षर येईल?" },
+      "optionsJson": [
+        { "en": "L", "hi": "L", "mr": "L" },
+        { "en": "P", "hi": "P", "mr": "P" },
+        { "en": "N", "hi": "N", "mr": "N" },
+        { "en": "T", "hi": "T", "mr": "T" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "In alphabetical order the letters are A, E, L, N, P, T. The fourth letter from the left is N.", "hi": "वर्णमाला क्रम में अक्षर A, E, L, N, P, T होंगे। बाएँ से चौथा अक्षर N है।", "mr": "वर्णक्रमानुसार अक्षरे A, E, L, N, P, T अशी येतील. डावीकडून चौथे अक्षर N आहे." },
+      "distractorAnalysis": {
+        "0": { "en": "L is in the third place, not the fourth.", "hi": "L तीसरे स्थान पर है, चौथे पर नहीं।", "mr": "L तिसऱ्या स्थानी आहे, चौथ्या नाही." },
+        "1": { "en": "P is in the fifth place, not the fourth.", "hi": "P पाँचवें स्थान पर है, चौथे पर नहीं।", "mr": "P पाचव्या स्थानी आहे, चौथ्या नाही." },
+        "3": { "en": "T is in the sixth (last) place, not the fourth.", "hi": "T छठे (अंतिम) स्थान पर है, चौथे पर नहीं।", "mr": "T सहाव्या (शेवटच्या) स्थानी आहे, चौथ्या नाही." }
+      }
+    },
+    {
+      "key": "rms6-p2-ma-25",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Find the missing number: 3 (18) 6, 4 (32) 8, 5 (?) 10", "hi": "लुप्त संख्या ज्ञात करें: 3 (18) 6, 4 (32) 8, 5 (?) 10", "mr": "गाळलेली संख्या शोधा: 3 (18) 6, 4 (32) 8, 5 (?) 10" },
+      "optionsJson": [
+        { "en": "15", "hi": "15", "mr": "15" },
+        { "en": "25", "hi": "25", "mr": "25" },
+        { "en": "40", "hi": "40", "mr": "40" },
+        { "en": "50", "hi": "50", "mr": "50" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "The middle number is the product of the two outer numbers: 3 × 6 = 18 and 4 × 8 = 32, so 5 × 10 = 50.", "hi": "बीच की संख्या बाहर की दोनों संख्याओं का गुणनफल है: 3 × 6 = 18 और 4 × 8 = 32, अतः 5 × 10 = 50।", "mr": "मधली संख्या ही बाहेरील दोन संख्यांचा गुणाकार आहे: 3 × 6 = 18 आणि 4 × 8 = 32, म्हणून 5 × 10 = 50." },
+      "distractorAnalysis": {
+        "0": { "en": "This is the sum 5 + 10, but the rule is multiplication.", "hi": "यह योग 5 + 10 है, पर नियम गुणा का है।", "mr": "ही बेरीज 5 + 10 आहे, पण नियम गुणाकाराचा आहे." },
+        "1": { "en": "This is 5 × 5, which ignores the number 10.", "hi": "यह 5 × 5 है, जिसमें संख्या 10 की उपेक्षा की गई है।", "mr": "हे 5 × 5 आहे, ज्यात संख्या 10 कडे दुर्लक्ष केले आहे." },
+        "2": { "en": "This is 5 × 8, which wrongly uses 8 from the previous row.", "hi": "यह 5 × 8 है, जिसमें पिछली पंक्ति की संख्या 8 गलत तरीके से ली गई है।", "mr": "हे 5 × 8 आहे, ज्यात मागच्या ओळीतील 8 चुकीने घेतले आहे." }
+      }
+    }
+  ]
+}

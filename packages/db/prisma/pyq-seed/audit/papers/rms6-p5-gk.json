@@ -1,0 +1,484 @@
+{
+  "examType": "RMS",
+  "classLevel": 6,
+  "paperNumber": 5,
+  "sectionKey": "general_knowledge",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "rms6-p5-gk-01",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "National Sports Day in India is celebrated on 29 August in honour of which hockey legend?", "hi": "भारत में राष्ट्रीय खेल दिवस 29 अगस्त को किस हॉकी दिग्गज के सम्मान में मनाया जाता है?", "mr": "भारतात राष्ट्रीय क्रीडा दिन 29 ऑगस्ट रोजी कोणत्या हॉकी दिग्गजाच्या सन्मानार्थ साजरा केला जातो?" },
+      "optionsJson": [
+        { "en": "Milkha Singh", "hi": "मिल्खा सिंह", "mr": "मिल्खा सिंग" },
+        { "en": "Kapil Dev", "hi": "कपिल देव", "mr": "कपिल देव" },
+        { "en": "Major Dhyan Chand", "hi": "मेजर ध्यानचंद", "mr": "मेजर ध्यानचंद" },
+        { "en": "Leander Paes", "hi": "लिएंडर पेस", "mr": "लिअँडर पेस" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Major Dhyan Chand, the hockey wizard, was born on 29 August 1905 and won three Olympic gold medals (1928, 1932, 1936). His birthday is celebrated as National Sports Day.", "hi": "हॉकी के जादूगर मेजर ध्यानचंद का जन्म 29 अगस्त 1905 को हुआ था। उन्होंने ओलंपिक में तीन स्वर्ण पदक जीते (1928, 1932, 1936)। उनका जन्मदिन राष्ट्रीय खेल दिवस के रूप में मनाया जाता है।", "mr": "हॉकीचे जादूगर मेजर ध्यानचंद यांचा जन्म 29 ऑगस्ट 1905 रोजी झाला. त्यांनी ऑलिम्पिकमध्ये तीन सुवर्णपदके जिंकली (1928, 1932, 1936). त्यांचा जन्मदिवस राष्ट्रीय क्रीडा दिन म्हणून साजरा केला जातो." },
+      "distractorAnalysis": {
+        "0": { "en": "Milkha Singh was a famous sprinter known as the 'Flying Sikh', not a hockey player.", "hi": "मिल्खा सिंह प्रसिद्ध धावक थे और 'उड़न सिख' के नाम से जाने जाते थे, हॉकी खिलाड़ी नहीं।", "mr": "मिल्खा सिंग हे प्रसिद्ध धावपटू होते आणि 'फ्लाइंग सीख' म्हणून ओळखले जात, ते हॉकीपटू नव्हते." },
+        "1": { "en": "Kapil Dev is a cricketer who captained India to the 1983 World Cup win.", "hi": "कपिल देव क्रिकेट खिलाड़ी हैं, जिनकी कप्तानी में भारत ने 1983 का विश्व कप जीता।", "mr": "कपिल देव हे क्रिकेटपटू आहेत, ज्यांच्या नेतृत्वाखाली भारताने 1983 चा विश्वचषक जिंकला." },
+        "3": { "en": "Leander Paes is a tennis player, not a hockey player.", "hi": "लिएंडर पेस टेनिस खिलाड़ी हैं, हॉकी खिलाड़ी नहीं।", "mr": "लिअँडर पेस हे टेनिसपटू आहेत, हॉकीपटू नाहीत." }
+      }
+    },
+    {
+      "key": "rms6-p5-gk-02",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Teachers' Day in India is celebrated on 5 September, the birthday of which scholar and former President?", "hi": "भारत में शिक्षक दिवस 5 सितंबर को मनाया जाता है, जो किस विद्वान और पूर्व राष्ट्रपति का जन्मदिन है?", "mr": "भारतात शिक्षक दिन 5 सप्टेंबर रोजी साजरा केला जातो, जो कोणत्या विद्वान आणि माजी राष्ट्रपतींचा जन्मदिवस आहे?" },
+      "optionsJson": [
+        { "en": "Dr Sarvepalli Radhakrishnan", "hi": "डॉ. सर्वपल्ली राधाकृष्णन", "mr": "डॉ. सर्वपल्ली राधाकृष्णन" },
+        { "en": "Dr A.P.J. Abdul Kalam", "hi": "डॉ. ए.पी.जे. अब्दुल कलाम", "mr": "डॉ. ए.पी.जे. अब्दुल कलाम" },
+        { "en": "Dr Rajendra Prasad", "hi": "डॉ. राजेंद्र प्रसाद", "mr": "डॉ. राजेंद्र प्रसाद" },
+        { "en": "Dr Zakir Husain", "hi": "डॉ. ज़ाकिर हुसैन", "mr": "डॉ. झाकीर हुसेन" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Dr Sarvepalli Radhakrishnan, a philosopher and teacher, was born on 5 September 1888 and later became the second President of India. His birthday is observed as Teachers' Day.", "hi": "दार्शनिक और शिक्षक डॉ. सर्वपल्ली राधाकृष्णन का जन्म 5 सितंबर 1888 को हुआ था और वे आगे चलकर भारत के दूसरे राष्ट्रपति बने। उनका जन्मदिन शिक्षक दिवस के रूप में मनाया जाता है।", "mr": "तत्त्वज्ञ आणि शिक्षक डॉ. सर्वपल्ली राधाकृष्णन यांचा जन्म 5 सप्टेंबर 1888 रोजी झाला आणि पुढे ते भारताचे दुसरे राष्ट्रपती झाले. त्यांचा जन्मदिवस शिक्षक दिन म्हणून साजरा केला जातो." },
+      "distractorAnalysis": {
+        "1": { "en": "Dr Kalam was born on 15 October, a date observed as World Students' Day.", "hi": "डॉ. कलाम का जन्म 15 अक्टूबर को हुआ था, जिसे विश्व विद्यार्थी दिवस के रूप में मनाया जाता है।", "mr": "डॉ. कलाम यांचा जन्म 15 ऑक्टोबर रोजी झाला, हा दिवस जागतिक विद्यार्थी दिन म्हणून पाळला जातो." },
+        "2": { "en": "Dr Rajendra Prasad was the first President of India and was born on 3 December.", "hi": "डॉ. राजेंद्र प्रसाद भारत के पहले राष्ट्रपति थे और उनका जन्म 3 दिसंबर को हुआ था।", "mr": "डॉ. राजेंद्र प्रसाद हे भारताचे पहिले राष्ट्रपती होते आणि त्यांचा जन्म 3 डिसेंबर रोजी झाला." },
+        "3": { "en": "Dr Zakir Husain was the third President of India and was born on 8 February.", "hi": "डॉ. ज़ाकिर हुसैन भारत के तीसरे राष्ट्रपति थे और उनका जन्म 8 फरवरी को हुआ था।", "mr": "डॉ. झाकीर हुसेन हे भारताचे तिसरे राष्ट्रपती होते आणि त्यांचा जन्म 8 फेब्रुवारी रोजी झाला." }
+      }
+    },
+    {
+      "key": "rms6-p5-gk-03",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "On which date is World Environment Day observed every year?", "hi": "विश्व पर्यावरण दिवस हर साल किस तारीख को मनाया जाता है?", "mr": "जागतिक पर्यावरण दिन दरवर्षी कोणत्या तारखेला साजरा केला जातो?" },
+      "optionsJson": [
+        { "en": "22 April", "hi": "22 अप्रैल", "mr": "22 एप्रिल" },
+        { "en": "21 March", "hi": "21 मार्च", "mr": "21 मार्च" },
+        { "en": "16 October", "hi": "16 अक्टूबर", "mr": "16 ऑक्टोबर" },
+        { "en": "5 June", "hi": "5 जून", "mr": "5 जून" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "World Environment Day is observed on 5 June every year to encourage people to protect nature. It has been celebrated since 1974.", "hi": "विश्व पर्यावरण दिवस हर साल 5 जून को लोगों को प्रकृति की रक्षा के लिए प्रेरित करने हेतु मनाया जाता है। यह 1974 से मनाया जा रहा है।", "mr": "लोकांना निसर्गाचे रक्षण करण्यास प्रोत्साहन देण्यासाठी जागतिक पर्यावरण दिन दरवर्षी 5 जून रोजी साजरा केला जातो. तो 1974 पासून साजरा केला जात आहे." },
+      "distractorAnalysis": {
+        "0": { "en": "22 April is observed as Earth Day.", "hi": "22 अप्रैल को पृथ्वी दिवस मनाया जाता है।", "mr": "22 एप्रिल हा वसुंधरा दिन म्हणून पाळला जातो." },
+        "1": { "en": "21 March is observed as the International Day of Forests.", "hi": "21 मार्च को अंतरराष्ट्रीय वन दिवस मनाया जाता है।", "mr": "21 मार्च हा आंतरराष्ट्रीय वन दिन म्हणून पाळला जातो." },
+        "2": { "en": "16 October is observed as World Food Day.", "hi": "16 अक्टूबर को विश्व खाद्य दिवस मनाया जाता है।", "mr": "16 ऑक्टोबर हा जागतिक अन्न दिन म्हणून पाळला जातो." }
+      }
+    },
+    {
+      "key": "rms6-p5-gk-04",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Neeraj Chopra, who won an Olympic gold medal for India at the Tokyo Games, competes in which sport?", "hi": "नीरज चोपड़ा, जिन्होंने टोक्यो ओलंपिक में भारत के लिए स्वर्ण पदक जीता, किस खेल में भाग लेते हैं?", "mr": "टोकियो ऑलिम्पिकमध्ये भारतासाठी सुवर्णपदक जिंकणारा नीरज चोप्रा कोणत्या खेळात भाग घेतो?" },
+      "optionsJson": [
+        { "en": "Shot put", "hi": "गोला फेंक", "mr": "गोळाफेक" },
+        { "en": "Javelin throw", "hi": "भाला फेंक", "mr": "भालाफेक" },
+        { "en": "Discus throw", "hi": "चक्का फेंक", "mr": "थाळीफेक" },
+        { "en": "Long jump", "hi": "लंबी कूद", "mr": "लांब उडी" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Neeraj Chopra is a javelin thrower. He won the gold medal in the men's javelin throw at the Tokyo Olympics.", "hi": "नीरज चोपड़ा भाला फेंक के खिलाड़ी हैं। उन्होंने टोक्यो ओलंपिक में पुरुषों की भाला फेंक स्पर्धा में स्वर्ण पदक जीता।", "mr": "नीरज चोप्रा हा भालाफेक खेळाडू आहे. त्याने टोकियो ऑलिम्पिकमध्ये पुरुषांच्या भालाफेक स्पर्धेत सुवर्णपदक जिंकले." },
+      "distractorAnalysis": {
+        "0": { "en": "In shot put, the athlete pushes a heavy metal ball, not a spear-like javelin.", "hi": "गोला फेंक में खिलाड़ी भारी धातु का गोला फेंकता है, भाला नहीं।", "mr": "गोळाफेकीत खेळाडू जड धातूचा गोळा फेकतो, भाला नाही." },
+        "2": { "en": "In discus throw, the athlete spins around and hurls a flat disc.", "hi": "चक्का फेंक में खिलाड़ी घूमकर एक चपटी चक्की फेंकता है।", "mr": "थाळीफेकीत खेळाडू गोल फिरून सपाट थाळी फेकतो." },
+        "3": { "en": "In long jump, the athlete runs and jumps as far as possible into a sand pit.", "hi": "लंबी कूद में खिलाड़ी दौड़कर रेत के गड्ढे में दूर तक कूदता है।", "mr": "लांब उडीत खेळाडू धावत येऊन वाळूच्या खड्ड्यात शक्य तितकी लांब उडी मारतो." }
+      }
+    },
+    {
+      "key": "rms6-p5-gk-05",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The ancient collection of animal fables called the Panchatantra is traditionally attributed to which author?", "hi": "पशु-कथाओं के प्राचीन संग्रह पंचतंत्र की रचना परंपरागत रूप से किस लेखक को दी जाती है?", "mr": "प्राण्यांच्या कथांचा प्राचीन संग्रह असलेल्या पंचतंत्राची रचना परंपरेने कोणत्या लेखकाने केली असे मानले जाते?" },
+      "optionsJson": [
+        { "en": "Vishnu Sharma", "hi": "विष्णु शर्मा", "mr": "विष्णू शर्मा" },
+        { "en": "Kalidasa", "hi": "कालिदास", "mr": "कालिदास" },
+        { "en": "Tulsidas", "hi": "तुलसीदास", "mr": "तुलसीदास" },
+        { "en": "Valmiki", "hi": "वाल्मीकि", "mr": "वाल्मीकी" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The Panchatantra is traditionally credited to Vishnu Sharma, who used stories of animals to teach wisdom and good conduct to young princes.", "hi": "पंचतंत्र की रचना परंपरागत रूप से विष्णु शर्मा को दी जाती है, जिन्होंने पशुओं की कहानियों के माध्यम से राजकुमारों को बुद्धिमानी और अच्छा आचरण सिखाया।", "mr": "पंचतंत्राची रचना परंपरेने विष्णू शर्मा यांच्याकडे दिली जाते, ज्यांनी प्राण्यांच्या कथांतून राजकुमारांना शहाणपण आणि चांगले वर्तन शिकवले." },
+      "distractorAnalysis": {
+        "1": { "en": "Kalidasa was a poet and dramatist known for works like Abhijnanasakuntalam and Meghaduta.", "hi": "कालिदास कवि और नाटककार थे, जो अभिज्ञानशाकुंतलम् और मेघदूत जैसी रचनाओं के लिए प्रसिद्ध हैं।", "mr": "कालिदास हे कवी आणि नाटककार होते, जे अभिज्ञानशाकुंतलम् आणि मेघदूत यांसारख्या रचनांसाठी प्रसिद्ध आहेत." },
+        "2": { "en": "Tulsidas wrote the Ramcharitmanas, a retelling of the Ramayana in Awadhi.", "hi": "तुलसीदास ने रामचरितमानस लिखा, जो अवधी भाषा में रामायण की पुनर्रचना है।", "mr": "तुलसीदासांनी रामचरितमानस लिहिले, जे अवधी भाषेतील रामायणाचे पुनर्कथन आहे." },
+        "3": { "en": "Valmiki is the sage-poet who composed the original Sanskrit Ramayana.", "hi": "वाल्मीकि वे ऋषि-कवि हैं जिन्होंने संस्कृत में मूल रामायण की रचना की।", "mr": "वाल्मीकी हे ऋषी-कवी आहेत ज्यांनी संस्कृतमध्ये मूळ रामायणाची रचना केली." }
+      }
+    },
+    {
+      "key": "rms6-p5-gk-06",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Wings of Fire is the autobiography of which missile scientist and former President of India?", "hi": "'विंग्स ऑफ फायर' किस मिसाइल वैज्ञानिक और पूर्व राष्ट्रपति की आत्मकथा है?", "mr": "'विंग्ज ऑफ फायर' हे कोणत्या क्षेपणास्त्र शास्त्रज्ञ आणि माजी राष्ट्रपतींचे आत्मचरित्र आहे?" },
+      "optionsJson": [
+        { "en": "Vikram Sarabhai", "hi": "विक्रम साराभाई", "mr": "विक्रम साराभाई" },
+        { "en": "Homi J. Bhabha", "hi": "होमी जे. भाभा", "mr": "होमी जे. भाभा" },
+        { "en": "A.P.J. Abdul Kalam", "hi": "ए.पी.जे. अब्दुल कलाम", "mr": "ए.पी.जे. अब्दुल कलाम" },
+        { "en": "Satish Dhawan", "hi": "सतीश धवन", "mr": "सतीश धवन" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Wings of Fire tells the life story of Dr A.P.J. Abdul Kalam, the 'Missile Man of India', who served as the 11th President of India.", "hi": "'विंग्स ऑफ फायर' भारत के 'मिसाइल मैन' डॉ. ए.पी.जे. अब्दुल कलाम की जीवन कहानी है, जो भारत के 11वें राष्ट्रपति रहे।", "mr": "'विंग्ज ऑफ फायर' हे भारताचे 'मिसाईल मॅन' डॉ. ए.पी.जे. अब्दुल कलाम यांची जीवनकथा आहे, जे भारताचे 11 वे राष्ट्रपती होते." },
+      "distractorAnalysis": {
+        "0": { "en": "Vikram Sarabhai is regarded as the father of the Indian space programme.", "hi": "विक्रम साराभाई को भारतीय अंतरिक्ष कार्यक्रम का जनक माना जाता है।", "mr": "विक्रम साराभाई यांना भारतीय अंतराळ कार्यक्रमाचे जनक मानले जाते." },
+        "1": { "en": "Homi J. Bhabha is regarded as the father of India's nuclear programme.", "hi": "होमी जे. भाभा को भारत के परमाणु कार्यक्रम का जनक माना जाता है।", "mr": "होमी जे. भाभा यांना भारताच्या अणुकार्यक्रमाचे जनक मानले जाते." },
+        "3": { "en": "Satish Dhawan was a rocket scientist and chairman of ISRO, but he did not become President.", "hi": "सतीश धवन रॉकेट वैज्ञानिक और इसरो के अध्यक्ष थे, पर वे राष्ट्रपति नहीं बने।", "mr": "सतीश धवन हे रॉकेट शास्त्रज्ञ आणि इस्रोचे अध्यक्ष होते, पण ते राष्ट्रपती झाले नाहीत." }
+      }
+    },
+    {
+      "key": "rms6-p5-gk-07",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which is the highest civilian award of India?", "hi": "भारत का सर्वोच्च नागरिक सम्मान कौन-सा है?", "mr": "भारताचा सर्वोच्च नागरी सन्मान कोणता आहे?" },
+      "optionsJson": [
+        { "en": "Padma Vibhushan", "hi": "पद्म विभूषण", "mr": "पद्मविभूषण" },
+        { "en": "Padma Bhushan", "hi": "पद्म भूषण", "mr": "पद्मभूषण" },
+        { "en": "Padma Shri", "hi": "पद्मश्री", "mr": "पद्मश्री" },
+        { "en": "Bharat Ratna", "hi": "भारत रत्न", "mr": "भारतरत्न" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Bharat Ratna is the highest civilian honour of India. The Padma awards follow it in order: Padma Vibhushan, Padma Bhushan and Padma Shri.", "hi": "भारत रत्न भारत का सर्वोच्च नागरिक सम्मान है। इसके बाद पद्म पुरस्कार क्रम से आते हैं: पद्म विभूषण, पद्म भूषण और पद्मश्री।", "mr": "भारतरत्न हा भारताचा सर्वोच्च नागरी सन्मान आहे. त्यानंतर पद्म पुरस्कार क्रमाने येतात: पद्मविभूषण, पद्मभूषण आणि पद्मश्री." },
+      "distractorAnalysis": {
+        "0": { "en": "Padma Vibhushan is the second-highest civilian award, not the highest.", "hi": "पद्म विभूषण दूसरा सर्वोच्च नागरिक सम्मान है, सर्वोच्च नहीं।", "mr": "पद्मविभूषण हा दुसरा सर्वोच्च नागरी सन्मान आहे, सर्वोच्च नाही." },
+        "1": { "en": "Padma Bhushan is the third-highest civilian award.", "hi": "पद्म भूषण तीसरा सर्वोच्च नागरिक सम्मान है।", "mr": "पद्मभूषण हा तिसरा सर्वोच्च नागरी सन्मान आहे." },
+        "2": { "en": "Padma Shri is the fourth-highest civilian award.", "hi": "पद्मश्री चौथा सर्वोच्च नागरिक सम्मान है।", "mr": "पद्मश्री हा चौथा सर्वोच्च नागरी सन्मान आहे." }
+      }
+    },
+    {
+      "key": "rms6-p5-gk-08",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Who became the first Indian to win a Nobel Prize, receiving the Nobel Prize in Literature in 1913?", "hi": "1913 में साहित्य का नोबेल पुरस्कार पाकर नोबेल पुरस्कार जीतने वाले पहले भारतीय कौन बने?", "mr": "1913 मध्ये साहित्याचे नोबेल पारितोषिक मिळवून नोबेल पारितोषिक जिंकणारे पहिले भारतीय कोण ठरले?" },
+      "optionsJson": [
+        { "en": "C.V. Raman", "hi": "सी.वी. रमन", "mr": "सी.व्ही. रमण" },
+        { "en": "Rabindranath Tagore", "hi": "रवींद्रनाथ टैगोर", "mr": "रवींद्रनाथ टागोर" },
+        { "en": "Amartya Sen", "hi": "अमर्त्य सेन", "mr": "अमर्त्य सेन" },
+        { "en": "Mother Teresa", "hi": "मदर टेरेसा", "mr": "मदर तेरेसा" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Rabindranath Tagore won the 1913 Nobel Prize in Literature for his poetry collection Gitanjali, becoming the first Indian Nobel laureate.", "hi": "रवींद्रनाथ टैगोर ने अपने काव्य संग्रह गीतांजलि के लिए 1913 में साहित्य का नोबेल पुरस्कार जीता और पहले भारतीय नोबेल विजेता बने।", "mr": "रवींद्रनाथ टागोर यांनी आपल्या गीतांजली या काव्यसंग्रहासाठी 1913 मध्ये साहित्याचे नोबेल पारितोषिक जिंकले आणि ते पहिले भारतीय नोबेल विजेते ठरले." },
+      "distractorAnalysis": {
+        "0": { "en": "C.V. Raman won the Nobel Prize in Physics in 1930, later than Tagore.", "hi": "सी.वी. रमन ने 1930 में भौतिकी का नोबेल पुरस्कार जीता, जो टैगोर के बाद था।", "mr": "सी.व्ही. रमण यांनी 1930 मध्ये भौतिकशास्त्राचे नोबेल पारितोषिक जिंकले, जे टागोरांनंतर होते." },
+        "2": { "en": "Amartya Sen won the Nobel Prize in Economics in 1998.", "hi": "अमर्त्य सेन ने 1998 में अर्थशास्त्र का नोबेल पुरस्कार जीता।", "mr": "अमर्त्य सेन यांनी 1998 मध्ये अर्थशास्त्राचे नोबेल पारितोषिक जिंकले." },
+        "3": { "en": "Mother Teresa won the Nobel Peace Prize in 1979.", "hi": "मदर टेरेसा ने 1979 में नोबेल शांति पुरस्कार जीता।", "mr": "मदर तेरेसा यांनी 1979 मध्ये नोबेल शांतता पारितोषिक जिंकले." }
+      }
+    },
+    {
+      "key": "rms6-p5-gk-09",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "How many interlocking rings are there in the symbol of the Olympic Games?", "hi": "ओलंपिक खेलों के प्रतीक चिह्न में आपस में जुड़े हुए कितने छल्ले होते हैं?", "mr": "ऑलिम्पिक खेळांच्या चिन्हात एकमेकांत गुंफलेली किती वर्तुळे असतात?" },
+      "optionsJson": [
+        { "en": "3", "hi": "3", "mr": "3" },
+        { "en": "4", "hi": "4", "mr": "4" },
+        { "en": "5", "hi": "5", "mr": "5" },
+        { "en": "6", "hi": "6", "mr": "6" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The Olympic symbol has five interlocking rings, representing the five inhabited continents (Africa, the Americas, Asia, Europe and Oceania) joined together through sport.", "hi": "ओलंपिक प्रतीक में पाँच आपस में जुड़े छल्ले होते हैं, जो खेल के माध्यम से जुड़े पाँच आबाद महाद्वीपों (अफ्रीका, अमेरिका, एशिया, यूरोप और ओशिनिया) को दर्शाते हैं।", "mr": "ऑलिम्पिक चिन्हात पाच एकमेकांत गुंफलेली वर्तुळे असतात, जी खेळाच्या माध्यमातून जोडल्या गेलेल्या पाच वस्ती असलेल्या खंडांचे (आफ्रिका, अमेरिका, आशिया, युरोप आणि ओशनिया) प्रतिनिधित्व करतात." },
+      "distractorAnalysis": {
+        "0": { "en": "Three rings are too few; the symbol has more than three.", "hi": "तीन छल्ले बहुत कम हैं; प्रतीक में तीन से अधिक छल्ले होते हैं।", "mr": "तीन वर्तुळे खूप कमी आहेत; चिन्हात तीनपेक्षा जास्त वर्तुळे असतात." },
+        "1": { "en": "Four rings would not match the five continents the symbol represents.", "hi": "चार छल्ले प्रतीक द्वारा दर्शाए गए पाँच महाद्वीपों से मेल नहीं खाते।", "mr": "चार वर्तुळे चिन्हाने दर्शवलेल्या पाच खंडांशी जुळत नाहीत." },
+        "3": { "en": "Six rings are one more than the symbol actually has.", "hi": "छह छल्ले प्रतीक में वास्तविक संख्या से एक अधिक हैं।", "mr": "सहा वर्तुळे ही चिन्हातील प्रत्यक्ष संख्येपेक्षा एक जास्त आहेत." }
+      }
+    },
+    {
+      "key": "rms6-p5-gk-10",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "The tennis tournament at Wimbledon in London is famous for being played on which type of court surface?", "hi": "लंदन के विम्बलडन में होने वाला टेनिस टूर्नामेंट किस प्रकार की कोर्ट सतह पर खेले जाने के लिए प्रसिद्ध है?", "mr": "लंडनमधील विम्बल्डन येथील टेनिस स्पर्धा कोणत्या प्रकारच्या कोर्टवर खेळली जाण्यासाठी प्रसिद्ध आहे?" },
+      "optionsJson": [
+        { "en": "Grass", "hi": "घास", "mr": "गवत" },
+        { "en": "Clay", "hi": "मिट्टी", "mr": "माती" },
+        { "en": "Hard cement court", "hi": "सख्त सीमेंट कोर्ट", "mr": "कठीण सिमेंट कोर्ट" },
+        { "en": "Wood", "hi": "लकड़ी", "mr": "लाकूड" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Wimbledon is the oldest tennis Grand Slam and is played on grass courts, which makes the ball skid and stay low.", "hi": "विम्बलडन सबसे पुराना टेनिस ग्रैंड स्लैम है और यह घास के कोर्ट पर खेला जाता है, जिससे गेंद फिसलती है और नीची रहती है।", "mr": "विम्बल्डन ही सर्वात जुनी टेनिस ग्रँड स्लॅम स्पर्धा आहे आणि ती गवताच्या कोर्टवर खेळली जाते, ज्यामुळे चेंडू घसरतो आणि खालीच राहतो." },
+      "distractorAnalysis": {
+        "1": { "en": "Clay courts are used at the French Open, not at Wimbledon.", "hi": "मिट्टी के कोर्ट फ्रेंच ओपन में इस्तेमाल होते हैं, विम्बलडन में नहीं।", "mr": "मातीचे कोर्ट फ्रेंच ओपनमध्ये वापरले जातात, विम्बल्डनमध्ये नाही." },
+        "2": { "en": "Hard courts are used at the Australian Open and the US Open, not at Wimbledon.", "hi": "सख्त कोर्ट ऑस्ट्रेलियन ओपन और यूएस ओपन में इस्तेमाल होते हैं, विम्बलडन में नहीं।", "mr": "कठीण कोर्ट ऑस्ट्रेलियन ओपन आणि यूएस ओपनमध्ये वापरले जातात, विम्बल्डनमध्ये नाही." },
+        "3": { "en": "Wooden courts are not used for any Grand Slam tennis tournament.", "hi": "लकड़ी के कोर्ट किसी भी ग्रैंड स्लैम टेनिस टूर्नामेंट में इस्तेमाल नहीं होते।", "mr": "लाकडी कोर्ट कोणत्याही ग्रँड स्लॅम टेनिस स्पर्धेत वापरले जात नाहीत." }
+      }
+    },
+    {
+      "key": "rms6-p5-gk-11",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The headquarters of the United Nations is located in which city?", "hi": "संयुक्त राष्ट्र का मुख्यालय किस शहर में स्थित है?", "mr": "संयुक्त राष्ट्रांचे मुख्यालय कोणत्या शहरात आहे?" },
+      "optionsJson": [
+        { "en": "Geneva", "hi": "जिनेवा", "mr": "जिनिव्हा" },
+        { "en": "New York", "hi": "न्यूयॉर्क", "mr": "न्यूयॉर्क" },
+        { "en": "Paris", "hi": "पेरिस", "mr": "पॅरिस" },
+        { "en": "London", "hi": "लंदन", "mr": "लंडन" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The United Nations has its headquarters in New York City, USA, beside the East River.", "hi": "संयुक्त राष्ट्र का मुख्यालय अमेरिका के न्यूयॉर्क शहर में ईस्ट नदी के किनारे स्थित है।", "mr": "संयुक्त राष्ट्रांचे मुख्यालय अमेरिकेतील न्यूयॉर्क शहरात ईस्ट नदीच्या काठावर आहे." },
+      "distractorAnalysis": {
+        "0": { "en": "Geneva hosts important UN offices, but it is not the main headquarters.", "hi": "जिनेवा में संयुक्त राष्ट्र के महत्वपूर्ण कार्यालय हैं, पर यह मुख्य मुख्यालय नहीं है।", "mr": "जिनिव्हामध्ये संयुक्त राष्ट्रांची महत्त्वाची कार्यालये आहेत, पण ते मुख्य मुख्यालय नाही." },
+        "2": { "en": "Paris is home to UNESCO's headquarters, not the main UN headquarters.", "hi": "पेरिस में यूनेस्को का मुख्यालय है, संयुक्त राष्ट्र का मुख्य मुख्यालय नहीं।", "mr": "पॅरिसमध्ये युनेस्कोचे मुख्यालय आहे, संयुक्त राष्ट्रांचे मुख्य मुख्यालय नाही." },
+        "3": { "en": "London hosts the International Maritime Organization, but not the UN headquarters.", "hi": "लंदन में अंतरराष्ट्रीय समुद्री संगठन का मुख्यालय है, संयुक्त राष्ट्र का मुख्यालय नहीं।", "mr": "लंडनमध्ये आंतरराष्ट्रीय सागरी संघटनेचे मुख्यालय आहे, संयुक्त राष्ट्रांचे मुख्यालय नाही." }
+      }
+    },
+    {
+      "key": "rms6-p5-gk-12",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": { "en": "The headquarters of the Indian Space Research Organisation (ISRO) is in which city?", "hi": "भारतीय अंतरिक्ष अनुसंधान संगठन (इसरो) का मुख्यालय किस शहर में है?", "mr": "भारतीय अंतराळ संशोधन संस्था (इस्रो) चे मुख्यालय कोणत्या शहरात आहे?" },
+      "optionsJson": [
+        { "en": "Hyderabad", "hi": "हैदराबाद", "mr": "हैदराबाद" },
+        { "en": "Sriharikota", "hi": "श्रीहरिकोटा", "mr": "श्रीहरिकोटा" },
+        { "en": "Thiruvananthapuram", "hi": "तिरुवनंतपुरम", "mr": "तिरुवनंतपुरम" },
+        { "en": "Bengaluru", "hi": "बेंगलुरु", "mr": "बंगळूर" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "ISRO's headquarters is in Bengaluru, Karnataka. Rockets are launched from Sriharikota.", "hi": "इसरो का मुख्यालय कर्नाटक के बेंगलुरु में है। रॉकेट श्रीहरिकोटा से प्रक्षेपित किए जाते हैं।", "mr": "इस्रोचे मुख्यालय कर्नाटकातील बंगळूर येथे आहे. रॉकेट श्रीहरिकोटा येथून प्रक्षेपित केले जातात." },
+      "distractorAnalysis": {
+        "0": { "en": "Hyderabad hosts the National Remote Sensing Centre of ISRO, not its headquarters.", "hi": "हैदराबाद में इसरो का राष्ट्रीय सुदूर संवेदन केंद्र है, मुख्यालय नहीं।", "mr": "हैदराबादमध्ये इस्रोचे राष्ट्रीय दूरसंवेदन केंद्र आहे, मुख्यालय नाही." },
+        "1": { "en": "Sriharikota is the launch site (Satish Dhawan Space Centre), not the headquarters.", "hi": "श्रीहरिकोटा प्रक्षेपण स्थल (सतीश धवन अंतरिक्ष केंद्र) है, मुख्यालय नहीं।", "mr": "श्रीहरिकोटा हे प्रक्षेपण स्थळ (सतीश धवन अंतराळ केंद्र) आहे, मुख्यालय नाही." },
+        "2": { "en": "Thiruvananthapuram hosts the Vikram Sarabhai Space Centre, not the headquarters.", "hi": "तिरुवनंतपुरम में विक्रम साराभाई अंतरिक्ष केंद्र है, मुख्यालय नहीं।", "mr": "तिरुवनंतपुरममध्ये विक्रम साराभाई अंतराळ केंद्र आहे, मुख्यालय नाही." }
+      }
+    },
+    {
+      "key": "rms6-p5-gk-13",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "The World Health Organization (WHO) has its headquarters in which city?", "hi": "विश्व स्वास्थ्य संगठन (WHO) का मुख्यालय किस शहर में है?", "mr": "जागतिक आरोग्य संघटना (WHO) चे मुख्यालय कोणत्या शहरात आहे?" },
+      "optionsJson": [
+        { "en": "New York", "hi": "न्यूयॉर्क", "mr": "न्यूयॉर्क" },
+        { "en": "Paris", "hi": "पेरिस", "mr": "पॅरिस" },
+        { "en": "Geneva", "hi": "जिनेवा", "mr": "जिनिव्हा" },
+        { "en": "Vienna", "hi": "वियना", "mr": "व्हिएन्ना" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "WHO, the United Nations agency for public health, has its headquarters in Geneva, Switzerland.", "hi": "सार्वजनिक स्वास्थ्य के लिए संयुक्त राष्ट्र की एजेंसी WHO का मुख्यालय स्विट्ज़रलैंड के जिनेवा में है।", "mr": "सार्वजनिक आरोग्यासाठी संयुक्त राष्ट्रांची संस्था असलेल्या WHO चे मुख्यालय स्वित्झर्लंडमधील जिनिव्हा येथे आहे." },
+      "distractorAnalysis": {
+        "0": { "en": "New York is the home of the main UN headquarters, not WHO.", "hi": "न्यूयॉर्क में संयुक्त राष्ट्र का मुख्य मुख्यालय है, WHO का नहीं।", "mr": "न्यूयॉर्कमध्ये संयुक्त राष्ट्रांचे मुख्य मुख्यालय आहे, WHO चे नाही." },
+        "1": { "en": "Paris hosts UNESCO's headquarters, not WHO's.", "hi": "पेरिस में यूनेस्को का मुख्यालय है, WHO का नहीं।", "mr": "पॅरिसमध्ये युनेस्कोचे मुख्यालय आहे, WHO चे नाही." },
+        "3": { "en": "Vienna hosts the International Atomic Energy Agency, not WHO.", "hi": "वियना में अंतरराष्ट्रीय परमाणु ऊर्जा एजेंसी का मुख्यालय है, WHO का नहीं।", "mr": "व्हिएन्नामध्ये आंतरराष्ट्रीय अणुऊर्जा संस्थेचे मुख्यालय आहे, WHO चे नाही." }
+      }
+    },
+    {
+      "key": "rms6-p5-gk-14",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Bharatanatyam, a classical dance form of India, originated in which state?", "hi": "भारत की शास्त्रीय नृत्य शैली भरतनाट्यम का उद्भव किस राज्य में हुआ?", "mr": "भारताच्या शास्त्रीय नृत्यशैली भरतनाट्यमचा उगम कोणत्या राज्यात झाला?" },
+      "optionsJson": [
+        { "en": "Tamil Nadu", "hi": "तमिलनाडु", "mr": "तमिळनाडू" },
+        { "en": "Kerala", "hi": "केरल", "mr": "केरळ" },
+        { "en": "Odisha", "hi": "ओडिशा", "mr": "ओडिशा" },
+        { "en": "Manipur", "hi": "मणिपुर", "mr": "मणिपूर" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Bharatanatyam originated in the temples of Tamil Nadu and is known for its graceful footwork, hand gestures and expressions.", "hi": "भरतनाट्यम का उद्भव तमिलनाडु के मंदिरों में हुआ और यह अपने सुंदर पदचालन, हस्त मुद्राओं और भाव-भंगिमाओं के लिए जाना जाता है।", "mr": "भरतनाट्यमचा उगम तमिळनाडूतील मंदिरांमध्ये झाला आणि ते सुंदर पदलालित्य, हस्तमुद्रा आणि हावभाव यांसाठी ओळखले जाते." },
+      "distractorAnalysis": {
+        "1": { "en": "Kerala is known for Kathakali and Mohiniyattam.", "hi": "केरल कथकली और मोहिनीअट्टम के लिए जाना जाता है।", "mr": "केरळ कथकली आणि मोहिनीअट्टमसाठी ओळखले जाते." },
+        "2": { "en": "Odisha is the home of the Odissi dance.", "hi": "ओडिशा ओडिसी नृत्य की भूमि है।", "mr": "ओडिशा हे ओडिसी नृत्याचे माहेरघर आहे." },
+        "3": { "en": "Manipur is known for the Manipuri dance.", "hi": "मणिपुर मणिपुरी नृत्य के लिए जाना जाता है।", "mr": "मणिपूर मणिपुरी नृत्यासाठी ओळखले जाते." }
+      }
+    },
+    {
+      "key": "rms6-p5-gk-15",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Madhubani painting, known for bright colours and detailed patterns, comes from which state?", "hi": "चटकीले रंगों और बारीक नमूनों के लिए प्रसिद्ध मधुबनी चित्रकला किस राज्य की है?", "mr": "चमकदार रंग आणि बारीक नक्षीसाठी प्रसिद्ध असलेली मधुबनी चित्रकला कोणत्या राज्याची आहे?" },
+      "optionsJson": [
+        { "en": "Maharashtra", "hi": "महाराष्ट्र", "mr": "महाराष्ट्र" },
+        { "en": "Rajasthan", "hi": "राजस्थान", "mr": "राजस्थान" },
+        { "en": "Odisha", "hi": "ओडिशा", "mr": "ओडिशा" },
+        { "en": "Bihar", "hi": "बिहार", "mr": "बिहार" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Madhubani painting is a folk art of the Mithila region of Bihar, traditionally made on walls, paper and cloth.", "hi": "मधुबनी चित्रकला बिहार के मिथिला क्षेत्र की लोककला है, जो परंपरागत रूप से दीवारों, कागज़ और कपड़े पर बनाई जाती है।", "mr": "मधुबनी चित्रकला ही बिहारमधील मिथिला प्रदेशाची लोककला आहे, जी पारंपरिकपणे भिंती, कागद आणि कापडावर काढली जाते." },
+      "distractorAnalysis": {
+        "0": { "en": "Maharashtra is known for Warli painting.", "hi": "महाराष्ट्र वारली चित्रकला के लिए जाना जाता है।", "mr": "महाराष्ट्र वारली चित्रकलेसाठी ओळखला जातो." },
+        "1": { "en": "Rajasthan is known for Phad paintings and miniature paintings.", "hi": "राजस्थान फड़ चित्रों और लघु चित्रकला के लिए जाना जाता है।", "mr": "राजस्थान फड चित्रे आणि लघुचित्रांसाठी ओळखले जाते." },
+        "2": { "en": "Odisha is known for Pattachitra painting.", "hi": "ओडिशा पट्टचित्र चित्रकला के लिए जाना जाता है।", "mr": "ओडिशा पट्टचित्र चित्रकलेसाठी ओळखले जाते." }
+      }
+    },
+    {
+      "key": "rms6-p5-gk-16",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which organ of the human body filters the blood and removes waste in the form of urine?", "hi": "मानव शरीर का कौन-सा अंग रक्त को छानकर अपशिष्ट को मूत्र के रूप में बाहर निकालता है?", "mr": "मानवी शरीरातील कोणता अवयव रक्त गाळून टाकाऊ पदार्थ मूत्राच्या रूपात बाहेर टाकतो?" },
+      "optionsJson": [
+        { "en": "Liver", "hi": "यकृत (जिगर)", "mr": "यकृत" },
+        { "en": "Kidneys", "hi": "गुर्दे", "mr": "मूत्रपिंड" },
+        { "en": "Stomach", "hi": "पेट (आमाशय)", "mr": "जठर" },
+        { "en": "Small intestine", "hi": "छोटी आँत", "mr": "लहान आतडे" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The two kidneys filter the blood and remove extra water and waste as urine. Each kidney has millions of tiny filtering units called nephrons.", "hi": "दो गुर्दे रक्त को छानते हैं और अतिरिक्त पानी तथा अपशिष्ट को मूत्र के रूप में बाहर निकालते हैं। हर गुर्दे में लाखों छोटी छानने वाली इकाइयाँ होती हैं, जिन्हें नेफ्रॉन कहते हैं।", "mr": "दोन मूत्रपिंडे रक्त गाळतात आणि जास्तीचे पाणी व टाकाऊ पदार्थ मूत्राच्या रूपात बाहेर टाकतात. प्रत्येक मूत्रपिंडात लाखो लहान गाळणी एकके असतात, ज्यांना नेफ्रॉन म्हणतात." },
+      "distractorAnalysis": {
+        "0": { "en": "The liver makes bile to help digest fat and stores nutrients; it does not make urine.", "hi": "यकृत वसा के पाचन के लिए पित्त बनाता है और पोषक तत्व जमा करता है; वह मूत्र नहीं बनाता।", "mr": "यकृत चरबीच्या पचनासाठी पित्त तयार करते आणि पोषक द्रव्ये साठवते; ते मूत्र तयार करत नाही." },
+        "2": { "en": "The stomach churns food and mixes it with acid and digestive juices.", "hi": "पेट भोजन को मथता है और उसमें अम्ल तथा पाचक रस मिलाता है।", "mr": "जठर अन्न घुसळते आणि त्यात आम्ल व पाचक रस मिसळते." },
+        "3": { "en": "The small intestine digests food and absorbs nutrients into the blood.", "hi": "छोटी आँत भोजन को पचाती है और पोषक तत्वों को रक्त में सोखती है।", "mr": "लहान आतडे अन्न पचवते आणि पोषक द्रव्ये रक्तात शोषून घेते." }
+      }
+    },
+    {
+      "key": "rms6-p5-gk-17",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Which is the longest river among the rivers of Peninsular India?", "hi": "प्रायद्वीपीय भारत की नदियों में सबसे लंबी नदी कौन-सी है?", "mr": "द्वीपकल्पीय भारतातील नद्यांमध्ये सर्वात लांब नदी कोणती आहे?" },
+      "optionsJson": [
+        { "en": "Krishna", "hi": "कृष्णा", "mr": "कृष्णा" },
+        { "en": "Kaveri", "hi": "कावेरी", "mr": "कावेरी" },
+        { "en": "Narmada", "hi": "नर्मदा", "mr": "नर्मदा" },
+        { "en": "Godavari", "hi": "गोदावरी", "mr": "गोदावरी" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "The Godavari, about 1,465 km long, is the longest river of Peninsular India. It rises in Maharashtra and flows east into the Bay of Bengal, which is why it is often called the 'Dakshin Ganga'.", "hi": "गोदावरी, जो लगभग 1,465 किमी लंबी है, प्रायद्वीपीय भारत की सबसे लंबी नदी है। यह महाराष्ट्र से निकलकर पूर्व की ओर बंगाल की खाड़ी में गिरती है, इसीलिए इसे अक्सर 'दक्षिण गंगा' कहा जाता है।", "mr": "गोदावरी, जी सुमारे 1,465 किमी लांब आहे, ही द्वीपकल्पीय भारतातील सर्वात लांब नदी आहे. ती महाराष्ट्रात उगम पावून पूर्वेकडे बंगालच्या उपसागराला मिळते, म्हणूनच तिला अनेकदा 'दक्षिण गंगा' म्हणतात." },
+      "distractorAnalysis": {
+        "0": { "en": "The Krishna is about 1,400 km long, which is shorter than the Godavari.", "hi": "कृष्णा लगभग 1,400 किमी लंबी है, जो गोदावरी से छोटी है।", "mr": "कृष्णा सुमारे 1,400 किमी लांब आहे, जी गोदावरीपेक्षा लहान आहे." },
+        "1": { "en": "The Kaveri is only about 800 km long, much shorter than the Godavari.", "hi": "कावेरी केवल लगभग 800 किमी लंबी है, जो गोदावरी से बहुत छोटी है।", "mr": "कावेरी केवळ सुमारे 800 किमी लांब आहे, जी गोदावरीपेक्षा खूप लहान आहे." },
+        "2": { "en": "The Narmada is about 1,312 km long and flows west into the Arabian Sea; it is shorter than the Godavari.", "hi": "नर्मदा लगभग 1,312 किमी लंबी है और पश्चिम की ओर अरब सागर में गिरती है; यह गोदावरी से छोटी है।", "mr": "नर्मदा सुमारे 1,312 किमी लांब आहे आणि पश्चिमेकडे अरबी समुद्राला मिळते; ती गोदावरीपेक्षा लहान आहे." }
+      }
+    },
+    {
+      "key": "rms6-p5-gk-18",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The Taj Mahal at Agra was built by the Mughal emperor Shah Jahan in memory of his wife. What was her name?", "hi": "आगरा का ताजमहल मुगल बादशाह शाहजहाँ ने अपनी पत्नी की याद में बनवाया था। उनका नाम क्या था?", "mr": "आग्र्याचा ताजमहाल मुघल बादशाह शाहजहान यांनी आपल्या पत्नीच्या स्मरणार्थ बांधला. तिचे नाव काय होते?" },
+      "optionsJson": [
+        { "en": "Mumtaz Mahal", "hi": "मुमताज़ महल", "mr": "मुमताज महल" },
+        { "en": "Nur Jahan", "hi": "नूरजहाँ", "mr": "नूरजहान" },
+        { "en": "Jodha Bai", "hi": "जोधा बाई", "mr": "जोधाबाई" },
+        { "en": "Razia Sultan", "hi": "रज़िया सुल्तान", "mr": "रझिया सुलतान" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Shah Jahan built the Taj Mahal in memory of his wife Mumtaz Mahal. It was completed in the 17th century on the banks of the Yamuna.", "hi": "शाहजहाँ ने अपनी पत्नी मुमताज़ महल की याद में ताजमहल बनवाया। यह 17वीं सदी में यमुना के किनारे बनकर पूरा हुआ।", "mr": "शाहजहान यांनी आपली पत्नी मुमताज महल हिच्या स्मरणार्थ ताजमहाल बांधला. तो 17 व्या शतकात यमुनेच्या काठी पूर्ण झाला." },
+      "distractorAnalysis": {
+        "1": { "en": "Nur Jahan was the wife of Emperor Jahangir, Shah Jahan's father.", "hi": "नूरजहाँ बादशाह जहाँगीर की पत्नी थीं, जो शाहजहाँ के पिता थे।", "mr": "नूरजहान या बादशाह जहांगीर यांच्या पत्नी होत्या, जे शाहजहान यांचे वडील होते." },
+        "2": { "en": "Jodha Bai is traditionally remembered as the wife of Emperor Akbar, Shah Jahan's grandfather.", "hi": "जोधा बाई को परंपरा से बादशाह अकबर की पत्नी माना जाता है, जो शाहजहाँ के दादा थे।", "mr": "जोधाबाई यांना परंपरेने बादशाह अकबर यांच्या पत्नी मानले जाते, जे शाहजहान यांचे आजोबा होते." },
+        "3": { "en": "Razia Sultan ruled the Delhi Sultanate in the 13th century, long before the Mughals.", "hi": "रज़िया सुल्तान ने 13वीं सदी में दिल्ली सल्तनत पर शासन किया, मुगलों से बहुत पहले।", "mr": "रझिया सुलतान यांनी 13 व्या शतकात दिल्ली सल्तनतीवर राज्य केले, मुघलांच्या खूप आधी." }
+      }
+    },
+    {
+      "key": "rms6-p5-gk-19",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Who was elected President of the Constituent Assembly of India, the body that framed the Constitution?", "hi": "संविधान बनाने वाली भारत की संविधान सभा के अध्यक्ष के रूप में किसे चुना गया था?", "mr": "संविधान तयार करणाऱ्या भारताच्या संविधान सभेचे अध्यक्ष म्हणून कोणाची निवड झाली होती?" },
+      "optionsJson": [
+        { "en": "Jawaharlal Nehru", "hi": "जवाहरलाल नेहरू", "mr": "जवाहरलाल नेहरू" },
+        { "en": "Dr B.R. Ambedkar", "hi": "डॉ. बी.आर. अंबेडकर", "mr": "डॉ. बी.आर. आंबेडकर" },
+        { "en": "Dr Rajendra Prasad", "hi": "डॉ. राजेंद्र प्रसाद", "mr": "डॉ. राजेंद्र प्रसाद" },
+        { "en": "Sardar Vallabhbhai Patel", "hi": "सरदार वल्लभभाई पटेल", "mr": "सरदार वल्लभभाई पटेल" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Dr Rajendra Prasad was elected President of the Constituent Assembly in December 1946 and guided its meetings until the Constitution was completed. He later became the first President of India.", "hi": "डॉ. राजेंद्र प्रसाद को दिसंबर 1946 में संविधान सभा का अध्यक्ष चुना गया और उन्होंने संविधान पूरा होने तक इसकी बैठकों का संचालन किया। आगे चलकर वे भारत के पहले राष्ट्रपति बने।", "mr": "डॉ. राजेंद्र प्रसाद यांची डिसेंबर 1946 मध्ये संविधान सभेचे अध्यक्ष म्हणून निवड झाली आणि संविधान पूर्ण होईपर्यंत त्यांनी तिच्या बैठकांचे संचालन केले. पुढे ते भारताचे पहिले राष्ट्रपती झाले." },
+      "distractorAnalysis": {
+        "0": { "en": "Jawaharlal Nehru was the first Prime Minister of India and moved the Objectives Resolution, but he was not the President of the Assembly.", "hi": "जवाहरलाल नेहरू भारत के पहले प्रधानमंत्री थे और उन्होंने उद्देश्य प्रस्ताव रखा, पर वे सभा के अध्यक्ष नहीं थे।", "mr": "जवाहरलाल नेहरू हे भारताचे पहिले पंतप्रधान होते आणि त्यांनी उद्देश ठराव मांडला, पण ते सभेचे अध्यक्ष नव्हते." },
+        "1": { "en": "Dr B.R. Ambedkar was the Chairman of the Drafting Committee, not the President of the Assembly.", "hi": "डॉ. बी.आर. अंबेडकर प्रारूप समिति के अध्यक्ष थे, संविधान सभा के अध्यक्ष नहीं।", "mr": "डॉ. बी.आर. आंबेडकर हे मसुदा समितीचे अध्यक्ष होते, संविधान सभेचे अध्यक्ष नव्हते." },
+        "3": { "en": "Sardar Vallabhbhai Patel was the first Deputy Prime Minister and helped unite the princely states, but he did not head the Assembly.", "hi": "सरदार वल्लभभाई पटेल पहले उप-प्रधानमंत्री थे और उन्होंने रियासतों को जोड़ने में मदद की, पर वे सभा के अध्यक्ष नहीं थे।", "mr": "सरदार वल्लभभाई पटेल हे पहिले उपपंतप्रधान होते आणि त्यांनी संस्थाने जोडण्यास मदत केली, पण ते सभेचे अध्यक्ष नव्हते." }
+      }
+    },
+    {
+      "key": "rms6-p5-gk-20",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which metal is in liquid form at normal room temperature?", "hi": "कौन-सी धातु सामान्य कमरे के तापमान पर द्रव अवस्था में होती है?", "mr": "कोणता धातू सामान्य खोलीच्या तापमानाला द्रव अवस्थेत असतो?" },
+      "optionsJson": [
+        { "en": "Copper", "hi": "तांबा", "mr": "तांबे" },
+        { "en": "Mercury", "hi": "पारा", "mr": "पारा" },
+        { "en": "Zinc", "hi": "जस्ता", "mr": "जस्त" },
+        { "en": "Aluminium", "hi": "एल्युमिनियम", "mr": "अॅल्युमिनियम" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Mercury melts at about -39 degrees Celsius, so it stays liquid at room temperature. It is the only common metal that is a liquid in everyday conditions.", "hi": "पारा लगभग -39 डिग्री सेल्सियस पर पिघलता है, इसलिए कमरे के तापमान पर यह द्रव रहता है। यह एकमात्र आम धातु है जो रोज़मर्रा की स्थितियों में द्रव होती है।", "mr": "पारा सुमारे -39 अंश सेल्सिअसला वितळतो, म्हणून खोलीच्या तापमानाला तो द्रव राहतो. रोजच्या परिस्थितीत द्रव असणारा हा एकमेव सामान्य धातू आहे." },
+      "distractorAnalysis": {
+        "0": { "en": "Copper is a solid at room temperature and melts only at about 1,085 degrees Celsius.", "hi": "तांबा कमरे के तापमान पर ठोस होता है और लगभग 1,085 डिग्री सेल्सियस पर ही पिघलता है।", "mr": "तांबे खोलीच्या तापमानाला घन असते आणि सुमारे 1,085 अंश सेल्सिअसलाच वितळते." },
+        "2": { "en": "Zinc is a solid at room temperature and melts at about 420 degrees Celsius.", "hi": "जस्ता कमरे के तापमान पर ठोस होता है और लगभग 420 डिग्री सेल्सियस पर पिघलता है।", "mr": "जस्त खोलीच्या तापमानाला घन असते आणि सुमारे 420 अंश सेल्सिअसला वितळते." },
+        "3": { "en": "Aluminium is a solid at room temperature and melts at about 660 degrees Celsius.", "hi": "एल्युमिनियम कमरे के तापमान पर ठोस होता है और लगभग 660 डिग्री सेल्सियस पर पिघलता है।", "mr": "अॅल्युमिनियम खोलीच्या तापमानाला घन असते आणि सुमारे 660 अंश सेल्सिअसला वितळते." }
+      }
+    },
+    {
+      "key": "rms6-p5-gk-21",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Among the states of India, which one has the longest coastline?", "hi": "भारत के राज्यों में से किस राज्य की तटरेखा सबसे लंबी है?", "mr": "भारतातील राज्यांपैकी कोणत्या राज्याची किनारपट्टी सर्वात लांब आहे?" },
+      "optionsJson": [
+        { "en": "Gujarat", "hi": "गुजरात", "mr": "गुजरात" },
+        { "en": "Tamil Nadu", "hi": "तमिलनाडु", "mr": "तमिळनाडू" },
+        { "en": "Maharashtra", "hi": "महाराष्ट्र", "mr": "महाराष्ट्र" },
+        { "en": "Kerala", "hi": "केरल", "mr": "केरळ" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Gujarat has the longest coastline among Indian states, about 1,600 km, running along the Arabian Sea.", "hi": "भारतीय राज्यों में गुजरात की तटरेखा सबसे लंबी है, लगभग 1,600 किमी, जो अरब सागर के किनारे फैली है।", "mr": "भारतीय राज्यांमध्ये गुजरातची किनारपट्टी सर्वात लांब आहे, सुमारे 1,600 किमी, जी अरबी समुद्राच्या काठाने पसरलेली आहे." },
+      "distractorAnalysis": {
+        "1": { "en": "Tamil Nadu has a long coast of roughly 1,000 km, but it is shorter than Gujarat's.", "hi": "तमिलनाडु की तटरेखा लगभग 1,000 किमी लंबी है, पर गुजरात से छोटी है।", "mr": "तमिळनाडूची किनारपट्टी सुमारे 1,000 किमी लांब आहे, पण ती गुजरातपेक्षा लहान आहे." },
+        "2": { "en": "Maharashtra's coastline is roughly 720 km, shorter than Gujarat's.", "hi": "महाराष्ट्र की तटरेखा लगभग 720 किमी है, जो गुजरात से छोटी है।", "mr": "महाराष्ट्राची किनारपट्टी सुमारे 720 किमी आहे, जी गुजरातपेक्षा लहान आहे." },
+        "3": { "en": "Kerala's coastline is only about 590 km long.", "hi": "केरल की तटरेखा केवल लगभग 590 किमी लंबी है।", "mr": "केरळची किनारपट्टी केवळ सुमारे 590 किमी लांब आहे." }
+      }
+    },
+    {
+      "key": "rms6-p5-gk-22",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "What is the process called in which water vapour changes into liquid water?", "hi": "जिस प्रक्रिया में जलवाष्प बदलकर द्रव जल बन जाती है, उसे क्या कहते हैं?", "mr": "ज्या प्रक्रियेत बाष्प बदलून द्रव पाणी बनते, तिला काय म्हणतात?" },
+      "optionsJson": [
+        { "en": "Evaporation", "hi": "वाष्पीकरण", "mr": "बाष्पीभवन" },
+        { "en": "Sublimation", "hi": "ऊर्ध्वपातन", "mr": "ऊर्ध्वपातन" },
+        { "en": "Condensation", "hi": "संघनन", "mr": "संघनन" },
+        { "en": "Freezing", "hi": "जमना", "mr": "गोठणे" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "When water vapour cools, it changes into tiny drops of liquid water. This process is called condensation, and it forms clouds and dew.", "hi": "जब जलवाष्प ठंडी होती है तो वह द्रव जल की नन्ही बूँदों में बदल जाती है। इस प्रक्रिया को संघनन कहते हैं, जिससे बादल और ओस बनते हैं।", "mr": "बाष्प थंड झाल्यावर ती द्रव पाण्याच्या लहान थेंबांमध्ये बदलते. या प्रक्रियेला संघनन म्हणतात, ज्यामुळे ढग आणि दव तयार होतात." },
+      "distractorAnalysis": {
+        "0": { "en": "Evaporation is the opposite process, where liquid water changes into vapour.", "hi": "वाष्पीकरण इसके उलट प्रक्रिया है, जिसमें द्रव जल वाष्प बन जाता है।", "mr": "बाष्पीभवन ही उलट प्रक्रिया आहे, ज्यात द्रव पाणी बाष्प बनते." },
+        "1": { "en": "Sublimation is when a solid changes directly into a gas without becoming liquid.", "hi": "ऊर्ध्वपातन में ठोस सीधे गैस बन जाता है, द्रव बने बिना।", "mr": "ऊर्ध्वपातनात घन पदार्थ द्रव न होता थेट वायू बनतो." },
+        "3": { "en": "Freezing is when liquid water changes into solid ice.", "hi": "जमने में द्रव जल ठोस बर्फ़ बन जाता है।", "mr": "गोठण्यात द्रव पाणी घन बर्फ बनते." }
+      }
+    },
+    {
+      "key": "rms6-p5-gk-23",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which gas is present in the largest amount in the Earth's atmosphere?", "hi": "पृथ्वी के वायुमंडल में सबसे अधिक मात्रा में कौन-सी गैस पाई जाती है?", "mr": "पृथ्वीच्या वातावरणात सर्वाधिक प्रमाणात कोणता वायू आढळतो?" },
+      "optionsJson": [
+        { "en": "Oxygen", "hi": "ऑक्सीजन", "mr": "ऑक्सिजन" },
+        { "en": "Nitrogen", "hi": "नाइट्रोजन", "mr": "नायट्रोजन" },
+        { "en": "Carbon dioxide", "hi": "कार्बन डाइऑक्साइड", "mr": "कार्बन डायऑक्साइड" },
+        { "en": "Argon", "hi": "आर्गन", "mr": "आर्गॉन" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Nitrogen makes up about 78 percent of the air, while oxygen makes up about 21 percent.", "hi": "हवा में लगभग 78 प्रतिशत नाइट्रोजन होती है, जबकि ऑक्सीजन लगभग 21 प्रतिशत होती है।", "mr": "हवेत सुमारे 78 टक्के नायट्रोजन असतो, तर ऑक्सिजन सुमारे 21 टक्के असतो." },
+      "distractorAnalysis": {
+        "0": { "en": "Oxygen is the second most abundant gas, at about 21 percent.", "hi": "ऑक्सीजन लगभग 21 प्रतिशत के साथ दूसरी सबसे अधिक मात्रा वाली गैस है।", "mr": "ऑक्सिजन सुमारे 21 टक्क्यांसह दुसऱ्या क्रमांकाचा सर्वाधिक वायू आहे." },
+        "2": { "en": "Carbon dioxide is present in a very small amount, only about 0.04 percent.", "hi": "कार्बन डाइऑक्साइड बहुत कम मात्रा में, केवल लगभग 0.04 प्रतिशत, पाई जाती है।", "mr": "कार्बन डायऑक्साइड फारच कमी प्रमाणात, केवळ सुमारे 0.04 टक्के, आढळतो." },
+        "3": { "en": "Argon is a rare gas making up less than 1 percent of the air.", "hi": "आर्गन एक दुर्लभ गैस है जो हवा का 1 प्रतिशत से भी कम है।", "mr": "आर्गॉन हा दुर्मिळ वायू आहे जो हवेच्या 1 टक्क्यांपेक्षाही कमी आहे." }
+      }
+    },
+    {
+      "key": "rms6-p5-gk-24",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "In 1930, Mahatma Gandhi led the Dandi March to protest against the British law on which item?", "hi": "1930 में महात्मा गांधी ने दांडी यात्रा का नेतृत्व किस वस्तु पर अंग्रेज़ों के कानून के विरोध में किया?", "mr": "1930 मध्ये महात्मा गांधींनी दांडी यात्रेचे नेतृत्व कोणत्या वस्तूवरील ब्रिटिश कायद्याच्या निषेधार्थ केले?" },
+      "optionsJson": [
+        { "en": "Tea", "hi": "चाय", "mr": "चहा" },
+        { "en": "Cotton", "hi": "कपास", "mr": "कापूस" },
+        { "en": "Indigo", "hi": "नील", "mr": "नीळ" },
+        { "en": "Salt", "hi": "नमक", "mr": "मीठ" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "The Dandi March (Salt March) of 1930 was a protest against the British salt law and tax. Gandhi walked from Sabarmati Ashram to Dandi and made salt from seawater.", "hi": "1930 की दांडी यात्रा (नमक यात्रा) अंग्रेज़ों के नमक कानून और कर के विरोध में थी। गांधीजी साबरमती आश्रम से दांडी तक पैदल गए और समुद्र के पानी से नमक बनाया।", "mr": "1930 ची दांडी यात्रा (मीठाचा सत्याग्रह) ब्रिटिशांच्या मीठ कायदा आणि करांच्या निषेधार्थ होती. गांधीजी साबरमती आश्रमातून दांडीपर्यंत पायी गेले आणि समुद्राच्या पाण्यापासून मीठ बनवले." },
+      "distractorAnalysis": {
+        "0": { "en": "Tea was not the subject of the Dandi March.", "hi": "चाय दांडी यात्रा का विषय नहीं थी।", "mr": "चहा हा दांडी यात्रेचा विषय नव्हता." },
+        "1": { "en": "Cotton is linked to the swadeshi and khadi movement, not the Dandi March.", "hi": "कपास स्वदेशी और खादी आंदोलन से जुड़ी है, दांडी यात्रा से नहीं।", "mr": "कापूस स्वदेशी आणि खादी चळवळीशी संबंधित आहे, दांडी यात्रेशी नाही." },
+        "2": { "en": "Indigo was the issue in the Champaran movement of 1917, not the Dandi March.", "hi": "नील 1917 के चंपारण आंदोलन का मुद्दा थी, दांडी यात्रा का नहीं।", "mr": "नीळ हा 1917 च्या चंपारण चळवळीचा मुद्दा होता, दांडी यात्रेचा नाही." }
+      }
+    },
+    {
+      "key": "rms6-p5-gk-25",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which bird is the national bird of India?", "hi": "भारत का राष्ट्रीय पक्षी कौन-सा है?", "mr": "भारताचा राष्ट्रीय पक्षी कोणता आहे?" },
+      "optionsJson": [
+        { "en": "Peacock", "hi": "मोर", "mr": "मोर" },
+        { "en": "Parrot", "hi": "तोता", "mr": "पोपट" },
+        { "en": "Eagle", "hi": "चील", "mr": "गरुड" },
+        { "en": "Swan", "hi": "हंस", "mr": "हंस" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The Indian peacock (peafowl) is the national bird of India. It was given this status in 1963 for its beauty and its place in Indian culture.", "hi": "भारतीय मोर भारत का राष्ट्रीय पक्षी है। इसे अपनी सुंदरता और भारतीय संस्कृति में अपने स्थान के कारण 1963 में यह दर्जा दिया गया।", "mr": "भारतीय मोर हा भारताचा राष्ट्रीय पक्षी आहे. त्याच्या सौंदर्यामुळे आणि भारतीय संस्कृतीतील स्थानामुळे त्याला 1963 मध्ये हा दर्जा देण्यात आला." },
+      "distractorAnalysis": {
+        "1": { "en": "The parrot is a colourful bird known for copying human speech, but it is not the national bird.", "hi": "तोता रंग-बिरंगा पक्षी है जो इंसानी आवाज़ की नकल करने के लिए जाना जाता है, पर वह राष्ट्रीय पक्षी नहीं है।", "mr": "पोपट हा रंगीबेरंगी पक्षी असून माणसाच्या आवाजाची नक्कल करण्यासाठी ओळखला जातो, पण तो राष्ट्रीय पक्षी नाही." },
+        "2": { "en": "The eagle is a large bird of prey, but it is not India's national bird.", "hi": "चील एक बड़ा शिकारी पक्षी है, पर वह भारत का राष्ट्रीय पक्षी नहीं है।", "mr": "गरुड हा मोठा शिकारी पक्षी आहे, पण तो भारताचा राष्ट्रीय पक्षी नाही." },
+        "3": { "en": "The swan is a graceful water bird linked with goddess Saraswati in stories, but it is not the national bird.", "hi": "हंस एक सुंदर जल-पक्षी है जिसे कथाओं में देवी सरस्वती से जोड़ा जाता है, पर वह राष्ट्रीय पक्षी नहीं है।", "mr": "हंस हा सुंदर जलपक्षी असून कथांमध्ये त्याचा संबंध देवी सरस्वतीशी जोडला जातो, पण तो राष्ट्रीय पक्षी नाही." }
+      }
+    }
+  ]
+}

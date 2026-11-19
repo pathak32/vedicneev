@@ -1,0 +1,859 @@
+{
+  "examType": "RMS",
+  "classLevel": 9,
+  "paperNumber": 5,
+  "sectionKey": "mental_ability",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "rms9-p5-mn-01",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Pointing to a man, Meera said, \"He is the son of my mother's only brother.\" How is the man related to Meera?",
+        "hi": "एक पुरुष की ओर संकेत करते हुए मीरा ने कहा, \"वह मेरी माँ के इकलौते भाई का पुत्र है।\" वह पुरुष मीरा से किस प्रकार संबंधित है?"
+      },
+      "optionsJson": [
+        { "en": "Maternal cousin", "hi": "ममेरा भाई" },
+        { "en": "Paternal uncle", "hi": "चाचा" },
+        { "en": "Nephew", "hi": "भांजा" },
+        { "en": "Brother", "hi": "सगा भाई" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Meera's mother's only brother is Meera's maternal uncle. His son is the child of her uncle, so he is Meera's maternal cousin.",
+        "hi": "मीरा की माँ का इकलौता भाई मीरा का मामा है। उसका पुत्र मामा की संतान है, इसलिए वह मीरा का ममेरा भाई है।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "A paternal uncle is the brother of Meera's father, not of her mother.",
+          "hi": "चाचा मीरा के पिता का भाई होता है, माँ का नहीं।"
+        },
+        "2": {
+          "en": "A nephew would be the son of Meera's own brother or sister, which is a generation lower.",
+          "hi": "भांजा मीरा के अपने भाई या बहन का पुत्र होता है, जो एक पीढ़ी नीचे है।"
+        },
+        "3": {
+          "en": "A brother would be a son of Meera's own parents, not of her uncle.",
+          "hi": "सगा भाई मीरा के अपने माता-पिता का पुत्र होता है, मामा का नहीं।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-mn-02",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "If the first day of a non-leap year is a Tuesday, what is the last day of that year?",
+        "hi": "यदि किसी सामान्य (अधिवर्ष-रहित) वर्ष का पहला दिन मंगलवार है, तो उस वर्ष का अंतिम दिन कौन-सा होगा?"
+      },
+      "optionsJson": [
+        { "en": "Monday", "hi": "सोमवार" },
+        { "en": "Sunday", "hi": "रविवार" },
+        { "en": "Tuesday", "hi": "मंगलवार" },
+        { "en": "Wednesday", "hi": "बुधवार" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The last day is the 365th day, which is 364 days after the first day. Since 364 = 52 weeks exactly, the last day falls on the same weekday as the first day: Tuesday.",
+        "hi": "अंतिम दिन वर्ष का 365वाँ दिन है, जो पहले दिन से 364 दिन बाद आता है। 364 = ठीक 52 सप्ताह, इसलिए अंतिम दिन वही वार होगा जो पहला दिन है, यानी मंगलवार।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Moves one day backward without any reason; 364 days is a whole number of weeks, so there is no shift.",
+          "hi": "बिना कारण एक दिन पीछे चला गया है; 364 दिन पूरे सप्ताहों के बराबर हैं, इसलिए कोई खिसकाव नहीं होता।"
+        },
+        "1": {
+          "en": "Moves two days backward; there is no such shift for a span of 364 days.",
+          "hi": "दो दिन पीछे खिसका दिया है; 364 दिनों की अवधि में ऐसा कोई खिसकाव नहीं होता।"
+        },
+        "3": {
+          "en": "This is the first day of the next year (after all 365 days), not the last day of this year.",
+          "hi": "यह अगले वर्ष का पहला दिन है (पूरे 365 दिन बीतने के बाद), इस वर्ष का अंतिम दिन नहीं।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-mn-03",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Five friends sit in a row facing north. Bina sits immediately to the left of Chetan. Deepa sits to the right of Chetan but not at the extreme right end. Anil sits at the extreme left end. Esha sits at the extreme right end. Who sits in the middle?",
+        "hi": "पाँच मित्र उत्तर की ओर मुख करके एक पंक्ति में बैठे हैं। बीना चेतन के ठीक बाईं ओर बैठी है। दीपा चेतन के दाईं ओर बैठी है, पर सबसे दाएँ छोर पर नहीं। अनिल सबसे बाएँ छोर पर बैठा है। ईशा सबसे दाएँ छोर पर बैठी है। बीच में कौन बैठा है?"
+      },
+      "optionsJson": [
+        { "en": "Bina", "hi": "बीना" },
+        { "en": "Chetan", "hi": "चेतन" },
+        { "en": "Deepa", "hi": "दीपा" },
+        { "en": "Anil", "hi": "अनिल" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Anil is 1st and Esha is 5th from the left. Bina and Chetan sit side by side with Bina on the left, and Deepa is to the right of Chetan, so the order is Anil, Bina, Chetan, Deepa, Esha. Chetan is in the middle.",
+        "hi": "अनिल बाएँ से पहले और ईशा पाँचवें स्थान पर है। बीना और चेतन साथ-साथ बैठे हैं (बीना बाईं ओर) और दीपा चेतन के दाईं ओर है, इसलिए क्रम है: अनिल, बीना, चेतन, दीपा, ईशा। बीच में चेतन बैठा है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Bina sits 2nd from the left, immediately left of the middle person.",
+          "hi": "बीना बाएँ से दूसरे स्थान पर है, यानी बीच वाले व्यक्ति के ठीक बाईं ओर।"
+        },
+        "2": {
+          "en": "Deepa sits 4th from the left, immediately right of the middle person.",
+          "hi": "दीपा बाएँ से चौथे स्थान पर है, यानी बीच वाले व्यक्ति के ठीक दाईं ओर।"
+        },
+        "3": {
+          "en": "Anil is at the extreme left end, so he cannot be in the middle.",
+          "hi": "अनिल सबसे बाएँ छोर पर है, इसलिए वह बीच में नहीं हो सकता।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-mn-04",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Find the next term in the series: 2, 6, 12, 20, 30, ___?",
+        "hi": "श्रृंखला का अगला पद ज्ञात करें: 2, 6, 12, 20, 30, ___?"
+      },
+      "optionsJson": [
+        { "en": "40", "hi": "40" },
+        { "en": "44", "hi": "44" },
+        { "en": "36", "hi": "36" },
+        { "en": "42", "hi": "42" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "The differences are 4, 6, 8, 10, so the next difference is 12 and the next term is 30 + 12 = 42. (The terms are 1×2, 2×3, 3×4, 4×5, 5×6, 6×7.)",
+        "hi": "क्रमागत अंतर 4, 6, 8, 10 हैं, इसलिए अगला अंतर 12 होगा और अगला पद 30 + 12 = 42 है। (पद हैं 1×2, 2×3, 3×4, 4×5, 5×6, 6×7।)"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Adds 10 again, repeating the last difference instead of increasing it by 2.",
+          "hi": "अंतिम अंतर 10 को दोहरा दिया है, उसे 2 बढ़ाकर 12 नहीं किया।"
+        },
+        "1": {
+          "en": "Adds 14, skipping a step in the pattern of differences.",
+          "hi": "14 जोड़ दिया है, अंतरों के क्रम में एक चरण छोड़ दिया गया।"
+        },
+        "2": {
+          "en": "Adds only 6, which was an earlier difference in the pattern.",
+          "hi": "केवल 6 जोड़ा है, जो क्रम का एक पिछला अंतर था।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-mn-05",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Find the next term in the series: 5, 8, 11, 14, 17, ___?",
+        "hi": "श्रृंखला का अगला पद ज्ञात कीजिए: 5, 8, 11, 14, 17, ___?"
+      },
+      "optionsJson": [
+        { "en": "19", "hi": "19" },
+        { "en": "20", "hi": "20" },
+        { "en": "21", "hi": "21" },
+        { "en": "22", "hi": "22" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Each term is 3 more than the previous term (5 + 3 = 8, 8 + 3 = 11, 11 + 3 = 14, 14 + 3 = 17). So the next term is 17 + 3 = 20.",
+        "hi": "प्रत्येक पद अपने पिछले पद से 3 अधिक है (5 + 3 = 8, 8 + 3 = 11, 11 + 3 = 14, 14 + 3 = 17)। इसलिए अगला पद 17 + 3 = 20 है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Adds only 2 to the last term; the constant difference in the series is 3, not 2.",
+          "hi": "अंतिम पद में केवल 2 जोड़ा है; श्रृंखला का स्थिर अंतर 3 है, 2 नहीं।"
+        },
+        "2": {
+          "en": "Adds 4 to the last term, overshooting the common difference of 3.",
+          "hi": "अंतिम पद में 4 जोड़ा है, जो सार्वनिष्ठ अंतर 3 से अधिक है।"
+        },
+        "3": {
+          "en": "Adds 5 to the last term, wrongly using the first term as the step instead of the common difference 3.",
+          "hi": "अंतिम पद में 5 जोड़ा है, यानी पहले पद को अंतर मान लिया है, जबकि सार्वनिष्ठ अंतर 3 है।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-mn-06",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Pointing to a girl, Rohan said, \"She is the daughter of the only son of my paternal grandfather.\" How is the girl related to Rohan?",
+        "hi": "एक लड़की की ओर संकेत करते हुए रोहन ने कहा, \"वह मेरे दादा के इकलौते पुत्र की पुत्री है।\" वह लड़की रोहन से किस प्रकार संबंधित है?"
+      },
+      "optionsJson": [
+        { "en": "Cousin", "hi": "चचेरी बहन" },
+        { "en": "Niece", "hi": "भतीजी" },
+        { "en": "Sister", "hi": "बहन" },
+        { "en": "Aunt", "hi": "बुआ" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Rohan's paternal grandfather's only son is Rohan's father. The daughter of Rohan's father is Rohan's sister.",
+        "hi": "रोहन के दादा का इकलौता पुत्र रोहन के पिता हैं। रोहन के पिता की पुत्री रोहन की बहन है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "A cousin would be a child of the father's brother or sister, but the grandfather has only one son, who is Rohan's father.",
+          "hi": "चचेरी बहन पिता के भाई या बहन की संतान होती है, परंतु दादा का एक ही पुत्र है, जो रोहन के पिता हैं।"
+        },
+        "1": {
+          "en": "A niece would be the daughter of Rohan's brother or sister, a generation lower.",
+          "hi": "भतीजी रोहन के भाई या बहन की पुत्री होती है, जो एक पीढ़ी नीचे है।"
+        },
+        "3": {
+          "en": "An aunt belongs to the generation above Rohan, but this girl is the child of Rohan's father.",
+          "hi": "बुआ रोहन से एक पीढ़ी ऊपर की होती है, जबकि यह लड़की रोहन के पिता की संतान है।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-mn-07",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "A is the brother of B. B is the sister of C. C is the father of D. How is A related to D?",
+        "hi": "A, B का भाई है। B, C की बहन है। C, D का पिता है। A, D से किस प्रकार संबंधित है?"
+      },
+      "optionsJson": [
+        { "en": "Father", "hi": "पिता" },
+        { "en": "Paternal uncle", "hi": "चाचा/ताऊ" },
+        { "en": "Maternal uncle", "hi": "मामा" },
+        { "en": "Grandfather", "hi": "दादा" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "A, B and C are brothers and sisters, with A a male. C is D's father, so A is the brother of D's father, that is, D's paternal uncle.",
+        "hi": "A, B और C भाई-बहन हैं और A पुरुष है। C, D का पिता है, इसलिए A, D के पिता का भाई है, यानी D का चाचा/ताऊ।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "C is D's father; A is only C's brother.",
+          "hi": "D के पिता C हैं; A केवल C का भाई है।"
+        },
+        "2": {
+          "en": "A maternal uncle is the brother of D's mother, but A is related to D through D's father C.",
+          "hi": "मामा D की माँ का भाई होता है, जबकि A, D से उसके पिता C के माध्यम से संबंधित है।"
+        },
+        "3": {
+          "en": "A grandfather belongs to the generation above D's father, but A is of the same generation as C.",
+          "hi": "दादा D के पिता से एक पीढ़ी ऊपर होते हैं, जबकि A, C की ही पीढ़ी का है।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-mn-08",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "In a row of students, Aman is 7th from the left end and Bhavna is 9th from the right end. When they interchange their positions, Aman becomes 11th from the left end. How many students are there in the row?",
+        "hi": "विद्यार्थियों की एक पंक्ति में अमन बाएँ छोर से 7वें और भावना दाएँ छोर से 9वें स्थान पर है। जब वे आपस में स्थान बदल लेते हैं, तो अमन बाएँ छोर से 11वें स्थान पर आ जाता है। पंक्ति में कुल कितने विद्यार्थी हैं?"
+      },
+      "optionsJson": [
+        { "en": "20", "hi": "20" },
+        { "en": "18", "hi": "18" },
+        { "en": "17", "hi": "17" },
+        { "en": "19", "hi": "19" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "After the interchange, Aman stands at Bhavna's original place, which is 11th from the left and 9th from the right. Total = 11 + 9 − 1 = 19.",
+        "hi": "स्थान बदलने के बाद अमन भावना के मूल स्थान पर है, जो बाएँ से 11वाँ और दाएँ से 9वाँ है। कुल = 11 + 9 − 1 = 19।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Adds 11 and 9 without subtracting 1 for the student counted from both ends.",
+          "hi": "11 और 9 जोड़ दिए हैं, दोनों ओर से गिने गए एक विद्यार्थी के लिए 1 नहीं घटाया।"
+        },
+        "1": {
+          "en": "Subtracts 2 instead of 1 from the sum of the two positions.",
+          "hi": "दोनों स्थानों के योग में से 1 के बजाय 2 घटा दिया है।"
+        },
+        "2": {
+          "en": "Uses the original positions 7 and 9 incorrectly (7 + 9 + 1) instead of the new position 11 from the left.",
+          "hi": "बाएँ से नए स्थान 11 के बजाय मूल स्थान 7 का गलत उपयोग किया है (7 + 9 + 1)।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-mn-09",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Six friends A, B, C, D, E and F sit around a circular table facing the centre. A sits opposite D. Going clockwise from A, the next person is B. E sits opposite B. C sits next to D. Who are the two neighbours of F?",
+        "hi": "छह मित्र A, B, C, D, E और F एक गोल मेज़ के चारों ओर केंद्र की ओर मुख करके बैठे हैं। A, D के ठीक सामने बैठा है। A से दक्षिणावर्त (घड़ी की दिशा में) चलने पर अगला व्यक्ति B है। E, B के ठीक सामने बैठा है। C, D के बगल में बैठा है। F के दोनों पड़ोसी कौन हैं?"
+      },
+      "optionsJson": [
+        { "en": "A and E", "hi": "A और E" },
+        { "en": "A and C", "hi": "A और C" },
+        { "en": "B and D", "hi": "B और D" },
+        { "en": "C and E", "hi": "C और E" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Number the seats 1 to 6 clockwise with A at 1. Then B is at 2, D (opposite A) at 4, and E (opposite B) at 5. C must be next to D, and seat 5 is taken, so C is at 3 and F is at 6. F's neighbours are seat 5 (E) and seat 1 (A).",
+        "hi": "सीटों को दक्षिणावर्त 1 से 6 तक गिनें और A को सीट 1 पर रखें। तब B सीट 2 पर, D (A के सामने) सीट 4 पर और E (B के सामने) सीट 5 पर है। C को D के बगल में होना है और सीट 5 भरी है, इसलिए C सीट 3 पर और F सीट 6 पर है। F के पड़ोसी सीट 5 (E) और सीट 1 (A) हैं।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "C sits at seat 3, between B and D, not next to F.",
+          "hi": "C सीट 3 पर है, B और D के बीच, F के बगल में नहीं।"
+        },
+        "2": {
+          "en": "B and D sit at seats 2 and 4, which are both two places away from F's seat 6.",
+          "hi": "B और D सीट 2 और 4 पर हैं, जो F की सीट 6 से दो-दो स्थान दूर हैं।"
+        },
+        "3": {
+          "en": "C is at seat 3, so only E (seat 5) is a neighbour of F; the other neighbour is A, not C.",
+          "hi": "C सीट 3 पर है, इसलिए F का केवल E (सीट 5) पड़ोसी है; दूसरा पड़ोसी A है, C नहीं।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-mn-10",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "If 26 January 2024 was a Friday, on which day of the week did 26 January 2025 fall?",
+        "hi": "यदि 26 जनवरी 2024 को शुक्रवार था, तो 26 जनवरी 2025 को सप्ताह का कौन-सा दिन था?"
+      },
+      "optionsJson": [
+        { "en": "Saturday", "hi": "शनिवार" },
+        { "en": "Monday", "hi": "सोमवार" },
+        { "en": "Sunday", "hi": "रविवार" },
+        { "en": "Friday", "hi": "शुक्रवार" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The period from 26 January 2024 to 26 January 2025 includes 29 February 2024, so it has 366 days = 52 weeks + 2 days. Friday + 2 days = Sunday.",
+        "hi": "26 जनवरी 2024 से 26 जनवरी 2025 की अवधि में 29 फरवरी 2024 शामिल है, इसलिए इसमें 366 दिन = 52 सप्ताह + 2 दिन हैं। शुक्रवार + 2 दिन = रविवार।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Adds only 1 odd day, treating the period as 365 days and ignoring the leap day.",
+          "hi": "केवल 1 अतिरिक्त दिन जोड़ा है, अवधि को 365 दिन मानकर अधिवर्ष का दिन अनदेखा कर दिया।"
+        },
+        "1": {
+          "en": "Adds 3 odd days, one more than the 2 odd days in 366 days.",
+          "hi": "3 अतिरिक्त दिन जोड़े हैं, जबकि 366 दिनों में 2 अतिरिक्त दिन होते हैं।"
+        },
+        "3": {
+          "en": "Adds 0 odd days; 366 days is not an exact multiple of 7.",
+          "hi": "0 अतिरिक्त दिन माने हैं; 366 दिन 7 का पूर्ण गुणज नहीं है।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-mn-11",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Find the next pair of letters in the series: AZ, BY, CX, DW, ___?",
+        "hi": "श्रृंखला में अगला अक्षर-युग्म ज्ञात करें: AZ, BY, CX, DW, ___?"
+      },
+      "optionsJson": [
+        { "en": "EV", "hi": "EV" },
+        { "en": "FU", "hi": "FU" },
+        { "en": "EU", "hi": "EU" },
+        { "en": "FV", "hi": "FV" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "The first letters move forward one step each time (A, B, C, D, E) and the second letters move backward one step each time (Z, Y, X, W, V). The next pair is EV.",
+        "hi": "पहले अक्षर हर बार एक स्थान आगे बढ़ते हैं (A, B, C, D, E) और दूसरे अक्षर हर बार एक स्थान पीछे आते हैं (Z, Y, X, W, V)। अगला युग्म EV है।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Jumps two steps in both letters instead of one.",
+          "hi": "दोनों अक्षरों में एक के बजाय दो स्थान की छलांग लगा दी है।"
+        },
+        "2": {
+          "en": "Moves the second letter two steps back (W to U) instead of one step (W to V).",
+          "hi": "दूसरे अक्षर को एक स्थान (W से V) के बजाय दो स्थान (W से U) पीछे कर दिया है।"
+        },
+        "3": {
+          "en": "Moves the first letter two steps ahead (D to F) instead of one step (D to E).",
+          "hi": "पहले अक्षर को एक स्थान (D से E) के बजाय दो स्थान (D से F) आगे कर दिया है।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-mn-12",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "If 3 July 2024 was a Wednesday, which day of the week was 3 October 2024?",
+        "hi": "यदि 3 जुलाई 2024 को बुधवार था, तो 3 अक्टूबर 2024 को सप्ताह का कौन-सा दिन था?"
+      },
+      "optionsJson": [
+        { "en": "Tuesday", "hi": "मंगलवार" },
+        { "en": "Wednesday", "hi": "बुधवार" },
+        { "en": "Friday", "hi": "शुक्रवार" },
+        { "en": "Thursday", "hi": "गुरुवार" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "From 3 July to 3 October there are 31 (July) + 31 (August) + 30 (September) = 92 days. 92 = 13 weeks + 1 day, so the day moves forward by 1: Wednesday + 1 = Thursday.",
+        "hi": "3 जुलाई से 3 अक्टूबर तक 31 (जुलाई) + 31 (अगस्त) + 30 (सितंबर) = 92 दिन होते हैं। 92 = 13 सप्ताह + 1 दिन, इसलिए वार 1 दिन आगे बढ़ता है: बुधवार + 1 = गुरुवार।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Moves one day backward instead of forward.",
+          "hi": "वार को आगे बढ़ाने के बजाय एक दिन पीछे कर दिया है।"
+        },
+        "1": {
+          "en": "Assumes the span is an exact number of weeks (no extra day), but 92 leaves a remainder of 1.",
+          "hi": "मान लिया है कि अवधि पूरे सप्ताहों की है (कोई अतिरिक्त दिन नहीं), जबकि 92 में शेष 1 बचता है।"
+        },
+        "2": {
+          "en": "Adds 2 odd days, for example by counting one month as 32 days or miscounting the remainder.",
+          "hi": "2 अतिरिक्त दिन जोड़े हैं, जैसे किसी महीने को 32 दिन गिनना या शेषफल की गलत गणना।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-mn-13",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Pointing to a man, a woman said, \"His mother is the only daughter of my mother.\" How is the woman related to the man?",
+        "hi": "एक पुरुष की ओर संकेत करते हुए एक महिला ने कहा, \"उसकी माँ मेरी माँ की इकलौती पुत्री है।\" वह महिला उस पुरुष से किस प्रकार संबंधित है?"
+      },
+      "optionsJson": [
+        { "en": "Mother", "hi": "माँ" },
+        { "en": "Sister", "hi": "बहन" },
+        { "en": "Aunt", "hi": "मौसी/बुआ" },
+        { "en": "Grandmother", "hi": "नानी/दादी" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "The woman is herself a daughter of her mother, and the only daughter of her mother is the man's mother. So the only daughter must be the woman herself. Hence she is the man's mother.",
+        "hi": "महिला स्वयं अपनी माँ की पुत्री है, और उसकी माँ की इकलौती पुत्री उस पुरुष की माँ है। अतः वह इकलौती पुत्री स्वयं वह महिला ही है। इसलिए वह उस पुरुष की माँ है।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "A sister would require the man's mother to be a different person, but the only daughter is the woman herself.",
+          "hi": "बहन होने के लिए पुरुष की माँ कोई और होनी चाहिए, पर इकलौती पुत्री स्वयं वह महिला ही है।"
+        },
+        "2": {
+          "en": "An aunt would be a sister of the man's mother, but the woman's mother has no other daughter.",
+          "hi": "मौसी/बुआ पुरुष की माँ की बहन होती है, परंतु महिला की माँ की कोई और पुत्री नहीं है।"
+        },
+        "3": {
+          "en": "A grandmother would be the mother of the man's mother, but the woman is the daughter, not the mother, of that person.",
+          "hi": "नानी/दादी पुरुष की माँ की माँ होती है, पर महिला उस व्यक्ति की माँ नहीं, पुत्री है।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-mn-14",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "The image of a clock seen in a plane mirror shows the time as 8:20. What is the actual time?",
+        "hi": "समतल दर्पण में देखी गई एक घड़ी का प्रतिबिंब 8:20 समय दिखा रहा है। वास्तविक समय क्या है?"
+      },
+      "optionsJson": [
+        { "en": "4:40", "hi": "4:40" },
+        { "en": "3:40", "hi": "3:40" },
+        { "en": "3:20", "hi": "3:20" },
+        { "en": "4:20", "hi": "4:20" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "For a mirror image of a clock, actual time = 11:60 − mirror time = 11:60 − 8:20 = 3:40.",
+        "hi": "घड़ी के दर्पण-प्रतिबिंब में, वास्तविक समय = 11:60 − दर्पण का समय = 11:60 − 8:20 = 3:40।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Subtracts from 12:60 instead of 11:60, giving a time that is one hour too late.",
+          "hi": "11:60 के बजाय 12:60 में से घटाया है, जिससे समय एक घंटा अधिक आ गया।"
+        },
+        "2": {
+          "en": "Reflects the hour correctly but leaves the minutes at 20 instead of converting them to 40.",
+          "hi": "घंटा सही निकाला है, पर मिनटों को 40 में बदलने के बजाय 20 ही रहने दिया।"
+        },
+        "3": {
+          "en": "Subtracts only the hour from 12 (12 − 8 = 4) and keeps the minutes unchanged, which is not how a mirror image works.",
+          "hi": "केवल घंटे को 12 में से घटाया है (12 − 8 = 4) और मिनट वही रखे हैं, जबकि दर्पण-प्रतिबिंब इस तरह नहीं बनता।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-mn-15",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "In a certain code, MANGO is written as NCQKT. How is APPLE written in that code?",
+        "hi": "एक निश्चित कूट में MANGO को NCQKT लिखा जाता है। उसी कूट में APPLE को कैसे लिखा जाएगा?"
+      },
+      "optionsJson": [
+        { "en": "BRRPJ", "hi": "BRRPJ" },
+        { "en": "CRSPJ", "hi": "CRSPJ" },
+        { "en": "BRSPJ", "hi": "BRSPJ" },
+        { "en": "BRSOJ", "hi": "BRSOJ" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "In MANGO, the letters are shifted forward by 1, 2, 3, 4 and 5 places respectively (M to N, A to C, N to Q, G to K, O to T). Applying the same shifts to APPLE: A+1 = B, P+2 = R, P+3 = S, L+4 = P, E+5 = J. So APPLE becomes BRSPJ.",
+        "hi": "MANGO में अक्षरों को क्रमशः 1, 2, 3, 4 और 5 स्थान आगे बढ़ाया गया है (M से N, A से C, N से Q, G से K, O से T)। यही बदलाव APPLE पर लगाने पर: A+1 = B, P+2 = R, P+3 = S, L+4 = P, E+5 = J। इसलिए APPLE का कूट BRSPJ है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The third letter is shifted by only 2 (P to R) instead of 3 (P to S).",
+          "hi": "तीसरे अक्षर को 3 (P से S) के बजाय केवल 2 स्थान (P से R) आगे बढ़ाया है।"
+        },
+        "1": {
+          "en": "The first letter is shifted by 2 (A to C) instead of 1 (A to B).",
+          "hi": "पहले अक्षर को 1 (A से B) के बजाय 2 स्थान (A से C) आगे बढ़ाया है।"
+        },
+        "3": {
+          "en": "The fourth letter is shifted by 3 (L to O) instead of 4 (L to P).",
+          "hi": "चौथे अक्षर को 4 (L से P) के बजाय 3 स्थान (L से O) आगे बढ़ाया है।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-mn-16",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Asha walks 5 km towards the north, then turns right and walks 12 km. How far is she from her starting point?",
+        "hi": "आशा उत्तर दिशा में 5 किमी चलती है, फिर दाएँ मुड़कर 12 किमी चलती है। वह अपने प्रारंभिक बिंदु से कितनी दूर है?"
+      },
+      "optionsJson": [
+        { "en": "13 km", "hi": "13 किमी" },
+        { "en": "17 km", "hi": "17 किमी" },
+        { "en": "15 km", "hi": "15 किमी" },
+        { "en": "7 km", "hi": "7 किमी" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Turning right from north means walking east, so the two legs are at right angles. The straight-line distance is √(5² + 12²) = √169 = 13 km.",
+        "hi": "उत्तर की ओर चलते हुए दाएँ मुड़ने का अर्थ है पूर्व की ओर चलना, इसलिए दोनों भुजाएँ समकोण पर हैं। सीधी दूरी = √(5² + 12²) = √169 = 13 किमी।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Adds the two distances (5 + 12), which is the path length, not the straight-line distance.",
+          "hi": "दोनों दूरियों का योग (5 + 12) लिया है, जो चली गई कुल दूरी है, सीधी दूरी नहीं।"
+        },
+        "2": {
+          "en": "Does not match √(5² + 12²); 15 is not obtained from the right triangle.",
+          "hi": "यह √(5² + 12²) से मेल नहीं खाता; समकोण त्रिभुज से 15 प्राप्त नहीं होता।"
+        },
+        "3": {
+          "en": "Subtracts the distances (12 − 5), which would be the answer only if she walked back in the opposite direction.",
+          "hi": "दूरियों का अंतर (12 − 5) लिया है, जो तभी सही होता जब वह विपरीत दिशा में वापस चलती।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-mn-17",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Thermometer is to Temperature as Barometer is to ___?",
+        "hi": "थर्मामीटर का संबंध तापमान से है, उसी प्रकार बैरोमीटर का संबंध ___ से है?"
+      },
+      "optionsJson": [
+        { "en": "Humidity", "hi": "आर्द्रता" },
+        { "en": "Rainfall", "hi": "वर्षा" },
+        { "en": "Wind speed", "hi": "पवन की चाल" },
+        { "en": "Atmospheric pressure", "hi": "वायुमंडलीय दाब" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "A thermometer is the instrument that measures temperature. In the same way, a barometer is the instrument that measures atmospheric pressure.",
+        "hi": "थर्मामीटर तापमान मापने का यंत्र है। उसी प्रकार बैरोमीटर वायुमंडलीय दाब मापने का यंत्र है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Humidity is measured by a hygrometer, not a barometer.",
+          "hi": "आर्द्रता हाइग्रोमीटर से मापी जाती है, बैरोमीटर से नहीं।"
+        },
+        "1": {
+          "en": "Rainfall is measured by a rain gauge, not a barometer.",
+          "hi": "वर्षा वर्षामापी (रेन गेज) से मापी जाती है, बैरोमीटर से नहीं।"
+        },
+        "2": {
+          "en": "Wind speed is measured by an anemometer, not a barometer.",
+          "hi": "पवन की चाल पवनवेगमापी (एनेमोमीटर) से मापी जाती है, बैरोमीटर से नहीं।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-mn-18",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Find the odd one out: 343, 512, 800, 729",
+        "hi": "असंगत संख्या चुनें: 343, 512, 800, 729"
+      },
+      "optionsJson": [
+        { "en": "343", "hi": "343" },
+        { "en": "512", "hi": "512" },
+        { "en": "800", "hi": "800" },
+        { "en": "729", "hi": "729" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "343 = 7³, 512 = 8³ and 729 = 9³ are perfect cubes. 800 lies between 9³ = 729 and 10³ = 1000, so it is not a perfect cube.",
+        "hi": "343 = 7³, 512 = 8³ और 729 = 9³ पूर्ण घन हैं। 800, 9³ = 729 और 10³ = 1000 के बीच है, इसलिए यह पूर्ण घन नहीं है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "343 is 7³, a perfect cube like most of the group.",
+          "hi": "343 = 7³ है, यानी समूह की अधिकांश संख्याओं की तरह पूर्ण घन।"
+        },
+        "1": {
+          "en": "512 is 8³, a perfect cube like most of the group.",
+          "hi": "512 = 8³ है, यानी समूह की अधिकांश संख्याओं की तरह पूर्ण घन।"
+        },
+        "3": {
+          "en": "729 is 9³, a perfect cube like most of the group.",
+          "hi": "729 = 9³ है, यानी समूह की अधिकांश संख्याओं की तरह पूर्ण घन।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-mn-19",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Find the missing term in the series: 3, 7, 15, 31, 63, ___?",
+        "hi": "श्रृंखला का लुप्त पद ज्ञात कीजिए: 3, 7, 15, 31, 63, ___?"
+      },
+      "optionsJson": [
+        { "en": "95", "hi": "95" },
+        { "en": "125", "hi": "125" },
+        { "en": "127", "hi": "127" },
+        { "en": "129", "hi": "129" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Each term is double the previous term plus 1: 3 × 2 + 1 = 7, 7 × 2 + 1 = 15, 15 × 2 + 1 = 31, 31 × 2 + 1 = 63. So the next term is 63 × 2 + 1 = 127. (The differences 4, 8, 16, 32 double each time, so the next difference is 64 and 63 + 64 = 127.)",
+        "hi": "प्रत्येक पद पिछले पद का दुगुना जमा 1 है: 3 × 2 + 1 = 7, 7 × 2 + 1 = 15, 15 × 2 + 1 = 31, 31 × 2 + 1 = 63। इसलिए अगला पद 63 × 2 + 1 = 127 है। (अंतर 4, 8, 16, 32 हर बार दुगुने होते हैं, अतः अगला अंतर 64 है और 63 + 64 = 127।)"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Adds 32, repeating the last difference, but the differences double each time and the next one is 64.",
+          "hi": "32 जोड़ा है, यानी अंतिम अंतर दोहरा दिया है, जबकि अंतर हर बार दुगुने होते हैं और अगला अंतर 64 है।"
+        },
+        "1": {
+          "en": "Uses 'double minus 1' (63 × 2 − 1) instead of 'double plus 1'; the rule that fits the earlier terms is × 2 + 1.",
+          "hi": "'दुगुना घटा 1' (63 × 2 − 1) का प्रयोग किया है, जबकि पिछले पदों पर लागू नियम 'दुगुना जमा 1' है।"
+        },
+        "3": {
+          "en": "Adds 66 to the last term, which does not follow the doubling pattern of the differences (4, 8, 16, 32, 64).",
+          "hi": "अंतिम पद में 66 जोड़ा है, जो अंतरों के दुगुने होने के क्रम (4, 8, 16, 32, 64) से मेल नहीं खाता।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-mn-20",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "A solid cube of side 3 cm is painted red on all its faces and then cut into 27 small cubes of side 1 cm each. How many small cubes have exactly two faces painted?",
+        "hi": "3 सेमी भुजा वाले एक ठोस घन के सभी फलकों को लाल रंग से रंगा जाता है और फिर उसे 1 सेमी भुजा वाले 27 छोटे घनों में काट लिया जाता है। कितने छोटे घनों के ठीक दो फलक रंगे हैं?"
+      },
+      "optionsJson": [
+        { "en": "8", "hi": "8" },
+        { "en": "6", "hi": "6" },
+        { "en": "1", "hi": "1" },
+        { "en": "12", "hi": "12" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "A cube has 12 edges and each edge has one middle small cube, which lies on exactly two painted faces. So there are 12 such cubes. (The 8 corner cubes have three painted faces, the 6 face-centre cubes have one, and the 1 central cube has none.)",
+        "hi": "घन के 12 किनारे होते हैं और प्रत्येक किनारे पर बीच का एक छोटा घन होता है, जिसके ठीक दो फलक रंगे होते हैं। इसलिए ऐसे 12 घन हैं। (8 कोने वाले घनों के तीन फलक रंगे हैं, 6 फलक-केंद्र वाले घनों का एक फलक और 1 केंद्रीय घन का कोई नहीं।)"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "8 is the number of corner cubes, which have three painted faces.",
+          "hi": "8 कोने वाले घनों की संख्या है, जिनके तीन फलक रंगे होते हैं।"
+        },
+        "1": {
+          "en": "6 is the number of face-centre cubes, which have only one painted face.",
+          "hi": "6 फलक-केंद्र वाले घनों की संख्या है, जिनका केवल एक फलक रंगा होता है।"
+        },
+        "2": {
+          "en": "1 is the central cube, which has no painted face.",
+          "hi": "1 केंद्रीय घन है, जिसका कोई भी फलक रंगा नहीं होता।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-mn-21",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "In a code, 'P + Q' means P is the father of Q, 'P − Q' means P is the sister of Q, and 'P × Q' means P is the mother of Q. In the expression A × B − C + D, how is A related to D?",
+        "hi": "एक कूट में 'P + Q' का अर्थ है P, Q का पिता है, 'P − Q' का अर्थ है P, Q की बहन है, और 'P × Q' का अर्थ है P, Q की माँ है। व्यंजक A × B − C + D में A, D से किस प्रकार संबंधित है?"
+      },
+      "optionsJson": [
+        { "en": "Paternal grandmother", "hi": "दादी" },
+        { "en": "Maternal grandmother", "hi": "नानी" },
+        { "en": "Mother", "hi": "माँ" },
+        { "en": "Aunt", "hi": "बुआ" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "A × B: A is the mother of B. B − C: B is the sister of C, so B and C are siblings and A is also C's mother. C + D: C is the father of D. So A is the mother of D's father, that is, D's paternal grandmother.",
+        "hi": "A × B: A, B की माँ है। B − C: B, C की बहन है, यानी B और C भाई-बहन हैं, इसलिए A, C की भी माँ है। C + D: C, D का पिता है। अतः A, D के पिता की माँ है, यानी D की दादी।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "A maternal grandmother is the mother of D's mother, but D is the child of C, a father, so A is on the father's side.",
+          "hi": "नानी D की माँ की माँ होती है, परंतु D, पिता C की संतान है, इसलिए A पिता की ओर की है।"
+        },
+        "2": {
+          "en": "C, not A, is D's parent; A is one generation higher than D's parent.",
+          "hi": "D के अभिभावक C हैं, A नहीं; A, D के अभिभावक से भी एक पीढ़ी ऊपर है।"
+        },
+        "3": {
+          "en": "An aunt belongs to the generation of D's parent, but A is the mother of D's parent.",
+          "hi": "बुआ D के अभिभावक की पीढ़ी की होती है, जबकि A स्वयं D के अभिभावक की माँ है।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-mn-22",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Eight persons sit around a circle facing the centre. P is third to the left of Q, and R is second to the right of Q. (Left and right are taken from the point of view of the persons, who all face the centre.) What is the position of R with respect to P?",
+        "hi": "आठ व्यक्ति एक वृत्त के चारों ओर केंद्र की ओर मुख करके बैठे हैं। P, Q के बाईं ओर तीसरे स्थान पर है और R, Q के दाईं ओर दूसरे स्थान पर है। (बाएँ और दाएँ उन व्यक्तियों के अनुसार लिए गए हैं, जो सभी केंद्र की ओर मुख किए हैं।) P के सापेक्ष R की स्थिति क्या है?"
+      },
+      "optionsJson": [
+        { "en": "Third to the right of P", "hi": "P के दाईं ओर तीसरा" },
+        { "en": "Third to the left of P", "hi": "P के बाईं ओर तीसरा" },
+        { "en": "Second to the left of P", "hi": "P के बाईं ओर दूसरा" },
+        { "en": "Second to the right of P", "hi": "P के दाईं ओर दूसरा" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "For persons facing the centre, left is the clockwise direction and right is the anticlockwise direction. Number the seats 1 to 8 clockwise with Q at 1. P is third to the left, so P is at seat 4. R is second to the right, so R is at seat 7 (1, 8, 7). From seat 4, seat 7 is three places clockwise, so R is third to the left of P.",
+        "hi": "केंद्र की ओर मुख किए व्यक्तियों के लिए बायाँ दक्षिणावर्त (घड़ी की दिशा) और दायाँ वामावर्त दिशा होती है। सीटों को दक्षिणावर्त 1 से 8 तक गिनें और Q को सीट 1 पर रखें। P बाईं ओर तीसरा है, इसलिए P सीट 4 पर है। R दाईं ओर दूसरा है, इसलिए R सीट 7 पर है (1, 8, 7)। सीट 4 से सीट 7 दक्षिणावर्त तीन स्थान आगे है, इसलिए R, P के बाईं ओर तीसरा है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The third seat to the right of P is seat 1, which is Q, not R.",
+          "hi": "P के दाईं ओर तीसरी सीट सीट 1 है, जहाँ Q बैठा है, R नहीं।"
+        },
+        "2": {
+          "en": "The second seat to the left of P is seat 6, not seat 7.",
+          "hi": "P के बाईं ओर दूसरी सीट सीट 6 है, सीट 7 नहीं।"
+        },
+        "3": {
+          "en": "The second seat to the right of P is seat 2, not seat 7.",
+          "hi": "P के दाईं ओर दूसरी सीट सीट 2 है, सीट 7 नहीं।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-mn-23",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "At what time between 4 and 5 o'clock will the hour hand and the minute hand of a clock coincide?",
+        "hi": "4 और 5 बजे के बीच किस समय घड़ी की घंटे की सुई और मिनट की सुई एक-दूसरे पर आ जाएँगी?"
+      },
+      "optionsJson": [
+        { "en": "20 minutes past 4", "hi": "4 बजकर 20 मिनट" },
+        { "en": "22 minutes past 4", "hi": "4 बजकर 22 मिनट" },
+        { "en": "21 9/11 minutes past 4", "hi": "4 बजकर 21 9/11 मिनट" },
+        { "en": "21 3/11 minutes past 4", "hi": "4 बजकर 21 3/11 मिनट" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "At 4:00 the hour hand is 120° ahead of the minute hand. The minute hand gains 6° − 0.5° = 5.5° per minute. Time needed = 120 ÷ 5.5 = 240/11 = 21 9/11 minutes. So the hands coincide at 21 9/11 minutes past 4.",
+        "hi": "4:00 बजे घंटे की सुई मिनट की सुई से 120° आगे होती है। मिनट की सुई प्रति मिनट 6° − 0.5° = 5.5° की बढ़त लेती है। आवश्यक समय = 120 ÷ 5.5 = 240/11 = 21 9/11 मिनट। अतः सुइयाँ 4 बजकर 21 9/11 मिनट पर मिलती हैं।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "A rounded estimate; at 4:20 the hour hand is at 130° and the minute hand at 120°, so they have not yet met.",
+          "hi": "यह एक मोटा अनुमान है; 4:20 पर घंटे की सुई 130° पर और मिनट की सुई 120° पर होती है, इसलिए वे अभी नहीं मिली हैं।"
+        },
+        "1": {
+          "en": "Another rounded estimate; at 4:22 the minute hand has already passed the hour hand.",
+          "hi": "यह भी एक मोटा अनुमान है; 4:22 पर मिनट की सुई घंटे की सुई को पार कर चुकी होती है।"
+        },
+        "3": {
+          "en": "Has the correct whole number of minutes but a slip in the fraction (3/11 instead of 9/11).",
+          "hi": "मिनटों का पूर्णांक भाग सही है, पर भिन्न में भूल है (9/11 के स्थान पर 3/11)।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-mn-24",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "If '+' means '×', '×' means '−', '−' means '÷' and '÷' means '+', find the value of 12 + 3 × 4 − 2 ÷ 5.",
+        "hi": "यदि '+' का अर्थ '×', '×' का अर्थ '−', '−' का अर्थ '÷' और '÷' का अर्थ '+' हो, तो 12 + 3 × 4 − 2 ÷ 5 का मान ज्ञात करें।"
+      },
+      "optionsJson": [
+        { "en": "43", "hi": "43" },
+        { "en": "29", "hi": "29" },
+        { "en": "31", "hi": "31" },
+        { "en": "39", "hi": "39" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Replace the signs: 12 × 3 − 4 ÷ 2 + 5. By BODMAS, divide first: 4 ÷ 2 = 2; multiply: 12 × 3 = 36. Then 36 − 2 + 5 = 39.",
+        "hi": "चिह्न बदलने पर: 12 × 3 − 4 ÷ 2 + 5। BODMAS के अनुसार पहले भाग: 4 ÷ 2 = 2; गुणा: 12 × 3 = 36। फिर 36 − 2 + 5 = 39।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Treats the subtraction of 2 as an addition (36 + 2 + 5).",
+          "hi": "2 के घटाव को जोड़ मान लिया है (36 + 2 + 5)।"
+        },
+        "1": {
+          "en": "Subtracts the whole group together (36 − (2 + 5)), which ignores the left-to-right order of the + and − signs.",
+          "hi": "पूरे समूह को एक साथ घटाया है (36 − (2 + 5)), जो + और − चिह्नों के बाएँ से दाएँ क्रम की उपेक्षा है।"
+        },
+        "2": {
+          "en": "Drops the term 4 ÷ 2 and subtracts 5 instead of adding it, a slip in applying the converted signs.",
+          "hi": "4 ÷ 2 पद छोड़कर 5 को जोड़ने के बजाय घटा दिया है, जो बदले हुए चिह्न लगाने में भूल है।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-mn-25",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Find the missing term in the series: B2, D4, G8, K16, ___?",
+        "hi": "श्रृंखला में लुप्त पद ज्ञात करें: B2, D4, G8, K16, ___?"
+      },
+      "optionsJson": [
+        { "en": "P32", "hi": "P32" },
+        { "en": "O32", "hi": "O32" },
+        { "en": "P30", "hi": "P30" },
+        { "en": "Q32", "hi": "Q32" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "The numbers double each time: 2, 4, 8, 16, 32. The letters have positions 2, 4, 7, 11, so the gaps are 2, 3, 4, and the next gap is 5: 11 + 5 = 16, which is P. The missing term is P32.",
+        "hi": "संख्याएँ हर बार दोगुनी होती हैं: 2, 4, 8, 16, 32। अक्षरों के क्रमांक 2, 4, 7, 11 हैं, इसलिए अंतर 2, 3, 4 हैं और अगला अंतर 5 है: 11 + 5 = 16, जो P है। अतः लुप्त पद P32 है।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "The letter moves ahead by 4 (K to O) instead of 5, repeating the previous gap.",
+          "hi": "अक्षर को 5 के बजाय 4 स्थान (K से O) आगे बढ़ाया है, यानी पिछला अंतर दोहरा दिया।"
+        },
+        "2": {
+          "en": "The letter is right, but the number 30 breaks the doubling pattern (16 × 2 = 32).",
+          "hi": "अक्षर सही है, पर संख्या 30 दुगुना होने के क्रम को तोड़ती है (16 × 2 = 32)।"
+        },
+        "3": {
+          "en": "The letter moves ahead by 6 (K to Q) instead of 5, skipping a step in the gap pattern.",
+          "hi": "अक्षर को 5 के बजाय 6 स्थान (K से Q) आगे बढ़ाया है, अंतरों के क्रम में एक चरण छोड़ दिया।"
+        }
+      }
+    }
+  ]
+}

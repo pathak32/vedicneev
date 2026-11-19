@@ -1,0 +1,484 @@
+{
+  "examType": "AISSEE",
+  "classLevel": 9,
+  "paperNumber": 3,
+  "sectionKey": "mathematics",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "aissee9-p3-mt-01",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Solve for x: 5x − 7 = 3x + 9", "hi": "x के लिए हल करें: 5x − 7 = 3x + 9" },
+      "optionsJson": [
+        { "en": "1", "hi": "1" },
+        { "en": "16", "hi": "16" },
+        { "en": "8", "hi": "8" },
+        { "en": "4", "hi": "4" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Collect x terms on one side: 5x − 3x = 9 + 7, so 2x = 16 and x = 8.", "hi": "x वाले पदों को एक ओर लाएँ: 5x − 3x = 9 + 7, अतः 2x = 16 और x = 8।" },
+      "distractorAnalysis": {
+        "0": { "en": "Moves −7 across with the wrong sign, getting 2x = 9 − 7 = 2.", "hi": "−7 को पक्षांतर करते समय चिह्न गलत रखा, जिससे 2x = 9 − 7 = 2 मिला।" },
+        "1": { "en": "Stops at 2x = 16 and forgets to divide by 2.", "hi": "2x = 16 पर रुक गए और 2 से भाग देना भूल गए।" },
+        "3": { "en": "Divides 16 by 4 instead of by 2.", "hi": "16 को 2 के बजाय 4 से भाग दे दिया।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-02",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "The angles of a triangle are in the ratio 2 : 3 : 4. What is the measure of the largest angle?", "hi": "एक त्रिभुज के कोणों का अनुपात 2 : 3 : 4 है। सबसे बड़े कोण का माप क्या है?" },
+      "optionsJson": [
+        { "en": "80°", "hi": "80°" },
+        { "en": "60°", "hi": "60°" },
+        { "en": "40°", "hi": "40°" },
+        { "en": "90°", "hi": "90°" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The angle sum is 180° and the ratio parts total 2 + 3 + 4 = 9, so one part is 20°. The largest angle is 4 × 20° = 80°.", "hi": "कोणों का योग 180° है और अनुपात के भागों का योग 2 + 3 + 4 = 9 है, अतः एक भाग 20° है। सबसे बड़ा कोण 4 × 20° = 80° है।" },
+      "distractorAnalysis": {
+        "1": { "en": "This is the middle angle (3 × 20°), not the largest.", "hi": "यह मध्य कोण (3 × 20°) है, सबसे बड़ा कोण नहीं।" },
+        "2": { "en": "This is the smallest angle (2 × 20°).", "hi": "यह सबसे छोटा कोण (2 × 20°) है।" },
+        "3": { "en": "Assumes a right angle without using the ratio.", "hi": "अनुपात का उपयोग किए बिना समकोण मान लिया।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-03",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "What is the value of the polynomial p(x) = x² − 3x + 2 at x = −1?", "hi": "बहुपद p(x) = x² − 3x + 2 का x = −1 पर मान क्या है?" },
+      "optionsJson": [
+        { "en": "6", "hi": "6" },
+        { "en": "0", "hi": "0" },
+        { "en": "2", "hi": "2" },
+        { "en": "4", "hi": "4" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "p(−1) = (−1)² − 3(−1) + 2 = 1 + 3 + 2 = 6.", "hi": "p(−1) = (−1)² − 3(−1) + 2 = 1 + 3 + 2 = 6।" },
+      "distractorAnalysis": {
+        "1": { "en": "This is p(1), obtained by substituting x = 1 instead of x = −1.", "hi": "यह p(1) है, जो x = −1 के बजाय x = 1 रखने से मिलता है।" },
+        "2": { "en": "Makes a sign slip on the constant, computing 1 + 3 − 2.", "hi": "अचर पद पर चिह्न की भूल की, 1 + 3 − 2 निकाल लिया।" },
+        "3": { "en": "Takes (−1)² as −1, giving −1 + 3 + 2.", "hi": "(−1)² को −1 मान लिया, जिससे −1 + 3 + 2 मिला।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-04",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Expand: (2x + 3)²", "hi": "विस्तार करें: (2x + 3)²" },
+      "optionsJson": [
+        { "en": "4x² + 9", "hi": "4x² + 9" },
+        { "en": "4x² + 6x + 9", "hi": "4x² + 6x + 9" },
+        { "en": "2x² + 12x + 9", "hi": "2x² + 12x + 9" },
+        { "en": "4x² + 12x + 9", "hi": "4x² + 12x + 9" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Using (a + b)² = a² + 2ab + b² with a = 2x and b = 3: (2x)² + 2(2x)(3) + 3² = 4x² + 12x + 9.", "hi": "(a + b)² = a² + 2ab + b² में a = 2x और b = 3 रखने पर: (2x)² + 2(2x)(3) + 3² = 4x² + 12x + 9।" },
+      "distractorAnalysis": {
+        "0": { "en": "Squares each term and leaves out the middle term 2ab.", "hi": "प्रत्येक पद का वर्ग किया और मध्य पद 2ab छोड़ दिया।" },
+        "1": { "en": "Takes the middle term as 2·x·3 and forgets the coefficient 2 of x inside the bracket.", "hi": "मध्य पद 2·x·3 लिया और कोष्ठक के भीतर x के गुणांक 2 को भूल गए।" },
+        "2": { "en": "Squares 2x as 2x² instead of 4x².", "hi": "2x का वर्ग 4x² के बजाय 2x² लिख दिया।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-05",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Solve for x: (x + 1)/2 + (x + 2)/3 = 7", "hi": "x के लिए हल करें: (x + 1)/2 + (x + 2)/3 = 7" },
+      "optionsJson": [
+        { "en": "0", "hi": "0" },
+        { "en": "35", "hi": "35" },
+        { "en": "7", "hi": "7" },
+        { "en": "6", "hi": "6" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Multiply both sides by the LCM 6: 3(x + 1) + 2(x + 2) = 42, so 5x + 7 = 42, 5x = 35 and x = 7. Check: 8/2 + 9/3 = 4 + 3 = 7.", "hi": "दोनों पक्षों को LCM 6 से गुणा करें: 3(x + 1) + 2(x + 2) = 42, अतः 5x + 7 = 42, 5x = 35 और x = 7। जाँच: 8/2 + 9/3 = 4 + 3 = 7।" },
+      "distractorAnalysis": {
+        "0": { "en": "Forgets to multiply the right-hand side 7 by 6, getting 5x + 7 = 7.", "hi": "दाएँ पक्ष 7 को 6 से गुणा करना भूल गए, जिससे 5x + 7 = 7 मिला।" },
+        "1": { "en": "Stops at 5x = 35 and forgets to divide by 5.", "hi": "5x = 35 पर रुक गए और 5 से भाग देना भूल गए।" },
+        "3": { "en": "Makes a slip while transposing 7 and dividing by 5; x = 6 does not satisfy the equation.", "hi": "7 को पक्षांतर करने और 5 से भाग देने में भूल की; x = 6 समीकरण को संतुष्ट नहीं करता।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-06",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The sum of three consecutive odd numbers is 87. What is the largest of these numbers?", "hi": "तीन क्रमागत विषम संख्याओं का योग 87 है। इन संख्याओं में सबसे बड़ी संख्या कौन-सी है?" },
+      "optionsJson": [
+        { "en": "31", "hi": "31" },
+        { "en": "29", "hi": "29" },
+        { "en": "27", "hi": "27" },
+        { "en": "33", "hi": "33" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Let the numbers be x, x + 2, x + 4. Then 3x + 6 = 87, so x = 27. The numbers are 27, 29, 31 and the largest is 31.", "hi": "मान लें संख्याएँ x, x + 2, x + 4 हैं। तब 3x + 6 = 87, अतः x = 27। संख्याएँ 27, 29, 31 हैं और सबसे बड़ी 31 है।" },
+      "distractorAnalysis": {
+        "1": { "en": "This is the middle number (87 ÷ 3), not the largest.", "hi": "यह मध्य संख्या (87 ÷ 3) है, सबसे बड़ी नहीं।" },
+        "2": { "en": "This is the smallest of the three numbers.", "hi": "यह तीनों संख्याओं में सबसे छोटी है।" },
+        "3": { "en": "Goes one odd number beyond the largest; 29 + 31 + 33 = 93, not 87.", "hi": "सबसे बड़ी से एक विषम संख्या आगे चले गए; 29 + 31 + 33 = 93 है, 87 नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-07",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Factorise: x² + 5x + 6", "hi": "गुणनखंड करें: x² + 5x + 6" },
+      "optionsJson": [
+        { "en": "(x + 2)(x + 3)", "hi": "(x + 2)(x + 3)" },
+        { "en": "(x + 1)(x + 6)", "hi": "(x + 1)(x + 6)" },
+        { "en": "(x − 2)(x − 3)", "hi": "(x − 2)(x − 3)" },
+        { "en": "(x + 5)(x + 1)", "hi": "(x + 5)(x + 1)" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Find two numbers with product 6 and sum 5: they are 2 and 3. So x² + 5x + 6 = (x + 2)(x + 3).", "hi": "ऐसी दो संख्याएँ ढूँढें जिनका गुणनफल 6 और योग 5 हो: वे 2 और 3 हैं। अतः x² + 5x + 6 = (x + 2)(x + 3)।" },
+      "distractorAnalysis": {
+        "1": { "en": "The product of 1 and 6 is 6, but their sum is 7, giving x² + 7x + 6.", "hi": "1 और 6 का गुणनफल 6 है, पर योग 7 है, जिससे x² + 7x + 6 बनता है।" },
+        "2": { "en": "Uses negative signs; this expands to x² − 5x + 6.", "hi": "ऋणात्मक चिह्न लिए; इसका विस्तार x² − 5x + 6 होता है।" },
+        "3": { "en": "Expands to x² + 6x + 5, not x² + 5x + 6.", "hi": "इसका विस्तार x² + 6x + 5 होता है, x² + 5x + 6 नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-08",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "What is the curved surface area of a cylinder of base radius 7 cm and height 10 cm? (Take π = 22/7)", "hi": "आधार त्रिज्या 7 सेमी और ऊँचाई 10 सेमी वाले बेलन का वक्र पृष्ठीय क्षेत्रफल क्या है? (π = 22/7 लें)" },
+      "optionsJson": [
+        { "en": "154 cm²", "hi": "154 सेमी²" },
+        { "en": "220 cm²", "hi": "220 सेमी²" },
+        { "en": "440 cm²", "hi": "440 सेमी²" },
+        { "en": "1540 cm²", "hi": "1540 सेमी²" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Curved surface area = 2πrh = 2 × (22/7) × 7 × 10 = 440 cm².", "hi": "वक्र पृष्ठीय क्षेत्रफल = 2πrh = 2 × (22/7) × 7 × 10 = 440 सेमी²।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the area of the circular base, πr².", "hi": "यह वृत्ताकार आधार का क्षेत्रफल πr² है।" },
+        "1": { "en": "Uses πrh and leaves out the factor 2.", "hi": "πrh का प्रयोग किया और गुणक 2 छोड़ दिया।" },
+        "3": { "en": "This is the volume πr²h, not the curved surface area.", "hi": "यह आयतन πr²h है, वक्र पृष्ठीय क्षेत्रफल नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-09",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "If x + 1/x = 5, what is the value of x² + 1/x²?", "hi": "यदि x + 1/x = 5 है, तो x² + 1/x² का मान क्या है?" },
+      "optionsJson": [
+        { "en": "27", "hi": "27" },
+        { "en": "25", "hi": "25" },
+        { "en": "10", "hi": "10" },
+        { "en": "23", "hi": "23" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Square both sides: x² + 2 + 1/x² = 25, so x² + 1/x² = 25 − 2 = 23.", "hi": "दोनों पक्षों का वर्ग करें: x² + 2 + 1/x² = 25, अतः x² + 1/x² = 25 − 2 = 23।" },
+      "distractorAnalysis": {
+        "0": { "en": "Adds 2 to 25 instead of subtracting it.", "hi": "25 में से 2 घटाने के बजाय जोड़ दिया।" },
+        "1": { "en": "Squares 5 but forgets to subtract the middle term 2.", "hi": "5 का वर्ग किया पर मध्य पद 2 घटाना भूल गए।" },
+        "2": { "en": "Doubles 5 instead of using the square of the given sum.", "hi": "दिए गए योग का वर्ग लेने के बजाय 5 को दोगुना कर दिया।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-10",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "What is the remainder when p(x) = x³ − 2x² + 3x − 5 is divided by (x − 2)?", "hi": "p(x) = x³ − 2x² + 3x − 5 को (x − 2) से भाग देने पर शेषफल क्या होगा?" },
+      "optionsJson": [
+        { "en": "1", "hi": "1" },
+        { "en": "−27", "hi": "−27" },
+        { "en": "−5", "hi": "−5" },
+        { "en": "6", "hi": "6" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "By the remainder theorem the remainder is p(2) = 8 − 8 + 6 − 5 = 1.", "hi": "शेषफल प्रमेय से शेषफल p(2) = 8 − 8 + 6 − 5 = 1 है।" },
+      "distractorAnalysis": {
+        "1": { "en": "This is p(−2), found by using the root of x + 2 instead of x − 2.", "hi": "यह p(−2) है, जो x − 2 के बजाय x + 2 का शून्यक लेने से मिलता है।" },
+        "2": { "en": "This is p(0), the constant term, which is not the remainder on division by x − 2.", "hi": "यह p(0), यानी अचर पद है, जो x − 2 से भाग देने पर शेषफल नहीं होता।" },
+        "3": { "en": "Leaves out the constant term −5 while computing p(2).", "hi": "p(2) निकालते समय अचर पद −5 छोड़ दिया।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-11",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Meena buys a pen set for ₹40 and sells it for ₹46. What is her profit percentage?", "hi": "मीना एक पेन सेट ₹40 में खरीदती है और ₹46 में बेचती है। उसका लाभ प्रतिशत क्या है?" },
+      "optionsJson": [
+        { "en": "15%", "hi": "15%" },
+        { "en": "6%", "hi": "6%" },
+        { "en": "13%", "hi": "13%" },
+        { "en": "115%", "hi": "115%" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Profit = 46 − 40 = ₹6. Profit % = (6/40) × 100 = 15%.", "hi": "लाभ = 46 − 40 = ₹6। लाभ % = (6/40) × 100 = 15%।" },
+      "distractorAnalysis": {
+        "1": { "en": "Reports the profit amount, 6, as a percentage.", "hi": "लाभ की राशि 6 को ही प्रतिशत मान लिया।" },
+        "2": { "en": "Divides the profit by the selling price (6/46) instead of the cost price.", "hi": "लाभ को क्रय मूल्य के बजाय विक्रय मूल्य (6/46) से भाग दिया।" },
+        "3": { "en": "Gives the selling price as a percentage of the cost price (46/40), not the profit.", "hi": "क्रय मूल्य के प्रतिशत के रूप में विक्रय मूल्य (46/40) दिया, लाभ नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-12",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Ravi's father is 4 times as old as Ravi. After 6 years, the father's age will be 3 times Ravi's age. What is Ravi's present age?", "hi": "रवि के पिता की आयु रवि की आयु की 4 गुनी है। 6 वर्ष बाद पिता की आयु रवि की आयु की 3 गुनी हो जाएगी। रवि की वर्तमान आयु क्या है?" },
+      "optionsJson": [
+        { "en": "48 years", "hi": "48 वर्ष" },
+        { "en": "18 years", "hi": "18 वर्ष" },
+        { "en": "6 years", "hi": "6 वर्ष" },
+        { "en": "12 years", "hi": "12 वर्ष" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Let Ravi's age be x, so the father's age is 4x. After 6 years: 4x + 6 = 3(x + 6), so x = 12. Check: 54 = 3 × 18.", "hi": "मान लें रवि की आयु x है, तो पिता की आयु 4x है। 6 वर्ष बाद: 4x + 6 = 3(x + 6), अतः x = 12। जाँच: 54 = 3 × 18।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the father's present age (4 × 12), not Ravi's.", "hi": "यह पिता की वर्तमान आयु (4 × 12) है, रवि की नहीं।" },
+        "1": { "en": "This is Ravi's age after 6 years, not his present age.", "hi": "यह रवि की 6 वर्ष बाद की आयु है, वर्तमान आयु नहीं।" },
+        "2": { "en": "Uses the number of years given in the problem as the age.", "hi": "प्रश्न में दिए गए वर्षों की संख्या को ही आयु मान लिया।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-13",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "For what value of k is (x − 3) a factor of x² + kx − 21?", "hi": "k के किस मान के लिए (x − 3), x² + kx − 21 का एक गुणनखंड है?" },
+      "optionsJson": [
+        { "en": "−4", "hi": "−4" },
+        { "en": "12", "hi": "12" },
+        { "en": "4", "hi": "4" },
+        { "en": "7", "hi": "7" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "By the factor theorem, the value at x = 3 must be zero: 9 + 3k − 21 = 0, so 3k = 12 and k = 4. Then x² + 4x − 21 = (x − 3)(x + 7).", "hi": "गुणनखंड प्रमेय से x = 3 पर मान शून्य होना चाहिए: 9 + 3k − 21 = 0, अतः 3k = 12 और k = 4। तब x² + 4x − 21 = (x − 3)(x + 7)।" },
+      "distractorAnalysis": {
+        "0": { "en": "Makes a sign error and writes 9 − 3k − 21 = 0.", "hi": "चिह्न की भूल की और 9 − 3k − 21 = 0 लिख दिया।" },
+        "1": { "en": "Stops at 3k = 12 and forgets to divide by 3.", "hi": "3k = 12 पर रुक गए और 3 से भाग देना भूल गए।" },
+        "3": { "en": "Takes the other factor's constant, 7, as k; with k = 7 the value at x = 3 is 9, not 0.", "hi": "दूसरे गुणनखंड के अचर पद 7 को k मान लिया; k = 7 पर x = 3 पर मान 9 आता है, 0 नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-14",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The mean of five numbers is 18. When one number is removed, the mean of the remaining four numbers becomes 16. What is the number that was removed?", "hi": "पाँच संख्याओं का माध्य 18 है। एक संख्या हटाने पर शेष चार संख्याओं का माध्य 16 हो जाता है। हटाई गई संख्या कौन-सी है?" },
+      "optionsJson": [
+        { "en": "2", "hi": "2" },
+        { "en": "10", "hi": "10" },
+        { "en": "34", "hi": "34" },
+        { "en": "26", "hi": "26" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Sum of five numbers = 5 × 18 = 90. Sum of the remaining four = 4 × 16 = 64. Removed number = 90 − 64 = 26.", "hi": "पाँच संख्याओं का योग = 5 × 18 = 90। शेष चार का योग = 4 × 16 = 64। हटाई गई संख्या = 90 − 64 = 26।" },
+      "distractorAnalysis": {
+        "0": { "en": "Subtracts the two means (18 − 16) instead of the two sums.", "hi": "दोनों योगों के बजाय दोनों माध्यों का अंतर (18 − 16) ले लिया।" },
+        "1": { "en": "Multiplies 16 by 5 instead of 4 for the remaining sum, getting 90 − 80.", "hi": "शेष योग के लिए 16 को 4 के बजाय 5 से गुणा किया, जिससे 90 − 80 मिला।" },
+        "2": { "en": "Adds the two means (18 + 16) instead of subtracting the sums.", "hi": "योगों का अंतर लेने के बजाय दोनों माध्यों को जोड़ दिया (18 + 16)।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-15",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Factorise: 2x² − 7x + 3", "hi": "गुणनखंड करें: 2x² − 7x + 3" },
+      "optionsJson": [
+        { "en": "(2x − 3)(x − 1)", "hi": "(2x − 3)(x − 1)" },
+        { "en": "(2x − 1)(x − 3)", "hi": "(2x − 1)(x − 3)" },
+        { "en": "(2x + 1)(x + 3)", "hi": "(2x + 1)(x + 3)" },
+        { "en": "(2x − 1)(x + 3)", "hi": "(2x − 1)(x + 3)" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Split the middle term: 2x² − 6x − x + 3 = 2x(x − 3) − 1(x − 3) = (2x − 1)(x − 3).", "hi": "मध्य पद को तोड़ें: 2x² − 6x − x + 3 = 2x(x − 3) − 1(x − 3) = (2x − 1)(x − 3)।" },
+      "distractorAnalysis": {
+        "0": { "en": "Expands to 2x² − 5x + 3; the middle term is wrong.", "hi": "इसका विस्तार 2x² − 5x + 3 होता है; मध्य पद गलत है।" },
+        "2": { "en": "Expands to 2x² + 7x + 3; the sign of the middle term is wrong.", "hi": "इसका विस्तार 2x² + 7x + 3 होता है; मध्य पद का चिह्न गलत है।" },
+        "3": { "en": "Expands to 2x² + 5x − 3, which does not match the given expression.", "hi": "इसका विस्तार 2x² + 5x − 3 होता है, जो दिए गए व्यंजक से मेल नहीं खाता।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-16",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "What is the value of (64)^(−2/3)?", "hi": "(64)^(−2/3) का मान क्या है?" },
+      "optionsJson": [
+        { "en": "16", "hi": "16" },
+        { "en": "1/16", "hi": "1/16" },
+        { "en": "1/4", "hi": "1/4" },
+        { "en": "−16", "hi": "−16" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "64^(−2/3) = 1 / 64^(2/3) = 1 / (4)² = 1/16, since the cube root of 64 is 4.", "hi": "64^(−2/3) = 1 / 64^(2/3) = 1 / (4)² = 1/16, क्योंकि 64 का घनमूल 4 है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Ignores the negative sign of the exponent, which gives 64^(2/3) = 16.", "hi": "घातांक का ऋणात्मक चिह्न अनदेखा किया, जिससे 64^(2/3) = 16 मिला।" },
+        "2": { "en": "Takes the reciprocal of the cube root only (1/4) and forgets to square.", "hi": "केवल घनमूल का व्युत्क्रम (1/4) लिया और वर्ग करना भूल गए।" },
+        "3": { "en": "Treats a negative exponent as making the value negative; it actually means a reciprocal.", "hi": "ऋणात्मक घातांक को मान ऋणात्मक करने वाला समझ लिया; वास्तव में इसका अर्थ व्युत्क्रम है।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-17",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Solve for x: (2x + 1)/(3x − 2) = 5/7", "hi": "x के लिए हल करें: (2x + 1)/(3x − 2) = 5/7" },
+      "optionsJson": [
+        { "en": "−3", "hi": "−3" },
+        { "en": "17", "hi": "17" },
+        { "en": "3", "hi": "3" },
+        { "en": "−17", "hi": "−17" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Cross-multiply: 7(2x + 1) = 5(3x − 2), so 14x + 7 = 15x − 10. Hence x = 17. Check: (35)/(49) = 5/7.", "hi": "तिर्यक गुणा करें: 7(2x + 1) = 5(3x − 2), अतः 14x + 7 = 15x − 10। इसलिए x = 17। जाँच: 35/49 = 5/7।" },
+      "distractorAnalysis": {
+        "0": { "en": "Writes the right side as 15x + 10, giving 14x + 7 = 15x + 10.", "hi": "दाएँ पक्ष को 15x + 10 लिख दिया, जिससे 14x + 7 = 15x + 10 मिला।" },
+        "2": { "en": "Writes the left side as 14x − 7, giving 14x − 7 = 15x − 10.", "hi": "बाएँ पक्ष को 14x − 7 लिख दिया, जिससे 14x − 7 = 15x − 10 मिला।" },
+        "3": { "en": "Reaches −x = −17 correctly but then writes x = −17, forgetting to change the sign on both sides.", "hi": "−x = −17 तक सही पहुँचे, पर फिर दोनों पक्षों का चिह्न बदलना भूलकर x = −17 लिख दिया।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-18",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "In a parallelogram ABCD, ∠A = (3x + 10)° and ∠B = (2x − 10)°. What is the measure of ∠C?", "hi": "समांतर चतुर्भुज ABCD में ∠A = (3x + 10)° और ∠B = (2x − 10)° है। ∠C का माप क्या है?" },
+      "optionsJson": [
+        { "en": "62°", "hi": "62°" },
+        { "en": "118°", "hi": "118°" },
+        { "en": "108°", "hi": "108°" },
+        { "en": "72°", "hi": "72°" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Adjacent angles of a parallelogram are supplementary: (3x + 10) + (2x − 10) = 180, so 5x = 180 and x = 36. Then ∠A = 118°, and the opposite angle ∠C = ∠A = 118°.", "hi": "समांतर चतुर्भुज के संलग्न कोण संपूरक होते हैं: (3x + 10) + (2x − 10) = 180, अतः 5x = 180 और x = 36। तब ∠A = 118° है और सम्मुख कोण ∠C = ∠A = 118°।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is ∠B (2x − 10 = 62°), an adjacent angle of ∠C.", "hi": "यह ∠B (2x − 10 = 62°) है, जो ∠C का संलग्न कोण है।" },
+        "2": { "en": "Computes only 3x = 108 and forgets to add 10.", "hi": "केवल 3x = 108 निकाला और 10 जोड़ना भूल गए।" },
+        "3": { "en": "Computes only 2x = 72 instead of the angle expression.", "hi": "कोण का व्यंजक निकालने के बजाय केवल 2x = 72 निकाला।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-19",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "What is the compound interest on ₹10,000 for 2 years at 10% per annum, compounded annually?", "hi": "₹10,000 पर 10% वार्षिक दर से 2 वर्ष का चक्रवृद्धि ब्याज (वार्षिक संयोजन) क्या होगा?" },
+      "optionsJson": [
+        { "en": "₹1,100", "hi": "₹1,100" },
+        { "en": "₹2,000", "hi": "₹2,000" },
+        { "en": "₹12,100", "hi": "₹12,100" },
+        { "en": "₹2,100", "hi": "₹2,100" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Amount = 10000 × (1.1)² = ₹12,100. Compound interest = 12,100 − 10,000 = ₹2,100.", "hi": "मिश्रधन = 10000 × (1.1)² = ₹12,100। चक्रवृद्धि ब्याज = 12,100 − 10,000 = ₹2,100।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is only the second year's interest (10% of ₹11,000); the first year's ₹1,000 is left out.", "hi": "यह केवल दूसरे वर्ष का ब्याज (₹11,000 का 10%) है; पहले वर्ष के ₹1,000 छोड़ दिए गए।" },
+        "1": { "en": "This is the simple interest for 2 years; it ignores interest on interest.", "hi": "यह 2 वर्ष का साधारण ब्याज है; ब्याज पर ब्याज को अनदेखा किया।" },
+        "2": { "en": "This is the amount (principal + interest), not the interest alone.", "hi": "यह मिश्रधन (मूलधन + ब्याज) है, केवल ब्याज नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-20",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "If a + b + c = 9 and a² + b² + c² = 35, what is the value of ab + bc + ca?", "hi": "यदि a + b + c = 9 और a² + b² + c² = 35 है, तो ab + bc + ca का मान क्या है?" },
+      "optionsJson": [
+        { "en": "26", "hi": "26" },
+        { "en": "46", "hi": "46" },
+        { "en": "23", "hi": "23" },
+        { "en": "58", "hi": "58" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "(a + b + c)² = a² + b² + c² + 2(ab + bc + ca), so 81 = 35 + 2(ab + bc + ca). Then 2(ab + bc + ca) = 46 and ab + bc + ca = 23.", "hi": "(a + b + c)² = a² + b² + c² + 2(ab + bc + ca), अतः 81 = 35 + 2(ab + bc + ca)। तब 2(ab + bc + ca) = 46 और ab + bc + ca = 23।" },
+      "distractorAnalysis": {
+        "0": { "en": "Subtracts the sum 9 from 35 instead of using the square of the sum.", "hi": "योग के वर्ग का उपयोग करने के बजाय 35 में से योग 9 घटा दिया।" },
+        "1": { "en": "Stops at 2(ab + bc + ca) = 46 and forgets to halve.", "hi": "2(ab + bc + ca) = 46 पर रुक गए और आधा करना भूल गए।" },
+        "3": { "en": "Adds 81 and 35 before halving: (81 + 35)/2, instead of subtracting.", "hi": "घटाने के बजाय आधा करने से पहले 81 और 35 को जोड़ दिया: (81 + 35)/2।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-21",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": { "en": "The sum of the digits of a two-digit number is 9. If the digits are reversed, the new number is 27 more than the original number. What is the original number?", "hi": "एक दो अंकों की संख्या के अंकों का योग 9 है। अंकों को उलटने पर बनी नई संख्या मूल संख्या से 27 अधिक है। मूल संख्या क्या है?" },
+      "optionsJson": [
+        { "en": "27", "hi": "27" },
+        { "en": "36", "hi": "36" },
+        { "en": "45", "hi": "45" },
+        { "en": "63", "hi": "63" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Let the tens digit be x, so the units digit is 9 − x. Original = 10x + (9 − x) = 9x + 9; reversed = 10(9 − x) + x = 90 − 9x. Then (90 − 9x) − (9x + 9) = 27, so 81 − 18x = 27 and x = 3. The number is 36 and its reverse 63 is 27 more.", "hi": "मान लें दहाई का अंक x है, तो इकाई का अंक 9 − x है। मूल संख्या = 10x + (9 − x) = 9x + 9; उलटी संख्या = 10(9 − x) + x = 90 − 9x। तब (90 − 9x) − (9x + 9) = 27, अतः 81 − 18x = 27 और x = 3। संख्या 36 है और उसकी उलटी संख्या 63, 27 अधिक है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Reversing 27 gives 72, which is 45 more, not 27 more.", "hi": "27 को उलटने पर 72 मिलता है, जो 27 नहीं बल्कि 45 अधिक है।" },
+        "2": { "en": "Reversing 45 gives 54, which is only 9 more.", "hi": "45 को उलटने पर 54 मिलता है, जो केवल 9 अधिक है।" },
+        "3": { "en": "This is the reversed number; reversing 63 gives 36, which is 27 less, not more.", "hi": "यह उलटी संख्या है; 63 को उलटने पर 36 मिलता है, जो 27 अधिक नहीं बल्कि 27 कम है।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-22",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": { "en": "In a regular polygon, the ratio of an interior angle to an exterior angle is 5 : 1. How many diagonals does the polygon have?", "hi": "एक सम बहुभुज में एक अंतः कोण और एक बाह्य कोण का अनुपात 5 : 1 है। इस बहुभुज के कितने विकर्ण हैं?" },
+      "optionsJson": [
+        { "en": "12", "hi": "12" },
+        { "en": "66", "hi": "66" },
+        { "en": "54", "hi": "54" },
+        { "en": "108", "hi": "108" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Interior + exterior = 180°, so the exterior angle is 180° ÷ 6 = 30° and the interior angle is 150°. Number of sides n = 360° ÷ 30° = 12. Diagonals = n(n − 3)/2 = 12 × 9 / 2 = 54.", "hi": "अंतः कोण + बाह्य कोण = 180°, अतः बाह्य कोण = 180° ÷ 6 = 30° और अंतः कोण 150° है। भुजाओं की संख्या n = 360° ÷ 30° = 12। विकर्ण = n(n − 3)/2 = 12 × 9 / 2 = 54।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the number of sides, not the number of diagonals.", "hi": "यह भुजाओं की संख्या है, विकर्णों की संख्या नहीं।" },
+        "1": { "en": "Counts every pair of vertices, 12C2 = 66, which includes the 12 sides.", "hi": "शीर्षों के प्रत्येक युग्म को गिना, 12C2 = 66, जिसमें 12 भुजाएँ भी शामिल हैं।" },
+        "3": { "en": "Uses n(n − 3) = 108 and forgets to divide by 2, counting each diagonal twice.", "hi": "n(n − 3) = 108 लिया और 2 से भाग देना भूल गए, जिससे प्रत्येक विकर्ण दो बार गिना गया।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-23",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Using a suitable identity, find the value of (−7)³ + 3³ + 4³.", "hi": "उपयुक्त सर्वसमिका का उपयोग करके (−7)³ + 3³ + 4³ का मान ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "0", "hi": "0" },
+        { "en": "−343", "hi": "−343" },
+        { "en": "252", "hi": "252" },
+        { "en": "−252", "hi": "−252" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Since −7 + 3 + 4 = 0, the identity x³ + y³ + z³ = 3xyz applies. So the value is 3 × (−7) × 3 × 4 = −252. Check: −343 + 27 + 64 = −252.", "hi": "क्योंकि −7 + 3 + 4 = 0, इसलिए सर्वसमिका x³ + y³ + z³ = 3xyz लागू होती है। अतः मान 3 × (−7) × 3 × 4 = −252 है। जाँच: −343 + 27 + 64 = −252।" },
+      "distractorAnalysis": {
+        "0": { "en": "Confuses a zero sum of the numbers with a zero sum of their cubes.", "hi": "संख्याओं के योग के शून्य होने को उनके घनों के योग का शून्य होना समझ लिया।" },
+        "1": { "en": "This is only (−7)³; the other two cubes were left out.", "hi": "यह केवल (−7)³ है; अन्य दो घन छोड़ दिए गए।" },
+        "2": { "en": "Gets the magnitude right but loses the negative sign of −7 in 3xyz.", "hi": "परिमाण सही निकाला पर 3xyz में −7 का ऋण चिह्न छोड़ दिया।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-24",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "The diagonal of a rectangle is 13 cm and its perimeter is 34 cm. What is the area of the rectangle?", "hi": "एक आयत का विकर्ण 13 सेमी और उसका परिमाप 34 सेमी है। आयत का क्षेत्रफल क्या है?" },
+      "optionsJson": [
+        { "en": "30 cm²", "hi": "30 सेमी²" },
+        { "en": "120 cm²", "hi": "120 सेमी²" },
+        { "en": "289 cm²", "hi": "289 सेमी²" },
+        { "en": "60 cm²", "hi": "60 सेमी²" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Let the sides be l and w. Then l + w = 17 and l² + w² = 13² = 169. From (l + w)² = l² + w² + 2lw: 289 = 169 + 2lw, so lw = 60. The area is 60 cm² (sides 12 cm and 5 cm).", "hi": "मान लें भुजाएँ l और w हैं। तब l + w = 17 और l² + w² = 13² = 169। (l + w)² = l² + w² + 2lw से: 289 = 169 + 2lw, अतः lw = 60। क्षेत्रफल 60 सेमी² है (भुजाएँ 12 सेमी और 5 सेमी)।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is half the area, i.e. the area of one right triangle cut by the diagonal.", "hi": "यह क्षेत्रफल का आधा है, यानी विकर्ण से कटे एक समकोण त्रिभुज का क्षेत्रफल।" },
+        "1": { "en": "This is 2lw, which is the area doubled; the step of halving was skipped.", "hi": "यह 2lw है, यानी क्षेत्रफल का दोगुना; आधा करने का चरण छोड़ दिया।" },
+        "2": { "en": "This is (l + w)², the square of the semi-perimeter, not the area.", "hi": "यह (l + w)², अर्थात अर्ध-परिमाप का वर्ग है, क्षेत्रफल नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-25",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Arun sells a bicycle to Bhaskar at a profit of 25%, and Bhaskar sells it to Charu at a profit of 20%. If Charu pays ₹1,500, what did the bicycle cost Arun?", "hi": "अरुण एक साइकिल भास्कर को 25% लाभ पर बेचता है और भास्कर उसे चारु को 20% लाभ पर बेचता है। यदि चारु ₹1,500 देती है, तो अरुण के लिए साइकिल की लागत क्या थी?" },
+      "optionsJson": [
+        { "en": "₹825", "hi": "₹825" },
+        { "en": "₹1,000", "hi": "₹1,000" },
+        { "en": "₹1,200", "hi": "₹1,200" },
+        { "en": "₹1,250", "hi": "₹1,250" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Charu's price = Arun's cost × 1.25 × 1.20 = Arun's cost × 1.5. So Arun's cost = 1500 ÷ 1.5 = ₹1,000.", "hi": "चारु का मूल्य = अरुण की लागत × 1.25 × 1.20 = अरुण की लागत × 1.5। अतः अरुण की लागत = 1500 ÷ 1.5 = ₹1,000।" },
+      "distractorAnalysis": {
+        "0": { "en": "Adds the profits to get 45% and takes 45% off ₹1,500, but successive profits compound.", "hi": "लाभों को जोड़कर 45% लिया और ₹1,500 में से 45% घटाया, पर क्रमिक लाभ गुणात्मक रूप से जुड़ते हैं।" },
+        "2": { "en": "Removes only the 25% profit (1500 ÷ 1.25) and ignores Bhaskar's 20%.", "hi": "केवल 25% लाभ हटाया (1500 ÷ 1.25) और भास्कर के 20% को छोड़ दिया।" },
+        "3": { "en": "Removes only the 20% profit (1500 ÷ 1.20) and ignores Arun's 25%.", "hi": "केवल 20% लाभ हटाया (1500 ÷ 1.20) और अरुण के 25% को छोड़ दिया।" }
+      }
+    }
+  ]
+}

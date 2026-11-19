@@ -1,0 +1,484 @@
+{
+  "examType": "RMS",
+  "classLevel": 6,
+  "paperNumber": 4,
+  "sectionKey": "language",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "rms6-p4-la-01",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Choose the word closest in meaning to 'rapid'.", "hi": "'rapid' के सबसे निकट अर्थ वाला शब्द चुनें।", "mr": "'rapid' च्या अर्थाच्या सर्वात जवळचा शब्द निवडा." },
+      "optionsJson": [
+        { "en": "Slow", "hi": "Slow", "mr": "Slow" },
+        { "en": "Heavy", "hi": "Heavy", "mr": "Heavy" },
+        { "en": "Swift", "hi": "Swift", "mr": "Swift" },
+        { "en": "Quiet", "hi": "Quiet", "mr": "Quiet" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "'Rapid' means very fast, and 'swift' also means fast.", "hi": "'Rapid' का अर्थ बहुत तेज़ है और 'swift' का अर्थ भी तेज़ होता है।", "mr": "'Rapid' म्हणजे खूप वेगवान आणि 'swift' म्हणजेही वेगवान." },
+      "distractorAnalysis": {
+        "0": { "en": "'Slow' is the opposite of 'rapid'.", "hi": "'Slow' का अर्थ धीमा है, जो 'rapid' का विपरीत है।", "mr": "'Slow' म्हणजे हळू, जो 'rapid' चा विरुद्धार्थी आहे." },
+        "1": { "en": "'Heavy' describes weight, not speed.", "hi": "'Heavy' वज़न बताता है, गति नहीं।", "mr": "'Heavy' वजन दर्शवतो, वेग नाही." },
+        "3": { "en": "'Quiet' describes sound, not speed.", "hi": "'Quiet' आवाज़ के बारे में बताता है, गति के बारे में नहीं।", "mr": "'Quiet' आवाजाबद्दल सांगतो, वेगाबद्दल नाही." }
+      }
+    },
+    {
+      "key": "rms6-p4-la-02",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Choose the word opposite in meaning to 'smooth'.", "hi": "'smooth' के विपरीत अर्थ वाला शब्द चुनें।", "mr": "'smooth' च्या विरुद्ध अर्थाचा शब्द निवडा." },
+      "optionsJson": [
+        { "en": "Rough", "hi": "Rough", "mr": "Rough" },
+        { "en": "Shiny", "hi": "Shiny", "mr": "Shiny" },
+        { "en": "Flat", "hi": "Flat", "mr": "Flat" },
+        { "en": "Even", "hi": "Even", "mr": "Even" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "'Smooth' means having a level surface with no bumps; its opposite is 'rough'.", "hi": "'Smooth' का अर्थ है बिना उभार वाली समतल सतह; इसका विपरीत 'rough' (खुरदरा) है।", "mr": "'Smooth' म्हणजे खड्डे-उंचवटे नसलेला गुळगुळीत पृष्ठभाग; त्याचा विरुद्धार्थी शब्द 'rough' (खडबडीत) आहे." },
+      "distractorAnalysis": {
+        "1": { "en": "'Shiny' means bright and glossy; a rough surface can be shiny too, so it is not the opposite.", "hi": "'Shiny' का अर्थ चमकदार है; खुरदरी सतह भी चमकदार हो सकती है, इसलिए यह विपरीत नहीं है।", "mr": "'Shiny' म्हणजे चमकदार; खडबडीत पृष्ठभागही चमकदार असू शकतो, म्हणून हा विरुद्धार्थी नाही." },
+        "2": { "en": "'Flat' means level, which is close to 'smooth', not opposite.", "hi": "'Flat' का अर्थ समतल है, जो 'smooth' के करीब है, विपरीत नहीं।", "mr": "'Flat' म्हणजे सपाट, जो 'smooth' च्या जवळचा आहे, विरुद्ध नाही." },
+        "3": { "en": "'Even' is a synonym of 'smooth', not an antonym.", "hi": "'Even' तो 'smooth' का समानार्थी शब्द है, विलोम नहीं।", "mr": "'Even' हा 'smooth' चा समानार्थी शब्द आहे, विरुद्धार्थी नाही." }
+      }
+    },
+    {
+      "key": "rms6-p4-la-03",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Choose the word closest in meaning to 'fragile'.", "hi": "'fragile' के सबसे निकट अर्थ वाला शब्द चुनें।", "mr": "'fragile' च्या अर्थाच्या सर्वात जवळचा शब्द निवडा." },
+      "optionsJson": [
+        { "en": "Strong", "hi": "Strong", "mr": "Strong" },
+        { "en": "Heavy", "hi": "Heavy", "mr": "Heavy" },
+        { "en": "Costly", "hi": "Costly", "mr": "Costly" },
+        { "en": "Delicate", "hi": "Delicate", "mr": "Delicate" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "'Fragile' means easily broken or damaged; 'delicate' has a similar meaning.", "hi": "'Fragile' का अर्थ है आसानी से टूटने या खराब होने वाला; 'delicate' का अर्थ भी लगभग यही है।", "mr": "'Fragile' म्हणजे सहज तुटणारा किंवा खराब होणारा; 'delicate' चा अर्थही जवळपास असाच आहे." },
+      "distractorAnalysis": {
+        "0": { "en": "'Strong' is the opposite of 'fragile'.", "hi": "'Strong' (मज़बूत) 'fragile' का विपरीत है।", "mr": "'Strong' (मजबूत) हा 'fragile' चा विरुद्धार्थी आहे." },
+        "1": { "en": "'Heavy' describes weight; a heavy object may or may not be fragile.", "hi": "'Heavy' वज़न बताता है; भारी वस्तु नाज़ुक हो भी सकती है और नहीं भी।", "mr": "'Heavy' वजन दर्शवतो; जड वस्तू नाजूक असू शकते किंवा नसूही शकते." },
+        "2": { "en": "'Costly' means expensive, which has nothing to do with being easily broken.", "hi": "'Costly' का अर्थ महँगा है, जिसका आसानी से टूटने से कोई संबंध नहीं।", "mr": "'Costly' म्हणजे महाग, ज्याचा सहज तुटण्याशी काही संबंध नाही." }
+      }
+    },
+    {
+      "key": "rms6-p4-la-04",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Choose the word opposite in meaning to 'expand'.", "hi": "'expand' के विपरीत अर्थ वाला शब्द चुनें।", "mr": "'expand' च्या विरुद्ध अर्थाचा शब्द निवडा." },
+      "optionsJson": [
+        { "en": "Grow", "hi": "Grow", "mr": "Grow" },
+        { "en": "Shrink", "hi": "Shrink", "mr": "Shrink" },
+        { "en": "Spread", "hi": "Spread", "mr": "Spread" },
+        { "en": "Stretch", "hi": "Stretch", "mr": "Stretch" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "'Expand' means to become larger; its opposite is 'shrink', which means to become smaller.", "hi": "'Expand' का अर्थ है बड़ा होना; इसका विपरीत 'shrink' है, यानी छोटा होना।", "mr": "'Expand' म्हणजे मोठे होणे; त्याचा विरुद्धार्थी 'shrink' म्हणजे लहान होणे." },
+      "distractorAnalysis": {
+        "0": { "en": "'Grow' means to become bigger, so it is similar to 'expand'.", "hi": "'Grow' का अर्थ बढ़ना है, इसलिए यह 'expand' जैसा ही है।", "mr": "'Grow' म्हणजे वाढणे, म्हणून तो 'expand' सारखाच आहे." },
+        "2": { "en": "'Spread' means to open out over a larger area, which is close to 'expand'.", "hi": "'Spread' का अर्थ बड़े क्षेत्र में फैलना है, जो 'expand' के करीब है।", "mr": "'Spread' म्हणजे मोठ्या क्षेत्रात पसरणे, जे 'expand' च्या जवळचे आहे." },
+        "3": { "en": "'Stretch' means to make longer or wider, which is also close to 'expand'.", "hi": "'Stretch' का अर्थ लंबा या चौड़ा करना है, यह भी 'expand' के करीब है।", "mr": "'Stretch' म्हणजे लांब किंवा रुंद करणे, तेही 'expand' च्या जवळचे आहे." }
+      }
+    },
+    {
+      "key": "rms6-p4-la-05",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which word is spelled correctly?", "hi": "कौन-सा शब्द सही वर्तनी वाला है?", "mr": "कोणत्या शब्दाचे स्पेलिंग बरोबर आहे?" },
+      "optionsJson": [
+        { "en": "Environment", "hi": "Environment", "mr": "Environment" },
+        { "en": "Enviroment", "hi": "Enviroment", "mr": "Enviroment" },
+        { "en": "Environmant", "hi": "Environmant", "mr": "Environmant" },
+        { "en": "Envirenment", "hi": "Envirenment", "mr": "Envirenment" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The correct spelling is 'Environment', with an 'n' before the 'm'.", "hi": "सही वर्तनी 'Environment' है, जिसमें 'm' से पहले 'n' आता है।", "mr": "बरोबर स्पेलिंग 'Environment' आहे, ज्यात 'm' च्या आधी 'n' येतो." },
+      "distractorAnalysis": {
+        "1": { "en": "The letter 'n' before 'm' is missing.", "hi": "'m' से पहले का अक्षर 'n' छूट गया है।", "mr": "'m' च्या आधीचे अक्षर 'n' गाळले गेले आहे." },
+        "2": { "en": "The ending is '-ment', not '-mant'.", "hi": "अंत '-ment' है, '-mant' नहीं।", "mr": "शेवट '-ment' असा आहे, '-mant' नाही." },
+        "3": { "en": "The word has 'viron', not 'viren'.", "hi": "शब्द में 'viron' आता है, 'viren' नहीं।", "mr": "शब्दात 'viron' येते, 'viren' नाही." }
+      }
+    },
+    {
+      "key": "rms6-p4-la-06",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Which word is spelled incorrectly?", "hi": "कौन-सा शब्द गलत वर्तनी वाला है?", "mr": "कोणत्या शब्दाचे स्पेलिंग चुकीचे आहे?" },
+      "optionsJson": [
+        { "en": "Separate", "hi": "Separate", "mr": "Separate" },
+        { "en": "Definitely", "hi": "Definitely", "mr": "Definitely" },
+        { "en": "Pronounciation", "hi": "Pronounciation", "mr": "Pronounciation" },
+        { "en": "Mischievous", "hi": "Mischievous", "mr": "Mischievous" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The correct spelling is 'Pronunciation'; it does not keep the 'o' of 'pronounce'. The other three words are spelled correctly.", "hi": "सही वर्तनी 'Pronunciation' है; इसमें 'pronounce' वाला 'o' नहीं रहता। बाकी तीन शब्द सही लिखे गए हैं।", "mr": "बरोबर स्पेलिंग 'Pronunciation' आहे; त्यात 'pronounce' मधला 'o' राहत नाही. बाकीचे तीन शब्द बरोबर लिहिलेले आहेत." },
+      "distractorAnalysis": {
+        "0": { "en": "'Separate' is spelled correctly (note the 'a' in the middle).", "hi": "'Separate' सही लिखा गया है (बीच में 'a' पर ध्यान दें)।", "mr": "'Separate' बरोबर लिहिले आहे (मधल्या 'a' कडे लक्ष द्या)." },
+        "1": { "en": "'Definitely' is spelled correctly.", "hi": "'Definitely' सही लिखा गया है।", "mr": "'Definitely' बरोबर लिहिले आहे." },
+        "3": { "en": "'Mischievous' is spelled correctly.", "hi": "'Mischievous' सही लिखा गया है।", "mr": "'Mischievous' बरोबर लिहिले आहे." }
+      }
+    },
+    {
+      "key": "rms6-p4-la-07",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "What does the idiom 'to bite the bullet' mean?", "hi": "मुहावरे 'to bite the bullet' का क्या अर्थ है?", "mr": "'to bite the bullet' या वाक्प्रचाराचा अर्थ काय आहे?" },
+      "optionsJson": [
+        { "en": "To eat something very hard", "hi": "कोई बहुत कठोर चीज़ खाना", "mr": "एखादी अतिशय कठीण वस्तू खाणे" },
+        { "en": "To face a painful situation with courage", "hi": "साहस के साथ किसी कष्टदायक स्थिति का सामना करना", "mr": "धैर्याने एखाद्या वेदनादायक परिस्थितीला सामोरे जाणे" },
+        { "en": "To fire a gun at someone", "hi": "किसी पर बंदूक चलाना", "mr": "एखाद्यावर बंदूक चालवणे" },
+        { "en": "To quarrel loudly", "hi": "ज़ोर से झगड़ना", "mr": "मोठ्याने भांडणे" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "'To bite the bullet' means to face a painful or difficult situation bravely instead of avoiding it.", "hi": "'To bite the bullet' का अर्थ है किसी कष्टदायक या कठिन स्थिति से बचने के बजाय बहादुरी से उसका सामना करना।", "mr": "'To bite the bullet' म्हणजे एखाद्या वेदनादायक किंवा कठीण परिस्थितीपासून दूर न पळता धैर्याने तिला सामोरे जाणे." },
+      "distractorAnalysis": {
+        "0": { "en": "The idiom is not about eating anything; its meaning is figurative.", "hi": "यह मुहावरा कुछ खाने के बारे में नहीं है; इसका अर्थ लाक्षणिक है।", "mr": "हा वाक्प्रचार काही खाण्याबद्दल नाही; त्याचा अर्थ लाक्षणिक आहे." },
+        "2": { "en": "The idiom has nothing to do with shooting.", "hi": "इस मुहावरे का गोली चलाने से कोई संबंध नहीं है।", "mr": "या वाक्प्रचाराचा गोळीबाराशी काही संबंध नाही." },
+        "3": { "en": "The idiom does not mean quarrelling.", "hi": "यह मुहावरा झगड़ने का अर्थ नहीं देता।", "mr": "हा वाक्प्रचार भांडणाचा अर्थ देत नाही." }
+      }
+    },
+    {
+      "key": "rms6-p4-la-08",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "What does the idiom 'a piece of cake' mean?", "hi": "मुहावरे 'a piece of cake' का क्या अर्थ है?", "mr": "'a piece of cake' या वाक्प्रचाराचा अर्थ काय आहे?" },
+      "optionsJson": [
+        { "en": "A slice of dessert", "hi": "केक का एक टुकड़ा", "mr": "केकचा एक तुकडा" },
+        { "en": "A small share of something", "hi": "किसी चीज़ का छोटा हिस्सा", "mr": "एखाद्या गोष्टीचा लहान वाटा" },
+        { "en": "Something very expensive", "hi": "कोई बहुत महँगी चीज़", "mr": "एखादी अतिशय महाग वस्तू" },
+        { "en": "Something very easy to do", "hi": "कोई बहुत आसान काम", "mr": "अतिशय सोपे काम" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "'A piece of cake' means something that is very easy to do.", "hi": "'A piece of cake' का अर्थ है कोई ऐसा काम जो बहुत आसान हो।", "mr": "'A piece of cake' म्हणजे असे काम जे करायला खूप सोपे आहे." },
+      "distractorAnalysis": {
+        "0": { "en": "That is the literal meaning, but the idiom has a figurative meaning.", "hi": "यह शाब्दिक अर्थ है, जबकि मुहावरे का अर्थ लाक्षणिक होता है।", "mr": "हा शाब्दिक अर्थ आहे, पण वाक्प्रचाराचा अर्थ लाक्षणिक असतो." },
+        "1": { "en": "The idiom is about how easy a task is, not about the size of a share.", "hi": "यह मुहावरा काम के आसान होने के बारे में है, हिस्से के आकार के बारे में नहीं।", "mr": "हा वाक्प्रचार काम किती सोपे आहे याबद्दल आहे, वाट्याच्या आकाराबद्दल नाही." },
+        "2": { "en": "The idiom does not refer to cost.", "hi": "यह मुहावरा कीमत के बारे में नहीं है।", "mr": "हा वाक्प्रचार किमतीबद्दल नाही." }
+      }
+    },
+    {
+      "key": "rms6-p4-la-09",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "What does the idiom 'to cost an arm and a leg' mean?", "hi": "मुहावरे 'to cost an arm and a leg' का क्या अर्थ है?", "mr": "'to cost an arm and a leg' या वाक्प्रचाराचा अर्थ काय आहे?" },
+      "optionsJson": [
+        { "en": "To cause a serious injury", "hi": "गंभीर चोट पहुँचाना", "mr": "गंभीर दुखापत करणे" },
+        { "en": "To be given as a free gift", "hi": "उपहार में मुफ़्त दिया जाना", "mr": "भेट म्हणून मोफत दिले जाणे" },
+        { "en": "To be extremely expensive", "hi": "बहुत अधिक महँगा होना", "mr": "अतिशय महाग असणे" },
+        { "en": "To take a very long time", "hi": "बहुत अधिक समय लेना", "mr": "खूप जास्त वेळ लागणे" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "To 'cost an arm and a leg' means to be extremely expensive.", "hi": "'To cost an arm and a leg' का अर्थ है बहुत अधिक महँगा होना।", "mr": "'To cost an arm and a leg' म्हणजे अतिशय महाग असणे." },
+      "distractorAnalysis": {
+        "0": { "en": "The idiom is figurative; no injury is meant.", "hi": "यह मुहावरा लाक्षणिक है; इसमें किसी चोट का अर्थ नहीं है।", "mr": "हा वाक्प्रचार लाक्षणिक आहे; यात कोणत्याही दुखापतीचा अर्थ नाही." },
+        "1": { "en": "A free gift costs nothing, which is the opposite of this idiom.", "hi": "मुफ़्त उपहार की कोई कीमत नहीं होती, जो इस मुहावरे के उलट है।", "mr": "मोफत भेटीची काही किंमत नसते, जे या वाक्प्रचाराच्या उलट आहे." },
+        "3": { "en": "The idiom talks about price, not time.", "hi": "यह मुहावरा कीमत के बारे में है, समय के बारे में नहीं।", "mr": "हा वाक्प्रचार किमतीबद्दल आहे, वेळेबद्दल नाही." }
+      }
+    },
+    {
+      "key": "rms6-p4-la-10",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "What does the idiom 'to hit the nail on the head' mean?", "hi": "मुहावरे 'to hit the nail on the head' का क्या अर्थ है?", "mr": "'to hit the nail on the head' या वाक्प्रचाराचा अर्थ काय आहे?" },
+      "optionsJson": [
+        { "en": "To say or do exactly the right thing", "hi": "बिल्कुल सही बात कहना या करना", "mr": "अगदी योग्य गोष्ट बोलणे किंवा करणे" },
+        { "en": "To hurt oneself while working", "hi": "काम करते समय खुद को चोट पहुँचाना", "mr": "काम करताना स्वतःला दुखापत करून घेणे" },
+        { "en": "To make a lot of noise", "hi": "बहुत शोर करना", "mr": "खूप आवाज करणे" },
+        { "en": "To repair a wall badly", "hi": "दीवार की खराब मरम्मत करना", "mr": "भिंतीची वाईट दुरुस्ती करणे" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "'To hit the nail on the head' means to say or do exactly the right thing, or to describe a problem accurately.", "hi": "'To hit the nail on the head' का अर्थ है बिल्कुल सही बात कहना या करना, या किसी समस्या का सटीक वर्णन करना।", "mr": "'To hit the nail on the head' म्हणजे अगदी योग्य गोष्ट बोलणे किंवा करणे, किंवा एखाद्या समस्येचे अचूक वर्णन करणे." },
+      "distractorAnalysis": {
+        "1": { "en": "The idiom is not about getting hurt.", "hi": "यह मुहावरा चोट लगने के बारे में नहीं है।", "mr": "हा वाक्प्रचार दुखापत होण्याबद्दल नाही." },
+        "2": { "en": "The idiom is not about making noise.", "hi": "यह मुहावरा शोर करने के बारे में नहीं है।", "mr": "हा वाक्प्रचार आवाज करण्याबद्दल नाही." },
+        "3": { "en": "The idiom is about being exact and correct, not about poor repair work.", "hi": "यह मुहावरा सटीक और सही होने के बारे में है, खराब मरम्मत के बारे में नहीं।", "mr": "हा वाक्प्रचार अचूक आणि बरोबर असण्याबद्दल आहे, वाईट दुरुस्तीबद्दल नाही." }
+      }
+    },
+    {
+      "key": "rms6-p4-la-11",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "What does the idiom 'the ball is in your court' mean?", "hi": "मुहावरे 'the ball is in your court' का क्या अर्थ है?", "mr": "'the ball is in your court' या वाक्प्रचाराचा अर्थ काय आहे?" },
+      "optionsJson": [
+        { "en": "The game is over", "hi": "खेल समाप्त हो गया है", "mr": "खेळ संपला आहे" },
+        { "en": "It is now your turn to decide or act", "hi": "अब निर्णय लेने या कदम उठाने की बारी आपकी है", "mr": "आता निर्णय घेण्याची किंवा कृती करण्याची पाळी तुमची आहे" },
+        { "en": "You are the best player", "hi": "आप सबसे अच्छे खिलाड़ी हैं", "mr": "तुम्ही सर्वोत्तम खेळाडू आहात" },
+        { "en": "You have lost the match", "hi": "आप मैच हार गए हैं", "mr": "तुम्ही सामना हरला आहात" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The idiom is often linked to tennis. It means that it is now your turn to make the next decision or move.", "hi": "यह मुहावरा प्रायः टेनिस से जुड़ा माना जाता है। इसका अर्थ है कि अब अगला निर्णय लेने या कदम उठाने की बारी आपकी है।", "mr": "हा वाक्प्रचार बहुधा टेनिसशी जोडला जातो. याचा अर्थ आता पुढील निर्णय घेण्याची किंवा पाऊल उचलण्याची पाळी तुमची आहे." },
+      "distractorAnalysis": {
+        "0": { "en": "The idiom does not say that anything has ended; it says it is someone's turn.", "hi": "यह मुहावरा कुछ समाप्त होने की बात नहीं करता; यह किसी की बारी आने की बात करता है।", "mr": "हा वाक्प्रचार काही संपल्याचे सांगत नाही; तो एखाद्याची पाळी आल्याचे सांगतो." },
+        "2": { "en": "The idiom is not a compliment about skill.", "hi": "यह मुहावरा किसी की कुशलता की प्रशंसा नहीं है।", "mr": "हा वाक्प्रचार कौशल्याची प्रशंसा नाही." },
+        "3": { "en": "The idiom does not say anything about winning or losing.", "hi": "यह मुहावरा जीत या हार के बारे में कुछ नहीं कहता।", "mr": "हा वाक्प्रचार जिंकण्या-हरण्याबद्दल काही सांगत नाही." }
+      }
+    },
+    {
+      "key": "rms6-p4-la-12",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "What does the idiom 'under the weather' mean?", "hi": "मुहावरे 'under the weather' का क्या अर्थ है?", "mr": "'under the weather' या वाक्प्रचाराचा अर्थ काय आहे?" },
+      "optionsJson": [
+        { "en": "Standing outside in the rain", "hi": "बारिश में बाहर खड़े होना", "mr": "पावसात बाहेर उभे राहणे" },
+        { "en": "Enjoying pleasant weather", "hi": "सुहावने मौसम का आनंद लेना", "mr": "आल्हाददायक हवामानाचा आनंद घेणे" },
+        { "en": "Feeling very hungry", "hi": "बहुत भूख लगना", "mr": "खूप भूक लागणे" },
+        { "en": "Feeling slightly unwell", "hi": "थोड़ा अस्वस्थ महसूस करना", "mr": "थोडे अस्वस्थ वाटणे" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "'Under the weather' means feeling slightly ill or unwell.", "hi": "'Under the weather' का अर्थ है थोड़ा बीमार या अस्वस्थ महसूस करना।", "mr": "'Under the weather' म्हणजे थोडे आजारी किंवा अस्वस्थ वाटणे." },
+      "distractorAnalysis": {
+        "0": { "en": "The idiom is figurative; it is not about standing in the rain.", "hi": "यह मुहावरा लाक्षणिक है; यह बारिश में खड़े होने के बारे में नहीं है।", "mr": "हा वाक्प्रचार लाक्षणिक आहे; तो पावसात उभे राहण्याबद्दल नाही." },
+        "1": { "en": "The idiom describes not feeling well, the opposite of enjoying pleasant conditions.", "hi": "यह मुहावरा अच्छा महसूस न करने को बताता है, जो सुहावने मौसम के आनंद के उलट है।", "mr": "हा वाक्प्रचार बरे न वाटणे दर्शवतो, जे आल्हाददायक वातावरणाचा आनंद घेण्याच्या उलट आहे." },
+        "2": { "en": "The idiom is about feeling unwell, not about hunger.", "hi": "यह मुहावरा अस्वस्थ होने के बारे में है, भूख के बारे में नहीं।", "mr": "हा वाक्प्रचार अस्वस्थ वाटण्याबद्दल आहे, भुकेबद्दल नाही." }
+      }
+    },
+    {
+      "key": "rms6-p4-la-13",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Complete the idiom: Don't count your chickens before they ___.", "hi": "मुहावरा पूरा करें: Don't count your chickens before they ___.", "mr": "वाक्प्रचार पूर्ण करा: Don't count your chickens before they ___." },
+      "optionsJson": [
+        { "en": "hatch", "hi": "hatch", "mr": "hatch" },
+        { "en": "fly", "hi": "fly", "mr": "fly" },
+        { "en": "grow", "hi": "grow", "mr": "grow" },
+        { "en": "cook", "hi": "cook", "mr": "cook" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The idiom is 'Don't count your chickens before they hatch'. It means do not rely on a good result until it has actually happened.", "hi": "मुहावरा है 'Don't count your chickens before they hatch'। इसका अर्थ है किसी अच्छे परिणाम के सचमुच होने से पहले उस पर भरोसा न करना।", "mr": "वाक्प्रचार आहे 'Don't count your chickens before they hatch'. याचा अर्थ एखादा चांगला परिणाम प्रत्यक्षात घडण्याआधी त्यावर अवलंबून राहू नये." },
+      "distractorAnalysis": {
+        "1": { "en": "Chickens do not usually fly, and the idiom uses 'hatch'.", "hi": "मुर्गियाँ आमतौर पर उड़ती नहीं हैं, और मुहावरे में 'hatch' आता है।", "mr": "कोंबड्या सहसा उडत नाहीत, आणि वाक्प्रचारात 'hatch' येते." },
+        "2": { "en": "The idiom uses 'hatch', not 'grow'.", "hi": "मुहावरे में 'hatch' आता है, 'grow' नहीं।", "mr": "वाक्प्रचारात 'hatch' येते, 'grow' नाही." },
+        "3": { "en": "'Cook' is not part of this idiom.", "hi": "'Cook' इस मुहावरे का हिस्सा नहीं है।", "mr": "'Cook' हा या वाक्प्रचाराचा भाग नाही." }
+      }
+    },
+    {
+      "key": "rms6-p4-la-14",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Choose the word closest in meaning to 'reluctant'.", "hi": "'reluctant' के सबसे निकट अर्थ वाला शब्द चुनें।", "mr": "'reluctant' च्या अर्थाच्या सर्वात जवळचा शब्द निवडा." },
+      "optionsJson": [
+        { "en": "Eager", "hi": "Eager", "mr": "Eager" },
+        { "en": "Ready", "hi": "Ready", "mr": "Ready" },
+        { "en": "Unwilling", "hi": "Unwilling", "mr": "Unwilling" },
+        { "en": "Cheerful", "hi": "Cheerful", "mr": "Cheerful" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "'Reluctant' means unwilling or hesitant to do something.", "hi": "'Reluctant' का अर्थ है कुछ करने के लिए अनिच्छुक या झिझकने वाला।", "mr": "'Reluctant' म्हणजे काही करण्यास अनिच्छुक किंवा कचरणारा." },
+      "distractorAnalysis": {
+        "0": { "en": "'Eager' means keen to do something, which is the opposite of reluctant.", "hi": "'Eager' का अर्थ कुछ करने को उत्सुक है, जो 'reluctant' का विपरीत है।", "mr": "'Eager' म्हणजे काही करण्यास उत्सुक, जो 'reluctant' चा विरुद्धार्थी आहे." },
+        "1": { "en": "'Ready' means prepared and willing, the opposite of reluctant.", "hi": "'Ready' का अर्थ तैयार और इच्छुक है, जो 'reluctant' का विपरीत है।", "mr": "'Ready' म्हणजे तयार आणि इच्छुक, जो 'reluctant' चा विरुद्धार्थी आहे." },
+        "3": { "en": "'Cheerful' means happy; it does not describe unwillingness.", "hi": "'Cheerful' का अर्थ प्रसन्न है; यह अनिच्छा को नहीं बताता।", "mr": "'Cheerful' म्हणजे आनंदी; तो अनिच्छा दर्शवत नाही." }
+      }
+    },
+    {
+      "key": "rms6-p4-la-15",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Choose the word opposite in meaning to 'meagre'.", "hi": "'meagre' के विपरीत अर्थ वाला शब्द चुनें।", "mr": "'meagre' च्या विरुद्ध अर्थाचा शब्द निवडा." },
+      "optionsJson": [
+        { "en": "Scanty", "hi": "Scanty", "mr": "Scanty" },
+        { "en": "Poor", "hi": "Poor", "mr": "Poor" },
+        { "en": "Tiny", "hi": "Tiny", "mr": "Tiny" },
+        { "en": "Abundant", "hi": "Abundant", "mr": "Abundant" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "'Meagre' means small in amount; its opposite is 'abundant', which means more than enough.", "hi": "'Meagre' का अर्थ है मात्रा में कम; इसका विपरीत 'abundant' है, यानी ज़रूरत से भी अधिक।", "mr": "'Meagre' म्हणजे प्रमाणाने कमी; त्याचा विरुद्धार्थी 'abundant' म्हणजे गरजेपेक्षाही जास्त." },
+      "distractorAnalysis": {
+        "0": { "en": "'Scanty' is a synonym of 'meagre'.", "hi": "'Scanty' तो 'meagre' का समानार्थी शब्द है।", "mr": "'Scanty' हा 'meagre' चा समानार्थी शब्द आहे." },
+        "1": { "en": "'Poor' can describe a low amount, so it is similar, not opposite.", "hi": "'Poor' कम मात्रा को भी बता सकता है, इसलिए यह समान है, विपरीत नहीं।", "mr": "'Poor' कमी प्रमाणही दर्शवू शकतो, म्हणून तो समान आहे, विरुद्ध नाही." },
+        "2": { "en": "'Tiny' means very small, which is close in sense, not opposite.", "hi": "'Tiny' का अर्थ बहुत छोटा है, जो अर्थ में करीब है, विपरीत नहीं।", "mr": "'Tiny' म्हणजे खूप लहान, जो अर्थाने जवळचा आहे, विरुद्ध नाही." }
+      }
+    },
+    {
+      "key": "rms6-p4-la-16",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Choose the correct word to complete the sentence: We could not ___ the teacher's voice in the noisy hall.", "hi": "वाक्य पूरा करने के लिए सही शब्द चुनें: We could not ___ the teacher's voice in the noisy hall.", "mr": "वाक्य पूर्ण करण्यासाठी योग्य शब्द निवडा: We could not ___ the teacher's voice in the noisy hall." },
+      "optionsJson": [
+        { "en": "here", "hi": "here", "mr": "here" },
+        { "en": "hear", "hi": "hear", "mr": "hear" },
+        { "en": "hare", "hi": "hare", "mr": "hare" },
+        { "en": "hair", "hi": "hair", "mr": "hair" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "'Hear' means to listen to a sound with the ears, so it fits the sentence.", "hi": "'Hear' का अर्थ है कानों से कोई आवाज़ सुनना, इसलिए यह वाक्य में सही बैठता है।", "mr": "'Hear' म्हणजे कानांनी आवाज ऐकणे, म्हणून तो वाक्यात योग्य बसतो." },
+      "distractorAnalysis": {
+        "0": { "en": "'Here' means in this place; it sounds like 'hear' but has a different meaning.", "hi": "'Here' का अर्थ इस स्थान पर है; यह 'hear' जैसा सुनाई देता है पर इसका अर्थ अलग है।", "mr": "'Here' म्हणजे या ठिकाणी; तो 'hear' सारखा ऐकू येतो पण त्याचा अर्थ वेगळा आहे." },
+        "2": { "en": "A 'hare' is an animal like a rabbit.", "hi": "'Hare' खरगोश जैसा एक जानवर है।", "mr": "'Hare' हा सशासारखा एक प्राणी आहे." },
+        "3": { "en": "'Hair' is what grows on the head.", "hi": "'Hair' सिर पर उगने वाले बालों को कहते हैं।", "mr": "'Hair' म्हणजे डोक्यावर वाढणारे केस." }
+      }
+    },
+    {
+      "key": "rms6-p4-la-17",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which prefix can be added to all three words 'possible', 'polite' and 'patient' to form their opposites?", "hi": "कौन-सा उपसर्ग (prefix) तीनों शब्दों 'possible', 'polite' और 'patient' में जोड़ने पर उनके विपरीत शब्द बनाता है?", "mr": "कोणता उपसर्ग (prefix) 'possible', 'polite' आणि 'patient' या तिन्ही शब्दांना जोडल्यास त्यांचे विरुद्धार्थी शब्द तयार होतात?" },
+      "optionsJson": [
+        { "en": "un-", "hi": "un-", "mr": "un-" },
+        { "en": "dis-", "hi": "dis-", "mr": "dis-" },
+        { "en": "im-", "hi": "im-", "mr": "im-" },
+        { "en": "in-", "hi": "in-", "mr": "in-" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The prefix 'im-' gives 'impossible', 'impolite' and 'impatient'. Words beginning with 'p' usually take 'im-'.", "hi": "उपसर्ग 'im-' से 'impossible', 'impolite' और 'impatient' बनते हैं। 'p' से शुरू होने वाले शब्दों में प्रायः 'im-' लगता है।", "mr": "'im-' या उपसर्गाने 'impossible', 'impolite' आणि 'impatient' हे शब्द तयार होतात. 'p' ने सुरू होणाऱ्या शब्दांना सहसा 'im-' लागतो." },
+      "distractorAnalysis": {
+        "0": { "en": "'Unpossible' and 'unpolite' are not correct English words.", "hi": "'Unpossible' और 'unpolite' अंग्रेज़ी के सही शब्द नहीं हैं।", "mr": "'Unpossible' आणि 'unpolite' हे इंग्रजीतील योग्य शब्द नाहीत." },
+        "1": { "en": "'Dispossible' and 'dispolite' are not correct English words.", "hi": "'Dispossible' और 'dispolite' अंग्रेज़ी के सही शब्द नहीं हैं।", "mr": "'Dispossible' आणि 'dispolite' हे इंग्रजीतील योग्य शब्द नाहीत." },
+        "3": { "en": "'Inpossible' and 'inpolite' are not correct English words.", "hi": "'Inpossible' और 'inpolite' अंग्रेज़ी के सही शब्द नहीं हैं।", "mr": "'Inpossible' आणि 'inpolite' हे इंग्रजीतील योग्य शब्द नाहीत." }
+      }
+    },
+    {
+      "key": "rms6-p4-la-18",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Choose the sentence in which the comma is used correctly.", "hi": "वह वाक्य चुनें जिसमें अल्पविराम (comma) का प्रयोग सही है।", "mr": "ज्या वाक्यात स्वल्पविरामाचा (comma) वापर बरोबर आहे ते वाक्य निवडा." },
+      "optionsJson": [
+        { "en": "After lunch, we played carrom indoors.", "hi": "After lunch, we played carrom indoors.", "mr": "After lunch, we played carrom indoors." },
+        { "en": "After, lunch we played carrom indoors.", "hi": "After, lunch we played carrom indoors.", "mr": "After, lunch we played carrom indoors." },
+        { "en": "After lunch we, played carrom indoors.", "hi": "After lunch we, played carrom indoors.", "mr": "After lunch we, played carrom indoors." },
+        { "en": "After lunch we played, carrom indoors.", "hi": "After lunch we played, carrom indoors.", "mr": "After lunch we played, carrom indoors." }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "A comma is placed after the introductory phrase 'After lunch' before the main part of the sentence begins.", "hi": "शुरुआती वाक्यांश 'After lunch' के बाद, वाक्य का मुख्य भाग शुरू होने से पहले, अल्पविराम लगाया जाता है।", "mr": "सुरुवातीच्या वाक्यांश 'After lunch' नंतर, वाक्याचा मुख्य भाग सुरू होण्यापूर्वी, स्वल्पविराम दिला जातो." },
+      "distractorAnalysis": {
+        "1": { "en": "The comma breaks the phrase 'After lunch' in the wrong place.", "hi": "अल्पविराम ने 'After lunch' वाक्यांश को गलत जगह तोड़ दिया है।", "mr": "स्वल्पविरामाने 'After lunch' हा वाक्यांश चुकीच्या ठिकाणी तोडला आहे." },
+        "2": { "en": "The comma wrongly separates the subject 'we' from its verb 'played'.", "hi": "अल्पविराम ने कर्ता 'we' को उसकी क्रिया 'played' से गलत तरीके से अलग कर दिया है।", "mr": "स्वल्पविरामाने कर्ता 'we' याला त्याच्या क्रियापद 'played' पासून चुकीच्या पद्धतीने वेगळे केले आहे." },
+        "3": { "en": "The comma wrongly separates the verb 'played' from its object 'carrom'.", "hi": "अल्पविराम ने क्रिया 'played' को उसके कर्म 'carrom' से गलत तरीके से अलग कर दिया है।", "mr": "स्वल्पविरामाने क्रियापद 'played' याला त्याच्या कर्म 'carrom' पासून चुकीच्या पद्धतीने वेगळे केले आहे." }
+      }
+    },
+    {
+      "key": "rms6-p4-la-19",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Read the passage and answer the question.\nPassage: After a dry summer, water became 'scarce' in the village. Women walked two kilometres every day to fill a single pot. When the first monsoon rain finally arrived, the whole village rejoiced.\nQuestion: What does the word 'scarce' mean in the passage?", "hi": "अनुच्छेद पढ़ें और प्रश्न का उत्तर दें।\nअनुच्छेद: एक सूखी गर्मी के बाद गाँव में पानी 'scarce' हो गया। महिलाएँ एक घड़ा भरने के लिए रोज़ दो किलोमीटर चलती थीं। जब पहली मानसूनी बारिश आख़िरकार आई, तो पूरा गाँव खुशी से झूम उठा।\nप्रश्न: अनुच्छेद में 'scarce' शब्द का क्या अर्थ है?", "mr": "उतारा वाचा आणि प्रश्नाचे उत्तर द्या.\nउतारा: कोरड्या उन्हाळ्यानंतर गावात पाणी 'scarce' झाले. महिला एक घागर भरण्यासाठी रोज दोन किलोमीटर चालत जात. पहिला मोसमी पाऊस अखेर आला, तेव्हा संपूर्ण गाव आनंदाने नाचू लागला.\nप्रश्न: उताऱ्यातील 'scarce' या शब्दाचा अर्थ काय आहे?" },
+      "optionsJson": [
+        { "en": "Available in plenty", "hi": "भरपूर मात्रा में उपलब्ध", "mr": "भरपूर प्रमाणात उपलब्ध" },
+        { "en": "Difficult to find", "hi": "मिलना कठिन", "mr": "मिळवणे कठीण" },
+        { "en": "Very dirty", "hi": "बहुत गंदा", "mr": "खूप घाणेरडे" },
+        { "en": "Wasted carelessly", "hi": "लापरवाही से बर्बाद किया गया", "mr": "निष्काळजीपणे वाया घालवलेले" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The women had to walk far just to fill one pot, so water was hard to get. 'Scarce' means in short supply.", "hi": "महिलाओं को केवल एक घड़ा भरने के लिए भी दूर चलना पड़ता था, यानी पानी मिलना कठिन था। 'Scarce' का अर्थ है कम मात्रा में उपलब्ध।", "mr": "महिलांना फक्त एक घागर भरण्यासाठीही लांब चालत जावे लागत होते, म्हणजे पाणी मिळवणे कठीण होते. 'Scarce' म्हणजे कमी प्रमाणात उपलब्ध." },
+      "distractorAnalysis": {
+        "0": { "en": "If water were plentiful, the women would not need to walk so far.", "hi": "यदि पानी भरपूर होता, तो महिलाओं को इतनी दूर नहीं चलना पड़ता।", "mr": "जर पाणी भरपूर असते, तर महिलांना इतके लांब चालत जावे लागले नसते." },
+        "2": { "en": "The passage does not say that the water was dirty.", "hi": "अनुच्छेद में यह नहीं कहा गया कि पानी गंदा था।", "mr": "उताऱ्यात पाणी घाणेरडे होते असे म्हटलेले नाही." },
+        "3": { "en": "The passage does not say that water was wasted; it says there was too little of it.", "hi": "अनुच्छेद में यह नहीं कहा गया कि पानी बर्बाद किया गया; इसमें कहा गया है कि वह बहुत कम था।", "mr": "उताऱ्यात पाणी वाया घालवले गेले असे म्हटलेले नाही; ते खूप कमी होते असे म्हटले आहे." }
+      }
+    },
+    {
+      "key": "rms6-p4-la-20",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Choose the correct word to complete the sentence: Mount Everest is the ___ mountain in the world.", "hi": "वाक्य पूरा करने के लिए सही शब्द चुनें: Mount Everest is the ___ mountain in the world.", "mr": "वाक्य पूर्ण करण्यासाठी योग्य शब्द निवडा: Mount Everest is the ___ mountain in the world." },
+      "optionsJson": [
+        { "en": "high", "hi": "high", "mr": "high" },
+        { "en": "higher", "hi": "higher", "mr": "higher" },
+        { "en": "more high", "hi": "more high", "mr": "more high" },
+        { "en": "highest", "hi": "highest", "mr": "highest" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "'The ... in the world' compares one thing with all others, so the superlative 'highest' is needed.", "hi": "'The ... in the world' में एक वस्तु की तुलना सभी अन्य से होती है, इसलिए उत्तमावस्था (superlative) 'highest' चाहिए।", "mr": "'The ... in the world' मध्ये एका वस्तूची तुलना इतर सर्वांशी होते, म्हणून अतिशयदर्शक रूप (superlative) 'highest' आवश्यक आहे." },
+      "distractorAnalysis": {
+        "0": { "en": "'High' is the plain form and cannot show that Everest is above all others.", "hi": "'High' सामान्य रूप है और यह नहीं दिखा सकता कि एवरेस्ट सबसे ऊपर है।", "mr": "'High' हे साधे रूप आहे आणि ते एव्हरेस्ट सर्वांपेक्षा वरचा आहे हे दाखवू शकत नाही." },
+        "1": { "en": "'Higher' compares only two things; 'the ... in the world' needs the superlative.", "hi": "'Higher' केवल दो वस्तुओं की तुलना करता है; 'the ... in the world' के लिए उत्तमावस्था चाहिए।", "mr": "'Higher' फक्त दोन वस्तूंची तुलना करतो; 'the ... in the world' साठी अतिशयदर्शक रूप हवे." },
+        "2": { "en": "A short adjective like 'high' does not use 'more'; it adds '-er' or '-est'.", "hi": "'high' जैसे छोटे विशेषण के साथ 'more' नहीं लगता; उसमें '-er' या '-est' जुड़ता है।", "mr": "'high' सारख्या लहान विशेषणाला 'more' लागत नाही; त्याला '-er' किंवा '-est' जोडला जातो." }
+      }
+    },
+    {
+      "key": "rms6-p4-la-21",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Choose the correct phrasal verb to complete the sentence: The cricket match had to be ___ because of heavy rain.", "hi": "वाक्य पूरा करने के लिए सही phrasal verb चुनें: The cricket match had to be ___ because of heavy rain.", "mr": "वाक्य पूर्ण करण्यासाठी योग्य phrasal verb निवडा: The cricket match had to be ___ because of heavy rain." },
+      "optionsJson": [
+        { "en": "called in", "hi": "called in", "mr": "called in" },
+        { "en": "called up", "hi": "called up", "mr": "called up" },
+        { "en": "called off", "hi": "called off", "mr": "called off" },
+        { "en": "called on", "hi": "called on", "mr": "called on" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "'Called off' means cancelled, which fits a match stopped by heavy rain.", "hi": "'Called off' का अर्थ रद्द करना है, जो भारी बारिश से रुके हुए मैच के लिए सही बैठता है।", "mr": "'Called off' म्हणजे रद्द करणे, जे जोरदार पावसामुळे थांबलेल्या सामन्यासाठी योग्य बसते." },
+      "distractorAnalysis": {
+        "0": { "en": "'Called in' means asked someone to come, for example 'called in a doctor'.", "hi": "'Called in' का अर्थ किसी को बुलाना है, जैसे 'called in a doctor'।", "mr": "'Called in' म्हणजे एखाद्याला बोलावणे, जसे 'called in a doctor'." },
+        "1": { "en": "'Called up' means telephoned someone or ordered someone to join the army.", "hi": "'Called up' का अर्थ किसी को फ़ोन करना या सेना में भर्ती के लिए बुलाना है।", "mr": "'Called up' म्हणजे एखाद्याला फोन करणे किंवा सैन्यात दाखल होण्यास बोलावणे." },
+        "3": { "en": "'Called on' means visited someone or asked someone to speak.", "hi": "'Called on' का अर्थ किसी से मिलने जाना या किसी से बोलने को कहना है।", "mr": "'Called on' म्हणजे एखाद्याला भेटायला जाणे किंवा एखाद्याला बोलण्यास सांगणे." }
+      }
+    },
+    {
+      "key": "rms6-p4-la-22",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Choose the sentence in which 'affect' or 'effect' is used correctly.", "hi": "वह वाक्य चुनें जिसमें 'affect' या 'effect' का प्रयोग सही है।", "mr": "ज्या वाक्यात 'affect' किंवा 'effect' चा वापर बरोबर आहे ते वाक्य निवडा." },
+      "optionsJson": [
+        { "en": "Loud music can affect your concentration.", "hi": "Loud music can affect your concentration.", "mr": "Loud music can affect your concentration." },
+        { "en": "The medicine had a good affect on him.", "hi": "The medicine had a good affect on him.", "mr": "The medicine had a good affect on him." },
+        { "en": "Sleep has a strong affect on health.", "hi": "Sleep has a strong affect on health.", "mr": "Sleep has a strong affect on health." },
+        { "en": "The affect of the rain was a flooded road.", "hi": "The affect of the rain was a flooded road.", "mr": "The affect of the rain was a flooded road." }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "'Affect' is a verb meaning to influence, so 'can affect your concentration' is correct. 'Effect' is the noun meaning a result.", "hi": "'Affect' एक क्रिया है जिसका अर्थ प्रभावित करना है, इसलिए 'can affect your concentration' सही है। 'Effect' संज्ञा है जिसका अर्थ परिणाम है।", "mr": "'Affect' हे क्रियापद आहे ज्याचा अर्थ प्रभावित करणे आहे, म्हणून 'can affect your concentration' बरोबर आहे. 'Effect' हे नाम आहे ज्याचा अर्थ परिणाम आहे." },
+      "distractorAnalysis": {
+        "1": { "en": "A noun is needed after 'a good', so it should be 'effect', not 'affect'.", "hi": "'a good' के बाद संज्ञा चाहिए, इसलिए यहाँ 'effect' होना चाहिए, 'affect' नहीं।", "mr": "'a good' नंतर नाम हवे, म्हणून येथे 'effect' हवे, 'affect' नाही." },
+        "2": { "en": "A noun is needed after 'a strong', so it should be 'effect', not 'affect'.", "hi": "'a strong' के बाद संज्ञा चाहिए, इसलिए यहाँ 'effect' होना चाहिए, 'affect' नहीं।", "mr": "'a strong' नंतर नाम हवे, म्हणून येथे 'effect' हवे, 'affect' नाही." },
+        "3": { "en": "'The ... of the rain' needs the noun 'effect' (result), not 'affect'.", "hi": "'The ... of the rain' में संज्ञा 'effect' (परिणाम) चाहिए, 'affect' नहीं।", "mr": "'The ... of the rain' मध्ये नाम 'effect' (परिणाम) हवे, 'affect' नाही." }
+      }
+    },
+    {
+      "key": "rms6-p4-la-23",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Identify the adverb in the sentence: 'The tortoise moved slowly across the road.'", "hi": "वाक्य में क्रिया-विशेषण (adverb) पहचानें: 'The tortoise moved slowly across the road.'", "mr": "वाक्यातील क्रियाविशेषण (adverb) ओळखा: 'The tortoise moved slowly across the road.'" },
+      "optionsJson": [
+        { "en": "tortoise", "hi": "tortoise", "mr": "tortoise" },
+        { "en": "slowly", "hi": "slowly", "mr": "slowly" },
+        { "en": "across", "hi": "across", "mr": "across" },
+        { "en": "road", "hi": "road", "mr": "road" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "'Slowly' tells us how the tortoise moved, so it is an adverb of manner.", "hi": "'Slowly' बताता है कि कछुआ कैसे चला, इसलिए यह रीतिवाचक क्रिया-विशेषण है।", "mr": "'Slowly' हा कासव कसे चालले हे सांगतो, म्हणून तो रीतिवाचक क्रियाविशेषण आहे." },
+      "distractorAnalysis": {
+        "0": { "en": "'Tortoise' is a noun naming the animal.", "hi": "'Tortoise' एक संज्ञा है जो जानवर का नाम बताती है।", "mr": "'Tortoise' हे प्राण्याचे नाव सांगणारे नाम आहे." },
+        "2": { "en": "'Across' is a preposition showing direction.", "hi": "'Across' एक पूर्वसर्ग (preposition) है जो दिशा बताता है।", "mr": "'Across' हे दिशा दर्शवणारे शब्दयोगी अव्यय (preposition) आहे." },
+        "3": { "en": "'Road' is a noun naming a place.", "hi": "'Road' एक संज्ञा है जो स्थान का नाम बताती है।", "mr": "'Road' हे ठिकाणाचे नाव सांगणारे नाम आहे." }
+      }
+    },
+    {
+      "key": "rms6-p4-la-24",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Read the passage and answer the question.\nPassage: Arjun forgot his umbrella at home. Dark clouds covered the sky, and by the time school ended it was raining heavily. Arjun waited under the shelter until his father arrived with a raincoat.\nQuestion: Why did Arjun wait under the shelter?", "hi": "अनुच्छेद पढ़ें और प्रश्न का उत्तर दें।\nअनुच्छेद: अर्जुन अपनी छतरी घर पर भूल गया। आसमान में काले बादल छाए थे, और स्कूल की छुट्टी होने तक तेज़ बारिश होने लगी। अर्जुन तब तक शेड के नीचे रुका रहा जब तक उसके पिता रेनकोट लेकर नहीं आ गए।\nप्रश्न: अर्जुन शेड के नीचे क्यों रुका?", "mr": "उतारा वाचा आणि प्रश्नाचे उत्तर द्या.\nउतारा: अर्जुन आपली छत्री घरी विसरला. आकाशात काळे ढग दाटले होते, आणि शाळा सुटेपर्यंत जोरदार पाऊस पडू लागला. अर्जुनचे वडील रेनकोट घेऊन येईपर्यंत तो शेडखाली थांबला.\nप्रश्न: अर्जुन शेडखाली का थांबला?" },
+      "optionsJson": [
+        { "en": "He wanted to play with his friends", "hi": "वह अपने दोस्तों के साथ खेलना चाहता था", "mr": "त्याला आपल्या मित्रांसोबत खेळायचे होते" },
+        { "en": "He liked getting wet in the rain", "hi": "उसे बारिश में भीगना पसंद था", "mr": "त्याला पावसात भिजायला आवडत होते" },
+        { "en": "He was waiting for the school bell", "hi": "वह स्कूल की घंटी का इंतज़ार कर रहा था", "mr": "तो शाळेच्या घंटेची वाट पाहत होता" },
+        { "en": "He had no umbrella and it was raining heavily", "hi": "उसके पास छतरी नहीं थी और तेज़ बारिश हो रही थी", "mr": "त्याच्याकडे छत्री नव्हती आणि जोरदार पाऊस पडत होता" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "The passage says Arjun forgot his umbrella and it was raining heavily, so he stayed under the shelter until his father came.", "hi": "अनुच्छेद के अनुसार अर्जुन छतरी भूल गया था और तेज़ बारिश हो रही थी, इसलिए वह पिता के आने तक शेड के नीचे रुका रहा।", "mr": "उताऱ्यानुसार अर्जुन छत्री विसरला होता आणि जोरदार पाऊस पडत होता, म्हणून वडील येईपर्यंत तो शेडखाली थांबला." },
+      "distractorAnalysis": {
+        "0": { "en": "The passage does not mention playing with friends.", "hi": "अनुच्छेद में दोस्तों के साथ खेलने का कोई ज़िक्र नहीं है।", "mr": "उताऱ्यात मित्रांसोबत खेळण्याचा उल्लेख नाही." },
+        "1": { "en": "He waited for a raincoat to avoid the rain, so he did not enjoy getting wet.", "hi": "वह बारिश से बचने के लिए रेनकोट का इंतज़ार कर रहा था, इसलिए उसे भीगना पसंद नहीं था।", "mr": "तो पावसापासून बचण्यासाठी रेनकोटची वाट पाहत होता, म्हणजे त्याला भिजायला आवडत नव्हते." },
+        "2": { "en": "School had already ended, so he was not waiting for the bell.", "hi": "स्कूल की छुट्टी हो चुकी थी, इसलिए वह घंटी का इंतज़ार नहीं कर रहा था।", "mr": "शाळा आधीच सुटली होती, म्हणून तो घंटेची वाट पाहत नव्हता." }
+      }
+    },
+    {
+      "key": "rms6-p4-la-25",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Choose the sentence in which 'its' or 'it's' is used correctly.", "hi": "वह वाक्य चुनें जिसमें 'its' या 'it's' का प्रयोग सही है।", "mr": "ज्या वाक्यात 'its' किंवा 'it's' चा वापर बरोबर आहे ते वाक्य निवडा." },
+      "optionsJson": [
+        { "en": "The dog wagged it's tail happily.", "hi": "The dog wagged it's tail happily.", "mr": "The dog wagged it's tail happily." },
+        { "en": "Its a lovely day for a picnic.", "hi": "Its a lovely day for a picnic.", "mr": "Its a lovely day for a picnic." },
+        { "en": "It's time for the elephant to take its bath.", "hi": "It's time for the elephant to take its bath.", "mr": "It's time for the elephant to take its bath." },
+        { "en": "The tree lost it's leaves in autumn.", "hi": "The tree lost it's leaves in autumn.", "mr": "The tree lost it's leaves in autumn." }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "'It's' is the short form of 'it is' (It's time), while 'its' shows ownership (its bath). Both are used correctly in this sentence.", "hi": "'It's', 'it is' का संक्षिप्त रूप है (It's time), जबकि 'its' स्वामित्व दिखाता है (its bath)। इस वाक्य में दोनों का प्रयोग सही है।", "mr": "'It's' हे 'it is' चे संक्षिप्त रूप आहे (It's time), तर 'its' मालकी दर्शवतो (its bath). या वाक्यात दोन्हींचा वापर बरोबर आहे." },
+      "distractorAnalysis": {
+        "0": { "en": "Ownership needs 'its' without an apostrophe: 'its tail'.", "hi": "स्वामित्व के लिए बिना एपॉस्ट्रॉफ़ी वाला 'its' चाहिए: 'its tail'।", "mr": "मालकी दाखवण्यासाठी अपॉस्ट्रॉफीशिवाय 'its' हवे: 'its tail'." },
+        "1": { "en": "'Its a lovely day' means 'It is a lovely day', so it should be 'It's'.", "hi": "'Its a lovely day' का अर्थ 'It is a lovely day' है, इसलिए यहाँ 'It's' होना चाहिए।", "mr": "'Its a lovely day' म्हणजे 'It is a lovely day', म्हणून येथे 'It's' हवे." },
+        "3": { "en": "Ownership needs 'its' without an apostrophe: 'its leaves'.", "hi": "स्वामित्व के लिए बिना एपॉस्ट्रॉफ़ी वाला 'its' चाहिए: 'its leaves'।", "mr": "मालकी दाखवण्यासाठी अपॉस्ट्रॉफीशिवाय 'its' हवे: 'its leaves'." }
+      }
+    }
+  ]
+}

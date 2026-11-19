@@ -1,0 +1,1384 @@
+{
+  "examType": "RMS",
+  "classLevel": 6,
+  "paperNumber": 2,
+  "sectionKey": "general_knowledge",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "rms6-p2-gk-01",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Which city is the capital of the state of Odisha?",
+        "hi": "कौन-सा शहर ओडिशा राज्य की राजधानी है?",
+        "mr": "कोणते शहर ओडिशा राज्याची राजधानी आहे?"
+      },
+      "optionsJson": [
+        {
+          "en": "Bhubaneswar",
+          "hi": "भुवनेश्वर",
+          "mr": "भुवनेश्वर"
+        },
+        {
+          "en": "Cuttack",
+          "hi": "कटक",
+          "mr": "कटक"
+        },
+        {
+          "en": "Puri",
+          "hi": "पुरी",
+          "mr": "पुरी"
+        },
+        {
+          "en": "Rourkela",
+          "hi": "राउरकेला",
+          "mr": "राउरकेला"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Bhubaneswar is the capital of Odisha. It is known as the 'Temple City' of India.",
+        "hi": "भुवनेश्वर ओडिशा की राजधानी है। इसे भारत का 'मंदिरों का शहर' कहा जाता है।",
+        "mr": "भुवनेश्वर ही ओडिशाची राजधानी आहे. हे शहर भारताचे 'मंदिरांचे शहर' म्हणून ओळखले जाते."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Cuttack is a large and historic city of Odisha, but it is not the present capital.",
+          "hi": "कटक ओडिशा का एक बड़ा और ऐतिहासिक शहर है, पर वर्तमान राजधानी नहीं है।",
+          "mr": "कटक हे ओडिशाचे मोठे आणि ऐतिहासिक शहर आहे, पण सध्याची राजधानी नाही."
+        },
+        "2": {
+          "en": "Puri is famous for the Jagannath Temple, but it is not the capital.",
+          "hi": "पुरी जगन्नाथ मंदिर के लिए प्रसिद्ध है, पर राजधानी नहीं है।",
+          "mr": "पुरी जगन्नाथ मंदिरासाठी प्रसिद्ध आहे, पण राजधानी नाही."
+        },
+        "3": {
+          "en": "Rourkela is an industrial steel city, not the capital.",
+          "hi": "राउरकेला एक औद्योगिक इस्पात नगर है, राजधानी नहीं।",
+          "mr": "राउरकेला हे औद्योगिक पोलाद शहर आहे, राजधानी नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-gk-02",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Gangtok is the capital of which Indian state?",
+        "hi": "गंगटोक किस भारतीय राज्य की राजधानी है?",
+        "mr": "गंगटोक ही कोणत्या भारतीय राज्याची राजधानी आहे?"
+      },
+      "optionsJson": [
+        {
+          "en": "Mizoram",
+          "hi": "मिजोरम",
+          "mr": "मिझोराम"
+        },
+        {
+          "en": "Manipur",
+          "hi": "मणिपुर",
+          "mr": "मणिपूर"
+        },
+        {
+          "en": "Sikkim",
+          "hi": "सिक्किम",
+          "mr": "सिक्कीम"
+        },
+        {
+          "en": "Meghalaya",
+          "hi": "मेघालय",
+          "mr": "मेघालय"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Gangtok, set in the Himalayan foothills, is the capital of Sikkim.",
+        "hi": "हिमालय की तलहटी में बसा गंगटोक सिक्किम की राजधानी है।",
+        "mr": "हिमालयाच्या पायथ्याशी वसलेले गंगटोक ही सिक्कीमची राजधानी आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The capital of Mizoram is Aizawl.",
+          "hi": "मिजोरम की राजधानी आइजोल है।",
+          "mr": "मिझोरामची राजधानी ऐझॉल आहे."
+        },
+        "1": {
+          "en": "The capital of Manipur is Imphal.",
+          "hi": "मणिपुर की राजधानी इंफाल है।",
+          "mr": "मणिपूरची राजधानी इंफाळ आहे."
+        },
+        "3": {
+          "en": "The capital of Meghalaya is Shillong.",
+          "hi": "मेघालय की राजधानी शिलांग है।",
+          "mr": "मेघालयाची राजधानी शिलाँग आहे."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-gk-03",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "The city of Kolkata stands on the eastern bank of which river?",
+        "hi": "कोलकाता शहर किस नदी के पूर्वी तट पर बसा है?",
+        "mr": "कोलकाता शहर कोणत्या नदीच्या पूर्व तीरावर वसले आहे?"
+      },
+      "optionsJson": [
+        {
+          "en": "Damodar",
+          "hi": "दामोदर",
+          "mr": "दामोदर"
+        },
+        {
+          "en": "Hooghly",
+          "hi": "हुगली",
+          "mr": "हुगळी"
+        },
+        {
+          "en": "Mahanadi",
+          "hi": "महानदी",
+          "mr": "महानदी"
+        },
+        {
+          "en": "Subarnarekha",
+          "hi": "सुवर्णरेखा",
+          "mr": "सुवर्णरेखा"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Kolkata is built on the east bank of the Hooghly, a distributary of the Ganga, which makes it an important river port.",
+        "hi": "कोलकाता गंगा की वितरिका हुगली के पूर्वी तट पर बसा है, जिससे यह एक महत्वपूर्ण नदी बंदरगाह है।",
+        "mr": "कोलकाता गंगेचा फाटा (वितरिका) असलेल्या हुगळीच्या पूर्व तीरावर वसले आहे, त्यामुळे ते एक महत्त्वाचे नदीबंदर आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The Damodar flows through Jharkhand and West Bengal but Kolkata is not on its bank.",
+          "hi": "दामोदर झारखंड और पश्चिम बंगाल से बहती है, पर कोलकाता उसके तट पर नहीं है।",
+          "mr": "दामोदर झारखंड आणि पश्चिम बंगालमधून वाहते, पण कोलकाता तिच्या काठावर नाही."
+        },
+        "2": {
+          "en": "The Mahanadi flows mainly through Chhattisgarh and Odisha.",
+          "hi": "महानदी मुख्यतः छत्तीसगढ़ और ओडिशा से होकर बहती है।",
+          "mr": "महानदी प्रामुख्याने छत्तीसगड आणि ओडिशामधून वाहते."
+        },
+        "3": {
+          "en": "The Subarnarekha rises in Jharkhand and reaches the sea near Odisha, away from Kolkata.",
+          "hi": "सुवर्णरेखा झारखंड से निकलकर ओडिशा के पास समुद्र में मिलती है, कोलकाता से दूर।",
+          "mr": "सुवर्णरेखा झारखंडमध्ये उगम पावते आणि ओडिशाजवळ समुद्राला मिळते, कोलकात्यापासून दूर."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-gk-04",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Which is the highest mountain peak in the world above sea level?",
+        "hi": "समुद्र तल से ऊँचाई के आधार पर विश्व की सबसे ऊँची पर्वत चोटी कौन-सी है?",
+        "mr": "समुद्रसपाटीपासूनच्या उंचीनुसार जगातील सर्वात उंच पर्वतशिखर कोणते आहे?"
+      },
+      "optionsJson": [
+        {
+          "en": "K2",
+          "hi": "के2",
+          "mr": "के2"
+        },
+        {
+          "en": "Kangchenjunga",
+          "hi": "कंचनजंगा",
+          "mr": "कांचनजंगा"
+        },
+        {
+          "en": "Lhotse",
+          "hi": "ल्होत्से",
+          "mr": "ल्होत्से"
+        },
+        {
+          "en": "Mount Everest",
+          "hi": "माउंट एवरेस्ट",
+          "mr": "माउंट एव्हरेस्ट"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Mount Everest in the Himalayas, on the Nepal-China border, is about 8,849 metres high and is the tallest peak above sea level.",
+        "hi": "नेपाल-चीन सीमा पर हिमालय में स्थित माउंट एवरेस्ट लगभग 8,849 मीटर ऊँचा है और समुद्र तल से सबसे ऊँची चोटी है।",
+        "mr": "नेपाळ-चीन सीमेवर हिमालयात असलेले माउंट एव्हरेस्ट सुमारे 8,849 मीटर उंच असून समुद्रसपाटीपासून सर्वात उंच शिखर आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "K2 is the second highest peak in the world.",
+          "hi": "के2 विश्व की दूसरी सबसे ऊँची चोटी है।",
+          "mr": "के2 हे जगातील दुसरे सर्वात उंच शिखर आहे."
+        },
+        "1": {
+          "en": "Kangchenjunga is the third highest peak in the world, not the highest.",
+          "hi": "कंचनजंगा विश्व की तीसरी सबसे ऊँची चोटी है, सबसे ऊँची नहीं।",
+          "mr": "कांचनजंगा हे जगातील तिसरे सर्वात उंच शिखर आहे, सर्वात उंच नाही."
+        },
+        "2": {
+          "en": "Lhotse is the fourth highest peak, lower than Everest.",
+          "hi": "ल्होत्से चौथी सबसे ऊँची चोटी है और एवरेस्ट से नीची है।",
+          "mr": "ल्होत्से हे चौथे सर्वात उंच शिखर असून एव्हरेस्टपेक्षा कमी उंच आहे."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-gk-05",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Majuli, one of the largest river islands in the world, lies in which river in Assam?",
+        "hi": "माजुली, जो विश्व के सबसे बड़े नदी द्वीपों में से एक है, असम में किस नदी में स्थित है?",
+        "mr": "माजुली हे जगातील सर्वात मोठ्या नदीबेटांपैकी एक आसाममध्ये कोणत्या नदीत आहे?"
+      },
+      "optionsJson": [
+        {
+          "en": "Brahmaputra",
+          "hi": "ब्रह्मपुत्र",
+          "mr": "ब्रह्मपुत्रा"
+        },
+        {
+          "en": "Ganga",
+          "hi": "गंगा",
+          "mr": "गंगा"
+        },
+        {
+          "en": "Yamuna",
+          "hi": "यमुना",
+          "mr": "यमुना"
+        },
+        {
+          "en": "Kosi",
+          "hi": "कोसी",
+          "mr": "कोसी"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Majuli is formed by the mighty Brahmaputra and its tributaries in Assam.",
+        "hi": "माजुली असम में विशाल ब्रह्मपुत्र और उसकी सहायक नदियों से बना है।",
+        "mr": "माजुली हे आसाममध्ये विशाल ब्रह्मपुत्रा आणि तिच्या उपनद्यांनी तयार झालेले बेट आहे."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "The Ganga does not flow through Assam.",
+          "hi": "गंगा असम से होकर नहीं बहती।",
+          "mr": "गंगा आसाममधून वाहत नाही."
+        },
+        "2": {
+          "en": "The Yamuna flows in northern India, far from Assam.",
+          "hi": "यमुना उत्तर भारत में बहती है, असम से बहुत दूर।",
+          "mr": "यमुना उत्तर भारतात वाहते, आसामपासून खूप दूर."
+        },
+        "3": {
+          "en": "The Kosi flows in Nepal and Bihar, not in Assam.",
+          "hi": "कोसी नेपाल और बिहार में बहती है, असम में नहीं।",
+          "mr": "कोसी नेपाळ आणि बिहारमध्ये वाहते, आसाममध्ये नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-gk-06",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "The Thar Desert of India lies mainly in which state?",
+        "hi": "भारत का थार मरुस्थल मुख्यतः किस राज्य में स्थित है?",
+        "mr": "भारतातील थारचे वाळवंट प्रामुख्याने कोणत्या राज्यात आहे?"
+      },
+      "optionsJson": [
+        {
+          "en": "Gujarat",
+          "hi": "गुजरात",
+          "mr": "गुजरात"
+        },
+        {
+          "en": "Rajasthan",
+          "hi": "राजस्थान",
+          "mr": "राजस्थान"
+        },
+        {
+          "en": "Punjab",
+          "hi": "पंजाब",
+          "mr": "पंजाब"
+        },
+        {
+          "en": "Haryana",
+          "hi": "हरियाणा",
+          "mr": "हरियाणा"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Most of the Thar Desert, also called the Great Indian Desert, lies in western Rajasthan.",
+        "hi": "थार मरुस्थल, जिसे महान भारतीय मरुस्थल भी कहते हैं, का अधिकांश भाग पश्चिमी राजस्थान में है।",
+        "mr": "थारचे वाळवंट, ज्याला महान भारतीय वाळवंट असेही म्हणतात, त्याचा बहुतेक भाग पश्चिम राजस्थानमध्ये आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Only a small part of the desert's edge reaches Gujarat; the main desert is not there.",
+          "hi": "मरुस्थल का केवल छोटा किनारी भाग गुजरात तक पहुँचता है; मुख्य मरुस्थल वहाँ नहीं है।",
+          "mr": "वाळवंटाचा फक्त लहानसा किनारा गुजरातपर्यंत पोहोचतो; मुख्य वाळवंट तेथे नाही."
+        },
+        "2": {
+          "en": "Punjab is mostly fertile plain, not desert.",
+          "hi": "पंजाब मुख्यतः उपजाऊ मैदान है, मरुस्थल नहीं।",
+          "mr": "पंजाब हा प्रामुख्याने सुपीक मैदानी प्रदेश आहे, वाळवंट नाही."
+        },
+        "3": {
+          "en": "Haryana has only a small dry fringe, and most of it is fertile land.",
+          "hi": "हरियाणा में केवल छोटा शुष्क किनारा है, अधिकतर भाग उपजाऊ है।",
+          "mr": "हरियाणामध्ये फक्त लहान कोरडा किनारा आहे, बहुतेक भाग सुपीक आहे."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-gk-07",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "The famous Dal Lake is located in which city?",
+        "hi": "प्रसिद्ध डल झील किस शहर में स्थित है?",
+        "mr": "प्रसिद्ध डल सरोवर कोणत्या शहरात आहे?"
+      },
+      "optionsJson": [
+        {
+          "en": "Jammu",
+          "hi": "जम्मू",
+          "mr": "जम्मू"
+        },
+        {
+          "en": "Leh",
+          "hi": "लेह",
+          "mr": "लेह"
+        },
+        {
+          "en": "Srinagar",
+          "hi": "श्रीनगर",
+          "mr": "श्रीनगर"
+        },
+        {
+          "en": "Shimla",
+          "hi": "शिमला",
+          "mr": "शिमला"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Dal Lake, known for its houseboats and shikaras, is in Srinagar, Jammu and Kashmir.",
+        "hi": "डल झील, जो हाउसबोट और शिकारों के लिए प्रसिद्ध है, जम्मू-कश्मीर के श्रीनगर में है।",
+        "mr": "हाउसबोट आणि शिकाऱ्यांसाठी प्रसिद्ध असलेले डल सरोवर जम्मू-काश्मीरमधील श्रीनगर येथे आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Jammu is known for its temples, not for Dal Lake.",
+          "hi": "जम्मू मंदिरों के लिए जाना जाता है, डल झील के लिए नहीं।",
+          "mr": "जम्मू मंदिरांसाठी ओळखले जाते, डल सरोवरासाठी नाही."
+        },
+        "1": {
+          "en": "Leh is a high-altitude cold desert town in Ladakh.",
+          "hi": "लेह लद्दाख का एक ऊँचाई पर स्थित ठंडा मरुस्थलीय शहर है।",
+          "mr": "लेह हे लडाखमधील उंचावरील थंड वाळवंटी शहर आहे."
+        },
+        "3": {
+          "en": "Shimla is a hill station in Himachal Pradesh.",
+          "hi": "शिमला हिमाचल प्रदेश का एक पर्वतीय नगर है।",
+          "mr": "शिमला हे हिमाचल प्रदेशातील थंड हवेचे ठिकाण आहे."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-gk-08",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Which is the largest country in the world by area?",
+        "hi": "क्षेत्रफल की दृष्टि से विश्व का सबसे बड़ा देश कौन-सा है?",
+        "mr": "क्षेत्रफळानुसार जगातील सर्वात मोठा देश कोणता आहे?"
+      },
+      "optionsJson": [
+        {
+          "en": "Canada",
+          "hi": "कनाडा",
+          "mr": "कॅनडा"
+        },
+        {
+          "en": "China",
+          "hi": "चीन",
+          "mr": "चीन"
+        },
+        {
+          "en": "United States of America",
+          "hi": "संयुक्त राज्य अमेरिका",
+          "mr": "अमेरिकेची संयुक्त संस्थाने"
+        },
+        {
+          "en": "Russia",
+          "hi": "रूस",
+          "mr": "रशिया"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Russia, spread across Europe and Asia, is the largest country in the world by area.",
+        "hi": "यूरोप और एशिया में फैला रूस क्षेत्रफल में विश्व का सबसे बड़ा देश है।",
+        "mr": "युरोप आणि आशियात पसरलेला रशिया हा क्षेत्रफळानुसार जगातील सर्वात मोठा देश आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Canada is the second largest country, smaller than Russia.",
+          "hi": "कनाडा दूसरा सबसे बड़ा देश है, रूस से छोटा।",
+          "mr": "कॅनडा हा दुसरा सर्वात मोठा देश आहे, रशियापेक्षा लहान."
+        },
+        "1": {
+          "en": "China is very populous, but its area is smaller than Russia's.",
+          "hi": "चीन बहुत अधिक जनसंख्या वाला है, पर उसका क्षेत्रफल रूस से कम है।",
+          "mr": "चीन खूप लोकसंख्येचा आहे, पण त्याचे क्षेत्रफळ रशियापेक्षा कमी आहे."
+        },
+        "2": {
+          "en": "The United States is also very large, but it ranks behind Russia and Canada in area.",
+          "hi": "अमेरिका भी बहुत बड़ा है, पर क्षेत्रफल में रूस और कनाडा से पीछे है।",
+          "mr": "अमेरिकाही खूप मोठा आहे, पण क्षेत्रफळात रशिया आणि कॅनडाच्या मागे आहे."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-gk-09",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "The group of coral islands called Lakshadweep lies in which water body?",
+        "hi": "प्रवाल द्वीपों का समूह लक्षद्वीप किस जल निकाय में स्थित है?",
+        "mr": "प्रवाळ बेटांचा समूह असलेले लक्षद्वीप कोणत्या जलाशयात आहे?"
+      },
+      "optionsJson": [
+        {
+          "en": "Arabian Sea",
+          "hi": "अरब सागर",
+          "mr": "अरबी समुद्र"
+        },
+        {
+          "en": "Bay of Bengal",
+          "hi": "बंगाल की खाड़ी",
+          "mr": "बंगालचा उपसागर"
+        },
+        {
+          "en": "Red Sea",
+          "hi": "लाल सागर",
+          "mr": "तांबडा समुद्र"
+        },
+        {
+          "en": "Caspian Sea",
+          "hi": "कैस्पियन सागर",
+          "mr": "कॅस्पियन समुद्र"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Lakshadweep is an island group in the Arabian Sea, off the south-western coast of India near Kerala.",
+        "hi": "लक्षद्वीप केरल के पास भारत के दक्षिण-पश्चिमी तट से दूर अरब सागर में स्थित द्वीप समूह है।",
+        "mr": "लक्षद्वीप हा केरळजवळ भारताच्या नैऋत्य किनाऱ्यापासून दूर अरबी समुद्रात असलेला बेटसमूह आहे."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "The Bay of Bengal holds the Andaman and Nicobar Islands, not Lakshadweep.",
+          "hi": "बंगाल की खाड़ी में अंडमान और निकोबार द्वीप हैं, लक्षद्वीप नहीं।",
+          "mr": "बंगालच्या उपसागरात अंदमान आणि निकोबार बेटे आहेत, लक्षद्वीप नाही."
+        },
+        "2": {
+          "en": "The Red Sea lies between Africa and Arabia, far from India.",
+          "hi": "लाल सागर अफ्रीका और अरब के बीच है, भारत से दूर।",
+          "mr": "तांबडा समुद्र आफ्रिका आणि अरबस्तानच्या दरम्यान आहे, भारतापासून दूर."
+        },
+        "3": {
+          "en": "The Caspian Sea is an inland water body between Europe and Asia.",
+          "hi": "कैस्पियन सागर यूरोप और एशिया के बीच एक आंतरिक जल निकाय है।",
+          "mr": "कॅस्पियन समुद्र हा युरोप आणि आशियाच्या दरम्यानचा अंतर्गत जलाशय आहे."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-gk-10",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "The Hirakud Dam, one of the longest earthen dams in the world, is built across which river?",
+        "hi": "हीराकुंड बाँध, जो विश्व के सबसे लंबे मिट्टी के बाँधों में से एक है, किस नदी पर बना है?",
+        "mr": "हीराकुड धरण, जे जगातील सर्वात लांब मातीच्या धरणांपैकी एक आहे, कोणत्या नदीवर बांधले आहे?"
+      },
+      "optionsJson": [
+        {
+          "en": "Godavari",
+          "hi": "गोदावरी",
+          "mr": "गोदावरी"
+        },
+        {
+          "en": "Mahanadi",
+          "hi": "महानदी",
+          "mr": "महानदी"
+        },
+        {
+          "en": "Krishna",
+          "hi": "कृष्णा",
+          "mr": "कृष्णा"
+        },
+        {
+          "en": "Kaveri",
+          "hi": "कावेरी",
+          "mr": "कावेरी"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "The Hirakud Dam near Sambalpur in Odisha is built across the Mahanadi river.",
+        "hi": "ओडिशा में संबलपुर के पास हीराकुंड बाँध महानदी पर बना है।",
+        "mr": "ओडिशामध्ये संबळपूरजवळील हीराकुड धरण महानदीवर बांधले आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The Godavari has dams such as Jayakwadi, but not Hirakud.",
+          "hi": "गोदावरी पर जायकवाडी जैसे बाँध हैं, हीराकुंड नहीं।",
+          "mr": "गोदावरीवर जायकवाडीसारखी धरणे आहेत, हीराकुड नाही."
+        },
+        "2": {
+          "en": "The Krishna has dams such as Nagarjuna Sagar, not Hirakud.",
+          "hi": "कृष्णा पर नागार्जुन सागर जैसे बाँध हैं, हीराकुंड नहीं।",
+          "mr": "कृष्णेवर नागार्जुन सागरसारखी धरणे आहेत, हीराकुड नाही."
+        },
+        "3": {
+          "en": "The Kaveri has the Krishnaraja Sagar dam, not Hirakud.",
+          "hi": "कावेरी पर कृष्णराज सागर बाँध है, हीराकुंड नहीं।",
+          "mr": "कावेरीवर कृष्णराज सागर धरण आहे, हीराकुड नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-gk-11",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "The longest continental mountain range in the world, running along the western edge of South America, is the:",
+        "hi": "दक्षिण अमेरिका के पश्चिमी किनारे पर फैली विश्व की सबसे लंबी महाद्वीपीय पर्वतमाला कौन-सी है?",
+        "mr": "दक्षिण अमेरिकेच्या पश्चिम किनाऱ्यावर पसरलेली जगातील सर्वात लांब खंडीय पर्वतरांग कोणती?"
+      },
+      "optionsJson": [
+        {
+          "en": "Rockies",
+          "hi": "रॉकी",
+          "mr": "रॉकीज"
+        },
+        {
+          "en": "Alps",
+          "hi": "आल्प्स",
+          "mr": "आल्प्स"
+        },
+        {
+          "en": "Andes",
+          "hi": "एंडीज़",
+          "mr": "अँडीज"
+        },
+        {
+          "en": "Urals",
+          "hi": "यूराल",
+          "mr": "युरल"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The Andes stretch for about 7,000 km along the western coast of South America, making them the longest continental mountain range.",
+        "hi": "एंडीज़ दक्षिण अमेरिका के पश्चिमी तट पर लगभग 7,000 किमी तक फैली हैं और सबसे लंबी महाद्वीपीय पर्वतमाला हैं।",
+        "mr": "अँडीज दक्षिण अमेरिकेच्या पश्चिम किनाऱ्यावर सुमारे 7,000 किमी पसरली असून सर्वात लांब खंडीय पर्वतरांग आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The Rockies are in North America.",
+          "hi": "रॉकी पर्वत उत्तरी अमेरिका में हैं।",
+          "mr": "रॉकीज पर्वत उत्तर अमेरिकेत आहेत."
+        },
+        "1": {
+          "en": "The Alps are in Europe and are much shorter.",
+          "hi": "आल्प्स यूरोप में हैं और बहुत छोटी हैं।",
+          "mr": "आल्प्स युरोपमध्ये आहेत आणि खूपच लहान आहेत."
+        },
+        "3": {
+          "en": "The Urals are in Russia and separate Europe from Asia.",
+          "hi": "यूराल रूस में हैं और यूरोप को एशिया से अलग करते हैं।",
+          "mr": "युरल रशियात असून युरोप आणि आशियाला वेगळे करतात."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-gk-12",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which is the smallest country in the world by area?",
+        "hi": "क्षेत्रफल की दृष्टि से विश्व का सबसे छोटा देश कौन-सा है?",
+        "mr": "क्षेत्रफळानुसार जगातील सर्वात लहान देश कोणता आहे?"
+      },
+      "optionsJson": [
+        {
+          "en": "Monaco",
+          "hi": "मोनाको",
+          "mr": "मोनॅको"
+        },
+        {
+          "en": "San Marino",
+          "hi": "सैन मैरिनो",
+          "mr": "सॅन मरिनो"
+        },
+        {
+          "en": "Malta",
+          "hi": "माल्टा",
+          "mr": "माल्टा"
+        },
+        {
+          "en": "Vatican City",
+          "hi": "वैटिकन सिटी",
+          "mr": "व्हॅटिकन सिटी"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Vatican City, inside the city of Rome in Italy, covers only about 0.44 square km and is the smallest country in the world.",
+        "hi": "इटली के रोम शहर के भीतर स्थित वैटिकन सिटी का क्षेत्रफल केवल लगभग 0.44 वर्ग किमी है और यह विश्व का सबसे छोटा देश है।",
+        "mr": "इटलीतील रोम शहराच्या आत असलेले व्हॅटिकन सिटी केवळ सुमारे 0.44 चौरस किमी क्षेत्रफळाचे असून जगातील सर्वात लहान देश आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Monaco is the second smallest country, but larger than Vatican City.",
+          "hi": "मोनाको दूसरा सबसे छोटा देश है, पर वैटिकन सिटी से बड़ा है।",
+          "mr": "मोनॅको हा दुसरा सर्वात लहान देश आहे, पण व्हॅटिकन सिटीपेक्षा मोठा आहे."
+        },
+        "1": {
+          "en": "San Marino is small, but it is much larger than Vatican City.",
+          "hi": "सैन मैरिनो छोटा है, पर वैटिकन सिटी से बहुत बड़ा है।",
+          "mr": "सॅन मरिनो लहान आहे, पण व्हॅटिकन सिटीपेक्षा खूप मोठा आहे."
+        },
+        "2": {
+          "en": "Malta is a small island country, but far larger than Vatican City.",
+          "hi": "माल्टा एक छोटा द्वीपीय देश है, पर वैटिकन सिटी से कहीं बड़ा है।",
+          "mr": "माल्टा हा लहान बेटांचा देश आहे, पण व्हॅटिकन सिटीपेक्षा कितीतरी मोठा आहे."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-gk-13",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Jog Falls, one of the highest waterfalls in India, is formed by the Sharavati river in which state?",
+        "hi": "जोग जलप्रपात, जो भारत के सबसे ऊँचे जलप्रपातों में से एक है, शरावती नदी द्वारा किस राज्य में बनता है?",
+        "mr": "जोग धबधबा, जो भारतातील सर्वात उंच धबधब्यांपैकी एक आहे, शरावती नदीमुळे कोणत्या राज्यात तयार होतो?"
+      },
+      "optionsJson": [
+        {
+          "en": "Karnataka",
+          "hi": "कर्नाटक",
+          "mr": "कर्नाटक"
+        },
+        {
+          "en": "Kerala",
+          "hi": "केरल",
+          "mr": "केरळ"
+        },
+        {
+          "en": "Goa",
+          "hi": "गोवा",
+          "mr": "गोवा"
+        },
+        {
+          "en": "Maharashtra",
+          "hi": "महाराष्ट्र",
+          "mr": "महाराष्ट्र"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Jog Falls lies on the Sharavati river in the Western Ghats of Karnataka.",
+        "hi": "जोग जलप्रपात कर्नाटक के पश्चिमी घाट में शरावती नदी पर स्थित है।",
+        "mr": "जोग धबधबा कर्नाटकातील पश्चिम घाटात शरावती नदीवर आहे."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Kerala has falls such as Athirappilly, but Jog Falls is not in Kerala.",
+          "hi": "केरल में अथिरापिल्ली जैसे जलप्रपात हैं, पर जोग जलप्रपात केरल में नहीं है।",
+          "mr": "केरळमध्ये अथिरपल्लीसारखे धबधबे आहेत, पण जोग धबधबा केरळमध्ये नाही."
+        },
+        "2": {
+          "en": "Goa has Dudhsagar Falls, not Jog Falls.",
+          "hi": "गोवा में दूधसागर जलप्रपात है, जोग नहीं।",
+          "mr": "गोव्यात दूधसागर धबधबा आहे, जोग नाही."
+        },
+        "3": {
+          "en": "Maharashtra has falls such as Thoseghar, but not Jog Falls.",
+          "hi": "महाराष्ट्र में ठोसेघर जैसे जलप्रपात हैं, जोग जलप्रपात नहीं।",
+          "mr": "महाराष्ट्रात ठोसेघरसारखे धबधबे आहेत, पण जोग धबधबा नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-gk-14",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Which river of Africa flows northwards and drains into the Mediterranean Sea?",
+        "hi": "अफ्रीका की कौन-सी नदी उत्तर की ओर बहकर भूमध्य सागर में गिरती है?",
+        "mr": "आफ्रिकेतील कोणती नदी उत्तरेकडे वाहून भूमध्य समुद्राला मिळते?"
+      },
+      "optionsJson": [
+        {
+          "en": "Congo",
+          "hi": "कांगो",
+          "mr": "काँगो"
+        },
+        {
+          "en": "Nile",
+          "hi": "नील",
+          "mr": "नाईल"
+        },
+        {
+          "en": "Niger",
+          "hi": "नाइजर",
+          "mr": "नायजर"
+        },
+        {
+          "en": "Zambezi",
+          "hi": "ज़ाम्बेज़ी",
+          "mr": "झांबेझी"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "The Nile flows north through Uganda, Sudan and Egypt and ends in a delta on the Mediterranean Sea.",
+        "hi": "नील नदी युगांडा, सूडान और मिस्र से उत्तर की ओर बहकर भूमध्य सागर पर डेल्टा बनाती है।",
+        "mr": "नाईल नदी युगांडा, सुदान आणि इजिप्तमधून उत्तरेकडे वाहून भूमध्य समुद्रावर त्रिभुज प्रदेश तयार करते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The Congo flows west and ends in the Atlantic Ocean.",
+          "hi": "कांगो पश्चिम की ओर बहकर अटलांटिक महासागर में गिरती है।",
+          "mr": "काँगो पश्चिमेकडे वाहून अटलांटिक महासागराला मिळते."
+        },
+        "2": {
+          "en": "The Niger ends in the Gulf of Guinea in the Atlantic Ocean.",
+          "hi": "नाइजर अटलांटिक महासागर की गिनी की खाड़ी में गिरती है।",
+          "mr": "नायजर अटलांटिक महासागरातील गिनीच्या आखातात मिळते."
+        },
+        "3": {
+          "en": "The Zambezi flows eastwards into the Indian Ocean.",
+          "hi": "ज़ाम्बेज़ी पूर्व की ओर बहकर हिंद महासागर में गिरती है।",
+          "mr": "झांबेझी पूर्वेकडे वाहून हिंद महासागराला मिळते."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-gk-15",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "The Mariana Trench, the deepest known part of the Earth's oceans, lies in which ocean?",
+        "hi": "मारियाना गर्त, जो पृथ्वी के महासागरों का सबसे गहरा ज्ञात भाग है, किस महासागर में स्थित है?",
+        "mr": "मारियाना खंदक, जो पृथ्वीवरील महासागरांचा सर्वात खोल ज्ञात भाग आहे, कोणत्या महासागरात आहे?"
+      },
+      "optionsJson": [
+        {
+          "en": "Atlantic Ocean",
+          "hi": "अटलांटिक महासागर",
+          "mr": "अटलांटिक महासागर"
+        },
+        {
+          "en": "Indian Ocean",
+          "hi": "हिंद महासागर",
+          "mr": "हिंदी महासागर"
+        },
+        {
+          "en": "Pacific Ocean",
+          "hi": "प्रशांत महासागर",
+          "mr": "प्रशांत महासागर"
+        },
+        {
+          "en": "Arctic Ocean",
+          "hi": "आर्कटिक महासागर",
+          "mr": "आर्क्टिक महासागर"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The Mariana Trench is in the western Pacific Ocean, near the Mariana Islands, and is about 11 km deep.",
+        "hi": "मारियाना गर्त पश्चिमी प्रशांत महासागर में मारियाना द्वीपों के पास है और लगभग 11 किमी गहरा है।",
+        "mr": "मारियाना खंदक पश्चिम प्रशांत महासागरात मारियाना बेटांजवळ असून सुमारे 11 किमी खोल आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The Atlantic's deepest point, the Puerto Rico Trench, is much shallower.",
+          "hi": "अटलांटिक का सबसे गहरा बिंदु, प्यूर्टो रिको गर्त, इससे बहुत कम गहरा है।",
+          "mr": "अटलांटिकमधील सर्वात खोल ठिकाण, प्युर्टो रिको खंदक, याहून खूपच कमी खोल आहे."
+        },
+        "1": {
+          "en": "The deepest part of the Indian Ocean, the Java Trench, is shallower than the Mariana Trench.",
+          "hi": "हिंद महासागर का सबसे गहरा भाग, जावा गर्त, मारियाना गर्त से कम गहरा है।",
+          "mr": "हिंदी महासागराचा सर्वात खोल भाग, जावा खंदक, मारियाना खंदकापेक्षा कमी खोल आहे."
+        },
+        "3": {
+          "en": "The Arctic is the smallest and shallowest ocean, with no such deep trench.",
+          "hi": "आर्कटिक सबसे छोटा और सबसे कम गहरा महासागर है, उसमें ऐसा गहरा गर्त नहीं है।",
+          "mr": "आर्क्टिक हा सर्वात लहान आणि कमी खोलीचा महासागर आहे, त्यात इतका खोल खंदक नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-gk-16",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Which instrument is used to measure atmospheric pressure?",
+        "hi": "वायुमंडलीय दाब मापने के लिए किस यंत्र का प्रयोग किया जाता है?",
+        "mr": "वातावरणीय दाब मोजण्यासाठी कोणते उपकरण वापरले जाते?"
+      },
+      "optionsJson": [
+        {
+          "en": "Thermometer",
+          "hi": "थर्मामीटर",
+          "mr": "थर्मामीटर"
+        },
+        {
+          "en": "Hygrometer",
+          "hi": "आर्द्रतामापी",
+          "mr": "आर्द्रतामापी"
+        },
+        {
+          "en": "Anemometer",
+          "hi": "पवनवेगमापी",
+          "mr": "पवनवेगमापी"
+        },
+        {
+          "en": "Barometer",
+          "hi": "वायुदाबमापी (बैरोमीटर)",
+          "mr": "वायुभारमापी (बॅरोमीटर)"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "A barometer measures atmospheric (air) pressure.",
+        "hi": "बैरोमीटर वायुमंडलीय (वायु) दाब मापता है।",
+        "mr": "बॅरोमीटर वातावरणीय (हवेचा) दाब मोजतो."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "A thermometer measures temperature, not pressure.",
+          "hi": "थर्मामीटर तापमान मापता है, दाब नहीं।",
+          "mr": "थर्मामीटर तापमान मोजतो, दाब नव्हे."
+        },
+        "1": {
+          "en": "A hygrometer measures humidity (moisture in the air).",
+          "hi": "आर्द्रतामापी हवा में नमी (आर्द्रता) मापता है।",
+          "mr": "आर्द्रतामापी हवेतील आर्द्रता मोजतो."
+        },
+        "2": {
+          "en": "An anemometer measures wind speed.",
+          "hi": "पवनवेगमापी हवा की गति मापता है।",
+          "mr": "पवनवेगमापी वाऱ्याचा वेग मोजतो."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-gk-17",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Which blood cells in the human body carry oxygen?",
+        "hi": "मानव शरीर में कौन-सी रक्त कोशिकाएँ ऑक्सीजन ले जाती हैं?",
+        "mr": "मानवी शरीरात कोणत्या रक्तपेशी ऑक्सिजन वाहून नेतात?"
+      },
+      "optionsJson": [
+        {
+          "en": "Red blood cells",
+          "hi": "लाल रक्त कोशिकाएँ",
+          "mr": "तांबड्या रक्तपेशी"
+        },
+        {
+          "en": "White blood cells",
+          "hi": "श्वेत रक्त कोशिकाएँ",
+          "mr": "पांढऱ्या रक्तपेशी"
+        },
+        {
+          "en": "Platelets",
+          "hi": "प्लेटलेट्स",
+          "mr": "रक्तबिंबिका"
+        },
+        {
+          "en": "Nerve cells",
+          "hi": "तंत्रिका कोशिकाएँ",
+          "mr": "चेतापेशी"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Red blood cells contain haemoglobin, which binds oxygen in the lungs and carries it to all parts of the body.",
+        "hi": "लाल रक्त कोशिकाओं में हीमोग्लोबिन होता है, जो फेफड़ों में ऑक्सीजन से जुड़कर उसे शरीर के सभी भागों तक पहुँचाता है।",
+        "mr": "तांबड्या रक्तपेशींमध्ये हिमोग्लोबिन असते, जे फुफ्फुसांत ऑक्सिजनशी जोडले जाऊन तो शरीराच्या सर्व भागांपर्यंत पोहोचवते."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "White blood cells fight germs and infections.",
+          "hi": "श्वेत रक्त कोशिकाएँ कीटाणुओं और संक्रमण से लड़ती हैं।",
+          "mr": "पांढऱ्या रक्तपेशी जंतू आणि संसर्गाशी लढतात."
+        },
+        "2": {
+          "en": "Platelets help the blood to clot when we are injured.",
+          "hi": "प्लेटलेट्स चोट लगने पर खून का थक्का जमाने में मदद करती हैं।",
+          "mr": "रक्तबिंबिका इजा झाल्यावर रक्त गोठण्यास मदत करतात."
+        },
+        "3": {
+          "en": "Nerve cells carry messages to and from the brain, not oxygen.",
+          "hi": "तंत्रिका कोशिकाएँ मस्तिष्क तक संदेश लाती-ले जाती हैं, ऑक्सीजन नहीं।",
+          "mr": "चेतापेशी मेंदूकडे आणि मेंदूकडून संदेश वाहून नेतात, ऑक्सिजन नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-gk-18",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Who was the first Prime Minister of independent India?",
+        "hi": "स्वतंत्र भारत के पहले प्रधानमंत्री कौन थे?",
+        "mr": "स्वतंत्र भारताचे पहिले पंतप्रधान कोण होते?"
+      },
+      "optionsJson": [
+        {
+          "en": "Sardar Vallabhbhai Patel",
+          "hi": "सरदार वल्लभभाई पटेल",
+          "mr": "सरदार वल्लभभाई पटेल"
+        },
+        {
+          "en": "Dr. Rajendra Prasad",
+          "hi": "डॉ. राजेंद्र प्रसाद",
+          "mr": "डॉ. राजेंद्र प्रसाद"
+        },
+        {
+          "en": "Jawaharlal Nehru",
+          "hi": "जवाहरलाल नेहरू",
+          "mr": "जवाहरलाल नेहरू"
+        },
+        {
+          "en": "Lal Bahadur Shastri",
+          "hi": "लाल बहादुर शास्त्री",
+          "mr": "लाल बहादूर शास्त्री"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Jawaharlal Nehru became the first Prime Minister of India on 15 August 1947 and served until 1964.",
+        "hi": "जवाहरलाल नेहरू 15 अगस्त 1947 को भारत के पहले प्रधानमंत्री बने और 1964 तक इस पद पर रहे।",
+        "mr": "जवाहरलाल नेहरू 15 ऑगस्ट 1947 रोजी भारताचे पहिले पंतप्रधान झाले आणि 1964 पर्यंत या पदावर होते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Sardar Patel was the first Deputy Prime Minister and Home Minister.",
+          "hi": "सरदार पटेल पहले उप-प्रधानमंत्री और गृह मंत्री थे।",
+          "mr": "सरदार पटेल हे पहिले उपपंतप्रधान आणि गृहमंत्री होते."
+        },
+        "1": {
+          "en": "Dr. Rajendra Prasad was the first President of India.",
+          "hi": "डॉ. राजेंद्र प्रसाद भारत के पहले राष्ट्रपति थे।",
+          "mr": "डॉ. राजेंद्र प्रसाद हे भारताचे पहिले राष्ट्रपती होते."
+        },
+        "3": {
+          "en": "Lal Bahadur Shastri was the second Prime Minister of India.",
+          "hi": "लाल बहादुर शास्त्री भारत के दूसरे प्रधानमंत्री थे।",
+          "mr": "लाल बहादूर शास्त्री हे भारताचे दुसरे पंतप्रधान होते."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-gk-19",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "How many spokes does the Ashoka Chakra on the National Flag of India have?",
+        "hi": "भारत के राष्ट्रीय ध्वज के अशोक चक्र में कितनी तीलियाँ (अरे) होती हैं?",
+        "mr": "भारताच्या राष्ट्रध्वजावरील अशोक चक्रात किती आरे असतात?"
+      },
+      "optionsJson": [
+        {
+          "en": "12",
+          "hi": "12",
+          "mr": "12"
+        },
+        {
+          "en": "24",
+          "hi": "24",
+          "mr": "24"
+        },
+        {
+          "en": "32",
+          "hi": "32",
+          "mr": "32"
+        },
+        {
+          "en": "20",
+          "hi": "20",
+          "mr": "20"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "The navy-blue Ashoka Chakra at the centre of the white band has 24 spokes, taken from the Lion Capital of Sarnath.",
+        "hi": "सफेद पट्टी के बीच में बने नीले अशोक चक्र में 24 तीलियाँ होती हैं, जो सारनाथ के सिंह स्तंभ शीर्ष से ली गई हैं।",
+        "mr": "पांढऱ्या पट्ट्याच्या मध्यभागी असलेल्या निळ्या अशोक चक्रात 24 आरे असतात, जे सारनाथच्या सिंहस्तंभावरून घेतले आहेत."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "12 is too few; the wheel has twice this number of spokes.",
+          "hi": "12 बहुत कम है; चक्र में इसके दुगुने अरे होते हैं।",
+          "mr": "12 खूप कमी आहेत; चक्रात याच्या दुप्पट आरे असतात."
+        },
+        "2": {
+          "en": "32 is too many; the Ashoka Chakra does not have this many spokes.",
+          "hi": "32 बहुत अधिक है; अशोक चक्र में इतनी तीलियाँ नहीं होतीं।",
+          "mr": "32 खूप जास्त आहेत; अशोक चक्रात इतके आरे नसतात."
+        },
+        "3": {
+          "en": "20 is not the number of spokes in the Ashoka Chakra.",
+          "hi": "20 अशोक चक्र की तीलियों की संख्या नहीं है।",
+          "mr": "20 ही अशोक चक्रातील आऱ्यांची संख्या नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-gk-20",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which ruler founded the Mughal Empire in India after winning the First Battle of Panipat in 1526?",
+        "hi": "1526 में पानीपत की पहली लड़ाई जीतकर भारत में मुग़ल साम्राज्य की स्थापना किस शासक ने की?",
+        "mr": "1526 मध्ये पानिपतची पहिली लढाई जिंकून भारतात मुघल साम्राज्याची स्थापना कोणत्या शासकाने केली?"
+      },
+      "optionsJson": [
+        {
+          "en": "Akbar",
+          "hi": "अकबर",
+          "mr": "अकबर"
+        },
+        {
+          "en": "Humayun",
+          "hi": "हुमायूँ",
+          "mr": "हुमायून"
+        },
+        {
+          "en": "Sher Shah Suri",
+          "hi": "शेरशाह सूरी",
+          "mr": "शेरशाह सूरी"
+        },
+        {
+          "en": "Babur",
+          "hi": "बाबर",
+          "mr": "बाबर"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Babur defeated Ibrahim Lodi in the First Battle of Panipat in 1526 and laid the foundation of the Mughal Empire.",
+        "hi": "बाबर ने 1526 में पानीपत की पहली लड़ाई में इब्राहीम लोदी को हराकर मुग़ल साम्राज्य की नींव रखी।",
+        "mr": "बाबराने 1526 मध्ये पानिपतच्या पहिल्या लढाईत इब्राहीम लोदीचा पराभव करून मुघल साम्राज्याचा पाया घातला."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Akbar was Babur's grandson and expanded the empire later.",
+          "hi": "अकबर बाबर का पोता था और उसने बाद में साम्राज्य का विस्तार किया।",
+          "mr": "अकबर बाबराचा नातू होता आणि त्याने नंतर साम्राज्याचा विस्तार केला."
+        },
+        "1": {
+          "en": "Humayun was Babur's son and ruled after him.",
+          "hi": "हुमायूँ बाबर का पुत्र था और उसके बाद शासक बना।",
+          "mr": "हुमायून बाबराचा मुलगा होता आणि त्याच्यानंतर शासक झाला."
+        },
+        "2": {
+          "en": "Sher Shah Suri defeated Humayun and ruled later; he did not found the Mughal Empire.",
+          "hi": "शेरशाह सूरी ने हुमायूँ को हराकर बाद में शासन किया; उसने मुग़ल साम्राज्य की स्थापना नहीं की।",
+          "mr": "शेरशाह सूरीने हुमायूनला हरवून नंतर राज्य केले; त्याने मुघल साम्राज्याची स्थापना केली नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-gk-21",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Marble is formed when limestone is changed by great heat and pressure. Which type of rock is marble?",
+        "hi": "संगमरमर तब बनता है जब चूना पत्थर अत्यधिक ताप और दाब से बदल जाता है। संगमरमर किस प्रकार की चट्टान है?",
+        "mr": "चुनखडी प्रचंड उष्णता आणि दाबामुळे बदलून संगमरवर तयार होतो. संगमरवर हा कोणत्या प्रकारचा खडक आहे?"
+      },
+      "optionsJson": [
+        {
+          "en": "Igneous",
+          "hi": "आग्नेय",
+          "mr": "अग्निजन्य"
+        },
+        {
+          "en": "Sedimentary",
+          "hi": "अवसादी",
+          "mr": "गाळाचा"
+        },
+        {
+          "en": "Metamorphic",
+          "hi": "रूपांतरित",
+          "mr": "रूपांतरित"
+        },
+        {
+          "en": "Volcanic",
+          "hi": "ज्वालामुखीय",
+          "mr": "ज्वालामुखीय"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Rocks that change their form because of heat and pressure are called metamorphic rocks. Limestone changes into marble in this way.",
+        "hi": "ताप और दाब के कारण रूप बदलने वाली चट्टानें रूपांतरित चट्टानें कहलाती हैं। चूना पत्थर इसी प्रकार संगमरमर बनता है।",
+        "mr": "उष्णता आणि दाबामुळे रूप बदलणाऱ्या खडकांना रूपांतरित खडक म्हणतात. चुनखडी अशाच प्रकारे संगमरवरात बदलते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Igneous rocks form when molten magma or lava cools, not by changing existing rock.",
+          "hi": "आग्नेय चट्टानें पिघले मैग्मा या लावा के ठंडा होने से बनती हैं, पहले से बनी चट्टान के बदलने से नहीं।",
+          "mr": "अग्निजन्य खडक वितळलेले मॅग्मा किंवा लाव्हा थंड होऊन तयार होतात, आधीच्या खडकात बदल होऊन नाही."
+        },
+        "1": {
+          "en": "Limestone itself is sedimentary, but marble is the changed form of it.",
+          "hi": "चूना पत्थर स्वयं अवसादी है, पर संगमरमर उसका बदला हुआ रूप है।",
+          "mr": "चुनखडी स्वतः गाळाचा खडक आहे, पण संगमरवर हे त्याचे बदललेले रूप आहे."
+        },
+        "3": {
+          "en": "Marble is not formed by a volcanic eruption; it forms from limestone changed by heat and pressure inside the crust.",
+          "hi": "संगमरमर ज्वालामुखी से नहीं बनता; यह भूपर्पटी के भीतर ताप और दाब से बनता है।",
+          "mr": "संगमरवर ज्वालामुखीतून तयार होत नाही; तो भूकवचाच्या आत उष्णता आणि दाबामुळे तयार होतो."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-gk-22",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Onam, a harvest festival with boat races and floral carpets called pookalam, is mainly celebrated in which state?",
+        "hi": "ओणम, जो नौका दौड़ और पूक्कलम नामक फूलों की रंगोली वाला फसल उत्सव है, मुख्यतः किस राज्य में मनाया जाता है?",
+        "mr": "ओणम हा नौकास्पर्धा आणि पूक्कलम नावाच्या फुलांच्या रांगोळीचा सुगीचा सण प्रामुख्याने कोणत्या राज्यात साजरा केला जातो?"
+      },
+      "optionsJson": [
+        {
+          "en": "Kerala",
+          "hi": "केरल",
+          "mr": "केरळ"
+        },
+        {
+          "en": "Tamil Nadu",
+          "hi": "तमिलनाडु",
+          "mr": "तमिळनाडू"
+        },
+        {
+          "en": "Karnataka",
+          "hi": "कर्नाटक",
+          "mr": "कर्नाटक"
+        },
+        {
+          "en": "Andhra Pradesh",
+          "hi": "आंध्र प्रदेश",
+          "mr": "आंध्र प्रदेश"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Onam is the biggest festival of Kerala, celebrated in August-September with feasts, boat races and pookalam.",
+        "hi": "ओणम केरल का सबसे बड़ा त्योहार है, जो अगस्त-सितंबर में दावत, नौका दौड़ और पूक्कलम के साथ मनाया जाता है।",
+        "mr": "ओणम हा केरळचा सर्वात मोठा सण असून ऑगस्ट-सप्टेंबरमध्ये मेजवानी, नौकास्पर्धा आणि पूक्कलमसह साजरा केला जातो."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Tamil Nadu's main harvest festival is Pongal.",
+          "hi": "तमिलनाडु का मुख्य फसल उत्सव पोंगल है।",
+          "mr": "तमिळनाडूचा मुख्य सुगीचा सण पोंगल आहे."
+        },
+        "2": {
+          "en": "Karnataka is known for festivals such as Mysuru Dasara.",
+          "hi": "कर्नाटक मैसूर दशहरा जैसे त्योहारों के लिए जाना जाता है।",
+          "mr": "कर्नाटक म्हैसूर दसऱ्यासारख्या सणांसाठी ओळखले जाते."
+        },
+        "3": {
+          "en": "Andhra Pradesh is known for festivals such as Ugadi.",
+          "hi": "आंध्र प्रदेश उगादी जैसे त्योहारों के लिए जाना जाता है।",
+          "mr": "आंध्र प्रदेश उगादीसारख्या सणांसाठी ओळखले जाते."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-gk-23",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "The Santosh Trophy is the national championship for states in which sport?",
+        "hi": "संतोष ट्रॉफी किस खेल में राज्यों की राष्ट्रीय चैंपियनशिप है?",
+        "mr": "संतोष ट्रॉफी ही कोणत्या खेळातील राज्यांसाठीची राष्ट्रीय स्पर्धा आहे?"
+      },
+      "optionsJson": [
+        {
+          "en": "Hockey",
+          "hi": "हॉकी",
+          "mr": "हॉकी"
+        },
+        {
+          "en": "Football",
+          "hi": "फुटबॉल",
+          "mr": "फुटबॉल"
+        },
+        {
+          "en": "Kabaddi",
+          "hi": "कबड्डी",
+          "mr": "कबड्डी"
+        },
+        {
+          "en": "Cricket",
+          "hi": "क्रिकेट",
+          "mr": "क्रिकेट"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "The Santosh Trophy is India's oldest national football championship, played between states and teams.",
+        "hi": "संतोष ट्रॉफी भारत की सबसे पुरानी राष्ट्रीय फुटबॉल चैंपियनशिप है, जो राज्यों और टीमों के बीच खेली जाती है।",
+        "mr": "संतोष ट्रॉफी ही भारतातील सर्वात जुनी राष्ट्रीय फुटबॉल स्पर्धा असून ती राज्ये आणि संघांमध्ये खेळली जाते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "A famous hockey tournament is the Beighton Cup, not the Santosh Trophy.",
+          "hi": "हॉकी की प्रसिद्ध प्रतियोगिता बेइटन कप है, संतोष ट्रॉफी नहीं।",
+          "mr": "हॉकीतील प्रसिद्ध स्पर्धा बेटन चषक आहे, संतोष ट्रॉफी नाही."
+        },
+        "2": {
+          "en": "Kabaddi has its own national championships; the Santosh Trophy is not one of them.",
+          "hi": "कबड्डी की अपनी राष्ट्रीय चैंपियनशिप हैं; संतोष ट्रॉफी उनमें नहीं है।",
+          "mr": "कबड्डीच्या स्वतःच्या राष्ट्रीय स्पर्धा आहेत; संतोष ट्रॉफी त्यात नाही."
+        },
+        "3": {
+          "en": "The main domestic cricket championship is the Ranji Trophy.",
+          "hi": "क्रिकेट की मुख्य घरेलू चैंपियनशिप रणजी ट्रॉफी है।",
+          "mr": "क्रिकेटची मुख्य देशांतर्गत स्पर्धा रणजी ट्रॉफी आहे."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-gk-24",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which instrument is used to measure the amount of rainfall?",
+        "hi": "वर्षा की मात्रा मापने के लिए किस उपकरण का उपयोग किया जाता है?",
+        "mr": "पावसाचे प्रमाण मोजण्यासाठी कोणते उपकरण वापरतात?"
+      },
+      "optionsJson": [
+        {
+          "en": "Barometer",
+          "hi": "बैरोमीटर",
+          "mr": "वायुभारमापक"
+        },
+        {
+          "en": "Thermometer",
+          "hi": "थर्मामीटर",
+          "mr": "तापमापक"
+        },
+        {
+          "en": "Anemometer",
+          "hi": "एनीमोमीटर",
+          "mr": "वायुवेगमापक"
+        },
+        {
+          "en": "Rain gauge",
+          "hi": "वर्षामापी",
+          "mr": "पर्जन्यमापक"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "A rain gauge collects rainwater in a measuring cylinder so that rainfall can be read in millimetres.",
+        "hi": "वर्षामापी वर्षा का जल एक मापक सिलेंडर में एकत्र करता है, जिससे वर्षा मिलीमीटर में पढ़ी जाती है।",
+        "mr": "पर्जन्यमापक पावसाचे पाणी मोजपात्रात गोळा करतो, ज्यामुळे पाऊस मिलिमीटरमध्ये मोजता येतो."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "A barometer measures air pressure.",
+          "hi": "बैरोमीटर वायुदाब मापता है।",
+          "mr": "वायुभारमापक हवेचा दाब मोजतो."
+        },
+        "1": {
+          "en": "A thermometer measures temperature.",
+          "hi": "थर्मामीटर तापमान मापता है।",
+          "mr": "तापमापक तापमान मोजतो."
+        },
+        "2": {
+          "en": "An anemometer measures wind speed.",
+          "hi": "एनीमोमीटर हवा की गति मापता है।",
+          "mr": "वायुवेगमापक वाऱ्याचा वेग मोजतो."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-gk-25",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Which ancient city, near present-day Patna, was the capital of the Maurya Empire?",
+        "hi": "वर्तमान पटना के निकट स्थित कौन-सा प्राचीन नगर मौर्य साम्राज्य की राजधानी था?",
+        "mr": "सध्याच्या पाटण्याजवळचे कोणते प्राचीन शहर मौर्य साम्राज्याची राजधानी होते?"
+      },
+      "optionsJson": [
+        {
+          "en": "Pataliputra",
+          "hi": "पाटलिपुत्र",
+          "mr": "पाटलिपुत्र"
+        },
+        {
+          "en": "Ujjain",
+          "hi": "उज्जैन",
+          "mr": "उज्जैन"
+        },
+        {
+          "en": "Taxila",
+          "hi": "तक्षशिला",
+          "mr": "तक्षशिला"
+        },
+        {
+          "en": "Kannauj",
+          "hi": "कन्नौज",
+          "mr": "कनौज"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Pataliputra, on the banks of the Ganga near today's Patna, was the capital of the Maurya Empire under Chandragupta and Ashoka.",
+        "hi": "आज के पटना के पास गंगा तट पर स्थित पाटलिपुत्र चंद्रगुप्त और अशोक के समय मौर्य साम्राज्य की राजधानी था।",
+        "mr": "आजच्या पाटण्याजवळ गंगेच्या काठावरील पाटलिपुत्र हे चंद्रगुप्त आणि अशोकाच्या काळात मौर्य साम्राज्याची राजधानी होते."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Ujjain was an important Mauryan provincial centre, not the capital, and it is in Madhya Pradesh.",
+          "hi": "उज्जैन मौर्यकाल का महत्वपूर्ण प्रांतीय केंद्र था, राजधानी नहीं, और यह मध्य प्रदेश में है।",
+          "mr": "उज्जैन हे मौर्यकाळातील महत्त्वाचे प्रांतीय केंद्र होते, राजधानी नाही, आणि ते मध्य प्रदेशात आहे."
+        },
+        "2": {
+          "en": "Taxila was a famous centre of learning in the north-west, not near Patna.",
+          "hi": "तक्षशिला उत्तर-पश्चिम में शिक्षा का प्रसिद्ध केंद्र था, पटना के पास नहीं।",
+          "mr": "तक्षशिला हे उत्तर-पश्चिमेकडील प्रसिद्ध शिक्षणकेंद्र होते, पाटण्याजवळ नाही."
+        },
+        "3": {
+          "en": "Kannauj became an important capital much later, under rulers like Harsha, and it is not near Patna.",
+          "hi": "कन्नौज बहुत बाद में हर्ष जैसे शासकों के समय महत्वपूर्ण राजधानी बना, और यह पटना के पास नहीं है।",
+          "mr": "कनौज हर्षासारख्या शासकांच्या काळात खूप नंतर महत्त्वाची राजधानी बनले, आणि ते पाटण्याजवळ नाही."
+        }
+      }
+    }
+  ]
+}

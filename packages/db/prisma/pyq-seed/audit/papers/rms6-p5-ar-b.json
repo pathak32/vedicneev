@@ -1,0 +1,484 @@
+{
+  "examType": "RMS",
+  "classLevel": 6,
+  "paperNumber": 5,
+  "sectionKey": "arithmetic",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "rms6-p5-ar-26",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "A rectangular playground is 14 m long and 9 m wide. What is its area?", "hi": "एक आयताकार खेल के मैदान की लंबाई 14 m और चौड़ाई 9 m है। उसका क्षेत्रफल कितना है?", "mr": "एका आयताकृती खेळाच्या मैदानाची लांबी 14 m आणि रुंदी 9 m आहे. त्याचे क्षेत्रफळ किती?" },
+      "optionsJson": [
+        { "en": "46 m²", "hi": "46 m²", "mr": "46 m²" },
+        { "en": "126 m²", "hi": "126 m²", "mr": "126 m²" },
+        { "en": "63 m²", "hi": "63 m²", "mr": "63 m²" },
+        { "en": "252 m²", "hi": "252 m²", "mr": "252 m²" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Area of a rectangle = length × width = 14 × 9 = 126 m².", "hi": "आयत का क्षेत्रफल = लंबाई × चौड़ाई = 14 × 9 = 126 m²।", "mr": "आयताचे क्षेत्रफळ = लांबी × रुंदी = 14 × 9 = 126 m²." },
+      "distractorAnalysis": {
+        "0": { "en": "This is the perimeter 2 × (14 + 9) = 46 m, which is a length in metres, not an area.", "hi": "यह परिमाप 2 × (14 + 9) = 46 m है, क्षेत्रफल नहीं।", "mr": "ही परिमिती 2 × (14 + 9) = 46 m आहे, क्षेत्रफळ नाही." },
+        "2": { "en": "Takes half of the product; the area of a rectangle is the full product 14 × 9.", "hi": "गुणनफल का आधा ले लिया; आयत का क्षेत्रफल पूरा गुणनफल 14 × 9 होता है।", "mr": "गुणाकाराचा निम्मा भाग घेतला; आयताचे क्षेत्रफळ म्हणजे पूर्ण गुणाकार 14 × 9." },
+        "3": { "en": "Doubles the product 14 × 9, confusing it with the perimeter formula that has a factor of 2.", "hi": "गुणनफल 14 × 9 को दोगुना कर दिया; 2 वाले परिमाप के सूत्र से भ्रम हो गया।", "mr": "14 × 9 या गुणाकाराची दुप्पट केली; 2 असलेल्या परिमितीच्या सूत्राशी गल्लत झाली." }
+      }
+    },
+    {
+      "key": "rms6-p5-ar-27",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Find the simple interest on ₹2,000 at 5% per annum for 3 years.", "hi": "₹2,000 पर 5% वार्षिक दर से 3 वर्ष का साधारण ब्याज ज्ञात कीजिए।", "mr": "₹2,000 वर 5% वार्षिक दराने 3 वर्षांचे सरळव्याज काढा." },
+      "optionsJson": [
+        { "en": "₹30", "hi": "₹30", "mr": "₹30" },
+        { "en": "₹100", "hi": "₹100", "mr": "₹100" },
+        { "en": "₹2,300", "hi": "₹2,300", "mr": "₹2,300" },
+        { "en": "₹300", "hi": "₹300", "mr": "₹300" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Simple interest = (Principal × Rate × Time) ÷ 100 = (2,000 × 5 × 3) ÷ 100 = ₹300.", "hi": "साधारण ब्याज = (मूलधन × दर × समय) ÷ 100 = (2,000 × 5 × 3) ÷ 100 = ₹300।", "mr": "सरळव्याज = (मुद्दल × दर × काळ) ÷ 100 = (2,000 × 5 × 3) ÷ 100 = ₹300." },
+      "distractorAnalysis": {
+        "0": { "en": "Divides by 1,000 instead of 100, so the answer is ten times too small.", "hi": "100 की जगह 1,000 से भाग दे दिया, इसलिए उत्तर दस गुना छोटा आया।", "mr": "100 ऐवजी 1,000 ने भागले, म्हणून उत्तर दहापट लहान आले." },
+        "1": { "en": "This is the interest for only 1 year (2,000 × 5 ÷ 100); the 3 years were ignored.", "hi": "यह केवल 1 वर्ष का ब्याज है (2,000 × 5 ÷ 100); 3 वर्ष का समय छोड़ दिया।", "mr": "हे फक्त 1 वर्षाचे व्याज आहे (2,000 × 5 ÷ 100); 3 वर्षांचा काळ विचारात घेतला नाही." },
+        "2": { "en": "This is the amount (principal + interest), not the interest alone.", "hi": "यह मिश्रधन (मूलधन + ब्याज) है, केवल ब्याज नहीं।", "mr": "ही रास (मुद्दल + व्याज) आहे, फक्त व्याज नाही." }
+      }
+    },
+    {
+      "key": "rms6-p5-ar-28",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Two angles of a triangle measure 50° and 60°. What is the measure of the third angle?", "hi": "एक त्रिभुज के दो कोण 50° और 60° हैं। तीसरे कोण की माप क्या है?", "mr": "एका त्रिकोणाचे दोन कोन 50° आणि 60° आहेत. तिसऱ्या कोनाचे माप किती?" },
+      "optionsJson": [
+        { "en": "110°", "hi": "110°", "mr": "110°" },
+        { "en": "130°", "hi": "130°", "mr": "130°" },
+        { "en": "120°", "hi": "120°", "mr": "120°" },
+        { "en": "70°", "hi": "70°", "mr": "70°" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "The three angles of a triangle add up to 180°. So the third angle = 180° − (50° + 60°) = 180° − 110° = 70°.", "hi": "त्रिभुज के तीनों कोणों का योग 180° होता है। अतः तीसरा कोण = 180° − (50° + 60°) = 180° − 110° = 70°।", "mr": "त्रिकोणाच्या तिन्ही कोनांची बेरीज 180° असते. म्हणून तिसरा कोन = 180° − (50° + 60°) = 180° − 110° = 70°." },
+      "distractorAnalysis": {
+        "0": { "en": "This is just the sum of the two given angles; it has not been subtracted from 180°.", "hi": "यह केवल दिए गए दो कोणों का योग है; इसे 180° में से घटाया नहीं।", "mr": "ही फक्त दिलेल्या दोन कोनांची बेरीज आहे; ती 180° मधून वजा केली नाही." },
+        "1": { "en": "Subtracts only 50° from 180° and forgets the 60° angle.", "hi": "180° में से केवल 50° घटाया, 60° वाले कोण को भूल गए।", "mr": "180° मधून फक्त 50° वजा केले, 60° चा कोन विसरले." },
+        "2": { "en": "Subtracts only 60° from 180° and forgets the 50° angle.", "hi": "180° में से केवल 60° घटाया, 50° वाले कोण को भूल गए।", "mr": "180° मधून फक्त 60° वजा केले, 50° चा कोन विसरले." }
+      }
+    },
+    {
+      "key": "rms6-p5-ar-29",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "The number of storybooks read last month by 9 students is: 3, 5, 4, 5, 6, 3, 5, 7, 4. What is the mode of this data?", "hi": "पिछले महीने 9 विद्यार्थियों द्वारा पढ़ी गई कहानी की किताबों की संख्या है: 3, 5, 4, 5, 6, 3, 5, 7, 4। इस आँकड़े का बहुलक क्या है?", "mr": "गेल्या महिन्यात 9 विद्यार्थ्यांनी वाचलेल्या गोष्टींच्या पुस्तकांची संख्या अशी आहे: 3, 5, 4, 5, 6, 3, 5, 7, 4. या आकडेवारीचे बहुलक किती?" },
+      "optionsJson": [
+        { "en": "3", "hi": "3", "mr": "3" },
+        { "en": "4", "hi": "4", "mr": "4" },
+        { "en": "5", "hi": "5", "mr": "5" },
+        { "en": "6", "hi": "6", "mr": "6" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The mode is the value that occurs most often. 5 appears 3 times, 3 and 4 appear 2 times each, and 6 and 7 appear once each. So the mode is 5.", "hi": "बहुलक वह मान है जो सबसे अधिक बार आता है। 5 तीन बार आया है, 3 और 4 दो-दो बार, तथा 6 और 7 एक-एक बार। अतः बहुलक 5 है।", "mr": "बहुलक म्हणजे सर्वाधिक वेळा येणारी किंमत. 5 तीन वेळा आला आहे, 3 आणि 4 प्रत्येकी दोन वेळा, तर 6 आणि 7 प्रत्येकी एकदाच. म्हणून बहुलक 5 आहे." },
+      "distractorAnalysis": {
+        "0": { "en": "3 appears only 2 times; it is the smallest value, not the most frequent one.", "hi": "3 केवल 2 बार आया है; यह सबसे छोटा मान है, सबसे अधिक बार आने वाला नहीं।", "mr": "3 फक्त 2 वेळा आला आहे; ती सर्वांत लहान किंमत आहे, सर्वाधिक वेळा येणारी नाही." },
+        "1": { "en": "4 appears only 2 times, fewer than 5 which appears 3 times.", "hi": "4 केवल 2 बार आया है, जबकि 5 तीन बार आया है।", "mr": "4 फक्त 2 वेळा आला आहे, तर 5 तीन वेळा आला आहे." },
+        "3": { "en": "6 appears only once, so it cannot be the most frequent value.", "hi": "6 केवल एक बार आया है, इसलिए यह सबसे अधिक बार आने वाला मान नहीं हो सकता।", "mr": "6 फक्त एकदाच आला आहे, म्हणून तो सर्वाधिक वेळा येणारी किंमत असू शकत नाही." }
+      }
+    },
+    {
+      "key": "rms6-p5-ar-30",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "If 3x − 7 = 20, what is the value of x?", "hi": "यदि 3x − 7 = 20 है, तो x का मान क्या है?", "mr": "जर 3x − 7 = 20 असेल, तर x ची किंमत किती?" },
+      "optionsJson": [
+        { "en": "9", "hi": "9", "mr": "9" },
+        { "en": "27", "hi": "27", "mr": "27" },
+        { "en": "13", "hi": "13", "mr": "13" },
+        { "en": "6", "hi": "6", "mr": "6" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Add 7 to both sides: 3x = 27. Divide both sides by 3: x = 9. Check: 3 × 9 − 7 = 20.", "hi": "दोनों पक्षों में 7 जोड़ने पर 3x = 27। दोनों पक्षों को 3 से भाग देने पर x = 9। जाँच: 3 × 9 − 7 = 20।", "mr": "दोन्ही बाजूंना 7 मिळवल्यास 3x = 27. दोन्ही बाजूंना 3 ने भागल्यास x = 9. पडताळा: 3 × 9 − 7 = 20." },
+      "distractorAnalysis": {
+        "1": { "en": "This is the value of 3x; the last step of dividing by 3 was missed.", "hi": "यह 3x का मान है; अंतिम चरण में 3 से भाग देना छूट गया।", "mr": "ही 3x ची किंमत आहे; शेवटची पायरी, म्हणजे 3 ने भागणे, राहून गेली." },
+        "2": { "en": "Subtracts 7 from 20 instead of adding 7, and stops there.", "hi": "7 जोड़ने की जगह 20 में से 7 घटा दिया और वहीं रुक गए।", "mr": "7 मिळवण्याऐवजी 20 मधून 7 वजा केले आणि तिथेच थांबले." },
+        "3": { "en": "Divides 20 by 3 (about 6) and ignores the −7 in the equation.", "hi": "20 को 3 से भाग दे दिया (लगभग 6) और समीकरण में −7 की अनदेखी की।", "mr": "20 ला 3 ने भागले (साधारण 6) आणि समीकरणातील −7 कडे दुर्लक्ष केले." }
+      }
+    },
+    {
+      "key": "rms6-p5-ar-31",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "What is the next number in the pattern 3, 7, 11, 15, 19, ...?", "hi": "संख्या-पैटर्न 3, 7, 11, 15, 19, ... में अगली संख्या क्या होगी?", "mr": "3, 7, 11, 15, 19, ... या संख्या-नमुन्यातील पुढील संख्या कोणती?" },
+      "optionsJson": [
+        { "en": "22", "hi": "22", "mr": "22" },
+        { "en": "23", "hi": "23", "mr": "23" },
+        { "en": "21", "hi": "21", "mr": "21" },
+        { "en": "25", "hi": "25", "mr": "25" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Each number is 4 more than the one before it (7 − 3 = 4, 11 − 7 = 4, and so on). So the next number is 19 + 4 = 23.", "hi": "प्रत्येक संख्या अपनी पिछली संख्या से 4 अधिक है (7 − 3 = 4, 11 − 7 = 4, आदि)। अतः अगली संख्या 19 + 4 = 23 है।", "mr": "प्रत्येक संख्या तिच्या मागच्या संख्येपेक्षा 4 ने मोठी आहे (7 − 3 = 4, 11 − 7 = 4, इत्यादी). म्हणून पुढील संख्या 19 + 4 = 23." },
+      "distractorAnalysis": {
+        "0": { "en": "Adds 3 to the last number, but the pattern adds 4 each time, not 3.", "hi": "अंतिम संख्या में 3 जोड़ा, जबकि पैटर्न में हर बार 4 जुड़ता है, 3 नहीं।", "mr": "शेवटच्या संख्येत 3 मिळवले, पण नमुन्यात प्रत्येक वेळी 4 मिळवले जातात, 3 नाही." },
+        "2": { "en": "Adds 2 to the last number, which does not match the steps of 4.", "hi": "अंतिम संख्या में 2 जोड़ा, जो 4 के अंतर से मेल नहीं खाता।", "mr": "शेवटच्या संख्येत 2 मिळवले, जे 4 च्या फरकाशी जुळत नाही." },
+        "3": { "en": "Adds 6 to the last number; the pattern increases by only 4 each time.", "hi": "अंतिम संख्या में 6 जोड़ दिया; पैटर्न हर बार केवल 4 बढ़ता है।", "mr": "शेवटच्या संख्येत 6 मिळवले; नमुना प्रत्येक वेळी फक्त 4 ने वाढतो." }
+      }
+    },
+    {
+      "key": "rms6-p5-ar-32",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A pie chart shows how 240 students travel to school. The sector for students who come by bicycle has a central angle of 90°. How many students come by bicycle?", "hi": "एक वृत्त-आलेख (पाई चार्ट) दर्शाता है कि 240 विद्यार्थी स्कूल कैसे आते हैं। साइकिल से आने वाले विद्यार्थियों के खंड का केंद्रीय कोण 90° है। कितने विद्यार्थी साइकिल से आते हैं?", "mr": "एक वर्तुळालेख (पाय चार्ट) 240 विद्यार्थी शाळेत कसे येतात ते दाखवतो. सायकलने येणाऱ्या विद्यार्थ्यांच्या भागाचा केंद्रीय कोन 90° आहे. किती विद्यार्थी सायकलने येतात?" },
+      "optionsJson": [
+        { "en": "30", "hi": "30", "mr": "30" },
+        { "en": "90", "hi": "90", "mr": "90" },
+        { "en": "60", "hi": "60", "mr": "60" },
+        { "en": "120", "hi": "120", "mr": "120" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "A full circle is 360°. The bicycle sector is 90° out of 360°, which is 1/4 of the circle. So the number of students is 1/4 × 240 = 60.", "hi": "पूरा वृत्त 360° का होता है। साइकिल वाला खंड 360° में से 90° है, यानी वृत्त का 1/4 भाग। इसलिए विद्यार्थियों की संख्या = 1/4 × 240 = 60।", "mr": "पूर्ण वर्तुळ 360° चे असते. सायकलचा भाग 360° पैकी 90° आहे, म्हणजे वर्तुळाचा 1/4 भाग. म्हणून विद्यार्थ्यांची संख्या = 1/4 × 240 = 60." },
+      "distractorAnalysis": {
+        "0": { "en": "Takes the sector as 1/8 of the circle; 90° is 1/4 of 360°, not 1/8.", "hi": "खंड को वृत्त का 1/8 भाग मान लिया; 90°, 360° का 1/4 है, 1/8 नहीं।", "mr": "भाग वर्तुळाचा 1/8 मानला; 90° हा 360° चा 1/4 आहे, 1/8 नाही." },
+        "1": { "en": "Uses the angle 90° itself as the number of students instead of finding that fraction of 240.", "hi": "कोण 90° को ही विद्यार्थियों की संख्या मान लिया; 240 का उतना भाग नहीं निकाला।", "mr": "कोन 90° यालाच विद्यार्थ्यांची संख्या मानले; 240 चा तेवढा भाग काढला नाही." },
+        "3": { "en": "Takes half of the 240 students, but 90° is only a quarter of the circle.", "hi": "240 का आधा ले लिया, जबकि 90° वृत्त का केवल चौथाई भाग है।", "mr": "240 चा निम्मा घेतला, पण 90° हा वर्तुळाचा फक्त चौथा भाग आहे." }
+      }
+    },
+    {
+      "key": "rms6-p5-ar-33",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which of the following numbers is divisible by 11?", "hi": "निम्नलिखित में से कौन-सी संख्या 11 से विभाज्य है?", "mr": "खालीलपैकी कोणती संख्या 11 ने विभाज्य आहे?" },
+      "optionsJson": [
+        { "en": "5,247", "hi": "5,247", "mr": "5,247" },
+        { "en": "5,248", "hi": "5,248", "mr": "5,248" },
+        { "en": "5,274", "hi": "5,274", "mr": "5,274" },
+        { "en": "5,427", "hi": "5,427", "mr": "5,427" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "A number is divisible by 11 if the difference between the sum of digits at odd places and the sum of digits at even places (counting from the right) is 0 or a multiple of 11. For 5,247: (7 + 2) − (4 + 5) = 9 − 9 = 0, so it is divisible. Indeed, 11 × 477 = 5,247.", "hi": "यदि किसी संख्या के (दाएँ से गिनने पर) विषम स्थानों के अंकों के योग और सम स्थानों के अंकों के योग का अंतर 0 या 11 का गुणज हो, तो वह संख्या 11 से विभाज्य होती है। 5,247 के लिए: (7 + 2) − (4 + 5) = 9 − 9 = 0, अतः यह विभाज्य है। वास्तव में 11 × 477 = 5,247।", "mr": "एखाद्या संख्येतील (उजवीकडून मोजल्यास) विषम स्थानांवरील अंकांची बेरीज आणि सम स्थानांवरील अंकांची बेरीज यांतील फरक 0 किंवा 11 च्या पटीत असेल, तर ती संख्या 11 ने विभाज्य असते. 5,247 साठी: (7 + 2) − (4 + 5) = 9 − 9 = 0, म्हणून ती विभाज्य आहे. खरोखर 11 × 477 = 5,247." },
+      "distractorAnalysis": {
+        "1": { "en": "(8 + 2) − (4 + 5) = 1, which is neither 0 nor a multiple of 11.", "hi": "(8 + 2) − (4 + 5) = 1, जो न 0 है और न 11 का गुणज।", "mr": "(8 + 2) − (4 + 5) = 1, जो 0 नाही आणि 11 च्या पटीतही नाही." },
+        "2": { "en": "(4 + 2) − (7 + 5) = −6, which is neither 0 nor a multiple of 11.", "hi": "(4 + 2) − (7 + 5) = −6, जो न 0 है और न 11 का गुणज।", "mr": "(4 + 2) − (7 + 5) = −6, जो 0 नाही आणि 11 च्या पटीतही नाही." },
+        "3": { "en": "(7 + 4) − (2 + 5) = 4, which is neither 0 nor a multiple of 11.", "hi": "(7 + 4) − (2 + 5) = 4, जो न 0 है और न 11 का गुणज।", "mr": "(7 + 4) − (2 + 5) = 4, जो 0 नाही आणि 11 च्या पटीतही नाही." }
+      }
+    },
+    {
+      "key": "rms6-p5-ar-34",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Two angles together make a straight angle (180°) and are in the ratio 2 : 3. What is the measure of the larger angle?", "hi": "दो कोण मिलकर एक सरल कोण (180°) बनाते हैं और उनका अनुपात 2 : 3 है। बड़े कोण की माप क्या है?", "mr": "दोन कोन मिळून एक सरळ कोन (180°) तयार करतात आणि त्यांचे गुणोत्तर 2 : 3 आहे. मोठ्या कोनाचे माप किती?" },
+      "optionsJson": [
+        { "en": "36°", "hi": "36°", "mr": "36°" },
+        { "en": "72°", "hi": "72°", "mr": "72°" },
+        { "en": "108°", "hi": "108°", "mr": "108°" },
+        { "en": "120°", "hi": "120°", "mr": "120°" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Total parts = 2 + 3 = 5, so each part = 180° ÷ 5 = 36°. The larger angle = 3 × 36° = 108° (the smaller angle is 72°).", "hi": "कुल भाग = 2 + 3 = 5, इसलिए प्रत्येक भाग = 180° ÷ 5 = 36°। बड़ा कोण = 3 × 36° = 108° (छोटा कोण 72° है)।", "mr": "एकूण भाग = 2 + 3 = 5, म्हणून प्रत्येक भाग = 180° ÷ 5 = 36°. मोठा कोन = 3 × 36° = 108° (लहान कोन 72° आहे)." },
+      "distractorAnalysis": {
+        "0": { "en": "This is the value of one part; the larger angle contains 3 parts.", "hi": "यह एक भाग का मान है; बड़े कोण में 3 भाग होते हैं।", "mr": "ही एका भागाची किंमत आहे; मोठ्या कोनात 3 भाग असतात." },
+        "1": { "en": "This is the smaller angle (2 parts); the question asks for the larger one.", "hi": "यह छोटा कोण (2 भाग) है; प्रश्न में बड़ा कोण पूछा गया है।", "mr": "हा लहान कोन (2 भाग) आहे; प्रश्नात मोठा कोन विचारला आहे." },
+        "3": { "en": "Splits 180° in the ratio 1 : 2 instead of 2 : 3 (giving 60° and 120°).", "hi": "180° को 2 : 3 की जगह 1 : 2 में बाँट दिया (60° और 120° मिले)।", "mr": "180° ची 2 : 3 ऐवजी 1 : 2 अशी विभागणी केली (60° आणि 120° मिळाले)." }
+      }
+    },
+    {
+      "key": "rms6-p5-ar-35",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "What is the value of the Roman numeral XLIX?", "hi": "रोमन अंक XLIX का मान क्या है?", "mr": "रोमन अंक XLIX ची किंमत किती?" },
+      "optionsJson": [
+        { "en": "41", "hi": "41", "mr": "41" },
+        { "en": "49", "hi": "49", "mr": "49" },
+        { "en": "59", "hi": "59", "mr": "59" },
+        { "en": "71", "hi": "71", "mr": "71" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "XL = 50 − 10 = 40 and IX = 10 − 1 = 9. So XLIX = 40 + 9 = 49.", "hi": "XL = 50 − 10 = 40 और IX = 10 − 1 = 9। अतः XLIX = 40 + 9 = 49।", "mr": "XL = 50 − 10 = 40 आणि IX = 10 − 1 = 9. म्हणून XLIX = 40 + 9 = 49." },
+      "distractorAnalysis": {
+        "0": { "en": "Reads XL as 40 but takes the last part as 1; IX stands for 9, not 1.", "hi": "XL = 40 तो लिया, पर अंतिम भाग को 1 मान लिया; IX का मान 9 होता है, 1 नहीं।", "mr": "XL = 40 घेतले, पण शेवटचा भाग 1 मानला; IX ची किंमत 9 असते, 1 नाही." },
+        "2": { "en": "Reads XL as 50 and adds IX = 9; but XL means 50 − 10 = 40.", "hi": "XL को 50 मान लिया और IX = 9 जोड़ा; पर XL = 50 − 10 = 40 होता है।", "mr": "XL ला 50 मानले आणि IX = 9 मिळवले; पण XL = 50 − 10 = 40 असते." },
+        "3": { "en": "Adds every symbol (10 + 50 + 1 + 10) without using the subtraction rule.", "hi": "सभी प्रतीकों को जोड़ दिया (10 + 50 + 1 + 10), घटाने का नियम नहीं लगाया।", "mr": "सर्व चिन्हे मिळवली (10 + 50 + 1 + 10), वजाबाकीचा नियम वापरला नाही." }
+      }
+    },
+    {
+      "key": "rms6-p5-ar-36",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the median of the data: 7, 3, 9, 5, 12, 8.", "hi": "आँकड़ों 7, 3, 9, 5, 12, 8 की माध्यिका ज्ञात कीजिए।", "mr": "7, 3, 9, 5, 12, 8 या आकडेवारीचा मध्यक काढा." },
+      "optionsJson": [
+        { "en": "7", "hi": "7", "mr": "7" },
+        { "en": "8", "hi": "8", "mr": "8" },
+        { "en": "8.5", "hi": "8.5", "mr": "8.5" },
+        { "en": "7.5", "hi": "7.5", "mr": "7.5" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Arrange in order: 3, 5, 7, 8, 9, 12. There are 6 values, so the median is the average of the 3rd and 4th values: (7 + 8) ÷ 2 = 7.5.", "hi": "क्रम में लिखने पर: 3, 5, 7, 8, 9, 12। कुल 6 मान हैं, इसलिए माध्यिका तीसरे और चौथे मान का औसत है: (7 + 8) ÷ 2 = 7.5।", "mr": "क्रमाने लिहिल्यास: 3, 5, 7, 8, 9, 12. एकूण 6 किमती आहेत, म्हणून मध्यक तिसऱ्या व चौथ्या किमतीची सरासरी आहे: (7 + 8) ÷ 2 = 7.5." },
+      "distractorAnalysis": {
+        "0": { "en": "Picks only the 3rd value; with 6 values the median is the average of the two middle values.", "hi": "केवल तीसरा मान ले लिया; 6 मान होने पर माध्यिका दो मध्य मानों का औसत होती है।", "mr": "फक्त तिसरी किंमत घेतली; 6 किमती असताना मध्यक दोन मधल्या किमतींची सरासरी असतो." },
+        "1": { "en": "Picks only the 4th value instead of averaging the 3rd and 4th values.", "hi": "केवल चौथा मान ले लिया, तीसरे और चौथे मान का औसत नहीं निकाला।", "mr": "फक्त चौथी किंमत घेतली, तिसरी व चौथी किंमत यांची सरासरी काढली नाही." },
+        "2": { "en": "Averages 8 and 9, which are not the two middle values (7 and 8 are).", "hi": "8 और 9 का औसत निकाला, जो मध्य के दो मान नहीं हैं (मध्य के मान 7 और 8 हैं)।", "mr": "8 आणि 9 ची सरासरी काढली, पण ते मधल्या दोन किमती नाहीत (मधल्या किमती 7 आणि 8 आहेत)." }
+      }
+    },
+    {
+      "key": "rms6-p5-ar-37",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The price of sugar rises from ₹40 per kg to ₹46 per kg. What is the percentage increase?", "hi": "चीनी का भाव ₹40 प्रति किग्रा से बढ़कर ₹46 प्रति किग्रा हो गया। प्रतिशत वृद्धि कितनी है?", "mr": "साखरेचा भाव ₹40 प्रति किलोवरून ₹46 प्रति किलो झाला. टक्केवारीतील वाढ किती?" },
+      "optionsJson": [
+        { "en": "1.5%", "hi": "1.5%", "mr": "1.5%" },
+        { "en": "6%", "hi": "6%", "mr": "6%" },
+        { "en": "13%", "hi": "13%", "mr": "13%" },
+        { "en": "15%", "hi": "15%", "mr": "15%" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Increase = 46 − 40 = ₹6. Percentage increase = (6 ÷ 40) × 100 = 15%.", "hi": "वृद्धि = 46 − 40 = ₹6। प्रतिशत वृद्धि = (6 ÷ 40) × 100 = 15%।", "mr": "वाढ = 46 − 40 = ₹6. टक्केवारीतील वाढ = (6 ÷ 40) × 100 = 15%." },
+      "distractorAnalysis": {
+        "0": { "en": "Misplaces the decimal: 6 ÷ 40 = 0.15, which is 15%, not 1.5%.", "hi": "दशमलव की गलती: 6 ÷ 40 = 0.15 यानी 15%, न कि 1.5%।", "mr": "दशांश चिन्हाची चूक: 6 ÷ 40 = 0.15 म्हणजे 15%, 1.5% नाही." },
+        "1": { "en": "This is the increase in rupees itself, not a percentage of the original price.", "hi": "यह तो ₹ में वृद्धि है, मूल भाव का प्रतिशत नहीं।", "mr": "ही रुपयांतील वाढ आहे, मूळ भावाची टक्केवारी नाही." },
+        "2": { "en": "Divides by the new price (6 ÷ 46 ≈ 13%) instead of the original price 40.", "hi": "मूल भाव 40 की जगह नए भाव से भाग दिया (6 ÷ 46 ≈ 13%)।", "mr": "मूळ भाव 40 ऐवजी नवीन भावाने भागले (6 ÷ 46 ≈ 13%)." }
+      }
+    },
+    {
+      "key": "rms6-p5-ar-38",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A square garden has an area of 144 m². What is the perimeter of the garden?", "hi": "एक वर्गाकार बगीचे का क्षेत्रफल 144 m² है। बगीचे का परिमाप कितना है?", "mr": "एका चौरसाकृती बागेचे क्षेत्रफळ 144 m² आहे. बागेची परिमिती किती?" },
+      "optionsJson": [
+        { "en": "48 m", "hi": "48 m", "mr": "48 m" },
+        { "en": "36 m", "hi": "36 m", "mr": "36 m" },
+        { "en": "576 m", "hi": "576 m", "mr": "576 m" },
+        { "en": "24 m", "hi": "24 m", "mr": "24 m" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Area of a square = side × side = 144, so the side is 12 m (since 12 × 12 = 144). Perimeter = 4 × 12 = 48 m.", "hi": "वर्ग का क्षेत्रफल = भुजा × भुजा = 144, इसलिए भुजा 12 m है (क्योंकि 12 × 12 = 144)। परिमाप = 4 × 12 = 48 m।", "mr": "चौरसाचे क्षेत्रफळ = बाजू × बाजू = 144, म्हणून बाजू 12 m आहे (कारण 12 × 12 = 144). परिमिती = 4 × 12 = 48 m." },
+      "distractorAnalysis": {
+        "1": { "en": "Divides the area 144 by 4 instead of first finding the side (12 m).", "hi": "पहले भुजा (12 m) निकालने की जगह क्षेत्रफल 144 को 4 से भाग दे दिया।", "mr": "आधी बाजू (12 m) काढण्याऐवजी क्षेत्रफळ 144 ला 4 ने भागले." },
+        "2": { "en": "Multiplies the area 144 by 4, treating the area as if it were the side.", "hi": "क्षेत्रफल 144 को ही भुजा मानकर 4 से गुणा कर दिया।", "mr": "क्षेत्रफळ 144 लाच बाजू मानून 4 ने गुणले." },
+        "3": { "en": "Doubles the side (2 × 12) instead of multiplying it by 4.", "hi": "भुजा को 4 से गुणा करने की जगह 2 से गुणा कर दिया।", "mr": "बाजूला 4 ने गुणण्याऐवजी 2 ने गुणले." }
+      }
+    },
+    {
+      "key": "rms6-p5-ar-39",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Three angles of a quadrilateral are 85°, 95° and 110°. What is the fourth angle?", "hi": "एक चतुर्भुज के तीन कोण 85°, 95° और 110° हैं। चौथा कोण कितना है?", "mr": "एका चौकोनाचे तीन कोन 85°, 95° आणि 110° आहेत. चौथा कोन किती?" },
+      "optionsJson": [
+        { "en": "250°", "hi": "250°", "mr": "250°" },
+        { "en": "290°", "hi": "290°", "mr": "290°" },
+        { "en": "70°", "hi": "70°", "mr": "70°" },
+        { "en": "180°", "hi": "180°", "mr": "180°" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The four angles of a quadrilateral add up to 360°. Sum of the three given angles = 85° + 95° + 110° = 290°. Fourth angle = 360° − 290° = 70°.", "hi": "चतुर्भुज के चारों कोणों का योग 360° होता है। दिए गए तीन कोणों का योग = 85° + 95° + 110° = 290°। चौथा कोण = 360° − 290° = 70°।", "mr": "चौकोनाच्या चारही कोनांची बेरीज 360° असते. दिलेल्या तीन कोनांची बेरीज = 85° + 95° + 110° = 290°. चौथा कोन = 360° − 290° = 70°." },
+      "distractorAnalysis": {
+        "0": { "en": "Subtracts only 110° from 360° and ignores the other two angles.", "hi": "360° में से केवल 110° घटाया, बाकी दो कोणों को छोड़ दिया।", "mr": "360° मधून फक्त 110° वजा केले, इतर दोन कोन सोडून दिले." },
+        "1": { "en": "This is the sum of the three given angles; it has not been subtracted from 360°.", "hi": "यह दिए गए तीन कोणों का योग है; इसे 360° में से घटाया नहीं।", "mr": "ही दिलेल्या तीन कोनांची बेरीज आहे; ती 360° मधून वजा केली नाही." },
+        "3": { "en": "Confuses this with the 180° angle sum of a triangle; the missing angle must be found from 360°.", "hi": "त्रिभुज के कोण-योग 180° से भ्रम हुआ; लुप्त कोण 360° से निकाला जाता है।", "mr": "त्रिकोणाच्या कोन-बेरजेशी (180°) गल्लत झाली; न दिलेला कोन 360° वरून काढायचा असतो." }
+      }
+    },
+    {
+      "key": "rms6-p5-ar-40",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Riya thinks of a number. When she multiplies it by 4 and then adds 9, she gets 53. Which number did she think of?", "hi": "रिया एक संख्या सोचती है। उसे 4 से गुणा करके 9 जोड़ने पर 53 मिलता है। उसने कौन-सी संख्या सोची थी?", "mr": "रियाने एक संख्या मनात धरली. तिला 4 ने गुणून 9 मिळवल्यावर 53 मिळतात. तिने कोणती संख्या मनात धरली होती?" },
+      "optionsJson": [
+        { "en": "44", "hi": "44", "mr": "44" },
+        { "en": "11", "hi": "11", "mr": "11" },
+        { "en": "15.5", "hi": "15.5", "mr": "15.5" },
+        { "en": "49", "hi": "49", "mr": "49" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Let the number be x. Then 4x + 9 = 53, so 4x = 44 and x = 11. Check: 4 × 11 + 9 = 53.", "hi": "मान लीजिए संख्या x है। तब 4x + 9 = 53, अतः 4x = 44 और x = 11। जाँच: 4 × 11 + 9 = 53।", "mr": "समजा संख्या x आहे. तर 4x + 9 = 53, म्हणून 4x = 44 आणि x = 11. पडताळा: 4 × 11 + 9 = 53." },
+      "distractorAnalysis": {
+        "0": { "en": "This is the value of 4x; the step of dividing by 4 was left out.", "hi": "यह 4x का मान है; 4 से भाग देने का चरण छूट गया।", "mr": "ही 4x ची किंमत आहे; 4 ने भागण्याची पायरी राहून गेली." },
+        "2": { "en": "Adds 9 to 53 instead of subtracting it, giving 62 ÷ 4 = 15.5.", "hi": "53 में से 9 घटाने की जगह जोड़ दिया, जिससे 62 ÷ 4 = 15.5 आया।", "mr": "53 मधून 9 वजा करण्याऐवजी मिळवले, त्यामुळे 62 ÷ 4 = 15.5 आले." },
+        "3": { "en": "Subtracts 4 from 53 instead of undoing the multiplication by 4 and the addition of 9.", "hi": "4 से गुणा और 9 के योग को उलटने की जगह 53 में से 4 घटा दिया।", "mr": "4 ने गुणणे आणि 9 मिळवणे उलट करण्याऐवजी 53 मधून 4 वजा केले." }
+      }
+    },
+    {
+      "key": "rms6-p5-ar-41",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A tailor needs 2.25 m of cloth to stitch one shirt. How many complete shirts can he stitch from 20 m of cloth?", "hi": "एक दर्जी को एक कमीज़ सिलने के लिए 2.25 m कपड़ा चाहिए। 20 m कपड़े से वह कितनी पूरी कमीज़ें सिल सकता है?", "mr": "एका शिंप्याला एक शर्ट शिवण्यासाठी 2.25 m कापड लागते. 20 m कापडापासून तो किती पूर्ण शर्ट शिवू शकेल?" },
+      "optionsJson": [
+        { "en": "8", "hi": "8", "mr": "8" },
+        { "en": "9", "hi": "9", "mr": "9" },
+        { "en": "10", "hi": "10", "mr": "10" },
+        { "en": "7", "hi": "7", "mr": "7" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "20 ÷ 2.25 is about 8.89, so only 8 complete shirts are possible. Check: 8 × 2.25 = 18 m, while 9 × 2.25 = 20.25 m, which is more than 20 m.", "hi": "20 ÷ 2.25 लगभग 8.89 है, इसलिए केवल 8 पूरी कमीज़ें बन सकती हैं। जाँच: 8 × 2.25 = 18 m, जबकि 9 × 2.25 = 20.25 m, जो 20 m से अधिक है।", "mr": "20 ÷ 2.25 हे साधारण 8.89 आहे, म्हणून फक्त 8 पूर्ण शर्ट शिवता येतील. पडताळा: 8 × 2.25 = 18 m, तर 9 × 2.25 = 20.25 m, जे 20 m पेक्षा जास्त आहे." },
+      "distractorAnalysis": {
+        "1": { "en": "Rounds 8.89 up to 9, but 9 shirts need 20.25 m, more than the cloth available.", "hi": "8.89 को बढ़ाकर 9 कर दिया, पर 9 कमीज़ों के लिए 20.25 m चाहिए, जो उपलब्ध कपड़े से अधिक है।", "mr": "8.89 चे पूर्णांकन 9 केले, पण 9 शर्टसाठी 20.25 m लागतात, जे उपलब्ध कापडापेक्षा जास्त आहे." },
+        "2": { "en": "Divides 20 by 2 and ignores the extra 0.25 m needed for each shirt.", "hi": "20 को 2 से भाग दिया और हर कमीज़ के लिए लगने वाले अतिरिक्त 0.25 m की अनदेखी की।", "mr": "20 ला 2 ने भागले आणि प्रत्येक शर्टसाठी लागणाऱ्या जादा 0.25 m कडे दुर्लक्ष केले." },
+        "3": { "en": "Gives fewer shirts than possible: 7 shirts use only 15.75 m, so another shirt can still be made.", "hi": "संभव से कम कमीज़ें बताईं: 7 कमीज़ों में केवल 15.75 m लगता है, इसलिए एक और कमीज़ बन सकती है।", "mr": "शक्य आहे त्यापेक्षा कमी शर्ट सांगितले: 7 शर्टसाठी फक्त 15.75 m लागते, म्हणून आणखी एक शर्ट शिवता येतो." }
+      }
+    },
+    {
+      "key": "rms6-p5-ar-42",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "In the pattern 2, 6, 18, 54, ..., each term is made by multiplying the previous term by the same number. What is the 6th term?", "hi": "पैटर्न 2, 6, 18, 54, ... में प्रत्येक पद पिछले पद को एक ही संख्या से गुणा करके बनता है। छठा पद क्या है?", "mr": "2, 6, 18, 54, ... या नमुन्यात प्रत्येक पद मागील पदाला एकाच संख्येने गुणून मिळते. सहावे पद कोणते?" },
+      "optionsJson": [
+        { "en": "162", "hi": "162", "mr": "162" },
+        { "en": "324", "hi": "324", "mr": "324" },
+        { "en": "1,458", "hi": "1,458", "mr": "1,458" },
+        { "en": "486", "hi": "486", "mr": "486" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Each term is 3 times the previous one (2 × 3 = 6, 6 × 3 = 18, and so on). The terms are 2, 6, 18, 54, 162, 486. So the 6th term is 486.", "hi": "प्रत्येक पद पिछले पद का 3 गुना है (2 × 3 = 6, 6 × 3 = 18, आदि)। पद हैं 2, 6, 18, 54, 162, 486। अतः छठा पद 486 है।", "mr": "प्रत्येक पद मागील पदाच्या 3 पट आहे (2 × 3 = 6, 6 × 3 = 18, इत्यादी). पदे आहेत 2, 6, 18, 54, 162, 486. म्हणून सहावे पद 486 आहे." },
+      "distractorAnalysis": {
+        "0": { "en": "This is the 5th term; one more multiplication by 3 is needed.", "hi": "यह पाँचवाँ पद है; 3 से एक बार और गुणा करना होगा।", "mr": "हे पाचवे पद आहे; आणखी एकदा 3 ने गुणावे लागेल." },
+        "1": { "en": "Multiplies 54 by 6 (the term number) instead of by the common multiplier 3.", "hi": "54 को सामान्य गुणक 3 की जगह 6 (पद-संख्या) से गुणा कर दिया।", "mr": "54 ला समान गुणक 3 ऐवजी 6 (पदाचा क्रमांक) ने गुणले." },
+        "2": { "en": "This is the 7th term; one multiplication too many.", "hi": "यह सातवाँ पद है; एक बार अधिक गुणा हो गया।", "mr": "हे सातवे पद आहे; एकदा जास्त गुणले गेले." }
+      }
+    },
+    {
+      "key": "rms6-p5-ar-43",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "₹1,800 is shared among Asha, Bela and Charu in the ratio 2 : 3 : 4. How much does Bela get?", "hi": "₹1,800 को आशा, बेला और चारु में 2 : 3 : 4 के अनुपात में बाँटा गया। बेला को कितना मिलेगा?", "mr": "₹1,800 आशा, बेला आणि चारू यांच्यात 2 : 3 : 4 या गुणोत्तरात वाटले. बेलाला किती मिळतील?" },
+      "optionsJson": [
+        { "en": "₹400", "hi": "₹400", "mr": "₹400" },
+        { "en": "₹900", "hi": "₹900", "mr": "₹900" },
+        { "en": "₹600", "hi": "₹600", "mr": "₹600" },
+        { "en": "₹800", "hi": "₹800", "mr": "₹800" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Total parts = 2 + 3 + 4 = 9. One part = 1,800 ÷ 9 = ₹200. Bela gets 3 × 200 = ₹600.", "hi": "कुल भाग = 2 + 3 + 4 = 9। एक भाग = 1,800 ÷ 9 = ₹200। बेला को 3 × 200 = ₹600 मिलेंगे।", "mr": "एकूण भाग = 2 + 3 + 4 = 9. एक भाग = 1,800 ÷ 9 = ₹200. बेलाला 3 × 200 = ₹600 मिळतील." },
+      "distractorAnalysis": {
+        "0": { "en": "This is Asha's share (2 parts), not Bela's.", "hi": "यह आशा का हिस्सा (2 भाग) है, बेला का नहीं।", "mr": "हा आशाचा वाटा (2 भाग) आहे, बेलाचा नाही." },
+        "1": { "en": "Takes half of ₹1,800, but Bela's share is only 3 out of 9 parts.", "hi": "₹1,800 का आधा ले लिया, जबकि बेला का हिस्सा 9 में से केवल 3 भाग है।", "mr": "₹1,800 चा निम्मा घेतला, पण बेलाचा वाटा 9 पैकी फक्त 3 भाग आहे." },
+        "3": { "en": "This is Charu's share (4 parts), not Bela's.", "hi": "यह चारु का हिस्सा (4 भाग) है, बेला का नहीं।", "mr": "हा चारूचा वाटा (4 भाग) आहे, बेलाचा नाही." }
+      }
+    },
+    {
+      "key": "rms6-p5-ar-44",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "A ribbon 3 3/4 m long is cut into pieces of 3/4 m each. How many pieces are obtained?", "hi": "3 3/4 m लंबे एक फीते को 3/4 m लंबाई के टुकड़ों में काटा गया। कितने टुकड़े मिलेंगे?", "mr": "3 3/4 m लांब फितीचे प्रत्येकी 3/4 m चे तुकडे केले. किती तुकडे मिळतील?" },
+      "optionsJson": [
+        { "en": "4", "hi": "4", "mr": "4" },
+        { "en": "5", "hi": "5", "mr": "5" },
+        { "en": "15", "hi": "15", "mr": "15" },
+        { "en": "3", "hi": "3", "mr": "3" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "3 3/4 = 15/4. Number of pieces = 15/4 ÷ 3/4 = 15/4 × 4/3 = 5. Check: 5 × 3/4 = 15/4 = 3 3/4 m.", "hi": "3 3/4 = 15/4। टुकड़ों की संख्या = 15/4 ÷ 3/4 = 15/4 × 4/3 = 5। जाँच: 5 × 3/4 = 15/4 = 3 3/4 m।", "mr": "3 3/4 = 15/4. तुकड्यांची संख्या = 15/4 ÷ 3/4 = 15/4 × 4/3 = 5. पडताळा: 5 × 3/4 = 15/4 = 3 3/4 m." },
+      "distractorAnalysis": {
+        "0": { "en": "Divides only the whole part, 3 ÷ 3/4 = 4, and ignores the extra 3/4 m of ribbon.", "hi": "केवल पूर्ण भाग को भाग दिया, 3 ÷ 3/4 = 4, और फीते के अतिरिक्त 3/4 m की अनदेखी की।", "mr": "फक्त पूर्ण भागाला भागले, 3 ÷ 3/4 = 4, आणि फितीच्या जादा 3/4 m कडे दुर्लक्ष केले." },
+        "2": { "en": "Divides by 1/4 instead of 3/4 (15/4 ÷ 1/4 = 15).", "hi": "3/4 की जगह 1/4 से भाग दिया (15/4 ÷ 1/4 = 15)।", "mr": "3/4 ऐवजी 1/4 ने भागले (15/4 ÷ 1/4 = 15)." },
+        "3": { "en": "Counts only the whole metres of ribbon, not the number of 3/4 m pieces.", "hi": "केवल फीते के पूरे मीटर गिन लिए, 3/4 m के टुकड़ों की संख्या नहीं निकाली।", "mr": "फितीचे फक्त पूर्ण मीटर मोजले, 3/4 m च्या तुकड्यांची संख्या काढली नाही." }
+      }
+    },
+    {
+      "key": "rms6-p5-ar-45",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": { "en": "A rectangular room is 6 m long and 5 m wide. How many square tiles of side 50 cm are needed to cover its floor completely?", "hi": "एक आयताकार कमरा 6 m लंबा और 5 m चौड़ा है। उसके फर्श को पूरी तरह ढकने के लिए 50 cm भुजा वाली कितनी वर्गाकार टाइलें चाहिए?", "mr": "एक आयताकृती खोली 6 m लांब आणि 5 m रुंद आहे. तिची फरशी पूर्णपणे झाकण्यासाठी 50 cm बाजू असलेल्या किती चौरसाकृती फरशा लागतील?" },
+      "optionsJson": [
+        { "en": "30", "hi": "30", "mr": "30" },
+        { "en": "60", "hi": "60", "mr": "60" },
+        { "en": "120", "hi": "120", "mr": "120" },
+        { "en": "240", "hi": "240", "mr": "240" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Floor area = 6 × 5 = 30 m². Tile side = 50 cm = 0.5 m, so tile area = 0.5 × 0.5 = 0.25 m². Number of tiles = 30 ÷ 0.25 = 120. (Check: 12 tiles fit along 6 m and 10 tiles along 5 m, and 12 × 10 = 120.)", "hi": "फर्श का क्षेत्रफल = 6 × 5 = 30 m²। टाइल की भुजा = 50 cm = 0.5 m, इसलिए टाइल का क्षेत्रफल = 0.5 × 0.5 = 0.25 m²। टाइलों की संख्या = 30 ÷ 0.25 = 120। (जाँच: 6 m में 12 टाइलें और 5 m में 10 टाइलें आती हैं, और 12 × 10 = 120।)", "mr": "फरशीचे क्षेत्रफळ = 6 × 5 = 30 m². फरशीची बाजू = 50 cm = 0.5 m, म्हणून एका फरशीचे क्षेत्रफळ = 0.5 × 0.5 = 0.25 m². फरशांची संख्या = 30 ÷ 0.25 = 120. (पडताळा: 6 m मध्ये 12 फरशा आणि 5 m मध्ये 10 फरशा बसतात, आणि 12 × 10 = 120.)" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the floor area in m²; it treats each tile as covering 1 m² instead of 0.25 m².", "hi": "यह फर्श का क्षेत्रफल m² में है; हर टाइल को 0.25 m² की जगह 1 m² का मान लिया।", "mr": "हे फरशीचे क्षेत्रफळ m² मध्ये आहे; प्रत्येक फरशी 0.25 m² ऐवजी 1 m² मानली." },
+        "1": { "en": "Divides 30 by the tile side 0.5 m instead of by the tile area 0.25 m².", "hi": "30 को टाइल के क्षेत्रफल 0.25 m² की जगह उसकी भुजा 0.5 m से भाग दिया।", "mr": "30 ला फरशीच्या क्षेत्रफळ 0.25 m² ऐवजी तिच्या बाजू 0.5 m ने भागले." },
+        "3": { "en": "Uses a tile area of 0.125 m², which is wrong; 0.5 × 0.5 = 0.25 m².", "hi": "टाइल का क्षेत्रफल 0.125 m² लिया, जो गलत है; 0.5 × 0.5 = 0.25 m²।", "mr": "फरशीचे क्षेत्रफळ 0.125 m² घेतले, जे चुकीचे आहे; 0.5 × 0.5 = 0.25 m²." }
+      }
+    },
+    {
+      "key": "rms6-p5-ar-46",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "A train 150 m long crosses a pole in 10 seconds. What is the speed of the train in km/h?", "hi": "150 m लंबी एक रेलगाड़ी एक खंभे को 10 सेकंड में पार करती है। रेलगाड़ी की चाल km/h में कितनी है?", "mr": "150 m लांब रेल्वेगाडी एक खांब 10 सेकंदांत ओलांडते. गाडीचा वेग km/h मध्ये किती?" },
+      "optionsJson": [
+        { "en": "54", "hi": "54", "mr": "54" },
+        { "en": "15", "hi": "15", "mr": "15" },
+        { "en": "36", "hi": "36", "mr": "36" },
+        { "en": "90", "hi": "90", "mr": "90" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "To cross the pole, the train covers its own length: 150 m in 10 s. Speed = 150 ÷ 10 = 15 m/s. In km/h: 15 × 18/5 = 54 km/h.", "hi": "खंभे को पार करने के लिए रेलगाड़ी अपनी लंबाई के बराबर दूरी तय करती है: 10 s में 150 m। चाल = 150 ÷ 10 = 15 m/s। km/h में: 15 × 18/5 = 54 km/h।", "mr": "खांब ओलांडण्यासाठी गाडी स्वतःच्या लांबीएवढे अंतर कापते: 10 s मध्ये 150 m. वेग = 150 ÷ 10 = 15 m/s. km/h मध्ये: 15 × 18/5 = 54 km/h." },
+      "distractorAnalysis": {
+        "1": { "en": "This is the speed in m/s; it was not converted to km/h.", "hi": "यह चाल m/s में है; इसे km/h में नहीं बदला।", "mr": "हा वेग m/s मध्ये आहे; त्याचे km/h मध्ये रूपांतर केले नाही." },
+        "2": { "en": "Multiplies the 10 seconds by 3.6 instead of finding the speed 150 ÷ 10 first.", "hi": "पहले चाल 150 ÷ 10 निकालने की जगह 10 सेकंड को 3.6 से गुणा कर दिया।", "mr": "आधी वेग 150 ÷ 10 काढण्याऐवजी 10 सेकंदांना 3.6 ने गुणले." },
+        "3": { "en": "Multiplies 15 m/s by 6 instead of by 3.6 (that is, 18/5) when converting to km/h.", "hi": "m/s को km/h में बदलते समय 15 को 3.6 (यानी 18/5) की जगह 6 से गुणा कर दिया।", "mr": "m/s चे km/h मध्ये रूपांतर करताना 15 ला 3.6 (म्हणजे 18/5) ऐवजी 6 ने गुणले." }
+      }
+    },
+    {
+      "key": "rms6-p5-ar-47",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "A rectangular sheet of paper is 12 cm long and 8 cm wide. A square of side 3 cm is cut out from one corner. What is the perimeter of the remaining shape?", "hi": "कागज़ की एक आयताकार शीट 12 cm लंबी और 8 cm चौड़ी है। उसके एक कोने से 3 cm भुजा वाला वर्ग काट लिया जाता है। शेष आकृति का परिमाप कितना है?", "mr": "कागदाचा एक आयताकृती तुकडा 12 cm लांब आणि 8 cm रुंद आहे. त्याच्या एका कोपऱ्यातून 3 cm बाजू असलेला चौरस कापून काढला. उरलेल्या आकृतीची परिमिती किती?" },
+      "optionsJson": [
+        { "en": "34 cm", "hi": "34 cm", "mr": "34 cm" },
+        { "en": "37 cm", "hi": "37 cm", "mr": "37 cm" },
+        { "en": "46 cm", "hi": "46 cm", "mr": "46 cm" },
+        { "en": "40 cm", "hi": "40 cm", "mr": "40 cm" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "The original perimeter is 2 × (12 + 8) = 40 cm. Cutting out the corner square removes 3 cm + 3 cm of the old edges, but adds two new edges of 3 cm each. So the perimeter stays 40 cm.", "hi": "मूल परिमाप 2 × (12 + 8) = 40 cm है। कोने का वर्ग काटने से पुरानी भुजाओं का 3 cm + 3 cm हट जाता है, पर 3 cm की दो नई भुजाएँ जुड़ जाती हैं। इसलिए परिमाप 40 cm ही रहता है।", "mr": "मूळ परिमिती 2 × (12 + 8) = 40 cm आहे. कोपऱ्यातला चौरस कापल्याने जुन्या कडांचे 3 cm + 3 cm कमी होतात, पण प्रत्येकी 3 cm च्या दोन नवीन कडा जोडल्या जातात. म्हणून परिमिती 40 cm च राहते." },
+      "distractorAnalysis": {
+        "0": { "en": "Subtracts the 3 cm + 3 cm of removed edges but forgets to add the two new 3 cm edges.", "hi": "हटी हुई 3 cm + 3 cm भुजाएँ घटा दीं, पर 3 cm की दो नई भुजाएँ जोड़ना भूल गए।", "mr": "कमी झालेल्या 3 cm + 3 cm कडा वजा केल्या, पण 3 cm च्या दोन नवीन कडा मिळवायला विसरले." },
+        "1": { "en": "Subtracts only one 3 cm side and ignores the rest of the change in edges.", "hi": "केवल एक 3 cm भुजा घटाई और भुजाओं में हुए बाकी बदलाव की अनदेखी की।", "mr": "फक्त एक 3 cm ची बाजू वजा केली आणि कडांमध्ये झालेल्या उरलेल्या बदलाकडे दुर्लक्ष केले." },
+        "2": { "en": "Adds the two new 3 cm edges but forgets to remove the old 3 cm + 3 cm edges.", "hi": "3 cm की दो नई भुजाएँ जोड़ दीं, पर पुरानी 3 cm + 3 cm भुजाएँ हटाना भूल गए।", "mr": "3 cm च्या दोन नवीन कडा मिळवल्या, पण जुन्या 3 cm + 3 cm कडा वजा करायला विसरले." }
+      }
+    },
+    {
+      "key": "rms6-p5-ar-48",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Sunita spent 1/3 of her money on books and 1/4 of it on food. She is left with ₹280. How much money did she have at first?", "hi": "सुनीता ने अपने पैसों का 1/3 भाग किताबों पर और 1/4 भाग खाने पर खर्च किया। उसके पास ₹280 बचे। शुरू में उसके पास कितने पैसे थे?", "mr": "सुनीताने तिच्या पैशांपैकी 1/3 भाग पुस्तकांवर आणि 1/4 भाग खाण्यावर खर्च केला. तिच्याजवळ ₹280 उरले. सुरुवातीला तिच्याजवळ किती पैसे होते?" },
+      "optionsJson": [
+        { "en": "₹480", "hi": "₹480", "mr": "₹480" },
+        { "en": "₹672", "hi": "₹672", "mr": "₹672" },
+        { "en": "₹560", "hi": "₹560", "mr": "₹560" },
+        { "en": "₹840", "hi": "₹840", "mr": "₹840" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Fraction spent = 1/3 + 1/4 = 7/12, so the fraction left = 1 − 7/12 = 5/12. If 5/12 of the money is ₹280, then 1/12 is ₹56, so the full amount is 12 × 56 = ₹672.", "hi": "खर्च किया गया भाग = 1/3 + 1/4 = 7/12, इसलिए बचा हुआ भाग = 1 − 7/12 = 5/12। यदि कुल पैसों का 5/12 भाग ₹280 है, तो 1/12 भाग ₹56 है, अतः कुल राशि = 12 × 56 = ₹672।", "mr": "खर्च केलेला भाग = 1/3 + 1/4 = 7/12, म्हणून उरलेला भाग = 1 − 7/12 = 5/12. जर एकूण पैशांचा 5/12 भाग ₹280 असेल, तर 1/12 भाग ₹56 आहे, म्हणून एकूण रक्कम = 12 × 56 = ₹672." },
+      "distractorAnalysis": {
+        "0": { "en": "Treats ₹280 as 7/12 (the spent part) instead of 5/12 (the part left over).", "hi": "₹280 को 5/12 (बचे भाग) की जगह 7/12 (खर्च किया भाग) मान लिया।", "mr": "₹280 ला 5/12 (उरलेला भाग) ऐवजी 7/12 (खर्च केलेला भाग) मानले." },
+        "2": { "en": "Simply doubles ₹280 without using the fractions that were spent.", "hi": "खर्च किए गए भिन्नों का उपयोग किए बिना ₹280 को सीधे दोगुना कर दिया।", "mr": "खर्च केलेल्या अपूर्णांकांचा वापर न करता ₹280 ची थेट दुप्पट केली." },
+        "3": { "en": "Treats ₹280 as one-third of the money, ignoring the food expense.", "hi": "₹280 को कुल पैसों का एक-तिहाई मान लिया, खाने के खर्च की अनदेखी की।", "mr": "₹280 ला एकूण पैशांचा एक-तृतीयांश मानले, खाण्यावरील खर्चाकडे दुर्लक्ष केले." }
+      }
+    },
+    {
+      "key": "rms6-p5-ar-49",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": { "en": "The length of a rectangle is 3 cm more than its width. If the perimeter of the rectangle is 34 cm, what is the width?", "hi": "एक आयत की लंबाई उसकी चौड़ाई से 3 cm अधिक है। यदि आयत का परिमाप 34 cm है, तो चौड़ाई कितनी है?", "mr": "एका आयताची लांबी त्याच्या रुंदीपेक्षा 3 cm जास्त आहे. आयताची परिमिती 34 cm असल्यास रुंदी किती?" },
+      "optionsJson": [
+        { "en": "7 cm", "hi": "7 cm", "mr": "7 cm" },
+        { "en": "10 cm", "hi": "10 cm", "mr": "10 cm" },
+        { "en": "8.5 cm", "hi": "8.5 cm", "mr": "8.5 cm" },
+        { "en": "14 cm", "hi": "14 cm", "mr": "14 cm" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Let the width be w cm, so the length is (w + 3) cm. Perimeter = 2 × (w + w + 3) = 34, so 2w + 3 = 17, 2w = 14 and w = 7. The width is 7 cm (the length is 10 cm; check: 2 × (7 + 10) = 34).", "hi": "मान लीजिए चौड़ाई w cm है, तो लंबाई (w + 3) cm होगी। परिमाप = 2 × (w + w + 3) = 34, अतः 2w + 3 = 17, 2w = 14 और w = 7। चौड़ाई 7 cm है (लंबाई 10 cm है; जाँच: 2 × (7 + 10) = 34)।", "mr": "समजा रुंदी w cm आहे, तर लांबी (w + 3) cm होईल. परिमिती = 2 × (w + w + 3) = 34, म्हणून 2w + 3 = 17, 2w = 14 आणि w = 7. रुंदी 7 cm आहे (लांबी 10 cm आहे; पडताळा: 2 × (7 + 10) = 34)." },
+      "distractorAnalysis": {
+        "1": { "en": "This is the length (7 + 3), not the width.", "hi": "यह लंबाई (7 + 3) है, चौड़ाई नहीं।", "mr": "ही लांबी (7 + 3) आहे, रुंदी नाही." },
+        "2": { "en": "Divides the perimeter by 4 as if the rectangle were a square (34 ÷ 4 = 8.5).", "hi": "आयत को वर्ग मानकर परिमाप को 4 से भाग दे दिया (34 ÷ 4 = 8.5)।", "mr": "आयताला चौरस मानून परिमितीला 4 ने भागले (34 ÷ 4 = 8.5)." },
+        "3": { "en": "This is the value of 2w; the final step of dividing 14 by 2 was left out.", "hi": "यह 2w का मान है; अंतिम चरण में 14 को 2 से भाग देना छूट गया।", "mr": "ही 2w ची किंमत आहे; शेवटची पायरी, म्हणजे 14 ला 2 ने भागणे, राहून गेली." }
+      }
+    },
+    {
+      "key": "rms6-p5-ar-50",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "At 6 am in Shimla the temperature was −4°C. By noon it rose by 9°C, and by evening it fell by 3°C. What was the temperature in the evening?", "hi": "शिमला में सुबह 6 बजे तापमान −4°C था। दोपहर तक यह 9°C बढ़ा और शाम तक 3°C घट गया। शाम का तापमान कितना था?", "mr": "शिमल्यात सकाळी 6 वाजता तापमान −4°C होते. दुपारपर्यंत ते 9°C ने वाढले आणि संध्याकाळपर्यंत 3°C ने घटले. संध्याकाळचे तापमान किती होते?" },
+      "optionsJson": [
+        { "en": "−10°C", "hi": "−10°C", "mr": "−10°C" },
+        { "en": "−2°C", "hi": "−2°C", "mr": "−2°C" },
+        { "en": "2°C", "hi": "2°C", "mr": "2°C" },
+        { "en": "8°C", "hi": "8°C", "mr": "8°C" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Temperature at noon = −4 + 9 = 5°C. Temperature in the evening = 5 − 3 = 2°C.", "hi": "दोपहर का तापमान = −4 + 9 = 5°C। शाम का तापमान = 5 − 3 = 2°C।", "mr": "दुपारचे तापमान = −4 + 9 = 5°C. संध्याकाळचे तापमान = 5 − 3 = 2°C." },
+      "distractorAnalysis": {
+        "0": { "en": "Treats the rise as a fall and the fall as a rise (−4 − 9 + 3 = −10).", "hi": "बढ़त को गिरावट और गिरावट को बढ़त मान लिया (−4 − 9 + 3 = −10)।", "mr": "वाढ ही घट आणि घट ही वाढ मानली (−4 − 9 + 3 = −10)." },
+        "1": { "en": "Ignores the minus sign of −4 and starts from 4°C (4 − 9 + 3 = −2).", "hi": "−4 के ऋण चिह्न की अनदेखी की और 4°C से शुरू किया (4 − 9 + 3 = −2)।", "mr": "−4 मधील ऋण चिन्हाकडे दुर्लक्ष केले आणि 4°C पासून सुरुवात केली (4 − 9 + 3 = −2)." },
+        "3": { "en": "Adds the 3°C fall instead of subtracting it (−4 + 9 + 3 = 8).", "hi": "3°C की गिरावट को घटाने की जगह जोड़ दिया (−4 + 9 + 3 = 8)।", "mr": "3°C ची घट वजा करण्याऐवजी मिळवली (−4 + 9 + 3 = 8)." }
+      }
+    }
+  ]
+}

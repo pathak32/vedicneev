@@ -1,0 +1,484 @@
+{
+  "examType": "AISSEE",
+  "classLevel": 9,
+  "paperNumber": 5,
+  "sectionKey": "science",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "aissee9-p5-sc-01",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Protein synthesis in a cell takes place on which of the following organelles?", "hi": "कोशिका में प्रोटीन का संश्लेषण निम्नलिखित में से किस कोशिकांग पर होता है?" },
+      "optionsJson": [
+        { "en": "Lysosome", "hi": "लाइसोसोम" },
+        { "en": "Ribosome", "hi": "राइबोसोम" },
+        { "en": "Golgi apparatus", "hi": "गॉल्जी उपकरण" },
+        { "en": "Vacuole", "hi": "रिक्तिका" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Ribosomes, found free in the cytoplasm or attached to the rough endoplasmic reticulum, are the sites where amino acids are joined to make proteins.", "hi": "राइबोसोम कोशिकाद्रव्य में स्वतंत्र रूप से या खुरदरी अंतर्द्रव्यी जालिका से जुड़े होते हैं और वही स्थान हैं जहाँ अमीनो अम्ल जुड़कर प्रोटीन बनाते हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "Lysosomes contain digestive enzymes that break down worn-out parts and foreign material; they do not make proteins.", "hi": "लाइसोसोम में पाचक एंजाइम होते हैं जो घिसे-पिटे भागों और बाहरी पदार्थों को तोड़ते हैं; ये प्रोटीन नहीं बनाते।" },
+        "2": { "en": "The Golgi apparatus modifies, packs and dispatches substances made elsewhere in the cell; it is not the site of protein synthesis.", "hi": "गॉल्जी उपकरण कोशिका में अन्यत्र बने पदार्थों का रूपांतरण, पैकेजिंग और परिवहन करता है; यह प्रोटीन संश्लेषण का स्थान नहीं है।" },
+        "3": { "en": "Vacuoles store water, sap, food and waste; they do not synthesise proteins.", "hi": "रिक्तिकाएँ जल, रस, भोजन और अपशिष्ट का संचय करती हैं; ये प्रोटीन का संश्लेषण नहीं करतीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-sc-02",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which of the following is a vector quantity?", "hi": "निम्नलिखित में से कौन-सी एक सदिश राशि है?" },
+      "optionsJson": [
+        { "en": "Speed", "hi": "चाल" },
+        { "en": "Distance", "hi": "दूरी" },
+        { "en": "Displacement", "hi": "विस्थापन" },
+        { "en": "Mass", "hi": "द्रव्यमान" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Displacement has both magnitude and direction, so it is a vector quantity.", "hi": "विस्थापन में परिमाण और दिशा दोनों होते हैं, इसलिए यह एक सदिश राशि है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Speed has only magnitude and no direction, so it is a scalar.", "hi": "चाल में केवल परिमाण होता है, दिशा नहीं, इसलिए यह अदिश राशि है।" },
+        "1": { "en": "Distance is the total length of the path travelled and has no direction, so it is a scalar.", "hi": "दूरी तय किए गए पथ की कुल लंबाई है और इसकी कोई दिशा नहीं होती, इसलिए यह अदिश राशि है।" },
+        "3": { "en": "Mass is the quantity of matter in a body and has no direction, so it is a scalar.", "hi": "द्रव्यमान किसी वस्तु में पदार्थ की मात्रा है और इसकी कोई दिशा नहीं होती, इसलिए यह अदिश राशि है।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-sc-03",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which plant tissue conducts water and minerals from the roots to the leaves?", "hi": "कौन-सा पादप ऊतक जल और खनिज लवणों को जड़ों से पत्तियों तक पहुँचाता है?" },
+      "optionsJson": [
+        { "en": "Phloem", "hi": "फ्लोएम" },
+        { "en": "Sclerenchyma", "hi": "दृढ़ोतक (स्क्लेरेन्काइमा)" },
+        { "en": "Epidermis", "hi": "अधिचर्म" },
+        { "en": "Xylem", "hi": "जाइलम" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Xylem, made of tracheids and vessels, carries water and dissolved minerals upward from the roots to the leaves.", "hi": "जाइलम, जो वाहिनिकाओं और वाहिकाओं से बना होता है, जल और घुले हुए खनिज लवणों को जड़ों से ऊपर पत्तियों तक ले जाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Phloem transports food (sugars) made in the leaves to other parts of the plant, not water from the roots.", "hi": "फ्लोएम पत्तियों में बने भोजन (शर्करा) को पौधे के अन्य भागों तक पहुँचाता है, जड़ों से जल को नहीं।" },
+        "1": { "en": "Sclerenchyma has dead cells with thick walls and gives mechanical strength; it does not conduct water.", "hi": "दृढ़ोतक में मोटी भित्ति वाली मृत कोशिकाएँ होती हैं और यह यांत्रिक मजबूती देता है; यह जल का संवहन नहीं करता।" },
+        "2": { "en": "Epidermis is the protective outer layer of the plant body and does not conduct water over long distances.", "hi": "अधिचर्म पौधे के शरीर की सुरक्षात्मक बाहरी परत है और यह जल का दूर तक संवहन नहीं करती।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-sc-04",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which of the following cell organelles is found in plant cells but NOT in animal cells?", "hi": "निम्नलिखित में से कौन-सा कोशिकांग पादप कोशिकाओं में पाया जाता है, किंतु जंतु कोशिकाओं में नहीं?" },
+      "optionsJson": [
+        { "en": "Chloroplast", "hi": "हरितलवक (क्लोरोप्लास्ट)" },
+        { "en": "Mitochondria", "hi": "माइटोकॉन्ड्रिया" },
+        { "en": "Ribosome", "hi": "राइबोसोम" },
+        { "en": "Cell membrane", "hi": "कोशिका झिल्ली" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Chloroplasts contain chlorophyll and carry out photosynthesis. They are present only in green plant cells, not in animal cells.", "hi": "हरितलवकों में क्लोरोफिल होता है और वे प्रकाश संश्लेषण करते हैं। ये केवल हरे पादपों की कोशिकाओं में होते हैं, जंतु कोशिकाओं में नहीं।" },
+      "distractorAnalysis": {
+        "1": { "en": "Mitochondria are present in both plant and animal cells, where they release energy by respiration.", "hi": "माइटोकॉन्ड्रिया पादप और जंतु दोनों कोशिकाओं में होते हैं और श्वसन द्वारा ऊर्जा मुक्त करते हैं।" },
+        "2": { "en": "Ribosomes are present in all living cells, both plant and animal.", "hi": "राइबोसोम सभी सजीव कोशिकाओं, पादप और जंतु दोनों, में पाए जाते हैं।" },
+        "3": { "en": "The cell membrane surrounds every living cell, including animal cells.", "hi": "कोशिका झिल्ली जंतु कोशिकाओं सहित प्रत्येक सजीव कोशिका को घेरे रहती है।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-sc-05",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which of the following is a homogeneous mixture?", "hi": "निम्नलिखित में से कौन-सा एक समांगी मिश्रण है?" },
+      "optionsJson": [
+        { "en": "Sand and water", "hi": "रेत और जल" },
+        { "en": "Oil and water", "hi": "तेल और जल" },
+        { "en": "Chalk powder and water", "hi": "चॉक का चूर्ण और जल" },
+        { "en": "Salt dissolved in water", "hi": "जल में घुला हुआ नमक" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "A salt solution has the same composition throughout and its components cannot be seen separately, so it is a homogeneous mixture.", "hi": "नमक के विलयन की संरचना सभी जगह एक समान होती है और इसके घटक अलग-अलग दिखाई नहीं देते, इसलिए यह समांगी मिश्रण है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Sand settles in water and can be seen separately, so the mixture is heterogeneous.", "hi": "रेत जल में नीचे बैठ जाती है और अलग दिखाई देती है, इसलिए यह विषमांगी मिश्रण है।" },
+        "1": { "en": "Oil and water do not mix and form two visible layers, so the mixture is heterogeneous.", "hi": "तेल और जल आपस में नहीं मिलते और दो अलग परतें बनाते हैं, इसलिए यह विषमांगी मिश्रण है।" },
+        "2": { "en": "Chalk powder remains as visible particles that settle down in water, so the mixture is heterogeneous.", "hi": "चॉक का चूर्ण जल में दिखाई देने वाले कणों के रूप में रहता है और नीचे बैठ जाता है, इसलिए यह विषमांगी मिश्रण है।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-sc-06",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which bacteria live in the root nodules of pulse plants such as gram and pea and fix atmospheric nitrogen?", "hi": "चना और मटर जैसे दलहनी पौधों की जड़ों की ग्रंथिकाओं में कौन-से जीवाणु रहते हैं और वायुमंडलीय नाइट्रोजन का स्थिरीकरण करते हैं?" },
+      "optionsJson": [
+        { "en": "Rhizobium", "hi": "राइज़ोबियम" },
+        { "en": "Lactobacillus", "hi": "लैक्टोबैसिलस" },
+        { "en": "Salmonella", "hi": "साल्मोनेला" },
+        { "en": "Streptococcus", "hi": "स्ट्रेप्टोकोकस" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Rhizobium bacteria live in the root nodules of leguminous plants and convert atmospheric nitrogen into compounds the plant can use.", "hi": "राइज़ोबियम जीवाणु दलहनी पौधों की जड़ों की ग्रंथिकाओं में रहते हैं और वायुमंडलीय नाइट्रोजन को ऐसे यौगिकों में बदलते हैं जिन्हें पौधे उपयोग कर सकते हैं।" },
+      "distractorAnalysis": {
+        "1": { "en": "Lactobacillus helps in turning milk into curd; it does not fix nitrogen in root nodules.", "hi": "लैक्टोबैसिलस दूध को दही में बदलने में सहायक है; यह जड़ ग्रंथिकाओं में नाइट्रोजन स्थिरीकरण नहीं करता।" },
+        "2": { "en": "Salmonella causes typhoid and food poisoning; it is a disease-causing bacterium.", "hi": "साल्मोनेला टाइफाइड और खाद्य विषाक्तता का कारण बनता है; यह रोगजनक जीवाणु है।" },
+        "3": { "en": "Streptococcus includes species that cause throat infections; it does not fix nitrogen in root nodules.", "hi": "स्ट्रेप्टोकोकस की कुछ प्रजातियाँ गले का संक्रमण करती हैं; यह जड़ ग्रंथिकाओं में नाइट्रोजन स्थिरीकरण नहीं करता।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-sc-07",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which connective tissue joins a skeletal muscle to a bone?", "hi": "कौन-सा संयोजी ऊतक कंकाल पेशी को अस्थि से जोड़ता है?" },
+      "optionsJson": [
+        { "en": "Ligament", "hi": "स्नायु (लिगामेंट)" },
+        { "en": "Cartilage", "hi": "उपास्थि" },
+        { "en": "Tendon", "hi": "कंडरा (टेंडन)" },
+        { "en": "Areolar tissue", "hi": "एरिओलर ऊतक" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "A tendon is a strong, fibrous connective tissue that attaches muscle to bone.", "hi": "कंडरा एक मजबूत, तंतुमय संयोजी ऊतक है जो पेशी को अस्थि से जोड़ता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "A ligament connects one bone to another bone, not muscle to bone.", "hi": "स्नायु एक अस्थि को दूसरी अस्थि से जोड़ता है, पेशी को अस्थि से नहीं।" },
+        "1": { "en": "Cartilage is a smooth, flexible tissue found at joints, ear and nose; it provides support and cushioning but does not join muscle to bone.", "hi": "उपास्थि एक चिकना, लचीला ऊतक है जो जोड़ों, कान और नाक में पाया जाता है; यह सहारा और गद्दी का काम करती है, पेशी को अस्थि से नहीं जोड़ती।" },
+        "3": { "en": "Areolar tissue fills the space inside organs and supports internal organs; it is not the tissue that attaches muscle to bone.", "hi": "एरिओलर ऊतक अंगों के भीतर खाली स्थान को भरता है और आंतरिक अंगों को सहारा देता है; यह पेशी को अस्थि से नहीं जोड़ता।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-sc-08",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A muscle tissue has cylindrical, branched cells with a single nucleus. It shows striations and works without our conscious control. Which tissue is this?", "hi": "एक पेशी ऊतक में बेलनाकार, शाखित कोशिकाएँ होती हैं जिनमें एक केंद्रक होता है। यह रेखित दिखाई देता है और हमारी इच्छा के बिना कार्य करता है। यह कौन-सा ऊतक है?" },
+      "optionsJson": [
+        { "en": "Smooth muscle", "hi": "अरेखित (चिकनी) पेशी" },
+        { "en": "Cardiac muscle", "hi": "हृदय पेशी" },
+        { "en": "Skeletal muscle", "hi": "कंकाल पेशी" },
+        { "en": "Adipose tissue", "hi": "वसामय ऊतक" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Cardiac muscle cells are striated, branched, uninucleate and involuntary. This tissue forms the walls of the heart.", "hi": "हृदय पेशी की कोशिकाएँ रेखित, शाखित, एककेंद्रकीय और अनैच्छिक होती हैं। यह ऊतक हृदय की दीवारों का निर्माण करता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Smooth muscle is involuntary but has spindle-shaped, unbranched cells with no striations.", "hi": "अरेखित पेशी अनैच्छिक होती है, पर इसकी कोशिकाएँ तर्कुरूप, अशाखित होती हैं और उनमें रेखाएँ नहीं होतीं।" },
+        "2": { "en": "Skeletal muscle is striated but voluntary, with long, unbranched, multinucleate cells.", "hi": "कंकाल पेशी रेखित होती है, पर ऐच्छिक होती है और इसकी कोशिकाएँ लंबी, अशाखित और बहुकेंद्रकीय होती हैं।" },
+        "3": { "en": "Adipose tissue is a fat-storing connective tissue, not a muscle tissue.", "hi": "वसामय ऊतक वसा का संचय करने वाला संयोजी ऊतक है, पेशी ऊतक नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-sc-09",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A multicellular organism has cell walls made of chitin, has no chlorophyll and absorbs food from dead and decaying matter. To which kingdom does it belong?", "hi": "एक बहुकोशिकीय जीव की कोशिका भित्ति काइटिन की बनी होती है, उसमें क्लोरोफिल नहीं होता और वह मृत व सड़ते पदार्थों से भोजन अवशोषित करता है। यह किस जगत का सदस्य है?" },
+      "optionsJson": [
+        { "en": "Plantae", "hi": "पादप जगत (प्लांटी)" },
+        { "en": "Fungi", "hi": "कवक जगत (फंजाई)" },
+        { "en": "Animalia", "hi": "जंतु जगत (एनिमेलिया)" },
+        { "en": "Monera", "hi": "मोनेरा जगत" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Fungi are heterotrophic, feed on decaying organic matter by absorption and have chitin in their cell walls. Mushrooms are an example.", "hi": "कवक विषमपोषी होते हैं, सड़ते कार्बनिक पदार्थों से अवशोषण द्वारा भोजन लेते हैं और उनकी कोशिका भित्ति में काइटिन होता है। मशरूम इसका एक उदाहरण है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Plants have cellulose cell walls and chlorophyll, and make their own food by photosynthesis.", "hi": "पादपों की कोशिका भित्ति सेलुलोज की होती है, उनमें क्लोरोफिल होता है और वे प्रकाश संश्लेषण से अपना भोजन स्वयं बनाते हैं।" },
+        "2": { "en": "Animals have no cell wall and take in food by ingestion rather than absorbing it from decaying matter.", "hi": "जंतुओं में कोशिका भित्ति नहीं होती और वे सड़े पदार्थों से अवशोषण के बजाय भोजन को ग्रहण करते हैं।" },
+        "3": { "en": "Monera are unicellular prokaryotes, so they are not multicellular organisms.", "hi": "मोनेरा एककोशिकीय प्राककेंद्रक जीव हैं, इसलिए वे बहुकोशिकीय नहीं होते।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-sc-10",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A force of 200 N acts perpendicularly on a surface of area 0.5 m². What is the pressure exerted on the surface?", "hi": "200 N का बल 0.5 m² क्षेत्रफल की एक सतह पर लंबवत् कार्य करता है। सतह पर लगने वाला दाब कितना है?" },
+      "optionsJson": [
+        { "en": "100 Pa", "hi": "100 Pa" },
+        { "en": "199.5 Pa", "hi": "199.5 Pa" },
+        { "en": "400 Pa", "hi": "400 Pa" },
+        { "en": "0.0025 Pa", "hi": "0.0025 Pa" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Pressure = Force / Area = 200 N / 0.5 m² = 400 N/m² = 400 Pa.", "hi": "दाब = बल / क्षेत्रफल = 200 N / 0.5 m² = 400 N/m² = 400 Pa।" },
+      "distractorAnalysis": {
+        "0": { "en": "100 Pa results from multiplying force by area (200 x 0.5) instead of dividing.", "hi": "100 Pa तब आता है जब बल को क्षेत्रफल से भाग देने के बजाय गुणा (200 x 0.5) कर दिया जाए।" },
+        "1": { "en": "199.5 Pa results from subtracting area from force, which is not how pressure is defined.", "hi": "199.5 Pa तब आता है जब बल में से क्षेत्रफल घटा दिया जाए, जबकि दाब की परिभाषा यह नहीं है।" },
+        "3": { "en": "0.0025 Pa results from dividing area by force (0.5 / 200), which inverts the formula.", "hi": "0.0025 Pa तब आता है जब क्षेत्रफल को बल से भाग (0.5 / 200) दिया जाए, जो सूत्र को उलट देता है।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-sc-11",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A vertebrate is cold-blooded, has dry skin covered with scales, breathes through lungs and lays leathery-shelled eggs on land. To which class does it belong?", "hi": "एक कशेरुकी जंतु असमतापी है, उसकी शुष्क त्वचा शल्कों से ढकी होती है, वह फेफड़ों से साँस लेता है और स्थल पर चर्मिल कवच वाले अंडे देता है। यह किस वर्ग का सदस्य है?" },
+      "optionsJson": [
+        { "en": "Reptilia", "hi": "सरीसृप (रेप्टीलिया)" },
+        { "en": "Amphibia", "hi": "उभयचर (एम्फीबिया)" },
+        { "en": "Aves", "hi": "पक्षी वर्ग (एवीज़)" },
+        { "en": "Mammalia", "hi": "स्तनधारी (मैमेलिया)" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Cold-blooded vertebrates with scaly dry skin that lay shelled eggs on land are reptiles, such as lizards, snakes and turtles.", "hi": "शल्कयुक्त शुष्क त्वचा वाले और स्थल पर कवचयुक्त अंडे देने वाले असमतापी कशेरुकी सरीसृप होते हैं, जैसे छिपकली, साँप और कछुआ।" },
+      "distractorAnalysis": {
+        "1": { "en": "Amphibians have moist, scaleless skin and lay jelly-coated eggs in water.", "hi": "उभयचरों की त्वचा नम और शल्करहित होती है और वे जल में जेली से ढके अंडे देते हैं।" },
+        "2": { "en": "Birds are warm-blooded and have feathers on their bodies.", "hi": "पक्षी समतापी होते हैं और उनके शरीर पर पंख होते हैं।" },
+        "3": { "en": "Mammals are warm-blooded, have hair or fur and (mostly) give birth to young ones.", "hi": "स्तनधारी समतापी होते हैं, उनके शरीर पर बाल होते हैं और वे (अधिकतर) बच्चों को जन्म देते हैं।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-sc-12",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which of the following shows the correct way of writing the scientific name of the mango according to the rules of binomial nomenclature (it is printed in italics)?", "hi": "द्विनाम पद्धति के नियमों के अनुसार आम का वैज्ञानिक नाम लिखने का सही तरीका निम्नलिखित में से कौन-सा है (इसे तिरछे अक्षरों में छापा जाता है)?" },
+      "optionsJson": [
+        { "en": "Mangifera Indica", "hi": "Mangifera Indica" },
+        { "en": "mangifera indica", "hi": "mangifera indica" },
+        { "en": "MANGIFERA INDICA", "hi": "MANGIFERA INDICA" },
+        { "en": "Mangifera indica", "hi": "Mangifera indica" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "In binomial nomenclature the genus name begins with a capital letter and the species name begins with a small letter. Both are printed in italics.", "hi": "द्विनाम पद्धति में वंश का नाम बड़े अक्षर से और जाति का नाम छोटे अक्षर से शुरू होता है। दोनों नाम तिरछे अक्षरों में छापे जाते हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "The species name must begin with a small letter, not a capital letter.", "hi": "जाति का नाम छोटे अक्षर से शुरू होना चाहिए, बड़े अक्षर से नहीं।" },
+        "1": { "en": "The genus name must begin with a capital letter.", "hi": "वंश का नाम बड़े अक्षर से शुरू होना चाहिए।" },
+        "2": { "en": "Writing both names entirely in capital letters is not allowed; only the first letter of the genus is capital.", "hi": "दोनों नामों को पूरी तरह बड़े अक्षरों में लिखना मान्य नहीं है; केवल वंश का पहला अक्षर बड़ा होता है।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-sc-13",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which of the following diseases is caused by a virus?", "hi": "निम्नलिखित में से कौन-सा रोग विषाणु (वायरस) के कारण होता है?" },
+      "optionsJson": [
+        { "en": "Malaria", "hi": "मलेरिया" },
+        { "en": "Typhoid", "hi": "टाइफाइड" },
+        { "en": "Dengue", "hi": "डेंगू" },
+        { "en": "Ringworm", "hi": "दाद (रिंगवर्म)" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Dengue is caused by the dengue virus, which is spread by the bite of infected Aedes mosquitoes.", "hi": "डेंगू, डेंगू वायरस के कारण होता है, जो संक्रमित एडीज़ मच्छर के काटने से फैलता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Malaria is caused by a protozoan, Plasmodium, not a virus.", "hi": "मलेरिया प्लाज़्मोडियम नामक प्रोटोज़ोआ से होता है, विषाणु से नहीं।" },
+        "1": { "en": "Typhoid is caused by a bacterium, Salmonella typhi.", "hi": "टाइफाइड साल्मोनेला टाइफी नामक जीवाणु से होता है।" },
+        "3": { "en": "Ringworm is a skin infection caused by a fungus.", "hi": "दाद त्वचा का संक्रमण है जो कवक के कारण होता है।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-sc-14",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A metal block has a mass of 540 g and a volume of 200 cm³. What is the density of the metal?", "hi": "एक धातु के गुटके का द्रव्यमान 540 g और आयतन 200 cm³ है। धातु का घनत्व कितना है?" },
+      "optionsJson": [
+        { "en": "0.37 g/cm³", "hi": "0.37 g/cm³" },
+        { "en": "2.7 g/cm³", "hi": "2.7 g/cm³" },
+        { "en": "27 g/cm³", "hi": "27 g/cm³" },
+        { "en": "340 g/cm³", "hi": "340 g/cm³" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Density = mass / volume = 540 g / 200 cm³ = 2.7 g/cm³.", "hi": "घनत्व = द्रव्यमान / आयतन = 540 g / 200 cm³ = 2.7 g/cm³।" },
+      "distractorAnalysis": {
+        "0": { "en": "0.37 g/cm³ comes from dividing volume by mass (200 / 540), which inverts the formula.", "hi": "0.37 g/cm³ आयतन को द्रव्यमान से भाग (200 / 540) देने पर आता है, जो सूत्र को उलट देता है।" },
+        "2": { "en": "27 g/cm³ is a decimal-place slip; 540 / 200 equals 2.7, not 27.", "hi": "27 g/cm³ दशमलव की गलती से आता है; 540 / 200 का मान 2.7 होता है, 27 नहीं।" },
+        "3": { "en": "340 g/cm³ comes from subtracting volume from mass (540 - 200), which is not the definition of density.", "hi": "340 g/cm³ द्रव्यमान में से आयतन घटाने (540 - 200) पर आता है, जो घनत्व की परिभाषा नहीं है।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-sc-15",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "How does vaccination protect a person from a disease?", "hi": "टीकाकरण किसी व्यक्ति को रोग से कैसे बचाता है?" },
+      "optionsJson": [
+        { "en": "It introduces weakened or killed germs (or their parts) so that the body makes antibodies and memory cells", "hi": "यह कमज़ोर या मृत रोगाणुओं (या उनके भागों) को शरीर में पहुँचाता है, जिससे शरीर प्रतिरक्षी और स्मृति कोशिकाएँ बनाता है" },
+        { "en": "It immediately kills all the disease-causing germs already present in the blood", "hi": "यह रक्त में पहले से मौजूद सभी रोगाणुओं को तुरंत मार देता है" },
+        { "en": "It supplies ready-made antibodies taken from another person or animal", "hi": "यह किसी अन्य व्यक्ति या जंतु से लिए गए बने-बनाए प्रतिरक्षी देता है" },
+        { "en": "It raises the body temperature so that germs cannot survive", "hi": "यह शरीर का तापमान बढ़ा देता है ताकि रोगाणु जीवित न रह सकें" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "A vaccine exposes the immune system to harmless forms of the germ, so the body learns to make antibodies and memory cells and can respond quickly if the real germ enters later.", "hi": "टीका प्रतिरक्षा तंत्र को रोगाणु के हानिरहित रूप से परिचित कराता है, जिससे शरीर प्रतिरक्षी और स्मृति कोशिकाएँ बनाना सीख लेता है और बाद में असली रोगाणु के प्रवेश करने पर शीघ्र प्रतिक्रिया कर सकता है।" },
+      "distractorAnalysis": {
+        "1": { "en": "A vaccine is given to prevent disease, not to kill germs already in the blood; that is the job of medicines such as antibiotics.", "hi": "टीका रोग को रोकने के लिए दिया जाता है, रक्त में मौजूद रोगाणुओं को मारने के लिए नहीं; यह कार्य एंटीबायोटिक जैसी दवाओं का है।" },
+        "2": { "en": "Supplying ready-made antibodies describes an antiserum, not a vaccine; a vaccine makes the body produce its own antibodies.", "hi": "बने-बनाए प्रतिरक्षी देना प्रतिसीरम की विशेषता है, टीके की नहीं; टीका शरीर को अपने प्रतिरक्षी बनाने के लिए प्रेरित करता है।" },
+        "3": { "en": "A vaccine does not work by raising body temperature; mild fever is only a side effect in some people.", "hi": "टीका शरीर का तापमान बढ़ाकर कार्य नहीं करता; हल्का बुखार कुछ लोगों में केवल एक दुष्प्रभाव होता है।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-sc-16",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "In which layer of the atmosphere is the ozone layer, which absorbs the harmful ultraviolet rays of the Sun, mainly found?", "hi": "वायुमंडल की किस परत में ओज़ोन परत मुख्य रूप से पाई जाती है, जो सूर्य की हानिकारक पराबैंगनी किरणों को अवशोषित करती है?" },
+      "optionsJson": [
+        { "en": "Troposphere", "hi": "क्षोभमंडल" },
+        { "en": "Stratosphere", "hi": "समतापमंडल" },
+        { "en": "Mesosphere", "hi": "मध्यमंडल" },
+        { "en": "Thermosphere", "hi": "तापमंडल" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The ozone layer lies in the stratosphere, roughly 15 to 35 km above the Earth, and shields living things from the Sun's ultraviolet rays.", "hi": "ओज़ोन परत समतापमंडल में, पृथ्वी से लगभग 15 से 35 km ऊपर स्थित है और सजीवों को सूर्य की पराबैंगनी किरणों से बचाती है।" },
+      "distractorAnalysis": {
+        "0": { "en": "The troposphere is the lowest layer, where weather and clouds occur; the main ozone layer is above it.", "hi": "क्षोभमंडल सबसे निचली परत है, जहाँ मौसम और बादल बनते हैं; मुख्य ओज़ोन परत इससे ऊपर है।" },
+        "2": { "en": "The mesosphere lies above the stratosphere; it is where most meteors burn up, not where the ozone layer is.", "hi": "मध्यमंडल समतापमंडल के ऊपर है; यहाँ अधिकांश उल्कापिंड जल जाते हैं, ओज़ोन परत यहाँ नहीं है।" },
+        "3": { "en": "The thermosphere is a very high layer with extremely thin air; it does not contain the main ozone layer.", "hi": "तापमंडल बहुत ऊँची परत है जिसमें वायु अत्यंत विरल होती है; इसमें मुख्य ओज़ोन परत नहीं होती।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-sc-17",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The electronic configuration of an atom of an element is 2, 8, 3. What is the valency of the element?", "hi": "किसी तत्व के परमाणु का इलेक्ट्रॉनिक विन्यास 2, 8, 3 है। इस तत्व की संयोजकता क्या है?" },
+      "optionsJson": [
+        { "en": "1", "hi": "1" },
+        { "en": "2", "hi": "2" },
+        { "en": "3", "hi": "3" },
+        { "en": "5", "hi": "5" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The outermost shell has 3 electrons. The atom can lose these 3 electrons to attain a stable octet, so its valency is 3. The element is aluminium.", "hi": "सबसे बाहरी कोश में 3 इलेक्ट्रॉन हैं। परमाणु स्थायी अष्टक प्राप्त करने के लिए इन 3 इलेक्ट्रॉनों को त्याग सकता है, इसलिए इसकी संयोजकता 3 है। यह तत्व ऐलुमिनियम है।" },
+      "distractorAnalysis": {
+        "0": { "en": "A valency of 1 would need only one electron in the outermost shell, but this atom has three.", "hi": "संयोजकता 1 होने के लिए बाहरी कोश में केवल एक इलेक्ट्रॉन होना चाहिए, पर इस परमाणु में तीन हैं।" },
+        "1": { "en": "A valency of 2 would need two electrons in the outermost shell, but this atom has three.", "hi": "संयोजकता 2 होने के लिए बाहरी कोश में दो इलेक्ट्रॉन होने चाहिए, पर इस परमाणु में तीन हैं।" },
+        "3": { "en": "5 is obtained by 8 - 3, the electrons needed to complete an octet; but an atom with 3 outer electrons finds it easier to lose them, so the valency is 3.", "hi": "5, 8 - 3 से मिलता है, यानी अष्टक पूरा करने के लिए चाहिए इलेक्ट्रॉन; परंतु 3 बाहरी इलेक्ट्रॉन वाले परमाणु के लिए उन्हें त्यागना आसान होता है, इसलिए संयोजकता 3 है।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-sc-18",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "In the food chain grass → grasshopper → frog → snake → hawk, the grass (producer) has 20,000 J of energy. According to the 10 per cent law, how much energy is available to the hawk?", "hi": "खाद्य शृंखला घास → टिड्डा → मेंढक → साँप → बाज़ में घास (उत्पादक) के पास 20,000 J ऊर्जा है। 10 प्रतिशत के नियम के अनुसार बाज़ को कितनी ऊर्जा उपलब्ध होगी?" },
+      "optionsJson": [
+        { "en": "200 J", "hi": "200 J" },
+        { "en": "20 J", "hi": "20 J" },
+        { "en": "0.2 J", "hi": "0.2 J" },
+        { "en": "2 J", "hi": "2 J" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Only 10% of the energy passes to the next trophic level. Grass 20,000 J → grasshopper 2,000 J → frog 200 J → snake 20 J → hawk 2 J.", "hi": "ऊर्जा का केवल 10% अगले पोषी स्तर तक पहुँचता है। घास 20,000 J → टिड्डा 2,000 J → मेंढक 200 J → साँप 20 J → बाज़ 2 J।" },
+      "distractorAnalysis": {
+        "0": { "en": "200 J is the energy available to the frog, which is only the third level of the chain.", "hi": "200 J मेंढक को उपलब्ध ऊर्जा है, जो शृंखला का केवल तीसरा स्तर है।" },
+        "1": { "en": "20 J is the energy available to the snake, one level before the hawk.", "hi": "20 J साँप को उपलब्ध ऊर्जा है, जो बाज़ से एक स्तर पहले है।" },
+        "2": { "en": "0.2 J would apply if there were one more trophic level after the hawk; the hawk is the fifth level.", "hi": "0.2 J तब होता जब बाज़ के बाद एक और पोषी स्तर होता; बाज़ पाँचवें स्तर पर है।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-sc-19",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Acetone (boiling point 56 °C) and water (boiling point 100 °C) mix completely with each other. Which method is best for separating them from their mixture?", "hi": "ऐसीटोन (क्वथनांक 56 °C) और जल (क्वथनांक 100 °C) आपस में पूरी तरह मिल जाते हैं। इनके मिश्रण से इन्हें अलग करने की सबसे उपयुक्त विधि कौन-सी है?" },
+      "optionsJson": [
+        { "en": "Distillation", "hi": "आसवन" },
+        { "en": "Filtration", "hi": "निस्यंदन" },
+        { "en": "Using a separating funnel", "hi": "पृथक्कारी कीप का उपयोग" },
+        { "en": "Sublimation", "hi": "ऊर्ध्वपातन" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Miscible liquids with different boiling points are separated by distillation. Acetone boils first, and its vapour is condensed and collected separately.", "hi": "भिन्न क्वथनांक वाले मिश्रणीय द्रवों को आसवन द्वारा अलग किया जाता है। ऐसीटोन पहले उबलता है और उसकी वाष्प को संघनित करके अलग एकत्र कर लिया जाता है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Filtration separates an insoluble solid from a liquid; both acetone and water pass through a filter together.", "hi": "निस्यंदन अघुलनशील ठोस को द्रव से अलग करता है; ऐसीटोन और जल दोनों साथ-साथ छन्ना पत्र से निकल जाते हैं।" },
+        "2": { "en": "A separating funnel separates immiscible liquids that form two layers; acetone and water are miscible and form a single layer.", "hi": "पृथक्कारी कीप उन अमिश्रणीय द्रवों को अलग करती है जो दो परतें बनाते हैं; ऐसीटोन और जल मिश्रणीय हैं और एक ही परत बनाते हैं।" },
+        "3": { "en": "Sublimation separates a solid that changes directly into vapour from other solids; it is not used for liquids.", "hi": "ऊर्ध्वपातन सीधे वाष्प बनने वाले ठोस को अन्य ठोसों से अलग करता है; यह द्रवों के लिए प्रयुक्त नहीं होता।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-sc-20",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": { "en": "A pesticide that does not break down enters a pond. It is absorbed by algae, which are eaten by small fish, which are eaten by large fish, which are in turn eaten by a fish-eating bird. In which organism will the concentration of the pesticide be the highest?", "hi": "एक कीटनाशक जो विघटित नहीं होता, तालाब में पहुँच जाता है। उसे शैवाल अवशोषित करते हैं, शैवाल को छोटी मछलियाँ खाती हैं, छोटी मछलियों को बड़ी मछलियाँ खाती हैं और बड़ी मछलियों को मछली खाने वाला पक्षी खाता है। किस जीव में कीटनाशक की सांद्रता सबसे अधिक होगी?" },
+      "optionsJson": [
+        { "en": "Algae", "hi": "शैवाल" },
+        { "en": "Large fish", "hi": "बड़ी मछली" },
+        { "en": "Fish-eating bird", "hi": "मछली खाने वाला पक्षी" },
+        { "en": "Small fish", "hi": "छोटी मछली" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Non-biodegradable chemicals accumulate and become more concentrated at each higher trophic level (biomagnification), so the top consumer, the fish-eating bird, has the highest concentration.", "hi": "अजैव-निम्नीकरणीय रसायन प्रत्येक उच्च पोषी स्तर पर जमा होकर और अधिक सांद्र होते जाते हैं (जैव-आवर्धन), इसलिए शीर्ष उपभोक्ता, मछली खाने वाले पक्षी, में सांद्रता सबसे अधिक होती है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Algae are at the first level, so they hold the lowest concentration of the chemical.", "hi": "शैवाल पहले स्तर पर हैं, इसलिए उनमें रसायन की सांद्रता सबसे कम होती है।" },
+        "1": { "en": "Large fish have a higher concentration than small fish, but the bird feeding on them accumulates even more.", "hi": "बड़ी मछलियों में छोटी मछलियों से अधिक सांद्रता होती है, पर उन्हें खाने वाले पक्षी में इससे भी अधिक जमा होता है।" },
+        "3": { "en": "Small fish have more than algae, but less than the large fish and the bird above them in the chain.", "hi": "छोटी मछलियों में शैवाल से अधिक सांद्रता होती है, पर शृंखला में उनसे ऊपर की बड़ी मछली और पक्षी से कम।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-sc-21",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A crane lifts a load of 50 kg to a height of 12 m in 6 s. What is the power developed by the crane? (Take g = 10 m/s²)", "hi": "एक क्रेन 50 kg के भार को 6 s में 12 m की ऊँचाई तक उठाती है। क्रेन द्वारा उत्पन्न शक्ति कितनी है? (g = 10 m/s² लीजिए)" },
+      "optionsJson": [
+        { "en": "100 W", "hi": "100 W" },
+        { "en": "500 W", "hi": "500 W" },
+        { "en": "6000 W", "hi": "6000 W" },
+        { "en": "1000 W", "hi": "1000 W" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Work done = mgh = 50 x 10 x 12 = 6000 J. Power = work / time = 6000 / 6 = 1000 W.", "hi": "किया गया कार्य = mgh = 50 x 10 x 12 = 6000 J। शक्ति = कार्य / समय = 6000 / 6 = 1000 W।" },
+      "distractorAnalysis": {
+        "0": { "en": "100 W comes from forgetting g: (50 x 12) / 6 = 100.", "hi": "100 W तब आता है जब g को भूल जाएँ: (50 x 12) / 6 = 100।" },
+        "1": { "en": "500 W is just the weight of the load (50 x 10 N); height and time were not used correctly.", "hi": "500 W केवल भार का भार-बल (50 x 10 N) है; ऊँचाई और समय का सही उपयोग नहीं हुआ।" },
+        "2": { "en": "6000 W is the work done in joules; it was not divided by the time of 6 s.", "hi": "6000 W वास्तव में जूल में किया गया कार्य है; इसे 6 s समय से भाग नहीं दिया गया।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-sc-22",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Why do antibiotics such as penicillin not cure the common cold?", "hi": "पेनिसिलिन जैसी एंटीबायोटिक दवाएँ सामान्य सर्दी-ज़ुकाम को ठीक क्यों नहीं करतीं?" },
+      "optionsJson": [
+        { "en": "The common cold is not an infectious disease", "hi": "सामान्य सर्दी-ज़ुकाम कोई संक्रामक रोग नहीं है" },
+        { "en": "The cold is caused by viruses, which do not have the life processes (such as making a cell wall) that antibiotics block", "hi": "सर्दी-ज़ुकाम विषाणुओं से होता है, जिनमें वे जैव-प्रक्रम (जैसे कोशिका भित्ति बनाना) नहीं होते जिन्हें एंटीबायोटिक रोकती हैं" },
+        { "en": "Antibiotics can act only on fungi and not on any other microbes", "hi": "एंटीबायोटिक केवल कवकों पर कार्य कर सकती हैं, अन्य किसी सूक्ष्मजीव पर नहीं" },
+        { "en": "Viruses are much larger than bacteria, so antibiotics cannot enter them", "hi": "विषाणु जीवाणुओं से बहुत बड़े होते हैं, इसलिए एंटीबायोटिक उनके अंदर नहीं जा पातीं" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Antibiotics block biochemical pathways found in bacteria, such as building the cell wall. Viruses do not have these pathways, so antibiotics have no effect on them. The common cold is a viral disease.", "hi": "एंटीबायोटिक जीवाणुओं में पाए जाने वाले जैव-रासायनिक मार्गों, जैसे कोशिका भित्ति के निर्माण, को रोकती हैं। विषाणुओं में ये मार्ग नहीं होते, इसलिए एंटीबायोटिक का उन पर कोई प्रभाव नहीं पड़ता। सामान्य सर्दी-ज़ुकाम विषाणुजनित रोग है।" },
+      "distractorAnalysis": {
+        "0": { "en": "The common cold is an infectious disease that spreads through the air from person to person.", "hi": "सामान्य सर्दी-ज़ुकाम एक संक्रामक रोग है जो वायु के माध्यम से एक व्यक्ति से दूसरे में फैलता है।" },
+        "2": { "en": "Antibiotics act mainly on bacteria, not only on fungi; the statement is factually wrong.", "hi": "एंटीबायोटिक मुख्य रूप से जीवाणुओं पर कार्य करती हैं, केवल कवकों पर नहीं; यह कथन तथ्यात्मक रूप से गलत है।" },
+        "3": { "en": "Viruses are far smaller than bacteria, and size is not the reason antibiotics fail against them.", "hi": "विषाणु जीवाणुओं से कहीं छोटे होते हैं और एंटीबायोटिक के विफल होने का कारण आकार नहीं है।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-sc-23",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "An animal cell placed in a sugar solution neither shrinks nor swells. Which statement is correct?", "hi": "एक जंतु कोशिका को शर्करा के विलयन में रखने पर वह न सिकुड़ती है, न फूलती है। निम्नलिखित में से कौन-सा कथन सही है?" },
+      "optionsJson": [
+        { "en": "The solution is isotonic to the cell, and water molecules move in and out of the cell at equal rates", "hi": "विलयन कोशिका के लिए समपरासारी है और जल के अणु कोशिका के अंदर और बाहर समान दर से आते-जाते हैं" },
+        { "en": "The solution is hypotonic, and no water molecules cross the cell membrane", "hi": "विलयन अल्पपरासारी है और जल के अणु कोशिका झिल्ली को पार नहीं करते" },
+        { "en": "The solution is hypertonic, and water leaves the cell very slowly", "hi": "विलयन अतिपरासारी है और जल कोशिका से बहुत धीरे-धीरे बाहर निकलता है" },
+        { "en": "The solution is isotonic, and no water molecules cross the membrane at all", "hi": "विलयन समपरासारी है और जल के अणु झिल्ली को बिल्कुल भी पार नहीं करते" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "When the solution and the cell contents have equal concentrations (isotonic), water still moves across the membrane, but equally in both directions, so there is no net change in cell size.", "hi": "जब विलयन और कोशिका के अंदर की सांद्रता समान होती है (समपरासारी), तब भी जल झिल्ली के आर-पार जाता है, परंतु दोनों दिशाओं में बराबर, इसलिए कोशिका के आकार में कोई कुल परिवर्तन नहीं होता।" },
+      "distractorAnalysis": {
+        "1": { "en": "In a hypotonic solution water enters the cell and the cell swells, which does not match the observation.", "hi": "अल्पपरासारी विलयन में जल कोशिका के अंदर आता है और कोशिका फूल जाती है, जो अवलोकन से मेल नहीं खाता।" },
+        "2": { "en": "In a hypertonic solution water leaves the cell and the cell shrinks, which does not match the observation.", "hi": "अतिपरासारी विलयन में जल कोशिका से बाहर निकलता है और कोशिका सिकुड़ जाती है, जो अवलोकन से मेल नहीं खाता।" },
+        "3": { "en": "Although the solution is isotonic, water molecules do keep moving across the membrane; it is the net movement that is zero.", "hi": "विलयन समपरासारी है, फिर भी जल के अणु झिल्ली के आर-पार लगातार आते-जाते रहते हैं; केवल कुल गति शून्य होती है।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-sc-24",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": { "en": "How many moles of water molecules are present in 90 g of water? (H = 1 u, O = 16 u)", "hi": "90 g जल में जल के अणुओं के कितने मोल होते हैं? (H = 1 u, O = 16 u)" },
+      "optionsJson": [
+        { "en": "0.2 mol", "hi": "0.2 मोल" },
+        { "en": "9 mol", "hi": "9 मोल" },
+        { "en": "1620 mol", "hi": "1620 मोल" },
+        { "en": "5 mol", "hi": "5 मोल" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Molar mass of H2O = 2 x 1 + 16 = 18 g/mol. Number of moles = given mass / molar mass = 90 / 18 = 5 mol.", "hi": "H2O का मोलर द्रव्यमान = 2 x 1 + 16 = 18 g/mol। मोलों की संख्या = दिया गया द्रव्यमान / मोलर द्रव्यमान = 90 / 18 = 5 मोल।" },
+      "distractorAnalysis": {
+        "0": { "en": "0.2 mol comes from inverting the formula (18 / 90).", "hi": "0.2 मोल सूत्र को उलटने (18 / 90) से आता है।" },
+        "1": { "en": "9 mol results from dividing 90 by 10 instead of by the molar mass 18.", "hi": "9 मोल तब आता है जब 90 को मोलर द्रव्यमान 18 के बजाय 10 से भाग दिया जाए।" },
+        "2": { "en": "1620 mol results from multiplying the mass by the molar mass (90 x 18) instead of dividing.", "hi": "1620 मोल तब आता है जब द्रव्यमान को मोलर द्रव्यमान से भाग देने के बजाय गुणा (90 x 18) कर दिया जाए।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-sc-25",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": { "en": "A bullet of mass 10 g is fired horizontally from a rifle of mass 4 kg with a speed of 400 m/s. What is the magnitude of the recoil velocity of the rifle?", "hi": "10 g द्रव्यमान की एक गोली 4 kg द्रव्यमान की राइफल से क्षैतिज दिशा में 400 m/s की चाल से दागी जाती है। राइफल के प्रतिक्षेप वेग का परिमाण कितना है?" },
+      "optionsJson": [
+        { "en": "4 m/s", "hi": "4 m/s" },
+        { "en": "10 m/s", "hi": "10 m/s" },
+        { "en": "100 m/s", "hi": "100 m/s" },
+        { "en": "1 m/s", "hi": "1 m/s" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "By conservation of momentum, 0.01 kg x 400 m/s = 4 kg x v, so v = 4 / 4 = 1 m/s in the opposite direction.", "hi": "संवेग संरक्षण से 0.01 kg x 400 m/s = 4 kg x v, अतः v = 4 / 4 = 1 m/s, विपरीत दिशा में।" },
+      "distractorAnalysis": {
+        "0": { "en": "4 is the momentum of the bullet in kg m/s; it was not divided by the mass of the rifle.", "hi": "4 गोली का संवेग (kg m/s में) है; इसे राइफल के द्रव्यमान से भाग नहीं दिया गया।" },
+        "1": { "en": "10 m/s comes from wrongly converting 10 g to 0.1 kg instead of 0.01 kg.", "hi": "10 m/s तब आता है जब 10 g को 0.01 kg के बजाय गलती से 0.1 kg मान लिया जाए।" },
+        "2": { "en": "100 m/s comes from dividing the bullet's speed by the rifle's mass (400 / 4) and ignoring the bullet's mass.", "hi": "100 m/s तब आता है जब गोली की चाल को राइफल के द्रव्यमान से भाग (400 / 4) दे दिया जाए और गोली का द्रव्यमान छोड़ दिया जाए।" }
+      }
+    }
+  ]
+}

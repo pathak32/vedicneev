@@ -1,0 +1,484 @@
+{
+  "examType": "AISSEE",
+  "classLevel": 9,
+  "paperNumber": 5,
+  "sectionKey": "mathematics",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "aissee9-p5-mt-01",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which of the following is an irrational number?", "hi": "निम्नलिखित में से कौन-सी संख्या अपरिमेय है?" },
+      "optionsJson": [
+        { "en": "0.333… (3 repeating)", "hi": "0.333… (3 की पुनरावृत्ति)" },
+        { "en": "√49", "hi": "√49" },
+        { "en": "√11", "hi": "√11" },
+        { "en": "3.14", "hi": "3.14" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "√49 = 7, 3.14 = 314/100 and 0.333… = 1/3 are all rational. Since 11 is not a perfect square, √11 is non-terminating and non-repeating, so it is irrational.", "hi": "√49 = 7, 3.14 = 314/100 तथा 0.333… = 1/3 सभी परिमेय हैं। 11 पूर्ण वर्ग नहीं है, इसलिए √11 अनवसानी और अनावर्ती है, अतः अपरिमेय है।" },
+      "distractorAnalysis": {
+        "0": { "en": "A repeating decimal is rational; 0.333… equals 1/3.", "hi": "आवर्ती दशमलव परिमेय होता है; 0.333… = 1/3 होता है।" },
+        "1": { "en": "49 is a perfect square, so √49 = 7, which is rational.", "hi": "49 पूर्ण वर्ग है, इसलिए √49 = 7 है, जो परिमेय है।" },
+        "3": { "en": "A terminating decimal is rational; 3.14 = 314/100.", "hi": "सांत दशमलव परिमेय होता है; 3.14 = 314/100 है।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-02",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "₹ 840 is divided between Ravi and Sita in the ratio 3 : 4. How much does Sita get?", "hi": "₹ 840 को रवि और सीता में 3 : 4 के अनुपात में बाँटा गया। सीता को कितनी राशि मिलेगी?" },
+      "optionsJson": [
+        { "en": "₹ 480", "hi": "₹ 480" },
+        { "en": "₹ 360", "hi": "₹ 360" },
+        { "en": "₹ 420", "hi": "₹ 420" },
+        { "en": "₹ 560", "hi": "₹ 560" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Total parts = 3 + 4 = 7, so one part = 840 ÷ 7 = ₹ 120. Sita gets 4 parts = 4 × 120 = ₹ 480.", "hi": "कुल भाग = 3 + 4 = 7, अतः एक भाग = 840 ÷ 7 = ₹ 120। सीता को 4 भाग मिलेंगे = 4 × 120 = ₹ 480।" },
+      "distractorAnalysis": {
+        "1": { "en": "This is Ravi's share (3 parts), not Sita's.", "hi": "यह रवि का हिस्सा (3 भाग) है, सीता का नहीं।" },
+        "2": { "en": "Divides the total equally into two halves, ignoring the ratio.", "hi": "अनुपात को अनदेखा करके कुल राशि को बराबर दो भागों में बाँट दिया।" },
+        "3": { "en": "Takes 4 parts out of 6 by wrongly adding 3 + 3 instead of 3 + 4.", "hi": "3 + 4 के बजाय 3 + 3 जोड़कर 6 भागों में से 4 भाग ले लिए।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-03",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "A student scored 36 marks out of 48. What is the percentage of marks scored?", "hi": "एक विद्यार्थी ने 48 में से 36 अंक प्राप्त किए। उसके अंकों का प्रतिशत क्या है?" },
+      "optionsJson": [
+        { "en": "60%", "hi": "60%" },
+        { "en": "65%", "hi": "65%" },
+        { "en": "72%", "hi": "72%" },
+        { "en": "75%", "hi": "75%" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Percentage = (36 ÷ 48) × 100 = (3/4) × 100 = 75%.", "hi": "प्रतिशत = (36 ÷ 48) × 100 = (3/4) × 100 = 75%।" },
+      "distractorAnalysis": {
+        "0": { "en": "Arithmetic slip while simplifying 36/48; it equals 3/4, not 3/5.", "hi": "36/48 को सरल करने में भूल; यह 3/5 नहीं, 3/4 होता है।" },
+        "1": { "en": "Arithmetic slip while converting the fraction 36/48 to a percentage.", "hi": "भिन्न 36/48 को प्रतिशत में बदलने में गणना की भूल।" },
+        "2": { "en": "Doubles the marks (36 × 2) instead of computing (36/48) × 100.", "hi": "(36/48) × 100 निकालने के बजाय अंकों को दोगुना (36 × 2) कर दिया।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-04",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "What is the simple interest on ₹ 5000 at 6% per annum for 3 years?", "hi": "₹ 5000 पर 6% वार्षिक दर से 3 वर्ष का साधारण ब्याज कितना होगा?" },
+      "optionsJson": [
+        { "en": "₹ 300", "hi": "₹ 300" },
+        { "en": "₹ 900", "hi": "₹ 900" },
+        { "en": "₹ 1800", "hi": "₹ 1800" },
+        { "en": "₹ 5900", "hi": "₹ 5900" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "SI = (P × R × T) ÷ 100 = (5000 × 6 × 3) ÷ 100 = ₹ 900.", "hi": "साधारण ब्याज = (मूलधन × दर × समय) ÷ 100 = (5000 × 6 × 3) ÷ 100 = ₹ 900।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the interest for only one year (5000 × 6%), forgetting to multiply by 3.", "hi": "यह केवल एक वर्ष का ब्याज (5000 × 6%) है; 3 से गुणा करना भूल गए।" },
+        "2": { "en": "Uses a rate of 12% instead of 6%, doubling the interest.", "hi": "6% के बजाय 12% दर ले ली, जिससे ब्याज दोगुना हो गया।" },
+        "3": { "en": "This is the amount (principal + interest), not the interest.", "hi": "यह मिश्रधन (मूलधन + ब्याज) है, ब्याज नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-05",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A trader buys a fan for ₹ 1250 and sells it at a loss of 12%. What is the selling price?", "hi": "एक व्यापारी ने एक पंखा ₹ 1250 में खरीदा और 12% हानि पर बेच दिया। उसका विक्रय मूल्य क्या है?" },
+      "optionsJson": [
+        { "en": "₹ 1400", "hi": "₹ 1400" },
+        { "en": "₹ 1050", "hi": "₹ 1050" },
+        { "en": "₹ 1100", "hi": "₹ 1100" },
+        { "en": "₹ 1150", "hi": "₹ 1150" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Loss = 12% of 1250 = ₹ 150. Selling price = 1250 − 150 = ₹ 1100.", "hi": "हानि = 1250 का 12% = ₹ 150। विक्रय मूल्य = 1250 − 150 = ₹ 1100।" },
+      "distractorAnalysis": {
+        "0": { "en": "Adds the 12% (₹ 150) instead of subtracting it, treating the loss as a profit.", "hi": "12% (₹ 150) घटाने के बजाय जोड़ दिया, यानी हानि को लाभ मान लिया।" },
+        "1": { "en": "Takes 12% of 1250 as ₹ 200 instead of ₹ 150.", "hi": "1250 का 12% ₹ 150 के बजाय ₹ 200 मान लिया।" },
+        "3": { "en": "Takes 12% of 1250 as ₹ 100 instead of ₹ 150.", "hi": "1250 का 12% ₹ 150 के बजाय ₹ 100 मान लिया।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-06",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Anil can finish a piece of work in 12 days and Bhavna can finish the same work in 18 days. Working together, in how many days will they finish it?", "hi": "अनिल एक काम को 12 दिन में और भावना उसी काम को 18 दिन में पूरा कर सकती है। साथ मिलकर काम करने पर वे उसे कितने दिन में पूरा करेंगे?" },
+      "optionsJson": [
+        { "en": "7 1/5 days", "hi": "7 1/5 दिन" },
+        { "en": "15 days", "hi": "15 दिन" },
+        { "en": "30 days", "hi": "30 दिन" },
+        { "en": "6 days", "hi": "6 दिन" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Work done in one day together = 1/12 + 1/18 = (3 + 2)/36 = 5/36. So the time taken = 36/5 = 7 1/5 days.", "hi": "साथ मिलकर एक दिन में किया गया काम = 1/12 + 1/18 = (3 + 2)/36 = 5/36। अतः लगा समय = 36/5 = 7 1/5 दिन।" },
+      "distractorAnalysis": {
+        "1": { "en": "Takes the average of 12 and 18 days, which is not how combined work rates behave.", "hi": "12 और 18 दिनों का औसत ले लिया, जबकि संयुक्त कार्य-दर इस प्रकार नहीं निकलती।" },
+        "2": { "en": "Adds the two times (12 + 18) instead of adding the daily work rates.", "hi": "दैनिक कार्य-दरें जोड़ने के बजाय दोनों समय (12 + 18) जोड़ दिए।" },
+        "3": { "en": "Assumes two workers halve Anil's time (12 ÷ 2), ignoring that Bhavna is slower.", "hi": "मान लिया कि दो व्यक्ति मिलकर अनिल का समय आधा कर देंगे (12 ÷ 2), जबकि भावना धीमी है।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-07",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A train 150 m long is running at a speed of 54 km/h. How long does it take to cross a telegraph pole?", "hi": "150 मीटर लंबी एक रेलगाड़ी 54 किमी/घंटा की चाल से चल रही है। एक टेलीग्राफ खंभे को पार करने में उसे कितना समय लगेगा?" },
+      "optionsJson": [
+        { "en": "6 s", "hi": "6 सेकंड" },
+        { "en": "9 s", "hi": "9 सेकंड" },
+        { "en": "15 s", "hi": "15 सेकंड" },
+        { "en": "10 s", "hi": "10 सेकंड" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Speed = 54 × 5/18 = 15 m/s. To cross a pole the train covers its own length, so time = 150 ÷ 15 = 10 s.", "hi": "चाल = 54 × 5/18 = 15 मी/से। खंभा पार करने के लिए रेलगाड़ी अपनी लंबाई के बराबर दूरी तय करती है, अतः समय = 150 ÷ 15 = 10 सेकंड।" },
+      "distractorAnalysis": {
+        "0": { "en": "Uses a wrongly converted speed of 25 m/s.", "hi": "चाल को गलत बदलकर 25 मी/से मान लिया।" },
+        "1": { "en": "Uses a wrongly converted speed of about 16.7 m/s, an error in the km/h to m/s conversion.", "hi": "किमी/घंटा से मी/से में बदलने में भूल करके चाल लगभग 16.7 मी/से मान ली।" },
+        "2": { "en": "Confuses the speed in m/s (15) with the time taken.", "hi": "मी/से में चाल (15) को ही लगा समय मान लिया।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-08",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The ages of two brothers are in the ratio 5 : 7 and the sum of their ages is 48 years. What will be the age of the elder brother after 4 years?", "hi": "दो भाइयों की आयु का अनुपात 5 : 7 है और उनकी आयु का योग 48 वर्ष है। 4 वर्ष बाद बड़े भाई की आयु कितनी होगी?" },
+      "optionsJson": [
+        { "en": "28 years", "hi": "28 वर्ष" },
+        { "en": "32 years", "hi": "32 वर्ष" },
+        { "en": "24 years", "hi": "24 वर्ष" },
+        { "en": "20 years", "hi": "20 वर्ष" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "5 + 7 = 12 parts = 48 years, so one part = 4 years. The ages are 20 and 28 years. The elder will be 28 + 4 = 32 years old after 4 years.", "hi": "5 + 7 = 12 भाग = 48 वर्ष, अतः एक भाग = 4 वर्ष। आयु 20 और 28 वर्ष है। 4 वर्ष बाद बड़े भाई की आयु 28 + 4 = 32 वर्ष होगी।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the elder brother's present age; the 4 years were not added.", "hi": "यह बड़े भाई की वर्तमान आयु है; 4 वर्ष जोड़े नहीं गए।" },
+        "2": { "en": "This is the younger brother's age after 4 years, not the elder's.", "hi": "यह छोटे भाई की 4 वर्ष बाद की आयु है, बड़े भाई की नहीं।" },
+        "3": { "en": "This is the younger brother's present age.", "hi": "यह छोटे भाई की वर्तमान आयु है।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-09",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "What is the compound interest on ₹ 10,000 for 2 years at 10% per annum, compounded annually?", "hi": "₹ 10,000 पर 10% वार्षिक दर से 2 वर्ष का चक्रवृद्धि ब्याज (वार्षिक संयोजन) कितना होगा?" },
+      "optionsJson": [
+        { "en": "₹ 2000", "hi": "₹ 2000" },
+        { "en": "₹ 12,100", "hi": "₹ 12,100" },
+        { "en": "₹ 2100", "hi": "₹ 2100" },
+        { "en": "₹ 2200", "hi": "₹ 2200" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Amount = 10000 × (1 + 10/100)² = 10000 × 1.21 = ₹ 12,100. Compound interest = 12,100 − 10,000 = ₹ 2100.", "hi": "मिश्रधन = 10000 × (1 + 10/100)² = 10000 × 1.21 = ₹ 12,100। चक्रवृद्धि ब्याज = 12,100 − 10,000 = ₹ 2100।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the simple interest for 2 years; it ignores interest on interest.", "hi": "यह 2 वर्ष का साधारण ब्याज है; इसमें ब्याज पर ब्याज नहीं जोड़ा गया।" },
+        "1": { "en": "This is the amount, not the interest; the principal was not subtracted.", "hi": "यह मिश्रधन है, ब्याज नहीं; मूलधन घटाया नहीं गया।" },
+        "3": { "en": "Computes the second-year interest on a wrong base, getting 1000 + 1200.", "hi": "दूसरे वर्ष का ब्याज गलत आधार पर निकाला, जिससे 1000 + 1200 प्राप्त हुआ।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-10",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Express the repeating decimal 0.363636… (the block 36 repeats) as a fraction p/q in simplest form.", "hi": "आवर्ती दशमलव 0.363636… (36 की पुनरावृत्ति) को सरलतम रूप में भिन्न p/q के रूप में व्यक्त कीजिए।" },
+      "optionsJson": [
+        { "en": "4/11", "hi": "4/11" },
+        { "en": "9/25", "hi": "9/25" },
+        { "en": "2/5", "hi": "2/5" },
+        { "en": "1/3", "hi": "1/3" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Let x = 0.3636… Then 100x = 36.3636…, so 99x = 36 and x = 36/99 = 4/11.", "hi": "माना x = 0.3636… तब 100x = 36.3636…, इसलिए 99x = 36 और x = 36/99 = 4/11।" },
+      "distractorAnalysis": {
+        "1": { "en": "Treats the decimal as terminating 0.36 = 36/100 = 9/25, ignoring the repetition.", "hi": "दशमलव को सांत 0.36 = 36/100 = 9/25 मान लिया, पुनरावृत्ति को अनदेखा कर दिया।" },
+        "2": { "en": "Uses 36/90, the method for a decimal with a non-repeating digit before the repeating part.", "hi": "36/90 लिया, जो उस दशमलव की विधि है जिसमें आवर्ती भाग से पहले एक अनावर्ती अंक होता है।" },
+        "3": { "en": "Approximates 0.3636… as 0.3333…, which is a different number.", "hi": "0.3636… को 0.3333… के बराबर मान लिया, जो एक अलग संख्या है।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-11",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The price of a book is first increased by 20% and then the new price is decreased by 20%. What is the net change in the original price?", "hi": "एक पुस्तक का मूल्य पहले 20% बढ़ाया गया और फिर नए मूल्य में 20% की कमी की गई। मूल मूल्य में कुल परिवर्तन क्या हुआ?" },
+      "optionsJson": [
+        { "en": "No change", "hi": "कोई परिवर्तन नहीं" },
+        { "en": "4% decrease", "hi": "4% की कमी" },
+        { "en": "4% increase", "hi": "4% की वृद्धि" },
+        { "en": "2% decrease", "hi": "2% की कमी" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Let the original price be 100. After a 20% rise it is 120. A 20% fall on 120 is 24, giving 96. So the price falls by 4 on 100, a 4% decrease.", "hi": "माना मूल मूल्य 100 है। 20% वृद्धि के बाद यह 120 हुआ। 120 पर 20% कमी = 24, अतः मूल्य 96 हुआ। इस प्रकार 100 पर 4 की कमी हुई, यानी 4% की कमी।" },
+      "distractorAnalysis": {
+        "0": { "en": "Assumes +20% and −20% cancel out, but the two percentages apply to different bases.", "hi": "मान लिया कि +20% और −20% एक-दूसरे को काट देते हैं, जबकि दोनों प्रतिशत अलग-अलग आधार पर लगे हैं।" },
+        "2": { "en": "Gets the direction wrong; the final price (96) is below the original (100).", "hi": "दिशा गलत ली; अंतिम मूल्य (96) मूल मूल्य (100) से कम है।" },
+        "3": { "en": "Halves the 4% change by mistake.", "hi": "भूल से 4% परिवर्तन को आधा कर दिया।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-12",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "A dealer marks an article at ₹ 800 and allows a discount of 15% on the marked price. He still earns a profit of 6.25%. What is the cost price of the article?", "hi": "एक विक्रेता किसी वस्तु का अंकित मूल्य ₹ 800 रखता है और अंकित मूल्य पर 15% की छूट देता है। फिर भी उसे 6.25% का लाभ होता है। वस्तु का क्रय मूल्य क्या है?" },
+      "optionsJson": [
+        { "en": "₹ 637.50", "hi": "₹ 637.50" },
+        { "en": "₹ 680", "hi": "₹ 680" },
+        { "en": "₹ 722.50", "hi": "₹ 722.50" },
+        { "en": "₹ 640", "hi": "₹ 640" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Selling price = 800 − 15% of 800 = 800 − 120 = ₹ 680. Since profit is 6.25%, SP = 1.0625 × CP, so CP = 680 ÷ 1.0625 = ₹ 640.", "hi": "विक्रय मूल्य = 800 − 800 का 15% = 800 − 120 = ₹ 680। लाभ 6.25% है, इसलिए विक्रय मूल्य = 1.0625 × क्रय मूल्य, अतः क्रय मूल्य = 680 ÷ 1.0625 = ₹ 640।" },
+      "distractorAnalysis": {
+        "0": { "en": "Subtracts 6.25% of the selling price from it, but profit is calculated on the cost price.", "hi": "विक्रय मूल्य में से उसका 6.25% घटा दिया, जबकि लाभ क्रय मूल्य पर निकाला जाता है।" },
+        "1": { "en": "This is the selling price after the discount, not the cost price.", "hi": "यह छूट के बाद का विक्रय मूल्य है, क्रय मूल्य नहीं।" },
+        "2": { "en": "Adds the 6.25% profit to the selling price instead of removing it.", "hi": "6.25% लाभ को हटाने के बजाय विक्रय मूल्य में जोड़ दिया।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-13",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Pipe A can fill a tank in 6 hours and pipe B can fill it in 8 hours. An outlet pipe C can empty the full tank in 12 hours. If all three pipes are opened together, how long will the empty tank take to fill?", "hi": "नल A एक टंकी को 6 घंटे में और नल B उसे 8 घंटे में भर सकता है। एक निकास नल C पूरी भरी टंकी को 12 घंटे में खाली कर सकता है। यदि तीनों नल एक साथ खोल दिए जाएँ, तो खाली टंकी कितने समय में भरेगी?" },
+      "optionsJson": [
+        { "en": "4 h 48 min", "hi": "4 घंटे 48 मिनट" },
+        { "en": "2 h 40 min", "hi": "2 घंटे 40 मिनट" },
+        { "en": "2 h", "hi": "2 घंटे" },
+        { "en": "4 h 20 min", "hi": "4 घंटे 20 मिनट" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Net part filled in 1 hour = 1/6 + 1/8 − 1/12 = (4 + 3 − 2)/24 = 5/24. Time = 24/5 hours = 4.8 hours = 4 h 48 min.", "hi": "1 घंटे में भरा गया शुद्ध भाग = 1/6 + 1/8 − 1/12 = (4 + 3 − 2)/24 = 5/24। समय = 24/5 घंटे = 4.8 घंटे = 4 घंटे 48 मिनट।" },
+      "distractorAnalysis": {
+        "1": { "en": "Treats the outlet pipe as another filling pipe (1/6 + 1/8 + 1/12 = 9/24).", "hi": "निकास नल को भी भरने वाला नल मान लिया (1/6 + 1/8 + 1/12 = 9/24)।" },
+        "2": { "en": "Subtracts the times directly (6 + 8 − 12) instead of working with rates.", "hi": "कार्य-दरों के बजाय समयों को सीधे जोड़ा-घटाया (6 + 8 − 12)।" },
+        "3": { "en": "Arithmetic slip while converting 24/5 hours into hours and minutes.", "hi": "24/5 घंटे को घंटे और मिनट में बदलने में गणना की भूल।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-14",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Two towns are 360 km apart. Two cars start at the same time from these towns towards each other, at speeds of 50 km/h and 70 km/h. After how much time will they meet?", "hi": "दो नगरों के बीच की दूरी 360 किमी है। दो कारें एक ही समय पर इन नगरों से एक-दूसरे की ओर क्रमशः 50 किमी/घंटा और 70 किमी/घंटा की चाल से चलना शुरू करती हैं। वे कितने समय बाद मिलेंगी?" },
+      "optionsJson": [
+        { "en": "2 h 30 min", "hi": "2 घंटे 30 मिनट" },
+        { "en": "3 h 30 min", "hi": "3 घंटे 30 मिनट" },
+        { "en": "3 h", "hi": "3 घंटे" },
+        { "en": "6 h", "hi": "6 घंटे" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Moving towards each other, their relative speed = 50 + 70 = 120 km/h. Time to meet = 360 ÷ 120 = 3 hours.", "hi": "एक-दूसरे की ओर चलने पर उनकी सापेक्ष चाल = 50 + 70 = 120 किमी/घंटा। मिलने में लगा समय = 360 ÷ 120 = 3 घंटे।" },
+      "distractorAnalysis": {
+        "0": { "en": "Uses a wrong relative speed of 144 km/h instead of 50 + 70 = 120 km/h.", "hi": "सापेक्ष चाल 50 + 70 = 120 किमी/घंटा के बजाय गलत मान 144 किमी/घंटा ले लिया।" },
+        "1": { "en": "Uses a wrong relative speed of about 103 km/h instead of 120 km/h, an error in adding the speeds.", "hi": "चालों को जोड़ने में भूल करके सापेक्ष चाल 120 किमी/घंटा के बजाय लगभग 103 किमी/घंटा ले ली।" },
+        "3": { "en": "Divides by the average speed 60 km/h instead of the sum of the speeds.", "hi": "चालों के योग के बजाय औसत चाल 60 किमी/घंटा से भाग दे दिया।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-15",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": { "en": "A sum of money at simple interest amounts to ₹ 1260 in 2 years and to ₹ 1350 in 3 years. What is the sum?", "hi": "साधारण ब्याज पर रखी गई एक राशि 2 वर्ष में ₹ 1260 और 3 वर्ष में ₹ 1350 हो जाती है। वह राशि (मूलधन) कितनी है?" },
+      "optionsJson": [
+        { "en": "₹ 990", "hi": "₹ 990" },
+        { "en": "₹ 1080", "hi": "₹ 1080" },
+        { "en": "₹ 1170", "hi": "₹ 1170" },
+        { "en": "₹ 1200", "hi": "₹ 1200" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Interest for the 3rd year = 1350 − 1260 = ₹ 90, which is the interest for each year. Interest for 2 years = ₹ 180, so the principal = 1260 − 180 = ₹ 1080.", "hi": "तीसरे वर्ष का ब्याज = 1350 − 1260 = ₹ 90, जो प्रत्येक वर्ष का ब्याज है। 2 वर्ष का ब्याज = ₹ 180, अतः मूलधन = 1260 − 180 = ₹ 1080।" },
+      "distractorAnalysis": {
+        "0": { "en": "Subtracts three years' interest (₹ 270) from ₹ 1260 instead of two years' interest.", "hi": "₹ 1260 में से 2 वर्ष के बजाय 3 वर्ष का ब्याज (₹ 270) घटा दिया।" },
+        "2": { "en": "Subtracts only one year's interest (₹ 90) from ₹ 1260.", "hi": "₹ 1260 में से केवल एक वर्ष का ब्याज (₹ 90) घटाया।" },
+        "3": { "en": "Subtracts an incorrect interest of only ₹ 60 from ₹ 1260.", "hi": "₹ 1260 में से गलत ब्याज केवल ₹ 60 घटाया।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-16",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "What is the smallest number by which 1080 must be multiplied so that the product is a perfect cube?", "hi": "वह सबसे छोटी संख्या क्या है जिससे 1080 को गुणा करने पर गुणनफल एक पूर्ण घन बन जाए?" },
+      "optionsJson": [
+        { "en": "5", "hi": "5" },
+        { "en": "10", "hi": "10" },
+        { "en": "15", "hi": "15" },
+        { "en": "25", "hi": "25" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "1080 = 2³ × 3³ × 5. For a perfect cube every prime must appear a multiple of 3 times, so 5 needs two more factors: multiply by 5 × 5 = 25. Then 1080 × 25 = 27000 = 30³.", "hi": "1080 = 2³ × 3³ × 5। पूर्ण घन के लिए प्रत्येक अभाज्य गुणनखंड 3 के गुणज बार आना चाहिए, इसलिए 5 के दो और गुणनखंड चाहिए: 5 × 5 = 25 से गुणा करें। तब 1080 × 25 = 27000 = 30³।" },
+      "distractorAnalysis": {
+        "0": { "en": "Supplies only one more factor of 5, giving 5², which is still not a cube.", "hi": "5 का केवल एक और गुणनखंड जोड़ा, जिससे 5² बना, जो अब भी घन नहीं है।" },
+        "1": { "en": "Introduces an extra factor of 2, which spoils the cube of 2.", "hi": "2 का एक अतिरिक्त गुणनखंड ले लिया, जिससे 2 का घन बिगड़ जाता है।" },
+        "2": { "en": "Introduces an extra factor of 3 along with 5, which spoils the cube of 3.", "hi": "5 के साथ 3 का भी अतिरिक्त गुणनखंड ले लिया, जिससे 3 का घन बिगड़ जाता है।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-17",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The HCF of two numbers is 12 and their LCM is 180. If one of the numbers is 36, what is the other number?", "hi": "दो संख्याओं का म.स. (HCF) 12 और ल.स. (LCM) 180 है। यदि एक संख्या 36 है, तो दूसरी संख्या क्या है?" },
+      "optionsJson": [
+        { "en": "60", "hi": "60" },
+        { "en": "30", "hi": "30" },
+        { "en": "72", "hi": "72" },
+        { "en": "90", "hi": "90" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Product of two numbers = HCF × LCM, so 36 × other = 12 × 180 = 2160. The other number = 2160 ÷ 36 = 60.", "hi": "दो संख्याओं का गुणनफल = म.स. × ल.स., अतः 36 × दूसरी संख्या = 12 × 180 = 2160। दूसरी संख्या = 2160 ÷ 36 = 60।" },
+      "distractorAnalysis": {
+        "1": { "en": "Halves the correct answer by an arithmetic slip in the final division.", "hi": "अंतिम भाग में गणना की भूल से सही उत्तर का आधा ले लिया।" },
+        "2": { "en": "Doubles the given number (36 × 2) without using the HCF-LCM relation.", "hi": "म.स.-ल.स. संबंध का उपयोग किए बिना दी गई संख्या को दोगुना (36 × 2) कर दिया।" },
+        "3": { "en": "Takes half of the LCM (180 ÷ 2), which has no basis in the relation.", "hi": "ल.स. का आधा (180 ÷ 2) ले लिया, जिसका संबंध से कोई आधार नहीं है।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-18",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "If a + b = 7 and ab = 12, what is the value of a³ + b³?", "hi": "यदि a + b = 7 और ab = 12 है, तो a³ + b³ का मान क्या है?" },
+      "optionsJson": [
+        { "en": "91", "hi": "91" },
+        { "en": "307", "hi": "307" },
+        { "en": "175", "hi": "175" },
+        { "en": "595", "hi": "595" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "a³ + b³ = (a + b)³ − 3ab(a + b) = 7³ − 3 × 12 × 7 = 343 − 252 = 91. (Check: a and b are 3 and 4, and 27 + 64 = 91.)", "hi": "a³ + b³ = (a + b)³ − 3ab(a + b) = 7³ − 3 × 12 × 7 = 343 − 252 = 91। (जाँच: a और b के मान 3 और 4 हैं, और 27 + 64 = 91।)" },
+      "distractorAnalysis": {
+        "1": { "en": "Subtracts only 3ab (36) from 7³, forgetting to multiply 3ab by (a + b).", "hi": "7³ में से केवल 3ab (36) घटाया, 3ab को (a + b) से गुणा करना भूल गए।" },
+        "2": { "en": "Multiplies (a + b) by a² + b² = 25 instead of a² − ab + b² = 13.", "hi": "(a + b) को a² − ab + b² = 13 के बजाय a² + b² = 25 से गुणा कर दिया।" },
+        "3": { "en": "Adds 3ab(a + b) = 252 to 343 instead of subtracting it.", "hi": "3ab(a + b) = 252 को 343 में से घटाने के बजाय जोड़ दिया।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-19",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "In a triangle two of the angles measure 55° and 65°. What is the measure of the exterior angle at the third vertex?", "hi": "एक त्रिभुज के दो कोण 55° और 65° हैं। तीसरे शीर्ष पर बने बहिष्कोण की माप क्या है?" },
+      "optionsJson": [
+        { "en": "60°", "hi": "60°" },
+        { "en": "120°", "hi": "120°" },
+        { "en": "115°", "hi": "115°" },
+        { "en": "125°", "hi": "125°" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The exterior angle equals the sum of the two opposite interior angles: 55° + 65° = 120°. (Check: the third angle is 60°, and 180° − 60° = 120°.)", "hi": "बहिष्कोण दोनों अंतः सम्मुख कोणों के योग के बराबर होता है: 55° + 65° = 120°। (जाँच: तीसरा कोण 60° है और 180° − 60° = 120°।)" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the third interior angle, not the exterior angle.", "hi": "यह तीसरा अंतःकोण है, बहिष्कोण नहीं।" },
+        "2": { "en": "Subtracts 65° from 180°, which is the exterior angle at another vertex.", "hi": "180° में से 65° घटाया, जो किसी अन्य शीर्ष का बहिष्कोण है।" },
+        "3": { "en": "Subtracts 55° from 180°, which is the exterior angle at another vertex.", "hi": "180° में से 55° घटाया, जो किसी अन्य शीर्ष का बहिष्कोण है।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-20",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The diagonals of a rhombus are 16 cm and 12 cm long. What is the perimeter of the rhombus?", "hi": "एक समचतुर्भुज के विकर्णों की लंबाई 16 सेमी और 12 सेमी है। समचतुर्भुज का परिमाप क्या है?" },
+      "optionsJson": [
+        { "en": "28 cm", "hi": "28 सेमी" },
+        { "en": "48 cm", "hi": "48 सेमी" },
+        { "en": "96 cm", "hi": "96 सेमी" },
+        { "en": "40 cm", "hi": "40 सेमी" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "The diagonals bisect each other at right angles, so each side is the hypotenuse of a right triangle with legs 8 cm and 6 cm: side = √(64 + 36) = 10 cm. Perimeter = 4 × 10 = 40 cm.", "hi": "विकर्ण एक-दूसरे को समकोण पर समद्विभाजित करते हैं, इसलिए प्रत्येक भुजा 8 सेमी और 6 सेमी वाले समकोण त्रिभुज का कर्ण है: भुजा = √(64 + 36) = 10 सेमी। परिमाप = 4 × 10 = 40 सेमी।" },
+      "distractorAnalysis": {
+        "0": { "en": "Adds the two diagonals (16 + 12) instead of finding the side.", "hi": "भुजा निकालने के बजाय दोनों विकर्ण (16 + 12) जोड़ दिए।" },
+        "1": { "en": "Takes the shorter diagonal (12 cm) as the side and multiplies by 4.", "hi": "छोटे विकर्ण (12 सेमी) को ही भुजा मानकर 4 से गुणा कर दिया।" },
+        "2": { "en": "This is the area of the rhombus (½ × 16 × 12 = 96 cm²), not the perimeter.", "hi": "यह समचतुर्भुज का क्षेत्रफल (½ × 16 × 12 = 96 सेमी²) है, परिमाप नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-21",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": { "en": "The radius of the base of a solid cylindrical pillar is 7 cm and its curved surface area is 880 cm². What is its volume? (Use π = 22/7)", "hi": "एक ठोस बेलनाकार स्तंभ के आधार की त्रिज्या 7 सेमी है और उसका वक्र पृष्ठीय क्षेत्रफल 880 सेमी² है। उसका आयतन क्या है? (π = 22/7 लीजिए)" },
+      "optionsJson": [
+        { "en": "1540 cm³", "hi": "1540 सेमी³" },
+        { "en": "6160 cm³", "hi": "6160 सेमी³" },
+        { "en": "3080 cm³", "hi": "3080 सेमी³" },
+        { "en": "880 cm³", "hi": "880 सेमी³" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Curved surface area = 2πrh = 2 × (22/7) × 7 × h = 44h = 880, so h = 20 cm. Volume = πr²h = (22/7) × 49 × 20 = 3080 cm³.", "hi": "वक्र पृष्ठीय क्षेत्रफल = 2πrh = 2 × (22/7) × 7 × h = 44h = 880, अतः h = 20 सेमी। आयतन = πr²h = (22/7) × 49 × 20 = 3080 सेमी³।" },
+      "distractorAnalysis": {
+        "0": { "en": "Uses height 10 cm, an error in solving 44h = 880.", "hi": "ऊँचाई 10 सेमी ले ली, 44h = 880 हल करने में भूल।" },
+        "1": { "en": "Doubles the correct volume, an error in the volume calculation.", "hi": "सही आयतन का दोगुना ले लिया, आयतन की गणना में भूल।" },
+        "3": { "en": "This is just the given curved surface area in different units, not a volume.", "hi": "यह केवल दिया गया वक्र पृष्ठीय क्षेत्रफल है, आयतन नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-22",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Three-fourths of a number exceeds half of the same number by 6. What is the number?", "hi": "किसी संख्या का तीन-चौथाई उसी संख्या के आधे से 6 अधिक है। वह संख्या क्या है?" },
+      "optionsJson": [
+        { "en": "12", "hi": "12" },
+        { "en": "18", "hi": "18" },
+        { "en": "36", "hi": "36" },
+        { "en": "24", "hi": "24" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Let the number be x. Then 3x/4 − x/2 = 6, so x/4 = 6 and x = 24. (Check: 3/4 of 24 = 18, half of 24 = 12, and 18 − 12 = 6.)", "hi": "माना संख्या x है। तब 3x/4 − x/2 = 6, अतः x/4 = 6 और x = 24। (जाँच: 24 का 3/4 = 18, 24 का आधा = 12 और 18 − 12 = 6।)" },
+      "distractorAnalysis": {
+        "0": { "en": "Subtracts numerators and denominators separately (3 − 1)/(4 − 2) = 1/2, giving x/2 = 6.", "hi": "अंश और हर को अलग-अलग घटाया (3 − 1)/(4 − 2) = 1/2, जिससे x/2 = 6 मिला।" },
+        "1": { "en": "This is three-fourths of the number, not the number itself.", "hi": "यह संख्या का तीन-चौथाई है, स्वयं संख्या नहीं।" },
+        "2": { "en": "Takes 3/4 − 1/2 as 1/6 by a fraction-subtraction error, giving x = 36.", "hi": "भिन्नों के घटाने में भूल करके 3/4 − 1/2 को 1/6 मान लिया, जिससे x = 36 मिला।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-23",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The mean marks of 30 students in a test are 52. If the mean marks of 20 of these students are 50, what are the mean marks of the other 10 students?", "hi": "एक परीक्षा में 30 विद्यार्थियों के औसत अंक 52 हैं। यदि इनमें से 20 विद्यार्थियों के औसत अंक 50 हैं, तो शेष 10 विद्यार्थियों के औसत अंक क्या हैं?" },
+      "optionsJson": [
+        { "en": "54", "hi": "54" },
+        { "en": "56", "hi": "56" },
+        { "en": "51", "hi": "51" },
+        { "en": "48", "hi": "48" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Total marks of 30 students = 30 × 52 = 1560. Total marks of 20 students = 20 × 50 = 1000. Marks of the other 10 = 1560 − 1000 = 560, so their mean = 560 ÷ 10 = 56.", "hi": "30 विद्यार्थियों के कुल अंक = 30 × 52 = 1560। 20 विद्यार्थियों के कुल अंक = 20 × 50 = 1000। शेष 10 के अंक = 1560 − 1000 = 560, अतः उनका माध्य = 560 ÷ 10 = 56।" },
+      "distractorAnalysis": {
+        "0": { "en": "Adds the gap of 2 to 52 once, without weighting by the group sizes (20 and 10).", "hi": "समूहों की संख्या (20 और 10) के अनुसार भार दिए बिना 52 में केवल एक बार अंतर 2 जोड़ दिया।" },
+        "2": { "en": "Takes the simple average of 52 and 50, ignoring the number of students.", "hi": "विद्यार्थियों की संख्या को अनदेखा करके 52 और 50 का साधारण औसत ले लिया।" },
+        "3": { "en": "Reflects 50 about 52 (2 × 52 − 50), which assumes both groups are equal in size.", "hi": "50 को 52 के सापेक्ष प्रतिबिंबित किया (2 × 52 − 50), जो मानता है कि दोनों समूह बराबर आकार के हैं।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-24",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "A 25 m long ladder leans against a vertical wall and its top reaches a point 24 m above the ground. The top of the ladder slides down the wall by 4 m. By what distance does the foot of the ladder move away from the wall?", "hi": "25 मीटर लंबी एक सीढ़ी ऊर्ध्वाधर दीवार से टिकी है और उसका ऊपरी सिरा भूमि से 24 मीटर ऊँचाई पर है। सीढ़ी का ऊपरी सिरा दीवार पर 4 मीटर नीचे खिसक जाता है। सीढ़ी का निचला सिरा दीवार से कितनी दूरी तक दूर खिसकेगा?" },
+      "optionsJson": [
+        { "en": "4 m", "hi": "4 मीटर" },
+        { "en": "8 m", "hi": "8 मीटर" },
+        { "en": "15 m", "hi": "15 मीटर" },
+        { "en": "7 m", "hi": "7 मीटर" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Initially the foot is √(25² − 24²) = √49 = 7 m from the wall. After sliding, the top is at 20 m, so the foot is √(25² − 20²) = √225 = 15 m away. The foot moves 15 − 7 = 8 m.", "hi": "आरंभ में निचला सिरा दीवार से √(25² − 24²) = √49 = 7 मीटर दूर है। खिसकने के बाद ऊपरी सिरा 20 मीटर पर है, इसलिए निचला सिरा √(25² − 20²) = √225 = 15 मीटर दूर है। निचला सिरा 15 − 7 = 8 मीटर खिसका।" },
+      "distractorAnalysis": {
+        "0": { "en": "Assumes the foot moves the same 4 m as the top, which is not true for a ladder.", "hi": "मान लिया कि निचला सिरा भी ऊपरी सिरे जितना (4 मीटर) खिसकेगा, जो सीढ़ी के लिए सही नहीं है।" },
+        "2": { "en": "This is the new distance of the foot from the wall, not the distance moved.", "hi": "यह निचले सिरे की दीवार से नई दूरी है, खिसकी हुई दूरी नहीं।" },
+        "3": { "en": "This is the original distance of the foot from the wall.", "hi": "यह निचले सिरे की दीवार से मूल दूरी है।" }
+      }
+    },
+    {
+      "key": "aissee9-p5-mt-25",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "The sum of two positive numbers is 20 and their product is 96. What is the difference between the two numbers?", "hi": "दो धनात्मक संख्याओं का योग 20 और गुणनफल 96 है। दोनों संख्याओं का अंतर क्या है?" },
+      "optionsJson": [
+        { "en": "2", "hi": "2" },
+        { "en": "6", "hi": "6" },
+        { "en": "4", "hi": "4" },
+        { "en": "8", "hi": "8" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "(a − b)² = (a + b)² − 4ab = 400 − 384 = 16, so the difference is 4. (The numbers are 12 and 8.)", "hi": "(a − b)² = (a + b)² − 4ab = 400 − 384 = 16, अतः अंतर 4 है। (संख्याएँ 12 और 8 हैं।)" },
+      "distractorAnalysis": {
+        "0": { "en": "Arithmetic slip; numbers differing by 2 would have product 99, not 96.", "hi": "गणना की भूल; जिन संख्याओं का अंतर 2 हो उनका गुणनफल 99 होगा, 96 नहीं।" },
+        "1": { "en": "Numbers differing by 6 would be 7 and 13, with product 91, not 96.", "hi": "अंतर 6 होने पर संख्याएँ 7 और 13 होंगी, जिनका गुणनफल 91 है, 96 नहीं।" },
+        "3": { "en": "Numbers differing by 8 would be 6 and 14, with product 84, not 96.", "hi": "अंतर 8 होने पर संख्याएँ 6 और 14 होंगी, जिनका गुणनफल 84 है, 96 नहीं।" }
+      }
+    }
+  ]
+}

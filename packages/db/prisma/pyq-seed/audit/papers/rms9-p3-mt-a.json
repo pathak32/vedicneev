@@ -1,0 +1,484 @@
+{
+  "examType": "RMS",
+  "classLevel": 9,
+  "paperNumber": 3,
+  "sectionKey": "mathematics",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "rms9-p3-mt-01",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Solve for x: 7x − 5 = 3x + 19", "hi": "x के लिए हल करें: 7x − 5 = 3x + 19" },
+      "optionsJson": [
+        { "en": "4", "hi": "4" },
+        { "en": "5", "hi": "5" },
+        { "en": "6", "hi": "6" },
+        { "en": "8", "hi": "8" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Collect the x terms on one side: 7x − 3x = 19 + 5, so 4x = 24 and x = 6.", "hi": "x वाले पदों को एक ओर लाएँ: 7x − 3x = 19 + 5, अतः 4x = 24 और x = 6।" },
+      "distractorAnalysis": {
+        "0": { "en": "Takes the coefficient 4 (from 4x = 24) as the answer instead of dividing.", "hi": "4x = 24 में x का गुणांक 4 ही उत्तर मान लिया, भाग नहीं दिया।" },
+        "1": { "en": "Arithmetic slip while dividing 24 by 4.", "hi": "24 को 4 से भाग देने में गणना की भूल।" },
+        "3": { "en": "Divides 24 by 3 instead of by 4.", "hi": "24 को 4 के बजाय 3 से भाग दे दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-02",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "If p(x) = x² − 3x + 2, find the value of p(3).", "hi": "यदि p(x) = x² − 3x + 2 है, तो p(3) का मान ज्ञात कीजिए।" },
+      "optionsJson": [
+        { "en": "0", "hi": "0" },
+        { "en": "2", "hi": "2" },
+        { "en": "4", "hi": "4" },
+        { "en": "8", "hi": "8" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "p(3) = 3² − 3(3) + 2 = 9 − 9 + 2 = 2.", "hi": "p(3) = 3² − 3(3) + 2 = 9 − 9 + 2 = 2।" },
+      "distractorAnalysis": {
+        "0": { "en": "The value 0 is obtained at x = 1 and x = 2 (the zeroes), not at x = 3.", "hi": "मान 0 तो x = 1 और x = 2 (शून्यकों) पर मिलता है, x = 3 पर नहीं।" },
+        "2": { "en": "Arithmetic slip while simplifying 9 − 9 + 2.", "hi": "9 − 9 + 2 को सरल करने में गणना की भूल।" },
+        "3": { "en": "Evaluates the middle term as −3 instead of −3 × 3 = −9.", "hi": "मध्य पद का मान −3×3 = −9 के बजाय −3 ले लिया।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-03",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Using the identity (a + b)(a − b) = a² − b², find the value of 103 × 97.", "hi": "सर्वसमिका (a + b)(a − b) = a² − b² का प्रयोग करके 103 × 97 का मान ज्ञात कीजिए।" },
+      "optionsJson": [
+        { "en": "9991", "hi": "9991" },
+        { "en": "10009", "hi": "10009" },
+        { "en": "9909", "hi": "9909" },
+        { "en": "9801", "hi": "9801" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "103 × 97 = (100 + 3)(100 − 3) = 100² − 3² = 10000 − 9 = 9991.", "hi": "103 × 97 = (100 + 3)(100 − 3) = 100² − 3² = 10000 − 9 = 9991।" },
+      "distractorAnalysis": {
+        "1": { "en": "Adds 3² instead of subtracting it: 10000 + 9.", "hi": "3² को घटाने के बजाय जोड़ दिया: 10000 + 9।" },
+        "2": { "en": "Arithmetic slip in 10000 − 9.", "hi": "10000 − 9 में गणना की भूल।" },
+        "3": { "en": "Uses 99² instead of 100² − 3².", "hi": "100² − 3² के बजाय 99² का मान ले लिया।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-04",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which of the following is a zero of the polynomial p(x) = 2x² − 5x − 3?", "hi": "निम्नलिखित में से कौन-सा बहुपद p(x) = 2x² − 5x − 3 का एक शून्यक है?" },
+      "optionsJson": [
+        { "en": "−3", "hi": "−3" },
+        { "en": "1/2", "hi": "1/2" },
+        { "en": "5/2", "hi": "5/2" },
+        { "en": "3", "hi": "3" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "p(3) = 2(9) − 5(3) − 3 = 18 − 15 − 3 = 0, so 3 is a zero. (Indeed 2x² − 5x − 3 = (2x + 1)(x − 3).)", "hi": "p(3) = 2(9) − 5(3) − 3 = 18 − 15 − 3 = 0, अतः 3 एक शून्यक है। (वास्तव में 2x² − 5x − 3 = (2x + 1)(x − 3)।)" },
+      "distractorAnalysis": {
+        "0": { "en": "p(−3) = 18 + 15 − 3 = 30, not 0; a sign error.", "hi": "p(−3) = 18 + 15 − 3 = 30, शून्य नहीं; चिह्न की भूल।" },
+        "1": { "en": "p(1/2) = 1/2 − 5/2 − 3 = −5, not 0; the zero is −1/2, not 1/2.", "hi": "p(1/2) = 1/2 − 5/2 − 3 = −5, शून्य नहीं; शून्यक −1/2 है, 1/2 नहीं।" },
+        "2": { "en": "5/2 is the sum of the zeroes (−b/a), not a zero itself.", "hi": "5/2 शून्यकों का योगफल (−b/a) है, स्वयं शून्यक नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-05",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "If x + y = 9 and xy = 14, find the value of x² + y².", "hi": "यदि x + y = 9 और xy = 14 है, तो x² + y² का मान ज्ञात कीजिए।" },
+      "optionsJson": [
+        { "en": "25", "hi": "25" },
+        { "en": "53", "hi": "53" },
+        { "en": "67", "hi": "67" },
+        { "en": "81", "hi": "81" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "x² + y² = (x + y)² − 2xy = 81 − 28 = 53.", "hi": "x² + y² = (x + y)² − 2xy = 81 − 28 = 53।" },
+      "distractorAnalysis": {
+        "0": { "en": "Computes (x − y)² = 81 − 4 × 14 = 25 instead of x² + y².", "hi": "x² + y² के बजाय (x − y)² = 81 − 4 × 14 = 25 निकाल लिया।" },
+        "2": { "en": "Subtracts xy instead of 2xy: 81 − 14 = 67.", "hi": "2xy के बजाय xy घटाया: 81 − 14 = 67।" },
+        "3": { "en": "Gives (x + y)² without subtracting 2xy.", "hi": "2xy घटाए बिना केवल (x + y)² लिख दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-06",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Factorise: 2x² + 7x + 3", "hi": "गुणनखंड कीजिए: 2x² + 7x + 3" },
+      "optionsJson": [
+        { "en": "(2x + 1)(x + 3)", "hi": "(2x + 1)(x + 3)" },
+        { "en": "(2x + 3)(x + 1)", "hi": "(2x + 3)(x + 1)" },
+        { "en": "(2x − 1)(x − 3)", "hi": "(2x − 1)(x − 3)" },
+        { "en": "(2x + 7)(x + 3)", "hi": "(2x + 7)(x + 3)" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Split the middle term: 7x = 6x + x. Then 2x² + 6x + x + 3 = 2x(x + 3) + 1(x + 3) = (2x + 1)(x + 3).", "hi": "मध्य पद को तोड़ें: 7x = 6x + x। तब 2x² + 6x + x + 3 = 2x(x + 3) + 1(x + 3) = (2x + 1)(x + 3)।" },
+      "distractorAnalysis": {
+        "1": { "en": "(2x + 3)(x + 1) expands to 2x² + 5x + 3, not 2x² + 7x + 3.", "hi": "(2x + 3)(x + 1) का प्रसार 2x² + 5x + 3 है, 2x² + 7x + 3 नहीं।" },
+        "2": { "en": "(2x − 1)(x − 3) expands to 2x² − 7x + 3; the signs are wrong.", "hi": "(2x − 1)(x − 3) का प्रसार 2x² − 7x + 3 है; चिह्न गलत हैं।" },
+        "3": { "en": "(2x + 7)(x + 3) expands to 2x² + 13x + 21; the coefficient 7 was wrongly used inside a factor.", "hi": "(2x + 7)(x + 3) का प्रसार 2x² + 13x + 21 है; गुणांक 7 को गलती से गुणनखंड में रख दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-07",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The sum of three consecutive even integers is 108. What is the largest of them?", "hi": "तीन क्रमागत सम पूर्णांकों का योग 108 है। उनमें सबसे बड़ा पूर्णांक कौन-सा है?" },
+      "optionsJson": [
+        { "en": "34", "hi": "34" },
+        { "en": "36", "hi": "36" },
+        { "en": "38", "hi": "38" },
+        { "en": "40", "hi": "40" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Let the integers be x, x + 2, x + 4. Then 3x + 6 = 108, so x = 34. The numbers are 34, 36, 38, and the largest is 38.", "hi": "मान लें पूर्णांक x, x + 2, x + 4 हैं। तब 3x + 6 = 108, अतः x = 34। संख्याएँ 34, 36, 38 हैं और सबसे बड़ी 38 है।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the smallest of the three integers, not the largest.", "hi": "यह तीनों पूर्णांकों में सबसे छोटा है, सबसे बड़ा नहीं।" },
+        "1": { "en": "This is the middle integer (108 ÷ 3), not the largest.", "hi": "यह बीच वाला पूर्णांक (108 ÷ 3) है, सबसे बड़ा नहीं।" },
+        "3": { "en": "Adds 4 to the middle number instead of 2.", "hi": "बीच वाली संख्या में 2 के बजाय 4 जोड़ दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-08",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Solve for x: (x + 2)/3 + (x − 1)/2 = 6", "hi": "x के लिए हल करें: (x + 2)/3 + (x − 1)/2 = 6" },
+      "optionsJson": [
+        { "en": "4", "hi": "4" },
+        { "en": "5", "hi": "5" },
+        { "en": "6", "hi": "6" },
+        { "en": "7", "hi": "7" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Multiply both sides by the LCM 6: 2(x + 2) + 3(x − 1) = 36, so 5x + 1 = 36, 5x = 35 and x = 7.", "hi": "दोनों पक्षों को LCM 6 से गुणा करें: 2(x + 2) + 3(x − 1) = 36, अतः 5x + 1 = 36, 5x = 35 और x = 7।" },
+      "distractorAnalysis": {
+        "0": { "en": "Arithmetic slip while clearing the denominators.", "hi": "हर हटाते समय गणना की भूल।" },
+        "1": { "en": "Arithmetic slip while simplifying 5x + 1 = 36.", "hi": "5x + 1 = 36 को हल करने में गणना की भूल।" },
+        "2": { "en": "Drops the constant +1 on the left side and solves 5x = 30.", "hi": "बाएँ पक्ष का अचर पद +1 छोड़ दिया और 5x = 30 हल किया।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-09",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the remainder when p(x) = x³ − 2x² + x − 5 is divided by (x − 2).", "hi": "p(x) = x³ − 2x² + x − 5 को (x − 2) से भाग देने पर शेषफल ज्ञात कीजिए।" },
+      "optionsJson": [
+        { "en": "3", "hi": "3" },
+        { "en": "−3", "hi": "−3" },
+        { "en": "−5", "hi": "−5" },
+        { "en": "−23", "hi": "−23" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "By the remainder theorem, the remainder is p(2) = 8 − 8 + 2 − 5 = −3.", "hi": "शेषफल प्रमेय से शेषफल p(2) = 8 − 8 + 2 − 5 = −3 है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Sign error: p(2) = −3, not +3.", "hi": "चिह्न की भूल: p(2) = −3 है, +3 नहीं।" },
+        "2": { "en": "Gives p(0), the constant term, instead of p(2).", "hi": "p(2) के बजाय p(0), यानी अचर पद, लिख दिया।" },
+        "3": { "en": "Evaluates p(−2), which corresponds to dividing by (x + 2).", "hi": "p(−2) निकाला, जो (x + 2) से भाग देने पर मिलता है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-10",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "If (x − 3) is a factor of x³ − 2x² − kx + 6, find the value of k.", "hi": "यदि (x − 3), x³ − 2x² − kx + 6 का एक गुणनखंड है, तो k का मान ज्ञात कीजिए।" },
+      "optionsJson": [
+        { "en": "3", "hi": "3" },
+        { "en": "4", "hi": "4" },
+        { "en": "5", "hi": "5" },
+        { "en": "6", "hi": "6" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "By the factor theorem p(3) = 0: 27 − 18 − 3k + 6 = 0, so 15 − 3k = 0 and k = 5.", "hi": "गुणनखंड प्रमेय से p(3) = 0: 27 − 18 − 3k + 6 = 0, अतः 15 − 3k = 0 और k = 5।" },
+      "distractorAnalysis": {
+        "0": { "en": "Omits the constant term 6 and solves 27 − 18 − 3k = 0.", "hi": "अचर पद 6 छोड़कर 27 − 18 − 3k = 0 हल किया।" },
+        "1": { "en": "Slip: evaluates 27 − 18 + 6 as 12 instead of 15.", "hi": "भूल: 27 − 18 + 6 का मान 15 के बजाय 12 निकाल लिया।" },
+        "3": { "en": "Takes the constant term 6 as the answer without applying the factor theorem.", "hi": "गुणनखंड प्रमेय लगाए बिना अचर पद 6 को ही उत्तर मान लिया।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-11",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the product of the zeroes of the polynomial 2x² − 9x + 4.", "hi": "बहुपद 2x² − 9x + 4 के शून्यकों का गुणनफल ज्ञात कीजिए।" },
+      "optionsJson": [
+        { "en": "2", "hi": "2" },
+        { "en": "9/2", "hi": "9/2" },
+        { "en": "−2", "hi": "−2" },
+        { "en": "4", "hi": "4" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "For ax² + bx + c the product of the zeroes is c/a = 4/2 = 2. (Check: 2x² − 9x + 4 = (2x − 1)(x − 4), with zeroes 1/2 and 4.)", "hi": "ax² + bx + c के शून्यकों का गुणनफल c/a = 4/2 = 2 होता है। (जाँच: 2x² − 9x + 4 = (2x − 1)(x − 4), शून्यक 1/2 और 4 हैं।)" },
+      "distractorAnalysis": {
+        "1": { "en": "9/2 is the sum of the zeroes (−b/a), not the product.", "hi": "9/2 शून्यकों का योगफल (−b/a) है, गुणनफल नहीं।" },
+        "2": { "en": "Sign error: here c/a is positive, so the product is +2.", "hi": "चिह्न की भूल: यहाँ c/a धनात्मक है, अतः गुणनफल +2 है।" },
+        "3": { "en": "Takes the constant term c without dividing by a.", "hi": "a से भाग दिए बिना केवल अचर पद c ले लिया।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-12",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Raman's father is 3 times as old as Raman. After 12 years, the father will be twice as old as Raman. What is Raman's present age?", "hi": "रमन के पिता की आयु रमन की आयु की 3 गुना है। 12 वर्ष बाद पिता की आयु रमन की आयु की दोगुनी हो जाएगी। रमन की वर्तमान आयु कितनी है?" },
+      "optionsJson": [
+        { "en": "8 years", "hi": "8 वर्ष" },
+        { "en": "10 years", "hi": "10 वर्ष" },
+        { "en": "15 years", "hi": "15 वर्ष" },
+        { "en": "12 years", "hi": "12 वर्ष" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Let Raman's age be x. Then 3x + 12 = 2(x + 12), so x = 12. (Father is 36 now; after 12 years 48 = 2 × 24.)", "hi": "मान लें रमन की आयु x है। तब 3x + 12 = 2(x + 12), अतः x = 12। (पिता की आयु अभी 36 वर्ष है; 12 वर्ष बाद 48 = 2 × 24।)" },
+      "distractorAnalysis": {
+        "0": { "en": "Check fails: after 12 years the father is 36 but twice Raman's age is 40.", "hi": "जाँच में विफल: 12 वर्ष बाद पिता 36 वर्ष के होंगे, पर रमन की आयु का दोगुना 40 है।" },
+        "1": { "en": "Check fails: after 12 years the father is 42 but twice Raman's age is 44.", "hi": "जाँच में विफल: 12 वर्ष बाद पिता 42 वर्ष के होंगे, पर रमन की आयु का दोगुना 44 है।" },
+        "2": { "en": "Check fails: after 12 years the father is 57 but twice Raman's age is 54.", "hi": "जाँच में विफल: 12 वर्ष बाद पिता 57 वर्ष के होंगे, पर रमन की आयु का दोगुना 54 है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-13",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": { "en": "If x + 1/x = 5, find the value of x³ + 1/x³.", "hi": "यदि x + 1/x = 5 है, तो x³ + 1/x³ का मान ज्ञात कीजिए।" },
+      "optionsJson": [
+        { "en": "125", "hi": "125" },
+        { "en": "110", "hi": "110" },
+        { "en": "120", "hi": "120" },
+        { "en": "140", "hi": "140" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Cube both sides: (x + 1/x)³ = x³ + 1/x³ + 3(x + 1/x). So 125 = x³ + 1/x³ + 15, giving x³ + 1/x³ = 110.", "hi": "दोनों पक्षों का घन करें: (x + 1/x)³ = x³ + 1/x³ + 3(x + 1/x)। अतः 125 = x³ + 1/x³ + 15, जिससे x³ + 1/x³ = 110।" },
+      "distractorAnalysis": {
+        "0": { "en": "Gives 5³ and forgets to subtract 3(x + 1/x) = 15.", "hi": "केवल 5³ लिख दिया और 3(x + 1/x) = 15 घटाना भूल गए।" },
+        "2": { "en": "Subtracts 5 instead of 3 × 5 = 15.", "hi": "3 × 5 = 15 के बजाय 5 घटाया।" },
+        "3": { "en": "Adds 15 instead of subtracting it.", "hi": "15 को घटाने के बजाय जोड़ दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-14",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "The sum of the digits of a two-digit number is 11. If 27 is added to the number, its digits get reversed. Find the number.", "hi": "एक दो अंकों वाली संख्या के अंकों का योग 11 है। संख्या में 27 जोड़ने पर उसके अंक उलट जाते हैं। वह संख्या ज्ञात कीजिए।" },
+      "optionsJson": [
+        { "en": "29", "hi": "29" },
+        { "en": "38", "hi": "38" },
+        { "en": "47", "hi": "47" },
+        { "en": "56", "hi": "56" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Let the tens digit be t and the units digit u. Then t + u = 11 and 10t + u + 27 = 10u + t, so u − t = 3. Hence u = 7, t = 4 and the number is 47 (47 + 27 = 74).", "hi": "मान लें दहाई का अंक t और इकाई का अंक u है। तब t + u = 11 और 10t + u + 27 = 10u + t, अतः u − t = 3। इसलिए u = 7, t = 4 और संख्या 47 है (47 + 27 = 74)।" },
+      "distractorAnalysis": {
+        "0": { "en": "Digit sum is 11, but 29 + 27 = 56, not the reversed number 92.", "hi": "अंकों का योग 11 है, पर 29 + 27 = 56 है, उलटी संख्या 92 नहीं।" },
+        "1": { "en": "Digit sum is 11, but 38 + 27 = 65, not the reversed number 83.", "hi": "अंकों का योग 11 है, पर 38 + 27 = 65 है, उलटी संख्या 83 नहीं।" },
+        "3": { "en": "Digit sum is 11, but 56 + 27 = 83, not the reversed number 65.", "hi": "अंकों का योग 11 है, पर 56 + 27 = 83 है, उलटी संख्या 65 नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-15",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "If a + b + c = 0, then a³ + b³ + c³ = 3abc. Using this, evaluate 18³ + (−11)³ + (−7)³.", "hi": "यदि a + b + c = 0 है, तो a³ + b³ + c³ = 3abc होता है। इसका प्रयोग करके 18³ + (−11)³ + (−7)³ का मान ज्ञात कीजिए।" },
+      "optionsJson": [
+        { "en": "4158", "hi": "4158" },
+        { "en": "0", "hi": "0" },
+        { "en": "1386", "hi": "1386" },
+        { "en": "−4158", "hi": "−4158" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Here 18 + (−11) + (−7) = 0, so the sum of cubes = 3 × 18 × (−11) × (−7) = 3 × 1386 = 4158.", "hi": "यहाँ 18 + (−11) + (−7) = 0, अतः घनों का योग = 3 × 18 × (−11) × (−7) = 3 × 1386 = 4158।" },
+      "distractorAnalysis": {
+        "1": { "en": "Wrongly assumes the sum of the cubes is also 0 because the numbers add up to 0.", "hi": "संख्याओं का योग 0 होने से गलती से घनों का योग भी 0 मान लिया।" },
+        "2": { "en": "Gives abc and forgets the factor 3.", "hi": "केवल abc निकाला और गुणनखंड 3 भूल गए।" },
+        "3": { "en": "Sign error: (−11) × (−7) is positive, so 3abc is positive.", "hi": "चिह्न की भूल: (−11) × (−7) धनात्मक है, अतः 3abc धनात्मक है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-16",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "The marked price of a shirt is ₹800. What is its selling price after a discount of 15%?", "hi": "एक कमीज़ का अंकित मूल्य ₹800 है। 15% की छूट के बाद उसका विक्रय मूल्य कितना होगा?" },
+      "optionsJson": [
+        { "en": "₹120", "hi": "₹120" },
+        { "en": "₹700", "hi": "₹700" },
+        { "en": "₹785", "hi": "₹785" },
+        { "en": "₹680", "hi": "₹680" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Discount = 15% of 800 = ₹120. Selling price = 800 − 120 = ₹680.", "hi": "छूट = 800 का 15% = ₹120। विक्रय मूल्य = 800 − 120 = ₹680।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the discount amount, not the selling price.", "hi": "यह छूट की राशि है, विक्रय मूल्य नहीं।" },
+        "1": { "en": "Subtracts ₹100 instead of 15% of ₹800.", "hi": "₹800 के 15% के बजाय ₹100 घटा दिए।" },
+        "2": { "en": "Subtracts 15 rupees instead of 15 percent.", "hi": "15 प्रतिशत के बजाय 15 रुपये घटा दिए।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-17",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "The angles of a triangle are in the ratio 2 : 3 : 4. Find the largest angle.", "hi": "एक त्रिभुज के कोणों का अनुपात 2 : 3 : 4 है। सबसे बड़ा कोण ज्ञात कीजिए।" },
+      "optionsJson": [
+        { "en": "60°", "hi": "60°" },
+        { "en": "70°", "hi": "70°" },
+        { "en": "80°", "hi": "80°" },
+        { "en": "90°", "hi": "90°" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The ratio parts add up to 9 and the angles sum to 180°, so one part = 20°. The largest angle = 4 × 20° = 80°.", "hi": "अनुपात के भागों का योग 9 है और कोणों का योग 180° है, अतः एक भाग = 20°। सबसे बड़ा कोण = 4 × 20° = 80°।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the middle angle (3 × 20°), not the largest.", "hi": "यह बीच वाला कोण (3 × 20°) है, सबसे बड़ा नहीं।" },
+        "1": { "en": "Arithmetic slip while finding 4 parts of 20°.", "hi": "20° के 4 भाग निकालने में गणना की भूल।" },
+        "3": { "en": "Wrongly assumes the largest angle must be a right angle.", "hi": "गलती से मान लिया कि सबसे बड़ा कोण समकोण होगा।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-18",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A wheel has a radius of 21 cm. What distance does it cover in 50 complete revolutions? (Use π = 22/7)", "hi": "एक पहिये की त्रिज्या 21 cm है। 50 पूरे चक्करों में वह कितनी दूरी तय करेगा? (π = 22/7 लीजिए)" },
+      "optionsJson": [
+        { "en": "33 m", "hi": "33 m" },
+        { "en": "66 m", "hi": "66 m" },
+        { "en": "660 m", "hi": "660 m" },
+        { "en": "6600 m", "hi": "6600 m" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Circumference = 2πr = 2 × 22/7 × 21 = 132 cm. Distance in 50 revolutions = 132 × 50 = 6600 cm = 66 m.", "hi": "परिधि = 2πr = 2 × 22/7 × 21 = 132 cm। 50 चक्करों में दूरी = 132 × 50 = 6600 cm = 66 m।" },
+      "distractorAnalysis": {
+        "0": { "en": "Uses πr = 66 cm instead of 2πr, giving 3300 cm = 33 m.", "hi": "2πr के बजाय πr = 66 cm लिया, जिससे 3300 cm = 33 m मिला।" },
+        "2": { "en": "Converts 6600 cm to metres by dividing by 10 instead of 100.", "hi": "6600 cm को मीटर में बदलने के लिए 100 के बजाय 10 से भाग दिया।" },
+        "3": { "en": "Forgets to convert 6600 cm into metres.", "hi": "6600 cm को मीटर में बदलना भूल गए।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-19",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The mean of five numbers is 18. When a sixth number is included, the mean becomes 20. What is the sixth number?", "hi": "पाँच संख्याओं का माध्य 18 है। छठी संख्या शामिल करने पर माध्य 20 हो जाता है। छठी संख्या क्या है?" },
+      "optionsJson": [
+        { "en": "30", "hi": "30" },
+        { "en": "20", "hi": "20" },
+        { "en": "38", "hi": "38" },
+        { "en": "22", "hi": "22" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Sum of the first five = 5 × 18 = 90. Sum of all six = 6 × 20 = 120. So the sixth number = 120 − 90 = 30.", "hi": "पहली पाँच संख्याओं का योग = 5 × 18 = 90। सभी छह संख्याओं का योग = 6 × 20 = 120। अतः छठी संख्या = 120 − 90 = 30।" },
+      "distractorAnalysis": {
+        "1": { "en": "Takes the new mean as the sixth number.", "hi": "नए माध्य को ही छठी संख्या मान लिया।" },
+        "2": { "en": "Adds the two means, 18 + 20.", "hi": "दोनों माध्यों को जोड़ दिया, 18 + 20।" },
+        "3": { "en": "Adds the rise in the mean (2) to 20, ignoring that the rise is shared by six numbers.", "hi": "माध्य की वृद्धि (2) को 20 में जोड़ दिया, यह भूलकर कि वृद्धि छह संख्याओं में बँटी है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-20",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the compound interest on ₹10,000 for 2 years at 10% per annum, compounded annually.", "hi": "₹10,000 पर 10% वार्षिक दर से 2 वर्ष का चक्रवृद्धि ब्याज (वार्षिक संयोजन) ज्ञात कीजिए।" },
+      "optionsJson": [
+        { "en": "₹2,000", "hi": "₹2,000" },
+        { "en": "₹2,200", "hi": "₹2,200" },
+        { "en": "₹1,100", "hi": "₹1,100" },
+        { "en": "₹2,100", "hi": "₹2,100" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Year 1 interest = ₹1,000, so the amount becomes ₹11,000. Year 2 interest = 10% of 11,000 = ₹1,100. Compound interest = 1,000 + 1,100 = ₹2,100.", "hi": "पहले वर्ष का ब्याज = ₹1,000, अतः मिश्रधन ₹11,000 हो जाता है। दूसरे वर्ष का ब्याज = 11,000 का 10% = ₹1,100। चक्रवृद्धि ब्याज = 1,000 + 1,100 = ₹2,100।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the simple interest, not the compound interest.", "hi": "यह साधारण ब्याज है, चक्रवृद्धि ब्याज नहीं।" },
+        "1": { "en": "Doubles the second year's interest of ₹1,100.", "hi": "दूसरे वर्ष के ब्याज ₹1,100 को दोगुना कर दिया।" },
+        "2": { "en": "Gives only the second year's interest.", "hi": "केवल दूसरे वर्ष का ब्याज लिख दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-21",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The length of a rectangle is 12 cm and its diagonal is 15 cm. What is the area of the rectangle?", "hi": "एक आयत की लंबाई 12 cm और उसका विकर्ण 15 cm है। आयत का क्षेत्रफल कितना है?" },
+      "optionsJson": [
+        { "en": "90 cm²", "hi": "90 cm²" },
+        { "en": "96 cm²", "hi": "96 cm²" },
+        { "en": "108 cm²", "hi": "108 cm²" },
+        { "en": "180 cm²", "hi": "180 cm²" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "By Pythagoras, 15² = 12² + b², so b² = 225 − 144 = 81 and b = 9 cm. Area = 12 × 9 = 108 cm².", "hi": "पाइथागोरस प्रमेय से 15² = 12² + b², अतः b² = 225 − 144 = 81 और b = 9 cm। क्षेत्रफल = 12 × 9 = 108 cm²।" },
+      "distractorAnalysis": {
+        "0": { "en": "Uses (length × diagonal) ÷ 2 = 12 × 15 ÷ 2.", "hi": "(लंबाई × विकर्ण) ÷ 2 = 12 × 15 ÷ 2 का प्रयोग किया।" },
+        "1": { "en": "Takes the breadth as 8 through a slip in finding √81.", "hi": "√81 निकालने में भूल से चौड़ाई 8 मान ली।" },
+        "3": { "en": "Multiplies length by diagonal instead of by breadth.", "hi": "लंबाई को चौड़ाई के बजाय विकर्ण से गुणा कर दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-22",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "One pipe can fill a tank in 12 hours and another in 15 hours, while a third pipe can empty the full tank in 20 hours. If all three pipes are opened together, in how much time will the empty tank be filled?", "hi": "एक नल किसी टंकी को 12 घंटे में और दूसरा नल 15 घंटे में भर सकता है, जबकि तीसरा नल भरी हुई टंकी को 20 घंटे में खाली कर सकता है। यदि तीनों नल एक साथ खोल दिए जाएँ, तो खाली टंकी कितने समय में भर जाएगी?" },
+      "optionsJson": [
+        { "en": "10 hours", "hi": "10 घंटे" },
+        { "en": "6 hours 40 minutes", "hi": "6 घंटे 40 मिनट" },
+        { "en": "15 hours", "hi": "15 घंटे" },
+        { "en": "7 hours", "hi": "7 घंटे" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Net part filled in 1 hour = 1/12 + 1/15 − 1/20 = (5 + 4 − 3)/60 = 6/60 = 1/10. So the tank fills in 10 hours.", "hi": "1 घंटे में भरा गया भाग = 1/12 + 1/15 − 1/20 = (5 + 4 − 3)/60 = 6/60 = 1/10। अतः टंकी 10 घंटे में भर जाएगी।" },
+      "distractorAnalysis": {
+        "1": { "en": "Ignores the emptying pipe: 1/12 + 1/15 = 3/20, giving 20/3 hours.", "hi": "खाली करने वाले नल को छोड़ दिया: 1/12 + 1/15 = 3/20, जिससे 20/3 घंटे मिले।" },
+        "2": { "en": "Takes the time of the second pipe alone.", "hi": "केवल दूसरे नल का समय ले लिया।" },
+        "3": { "en": "Combines the times (12 + 15 − 20) instead of the rates of work.", "hi": "कार्य की दरों के बजाय समयों को जोड़ा-घटाया (12 + 15 − 20)।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-23",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "What is the smallest number by which 1176 must be multiplied so that the product is a perfect square?", "hi": "वह छोटी-से-छोटी संख्या क्या है जिससे 1176 को गुणा करने पर गुणनफल पूर्ण वर्ग हो जाए?" },
+      "optionsJson": [
+        { "en": "2", "hi": "2" },
+        { "en": "6", "hi": "6" },
+        { "en": "3", "hi": "3" },
+        { "en": "7", "hi": "7" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "1176 = 2³ × 3 × 7². The powers of 2 and 3 are odd, so we need one more 2 and one more 3: 2 × 3 = 6. Then 1176 × 6 = 7056 = 84².", "hi": "1176 = 2³ × 3 × 7²। 2 और 3 की घात विषम हैं, इसलिए एक और 2 तथा एक और 3 चाहिए: 2 × 3 = 6। तब 1176 × 6 = 7056 = 84²।" },
+      "distractorAnalysis": {
+        "0": { "en": "Fixes only the power of 2; the factor 3 still has an odd power.", "hi": "केवल 2 की घात ठीक की; 3 की घात अब भी विषम है।" },
+        "2": { "en": "Fixes only the factor 3; 2³ still has an odd power.", "hi": "केवल 3 ठीक किया; 2³ की घात अब भी विषम है।" },
+        "3": { "en": "Picks 7 because 7² is visible, but 7 already has an even power.", "hi": "7² दिखने से 7 चुन लिया, जबकि 7 की घात पहले से सम है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-24",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": { "en": "A shopkeeper sells two articles at ₹1,200 each. On one he gains 20% and on the other he loses 20%. What is his overall result in the whole transaction?", "hi": "एक दुकानदार दो वस्तुओं को ₹1,200 प्रति वस्तु की दर से बेचता है। एक पर उसे 20% लाभ होता है और दूसरी पर 20% हानि। पूरे सौदे में उसे कुल क्या परिणाम मिलता है?" },
+      "optionsJson": [
+        { "en": "No profit, no loss", "hi": "न लाभ, न हानि" },
+        { "en": "4% profit", "hi": "4% लाभ" },
+        { "en": "2% loss", "hi": "2% हानि" },
+        { "en": "4% loss", "hi": "4% हानि" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Cost of the first = 1200 ÷ 1.2 = ₹1,000. Cost of the second = 1200 ÷ 0.8 = ₹1,500. Total cost = ₹2,500, total selling price = ₹2,400. Loss = ₹100, which is 100/2500 × 100 = 4% of the cost.", "hi": "पहली वस्तु का क्रय मूल्य = 1200 ÷ 1.2 = ₹1,000। दूसरी का क्रय मूल्य = 1200 ÷ 0.8 = ₹1,500। कुल क्रय मूल्य = ₹2,500, कुल विक्रय मूल्य = ₹2,400। हानि = ₹100, जो क्रय मूल्य का 100/2500 × 100 = 4% है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Assumes the equal gain and loss percentages cancel out, but they apply to different cost prices.", "hi": "मान लिया कि समान लाभ और हानि प्रतिशत कट जाते हैं, जबकि वे अलग-अलग क्रय मूल्यों पर लगते हैं।" },
+        "1": { "en": "Gets the direction wrong: total selling price is less than total cost, so it is a loss.", "hi": "दिशा गलत ली: कुल विक्रय मूल्य कुल क्रय मूल्य से कम है, अतः यह हानि है।" },
+        "2": { "en": "Divides the ₹100 loss by a wrong, larger base instead of the total cost ₹2,500.", "hi": "₹100 की हानि को कुल क्रय मूल्य ₹2,500 के बजाय किसी गलत, बड़े आधार से भाग दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-25",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A bag contains 5 red, 3 blue and 2 green balls. One ball is drawn at random. What is the probability that it is neither red nor blue?", "hi": "एक थैले में 5 लाल, 3 नीली और 2 हरी गेंदें हैं। यादृच्छिक रूप से एक गेंद निकाली जाती है। उसके न लाल और न नीली होने की प्रायिकता क्या है?" },
+      "optionsJson": [
+        { "en": "1/2", "hi": "1/2" },
+        { "en": "3/10", "hi": "3/10" },
+        { "en": "1/5", "hi": "1/5" },
+        { "en": "4/5", "hi": "4/5" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "There are 10 balls in all. A ball that is neither red nor blue must be green, and there are 2 green balls. Probability = 2/10 = 1/5.", "hi": "कुल 10 गेंदें हैं। जो गेंद न लाल है और न नीली, वह हरी होगी, और हरी गेंदें 2 हैं। प्रायिकता = 2/10 = 1/5।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the probability of drawing a red ball (5/10).", "hi": "यह लाल गेंद निकलने की प्रायिकता (5/10) है।" },
+        "1": { "en": "This is the probability of drawing a blue ball (3/10).", "hi": "यह नीली गेंद निकलने की प्रायिकता (3/10) है।" },
+        "3": { "en": "This is the probability of a ball that is red or blue (8/10), the opposite of what is asked.", "hi": "यह लाल या नीली गेंद की प्रायिकता (8/10) है, जो पूछे गए का उलटा है।" }
+      }
+    }
+  ]
+}

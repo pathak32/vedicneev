@@ -1,0 +1,984 @@
+{
+  "examType": "RMS",
+  "classLevel": 6,
+  "paperNumber": 2,
+  "sectionKey": "language",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "rms6-p2-la-01",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Read the passage and answer the question.\n\nPassage: Tara's school organised a cleanliness drive on Saturday. Every class was given a small area of the playground to clean. Students picked up papers and wrappers and put them in separate bins for wet and dry waste. By noon, the playground looked spotless, and the principal thanked everyone.\n\nQuestion: According to the passage, what was given to every class?",
+        "hi": "अनुच्छेद पढ़ें और प्रश्न का उत्तर दें।\n\nअनुच्छेद: तारा के स्कूल ने शनिवार को स्वच्छता अभियान चलाया। हर कक्षा को साफ़ करने के लिए खेल के मैदान का एक छोटा हिस्सा दिया गया। विद्यार्थियों ने काग़ज़ और रैपर उठाए और उन्हें गीले और सूखे कचरे के अलग-अलग डिब्बों में डाला। दोपहर तक खेल का मैदान एकदम साफ़ दिखने लगा और प्रधानाचार्य ने सबको धन्यवाद दिया।\n\nप्रश्न: अनुच्छेद के अनुसार, हर कक्षा को क्या दिया गया?",
+        "mr": "उतारा वाचा आणि प्रश्नाचे उत्तर द्या.\n\nउतारा: ताराच्या शाळेने शनिवारी स्वच्छता मोहीम राबवली. प्रत्येक वर्गाला स्वच्छ करण्यासाठी खेळाच्या मैदानाचा एक लहान भाग देण्यात आला. विद्यार्थ्यांनी कागद आणि वेष्टने उचलली आणि ती ओल्या व सुक्या कचऱ्याच्या वेगवेगळ्या डब्यांत टाकली. दुपारपर्यंत खेळाचे मैदान अगदी स्वच्छ दिसू लागले आणि मुख्याध्यापकांनी सर्वांचे आभार मानले.\n\nप्रश्न: उताऱ्यानुसार प्रत्येक वर्गाला काय देण्यात आले?"
+      },
+      "optionsJson": [
+        { "en": "A broom and a bucket", "hi": "झाड़ू और बाल्टी", "mr": "झाडू आणि बादली" },
+        { "en": "A certificate of thanks", "hi": "धन्यवाद का प्रमाणपत्र", "mr": "आभाराचे प्रमाणपत्र" },
+        { "en": "A small area of the playground to clean", "hi": "साफ़ करने के लिए खेल के मैदान का एक छोटा हिस्सा", "mr": "स्वच्छ करण्यासाठी खेळाच्या मैदानाचा एक लहान भाग" },
+        { "en": "A separate classroom to decorate", "hi": "सजाने के लिए एक अलग कक्षा", "mr": "सजवण्यासाठी एक वेगळी खोली" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The second sentence says every class was given a small area of the playground to clean.",
+        "hi": "दूसरे वाक्य में कहा गया है कि हर कक्षा को साफ़ करने के लिए खेल के मैदान का एक छोटा हिस्सा दिया गया।",
+        "mr": "दुसऱ्या वाक्यात म्हटले आहे की प्रत्येक वर्गाला स्वच्छ करण्यासाठी खेळाच्या मैदानाचा एक लहान भाग देण्यात आला."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "A broom and a bucket are not mentioned anywhere in the passage.",
+          "hi": "झाड़ू और बाल्टी का अनुच्छेद में कहीं उल्लेख नहीं है।",
+          "mr": "झाडू आणि बादलीचा उताऱ्यात कुठेही उल्लेख नाही."
+        },
+        "1": {
+          "en": "The principal only thanked everyone; no certificate is mentioned.",
+          "hi": "प्रधानाचार्य ने केवल सबको धन्यवाद दिया; किसी प्रमाणपत्र का उल्लेख नहीं है।",
+          "mr": "मुख्याध्यापकांनी फक्त सर्वांचे आभार मानले; कोणत्याही प्रमाणपत्राचा उल्लेख नाही."
+        },
+        "3": {
+          "en": "Classrooms are not mentioned; the areas given were parts of the playground.",
+          "hi": "कक्षाओं का उल्लेख नहीं है; दिए गए हिस्से खेल के मैदान के थे।",
+          "mr": "वर्गखोल्यांचा उल्लेख नाही; दिलेले भाग खेळाच्या मैदानाचे होते."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-la-02",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Read the passage and answer the question.\n\nPassage: Tara's school organised a cleanliness drive on Saturday. Every class was given a small area of the playground to clean. Students picked up papers and wrappers and put them in separate bins for wet and dry waste. By noon, the playground looked spotless, and the principal thanked everyone.\n\nQuestion: In the passage, the word 'spotless' means ___.",
+        "hi": "अनुच्छेद पढ़ें और प्रश्न का उत्तर दें।\n\nअनुच्छेद: तारा के स्कूल ने शनिवार को स्वच्छता अभियान चलाया। हर कक्षा को साफ़ करने के लिए खेल के मैदान का एक छोटा हिस्सा दिया गया। विद्यार्थियों ने काग़ज़ और रैपर उठाए और उन्हें गीले और सूखे कचरे के अलग-अलग डिब्बों में डाला। दोपहर तक खेल का मैदान एकदम साफ़ दिखने लगा और प्रधानाचार्य ने सबको धन्यवाद दिया।\n\nप्रश्न: अनुच्छेद में 'spotless' शब्द का अर्थ ___ है।",
+        "mr": "उतारा वाचा आणि प्रश्नाचे उत्तर द्या.\n\nउतारा: ताराच्या शाळेने शनिवारी स्वच्छता मोहीम राबवली. प्रत्येक वर्गाला स्वच्छ करण्यासाठी खेळाच्या मैदानाचा एक लहान भाग देण्यात आला. विद्यार्थ्यांनी कागद आणि वेष्टने उचलली आणि ती ओल्या व सुक्या कचऱ्याच्या वेगवेगळ्या डब्यांत टाकली. दुपारपर्यंत खेळाचे मैदान अगदी स्वच्छ दिसू लागले आणि मुख्याध्यापकांनी सर्वांचे आभार मानले.\n\nप्रश्न: उताऱ्यातील 'spotless' या शब्दाचा अर्थ ___ आहे."
+      },
+      "optionsJson": [
+        { "en": "completely clean", "hi": "पूरी तरह साफ़", "mr": "पूर्णपणे स्वच्छ" },
+        { "en": "very crowded", "hi": "बहुत भीड़ भरा", "mr": "खूप गर्दीने भरलेले" },
+        { "en": "full of colour", "hi": "रंगों से भरा", "mr": "रंगांनी भरलेले" },
+        { "en": "slightly dusty", "hi": "थोड़ा धूल भरा", "mr": "थोडेसे धुळीचे" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "'Spotless' means without any dirt or marks, that is, completely clean. The passage uses it to show that the playground had been cleaned well.",
+        "hi": "'Spotless' का अर्थ है बिना किसी गंदगी या दाग़ के, यानी पूरी तरह साफ़। अनुच्छेद में इससे यह बताया गया है कि मैदान अच्छी तरह साफ़ हो गया था।",
+        "mr": "'Spotless' म्हणजे कोणतीही घाण किंवा डाग नसलेले, म्हणजेच पूर्णपणे स्वच्छ. उताऱ्यात यावरून मैदान चांगले स्वच्छ झाले होते हे दाखवले आहे."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "'Very crowded' has nothing to do with cleaning or dirt.",
+          "hi": "'बहुत भीड़ भरा' का सफ़ाई या गंदगी से कोई संबंध नहीं है।",
+          "mr": "'खूप गर्दीने भरलेले' याचा स्वच्छता किंवा घाणीशी काहीही संबंध नाही."
+        },
+        "2": {
+          "en": "'Full of colour' is not the meaning of 'spotless'.",
+          "hi": "'रंगों से भरा' 'spotless' का अर्थ नहीं है।",
+          "mr": "'रंगांनी भरलेले' हा 'spotless' चा अर्थ नाही."
+        },
+        "3": {
+          "en": "'Slightly dusty' is almost the opposite of 'spotless'.",
+          "hi": "'थोड़ा धूल भरा' लगभग 'spotless' का उल्टा है।",
+          "mr": "'थोडेसे धुळीचे' हे जवळजवळ 'spotless' च्या उलट आहे."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-la-03",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Read the passage and answer the question.\n\nPassage: Tara's school organised a cleanliness drive on Saturday. Every class was given a small area of the playground to clean. Students picked up papers and wrappers and put them in separate bins for wet and dry waste. By noon, the playground looked spotless, and the principal thanked everyone.\n\nQuestion: Which two kinds of waste were put into separate bins?",
+        "hi": "अनुच्छेद पढ़ें और प्रश्न का उत्तर दें।\n\nअनुच्छेद: तारा के स्कूल ने शनिवार को स्वच्छता अभियान चलाया। हर कक्षा को साफ़ करने के लिए खेल के मैदान का एक छोटा हिस्सा दिया गया। विद्यार्थियों ने काग़ज़ और रैपर उठाए और उन्हें गीले और सूखे कचरे के अलग-अलग डिब्बों में डाला। दोपहर तक खेल का मैदान एकदम साफ़ दिखने लगा और प्रधानाचार्य ने सबको धन्यवाद दिया।\n\nप्रश्न: किन दो प्रकार के कचरे को अलग-अलग डिब्बों में डाला गया?",
+        "mr": "उतारा वाचा आणि प्रश्नाचे उत्तर द्या.\n\nउतारा: ताराच्या शाळेने शनिवारी स्वच्छता मोहीम राबवली. प्रत्येक वर्गाला स्वच्छ करण्यासाठी खेळाच्या मैदानाचा एक लहान भाग देण्यात आला. विद्यार्थ्यांनी कागद आणि वेष्टने उचलली आणि ती ओल्या व सुक्या कचऱ्याच्या वेगवेगळ्या डब्यांत टाकली. दुपारपर्यंत खेळाचे मैदान अगदी स्वच्छ दिसू लागले आणि मुख्याध्यापकांनी सर्वांचे आभार मानले.\n\nप्रश्न: कोणत्या दोन प्रकारचा कचरा वेगवेगळ्या डब्यांत टाकण्यात आला?"
+      },
+      "optionsJson": [
+        { "en": "Plastic and glass", "hi": "प्लास्टिक और काँच", "mr": "प्लास्टिक आणि काच" },
+        { "en": "Paper and cloth", "hi": "काग़ज़ और कपड़ा", "mr": "कागद आणि कापड" },
+        { "en": "Food and metal", "hi": "खाना और धातु", "mr": "अन्न आणि धातू" },
+        { "en": "Wet and dry waste", "hi": "गीला और सूखा कचरा", "mr": "ओला आणि सुका कचरा" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "The passage says the students put the papers and wrappers into separate bins for wet and dry waste.",
+        "hi": "अनुच्छेद में कहा गया है कि विद्यार्थियों ने काग़ज़ और रैपर गीले और सूखे कचरे के अलग-अलग डिब्बों में डाले।",
+        "mr": "उताऱ्यात म्हटले आहे की विद्यार्थ्यांनी कागद आणि वेष्टने ओल्या व सुक्या कचऱ्याच्या वेगवेगळ्या डब्यांत टाकली."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Plastic and glass are not named as the two kinds of waste in the passage.",
+          "hi": "अनुच्छेद में प्लास्टिक और काँच को दो प्रकार के कचरे के रूप में नहीं बताया गया है।",
+          "mr": "उताऱ्यात प्लास्टिक आणि काच हे दोन प्रकारचा कचरा म्हणून सांगितलेले नाहीत."
+        },
+        "1": {
+          "en": "Paper and cloth are not the two kinds of waste given in the passage.",
+          "hi": "काग़ज़ और कपड़ा अनुच्छेद में दिए गए दो प्रकार के कचरे नहीं हैं।",
+          "mr": "कागद आणि कापड हे उताऱ्यात दिलेले दोन प्रकारचे कचरा नाहीत."
+        },
+        "2": {
+          "en": "Food and metal are not mentioned in the passage.",
+          "hi": "खाना और धातु का अनुच्छेद में उल्लेख नहीं है।",
+          "mr": "अन्न आणि धातूचा उताऱ्यात उल्लेख नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-la-04",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Read the passage and answer the question.\n\nPassage: Bamboo is one of the fastest-growing plants in the world. Some kinds can grow almost one metre in a single day. Its stems are hollow but very strong, so people use them to build houses, bridges and furniture. Because it grows back quickly after being cut, bamboo is considered a friendly material for the environment.\n\nQuestion: Why is bamboo considered friendly to the environment?",
+        "hi": "अनुच्छेद पढ़ें और प्रश्न का उत्तर दें।\n\nअनुच्छेद: बाँस दुनिया के सबसे तेज़ी से बढ़ने वाले पौधों में से एक है। इसकी कुछ किस्में एक ही दिन में लगभग एक मीटर तक बढ़ सकती हैं। इसके तने खोखले होते हैं, पर बहुत मज़बूत होते हैं, इसलिए लोग उनसे घर, पुल और फ़र्नीचर बनाते हैं। काटे जाने के बाद यह जल्दी दोबारा उग आता है, इसलिए बाँस को पर्यावरण के लिए मित्रवत सामग्री माना जाता है।\n\nप्रश्न: बाँस को पर्यावरण के लिए मित्रवत क्यों माना जाता है?",
+        "mr": "उतारा वाचा आणि प्रश्नाचे उत्तर द्या.\n\nउतारा: बांबू हे जगातील सर्वात वेगाने वाढणाऱ्या वनस्पतींपैकी एक आहे. काही प्रकार एका दिवसात जवळजवळ एक मीटरपर्यंत वाढू शकतात. त्याची खोडे आतून पोकळ पण खूप मजबूत असतात, म्हणून लोक त्यांपासून घरे, पूल आणि फर्निचर बनवतात. कापल्यानंतर ते लवकर पुन्हा उगवते, म्हणून बांबू हे पर्यावरणासाठी अनुकूल साहित्य मानले जाते.\n\nप्रश्न: बांबू पर्यावरणासाठी अनुकूल का मानला जातो?"
+      },
+      "optionsJson": [
+        { "en": "It is hollow inside", "hi": "यह अंदर से खोखला होता है", "mr": "तो आतून पोकळ असतो" },
+        { "en": "It grows back quickly after being cut", "hi": "काटे जाने के बाद यह जल्दी दोबारा उग आता है", "mr": "कापल्यानंतर तो लवकर पुन्हा उगवतो" },
+        { "en": "It grows only in cold places", "hi": "यह केवल ठंडी जगहों पर उगता है", "mr": "तो फक्त थंड ठिकाणी उगवतो" },
+        { "en": "It is used to build bridges", "hi": "इससे पुल बनाए जाते हैं", "mr": "त्यापासून पूल बनवले जातात" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "The last sentence gives the reason: bamboo grows back quickly after being cut, so it is considered friendly to the environment.",
+        "hi": "अंतिम वाक्य में कारण दिया गया है: बाँस काटे जाने के बाद जल्दी दोबारा उग आता है, इसलिए उसे पर्यावरण के लिए मित्रवत माना जाता है।",
+        "mr": "शेवटच्या वाक्यात कारण दिले आहे: बांबू कापल्यानंतर लवकर पुन्हा उगवतो, म्हणून तो पर्यावरणासाठी अनुकूल मानला जातो."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Being hollow is mentioned, but it is not the reason given for being friendly to the environment.",
+          "hi": "खोखला होने का उल्लेख है, पर पर्यावरण के लिए मित्रवत होने का यह कारण नहीं बताया गया है।",
+          "mr": "पोकळ असण्याचा उल्लेख आहे, पण पर्यावरणासाठी अनुकूल असण्याचे ते कारण सांगितलेले नाही."
+        },
+        "2": {
+          "en": "The passage does not say that bamboo grows only in cold places.",
+          "hi": "अनुच्छेद में यह नहीं कहा गया कि बाँस केवल ठंडी जगहों पर उगता है।",
+          "mr": "उताऱ्यात बांबू फक्त थंड ठिकाणी उगवतो असे म्हटलेले नाही."
+        },
+        "3": {
+          "en": "Building bridges is one use of bamboo, not the reason it is friendly to the environment.",
+          "hi": "पुल बनाना बाँस का एक उपयोग है, पर्यावरण के लिए मित्रवत होने का कारण नहीं।",
+          "mr": "पूल बांधणे हा बांबूचा एक उपयोग आहे, तो पर्यावरणासाठी अनुकूल असण्याचे कारण नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-la-05",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Read the passage and answer the question.\n\nPassage: Bamboo is one of the fastest-growing plants in the world. Some kinds can grow almost one metre in a single day. Its stems are hollow but very strong, so people use them to build houses, bridges and furniture. Because it grows back quickly after being cut, bamboo is considered a friendly material for the environment.\n\nQuestion: Which of the following uses of bamboo is NOT mentioned in the passage?",
+        "hi": "अनुच्छेद पढ़ें और प्रश्न का उत्तर दें।\n\nअनुच्छेद: बाँस दुनिया के सबसे तेज़ी से बढ़ने वाले पौधों में से एक है। इसकी कुछ किस्में एक ही दिन में लगभग एक मीटर तक बढ़ सकती हैं। इसके तने खोखले होते हैं, पर बहुत मज़बूत होते हैं, इसलिए लोग उनसे घर, पुल और फ़र्नीचर बनाते हैं। काटे जाने के बाद यह जल्दी दोबारा उग आता है, इसलिए बाँस को पर्यावरण के लिए मित्रवत सामग्री माना जाता है।\n\nप्रश्न: बाँस के निम्नलिखित उपयोगों में से किसका अनुच्छेद में उल्लेख नहीं है?",
+        "mr": "उतारा वाचा आणि प्रश्नाचे उत्तर द्या.\n\nउतारा: बांबू हे जगातील सर्वात वेगाने वाढणाऱ्या वनस्पतींपैकी एक आहे. काही प्रकार एका दिवसात जवळजवळ एक मीटरपर्यंत वाढू शकतात. त्याची खोडे आतून पोकळ पण खूप मजबूत असतात, म्हणून लोक त्यांपासून घरे, पूल आणि फर्निचर बनवतात. कापल्यानंतर ते लवकर पुन्हा उगवते, म्हणून बांबू हे पर्यावरणासाठी अनुकूल साहित्य मानले जाते.\n\nप्रश्न: बांबूच्या खालीलपैकी कोणत्या उपयोगाचा उताऱ्यात उल्लेख नाही?"
+      },
+      "optionsJson": [
+        { "en": "Building houses", "hi": "घर बनाना", "mr": "घरे बांधणे" },
+        { "en": "Building bridges", "hi": "पुल बनाना", "mr": "पूल बांधणे" },
+        { "en": "Making furniture", "hi": "फ़र्नीचर बनाना", "mr": "फर्निचर बनवणे" },
+        { "en": "Making paper", "hi": "काग़ज़ बनाना", "mr": "कागद बनवणे" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "The passage lists houses, bridges and furniture as uses of bamboo. Making paper is not mentioned.",
+        "hi": "अनुच्छेद में बाँस के उपयोगों के रूप में घर, पुल और फ़र्नीचर गिनाए गए हैं। काग़ज़ बनाने का उल्लेख नहीं है।",
+        "mr": "उताऱ्यात बांबूचे उपयोग म्हणून घरे, पूल आणि फर्निचर सांगितले आहेत. कागद बनवण्याचा उल्लेख नाही."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Building houses is mentioned in the passage as a use of bamboo.",
+          "hi": "घर बनाने का उल्लेख अनुच्छेद में बाँस के उपयोग के रूप में है।",
+          "mr": "घरे बांधणे याचा उताऱ्यात बांबूचा उपयोग म्हणून उल्लेख आहे."
+        },
+        "1": {
+          "en": "Building bridges is mentioned in the passage as a use of bamboo.",
+          "hi": "पुल बनाने का उल्लेख अनुच्छेद में बाँस के उपयोग के रूप में है।",
+          "mr": "पूल बांधणे याचा उताऱ्यात बांबूचा उपयोग म्हणून उल्लेख आहे."
+        },
+        "2": {
+          "en": "Making furniture is mentioned in the passage as a use of bamboo.",
+          "hi": "फ़र्नीचर बनाने का उल्लेख अनुच्छेद में बाँस के उपयोग के रूप में है।",
+          "mr": "फर्निचर बनवणे याचा उताऱ्यात बांबूचा उपयोग म्हणून उल्लेख आहे."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-la-06",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Read the passage and answer the question.\n\nPassage: Bamboo is one of the fastest-growing plants in the world. Some kinds can grow almost one metre in a single day. Its stems are hollow but very strong, so people use them to build houses, bridges and furniture. Because it grows back quickly after being cut, bamboo is considered a friendly material for the environment.\n\nQuestion: Which statement can be correctly inferred from the passage?",
+        "hi": "अनुच्छेद पढ़ें और प्रश्न का उत्तर दें।\n\nअनुच्छेद: बाँस दुनिया के सबसे तेज़ी से बढ़ने वाले पौधों में से एक है। इसकी कुछ किस्में एक ही दिन में लगभग एक मीटर तक बढ़ सकती हैं। इसके तने खोखले होते हैं, पर बहुत मज़बूत होते हैं, इसलिए लोग उनसे घर, पुल और फ़र्नीचर बनाते हैं। काटे जाने के बाद यह जल्दी दोबारा उग आता है, इसलिए बाँस को पर्यावरण के लिए मित्रवत सामग्री माना जाता है।\n\nप्रश्न: अनुच्छेद से कौन-सा कथन सही निष्कर्ष के रूप में निकाला जा सकता है?",
+        "mr": "उतारा वाचा आणि प्रश्नाचे उत्तर द्या.\n\nउतारा: बांबू हे जगातील सर्वात वेगाने वाढणाऱ्या वनस्पतींपैकी एक आहे. काही प्रकार एका दिवसात जवळजवळ एक मीटरपर्यंत वाढू शकतात. त्याची खोडे आतून पोकळ पण खूप मजबूत असतात, म्हणून लोक त्यांपासून घरे, पूल आणि फर्निचर बनवतात. कापल्यानंतर ते लवकर पुन्हा उगवते, म्हणून बांबू हे पर्यावरणासाठी अनुकूल साहित्य मानले जाते.\n\nप्रश्न: उताऱ्यावरून कोणते विधान योग्य निष्कर्ष म्हणून काढता येईल?"
+      },
+      "optionsJson": [
+        { "en": "All kinds of bamboo grow one metre every day.", "hi": "बाँस की सभी किस्में हर दिन एक मीटर बढ़ती हैं।", "mr": "बांबूचे सर्व प्रकार दररोज एक मीटर वाढतात." },
+        { "en": "Bamboo takes many years to grow back after cutting.", "hi": "काटने के बाद बाँस को दोबारा उगने में कई साल लगते हैं।", "mr": "कापल्यानंतर बांबूला पुन्हा उगवण्यासाठी अनेक वर्षे लागतात." },
+        { "en": "Bamboo stems are strong even though they are hollow.", "hi": "बाँस के तने खोखले होने पर भी मज़बूत होते हैं।", "mr": "बांबूची खोडे पोकळ असूनही मजबूत असतात." },
+        { "en": "Bamboo is used only for making furniture.", "hi": "बाँस का उपयोग केवल फ़र्नीचर बनाने में होता है।", "mr": "बांबूचा उपयोग फक्त फर्निचर बनवण्यासाठी होतो." }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The passage says the stems are hollow but very strong, so we can infer they are strong even though they are hollow.",
+        "hi": "अनुच्छेद में कहा गया है कि तने खोखले होते हैं पर बहुत मज़बूत होते हैं, इसलिए निष्कर्ष निकलता है कि वे खोखले होने पर भी मज़बूत हैं।",
+        "mr": "उताऱ्यात म्हटले आहे की खोडे पोकळ पण खूप मजबूत असतात, म्हणून ती पोकळ असूनही मजबूत आहेत असा निष्कर्ष निघतो."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The passage says only that some kinds grow almost one metre in a day, not all kinds.",
+          "hi": "अनुच्छेद में केवल यह कहा गया है कि कुछ किस्में एक दिन में लगभग एक मीटर बढ़ती हैं, सभी नहीं।",
+          "mr": "उताऱ्यात फक्त काही प्रकार एका दिवसात जवळजवळ एक मीटर वाढतात असे म्हटले आहे, सर्व प्रकार नाही."
+        },
+        "1": {
+          "en": "The passage says bamboo grows back quickly, which contradicts this statement.",
+          "hi": "अनुच्छेद कहता है कि बाँस जल्दी दोबारा उग आता है, जो इस कथन के विपरीत है।",
+          "mr": "उताऱ्यात बांबू लवकर पुन्हा उगवतो असे म्हटले आहे, जे या विधानाच्या विरुद्ध आहे."
+        },
+        "3": {
+          "en": "Houses and bridges are also mentioned, so bamboo is not used only for furniture.",
+          "hi": "घर और पुल का भी उल्लेख है, इसलिए बाँस केवल फ़र्नीचर के लिए नहीं उपयोग होता।",
+          "mr": "घरे आणि पुलांचाही उल्लेख आहे, म्हणून बांबू फक्त फर्निचरसाठी वापरला जात नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-la-07",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Read the passage and answer the question.\n\nPassage: Meera found a wallet on the road while walking to school. It had some money and a card with an address. Instead of keeping it, she gave it to her teacher, who returned it to the owner, an old shopkeeper. The shopkeeper was so happy that he offered Meera a box of sweets, but she politely refused, saying she had only done her duty.\n\nQuestion: What did Meera do with the wallet she found?",
+        "hi": "अनुच्छेद पढ़ें और प्रश्न का उत्तर दें।\n\nअनुच्छेद: मीरा को स्कूल जाते समय सड़क पर एक बटुआ मिला। उसमें कुछ पैसे और पते वाला एक कार्ड था। उसे अपने पास रखने के बजाय उसने वह अपने शिक्षक को दे दिया, जिन्होंने उसे उसके मालिक, एक बूढ़े दुकानदार, को लौटा दिया। दुकानदार इतना खुश हुआ कि उसने मीरा को मिठाई का एक डिब्बा देना चाहा, पर उसने विनम्रता से मना कर दिया और कहा कि उसने केवल अपना कर्तव्य निभाया है।\n\nप्रश्न: मीरा ने जो बटुआ पाया, उसका उसने क्या किया?",
+        "mr": "उतारा वाचा आणि प्रश्नाचे उत्तर द्या.\n\nउतारा: मीराला शाळेत जाताना रस्त्यावर एक पाकीट सापडले. त्यात थोडे पैसे आणि पत्ता असलेले एक कार्ड होते. ते स्वतःजवळ ठेवण्याऐवजी तिने ते आपल्या शिक्षकांना दिले, ज्यांनी ते त्याच्या मालकाला, एका वृद्ध दुकानदाराला, परत केले. दुकानदार इतका आनंदी झाला की त्याने मीराला मिठाईचा एक डबा देऊ केला, पण तिने नम्रपणे नकार दिला आणि सांगितले की तिने फक्त आपले कर्तव्य केले आहे.\n\nप्रश्न: मीराला सापडलेल्या पाकिटाचे तिने काय केले?"
+      },
+      "optionsJson": [
+        { "en": "She kept it in her school bag", "hi": "उसने उसे अपने स्कूल बैग में रख लिया", "mr": "तिने ते आपल्या दप्तरात ठेवले" },
+        { "en": "She gave it to her teacher", "hi": "उसने उसे अपने शिक्षक को दे दिया", "mr": "तिने ते आपल्या शिक्षकांना दिले" },
+        { "en": "She handed it to the police", "hi": "उसने उसे पुलिस को सौंप दिया", "mr": "तिने ते पोलिसांच्या हवाली केले" },
+        { "en": "She returned it to the shopkeeper herself", "hi": "उसने उसे स्वयं दुकानदार को लौटा दिया", "mr": "तिने ते स्वतः दुकानदाराला परत केले" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "The passage says that instead of keeping the wallet, Meera gave it to her teacher.",
+        "hi": "अनुच्छेद में कहा गया है कि बटुआ अपने पास रखने के बजाय मीरा ने उसे अपने शिक्षक को दे दिया।",
+        "mr": "उताऱ्यात म्हटले आहे की पाकीट स्वतःजवळ ठेवण्याऐवजी मीराने ते आपल्या शिक्षकांना दिले."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Meera did not keep the wallet; she gave it away instead.",
+          "hi": "मीरा ने बटुआ अपने पास नहीं रखा; उसने उसे दे दिया।",
+          "mr": "मीराने पाकीट स्वतःजवळ ठेवले नाही; तिने ते दिले."
+        },
+        "2": {
+          "en": "The police are not mentioned in the passage.",
+          "hi": "अनुच्छेद में पुलिस का उल्लेख नहीं है।",
+          "mr": "उताऱ्यात पोलिसांचा उल्लेख नाही."
+        },
+        "3": {
+          "en": "It was the teacher, not Meera, who returned the wallet to the shopkeeper.",
+          "hi": "बटुआ दुकानदार को मीरा ने नहीं, बल्कि शिक्षक ने लौटाया।",
+          "mr": "पाकीट दुकानदाराला मीराने नाही, तर शिक्षकांनी परत केले."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-la-08",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Read the passage and answer the question.\n\nPassage: Meera found a wallet on the road while walking to school. It had some money and a card with an address. Instead of keeping it, she gave it to her teacher, who returned it to the owner, an old shopkeeper. The shopkeeper was so happy that he offered Meera a box of sweets, but she politely refused, saying she had only done her duty.\n\nQuestion: Which quality of Meera is shown by her actions?",
+        "hi": "अनुच्छेद पढ़ें और प्रश्न का उत्तर दें।\n\nअनुच्छेद: मीरा को स्कूल जाते समय सड़क पर एक बटुआ मिला। उसमें कुछ पैसे और पते वाला एक कार्ड था। उसे अपने पास रखने के बजाय उसने वह अपने शिक्षक को दे दिया, जिन्होंने उसे उसके मालिक, एक बूढ़े दुकानदार, को लौटा दिया। दुकानदार इतना खुश हुआ कि उसने मीरा को मिठाई का एक डिब्बा देना चाहा, पर उसने विनम्रता से मना कर दिया और कहा कि उसने केवल अपना कर्तव्य निभाया है।\n\nप्रश्न: मीरा के कार्यों से उसका कौन-सा गुण दिखाई देता है?",
+        "mr": "उतारा वाचा आणि प्रश्नाचे उत्तर द्या.\n\nउतारा: मीराला शाळेत जाताना रस्त्यावर एक पाकीट सापडले. त्यात थोडे पैसे आणि पत्ता असलेले एक कार्ड होते. ते स्वतःजवळ ठेवण्याऐवजी तिने ते आपल्या शिक्षकांना दिले, ज्यांनी ते त्याच्या मालकाला, एका वृद्ध दुकानदाराला, परत केले. दुकानदार इतका आनंदी झाला की त्याने मीराला मिठाईचा एक डबा देऊ केला, पण तिने नम्रपणे नकार दिला आणि सांगितले की तिने फक्त आपले कर्तव्य केले आहे.\n\nप्रश्न: मीराच्या कृतींवरून तिचा कोणता गुण दिसून येतो?"
+      },
+      "optionsJson": [
+        { "en": "Honesty", "hi": "ईमानदारी", "mr": "प्रामाणिकपणा" },
+        { "en": "Greed", "hi": "लालच", "mr": "लोभ" },
+        { "en": "Carelessness", "hi": "लापरवाही", "mr": "निष्काळजीपणा" },
+        { "en": "Shyness", "hi": "शर्मीलापन", "mr": "लाजाळूपणा" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Meera did not keep the money. She handed over the wallet and refused a reward, which shows honesty.",
+        "hi": "मीरा ने पैसे अपने पास नहीं रखे। उसने बटुआ सौंप दिया और इनाम लेने से मना कर दिया, जो ईमानदारी दिखाता है।",
+        "mr": "मीराने पैसे स्वतःजवळ ठेवले नाहीत. तिने पाकीट सुपूर्द केले आणि बक्षीस नाकारले, यावरून प्रामाणिकपणा दिसून येतो."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "A greedy person would have kept the money; Meera did the opposite.",
+          "hi": "लालची व्यक्ति पैसे रख लेती; मीरा ने इसके विपरीत किया।",
+          "mr": "लोभी व्यक्तीने पैसे ठेवून घेतले असते; मीराने उलट केले."
+        },
+        "2": {
+          "en": "Meera acted carefully by making sure the wallet reached its owner.",
+          "hi": "मीरा ने सावधानी से काम किया और बटुआ उसके मालिक तक पहुँचाया।",
+          "mr": "मीराने काळजीपूर्वक वागून पाकीट मालकापर्यंत पोहोचेल याची खात्री केली."
+        },
+        "3": {
+          "en": "Nothing in the passage suggests that Meera was shy.",
+          "hi": "अनुच्छेद में ऐसा कुछ नहीं है जिससे लगे कि मीरा शर्मीली थी।",
+          "mr": "उताऱ्यात मीरा लाजाळू होती असे सुचवणारे काहीही नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-la-09",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Read the passage and answer the question.\n\nPassage: Meera found a wallet on the road while walking to school. It had some money and a card with an address. Instead of keeping it, she gave it to her teacher, who returned it to the owner, an old shopkeeper. The shopkeeper was so happy that he offered Meera a box of sweets, but she politely refused, saying she had only done her duty.\n\nQuestion: Why did Meera refuse the box of sweets?",
+        "hi": "अनुच्छेद पढ़ें और प्रश्न का उत्तर दें।\n\nअनुच्छेद: मीरा को स्कूल जाते समय सड़क पर एक बटुआ मिला। उसमें कुछ पैसे और पते वाला एक कार्ड था। उसे अपने पास रखने के बजाय उसने वह अपने शिक्षक को दे दिया, जिन्होंने उसे उसके मालिक, एक बूढ़े दुकानदार, को लौटा दिया। दुकानदार इतना खुश हुआ कि उसने मीरा को मिठाई का एक डिब्बा देना चाहा, पर उसने विनम्रता से मना कर दिया और कहा कि उसने केवल अपना कर्तव्य निभाया है।\n\nप्रश्न: मीरा ने मिठाई का डिब्बा लेने से मना क्यों किया?",
+        "mr": "उतारा वाचा आणि प्रश्नाचे उत्तर द्या.\n\nउतारा: मीराला शाळेत जाताना रस्त्यावर एक पाकीट सापडले. त्यात थोडे पैसे आणि पत्ता असलेले एक कार्ड होते. ते स्वतःजवळ ठेवण्याऐवजी तिने ते आपल्या शिक्षकांना दिले, ज्यांनी ते त्याच्या मालकाला, एका वृद्ध दुकानदाराला, परत केले. दुकानदार इतका आनंदी झाला की त्याने मीराला मिठाईचा एक डबा देऊ केला, पण तिने नम्रपणे नकार दिला आणि सांगितले की तिने फक्त आपले कर्तव्य केले आहे.\n\nप्रश्न: मीराने मिठाईचा डबा घेण्यास नकार का दिला?"
+      },
+      "optionsJson": [
+        { "en": "She did not like sweets", "hi": "उसे मिठाई पसंद नहीं थी", "mr": "तिला मिठाई आवडत नव्हती" },
+        { "en": "She was afraid of the shopkeeper", "hi": "वह दुकानदार से डरती थी", "mr": "ती दुकानदाराला घाबरत होती" },
+        { "en": "She felt she had only done her duty", "hi": "उसे लगा कि उसने केवल अपना कर्तव्य निभाया है", "mr": "तिला वाटले की तिने फक्त आपले कर्तव्य केले आहे" },
+        { "en": "She was late for school", "hi": "उसे स्कूल के लिए देर हो रही थी", "mr": "तिला शाळेला उशीर होत होता" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The last sentence says she refused politely, saying she had only done her duty.",
+        "hi": "अंतिम वाक्य में कहा गया है कि उसने विनम्रता से मना किया और कहा कि उसने केवल अपना कर्तव्य निभाया है।",
+        "mr": "शेवटच्या वाक्यात म्हटले आहे की तिने नम्रपणे नकार दिला आणि सांगितले की तिने फक्त आपले कर्तव्य केले आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The passage does not say that Meera disliked sweets.",
+          "hi": "अनुच्छेद में यह नहीं कहा गया कि मीरा को मिठाई पसंद नहीं थी।",
+          "mr": "उताऱ्यात मीराला मिठाई आवडत नव्हती असे म्हटलेले नाही."
+        },
+        "1": {
+          "en": "Meera refused politely; there is no sign that she was afraid.",
+          "hi": "मीरा ने विनम्रता से मना किया; डरने का कोई संकेत नहीं है।",
+          "mr": "मीराने नम्रपणे नकार दिला; ती घाबरली होती असे कोणतेही संकेत नाहीत."
+        },
+        "3": {
+          "en": "Being late for school is not given as a reason in the passage.",
+          "hi": "स्कूल के लिए देर होना अनुच्छेद में कारण के रूप में नहीं दिया गया है।",
+          "mr": "शाळेला उशीर होणे हे कारण म्हणून उताऱ्यात दिलेले नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-la-10",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Read the passage and answer the question.\n\nPassage: The Great Indian Bustard is a large bird that lives in the dry grasslands of Rajasthan and Gujarat. It can stand almost one metre tall and is among the heaviest birds that can fly. Its numbers have fallen sharply because grasslands are being turned into farms and its nests on the ground are easily disturbed. Conservation groups are now working to protect its habitat.\n\nQuestion: Where does the Great Indian Bustard live?",
+        "hi": "अनुच्छेद पढ़ें और प्रश्न का उत्तर दें।\n\nअनुच्छेद: ग्रेट इंडियन बस्टर्ड (गोडावण) एक बड़ा पक्षी है जो राजस्थान और गुजरात के सूखे घास के मैदानों में रहता है। यह लगभग एक मीटर ऊँचा हो सकता है और उड़ने वाले सबसे भारी पक्षियों में से एक है। इसकी संख्या तेज़ी से घट गई है, क्योंकि घास के मैदानों को खेतों में बदला जा रहा है और ज़मीन पर बने इसके घोंसले आसानी से छेड़छाड़ का शिकार हो जाते हैं। संरक्षण समूह अब इसके आवास की रक्षा के लिए काम कर रहे हैं।\n\nप्रश्न: ग्रेट इंडियन बस्टर्ड कहाँ रहता है?",
+        "mr": "उतारा वाचा आणि प्रश्नाचे उत्तर द्या.\n\nउतारा: ग्रेट इंडियन बस्टर्ड (माळढोक) हा राजस्थान आणि गुजरातच्या कोरड्या गवताळ प्रदेशांत राहणारा मोठा पक्षी आहे. तो जवळजवळ एक मीटर उंच असू शकतो आणि उडू शकणाऱ्या सर्वात जड पक्ष्यांपैकी एक आहे. गवताळ प्रदेशांचे शेतांत रूपांतर केले जात असल्याने आणि जमिनीवरील त्याच्या घरट्यांना सहज धक्का पोहोचत असल्याने त्याची संख्या झपाट्याने घटली आहे. संवर्धन गट आता त्याच्या अधिवासाचे रक्षण करण्यासाठी काम करत आहेत.\n\nप्रश्न: ग्रेट इंडियन बस्टर्ड कुठे राहतो?"
+      },
+      "optionsJson": [
+        { "en": "In the snowy mountains of Kashmir", "hi": "कश्मीर के बर्फ़ीले पहाड़ों में", "mr": "काश्मीरच्या बर्फाळ पर्वतांमध्ये" },
+        { "en": "In the thick forests of Assam", "hi": "असम के घने जंगलों में", "mr": "आसामच्या घनदाट जंगलांमध्ये" },
+        { "en": "On the sea beaches of Kerala", "hi": "केरल के समुद्री तटों पर", "mr": "केरळच्या समुद्रकिनाऱ्यांवर" },
+        { "en": "In the dry grasslands of Rajasthan and Gujarat", "hi": "राजस्थान और गुजरात के सूखे घास के मैदानों में", "mr": "राजस्थान आणि गुजरातच्या कोरड्या गवताळ प्रदेशांत" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "The first sentence says the bird lives in the dry grasslands of Rajasthan and Gujarat.",
+        "hi": "पहले वाक्य में कहा गया है कि यह पक्षी राजस्थान और गुजरात के सूखे घास के मैदानों में रहता है।",
+        "mr": "पहिल्या वाक्यात म्हटले आहे की हा पक्षी राजस्थान आणि गुजरातच्या कोरड्या गवताळ प्रदेशांत राहतो."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The passage does not place the bird in the snowy mountains of Kashmir.",
+          "hi": "अनुच्छेद इस पक्षी को कश्मीर के बर्फ़ीले पहाड़ों में नहीं बताता।",
+          "mr": "उतारा या पक्ष्याला काश्मीरच्या बर्फाळ पर्वतांमध्ये दाखवत नाही."
+        },
+        "1": {
+          "en": "The passage does not mention the forests of Assam.",
+          "hi": "अनुच्छेद में असम के जंगलों का उल्लेख नहीं है।",
+          "mr": "उताऱ्यात आसामच्या जंगलांचा उल्लेख नाही."
+        },
+        "2": {
+          "en": "The passage does not mention the beaches of Kerala; the bird lives in dry grasslands.",
+          "hi": "अनुच्छेद में केरल के तटों का उल्लेख नहीं है; यह पक्षी सूखे घास के मैदानों में रहता है।",
+          "mr": "उताऱ्यात केरळच्या किनाऱ्यांचा उल्लेख नाही; हा पक्षी कोरड्या गवताळ प्रदेशांत राहतो."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-la-11",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Read the passage and answer the question.\n\nPassage: The Great Indian Bustard is a large bird that lives in the dry grasslands of Rajasthan and Gujarat. It can stand almost one metre tall and is among the heaviest birds that can fly. Its numbers have fallen sharply because grasslands are being turned into farms and its nests on the ground are easily disturbed. Conservation groups are now working to protect its habitat.\n\nQuestion: What is one reason given for the fall in the bird's numbers?",
+        "hi": "अनुच्छेद पढ़ें और प्रश्न का उत्तर दें।\n\nअनुच्छेद: ग्रेट इंडियन बस्टर्ड (गोडावण) एक बड़ा पक्षी है जो राजस्थान और गुजरात के सूखे घास के मैदानों में रहता है। यह लगभग एक मीटर ऊँचा हो सकता है और उड़ने वाले सबसे भारी पक्षियों में से एक है। इसकी संख्या तेज़ी से घट गई है, क्योंकि घास के मैदानों को खेतों में बदला जा रहा है और ज़मीन पर बने इसके घोंसले आसानी से छेड़छाड़ का शिकार हो जाते हैं। संरक्षण समूह अब इसके आवास की रक्षा के लिए काम कर रहे हैं।\n\nप्रश्न: पक्षी की संख्या घटने का एक कारण क्या बताया गया है?",
+        "mr": "उतारा वाचा आणि प्रश्नाचे उत्तर द्या.\n\nउतारा: ग्रेट इंडियन बस्टर्ड (माळढोक) हा राजस्थान आणि गुजरातच्या कोरड्या गवताळ प्रदेशांत राहणारा मोठा पक्षी आहे. तो जवळजवळ एक मीटर उंच असू शकतो आणि उडू शकणाऱ्या सर्वात जड पक्ष्यांपैकी एक आहे. गवताळ प्रदेशांचे शेतांत रूपांतर केले जात असल्याने आणि जमिनीवरील त्याच्या घरट्यांना सहज धक्का पोहोचत असल्याने त्याची संख्या झपाट्याने घटली आहे. संवर्धन गट आता त्याच्या अधिवासाचे रक्षण करण्यासाठी काम करत आहेत.\n\nप्रश्न: पक्ष्याची संख्या घटण्याचे एक कारण कोणते सांगितले आहे?"
+      },
+      "optionsJson": [
+        { "en": "It has stopped flying", "hi": "उसने उड़ना बंद कर दिया है", "mr": "त्याने उडणे थांबवले आहे" },
+        { "en": "Grasslands are being turned into farms", "hi": "घास के मैदानों को खेतों में बदला जा रहा है", "mr": "गवताळ प्रदेशांचे शेतांत रूपांतर केले जात आहे" },
+        { "en": "Too many of them move abroad", "hi": "उनमें से बहुत-से विदेश चले जाते हैं", "mr": "त्यांपैकी खूप पक्षी परदेशात निघून जातात" },
+        { "en": "Conservation groups are hunting them", "hi": "संरक्षण समूह उनका शिकार कर रहे हैं", "mr": "संवर्धन गट त्यांची शिकार करत आहेत" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "The passage says the numbers have fallen because grasslands are being turned into farms and ground nests are easily disturbed.",
+        "hi": "अनुच्छेद के अनुसार संख्या इसलिए घटी है क्योंकि घास के मैदानों को खेतों में बदला जा रहा है और ज़मीन पर बने घोंसले आसानी से छेड़छाड़ का शिकार हो जाते हैं।",
+        "mr": "उताऱ्यानुसार गवताळ प्रदेशांचे शेतांत रूपांतर होत असल्याने आणि जमिनीवरील घरट्यांना सहज धक्का पोहोचत असल्याने संख्या घटली आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The passage says it is among the heaviest birds that can fly, so it has not stopped flying.",
+          "hi": "अनुच्छेद के अनुसार यह उड़ने वाले सबसे भारी पक्षियों में से एक है, इसलिए इसने उड़ना बंद नहीं किया है।",
+          "mr": "उताऱ्यानुसार तो उडू शकणाऱ्या सर्वात जड पक्ष्यांपैकी एक आहे, म्हणून त्याने उडणे थांबवलेले नाही."
+        },
+        "2": {
+          "en": "Moving abroad is not mentioned as a cause in the passage.",
+          "hi": "विदेश जाने का अनुच्छेद में कारण के रूप में उल्लेख नहीं है।",
+          "mr": "परदेशात जाणे हे कारण म्हणून उताऱ्यात सांगितलेले नाही."
+        },
+        "3": {
+          "en": "Conservation groups are working to protect the bird, not hunt it.",
+          "hi": "संरक्षण समूह पक्षी की रक्षा के लिए काम कर रहे हैं, उसका शिकार करने के लिए नहीं।",
+          "mr": "संवर्धन गट पक्ष्याचे रक्षण करण्यासाठी काम करत आहेत, त्याची शिकार करण्यासाठी नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-la-12",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Read the passage and answer the question.\n\nPassage: The Great Indian Bustard is a large bird that lives in the dry grasslands of Rajasthan and Gujarat. It can stand almost one metre tall and is among the heaviest birds that can fly. Its numbers have fallen sharply because grasslands are being turned into farms and its nests on the ground are easily disturbed. Conservation groups are now working to protect its habitat.\n\nQuestion: In the passage, the word 'habitat' means ___.",
+        "hi": "अनुच्छेद पढ़ें और प्रश्न का उत्तर दें।\n\nअनुच्छेद: ग्रेट इंडियन बस्टर्ड (गोडावण) एक बड़ा पक्षी है जो राजस्थान और गुजरात के सूखे घास के मैदानों में रहता है। यह लगभग एक मीटर ऊँचा हो सकता है और उड़ने वाले सबसे भारी पक्षियों में से एक है। इसकी संख्या तेज़ी से घट गई है, क्योंकि घास के मैदानों को खेतों में बदला जा रहा है और ज़मीन पर बने इसके घोंसले आसानी से छेड़छाड़ का शिकार हो जाते हैं। संरक्षण समूह अब इसके आवास की रक्षा के लिए काम कर रहे हैं।\n\nप्रश्न: अनुच्छेद में 'habitat' शब्द का अर्थ ___ है।",
+        "mr": "उतारा वाचा आणि प्रश्नाचे उत्तर द्या.\n\nउतारा: ग्रेट इंडियन बस्टर्ड (माळढोक) हा राजस्थान आणि गुजरातच्या कोरड्या गवताळ प्रदेशांत राहणारा मोठा पक्षी आहे. तो जवळजवळ एक मीटर उंच असू शकतो आणि उडू शकणाऱ्या सर्वात जड पक्ष्यांपैकी एक आहे. गवताळ प्रदेशांचे शेतांत रूपांतर केले जात असल्याने आणि जमिनीवरील त्याच्या घरट्यांना सहज धक्का पोहोचत असल्याने त्याची संख्या झपाट्याने घटली आहे. संवर्धन गट आता त्याच्या अधिवासाचे रक्षण करण्यासाठी काम करत आहेत.\n\nप्रश्न: उताऱ्यातील 'habitat' या शब्दाचा अर्थ ___ आहे."
+      },
+      "optionsJson": [
+        { "en": "the natural home of a living thing", "hi": "किसी जीव का प्राकृतिक आवास", "mr": "एखाद्या सजीवाचे नैसर्गिक निवासस्थान" },
+        { "en": "the food that a bird eats", "hi": "वह भोजन जो पक्षी खाता है", "mr": "पक्षी खात असलेले अन्न" },
+        { "en": "the sound that an animal makes", "hi": "वह आवाज़ जो जानवर निकालता है", "mr": "प्राणी काढत असलेला आवाज" },
+        { "en": "the age of an animal", "hi": "किसी जानवर की उम्र", "mr": "एखाद्या प्राण्याचे वय" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "A habitat is the natural place where a plant or animal lives. Here, it is the grasslands where the bustard lives.",
+        "hi": "आवास (habitat) वह प्राकृतिक स्थान है जहाँ कोई पौधा या जानवर रहता है। यहाँ यह वे घास के मैदान हैं जहाँ बस्टर्ड रहता है।",
+        "mr": "अधिवास (habitat) म्हणजे ज्या नैसर्गिक ठिकाणी वनस्पती किंवा प्राणी राहतो ते स्थान. येथे तो बस्टर्ड राहत असलेला गवताळ प्रदेश आहे."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Food is not what 'habitat' means; it refers to where a living thing lives.",
+          "hi": "'Habitat' का अर्थ भोजन नहीं है; यह उस स्थान को बताता है जहाँ जीव रहता है।",
+          "mr": "'Habitat' चा अर्थ अन्न नाही; तो सजीव जिथे राहतो त्या स्थानाला सूचित करतो."
+        },
+        "2": {
+          "en": "A sound made by an animal is not a habitat.",
+          "hi": "जानवर की आवाज़ आवास नहीं होती।",
+          "mr": "प्राण्याचा आवाज म्हणजे अधिवास नव्हे."
+        },
+        "3": {
+          "en": "The age of an animal has nothing to do with the word 'habitat'.",
+          "hi": "जानवर की उम्र का 'habitat' शब्द से कोई संबंध नहीं है।",
+          "mr": "प्राण्याच्या वयाचा 'habitat' या शब्दाशी काही संबंध नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-la-13",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Choose the one word that can be used for: A person who writes poems.",
+        "hi": "इसके लिए एक शब्द चुनें: कविताएँ लिखने वाला व्यक्ति।",
+        "mr": "यासाठी एक शब्द निवडा: कविता लिहिणारी व्यक्ती."
+      },
+      "optionsJson": [
+        { "en": "Potter", "hi": "Potter", "mr": "Potter" },
+        { "en": "Poet", "hi": "Poet", "mr": "Poet" },
+        { "en": "Pilot", "hi": "Pilot", "mr": "Pilot" },
+        { "en": "Painter", "hi": "Painter", "mr": "Painter" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "A person who writes poems is called a poet.",
+        "hi": "कविताएँ लिखने वाले व्यक्ति को 'poet' (कवि) कहते हैं।",
+        "mr": "कविता लिहिणाऱ्या व्यक्तीला 'poet' (कवी) म्हणतात."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "A potter makes pots and other objects from clay.",
+          "hi": "Potter (कुम्हार) मिट्टी से बर्तन और अन्य वस्तुएँ बनाता है।",
+          "mr": "Potter (कुंभार) मातीपासून मडकी व इतर वस्तू बनवतो."
+        },
+        "2": {
+          "en": "A pilot flies an aeroplane.",
+          "hi": "Pilot (विमान चालक) हवाई जहाज़ उड़ाता है।",
+          "mr": "Pilot (वैमानिक) विमान उडवतो."
+        },
+        "3": {
+          "en": "A painter paints pictures or walls.",
+          "hi": "Painter (चित्रकार) चित्र या दीवारें रँगता है।",
+          "mr": "Painter (चित्रकार) चित्रे काढतो किंवा भिंती रंगवतो."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-la-14",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Choose the one word that can be used for: A large cage or enclosure where birds are kept.",
+        "hi": "इसके लिए एक शब्द चुनें: वह बड़ा पिंजरा या घेरा जहाँ पक्षियों को रखा जाता है।",
+        "mr": "यासाठी एक शब्द निवडा: पक्ष्यांना ठेवण्यासाठी बनवलेला मोठा पिंजरा किंवा कुंपण घातलेली जागा."
+      },
+      "optionsJson": [
+        { "en": "Apiary", "hi": "Apiary", "mr": "Apiary" },
+        { "en": "Aquarium", "hi": "Aquarium", "mr": "Aquarium" },
+        { "en": "Nursery", "hi": "Nursery", "mr": "Nursery" },
+        { "en": "Aviary", "hi": "Aviary", "mr": "Aviary" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "An aviary is a large cage or enclosure in which birds are kept.",
+        "hi": "Aviary (पक्षीशाला) वह बड़ा पिंजरा या घेरा है जिसमें पक्षियों को रखा जाता है।",
+        "mr": "Aviary (पक्षीगृह) हा पक्ष्यांना ठेवण्यासाठी बनवलेला मोठा पिंजरा किंवा कुंपण घातलेली जागा असते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "An apiary is a place where bees are kept.",
+          "hi": "Apiary (मधुमक्खी पालनशाला) वह स्थान है जहाँ मधुमक्खियाँ पाली जाती हैं।",
+          "mr": "Apiary (मधमाशीपालन केंद्र) ही मधमाश्या पाळण्याची जागा असते."
+        },
+        "1": {
+          "en": "An aquarium is a tank or building where fish and water animals are kept.",
+          "hi": "Aquarium (मछलीघर) वह टंकी या इमारत है जहाँ मछलियाँ और जलीय जीव रखे जाते हैं।",
+          "mr": "Aquarium (मत्स्यालय) ही मासे व जलचर ठेवण्याची टाकी किंवा इमारत असते."
+        },
+        "2": {
+          "en": "A nursery is a place where young plants or small children are looked after.",
+          "hi": "Nursery (पौधशाला) वह स्थान है जहाँ छोटे पौधों या छोटे बच्चों की देखभाल की जाती है।",
+          "mr": "Nursery (रोपवाटिका) ही अशी जागा आहे जिथे लहान रोपांची किंवा लहान मुलांची काळजी घेतली जाते."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-la-15",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Choose the one word that can be used for: A person who can speak two languages.",
+        "hi": "इसके लिए एक शब्द चुनें: दो भाषाएँ बोल सकने वाला व्यक्ति।",
+        "mr": "यासाठी एक शब्द निवडा: दोन भाषा बोलू शकणारी व्यक्ती."
+      },
+      "optionsJson": [
+        { "en": "Bilingual", "hi": "Bilingual", "mr": "Bilingual" },
+        { "en": "Linguist", "hi": "Linguist", "mr": "Linguist" },
+        { "en": "Translator", "hi": "Translator", "mr": "Translator" },
+        { "en": "Orator", "hi": "Orator", "mr": "Orator" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "'Bilingual' describes a person who can speak two languages ('bi' means two).",
+        "hi": "'Bilingual' (द्विभाषी) दो भाषाएँ बोल सकने वाले व्यक्ति को कहते हैं ('bi' का अर्थ दो है)।",
+        "mr": "'Bilingual' (द्विभाषिक) म्हणजे दोन भाषा बोलू शकणारी व्यक्ती ('bi' म्हणजे दोन)."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "A linguist is a person who studies languages.",
+          "hi": "Linguist (भाषाविद्) वह व्यक्ति है जो भाषाओं का अध्ययन करता है।",
+          "mr": "Linguist (भाषातज्ज्ञ) म्हणजे भाषांचा अभ्यास करणारी व्यक्ती."
+        },
+        "2": {
+          "en": "A translator changes writing or speech from one language into another.",
+          "hi": "Translator (अनुवादक) लिखित या बोले गए शब्दों को एक भाषा से दूसरी भाषा में बदलता है।",
+          "mr": "Translator (अनुवादक) लिखित किंवा बोललेला मजकूर एका भाषेतून दुसऱ्या भाषेत बदलतो."
+        },
+        "3": {
+          "en": "An orator is a person who gives powerful speeches.",
+          "hi": "Orator (वक्ता) वह व्यक्ति है जो प्रभावशाली भाषण देता है।",
+          "mr": "Orator (वक्ता) म्हणजे प्रभावी भाषणे देणारी व्यक्ती."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-la-16",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Choose the one word that can be used for: A person who is new to a job or activity and has little experience.",
+        "hi": "इसके लिए एक शब्द चुनें: किसी काम या गतिविधि में नया और कम अनुभव वाला व्यक्ति।",
+        "mr": "यासाठी एक शब्द निवडा: एखाद्या कामात किंवा उपक्रमात नवीन असलेली आणि कमी अनुभव असलेली व्यक्ती."
+      },
+      "optionsJson": [
+        { "en": "Veteran", "hi": "Veteran", "mr": "Veteran" },
+        { "en": "Expert", "hi": "Expert", "mr": "Expert" },
+        { "en": "Novice", "hi": "Novice", "mr": "Novice" },
+        { "en": "Master", "hi": "Master", "mr": "Master" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "A novice is a person who is new to something and has little experience of it.",
+        "hi": "Novice (नौसिखिया) वह व्यक्ति है जो किसी चीज़ में नया है और जिसे उसका कम अनुभव है।",
+        "mr": "Novice (नवखा) म्हणजे एखाद्या गोष्टीत नवीन असलेली आणि तिचा कमी अनुभव असलेली व्यक्ती."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "A veteran is a person with long experience, the opposite of a novice.",
+          "hi": "Veteran (अनुभवी व्यक्ति) लंबे अनुभव वाला होता है, यानी novice का उल्टा।",
+          "mr": "Veteran (अनुभवी व्यक्ती) म्हणजे दीर्घ अनुभव असलेली व्यक्ती, म्हणजे novice च्या उलट."
+        },
+        "1": {
+          "en": "An expert has a great deal of skill and knowledge.",
+          "hi": "Expert (विशेषज्ञ) के पास बहुत कौशल और ज्ञान होता है।",
+          "mr": "Expert (तज्ज्ञ) याच्याकडे खूप कौशल्य आणि ज्ञान असते."
+        },
+        "3": {
+          "en": "A master is a person who is highly skilled in something.",
+          "hi": "Master (निपुण व्यक्ति) किसी चीज़ में बहुत कुशल होता है।",
+          "mr": "Master (निष्णात व्यक्ती) म्हणजे एखाद्या गोष्टीत अतिशय कुशल असलेली व्यक्ती."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-la-17",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Choose the one word that can be used for: A medicine that works against the effect of a poison.",
+        "hi": "इसके लिए एक शब्द चुनें: वह दवा जो ज़हर के असर को रोकती है।",
+        "mr": "यासाठी एक शब्द निवडा: विषाचा परिणाम रोखणारे औषध."
+      },
+      "optionsJson": [
+        { "en": "Antibody", "hi": "Antibody", "mr": "Antibody" },
+        { "en": "Antidote", "hi": "Antidote", "mr": "Antidote" },
+        { "en": "Antonym", "hi": "Antonym", "mr": "Antonym" },
+        { "en": "Antique", "hi": "Antique", "mr": "Antique" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "An antidote is a medicine that stops or reduces the effect of a poison.",
+        "hi": "Antidote (विषनाशक) वह दवा है जो ज़हर के असर को रोकती या कम करती है।",
+        "mr": "Antidote (प्रतिविष) हे असे औषध आहे जे विषाचा परिणाम रोखते किंवा कमी करते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "An antibody is a substance made by the body to fight germs; it is not a medicine against poison.",
+          "hi": "Antibody (प्रतिरक्षी) शरीर द्वारा कीटाणुओं से लड़ने के लिए बनाया गया पदार्थ है; यह ज़हर के विरुद्ध दवा नहीं है।",
+          "mr": "Antibody (प्रतिपिंड) हा शरीराने जंतूंशी लढण्यासाठी तयार केलेला पदार्थ आहे; ते विषाविरुद्धचे औषध नाही."
+        },
+        "2": {
+          "en": "An antonym is a word that is opposite in meaning to another word.",
+          "hi": "Antonym (विलोम शब्द) वह शब्द है जिसका अर्थ किसी दूसरे शब्द के उल्टा होता है।",
+          "mr": "Antonym (विरुद्धार्थी शब्द) म्हणजे दुसऱ्या शब्दाच्या अर्थाच्या उलट अर्थ असलेला शब्द."
+        },
+        "3": {
+          "en": "An antique is an old and valuable object.",
+          "hi": "Antique (प्राचीन वस्तु) एक पुरानी और मूल्यवान वस्तु है।",
+          "mr": "Antique (पुरातन वस्तू) ही जुनी व मौल्यवान वस्तू असते."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-la-18",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Choose the word that is closest in meaning to 'enormous'.",
+        "hi": "'enormous' शब्द के सबसे निकट अर्थ वाला शब्द चुनें।",
+        "mr": "'enormous' या शब्दाच्या अर्थाच्या सर्वात जवळचा शब्द निवडा."
+      },
+      "optionsJson": [
+        { "en": "Tiny", "hi": "Tiny", "mr": "Tiny" },
+        { "en": "Calm", "hi": "Calm", "mr": "Calm" },
+        { "en": "Huge", "hi": "Huge", "mr": "Huge" },
+        { "en": "Rapid", "hi": "Rapid", "mr": "Rapid" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "'Enormous' means extremely large, which is the same as 'huge'.",
+        "hi": "'Enormous' का अर्थ है बहुत विशाल, जो 'huge' के समान है।",
+        "mr": "'Enormous' म्हणजे अतिशय मोठे, जे 'huge' सारखेच आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "'Tiny' means very small, the opposite of 'enormous'.",
+          "hi": "'Tiny' का अर्थ बहुत छोटा है, जो 'enormous' का उल्टा है।",
+          "mr": "'Tiny' म्हणजे अतिशय लहान, जे 'enormous' च्या उलट आहे."
+        },
+        "1": {
+          "en": "'Calm' means quiet and peaceful; it is not about size.",
+          "hi": "'Calm' का अर्थ शांत है; इसका आकार से कोई संबंध नहीं है।",
+          "mr": "'Calm' म्हणजे शांत; त्याचा आकाराशी संबंध नाही."
+        },
+        "3": {
+          "en": "'Rapid' means very fast; it is not about size.",
+          "hi": "'Rapid' का अर्थ बहुत तेज़ है; इसका आकार से कोई संबंध नहीं है।",
+          "mr": "'Rapid' म्हणजे अतिशय वेगवान; त्याचा आकाराशी संबंध नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-la-19",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Choose the word that is opposite in meaning to 'ancient'.",
+        "hi": "'ancient' शब्द का विपरीतार्थक शब्द चुनें।",
+        "mr": "'ancient' या शब्दाचा विरुद्धार्थी शब्द निवडा."
+      },
+      "optionsJson": [
+        { "en": "Modern", "hi": "Modern", "mr": "Modern" },
+        { "en": "Historic", "hi": "Historic", "mr": "Historic" },
+        { "en": "Aged", "hi": "Aged", "mr": "Aged" },
+        { "en": "Olden", "hi": "Olden", "mr": "Olden" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "'Ancient' means very old, belonging to times long past. Its opposite is 'modern', meaning of the present time.",
+        "hi": "'Ancient' का अर्थ है बहुत पुराना, बीते हुए समय का। इसका विलोम 'modern' है, यानी वर्तमान समय का।",
+        "mr": "'Ancient' म्हणजे खूप जुने, फार पूर्वीच्या काळातले. त्याचा विरुद्धार्थी शब्द 'modern' आहे, म्हणजे सध्याच्या काळातले."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "'Historic' relates to the past, so it is not an opposite of 'ancient'.",
+          "hi": "'Historic' अतीत से जुड़ा है, इसलिए यह 'ancient' का विलोम नहीं है।",
+          "mr": "'Historic' हा भूतकाळाशी संबंधित आहे, म्हणून तो 'ancient' चा विरुद्धार्थी नाही."
+        },
+        "2": {
+          "en": "'Aged' means old, so it is similar to 'ancient'.",
+          "hi": "'Aged' का अर्थ पुराना है, इसलिए यह 'ancient' के समान है।",
+          "mr": "'Aged' म्हणजे जुने, म्हणून तो 'ancient' सारखाच आहे."
+        },
+        "3": {
+          "en": "'Olden' means of old times, so it has a similar meaning to 'ancient'.",
+          "hi": "'Olden' का अर्थ पुराने समय का है, इसलिए यह 'ancient' के समान अर्थ वाला है।",
+          "mr": "'Olden' म्हणजे जुन्या काळातले, म्हणून त्याचा अर्थ 'ancient' सारखा आहे."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-la-20",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Fill in the blank with the correct preposition: The cat jumped ___ the wall and ran away.",
+        "hi": "सही पूर्वसर्ग (preposition) से रिक्त स्थान भरें: The cat jumped ___ the wall and ran away.",
+        "mr": "योग्य शब्दयोगी अव्ययाने (preposition) रिकाम्या जागा भरा: The cat jumped ___ the wall and ran away."
+      },
+      "optionsJson": [
+        { "en": "among", "hi": "among", "mr": "among" },
+        { "en": "between", "hi": "between", "mr": "between" },
+        { "en": "during", "hi": "during", "mr": "during" },
+        { "en": "over", "hi": "over", "mr": "over" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "'Over' shows movement from one side of the wall to the other, so 'jumped over the wall' is correct.",
+        "hi": "'Over' दीवार के एक ओर से दूसरी ओर जाने की गति दिखाता है, इसलिए 'jumped over the wall' सही है।",
+        "mr": "'Over' भिंतीच्या एका बाजूकडून दुसऱ्या बाजूला जाणे दाखवतो, म्हणून 'jumped over the wall' हे बरोबर आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "'Among' is used for a group of three or more things, not for jumping across a wall.",
+          "hi": "'Among' का प्रयोग तीन या अधिक वस्तुओं के समूह के लिए होता है, दीवार के पार कूदने के लिए नहीं।",
+          "mr": "'Among' चा वापर तीन किंवा अधिक वस्तूंच्या समूहासाठी होतो, भिंतीवरून उडी मारण्यासाठी नाही."
+        },
+        "1": {
+          "en": "'Between' is used for something placed or happening in the space separating two things.",
+          "hi": "'Between' का प्रयोग दो चीज़ों के बीच की जगह में स्थित या होने वाली बात के लिए होता है।",
+          "mr": "'Between' चा वापर दोन गोष्टींच्या मधल्या जागेत असलेल्या किंवा घडणाऱ्या गोष्टीसाठी होतो."
+        },
+        "2": {
+          "en": "'During' is used for a period of time, not for a place.",
+          "hi": "'During' का प्रयोग समय की अवधि के लिए होता है, स्थान के लिए नहीं।",
+          "mr": "'During' चा वापर कालावधीसाठी होतो, ठिकाणासाठी नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-la-21",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Choose the correct verb form: By the time we reached the station, the train ___.",
+        "hi": "सही क्रिया रूप चुनें: By the time we reached the station, the train ___.",
+        "mr": "योग्य क्रियापद रूप निवडा: By the time we reached the station, the train ___."
+      },
+      "optionsJson": [
+        { "en": "has left", "hi": "has left", "mr": "has left" },
+        { "en": "had left", "hi": "had left", "mr": "had left" },
+        { "en": "will leave", "hi": "will leave", "mr": "will leave" },
+        { "en": "leaves", "hi": "leaves", "mr": "leaves" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Two past events are described. The one that happened earlier (the train leaving) takes the past perfect, 'had left'.",
+        "hi": "यहाँ दो भूतकाल की घटनाएँ हैं। जो घटना पहले हुई (ट्रेन का जाना) उसके लिए past perfect, 'had left', आता है।",
+        "mr": "येथे भूतकाळातील दोन घटना आहेत. जी घटना आधी घडली (गाडी निघून जाणे) तिच्यासाठी past perfect, 'had left', येते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "'Has left' is present perfect and does not fit with the past event 'we reached'.",
+          "hi": "'Has left' present perfect है और भूतकाल की घटना 'we reached' के साथ मेल नहीं खाता।",
+          "mr": "'Has left' हा present perfect आहे आणि भूतकाळातील 'we reached' शी जुळत नाही."
+        },
+        "2": {
+          "en": "'Will leave' is future tense, but the sentence talks about the past.",
+          "hi": "'Will leave' भविष्य काल है, जबकि वाक्य भूतकाल की बात करता है।",
+          "mr": "'Will leave' हा भविष्यकाळ आहे, पण वाक्य भूतकाळाबद्दल बोलते."
+        },
+        "3": {
+          "en": "'Leaves' is present tense and does not match 'reached'.",
+          "hi": "'Leaves' वर्तमान काल है और 'reached' से मेल नहीं खाता।",
+          "mr": "'Leaves' हा वर्तमानकाळ आहे आणि 'reached' शी जुळत नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-la-22",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Choose the correctly spelt word.",
+        "hi": "सही वर्तनी वाला शब्द चुनें।",
+        "mr": "अचूक स्पेलिंग असलेला शब्द निवडा."
+      },
+      "optionsJson": [
+        { "en": "Recieve", "hi": "Recieve", "mr": "Recieve" },
+        { "en": "Receeve", "hi": "Receeve", "mr": "Receeve" },
+        { "en": "Receive", "hi": "Receive", "mr": "Receive" },
+        { "en": "Riceive", "hi": "Riceive", "mr": "Riceive" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The correct spelling is 'receive', following the rule 'i before e, except after c'.",
+        "hi": "सही वर्तनी 'receive' है, जो नियम 'i before e, except after c' का पालन करती है।",
+        "mr": "अचूक स्पेलिंग 'receive' आहे, जी 'i before e, except after c' या नियमाचे पालन करते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "'Recieve' breaks the rule: after 'c' the letters should be 'ei', not 'ie'.",
+          "hi": "'Recieve' नियम तोड़ता है: 'c' के बाद 'ei' आना चाहिए, 'ie' नहीं।",
+          "mr": "'Recieve' नियम मोडतो: 'c' नंतर 'ei' यायला हवे, 'ie' नाही."
+        },
+        "1": {
+          "en": "'Receeve' uses 'ee', which is not the right letter pattern in this word.",
+          "hi": "'Receeve' में 'ee' का प्रयोग है, जो इस शब्द में सही अक्षर-क्रम नहीं है।",
+          "mr": "'Receeve' मध्ये 'ee' वापरले आहे, जे या शब्दातील योग्य अक्षरक्रम नाही."
+        },
+        "3": {
+          "en": "'Riceive' starts with 'ri' instead of 're', so it is wrong.",
+          "hi": "'Riceive' 're' के बजाय 'ri' से शुरू होता है, इसलिए यह ग़लत है।",
+          "mr": "'Riceive' हा 're' ऐवजी 'ri' ने सुरू होतो, म्हणून तो चुकीचा आहे."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-la-23",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "What does the idiom 'to spill the beans' mean?",
+        "hi": "मुहावरे 'to spill the beans' का क्या अर्थ है?",
+        "mr": "'to spill the beans' या वाक्प्रचाराचा अर्थ काय आहे?"
+      },
+      "optionsJson": [
+        { "en": "To reveal a secret by mistake", "hi": "ग़लती से कोई राज़ खोल देना", "mr": "चुकून एखादे गुपित उघड करणे" },
+        { "en": "To cook food carelessly", "hi": "लापरवाही से खाना पकाना", "mr": "निष्काळजीपणे स्वयंपाक करणे" },
+        { "en": "To waste money on food", "hi": "खाने पर पैसे बर्बाद करना", "mr": "खाण्यावर पैसे वाया घालवणे" },
+        { "en": "To plant seeds in a field", "hi": "खेत में बीज बोना", "mr": "शेतात बिया पेरणे" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "'To spill the beans' is an idiom meaning to let out a secret, usually by accident.",
+        "hi": "'To spill the beans' एक मुहावरा है जिसका अर्थ है राज़ बता देना, आमतौर पर अनजाने में।",
+        "mr": "'To spill the beans' हा एक वाक्प्रचार आहे, ज्याचा अर्थ गुपित सांगून टाकणे, सहसा नकळत."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "The idiom is about secrets, not about cooking.",
+          "hi": "यह मुहावरा राज़ के बारे में है, खाना पकाने के बारे में नहीं।",
+          "mr": "हा वाक्प्रचार गुपिताबद्दल आहे, स्वयंपाकाबद्दल नाही."
+        },
+        "2": {
+          "en": "The idiom has nothing to do with spending money on food.",
+          "hi": "इस मुहावरे का खाने पर पैसे खर्च करने से कोई संबंध नहीं है।",
+          "mr": "या वाक्प्रचाराचा खाण्यावर पैसे खर्च करण्याशी काही संबंध नाही."
+        },
+        "3": {
+          "en": "The idiom is not about planting seeds; it is not meant literally.",
+          "hi": "यह मुहावरा बीज बोने के बारे में नहीं है; इसका शाब्दिक अर्थ नहीं लिया जाता।",
+          "mr": "हा वाक्प्रचार बिया पेरण्याबद्दल नाही; त्याचा शब्दशः अर्थ घेतला जात नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-la-24",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Choose the correct passive voice of the sentence: The farmer sows the seeds.",
+        "hi": "इस वाक्य का सही कर्मवाच्य (passive voice) चुनें: The farmer sows the seeds.",
+        "mr": "या वाक्याचे योग्य कर्मणी रूप (passive voice) निवडा: The farmer sows the seeds."
+      },
+      "optionsJson": [
+        { "en": "The seeds were sown by the farmer.", "hi": "The seeds were sown by the farmer.", "mr": "The seeds were sown by the farmer." },
+        { "en": "The seeds is sown by the farmer.", "hi": "The seeds is sown by the farmer.", "mr": "The seeds is sown by the farmer." },
+        { "en": "The seeds are sowing by the farmer.", "hi": "The seeds are sowing by the farmer.", "mr": "The seeds are sowing by the farmer." },
+        { "en": "The seeds are sown by the farmer.", "hi": "The seeds are sown by the farmer.", "mr": "The seeds are sown by the farmer." }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "The sentence is in the simple present tense. Its passive form uses 'are/is' + past participle: 'The seeds are sown by the farmer.'",
+        "hi": "वाक्य simple present tense में है। इसका passive रूप 'are/is' + past participle से बनता है: 'The seeds are sown by the farmer.'",
+        "mr": "वाक्य simple present tense मध्ये आहे. त्याचे passive रूप 'are/is' + past participle याने बनते: 'The seeds are sown by the farmer.'"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "'Were sown' is past tense, but the original sentence is in the present tense.",
+          "hi": "'Were sown' भूतकाल है, जबकि मूल वाक्य वर्तमान काल में है।",
+          "mr": "'Were sown' हा भूतकाळ आहे, पण मूळ वाक्य वर्तमानकाळात आहे."
+        },
+        "1": {
+          "en": "'Seeds' is plural, so 'is' is wrong; it needs 'are'.",
+          "hi": "'Seeds' बहुवचन है, इसलिए 'is' ग़लत है; यहाँ 'are' चाहिए।",
+          "mr": "'Seeds' हे अनेकवचन आहे, म्हणून 'is' चुकीचे आहे; येथे 'are' हवे."
+        },
+        "2": {
+          "en": "'Sowing' is not the past participle; the correct form is 'sown'.",
+          "hi": "'Sowing' past participle नहीं है; सही रूप 'sown' है।",
+          "mr": "'Sowing' हे past participle नाही; योग्य रूप 'sown' आहे."
+        }
+      }
+    },
+    {
+      "key": "rms6-p2-la-25",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Choose the correct word to fill in the blank: Each of the students ___ given a certificate.",
+        "hi": "रिक्त स्थान भरने के लिए सही शब्द चुनें: Each of the students ___ given a certificate.",
+        "mr": "रिकाम्या जागी भरण्यासाठी योग्य शब्द निवडा: Each of the students ___ given a certificate."
+      },
+      "optionsJson": [
+        { "en": "were", "hi": "were", "mr": "were" },
+        { "en": "was", "hi": "was", "mr": "was" },
+        { "en": "are", "hi": "are", "mr": "are" },
+        { "en": "have", "hi": "have", "mr": "have" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "'Each' is singular, so the verb must be singular. In the past passive, 'was given' is correct.",
+        "hi": "'Each' एकवचन है, इसलिए क्रिया भी एकवचन होनी चाहिए। भूतकाल के passive में 'was given' सही है।",
+        "mr": "'Each' हे एकवचनी आहे, म्हणून क्रियापदही एकवचनी हवे. भूतकाळातील passive मध्ये 'was given' बरोबर आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "'Were' is a plural verb, but 'each' takes a singular verb.",
+          "hi": "'Were' बहुवचन क्रिया है, जबकि 'each' के साथ एकवचन क्रिया आती है।",
+          "mr": "'Were' हे अनेकवचनी क्रियापद आहे, पण 'each' सोबत एकवचनी क्रियापद येते."
+        },
+        "2": {
+          "en": "'Are' is a plural verb and does not fit with the singular 'each'.",
+          "hi": "'Are' बहुवचन क्रिया है और एकवचन 'each' के साथ मेल नहीं खाती।",
+          "mr": "'Are' हे अनेकवचनी क्रियापद आहे आणि एकवचनी 'each' शी जुळत नाही."
+        },
+        "3": {
+          "en": "'Have given' does not make a correct sentence here, since the students receive the certificate and need a passive form.",
+          "hi": "'Have given' यहाँ सही वाक्य नहीं बनाता, क्योंकि विद्यार्थी प्रमाणपत्र पाते हैं और यहाँ passive रूप चाहिए।",
+          "mr": "'Have given' येथे योग्य वाक्य बनवत नाही, कारण विद्यार्थ्यांना प्रमाणपत्र मिळते आणि येथे passive रूप हवे."
+        }
+      }
+    }
+  ]
+}

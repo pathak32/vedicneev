@@ -1,0 +1,484 @@
+{
+  "examType": "RMS",
+  "classLevel": 9,
+  "paperNumber": 3,
+  "sectionKey": "general_knowledge",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "rms9-p3-gk-01",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which city is the capital of the state of Nagaland?", "hi": "नागालैंड राज्य की राजधानी कौन-सा शहर है?" },
+      "optionsJson": [
+        { "en": "Dimapur", "hi": "दीमापुर" },
+        { "en": "Kohima", "hi": "कोहिमा" },
+        { "en": "Imphal", "hi": "इम्फाल" },
+        { "en": "Aizawl", "hi": "आइजोल" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Kohima is the capital of Nagaland.", "hi": "कोहिमा नागालैंड की राजधानी है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Dimapur is the largest city and commercial hub of Nagaland, but it is not the capital.", "hi": "दीमापुर नागालैंड का सबसे बड़ा शहर और व्यापारिक केंद्र है, परंतु राजधानी नहीं है।" },
+        "2": { "en": "Imphal is the capital of Manipur, not Nagaland.", "hi": "इम्फाल मणिपुर की राजधानी है, नागालैंड की नहीं।" },
+        "3": { "en": "Aizawl is the capital of Mizoram, not Nagaland.", "hi": "आइजोल मिज़ोरम की राजधानी है, नागालैंड की नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p3-gk-02",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The Hirakud Dam, one of the longest earthen dams in the world, is built across which river?", "hi": "हीराकुंड बाँध, जो विश्व के सबसे लंबे मिट्टी के बाँधों में से एक है, किस नदी पर बना है?" },
+      "optionsJson": [
+        { "en": "Godavari", "hi": "गोदावरी" },
+        { "en": "Krishna", "hi": "कृष्णा" },
+        { "en": "Narmada", "hi": "नर्मदा" },
+        { "en": "Mahanadi", "hi": "महानदी" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "The Hirakud Dam is built across the Mahanadi river near Sambalpur in Odisha.", "hi": "हीराकुंड बाँध ओडिशा में संबलपुर के निकट महानदी पर बना है।" },
+      "distractorAnalysis": {
+        "0": { "en": "The Godavari has dams such as Jayakwadi and Polavaram, but not Hirakud.", "hi": "गोदावरी पर जायकवाड़ी और पोलावरम जैसे बाँध हैं, हीराकुंड नहीं।" },
+        "1": { "en": "The Krishna has dams such as Nagarjuna Sagar, but not Hirakud.", "hi": "कृष्णा पर नागार्जुन सागर जैसे बाँध हैं, हीराकुंड नहीं।" },
+        "2": { "en": "The Narmada has dams such as Sardar Sarovar, but not Hirakud.", "hi": "नर्मदा पर सरदार सरोवर जैसे बाँध हैं, हीराकुंड नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p3-gk-03",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Kanchenjunga, the third highest mountain peak in the world, lies on the border of Nepal and which Indian state?", "hi": "कंचनजंगा, जो विश्व की तीसरी सबसे ऊँची पर्वत चोटी है, नेपाल की सीमा पर भारत के किस राज्य में स्थित है?" },
+      "optionsJson": [
+        { "en": "Sikkim", "hi": "सिक्किम" },
+        { "en": "Arunachal Pradesh", "hi": "अरुणाचल प्रदेश" },
+        { "en": "Uttarakhand", "hi": "उत्तराखंड" },
+        { "en": "Himachal Pradesh", "hi": "हिमाचल प्रदेश" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Kanchenjunga (8,586 m) stands on the Sikkim-Nepal border and is the highest peak in India.", "hi": "कंचनजंगा (8,586 मीटर) सिक्किम-नेपाल सीमा पर स्थित है और भारत की सबसे ऊँची चोटी है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Arunachal Pradesh borders Bhutan, China and Myanmar, not Nepal.", "hi": "अरुणाचल प्रदेश की सीमा भूटान, चीन और म्यांमार से लगती है, नेपाल से नहीं।" },
+        "2": { "en": "Uttarakhand does border Nepal, but its famous peaks, such as Nanda Devi, are different from Kanchenjunga.", "hi": "उत्तराखंड की सीमा नेपाल से लगती है, परंतु वहाँ की प्रसिद्ध चोटियाँ, जैसे नंदा देवी, कंचनजंगा से भिन्न हैं।" },
+        "3": { "en": "Himachal Pradesh does not border Nepal; Kanchenjunga lies far to the east of it.", "hi": "हिमाचल प्रदेश की सीमा नेपाल से नहीं लगती; कंचनजंगा उसके बहुत पूर्व में स्थित है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-gk-04",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Who is popularly known as the 'Iron Man of India' for his role in integrating the princely states after independence?", "hi": "स्वतंत्रता के बाद रियासतों के एकीकरण में अपनी भूमिका के कारण 'भारत का लौह पुरुष' के नाम से कौन प्रसिद्ध हैं?" },
+      "optionsJson": [
+        { "en": "Jawaharlal Nehru", "hi": "जवाहरलाल नेहरू" },
+        { "en": "Subhas Chandra Bose", "hi": "सुभाष चंद्र बोस" },
+        { "en": "Sardar Vallabhbhai Patel", "hi": "सरदार वल्लभभाई पटेल" },
+        { "en": "Lal Bahadur Shastri", "hi": "लाल बहादुर शास्त्री" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Sardar Vallabhbhai Patel, India's first Deputy Prime Minister and Home Minister, led the integration of over 500 princely states and is called the Iron Man of India.", "hi": "सरदार वल्लभभाई पटेल, भारत के प्रथम उप-प्रधानमंत्री और गृह मंत्री, ने 500 से अधिक रियासतों के एकीकरण का नेतृत्व किया और उन्हें भारत का लौह पुरुष कहा जाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Nehru was India's first Prime Minister, but he is not called the Iron Man of India.", "hi": "नेहरू भारत के प्रथम प्रधानमंत्री थे, परंतु उन्हें भारत का लौह पुरुष नहीं कहा जाता।" },
+        "1": { "en": "Bose led the Indian National Army and is known as Netaji, not the Iron Man of India.", "hi": "बोस ने आज़ाद हिंद फौज का नेतृत्व किया और वे नेताजी के नाम से जाने जाते हैं, लौह पुरुष के नाम से नहीं।" },
+        "3": { "en": "Shastri, the second Prime Minister, is known for the slogan 'Jai Jawan Jai Kisan', not for this title.", "hi": "शास्त्री, द्वितीय प्रधानमंत्री, 'जय जवान जय किसान' के नारे के लिए जाने जाते हैं, इस उपाधि के लिए नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p3-gk-05",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which river, rising at Trimbak near Nashik in Maharashtra, flows eastwards and drains into the Bay of Bengal?", "hi": "महाराष्ट्र के नासिक के निकट त्र्यंबक से निकलकर पूर्व की ओर बहने वाली और बंगाल की खाड़ी में गिरने वाली नदी कौन-सी है?" },
+      "optionsJson": [
+        { "en": "Krishna", "hi": "कृष्णा" },
+        { "en": "Kaveri", "hi": "कावेरी" },
+        { "en": "Godavari", "hi": "गोदावरी" },
+        { "en": "Mahanadi", "hi": "महानदी" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The Godavari rises at Trimbak near Nashik and flows eastwards to the Bay of Bengal.", "hi": "गोदावरी नासिक के निकट त्र्यंबक से निकलती है और पूर्व की ओर बहकर बंगाल की खाड़ी में गिरती है।" },
+      "distractorAnalysis": {
+        "0": { "en": "The Krishna rises near Mahabaleshwar in the Western Ghats, not at Trimbak.", "hi": "कृष्णा पश्चिमी घाट में महाबलेश्वर के निकट से निकलती है, त्र्यंबक से नहीं।" },
+        "1": { "en": "The Kaveri rises at Talakaveri in Karnataka, not in Maharashtra.", "hi": "कावेरी कर्नाटक के तलकावेरी से निकलती है, महाराष्ट्र से नहीं।" },
+        "3": { "en": "The Mahanadi rises in Chhattisgarh, not in Maharashtra.", "hi": "महानदी छत्तीसगढ़ से निकलती है, महाराष्ट्र से नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p3-gk-06",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "By which name is the river Brahmaputra known in Tibet?", "hi": "तिब्बत में ब्रह्मपुत्र नदी किस नाम से जानी जाती है?" },
+      "optionsJson": [
+        { "en": "Dihang", "hi": "दिहांग" },
+        { "en": "Tsangpo", "hi": "त्सांगपो" },
+        { "en": "Jamuna", "hi": "जमुना" },
+        { "en": "Meghna", "hi": "मेघना" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The Brahmaputra rises in Tibet, where it is called the Tsangpo (Yarlung Tsangpo).", "hi": "ब्रह्मपुत्र तिब्बत से निकलती है, जहाँ इसे त्सांगपो (यारलुंग त्सांगपो) कहा जाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Dihang is the name the river takes after entering Arunachal Pradesh in India.", "hi": "दिहांग वह नाम है जो नदी भारत के अरुणाचल प्रदेश में प्रवेश करने के बाद धारण करती है।" },
+        "2": { "en": "Jamuna is the name the river takes in Bangladesh.", "hi": "जमुना वह नाम है जो नदी बांग्लादेश में धारण करती है।" },
+        "3": { "en": "Meghna is the name of the combined stream in the lower course in Bangladesh, not in Tibet.", "hi": "मेघना बांग्लादेश में निचले मार्ग की संयुक्त धारा का नाम है, तिब्बत में नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p3-gk-07",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Mount Kilimanjaro, the highest peak of Africa, is located in which country?", "hi": "अफ्रीका की सबसे ऊँची चोटी माउंट किलिमंजारो किस देश में स्थित है?" },
+      "optionsJson": [
+        { "en": "Kenya", "hi": "केन्या" },
+        { "en": "Uganda", "hi": "युगांडा" },
+        { "en": "Ethiopia", "hi": "इथियोपिया" },
+        { "en": "Tanzania", "hi": "तंज़ानिया" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Mount Kilimanjaro, a dormant volcano about 5,895 m high, lies in north-eastern Tanzania.", "hi": "माउंट किलिमंजारो, लगभग 5,895 मीटर ऊँचा एक सुषुप्त ज्वालामुखी, उत्तर-पूर्वी तंज़ानिया में स्थित है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Kenya has Mount Kenya, which is the second highest peak in Africa, not Kilimanjaro.", "hi": "केन्या में माउंट केन्या है, जो अफ्रीका की दूसरी सबसे ऊँची चोटी है, किलिमंजारो नहीं।" },
+        "1": { "en": "Uganda has the Rwenzori Mountains, not Kilimanjaro.", "hi": "युगांडा में रवेंज़ोरी पर्वत हैं, किलिमंजारो नहीं।" },
+        "2": { "en": "Ethiopia is known for the Ethiopian Highlands, not Kilimanjaro.", "hi": "इथियोपिया इथियोपियाई उच्चभूमि के लिए जाना जाता है, किलिमंजारो के लिए नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p3-gk-08",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which cell organelle is called the 'powerhouse of the cell' because it releases energy from food?", "hi": "कोशिका का कौन-सा अंग भोजन से ऊर्जा मुक्त करने के कारण 'कोशिका का ऊर्जा-घर' कहलाता है?" },
+      "optionsJson": [
+        { "en": "Mitochondria", "hi": "माइटोकॉन्ड्रिया" },
+        { "en": "Ribosome", "hi": "राइबोसोम" },
+        { "en": "Nucleus", "hi": "केंद्रक" },
+        { "en": "Golgi apparatus", "hi": "गॉल्जी उपकरण" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Mitochondria release energy from food during cellular respiration, so they are called the powerhouse of the cell.", "hi": "माइटोकॉन्ड्रिया कोशिकीय श्वसन के दौरान भोजन से ऊर्जा मुक्त करते हैं, इसलिए उन्हें कोशिका का ऊर्जा-घर कहा जाता है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Ribosomes make proteins; they do not release energy from food.", "hi": "राइबोसोम प्रोटीन बनाते हैं; वे भोजन से ऊर्जा मुक्त नहीं करते।" },
+        "2": { "en": "The nucleus controls the cell's activities and holds the genetic material.", "hi": "केंद्रक कोशिका की गतिविधियों को नियंत्रित करता है और आनुवंशिक पदार्थ रखता है।" },
+        "3": { "en": "The Golgi apparatus packages and sends out substances made in the cell.", "hi": "गॉल्जी उपकरण कोशिका में बने पदार्थों को पैक करके बाहर भेजता है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-gk-09",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which of the following state capitals is situated on the banks of the river Sabarmati?", "hi": "निम्नलिखित में से कौन-सी राज्य राजधानी साबरमती नदी के तट पर स्थित है?" },
+      "optionsJson": [
+        { "en": "Patna", "hi": "पटना" },
+        { "en": "Lucknow", "hi": "लखनऊ" },
+        { "en": "Gandhinagar", "hi": "गांधीनगर" },
+        { "en": "Bhubaneswar", "hi": "भुवनेश्वर" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Gandhinagar, the capital of Gujarat, lies on the banks of the Sabarmati river.", "hi": "गुजरात की राजधानी गांधीनगर साबरमती नदी के तट पर स्थित है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Patna lies on the banks of the Ganga, not the Sabarmati.", "hi": "पटना गंगा के तट पर स्थित है, साबरमती के तट पर नहीं।" },
+        "1": { "en": "Lucknow lies on the banks of the Gomti, not the Sabarmati.", "hi": "लखनऊ गोमती के तट पर स्थित है, साबरमती के तट पर नहीं।" },
+        "3": { "en": "Bhubaneswar is in Odisha, far from the Sabarmati, which flows in Rajasthan and Gujarat.", "hi": "भुवनेश्वर ओडिशा में है, जो साबरमती से बहुत दूर है; साबरमती राजस्थान और गुजरात में बहती है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-gk-10",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Loktak Lake, famous for its floating islands called phumdis, is located in which state?", "hi": "लोकटक झील, जो 'फुमदी' नामक तैरते द्वीपों के लिए प्रसिद्ध है, किस राज्य में स्थित है?" },
+      "optionsJson": [
+        { "en": "Assam", "hi": "असम" },
+        { "en": "Manipur", "hi": "मणिपुर" },
+        { "en": "Meghalaya", "hi": "मेघालय" },
+        { "en": "Tripura", "hi": "त्रिपुरा" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Loktak Lake, the largest freshwater lake in north-east India, is in Manipur and has floating phumdis; Keibul Lamjao National Park is built on them.", "hi": "लोकटक झील, पूर्वोत्तर भारत की सबसे बड़ी मीठे पानी की झील, मणिपुर में है और इसमें तैरती फुमदियाँ हैं; केइबुल लमजाओ राष्ट्रीय उद्यान इन्हीं पर बना है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Assam is known for Deepor Beel, not Loktak.", "hi": "असम दीपोर बील के लिए जाना जाता है, लोकटक के लिए नहीं।" },
+        "2": { "en": "Meghalaya is known for Umiam Lake, not Loktak.", "hi": "मेघालय उमियम झील के लिए जाना जाता है, लोकटक के लिए नहीं।" },
+        "3": { "en": "Tripura is known for Rudrasagar Lake, not Loktak.", "hi": "त्रिपुरा रुद्रसागर झील के लिए जाना जाता है, लोकटक के लिए नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p3-gk-11",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Which channel separates the Andaman Islands from the Nicobar Islands?", "hi": "अंडमान द्वीप समूह को निकोबार द्वीप समूह से कौन-सा चैनल अलग करता है?" },
+      "optionsJson": [
+        { "en": "Ten Degree Channel", "hi": "टेन डिग्री चैनल" },
+        { "en": "Nine Degree Channel", "hi": "नाइन डिग्री चैनल" },
+        { "en": "Eight Degree Channel", "hi": "एट डिग्री चैनल" },
+        { "en": "Duncan Passage", "hi": "डंकन पैसेज" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The Ten Degree Channel, along 10 degrees north latitude, separates the Andaman Islands in the north from the Nicobar Islands in the south.", "hi": "10 डिग्री उत्तरी अक्षांश के साथ स्थित टेन डिग्री चैनल उत्तर के अंडमान द्वीपों को दक्षिण के निकोबार द्वीपों से अलग करता है।" },
+      "distractorAnalysis": {
+        "1": { "en": "The Nine Degree Channel lies in the Lakshadweep group, between Minicoy and the Laccadive islands.", "hi": "नाइन डिग्री चैनल लक्षद्वीप समूह में मिनिकॉय और लक्कादीव द्वीपों के बीच स्थित है।" },
+        "2": { "en": "The Eight Degree Channel separates Minicoy island from the Maldives.", "hi": "एट डिग्री चैनल मिनिकॉय द्वीप को मालदीव से अलग करता है।" },
+        "3": { "en": "Duncan Passage lies within the Andaman group, between South Andaman and Little Andaman.", "hi": "डंकन पैसेज अंडमान समूह के भीतर, दक्षिण अंडमान और लिटिल अंडमान के बीच स्थित है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-gk-12",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The Battle of Plassey, in which the East India Company defeated Siraj-ud-Daulah, the Nawab of Bengal, was fought in which year?", "hi": "प्लासी का युद्ध, जिसमें ईस्ट इंडिया कंपनी ने बंगाल के नवाब सिराजुद्दौला को हराया, किस वर्ष लड़ा गया?" },
+      "optionsJson": [
+        { "en": "1707", "hi": "1707" },
+        { "en": "1739", "hi": "1739" },
+        { "en": "1764", "hi": "1764" },
+        { "en": "1757", "hi": "1757" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "The Battle of Plassey was fought in 1757 and laid the foundation of British political power in Bengal.", "hi": "प्लासी का युद्ध 1757 में लड़ा गया और इसने बंगाल में ब्रिटिश राजनीतिक सत्ता की नींव रखी।" },
+      "distractorAnalysis": {
+        "0": { "en": "1707 is the year of Aurangzeb's death, not the Battle of Plassey.", "hi": "1707 औरंगज़ेब की मृत्यु का वर्ष है, प्लासी के युद्ध का नहीं।" },
+        "1": { "en": "1739 is the year of Nadir Shah's invasion of Delhi.", "hi": "1739 नादिर शाह के दिल्ली पर आक्रमण का वर्ष है।" },
+        "2": { "en": "1764 is the year of the Battle of Buxar, which came after Plassey.", "hi": "1764 बक्सर के युद्ध का वर्ष है, जो प्लासी के बाद हुआ।" }
+      }
+    },
+    {
+      "key": "rms9-p3-gk-13",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": { "en": "The Tehri Dam, one of the highest dams in India, is built on which river?", "hi": "भारत के सबसे ऊँचे बाँधों में से एक टिहरी बाँध किस नदी पर बना है?" },
+      "optionsJson": [
+        { "en": "Alaknanda", "hi": "अलकनंदा" },
+        { "en": "Bhagirathi", "hi": "भागीरथी" },
+        { "en": "Yamuna", "hi": "यमुना" },
+        { "en": "Sharda", "hi": "शारदा" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The Tehri Dam is built on the Bhagirathi river, near its confluence with the Bhilangana, in Uttarakhand.", "hi": "टिहरी बाँध उत्तराखंड में भागीरथी नदी पर, भिलंगना के संगम के निकट बना है।" },
+      "distractorAnalysis": {
+        "0": { "en": "The Alaknanda is a separate headstream that joins the Bhagirathi at Devprayag; the Tehri Dam is not on it.", "hi": "अलकनंदा एक अलग धारा है जो देवप्रयाग में भागीरथी से मिलती है; टिहरी बाँध उस पर नहीं है।" },
+        "2": { "en": "The Yamuna is a different river system; the Tehri Dam is not built on it.", "hi": "यमुना एक भिन्न नदी तंत्र है; टिहरी बाँध उस पर नहीं बना है।" },
+        "3": { "en": "The Sharda (Kali) forms part of the India-Nepal border and has no Tehri Dam.", "hi": "शारदा (काली) भारत-नेपाल सीमा का एक भाग बनाती है और उस पर टिहरी बाँध नहीं है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-gk-14",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "The Thar Desert, the large arid region of north-western India, lies mainly in which state?", "hi": "भारत के उत्तर-पश्चिमी भाग का विशाल शुष्क क्षेत्र थार मरुस्थल मुख्यतः किस राज्य में स्थित है?" },
+      "optionsJson": [
+        { "en": "Gujarat", "hi": "गुजरात" },
+        { "en": "Madhya Pradesh", "hi": "मध्य प्रदेश" },
+        { "en": "Rajasthan", "hi": "राजस्थान" },
+        { "en": "Haryana", "hi": "हरियाणा" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Most of the Thar Desert lies in western Rajasthan, with smaller parts in neighbouring states.", "hi": "थार मरुस्थल का अधिकांश भाग पश्चिमी राजस्थान में है, और छोटे भाग पड़ोसी राज्यों में हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "Only a small fringe of the Thar lies in Gujarat, so it is not the main state.", "hi": "थार का केवल एक छोटा सा किनारा गुजरात में है, इसलिए यह मुख्य राज्य नहीं है।" },
+        "1": { "en": "Madhya Pradesh does not have the Thar Desert.", "hi": "मध्य प्रदेश में थार मरुस्थल नहीं है।" },
+        "3": { "en": "Only a small south-western part of Haryana touches the desert, so it is not the main state.", "hi": "हरियाणा का केवल एक छोटा दक्षिण-पश्चिमी भाग मरुस्थल को छूता है, इसलिए यह मुख्य राज्य नहीं है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-gk-15",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which narrow strait separates Asia (Russia) from North America (Alaska)?", "hi": "कौन-सी संकरी जलसंधि एशिया (रूस) को उत्तरी अमेरिका (अलास्का) से अलग करती है?" },
+      "optionsJson": [
+        { "en": "Bering Strait", "hi": "बेरिंग जलसंधि" },
+        { "en": "Strait of Gibraltar", "hi": "जिब्राल्टर जलसंधि" },
+        { "en": "Strait of Malacca", "hi": "मलक्का जलसंधि" },
+        { "en": "Strait of Hormuz", "hi": "होर्मुज़ जलसंधि" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The Bering Strait lies between Russia's Siberia and Alaska and joins the Arctic Ocean with the Pacific Ocean.", "hi": "बेरिंग जलसंधि रूस के साइबेरिया और अलास्का के बीच स्थित है और आर्कटिक महासागर को प्रशांत महासागर से जोड़ती है।" },
+      "distractorAnalysis": {
+        "1": { "en": "The Strait of Gibraltar separates Spain in Europe from Morocco in Africa.", "hi": "जिब्राल्टर जलसंधि यूरोप के स्पेन को अफ्रीका के मोरक्को से अलग करती है।" },
+        "2": { "en": "The Strait of Malacca separates the Malay Peninsula from the island of Sumatra.", "hi": "मलक्का जलसंधि मलय प्रायद्वीप को सुमात्रा द्वीप से अलग करती है।" },
+        "3": { "en": "The Strait of Hormuz links the Persian Gulf with the Gulf of Oman.", "hi": "होर्मुज़ जलसंधि फ़ारस की खाड़ी को ओमान की खाड़ी से जोड़ती है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-gk-16",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Who is the ex-officio Chairman of the Rajya Sabha?", "hi": "राज्य सभा का पदेन सभापति कौन होता है?" },
+      "optionsJson": [
+        { "en": "The Speaker of the Lok Sabha", "hi": "लोक सभा अध्यक्ष" },
+        { "en": "The Prime Minister", "hi": "प्रधानमंत्री" },
+        { "en": "The President", "hi": "राष्ट्रपति" },
+        { "en": "The Vice-President", "hi": "उपराष्ट्रपति" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Under Article 89 of the Constitution, the Vice-President of India is the ex-officio Chairman of the Rajya Sabha.", "hi": "संविधान के अनुच्छेद 89 के अनुसार भारत का उपराष्ट्रपति राज्य सभा का पदेन सभापति होता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "The Speaker presides over the Lok Sabha, not the Rajya Sabha.", "hi": "अध्यक्ष लोक सभा की अध्यक्षता करता है, राज्य सभा की नहीं।" },
+        "1": { "en": "The Prime Minister heads the government and is a member of one of the Houses, but does not chair the Rajya Sabha.", "hi": "प्रधानमंत्री सरकार का प्रमुख और किसी एक सदन का सदस्य होता है, परंतु राज्य सभा का सभापति नहीं होता।" },
+        "2": { "en": "The President is part of Parliament but does not preside over either House.", "hi": "राष्ट्रपति संसद का अंग है, परंतु किसी भी सदन की अध्यक्षता नहीं करता।" }
+      }
+    },
+    {
+      "key": "rms9-p3-gk-17",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Which is the highest peak of the Aravalli range?", "hi": "अरावली पर्वतमाला की सबसे ऊँची चोटी कौन-सी है?" },
+      "optionsJson": [
+        { "en": "Doddabetta", "hi": "डोडाबेट्टा" },
+        { "en": "Dhupgarh", "hi": "धूपगढ़" },
+        { "en": "Guru Shikhar", "hi": "गुरु शिखर" },
+        { "en": "Mahendragiri", "hi": "महेंद्रगिरि" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Guru Shikhar, near Mount Abu in Rajasthan (about 1,722 m), is the highest peak of the Aravalli range.", "hi": "राजस्थान में माउंट आबू के निकट गुरु शिखर (लगभग 1,722 मीटर) अरावली पर्वतमाला की सबसे ऊँची चोटी है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Doddabetta is the highest peak of the Nilgiri Hills.", "hi": "डोडाबेट्टा नीलगिरि पहाड़ियों की सबसे ऊँची चोटी है।" },
+        "1": { "en": "Dhupgarh is the highest peak of the Satpura range.", "hi": "धूपगढ़ सतपुड़ा पर्वतमाला की सबसे ऊँची चोटी है।" },
+        "3": { "en": "Mahendragiri is a peak of the Eastern Ghats in Odisha.", "hi": "महेंद्रगिरि ओडिशा में पूर्वी घाट की एक चोटी है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-gk-18",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which planet of the solar system is known as the 'Red Planet' because of iron oxide on its surface?", "hi": "सौरमंडल का कौन-सा ग्रह अपनी सतह पर आयरन ऑक्साइड के कारण 'लाल ग्रह' कहलाता है?" },
+      "optionsJson": [
+        { "en": "Venus", "hi": "शुक्र" },
+        { "en": "Mars", "hi": "मंगल" },
+        { "en": "Jupiter", "hi": "बृहस्पति" },
+        { "en": "Mercury", "hi": "बुध" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Mars appears reddish because its surface soil is rich in iron oxide, so it is called the Red Planet.", "hi": "मंगल की सतह की मिट्टी आयरन ऑक्साइड से भरपूर होने के कारण वह लालिमा लिए दिखता है, इसलिए उसे लाल ग्रह कहा जाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Venus is covered with thick clouds and is the hottest planet; it is not called the Red Planet.", "hi": "शुक्र घने बादलों से ढका है और सबसे गर्म ग्रह है; उसे लाल ग्रह नहीं कहा जाता।" },
+        "2": { "en": "Jupiter is the largest planet, a gas giant with cloud bands, not the Red Planet.", "hi": "बृहस्पति सबसे बड़ा ग्रह है, बादलों की पट्टियों वाला गैसीय विशाल ग्रह, लाल ग्रह नहीं।" },
+        "3": { "en": "Mercury is the planet closest to the Sun, with a grey rocky surface.", "hi": "बुध सूर्य के सबसे निकट का ग्रह है, जिसकी सतह धूसर और चट्टानी है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-gk-19",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which is the longest river in Africa, flowing northwards into the Mediterranean Sea?", "hi": "अफ्रीका की सबसे लंबी नदी कौन-सी है, जो उत्तर की ओर बहकर भूमध्य सागर में गिरती है?" },
+      "optionsJson": [
+        { "en": "Nile", "hi": "नील" },
+        { "en": "Congo", "hi": "कांगो" },
+        { "en": "Niger", "hi": "नाइजर" },
+        { "en": "Zambezi", "hi": "ज़ाम्बेज़ी" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The Nile is the longest river in Africa and flows northwards to the Mediterranean Sea.", "hi": "नील अफ्रीका की सबसे लंबी नदी है और उत्तर की ओर बहकर भूमध्य सागर में गिरती है।" },
+      "distractorAnalysis": {
+        "1": { "en": "The Congo flows into the Atlantic Ocean, not the Mediterranean Sea.", "hi": "कांगो अटलांटिक महासागर में गिरती है, भूमध्य सागर में नहीं।" },
+        "2": { "en": "The Niger drains into the Gulf of Guinea in the Atlantic Ocean.", "hi": "नाइजर अटलांटिक महासागर की गिनी की खाड़ी में गिरती है।" },
+        "3": { "en": "The Zambezi flows eastwards into the Indian Ocean.", "hi": "ज़ाम्बेज़ी पूर्व की ओर बहकर हिंद महासागर में गिरती है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-gk-20",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which classical dance form originated in the temples of Odisha?", "hi": "कौन-सा शास्त्रीय नृत्य ओडिशा के मंदिरों में उत्पन्न हुआ?" },
+      "optionsJson": [
+        { "en": "Kathak", "hi": "कथक" },
+        { "en": "Bharatanatyam", "hi": "भरतनाट्यम" },
+        { "en": "Manipuri", "hi": "मणिपुरी" },
+        { "en": "Odissi", "hi": "ओडिसी" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Odissi originated in the temples of Odisha and is known for its graceful body bends and sculpture-like poses.", "hi": "ओडिसी ओडिशा के मंदिरों में उत्पन्न हुआ और अपने सुंदर देह-भंगिमाओं तथा मूर्ति-जैसी मुद्राओं के लिए जाना जाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Kathak is associated with North India, not Odisha.", "hi": "कथक का संबंध उत्तर भारत से है, ओडिशा से नहीं।" },
+        "1": { "en": "Bharatanatyam originated in the temples of Tamil Nadu.", "hi": "भरतनाट्यम तमिलनाडु के मंदिरों में उत्पन्न हुआ।" },
+        "2": { "en": "Manipuri dance originated in the state of Manipur.", "hi": "मणिपुरी नृत्य मणिपुर राज्य में उत्पन्न हुआ।" }
+      }
+    },
+    {
+      "key": "rms9-p3-gk-21",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which mountain pass in Sikkim connects India with the Tibet region of China?", "hi": "सिक्किम में स्थित कौन-सा पर्वतीय दर्रा भारत को चीन के तिब्बत क्षेत्र से जोड़ता है?" },
+      "optionsJson": [
+        { "en": "Bomdi La", "hi": "बोमडी ला" },
+        { "en": "Nathu La", "hi": "नाथू ला" },
+        { "en": "Banihal Pass", "hi": "बनिहाल दर्रा" },
+        { "en": "Rohtang Pass", "hi": "रोहतांग दर्रा" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Nathu La, in the Himalayas of Sikkim, is a border pass connecting Sikkim with Tibet.", "hi": "सिक्किम के हिमालय में स्थित नाथू ला एक सीमावर्ती दर्रा है जो सिक्किम को तिब्बत से जोड़ता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Bomdi La is in Arunachal Pradesh, not Sikkim.", "hi": "बोमडी ला अरुणाचल प्रदेश में है, सिक्किम में नहीं।" },
+        "2": { "en": "Banihal Pass is in Jammu and Kashmir and links Jammu with the Kashmir Valley.", "hi": "बनिहाल दर्रा जम्मू-कश्मीर में है और जम्मू को कश्मीर घाटी से जोड़ता है।" },
+        "3": { "en": "Rohtang Pass is in Himachal Pradesh and links the Kullu Valley with Lahaul-Spiti.", "hi": "रोहतांग दर्रा हिमाचल प्रदेश में है और कुल्लू घाटी को लाहौल-स्पीति से जोड़ता है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-gk-22",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which type of mirror is used as the rear-view mirror in vehicles because it gives a wider field of view?", "hi": "वाहनों में रियर-व्यू मिरर के रूप में किस प्रकार का दर्पण प्रयोग किया जाता है, क्योंकि यह दृष्टि-क्षेत्र को अधिक चौड़ा बना देता है?" },
+      "optionsJson": [
+        { "en": "Plane mirror", "hi": "समतल दर्पण" },
+        { "en": "Concave mirror", "hi": "अवतल दर्पण" },
+        { "en": "Convex mirror", "hi": "उत्तल दर्पण" },
+        { "en": "Parabolic mirror", "hi": "परवलयिक दर्पण" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "A convex mirror always forms a smaller, upright image and covers a wide area, so it is used as a rear-view mirror.", "hi": "उत्तल दर्पण सदैव छोटा, सीधा प्रतिबिंब बनाता है और बड़े क्षेत्र को दिखाता है, इसलिए इसे रियर-व्यू मिरर के रूप में प्रयोग किया जाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "A plane mirror gives an image of the same size but a much narrower field of view.", "hi": "समतल दर्पण समान आकार का प्रतिबिंब देता है, परंतु उसका दृष्टि-क्षेत्र बहुत संकरा होता है।" },
+        "1": { "en": "A concave mirror gives a magnified image of a nearby object and a narrow view, as in shaving mirrors.", "hi": "अवतल दर्पण पास की वस्तु का आवर्धित प्रतिबिंब और संकरा दृश्य देता है, जैसे शेविंग दर्पण में।" },
+        "3": { "en": "A parabolic mirror is used in headlights and telescopes to give a parallel beam, not for wide views.", "hi": "परवलयिक दर्पण का उपयोग हेडलाइट और दूरदर्शी में समानांतर किरण-पुंज के लिए होता है, चौड़े दृश्य के लिए नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p3-gk-23",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The Reserve Bank of India, the country's central bank, was established in which year?", "hi": "भारत का केंद्रीय बैंक, भारतीय रिज़र्व बैंक, किस वर्ष स्थापित किया गया?" },
+      "optionsJson": [
+        { "en": "1935", "hi": "1935" },
+        { "en": "1947", "hi": "1947" },
+        { "en": "1949", "hi": "1949" },
+        { "en": "1969", "hi": "1969" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The Reserve Bank of India was established on 1 April 1935 under the RBI Act, 1934.", "hi": "भारतीय रिज़र्व बैंक की स्थापना 1 अप्रैल 1935 को आरबीआई अधिनियम, 1934 के अंतर्गत हुई।" },
+      "distractorAnalysis": {
+        "1": { "en": "1947 is the year of India's independence, not the founding of the RBI.", "hi": "1947 भारत की स्वतंत्रता का वर्ष है, आरबीआई की स्थापना का नहीं।" },
+        "2": { "en": "1949 is the year the RBI was nationalised, not established.", "hi": "1949 वह वर्ष है जब आरबीआई का राष्ट्रीयकरण हुआ, स्थापना नहीं।" },
+        "3": { "en": "1969 is the year 14 major commercial banks were nationalised.", "hi": "1969 वह वर्ष है जब 14 प्रमुख वाणिज्यिक बैंकों का राष्ट्रीयकरण हुआ।" }
+      }
+    },
+    {
+      "key": "rms9-p3-gk-24",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Which Governor-General of British India introduced the 'Doctrine of Lapse'?", "hi": "ब्रिटिश भारत के किस गवर्नर-जनरल ने 'हड़प नीति' (व्यपगत का सिद्धांत) लागू की?" },
+      "optionsJson": [
+        { "en": "Lord Cornwallis", "hi": "लॉर्ड कॉर्नवालिस" },
+        { "en": "Lord Wellesley", "hi": "लॉर्ड वेलेज़ली" },
+        { "en": "Lord William Bentinck", "hi": "लॉर्ड विलियम बेंटिंक" },
+        { "en": "Lord Dalhousie", "hi": "लॉर्ड डलहौज़ी" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Lord Dalhousie (Governor-General 1848-1856) introduced the Doctrine of Lapse, under which a princely state without a natural male heir could be annexed.", "hi": "लॉर्ड डलहौज़ी (गवर्नर-जनरल 1848-1856) ने हड़प नीति लागू की, जिसके अंतर्गत स्वाभाविक पुरुष उत्तराधिकारी के बिना किसी रियासत को मिलाया जा सकता था।" },
+      "distractorAnalysis": {
+        "0": { "en": "Cornwallis is known for the Permanent Settlement of Bengal.", "hi": "कॉर्नवालिस बंगाल के स्थायी बंदोबस्त के लिए जाने जाते हैं।" },
+        "1": { "en": "Wellesley is known for the Subsidiary Alliance system.", "hi": "वेलेज़ली सहायक संधि प्रणाली के लिए जाने जाते हैं।" },
+        "2": { "en": "Bentinck is known for social reforms such as the abolition of sati.", "hi": "बेंटिंक सती प्रथा के उन्मूलन जैसे सामाजिक सुधारों के लिए जाने जाते हैं।" }
+      }
+    },
+    {
+      "key": "rms9-p3-gk-25",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Article 21A, which makes education a Fundamental Right for children aged 6 to 14 years, was inserted by which Constitutional Amendment?", "hi": "अनुच्छेद 21A, जो 6 से 14 वर्ष के बच्चों के लिए शिक्षा को मौलिक अधिकार बनाता है, किस संविधान संशोधन द्वारा जोड़ा गया?" },
+      "optionsJson": [
+        { "en": "42nd Amendment (1976)", "hi": "42वाँ संशोधन (1976)" },
+        { "en": "44th Amendment (1978)", "hi": "44वाँ संशोधन (1978)" },
+        { "en": "86th Amendment (2002)", "hi": "86वाँ संशोधन (2002)" },
+        { "en": "73rd Amendment (1992)", "hi": "73वाँ संशोधन (1992)" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The 86th Constitutional Amendment Act, 2002 inserted Article 21A, making free and compulsory education a Fundamental Right for children aged 6 to 14.", "hi": "86वें संविधान संशोधन अधिनियम, 2002 ने अनुच्छेद 21A जोड़ा, जिससे 6 से 14 वर्ष के बच्चों के लिए निःशुल्क और अनिवार्य शिक्षा मौलिक अधिकार बन गई।" },
+      "distractorAnalysis": {
+        "0": { "en": "The 42nd Amendment added the Fundamental Duties and the words Socialist and Secular to the Preamble.", "hi": "42वें संशोधन ने मौलिक कर्तव्य तथा प्रस्तावना में समाजवादी और पंथनिरपेक्ष शब्द जोड़े।" },
+        "1": { "en": "The 44th Amendment removed the right to property from the list of Fundamental Rights.", "hi": "44वें संशोधन ने संपत्ति के अधिकार को मौलिक अधिकारों की सूची से हटा दिया।" },
+        "3": { "en": "The 73rd Amendment gave constitutional status to Panchayati Raj institutions.", "hi": "73वें संशोधन ने पंचायती राज संस्थाओं को संवैधानिक दर्जा दिया।" }
+      }
+    }
+  ]
+}

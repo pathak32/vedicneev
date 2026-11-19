@@ -1,0 +1,859 @@
+{
+  "examType": "AISSEE",
+  "classLevel": 9,
+  "paperNumber": 5,
+  "sectionKey": "mental_ability",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "aissee9-p5-mn-01",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Pointing to a man, Rekha said, “He is the son of my mother’s only brother.” How is the man related to Rekha?",
+        "hi": "एक आदमी की ओर इशारा करते हुए रेखा ने कहा, “वह मेरी माँ के इकलौते भाई का बेटा है।” वह आदमी रेखा का क्या लगता है?"
+      },
+      "optionsJson": [
+        { "en": "Cousin", "hi": "ममेरा भाई" },
+        { "en": "Brother", "hi": "सगा भाई" },
+        { "en": "Nephew", "hi": "भतीजा" },
+        { "en": "Uncle", "hi": "मामा" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Rekha’s mother’s only brother is her maternal uncle. His son is therefore Rekha’s maternal cousin.",
+        "hi": "रेखा की माँ का इकलौता भाई रेखा का मामा है। इसलिए उसका बेटा रेखा का ममेरा भाई हुआ।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "A real brother would be a son of Rekha’s own parents, but this man is the son of her mother’s brother.",
+          "hi": "सगा भाई रेखा के अपने माता-पिता का पुत्र होता, जबकि यह आदमी उसकी माँ के भाई का पुत्र है।"
+        },
+        "2": {
+          "en": "A nephew belongs to the generation below Rekha (child of her brother or sister), but this man is of her own generation.",
+          "hi": "भतीजा रेखा से अगली पीढ़ी का (उसके भाई या बहन की संतान) होता है, जबकि यह आदमी उसकी अपनी पीढ़ी का है।"
+        },
+        "3": {
+          "en": "The uncle is this man’s father (Rekha’s mother’s brother), not the man himself.",
+          "hi": "मामा तो इस आदमी के पिता (रेखा की माँ के भाई) हैं, यह आदमी स्वयं नहीं।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mn-02",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "A is the brother of B. B is the sister of C. C is the father of D. How is A related to D?",
+        "hi": "A, B का भाई है। B, C की बहन है। C, D का पिता है। A, D का क्या लगता है?"
+      },
+      "optionsJson": [
+        { "en": "Father", "hi": "पिता" },
+        { "en": "Brother", "hi": "भाई" },
+        { "en": "Uncle", "hi": "चाचा/ताऊ" },
+        { "en": "Grandfather", "hi": "दादा" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "A, B and C are brothers and sister (B is the sister). A is male and is the brother of C, who is D’s father. So A is D’s paternal uncle.",
+        "hi": "A, B और C भाई-बहन हैं (B बहन है)। A पुरुष है और D के पिता C का भाई है। इसलिए A, D का चाचा/ताऊ है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "C is D’s father; A is only C’s brother, not D’s father.",
+          "hi": "D के पिता C हैं; A तो केवल C का भाई है, D का पिता नहीं।"
+        },
+        "1": {
+          "en": "A would be D’s brother only if A were also a child of C, but A is C’s brother.",
+          "hi": "A, D का भाई तभी होता जब वह भी C की संतान होता, जबकि A तो C का भाई है।"
+        },
+        "3": {
+          "en": "A belongs to the same generation as D’s father, not a generation above him.",
+          "hi": "A, D के पिता की ही पीढ़ी का है, उनसे ऊपर की पीढ़ी का नहीं।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mn-03",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Pointing to a girl in a photograph, Arjun said, “She is the daughter of the only son of my father’s father.” How is the girl related to Arjun?",
+        "hi": "एक तस्वीर में एक लड़की की ओर इशारा करते हुए अर्जुन ने कहा, “वह मेरे दादा के इकलौते बेटे की बेटी है।” वह लड़की अर्जुन की क्या लगती है?"
+      },
+      "optionsJson": [
+        { "en": "Cousin", "hi": "चचेरी बहन" },
+        { "en": "Sister", "hi": "बहन" },
+        { "en": "Niece", "hi": "भतीजी" },
+        { "en": "Aunt", "hi": "बुआ" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Arjun’s father’s father is his grandfather. The grandfather’s only son is Arjun’s own father. The girl is the daughter of Arjun’s father, so she is Arjun’s sister.",
+        "hi": "अर्जुन के पिता के पिता उसके दादा हैं। दादा का इकलौता बेटा अर्जुन के अपने पिता ही हैं। लड़की अर्जुन के पिता की बेटी है, इसलिए वह अर्जुन की बहन है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "A paternal cousin would be the daughter of Arjun’s father’s brother, but the grandfather’s only son is Arjun’s father himself.",
+          "hi": "चचेरी बहन अर्जुन के पिता के भाई की बेटी होती, जबकि दादा के इकलौते बेटे स्वयं अर्जुन के पिता हैं।"
+        },
+        "2": {
+          "en": "A niece would be the daughter of Arjun’s brother or sister, one generation below him.",
+          "hi": "भतीजी अर्जुन के भाई या बहन की बेटी होती है, जो उससे एक पीढ़ी नीचे है।"
+        },
+        "3": {
+          "en": "An aunt would be Arjun’s father’s sister, one generation above him.",
+          "hi": "बुआ अर्जुन के पिता की बहन होती है, जो उससे एक पीढ़ी ऊपर है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mn-04",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Introducing a man, a woman says, “His wife is the only daughter of my father.” How is the woman related to the man?",
+        "hi": "एक आदमी का परिचय कराते हुए एक महिला कहती है, “उसकी पत्नी मेरे पिता की इकलौती बेटी है।” वह महिला उस आदमी की क्या लगती है?"
+      },
+      "optionsJson": [
+        { "en": "Sister", "hi": "बहन" },
+        { "en": "Mother", "hi": "माँ" },
+        { "en": "Sister-in-law", "hi": "साली" },
+        { "en": "Wife", "hi": "पत्नी" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "The only daughter of the woman’s father is the woman herself. So the man’s wife is the woman herself, that is, she is his wife.",
+        "hi": "महिला के पिता की इकलौती बेटी स्वयं वह महिला ही है। अतः उस आदमी की पत्नी वही महिला है, यानी वह उसकी पत्नी है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "A sister would be born in the man’s own family, but the statement links the woman to him as his wife.",
+          "hi": "बहन उस आदमी के अपने परिवार में जन्मी होती, पर कथन से महिला उस आदमी की पत्नी ठहरती है।"
+        },
+        "1": {
+          "en": "Nothing indicates that the woman belongs to the generation above him; she is his spouse.",
+          "hi": "ऐसा कोई संकेत नहीं कि महिला उससे ऊपर की पीढ़ी की है; वह तो उसकी जीवनसाथी है।"
+        },
+        "2": {
+          "en": "A sister-in-law (wife’s sister) would be correct only if the wife were another daughter of her father, but the wife is the only daughter, so she is the woman herself.",
+          "hi": "साली तभी होती जब पत्नी उसके पिता की कोई दूसरी बेटी होती, पर वह इकलौती बेटी है, इसलिए पत्नी स्वयं महिला ही है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mn-05",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "A is the sister of B. C is the mother of B. D is the father of C. How is A related to D?",
+        "hi": "A, B की बहन है। C, B की माँ है। D, C का पिता है। A, D की क्या लगती है?"
+      },
+      "optionsJson": [
+        { "en": "Granddaughter", "hi": "नातिन" },
+        { "en": "Daughter", "hi": "बेटी" },
+        { "en": "Niece", "hi": "भतीजी" },
+        { "en": "Sister", "hi": "बहन" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "C is the mother of both A and B, and C is the daughter of D. So A is the daughter of D’s daughter, that is, D’s granddaughter.",
+        "hi": "A और B की माँ C है, और C, D की बेटी है। इसलिए A, D की बेटी की बेटी यानी D की नातिन है।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "A would be D’s daughter only if D were A’s parent; D is the father of A’s mother, one generation higher.",
+          "hi": "A, D की बेटी तब होती जब D उसका माता/पिता होता; D तो A की माँ का पिता है, यानी एक पीढ़ी ऊपर।"
+        },
+        "2": {
+          "en": "A niece is the daughter of one’s brother or sister; A is the daughter of D’s daughter, not of D’s sibling.",
+          "hi": "भतीजी भाई या बहन की बेटी होती है; A, D की बेटी की बेटी है, उसके भाई-बहन की बेटी नहीं।"
+        },
+        "3": {
+          "en": "A sister would be of the same generation as D, but A is two generations below D.",
+          "hi": "बहन D की ही पीढ़ी की होती, जबकि A, D से दो पीढ़ी नीचे है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mn-06",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Pointing to a girl, Neha said, “She is the daughter of my mother’s brother.” How is the girl related to Neha’s mother?",
+        "hi": "एक लड़की की ओर इशारा करते हुए नेहा ने कहा, “वह मेरी माँ के भाई की बेटी है।” वह लड़की नेहा की माँ की क्या लगती है?"
+      },
+      "optionsJson": [
+        { "en": "Sister", "hi": "बहन" },
+        { "en": "Niece", "hi": "भतीजी" },
+        { "en": "Daughter", "hi": "बेटी" },
+        { "en": "Cousin", "hi": "ममेरी बहन" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "The girl is the daughter of Neha’s mother’s brother, so she is the niece of Neha’s mother.",
+        "hi": "लड़की नेहा की माँ के भाई की बेटी है, इसलिए वह नेहा की माँ की भतीजी है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "A sister would be a daughter of Neha’s mother’s parents, not of her brother.",
+          "hi": "बहन नेहा की माँ के माता-पिता की बेटी होती, उसके भाई की नहीं।"
+        },
+        "2": {
+          "en": "Neha’s mother’s own daughters are Neha and her sisters; this girl is the daughter of her brother.",
+          "hi": "नेहा की माँ की अपनी बेटियाँ नेहा और उसकी बहनें हैं; यह लड़की तो उसके भाई की बेटी है।"
+        },
+        "3": {
+          "en": "The girl is Neha’s cousin, but the question asks for her relation to Neha’s mother.",
+          "hi": "लड़की नेहा की ममेरी बहन है, पर प्रश्न उसका संबंध नेहा की माँ से पूछ रहा है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mn-07",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "In a code, ‘A @ B’ means ‘A is the mother of B’ and ‘A # B’ means ‘A is the brother of B’. If P # Q @ R, how is P related to R?",
+        "hi": "एक कूट में ‘A @ B’ का अर्थ है ‘A, B की माँ है’ और ‘A # B’ का अर्थ है ‘A, B का भाई है’। यदि P # Q @ R हो, तो P, R का क्या लगता है?"
+      },
+      "optionsJson": [
+        { "en": "Father", "hi": "पिता" },
+        { "en": "Paternal uncle", "hi": "चाचा/ताऊ" },
+        { "en": "Maternal uncle", "hi": "मामा" },
+        { "en": "Brother", "hi": "भाई" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "P # Q means P is the brother of Q. Q @ R means Q is the mother of R. So P is the brother of R’s mother, that is, R’s maternal uncle.",
+        "hi": "P # Q का अर्थ है P, Q का भाई है। Q @ R का अर्थ है Q, R की माँ है। अतः P, R की माँ का भाई, यानी R का मामा है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Q is the mother, so P is the mother’s brother, not R’s father.",
+          "hi": "Q माँ है, इसलिए P माँ का भाई है, R का पिता नहीं।"
+        },
+        "1": {
+          "en": "A paternal uncle would be the brother of R’s father; P is the brother of R’s mother.",
+          "hi": "चाचा/ताऊ R के पिता का भाई होता है; P तो R की माँ का भाई है।"
+        },
+        "3": {
+          "en": "P belongs to the generation above R (brother of R’s mother), so he is not R’s brother.",
+          "hi": "P, R से ऊपर की पीढ़ी का है (R की माँ का भाई), इसलिए वह R का भाई नहीं।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mn-08",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Five friends Ravi, Sunil, Meena, Tina and Uma sit in a row facing north. Ravi sits at the extreme left end and Tina at the extreme right end. Meena sits in the middle. Uma sits immediately to the left of Tina. Who sits second from the left end?",
+        "hi": "पाँच मित्र रवि, सुनील, मीना, टीना और उमा उत्तर की ओर मुख करके एक पंक्ति में बैठे हैं। रवि सबसे बाएँ सिरे पर और टीना सबसे दाएँ सिरे पर बैठी है। मीना बीच में बैठी है। उमा, टीना के ठीक बाएँ बैठी है। बाएँ सिरे से दूसरे स्थान पर कौन बैठा है?"
+      },
+      "optionsJson": [
+        { "en": "Meena", "hi": "मीना" },
+        { "en": "Uma", "hi": "उमा" },
+        { "en": "Tina", "hi": "टीना" },
+        { "en": "Sunil", "hi": "सुनील" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "From left to right the order is Ravi, Sunil, Meena, Uma, Tina. Ravi is 1st, Tina 5th, Meena 3rd and Uma 4th (just left of Tina). The only seat left, the 2nd, belongs to Sunil.",
+        "hi": "बाएँ से दाएँ क्रम है: रवि, सुनील, मीना, उमा, टीना। रवि पहले, टीना पाँचवें, मीना तीसरे और उमा चौथे (टीना के ठीक बाएँ) स्थान पर है। केवल दूसरा स्थान बचता है, जो सुनील का है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Meena sits in the middle, that is, third from the left.",
+          "hi": "मीना बीच में, यानी बाएँ से तीसरे स्थान पर बैठी है।"
+        },
+        "1": {
+          "en": "Uma sits immediately left of Tina, that is, fourth from the left.",
+          "hi": "उमा टीना के ठीक बाएँ, यानी बाएँ से चौथे स्थान पर बैठी है।"
+        },
+        "2": {
+          "en": "Tina sits at the extreme right end, that is, fifth from the left.",
+          "hi": "टीना सबसे दाएँ सिरे पर, यानी बाएँ से पाँचवें स्थान पर बैठी है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mn-09",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Six persons A, B, C, D, E and F sit around a circular table facing the centre. A sits opposite D. B sits next to A. E sits next to D, but B and E are not neighbours. Who sits opposite B?",
+        "hi": "छह व्यक्ति A, B, C, D, E और F एक गोल मेज़ के चारों ओर केंद्र की ओर मुख करके बैठे हैं। A, D के ठीक सामने बैठा है। B, A के बगल में बैठा है। E, D के बगल में बैठा है, परंतु B और E पास-पास नहीं हैं। B के ठीक सामने कौन बैठा है?"
+      },
+      "optionsJson": [
+        { "en": "E", "hi": "E" },
+        { "en": "C", "hi": "C" },
+        { "en": "F", "hi": "F" },
+        { "en": "D", "hi": "D" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Number the seats 1 to 6 around the table with A on seat 1 and D on seat 4 (opposite). B is on seat 2 or 6 and E on seat 3 or 5. If B is on seat 2, E cannot be on seat 3 (a neighbour), so E is on seat 5, which is opposite seat 2. If B is on seat 6, E cannot be on seat 5, so E is on seat 3, which is opposite seat 6. In both cases E sits opposite B.",
+        "hi": "मेज़ के चारों ओर सीटों को 1 से 6 तक गिनें, A को सीट 1 पर और D को सीट 4 पर (सामने) रखें। B सीट 2 या 6 पर और E सीट 3 या 5 पर होगा। यदि B सीट 2 पर है तो E सीट 3 पर नहीं हो सकता (पड़ोसी हो जाएगा), इसलिए E सीट 5 पर है, जो सीट 2 के सामने है। यदि B सीट 6 पर है तो E सीट 5 पर नहीं हो सकता, इसलिए E सीट 3 पर है, जो सीट 6 के सामने है। दोनों स्थितियों में E, B के सामने बैठा है।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "C and F take the two remaining seats, which are not opposite B.",
+          "hi": "C और F शेष दो सीटों पर बैठते हैं, जो B के सामने नहीं हैं।"
+        },
+        "2": {
+          "en": "C and F take the two remaining seats, which are not opposite B.",
+          "hi": "C और F शेष दो सीटों पर बैठते हैं, जो B के सामने नहीं हैं।"
+        },
+        "3": {
+          "en": "D sits opposite A, not opposite B.",
+          "hi": "D, A के सामने बैठा है, B के सामने नहीं।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mn-10",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Seven persons P, Q, R, S, T, U and V sit in a row facing north. U sits at the extreme left end. T sits second from the right end. Q sits immediately to the left of T, and R sits immediately to the right of T. Exactly two persons sit between P and Q. V sits immediately to the left of Q. Who sits exactly in the middle of the row?",
+        "hi": "सात व्यक्ति P, Q, R, S, T, U और V उत्तर की ओर मुख करके एक पंक्ति में बैठे हैं। U सबसे बाएँ सिरे पर बैठा है। T दाएँ सिरे से दूसरे स्थान पर बैठा है। Q, T के ठीक बाएँ और R, T के ठीक दाएँ बैठा है। P और Q के बीच ठीक दो व्यक्ति बैठे हैं। V, Q के ठीक बाएँ बैठा है। पंक्ति के ठीक बीच में कौन बैठा है?"
+      },
+      "optionsJson": [
+        { "en": "S", "hi": "S" },
+        { "en": "V", "hi": "V" },
+        { "en": "P", "hi": "P" },
+        { "en": "R", "hi": "R" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Positions 1 to 7 from the left: U is 1, T is 6, Q is 5 and R is 7. Two persons between P and Q puts P at position 2 (position 8 does not exist). V is immediately left of Q, so V is at 4, leaving S at 3. The order is U, P, S, V, Q, T, R, so the middle (4th) person is V.",
+        "hi": "बाएँ से स्थान 1 से 7: U स्थान 1 पर, T स्थान 6 पर, Q स्थान 5 पर और R स्थान 7 पर है। P और Q के बीच दो व्यक्ति होने से P स्थान 2 पर है (स्थान 8 होता ही नहीं)। V, Q के ठीक बाएँ यानी स्थान 4 पर है, इसलिए S स्थान 3 पर बचता है। क्रम है U, P, S, V, Q, T, R, अतः बीच (चौथे स्थान) का व्यक्ति V है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "S sits third from the left, not in the middle.",
+          "hi": "S बाएँ से तीसरे स्थान पर बैठा है, बीच में नहीं।"
+        },
+        "2": {
+          "en": "P sits second from the left end.",
+          "hi": "P बाएँ सिरे से दूसरे स्थान पर बैठा है।"
+        },
+        "3": {
+          "en": "R sits at the extreme right end.",
+          "hi": "R सबसे दाएँ सिरे पर बैठा है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mn-11",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Today is Wednesday. What day of the week will it be after 100 days?",
+        "hi": "आज बुधवार है। 100 दिन बाद सप्ताह का कौन-सा दिन होगा?"
+      },
+      "optionsJson": [
+        { "en": "Thursday", "hi": "गुरुवार" },
+        { "en": "Saturday", "hi": "शनिवार" },
+        { "en": "Friday", "hi": "शुक्रवार" },
+        { "en": "Wednesday", "hi": "बुधवार" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "100 = 14 × 7 + 2, so after 100 days the day moves ahead by 2 days. Wednesday + 2 days = Friday.",
+        "hi": "100 = 14 × 7 + 2, इसलिए 100 दिन बाद दिन 2 दिन आगे बढ़ जाता है। बुधवार + 2 दिन = शुक्रवार।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "This moves ahead by only 1 day; the remainder when 100 is divided by 7 is 2, not 1.",
+          "hi": "इसमें केवल 1 दिन आगे बढ़ा गया है; 100 को 7 से भाग देने पर शेषफल 2 आता है, 1 नहीं।"
+        },
+        "1": {
+          "en": "This moves ahead by 3 days; the remainder is 2, not 3.",
+          "hi": "इसमें 3 दिन आगे बढ़ा गया है; शेषफल 2 है, 3 नहीं।"
+        },
+        "3": {
+          "en": "The same weekday returns only after a multiple of 7 days such as 98 days; 100 is not a multiple of 7.",
+          "hi": "वही वार केवल 7 के गुणज दिनों (जैसे 98 दिन) बाद लौटता है; 100, 7 का गुणज नहीं है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mn-12",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "15 August 2022 was a Monday. On which day of the week did 26 January 2023 fall?",
+        "hi": "15 अगस्त 2022 को सोमवार था। 26 जनवरी 2023 को सप्ताह का कौन-सा दिन था?"
+      },
+      "optionsJson": [
+        { "en": "Tuesday", "hi": "मंगलवार" },
+        { "en": "Wednesday", "hi": "बुधवार" },
+        { "en": "Friday", "hi": "शुक्रवार" },
+        { "en": "Thursday", "hi": "गुरुवार" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Days from 15 August 2022 to 26 January 2023 = 16 (rest of August) + 30 + 31 + 30 + 31 + 26 = 164. Since 164 = 23 × 7 + 3, there are 3 odd days. Monday + 3 days = Thursday.",
+        "hi": "15 अगस्त 2022 से 26 जनवरी 2023 तक दिन = 16 (अगस्त के शेष) + 30 + 31 + 30 + 31 + 26 = 164। चूँकि 164 = 23 × 7 + 3, इसलिए 3 अतिरिक्त दिन हैं। सोमवार + 3 दिन = गुरुवार।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "This needs only 1 odd day; the count gives 3 odd days.",
+          "hi": "इसके लिए केवल 1 अतिरिक्त दिन चाहिए; गणना से 3 अतिरिक्त दिन आते हैं।"
+        },
+        "1": {
+          "en": "This needs only 2 odd days; the count gives 3 odd days.",
+          "hi": "इसके लिए केवल 2 अतिरिक्त दिन चाहिए; गणना से 3 अतिरिक्त दिन आते हैं।"
+        },
+        "2": {
+          "en": "This needs 4 odd days, which comes from counting one day too many (165 days).",
+          "hi": "इसके लिए 4 अतिरिक्त दिन चाहिए, जो एक दिन अधिक गिनने (165 दिन) से आता है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mn-13",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "The calendar of the year 2021 will repeat exactly in which of the following years?",
+        "hi": "वर्ष 2021 का कैलेंडर निम्नलिखित में से किस वर्ष में हू-ब-हू दोहराया जाएगा?"
+      },
+      "optionsJson": [
+        { "en": "2027", "hi": "2027" },
+        { "en": "2026", "hi": "2026" },
+        { "en": "2028", "hi": "2028" },
+        { "en": "2025", "hi": "2025" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "2021 is an ordinary year, so the repeating year must also be ordinary and must begin on the same weekday. An ordinary year shifts the starting weekday by 1 day and a leap year by 2 days. From the start of 2021 to the start of 2027 the shifts are 1 + 1 + 1 + 2 (2024 is a leap year) + 1 + 1 = 7, which is 0 odd days. So 2027 begins on the same weekday as 2021 and is also an ordinary year.",
+        "hi": "2021 एक सामान्य वर्ष है, इसलिए दोहराने वाला वर्ष भी सामान्य होना चाहिए और उसका पहला दिन वही वार होना चाहिए। सामान्य वर्ष से आरंभिक वार 1 दिन और लीप वर्ष से 2 दिन आगे खिसकता है। 2021 के आरंभ से 2027 के आरंभ तक खिसकाव 1 + 1 + 1 + 2 (2024 लीप वर्ष है) + 1 + 1 = 7 है, यानी 0 अतिरिक्त दिन। अतः 2027 उसी वार से शुरू होता है जिससे 2021 और वह भी सामान्य वर्ष है।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "From the start of 2021 to the start of 2026 the total shift is 6 days, so 2026 begins on a different weekday.",
+          "hi": "2021 के आरंभ से 2026 के आरंभ तक कुल खिसकाव 6 दिन है, इसलिए 2026 किसी भिन्न वार से शुरू होता है।"
+        },
+        "2": {
+          "en": "2028 is a leap year with 29 days in February, so its calendar cannot match 2021.",
+          "hi": "2028 लीप वर्ष है जिसमें फरवरी के 29 दिन हैं, इसलिए उसका कैलेंडर 2021 से मेल नहीं खा सकता।"
+        },
+        "3": {
+          "en": "From the start of 2021 to the start of 2025 the total shift is 5 days, so 2025 begins on a different weekday.",
+          "hi": "2021 के आरंभ से 2025 के आरंभ तक कुल खिसकाव 5 दिन है, इसलिए 2025 किसी भिन्न वार से शुरू होता है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mn-14",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "26 January 2024 was a Friday. On which day of the week did 1 March 2024 fall?",
+        "hi": "26 जनवरी 2024 को शुक्रवार था। 1 मार्च 2024 को सप्ताह का कौन-सा दिन था?"
+      },
+      "optionsJson": [
+        { "en": "Thursday", "hi": "गुरुवार" },
+        { "en": "Friday", "hi": "शुक्रवार" },
+        { "en": "Saturday", "hi": "शनिवार" },
+        { "en": "Sunday", "hi": "रविवार" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "2024 is a leap year, so February has 29 days. From 26 January to 1 March = 5 (to 31 January) + 29 + 1 = 35 days, which is exactly 5 weeks. So the weekday is the same: Friday.",
+        "hi": "2024 लीप वर्ष है, इसलिए फरवरी में 29 दिन हैं। 26 जनवरी से 1 मार्च तक = 5 (31 जनवरी तक) + 29 + 1 = 35 दिन, जो ठीक 5 सप्ताह हैं। इसलिए वार वही रहेगा: शुक्रवार।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "This comes from treating February as having 28 days (34 days, 6 odd days) and ignoring the leap day.",
+          "hi": "यह फरवरी को 28 दिन का मानने (34 दिन, 6 अतिरिक्त दिन) और लीप दिन को छोड़ देने से आता है।"
+        },
+        "2": {
+          "en": "This would need 1 odd day, that is, 36 days; the correct count is 35 days.",
+          "hi": "इसके लिए 1 अतिरिक्त दिन, यानी 36 दिन चाहिए; सही गणना 35 दिन है।"
+        },
+        "3": {
+          "en": "This would need 2 odd days, that is, 37 days; the correct count is 35 days.",
+          "hi": "इसके लिए 2 अतिरिक्त दिन, यानी 37 दिन चाहिए; सही गणना 35 दिन है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mn-15",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "A clock strikes once at 1 o'clock, twice at 2 o'clock, and so on, up to 12 times at 12 o'clock. How many times does it strike in total from 1 o'clock to 12 o'clock (both included)?",
+        "hi": "एक घड़ी 1 बजे एक बार, 2 बजे दो बार, और इसी प्रकार 12 बजे 12 बार घंटा बजाती है। 1 बजे से 12 बजे तक (दोनों सहित) वह कुल कितनी बार घंटा बजाएगी?"
+      },
+      "optionsJson": [
+        { "en": "72", "hi": "72" },
+        { "en": "78", "hi": "78" },
+        { "en": "84", "hi": "84" },
+        { "en": "66", "hi": "66" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "The total number of strikes is 1 + 2 + 3 + ... + 12 = 12 × 13 ÷ 2 = 78.",
+        "hi": "कुल घंटों की संख्या 1 + 2 + 3 + ... + 12 = 12 × 13 ÷ 2 = 78 है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "This takes the average number of strikes as 6 and multiplies by 12, but the average of 1 to 12 is 6.5.",
+          "hi": "यह घंटों का औसत 6 मानकर 12 से गुणा करने से आता है, जबकि 1 से 12 का औसत 6.5 है।"
+        },
+        "2": {
+          "en": "This takes the average number of strikes as 7 and multiplies by 12, which overestimates the total.",
+          "hi": "यह घंटों का औसत 7 मानकर 12 से गुणा करने से आता है, जिससे कुल संख्या अधिक आँकी जाती है।"
+        },
+        "3": {
+          "en": "This is the sum 1 + 2 + ... + 11 and leaves out the 12 strikes at 12 o'clock.",
+          "hi": "यह 1 + 2 + ... + 11 का योग है और इसमें 12 बजे के 12 घंटे छूट गए हैं।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mn-16",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "How many times do the hour hand and the minute hand of a clock coincide in one full day of 24 hours, starting at 12 midnight (do not count the next midnight)?",
+        "hi": "मध्यरात्रि 12 बजे से शुरू होकर 24 घंटे के एक पूरे दिन में घड़ी की घंटे की सुई और मिनट की सुई कितनी बार एक-दूसरे पर आती हैं (अगली मध्यरात्रि को न गिनें)?"
+      },
+      "optionsJson": [
+        { "en": "11", "hi": "11" },
+        { "en": "12", "hi": "12" },
+        { "en": "24", "hi": "24" },
+        { "en": "22", "hi": "22" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "The minute hand gains one full circle on the hour hand every 12/11 hours, so the hands coincide 11 times in 12 hours. In 24 hours they coincide 2 × 11 = 22 times.",
+        "hi": "मिनट की सुई हर 12/11 घंटे में घंटे की सुई पर एक पूरा चक्कर बढ़त बना लेती है, इसलिए 12 घंटे में सुइयाँ 11 बार एक-दूसरे पर आती हैं। 24 घंटे में वे 2 × 11 = 22 बार एक-दूसरे पर आती हैं।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "11 is the number of coincidences in 12 hours only, not in 24 hours.",
+          "hi": "11 केवल 12 घंटे में होने वाले संपातों की संख्या है, 24 घंटे की नहीं।"
+        },
+        "1": {
+          "en": "The hands coincide 11 times, not 12, in 12 hours because the 12th coincidence would just be the first one again at the next 12 o’clock.",
+          "hi": "12 घंटे में सुइयाँ 12 नहीं, 11 बार मिलती हैं, क्योंकि 12वाँ संपात अगले 12 बजे पर पहले संपात की ही पुनरावृत्ति होगा।"
+        },
+        "2": {
+          "en": "This assumes one coincidence every hour, but the minute hand overtakes the hour hand a little later each time, so there are fewer than one per hour.",
+          "hi": "यह मान लेता है कि हर घंटे एक संपात होता है, पर मिनट की सुई हर बार थोड़ी देर बाद घंटे की सुई को पार करती है, इसलिए प्रति घंटे एक से कम संपात होते हैं।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mn-17",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "A clock seen in a plane mirror shows the time 8:20. What is the actual time?",
+        "hi": "समतल दर्पण में देखने पर एक घड़ी का समय 8:20 दिखाई देता है। वास्तविक समय क्या है?"
+      },
+      "optionsJson": [
+        { "en": "3:40", "hi": "3:40" },
+        { "en": "4:40", "hi": "4:40" },
+        { "en": "3:20", "hi": "3:20" },
+        { "en": "9:40", "hi": "9:40" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Actual time = 11:60 − mirror time = 11:60 − 8:20 = 3:40.",
+        "hi": "वास्तविक समय = 11:60 − दर्पण का समय = 11:60 − 8:20 = 3:40।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "This comes from subtracting 12 − 8 = 4 for the hour without borrowing 1 hour for the minutes.",
+          "hi": "यह घंटे के लिए 12 − 8 = 4 निकालने और मिनटों के लिए 1 घंटा उधार न लेने से आता है।"
+        },
+        "2": {
+          "en": "The hour is right, but the minutes must be 60 − 20 = 40, not 20.",
+          "hi": "घंटा सही है, पर मिनट 60 − 20 = 40 होने चाहिए, 20 नहीं।"
+        },
+        "3": {
+          "en": "This wrongly adds 1 to the mirror hour; the correct hour is 11 − 8 = 3.",
+          "hi": "यह दर्पण वाले घंटे में गलती से 1 जोड़ देता है; सही घंटा 11 − 8 = 3 है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mn-18",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Meera starts from a point and walks 10 m towards the west. She turns right and walks 15 m, turns right again and walks 25 m, and finally turns left and walks 5 m. How far is she now from her starting point?",
+        "hi": "मीरा एक बिंदु से चलना शुरू करती है और पश्चिम की ओर 10 मीटर चलती है। फिर वह दाएँ मुड़कर 15 मीटर चलती है, फिर दाएँ मुड़कर 25 मीटर चलती है और अंत में बाएँ मुड़कर 5 मीटर चलती है। अब वह अपने प्रारंभिक बिंदु से कितनी दूर है?"
+      },
+      "optionsJson": [
+        { "en": "15 m", "hi": "15 मीटर" },
+        { "en": "25 m", "hi": "25 मीटर" },
+        { "en": "20 m", "hi": "20 मीटर" },
+        { "en": "35 m", "hi": "35 मीटर" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Take the start as (0, 0) with east and north positive. West 10 m gives (−10, 0). Facing west, a right turn faces north: 15 m gives (−10, 15). A right turn now faces east: 25 m gives (15, 15). A left turn faces north: 5 m gives (15, 20). She is 15 m east and 20 m north of the start, so the distance is √(15² + 20²) = √625 = 25 m.",
+        "hi": "प्रारंभिक बिंदु को (0, 0) लें, पूर्व और उत्तर को धनात्मक मानें। पश्चिम में 10 मी चलने पर (−10, 0)। पश्चिम की ओर मुख होने पर दाएँ मुड़ने से मुख उत्तर की ओर होता है: 15 मी चलने पर (−10, 15)। अब दाएँ मुड़ने से मुख पूर्व की ओर होता है: 25 मी चलने पर (15, 15)। बाएँ मुड़ने से मुख उत्तर की ओर होता है: 5 मी चलने पर (15, 20)। वह प्रारंभ से 15 मी पूर्व और 20 मी उत्तर में है, इसलिए दूरी = √(15² + 20²) = √625 = 25 मीटर।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "15 m is only the eastward part of her displacement; the northward part (20 m) must also be included.",
+          "hi": "15 मीटर उसके विस्थापन का केवल पूर्व दिशा वाला भाग है; उत्तर दिशा वाला भाग (20 मीटर) भी जोड़ना होगा।"
+        },
+        "2": {
+          "en": "20 m is only the northward part of her displacement; the eastward part (15 m) must also be included.",
+          "hi": "20 मीटर उसके विस्थापन का केवल उत्तर दिशा वाला भाग है; पूर्व दिशा वाला भाग (15 मीटर) भी जोड़ना होगा।"
+        },
+        "3": {
+          "en": "This adds 15 + 20 instead of using the right-angled triangle (the hypotenuse is shorter than the sum of the two sides).",
+          "hi": "यह 15 + 20 जोड़ देता है, जबकि समकोण त्रिभुज का कर्ण दोनों भुजाओं के योग से छोटा होता है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mn-19",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Facing north, Sita turns 90° to the right, then 90° to the right again, and then 90° to the left. In which direction is she facing now?",
+        "hi": "उत्तर की ओर मुख करके खड़ी सीता पहले 90° दाएँ मुड़ती है, फिर 90° दाएँ मुड़ती है और फिर 90° बाएँ मुड़ती है। अब उसका मुख किस दिशा में है?"
+      },
+      "optionsJson": [
+        { "en": "North", "hi": "उत्तर" },
+        { "en": "West", "hi": "पश्चिम" },
+        { "en": "East", "hi": "पूर्व" },
+        { "en": "South", "hi": "दक्षिण" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "North, then a right turn gives East, another right turn gives South, and a left turn from South gives East.",
+        "hi": "उत्तर से दाएँ मुड़ने पर पूर्व, फिर दाएँ मुड़ने पर दक्षिण, और दक्षिण से बाएँ मुड़ने पर पूर्व।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "North is the starting direction; the net turn is 90° to the right, not a full circle.",
+          "hi": "उत्तर प्रारंभिक दिशा है; कुल मोड़ 90° दाईं ओर है, पूरा चक्कर नहीं।"
+        },
+        "1": {
+          "en": "West would need a net turn of 90° to the left, but the net turn here is 90° to the right.",
+          "hi": "पश्चिम के लिए कुल 90° बाईं ओर का मोड़ चाहिए, पर यहाँ कुल मोड़ 90° दाईं ओर है।"
+        },
+        "3": {
+          "en": "South is the direction after the first two turns, before the final left turn.",
+          "hi": "दक्षिण पहले दो मोड़ों के बाद की दिशा है, अंतिम बाएँ मोड़ से पहले की।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mn-20",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "In a certain code language, ‘BOOK’ is written as ‘CQRO’. How is ‘DESK’ written in that code?",
+        "hi": "एक निश्चित कूट भाषा में ‘BOOK’ को ‘CQRO’ लिखा जाता है। उसी कूट में ‘DESK’ को कैसे लिखा जाएगा?"
+      },
+      "optionsJson": [
+        { "en": "EFVO", "hi": "EFVO" },
+        { "en": "EGUO", "hi": "EGUO" },
+        { "en": "FGVO", "hi": "FGVO" },
+        { "en": "EGVO", "hi": "EGVO" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "The letters are shifted forward by 1, 2, 3 and 4 places respectively: B+1 = C, O+2 = Q, O+3 = R, K+4 = O. Similarly D+1 = E, E+2 = G, S+3 = V, K+4 = O, giving EGVO.",
+        "hi": "अक्षरों को क्रमशः 1, 2, 3 और 4 स्थान आगे खिसकाया गया है: B+1 = C, O+2 = Q, O+3 = R, K+4 = O। इसी प्रकार D+1 = E, E+2 = G, S+3 = V, K+4 = O, जिससे EGVO मिलता है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The second letter is shifted by 1 instead of 2 (E+1 = F).",
+          "hi": "दूसरे अक्षर को 2 के बजाय 1 स्थान खिसकाया गया है (E+1 = F)।"
+        },
+        "1": {
+          "en": "The third letter is shifted by 2 instead of 3 (S+2 = U).",
+          "hi": "तीसरे अक्षर को 3 के बजाय 2 स्थान खिसकाया गया है (S+2 = U)।"
+        },
+        "2": {
+          "en": "The first letter is shifted by 2 instead of 1 (D+2 = F).",
+          "hi": "पहले अक्षर को 1 के बजाय 2 स्थान खिसकाया गया है (D+2 = F)।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mn-21",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Find the next letter in the series: Z, X, U, Q, ?",
+        "hi": "श्रेणी में अगला अक्षर ज्ञात करें: Z, X, U, Q, ?"
+      },
+      "optionsJson": [
+        { "en": "M", "hi": "M" },
+        { "en": "K", "hi": "K" },
+        { "en": "L", "hi": "L" },
+        { "en": "N", "hi": "N" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The positions of the letters in the alphabet are 26, 24, 21, 17. Each letter moves back by 2, 3, 4 places, so the next step is back by 5. Hence the next position is 17 − 5 = 12, which is the letter L.",
+        "hi": "वर्णमाला में अक्षरों के स्थान 26, 24, 21, 17 हैं। हर बार अक्षर क्रमशः 2, 3, 4 स्थान पीछे जाता है, इसलिए अगला कदम 5 स्थान पीछे होगा। अतः अगला स्थान 17 − 5 = 12 है, जो अक्षर L है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "M is the 13th letter, which is a step of only 4 back from Q; this repeats the last step instead of increasing it to 5.",
+          "hi": "M 13वाँ अक्षर है, जो Q से केवल 4 स्थान पीछे है; यह अंतिम कदम को 5 करने के बजाय दोहराता है।"
+        },
+        "1": {
+          "en": "K is the 11th letter, which is a step of 6 back from Q; the step should increase by 1 to 5, not by 2.",
+          "hi": "K 11वाँ अक्षर है, जो Q से 6 स्थान पीछे है; कदम 1 बढ़कर 5 होना चाहिए, 2 बढ़कर नहीं।"
+        },
+        "3": {
+          "en": "N is the 14th letter, which is a step of only 3 back from Q; this wrongly returns to an earlier step size.",
+          "hi": "N 14वाँ अक्षर है, जो Q से केवल 3 स्थान पीछे है; यह गलती से पहले वाले कदम पर लौट जाता है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mn-22",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Find the next term of the series: 2, 3, 5, 9, 17, 33, ?",
+        "hi": "श्रेणी का अगला पद ज्ञात करें: 2, 3, 5, 9, 17, 33, ?"
+      },
+      "optionsJson": [
+        { "en": "49", "hi": "49" },
+        { "en": "65", "hi": "65" },
+        { "en": "66", "hi": "66" },
+        { "en": "64", "hi": "64" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "The differences between successive terms are 1, 2, 4, 8, 16, doubling each time, so the next difference is 32 and the next term is 33 + 32 = 65. (Each term is of the form 2ⁿ + 1.)",
+        "hi": "क्रमागत पदों के अंतर 1, 2, 4, 8, 16 हैं, जो हर बार दुगुने होते हैं, इसलिए अगला अंतर 32 है और अगला पद 33 + 32 = 65 है। (प्रत्येक पद 2ⁿ + 1 के रूप का है।)"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "This repeats the last difference of 16 instead of doubling it to 32.",
+          "hi": "यह अंतिम अंतर 16 को दुगुना करके 32 करने के बजाय दोहराता है।"
+        },
+        "2": {
+          "en": "This simply doubles the last term (33 × 2), but the pattern is doubling the differences.",
+          "hi": "यह अंतिम पद को ही दुगुना करता है (33 × 2), जबकि पैटर्न अंतरों के दुगुने होने का है।"
+        },
+        "3": {
+          "en": "64 is 2⁶ but the terms follow 2ⁿ + 1, so 1 must be added.",
+          "hi": "64 = 2⁶ है, पर पद 2ⁿ + 1 के रूप में हैं, इसलिए 1 जोड़ना होगा।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mn-23",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "In a row of students, Priya is 9th from the left and Kavita is 14th from the right. When they exchange their places, Priya becomes 17th from the left. How many students are there in the row?",
+        "hi": "विद्यार्थियों की एक पंक्ति में प्रिया बाएँ से 9वें और कविता दाएँ से 14वें स्थान पर है। जब वे आपस में स्थान बदल लेती हैं, तो प्रिया बाएँ से 17वें स्थान पर आ जाती है। पंक्ति में कुल कितने विद्यार्थी हैं?"
+      },
+      "optionsJson": [
+        { "en": "22", "hi": "22" },
+        { "en": "29", "hi": "29" },
+        { "en": "30", "hi": "30" },
+        { "en": "31", "hi": "31" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "After the exchange Priya stands where Kavita stood, so Kavita’s original place is 17th from the left. Kavita is also 14th from the right. Total students = 17 + 14 − 1 = 30.",
+        "hi": "स्थान बदलने के बाद प्रिया वहाँ खड़ी है जहाँ कविता खड़ी थी, इसलिए कविता का मूल स्थान बाएँ से 17वाँ है। कविता दाएँ से 14वें स्थान पर भी है। कुल विद्यार्थी = 17 + 14 − 1 = 30।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "This uses Priya’s old place (9 + 14 − 1), but Kavita’s place from the left is 17, not 9.",
+          "hi": "यह प्रिया के पुराने स्थान (9 + 14 − 1) का उपयोग करता है, पर कविता का बाएँ से स्थान 9 नहीं, 17 है।"
+        },
+        "1": {
+          "en": "This subtracts 2 instead of 1; only Kavita is counted twice, so only 1 is subtracted.",
+          "hi": "यह 1 के बजाय 2 घटाता है; केवल कविता दो बार गिनी जाती है, इसलिए केवल 1 घटाना है।"
+        },
+        "3": {
+          "en": "This forgets to subtract 1 for Kavita, who is counted from both ends (17 + 14).",
+          "hi": "यह कविता के लिए 1 घटाना भूल जाता है, जो दोनों ओर से गिनी गई है (17 + 14)।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mn-24",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Complete the analogy: Pen : Write :: Knife : ?",
+        "hi": "सादृश्य पूरा करें: कलम : लिखना :: चाकू : ?"
+      },
+      "optionsJson": [
+        { "en": "Sharp", "hi": "तेज़" },
+        { "en": "Kitchen", "hi": "रसोई" },
+        { "en": "Steel", "hi": "इस्पात" },
+        { "en": "Cut", "hi": "काटना" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "A pen is used to write; in the same way a knife is used to cut.",
+        "hi": "कलम का उपयोग लिखने के लिए होता है; उसी प्रकार चाकू का उपयोग काटने के लिए होता है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Sharp describes a quality of a knife, not the work it does.",
+          "hi": "तेज़ चाकू का एक गुण बताता है, उसका कार्य नहीं।"
+        },
+        "1": {
+          "en": "A kitchen is a place where a knife may be used, not its function.",
+          "hi": "रसोई वह स्थान है जहाँ चाकू का उपयोग हो सकता है, उसका कार्य नहीं।"
+        },
+        "2": {
+          "en": "Steel is the material a knife is made of, not its function.",
+          "hi": "इस्पात वह पदार्थ है जिससे चाकू बनता है, उसका कार्य नहीं।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-mn-25",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Find the odd one out among the following numbers.",
+        "hi": "निम्नलिखित संख्याओं में से असंगत संख्या चुनें।"
+      },
+      "optionsJson": [
+        { "en": "144", "hi": "144" },
+        { "en": "27", "hi": "27" },
+        { "en": "125", "hi": "125" },
+        { "en": "216", "hi": "216" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "27 = 3³, 125 = 5³ and 216 = 6³ are all perfect cubes, while 144 = 12² is a perfect square but not a perfect cube.",
+        "hi": "27 = 3³, 125 = 5³ और 216 = 6³ सभी पूर्ण घन हैं, जबकि 144 = 12² पूर्ण वर्ग है पर पूर्ण घन नहीं।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "27 = 3³ is a perfect cube, like most of the numbers.",
+          "hi": "27 = 3³ एक पूर्ण घन है, जैसा कि अधिकांश संख्याएँ हैं।"
+        },
+        "2": {
+          "en": "125 = 5³ is a perfect cube, like most of the numbers.",
+          "hi": "125 = 5³ एक पूर्ण घन है, जैसा कि अधिकांश संख्याएँ हैं।"
+        },
+        "3": {
+          "en": "216 = 6³ is a perfect cube, like most of the numbers.",
+          "hi": "216 = 6³ एक पूर्ण घन है, जैसा कि अधिकांश संख्याएँ हैं।"
+        }
+      }
+    }
+  ]
+}

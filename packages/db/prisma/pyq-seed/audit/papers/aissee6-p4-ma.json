@@ -1,0 +1,984 @@
+{
+  "examType": "AISSEE",
+  "classLevel": 6,
+  "paperNumber": 4,
+  "sectionKey": "mental_ability",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "aissee6-p4-ma-01",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Pointing to a girl, Riya says, \"She is the daughter of my mother's only brother.\" How is the girl related to Riya?",
+        "hi": "एक लड़की की ओर इशारा करते हुए रिया कहती है, \"वह मेरी माँ के इकलौते भाई की बेटी है।\" वह लड़की रिया की क्या लगती है?",
+        "mr": "एका मुलीकडे बोट दाखवून रिया म्हणते, \"ती माझ्या आईच्या एकुलत्या एक भावाची मुलगी आहे.\" ती मुलगी रियाची कोण आहे?"
+      },
+      "optionsJson": [
+        { "en": "Sister", "hi": "बहन", "mr": "बहीण" },
+        { "en": "Cousin sister", "hi": "ममेरी बहन", "mr": "मामेबहीण" },
+        { "en": "Aunt", "hi": "मौसी", "mr": "मावशी" },
+        { "en": "Niece", "hi": "भतीजी", "mr": "पुतणी" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Riya's mother's brother is her maternal uncle (mama). His daughter is Riya's cousin sister.",
+        "hi": "रिया की माँ का भाई उसका मामा है और मामा की बेटी रिया की ममेरी बहन होती है।",
+        "mr": "रियाच्या आईचा भाऊ म्हणजे रियाचा मामा आणि मामाची मुलगी म्हणजे रियाची मामेबहीण."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "A sister would be a daughter of Riya's own parents, not of her mother's brother.",
+          "hi": "सगी बहन रिया के अपने माता-पिता की बेटी होती है, उसकी माँ के भाई की नहीं।",
+          "mr": "सख्खी बहीण ही रियाच्या स्वतःच्या आई-वडिलांची मुलगी असते, तिच्या आईच्या भावाची नाही."
+        },
+        "2": {
+          "en": "An aunt is a sister of one of Riya's parents, not a child of her mother's brother.",
+          "hi": "मौसी रिया के माता-पिता में से किसी की बहन होती है, माँ के भाई की बेटी नहीं।",
+          "mr": "मावशी ही रियाच्या आई-वडिलांपैकी एकाची बहीण असते, आईच्या भावाची मुलगी नाही."
+        },
+        "3": {
+          "en": "A niece is a daughter of Riya's own brother or sister; here the girl is a child of her mother's brother.",
+          "hi": "भतीजी रिया के अपने भाई या बहन की बेटी होती है; यहाँ लड़की उसकी माँ के भाई की बेटी है।",
+          "mr": "पुतणी ही रियाच्या स्वतःच्या भावाची किंवा बहिणीची मुलगी असते; येथे ती मुलगी तिच्या आईच्या भावाची मुलगी आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-ma-02",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Find the odd one out: 16, 25, 36, 48",
+        "hi": "असंगत संख्या चुनें: 16, 25, 36, 48",
+        "mr": "विसंगत संख्या ओळखा: 16, 25, 36, 48"
+      },
+      "optionsJson": [
+        { "en": "16", "hi": "16", "mr": "16" },
+        { "en": "25", "hi": "25", "mr": "25" },
+        { "en": "36", "hi": "36", "mr": "36" },
+        { "en": "48", "hi": "48", "mr": "48" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "16 = 4 × 4, 25 = 5 × 5 and 36 = 6 × 6 are perfect squares. 48 is not a perfect square.",
+        "hi": "16 = 4 × 4, 25 = 5 × 5 और 36 = 6 × 6 पूर्ण वर्ग हैं। 48 पूर्ण वर्ग नहीं है।",
+        "mr": "16 = 4 × 4, 25 = 5 × 5 आणि 36 = 6 × 6 हे पूर्ण वर्ग आहेत. 48 हा पूर्ण वर्ग नाही."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "16 is a perfect square (4 × 4), like the majority.",
+          "hi": "16 एक पूर्ण वर्ग (4 × 4) है, जैसे अधिकांश संख्याएँ।",
+          "mr": "16 हा पूर्ण वर्ग (4 × 4) आहे, बहुसंख्य संख्यांप्रमाणे."
+        },
+        "1": {
+          "en": "25 is a perfect square (5 × 5), like the majority.",
+          "hi": "25 एक पूर्ण वर्ग (5 × 5) है, जैसे अधिकांश संख्याएँ।",
+          "mr": "25 हा पूर्ण वर्ग (5 × 5) आहे, बहुसंख्य संख्यांप्रमाणे."
+        },
+        "2": {
+          "en": "36 is a perfect square (6 × 6), like the majority.",
+          "hi": "36 एक पूर्ण वर्ग (6 × 6) है, जैसे अधिकांश संख्याएँ।",
+          "mr": "36 हा पूर्ण वर्ग (6 × 6) आहे, बहुसंख्य संख्यांप्रमाणे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-ma-03",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Five friends P, Q, R, S and T sit in a row facing north. P sits at the extreme left end and T sits at the extreme right end. Q sits immediately next to P. S does not sit next to T. Who sits in the middle of the row?",
+        "hi": "पाँच मित्र P, Q, R, S और T उत्तर की ओर मुख करके एक पंक्ति में बैठे हैं। P सबसे बाएँ छोर पर और T सबसे दाएँ छोर पर बैठा है। Q ठीक P के बगल में बैठा है। S, T के बगल में नहीं बैठा है। पंक्ति के बीच में कौन बैठा है?",
+        "mr": "पाच मित्र P, Q, R, S आणि T उत्तरेकडे तोंड करून एका रांगेत बसले आहेत. P अगदी डाव्या टोकाला आणि T अगदी उजव्या टोकाला बसला आहे. Q अगदी P च्या शेजारी बसला आहे. S हा T च्या शेजारी बसलेला नाही. रांगेच्या मध्यभागी कोण बसला आहे?"
+      },
+      "optionsJson": [
+        { "en": "S", "hi": "S", "mr": "S" },
+        { "en": "R", "hi": "R", "mr": "R" },
+        { "en": "Q", "hi": "Q", "mr": "Q" },
+        { "en": "P", "hi": "P", "mr": "P" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "The order starts P, Q and ends with T. R and S fill the 3rd and 4th places. S is not next to T, so S is 3rd and R is 4th: P, Q, S, R, T. The middle person is S.",
+        "hi": "क्रम P, Q से शुरू होता है और T पर समाप्त होता है। R और S तीसरे और चौथे स्थान पर आएँगे। S, T के बगल में नहीं है, इसलिए S तीसरे और R चौथे स्थान पर है: P, Q, S, R, T। बीच में S बैठा है।",
+        "mr": "क्रम P, Q ने सुरू होतो आणि T वर संपतो. R आणि S हे तिसऱ्या व चौथ्या जागी येतील. S हा T च्या शेजारी नाही, म्हणून S तिसरा आणि R चौथा आहे: P, Q, S, R, T. मध्यभागी S बसला आहे."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "R sits 4th, next to T, not in the middle.",
+          "hi": "R चौथे स्थान पर T के बगल में बैठा है, बीच में नहीं।",
+          "mr": "R चौथ्या जागी T च्या शेजारी बसला आहे, मध्यभागी नाही."
+        },
+        "2": {
+          "en": "Q sits 2nd, next to P, not in the middle.",
+          "hi": "Q दूसरे स्थान पर P के बगल में बैठा है, बीच में नहीं।",
+          "mr": "Q दुसऱ्या जागी P च्या शेजारी बसला आहे, मध्यभागी नाही."
+        },
+        "3": {
+          "en": "P sits at the extreme left end, not in the middle.",
+          "hi": "P सबसे बाएँ छोर पर बैठा है, बीच में नहीं।",
+          "mr": "P अगदी डाव्या टोकाला बसला आहे, मध्यभागी नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-ma-04",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "A clock shows exactly 3:00. What time will its image show when it is seen in a mirror?",
+        "hi": "एक घड़ी में ठीक 3:00 बज रहे हैं। दर्पण में देखने पर उसके प्रतिबिंब में कितने बजे दिखेंगे?",
+        "mr": "एका घड्याळात अगदी 3:00 वाजले आहेत. आरशात पाहिल्यावर त्याच्या प्रतिमेत किती वाजलेले दिसतील?"
+      },
+      "optionsJson": [
+        { "en": "3:00", "hi": "3:00", "mr": "3:00" },
+        { "en": "6:00", "hi": "6:00", "mr": "6:00" },
+        { "en": "9:00", "hi": "9:00", "mr": "9:00" },
+        { "en": "12:00", "hi": "12:00", "mr": "12:00" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The mirror image time is found by subtracting the actual time from 12:00. 12:00 − 3:00 = 9:00. The hour hand pointing to 3 appears pointing to 9.",
+        "hi": "दर्पण प्रतिबिंब का समय ज्ञात करने के लिए वास्तविक समय को 12:00 में से घटाते हैं। 12:00 − 3:00 = 9:00। घंटे की सुई जो 3 पर है, वह 9 पर दिखाई देगी।",
+        "mr": "आरशातील प्रतिमेची वेळ काढण्यासाठी प्रत्यक्ष वेळ 12:00 मधून वजा करतात. 12:00 − 3:00 = 9:00. तासकाटा 3 वर असतो, तो प्रतिमेत 9 वर दिसतो."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "3:00 is the actual time; a mirror flips left and right, so the hour hand moves to the opposite side.",
+          "hi": "3:00 वास्तविक समय है; दर्पण बाएँ-दाएँ पलट देता है, इसलिए घंटे की सुई दूसरी ओर दिखती है।",
+          "mr": "3:00 ही प्रत्यक्ष वेळ आहे; आरसा डावे-उजवे उलटवतो, म्हणून तासकाटा दुसऱ्या बाजूला दिसतो."
+        },
+        "1": {
+          "en": "6:00 is the mirror image of 6:00 itself, because the hands lie on the vertical line.",
+          "hi": "6:00 का प्रतिबिंब स्वयं 6:00 ही रहता है, क्योंकि सुइयाँ ऊर्ध्वाधर रेखा पर होती हैं।",
+          "mr": "6:00 ची प्रतिमा 6:00 च असते, कारण काटे उभ्या रेषेवर असतात."
+        },
+        "3": {
+          "en": "12:00 is the mirror image of 12:00 itself, because both hands point straight up.",
+          "hi": "12:00 का प्रतिबिंब स्वयं 12:00 ही रहता है, क्योंकि दोनों सुइयाँ सीधे ऊपर होती हैं।",
+          "mr": "12:00 ची प्रतिमा 12:00 च असते, कारण दोन्ही काटे सरळ वर असतात."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-ma-05",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "In triangle ABC, a point D is marked on side BC and the line AD is drawn. How many triangles are there in the figure?",
+        "hi": "त्रिभुज ABC की भुजा BC पर एक बिंदु D लिया गया है और रेखा AD खींची गई है। आकृति में कुल कितने त्रिभुज हैं?",
+        "mr": "त्रिकोण ABC च्या बाजू BC वर D हा बिंदू घेतला आहे आणि रेषा AD काढली आहे. आकृतीत एकूण किती त्रिकोण आहेत?"
+      },
+      "optionsJson": [
+        { "en": "2", "hi": "2", "mr": "2" },
+        { "en": "3", "hi": "3", "mr": "3" },
+        { "en": "4", "hi": "4", "mr": "4" },
+        { "en": "5", "hi": "5", "mr": "5" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "The triangles are ABD, ADC and the whole triangle ABC. So there are 3 triangles.",
+        "hi": "त्रिभुज ABD, ADC और पूरा त्रिभुज ABC हैं। इसलिए कुल 3 त्रिभुज हैं।",
+        "mr": "त्रिकोण ABD, ADC आणि संपूर्ण त्रिकोण ABC हे आहेत. म्हणून एकूण 3 त्रिकोण आहेत."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "This counts only the two small triangles ABD and ADC and misses the big triangle ABC.",
+          "hi": "इसमें केवल दो छोटे त्रिभुज ABD और ADC गिने गए हैं, बड़ा त्रिभुज ABC छूट गया है।",
+          "mr": "यात फक्त दोन लहान त्रिकोण ABD आणि ADC मोजले आहेत, मोठा त्रिकोण ABC राहिला आहे."
+        },
+        "2": {
+          "en": "Only 3 triangles can be formed from the points A, B, C, D; there is no fourth one.",
+          "hi": "बिंदुओं A, B, C, D से केवल 3 त्रिभुज बनते हैं; चौथा त्रिभुज नहीं है।",
+          "mr": "A, B, C, D या बिंदूंपासून फक्त 3 त्रिकोण तयार होतात; चौथा त्रिकोण नाही."
+        },
+        "3": {
+          "en": "Only 3 triangles can be formed from the points A, B, C, D; five is an overcount.",
+          "hi": "बिंदुओं A, B, C, D से केवल 3 त्रिभुज बनते हैं; 5 अधिक गिनती है।",
+          "mr": "A, B, C, D या बिंदूंपासून फक्त 3 त्रिकोण तयार होतात; 5 ही जास्त मोजणी आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-ma-06",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "In a certain code, CAT is written as DBU. How will DOG be written in that code?",
+        "hi": "एक निश्चित कोड में CAT को DBU लिखा जाता है। उसी कोड में DOG कैसे लिखा जाएगा?",
+        "mr": "एका विशिष्ट सांकेतिक भाषेत CAT हा DBU असा लिहितात. त्याच सांकेतिक भाषेत DOG कसा लिहिला जाईल?"
+      },
+      "optionsJson": [
+        { "en": "EPH", "hi": "EPH", "mr": "EPH" },
+        { "en": "DPH", "hi": "DPH", "mr": "DPH" },
+        { "en": "EPG", "hi": "EPG", "mr": "EPG" },
+        { "en": "CNF", "hi": "CNF", "mr": "CNF" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Each letter is moved one step forward in the alphabet: C to D, A to B, T to U. So D to E, O to P, G to H, giving EPH.",
+        "hi": "प्रत्येक अक्षर वर्णमाला में एक स्थान आगे बढ़ता है: C से D, A से B, T से U। अतः D से E, O से P, G से H, यानी EPH।",
+        "mr": "प्रत्येक अक्षर वर्णमालेत एक स्थान पुढे जातो: C चा D, A चा B, T चा U. म्हणून D चा E, O चा P, G चा H, म्हणजे EPH."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "The first letter D was not moved forward to E.",
+          "hi": "पहला अक्षर D आगे बढ़ाकर E नहीं किया गया।",
+          "mr": "पहिला अक्षर D पुढे नेऊन E केला नाही."
+        },
+        "2": {
+          "en": "The last letter G was not moved forward to H.",
+          "hi": "अंतिम अक्षर G आगे बढ़ाकर H नहीं किया गया।",
+          "mr": "शेवटचा अक्षर G पुढे नेऊन H केला नाही."
+        },
+        "3": {
+          "en": "Here every letter was moved one step backward instead of forward.",
+          "hi": "यहाँ प्रत्येक अक्षर आगे के बजाय एक स्थान पीछे ले जाया गया है।",
+          "mr": "येथे प्रत्येक अक्षर पुढे नेण्याऐवजी एक स्थान मागे नेला आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-ma-07",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Doctor : Hospital :: Teacher : ?",
+        "hi": "डॉक्टर : अस्पताल :: शिक्षक : ?",
+        "mr": "डॉक्टर : रुग्णालय :: शिक्षक : ?"
+      },
+      "optionsJson": [
+        { "en": "Student", "hi": "विद्यार्थी", "mr": "विद्यार्थी" },
+        { "en": "Book", "hi": "किताब", "mr": "पुस्तक" },
+        { "en": "School", "hi": "विद्यालय", "mr": "शाळा" },
+        { "en": "Chalk", "hi": "चॉक", "mr": "खडू" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "A doctor works in a hospital. In the same way, a teacher works in a school.",
+        "hi": "डॉक्टर अस्पताल में काम करता है। उसी प्रकार शिक्षक विद्यालय में काम करता है।",
+        "mr": "डॉक्टर रुग्णालयात काम करतात. त्याचप्रमाणे शिक्षक शाळेत काम करतात."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "A student is the person a teacher teaches, not the place where a teacher works.",
+          "hi": "विद्यार्थी वह व्यक्ति है जिसे शिक्षक पढ़ाता है, वह स्थान नहीं जहाँ शिक्षक काम करता है।",
+          "mr": "विद्यार्थी म्हणजे शिक्षक ज्याला शिकवतात ती व्यक्ती, शिक्षक जिथे काम करतात ते ठिकाण नव्हे."
+        },
+        "1": {
+          "en": "A book is a thing used for learning, not the place of work.",
+          "hi": "किताब सीखने की वस्तु है, कार्य का स्थान नहीं।",
+          "mr": "पुस्तक ही शिकण्याची वस्तू आहे, कामाचे ठिकाण नव्हे."
+        },
+        "3": {
+          "en": "Chalk is a tool a teacher uses, not the place of work.",
+          "hi": "चॉक शिक्षक का एक उपकरण है, कार्य का स्थान नहीं।",
+          "mr": "खडू हे शिक्षकांचे साधन आहे, कामाचे ठिकाण नव्हे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-ma-08",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Meena is the mother of Raj. Raj is the brother of Seema. Seema's daughter is Tara. How is Meena related to Tara?",
+        "hi": "मीना राज की माँ है। राज सीमा का भाई है। सीमा की बेटी तारा है। मीना, तारा की क्या लगती है?",
+        "mr": "मीना ही राजची आई आहे. राज हा सीमाचा भाऊ आहे. सीमाची मुलगी तारा आहे. मीना ही ताराची कोण आहे?"
+      },
+      "optionsJson": [
+        { "en": "Mother", "hi": "माँ", "mr": "आई" },
+        { "en": "Aunt", "hi": "मौसी", "mr": "मावशी" },
+        { "en": "Sister", "hi": "बहन", "mr": "बहीण" },
+        { "en": "Maternal grandmother", "hi": "नानी", "mr": "आईची आई (आजी)" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Raj is Seema's brother, so Meena is also Seema's mother. Tara is Seema's daughter, so Meena is Tara's mother's mother, that is, her maternal grandmother.",
+        "hi": "राज सीमा का भाई है, इसलिए मीना सीमा की भी माँ है। तारा सीमा की बेटी है, इसलिए मीना तारा की माँ की माँ, यानी नानी है।",
+        "mr": "राज हा सीमाचा भाऊ आहे, म्हणून मीना ही सीमाचीही आई आहे. तारा ही सीमाची मुलगी आहे, म्हणून मीना ही ताराच्या आईची आई, म्हणजे आईची आई (आजी) आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Tara's mother is Seema, not Meena.",
+          "hi": "तारा की माँ सीमा है, मीना नहीं।",
+          "mr": "ताराची आई सीमा आहे, मीना नाही."
+        },
+        "1": {
+          "en": "An aunt would be a sister of Tara's parent, but Meena is the mother of Tara's mother, one generation higher.",
+          "hi": "मौसी तारा के माता-पिता की बहन होती है, पर मीना तारा की माँ की माँ है, यानी एक पीढ़ी ऊपर।",
+          "mr": "मावशी ही ताराच्या आई-वडिलांची बहीण असते, पण मीना ही ताराच्या आईची आई आहे, म्हणजे एक पिढी वरची."
+        },
+        "2": {
+          "en": "A sister belongs to Tara's own generation, but Meena is two generations above her.",
+          "hi": "बहन तारा की अपनी पीढ़ी की होती है, पर मीना उससे दो पीढ़ी ऊपर है।",
+          "mr": "बहीण ही ताराच्या स्वतःच्या पिढीची असते, पण मीना तिच्यापेक्षा दोन पिढ्या वरची आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-ma-09",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Pointing to a man, Kavita said, \"His mother is the only daughter of my mother.\" How is the man related to Kavita?",
+        "hi": "एक पुरुष की ओर इशारा करते हुए कविता ने कहा, \"इसकी माँ मेरी माँ की इकलौती बेटी है।\" वह पुरुष कविता का क्या लगता है?",
+        "mr": "एका पुरुषाकडे बोट दाखवून कविता म्हणाली, \"याची आई माझ्या आईची एकुलती एक मुलगी आहे.\" तो पुरुष कविताचा कोण आहे?"
+      },
+      "optionsJson": [
+        { "en": "Brother", "hi": "भाई", "mr": "भाऊ" },
+        { "en": "Son", "hi": "बेटा", "mr": "मुलगा" },
+        { "en": "Nephew", "hi": "भतीजा", "mr": "पुतण्या" },
+        { "en": "Husband", "hi": "पति", "mr": "पती" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Kavita is a daughter of her mother, and the only one, so \"the only daughter of my mother\" is Kavita herself. The man's mother is Kavita, so he is her son.",
+        "hi": "कविता अपनी माँ की बेटी है और इकलौती भी, इसलिए \"मेरी माँ की इकलौती बेटी\" स्वयं कविता है। पुरुष की माँ कविता है, इसलिए वह उसका बेटा है।",
+        "mr": "कविता ही तिच्या आईची मुलगी आणि एकुलती एक आहे, म्हणून \"माझ्या आईची एकुलती एक मुलगी\" म्हणजे स्वतः कविताच. त्या पुरुषाची आई कविता आहे, म्हणून तो तिचा मुलगा आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "A brother's mother would be Kavita's own mother, not Kavita herself.",
+          "hi": "भाई की माँ कविता की अपनी माँ होती, स्वयं कविता नहीं।",
+          "mr": "भावाची आई ही कविताची स्वतःची आई असती, स्वतः कविता नाही."
+        },
+        "2": {
+          "en": "A nephew's mother would be Kavita's sister, but Kavita is her mother's only daughter.",
+          "hi": "भतीजे की माँ कविता की बहन होती, पर कविता अपनी माँ की इकलौती बेटी है।",
+          "mr": "पुतण्याची आई ही कविताची बहीण असती, पण कविता ही तिच्या आईची एकुलती एक मुलगी आहे."
+        },
+        "3": {
+          "en": "A husband's mother would be Kavita's mother-in-law, not Kavita.",
+          "hi": "पति की माँ कविता की सास होती, स्वयं कविता नहीं।",
+          "mr": "पतीची आई ही कविताची सासू असती, स्वतः कविता नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-ma-10",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "In a row of students, Mohit is 12th from the left end and 29th from the right end. How many students are there in the row?",
+        "hi": "विद्यार्थियों की एक पंक्ति में मोहित बाएँ छोर से 12वें और दाएँ छोर से 29वें स्थान पर है। पंक्ति में कुल कितने विद्यार्थी हैं?",
+        "mr": "विद्यार्थ्यांच्या एका रांगेत मोहित डाव्या टोकापासून 12 वा आणि उजव्या टोकापासून 29 वा आहे. रांगेत एकूण किती विद्यार्थी आहेत?"
+      },
+      "optionsJson": [
+        { "en": "40", "hi": "40", "mr": "40" },
+        { "en": "41", "hi": "41", "mr": "41" },
+        { "en": "39", "hi": "39", "mr": "39" },
+        { "en": "38", "hi": "38", "mr": "38" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Mohit is counted in both positions, so total = 12 + 29 − 1 = 40.",
+        "hi": "मोहित दोनों गिनतियों में आ गया है, इसलिए कुल = 12 + 29 − 1 = 40।",
+        "mr": "मोहित दोन्ही मोजणीत आला आहे, म्हणून एकूण = 12 + 29 − 1 = 40."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "41 is 12 + 29, which counts Mohit twice.",
+          "hi": "41 = 12 + 29 है, जिसमें मोहित दो बार गिना गया है।",
+          "mr": "41 = 12 + 29 आहे, यात मोहित दोनदा मोजला गेला आहे."
+        },
+        "2": {
+          "en": "39 subtracts 2 instead of 1; Mohit is double counted only once.",
+          "hi": "39 में 1 की जगह 2 घटाया गया है; मोहित केवल एक बार दोहरा गिना गया है।",
+          "mr": "39 मध्ये 1 ऐवजी 2 वजा केले आहेत; मोहित फक्त एकदाच जास्त मोजला गेला आहे."
+        },
+        "3": {
+          "en": "38 subtracts 3 from 41, which removes more students than were counted twice.",
+          "hi": "38 में 41 में से 3 घटाए गए हैं, जो दोहरी गिनती से अधिक है।",
+          "mr": "38 मध्ये 41 मधून 3 वजा केले आहेत, जे दुहेरी मोजणीपेक्षा जास्त आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-ma-11",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "A clock shows 4:20. What time will its image show when it is seen in a mirror?",
+        "hi": "एक घड़ी में 4:20 बज रहे हैं। दर्पण में देखने पर उसके प्रतिबिंब में कितने बजे दिखेंगे?",
+        "mr": "एका घड्याळात 4:20 वाजले आहेत. आरशात पाहिल्यावर त्याच्या प्रतिमेत किती वाजलेले दिसतील?"
+      },
+      "optionsJson": [
+        { "en": "7:20", "hi": "7:20", "mr": "7:20" },
+        { "en": "8:40", "hi": "8:40", "mr": "8:40" },
+        { "en": "7:40", "hi": "7:40", "mr": "7:40" },
+        { "en": "8:20", "hi": "8:20", "mr": "8:20" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Mirror image time = 12:00 − 4:20 = 7:40. (Hour hand and minute hand both move to the opposite side.)",
+        "hi": "दर्पण प्रतिबिंब का समय = 12:00 − 4:20 = 7:40। (घंटे और मिनट की सुइयाँ दोनों दूसरी ओर चली जाती हैं।)",
+        "mr": "आरशातील प्रतिमेची वेळ = 12:00 − 4:20 = 7:40. (तास आणि मिनिटाचे दोन्ही काटे विरुद्ध बाजूला जातात.)"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "This keeps the 20 minutes unchanged, but the minute hand also flips to the opposite side.",
+          "hi": "इसमें 20 मिनट वही रखे गए हैं, पर मिनट की सुई भी दूसरी ओर पलट जाती है।",
+          "mr": "यात 20 मिनिटे तशीच ठेवली आहेत, पण मिनिटकाटाही विरुद्ध बाजूला जातो."
+        },
+        "1": {
+          "en": "This takes 12 − 4 = 8 and 60 − 20 = 40 but forgets that one hour is borrowed for the minutes.",
+          "hi": "इसमें 12 − 4 = 8 और 60 − 20 = 40 लिया गया है, पर मिनटों के लिए एक घंटा उधार लेना भूल गए।",
+          "mr": "यात 12 − 4 = 8 आणि 60 − 20 = 40 घेतले आहे, पण मिनिटांसाठी एक तास उसना घ्यायला विसरले आहे."
+        },
+        "3": {
+          "en": "This only subtracts the hours from 12 and keeps the 20 minutes unchanged.",
+          "hi": "इसमें केवल घंटे को 12 में से घटाया गया है और 20 मिनट वही रखे गए हैं।",
+          "mr": "यात फक्त तास 12 मधून वजा केले आहेत आणि 20 मिनिटे तशीच ठेवली आहेत."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-ma-12",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "The word MATH is written on paper and a mirror is placed upright along its right edge. Which of the following shows the image seen in the mirror? (The letters M, A, T and H each look the same when flipped left to right.)",
+        "hi": "शब्द MATH कागज़ पर लिखा है और उसके दाएँ किनारे पर एक दर्पण खड़ा रखा गया है। दर्पण में दिखने वाला प्रतिबिंब कौन-सा है? (M, A, T और H चारों अक्षर बाएँ-दाएँ पलटने पर भी वैसे ही दिखते हैं।)",
+        "mr": "MATH हा शब्द कागदावर लिहिला आहे आणि त्याच्या उजव्या कडेला एक आरसा उभा ठेवला आहे. आरशात दिसणारी प्रतिमा कोणती? (M, A, T आणि H ही चारही अक्षरे डावीकडून उजवीकडे उलटवली तरी तशीच दिसतात.)"
+      },
+      "optionsJson": [
+        { "en": "MATH", "hi": "MATH", "mr": "MATH" },
+        { "en": "HAMT", "hi": "HAMT", "mr": "HAMT" },
+        { "en": "HATM", "hi": "HATM", "mr": "HATM" },
+        { "en": "HTAM", "hi": "HTAM", "mr": "HTAM" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "A mirror on the right makes the right end of the word (H) appear nearest to the mirror, on the left of the image. So the order of letters reverses: H, T, A, M.",
+        "hi": "दाईं ओर रखा दर्पण शब्द के दाएँ सिरे (H) को प्रतिबिंब में बाईं ओर दिखाता है। इसलिए अक्षरों का क्रम उलट जाता है: H, T, A, M।",
+        "mr": "उजव्या बाजूला ठेवलेला आरसा शब्दाचे उजवे टोक (H) प्रतिमेत डाव्या बाजूला दाखवतो. म्हणून अक्षरांचा क्रम उलटतो: H, T, A, M."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "This is the original word; a mirror reverses the order of the letters.",
+          "hi": "यह मूल शब्द है; दर्पण अक्षरों का क्रम उलट देता है।",
+          "mr": "हा मूळ शब्द आहे; आरसा अक्षरांचा क्रम उलटवतो."
+        },
+        "1": {
+          "en": "The letters are jumbled; a mirror reverses the order, it does not shuffle it.",
+          "hi": "अक्षर गड़बड़ हैं; दर्पण क्रम उलटता है, अक्षरों को मिलाता नहीं।",
+          "mr": "अक्षरे विस्कळीत आहेत; आरसा क्रम उलटवतो, अक्षरे मिसळत नाही."
+        },
+        "2": {
+          "en": "The letters are jumbled; the correct reversal puts T before A.",
+          "hi": "अक्षर गड़बड़ हैं; सही उलटे क्रम में T, A से पहले आता है।",
+          "mr": "अक्षरे विस्कळीत आहेत; योग्य उलट क्रमात T हा A च्या आधी येतो."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-ma-13",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which of the following letters does NOT look the same in its water image (the top-to-bottom flipped reflection seen in water placed below the letter)?",
+        "hi": "निम्नलिखित में से कौन-सा अक्षर अपने जल-प्रतिबिंब (अक्षर के नीचे रखे पानी में दिखने वाला ऊपर-नीचे पलटा हुआ प्रतिबिंब) में पहले जैसा नहीं दिखता?",
+        "mr": "खालीलपैकी कोणते अक्षर त्याच्या जलप्रतिमेत (अक्षराच्या खाली ठेवलेल्या पाण्यात दिसणारी वर-खाली उलटलेली प्रतिमा) पूर्वीसारखे दिसत नाही?"
+      },
+      "optionsJson": [
+        { "en": "C", "hi": "C", "mr": "C" },
+        { "en": "P", "hi": "P", "mr": "P" },
+        { "en": "K", "hi": "K", "mr": "K" },
+        { "en": "X", "hi": "X", "mr": "X" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "C, K and X are symmetrical about a horizontal line, so flipping them top to bottom gives the same shape. In P the loop is at the top; in the water image it moves to the bottom, so P looks different.",
+        "hi": "C, K और X क्षैतिज रेखा के सापेक्ष सममित हैं, इसलिए ऊपर-नीचे पलटने पर वही आकृति बनती है। P में गोल भाग ऊपर है; जल-प्रतिबिंब में वह नीचे चला जाता है, इसलिए P अलग दिखता है।",
+        "mr": "C, K आणि X हे आडव्या रेषेच्या दृष्टीने सममित आहेत, म्हणून वर-खाली उलटवल्यावर तोच आकार दिसतो. P मध्ये गोल भाग वर असतो; जलप्रतिमेत तो खाली जातो, म्हणून P वेगळा दिसतो."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "C is symmetrical about a horizontal line, so its water image looks the same.",
+          "hi": "C क्षैतिज रेखा के सापेक्ष सममित है, इसलिए उसका जल-प्रतिबिंब वैसा ही दिखता है।",
+          "mr": "C आडव्या रेषेच्या दृष्टीने सममित आहे, म्हणून त्याची जलप्रतिमा तशीच दिसते."
+        },
+        "2": {
+          "en": "K is symmetrical about a horizontal line, so its water image looks the same.",
+          "hi": "K क्षैतिज रेखा के सापेक्ष सममित है, इसलिए उसका जल-प्रतिबिंब वैसा ही दिखता है।",
+          "mr": "K आडव्या रेषेच्या दृष्टीने सममित आहे, म्हणून त्याची जलप्रतिमा तशीच दिसते."
+        },
+        "3": {
+          "en": "X is symmetrical about a horizontal line, so its water image looks the same.",
+          "hi": "X क्षैतिज रेखा के सापेक्ष सममित है, इसलिए उसका जल-प्रतिबिंब वैसा ही दिखता है।",
+          "mr": "X आडव्या रेषेच्या दृष्टीने सममित आहे, म्हणून त्याची जलप्रतिमा तशीच दिसते."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-ma-14",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "In a square, both diagonals are drawn. How many triangles are there in the figure?",
+        "hi": "एक वर्ग में दोनों विकर्ण खींचे गए हैं। आकृति में कुल कितने त्रिभुज हैं?",
+        "mr": "एका चौरसात दोन्ही कर्ण काढले आहेत. आकृतीत एकूण किती त्रिकोण आहेत?"
+      },
+      "optionsJson": [
+        { "en": "8", "hi": "8", "mr": "8" },
+        { "en": "6", "hi": "6", "mr": "6" },
+        { "en": "4", "hi": "4", "mr": "4" },
+        { "en": "10", "hi": "10", "mr": "10" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "The diagonals cut the square into 4 small triangles. Two neighbouring small triangles together form a bigger triangle, and there are 4 such pairs. Total = 4 + 4 = 8.",
+        "hi": "विकर्ण वर्ग को 4 छोटे त्रिभुजों में बाँटते हैं। दो पास-पास के छोटे त्रिभुज मिलकर एक बड़ा त्रिभुज बनाते हैं, और ऐसे 4 जोड़े हैं। कुल = 4 + 4 = 8।",
+        "mr": "कर्ण चौरसाचे 4 लहान त्रिकोण करतात. शेजारचे दोन लहान त्रिकोण मिळून एक मोठा त्रिकोण होतो, आणि अशा 4 जोड्या आहेत. एकूण = 4 + 4 = 8."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "6 is a miscount; it misses some of the bigger triangles made from two small ones.",
+          "hi": "6 गलत गिनती है; इसमें दो छोटे त्रिभुजों से बने कुछ बड़े त्रिभुज छूट गए हैं।",
+          "mr": "6 ही चुकीची मोजणी आहे; यात दोन लहान त्रिकोणांपासून बनलेले काही मोठे त्रिकोण राहिले आहेत."
+        },
+        "2": {
+          "en": "4 counts only the small triangles and misses the 4 bigger ones.",
+          "hi": "4 में केवल छोटे त्रिभुज गिने गए हैं, 4 बड़े त्रिभुज छूट गए हैं।",
+          "mr": "4 मध्ये फक्त लहान त्रिकोण मोजले आहेत, 4 मोठे त्रिकोण राहिले आहेत."
+        },
+        "3": {
+          "en": "10 is an overcount; there are only 4 small and 4 bigger triangles.",
+          "hi": "10 अधिक गिनती है; केवल 4 छोटे और 4 बड़े त्रिभुज हैं।",
+          "mr": "10 ही जास्त मोजणी आहे; फक्त 4 लहान आणि 4 मोठे त्रिकोण आहेत."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-ma-15",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Find the next number in the series: 2, 6, 12, 20, 30, ?",
+        "hi": "श्रृंखला में अगली संख्या ज्ञात करें: 2, 6, 12, 20, 30, ?",
+        "mr": "श्रेणीतील पुढील संख्या शोधा: 2, 6, 12, 20, 30, ?"
+      },
+      "optionsJson": [
+        { "en": "36", "hi": "36", "mr": "36" },
+        { "en": "40", "hi": "40", "mr": "40" },
+        { "en": "42", "hi": "42", "mr": "42" },
+        { "en": "48", "hi": "48", "mr": "48" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The differences are 4, 6, 8, 10, so the next difference is 12. 30 + 12 = 42.",
+        "hi": "अंतर 4, 6, 8, 10 हैं, इसलिए अगला अंतर 12 होगा। 30 + 12 = 42।",
+        "mr": "फरक 4, 6, 8, 10 आहेत, म्हणून पुढील फरक 12 असेल. 30 + 12 = 42."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "36 adds 6, but the difference must keep increasing by 2 each time.",
+          "hi": "36 में 6 जोड़ा गया है, पर अंतर हर बार 2 से बढ़ना चाहिए।",
+          "mr": "36 मध्ये 6 मिळवले आहेत, पण फरक प्रत्येक वेळी 2 ने वाढला पाहिजे."
+        },
+        "1": {
+          "en": "40 adds 10, which repeats the last difference instead of increasing it to 12.",
+          "hi": "40 में 10 जोड़ा गया है, जो पिछले अंतर को दोहराता है; वह 12 होना चाहिए।",
+          "mr": "40 मध्ये 10 मिळवले आहेत, जे मागील फरकाची पुनरावृत्ती आहे; तो 12 असायला हवा."
+        },
+        "3": {
+          "en": "48 adds 18, which does not follow the pattern of differences.",
+          "hi": "48 में 18 जोड़ा गया है, जो अंतर के पैटर्न का पालन नहीं करता।",
+          "mr": "48 मध्ये 18 मिळवले आहेत, जे फरकांच्या नमुन्याला धरून नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-ma-16",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Meera walks 5 km north, then turns right and walks 3 km, then turns right again and walks 5 km. How far and in which direction is she from her starting point?",
+        "hi": "मीरा 5 किमी उत्तर की ओर चलती है, फिर दाएँ मुड़कर 3 किमी चलती है, फिर दोबारा दाएँ मुड़कर 5 किमी चलती है। वह अपने प्रारंभिक बिंदु से कितनी दूर और किस दिशा में है?",
+        "mr": "मीरा 5 किमी उत्तरेकडे चालते, मग उजवीकडे वळून 3 किमी चालते, नंतर पुन्हा उजवीकडे वळून 5 किमी चालते. ती तिच्या सुरुवातीच्या ठिकाणापासून किती अंतरावर आणि कोणत्या दिशेला आहे?"
+      },
+      "optionsJson": [
+        { "en": "3 km west", "hi": "3 किमी पश्चिम", "mr": "3 किमी पश्चिमेला" },
+        { "en": "5 km east", "hi": "5 किमी पूर्व", "mr": "5 किमी पूर्वेला" },
+        { "en": "8 km east", "hi": "8 किमी पूर्व", "mr": "8 किमी पूर्वेला" },
+        { "en": "3 km east", "hi": "3 किमी पूर्व", "mr": "3 किमी पूर्वेला" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "A right turn from north faces east, so she walks 3 km east. Another right turn faces south, so she walks 5 km south, cancelling the 5 km north. She ends 3 km east of the start.",
+        "hi": "उत्तर से दाएँ मुड़ने पर मुख पूर्व की ओर होता है, इसलिए वह 3 किमी पूर्व चलती है। फिर दाएँ मुड़ने पर मुख दक्षिण की ओर होता है, इसलिए 5 किमी दक्षिण चलने से 5 किमी उत्तर का चलना कट जाता है। वह प्रारंभ से 3 किमी पूर्व में पहुँचती है।",
+        "mr": "उत्तरेकडून उजवीकडे वळल्यावर तोंड पूर्वेकडे होते, म्हणून ती 3 किमी पूर्वेकडे चालते. पुन्हा उजवीकडे वळल्यावर तोंड दक्षिणेकडे होते, म्हणून 5 किमी दक्षिणेकडे चालल्याने 5 किमी उत्तरेचे चालणे रद्द होते. ती सुरुवातीपासून 3 किमी पूर्वेला पोहोचते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "A right turn from north leads east, not west.",
+          "hi": "उत्तर से दाएँ मुड़ने पर पूर्व की ओर जाते हैं, पश्चिम की ओर नहीं।",
+          "mr": "उत्तरेकडून उजवीकडे वळल्यावर पूर्वेकडे जातात, पश्चिमेकडे नाही."
+        },
+        "1": {
+          "en": "The 5 km north and 5 km south cancel out, so there is no 5 km east displacement.",
+          "hi": "5 किमी उत्तर और 5 किमी दक्षिण आपस में कट जाते हैं, इसलिए पूर्व में 5 किमी की दूरी नहीं बनती।",
+          "mr": "5 किमी उत्तर आणि 5 किमी दक्षिण एकमेकांना रद्द करतात, म्हणून पूर्वेला 5 किमी अंतर होत नाही."
+        },
+        "2": {
+          "en": "8 km adds the distances 5 + 3 together, but the 5 km legs are in opposite directions and cancel.",
+          "hi": "8 किमी में 5 + 3 जोड़ दिए गए हैं, पर 5 किमी के दोनों चरण विपरीत दिशाओं में हैं और कट जाते हैं।",
+          "mr": "8 किमी मध्ये 5 + 3 मिळवले आहेत, पण 5 किमीचे दोन्ही टप्पे विरुद्ध दिशांना असल्याने रद्द होतात."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-ma-17",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Today is Wednesday. What day of the week will it be after 10 days?",
+        "hi": "आज बुधवार है। 10 दिन बाद सप्ताह का कौन-सा दिन होगा?",
+        "mr": "आज बुधवार आहे. 10 दिवसांनंतर आठवड्याचा कोणता वार असेल?"
+      },
+      "optionsJson": [
+        { "en": "Friday", "hi": "शुक्रवार", "mr": "शुक्रवार" },
+        { "en": "Saturday", "hi": "शनिवार", "mr": "शनिवार" },
+        { "en": "Sunday", "hi": "रविवार", "mr": "रविवार" },
+        { "en": "Monday", "hi": "सोमवार", "mr": "सोमवार" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "10 days = 7 days + 3 days. After 7 days it is Wednesday again; 3 more days gives Thursday, Friday, Saturday. So it will be Saturday.",
+        "hi": "10 दिन = 7 दिन + 3 दिन। 7 दिन बाद फिर बुधवार होगा; 3 दिन और आगे गुरुवार, शुक्रवार, शनिवार आते हैं। इसलिए शनिवार होगा।",
+        "mr": "10 दिवस = 7 दिवस + 3 दिवस. 7 दिवसांनंतर पुन्हा बुधवार येईल; आणखी 3 दिवस म्हणजे गुरुवार, शुक्रवार, शनिवार. म्हणून शनिवार असेल."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Friday comes after 2 days (or 9 days), not 10.",
+          "hi": "शुक्रवार 2 दिन (या 9 दिन) बाद आता है, 10 दिन बाद नहीं।",
+          "mr": "शुक्रवार 2 दिवसांनंतर (किंवा 9 दिवसांनंतर) येतो, 10 नंतर नाही."
+        },
+        "2": {
+          "en": "Sunday comes after 4 days (or 11 days), not 10.",
+          "hi": "रविवार 4 दिन (या 11 दिन) बाद आता है, 10 दिन बाद नहीं।",
+          "mr": "रविवार 4 दिवसांनंतर (किंवा 11 दिवसांनंतर) येतो, 10 नंतर नाही."
+        },
+        "3": {
+          "en": "Monday comes after 5 days (or 12 days), not 10.",
+          "hi": "सोमवार 5 दिन (या 12 दिन) बाद आता है, 10 दिन बाद नहीं।",
+          "mr": "सोमवार 5 दिवसांनंतर (किंवा 12 दिवसांनंतर) येतो, 10 नंतर नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-ma-18",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Find the next number in the series: 3, 5, 9, 17, 33, ?",
+        "hi": "श्रृंखला में अगली संख्या ज्ञात करें: 3, 5, 9, 17, 33, ?",
+        "mr": "श्रेणीतील पुढील संख्या शोधा: 3, 5, 9, 17, 33, ?"
+      },
+      "optionsJson": [
+        { "en": "65", "hi": "65", "mr": "65" },
+        { "en": "55", "hi": "55", "mr": "55" },
+        { "en": "63", "hi": "63", "mr": "63" },
+        { "en": "67", "hi": "67", "mr": "67" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "The differences are 2, 4, 8, 16, which double each time. The next difference is 32, so 33 + 32 = 65.",
+        "hi": "अंतर 2, 4, 8, 16 हैं, जो हर बार दोगुने होते हैं। अगला अंतर 32 होगा, इसलिए 33 + 32 = 65।",
+        "mr": "फरक 2, 4, 8, 16 आहेत, जे प्रत्येक वेळी दुप्पट होतात. पुढील फरक 32 असेल, म्हणून 33 + 32 = 65."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "55 adds 22, which does not follow the doubling differences.",
+          "hi": "55 में 22 जोड़ा गया है, जो दोगुने होते अंतर के पैटर्न से मेल नहीं खाता।",
+          "mr": "55 मध्ये 22 मिळवले आहेत, जे दुप्पट होणाऱ्या फरकांशी जुळत नाही."
+        },
+        "2": {
+          "en": "63 adds 30, but the difference should be 32.",
+          "hi": "63 में 30 जोड़ा गया है, पर अंतर 32 होना चाहिए।",
+          "mr": "63 मध्ये 30 मिळवले आहेत, पण फरक 32 असायला हवा."
+        },
+        "3": {
+          "en": "67 adds 34, but the difference should be 32.",
+          "hi": "67 में 34 जोड़ा गया है, पर अंतर 32 होना चाहिए।",
+          "mr": "67 मध्ये 34 मिळवले आहेत, पण फरक 32 असायला हवा."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-ma-19",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Find the next pair of letters in the series: AZ, BY, CX, DW, ?",
+        "hi": "श्रृंखला में अक्षरों का अगला जोड़ा ज्ञात करें: AZ, BY, CX, DW, ?",
+        "mr": "श्रेणीतील अक्षरांची पुढील जोडी शोधा: AZ, BY, CX, DW, ?"
+      },
+      "optionsJson": [
+        { "en": "EU", "hi": "EU", "mr": "EU" },
+        { "en": "FV", "hi": "FV", "mr": "FV" },
+        { "en": "EV", "hi": "EV", "mr": "EV" },
+        { "en": "DV", "hi": "DV", "mr": "DV" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The first letters go forward: A, B, C, D, E. The second letters go backward from Z: Z, Y, X, W, V. So the next pair is EV.",
+        "hi": "पहले अक्षर आगे बढ़ते हैं: A, B, C, D, E। दूसरे अक्षर Z से पीछे की ओर चलते हैं: Z, Y, X, W, V। इसलिए अगला जोड़ा EV है।",
+        "mr": "पहिली अक्षरे पुढे जातात: A, B, C, D, E. दुसरी अक्षरे Z पासून मागे जातात: Z, Y, X, W, V. म्हणून पुढील जोडी EV आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The second letter U skips V; after W comes V.",
+          "hi": "दूसरा अक्षर U है, V छूट गया; W के बाद V आता है।",
+          "mr": "दुसरा अक्षर U आहे, V सुटला आहे; W नंतर V येतो."
+        },
+        "1": {
+          "en": "The first letter F skips E; after D comes E.",
+          "hi": "पहला अक्षर F है, E छूट गया; D के बाद E आता है।",
+          "mr": "पहिला अक्षर F आहे, E सुटला आहे; D नंतर E येतो."
+        },
+        "3": {
+          "en": "The first letter D repeats; it must move forward to E.",
+          "hi": "पहला अक्षर D दोहराया गया है; उसे आगे बढ़कर E होना चाहिए।",
+          "mr": "पहिला अक्षर D पुन्हा आला आहे; तो पुढे जाऊन E व्हायला हवा."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-ma-20",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Mohan and Sheela are a couple with two children, Ravi and Geeta. Ravi's wife is Pooja and their son is Kunal. How is Geeta related to Kunal?",
+        "hi": "मोहन और शीला पति-पत्नी हैं और उनके दो बच्चे रवि और गीता हैं। रवि की पत्नी पूजा है और उनका बेटा कुणाल है। गीता, कुणाल की क्या लगती है?",
+        "mr": "मोहन आणि शीला हे पती-पत्नी असून त्यांना रवी आणि गीता ही दोन मुले आहेत. रवीची पत्नी पूजा आहे आणि त्यांचा मुलगा कुणाल आहे. गीता ही कुणालची कोण आहे?"
+      },
+      "optionsJson": [
+        { "en": "Mother's sister", "hi": "माँ की बहन", "mr": "आईची बहीण" },
+        { "en": "Grandmother", "hi": "दादी", "mr": "आजी" },
+        { "en": "Cousin sister", "hi": "चचेरी बहन", "mr": "चुलत बहीण" },
+        { "en": "Father's sister", "hi": "पिता की बहन", "mr": "वडिलांची बहीण" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Geeta is the daughter of Mohan and Sheela, so she is Ravi's sister. Ravi is Kunal's father, so Geeta is Kunal's father's sister.",
+        "hi": "गीता मोहन और शीला की बेटी है, इसलिए वह रवि की बहन है। रवि कुणाल का पिता है, इसलिए गीता कुणाल के पिता की बहन है।",
+        "mr": "गीता ही मोहन आणि शीला यांची मुलगी आहे, म्हणून ती रवीची बहीण आहे. रवी हा कुणालचा वडील आहे, म्हणून गीता ही कुणालच्या वडिलांची बहीण आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Kunal's mother is Pooja, and Geeta is not Pooja's sister; Geeta is Ravi's sister.",
+          "hi": "कुणाल की माँ पूजा है और गीता पूजा की बहन नहीं है; गीता रवि की बहन है।",
+          "mr": "कुणालची आई पूजा आहे आणि गीता ही पूजाची बहीण नाही; गीता ही रवीची बहीण आहे."
+        },
+        "1": {
+          "en": "Geeta is one generation above Kunal, but his grandmother is Sheela, not Geeta.",
+          "hi": "गीता कुणाल से एक पीढ़ी ऊपर है, पर उसकी दादी शीला है, गीता नहीं।",
+          "mr": "गीता ही कुणालपेक्षा एक पिढी वरची आहे, पण त्याची आजी शीला आहे, गीता नाही."
+        },
+        "2": {
+          "en": "A cousin would be a child of Kunal's parent's sibling; Geeta herself is the sibling of his parent.",
+          "hi": "चचेरी बहन कुणाल के माता-पिता के भाई-बहन की बेटी होती; गीता स्वयं उसके पिता की बहन है।",
+          "mr": "चुलत बहीण ही कुणालच्या आई-वडिलांच्या भावंडाची मुलगी असते; गीता स्वतःच त्याच्या वडिलांची बहीण आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-ma-21",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Ramesh is the brother of Suman. Suman is the wife of Anil. Anil is the father of Deepak. How is Ramesh related to Deepak?",
+        "hi": "रमेश सुमन का भाई है। सुमन अनिल की पत्नी है। अनिल दीपक का पिता है। रमेश, दीपक का क्या लगता है?",
+        "mr": "रमेश हा सुमनचा भाऊ आहे. सुमन ही अनिलची पत्नी आहे. अनिल हा दीपकचा वडील आहे. रमेश हा दीपकचा कोण आहे?"
+      },
+      "optionsJson": [
+        { "en": "Mother's brother", "hi": "मामा (माँ का भाई)", "mr": "मामा (आईचा भाऊ)" },
+        { "en": "Father's brother", "hi": "चाचा/ताऊ (पिता का भाई)", "mr": "काका (वडिलांचा भाऊ)" },
+        { "en": "Grandfather", "hi": "दादा", "mr": "आजोबा" },
+        { "en": "Brother", "hi": "भाई", "mr": "भाऊ" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Suman is Anil's wife and Anil is Deepak's father, so Suman is Deepak's mother. Ramesh is Suman's brother, so he is Deepak's mother's brother (maternal uncle).",
+        "hi": "सुमन अनिल की पत्नी है और अनिल दीपक का पिता है, इसलिए सुमन दीपक की माँ है। रमेश सुमन का भाई है, इसलिए वह दीपक की माँ का भाई (मामा) है।",
+        "mr": "सुमन ही अनिलची पत्नी आहे आणि अनिल हा दीपकचा वडील आहे, म्हणून सुमन ही दीपकची आई आहे. रमेश हा सुमनचा भाऊ आहे, म्हणून तो दीपकच्या आईचा भाऊ (मामा) आहे."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Deepak's father is Anil; Ramesh is the brother of Deepak's mother, not of his father.",
+          "hi": "दीपक का पिता अनिल है; रमेश दीपक की माँ का भाई है, पिता का नहीं।",
+          "mr": "दीपकचे वडील अनिल आहेत; रमेश हा दीपकच्या आईचा भाऊ आहे, वडिलांचा नाही."
+        },
+        "2": {
+          "en": "A grandfather is a parent of Deepak's parent; Ramesh is a brother of Deepak's parent, so he is in the generation above, not two above.",
+          "hi": "दादा दीपक के माता-पिता के पिता होते हैं; रमेश दीपक की माँ का भाई है, यानी एक पीढ़ी ऊपर, दो नहीं।",
+          "mr": "आजोबा हे दीपकच्या आई-वडिलांचे वडील असतात; रमेश हा दीपकच्या आईचा भाऊ आहे, म्हणजे एक पिढी वरचा, दोन नाही."
+        },
+        "3": {
+          "en": "A brother would share Deepak's parents, but Ramesh is the brother of Deepak's mother.",
+          "hi": "भाई के माता-पिता दीपक के ही माता-पिता होते, पर रमेश दीपक की माँ का भाई है।",
+          "mr": "भावाचे आई-वडील दीपकचेच असतात, पण रमेश हा दीपकच्या आईचा भाऊ आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-ma-22",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "In a queue, Neha is 7th from the front and Ishaan is 9th from the back. If they interchange their positions, Neha becomes 15th from the front. How many persons are there in the queue?",
+        "hi": "एक कतार में नेहा आगे से 7वें और ईशान पीछे से 9वें स्थान पर है। यदि वे आपस में स्थान बदल लें, तो नेहा आगे से 15वें स्थान पर आ जाती है। कतार में कुल कितने व्यक्ति हैं?",
+        "mr": "एका रांगेत नेहा पुढून 7 वी आणि ईशान मागून 9 वा आहे. जर त्यांनी आपापल्या जागा बदलल्या, तर नेहा पुढून 15 वी होते. रांगेत एकूण किती व्यक्ती आहेत?"
+      },
+      "optionsJson": [
+        { "en": "22", "hi": "22", "mr": "22" },
+        { "en": "23", "hi": "23", "mr": "23" },
+        { "en": "24", "hi": "24", "mr": "24" },
+        { "en": "25", "hi": "25", "mr": "25" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "After the swap, Neha stands where Ishaan stood, which is 15th from the front and 9th from the back. Total = 15 + 9 − 1 = 23.",
+        "hi": "अदला-बदली के बाद नेहा वहाँ खड़ी है जहाँ ईशान खड़ा था, जो आगे से 15वाँ और पीछे से 9वाँ स्थान है। कुल = 15 + 9 − 1 = 23।",
+        "mr": "अदलाबदलीनंतर नेहा ईशान जिथे उभा होता तिथे उभी आहे, ती जागा पुढून 15 वी आणि मागून 9 वी आहे. एकूण = 15 + 9 − 1 = 23."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "22 subtracts 2 instead of 1; only one person is counted twice.",
+          "hi": "22 में 1 की जगह 2 घटाया गया है; केवल एक व्यक्ति दो बार गिना गया है।",
+          "mr": "22 मध्ये 1 ऐवजी 2 वजा केले आहेत; फक्त एक व्यक्ती दोनदा मोजली गेली आहे."
+        },
+        "2": {
+          "en": "24 is 15 + 9, which counts the person in that position twice.",
+          "hi": "24 = 15 + 9 है, जिसमें उस स्थान का व्यक्ति दो बार गिना गया है।",
+          "mr": "24 = 15 + 9 आहे, यात त्या जागेवरील व्यक्ती दोनदा मोजली गेली आहे."
+        },
+        "3": {
+          "en": "25 wrongly adds 1 to 15 + 9; the position is shared, so 1 must be subtracted.",
+          "hi": "25 में 15 + 9 में 1 और जोड़ दिया गया है; स्थान साझा है, इसलिए 1 घटाना चाहिए।",
+          "mr": "25 मध्ये 15 + 9 मध्ये आणखी 1 मिळवले आहे; जागा सामायिक आहे, म्हणून 1 वजा करायला हवे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-ma-23",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "A rectangle is divided into 6 equal small squares by drawing 1 horizontal line and 2 vertical lines, so that there are 2 rows and 3 columns of small squares. How many rectangles of all sizes (including squares) can be counted in the figure?",
+        "hi": "एक आयत में 1 क्षैतिज रेखा और 2 ऊर्ध्वाधर रेखाएँ खींचकर उसे 6 बराबर छोटे वर्गों में बाँटा गया है, जिससे छोटे वर्गों की 2 पंक्तियाँ और 3 स्तंभ बनते हैं। आकृति में सभी आकारों के (वर्गों सहित) कुल कितने आयत गिने जा सकते हैं?",
+        "mr": "एका आयताला 1 आडवी रेषा आणि 2 उभ्या रेषा काढून 6 समान लहान चौरसांमध्ये विभागले आहे, त्यामुळे लहान चौरसांच्या 2 ओळी आणि 3 स्तंभ तयार होतात. आकृतीत सर्व आकारांचे (चौरसांसह) एकूण किती आयत मोजता येतील?"
+      },
+      "optionsJson": [
+        { "en": "12", "hi": "12", "mr": "12" },
+        { "en": "15", "hi": "15", "mr": "15" },
+        { "en": "18", "hi": "18", "mr": "18" },
+        { "en": "20", "hi": "20", "mr": "20" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Count by size (rows × columns): 1×1 = 6, 1×2 = 4, 1×3 = 2, 2×1 = 3, 2×2 = 2, 2×3 = 1. Total = 6 + 4 + 2 + 3 + 2 + 1 = 18.",
+        "hi": "आकार के अनुसार गिनें (पंक्ति × स्तंभ): 1×1 = 6, 1×2 = 4, 1×3 = 2, 2×1 = 3, 2×2 = 2, 2×3 = 1। कुल = 6 + 4 + 2 + 3 + 2 + 1 = 18।",
+        "mr": "आकारानुसार मोजा (ओळ × स्तंभ): 1×1 = 6, 1×2 = 4, 1×3 = 2, 2×1 = 3, 2×2 = 2, 2×3 = 1. एकूण = 6 + 4 + 2 + 3 + 2 + 1 = 18."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "12 misses some of the bigger rectangles made from two or more small squares.",
+          "hi": "12 में दो या अधिक छोटे वर्गों से बने कुछ बड़े आयत छूट गए हैं।",
+          "mr": "12 मध्ये दोन किंवा अधिक लहान चौरसांनी बनलेले काही मोठे आयत राहिले आहेत."
+        },
+        "1": {
+          "en": "15 still misses three of the rectangles; check every size from 1×1 up to 2×3.",
+          "hi": "15 में अब भी तीन आयत छूट गए हैं; 1×1 से 2×3 तक हर आकार जाँचें।",
+          "mr": "15 मध्ये अजूनही तीन आयत राहिले आहेत; 1×1 पासून 2×3 पर्यंत प्रत्येक आकार तपासा."
+        },
+        "3": {
+          "en": "20 is an overcount; there are only 18 rectangles in this figure.",
+          "hi": "20 अधिक गिनती है; इस आकृति में केवल 18 आयत हैं।",
+          "mr": "20 ही जास्त मोजणी आहे; या आकृतीत फक्त 18 आयत आहेत."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-ma-24",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "A solid cube of side 4 cm is painted red on all its faces and then cut into 64 small cubes of side 1 cm each. How many small cubes have exactly one face painted red?",
+        "hi": "4 सेमी भुजा वाले एक ठोस घन के सभी फलकों को लाल रंग से रंगा जाता है और फिर उसे 1 सेमी भुजा वाले 64 छोटे घनों में काटा जाता है। कितने छोटे घनों का ठीक एक फलक लाल रंग का है?",
+        "mr": "4 सेमी बाजू असलेल्या एका ठोस घनाच्या सर्व पृष्ठांना लाल रंग दिला जातो आणि मग त्याचे 1 सेमी बाजूचे 64 लहान घन कापले जातात. किती लहान घनांचे ठीक एकच पृष्ठ लाल रंगाचे आहे?"
+      },
+      "optionsJson": [
+        { "en": "24", "hi": "24", "mr": "24" },
+        { "en": "8", "hi": "8", "mr": "8" },
+        { "en": "16", "hi": "16", "mr": "16" },
+        { "en": "32", "hi": "32", "mr": "32" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Each face of the big cube shows a 4 × 4 grid of small squares. The 4 corner cubes and 8 edge cubes on that face also touch other painted faces. Only the middle 2 × 2 = 4 cubes have exactly one painted face. With 6 faces, the total is 6 × 4 = 24.",
+        "hi": "बड़े घन के प्रत्येक फलक पर छोटे वर्गों का 4 × 4 जाल दिखता है। उस फलक के 4 कोने वाले घन और 8 किनारे वाले घन दूसरे रंगे हुए फलकों को भी छूते हैं। केवल बीच के 2 × 2 = 4 घनों का ठीक एक फलक रंगा होता है। 6 फलकों के लिए कुल 6 × 4 = 24।",
+        "mr": "मोठ्या घनाच्या प्रत्येक पृष्ठावर लहान चौरसांची 4 × 4 जाळी दिसते. त्या पृष्ठावरील 4 कोपऱ्यातील घन आणि 8 कडेचे घन इतर रंगवलेल्या पृष्ठांनाही स्पर्श करतात. फक्त मधल्या 2 × 2 = 4 घनांचे ठीक एकच पृष्ठ रंगलेले असते. 6 पृष्ठांसाठी एकूण 6 × 4 = 24."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Wrong: 8 is the number of corner cubes, and each corner cube has three painted faces, not one.",
+          "hi": "8 कोने वाले घनों की संख्या है, और प्रत्येक कोने वाले घन के तीन फलक रंगे होते हैं, एक नहीं।",
+          "mr": "8 ही कोपऱ्यातील घनांची संख्या आहे, आणि प्रत्येक कोपऱ्यातील घनाची तीन पृष्ठे रंगलेली असतात, एक नाही."
+        },
+        "2": {
+          "en": "16 is the number of small squares on a single face. It includes corner and edge cubes, which have more than one painted face.",
+          "hi": "16 एक फलक पर छोटे वर्गों की संख्या है। इसमें कोने और किनारे वाले घन भी शामिल हैं, जिनके एक से अधिक फलक रंगे होते हैं।",
+          "mr": "16 ही एका पृष्ठावरील लहान चौरसांची संख्या आहे. त्यात कोपऱ्यातील आणि कडेचे घन येतात, ज्यांची एकापेक्षा जास्त पृष्ठे रंगलेली असतात."
+        },
+        "3": {
+          "en": "Wrong: 32 adds the 8 corner cubes and the 24 edge cubes, which have three or two painted faces, not exactly one.",
+          "hi": "32 में 8 कोने वाले और 24 किनारे वाले घन जोड़े गए हैं, जिनके तीन या दो फलक रंगे होते हैं, ठीक एक नहीं।",
+          "mr": "32 मध्ये 8 कोपऱ्यातील आणि 24 कडेचे घन मिळवले आहेत, ज्यांची तीन किंवा दोन पृष्ठे रंगलेली असतात, ठीक एक नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-ma-25",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Eight friends P, Q, R, S, T, U, V and W sit around a circular table facing the centre. Going clockwise (as seen from above), they sit in the order P, Q, R, S, T, U, V, W. Who sits second to the left of the person sitting opposite R?",
+        "hi": "आठ मित्र P, Q, R, S, T, U, V और W एक गोल मेज़ के चारों ओर केंद्र की ओर मुख करके बैठे हैं। ऊपर से देखने पर घड़ी की दिशा में वे P, Q, R, S, T, U, V, W के क्रम में बैठे हैं। R के ठीक सामने बैठे व्यक्ति के बाएँ से दूसरे स्थान पर कौन बैठा है?",
+        "mr": "आठ मित्र P, Q, R, S, T, U, V आणि W हे गोल टेबलाभोवती केंद्राकडे तोंड करून बसले आहेत. वरून पाहिल्यास घड्याळाच्या दिशेने ते P, Q, R, S, T, U, V, W या क्रमाने बसले आहेत. R च्या अगदी समोर बसलेल्या व्यक्तीच्या डावीकडून दुसरी व्यक्ती कोण आहे?"
+      },
+      "optionsJson": [
+        { "en": "W", "hi": "W", "mr": "W" },
+        { "en": "P", "hi": "P", "mr": "P" },
+        { "en": "T", "hi": "T", "mr": "T" },
+        { "en": "U", "hi": "U", "mr": "U" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "R is 3rd in the clockwise order, so the person opposite is 4 places away: V. Facing the centre, a person's left is the clockwise direction. From V, the first to the left is W and the second is P.",
+        "hi": "R घड़ी की दिशा के क्रम में तीसरा है, इसलिए उसके सामने 4 स्थान दूर V बैठा है। केंद्र की ओर मुख करने पर व्यक्ति का बायाँ हाथ घड़ी की दिशा में होता है। V से बाएँ पहला W और दूसरा P है।",
+        "mr": "R हा घड्याळाच्या दिशेच्या क्रमात तिसरा आहे, म्हणून त्याच्या समोर 4 जागा पुढे V बसला आहे. केंद्राकडे तोंड केल्यावर व्यक्तीची डावी बाजू घड्याळाच्या दिशेला असते. V पासून डावीकडे पहिला W आणि दुसरा P आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "W is the first person to the left of V, not the second.",
+          "hi": "W, V के बाएँ पहला व्यक्ति है, दूसरा नहीं।",
+          "mr": "W हा V च्या डावीकडील पहिली व्यक्ती आहे, दुसरी नाही."
+        },
+        "2": {
+          "en": "T is second to the right of V, not second to the left.",
+          "hi": "T, V के दाएँ से दूसरा है, बाएँ से नहीं।",
+          "mr": "T हा V च्या उजवीकडून दुसरा आहे, डावीकडून नाही."
+        },
+        "3": {
+          "en": "U is the first person to the right of V, not to the left.",
+          "hi": "U, V के दाएँ पहला व्यक्ति है, बाएँ नहीं।",
+          "mr": "U हा V च्या उजवीकडील पहिली व्यक्ती आहे, डावीकडील नाही."
+        }
+      }
+    }
+  ]
+}

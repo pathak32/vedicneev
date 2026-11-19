@@ -1,0 +1,859 @@
+{
+  "examType": "AISSEE",
+  "classLevel": 9,
+  "paperNumber": 5,
+  "sectionKey": "general_knowledge",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "aissee9-p5-gk-01",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "In economics, the total value of all final goods and services produced within a country in a year is measured by GDP. What does GDP stand for?",
+        "hi": "अर्थशास्त्र में किसी देश के भीतर एक वर्ष में उत्पादित सभी अंतिम वस्तुओं और सेवाओं का कुल मूल्य GDP से मापा जाता है। GDP का पूरा नाम क्या है?"
+      },
+      "optionsJson": [
+        { "en": "General Domestic Production", "hi": "जनरल डोमेस्टिक प्रोडक्शन" },
+        { "en": "Gross Domestic Product", "hi": "ग्रॉस डोमेस्टिक प्रोडक्ट (सकल घरेलू उत्पाद)" },
+        { "en": "Gross Development Plan", "hi": "ग्रॉस डेवलपमेंट प्लान" },
+        { "en": "Government Domestic Price", "hi": "गवर्नमेंट डोमेस्टिक प्राइस" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "GDP stands for Gross Domestic Product. It is the total market value of all final goods and services produced within a country's borders in a given period, usually a year.",
+        "hi": "GDP का अर्थ है सकल घरेलू उत्पाद (ग्रॉस डोमेस्टिक प्रोडक्ट)। यह किसी देश की सीमाओं के भीतर एक निश्चित अवधि, प्रायः एक वर्ष, में उत्पादित सभी अंतिम वस्तुओं और सेवाओं का कुल बाजार मूल्य है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "This is not the standard expansion of GDP; the measure is of the product (output) valued at market prices, not of general production.",
+          "hi": "यह GDP का मानक पूर्ण रूप नहीं है; यह माप बाजार मूल्य पर उत्पाद (उत्पादन) का है, सामान्य उत्पादन का नहीं।"
+        },
+        "2": {
+          "en": "GDP measures output, not a development plan; a plan is a policy document, not a measure of production.",
+          "hi": "GDP उत्पादन को मापता है, विकास योजना को नहीं; योजना एक नीतिगत दस्तावेज है, उत्पादन का माप नहीं।"
+        },
+        "3": {
+          "en": "GDP is not about a government price; it measures the value of production, not the price set by a government.",
+          "hi": "GDP का संबंध किसी सरकारी मूल्य से नहीं है; यह उत्पादन के मूल्य को मापता है, सरकार द्वारा तय कीमत को नहीं।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-gk-02",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Who is regarded as the father of the Indian space programme?",
+        "hi": "भारतीय अंतरिक्ष कार्यक्रम के जनक किसे माना जाता है?"
+      },
+      "optionsJson": [
+        { "en": "Dr. Vikram Sarabhai", "hi": "डॉ. विक्रम साराभाई" },
+        { "en": "Dr. Homi J. Bhabha", "hi": "डॉ. होमी जे. भाभा" },
+        { "en": "Dr. C. V. Raman", "hi": "डॉ. सी. वी. रमन" },
+        { "en": "Dr. A. P. J. Abdul Kalam", "hi": "डॉ. ए. पी. जे. अब्दुल कलाम" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Dr. Vikram Sarabhai laid the foundation of India's space programme and helped set up the Indian Space Research Organisation (ISRO), so he is called its father.",
+        "hi": "डॉ. विक्रम साराभाई ने भारत के अंतरिक्ष कार्यक्रम की नींव रखी और भारतीय अंतरिक्ष अनुसंधान संगठन (इसरो) की स्थापना में सहायता की, इसलिए उन्हें इसका जनक कहा जाता है।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Homi J. Bhabha is regarded as the father of India's nuclear programme, not the space programme.",
+          "hi": "होमी जे. भाभा को भारत के परमाणु कार्यक्रम का जनक माना जाता है, अंतरिक्ष कार्यक्रम का नहीं।"
+        },
+        "2": {
+          "en": "C. V. Raman was a Nobel-winning physicist known for the Raman effect, not the founder of the space programme.",
+          "hi": "सी. वी. रमन रमन प्रभाव के लिए प्रसिद्ध नोबेल विजेता भौतिक विज्ञानी थे, अंतरिक्ष कार्यक्रम के संस्थापक नहीं।"
+        },
+        "3": {
+          "en": "A. P. J. Abdul Kalam is known as the Missile Man of India for his work on missiles and launch vehicles, not as the father of the space programme.",
+          "hi": "ए. पी. जे. अब्दुल कलाम मिसाइलों और प्रक्षेपण यानों पर अपने कार्य के कारण भारत के मिसाइल मैन के रूप में जाने जाते हैं, अंतरिक्ष कार्यक्रम के जनक के रूप में नहीं।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-gk-03",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which of the following is a direct tax in India?",
+        "hi": "निम्नलिखित में से कौन-सा भारत में एक प्रत्यक्ष कर है?"
+      },
+      "optionsJson": [
+        { "en": "Goods and Services Tax (GST)", "hi": "वस्तु एवं सेवा कर (GST)" },
+        { "en": "Customs duty", "hi": "सीमा शुल्क" },
+        { "en": "Income tax", "hi": "आयकर" },
+        { "en": "Excise duty", "hi": "उत्पाद शुल्क" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "A direct tax is paid directly to the government by the person on whom it is levied and its burden cannot be passed on to others. Income tax is a direct tax.",
+        "hi": "प्रत्यक्ष कर वह है जो जिस व्यक्ति पर लगाया जाता है वह उसे सीधे सरकार को चुकाता है और उसका बोझ दूसरों पर नहीं डाला जा सकता। आयकर एक प्रत्यक्ष कर है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "GST is an indirect tax: the seller collects it from buyers as part of the price and passes it to the government.",
+          "hi": "GST एक अप्रत्यक्ष कर है: विक्रेता इसे कीमत के हिस्से के रूप में खरीदारों से वसूलकर सरकार को देता है।"
+        },
+        "1": {
+          "en": "Customs duty is an indirect tax charged on goods imported into or exported from the country, and it is passed on in the price.",
+          "hi": "सीमा शुल्क एक अप्रत्यक्ष कर है जो देश में आयात या देश से निर्यात होने वाली वस्तुओं पर लगता है और कीमत में जुड़ जाता है।"
+        },
+        "3": {
+          "en": "Excise duty is an indirect tax on the manufacture of certain goods, and manufacturers pass it on to consumers through prices.",
+          "hi": "उत्पाद शुल्क कुछ वस्तुओं के निर्माण पर लगने वाला अप्रत्यक्ष कर है, जिसे निर्माता कीमतों के माध्यम से उपभोक्ताओं पर डाल देते हैं।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-gk-04",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Which of the following is a renewable source of energy?",
+        "hi": "निम्नलिखित में से कौन-सा ऊर्जा का नवीकरणीय स्रोत है?"
+      },
+      "optionsJson": [
+        { "en": "Coal", "hi": "कोयला" },
+        { "en": "Petroleum", "hi": "पेट्रोलियम" },
+        { "en": "Natural gas", "hi": "प्राकृतिक गैस" },
+        { "en": "Biogas made from cattle dung", "hi": "गोबर से बनी बायोगैस" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Biogas is produced from cattle dung and farm waste, which are constantly replenished, so it is renewable. Coal, petroleum and natural gas are fossil fuels that took millions of years to form.",
+        "hi": "बायोगैस गोबर और कृषि अपशिष्ट से बनती है, जो लगातार उपलब्ध होते रहते हैं, इसलिए यह नवीकरणीय है। कोयला, पेट्रोलियम और प्राकृतिक गैस जीवाश्म ईंधन हैं, जिन्हें बनने में लाखों वर्ष लगे।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Coal is a fossil fuel formed over millions of years and cannot be replaced within a human lifetime.",
+          "hi": "कोयला एक जीवाश्म ईंधन है जो लाखों वर्षों में बना और मानव जीवनकाल में पुनः नहीं बनाया जा सकता।"
+        },
+        "1": {
+          "en": "Petroleum is a fossil fuel; its reserves are limited and non-renewable.",
+          "hi": "पेट्रोलियम एक जीवाश्म ईंधन है; इसके भंडार सीमित और अनवीकरणीय हैं।"
+        },
+        "2": {
+          "en": "Natural gas is also a fossil fuel found underground and gets exhausted with use.",
+          "hi": "प्राकृतिक गैस भी भूमिगत पाया जाने वाला जीवाश्म ईंधन है और उपयोग से समाप्त हो जाती है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-gk-05",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Which part of a computer is called its 'brain' because it carries out instructions and processes data?",
+        "hi": "कंप्यूटर के किस भाग को उसका 'मस्तिष्क' कहा जाता है, क्योंकि वह निर्देशों को निष्पादित करता है और डेटा को संसाधित करता है?"
+      },
+      "optionsJson": [
+        { "en": "Central Processing Unit (CPU)", "hi": "केंद्रीय प्रसंस्करण इकाई (सीपीयू)" },
+        { "en": "Monitor", "hi": "मॉनिटर" },
+        { "en": "Keyboard", "hi": "कीबोर्ड" },
+        { "en": "Speaker", "hi": "स्पीकर" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "The CPU executes program instructions and performs calculations and decisions, which is why it is called the brain of the computer.",
+        "hi": "सीपीयू प्रोग्राम के निर्देशों को निष्पादित करता है तथा गणनाएँ और निर्णय करता है, इसीलिए इसे कंप्यूटर का मस्तिष्क कहा जाता है।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "A monitor is an output device that only displays information.",
+          "hi": "मॉनिटर एक आउटपुट उपकरण है जो केवल जानकारी प्रदर्शित करता है।"
+        },
+        "2": {
+          "en": "A keyboard is an input device used to type data; it does not process it.",
+          "hi": "कीबोर्ड डेटा टाइप करने का इनपुट उपकरण है; यह उसे संसाधित नहीं करता।"
+        },
+        "3": {
+          "en": "A speaker is an output device that produces sound and does not process instructions.",
+          "hi": "स्पीकर ध्वनि उत्पन्न करने वाला आउटपुट उपकरण है और निर्देशों को संसाधित नहीं करता।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-gk-06",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "The economic system in which both the public sector (government) and the private sector play important roles, as in India, is called a:",
+        "hi": "वह आर्थिक व्यवस्था, जिसमें सार्वजनिक क्षेत्र (सरकार) और निजी क्षेत्र दोनों की महत्वपूर्ण भूमिका होती है, जैसा कि भारत में है, क्या कहलाती है?"
+      },
+      "optionsJson": [
+        { "en": "Capitalist economy", "hi": "पूँजीवादी अर्थव्यवस्था" },
+        { "en": "Socialist economy", "hi": "समाजवादी अर्थव्यवस्था" },
+        { "en": "Traditional economy", "hi": "पारंपरिक अर्थव्यवस्था" },
+        { "en": "Mixed economy", "hi": "मिश्रित अर्थव्यवस्था" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "In a mixed economy, the government and private enterprises co-exist and both take part in production and investment. India follows a mixed economy.",
+        "hi": "मिश्रित अर्थव्यवस्था में सरकार और निजी उद्यम साथ-साथ रहते हैं और दोनों उत्पादन तथा निवेश में भाग लेते हैं। भारत में मिश्रित अर्थव्यवस्था अपनाई गई है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "In a capitalist economy, private individuals and firms own most resources and the government's role is limited.",
+          "hi": "पूँजीवादी अर्थव्यवस्था में अधिकांश संसाधनों पर निजी व्यक्तियों और कंपनियों का स्वामित्व होता है और सरकार की भूमिका सीमित होती है।"
+        },
+        "1": {
+          "en": "In a socialist economy, the government owns and controls most resources and industries.",
+          "hi": "समाजवादी अर्थव्यवस्था में अधिकांश संसाधनों और उद्योगों पर सरकार का स्वामित्व और नियंत्रण होता है।"
+        },
+        "2": {
+          "en": "A traditional economy depends on customs, barter and subsistence farming rather than on organised public and private sectors.",
+          "hi": "पारंपरिक अर्थव्यवस्था संगठित सार्वजनिक और निजी क्षेत्रों पर नहीं, बल्कि रीति-रिवाजों, वस्तु-विनिमय और जीवन-निर्वाह कृषि पर निर्भर होती है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-gk-07",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "India's Mars Orbiter Mission (Mangalyaan) entered the orbit of Mars in which year, making India the first Asian country to do so?",
+        "hi": "भारत के मंगल कक्षित्र मिशन (मंगलयान) ने किस वर्ष मंगल की कक्षा में प्रवेश किया, जिससे भारत ऐसा करने वाला पहला एशियाई देश बना?"
+      },
+      "optionsJson": [
+        { "en": "2008", "hi": "2008" },
+        { "en": "2011", "hi": "2011" },
+        { "en": "2014", "hi": "2014" },
+        { "en": "2016", "hi": "2016" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Mangalyaan was launched in November 2013 and entered Mars orbit on 24 September 2014, making India the first country to succeed on its first attempt.",
+        "hi": "मंगलयान नवंबर 2013 में प्रक्षेपित हुआ और 24 सितंबर 2014 को मंगल की कक्षा में पहुँचा, जिससे भारत पहले ही प्रयास में सफल होने वाला पहला देश बना।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "2008 is the year of Chandrayaan-1, India's first Moon mission, not the Mars orbit insertion.",
+          "hi": "2008 चंद्रयान-1, भारत के पहले चंद्र मिशन, का वर्ष है, मंगल की कक्षा में प्रवेश का नहीं।"
+        },
+        "1": {
+          "en": "The mission had not yet been launched in 2011; it was launched in 2013.",
+          "hi": "2011 में यह मिशन अभी प्रक्षेपित नहीं हुआ था; इसे 2013 में प्रक्षेपित किया गया।"
+        },
+        "3": {
+          "en": "By 2016 the spacecraft had already been orbiting Mars for about two years.",
+          "hi": "2016 तक यान लगभग दो वर्ष से मंगल की परिक्रमा कर रहा था।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-gk-08",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which greenhouse gas is released in large amounts from paddy fields, marshy wetlands and the digestion of cattle?",
+        "hi": "धान के खेतों, दलदली आर्द्रभूमियों और पशुओं के पाचन से बड़ी मात्रा में कौन-सी ग्रीनहाउस गैस निकलती है?"
+      },
+      "optionsJson": [
+        { "en": "Oxygen", "hi": "ऑक्सीजन" },
+        { "en": "Methane", "hi": "मीथेन" },
+        { "en": "Nitrogen", "hi": "नाइट्रोजन" },
+        { "en": "Helium", "hi": "हीलियम" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Methane is produced when organic matter decays without oxygen, as in waterlogged paddy fields and wetlands and in the stomachs of cattle. It traps heat strongly and contributes to global warming.",
+        "hi": "मीथेन तब बनती है जब जैविक पदार्थ ऑक्सीजन की अनुपस्थिति में सड़ते हैं, जैसे जलमग्न धान के खेतों, आर्द्रभूमियों और पशुओं के पेट में। यह ऊष्मा को प्रबल रूप से रोकती है और भूमंडलीय तापन में योगदान देती है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Oxygen is released by photosynthesis and is not a greenhouse gas.",
+          "hi": "ऑक्सीजन प्रकाश-संश्लेषण से निकलती है और यह ग्रीनहाउस गैस नहीं है।"
+        },
+        "2": {
+          "en": "Nitrogen is the most abundant gas in air but is not a greenhouse gas and is not produced this way.",
+          "hi": "नाइट्रोजन वायु में सबसे अधिक पाई जाने वाली गैस है, पर यह ग्रीनहाउस गैस नहीं है और इस प्रकार नहीं बनती।"
+        },
+        "3": {
+          "en": "Helium is an inert gas and is not a greenhouse gas.",
+          "hi": "हीलियम एक अक्रिय गैस है और ग्रीनहाउस गैस नहीं है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-gk-09",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Who wrote the book \"The Discovery of India\" during his imprisonment at Ahmednagar Fort?",
+        "hi": "अहमदनगर किले में अपने कारावास के दौरान \"द डिस्कवरी ऑफ इंडिया\" पुस्तक किसने लिखी?"
+      },
+      "optionsJson": [
+        { "en": "Mahatma Gandhi", "hi": "महात्मा गांधी" },
+        { "en": "Rabindranath Tagore", "hi": "रवींद्रनाथ टैगोर" },
+        { "en": "Jawaharlal Nehru", "hi": "जवाहरलाल नेहरू" },
+        { "en": "Sardar Vallabhbhai Patel", "hi": "सरदार वल्लभभाई पटेल" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Jawaharlal Nehru wrote \"The Discovery of India\" in 1944 while imprisoned at Ahmednagar Fort; it was published in 1946.",
+        "hi": "जवाहरलाल नेहरू ने 1944 में अहमदनगर किले में कारावास के दौरान \"द डिस्कवरी ऑफ इंडिया\" लिखी; यह 1946 में प्रकाशित हुई।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Gandhi wrote \"My Experiments with Truth\" (autobiography) and \"Hind Swaraj\", not this book.",
+          "hi": "गांधीजी ने \"सत्य के प्रयोग\" (आत्मकथा) और \"हिंद स्वराज\" लिखी, यह पुस्तक नहीं।"
+        },
+        "1": {
+          "en": "Tagore is known for \"Gitanjali\" and many poems and novels, not this book.",
+          "hi": "टैगोर \"गीतांजलि\" तथा अनेक कविताओं और उपन्यासों के लिए जाने जाते हैं, इस पुस्तक के लिए नहीं।"
+        },
+        "3": {
+          "en": "Sardar Patel is known for integrating the princely states; he did not write this book.",
+          "hi": "सरदार पटेल रियासतों के एकीकरण के लिए जाने जाते हैं; उन्होंने यह पुस्तक नहीं लिखी।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-gk-10",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Optical fibres used in telecommunication and in medical endoscopes work on the principle of:",
+        "hi": "दूरसंचार और चिकित्सा एंडोस्कोप में प्रयुक्त प्रकाशीय तंतु (ऑप्टिकल फाइबर) किस सिद्धांत पर कार्य करते हैं?"
+      },
+      "optionsJson": [
+        { "en": "Total internal reflection of light", "hi": "प्रकाश का पूर्ण आंतरिक परावर्तन" },
+        { "en": "Dispersion of light", "hi": "प्रकाश का वर्ण-विक्षेपण" },
+        { "en": "Diffraction of light", "hi": "प्रकाश का विवर्तन" },
+        { "en": "Polarisation of light", "hi": "प्रकाश का ध्रुवण" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Light entering an optical fibre strikes its inner wall at an angle larger than the critical angle and is totally reflected again and again, so it travels along the fibre with very little loss.",
+        "hi": "प्रकाशीय तंतु में प्रवेश करने वाला प्रकाश उसकी भीतरी दीवार से क्रांतिक कोण से बड़े कोण पर टकराता है और बार-बार पूर्णतः परावर्तित होता है, इसलिए वह बहुत कम हानि के साथ तंतु के अनुदिश चलता है।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Dispersion is the splitting of white light into its colours, as in a prism; it is not how fibres guide light.",
+          "hi": "वर्ण-विक्षेपण श्वेत प्रकाश का रंगों में बँटना है, जैसा प्रिज्म में होता है; तंतु इस प्रकार प्रकाश का मार्गदर्शन नहीं करते।"
+        },
+        "2": {
+          "en": "Diffraction is the bending of light around obstacles or slits; it does not keep light inside a fibre.",
+          "hi": "विवर्तन प्रकाश का अवरोधों या झिरियों के किनारों पर मुड़ना है; यह प्रकाश को तंतु के भीतर नहीं रखता।"
+        },
+        "3": {
+          "en": "Polarisation restricts light vibrations to one plane; it is not the working principle of optical fibres.",
+          "hi": "ध्रुवण प्रकाश के कंपनों को एक तल तक सीमित करता है; यह प्रकाशीय तंतुओं का कार्य-सिद्धांत नहीं है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-gk-11",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "The difference between the value of a country's exports of goods and the value of its imports of goods is called its:",
+        "hi": "किसी देश द्वारा वस्तुओं के निर्यात के मूल्य और वस्तुओं के आयात के मूल्य के अंतर को क्या कहते हैं?"
+      },
+      "optionsJson": [
+        { "en": "Balance of payments", "hi": "भुगतान संतुलन" },
+        { "en": "Balance of trade", "hi": "व्यापार संतुलन" },
+        { "en": "Fiscal deficit", "hi": "राजकोषीय घाटा" },
+        { "en": "National income", "hi": "राष्ट्रीय आय" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Balance of trade is the difference between the value of goods exported and goods imported. It is a trade surplus if exports exceed imports and a trade deficit if imports exceed exports.",
+        "hi": "व्यापार संतुलन निर्यात की गई और आयात की गई वस्तुओं के मूल्य का अंतर है। निर्यात अधिक होने पर यह व्यापार अधिशेष और आयात अधिक होने पर व्यापार घाटा कहलाता है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Balance of payments is a wider record that also includes services, capital flows and transfers, not only trade in goods.",
+          "hi": "भुगतान संतुलन एक व्यापक लेखा है जिसमें सेवाएँ, पूँजी प्रवाह और अंतरण भी शामिल होते हैं, केवल वस्तुओं का व्यापार नहीं।"
+        },
+        "2": {
+          "en": "Fiscal deficit is the gap between the government's total spending and its total receipts excluding borrowing; it is unrelated to exports and imports.",
+          "hi": "राजकोषीय घाटा सरकार के कुल व्यय और उधार को छोड़कर कुल प्राप्तियों का अंतर है; इसका निर्यात और आयात से संबंध नहीं है।"
+        },
+        "3": {
+          "en": "National income is the total income earned by a country's residents, not a comparison of exports and imports.",
+          "hi": "राष्ट्रीय आय किसी देश के निवासियों द्वारा अर्जित कुल आय है, निर्यात और आयात की तुलना नहीं।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-gk-12",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which Indian organisation is responsible for the research and development of military technology, including missiles such as Agni and Prithvi?",
+        "hi": "अग्नि और पृथ्वी जैसी मिसाइलों सहित सैन्य प्रौद्योगिकी के अनुसंधान और विकास के लिए कौन-सा भारतीय संगठन उत्तरदायी है?"
+      },
+      "optionsJson": [
+        { "en": "ISRO", "hi": "इसरो (ISRO)" },
+        { "en": "BARC", "hi": "बार्क (BARC)" },
+        { "en": "HAL", "hi": "एचएएल (HAL)" },
+        { "en": "DRDO", "hi": "डीआरडीओ (DRDO)" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "The Defence Research and Development Organisation (DRDO) develops weapons and defence technology for the armed forces, including the Agni and Prithvi missiles under the Integrated Guided Missile Development Programme.",
+        "hi": "रक्षा अनुसंधान एवं विकास संगठन (DRDO) सशस्त्र बलों के लिए हथियार और रक्षा प्रौद्योगिकी विकसित करता है, जिसमें एकीकृत निर्देशित मिसाइल विकास कार्यक्रम के अंतर्गत अग्नि और पृथ्वी मिसाइलें शामिल हैं।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "ISRO is India's space agency, responsible for satellites and launch vehicles.",
+          "hi": "इसरो भारत की अंतरिक्ष एजेंसी है, जो उपग्रहों और प्रक्षेपण यानों के लिए उत्तरदायी है।"
+        },
+        "1": {
+          "en": "BARC (Bhabha Atomic Research Centre) works on nuclear science and technology, mainly for atomic energy.",
+          "hi": "बार्क (भाभा परमाणु अनुसंधान केंद्र) मुख्यतः परमाणु ऊर्जा के लिए परमाणु विज्ञान और प्रौद्योगिकी पर कार्य करता है।"
+        },
+        "2": {
+          "en": "HAL (Hindustan Aeronautics Limited) manufactures aircraft and helicopters; it is not the main missile research body.",
+          "hi": "एचएएल (हिंदुस्तान एयरोनॉटिक्स लिमिटेड) विमान और हेलीकॉप्टर बनाता है; यह मिसाइल अनुसंधान की मुख्य संस्था नहीं है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-gk-13",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which soil, formed from volcanic basalt rock and rich in moisture-retaining clay, is considered ideal for growing cotton?",
+        "hi": "ज्वालामुखी बेसाल्ट चट्टान से बनी और नमी बनाए रखने वाली चिकनी मिट्टी से भरपूर कौन-सी मृदा कपास उगाने के लिए आदर्श मानी जाती है?"
+      },
+      "optionsJson": [
+        { "en": "Alluvial soil", "hi": "जलोढ़ मृदा" },
+        { "en": "Red soil", "hi": "लाल मृदा" },
+        { "en": "Black (regur) soil", "hi": "काली (रेगुर) मृदा" },
+        { "en": "Laterite soil", "hi": "लैटेराइट मृदा" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Black soil, also called regur soil, forms from weathered basalt lava in the Deccan plateau. It holds moisture well, so it is ideal for cotton.",
+        "hi": "काली मृदा, जिसे रेगुर मृदा भी कहते हैं, दक्कन के पठार में अपक्षयित बेसाल्ट लावा से बनती है। यह नमी को भली-भाँति रोकती है, इसलिए कपास के लिए आदर्श है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Alluvial soil is deposited by rivers in the northern plains and is not formed from basalt.",
+          "hi": "जलोढ़ मृदा उत्तरी मैदानों में नदियों द्वारा जमा की जाती है और बेसाल्ट से नहीं बनती।"
+        },
+        "1": {
+          "en": "Red soil forms from crystalline rocks such as granite and gneiss and does not retain moisture well.",
+          "hi": "लाल मृदा ग्रेनाइट और नाइस जैसी रवेदार चट्टानों से बनती है और नमी को अधिक नहीं रोकती।"
+        },
+        "3": {
+          "en": "Laterite soil forms by heavy leaching in hot, rainy regions and is poor in nutrients and clay-based moisture retention.",
+          "hi": "लैटेराइट मृदा गर्म, वर्षा वाले क्षेत्रों में तीव्र निक्षालन से बनती है और पोषक तत्वों में निर्धन होती है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-gk-14",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "A communication satellite that appears fixed over one spot on Earth is placed in the geostationary orbit. At roughly what height above the equator does this orbit lie?",
+        "hi": "पृथ्वी पर एक स्थान के ऊपर स्थिर दिखाई देने वाला संचार उपग्रह भू-स्थिर कक्षा में स्थापित किया जाता है। यह कक्षा भूमध्य रेखा से लगभग कितनी ऊँचाई पर है?"
+      },
+      "optionsJson": [
+        { "en": "About 36,000 km", "hi": "लगभग 36,000 किमी" },
+        { "en": "About 3,600 km", "hi": "लगभग 3,600 किमी" },
+        { "en": "About 400 km", "hi": "लगभग 400 किमी" },
+        { "en": "About 3,60,000 km", "hi": "लगभग 3,60,000 किमी" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "A geostationary satellite orbits about 36,000 km above the equator, where one orbit takes 24 hours, the same as Earth's rotation. So it stays above the same point.",
+        "hi": "भू-स्थिर उपग्रह भूमध्य रेखा से लगभग 36,000 किमी ऊपर परिक्रमा करता है, जहाँ एक परिक्रमा में 24 घंटे लगते हैं, जो पृथ्वी के घूर्णन के बराबर है। इसलिए वह एक ही बिंदु के ऊपर बना रहता है।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "At about 3,600 km a satellite would circle Earth in only a couple of hours and would not stay above one point.",
+          "hi": "लगभग 3,600 किमी पर उपग्रह कुछ ही घंटों में पृथ्वी का चक्कर लगा लेगा और एक बिंदु के ऊपर स्थिर नहीं रहेगा।"
+        },
+        "2": {
+          "en": "About 400 km is the height of low Earth orbit, where the International Space Station orbits, far below geostationary height.",
+          "hi": "लगभग 400 किमी निम्न भू-कक्षा की ऊँचाई है, जहाँ अंतरराष्ट्रीय अंतरिक्ष स्टेशन परिक्रमा करता है; यह भू-स्थिर ऊँचाई से बहुत कम है।"
+        },
+        "3": {
+          "en": "About 3,60,000 km is close to the distance of the Moon from Earth, much farther than any geostationary orbit.",
+          "hi": "लगभग 3,60,000 किमी पृथ्वी से चंद्रमा की दूरी के निकट है, जो किसी भी भू-स्थिर कक्षा से बहुत अधिक है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-gk-15",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Acid rain is mainly caused by the release of which pair of gases into the atmosphere?",
+        "hi": "अम्ल वर्षा मुख्यतः वायुमंडल में किन गैसों के युग्म के निकलने से होती है?"
+      },
+      "optionsJson": [
+        { "en": "Carbon monoxide and hydrogen", "hi": "कार्बन मोनोऑक्साइड और हाइड्रोजन" },
+        { "en": "Sulphur dioxide and oxides of nitrogen", "hi": "सल्फर डाइऑक्साइड और नाइट्रोजन के ऑक्साइड" },
+        { "en": "Argon and neon", "hi": "आर्गन और नियॉन" },
+        { "en": "Oxygen and nitrogen", "hi": "ऑक्सीजन और नाइट्रोजन" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Burning coal and petrol or diesel releases sulphur dioxide and nitrogen oxides, which dissolve in rain water to form sulphuric and nitric acids and fall as acid rain.",
+        "hi": "कोयला और पेट्रोल या डीजल जलने से सल्फर डाइऑक्साइड और नाइट्रोजन के ऑक्साइड निकलते हैं, जो वर्षा जल में घुलकर सल्फ्यूरिक और नाइट्रिक अम्ल बनाते हैं और अम्ल वर्षा के रूप में गिरते हैं।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Carbon monoxide is a poisonous gas from incomplete burning, and hydrogen does not form acids in rain; neither is the main cause of acid rain.",
+          "hi": "कार्बन मोनोऑक्साइड अपूर्ण दहन से बनी विषैली गैस है और हाइड्रोजन वर्षा में अम्ल नहीं बनाती; दोनों अम्ल वर्षा के मुख्य कारण नहीं हैं।"
+        },
+        "2": {
+          "en": "Argon and neon are inert noble gases that do not react with rain water.",
+          "hi": "आर्गन और नियॉन अक्रिय उत्कृष्ट गैसें हैं जो वर्षा जल से अभिक्रिया नहीं करतीं।"
+        },
+        "3": {
+          "en": "Oxygen and nitrogen are the main gases of normal air and do not make rain acidic on their own.",
+          "hi": "ऑक्सीजन और नाइट्रोजन सामान्य वायु की मुख्य गैसें हैं और अपने आप वर्षा को अम्लीय नहीं बनातीं।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-gk-16",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which of the following is a main battle tank developed in India?",
+        "hi": "निम्नलिखित में से कौन-सा भारत में विकसित मुख्य युद्धक टैंक है?"
+      },
+      "optionsJson": [
+        { "en": "Tejas", "hi": "तेजस" },
+        { "en": "Vikrant", "hi": "विक्रांत" },
+        { "en": "Pinaka", "hi": "पिनाका" },
+        { "en": "Arjun", "hi": "अर्जुन" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Arjun is the main battle tank designed and developed in India and inducted into the Indian Army.",
+        "hi": "अर्जुन भारत में डिज़ाइन और विकसित किया गया मुख्य युद्धक टैंक है, जिसे भारतीय सेना में शामिल किया गया है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Tejas is a light combat fighter aircraft, not a tank.",
+          "hi": "तेजस एक हल्का लड़ाकू विमान है, टैंक नहीं।"
+        },
+        "1": {
+          "en": "INS Vikrant is an aircraft carrier of the Indian Navy.",
+          "hi": "आईएनएस विक्रांत भारतीय नौसेना का विमानवाहक पोत है।"
+        },
+        "2": {
+          "en": "Pinaka is a multiple rocket launcher system, not a tank.",
+          "hi": "पिनाका एक बहु-रॉकेट प्रक्षेपण प्रणाली है, टैंक नहीं।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-gk-17",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "The Ramsar Convention is an international treaty for the conservation and wise use of which type of ecosystem?",
+        "hi": "रामसर कन्वेंशन किस प्रकार के पारिस्थितिकी तंत्र के संरक्षण और विवेकपूर्ण उपयोग के लिए एक अंतरराष्ट्रीय संधि है?"
+      },
+      "optionsJson": [
+        { "en": "Coral reefs", "hi": "प्रवाल भित्तियाँ" },
+        { "en": "Mountain glaciers", "hi": "पर्वतीय हिमनद" },
+        { "en": "Wetlands", "hi": "आर्द्रभूमियाँ" },
+        { "en": "Hot deserts", "hi": "गर्म मरुस्थल" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The Ramsar Convention, signed in 1971 in the Iranian city of Ramsar, protects wetlands of international importance, such as Chilika Lake and Keoladeo National Park in India.",
+        "hi": "1971 में ईरान के रामसर नगर में हस्ताक्षरित रामसर कन्वेंशन अंतरराष्ट्रीय महत्व की आर्द्रभूमियों की रक्षा करता है, जैसे भारत में चिल्का झील और केवलादेव राष्ट्रीय उद्यान।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Coral reefs are marine ecosystems; they are not the focus of the Ramsar Convention.",
+          "hi": "प्रवाल भित्तियाँ समुद्री पारिस्थितिकी तंत्र हैं; ये रामसर कन्वेंशन का केंद्र नहीं हैं।"
+        },
+        "1": {
+          "en": "Glaciers are covered by other efforts on climate and mountains, not by the Ramsar Convention.",
+          "hi": "हिमनद जलवायु और पर्वतों से जुड़े अन्य प्रयासों के अंतर्गत आते हैं, रामसर कन्वेंशन के नहीं।"
+        },
+        "3": {
+          "en": "Deserts are addressed by a separate convention to combat desertification, not by Ramsar.",
+          "hi": "मरुस्थलों के लिए मरुस्थलीकरण से निपटने की अलग संधि है, रामसर नहीं।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-gk-18",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "The Unified Payments Interface (UPI), widely used for instant digital payments in India, was developed by which organisation?",
+        "hi": "भारत में तत्काल डिजिटल भुगतान के लिए व्यापक रूप से प्रयुक्त एकीकृत भुगतान इंटरफ़ेस (UPI) किस संस्था ने विकसित किया?"
+      },
+      "optionsJson": [
+        { "en": "National Payments Corporation of India (NPCI)", "hi": "भारतीय राष्ट्रीय भुगतान निगम (NPCI)" },
+        { "en": "Securities and Exchange Board of India (SEBI)", "hi": "भारतीय प्रतिभूति और विनिमय बोर्ड (सेबी)" },
+        { "en": "National Bank for Agriculture and Rural Development (NABARD)", "hi": "राष्ट्रीय कृषि और ग्रामीण विकास बैंक (नाबार्ड)" },
+        { "en": "Insurance Regulatory and Development Authority of India (IRDAI)", "hi": "भारतीय बीमा विनियामक और विकास प्राधिकरण (आईआरडीएआई)" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "UPI was developed by the National Payments Corporation of India, an umbrella body for retail payments, and lets users send money instantly between bank accounts through a mobile phone.",
+        "hi": "UPI को भारतीय राष्ट्रीय भुगतान निगम ने विकसित किया, जो खुदरा भुगतान की शीर्ष संस्था है। इससे उपयोगकर्ता मोबाइल फोन से बैंक खातों के बीच तुरंत धन भेज सकते हैं।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "SEBI regulates the securities market (shares and mutual funds), not payment systems.",
+          "hi": "सेबी प्रतिभूति बाजार (शेयर और म्यूचुअल फंड) का नियमन करता है, भुगतान प्रणालियों का नहीं।"
+        },
+        "2": {
+          "en": "NABARD is a development bank for agriculture and rural credit.",
+          "hi": "नाबार्ड कृषि और ग्रामीण ऋण के लिए विकास बैंक है।"
+        },
+        "3": {
+          "en": "IRDAI regulates the insurance sector and did not develop UPI.",
+          "hi": "आईआरडीएआई बीमा क्षेत्र का नियमन करता है और उसने UPI विकसित नहीं किया।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-gk-19",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which Indus Valley Civilisation site in Gujarat is famous for its dockyard?",
+        "hi": "गुजरात में स्थित सिंधु घाटी सभ्यता का कौन-सा स्थल अपने गोदी-बाड़े (डॉकयार्ड) के लिए प्रसिद्ध है?"
+      },
+      "optionsJson": [
+        { "en": "Kalibangan", "hi": "कालीबंगा" },
+        { "en": "Lothal", "hi": "लोथल" },
+        { "en": "Ropar", "hi": "रोपड़" },
+        { "en": "Banawali", "hi": "बनावली" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Lothal in Gujarat has the remains of a large dockyard, showing that the Harappans carried on sea trade.",
+        "hi": "गुजरात के लोथल में एक विशाल गोदी-बाड़े के अवशेष मिले हैं, जो दर्शाते हैं कि हड़प्पावासी समुद्री व्यापार करते थे।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Kalibangan is in Rajasthan and is known for fire altars and ploughed fields, not a dockyard.",
+          "hi": "कालीबंगा राजस्थान में है और अग्नि-वेदियों तथा जुते खेतों के लिए जाना जाता है, गोदी-बाड़े के लिए नहीं।"
+        },
+        "2": {
+          "en": "Ropar is in Punjab and is not in Gujarat.",
+          "hi": "रोपड़ पंजाब में है, गुजरात में नहीं।"
+        },
+        "3": {
+          "en": "Banawali is in Haryana and is not in Gujarat.",
+          "hi": "बनावली हरियाणा में है, गुजरात में नहीं।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-gk-20",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Which Article of the Indian Constitution, inserted by the 86th Amendment, makes free and compulsory education for children aged 6 to 14 years a Fundamental Right?",
+        "hi": "86वें संशोधन द्वारा जोड़ा गया भारतीय संविधान का कौन-सा अनुच्छेद 6 से 14 वर्ष के बच्चों के लिए निःशुल्क और अनिवार्य शिक्षा को मौलिक अधिकार बनाता है?"
+      },
+      "optionsJson": [
+        { "en": "Article 19", "hi": "अनुच्छेद 19" },
+        { "en": "Article 24", "hi": "अनुच्छेद 24" },
+        { "en": "Article 45", "hi": "अनुच्छेद 45" },
+        { "en": "Article 21A", "hi": "अनुच्छेद 21A" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Article 21A, added by the 86th Constitutional Amendment (2002), gives every child aged 6 to 14 years the right to free and compulsory education. The Right to Education Act, 2009 made it effective.",
+        "hi": "86वें संविधान संशोधन (2002) द्वारा जोड़ा गया अनुच्छेद 21A 6 से 14 वर्ष के प्रत्येक बच्चे को निःशुल्क और अनिवार्य शिक्षा का अधिकार देता है। शिक्षा का अधिकार अधिनियम, 2009 ने इसे प्रभावी बनाया।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Article 19 guarantees freedoms such as speech and expression, not the right to education.",
+          "hi": "अनुच्छेद 19 वाक् और अभिव्यक्ति जैसी स्वतंत्रताओं की गारंटी देता है, शिक्षा के अधिकार की नहीं।"
+        },
+        "1": {
+          "en": "Article 24 prohibits employment of children below 14 years in factories and hazardous work; it does not guarantee education.",
+          "hi": "अनुच्छेद 24 कारखानों और खतरनाक कार्यों में 14 वर्ष से कम आयु के बच्चों के नियोजन पर रोक लगाता है; यह शिक्षा की गारंटी नहीं देता।"
+        },
+        "2": {
+          "en": "Article 45 is a Directive Principle on early childhood care and education, not a Fundamental Right.",
+          "hi": "अनुच्छेद 45 प्रारंभिक बाल्यावस्था की देखभाल और शिक्षा से संबंधित एक नीति-निदेशक तत्व है, मौलिक अधिकार नहीं।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-gk-21",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Which Mughal emperor built the Red Fort in Delhi?",
+        "hi": "दिल्ली का लाल किला किस मुगल सम्राट ने बनवाया?"
+      },
+      "optionsJson": [
+        { "en": "Shah Jahan", "hi": "शाहजहाँ" },
+        { "en": "Akbar", "hi": "अकबर" },
+        { "en": "Humayun", "hi": "हुमायूँ" },
+        { "en": "Aurangzeb", "hi": "औरंगज़ेब" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Shah Jahan built the Red Fort (Lal Qila) when he shifted his capital to Shahjahanabad; it was constructed between 1638 and 1648.",
+        "hi": "शाहजहाँ ने अपनी राजधानी शाहजहाँनाबाद ले जाने पर लाल किला बनवाया; इसका निर्माण 1638 से 1648 के बीच हुआ।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Akbar built the Agra Fort and Fatehpur Sikri, not the Red Fort in Delhi.",
+          "hi": "अकबर ने आगरा का किला और फतेहपुर सीकरी बनवाए, दिल्ली का लाल किला नहीं।"
+        },
+        "2": {
+          "en": "Humayun founded Dinabanah (Purana Qila) in Delhi, but not the Red Fort.",
+          "hi": "हुमायूँ ने दिल्ली में दीनपनाह (पुराना किला) की नींव रखी, लाल किले की नहीं।"
+        },
+        "3": {
+          "en": "Aurangzeb ruled after Shah Jahan and the Red Fort was already built by then.",
+          "hi": "औरंगज़ेब ने शाहजहाँ के बाद शासन किया और तब तक लाल किला बन चुका था।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-gk-22",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which constitutional body is responsible for conducting elections to Parliament, the State Legislatures and the offices of the President and Vice-President?",
+        "hi": "संसद, राज्य विधानमंडलों तथा राष्ट्रपति और उपराष्ट्रपति के पदों के चुनाव कराने के लिए कौन-सी संवैधानिक संस्था उत्तरदायी है?"
+      },
+      "optionsJson": [
+        { "en": "Supreme Court of India", "hi": "भारत का उच्चतम न्यायालय" },
+        { "en": "Union Public Service Commission", "hi": "संघ लोक सेवा आयोग" },
+        { "en": "Election Commission of India", "hi": "भारत निर्वाचन आयोग" },
+        { "en": "NITI Aayog", "hi": "नीति आयोग" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Under Article 324 of the Constitution, the Election Commission of India supervises and conducts elections to Parliament, State Legislatures and the offices of President and Vice-President.",
+        "hi": "संविधान के अनुच्छेद 324 के अंतर्गत भारत निर्वाचन आयोग संसद, राज्य विधानमंडलों तथा राष्ट्रपति और उपराष्ट्रपति के पदों के चुनावों का अधीक्षण और संचालन करता है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The Supreme Court is the highest court and decides disputes; it does not conduct elections.",
+          "hi": "उच्चतम न्यायालय सर्वोच्च अदालत है और विवादों का निर्णय करता है; वह चुनाव नहीं कराता।"
+        },
+        "1": {
+          "en": "The UPSC conducts examinations to recruit civil servants, not elections.",
+          "hi": "संघ लोक सेवा आयोग सिविल सेवकों की भर्ती के लिए परीक्षाएँ आयोजित करता है, चुनाव नहीं।"
+        },
+        "3": {
+          "en": "NITI Aayog is the government's policy think tank and is not a constitutional body for elections.",
+          "hi": "नीति आयोग सरकार का नीतिगत थिंक-टैंक है और चुनावों के लिए संवैधानिक संस्था नहीं है।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-gk-23",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Sattriya, a classical dance form recognised in 2000, originated in the monasteries (sattras) of which state?",
+        "hi": "सत्रिया, जिसे वर्ष 2000 में शास्त्रीय नृत्य के रूप में मान्यता मिली, किस राज्य के मठों (सत्रों) में उत्पन्न हुआ?"
+      },
+      "optionsJson": [
+        { "en": "Manipur", "hi": "मणिपुर" },
+        { "en": "Assam", "hi": "असम" },
+        { "en": "Odisha", "hi": "ओडिशा" },
+        { "en": "Kerala", "hi": "केरल" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Sattriya originated in the Vaishnavite monasteries called sattras, started by Srimanta Sankardev in Assam in the 15th-16th century.",
+        "hi": "सत्रिया का उद्भव असम में 15वीं-16वीं शताब्दी में श्रीमंत शंकरदेव द्वारा आरंभ किए गए वैष्णव मठों, जिन्हें सत्र कहते हैं, में हुआ।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Manipur is known for Manipuri dance, a different classical form.",
+          "hi": "मणिपुर मणिपुरी नृत्य के लिए जाना जाता है, जो एक भिन्न शास्त्रीय नृत्य है।"
+        },
+        "2": {
+          "en": "Odisha is the home of Odissi, a different classical dance.",
+          "hi": "ओडिशा ओडिसी का घर है, जो एक भिन्न शास्त्रीय नृत्य है।"
+        },
+        "3": {
+          "en": "Kerala is known for Kathakali and Mohiniyattam, not Sattriya.",
+          "hi": "केरल कथकली और मोहिनीअट्टम के लिए जाना जाता है, सत्रिया के लिए नहीं।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-gk-24",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Most of the inscriptions (edicts) of Emperor Ashoka found across India were written in which script?",
+        "hi": "भारत भर में मिले सम्राट अशोक के अधिकांश अभिलेख (शिलालेख) किस लिपि में लिखे गए हैं?"
+      },
+      "optionsJson": [
+        { "en": "Devanagari", "hi": "देवनागरी" },
+        { "en": "Kharosthi", "hi": "खरोष्ठी" },
+        { "en": "Gurmukhi", "hi": "गुरुमुखी" },
+        { "en": "Brahmi", "hi": "ब्राह्मी" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Most of Ashoka's edicts are in the Brahmi script and the Prakrit language. James Prinsep deciphered Brahmi in 1837.",
+        "hi": "अशोक के अधिकांश अभिलेख ब्राह्मी लिपि और प्राकृत भाषा में हैं। जेम्स प्रिंसेप ने 1837 में ब्राह्मी लिपि को पढ़ा।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Devanagari developed much later, around the early medieval period, and was not used in Ashoka's time.",
+          "hi": "देवनागरी बहुत बाद में, प्रारंभिक मध्यकाल के आसपास, विकसित हुई और अशोक के समय प्रयुक्त नहीं थी।"
+        },
+        "1": {
+          "en": "Kharosthi was used only in a few edicts in the north-west, such as Shahbazgarhi and Mansehra, so it is not the script of most edicts.",
+          "hi": "खरोष्ठी केवल उत्तर-पश्चिम के कुछ अभिलेखों, जैसे शाहबाजगढ़ी और मानसेहरा, में प्रयुक्त हुई, इसलिए वह अधिकांश अभिलेखों की लिपि नहीं है।"
+        },
+        "2": {
+          "en": "Gurmukhi was developed in the 16th century to write Punjabi and did not exist in Ashoka's time.",
+          "hi": "गुरुमुखी 16वीं शताब्दी में पंजाबी लिखने के लिए विकसित हुई और अशोक के समय अस्तित्व में नहीं थी।"
+        }
+      }
+    },
+    {
+      "key": "aissee9-p5-gk-25",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "The Dronacharya Award in India is given for excellence in:",
+        "hi": "भारत में द्रोणाचार्य पुरस्कार किस क्षेत्र में उत्कृष्टता के लिए दिया जाता है?"
+      },
+      "optionsJson": [
+        { "en": "Sports coaching", "hi": "खेल प्रशिक्षण (कोचिंग)" },
+        { "en": "Classical music", "hi": "शास्त्रीय संगीत" },
+        { "en": "Literature", "hi": "साहित्य" },
+        { "en": "Scientific research", "hi": "वैज्ञानिक अनुसंधान" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "The Dronacharya Award honours coaches who have trained sportspersons to win laurels at international events.",
+        "hi": "द्रोणाचार्य पुरस्कार उन प्रशिक्षकों को सम्मानित करता है जिन्होंने खिलाड़ियों को अंतरराष्ट्रीय प्रतियोगिताओं में सफलता दिलाने हेतु प्रशिक्षित किया।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Excellence in music is honoured by awards such as those of the Sangeet Natak Akademi, not the Dronacharya Award.",
+          "hi": "संगीत में उत्कृष्टता का सम्मान संगीत नाटक अकादमी जैसे पुरस्कारों से होता है, द्रोणाचार्य पुरस्कार से नहीं।"
+        },
+        "2": {
+          "en": "Literature is honoured by awards such as the Jnanpith and Sahitya Akademi awards.",
+          "hi": "साहित्य का सम्मान ज्ञानपीठ और साहित्य अकादमी जैसे पुरस्कारों से होता है।"
+        },
+        "3": {
+          "en": "Scientific research is honoured by awards such as the Shanti Swarup Bhatnagar Prize.",
+          "hi": "वैज्ञानिक अनुसंधान का सम्मान शांति स्वरूप भटनागर पुरस्कार जैसे पुरस्कारों से होता है।"
+        }
+      }
+    }
+  ]
+}

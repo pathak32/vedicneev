@@ -1,0 +1,1000 @@
+{
+  "examType": "AISSEE",
+  "classLevel": 6,
+  "paperNumber": 5,
+  "sectionKey": "mental_ability",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "aissee6-p5-ma-01",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "In a class of 40 students, 25 like cricket and 20 like football. Every student likes at least one of the two games. How many students like both games?",
+        "hi": "40 विद्यार्थियों की एक कक्षा में 25 को क्रिकेट पसंद है और 20 को फुटबॉल पसंद है। हर विद्यार्थी को कम से कम एक खेल पसंद है। कितने विद्यार्थियों को दोनों खेल पसंद हैं?",
+        "mr": "40 विद्यार्थ्यांच्या वर्गात 25 जणांना क्रिकेट आवडते आणि 20 जणांना फुटबॉल आवडते. प्रत्येक विद्यार्थ्याला किमान एक खेळ आवडतो. किती विद्यार्थ्यांना दोन्ही खेळ आवडतात?"
+      },
+      "optionsJson": [
+        { "en": "3", "hi": "3", "mr": "3" },
+        { "en": "5", "hi": "5", "mr": "5" },
+        { "en": "10", "hi": "10", "mr": "10" },
+        { "en": "15", "hi": "15", "mr": "15" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "25 + 20 = 45, which is 5 more than 40. These 5 students were counted twice, so 5 students like both games.",
+        "hi": "25 + 20 = 45, जो 40 से 5 अधिक है। इन 5 विद्यार्थियों को दो बार गिना गया है, इसलिए 5 विद्यार्थियों को दोनों खेल पसंद हैं।",
+        "mr": "25 + 20 = 45, जे 40 पेक्षा 5 ने जास्त आहे. या 5 विद्यार्थ्यांची दोनदा गणना झाली आहे, म्हणून 5 विद्यार्थ्यांना दोन्ही खेळ आवडतात."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "If only 3 students liked both, the total would be 25 + 20 − 3 = 42, not 40.",
+          "hi": "यदि केवल 3 विद्यार्थियों को दोनों पसंद होते, तो कुल 25 + 20 − 3 = 42 होता, 40 नहीं।",
+          "mr": "जर फक्त 3 विद्यार्थ्यांना दोन्ही आवडले असते, तर एकूण 25 + 20 − 3 = 42 झाले असते, 40 नाही."
+        },
+        "2": {
+          "en": "If 10 students liked both, the total would be 25 + 20 − 10 = 35, not 40.",
+          "hi": "यदि 10 विद्यार्थियों को दोनों पसंद होते, तो कुल 25 + 20 − 10 = 35 होता, 40 नहीं।",
+          "mr": "जर 10 विद्यार्थ्यांना दोन्ही आवडले असते, तर एकूण 25 + 20 − 10 = 35 झाले असते, 40 नाही."
+        },
+        "3": {
+          "en": "If 15 students liked both, the total would be 25 + 20 − 15 = 30, not 40.",
+          "hi": "यदि 15 विद्यार्थियों को दोनों पसंद होते, तो कुल 25 + 20 − 15 = 30 होता, 40 नहीं।",
+          "mr": "जर 15 विद्यार्थ्यांना दोन्ही आवडले असते, तर एकूण 25 + 20 − 15 = 30 झाले असते, 40 नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-ma-02",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Statements: All roses are flowers. All flowers are plants. Which conclusion definitely follows?",
+        "hi": "कथन: सभी गुलाब फूल हैं। सभी फूल पौधे हैं। निम्नलिखित में से कौन-सा निष्कर्ष निश्चित रूप से सत्य है?",
+        "mr": "विधाने: सर्व गुलाब फुले आहेत. सर्व फुले वनस्पती आहेत. खालीलपैकी कोणता निष्कर्ष निश्चितपणे बरोबर ठरतो?"
+      },
+      "optionsJson": [
+        { "en": "All roses are plants", "hi": "सभी गुलाब पौधे हैं", "mr": "सर्व गुलाब वनस्पती आहेत" },
+        { "en": "All plants are roses", "hi": "सभी पौधे गुलाब हैं", "mr": "सर्व वनस्पती गुलाब आहेत" },
+        { "en": "All flowers are roses", "hi": "सभी फूल गुलाब हैं", "mr": "सर्व फुले गुलाब आहेत" },
+        { "en": "No rose is a plant", "hi": "कोई गुलाब पौधा नहीं है", "mr": "कोणताही गुलाब वनस्पती नाही" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Roses lie inside the group of flowers, and flowers lie inside the group of plants. So roses lie inside the group of plants: all roses are plants.",
+        "hi": "गुलाब फूलों के समूह के अंदर हैं और फूल पौधों के समूह के अंदर हैं। इसलिए गुलाब पौधों के समूह के अंदर हैं: सभी गुलाब पौधे हैं।",
+        "mr": "गुलाब हे फुलांच्या गटात येतात आणि फुले वनस्पतींच्या गटात येतात. म्हणून गुलाब वनस्पतींच्या गटात येतात: सर्व गुलाब वनस्पती आहेत."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "This reverses the statements. Plants include trees, grass and many things that are not roses.",
+          "hi": "यह कथनों को उलट देता है। पौधों में पेड़, घास और बहुत कुछ ऐसा है जो गुलाब नहीं है।",
+          "mr": "हे विधानांना उलट करते. वनस्पतींमध्ये झाडे, गवत आणि इतर अनेक गोष्टी येतात ज्या गुलाब नाहीत."
+        },
+        "2": {
+          "en": "This reverses the first statement. Jasmine and marigold are flowers but not roses.",
+          "hi": "यह पहले कथन को उलट देता है। चमेली और गेंदा फूल हैं, पर गुलाब नहीं हैं।",
+          "mr": "हे पहिल्या विधानाला उलट करते. जाई आणि झेंडू ही फुले आहेत, पण गुलाब नाहीत."
+        },
+        "3": {
+          "en": "This contradicts the statements: roses are flowers and flowers are plants, so roses are plants.",
+          "hi": "यह कथनों के विपरीत है: गुलाब फूल हैं और फूल पौधे हैं, इसलिए गुलाब पौधे हैं।",
+          "mr": "हे विधानांच्या विरुद्ध आहे: गुलाब फुले आहेत आणि फुले वनस्पती आहेत, म्हणून गुलाब वनस्पती आहेत."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-ma-03",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Find the missing number. Row 1: 3, 4, 10. Row 2: 5, 6, 28. Row 3: 7, 8, ?",
+        "hi": "लुप्त संख्या ज्ञात कीजिए। पंक्ति 1: 3, 4, 10। पंक्ति 2: 5, 6, 28। पंक्ति 3: 7, 8, ?",
+        "mr": "हरवलेली संख्या शोधा. ओळ 1: 3, 4, 10. ओळ 2: 5, 6, 28. ओळ 3: 7, 8, ?"
+      },
+      "optionsJson": [
+        { "en": "50", "hi": "50", "mr": "50" },
+        { "en": "52", "hi": "52", "mr": "52" },
+        { "en": "54", "hi": "54", "mr": "54" },
+        { "en": "56", "hi": "56", "mr": "56" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "In each row, third number = first × second − 2. Check: 3 × 4 − 2 = 10 and 5 × 6 − 2 = 28. So 7 × 8 − 2 = 54.",
+        "hi": "प्रत्येक पंक्ति में तीसरी संख्या = पहली × दूसरी − 2। जाँच: 3 × 4 − 2 = 10 और 5 × 6 − 2 = 28। अतः 7 × 8 − 2 = 54।",
+        "mr": "प्रत्येक ओळीत तिसरी संख्या = पहिली × दुसरी − 2. तपासणी: 3 × 4 − 2 = 10 आणि 5 × 6 − 2 = 28. म्हणून 7 × 8 − 2 = 54."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "50 would mean subtracting 6 from 56, but the rows subtract only 2.",
+          "hi": "50 का अर्थ होगा 56 में से 6 घटाना, पर पंक्तियों में केवल 2 घटाया गया है।",
+          "mr": "50 म्हणजे 56 मधून 6 वजा करणे, पण ओळींमध्ये फक्त 2 वजा केले आहेत."
+        },
+        "1": {
+          "en": "52 would mean subtracting 4 from 56, but the rows subtract only 2.",
+          "hi": "52 का अर्थ होगा 56 में से 4 घटाना, पर पंक्तियों में केवल 2 घटाया गया है।",
+          "mr": "52 म्हणजे 56 मधून 4 वजा करणे, पण ओळींमध्ये फक्त 2 वजा केले आहेत."
+        },
+        "3": {
+          "en": "56 is just 7 × 8. The rule also needs 2 to be subtracted.",
+          "hi": "56 केवल 7 × 8 है। नियम के अनुसार 2 भी घटाना है।",
+          "mr": "56 म्हणजे फक्त 7 × 8. नियमानुसार 2 वजा करणे देखील आवश्यक आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-ma-04",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "A pattern repeats in this order: Red, Blue, Blue, Green, Red, Blue, Blue, Green, ... What is the colour of the 10th item?",
+        "hi": "एक पैटर्न इस क्रम में दोहराया जाता है: लाल, नीला, नीला, हरा, लाल, नीला, नीला, हरा, ... 10वीं वस्तु का रंग क्या है?",
+        "mr": "एक नमुना या क्रमाने पुन्हा पुन्हा येतो: लाल, निळा, निळा, हिरवा, लाल, निळा, निळा, हिरवा, ... 10 व्या वस्तूचा रंग कोणता?"
+      },
+      "optionsJson": [
+        { "en": "Green", "hi": "हरा", "mr": "हिरवा" },
+        { "en": "Red", "hi": "लाल", "mr": "लाल" },
+        { "en": "Yellow", "hi": "पीला", "mr": "पिवळा" },
+        { "en": "Blue", "hi": "नीला", "mr": "निळा" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "The pattern has 4 items: Red, Blue, Blue, Green. The first 8 items make two full groups. The 9th item is Red and the 10th item is Blue.",
+        "hi": "पैटर्न में 4 वस्तुएँ हैं: लाल, नीला, नीला, हरा। पहली 8 वस्तुएँ दो पूरे समूह बनाती हैं। 9वीं वस्तु लाल है और 10वीं वस्तु नीली है।",
+        "mr": "नमुन्यात 4 वस्तू आहेत: लाल, निळा, निळा, हिरवा. पहिल्या 8 वस्तू दोन पूर्ण गट बनवतात. 9 वी वस्तू लाल आहे आणि 10 वी वस्तू निळी आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Green appears only at positions 4, 8, 12 and so on. The 10th is not one of them.",
+          "hi": "हरा रंग केवल स्थान 4, 8, 12 आदि पर आता है। 10वाँ स्थान इनमें नहीं है।",
+          "mr": "हिरवा रंग फक्त 4, 8, 12 इत्यादी स्थानांवर येतो. 10 वे स्थान त्यांत नाही."
+        },
+        "1": {
+          "en": "Red appears only at positions 1, 5, 9 and so on. The 10th is not one of them.",
+          "hi": "लाल रंग केवल स्थान 1, 5, 9 आदि पर आता है। 10वाँ स्थान इनमें नहीं है।",
+          "mr": "लाल रंग फक्त 1, 5, 9 इत्यादी स्थानांवर येतो. 10 वे स्थान त्यांत नाही."
+        },
+        "2": {
+          "en": "Yellow never appears in this pattern.",
+          "hi": "पीला रंग इस पैटर्न में कभी नहीं आता।",
+          "mr": "पिवळा रंग या नमुन्यात कधीही येत नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-ma-05",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "In a group of 60 people, 35 speak Hindi, 30 speak Marathi and 10 speak neither language. How many people speak both Hindi and Marathi?",
+        "hi": "60 लोगों के एक समूह में 35 लोग हिंदी बोलते हैं, 30 लोग मराठी बोलते हैं और 10 लोग इनमें से कोई भी भाषा नहीं बोलते। कितने लोग हिंदी और मराठी दोनों बोलते हैं?",
+        "mr": "60 लोकांच्या गटात 35 जण हिंदी बोलतात, 30 जण मराठी बोलतात आणि 10 जण यापैकी कोणतीही भाषा बोलत नाहीत. किती जण हिंदी आणि मराठी दोन्ही बोलतात?"
+      },
+      "optionsJson": [
+        { "en": "5", "hi": "5", "mr": "5" },
+        { "en": "10", "hi": "10", "mr": "10" },
+        { "en": "15", "hi": "15", "mr": "15" },
+        { "en": "20", "hi": "20", "mr": "20" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "People speaking at least one language = 60 − 10 = 50. Adding 35 + 30 = 65 counts the people who speak both twice, so both = 65 − 50 = 15.",
+        "hi": "कम से कम एक भाषा बोलने वाले लोग = 60 − 10 = 50। 35 + 30 = 65 में दोनों भाषाएँ बोलने वालों को दो बार गिना गया है, इसलिए दोनों = 65 − 50 = 15।",
+        "mr": "किमान एक भाषा बोलणारे लोक = 60 − 10 = 50. 35 + 30 = 65 मध्ये दोन्ही भाषा बोलणाऱ्यांची दोनदा गणना झाली आहे, म्हणून दोन्ही = 65 − 50 = 15."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "If 5 people spoke both, 35 + 30 − 5 = 60 would speak at least one language, but only 50 do.",
+          "hi": "यदि 5 लोग दोनों बोलते, तो 35 + 30 − 5 = 60 लोग कम से कम एक भाषा बोलते, पर वास्तव में केवल 50 बोलते हैं।",
+          "mr": "जर 5 जण दोन्ही बोलले असते, तर 35 + 30 − 5 = 60 जण किमान एक भाषा बोलले असते, पण प्रत्यक्षात फक्त 50 बोलतात."
+        },
+        "1": {
+          "en": "If 10 people spoke both, 35 + 30 − 10 = 55 would speak at least one language, but only 50 do.",
+          "hi": "यदि 10 लोग दोनों बोलते, तो 35 + 30 − 10 = 55 लोग कम से कम एक भाषा बोलते, पर वास्तव में केवल 50 बोलते हैं।",
+          "mr": "जर 10 जण दोन्ही बोलले असते, तर 35 + 30 − 10 = 55 जण किमान एक भाषा बोलले असते, पण प्रत्यक्षात फक्त 50 बोलतात."
+        },
+        "3": {
+          "en": "If 20 people spoke both, 35 + 30 − 20 = 45 would speak at least one language, but 50 do.",
+          "hi": "यदि 20 लोग दोनों बोलते, तो 35 + 30 − 20 = 45 लोग कम से कम एक भाषा बोलते, पर वास्तव में 50 बोलते हैं।",
+          "mr": "जर 20 जण दोन्ही बोलले असते, तर 35 + 30 − 20 = 45 जण किमान एक भाषा बोलले असते, पण प्रत्यक्षात 50 बोलतात."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-ma-06",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Statements: Some students are cricketers. All cricketers are sportspersons. Which conclusion definitely follows?",
+        "hi": "कथन: कुछ विद्यार्थी क्रिकेटर हैं। सभी क्रिकेटर खिलाड़ी हैं। निम्नलिखित में से कौन-सा निष्कर्ष निश्चित रूप से सत्य है?",
+        "mr": "विधाने: काही विद्यार्थी क्रिकेटपटू आहेत. सर्व क्रिकेटपटू खेळाडू आहेत. खालीलपैकी कोणता निष्कर्ष निश्चितपणे बरोबर ठरतो?"
+      },
+      "optionsJson": [
+        { "en": "All students are sportspersons", "hi": "सभी विद्यार्थी खिलाड़ी हैं", "mr": "सर्व विद्यार्थी खेळाडू आहेत" },
+        { "en": "Some students are sportspersons", "hi": "कुछ विद्यार्थी खिलाड़ी हैं", "mr": "काही विद्यार्थी खेळाडू आहेत" },
+        { "en": "No student is a sportsperson", "hi": "कोई विद्यार्थी खिलाड़ी नहीं है", "mr": "कोणताही विद्यार्थी खेळाडू नाही" },
+        { "en": "All sportspersons are cricketers", "hi": "सभी खिलाड़ी क्रिकेटर हैं", "mr": "सर्व खेळाडू क्रिकेटपटू आहेत" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "The students who are cricketers are also sportspersons, because all cricketers are sportspersons. So some students are sportspersons.",
+        "hi": "जो विद्यार्थी क्रिकेटर हैं वे खिलाड़ी भी हैं, क्योंकि सभी क्रिकेटर खिलाड़ी हैं। इसलिए कुछ विद्यार्थी खिलाड़ी हैं।",
+        "mr": "जे विद्यार्थी क्रिकेटपटू आहेत ते खेळाडूही आहेत, कारण सर्व क्रिकेटपटू खेळाडू आहेत. म्हणून काही विद्यार्थी खेळाडू आहेत."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Only some students are known to be cricketers, so we cannot say that all students are sportspersons.",
+          "hi": "केवल कुछ विद्यार्थियों के क्रिकेटर होने की जानकारी है, इसलिए यह नहीं कह सकते कि सभी विद्यार्थी खिलाड़ी हैं।",
+          "mr": "फक्त काही विद्यार्थी क्रिकेटपटू असल्याचे माहीत आहे, म्हणून सर्व विद्यार्थी खेळाडू आहेत असे म्हणता येत नाही."
+        },
+        "2": {
+          "en": "This contradicts the statements, since the students who are cricketers are sportspersons.",
+          "hi": "यह कथनों के विपरीत है, क्योंकि जो विद्यार्थी क्रिकेटर हैं वे खिलाड़ी हैं।",
+          "mr": "हे विधानांच्या विरुद्ध आहे, कारण जे विद्यार्थी क्रिकेटपटू आहेत ते खेळाडू आहेत."
+        },
+        "3": {
+          "en": "This reverses the second statement. Footballers and hockey players are sportspersons but not cricketers.",
+          "hi": "यह दूसरे कथन को उलट देता है। फुटबॉल और हॉकी खिलाड़ी खिलाड़ी हैं, पर क्रिकेटर नहीं।",
+          "mr": "हे दुसऱ्या विधानाला उलट करते. फुटबॉल आणि हॉकीपटू खेळाडू आहेत, पण क्रिकेटपटू नाहीत."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-ma-07",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "What comes next in the list: 2, 5, 11, 23, 47, ___?",
+        "hi": "सूची में अगली संख्या क्या होगी: 2, 5, 11, 23, 47, ___?",
+        "mr": "यादीतील पुढील संख्या कोणती: 2, 5, 11, 23, 47, ___?"
+      },
+      "optionsJson": [
+        { "en": "91", "hi": "91", "mr": "91" },
+        { "en": "93", "hi": "93", "mr": "93" },
+        { "en": "94", "hi": "94", "mr": "94" },
+        { "en": "95", "hi": "95", "mr": "95" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Each number is double the previous number plus 1: 2 → 5 → 11 → 23 → 47 → 2 × 47 + 1 = 95.",
+        "hi": "प्रत्येक संख्या पिछली संख्या का दुगुना जमा 1 है: 2 → 5 → 11 → 23 → 47 → 2 × 47 + 1 = 95।",
+        "mr": "प्रत्येक संख्या मागील संख्येची दुप्पट अधिक 1 आहे: 2 → 5 → 11 → 23 → 47 → 2 × 47 + 1 = 95."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "91 does not follow the rule of doubling and adding 1, which gives 2 × 47 + 1 = 95.",
+          "hi": "91 दुगुना करके 1 जोड़ने के नियम से नहीं मिलता, जिससे 2 × 47 + 1 = 95 मिलता है।",
+          "mr": "91 हे दुप्पट करून 1 मिळवण्याच्या नियमाने मिळत नाही, ज्यामुळे 2 × 47 + 1 = 95 मिळते."
+        },
+        "1": {
+          "en": "93 does not follow the rule of doubling and adding 1, which gives 2 × 47 + 1 = 95.",
+          "hi": "93 दुगुना करके 1 जोड़ने के नियम से नहीं मिलता, जिससे 2 × 47 + 1 = 95 मिलता है।",
+          "mr": "93 हे दुप्पट करून 1 मिळवण्याच्या नियमाने मिळत नाही, ज्यामुळे 2 × 47 + 1 = 95 मिळते."
+        },
+        "2": {
+          "en": "94 is only double of 47. The extra 1 that every step adds is missing.",
+          "hi": "94 केवल 47 का दुगुना है। हर चरण में जुड़ने वाला 1 छूट गया है।",
+          "mr": "94 म्हणजे फक्त 47 ची दुप्पट. प्रत्येक पायरीत मिळवला जाणारा 1 राहून गेला आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-ma-08",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "In a Venn diagram, two circles overlap. One circle shows students who play chess and the other shows students who play carrom. The overlapping part has 6 students, the part for chess only has 9 students and the part for carrom only has 7 students. How many students play chess in all?",
+        "hi": "एक वेन आरेख में दो वृत्त आपस में कटते हैं। एक वृत्त शतरंज खेलने वाले विद्यार्थियों को और दूसरा कैरम खेलने वाले विद्यार्थियों को दर्शाता है। उभयनिष्ठ (कटने वाले) भाग में 6 विद्यार्थी हैं, केवल शतरंज वाले भाग में 9 विद्यार्थी हैं और केवल कैरम वाले भाग में 7 विद्यार्थी हैं। कुल कितने विद्यार्थी शतरंज खेलते हैं?",
+        "mr": "एका व्हेन आकृतीत दोन वर्तुळे एकमेकांना छेदतात. एक वर्तुळ बुद्धिबळ खेळणाऱ्या विद्यार्थ्यांना आणि दुसरे कॅरम खेळणाऱ्या विद्यार्थ्यांना दर्शवते. सामायिक भागात 6 विद्यार्थी आहेत, फक्त बुद्धिबळ असलेल्या भागात 9 विद्यार्थी आहेत आणि फक्त कॅरम असलेल्या भागात 7 विद्यार्थी आहेत. एकूण किती विद्यार्थी बुद्धिबळ खेळतात?"
+      },
+      "optionsJson": [
+        { "en": "15", "hi": "15", "mr": "15" },
+        { "en": "9", "hi": "9", "mr": "9" },
+        { "en": "22", "hi": "22", "mr": "22" },
+        { "en": "13", "hi": "13", "mr": "13" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "All chess players = chess only + both = 9 + 6 = 15.",
+        "hi": "शतरंज खेलने वाले कुल विद्यार्थी = केवल शतरंज + दोनों = 9 + 6 = 15।",
+        "mr": "बुद्धिबळ खेळणारे एकूण विद्यार्थी = फक्त बुद्धिबळ + दोन्ही = 9 + 6 = 15."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "9 counts only the students who play chess and nothing else. The 6 students in the overlap also play chess.",
+          "hi": "9 में केवल वे विद्यार्थी हैं जो सिर्फ शतरंज खेलते हैं। उभयनिष्ठ भाग के 6 विद्यार्थी भी शतरंज खेलते हैं।",
+          "mr": "9 मध्ये फक्त तेच विद्यार्थी आहेत जे केवळ बुद्धिबळ खेळतात. सामायिक भागातील 6 विद्यार्थीही बुद्धिबळ खेळतात."
+        },
+        "2": {
+          "en": "22 = 9 + 6 + 7 is the number of students who play at least one of the two games, not only chess.",
+          "hi": "22 = 9 + 6 + 7 उन विद्यार्थियों की संख्या है जो कम से कम एक खेल खेलते हैं, केवल शतरंज नहीं।",
+          "mr": "22 = 9 + 6 + 7 ही कमीत कमी एक खेळ खेळणाऱ्या विद्यार्थ्यांची संख्या आहे, फक्त बुद्धिबळ नव्हे."
+        },
+        "3": {
+          "en": "13 = 7 + 6 is the number of students who play carrom, not chess.",
+          "hi": "13 = 7 + 6 कैरम खेलने वाले विद्यार्थियों की संख्या है, शतरंज की नहीं।",
+          "mr": "13 = 7 + 6 ही कॅरम खेळणाऱ्या विद्यार्थ्यांची संख्या आहे, बुद्धिबळाची नव्हे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-ma-09",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Each of 36 students plays at least one of three games: cricket, hockey and kabaddi. 20 play cricket, 16 play hockey and 14 play kabaddi. 6 play both cricket and hockey, 5 play both hockey and kabaddi, and 4 play both cricket and kabaddi (these pair counts include any students who play all three games). How many students play all three games?",
+        "hi": "36 विद्यार्थियों में से प्रत्येक क्रिकेट, हॉकी और कबड्डी, इन तीन खेलों में से कम से कम एक खेल खेलता है। 20 क्रिकेट, 16 हॉकी और 14 कबड्डी खेलते हैं। 6 क्रिकेट और हॉकी दोनों, 5 हॉकी और कबड्डी दोनों तथा 4 क्रिकेट और कबड्डी दोनों खेलते हैं (इन जोड़ी वाली संख्याओं में तीनों खेल खेलने वाले विद्यार्थी भी शामिल हैं)। कितने विद्यार्थी तीनों खेल खेलते हैं?",
+        "mr": "36 विद्यार्थ्यांपैकी प्रत्येक जण क्रिकेट, हॉकी आणि कबड्डी या तीन खेळांपैकी किमान एक खेळ खेळतो. 20 जण क्रिकेट, 16 जण हॉकी आणि 14 जण कबड्डी खेळतात. 6 जण क्रिकेट व हॉकी दोन्ही, 5 जण हॉकी व कबड्डी दोन्ही आणि 4 जण क्रिकेट व कबड्डी दोन्ही खेळतात (या जोडीच्या संख्यांमध्ये तिन्ही खेळ खेळणारे विद्यार्थीही समाविष्ट आहेत). किती विद्यार्थी तिन्ही खेळ खेळतात?"
+      },
+      "optionsJson": [
+        { "en": "3", "hi": "3", "mr": "3" },
+        { "en": "0", "hi": "0", "mr": "0" },
+        { "en": "1", "hi": "1", "mr": "1" },
+        { "en": "2", "hi": "2", "mr": "2" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Total = (20 + 16 + 14) − (6 + 5 + 4) + (all three). So 36 = 50 − 15 + x = 35 + x, which gives x = 1.",
+        "hi": "कुल = (20 + 16 + 14) − (6 + 5 + 4) + (तीनों खेलने वाले)। अतः 36 = 50 − 15 + x = 35 + x, जिससे x = 1।",
+        "mr": "एकूण = (20 + 16 + 14) − (6 + 5 + 4) + (तिन्ही खेळणारे). म्हणून 36 = 50 − 15 + x = 35 + x, त्यावरून x = 1."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "If 3 students played all three games, the total would be 35 + 3 = 38, not 36.",
+          "hi": "यदि 3 विद्यार्थी तीनों खेल खेलते, तो कुल 35 + 3 = 38 होता, 36 नहीं।",
+          "mr": "जर 3 विद्यार्थी तिन्ही खेळ खेळले असते, तर एकूण 35 + 3 = 38 झाले असते, 36 नाही."
+        },
+        "1": {
+          "en": "If no student played all three games, the total would be 35, not 36.",
+          "hi": "यदि कोई विद्यार्थी तीनों खेल न खेलता, तो कुल 35 होता, 36 नहीं।",
+          "mr": "जर कोणताही विद्यार्थी तिन्ही खेळ खेळला नसता, तर एकूण 35 झाले असते, 36 नाही."
+        },
+        "3": {
+          "en": "If 2 students played all three games, the total would be 35 + 2 = 37, not 36.",
+          "hi": "यदि 2 विद्यार्थी तीनों खेल खेलते, तो कुल 35 + 2 = 37 होता, 36 नहीं।",
+          "mr": "जर 2 विद्यार्थी तिन्ही खेळ खेळले असते, तर एकूण 35 + 2 = 37 झाले असते, 36 नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-ma-10",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Complete the analogy: Pen : Write :: Knife : ?",
+        "hi": "सादृश्य पूरा कीजिए: पेन : लिखना :: चाकू : ?",
+        "mr": "साधर्म्य पूर्ण करा: पेन : लिहिणे :: सुरी : ?"
+      },
+      "optionsJson": [
+        { "en": "Sharp", "hi": "तेज़", "mr": "धारदार" },
+        { "en": "Cut", "hi": "काटना", "mr": "कापणे" },
+        { "en": "Handle", "hi": "मूठ", "mr": "मूठ" },
+        { "en": "Kitchen", "hi": "रसोईघर", "mr": "स्वयंपाकघर" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "A pen is used to write, in the same way a knife is used to cut.",
+        "hi": "पेन से लिखा जाता है, उसी प्रकार चाकू से काटा जाता है।",
+        "mr": "पेनने लिहिले जाते, त्याचप्रमाणे सुरीने कापले जाते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Sharp describes a knife, but it is not the work a knife does.",
+          "hi": "तेज़ चाकू का गुण बताता है, पर यह चाकू का काम नहीं है।",
+          "mr": "धारदार हे सुरीचा गुण सांगते, पण ते सुरीचे काम नाही."
+        },
+        "2": {
+          "en": "A handle is a part of a knife, not the work it does.",
+          "hi": "मूठ चाकू का एक भाग है, चाकू का काम नहीं।",
+          "mr": "मूठ हा सुरीचा एक भाग आहे, तिचे काम नाही."
+        },
+        "3": {
+          "en": "A kitchen is a place where a knife may be used, not the work it does.",
+          "hi": "रसोईघर वह स्थान है जहाँ चाकू का उपयोग हो सकता है, चाकू का काम नहीं।",
+          "mr": "स्वयंपाकघर हे ठिकाण आहे जिथे सुरी वापरली जाऊ शकते, तिचे काम नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-ma-11",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Statements: All lions are mammals. No mammal is a fish. Which conclusion definitely follows?",
+        "hi": "कथन: सभी शेर स्तनधारी हैं। कोई स्तनधारी मछली नहीं है। निम्नलिखित में से कौन-सा निष्कर्ष निश्चित रूप से सत्य है?",
+        "mr": "विधाने: सर्व सिंह सस्तन प्राणी आहेत. कोणताही सस्तन प्राणी मासा नाही. खालीलपैकी कोणता निष्कर्ष निश्चितपणे बरोबर ठरतो?"
+      },
+      "optionsJson": [
+        { "en": "No lion is a fish", "hi": "कोई शेर मछली नहीं है", "mr": "कोणताही सिंह मासा नाही" },
+        { "en": "Some lions are fish", "hi": "कुछ शेर मछली हैं", "mr": "काही सिंह मासे आहेत" },
+        { "en": "All fish are lions", "hi": "सभी मछलियाँ शेर हैं", "mr": "सर्व मासे सिंह आहेत" },
+        { "en": "All mammals are lions", "hi": "सभी स्तनधारी शेर हैं", "mr": "सर्व सस्तन प्राणी सिंह आहेत" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Lions lie inside the group of mammals, and the group of mammals has nothing in common with fish. So lions also have nothing in common with fish: no lion is a fish.",
+        "hi": "शेर स्तनधारियों के समूह के अंदर हैं और स्तनधारियों के समूह में कोई भी मछली नहीं है। इसलिए शेरों में भी कोई मछली नहीं है: कोई शेर मछली नहीं है।",
+        "mr": "सिंह सस्तन प्राण्यांच्या गटात येतात आणि सस्तन प्राण्यांच्या गटात कोणताही मासा नाही. म्हणून सिंहांमध्येही कोणताही मासा नाही: कोणताही सिंह मासा नाही."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "This contradicts the statements: no mammal is a fish, and every lion is a mammal.",
+          "hi": "यह कथनों के विपरीत है: कोई स्तनधारी मछली नहीं है और हर शेर स्तनधारी है।",
+          "mr": "हे विधानांच्या विरुद्ध आहे: कोणताही सस्तन प्राणी मासा नाही आणि प्रत्येक सिंह सस्तन प्राणी आहे."
+        },
+        "2": {
+          "en": "This is impossible, because no fish is even a mammal, so no fish can be a lion.",
+          "hi": "यह असंभव है, क्योंकि कोई मछली स्तनधारी भी नहीं है, तो कोई मछली शेर कैसे हो सकती है।",
+          "mr": "हे अशक्य आहे, कारण कोणताही मासा सस्तन प्राणीसुद्धा नाही, मग तो सिंह कसा असेल."
+        },
+        "3": {
+          "en": "This reverses the first statement. Tigers and humans are mammals but not lions.",
+          "hi": "यह पहले कथन को उलट देता है। बाघ और मनुष्य स्तनधारी हैं, पर शेर नहीं।",
+          "mr": "हे पहिल्या विधानाला उलट करते. वाघ आणि माणसे सस्तन प्राणी आहेत, पण सिंह नाहीत."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-ma-12",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Each triangle has three numbers at its corners and one number in its centre. Triangle 1: corners 2, 3, 4 and centre 18. Triangle 2: corners 3, 4, 5 and centre 32. Triangle 3: corners 4, 5, 6 and centre ?",
+        "hi": "प्रत्येक त्रिभुज के तीन कोनों पर तीन संख्याएँ और मध्य में एक संख्या लिखी है। त्रिभुज 1: कोने 2, 3, 4 और मध्य में 18। त्रिभुज 2: कोने 3, 4, 5 और मध्य में 32। त्रिभुज 3: कोने 4, 5, 6 और मध्य में ?",
+        "mr": "प्रत्येक त्रिकोणाच्या तीन कोपऱ्यांवर तीन संख्या आणि मध्यभागी एक संख्या लिहिली आहे. त्रिकोण 1: कोपरे 2, 3, 4 आणि मध्यभागी 18. त्रिकोण 2: कोपरे 3, 4, 5 आणि मध्यभागी 32. त्रिकोण 3: कोपरे 4, 5, 6 आणि मध्यभागी ?"
+      },
+      "optionsJson": [
+        { "en": "44", "hi": "44", "mr": "44" },
+        { "en": "48", "hi": "48", "mr": "48" },
+        { "en": "52", "hi": "52", "mr": "52" },
+        { "en": "50", "hi": "50", "mr": "50" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Centre = middle corner number × (sum of the other two corners). Check: 3 × (2 + 4) = 18 and 4 × (3 + 5) = 32. So 5 × (4 + 6) = 50.",
+        "hi": "मध्य की संख्या = बीच वाले कोने की संख्या × (अन्य दो कोनों का योग)। जाँच: 3 × (2 + 4) = 18 और 4 × (3 + 5) = 32। अतः 5 × (4 + 6) = 50।",
+        "mr": "मध्यभागीची संख्या = मधल्या कोपऱ्याची संख्या × (इतर दोन कोपऱ्यांची बेरीज). तपासणी: 3 × (2 + 4) = 18 आणि 4 × (3 + 5) = 32. म्हणून 5 × (4 + 6) = 50."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "44 does not fit the rule. The rule gives 5 × (4 + 6) = 50.",
+          "hi": "44 नियम से मेल नहीं खाता। नियम से 5 × (4 + 6) = 50 मिलता है।",
+          "mr": "44 हे नियमाशी जुळत नाही. नियमानुसार 5 × (4 + 6) = 50 मिळते."
+        },
+        "1": {
+          "en": "48 does not fit the rule. The rule gives 5 × (4 + 6) = 50.",
+          "hi": "48 नियम से मेल नहीं खाता। नियम से 5 × (4 + 6) = 50 मिलता है।",
+          "mr": "48 हे नियमाशी जुळत नाही. नियमानुसार 5 × (4 + 6) = 50 मिळते."
+        },
+        "2": {
+          "en": "52 does not fit the rule. The rule gives 5 × (4 + 6) = 50.",
+          "hi": "52 नियम से मेल नहीं खाता। नियम से 5 × (4 + 6) = 50 मिलता है।",
+          "mr": "52 हे नियमाशी जुळत नाही. नियमानुसार 5 × (4 + 6) = 50 मिळते."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-ma-13",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "A pattern of shapes repeats in this order: circle, square, triangle, circle, square, triangle, ... Among the first 20 shapes, how many are squares?",
+        "hi": "आकृतियों का एक पैटर्न इसी क्रम में दोहराया जाता है: वृत्त, वर्ग, त्रिभुज, वृत्त, वर्ग, त्रिभुज, ... पहली 20 आकृतियों में कितने वर्ग हैं?",
+        "mr": "आकृत्यांचा एक नमुना याच क्रमाने पुन्हा पुन्हा येतो: वर्तुळ, चौरस, त्रिकोण, वर्तुळ, चौरस, त्रिकोण, ... पहिल्या 20 आकृत्यांमध्ये किती चौरस आहेत?"
+      },
+      "optionsJson": [
+        { "en": "6", "hi": "6", "mr": "6" },
+        { "en": "7", "hi": "7", "mr": "7" },
+        { "en": "8", "hi": "8", "mr": "8" },
+        { "en": "9", "hi": "9", "mr": "9" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Squares appear at positions 2, 5, 8, 11, 14, 17 and 20, which is 7 squares.",
+        "hi": "वर्ग स्थान 2, 5, 8, 11, 14, 17 और 20 पर आते हैं, यानी कुल 7 वर्ग।",
+        "mr": "चौरस 2, 5, 8, 11, 14, 17 आणि 20 या स्थानांवर येतात, म्हणजे एकूण 7 चौरस."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "6 counts only the 6 full groups of three. The 19th and 20th shapes are a circle and a square, which adds one more square.",
+          "hi": "6 केवल तीन-तीन के 6 पूरे समूहों को गिनता है। 19वीं और 20वीं आकृतियाँ वृत्त और वर्ग हैं, जिससे एक वर्ग और जुड़ता है।",
+          "mr": "6 मध्ये फक्त तीन-तीनच्या 6 पूर्ण गटांची गणना आहे. 19 वी आणि 20 वी आकृती वर्तुळ आणि चौरस आहेत, त्यामुळे आणखी एक चौरस मिळतो."
+        },
+        "2": {
+          "en": "The 8th square would be at position 23, which is beyond the first 20 shapes.",
+          "hi": "8वाँ वर्ग स्थान 23 पर आएगा, जो पहली 20 आकृतियों से बाहर है।",
+          "mr": "8 वा चौरस 23 व्या स्थानावर येईल, जे पहिल्या 20 आकृत्यांच्या बाहेर आहे."
+        },
+        "3": {
+          "en": "The 9th square would be at position 26, which is beyond the first 20 shapes.",
+          "hi": "9वाँ वर्ग स्थान 26 पर आएगा, जो पहली 20 आकृतियों से बाहर है।",
+          "mr": "9 वा चौरस 26 व्या स्थानावर येईल, जे पहिल्या 20 आकृत्यांच्या बाहेर आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-ma-14",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Matchsticks are used to make squares in a row, and each new square shares one side with the previous square. One square needs 4 sticks, two squares need 7 sticks and three squares need 10 sticks. How many sticks are needed for 8 squares?",
+        "hi": "माचिस की तीलियों से एक पंक्ति में वर्ग बनाए जाते हैं, और प्रत्येक नया वर्ग पिछले वर्ग की एक भुजा साझा करता है। 1 वर्ग के लिए 4 तीलियाँ, 2 वर्गों के लिए 7 तीलियाँ और 3 वर्गों के लिए 10 तीलियाँ लगती हैं। 8 वर्गों के लिए कितनी तीलियाँ चाहिए?",
+        "mr": "आगपेटीच्या काड्यांनी एका ओळीत चौरस बनवले जातात आणि प्रत्येक नवीन चौरस मागील चौरसाची एक बाजू वापरतो. 1 चौरसासाठी 4 काड्या, 2 चौरसांसाठी 7 काड्या आणि 3 चौरसांसाठी 10 काड्या लागतात. 8 चौरसांसाठी किती काड्या लागतील?"
+      },
+      "optionsJson": [
+        { "en": "24", "hi": "24", "mr": "24" },
+        { "en": "28", "hi": "28", "mr": "28" },
+        { "en": "25", "hi": "25", "mr": "25" },
+        { "en": "32", "hi": "32", "mr": "32" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The first square needs 4 sticks and every new square needs only 3 more. So 8 squares need 4 + 7 × 3 = 25 sticks, which is the same as 3 × 8 + 1.",
+        "hi": "पहले वर्ग के लिए 4 तीलियाँ चाहिए और हर नए वर्ग के लिए केवल 3 और तीलियाँ। इसलिए 8 वर्गों के लिए 4 + 7 × 3 = 25 तीलियाँ चाहिए, जो 3 × 8 + 1 के बराबर है।",
+        "mr": "पहिल्या चौरसासाठी 4 काड्या लागतात आणि प्रत्येक नवीन चौरसासाठी फक्त 3 जास्त काड्या. म्हणून 8 चौरसांसाठी 4 + 7 × 3 = 25 काड्या लागतात, जे 3 × 8 + 1 च्या बरोबर आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "24 = 3 × 8 forgets the extra stick for the first square: the correct count is 3 × 8 + 1.",
+          "hi": "24 = 3 × 8 पहले वर्ग की अतिरिक्त तीली को भूल जाता है: सही गिनती 3 × 8 + 1 है।",
+          "mr": "24 = 3 × 8 मध्ये पहिल्या चौरसाची जास्तीची काडी विसरली आहे: बरोबर गणना 3 × 8 + 1 आहे."
+        },
+        "1": {
+          "en": "The count grows by 3 for each new square, so 8 squares need 25 sticks, not 28.",
+          "hi": "हर नए वर्ग के साथ गिनती 3 बढ़ती है, इसलिए 8 वर्गों के लिए 25 तीलियाँ चाहिए, 28 नहीं।",
+          "mr": "प्रत्येक नवीन चौरसाबरोबर संख्या 3 ने वाढते, म्हणून 8 चौरसांसाठी 25 काड्या लागतात, 28 नाही."
+        },
+        "3": {
+          "en": "32 = 4 × 8 would be needed only if the squares did not share any sides.",
+          "hi": "32 = 4 × 8 तभी चाहिए होता जब वर्ग कोई भुजा साझा न करते।",
+          "mr": "32 = 4 × 8 तेव्हाच लागले असते जेव्हा चौरस कोणतीही बाजू वापरत नसते."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-ma-15",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "In each column, the third number depends on the first two. Column 1: 5, 3, 13. Column 2: 7, 2, 16. Column 3: 8, 4, ?",
+        "hi": "प्रत्येक स्तंभ में तीसरी संख्या पहली दो संख्याओं पर निर्भर करती है। स्तंभ 1: 5, 3, 13। स्तंभ 2: 7, 2, 16। स्तंभ 3: 8, 4, ?",
+        "mr": "प्रत्येक स्तंभात तिसरी संख्या पहिल्या दोन संख्यांवर अवलंबून असते. स्तंभ 1: 5, 3, 13. स्तंभ 2: 7, 2, 16. स्तंभ 3: 8, 4, ?"
+      },
+      "optionsJson": [
+        { "en": "20", "hi": "20", "mr": "20" },
+        { "en": "18", "hi": "18", "mr": "18" },
+        { "en": "22", "hi": "22", "mr": "22" },
+        { "en": "24", "hi": "24", "mr": "24" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Third number = 2 × first + second. Check: 2 × 5 + 3 = 13 and 2 × 7 + 2 = 16. So 2 × 8 + 4 = 20.",
+        "hi": "तीसरी संख्या = 2 × पहली + दूसरी। जाँच: 2 × 5 + 3 = 13 और 2 × 7 + 2 = 16। अतः 2 × 8 + 4 = 20।",
+        "mr": "तिसरी संख्या = 2 × पहिली + दुसरी. तपासणी: 2 × 5 + 3 = 13 आणि 2 × 7 + 2 = 16. म्हणून 2 × 8 + 4 = 20."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "18 does not fit the rule, which gives 2 × 8 + 4 = 20.",
+          "hi": "18 नियम से मेल नहीं खाता, जो 2 × 8 + 4 = 20 देता है।",
+          "mr": "18 हे नियमाशी जुळत नाही, जो 2 × 8 + 4 = 20 देतो."
+        },
+        "2": {
+          "en": "22 does not fit the rule, which gives 2 × 8 + 4 = 20.",
+          "hi": "22 नियम से मेल नहीं खाता, जो 2 × 8 + 4 = 20 देता है।",
+          "mr": "22 हे नियमाशी जुळत नाही, जो 2 × 8 + 4 = 20 देतो."
+        },
+        "3": {
+          "en": "24 = 8 × 3 does not fit the rule, which gives 2 × 8 + 4 = 20.",
+          "hi": "24 = 8 × 3 नियम से मेल नहीं खाता, जो 2 × 8 + 4 = 20 देता है।",
+          "mr": "24 = 8 × 3 हे नियमाशी जुळत नाही, जो 2 × 8 + 4 = 20 देतो."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-ma-16",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Find the odd one out: AC, EG, IK, MP",
+        "hi": "असंगत चुनें: AC, EG, IK, MP",
+        "mr": "असंगत ओळखा: AC, EG, IK, MP"
+      },
+      "optionsJson": [
+        { "en": "AC", "hi": "AC", "mr": "AC" },
+        { "en": "EG", "hi": "EG", "mr": "EG" },
+        { "en": "IK", "hi": "IK", "mr": "IK" },
+        { "en": "MP", "hi": "MP", "mr": "MP" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "In AC, EG and IK the second letter is 2 places after the first letter. In MP the second letter is 3 places after the first, so MP is the odd one out.",
+        "hi": "AC, EG और IK में दूसरा अक्षर पहले अक्षर से 2 स्थान आगे है। MP में दूसरा अक्षर पहले से 3 स्थान आगे है, इसलिए MP असंगत है।",
+        "mr": "AC, EG आणि IK मध्ये दुसरे अक्षर पहिल्या अक्षरापेक्षा 2 स्थाने पुढे आहे. MP मध्ये दुसरे अक्षर पहिल्यापेक्षा 3 स्थाने पुढे आहे, म्हणून MP असंगत आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The second letter is 2 places after the first, like most of the other pairs.",
+          "hi": "दूसरा अक्षर पहले से 2 स्थान आगे है, जैसा अधिकांश अन्य जोड़ियों में है।",
+          "mr": "दुसरे अक्षर पहिल्यापेक्षा 2 स्थाने पुढे आहे, जसे इतर बहुतेक जोड्यांमध्ये आहे."
+        },
+        "1": {
+          "en": "The second letter is 2 places after the first, like most of the other pairs.",
+          "hi": "दूसरा अक्षर पहले से 2 स्थान आगे है, जैसा अधिकांश अन्य जोड़ियों में है।",
+          "mr": "दुसरे अक्षर पहिल्यापेक्षा 2 स्थाने पुढे आहे, जसे इतर बहुतेक जोड्यांमध्ये आहे."
+        },
+        "2": {
+          "en": "The second letter is 2 places after the first, like most of the other pairs.",
+          "hi": "दूसरा अक्षर पहले से 2 स्थान आगे है, जैसा अधिकांश अन्य जोड़ियों में है।",
+          "mr": "दुसरे अक्षर पहिल्यापेक्षा 2 स्थाने पुढे आहे, जसे इतर बहुतेक जोड्यांमध्ये आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-ma-17",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "In a certain code, each letter is written as its position in the English alphabet, so TIGER is written as 20 9 7 5 18. How will LION be written in that code?",
+        "hi": "एक निश्चित कूट भाषा में प्रत्येक अक्षर को अंग्रेज़ी वर्णमाला में उसके स्थान की संख्या से लिखा जाता है, जैसे TIGER को 20 9 7 5 18 लिखा जाता है। उसी कूट में LION को कैसे लिखा जाएगा?",
+        "mr": "एका ठराविक सांकेतिक भाषेत प्रत्येक अक्षर इंग्रजी वर्णमालेतील त्याच्या स्थानाच्या क्रमांकाने लिहिला जातो, उदा. TIGER हे 20 9 7 5 18 असे लिहिले जाते. त्याच सांकेतिक भाषेत LION कसे लिहिले जाईल?"
+      },
+      "optionsJson": [
+        { "en": "12 9 14 15", "hi": "12 9 14 15", "mr": "12 9 14 15" },
+        { "en": "12 9 15 14", "hi": "12 9 15 14", "mr": "12 9 15 14" },
+        { "en": "11 9 15 14", "hi": "11 9 15 14", "mr": "11 9 15 14" },
+        { "en": "12 10 15 14", "hi": "12 10 15 14", "mr": "12 10 15 14" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "L is the 12th letter, I is the 9th, O is the 15th and N is the 14th. So LION is written as 12 9 15 14.",
+        "hi": "L 12वाँ अक्षर है, I 9वाँ, O 15वाँ और N 14वाँ। इसलिए LION को 12 9 15 14 लिखा जाएगा।",
+        "mr": "L हे 12 वे अक्षर आहे, I 9 वे, O 15 वे आणि N 14 वे. म्हणून LION हे 12 9 15 14 असे लिहिले जाईल."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The numbers for O and N are swapped. O is 15 and N is 14.",
+          "hi": "O और N की संख्याएँ आपस में बदल गई हैं। O 15 है और N 14।",
+          "mr": "O आणि N च्या संख्या अदलाबदल झाल्या आहेत. O 15 आहे आणि N 14."
+        },
+        "2": {
+          "en": "L is the 12th letter of the alphabet, not the 11th.",
+          "hi": "L वर्णमाला का 12वाँ अक्षर है, 11वाँ नहीं।",
+          "mr": "L हे वर्णमालेतील 12 वे अक्षर आहे, 11 वे नाही."
+        },
+        "3": {
+          "en": "I is the 9th letter of the alphabet, not the 10th.",
+          "hi": "I वर्णमाला का 9वाँ अक्षर है, 10वाँ नहीं।",
+          "mr": "I हे वर्णमालेतील 9 वे अक्षर आहे, 10 वे नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-ma-18",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Four boxes P, Q, R and S are weighed. P is heavier than Q but lighter than R. S is lighter than Q. Which box is the second heaviest?",
+        "hi": "P, Q, R और S चार डिब्बों का वज़न किया गया। P, Q से भारी है लेकिन R से हल्का है। S, Q से हल्का है। कौन-सा डिब्बा दूसरा सबसे भारी है?",
+        "mr": "P, Q, R आणि S या चार पेट्यांचे वजन केले. P पेटी Q पेटीपेक्षा जड आहे पण R पेटीपेक्षा हलकी आहे. S पेटी Q पेटीपेक्षा हलकी आहे. कोणती पेटी जडपणात दुसऱ्या क्रमांकावर आहे?"
+      },
+      "optionsJson": [
+        { "en": "Q", "hi": "Q", "mr": "Q" },
+        { "en": "S", "hi": "S", "mr": "S" },
+        { "en": "P", "hi": "P", "mr": "P" },
+        { "en": "R", "hi": "R", "mr": "R" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "From the statements, R is heavier than P, P is heavier than Q, and Q is heavier than S. So the order from heaviest is R, P, Q, S, and P is the second heaviest.",
+        "hi": "कथनों से R, P से भारी है, P, Q से भारी है और Q, S से भारी है। इसलिए सबसे भारी से क्रम R, P, Q, S है और P दूसरा सबसे भारी है।",
+        "mr": "विधानांनुसार R हा P पेक्षा जड आहे, P हा Q पेक्षा जड आहे आणि Q हा S पेक्षा जड आहे. म्हणून सर्वात जडाकडून क्रम R, P, Q, S असा आहे आणि P दुसऱ्या क्रमांकावर आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Q is the third heaviest, because both R and P are heavier than Q.",
+          "hi": "Q तीसरा सबसे भारी है, क्योंकि R और P दोनों Q से भारी हैं।",
+          "mr": "Q तिसऱ्या क्रमांकावर जड आहे, कारण R आणि P दोन्ही Q पेक्षा जड आहेत."
+        },
+        "1": {
+          "en": "S is the lightest box, since it is lighter than Q, which is lighter than P and R.",
+          "hi": "S सबसे हल्का डिब्बा है, क्योंकि यह Q से हल्का है और Q, P तथा R से हल्का है।",
+          "mr": "S ही सर्वात हलकी पेटी आहे, कारण ती Q पेक्षा हलकी आहे आणि Q हा P व R पेक्षा हलका आहे."
+        },
+        "3": {
+          "en": "R is the heaviest box, not the second heaviest.",
+          "hi": "R सबसे भारी डिब्बा है, दूसरा सबसे भारी नहीं।",
+          "mr": "R ही सर्वात जड पेटी आहे, दुसऱ्या क्रमांकाची नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-ma-19",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "In a Venn diagram, one circle contains the multiples of 2 from 1 to 20 and another circle contains the multiples of 3 from 1 to 20. How many numbers lie in the overlapping part of the two circles?",
+        "hi": "एक वेन आरेख के एक वृत्त में 1 से 20 तक के 2 के गुणज हैं और दूसरे वृत्त में 1 से 20 तक के 3 के गुणज हैं। दोनों वृत्तों के उभयनिष्ठ भाग में कितनी संख्याएँ हैं?",
+        "mr": "एका व्हेन आकृतीतील एका वर्तुळात 1 ते 20 मधील 2 च्या पटीतील संख्या आहेत आणि दुसऱ्या वर्तुळात 1 ते 20 मधील 3 च्या पटीतील संख्या आहेत. दोन्ही वर्तुळांच्या सामायिक भागात किती संख्या आहेत?"
+      },
+      "optionsJson": [
+        { "en": "3", "hi": "3", "mr": "3" },
+        { "en": "2", "hi": "2", "mr": "2" },
+        { "en": "4", "hi": "4", "mr": "4" },
+        { "en": "6", "hi": "6", "mr": "6" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "A number in both circles is a multiple of both 2 and 3, that is, a multiple of 6. Between 1 and 20 these are 6, 12 and 18, so there are 3 numbers.",
+        "hi": "दोनों वृत्तों में आने वाली संख्या 2 और 3 दोनों का गुणज होती है, यानी 6 का गुणज। 1 से 20 के बीच ये 6, 12 और 18 हैं, इसलिए 3 संख्याएँ हैं।",
+        "mr": "दोन्ही वर्तुळांत येणारी संख्या 2 आणि 3 दोन्हींच्या पटीतील असते, म्हणजे 6 च्या पटीतील. 1 ते 20 मध्ये त्या 6, 12 आणि 18 आहेत, म्हणून 3 संख्या आहेत."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "This misses one number. The multiples of 6 up to 20 are 6, 12 and 18, which is 3 numbers.",
+          "hi": "इसमें एक संख्या छूट गई है। 20 तक 6 के गुणज 6, 12 और 18 हैं, यानी 3 संख्याएँ।",
+          "mr": "यात एक संख्या राहून गेली आहे. 20 पर्यंत 6 च्या पटीतील संख्या 6, 12 आणि 18 आहेत, म्हणजे 3 संख्या."
+        },
+        "2": {
+          "en": "A fourth number would be 24, which is greater than 20.",
+          "hi": "चौथी संख्या 24 होती, जो 20 से बड़ी है।",
+          "mr": "चौथी संख्या 24 असती, जी 20 पेक्षा मोठी आहे."
+        },
+        "3": {
+          "en": "6 is the smallest common multiple, not the count of common numbers.",
+          "hi": "6 सबसे छोटा उभयनिष्ठ गुणज है, उभयनिष्ठ संख्याओं की गिनती नहीं।",
+          "mr": "6 हा सर्वात लहान सामायिक पट आहे, सामायिक संख्यांची गणना नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-ma-20",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Sunita is facing South. She turns 90° to her left, then turns 180°, and then turns 90° to her right. Which direction is she facing now?",
+        "hi": "सुनीता दक्षिण की ओर मुँह करके खड़ी है। वह अपनी बाईं ओर 90° घूमती है, फिर 180° घूमती है, और फिर अपनी दाईं ओर 90° घूमती है। अब उसका मुँह किस दिशा में है?",
+        "mr": "सुनीता दक्षिणेकडे तोंड करून उभी आहे. ती डावीकडे 90° वळते, मग 180° वळते आणि नंतर उजवीकडे 90° वळते. आता तिचे तोंड कोणत्या दिशेला आहे?"
+      },
+      "optionsJson": [
+        { "en": "East", "hi": "पूर्व", "mr": "पूर्व" },
+        { "en": "West", "hi": "पश्चिम", "mr": "पश्चिम" },
+        { "en": "South", "hi": "दक्षिण", "mr": "दक्षिण" },
+        { "en": "North", "hi": "उत्तर", "mr": "उत्तर" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Facing South, a left turn of 90° makes her face East. A 180° turn makes her face West. A right turn of 90° from West makes her face North.",
+        "hi": "दक्षिण की ओर मुँह होने पर बाईं ओर 90° घूमने से उसका मुँह पूर्व की ओर हो जाता है। 180° घूमने से मुँह पश्चिम की ओर हो जाता है। पश्चिम से दाईं ओर 90° घूमने पर मुँह उत्तर की ओर हो जाता है।",
+        "mr": "दक्षिणेकडे तोंड असताना डावीकडे 90° वळल्यावर तिचे तोंड पूर्वेकडे होते. 180° वळल्यावर तोंड पश्चिमेकडे होते. पश्चिमेकडून उजवीकडे 90° वळल्यावर तोंड उत्तरेकडे होते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "East is the direction she faces after only the first turn.",
+          "hi": "पूर्व वह दिशा है जिसमें वह केवल पहले मोड़ के बाद होती है।",
+          "mr": "फक्त पहिल्या वळणानंतर तिचे तोंड पूर्वेकडे असते."
+        },
+        "1": {
+          "en": "West is the direction she faces after the first two turns, before the last turn.",
+          "hi": "पश्चिम वह दिशा है जिसमें वह पहले दो मोड़ों के बाद, अंतिम मोड़ से पहले होती है।",
+          "mr": "पहिल्या दोन वळणांनंतर, शेवटच्या वळणाआधी तिचे तोंड पश्चिमेकडे असते."
+        },
+        "2": {
+          "en": "South is the direction she was facing at the start.",
+          "hi": "दक्षिण वह दिशा है जिसमें उसका मुँह शुरू में था।",
+          "mr": "सुरुवातीला तिचे तोंड दक्षिणेकडे होते."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-ma-21",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Statements: (i) Some doctors are teachers. (ii) All teachers are singers. (iii) No singer is a dancer. Which conclusion definitely follows?",
+        "hi": "कथन: (i) कुछ डॉक्टर शिक्षक हैं। (ii) सभी शिक्षक गायक हैं। (iii) कोई गायक नर्तक नहीं है। कौन-सा निष्कर्ष निश्चित रूप से सत्य है?",
+        "mr": "विधाने: (i) काही डॉक्टर शिक्षक आहेत. (ii) सर्व शिक्षक गायक आहेत. (iii) कोणताही गायक नर्तक नाही. कोणता निष्कर्ष निश्चितपणे बरोबर ठरतो?"
+      },
+      "optionsJson": [
+        { "en": "All doctors are singers", "hi": "सभी डॉक्टर गायक हैं", "mr": "सर्व डॉक्टर गायक आहेत" },
+        { "en": "No doctor is a singer", "hi": "कोई डॉक्टर गायक नहीं है", "mr": "कोणताही डॉक्टर गायक नाही" },
+        { "en": "Some doctors are not dancers", "hi": "कुछ डॉक्टर नर्तक नहीं हैं", "mr": "काही डॉक्टर नर्तक नाहीत" },
+        { "en": "Some teachers are dancers", "hi": "कुछ शिक्षक नर्तक हैं", "mr": "काही शिक्षक नर्तक आहेत" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The doctors who are teachers are also singers, by statement (ii). No singer is a dancer, by statement (iii). So those doctors are not dancers, which means some doctors are not dancers.",
+        "hi": "जो डॉक्टर शिक्षक हैं वे कथन (ii) से गायक भी हैं। कथन (iii) से कोई गायक नर्तक नहीं है। इसलिए वे डॉक्टर नर्तक नहीं हैं, यानी कुछ डॉक्टर नर्तक नहीं हैं।",
+        "mr": "जे डॉक्टर शिक्षक आहेत ते विधान (ii) नुसार गायकही आहेत. विधान (iii) नुसार कोणताही गायक नर्तक नाही. म्हणून ते डॉक्टर नर्तक नाहीत, म्हणजे काही डॉक्टर नर्तक नाहीत."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Only the doctors who are teachers are known to be singers. Other doctors may not be.",
+          "hi": "केवल उन डॉक्टरों के गायक होने की जानकारी है जो शिक्षक हैं। अन्य डॉक्टर गायक नहीं भी हो सकते।",
+          "mr": "फक्त जे डॉक्टर शिक्षक आहेत त्यांचे गायक असणे माहीत आहे. इतर डॉक्टर गायक नसू शकतात."
+        },
+        "1": {
+          "en": "This contradicts the statements: the doctors who are teachers are singers.",
+          "hi": "यह कथनों के विपरीत है: जो डॉक्टर शिक्षक हैं वे गायक हैं।",
+          "mr": "हे विधानांच्या विरुद्ध आहे: जे डॉक्टर शिक्षक आहेत ते गायक आहेत."
+        },
+        "3": {
+          "en": "All teachers are singers and no singer is a dancer, so no teacher is a dancer.",
+          "hi": "सभी शिक्षक गायक हैं और कोई गायक नर्तक नहीं है, इसलिए कोई शिक्षक नर्तक नहीं है।",
+          "mr": "सर्व शिक्षक गायक आहेत आणि कोणताही गायक नर्तक नाही, म्हणून कोणताही शिक्षक नर्तक नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-ma-22",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "A rectangle is divided into 4 equal small rectangles by one vertical line and one horizontal line drawn through its middle. How many rectangles of all sizes are there in the figure, including the whole rectangle?",
+        "hi": "एक आयत को बीचों-बीच खींची गई एक ऊर्ध्वाधर रेखा और एक क्षैतिज रेखा द्वारा 4 बराबर छोटे आयतों में बाँटा गया है। पूरे आयत सहित, सभी आकारों के कुल कितने आयत इस आकृति में हैं?",
+        "mr": "एका आयताला मधोमध काढलेल्या एका उभ्या रेषेने आणि एका आडव्या रेषेने 4 सारख्या लहान आयतांमध्ये विभागले आहे. संपूर्ण आयतासह, सर्व आकारांचे मिळून एकूण किती आयत या आकृतीत आहेत?"
+      },
+      "optionsJson": [
+        { "en": "8", "hi": "8", "mr": "8" },
+        { "en": "9", "hi": "9", "mr": "9" },
+        { "en": "10", "hi": "10", "mr": "10" },
+        { "en": "6", "hi": "6", "mr": "6" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "There are 4 small rectangles, 2 formed by joining two side by side (the top half and the bottom half), 2 formed by joining two one above the other (the left half and the right half), and 1 whole rectangle. Total = 4 + 2 + 2 + 1 = 9.",
+        "hi": "4 छोटे आयत हैं, 2 आयत दो को अगल-बगल जोड़ने से बनते हैं (ऊपरी आधा और निचला आधा), 2 आयत दो को ऊपर-नीचे जोड़ने से बनते हैं (बायाँ आधा और दायाँ आधा), और 1 पूरा आयत है। कुल = 4 + 2 + 2 + 1 = 9।",
+        "mr": "4 लहान आयत आहेत, 2 आयत दोन शेजारी जोडून बनतात (वरचा अर्धा आणि खालचा अर्धा), 2 आयत दोन एकावर एक जोडून बनतात (डावा अर्धा आणि उजवा अर्धा), आणि 1 संपूर्ण आयत आहे. एकूण = 4 + 2 + 2 + 1 = 9."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "8 forgets to count the whole rectangle itself.",
+          "hi": "8 में पूरे आयत को गिनना छूट गया है।",
+          "mr": "8 मध्ये संपूर्ण आयताची गणना राहून गेली आहे."
+        },
+        "2": {
+          "en": "10 is too many. The figure has only 4 + 2 + 2 + 1 = 9 rectangles.",
+          "hi": "10 बहुत अधिक है। आकृति में केवल 4 + 2 + 2 + 1 = 9 आयत हैं।",
+          "mr": "10 खूप जास्त आहे. आकृतीत फक्त 4 + 2 + 2 + 1 = 9 आयत आहेत."
+        },
+        "3": {
+          "en": "6 counts the 4 small rectangles and only 2 of the 5 larger ones.",
+          "hi": "6 में 4 छोटे आयत और 5 बड़े आयतों में से केवल 2 गिने गए हैं।",
+          "mr": "6 मध्ये 4 लहान आयत आणि 5 मोठ्या आयतांपैकी फक्त 2 मोजले आहेत."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-ma-23",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Pointing to a photograph, Sneha said, 'He is the son of the only son of my father's father.' How is the man in the photograph related to Sneha?",
+        "hi": "एक फ़ोटो की ओर इशारा करते हुए स्नेहा ने कहा, 'यह मेरे पिता के पिता के इकलौते पुत्र का पुत्र है।' फ़ोटो में दिखाया गया व्यक्ति स्नेहा का क्या लगता है?",
+        "mr": "एका छायाचित्राकडे बोट दाखवून स्नेहा म्हणाली, 'हा माझ्या वडिलांच्या वडिलांच्या एकुलत्या एक मुलाचा मुलगा आहे.' छायाचित्रातील व्यक्ती स्नेहाचा कोण आहे?"
+      },
+      "optionsJson": [
+        { "en": "Brother", "hi": "भाई", "mr": "भाऊ" },
+        { "en": "Cousin", "hi": "चचेरा भाई", "mr": "चुलत भाऊ" },
+        { "en": "Uncle", "hi": "चाचा", "mr": "काका" },
+        { "en": "Father", "hi": "पिता", "mr": "वडील" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "The only son of Sneha's father's father is Sneha's own father. The son of Sneha's father is Sneha's brother.",
+        "hi": "स्नेहा के पिता के पिता का इकलौता पुत्र स्नेहा के अपने पिता हैं। स्नेहा के पिता का पुत्र स्नेहा का भाई है।",
+        "mr": "स्नेहाच्या वडिलांच्या वडिलांचा एकुलता एक मुलगा म्हणजे स्नेहाचे स्वतःचे वडील. स्नेहाच्या वडिलांचा मुलगा म्हणजे स्नेहाचा भाऊ."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "A cousin would be the son of Sneha's father's brother, but her father's father has only one son.",
+          "hi": "चचेरा भाई स्नेहा के पिता के भाई का पुत्र होता, पर उसके पिता के पिता का केवल एक ही पुत्र है।",
+          "mr": "चुलत भाऊ स्नेहाच्या वडिलांच्या भावाचा मुलगा असता, पण तिच्या वडिलांच्या वडिलांना एकच मुलगा आहे."
+        },
+        "2": {
+          "en": "An uncle would be another son of Sneha's father's father, but there is only one son, her father.",
+          "hi": "चाचा स्नेहा के पिता के पिता का एक और पुत्र होता, पर केवल एक ही पुत्र है, उसके पिता।",
+          "mr": "काका स्नेहाच्या वडिलांच्या वडिलांचा आणखी एक मुलगा असता, पण एकच मुलगा आहे, तिचे वडील."
+        },
+        "3": {
+          "en": "Sneha's father is the 'only son' mentioned in the statement. The man in the photograph is that man's son.",
+          "hi": "स्नेहा के पिता ही कथन में बताए गए 'इकलौते पुत्र' हैं। फ़ोटो वाला व्यक्ति उनका पुत्र है।",
+          "mr": "स्नेहाचे वडीलच विधानात सांगितलेले 'एकुलते एक पुत्र' आहेत. छायाचित्रातील व्यक्ती त्यांचा मुलगा आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-ma-24",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which of the following descriptions of circles correctly shows the relationship among Surgeons, Doctors and Humans?",
+        "hi": "निम्नलिखित में से कौन-सा वृत्त-वर्णन शल्य चिकित्सक, डॉक्टर और मनुष्य के बीच के संबंध को सही दर्शाता है?",
+        "mr": "खालीलपैकी कोणत्या वर्तुळ-वर्णनाने शल्यचिकित्सक, डॉक्टर आणि मानव यांच्यातील संबंध बरोबर दर्शवला जातो?"
+      },
+      "optionsJson": [
+        {
+          "en": "Three circles that are completely separate from one another",
+          "hi": "तीन वृत्त जो एक-दूसरे से पूरी तरह अलग हैं",
+          "mr": "तीन वर्तुळे जी एकमेकांपासून पूर्णपणे वेगळी आहेत"
+        },
+        {
+          "en": "A circle of Doctors inside a circle of Surgeons, with both inside a circle of Humans",
+          "hi": "शल्य चिकित्सकों के वृत्त के अंदर डॉक्टरों का वृत्त, और दोनों मनुष्यों के वृत्त के अंदर",
+          "mr": "शल्यचिकित्सकांच्या वर्तुळाच्या आत डॉक्टरांचे वर्तुळ, आणि दोन्ही मानवांच्या वर्तुळाच्या आत"
+        },
+        {
+          "en": "Two overlapping circles for Surgeons and Doctors, and a separate circle for Humans",
+          "hi": "शल्य चिकित्सकों और डॉक्टरों के दो आपस में कटने वाले वृत्त, और मनुष्यों का एक अलग वृत्त",
+          "mr": "शल्यचिकित्सक आणि डॉक्टर यांची दोन एकमेकांना छेदणारी वर्तुळे आणि मानवांचे वेगळे वर्तुळ"
+        },
+        {
+          "en": "A circle of Surgeons inside a circle of Doctors, with the circle of Doctors inside a circle of Humans",
+          "hi": "डॉक्टरों के वृत्त के अंदर शल्य चिकित्सकों का वृत्त, और डॉक्टरों का वृत्त मनुष्यों के वृत्त के अंदर",
+          "mr": "डॉक्टरांच्या वर्तुळाच्या आत शल्यचिकित्सकांचे वर्तुळ, आणि डॉक्टरांचे वर्तुळ मानवांच्या वर्तुळाच्या आत"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Every surgeon is a doctor, and every doctor is a human. So the circle of Surgeons lies inside the circle of Doctors, which lies inside the circle of Humans.",
+        "hi": "हर शल्य चिकित्सक डॉक्टर है और हर डॉक्टर मनुष्य है। इसलिए शल्य चिकित्सकों का वृत्त डॉक्टरों के वृत्त के अंदर है, जो मनुष्यों के वृत्त के अंदर है।",
+        "mr": "प्रत्येक शल्यचिकित्सक डॉक्टर आहे आणि प्रत्येक डॉक्टर मानव आहे. म्हणून शल्यचिकित्सकांचे वर्तुळ डॉक्टरांच्या वर्तुळाच्या आत आहे, जे मानवांच्या वर्तुळाच्या आत आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The three groups are related, not separate: surgeons are doctors and doctors are humans.",
+          "hi": "तीनों समूह संबंधित हैं, अलग नहीं: शल्य चिकित्सक डॉक्टर हैं और डॉक्टर मनुष्य हैं।",
+          "mr": "तिन्ही गट संबंधित आहेत, वेगळे नाहीत: शल्यचिकित्सक डॉक्टर आहेत आणि डॉक्टर मानव आहेत."
+        },
+        "1": {
+          "en": "The order is wrong. Not all doctors are surgeons, so Doctors cannot lie inside Surgeons.",
+          "hi": "क्रम गलत है। सभी डॉक्टर शल्य चिकित्सक नहीं होते, इसलिए डॉक्टर शल्य चिकित्सकों के अंदर नहीं आ सकते।",
+          "mr": "क्रम चुकीचा आहे. सर्व डॉक्टर शल्यचिकित्सक नसतात, म्हणून डॉक्टर शल्यचिकित्सकांच्या आत येऊ शकत नाहीत."
+        },
+        "2": {
+          "en": "Every surgeon is a doctor, so the two circles cannot just overlap. Doctors are also humans, so Humans cannot be a separate circle.",
+          "hi": "हर शल्य चिकित्सक डॉक्टर है, इसलिए दोनों वृत्त केवल आपस में कटने वाले नहीं हो सकते। डॉक्टर मनुष्य भी हैं, इसलिए मनुष्यों का वृत्त अलग नहीं हो सकता।",
+          "mr": "प्रत्येक शल्यचिकित्सक डॉक्टर आहे, म्हणून दोन्ही वर्तुळे फक्त एकमेकांना छेदणारी असू शकत नाहीत. डॉक्टर मानवही आहेत, म्हणून मानवांचे वर्तुळ वेगळे असू शकत नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p5-ma-25",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "If today is Thursday, what day of the week will it be after 100 days?",
+        "hi": "यदि आज गुरुवार है, तो 100 दिन बाद सप्ताह का कौन-सा दिन होगा?",
+        "mr": "आज गुरुवार असेल, तर 100 दिवसांनंतर आठवड्याचा कोणता वार असेल?"
+      },
+      "optionsJson": [
+        { "en": "Friday", "hi": "शुक्रवार", "mr": "शुक्रवार" },
+        { "en": "Sunday", "hi": "रविवार", "mr": "रविवार" },
+        { "en": "Saturday", "hi": "शनिवार", "mr": "शनिवार" },
+        { "en": "Monday", "hi": "सोमवार", "mr": "सोमवार" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The days repeat every 7 days. 100 = 14 × 7 + 2, so after 98 days it is again Thursday, and 2 more days give Saturday.",
+        "hi": "दिन हर 7 दिन बाद दोहराते हैं। 100 = 14 × 7 + 2, इसलिए 98 दिन बाद फिर गुरुवार होगा और 2 दिन और बाद शनिवार होगा।",
+        "mr": "वार दर 7 दिवसांनी पुन्हा येतात. 100 = 14 × 7 + 2, म्हणून 98 दिवसांनंतर पुन्हा गुरुवार असेल आणि आणखी 2 दिवसांनी शनिवार."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Friday would be after 99 days (1 extra day), not after 100 days.",
+          "hi": "शुक्रवार 99 दिन बाद (1 अतिरिक्त दिन) होता, 100 दिन बाद नहीं।",
+          "mr": "शुक्रवार 99 दिवसांनंतर (1 जास्तीचा दिवस) असता, 100 दिवसांनंतर नाही."
+        },
+        "1": {
+          "en": "Sunday would be after 101 days (3 extra days), not after 100 days.",
+          "hi": "रविवार 101 दिन बाद (3 अतिरिक्त दिन) होता, 100 दिन बाद नहीं।",
+          "mr": "रविवार 101 दिवसांनंतर (3 जास्तीचे दिवस) असता, 100 दिवसांनंतर नाही."
+        },
+        "3": {
+          "en": "Monday would be after 102 days (4 extra days), not after 100 days.",
+          "hi": "सोमवार 102 दिन बाद (4 अतिरिक्त दिन) होता, 100 दिन बाद नहीं।",
+          "mr": "सोमवार 102 दिवसांनंतर (4 जास्तीचे दिवस) असता, 100 दिवसांनंतर नाही."
+        }
+      }
+    }
+  ]
+}

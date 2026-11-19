@@ -1,0 +1,484 @@
+{
+  "examType": "RMS",
+  "classLevel": 6,
+  "paperNumber": 3,
+  "sectionKey": "language",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "rms6-p3-la-01",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Choose the correct verb form: Meera ___ her homework before dinner every day.", "hi": "सही क्रिया रूप चुनें: Meera ___ her homework before dinner every day.", "mr": "योग्य क्रियापद रूप निवडा: Meera ___ her homework before dinner every day." },
+      "optionsJson": [
+        { "en": "finish", "hi": "finish", "mr": "finish" },
+        { "en": "finishes", "hi": "finishes", "mr": "finishes" },
+        { "en": "finishing", "hi": "finishing", "mr": "finishing" },
+        { "en": "have finished", "hi": "have finished", "mr": "have finished" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "\"Every day\" shows a habit, so the simple present is used, and the singular subject \"Meera\" takes \"finishes\".", "hi": "\"Every day\" आदत दर्शाता है, इसलिए सरल वर्तमान काल प्रयोग होता है और एकवचन कर्ता \"Meera\" के साथ \"finishes\" आता है।", "mr": "\"Every day\" सवय दर्शवते, म्हणून साधा वर्तमानकाळ वापरला जातो आणि एकवचनी कर्ता \"Meera\" सोबत \"finishes\" येते." },
+      "distractorAnalysis": {
+        "0": { "en": "\"finish\" is the base/plural form and does not agree with the singular subject \"Meera\".", "hi": "\"finish\" मूल/बहुवचन रूप है और एकवचन कर्ता \"Meera\" से मेल नहीं खाता।", "mr": "\"finish\" हे मूळ/अनेकवचनी रूप आहे आणि एकवचनी कर्ता \"Meera\" शी जुळत नाही." },
+        "2": { "en": "\"finishing\" cannot be used alone as the main verb without a helping verb.", "hi": "\"finishing\" बिना सहायक क्रिया के मुख्य क्रिया के रूप में अकेला प्रयोग नहीं हो सकता।", "mr": "\"finishing\" हे सहायक क्रियापदाशिवाय मुख्य क्रियापद म्हणून एकटे वापरता येत नाही." },
+        "3": { "en": "\"have\" does not agree with the singular subject \"Meera\", and the present perfect does not suit a daily habit.", "hi": "\"have\" एकवचन कर्ता \"Meera\" से मेल नहीं खाता, और पूर्ण वर्तमान काल रोज़ की आदत के लिए उपयुक्त नहीं है।", "mr": "\"have\" हे एकवचनी कर्ता \"Meera\" शी जुळत नाही आणि पूर्ण वर्तमानकाळ रोजच्या सवयीसाठी योग्य नाही." }
+      }
+    },
+    {
+      "key": "rms6-p3-la-02",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Choose the correct verb form: By the time the bus arrived, the children ___ for an hour.", "hi": "सही क्रिया रूप चुनें: By the time the bus arrived, the children ___ for an hour.", "mr": "योग्य क्रियापद रूप निवडा: By the time the bus arrived, the children ___ for an hour." },
+      "optionsJson": [
+        { "en": "wait", "hi": "wait", "mr": "wait" },
+        { "en": "have waited", "hi": "have waited", "mr": "have waited" },
+        { "en": "had been waiting", "hi": "had been waiting", "mr": "had been waiting" },
+        { "en": "are waiting", "hi": "are waiting", "mr": "are waiting" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The waiting began before the bus arrived (a past event) and continued up to that moment, so the past perfect continuous \"had been waiting\" is used.", "hi": "प्रतीक्षा बस के आने (भूतकाल की घटना) से पहले शुरू हुई और उस क्षण तक चलती रही, इसलिए भूतकालिक पूर्ण सतत रूप \"had been waiting\" प्रयोग होता है।", "mr": "प्रतीक्षा बस येण्यापूर्वी (भूतकाळातील घटना) सुरू झाली आणि त्या क्षणापर्यंत चालू राहिली, म्हणून पूर्ण भूतकाळ चालू रूप \"had been waiting\" वापरले जाते." },
+      "distractorAnalysis": {
+        "0": { "en": "\"wait\" is a present/base form and cannot describe an action that went on before a past event.", "hi": "\"wait\" वर्तमान/मूल रूप है और भूतकाल की घटना से पहले चली क्रिया को नहीं दर्शा सकता।", "mr": "\"wait\" हे वर्तमान/मूळ रूप आहे आणि भूतकाळातील घटनेपूर्वी चाललेली क्रिया दर्शवू शकत नाही." },
+        "1": { "en": "\"have waited\" is present perfect and does not fit with the past event \"arrived\".", "hi": "\"have waited\" पूर्ण वर्तमान काल है और भूतकाल की घटना \"arrived\" के साथ मेल नहीं खाता।", "mr": "\"have waited\" हा पूर्ण वर्तमानकाळ आहे आणि भूतकाळातील घटना \"arrived\" शी जुळत नाही." },
+        "3": { "en": "\"are waiting\" is present continuous and does not fit a sentence set in the past.", "hi": "\"are waiting\" सतत वर्तमान काल है और भूतकाल में स्थित वाक्य के अनुरूप नहीं है।", "mr": "\"are waiting\" हा चालू वर्तमानकाळ आहे आणि भूतकाळातील वाक्याला योग्य नाही." }
+      }
+    },
+    {
+      "key": "rms6-p3-la-03",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Choose the correct article: Kalpana Chawla was ___ astronaut from India.", "hi": "सही आर्टिकल चुनें: Kalpana Chawla was ___ astronaut from India.", "mr": "योग्य आर्टिकल निवडा: Kalpana Chawla was ___ astronaut from India." },
+      "optionsJson": [
+        { "en": "An", "hi": "An", "mr": "An" },
+        { "en": "A", "hi": "A", "mr": "A" },
+        { "en": "The", "hi": "The", "mr": "The" },
+        { "en": "No article needed", "hi": "किसी आर्टिकल की आवश्यकता नहीं", "mr": "कोणत्याही आर्टिकलची आवश्यकता नाही" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "\"Astronaut\" begins with a vowel sound, and she was one of several astronauts, so \"an\" is used.", "hi": "\"Astronaut\" स्वर ध्वनि से शुरू होता है और वे कई अंतरिक्ष यात्रियों में से एक थीं, इसलिए \"an\" प्रयोग होता है।", "mr": "\"Astronaut\" स्वर ध्वनीने सुरू होतो आणि त्या अनेक अंतराळवीरांपैकी एक होत्या, म्हणून \"an\" वापरला जातो." },
+      "distractorAnalysis": {
+        "1": { "en": "\"A\" is used before consonant sounds, not vowel sounds.", "hi": "\"A\" का प्रयोग व्यंजन ध्वनि से पहले होता है, स्वर ध्वनि से पहले नहीं।", "mr": "\"A\" चा वापर व्यंजन ध्वनीपूर्वी होतो, स्वर ध्वनीपूर्वी नाही." },
+        "2": { "en": "\"The\" would wrongly suggest she was the only astronaut from India.", "hi": "\"The\" से गलत संकेत मिलता कि वे भारत की एकमात्र अंतरिक्ष यात्री थीं।", "mr": "\"The\" मुळे त्या भारताच्या एकमेव अंतराळवीर होत्या असा चुकीचा अर्थ निघाला असता." },
+        "3": { "en": "A singular countable noun like \"astronaut\" generally needs an article.", "hi": "\"Astronaut\" जैसी एकवचन गणनीय संज्ञा के साथ सामान्यतः आर्टिकल आवश्यक होता है।", "mr": "\"Astronaut\" सारख्या एकवचनी गणनीय नामासोबत साधारणपणे आर्टिकल आवश्यक असतो." }
+      }
+    },
+    {
+      "key": "rms6-p3-la-04",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Choose the correct article: ___ Himalayas are the highest mountain range in the world.", "hi": "सही आर्टिकल चुनें: ___ Himalayas are the highest mountain range in the world.", "mr": "योग्य आर्टिकल निवडा: ___ Himalayas are the highest mountain range in the world." },
+      "optionsJson": [
+        { "en": "A", "hi": "A", "mr": "A" },
+        { "en": "An", "hi": "An", "mr": "An" },
+        { "en": "No article needed", "hi": "किसी आर्टिकल की आवश्यकता नहीं", "mr": "कोणत्याही आर्टिकलची आवश्यकता नाही" },
+        { "en": "The", "hi": "The", "mr": "The" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "The names of mountain ranges, such as the Himalayas, take \"the\".", "hi": "पर्वत शृंखलाओं के नामों, जैसे Himalayas, के साथ \"the\" आता है।", "mr": "पर्वतरांगांच्या नावांसोबत, जसे Himalayas, \"the\" येतो." },
+      "distractorAnalysis": {
+        "0": { "en": "\"A\" goes with a singular countable noun, but \"Himalayas\" is a plural name.", "hi": "\"A\" एकवचन गणनीय संज्ञा के साथ आता है, जबकि \"Himalayas\" बहुवचन नाम है।", "mr": "\"A\" एकवचनी गणनीय नामासोबत येतो, पण \"Himalayas\" हे अनेकवचनी नाव आहे." },
+        "1": { "en": "\"An\" goes with a singular noun starting with a vowel sound, but \"Himalayas\" is plural and starts with a consonant sound.", "hi": "\"An\" स्वर ध्वनि से शुरू होने वाली एकवचन संज्ञा के साथ आता है, जबकि \"Himalayas\" बहुवचन है और व्यंजन ध्वनि से शुरू होता है।", "mr": "\"An\" स्वर ध्वनीने सुरू होणाऱ्या एकवचनी नामासोबत येतो, पण \"Himalayas\" अनेकवचनी आहे आणि व्यंजन ध्वनीने सुरू होते." },
+        "2": { "en": "A mountain-range name needs \"the\"; leaving it out is incorrect.", "hi": "पर्वत शृंखला के नाम के साथ \"the\" आवश्यक है; उसे छोड़ना गलत है।", "mr": "पर्वतरांगेच्या नावासोबत \"the\" आवश्यक आहे; तो वगळणे चुकीचे आहे." }
+      }
+    },
+    {
+      "key": "rms6-p3-la-05",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Choose the correct preposition: The school will reopen ___ Monday.", "hi": "सही पूर्वसर्ग चुनें: The school will reopen ___ Monday.", "mr": "योग्य शब्दयोगी अव्यय निवडा: The school will reopen ___ Monday." },
+      "optionsJson": [
+        { "en": "in", "hi": "in", "mr": "in" },
+        { "en": "on", "hi": "on", "mr": "on" },
+        { "en": "at", "hi": "at", "mr": "at" },
+        { "en": "to", "hi": "to", "mr": "to" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "\"On\" is used before the days of the week.", "hi": "सप्ताह के दिनों से पहले \"on\" का प्रयोग होता है।", "mr": "आठवड्याच्या वारांपूर्वी \"on\" वापरतात." },
+      "distractorAnalysis": {
+        "0": { "en": "\"In\" is used before months, years and seasons, not days of the week.", "hi": "\"In\" का प्रयोग महीनों, वर्षों और ऋतुओं से पहले होता है, सप्ताह के दिनों से पहले नहीं।", "mr": "\"In\" चा वापर महिने, वर्षे आणि ऋतूंपूर्वी होतो, आठवड्याच्या वारांपूर्वी नाही." },
+        "2": { "en": "\"At\" is used for clock times and exact points, such as \"at 9 o'clock\".", "hi": "\"At\" का प्रयोग घड़ी के समय और निश्चित बिंदु के लिए होता है, जैसे \"at 9 o'clock\"।", "mr": "\"At\" चा वापर घड्याळातील वेळ आणि नेमक्या बिंदूसाठी होतो, जसे \"at 9 o'clock\"." },
+        "3": { "en": "\"To\" shows direction or destination and cannot be used before a day.", "hi": "\"To\" दिशा या गंतव्य दर्शाता है और किसी दिन से पहले प्रयोग नहीं हो सकता।", "mr": "\"To\" दिशा किंवा गंतव्य दर्शवते आणि वारापूर्वी वापरता येत नाही." }
+      }
+    },
+    {
+      "key": "rms6-p3-la-06",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Choose the correct word to fill the blank: She has been learning the sitar ___ 2021.", "hi": "रिक्त स्थान के लिए सही शब्द चुनें: She has been learning the sitar ___ 2021.", "mr": "रिकाम्या जागेसाठी योग्य शब्द निवडा: She has been learning the sitar ___ 2021." },
+      "optionsJson": [
+        { "en": "since", "hi": "since", "mr": "since" },
+        { "en": "for", "hi": "for", "mr": "for" },
+        { "en": "from", "hi": "from", "mr": "from" },
+        { "en": "by", "hi": "by", "mr": "by" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "With the present perfect continuous, \"since\" names the fixed starting point of an action, such as the year 2021.", "hi": "पूर्ण सतत वर्तमान काल के साथ \"since\" किसी क्रिया के निश्चित आरंभ-बिंदु, जैसे वर्ष 2021, को बताता है।", "mr": "पूर्ण चालू वर्तमानकाळासोबत \"since\" क्रियेचा निश्चित प्रारंभबिंदू, जसे 2021 हे वर्ष, सांगते." },
+      "distractorAnalysis": {
+        "1": { "en": "\"For\" is used with a length of time (for three years), not a starting point.", "hi": "\"For\" का प्रयोग समय की अवधि (for three years) के साथ होता है, आरंभ-बिंदु के साथ नहीं।", "mr": "\"For\" चा वापर कालावधीसोबत (for three years) होतो, प्रारंभबिंदूसोबत नाही." },
+        "2": { "en": "\"From\" is not used to name the starting point with the present perfect continuous.", "hi": "पूर्ण सतत वर्तमान काल के साथ आरंभ-बिंदु बताने के लिए \"from\" का प्रयोग नहीं होता।", "mr": "पूर्ण चालू वर्तमानकाळासोबत प्रारंभबिंदू सांगण्यासाठी \"from\" वापरत नाहीत." },
+        "3": { "en": "\"By\" means \"not later than\" a time and does not show when an ongoing action began.", "hi": "\"By\" का अर्थ किसी समय \"तक\" होता है और यह नहीं बताता कि चल रही क्रिया कब शुरू हुई।", "mr": "\"By\" म्हणजे एखाद्या वेळेपर्यंत, आणि ते चालू असलेली क्रिया केव्हा सुरू झाली हे सांगत नाही." }
+      }
+    },
+    {
+      "key": "rms6-p3-la-07",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Choose the correct verb form: Each of the girls ___ a new bag.", "hi": "सही क्रिया रूप चुनें: Each of the girls ___ a new bag.", "mr": "योग्य क्रियापद रूप निवडा: Each of the girls ___ a new bag." },
+      "optionsJson": [
+        { "en": "have", "hi": "have", "mr": "have" },
+        { "en": "having", "hi": "having", "mr": "having" },
+        { "en": "has", "hi": "has", "mr": "has" },
+        { "en": "are", "hi": "are", "mr": "are" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "\"Each\" is singular, so it takes the singular verb \"has\".", "hi": "\"Each\" एकवचन है, इसलिए इसके साथ एकवचन क्रिया \"has\" आती है।", "mr": "\"Each\" एकवचनी आहे, म्हणून त्यासोबत एकवचनी क्रियापद \"has\" येते." },
+      "distractorAnalysis": {
+        "0": { "en": "\"have\" is a plural form and does not agree with \"each\".", "hi": "\"have\" बहुवचन रूप है और \"each\" से मेल नहीं खाता।", "mr": "\"have\" हे अनेकवचनी रूप आहे आणि \"each\" शी जुळत नाही." },
+        "1": { "en": "\"having\" cannot be the main verb on its own without a helping verb.", "hi": "\"having\" बिना सहायक क्रिया के अकेला मुख्य क्रिया नहीं हो सकता।", "mr": "\"having\" हे सहायक क्रियापदाशिवाय एकटे मुख्य क्रियापद होऊ शकत नाही." },
+        "3": { "en": "\"are\" is a plural form of \"to be\" and does not make sense in this sentence.", "hi": "\"are\", \"to be\" का बहुवचन रूप है और इस वाक्य में अर्थपूर्ण नहीं है।", "mr": "\"are\" हे \"to be\" चे अनेकवचनी रूप आहे आणि या वाक्यात अर्थपूर्ण नाही." }
+      }
+    },
+    {
+      "key": "rms6-p3-la-08",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Choose the correct verb form: Mathematics ___ my favourite subject.", "hi": "सही क्रिया रूप चुनें: Mathematics ___ my favourite subject.", "mr": "योग्य क्रियापद रूप निवडा: Mathematics ___ my favourite subject." },
+      "optionsJson": [
+        { "en": "are", "hi": "are", "mr": "are" },
+        { "en": "were", "hi": "were", "mr": "were" },
+        { "en": "have been", "hi": "have been", "mr": "have been" },
+        { "en": "is", "hi": "is", "mr": "is" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "\"Mathematics\" is the name of a single subject, so it takes the singular verb \"is\", even though it ends in -s.", "hi": "\"Mathematics\" एक ही विषय का नाम है, इसलिए -s पर समाप्त होने के बावजूद इसके साथ एकवचन क्रिया \"is\" आती है।", "mr": "\"Mathematics\" हे एकाच विषयाचे नाव आहे, म्हणून -s ने संपत असले तरी त्यासोबत एकवचनी क्रियापद \"is\" येते." },
+      "distractorAnalysis": {
+        "0": { "en": "\"are\" is plural and does not agree with the singular \"mathematics\".", "hi": "\"are\" बहुवचन है और एकवचन \"mathematics\" से मेल नहीं खाता।", "mr": "\"are\" अनेकवचनी आहे आणि एकवचनी \"mathematics\" शी जुळत नाही." },
+        "1": { "en": "\"were\" is a plural past form and does not fit this present-time statement.", "hi": "\"were\" बहुवचन भूतकाल रूप है और इस वर्तमान काल के कथन में उपयुक्त नहीं है।", "mr": "\"were\" हे अनेकवचनी भूतकाळ रूप आहे आणि या वर्तमानकाळातील विधानात योग्य नाही." },
+        "2": { "en": "\"have been\" is a plural perfect form and does not agree with \"mathematics\".", "hi": "\"have been\" बहुवचन पूर्ण रूप है और \"mathematics\" से मेल नहीं खाता।", "mr": "\"have been\" हे अनेकवचनी पूर्ण रूप आहे आणि \"mathematics\" शी जुळत नाही." }
+      }
+    },
+    {
+      "key": "rms6-p3-la-09",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Choose the correct verb form: Neither the captain nor the players ___ ready for the match.", "hi": "सही क्रिया रूप चुनें: Neither the captain nor the players ___ ready for the match.", "mr": "योग्य क्रियापद रूप निवडा: Neither the captain nor the players ___ ready for the match." },
+      "optionsJson": [
+        { "en": "was", "hi": "was", "mr": "was" },
+        { "en": "is", "hi": "is", "mr": "is" },
+        { "en": "are", "hi": "are", "mr": "are" },
+        { "en": "has been", "hi": "has been", "mr": "has been" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "With \"neither...nor\", the verb agrees with the subject nearest to it. \"Players\" is plural, so \"are\" is used.", "hi": "\"Neither...nor\" के साथ क्रिया उसके निकटतम कर्ता के अनुसार होती है। \"Players\" बहुवचन है, इसलिए \"are\" प्रयोग होता है।", "mr": "\"Neither...nor\" सोबत क्रियापद त्याच्या सर्वात जवळच्या कर्त्यानुसार येते. \"Players\" अनेकवचनी आहे, म्हणून \"are\" वापरला जातो." },
+      "distractorAnalysis": {
+        "0": { "en": "\"was\" is singular and would suit \"captain\", the farther subject, not \"players\".", "hi": "\"was\" एकवचन है और दूर वाले कर्ता \"captain\" के लिए उपयुक्त होता, \"players\" के लिए नहीं।", "mr": "\"was\" एकवचनी आहे आणि दूरच्या कर्त्या \"captain\" साठी योग्य ठरले असते, \"players\" साठी नाही." },
+        "1": { "en": "\"is\" is singular, but the nearest subject \"players\" is plural.", "hi": "\"is\" एकवचन है, जबकि निकटतम कर्ता \"players\" बहुवचन है।", "mr": "\"is\" एकवचनी आहे, पण सर्वात जवळचा कर्ता \"players\" अनेकवचनी आहे." },
+        "3": { "en": "\"has been\" is a singular form and does not agree with \"players\".", "hi": "\"has been\" एकवचन रूप है और \"players\" से मेल नहीं खाता।", "mr": "\"has been\" हे एकवचनी रूप आहे आणि \"players\" शी जुळत नाही." }
+      }
+    },
+    {
+      "key": "rms6-p3-la-10",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Choose the correct verb form: Hush! The baby ___ in the next room.", "hi": "सही क्रिया रूप चुनें: Hush! The baby ___ in the next room.", "mr": "योग्य क्रियापद रूप निवडा: Hush! The baby ___ in the next room." },
+      "optionsJson": [
+        { "en": "sleeps", "hi": "sleeps", "mr": "sleeps" },
+        { "en": "is sleeping", "hi": "is sleeping", "mr": "is sleeping" },
+        { "en": "slept", "hi": "slept", "mr": "slept" },
+        { "en": "has slept", "hi": "has slept", "mr": "has slept" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "\"Hush!\" tells us the action is happening right now, so the present continuous \"is sleeping\" is used.", "hi": "\"Hush!\" बताता है कि क्रिया अभी हो रही है, इसलिए सतत वर्तमान काल \"is sleeping\" प्रयोग होता है।", "mr": "\"Hush!\" सांगते की क्रिया आत्ताच घडत आहे, म्हणून चालू वर्तमानकाळ \"is sleeping\" वापरला जातो." },
+      "distractorAnalysis": {
+        "0": { "en": "\"sleeps\" is simple present, used for habits or facts, not an action happening right now.", "hi": "\"sleeps\" सरल वर्तमान काल है, जो आदत या तथ्य के लिए प्रयोग होता है, अभी हो रही क्रिया के लिए नहीं।", "mr": "\"sleeps\" हा साधा वर्तमानकाळ आहे, जो सवय किंवा तथ्यासाठी वापरतात, आत्ता घडणाऱ्या क्रियेसाठी नाही." },
+        "2": { "en": "\"slept\" is past and does not fit the present moment shown by \"Hush!\".", "hi": "\"slept\" भूतकाल है और \"Hush!\" से दिखाए गए वर्तमान क्षण के अनुरूप नहीं है।", "mr": "\"slept\" हा भूतकाळ आहे आणि \"Hush!\" ने दर्शवलेल्या वर्तमान क्षणाशी जुळत नाही." },
+        "3": { "en": "\"has slept\" is present perfect and describes a completed action, not one in progress.", "hi": "\"has slept\" पूर्ण वर्तमान काल है और पूरी हो चुकी क्रिया दर्शाता है, चल रही क्रिया नहीं।", "mr": "\"has slept\" हा पूर्ण वर्तमानकाळ आहे आणि पूर्ण झालेली क्रिया दर्शवतो, चालू क्रिया नाही." }
+      }
+    },
+    {
+      "key": "rms6-p3-la-11",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Choose the grammatically correct sentence.", "hi": "व्याकरण की दृष्टि से सही वाक्य चुनें।", "mr": "व्याकरणदृष्ट्या योग्य वाक्य निवडा." },
+      "optionsJson": [
+        { "en": "If it will rain tomorrow, we will cancel the picnic.", "hi": "If it will rain tomorrow, we will cancel the picnic.", "mr": "If it will rain tomorrow, we will cancel the picnic." },
+        { "en": "If it rained tomorrow, we will cancel the picnic.", "hi": "If it rained tomorrow, we will cancel the picnic.", "mr": "If it rained tomorrow, we will cancel the picnic." },
+        { "en": "If it would rain tomorrow, we would cancel the picnic.", "hi": "If it would rain tomorrow, we would cancel the picnic.", "mr": "If it would rain tomorrow, we would cancel the picnic." },
+        { "en": "If it rains tomorrow, we will cancel the picnic.", "hi": "If it rains tomorrow, we will cancel the picnic.", "mr": "If it rains tomorrow, we will cancel the picnic." }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "For a real possibility in the future, the if-clause uses the simple present (\"rains\") and the main clause uses \"will\".", "hi": "भविष्य की वास्तविक संभावना के लिए if-वाक्यांश में सरल वर्तमान काल (\"rains\") और मुख्य वाक्यांश में \"will\" आता है।", "mr": "भविष्यातील खऱ्या शक्यतेसाठी if-उपवाक्यात साधा वर्तमानकाळ (\"rains\") आणि मुख्य उपवाक्यात \"will\" येते." },
+      "distractorAnalysis": {
+        "0": { "en": "\"Will\" should not be used in the if-clause; the simple present is needed there.", "hi": "if-वाक्यांश में \"will\" का प्रयोग नहीं होता; वहाँ सरल वर्तमान काल चाहिए।", "mr": "if-उपवाक्यात \"will\" वापरत नाहीत; तिथे साधा वर्तमानकाळ हवा." },
+        "1": { "en": "The past form \"rained\" in the if-clause does not match \"will cancel\" in the main clause.", "hi": "if-वाक्यांश का भूतकाल रूप \"rained\" मुख्य वाक्यांश के \"will cancel\" से मेल नहीं खाता।", "mr": "if-उपवाक्यातील भूतकाळ रूप \"rained\" मुख्य उपवाक्यातील \"will cancel\" शी जुळत नाही." },
+        "2": { "en": "\"Would\" is not used inside the if-clause, so this sentence is incorrect.", "hi": "if-वाक्यांश के अंदर \"would\" का प्रयोग नहीं होता, इसलिए यह वाक्य गलत है।", "mr": "if-उपवाक्याच्या आत \"would\" वापरत नाहीत, म्हणून हे वाक्य चुकीचे आहे." }
+      }
+    },
+    {
+      "key": "rms6-p3-la-12",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Choose the correct verb form: When the lights went out, Kiran ___ dinner in the kitchen.", "hi": "सही क्रिया रूप चुनें: When the lights went out, Kiran ___ dinner in the kitchen.", "mr": "योग्य क्रियापद रूप निवडा: When the lights went out, Kiran ___ dinner in the kitchen." },
+      "optionsJson": [
+        { "en": "was cooking", "hi": "was cooking", "mr": "was cooking" },
+        { "en": "cooks", "hi": "cooks", "mr": "cooks" },
+        { "en": "has cooked", "hi": "has cooked", "mr": "has cooked" },
+        { "en": "will cook", "hi": "will cook", "mr": "will cook" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "An action that was already in progress in the past when another past event (\"went out\") happened takes the past continuous, \"was cooking\".", "hi": "भूतकाल में चल रही क्रिया, जब कोई दूसरी भूतकालिक घटना (\"went out\") हुई, सतत भूतकाल \"was cooking\" में आती है।", "mr": "भूतकाळात चालू असलेली क्रिया, जेव्हा दुसरी भूतकाळातील घटना (\"went out\") घडली, चालू भूतकाळ \"was cooking\" मध्ये येते." },
+      "distractorAnalysis": {
+        "1": { "en": "\"cooks\" is simple present, which does not fit a past event.", "hi": "\"cooks\" सरल वर्तमान काल है, जो भूतकाल की घटना के अनुरूप नहीं है।", "mr": "\"cooks\" हा साधा वर्तमानकाळ आहे, जो भूतकाळातील घटनेला योग्य नाही." },
+        "2": { "en": "\"has cooked\" is present perfect and does not fit \"went out\", which is in the past.", "hi": "\"has cooked\" पूर्ण वर्तमान काल है और भूतकाल के \"went out\" के साथ मेल नहीं खाता।", "mr": "\"has cooked\" हा पूर्ण वर्तमानकाळ आहे आणि भूतकाळातील \"went out\" शी जुळत नाही." },
+        "3": { "en": "\"will cook\" is future and does not fit an event that already happened.", "hi": "\"will cook\" भविष्य काल है और पहले ही हो चुकी घटना के अनुरूप नहीं है।", "mr": "\"will cook\" हा भविष्यकाळ आहे आणि आधीच घडलेल्या घटनेला योग्य नाही." }
+      }
+    },
+    {
+      "key": "rms6-p3-la-13",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Choose the correct verb form: Last Sunday, we ___ the Red Fort in Delhi.", "hi": "सही क्रिया रूप चुनें: Last Sunday, we ___ the Red Fort in Delhi.", "mr": "योग्य क्रियापद रूप निवडा: Last Sunday, we ___ the Red Fort in Delhi." },
+      "optionsJson": [
+        { "en": "visit", "hi": "visit", "mr": "visit" },
+        { "en": "visits", "hi": "visits", "mr": "visits" },
+        { "en": "visited", "hi": "visited", "mr": "visited" },
+        { "en": "are visiting", "hi": "are visiting", "mr": "are visiting" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "\"Last Sunday\" refers to a finished time in the past, so the simple past \"visited\" is used.", "hi": "\"Last Sunday\" बीते हुए समय को दर्शाता है, इसलिए सरल भूतकाल \"visited\" प्रयोग होता है।", "mr": "\"Last Sunday\" हा संपलेला भूतकाळातील काळ दर्शवतो, म्हणून साधा भूतकाळ \"visited\" वापरला जातो." },
+      "distractorAnalysis": {
+        "0": { "en": "\"visit\" is the present/base form and does not fit \"last Sunday\".", "hi": "\"visit\" वर्तमान/मूल रूप है और \"last Sunday\" के साथ मेल नहीं खाता।", "mr": "\"visit\" हे वर्तमान/मूळ रूप आहे आणि \"last Sunday\" शी जुळत नाही." },
+        "1": { "en": "\"visits\" is a present singular form; it fits neither the subject \"we\" nor a past time.", "hi": "\"visits\" वर्तमान एकवचन रूप है; यह न कर्ता \"we\" से और न भूतकाल से मेल खाता है।", "mr": "\"visits\" हे वर्तमान एकवचनी रूप आहे; ते कर्ता \"we\" शी किंवा भूतकाळाशी जुळत नाही." },
+        "3": { "en": "\"are visiting\" is present continuous and does not fit a past time.", "hi": "\"are visiting\" सतत वर्तमान काल है और भूतकाल के समय से मेल नहीं खाता।", "mr": "\"are visiting\" हा चालू वर्तमानकाळ आहे आणि भूतकाळातील वेळेशी जुळत नाही." }
+      }
+    },
+    {
+      "key": "rms6-p3-la-14",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Which sentence uses articles correctly?", "hi": "किस वाक्य में आर्टिकल का सही प्रयोग हुआ है?", "mr": "कोणत्या वाक्यात आर्टिकलचा योग्य वापर झाला आहे?" },
+      "optionsJson": [
+        { "en": "He is an honest boy.", "hi": "He is an honest boy.", "mr": "He is an honest boy." },
+        { "en": "He is a honest boy.", "hi": "He is a honest boy.", "mr": "He is a honest boy." },
+        { "en": "It was an one-day trip.", "hi": "It was an one-day trip.", "mr": "It was an one-day trip." },
+        { "en": "She is an university student.", "hi": "She is an university student.", "mr": "She is an university student." }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "\"Honest\" begins with a silent h, so it starts with a vowel sound and takes \"an\".", "hi": "\"Honest\" में h मौन है, इसलिए यह स्वर ध्वनि से शुरू होता है और इसके साथ \"an\" आता है।", "mr": "\"Honest\" मधील h मौन आहे, म्हणून तो स्वर ध्वनीने सुरू होतो आणि त्यासोबत \"an\" येतो." },
+      "distractorAnalysis": {
+        "1": { "en": "\"Honest\" starts with a vowel sound (silent h), so \"a\" is wrong here.", "hi": "\"Honest\" स्वर ध्वनि (मौन h) से शुरू होता है, इसलिए यहाँ \"a\" गलत है।", "mr": "\"Honest\" स्वर ध्वनीने (मौन h) सुरू होतो, म्हणून येथे \"a\" चुकीचा आहे." },
+        "2": { "en": "\"One\" starts with a consonant sound (w), so it needs \"a\", not \"an\".", "hi": "\"One\" व्यंजन ध्वनि (w) से शुरू होता है, इसलिए इसके साथ \"an\" नहीं, \"a\" आता है।", "mr": "\"One\" व्यंजन ध्वनीने (w) सुरू होतो, म्हणून त्यासोबत \"an\" नाही, \"a\" येतो." },
+        "3": { "en": "\"University\" starts with a consonant sound (y), so it needs \"a\", not \"an\".", "hi": "\"University\" व्यंजन ध्वनि (y) से शुरू होता है, इसलिए इसके साथ \"an\" नहीं, \"a\" आता है।", "mr": "\"University\" व्यंजन ध्वनीने (y) सुरू होतो, म्हणून त्यासोबत \"an\" नाही, \"a\" येतो." }
+      }
+    },
+    {
+      "key": "rms6-p3-la-15",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Choose the correct article: Children love playing ___ cricket in the park.", "hi": "सही आर्टिकल चुनें: Children love playing ___ cricket in the park.", "mr": "योग्य आर्टिकल निवडा: Children love playing ___ cricket in the park." },
+      "optionsJson": [
+        { "en": "a", "hi": "a", "mr": "a" },
+        { "en": "an", "hi": "an", "mr": "an" },
+        { "en": "the", "hi": "the", "mr": "the" },
+        { "en": "No article needed", "hi": "किसी आर्टिकल की आवश्यकता नहीं", "mr": "कोणत्याही आर्टिकलची आवश्यकता नाही" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "The names of games and sports, such as cricket, are used without an article.", "hi": "खेलों के नामों, जैसे cricket, के साथ आर्टिकल का प्रयोग नहीं होता।", "mr": "खेळांच्या नावांसोबत, जसे cricket, आर्टिकल वापरत नाहीत." },
+      "distractorAnalysis": {
+        "0": { "en": "\"A\" is not used before the name of a game.", "hi": "किसी खेल के नाम से पहले \"a\" का प्रयोग नहीं होता।", "mr": "खेळाच्या नावापूर्वी \"a\" वापरत नाहीत." },
+        "1": { "en": "\"An\" is used before vowel sounds, and a game's name takes no article anyway.", "hi": "\"An\" स्वर ध्वनि से पहले आता है, और खेल के नाम के साथ वैसे भी आर्टिकल नहीं आता।", "mr": "\"An\" स्वर ध्वनीपूर्वी येतो, आणि खेळाच्या नावासोबत तरीही आर्टिकल येत नाही." },
+        "2": { "en": "\"The\" is not used before the name of a game in a general statement.", "hi": "सामान्य कथन में खेल के नाम से पहले \"the\" का प्रयोग नहीं होता।", "mr": "सर्वसाधारण विधानात खेळाच्या नावापूर्वी \"the\" वापरत नाहीत." }
+      }
+    },
+    {
+      "key": "rms6-p3-la-16",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Choose the word closest in meaning to \"enormous\".", "hi": "\"enormous\" के अर्थ के सबसे निकट शब्द चुनें।", "mr": "\"enormous\" च्या अर्थाच्या सर्वात जवळचा शब्द निवडा." },
+      "optionsJson": [
+        { "en": "tiny", "hi": "tiny", "mr": "tiny" },
+        { "en": "huge", "hi": "huge", "mr": "huge" },
+        { "en": "quiet", "hi": "quiet", "mr": "quiet" },
+        { "en": "ancient", "hi": "ancient", "mr": "ancient" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "\"Enormous\" means very large, which is the same as \"huge\".", "hi": "\"Enormous\" का अर्थ बहुत बड़ा है, जो \"huge\" के समान है।", "mr": "\"Enormous\" म्हणजे खूप मोठा, जे \"huge\" सारखेच आहे." },
+      "distractorAnalysis": {
+        "0": { "en": "\"Tiny\" means very small, the opposite of enormous.", "hi": "\"Tiny\" का अर्थ बहुत छोटा है, जो enormous का विपरीत है।", "mr": "\"Tiny\" म्हणजे खूप लहान, जे enormous च्या विरुद्ध आहे." },
+        "2": { "en": "\"Quiet\" means making little noise and has nothing to do with size.", "hi": "\"Quiet\" का अर्थ कम आवाज़ वाला है और इसका आकार से कोई संबंध नहीं है।", "mr": "\"Quiet\" म्हणजे कमी आवाज करणारा आणि त्याचा आकाराशी काहीही संबंध नाही." },
+        "3": { "en": "\"Ancient\" means very old, not very large.", "hi": "\"Ancient\" का अर्थ बहुत पुराना है, बहुत बड़ा नहीं।", "mr": "\"Ancient\" म्हणजे खूप जुने, खूप मोठे नाही." }
+      }
+    },
+    {
+      "key": "rms6-p3-la-17",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Choose the word opposite in meaning to \"generous\".", "hi": "\"generous\" का विलोम (विपरीतार्थक) शब्द चुनें।", "mr": "\"generous\" चा विरुद्धार्थी शब्द निवडा." },
+      "optionsJson": [
+        { "en": "kind", "hi": "kind", "mr": "kind" },
+        { "en": "wealthy", "hi": "wealthy", "mr": "wealthy" },
+        { "en": "stingy", "hi": "stingy", "mr": "stingy" },
+        { "en": "cheerful", "hi": "cheerful", "mr": "cheerful" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "\"Generous\" means willing to give freely, while \"stingy\" means unwilling to give or spend, so they are opposites.", "hi": "\"Generous\" का अर्थ खुले दिल से देने वाला है, जबकि \"stingy\" का अर्थ देने या खर्च करने में अनिच्छुक (कंजूस) है, इसलिए ये विपरीतार्थी हैं।", "mr": "\"Generous\" म्हणजे मुक्तहस्ते देणारा, तर \"stingy\" म्हणजे देण्यास किंवा खर्च करण्यास तयार नसणारा (कंजूष), म्हणून हे विरुद्धार्थी आहेत." },
+      "distractorAnalysis": {
+        "0": { "en": "\"Kind\" is close in meaning to generous, not opposite.", "hi": "\"Kind\" का अर्थ generous के करीब है, विपरीत नहीं।", "mr": "\"Kind\" चा अर्थ generous च्या जवळचा आहे, विरुद्ध नाही." },
+        "1": { "en": "\"Wealthy\" means rich; a wealthy person can still be generous.", "hi": "\"Wealthy\" का अर्थ धनी है; धनी व्यक्ति भी उदार हो सकता है।", "mr": "\"Wealthy\" म्हणजे श्रीमंत; श्रीमंत व्यक्तीही उदार असू शकते." },
+        "3": { "en": "\"Cheerful\" means happy and is unrelated to giving.", "hi": "\"Cheerful\" का अर्थ प्रसन्न है और इसका देने से कोई संबंध नहीं है।", "mr": "\"Cheerful\" म्हणजे आनंदी आणि त्याचा देण्याशी काही संबंध नाही." }
+      }
+    },
+    {
+      "key": "rms6-p3-la-18",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Choose the correctly spelled word.", "hi": "सही वर्तनी वाला शब्द चुनें।", "mr": "अचूक स्पेलिंग असलेला शब्द निवडा." },
+      "optionsJson": [
+        { "en": "necessary", "hi": "necessary", "mr": "necessary" },
+        { "en": "neccessary", "hi": "neccessary", "mr": "neccessary" },
+        { "en": "necesary", "hi": "necesary", "mr": "necesary" },
+        { "en": "neccesary", "hi": "neccesary", "mr": "neccesary" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "\"Necessary\" is spelled with one c followed by a double s: ne-ces-sa-ry.", "hi": "\"Necessary\" में एक c के बाद दो s आते हैं: ne-ces-sa-ry।", "mr": "\"Necessary\" मध्ये एक c आणि त्यानंतर दोन s येतात: ne-ces-sa-ry." },
+      "distractorAnalysis": {
+        "1": { "en": "\"neccessary\" wrongly doubles the c.", "hi": "\"neccessary\" में c गलत रूप से दोहरा दिया गया है।", "mr": "\"neccessary\" मध्ये c चुकीने दोनदा लिहिला आहे." },
+        "2": { "en": "\"necesary\" is missing one s.", "hi": "\"necesary\" में एक s कम है।", "mr": "\"necesary\" मध्ये एक s कमी आहे." },
+        "3": { "en": "\"neccesary\" wrongly doubles the c and has only one s.", "hi": "\"neccesary\" में c दोहरा है और s केवल एक है।", "mr": "\"neccesary\" मध्ये c दोनदा आहे आणि s फक्त एक आहे." }
+      }
+    },
+    {
+      "key": "rms6-p3-la-19",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Read the passage and answer: \"Nisha's grandmother lives in a small village near Pune. Every summer, Nisha stays with her for two weeks. She helps her grandmother pick mangoes and listens to old stories under the neem tree.\" How long does Nisha stay with her grandmother every summer?", "hi": "अनुच्छेद पढ़ें और उत्तर दें: \"निशा की दादी पुणे के पास एक छोटे गाँव में रहती हैं। हर गर्मी में निशा उनके साथ दो सप्ताह रहती है। वह दादी की आम तोड़ने में मदद करती है और नीम के पेड़ के नीचे पुरानी कहानियाँ सुनती है।\" निशा हर गर्मी में अपनी दादी के पास कितने समय तक रहती है?", "mr": "उतारा वाचा आणि उत्तर द्या: \"निशाची आजी पुण्याजवळच्या एका छोट्या गावात राहते. दर उन्हाळ्यात निशा तिच्याकडे दोन आठवडे राहते. ती आजीला आंबे तोडण्यास मदत करते आणि कडुलिंबाच्या झाडाखाली जुन्या गोष्टी ऐकते.\" निशा दर उन्हाळ्यात आजीकडे किती काळ राहते?" },
+      "optionsJson": [
+        { "en": "one week", "hi": "एक सप्ताह", "mr": "एक आठवडा" },
+        { "en": "one month", "hi": "एक महीना", "mr": "एक महिना" },
+        { "en": "ten days", "hi": "दस दिन", "mr": "दहा दिवस" },
+        { "en": "two weeks", "hi": "दो सप्ताह", "mr": "दोन आठवडे" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "The passage states that Nisha stays with her grandmother for two weeks every summer.", "hi": "अनुच्छेद में स्पष्ट लिखा है कि निशा हर गर्मी में अपनी दादी के साथ दो सप्ताह रहती है।", "mr": "उताऱ्यात स्पष्ट म्हटले आहे की निशा दर उन्हाळ्यात आजीकडे दोन आठवडे राहते." },
+      "distractorAnalysis": {
+        "0": { "en": "One week is shorter than the time given in the passage.", "hi": "एक सप्ताह अनुच्छेद में दी गई अवधि से कम है।", "mr": "एक आठवडा हा उताऱ्यात दिलेल्या कालावधीपेक्षा कमी आहे." },
+        "1": { "en": "One month is longer than the time given in the passage.", "hi": "एक महीना अनुच्छेद में दी गई अवधि से अधिक है।", "mr": "एक महिना हा उताऱ्यात दिलेल्या कालावधीपेक्षा जास्त आहे." },
+        "2": { "en": "The passage says two weeks (fourteen days), not ten days.", "hi": "अनुच्छेद में दो सप्ताह (चौदह दिन) लिखा है, दस दिन नहीं।", "mr": "उताऱ्यात दोन आठवडे (चौदा दिवस) म्हटले आहे, दहा दिवस नाही." }
+      }
+    },
+    {
+      "key": "rms6-p3-la-20",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Read the passage and answer: \"Rahul's team had practised for months for the final. On the day of the match, dark clouds covered the sky and heavy rain cancelled the game. Rahul looked at the empty ground with a heavy heart.\" Which word best describes how Rahul felt?", "hi": "अनुच्छेद पढ़ें और उत्तर दें: \"राहुल की टीम ने फ़ाइनल के लिए महीनों तक अभ्यास किया था। मैच वाले दिन आसमान में काले बादल छा गए और भारी बारिश से खेल रद्द हो गया। राहुल ने भारी मन से खाली मैदान को देखा।\" कौन-सा शब्द राहुल की भावना को सबसे अच्छी तरह बताता है?", "mr": "उतारा वाचा आणि उत्तर द्या: \"राहुलच्या संघाने अंतिम सामन्यासाठी अनेक महिने सराव केला होता. सामन्याच्या दिवशी आकाशात काळे ढग दाटले आणि जोरदार पावसामुळे खेळ रद्द झाला. राहुलने जड अंतःकरणाने रिकाम्या मैदानाकडे पाहिले.\" राहुलला कसे वाटले हे कोणता शब्द सर्वोत्तम प्रकारे सांगतो?" },
+      "optionsJson": [
+        { "en": "delighted", "hi": "प्रसन्न (delighted)", "mr": "आनंदित (delighted)" },
+        { "en": "disappointed", "hi": "निराश (disappointed)", "mr": "निराश (disappointed)" },
+        { "en": "puzzled", "hi": "उलझन में (puzzled)", "mr": "गोंधळलेला (puzzled)" },
+        { "en": "relaxed", "hi": "निश्चिंत (relaxed)", "mr": "निवांत (relaxed)" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "After months of practice the match was cancelled, and Rahul looked at the ground \"with a heavy heart\", so he felt disappointed.", "hi": "महीनों के अभ्यास के बाद मैच रद्द हो गया और राहुल ने \"भारी मन\" से मैदान को देखा, इसलिए वह निराश था।", "mr": "अनेक महिन्यांच्या सरावानंतर सामना रद्द झाला आणि राहुलने \"जड अंतःकरणाने\" मैदानाकडे पाहिले, म्हणून तो निराश झाला होता." },
+      "distractorAnalysis": {
+        "0": { "en": "Delighted means very happy, but a heavy heart means sadness.", "hi": "Delighted का अर्थ बहुत खुश है, जबकि भारी मन का अर्थ उदासी है।", "mr": "Delighted म्हणजे खूप आनंदी, तर जड अंतःकरण म्हणजे दुःख." },
+        "2": { "en": "Puzzled means confused; nothing in the passage suggests confusion.", "hi": "Puzzled का अर्थ उलझन में है; अनुच्छेद में उलझन का कोई संकेत नहीं है।", "mr": "Puzzled म्हणजे गोंधळलेला; उताऱ्यात गोंधळाचा कोणताही संकेत नाही." },
+        "3": { "en": "Relaxed means calm and free from worry, which does not match a heavy heart.", "hi": "Relaxed का अर्थ शांत और चिंतामुक्त है, जो भारी मन से मेल नहीं खाता।", "mr": "Relaxed म्हणजे शांत आणि चिंतामुक्त, जे जड अंतःकरणाशी जुळत नाही." }
+      }
+    },
+    {
+      "key": "rms6-p3-la-21",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Choose one word for \"a book that contains a collection of maps\".", "hi": "\"नक्शों (मानचित्रों) के संग्रह वाली पुस्तक\" के लिए एक शब्द चुनें।", "mr": "\"नकाशांचा संग्रह असलेले पुस्तक\" यासाठी एक शब्द निवडा." },
+      "optionsJson": [
+        { "en": "atlas", "hi": "atlas", "mr": "atlas" },
+        { "en": "dictionary", "hi": "dictionary", "mr": "dictionary" },
+        { "en": "diary", "hi": "diary", "mr": "diary" },
+        { "en": "novel", "hi": "novel", "mr": "novel" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "An \"atlas\" is a book of maps.", "hi": "\"Atlas\" नक्शों (मानचित्रों) की पुस्तक होती है।", "mr": "\"Atlas\" म्हणजे नकाशांचे पुस्तक." },
+      "distractorAnalysis": {
+        "1": { "en": "A dictionary lists words and their meanings, not maps.", "hi": "Dictionary में शब्द और उनके अर्थ होते हैं, नक्शे नहीं।", "mr": "Dictionary मध्ये शब्द आणि त्यांचे अर्थ असतात, नकाशे नाहीत." },
+        "2": { "en": "A diary is a personal book for writing daily events.", "hi": "Diary रोज़ की घटनाएँ लिखने की निजी पुस्तक होती है।", "mr": "Diary हे रोजच्या घटना लिहिण्याचे वैयक्तिक पुस्तक असते." },
+        "3": { "en": "A novel is a long made-up story.", "hi": "Novel एक लंबी काल्पनिक कहानी होती है।", "mr": "Novel ही एक लांब काल्पनिक कथा असते." }
+      }
+    },
+    {
+      "key": "rms6-p3-la-22",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "What does the idiom \"once in a blue moon\" mean?", "hi": "मुहावरे \"once in a blue moon\" का क्या अर्थ है?", "mr": "\"once in a blue moon\" या वाक्प्रचाराचा अर्थ काय आहे?" },
+      "optionsJson": [
+        { "en": "very often", "hi": "बहुत बार", "mr": "खूप वेळा" },
+        { "en": "at night", "hi": "रात में", "mr": "रात्री" },
+        { "en": "very rarely", "hi": "बहुत कम, कभी-कभार ही", "mr": "क्वचितच" },
+        { "en": "on a festival day", "hi": "त्योहार के दिन", "mr": "सणाच्या दिवशी" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "\"Once in a blue moon\" means something that happens very rarely.", "hi": "\"Once in a blue moon\" का अर्थ है कोई बात जो बहुत कम होती है।", "mr": "\"Once in a blue moon\" म्हणजे जी गोष्ट क्वचितच घडते." },
+      "distractorAnalysis": {
+        "0": { "en": "This is the opposite of the idiom's meaning.", "hi": "यह मुहावरे के अर्थ का उलटा है।", "mr": "हे वाक्प्रचाराच्या अर्थाच्या उलट आहे." },
+        "1": { "en": "The idiom is about how rarely something happens, not about the time of day.", "hi": "मुहावरा यह बताता है कि कोई बात कितनी कम होती है, दिन के समय के बारे में नहीं।", "mr": "वाक्प्रचार एखादी गोष्ट किती क्वचित घडते हे सांगतो, दिवसाच्या वेळेबद्दल नाही." },
+        "3": { "en": "The idiom has nothing to do with festivals.", "hi": "इस मुहावरे का त्योहारों से कोई संबंध नहीं है।", "mr": "या वाक्प्रचाराचा सणांशी काहीही संबंध नाही." }
+      }
+    },
+    {
+      "key": "rms6-p3-la-23",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Choose the correct pronoun: The teacher gave the prize to Sara and ___.", "hi": "सही सर्वनाम चुनें: The teacher gave the prize to Sara and ___.", "mr": "योग्य सर्वनाम निवडा: The teacher gave the prize to Sara and ___." },
+      "optionsJson": [
+        { "en": "I", "hi": "I", "mr": "I" },
+        { "en": "myself", "hi": "myself", "mr": "myself" },
+        { "en": "mine", "hi": "mine", "mr": "mine" },
+        { "en": "me", "hi": "me", "mr": "me" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "After the preposition \"to\", the object form \"me\" is used, even when another name comes before it: \"to Sara and me\".", "hi": "पूर्वसर्ग \"to\" के बाद कर्म रूप \"me\" आता है, भले ही उससे पहले किसी और का नाम हो: \"to Sara and me\"।", "mr": "शब्दयोगी अव्यय \"to\" नंतर कर्म रूप \"me\" येते, त्याआधी दुसऱ्या कोणाचे नाव असले तरी: \"to Sara and me\"." },
+      "distractorAnalysis": {
+        "0": { "en": "\"I\" is a subject pronoun and cannot follow the preposition \"to\".", "hi": "\"I\" कर्ता सर्वनाम है और पूर्वसर्ग \"to\" के बाद नहीं आ सकता।", "mr": "\"I\" हे कर्ता सर्वनाम आहे आणि शब्दयोगी अव्यय \"to\" नंतर येऊ शकत नाही." },
+        "1": { "en": "\"Myself\" is a reflexive pronoun, used only when the doer and the receiver are the same person.", "hi": "\"Myself\" एक आत्मवाचक सर्वनाम है, जो तभी आता है जब करने वाला और पाने वाला एक ही व्यक्ति हो।", "mr": "\"Myself\" हे स्वतःवाचक सर्वनाम आहे, जे करणारा आणि मिळवणारा एकच व्यक्ती असेल तेव्हाच वापरतात." },
+        "2": { "en": "\"Mine\" is a possessive pronoun meaning \"belonging to me\" and does not fit here.", "hi": "\"Mine\" स्वामित्व-सूचक सर्वनाम है, जिसका अर्थ \"मेरा\" है, और यहाँ उपयुक्त नहीं है।", "mr": "\"Mine\" हे मालकीदर्शक सर्वनाम आहे, ज्याचा अर्थ \"माझे\" असा आहे, आणि येथे योग्य नाही." }
+      }
+    },
+    {
+      "key": "rms6-p3-la-24",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Choose the correct conjunction: Ravi was very tired, ___ he finished his project.", "hi": "सही संयोजक शब्द चुनें: Ravi was very tired, ___ he finished his project.", "mr": "योग्य उभयान्वयी अव्यय निवडा: Ravi was very tired, ___ he finished his project." },
+      "optionsJson": [
+        { "en": "so", "hi": "so", "mr": "so" },
+        { "en": "but", "hi": "but", "mr": "but" },
+        { "en": "because", "hi": "because", "mr": "because" },
+        { "en": "or", "hi": "or", "mr": "or" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The two parts contrast with each other (tired, yet he finished), so \"but\" is the right conjunction.", "hi": "दोनों भागों में विरोध है (थका हुआ, फिर भी उसने पूरा किया), इसलिए सही संयोजक \"but\" है।", "mr": "दोन्ही भागांमध्ये विरोध आहे (थकलेला, तरीही त्याने पूर्ण केले), म्हणून योग्य उभयान्वयी अव्यय \"but\" आहे." },
+      "distractorAnalysis": {
+        "0": { "en": "\"So\" shows a result, but being tired would not normally lead to finishing the project.", "hi": "\"So\" परिणाम दर्शाता है, पर थकान सामान्यतः प्रोजेक्ट पूरा करने का कारण नहीं होती।", "mr": "\"So\" परिणाम दर्शवते, पण थकवा हा सहसा प्रोजेक्ट पूर्ण करण्याचा परिणाम नसतो." },
+        "2": { "en": "\"Because\" gives a reason, but being tired is not a reason for finishing the project.", "hi": "\"Because\" कारण बताता है, पर थकान प्रोजेक्ट पूरा करने का कारण नहीं है।", "mr": "\"Because\" कारण सांगते, पण थकवा हे प्रोजेक्ट पूर्ण करण्याचे कारण नाही." },
+        "3": { "en": "\"Or\" offers a choice between two options, which does not fit this sentence.", "hi": "\"Or\" दो विकल्पों में से चुनाव दर्शाता है, जो इस वाक्य में उपयुक्त नहीं है।", "mr": "\"Or\" दोन पर्यायांतील निवड दर्शवते, जी या वाक्यात योग्य नाही." }
+      }
+    },
+    {
+      "key": "rms6-p3-la-25",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Choose the correct reported speech: Priya said, \"I am reading a story.\"", "hi": "सही अप्रत्यक्ष कथन (reported speech) चुनें: Priya said, \"I am reading a story.\"", "mr": "योग्य अप्रत्यक्ष कथन निवडा: Priya said, \"I am reading a story.\"" },
+      "optionsJson": [
+        { "en": "Priya said that she read a story.", "hi": "Priya said that she read a story.", "mr": "Priya said that she read a story." },
+        { "en": "Priya said that I was reading a story.", "hi": "Priya said that I was reading a story.", "mr": "Priya said that I was reading a story." },
+        { "en": "Priya said that she was reading a story.", "hi": "Priya said that she was reading a story.", "mr": "Priya said that she was reading a story." },
+        { "en": "Priya said that she had read a story.", "hi": "Priya said that she had read a story.", "mr": "Priya said that she had read a story." }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "After the past reporting verb \"said\", the present continuous \"am reading\" changes to the past continuous \"was reading\", and \"I\" changes to \"she\".", "hi": "भूतकालिक क्रिया \"said\" के बाद सतत वर्तमान \"am reading\" सतत भूतकाल \"was reading\" में बदलता है और \"I\" बदलकर \"she\" हो जाता है।", "mr": "भूतकालीन क्रियापद \"said\" नंतर चालू वर्तमानकाळ \"am reading\" चालू भूतकाळ \"was reading\" मध्ये बदलतो आणि \"I\" चे \"she\" होते." },
+      "distractorAnalysis": {
+        "0": { "en": "\"read\" is simple past; it loses the sense of an action in progress.", "hi": "\"read\" सरल भूतकाल है; इससे चल रही क्रिया का भाव नहीं रहता।", "mr": "\"read\" हा साधा भूतकाळ आहे; त्यामुळे चालू क्रियेचा भाव राहत नाही." },
+        "1": { "en": "The pronoun \"I\" must change to \"she\" because it refers to Priya.", "hi": "सर्वनाम \"I\" को \"she\" में बदलना होगा क्योंकि यह Priya के लिए है।", "mr": "सर्वनाम \"I\" चे \"she\" करावे लागेल कारण ते Priya साठी आहे." },
+        "3": { "en": "\"had read\" is past perfect and changes the meaning to a finished action.", "hi": "\"had read\" पूर्ण भूतकाल है और अर्थ को पूरी हो चुकी क्रिया में बदल देता है।", "mr": "\"had read\" हा पूर्ण भूतकाळ आहे आणि अर्थ पूर्ण झालेल्या क्रियेत बदलतो." }
+      }
+    }
+  ]
+}

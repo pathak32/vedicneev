@@ -1,0 +1,1159 @@
+{
+  "examType": "RMS",
+  "classLevel": 9,
+  "paperNumber": 4,
+  "sectionKey": "general_knowledge",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "rms9-p4-gk-01",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "The call 'Dilli Chalo' was given to the soldiers of the Indian National Army (Azad Hind Fauj) by:",
+        "hi": "भारतीय राष्ट्रीय सेना (आज़ाद हिंद फ़ौज) के सैनिकों को 'दिल्ली चलो' का आह्वान किसने दिया?"
+      },
+      "optionsJson": [
+        {
+          "en": "Bhagat Singh",
+          "hi": "भगत सिंह"
+        },
+        {
+          "en": "Bal Gangadhar Tilak",
+          "hi": "बाल गंगाधर तिलक"
+        },
+        {
+          "en": "Gopal Krishna Gokhale",
+          "hi": "गोपाल कृष्ण गोखले"
+        },
+        {
+          "en": "Subhas Chandra Bose",
+          "hi": "सुभाष चंद्र बोस"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Subhas Chandra Bose led the Indian National Army and urged its soldiers with the call 'Dilli Chalo' to march towards Delhi and free India from British rule.",
+        "hi": "सुभाष चंद्र बोस ने भारतीय राष्ट्रीय सेना का नेतृत्व किया और 'दिल्ली चलो' के आह्वान से सैनिकों को दिल्ली की ओर बढ़ने और भारत को ब्रिटिश शासन से मुक्त कराने के लिए प्रेरित किया।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Bhagat Singh was a revolutionary hanged in 1931, years before the INA was active; he is associated with 'Inquilab Zindabad'.",
+          "hi": "भगत सिंह एक क्रांतिकारी थे जिन्हें 1931 में फाँसी दी गई, जो आज़ाद हिंद फ़ौज के सक्रिय होने से बहुत पहले की बात है; वे 'इंकलाब ज़िंदाबाद' से जुड़े हैं।"
+        },
+        "1": {
+          "en": "Tilak, who said 'Swaraj is my birthright', died in 1920, long before the INA was formed.",
+          "hi": "तिलक, जिन्होंने 'स्वराज्य मेरा जन्मसिद्ध अधिकार है' कहा था, का निधन 1920 में हो गया था, जो आज़ाद हिंद फ़ौज के गठन से बहुत पहले की बात है।"
+        },
+        "2": {
+          "en": "Gokhale was a moderate leader who died in 1915, long before the INA existed.",
+          "hi": "गोखले एक नरमपंथी नेता थे जिनका निधन 1915 में हो गया था, यानी आज़ाद हिंद फ़ौज के अस्तित्व में आने से बहुत पहले।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-gk-02",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "In which year did Mahatma Gandhi return to India from South Africa?",
+        "hi": "महात्मा गांधी दक्षिण अफ्रीका से भारत किस वर्ष लौटे?"
+      },
+      "optionsJson": [
+        {
+          "en": "1905",
+          "hi": "1905"
+        },
+        {
+          "en": "1915",
+          "hi": "1915"
+        },
+        {
+          "en": "1919",
+          "hi": "1919"
+        },
+        {
+          "en": "1930",
+          "hi": "1930"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Gandhi returned to India in January 1915 after about two decades in South Africa. This day, 9 January, is remembered as Pravasi Bharatiya Divas.",
+        "hi": "लगभग दो दशक दक्षिण अफ्रीका में रहने के बाद गांधीजी जनवरी 1915 में भारत लौटे। यह दिन, 9 जनवरी, प्रवासी भारतीय दिवस के रूप में याद किया जाता है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "In 1905 Gandhi was still in South Africa; this is the year of the Partition of Bengal.",
+          "hi": "1905 में गांधीजी अभी दक्षिण अफ्रीका में ही थे; यह बंगाल विभाजन का वर्ष है।"
+        },
+        "2": {
+          "en": "1919 saw the Rowlatt Satyagraha and the Jallianwala Bagh massacre, four years after Gandhi's return.",
+          "hi": "1919 में रौलट सत्याग्रह और जलियाँवाला बाग हत्याकांड हुए, जो गांधीजी की वापसी के चार वर्ष बाद की घटनाएँ हैं।"
+        },
+        "3": {
+          "en": "1930 is the year of the Dandi March, much after his return.",
+          "hi": "1930 डांडी मार्च का वर्ष है, जो उनकी वापसी के बहुत बाद का है।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-gk-03",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Gandhiji called off the Non-Cooperation Movement in February 1922 after a violent incident at which place?",
+        "hi": "फ़रवरी 1922 में एक हिंसक घटना के बाद गांधीजी ने असहयोग आंदोलन वापस ले लिया। यह घटना किस स्थान पर हुई थी?"
+      },
+      "optionsJson": [
+        {
+          "en": "Chauri Chaura",
+          "hi": "चौरी चौरा"
+        },
+        {
+          "en": "Jallianwala Bagh",
+          "hi": "जलियाँवाला बाग"
+        },
+        {
+          "en": "Dandi",
+          "hi": "डांडी"
+        },
+        {
+          "en": "Kakori",
+          "hi": "काकोरी"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "At Chauri Chaura in Uttar Pradesh, a mob set a police station on fire, killing policemen. Shocked by the violence, Gandhi withdrew the Non-Cooperation Movement.",
+        "hi": "उत्तर प्रदेश के चौरी चौरा में भीड़ ने थाने में आग लगा दी, जिसमें पुलिसकर्मी मारे गए। हिंसा से आहत होकर गांधीजी ने असहयोग आंदोलन वापस ले लिया।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "The Jallianwala Bagh massacre took place in 1919, before the movement began.",
+          "hi": "जलियाँवाला बाग हत्याकांड 1919 में हुआ था, यानी आंदोलन शुरू होने से पहले।"
+        },
+        "2": {
+          "en": "Dandi was the endpoint of the Salt March of 1930, a later movement.",
+          "hi": "डांडी 1930 के नमक मार्च का अंतिम पड़ाव था, जो एक बाद का आंदोलन था।"
+        },
+        "3": {
+          "en": "The Kakori train robbery was carried out by revolutionaries in 1925, after the movement had ended.",
+          "hi": "काकोरी ट्रेन डकैती क्रांतिकारियों ने 1925 में की थी, यानी आंदोलन समाप्त होने के बाद।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-gk-04",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Why did Indian political parties and leaders boycott the Simon Commission when it arrived in India in 1928?",
+        "hi": "1928 में साइमन कमीशन के भारत आने पर भारतीय राजनीतिक दलों और नेताओं ने उसका बहिष्कार क्यों किया?"
+      },
+      "optionsJson": [
+        {
+          "en": "It proposed to partition Bengal",
+          "hi": "उसने बंगाल का विभाजन करने का प्रस्ताव रखा था"
+        },
+        {
+          "en": "It was formed to extend the Rowlatt Act",
+          "hi": "उसका गठन रौलट अधिनियम को बढ़ाने के लिए किया गया था"
+        },
+        {
+          "en": "It had no Indian member",
+          "hi": "उसमें एक भी भारतीय सदस्य नहीं था"
+        },
+        {
+          "en": "It was appointed to inquire into the Jallianwala Bagh massacre",
+          "hi": "उसे जलियाँवाला बाग हत्याकांड की जाँच के लिए नियुक्त किया गया था"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The Simon Commission, appointed to review constitutional reforms, consisted only of British members. Indians saw this as an insult and greeted it with black flags and the slogan 'Simon Go Back'.",
+        "hi": "संवैधानिक सुधारों की समीक्षा के लिए नियुक्त साइमन कमीशन में केवल अंग्रेज़ सदस्य थे। भारतीयों ने इसे अपमान माना और काले झंडों तथा 'साइमन वापस जाओ' के नारे से उसका स्वागत किया।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Bengal was partitioned in 1905 by Lord Curzon; the Simon Commission made no such proposal.",
+          "hi": "बंगाल का विभाजन 1905 में लॉर्ड कर्ज़न ने किया था; साइमन कमीशन ने ऐसा कोई प्रस्ताव नहीं रखा।"
+        },
+        "1": {
+          "en": "The Rowlatt Act dates from 1919 and the commission had nothing to do with extending it.",
+          "hi": "रौलट अधिनियम 1919 का है और कमीशन का उसे बढ़ाने से कोई संबंध नहीं था।"
+        },
+        "3": {
+          "en": "The Jallianwala Bagh inquiry was done by the Hunter Committee, not by the Simon Commission.",
+          "hi": "जलियाँवाला बाग की जाँच हंटर समिति ने की थी, साइमन कमीशन ने नहीं।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-gk-05",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "At which of these places did Gandhiji give the 'Do or Die' call during the Quit India resolution session in August 1942?",
+        "hi": "अगस्त 1942 में भारत छोड़ो प्रस्ताव के अधिवेशन के दौरान गांधीजी ने 'करो या मरो' का आह्वान निम्नलिखित में से किस स्थान पर किया?"
+      },
+      "optionsJson": [
+        {
+          "en": "Ramlila Maidan, Delhi",
+          "hi": "रामलीला मैदान, दिल्ली"
+        },
+        {
+          "en": "Gowalia Tank Maidan, Bombay",
+          "hi": "गोवालिया टैंक मैदान, बंबई"
+        },
+        {
+          "en": "Brigade Parade Ground, Calcutta",
+          "hi": "ब्रिगेड परेड ग्राउंड, कलकत्ता"
+        },
+        {
+          "en": "Marina Beach, Madras",
+          "hi": "मरीना बीच, मद्रास"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "On 8 August 1942, at the All India Congress Committee session held at Gowalia Tank Maidan in Bombay, Gandhi gave the 'Do or Die' call and the Quit India resolution was adopted. The ground is now called August Kranti Maidan.",
+        "hi": "8 अगस्त 1942 को बंबई के गोवालिया टैंक मैदान में हुए अखिल भारतीय कांग्रेस समिति के अधिवेशन में गांधीजी ने 'करो या मरो' का आह्वान किया और भारत छोड़ो प्रस्ताव पारित हुआ। इस मैदान को अब अगस्त क्रांति मैदान कहा जाता है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The Quit India session was not held in Delhi.",
+          "hi": "भारत छोड़ो अधिवेशन दिल्ली में नहीं हुआ था।"
+        },
+        "2": {
+          "en": "The session was not held at Calcutta's Brigade Parade Ground.",
+          "hi": "यह अधिवेशन कलकत्ता के ब्रिगेड परेड ग्राउंड में नहीं हुआ था।"
+        },
+        "3": {
+          "en": "The session was held in Bombay, not on Madras's Marina Beach.",
+          "hi": "अधिवेशन बंबई में हुआ था, मद्रास के मरीना बीच पर नहीं।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-gk-06",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which of the following words was added to the Preamble of the Indian Constitution by the 42nd Amendment in 1976?",
+        "hi": "1976 के 42वें संशोधन द्वारा भारतीय संविधान की उद्देशिका (प्रस्तावना) में निम्नलिखित में से कौन-सा शब्द जोड़ा गया?"
+      },
+      "optionsJson": [
+        {
+          "en": "Sovereign",
+          "hi": "संप्रभु"
+        },
+        {
+          "en": "Democratic",
+          "hi": "लोकतांत्रिक"
+        },
+        {
+          "en": "Republic",
+          "hi": "गणराज्य"
+        },
+        {
+          "en": "Secular",
+          "hi": "पंथनिरपेक्ष"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "The 42nd Amendment (1976) added the words 'Socialist', 'Secular' and 'Integrity' to the Preamble. Among the options, only 'Secular' was added then.",
+        "hi": "42वें संशोधन (1976) ने उद्देशिका में 'समाजवादी', 'पंथनिरपेक्ष' और 'अखंडता' शब्द जोड़े। विकल्पों में से केवल 'पंथनिरपेक्ष' उस समय जोड़ा गया था।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "'Sovereign' was part of the original Preamble adopted in 1949.",
+          "hi": "'संप्रभु' 1949 में अपनाई गई मूल उद्देशिका का हिस्सा था।"
+        },
+        "1": {
+          "en": "'Democratic' was part of the original Preamble.",
+          "hi": "'लोकतांत्रिक' मूल उद्देशिका का हिस्सा था।"
+        },
+        "2": {
+          "en": "'Republic' was part of the original Preamble.",
+          "hi": "'गणराज्य' मूल उद्देशिका का हिस्सा था।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-gk-07",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "In which Part of the Indian Constitution are the Fundamental Rights contained?",
+        "hi": "भारतीय संविधान के किस भाग में मौलिक अधिकार दिए गए हैं?"
+      },
+      "optionsJson": [
+        {
+          "en": "Part III",
+          "hi": "भाग III"
+        },
+        {
+          "en": "Part II",
+          "hi": "भाग II"
+        },
+        {
+          "en": "Part IV",
+          "hi": "भाग IV"
+        },
+        {
+          "en": "Part V",
+          "hi": "भाग V"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Part III (Articles 12 to 35) of the Constitution contains the Fundamental Rights.",
+        "hi": "संविधान का भाग III (अनुच्छेद 12 से 35) मौलिक अधिकारों से संबंधित है।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Part II deals with citizenship.",
+          "hi": "भाग II नागरिकता से संबंधित है।"
+        },
+        "2": {
+          "en": "Part IV contains the Directive Principles of State Policy.",
+          "hi": "भाग IV में राज्य के नीति निदेशक तत्व हैं।"
+        },
+        "3": {
+          "en": "Part V deals with the Union: the President, Parliament and the Union judiciary.",
+          "hi": "भाग V संघ से संबंधित है: राष्ट्रपति, संसद और संघ की न्यायपालिका।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-gk-08",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "The idea of the Directive Principles of State Policy in the Indian Constitution was borrowed from the Constitution of:",
+        "hi": "भारतीय संविधान में राज्य के नीति निदेशक तत्वों का विचार किस देश के संविधान से लिया गया है?"
+      },
+      "optionsJson": [
+        {
+          "en": "the United States of America",
+          "hi": "संयुक्त राज्य अमेरिका"
+        },
+        {
+          "en": "Canada",
+          "hi": "कनाडा"
+        },
+        {
+          "en": "Ireland",
+          "hi": "आयरलैंड"
+        },
+        {
+          "en": "Australia",
+          "hi": "ऑस्ट्रेलिया"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The Directive Principles of State Policy were inspired by the Irish Constitution, which also contains guiding principles for the state.",
+        "hi": "राज्य के नीति निदेशक तत्व आयरलैंड के संविधान से प्रेरित हैं, जिसमें राज्य के लिए मार्गदर्शक सिद्धांत दिए गए हैं।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "From the USA India took ideas such as the Fundamental Rights and judicial review.",
+          "hi": "अमेरिका से भारत ने मौलिक अधिकार और न्यायिक पुनर्विलोकन जैसे विचार लिए।"
+        },
+        "1": {
+          "en": "From Canada India took the idea of a federation with a strong Centre.",
+          "hi": "कनाडा से भारत ने मज़बूत केंद्र वाले संघ का विचार लिया।"
+        },
+        "3": {
+          "en": "From Australia India took the idea of the Concurrent List.",
+          "hi": "ऑस्ट्रेलिया से भारत ने समवर्ती सूची का विचार लिया।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-gk-09",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which writ is issued by the Supreme Court or a High Court to secure the release of a person who has been unlawfully detained?",
+        "hi": "किसी गैरकानूनी ढंग से हिरासत में रखे गए व्यक्ति को मुक्त कराने के लिए सर्वोच्च न्यायालय या उच्च न्यायालय कौन-सी रिट जारी करता है?"
+      },
+      "optionsJson": [
+        {
+          "en": "Mandamus",
+          "hi": "परमादेश (मैंडमस)"
+        },
+        {
+          "en": "Habeas Corpus",
+          "hi": "बंदी प्रत्यक्षीकरण (हैबियस कॉर्पस)"
+        },
+        {
+          "en": "Certiorari",
+          "hi": "उत्प्रेषण (सर्टियोरारी)"
+        },
+        {
+          "en": "Quo Warranto",
+          "hi": "अधिकार पृच्छा (क्वो वारंटो)"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Habeas Corpus, meaning 'you may have the body', requires the detaining authority to produce the person before the court so that the legality of the detention can be examined.",
+        "hi": "बंदी प्रत्यक्षीकरण (हैबियस कॉर्पस) का अर्थ है 'शरीर को प्रस्तुत करो'। इसमें हिरासत में रखने वाले अधिकारी को व्यक्ति को न्यायालय में पेश करना पड़ता है ताकि हिरासत की वैधता जाँची जा सके।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Mandamus commands a public official to perform a public duty.",
+          "hi": "परमादेश किसी लोक अधिकारी को अपना सार्वजनिक कर्तव्य निभाने का आदेश देता है।"
+        },
+        "2": {
+          "en": "Certiorari is issued to quash an order passed by a lower court or tribunal.",
+          "hi": "उत्प्रेषण किसी निचली अदालत या न्यायाधिकरण के आदेश को रद्द करने के लिए जारी किया जाता है।"
+        },
+        "3": {
+          "en": "Quo Warranto questions by what authority a person holds a public office.",
+          "hi": "अधिकार पृच्छा यह प्रश्न करती है कि कोई व्यक्ति किस अधिकार से सार्वजनिक पद पर है।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-gk-10",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "A Money Bill can be introduced only in the:",
+        "hi": "धन विधेयक केवल किस सदन में प्रस्तुत किया जा सकता है?"
+      },
+      "optionsJson": [
+        {
+          "en": "Lok Sabha",
+          "hi": "लोक सभा"
+        },
+        {
+          "en": "Rajya Sabha",
+          "hi": "राज्य सभा"
+        },
+        {
+          "en": "Either House of Parliament",
+          "hi": "संसद का कोई भी सदन"
+        },
+        {
+          "en": "Joint sitting of both Houses",
+          "hi": "दोनों सदनों की संयुक्त बैठक"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Under Article 109, a Money Bill (defined in Article 110) can be introduced only in the Lok Sabha. The Rajya Sabha can only make recommendations, which the Lok Sabha may accept or reject.",
+        "hi": "अनुच्छेद 109 के अनुसार धन विधेयक (जिसकी परिभाषा अनुच्छेद 110 में है) केवल लोक सभा में प्रस्तुत किया जा सकता है। राज्य सभा केवल सिफ़ारिशें कर सकती है, जिन्हें लोक सभा स्वीकार या अस्वीकार कर सकती है।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "A Money Bill cannot be introduced in the Rajya Sabha.",
+          "hi": "धन विधेयक राज्य सभा में प्रस्तुत नहीं किया जा सकता।"
+        },
+        "2": {
+          "en": "Ordinary Bills can start in either House, but a Money Bill cannot.",
+          "hi": "साधारण विधेयक किसी भी सदन में शुरू हो सकते हैं, पर धन विधेयक नहीं।"
+        },
+        "3": {
+          "en": "A joint sitting is for resolving disagreement on certain Bills and is not where a Money Bill is introduced.",
+          "hi": "संयुक्त बैठक कुछ विधेयकों पर असहमति सुलझाने के लिए होती है; धन विधेयक वहाँ प्रस्तुत नहीं किया जाता।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-gk-11",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Under which Article of the Constitution is the Election Commission of India established to conduct elections?",
+        "hi": "संविधान के किस अनुच्छेद के अंतर्गत भारत के निर्वाचन आयोग की स्थापना चुनाव कराने के लिए की गई है?"
+      },
+      "optionsJson": [
+        {
+          "en": "Article 280",
+          "hi": "अनुच्छेद 280"
+        },
+        {
+          "en": "Article 312",
+          "hi": "अनुच्छेद 312"
+        },
+        {
+          "en": "Article 356",
+          "hi": "अनुच्छेद 356"
+        },
+        {
+          "en": "Article 324",
+          "hi": "अनुच्छेद 324"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Article 324 vests the superintendence, direction and control of elections to Parliament, State Legislatures and the offices of President and Vice-President in the Election Commission.",
+        "hi": "अनुच्छेद 324 संसद, राज्य विधानमंडलों तथा राष्ट्रपति और उपराष्ट्रपति के पदों के चुनावों का अधीक्षण, निदेशन और नियंत्रण निर्वाचन आयोग को सौंपता है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Article 280 provides for the Finance Commission.",
+          "hi": "अनुच्छेद 280 वित्त आयोग का प्रावधान करता है।"
+        },
+        "1": {
+          "en": "Article 312 deals with the creation of All-India Services.",
+          "hi": "अनुच्छेद 312 अखिल भारतीय सेवाओं के सृजन से संबंधित है।"
+        },
+        "2": {
+          "en": "Article 356 deals with President's Rule in a State.",
+          "hi": "अनुच्छेद 356 किसी राज्य में राष्ट्रपति शासन से संबंधित है।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-gk-12",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Provincial autonomy was introduced in the provinces of British India under which Act?",
+        "hi": "ब्रिटिश भारत के प्रांतों में प्रांतीय स्वायत्तता किस अधिनियम के अंतर्गत लागू की गई?"
+      },
+      "optionsJson": [
+        {
+          "en": "Indian Councils Act, 1909",
+          "hi": "भारत परिषद अधिनियम, 1909"
+        },
+        {
+          "en": "Government of India Act, 1919",
+          "hi": "भारत सरकार अधिनियम, 1919"
+        },
+        {
+          "en": "Government of India Act, 1935",
+          "hi": "भारत सरकार अधिनियम, 1935"
+        },
+        {
+          "en": "Indian Independence Act, 1947",
+          "hi": "भारतीय स्वतंत्रता अधिनियम, 1947"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The Government of India Act, 1935 abolished diarchy in the provinces and gave them autonomy under elected ministries. Provincial autonomy came into effect in 1937.",
+        "hi": "भारत सरकार अधिनियम, 1935 ने प्रांतों में द्वैध शासन समाप्त किया और उन्हें निर्वाचित मंत्रिमंडलों के अधीन स्वायत्तता दी। प्रांतीय स्वायत्तता 1937 में लागू हुई।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The 1909 Act (Morley-Minto Reforms) introduced separate electorates for Muslims.",
+          "hi": "1909 के अधिनियम (मॉर्ले-मिंटो सुधार) ने मुसलमानों के लिए पृथक निर्वाचन क्षेत्र शुरू किए।"
+        },
+        "1": {
+          "en": "The 1919 Act introduced diarchy in the provinces, which is not full autonomy.",
+          "hi": "1919 के अधिनियम ने प्रांतों में द्वैध शासन शुरू किया, जो पूर्ण स्वायत्तता नहीं थी।"
+        },
+        "3": {
+          "en": "The 1947 Act ended British rule and created the two dominions of India and Pakistan.",
+          "hi": "1947 के अधिनियम ने ब्रिटिश शासन समाप्त किया और भारत तथा पाकिस्तान दो डोमिनियन बनाए।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-gk-13",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Who delivered the famous 'Tryst with Destiny' speech on the eve of India's independence in August 1947?",
+        "hi": "अगस्त 1947 में भारत की स्वतंत्रता की पूर्व संध्या पर प्रसिद्ध 'नियति से साक्षात्कार' (Tryst with Destiny) भाषण किसने दिया?"
+      },
+      "optionsJson": [
+        {
+          "en": "Sardar Vallabhbhai Patel",
+          "hi": "सरदार वल्लभभाई पटेल"
+        },
+        {
+          "en": "Mahatma Gandhi",
+          "hi": "महात्मा गांधी"
+        },
+        {
+          "en": "Jawaharlal Nehru",
+          "hi": "जवाहरलाल नेहरू"
+        },
+        {
+          "en": "Dr. Rajendra Prasad",
+          "hi": "डॉ. राजेंद्र प्रसाद"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Jawaharlal Nehru delivered the 'Tryst with Destiny' speech in the Constituent Assembly at midnight on 14-15 August 1947.",
+        "hi": "जवाहरलाल नेहरू ने 14-15 अगस्त 1947 की मध्यरात्रि को संविधान सभा में 'नियति से साक्षात्कार' भाषण दिया।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Patel was a leader of the Congress and later integrated the princely states but did not give this speech.",
+          "hi": "पटेल कांग्रेस के नेता थे और बाद में उन्होंने रियासतों का एकीकरण किया, पर यह भाषण उन्होंने नहीं दिया।"
+        },
+        "1": {
+          "en": "Gandhi was in Calcutta on that day and did not give this speech.",
+          "hi": "उस दिन गांधीजी कलकत्ता में थे और उन्होंने यह भाषण नहीं दिया।"
+        },
+        "3": {
+          "en": "Rajendra Prasad presided over the Constituent Assembly but did not deliver this speech.",
+          "hi": "राजेंद्र प्रसाद संविधान सभा के अध्यक्ष थे, पर यह भाषण उन्होंने नहीं दिया।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-gk-14",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "The Revolt of 1857 began with a mutiny of Indian sepoys at which place?",
+        "hi": "1857 का विद्रोह किस स्थान पर भारतीय सिपाहियों के विद्रोह से शुरू हुआ?"
+      },
+      "optionsJson": [
+        {
+          "en": "Delhi",
+          "hi": "दिल्ली"
+        },
+        {
+          "en": "Meerut",
+          "hi": "मेरठ"
+        },
+        {
+          "en": "Jhansi",
+          "hi": "झाँसी"
+        },
+        {
+          "en": "Kanpur",
+          "hi": "कानपुर"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "The revolt began at Meerut on 10 May 1857, when sepoys rose against their officers and then marched to Delhi.",
+        "hi": "विद्रोह 10 मई 1857 को मेरठ में शुरू हुआ, जब सिपाहियों ने अपने अधिकारियों के विरुद्ध विद्रोह किया और फिर दिल्ली की ओर कूच किया।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The sepoys reached Delhi after Meerut and proclaimed Bahadur Shah Zafar their leader, but the revolt did not start there.",
+          "hi": "सिपाही मेरठ के बाद दिल्ली पहुँचे और बहादुर शाह ज़फ़र को अपना नेता घोषित किया, पर विद्रोह वहाँ से शुरू नहीं हुआ।"
+        },
+        "2": {
+          "en": "Jhansi joined the revolt later under Rani Lakshmibai.",
+          "hi": "झाँसी रानी लक्ष्मीबाई के नेतृत्व में बाद में विद्रोह में शामिल हुआ।"
+        },
+        "3": {
+          "en": "At Kanpur the revolt was led by Nana Saheb in June 1857, after it had begun elsewhere.",
+          "hi": "कानपुर में जून 1857 में नाना साहब ने विद्रोह का नेतृत्व किया, जब वह कहीं और पहले ही शुरू हो चुका था।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-gk-15",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Which was the first state of India to be formed on a linguistic basis, in 1953?",
+        "hi": "1953 में भाषा के आधार पर गठित होने वाला भारत का पहला राज्य कौन-सा था?"
+      },
+      "optionsJson": [
+        {
+          "en": "Andhra State",
+          "hi": "आंध्र राज्य"
+        },
+        {
+          "en": "Kerala",
+          "hi": "केरल"
+        },
+        {
+          "en": "Karnataka (Mysore)",
+          "hi": "कर्नाटक (मैसूर)"
+        },
+        {
+          "en": "Gujarat",
+          "hi": "गुजरात"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Andhra State, carved out of Madras State for Telugu speakers, was formed in October 1953 after the death of Potti Sriramulu following his fast for a separate state.",
+        "hi": "तेलुगुभाषियों के लिए मद्रास राज्य से अलग कर बनाया गया आंध्र राज्य, पोट्टी श्रीरामुलु द्वारा अलग राज्य के लिए किए गए उपवास के बाद उनके निधन के पश्चात अक्टूबर 1953 में बना।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Kerala was formed in 1956 under the States Reorganisation Act.",
+          "hi": "केरल राज्य पुनर्गठन अधिनियम के अंतर्गत 1956 में बना।"
+        },
+        "2": {
+          "en": "Mysore (later Karnataka) was reorganised in 1956.",
+          "hi": "मैसूर (बाद में कर्नाटक) का पुनर्गठन 1956 में हुआ।"
+        },
+        "3": {
+          "en": "Gujarat was formed in 1960 when Bombay State was divided.",
+          "hi": "गुजरात 1960 में बंबई राज्य के विभाजन से बना।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-gk-16",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "In the Panchayati Raj system, the body consisting of all the registered voters of a village is called the:",
+        "hi": "पंचायती राज व्यवस्था में किसी गाँव के सभी पंजीकृत मतदाताओं से बनी संस्था क्या कहलाती है?"
+      },
+      "optionsJson": [
+        {
+          "en": "Gram Panchayat",
+          "hi": "ग्राम पंचायत"
+        },
+        {
+          "en": "Panchayat Samiti",
+          "hi": "पंचायत समिति"
+        },
+        {
+          "en": "Zila Parishad",
+          "hi": "ज़िला परिषद"
+        },
+        {
+          "en": "Gram Sabha",
+          "hi": "ग्राम सभा"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "The Gram Sabha is the general body of all adult voters of a village. It elects the members of the Gram Panchayat and keeps a check on its working.",
+        "hi": "ग्राम सभा गाँव के सभी वयस्क मतदाताओं की आम सभा है। यह ग्राम पंचायत के सदस्यों को चुनती है और उसके कामकाज पर निगरानी रखती है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The Gram Panchayat is the elected executive body of the village, not the body of all voters.",
+          "hi": "ग्राम पंचायत गाँव की निर्वाचित कार्यकारी संस्था है, सभी मतदाताओं की संस्था नहीं।"
+        },
+        "1": {
+          "en": "The Panchayat Samiti works at the block level.",
+          "hi": "पंचायत समिति खंड (ब्लॉक) स्तर पर कार्य करती है।"
+        },
+        "2": {
+          "en": "The Zila Parishad works at the district level.",
+          "hi": "ज़िला परिषद ज़िला स्तर पर कार्य करती है।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-gk-17",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which soil of India is considered most suitable for growing cotton?",
+        "hi": "भारत की कौन-सी मृदा कपास की खेती के लिए सबसे उपयुक्त मानी जाती है?"
+      },
+      "optionsJson": [
+        {
+          "en": "Alluvial soil",
+          "hi": "जलोढ़ मृदा"
+        },
+        {
+          "en": "Red soil",
+          "hi": "लाल मृदा"
+        },
+        {
+          "en": "Black soil",
+          "hi": "काली मृदा"
+        },
+        {
+          "en": "Laterite soil",
+          "hi": "लैटेराइट मृदा"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Black soil (regur), formed from basaltic lava in the Deccan region, retains moisture well and is ideal for cotton, so it is also called black cotton soil.",
+        "hi": "काली मृदा (रेगुर) दक्कन क्षेत्र में बेसाल्ट लावा से बनी है, नमी को अच्छी तरह रोकती है और कपास के लिए आदर्श है, इसलिए इसे काली कपास मृदा भी कहते हैं।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Alluvial soil is best known for crops such as wheat, rice and sugarcane.",
+          "hi": "जलोढ़ मृदा गेहूँ, चावल और गन्ने जैसी फ़सलों के लिए अधिक जानी जाती है।"
+        },
+        "1": {
+          "en": "Red soil is less moisture-retentive and is suited to millets, pulses and groundnut.",
+          "hi": "लाल मृदा में नमी कम रुकती है और वह मोटे अनाज, दालों और मूँगफली के लिए उपयुक्त है।"
+        },
+        "3": {
+          "en": "Laterite soil is leached and poor in nutrients, suited to crops like tea, coffee and cashew.",
+          "hi": "लैटेराइट मृदा में पोषक तत्व बह जाते हैं और वह चाय, कॉफ़ी और काजू जैसी फ़सलों के लिए उपयुक्त है।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-gk-18",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "The Sundarbans delta, the largest delta in the world, has been formed by the Ganga and which other river?",
+        "hi": "विश्व का सबसे बड़ा डेल्टा, सुंदरबन डेल्टा, गंगा और किस अन्य नदी द्वारा बना है?"
+      },
+      "optionsJson": [
+        {
+          "en": "Brahmaputra",
+          "hi": "ब्रह्मपुत्र"
+        },
+        {
+          "en": "Mahanadi",
+          "hi": "महानदी"
+        },
+        {
+          "en": "Krishna",
+          "hi": "कृष्णा"
+        },
+        {
+          "en": "Kaveri",
+          "hi": "कावेरी"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "The Ganga and the Brahmaputra join in Bangladesh and together build the huge Ganga-Brahmaputra (Sundarbans) delta before entering the Bay of Bengal.",
+        "hi": "गंगा और ब्रह्मपुत्र बांग्लादेश में मिलती हैं और बंगाल की खाड़ी में गिरने से पहले मिलकर विशाल गंगा-ब्रह्मपुत्र (सुंदरबन) डेल्टा बनाती हैं।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "The Mahanadi forms its own separate delta in Odisha.",
+          "hi": "महानदी ओडिशा में अपना अलग डेल्टा बनाती है।"
+        },
+        "2": {
+          "en": "The Krishna forms a delta in Andhra Pradesh, far from the Sundarbans.",
+          "hi": "कृष्णा आंध्र प्रदेश में डेल्टा बनाती है, जो सुंदरबन से बहुत दूर है।"
+        },
+        "3": {
+          "en": "The Kaveri forms a delta in Tamil Nadu, far from the Sundarbans.",
+          "hi": "कावेरी तमिलनाडु में डेल्टा बनाती है, जो सुंदरबन से बहुत दूर है।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-gk-19",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Bronze, used for making statues, medals and bells, is an alloy of copper and which other metal?",
+        "hi": "काँसा (ब्रॉन्ज़), जिसका उपयोग मूर्तियाँ, पदक और घंटियाँ बनाने में होता है, ताँबे और किस अन्य धातु की मिश्रधातु है?"
+      },
+      "optionsJson": [
+        {
+          "en": "Zinc",
+          "hi": "जस्ता"
+        },
+        {
+          "en": "Lead",
+          "hi": "सीसा"
+        },
+        {
+          "en": "Nickel",
+          "hi": "निकल"
+        },
+        {
+          "en": "Tin",
+          "hi": "टिन (रांगा)"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Bronze is made by melting copper with tin, usually about 88 to 90 percent copper and the rest tin. This alloy is harder and more corrosion resistant than pure copper.",
+        "hi": "काँसा ताँबे को टिन के साथ पिघलाकर बनाया जाता है, जिसमें आमतौर पर लगभग 88 से 90 प्रतिशत ताँबा और शेष टिन होता है। यह मिश्रधातु शुद्ध ताँबे से अधिक कठोर और संक्षारण-रोधी होती है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Copper mixed with zinc gives brass, not bronze.",
+          "hi": "ताँबे को जस्ते के साथ मिलाने पर पीतल बनता है, काँसा नहीं।"
+        },
+        "1": {
+          "en": "Lead is not the main alloying metal in bronze; lead with tin forms solder.",
+          "hi": "सीसा काँसे की मुख्य मिश्रक धातु नहीं है; सीसा और टिन मिलकर सोल्डर बनाते हैं।"
+        },
+        "2": {
+          "en": "Copper mixed with nickel gives cupronickel, used in coins, not bronze.",
+          "hi": "ताँबे और निकल से कप्रोनिकल बनता है, जो सिक्कों में प्रयुक्त होता है, काँसा नहीं।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-gk-20",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "The famous Ajanta Caves, known for their Buddhist rock-cut paintings and sculptures, are located in which state?",
+        "hi": "अपने बौद्ध चट्टान-कटे चित्रों और मूर्तियों के लिए प्रसिद्ध अजंता की गुफाएँ किस राज्य में स्थित हैं?"
+      },
+      "optionsJson": [
+        {
+          "en": "Madhya Pradesh",
+          "hi": "मध्य प्रदेश"
+        },
+        {
+          "en": "Maharashtra",
+          "hi": "महाराष्ट्र"
+        },
+        {
+          "en": "Karnataka",
+          "hi": "कर्नाटक"
+        },
+        {
+          "en": "Odisha",
+          "hi": "ओडिशा"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "The Ajanta Caves lie near Aurangabad (now Chhatrapati Sambhajinagar) in Maharashtra and are a UNESCO World Heritage Site.",
+        "hi": "अजंता की गुफाएँ महाराष्ट्र में औरंगाबाद (अब छत्रपति संभाजीनगर) के पास स्थित हैं और यूनेस्को की विश्व धरोहर स्थल हैं।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Madhya Pradesh is known for Sanchi and the Bhimbetka rock shelters, not Ajanta.",
+          "hi": "मध्य प्रदेश साँची और भीमबेटका के शैलाश्रयों के लिए जाना जाता है, अजंता के लिए नहीं।"
+        },
+        "2": {
+          "en": "Karnataka has the Badami cave temples, not Ajanta.",
+          "hi": "कर्नाटक में बादामी के गुफा मंदिर हैं, अजंता नहीं।"
+        },
+        "3": {
+          "en": "Odisha has the Udayagiri and Khandagiri caves, not Ajanta.",
+          "hi": "ओडिशा में उदयगिरि और खंडगिरि की गुफाएँ हैं, अजंता नहीं।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-gk-21",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "The crescograph, an instrument invented by Sir Jagadish Chandra Bose, is used to measure:",
+        "hi": "सर जगदीश चंद्र बोस द्वारा आविष्कृत क्रेस्कोग्राफ़ उपकरण का उपयोग किसे मापने के लिए किया जाता है?"
+      },
+      "optionsJson": [
+        {
+          "en": "The speed of sound in air",
+          "hi": "वायु में ध्वनि की चाल"
+        },
+        {
+          "en": "Electric current in a wire",
+          "hi": "तार में विद्युत धारा"
+        },
+        {
+          "en": "The rate of growth in plants",
+          "hi": "पौधों की वृद्धि की दर"
+        },
+        {
+          "en": "Atmospheric pressure",
+          "hi": "वायुमंडलीय दाब"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The crescograph magnifies tiny movements of a plant, allowing its growth and its response to stimuli to be measured. Bose used it to show that plants respond to their surroundings.",
+        "hi": "क्रेस्कोग्राफ़ पौधे की सूक्ष्म गतियों को बड़ा करके दिखाता है, जिससे उसकी वृद्धि और उद्दीपनों के प्रति प्रतिक्रिया मापी जा सकती है। बोस ने इससे दिखाया कि पौधे अपने परिवेश पर प्रतिक्रिया करते हैं।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The speed of sound is measured by other methods, not by a crescograph.",
+          "hi": "ध्वनि की चाल अन्य विधियों से मापी जाती है, क्रेस्कोग्राफ़ से नहीं।"
+        },
+        "1": {
+          "en": "Electric current is measured with an ammeter.",
+          "hi": "विद्युत धारा को अमीटर से मापा जाता है।"
+        },
+        "3": {
+          "en": "Atmospheric pressure is measured with a barometer.",
+          "hi": "वायुमंडलीय दाब को बैरोमीटर से मापा जाता है।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-gk-22",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "The Goods and Services Tax (GST), a unified indirect tax, came into effect in India in which year?",
+        "hi": "वस्तु एवं सेवा कर (जीएसटी), एक एकीकृत अप्रत्यक्ष कर, भारत में किस वर्ष लागू हुआ?"
+      },
+      "optionsJson": [
+        {
+          "en": "2017",
+          "hi": "2017"
+        },
+        {
+          "en": "2014",
+          "hi": "2014"
+        },
+        {
+          "en": "2012",
+          "hi": "2012"
+        },
+        {
+          "en": "2020",
+          "hi": "2020"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "GST came into force on 1 July 2017, replacing many indirect taxes of the Centre and the States with a single tax on goods and services.",
+        "hi": "जीएसटी 1 जुलाई 2017 को लागू हुआ और इसने केंद्र तथा राज्यों के अनेक अप्रत्यक्ष करों की जगह वस्तुओं और सेवाओं पर एक ही कर लगा दिया।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "GST had not yet been implemented in 2014.",
+          "hi": "2014 में जीएसटी अभी लागू नहीं हुआ था।"
+        },
+        "2": {
+          "en": "GST had not yet been implemented in 2012.",
+          "hi": "2012 में जीएसटी अभी लागू नहीं हुआ था।"
+        },
+        "3": {
+          "en": "GST was already in force by 2020, having started three years earlier.",
+          "hi": "2020 तक जीएसटी को लागू हुए तीन वर्ष हो चुके थे।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-gk-23",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "The McMahon Line, drawn at the Simla Convention of 1914, is the boundary between India's north-east and which country?",
+        "hi": "1914 के शिमला सम्मेलन में खींची गई मैकमोहन रेखा भारत के उत्तर-पूर्व और किस देश के बीच की सीमा है?"
+      },
+      "optionsJson": [
+        {
+          "en": "Pakistan",
+          "hi": "पाकिस्तान"
+        },
+        {
+          "en": "Nepal",
+          "hi": "नेपाल"
+        },
+        {
+          "en": "China",
+          "hi": "चीन"
+        },
+        {
+          "en": "Bhutan",
+          "hi": "भूटान"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The McMahon Line, proposed by Sir Henry McMahon, marks the eastern boundary between India and Tibet (China). India accepts it as the border with China in the north-east.",
+        "hi": "सर हेनरी मैकमोहन द्वारा प्रस्तावित मैकमोहन रेखा भारत और तिब्बत (चीन) के बीच पूर्वी सीमा को दर्शाती है। भारत इसे उत्तर-पूर्व में चीन के साथ सीमा मानता है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The India-Pakistan boundary was drawn in 1947 and is known as the Radcliffe Line.",
+          "hi": "भारत-पाकिस्तान सीमा 1947 में खींची गई थी और उसे रैडक्लिफ़ रेखा कहा जाता है।"
+        },
+        "1": {
+          "en": "The McMahon Line does not form the India-Nepal border.",
+          "hi": "मैकमोहन रेखा भारत-नेपाल सीमा नहीं बनाती।"
+        },
+        "3": {
+          "en": "The McMahon Line does not form the India-Bhutan border.",
+          "hi": "मैकमोहन रेखा भारत-भूटान सीमा नहीं बनाती।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-gk-24",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Which of the following gases is NOT a greenhouse gas?",
+        "hi": "निम्नलिखित में से कौन-सी गैस ग्रीनहाउस गैस नहीं है?"
+      },
+      "optionsJson": [
+        {
+          "en": "Methane",
+          "hi": "मीथेन"
+        },
+        {
+          "en": "Argon",
+          "hi": "आर्गन"
+        },
+        {
+          "en": "Carbon dioxide",
+          "hi": "कार्बन डाइऑक्साइड"
+        },
+        {
+          "en": "Nitrous oxide",
+          "hi": "नाइट्रस ऑक्साइड"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Argon is a noble gas with single-atom molecules that do not absorb infrared radiation, so it does not trap heat. Methane, carbon dioxide and nitrous oxide all do.",
+        "hi": "आर्गन एक अक्रिय गैस है जिसके अणु एकल परमाणु वाले होते हैं और अवरक्त विकिरण को अवशोषित नहीं करते, इसलिए वह ऊष्मा को रोकती नहीं। मीथेन, कार्बन डाइऑक्साइड और नाइट्रस ऑक्साइड तीनों ऐसा करती हैं।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Methane is a potent greenhouse gas released from wetlands, paddy fields and livestock.",
+          "hi": "मीथेन एक प्रबल ग्रीनहाउस गैस है जो आर्द्रभूमि, धान के खेतों और पशुओं से निकलती है।"
+        },
+        "2": {
+          "en": "Carbon dioxide is the main greenhouse gas added by burning fossil fuels.",
+          "hi": "कार्बन डाइऑक्साइड जीवाश्म ईंधन जलाने से बढ़ने वाली मुख्य ग्रीनहाउस गैस है।"
+        },
+        "3": {
+          "en": "Nitrous oxide, released from fertilisers, is a greenhouse gas.",
+          "hi": "उर्वरकों से निकलने वाली नाइट्रस ऑक्साइड एक ग्रीनहाउस गैस है।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-gk-25",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Which of the following is the chief ore of aluminium?",
+        "hi": "निम्नलिखित में से कौन-सा एल्युमिनियम का प्रमुख अयस्क है?"
+      },
+      "optionsJson": [
+        {
+          "en": "Haematite",
+          "hi": "हेमेटाइट"
+        },
+        {
+          "en": "Galena",
+          "hi": "गैलेना"
+        },
+        {
+          "en": "Cinnabar",
+          "hi": "सिनेबार"
+        },
+        {
+          "en": "Bauxite",
+          "hi": "बॉक्साइट"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Bauxite, rich in aluminium oxide, is the chief ore from which aluminium is extracted.",
+        "hi": "एल्युमिनियम ऑक्साइड से भरपूर बॉक्साइट वह प्रमुख अयस्क है जिससे एल्युमिनियम निकाला जाता है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Haematite is an ore of iron.",
+          "hi": "हेमेटाइट लोहे का अयस्क है।"
+        },
+        "1": {
+          "en": "Galena is an ore of lead.",
+          "hi": "गैलेना सीसे का अयस्क है।"
+        },
+        "2": {
+          "en": "Cinnabar is an ore of mercury.",
+          "hi": "सिनेबार पारे का अयस्क है।"
+        }
+      }
+    }
+  ]
+}

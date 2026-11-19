@@ -1,0 +1,984 @@
+{
+  "examType": "AISSEE",
+  "classLevel": 6,
+  "paperNumber": 4,
+  "sectionKey": "general_knowledge",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "aissee6-p4-gk-01",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Which of the following is a fossil fuel?",
+        "hi": "निम्नलिखित में से कौन-सा एक जीवाश्म ईंधन है?",
+        "mr": "खालीलपैकी कोणते जीवाश्म इंधन आहे?"
+      },
+      "optionsJson": [
+        { "en": "Wind energy", "hi": "पवन ऊर्जा", "mr": "पवन ऊर्जा" },
+        { "en": "Coal", "hi": "कोयला", "mr": "कोळसा" },
+        { "en": "Solar energy", "hi": "सौर ऊर्जा", "mr": "सौर ऊर्जा" },
+        { "en": "Biogas", "hi": "बायोगैस", "mr": "बायोगॅस" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Coal was formed from the remains of plants buried and pressed under the earth for millions of years, so it is a fossil fuel. Wind, solar energy and biogas can be renewed.",
+        "hi": "कोयला लाखों वर्षों तक धरती के नीचे दबे पौधों के अवशेषों से बना है, इसलिए यह जीवाश्म ईंधन है। पवन ऊर्जा, सौर ऊर्जा और बायोगैस नवीकरणीय हैं।",
+        "mr": "कोळसा लाखो वर्षे जमिनीखाली गाडल्या गेलेल्या वनस्पतींच्या अवशेषांपासून तयार झाला आहे, म्हणून तो जीवाश्म इंधन आहे. पवन ऊर्जा, सौर ऊर्जा आणि बायोगॅस नवीकरणीय आहेत."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Wind energy comes from moving air, which is never used up, so it is renewable and not a fossil fuel.",
+          "hi": "पवन ऊर्जा चलती हवा से मिलती है जो कभी समाप्त नहीं होती, इसलिए यह नवीकरणीय है, जीवाश्म ईंधन नहीं।",
+          "mr": "पवन ऊर्जा वाहत्या हवेतून मिळते जी कधीही संपत नाही, म्हणून ती नवीकरणीय आहे, जीवाश्म इंधन नाही."
+        },
+        "2": {
+          "en": "Solar energy comes from the Sun's rays and is renewable.",
+          "hi": "सौर ऊर्जा सूर्य की किरणों से मिलती है और नवीकरणीय है।",
+          "mr": "सौर ऊर्जा सूर्यकिरणांपासून मिळते आणि ती नवीकरणीय आहे."
+        },
+        "3": {
+          "en": "Biogas is made from animal dung and farm waste, which keep being produced, so it is renewable.",
+          "hi": "बायोगैस गोबर और खेती के कचरे से बनती है, जो लगातार मिलते रहते हैं, इसलिए यह नवीकरणीय है।",
+          "mr": "बायोगॅस शेण आणि शेतीतील कचऱ्यापासून बनतो, जो सतत मिळत राहतो, म्हणून तो नवीकरणीय आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-gk-02",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "What does ISRO stand for?",
+        "hi": "ISRO का पूरा नाम क्या है?",
+        "mr": "ISRO चे पूर्ण नाव काय आहे?"
+      },
+      "optionsJson": [
+        { "en": "Indian Space Research Organisation", "hi": "भारतीय अंतरिक्ष अनुसंधान संगठन", "mr": "भारतीय अंतराळ संशोधन संस्था" },
+        { "en": "International Space Research Organisation", "hi": "अंतरराष्ट्रीय अंतरिक्ष अनुसंधान संगठन", "mr": "आंतरराष्ट्रीय अंतराळ संशोधन संस्था" },
+        { "en": "Indian Science and Rocket Organisation", "hi": "भारतीय विज्ञान एवं रॉकेट संगठन", "mr": "भारतीय विज्ञान आणि रॉकेट संस्था" },
+        { "en": "Indian Satellite Research Organisation", "hi": "भारतीय उपग्रह अनुसंधान संगठन", "mr": "भारतीय उपग्रह संशोधन संस्था" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "ISRO stands for Indian Space Research Organisation. It is India's national space agency and its headquarters is in Bengaluru.",
+        "hi": "ISRO का अर्थ भारतीय अंतरिक्ष अनुसंधान संगठन है, जो भारत की राष्ट्रीय अंतरिक्ष एजेंसी है और इसका मुख्यालय बेंगलुरु में है।",
+        "mr": "ISRO म्हणजे भारतीय अंतराळ संशोधन संस्था. ही भारताची राष्ट्रीय अंतराळ संस्था आहे आणि तिचे मुख्यालय बेंगळुरू येथे आहे."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "It is an Indian organisation, not an international one.",
+          "hi": "यह भारत का अपना संगठन है, अंतरराष्ट्रीय नहीं।",
+          "mr": "ही भारताची स्वतःची संस्था आहे, आंतरराष्ट्रीय नाही."
+        },
+        "2": {
+          "en": "ISRO works on every area of space, not just rockets, and this is not its real name.",
+          "hi": "ISRO केवल रॉकेट पर नहीं, अंतरिक्ष के हर क्षेत्र पर काम करता है, और यह इसका वास्तविक नाम नहीं है।",
+          "mr": "ISRO फक्त रॉकेटवर नाही, तर अंतराळाच्या सर्व क्षेत्रांवर काम करते आणि हे तिचे खरे नाव नाही."
+        },
+        "3": {
+          "en": "Satellites are only one part of its work, and the word in its name is 'Space', not 'Satellite'.",
+          "hi": "उपग्रह इसके काम का केवल एक हिस्सा हैं; इसके नाम में 'अंतरिक्ष' शब्द है, 'उपग्रह' नहीं।",
+          "mr": "उपग्रह हा तिच्या कामाचा फक्त एक भाग आहे; तिच्या नावात 'अंतराळ' हा शब्द आहे, 'उपग्रह' नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-gk-03",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Which institution is the central bank of India?",
+        "hi": "भारत का केंद्रीय बैंक कौन-सी संस्था है?",
+        "mr": "भारताची मध्यवर्ती बँक कोणती संस्था आहे?"
+      },
+      "optionsJson": [
+        { "en": "State Bank of India", "hi": "भारतीय स्टेट बैंक", "mr": "स्टेट बँक ऑफ इंडिया" },
+        { "en": "Punjab National Bank", "hi": "पंजाब नेशनल बैंक", "mr": "पंजाब नॅशनल बँक" },
+        { "en": "Reserve Bank of India", "hi": "भारतीय रिज़र्व बैंक", "mr": "भारतीय रिझर्व्ह बँक" },
+        { "en": "NABARD", "hi": "नाबार्ड", "mr": "नाबार्ड" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The Reserve Bank of India (RBI) is the central bank of the country. It controls the supply of money, issues currency notes and regulates other banks.",
+        "hi": "भारतीय रिज़र्व बैंक (RBI) देश का केंद्रीय बैंक है। यह मुद्रा की आपूर्ति पर नियंत्रण रखता है, नोट जारी करता है और अन्य बैंकों का नियमन करता है।",
+        "mr": "भारतीय रिझर्व्ह बँक (RBI) ही देशाची मध्यवर्ती बँक आहे. ती चलनपुरवठ्यावर नियंत्रण ठेवते, नोटा जारी करते आणि इतर बँकांचे नियमन करते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "SBI is the largest commercial bank and serves customers, but it is not the central bank.",
+          "hi": "SBI सबसे बड़ा वाणिज्यिक बैंक है जो ग्राहकों को सेवाएँ देता है, पर केंद्रीय बैंक नहीं है।",
+          "mr": "SBI ही सर्वात मोठी व्यावसायिक बँक आहे जी ग्राहकांना सेवा देते, पण ती मध्यवर्ती बँक नाही."
+        },
+        "1": {
+          "en": "PNB is a commercial bank for the public, not the central bank.",
+          "hi": "PNB जनता के लिए काम करने वाला वाणिज्यिक बैंक है, केंद्रीय बैंक नहीं।",
+          "mr": "PNB ही सामान्य लोकांसाठी काम करणारी व्यावसायिक बँक आहे, मध्यवर्ती बँक नाही."
+        },
+        "3": {
+          "en": "NABARD supports farming and rural development; it does not control the country's money system.",
+          "hi": "नाबार्ड खेती और ग्रामीण विकास में सहायता करता है, देश की मुद्रा व्यवस्था को नियंत्रित नहीं करता।",
+          "mr": "नाबार्ड शेती आणि ग्रामीण विकासाला मदत करते, देशाच्या चलनव्यवस्थेवर नियंत्रण ठेवत नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-gk-04",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Which gas, released in large amounts by burning coal and petrol, is the main cause of global warming?",
+        "hi": "कोयला और पेट्रोल जलाने से बड़ी मात्रा में निकलने वाली कौन-सी गैस ग्लोबल वार्मिंग का मुख्य कारण है?",
+        "mr": "कोळसा आणि पेट्रोल जाळल्याने मोठ्या प्रमाणात बाहेर पडणारा कोणता वायू जागतिक तापमानवाढीचे मुख्य कारण आहे?"
+      },
+      "optionsJson": [
+        { "en": "Oxygen", "hi": "ऑक्सीजन", "mr": "ऑक्सिजन" },
+        { "en": "Nitrogen", "hi": "नाइट्रोजन", "mr": "नायट्रोजन" },
+        { "en": "Helium", "hi": "हीलियम", "mr": "हेलियम" },
+        { "en": "Carbon dioxide", "hi": "कार्बन डाइऑक्साइड", "mr": "कार्बन डायऑक्साइड" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Burning fuels releases carbon dioxide. It traps the Sun's heat in the atmosphere like a blanket and raises the temperature of the Earth.",
+        "hi": "ईंधन जलाने से कार्बन डाइऑक्साइड निकलती है। यह कंबल की तरह वायुमंडल में सूर्य की गर्मी को रोककर पृथ्वी का तापमान बढ़ाती है।",
+        "mr": "इंधन जाळल्याने कार्बन डायऑक्साइड बाहेर पडतो. तो ब्लँकेटप्रमाणे वातावरणात सूर्याची उष्णता अडवून पृथ्वीचे तापमान वाढवतो."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Oxygen is needed for burning and breathing; it does not trap heat.",
+          "hi": "ऑक्सीजन जलने और साँस लेने के लिए ज़रूरी है; यह गर्मी को नहीं रोकती।",
+          "mr": "ऑक्सिजन जळण्यासाठी आणि श्वसनासाठी आवश्यक आहे; तो उष्णता अडवत नाही."
+        },
+        "1": {
+          "en": "Nitrogen makes up most of the air but it is not a greenhouse gas that causes warming.",
+          "hi": "नाइट्रोजन हवा का अधिकांश भाग है, पर यह तापमान बढ़ाने वाली ग्रीनहाउस गैस नहीं है।",
+          "mr": "नायट्रोजन हा हवेचा बहुतांश भाग आहे, पण तो तापमान वाढवणारा हरितगृह वायू नाही."
+        },
+        "2": {
+          "en": "Helium is a light, inert gas and is not released by burning fuels.",
+          "hi": "हीलियम हल्की और निष्क्रिय गैस है और ईंधन जलाने से नहीं निकलती।",
+          "mr": "हेलियम हा हलका आणि निष्क्रिय वायू आहे आणि इंधन जाळल्याने बाहेर पडत नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-gk-05",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Agni and Prithvi are the names of which type of Indian defence equipment?",
+        "hi": "अग्नि और पृथ्वी भारत के किस प्रकार के रक्षा उपकरण के नाम हैं?",
+        "mr": "अग्नी आणि पृथ्वी ही भारताच्या कोणत्या प्रकारच्या संरक्षण उपकरणांची नावे आहेत?"
+      },
+      "optionsJson": [
+        { "en": "Missiles", "hi": "मिसाइल", "mr": "क्षेपणास्त्रे" },
+        { "en": "Warships", "hi": "युद्धपोत", "mr": "युद्धनौका" },
+        { "en": "Satellites", "hi": "उपग्रह", "mr": "उपग्रह" },
+        { "en": "Fighter aircraft", "hi": "लड़ाकू विमान", "mr": "लढाऊ विमाने" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Agni and Prithvi are missiles developed by DRDO under India's Integrated Guided Missile Development Programme.",
+        "hi": "अग्नि और पृथ्वी भारत के एकीकृत निर्देशित मिसाइल विकास कार्यक्रम के अंतर्गत DRDO द्वारा विकसित मिसाइलें हैं।",
+        "mr": "अग्नी आणि पृथ्वी ही भारताच्या एकात्मिक मार्गदर्शित क्षेपणास्त्र विकास कार्यक्रमांतर्गत DRDO ने विकसित केलेली क्षेपणास्त्रे आहेत."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Indian warships have names like Vikrant and Vikramaditya, not Agni or Prithvi.",
+          "hi": "भारतीय युद्धपोतों के नाम विक्रांत और विक्रमादित्य जैसे हैं, अग्नि या पृथ्वी नहीं।",
+          "mr": "भारतीय युद्धनौकांची नावे विक्रांत आणि विक्रमादित्य यांसारखी आहेत, अग्नी किंवा पृथ्वी नाही."
+        },
+        "2": {
+          "en": "Indian satellites have names such as Aryabhata and INSAT; Agni and Prithvi are not satellites.",
+          "hi": "भारतीय उपग्रहों के नाम आर्यभट और इनसैट जैसे हैं; अग्नि और पृथ्वी उपग्रह नहीं हैं।",
+          "mr": "भारतीय उपग्रहांची नावे आर्यभट आणि इन्सॅट अशी आहेत; अग्नी आणि पृथ्वी हे उपग्रह नाहीत."
+        },
+        "3": {
+          "en": "Fighter aircraft in Indian service are known by names like Tejas or Rafale, not Agni or Prithvi.",
+          "hi": "भारतीय लड़ाकू विमान तेजस या राफेल जैसे नामों से जाने जाते हैं, अग्नि या पृथ्वी से नहीं।",
+          "mr": "भारतीय लढाऊ विमाने तेजस किंवा राफेल यांसारख्या नावांनी ओळखली जातात, अग्नी किंवा पृथ्वी या नावांनी नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-gk-06",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "India's first satellite, launched in 1975, was named after a great ancient Indian mathematician and astronomer. What was it called?",
+        "hi": "1975 में प्रक्षेपित भारत के पहले उपग्रह का नाम एक महान प्राचीन भारतीय गणितज्ञ और खगोलशास्त्री के नाम पर रखा गया था। उसका नाम क्या था?",
+        "mr": "1975 मध्ये प्रक्षेपित केलेल्या भारताच्या पहिल्या उपग्रहाचे नाव एका महान प्राचीन भारतीय गणितज्ञ आणि खगोलशास्त्रज्ञाच्या नावावरून ठेवले होते. त्याचे नाव काय होते?"
+      },
+      "optionsJson": [
+        { "en": "Bhaskara", "hi": "भास्कर", "mr": "भास्कर" },
+        { "en": "Aryabhata", "hi": "आर्यभट", "mr": "आर्यभट" },
+        { "en": "Rohini", "hi": "रोहिणी", "mr": "रोहिणी" },
+        { "en": "Kalpana", "hi": "कल्पना", "mr": "कल्पना" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Aryabhata, launched on 19 April 1975, was India's first satellite. It was named after the mathematician and astronomer Aryabhata of the 5th century.",
+        "hi": "आर्यभट, जो 19 अप्रैल 1975 को प्रक्षेपित हुआ, भारत का पहला उपग्रह था। इसका नाम पाँचवीं सदी के गणितज्ञ और खगोलशास्त्री आर्यभट के नाम पर रखा गया।",
+        "mr": "आर्यभट, जो 19 एप्रिल 1975 रोजी प्रक्षेपित झाला, हा भारताचा पहिला उपग्रह होता. त्याचे नाव पाचव्या शतकातील गणितज्ञ आणि खगोलशास्त्रज्ञ आर्यभट यांच्यावरून ठेवले गेले."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Bhaskara was an Earth-observation satellite launched in 1979, after Aryabhata.",
+          "hi": "भास्कर पृथ्वी अवलोकन उपग्रह था, जो आर्यभट के बाद 1979 में प्रक्षेपित हुआ।",
+          "mr": "भास्कर हा पृथ्वी निरीक्षण उपग्रह होता, जो आर्यभटनंतर 1979 मध्ये प्रक्षेपित झाला."
+        },
+        "2": {
+          "en": "The Rohini satellite was launched in 1980 by India's own SLV-3 rocket, so it came later.",
+          "hi": "रोहिणी उपग्रह 1980 में भारत के अपने SLV-3 रॉकेट से प्रक्षेपित हुआ था, इसलिए वह बाद में आया।",
+          "mr": "रोहिणी उपग्रह 1980 मध्ये भारताच्या स्वतःच्या SLV-3 रॉकेटद्वारे प्रक्षेपित झाला, म्हणून तो नंतर आला."
+        },
+        "3": {
+          "en": "Kalpana is a weather satellite launched in 2002, named after Kalpana Chawla, not an ancient astronomer.",
+          "hi": "कल्पना 2002 में प्रक्षेपित मौसम उपग्रह है, जिसका नाम कल्पना चावला पर रखा गया, किसी प्राचीन खगोलशास्त्री पर नहीं।",
+          "mr": "कल्पना हा 2002 मध्ये प्रक्षेपित हवामान उपग्रह आहे, ज्याचे नाव कल्पना चावला यांच्या नावावरून ठेवले गेले, कोणत्या प्राचीन खगोलशास्त्रज्ञाच्या नावावरून नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-gk-07",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "What is the term for the money that citizens and businesses must pay to the government so that it can build roads, schools and hospitals?",
+        "hi": "नागरिकों और व्यवसायों द्वारा सरकार को दिए जाने वाले उस धन को क्या कहते हैं, जिससे सरकार सड़कें, स्कूल और अस्पताल बनाती है?",
+        "mr": "नागरिक आणि व्यवसायांनी सरकारला भरावयाच्या ज्या पैशातून सरकार रस्ते, शाळा आणि रुग्णालये बांधते, त्याला काय म्हणतात?"
+      },
+      "optionsJson": [
+        { "en": "Loan", "hi": "ऋण", "mr": "कर्ज" },
+        { "en": "Subsidy", "hi": "सब्सिडी", "mr": "अनुदान" },
+        { "en": "Tax", "hi": "कर", "mr": "कर" },
+        { "en": "Interest", "hi": "ब्याज", "mr": "व्याज" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "A tax is a compulsory payment made by people and businesses to the government. The government spends it on public services such as roads, schools and hospitals.",
+        "hi": "कर वह अनिवार्य भुगतान है जो लोग और व्यवसाय सरकार को देते हैं। सरकार इसे सड़क, स्कूल और अस्पताल जैसी सार्वजनिक सेवाओं पर खर्च करती है।",
+        "mr": "कर हे लोक आणि व्यवसाय सरकारला भरत असलेले सक्तीचे पैसे आहेत. सरकार ते रस्ते, शाळा आणि रुग्णालये यांसारख्या सार्वजनिक सेवांवर खर्च करते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "A loan is borrowed money that must be returned; it is not a payment to the government for public services.",
+          "hi": "ऋण उधार लिया गया धन है जिसे लौटाना पड़ता है; यह सार्वजनिक सेवाओं के लिए सरकार को दिया जाने वाला भुगतान नहीं है।",
+          "mr": "कर्ज म्हणजे उसने घेतलेले पैसे जे परत करावे लागतात; ते सार्वजनिक सेवांसाठी सरकारला दिलेली रक्कम नाही."
+        },
+        "1": {
+          "en": "A subsidy is money the government gives to help people or producers, which is the opposite of what the question asks.",
+          "hi": "सब्सिडी वह सहायता राशि है जो सरकार लोगों या उत्पादकों को देती है, यानी प्रश्न में पूछी गई बात का उल्टा।",
+          "mr": "अनुदान ही मदतीची रक्कम आहे जी सरकार लोकांना किंवा उत्पादकांना देते, म्हणजे प्रश्नात विचारलेल्या गोष्टीच्या उलट."
+        },
+        "3": {
+          "en": "Interest is the extra amount paid on borrowed money, not a payment to the government to fund public services.",
+          "hi": "ब्याज उधार लिए धन पर दी जाने वाली अतिरिक्त राशि है, सार्वजनिक सेवाओं के लिए सरकार को दिया जाने वाला भुगतान नहीं।",
+          "mr": "व्याज म्हणजे उसन्या घेतलेल्या पैशांवर द्यावी लागणारी अधिक रक्कम, सार्वजनिक सेवांसाठी सरकारला दिलेली रक्कम नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-gk-08",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "The Green Revolution of the 1960s greatly increased the production of which two crops in India?",
+        "hi": "1960 के दशक की हरित क्रांति से भारत में किन दो फसलों का उत्पादन बहुत बढ़ा?",
+        "mr": "1960 च्या दशकातील हरितक्रांतीमुळे भारतात कोणत्या दोन पिकांचे उत्पादन खूप वाढले?"
+      },
+      "optionsJson": [
+        { "en": "Tea and coffee", "hi": "चाय और कॉफ़ी", "mr": "चहा आणि कॉफी" },
+        { "en": "Cotton and jute", "hi": "कपास और जूट", "mr": "कापूस आणि ताग" },
+        { "en": "Sugarcane and tobacco", "hi": "गन्ना और तंबाकू", "mr": "ऊस आणि तंबाखू" },
+        { "en": "Wheat and rice", "hi": "गेहूँ और चावल", "mr": "गहू आणि तांदूळ" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "High-yielding variety seeds, fertilisers and irrigation raised the output of wheat and rice, and India became self-sufficient in food grains.",
+        "hi": "उच्च उपज वाले बीजों, उर्वरकों और सिंचाई से गेहूँ और चावल का उत्पादन बढ़ा, जिससे भारत खाद्यान्न में आत्मनिर्भर बना।",
+        "mr": "जास्त उत्पादन देणारे बियाणे, खते आणि सिंचन यांमुळे गहू आणि तांदळाचे उत्पादन वाढले आणि भारत अन्नधान्यात स्वयंपूर्ण झाला."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Tea and coffee are plantation crops and were not the main focus of the Green Revolution.",
+          "hi": "चाय और कॉफ़ी बागान फसलें हैं और हरित क्रांति का मुख्य ध्यान इन पर नहीं था।",
+          "mr": "चहा आणि कॉफी ही मळ्यातील पिके आहेत आणि हरितक्रांतीचा मुख्य भर त्यांवर नव्हता."
+        },
+        "1": {
+          "en": "Cotton and jute are fibre crops, not food grains; the Green Revolution focused mainly on grains.",
+          "hi": "कपास और जूट रेशेदार फसलें हैं, खाद्यान्न नहीं; हरित क्रांति मुख्यतः अनाज पर केंद्रित थी।",
+          "mr": "कापूस आणि ताग ही धाग्याची पिके आहेत, अन्नधान्य नाही; हरितक्रांती प्रामुख्याने धान्यावर केंद्रित होती."
+        },
+        "2": {
+          "en": "Sugarcane and tobacco are cash crops, not the grains targeted by the Green Revolution.",
+          "hi": "गन्ना और तंबाकू नकदी फसलें हैं, हरित क्रांति के लक्षित अनाज नहीं।",
+          "mr": "ऊस आणि तंबाखू ही नगदी पिके आहेत, हरितक्रांतीचे लक्ष्य असलेले धान्य नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-gk-09",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which gas present high in the atmosphere absorbs most of the Sun's harmful ultraviolet rays?",
+        "hi": "वायुमंडल में ऊँचाई पर मौजूद कौन-सी गैस सूर्य की अधिकांश हानिकारक पराबैंगनी किरणों को सोख लेती है?",
+        "mr": "वातावरणात उंचावर असलेला कोणता वायू सूर्याच्या बहुतांश हानिकारक अतिनील किरणांना शोषून घेतो?"
+      },
+      "optionsJson": [
+        { "en": "Ozone", "hi": "ओज़ोन", "mr": "ओझोन" },
+        { "en": "Nitrogen", "hi": "नाइट्रोजन", "mr": "नायट्रोजन" },
+        { "en": "Methane", "hi": "मीथेन", "mr": "मिथेन" },
+        { "en": "Argon", "hi": "आर्गन", "mr": "आर्गॉन" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Ozone forms a protective layer in the upper atmosphere. It absorbs ultraviolet rays and protects humans, plants and animals.",
+        "hi": "ओज़ोन वायुमंडल की ऊपरी परत में एक सुरक्षा परत बनाती है। यह पराबैंगनी किरणों को सोखकर मनुष्यों, पौधों और जानवरों को बचाती है।",
+        "mr": "ओझोन वातावरणाच्या वरच्या थरात एक संरक्षक थर तयार करतो. तो अतिनील किरणे शोषून माणसे, वनस्पती आणि प्राण्यांचे रक्षण करतो."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Nitrogen makes up about four-fifths of the air, but it is not the gas that shields us from the Sun's ultraviolet rays.",
+          "hi": "नाइट्रोजन हवा का लगभग चार-पाँचवाँ भाग है, पर यह वह गैस नहीं है जो हमें सूर्य की पराबैंगनी किरणों से बचाती है।",
+          "mr": "नायट्रोजन हवेचा सुमारे चार-पंचमांश भाग आहे, पण तो वायू आपल्याला सूर्याच्या अतिनील किरणांपासून वाचवत नाही."
+        },
+        "2": {
+          "en": "Methane is a greenhouse gas that traps heat; it is not the ultraviolet shield.",
+          "hi": "मीथेन एक ग्रीनहाउस गैस है जो गर्मी रोकती है; यह पराबैंगनी किरणों से बचाने वाली परत नहीं है।",
+          "mr": "मिथेन हा हरितगृह वायू आहे जो उष्णता अडवतो; तो अतिनील किरणांपासून संरक्षण करणारा थर नाही."
+        },
+        "3": {
+          "en": "Argon is an inert gas found in tiny amounts and plays no role in blocking ultraviolet rays.",
+          "hi": "आर्गन एक निष्क्रिय गैस है जो बहुत कम मात्रा में मिलती है और पराबैंगनी किरणों को रोकने में कोई भूमिका नहीं निभाती।",
+          "mr": "आर्गॉन हा निष्क्रिय वायू आहे जो अत्यंत कमी प्रमाणात आढळतो आणि अतिनील किरणे रोखण्यात त्याची भूमिका नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-gk-10",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "INS Vikrant, built at the Cochin Shipyard in Kerala and commissioned into the Indian Navy in 2022, is what type of vessel?",
+        "hi": "केरल के कोचीन शिपयार्ड में बना और 2022 में भारतीय नौसेना में शामिल किया गया INS विक्रांत किस प्रकार का जहाज़ है?",
+        "mr": "केरळमधील कोचीन शिपयार्डमध्ये बांधलेली आणि 2022 मध्ये भारतीय नौदलात दाखल झालेली INS विक्रांत ही कोणत्या प्रकारची नौका आहे?"
+      },
+      "optionsJson": [
+        { "en": "Submarine", "hi": "पनडुब्बी", "mr": "पाणबुडी" },
+        { "en": "Fighter jet", "hi": "लड़ाकू जेट", "mr": "लढाऊ जेट" },
+        { "en": "Battle tank", "hi": "युद्ध टैंक", "mr": "रणगाडा" },
+        { "en": "Aircraft carrier", "hi": "विमानवाहक पोत", "mr": "विमानवाहू नौका" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "INS Vikrant is India's first indigenously built aircraft carrier, a floating airbase from which fighter planes and helicopters can take off and land.",
+        "hi": "INS विक्रांत भारत में निर्मित पहला विमानवाहक पोत है, एक तैरता हवाई अड्डा, जहाँ से लड़ाकू विमान और हेलीकॉप्टर उड़ान भर और उतर सकते हैं।",
+        "mr": "INS विक्रांत ही भारतात बांधलेली पहिली विमानवाहू नौका आहे, एक तरता हवाई तळ, जिथून लढाऊ विमाने आणि हेलिकॉप्टर उड्डाण करू शकतात आणि उतरू शकतात."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "A submarine travels under water, but Vikrant is a large surface ship.",
+          "hi": "पनडुब्बी पानी के नीचे चलती है, पर विक्रांत पानी की सतह पर चलने वाला विशाल जहाज़ है।",
+          "mr": "पाणबुडी पाण्याखालून चालते, पण विक्रांत ही पाण्याच्या पृष्ठभागावरून चालणारी मोठी नौका आहे."
+        },
+        "1": {
+          "en": "A fighter jet is an aircraft; it can operate from Vikrant but is not the ship itself.",
+          "hi": "लड़ाकू जेट एक विमान है; वह विक्रांत से उड़ सकता है, पर स्वयं जहाज़ नहीं है।",
+          "mr": "लढाऊ जेट हे एक विमान आहे; ते विक्रांतवरून उडू शकते, पण स्वतः नौका नाही."
+        },
+        "2": {
+          "en": "A battle tank is an armoured vehicle for land; it cannot sail.",
+          "hi": "युद्ध टैंक ज़मीन पर चलने वाला बख़्तरबंद वाहन है; वह समुद्र में नहीं चल सकता।",
+          "mr": "रणगाडा हे जमिनीवर चालणारे चिलखती वाहन आहे; ते समुद्रात चालू शकत नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-gk-11",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which of the following activities belongs to the secondary sector of the economy?",
+        "hi": "निम्नलिखित में से कौन-सी गतिविधि अर्थव्यवस्था के द्वितीयक क्षेत्र में आती है?",
+        "mr": "खालीलपैकी कोणती क्रिया अर्थव्यवस्थेच्या द्वितीयक क्षेत्रात येते?"
+      },
+      "optionsJson": [
+        { "en": "Growing wheat in a field", "hi": "खेत में गेहूँ उगाना", "mr": "शेतात गहू पिकवणे" },
+        { "en": "Making furniture in a factory", "hi": "कारखाने में फ़र्नीचर बनाना", "mr": "कारखान्यात फर्निचर बनवणे" },
+        { "en": "Catching fish in the sea", "hi": "समुद्र में मछली पकड़ना", "mr": "समुद्रात मासेमारी करणे" },
+        { "en": "Driving a taxi", "hi": "टैक्सी चलाना", "mr": "टॅक्सी चालवणे" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "The secondary sector turns raw materials into finished goods in factories, so making furniture from wood belongs here.",
+        "hi": "द्वितीयक क्षेत्र कारखानों में कच्चे माल को तैयार माल में बदलता है, इसलिए लकड़ी से फ़र्नीचर बनाना इसी में आता है।",
+        "mr": "द्वितीयक क्षेत्र कारखान्यांमध्ये कच्च्या मालाचे तयार मालात रूपांतर करते, म्हणून लाकडापासून फर्निचर बनवणे यात येते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Growing crops takes natural products from the land, which is the primary sector.",
+          "hi": "फसल उगाना भूमि से प्राकृतिक उत्पाद प्राप्त करना है, जो प्राथमिक क्षेत्र है।",
+          "mr": "पिके घेणे म्हणजे जमिनीतून नैसर्गिक उत्पादने मिळवणे, जे प्राथमिक क्षेत्र आहे."
+        },
+        "2": {
+          "en": "Fishing takes a natural product from the sea, so it is part of the primary sector.",
+          "hi": "मछली पकड़ना समुद्र से प्राकृतिक उत्पाद लेना है, इसलिए यह प्राथमिक क्षेत्र का हिस्सा है।",
+          "mr": "मासेमारी म्हणजे समुद्रातून नैसर्गिक उत्पादन मिळवणे, म्हणून तो प्राथमिक क्षेत्राचा भाग आहे."
+        },
+        "3": {
+          "en": "Driving a taxi is a service, so it belongs to the tertiary sector.",
+          "hi": "टैक्सी चलाना एक सेवा है, इसलिए यह तृतीयक क्षेत्र में आती है।",
+          "mr": "टॅक्सी चालवणे ही एक सेवा आहे, म्हणून ती तृतीयक क्षेत्रात येते."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-gk-12",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Who founded the Maurya Empire in ancient India?",
+        "hi": "प्राचीन भारत में मौर्य साम्राज्य की स्थापना किसने की?",
+        "mr": "प्राचीन भारतात मौर्य साम्राज्याची स्थापना कोणी केली?"
+      },
+      "optionsJson": [
+        { "en": "Ashoka", "hi": "अशोक", "mr": "अशोक" },
+        { "en": "Bindusara", "hi": "बिंदुसार", "mr": "बिंदुसार" },
+        { "en": "Chandragupta Maurya", "hi": "चंद्रगुप्त मौर्य", "mr": "चंद्रगुप्त मौर्य" },
+        { "en": "Samudragupta", "hi": "समुद्रगुप्त", "mr": "समुद्रगुप्त" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Chandragupta Maurya founded the empire around 321 BCE with the guidance of his teacher Chanakya.",
+        "hi": "चंद्रगुप्त मौर्य ने अपने गुरु चाणक्य के मार्गदर्शन में लगभग 321 ईसा पूर्व में इस साम्राज्य की स्थापना की।",
+        "mr": "चंद्रगुप्त मौर्य यांनी आपले गुरू चाणक्य यांच्या मार्गदर्शनाखाली सुमारे 321 इसवी सनपूर्व मध्ये हे साम्राज्य स्थापन केले."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Ashoka was Chandragupta's grandson and a later Mauryan emperor, not the founder.",
+          "hi": "अशोक चंद्रगुप्त के पौत्र थे और बाद के मौर्य सम्राट थे, संस्थापक नहीं।",
+          "mr": "अशोक हे चंद्रगुप्ताचे नातू आणि नंतरचे मौर्य सम्राट होते, संस्थापक नव्हे."
+        },
+        "1": {
+          "en": "Bindusara was Chandragupta's son who ruled after him, not the founder.",
+          "hi": "बिंदुसार चंद्रगुप्त के पुत्र थे जिन्होंने उनके बाद शासन किया, संस्थापक नहीं।",
+          "mr": "बिंदुसार हे चंद्रगुप्ताचे पुत्र होते ज्यांनी त्यांच्यानंतर राज्य केले, संस्थापक नव्हे."
+        },
+        "3": {
+          "en": "Samudragupta belonged to the later Gupta dynasty, not the Maurya dynasty.",
+          "hi": "समुद्रगुप्त बाद के गुप्त वंश के थे, मौर्य वंश के नहीं।",
+          "mr": "समुद्रगुप्त हे नंतरच्या गुप्त घराण्याचे होते, मौर्य घराण्याचे नव्हे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-gk-13",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which Indian state is the largest producer of tea?",
+        "hi": "भारत का कौन-सा राज्य चाय का सबसे बड़ा उत्पादक है?",
+        "mr": "भारतातील कोणते राज्य चहाचे सर्वात मोठे उत्पादक आहे?"
+      },
+      "optionsJson": [
+        { "en": "Assam", "hi": "असम", "mr": "आसाम" },
+        { "en": "Kerala", "hi": "केरल", "mr": "केरळ" },
+        { "en": "Punjab", "hi": "पंजाब", "mr": "पंजाब" },
+        { "en": "Rajasthan", "hi": "राजस्थान", "mr": "राजस्थान" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Assam's warm, rainy climate and the Brahmaputra valley are ideal for tea, and the state produces roughly half of India's tea.",
+        "hi": "असम की गर्म, वर्षा वाली जलवायु और ब्रह्मपुत्र घाटी चाय के लिए आदर्श हैं, और यह राज्य भारत की लगभग आधी चाय पैदा करता है।",
+        "mr": "आसामचे उबदार, पावसाळी हवामान आणि ब्रह्मपुत्रा खोरे चहासाठी आदर्श आहे आणि हे राज्य भारताच्या सुमारे निम्मा चहा पिकवते."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Kerala grows tea in its hills, but produces much less than Assam.",
+          "hi": "केरल अपनी पहाड़ियों में चाय उगाता है, पर असम से बहुत कम उत्पादन करता है।",
+          "mr": "केरळ आपल्या टेकड्यांमध्ये चहा पिकवते, पण आसामपेक्षा खूपच कमी उत्पादन करते."
+        },
+        "2": {
+          "en": "Punjab is mainly known for wheat and rice, and its plains are not suited to tea.",
+          "hi": "पंजाब मुख्यतः गेहूँ और चावल के लिए जाना जाता है, और उसके मैदान चाय के लिए उपयुक्त नहीं हैं।",
+          "mr": "पंजाब प्रामुख्याने गहू आणि तांदळासाठी ओळखले जाते आणि त्याचे मैदान चहासाठी योग्य नाही."
+        },
+        "3": {
+          "en": "Much of Rajasthan is dry and desert-like, so tea does not grow well there.",
+          "hi": "राजस्थान का अधिकांश भाग शुष्क और रेगिस्तानी है, इसलिए वहाँ चाय अच्छी नहीं उगती।",
+          "mr": "राजस्थानचा बहुतांश भाग कोरडा आणि वाळवंटी आहे, म्हणून तिथे चहा नीट पिकत नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-gk-14",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which one is the lower house of the Parliament of India?",
+        "hi": "भारत की संसद का निम्न सदन कौन-सा है?",
+        "mr": "भारताच्या संसदेचे कनिष्ठ सभागृह कोणते आहे?"
+      },
+      "optionsJson": [
+        { "en": "Rajya Sabha", "hi": "राज्य सभा", "mr": "राज्यसभा" },
+        { "en": "Lok Sabha", "hi": "लोक सभा", "mr": "लोकसभा" },
+        { "en": "Vidhan Sabha", "hi": "विधान सभा", "mr": "विधानसभा" },
+        { "en": "Vidhan Parishad", "hi": "विधान परिषद", "mr": "विधान परिषद" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Parliament has two houses. The Lok Sabha is the lower house, whose members are directly elected by the people, and the Rajya Sabha is the upper house.",
+        "hi": "संसद के दो सदन हैं। लोक सभा निम्न सदन है, जिसके सदस्य जनता द्वारा सीधे चुने जाते हैं, और राज्य सभा उच्च सदन है।",
+        "mr": "संसदेची दोन सभागृहे आहेत. लोकसभा हे कनिष्ठ सभागृह आहे, ज्याचे सदस्य जनतेकडून थेट निवडले जातात, आणि राज्यसभा हे वरिष्ठ सभागृह आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The Rajya Sabha is the upper house of Parliament.",
+          "hi": "राज्य सभा संसद का उच्च सदन है।",
+          "mr": "राज्यसभा हे संसदेचे वरिष्ठ सभागृह आहे."
+        },
+        "2": {
+          "en": "The Vidhan Sabha is the lower house of a state legislature, not of Parliament.",
+          "hi": "विधान सभा राज्य विधानमंडल का निम्न सदन है, संसद का नहीं।",
+          "mr": "विधानसभा हे राज्य विधिमंडळाचे कनिष्ठ सभागृह आहे, संसदेचे नव्हे."
+        },
+        "3": {
+          "en": "The Vidhan Parishad is the upper house of some state legislatures and is not part of Parliament.",
+          "hi": "विधान परिषद कुछ राज्यों के विधानमंडल का उच्च सदन है, संसद का हिस्सा नहीं।",
+          "mr": "विधान परिषद हे काही राज्यांच्या विधिमंडळाचे वरिष्ठ सभागृह आहे, संसदेचा भाग नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-gk-15",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Who received the Nobel Prize in Literature in 1913, becoming the first Indian Nobel laureate?",
+        "hi": "1913 में साहित्य का नोबेल पुरस्कार पाकर पहले भारतीय नोबेल विजेता कौन बने?",
+        "mr": "1913 मध्ये साहित्याचे नोबेल पारितोषिक मिळवून पहिले भारतीय नोबेल विजेते कोण ठरले?"
+      },
+      "optionsJson": [
+        { "en": "C. V. Raman", "hi": "सी. वी. रमन", "mr": "सी. व्ही. रामन" },
+        { "en": "Mother Teresa", "hi": "मदर टेरेसा", "mr": "मदर तेरेसा" },
+        { "en": "Rabindranath Tagore", "hi": "रवीन्द्रनाथ टैगोर", "mr": "रवींद्रनाथ टागोर" },
+        { "en": "Amartya Sen", "hi": "अमर्त्य सेन", "mr": "अमर्त्य सेन" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Rabindranath Tagore won the 1913 Nobel Prize in Literature for his poetry collection Gitanjali.",
+        "hi": "रवीन्द्रनाथ टैगोर को उनके काव्य संग्रह गीतांजलि के लिए 1913 में साहित्य का नोबेल पुरस्कार मिला।",
+        "mr": "रवींद्रनाथ टागोर यांना त्यांच्या गीतांजली या काव्यसंग्रहासाठी 1913 मध्ये साहित्याचे नोबेल पारितोषिक मिळाले."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "C. V. Raman won the Nobel Prize in Physics in 1930, which was later than Tagore's prize.",
+          "hi": "सी. वी. रमन को 1930 में भौतिकी का नोबेल मिला, जो टैगोर के बाद था।",
+          "mr": "सी. व्ही. रामन यांना 1930 मध्ये भौतिकशास्त्राचे नोबेल मिळाले, जे टागोर यांच्यानंतर होते."
+        },
+        "1": {
+          "en": "Mother Teresa received the Nobel Peace Prize in 1979.",
+          "hi": "मदर टेरेसा को 1979 में नोबेल शांति पुरस्कार मिला।",
+          "mr": "मदर तेरेसा यांना 1979 मध्ये नोबेल शांतता पुरस्कार मिळाला."
+        },
+        "3": {
+          "en": "Amartya Sen won the Nobel Prize in Economics in 1998.",
+          "hi": "अमर्त्य सेन को 1998 में अर्थशास्त्र का नोबेल मिला।",
+          "mr": "अमर्त्य सेन यांना 1998 मध्ये अर्थशास्त्राचे नोबेल मिळाले."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-gk-16",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "The Thomas Cup is a famous international team championship in which sport?",
+        "hi": "थॉमस कप किस खेल की प्रसिद्ध अंतरराष्ट्रीय टीम चैंपियनशिप है?",
+        "mr": "थॉमस चषक ही कोणत्या खेळाची प्रसिद्ध आंतरराष्ट्रीय सांघिक स्पर्धा आहे?"
+      },
+      "optionsJson": [
+        { "en": "Tennis", "hi": "टेनिस", "mr": "टेनिस" },
+        { "en": "Hockey", "hi": "हॉकी", "mr": "हॉकी" },
+        { "en": "Table tennis", "hi": "टेबल टेनिस", "mr": "टेबल टेनिस" },
+        { "en": "Badminton", "hi": "बैडमिंटन", "mr": "बॅडमिंटन" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "The Thomas Cup is the world team championship for men's badminton. India won it for the first time in 2022.",
+        "hi": "थॉमस कप पुरुष बैडमिंटन की विश्व टीम चैंपियनशिप है। भारत ने पहली बार 2022 में यह खिताब जीता।",
+        "mr": "थॉमस चषक ही पुरुष बॅडमिंटनची जागतिक सांघिक स्पर्धा आहे. भारताने 2022 मध्ये प्रथमच हे विजेतेपद जिंकले."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Tennis has the Davis Cup for men's teams, not the Thomas Cup.",
+          "hi": "टेनिस में पुरुष टीमों के लिए डेविस कप होता है, थॉमस कप नहीं।",
+          "mr": "टेनिसमध्ये पुरुष संघांसाठी डेव्हिस चषक असतो, थॉमस चषक नाही."
+        },
+        "1": {
+          "en": "The major world event in hockey is the Hockey World Cup, not the Thomas Cup.",
+          "hi": "हॉकी की प्रमुख विश्व प्रतियोगिता हॉकी विश्व कप है, थॉमस कप नहीं।",
+          "mr": "हॉकीची प्रमुख जागतिक स्पर्धा हॉकी विश्वचषक आहे, थॉमस चषक नाही."
+        },
+        "2": {
+          "en": "Table tennis has its own team trophies, such as the Swaythling Cup, not the Thomas Cup.",
+          "hi": "टेबल टेनिस की अपनी टीम ट्रॉफ़ियाँ हैं, जैसे स्वाइथलिंग कप, थॉमस कप नहीं।",
+          "mr": "टेबल टेनिसच्या स्वतःच्या सांघिक ट्रॉफी आहेत, जसे की स्वायथलिंग चषक, थॉमस चषक नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-gk-17",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Pongal, a four-day harvest festival celebrated in January, is mainly associated with which state?",
+        "hi": "जनवरी में मनाया जाने वाला चार दिवसीय फसल उत्सव पोंगल मुख्य रूप से किस राज्य से जुड़ा है?",
+        "mr": "जानेवारीत साजरा होणारा चार दिवसांचा पीक-कापणीचा सण पोंगल प्रामुख्याने कोणत्या राज्याशी जोडलेला आहे?"
+      },
+      "optionsJson": [
+        { "en": "Punjab", "hi": "पंजाब", "mr": "पंजाब" },
+        { "en": "Tamil Nadu", "hi": "तमिलनाडु", "mr": "तमिळनाडू" },
+        { "en": "Gujarat", "hi": "गुजरात", "mr": "गुजरात" },
+        { "en": "Assam", "hi": "असम", "mr": "आसाम" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Pongal is the main harvest festival of Tamil Nadu, in which people thank the Sun and cattle for a good harvest.",
+        "hi": "पोंगल तमिलनाडु का प्रमुख फसल उत्सव है, जिसमें लोग अच्छी फसल के लिए सूर्य और पशुओं के प्रति आभार प्रकट करते हैं।",
+        "mr": "पोंगल हा तमिळनाडूचा प्रमुख पीक-कापणीचा सण आहे, ज्यात लोक चांगल्या पिकासाठी सूर्य आणि गुरांचे आभार मानतात."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Punjab celebrates the harvest with Lohri and Baisakhi.",
+          "hi": "पंजाब में फसल का उत्सव लोहड़ी और बैसाखी के रूप में मनाया जाता है।",
+          "mr": "पंजाबमध्ये पीक-कापणीचा आनंद लोहरी आणि बैसाखी म्हणून साजरा केला जातो."
+        },
+        "2": {
+          "en": "Gujarat celebrates Uttarayan, the kite festival, in January.",
+          "hi": "गुजरात में जनवरी में उत्तरायण (पतंग उत्सव) मनाया जाता है।",
+          "mr": "गुजरातमध्ये जानेवारीत उत्तरायण (पतंग महोत्सव) साजरा केला जातो."
+        },
+        "3": {
+          "en": "Assam celebrates its harvest festival as Bihu.",
+          "hi": "असम अपना फसल उत्सव बिहू के रूप में मनाता है।",
+          "mr": "आसाम आपला पीक-कापणीचा सण बिहू म्हणून साजरा करतो."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-gk-18",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "After seeing the terrible destruction caused by which war did Emperor Ashoka give up fighting and follow the path of Buddhism?",
+        "hi": "किस युद्ध की भयानक तबाही देखकर सम्राट अशोक ने युद्ध छोड़ दिया और बौद्ध धर्म का मार्ग अपना लिया?",
+        "mr": "कोणत्या युद्धाचा भयंकर विनाश पाहून सम्राट अशोकाने युद्ध सोडून दिले आणि बौद्ध धर्माचा मार्ग स्वीकारला?"
+      },
+      "optionsJson": [
+        { "en": "The Kalinga War", "hi": "कलिंग युद्ध", "mr": "कलिंग युद्ध" },
+        { "en": "The Battle of Panipat", "hi": "पानीपत का युद्ध", "mr": "पानिपतची लढाई" },
+        { "en": "The Battle of Plassey", "hi": "प्लासी का युद्ध", "mr": "प्लासीची लढाई" },
+        { "en": "The Battle of Haldighati", "hi": "हल्दीघाटी का युद्ध", "mr": "हळदीघाटीची लढाई" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Ashoka won the Kalinga War (about 261 BCE), but the huge loss of life made him give up violence and spread Buddhism's message of peace.",
+        "hi": "अशोक ने कलिंग युद्ध (लगभग 261 ईसा पूर्व) जीता, पर भारी जनहानि से उन्होंने हिंसा त्याग दी और बौद्ध धर्म के शांति संदेश का प्रसार किया।",
+        "mr": "अशोकाने कलिंग युद्ध (सुमारे 261 इसवी सनपूर्व) जिंकले, पण प्रचंड जीवितहानी पाहून त्याने हिंसा सोडली आणि बौद्ध धर्माच्या शांततेच्या संदेशाचा प्रसार केला."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "The Battles of Panipat were fought in medieval times, many centuries after Ashoka.",
+          "hi": "पानीपत की लड़ाइयाँ मध्यकाल में लड़ी गईं, अशोक के कई सदियों बाद।",
+          "mr": "पानिपतच्या लढाया मध्ययुगात झाल्या, अशोकानंतर अनेक शतकांनी."
+        },
+        "2": {
+          "en": "The Battle of Plassey (1757) took place about two thousand years after Ashoka.",
+          "hi": "प्लासी की लड़ाई (1757) अशोक के लगभग दो हज़ार वर्ष बाद हुई।",
+          "mr": "प्लासीची लढाई (1757) अशोकानंतर सुमारे दोन हजार वर्षांनी झाली."
+        },
+        "3": {
+          "en": "Haldighati (1576) was fought between Maharana Pratap and Akbar's forces, far later than Ashoka.",
+          "hi": "हल्दीघाटी (1576) महाराणा प्रताप और अकबर की सेना के बीच लड़ा गया, अशोक से बहुत बाद।",
+          "mr": "हळदीघाटी (1576) महाराणा प्रताप आणि अकबराच्या सैन्यात लढले गेले, अशोकानंतर खूप काळाने."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-gk-19",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "On a hot day, tiny drops of water form on the outside of a glass of cold water. Water vapour in the air undergoes which process to cause this?",
+        "hi": "गर्म दिन में ठंडे पानी के गिलास की बाहरी सतह पर पानी की छोटी बूँदें बन जाती हैं। ऐसा हवा की जलवाष्प के किस प्रक्रम से होता है?",
+        "mr": "उष्ण दिवशी थंड पाण्याच्या ग्लासच्या बाहेरील बाजूस पाण्याचे लहान थेंब जमा होतात. हवेतील बाष्पावर कोणती प्रक्रिया घडल्यामुळे असे होते?"
+      },
+      "optionsJson": [
+        { "en": "Evaporation", "hi": "वाष्पीकरण", "mr": "बाष्पीभवन" },
+        { "en": "Freezing", "hi": "जमना", "mr": "गोठणे" },
+        { "en": "Condensation", "hi": "संघनन", "mr": "संघनन" },
+        { "en": "Melting", "hi": "पिघलना", "mr": "वितळणे" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Water vapour touching the cold glass loses heat and changes into liquid water. This change from gas to liquid is condensation.",
+        "hi": "जलवाष्प ठंडे गिलास को छूकर ऊष्मा खो देती है और द्रव जल में बदल जाती है। गैस से द्रव में यह परिवर्तन संघनन है।",
+        "mr": "बाष्प थंड ग्लासच्या संपर्कात येऊन उष्णता गमावते आणि द्रव पाण्यात बदलते. वायूचे द्रवात होणारे हे रूपांतर म्हणजे संघनन."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Evaporation is liquid turning into vapour, which is the opposite change.",
+          "hi": "वाष्पीकरण में द्रव वाष्प बनता है, जो इसके विपरीत परिवर्तन है।",
+          "mr": "बाष्पीभवनात द्रव बाष्प बनते, जे याच्या उलट बदल आहे."
+        },
+        "1": {
+          "en": "Freezing is liquid turning into solid ice, which does not happen on the outside of the glass.",
+          "hi": "जमने में द्रव ठोस बर्फ़ बनता है; गिलास की बाहरी सतह पर ऐसा नहीं होता।",
+          "mr": "गोठण्यात द्रव घन बर्फ बनते; ग्लासच्या बाहेरील बाजूस असे होत नाही."
+        },
+        "3": {
+          "en": "Melting is a solid turning into liquid; the drops outside the glass come from vapour, not from a solid.",
+          "hi": "पिघलने में ठोस द्रव बनता है; गिलास के बाहर की बूँदें वाष्प से बनती हैं, ठोस से नहीं।",
+          "mr": "वितळण्यात घन पदार्थ द्रव बनतो; ग्लासच्या बाहेरील थेंब बाष्पापासून तयार होतात, घन पदार्थापासून नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-gk-20",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Project Tiger, a conservation programme to protect tigers and their habitat, was launched in India in which year?",
+        "hi": "बाघों और उनके आवास की रक्षा के लिए संरक्षण कार्यक्रम 'प्रोजेक्ट टाइगर' भारत में किस वर्ष शुरू किया गया था?",
+        "mr": "वाघ आणि त्यांच्या अधिवासाचे रक्षण करणारा संवर्धन कार्यक्रम 'प्रोजेक्ट टायगर' भारतात कोणत्या वर्षी सुरू झाला?"
+      },
+      "optionsJson": [
+        { "en": "1952", "hi": "1952", "mr": "1952" },
+        { "en": "1961", "hi": "1961", "mr": "1961" },
+        { "en": "1968", "hi": "1968", "mr": "1968" },
+        { "en": "1973", "hi": "1973", "mr": "1973" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Project Tiger was launched in 1973, beginning with nine tiger reserves, including Jim Corbett National Park.",
+        "hi": "प्रोजेक्ट टाइगर 1973 में शुरू हुआ, जिसकी शुरुआत जिम कॉर्बेट राष्ट्रीय उद्यान सहित नौ बाघ अभयारण्यों से हुई।",
+        "mr": "प्रोजेक्ट टायगर 1973 मध्ये सुरू झाला, ज्याची सुरुवात जिम कॉर्बेट राष्ट्रीय उद्यानासह नऊ व्याघ्र प्रकल्पांनी झाली."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "1952 is too early; Project Tiger began more than two decades later.",
+          "hi": "1952 बहुत जल्दी है; प्रोजेक्ट टाइगर दो दशक से भी अधिक बाद शुरू हुआ।",
+          "mr": "1952 हे वर्ष खूप आधीचे आहे; प्रोजेक्ट टायगर दोन दशकांहून अधिक काळानंतर सुरू झाला."
+        },
+        "1": {
+          "en": "1961 is too early; the project began 12 years later.",
+          "hi": "1961 बहुत पहले है; परियोजना 12 वर्ष बाद शुरू हुई।",
+          "mr": "1961 हे वर्ष खूप आधीचे आहे; प्रकल्प 12 वर्षांनंतर सुरू झाला."
+        },
+        "2": {
+          "en": "1968 is five years too early; Project Tiger started in 1973.",
+          "hi": "1968 पाँच वर्ष पहले है; प्रोजेक्ट टाइगर 1973 में शुरू हुआ।",
+          "mr": "1968 हे पाच वर्षे आधीचे आहे; प्रोजेक्ट टायगर 1973 मध्ये सुरू झाला."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-gk-21",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "In 2023, India's Chandrayaan-3 lander made a soft landing on the Moon near which region?",
+        "hi": "2023 में भारत के चंद्रयान-3 के लैंडर ने चंद्रमा के किस क्षेत्र के पास सॉफ़्ट लैंडिंग की?",
+        "mr": "2023 मध्ये भारताच्या चंद्रयान-3 लँडरने चंद्रावर कोणत्या प्रदेशाजवळ सॉफ्ट लँडिंग केले?"
+      },
+      "optionsJson": [
+        { "en": "The Moon's south polar region", "hi": "चंद्रमा का दक्षिणी ध्रुवीय क्षेत्र", "mr": "चंद्राचा दक्षिण ध्रुवीय प्रदेश" },
+        { "en": "The Moon's north polar region", "hi": "चंद्रमा का उत्तरी ध्रुवीय क्षेत्र", "mr": "चंद्राचा उत्तर ध्रुवीय प्रदेश" },
+        { "en": "The Moon's equatorial region", "hi": "चंद्रमा का विषुवतीय क्षेत्र", "mr": "चंद्राचा विषुववृत्तीय प्रदेश" },
+        { "en": "The middle of the Moon's far side", "hi": "चंद्रमा के दूर वाले भाग का मध्य", "mr": "चंद्राच्या दूरच्या बाजूचा मध्यभाग" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "On 23 August 2023 Chandrayaan-3 landed near the Moon's south pole, making India the first country to land there. The region is important because it may hold water ice.",
+        "hi": "23 अगस्त 2023 को चंद्रयान-3 चंद्रमा के दक्षिणी ध्रुव के पास उतरा, जिससे भारत वहाँ उतरने वाला पहला देश बना। यह क्षेत्र इसलिए महत्वपूर्ण है क्योंकि वहाँ जल-बर्फ़ हो सकती है।",
+        "mr": "23 ऑगस्ट 2023 रोजी चंद्रयान-3 चंद्राच्या दक्षिण ध्रुवाजवळ उतरले, त्यामुळे भारत तिथे उतरणारा पहिला देश ठरला. हा प्रदेश महत्त्वाचा आहे कारण तिथे बर्फाच्या स्वरूपातील पाणी असू शकते."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Chandrayaan-3 did not go to the north polar region; it targeted the south.",
+          "hi": "चंद्रयान-3 उत्तरी ध्रुवीय क्षेत्र में नहीं गया; उसका लक्ष्य दक्षिणी क्षेत्र था।",
+          "mr": "चंद्रयान-3 उत्तर ध्रुवीय प्रदेशात गेले नाही; त्याचे लक्ष्य दक्षिण प्रदेश होते."
+        },
+        "2": {
+          "en": "The landing site was far from the equator, close to the south pole at about 69 degrees south.",
+          "hi": "उतरने का स्थान विषुवतीय क्षेत्र से बहुत दूर, दक्षिणी ध्रुव के पास (लगभग 69 अंश दक्षिण) था।",
+          "mr": "उतरण्याचे ठिकाण विषुववृत्तीय प्रदेशापासून खूप दूर, दक्षिण ध्रुवाजवळ (सुमारे 69 अंश दक्षिण) होते."
+        },
+        "3": {
+          "en": "The lander touched down on the side of the Moon that faces Earth, not on the far side.",
+          "hi": "लैंडर चंद्रमा के उस भाग पर उतरा जो पृथ्वी की ओर रहता है, दूर वाले भाग पर नहीं।",
+          "mr": "लँडर चंद्राच्या पृथ्वीकडे असलेल्या बाजूवर उतरले, दूरच्या बाजूवर नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-gk-22",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "In which year did India launch its Mars Orbiter Mission, Mangalyaan?",
+        "hi": "भारत ने अपना मंगल कक्षित्र मिशन (मंगलयान) किस वर्ष प्रक्षेपित किया?",
+        "mr": "भारताने आपली मंगळ कक्षीय मोहीम (मंगळयान) कोणत्या वर्षी प्रक्षेपित केली?"
+      },
+      "optionsJson": [
+        { "en": "2008", "hi": "2008", "mr": "2008" },
+        { "en": "2013", "hi": "2013", "mr": "2013" },
+        { "en": "2016", "hi": "2016", "mr": "2016" },
+        { "en": "2019", "hi": "2019", "mr": "2019" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "ISRO launched Mangalyaan on 5 November 2013 and it entered Mars orbit in September 2014, making India the first country to do so on its first attempt.",
+        "hi": "ISRO ने मंगलयान 5 नवंबर 2013 को प्रक्षेपित किया और यह सितंबर 2014 में मंगल की कक्षा में पहुँचा, जिससे भारत पहले ही प्रयास में ऐसा करने वाला पहला देश बना।",
+        "mr": "ISRO ने मंगळयान 5 नोव्हेंबर 2013 रोजी प्रक्षेपित केले आणि ते सप्टेंबर 2014 मध्ये मंगळाच्या कक्षेत पोहोचले, त्यामुळे भारत पहिल्याच प्रयत्नात असे करणारा पहिला देश ठरला."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "2008 is the year Chandrayaan-1, India's first Moon mission, was launched.",
+          "hi": "2008 में चंद्रयान-1, भारत का पहला चंद्र मिशन, प्रक्षेपित हुआ था।",
+          "mr": "2008 मध्ये चंद्रयान-1, भारताची पहिली चंद्र मोहीम, प्रक्षेपित झाली."
+        },
+        "2": {
+          "en": "2016 is too late; Mangalyaan was already orbiting Mars by 2014.",
+          "hi": "2016 बहुत देर से है; 2014 तक मंगलयान मंगल की कक्षा में पहुँच चुका था।",
+          "mr": "2016 खूप उशीर आहे; 2014 पर्यंत मंगळयान मंगळाच्या कक्षेत पोहोचले होते."
+        },
+        "3": {
+          "en": "2019 is the year of Chandrayaan-2's launch, not Mangalyaan's.",
+          "hi": "2019 चंद्रयान-2 के प्रक्षेपण का वर्ष है, मंगलयान का नहीं।",
+          "mr": "2019 हे चंद्रयान-2 च्या प्रक्षेपणाचे वर्ष आहे, मंगळयानाचे नव्हे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-gk-23",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "The Goods and Services Tax (GST), introduced in India in 2017, is a tax on which of the following?",
+        "hi": "2017 में भारत में लागू किया गया वस्तु एवं सेवा कर (GST) निम्नलिखित में से किस पर लगने वाला कर है?",
+        "mr": "2017 मध्ये भारतात लागू झालेला वस्तू आणि सेवा कर (GST) खालीलपैकी कशावर आकारला जाणारा कर आहे?"
+      },
+      "optionsJson": [
+        { "en": "Salary earned by a worker", "hi": "किसी कर्मचारी द्वारा कमाया गया वेतन", "mr": "कामगाराने कमावलेला पगार" },
+        { "en": "Land owned by a farmer", "hi": "किसान के स्वामित्व वाली ज़मीन", "mr": "शेतकऱ्याच्या मालकीची जमीन" },
+        { "en": "The supply of goods and services", "hi": "वस्तुओं और सेवाओं की आपूर्ति", "mr": "वस्तू आणि सेवांचा पुरवठा" },
+        { "en": "Gifts given between relatives", "hi": "रिश्तेदारों के बीच दिए गए उपहार", "mr": "नातेवाईकांमध्ये दिलेल्या भेटवस्तू" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "GST is charged on the sale or supply of goods and services. It replaced many earlier indirect taxes with one tax system for the whole country.",
+        "hi": "GST वस्तुओं और सेवाओं की बिक्री या आपूर्ति पर लगता है। इसने पहले के कई अप्रत्यक्ष करों की जगह पूरे देश के लिए एक कर व्यवस्था बनाई।",
+        "mr": "GST वस्तू आणि सेवांच्या विक्रीवर किंवा पुरवठ्यावर आकारला जातो. त्याने पूर्वीच्या अनेक अप्रत्यक्ष करांच्या जागी संपूर्ण देशासाठी एकच कर प्रणाली दिली."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "A tax on salary is income tax, not GST.",
+          "hi": "वेतन पर लगने वाला कर आयकर है, GST नहीं।",
+          "mr": "पगारावर आकारला जाणारा कर आयकर आहे, GST नव्हे."
+        },
+        "1": {
+          "en": "Taxes linked to owning land and property are property taxes, not GST.",
+          "hi": "ज़मीन और संपत्ति के स्वामित्व से जुड़े कर संपत्ति कर कहलाते हैं, GST नहीं।",
+          "mr": "जमीन आणि मालमत्तेच्या मालकीशी संबंधित करांना मालमत्ता कर म्हणतात, GST नव्हे."
+        },
+        "3": {
+          "en": "Gifts between relatives are not a business sale, so GST is not charged on them.",
+          "hi": "रिश्तेदारों के बीच उपहार कोई व्यावसायिक बिक्री नहीं हैं, इसलिए उन पर GST नहीं लगता।",
+          "mr": "नातेवाईकांमधील भेटवस्तू ही व्यावसायिक विक्री नाही, म्हणून त्यांवर GST आकारला जात नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-gk-24",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Dholavira, a famous city of the Indus Valley (Harappan) Civilisation known for its advanced water-storage system, is located in which Indian state?",
+        "hi": "सिंधु घाटी (हड़प्पा) सभ्यता का प्रसिद्ध नगर धौलावीरा, जो अपनी उन्नत जल-संग्रहण प्रणाली के लिए जाना जाता है, भारत के किस राज्य में स्थित है?",
+        "mr": "सिंधू (हडप्पा) संस्कृतीचे प्रसिद्ध नगर धोलावीरा, जे आपल्या प्रगत जलसंधारण प्रणालीसाठी ओळखले जाते, भारताच्या कोणत्या राज्यात आहे?"
+      },
+      "optionsJson": [
+        { "en": "Punjab", "hi": "पंजाब", "mr": "पंजाब" },
+        { "en": "Rajasthan", "hi": "राजस्थान", "mr": "राजस्थान" },
+        { "en": "Haryana", "hi": "हरियाणा", "mr": "हरियाणा" },
+        { "en": "Gujarat", "hi": "गुजरात", "mr": "गुजरात" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Dholavira lies on Khadir island in the Rann of Kutch in Gujarat. It became a UNESCO World Heritage Site in 2021.",
+        "hi": "धौलावीरा गुजरात के कच्छ के रण में खादिर द्वीप पर स्थित है। यह 2021 में यूनेस्को विश्व धरोहर स्थल बना।",
+        "mr": "धोलावीरा गुजरातमधील कच्छच्या रणात खादीर बेटावर आहे. ते 2021 मध्ये युनेस्कोचे जागतिक वारसा स्थळ बनले."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Punjab has Harappan sites such as Ropar, but Dholavira is not there.",
+          "hi": "पंजाब में रोपड़ जैसे हड़प्पा स्थल हैं, पर धौलावीरा वहाँ नहीं है।",
+          "mr": "पंजाबमध्ये रोपरसारखी हडप्पा स्थळे आहेत, पण धोलावीरा तिथे नाही."
+        },
+        "1": {
+          "en": "Rajasthan has the Harappan site of Kalibangan, not Dholavira.",
+          "hi": "राजस्थान में हड़प्पा स्थल कालीबंगा है, धौलावीरा नहीं।",
+          "mr": "राजस्थानमध्ये हडप्पा स्थळ कालीबंगन आहे, धोलावीरा नाही."
+        },
+        "2": {
+          "en": "Haryana has Rakhigarhi and Banawali, not Dholavira.",
+          "hi": "हरियाणा में राखीगढ़ी और बनावली हैं, धौलावीरा नहीं।",
+          "mr": "हरियाणामध्ये राखीगढी आणि बनावली आहेत, धोलावीरा नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-gk-25",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Where is the headquarters of the United Nations located?",
+        "hi": "संयुक्त राष्ट्र का मुख्यालय कहाँ स्थित है?",
+        "mr": "संयुक्त राष्ट्रांचे मुख्यालय कुठे आहे?"
+      },
+      "optionsJson": [
+        { "en": "New York", "hi": "न्यूयॉर्क", "mr": "न्यू यॉर्क" },
+        { "en": "Geneva", "hi": "जिनेवा", "mr": "जिनिव्हा" },
+        { "en": "Paris", "hi": "पेरिस", "mr": "पॅरिस" },
+        { "en": "London", "hi": "लंदन", "mr": "लंडन" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "The headquarters of the United Nations is in New York City, USA, on the bank of the East River.",
+        "hi": "संयुक्त राष्ट्र का मुख्यालय अमेरिका के न्यूयॉर्क शहर में ईस्ट रिवर के किनारे है।",
+        "mr": "संयुक्त राष्ट्रांचे मुख्यालय अमेरिकेतील न्यू यॉर्क शहरात ईस्ट रिव्हरच्या काठावर आहे."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Geneva hosts a major UN office and many agencies, but it is not the headquarters.",
+          "hi": "जिनेवा में संयुक्त राष्ट्र का एक बड़ा कार्यालय और कई एजेंसियाँ हैं, पर यह मुख्यालय नहीं है।",
+          "mr": "जिनिव्हामध्ये संयुक्त राष्ट्रांचे मोठे कार्यालय आणि अनेक संस्था आहेत, पण ते मुख्यालय नाही."
+        },
+        "2": {
+          "en": "Paris is home to the headquarters of UNESCO, not of the main United Nations.",
+          "hi": "पेरिस में यूनेस्को का मुख्यालय है, संयुक्त राष्ट्र का मुख्य मुख्यालय नहीं।",
+          "mr": "पॅरिसमध्ये युनेस्कोचे मुख्यालय आहे, संयुक्त राष्ट्रांचे मुख्य मुख्यालय नाही."
+        },
+        "3": {
+          "en": "London hosted the first session of the UN General Assembly in 1946, but it is not the headquarters.",
+          "hi": "लंदन में 1946 में संयुक्त राष्ट्र महासभा का पहला सत्र हुआ था, पर यह मुख्यालय नहीं है।",
+          "mr": "लंडनमध्ये 1946 मध्ये संयुक्त राष्ट्र महासभेचे पहिले अधिवेशन झाले होते, पण ते मुख्यालय नाही."
+        }
+      }
+    }
+  ]
+}

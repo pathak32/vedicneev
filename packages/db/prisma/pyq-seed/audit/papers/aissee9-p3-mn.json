@@ -1,0 +1,484 @@
+{
+  "examType": "AISSEE",
+  "classLevel": 9,
+  "paperNumber": 3,
+  "sectionKey": "mental_ability",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "aissee9-p3-mn-01",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Find the next term: 5, 11, 17, 23, 29, ___?", "hi": "अगला पद ज्ञात करें: 5, 11, 17, 23, 29, ___?" },
+      "optionsJson": [
+        { "en": "34", "hi": "34" },
+        { "en": "36", "hi": "36" },
+        { "en": "35", "hi": "35" },
+        { "en": "33", "hi": "33" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Each term is 6 more than the previous term: 5+6=11, 11+6=17, 17+6=23, 23+6=29, so the next term is 29+6=35.", "hi": "प्रत्येक पद पिछले पद से 6 अधिक है: 5+6=11, 11+6=17, 17+6=23, 23+6=29, इसलिए अगला पद 29+6=35 है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Adds 5 to the last term instead of the common difference 6.", "hi": "सार्व अंतर 6 के बजाय अंतिम पद में 5 जोड़ दिया।" },
+        "1": { "en": "Adds 7 to the last term instead of the common difference 6.", "hi": "सार्व अंतर 6 के बजाय अंतिम पद में 7 जोड़ दिया।" },
+        "3": { "en": "Adds 4 to the last term instead of the common difference 6.", "hi": "सार्व अंतर 6 के बजाय अंतिम पद में 4 जोड़ दिया।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mn-02",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the next term: 3, 8, 18, 38, 78, ___?", "hi": "अगला पद ज्ञात करें: 3, 8, 18, 38, 78, ___?" },
+      "optionsJson": [
+        { "en": "158", "hi": "158" },
+        { "en": "156", "hi": "156" },
+        { "en": "160", "hi": "160" },
+        { "en": "154", "hi": "154" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Each term is twice the previous term plus 2: 3×2+2=8, 8×2+2=18, 18×2+2=38, 38×2+2=78, so the next term is 78×2+2=158.", "hi": "प्रत्येक पद पिछले पद के दोगुने में 2 जोड़ने पर मिलता है: 3×2+2=8, 8×2+2=18, 18×2+2=38, 38×2+2=78, इसलिए अगला पद 78×2+2=158 है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Only doubles 78 and forgets to add 2 at the end.", "hi": "केवल 78 को दोगुना किया और अंत में 2 जोड़ना भूल गए।" },
+        "2": { "en": "Applies the operations in the wrong order: (78+2)×2 instead of 78×2+2.", "hi": "संक्रियाओं का क्रम उलट दिया: 78×2+2 के बजाय (78+2)×2।" },
+        "3": { "en": "Subtracts 2 after doubling instead of adding 2.", "hi": "दोगुना करने के बाद 2 जोड़ने के बजाय 2 घटा दिया।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mn-03",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Choose the word that completes the analogy: Needle : Sew :: Knife : ___?", "hi": "सादृश्य को पूरा करने वाला शब्द चुनें: सुई : सिलना :: चाकू : ___?" },
+      "optionsJson": [
+        { "en": "Sharp", "hi": "तेज़" },
+        { "en": "Kitchen", "hi": "रसोई" },
+        { "en": "Fork", "hi": "काँटा" },
+        { "en": "Cut", "hi": "काटना" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "A needle is the tool used to sew. In the same way, a knife is the tool used to cut.", "hi": "सुई का उपयोग सिलने के लिए होता है। उसी प्रकार चाकू का उपयोग काटने के लिए होता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Describes a property of a knife, not the work it does.", "hi": "यह चाकू का गुण बताता है, उसका कार्य नहीं।" },
+        "1": { "en": "Names a place where a knife may be used, not its function.", "hi": "यह उस स्थान का नाम है जहाँ चाकू काम आ सकता है, उसका कार्य नहीं।" },
+        "2": { "en": "Another piece of cutlery, not the function of a knife.", "hi": "यह एक अन्य बर्तन/उपकरण है, चाकू का कार्य नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mn-04",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the missing number: 6 : 35 :: 9 : ___?", "hi": "लुप्त संख्या ज्ञात करें: 6 : 35 :: 9 : ___?" },
+      "optionsJson": [
+        { "en": "81", "hi": "81" },
+        { "en": "80", "hi": "80" },
+        { "en": "72", "hi": "72" },
+        { "en": "90", "hi": "90" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The second number is one less than the square of the first: 6²−1=35. So for 9, the answer is 9²−1=81−1=80.", "hi": "दूसरी संख्या पहली संख्या के वर्ग से 1 कम है: 6²−1=35। अतः 9 के लिए उत्तर 9²−1=81−1=80 है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Gives 9² but forgets to subtract 1.", "hi": "9² निकाला पर 1 घटाना भूल गए।" },
+        "2": { "en": "Uses 9×8, but the same rule would give 6×5=30, not 35.", "hi": "9×8 लिया, पर इसी नियम से 6×5=30 आता, 35 नहीं।" },
+        "3": { "en": "Uses 9×10, but the same rule would give 6×7=42, not 35.", "hi": "9×10 लिया, पर इसी नियम से 6×7=42 आता, 35 नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mn-05",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Find the odd one out: Mango, Banana, Potato, Guava", "hi": "असंगत चुनें: आम, केला, आलू, अमरूद" },
+      "optionsJson": [
+        { "en": "Mango", "hi": "आम" },
+        { "en": "Banana", "hi": "केला" },
+        { "en": "Potato", "hi": "आलू" },
+        { "en": "Guava", "hi": "अमरूद" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Mango, banana and guava are fruits, whereas potato is a vegetable (an underground tuber).", "hi": "आम, केला और अमरूद फल हैं, जबकि आलू एक सब्ज़ी (भूमिगत कंद) है।" },
+      "distractorAnalysis": {
+        "0": { "en": "A fruit, so it belongs to the majority group.", "hi": "यह एक फल है, इसलिए बहुसंख्यक समूह का भाग है।" },
+        "1": { "en": "A fruit, so it belongs to the majority group.", "hi": "यह एक फल है, इसलिए बहुसंख्यक समूह का भाग है।" },
+        "3": { "en": "A fruit, so it belongs to the majority group.", "hi": "यह एक फल है, इसलिए बहुसंख्यक समूह का भाग है।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mn-06",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Find the odd one out: 441, 169, 289, 361", "hi": "असंगत संख्या चुनें: 441, 169, 289, 361" },
+      "optionsJson": [
+        { "en": "441", "hi": "441" },
+        { "en": "169", "hi": "169" },
+        { "en": "289", "hi": "289" },
+        { "en": "361", "hi": "361" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "169=13², 289=17² and 361=19² are squares of prime numbers. 441=21², but 21=3×7 is not prime.", "hi": "169=13², 289=17² और 361=19² अभाज्य संख्याओं के वर्ग हैं। 441=21² है, पर 21=3×7 अभाज्य नहीं है।" },
+      "distractorAnalysis": {
+        "1": { "en": "This is 13², the square of the prime 13, so it fits the group.", "hi": "यह 13² है, अभाज्य संख्या 13 का वर्ग, अतः समूह में सही बैठता है।" },
+        "2": { "en": "This is 17², the square of the prime 17, so it fits the group.", "hi": "यह 17² है, अभाज्य संख्या 17 का वर्ग, अतः समूह में सही बैठता है।" },
+        "3": { "en": "This is 19², the square of the prime 19, so it fits the group.", "hi": "यह 19² है, अभाज्य संख्या 19 का वर्ग, अतः समूह में सही बैठता है।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mn-07",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the next letter in the series: B, E, H, K, N, ___?", "hi": "श्रृंखला में अगला अक्षर ज्ञात करें: B, E, H, K, N, ___?" },
+      "optionsJson": [
+        { "en": "P", "hi": "P" },
+        { "en": "R", "hi": "R" },
+        { "en": "O", "hi": "O" },
+        { "en": "Q", "hi": "Q" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Each letter is 3 places after the previous one: B(2), E(5), H(8), K(11), N(14), so the next is the 17th letter, Q.", "hi": "प्रत्येक अक्षर पिछले अक्षर से 3 स्थान आगे है: B(2), E(5), H(8), K(11), N(14), इसलिए अगला 17वाँ अक्षर Q है।" },
+      "distractorAnalysis": {
+        "0": { "en": "P is only 2 places after N; the gap must be 3.", "hi": "P, N से केवल 2 स्थान आगे है; अंतर 3 होना चाहिए।" },
+        "1": { "en": "R is 4 places after N; the gap must be 3.", "hi": "R, N से 4 स्थान आगे है; अंतर 3 होना चाहिए।" },
+        "2": { "en": "O is only 1 place after N; the gap must be 3.", "hi": "O, N से केवल 1 स्थान आगे है; अंतर 3 होना चाहिए।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mn-08",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Find the next term: 1, 2, 6, 15, 31, ___?", "hi": "अगला पद ज्ञात करें: 1, 2, 6, 15, 31, ___?" },
+      "optionsJson": [
+        { "en": "46", "hi": "46" },
+        { "en": "56", "hi": "56" },
+        { "en": "62", "hi": "62" },
+        { "en": "50", "hi": "50" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The differences between consecutive terms are 1, 4, 9, 16, i.e. 1², 2², 3², 4². The next difference is 5²=25, so the next term is 31+25=56.", "hi": "क्रमागत पदों के बीच अंतर 1, 4, 9, 16 हैं, अर्थात 1², 2², 3², 4²। अगला अंतर 5²=25 है, इसलिए अगला पद 31+25=56 है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Adds 15 to the last term without following the pattern of differences (squares of natural numbers).", "hi": "अंतरों के क्रम (प्राकृत संख्याओं के वर्ग) का पालन किए बिना अंतिम पद में 15 जोड़ दिया।" },
+        "2": { "en": "Doubles the last term, but doubling does not fit earlier terms (15×2=30, not 31).", "hi": "अंतिम पद को दोगुना किया, पर यह पहले के पदों पर लागू नहीं होता (15×2=30, 31 नहीं)।" },
+        "3": { "en": "Adds 19, which is not a perfect square; the next difference must be 5²=25.", "hi": "19 जोड़ा, जो पूर्ण वर्ग नहीं है; अगला अंतर 5²=25 होना चाहिए।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mn-09",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Find the missing group of letters: CAT : DBU :: DOG : ___?", "hi": "लुप्त अक्षर-समूह ज्ञात करें: CAT : DBU :: DOG : ___?" },
+      "optionsJson": [
+        { "en": "EPG", "hi": "EPG" },
+        { "en": "DPH", "hi": "DPH" },
+        { "en": "EPH", "hi": "EPH" },
+        { "en": "FPI", "hi": "FPI" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Each letter of CAT is moved one place forward: C→D, A→B, T→U. Applying this to DOG gives D→E, O→P, G→H, i.e. EPH.", "hi": "CAT के प्रत्येक अक्षर को एक स्थान आगे बढ़ाया गया है: C→D, A→B, T→U। इसे DOG पर लगाने से D→E, O→P, G→H मिलता है, अर्थात EPH।" },
+      "distractorAnalysis": {
+        "0": { "en": "The last letter G has not been moved forward to H.", "hi": "अंतिम अक्षर G को आगे बढ़ाकर H नहीं किया गया।" },
+        "1": { "en": "The first letter D has not been moved forward to E.", "hi": "पहले अक्षर D को आगे बढ़ाकर E नहीं किया गया।" },
+        "3": { "en": "Moves the first and last letters by two places instead of one.", "hi": "पहले और अंतिम अक्षर को एक के बजाय दो स्थान आगे बढ़ा दिया।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mn-10",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Choose the word that completes the analogy: Kilogram : Mass :: Kelvin : ___?", "hi": "सादृश्य को पूरा करने वाला शब्द चुनें: किलोग्राम : द्रव्यमान :: केल्विन : ___?" },
+      "optionsJson": [
+        { "en": "Temperature", "hi": "तापमान" },
+        { "en": "Length", "hi": "लंबाई" },
+        { "en": "Time", "hi": "समय" },
+        { "en": "Heat", "hi": "ऊष्मा" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The kilogram is the SI unit of mass. In the same way, the kelvin is the SI unit of temperature.", "hi": "किलोग्राम द्रव्यमान की SI इकाई है। उसी प्रकार केल्विन तापमान की SI इकाई है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Length is measured in metres, not kelvin.", "hi": "लंबाई मीटर में मापी जाती है, केल्विन में नहीं।" },
+        "2": { "en": "Time is measured in seconds, not kelvin.", "hi": "समय सेकंड में मापा जाता है, केल्विन में नहीं।" },
+        "3": { "en": "Heat (energy) is measured in joules; kelvin measures temperature, not heat.", "hi": "ऊष्मा (ऊर्जा) जूल में मापी जाती है; केल्विन तापमान मापता है, ऊष्मा नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mn-11",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the odd one out: Whale, Dolphin, Seal, Shark", "hi": "असंगत चुनें: व्हेल, डॉल्फ़िन, सील, शार्क" },
+      "optionsJson": [
+        { "en": "Whale", "hi": "व्हेल" },
+        { "en": "Dolphin", "hi": "डॉल्फ़िन" },
+        { "en": "Seal", "hi": "सील" },
+        { "en": "Shark", "hi": "शार्क" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Whale, dolphin and seal are mammals that breathe air and feed milk to their young. A shark is a fish that breathes through gills.", "hi": "व्हेल, डॉल्फ़िन और सील स्तनधारी हैं जो वायु में साँस लेते हैं और अपने बच्चों को दूध पिलाते हैं। शार्क एक मछली है जो गलफड़ों से साँस लेती है।" },
+      "distractorAnalysis": {
+        "0": { "en": "A mammal, so it belongs to the majority group.", "hi": "यह स्तनधारी है, इसलिए बहुसंख्यक समूह का भाग है।" },
+        "1": { "en": "A mammal, so it belongs to the majority group.", "hi": "यह स्तनधारी है, इसलिए बहुसंख्यक समूह का भाग है।" },
+        "2": { "en": "A mammal, so it belongs to the majority group.", "hi": "यह स्तनधारी है, इसलिए बहुसंख्यक समूह का भाग है।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mn-12",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the next term: 2, 5, 10, 17, 26, ___?", "hi": "अगला पद ज्ञात करें: 2, 5, 10, 17, 26, ___?" },
+      "optionsJson": [
+        { "en": "36", "hi": "36" },
+        { "en": "37", "hi": "37" },
+        { "en": "38", "hi": "38" },
+        { "en": "35", "hi": "35" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Each term is one more than a perfect square: 1²+1=2, 2²+1=5, 3²+1=10, 4²+1=17, 5²+1=26, so the next is 6²+1=37.", "hi": "प्रत्येक पद किसी पूर्ण वर्ग से 1 अधिक है: 1²+1=2, 2²+1=5, 3²+1=10, 4²+1=17, 5²+1=26, इसलिए अगला पद 6²+1=37 है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Gives 6² but forgets to add 1.", "hi": "6² निकाला पर 1 जोड़ना भूल गए।" },
+        "2": { "en": "Adds 12, but the differences are 3, 5, 7, 9, so the next difference is 11, not 12.", "hi": "12 जोड़ा, पर अंतर 3, 5, 7, 9 हैं, इसलिए अगला अंतर 11 होगा, 12 नहीं।" },
+        "3": { "en": "Adds 9 again, repeating the previous difference instead of increasing it to 11.", "hi": "पिछला अंतर 9 दोहरा दिया, जबकि उसे बढ़कर 11 होना चाहिए।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mn-13",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the next term: 4, 7, 8, 11, 12, 15, ___?", "hi": "अगला पद ज्ञात करें: 4, 7, 8, 11, 12, 15, ___?" },
+      "optionsJson": [
+        { "en": "18", "hi": "18" },
+        { "en": "19", "hi": "19" },
+        { "en": "16", "hi": "16" },
+        { "en": "17", "hi": "17" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The terms alternately increase by 3 and by 1: 4+3=7, 7+1=8, 8+3=11, 11+1=12, 12+3=15, so the next step is +1, giving 16.", "hi": "पद बारी-बारी से 3 और 1 बढ़ते हैं: 4+3=7, 7+1=8, 8+3=11, 11+1=12, 12+3=15, इसलिए अगला चरण +1 है, जिससे 16 मिलता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Adds 3 again, breaking the alternation (+3, +1).", "hi": "फिर से 3 जोड़ दिया, जिससे (+3, +1) का क्रम टूट गया।" },
+        "1": { "en": "Adds 4, which is not part of the alternating +3, +1 pattern.", "hi": "4 जोड़ा, जो बारी-बारी से +3, +1 के क्रम में नहीं है।" },
+        "3": { "en": "Adds 2, which is not part of the alternating +3, +1 pattern.", "hi": "2 जोड़ा, जो बारी-बारी से +3, +1 के क्रम में नहीं है।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mn-14",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Find the missing number: 9 : 730 :: 6 : ___?", "hi": "लुप्त संख्या ज्ञात करें: 9 : 730 :: 6 : ___?" },
+      "optionsJson": [
+        { "en": "217", "hi": "217" },
+        { "en": "216", "hi": "216" },
+        { "en": "215", "hi": "215" },
+        { "en": "222", "hi": "222" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The second number is the cube of the first plus 1: 9³+1=729+1=730. So for 6, the answer is 6³+1=216+1=217.", "hi": "दूसरी संख्या पहली संख्या के घन में 1 जोड़ने पर मिलती है: 9³+1=729+1=730। अतः 6 के लिए उत्तर 6³+1=216+1=217 है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Gives 6³ but forgets to add 1.", "hi": "6³ निकाला पर 1 जोड़ना भूल गए।" },
+        "2": { "en": "Subtracts 1 from 6³ instead of adding 1.", "hi": "6³ में 1 जोड़ने के बजाय 1 घटा दिया।" },
+        "3": { "en": "Adds the number itself (6) to 6³; the rule adds 1 (9³+9 would be 738, not 730).", "hi": "6³ में संख्या स्वयं (6) जोड़ दी; नियम में 1 जुड़ता है (9³+9=738 होता, 730 नहीं)।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mn-15",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Four number pairs are given below. Three of them follow the same rule. Find the pair that does not follow the rule.", "hi": "नीचे चार संख्या-युग्म दिए गए हैं। इनमें से तीन एक ही नियम का पालन करते हैं। वह युग्म चुनें जो इस नियम का पालन नहीं करता।" },
+      "optionsJson": [
+        { "en": "3 – 12", "hi": "3 – 12" },
+        { "en": "4 – 20", "hi": "4 – 20" },
+        { "en": "5 – 30", "hi": "5 – 30" },
+        { "en": "6 – 40", "hi": "6 – 40" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "In the first three pairs the second number is n×(n+1): 3×4=12, 4×5=20, 5×6=30. For the last pair 6×7=42, not 40.", "hi": "पहले तीन युग्मों में दूसरी संख्या n×(n+1) है: 3×4=12, 4×5=20, 5×6=30। अंतिम युग्म में 6×7=42 होना चाहिए, 40 नहीं।" },
+      "distractorAnalysis": {
+        "0": { "en": "Follows the rule: 3×4=12.", "hi": "नियम का पालन करता है: 3×4=12।" },
+        "1": { "en": "Follows the rule: 4×5=20.", "hi": "नियम का पालन करता है: 4×5=20।" },
+        "2": { "en": "Follows the rule: 5×6=30.", "hi": "नियम का पालन करता है: 5×6=30।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mn-16",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "In a certain code language, TIGER is written as VKITG. How is LION written in that code?", "hi": "एक निश्चित कूट भाषा में TIGER को VKITG लिखा जाता है। उसी कूट में LION को कैसे लिखा जाएगा?" },
+      "optionsJson": [
+        { "en": "NKPQ", "hi": "NKPQ" },
+        { "en": "NKQP", "hi": "NKQP" },
+        { "en": "MJPO", "hi": "MJPO" },
+        { "en": "NJQP", "hi": "NJQP" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Each letter is moved two places forward: T→V, I→K, G→I, E→G, R→T. So L→N, I→K, O→Q, N→P, giving NKQP.", "hi": "प्रत्येक अक्षर को दो स्थान आगे बढ़ाया गया है: T→V, I→K, G→I, E→G, R→T। अतः L→N, I→K, O→Q, N→P, जिससे NKQP बनता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Moves O by only one place (P) and N by three places (Q); every letter must move exactly two places.", "hi": "O को केवल एक स्थान (P) और N को तीन स्थान (Q) आगे बढ़ाया; हर अक्षर ठीक दो स्थान आगे बढ़ना चाहिए।" },
+        "2": { "en": "Moves every letter only one place forward instead of two.", "hi": "हर अक्षर को दो के बजाय केवल एक स्थान आगे बढ़ाया।" },
+        "3": { "en": "Moves I only one place (J) instead of two (K).", "hi": "I को दो स्थान (K) के बजाय केवल एक स्थान (J) आगे बढ़ाया।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mn-17",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Pointing to a photograph, Meera said, \"He is the son of my father's only brother.\" How is the man in the photograph related to Meera?", "hi": "एक फोटो की ओर इशारा करते हुए मीरा ने कहा, \"यह मेरे पिता के इकलौते भाई का पुत्र है।\" फोटो वाला व्यक्ति मीरा का क्या लगता है?" },
+      "optionsJson": [
+        { "en": "Brother", "hi": "भाई" },
+        { "en": "Nephew", "hi": "भतीजा" },
+        { "en": "Cousin", "hi": "चचेरा भाई" },
+        { "en": "Uncle", "hi": "चाचा" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Meera's father's brother is her paternal uncle. The son of that uncle is her cousin.", "hi": "मीरा के पिता का भाई उसका चाचा है। उस चाचा का पुत्र मीरा का चचेरा भाई है।" },
+      "distractorAnalysis": {
+        "0": { "en": "He would be her brother only if he were the son of her own father.", "hi": "वह उसका सगा भाई तभी होता जब वह उसके अपने पिता का पुत्र होता।" },
+        "1": { "en": "A nephew would be the son of Meera's own brother or sister.", "hi": "भतीजा मीरा के अपने भाई या बहन का पुत्र होता है।" },
+        "3": { "en": "The uncle is the father of the man in the photograph, not the man himself.", "hi": "चाचा तो फोटो वाले व्यक्ति के पिता हैं, वह स्वयं नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mn-18",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Rohan walks 6 km towards the north, then turns right and walks 8 km, then turns right again and walks 6 km. How far and in which direction is he from his starting point?", "hi": "रोहन उत्तर की ओर 6 किमी चलता है, फिर दाएँ मुड़कर 8 किमी चलता है, फिर दोबारा दाएँ मुड़कर 6 किमी चलता है। वह अपने प्रारंभिक बिंदु से कितनी दूर और किस दिशा में है?" },
+      "optionsJson": [
+        { "en": "8 km towards the east", "hi": "पूर्व की ओर 8 किमी" },
+        { "en": "8 km towards the west", "hi": "पश्चिम की ओर 8 किमी" },
+        { "en": "14 km towards the east", "hi": "पूर्व की ओर 14 किमी" },
+        { "en": "6 km towards the north", "hi": "उत्तर की ओर 6 किमी" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Walking north and then turning right means he walks east for 8 km. Turning right again, he faces south and walks 6 km, which cancels the 6 km north. So he is 8 km east of the start.", "hi": "उत्तर की ओर चलकर दाएँ मुड़ने पर वह पूर्व की ओर 8 किमी चलता है। फिर दाएँ मुड़ने पर उसका मुख दक्षिण की ओर होता है और वह 6 किमी चलता है, जिससे उत्तर की 6 किमी दूरी कट जाती है। अतः वह प्रारंभिक बिंदु से पूर्व की ओर 8 किमी दूर है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Wrongly assumes the right turn from north leads west; it leads east.", "hi": "गलती से मान लिया कि उत्तर से दाएँ मुड़ने पर पश्चिम दिशा आती है; वास्तव में पूर्व आती है।" },
+        "2": { "en": "Adds 6 km and 8 km together, although the 6 km walked south cancels the 6 km walked north.", "hi": "6 किमी और 8 किमी को जोड़ दिया, जबकि दक्षिण की 6 किमी उत्तर की 6 किमी को निरस्त कर देती है।" },
+        "3": { "en": "Ignores that the last 6 km is walked southwards, which brings him back to the starting latitude.", "hi": "यह भूल गए कि अंतिम 6 किमी दक्षिण की ओर चला गया है, जो उसे वापस प्रारंभिक रेखा पर ले आता है।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mn-19",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "In a class of 40 students, Anita ranks 12th from the top. What is her rank from the bottom?", "hi": "40 विद्यार्थियों की एक कक्षा में अनीता का ऊपर से 12वाँ स्थान है। नीचे से उसका स्थान क्या है?" },
+      "optionsJson": [
+        { "en": "27th", "hi": "27वाँ" },
+        { "en": "28th", "hi": "28वाँ" },
+        { "en": "30th", "hi": "30वाँ" },
+        { "en": "29th", "hi": "29वाँ" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Rank from the bottom = total − rank from the top + 1 = 40 − 12 + 1 = 29.", "hi": "नीचे से स्थान = कुल − ऊपर से स्थान + 1 = 40 − 12 + 1 = 29।" },
+      "distractorAnalysis": {
+        "0": { "en": "Subtracts 1 instead of adding 1 (40−12−1).", "hi": "1 जोड़ने के बजाय 1 घटा दिया (40−12−1)।" },
+        "1": { "en": "Computes 40−12 and forgets to add 1.", "hi": "40−12 निकाला और 1 जोड़ना भूल गए।" },
+        "2": { "en": "Adds 2 instead of 1, overcounting by one place.", "hi": "1 के बजाय 2 जोड़ दिया, जिससे एक स्थान अधिक गिना गया।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mn-20",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "What is the angle between the hour hand and the minute hand of a clock at 3:30?", "hi": "घड़ी में 3:30 बजे घंटे की सुई और मिनट की सुई के बीच कितना कोण होता है?" },
+      "optionsJson": [
+        { "en": "60°", "hi": "60°" },
+        { "en": "75°", "hi": "75°" },
+        { "en": "90°", "hi": "90°" },
+        { "en": "105°", "hi": "105°" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "At 3:30 the minute hand is at 6×30 = 180° from 12. The hour hand is at 3×30 + 30/2 = 105°. The angle between them is 180° − 105° = 75°.", "hi": "3:30 बजे मिनट की सुई 12 से 6×30 = 180° पर होती है। घंटे की सुई 3×30 + 30/2 = 105° पर होती है। दोनों के बीच का कोण 180° − 105° = 75° है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Treats the hour hand as having reached the 4 (120°) instead of being halfway between 3 and 4.", "hi": "घंटे की सुई को 3 और 4 के ठीक बीच मानने के बजाय 4 (120°) पर मान लिया।" },
+        "2": { "en": "Places the hour hand exactly on the 3 (90°), ignoring its movement during the 30 minutes.", "hi": "घंटे की सुई को ठीक 3 (90°) पर मान लिया, 30 मिनट में उसकी गति को नज़रअंदाज़ कर दिया।" },
+        "3": { "en": "Gives the position of the hour hand (105°) itself rather than the angle between the two hands.", "hi": "दोनों सुइयों के बीच का कोण देने के बजाय घंटे की सुई की स्थिति (105°) बता दी।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mn-21",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "If 5 March 2024 was a Tuesday, which day of the week was 5 April 2024?", "hi": "यदि 5 मार्च 2024 को मंगलवार था, तो 5 अप्रैल 2024 को सप्ताह का कौन-सा दिन था?" },
+      "optionsJson": [
+        { "en": "Wednesday", "hi": "बुधवार" },
+        { "en": "Thursday", "hi": "गुरुवार" },
+        { "en": "Friday", "hi": "शुक्रवार" },
+        { "en": "Saturday", "hi": "शनिवार" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "March has 31 days, so 5 April is 31 days after 5 March. 31 = 4 weeks + 3 days, so the day moves 3 days ahead: Tuesday + 3 = Friday.", "hi": "मार्च में 31 दिन होते हैं, इसलिए 5 अप्रैल, 5 मार्च के 31 दिन बाद है। 31 = 4 सप्ताह + 3 दिन, अतः दिन 3 आगे बढ़ता है: मंगलवार + 3 = शुक्रवार।" },
+      "distractorAnalysis": {
+        "0": { "en": "Moves only 1 day ahead; the extra days are 31 − 28 = 3, not 1.", "hi": "केवल 1 दिन आगे बढ़ाया; अतिरिक्त दिन 31 − 28 = 3 हैं, 1 नहीं।" },
+        "1": { "en": "Treats March as having 30 days (30 = 4 weeks + 2 days).", "hi": "मार्च में 30 दिन मान लिए (30 = 4 सप्ताह + 2 दिन)।" },
+        "3": { "en": "Moves 4 days ahead, miscounting the 3 extra days left after 4 full weeks.", "hi": "4 दिन आगे बढ़ाया, जबकि 4 पूरे सप्ताह के बाद 3 अतिरिक्त दिन बचते हैं।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mn-22",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Statements: All roses are flowers. Some flowers are red.\nConclusions: I. Some roses are red. II. Some red objects are flowers.\nWhich of the following is correct?", "hi": "कथन: सभी गुलाब फूल हैं। कुछ फूल लाल हैं।\nनिष्कर्ष: I. कुछ गुलाब लाल हैं। II. कुछ लाल वस्तुएँ फूल हैं।\nनिम्न में से कौन-सा सही है?" },
+      "optionsJson": [
+        { "en": "Only conclusion II follows", "hi": "केवल निष्कर्ष II अनुसरण करता है" },
+        { "en": "Only conclusion I follows", "hi": "केवल निष्कर्ष I अनुसरण करता है" },
+        { "en": "Both conclusions I and II follow", "hi": "निष्कर्ष I और II दोनों अनुसरण करते हैं" },
+        { "en": "Neither conclusion I nor II follows", "hi": "न तो निष्कर्ष I और न ही II अनुसरण करता है" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "\"Some flowers are red\" can be reversed to \"Some red objects are flowers\", so II follows. The red flowers need not be roses (they could be hibiscus, for example), so I does not follow.", "hi": "\"कुछ फूल लाल हैं\" को पलटकर \"कुछ लाल वस्तुएँ फूल हैं\" लिखा जा सकता है, इसलिए II अनुसरण करता है। लाल फूल गुलाब ही हों, यह आवश्यक नहीं (वे गुड़हल भी हो सकते हैं), इसलिए I अनुसरण नहीं करता।" },
+      "distractorAnalysis": {
+        "1": { "en": "Conclusion I does not follow, because the red flowers may all be non-roses, and II does follow by reversal.", "hi": "निष्कर्ष I अनुसरण नहीं करता क्योंकि लाल फूल सभी गुलाब से भिन्न हो सकते हैं, जबकि II पलटने पर अनुसरण करता है।" },
+        "2": { "en": "Accepts conclusion I, but nothing says the red flowers include roses.", "hi": "निष्कर्ष I को स्वीकार कर लिया, पर कथनों में कहीं नहीं है कि लाल फूलों में गुलाब शामिल हैं।" },
+        "3": { "en": "Rejects conclusion II, although it is the direct reversal of the second statement.", "hi": "निष्कर्ष II को अस्वीकार कर दिया, जबकि यह दूसरे कथन का सीधा उलटा रूप है।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mn-23",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which letter lies exactly midway between the 8th letter and the 20th letter of the English alphabet?", "hi": "अंग्रेज़ी वर्णमाला के 8वें और 20वें अक्षर के ठीक बीच में कौन-सा अक्षर है?" },
+      "optionsJson": [
+        { "en": "M", "hi": "M" },
+        { "en": "O", "hi": "O" },
+        { "en": "L", "hi": "L" },
+        { "en": "N", "hi": "N" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "The 8th letter is H and the 20th letter is T. The midway position is (8+20)/2 = 14, and the 14th letter is N.", "hi": "8वाँ अक्षर H और 20वाँ अक्षर T है। मध्य स्थिति (8+20)/2 = 14 है और 14वाँ अक्षर N है।" },
+      "distractorAnalysis": {
+        "0": { "en": "M is the 13th letter, one place before the midpoint.", "hi": "M 13वाँ अक्षर है, जो मध्य स्थिति से एक स्थान पहले है।" },
+        "1": { "en": "O is the 15th letter, one place after the midpoint.", "hi": "O 15वाँ अक्षर है, जो मध्य स्थिति से एक स्थान बाद है।" },
+        "2": { "en": "L is the 12th letter; 12 is the difference (20−8), not the midpoint position.", "hi": "L 12वाँ अक्षर है; 12 अंतर (20−8) है, मध्य स्थिति नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mn-24",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A father is 42 years old and his son is 12 years old. After how many years will the father be exactly three times as old as the son?", "hi": "एक पिता की आयु 42 वर्ष और उसके पुत्र की आयु 12 वर्ष है। कितने वर्ष बाद पिता की आयु पुत्र की आयु की ठीक तीन गुनी होगी?" },
+      "optionsJson": [
+        { "en": "2 years", "hi": "2 वर्ष" },
+        { "en": "3 years", "hi": "3 वर्ष" },
+        { "en": "4 years", "hi": "4 वर्ष" },
+        { "en": "6 years", "hi": "6 वर्ष" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Let the number of years be x. Then 42 + x = 3(12 + x), so 42 + x = 36 + 3x, giving 2x = 6 and x = 3. After 3 years the ages are 45 and 15, and 45 = 3 × 15.", "hi": "मान लें x वर्ष बाद। तब 42 + x = 3(12 + x), अर्थात 42 + x = 36 + 3x, जिससे 2x = 6 और x = 3। 3 वर्ष बाद आयु 45 और 15 होगी, और 45 = 3 × 15।" },
+      "distractorAnalysis": {
+        "0": { "en": "After 2 years the ages are 44 and 14, and 3 × 14 = 42, not 44.", "hi": "2 वर्ष बाद आयु 44 और 14 होगी, और 3 × 14 = 42 है, 44 नहीं।" },
+        "2": { "en": "After 4 years the ages are 46 and 16, and 3 × 16 = 48, not 46.", "hi": "4 वर्ष बाद आयु 46 और 16 होगी, और 3 × 16 = 48 है, 46 नहीं।" },
+        "3": { "en": "After 6 years the ages are 48 and 18, and 3 × 18 = 54, not 48.", "hi": "6 वर्ष बाद आयु 48 और 18 होगी, और 3 × 18 = 54 है, 48 नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mn-25",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Five friends R, T, P, Q and S stand in a row from left to right. P stands to the right of R but to the left of Q. S stands to the right of Q. T stands between R and P. Who stands in the middle of the row?", "hi": "पाँच मित्र R, T, P, Q और S बाएँ से दाएँ एक पंक्ति में खड़े हैं। P, R के दाईं ओर लेकिन Q के बाईं ओर खड़ा है। S, Q के दाईं ओर खड़ा है। T, R और P के बीच में खड़ा है। पंक्ति के बीच में कौन खड़ा है?" },
+      "optionsJson": [
+        { "en": "P", "hi": "P" },
+        { "en": "Q", "hi": "Q" },
+        { "en": "R", "hi": "R" },
+        { "en": "T", "hi": "T" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "R is left of P, and P is left of Q, and Q is left of S, so the order of these four is R, P, Q, S. T is between R and P, so the full row from left to right is R, T, P, Q, S. The middle (3rd) person is P.", "hi": "R, P के बाईं ओर है, P, Q के बाईं ओर है और Q, S के बाईं ओर है, इसलिए इन चारों का क्रम R, P, Q, S है। T, R और P के बीच में है, अतः बाएँ से दाएँ पूरी पंक्ति R, T, P, Q, S है। बीच का (तीसरा) व्यक्ति P है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Q is 4th from the left (second from the right), not in the middle.", "hi": "Q बाएँ से चौथा (दाएँ से दूसरा) है, बीच में नहीं।" },
+        "2": { "en": "R stands at the extreme left end of the row.", "hi": "R पंक्ति के सबसे बाएँ छोर पर खड़ा है।" },
+        "3": { "en": "T is 2nd from the left, between R and P, not in the middle.", "hi": "T बाएँ से दूसरे स्थान पर, R और P के बीच है, बीच में नहीं।" }
+      }
+    }
+  ]
+}

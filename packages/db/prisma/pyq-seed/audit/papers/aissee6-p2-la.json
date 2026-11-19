@@ -1,0 +1,984 @@
+{
+  "examType": "AISSEE",
+  "classLevel": 6,
+  "paperNumber": 2,
+  "sectionKey": "language",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "aissee6-p2-la-01",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Read the passage and answer the question.\n\nPassage: The camel is often called the ship of the desert. Its broad, flat feet do not sink into soft sand, and its thick eyelashes keep the dust out of its eyes. A camel can drink over a hundred litres of water in a few minutes and then travel for many days without drinking again. For this reason, people in Rajasthan have used camels to carry goods and travellers across the dry land for centuries.\n\nQuestion: According to the passage, how do a camel's broad, flat feet help it?",
+        "hi": "गद्यांश पढ़ें और प्रश्न का उत्तर दें।\n\nगद्यांश: The camel is often called the ship of the desert. Its broad, flat feet do not sink into soft sand, and its thick eyelashes keep the dust out of its eyes. A camel can drink over a hundred litres of water in a few minutes and then travel for many days without drinking again. For this reason, people in Rajasthan have used camels to carry goods and travellers across the dry land for centuries.\n\nप्रश्न: गद्यांश के अनुसार, ऊँट के चौड़े, चपटे पैर उसकी कैसे मदद करते हैं?",
+        "mr": "उतारा वाचा आणि प्रश्नाचे उत्तर द्या.\n\nउतारा: The camel is often called the ship of the desert. Its broad, flat feet do not sink into soft sand, and its thick eyelashes keep the dust out of its eyes. A camel can drink over a hundred litres of water in a few minutes and then travel for many days without drinking again. For this reason, people in Rajasthan have used camels to carry goods and travellers across the dry land for centuries.\n\nप्रश्न: उताऱ्यानुसार, उंटाचे रुंद, सपाट पाय त्याला कसे उपयोगी ठरतात?"
+      },
+      "optionsJson": [
+        { "en": "They help it run faster than a horse", "hi": "ये उसे घोड़े से तेज़ दौड़ने में मदद करते हैं", "mr": "ते त्याला घोड्यापेक्षा वेगाने धावण्यास मदत करतात" },
+        { "en": "They do not sink into soft sand", "hi": "ये नरम रेत में नहीं धँसते", "mr": "ते मऊ वाळूत रुतत नाहीत" },
+        { "en": "They can store water", "hi": "इनमें पानी जमा हो सकता है", "mr": "त्यांत पाणी साठवता येते" },
+        { "en": "They protect it from dust", "hi": "ये उसे धूल से बचाते हैं", "mr": "ते त्याला धुळीपासून वाचवतात" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "The passage states that the camel's broad, flat feet do not sink into soft sand.",
+        "hi": "गद्यांश में कहा गया है कि ऊँट के चौड़े, चपटे पैर नरम रेत में नहीं धँसते।",
+        "mr": "उताऱ्यात म्हटले आहे की उंटाचे रुंद, सपाट पाय मऊ वाळूत रुतत नाहीत."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The passage never says the camel's feet make it faster than a horse.",
+          "hi": "गद्यांश में कहीं नहीं कहा गया कि पैर ऊँट को घोड़े से तेज़ बनाते हैं।",
+          "mr": "उताऱ्यात पाय उंटाला घोड्यापेक्षा वेगवान बनवतात असे कुठेही म्हटलेले नाही."
+        },
+        "2": {
+          "en": "The passage mentions drinking water, but says nothing about storing water in the feet.",
+          "hi": "गद्यांश में पानी पीने का उल्लेख है, पर पैरों में पानी जमा होने की बात नहीं कही गई।",
+          "mr": "उताऱ्यात पाणी पिण्याचा उल्लेख आहे, पण पायांत पाणी साठवण्याबद्दल काहीही म्हटलेले नाही."
+        },
+        "3": {
+          "en": "Dust is kept out of the eyes by the thick eyelashes, not by the feet.",
+          "hi": "धूल को आँखों से घनी पलकें रोकती हैं, पैर नहीं।",
+          "mr": "धूळ डोळ्यांपासून दाट पापण्या रोखतात, पाय नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-la-02",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Read the passage and answer the question.\n\nPassage: The camel is often called the ship of the desert. Its broad, flat feet do not sink into soft sand, and its thick eyelashes keep the dust out of its eyes. A camel can drink over a hundred litres of water in a few minutes and then travel for many days without drinking again. For this reason, people in Rajasthan have used camels to carry goods and travellers across the dry land for centuries.\n\nQuestion: According to the passage, what can a camel do after drinking a large amount of water?",
+        "hi": "गद्यांश पढ़ें और प्रश्न का उत्तर दें।\n\nगद्यांश: The camel is often called the ship of the desert. Its broad, flat feet do not sink into soft sand, and its thick eyelashes keep the dust out of its eyes. A camel can drink over a hundred litres of water in a few minutes and then travel for many days without drinking again. For this reason, people in Rajasthan have used camels to carry goods and travellers across the dry land for centuries.\n\nप्रश्न: गद्यांश के अनुसार, बहुत सारा पानी पीने के बाद ऊँट क्या कर सकता है?",
+        "mr": "उतारा वाचा आणि प्रश्नाचे उत्तर द्या.\n\nउतारा: The camel is often called the ship of the desert. Its broad, flat feet do not sink into soft sand, and its thick eyelashes keep the dust out of its eyes. A camel can drink over a hundred litres of water in a few minutes and then travel for many days without drinking again. For this reason, people in Rajasthan have used camels to carry goods and travellers across the dry land for centuries.\n\nप्रश्न: उताऱ्यानुसार, भरपूर पाणी प्यायल्यानंतर उंट काय करू शकतो?"
+      },
+      "optionsJson": [
+        { "en": "Swim across wide rivers", "hi": "चौड़ी नदियाँ तैरकर पार करना", "mr": "रुंद नद्या पोहून पार करणे" },
+        { "en": "Sleep for many days", "hi": "कई दिनों तक सोना", "mr": "अनेक दिवस झोपणे" },
+        { "en": "Carry goods only at night", "hi": "सिर्फ़ रात में सामान ढोना", "mr": "फक्त रात्री सामान वाहून नेणे" },
+        { "en": "Travel for many days without drinking again", "hi": "फिर से पिए बिना कई दिनों तक यात्रा करना", "mr": "पुन्हा पाणी न पिता अनेक दिवस प्रवास करणे" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "The passage says a camel can drink a great deal of water and then travel for many days without drinking again.",
+        "hi": "गद्यांश के अनुसार ऊँट बहुत सारा पानी पी सकता है और फिर कई दिनों तक बिना पिए यात्रा कर सकता है।",
+        "mr": "उताऱ्यानुसार उंट भरपूर पाणी पिऊ शकतो आणि मग अनेक दिवस पाणी न पिता प्रवास करू शकतो."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Swimming is not mentioned anywhere in the passage.",
+          "hi": "गद्यांश में तैरने का कहीं उल्लेख नहीं है।",
+          "mr": "उताऱ्यात पोहण्याचा कुठेही उल्लेख नाही."
+        },
+        "1": {
+          "en": "Sleeping is not mentioned; the passage speaks of travelling for many days.",
+          "hi": "सोने का उल्लेख नहीं है; गद्यांश कई दिनों तक यात्रा करने की बात करता है।",
+          "mr": "झोपण्याचा उल्लेख नाही; उतारा अनेक दिवस प्रवास करण्याबद्दल बोलतो."
+        },
+        "2": {
+          "en": "The passage does not limit the carrying of goods to the night.",
+          "hi": "गद्यांश सामान ढोने को केवल रात तक सीमित नहीं करता।",
+          "mr": "उतारा सामान वाहून नेणे फक्त रात्रीपुरते मर्यादित करत नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-la-03",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Read the passage and answer the question.\n\nPassage: The camel is often called the ship of the desert. Its broad, flat feet do not sink into soft sand, and its thick eyelashes keep the dust out of its eyes. A camel can drink over a hundred litres of water in a few minutes and then travel for many days without drinking again. For this reason, people in Rajasthan have used camels to carry goods and travellers across the dry land for centuries.\n\nQuestion: In the passage, the word \"centuries\" refers to periods of how many years?",
+        "hi": "गद्यांश पढ़ें और प्रश्न का उत्तर दें।\n\nगद्यांश: The camel is often called the ship of the desert. Its broad, flat feet do not sink into soft sand, and its thick eyelashes keep the dust out of its eyes. A camel can drink over a hundred litres of water in a few minutes and then travel for many days without drinking again. For this reason, people in Rajasthan have used camels to carry goods and travellers across the dry land for centuries.\n\nप्रश्न: गद्यांश में \"centuries\" शब्द कितने वर्षों की अवधि को दर्शाता है?",
+        "mr": "उतारा वाचा आणि प्रश्नाचे उत्तर द्या.\n\nउतारा: The camel is often called the ship of the desert. Its broad, flat feet do not sink into soft sand, and its thick eyelashes keep the dust out of its eyes. A camel can drink over a hundred litres of water in a few minutes and then travel for many days without drinking again. For this reason, people in Rajasthan have used camels to carry goods and travellers across the dry land for centuries.\n\nप्रश्न: उताऱ्यातील \"centuries\" हा शब्द किती वर्षांच्या कालावधीला दर्शवतो?"
+      },
+      "optionsJson": [
+        { "en": "Ten years", "hi": "दस वर्ष", "mr": "दहा वर्षे" },
+        { "en": "Fifty years", "hi": "पचास वर्ष", "mr": "पन्नास वर्षे" },
+        { "en": "One hundred years", "hi": "एक सौ वर्ष", "mr": "एकशे वर्षे" },
+        { "en": "One thousand years", "hi": "एक हज़ार वर्ष", "mr": "एक हजार वर्षे" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "A century is a period of one hundred years, so \"centuries\" means many such periods.",
+        "hi": "एक शताब्दी सौ वर्षों की अवधि होती है, इसलिए \"centuries\" का अर्थ ऐसी कई अवधियाँ हैं।",
+        "mr": "एक शतक म्हणजे शंभर वर्षांचा कालावधी; म्हणून \"centuries\" म्हणजे असे अनेक कालावधी."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Ten years is called a decade, not a century.",
+          "hi": "दस वर्ष को दशक कहते हैं, शताब्दी नहीं।",
+          "mr": "दहा वर्षांना दशक म्हणतात, शतक नाही."
+        },
+        "1": {
+          "en": "Fifty years is only half a century.",
+          "hi": "पचास वर्ष केवल आधी शताब्दी होती है।",
+          "mr": "पन्नास वर्षे म्हणजे केवळ अर्धे शतक."
+        },
+        "3": {
+          "en": "One thousand years is called a millennium.",
+          "hi": "एक हज़ार वर्ष को सहस्राब्दी कहते हैं।",
+          "mr": "एक हजार वर्षांना सहस्रक म्हणतात."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-la-04",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Read the passage and answer the question.\n\nPassage: The camel is often called the ship of the desert. Its broad, flat feet do not sink into soft sand, and its thick eyelashes keep the dust out of its eyes. A camel can drink over a hundred litres of water in a few minutes and then travel for many days without drinking again. For this reason, people in Rajasthan have used camels to carry goods and travellers across the dry land for centuries.\n\nQuestion: Which of the following conclusions is best supported by the passage?",
+        "hi": "गद्यांश पढ़ें और प्रश्न का उत्तर दें।\n\nगद्यांश: The camel is often called the ship of the desert. Its broad, flat feet do not sink into soft sand, and its thick eyelashes keep the dust out of its eyes. A camel can drink over a hundred litres of water in a few minutes and then travel for many days without drinking again. For this reason, people in Rajasthan have used camels to carry goods and travellers across the dry land for centuries.\n\nप्रश्न: गद्यांश से निम्नलिखित में से कौन-सा निष्कर्ष सबसे अच्छी तरह निकलता है?",
+        "mr": "उतारा वाचा आणि प्रश्नाचे उत्तर द्या.\n\nउतारा: The camel is often called the ship of the desert. Its broad, flat feet do not sink into soft sand, and its thick eyelashes keep the dust out of its eyes. A camel can drink over a hundred litres of water in a few minutes and then travel for many days without drinking again. For this reason, people in Rajasthan have used camels to carry goods and travellers across the dry land for centuries.\n\nप्रश्न: उताऱ्यातून खालीलपैकी कोणता निष्कर्ष सर्वात योग्य रीतीने निघतो?"
+      },
+      "optionsJson": [
+        { "en": "Camels are well suited to life in dry, sandy regions", "hi": "ऊँट सूखे, रेतीले इलाकों में जीवन के लिए अच्छी तरह उपयुक्त हैं", "mr": "उंट कोरड्या, वालुकामय प्रदेशातील जीवनासाठी चांगले अनुकूल आहेत" },
+        { "en": "Camels cannot live without water for even one day", "hi": "ऊँट एक दिन भी बिना पानी के नहीं रह सकते", "mr": "उंट एक दिवसही पाण्याशिवाय जगू शकत नाहीत" },
+        { "en": "Camels are used to carry goods only in Rajasthan", "hi": "ऊँटों का उपयोग केवल राजस्थान में सामान ढोने के लिए होता है", "mr": "उंटांचा वापर फक्त राजस्थानातच सामान वाहून नेण्यासाठी होतो" },
+        { "en": "Camels are faster than modern vehicles", "hi": "ऊँट आधुनिक वाहनों से तेज़ होते हैं", "mr": "उंट आधुनिक वाहनांपेक्षा वेगवान असतात" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Broad feet that do not sink, eyelashes that keep out dust and the ability to travel long without water all show that camels suit dry, sandy lands.",
+        "hi": "न धँसने वाले चौड़े पैर, धूल रोकने वाली पलकें और बिना पानी के लंबी यात्रा की क्षमता, ये सब दिखाते हैं कि ऊँट सूखे, रेतीले इलाकों के लिए उपयुक्त हैं।",
+        "mr": "न रुतणारे रुंद पाय, धूळ रोखणाऱ्या पापण्या आणि पाण्याशिवाय दूरवर प्रवास करण्याची क्षमता, या सर्वांवरून उंट कोरड्या, वालुकामय प्रदेशासाठी योग्य आहेत हे दिसते."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "The passage says the opposite: a camel can travel for many days without drinking.",
+          "hi": "गद्यांश इसके विपरीत कहता है: ऊँट कई दिनों तक बिना पिए यात्रा कर सकता है।",
+          "mr": "उतारा याच्या उलट सांगतो: उंट अनेक दिवस पाणी न पिता प्रवास करू शकतो."
+        },
+        "2": {
+          "en": "Rajasthan is given only as an example of where camels have been used; the passage does not say \"only\".",
+          "hi": "राजस्थान केवल उदाहरण के रूप में दिया गया है कि ऊँट कहाँ प्रयोग हुए हैं; गद्यांश में \"केवल\" नहीं कहा गया।",
+          "mr": "उंट कुठे वापरले गेले याचे उदाहरण म्हणून फक्त राजस्थान दिले आहे; उताऱ्यात \"फक्त\" असे म्हटलेले नाही."
+        },
+        "3": {
+          "en": "The passage makes no comparison between camels and vehicles.",
+          "hi": "गद्यांश में ऊँट और वाहनों की कोई तुलना नहीं की गई है।",
+          "mr": "उताऱ्यात उंट आणि वाहने यांची कोणतीही तुलना केलेली नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-la-05",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Read the passage and answer the question.\n\nPassage: Ravi's grandmother lives in a small village near Pune. Every morning, before drinking her tea, she waters the tulsi plant in her courtyard. One day Ravi asked her why she did this every day without fail. She smiled and said that caring for a plant teaches us patience, because we must look after it long before we see any result.\n\nQuestion: When does Ravi's grandmother water the tulsi plant?",
+        "hi": "गद्यांश पढ़ें और प्रश्न का उत्तर दें।\n\nगद्यांश: Ravi's grandmother lives in a small village near Pune. Every morning, before drinking her tea, she waters the tulsi plant in her courtyard. One day Ravi asked her why she did this every day without fail. She smiled and said that caring for a plant teaches us patience, because we must look after it long before we see any result.\n\nप्रश्न: रवि की दादी तुलसी के पौधे को कब पानी देती हैं?",
+        "mr": "उतारा वाचा आणि प्रश्नाचे उत्तर द्या.\n\nउतारा: Ravi's grandmother lives in a small village near Pune. Every morning, before drinking her tea, she waters the tulsi plant in her courtyard. One day Ravi asked her why she did this every day without fail. She smiled and said that caring for a plant teaches us patience, because we must look after it long before we see any result.\n\nप्रश्न: रवीची आजी तुळशीच्या रोपाला केव्हा पाणी घालते?"
+      },
+      "optionsJson": [
+        { "en": "Every evening after dinner", "hi": "हर शाम रात के खाने के बाद", "mr": "दररोज संध्याकाळी जेवणानंतर" },
+        { "en": "Every afternoon after lunch", "hi": "हर दोपहर खाने के बाद", "mr": "दररोज दुपारी जेवणानंतर" },
+        { "en": "Every morning before drinking tea", "hi": "हर सुबह चाय पीने से पहले", "mr": "दररोज सकाळी चहा घेण्यापूर्वी" },
+        { "en": "Only on festival days", "hi": "केवल त्योहार के दिनों में", "mr": "फक्त सणांच्या दिवशी" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The passage says that every morning, before drinking her tea, she waters the tulsi plant.",
+        "hi": "गद्यांश में कहा गया है कि हर सुबह चाय पीने से पहले वे तुलसी के पौधे को पानी देती हैं।",
+        "mr": "उताऱ्यात म्हटले आहे की दररोज सकाळी चहा घेण्यापूर्वी ती तुळशीच्या रोपाला पाणी घालते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The passage says morning, not evening.",
+          "hi": "गद्यांश में सुबह कहा गया है, शाम नहीं।",
+          "mr": "उताऱ्यात सकाळ म्हटले आहे, संध्याकाळ नाही."
+        },
+        "1": {
+          "en": "The passage says morning, not afternoon.",
+          "hi": "गद्यांश में सुबह कहा गया है, दोपहर नहीं।",
+          "mr": "उताऱ्यात सकाळ म्हटले आहे, दुपार नाही."
+        },
+        "3": {
+          "en": "She waters the plant every day, not only on festival days.",
+          "hi": "वे पौधे को हर दिन पानी देती हैं, केवल त्योहारों पर नहीं।",
+          "mr": "ती रोपाला रोज पाणी घालते, फक्त सणांच्या दिवशी नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-la-06",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Read the passage and answer the question.\n\nPassage: Ravi's grandmother lives in a small village near Pune. Every morning, before drinking her tea, she waters the tulsi plant in her courtyard. One day Ravi asked her why she did this every day without fail. She smiled and said that caring for a plant teaches us patience, because we must look after it long before we see any result.\n\nQuestion: According to the grandmother, what does taking care of a plant teach us?",
+        "hi": "गद्यांश पढ़ें और प्रश्न का उत्तर दें।\n\nगद्यांश: Ravi's grandmother lives in a small village near Pune. Every morning, before drinking her tea, she waters the tulsi plant in her courtyard. One day Ravi asked her why she did this every day without fail. She smiled and said that caring for a plant teaches us patience, because we must look after it long before we see any result.\n\nप्रश्न: दादी के अनुसार, पौधे की देखभाल करना हमें क्या सिखाता है?",
+        "mr": "उतारा वाचा आणि प्रश्नाचे उत्तर द्या.\n\nउतारा: Ravi's grandmother lives in a small village near Pune. Every morning, before drinking her tea, she waters the tulsi plant in her courtyard. One day Ravi asked her why she did this every day without fail. She smiled and said that caring for a plant teaches us patience, because we must look after it long before we see any result.\n\nप्रश्न: आजीच्या म्हणण्यानुसार, रोपाची काळजी घेणे आपल्याला काय शिकवते?"
+      },
+      "optionsJson": [
+        { "en": "Honesty", "hi": "ईमानदारी", "mr": "प्रामाणिकपणा" },
+        { "en": "Speed", "hi": "तेज़ी", "mr": "वेग" },
+        { "en": "Generosity", "hi": "उदारता", "mr": "उदारपणा" },
+        { "en": "Patience", "hi": "धैर्य", "mr": "संयम" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "The grandmother says that caring for a plant teaches us patience, because we must look after it long before we see any result.",
+        "hi": "दादी कहती हैं कि पौधे की देखभाल हमें धैर्य सिखाती है, क्योंकि परिणाम दिखने से बहुत पहले से हमें उसकी देखभाल करनी पड़ती है।",
+        "mr": "आजी म्हणते की रोपाची काळजी घेणे आपल्याला संयम शिकवते, कारण परिणाम दिसण्याच्या खूप आधीपासून आपल्याला त्याची काळजी घ्यावी लागते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The passage does not connect plant care with honesty.",
+          "hi": "गद्यांश पौधे की देखभाल को ईमानदारी से नहीं जोड़ता।",
+          "mr": "उतारा रोपाच्या काळजीचा संबंध प्रामाणिकपणाशी जोडत नाही."
+        },
+        "1": {
+          "en": "Plants take a long time to show results, so care teaches patience, not speed.",
+          "hi": "पौधों को परिणाम दिखाने में लंबा समय लगता है, इसलिए देखभाल धैर्य सिखाती है, तेज़ी नहीं।",
+          "mr": "रोपांना परिणाम दाखवायला बराच वेळ लागतो, म्हणून काळजी संयम शिकवते, वेग नाही."
+        },
+        "2": {
+          "en": "The passage does not mention generosity.",
+          "hi": "गद्यांश में उदारता का उल्लेख नहीं है।",
+          "mr": "उताऱ्यात उदारपणाचा उल्लेख नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-la-07",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Read the passage and answer the question.\n\nPassage: Ravi's grandmother lives in a small village near Pune. Every morning, before drinking her tea, she waters the tulsi plant in her courtyard. One day Ravi asked her why she did this every day without fail. She smiled and said that caring for a plant teaches us patience, because we must look after it long before we see any result.\n\nQuestion: In the passage, the phrase \"without fail\" means:",
+        "hi": "गद्यांश पढ़ें और प्रश्न का उत्तर दें।\n\nगद्यांश: Ravi's grandmother lives in a small village near Pune. Every morning, before drinking her tea, she waters the tulsi plant in her courtyard. One day Ravi asked her why she did this every day without fail. She smiled and said that caring for a plant teaches us patience, because we must look after it long before we see any result.\n\nप्रश्न: गद्यांश में \"without fail\" का क्या अर्थ है?",
+        "mr": "उतारा वाचा आणि प्रश्नाचे उत्तर द्या.\n\nउतारा: Ravi's grandmother lives in a small village near Pune. Every morning, before drinking her tea, she waters the tulsi plant in her courtyard. One day Ravi asked her why she did this every day without fail. She smiled and said that caring for a plant teaches us patience, because we must look after it long before we see any result.\n\nप्रश्न: उताऱ्यातील \"without fail\" याचा अर्थ काय?"
+      },
+      "optionsJson": [
+        { "en": "Only when it is convenient", "hi": "केवल तब जब सुविधा हो", "mr": "फक्त सोयीचे असेल तेव्हा" },
+        { "en": "Regularly, without missing a day", "hi": "नियमित रूप से, एक भी दिन चूके बिना", "mr": "नियमितपणे, एकही दिवस न चुकता" },
+        { "en": "With great difficulty", "hi": "बहुत कठिनाई से", "mr": "खूप अडचणीने" },
+        { "en": "Very quickly", "hi": "बहुत जल्दी", "mr": "खूप लवकर" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "\"Without fail\" means doing something always and never missing it, here every single day.",
+        "hi": "\"Without fail\" का अर्थ है कोई काम हमेशा करना और कभी न चूकना, यहाँ हर एक दिन।",
+        "mr": "\"Without fail\" म्हणजे एखादे काम नेहमी करणे आणि कधीही न चुकणे, इथे रोजच्या रोज."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Doing something only when convenient is the opposite of doing it without fail.",
+          "hi": "कोई काम केवल सुविधा होने पर करना, बिना चूके करने के विपरीत है।",
+          "mr": "एखादे काम फक्त सोयीचे असेल तेव्हा करणे हे न चुकता करण्याच्या उलट आहे."
+        },
+        "2": {
+          "en": "The phrase says nothing about difficulty.",
+          "hi": "इस वाक्यांश में कठिनाई की कोई बात नहीं है।",
+          "mr": "या वाक्प्रचारात अडचणीबद्दल काहीही सांगितलेले नाही."
+        },
+        "3": {
+          "en": "The phrase is about regularity, not speed.",
+          "hi": "यह वाक्यांश नियमितता के बारे में है, गति के बारे में नहीं।",
+          "mr": "हा वाक्प्रचार नियमिततेबद्दल आहे, वेगाबद्दल नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-la-08",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Read the passage and answer the question.\n\nPassage: Ravi's grandmother lives in a small village near Pune. Every morning, before drinking her tea, she waters the tulsi plant in her courtyard. One day Ravi asked her why she did this every day without fail. She smiled and said that caring for a plant teaches us patience, because we must look after it long before we see any result.\n\nQuestion: Why did Ravi ask his grandmother about watering the plant?",
+        "hi": "गद्यांश पढ़ें और प्रश्न का उत्तर दें।\n\nगद्यांश: Ravi's grandmother lives in a small village near Pune. Every morning, before drinking her tea, she waters the tulsi plant in her courtyard. One day Ravi asked her why she did this every day without fail. She smiled and said that caring for a plant teaches us patience, because we must look after it long before we see any result.\n\nप्रश्न: रवि ने अपनी दादी से पौधे को पानी देने के बारे में क्यों पूछा?",
+        "mr": "उतारा वाचा आणि प्रश्नाचे उत्तर द्या.\n\nउतारा: Ravi's grandmother lives in a small village near Pune. Every morning, before drinking her tea, she waters the tulsi plant in her courtyard. One day Ravi asked her why she did this every day without fail. She smiled and said that caring for a plant teaches us patience, because we must look after it long before we see any result.\n\nप्रश्न: रवीने आपल्या आजीला रोपाला पाणी घालण्याबद्दल का विचारले?"
+      },
+      "optionsJson": [
+        { "en": "He was curious why she did it every single day", "hi": "वह जानना चाहता था कि वे यह हर दिन क्यों करती हैं", "mr": "ती हे रोज का करते हे त्याला जाणून घ्यायचे होते" },
+        { "en": "He wanted her to stop watering the plant", "hi": "वह चाहता था कि वे पौधे को पानी देना बंद कर दें", "mr": "तिने रोपाला पाणी घालणे थांबवावे अशी त्याची इच्छा होती" },
+        { "en": "He wanted to buy a new plant", "hi": "वह नया पौधा खरीदना चाहता था", "mr": "त्याला नवीन रोप विकत घ्यायचे होते" },
+        { "en": "He was upset that she drank tea late", "hi": "वह इस बात से नाराज़ था कि वे चाय देर से पीती हैं", "mr": "ती चहा उशिरा घेते म्हणून तो नाराज होता" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Ravi asked why she watered the plant every day without fail, which shows he was curious about her daily habit.",
+        "hi": "रवि ने पूछा कि वे पौधे को हर दिन बिना चूके पानी क्यों देती हैं, जिससे पता चलता है कि वह उनकी रोज़ की आदत के बारे में जिज्ञासु था।",
+        "mr": "रवीने विचारले की ती रोपाला रोज न चुकता पाणी का घालते, यावरून तो तिच्या रोजच्या सवयीबद्दल उत्सुक होता हे दिसते."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Nothing in the passage suggests that Ravi wanted her to stop.",
+          "hi": "गद्यांश में ऐसा कुछ नहीं है जिससे लगे कि रवि चाहता था कि वे रुक जाएँ।",
+          "mr": "रवीला तिने थांबावे असे वाटत होते असे उताऱ्यात कुठेही सूचित होत नाही."
+        },
+        "2": {
+          "en": "Buying a new plant is not mentioned in the passage.",
+          "hi": "गद्यांश में नया पौधा खरीदने का उल्लेख नहीं है।",
+          "mr": "उताऱ्यात नवीन रोप विकत घेण्याचा उल्लेख नाही."
+        },
+        "3": {
+          "en": "Her tea is mentioned only to show the time of the day she waters the plant.",
+          "hi": "उनकी चाय का उल्लेख केवल यह बताने के लिए है कि वे पौधे को दिन के किस समय पानी देती हैं।",
+          "mr": "तिच्या चहाचा उल्लेख फक्त ती दिवसाच्या कोणत्या वेळी रोपाला पाणी घालते हे सांगण्यासाठी आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-la-09",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Read the passage and answer the question.\n\nPassage: Honey bees live in groups called colonies. Each colony has one queen, many female workers and a few male drones. The workers collect nectar from flowers and turn it into honey, while the queen's main job is to lay eggs. When a worker finds a good patch of flowers, she dances to tell the others where to go.\n\nQuestion: What is the main job of the queen bee?",
+        "hi": "गद्यांश पढ़ें और प्रश्न का उत्तर दें।\n\nगद्यांश: Honey bees live in groups called colonies. Each colony has one queen, many female workers and a few male drones. The workers collect nectar from flowers and turn it into honey, while the queen's main job is to lay eggs. When a worker finds a good patch of flowers, she dances to tell the others where to go.\n\nप्रश्न: रानी मधुमक्खी का मुख्य काम क्या है?",
+        "mr": "उतारा वाचा आणि प्रश्नाचे उत्तर द्या.\n\nउतारा: Honey bees live in groups called colonies. Each colony has one queen, many female workers and a few male drones. The workers collect nectar from flowers and turn it into honey, while the queen's main job is to lay eggs. When a worker finds a good patch of flowers, she dances to tell the others where to go.\n\nप्रश्न: राणी माशीचे मुख्य काम कोणते?"
+      },
+      "optionsJson": [
+        { "en": "To lay eggs", "hi": "अंडे देना", "mr": "अंडी घालणे" },
+        { "en": "To collect nectar", "hi": "मकरंद इकट्ठा करना", "mr": "मकरंद गोळा करणे" },
+        { "en": "To dance for the workers", "hi": "श्रमिकों के लिए नाचना", "mr": "कामकरी माश्यांसाठी नाचणे" },
+        { "en": "To turn nectar into honey", "hi": "मकरंद को शहद में बदलना", "mr": "मकरंदाचे मधात रूपांतर करणे" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "The passage says the queen's main job is to lay eggs.",
+        "hi": "गद्यांश में कहा गया है कि रानी का मुख्य काम अंडे देना है।",
+        "mr": "उताऱ्यात म्हटले आहे की राणीचे मुख्य काम अंडी घालणे हे आहे."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Collecting nectar is the work of the worker bees.",
+          "hi": "मकरंद इकट्ठा करना श्रमिक मधुमक्खियों का काम है।",
+          "mr": "मकरंद गोळा करणे हे कामकरी माश्यांचे काम आहे."
+        },
+        "2": {
+          "en": "It is a worker, not the queen, that dances to show where the flowers are.",
+          "hi": "फूलों की जगह बताने के लिए श्रमिक नाचती है, रानी नहीं।",
+          "mr": "फुलांची जागा सांगण्यासाठी कामकरी माशी नाचते, राणी नाही."
+        },
+        "3": {
+          "en": "Turning nectar into honey is also done by the workers.",
+          "hi": "मकरंद को शहद में बदलने का काम भी श्रमिक करती हैं।",
+          "mr": "मकरंदाचे मधात रूपांतर करण्याचे कामही कामकरी माश्या करतात."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-la-10",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Read the passage and answer the question.\n\nPassage: Honey bees live in groups called colonies. Each colony has one queen, many female workers and a few male drones. The workers collect nectar from flowers and turn it into honey, while the queen's main job is to lay eggs. When a worker finds a good patch of flowers, she dances to tell the others where to go.\n\nQuestion: How does a worker bee tell the others about a good patch of flowers?",
+        "hi": "गद्यांश पढ़ें और प्रश्न का उत्तर दें।\n\nगद्यांश: Honey bees live in groups called colonies. Each colony has one queen, many female workers and a few male drones. The workers collect nectar from flowers and turn it into honey, while the queen's main job is to lay eggs. When a worker finds a good patch of flowers, she dances to tell the others where to go.\n\nप्रश्न: श्रमिक मधुमक्खी दूसरों को फूलों की अच्छी जगह के बारे में कैसे बताती है?",
+        "mr": "उतारा वाचा आणि प्रश्नाचे उत्तर द्या.\n\nउतारा: Honey bees live in groups called colonies. Each colony has one queen, many female workers and a few male drones. The workers collect nectar from flowers and turn it into honey, while the queen's main job is to lay eggs. When a worker finds a good patch of flowers, she dances to tell the others where to go.\n\nप्रश्न: कामकरी माशी इतरांना फुलांच्या चांगल्या जागेबद्दल कसे सांगते?"
+      },
+      "optionsJson": [
+        { "en": "By buzzing loudly at the hive door", "hi": "छत्ते के द्वार पर ज़ोर से भिनभिनाकर", "mr": "पोळ्याच्या दारावर जोरात गुणगुणून" },
+        { "en": "By leaving a trail of honey", "hi": "शहद की लकीर छोड़कर", "mr": "मधाची रेघ सोडून" },
+        { "en": "By dancing", "hi": "नाचकर", "mr": "नाचून" },
+        { "en": "By flying away alone", "hi": "अकेले उड़ जाकर", "mr": "एकटीच उडून जाऊन" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The passage says that she dances to tell the others where to go.",
+        "hi": "गद्यांश में कहा गया है कि वह नाचकर दूसरों को बताती है कि कहाँ जाना है।",
+        "mr": "उताऱ्यात म्हटले आहे की ती नाचून इतरांना कुठे जायचे ते सांगते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Buzzing at the hive door is not mentioned in the passage.",
+          "hi": "छत्ते के द्वार पर भिनभिनाने का गद्यांश में उल्लेख नहीं है।",
+          "mr": "पोळ्याच्या दारावर गुणगुणण्याचा उताऱ्यात उल्लेख नाही."
+        },
+        "1": {
+          "en": "A trail of honey is not mentioned; the bee uses a dance.",
+          "hi": "शहद की लकीर का उल्लेख नहीं है; मधुमक्खी नाच का उपयोग करती है।",
+          "mr": "मधाच्या रेघेचा उल्लेख नाही; माशी नाचाचा उपयोग करते."
+        },
+        "3": {
+          "en": "Flying away alone would not tell the others where to go.",
+          "hi": "अकेले उड़ जाने से दूसरों को पता नहीं चलेगा कि कहाँ जाना है।",
+          "mr": "एकटीच उडून गेल्याने इतरांना कुठे जायचे ते कळणार नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-la-11",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Read the passage and answer the question.\n\nPassage: Honey bees live in groups called colonies. Each colony has one queen, many female workers and a few male drones. The workers collect nectar from flowers and turn it into honey, while the queen's main job is to lay eggs. When a worker finds a good patch of flowers, she dances to tell the others where to go.\n\nQuestion: Which of the following is NOT stated in the passage?",
+        "hi": "गद्यांश पढ़ें और प्रश्न का उत्तर दें।\n\nगद्यांश: Honey bees live in groups called colonies. Each colony has one queen, many female workers and a few male drones. The workers collect nectar from flowers and turn it into honey, while the queen's main job is to lay eggs. When a worker finds a good patch of flowers, she dances to tell the others where to go.\n\nप्रश्न: निम्नलिखित में से कौन-सी बात गद्यांश में नहीं कही गई है?",
+        "mr": "उतारा वाचा आणि प्रश्नाचे उत्तर द्या.\n\nउतारा: Honey bees live in groups called colonies. Each colony has one queen, many female workers and a few male drones. The workers collect nectar from flowers and turn it into honey, while the queen's main job is to lay eggs. When a worker finds a good patch of flowers, she dances to tell the others where to go.\n\nप्रश्न: खालीलपैकी कोणती गोष्ट उताऱ्यात सांगितलेली नाही?"
+      },
+      "optionsJson": [
+        { "en": "A colony has one queen.", "hi": "एक कॉलोनी में एक रानी होती है।", "mr": "एका वसाहतीत एक राणी असते." },
+        { "en": "Workers collect nectar from flowers.", "hi": "श्रमिक फूलों से मकरंद इकट्ठा करते हैं।", "mr": "कामकरी फुलांतून मकरंद गोळा करतात." },
+        { "en": "Workers are female bees.", "hi": "श्रमिक मादा मधुमक्खियाँ होती हैं।", "mr": "कामकरी माश्या माद्या असतात." },
+        { "en": "Drones build the honeycomb.", "hi": "ड्रोन छत्ता बनाते हैं।", "mr": "ड्रोन पोळे बांधतात." }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "The passage only says that drones are a few male bees; it says nothing about them building the honeycomb. All the other statements are given in the passage.",
+        "hi": "गद्यांश केवल यह कहता है कि ड्रोन कुछ नर मधुमक्खियाँ होते हैं; उनके छत्ता बनाने के बारे में कुछ नहीं कहता। बाकी सभी कथन गद्यांश में दिए गए हैं।",
+        "mr": "उतारा फक्त एवढेच सांगतो की ड्रोन काही नर माश्या असतात; ते पोळे बांधतात याबद्दल काहीही सांगत नाही. बाकी सर्व विधाने उताऱ्यात दिलेली आहेत."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "This is stated: each colony has one queen.",
+          "hi": "यह कहा गया है: हर कॉलोनी में एक रानी होती है।",
+          "mr": "हे सांगितले आहे: प्रत्येक वसाहतीत एक राणी असते."
+        },
+        "1": {
+          "en": "This is stated: the workers collect nectar from flowers.",
+          "hi": "यह कहा गया है: श्रमिक फूलों से मकरंद इकट्ठा करते हैं।",
+          "mr": "हे सांगितले आहे: कामकरी फुलांतून मकरंद गोळा करतात."
+        },
+        "2": {
+          "en": "This is stated: the colony has many female workers.",
+          "hi": "यह कहा गया है: कॉलोनी में अनेक मादा श्रमिक होती हैं।",
+          "mr": "हे सांगितले आहे: वसाहतीत अनेक मादी कामकरी असतात."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-la-12",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Choose the one word that can replace the phrase: a person who flies an aeroplane.",
+        "hi": "इस वाक्यांश के स्थान पर आ सकने वाला एक शब्द चुनें: a person who flies an aeroplane (हवाई जहाज़ उड़ाने वाला व्यक्ति)।",
+        "mr": "या वाक्प्रचाराच्या जागी येऊ शकणारा एक शब्द निवडा: a person who flies an aeroplane (विमान उडवणारी व्यक्ती)."
+      },
+      "optionsJson": [
+        { "en": "sailor", "hi": "sailor", "mr": "sailor" },
+        { "en": "pilot", "hi": "pilot", "mr": "pilot" },
+        { "en": "driver", "hi": "driver", "mr": "driver" },
+        { "en": "engineer", "hi": "engineer", "mr": "engineer" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "A person who flies an aeroplane is called a pilot.",
+        "hi": "हवाई जहाज़ उड़ाने वाले व्यक्ति को \"pilot\" (पायलट) कहते हैं।",
+        "mr": "विमान उडवणाऱ्या व्यक्तीला \"pilot\" (वैमानिक) म्हणतात."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "A sailor works on a ship or boat.",
+          "hi": "\"sailor\" जहाज़ या नाव पर काम करता है।",
+          "mr": "\"sailor\" जहाजावर किंवा नावेवर काम करतो."
+        },
+        "2": {
+          "en": "A driver operates a road vehicle such as a car or a bus.",
+          "hi": "\"driver\" कार या बस जैसा सड़क वाहन चलाता है।",
+          "mr": "\"driver\" कार किंवा बस यांसारखे रस्त्यावरचे वाहन चालवतो."
+        },
+        "3": {
+          "en": "An engineer designs or builds machines, buildings or systems.",
+          "hi": "\"engineer\" मशीनें, इमारतें या प्रणालियाँ बनाता या उनकी रूपरेखा तैयार करता है।",
+          "mr": "\"engineer\" यंत्रे, इमारती किंवा प्रणाली तयार करतो किंवा त्यांची रचना करतो."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-la-13",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Choose the one word that can replace the phrase: a person who cannot read or write.",
+        "hi": "इस वाक्यांश के स्थान पर आ सकने वाला एक शब्द चुनें: a person who cannot read or write (जो व्यक्ति पढ़-लिख नहीं सकता)।",
+        "mr": "या वाक्प्रचाराच्या जागी येऊ शकणारा एक शब्द निवडा: a person who cannot read or write (जी व्यक्ती वाचू-लिहू शकत नाही)."
+      },
+      "optionsJson": [
+        { "en": "literate", "hi": "literate", "mr": "literate" },
+        { "en": "innocent", "hi": "innocent", "mr": "innocent" },
+        { "en": "illiterate", "hi": "illiterate", "mr": "illiterate" },
+        { "en": "immature", "hi": "immature", "mr": "immature" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "An illiterate person is one who cannot read or write.",
+        "hi": "\"illiterate\" वह व्यक्ति है जो पढ़-लिख नहीं सकता।",
+        "mr": "\"illiterate\" म्हणजे जी व्यक्ती वाचू-लिहू शकत नाही."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "A literate person can read and write, which is the opposite.",
+          "hi": "\"literate\" व्यक्ति पढ़-लिख सकता है, जो इसके विपरीत है।",
+          "mr": "\"literate\" व्यक्ती वाचू-लिहू शकते, जे याच्या उलट आहे."
+        },
+        "1": {
+          "en": "Innocent means free from guilt or blame.",
+          "hi": "\"innocent\" का अर्थ है दोष या अपराध से मुक्त।",
+          "mr": "\"innocent\" म्हणजे दोष किंवा गुन्ह्यापासून मुक्त."
+        },
+        "3": {
+          "en": "Immature means not fully grown or not behaving in a grown-up way.",
+          "hi": "\"immature\" का अर्थ है पूरी तरह विकसित न होना या परिपक्व व्यवहार न करना।",
+          "mr": "\"immature\" म्हणजे पूर्ण वाढ न झालेला किंवा प्रौढांसारखे वर्तन न करणारा."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-la-14",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Choose the one word that can replace the phrase: a very old story passed down from earlier times, which may not be completely true.",
+        "hi": "इस वाक्यांश के स्थान पर आ सकने वाला एक शब्द चुनें: a very old story passed down from earlier times, which may not be completely true (पुराने समय से चली आ रही बहुत पुरानी कथा, जो पूरी तरह सच न भी हो)।",
+        "mr": "या वाक्प्रचाराच्या जागी येऊ शकणारा एक शब्द निवडा: a very old story passed down from earlier times, which may not be completely true (पूर्वीपासून चालत आलेली अतिशय जुनी कथा, जी पूर्णपणे खरी असेलच असे नाही)."
+      },
+      "optionsJson": [
+        { "en": "legend", "hi": "legend", "mr": "legend" },
+        { "en": "biography", "hi": "biography", "mr": "biography" },
+        { "en": "diary", "hi": "diary", "mr": "diary" },
+        { "en": "novel", "hi": "novel", "mr": "novel" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "A legend is a traditional story handed down from the past that may not be completely true.",
+        "hi": "\"legend\" (दंतकथा) अतीत से चली आ रही वह पारंपरिक कथा है जो पूरी तरह सच न भी हो।",
+        "mr": "\"legend\" (दंतकथा) म्हणजे भूतकाळापासून चालत आलेली पारंपरिक कथा, जी पूर्णपणे खरी असेलच असे नाही."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "A biography is the written life story of a real person.",
+          "hi": "\"biography\" किसी वास्तविक व्यक्ति के जीवन की लिखित कहानी होती है।",
+          "mr": "\"biography\" म्हणजे एखाद्या खऱ्या व्यक्तीच्या जीवनाची लिखित कथा."
+        },
+        "2": {
+          "en": "A diary is a personal record of daily events.",
+          "hi": "\"diary\" रोज़ की घटनाओं का निजी लेखा होती है।",
+          "mr": "\"diary\" म्हणजे रोजच्या घटनांची वैयक्तिक नोंद."
+        },
+        "3": {
+          "en": "A novel is a long made-up story in book form, not an old traditional tale.",
+          "hi": "\"novel\" पुस्तक के रूप में लंबी काल्पनिक कहानी होती है, कोई पुरानी पारंपरिक कथा नहीं।",
+          "mr": "\"novel\" म्हणजे पुस्तकरूपातील लांब काल्पनिक कथा, जुनी पारंपरिक कथा नव्हे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-la-15",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Choose the one word that can replace the phrase: a place where wild animals and birds are protected.",
+        "hi": "इस वाक्यांश के स्थान पर आ सकने वाला एक शब्द चुनें: a place where wild animals and birds are protected (वह स्थान जहाँ जंगली जानवरों और पक्षियों की रक्षा की जाती है)।",
+        "mr": "या वाक्प्रचाराच्या जागी येऊ शकणारा एक शब्द निवडा: a place where wild animals and birds are protected (जिथे वन्य प्राणी आणि पक्षी यांचे संरक्षण केले जाते असे ठिकाण)."
+      },
+      "optionsJson": [
+        { "en": "aquarium", "hi": "aquarium", "mr": "aquarium" },
+        { "en": "orchard", "hi": "orchard", "mr": "orchard" },
+        { "en": "nursery", "hi": "nursery", "mr": "nursery" },
+        { "en": "sanctuary", "hi": "sanctuary", "mr": "sanctuary" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "A sanctuary is a protected place where wild animals and birds can live safely.",
+        "hi": "\"sanctuary\" (अभयारण्य) वह सुरक्षित स्थान है जहाँ जंगली जानवर और पक्षी सुरक्षित रह सकते हैं।",
+        "mr": "\"sanctuary\" (अभयारण्य) हे असे संरक्षित ठिकाण आहे जिथे वन्य प्राणी आणि पक्षी सुरक्षितपणे राहू शकतात."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "An aquarium is a place where fish and other water animals are kept for people to see.",
+          "hi": "\"aquarium\" वह स्थान है जहाँ मछलियाँ और अन्य जलचर लोगों के देखने के लिए रखे जाते हैं।",
+          "mr": "\"aquarium\" म्हणजे जिथे मासे आणि इतर जलचर लोकांना पाहण्यासाठी ठेवले जातात असे ठिकाण."
+        },
+        "1": {
+          "en": "An orchard is a place where fruit trees are grown.",
+          "hi": "\"orchard\" वह स्थान है जहाँ फलों के पेड़ उगाए जाते हैं।",
+          "mr": "\"orchard\" म्हणजे जिथे फळझाडे लावली जातात असे ठिकाण."
+        },
+        "2": {
+          "en": "A nursery is a place where young plants are grown or very small children are looked after.",
+          "hi": "\"nursery\" वह स्थान है जहाँ छोटे पौधे उगाए जाते हैं या बहुत छोटे बच्चों की देखभाल होती है।",
+          "mr": "\"nursery\" म्हणजे जिथे लहान रोपे वाढवली जातात किंवा अगदी लहान मुलांची काळजी घेतली जाते असे ठिकाण."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-la-16",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Choose the word closest in meaning to \"swift\".",
+        "hi": "\"swift\" के अर्थ के सबसे निकट का शब्द चुनें।",
+        "mr": "\"swift\" या शब्दाच्या अर्थाच्या सर्वात जवळचा शब्द निवडा."
+      },
+      "optionsJson": [
+        { "en": "slow", "hi": "slow", "mr": "slow" },
+        { "en": "quick", "hi": "quick", "mr": "quick" },
+        { "en": "weak", "hi": "weak", "mr": "weak" },
+        { "en": "heavy", "hi": "heavy", "mr": "heavy" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "\"Swift\" means moving fast, so \"quick\" is closest in meaning.",
+        "hi": "\"Swift\" का अर्थ है तेज़ गति वाला, इसलिए \"quick\" अर्थ में सबसे निकट है।",
+        "mr": "\"Swift\" म्हणजे वेगाने जाणारा, म्हणून \"quick\" हा अर्थाच्या सर्वात जवळचा शब्द आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "\"Slow\" is the opposite of \"swift\".",
+          "hi": "\"slow\" शब्द \"swift\" का विलोम है।",
+          "mr": "\"slow\" हा \"swift\" चा विरुद्धार्थी शब्द आहे."
+        },
+        "2": {
+          "en": "\"Weak\" means lacking strength, which is not related to speed.",
+          "hi": "\"weak\" का अर्थ है कमज़ोर, जिसका गति से संबंध नहीं है।",
+          "mr": "\"weak\" म्हणजे दुबळा, ज्याचा वेगाशी संबंध नाही."
+        },
+        "3": {
+          "en": "\"Heavy\" means having great weight.",
+          "hi": "\"heavy\" का अर्थ है भारी वज़न वाला।",
+          "mr": "\"heavy\" म्हणजे जास्त वजनाचा."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-la-17",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Choose the word opposite in meaning to \"ancient\".",
+        "hi": "\"ancient\" का विलोम (विपरीतार्थक) शब्द चुनें।",
+        "mr": "\"ancient\" या शब्दाचा विरुद्धार्थी शब्द निवडा."
+      },
+      "optionsJson": [
+        { "en": "old", "hi": "old", "mr": "old" },
+        { "en": "historic", "hi": "historic", "mr": "historic" },
+        { "en": "antique", "hi": "antique", "mr": "antique" },
+        { "en": "modern", "hi": "modern", "mr": "modern" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "\"Ancient\" means belonging to a very distant past, so its opposite is \"modern\".",
+        "hi": "\"Ancient\" का अर्थ है बहुत प्राचीन काल का, इसलिए इसका विलोम \"modern\" है।",
+        "mr": "\"Ancient\" म्हणजे फार प्राचीन काळातील, म्हणून त्याचा विरुद्धार्थी शब्द \"modern\" आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "\"Old\" is similar in meaning to \"ancient\", not opposite.",
+          "hi": "\"old\" का अर्थ \"ancient\" के समान है, विपरीत नहीं।",
+          "mr": "\"old\" चा अर्थ \"ancient\" सारखाच आहे, विरुद्ध नाही."
+        },
+        "1": {
+          "en": "\"Historic\" relates to the past, so it is not opposite.",
+          "hi": "\"historic\" का संबंध भूतकाल से है, इसलिए यह विपरीत नहीं है।",
+          "mr": "\"historic\" चा संबंध भूतकाळाशी आहे, म्हणून तो विरुद्ध नाही."
+        },
+        "2": {
+          "en": "\"Antique\" means old and valuable, which is similar to \"ancient\".",
+          "hi": "\"antique\" का अर्थ है पुराना और मूल्यवान, जो \"ancient\" के समान है।",
+          "mr": "\"antique\" म्हणजे जुने आणि मौल्यवान, जे \"ancient\" सारखेच आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-la-18",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Choose the correct word to fill the blank: Neither of the two boys ___ present in the class yesterday.",
+        "hi": "रिक्त स्थान के लिए सही शब्द चुनें: Neither of the two boys ___ present in the class yesterday.",
+        "mr": "रिकाम्या जागेसाठी योग्य शब्द निवडा: Neither of the two boys ___ present in the class yesterday."
+      },
+      "optionsJson": [
+        { "en": "were", "hi": "were", "mr": "were" },
+        { "en": "was", "hi": "was", "mr": "was" },
+        { "en": "are", "hi": "are", "mr": "are" },
+        { "en": "have been", "hi": "have been", "mr": "have been" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "\"Neither of\" takes a singular verb, and \"yesterday\" shows past time, so \"was\" is correct.",
+        "hi": "\"Neither of\" के साथ एकवचन क्रिया आती है और \"yesterday\" भूतकाल दर्शाता है, इसलिए \"was\" सही है।",
+        "mr": "\"Neither of\" सोबत एकवचनी क्रियापद येते आणि \"yesterday\" भूतकाळ दर्शवतो, म्हणून \"was\" योग्य आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "\"Were\" is a plural verb, but \"neither\" is treated as singular.",
+          "hi": "\"were\" बहुवचन क्रिया है, पर \"neither\" को एकवचन माना जाता है।",
+          "mr": "\"were\" हे अनेकवचनी क्रियापद आहे, पण \"neither\" एकवचनी मानले जाते."
+        },
+        "2": {
+          "en": "\"Are\" is present tense, but \"yesterday\" needs the past tense.",
+          "hi": "\"are\" वर्तमान काल है, पर \"yesterday\" के साथ भूतकाल चाहिए।",
+          "mr": "\"are\" वर्तमानकाळ आहे, पण \"yesterday\" सोबत भूतकाळ हवा."
+        },
+        "3": {
+          "en": "\"Have been\" is a plural present-perfect form and does not fit with \"yesterday\".",
+          "hi": "\"have been\" बहुवचन वर्तमान पूर्ण रूप है और \"yesterday\" के साथ ठीक नहीं बैठता।",
+          "mr": "\"have been\" हे अनेकवचनी पूर्ण वर्तमानकाळी रूप आहे आणि \"yesterday\" सोबत जुळत नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-la-19",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Choose the correct word to fill the blank: She has been learning the violin ___ 2021.",
+        "hi": "रिक्त स्थान के लिए सही शब्द चुनें: She has been learning the violin ___ 2021.",
+        "mr": "रिकाम्या जागेसाठी योग्य शब्द निवडा: She has been learning the violin ___ 2021."
+      },
+      "optionsJson": [
+        { "en": "since", "hi": "since", "mr": "since" },
+        { "en": "for", "hi": "for", "mr": "for" },
+        { "en": "from", "hi": "from", "mr": "from" },
+        { "en": "by", "hi": "by", "mr": "by" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "\"Since\" is used with a fixed starting point in time, such as the year 2021.",
+        "hi": "\"Since\" का प्रयोग समय के किसी निश्चित आरंभ बिंदु के साथ होता है, जैसे वर्ष 2021।",
+        "mr": "\"Since\" चा वापर काळातील एखाद्या निश्चित सुरुवातीच्या बिंदूसोबत होतो, जसे की 2021 हे वर्ष."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "\"For\" is used with a length of time (for three years), not a starting year.",
+          "hi": "\"for\" का प्रयोग समय की अवधि के साथ होता है (for three years), आरंभ वर्ष के साथ नहीं।",
+          "mr": "\"for\" चा वापर कालावधीसोबत होतो (for three years), सुरुवातीच्या वर्षासोबत नाही."
+        },
+        "2": {
+          "en": "\"From\" does not fit with the present perfect continuous \"has been learning\".",
+          "hi": "\"from\" वर्तमान पूर्ण सतत काल \"has been learning\" के साथ ठीक नहीं बैठता।",
+          "mr": "\"from\" हे पूर्ण वर्तमानकाळ चालू रूप \"has been learning\" सोबत जुळत नाही."
+        },
+        "3": {
+          "en": "\"By\" means \"not later than\" a time, which does not suit this sentence.",
+          "hi": "\"by\" का अर्थ है किसी समय \"तक\", जो इस वाक्य में उपयुक्त नहीं है।",
+          "mr": "\"by\" म्हणजे एखाद्या वेळेपर्यंत, जे या वाक्यात योग्य नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-la-20",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Choose the correctly spelt word.",
+        "hi": "सही वर्तनी (spelling) वाला शब्द चुनें।",
+        "mr": "अचूक स्पेलिंग असलेला शब्द निवडा."
+      },
+      "optionsJson": [
+        { "en": "Accomodate", "hi": "Accomodate", "mr": "Accomodate" },
+        { "en": "Acommodate", "hi": "Acommodate", "mr": "Acommodate" },
+        { "en": "Accommodate", "hi": "Accommodate", "mr": "Accommodate" },
+        { "en": "Acomodate", "hi": "Acomodate", "mr": "Acomodate" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "\"Accommodate\" is spelt with a double c and a double m.",
+        "hi": "\"Accommodate\" में दो c और दो m आते हैं।",
+        "mr": "\"Accommodate\" मध्ये दोन c आणि दोन m येतात."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "\"Accomodate\" has only one m.",
+          "hi": "\"Accomodate\" में केवल एक m है।",
+          "mr": "\"Accomodate\" मध्ये फक्त एक m आहे."
+        },
+        "1": {
+          "en": "\"Acommodate\" has only one c at the start.",
+          "hi": "\"Acommodate\" में शुरुआत में केवल एक c है।",
+          "mr": "\"Acommodate\" मध्ये सुरुवातीला फक्त एक c आहे."
+        },
+        "3": {
+          "en": "\"Acomodate\" is missing a c and an m.",
+          "hi": "\"Acomodate\" में एक c और एक m कम है।",
+          "mr": "\"Acomodate\" मध्ये एक c आणि एक m कमी आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-la-21",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Choose the correct meaning of the idiom \"a piece of cake\".",
+        "hi": "मुहावरे \"a piece of cake\" का सही अर्थ चुनें।",
+        "mr": "\"a piece of cake\" या वाक्प्रचाराचा योग्य अर्थ निवडा."
+      },
+      "optionsJson": [
+        { "en": "A small share of something", "hi": "किसी चीज़ का छोटा हिस्सा", "mr": "एखाद्या गोष्टीचा लहान वाटा" },
+        { "en": "A treat given on a birthday", "hi": "जन्मदिन पर दी जाने वाली दावत", "mr": "वाढदिवसाला दिली जाणारी मेजवानी" },
+        { "en": "Something very sweet", "hi": "कोई बहुत मीठी चीज़", "mr": "एखादी खूप गोड गोष्ट" },
+        { "en": "Something very easy to do", "hi": "कोई बहुत आसान काम", "mr": "करायला अतिशय सोपे असे काम" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "\"A piece of cake\" is an idiom for a task that is very easy to do.",
+        "hi": "\"A piece of cake\" ऐसे काम के लिए प्रयुक्त मुहावरा है जो करने में बहुत आसान हो।",
+        "mr": "\"A piece of cake\" हा वाक्प्रचार करायला अतिशय सोप्या कामासाठी वापरला जातो."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The idiom is about how easy a task is, not about a share of something.",
+          "hi": "यह मुहावरा काम की आसानी के बारे में है, किसी चीज़ के हिस्से के बारे में नहीं।",
+          "mr": "हा वाक्प्रचार कामाच्या सोपेपणाबद्दल आहे, एखाद्या गोष्टीच्या वाट्याबद्दल नाही."
+        },
+        "1": {
+          "en": "The idiom has nothing to do with birthdays; it is not meant literally.",
+          "hi": "इस मुहावरे का जन्मदिन से कोई संबंध नहीं है; इसे शाब्दिक अर्थ में नहीं लिया जाता।",
+          "mr": "या वाक्प्रचाराचा वाढदिवसाशी काहीही संबंध नाही; तो शब्दशः अर्थाने घ्यायचा नसतो."
+        },
+        "2": {
+          "en": "The idiom is not about taste; it describes how easy something is.",
+          "hi": "यह मुहावरा स्वाद के बारे में नहीं है; यह किसी काम की आसानी बताता है।",
+          "mr": "हा वाक्प्रचार चवीबद्दल नाही; तो एखादी गोष्ट किती सोपी आहे ते सांगतो."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-la-22",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Choose the correct question tag: You haven't finished your homework, ___?",
+        "hi": "सही प्रश्न-टैग (question tag) चुनें: You haven't finished your homework, ___?",
+        "mr": "योग्य प्रश्नचिन्ह-जोड (question tag) निवडा: You haven't finished your homework, ___?"
+      },
+      "optionsJson": [
+        { "en": "haven't you", "hi": "haven't you", "mr": "haven't you" },
+        { "en": "have you", "hi": "have you", "mr": "have you" },
+        { "en": "did you", "hi": "did you", "mr": "did you" },
+        { "en": "do you", "hi": "do you", "mr": "do you" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "After a negative statement the tag is positive, and the helping verb \"have\" is repeated, so the tag is \"have you?\".",
+        "hi": "नकारात्मक कथन के बाद टैग सकारात्मक होता है और सहायक क्रिया \"have\" दोहराई जाती है, इसलिए टैग \"have you?\" है।",
+        "mr": "नकारार्थी विधानानंतर जोड होकारार्थी असतो आणि सहायक क्रियापद \"have\" पुन्हा येते, म्हणून जोड \"have you?\" आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "\"Haven't you\" is negative; after a negative statement the tag must be positive.",
+          "hi": "\"haven't you\" नकारात्मक है; नकारात्मक कथन के बाद टैग सकारात्मक होना चाहिए।",
+          "mr": "\"haven't you\" नकारार्थी आहे; नकारार्थी विधानानंतर जोड होकारार्थी हवा."
+        },
+        "2": {
+          "en": "\"Did you\" uses the wrong helping verb; the statement uses \"have\".",
+          "hi": "\"did you\" में गलत सहायक क्रिया है; कथन में \"have\" का प्रयोग है।",
+          "mr": "\"did you\" मध्ये चुकीचे सहायक क्रियापद आहे; विधानात \"have\" वापरले आहे."
+        },
+        "3": {
+          "en": "\"Do you\" also uses the wrong helping verb for this statement.",
+          "hi": "\"do you\" में भी इस कथन के लिए गलत सहायक क्रिया है।",
+          "mr": "\"do you\" मध्येही या विधानासाठी चुकीचे सहायक क्रियापद आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-la-23",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Choose the correct word to fill the blank: I could not ___ the teacher's voice from the back of the hall.",
+        "hi": "रिक्त स्थान के लिए सही शब्द चुनें: I could not ___ the teacher's voice from the back of the hall.",
+        "mr": "रिकाम्या जागेसाठी योग्य शब्द निवडा: I could not ___ the teacher's voice from the back of the hall."
+      },
+      "optionsJson": [
+        { "en": "hear", "hi": "hear", "mr": "hear" },
+        { "en": "here", "hi": "here", "mr": "here" },
+        { "en": "hair", "hi": "hair", "mr": "hair" },
+        { "en": "heir", "hi": "heir", "mr": "heir" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "\"Hear\" means to take in sound through the ears, which fits a voice.",
+        "hi": "\"Hear\" का अर्थ है कानों से आवाज़ सुनना, जो आवाज़ के साथ ठीक बैठता है।",
+        "mr": "\"Hear\" म्हणजे कानांनी आवाज ऐकणे, जे आवाजासोबत योग्य बसते."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "\"Here\" means in this place; it sounds the same but has a different meaning.",
+          "hi": "\"here\" का अर्थ है इस जगह; उच्चारण समान है पर अर्थ अलग है।",
+          "mr": "\"here\" म्हणजे या ठिकाणी; उच्चार सारखा आहे पण अर्थ वेगळा आहे."
+        },
+        "2": {
+          "en": "\"Hair\" is what grows on the head; it does not fit the sentence.",
+          "hi": "\"hair\" सिर पर उगने वाले बाल हैं; यह वाक्य में नहीं बैठता।",
+          "mr": "\"hair\" म्हणजे डोक्यावर वाढणारे केस; ते वाक्यात बसत नाही."
+        },
+        "3": {
+          "en": "\"Heir\" means a person who inherits property; it does not fit the sentence.",
+          "hi": "\"heir\" का अर्थ है संपत्ति का उत्तराधिकारी; यह वाक्य में नहीं बैठता।",
+          "mr": "\"heir\" म्हणजे मालमत्तेचा वारस; ते वाक्यात बसत नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-la-24",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Choose the correct word to fill the blank: Mount Everest is the ___ mountain in the world.",
+        "hi": "रिक्त स्थान के लिए सही शब्द चुनें: Mount Everest is the ___ mountain in the world.",
+        "mr": "रिकाम्या जागेसाठी योग्य शब्द निवडा: Mount Everest is the ___ mountain in the world."
+      },
+      "optionsJson": [
+        { "en": "high", "hi": "high", "mr": "high" },
+        { "en": "highest", "hi": "highest", "mr": "highest" },
+        { "en": "higher", "hi": "higher", "mr": "higher" },
+        { "en": "more high", "hi": "more high", "mr": "more high" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "\"The\" and \"in the world\" show that we are comparing one mountain with all others, so the superlative \"highest\" is needed.",
+        "hi": "\"The\" और \"in the world\" दिखाते हैं कि एक पर्वत की तुलना बाकी सभी से हो रही है, इसलिए उत्तमावस्था \"highest\" चाहिए।",
+        "mr": "\"The\" आणि \"in the world\" यावरून एका पर्वताची इतर सर्वांशी तुलना होत आहे हे दिसते, म्हणून सर्वोत्कृष्टतादर्शक रूप \"highest\" हवे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "\"High\" is the plain form and does not show comparison with all others.",
+          "hi": "\"high\" मूल रूप है और सभी से तुलना नहीं दर्शाता।",
+          "mr": "\"high\" हे मूळ रूप आहे आणि सर्वांशी तुलना दर्शवत नाही."
+        },
+        "2": {
+          "en": "\"Higher\" compares only two things and is normally followed by \"than\".",
+          "hi": "\"higher\" केवल दो चीज़ों की तुलना करता है और सामान्यतः उसके बाद \"than\" आता है।",
+          "mr": "\"higher\" फक्त दोन गोष्टींची तुलना करते आणि सहसा त्यानंतर \"than\" येते."
+        },
+        "3": {
+          "en": "\"More high\" is not correct English; short adjectives like \"high\" take -er and -est.",
+          "hi": "\"more high\" सही अंग्रेज़ी नहीं है; \"high\" जैसे छोटे विशेषण -er और -est लेते हैं।",
+          "mr": "\"more high\" हे बरोबर इंग्रजी नाही; \"high\" सारखी लहान विशेषणे -er आणि -est घेतात."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-la-25",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Choose the correct passive voice of the sentence: The farmer sows the seeds.",
+        "hi": "इस वाक्य का सही कर्मवाच्य (passive voice) चुनें: The farmer sows the seeds.",
+        "mr": "या वाक्याचे योग्य कर्मणी रूप (passive voice) निवडा: The farmer sows the seeds."
+      },
+      "optionsJson": [
+        { "en": "The seeds were sown by the farmer.", "hi": "The seeds were sown by the farmer.", "mr": "The seeds were sown by the farmer." },
+        { "en": "The seeds is sown by the farmer.", "hi": "The seeds is sown by the farmer.", "mr": "The seeds is sown by the farmer." },
+        { "en": "The seeds are sown by the farmer.", "hi": "The seeds are sown by the farmer.", "mr": "The seeds are sown by the farmer." },
+        { "en": "The seeds are being sown by the farmer.", "hi": "The seeds are being sown by the farmer.", "mr": "The seeds are being sown by the farmer." }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The active sentence is in the simple present tense, so the passive uses \"is/are + past participle\"; \"seeds\" is plural, so \"are sown\" is correct.",
+        "hi": "सक्रिय वाक्य सामान्य वर्तमान काल में है, इसलिए कर्मवाच्य में \"is/are + past participle\" आता है; \"seeds\" बहुवचन है, अतः \"are sown\" सही है।",
+        "mr": "कर्तरी वाक्य साध्या वर्तमानकाळात आहे, म्हणून कर्मणी रूपात \"is/are + past participle\" येते; \"seeds\" अनेकवचनी आहे, म्हणून \"are sown\" योग्य आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "\"Were sown\" changes the sentence to the past tense.",
+          "hi": "\"were sown\" वाक्य को भूतकाल में बदल देता है।",
+          "mr": "\"were sown\" वाक्याला भूतकाळात बदलते."
+        },
+        "1": {
+          "en": "\"Is\" does not agree with the plural noun \"seeds\".",
+          "hi": "\"is\" बहुवचन संज्ञा \"seeds\" के साथ मेल नहीं खाता।",
+          "mr": "\"is\" हे अनेकवचनी नाम \"seeds\" शी जुळत नाही."
+        },
+        "3": {
+          "en": "\"Are being sown\" is present continuous, which changes the tense of the sentence.",
+          "hi": "\"are being sown\" चालू वर्तमान काल है, जो वाक्य का काल बदल देता है।",
+          "mr": "\"are being sown\" हा चालू वर्तमानकाळ आहे, जो वाक्याचा काळ बदलतो."
+        }
+      }
+    }
+  ]
+}

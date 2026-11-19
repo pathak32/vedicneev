@@ -1,0 +1,484 @@
+{
+  "examType": "RMS",
+  "classLevel": 9,
+  "paperNumber": 5,
+  "sectionKey": "mathematics",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "rms9-p5-mt-26",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which of the following is an irrational number?", "hi": "निम्नलिखित में से कौन-सी संख्या अपरिमेय है?" },
+      "optionsJson": [
+        { "en": "0.25", "hi": "0.25" },
+        { "en": "√2 + 3", "hi": "√2 + 3" },
+        { "en": "√(49/16)", "hi": "√(49/16)" },
+        { "en": "0.777… (7 repeating)", "hi": "0.777… (7 की पुनरावृत्ति)" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "√2 is irrational, and adding the rational number 3 to it keeps it irrational. 0.25 = 1/4, √(49/16) = 7/4 and 0.777… = 7/9 are all rational.", "hi": "√2 अपरिमेय है और उसमें परिमेय संख्या 3 जोड़ने पर भी वह अपरिमेय ही रहती है। 0.25 = 1/4, √(49/16) = 7/4 और 0.777… = 7/9 सभी परिमेय हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "0.25 is a terminating decimal equal to 1/4, so it is rational.", "hi": "0.25 सांत दशमलव है जो 1/4 के बराबर है, इसलिए यह परिमेय है।" },
+        "2": { "en": "The square root of 49/16 is the perfect-square ratio 7/4, which is rational.", "hi": "49/16 का वर्गमूल पूर्ण वर्ग अनुपात 7/4 है, जो परिमेय है।" },
+        "3": { "en": "A non-terminating repeating decimal is rational; 0.777… = 7/9.", "hi": "असांत आवर्ती दशमलव परिमेय होता है; 0.777… = 7/9।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-27",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Two numbers are in the ratio 3 : 5. If 10 is added to each, the ratio becomes 5 : 7. What is the smaller number?", "hi": "दो संख्याएँ 3 : 5 के अनुपात में हैं। यदि प्रत्येक में 10 जोड़ा जाए, तो अनुपात 5 : 7 हो जाता है। छोटी संख्या क्या है?" },
+      "optionsJson": [
+        { "en": "9", "hi": "9" },
+        { "en": "12", "hi": "12" },
+        { "en": "15", "hi": "15" },
+        { "en": "18", "hi": "18" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Let the numbers be 3k and 5k. Then (3k + 10)/(5k + 10) = 5/7, so 21k + 70 = 25k + 50, giving k = 5. The smaller number is 3 × 5 = 15 (the numbers are 15 and 25).", "hi": "माना संख्याएँ 3k और 5k हैं। तब (3k + 10)/(5k + 10) = 5/7, अतः 21k + 70 = 25k + 50, जिससे k = 5। छोटी संख्या 3 × 5 = 15 है (संख्याएँ 15 और 25 हैं)।" },
+      "distractorAnalysis": {
+        "0": { "en": "Takes k = 3, which does not satisfy the new ratio 5 : 7.", "hi": "k = 3 लिया, जो नए अनुपात 5 : 7 को संतुष्ट नहीं करता।" },
+        "1": { "en": "Takes k = 4, giving 12 and 20; after adding 10 the ratio is 22 : 30, not 5 : 7.", "hi": "k = 4 लिया, जिससे 12 और 20 मिलते हैं; 10 जोड़ने पर अनुपात 22 : 30 होता है, 5 : 7 नहीं।" },
+        "3": { "en": "Takes k = 6, giving 18 and 30; after adding 10 the ratio is 28 : 40, not 5 : 7.", "hi": "k = 6 लिया, जिससे 18 और 30 मिलते हैं; 10 जोड़ने पर अनुपात 28 : 40 होता है, 5 : 7 नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-28",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "The price of a notebook rose from ₹250 to ₹300. What is the percentage increase in its price?", "hi": "एक कॉपी का मूल्य ₹250 से बढ़कर ₹300 हो गया। उसके मूल्य में प्रतिशत वृद्धि कितनी है?" },
+      "optionsJson": [
+        { "en": "15%", "hi": "15%" },
+        { "en": "16%", "hi": "16%" },
+        { "en": "18%", "hi": "18%" },
+        { "en": "20%", "hi": "20%" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Increase = 300 − 250 = ₹50. Percentage increase = (50/250) × 100 = 20%.", "hi": "वृद्धि = 300 − 250 = ₹50। प्रतिशत वृद्धि = (50/250) × 100 = 20%।" },
+      "distractorAnalysis": {
+        "0": { "en": "Arithmetic estimate; 15% of 250 is only ₹37.50, not ₹50.", "hi": "अनुमान की भूल; 250 का 15% केवल ₹37.50 है, ₹50 नहीं।" },
+        "1": { "en": "Divides the increase by the new price (50/300 ≈ 16.7%) instead of the original price.", "hi": "वृद्धि को मूल मूल्य के बजाय नए मूल्य से भाग दिया (50/300 ≈ 16.7%)।" },
+        "2": { "en": "Arithmetic slip; 18% of 250 is ₹45, not ₹50.", "hi": "गणना की भूल; 250 का 18% ₹45 है, ₹50 नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-29",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A grocer mixes 40 kg of rice costing ₹45 per kg with 60 kg of rice costing ₹50 per kg. He sells the whole mixture at ₹54 per kg. What is his profit percentage?", "hi": "एक दुकानदार ₹45 प्रति किग्रा वाले 40 किग्रा चावल को ₹50 प्रति किग्रा वाले 60 किग्रा चावल में मिलाता है। वह पूरे मिश्रण को ₹54 प्रति किग्रा की दर से बेचता है। उसका लाभ प्रतिशत कितना है?" },
+      "optionsJson": [
+        { "en": "12.5%", "hi": "12.5%" },
+        { "en": "10%", "hi": "10%" },
+        { "en": "15%", "hi": "15%" },
+        { "en": "8%", "hi": "8%" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Total cost = 40 × 45 + 60 × 50 = 1800 + 3000 = ₹4800. Total selling price = 100 × 54 = ₹5400. Profit = ₹600, so profit% = (600/4800) × 100 = 12.5%.", "hi": "कुल क्रय मूल्य = 40 × 45 + 60 × 50 = 1800 + 3000 = ₹4800। कुल विक्रय मूल्य = 100 × 54 = ₹5400। लाभ = ₹600, अतः लाभ% = (600/4800) × 100 = 12.5%।" },
+      "distractorAnalysis": {
+        "1": { "en": "Rounds the profit fraction 600/4800 = 12.5% down to 10%.", "hi": "लाभ भिन्न 600/4800 = 12.5% को घटाकर 10% मान लिया।" },
+        "2": { "en": "Rounds the profit fraction 600/4800 = 12.5% up to 15%.", "hi": "लाभ भिन्न 600/4800 = 12.5% को बढ़ाकर 15% मान लिया।" },
+        "3": { "en": "Uses a wrong total cost, so the profit per kg and the percentage both come out too small.", "hi": "कुल क्रय मूल्य गलत लिया, जिससे प्रति किग्रा लाभ और प्रतिशत दोनों कम आए।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-30",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A sum of money amounts to ₹5,800 in 2 years and to ₹7,000 in 5 years at simple interest. What is the rate of interest per annum?", "hi": "कोई धनराशि साधारण ब्याज पर 2 वर्ष में ₹5,800 और 5 वर्ष में ₹7,000 हो जाती है। ब्याज की वार्षिक दर क्या है?" },
+      "optionsJson": [
+        { "en": "6%", "hi": "6%" },
+        { "en": "7%", "hi": "7%" },
+        { "en": "8%", "hi": "8%" },
+        { "en": "10%", "hi": "10%" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Interest for 3 years (from year 2 to year 5) = 7000 − 5800 = ₹1200, so yearly interest = ₹400. Principal = 5800 − 2 × 400 = ₹5000. Rate = (400/5000) × 100 = 8%.", "hi": "3 वर्षों (दूसरे से पाँचवें वर्ष) का ब्याज = 7000 − 5800 = ₹1200, अतः वार्षिक ब्याज = ₹400। मूलधन = 5800 − 2 × 400 = ₹5000। दर = (400/5000) × 100 = 8%।" },
+      "distractorAnalysis": {
+        "0": { "en": "Divides the yearly interest ₹400 by the final amount ₹7,000 (about 6%) instead of by the principal.", "hi": "वार्षिक ब्याज ₹400 को मूलधन के बजाय अंतिम मिश्रधन ₹7,000 से भाग दिया (लगभग 6%)।" },
+        "1": { "en": "Divides the yearly interest ₹400 by the 2-year amount ₹5,800 (about 7%) instead of by the principal.", "hi": "वार्षिक ब्याज ₹400 को मूलधन के बजाय 2 वर्ष के मिश्रधन ₹5,800 से भाग दिया (लगभग 7%)।" },
+        "3": { "en": "Takes the principal as ₹4,000 instead of ₹5,000, giving 400/4000 = 10%.", "hi": "मूलधन ₹5,000 के बजाय ₹4,000 लिया, जिससे 400/4000 = 10% आया।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-31",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "What is the difference between the compound interest (compounded annually) and the simple interest on ₹8,000 for 2 years at 5% per annum?", "hi": "₹8,000 पर 5% वार्षिक दर से 2 वर्ष का चक्रवृद्धि ब्याज (वार्षिक संयोजित) और साधारण ब्याज का अंतर कितना है?" },
+      "optionsJson": [
+        { "en": "₹15", "hi": "₹15" },
+        { "en": "₹20", "hi": "₹20" },
+        { "en": "₹25", "hi": "₹25" },
+        { "en": "₹40", "hi": "₹40" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "SI = 8000 × 5 × 2 / 100 = ₹800. Amount at CI = 8000 × (1.05)² = ₹8820, so CI = ₹820. Difference = 820 − 800 = ₹20 (also P(r/100)² = 8000 × 0.0025 = ₹20).", "hi": "साधारण ब्याज = 8000 × 5 × 2 / 100 = ₹800। चक्रवृद्धि मिश्रधन = 8000 × (1.05)² = ₹8820, अतः चक्रवृद्धि ब्याज = ₹820। अंतर = 820 − 800 = ₹20 (सूत्र P(r/100)² = 8000 × 0.0025 = ₹20)।" },
+      "distractorAnalysis": {
+        "0": { "en": "Arithmetic slip while squaring 1.05 or subtracting the interests.", "hi": "1.05 का वर्ग करने या ब्याजों को घटाने में गणना की भूल।" },
+        "2": { "en": "Arithmetic slip in the second-year interest, taking CI as ₹825 instead of ₹820.", "hi": "दूसरे वर्ष के ब्याज की गणना में भूल, चक्रवृद्धि ब्याज ₹820 के बजाय ₹825 लिया।" },
+        "3": { "en": "Doubles the correct difference by counting the interest-on-interest twice.", "hi": "ब्याज पर ब्याज को दो बार गिनकर सही अंतर को दुगुना कर दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-32",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A can complete a piece of work in 15 days and B can complete it in 10 days. They work together for 4 days, after which B leaves. How many days will A alone take to finish the remaining work?", "hi": "A किसी काम को 15 दिन में और B उसी काम को 10 दिन में पूरा कर सकता है। दोनों 4 दिन साथ काम करते हैं, उसके बाद B काम छोड़ देता है। शेष काम को अकेला A कितने दिनों में पूरा करेगा?" },
+      "optionsJson": [
+        { "en": "2 days", "hi": "2 दिन" },
+        { "en": "3 days", "hi": "3 दिन" },
+        { "en": "4 days", "hi": "4 दिन" },
+        { "en": "5 days", "hi": "5 दिन" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Together they do 1/15 + 1/10 = 1/6 of the work per day, so in 4 days they finish 4/6 = 2/3. Remaining work = 1/3. A alone does 1/15 per day, so the time needed = (1/3) ÷ (1/15) = 5 days.", "hi": "दोनों मिलकर प्रतिदिन 1/15 + 1/10 = 1/6 काम करते हैं, अतः 4 दिन में 4/6 = 2/3 काम पूरा होता है। शेष काम = 1/3। A अकेला प्रतिदिन 1/15 काम करता है, अतः आवश्यक समय = (1/3) ÷ (1/15) = 5 दिन।" },
+      "distractorAnalysis": {
+        "0": { "en": "Uses the combined rate 1/6 instead of A's rate 1/15 for the remaining work.", "hi": "शेष काम के लिए A की दर 1/15 के बजाय संयुक्त दर 1/6 का प्रयोग किया।" },
+        "1": { "en": "Computes the remaining work incorrectly as 1/5 instead of 1/3.", "hi": "शेष काम 1/3 के बजाय गलती से 1/5 निकाला।" },
+        "2": { "en": "Takes the remaining work as 4/15 (what A alone does in 4 days) instead of 1/3, so (4/15) ÷ (1/15) = 4 days.", "hi": "शेष काम 1/3 के बजाय 4/15 (A द्वारा 4 दिन में किया गया काम) मान लिया, जिससे (4/15) ÷ (1/15) = 4 दिन आए।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-33",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": { "en": "A and B together can do a job in 12 days, B and C together in 15 days, and C and A together in 20 days. In how many days can A, B and C together finish the job?", "hi": "A और B मिलकर किसी काम को 12 दिन में, B और C मिलकर 15 दिन में तथा C और A मिलकर 20 दिन में पूरा कर सकते हैं। A, B और C तीनों मिलकर वह काम कितने दिन में पूरा करेंगे?" },
+      "optionsJson": [
+        { "en": "10 days", "hi": "10 दिन" },
+        { "en": "8 days", "hi": "8 दिन" },
+        { "en": "9 days", "hi": "9 दिन" },
+        { "en": "12 days", "hi": "12 दिन" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Adding the three rates: 2(A + B + C) = 1/12 + 1/15 + 1/20 = (5 + 4 + 3)/60 = 12/60 = 1/5. So A + B + C = 1/10 of the job per day, and the job takes 10 days.", "hi": "तीनों दरों को जोड़ने पर: 2(A + B + C) = 1/12 + 1/15 + 1/20 = (5 + 4 + 3)/60 = 12/60 = 1/5। अतः A + B + C = प्रतिदिन 1/10 काम, और काम 10 दिन में पूरा होगा।" },
+      "distractorAnalysis": {
+        "1": { "en": "8 days would mean 1/8 of the job per day, which is more than the correct combined rate of 1/10 (half of 2(A + B + C) = 1/5).", "hi": "8 दिन का अर्थ प्रतिदिन 1/8 काम होगा, जो सही संयुक्त दर 1/10 (2(A + B + C) = 1/5 का आधा) से अधिक है।" },
+        "2": { "en": "Arithmetic slip in adding the three fractions 1/12, 1/15 and 1/20.", "hi": "तीनों भिन्नों 1/12, 1/15 और 1/20 को जोड़ने में गणना की भूल।" },
+        "3": { "en": "Picks the time of the pair (A and B) rather than the three together.", "hi": "तीनों के बजाय जोड़ी (A और B) का समय चुन लिया।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-34",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A train 150 m long passes a pole in 15 seconds. How long will it take to cross a platform 250 m long at the same speed?", "hi": "150 मीटर लंबी एक रेलगाड़ी एक खंभे को 15 सेकंड में पार करती है। उसी चाल से 250 मीटर लंबे प्लेटफ़ॉर्म को पार करने में उसे कितना समय लगेगा?" },
+      "optionsJson": [
+        { "en": "25 seconds", "hi": "25 सेकंड" },
+        { "en": "30 seconds", "hi": "30 सेकंड" },
+        { "en": "40 seconds", "hi": "40 सेकंड" },
+        { "en": "45 seconds", "hi": "45 सेकंड" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Speed = 150/15 = 10 m/s. To cross the platform the train covers its own length plus the platform: 150 + 250 = 400 m. Time = 400/10 = 40 seconds.", "hi": "चाल = 150/15 = 10 मी/से। प्लेटफ़ॉर्म पार करने के लिए गाड़ी को अपनी लंबाई और प्लेटफ़ॉर्म की लंबाई मिलाकर 150 + 250 = 400 मीटर चलना होता है। समय = 400/10 = 40 सेकंड।" },
+      "distractorAnalysis": {
+        "0": { "en": "Uses only the platform length: 250/10 = 25 s.", "hi": "केवल प्लेटफ़ॉर्म की लंबाई ली: 250/10 = 25 से।" },
+        "1": { "en": "Arithmetic slip; assumes 300 m of travel.", "hi": "गणना की भूल; 300 मीटर की दूरी मान ली।" },
+        "3": { "en": "Arithmetic slip; assumes 450 m of travel.", "hi": "गणना की भूल; 450 मीटर की दूरी मान ली।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-35",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Convert a speed of 54 km/h into metres per second.", "hi": "54 किमी/घंटा की चाल को मीटर प्रति सेकंड में बदलिए।" },
+      "optionsJson": [
+        { "en": "15 m/s", "hi": "15 मी/से" },
+        { "en": "18 m/s", "hi": "18 मी/से" },
+        { "en": "25 m/s", "hi": "25 मी/से" },
+        { "en": "194.4 m/s", "hi": "194.4 मी/से" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "To convert km/h to m/s multiply by 5/18. So 54 × 5/18 = 15 m/s.", "hi": "किमी/घंटा को मी/से में बदलने के लिए 5/18 से गुणा करते हैं। अतः 54 × 5/18 = 15 मी/से।" },
+      "distractorAnalysis": {
+        "1": { "en": "Divides 54 by 3 instead of multiplying by 5/18.", "hi": "5/18 से गुणा करने के बजाय 54 को 3 से भाग दे दिया।" },
+        "2": { "en": "Arithmetic slip while multiplying by 5/18.", "hi": "5/18 से गुणा करने में गणना की भूल।" },
+        "3": { "en": "Multiplies by 18/5, which is the factor for converting m/s to km/h.", "hi": "18/5 से गुणा किया, जो मी/से को किमी/घंटा में बदलने का गुणक है।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-36",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A boat can row at 12 km/h in still water and the speed of the stream is 3 km/h. How much time will it take to go 36 km downstream and come back the same distance upstream?", "hi": "एक नाव स्थिर जल में 12 किमी/घंटा की चाल से चल सकती है और धारा की चाल 3 किमी/घंटा है। धारा के अनुकूल 36 किमी जाकर उतनी ही दूरी धारा के प्रतिकूल वापस आने में नाव को कितना समय लगेगा?" },
+      "optionsJson": [
+        { "en": "6 hours", "hi": "6 घंटे" },
+        { "en": "6.4 hours", "hi": "6.4 घंटे" },
+        { "en": "6.5 hours", "hi": "6.5 घंटे" },
+        { "en": "7 hours", "hi": "7 घंटे" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Downstream speed = 12 + 3 = 15 km/h, so time = 36/15 = 2.4 h. Upstream speed = 12 − 3 = 9 km/h, so time = 36/9 = 4 h. Total time = 2.4 + 4 = 6.4 hours.", "hi": "धारा के अनुकूल चाल = 12 + 3 = 15 किमी/घंटा, अतः समय = 36/15 = 2.4 घंटे। धारा के प्रतिकूल चाल = 12 − 3 = 9 किमी/घंटा, अतः समय = 36/9 = 4 घंटे। कुल समय = 2.4 + 4 = 6.4 घंटे।" },
+      "distractorAnalysis": {
+        "0": { "en": "Rounds the downstream time to 2 hours, ignoring the exact value 2.4.", "hi": "धारा के अनुकूल समय को 2 घंटे मान लिया, सही मान 2.4 की उपेक्षा की।" },
+        "2": { "en": "Arithmetic slip in 36/15 (takes 2.5 h instead of 2.4 h).", "hi": "36/15 में गणना की भूल (2.4 घंटे की जगह 2.5 घंटे लिया)।" },
+        "3": { "en": "Uses the still-water speed 12 km/h for the downstream trip (36/12 = 3 h), giving 3 + 4 = 7 hours.", "hi": "धारा के अनुकूल यात्रा में स्थिर जल की चाल 12 किमी/घंटा ली (36/12 = 3 घंटे), जिससे 3 + 4 = 7 घंटे आए।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-37",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "A shopkeeper wants to earn a profit of 20% after allowing a discount of 25% on the marked price. By what percentage above the cost price must he mark the article?", "hi": "एक दुकानदार अंकित मूल्य पर 25% की छूट देने के बाद भी 20% लाभ कमाना चाहता है। उसे वस्तु का अंकित मूल्य क्रय मूल्य से कितने प्रतिशत अधिक रखना चाहिए?" },
+      "optionsJson": [
+        { "en": "45%", "hi": "45%" },
+        { "en": "50%", "hi": "50%" },
+        { "en": "55%", "hi": "55%" },
+        { "en": "60%", "hi": "60%" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Let cost price = C and marked price = M. Selling price = 0.75M must equal 1.2C, so M = 1.2C / 0.75 = 1.6C. The marked price is 60% above the cost price.", "hi": "माना क्रय मूल्य = C और अंकित मूल्य = M। विक्रय मूल्य 0.75M = 1.2C होना चाहिए, अतः M = 1.2C / 0.75 = 1.6C। अंकित मूल्य क्रय मूल्य से 60% अधिक है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Simply adds 25% to 20% to get 45%, ignoring that the discount applies to the marked price.", "hi": "20% में 25% जोड़कर 45% निकाल लिया, यह भूलकर कि छूट अंकित मूल्य पर लगती है।" },
+        "1": { "en": "A 50% mark-up gives a selling price of only 1.5 × 0.75 = 1.125 times the cost, which is a 12.5% profit.", "hi": "50% बढ़ाने पर विक्रय मूल्य केवल 1.5 × 0.75 = 1.125 गुना होता है, यानी 12.5% लाभ।" },
+        "2": { "en": "A 55% mark-up gives a selling price of only 1.55 × 0.75 = 1.1625 times the cost, which is a 16.25% profit.", "hi": "55% बढ़ाने पर विक्रय मूल्य केवल 1.55 × 0.75 = 1.1625 गुना होता है, यानी 16.25% लाभ।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-38",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "In an election between two candidates, the winner got 55% of the total votes and won by 1,200 votes. How many votes were cast in total? (Assume every vote was for one of the two candidates.)", "hi": "दो उम्मीदवारों के बीच एक चुनाव में विजेता को कुल मतों का 55% मिला और वह 1,200 मतों से जीता। कुल कितने मत डाले गए? (मान लीजिए प्रत्येक मत दोनों उम्मीदवारों में से किसी एक को मिला।)" },
+      "optionsJson": [
+        { "en": "12,000", "hi": "12,000" },
+        { "en": "6,000", "hi": "6,000" },
+        { "en": "10,800", "hi": "10,800" },
+        { "en": "13,200", "hi": "13,200" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The loser got 100 − 55 = 45% of the votes. The winning margin = 55% − 45% = 10% of the total. So 10% of total = 1200, giving total votes = 1200 × 10 = 12,000.", "hi": "हारने वाले को 100 − 55 = 45% मत मिले। जीत का अंतर = 55% − 45% = कुल मतों का 10%। अतः कुल मतों का 10% = 1200, जिससे कुल मत = 1200 × 10 = 12,000।" },
+      "distractorAnalysis": {
+        "1": { "en": "Treats 1200 as 20% of the total instead of 10%.", "hi": "1200 को कुल मतों का 10% के बजाय 20% मान लिया।" },
+        "2": { "en": "Takes 1200 as 11.1% of the total, a wrong percentage for the margin.", "hi": "1200 को कुल मतों का लगभग 11.1% मान लिया, जो अंतर का गलत प्रतिशत है।" },
+        "3": { "en": "Multiplies 1200 by 11 instead of 10.", "hi": "1200 को 10 के बजाय 11 से गुणा कर दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-39",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": { "en": "What is the smallest 4-digit number that is exactly divisible by 12, 15 and 20?", "hi": "वह सबसे छोटी 4 अंकों की संख्या कौन-सी है जो 12, 15 और 20 से पूर्णतः विभाज्य है?" },
+      "optionsJson": [
+        { "en": "1000", "hi": "1000" },
+        { "en": "1020", "hi": "1020" },
+        { "en": "1060", "hi": "1060" },
+        { "en": "1080", "hi": "1080" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "LCM of 12, 15 and 20 = 60. The smallest 4-digit number is 1000, and 1000 ÷ 60 leaves remainder 40. So add 60 − 40 = 20: 1000 + 20 = 1020 (= 60 × 17).", "hi": "12, 15 और 20 का ल.स. = 60। सबसे छोटी 4 अंकों की संख्या 1000 है और 1000 ÷ 60 में शेषफल 40 बचता है। अतः 60 − 40 = 20 जोड़ें: 1000 + 20 = 1020 (= 60 × 17)।" },
+      "distractorAnalysis": {
+        "0": { "en": "Picks the smallest 4-digit number without checking divisibility; 1000 is not divisible by 12.", "hi": "विभाज्यता जाँचे बिना सबसे छोटी 4 अंकों की संख्या चुन ली; 1000, 12 से विभाज्य नहीं है।" },
+        "2": { "en": "Not divisible by 12 (or 15), so it is not a common multiple.", "hi": "यह 12 (या 15) से विभाज्य नहीं है, अतः उभयनिष्ठ गुणज नहीं है।" },
+        "3": { "en": "1080 is a multiple of 60, but it is not the smallest such 4-digit number.", "hi": "1080, 60 का गुणज है, परंतु ऐसी सबसे छोटी 4 अंकों की संख्या नहीं है।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-40",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The HCF of two numbers is 12 and their LCM is 180. If one of the numbers is 36, what is the other number?", "hi": "दो संख्याओं का म.स. 12 और ल.स. 180 है। यदि उनमें से एक संख्या 36 है, तो दूसरी संख्या क्या है?" },
+      "optionsJson": [
+        { "en": "48", "hi": "48" },
+        { "en": "54", "hi": "54" },
+        { "en": "60", "hi": "60" },
+        { "en": "72", "hi": "72" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Product of two numbers = HCF × LCM = 12 × 180 = 2160. The other number = 2160 ÷ 36 = 60.", "hi": "दो संख्याओं का गुणनफल = म.स. × ल.स. = 12 × 180 = 2160। दूसरी संख्या = 2160 ÷ 36 = 60।" },
+      "distractorAnalysis": {
+        "0": { "en": "48 × 36 = 1728, not 2160; with 36 it gives HCF 12 but LCM 144, not 180.", "hi": "48 × 36 = 1728, न कि 2160; 36 के साथ इसका म.स. 12 पर ल.स. 144 होता है, 180 नहीं।" },
+        "1": { "en": "54 × 36 = 1944, not 2160; with 36 it gives HCF 18 and LCM 108.", "hi": "54 × 36 = 1944, न कि 2160; 36 के साथ इसका म.स. 18 और ल.स. 108 होता है।" },
+        "3": { "en": "Doubles 36; it does not give HCF 12 and LCM 180 with 36.", "hi": "36 को दुगुना कर दिया; यह 36 के साथ म.स. 12 और ल.स. 180 नहीं देता।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-41",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Simplify: 3⁴ × 3⁻²", "hi": "सरल कीजिए: 3⁴ × 3⁻²" },
+      "optionsJson": [
+        { "en": "1/9", "hi": "1/9" },
+        { "en": "6", "hi": "6" },
+        { "en": "27", "hi": "27" },
+        { "en": "9", "hi": "9" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "For the same base, add the exponents: 3⁴ × 3⁻² = 3^(4 − 2) = 3² = 9.", "hi": "समान आधार होने पर घातांकों को जोड़ते हैं: 3⁴ × 3⁻² = 3^(4 − 2) = 3² = 9।" },
+      "distractorAnalysis": {
+        "0": { "en": "Takes the exponent as −2 only, ignoring the 3⁴ factor.", "hi": "केवल घातांक −2 लिया, 3⁴ गुणक की उपेक्षा की।" },
+        "1": { "en": "Adds the sizes of the exponents, 4 + 2 = 6, and treats that as the answer.", "hi": "घातांकों के परिमाण जोड़कर 4 + 2 = 6 निकाला और उसे उत्तर मान लिया।" },
+        "2": { "en": "Computes 3³ instead of 3².", "hi": "3² के बजाय 3³ की गणना की।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-42",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "The circumference of a circle is 44 cm. What is its area? (Use π = 22/7)", "hi": "एक वृत्त की परिधि 44 सेमी है। उसका क्षेत्रफल क्या है? (π = 22/7 लीजिए)" },
+      "optionsJson": [
+        { "en": "154 cm²", "hi": "154 सेमी²" },
+        { "en": "308 cm²", "hi": "308 सेमी²" },
+        { "en": "88 cm²", "hi": "88 सेमी²" },
+        { "en": "44 cm²", "hi": "44 सेमी²" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "2πr = 44 gives r = 44 × 7/(2 × 22) = 7 cm. Area = πr² = (22/7) × 7 × 7 = 154 cm².", "hi": "2πr = 44 से r = 44 × 7/(2 × 22) = 7 सेमी। क्षेत्रफल = πr² = (22/7) × 7 × 7 = 154 सेमी²।" },
+      "distractorAnalysis": {
+        "1": { "en": "Doubles the correct area, for example by using πr² × 2.", "hi": "सही क्षेत्रफल को दुगुना कर दिया, जैसे 2πr² निकालकर।" },
+        "2": { "en": "Multiplies the circumference by 2 instead of finding the radius first.", "hi": "त्रिज्या निकालने के बजाय परिधि को 2 से गुणा कर दिया।" },
+        "3": { "en": "Gives the circumference value itself as the area.", "hi": "परिधि के मान को ही क्षेत्रफल मान लिया।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-43",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Two interior angles of a triangle measure 50° and 60°. What is the measure of the exterior angle at the third vertex?", "hi": "एक त्रिभुज के दो अंतः कोण 50° और 60° हैं। तीसरे शीर्ष पर बहिष्कोण का माप क्या है?" },
+      "optionsJson": [
+        { "en": "70°", "hi": "70°" },
+        { "en": "110°", "hi": "110°" },
+        { "en": "120°", "hi": "120°" },
+        { "en": "130°", "hi": "130°" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "An exterior angle equals the sum of the two opposite interior angles: 50° + 60° = 110°. (Check: third angle = 70°, and 180° − 70° = 110°.)", "hi": "बहिष्कोण सम्मुख दोनों अंतः कोणों के योग के बराबर होता है: 50° + 60° = 110°। (जाँच: तीसरा कोण = 70° और 180° − 70° = 110°।)" },
+      "distractorAnalysis": {
+        "0": { "en": "Gives the third interior angle instead of the exterior angle.", "hi": "बहिष्कोण के स्थान पर तीसरा अंतः कोण बता दिया।" },
+        "2": { "en": "Takes the exterior angle at the 60° vertex instead of the third vertex.", "hi": "तीसरे शीर्ष के बजाय 60° वाले शीर्ष का बहिष्कोण (120°) ले लिया।" },
+        "3": { "en": "Takes the exterior angle at the 50° vertex instead of the third vertex.", "hi": "तीसरे शीर्ष के बजाय 50° वाले शीर्ष का बहिष्कोण (130°) ले लिया।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-44",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "If 4x + y = 17 and x − 2y = −7, find the value of xy.", "hi": "यदि 4x + y = 17 और x − 2y = −7 है, तो xy का मान ज्ञात कीजिए।" },
+      "optionsJson": [
+        { "en": "8", "hi": "8" },
+        { "en": "12", "hi": "12" },
+        { "en": "15", "hi": "15" },
+        { "en": "21", "hi": "21" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "From the second equation x = 2y − 7. Substituting in the first: 4(2y − 7) + y = 17, so 9y = 45 and y = 5, then x = 3. Hence xy = 3 × 5 = 15.", "hi": "दूसरे समीकरण से x = 2y − 7। पहले समीकरण में रखने पर 4(2y − 7) + y = 17, अतः 9y = 45 और y = 5, तब x = 3। इसलिए xy = 3 × 5 = 15।" },
+      "distractorAnalysis": {
+        "0": { "en": "Arithmetic slip after solving for x and y.", "hi": "x और y हल करने के बाद गणना की भूल।" },
+        "1": { "en": "Takes x = 3 correctly but slips to y = 4 when solving 9y = 45, giving 3 × 4 = 12.", "hi": "x = 3 सही लिया पर 9y = 45 हल करते समय y = 4 ले लिया, जिससे 3 × 4 = 12 आया।" },
+        "3": { "en": "Multiplies x = 3 by 7 (the constant in x = 2y − 7) instead of by y = 5.", "hi": "x = 3 को y = 5 के बजाय 7 (x = 2y − 7 का अचर) से गुणा कर दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-45",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The mean of 10 observations is 24. If every observation is multiplied by 2 and then 3 is added to each, what is the new mean?", "hi": "10 प्रेक्षणों का माध्य 24 है। यदि प्रत्येक प्रेक्षण को 2 से गुणा करके फिर प्रत्येक में 3 जोड़ दिया जाए, तो नया माध्य क्या होगा?" },
+      "optionsJson": [
+        { "en": "51", "hi": "51" },
+        { "en": "48", "hi": "48" },
+        { "en": "54", "hi": "54" },
+        { "en": "27", "hi": "27" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Multiplying every observation by 2 doubles the mean to 48; adding 3 to each raises the mean by 3. New mean = 2 × 24 + 3 = 51.", "hi": "प्रत्येक प्रेक्षण को 2 से गुणा करने पर माध्य दुगुना होकर 48 हो जाता है; प्रत्येक में 3 जोड़ने पर माध्य में 3 की वृद्धि होती है। नया माध्य = 2 × 24 + 3 = 51।" },
+      "distractorAnalysis": {
+        "1": { "en": "Only doubles the mean and forgets to add 3.", "hi": "केवल माध्य को दुगुना किया और 3 जोड़ना भूल गया।" },
+        "2": { "en": "Adds 3 first and then doubles, computing 2 × (24 + 3).", "hi": "पहले 3 जोड़ा फिर दुगुना किया, यानी 2 × (24 + 3) निकाला।" },
+        "3": { "en": "Only adds 3 and forgets to multiply by 2.", "hi": "केवल 3 जोड़ा और 2 से गुणा करना भूल गया।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-46",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The sum of the interior angles of a convex polygon is 1440°. How many diagonals does this polygon have?", "hi": "एक उत्तल बहुभुज के अंतः कोणों का योग 1440° है। इस बहुभुज में कितने विकर्ण होते हैं?" },
+      "optionsJson": [
+        { "en": "45", "hi": "45" },
+        { "en": "30", "hi": "30" },
+        { "en": "40", "hi": "40" },
+        { "en": "35", "hi": "35" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "(n − 2) × 180° = 1440° gives n − 2 = 8, so n = 10. Number of diagonals = n(n − 3)/2 = 10 × 7/2 = 35.", "hi": "(n − 2) × 180° = 1440° से n − 2 = 8, अतः n = 10। विकर्णों की संख्या = n(n − 3)/2 = 10 × 7/2 = 35।" },
+      "distractorAnalysis": {
+        "0": { "en": "Counts all pairs of vertices, 10 × 9/2 = 45, which includes the sides.", "hi": "सभी शीर्ष-युग्म गिन लिए, 10 × 9/2 = 45, जिनमें भुजाएँ भी शामिल हैं।" },
+        "1": { "en": "Uses n(n − 4)/2 instead of n(n − 3)/2, giving 10 × 6/2 = 30.", "hi": "n(n − 3)/2 के बजाय n(n − 4)/2 लिया, जिससे 10 × 6/2 = 30 आया।" },
+        "2": { "en": "Uses n(n − 2)/2 instead of n(n − 3)/2, giving 10 × 8/2 = 40.", "hi": "n(n − 3)/2 के बजाय n(n − 2)/2 लिया, जिससे 10 × 8/2 = 40 आया।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-47",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "A solid metal sphere of radius 6 cm is melted and recast into identical solid cones, each of base radius 3 cm and height 4 cm. How many cones are formed?", "hi": "6 सेमी त्रिज्या वाले एक ठोस धातु के गोले को पिघलाकर समान ठोस शंकुओं में ढाला जाता है, जिनमें प्रत्येक की आधार त्रिज्या 3 सेमी और ऊँचाई 4 सेमी है। कितने शंकु बनेंगे?" },
+      "optionsJson": [
+        { "en": "18", "hi": "18" },
+        { "en": "24", "hi": "24" },
+        { "en": "36", "hi": "36" },
+        { "en": "48", "hi": "48" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Volume of sphere = (4/3)π(6)³ = 288π cm³. Volume of one cone = (1/3)π(3)²(4) = 12π cm³. Number of cones = 288π / 12π = 24.", "hi": "गोले का आयतन = (4/3)π(6)³ = 288π सेमी³। एक शंकु का आयतन = (1/3)π(3)²(4) = 12π सेमी³। शंकुओं की संख्या = 288π / 12π = 24।" },
+      "distractorAnalysis": {
+        "0": { "en": "Forgets the factor 4/3 in the sphere volume, using πr³ = 216π, so 216π / 12π = 18.", "hi": "गोले के आयतन में गुणक 4/3 भूल गया, πr³ = 216π लिया, जिससे 216π / 12π = 18 आया।" },
+        "2": { "en": "Uses 2πr³ = 432π for the sphere volume instead of (4/3)πr³, so 432π / 12π = 36.", "hi": "गोले के आयतन के लिए (4/3)πr³ के बजाय 2πr³ = 432π लिया, जिससे 432π / 12π = 36 आया।" },
+        "3": { "en": "Uses (1/6)πr²h for the cone, which halves its volume to 6π and doubles the count to 48.", "hi": "शंकु के लिए (1/6)πr²h लिया, जिससे उसका आयतन आधा होकर 6π हो गया और संख्या दुगुनी होकर 48 आई।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-48",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": { "en": "The sides of a right-angled triangle are x, x + 7 and x + 8 (in cm), where x + 8 is the hypotenuse. What is the area of the triangle?", "hi": "एक समकोण त्रिभुज की भुजाएँ x, x + 7 और x + 8 (सेमी में) हैं, जहाँ x + 8 कर्ण है। त्रिभुज का क्षेत्रफल क्या है?" },
+      "optionsJson": [
+        { "en": "60 cm²", "hi": "60 सेमी²" },
+        { "en": "40 cm²", "hi": "40 सेमी²" },
+        { "en": "30 cm²", "hi": "30 सेमी²" },
+        { "en": "78 cm²", "hi": "78 सेमी²" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "By Pythagoras, x² + (x + 7)² = (x + 8)², i.e. 2x² + 14x + 49 = x² + 16x + 64, so x² − 2x − 15 = 0, giving (x − 5)(x + 3) = 0 and x = 5 (x cannot be negative). The legs are 5 cm and 12 cm, so area = (1/2) × 5 × 12 = 30 cm².", "hi": "पाइथागोरस प्रमेय से x² + (x + 7)² = (x + 8)², अर्थात 2x² + 14x + 49 = x² + 16x + 64, अतः x² − 2x − 15 = 0, जिससे (x − 5)(x + 3) = 0 और x = 5 (x ऋणात्मक नहीं हो सकता)। लंब भुजाएँ 5 सेमी और 12 सेमी हैं, अतः क्षेत्रफल = (1/2) × 5 × 12 = 30 सेमी²।" },
+      "distractorAnalysis": {
+        "0": { "en": "Multiplies the two legs (5 × 12 = 60) without taking half.", "hi": "दोनों लंब भुजाओं का गुणनफल (5 × 12 = 60) लिया, आधा नहीं किया।" },
+        "1": { "en": "Multiplies x = 5 by 8 (the constant in x + 8) instead of using the legs 5 cm and 12 cm.", "hi": "लंब भुजाओं 5 सेमी और 12 सेमी के बजाय x = 5 को 8 (x + 8 का अचर) से गुणा कर दिया।" },
+        "3": { "en": "Uses the sides 12 and 13 (one leg and the hypotenuse) for the area, giving (1/2) × 12 × 13 = 78.", "hi": "एक लंब भुजा और कर्ण (12 और 13) से क्षेत्रफल निकाल लिया, (1/2) × 12 × 13 = 78।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-49",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The length of a rectangular field is 5 m more than its breadth, and its perimeter is 50 m. What is the area of the field?", "hi": "एक आयताकार खेत की लंबाई उसकी चौड़ाई से 5 मी अधिक है और उसका परिमाप 50 मी है। खेत का क्षेत्रफल क्या है?" },
+      "optionsJson": [
+        { "en": "100 m²", "hi": "100 मी²" },
+        { "en": "120 m²", "hi": "120 मी²" },
+        { "en": "125 m²", "hi": "125 मी²" },
+        { "en": "150 m²", "hi": "150 मी²" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Let breadth = b, so length = b + 5. Perimeter = 2(b + b + 5) = 50 gives 2b + 5 = 25, so b = 10 m and length = 15 m. Area = 15 × 10 = 150 m².", "hi": "माना चौड़ाई = b, तो लंबाई = b + 5। परिमाप = 2(b + b + 5) = 50 से 2b + 5 = 25, अतः b = 10 मी और लंबाई = 15 मी। क्षेत्रफल = 15 × 10 = 150 मी²।" },
+      "distractorAnalysis": {
+        "0": { "en": "Squares 10, using breadth as the side of a square.", "hi": "चौड़ाई को वर्ग की भुजा मानकर 10 का वर्ग कर दिया।" },
+        "1": { "en": "Takes breadth 8 m and length 15 m, which does not give perimeter 50 m.", "hi": "चौड़ाई 8 मी और लंबाई 15 मी ली, जिससे परिमाप 50 मी नहीं बनता।" },
+        "2": { "en": "Multiplies half the perimeter, 25 m, by the 5 m difference, giving 125 m².", "hi": "आधे परिमाप 25 मी को अंतर 5 मी से गुणा कर दिया, जिससे 125 मी² आया।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-50",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Rationalise the denominator and simplify: (√5 + √3) / (√5 − √3)", "hi": "हर का परिमेयीकरण करके सरल कीजिए: (√5 + √3) / (√5 − √3)" },
+      "optionsJson": [
+        { "en": "2 + √15", "hi": "2 + √15" },
+        { "en": "4 − √15", "hi": "4 − √15" },
+        { "en": "8 + √15", "hi": "8 + √15" },
+        { "en": "4 + √15", "hi": "4 + √15" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Multiply numerator and denominator by (√5 + √3): numerator = (√5 + √3)² = 5 + 3 + 2√15 = 8 + 2√15; denominator = 5 − 3 = 2. Result = (8 + 2√15)/2 = 4 + √15.", "hi": "अंश और हर दोनों को (√5 + √3) से गुणा करें: अंश = (√5 + √3)² = 5 + 3 + 2√15 = 8 + 2√15; हर = 5 − 3 = 2। परिणाम = (8 + 2√15)/2 = 4 + √15।" },
+      "distractorAnalysis": {
+        "0": { "en": "Divides the rational part 8 by 4 but 2√15 by 2, dividing the numerator inconsistently.", "hi": "परिमेय भाग 8 को 4 से और 2√15 को 2 से भाग दिया, यानी अंश को असंगत रूप से भाग दिया।" },
+        "1": { "en": "Gives the value of the reciprocal fraction (√5 − √3)/(√5 + √3) = 4 − √15, a sign error on the √15 term.", "hi": "व्युत्क्रम भिन्न (√5 − √3)/(√5 + √3) = 4 − √15 का मान दे दिया, √15 पद पर चिह्न की भूल।" },
+        "2": { "en": "Forgets to divide the whole numerator by 2, dividing only 2√15 by 2.", "hi": "पूरे अंश को 2 से भाग नहीं दिया, केवल 2√15 को 2 से भाग दिया।" }
+      }
+    }
+  ]
+}

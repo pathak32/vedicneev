@@ -1,0 +1,634 @@
+{
+  "examType": "RMS",
+  "classLevel": 9,
+  "paperNumber": 4,
+  "sectionKey": "mathematics",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "rms9-p4-mt-26",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "The circumference of a circle is 44 cm. Find its area. (Use π = 22/7)",
+        "hi": "एक वृत्त की परिधि 44 cm है। उसका क्षेत्रफल ज्ञात कीजिए। (π = 22/7 लीजिए)"
+      },
+      "optionsJson": [
+        { "en": "77 cm²", "hi": "77 cm²" },
+        { "en": "44 cm²", "hi": "44 cm²" },
+        { "en": "154 cm²", "hi": "154 cm²" },
+        { "en": "308 cm²", "hi": "308 cm²" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "2πr = 44 gives r = 44 × 7 / (2 × 22) = 7 cm. Area = πr² = (22/7) × 7 × 7 = 154 cm².",
+        "hi": "2πr = 44 से r = 44 × 7 / (2 × 22) = 7 cm। क्षेत्रफल = πr² = (22/7) × 7 × 7 = 154 cm²।"
+      },
+      "distractorAnalysis": {
+        "0": { "en": "Takes only half of the correct area by mistake.", "hi": "भूल से सही क्षेत्रफल का केवल आधा लिया।" },
+        "1": { "en": "Reports the circumference itself as the area.", "hi": "परिधि को ही क्षेत्रफल मान लिया।" },
+        "3": { "en": "Uses 2πr² instead of πr², doubling the area.", "hi": "πr² के स्थान पर 2πr² का प्रयोग किया, जिससे क्षेत्रफल दोगुना आया।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-27",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "The exterior angle at a base vertex of an isosceles triangle is 125°. Find the vertex angle (the angle between the two equal sides).",
+        "hi": "एक समद्विबाहु त्रिभुज के आधार के एक शीर्ष पर बना बाह्य कोण 125° है। शीर्ष कोण (दोनों बराबर भुजाओं के बीच का कोण) ज्ञात कीजिए।"
+      },
+      "optionsJson": [
+        { "en": "70°", "hi": "70°" },
+        { "en": "55°", "hi": "55°" },
+        { "en": "110°", "hi": "110°" },
+        { "en": "125°", "hi": "125°" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "The base angle = 180° − 125° = 55°. Both base angles are equal, so the vertex angle = 180° − 2 × 55° = 70°.",
+        "hi": "आधार कोण = 180° − 125° = 55°। दोनों आधार कोण बराबर हैं, अतः शीर्ष कोण = 180° − 2 × 55° = 70°।"
+      },
+      "distractorAnalysis": {
+        "1": { "en": "This is only the base angle, not the vertex angle.", "hi": "यह केवल आधार कोण है, शीर्ष कोण नहीं।" },
+        "2": { "en": "Adds the two base angles (2 × 55°) instead of subtracting them from 180°.", "hi": "दोनों आधार कोणों का योग (2 × 55°) लिया, उसे 180° में से नहीं घटाया।" },
+        "3": { "en": "Reports the exterior angle itself as the vertex angle.", "hi": "बाह्य कोण को ही शीर्ष कोण मान लिया।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-28",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "The sides of a triangle are 7 cm, 24 cm and 25 cm. Find its area.",
+        "hi": "एक त्रिभुज की भुजाएँ 7 cm, 24 cm और 25 cm हैं। उसका क्षेत्रफल ज्ञात कीजिए।"
+      },
+      "optionsJson": [
+        { "en": "87.5 cm²", "hi": "87.5 cm²" },
+        { "en": "175 cm²", "hi": "175 cm²" },
+        { "en": "168 cm²", "hi": "168 cm²" },
+        { "en": "84 cm²", "hi": "84 cm²" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Since 7² + 24² = 49 + 576 = 625 = 25², the triangle is right-angled with legs 7 cm and 24 cm. Area = ½ × 7 × 24 = 84 cm².",
+        "hi": "चूँकि 7² + 24² = 49 + 576 = 625 = 25², त्रिभुज समकोण है जिसकी लंब भुजाएँ 7 cm और 24 cm हैं। क्षेत्रफल = ½ × 7 × 24 = 84 cm²।"
+      },
+      "distractorAnalysis": {
+        "0": { "en": "Uses the hypotenuse 25 cm as the height: ½ × 7 × 25.", "hi": "कर्ण 25 cm को ऊँचाई मान लिया: ½ × 7 × 25।" },
+        "1": { "en": "Multiplies 7 by 25 and forgets the factor ½.", "hi": "7 और 25 का गुणा किया और ½ छोड़ दिया।" },
+        "2": { "en": "Multiplies the two legs 7 × 24 but forgets the factor ½.", "hi": "दोनों लंब भुजाओं 7 × 24 का गुणा किया पर ½ छोड़ दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-29",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "In triangle ABC, D and E are the mid-points of sides AB and AC respectively. If AB = 10 cm, AC = 12 cm and BC = 14 cm, find the perimeter of triangle ADE.",
+        "hi": "त्रिभुज ABC में D और E क्रमशः भुजाओं AB और AC के मध्य-बिंदु हैं। यदि AB = 10 cm, AC = 12 cm और BC = 14 cm हो, तो त्रिभुज ADE का परिमाप ज्ञात कीजिए।"
+      },
+      "optionsJson": [
+        { "en": "36 cm", "hi": "36 cm" },
+        { "en": "18 cm", "hi": "18 cm" },
+        { "en": "25 cm", "hi": "25 cm" },
+        { "en": "32 cm", "hi": "32 cm" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "By the mid-point theorem, DE = ½ BC = 7 cm. Also AD = 5 cm and AE = 6 cm. Perimeter of triangle ADE = 5 + 6 + 7 = 18 cm.",
+        "hi": "मध्य-बिंदु प्रमेय से DE = ½ BC = 7 cm। साथ ही AD = 5 cm और AE = 6 cm। त्रिभुज ADE का परिमाप = 5 + 6 + 7 = 18 cm।"
+      },
+      "distractorAnalysis": {
+        "0": { "en": "This is the perimeter of the whole triangle ABC (10 + 12 + 14).", "hi": "यह पूरे त्रिभुज ABC का परिमाप (10 + 12 + 14) है।" },
+        "2": { "en": "Takes DE = BC = 14 cm instead of half of BC: 5 + 6 + 14.", "hi": "DE को BC का आधा लेने के बजाय 14 cm मान लिया: 5 + 6 + 14।" },
+        "3": { "en": "This is the perimeter of the quadrilateral DBCE (5 + 14 + 6 + 7), not triangle ADE.", "hi": "यह चतुर्भुज DBCE का परिमाप (5 + 14 + 6 + 7) है, त्रिभुज ADE का नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-30",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Two parallel chords of lengths 6 cm and 8 cm are drawn in a circle of radius 5 cm, on opposite sides of the centre. Find the distance between the two chords.",
+        "hi": "5 cm त्रिज्या वाले एक वृत्त में 6 cm और 8 cm लंबाई की दो समांतर जीवाएँ केंद्र के विपरीत ओर खींची गई हैं। दोनों जीवाओं के बीच की दूरी ज्ञात कीजिए।"
+      },
+      "optionsJson": [
+        { "en": "1 cm", "hi": "1 cm" },
+        { "en": "7 cm", "hi": "7 cm" },
+        { "en": "5 cm", "hi": "5 cm" },
+        { "en": "10 cm", "hi": "10 cm" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "The perpendicular from the centre bisects a chord. For the 6 cm chord the distance from the centre is √(25 − 9) = 4 cm; for the 8 cm chord it is √(25 − 16) = 3 cm. The chords are on opposite sides, so the distance between them is 4 + 3 = 7 cm.",
+        "hi": "केंद्र से जीवा पर डाला गया लंब जीवा को समद्विभाजित करता है। 6 cm जीवा की केंद्र से दूरी √(25 − 9) = 4 cm और 8 cm जीवा की दूरी √(25 − 16) = 3 cm है। जीवाएँ विपरीत ओर हैं, अतः उनके बीच की दूरी 4 + 3 = 7 cm है।"
+      },
+      "distractorAnalysis": {
+        "0": { "en": "Subtracts 4 − 3, which would be correct only if both chords were on the same side of the centre.", "hi": "4 − 3 घटाया, जो तभी सही होता जब दोनों जीवाएँ केंद्र की एक ही ओर होतीं।" },
+        "2": { "en": "Takes the radius as the distance between the chords.", "hi": "त्रिज्या को ही जीवाओं के बीच की दूरी मान लिया।" },
+        "3": { "en": "Takes the diameter of the circle as the distance between the chords.", "hi": "वृत्त के व्यास को ही जीवाओं के बीच की दूरी मान लिया।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-31",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "PQRS is a cyclic quadrilateral with ∠P = 85° and ∠Q = 70°. Find ∠S.",
+        "hi": "PQRS एक चक्रीय चतुर्भुज है जिसमें ∠P = 85° और ∠Q = 70° है। ∠S ज्ञात कीजिए।"
+      },
+      "optionsJson": [
+        { "en": "70°", "hi": "70°" },
+        { "en": "95°", "hi": "95°" },
+        { "en": "110°", "hi": "110°" },
+        { "en": "85°", "hi": "85°" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "In a cyclic quadrilateral the opposite angles are supplementary. ∠S is opposite to ∠Q, so ∠S = 180° − 70° = 110°.",
+        "hi": "चक्रीय चतुर्भुज के सम्मुख कोणों का योग 180° होता है। ∠S, ∠Q के सम्मुख है, अतः ∠S = 180° − 70° = 110°।"
+      },
+      "distractorAnalysis": {
+        "0": { "en": "Takes ∠S = ∠Q; opposite angles of a cyclic quadrilateral are supplementary, not equal.", "hi": "∠S = ∠Q मान लिया; चक्रीय चतुर्भुज के सम्मुख कोण बराबर नहीं, संपूरक होते हैं।" },
+        "1": { "en": "This is ∠R = 180° − 85°, the angle opposite to ∠P, not ∠S.", "hi": "यह ∠R = 180° − 85° है, जो ∠P के सम्मुख कोण है, ∠S नहीं।" },
+        "3": { "en": "Takes ∠S = ∠P, using the wrong pair of angles.", "hi": "∠S = ∠P मान लिया; कोणों का गलत युग्म लिया।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-32",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "A cuboidal water tank is 2.5 m long, 1.2 m wide and 1 m deep. How many litres of water can it hold when full? (1 m³ = 1000 litres)",
+        "hi": "एक घनाभाकार पानी की टंकी 2.5 m लंबी, 1.2 m चौड़ी और 1 m गहरी है। भरी होने पर वह कितने लीटर पानी रख सकती है? (1 m³ = 1000 लीटर)"
+      },
+      "optionsJson": [
+        { "en": "3 litres", "hi": "3 लीटर" },
+        { "en": "300 litres", "hi": "300 लीटर" },
+        { "en": "30000 litres", "hi": "30000 लीटर" },
+        { "en": "3000 litres", "hi": "3000 लीटर" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Volume = 2.5 × 1.2 × 1 = 3 m³. Since 1 m³ = 1000 litres, capacity = 3 × 1000 = 3000 litres.",
+        "hi": "आयतन = 2.5 × 1.2 × 1 = 3 m³। चूँकि 1 m³ = 1000 लीटर, धारिता = 3 × 1000 = 3000 लीटर।"
+      },
+      "distractorAnalysis": {
+        "0": { "en": "Gives the volume in m³ and forgets to convert to litres.", "hi": "आयतन m³ में ही बता दिया, लीटर में नहीं बदला।" },
+        "1": { "en": "Uses 1 m³ = 100 litres instead of 1000 litres.", "hi": "1 m³ = 1000 लीटर के स्थान पर 1 m³ = 100 लीटर मान लिया।" },
+        "2": { "en": "Multiplies by 10000 instead of 1000 during conversion.", "hi": "रूपांतरण में 1000 के बजाय 10000 से गुणा कर दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-33",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Find the total surface area of a solid hemisphere of radius 7 cm. (Use π = 22/7)",
+        "hi": "7 cm त्रिज्या वाले एक ठोस अर्धगोले का संपूर्ण पृष्ठीय क्षेत्रफल ज्ञात कीजिए। (π = 22/7 लीजिए)"
+      },
+      "optionsJson": [
+        { "en": "462 cm²", "hi": "462 cm²" },
+        { "en": "308 cm²", "hi": "308 cm²" },
+        { "en": "616 cm²", "hi": "616 cm²" },
+        { "en": "154 cm²", "hi": "154 cm²" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Total surface area of a solid hemisphere = curved surface 2πr² + flat circular base πr² = 3πr² = 3 × (22/7) × 49 = 462 cm².",
+        "hi": "ठोस अर्धगोले का संपूर्ण पृष्ठीय क्षेत्रफल = वक्र पृष्ठ 2πr² + समतल वृत्ताकार आधार πr² = 3πr² = 3 × (22/7) × 49 = 462 cm²।"
+      },
+      "distractorAnalysis": {
+        "1": { "en": "This is only the curved surface area 2πr²; the flat base is left out.", "hi": "यह केवल वक्र पृष्ठीय क्षेत्रफल 2πr² है; समतल आधार छोड़ दिया।" },
+        "2": { "en": "Uses 4πr², the surface area of a full sphere.", "hi": "4πr² का प्रयोग किया, जो पूरे गोले का पृष्ठीय क्षेत्रफल है।" },
+        "3": { "en": "This is only the area of the flat circular base πr².", "hi": "यह केवल समतल वृत्ताकार आधार का क्षेत्रफल πr² है।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-34",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "A cone has base radius 6 cm and vertical height 8 cm. Find its curved surface area.",
+        "hi": "एक शंकु की आधार त्रिज्या 6 cm और ऊर्ध्वाधर ऊँचाई 8 cm है। उसका वक्र पृष्ठीय क्षेत्रफल ज्ञात कीजिए।"
+      },
+      "optionsJson": [
+        { "en": "48π cm²", "hi": "48π cm²" },
+        { "en": "60π cm²", "hi": "60π cm²" },
+        { "en": "80π cm²", "hi": "80π cm²" },
+        { "en": "120π cm²", "hi": "120π cm²" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Slant height l = √(6² + 8²) = √100 = 10 cm. Curved surface area = πrl = π × 6 × 10 = 60π cm².",
+        "hi": "तिर्यक ऊँचाई l = √(6² + 8²) = √100 = 10 cm। वक्र पृष्ठीय क्षेत्रफल = πrl = π × 6 × 10 = 60π cm²।"
+      },
+      "distractorAnalysis": {
+        "0": { "en": "Uses the vertical height instead of the slant height: π × 6 × 8.", "hi": "तिर्यक ऊँचाई के स्थान पर ऊर्ध्वाधर ऊँचाई ली: π × 6 × 8।" },
+        "2": { "en": "Uses π × h × l = π × 8 × 10, mixing up the radius with the height.", "hi": "π × h × l = π × 8 × 10 लिया, त्रिज्या और ऊँचाई में भ्रम किया।" },
+        "3": { "en": "Uses 2πrl (the cylinder-type formula), which doubles the answer.", "hi": "2πrl (बेलन जैसा सूत्र) का प्रयोग किया, जिससे उत्तर दोगुना आया।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-35",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "A rectangular sheet of paper 44 cm long and 20 cm wide is rolled to form a hollow cylinder so that the 44 cm side becomes the circumference of the base and the 20 cm side becomes the height. Find the volume of the cylinder. (Use π = 22/7)",
+        "hi": "44 cm लंबी और 20 cm चौड़ी एक आयताकार कागज़ की शीट को इस प्रकार लपेटकर खोखला बेलन बनाया जाता है कि 44 cm वाली भुजा आधार की परिधि बन जाती है और 20 cm वाली भुजा ऊँचाई। बेलन का आयतन ज्ञात कीजिए। (π = 22/7 लीजिए)"
+      },
+      "optionsJson": [
+        { "en": "880 cm³", "hi": "880 cm³" },
+        { "en": "6160 cm³", "hi": "6160 cm³" },
+        { "en": "3080 cm³", "hi": "3080 cm³" },
+        { "en": "1540 cm³", "hi": "1540 cm³" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "2πr = 44 gives r = 7 cm and h = 20 cm. Volume = πr²h = (22/7) × 7 × 7 × 20 = 3080 cm³.",
+        "hi": "2πr = 44 से r = 7 cm और h = 20 cm। आयतन = πr²h = (22/7) × 7 × 7 × 20 = 3080 cm³।"
+      },
+      "distractorAnalysis": {
+        "0": { "en": "This is the area of the sheet (44 × 20), i.e. the curved surface area, not the volume.", "hi": "यह शीट का क्षेत्रफल (44 × 20) यानी वक्र पृष्ठीय क्षेत्रफल है, आयतन नहीं।" },
+        "1": { "en": "Doubles the correct volume by using 2πr²h.", "hi": "2πr²h का प्रयोग कर सही आयतन को दोगुना कर दिया।" },
+        "3": { "en": "Takes half the correct volume by using h = 10 cm.", "hi": "h = 10 cm लेकर सही आयतन का आधा निकाल लिया।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-36",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Find the area of a trapezium whose parallel sides are 12 cm and 20 cm and the distance between them is 9 cm.",
+        "hi": "उस समलंब चतुर्भुज का क्षेत्रफल ज्ञात कीजिए जिसकी समांतर भुजाएँ 12 cm और 20 cm हैं तथा उनके बीच की दूरी 9 cm है।"
+      },
+      "optionsJson": [
+        { "en": "144 cm²", "hi": "144 cm²" },
+        { "en": "288 cm²", "hi": "288 cm²" },
+        { "en": "108 cm²", "hi": "108 cm²" },
+        { "en": "180 cm²", "hi": "180 cm²" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Area = ½ × (sum of parallel sides) × height = ½ × (12 + 20) × 9 = 16 × 9 = 144 cm².",
+        "hi": "क्षेत्रफल = ½ × (समांतर भुजाओं का योग) × ऊँचाई = ½ × (12 + 20) × 9 = 16 × 9 = 144 cm²।"
+      },
+      "distractorAnalysis": {
+        "1": { "en": "Forgets the factor ½: (12 + 20) × 9.", "hi": "½ का गुणांक छोड़ दिया: (12 + 20) × 9।" },
+        "2": { "en": "Uses only the shorter parallel side: 12 × 9.", "hi": "केवल छोटी समांतर भुजा ली: 12 × 9।" },
+        "3": { "en": "Uses only the longer parallel side: 20 × 9.", "hi": "केवल बड़ी समांतर भुजा ली: 20 × 9।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-37",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Three solid metal cubes of edges 3 cm, 4 cm and 5 cm are melted together and recast into a single cube. Find the edge of the new cube.",
+        "hi": "3 cm, 4 cm और 5 cm किनारों वाले तीन ठोस धातु के घनों को पिघलाकर एक ही घन में ढाला जाता है। नए घन का किनारा ज्ञात कीजिए।"
+      },
+      "optionsJson": [
+        { "en": "12 cm", "hi": "12 cm" },
+        { "en": "4 cm", "hi": "4 cm" },
+        { "en": "8 cm", "hi": "8 cm" },
+        { "en": "6 cm", "hi": "6 cm" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Total volume = 3³ + 4³ + 5³ = 27 + 64 + 125 = 216 cm³. Edge of the new cube = ∛216 = 6 cm.",
+        "hi": "कुल आयतन = 3³ + 4³ + 5³ = 27 + 64 + 125 = 216 cm³। नए घन का किनारा = ∛216 = 6 cm।"
+      },
+      "distractorAnalysis": {
+        "0": { "en": "Adds the edges (3 + 4 + 5) instead of adding the volumes.", "hi": "आयतन जोड़ने के बजाय किनारे जोड़ दिए (3 + 4 + 5)।" },
+        "1": { "en": "Takes the average of the three edges.", "hi": "तीनों किनारों का औसत ले लिया।" },
+        "2": { "en": "Divides the total volume by 27 instead of taking the cube root.", "hi": "घनमूल लेने के बजाय कुल आयतन को 27 से भाग दे दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-38",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "In triangle ABC, D is a point on side BC such that BD : DC = 2 : 3. If the area of triangle ABC is 90 cm², find the area of triangle ABD.",
+        "hi": "त्रिभुज ABC में भुजा BC पर बिंदु D इस प्रकार है कि BD : DC = 2 : 3। यदि त्रिभुज ABC का क्षेत्रफल 90 cm² है, तो त्रिभुज ABD का क्षेत्रफल ज्ञात कीजिए।"
+      },
+      "optionsJson": [
+        { "en": "30 cm²", "hi": "30 cm²" },
+        { "en": "54 cm²", "hi": "54 cm²" },
+        { "en": "36 cm²", "hi": "36 cm²" },
+        { "en": "45 cm²", "hi": "45 cm²" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Triangles ABD and ADC have the same height (the perpendicular from A to BC), so their areas are in the ratio of their bases BD : DC = 2 : 3. Hence area of ABD = (2/5) × 90 = 36 cm².",
+        "hi": "त्रिभुज ABD और ADC की ऊँचाई समान है (A से BC पर लंब), इसलिए उनके क्षेत्रफल उनके आधारों BD : DC = 2 : 3 के अनुपात में हैं। अतः ABD का क्षेत्रफल = (2/5) × 90 = 36 cm²।"
+      },
+      "distractorAnalysis": {
+        "0": { "en": "Takes one-third of the area, using 1/3 instead of 2/5.", "hi": "2/5 के स्थान पर 1/3 लेकर क्षेत्रफल का एक-तिहाई ले लिया।" },
+        "1": { "en": "This is the area of triangle ADC (3/5 of 90), not ABD.", "hi": "यह त्रिभुज ADC का क्षेत्रफल (90 का 3/5) है, ABD का नहीं।" },
+        "3": { "en": "Assumes D is the mid-point of BC and takes half the area.", "hi": "D को BC का मध्य-बिंदु मानकर आधा क्षेत्रफल ले लिया।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-39",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Two right circular cylinders have base radii in the ratio 2 : 3 and heights in the ratio 5 : 3. Find the ratio of their volumes.",
+        "hi": "दो लंब वृत्तीय बेलनों की आधार त्रिज्याओं का अनुपात 2 : 3 और ऊँचाइयों का अनुपात 5 : 3 है। उनके आयतनों का अनुपात ज्ञात कीजिए।"
+      },
+      "optionsJson": [
+        { "en": "20 : 27", "hi": "20 : 27" },
+        { "en": "10 : 9", "hi": "10 : 9" },
+        { "en": "4 : 9", "hi": "4 : 9" },
+        { "en": "5 : 3", "hi": "5 : 3" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Volume = πr²h, so the ratio = (2² × 5) : (3² × 3) = 20 : 27.",
+        "hi": "आयतन = πr²h, अतः अनुपात = (2² × 5) : (3² × 3) = 20 : 27।"
+      },
+      "distractorAnalysis": {
+        "1": { "en": "Uses r × h instead of r² × h: (2 × 5) : (3 × 3).", "hi": "r² × h के स्थान पर r × h लिया: (2 × 5) : (3 × 3)।" },
+        "2": { "en": "Considers only the ratio of the squares of the radii and ignores the heights.", "hi": "केवल त्रिज्याओं के वर्गों का अनुपात लिया, ऊँचाइयों को छोड़ दिया।" },
+        "3": { "en": "Takes only the ratio of the heights and ignores the radii.", "hi": "केवल ऊँचाइयों का अनुपात लिया, त्रिज्याओं को छोड़ दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-40",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "A triangle and a parallelogram stand on the same base and lie between the same pair of parallel lines. If the area of the triangle is 24 cm², find the area of the parallelogram.",
+        "hi": "एक त्रिभुज और एक समांतर चतुर्भुज एक ही आधार पर तथा एक ही जोड़ी समांतर रेखाओं के बीच स्थित हैं। यदि त्रिभुज का क्षेत्रफल 24 cm² है, तो समांतर चतुर्भुज का क्षेत्रफल ज्ञात कीजिए।"
+      },
+      "optionsJson": [
+        { "en": "12 cm²", "hi": "12 cm²" },
+        { "en": "48 cm²", "hi": "48 cm²" },
+        { "en": "24 cm²", "hi": "24 cm²" },
+        { "en": "72 cm²", "hi": "72 cm²" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "A triangle on the same base and between the same parallels as a parallelogram has half its area. So the parallelogram has area 2 × 24 = 48 cm².",
+        "hi": "समांतर चतुर्भुज के समान आधार और समान समांतर रेखाओं के बीच बने त्रिभुज का क्षेत्रफल उसका आधा होता है। अतः समांतर चतुर्भुज का क्षेत्रफल 2 × 24 = 48 cm² है।"
+      },
+      "distractorAnalysis": {
+        "0": { "en": "Halves the triangle's area instead of doubling it.", "hi": "त्रिभुज का क्षेत्रफल दोगुना करने के बजाय आधा कर दिया।" },
+        "2": { "en": "Assumes the two areas are equal.", "hi": "दोनों क्षेत्रफलों को बराबर मान लिया।" },
+        "3": { "en": "Multiplies the triangle's area by 3.", "hi": "त्रिभुज के क्षेत्रफल को 3 से गुणा कर दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-41",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which of the following is an irrational number?",
+        "hi": "निम्नलिखित में से कौन-सी संख्या अपरिमेय है?"
+      },
+      "optionsJson": [
+        { "en": "√49", "hi": "√49" },
+        { "en": "22/7", "hi": "22/7" },
+        { "en": "√50", "hi": "√50" },
+        { "en": "√(81/4)", "hi": "√(81/4)" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "√49 = 7 and √(81/4) = 9/2 are rational, and 22/7 is already a ratio of integers. But 50 is not a perfect square (√50 = 5√2), so √50 is irrational.",
+        "hi": "√49 = 7 और √(81/4) = 9/2 परिमेय हैं, तथा 22/7 पहले से ही दो पूर्णांकों का अनुपात है। परंतु 50 पूर्ण वर्ग नहीं है (√50 = 5√2), इसलिए √50 अपरिमेय है।"
+      },
+      "distractorAnalysis": {
+        "0": { "en": "49 is a perfect square, so √49 = 7 is rational.", "hi": "49 पूर्ण वर्ग है, अतः √49 = 7 परिमेय है।" },
+        "1": { "en": "22/7 is a fraction p/q of integers, so it is rational.", "hi": "22/7 पूर्णांकों का भिन्न p/q है, अतः परिमेय है।" },
+        "3": { "en": "√(81/4) = 9/2, which is a rational number.", "hi": "√(81/4) = 9/2 है, जो एक परिमेय संख्या है।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-42",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "₹3600 is divided among A, B and C in the ratio 2 : 3 : 7. How much does C receive?",
+        "hi": "₹3600 को A, B और C में 2 : 3 : 7 के अनुपात में बाँटा जाता है। C को कितनी राशि मिलेगी?"
+      },
+      "optionsJson": [
+        { "en": "₹600", "hi": "₹600" },
+        { "en": "₹900", "hi": "₹900" },
+        { "en": "₹1800", "hi": "₹1800" },
+        { "en": "₹2100", "hi": "₹2100" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Total parts = 2 + 3 + 7 = 12, so one part = 3600 ÷ 12 = ₹300. C gets 7 × 300 = ₹2100.",
+        "hi": "कुल भाग = 2 + 3 + 7 = 12, अतः एक भाग = 3600 ÷ 12 = ₹300। C को 7 × 300 = ₹2100 मिलेंगे।"
+      },
+      "distractorAnalysis": {
+        "0": { "en": "This is A's share (2 parts), not C's.", "hi": "यह A का हिस्सा (2 भाग) है, C का नहीं।" },
+        "1": { "en": "This is B's share (3 parts), not C's.", "hi": "यह B का हिस्सा (3 भाग) है, C का नहीं।" },
+        "2": { "en": "Takes half of the total instead of 7/12 of it.", "hi": "कुल राशि का 7/12 लेने के बजाय उसका आधा ले लिया।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-43",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "The price of a cycle is first increased by 30% and then decreased by 10%. What is the net change in its price?",
+        "hi": "एक साइकिल का मूल्य पहले 30% बढ़ाया जाता है और फिर 10% घटाया जाता है। उसके मूल्य में कुल परिवर्तन क्या है?"
+      },
+      "optionsJson": [
+        { "en": "17% increase", "hi": "17% की वृद्धि" },
+        { "en": "20% increase", "hi": "20% की वृद्धि" },
+        { "en": "27% increase", "hi": "27% की वृद्धि" },
+        { "en": "13% increase", "hi": "13% की वृद्धि" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Let the original price be 100. After a 30% increase it is 130. A 10% decrease on 130 gives 130 − 13 = 117. Net change = 17% increase.",
+        "hi": "माना मूल मूल्य 100 है। 30% वृद्धि के बाद यह 130 हो जाता है। 130 पर 10% की कमी से 130 − 13 = 117 मिलता है। कुल परिवर्तन = 17% की वृद्धि।"
+      },
+      "distractorAnalysis": {
+        "1": { "en": "Subtracts the percentages directly: 30 − 10 = 20.", "hi": "प्रतिशतों को सीधे घटा दिया: 30 − 10 = 20।" },
+        "2": { "en": "Takes 10% of the 30% increase (that is 3%) and subtracts it from 30%, instead of reducing the new price 130 by 10%.", "hi": "नया मूल्य 130 घटाने के बजाय 30% की वृद्धि का 10% (अर्थात् 3%) लेकर 30% में से घटा दिया।" },
+        "3": { "en": "Reads the amount of the decrease, 13 (10% of 130), as the net percentage change instead of subtracting it from 130.", "hi": "कमी की राशि 13 (130 का 10%) को ही कुल प्रतिशत परिवर्तन मान लिया, उसे 130 में से नहीं घटाया।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-44",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Find the median of the data: 12, 7, 15, 9, 20, 11, 8.",
+        "hi": "आँकड़ों की माध्यिका ज्ञात कीजिए: 12, 7, 15, 9, 20, 11, 8।"
+      },
+      "optionsJson": [
+        { "en": "9", "hi": "9" },
+        { "en": "11", "hi": "11" },
+        { "en": "12", "hi": "12" },
+        { "en": "15", "hi": "15" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Arranged in order: 7, 8, 9, 11, 12, 15, 20. There are 7 values, so the median is the 4th value = 11.",
+        "hi": "आरोही क्रम में: 7, 8, 9, 11, 12, 15, 20। कुल 7 प्रेक्षण हैं, अतः माध्यिका चौथा प्रेक्षण = 11 है।"
+      },
+      "distractorAnalysis": {
+        "0": { "en": "Picks the 4th value of the unsorted list without arranging the data in order.", "hi": "आँकड़ों को क्रम में लगाए बिना मूल सूची का चौथा प्रेक्षण ले लिया।" },
+        "2": { "en": "Gives the mean (82/7 ≈ 11.7, rounded to 12) instead of the median.", "hi": "माध्यिका के स्थान पर माध्य (82/7 ≈ 11.7, लगभग 12) बता दिया।" },
+        "3": { "en": "Picks the wrong position in the ordered list.", "hi": "क्रमबद्ध सूची में गलत स्थान का प्रेक्षण चुन लिया।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-45",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Two fair dice are thrown together. What is the probability that the sum of the numbers on their top faces is 8?",
+        "hi": "दो निष्पक्ष पासे एक साथ फेंके जाते हैं। ऊपरी फलकों की संख्याओं का योग 8 होने की प्रायिकता क्या है?"
+      },
+      "optionsJson": [
+        { "en": "1/6", "hi": "1/6" },
+        { "en": "1/9", "hi": "1/9" },
+        { "en": "5/36", "hi": "5/36" },
+        { "en": "7/36", "hi": "7/36" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "There are 36 equally likely outcomes. The outcomes with sum 8 are (2,6), (3,5), (4,4), (5,3) and (6,2), which are 5 outcomes. Probability = 5/36.",
+        "hi": "कुल 36 समसंभावी परिणाम हैं। योग 8 वाले परिणाम (2,6), (3,5), (4,4), (5,3) और (6,2) हैं, यानी 5 परिणाम। प्रायिकता = 5/36।"
+      },
+      "distractorAnalysis": {
+        "0": { "en": "This is 6/36, the probability of the sum 7, not 8.", "hi": "यह 6/36 है, जो योग 7 की प्रायिकता है, 8 की नहीं।" },
+        "1": { "en": "Counts only 4 favourable outcomes, missing one pair such as (4,4).", "hi": "केवल 4 अनुकूल परिणाम गिने, (4,4) जैसा एक युग्म छूट गया।" },
+        "3": { "en": "Counts 7 favourable outcomes instead of 5.", "hi": "5 के स्थान पर 7 अनुकूल परिणाम गिन लिए।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-46",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "The cost of 3 pencils and 2 erasers is ₹19, while the cost of 2 pencils and 3 erasers is ₹16. Find the cost of one pencil.",
+        "hi": "3 पेंसिल और 2 रबड़ का मूल्य ₹19 है, जबकि 2 पेंसिल और 3 रबड़ का मूल्य ₹16 है। एक पेंसिल का मूल्य ज्ञात कीजिए।"
+      },
+      "optionsJson": [
+        { "en": "₹2", "hi": "₹2" },
+        { "en": "₹3", "hi": "₹3" },
+        { "en": "₹4", "hi": "₹4" },
+        { "en": "₹5", "hi": "₹5" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Let a pencil cost p and an eraser cost e. Then 3p + 2e = 19 and 2p + 3e = 16. Adding: 5p + 5e = 35, so p + e = 7. Subtracting: p − e = 3. Hence p = 5 and e = 2. Check: 15 + 4 = 19 and 10 + 6 = 16.",
+        "hi": "माना एक पेंसिल का मूल्य p और एक रबड़ का मूल्य e है। तब 3p + 2e = 19 और 2p + 3e = 16। जोड़ने पर 5p + 5e = 35, अतः p + e = 7। घटाने पर p − e = 3। इसलिए p = 5 और e = 2। जाँच: 15 + 4 = 19 और 10 + 6 = 16।"
+      },
+      "distractorAnalysis": {
+        "0": { "en": "This is the cost of an eraser, not a pencil.", "hi": "यह एक रबड़ का मूल्य है, पेंसिल का नहीं।" },
+        "1": { "en": "This is the difference p − e, not the cost of a pencil.", "hi": "यह अंतर p − e है, पेंसिल का मूल्य नहीं।" },
+        "2": { "en": "Fails the check: p = 4 gives e = 3.5 from the first equation, which does not satisfy the second equation.", "hi": "जाँच में विफल: p = 4 लेने पर पहले समीकरण से e = 3.5 आता है, जो दूसरे समीकरण को संतुष्ट नहीं करता।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-47",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Simplify: (3⁵ × 9²) ÷ 27²",
+        "hi": "सरल कीजिए: (3⁵ × 9²) ÷ 27²"
+      },
+      "optionsJson": [
+        { "en": "27", "hi": "27" },
+        { "en": "3", "hi": "3" },
+        { "en": "9", "hi": "9" },
+        { "en": "81", "hi": "81" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Write everything with base 3: 9² = 3⁴ and 27² = 3⁶. So the expression = 3⁵ × 3⁴ ÷ 3⁶ = 3^(5 + 4 − 6) = 3³ = 27.",
+        "hi": "सभी को आधार 3 में लिखें: 9² = 3⁴ और 27² = 3⁶। अतः व्यंजक = 3⁵ × 3⁴ ÷ 3⁶ = 3^(5 + 4 − 6) = 3³ = 27।"
+      },
+      "distractorAnalysis": {
+        "1": { "en": "Gets the exponent as 1 by miscounting the powers (for example 5 + 2 − 6).", "hi": "घातों की गलत गिनती से घातांक 1 आया (जैसे 5 + 2 − 6)।" },
+        "2": { "en": "Gets the exponent as 2 by miscounting the powers.", "hi": "घातों की गलत गिनती से घातांक 2 आया।" },
+        "3": { "en": "Gets the exponent as 4 by miscounting the powers.", "hi": "घातों की गलत गिनती से घातांक 4 आया।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-48",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "A train 120 m long is running at 54 km/h. How much time will it take to completely cross a platform 180 m long?",
+        "hi": "120 m लंबी एक रेलगाड़ी 54 km/h की चाल से चल रही है। 180 m लंबे प्लेटफ़ॉर्म को पूरी तरह पार करने में उसे कितना समय लगेगा?"
+      },
+      "optionsJson": [
+        { "en": "8 seconds", "hi": "8 सेकंड" },
+        { "en": "20 seconds", "hi": "20 सेकंड" },
+        { "en": "12 seconds", "hi": "12 सेकंड" },
+        { "en": "24 seconds", "hi": "24 सेकंड" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Speed = 54 km/h = 54 × 5/18 = 15 m/s. Distance to cover = length of train + length of platform = 120 + 180 = 300 m. Time = 300 ÷ 15 = 20 seconds.",
+        "hi": "चाल = 54 km/h = 54 × 5/18 = 15 m/s। तय करने वाली दूरी = रेलगाड़ी की लंबाई + प्लेटफ़ॉर्म की लंबाई = 120 + 180 = 300 m। समय = 300 ÷ 15 = 20 सेकंड।"
+      },
+      "distractorAnalysis": {
+        "0": { "en": "Uses only the length of the train (120 ÷ 15).", "hi": "केवल रेलगाड़ी की लंबाई ली (120 ÷ 15)।" },
+        "2": { "en": "Uses only the length of the platform (180 ÷ 15).", "hi": "केवल प्लेटफ़ॉर्म की लंबाई ली (180 ÷ 15)।" },
+        "3": { "en": "Converts 54 km/h incorrectly to 12.5 m/s, giving 300 ÷ 12.5.", "hi": "54 km/h को गलत ढंग से 12.5 m/s में बदला, जिससे 300 ÷ 12.5 आया।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-49",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "On rationalising the denominator, 1/(√5 − 2) becomes:",
+        "hi": "हर का परिमेयीकरण करने पर 1/(√5 − 2) का मान होता है:"
+      },
+      "optionsJson": [
+        { "en": "√5 − 2", "hi": "√5 − 2" },
+        { "en": "(√5 + 2)/9", "hi": "(√5 + 2)/9" },
+        { "en": "1/3", "hi": "1/3" },
+        { "en": "√5 + 2", "hi": "√5 + 2" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Multiply the numerator and denominator by the conjugate (√5 + 2): (√5 + 2) / ((√5)² − 2²) = (√5 + 2) / (5 − 4) = √5 + 2.",
+        "hi": "अंश और हर को संयुग्मी (√5 + 2) से गुणा करें: (√5 + 2) / ((√5)² − 2²) = (√5 + 2) / (5 − 4) = √5 + 2।"
+      },
+      "distractorAnalysis": {
+        "0": { "en": "Multiplies by the same expression (√5 − 2) rather than by the conjugate, which does not rationalise the denominator.", "hi": "संयुग्मी के बजाय उसी व्यंजक (√5 − 2) से गुणा किया, जिससे हर परिमेय नहीं होता।" },
+        "1": { "en": "Computes the new denominator as 5 + 4 = 9 instead of 5 − 4 = 1.", "hi": "नया हर 5 − 4 = 1 के स्थान पर 5 + 4 = 9 निकाला।" },
+        "2": { "en": "Treats √5 − 2 as 5 − 2 = 3 by wrongly removing the root sign.", "hi": "मूल चिह्न हटाकर √5 − 2 को 5 − 2 = 3 मान लिया।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-50",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Find the difference between the compound interest and the simple interest on ₹5000 for 2 years at 8% per annum, compounded annually.",
+        "hi": "₹5000 पर 2 वर्ष के लिए 8% वार्षिक दर से वार्षिक रूप से संयोजित चक्रवृद्धि ब्याज और साधारण ब्याज का अंतर ज्ञात कीजिए।"
+      },
+      "optionsJson": [
+        { "en": "₹32", "hi": "₹32" },
+        { "en": "₹64", "hi": "₹64" },
+        { "en": "₹16", "hi": "₹16" },
+        { "en": "₹40", "hi": "₹40" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Simple interest = 5000 × 8 × 2 / 100 = ₹800. Amount with compound interest = 5000 × (1.08)² = 5000 × 1.1664 = ₹5832, so compound interest = ₹832. Difference = 832 − 800 = ₹32.",
+        "hi": "साधारण ब्याज = 5000 × 8 × 2 / 100 = ₹800। चक्रवृद्धि ब्याज से मिश्रधन = 5000 × (1.08)² = 5000 × 1.1664 = ₹5832, अतः चक्रवृद्धि ब्याज = ₹832। अंतर = 832 − 800 = ₹32।"
+      },
+      "distractorAnalysis": {
+        "1": { "en": "Doubles the correct difference.", "hi": "सही अंतर को दोगुना कर दिया।" },
+        "2": { "en": "Halves the correct difference.", "hi": "सही अंतर का आधा कर दिया।" },
+        "3": { "en": "Arithmetic slip while squaring 1.08 and subtracting the interest.", "hi": "1.08 का वर्ग निकालने और ब्याज घटाने में गणना की भूल।" }
+      }
+    }
+  ]
+}

@@ -1,0 +1,484 @@
+{
+  "examType": "RMS",
+  "classLevel": 9,
+  "paperNumber": 5,
+  "sectionKey": "mathematics",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "rms9-p5-mt-01",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which of the following numbers is irrational?", "hi": "निम्नलिखित में से कौन-सी संख्या अपरिमेय है?" },
+      "optionsJson": [
+        { "en": "√81", "hi": "√81" },
+        { "en": "0.333… (3 repeating forever)", "hi": "0.333… (3 अनंत बार दोहराया जाता है)" },
+        { "en": "√45", "hi": "√45" },
+        { "en": "22/7", "hi": "22/7" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "√45 = 3√5, and 45 is not a perfect square, so √45 is non-terminating and non-repeating, hence irrational. √81 = 9, 0.333… = 1/3 and 22/7 are all rational.", "hi": "√45 = 3√5 है और 45 पूर्ण वर्ग नहीं है, इसलिए √45 अनवसानी और अनावर्ती दशमलव है, अतः अपरिमेय है। √81 = 9, 0.333… = 1/3 और 22/7 सभी परिमेय संख्याएँ हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "√81 = 9 is a whole number, so it is rational.", "hi": "√81 = 9 एक पूर्ण संख्या है, इसलिए यह परिमेय है।" },
+        "1": { "en": "A repeating decimal equals 1/3, which is rational.", "hi": "आवर्ती दशमलव 1/3 के बराबर है, जो परिमेय है।" },
+        "3": { "en": "22/7 is a ratio of two integers, so it is rational (only an approximation of π).", "hi": "22/7 दो पूर्णांकों का अनुपात है, इसलिए परिमेय है (यह केवल π का सन्निकट मान है)।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-02",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "₹2,400 is divided between Anil and Bhavna in the ratio 3 : 5. How much does Bhavna get?", "hi": "₹2,400 को अनिल और भावना में 3 : 5 के अनुपात में बाँटा गया। भावना को कितने रुपये मिलेंगे?" },
+      "optionsJson": [
+        { "en": "₹900", "hi": "₹900" },
+        { "en": "₹1,200", "hi": "₹1,200" },
+        { "en": "₹1,440", "hi": "₹1,440" },
+        { "en": "₹1,500", "hi": "₹1,500" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Total parts = 3 + 5 = 8. Bhavna's share = (5/8) × 2400 = ₹1,500.", "hi": "कुल भाग = 3 + 5 = 8। भावना का हिस्सा = (5/8) × 2400 = ₹1,500।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is Anil's share (3/8 of 2400), not Bhavna's.", "hi": "यह अनिल का हिस्सा (2400 का 3/8) है, भावना का नहीं।" },
+        "1": { "en": "Splits the money equally, ignoring the ratio.", "hi": "अनुपात को अनदेखा करके राशि बराबर बाँट दी।" },
+        "2": { "en": "Uses 3/5 of 2400 instead of 5/8 of 2400.", "hi": "2400 का 5/8 लेने के बजाय 3/5 ले लिया।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-03",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "What is 12.5% of 480?", "hi": "480 का 12.5% कितना होता है?" },
+      "optionsJson": [
+        { "en": "48", "hi": "48" },
+        { "en": "60", "hi": "60" },
+        { "en": "72", "hi": "72" },
+        { "en": "120", "hi": "120" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "12.5% = 1/8, so 12.5% of 480 = 480 ÷ 8 = 60.", "hi": "12.5% = 1/8, अतः 480 का 12.5% = 480 ÷ 8 = 60।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is 10% of 480, not 12.5%.", "hi": "यह 480 का 10% है, 12.5% नहीं।" },
+        "2": { "en": "This is 15% of 480, not 12.5%.", "hi": "यह 480 का 15% है, 12.5% नहीं।" },
+        "3": { "en": "This is 25% of 480, double the required value.", "hi": "यह 480 का 25% है, जो अभीष्ट मान का दुगुना है।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-04",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Rohan buys a pen for ₹40 and sells it for ₹46. What is his profit percentage?", "hi": "रोहन ने एक पेन ₹40 में खरीदा और ₹46 में बेच दिया। उसका लाभ प्रतिशत कितना है?" },
+      "optionsJson": [
+        { "en": "6%", "hi": "6%" },
+        { "en": "13%", "hi": "13%" },
+        { "en": "15%", "hi": "15%" },
+        { "en": "18%", "hi": "18%" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Profit = 46 − 40 = ₹6. Profit % = (6/40) × 100 = 15%.", "hi": "लाभ = 46 − 40 = ₹6। लाभ % = (6/40) × 100 = 15%।" },
+      "distractorAnalysis": {
+        "0": { "en": "Reports the profit amount (₹6) as a percentage.", "hi": "लाभ की राशि (₹6) को ही प्रतिशत मान लिया।" },
+        "1": { "en": "Divides the profit by the selling price (6/46) instead of the cost price.", "hi": "लाभ को क्रय मूल्य के बजाय विक्रय मूल्य (6/46) से भाग दे दिया।" },
+        "3": { "en": "Calculation slip while dividing 6 by 40.", "hi": "6 को 40 से भाग देने में गणना की भूल।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-05",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Simplify: (5^6 × 5^−3) ÷ 5^2", "hi": "सरल करें: (5^6 × 5^−3) ÷ 5^2" },
+      "optionsJson": [
+        { "en": "5", "hi": "5" },
+        { "en": "1/5", "hi": "1/5" },
+        { "en": "25", "hi": "25" },
+        { "en": "125", "hi": "125" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Add exponents in the product: 5^6 × 5^−3 = 5^3. Then subtract: 5^3 ÷ 5^2 = 5^(3−2) = 5.", "hi": "गुणनफल में घातांक जोड़ें: 5^6 × 5^−3 = 5^3। फिर घटाएँ: 5^3 ÷ 5^2 = 5^(3−2) = 5।" },
+      "distractorAnalysis": {
+        "1": { "en": "Gets the exponent sign wrong, giving 5^−1 instead of 5^1.", "hi": "घातांक का चिह्न गलत लिया, 5^1 के बजाय 5^−1 आया।" },
+        "2": { "en": "Slip in exponent arithmetic, getting 5^2 instead of 5^1.", "hi": "घातांकों की गणना में भूल, 5^1 के बजाय 5^2 आया।" },
+        "3": { "en": "Stops at 5^3 and forgets to divide by 5^2.", "hi": "5^3 पर रुक गया और 5^2 से भाग देना भूल गया।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-06",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "What is the smallest number which leaves a remainder of 7 when divided by 12, by 15 and by 20?", "hi": "वह सबसे छोटी संख्या कौन-सी है जिसे 12, 15 और 20 से भाग देने पर प्रत्येक बार शेषफल 7 बचता है?" },
+      "optionsJson": [
+        { "en": "67", "hi": "67" },
+        { "en": "60", "hi": "60" },
+        { "en": "53", "hi": "53" },
+        { "en": "127", "hi": "127" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The number must be 7 more than a common multiple of 12, 15 and 20. LCM(12, 15, 20) = 60, so the smallest such number is 60 + 7 = 67. The remainder 7 is less than each divisor, so this works.", "hi": "संख्या, 12, 15 और 20 के किसी उभयनिष्ठ गुणज से 7 अधिक होनी चाहिए। ल.स.प.(12, 15, 20) = 60, अतः सबसे छोटी संख्या 60 + 7 = 67 है। शेषफल 7 प्रत्येक भाजक से छोटा है, इसलिए यह मान्य है।" },
+      "distractorAnalysis": {
+        "1": { "en": "This is only the LCM; it leaves remainder 0, not 7.", "hi": "यह केवल ल.स.प. है; इसे भाग देने पर शेषफल 0 बचता है, 7 नहीं।" },
+        "2": { "en": "Subtracts 7 from the LCM instead of adding it.", "hi": "ल.स.प. में 7 जोड़ने के बजाय घटा दिया।" },
+        "3": { "en": "127 = 120 + 7 works but is not the smallest such number.", "hi": "127 = 120 + 7 भी शर्त पूरी करती है, पर यह सबसे छोटी संख्या नहीं है।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-07",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "What is the greatest number that divides 245 and 1029 leaving a remainder of 5 in each case?", "hi": "वह महत्तम संख्या कौन-सी है जो 245 और 1029 को भाग देने पर प्रत्येक बार शेषफल 5 छोड़ती है?" },
+      "optionsJson": [
+        { "en": "8", "hi": "8" },
+        { "en": "16", "hi": "16" },
+        { "en": "32", "hi": "32" },
+        { "en": "48", "hi": "48" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The required number divides 245 − 5 = 240 and 1029 − 5 = 1024 exactly. 240 = 2⁴ × 3 × 5 and 1024 = 2¹⁰, so HCF = 2⁴ = 16. Since 16 > 5, the remainder 5 is valid.", "hi": "अभीष्ट संख्या 245 − 5 = 240 और 1029 − 5 = 1024 दोनों को पूरी तरह विभाजित करती है। 240 = 2⁴ × 3 × 5 और 1024 = 2¹⁰, अतः म.स.प. = 2⁴ = 16। चूँकि 16 > 5, शेषफल 5 मान्य है।" },
+      "distractorAnalysis": {
+        "0": { "en": "8 is a common divisor of 240 and 1024 but not the greatest one.", "hi": "8, 240 और 1024 का उभयनिष्ठ भाजक है, पर महत्तम नहीं है।" },
+        "2": { "en": "32 does not divide 240 exactly (240 ÷ 32 = 7.5).", "hi": "32, 240 को पूरी तरह विभाजित नहीं करता (240 ÷ 32 = 7.5)।" },
+        "3": { "en": "48 does not divide 1024 exactly, so it cannot be the HCF.", "hi": "48, 1024 को पूरी तरह विभाजित नहीं करता, इसलिए यह म.स.प. नहीं हो सकता।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-08",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "A 40-litre mixture of milk and water has milk and water in the ratio 5 : 3. How many litres of water must be added so that the ratio of milk to water becomes 5 : 4?", "hi": "दूध और पानी के 40 लीटर मिश्रण में दूध और पानी का अनुपात 5 : 3 है। दूध और पानी का अनुपात 5 : 4 करने के लिए कितने लीटर पानी मिलाना होगा?" },
+      "optionsJson": [
+        { "en": "10 litres", "hi": "10 लीटर" },
+        { "en": "20 litres", "hi": "20 लीटर" },
+        { "en": "4 litres", "hi": "4 लीटर" },
+        { "en": "5 litres", "hi": "5 लीटर" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Milk = (5/8) × 40 = 25 L and water = 15 L. Milk stays 25 L, so for ratio 5 : 4 the water must be (4/5) × 25 = 20 L. Water to add = 20 − 15 = 5 litres.", "hi": "दूध = (5/8) × 40 = 25 L और पानी = 15 L। दूध 25 L ही रहेगा, अतः 5 : 4 के अनुपात के लिए पानी (4/5) × 25 = 20 L होना चाहिए। मिलाया जाने वाला पानी = 20 − 15 = 5 लीटर।" },
+      "distractorAnalysis": {
+        "0": { "en": "Adding 10 L gives 25 L milk and 25 L water, a ratio of 1 : 1.", "hi": "10 L मिलाने पर 25 L दूध और 25 L पानी होगा, अनुपात 1 : 1 आएगा।" },
+        "1": { "en": "20 L is the final amount of water, not the amount to be added.", "hi": "20 L पानी की अंतिम मात्रा है, मिलाई जाने वाली मात्रा नहीं।" },
+        "2": { "en": "Adding 4 L gives milk : water = 25 : 19, not 5 : 4.", "hi": "4 L मिलाने पर दूध : पानी = 25 : 19 होगा, 5 : 4 नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-09",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The price of sugar rises by 25%. By what percentage must a family reduce its consumption of sugar so that its expenditure on sugar remains unchanged?", "hi": "चीनी के दाम में 25% की वृद्धि हो जाती है। एक परिवार को चीनी की खपत में कितने प्रतिशत की कमी करनी चाहिए ताकि चीनी पर उसका खर्च अपरिवर्तित रहे?" },
+      "optionsJson": [
+        { "en": "25%", "hi": "25%" },
+        { "en": "30%", "hi": "30%" },
+        { "en": "20%", "hi": "20%" },
+        { "en": "15%", "hi": "15%" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Let the old price be ₹100 per unit; the new price is ₹125. For the same expenditure, the quantity must become 100/125 = 4/5 of the old quantity. Reduction = 1 − 4/5 = 1/5 = 20%.", "hi": "माना पुराना भाव ₹100 प्रति इकाई है, तो नया भाव ₹125 होगा। समान खर्च के लिए मात्रा पुरानी मात्रा की 100/125 = 4/5 रह जानी चाहिए। कमी = 1 − 4/5 = 1/5 = 20%।" },
+      "distractorAnalysis": {
+        "0": { "en": "Assumes the consumption must fall by the same 25% as the price rise.", "hi": "मान लिया कि खपत उतनी ही 25% घटानी होगी जितना दाम बढ़ा है।" },
+        "1": { "en": "Overestimates the reduction; 30% less would make expenditure drop below the original.", "hi": "कमी को अधिक आँका; 30% कमी करने पर खर्च मूल खर्च से कम हो जाएगा।" },
+        "3": { "en": "15% less consumption still leaves expenditure above the original amount.", "hi": "15% कमी करने पर भी खर्च मूल राशि से अधिक रहेगा।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-10",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A shopkeeper marks his goods 40% above the cost price and then allows a discount of 20% on the marked price. What is his profit percentage?", "hi": "एक दुकानदार अपने सामान का अंकित मूल्य क्रय मूल्य से 40% अधिक रखता है और फिर अंकित मूल्य पर 20% की छूट देता है। उसका लाभ प्रतिशत कितना है?" },
+      "optionsJson": [
+        { "en": "8%", "hi": "8%" },
+        { "en": "12%", "hi": "12%" },
+        { "en": "16%", "hi": "16%" },
+        { "en": "20%", "hi": "20%" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Let CP = ₹100. Marked price = ₹140. Selling price = 140 × 80/100 = ₹112. Profit = 112 − 100 = ₹12, so profit % = 12%.", "hi": "माना क्रय मूल्य = ₹100। अंकित मूल्य = ₹140। विक्रय मूल्य = 140 × 80/100 = ₹112। लाभ = 112 − 100 = ₹12, अतः लाभ % = 12%।" },
+      "distractorAnalysis": {
+        "0": { "en": "Multiplies the two percentages (20% of 40%) instead of applying them in sequence.", "hi": "दोनों प्रतिशतों को क्रम से लगाने के बजाय आपस में गुणा कर दिया (40% का 20%)।" },
+        "2": { "en": "Takes 40% of 40 instead of finding the actual selling price.", "hi": "वास्तविक विक्रय मूल्य निकालने के बजाय 40 का 40% ले लिया।" },
+        "3": { "en": "Subtracts the discount from the markup directly (40 − 20), ignoring that the discount is on the marked price.", "hi": "छूट सीधे अंकन प्रतिशत में से घटा दी (40 − 20), यह भूलकर कि छूट अंकित मूल्य पर है।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-11",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The simple interest on a certain sum at 6% per annum for 4 years is ₹1,200. What is the sum?", "hi": "एक धनराशि पर 6% वार्षिक दर से 4 वर्षों का साधारण ब्याज ₹1,200 है। वह धनराशि कितनी है?" },
+      "optionsJson": [
+        { "en": "₹5,000", "hi": "₹5,000" },
+        { "en": "₹7,200", "hi": "₹7,200" },
+        { "en": "₹20,000", "hi": "₹20,000" },
+        { "en": "₹30,000", "hi": "₹30,000" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "SI = P × R × T / 100, so P = (1200 × 100) / (6 × 4) = 120000 / 24 = ₹5,000.", "hi": "साधारण ब्याज = P × R × T / 100, अतः P = (1200 × 100) / (6 × 4) = 120000 / 24 = ₹5,000।" },
+      "distractorAnalysis": {
+        "1": { "en": "Multiplies the interest by the rate (1200 × 6) instead of using the formula.", "hi": "सूत्र लगाने के बजाय ब्याज को दर से गुणा कर दिया (1200 × 6)।" },
+        "2": { "en": "Divides only by the rate (6) and forgets to divide by the time (4).", "hi": "केवल दर (6) से भाग दिया और समय (4) से भाग देना भूल गया।" },
+        "3": { "en": "Divides only by the time (4) and forgets to divide by the rate (6).", "hi": "केवल समय (4) से भाग दिया और दर (6) से भाग देना भूल गया।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-12",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "What is the difference between the compound interest (compounded annually) and the simple interest on ₹5,000 for 2 years at 8% per annum?", "hi": "₹5,000 पर 8% वार्षिक दर से 2 वर्षों के चक्रवृद्धि ब्याज (वार्षिक संयोजित) और साधारण ब्याज का अंतर कितना है?" },
+      "optionsJson": [
+        { "en": "₹16", "hi": "₹16" },
+        { "en": "₹64", "hi": "₹64" },
+        { "en": "₹400", "hi": "₹400" },
+        { "en": "₹32", "hi": "₹32" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "SI = 5000 × 8 × 2 / 100 = ₹800. CI = 5000 × (1.08² − 1) = 5000 × 0.1664 = ₹832. Difference = ₹32. (Also P × (R/100)² = 5000 × 0.0064 = ₹32.)", "hi": "साधारण ब्याज = 5000 × 8 × 2 / 100 = ₹800। चक्रवृद्धि ब्याज = 5000 × (1.08² − 1) = 5000 × 0.1664 = ₹832। अंतर = ₹32। (साथ ही P × (R/100)² = 5000 × 0.0064 = ₹32।)" },
+      "distractorAnalysis": {
+        "0": { "en": "Gives half of the correct difference.", "hi": "सही अंतर का आधा मान दिया।" },
+        "1": { "en": "Gives double the correct difference.", "hi": "सही अंतर का दुगुना मान दिया।" },
+        "2": { "en": "This is the interest for one year (5000 × 8%), not the difference between CI and SI.", "hi": "यह एक वर्ष का ब्याज (5000 × 8%) है, चक्रवृद्धि और साधारण ब्याज का अंतर नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-13",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Meera can complete a job in 10 days and Naveen can complete it in 15 days. They work together for 3 days, after which Naveen leaves. In how many more days will Meera finish the remaining work alone?", "hi": "मीरा किसी काम को 10 दिन में और नवीन उसी काम को 15 दिन में पूरा कर सकता है। वे दोनों 3 दिन साथ मिलकर काम करते हैं, उसके बाद नवीन चला जाता है। शेष काम को मीरा अकेली और कितने दिन में पूरा करेगी?" },
+      "optionsJson": [
+        { "en": "4 days", "hi": "4 दिन" },
+        { "en": "5 days", "hi": "5 दिन" },
+        { "en": "6 days", "hi": "6 दिन" },
+        { "en": "7.5 days", "hi": "7.5 दिन" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Together they do 1/10 + 1/15 = 1/6 of the work per day. In 3 days they finish 3/6 = 1/2 of the work. Remaining = 1/2. Meera does 1/10 per day, so she needs (1/2) ÷ (1/10) = 5 days.", "hi": "साथ मिलकर वे प्रतिदिन 1/10 + 1/15 = 1/6 काम करते हैं। 3 दिन में वे 3/6 = 1/2 काम पूरा करते हैं। शेष काम = 1/2। मीरा प्रतिदिन 1/10 काम करती है, अतः उसे (1/2) ÷ (1/10) = 5 दिन लगेंगे।" },
+      "distractorAnalysis": {
+        "0": { "en": "Arithmetic slip while dividing the remaining work by Meera's daily rate.", "hi": "शेष काम को मीरा की दैनिक कार्य-दर से भाग देने में गणना की भूल।" },
+        "2": { "en": "6 days is the time the two would take to finish the whole job together, not the remaining work by Meera alone.", "hi": "6 दिन वह समय है जो दोनों मिलकर पूरा काम करने में लेंगे, मीरा द्वारा अकेले शेष काम का समय नहीं।" },
+        "3": { "en": "Uses Naveen's rate (1/15) instead of Meera's rate for the remaining half.", "hi": "शेष आधे काम के लिए मीरा की दर के बजाय नवीन की दर (1/15) ले ली।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-14",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A train 180 m long crosses a signal pole in 12 seconds. How long will it take to completely cross a platform 270 m long at the same speed?", "hi": "180 मीटर लंबी एक रेलगाड़ी एक सिग्नल खंभे को 12 सेकंड में पार करती है। उसी चाल से 270 मीटर लंबे प्लेटफ़ॉर्म को पूरी तरह पार करने में उसे कितना समय लगेगा?" },
+      "optionsJson": [
+        { "en": "12 seconds", "hi": "12 सेकंड" },
+        { "en": "18 seconds", "hi": "18 सेकंड" },
+        { "en": "30 seconds", "hi": "30 सेकंड" },
+        { "en": "45 seconds", "hi": "45 सेकंड" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Speed = 180 / 12 = 15 m/s. To cross the platform the train covers 180 + 270 = 450 m. Time = 450 / 15 = 30 seconds.", "hi": "चाल = 180 / 12 = 15 मी/से। प्लेटफ़ॉर्म पार करने के लिए रेलगाड़ी को 180 + 270 = 450 मी की दूरी तय करनी होती है। समय = 450 / 15 = 30 सेकंड।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the time to cross the pole, not the platform.", "hi": "यह खंभे को पार करने का समय है, प्लेटफ़ॉर्म का नहीं।" },
+        "1": { "en": "Uses only the platform length (270 / 15) and ignores the train's own length.", "hi": "केवल प्लेटफ़ॉर्म की लंबाई (270 / 15) ली और रेलगाड़ी की अपनी लंबाई को छोड़ दिया।" },
+        "3": { "en": "Divides the total distance 450 m by 10 instead of the actual speed of 15 m/s.", "hi": "कुल दूरी 450 मी को वास्तविक चाल 15 मी/से के बजाय 10 से भाग दे दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-15",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": { "en": "A boat can travel at 12 km/h in still water, and the speed of the stream is 3 km/h. How much total time does it take to go 36 km downstream and then return the same 36 km upstream?", "hi": "एक नाव स्थिर जल में 12 किमी/घंटा की चाल से चल सकती है और धारा की चाल 3 किमी/घंटा है। धारा की दिशा में 36 किमी जाने और फिर धारा के विपरीत उतनी ही 36 किमी वापस आने में कुल कितना समय लगेगा?" },
+      "optionsJson": [
+        { "en": "6 hours", "hi": "6 घंटे" },
+        { "en": "7 hours", "hi": "7 घंटे" },
+        { "en": "8 hours", "hi": "8 घंटे" },
+        { "en": "6 hours 24 minutes", "hi": "6 घंटे 24 मिनट" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Downstream speed = 12 + 3 = 15 km/h, so time = 36/15 = 2.4 h. Upstream speed = 12 − 3 = 9 km/h, so time = 36/9 = 4 h. Total = 6.4 h = 6 hours 24 minutes.", "hi": "धारा के अनुकूल चाल = 12 + 3 = 15 किमी/घंटा, अतः समय = 36/15 = 2.4 घंटे। धारा के प्रतिकूल चाल = 12 − 3 = 9 किमी/घंटा, अतः समय = 36/9 = 4 घंटे। कुल = 6.4 घंटे = 6 घंटे 24 मिनट।" },
+      "distractorAnalysis": {
+        "0": { "en": "Ignores the stream completely (36/12 each way).", "hi": "धारा की चाल को पूरी तरह अनदेखा किया (दोनों ओर 36/12)।" },
+        "1": { "en": "Uses the still-water speed for the downstream trip (36/12 = 3 h) and the correct 4 h upstream.", "hi": "धारा के अनुकूल यात्रा में स्थिर जल की चाल ली (36/12 = 3 घंटे) और प्रतिकूल यात्रा में सही 4 घंटे जोड़े।" },
+        "2": { "en": "Uses the upstream speed of 9 km/h for both journeys (36/9 + 36/9).", "hi": "दोनों यात्राओं में धारा के प्रतिकूल चाल 9 किमी/घंटा ले ली (36/9 + 36/9)।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-16",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": { "en": "A trader sells an article at a loss of 10%. Had he sold it for ₹120 more, he would have gained 5%. What is the cost price of the article?", "hi": "एक व्यापारी एक वस्तु को 10% हानि पर बेचता है। यदि वह उसे ₹120 अधिक में बेचता, तो उसे 5% लाभ होता। वस्तु का क्रय मूल्य कितना है?" },
+      "optionsJson": [
+        { "en": "₹800", "hi": "₹800" },
+        { "en": "₹1,200", "hi": "₹1,200" },
+        { "en": "₹2,400", "hi": "₹2,400" },
+        { "en": "₹600", "hi": "₹600" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Let the cost price be C. Selling price at 10% loss = 0.90C; selling price at 5% gain = 1.05C. The difference is 1.05C − 0.90C = 0.15C = ₹120, so C = 120 / 0.15 = ₹800.", "hi": "माना क्रय मूल्य C है। 10% हानि पर विक्रय मूल्य = 0.90C; 5% लाभ पर विक्रय मूल्य = 1.05C। अंतर 1.05C − 0.90C = 0.15C = ₹120, अतः C = 120 / 0.15 = ₹800।" },
+      "distractorAnalysis": {
+        "1": { "en": "Divides 120 by 10% only, ignoring the 5% gain (the gap is 15%).", "hi": "120 को केवल 10% से भाग दिया, 5% लाभ को अनदेखा किया (दोनों का अंतर 15% है)।" },
+        "2": { "en": "Divides 120 by 5% only, ignoring the 10% loss (the gap is 15%).", "hi": "120 को केवल 5% से भाग दिया, 10% हानि को अनदेखा किया (दोनों का अंतर 15% है)।" },
+        "3": { "en": "Wrongly multiplies 120 by 5 instead of dividing it by 15%.", "hi": "120 को 15% से भाग देने के बजाय गलती से 5 से गुणा कर दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-17",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Two angles of a triangle measure 55° and 65°. What is the measure of the exterior angle formed at the third vertex?", "hi": "एक त्रिभुज के दो कोण 55° और 65° हैं। तीसरे शीर्ष पर बने बहिष्कोण की माप क्या है?" },
+      "optionsJson": [
+        { "en": "60°", "hi": "60°" },
+        { "en": "115°", "hi": "115°" },
+        { "en": "120°", "hi": "120°" },
+        { "en": "125°", "hi": "125°" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The third angle = 180° − 55° − 65° = 60°. The exterior angle at that vertex = 180° − 60° = 120° (which also equals the sum of the other two angles, 55° + 65°).", "hi": "तीसरा कोण = 180° − 55° − 65° = 60°। उस शीर्ष पर बहिष्कोण = 180° − 60° = 120° (जो अन्य दो कोणों के योग 55° + 65° के भी बराबर है)।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the third interior angle, not the exterior angle.", "hi": "यह तीसरा आंतरिक कोण है, बहिष्कोण नहीं।" },
+        "1": { "en": "This is the exterior angle at the 65° vertex (180° − 65°), not at the third vertex.", "hi": "यह 65° वाले शीर्ष का बहिष्कोण (180° − 65°) है, तीसरे शीर्ष का नहीं।" },
+        "3": { "en": "This is the exterior angle at the 55° vertex (180° − 55°), not at the third vertex.", "hi": "यह 55° वाले शीर्ष का बहिष्कोण (180° − 55°) है, तीसरे शीर्ष का नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-18",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The total surface area of a cube is 294 cm². What is its volume?", "hi": "एक घन का संपूर्ण पृष्ठीय क्षेत्रफल 294 cm² है। उसका आयतन कितना है?" },
+      "optionsJson": [
+        { "en": "343 cm³", "hi": "343 cm³" },
+        { "en": "49 cm³", "hi": "49 cm³" },
+        { "en": "686 cm³", "hi": "686 cm³" },
+        { "en": "2058 cm³", "hi": "2058 cm³" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Total surface area = 6a² = 294, so a² = 49 and a = 7 cm. Volume = a³ = 7³ = 343 cm³.", "hi": "संपूर्ण पृष्ठीय क्षेत्रफल = 6a² = 294, अतः a² = 49 और a = 7 cm। आयतन = a³ = 7³ = 343 cm³।" },
+      "distractorAnalysis": {
+        "1": { "en": "49 is the area of one face (a²), not the volume.", "hi": "49 एक फलक का क्षेत्रफल (a²) है, आयतन नहीं।" },
+        "2": { "en": "Doubles the correct volume.", "hi": "सही आयतन का दुगुना ले लिया।" },
+        "3": { "en": "Multiplies the surface area by the side (294 × 7) instead of cubing the side.", "hi": "भुजा का घन करने के बजाय पृष्ठीय क्षेत्रफल को भुजा से गुणा कर दिया (294 × 7)।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-19",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "If x = 2 is a root of the equation 3x² − kx + 2 = 0, what is the value of k?", "hi": "यदि x = 2 समीकरण 3x² − kx + 2 = 0 का एक मूल है, तो k का मान क्या है?" },
+      "optionsJson": [
+        { "en": "5", "hi": "5" },
+        { "en": "6", "hi": "6" },
+        { "en": "−7", "hi": "−7" },
+        { "en": "7", "hi": "7" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Substitute x = 2: 3(4) − 2k + 2 = 0, so 14 − 2k = 0 and k = 7.", "hi": "x = 2 रखने पर: 3(4) − 2k + 2 = 0, अतः 14 − 2k = 0 और k = 7।" },
+      "distractorAnalysis": {
+        "0": { "en": "Subtracts 2 instead of adding it (12 − 2k − 2 = 0).", "hi": "2 जोड़ने के बजाय घटा दिया (12 − 2k − 2 = 0)।" },
+        "1": { "en": "Ignores the constant term 2 (12 − 2k = 0).", "hi": "अचर पद 2 को छोड़ दिया (12 − 2k = 0)।" },
+        "2": { "en": "Sign error while moving 2k to the other side.", "hi": "2k को दूसरी ओर ले जाने में चिह्न की भूल।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-20",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "What is the median of the data 7, 3, 9, 5, 12, 8?", "hi": "आँकड़ों 7, 3, 9, 5, 12, 8 की माध्यिका क्या है?" },
+      "optionsJson": [
+        { "en": "7", "hi": "7" },
+        { "en": "7.5", "hi": "7.5" },
+        { "en": "8", "hi": "8" },
+        { "en": "8.5", "hi": "8.5" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Arranged in order: 3, 5, 7, 8, 9, 12. There are 6 values, so the median is the average of the 3rd and 4th: (7 + 8)/2 = 7.5.", "hi": "आरोही क्रम में: 3, 5, 7, 8, 9, 12। कुल 6 प्रेक्षण हैं, अतः माध्यिका तीसरे और चौथे प्रेक्षण का औसत है: (7 + 8)/2 = 7.5।" },
+      "distractorAnalysis": {
+        "0": { "en": "Takes only the 3rd value instead of averaging the two middle values.", "hi": "दोनों मध्य प्रेक्षणों का औसत लेने के बजाय केवल तीसरा प्रेक्षण ले लिया।" },
+        "2": { "en": "Takes only the 4th value instead of averaging the two middle values.", "hi": "दोनों मध्य प्रेक्षणों का औसत लेने के बजाय केवल चौथा प्रेक्षण ले लिया।" },
+        "3": { "en": "Averages the wrong pair of values (8 and 9).", "hi": "गलत जोड़ी (8 और 9) का औसत ले लिया।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-21",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The parallel sides of a trapezium measure 14 cm and 10 cm, and the distance between them is 8 cm. What is its area?", "hi": "एक समलंब की समांतर भुजाएँ 14 cm और 10 cm हैं तथा उनके बीच की दूरी 8 cm है। उसका क्षेत्रफल कितना है?" },
+      "optionsJson": [
+        { "en": "80 cm²", "hi": "80 cm²" },
+        { "en": "112 cm²", "hi": "112 cm²" },
+        { "en": "96 cm²", "hi": "96 cm²" },
+        { "en": "192 cm²", "hi": "192 cm²" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Area = (1/2) × (sum of parallel sides) × height = (1/2) × (14 + 10) × 8 = 12 × 8 = 96 cm².", "hi": "क्षेत्रफल = (1/2) × (समांतर भुजाओं का योग) × ऊँचाई = (1/2) × (14 + 10) × 8 = 12 × 8 = 96 cm²।" },
+      "distractorAnalysis": {
+        "0": { "en": "Uses only the shorter parallel side (10 × 8).", "hi": "केवल छोटी समांतर भुजा ली (10 × 8)।" },
+        "1": { "en": "Uses only the longer parallel side (14 × 8).", "hi": "केवल बड़ी समांतर भुजा ली (14 × 8)।" },
+        "3": { "en": "Forgets the factor 1/2 (24 × 8).", "hi": "गुणनखंड 1/2 लगाना भूल गया (24 × 8)।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-22",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "The sum of two positive numbers is 25 and their product is 144. What is the positive difference between the two numbers?", "hi": "दो धनात्मक संख्याओं का योग 25 है और उनका गुणनफल 144 है। दोनों संख्याओं का धनात्मक अंतर क्या है?" },
+      "optionsJson": [
+        { "en": "9", "hi": "9" },
+        { "en": "12", "hi": "12" },
+        { "en": "16", "hi": "16" },
+        { "en": "7", "hi": "7" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Use (x − y)² = (x + y)² − 4xy = 625 − 576 = 49, so x − y = 7. (The numbers are 16 and 9.)", "hi": "सूत्र (x − y)² = (x + y)² − 4xy = 625 − 576 = 49 से x − y = 7। (संख्याएँ 16 और 9 हैं।)" },
+      "distractorAnalysis": {
+        "0": { "en": "9 is the smaller of the two numbers, not their difference.", "hi": "9 दोनों संख्याओं में छोटी संख्या है, उनका अंतर नहीं।" },
+        "1": { "en": "12 is the square root of the product 144, not the difference.", "hi": "12 गुणनफल 144 का वर्गमूल है, अंतर नहीं।" },
+        "2": { "en": "16 is the larger of the two numbers, not their difference.", "hi": "16 दोनों संख्याओं में बड़ी संख्या है, उनका अंतर नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-23",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "What is the unit digit of 7^45?", "hi": "7^45 का इकाई अंक क्या है?" },
+      "optionsJson": [
+        { "en": "1", "hi": "1" },
+        { "en": "3", "hi": "3" },
+        { "en": "7", "hi": "7" },
+        { "en": "9", "hi": "9" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Unit digits of powers of 7 repeat in a cycle of 4: 7, 9, 3, 1. Since 45 = 4 × 11 + 1, the unit digit of 7^45 is the same as that of 7^1, which is 7.", "hi": "7 की घातों के इकाई अंक 4 के चक्र में दोहराते हैं: 7, 9, 3, 1। चूँकि 45 = 4 × 11 + 1, इसलिए 7^45 का इकाई अंक 7^1 के इकाई अंक के बराबर, अर्थात 7 है।" },
+      "distractorAnalysis": {
+        "0": { "en": "1 is the unit digit when the exponent is a multiple of 4, but 45 leaves remainder 1 on division by 4.", "hi": "घातांक 4 का गुणज होने पर इकाई अंक 1 होता है, पर 45 को 4 से भाग देने पर शेषफल 1 बचता है।" },
+        "1": { "en": "3 is the unit digit when the exponent leaves remainder 3 on division by 4.", "hi": "घातांक को 4 से भाग देने पर शेषफल 3 बचने पर इकाई अंक 3 होता है।" },
+        "3": { "en": "9 is the unit digit when the exponent leaves remainder 2 on division by 4.", "hi": "घातांक को 4 से भाग देने पर शेषफल 2 बचने पर इकाई अंक 9 होता है।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-24",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Two fair coins are tossed together. What is the probability of getting at least one head?", "hi": "दो निष्पक्ष सिक्कों को एक साथ उछाला जाता है। कम से कम एक चित आने की प्रायिकता क्या है?" },
+      "optionsJson": [
+        { "en": "3/4", "hi": "3/4" },
+        { "en": "1/4", "hi": "1/4" },
+        { "en": "1/2", "hi": "1/2" },
+        { "en": "1", "hi": "1" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The possible outcomes are HH, HT, TH, TT. Outcomes with at least one head: HH, HT, TH = 3. Probability = 3/4.", "hi": "संभावित परिणाम हैं HH, HT, TH, TT। कम से कम एक चित वाले परिणाम: HH, HT, TH = 3। प्रायिकता = 3/4।" },
+      "distractorAnalysis": {
+        "1": { "en": "This is the probability of getting exactly two heads (or two tails), not at least one head.", "hi": "यह ठीक दो चित (या दो पट) आने की प्रायिकता है, कम से कम एक चित की नहीं।" },
+        "2": { "en": "Counts only the outcomes with exactly one head (HT and TH), missing HH.", "hi": "केवल ठीक एक चित वाले परिणाम (HT और TH) गिने, HH छूट गया।" },
+        "3": { "en": "A probability of 1 would mean a head is certain, but TT has no head.", "hi": "प्रायिकता 1 का अर्थ होगा कि चित निश्चित है, पर TT में कोई चित नहीं है।" }
+      }
+    },
+    {
+      "key": "rms9-p5-mt-25",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Solve for x: (3x − 1)/4 = (x + 5)/2", "hi": "x के लिए हल करें: (3x − 1)/4 = (x + 5)/2" },
+      "optionsJson": [
+        { "en": "3", "hi": "3" },
+        { "en": "11", "hi": "11" },
+        { "en": "6", "hi": "6" },
+        { "en": "9", "hi": "9" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Cross-multiply: 2(3x − 1) = 4(x + 5), so 6x − 2 = 4x + 20. Then 2x = 22 and x = 11.", "hi": "आड़ा गुणन करने पर: 2(3x − 1) = 4(x + 5), अतः 6x − 2 = 4x + 20। फिर 2x = 22 और x = 11।" },
+      "distractorAnalysis": {
+        "0": { "en": "Removes the denominators incorrectly (3x − 1 = x + 5), forgetting to double the right side.", "hi": "हर गलत ढंग से हटाए (3x − 1 = x + 5), दाएँ पक्ष को दुगुना करना भूल गया।" },
+        "2": { "en": "Gets 3x − 1 = 2x + 5, forgetting to multiply the 5 by 2.", "hi": "3x − 1 = 2x + 5 लिखा, 5 को 2 से गुणा करना भूल गया।" },
+        "3": { "en": "Sign error: treats −1 as +1 (3x + 1 = 2x + 10).", "hi": "चिह्न की भूल: −1 को +1 मान लिया (3x + 1 = 2x + 10)।" }
+      }
+    }
+  ]
+}

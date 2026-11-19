@@ -1,0 +1,984 @@
+{
+  "examType": "AISSEE",
+  "classLevel": 6,
+  "paperNumber": 2,
+  "sectionKey": "mental_ability",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "aissee6-p2-ma-01",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Complete the series: 4, 9, 16, 25, ___?",
+        "hi": "श्रृंखला पूरी करें: 4, 9, 16, 25, ___?",
+        "mr": "श्रेणी पूर्ण करा: 4, 9, 16, 25, ___?"
+      },
+      "optionsJson": [
+        { "en": "30", "hi": "30", "mr": "30" },
+        { "en": "34", "hi": "34", "mr": "34" },
+        { "en": "36", "hi": "36", "mr": "36" },
+        { "en": "49", "hi": "49", "mr": "49" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The terms are the squares of 2, 3, 4 and 5. The next term is 6² = 36.",
+        "hi": "ये पद 2, 3, 4 और 5 के वर्ग हैं। अगला पद 6² = 36 है।",
+        "mr": "ही पदे 2, 3, 4 आणि 5 यांचे वर्ग आहेत. पुढचे पद 6² = 36 आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The gaps are 5, 7, 9, so the next gap must be 11, not 5.",
+          "hi": "अंतर 5, 7, 9 हैं, इसलिए अगला अंतर 11 होगा, 5 नहीं।",
+          "mr": "फरक 5, 7, 9 आहेत, म्हणून पुढचा फरक 11 असेल, 5 नाही."
+        },
+        "1": {
+          "en": "Adding 9 again gives 34, but the gaps keep growing by 2 each time.",
+          "hi": "फिर से 9 जोड़ने पर 34 मिलता है, पर अंतर हर बार 2 से बढ़ता है।",
+          "mr": "पुन्हा 9 मिळवल्यास 34 येते, पण फरक दर वेळी 2 ने वाढतो."
+        },
+        "3": {
+          "en": "49 is 7², which would skip 6² = 36.",
+          "hi": "49 = 7² है, इससे 6² = 36 छूट जाएगा।",
+          "mr": "49 = 7² आहे, त्यामुळे 6² = 36 राहून जाईल."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-ma-02",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Complete the series: 2, 6, 18, 54, ___?",
+        "hi": "श्रृंखला पूरी करें: 2, 6, 18, 54, ___?",
+        "mr": "श्रेणी पूर्ण करा: 2, 6, 18, 54, ___?"
+      },
+      "optionsJson": [
+        { "en": "108", "hi": "108", "mr": "108" },
+        { "en": "162", "hi": "162", "mr": "162" },
+        { "en": "216", "hi": "216", "mr": "216" },
+        { "en": "72", "hi": "72", "mr": "72" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Each term is 3 times the previous term, so the next term is 54 × 3 = 162.",
+        "hi": "प्रत्येक पद पिछले पद का 3 गुना है, अतः अगला पद 54 × 3 = 162 है।",
+        "mr": "प्रत्येक पद आधीच्या पदाच्या 3 पट आहे, म्हणून पुढचे पद 54 × 3 = 162 आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "That is 54 × 2, but the multiplier in the series is 3, not 2.",
+          "hi": "यह 54 × 2 है, पर श्रृंखला में गुणक 3 है, 2 नहीं।",
+          "mr": "हे 54 × 2 आहे, पण श्रेणीतील गुणक 3 आहे, 2 नाही."
+        },
+        "2": {
+          "en": "That is 54 × 4, but the multiplier in the series is 3, not 4.",
+          "hi": "यह 54 × 4 है, पर श्रृंखला में गुणक 3 है, 4 नहीं।",
+          "mr": "हे 54 × 4 आहे, पण श्रेणीतील गुणक 3 आहे, 4 नाही."
+        },
+        "3": {
+          "en": "That is 54 + 18, but the series is built by multiplying, not by adding.",
+          "hi": "यह 54 + 18 है, पर श्रृंखला गुणा से बनती है, जोड़ से नहीं।",
+          "mr": "हे 54 + 18 आहे, पण ही श्रेणी गुणाकाराने तयार होते, बेरजेने नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-ma-03",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Complete the series: 5, 8, 12, 17, 23, ___?",
+        "hi": "श्रृंखला पूरी करें: 5, 8, 12, 17, 23, ___?",
+        "mr": "श्रेणी पूर्ण करा: 5, 8, 12, 17, 23, ___?"
+      },
+      "optionsJson": [
+        { "en": "30", "hi": "30", "mr": "30" },
+        { "en": "28", "hi": "28", "mr": "28" },
+        { "en": "29", "hi": "29", "mr": "29" },
+        { "en": "31", "hi": "31", "mr": "31" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "The differences are 3, 4, 5, 6, so the next difference is 7 and 23 + 7 = 30.",
+        "hi": "अंतर 3, 4, 5, 6 हैं, इसलिए अगला अंतर 7 होगा और 23 + 7 = 30।",
+        "mr": "फरक 3, 4, 5, 6 आहेत, म्हणून पुढचा फरक 7 असेल आणि 23 + 7 = 30."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "That is 23 + 5, but the next difference should be 7.",
+          "hi": "यह 23 + 5 है, पर अगला अंतर 7 होना चाहिए।",
+          "mr": "हे 23 + 5 आहे, पण पुढचा फरक 7 असला पाहिजे."
+        },
+        "2": {
+          "en": "That is 23 + 6, which repeats the last difference instead of increasing it.",
+          "hi": "यह 23 + 6 है, जो पिछले अंतर को दोहराता है, उसे बढ़ाता नहीं।",
+          "mr": "हे 23 + 6 आहे, जे मागचा फरक पुन्हा वापरते, तो वाढवत नाही."
+        },
+        "3": {
+          "en": "That is 23 + 8, which increases the difference by too much.",
+          "hi": "यह 23 + 8 है, जिसमें अंतर जरूरत से ज्यादा बढ़ गया है।",
+          "mr": "हे 23 + 8 आहे, ज्यात फरक गरजेपेक्षा जास्त वाढला आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-ma-04",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Complete the series: A, C, F, J, O, ___?",
+        "hi": "श्रृंखला पूरी करें: A, C, F, J, O, ___?",
+        "mr": "श्रेणी पूर्ण करा: A, C, F, J, O, ___?"
+      },
+      "optionsJson": [
+        { "en": "S", "hi": "S", "mr": "S" },
+        { "en": "T", "hi": "T", "mr": "T" },
+        { "en": "V", "hi": "V", "mr": "V" },
+        { "en": "U", "hi": "U", "mr": "U" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "The positions of the letters in the alphabet are 1, 3, 6, 10, 15. The gaps are 2, 3, 4, 5, so the next gap is 6 and 15 + 6 = 21, which is the letter U.",
+        "hi": "वर्णमाला में अक्षरों के स्थान 1, 3, 6, 10, 15 हैं। अंतर 2, 3, 4, 5 हैं, इसलिए अगला अंतर 6 होगा और 15 + 6 = 21, जो अक्षर U है।",
+        "mr": "वर्णमालेतील अक्षरांचे स्थान 1, 3, 6, 10, 15 आहेत. फरक 2, 3, 4, 5 आहेत, म्हणून पुढचा फरक 6 असेल आणि 15 + 6 = 21, म्हणजे अक्षर U."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "S is at position 19, a gap of 4 from O; the gap should be 6.",
+          "hi": "S का स्थान 19 है, यानी O से अंतर 4; अंतर 6 होना चाहिए।",
+          "mr": "S चे स्थान 19 आहे, म्हणजे O पासून फरक 4; फरक 6 असला पाहिजे."
+        },
+        "1": {
+          "en": "T is at position 20, a gap of 5 from O, which repeats the last gap instead of increasing it.",
+          "hi": "T का स्थान 20 है, यानी O से अंतर 5, जो पिछले अंतर को दोहराता है, बढ़ाता नहीं।",
+          "mr": "T चे स्थान 20 आहे, म्हणजे O पासून फरक 5, जो मागचा फरक पुन्हा वापरतो, वाढवत नाही."
+        },
+        "2": {
+          "en": "V is at position 22, a gap of 7 from O; the gap should be 6.",
+          "hi": "V का स्थान 22 है, यानी O से अंतर 7; अंतर 6 होना चाहिए।",
+          "mr": "V चे स्थान 22 आहे, म्हणजे O पासून फरक 7; फरक 6 असला पाहिजे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-ma-05",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Complete the series: AZ, BY, CX, DW, ___?",
+        "hi": "श्रृंखला पूरी करें: AZ, BY, CX, DW, ___?",
+        "mr": "श्रेणी पूर्ण करा: AZ, BY, CX, DW, ___?"
+      },
+      "optionsJson": [
+        { "en": "EU", "hi": "EU", "mr": "EU" },
+        { "en": "EV", "hi": "EV", "mr": "EV" },
+        { "en": "FV", "hi": "FV", "mr": "FV" },
+        { "en": "FW", "hi": "FW", "mr": "FW" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "The first letters move forward (A, B, C, D, E) while the second letters move backward (Z, Y, X, W, V). So the next term is EV.",
+        "hi": "पहले अक्षर आगे बढ़ते हैं (A, B, C, D, E) जबकि दूसरे अक्षर पीछे जाते हैं (Z, Y, X, W, V)। इसलिए अगला पद EV है।",
+        "mr": "पहिली अक्षरे पुढे जातात (A, B, C, D, E) तर दुसरी अक्षरे मागे जातात (Z, Y, X, W, V). म्हणून पुढचे पद EV आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The letter after W going backward is V, not U; U would skip one letter.",
+          "hi": "W के बाद पीछे की ओर अगला अक्षर V है, U नहीं; U में एक अक्षर छूट जाता है।",
+          "mr": "W नंतर मागे जाताना पुढचे अक्षर V आहे, U नाही; U मध्ये एक अक्षर राहून जाते."
+        },
+        "2": {
+          "en": "The letter after D is E, not F; F skips one letter.",
+          "hi": "D के बाद का अक्षर E है, F नहीं; F में एक अक्षर छूट जाता है।",
+          "mr": "D नंतरचे अक्षर E आहे, F नाही; F मध्ये एक अक्षर राहून जाते."
+        },
+        "3": {
+          "en": "Both letters are wrong: the term after DW is EV.",
+          "hi": "दोनों अक्षर गलत हैं: DW के बाद का पद EV है।",
+          "mr": "दोन्ही अक्षरे चुकीची आहेत: DW नंतरचे पद EV आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-ma-06",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Complete the series: 3, 4, 8, 17, 33, ___?",
+        "hi": "श्रृंखला पूरी करें: 3, 4, 8, 17, 33, ___?",
+        "mr": "श्रेणी पूर्ण करा: 3, 4, 8, 17, 33, ___?"
+      },
+      "optionsJson": [
+        { "en": "49", "hi": "49", "mr": "49" },
+        { "en": "54", "hi": "54", "mr": "54" },
+        { "en": "58", "hi": "58", "mr": "58" },
+        { "en": "65", "hi": "65", "mr": "65" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The differences are 1, 4, 9, 16, which are the squares of 1, 2, 3, 4. The next difference is 5² = 25, so 33 + 25 = 58.",
+        "hi": "अंतर 1, 4, 9, 16 हैं, जो 1, 2, 3, 4 के वर्ग हैं। अगला अंतर 5² = 25 है, इसलिए 33 + 25 = 58।",
+        "mr": "फरक 1, 4, 9, 16 आहेत, जे 1, 2, 3, 4 यांचे वर्ग आहेत. पुढचा फरक 5² = 25 आहे, म्हणून 33 + 25 = 58."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "That is 33 + 16, which repeats the last difference instead of using 25.",
+          "hi": "यह 33 + 16 है, जो पिछले अंतर को दोहराता है, 25 का प्रयोग नहीं करता।",
+          "mr": "हे 33 + 16 आहे, जे मागचा फरक पुन्हा वापरते, 25 वापरत नाही."
+        },
+        "1": {
+          "en": "That is 33 + 21, which does not follow the pattern of square-number differences.",
+          "hi": "यह 33 + 21 है, जो वर्ग संख्याओं वाले अंतर के क्रम का पालन नहीं करता।",
+          "mr": "हे 33 + 21 आहे, जे वर्ग संख्यांच्या फरकाच्या क्रमाचे पालन करत नाही."
+        },
+        "3": {
+          "en": "That is 33 + 32, which assumes the differences double, but they are squares.",
+          "hi": "यह 33 + 32 है, जो मानता है कि अंतर दोगुने होते हैं, जबकि वे वर्ग संख्याएँ हैं।",
+          "mr": "हे 33 + 32 आहे, जे फरक दुप्पट होतात असे मानते, पण ते वर्ग संख्या आहेत."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-ma-07",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Find the odd one out: 64, 125, 27, 100",
+        "hi": "असंगत संख्या चुनें: 64, 125, 27, 100",
+        "mr": "असंगत संख्या ओळखा: 64, 125, 27, 100"
+      },
+      "optionsJson": [
+        { "en": "64", "hi": "64", "mr": "64" },
+        { "en": "125", "hi": "125", "mr": "125" },
+        { "en": "27", "hi": "27", "mr": "27" },
+        { "en": "100", "hi": "100", "mr": "100" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "64 = 4³, 125 = 5³ and 27 = 3³ are perfect cubes, but 100 is not a perfect cube.",
+        "hi": "64 = 4³, 125 = 5³ और 27 = 3³ पूर्ण घन हैं, पर 100 पूर्ण घन नहीं है।",
+        "mr": "64 = 4³, 125 = 5³ आणि 27 = 3³ हे पूर्ण घन आहेत, पण 100 हा पूर्ण घन नाही."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "A perfect cube (4³), part of the majority group.",
+          "hi": "पूर्ण घन (4³), बहुसंख्यक समूह का भाग।",
+          "mr": "पूर्ण घन (4³), बहुसंख्य गटाचा भाग."
+        },
+        "1": {
+          "en": "A perfect cube (5³), part of the majority group.",
+          "hi": "पूर्ण घन (5³), बहुसंख्यक समूह का भाग।",
+          "mr": "पूर्ण घन (5³), बहुसंख्य गटाचा भाग."
+        },
+        "2": {
+          "en": "A perfect cube (3³), part of the majority group.",
+          "hi": "पूर्ण घन (3³), बहुसंख्यक समूह का भाग।",
+          "mr": "पूर्ण घन (3³), बहुसंख्य गटाचा भाग."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-ma-08",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Find the odd one out: Bat, Sparrow, Eagle, Crow",
+        "hi": "असंगत शब्द चुनें: चमगादड़, गौरैया, चील, कौआ",
+        "mr": "असंगत शब्द ओळखा: वटवाघूळ, चिमणी, गरुड, कावळा"
+      },
+      "optionsJson": [
+        { "en": "Bat", "hi": "चमगादड़", "mr": "वटवाघूळ" },
+        { "en": "Sparrow", "hi": "गौरैया", "mr": "चिमणी" },
+        { "en": "Eagle", "hi": "चील", "mr": "गरुड" },
+        { "en": "Crow", "hi": "कौआ", "mr": "कावळा" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Sparrow, Eagle and Crow are birds. A bat can fly, but it is a mammal, not a bird.",
+        "hi": "गौरैया, चील और कौआ पक्षी हैं। चमगादड़ उड़ सकता है, पर वह स्तनधारी है, पक्षी नहीं।",
+        "mr": "चिमणी, गरुड आणि कावळा हे पक्षी आहेत. वटवाघूळ उडू शकते, पण तो सस्तन प्राणी आहे, पक्षी नाही."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "A bird, part of the majority group.",
+          "hi": "यह एक पक्षी है, बहुसंख्यक समूह का भाग।",
+          "mr": "हा एक पक्षी आहे, बहुसंख्य गटाचा भाग."
+        },
+        "2": {
+          "en": "A bird, part of the majority group.",
+          "hi": "यह एक पक्षी है, बहुसंख्यक समूह का भाग।",
+          "mr": "हा एक पक्षी आहे, बहुसंख्य गटाचा भाग."
+        },
+        "3": {
+          "en": "A bird, part of the majority group.",
+          "hi": "यह एक पक्षी है, बहुसंख्यक समूह का भाग।",
+          "mr": "हा एक पक्षी आहे, बहुसंख्य गटाचा भाग."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-ma-09",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Find the odd one out: 11, 21, 13, 23",
+        "hi": "असंगत संख्या चुनें: 11, 21, 13, 23",
+        "mr": "असंगत संख्या ओळखा: 11, 21, 13, 23"
+      },
+      "optionsJson": [
+        { "en": "11", "hi": "11", "mr": "11" },
+        { "en": "21", "hi": "21", "mr": "21" },
+        { "en": "13", "hi": "13", "mr": "13" },
+        { "en": "23", "hi": "23", "mr": "23" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "11, 13 and 23 are prime numbers, but 21 = 3 × 7 is not a prime number.",
+        "hi": "11, 13 और 23 अभाज्य संख्याएँ हैं, पर 21 = 3 × 7 अभाज्य संख्या नहीं है।",
+        "mr": "11, 13 आणि 23 या मूळ संख्या आहेत, पण 21 = 3 × 7 ही मूळ संख्या नाही."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "A prime number, part of the majority group.",
+          "hi": "अभाज्य संख्या, बहुसंख्यक समूह का भाग।",
+          "mr": "मूळ संख्या, बहुसंख्य गटाचा भाग."
+        },
+        "2": {
+          "en": "A prime number, part of the majority group.",
+          "hi": "अभाज्य संख्या, बहुसंख्यक समूह का भाग।",
+          "mr": "मूळ संख्या, बहुसंख्य गटाचा भाग."
+        },
+        "3": {
+          "en": "A prime number, part of the majority group.",
+          "hi": "अभाज्य संख्या, बहुसंख्यक समूह का भाग।",
+          "mr": "मूळ संख्या, बहुसंख्य गटाचा भाग."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-ma-10",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Find the odd one out: Triangle, Pentagon, Cube, Hexagon",
+        "hi": "असंगत शब्द चुनें: त्रिभुज, पंचभुज, घन, षट्भुज",
+        "mr": "असंगत शब्द ओळखा: त्रिकोण, पंचकोन, घन, षटकोन"
+      },
+      "optionsJson": [
+        { "en": "Triangle", "hi": "त्रिभुज", "mr": "त्रिकोण" },
+        { "en": "Pentagon", "hi": "पंचभुज", "mr": "पंचकोन" },
+        { "en": "Cube", "hi": "घन", "mr": "घन" },
+        { "en": "Hexagon", "hi": "षट्भुज", "mr": "षटकोन" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Triangle, pentagon and hexagon are flat (2D) shapes, while a cube is a solid (3D) shape.",
+        "hi": "त्रिभुज, पंचभुज और षट्भुज समतल (2D) आकृतियाँ हैं, जबकि घन एक ठोस (3D) आकृति है।",
+        "mr": "त्रिकोण, पंचकोन आणि षटकोन या सपाट (2D) आकृती आहेत, तर घन ही ठोस (3D) आकृती आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "A flat 2D shape, part of the majority group.",
+          "hi": "समतल 2D आकृति, बहुसंख्यक समूह का भाग।",
+          "mr": "सपाट 2D आकृती, बहुसंख्य गटाचा भाग."
+        },
+        "1": {
+          "en": "A flat 2D shape, part of the majority group.",
+          "hi": "समतल 2D आकृति, बहुसंख्यक समूह का भाग।",
+          "mr": "सपाट 2D आकृती, बहुसंख्य गटाचा भाग."
+        },
+        "3": {
+          "en": "A flat 2D shape, part of the majority group.",
+          "hi": "समतल 2D आकृति, बहुसंख्यक समूह का भाग।",
+          "mr": "सपाट 2D आकृती, बहुसंख्य गटाचा भाग."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-ma-11",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Find the odd pair out: (5, 124), (2, 9), (3, 28), (4, 65)",
+        "hi": "असंगत जोड़ी चुनें: (5, 124), (2, 9), (3, 28), (4, 65)",
+        "mr": "असंगत जोडी ओळखा: (5, 124), (2, 9), (3, 28), (4, 65)"
+      },
+      "optionsJson": [
+        { "en": "(5, 124)", "hi": "(5, 124)", "mr": "(5, 124)" },
+        { "en": "(2, 9)", "hi": "(2, 9)", "mr": "(2, 9)" },
+        { "en": "(3, 28)", "hi": "(3, 28)", "mr": "(3, 28)" },
+        { "en": "(4, 65)", "hi": "(4, 65)", "mr": "(4, 65)" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "In (2, 9), (3, 28) and (4, 65) the second number is the cube of the first number plus 1: 2³ + 1 = 9, 3³ + 1 = 28, 4³ + 1 = 65. For 5 the same rule gives 5³ + 1 = 126, not 124.",
+        "hi": "(2, 9), (3, 28) और (4, 65) में दूसरी संख्या पहली संख्या के घन में 1 जोड़ने पर मिलती है: 2³ + 1 = 9, 3³ + 1 = 28, 4³ + 1 = 65। 5 के लिए यही नियम 5³ + 1 = 126 देता है, 124 नहीं।",
+        "mr": "(2, 9), (3, 28) आणि (4, 65) मध्ये दुसरी संख्या पहिल्या संख्येच्या घनात 1 मिळवून मिळते: 2³ + 1 = 9, 3³ + 1 = 28, 4³ + 1 = 65. 5 साठी हाच नियम 5³ + 1 = 126 देतो, 124 नाही."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Follows the rule: 2³ + 1 = 9.",
+          "hi": "नियम का पालन करती है: 2³ + 1 = 9।",
+          "mr": "नियम पाळते: 2³ + 1 = 9."
+        },
+        "2": {
+          "en": "Follows the rule: 3³ + 1 = 28.",
+          "hi": "नियम का पालन करती है: 3³ + 1 = 28।",
+          "mr": "नियम पाळते: 3³ + 1 = 28."
+        },
+        "3": {
+          "en": "Follows the rule: 4³ + 1 = 65.",
+          "hi": "नियम का पालन करती है: 4³ + 1 = 65।",
+          "mr": "नियम पाळते: 4³ + 1 = 65."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-ma-12",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Complete the analogy: Doctor : Hospital :: Teacher : ?",
+        "hi": "सादृश्य पूरा करें: डॉक्टर : अस्पताल :: शिक्षक : ?",
+        "mr": "साम्य पूर्ण करा: डॉक्टर : रुग्णालय :: शिक्षक : ?"
+      },
+      "optionsJson": [
+        { "en": "Book", "hi": "पुस्तक", "mr": "पुस्तक" },
+        { "en": "Student", "hi": "विद्यार्थी", "mr": "विद्यार्थी" },
+        { "en": "Chalk", "hi": "चॉक", "mr": "खडू" },
+        { "en": "School", "hi": "विद्यालय", "mr": "शाळा" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "A doctor works in a hospital, in the same way a teacher works in a school.",
+        "hi": "जैसे डॉक्टर अस्पताल में काम करता है, वैसे ही शिक्षक विद्यालय में काम करता है।",
+        "mr": "ज्याप्रमाणे डॉक्टर रुग्णालयात काम करतो, त्याचप्रमाणे शिक्षक शाळेत काम करतो."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "A book is a tool, not the place where a teacher works.",
+          "hi": "पुस्तक एक साधन है, वह स्थान नहीं जहाँ शिक्षक काम करता है।",
+          "mr": "पुस्तक हे साधन आहे, शिक्षक काम करतो ते ठिकाण नाही."
+        },
+        "1": {
+          "en": "A student is a person, not a workplace.",
+          "hi": "विद्यार्थी एक व्यक्ति है, कार्यस्थल नहीं।",
+          "mr": "विद्यार्थी ही एक व्यक्ती आहे, कामाचे ठिकाण नाही."
+        },
+        "2": {
+          "en": "Chalk is a tool, not a workplace.",
+          "hi": "चॉक एक साधन है, कार्यस्थल नहीं।",
+          "mr": "खडू हे साधन आहे, कामाचे ठिकाण नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-ma-13",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Complete the analogy: Triangle : 3 :: Hexagon : ?",
+        "hi": "सादृश्य पूरा करें: त्रिभुज : 3 :: षट्भुज : ?",
+        "mr": "साम्य पूर्ण करा: त्रिकोण : 3 :: षटकोन : ?"
+      },
+      "optionsJson": [
+        { "en": "5", "hi": "5", "mr": "5" },
+        { "en": "8", "hi": "8", "mr": "8" },
+        { "en": "6", "hi": "6", "mr": "6" },
+        { "en": "12", "hi": "12", "mr": "12" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "A triangle has 3 sides, so a hexagon has 6 sides.",
+        "hi": "त्रिभुज की 3 भुजाएँ होती हैं, इसलिए षट्भुज की 6 भुजाएँ होती हैं।",
+        "mr": "त्रिकोणाला 3 बाजू असतात, म्हणून षटकोनाला 6 बाजू असतात."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "A pentagon has 5 sides, not a hexagon.",
+          "hi": "पंचभुज की 5 भुजाएँ होती हैं, षट्भुज की नहीं।",
+          "mr": "पंचकोनाला 5 बाजू असतात, षटकोनाला नाही."
+        },
+        "1": {
+          "en": "An octagon has 8 sides, not a hexagon.",
+          "hi": "अष्टभुज की 8 भुजाएँ होती हैं, षट्भुज की नहीं।",
+          "mr": "अष्टकोनाला 8 बाजू असतात, षटकोनाला नाही."
+        },
+        "3": {
+          "en": "A dodecagon has 12 sides, not a hexagon.",
+          "hi": "द्वादशभुज की 12 भुजाएँ होती हैं, षट्भुज की नहीं।",
+          "mr": "द्वादशकोनाला 12 बाजू असतात, षटकोनाला नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-ma-14",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Complete the analogy: Petal : Flower :: Page : ?",
+        "hi": "सादृश्य पूरा करें: पंखुड़ी : फूल :: पृष्ठ : ?",
+        "mr": "साम्य पूर्ण करा: पाकळी : फूल :: पृष्ठ : ?"
+      },
+      "optionsJson": [
+        { "en": "Book", "hi": "किताब", "mr": "पुस्तक" },
+        { "en": "Pencil", "hi": "पेंसिल", "mr": "पेन्सिल" },
+        { "en": "Desk", "hi": "मेज़", "mr": "टेबल" },
+        { "en": "Bag", "hi": "बस्ता", "mr": "दप्तर" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "A petal is a part of a flower, just as a page is a part of a book.",
+        "hi": "जैसे पंखुड़ी फूल का एक भाग होती है, वैसे ही पृष्ठ किताब का एक भाग होता है।",
+        "mr": "ज्याप्रमाणे पाकळी हा फुलाचा एक भाग असतो, त्याचप्रमाणे पृष्ठ हा पुस्तकाचा एक भाग असतो."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "A pencil does not have pages as its parts.",
+          "hi": "पेंसिल के भागों में पृष्ठ नहीं होते।",
+          "mr": "पेन्सिलच्या भागांमध्ये पृष्ठे नसतात."
+        },
+        "2": {
+          "en": "A desk does not have pages as its parts.",
+          "hi": "मेज़ के भागों में पृष्ठ नहीं होते।",
+          "mr": "टेबलच्या भागांमध्ये पृष्ठे नसतात."
+        },
+        "3": {
+          "en": "A bag can hold pages, but pages are not a part of the bag.",
+          "hi": "बस्ते में पृष्ठ रखे जा सकते हैं, पर पृष्ठ उसका भाग नहीं होते।",
+          "mr": "दप्तरात पृष्ठे ठेवता येतात, पण पृष्ठे हा त्याचा भाग नसतो."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-ma-15",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Complete the analogy: CAT : DBU :: DOG : ?",
+        "hi": "सादृश्य पूरा करें: CAT : DBU :: DOG : ?",
+        "mr": "साम्य पूर्ण करा: CAT : DBU :: DOG : ?"
+      },
+      "optionsJson": [
+        { "en": "EPG", "hi": "EPG", "mr": "EPG" },
+        { "en": "EPH", "hi": "EPH", "mr": "EPH" },
+        { "en": "ENH", "hi": "ENH", "mr": "ENH" },
+        { "en": "DPH", "hi": "DPH", "mr": "DPH" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Each letter is moved one step forward: C to D, A to B, T to U. So D to E, O to P and G to H give EPH.",
+        "hi": "प्रत्येक अक्षर एक स्थान आगे बढ़ाया गया है: C से D, A से B, T से U। इसलिए D से E, O से P और G से H मिलकर EPH बनता है।",
+        "mr": "प्रत्येक अक्षर एक स्थान पुढे नेले आहे: C पासून D, A पासून B, T पासून U. म्हणून D पासून E, O पासून P आणि G पासून H मिळून EPH तयार होते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "G was not moved forward; it should become H.",
+          "hi": "G को आगे नहीं बढ़ाया गया; उसे H होना चाहिए।",
+          "mr": "G पुढे नेलेले नाही; ते H झाले पाहिजे."
+        },
+        "2": {
+          "en": "O was moved backward to N; it should move forward to P.",
+          "hi": "O को पीछे N की ओर ले जाया गया; उसे आगे P की ओर जाना चाहिए।",
+          "mr": "O मागे N कडे नेले आहे; ते पुढे P कडे गेले पाहिजे."
+        },
+        "3": {
+          "en": "D was left unchanged; it should become E.",
+          "hi": "D को बिना बदले छोड़ दिया गया; उसे E होना चाहिए।",
+          "mr": "D बदलले नाही; ते E झाले पाहिजे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-ma-16",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "In a certain code, MANGO is written as NBOHP. How will JUICE be written in that code?",
+        "hi": "एक निश्चित कूट भाषा में MANGO को NBOHP लिखा जाता है। उसी कूट भाषा में JUICE को कैसे लिखा जाएगा?",
+        "mr": "एका सांकेतिक भाषेत MANGO हे NBOHP असे लिहिले जाते. त्याच भाषेत JUICE कसे लिहिले जाईल?"
+      },
+      "optionsJson": [
+        { "en": "ITHBD", "hi": "ITHBD", "mr": "ITHBD" },
+        { "en": "KUJDF", "hi": "KUJDF", "mr": "KUJDF" },
+        { "en": "KVJCF", "hi": "KVJCF", "mr": "KVJCF" },
+        { "en": "KVJDF", "hi": "KVJDF", "mr": "KVJDF" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Each letter is replaced by the next letter of the alphabet (M to N, A to B, N to O, G to H, O to P). So J to K, U to V, I to J, C to D and E to F give KVJDF.",
+        "hi": "प्रत्येक अक्षर को वर्णमाला के अगले अक्षर से बदला गया है (M से N, A से B, N से O, G से H, O से P)। इसलिए J से K, U से V, I से J, C से D और E से F मिलकर KVJDF बनता है।",
+        "mr": "प्रत्येक अक्षराच्या जागी वर्णमालेतील पुढचे अक्षर वापरले आहे (M पासून N, A पासून B, N पासून O, G पासून H, O पासून P). म्हणून J पासून K, U पासून V, I पासून J, C पासून D आणि E पासून F मिळून KVJDF तयार होते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Each letter was moved one step backward instead of forward.",
+          "hi": "प्रत्येक अक्षर को आगे के बजाय एक स्थान पीछे ले जाया गया है।",
+          "mr": "प्रत्येक अक्षर पुढे नेण्याऐवजी एक स्थान मागे नेले आहे."
+        },
+        "1": {
+          "en": "The letter U was left unchanged; it should become V.",
+          "hi": "अक्षर U को बिना बदले छोड़ दिया गया है; उसे V होना चाहिए।",
+          "mr": "अक्षर U बदललेले नाही; ते V झाले पाहिजे."
+        },
+        "2": {
+          "en": "The letter C was left unchanged; it should become D.",
+          "hi": "अक्षर C को बिना बदले छोड़ दिया गया है; उसे D होना चाहिए।",
+          "mr": "अक्षर C बदललेले नाही; ते D झाले पाहिजे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-ma-17",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Ravi walks 5 km towards the east from his house. He then turns left and walks 3 km, and then turns left again and walks 5 km. How far and in which direction is he from his house now?",
+        "hi": "रवि अपने घर से पूर्व की ओर 5 किमी चलता है। फिर वह बाएँ मुड़कर 3 किमी चलता है और फिर से बाएँ मुड़कर 5 किमी चलता है। अब वह अपने घर से कितनी दूर और किस दिशा में है?",
+        "mr": "रवी आपल्या घरापासून पूर्वेकडे 5 किमी चालतो. नंतर तो डावीकडे वळून 3 किमी चालतो आणि पुन्हा डावीकडे वळून 5 किमी चालतो. आता तो घरापासून किती अंतरावर आणि कोणत्या दिशेला आहे?"
+      },
+      "optionsJson": [
+        { "en": "3 km north", "hi": "3 किमी उत्तर", "mr": "3 किमी उत्तरेला" },
+        { "en": "3 km south", "hi": "3 किमी दक्षिण", "mr": "3 किमी दक्षिणेला" },
+        { "en": "5 km north", "hi": "5 किमी उत्तर", "mr": "5 किमी उत्तरेला" },
+        { "en": "8 km west", "hi": "8 किमी पश्चिम", "mr": "8 किमी पश्चिमेला" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Facing east, a left turn points him north, so he walks 3 km north. Another left turn points him west, so he walks 5 km west. The 5 km east and the 5 km west cancel each other, leaving him 3 km north of his house.",
+        "hi": "पूर्व की ओर मुँह करके बाएँ मुड़ने पर उसका मुख उत्तर की ओर होता है, इसलिए वह 3 किमी उत्तर चलता है। फिर बाएँ मुड़ने पर मुख पश्चिम की ओर होता है, इसलिए वह 5 किमी पश्चिम चलता है। पूर्व के 5 किमी और पश्चिम के 5 किमी एक-दूसरे को काट देते हैं, इसलिए वह घर से 3 किमी उत्तर में है।",
+        "mr": "पूर्वेकडे तोंड करून डावीकडे वळल्यावर त्याचे तोंड उत्तरेकडे होते, म्हणून तो 3 किमी उत्तरेकडे चालतो. पुन्हा डावीकडे वळल्यावर तोंड पश्चिमेकडे होते, म्हणून तो 5 किमी पश्चिमेकडे चालतो. पूर्वेकडील 5 किमी आणि पश्चिमेकडील 5 किमी एकमेकांना रद्द करतात, म्हणून तो घरापासून 3 किमी उत्तरेला आहे."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Turning left from east takes him north, not south.",
+          "hi": "पूर्व से बाएँ मुड़ने पर वह उत्तर की ओर जाता है, दक्षिण की ओर नहीं।",
+          "mr": "पूर्वेकडून डावीकडे वळल्यावर तो उत्तरेकडे जातो, दक्षिणेकडे नाही."
+        },
+        "2": {
+          "en": "He walked only 3 km towards the north; the 5 km east and 5 km west cancel out.",
+          "hi": "वह उत्तर की ओर केवल 3 किमी चला है; पूर्व के 5 किमी और पश्चिम के 5 किमी कट जाते हैं।",
+          "mr": "तो उत्तरेकडे फक्त 3 किमी चालला आहे; पूर्वेचे 5 किमी आणि पश्चिमेचे 5 किमी रद्द होतात."
+        },
+        "3": {
+          "en": "He is not 8 km west; the 5 km walked east and the 5 km walked west cancel each other.",
+          "hi": "वह 8 किमी पश्चिम में नहीं है; पूर्व के 5 किमी और पश्चिम के 5 किमी एक-दूसरे को काट देते हैं।",
+          "mr": "तो 8 किमी पश्चिमेला नाही; पूर्वेकडे चाललेले 5 किमी आणि पश्चिमेकडे चाललेले 5 किमी एकमेकांना रद्द करतात."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-ma-18",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Pointing to a boy, Meena said, 'He is the son of my mother's only brother.' How is the boy related to Meena?",
+        "hi": "एक लड़के की ओर इशारा करते हुए मीना ने कहा, 'वह मेरी माँ के इकलौते भाई का बेटा है।' वह लड़का मीना का क्या लगता है?",
+        "mr": "एका मुलाकडे बोट दाखवून मीना म्हणाली, 'तो माझ्या आईच्या एकुलत्या एक भावाचा मुलगा आहे.' तो मुलगा मीनाचा कोण लागतो?"
+      },
+      "optionsJson": [
+        { "en": "Brother", "hi": "भाई", "mr": "भाऊ" },
+        { "en": "Uncle", "hi": "मामा", "mr": "मामा" },
+        { "en": "Cousin", "hi": "ममेरा भाई", "mr": "मामेभाऊ" },
+        { "en": "Nephew", "hi": "भतीजा", "mr": "पुतण्या" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Meena's mother's brother is her maternal uncle. The uncle's son is Meena's cousin.",
+        "hi": "मीना की माँ का भाई उसका मामा है। मामा का बेटा मीना का ममेरा भाई है।",
+        "mr": "मीनाच्या आईचा भाऊ म्हणजे तिचे मामा. मामांचा मुलगा म्हणजे मीनाचा मामेभाऊ."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "A brother would be a son of Meena's own parents.",
+          "hi": "भाई मीना के अपने माता-पिता का बेटा होता।",
+          "mr": "भाऊ हा मीनाच्या स्वतःच्या आईवडिलांचा मुलगा असता."
+        },
+        "1": {
+          "en": "The boy is the uncle's son, not the uncle himself.",
+          "hi": "वह लड़का मामा का बेटा है, स्वयं मामा नहीं।",
+          "mr": "तो मुलगा मामांचा मुलगा आहे, स्वतः मामा नाही."
+        },
+        "3": {
+          "en": "A nephew is the son of Meena's brother or sister, not of her uncle.",
+          "hi": "भतीजा मीना के भाई या बहन का बेटा होता है, उसके मामा का नहीं।",
+          "mr": "पुतण्या हा मीनाच्या भावाचा किंवा बहिणीचा मुलगा असतो, तिच्या मामाचा नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-ma-19",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "In a row of 31 students, Aman is 12th from the left end and Bunty is 12th from the right end. How many students are standing between Aman and Bunty?",
+        "hi": "31 विद्यार्थियों की एक पंक्ति में अमन बाएँ सिरे से 12वें स्थान पर है और बंटी दाएँ सिरे से 12वें स्थान पर है। अमन और बंटी के बीच कितने विद्यार्थी खड़े हैं?",
+        "mr": "31 विद्यार्थ्यांच्या एका रांगेत अमन डाव्या टोकापासून 12 वा आहे आणि बंटी उजव्या टोकापासून 12 वा आहे. अमन आणि बंटी यांच्यामध्ये किती विद्यार्थी उभे आहेत?"
+      },
+      "optionsJson": [
+        { "en": "6", "hi": "6", "mr": "6" },
+        { "en": "7", "hi": "7", "mr": "7" },
+        { "en": "8", "hi": "8", "mr": "8" },
+        { "en": "9", "hi": "9", "mr": "9" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Bunty's position from the left = 31 − 12 + 1 = 20. The students between positions 12 and 20 are at positions 13 to 19, which makes 7 students.",
+        "hi": "बंटी का बाएँ से स्थान = 31 − 12 + 1 = 20। स्थान 12 और 20 के बीच स्थान 13 से 19 तक के विद्यार्थी हैं, जो 7 विद्यार्थी होते हैं।",
+        "mr": "बंटीचे डावीकडून स्थान = 31 − 12 + 1 = 20. स्थान 12 आणि 20 यांच्यामध्ये स्थान 13 ते 19 वरील विद्यार्थी आहेत, म्हणजे 7 विद्यार्थी."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Counting positions 13 to 19 gives 7 students, so 6 misses one student.",
+          "hi": "स्थान 13 से 19 गिनने पर 7 विद्यार्थी मिलते हैं, इसलिए 6 में एक विद्यार्थी छूट गया है।",
+          "mr": "स्थान 13 ते 19 मोजल्यावर 7 विद्यार्थी मिळतात, म्हणून 6 मध्ये एक विद्यार्थी राहून गेला आहे."
+        },
+        "2": {
+          "en": "Only positions 13 to 19 lie between them, so 8 counts one student too many.",
+          "hi": "उनके बीच केवल स्थान 13 से 19 आते हैं, इसलिए 8 में एक विद्यार्थी अधिक गिना गया है।",
+          "mr": "त्यांच्यामध्ये फक्त स्थान 13 ते 19 येतात, म्हणून 8 मध्ये एक विद्यार्थी जास्त मोजला आहे."
+        },
+        "3": {
+          "en": "Only positions 13 to 19 lie between them, so 9 counts two students too many.",
+          "hi": "उनके बीच केवल स्थान 13 से 19 आते हैं, इसलिए 9 में दो विद्यार्थी अधिक गिने गए हैं।",
+          "mr": "त्यांच्यामध्ये फक्त स्थान 13 ते 19 येतात, म्हणून 9 मध्ये दोन विद्यार्थी जास्त मोजले आहेत."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-ma-20",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "In a class, Rahul ranks 8th from the top and 15th from the bottom. How many students are there in the class?",
+        "hi": "एक कक्षा में राहुल ऊपर से 8वें और नीचे से 15वें स्थान पर है। कक्षा में कुल कितने विद्यार्थी हैं?",
+        "mr": "एका वर्गात राहुल वरून 8 वा आणि खालून 15 वा आहे. वर्गात एकूण किती विद्यार्थी आहेत?"
+      },
+      "optionsJson": [
+        { "en": "21", "hi": "21", "mr": "21" },
+        { "en": "23", "hi": "23", "mr": "23" },
+        { "en": "24", "hi": "24", "mr": "24" },
+        { "en": "22", "hi": "22", "mr": "22" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Total students = 8 + 15 − 1 = 22, because Rahul is counted in both ranks.",
+        "hi": "कुल विद्यार्थी = 8 + 15 − 1 = 22, क्योंकि राहुल दोनों गिनतियों में शामिल है।",
+        "mr": "एकूण विद्यार्थी = 8 + 15 − 1 = 22, कारण राहुल दोन्ही मोजणीत धरला गेला आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Subtracting 2 instead of 1 undercounts the students by one.",
+          "hi": "1 की जगह 2 घटाने से विद्यार्थियों की संख्या एक कम आती है।",
+          "mr": "1 ऐवजी 2 वजा केल्याने विद्यार्थ्यांची संख्या एकाने कमी येते."
+        },
+        "1": {
+          "en": "8 + 15 = 23 counts Rahul twice, so 1 must be subtracted.",
+          "hi": "8 + 15 = 23 में राहुल दो बार गिना गया है, इसलिए 1 घटाना होगा।",
+          "mr": "8 + 15 = 23 मध्ये राहुल दोनदा मोजला गेला आहे, म्हणून 1 वजा करावा लागेल."
+        },
+        "2": {
+          "en": "24 is more than 8 + 15; the correct total is 8 + 15 − 1 = 22.",
+          "hi": "24, 8 + 15 से भी अधिक है; सही कुल संख्या 8 + 15 − 1 = 22 है।",
+          "mr": "24 हे 8 + 15 पेक्षाही जास्त आहे; बरोबर एकूण संख्या 8 + 15 − 1 = 22 आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-ma-21",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "If 5 March 2025 was a Wednesday, which day of the week was 20 March 2025?",
+        "hi": "यदि 5 मार्च 2025 को बुधवार था, तो 20 मार्च 2025 को सप्ताह का कौन-सा दिन था?",
+        "mr": "जर 5 मार्च 2025 रोजी बुधवार होता, तर 20 मार्च 2025 रोजी कोणता वार होता?"
+      },
+      "optionsJson": [
+        { "en": "Thursday", "hi": "गुरुवार", "mr": "गुरुवार" },
+        { "en": "Wednesday", "hi": "बुधवार", "mr": "बुधवार" },
+        { "en": "Friday", "hi": "शुक्रवार", "mr": "शुक्रवार" },
+        { "en": "Saturday", "hi": "शनिवार", "mr": "शनिवार" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "From 5 March to 20 March is 15 days. Since 15 = 2 weeks + 1 day, the day is one day after Wednesday, which is Thursday.",
+        "hi": "5 मार्च से 20 मार्च तक 15 दिन होते हैं। 15 = 2 सप्ताह + 1 दिन, इसलिए दिन बुधवार के एक दिन बाद, यानी गुरुवार है।",
+        "mr": "5 मार्च ते 20 मार्च म्हणजे 15 दिवस. 15 = 2 आठवडे + 1 दिवस, म्हणून हा वार बुधवारच्या एक दिवस नंतरचा, म्हणजे गुरुवार आहे."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Wednesday would be exactly 14 days later, but 20 March is 15 days later.",
+          "hi": "बुधवार ठीक 14 दिन बाद होता, पर 20 मार्च 15 दिन बाद है।",
+          "mr": "बुधवार अगदी 14 दिवसांनी आला असता, पण 20 मार्च हा 15 दिवसांनंतर आहे."
+        },
+        "2": {
+          "en": "Friday would be 16 days later, but 20 March is only 15 days later.",
+          "hi": "शुक्रवार 16 दिन बाद होता, पर 20 मार्च केवल 15 दिन बाद है।",
+          "mr": "शुक्रवार 16 दिवसांनी आला असता, पण 20 मार्च फक्त 15 दिवसांनंतर आहे."
+        },
+        "3": {
+          "en": "Saturday would be 17 days later, but 20 March is only 15 days later.",
+          "hi": "शनिवार 17 दिन बाद होता, पर 20 मार्च केवल 15 दिन बाद है।",
+          "mr": "शनिवार 17 दिवसांनी आला असता, पण 20 मार्च फक्त 15 दिवसांनंतर आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-ma-22",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "What is the angle between the hour hand and the minute hand of a clock at 4 o'clock?",
+        "hi": "घड़ी में 4 बजे घंटे की सुई और मिनट की सुई के बीच कितना कोण होता है?",
+        "mr": "घड्याळात 4 वाजता तासकाटा आणि मिनिटकाटा यांच्यामधील कोन किती असतो?"
+      },
+      "optionsJson": [
+        { "en": "90°", "hi": "90°", "mr": "90°" },
+        { "en": "120°", "hi": "120°", "mr": "120°" },
+        { "en": "150°", "hi": "150°", "mr": "150°" },
+        { "en": "180°", "hi": "180°", "mr": "180°" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "At 4 o'clock the minute hand points at 12 and the hour hand points at 4. Each hour mark is 30° apart, so the angle is 4 × 30° = 120°.",
+        "hi": "4 बजे मिनट की सुई 12 पर और घंटे की सुई 4 पर होती है। प्रत्येक घंटे के निशान के बीच 30° का अंतर होता है, इसलिए कोण 4 × 30° = 120° है।",
+        "mr": "4 वाजता मिनिटकाटा 12 वर आणि तासकाटा 4 वर असतो. प्रत्येक तासाच्या खुणेमधील अंतर 30° असते, म्हणून कोन 4 × 30° = 120° आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "That is the angle at 3 o'clock (3 × 30°), not at 4 o'clock.",
+          "hi": "यह 3 बजे का कोण (3 × 30°) है, 4 बजे का नहीं।",
+          "mr": "हा 3 वाजताचा कोन (3 × 30°) आहे, 4 वाजताचा नाही."
+        },
+        "2": {
+          "en": "That is the angle at 5 o'clock (5 × 30°), not at 4 o'clock.",
+          "hi": "यह 5 बजे का कोण (5 × 30°) है, 4 बजे का नहीं।",
+          "mr": "हा 5 वाजताचा कोन (5 × 30°) आहे, 4 वाजताचा नाही."
+        },
+        "3": {
+          "en": "That is the angle at 6 o'clock (6 × 30°), not at 4 o'clock.",
+          "hi": "यह 6 बजे का कोण (6 × 30°) है, 4 बजे का नहीं।",
+          "mr": "हा 6 वाजताचा कोन (6 × 30°) आहे, 4 वाजताचा नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-ma-23",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "A is taller than B, B is taller than C, and D is shorter than C but taller than E. Who is in the middle when the five are arranged from the tallest to the shortest?",
+        "hi": "A, B से लंबा है, B, C से लंबा है, और D, C से छोटा है लेकिन E से लंबा है। पाँचों को सबसे लंबे से सबसे छोटे के क्रम में रखने पर बीच में कौन होगा?",
+        "mr": "A हा B पेक्षा उंच आहे, B हा C पेक्षा उंच आहे, आणि D हा C पेक्षा ठेंगणा पण E पेक्षा उंच आहे. पाचही जणांना सर्वात उंचापासून सर्वात ठेंगण्यापर्यंत रांगेत लावल्यास मध्यभागी कोण असेल?"
+      },
+      "optionsJson": [
+        { "en": "A", "hi": "A", "mr": "A" },
+        { "en": "B", "hi": "B", "mr": "B" },
+        { "en": "C", "hi": "C", "mr": "C" },
+        { "en": "D", "hi": "D", "mr": "D" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "From the tallest to the shortest the order is A, B, C, D, E. The middle (3rd) person is C.",
+        "hi": "सबसे लंबे से सबसे छोटे का क्रम A, B, C, D, E है। बीच का (तीसरा) व्यक्ति C है।",
+        "mr": "सर्वात उंचापासून सर्वात ठेंगण्यापर्यंतचा क्रम A, B, C, D, E आहे. मधला (तिसरा) व्यक्ती C आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "A is the tallest (1st), not the middle person.",
+          "hi": "A सबसे लंबा (पहला) है, बीच का व्यक्ति नहीं।",
+          "mr": "A हा सर्वात उंच (पहिला) आहे, मधला व्यक्ती नाही."
+        },
+        "1": {
+          "en": "B is the 2nd tallest, not the middle person.",
+          "hi": "B दूसरा सबसे लंबा है, बीच का व्यक्ति नहीं।",
+          "mr": "B हा दुसरा सर्वात उंच आहे, मधला व्यक्ती नाही."
+        },
+        "3": {
+          "en": "D is 4th in the order, not the middle person.",
+          "hi": "D क्रम में चौथा है, बीच का व्यक्ति नहीं।",
+          "mr": "D हा क्रमात चौथा आहे, मधला व्यक्ती नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-ma-24",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "In triangle ABC, a point D is marked on side BC and A is joined to D. How many triangles are there in the figure?",
+        "hi": "त्रिभुज ABC की भुजा BC पर एक बिंदु D अंकित किया गया है और A को D से जोड़ा गया है। आकृति में कुल कितने त्रिभुज हैं?",
+        "mr": "त्रिकोण ABC च्या बाजू BC वर D हा बिंदू घेतला आहे आणि A ला D शी जोडले आहे. आकृतीत एकूण किती त्रिकोण आहेत?"
+      },
+      "optionsJson": [
+        { "en": "2", "hi": "2", "mr": "2" },
+        { "en": "4", "hi": "4", "mr": "4" },
+        { "en": "5", "hi": "5", "mr": "5" },
+        { "en": "3", "hi": "3", "mr": "3" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "The triangles are ABD, ADC and the whole triangle ABC, so there are 3 triangles.",
+        "hi": "त्रिभुज ABD, ADC और पूरा त्रिभुज ABC हैं, अतः कुल 3 त्रिभुज हैं।",
+        "mr": "त्रिकोण ABD, ADC आणि संपूर्ण त्रिकोण ABC आहेत, म्हणून एकूण 3 त्रिकोण आहेत."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "2 counts only the small triangles ABD and ADC and forgets the large triangle ABC.",
+          "hi": "2 में केवल छोटे त्रिभुज ABD और ADC गिने गए हैं और बड़ा त्रिभुज ABC छूट गया है।",
+          "mr": "2 मध्ये फक्त लहान त्रिकोण ABD आणि ADC मोजले आहेत आणि मोठा त्रिकोण ABC राहून गेला आहे."
+        },
+        "1": {
+          "en": "4 counts one triangle too many; there are only ABD, ADC and ABC.",
+          "hi": "4 में एक त्रिभुज अधिक गिना गया है; केवल ABD, ADC और ABC हैं।",
+          "mr": "4 मध्ये एक त्रिकोण जास्त मोजला आहे; फक्त ABD, ADC आणि ABC आहेत."
+        },
+        "2": {
+          "en": "5 counts two triangles too many; there are only ABD, ADC and ABC.",
+          "hi": "5 में दो त्रिभुज अधिक गिने गए हैं; केवल ABD, ADC और ABC हैं।",
+          "mr": "5 मध्ये दोन त्रिकोण जास्त मोजले आहेत; फक्त ABD, ADC आणि ABC आहेत."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-ma-25",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Find the missing number. Row 1: 3, 4, 25. Row 2: 5, 12, 169. Row 3: 8, 15, ?",
+        "hi": "लुप्त संख्या ज्ञात करें। पंक्ति 1: 3, 4, 25। पंक्ति 2: 5, 12, 169। पंक्ति 3: 8, 15, ?",
+        "mr": "गाळलेली संख्या शोधा. ओळ 1: 3, 4, 25. ओळ 2: 5, 12, 169. ओळ 3: 8, 15, ?"
+      },
+      "optionsJson": [
+        { "en": "289", "hi": "289", "mr": "289" },
+        { "en": "233", "hi": "233", "mr": "233" },
+        { "en": "223", "hi": "223", "mr": "223" },
+        { "en": "361", "hi": "361", "mr": "361" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "In each row the third number is the sum of the squares of the first two: 3² + 4² = 25 and 5² + 12² = 169. So the missing number is 8² + 15² = 64 + 225 = 289.",
+        "hi": "प्रत्येक पंक्ति में तीसरी संख्या पहली दो संख्याओं के वर्गों का योग है: 3² + 4² = 25 और 5² + 12² = 169। इसलिए लुप्त संख्या 8² + 15² = 64 + 225 = 289 है।",
+        "mr": "प्रत्येक ओळीत तिसरी संख्या पहिल्या दोन संख्यांच्या वर्गांची बेरीज आहे: 3² + 4² = 25 आणि 5² + 12² = 169. म्हणून गाळलेली संख्या 8² + 15² = 64 + 225 = 289 आहे."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "233 = 8² + 13², but the second number is 15, whose square is 225.",
+          "hi": "233 = 8² + 13² है, पर दूसरी संख्या 15 है, जिसका वर्ग 225 है।",
+          "mr": "233 = 8² + 13² आहे, पण दुसरी संख्या 15 आहे, जिचा वर्ग 225 आहे."
+        },
+        "2": {
+          "en": "This is an addition slip: 64 + 225 = 289, not 223.",
+          "hi": "यह जोड़ की गलती है: 64 + 225 = 289 होता है, 223 नहीं।",
+          "mr": "ही बेरजेतील चूक आहे: 64 + 225 = 289 होते, 223 नाही."
+        },
+        "3": {
+          "en": "361 is 19², which is not the sum of the squares of 8 and 15.",
+          "hi": "361 = 19² है, जो 8 और 15 के वर्गों का योग नहीं है।",
+          "mr": "361 = 19² आहे, जी 8 आणि 15 यांच्या वर्गांची बेरीज नाही."
+        }
+      }
+    }
+  ]
+}

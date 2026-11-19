@@ -1,0 +1,984 @@
+{
+  "examType": "RMS",
+  "classLevel": 6,
+  "paperNumber": 3,
+  "sectionKey": "general_knowledge",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "rms6-p3-gk-01",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Gandhiji's Dandi March of 1930 was a protest against the British government's tax and monopoly on which commodity?",
+        "hi": "गांधीजी की 1930 की दांडी यात्रा ब्रिटिश सरकार के किस वस्तु पर कर और एकाधिकार के विरोध में थी?",
+        "mr": "गांधीजींची 1930 ची दांडी यात्रा ब्रिटिश सरकारच्या कोणत्या वस्तूवरील कर आणि मक्तेदारीच्या विरोधात होती?"
+      },
+      "optionsJson": [
+        { "en": "Tea", "hi": "चाय", "mr": "चहा" },
+        { "en": "Salt", "hi": "नमक", "mr": "मीठ" },
+        { "en": "Cotton", "hi": "कपास", "mr": "कापूस" },
+        { "en": "Sugar", "hi": "चीनी", "mr": "साखर" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Gandhiji walked from Sabarmati Ashram to Dandi on the Gujarat coast and made salt from seawater, defying the British salt tax and monopoly.",
+        "hi": "गांधीजी साबरमती आश्रम से गुजरात के तट पर स्थित दांडी तक पैदल चले और समुद्र के पानी से नमक बनाकर ब्रिटिश नमक कर और एकाधिकार का उल्लंघन किया।",
+        "mr": "गांधीजी साबरमती आश्रमापासून गुजरातच्या किनाऱ्यावरील दांडीपर्यंत पायी चालत गेले आणि समुद्राच्या पाण्यापासून मीठ तयार करून त्यांनी ब्रिटिशांचा मिठावरील कर आणि मक्तेदारी मोडली."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Tea was not the target of the Dandi March.",
+          "hi": "दांडी यात्रा का लक्ष्य चाय नहीं थी।",
+          "mr": "दांडी यात्रेचे लक्ष्य चहा नव्हता."
+        },
+        "2": {
+          "en": "Gandhiji promoted spinning cotton into khadi, but the Dandi March was not about a cotton law.",
+          "hi": "गांधीजी ने कपास कातकर खादी बनाने को बढ़ावा दिया, पर दांडी यात्रा कपास के किसी कानून के विरोध में नहीं थी।",
+          "mr": "गांधीजींनी कापूस कातून खादी बनवण्यास प्रोत्साहन दिले, पण दांडी यात्रा कापसाच्या कोणत्याही कायद्याविरुद्ध नव्हती."
+        },
+        "3": {
+          "en": "Sugar was not taxed in the way that salt was, and it was not the cause of the march.",
+          "hi": "चीनी पर नमक जैसा कर और एकाधिकार नहीं था और यह यात्रा का कारण नहीं थी।",
+          "mr": "साखरेवर मिठासारखा कर आणि मक्तेदारी नव्हती आणि ते यात्रेचे कारण नव्हते."
+        }
+      }
+    },
+    {
+      "key": "rms6-p3-gk-02",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "On which date did the Constitution of India come into force?",
+        "hi": "भारत का संविधान किस तिथि को लागू हुआ?",
+        "mr": "भारताचे संविधान कोणत्या तारखेला लागू झाले?"
+      },
+      "optionsJson": [
+        { "en": "15 August 1947", "hi": "15 अगस्त 1947", "mr": "15 ऑगस्ट 1947" },
+        { "en": "26 November 1949", "hi": "26 नवंबर 1949", "mr": "26 नोव्हेंबर 1949" },
+        { "en": "26 January 1950", "hi": "26 जनवरी 1950", "mr": "26 जानेवारी 1950" },
+        { "en": "2 October 1950", "hi": "2 अक्टूबर 1950", "mr": "2 ऑक्टोबर 1950" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The Constitution was adopted on 26 November 1949 but came into force on 26 January 1950, which we celebrate as Republic Day.",
+        "hi": "संविधान 26 नवंबर 1949 को अपनाया गया था, पर यह 26 जनवरी 1950 को लागू हुआ, जिसे हम गणतंत्र दिवस के रूप में मनाते हैं।",
+        "mr": "संविधान 26 नोव्हेंबर 1949 रोजी स्वीकारले गेले, पण ते 26 जानेवारी 1950 रोजी लागू झाले, हा दिवस आपण प्रजासत्ताक दिन म्हणून साजरा करतो."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "This is the date India became independent, not the date the Constitution came into force.",
+          "hi": "इस तिथि को भारत स्वतंत्र हुआ था, संविधान लागू नहीं हुआ था।",
+          "mr": "या तारखेला भारत स्वतंत्र झाला, संविधान लागू झाले नाही."
+        },
+        "1": {
+          "en": "This is the date the Constituent Assembly adopted the Constitution, not the date it came into force.",
+          "hi": "इस तिथि को संविधान सभा ने संविधान को अपनाया था, यह उसके लागू होने की तिथि नहीं है।",
+          "mr": "या तारखेला संविधान सभेने संविधान स्वीकारले, ते लागू झाल्याची ही तारीख नाही."
+        },
+        "3": {
+          "en": "This is Gandhi Jayanti and has no link with the Constitution coming into force.",
+          "hi": "यह गांधी जयंती है और इसका संविधान के लागू होने से कोई संबंध नहीं है।",
+          "mr": "ही गांधी जयंती आहे आणि तिचा संविधान लागू होण्याशी संबंध नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p3-gk-03",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Who was the Chairman of the Drafting Committee of the Indian Constitution?",
+        "hi": "भारतीय संविधान की प्रारूप समिति के अध्यक्ष कौन थे?",
+        "mr": "भारतीय संविधानाच्या मसुदा समितीचे अध्यक्ष कोण होते?"
+      },
+      "optionsJson": [
+        { "en": "Dr B. R. Ambedkar", "hi": "डॉ. बी. आर. आंबेडकर", "mr": "डॉ. बी. आर. आंबेडकर" },
+        { "en": "Dr Rajendra Prasad", "hi": "डॉ. राजेंद्र प्रसाद", "mr": "डॉ. राजेंद्र प्रसाद" },
+        { "en": "Jawaharlal Nehru", "hi": "जवाहरलाल नेहरू", "mr": "जवाहरलाल नेहरू" },
+        { "en": "Sardar Vallabhbhai Patel", "hi": "सरदार वल्लभभाई पटेल", "mr": "सरदार वल्लभभाई पटेल" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Dr B. R. Ambedkar chaired the Drafting Committee and is called the chief architect of the Indian Constitution.",
+        "hi": "डॉ. बी. आर. आंबेडकर प्रारूप समिति के अध्यक्ष थे और उन्हें भारतीय संविधान का प्रमुख शिल्पकार कहा जाता है।",
+        "mr": "डॉ. बी. आर. आंबेडकर मसुदा समितीचे अध्यक्ष होते आणि त्यांना भारतीय संविधानाचे प्रमुख शिल्पकार म्हटले जाते."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Dr Rajendra Prasad was the President of the Constituent Assembly, not the Chairman of the Drafting Committee.",
+          "hi": "डॉ. राजेंद्र प्रसाद संविधान सभा के अध्यक्ष थे, प्रारूप समिति के अध्यक्ष नहीं।",
+          "mr": "डॉ. राजेंद्र प्रसाद हे संविधान सभेचे अध्यक्ष होते, मसुदा समितीचे नव्हे."
+        },
+        "2": {
+          "en": "Nehru became the first Prime Minister of India and moved the Objectives Resolution, but did not chair the Drafting Committee.",
+          "hi": "नेहरू भारत के पहले प्रधानमंत्री बने और उन्होंने उद्देश्य प्रस्ताव रखा, पर वे प्रारूप समिति के अध्यक्ष नहीं थे।",
+          "mr": "नेहरू भारताचे पहिले पंतप्रधान झाले आणि त्यांनी उद्दिष्टांचा ठराव मांडला, पण ते मसुदा समितीचे अध्यक्ष नव्हते."
+        },
+        "3": {
+          "en": "Sardar Patel was the first Deputy Prime Minister and helped unite the princely states, but did not chair the Drafting Committee.",
+          "hi": "सरदार पटेल पहले उप-प्रधानमंत्री थे और उन्होंने रियासतों को जोड़ने में मदद की, पर वे प्रारूप समिति के अध्यक्ष नहीं थे।",
+          "mr": "सरदार पटेल पहिले उपपंतप्रधान होते आणि त्यांनी संस्थाने जोडण्यास मदत केली, पण ते मसुदा समितीचे अध्यक्ष नव्हते."
+        }
+      }
+    },
+    {
+      "key": "rms6-p3-gk-04",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "The Quit India Movement was launched by Mahatma Gandhi in which year?",
+        "hi": "भारत छोड़ो आंदोलन महात्मा गांधी ने किस वर्ष शुरू किया?",
+        "mr": "भारत छोडो आंदोलन महात्मा गांधींनी कोणत्या वर्षी सुरू केले?"
+      },
+      "optionsJson": [
+        { "en": "1920", "hi": "1920", "mr": "1920" },
+        { "en": "1930", "hi": "1930", "mr": "1930" },
+        { "en": "1946", "hi": "1946", "mr": "1946" },
+        { "en": "1942", "hi": "1942", "mr": "1942" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Gandhiji launched the Quit India Movement in August 1942 at Bombay with the call ‘Do or Die’, demanding an end to British rule.",
+        "hi": "गांधीजी ने अगस्त 1942 में बंबई में ‘करो या मरो’ के नारे के साथ भारत छोड़ो आंदोलन शुरू किया और ब्रिटिश शासन समाप्त करने की माँग की।",
+        "mr": "गांधीजींनी ऑगस्ट 1942 मध्ये मुंबईत ‘करा किंवा मरा’ या घोषणेसह भारत छोडो आंदोलन सुरू केले आणि ब्रिटिश राजवट संपवण्याची मागणी केली."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "1920 is the year of the Non-Cooperation Movement.",
+          "hi": "1920 असहयोग आंदोलन का वर्ष है।",
+          "mr": "1920 हे असहकार आंदोलनाचे वर्ष आहे."
+        },
+        "1": {
+          "en": "1930 is the year of the Civil Disobedience Movement and the Dandi March.",
+          "hi": "1930 सविनय अवज्ञा आंदोलन और दांडी यात्रा का वर्ष है।",
+          "mr": "1930 हे सविनय कायदेभंग आंदोलन आणि दांडी यात्रेचे वर्ष आहे."
+        },
+        "2": {
+          "en": "In 1946 the Cabinet Mission came to India; the Quit India Movement had already taken place by then.",
+          "hi": "1946 में कैबिनेट मिशन भारत आया था; भारत छोड़ो आंदोलन तब तक हो चुका था।",
+          "mr": "1946 मध्ये कॅबिनेट मिशन भारतात आले; भारत छोडो आंदोलन तोपर्यंत होऊन गेले होते."
+        }
+      }
+    },
+    {
+      "key": "rms6-p3-gk-05",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "The Jallianwala Bagh massacre of 1919 took place in which city?",
+        "hi": "1919 का जलियाँवाला बाग हत्याकांड किस शहर में हुआ था?",
+        "mr": "1919 चे जालियनवाला बाग हत्याकांड कोणत्या शहरात घडले?"
+      },
+      "optionsJson": [
+        { "en": "Delhi", "hi": "दिल्ली", "mr": "दिल्ली" },
+        { "en": "Lahore", "hi": "लाहौर", "mr": "लाहोर" },
+        { "en": "Amritsar", "hi": "अमृतसर", "mr": "अमृतसर" },
+        { "en": "Kolkata", "hi": "कोलकाता", "mr": "कोलकाता" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "On 13 April 1919, the day of Baisakhi, General Dyer's troops fired on an unarmed crowd gathered at Jallianwala Bagh in Amritsar, Punjab.",
+        "hi": "13 अप्रैल 1919 को बैसाखी के दिन जनरल डायर के सैनिकों ने पंजाब के अमृतसर में जलियाँवाला बाग में एकत्र निहत्थी भीड़ पर गोलियाँ चलाईं।",
+        "mr": "13 एप्रिल 1919 रोजी बैसाखीच्या दिवशी जनरल डायरच्या सैनिकांनी पंजाबमधील अमृतसर येथे जालियनवाला बागेत जमलेल्या निशस्त्र जमावावर गोळीबार केला."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Delhi is India's capital but was not the site of this massacre.",
+          "hi": "दिल्ली भारत की राजधानी है, पर यह हत्याकांड वहाँ नहीं हुआ था।",
+          "mr": "दिल्ली ही भारताची राजधानी आहे, पण हे हत्याकांड तिथे झाले नाही."
+        },
+        "1": {
+          "en": "Lahore is another city of Punjab, but the massacre did not happen there.",
+          "hi": "लाहौर पंजाब का एक अन्य शहर है, पर यह हत्याकांड वहाँ नहीं हुआ।",
+          "mr": "लाहोर हे पंजाबमधील दुसरे शहर आहे, पण हे हत्याकांड तिथे घडले नाही."
+        },
+        "3": {
+          "en": "Kolkata was the British capital of India until 1911, but it was not the site of this massacre.",
+          "hi": "कोलकाता 1911 तक भारत में ब्रिटिश राजधानी था, पर यह हत्याकांड वहाँ नहीं हुआ।",
+          "mr": "कोलकाता 1911 पर्यंत भारतातील ब्रिटिश राजधानी होती, पण हे हत्याकांड तिथे घडले नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p3-gk-06",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "At what minimum age can an Indian citizen vote in elections to the Lok Sabha?",
+        "hi": "भारत का कोई नागरिक लोकसभा चुनाव में कम से कम किस आयु में मतदान कर सकता है?",
+        "mr": "भारताचा नागरिक लोकसभा निवडणुकीत किमान कोणत्या वयात मतदान करू शकतो?"
+      },
+      "optionsJson": [
+        { "en": "16 years", "hi": "16 वर्ष", "mr": "16 वर्षे" },
+        { "en": "18 years", "hi": "18 वर्ष", "mr": "18 वर्षे" },
+        { "en": "21 years", "hi": "21 वर्ष", "mr": "21 वर्षे" },
+        { "en": "25 years", "hi": "25 वर्ष", "mr": "25 वर्षे" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Every citizen who is 18 years old or more has the right to vote. The voting age was lowered from 21 to 18 years in 1988.",
+        "hi": "18 वर्ष या उससे अधिक आयु के प्रत्येक नागरिक को मतदान का अधिकार है। 1988 में मतदान की आयु 21 से घटाकर 18 वर्ष की गई थी।",
+        "mr": "18 वर्षे किंवा त्याहून अधिक वयाच्या प्रत्येक नागरिकाला मतदानाचा हक्क आहे. 1988 मध्ये मतदानाचे वय 21 वरून 18 वर्षे करण्यात आले."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "At 16 years a person is still below the voting age in India.",
+          "hi": "16 वर्ष की आयु में व्यक्ति भारत में अभी मतदान की आयु से छोटा होता है।",
+          "mr": "16 व्या वर्षी व्यक्ती भारतात अजून मतदानाच्या वयाखालील असते."
+        },
+        "2": {
+          "en": "21 years was the voting age earlier, but it was lowered to 18 years.",
+          "hi": "21 वर्ष पहले मतदान की आयु थी, पर इसे घटाकर 18 वर्ष कर दिया गया।",
+          "mr": "21 वर्षे हे पूर्वी मतदानाचे वय होते, पण ते कमी करून 18 वर्षे करण्यात आले."
+        },
+        "3": {
+          "en": "25 years is the minimum age to contest a Lok Sabha election, not to vote.",
+          "hi": "25 वर्ष लोकसभा चुनाव लड़ने की न्यूनतम आयु है, मतदान की नहीं।",
+          "mr": "25 वर्षे हे लोकसभा निवडणूक लढवण्याचे किमान वय आहे, मतदानाचे नव्हे."
+        }
+      }
+    },
+    {
+      "key": "rms6-p3-gk-07",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Who gave the slogan ‘Give me blood, and I will give you freedom’ to inspire the Indian National Army?",
+        "hi": "भारतीय राष्ट्रीय सेना को प्रेरित करने के लिए ‘तुम मुझे खून दो, मैं तुम्हें आज़ादी दूँगा’ का नारा किसने दिया?",
+        "mr": "भारतीय राष्ट्रीय सेनेला प्रेरणा देण्यासाठी ‘तुम मला रक्त द्या, मी तुम्हाला स्वातंत्र्य देईन’ ही घोषणा कोणी दिली?"
+      },
+      "optionsJson": [
+        { "en": "Subhas Chandra Bose", "hi": "सुभाष चंद्र बोस", "mr": "सुभाषचंद्र बोस" },
+        { "en": "Bal Gangadhar Tilak", "hi": "बाल गंगाधर तिलक", "mr": "बाळ गंगाधर टिळक" },
+        { "en": "Bhagat Singh", "hi": "भगत सिंह", "mr": "भगतसिंग" },
+        { "en": "Mahatma Gandhi", "hi": "महात्मा गांधी", "mr": "महात्मा गांधी" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Netaji Subhas Chandra Bose gave this call to the soldiers and supporters of the Indian National Army (Azad Hind Fauj).",
+        "hi": "नेताजी सुभाष चंद्र बोस ने भारतीय राष्ट्रीय सेना (आज़ाद हिंद फ़ौज) के सैनिकों और समर्थकों को यह आह्वान दिया था।",
+        "mr": "नेताजी सुभाषचंद्र बोस यांनी भारतीय राष्ट्रीय सेनेच्या (आझाद हिंद फौज) सैनिकांना आणि समर्थकांना ही हाक दिली होती."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Tilak is known for the slogan ‘Swaraj is my birthright’.",
+          "hi": "तिलक ‘स्वराज्य मेरा जन्मसिद्ध अधिकार है’ के नारे के लिए जाने जाते हैं।",
+          "mr": "टिळक ‘स्वराज्य हा माझा जन्मसिद्ध हक्क आहे’ या घोषणेसाठी ओळखले जातात."
+        },
+        "2": {
+          "en": "Bhagat Singh popularised the slogan ‘Inquilab Zindabad’.",
+          "hi": "भगत सिंह ने ‘इंकलाब ज़िंदाबाद’ के नारे को लोकप्रिय बनाया।",
+          "mr": "भगतसिंग यांनी ‘इन्कलाब झिंदाबाद’ ही घोषणा लोकप्रिय केली."
+        },
+        "3": {
+          "en": "Gandhiji gave the call ‘Do or Die’ during the Quit India Movement.",
+          "hi": "गांधीजी ने भारत छोड़ो आंदोलन के समय ‘करो या मरो’ का आह्वान किया था।",
+          "mr": "गांधीजींनी भारत छोडो आंदोलनाच्या वेळी ‘करा किंवा मरा’ अशी हाक दिली होती."
+        }
+      }
+    },
+    {
+      "key": "rms6-p3-gk-08",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "The Parliament of India consists of the President and which two Houses?",
+        "hi": "भारत की संसद राष्ट्रपति और किन दो सदनों से मिलकर बनती है?",
+        "mr": "भारताची संसद राष्ट्रपती आणि कोणत्या दोन सभागृहांनी बनलेली असते?"
+      },
+      "optionsJson": [
+        { "en": "Lok Sabha and Vidhan Sabha", "hi": "लोकसभा और विधानसभा", "mr": "लोकसभा आणि विधानसभा" },
+        { "en": "Rajya Sabha and Vidhan Parishad", "hi": "राज्यसभा और विधान परिषद", "mr": "राज्यसभा आणि विधान परिषद" },
+        { "en": "Vidhan Sabha and Vidhan Parishad", "hi": "विधानसभा और विधान परिषद", "mr": "विधानसभा आणि विधान परिषद" },
+        { "en": "Lok Sabha and Rajya Sabha", "hi": "लोकसभा और राज्यसभा", "mr": "लोकसभा आणि राज्यसभा" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Parliament has the President and two Houses: the Lok Sabha (House of the People) and the Rajya Sabha (Council of States).",
+        "hi": "संसद में राष्ट्रपति और दो सदन होते हैं: लोकसभा (जनता का सदन) और राज्यसभा (राज्यों की परिषद)।",
+        "mr": "संसदेत राष्ट्रपती आणि दोन सभागृहे असतात: लोकसभा (लोकांचे सभागृह) आणि राज्यसभा (राज्यांची परिषद)."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The Vidhan Sabha is a state legislature, not part of Parliament.",
+          "hi": "विधानसभा राज्य का विधानमंडल है, संसद का भाग नहीं।",
+          "mr": "विधानसभा हे राज्याचे विधिमंडळ आहे, ते संसदेचा भाग नाही."
+        },
+        "1": {
+          "en": "The Vidhan Parishad is a state legislative council, not part of Parliament.",
+          "hi": "विधान परिषद राज्य का उच्च सदन है, संसद का भाग नहीं।",
+          "mr": "विधान परिषद हे राज्याचे वरिष्ठ सभागृह आहे, ते संसदेचा भाग नाही."
+        },
+        "2": {
+          "en": "Both are state-level bodies, so neither belongs to Parliament.",
+          "hi": "दोनों राज्य स्तर की संस्थाएँ हैं, इसलिए कोई भी संसद का भाग नहीं है।",
+          "mr": "दोन्ही राज्य पातळीवरील संस्था आहेत, म्हणून कोणतीही संसदेचा भाग नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p3-gk-09",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Who is the constitutional head of a state in India?",
+        "hi": "भारत में किसी राज्य का संवैधानिक प्रमुख कौन होता है?",
+        "mr": "भारतात राज्याचा घटनात्मक प्रमुख कोण असतो?"
+      },
+      "optionsJson": [
+        { "en": "Chief Minister", "hi": "मुख्यमंत्री", "mr": "मुख्यमंत्री" },
+        { "en": "Governor", "hi": "राज्यपाल", "mr": "राज्यपाल" },
+        { "en": "Speaker of the Vidhan Sabha", "hi": "विधानसभा अध्यक्ष", "mr": "विधानसभेचे अध्यक्ष" },
+        { "en": "Chief Justice of the High Court", "hi": "उच्च न्यायालय के मुख्य न्यायाधीश", "mr": "उच्च न्यायालयाचे मुख्य न्यायाधीश" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "The Governor, appointed by the President, is the constitutional head of a state, while the Chief Minister is the head of the state government.",
+        "hi": "राष्ट्रपति द्वारा नियुक्त राज्यपाल राज्य का संवैधानिक प्रमुख होता है, जबकि मुख्यमंत्री राज्य सरकार का प्रमुख होता है।",
+        "mr": "राष्ट्रपतींनी नेमलेले राज्यपाल राज्याचे घटनात्मक प्रमुख असतात, तर मुख्यमंत्री राज्य सरकारचे प्रमुख असतात."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The Chief Minister is the head of the state government, not the constitutional head of the state.",
+          "hi": "मुख्यमंत्री राज्य सरकार का प्रमुख होता है, राज्य का संवैधानिक प्रमुख नहीं।",
+          "mr": "मुख्यमंत्री हे राज्य सरकारचे प्रमुख असतात, राज्याचे घटनात्मक प्रमुख नव्हे."
+        },
+        "2": {
+          "en": "The Speaker presides over the Vidhan Sabha's meetings; he or she is not the head of the state.",
+          "hi": "अध्यक्ष विधानसभा की बैठकों की अध्यक्षता करता है; वह राज्य का प्रमुख नहीं होता।",
+          "mr": "अध्यक्ष विधानसभेच्या बैठकांचे अध्यक्षस्थान भूषवतात; ते राज्याचे प्रमुख नसतात."
+        },
+        "3": {
+          "en": "The Chief Justice heads the High Court, which is the judiciary of the state, not the head of the state.",
+          "hi": "मुख्य न्यायाधीश उच्च न्यायालय का प्रमुख होता है, जो राज्य की न्यायपालिका है, राज्य का प्रमुख नहीं।",
+          "mr": "मुख्य न्यायाधीश उच्च न्यायालयाचे प्रमुख असतात, जे राज्याची न्यायपालिका आहे; ते राज्याचे प्रमुख नसतात."
+        }
+      }
+    },
+    {
+      "key": "rms6-p3-gk-10",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "In which year was the Indian National Congress founded?",
+        "hi": "भारतीय राष्ट्रीय कांग्रेस की स्थापना किस वर्ष हुई थी?",
+        "mr": "भारतीय राष्ट्रीय काँग्रेसची स्थापना कोणत्या वर्षी झाली?"
+      },
+      "optionsJson": [
+        { "en": "1857", "hi": "1857", "mr": "1857" },
+        { "en": "1905", "hi": "1905", "mr": "1905" },
+        { "en": "1885", "hi": "1885", "mr": "1885" },
+        { "en": "1919", "hi": "1919", "mr": "1919" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The Indian National Congress was founded in 1885, and its first session was held in Bombay with W. C. Bonnerjee as president.",
+        "hi": "भारतीय राष्ट्रीय कांग्रेस की स्थापना 1885 में हुई थी और इसका पहला अधिवेशन डब्ल्यू. सी. बनर्जी की अध्यक्षता में बंबई में हुआ था।",
+        "mr": "भारतीय राष्ट्रीय काँग्रेसची स्थापना 1885 मध्ये झाली आणि तिचे पहिले अधिवेशन डब्ल्यू. सी. बॅनर्जी यांच्या अध्यक्षतेखाली मुंबईत झाले."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "1857 is the year of the great Revolt against the British, before the Congress was formed.",
+          "hi": "1857 ब्रिटिश शासन के विरुद्ध महान विद्रोह का वर्ष है, जो कांग्रेस की स्थापना से पहले का है।",
+          "mr": "1857 हे ब्रिटिशांविरुद्धच्या मोठ्या उठावाचे वर्ष आहे, जे काँग्रेसच्या स्थापनेपूर्वीचे आहे."
+        },
+        "1": {
+          "en": "1905 is the year of the Partition of Bengal, which came 20 years after the Congress was founded.",
+          "hi": "1905 बंगाल विभाजन का वर्ष है, जो कांग्रेस की स्थापना के 20 वर्ष बाद हुआ।",
+          "mr": "1905 हे बंगालच्या फाळणीचे वर्ष आहे, जी काँग्रेसच्या स्थापनेनंतर 20 वर्षांनी झाली."
+        },
+        "3": {
+          "en": "1919 is the year of the Jallianwala Bagh massacre, long after the Congress was founded.",
+          "hi": "1919 जलियाँवाला बाग हत्याकांड का वर्ष है, जो कांग्रेस की स्थापना के बहुत बाद का है।",
+          "mr": "1919 हे जालियनवाला बाग हत्याकांडाचे वर्ष आहे, जे काँग्रेसच्या स्थापनेनंतर बऱ्याच काळाने घडले."
+        }
+      }
+    },
+    {
+      "key": "rms6-p3-gk-11",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Rani Lakshmibai, a brave leader of the Revolt of 1857, was the queen of which princely state?",
+        "hi": "1857 के विद्रोह की वीर नेता रानी लक्ष्मीबाई किस रियासत की रानी थीं?",
+        "mr": "1857 च्या उठावाच्या शूर नेत्या राणी लक्ष्मीबाई कोणत्या संस्थानाच्या राणी होत्या?"
+      },
+      "optionsJson": [
+        { "en": "Jhansi", "hi": "झाँसी", "mr": "झाशी" },
+        { "en": "Awadh", "hi": "अवध", "mr": "अवध" },
+        { "en": "Mysore", "hi": "मैसूर", "mr": "म्हैसूर" },
+        { "en": "Punjab", "hi": "पंजाब", "mr": "पंजाब" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Rani Lakshmibai was the queen of Jhansi and fought bravely against the British in the Revolt of 1857.",
+        "hi": "रानी लक्ष्मीबाई झाँसी की रानी थीं और उन्होंने 1857 के विद्रोह में अंग्रेज़ों से वीरता से युद्ध किया।",
+        "mr": "राणी लक्ष्मीबाई झाशीच्या राणी होत्या आणि त्यांनी 1857 च्या उठावात इंग्रजांशी शौर्याने लढा दिला."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Awadh was where Begum Hazrat Mahal led the Revolt, not Rani Lakshmibai.",
+          "hi": "अवध में बेगम हज़रत महल ने विद्रोह का नेतृत्व किया था, रानी लक्ष्मीबाई ने नहीं।",
+          "mr": "अवधमध्ये बेगम हजरत महल यांनी उठावाचे नेतृत्व केले, राणी लक्ष्मीबाईंनी नव्हे."
+        },
+        "2": {
+          "en": "Mysore was ruled by Tipu Sultan, who died in 1799, long before 1857.",
+          "hi": "मैसूर पर टीपू सुल्तान का शासन था, जिनकी मृत्यु 1799 में हुई, यानी 1857 से बहुत पहले।",
+          "mr": "म्हैसूरवर टिपू सुलतानचे राज्य होते, ज्यांचा मृत्यू 1799 मध्ये झाला, म्हणजे 1857 च्या खूप आधी."
+        },
+        "3": {
+          "en": "Punjab was the kingdom of Maharaja Ranjit Singh and has no link with Rani Lakshmibai.",
+          "hi": "पंजाब महाराजा रणजीत सिंह का राज्य था और इसका रानी लक्ष्मीबाई से कोई संबंध नहीं है।",
+          "mr": "पंजाब हे महाराजा रणजितसिंह यांचे राज्य होते आणि त्याचा राणी लक्ष्मीबाईंशी संबंध नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p3-gk-12",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "In 1917, Gandhiji led his first satyagraha in India to help the indigo farmers of which place?",
+        "hi": "1917 में गांधीजी ने भारत में अपना पहला सत्याग्रह किस स्थान के नील किसानों की सहायता के लिए किया?",
+        "mr": "1917 मध्ये गांधीजींनी भारतातील पहिला सत्याग्रह कोणत्या ठिकाणच्या नीळ उत्पादक शेतकऱ्यांच्या मदतीसाठी केला?"
+      },
+      "optionsJson": [
+        { "en": "Dandi", "hi": "दांडी", "mr": "दांडी" },
+        { "en": "Bardoli", "hi": "बारदोली", "mr": "बारडोली" },
+        { "en": "Kheda", "hi": "खेड़ा", "mr": "खेडा" },
+        { "en": "Champaran", "hi": "चंपारण", "mr": "चंपारण" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "In Champaran, Bihar, planters forced farmers to grow indigo on part of their land; Gandhiji's 1917 satyagraha there brought relief to the farmers.",
+        "hi": "बिहार के चंपारण में बागान मालिक किसानों को अपनी ज़मीन के एक हिस्से में नील उगाने के लिए मजबूर करते थे; 1917 में गांधीजी के सत्याग्रह से किसानों को राहत मिली।",
+        "mr": "बिहारमधील चंपारणमध्ये मळेवाले शेतकऱ्यांना त्यांच्या जमिनीच्या काही भागात नीळ पिकवण्याची सक्ती करत; 1917 मध्ये गांधीजींच्या सत्याग्रहामुळे शेतकऱ्यांना दिलासा मिळाला."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Dandi is the place where the Salt March of 1930 ended.",
+          "hi": "दांडी वह स्थान है जहाँ 1930 की नमक यात्रा समाप्त हुई थी।",
+          "mr": "दांडी हे ठिकाण आहे जिथे 1930 ची मिठाची यात्रा संपली."
+        },
+        "1": {
+          "en": "The Bardoli Satyagraha of 1928, led by Sardar Patel, was against a rise in land revenue.",
+          "hi": "सरदार पटेल के नेतृत्व में 1928 का बारदोली सत्याग्रह भू-राजस्व बढ़ाए जाने के विरोध में था।",
+          "mr": "सरदार पटेल यांच्या नेतृत्वाखालील 1928 चा बारडोली सत्याग्रह जमीन महसूल वाढीच्या विरोधात होता."
+        },
+        "2": {
+          "en": "The Kheda Satyagraha of 1918 in Gujarat was about land revenue after crop failure, not about indigo.",
+          "hi": "गुजरात में 1918 का खेड़ा सत्याग्रह फसल खराब होने के बाद भू-राजस्व को लेकर था, नील को लेकर नहीं।",
+          "mr": "गुजरातमधील 1918 चा खेडा सत्याग्रह पीक बुडाल्यानंतरच्या जमीन महसुलाबाबत होता, नीळ पिकाबाबत नव्हे."
+        }
+      }
+    },
+    {
+      "key": "rms6-p3-gk-13",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "After the bloody Kalinga War, which religion did Emperor Ashoka embrace?",
+        "hi": "कलिंग युद्ध के भीषण रक्तपात के बाद सम्राट अशोक ने कौन-सा धर्म अपनाया?",
+        "mr": "कलिंग युद्धातील भीषण रक्तपातानंतर सम्राट अशोकाने कोणता धर्म स्वीकारला?"
+      },
+      "optionsJson": [
+        { "en": "Jainism", "hi": "जैन धर्म", "mr": "जैन धर्म" },
+        { "en": "Buddhism", "hi": "बौद्ध धर्म", "mr": "बौद्ध धर्म" },
+        { "en": "Zoroastrianism", "hi": "पारसी धर्म", "mr": "पारशी धर्म" },
+        { "en": "Sikhism", "hi": "सिख धर्म", "mr": "शीख धर्म" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Deeply saddened by the destruction of the Kalinga War, Ashoka turned to Buddhism and spread its message of peace and non-violence.",
+        "hi": "कलिंग युद्ध के विनाश से अत्यंत दुखी होकर अशोक ने बौद्ध धर्म अपनाया और उसके शांति तथा अहिंसा के संदेश का प्रसार किया।",
+        "mr": "कलिंग युद्धातील विनाशामुळे अत्यंत दुःखी होऊन अशोकाने बौद्ध धर्म स्वीकारला आणि त्याच्या शांतता व अहिंसेच्या संदेशाचा प्रसार केला."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Jainism also teaches non-violence, but Ashoka embraced Buddhism, not Jainism.",
+          "hi": "जैन धर्म भी अहिंसा सिखाता है, पर अशोक ने जैन धर्म नहीं, बौद्ध धर्म अपनाया।",
+          "mr": "जैन धर्मही अहिंसा शिकवतो, पण अशोकाने जैन धर्म नव्हे तर बौद्ध धर्म स्वीकारला."
+        },
+        "2": {
+          "en": "Ashoka did not adopt Zoroastrianism, the religion of the Parsis.",
+          "hi": "अशोक ने पारसी धर्म नहीं अपनाया।",
+          "mr": "अशोकाने पारशी धर्म स्वीकारला नाही."
+        },
+        "3": {
+          "en": "Sikhism began more than 1,700 years after Ashoka's time, so he could not have embraced it.",
+          "hi": "सिख धर्म की शुरुआत अशोक के काल के 1700 से भी अधिक वर्ष बाद हुई, इसलिए वे इसे नहीं अपना सकते थे।",
+          "mr": "शीख धर्माची सुरुवात अशोकाच्या काळानंतर 1700 हून अधिक वर्षांनी झाली, म्हणून अशोक तो धर्म स्वीकारू शकत नव्हता."
+        }
+      }
+    },
+    {
+      "key": "rms6-p3-gk-14",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Which of these Indus Valley (Harappan) sites lies in present-day Gujarat, India?",
+        "hi": "सिंधु घाटी (हड़प्पा) सभ्यता का इनमें से कौन-सा स्थल वर्तमान भारत के गुजरात राज्य में स्थित है?",
+        "mr": "सिंधू (हडप्पा) संस्कृतीतील यांपैकी कोणते स्थळ सध्याच्या भारतातील गुजरात राज्यात आहे?"
+      },
+      "optionsJson": [
+        { "en": "Dholavira", "hi": "धोलावीरा", "mr": "धोलावीरा" },
+        { "en": "Mohenjo-daro", "hi": "मोहनजोदड़ो", "mr": "मोहेंजोदडो" },
+        { "en": "Harappa", "hi": "हड़प्पा", "mr": "हडप्पा" },
+        { "en": "Chanhudaro", "hi": "चन्हुदड़ो", "mr": "चन्हुदडो" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Dholavira in Kachchh district, Gujarat, is a Harappan city known for its clever system of water storage.",
+        "hi": "गुजरात के कच्छ ज़िले में स्थित धोलावीरा एक हड़प्पाकालीन नगर है, जो अपनी जल-संग्रह की चतुर व्यवस्था के लिए प्रसिद्ध है।",
+        "mr": "गुजरातमधील कच्छ जिल्ह्यातील धोलावीरा हे हडप्पाकालीन शहर आहे, जे पाणी साठवण्याच्या चतुर व्यवस्थेसाठी प्रसिद्ध आहे."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Mohenjo-daro is in the Sindh province of present-day Pakistan.",
+          "hi": "मोहनजोदड़ो वर्तमान पाकिस्तान के सिंध प्रांत में है।",
+          "mr": "मोहेंजोदडो सध्याच्या पाकिस्तानातील सिंध प्रांतात आहे."
+        },
+        "2": {
+          "en": "Harappa is in the Punjab province of present-day Pakistan.",
+          "hi": "हड़प्पा वर्तमान पाकिस्तान के पंजाब प्रांत में है।",
+          "mr": "हडप्पा सध्याच्या पाकिस्तानातील पंजाब प्रांतात आहे."
+        },
+        "3": {
+          "en": "Chanhudaro is in the Sindh province of present-day Pakistan.",
+          "hi": "चन्हुदड़ो वर्तमान पाकिस्तान के सिंध प्रांत में है।",
+          "mr": "चन्हुदडो सध्याच्या पाकिस्तानातील सिंध प्रांतात आहे."
+        }
+      }
+    },
+    {
+      "key": "rms6-p3-gk-15",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "What is the elected head of a Gram Panchayat called?",
+        "hi": "ग्राम पंचायत के निर्वाचित प्रमुख को क्या कहते हैं?",
+        "mr": "ग्रामपंचायतीच्या निर्वाचित प्रमुखाला काय म्हणतात?"
+      },
+      "optionsJson": [
+        { "en": "Mayor", "hi": "महापौर", "mr": "महापौर" },
+        { "en": "Collector", "hi": "कलेक्टर", "mr": "जिल्हाधिकारी" },
+        { "en": "Sarpanch", "hi": "सरपंच", "mr": "सरपंच" },
+        { "en": "Patwari", "hi": "पटवारी", "mr": "तलाठी" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The Sarpanch is the elected head of the Gram Panchayat, the village-level body of local self-government.",
+        "hi": "सरपंच ग्राम पंचायत का निर्वाचित प्रमुख होता है, जो गाँव स्तर की स्थानीय स्वशासन संस्था है।",
+        "mr": "सरपंच हा ग्रामपंचायतीचा निर्वाचित प्रमुख असतो, जी गावपातळीवरील स्थानिक स्वराज्य संस्था आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "A Mayor heads the municipal corporation of a city, not a village Panchayat.",
+          "hi": "महापौर शहर के नगर निगम का प्रमुख होता है, गाँव की पंचायत का नहीं।",
+          "mr": "महापौर शहराच्या महानगरपालिकेचे प्रमुख असतात, गावाच्या पंचायतीचे नव्हे."
+        },
+        "1": {
+          "en": "The Collector is an appointed officer who heads the administration of a district; he or she is not elected by villagers.",
+          "hi": "कलेक्टर नियुक्त अधिकारी होता है जो ज़िले के प्रशासन का प्रमुख होता है; उसे गाँववाले नहीं चुनते।",
+          "mr": "जिल्हाधिकारी हे नेमलेले अधिकारी असून जिल्ह्याच्या प्रशासनाचे प्रमुख असतात; त्यांना गावकरी निवडत नाहीत."
+        },
+        "3": {
+          "en": "The Patwari is a government official who keeps village land records; he or she is not the head of the Panchayat.",
+          "hi": "पटवारी सरकारी कर्मचारी है जो गाँव के भूमि अभिलेख रखता है; वह पंचायत का प्रमुख नहीं होता।",
+          "mr": "तलाठी हे सरकारी कर्मचारी असून गावाच्या जमिनीच्या नोंदी ठेवतात; ते पंचायतीचे प्रमुख नसतात."
+        }
+      }
+    },
+    {
+      "key": "rms6-p3-gk-16",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Which is the largest state of India by area?",
+        "hi": "क्षेत्रफल की दृष्टि से भारत का सबसे बड़ा राज्य कौन-सा है?",
+        "mr": "क्षेत्रफळानुसार भारतातील सर्वात मोठे राज्य कोणते?"
+      },
+      "optionsJson": [
+        { "en": "Madhya Pradesh", "hi": "मध्य प्रदेश", "mr": "मध्य प्रदेश" },
+        { "en": "Maharashtra", "hi": "महाराष्ट्र", "mr": "महाराष्ट्र" },
+        { "en": "Uttar Pradesh", "hi": "उत्तर प्रदेश", "mr": "उत्तर प्रदेश" },
+        { "en": "Rajasthan", "hi": "राजस्थान", "mr": "राजस्थान" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Rajasthan, with an area of about 3.42 lakh square kilometres and the Thar Desert in the west, is India's largest state by area.",
+        "hi": "राजस्थान, जिसका क्षेत्रफल लगभग 3.42 लाख वर्ग किलोमीटर है और जिसके पश्चिम में थार मरुस्थल है, क्षेत्रफल में भारत का सबसे बड़ा राज्य है।",
+        "mr": "राजस्थान, ज्याचे क्षेत्रफळ सुमारे 3.42 लाख चौरस किलोमीटर आहे आणि पश्चिमेला थरचे वाळवंट आहे, हे क्षेत्रफळानुसार भारतातील सर्वात मोठे राज्य आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Madhya Pradesh is the second largest state by area, smaller than Rajasthan.",
+          "hi": "मध्य प्रदेश क्षेत्रफल में दूसरा सबसे बड़ा राज्य है और राजस्थान से छोटा है।",
+          "mr": "मध्य प्रदेश हे क्षेत्रफळानुसार दुसरे सर्वात मोठे राज्य आहे आणि राजस्थानपेक्षा लहान आहे."
+        },
+        "1": {
+          "en": "Maharashtra is the third largest state by area.",
+          "hi": "महाराष्ट्र क्षेत्रफल में तीसरा सबसे बड़ा राज्य है।",
+          "mr": "महाराष्ट्र हे क्षेत्रफळानुसार तिसरे सर्वात मोठे राज्य आहे."
+        },
+        "2": {
+          "en": "Uttar Pradesh has the largest population among states, but it is not the largest by area.",
+          "hi": "उत्तर प्रदेश की जनसंख्या राज्यों में सबसे अधिक है, पर क्षेत्रफल में यह सबसे बड़ा नहीं है।",
+          "mr": "उत्तर प्रदेशची लोकसंख्या राज्यांमध्ये सर्वाधिक आहे, पण क्षेत्रफळात ते सर्वात मोठे नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p3-gk-17",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which part of blood contains haemoglobin and carries oxygen?",
+        "hi": "रक्त का कौन-सा भाग हीमोग्लोबिन से युक्त होता है और ऑक्सीजन ले जाता है?",
+        "mr": "रक्ताचा कोणता घटक हिमोग्लोबिनयुक्त असून ऑक्सिजन वाहून नेतो?"
+      },
+      "optionsJson": [
+        { "en": "Red blood cells", "hi": "लाल रक्त कोशिकाएँ", "mr": "तांबड्या रक्तपेशी" },
+        { "en": "White blood cells", "hi": "श्वेत रक्त कोशिकाएँ", "mr": "पांढऱ्या रक्तपेशी" },
+        { "en": "Platelets", "hi": "प्लेटलेट्स", "mr": "रक्तबिंबिका" },
+        { "en": "Plasma", "hi": "प्लाज़्मा", "mr": "रक्तद्रव (प्लाझ्मा)" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Red blood cells contain haemoglobin, a red pigment that picks up oxygen in the lungs and carries it to all parts of the body.",
+        "hi": "लाल रक्त कोशिकाओं में हीमोग्लोबिन नामक लाल वर्णक होता है, जो फेफड़ों में ऑक्सीजन लेकर उसे शरीर के सभी भागों तक पहुँचाता है।",
+        "mr": "तांबड्या रक्तपेशींमध्ये हिमोग्लोबिन नावाचे लाल रंगद्रव्य असते, जे फुफ्फुसांत ऑक्सिजन घेऊन तो शरीराच्या सर्व भागांपर्यंत पोहोचवते."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "White blood cells protect the body by fighting germs; they do not carry oxygen.",
+          "hi": "श्वेत रक्त कोशिकाएँ कीटाणुओं से लड़कर शरीर की रक्षा करती हैं; वे ऑक्सीजन नहीं ले जातीं।",
+          "mr": "पांढऱ्या रक्तपेशी जंतूंशी लढून शरीराचे रक्षण करतात; त्या ऑक्सिजन वाहून नेत नाहीत."
+        },
+        "2": {
+          "en": "Platelets help the blood to clot and stop bleeding from a cut.",
+          "hi": "प्लेटलेट्स रक्त का थक्का जमाने में मदद करती हैं और कटने पर खून बहना रोकती हैं।",
+          "mr": "रक्तबिंबिका रक्त गोठवण्यास मदत करतात आणि जखम झाल्यावर रक्तस्राव थांबवतात."
+        },
+        "3": {
+          "en": "Plasma is the liquid part of blood that carries digested food and wastes; it has no haemoglobin.",
+          "hi": "प्लाज़्मा रक्त का द्रव भाग है जो पचा हुआ भोजन और अपशिष्ट ले जाता है; इसमें हीमोग्लोबिन नहीं होता।",
+          "mr": "रक्तद्रव हा रक्ताचा द्रव भाग आहे जो पचलेले अन्न आणि टाकाऊ पदार्थ वाहून नेतो; त्यात हिमोग्लोबिन नसते."
+        }
+      }
+    },
+    {
+      "key": "rms6-p3-gk-18",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Which is the hardest natural substance known?",
+        "hi": "ज्ञात प्राकृतिक पदार्थों में सबसे कठोर कौन-सा है?",
+        "mr": "ज्ञात नैसर्गिक पदार्थांमध्ये सर्वात कठीण कोणता आहे?"
+      },
+      "optionsJson": [
+        { "en": "Gold", "hi": "सोना", "mr": "सोने" },
+        { "en": "Iron", "hi": "लोहा", "mr": "लोखंड" },
+        { "en": "Diamond", "hi": "हीरा", "mr": "हिरा" },
+        { "en": "Granite", "hi": "ग्रेनाइट", "mr": "ग्रॅनाइट" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Diamond is a form of carbon whose atoms are packed in a very strong arrangement, which makes it the hardest natural substance.",
+        "hi": "हीरा कार्बन का एक रूप है जिसके परमाणु बहुत मज़बूत ढंग से जुड़े होते हैं, इसलिए यह सबसे कठोर प्राकृतिक पदार्थ है।",
+        "mr": "हिरा हा कार्बनचा एक प्रकार आहे ज्यात अणू अतिशय मजबूतपणे जोडलेले असतात, म्हणून तो सर्वात कठीण नैसर्गिक पदार्थ आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Gold is a soft metal that can be scratched easily.",
+          "hi": "सोना एक नरम धातु है जिस पर आसानी से खरोंच लग जाती है।",
+          "mr": "सोने हा मऊ धातू आहे ज्यावर सहज ओरखडा पडतो."
+        },
+        "1": {
+          "en": "Iron is a strong metal, but it is much softer than diamond.",
+          "hi": "लोहा मज़बूत धातु है, पर वह हीरे से बहुत नरम होता है।",
+          "mr": "लोखंड हा मजबूत धातू आहे, पण तो हिऱ्यापेक्षा खूपच मऊ असतो."
+        },
+        "3": {
+          "en": "Granite is a hard rock, but diamond can scratch it.",
+          "hi": "ग्रेनाइट एक कठोर चट्टान है, पर हीरा उस पर खरोंच लगा सकता है।",
+          "mr": "ग्रॅनाइट हा कठीण खडक आहे, पण हिरा त्यावर ओरखडा पाडू शकतो."
+        }
+      }
+    },
+    {
+      "key": "rms6-p3-gk-19",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Through which of these Indian states does the Tropic of Cancer pass?",
+        "hi": "कर्क रेखा इनमें से भारत के किस राज्य से होकर गुज़रती है?",
+        "mr": "कर्कवृत्त यांपैकी भारतातील कोणत्या राज्यातून जाते?"
+      },
+      "optionsJson": [
+        { "en": "Kerala", "hi": "केरल", "mr": "केरळ" },
+        { "en": "Madhya Pradesh", "hi": "मध्य प्रदेश", "mr": "मध्य प्रदेश" },
+        { "en": "Tamil Nadu", "hi": "तमिलनाडु", "mr": "तमिळनाडू" },
+        { "en": "Punjab", "hi": "पंजाब", "mr": "पंजाब" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "The Tropic of Cancer passes through eight Indian states: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram.",
+        "hi": "कर्क रेखा भारत के आठ राज्यों से गुज़रती है: गुजरात, राजस्थान, मध्य प्रदेश, छत्तीसगढ़, झारखंड, पश्चिम बंगाल, त्रिपुरा और मिज़ोरम।",
+        "mr": "कर्कवृत्त भारतातील आठ राज्यांतून जाते: गुजरात, राजस्थान, मध्य प्रदेश, छत्तीसगड, झारखंड, पश्चिम बंगाल, त्रिपुरा आणि मिझोराम."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Kerala lies far south of the Tropic of Cancer.",
+          "hi": "केरल कर्क रेखा से बहुत दक्षिण में स्थित है।",
+          "mr": "केरळ कर्कवृत्ताच्या खूप दक्षिणेस आहे."
+        },
+        "2": {
+          "en": "Tamil Nadu lies far south of the Tropic of Cancer.",
+          "hi": "तमिलनाडु कर्क रेखा से बहुत दक्षिण में स्थित है।",
+          "mr": "तमिळनाडू कर्कवृत्ताच्या खूप दक्षिणेस आहे."
+        },
+        "3": {
+          "en": "Punjab lies to the north of the Tropic of Cancer.",
+          "hi": "पंजाब कर्क रेखा के उत्तर में स्थित है।",
+          "mr": "पंजाब कर्कवृत्ताच्या उत्तरेस आहे."
+        }
+      }
+    },
+    {
+      "key": "rms6-p3-gk-20",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Kathakali is a classical dance form of which Indian state?",
+        "hi": "कथकली किस भारतीय राज्य का शास्त्रीय नृत्य है?",
+        "mr": "कथकली हे कोणत्या भारतीय राज्याचे शास्त्रीय नृत्य आहे?"
+      },
+      "optionsJson": [
+        { "en": "Odisha", "hi": "ओडिशा", "mr": "ओडिशा" },
+        { "en": "Tamil Nadu", "hi": "तमिलनाडु", "mr": "तमिळनाडू" },
+        { "en": "Uttar Pradesh", "hi": "उत्तर प्रदेश", "mr": "उत्तर प्रदेश" },
+        { "en": "Kerala", "hi": "केरल", "mr": "केरळ" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Kathakali is a classical dance-drama of Kerala, known for its colourful face paint, large headdresses and expressive eyes.",
+        "hi": "कथकली केरल का शास्त्रीय नृत्य-नाटक है, जो अपने रंगीन चेहरे के श्रृंगार, बड़े मुकुटों और भावपूर्ण आँखों के लिए जाना जाता है।",
+        "mr": "कथकली हे केरळचे शास्त्रीय नृत्यनाट्य आहे, जे रंगीत चेहऱ्याची रंगभूषा, मोठे शिरोभूषण आणि भावपूर्ण डोळ्यांसाठी ओळखले जाते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Odisha's classical dance is Odissi.",
+          "hi": "ओडिशा का शास्त्रीय नृत्य ओडिसी है।",
+          "mr": "ओडिशाचे शास्त्रीय नृत्य ओडिसी आहे."
+        },
+        "1": {
+          "en": "Tamil Nadu's classical dance is Bharatanatyam.",
+          "hi": "तमिलनाडु का शास्त्रीय नृत्य भरतनाट्यम है।",
+          "mr": "तमिळनाडूचे शास्त्रीय नृत्य भरतनाट्यम आहे."
+        },
+        "2": {
+          "en": "Kathak, which has a similar-sounding name, is a classical dance of north India, not of Kerala.",
+          "hi": "कथक, जिसका नाम मिलता-जुलता है, उत्तर भारत का शास्त्रीय नृत्य है, केरल का नहीं।",
+          "mr": "कथक, ज्याचे नाव मिळतेजुळते आहे, हे उत्तर भारताचे शास्त्रीय नृत्य आहे, केरळचे नव्हे."
+        }
+      }
+    },
+    {
+      "key": "rms6-p3-gk-21",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which gas is present in the largest amount in Earth's atmosphere?",
+        "hi": "पृथ्वी के वायुमंडल में सबसे अधिक मात्रा में कौन-सी गैस पाई जाती है?",
+        "mr": "पृथ्वीच्या वातावरणात सर्वाधिक प्रमाणात कोणता वायू आढळतो?"
+      },
+      "optionsJson": [
+        { "en": "Oxygen", "hi": "ऑक्सीजन", "mr": "ऑक्सिजन" },
+        { "en": "Nitrogen", "hi": "नाइट्रोजन", "mr": "नायट्रोजन" },
+        { "en": "Carbon dioxide", "hi": "कार्बन डाइऑक्साइड", "mr": "कार्बन डायऑक्साइड" },
+        { "en": "Argon", "hi": "आर्गन", "mr": "आर्गॉन" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Air is about 78% nitrogen and about 21% oxygen, with small amounts of argon, carbon dioxide and other gases.",
+        "hi": "वायु में लगभग 78% नाइट्रोजन और लगभग 21% ऑक्सीजन होती है, साथ में थोड़ी मात्रा में आर्गन, कार्बन डाइऑक्साइड और अन्य गैसें होती हैं।",
+        "mr": "हवेत सुमारे 78% नायट्रोजन आणि सुमारे 21% ऑक्सिजन असतो, तसेच थोड्या प्रमाणात आर्गॉन, कार्बन डायऑक्साइड आणि इतर वायू असतात."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Oxygen makes up only about 21% of air, which is the second largest share.",
+          "hi": "ऑक्सीजन वायु का केवल लगभग 21% है, जो दूसरा सबसे बड़ा अंश है।",
+          "mr": "ऑक्सिजन हवेचा फक्त सुमारे 21% भाग आहे, जो दुसरा सर्वात मोठा वाटा आहे."
+        },
+        "2": {
+          "en": "Carbon dioxide is a very small part of air, only about 0.04%.",
+          "hi": "कार्बन डाइऑक्साइड वायु का बहुत छोटा भाग है, केवल लगभग 0.04%।",
+          "mr": "कार्बन डायऑक्साइड हा हवेचा अतिशय लहान भाग आहे, फक्त सुमारे 0.04%."
+        },
+        "3": {
+          "en": "Argon is only about 1% of air, much less than nitrogen.",
+          "hi": "आर्गन वायु का केवल लगभग 1% है, जो नाइट्रोजन से बहुत कम है।",
+          "mr": "आर्गॉन हवेचा फक्त सुमारे 1% आहे, जो नायट्रोजनपेक्षा खूपच कमी आहे."
+        }
+      }
+    },
+    {
+      "key": "rms6-p3-gk-22",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Which river is called the ‘Sorrow of Bihar’ because of its frequent floods?",
+        "hi": "बार-बार आने वाली बाढ़ के कारण किस नदी को ‘बिहार का शोक’ कहा जाता है?",
+        "mr": "वारंवार येणाऱ्या पुरांमुळे कोणत्या नदीला ‘बिहारचे दुःख’ म्हटले जाते?"
+      },
+      "optionsJson": [
+        { "en": "Ganga", "hi": "गंगा", "mr": "गंगा" },
+        { "en": "Son", "hi": "सोन", "mr": "सोन" },
+        { "en": "Kosi", "hi": "कोसी", "mr": "कोसी" },
+        { "en": "Gandak", "hi": "गंडक", "mr": "गंडक" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The Kosi, which comes down from the Himalayas carrying a lot of silt, often changes its course and floods large areas of Bihar, so it is called the Sorrow of Bihar.",
+        "hi": "हिमालय से बहुत अधिक गाद लेकर आने वाली कोसी अक्सर अपना मार्ग बदलकर बिहार के बड़े क्षेत्रों में बाढ़ लाती है, इसलिए इसे बिहार का शोक कहा जाता है।",
+        "mr": "हिमालयातून भरपूर गाळ घेऊन येणारी कोसी नदी अनेकदा आपला प्रवाह बदलते आणि बिहारच्या मोठ्या भागात पूर आणते, म्हणून तिला बिहारचे दुःख म्हणतात."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The Ganga flows through Bihar and is a sacred river, but this title belongs to the Kosi.",
+          "hi": "गंगा बिहार से होकर बहती है और पवित्र नदी है, पर यह उपाधि कोसी को मिली है।",
+          "mr": "गंगा बिहारमधून वाहते आणि ती पवित्र नदी आहे, पण ही उपाधी कोसीला मिळाली आहे."
+        },
+        "1": {
+          "en": "The Son is a tributary of the Ganga and is not known by this title.",
+          "hi": "सोन गंगा की सहायक नदी है और इस उपाधि से नहीं जानी जाती।",
+          "mr": "सोन ही गंगेची उपनदी आहे आणि ती या उपाधीने ओळखली जात नाही."
+        },
+        "3": {
+          "en": "The Gandak is also a Himalayan tributary of the Ganga, but the title ‘Sorrow of Bihar’ is given to the Kosi.",
+          "hi": "गंडक भी गंगा की हिमालयी सहायक नदी है, पर ‘बिहार का शोक’ की उपाधि कोसी को दी जाती है।",
+          "mr": "गंडक ही देखील गंगेची हिमालयीन उपनदी आहे, पण ‘बिहारचे दुःख’ ही उपाधी कोसीला दिली जाते."
+        }
+      }
+    },
+    {
+      "key": "rms6-p3-gk-23",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "The famous Sun Temple at Konark is located in which Indian state?",
+        "hi": "कोणार्क का प्रसिद्ध सूर्य मंदिर किस भारतीय राज्य में स्थित है?",
+        "mr": "कोणार्कचे प्रसिद्ध सूर्यमंदिर कोणत्या भारतीय राज्यात आहे?"
+      },
+      "optionsJson": [
+        { "en": "Odisha", "hi": "ओडिशा", "mr": "ओडिशा" },
+        { "en": "Gujarat", "hi": "गुजरात", "mr": "गुजरात" },
+        { "en": "Tamil Nadu", "hi": "तमिलनाडु", "mr": "तमिळनाडू" },
+        { "en": "Karnataka", "hi": "कर्नाटक", "mr": "कर्नाटक" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "The Konark Sun Temple, built in the 13th century on the Odisha coast near Puri, is shaped like a giant chariot with stone wheels.",
+        "hi": "कोणार्क सूर्य मंदिर 13वीं सदी में पुरी के पास ओडिशा के तट पर बनाया गया था और यह पत्थर के पहियों वाले विशाल रथ के आकार का है।",
+        "mr": "कोणार्क सूर्यमंदिर 13 व्या शतकात पुरीजवळ ओडिशाच्या किनाऱ्यावर बांधले गेले आणि ते दगडी चाके असलेल्या विशाल रथाच्या आकाराचे आहे."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Gujarat has the Modhera Sun Temple, but the Konark temple is not in Gujarat.",
+          "hi": "गुजरात में मोढेरा सूर्य मंदिर है, पर कोणार्क मंदिर गुजरात में नहीं है।",
+          "mr": "गुजरातमध्ये मोढेरा सूर्यमंदिर आहे, पण कोणार्क मंदिर गुजरातमध्ये नाही."
+        },
+        "2": {
+          "en": "Tamil Nadu is known for temples such as the one at Thanjavur, but Konark is not there.",
+          "hi": "तमिलनाडु तंजावुर जैसे मंदिरों के लिए जाना जाता है, पर कोणार्क वहाँ नहीं है।",
+          "mr": "तमिळनाडू तंजावूरसारख्या मंदिरांसाठी ओळखले जाते, पण कोणार्क तिथे नाही."
+        },
+        "3": {
+          "en": "Karnataka is known for sites such as Hampi, but Konark is not there.",
+          "hi": "कर्नाटक हम्पी जैसे स्थलों के लिए जाना जाता है, पर कोणार्क वहाँ नहीं है।",
+          "mr": "कर्नाटक हंपीसारख्या स्थळांसाठी ओळखले जाते, पण कोणार्क तिथे नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p3-gk-24",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "What is the change of water vapour into liquid water on cooling called?",
+        "hi": "ठंडा होने पर जलवाष्प के द्रव जल में बदलने की क्रिया क्या कहलाती है?",
+        "mr": "थंड झाल्यावर बाष्पाचे द्रव पाण्यात रूपांतर होण्याच्या क्रियेला काय म्हणतात?"
+      },
+      "optionsJson": [
+        { "en": "Evaporation", "hi": "वाष्पीकरण", "mr": "बाष्पीभवन" },
+        { "en": "Melting", "hi": "पिघलना", "mr": "वितळणे" },
+        { "en": "Freezing", "hi": "जमना", "mr": "गोठणे" },
+        { "en": "Condensation", "hi": "संघनन", "mr": "संघनन" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Condensation is the change of a gas into a liquid on cooling. Droplets forming on the outside of a glass of cold water are an example.",
+        "hi": "संघनन ठंडा होने पर गैस के द्रव में बदलने की क्रिया है। ठंडे पानी के गिलास के बाहर बनने वाली बूँदें इसका उदाहरण हैं।",
+        "mr": "संघनन म्हणजे थंड झाल्यावर वायूचे द्रवात रूपांतर होणे. थंड पाण्याच्या ग्लासाच्या बाहेर जमणारे थेंब याचे उदाहरण आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Evaporation is the opposite change, in which liquid water turns into vapour on heating.",
+          "hi": "वाष्पीकरण इसका उलटा परिवर्तन है, जिसमें गर्म होने पर द्रव जल वाष्प बनता है।",
+          "mr": "बाष्पीभवन हा याच्या उलट बदल आहे, ज्यात तापल्यावर द्रव पाण्याची वाफ होते."
+        },
+        "1": {
+          "en": "Melting is the change of a solid such as ice into a liquid.",
+          "hi": "पिघलना बर्फ जैसे ठोस के द्रव में बदलने की क्रिया है।",
+          "mr": "वितळणे म्हणजे बर्फासारख्या घन पदार्थाचे द्रवात रूपांतर होणे."
+        },
+        "2": {
+          "en": "Freezing is the change of a liquid into a solid.",
+          "hi": "जमना द्रव के ठोस में बदलने की क्रिया है।",
+          "mr": "गोठणे म्हणजे द्रवाचे घनात रूपांतर होणे."
+        }
+      }
+    },
+    {
+      "key": "rms6-p3-gk-25",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "The Thomas Cup is an international team championship in which sport?",
+        "hi": "थॉमस कप किस खेल की अंतरराष्ट्रीय टीम चैंपियनशिप है?",
+        "mr": "थॉमस चषक ही कोणत्या खेळाची आंतरराष्ट्रीय सांघिक स्पर्धा आहे?"
+      },
+      "optionsJson": [
+        { "en": "Badminton", "hi": "बैडमिंटन", "mr": "बॅडमिंटन" },
+        { "en": "Tennis", "hi": "टेनिस", "mr": "टेनिस" },
+        { "en": "Table tennis", "hi": "टेबल टेनिस", "mr": "टेबल टेनिस" },
+        { "en": "Squash", "hi": "स्क्वैश", "mr": "स्क्वॅश" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "The Thomas Cup is the world team championship for men's badminton; the matching event for women's teams is the Uber Cup.",
+        "hi": "थॉमस कप पुरुषों के बैडमिंटन की विश्व टीम चैंपियनशिप है; महिला टीमों की इसी तरह की प्रतियोगिता उबर कप है।",
+        "mr": "थॉमस चषक ही पुरुषांच्या बॅडमिंटनची जागतिक सांघिक स्पर्धा आहे; महिला संघांसाठीची तशीच स्पर्धा उबर चषक आहे."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "The Davis Cup is the well-known international team event of tennis.",
+          "hi": "डेविस कप टेनिस की प्रसिद्ध अंतरराष्ट्रीय टीम प्रतियोगिता है।",
+          "mr": "डेव्हिस चषक ही टेनिसची प्रसिद्ध आंतरराष्ट्रीय सांघिक स्पर्धा आहे."
+        },
+        "2": {
+          "en": "In table tennis, the men's world team championship is played for the Swaythling Cup.",
+          "hi": "टेबल टेनिस में पुरुषों की विश्व टीम चैंपियनशिप स्वेथलिंग कप के लिए खेली जाती है।",
+          "mr": "टेबल टेनिसमध्ये पुरुषांची जागतिक सांघिक स्पर्धा स्वेथलिंग चषकासाठी खेळली जाते."
+        },
+        "3": {
+          "en": "The Thomas Cup is not a squash trophy.",
+          "hi": "थॉमस कप स्क्वैश की ट्रॉफी नहीं है।",
+          "mr": "थॉमस चषक ही स्क्वॅशची ट्रॉफी नाही."
+        }
+      }
+    }
+  ]
+}

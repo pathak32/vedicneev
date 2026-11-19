@@ -1,0 +1,484 @@
+{
+  "examType": "AISSEE",
+  "classLevel": 9,
+  "paperNumber": 3,
+  "sectionKey": "science",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "aissee9-p3-sc-01",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "What is the SI unit of work and energy?", "hi": "कार्य और ऊर्जा का SI मात्रक क्या है?" },
+      "optionsJson": [
+        { "en": "Joule", "hi": "जूल" },
+        { "en": "Newton", "hi": "न्यूटन" },
+        { "en": "Watt", "hi": "वाट" },
+        { "en": "Pascal", "hi": "पास्कल" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Work and energy are both measured in joules (1 J = 1 N x 1 m).", "hi": "कार्य और ऊर्जा दोनों जूल में मापे जाते हैं (1 J = 1 N x 1 m)।" },
+      "distractorAnalysis": {
+        "1": { "en": "Newton is the SI unit of force, not of work or energy.", "hi": "न्यूटन बल का SI मात्रक है, कार्य या ऊर्जा का नहीं।" },
+        "2": { "en": "Watt is the SI unit of power (joule per second).", "hi": "वाट शक्ति का SI मात्रक है (जूल प्रति सेकंड)।" },
+        "3": { "en": "Pascal is the SI unit of pressure (newton per square metre).", "hi": "पास्कल दाब का SI मात्रक है (न्यूटन प्रति वर्ग मीटर)।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-sc-02",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A car starts from rest and moves with a uniform acceleration of 2 m/s². How far does it travel in 10 seconds?", "hi": "एक कार विराम अवस्था से चलना शुरू करती है और 2 m/s² के एकसमान त्वरण से चलती है। वह 10 सेकंड में कितनी दूरी तय करेगी?" },
+      "optionsJson": [
+        { "en": "20 m", "hi": "20 m" },
+        { "en": "200 m", "hi": "200 m" },
+        { "en": "100 m", "hi": "100 m" },
+        { "en": "10 m", "hi": "10 m" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Using s = ut + (1/2)at² with u = 0: s = (1/2) x 2 x 10² = 100 m.", "hi": "s = ut + (1/2)at² में u = 0 रखने पर: s = (1/2) x 2 x 10² = 100 m।" },
+      "distractorAnalysis": {
+        "0": { "en": "20 m is the final velocity (at = 20 m/s) mistaken for the distance.", "hi": "20 अंतिम वेग (at = 20 m/s) है, जिसे गलती से दूरी मान लिया गया है।" },
+        "1": { "en": "200 m results from forgetting the factor 1/2 in the formula.", "hi": "सूत्र में 1/2 का गुणक छोड़ देने पर 200 m आता है।" },
+        "3": { "en": "10 m comes from computing (1/2) x a x t instead of (1/2) x a x t².", "hi": "10 m तब आता है जब (1/2) x a x t² की जगह (1/2) x a x t निकाला जाए।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-sc-03",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A force of 20 N acts on an object of mass 5 kg on a smooth horizontal surface. What is the acceleration produced?", "hi": "चिकनी क्षैतिज सतह पर रखी 5 kg द्रव्यमान की वस्तु पर 20 N का बल लगाया जाता है। उत्पन्न त्वरण कितना होगा?" },
+      "optionsJson": [
+        { "en": "0.25 m/s²", "hi": "0.25 m/s²" },
+        { "en": "15 m/s²", "hi": "15 m/s²" },
+        { "en": "100 m/s²", "hi": "100 m/s²" },
+        { "en": "4 m/s²", "hi": "4 m/s²" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "By Newton's second law, a = F/m = 20 N / 5 kg = 4 m/s².", "hi": "न्यूटन के द्वितीय नियम से, a = F/m = 20 N / 5 kg = 4 m/s²।" },
+      "distractorAnalysis": {
+        "0": { "en": "0.25 comes from inverting the formula (m/F instead of F/m).", "hi": "0.25 तब आता है जब सूत्र उलट दिया जाए (F/m की जगह m/F)।" },
+        "1": { "en": "15 results from subtracting the mass from the force, which has no physical meaning.", "hi": "15 बल में से द्रव्यमान घटाने पर आता है, जिसका कोई भौतिक अर्थ नहीं है।" },
+        "2": { "en": "100 comes from multiplying force and mass instead of dividing.", "hi": "100 बल और द्रव्यमान को भाग देने की जगह गुणा करने पर आता है।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-sc-04",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "What is the kinetic energy of a 2 kg ball moving at a speed of 3 m/s?", "hi": "3 m/s की चाल से चल रही 2 kg द्रव्यमान की गेंद की गतिज ऊर्जा कितनी है?" },
+      "optionsJson": [
+        { "en": "6 J", "hi": "6 J" },
+        { "en": "9 J", "hi": "9 J" },
+        { "en": "18 J", "hi": "18 J" },
+        { "en": "3 J", "hi": "3 J" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Kinetic energy = (1/2)mv² = (1/2) x 2 x 3² = 9 J.", "hi": "गतिज ऊर्जा = (1/2)mv² = (1/2) x 2 x 3² = 9 J।" },
+      "distractorAnalysis": {
+        "0": { "en": "6 J is mv (momentum, 2 x 3) and not the kinetic energy.", "hi": "6 J, mv (संवेग, 2 x 3) है, गतिज ऊर्जा नहीं।" },
+        "2": { "en": "18 J results from using mv² and forgetting the factor 1/2.", "hi": "18 J तब आता है जब mv² निकालकर 1/2 का गुणक छोड़ दिया जाए।" },
+        "3": { "en": "3 J is just the speed value and ignores the formula entirely.", "hi": "3 J केवल चाल का मान है, इसमें सूत्र का प्रयोग ही नहीं हुआ।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-sc-05",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": { "en": "A ball is thrown vertically upward with a speed of 20 m/s. Taking g = 10 m/s² and ignoring air resistance, after how much time will it return to the thrower's hand?", "hi": "एक गेंद को 20 m/s की चाल से ऊर्ध्वाधर ऊपर की ओर फेंका जाता है। g = 10 m/s² लेकर और वायु प्रतिरोध को नगण्य मानकर बताइए कि गेंद कितने समय बाद फेंकने वाले के हाथ में वापस आएगी?" },
+      "optionsJson": [
+        { "en": "4 s", "hi": "4 s" },
+        { "en": "2 s", "hi": "2 s" },
+        { "en": "5 s", "hi": "5 s" },
+        { "en": "8 s", "hi": "8 s" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Time to reach the top is t = v/g = 20/10 = 2 s. The fall takes equally long, so the total time is 2 x 2 = 4 s.", "hi": "शीर्ष तक पहुँचने का समय t = v/g = 20/10 = 2 s है। नीचे आने में भी उतना ही समय लगता है, इसलिए कुल समय 2 x 2 = 4 s है।" },
+      "distractorAnalysis": {
+        "1": { "en": "2 s is only the time of ascent; the ball must also come back down.", "hi": "2 s केवल ऊपर जाने का समय है; गेंद को नीचे भी आना है।" },
+        "2": { "en": "5 s does not follow from any correct use of v = u - gt or the symmetry of the motion.", "hi": "5 s, v = u - gt या गति की सममिति के किसी भी सही प्रयोग से नहीं आता।" },
+        "3": { "en": "8 s is double the correct total time, from wrongly doubling the 4 s round trip again.", "hi": "8 s सही कुल समय का दोगुना है, जिसमें 4 s की पूरी उड़ान को गलती से फिर दोगुना कर दिया गया है।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-sc-06",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Riya claps her hands in front of a cliff and hears the echo after 2 seconds. If the speed of sound in air is 340 m/s, how far is the cliff from her?", "hi": "रिया एक चट्टान के सामने ताली बजाती है और 2 सेकंड बाद उसे प्रतिध्वनि सुनाई देती है। यदि वायु में ध्वनि की चाल 340 m/s है, तो चट्टान उससे कितनी दूर है?" },
+      "optionsJson": [
+        { "en": "170 m", "hi": "170 m" },
+        { "en": "680 m", "hi": "680 m" },
+        { "en": "1020 m", "hi": "1020 m" },
+        { "en": "340 m", "hi": "340 m" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "The sound travels to the cliff and back in 2 s, covering 340 x 2 = 680 m. The one-way distance is 680/2 = 340 m.", "hi": "ध्वनि 2 s में चट्टान तक जाकर लौटती है और 340 x 2 = 680 m दूरी तय करती है। एक तरफ की दूरी 680/2 = 340 m है।" },
+      "distractorAnalysis": {
+        "0": { "en": "170 m halves the time twice, once correctly and once unnecessarily.", "hi": "170 m में समय को दो बार आधा कर दिया गया है, एक बार सही और एक बार अनावश्यक रूप से।" },
+        "1": { "en": "680 m is the total round-trip distance; the cliff is only half that far.", "hi": "680 m आने-जाने की कुल दूरी है; चट्टान उसकी आधी दूरी पर है।" },
+        "2": { "en": "1020 m uses a time of 3 s, which is not the time given in the question.", "hi": "1020 m में 3 s का समय लिया गया है, जो प्रश्न में दिया गया समय नहीं है।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-sc-07",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Through which of the following can sound NOT travel?", "hi": "निम्नलिखित में से किसमें से होकर ध्वनि नहीं गुज़र सकती?" },
+      "optionsJson": [
+        { "en": "Air", "hi": "वायु" },
+        { "en": "Steel", "hi": "इस्पात" },
+        { "en": "Vacuum", "hi": "निर्वात" },
+        { "en": "Water", "hi": "जल" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Sound is a mechanical wave and needs a material medium. A vacuum has no particles, so sound cannot travel through it.", "hi": "ध्वनि एक यांत्रिक तरंग है और इसे संचरण के लिए पदार्थ-माध्यम चाहिए। निर्वात में कण नहीं होते, इसलिए उसमें ध्वनि नहीं चल सकती।" },
+      "distractorAnalysis": {
+        "0": { "en": "Sound travels through air, which is how we normally hear.", "hi": "ध्वनि वायु में चलती है, इसी से हम सामान्यतः सुनते हैं।" },
+        "1": { "en": "Sound travels through solids such as steel, and even faster than in air.", "hi": "ध्वनि इस्पात जैसे ठोसों में चलती है, वह भी वायु से अधिक तेज़।" },
+        "3": { "en": "Sound travels through liquids such as water, faster than in air.", "hi": "ध्वनि जल जैसे द्रवों में चलती है, वायु से अधिक तेज़।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-sc-08",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A ray of light strikes a plane mirror at an angle of incidence of 30°. What is the angle between the incident ray and the reflected ray?", "hi": "प्रकाश की एक किरण समतल दर्पण पर 30° के आपतन कोण से टकराती है। आपतित किरण और परावर्तित किरण के बीच का कोण कितना होगा?" },
+      "optionsJson": [
+        { "en": "30°", "hi": "30°" },
+        { "en": "60°", "hi": "60°" },
+        { "en": "90°", "hi": "90°" },
+        { "en": "120°", "hi": "120°" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "By the law of reflection, the angle of reflection equals the angle of incidence (30°). The angle between the two rays is 30° + 30° = 60°.", "hi": "परावर्तन के नियम से परावर्तन कोण आपतन कोण (30°) के बराबर होता है। दोनों किरणों के बीच का कोण 30° + 30° = 60° है।" },
+      "distractorAnalysis": {
+        "0": { "en": "30° is the angle of incidence (or reflection) alone, not the angle between the rays.", "hi": "30° केवल आपतन (या परावर्तन) कोण है, दोनों किरणों के बीच का कोण नहीं।" },
+        "2": { "en": "90° would need an angle of incidence of 45°, not 30°.", "hi": "90° के लिए आपतन कोण 45° होना चाहिए, 30° नहीं।" },
+        "3": { "en": "120° would be the angle between the two rays if the angle of incidence were 60°, not 30°.", "hi": "120° दोनों किरणों के बीच का कोण तब होता जब आपतन कोण 30° की जगह 60° होता।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-sc-09",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which mirror is commonly used as the rear-view mirror in vehicles because it gives a wide field of view?", "hi": "वाहनों में पीछे देखने वाले दर्पण (रियर-व्यू मिरर) के रूप में आमतौर पर कौन-सा दर्पण उपयोग होता है, क्योंकि यह बड़ा दृश्य-क्षेत्र देता है?" },
+      "optionsJson": [
+        { "en": "Plane mirror", "hi": "समतल दर्पण" },
+        { "en": "Concave mirror", "hi": "अवतल दर्पण" },
+        { "en": "Convex mirror", "hi": "उत्तल दर्पण" },
+        { "en": "Bifocal lens", "hi": "द्विफोकसी लेंस" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "A convex mirror always forms an erect, diminished image and covers a wide area, so drivers can see more traffic behind them.", "hi": "उत्तल दर्पण सदैव सीधा और छोटा प्रतिबिंब बनाता है तथा बड़े क्षेत्र को दिखाता है, इसलिए चालक पीछे का अधिक यातायात देख पाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "A plane mirror gives a same-size image but a much narrower field of view.", "hi": "समतल दर्पण समान आकार का प्रतिबिंब देता है, पर उसका दृश्य-क्षेत्र काफ़ी छोटा होता है।" },
+        "1": { "en": "A concave mirror can give inverted or magnified images and a narrow field, unsuitable for rear-view use.", "hi": "अवतल दर्पण उलटा या आवर्धित प्रतिबिंब दे सकता है और उसका दृश्य-क्षेत्र छोटा होता है, इसलिए यह रियर-व्यू के लिए उपयुक्त नहीं है।" },
+        "3": { "en": "A bifocal lens is used in spectacles, not as a mirror.", "hi": "द्विफोकसी लेंस चश्मों में प्रयुक्त होता है, यह दर्पण नहीं है।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-sc-10",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "A boy walks straight towards a large plane mirror at a speed of 2 m/s. At what speed does his image appear to approach him?", "hi": "एक लड़का एक बड़े समतल दर्पण की ओर सीधे 2 m/s की चाल से चलता है। उसका प्रतिबिंब उसकी ओर किस चाल से आता प्रतीत होगा?" },
+      "optionsJson": [
+        { "en": "4 m/s", "hi": "4 m/s" },
+        { "en": "2 m/s", "hi": "2 m/s" },
+        { "en": "1 m/s", "hi": "1 m/s" },
+        { "en": "0 m/s", "hi": "0 m/s" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The image is as far behind the mirror as the boy is in front. The image therefore also moves towards the mirror at 2 m/s, so relative to the boy the image approaches at 2 + 2 = 4 m/s.", "hi": "प्रतिबिंब दर्पण के पीछे उतनी ही दूरी पर बनता है जितनी दूरी पर लड़का दर्पण के सामने है। इसलिए प्रतिबिंब भी दर्पण की ओर 2 m/s से चलता है, अतः लड़के के सापेक्ष प्रतिबिंब 2 + 2 = 4 m/s की चाल से पास आता है।" },
+      "distractorAnalysis": {
+        "1": { "en": "2 m/s is the image's speed relative to the mirror, not relative to the boy.", "hi": "2 m/s प्रतिबिंब की दर्पण के सापेक्ष चाल है, लड़के के सापेक्ष नहीं।" },
+        "2": { "en": "1 m/s wrongly halves the boy's speed; the image distance changes as fast as the object distance.", "hi": "1 m/s में लड़के की चाल गलती से आधी ली गई है; प्रतिबिंब की दूरी भी वस्तु की दूरी जितनी तेज़ी से बदलती है।" },
+        "3": { "en": "0 m/s would mean the image is stationary relative to him, which is not so since both move towards the mirror.", "hi": "0 m/s का अर्थ होगा कि प्रतिबिंब उसके सापेक्ष स्थिर है, जो सही नहीं है क्योंकि दोनों दर्पण की ओर चलते हैं।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-sc-11",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Two resistors of 6 ohm and 3 ohm are connected in parallel. What is their equivalent resistance?", "hi": "6 ओम और 3 ओम के दो प्रतिरोधक समांतर क्रम में जोड़े गए हैं। उनका तुल्य प्रतिरोध कितना होगा?" },
+      "optionsJson": [
+        { "en": "9 ohm", "hi": "9 ओम" },
+        { "en": "2 ohm", "hi": "2 ओम" },
+        { "en": "4.5 ohm", "hi": "4.5 ओम" },
+        { "en": "18 ohm", "hi": "18 ओम" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "1/R = 1/6 + 1/3 = 1/6 + 2/6 = 3/6 = 1/2, so R = 2 ohm.", "hi": "1/R = 1/6 + 1/3 = 1/6 + 2/6 = 3/6 = 1/2, अतः R = 2 ओम।" },
+      "distractorAnalysis": {
+        "0": { "en": "9 ohm is the series combination (6 + 3), not the parallel one.", "hi": "9 ओम श्रेणी क्रम (6 + 3) का तुल्य प्रतिरोध है, समांतर क्रम का नहीं।" },
+        "2": { "en": "4.5 ohm is the simple average of the two resistances, which is not how parallel resistors combine.", "hi": "4.5 ओम दोनों प्रतिरोधों का साधारण औसत है, जबकि समांतर क्रम में प्रतिरोध इस तरह नहीं जुड़ते।" },
+        "3": { "en": "18 ohm is the product of the two resistances, not the equivalent resistance.", "hi": "18 ओम दोनों प्रतिरोधों का गुणनफल है, तुल्य प्रतिरोध नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-sc-12",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A 100 W bulb glows for 5 hours. How much electrical energy does it consume?", "hi": "100 W का एक बल्ब 5 घंटे जलता है। वह कितनी विद्युत ऊर्जा खर्च करेगा?" },
+      "optionsJson": [
+        { "en": "0.05 kWh", "hi": "0.05 kWh" },
+        { "en": "5 kWh", "hi": "5 kWh" },
+        { "en": "500 kWh", "hi": "500 kWh" },
+        { "en": "0.5 kWh", "hi": "0.5 kWh" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Energy = power x time = 100 W x 5 h = 500 Wh = 0.5 kWh.", "hi": "ऊर्जा = शक्ति x समय = 100 W x 5 h = 500 Wh = 0.5 kWh।" },
+      "distractorAnalysis": {
+        "0": { "en": "0.05 kWh is ten times too small, from a decimal-shift error when converting watts to kilowatts.", "hi": "0.05 kWh दस गुना कम है; वाट से किलोवाट में बदलते समय दशमलव की गलती हुई है।" },
+        "1": { "en": "5 kWh is ten times too large; 100 W is 0.1 kW, not 1 kW.", "hi": "5 kWh दस गुना अधिक है; 100 W = 0.1 kW होता है, 1 kW नहीं।" },
+        "2": { "en": "500 is the answer in watt-hours; the unit kWh needs a division by 1000.", "hi": "500 वाट-घंटे में उत्तर है; kWh के लिए 1000 से भाग देना होगा।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-sc-13",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": { "en": "An electric bulb is rated 220 V, 100 W. What is the resistance of its filament when it works at the rated voltage?", "hi": "एक विद्युत बल्ब पर 220 V, 100 W अंकित है। रेटेड वोल्टेज पर कार्य करते समय उसके तंतु (फिलामेंट) का प्रतिरोध कितना होगा?" },
+      "optionsJson": [
+        { "en": "2.2 ohm", "hi": "2.2 ओम" },
+        { "en": "484 ohm", "hi": "484 ओम" },
+        { "en": "22 ohm", "hi": "22 ओम" },
+        { "en": "4840 ohm", "hi": "4840 ओम" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "From P = V²/R, R = V²/P = (220 x 220)/100 = 48400/100 = 484 ohm.", "hi": "P = V²/R से R = V²/P = (220 x 220)/100 = 48400/100 = 484 ओम।" },
+      "distractorAnalysis": {
+        "0": { "en": "2.2 ohm is simply 220/100, dividing the voltage by the power without squaring.", "hi": "2.2 ओम केवल 220/100 है, जिसमें वोल्टेज का वर्ग किए बिना शक्ति से भाग दे दिया गया है।" },
+        "2": { "en": "22 ohm would be the resistance of a 2200 W appliance at 220 V, not of a 100 W bulb.", "hi": "22 ओम 220 V पर 2200 W के उपकरण का प्रतिरोध होता, 100 W के बल्ब का नहीं।" },
+        "3": { "en": "4840 ohm is ten times too large, from a decimal-shift error in 48400/100.", "hi": "4840 ओम दस गुना अधिक है; 48400/100 में दशमलव की गलती हुई है।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-sc-14",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "When a moving bus suddenly applies its brakes, the passengers are thrown forward. This happens because of", "hi": "जब चलती हुई बस अचानक ब्रेक लगाती है, तो यात्री आगे की ओर झुक जाते हैं। ऐसा किस कारण से होता है?" },
+      "optionsJson": [
+        { "en": "Inertia of motion", "hi": "गति का जड़त्व" },
+        { "en": "Inertia of rest", "hi": "विराम का जड़त्व" },
+        { "en": "Centripetal force", "hi": "अभिकेंद्र बल" },
+        { "en": "Buoyant force", "hi": "उत्प्लावन बल" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The passengers' bodies tend to keep moving forward at the bus's earlier speed while the bus slows down. This tendency is inertia of motion.", "hi": "बस धीमी होती है पर यात्रियों के शरीर पहले की चाल से आगे बढ़ते रहना चाहते हैं। यही प्रवृत्ति गति का जड़त्व है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Inertia of rest explains why passengers lean backward when a stationary bus starts suddenly.", "hi": "विराम का जड़त्व इसे समझाता है कि रुकी हुई बस के अचानक चलने पर यात्री पीछे की ओर क्यों झुकते हैं।" },
+        "2": { "en": "Centripetal force acts towards the centre in circular motion; the bus here moves in a straight line.", "hi": "अभिकेंद्र बल वृत्तीय गति में केंद्र की ओर लगता है; यहाँ बस सीधी रेखा में चल रही है।" },
+        "3": { "en": "Buoyant force acts on bodies immersed in a fluid and is unrelated to this effect.", "hi": "उत्प्लावन बल किसी तरल में डूबी वस्तु पर लगता है और इस प्रभाव से संबंधित नहीं है।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-sc-15",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "A cyclist covers the first 6 km in 20 minutes and the next 6 km in 10 minutes. What is her average speed for the whole journey?", "hi": "एक साइकिल सवार पहले 6 km की दूरी 20 मिनट में और अगले 6 km की दूरी 10 मिनट में तय करती है। पूरी यात्रा में उसकी औसत चाल कितनी है?" },
+      "optionsJson": [
+        { "en": "20 km/h", "hi": "20 km/h" },
+        { "en": "27 km/h", "hi": "27 km/h" },
+        { "en": "24 km/h", "hi": "24 km/h" },
+        { "en": "36 km/h", "hi": "36 km/h" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Total distance = 12 km, total time = 30 min = 0.5 h. Average speed = 12/0.5 = 24 km/h.", "hi": "कुल दूरी = 12 km, कुल समय = 30 मिनट = 0.5 h। औसत चाल = 12/0.5 = 24 km/h।" },
+      "distractorAnalysis": {
+        "0": { "en": "20 km/h does not match total distance divided by total time.", "hi": "20 km/h कुल दूरी को कुल समय से भाग देने पर नहीं आता।" },
+        "1": { "en": "27 km/h is the average of the two part-speeds (18 and 36 km/h), which is wrong because the times spent differ.", "hi": "27 km/h दोनों भागों की चालों (18 और 36 km/h) का औसत है, जो गलत है क्योंकि दोनों में लगा समय अलग-अलग है।" },
+        "3": { "en": "36 km/h is only her speed in the second half, not the average over the whole trip.", "hi": "36 km/h केवल दूसरे भाग की चाल है, पूरी यात्रा की औसत चाल नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-sc-16",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which of the following is a chemical change?", "hi": "निम्नलिखित में से कौन-सा एक रासायनिक परिवर्तन है?" },
+      "optionsJson": [
+        { "en": "Melting of ice", "hi": "बर्फ का पिघलना" },
+        { "en": "Dissolving sugar in water", "hi": "चीनी का पानी में घुलना" },
+        { "en": "Boiling of water", "hi": "पानी का उबलना" },
+        { "en": "Rusting of iron", "hi": "लोहे में जंग लगना" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Rusting forms a new substance, iron oxide, and cannot be reversed by simple means, so it is a chemical change.", "hi": "जंग लगने से नया पदार्थ आयरन ऑक्साइड बनता है और इसे साधारण तरीके से वापस नहीं पाया जा सकता, इसलिए यह रासायनिक परिवर्तन है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Melting is a change of state; ice and water are the same substance, so it is a physical change.", "hi": "पिघलना अवस्था-परिवर्तन है; बर्फ और पानी एक ही पदार्थ हैं, इसलिए यह भौतिक परिवर्तन है।" },
+        "1": { "en": "Sugar dissolving only mixes it with water and it can be recovered by evaporation, a physical change.", "hi": "चीनी घुलने पर केवल पानी में मिलती है और वाष्पीकरण से वापस मिल सकती है, यह भौतिक परिवर्तन है।" },
+        "2": { "en": "Boiling turns liquid water into steam without forming a new substance, a physical change.", "hi": "उबलने पर द्रव जल भाप बनता है, कोई नया पदार्थ नहीं बनता; यह भौतिक परिवर्तन है।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-sc-17",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The atomic number of sodium is 11. How many electrons are present in a sodium ion (Na⁺)?", "hi": "सोडियम का परमाणु क्रमांक 11 है। सोडियम आयन (Na⁺) में कितने इलेक्ट्रॉन होते हैं?" },
+      "optionsJson": [
+        { "en": "10", "hi": "10" },
+        { "en": "11", "hi": "11" },
+        { "en": "12", "hi": "12" },
+        { "en": "23", "hi": "23" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "A neutral sodium atom has 11 electrons. Na⁺ has lost one electron, leaving 10.", "hi": "उदासीन सोडियम परमाणु में 11 इलेक्ट्रॉन होते हैं। Na⁺ ने एक इलेक्ट्रॉन खो दिया है, इसलिए 10 बचते हैं।" },
+      "distractorAnalysis": {
+        "1": { "en": "11 is the number of electrons in the neutral atom, before it loses an electron.", "hi": "11 उदासीन परमाणु में इलेक्ट्रॉनों की संख्या है, इलेक्ट्रॉन खोने से पहले की।" },
+        "2": { "en": "12 would mean the atom gained an electron, which would give Na⁻, not Na⁺.", "hi": "12 का अर्थ होगा कि परमाणु ने इलेक्ट्रॉन ग्रहण किया, तब Na⁻ बनता, Na⁺ नहीं।" },
+        "3": { "en": "23 is the approximate mass number of sodium, not its electron count.", "hi": "23 सोडियम की लगभग द्रव्यमान संख्या है, इलेक्ट्रॉनों की संख्या नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-sc-18",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which gas is released when zinc granules react with dilute hydrochloric acid?", "hi": "जिंक के दानों की तनु हाइड्रोक्लोरिक अम्ल से अभिक्रिया होने पर कौन-सी गैस निकलती है?" },
+      "optionsJson": [
+        { "en": "Oxygen", "hi": "ऑक्सीजन" },
+        { "en": "Carbon dioxide", "hi": "कार्बन डाइऑक्साइड" },
+        { "en": "Hydrogen", "hi": "हाइड्रोजन" },
+        { "en": "Chlorine", "hi": "क्लोरीन" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Zn + 2HCl gives ZnCl2 + H2. Hydrogen gas is released and it burns with a pop sound near a flame.", "hi": "Zn + 2HCl से ZnCl2 + H2 बनता है। हाइड्रोजन गैस निकलती है, जो ज्वाला के पास पॉप की आवाज़ के साथ जलती है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Oxygen is not produced; neither reactant supplies free oxygen for release.", "hi": "ऑक्सीजन नहीं बनती; किसी भी अभिकारक से मुक्त ऑक्सीजन नहीं निकलती।" },
+        "1": { "en": "Carbon dioxide is released when acids react with carbonates, not with metals like zinc.", "hi": "कार्बन डाइऑक्साइड अम्ल की कार्बोनेट से अभिक्रिया पर निकलती है, जिंक जैसी धातुओं से नहीं।" },
+        "3": { "en": "Chlorine stays in the solution as chloride in zinc chloride and is not released as a gas.", "hi": "क्लोरीन जिंक क्लोराइड में क्लोराइड के रूप में विलयन में ही रहती है, गैस के रूप में नहीं निकलती।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-sc-19",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "How many moles of water molecules are present in 36 g of water? (Atomic masses: H = 1, O = 16)", "hi": "36 g जल में जल के कितने मोल अणु होते हैं? (परमाणु द्रव्यमान: H = 1, O = 16)" },
+      "optionsJson": [
+        { "en": "1 mole", "hi": "1 मोल" },
+        { "en": "2 moles", "hi": "2 मोल" },
+        { "en": "18 moles", "hi": "18 मोल" },
+        { "en": "0.5 mole", "hi": "0.5 मोल" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Molar mass of H2O = 2 x 1 + 16 = 18 g/mol. Moles = 36/18 = 2.", "hi": "H2O का मोलर द्रव्यमान = 2 x 1 + 16 = 18 g/mol। मोल = 36/18 = 2।" },
+      "distractorAnalysis": {
+        "0": { "en": "1 mole of water would weigh 18 g, not 36 g.", "hi": "1 मोल जल का द्रव्यमान 18 g होगा, 36 g नहीं।" },
+        "2": { "en": "18 is the molar mass in g/mol, not the number of moles.", "hi": "18 मोलर द्रव्यमान (g/mol) है, मोलों की संख्या नहीं।" },
+        "3": { "en": "0.5 comes from dividing 18 by 36, inverting the correct ratio.", "hi": "0.5, 18 को 36 से भाग देने पर आता है, जो सही अनुपात का उलटा है।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-sc-20",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which blood vessels carry blood away from the heart to the body parts?", "hi": "कौन-सी रक्त वाहिकाएँ रक्त को हृदय से शरीर के अंगों तक ले जाती हैं?" },
+      "optionsJson": [
+        { "en": "Veins", "hi": "शिराएँ" },
+        { "en": "Capillaries", "hi": "केशिकाएँ" },
+        { "en": "Lymph vessels", "hi": "लसीका वाहिकाएँ" },
+        { "en": "Arteries", "hi": "धमनियाँ" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Arteries carry blood from the heart to the organs. They have thick, elastic walls to withstand high pressure.", "hi": "धमनियाँ रक्त को हृदय से अंगों तक ले जाती हैं। उनकी दीवारें मोटी और लचीली होती हैं ताकि वे उच्च दाब सह सकें।" },
+      "distractorAnalysis": {
+        "0": { "en": "Veins bring blood back to the heart from the body.", "hi": "शिराएँ रक्त को शरीर से वापस हृदय तक लाती हैं।" },
+        "1": { "en": "Capillaries are tiny vessels where exchange of materials occurs between blood and tissues.", "hi": "केशिकाएँ सूक्ष्म वाहिकाएँ हैं जहाँ रक्त और ऊतकों के बीच पदार्थों का आदान-प्रदान होता है।" },
+        "2": { "en": "Lymph vessels carry lymph, a fluid different from blood.", "hi": "लसीका वाहिकाएँ लसीका ले जाती हैं, जो रक्त से भिन्न द्रव है।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-sc-21",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Deficiency of which vitamin causes night blindness?", "hi": "किस विटामिन की कमी से रतौंधी रोग होता है?" },
+      "optionsJson": [
+        { "en": "Vitamin A", "hi": "विटामिन A" },
+        { "en": "Vitamin B1", "hi": "विटामिन B1" },
+        { "en": "Vitamin C", "hi": "विटामिन C" },
+        { "en": "Vitamin D", "hi": "विटामिन D" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Vitamin A is needed for the pigment in the retina that helps vision in dim light. Its deficiency causes night blindness.", "hi": "विटामिन A रेटिना के उस वर्णक के लिए आवश्यक है जो मंद प्रकाश में देखने में सहायक है। इसकी कमी से रतौंधी होती है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Vitamin B1 deficiency causes beriberi.", "hi": "विटामिन B1 की कमी से बेरीबेरी रोग होता है।" },
+        "2": { "en": "Vitamin C deficiency causes scurvy.", "hi": "विटामिन C की कमी से स्कर्वी रोग होता है।" },
+        "3": { "en": "Vitamin D deficiency causes rickets in children.", "hi": "विटामिन D की कमी से बच्चों में रिकेट्स रोग होता है।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-sc-22",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "In the food chain grass → grasshopper → frog → snake, the frog is a", "hi": "खाद्य श्रृंखला घास → टिड्डा → मेंढक → साँप में मेंढक एक" },
+      "optionsJson": [
+        { "en": "Producer", "hi": "उत्पादक है" },
+        { "en": "Primary consumer", "hi": "प्राथमिक उपभोक्ता है" },
+        { "en": "Secondary consumer", "hi": "द्वितीयक उपभोक्ता है" },
+        { "en": "Tertiary consumer", "hi": "तृतीयक उपभोक्ता है" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Grass is the producer, the grasshopper eats grass (primary consumer), and the frog eats the grasshopper, so the frog is a secondary consumer.", "hi": "घास उत्पादक है, टिड्डा घास खाता है (प्राथमिक उपभोक्ता), और मेंढक टिड्डे को खाता है, इसलिए मेंढक द्वितीयक उपभोक्ता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Producers are green plants like grass, which make their own food.", "hi": "उत्पादक घास जैसे हरे पौधे होते हैं, जो अपना भोजन स्वयं बनाते हैं।" },
+        "1": { "en": "The primary consumer here is the grasshopper, which feeds directly on the producer.", "hi": "यहाँ प्राथमिक उपभोक्ता टिड्डा है, जो सीधे उत्पादक को खाता है।" },
+        "3": { "en": "The snake, which eats the frog, is the tertiary consumer.", "hi": "साँप, जो मेंढक को खाता है, तृतीयक उपभोक्ता है।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-sc-23",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "A red blood cell is placed in a concentrated salt solution (hypertonic solution). What will happen to the cell?", "hi": "एक लाल रक्त कोशिका को सांद्र नमक के विलयन (अतिपरासारी विलयन) में रखा जाता है। कोशिका का क्या होगा?" },
+      "optionsJson": [
+        { "en": "It swells and bursts", "hi": "वह फूलकर फट जाएगी" },
+        { "en": "It remains unchanged in size", "hi": "उसके आकार में कोई परिवर्तन नहीं होगा" },
+        { "en": "It divides into two cells", "hi": "वह दो कोशिकाओं में विभाजित हो जाएगी" },
+        { "en": "It shrinks as it loses water", "hi": "पानी निकल जाने से वह सिकुड़ जाएगी" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "The solution outside has a lower water concentration than the cell. By osmosis, water moves out of the cell, so the cell shrinks.", "hi": "बाहर के विलयन में जल की सांद्रता कोशिका से कम है। परासरण द्वारा जल कोशिका से बाहर निकलता है, इसलिए कोशिका सिकुड़ जाती है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Swelling and bursting occurs in a hypotonic solution such as pure water, where water enters the cell.", "hi": "फूलकर फटना अल्पपरासारी विलयन (जैसे शुद्ध जल) में होता है, जहाँ जल कोशिका में प्रवेश करता है।" },
+        "1": { "en": "No change occurs only in an isotonic solution, where water movement is balanced.", "hi": "कोई परिवर्तन केवल समपरासारी विलयन में होता है, जहाँ जल का आना-जाना संतुलित रहता है।" },
+        "2": { "en": "Cell division is not caused by the concentration of the surrounding solution.", "hi": "कोशिका विभाजन आसपास के विलयन की सांद्रता से नहीं होता।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-sc-24",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which chemicals, released from old refrigerators and aerosol sprays, mainly damage the ozone layer?", "hi": "पुराने रेफ्रिजरेटरों और ऐरोसोल स्प्रे से निकलने वाले कौन-से रसायन ओजोन परत को मुख्य रूप से नुकसान पहुँचाते हैं?" },
+      "optionsJson": [
+        { "en": "Carbon monoxide", "hi": "कार्बन मोनोऑक्साइड" },
+        { "en": "Chlorofluorocarbons (CFCs)", "hi": "क्लोरोफ्लोरोकार्बन (CFC)" },
+        { "en": "Sulphur dioxide", "hi": "सल्फर डाइऑक्साइड" },
+        { "en": "Methane", "hi": "मीथेन" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "CFCs rise to the stratosphere, where ultraviolet light breaks them down and releases chlorine atoms that destroy ozone molecules.", "hi": "CFC समताप मंडल में पहुँचते हैं, जहाँ पराबैंगनी किरणें उन्हें तोड़ देती हैं और क्लोरीन परमाणु मुक्त होते हैं, जो ओजोन अणुओं को नष्ट करते हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "Carbon monoxide is a toxic gas from incomplete combustion, not the main cause of ozone depletion.", "hi": "कार्बन मोनोऑक्साइड अपूर्ण दहन से बनने वाली विषैली गैस है, ओजोन क्षरण का मुख्य कारण नहीं।" },
+        "2": { "en": "Sulphur dioxide mainly causes acid rain, not ozone depletion.", "hi": "सल्फर डाइऑक्साइड मुख्यतः अम्लीय वर्षा का कारण है, ओजोन क्षरण का नहीं।" },
+        "3": { "en": "Methane is a greenhouse gas contributing to global warming rather than ozone depletion.", "hi": "मीथेन एक ग्रीनहाउस गैस है जो वैश्विक ऊष्मीकरण में योगदान देती है, ओजोन क्षरण में नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-sc-25",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which method is used to separate cream from milk?", "hi": "दूध से क्रीम अलग करने के लिए किस विधि का उपयोग किया जाता है?" },
+      "optionsJson": [
+        { "en": "Filtration", "hi": "निस्पंदन" },
+        { "en": "Evaporation", "hi": "वाष्पीकरण" },
+        { "en": "Centrifugation", "hi": "अपकेंद्रण" },
+        { "en": "Sublimation", "hi": "ऊर्ध्वपातन" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Milk is spun at high speed in a centrifuge. The lighter cream collects at the top and the heavier skimmed milk is separated.", "hi": "दूध को अपकेंद्रित्र में तेज़ गति से घुमाया जाता है। हल्की क्रीम ऊपर इकट्ठा हो जाती है और भारी स्किम्ड दूध अलग हो जाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Filtration separates insoluble solids from liquids and cannot separate the tiny fat droplets of cream.", "hi": "निस्पंदन अघुलनशील ठोस को द्रव से अलग करता है और क्रीम की सूक्ष्म वसा बूँदों को अलग नहीं कर सकता।" },
+        "1": { "en": "Evaporation removes the liquid by heating and would spoil the milk.", "hi": "वाष्पीकरण में गर्म करके द्रव उड़ाया जाता है, जिससे दूध खराब हो जाएगा।" },
+        "3": { "en": "Sublimation separates mixtures containing a solid that turns directly into vapour, like camphor or ammonium chloride.", "hi": "ऊर्ध्वपातन उन मिश्रणों के लिए है जिनमें कोई ठोस सीधे वाष्प बनता है, जैसे कपूर या अमोनियम क्लोराइड।" }
+      }
+    }
+  ]
+}

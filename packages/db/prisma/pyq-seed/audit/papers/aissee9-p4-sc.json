@@ -1,0 +1,484 @@
+{
+  "examType": "AISSEE",
+  "classLevel": 9,
+  "paperNumber": 4,
+  "sectionKey": "science",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "aissee9-p4-sc-01",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which of the following is a physical change?", "hi": "निम्नलिखित में से कौन-सा एक भौतिक परिवर्तन है?" },
+      "optionsJson": [
+        { "en": "Rusting of iron", "hi": "लोहे में जंग लगना" },
+        { "en": "Melting of ice", "hi": "बर्फ का पिघलना" },
+        { "en": "Burning of wood", "hi": "लकड़ी का जलना" },
+        { "en": "Curdling of milk", "hi": "दूध का फटना" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Melting of ice only changes water from the solid state to the liquid state. No new substance is formed, so it is a physical change.", "hi": "बर्फ के पिघलने में जल केवल ठोस अवस्था से द्रव अवस्था में बदलता है। कोई नया पदार्थ नहीं बनता, इसलिए यह एक भौतिक परिवर्तन है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Rusting forms hydrated iron oxide, a new substance, so it is a chemical change.", "hi": "जंग लगने पर जलयोजित आयरन ऑक्साइड नामक नया पदार्थ बनता है, इसलिए यह रासायनिक परिवर्तन है।" },
+        "2": { "en": "Burning wood produces ash, carbon dioxide and other new substances, so it is a chemical change.", "hi": "लकड़ी जलने पर राख, कार्बन डाइऑक्साइड आदि नए पदार्थ बनते हैं, इसलिए यह रासायनिक परिवर्तन है।" },
+        "3": { "en": "When milk curdles, acid changes its proteins into new substances, so it is a chemical change.", "hi": "दूध फटने पर अम्ल उसके प्रोटीन को नए पदार्थों में बदल देता है, इसलिए यह रासायनिक परिवर्तन है।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-sc-02",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "How many atoms are present in one molecule of sulphuric acid, H2SO4?", "hi": "सल्फ्यूरिक अम्ल, H2SO4, के एक अणु में कुल कितने परमाणु होते हैं?" },
+      "optionsJson": [
+        { "en": "4", "hi": "4" },
+        { "en": "6", "hi": "6" },
+        { "en": "7", "hi": "7" },
+        { "en": "8", "hi": "8" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "One molecule of H2SO4 has 2 hydrogen atoms, 1 sulphur atom and 4 oxygen atoms. Total = 2 + 1 + 4 = 7 atoms.", "hi": "H2SO4 के एक अणु में 2 हाइड्रोजन परमाणु, 1 सल्फर परमाणु और 4 ऑक्सीजन परमाणु होते हैं। कुल = 2 + 1 + 4 = 7 परमाणु।" },
+      "distractorAnalysis": {
+        "0": { "en": "4 is only the number of oxygen atoms; hydrogen and sulphur atoms are left out.", "hi": "4 केवल ऑक्सीजन परमाणुओं की संख्या है; हाइड्रोजन और सल्फर परमाणु छूट गए हैं।" },
+        "1": { "en": "6 leaves out the single sulphur atom (2 + 4 = 6).", "hi": "6 में एक सल्फर परमाणु छूट गया है (2 + 4 = 6)।" },
+        "3": { "en": "8 overcounts; the subscripts add up to 2 + 1 + 4 = 7, not 8.", "hi": "8 अधिक गिनती है; अधोलेखों का योग 2 + 1 + 4 = 7 है, 8 नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-sc-03",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which of the following substances turns blue litmus paper red?", "hi": "निम्नलिखित में से कौन-सा पदार्थ नीले लिटमस पत्र को लाल कर देता है?" },
+      "optionsJson": [
+        { "en": "Lemon juice", "hi": "नींबू का रस" },
+        { "en": "Soap solution", "hi": "साबुन का घोल" },
+        { "en": "Baking soda solution", "hi": "बेकिंग सोडा का घोल" },
+        { "en": "Lime water", "hi": "चूने का पानी" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Lemon juice contains citric acid. Acids turn blue litmus red.", "hi": "नींबू के रस में सिट्रिक अम्ल होता है। अम्ल नीले लिटमस को लाल कर देते हैं।" },
+      "distractorAnalysis": {
+        "1": { "en": "Soap solution is basic; it turns red litmus blue, not blue litmus red.", "hi": "साबुन का घोल क्षारीय होता है; यह लाल लिटमस को नीला करता है, नीले को लाल नहीं।" },
+        "2": { "en": "Baking soda solution is mildly basic and turns red litmus blue.", "hi": "बेकिंग सोडा का घोल हल्का क्षारीय होता है और लाल लिटमस को नीला करता है।" },
+        "3": { "en": "Lime water is a base and turns red litmus blue.", "hi": "चूने का पानी एक क्षार है और लाल लिटमस को नीला करता है।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-sc-04",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which of these metals is stored under kerosene oil because it reacts vigorously with air and moisture?", "hi": "इनमें से कौन-सी धातु मिट्टी के तेल में डुबोकर रखी जाती है क्योंकि वह वायु और नमी से तीव्र अभिक्रिया करती है?" },
+      "optionsJson": [
+        { "en": "Copper", "hi": "ताँबा" },
+        { "en": "Aluminium", "hi": "ऐलुमिनियम" },
+        { "en": "Iron", "hi": "लोहा" },
+        { "en": "Sodium", "hi": "सोडियम" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Sodium is highly reactive. It is kept under kerosene to prevent it from reacting with oxygen and moisture in the air, which could cause fire.", "hi": "सोडियम अत्यंत अभिक्रियाशील है। इसे मिट्टी के तेल में रखा जाता है ताकि यह वायु की ऑक्सीजन और नमी से अभिक्रिया न करे, जिससे आग लग सकती है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Copper is a low-reactivity metal and does not react with water or air vigorously.", "hi": "ताँबा कम अभिक्रियाशील धातु है और वायु या जल से तीव्र अभिक्रिया नहीं करता।" },
+        "1": { "en": "Aluminium is protected by a thin oxide layer and can be stored in open air.", "hi": "ऐलुमिनियम पर ऑक्साइड की पतली परत होती है जो उसकी रक्षा करती है, इसलिए उसे खुली हवा में रखा जा सकता है।" },
+        "2": { "en": "Iron reacts only slowly (rusting) and does not need to be kept under oil.", "hi": "लोहा केवल धीरे-धीरे अभिक्रिया करता है (जंग लगना) और उसे तेल में रखने की आवश्यकता नहीं होती।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-sc-05",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "What is the SI unit of work?", "hi": "कार्य का SI मात्रक क्या है?" },
+      "optionsJson": [
+        { "en": "Watt", "hi": "वाट" },
+        { "en": "Joule", "hi": "जूल" },
+        { "en": "Newton", "hi": "न्यूटन" },
+        { "en": "Pascal", "hi": "पास्कल" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Work is force multiplied by displacement, so its SI unit is newton-metre, which is called the joule (J).", "hi": "कार्य = बल × विस्थापन, इसलिए इसका SI मात्रक न्यूटन-मीटर है, जिसे जूल (J) कहते हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "Watt is the unit of power (work done per second).", "hi": "वाट शक्ति (प्रति सेकंड किया गया कार्य) का मात्रक है।" },
+        "2": { "en": "Newton is the unit of force.", "hi": "न्यूटन बल का मात्रक है।" },
+        "3": { "en": "Pascal is the unit of pressure.", "hi": "पास्कल दाब का मात्रक है।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-sc-06",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "In which part of the human digestive system is most of the digested food absorbed into the blood?", "hi": "मानव पाचन तंत्र के किस भाग में पचा हुआ अधिकांश भोजन रक्त में अवशोषित होता है?" },
+      "optionsJson": [
+        { "en": "Small intestine", "hi": "छोटी आँत" },
+        { "en": "Stomach", "hi": "आमाशय" },
+        { "en": "Large intestine", "hi": "बड़ी आँत" },
+        { "en": "Oesophagus", "hi": "आहारनली" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The inner wall of the small intestine has millions of finger-like villi that give a very large surface area. Digested food passes through them into the blood, so most absorption takes place here.", "hi": "छोटी आँत की भीतरी दीवार में लाखों अँगुली जैसे दीर्घरोम (विलाई) होते हैं जो बहुत बड़ा सतही क्षेत्र देते हैं। पचा हुआ भोजन इनके द्वारा रक्त में चला जाता है, इसलिए अधिकांश अवशोषण यहीं होता है।" },
+      "distractorAnalysis": {
+        "1": { "en": "The stomach mainly churns food and begins protein digestion; very little food is absorbed there.", "hi": "आमाशय मुख्यतः भोजन को मथता है और प्रोटीन का पाचन आरंभ करता है; वहाँ बहुत कम भोजन अवशोषित होता है।" },
+        "2": { "en": "The large intestine mainly absorbs water and salts from undigested waste, not digested food.", "hi": "बड़ी आँत मुख्यतः अपचित अपशिष्ट से जल और लवण अवशोषित करती है, पचा हुआ भोजन नहीं।" },
+        "3": { "en": "The oesophagus only carries food from the mouth to the stomach; no absorption takes place in it.", "hi": "आहारनली केवल भोजन को मुँह से आमाशय तक पहुँचाती है; इसमें अवशोषण नहीं होता।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-sc-07",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "What is the molecular mass of calcium carbonate, CaCO3? (Atomic masses: Ca = 40 u, C = 12 u, O = 16 u)", "hi": "कैल्सियम कार्बोनेट, CaCO3, का आण्विक द्रव्यमान कितना है? (परमाणु द्रव्यमान: Ca = 40 u, C = 12 u, O = 16 u)" },
+      "optionsJson": [
+        { "en": "68 u", "hi": "68 u" },
+        { "en": "84 u", "hi": "84 u" },
+        { "en": "100 u", "hi": "100 u" },
+        { "en": "116 u", "hi": "116 u" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Molecular mass = 40 + 12 + (3 × 16) = 40 + 12 + 48 = 100 u.", "hi": "आण्विक द्रव्यमान = 40 + 12 + (3 × 16) = 40 + 12 + 48 = 100 u।" },
+      "distractorAnalysis": {
+        "0": { "en": "68 u counts only one oxygen atom (40 + 12 + 16).", "hi": "68 u में केवल एक ऑक्सीजन परमाणु गिना गया है (40 + 12 + 16)।" },
+        "1": { "en": "84 u counts only two oxygen atoms (40 + 12 + 32).", "hi": "84 u में केवल दो ऑक्सीजन परमाणु गिने गए हैं (40 + 12 + 32)।" },
+        "3": { "en": "116 u counts four oxygen atoms (40 + 12 + 64); CaCO3 has three.", "hi": "116 u में चार ऑक्सीजन परमाणु गिने गए हैं (40 + 12 + 64); CaCO3 में तीन होते हैं।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-sc-08",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Dilute hydrochloric acid is added to zinc granules and a colourless gas is evolved. What is observed when a burning matchstick is brought near the mouth of the test tube?", "hi": "जिंक के दानों में तनु हाइड्रोक्लोरिक अम्ल डालने पर एक रंगहीन गैस निकलती है। परखनली के मुँह के पास जलती हुई माचिस की तीली लाने पर क्या देखा जाता है?" },
+      "optionsJson": [
+        { "en": "The matchstick burns more brightly", "hi": "माचिस की तीली अधिक तेज़ जलने लगती है" },
+        { "en": "The flame is put out immediately without any sound", "hi": "लौ तुरंत बिना किसी आवाज़ के बुझ जाती है" },
+        { "en": "The matchstick continues to burn normally", "hi": "माचिस की तीली सामान्य रूप से जलती रहती है" },
+        { "en": "The gas burns with a pop sound", "hi": "गैस 'पॉप' की आवाज़ के साथ जलती है" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Zinc reacts with dilute HCl to give zinc chloride and hydrogen gas. Hydrogen is combustible and burns with a pop sound near a flame.", "hi": "जिंक तनु HCl से अभिक्रिया कर जिंक क्लोराइड और हाइड्रोजन गैस बनाता है। हाइड्रोजन ज्वलनशील है और लौ के पास 'पॉप' की आवाज़ के साथ जलती है।" },
+      "distractorAnalysis": {
+        "0": { "en": "A brighter flame is the test for oxygen, not hydrogen.", "hi": "तीली का अधिक तेज़ जलना ऑक्सीजन की पहचान है, हाइड्रोजन की नहीं।" },
+        "1": { "en": "A flame going out silently is typical of gases like carbon dioxide, which do not burn; hydrogen itself burns.", "hi": "लौ का चुपचाप बुझ जाना कार्बन डाइऑक्साइड जैसी गैसों का लक्षण है जो जलती नहीं हैं; हाइड्रोजन स्वयं जलती है।" },
+        "2": { "en": "The flame would not continue unchanged; the gas burns with a pop sound.", "hi": "लौ अपरिवर्तित नहीं रहती; गैस 'पॉप' की आवाज़ के साथ जलती है।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-sc-09",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which type of chemical reaction takes place when an iron nail is dipped in copper sulphate solution?", "hi": "लोहे की कील को कॉपर सल्फेट के विलयन में डुबोने पर किस प्रकार की रासायनिक अभिक्रिया होती है?" },
+      "optionsJson": [
+        { "en": "Combination reaction", "hi": "संयोजन अभिक्रिया" },
+        { "en": "Decomposition reaction", "hi": "अपघटन अभिक्रिया" },
+        { "en": "Displacement reaction", "hi": "विस्थापन अभिक्रिया" },
+        { "en": "Double displacement reaction", "hi": "द्वि-विस्थापन अभिक्रिया" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Fe + CuSO4 gives FeSO4 + Cu. Iron is more reactive than copper, so it displaces copper from its salt solution. The blue colour fades and a reddish-brown coating forms on the nail.", "hi": "Fe + CuSO4 से FeSO4 + Cu बनता है। लोहा ताँबे से अधिक अभिक्रियाशील है, इसलिए वह ताँबे को उसके लवण के विलयन से विस्थापित कर देता है। नीला रंग फीका पड़ जाता है और कील पर भूरे-लाल रंग की परत जम जाती है।" },
+      "distractorAnalysis": {
+        "0": { "en": "In a combination reaction two or more reactants join to form one product; here one element replaces another.", "hi": "संयोजन अभिक्रिया में दो या अधिक अभिकारक मिलकर एक उत्पाद बनाते हैं; यहाँ एक तत्व दूसरे का स्थान लेता है।" },
+        "1": { "en": "In a decomposition reaction a single compound breaks down into simpler substances; that does not happen here.", "hi": "अपघटन अभिक्रिया में एक यौगिक टूटकर सरल पदार्थ बनाता है; यहाँ ऐसा नहीं होता।" },
+        "3": { "en": "Double displacement needs two compounds to exchange ions; here iron is a free element.", "hi": "द्वि-विस्थापन में दो यौगिक आयनों का आदान-प्रदान करते हैं; यहाँ लोहा एक मुक्त तत्व है।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-sc-10",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Complete neutralisation of sulphuric acid with potassium hydroxide gives water and which salt?", "hi": "सल्फ्यूरिक अम्ल का पोटैशियम हाइड्रॉक्साइड से पूर्ण उदासीनीकरण होने पर जल के साथ कौन-सा लवण बनता है?" },
+      "optionsJson": [
+        { "en": "Potassium sulphate, K2SO4", "hi": "पोटैशियम सल्फेट, K2SO4" },
+        { "en": "Potassium sulphite, K2SO3", "hi": "पोटैशियम सल्फाइट, K2SO3" },
+        { "en": "Potassium sulphide, K2S", "hi": "पोटैशियम सल्फाइड, K2S" },
+        { "en": "Potassium nitrate, KNO3", "hi": "पोटैशियम नाइट्रेट, KNO3" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "H2SO4 + 2KOH gives K2SO4 + 2H2O. The acid supplies the sulphate ion and the base supplies the potassium ion.", "hi": "H2SO4 + 2KOH से K2SO4 + 2H2O बनता है। अम्ल सल्फेट आयन और क्षार पोटैशियम आयन देता है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Sulphite comes from sulphurous acid (H2SO3), not sulphuric acid.", "hi": "सल्फाइट सल्फ्यूरस अम्ल (H2SO3) से बनता है, सल्फ्यूरिक अम्ल से नहीं।" },
+        "2": { "en": "Sulphide comes from hydrogen sulphide (H2S); sulphuric acid has oxygen in its anion.", "hi": "सल्फाइड हाइड्रोजन सल्फाइड (H2S) से बनता है; सल्फ्यूरिक अम्ल के ऋणायन में ऑक्सीजन होती है।" },
+        "3": { "en": "Nitrate comes from nitric acid (HNO3), which is not involved.", "hi": "नाइट्रेट नाइट्रिक अम्ल (HNO3) से बनता है, जो यहाँ शामिल नहीं है।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-sc-11",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "In a closed container, 2.4 g of magnesium ribbon burns completely in 1.6 g of oxygen to form magnesium oxide. What is the mass of magnesium oxide formed?", "hi": "एक बंद पात्र में 2.4 g मैग्नीशियम रिबन 1.6 g ऑक्सीजन में पूरी तरह जलकर मैग्नीशियम ऑक्साइड बनाता है। बने मैग्नीशियम ऑक्साइड का द्रव्यमान कितना है?" },
+      "optionsJson": [
+        { "en": "3.2 g", "hi": "3.2 g" },
+        { "en": "4.0 g", "hi": "4.0 g" },
+        { "en": "4.8 g", "hi": "4.8 g" },
+        { "en": "0.8 g", "hi": "0.8 g" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "By the law of conservation of mass, the mass of the product equals the total mass of the reactants: 2.4 g + 1.6 g = 4.0 g.", "hi": "द्रव्यमान संरक्षण के नियम के अनुसार उत्पाद का द्रव्यमान अभिकारकों के कुल द्रव्यमान के बराबर होता है: 2.4 g + 1.6 g = 4.0 g।" },
+      "distractorAnalysis": {
+        "0": { "en": "3.2 g does not match the total of reactants; mass is neither lost nor gained.", "hi": "3.2 g अभिकारकों के कुल द्रव्यमान से मेल नहीं खाता; द्रव्यमान न घटता है न बढ़ता है।" },
+        "2": { "en": "4.8 g is double the magnesium mass and exceeds the total mass of reactants (4.0 g).", "hi": "4.8 g मैग्नीशियम के द्रव्यमान का दुगुना है और अभिकारकों के कुल द्रव्यमान (4.0 g) से अधिक है।" },
+        "3": { "en": "0.8 g is the difference of the two masses, but the masses must be added, not subtracted.", "hi": "0.8 g दोनों द्रव्यमानों का अंतर है, जबकि द्रव्यमानों को जोड़ा जाता है, घटाया नहीं जाता।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-sc-12",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "An atom of sodium has atomic number 11 and mass number 23. How many neutrons does it contain?", "hi": "सोडियम के एक परमाणु का परमाणु क्रमांक 11 और द्रव्यमान संख्या 23 है। इसमें कितने न्यूट्रॉन होते हैं?" },
+      "optionsJson": [
+        { "en": "11", "hi": "11" },
+        { "en": "23", "hi": "23" },
+        { "en": "34", "hi": "34" },
+        { "en": "12", "hi": "12" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Number of neutrons = mass number - atomic number = 23 - 11 = 12.", "hi": "न्यूट्रॉनों की संख्या = द्रव्यमान संख्या - परमाणु क्रमांक = 23 - 11 = 12।" },
+      "distractorAnalysis": {
+        "0": { "en": "11 is the number of protons (and electrons), not neutrons.", "hi": "11 प्रोटॉनों (और इलेक्ट्रॉनों) की संख्या है, न्यूट्रॉनों की नहीं।" },
+        "1": { "en": "23 is the total number of protons plus neutrons (mass number).", "hi": "23 प्रोटॉन और न्यूट्रॉन की कुल संख्या (द्रव्यमान संख्या) है।" },
+        "2": { "en": "34 is obtained by wrongly adding the atomic number and mass number.", "hi": "34 परमाणु क्रमांक और द्रव्यमान संख्या को गलती से जोड़ने पर मिलता है।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-sc-13",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A mixture of common salt and ammonium chloride can be separated by which method?", "hi": "साधारण नमक और अमोनियम क्लोराइड के मिश्रण को किस विधि से अलग किया जा सकता है?" },
+      "optionsJson": [
+        { "en": "Sublimation", "hi": "ऊर्ध्वपातन" },
+        { "en": "Filtration", "hi": "निस्यंदन (छानना)" },
+        { "en": "Decantation", "hi": "निथारना" },
+        { "en": "Using a separating funnel", "hi": "पृथक्कारी कीप का उपयोग" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Ammonium chloride changes directly from solid to vapour on heating (sublimation), while common salt does not. The vapour is cooled to collect pure ammonium chloride.", "hi": "अमोनियम क्लोराइड गर्म करने पर सीधे ठोस से वाष्प में बदल जाता है (ऊर्ध्वपातन), जबकि साधारण नमक नहीं बदलता। वाष्प को ठंडा करके शुद्ध अमोनियम क्लोराइड प्राप्त किया जाता है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Filtration separates an insoluble solid from a liquid; both solids here dissolve in water.", "hi": "निस्यंदन अविलेय ठोस को द्रव से अलग करता है; यहाँ दोनों ठोस जल में घुल जाते हैं।" },
+        "2": { "en": "Decantation separates a settled solid from a liquid, which does not apply to two dry solids.", "hi": "निथारने से बैठे हुए ठोस को द्रव से अलग किया जाता है, जो दो सूखे ठोसों पर लागू नहीं होता।" },
+        "3": { "en": "A separating funnel separates two immiscible liquids, not two solids.", "hi": "पृथक्कारी कीप दो अमिश्रणीय द्रवों को अलग करती है, दो ठोसों को नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-sc-14",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which of the following metals does NOT liberate hydrogen gas when it reacts with dilute hydrochloric acid?", "hi": "निम्नलिखित में से कौन-सी धातु तनु हाइड्रोक्लोरिक अम्ल से अभिक्रिया करने पर हाइड्रोजन गैस मुक्त नहीं करती?" },
+      "optionsJson": [
+        { "en": "Zinc", "hi": "जिंक" },
+        { "en": "Magnesium", "hi": "मैग्नीशियम" },
+        { "en": "Iron", "hi": "लोहा" },
+        { "en": "Copper", "hi": "ताँबा" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Copper lies below hydrogen in the reactivity series, so it cannot displace hydrogen from dilute acids. Zinc, magnesium and iron lie above hydrogen.", "hi": "ताँबा सक्रियता श्रेणी में हाइड्रोजन से नीचे है, इसलिए वह तनु अम्लों से हाइड्रोजन को विस्थापित नहीं कर सकता। जिंक, मैग्नीशियम और लोहा हाइड्रोजन से ऊपर हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "Zinc is above hydrogen and releases hydrogen gas from dilute HCl.", "hi": "जिंक हाइड्रोजन से ऊपर है और तनु HCl से हाइड्रोजन गैस निकालता है।" },
+        "1": { "en": "Magnesium is very reactive and releases hydrogen rapidly from dilute HCl.", "hi": "मैग्नीशियम बहुत अभिक्रियाशील है और तनु HCl से तेज़ी से हाइड्रोजन निकालता है।" },
+        "2": { "en": "Iron is above hydrogen and releases hydrogen slowly from dilute HCl.", "hi": "लोहा हाइड्रोजन से ऊपर है और तनु HCl से धीरे-धीरे हाइड्रोजन निकालता है।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-sc-15",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A car covers the first 60 km of a journey at 30 km/h and the next 60 km at 60 km/h. What is its average speed for the whole journey?", "hi": "एक कार यात्रा के पहले 60 km को 30 km/h की चाल से और अगले 60 km को 60 km/h की चाल से तय करती है। पूरी यात्रा में उसकी औसत चाल कितनी है?" },
+      "optionsJson": [
+        { "en": "45 km/h", "hi": "45 km/h" },
+        { "en": "40 km/h", "hi": "40 km/h" },
+        { "en": "50 km/h", "hi": "50 km/h" },
+        { "en": "36 km/h", "hi": "36 km/h" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Time for the first part = 60/30 = 2 h; time for the second part = 60/60 = 1 h. Total distance = 120 km, total time = 3 h. Average speed = 120/3 = 40 km/h.", "hi": "पहले भाग का समय = 60/30 = 2 घंटे; दूसरे भाग का समय = 60/60 = 1 घंटा। कुल दूरी = 120 km, कुल समय = 3 घंटे। औसत चाल = 120/3 = 40 km/h।" },
+      "distractorAnalysis": {
+        "0": { "en": "45 km/h is the simple average of 30 and 60, which is wrong because the car spends different times at each speed.", "hi": "45 km/h, 30 और 60 का साधारण औसत है, जो गलत है क्योंकि कार प्रत्येक चाल पर अलग-अलग समय बिताती है।" },
+        "2": { "en": "50 km/h does not come from total distance divided by total time.", "hi": "50 km/h कुल दूरी को कुल समय से भाग देने पर नहीं मिलता।" },
+        "3": { "en": "36 km/h does not match 120 km in 3 h; it comes from a calculation slip.", "hi": "36 km/h, 3 घंटे में 120 km से मेल नहीं खाता; यह गणना की भूल से आता है।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-sc-16",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A ray of light strikes a plane mirror so that it makes an angle of 30° with the surface of the mirror. What is the angle of reflection?", "hi": "प्रकाश की एक किरण समतल दर्पण की सतह से 30° का कोण बनाते हुए दर्पण पर पड़ती है। परावर्तन कोण कितना होगा?" },
+      "optionsJson": [
+        { "en": "30°", "hi": "30°" },
+        { "en": "90°", "hi": "90°" },
+        { "en": "60°", "hi": "60°" },
+        { "en": "120°", "hi": "120°" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Angles of incidence and reflection are measured from the normal. The ray makes 30° with the mirror, so the angle of incidence = 90° - 30° = 60°. By the law of reflection, the angle of reflection is also 60°.", "hi": "आपतन कोण और परावर्तन कोण अभिलंब से मापे जाते हैं। किरण दर्पण से 30° बनाती है, अतः आपतन कोण = 90° - 30° = 60°। परावर्तन के नियम से परावर्तन कोण भी 60° होगा।" },
+      "distractorAnalysis": {
+        "0": { "en": "30° is the angle with the mirror surface, not with the normal.", "hi": "30° दर्पण की सतह के साथ बना कोण है, अभिलंब के साथ नहीं।" },
+        "1": { "en": "90° would mean the reflected ray travels along the mirror surface, which would need the incident ray to graze the surface too; that is not the case here.", "hi": "90° का अर्थ होता कि परावर्तित किरण दर्पण की सतह के अनुदिश चल रही है, जिसके लिए आपतित किरण को भी सतह के अनुदिश होना पड़ता; यहाँ ऐसा नहीं है।" },
+        "3": { "en": "120° is larger than a right angle and cannot be an angle of reflection here.", "hi": "120° समकोण से बड़ा है और यहाँ परावर्तन कोण नहीं हो सकता।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-sc-17",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which of the following is a dead tissue in plants?", "hi": "निम्नलिखित में से कौन-सा पादपों का मृत ऊतक है?" },
+      "optionsJson": [
+        { "en": "Sclerenchyma", "hi": "दृढ़ोतक (स्क्लेरेन्काइमा)" },
+        { "en": "Parenchyma", "hi": "मृदूतक (पैरेन्काइमा)" },
+        { "en": "Collenchyma", "hi": "स्थूलकोणोतक (कोलेन्काइमा)" },
+        { "en": "Meristematic tissue", "hi": "विभज्योतक" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Sclerenchyma cells have thick walls hardened with lignin and no living protoplasm at maturity, so the tissue is dead and gives mechanical strength.", "hi": "स्क्लेरेन्काइमा की कोशिकाओं की भित्ति लिग्निन से कठोर और मोटी होती है तथा परिपक्व होने पर उनमें जीवित जीवद्रव्य नहीं रहता, इसलिए यह मृत ऊतक है और यांत्रिक मज़बूती देता है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Parenchyma cells are living and carry out storage and photosynthesis.", "hi": "पैरेन्काइमा की कोशिकाएँ जीवित होती हैं और भंडारण तथा प्रकाश-संश्लेषण करती हैं।" },
+        "2": { "en": "Collenchyma cells are living and give flexibility to the plant.", "hi": "कोलेन्काइमा की कोशिकाएँ जीवित होती हैं और पौधे को लचीलापन देती हैं।" },
+        "3": { "en": "Meristematic tissue is made of actively dividing living cells.", "hi": "विभज्योतक सक्रिय रूप से विभाजित होने वाली जीवित कोशिकाओं से बना होता है।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-sc-18",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "What happens to a plant cell when it is placed in a hypertonic solution?", "hi": "किसी पादप कोशिका को अतिपरासारी (हाइपरटोनिक) विलयन में रखने पर क्या होता है?" },
+      "optionsJson": [
+        { "en": "The cell gains water and becomes turgid", "hi": "कोशिका जल ग्रहण करके स्फीत हो जाती है" },
+        { "en": "There is no net movement of water", "hi": "जल की कोई कुल गति नहीं होती" },
+        { "en": "The cell loses water and the protoplasm shrinks away from the cell wall", "hi": "कोशिका जल खो देती है और जीवद्रव्य कोशिका भित्ति से सिकुड़कर अलग हो जाता है" },
+        { "en": "The cell wall dissolves in the solution", "hi": "कोशिका भित्ति विलयन में घुल जाती है" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "A hypertonic solution has a higher solute concentration than the cell sap, so water moves out of the cell by osmosis. The protoplasm shrinks away from the cell wall, which is called plasmolysis.", "hi": "अतिपरासारी विलयन में विलेय की सांद्रता कोशिका रस से अधिक होती है, इसलिए परासरण द्वारा जल कोशिका से बाहर निकल जाता है। जीवद्रव्य कोशिका भित्ति से अलग होकर सिकुड़ जाता है, जिसे जीवद्रव्यकुंचन (प्लाज़्मोलिसिस) कहते हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "A cell becomes turgid in a hypotonic solution, where water enters, not in a hypertonic one.", "hi": "कोशिका अल्पपरासारी विलयन में स्फीत होती है, जहाँ जल अंदर आता है; अतिपरासारी में नहीं।" },
+        "1": { "en": "There is no net movement of water only in an isotonic solution.", "hi": "जल की कुल गति केवल समपरासारी विलयन में नहीं होती।" },
+        "3": { "en": "The cell wall is made of cellulose and does not dissolve in a salt or sugar solution.", "hi": "कोशिका भित्ति सेलुलोज़ की बनी होती है और नमक या चीनी के विलयन में नहीं घुलती।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-sc-19",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "An astronaut has a mass of 60 kg on Earth. The acceleration due to gravity on the Moon is one-sixth of that on Earth. Taking g = 10 m/s2 on Earth, what is her weight on the Moon?", "hi": "एक अंतरिक्ष यात्री का पृथ्वी पर द्रव्यमान 60 kg है। चंद्रमा पर गुरुत्वीय त्वरण पृथ्वी के गुरुत्वीय त्वरण का छठा भाग है। पृथ्वी पर g = 10 m/s2 लेने पर चंद्रमा पर उसका भार कितना होगा?" },
+      "optionsJson": [
+        { "en": "600 N", "hi": "600 N" },
+        { "en": "100 N", "hi": "100 N" },
+        { "en": "60 N", "hi": "60 N" },
+        { "en": "10 N", "hi": "10 N" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Mass stays 60 kg everywhere. Moon's g = 10/6 m/s2, so weight = 60 x 10/6 = 100 N.", "hi": "द्रव्यमान हर जगह 60 kg ही रहता है। चंद्रमा पर g = 10/6 m/s2, अतः भार = 60 × 10/6 = 100 N।" },
+      "distractorAnalysis": {
+        "0": { "en": "600 N is her weight on Earth (60 x 10), not on the Moon.", "hi": "600 N पृथ्वी पर उसका भार (60 × 10) है, चंद्रमा पर नहीं।" },
+        "2": { "en": "60 N confuses the mass in kg with the weight in newtons.", "hi": "60 N में किलोग्राम में द्रव्यमान को न्यूटन में भार समझ लिया गया है।" },
+        "3": { "en": "10 N comes from dividing the mass by 6 and ignoring g.", "hi": "10 N द्रव्यमान को 6 से भाग देने और g को छोड़ देने से आता है।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-sc-20",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Which of the following contains the largest number of molecules? (Atomic masses: H = 1 u, C = 12 u, N = 14 u, O = 16 u)", "hi": "निम्नलिखित में से किसमें अणुओं की संख्या सबसे अधिक है? (परमाणु द्रव्यमान: H = 1 u, C = 12 u, N = 14 u, O = 16 u)" },
+      "optionsJson": [
+        { "en": "28 g of nitrogen, N2", "hi": "28 g नाइट्रोजन, N2" },
+        { "en": "32 g of oxygen, O2", "hi": "32 g ऑक्सीजन, O2" },
+        { "en": "44 g of carbon dioxide, CO2", "hi": "44 g कार्बन डाइऑक्साइड, CO2" },
+        { "en": "4 g of hydrogen, H2", "hi": "4 g हाइड्रोजन, H2" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Number of molecules is proportional to moles = mass / molar mass. N2: 28/28 = 1 mol; O2: 32/32 = 1 mol; CO2: 44/44 = 1 mol; H2: 4/2 = 2 mol. So 4 g of H2 has the most molecules.", "hi": "अणुओं की संख्या मोल के समानुपाती होती है, मोल = द्रव्यमान / मोलर द्रव्यमान। N2: 28/28 = 1 मोल; O2: 32/32 = 1 मोल; CO2: 44/44 = 1 मोल; H2: 4/2 = 2 मोल। अतः 4 g H2 में अणु सबसे अधिक हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "28 g of N2 is only 1 mole, which is less than the 2 moles in 4 g of H2.", "hi": "28 g N2 केवल 1 मोल है, जो 4 g H2 के 2 मोल से कम है।" },
+        "1": { "en": "32 g of O2 is only 1 mole; it looks heavy but heavier molecules mean fewer moles per gram.", "hi": "32 g O2 केवल 1 मोल है; यह भारी दिखता है, पर भारी अणुओं का प्रति ग्राम मोल कम होता है।" },
+        "2": { "en": "44 g of CO2 is only 1 mole, less than 2 moles of H2.", "hi": "44 g CO2 केवल 1 मोल है, जो H2 के 2 मोल से कम है।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-sc-21",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": { "en": "How many atoms are present in one formula unit of aluminium sulphate, Al2(SO4)3?", "hi": "ऐलुमिनियम सल्फेट, Al2(SO4)3, की एक सूत्र इकाई में कुल कितने परमाणु होते हैं?" },
+      "optionsJson": [
+        { "en": "17", "hi": "17" },
+        { "en": "15", "hi": "15" },
+        { "en": "14", "hi": "14" },
+        { "en": "12", "hi": "12" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Al2(SO4)3 has 2 aluminium atoms. The bracket (SO4) taken 3 times gives 3 sulphur atoms and 3 x 4 = 12 oxygen atoms. Total = 2 + 3 + 12 = 17 atoms.", "hi": "Al2(SO4)3 में 2 ऐलुमिनियम परमाणु हैं। कोष्ठक (SO4) को 3 बार लेने पर 3 सल्फर परमाणु और 3 × 4 = 12 ऑक्सीजन परमाणु मिलते हैं। कुल = 2 + 3 + 12 = 17 परमाणु।" },
+      "distractorAnalysis": {
+        "1": { "en": "15 counts only the atoms inside the three sulphate groups (3 + 12) and forgets the 2 aluminium atoms.", "hi": "15 में केवल तीन सल्फेट समूहों के परमाणु (3 + 12) गिने गए हैं और 2 ऐलुमिनियम परमाणु छूट गए हैं।" },
+        "2": { "en": "14 counts aluminium and oxygen (2 + 12) but forgets the 3 sulphur atoms.", "hi": "14 में ऐलुमिनियम और ऑक्सीजन (2 + 12) गिने गए हैं, पर 3 सल्फर परमाणु छूट गए हैं।" },
+        "3": { "en": "12 is only the number of oxygen atoms.", "hi": "12 केवल ऑक्सीजन परमाणुओं की संख्या है।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-sc-22",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Chlorine exists as two isotopes, Cl-35 and Cl-37, in the ratio 3 : 1. What is the average atomic mass of chlorine?", "hi": "क्लोरीन के दो समस्थानिक Cl-35 और Cl-37, 3 : 1 के अनुपात में पाए जाते हैं। क्लोरीन का औसत परमाणु द्रव्यमान कितना है?" },
+      "optionsJson": [
+        { "en": "35.0 u", "hi": "35.0 u" },
+        { "en": "36.0 u", "hi": "36.0 u" },
+        { "en": "36.5 u", "hi": "36.5 u" },
+        { "en": "35.5 u", "hi": "35.5 u" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Average mass = (3 x 35 + 1 x 37) / 4 = (105 + 37) / 4 = 142 / 4 = 35.5 u.", "hi": "औसत द्रव्यमान = (3 × 35 + 1 × 37) / 4 = (105 + 37) / 4 = 142 / 4 = 35.5 u।" },
+      "distractorAnalysis": {
+        "0": { "en": "35.0 u would be correct only if there were no Cl-37 at all.", "hi": "35.0 u तभी सही होता जब Cl-37 बिल्कुल न होता।" },
+        "1": { "en": "36.0 u is the simple average of 35 and 37; it ignores the 3 : 1 ratio.", "hi": "36.0 u, 35 और 37 का साधारण औसत है; इसमें 3 : 1 अनुपात की उपेक्षा की गई है।" },
+        "2": { "en": "36.5 u would need more Cl-37 than Cl-35; here Cl-35 is three times as abundant.", "hi": "36.5 u के लिए Cl-37 की मात्रा Cl-35 से अधिक होनी चाहिए; यहाँ Cl-35 तीन गुना अधिक है।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-sc-23",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "A stone is dropped from the top of an 80 m high tower. Ignoring air resistance (g = 10 m/s2), what is its speed when it is 35 m above the ground?", "hi": "एक पत्थर को 80 m ऊँची मीनार की चोटी से गिराया जाता है। वायु प्रतिरोध की उपेक्षा करते हुए (g = 10 m/s2), जब वह भूमि से 35 m ऊपर होगा तब उसकी चाल कितनी होगी?" },
+      "optionsJson": [
+        { "en": "20 m/s", "hi": "20 m/s" },
+        { "en": "30 m/s", "hi": "30 m/s" },
+        { "en": "40 m/s", "hi": "40 m/s" },
+        { "en": "45 m/s", "hi": "45 m/s" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The stone has fallen 80 - 35 = 45 m from rest. Using v2 = 2gh = 2 x 10 x 45 = 900, so v = 30 m/s.", "hi": "पत्थर विरामावस्था से 80 - 35 = 45 m गिर चुका है। v2 = 2gh = 2 × 10 × 45 = 900 से v = 30 m/s।" },
+      "distractorAnalysis": {
+        "0": { "en": "20 m/s does not satisfy v2 = 2gh for a fall of 45 m (it would need only 20 m).", "hi": "20 m/s, 45 m गिरने पर v2 = 2gh को संतुष्ट नहीं करता (इसके लिए केवल 20 m गिरना पड़ता)।" },
+        "2": { "en": "40 m/s is the speed on reaching the ground after falling the full 80 m.", "hi": "40 m/s पूरे 80 m गिरकर भूमि पर पहुँचने पर चाल है।" },
+        "3": { "en": "45 m/s mistakes the distance fallen (45 m) for a speed.", "hi": "45 m/s में गिरी हुई दूरी (45 m) को चाल समझ लिया गया है।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-sc-24",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": { "en": "A block of mass 120 g and volume 150 cm3 floats in water (density 1 g/cm3). What fraction of its volume is submerged?", "hi": "120 g द्रव्यमान और 150 cm3 आयतन का एक गुटका जल (घनत्व 1 g/cm3) में तैर रहा है। उसके आयतन का कितना भाग जल में डूबा हुआ है?" },
+      "optionsJson": [
+        { "en": "1/5", "hi": "1/5" },
+        { "en": "3/4", "hi": "3/4" },
+        { "en": "4/5", "hi": "4/5" },
+        { "en": "5/6", "hi": "5/6" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "A floating body displaces water equal to its own weight. Mass of water displaced = 120 g, so submerged volume = 120 cm3. Fraction = 120/150 = 4/5.", "hi": "तैरता हुआ पिंड अपने भार के बराबर जल विस्थापित करता है। विस्थापित जल का द्रव्यमान = 120 g, अतः डूबा आयतन = 120 cm3। भाग = 120/150 = 4/5।" },
+      "distractorAnalysis": {
+        "0": { "en": "1/5 is the fraction above the water, not the submerged fraction.", "hi": "1/5 जल के ऊपर रहने वाला भाग है, डूबा हुआ भाग नहीं।" },
+        "1": { "en": "3/4 does not equal 120/150; it comes from a wrong ratio.", "hi": "3/4, 120/150 के बराबर नहीं है; यह गलत अनुपात से आता है।" },
+        "3": { "en": "5/6 would need a submerged volume of 125 cm3, not 120 cm3.", "hi": "5/6 के लिए डूबा आयतन 125 cm3 होना चाहिए, 120 cm3 नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p4-sc-25",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": { "en": "A sound wave in air has a frequency of 680 Hz and a wavelength of 0.5 m. How long will it take to travel 1.7 km?", "hi": "वायु में एक ध्वनि तरंग की आवृत्ति 680 Hz और तरंगदैर्ध्य 0.5 m है। इसे 1.7 km की दूरी तय करने में कितना समय लगेगा?" },
+      "optionsJson": [
+        { "en": "2.5 s", "hi": "2.5 s" },
+        { "en": "10 s", "hi": "10 s" },
+        { "en": "0.5 s", "hi": "0.5 s" },
+        { "en": "5 s", "hi": "5 s" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Speed = frequency x wavelength = 680 x 0.5 = 340 m/s. Distance = 1.7 km = 1700 m. Time = 1700 / 340 = 5 s.", "hi": "चाल = आवृत्ति × तरंगदैर्ध्य = 680 × 0.5 = 340 m/s। दूरी = 1.7 km = 1700 m। समय = 1700 / 340 = 5 s।" },
+      "distractorAnalysis": {
+        "0": { "en": "2.5 s would need a speed of 680 m/s, which is the frequency, not the speed.", "hi": "2.5 s के लिए चाल 680 m/s होनी चाहिए, जो आवृत्ति का मान है, चाल का नहीं।" },
+        "1": { "en": "10 s would need a speed of 170 m/s, which is not the wave speed here.", "hi": "10 s के लिए चाल 170 m/s होनी चाहिए, जो यहाँ तरंग की चाल नहीं है।" },
+        "2": { "en": "0.5 s is the wavelength value reused as a time; it has no link to the distance.", "hi": "0.5 s तरंगदैर्ध्य के मान को समय मान लेने से आता है; इसका दूरी से कोई संबंध नहीं है।" }
+      }
+    }
+  ]
+}

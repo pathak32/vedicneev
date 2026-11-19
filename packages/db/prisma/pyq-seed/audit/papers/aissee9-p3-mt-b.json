@@ -1,0 +1,484 @@
+{
+  "examType": "AISSEE",
+  "classLevel": 9,
+  "paperNumber": 3,
+  "sectionKey": "mathematics",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "aissee9-p3-mt-26",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Solve for x: 7x + 4 = 3x + 24", "hi": "x के लिए हल करें: 7x + 4 = 3x + 24" },
+      "optionsJson": [
+        { "en": "7", "hi": "7" },
+        { "en": "4", "hi": "4" },
+        { "en": "20", "hi": "20" },
+        { "en": "5", "hi": "5" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Collect x terms on one side and numbers on the other: 7x − 3x = 24 − 4, so 4x = 20 and x = 5. Check: 7(5) + 4 = 39 and 3(5) + 24 = 39.", "hi": "x वाले पदों को एक ओर और संख्याओं को दूसरी ओर लाएँ: 7x − 3x = 24 − 4, अतः 4x = 20 और x = 5। जाँच: 7(5) + 4 = 39 और 3(5) + 24 = 39।" },
+      "distractorAnalysis": {
+        "0": { "en": "Adds 4 to 24 instead of subtracting it, getting 4x = 28.", "hi": "4 को 24 में से घटाने के बजाय जोड़ दिया, जिससे 4x = 28 मिला।" },
+        "1": { "en": "Takes the difference of the coefficients, 7 − 3 = 4, as the answer.", "hi": "गुणांकों का अंतर 7 − 3 = 4 ही उत्तर मान लिया।" },
+        "2": { "en": "Stops at 4x = 20 and forgets to divide by 4.", "hi": "4x = 20 पर रुक गए और 4 से भाग देना भूल गए।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-27",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Using an identity, find the value of 101² − 99².", "hi": "किसी सर्वसमिका का प्रयोग करके 101² − 99² का मान ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "2", "hi": "2" },
+        { "en": "400", "hi": "400" },
+        { "en": "200", "hi": "200" },
+        { "en": "4", "hi": "4" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "a² − b² = (a + b)(a − b). So 101² − 99² = (101 + 99)(101 − 99) = 200 × 2 = 400.", "hi": "a² − b² = (a + b)(a − b). अतः 101² − 99² = (101 + 99)(101 − 99) = 200 × 2 = 400।" },
+      "distractorAnalysis": {
+        "0": { "en": "Uses only the difference 101 − 99 and ignores the sum factor.", "hi": "केवल अंतर 101 − 99 लिया और योग वाला गुणनखंड छोड़ दिया।" },
+        "2": { "en": "Uses only the sum 101 + 99 and ignores the difference factor.", "hi": "केवल योग 101 + 99 लिया और अंतर वाला गुणनखंड छोड़ दिया।" },
+        "3": { "en": "Squares the difference (101 − 99)² instead of using (a + b)(a − b).", "hi": "(a + b)(a − b) लगाने के बजाय अंतर (101 − 99) का वर्ग कर दिया।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-28",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "If x + 1/x = 5, then the value of x² + 1/x² is:", "hi": "यदि x + 1/x = 5 है, तो x² + 1/x² का मान है:" },
+      "optionsJson": [
+        { "en": "27", "hi": "27" },
+        { "en": "25", "hi": "25" },
+        { "en": "23", "hi": "23" },
+        { "en": "21", "hi": "21" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Square both sides: (x + 1/x)² = x² + 2 + 1/x² = 25, so x² + 1/x² = 25 − 2 = 23.", "hi": "दोनों पक्षों का वर्ग करें: (x + 1/x)² = x² + 2 + 1/x² = 25, अतः x² + 1/x² = 25 − 2 = 23।" },
+      "distractorAnalysis": {
+        "0": { "en": "Adds 2 to 25 instead of subtracting it.", "hi": "25 में से 2 घटाने के बजाय 2 जोड़ दिया।" },
+        "1": { "en": "Squares 5 but forgets to subtract the middle term 2.", "hi": "5 का वर्ग किया पर बीच का पद 2 घटाना भूल गए।" },
+        "3": { "en": "Subtracts 4 (twice the middle term) instead of 2.", "hi": "2 के बजाय 4 (बीच के पद का दुगुना) घटा दिया।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-29",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Factorise: 3x² + 11x + 6", "hi": "गुणनखंड करें: 3x² + 11x + 6" },
+      "optionsJson": [
+        { "en": "(3x + 2)(x + 3)", "hi": "(3x + 2)(x + 3)" },
+        { "en": "(3x + 3)(x + 2)", "hi": "(3x + 3)(x + 2)" },
+        { "en": "(3x − 2)(x − 3)", "hi": "(3x − 2)(x − 3)" },
+        { "en": "(3x + 1)(x + 6)", "hi": "(3x + 1)(x + 6)" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Split the middle term: 11x = 9x + 2x (since 9 × 2 = 3 × 6 = 18). Then 3x² + 9x + 2x + 6 = 3x(x + 3) + 2(x + 3) = (3x + 2)(x + 3).", "hi": "बीच के पद को तोड़ें: 11x = 9x + 2x (क्योंकि 9 × 2 = 3 × 6 = 18)। तब 3x² + 9x + 2x + 6 = 3x(x + 3) + 2(x + 3) = (3x + 2)(x + 3)।" },
+      "distractorAnalysis": {
+        "1": { "en": "Expands to 3x² + 9x + 6, so the middle term is 9x, not 11x.", "hi": "विस्तार करने पर 3x² + 9x + 6 मिलता है, यानी बीच का पद 11x नहीं 9x है।" },
+        "2": { "en": "Expands to 3x² − 11x + 6; the signs are wrong.", "hi": "विस्तार करने पर 3x² − 11x + 6 मिलता है; चिह्न गलत हैं।" },
+        "3": { "en": "Expands to 3x² + 19x + 6, so the middle term is 19x, not 11x.", "hi": "विस्तार करने पर 3x² + 19x + 6 मिलता है, यानी बीच का पद 11x नहीं 19x है।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-30",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "What is the remainder when x³ + 3x² − 5x + 4 is divided by (x − 2)?", "hi": "x³ + 3x² − 5x + 4 को (x − 2) से भाग देने पर शेषफल क्या होगा?" },
+      "optionsJson": [
+        { "en": "10", "hi": "10" },
+        { "en": "14", "hi": "14" },
+        { "en": "18", "hi": "18" },
+        { "en": "3", "hi": "3" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "By the Remainder Theorem, the remainder is p(2) = 8 + 12 − 10 + 4 = 14.", "hi": "शेषफल प्रमेय से शेषफल p(2) = 8 + 12 − 10 + 4 = 14 है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Leaves out the constant term 4 while evaluating p(2).", "hi": "p(2) निकालते समय अचर पद 4 छोड़ दिया।" },
+        "2": { "en": "Evaluates p(−2) = −8 + 12 + 10 + 4 = 18, which is the remainder for (x + 2).", "hi": "p(−2) = −8 + 12 + 10 + 4 = 18 निकाला, जो (x + 2) से भाग देने का शेषफल है।" },
+        "3": { "en": "Evaluates p(1) = 1 + 3 − 5 + 4 = 3 instead of p(2).", "hi": "p(2) के बजाय p(1) = 1 + 3 − 5 + 4 = 3 निकाल लिया।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-31",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "If (x + 3) is a factor of 2x³ + 5x² + kx − 3, find the value of k.", "hi": "यदि (x + 3), 2x³ + 5x² + kx − 3 का एक गुणनखंड है, तो k का मान ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "−4", "hi": "−4" },
+        { "en": "4", "hi": "4" },
+        { "en": "12", "hi": "12" },
+        { "en": "−12", "hi": "−12" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "By the Factor Theorem, p(−3) = 0. So 2(−27) + 5(9) + k(−3) − 3 = 0, i.e. −54 + 45 − 3k − 3 = 0, so −12 − 3k = 0 and k = −4.", "hi": "गुणनखंड प्रमेय से p(−3) = 0. अतः 2(−27) + 5(9) + k(−3) − 3 = 0, अर्थात् −54 + 45 − 3k − 3 = 0, इसलिए −12 − 3k = 0 और k = −4।" },
+      "distractorAnalysis": {
+        "1": { "en": "Makes a sign error when solving −12 − 3k = 0.", "hi": "−12 − 3k = 0 हल करते समय चिह्न की भूल की।" },
+        "2": { "en": "Reaches −3k = 12 but forgets to divide by −3, giving 12.", "hi": "−3k = 12 तक पहुँचे पर −3 से भाग देना भूल गए, जिससे 12 मिला।" },
+        "3": { "en": "Reads −12 − 3k = 0 as k = −12, forgetting to divide by the coefficient 3.", "hi": "−12 − 3k = 0 को k = −12 पढ़ लिया, गुणांक 3 से भाग देना भूल गए।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-32",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Solve for x: (x + 3)/2 − (x − 1)/3 = 3", "hi": "x के लिए हल करें: (x + 3)/2 − (x − 1)/3 = 3" },
+      "optionsJson": [
+        { "en": "11", "hi": "11" },
+        { "en": "9", "hi": "9" },
+        { "en": "7", "hi": "7" },
+        { "en": "−8", "hi": "−8" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Multiply by the LCM 6: 3(x + 3) − 2(x − 1) = 18. So 3x + 9 − 2x + 2 = 18, i.e. x + 11 = 18 and x = 7.", "hi": "ल.स. 6 से गुणा करें: 3(x + 3) − 2(x − 1) = 18. अतः 3x + 9 − 2x + 2 = 18, अर्थात् x + 11 = 18 और x = 7।" },
+      "distractorAnalysis": {
+        "0": { "en": "Writes −2(x − 1) as −2x − 2, giving x + 7 = 18.", "hi": "−2(x − 1) को −2x − 2 लिख दिया, जिससे x + 7 = 18 मिला।" },
+        "1": { "en": "Halves 18 instead of subtracting 11 from it.", "hi": "18 में से 11 घटाने के बजाय 18 का आधा कर दिया।" },
+        "3": { "en": "Forgets to multiply the right side 3 by 6, getting x + 11 = 3.", "hi": "दाएँ पक्ष 3 को 6 से गुणा करना भूल गए, जिससे x + 11 = 3 मिला।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-33",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The sum of the present ages of Ravi and his father is 56 years. Four years ago, the father's age was 3 times Ravi's age. What is the father's present age?", "hi": "रवि और उसके पिता की वर्तमान आयु का योग 56 वर्ष है। चार वर्ष पहले पिता की आयु रवि की आयु की 3 गुनी थी। पिता की वर्तमान आयु कितनी है?" },
+      "optionsJson": [
+        { "en": "16 years", "hi": "16 वर्ष" },
+        { "en": "36 years", "hi": "36 वर्ष" },
+        { "en": "44 years", "hi": "44 वर्ष" },
+        { "en": "40 years", "hi": "40 वर्ष" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Let Ravi's age be r; father's age is 56 − r. Four years ago: 56 − r − 4 = 3(r − 4), so 52 − r = 3r − 12, 4r = 64, r = 16. Father's age = 56 − 16 = 40 years.", "hi": "रवि की आयु r मानें; पिता की आयु 56 − r है। चार वर्ष पहले: 56 − r − 4 = 3(r − 4), अतः 52 − r = 3r − 12, 4r = 64, r = 16. पिता की आयु = 56 − 16 = 40 वर्ष।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is Ravi's present age, not the father's.", "hi": "यह रवि की वर्तमान आयु है, पिता की नहीं।" },
+        "1": { "en": "This is the father's age four years ago, not now.", "hi": "यह पिता की चार वर्ष पहले की आयु है, वर्तमान आयु नहीं।" },
+        "2": { "en": "This is the father's age four years from now.", "hi": "यह पिता की चार वर्ष बाद की आयु है।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-34",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which of the following is an irrational number?", "hi": "निम्नलिखित में से कौन-सी एक अपरिमेय संख्या है?" },
+      "optionsJson": [
+        { "en": "√50", "hi": "√50" },
+        { "en": "√81", "hi": "√81" },
+        { "en": "0.25", "hi": "0.25" },
+        { "en": "7/3", "hi": "7/3" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "50 is not a perfect square (√50 = 5√2), so √50 is non-terminating and non-repeating, hence irrational. The others are rational.", "hi": "50 पूर्ण वर्ग नहीं है (√50 = 5√2), इसलिए √50 अनवसानी अनावर्ती है, अतः अपरिमेय है। अन्य सभी परिमेय हैं।" },
+      "distractorAnalysis": {
+        "1": { "en": "√81 = 9, an integer, so it is rational.", "hi": "√81 = 9 है, जो पूर्णांक है, इसलिए यह परिमेय है।" },
+        "2": { "en": "0.25 = 1/4 is a terminating decimal, so it is rational.", "hi": "0.25 = 1/4 सांत दशमलव है, इसलिए यह परिमेय है।" },
+        "3": { "en": "7/3 is a ratio of two integers, so it is rational.", "hi": "7/3 दो पूर्णांकों का अनुपात है, इसलिए यह परिमेय है।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-35",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "The total surface area of a cube is 150 cm². What is its volume?", "hi": "एक घन का कुल पृष्ठीय क्षेत्रफल 150 cm² है। उसका आयतन क्या है?" },
+      "optionsJson": [
+        { "en": "25 cm³", "hi": "25 cm³" },
+        { "en": "125 cm³", "hi": "125 cm³" },
+        { "en": "75 cm³", "hi": "75 cm³" },
+        { "en": "15 cm³", "hi": "15 cm³" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "6a² = 150 gives a² = 25, so a = 5 cm. Volume = a³ = 125 cm³.", "hi": "6a² = 150 से a² = 25, अतः a = 5 cm. आयतन = a³ = 125 cm³।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the area of one face (a² = 25), not the volume.", "hi": "यह एक फलक का क्षेत्रफल (a² = 25) है, आयतन नहीं।" },
+        "2": { "en": "Halves 150 instead of finding the edge and cubing it.", "hi": "भुजा निकालकर घन करने के बजाय 150 का आधा ले लिया।" },
+        "3": { "en": "Computes 3a = 15 instead of a³.", "hi": "a³ के बजाय 3a = 15 निकाल लिया।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-36",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "A cylinder has base radius 7 cm and height 10 cm. Find its curved surface area (take π = 22/7).", "hi": "एक बेलन की आधार त्रिज्या 7 cm और ऊँचाई 10 cm है। उसका वक्र पृष्ठीय क्षेत्रफल ज्ञात करें (π = 22/7 लें)।" },
+      "optionsJson": [
+        { "en": "154 cm²", "hi": "154 cm²" },
+        { "en": "308 cm²", "hi": "308 cm²" },
+        { "en": "440 cm²", "hi": "440 cm²" },
+        { "en": "1540 cm²", "hi": "1540 cm²" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Curved surface area = 2πrh = 2 × (22/7) × 7 × 10 = 440 cm².", "hi": "वक्र पृष्ठीय क्षेत्रफल = 2πrh = 2 × (22/7) × 7 × 10 = 440 cm²।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the area of one circular base, πr² = 154.", "hi": "यह एक वृत्ताकार आधार का क्षेत्रफल πr² = 154 है।" },
+        "1": { "en": "This is the area of both bases, 2πr² = 308.", "hi": "यह दोनों आधारों का क्षेत्रफल 2πr² = 308 है।" },
+        "3": { "en": "This is the volume πr²h = 1540 cm³, not the curved surface area.", "hi": "यह आयतन πr²h = 1540 cm³ है, वक्र पृष्ठीय क्षेत्रफल नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-37",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "The angles of a triangle are in the ratio 3 : 4 : 5. What is the measure of the largest angle?", "hi": "एक त्रिभुज के कोणों का अनुपात 3 : 4 : 5 है। सबसे बड़े कोण की माप क्या है?" },
+      "optionsJson": [
+        { "en": "60°", "hi": "60°" },
+        { "en": "45°", "hi": "45°" },
+        { "en": "90°", "hi": "90°" },
+        { "en": "75°", "hi": "75°" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "The angles sum to 180°, and 3 + 4 + 5 = 12 parts, so each part is 15°. The angles are 45°, 60° and 75°; the largest is 5 × 15° = 75°.", "hi": "कोणों का योग 180° है और 3 + 4 + 5 = 12 भाग हैं, अतः प्रत्येक भाग 15° का है। कोण 45°, 60° और 75° हैं; सबसे बड़ा 5 × 15° = 75° है।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the middle angle (4 × 15°), not the largest.", "hi": "यह बीच वाला कोण (4 × 15°) है, सबसे बड़ा नहीं।" },
+        "1": { "en": "This is the smallest angle (3 × 15°).", "hi": "यह सबसे छोटा कोण (3 × 15°) है।" },
+        "2": { "en": "Wrongly assumes a 3 : 4 : 5 triangle is right-angled; that applies to sides, not angles.", "hi": "गलती से मान लिया कि 3 : 4 : 5 वाला त्रिभुज समकोण होता है; यह भुजाओं पर लागू होता है, कोणों पर नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-38",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "If a + b + c = 9 and ab + bc + ca = 26, find the value of a³ + b³ + c³ − 3abc.", "hi": "यदि a + b + c = 9 और ab + bc + ca = 26 है, तो a³ + b³ + c³ − 3abc का मान ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "29", "hi": "29" },
+        { "en": "81", "hi": "81" },
+        { "en": "27", "hi": "27" },
+        { "en": "3", "hi": "3" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "a² + b² + c² = (a + b + c)² − 2(ab + bc + ca) = 81 − 52 = 29. Then a³ + b³ + c³ − 3abc = (a + b + c)(a² + b² + c² − ab − bc − ca) = 9 × (29 − 26) = 27.", "hi": "a² + b² + c² = (a + b + c)² − 2(ab + bc + ca) = 81 − 52 = 29. तब a³ + b³ + c³ − 3abc = (a + b + c)(a² + b² + c² − ab − bc − ca) = 9 × (29 − 26) = 27।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is only a² + b² + c²; the identity has not been applied.", "hi": "यह केवल a² + b² + c² है; सर्वसमिका का प्रयोग नहीं किया गया।" },
+        "1": { "en": "This is (a + b + c)² = 81, which is not the required expression.", "hi": "यह (a + b + c)² = 81 है, जो माँगा गया व्यंजक नहीं है।" },
+        "3": { "en": "Computes only the second factor (29 − 26 = 3) and forgets to multiply by a + b + c = 9.", "hi": "केवल दूसरा गुणनखंड (29 − 26 = 3) निकाला और a + b + c = 9 से गुणा करना भूल गए।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-39",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "What is the coefficient of x in the expansion of (2x + 3)(x − 5)?", "hi": "(2x + 3)(x − 5) के प्रसार में x का गुणांक क्या है?" },
+      "optionsJson": [
+        { "en": "−7", "hi": "−7" },
+        { "en": "7", "hi": "7" },
+        { "en": "−15", "hi": "−15" },
+        { "en": "−13", "hi": "−13" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "(2x + 3)(x − 5) = 2x² − 10x + 3x − 15 = 2x² − 7x − 15. The coefficient of x is −7.", "hi": "(2x + 3)(x − 5) = 2x² − 10x + 3x − 15 = 2x² − 7x − 15. x का गुणांक −7 है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Gets the magnitude right but loses the negative sign.", "hi": "मान सही निकाला पर ऋण चिह्न छोड़ दिया।" },
+        "2": { "en": "This is the constant term, not the coefficient of x.", "hi": "यह अचर पद है, x का गुणांक नहीं।" },
+        "3": { "en": "Adds −10 and −3 instead of −10 and +3 for the cross terms.", "hi": "आड़े पदों के लिए −10 और +3 के बजाय −10 और −3 जोड़ दिए।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-40",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The point (2, k) lies on the line 3x − 2y = 8. Find the value of k.", "hi": "बिंदु (2, k) रेखा 3x − 2y = 8 पर स्थित है। k का मान ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "1", "hi": "1" },
+        { "en": "−1", "hi": "−1" },
+        { "en": "7", "hi": "7" },
+        { "en": "−7", "hi": "−7" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Substitute x = 2 and y = k: 3(2) − 2k = 8, so 6 − 2k = 8, −2k = 2 and k = −1.", "hi": "x = 2 और y = k रखें: 3(2) − 2k = 8, अतः 6 − 2k = 8, −2k = 2 और k = −1।" },
+      "distractorAnalysis": {
+        "0": { "en": "Loses the negative sign when dividing 2 by −2.", "hi": "2 को −2 से भाग देते समय ऋण चिह्न छूट गया।" },
+        "2": { "en": "Adds 6 to 8 instead of moving it across correctly, getting 2k = 14.", "hi": "6 को सही ढंग से पक्षांतरित करने के बजाय 8 में जोड़ दिया, जिससे 2k = 14 मिला।" },
+        "3": { "en": "Adds 6 to 8 (getting 14) and also takes the wrong sign.", "hi": "6 को 8 में जोड़कर 14 लिया और चिह्न भी गलत लिया।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-41",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": { "en": "The polynomial x³ − 3x² − 10x + 24 has three integer zeros. What is the sum of the squares of its zeros?", "hi": "बहुपद x³ − 3x² − 10x + 24 के तीनों शून्यक पूर्णांक हैं। इसके शून्यकों के वर्गों का योग क्या है?" },
+      "optionsJson": [
+        { "en": "9", "hi": "9" },
+        { "en": "−11", "hi": "−11" },
+        { "en": "19", "hi": "19" },
+        { "en": "29", "hi": "29" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "p(2) = 8 − 12 − 20 + 24 = 0, so (x − 2) is a factor and the polynomial equals (x − 2)(x − 4)(x + 3). The zeros are 2, 4 and −3, and 2² + 4² + (−3)² = 4 + 16 + 9 = 29.", "hi": "p(2) = 8 − 12 − 20 + 24 = 0, अतः (x − 2) एक गुणनखंड है और बहुपद (x − 2)(x − 4)(x + 3) के बराबर है। शून्यक 2, 4 और −3 हैं तथा 2² + 4² + (−3)² = 4 + 16 + 9 = 29।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the square of the sum of zeros, (2 + 4 − 3)² is 9, not the sum of their squares.", "hi": "यह शून्यकों के योग का वर्ग (2 + 4 − 3)² = 9 है, उनके वर्गों का योग नहीं।" },
+        "1": { "en": "Adds 2 × (−10) to 9 instead of subtracting it.", "hi": "9 में से 2 × (−10) घटाने के बजाय उसे जोड़ दिया।" },
+        "2": { "en": "Subtracts the pair-sum −10 only once instead of twice.", "hi": "युग्म-गुणनफल योग −10 को दो बार घटाने के बजाय केवल एक बार घटाया।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-42",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "In triangle ABC, ∠A = 50°. The bisectors of ∠B and ∠C meet at point O. Find ∠BOC.", "hi": "त्रिभुज ABC में ∠A = 50° है। ∠B और ∠C के समद्विभाजक बिंदु O पर मिलते हैं। ∠BOC ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "65°", "hi": "65°" },
+        { "en": "130°", "hi": "130°" },
+        { "en": "115°", "hi": "115°" },
+        { "en": "140°", "hi": "140°" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "∠B + ∠C = 180° − 50° = 130°, so half of it is 65°. In triangle BOC, ∠BOC = 180° − 65° = 115° (equivalently 90° + A/2).", "hi": "∠B + ∠C = 180° − 50° = 130°, इसका आधा 65° है। त्रिभुज BOC में ∠BOC = 180° − 65° = 115° (अर्थात् 90° + A/2)।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is ∠OBC + ∠OCB (half of ∠B + ∠C); the angle at O is still to be found.", "hi": "यह ∠OBC + ∠OCB (∠B + ∠C का आधा) है; O पर कोण अभी निकालना बाकी है।" },
+        "1": { "en": "This is ∠B + ∠C, without halving for the bisectors.", "hi": "यह ∠B + ∠C है; समद्विभाजकों के लिए आधा नहीं किया।" },
+        "3": { "en": "Uses 90° + A instead of 90° + A/2.", "hi": "90° + A/2 के बजाय 90° + A का प्रयोग किया।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-43",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The mean of five numbers is 18. When one of the numbers is removed, the mean of the remaining four numbers becomes 16. Find the number that was removed.", "hi": "पाँच संख्याओं का माध्य 18 है। जब उनमें से एक संख्या हटा दी जाती है, तो शेष चार संख्याओं का माध्य 16 हो जाता है। हटाई गई संख्या ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "26", "hi": "26" },
+        { "en": "34", "hi": "34" },
+        { "en": "2", "hi": "2" },
+        { "en": "20", "hi": "20" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Sum of five numbers = 5 × 18 = 90. Sum of remaining four = 4 × 16 = 64. Removed number = 90 − 64 = 26.", "hi": "पाँच संख्याओं का योग = 5 × 18 = 90. शेष चार का योग = 4 × 16 = 64. हटाई गई संख्या = 90 − 64 = 26।" },
+      "distractorAnalysis": {
+        "1": { "en": "Adds the two means (18 + 16) instead of using the sums of the numbers.", "hi": "संख्याओं के योग लेने के बजाय दोनों माध्य (18 + 16) जोड़ दिए।" },
+        "2": { "en": "Takes only the difference of the means (18 − 16).", "hi": "केवल माध्यों का अंतर (18 − 16) लिया।" },
+        "3": { "en": "Adds the difference of the means to 18, which has no valid basis.", "hi": "माध्यों के अंतर को 18 में जोड़ दिया, जिसका कोई आधार नहीं है।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-44",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "The difference between the compound interest (compounded annually) and the simple interest on a certain sum for 2 years at 5% per annum is ₹15. Find the sum.", "hi": "किसी धनराशि पर 5% वार्षिक दर से 2 वर्ष का चक्रवृद्धि ब्याज (वार्षिक संयोजित) और साधारण ब्याज का अंतर ₹15 है। धनराशि ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "₹5,000", "hi": "₹5,000" },
+        { "en": "₹6,000", "hi": "₹6,000" },
+        { "en": "₹7,500", "hi": "₹7,500" },
+        { "en": "₹3,000", "hi": "₹3,000" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "For 2 years, CI − SI = P(r/100)² = P × (5/100)² = P/400. So P/400 = 15 and P = ₹6,000. Check: SI = ₹600, CI = 6000 × (1.05² − 1) = ₹615, difference ₹15.", "hi": "2 वर्ष के लिए CI − SI = P(r/100)² = P × (5/100)² = P/400. अतः P/400 = 15 और P = ₹6,000. जाँच: SI = ₹600, CI = 6000 × (1.05² − 1) = ₹615, अंतर ₹15।" },
+      "distractorAnalysis": {
+        "0": { "en": "For ₹5,000 the difference would be ₹12.50, not ₹15.", "hi": "₹5,000 के लिए अंतर ₹12.50 होगा, ₹15 नहीं।" },
+        "2": { "en": "For ₹7,500 the difference would be ₹18.75, not ₹15.", "hi": "₹7,500 के लिए अंतर ₹18.75 होगा, ₹15 नहीं।" },
+        "3": { "en": "For ₹3,000 the difference would be ₹7.50, not ₹15.", "hi": "₹3,000 के लिए अंतर ₹7.50 होगा, ₹15 नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-45",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The perimeter of a rectangular field is 56 m. Its length is 4 m more than twice its breadth. Find the area of the field.", "hi": "एक आयताकार खेत का परिमाप 56 m है। उसकी लंबाई, चौड़ाई के दुगुने से 4 m अधिक है। खेत का क्षेत्रफल ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "192 m²", "hi": "192 m²" },
+        { "en": "196 m²", "hi": "196 m²" },
+        { "en": "128 m²", "hi": "128 m²" },
+        { "en": "160 m²", "hi": "160 m²" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Let breadth = b, so length = 2b + 4. Perimeter: 2(2b + 4 + b) = 56, so 3b + 4 = 28 and b = 8 m. Length = 20 m. Area = 20 × 8 = 160 m².", "hi": "चौड़ाई b मानें, तो लंबाई = 2b + 4. परिमाप: 2(2b + 4 + b) = 56, अतः 3b + 4 = 28 और b = 8 m. लंबाई = 20 m. क्षेत्रफल = 20 × 8 = 160 m²।" },
+      "distractorAnalysis": {
+        "0": { "en": "Takes length = breadth + 4 (16 m × 12 m) instead of twice the breadth plus 4.", "hi": "लंबाई = चौड़ाई + 4 (16 m × 12 m) ले ली, चौड़ाई का दुगुना + 4 नहीं।" },
+        "1": { "en": "Treats the field as a square of side 14 m.", "hi": "खेत को 14 m भुजा का वर्ग मान लिया।" },
+        "2": { "en": "Forgets the extra 4 m, taking length = 2 × breadth = 16 m with breadth 8 m.", "hi": "अतिरिक्त 4 m भूल गए और चौड़ाई 8 m के साथ लंबाई = 2 × चौड़ाई = 16 m ले ली।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-46",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The numerator of a fraction is 3 less than its denominator. If 2 is added to both the numerator and the denominator, the fraction becomes 5/6. What is the original fraction?", "hi": "एक भिन्न का अंश उसके हर से 3 कम है। यदि अंश और हर दोनों में 2 जोड़ दिया जाए, तो भिन्न 5/6 हो जाती है। मूल भिन्न क्या है?" },
+      "optionsJson": [
+        { "en": "10/13", "hi": "10/13" },
+        { "en": "15/18", "hi": "15/18" },
+        { "en": "13/16", "hi": "13/16" },
+        { "en": "7/10", "hi": "7/10" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Let the denominator be d, so the numerator is d − 3. Then (d − 3 + 2)/(d + 2) = 5/6, i.e. 6(d − 1) = 5(d + 2), so d = 16. The fraction is 13/16. Check: 15/18 = 5/6.", "hi": "हर d मानें, तो अंश d − 3 होगा। तब (d − 3 + 2)/(d + 2) = 5/6, अर्थात् 6(d − 1) = 5(d + 2), अतः d = 16. भिन्न 13/16 है। जाँच: 15/18 = 5/6।" },
+      "distractorAnalysis": {
+        "0": { "en": "Adding 2 to both gives 12/15 = 4/5, not 5/6.", "hi": "दोनों में 2 जोड़ने पर 12/15 = 4/5 मिलता है, 5/6 नहीं।" },
+        "1": { "en": "Adding 2 to both gives 17/20, not 5/6.", "hi": "दोनों में 2 जोड़ने पर 17/20 मिलता है, 5/6 नहीं।" },
+        "3": { "en": "Adding 2 to both gives 9/12 = 3/4, not 5/6.", "hi": "दोनों में 2 जोड़ने पर 9/12 = 3/4 मिलता है, 5/6 नहीं।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-47",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": { "en": "If 2/x + 3/y = 13 and 5/x − 4/y = −2 (x, y ≠ 0), find the value of x + y.", "hi": "यदि 2/x + 3/y = 13 और 5/x − 4/y = −2 (x, y ≠ 0) है, तो x + y का मान ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "1/6", "hi": "1/6" },
+        { "en": "5/6", "hi": "5/6" },
+        { "en": "5", "hi": "5" },
+        { "en": "6/5", "hi": "6/5" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Let u = 1/x and v = 1/y: 2u + 3v = 13 and 5u − 4v = −2. Multiply the first by 4 and the second by 3: 8u + 12v = 52 and 15u − 12v = −6. Adding gives 23u = 46, so u = 2 and v = 3. Hence x = 1/2, y = 1/3 and x + y = 5/6.", "hi": "u = 1/x और v = 1/y मानें: 2u + 3v = 13 और 5u − 4v = −2. पहले को 4 से और दूसरे को 3 से गुणा करें: 8u + 12v = 52 और 15u − 12v = −6. जोड़ने पर 23u = 46, अतः u = 2 और v = 3. इसलिए x = 1/2, y = 1/3 और x + y = 5/6।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is x − y = 1/2 − 1/3, not x + y.", "hi": "यह x − y = 1/2 − 1/3 है, x + y नहीं।" },
+        "2": { "en": "This is 1/x + 1/y = u + v = 5, not x + y.", "hi": "यह 1/x + 1/y = u + v = 5 है, x + y नहीं।" },
+        "3": { "en": "Takes the reciprocal of x + y.", "hi": "x + y का व्युत्क्रम ले लिया।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-48",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Two parallel lines are cut by a transversal. A pair of interior angles on the same side of the transversal measure (2x + 10)° and (3x − 20)°. Find the value of x.", "hi": "दो समांतर रेखाओं को एक तिर्यक रेखा काटती है। तिर्यक रेखा के एक ही ओर के अंतः कोणों की एक जोड़ी की माप (2x + 10)° और (3x − 20)° है। x का मान ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "38", "hi": "38" },
+        { "en": "30", "hi": "30" },
+        { "en": "36", "hi": "36" },
+        { "en": "34", "hi": "34" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Interior angles on the same side of a transversal between parallel lines are supplementary: (2x + 10) + (3x − 20) = 180, so 5x − 10 = 180 and x = 38. The angles are 86° and 94°.", "hi": "समांतर रेखाओं के बीच तिर्यक रेखा के एक ही ओर के अंतः कोण संपूरक होते हैं: (2x + 10) + (3x − 20) = 180, अतः 5x − 10 = 180 और x = 38. कोण 86° और 94° हैं।" },
+      "distractorAnalysis": {
+        "1": { "en": "Treats the angles as equal (alternate angles), solving 2x + 10 = 3x − 20.", "hi": "कोणों को बराबर (एकांतर कोण) मानकर 2x + 10 = 3x − 20 हल किया।" },
+        "2": { "en": "Ignores the constants and solves 5x = 180.", "hi": "अचर पदों को छोड़कर 5x = 180 हल किया।" },
+        "3": { "en": "Adds the constants as +10 + 20 instead of 10 − 20, getting 5x + 10 = 180.", "hi": "अचर पदों को 10 − 20 के बजाय गलत जोड़ा, जिससे 5x + 10 = 180 मिला।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-49",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A bag contains 5 red, 3 blue and 2 green balls. One ball is drawn at random. What is the probability that it is not blue?", "hi": "एक थैले में 5 लाल, 3 नीली और 2 हरी गेंदें हैं। एक गेंद यादृच्छिक रूप से निकाली जाती है। उसके नीली न होने की प्रायिकता क्या है?" },
+      "optionsJson": [
+        { "en": "3/10", "hi": "3/10" },
+        { "en": "1/2", "hi": "1/2" },
+        { "en": "4/5", "hi": "4/5" },
+        { "en": "7/10", "hi": "7/10" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Total balls = 10 and blue balls = 3. P(blue) = 3/10, so P(not blue) = 1 − 3/10 = 7/10.", "hi": "कुल गेंदें = 10 और नीली गेंदें = 3. P(नीली) = 3/10, अतः P(नीली नहीं) = 1 − 3/10 = 7/10।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the probability of drawing a blue ball, not of avoiding it.", "hi": "यह नीली गेंद निकलने की प्रायिकता है, न निकलने की नहीं।" },
+        "1": { "en": "This is the probability of drawing a red ball (5/10).", "hi": "यह लाल गेंद निकलने की प्रायिकता (5/10) है।" },
+        "2": { "en": "This is the probability of not drawing a green ball (8/10).", "hi": "यह हरी गेंद न निकलने की प्रायिकता (8/10) है।" }
+      }
+    },
+    {
+      "key": "aissee9-p3-mt-50",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "The radius of a sphere is doubled. By what percentage does its volume increase?", "hi": "एक गोले की त्रिज्या दुगुनी कर दी जाती है। उसके आयतन में कितने प्रतिशत की वृद्धि होती है?" },
+      "optionsJson": [
+        { "en": "100%", "hi": "100%" },
+        { "en": "300%", "hi": "300%" },
+        { "en": "700%", "hi": "700%" },
+        { "en": "800%", "hi": "800%" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Volume = (4/3)πr³. With radius 2r the volume becomes (4/3)π(2r)³ = 8 times the original. Increase = 8V − V = 7V, which is 700% of the original.", "hi": "आयतन = (4/3)πr³. त्रिज्या 2r होने पर आयतन (4/3)π(2r)³ = मूल का 8 गुना हो जाता है। वृद्धि = 8V − V = 7V, जो मूल का 700% है।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the percentage increase in the radius, not the volume.", "hi": "यह त्रिज्या में प्रतिशत वृद्धि है, आयतन में नहीं।" },
+        "1": { "en": "This is the percentage increase in surface area (4 times, so 300%).", "hi": "यह पृष्ठीय क्षेत्रफल में प्रतिशत वृद्धि (4 गुना, अतः 300%) है।" },
+        "3": { "en": "This is the new volume as a percentage of the old, not the increase.", "hi": "यह नए आयतन का पुराने आयतन से प्रतिशत है, वृद्धि नहीं।" }
+      }
+    }
+  ]
+}

@@ -1,0 +1,916 @@
+{
+  "examType": "RMS",
+  "classLevel": 6,
+  "paperNumber": 5,
+  "sectionKey": "language",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "rms6-p5-la-01",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Choose the sentence that has no grammatical error.", "hi": "वह वाक्य चुनें जिसमें कोई व्याकरण संबंधी त्रुटि नहीं है।", "mr": "ज्या वाक्यात कोणतीही व्याकरणाची चूक नाही ते वाक्य निवडा." },
+      "optionsJson": [
+        { "en": "She don't like mangoes.", "hi": "She don't like mangoes.", "mr": "She don't like mangoes." },
+        { "en": "She doesn't likes mangoes.", "hi": "She doesn't likes mangoes.", "mr": "She doesn't likes mangoes." },
+        { "en": "She doesn't like mangoes.", "hi": "She doesn't like mangoes.", "mr": "She doesn't like mangoes." },
+        { "en": "She not like mangoes.", "hi": "She not like mangoes.", "mr": "She not like mangoes." }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "With the singular subject 'She', the negative is formed with 'doesn't' followed by the base form of the verb, 'like'.",
+        "hi": "एकवचन कर्ता 'She' के साथ निषेध 'doesn't' से बनता है और उसके बाद क्रिया का मूल रूप 'like' आता है।",
+        "mr": "एकवचनी कर्ता 'She' सोबत नकारात्मक रूप 'doesn't' ने बनते आणि त्यानंतर क्रियापदाचे मूळ रूप 'like' येते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "'Don't' is used with I, you, we, they and plural subjects, not with 'She'.",
+          "hi": "'Don't' का प्रयोग I, you, we, they और बहुवचन कर्ताओं के साथ होता है, 'She' के साथ नहीं।",
+          "mr": "'Don't' चा वापर I, you, we, they आणि अनेकवचनी कर्त्यांसोबत होतो, 'She' सोबत नाही."
+        },
+        "1": {
+          "en": "After 'doesn't' the verb stays in its base form, so 'likes' is wrong.",
+          "hi": "'Doesn't' के बाद क्रिया अपने मूल रूप में रहती है, इसलिए 'likes' गलत है।",
+          "mr": "'Doesn't' नंतर क्रियापद मूळ रूपात राहते, म्हणून 'likes' चुकीचे आहे."
+        },
+        "3": {
+          "en": "A simple present negative needs the helping verb 'does not / doesn't'; 'not' alone cannot stand before the verb.",
+          "hi": "सामान्य वर्तमान काल के निषेध में सहायक क्रिया 'does not / doesn't' चाहिए; केवल 'not' क्रिया से पहले नहीं लग सकता।",
+          "mr": "साध्या वर्तमानकाळाच्या नकारात्मक वाक्यात 'does not / doesn't' ही साहाय्यक क्रिया लागते; फक्त 'not' क्रियापदापूर्वी वापरता येत नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p5-la-02",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Change into the passive voice: The farmer sows the seeds.", "hi": "कर्मवाच्य (passive voice) में बदलें: The farmer sows the seeds.", "mr": "कर्मणी प्रयोगात (passive voice) रूपांतर करा: The farmer sows the seeds." },
+      "optionsJson": [
+        { "en": "The seeds is sown by the farmer.", "hi": "The seeds is sown by the farmer.", "mr": "The seeds is sown by the farmer." },
+        { "en": "The seeds are sown by the farmer.", "hi": "The seeds are sown by the farmer.", "mr": "The seeds are sown by the farmer." },
+        { "en": "The seeds were sown by the farmer.", "hi": "The seeds were sown by the farmer.", "mr": "The seeds were sown by the farmer." },
+        { "en": "The seeds are sowing by the farmer.", "hi": "The seeds are sowing by the farmer.", "mr": "The seeds are sowing by the farmer." }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "A simple present active sentence becomes 'am/is/are + past participle' in the passive. The object 'seeds' is plural, so the passive is 'are sown'.",
+        "hi": "सामान्य वर्तमान काल का सक्रिय वाक्य कर्मवाच्य में 'am/is/are + past participle' बन जाता है। कर्म 'seeds' बहुवचन है, इसलिए 'are sown' सही है।",
+        "mr": "साध्या वर्तमानकाळातील कर्तरी वाक्य कर्मणी रचनेत 'am/is/are + past participle' असे होते. कर्म 'seeds' अनेकवचनी आहे, म्हणून 'are sown' बरोबर आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "'Seeds' is plural, so the helping verb must be 'are', not 'is'.",
+          "hi": "'Seeds' बहुवचन है, इसलिए सहायक क्रिया 'are' होनी चाहिए, 'is' नहीं।",
+          "mr": "'Seeds' अनेकवचनी आहे, म्हणून साहाय्यक क्रियापद 'are' हवे, 'is' नाही."
+        },
+        "2": {
+          "en": "'Were sown' is past tense, but the given sentence is in the simple present.",
+          "hi": "'Were sown' भूतकाल है, जबकि दिया गया वाक्य सामान्य वर्तमान काल में है।",
+          "mr": "'Were sown' हा भूतकाळ आहे, पण दिलेले वाक्य साध्या वर्तमानकाळात आहे."
+        },
+        "3": {
+          "en": "A passive needs the past participle 'sown'; 'sowing' is the -ing form.",
+          "hi": "कर्मवाच्य में past participle 'sown' चाहिए; 'sowing' -ing रूप है।",
+          "mr": "कर्मणी रचनेत past participle 'sown' हवे; 'sowing' हे -ing रूप आहे."
+        }
+      }
+    },
+    {
+      "key": "rms6-p5-la-03",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Choose the correct indirect speech: Ramesh said, \"I am playing football.\"", "hi": "सही अप्रत्यक्ष कथन (indirect speech) चुनें: Ramesh said, \"I am playing football.\"", "mr": "योग्य अप्रत्यक्ष कथन (indirect speech) निवडा: Ramesh said, \"I am playing football.\"" },
+      "optionsJson": [
+        { "en": "Ramesh said that I was playing football.", "hi": "Ramesh said that I was playing football.", "mr": "Ramesh said that I was playing football." },
+        { "en": "Ramesh said that he will be playing football.", "hi": "Ramesh said that he will be playing football.", "mr": "Ramesh said that he will be playing football." },
+        { "en": "Ramesh said that he had played football.", "hi": "Ramesh said that he had played football.", "mr": "Ramesh said that he had played football." },
+        { "en": "Ramesh said that he was playing football.", "hi": "Ramesh said that he was playing football.", "mr": "Ramesh said that he was playing football." }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "After the past reporting verb 'said', the present continuous 'am playing' shifts to the past continuous 'was playing', and 'I' becomes 'he'.",
+        "hi": "भूतकाल की रिपोर्टिंग क्रिया 'said' के बाद वर्तमान चालू काल 'am playing' बदलकर भूतकालिक चालू रूप 'was playing' हो जाता है और 'I' बदलकर 'he' हो जाता है।",
+        "mr": "भूतकाळातील रिपोर्टिंग क्रियापद 'said' नंतर चालू वर्तमानकाळ 'am playing' बदलून चालू भूतकाळ 'was playing' होतो आणि 'I' चे 'he' होते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The speaker is Ramesh himself, so 'I' must change to 'he'.",
+          "hi": "वक्ता स्वयं Ramesh है, इसलिए 'I' को 'he' में बदलना होगा।",
+          "mr": "वक्ता स्वतः Ramesh आहे, म्हणून 'I' चे 'he' करावे लागते."
+        },
+        "1": {
+          "en": "'Will be playing' is a future form, but the original statement is in the present continuous.",
+          "hi": "'Will be playing' भविष्य काल का रूप है, जबकि मूल कथन वर्तमान चालू काल में है।",
+          "mr": "'Will be playing' हे भविष्यकाळाचे रूप आहे, पण मूळ विधान चालू वर्तमानकाळात आहे."
+        },
+        "2": {
+          "en": "'Had played' is the past perfect; it changes the meaning of the original statement.",
+          "hi": "'Had played' पूर्ण भूतकाल है; इससे मूल कथन का अर्थ बदल जाता है।",
+          "mr": "'Had played' हा पूर्ण भूतकाळ आहे; त्यामुळे मूळ विधानाचा अर्थ बदलतो."
+        }
+      }
+    },
+    {
+      "key": "rms6-p5-la-04",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Fill in the blank with the correct preposition: The children are afraid ___ the dark.", "hi": "रिक्त स्थान में सही पूर्वसर्ग (preposition) भरें: The children are afraid ___ the dark.", "mr": "रिकाम्या जागी योग्य शब्दयोगी अव्यय (preposition) भरा: The children are afraid ___ the dark." },
+      "optionsJson": [
+        { "en": "of", "hi": "of", "mr": "of" },
+        { "en": "from", "hi": "from", "mr": "from" },
+        { "en": "with", "hi": "with", "mr": "with" },
+        { "en": "at", "hi": "at", "mr": "at" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "The adjective 'afraid' is followed by the preposition 'of', as in 'afraid of the dark'.",
+        "hi": "विशेषण 'afraid' के बाद पूर्वसर्ग 'of' आता है, जैसे 'afraid of the dark'।",
+        "mr": "विशेषण 'afraid' नंतर 'of' हे शब्दयोगी अव्यय येते, जसे 'afraid of the dark'."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "'Afraid from' is not a correct English combination.",
+          "hi": "'Afraid from' अंग्रेज़ी में सही संयोजन नहीं है।",
+          "mr": "'Afraid from' हा इंग्रजीतील योग्य शब्दप्रयोग नाही."
+        },
+        "2": {
+          "en": "'Afraid with' is not used to show what frightens someone.",
+          "hi": "किसी को डराने वाली चीज़ बताने के लिए 'afraid with' का प्रयोग नहीं होता।",
+          "mr": "एखाद्याला कशाची भीती वाटते हे सांगण्यासाठी 'afraid with' वापरत नाहीत."
+        },
+        "3": {
+          "en": "'Afraid at' is incorrect; 'at' is not the preposition used with 'afraid'.",
+          "hi": "'Afraid at' गलत है; 'afraid' के साथ 'at' पूर्वसर्ग नहीं आता।",
+          "mr": "'Afraid at' चुकीचे आहे; 'afraid' सोबत 'at' हे शब्दयोगी अव्यय येत नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p5-la-05",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Arrange the words in the correct order to form a meaningful sentence: (a) library (b) books (c) borrowed (d) from (e) Anil (f) the (g) two",
+        "hi": "शब्दों को सही क्रम में लगाकर अर्थपूर्ण वाक्य बनाएँ: (a) library (b) books (c) borrowed (d) from (e) Anil (f) the (g) two",
+        "mr": "शब्द योग्य क्रमाने लावून अर्थपूर्ण वाक्य तयार करा: (a) library (b) books (c) borrowed (d) from (e) Anil (f) the (g) two"
+      },
+      "optionsJson": [
+        { "en": "e-g-c-b-d-f-a", "hi": "e-g-c-b-d-f-a", "mr": "e-g-c-b-d-f-a" },
+        { "en": "e-c-b-g-d-f-a", "hi": "e-c-b-g-d-f-a", "mr": "e-c-b-g-d-f-a" },
+        { "en": "g-e-c-b-d-f-a", "hi": "g-e-c-b-d-f-a", "mr": "g-e-c-b-d-f-a" },
+        { "en": "e-c-g-b-d-f-a", "hi": "e-c-g-b-d-f-a", "mr": "e-c-g-b-d-f-a" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "The order e-c-g-b-d-f-a gives 'Anil borrowed two books from the library.' The subject comes first, then the verb, then the number before the noun, then the phrase 'from the library'.",
+        "hi": "क्रम e-c-g-b-d-f-a से वाक्य बनता है 'Anil borrowed two books from the library.' पहले कर्ता, फिर क्रिया, फिर संज्ञा से पहले संख्या और अंत में 'from the library' आता है।",
+        "mr": "e-c-g-b-d-f-a या क्रमाने 'Anil borrowed two books from the library.' हे वाक्य तयार होते. आधी कर्ता, मग क्रियापद, मग नामाआधी संख्या आणि शेवटी 'from the library' येते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "This gives 'Anil two borrowed books from the library', where the number wrongly comes before the verb.",
+          "hi": "इससे 'Anil two borrowed books from the library' बनता है, जिसमें संख्या गलत ढंग से क्रिया से पहले आ गई है।",
+          "mr": "यामुळे 'Anil two borrowed books from the library' असे वाक्य बनते, ज्यात संख्या चुकीने क्रियापदाआधी आली आहे."
+        },
+        "1": {
+          "en": "This gives 'Anil borrowed books two from the library'; a number must come before the noun it describes.",
+          "hi": "इससे 'Anil borrowed books two from the library' बनता है; संख्या अपनी संज्ञा से पहले आनी चाहिए।",
+          "mr": "यामुळे 'Anil borrowed books two from the library' असे बनते; संख्या ज्या नामाबद्दल सांगते त्याआधी यायला हवी."
+        },
+        "2": {
+          "en": "This begins with 'two', leaving no proper subject at the start and producing a meaningless sentence.",
+          "hi": "यह 'two' से शुरू होता है, जिससे आरंभ में उचित कर्ता नहीं रहता और वाक्य निरर्थक बनता है।",
+          "mr": "हे 'two' ने सुरू होते, त्यामुळे सुरुवातीला योग्य कर्ता राहत नाही आणि वाक्य अर्थहीन होते."
+        }
+      }
+    },
+    {
+      "key": "rms6-p5-la-06",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Identify the part of the sentence that has an error: \"One of my friends / are coming / to the party / tonight.\"",
+        "hi": "वाक्य का वह भाग पहचानें जिसमें त्रुटि है: \"One of my friends / are coming / to the party / tonight.\"",
+        "mr": "वाक्याचा तो भाग ओळखा ज्यात चूक आहे: \"One of my friends / are coming / to the party / tonight.\""
+      },
+      "optionsJson": [
+        { "en": "One of my friends", "hi": "One of my friends", "mr": "One of my friends" },
+        { "en": "are coming", "hi": "are coming", "mr": "are coming" },
+        { "en": "to the party", "hi": "to the party", "mr": "to the party" },
+        { "en": "tonight", "hi": "tonight", "mr": "tonight" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "The real subject is the singular 'One', so the verb must be singular: 'One of my friends is coming'. 'Are coming' is the error.",
+        "hi": "वास्तविक कर्ता एकवचन 'One' है, इसलिए क्रिया भी एकवचन होनी चाहिए: 'One of my friends is coming'। 'Are coming' त्रुटि है।",
+        "mr": "खरा कर्ता एकवचनी 'One' आहे, म्हणून क्रियापदही एकवचनी हवे: 'One of my friends is coming'. 'Are coming' ही चूक आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "'One of my friends' is a correct phrase; the error lies in the verb that follows it.",
+          "hi": "'One of my friends' सही वाक्यांश है; त्रुटि उसके बाद आने वाली क्रिया में है।",
+          "mr": "'One of my friends' हा योग्य वाक्प्रयोग आहे; चूक त्यानंतरच्या क्रियापदात आहे."
+        },
+        "2": {
+          "en": "'To the party' uses the correct preposition after 'coming'.",
+          "hi": "'To the party' में 'coming' के बाद सही पूर्वसर्ग का प्रयोग हुआ है।",
+          "mr": "'To the party' मध्ये 'coming' नंतर योग्य शब्दयोगी अव्यय वापरले आहे."
+        },
+        "3": {
+          "en": "'Tonight' is a correctly used adverb of time.",
+          "hi": "'Tonight' समयवाचक क्रिया-विशेषण है और सही प्रयुक्त हुआ है।",
+          "mr": "'Tonight' हे कालवाचक क्रियाविशेषण योग्य प्रकारे वापरले आहे."
+        }
+      }
+    },
+    {
+      "key": "rms6-p5-la-07",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Change into the active voice: The window was broken by the naughty boy.", "hi": "कर्तृवाच्य (active voice) में बदलें: The window was broken by the naughty boy.", "mr": "कर्तरी प्रयोगात (active voice) रूपांतर करा: The window was broken by the naughty boy." },
+      "optionsJson": [
+        { "en": "The naughty boy broke the window.", "hi": "The naughty boy broke the window.", "mr": "The naughty boy broke the window." },
+        { "en": "The naughty boy breaks the window.", "hi": "The naughty boy breaks the window.", "mr": "The naughty boy breaks the window." },
+        { "en": "The naughty boy has broken the window.", "hi": "The naughty boy has broken the window.", "mr": "The naughty boy has broken the window." },
+        { "en": "The naughty boy was breaking the window.", "hi": "The naughty boy was breaking the window.", "mr": "The naughty boy was breaking the window." }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "'Was broken' is the simple past passive, so the active verb is the simple past 'broke'.",
+        "hi": "'Was broken' सामान्य भूतकाल का कर्मवाच्य है, इसलिए कर्तृवाच्य में सामान्य भूतकाल की क्रिया 'broke' आएगी।",
+        "mr": "'Was broken' हे साध्या भूतकाळातील कर्मणी रूप आहे, म्हणून कर्तरीत साध्या भूतकाळाचे क्रियापद 'broke' येईल."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "'Breaks' is the simple present, which changes the tense of the sentence.",
+          "hi": "'Breaks' सामान्य वर्तमान काल है, जिससे वाक्य का काल बदल जाता है।",
+          "mr": "'Breaks' हा साधा वर्तमानकाळ आहे, त्यामुळे वाक्याचा काळ बदलतो."
+        },
+        "2": {
+          "en": "'Has broken' is the present perfect, not the simple past.",
+          "hi": "'Has broken' पूर्ण वर्तमान काल है, सामान्य भूतकाल नहीं।",
+          "mr": "'Has broken' हा पूर्ण वर्तमानकाळ आहे, साधा भूतकाळ नाही."
+        },
+        "3": {
+          "en": "'Was breaking' is the past continuous, which does not match the simple past passive.",
+          "hi": "'Was breaking' भूतकाल का चालू रूप है, जो सामान्य भूतकाल के कर्मवाच्य से मेल नहीं खाता।",
+          "mr": "'Was breaking' हा चालू भूतकाळ आहे, जो साध्या भूतकाळातील कर्मणी रूपाशी जुळत नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p5-la-08",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Choose the correct direct speech for: The teacher told the students that they would have a test the next day.",
+        "hi": "इसका सही प्रत्यक्ष कथन (direct speech) चुनें: The teacher told the students that they would have a test the next day.",
+        "mr": "याचे योग्य प्रत्यक्ष कथन (direct speech) निवडा: The teacher told the students that they would have a test the next day."
+      },
+      "optionsJson": [
+        { "en": "The teacher said to the students, \"They will have a test tomorrow.\"", "hi": "The teacher said to the students, \"They will have a test tomorrow.\"", "mr": "The teacher said to the students, \"They will have a test tomorrow.\"" },
+        { "en": "The teacher said to the students, \"You would have a test the next day.\"", "hi": "The teacher said to the students, \"You would have a test the next day.\"", "mr": "The teacher said to the students, \"You would have a test the next day.\"" },
+        { "en": "The teacher said to the students, \"You will have a test tomorrow.\"", "hi": "The teacher said to the students, \"You will have a test tomorrow.\"", "mr": "The teacher said to the students, \"You will have a test tomorrow.\"" },
+        { "en": "The teacher said to the students, \"We will have a test tomorrow.\"", "hi": "The teacher said to the students, \"We will have a test tomorrow.\"", "mr": "The teacher said to the students, \"We will have a test tomorrow.\"" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Going back to direct speech, 'they' (the listeners) becomes 'you', 'would' becomes 'will', and 'the next day' becomes 'tomorrow'.",
+        "hi": "प्रत्यक्ष कथन में लौटते समय 'they' (श्रोता) 'you' बन जाता है, 'would' 'will' बन जाता है और 'the next day' 'tomorrow' बन जाता है।",
+        "mr": "प्रत्यक्ष कथनाकडे परत जाताना 'they' (श्रोते) चे 'you' होते, 'would' चे 'will' होते आणि 'the next day' चे 'tomorrow' होते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "'They' refers to the students who are being spoken to, so it must become 'you' in direct speech.",
+          "hi": "'They' उन विद्यार्थियों के लिए है जिनसे बात की जा रही है, इसलिए प्रत्यक्ष कथन में यह 'you' होना चाहिए।",
+          "mr": "'They' हे ज्या विद्यार्थ्यांशी बोलले जात आहे त्यांच्यासाठी आहे, म्हणून प्रत्यक्ष कथनात ते 'you' व्हायला हवे."
+        },
+        "1": {
+          "en": "'Would' and 'the next day' are indirect-speech forms; direct speech uses 'will' and 'tomorrow'.",
+          "hi": "'Would' और 'the next day' अप्रत्यक्ष कथन के रूप हैं; प्रत्यक्ष कथन में 'will' और 'tomorrow' आते हैं।",
+          "mr": "'Would' आणि 'the next day' ही अप्रत्यक्ष कथनाची रूपे आहेत; प्रत्यक्ष कथनात 'will' आणि 'tomorrow' येतात."
+        },
+        "3": {
+          "en": "'We' would include the teacher, which is not what the original sentence says.",
+          "hi": "'We' में शिक्षक भी शामिल हो जाएगा, जबकि मूल वाक्य ऐसा नहीं कहता।",
+          "mr": "'We' मध्ये शिक्षकही येतील, पण मूळ वाक्य तसे सांगत नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p5-la-09",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Choose the correct indirect speech: The mother asked Gita, \"Where did you keep my keys?\"",
+        "hi": "सही अप्रत्यक्ष कथन (indirect speech) चुनें: The mother asked Gita, \"Where did you keep my keys?\"",
+        "mr": "योग्य अप्रत्यक्ष कथन (indirect speech) निवडा: The mother asked Gita, \"Where did you keep my keys?\""
+      },
+      "optionsJson": [
+        { "en": "The mother asked Gita where did she keep her keys.", "hi": "The mother asked Gita where did she keep her keys.", "mr": "The mother asked Gita where did she keep her keys." },
+        { "en": "The mother asked Gita where she had kept her keys.", "hi": "The mother asked Gita where she had kept her keys.", "mr": "The mother asked Gita where she had kept her keys." },
+        { "en": "The mother asked Gita where she kept my keys.", "hi": "The mother asked Gita where she kept my keys.", "mr": "The mother asked Gita where she kept my keys." },
+        { "en": "The mother asked Gita where had she kept her keys.", "hi": "The mother asked Gita where had she kept her keys.", "mr": "The mother asked Gita where had she kept her keys." }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "In indirect speech a question takes statement word order. The simple past 'did keep' shifts to the past perfect 'had kept', 'you' becomes 'she', and the mother's 'my' becomes 'her'.",
+        "hi": "अप्रत्यक्ष कथन में प्रश्न का शब्द-क्रम सामान्य वाक्य जैसा हो जाता है। सामान्य भूतकाल 'did keep' बदलकर 'had kept' हो जाता है, 'you' 'she' बन जाता है और माँ का 'my' 'her' बन जाता है।",
+        "mr": "अप्रत्यक्ष कथनात प्रश्नाचा शब्दक्रम सामान्य विधानासारखा होतो. साधा भूतकाळ 'did keep' चा 'had kept' होतो, 'you' चे 'she' होते आणि आईचे 'my' चे 'her' होते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Indirect speech does not use question word order ('did she keep'); it should be 'she had kept'.",
+          "hi": "अप्रत्यक्ष कथन में प्रश्न वाला शब्द-क्रम ('did she keep') नहीं आता; सही रूप 'she had kept' है।",
+          "mr": "अप्रत्यक्ष कथनात प्रश्नाचा शब्दक्रम ('did she keep') येत नाही; योग्य रूप 'she had kept' आहे."
+        },
+        "2": {
+          "en": "The tense is not shifted to the past perfect and 'my' is not changed to 'her'.",
+          "hi": "काल को पूर्ण भूतकाल में नहीं बदला गया है और 'my' को 'her' नहीं किया गया है।",
+          "mr": "काळ पूर्ण भूतकाळात बदललेला नाही आणि 'my' चे 'her' केलेले नाही."
+        },
+        "3": {
+          "en": "'Where had she kept' still uses question word order, which is not allowed in indirect speech.",
+          "hi": "'Where had she kept' में अब भी प्रश्न वाला शब्द-क्रम है, जो अप्रत्यक्ष कथन में मान्य नहीं है।",
+          "mr": "'Where had she kept' मध्ये अजूनही प्रश्नाचा शब्दक्रम आहे, जो अप्रत्यक्ष कथनात चालत नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p5-la-10",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Choose the correct passive form of: \"Who has broken my pencil box?\"",
+        "hi": "इसका सही कर्मवाच्य (passive voice) रूप चुनें: \"Who has broken my pencil box?\"",
+        "mr": "याचे योग्य कर्मणी (passive voice) रूप निवडा: \"Who has broken my pencil box?\""
+      },
+      "optionsJson": [
+        { "en": "By whom my pencil box has been broken?", "hi": "By whom my pencil box has been broken?", "mr": "By whom my pencil box has been broken?" },
+        { "en": "By whom is my pencil box being broken?", "hi": "By whom is my pencil box being broken?", "mr": "By whom is my pencil box being broken?" },
+        { "en": "By whom was my pencil box broken?", "hi": "By whom was my pencil box broken?", "mr": "By whom was my pencil box broken?" },
+        { "en": "By whom has my pencil box been broken?", "hi": "By whom has my pencil box been broken?", "mr": "By whom has my pencil box been broken?" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "The present perfect 'has broken' becomes 'has been broken' in the passive, and 'Who' becomes 'By whom', with the helping verb placed before the subject in the question.",
+        "hi": "पूर्ण वर्तमान काल 'has broken' कर्मवाच्य में 'has been broken' बन जाता है और 'Who' बदलकर 'By whom' हो जाता है; प्रश्न में सहायक क्रिया कर्ता से पहले आती है।",
+        "mr": "पूर्ण वर्तमानकाळ 'has broken' कर्मणी रचनेत 'has been broken' होतो आणि 'Who' चे 'By whom' होते; प्रश्नात साहाय्यक क्रियापद कर्त्याआधी येते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The word order is wrong; the helping verb 'has' must come right after 'By whom'.",
+          "hi": "शब्द-क्रम गलत है; सहायक क्रिया 'has' 'By whom' के तुरंत बाद आनी चाहिए।",
+          "mr": "शब्दक्रम चुकीचा आहे; साहाय्यक क्रियापद 'has' 'By whom' नंतर लगेच यायला हवे."
+        },
+        "1": {
+          "en": "'Is being broken' is the present continuous passive, but the original sentence is in the present perfect.",
+          "hi": "'Is being broken' वर्तमान चालू काल का कर्मवाच्य है, जबकि मूल वाक्य पूर्ण वर्तमान काल में है।",
+          "mr": "'Is being broken' हे चालू वर्तमानकाळातील कर्मणी रूप आहे, पण मूळ वाक्य पूर्ण वर्तमानकाळात आहे."
+        },
+        "2": {
+          "en": "'Was broken' is the simple past passive, which does not match the present perfect of the original.",
+          "hi": "'Was broken' सामान्य भूतकाल का कर्मवाच्य है, जो मूल वाक्य के पूर्ण वर्तमान काल से मेल नहीं खाता।",
+          "mr": "'Was broken' हे साध्या भूतकाळातील कर्मणी रूप आहे, जे मूळ वाक्याच्या पूर्ण वर्तमानकाळाशी जुळत नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p5-la-11",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Fill in the blank: If it rains tomorrow, we ___ the picnic.", "hi": "रिक्त स्थान भरें: If it rains tomorrow, we ___ the picnic.", "mr": "रिकामी जागा भरा: If it rains tomorrow, we ___ the picnic." },
+      "optionsJson": [
+        { "en": "will cancel", "hi": "will cancel", "mr": "will cancel" },
+        { "en": "would cancel", "hi": "would cancel", "mr": "would cancel" },
+        { "en": "cancelled", "hi": "cancelled", "mr": "cancelled" },
+        { "en": "had cancelled", "hi": "had cancelled", "mr": "had cancelled" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "A real possibility in the future follows the pattern 'If + simple present, will + base verb'. So 'we will cancel the picnic'.",
+        "hi": "भविष्य की वास्तविक संभावना का ढाँचा है 'If + simple present, will + क्रिया का मूल रूप'। इसलिए 'we will cancel the picnic' सही है।",
+        "mr": "भविष्यातील खऱ्या शक्यतेचा आराखडा 'If + simple present, will + क्रियापदाचे मूळ रूप' असा असतो. म्हणून 'we will cancel the picnic' बरोबर आहे."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "'Would cancel' is used for an imaginary condition, not a real future possibility.",
+          "hi": "'Would cancel' काल्पनिक शर्त के लिए प्रयुक्त होता है, भविष्य की वास्तविक संभावना के लिए नहीं।",
+          "mr": "'Would cancel' काल्पनिक अटीसाठी वापरतात, भविष्यातील खऱ्या शक्यतेसाठी नाही."
+        },
+        "2": {
+          "en": "The simple past 'cancelled' cannot follow 'If + simple present' in a real future condition.",
+          "hi": "भविष्य की वास्तविक शर्त में 'If + simple present' के बाद सामान्य भूतकाल 'cancelled' नहीं आ सकता।",
+          "mr": "भविष्यातील खऱ्या अटीत 'If + simple present' नंतर साधा भूतकाळ 'cancelled' येऊ शकत नाही."
+        },
+        "3": {
+          "en": "'Had cancelled' is the past perfect, used for a past unreal condition.",
+          "hi": "'Had cancelled' पूर्ण भूतकाल है, जो भूतकाल की काल्पनिक शर्त के लिए प्रयुक्त होता है।",
+          "mr": "'Had cancelled' हा पूर्ण भूतकाळ आहे, जो भूतकाळातील काल्पनिक अटीसाठी वापरतात."
+        }
+      }
+    },
+    {
+      "key": "rms6-p5-la-12",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Fill in the blank: Please give me ___ water; I am very thirsty.", "hi": "रिक्त स्थान भरें: Please give me ___ water; I am very thirsty.", "mr": "रिकामी जागा भरा: Please give me ___ water; I am very thirsty." },
+      "optionsJson": [
+        { "en": "a few", "hi": "a few", "mr": "a few" },
+        { "en": "many", "hi": "many", "mr": "many" },
+        { "en": "a little", "hi": "a little", "mr": "a little" },
+        { "en": "a number of", "hi": "a number of", "mr": "a number of" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Water is an uncountable noun, so 'a little' is used. 'A few', 'many' and 'a number of' go with countable nouns.",
+        "hi": "Water अगणनीय संज्ञा है, इसलिए 'a little' का प्रयोग होता है। 'A few', 'many' और 'a number of' गणनीय संज्ञाओं के साथ आते हैं।",
+        "mr": "Water हे अगणनीय नाम आहे, म्हणून 'a little' वापरतात. 'A few', 'many' आणि 'a number of' गणनीय नामांसोबत येतात."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "'A few' is used with plural countable nouns, but water is uncountable.",
+          "hi": "'A few' बहुवचन गणनीय संज्ञाओं के साथ आता है, जबकि water अगणनीय है।",
+          "mr": "'A few' अनेकवचनी गणनीय नामांसोबत येते, पण water अगणनीय आहे."
+        },
+        "1": {
+          "en": "'Many' is used with plural countable nouns, not with water.",
+          "hi": "'Many' बहुवचन गणनीय संज्ञाओं के साथ आता है, water के साथ नहीं।",
+          "mr": "'Many' अनेकवचनी गणनीय नामांसोबत येते, water सोबत नाही."
+        },
+        "3": {
+          "en": "'A number of' must be followed by a plural countable noun.",
+          "hi": "'A number of' के बाद बहुवचन गणनीय संज्ञा आनी चाहिए।",
+          "mr": "'A number of' नंतर अनेकवचनी गणनीय नाम यायला हवे."
+        }
+      }
+    },
+    {
+      "key": "rms6-p5-la-13",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Choose the correct sentence.", "hi": "सही वाक्य चुनें।", "mr": "योग्य वाक्य निवडा." },
+      "optionsJson": [
+        { "en": "He is one of the best player in the school.", "hi": "He is one of the best player in the school.", "mr": "He is one of the best player in the school." },
+        { "en": "He is one of the best players in the school.", "hi": "He is one of the best players in the school.", "mr": "He is one of the best players in the school." },
+        { "en": "He is one of the most best players in the school.", "hi": "He is one of the most best players in the school.", "mr": "He is one of the most best players in the school." },
+        { "en": "He is one of best players in the school.", "hi": "He is one of best players in the school.", "mr": "He is one of best players in the school." }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "'One of the best' must be followed by a plural noun, so 'players' is correct. The article 'the' is needed before 'best', and 'best' must not be preceded by 'most'.",
+        "hi": "'One of the best' के बाद बहुवचन संज्ञा आनी चाहिए, इसलिए 'players' सही है। 'Best' से पहले 'the' आवश्यक है और 'best' से पहले 'most' नहीं लगता।",
+        "mr": "'One of the best' नंतर अनेकवचनी नाम यायला हवे, म्हणून 'players' बरोबर आहे. 'Best' आधी 'the' आवश्यक आहे आणि 'best' आधी 'most' लावत नाहीत."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "'One of the best' needs a plural noun, so the singular 'player' is wrong.",
+          "hi": "'One of the best' के बाद बहुवचन संज्ञा चाहिए, इसलिए एकवचन 'player' गलत है।",
+          "mr": "'One of the best' नंतर अनेकवचनी नाम हवे, म्हणून एकवचनी 'player' चुकीचे आहे."
+        },
+        "2": {
+          "en": "'Most best' is a double superlative; 'best' is already the superlative form, so 'most' must not be added.",
+          "hi": "'Most best' दोहरी उत्तमावस्था है; 'best' पहले से उत्तमावस्था का रूप है, इसलिए उसके साथ 'most' नहीं लगाना चाहिए।",
+          "mr": "'Most best' ही दुहेरी उत्तमावस्था आहे; 'best' हे आधीच उत्तमावस्थेचे रूप आहे, म्हणून त्यासोबत 'most' लावू नये."
+        },
+        "3": {
+          "en": "A superlative such as 'best' needs 'the' before it, so 'of best' is wrong.",
+          "hi": "'Best' जैसे उत्तमावस्था वाले शब्द से पहले 'the' चाहिए, इसलिए 'of best' गलत है।",
+          "mr": "'Best' सारख्या उत्तमावस्थेतील शब्दाआधी 'the' हवे, म्हणून 'of best' चुकीचे आहे."
+        }
+      }
+    },
+    {
+      "key": "rms6-p5-la-14",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Arrange the sentences in the correct order to make a meaningful paragraph.\nP. Then she carefully planted it in a small pot.\nQ. Rani found a tiny seed in the garden.\nR. Within a week, a green shoot appeared.\nS. Every morning she watered the pot.",
+        "hi": "वाक्यों को सही क्रम में लगाकर अर्थपूर्ण अनुच्छेद बनाएँ।\nP. Then she carefully planted it in a small pot.\nQ. Rani found a tiny seed in the garden.\nR. Within a week, a green shoot appeared.\nS. Every morning she watered the pot.",
+        "mr": "वाक्ये योग्य क्रमाने लावून अर्थपूर्ण परिच्छेद तयार करा.\nP. Then she carefully planted it in a small pot.\nQ. Rani found a tiny seed in the garden.\nR. Within a week, a green shoot appeared.\nS. Every morning she watered the pot."
+      },
+      "optionsJson": [
+        { "en": "QSPR", "hi": "QSPR", "mr": "QSPR" },
+        { "en": "PQSR", "hi": "PQSR", "mr": "PQSR" },
+        { "en": "RQPS", "hi": "RQPS", "mr": "RQPS" },
+        { "en": "QPSR", "hi": "QPSR", "mr": "QPSR" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Rani first finds the seed (Q), then plants it (P), waters the pot every morning (S), and a shoot appears within a week (R). The order is QPSR.",
+        "hi": "रानी पहले बीज पाती है (Q), फिर उसे बोती है (P), हर सुबह गमले में पानी देती है (S) और एक सप्ताह में अंकुर निकल आता है (R)। क्रम QPSR है।",
+        "mr": "राणीला आधी बी सापडते (Q), मग ती ते लावते (P), रोज सकाळी कुंडीला पाणी घालते (S) आणि आठवडाभरात कोंब येतो (R). क्रम QPSR आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The pot cannot be watered (S) before the seed is planted in it (P).",
+          "hi": "बीज बोने (P) से पहले गमले में पानी देना (S) संभव नहीं है।",
+          "mr": "बी लावण्यापूर्वी (P) कुंडीला पाणी घालणे (S) शक्य नाही."
+        },
+        "1": {
+          "en": "P begins with 'Then' and uses 'it', so it cannot open the paragraph.",
+          "hi": "P 'Then' से शुरू होता है और उसमें 'it' आया है, इसलिए वह अनुच्छेद का पहला वाक्य नहीं हो सकता।",
+          "mr": "P 'Then' ने सुरू होते आणि त्यात 'it' आहे, म्हणून ते परिच्छेदाचे पहिले वाक्य असू शकत नाही."
+        },
+        "2": {
+          "en": "A shoot cannot appear (R) before the seed is found, planted and watered.",
+          "hi": "बीज मिलने, बोने और पानी देने से पहले अंकुर (R) नहीं निकल सकता।",
+          "mr": "बी सापडण्यापूर्वी, लावण्यापूर्वी आणि पाणी घालण्यापूर्वी कोंब (R) येऊ शकत नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p5-la-15",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Fill in the blank: Had I known about the traffic jam, I ___ earlier.", "hi": "रिक्त स्थान भरें: Had I known about the traffic jam, I ___ earlier.", "mr": "रिकामी जागा भरा: Had I known about the traffic jam, I ___ earlier." },
+      "optionsJson": [
+        { "en": "would leave", "hi": "would leave", "mr": "would leave" },
+        { "en": "will have left", "hi": "will have left", "mr": "will have left" },
+        { "en": "would have left", "hi": "would have left", "mr": "would have left" },
+        { "en": "had left", "hi": "had left", "mr": "had left" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "'Had I known' is an unreal past condition (the same as 'If I had known'). Its result clause takes 'would have + past participle': 'I would have left earlier'.",
+        "hi": "'Had I known' भूतकाल की काल्पनिक शर्त है ('If I had known' के समान)। इसके परिणाम वाले भाग में 'would have + past participle' आता है: 'I would have left earlier'।",
+        "mr": "'Had I known' ही भूतकाळातील काल्पनिक अट आहे ('If I had known' प्रमाणे). त्याच्या परिणाम-भागात 'would have + past participle' येते: 'I would have left earlier'."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "'Would leave' does not show the unreal past needed after 'Had I known'.",
+          "hi": "'Would leave' 'Had I known' के बाद आवश्यक भूतकाल की काल्पनिकता नहीं दर्शाता।",
+          "mr": "'Would leave' हे 'Had I known' नंतर आवश्यक असलेली भूतकाळातील काल्पनिकता दर्शवत नाही."
+        },
+        "1": {
+          "en": "'Will have left' is a future perfect form and cannot go with a past unreal condition.",
+          "hi": "'Will have left' पूर्ण भविष्य काल का रूप है और भूतकाल की काल्पनिक शर्त के साथ नहीं आ सकता।",
+          "mr": "'Will have left' हे पूर्ण भविष्यकाळाचे रूप आहे आणि भूतकाळातील काल्पनिक अटीसोबत येऊ शकत नाही."
+        },
+        "3": {
+          "en": "'Had left' is the past perfect; the result clause needs 'would have' plus the past participle.",
+          "hi": "'Had left' पूर्ण भूतकाल है; परिणाम वाले भाग में 'would have' और past participle चाहिए।",
+          "mr": "'Had left' हा पूर्ण भूतकाळ आहे; परिणाम-भागात 'would have' आणि past participle हवे."
+        }
+      }
+    },
+    {
+      "key": "rms6-p5-la-16",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Choose the correct indirect speech: The teacher said to the boy, \"Sit down.\"", "hi": "सही अप्रत्यक्ष कथन (indirect speech) चुनें: The teacher said to the boy, \"Sit down.\"", "mr": "योग्य अप्रत्यक्ष कथन (indirect speech) निवडा: The teacher said to the boy, \"Sit down.\"" },
+      "optionsJson": [
+        { "en": "The teacher ordered the boy to sit down.", "hi": "The teacher ordered the boy to sit down.", "mr": "The teacher ordered the boy to sit down." },
+        { "en": "The teacher asked the boy that he sits down.", "hi": "The teacher asked the boy that he sits down.", "mr": "The teacher asked the boy that he sits down." },
+        { "en": "The teacher told the boy he was sitting down.", "hi": "The teacher told the boy he was sitting down.", "mr": "The teacher told the boy he was sitting down." },
+        { "en": "The teacher said to the boy that sit down.", "hi": "The teacher said to the boy that sit down.", "mr": "The teacher said to the boy that sit down." }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "'Sit down' is a command. A command is reported with a verb like 'ordered' or 'told' followed by 'to + verb': 'ordered the boy to sit down'.",
+        "hi": "'Sit down' एक आदेश है। आदेश को 'ordered' या 'told' जैसी क्रिया और उसके बाद 'to + क्रिया' से बताया जाता है: 'ordered the boy to sit down'।",
+        "mr": "'Sit down' हा आदेश आहे. आदेश 'ordered' किंवा 'told' सारख्या क्रियापदाने आणि त्यानंतर 'to + क्रियापद' ने सांगतात: 'ordered the boy to sit down'."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "A command is reported with 'to + verb', not with 'that he sits'.",
+          "hi": "आदेश को 'to + क्रिया' से बताया जाता है, 'that he sits' से नहीं।",
+          "mr": "आदेश 'to + क्रियापद' ने सांगतात, 'that he sits' ने नाही."
+        },
+        "2": {
+          "en": "This turns the command into a statement and changes its meaning.",
+          "hi": "यह आदेश को सामान्य कथन बना देता है और अर्थ बदल देता है।",
+          "mr": "यामुळे आदेशाचे साधे विधान होते आणि अर्थ बदलतो."
+        },
+        "3": {
+          "en": "'Said to the boy that sit down' is ungrammatical; a command is reported with an infinitive.",
+          "hi": "'Said to the boy that sit down' व्याकरण की दृष्टि से गलत है; आदेश को infinitive से बताया जाता है।",
+          "mr": "'Said to the boy that sit down' हे व्याकरणदृष्ट्या चुकीचे आहे; आदेश infinitive ने सांगतात."
+        }
+      }
+    },
+    {
+      "key": "rms6-p5-la-17",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Choose the word closest in meaning to 'abundant'.", "hi": "'abundant' के अर्थ के सबसे निकट शब्द चुनें।", "mr": "'abundant' च्या अर्थाच्या सर्वात जवळचा शब्द निवडा." },
+      "optionsJson": [
+        { "en": "scarce", "hi": "scarce (दुर्लभ)", "mr": "scarce (दुर्मिळ)" },
+        { "en": "plentiful", "hi": "plentiful (प्रचुर)", "mr": "plentiful (विपुल)" },
+        { "en": "expensive", "hi": "expensive (महँगा)", "mr": "expensive (महाग)" },
+        { "en": "ordinary", "hi": "ordinary (साधारण)", "mr": "ordinary (साधारण)" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "'Abundant' means existing in large quantities, which is the same as 'plentiful'.",
+        "hi": "'Abundant' का अर्थ है बड़ी मात्रा में उपलब्ध, जो 'plentiful' (प्रचुर) के समान है।",
+        "mr": "'Abundant' म्हणजे मोठ्या प्रमाणात उपलब्ध, जे 'plentiful' (विपुल) सारखेच आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "'Scarce' means rare or in short supply, which is the opposite of 'abundant'.",
+          "hi": "'Scarce' का अर्थ है दुर्लभ या कम मात्रा में, जो 'abundant' का विलोम है।",
+          "mr": "'Scarce' म्हणजे दुर्मिळ किंवा कमी प्रमाणात, जो 'abundant' चा विरुद्धार्थी शब्द आहे."
+        },
+        "2": {
+          "en": "'Expensive' means costing a lot of money; it says nothing about quantity.",
+          "hi": "'Expensive' का अर्थ है बहुत कीमती; इसका मात्रा से कोई संबंध नहीं है।",
+          "mr": "'Expensive' म्हणजे खूप किमतीचे; त्याचा प्रमाणाशी काही संबंध नाही."
+        },
+        "3": {
+          "en": "'Ordinary' means normal or common, not large in quantity.",
+          "hi": "'Ordinary' का अर्थ है सामान्य, न कि बड़ी मात्रा में।",
+          "mr": "'Ordinary' म्हणजे सामान्य, मोठ्या प्रमाणात असा त्याचा अर्थ नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p5-la-18",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Choose the word opposite in meaning to 'ancient'.", "hi": "'ancient' का विलोम (विपरीत अर्थ वाला) शब्द चुनें।", "mr": "'ancient' चा विरुद्धार्थी शब्द निवडा." },
+      "optionsJson": [
+        { "en": "modern", "hi": "modern (आधुनिक)", "mr": "modern (आधुनिक)" },
+        { "en": "old", "hi": "old (पुराना)", "mr": "old (जुना)" },
+        { "en": "historic", "hi": "historic (ऐतिहासिक)", "mr": "historic (ऐतिहासिक)" },
+        { "en": "famous", "hi": "famous (प्रसिद्ध)", "mr": "famous (प्रसिद्ध)" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "'Ancient' means belonging to the very distant past, so its opposite is 'modern'.",
+        "hi": "'Ancient' का अर्थ है बहुत प्राचीन काल का, इसलिए इसका विलोम 'modern' है।",
+        "mr": "'Ancient' म्हणजे फार प्राचीन काळातील, म्हणून त्याचा विरुद्धार्थी शब्द 'modern' आहे."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "'Old' is similar in meaning to 'ancient', not opposite.",
+          "hi": "'Old' का अर्थ 'ancient' से मिलता-जुलता है, विपरीत नहीं।",
+          "mr": "'Old' चा अर्थ 'ancient' सारखा आहे, विरुद्ध नाही."
+        },
+        "2": {
+          "en": "'Historic' describes something important in history, so it is not an opposite.",
+          "hi": "'Historic' इतिहास में महत्वपूर्ण चीज़ को बताता है, इसलिए यह विलोम नहीं है।",
+          "mr": "'Historic' म्हणजे इतिहासात महत्त्वाचे, म्हणून हा विरुद्धार्थी शब्द नाही."
+        },
+        "3": {
+          "en": "'Famous' means well known and has no connection with time.",
+          "hi": "'Famous' का अर्थ प्रसिद्ध है और इसका समय से कोई संबंध नहीं है।",
+          "mr": "'Famous' म्हणजे प्रसिद्ध आणि त्याचा काळाशी काही संबंध नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p5-la-19",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "What does the idiom 'to let the cat out of the bag' mean?", "hi": "मुहावरे 'to let the cat out of the bag' का क्या अर्थ है?", "mr": "'to let the cat out of the bag' या वाक्प्रचाराचा अर्थ काय आहे?" },
+      "optionsJson": [
+        { "en": "to feed a pet cat", "hi": "पालतू बिल्ली को खाना खिलाना", "mr": "पाळीव मांजराला खायला घालणे" },
+        { "en": "to lose something valuable", "hi": "कोई कीमती चीज़ खो देना", "mr": "एखादी मौल्यवान वस्तू हरवणे" },
+        { "en": "to reveal a secret by mistake", "hi": "गलती से कोई राज़ खोल देना", "mr": "चुकून एखादे गुपित उघड करणे" },
+        { "en": "to make a lot of noise", "hi": "बहुत शोर मचाना", "mr": "खूप गोंधळ घालणे" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "'To let the cat out of the bag' means to reveal a secret, usually by accident.",
+        "hi": "'To let the cat out of the bag' का अर्थ है कोई राज़ खोल देना, आमतौर पर अनजाने में।",
+        "mr": "'To let the cat out of the bag' म्हणजे गुपित उघड करणे, सहसा अनवधानाने."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "This takes the idiom literally; it has nothing to do with feeding a cat.",
+          "hi": "यह मुहावरे का शाब्दिक अर्थ लेता है; इसका बिल्ली को खिलाने से कोई संबंध नहीं है।",
+          "mr": "हा वाक्प्रचाराचा शब्दशः अर्थ घेतो; त्याचा मांजराला खायला घालण्याशी काही संबंध नाही."
+        },
+        "1": {
+          "en": "The idiom is about secrets, not about losing valuables.",
+          "hi": "यह मुहावरा राज़ के बारे में है, कीमती चीज़ खोने के बारे में नहीं।",
+          "mr": "हा वाक्प्रचार गुपिताबद्दल आहे, मौल्यवान वस्तू हरवण्याबद्दल नाही."
+        },
+        "3": {
+          "en": "The idiom does not refer to noise or commotion.",
+          "hi": "यह मुहावरा शोर या हंगामे की ओर संकेत नहीं करता।",
+          "mr": "हा वाक्प्रचार आवाज किंवा गोंधळाकडे निर्देश करत नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p5-la-20",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Choose one word for: a person who cannot read or write.", "hi": "एक शब्द चुनें: ऐसा व्यक्ति जो पढ़-लिख नहीं सकता।", "mr": "एक शब्द निवडा: जी व्यक्ती वाचू किंवा लिहू शकत नाही." },
+      "optionsJson": [
+        { "en": "ignorant", "hi": "ignorant (अज्ञानी)", "mr": "ignorant (अज्ञानी)" },
+        { "en": "innocent", "hi": "innocent (निर्दोष)", "mr": "innocent (निर्दोष)" },
+        { "en": "immature", "hi": "immature (अपरिपक्व)", "mr": "immature (अपरिपक्व)" },
+        { "en": "illiterate", "hi": "illiterate (निरक्षर)", "mr": "illiterate (निरक्षर)" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "A person who cannot read or write is called 'illiterate'.",
+        "hi": "जो व्यक्ति पढ़-लिख नहीं सकता उसे 'illiterate' (निरक्षर) कहते हैं।",
+        "mr": "जी व्यक्ती वाचू किंवा लिहू शकत नाही तिला 'illiterate' (निरक्षर) म्हणतात."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "'Ignorant' means lacking knowledge; it does not specifically mean being unable to read or write.",
+          "hi": "'Ignorant' का अर्थ है जानकारी की कमी; इसका विशेष अर्थ पढ़-लिख न सकना नहीं है।",
+          "mr": "'Ignorant' म्हणजे माहितीचा अभाव; वाचता-लिहिता न येणे असा त्याचा विशिष्ट अर्थ नाही."
+        },
+        "1": {
+          "en": "'Innocent' means not guilty of any wrongdoing.",
+          "hi": "'Innocent' का अर्थ है किसी गलत काम का दोषी न होना।",
+          "mr": "'Innocent' म्हणजे कोणत्याही चुकीच्या कृत्याचा दोषी नसलेला."
+        },
+        "2": {
+          "en": "'Immature' means not fully grown or developed in behaviour.",
+          "hi": "'Immature' का अर्थ है व्यवहार में पूरी तरह विकसित न होना।",
+          "mr": "'Immature' म्हणजे वागण्यात पूर्ण विकसित न झालेला."
+        }
+      }
+    },
+    {
+      "key": "rms6-p5-la-21",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which sentence uses capital letters correctly?", "hi": "किस वाक्य में बड़े अक्षरों (capital letters) का सही प्रयोग हुआ है?", "mr": "कोणत्या वाक्यात मोठ्या अक्षरांचा (capital letters) योग्य वापर केला आहे?" },
+      "optionsJson": [
+        { "en": "we visited jaipur last diwali.", "hi": "we visited jaipur last diwali.", "mr": "we visited jaipur last diwali." },
+        { "en": "We visited Jaipur last Diwali.", "hi": "We visited Jaipur last Diwali.", "mr": "We visited Jaipur last Diwali." },
+        { "en": "We visited jaipur Last diwali.", "hi": "We visited jaipur Last diwali.", "mr": "We visited jaipur Last diwali." },
+        { "en": "we Visited Jaipur last Diwali.", "hi": "we Visited Jaipur last Diwali.", "mr": "we Visited Jaipur last Diwali." }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "A sentence begins with a capital letter, and the names of places (Jaipur) and festivals (Diwali) also begin with capitals. Ordinary words like 'last' do not.",
+        "hi": "वाक्य बड़े अक्षर से शुरू होता है और स्थानों (Jaipur) तथा त्योहारों (Diwali) के नाम भी बड़े अक्षर से शुरू होते हैं। 'Last' जैसे सामान्य शब्द नहीं।",
+        "mr": "वाक्य मोठ्या अक्षराने सुरू होते आणि ठिकाणांची (Jaipur) व सणांची (Diwali) नावेही मोठ्या अक्षराने सुरू होतात. 'Last' सारखे सामान्य शब्द नाही."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The first word 'We' and the names 'Jaipur' and 'Diwali' all need capital letters.",
+          "hi": "पहले शब्द 'We' तथा नामों 'Jaipur' और 'Diwali' में बड़े अक्षर आवश्यक हैं।",
+          "mr": "पहिले शब्द 'We' आणि 'Jaipur' व 'Diwali' ही नावे यांना मोठे अक्षर हवे."
+        },
+        "2": {
+          "en": "'Jaipur' and 'diwali' are written wrongly, and 'Last' should not be capitalised.",
+          "hi": "'Jaipur' और 'diwali' गलत लिखे गए हैं और 'Last' बड़े अक्षर से नहीं लिखना चाहिए।",
+          "mr": "'Jaipur' आणि 'diwali' चुकीचे लिहिले आहेत आणि 'Last' मोठ्या अक्षराने लिहू नये."
+        },
+        "3": {
+          "en": "The sentence must begin with 'We', and 'Visited' should not be capitalised.",
+          "hi": "वाक्य 'We' से शुरू होना चाहिए और 'Visited' बड़े अक्षर से नहीं लिखना चाहिए।",
+          "mr": "वाक्य 'We' ने सुरू व्हायला हवे आणि 'Visited' मोठ्या अक्षराने लिहू नये."
+        }
+      }
+    },
+    {
+      "key": "rms6-p5-la-22",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Read the passage and answer the question.\nPassage: Tara's grandmother lives in a village near Pune. Every summer vacation, Tara travels there by train. She loves climbing the mango trees and listening to her grandmother's stories at night. This year, however, she must stay in the city to prepare for an entrance exam.\nQuestion: How is Tara most likely to feel about staying in the city this year?",
+        "hi": "अनुच्छेद पढ़ें और प्रश्न का उत्तर दें।\nPassage: Tara's grandmother lives in a village near Pune. Every summer vacation, Tara travels there by train. She loves climbing the mango trees and listening to her grandmother's stories at night. This year, however, she must stay in the city to prepare for an entrance exam.\nप्रश्न: इस वर्ष शहर में ही रुकने के बारे में Tara को सबसे अधिक संभावना से कैसा लगेगा?",
+        "mr": "परिच्छेद वाचा आणि प्रश्नाचे उत्तर द्या.\nPassage: Tara's grandmother lives in a village near Pune. Every summer vacation, Tara travels there by train. She loves climbing the mango trees and listening to her grandmother's stories at night. This year, however, she must stay in the city to prepare for an entrance exam.\nप्रश्न: या वर्षी शहरातच राहण्याबद्दल Tara ला बहुधा कसे वाटेल?"
+      },
+      "optionsJson": [
+        { "en": "Delighted, because she is tired of her village", "hi": "प्रसन्न, क्योंकि वह अपने गाँव से ऊब चुकी है", "mr": "आनंदी, कारण तिला तिच्या गावाचा कंटाळा आला आहे" },
+        { "en": "Angry with her grandmother", "hi": "अपनी दादी/नानी से नाराज़", "mr": "आजीवर रागावलेली" },
+        { "en": "Disappointed, because she will miss her yearly visit", "hi": "निराश, क्योंकि उसकी हर साल की यात्रा छूट जाएगी", "mr": "निराश, कारण तिची दरवर्षीची भेट चुकणार आहे" },
+        { "en": "Relieved, because mango trees are dangerous", "hi": "राहत महसूस करने वाली, क्योंकि आम के पेड़ ख़तरनाक होते हैं", "mr": "निश्चिंत, कारण आंब्याची झाडे धोकादायक असतात" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The passage shows that Tara loves her yearly village visit, with the mango trees and the stories. Missing it this year would most likely disappoint her.",
+        "hi": "अनुच्छेद से पता चलता है कि Tara को आम के पेड़ों और कहानियों के कारण हर साल गाँव जाना बहुत पसंद है। इस वर्ष वह यात्रा छूटने पर उसके निराश होने की सबसे अधिक संभावना है।",
+        "mr": "परिच्छेदावरून दिसते की आंब्याची झाडे आणि गोष्टी यांमुळे Tara ला दरवर्षी गावी जायला खूप आवडते. या वर्षी ती भेट चुकल्याने ती बहुधा निराश होईल."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The passage says she loves the village, so she is not tired of it.",
+          "hi": "अनुच्छेद के अनुसार उसे गाँव पसंद है, इसलिए वह उससे ऊबी नहीं है।",
+          "mr": "परिच्छेदानुसार तिला गाव आवडते, म्हणून तिला त्याचा कंटाळा आलेला नाही."
+        },
+        "1": {
+          "en": "Nothing suggests that her grandmother is the cause; she stays only because of her exam.",
+          "hi": "ऐसा कुछ नहीं दिखता कि इसका कारण उसकी दादी/नानी हैं; वह केवल परीक्षा की तैयारी के कारण रुक रही है।",
+          "mr": "याला आजी कारणीभूत आहे असे काहीही दिसत नाही; ती फक्त परीक्षेच्या तयारीसाठी थांबत आहे."
+        },
+        "3": {
+          "en": "The passage says she loves climbing mango trees, so she does not find them dangerous.",
+          "hi": "अनुच्छेद के अनुसार उसे आम के पेड़ों पर चढ़ना पसंद है, इसलिए वह उन्हें ख़तरनाक नहीं मानती।",
+          "mr": "परिच्छेदानुसार तिला आंब्याच्या झाडांवर चढायला आवडते, म्हणून ती त्यांना धोकादायक मानत नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p5-la-23",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Read the passage and answer the question.\nPassage: The Brahmaputra is one of the longest rivers of Asia. It rises in Tibet, flows through Arunachal Pradesh and Assam, and then enters Bangladesh. During the monsoon, it often floods its banks and spreads rich silt over the fields. The silt makes the land very fertile, but the floods also damage homes and crops.\nQuestion: Which statement is supported by the passage?",
+        "hi": "अनुच्छेद पढ़ें और प्रश्न का उत्तर दें।\nPassage: The Brahmaputra is one of the longest rivers of Asia. It rises in Tibet, flows through Arunachal Pradesh and Assam, and then enters Bangladesh. During the monsoon, it often floods its banks and spreads rich silt over the fields. The silt makes the land very fertile, but the floods also damage homes and crops.\nप्रश्न: अनुच्छेद से कौन-सा कथन समर्थित होता है?",
+        "mr": "परिच्छेद वाचा आणि प्रश्नाचे उत्तर द्या.\nPassage: The Brahmaputra is one of the longest rivers of Asia. It rises in Tibet, flows through Arunachal Pradesh and Assam, and then enters Bangladesh. During the monsoon, it often floods its banks and spreads rich silt over the fields. The silt makes the land very fertile, but the floods also damage homes and crops.\nप्रश्न: परिच्छेदावरून कोणत्या विधानाला आधार मिळतो?"
+      },
+      "optionsJson": [
+        { "en": "Monsoon floods bring both benefit and damage.", "hi": "मानसून की बाढ़ से लाभ भी होता है और नुकसान भी।", "mr": "पावसाळ्यातील पुरामुळे फायदाही होतो आणि नुकसानही." },
+        { "en": "The Brahmaputra begins in Bangladesh.", "hi": "ब्रह्मपुत्र बांग्लादेश से शुरू होती है।", "mr": "ब्रह्मपुत्रा बांगलादेशात सुरू होते." },
+        { "en": "The river never floods its banks.", "hi": "नदी कभी अपने किनारों से बाहर नहीं बहती।", "mr": "नदी कधीही आपल्या काठांवरून वाहत नाही." },
+        { "en": "Silt makes the soil poor for farming.", "hi": "गाद खेती के लिए मिट्टी को खराब कर देती है।", "mr": "गाळामुळे शेतीसाठी जमीन निकृष्ट होते." }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "The passage says the silt makes the land very fertile (a benefit) while the floods damage homes and crops (a harm). So floods bring both benefit and damage.",
+        "hi": "अनुच्छेद के अनुसार गाद भूमि को बहुत उपजाऊ बनाती है (लाभ) जबकि बाढ़ घरों और फ़सलों को नुकसान पहुँचाती है (हानि)। इसलिए बाढ़ से लाभ और नुकसान दोनों होते हैं।",
+        "mr": "परिच्छेदानुसार गाळ जमीन खूप सुपीक बनवतो (फायदा) आणि पूर घरांचे व पिकांचे नुकसान करतो (हानी). म्हणून पुरामुळे फायदा आणि नुकसान दोन्ही होतात."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "The passage says the river rises in Tibet and only later enters Bangladesh.",
+          "hi": "अनुच्छेद के अनुसार नदी तिब्बत से निकलती है और बाद में बांग्लादेश में प्रवेश करती है।",
+          "mr": "परिच्छेदानुसार नदी तिबेटमध्ये उगम पावते आणि नंतर बांगलादेशात प्रवेश करते."
+        },
+        "2": {
+          "en": "The passage says the river often floods its banks during the monsoon.",
+          "hi": "अनुच्छेद के अनुसार मानसून में नदी अक्सर अपने किनारों से बाहर बहती है।",
+          "mr": "परिच्छेदानुसार पावसाळ्यात नदी अनेकदा आपल्या काठांवरून वाहते."
+        },
+        "3": {
+          "en": "The passage says the silt makes the land very fertile, not poor.",
+          "hi": "अनुच्छेद के अनुसार गाद भूमि को बहुत उपजाऊ बनाती है, खराब नहीं।",
+          "mr": "परिच्छेदानुसार गाळ जमीन खूप सुपीक बनवतो, निकृष्ट नाही."
+        }
+      }
+    },
+    {
+      "key": "rms6-p5-la-24",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Which of the following is a complex sentence?", "hi": "इनमें से कौन-सा मिश्र वाक्य (complex sentence) है?", "mr": "यांपैकी कोणते मिश्र वाक्य (complex sentence) आहे?" },
+      "optionsJson": [
+        { "en": "The sun rose, and the birds began to sing.", "hi": "The sun rose, and the birds began to sing.", "mr": "The sun rose, and the birds began to sing." },
+        { "en": "Riya sang and Rohan danced.", "hi": "Riya sang and Rohan danced.", "mr": "Riya sang and Rohan danced." },
+        { "en": "Open the window.", "hi": "Open the window.", "mr": "Open the window." },
+        { "en": "Although it was raining, we went out to play.", "hi": "Although it was raining, we went out to play.", "mr": "Although it was raining, we went out to play." }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "A complex sentence has one main clause and at least one dependent clause. In 'Although it was raining, we went out to play', 'Although it was raining' is the dependent clause and 'we went out to play' is the main clause.",
+        "hi": "मिश्र वाक्य में एक मुख्य उपवाक्य और कम से कम एक आश्रित उपवाक्य होता है। 'Although it was raining, we went out to play' में 'Although it was raining' आश्रित उपवाक्य है और 'we went out to play' मुख्य उपवाक्य है।",
+        "mr": "मिश्र वाक्यात एक मुख्य उपवाक्य आणि किमान एक गौण उपवाक्य असते. 'Although it was raining, we went out to play' मध्ये 'Although it was raining' हे गौण उपवाक्य आणि 'we went out to play' हे मुख्य उपवाक्य आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "This has two independent clauses joined by 'and', so it is a compound sentence.",
+          "hi": "इसमें 'and' से जुड़े दो स्वतंत्र उपवाक्य हैं, इसलिए यह संयुक्त वाक्य है।",
+          "mr": "यात 'and' ने जोडलेली दोन स्वतंत्र उपवाक्ये आहेत, म्हणून हे संयुक्त वाक्य आहे."
+        },
+        "1": {
+          "en": "'Riya sang' and 'Rohan danced' are two independent clauses, so this is a compound sentence.",
+          "hi": "'Riya sang' और 'Rohan danced' दो स्वतंत्र उपवाक्य हैं, इसलिए यह संयुक्त वाक्य है।",
+          "mr": "'Riya sang' आणि 'Rohan danced' ही दोन स्वतंत्र उपवाक्ये आहेत, म्हणून हे संयुक्त वाक्य आहे."
+        },
+        "2": {
+          "en": "This is a single short command with one clause, so it is a simple sentence.",
+          "hi": "यह एक उपवाक्य वाला छोटा आदेश है, इसलिए यह सरल वाक्य है।",
+          "mr": "हा एकच उपवाक्य असलेला छोटा आदेश आहे, म्हणून हे सरल वाक्य आहे."
+        }
+      }
+    },
+    {
+      "key": "rms6-p5-la-25",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Fill in the blank: The boy ___ bicycle was stolen reported it to the police.", "hi": "रिक्त स्थान भरें: The boy ___ bicycle was stolen reported it to the police.", "mr": "रिकामी जागा भरा: The boy ___ bicycle was stolen reported it to the police." },
+      "optionsJson": [
+        { "en": "who", "hi": "who", "mr": "who" },
+        { "en": "whose", "hi": "whose", "mr": "whose" },
+        { "en": "whom", "hi": "whom", "mr": "whom" },
+        { "en": "which", "hi": "which", "mr": "which" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "'Whose' shows possession. The bicycle belongs to the boy, so 'The boy whose bicycle was stolen' is correct.",
+        "hi": "'Whose' स्वामित्व दर्शाता है। साइकिल लड़के की है, इसलिए 'The boy whose bicycle was stolen' सही है।",
+        "mr": "'Whose' मालकी दर्शवते. सायकल मुलाची आहे, म्हणून 'The boy whose bicycle was stolen' बरोबर आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "'Who' is the subject form and cannot show that the bicycle belongs to the boy.",
+          "hi": "'Who' कर्ता रूप है और यह नहीं दर्शा सकता कि साइकिल लड़के की है।",
+          "mr": "'Who' हे कर्त्याचे रूप आहे आणि सायकल मुलाची आहे हे दाखवू शकत नाही."
+        },
+        "2": {
+          "en": "'Whom' is the object form and does not show possession.",
+          "hi": "'Whom' कर्म रूप है और स्वामित्व नहीं दर्शाता।",
+          "mr": "'Whom' हे कर्माचे रूप आहे आणि मालकी दर्शवत नाही."
+        },
+        "3": {
+          "en": "'Which' is used for things and animals, not for a boy.",
+          "hi": "'Which' वस्तुओं और जानवरों के लिए प्रयुक्त होता है, लड़के के लिए नहीं।",
+          "mr": "'Which' वस्तू आणि प्राण्यांसाठी वापरतात, मुलासाठी नाही."
+        }
+      }
+    }
+  ]
+}

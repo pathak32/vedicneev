@@ -1,0 +1,1159 @@
+{
+  "examType": "RMS",
+  "classLevel": 9,
+  "paperNumber": 5,
+  "sectionKey": "general_knowledge",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "rms9-p5-gk-01",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "The system of exchanging goods directly for other goods, without using money, is called:",
+        "hi": "बिना मुद्रा (पैसे) के वस्तुओं का सीधे वस्तुओं से आदान-प्रदान करने की प्रणाली क्या कहलाती है?"
+      },
+      "optionsJson": [
+        {
+          "en": "Barter system",
+          "hi": "वस्तु विनिमय प्रणाली"
+        },
+        {
+          "en": "Banking system",
+          "hi": "बैंकिंग प्रणाली"
+        },
+        {
+          "en": "Tax system",
+          "hi": "कर प्रणाली"
+        },
+        {
+          "en": "Insurance system",
+          "hi": "बीमा प्रणाली"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "In the barter system, goods are exchanged directly for goods (for example, wheat for cloth) without money as a medium of exchange.",
+        "hi": "वस्तु विनिमय प्रणाली में वस्तुओं का आदान-प्रदान सीधे वस्तुओं से होता है (जैसे गेहूँ के बदले कपड़ा), इसमें मुद्रा विनिमय के माध्यम के रूप में प्रयोग नहीं होती।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Banking deals with deposits, loans and safekeeping of money, not direct exchange of goods.",
+          "hi": "बैंकिंग जमा, ऋण और धन की सुरक्षा से जुड़ी है, वस्तुओं के सीधे आदान-प्रदान से नहीं।"
+        },
+        "2": {
+          "en": "A tax system is how governments collect revenue from people and businesses.",
+          "hi": "कर प्रणाली वह तरीका है जिससे सरकार लोगों और व्यवसायों से राजस्व एकत्र करती है।"
+        },
+        "3": {
+          "en": "Insurance protects against financial loss in return for a premium; it is not a method of exchanging goods.",
+          "hi": "बीमा प्रीमियम के बदले आर्थिक हानि से सुरक्षा देता है; यह वस्तुओं के विनिमय की विधि नहीं है।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-gk-02",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which of the following is an activity of the secondary sector of the economy?",
+        "hi": "अर्थव्यवस्था के द्वितीयक क्षेत्र की गतिविधि निम्नलिखित में से कौन-सी है?"
+      },
+      "optionsJson": [
+        {
+          "en": "Fishing",
+          "hi": "मछली पकड़ना"
+        },
+        {
+          "en": "Making cotton cloth in a textile mill",
+          "hi": "कपड़ा मिल में सूती कपड़ा बनाना"
+        },
+        {
+          "en": "Teaching in a school",
+          "hi": "विद्यालय में पढ़ाना"
+        },
+        {
+          "en": "Mining of coal",
+          "hi": "कोयले का खनन"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "The secondary sector turns raw materials into finished goods through manufacturing. Making cloth from cotton in a mill is manufacturing.",
+        "hi": "द्वितीयक क्षेत्र विनिर्माण द्वारा कच्चे माल को तैयार वस्तुओं में बदलता है। मिल में कपास से कपड़ा बनाना विनिर्माण है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Fishing takes a natural resource directly, so it belongs to the primary sector.",
+          "hi": "मछली पकड़ना प्राकृतिक संसाधन सीधे प्राप्त करना है, इसलिए यह प्राथमिक क्षेत्र में आता है।"
+        },
+        "2": {
+          "en": "Teaching is a service, so it belongs to the tertiary sector.",
+          "hi": "पढ़ाना एक सेवा है, इसलिए यह तृतीयक क्षेत्र में आता है।"
+        },
+        "3": {
+          "en": "Mining extracts natural resources from the earth, so it belongs to the primary sector.",
+          "hi": "खनन पृथ्वी से प्राकृतिक संसाधन निकालना है, इसलिए यह प्राथमिक क्षेत्र में आता है।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-gk-03",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Income tax, which a person pays directly to the government on his or her earnings, is an example of a:",
+        "hi": "आयकर, जिसे व्यक्ति अपनी आय पर सीधे सरकार को चुकाता है, किसका उदाहरण है?"
+      },
+      "optionsJson": [
+        {
+          "en": "Indirect tax",
+          "hi": "अप्रत्यक्ष कर"
+        },
+        {
+          "en": "Customs duty",
+          "hi": "सीमा शुल्क"
+        },
+        {
+          "en": "Direct tax",
+          "hi": "प्रत्यक्ष कर"
+        },
+        {
+          "en": "Excise duty",
+          "hi": "उत्पाद शुल्क"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "A direct tax is paid straight to the government by the person on whom it is imposed and cannot be shifted to someone else. Income tax is a direct tax.",
+        "hi": "प्रत्यक्ष कर वह है जो जिस व्यक्ति पर लगाया जाता है, वही उसे सीधे सरकार को चुकाता है और उसे किसी और पर नहीं डाल सकता। आयकर एक प्रत्यक्ष कर है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Indirect taxes are collected from sellers but borne by buyers through higher prices; income tax is not of this kind.",
+          "hi": "अप्रत्यक्ष कर विक्रेताओं से वसूले जाते हैं पर ऊँचे दामों के रूप में खरीदार वहन करते हैं; आयकर ऐसा नहीं है।"
+        },
+        "1": {
+          "en": "Customs duty is levied on goods imported or exported and is an indirect tax.",
+          "hi": "सीमा शुल्क आयातित या निर्यातित वस्तुओं पर लगता है और यह एक अप्रत्यक्ष कर है।"
+        },
+        "3": {
+          "en": "Excise duty is levied on goods manufactured within the country and is an indirect tax.",
+          "hi": "उत्पाद शुल्क देश में निर्मित वस्तुओं पर लगता है और यह एक अप्रत्यक्ष कर है।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-gk-04",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "The Gross Domestic Product (GDP) of a country measures the:",
+        "hi": "किसी देश का सकल घरेलू उत्पाद (GDP) क्या मापता है?"
+      },
+      "optionsJson": [
+        {
+          "en": "Total value of goods that the country exports in a year",
+          "hi": "देश द्वारा एक वर्ष में निर्यात की गई वस्तुओं का कुल मूल्य"
+        },
+        {
+          "en": "Total income that the government collects from taxes in a year",
+          "hi": "सरकार द्वारा एक वर्ष में करों से एकत्र की गई कुल आय"
+        },
+        {
+          "en": "Total value of currency printed by the central bank in a year",
+          "hi": "केंद्रीय बैंक द्वारा एक वर्ष में छापी गई मुद्रा का कुल मूल्य"
+        },
+        {
+          "en": "Total market value of all final goods and services produced within the country in a year",
+          "hi": "देश के भीतर एक वर्ष में उत्पादित सभी अंतिम वस्तुओं और सेवाओं का कुल बाज़ार मूल्य"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "GDP is the total market value of all final goods and services produced within a country's borders in a given period, usually a year. It is the standard measure of the size of an economy.",
+        "hi": "GDP किसी देश की सीमाओं के भीतर किसी अवधि (सामान्यतः एक वर्ष) में उत्पादित सभी अंतिम वस्तुओं और सेवाओं का कुल बाज़ार मूल्य है। यह अर्थव्यवस्था के आकार का मानक माप है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Exports are only one part of an economy and cover only goods sold abroad, not all production.",
+          "hi": "निर्यात अर्थव्यवस्था का केवल एक भाग है और केवल विदेश में बेची गई वस्तुओं को दर्शाता है, कुल उत्पादन को नहीं।"
+        },
+        "1": {
+          "en": "Tax collection is government revenue, which is a different measure from total output.",
+          "hi": "कर संग्रह सरकार का राजस्व है, जो कुल उत्पादन से भिन्न माप है।"
+        },
+        "2": {
+          "en": "Money printed by the central bank is the money supply, not the value of goods and services produced.",
+          "hi": "केंद्रीय बैंक द्वारा छापी गई मुद्रा मुद्रा की आपूर्ति है, उत्पादित वस्तुओं और सेवाओं का मूल्य नहीं।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-gk-05",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "In a computer, which part carries out the instructions of programs and is often called its 'brain'?",
+        "hi": "कंप्यूटर का कौन-सा भाग प्रोग्रामों के निर्देशों को निष्पादित करता है और प्रायः उसका 'मस्तिष्क' कहलाता है?"
+      },
+      "optionsJson": [
+        {
+          "en": "Monitor",
+          "hi": "मॉनिटर"
+        },
+        {
+          "en": "Central Processing Unit (CPU)",
+          "hi": "केंद्रीय संसाधन इकाई (CPU)"
+        },
+        {
+          "en": "Hard disk",
+          "hi": "हार्ड डिस्क"
+        },
+        {
+          "en": "Keyboard",
+          "hi": "कीबोर्ड"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "The CPU fetches, decodes and executes instructions and controls the other parts of the computer, so it is called the brain of the computer.",
+        "hi": "CPU निर्देशों को प्राप्त करता है, समझता है और निष्पादित करता है तथा कंप्यूटर के अन्य भागों को नियंत्रित करता है, इसीलिए इसे कंप्यूटर का मस्तिष्क कहा जाता है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The monitor only displays output on a screen; it does not execute instructions.",
+          "hi": "मॉनिटर केवल स्क्रीन पर आउटपुट दिखाता है; वह निर्देशों को निष्पादित नहीं करता।"
+        },
+        "2": {
+          "en": "The hard disk stores data permanently; it does not process instructions.",
+          "hi": "हार्ड डिस्क डेटा को स्थायी रूप से संग्रहीत करती है; वह निर्देशों को संसाधित नहीं करती।"
+        },
+        "3": {
+          "en": "The keyboard is an input device used to type data into the computer.",
+          "hi": "कीबोर्ड एक इनपुट उपकरण है जिससे कंप्यूटर में डेटा टाइप किया जाता है।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-gk-06",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Optical fibres used for high-speed internet and telephone cables carry light signals along the fibre mainly because of:",
+        "hi": "तेज़ गति के इंटरनेट और टेलीफ़ोन केबलों में प्रयुक्त प्रकाशीय तंतुओं (ऑप्टिकल फ़ाइबर) में प्रकाश संकेत मुख्यतः किस कारण तंतु के भीतर आगे बढ़ते हैं?"
+      },
+      "optionsJson": [
+        {
+          "en": "Total internal reflection",
+          "hi": "पूर्ण आंतरिक परावर्तन"
+        },
+        {
+          "en": "Dispersion of white light into colours",
+          "hi": "श्वेत प्रकाश का रंगों में परिक्षेपण"
+        },
+        {
+          "en": "Diffraction of light at a narrow slit",
+          "hi": "संकरी झिरी पर प्रकाश का विवर्तन"
+        },
+        {
+          "en": "Scattering of light by dust particles",
+          "hi": "धूल के कणों द्वारा प्रकाश का प्रकीर्णन"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Light entering an optical fibre strikes the inner wall at an angle larger than the critical angle and is totally reflected again and again, so it travels along the fibre with very little loss.",
+        "hi": "प्रकाशीय तंतु में प्रवेश करने वाला प्रकाश भीतरी दीवार से क्रांतिक कोण से बड़े कोण पर टकराता है और बार-बार पूर्णतः परावर्तित होता रहता है, इसलिए वह बहुत कम हानि के साथ तंतु में आगे बढ़ता है।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Dispersion splits white light into colours, as in a prism; it does not guide light along a fibre.",
+          "hi": "परिक्षेपण श्वेत प्रकाश को रंगों में बाँटता है, जैसे प्रिज़्म में; यह प्रकाश को तंतु के अनुदिश नहीं ले जाता।"
+        },
+        "2": {
+          "en": "Diffraction is the bending of light around edges or slits; it does not keep light inside a fibre.",
+          "hi": "विवर्तन किनारों या झिरियों के पास प्रकाश का मुड़ना है; यह प्रकाश को तंतु के भीतर नहीं रखता।"
+        },
+        "3": {
+          "en": "Scattering spreads light in all directions and would weaken the signal, not guide it.",
+          "hi": "प्रकीर्णन प्रकाश को सभी दिशाओं में फैलाता है और संकेत को कमज़ोर करता है, उसे दिशा नहीं देता।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-gk-07",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "A solar (photovoltaic) cell is a device that converts:",
+        "hi": "सौर (प्रकाशवोल्टीय) सेल एक ऐसा उपकरण है जो किसे परिवर्तित करता है?"
+      },
+      "optionsJson": [
+        {
+          "en": "Electrical energy into light energy",
+          "hi": "विद्युत ऊर्जा को प्रकाश ऊर्जा में"
+        },
+        {
+          "en": "Mechanical energy into electrical energy",
+          "hi": "यांत्रिक ऊर्जा को विद्युत ऊर्जा में"
+        },
+        {
+          "en": "Heat energy into sound energy",
+          "hi": "ऊष्मा ऊर्जा को ध्वनि ऊर्जा में"
+        },
+        {
+          "en": "Light energy into electrical energy",
+          "hi": "प्रकाश ऊर्जा को विद्युत ऊर्जा में"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "A solar cell is made of semiconductor material, usually silicon, which produces an electric current when sunlight falls on it. It converts light energy directly into electrical energy.",
+        "hi": "सौर सेल अर्धचालक पदार्थ, प्रायः सिलिकॉन, से बना होता है, जिस पर सूर्य का प्रकाश पड़ने पर विद्युत धारा उत्पन्न होती है। यह प्रकाश ऊर्जा को सीधे विद्युत ऊर्जा में बदलता है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "This is the reverse process, as in an electric bulb or LED.",
+          "hi": "यह उलटी प्रक्रिया है, जैसे बिजली के बल्ब या LED में होती है।"
+        },
+        "1": {
+          "en": "This is what a generator or dynamo does, not a solar cell.",
+          "hi": "यह जनित्र या डायनमो का कार्य है, सौर सेल का नहीं।"
+        },
+        "2": {
+          "en": "A solar cell does not make sound from heat; this is not its function.",
+          "hi": "सौर सेल ऊष्मा से ध्वनि नहीं बनाता; यह उसका कार्य नहीं है।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-gk-08",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Aryabhata, launched in 1975, holds which distinction in India's space programme?",
+        "hi": "1975 में प्रक्षेपित आर्यभट्ट का भारत के अंतरिक्ष कार्यक्रम में क्या विशिष्ट स्थान है?"
+      },
+      "optionsJson": [
+        {
+          "en": "India's first Moon orbiter",
+          "hi": "भारत का पहला चंद्र कक्षित्र"
+        },
+        {
+          "en": "India's first manned spacecraft",
+          "hi": "भारत का पहला मानवयुक्त अंतरिक्ष यान"
+        },
+        {
+          "en": "India's first satellite",
+          "hi": "भारत का पहला उपग्रह"
+        },
+        {
+          "en": "India's first Mars mission",
+          "hi": "भारत का पहला मंगल अभियान"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Aryabhata, named after the ancient Indian astronomer, was India's first satellite. It was built by ISRO and launched in April 1975.",
+        "hi": "प्राचीन भारतीय खगोलविद के नाम पर रखा गया आर्यभट्ट भारत का पहला उपग्रह था। इसे इसरो ने बनाया था और अप्रैल 1975 में प्रक्षेपित किया गया।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "India's first Moon orbiter was Chandrayaan-1, launched in 2008.",
+          "hi": "भारत का पहला चंद्र कक्षित्र चंद्रयान-1 था, जिसे 2008 में प्रक्षेपित किया गया।"
+        },
+        "1": {
+          "en": "Aryabhata carried no crew; it was an unmanned scientific satellite.",
+          "hi": "आर्यभट्ट में कोई चालक दल नहीं था; यह मानवरहित वैज्ञानिक उपग्रह था।"
+        },
+        "3": {
+          "en": "India's first Mars mission, Mangalyaan, was launched in 2013.",
+          "hi": "भारत का पहला मंगल अभियान, मंगलयान, 2013 में प्रक्षेपित किया गया।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-gk-09",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "India's own regional satellite navigation system, developed by ISRO, is known as:",
+        "hi": "इसरो द्वारा विकसित भारत की अपनी क्षेत्रीय उपग्रह नौवहन प्रणाली क्या कहलाती है?"
+      },
+      "optionsJson": [
+        {
+          "en": "GPS",
+          "hi": "GPS"
+        },
+        {
+          "en": "NavIC",
+          "hi": "NavIC"
+        },
+        {
+          "en": "GLONASS",
+          "hi": "GLONASS"
+        },
+        {
+          "en": "Galileo",
+          "hi": "गैलीलियो"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "NavIC (Navigation with Indian Constellation) is India's regional navigation satellite system, covering India and the region around it up to about 1,500 km.",
+        "hi": "NavIC (नेविगेशन विद इंडियन कॉन्स्टेलेशन) भारत की क्षेत्रीय नौवहन उपग्रह प्रणाली है, जो भारत और उसके आसपास लगभग 1,500 किमी तक के क्षेत्र को कवर करती है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "GPS is the global navigation system of the United States.",
+          "hi": "GPS संयुक्त राज्य अमेरिका की वैश्विक नौवहन प्रणाली है।"
+        },
+        "2": {
+          "en": "GLONASS is the global navigation system of Russia.",
+          "hi": "GLONASS रूस की वैश्विक नौवहन प्रणाली है।"
+        },
+        "3": {
+          "en": "Galileo is the global navigation system of the European Union.",
+          "hi": "गैलीलियो यूरोपीय संघ की वैश्विक नौवहन प्रणाली है।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-gk-10",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "India's Mars Orbiter Mission (Mangalyaan) reached Mars orbit in its very first attempt, making India the first Asian country to do so. In which year did it enter Mars orbit?",
+        "hi": "भारत का मंगल कक्षित्र अभियान (मंगलयान) अपने पहले ही प्रयास में मंगल की कक्षा में पहुँचा, जिससे भारत ऐसा करने वाला पहला एशियाई देश बना। यह मंगल की कक्षा में किस वर्ष प्रविष्ट हुआ?"
+      },
+      "optionsJson": [
+        {
+          "en": "2012",
+          "hi": "2012"
+        },
+        {
+          "en": "2013",
+          "hi": "2013"
+        },
+        {
+          "en": "2014",
+          "hi": "2014"
+        },
+        {
+          "en": "2016",
+          "hi": "2016"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Mangalyaan was launched in November 2013 and entered Mars orbit on 24 September 2014.",
+        "hi": "मंगलयान को नवंबर 2013 में प्रक्षेपित किया गया था और यह 24 सितंबर 2014 को मंगल की कक्षा में प्रविष्ट हुआ।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The mission was approved in 2012, but it had not even been launched then.",
+          "hi": "इस अभियान को 2012 में मंज़ूरी मिली थी, लेकिन तब तक इसका प्रक्षेपण भी नहीं हुआ था।"
+        },
+        "1": {
+          "en": "2013 is the year of launch, not of reaching Mars orbit; the journey took about ten months.",
+          "hi": "2013 प्रक्षेपण का वर्ष है, मंगल की कक्षा में पहुँचने का नहीं; यात्रा में लगभग दस महीने लगे।"
+        },
+        "3": {
+          "en": "By 2016 the orbiter had already been working around Mars for about two years.",
+          "hi": "2016 तक यह कक्षित्र मंगल के चारों ओर लगभग दो वर्ष से कार्य कर रहा था।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-gk-11",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Which of the following is India's first indigenously designed and built aircraft carrier, commissioned into the Indian Navy in 2022?",
+        "hi": "निम्नलिखित में से कौन-सा भारत का पहला स्वदेशी रूप से डिज़ाइन और निर्मित विमानवाहक पोत है, जिसे 2022 में भारतीय नौसेना में शामिल किया गया?"
+      },
+      "optionsJson": [
+        {
+          "en": "INS Vikrant",
+          "hi": "आईएनएस विक्रांत"
+        },
+        {
+          "en": "INS Vikramaditya",
+          "hi": "आईएनएस विक्रमादित्य"
+        },
+        {
+          "en": "INS Viraat",
+          "hi": "आईएनएस विराट"
+        },
+        {
+          "en": "INS Arihant",
+          "hi": "आईएनएस अरिहंत"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "INS Vikrant was designed by the Indian Navy and built at Cochin Shipyard Limited in Kerala. It was commissioned in September 2022.",
+        "hi": "आईएनएस विक्रांत को भारतीय नौसेना ने डिज़ाइन किया और केरल के कोचीन शिपयार्ड लिमिटेड में बनाया गया। इसे सितंबर 2022 में नौसेना में शामिल किया गया।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "INS Vikramaditya is a carrier that India bought from Russia (originally the Admiral Gorshkov), so it is not indigenous.",
+          "hi": "आईएनएस विक्रमादित्य वह विमानवाहक पोत है जिसे भारत ने रूस से खरीदा था (मूलतः एडमिरल गोर्शकोव), इसलिए यह स्वदेशी नहीं है।"
+        },
+        "2": {
+          "en": "INS Viraat was a former British carrier (HMS Hermes) bought by India.",
+          "hi": "आईएनएस विराट पूर्व ब्रिटिश विमानवाहक पोत (HMS हर्मीस) था, जिसे भारत ने खरीदा था।"
+        },
+        "3": {
+          "en": "INS Arihant is a nuclear-powered submarine, not an aircraft carrier.",
+          "hi": "आईएनएस अरिहंत परमाणु ऊर्जा चालित पनडुब्बी है, विमानवाहक पोत नहीं।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-gk-12",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Which of the following is a renewable source of energy?",
+        "hi": "निम्नलिखित में से कौन-सा ऊर्जा का नवीकरणीय स्रोत है?"
+      },
+      "optionsJson": [
+        {
+          "en": "Coal",
+          "hi": "कोयला"
+        },
+        {
+          "en": "Petroleum",
+          "hi": "पेट्रोलियम"
+        },
+        {
+          "en": "Natural gas",
+          "hi": "प्राकृतिक गैस"
+        },
+        {
+          "en": "Wind energy",
+          "hi": "पवन ऊर्जा"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Wind energy is renewable because winds keep blowing and will not be used up. Coal, petroleum and natural gas are fossil fuels that take millions of years to form.",
+        "hi": "पवन ऊर्जा नवीकरणीय है क्योंकि हवा लगातार चलती रहती है और समाप्त नहीं होती। कोयला, पेट्रोलियम और प्राकृतिक गैस जीवाश्म ईंधन हैं जिन्हें बनने में लाखों वर्ष लगते हैं।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Coal is a fossil fuel and is non-renewable.",
+          "hi": "कोयला जीवाश्म ईंधन है और अनवीकरणीय है।"
+        },
+        "1": {
+          "en": "Petroleum is a fossil fuel and is non-renewable.",
+          "hi": "पेट्रोलियम जीवाश्म ईंधन है और अनवीकरणीय है।"
+        },
+        "2": {
+          "en": "Natural gas is a fossil fuel and is non-renewable.",
+          "hi": "प्राकृतिक गैस जीवाश्म ईंधन है और अनवीकरणीय है।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-gk-13",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Acid rain is caused mainly when oxides of nitrogen and which other gas, released by burning fossil fuels, dissolve in rain water?",
+        "hi": "जीवाश्म ईंधनों के जलने से निकली नाइट्रोजन के ऑक्साइडों और किस अन्य गैस के वर्षा-जल में घुलने से मुख्यतः अम्लीय वर्षा होती है?"
+      },
+      "optionsJson": [
+        {
+          "en": "Sulphur dioxide",
+          "hi": "सल्फर डाइऑक्साइड"
+        },
+        {
+          "en": "Oxygen",
+          "hi": "ऑक्सीजन"
+        },
+        {
+          "en": "Argon",
+          "hi": "आर्गन"
+        },
+        {
+          "en": "Carbon monoxide",
+          "hi": "कार्बन मोनोऑक्साइड"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Sulphur dioxide and nitrogen oxides released by power plants, factories and vehicles dissolve in rain water to form sulphuric and nitric acids, which fall as acid rain.",
+        "hi": "बिजलीघरों, कारखानों और वाहनों से निकली सल्फर डाइऑक्साइड और नाइट्रोजन के ऑक्साइड वर्षा-जल में घुलकर सल्फ्यूरिक और नाइट्रिक अम्ल बनाते हैं, जो अम्लीय वर्षा के रूप में गिरते हैं।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Oxygen is a normal part of air and does not form acids in rain water.",
+          "hi": "ऑक्सीजन वायु का सामान्य घटक है और वर्षा-जल में अम्ल नहीं बनाती।"
+        },
+        "2": {
+          "en": "Argon is an inert gas and does not react with water.",
+          "hi": "आर्गन एक अक्रिय गैस है और जल से अभिक्रिया नहीं करती।"
+        },
+        "3": {
+          "en": "Carbon monoxide is a poisonous gas but is largely insoluble in water and is not a cause of acid rain.",
+          "hi": "कार्बन मोनोऑक्साइड विषैली गैस है, पर यह जल में लगभग अघुलनशील है और अम्लीय वर्षा का कारण नहीं है।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-gk-14",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "The Ramsar Convention, an international treaty signed in 1971, is concerned with the conservation of:",
+        "hi": "1971 में हस्ताक्षरित अंतरराष्ट्रीय संधि रामसर अभिसमय किसके संरक्षण से संबंधित है?"
+      },
+      "optionsJson": [
+        {
+          "en": "Tropical rainforests",
+          "hi": "उष्णकटिबंधीय वर्षावन"
+        },
+        {
+          "en": "Wetlands",
+          "hi": "आर्द्रभूमियाँ"
+        },
+        {
+          "en": "Desert ecosystems",
+          "hi": "मरुस्थलीय पारितंत्र"
+        },
+        {
+          "en": "Mountain glaciers",
+          "hi": "पर्वतीय हिमनद"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "The Ramsar Convention, named after the Iranian city of Ramsar, is an international treaty for the conservation and wise use of wetlands such as lakes, marshes and mangroves.",
+        "hi": "ईरानी शहर रामसर के नाम पर बनी रामसर संधि झीलों, दलदलों और मैंग्रोव जैसी आर्द्रभूमियों के संरक्षण और विवेकपूर्ण उपयोग के लिए अंतरराष्ट्रीय संधि है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Rainforests are not the subject of the Ramsar Convention.",
+          "hi": "वर्षावन रामसर अभिसमय का विषय नहीं हैं।"
+        },
+        "2": {
+          "en": "Deserts are not the subject of the Ramsar Convention; a separate convention deals with desertification.",
+          "hi": "मरुस्थल रामसर अभिसमय का विषय नहीं हैं; मरुस्थलीकरण के लिए अलग अभिसमय है।"
+        },
+        "3": {
+          "en": "Glaciers are not the subject of the Ramsar Convention.",
+          "hi": "हिमनद रामसर अभिसमय का विषय नहीं हैं।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-gk-15",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Conserving a species in its natural habitat is called in-situ conservation. Which of the following is an example of it?",
+        "hi": "किसी प्रजाति को उसके प्राकृतिक आवास में ही संरक्षित करना स्वस्थाने (in-situ) संरक्षण कहलाता है। निम्नलिखित में से कौन-सा इसका उदाहरण है?"
+      },
+      "optionsJson": [
+        {
+          "en": "Zoo",
+          "hi": "चिड़ियाघर"
+        },
+        {
+          "en": "Botanical garden",
+          "hi": "वनस्पति उद्यान"
+        },
+        {
+          "en": "National park",
+          "hi": "राष्ट्रीय उद्यान"
+        },
+        {
+          "en": "Seed bank",
+          "hi": "बीज बैंक"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "A national park protects wild plants and animals within their own natural habitat, which is in-situ conservation. Zoos, botanical gardens and seed banks keep species outside their natural habitat (ex-situ).",
+        "hi": "राष्ट्रीय उद्यान जंगली पौधों और जंतुओं को उनके अपने प्राकृतिक आवास में ही सुरक्षित रखता है, यही स्वस्थाने संरक्षण है। चिड़ियाघर, वनस्पति उद्यान और बीज बैंक प्रजातियों को प्राकृतिक आवास के बाहर रखते हैं (बाह्य-स्थाने)।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "A zoo keeps animals outside their natural habitat, so it is ex-situ conservation.",
+          "hi": "चिड़ियाघर जंतुओं को उनके प्राकृतिक आवास के बाहर रखता है, इसलिए यह बाह्य-स्थाने संरक्षण है।"
+        },
+        "1": {
+          "en": "A botanical garden grows plants away from their natural habitat, so it is ex-situ conservation.",
+          "hi": "वनस्पति उद्यान पौधों को उनके प्राकृतिक आवास से दूर उगाता है, इसलिए यह बाह्य-स्थाने संरक्षण है।"
+        },
+        "3": {
+          "en": "A seed bank stores seeds in controlled conditions outside nature, so it is ex-situ conservation.",
+          "hi": "बीज बैंक बीजों को प्रकृति के बाहर नियंत्रित परिस्थितियों में संग्रहीत करता है, इसलिए यह बाह्य-स्थाने संरक्षण है।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-gk-16",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Who founded the Maurya Empire in ancient India around 321 BCE?",
+        "hi": "लगभग 321 ईसा पूर्व में प्राचीन भारत में मौर्य साम्राज्य की स्थापना किसने की?"
+      },
+      "optionsJson": [
+        {
+          "en": "Ashoka",
+          "hi": "अशोक"
+        },
+        {
+          "en": "Bindusara",
+          "hi": "बिंदुसार"
+        },
+        {
+          "en": "Harshavardhana",
+          "hi": "हर्षवर्धन"
+        },
+        {
+          "en": "Chandragupta Maurya",
+          "hi": "चंद्रगुप्त मौर्य"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Chandragupta Maurya, guided by Chanakya, defeated the Nanda dynasty and founded the Maurya Empire around 321 BCE.",
+        "hi": "चाणक्य के मार्गदर्शन में चंद्रगुप्त मौर्य ने नंद वंश को हराकर लगभग 321 ईसा पूर्व में मौर्य साम्राज्य की स्थापना की।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Ashoka was Chandragupta's grandson and a later Maurya emperor, not the founder.",
+          "hi": "अशोक चंद्रगुप्त के पौत्र और बाद के मौर्य सम्राट थे, संस्थापक नहीं।"
+        },
+        "1": {
+          "en": "Bindusara was Chandragupta's son and the second Maurya emperor.",
+          "hi": "बिंदुसार चंद्रगुप्त के पुत्र और दूसरे मौर्य सम्राट थे।"
+        },
+        "2": {
+          "en": "Harshavardhana ruled in the 7th century CE, nearly a thousand years later.",
+          "hi": "हर्षवर्धन ने सातवीं शताब्दी ईस्वी में शासन किया, यानी लगभग एक हज़ार वर्ष बाद।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-gk-17",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which retired British civil servant played a key role in founding the Indian National Congress in 1885?",
+        "hi": "किस सेवानिवृत्त ब्रिटिश सिविल सेवक ने 1885 में भारतीय राष्ट्रीय कांग्रेस की स्थापना में प्रमुख भूमिका निभाई?"
+      },
+      "optionsJson": [
+        {
+          "en": "A. O. Hume",
+          "hi": "ए. ओ. ह्यूम"
+        },
+        {
+          "en": "Lord Curzon",
+          "hi": "लॉर्ड कर्ज़न"
+        },
+        {
+          "en": "Lord Dalhousie",
+          "hi": "लॉर्ड डलहौज़ी"
+        },
+        {
+          "en": "W. C. Bonnerjee",
+          "hi": "डब्ल्यू. सी. बनर्जी"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Allan Octavian Hume, a retired British civil servant, helped organise the first session of the Indian National Congress in Bombay in December 1885.",
+        "hi": "सेवानिवृत्त ब्रिटिश सिविल सेवक एलन ऑक्टेवियन ह्यूम ने दिसंबर 1885 में बंबई में भारतीय राष्ट्रीय कांग्रेस का पहला अधिवेशन आयोजित करने में सहायता की।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Lord Curzon was Viceroy of India (1899-1905) and had no role in founding the Congress.",
+          "hi": "लॉर्ड कर्ज़न भारत के वायसराय (1899-1905) थे और कांग्रेस की स्थापना में उनकी कोई भूमिका नहीं थी।"
+        },
+        "2": {
+          "en": "Lord Dalhousie was Governor-General in the 1850s, long before the Congress was founded.",
+          "hi": "लॉर्ड डलहौज़ी 1850 के दशक में गवर्नर-जनरल थे, कांग्रेस की स्थापना से बहुत पहले।"
+        },
+        "3": {
+          "en": "W. C. Bonnerjee was an Indian lawyer and the first President of the Congress, not a British civil servant.",
+          "hi": "डब्ल्यू. सी. बनर्जी भारतीय वकील और कांग्रेस के पहले अध्यक्ष थे, ब्रिटिश सिविल सेवक नहीं।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-gk-18",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which state of mainland India has the longest coastline?",
+        "hi": "भारत की मुख्य भूमि के किस राज्य की तटरेखा सबसे लंबी है?"
+      },
+      "optionsJson": [
+        {
+          "en": "Maharashtra",
+          "hi": "महाराष्ट्र"
+        },
+        {
+          "en": "Gujarat",
+          "hi": "गुजरात"
+        },
+        {
+          "en": "Tamil Nadu",
+          "hi": "तमिलनाडु"
+        },
+        {
+          "en": "Andhra Pradesh",
+          "hi": "आंध्र प्रदेश"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Gujarat has the longest coastline among mainland states, about 1,600 km, along the Arabian Sea, the Gulf of Kutch and the Gulf of Khambhat.",
+        "hi": "मुख्य भूमि के राज्यों में गुजरात की तटरेखा सबसे लंबी, लगभग 1,600 किमी, है, जो अरब सागर, कच्छ की खाड़ी और खंभात की खाड़ी के साथ फैली है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Maharashtra's coastline is only about 720 km.",
+          "hi": "महाराष्ट्र की तटरेखा केवल लगभग 720 किमी है।"
+        },
+        "2": {
+          "en": "Tamil Nadu's coastline is about 1,070 km, shorter than Gujarat's.",
+          "hi": "तमिलनाडु की तटरेखा लगभग 1,070 किमी है, जो गुजरात से छोटी है।"
+        },
+        "3": {
+          "en": "Andhra Pradesh's coastline is about 970 km, shorter than Gujarat's.",
+          "hi": "आंध्र प्रदेश की तटरेखा लगभग 970 किमी है, जो गुजरात से छोटी है।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-gk-19",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "The Tropic of Cancer passes through eight Indian states. Through which of the following states does it NOT pass?",
+        "hi": "कर्क रेखा भारत के आठ राज्यों से होकर गुज़रती है। निम्नलिखित में से किस राज्य से होकर यह नहीं गुज़रती?"
+      },
+      "optionsJson": [
+        {
+          "en": "Rajasthan",
+          "hi": "राजस्थान"
+        },
+        {
+          "en": "Chhattisgarh",
+          "hi": "छत्तीसगढ़"
+        },
+        {
+          "en": "Odisha",
+          "hi": "ओडिशा"
+        },
+        {
+          "en": "Jharkhand",
+          "hi": "झारखंड"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The Tropic of Cancer passes through Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram. Odisha lies to the south of it and is not on the list.",
+        "hi": "कर्क रेखा गुजरात, राजस्थान, मध्य प्रदेश, छत्तीसगढ़, झारखंड, पश्चिम बंगाल, त्रिपुरा और मिज़ोरम से होकर गुज़रती है। ओडिशा इसके दक्षिण में स्थित है और इस सूची में नहीं है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The Tropic of Cancer does pass through southern Rajasthan (Banswara district).",
+          "hi": "कर्क रेखा दक्षिणी राजस्थान (बाँसवाड़ा ज़िले) से होकर गुज़रती है।"
+        },
+        "1": {
+          "en": "The Tropic of Cancer does pass through Chhattisgarh.",
+          "hi": "कर्क रेखा छत्तीसगढ़ से होकर गुज़रती है।"
+        },
+        "3": {
+          "en": "The Tropic of Cancer does pass through Jharkhand, near Ranchi.",
+          "hi": "कर्क रेखा झारखंड से, राँची के निकट से, होकर गुज़रती है।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-gk-20",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "What is the minimum age required to become a member of the Lok Sabha?",
+        "hi": "लोकसभा का सदस्य बनने के लिए न्यूनतम आयु कितनी होनी चाहिए?"
+      },
+      "optionsJson": [
+        {
+          "en": "18 years",
+          "hi": "18 वर्ष"
+        },
+        {
+          "en": "21 years",
+          "hi": "21 वर्ष"
+        },
+        {
+          "en": "25 years",
+          "hi": "25 वर्ष"
+        },
+        {
+          "en": "30 years",
+          "hi": "30 वर्ष"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "A person must be at least 25 years old to contest for the Lok Sabha. The minimum age for the Rajya Sabha is 30 years.",
+        "hi": "लोकसभा का चुनाव लड़ने के लिए व्यक्ति की आयु कम से कम 25 वर्ष होनी चाहिए। राज्य सभा के लिए न्यूनतम आयु 30 वर्ष है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "18 years is the minimum age to vote, not to become a Lok Sabha member.",
+          "hi": "18 वर्ष मतदान की न्यूनतम आयु है, लोकसभा सदस्य बनने की नहीं।"
+        },
+        "1": {
+          "en": "21 years is not the age limit for Lok Sabha membership.",
+          "hi": "21 वर्ष लोकसभा सदस्यता की आयु-सीमा नहीं है।"
+        },
+        "3": {
+          "en": "30 years is the minimum age for the Rajya Sabha, not the Lok Sabha.",
+          "hi": "30 वर्ष राज्य सभा की न्यूनतम आयु है, लोकसभा की नहीं।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-gk-21",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "The Speaker of the Lok Sabha is elected by:",
+        "hi": "लोकसभा अध्यक्ष का चुनाव कौन करता है?"
+      },
+      "optionsJson": [
+        {
+          "en": "The President of India",
+          "hi": "भारत के राष्ट्रपति"
+        },
+        {
+          "en": "The Prime Minister",
+          "hi": "प्रधानमंत्री"
+        },
+        {
+          "en": "The Chief Justice of India",
+          "hi": "भारत के मुख्य न्यायाधीश"
+        },
+        {
+          "en": "The members of the Lok Sabha",
+          "hi": "लोकसभा के सदस्य"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "After a general election, the members of the Lok Sabha elect one of themselves as the Speaker, who presides over its meetings.",
+        "hi": "आम चुनाव के बाद लोकसभा के सदस्य अपने में से एक को अध्यक्ष चुनते हैं, जो सदन की बैठकों की अध्यक्षता करता है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The President summons Parliament but does not elect the Speaker.",
+          "hi": "राष्ट्रपति संसद को आहूत करते हैं, पर अध्यक्ष का चुनाव नहीं करते।"
+        },
+        "1": {
+          "en": "The Prime Minister leads the government but does not elect the Speaker.",
+          "hi": "प्रधानमंत्री सरकार का नेतृत्व करते हैं, पर अध्यक्ष का चुनाव नहीं करते।"
+        },
+        "2": {
+          "en": "The Chief Justice heads the judiciary and has no role in electing the Speaker.",
+          "hi": "मुख्य न्यायाधीश न्यायपालिका के प्रमुख हैं और अध्यक्ष के चुनाव में उनकी कोई भूमिका नहीं होती।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-gk-22",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Which classical dance form of Kerala is known for its elaborate face makeup, colourful costumes and stories from the epics?",
+        "hi": "केरल की कौन-सी शास्त्रीय नृत्य शैली अपने विस्तृत चेहरे के श्रृंगार, रंग-बिरंगी वेशभूषा और महाकाव्यों की कथाओं के लिए जानी जाती है?"
+      },
+      "optionsJson": [
+        {
+          "en": "Kuchipudi",
+          "hi": "कुचिपुड़ी"
+        },
+        {
+          "en": "Kathakali",
+          "hi": "कथकली"
+        },
+        {
+          "en": "Bharatanatyam",
+          "hi": "भरतनाट्यम"
+        },
+        {
+          "en": "Kathak",
+          "hi": "कथक"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Kathakali is the classical dance-drama of Kerala, famous for its painted faces, huge headgears and costumes, and for telling stories from the Ramayana and Mahabharata.",
+        "hi": "कथकली केरल का शास्त्रीय नृत्य-नाट्य है, जो रंगे हुए चेहरों, विशाल मुकुटों और वेशभूषा तथा रामायण और महाभारत की कथाओं के प्रस्तुतीकरण के लिए प्रसिद्ध है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Kuchipudi comes from Andhra Pradesh, not Kerala.",
+          "hi": "कुचिपुड़ी आंध्र प्रदेश की शैली है, केरल की नहीं।"
+        },
+        "2": {
+          "en": "Bharatanatyam comes from Tamil Nadu, not Kerala.",
+          "hi": "भरतनाट्यम तमिलनाडु की शैली है, केरल की नहीं।"
+        },
+        "3": {
+          "en": "Kathak is a North Indian dance form and is not known for such face makeup.",
+          "hi": "कथक उत्तर भारत की नृत्य शैली है और इस प्रकार के चेहरे के श्रृंगार के लिए नहीं जानी जाती।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-gk-23",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "The Thomas Cup is an international team championship in which sport?",
+        "hi": "थॉमस कप किस खेल की अंतरराष्ट्रीय टीम प्रतियोगिता है?"
+      },
+      "optionsJson": [
+        {
+          "en": "Tennis",
+          "hi": "टेनिस"
+        },
+        {
+          "en": "Table tennis",
+          "hi": "टेबल टेनिस"
+        },
+        {
+          "en": "Squash",
+          "hi": "स्क्वैश"
+        },
+        {
+          "en": "Badminton",
+          "hi": "बैडमिंटन"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "The Thomas Cup is the world team championship for men's badminton, held every two years. Its women's counterpart is the Uber Cup.",
+        "hi": "थॉमस कप पुरुष बैडमिंटन की विश्व टीम प्रतियोगिता है, जो हर दो वर्ष में होती है। इसका महिला संस्करण उबेर कप है।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The main men's team event in tennis is the Davis Cup.",
+          "hi": "टेनिस में पुरुषों की मुख्य टीम प्रतियोगिता डेविस कप है।"
+        },
+        "1": {
+          "en": "The men's team trophy in table tennis is the Swaythling Cup.",
+          "hi": "टेबल टेनिस में पुरुष टीम की ट्रॉफी स्वेथलिंग कप है।"
+        },
+        "2": {
+          "en": "The Thomas Cup is not a squash trophy.",
+          "hi": "थॉमस कप स्क्वैश की ट्रॉफी नहीं है।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-gk-24",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "The ancient Indian treatise 'Arthashastra', dealing with statecraft, economy and military strategy, is attributed to:",
+        "hi": "राज्य-व्यवस्था, अर्थव्यवस्था और सैन्य रणनीति से संबंधित प्राचीन भारतीय ग्रंथ 'अर्थशास्त्र' किसके नाम से जुड़ा है?"
+      },
+      "optionsJson": [
+        {
+          "en": "Kautilya (Chanakya)",
+          "hi": "कौटिल्य (चाणक्य)"
+        },
+        {
+          "en": "Kalidasa",
+          "hi": "कालिदास"
+        },
+        {
+          "en": "Aryabhata",
+          "hi": "आर्यभट"
+        },
+        {
+          "en": "Banabhatta",
+          "hi": "बाणभट्ट"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "The Arthashastra is traditionally attributed to Kautilya, also known as Chanakya, the adviser of Chandragupta Maurya.",
+        "hi": "अर्थशास्त्र परंपरागत रूप से कौटिल्य, जिन्हें चाणक्य भी कहा जाता है और जो चंद्रगुप्त मौर्य के सलाहकार थे, की रचना माना जाता है।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Kalidasa was a Sanskrit poet and dramatist, known for works such as Abhijnanashakuntalam.",
+          "hi": "कालिदास संस्कृत के कवि और नाटककार थे, जो अभिज्ञानशाकुंतलम् जैसी रचनाओं के लिए प्रसिद्ध हैं।"
+        },
+        "2": {
+          "en": "Aryabhata was a mathematician and astronomer who wrote the Aryabhatiya.",
+          "hi": "आर्यभट गणितज्ञ और खगोलविद थे जिन्होंने आर्यभटीय की रचना की।"
+        },
+        "3": {
+          "en": "Banabhatta was a Sanskrit writer who wrote the Harshacharita and Kadambari.",
+          "hi": "बाणभट्ट संस्कृत लेखक थे जिन्होंने हर्षचरित और कादंबरी लिखी।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p5-gk-25",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "In 1930, Mahatma Gandhi began the Dandi March to protest against the British law on:",
+        "hi": "1930 में महात्मा गांधी ने दांडी यात्रा किस ब्रिटिश कानून के विरोध में आरंभ की?"
+      },
+      "optionsJson": [
+        {
+          "en": "Land revenue",
+          "hi": "भू-राजस्व"
+        },
+        {
+          "en": "Salt",
+          "hi": "नमक"
+        },
+        {
+          "en": "Indigo cultivation",
+          "hi": "नील की खेती"
+        },
+        {
+          "en": "Import of cloth",
+          "hi": "कपड़े का आयात"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "The Dandi March (Salt Satyagraha) began on 12 March 1930 from Sabarmati Ashram and reached Dandi on the Gujarat coast, where Gandhiji broke the salt law by making salt from sea water.",
+        "hi": "दांडी यात्रा (नमक सत्याग्रह) 12 मार्च 1930 को साबरमती आश्रम से आरंभ हुई और गुजरात के तट पर दांडी पहुँची, जहाँ गांधीजी ने समुद्र के जल से नमक बनाकर नमक कानून तोड़ा।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The Dandi March was not a protest against land revenue.",
+          "hi": "दांडी यात्रा भू-राजस्व के विरोध में नहीं थी।"
+        },
+        "2": {
+          "en": "Forced indigo cultivation was the issue in the Champaran Satyagraha of 1917, not the Dandi March.",
+          "hi": "ज़बरदस्ती नील की खेती का मुद्दा 1917 के चंपारण सत्याग्रह का था, दांडी यात्रा का नहीं।"
+        },
+        "3": {
+          "en": "Boycott of imported cloth was part of the Swadeshi movement, but the Dandi March targeted the salt law.",
+          "hi": "आयातित कपड़े का बहिष्कार स्वदेशी आंदोलन का भाग था, पर दांडी यात्रा का लक्ष्य नमक कानून था।"
+        }
+      }
+    }
+  ]
+}

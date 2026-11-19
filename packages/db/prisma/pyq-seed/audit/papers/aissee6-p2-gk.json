@@ -1,0 +1,984 @@
+{
+  "examType": "AISSEE",
+  "classLevel": 6,
+  "paperNumber": 2,
+  "sectionKey": "general_knowledge",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "aissee6-p2-gk-01",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Which city is the capital of the state of Karnataka?",
+        "hi": "कर्नाटक राज्य की राजधानी कौन-सा शहर है?",
+        "mr": "कर्नाटक राज्याची राजधानी कोणते शहर आहे?"
+      },
+      "optionsJson": [
+        { "en": "Mysuru", "hi": "मैसूरु", "mr": "म्हैसूर" },
+        { "en": "Bengaluru", "hi": "बेंगलुरु", "mr": "बेंगळुरू" },
+        { "en": "Hubballi", "hi": "हुबली", "mr": "हुबळी" },
+        { "en": "Mangaluru", "hi": "मंगलुरु", "mr": "मंगळूरु" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Bengaluru is the capital and largest city of Karnataka, in southern India.",
+        "hi": "बेंगलुरु दक्षिण भारत के कर्नाटक राज्य की राजधानी और सबसे बड़ा शहर है।",
+        "mr": "बेंगळुरू ही दक्षिण भारतातील कर्नाटक राज्याची राजधानी आणि सर्वात मोठे शहर आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Mysuru is a famous royal city of Karnataka known for its palace, but it is not the capital.",
+          "hi": "मैसूरु अपने महल के लिए प्रसिद्ध कर्नाटक का एक शाही शहर है, पर राजधानी नहीं है।",
+          "mr": "म्हैसूर हे आपल्या राजवाड्यासाठी प्रसिद्ध असलेले कर्नाटकातील शाही शहर आहे, पण राजधानी नाही."
+        },
+        "2": {
+          "en": "Hubballi is an important trading city in Karnataka, but not the state capital.",
+          "hi": "हुबली कर्नाटक का एक महत्वपूर्ण व्यापारिक शहर है, पर राज्य की राजधानी नहीं है।",
+          "mr": "हुबळी हे कर्नाटकातील एक महत्त्वाचे व्यापारी शहर आहे, पण राज्याची राजधानी नाही."
+        },
+        "3": {
+          "en": "Mangaluru is a coastal port city of Karnataka, but not the state capital.",
+          "hi": "मंगलुरु कर्नाटक का एक तटीय बंदरगाह शहर है, पर राज्य की राजधानी नहीं है।",
+          "mr": "मंगळूरु हे कर्नाटकातील किनारपट्टीवरील बंदर शहर आहे, पण राज्याची राजधानी नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-gk-02",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "The Taj Mahal at Agra stands on the bank of which river?",
+        "hi": "आगरा का ताजमहल किस नदी के किनारे स्थित है?",
+        "mr": "आग्र्याचा ताजमहाल कोणत्या नदीच्या काठावर आहे?"
+      },
+      "optionsJson": [
+        { "en": "Narmada", "hi": "नर्मदा", "mr": "नर्मदा" },
+        { "en": "Krishna", "hi": "कृष्णा", "mr": "कृष्णा" },
+        { "en": "Mahanadi", "hi": "महानदी", "mr": "महानदी" },
+        { "en": "Yamuna", "hi": "यमुना", "mr": "यमुना" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "The Taj Mahal was built on the southern bank of the Yamuna river at Agra in Uttar Pradesh.",
+        "hi": "ताजमहल उत्तर प्रदेश के आगरा में यमुना नदी के दक्षिणी तट पर बना है।",
+        "mr": "ताजमहाल उत्तर प्रदेशातील आग्रा येथे यमुना नदीच्या दक्षिण काठावर बांधलेला आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The Narmada flows westward through Madhya Pradesh and Gujarat, far from Agra.",
+          "hi": "नर्मदा मध्य प्रदेश और गुजरात से होकर पश्चिम की ओर बहती है, जो आगरा से दूर है।",
+          "mr": "नर्मदा नदी मध्य प्रदेश आणि गुजरातमधून पश्चिमेकडे वाहते, जी आग्र्यापासून दूर आहे."
+        },
+        "1": {
+          "en": "The Krishna is a peninsular river flowing through Maharashtra, Karnataka and Andhra Pradesh, not near Agra.",
+          "hi": "कृष्णा प्रायद्वीपीय नदी है जो महाराष्ट्र, कर्नाटक और आंध्र प्रदेश में बहती है, आगरा के पास नहीं।",
+          "mr": "कृष्णा ही द्वीपकल्पीय नदी महाराष्ट्र, कर्नाटक आणि आंध्र प्रदेशातून वाहते, आग्र्याजवळ नाही."
+        },
+        "2": {
+          "en": "The Mahanadi flows mainly through Chhattisgarh and Odisha in eastern India, not through Agra.",
+          "hi": "महानदी मुख्य रूप से पूर्वी भारत के छत्तीसगढ़ और ओडिशा में बहती है, आगरा में नहीं।",
+          "mr": "महानदी प्रामुख्याने पूर्व भारतातील छत्तीसगड आणि ओडिशातून वाहते, आग्र्यातून नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-gk-03",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which of the following is one of the oldest fold mountain ranges in the world and runs mainly through the state of Rajasthan?",
+        "hi": "निम्नलिखित में से कौन-सी विश्व की सबसे पुरानी वलित पर्वत श्रृंखलाओं में से एक है और मुख्य रूप से राजस्थान राज्य से होकर गुजरती है?",
+        "mr": "खालीलपैकी कोणती पर्वतरांग जगातील सर्वात प्राचीन घडीच्या पर्वतरांगांपैकी एक आहे आणि प्रामुख्याने राजस्थान राज्यातून जाते?"
+      },
+      "optionsJson": [
+        { "en": "Aravalli Range", "hi": "अरावली पर्वतमाला", "mr": "अरवली पर्वतरांग" },
+        { "en": "Vindhya Range", "hi": "विंध्य पर्वतमाला", "mr": "विंध्य पर्वतरांग" },
+        { "en": "Satpura Range", "hi": "सतपुड़ा पर्वतमाला", "mr": "सातपुडा पर्वतरांग" },
+        { "en": "Nilgiri Hills", "hi": "नीलगिरि की पहाड़ियाँ", "mr": "निलगिरी टेकड्या" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "The Aravalli Range is among the oldest fold mountains in the world and stretches from Delhi through Haryana and Rajasthan to Gujarat. Most of it lies in Rajasthan.",
+        "hi": "अरावली पर्वतमाला विश्व की सबसे पुरानी वलित पर्वतमालाओं में से एक है और दिल्ली से हरियाणा व राजस्थान होते हुए गुजरात तक फैली है। इसका अधिकांश भाग राजस्थान में है।",
+        "mr": "अरवली पर्वतरांग ही जगातील सर्वात प्राचीन घडीच्या पर्वतरांगांपैकी एक असून दिल्लीपासून हरियाणा व राजस्थानमार्गे गुजरातपर्यंत पसरलेली आहे. तिचा बहुतांश भाग राजस्थानमध्ये आहे."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "The Vindhya Range lies in central India, mainly in Madhya Pradesh, not Rajasthan.",
+          "hi": "विंध्य पर्वतमाला मध्य भारत में, मुख्यतः मध्य प्रदेश में है, राजस्थान में नहीं।",
+          "mr": "विंध्य पर्वतरांग मध्य भारतात, प्रामुख्याने मध्य प्रदेशात आहे, राजस्थानमध्ये नाही."
+        },
+        "2": {
+          "en": "The Satpura Range lies south of the Narmada river in central India, not in Rajasthan.",
+          "hi": "सतपुड़ा पर्वतमाला मध्य भारत में नर्मदा नदी के दक्षिण में है, राजस्थान में नहीं।",
+          "mr": "सातपुडा पर्वतरांग मध्य भारतात नर्मदा नदीच्या दक्षिणेला आहे, राजस्थानमध्ये नाही."
+        },
+        "3": {
+          "en": "The Nilgiri Hills are in southern India, in Tamil Nadu, Kerala and Karnataka.",
+          "hi": "नीलगिरि की पहाड़ियाँ दक्षिण भारत में तमिलनाडु, केरल और कर्नाटक में हैं।",
+          "mr": "निलगिरी टेकड्या दक्षिण भारतात तमिळनाडू, केरळ आणि कर्नाटकात आहेत."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-gk-04",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which is the longest river of peninsular India?",
+        "hi": "प्रायद्वीपीय भारत की सबसे लंबी नदी कौन-सी है?",
+        "mr": "द्वीपकल्पीय भारतातील सर्वात लांब नदी कोणती आहे?"
+      },
+      "optionsJson": [
+        { "en": "Kaveri", "hi": "कावेरी", "mr": "कावेरी" },
+        { "en": "Krishna", "hi": "कृष्णा", "mr": "कृष्णा" },
+        { "en": "Godavari", "hi": "गोदावरी", "mr": "गोदावरी" },
+        { "en": "Mahanadi", "hi": "महानदी", "mr": "महानदी" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The Godavari, about 1,465 km long, is the longest river of peninsular India. It rises in Maharashtra and flows into the Bay of Bengal.",
+        "hi": "गोदावरी लगभग 1,465 किमी लंबी है और प्रायद्वीपीय भारत की सबसे लंबी नदी है। यह महाराष्ट्र से निकलकर बंगाल की खाड़ी में गिरती है।",
+        "mr": "गोदावरी सुमारे 1,465 किमी लांब असून द्वीपकल्पीय भारतातील सर्वात लांब नदी आहे. ती महाराष्ट्रात उगम पावते आणि बंगालच्या उपसागराला मिळते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The Kaveri is about 800 km long, which is shorter than the Godavari.",
+          "hi": "कावेरी लगभग 800 किमी लंबी है, जो गोदावरी से छोटी है।",
+          "mr": "कावेरी सुमारे 800 किमी लांब आहे, जी गोदावरीपेक्षा लहान आहे."
+        },
+        "1": {
+          "en": "The Krishna is the second longest peninsular river, about 1,400 km, slightly shorter than the Godavari.",
+          "hi": "कृष्णा प्रायद्वीपीय भारत की दूसरी सबसे लंबी नदी है, लगभग 1,400 किमी, जो गोदावरी से थोड़ी छोटी है।",
+          "mr": "कृष्णा ही द्वीपकल्पीय भारतातील दुसरी सर्वात लांब नदी आहे, सुमारे 1,400 किमी, जी गोदावरीपेक्षा थोडी लहान आहे."
+        },
+        "3": {
+          "en": "The Mahanadi is about 850 km long, much shorter than the Godavari.",
+          "hi": "महानदी लगभग 850 किमी लंबी है, जो गोदावरी से काफी छोटी है।",
+          "mr": "महानदी सुमारे 850 किमी लांब आहे, जी गोदावरीपेक्षा खूपच लहान आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-gk-05",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Which city is the capital of Madhya Pradesh?",
+        "hi": "मध्य प्रदेश की राजधानी कौन-सा शहर है?",
+        "mr": "मध्य प्रदेशची राजधानी कोणते शहर आहे?"
+      },
+      "optionsJson": [
+        { "en": "Indore", "hi": "इंदौर", "mr": "इंदूर" },
+        { "en": "Bhopal", "hi": "भोपाल", "mr": "भोपाळ" },
+        { "en": "Gwalior", "hi": "ग्वालियर", "mr": "ग्वाल्हेर" },
+        { "en": "Jabalpur", "hi": "जबलपुर", "mr": "जबलपूर" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Bhopal, known as the City of Lakes, is the capital of Madhya Pradesh.",
+        "hi": "भोपाल, जिसे झीलों का शहर कहा जाता है, मध्य प्रदेश की राजधानी है।",
+        "mr": "भोपाळ, ज्याला तलावांचे शहर म्हणतात, ही मध्य प्रदेशची राजधानी आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Indore is the largest city of Madhya Pradesh, but it is not the capital.",
+          "hi": "इंदौर मध्य प्रदेश का सबसे बड़ा शहर है, पर राजधानी नहीं है।",
+          "mr": "इंदूर हे मध्य प्रदेशातील सर्वात मोठे शहर आहे, पण राजधानी नाही."
+        },
+        "2": {
+          "en": "Gwalior is a historic city known for its fort, but it is not the capital.",
+          "hi": "ग्वालियर अपने किले के लिए प्रसिद्ध ऐतिहासिक शहर है, पर राजधानी नहीं है।",
+          "mr": "ग्वाल्हेर हे आपल्या किल्ल्यासाठी प्रसिद्ध ऐतिहासिक शहर आहे, पण राजधानी नाही."
+        },
+        "3": {
+          "en": "Jabalpur is a major city near the Marble Rocks on the Narmada, but it is not the capital.",
+          "hi": "जबलपुर नर्मदा पर भेड़ाघाट के मार्बल चट्टानों के पास का प्रमुख शहर है, पर राजधानी नहीं है।",
+          "mr": "जबलपूर हे नर्मदेवरील भेडाघाटच्या संगमरवरी खडकांजवळील प्रमुख शहर आहे, पण राजधानी नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-gk-06",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which is the largest state of India by area?",
+        "hi": "क्षेत्रफल की दृष्टि से भारत का सबसे बड़ा राज्य कौन-सा है?",
+        "mr": "क्षेत्रफळाच्या दृष्टीने भारतातील सर्वात मोठे राज्य कोणते आहे?"
+      },
+      "optionsJson": [
+        { "en": "Rajasthan", "hi": "राजस्थान", "mr": "राजस्थान" },
+        { "en": "Uttar Pradesh", "hi": "उत्तर प्रदेश", "mr": "उत्तर प्रदेश" },
+        { "en": "Maharashtra", "hi": "महाराष्ट्र", "mr": "महाराष्ट्र" },
+        { "en": "Madhya Pradesh", "hi": "मध्य प्रदेश", "mr": "मध्य प्रदेश" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Rajasthan covers about 3.42 lakh square kilometres, which makes it the largest Indian state by area.",
+        "hi": "राजस्थान का क्षेत्रफल लगभग 3.42 लाख वर्ग किलोमीटर है, जो इसे क्षेत्रफल में भारत का सबसे बड़ा राज्य बनाता है।",
+        "mr": "राजस्थानचे क्षेत्रफळ सुमारे 3.42 लाख चौरस किलोमीटर आहे, त्यामुळे ते क्षेत्रफळाने भारतातील सर्वात मोठे राज्य आहे."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Uttar Pradesh is the most populous state, but its area is much smaller than Rajasthan's.",
+          "hi": "उत्तर प्रदेश सबसे अधिक जनसंख्या वाला राज्य है, पर इसका क्षेत्रफल राजस्थान से काफी कम है।",
+          "mr": "उत्तर प्रदेश हे सर्वाधिक लोकसंख्येचे राज्य आहे, पण त्याचे क्षेत्रफळ राजस्थानपेक्षा खूपच कमी आहे."
+        },
+        "2": {
+          "en": "Maharashtra is the third largest state by area, smaller than Rajasthan.",
+          "hi": "महाराष्ट्र क्षेत्रफल में तीसरा सबसे बड़ा राज्य है, जो राजस्थान से छोटा है।",
+          "mr": "महाराष्ट्र हे क्षेत्रफळाने तिसरे सर्वात मोठे राज्य आहे, जे राजस्थानपेक्षा लहान आहे."
+        },
+        "3": {
+          "en": "Madhya Pradesh is the second largest state by area, but still smaller than Rajasthan.",
+          "hi": "मध्य प्रदेश क्षेत्रफल में दूसरा सबसे बड़ा राज्य है, पर फिर भी राजस्थान से छोटा है।",
+          "mr": "मध्य प्रदेश हे क्षेत्रफळाने दुसरे सर्वात मोठे राज्य आहे, तरीही राजस्थानपेक्षा लहान आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-gk-07",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which water body lies along the western coast of the Indian peninsula?",
+        "hi": "भारतीय प्रायद्वीप के पश्चिमी तट पर कौन-सा जलाशय (समुद्र) स्थित है?",
+        "mr": "भारतीय द्वीपकल्पाच्या पश्चिम किनाऱ्याला कोणता जलाशय (समुद्र) आहे?"
+      },
+      "optionsJson": [
+        { "en": "Bay of Bengal", "hi": "बंगाल की खाड़ी", "mr": "बंगालचा उपसागर" },
+        { "en": "Andaman Sea", "hi": "अंडमान सागर", "mr": "अंदमान समुद्र" },
+        { "en": "Red Sea", "hi": "लाल सागर", "mr": "तांबडा समुद्र" },
+        { "en": "Arabian Sea", "hi": "अरब सागर", "mr": "अरबी समुद्र" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "The Arabian Sea borders the western coast of peninsular India, along states such as Gujarat, Maharashtra, Goa and Kerala.",
+        "hi": "अरब सागर प्रायद्वीपीय भारत के पश्चिमी तट पर स्थित है, जो गुजरात, महाराष्ट्र, गोवा और केरल जैसे राज्यों से लगा है।",
+        "mr": "अरबी समुद्र द्वीपकल्पीय भारताच्या पश्चिम किनाऱ्यावर असून गुजरात, महाराष्ट्र, गोवा आणि केरळ यांसारख्या राज्यांना लागून आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The Bay of Bengal lies along the eastern coast of India, not the western coast.",
+          "hi": "बंगाल की खाड़ी भारत के पूर्वी तट पर स्थित है, पश्चिमी तट पर नहीं।",
+          "mr": "बंगालचा उपसागर भारताच्या पूर्व किनाऱ्यावर आहे, पश्चिम किनाऱ्यावर नाही."
+        },
+        "1": {
+          "en": "The Andaman Sea lies to the east, near the Andaman Islands and Southeast Asia.",
+          "hi": "अंडमान सागर पूर्व में, अंडमान द्वीप समूह और दक्षिण-पूर्व एशिया के पास स्थित है।",
+          "mr": "अंदमान समुद्र पूर्वेला, अंदमान बेटे आणि आग्नेय आशियाजवळ आहे."
+        },
+        "2": {
+          "en": "The Red Sea lies between Africa and Arabia and does not touch India's coast.",
+          "hi": "लाल सागर अफ्रीका और अरब के बीच स्थित है और भारत के तट को नहीं छूता।",
+          "mr": "तांबडा समुद्र आफ्रिका आणि अरबस्तान यांच्या दरम्यान असून भारताच्या किनाऱ्याला लागत नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-gk-08",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "The Sundarbans, the world's largest mangrove delta, is formed by the Ganga together with which other major river?",
+        "hi": "सुंदरबन, जो विश्व का सबसे बड़ा मैंग्रोव डेल्टा है, गंगा और किस अन्य प्रमुख नदी द्वारा मिलकर बना है?",
+        "mr": "सुंदरबन हा जगातील सर्वात मोठा खारफुटीचा त्रिभुज प्रदेश गंगा आणि कोणत्या दुसऱ्या प्रमुख नदीमुळे मिळून तयार झाला आहे?"
+      },
+      "optionsJson": [
+        { "en": "Chambal", "hi": "चंबल", "mr": "चंबळ" },
+        { "en": "Krishna", "hi": "कृष्णा", "mr": "कृष्णा" },
+        { "en": "Brahmaputra", "hi": "ब्रह्मपुत्र", "mr": "ब्रह्मपुत्रा" },
+        { "en": "Narmada", "hi": "नर्मदा", "mr": "नर्मदा" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The Ganga and the Brahmaputra join near the Bay of Bengal and build the vast Sundarbans delta, shared by India and Bangladesh.",
+        "hi": "गंगा और ब्रह्मपुत्र बंगाल की खाड़ी के पास मिलकर विशाल सुंदरबन डेल्टा बनाती हैं, जो भारत और बांग्लादेश में फैला है।",
+        "mr": "गंगा आणि ब्रह्मपुत्रा बंगालच्या उपसागराजवळ एकत्र येऊन विशाल सुंदरबन त्रिभुज प्रदेश तयार करतात, जो भारत आणि बांगलादेशात पसरलेला आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The Chambal is a tributary of the Yamuna and does not form the Sundarbans delta.",
+          "hi": "चंबल यमुना की सहायक नदी है और सुंदरबन डेल्टा नहीं बनाती।",
+          "mr": "चंबळ ही यमुनेची उपनदी आहे आणि ती सुंदरबन त्रिभुज प्रदेश तयार करत नाही."
+        },
+        "1": {
+          "en": "The Krishna is a peninsular river that flows into the Bay of Bengal far to the south, not forming the Sundarbans.",
+          "hi": "कृष्णा प्रायद्वीपीय नदी है जो बहुत दक्षिण में बंगाल की खाड़ी में गिरती है, सुंदरबन नहीं बनाती।",
+          "mr": "कृष्णा ही द्वीपकल्पीय नदी खूप दक्षिणेला बंगालच्या उपसागराला मिळते, ती सुंदरबन तयार करत नाही."
+        },
+        "3": {
+          "en": "The Narmada flows west into the Arabian Sea and has no part in the Sundarbans delta.",
+          "hi": "नर्मदा पश्चिम की ओर बहकर अरब सागर में गिरती है और सुंदरबन डेल्टा में इसका कोई योगदान नहीं है।",
+          "mr": "नर्मदा पश्चिमेकडे वाहून अरबी समुद्राला मिळते आणि सुंदरबन त्रिभुज प्रदेशात तिचा काहीही वाटा नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-gk-09",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Which Indian state has the longest coastline on the mainland?",
+        "hi": "भारत की मुख्य भूमि पर किस राज्य की तटरेखा सबसे लंबी है?",
+        "mr": "भारताच्या मुख्य भूमीवर कोणत्या राज्याचा किनारा सर्वात लांब आहे?"
+      },
+      "optionsJson": [
+        { "en": "Maharashtra", "hi": "महाराष्ट्र", "mr": "महाराष्ट्र" },
+        { "en": "Gujarat", "hi": "गुजरात", "mr": "गुजरात" },
+        { "en": "Tamil Nadu", "hi": "तमिलनाडु", "mr": "तमिळनाडू" },
+        { "en": "Andhra Pradesh", "hi": "आंध्र प्रदेश", "mr": "आंध्र प्रदेश" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Gujarat has the longest coastline among Indian states, about 1,600 km, stretching along the Gulf of Kutch, Saurashtra and the Gulf of Khambhat.",
+        "hi": "गुजरात की तटरेखा भारतीय राज्यों में सबसे लंबी, लगभग 1,600 किमी है, जो कच्छ की खाड़ी, सौराष्ट्र और खंभात की खाड़ी तक फैली है।",
+        "mr": "गुजरातचा किनारा भारतीय राज्यांमध्ये सर्वात लांब, सुमारे 1,600 किमी आहे, जो कच्छचे आखात, सौराष्ट्र आणि खंभातचे आखात यांपर्यंत पसरलेला आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Maharashtra's coastline is only about 720 km, much shorter than Gujarat's.",
+          "hi": "महाराष्ट्र की तटरेखा केवल लगभग 720 किमी है, जो गुजरात से काफी छोटी है।",
+          "mr": "महाराष्ट्राचा किनारा फक्त सुमारे 720 किमी आहे, जो गुजरातपेक्षा खूपच लहान आहे."
+        },
+        "2": {
+          "en": "Tamil Nadu's coastline is about 1,000 km long, which is shorter than Gujarat's.",
+          "hi": "तमिलनाडु की तटरेखा लगभग 1,000 किमी लंबी है, जो गुजरात से छोटी है।",
+          "mr": "तमिळनाडूचा किनारा सुमारे 1,000 किमी लांब आहे, जो गुजरातपेक्षा लहान आहे."
+        },
+        "3": {
+          "en": "Andhra Pradesh has the second longest coastline, about 970 km, still shorter than Gujarat's.",
+          "hi": "आंध्र प्रदेश की तटरेखा दूसरी सबसे लंबी, लगभग 970 किमी है, फिर भी गुजरात से छोटी है।",
+          "mr": "आंध्र प्रदेशचा किनारा दुसरा सर्वात लांब, सुमारे 970 किमी आहे, तरीही गुजरातपेक्षा लहान आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-gk-10",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Which is the largest ocean in the world?",
+        "hi": "विश्व का सबसे बड़ा महासागर कौन-सा है?",
+        "mr": "जगातील सर्वात मोठा महासागर कोणता आहे?"
+      },
+      "optionsJson": [
+        { "en": "Pacific Ocean", "hi": "प्रशांत महासागर", "mr": "प्रशांत महासागर" },
+        { "en": "Atlantic Ocean", "hi": "अटलांटिक महासागर", "mr": "अटलांटिक महासागर" },
+        { "en": "Indian Ocean", "hi": "हिंद महासागर", "mr": "हिंदी महासागर" },
+        { "en": "Arctic Ocean", "hi": "आर्कटिक महासागर", "mr": "आर्क्टिक महासागर" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "The Pacific Ocean covers about one-third of Earth's surface and is larger than all the land on Earth put together.",
+        "hi": "प्रशांत महासागर पृथ्वी की सतह के लगभग एक-तिहाई भाग को ढकता है और पृथ्वी की समस्त भूमि से भी बड़ा है।",
+        "mr": "प्रशांत महासागर पृथ्वीच्या पृष्ठभागाचा सुमारे एक-तृतीयांश भाग व्यापतो आणि पृथ्वीवरील सर्व भूमीपेक्षाही मोठा आहे."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "The Atlantic is the second largest ocean, smaller than the Pacific.",
+          "hi": "अटलांटिक दूसरा सबसे बड़ा महासागर है, जो प्रशांत से छोटा है।",
+          "mr": "अटलांटिक हा दुसरा सर्वात मोठा महासागर आहे, जो प्रशांतपेक्षा लहान आहे."
+        },
+        "2": {
+          "en": "The Indian Ocean is the third largest ocean, smaller than the Pacific.",
+          "hi": "हिंद महासागर तीसरा सबसे बड़ा महासागर है, जो प्रशांत से छोटा है।",
+          "mr": "हिंदी महासागर हा तिसरा सर्वात मोठा महासागर आहे, जो प्रशांतपेक्षा लहान आहे."
+        },
+        "3": {
+          "en": "The Arctic is the smallest and shallowest of the world's oceans.",
+          "hi": "आर्कटिक विश्व के महासागरों में सबसे छोटा और सबसे कम गहरा है।",
+          "mr": "आर्क्टिक हा जगातील महासागरांपैकी सर्वात लहान आणि सर्वात कमी खोलीचा आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-gk-11",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which is the smallest continent in the world by area?",
+        "hi": "क्षेत्रफल की दृष्टि से विश्व का सबसे छोटा महाद्वीप कौन-सा है?",
+        "mr": "क्षेत्रफळाच्या दृष्टीने जगातील सर्वात लहान खंड कोणता आहे?"
+      },
+      "optionsJson": [
+        { "en": "Europe", "hi": "यूरोप", "mr": "युरोप" },
+        { "en": "Antarctica", "hi": "अंटार्कटिका", "mr": "अंटार्क्टिका" },
+        { "en": "South America", "hi": "दक्षिण अमेरिका", "mr": "दक्षिण अमेरिका" },
+        { "en": "Australia", "hi": "ऑस्ट्रेलिया", "mr": "ऑस्ट्रेलिया" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Australia covers about 8.5 million square kilometres, which is less than every other continent, so it is the smallest.",
+        "hi": "ऑस्ट्रेलिया का क्षेत्रफल लगभग 85 लाख वर्ग किलोमीटर है, जो अन्य सभी महाद्वीपों से कम है, इसलिए यह सबसे छोटा है।",
+        "mr": "ऑस्ट्रेलियाचे क्षेत्रफळ सुमारे 85 लाख चौरस किलोमीटर आहे, जे इतर सर्व खंडांपेक्षा कमी आहे, म्हणून तो सर्वात लहान खंड आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Europe covers about 10 million square kilometres, which is more than Australia.",
+          "hi": "यूरोप का क्षेत्रफल लगभग 1 करोड़ वर्ग किलोमीटर है, जो ऑस्ट्रेलिया से अधिक है।",
+          "mr": "युरोपचे क्षेत्रफळ सुमारे 1 कोटी चौरस किलोमीटर आहे, जे ऑस्ट्रेलियापेक्षा जास्त आहे."
+        },
+        "1": {
+          "en": "Antarctica covers about 14 million square kilometres, so it is larger than Australia.",
+          "hi": "अंटार्कटिका का क्षेत्रफल लगभग 1.4 करोड़ वर्ग किलोमीटर है, इसलिए यह ऑस्ट्रेलिया से बड़ा है।",
+          "mr": "अंटार्क्टिकाचे क्षेत्रफळ सुमारे 1.4 कोटी चौरस किलोमीटर आहे, म्हणून तो ऑस्ट्रेलियापेक्षा मोठा आहे."
+        },
+        "2": {
+          "en": "South America covers about 17.8 million square kilometres, far larger than Australia.",
+          "hi": "दक्षिण अमेरिका का क्षेत्रफल लगभग 1.78 करोड़ वर्ग किलोमीटर है, जो ऑस्ट्रेलिया से बहुत बड़ा है।",
+          "mr": "दक्षिण अमेरिकेचे क्षेत्रफळ सुमारे 1.78 कोटी चौरस किलोमीटर आहे, जे ऑस्ट्रेलियापेक्षा खूपच मोठे आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-gk-12",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which is the largest hot desert in the world?",
+        "hi": "विश्व का सबसे बड़ा गर्म मरुस्थल कौन-सा है?",
+        "mr": "जगातील सर्वात मोठे उष्ण वाळवंट कोणते आहे?"
+      },
+      "optionsJson": [
+        { "en": "Gobi", "hi": "गोबी", "mr": "गोबी" },
+        { "en": "Thar", "hi": "थार", "mr": "थर" },
+        { "en": "Sahara", "hi": "सहारा", "mr": "सहारा" },
+        { "en": "Kalahari", "hi": "कालाहारी", "mr": "कलहारी" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The Sahara in northern Africa, with an area of about 9 million square kilometres, is the largest hot desert in the world.",
+        "hi": "उत्तरी अफ्रीका का सहारा, लगभग 90 लाख वर्ग किलोमीटर क्षेत्रफल के साथ, विश्व का सबसे बड़ा गर्म मरुस्थल है।",
+        "mr": "उत्तर आफ्रिकेतील सहारा, सुमारे 90 लाख चौरस किलोमीटर क्षेत्रफळासह, जगातील सर्वात मोठे उष्ण वाळवंट आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The Gobi in Asia is a cold desert, not a hot desert, and it is much smaller than the Sahara.",
+          "hi": "एशिया का गोबी एक ठंडा मरुस्थल है, गर्म नहीं, और यह सहारा से बहुत छोटा है।",
+          "mr": "आशियातील गोबी हे थंड वाळवंट आहे, उष्ण नाही, आणि ते सहारापेक्षा खूपच लहान आहे."
+        },
+        "1": {
+          "en": "The Thar in India and Pakistan is a hot desert, but it is far smaller than the Sahara.",
+          "hi": "भारत और पाकिस्तान का थार गर्म मरुस्थल है, पर यह सहारा से बहुत छोटा है।",
+          "mr": "भारत आणि पाकिस्तानातील थर हे उष्ण वाळवंट आहे, पण ते सहारापेक्षा खूपच लहान आहे."
+        },
+        "3": {
+          "en": "The Kalahari in southern Africa is much smaller than the Sahara.",
+          "hi": "दक्षिणी अफ्रीका का कालाहारी सहारा से बहुत छोटा है।",
+          "mr": "दक्षिण आफ्रिकेतील कलहारी सहारापेक्षा खूपच लहान आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-gk-13",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Which imaginary line divides the Earth into the Northern Hemisphere and the Southern Hemisphere?",
+        "hi": "कौन-सी काल्पनिक रेखा पृथ्वी को उत्तरी गोलार्ध और दक्षिणी गोलार्ध में बाँटती है?",
+        "mr": "कोणती काल्पनिक रेषा पृथ्वीची उत्तर गोलार्ध आणि दक्षिण गोलार्ध अशी विभागणी करते?"
+      },
+      "optionsJson": [
+        { "en": "Prime Meridian", "hi": "प्रधान मध्याह्न रेखा", "mr": "शून्य रेखावृत्त" },
+        { "en": "Equator", "hi": "भूमध्य रेखा", "mr": "विषुववृत्त" },
+        { "en": "Tropic of Cancer", "hi": "कर्क रेखा", "mr": "कर्कवृत्त" },
+        { "en": "International Date Line", "hi": "अंतरराष्ट्रीय तिथि रेखा", "mr": "आंतरराष्ट्रीय तारीख रेषा" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "The Equator is the 0 degree line of latitude. It runs east-west around the middle of the Earth and divides it into two equal hemispheres, north and south.",
+        "hi": "भूमध्य रेखा 0 अंश अक्षांश की रेखा है। यह पृथ्वी के बीच से पूर्व-पश्चिम दिशा में गुजरती है और उसे उत्तर और दक्षिण दो बराबर गोलार्धों में बाँटती है।",
+        "mr": "विषुववृत्त ही 0 अंश अक्षांशाची रेषा आहे. ती पृथ्वीच्या मध्यातून पूर्व-पश्चिम जाते आणि तिचे उत्तर व दक्षिण असे दोन समान गोलार्ध करते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The Prime Meridian divides the Earth into the Eastern and Western Hemispheres, not north and south.",
+          "hi": "प्रधान मध्याह्न रेखा पृथ्वी को पूर्वी और पश्चिमी गोलार्ध में बाँटती है, उत्तर-दक्षिण में नहीं।",
+          "mr": "शून्य रेखावृत्त पृथ्वीची पूर्व आणि पश्चिम गोलार्धात विभागणी करते, उत्तर-दक्षिण नाही."
+        },
+        "2": {
+          "en": "The Tropic of Cancer is a latitude at about 23.5 degrees north and lies within the Northern Hemisphere.",
+          "hi": "कर्क रेखा लगभग 23.5 अंश उत्तर पर स्थित अक्षांश है और उत्तरी गोलार्ध के भीतर है।",
+          "mr": "कर्कवृत्त हे सुमारे 23.5 अंश उत्तरेकडील अक्षांश असून उत्तर गोलार्धातच आहे."
+        },
+        "3": {
+          "en": "The International Date Line roughly follows the 180 degree meridian and marks the change of calendar date.",
+          "hi": "अंतरराष्ट्रीय तिथि रेखा लगभग 180 अंश देशांतर के साथ चलती है और कैलेंडर की तारीख बदलने को दर्शाती है।",
+          "mr": "आंतरराष्ट्रीय तारीख रेषा साधारणपणे 180 अंश रेखावृत्ताच्या बाजूने जाते आणि दिनांक बदलण्याची खूण दर्शवते."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-gk-14",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Mount Kilimanjaro, the highest mountain peak on its continent, is located in which continent?",
+        "hi": "माउंट किलिमंजारो, जो अपने महाद्वीप की सबसे ऊँची पर्वत चोटी है, किस महाद्वीप में स्थित है?",
+        "mr": "माउंट किलीमांजारो, जे आपल्या खंडातील सर्वात उंच पर्वतशिखर आहे, कोणत्या खंडात आहे?"
+      },
+      "optionsJson": [
+        { "en": "Africa", "hi": "अफ्रीका", "mr": "आफ्रिका" },
+        { "en": "Asia", "hi": "एशिया", "mr": "आशिया" },
+        { "en": "South America", "hi": "दक्षिण अमेरिका", "mr": "दक्षिण अमेरिका" },
+        { "en": "Europe", "hi": "यूरोप", "mr": "युरोप" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Mount Kilimanjaro is a dormant volcano in Tanzania, in Africa. At about 5,895 m it is the highest peak in Africa.",
+        "hi": "माउंट किलिमंजारो अफ्रीका के तंजानिया में स्थित एक सुषुप्त ज्वालामुखी है। लगभग 5,895 मीटर ऊँचाई के साथ यह अफ्रीका की सबसे ऊँची चोटी है।",
+        "mr": "माउंट किलीमांजारो हा आफ्रिकेतील टांझानियामधील सुप्त ज्वालामुखी आहे. सुमारे 5,895 मीटर उंचीसह ते आफ्रिकेतील सर्वात उंच शिखर आहे."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Asia's highest peak is Mount Everest in the Himalayas, not Kilimanjaro.",
+          "hi": "एशिया की सबसे ऊँची चोटी हिमालय में माउंट एवरेस्ट है, किलिमंजारो नहीं।",
+          "mr": "आशियातील सर्वात उंच शिखर हिमालयातील माउंट एव्हरेस्ट आहे, किलीमांजारो नाही."
+        },
+        "2": {
+          "en": "South America's highest peak is Aconcagua in the Andes, not Kilimanjaro.",
+          "hi": "दक्षिण अमेरिका की सबसे ऊँची चोटी एंडीज़ में एकॉन्कागुआ है, किलिमंजारो नहीं।",
+          "mr": "दक्षिण अमेरिकेतील सर्वात उंच शिखर अँडीज पर्वतातील अकोन्कागुआ आहे, किलीमांजारो नाही."
+        },
+        "3": {
+          "en": "Europe's well-known high peaks, such as Mont Blanc in the Alps, are different mountains from Kilimanjaro.",
+          "hi": "यूरोप की प्रसिद्ध ऊँची चोटियाँ, जैसे आल्प्स का मोंट ब्लांक, किलिमंजारो से अलग पर्वत हैं।",
+          "mr": "युरोपमधील प्रसिद्ध उंच शिखरे, जसे आल्प्समधील माँट ब्लँक, किलीमांजारोपेक्षा वेगळे पर्वत आहेत."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-gk-15",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "The Tropic of Cancer passes through which one of the following Indian states?",
+        "hi": "कर्क रेखा निम्नलिखित में से किस एक भारतीय राज्य से होकर गुजरती है?",
+        "mr": "कर्कवृत्त खालीलपैकी कोणत्या एका भारतीय राज्यातून जाते?"
+      },
+      "optionsJson": [
+        { "en": "Kerala", "hi": "केरल", "mr": "केरळ" },
+        { "en": "Punjab", "hi": "पंजाब", "mr": "पंजाब" },
+        { "en": "Goa", "hi": "गोवा", "mr": "गोवा" },
+        { "en": "Madhya Pradesh", "hi": "मध्य प्रदेश", "mr": "मध्य प्रदेश" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "The Tropic of Cancer passes through eight Indian states, including Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram. Of the options, only Madhya Pradesh is on this list.",
+        "hi": "कर्क रेखा आठ भारतीय राज्यों से गुजरती है, जिनमें गुजरात, राजस्थान, मध्य प्रदेश, छत्तीसगढ़, झारखंड, पश्चिम बंगाल, त्रिपुरा और मिज़ोरम शामिल हैं। विकल्पों में से केवल मध्य प्रदेश इस सूची में है।",
+        "mr": "कर्कवृत्त आठ भारतीय राज्यांमधून जाते, ज्यांत गुजरात, राजस्थान, मध्य प्रदेश, छत्तीसगड, झारखंड, पश्चिम बंगाल, त्रिपुरा आणि मिझोरम यांचा समावेश आहे. पर्यायांपैकी फक्त मध्य प्रदेश या यादीत आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Kerala lies in the far south, well below the Tropic of Cancer, which is at about 23.5 degrees north.",
+          "hi": "केरल अत्यंत दक्षिण में है, कर्क रेखा से काफी नीचे, जो लगभग 23.5 अंश उत्तर पर है।",
+          "mr": "केरळ अगदी दक्षिणेला आहे, सुमारे 23.5 अंश उत्तरेकडील कर्कवृत्ताच्या खूप खाली."
+        },
+        "1": {
+          "en": "Punjab lies in the north, well above the Tropic of Cancer, so the line does not cross it.",
+          "hi": "पंजाब उत्तर में है, कर्क रेखा से काफी ऊपर, इसलिए रेखा इससे होकर नहीं गुजरती।",
+          "mr": "पंजाब उत्तरेला आहे, कर्कवृत्ताच्या खूप वर, त्यामुळे ही रेषा त्यातून जात नाही."
+        },
+        "2": {
+          "en": "Goa lies at about 15 degrees north, well south of the Tropic of Cancer.",
+          "hi": "गोवा लगभग 15 अंश उत्तर पर है, कर्क रेखा से काफी दक्षिण में।",
+          "mr": "गोवा सुमारे 15 अंश उत्तरेला आहे, कर्कवृत्ताच्या खूप दक्षिणेला."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-gk-16",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Kaziranga National Park, famous for the one-horned rhinoceros, is located in which Indian state?",
+        "hi": "काजीरंगा राष्ट्रीय उद्यान, जो एक सींग वाले गैंडे के लिए प्रसिद्ध है, किस भारतीय राज्य में स्थित है?",
+        "mr": "एकशिंगी गेंड्यासाठी प्रसिद्ध असलेले काझीरंगा राष्ट्रीय उद्यान कोणत्या भारतीय राज्यात आहे?"
+      },
+      "optionsJson": [
+        { "en": "Kerala", "hi": "केरल", "mr": "केरळ" },
+        { "en": "Gujarat", "hi": "गुजरात", "mr": "गुजरात" },
+        { "en": "Assam", "hi": "असम", "mr": "आसाम" },
+        { "en": "Rajasthan", "hi": "राजस्थान", "mr": "राजस्थान" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Kaziranga National Park lies on the banks of the Brahmaputra in Assam and is home to most of the world's one-horned rhinoceroses.",
+        "hi": "काजीरंगा राष्ट्रीय उद्यान असम में ब्रह्मपुत्र के किनारे स्थित है और विश्व के अधिकांश एक सींग वाले गैंडों का घर है।",
+        "mr": "काझीरंगा राष्ट्रीय उद्यान आसाममध्ये ब्रह्मपुत्रेच्या काठावर असून जगातील बहुतेक एकशिंगी गेंड्यांचे घर आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Kerala is known for Periyar and Eravikulam parks, not Kaziranga.",
+          "hi": "केरल पेरियार और इरविकुलम उद्यानों के लिए जाना जाता है, काजीरंगा के लिए नहीं।",
+          "mr": "केरळ पेरियार आणि इरविकुलम उद्यानांसाठी ओळखले जाते, काझीरंगासाठी नाही."
+        },
+        "1": {
+          "en": "Gujarat's Gir National Park is famous for Asiatic lions, not rhinoceroses.",
+          "hi": "गुजरात का गिर राष्ट्रीय उद्यान एशियाई शेरों के लिए प्रसिद्ध है, गैंडों के लिए नहीं।",
+          "mr": "गुजरातचे गीर राष्ट्रीय उद्यान आशियाई सिंहांसाठी प्रसिद्ध आहे, गेंड्यांसाठी नाही."
+        },
+        "3": {
+          "en": "Rajasthan's Ranthambore National Park is famous for tigers, not rhinoceroses.",
+          "hi": "राजस्थान का रणथंभौर राष्ट्रीय उद्यान बाघों के लिए प्रसिद्ध है, गैंडों के लिए नहीं।",
+          "mr": "राजस्थानचे रणथंभोर राष्ट्रीय उद्यान वाघांसाठी प्रसिद्ध आहे, गेंड्यांसाठी नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-gk-17",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Which part of a plant mainly absorbs water and minerals from the soil?",
+        "hi": "पौधे का कौन-सा भाग मुख्य रूप से मिट्टी से जल और खनिज अवशोषित करता है?",
+        "mr": "वनस्पतीचा कोणता भाग प्रामुख्याने जमिनीतून पाणी आणि खनिजे शोषून घेतो?"
+      },
+      "optionsJson": [
+        { "en": "Root", "hi": "जड़", "mr": "मूळ" },
+        { "en": "Leaf", "hi": "पत्ती", "mr": "पान" },
+        { "en": "Flower", "hi": "फूल", "mr": "फूल" },
+        { "en": "Stem", "hi": "तना", "mr": "खोड" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Roots grow into the soil and take in water and minerals through tiny root hairs. They also hold the plant firmly in place.",
+        "hi": "जड़ें मिट्टी में फैलती हैं और छोटे मूल रोमों के द्वारा जल और खनिज सोखती हैं। वे पौधे को मजबूती से थामे भी रखती हैं।",
+        "mr": "मुळे जमिनीत वाढतात आणि सूक्ष्म मूलकेसांमार्फत पाणी व खनिजे शोषून घेतात. ती वनस्पतीला जमिनीत घट्ट धरूनही ठेवतात."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Leaves make food by photosynthesis and release water vapour, but they do not absorb water from the soil.",
+          "hi": "पत्तियाँ प्रकाश संश्लेषण से भोजन बनाती हैं और जलवाष्प छोड़ती हैं, पर मिट्टी से जल नहीं सोखतीं।",
+          "mr": "पाने प्रकाशसंश्लेषणाने अन्न तयार करतात आणि बाष्प सोडतात, पण जमिनीतून पाणी शोषत नाहीत."
+        },
+        "2": {
+          "en": "Flowers help the plant make seeds and fruits, not absorb water from the soil.",
+          "hi": "फूल पौधे को बीज और फल बनाने में मदद करते हैं, मिट्टी से जल सोखने में नहीं।",
+          "mr": "फुले वनस्पतीला बिया आणि फळे तयार करण्यास मदत करतात, जमिनीतून पाणी शोषण्यास नाही."
+        },
+        "3": {
+          "en": "The stem carries water up from the roots to the leaves, but it is the roots that absorb it.",
+          "hi": "तना जड़ों से पत्तियों तक जल पहुँचाता है, पर जल को सोखने का काम जड़ें करती हैं।",
+          "mr": "खोड मुळांकडून पानांपर्यंत पाणी पोहोचवते, पण ते शोषण्याचे काम मुळे करतात."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-gk-18",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Which is the largest planet in our solar system?",
+        "hi": "हमारे सौरमंडल का सबसे बड़ा ग्रह कौन-सा है?",
+        "mr": "आपल्या सूर्यमालेतील सर्वात मोठा ग्रह कोणता आहे?"
+      },
+      "optionsJson": [
+        { "en": "Saturn", "hi": "शनि", "mr": "शनी" },
+        { "en": "Jupiter", "hi": "बृहस्पति", "mr": "गुरू" },
+        { "en": "Neptune", "hi": "वरुण", "mr": "नेपच्यून" },
+        { "en": "Earth", "hi": "पृथ्वी", "mr": "पृथ्वी" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Jupiter is the largest planet. It is so big that more than 1,300 Earths could fit inside it.",
+        "hi": "बृहस्पति सबसे बड़ा ग्रह है। यह इतना विशाल है कि इसमें 1,300 से अधिक पृथ्वियाँ समा सकती हैं।",
+        "mr": "गुरू हा सर्वात मोठा ग्रह आहे. तो इतका मोठा आहे की त्यात 1,300 पेक्षा जास्त पृथ्वी मावू शकतात."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Saturn, known for its rings, is the second largest planet, smaller than Jupiter.",
+          "hi": "शनि, जो अपने छल्लों के लिए जाना जाता है, दूसरा सबसे बड़ा ग्रह है, जो बृहस्पति से छोटा है।",
+          "mr": "शनी, जो आपल्या कड्यांसाठी ओळखला जातो, दुसरा सर्वात मोठा ग्रह आहे, जो गुरूपेक्षा लहान आहे."
+        },
+        "2": {
+          "en": "Neptune is a large planet, but it is much smaller than Jupiter.",
+          "hi": "वरुण एक बड़ा ग्रह है, पर यह बृहस्पति से काफी छोटा है।",
+          "mr": "नेपच्यून हा मोठा ग्रह आहे, पण तो गुरूपेक्षा खूपच लहान आहे."
+        },
+        "3": {
+          "en": "Earth is a small rocky planet, far smaller than Jupiter.",
+          "hi": "पृथ्वी एक छोटा चट्टानी ग्रह है, जो बृहस्पति से बहुत छोटी है।",
+          "mr": "पृथ्वी हा लहान खडकाळ ग्रह आहे, जो गुरूपेक्षा खूपच लहान आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-gk-19",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which vitamin does our skin make when it is exposed to sunlight?",
+        "hi": "धूप के संपर्क में आने पर हमारी त्वचा कौन-सा विटामिन बनाती है?",
+        "mr": "सूर्यप्रकाशाच्या संपर्कात आल्यावर आपली त्वचा कोणते जीवनसत्त्व तयार करते?"
+      },
+      "optionsJson": [
+        { "en": "Vitamin A", "hi": "विटामिन A", "mr": "जीवनसत्त्व अ" },
+        { "en": "Vitamin B", "hi": "विटामिन B", "mr": "जीवनसत्त्व ब" },
+        { "en": "Vitamin C", "hi": "विटामिन C", "mr": "जीवनसत्त्व क" },
+        { "en": "Vitamin D", "hi": "विटामिन D", "mr": "जीवनसत्त्व ड" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Our skin makes Vitamin D in sunlight. This vitamin helps build strong bones and teeth, which is why it is called the sunshine vitamin.",
+        "hi": "हमारी त्वचा धूप में विटामिन D बनाती है। यह विटामिन मजबूत हड्डियों और दाँतों के निर्माण में मदद करता है, इसीलिए इसे धूप का विटामिन कहा जाता है।",
+        "mr": "आपली त्वचा सूर्यप्रकाशात जीवनसत्त्व ड तयार करते. हे जीवनसत्त्व मजबूत हाडे आणि दात बनण्यास मदत करते, म्हणून त्याला सूर्यप्रकाशाचे जीवनसत्त्व म्हणतात."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Vitamin A is obtained from foods like carrots and milk and helps the eyes; the skin does not make it from sunlight.",
+          "hi": "विटामिन A गाजर और दूध जैसे भोजन से मिलता है और आँखों के लिए उपयोगी है; त्वचा इसे धूप से नहीं बनाती।",
+          "mr": "जीवनसत्त्व अ गाजर आणि दूध यांसारख्या अन्नातून मिळते व डोळ्यांना उपयोगी आहे; त्वचा ते सूर्यप्रकाशातून तयार करत नाही."
+        },
+        "1": {
+          "en": "Vitamin B comes from foods such as cereals, pulses and milk; the skin does not make it from sunlight.",
+          "hi": "विटामिन B अनाज, दालों और दूध जैसे भोजन से मिलता है; त्वचा इसे धूप से नहीं बनाती।",
+          "mr": "जीवनसत्त्व ब तृणधान्ये, डाळी आणि दूध यांसारख्या अन्नातून मिळते; त्वचा ते सूर्यप्रकाशातून तयार करत नाही."
+        },
+        "2": {
+          "en": "Vitamin C comes from citrus fruits like lemon and amla; the skin does not make it from sunlight.",
+          "hi": "विटामिन C नींबू और आँवला जैसे खट्टे फलों से मिलता है; त्वचा इसे धूप से नहीं बनाती।",
+          "mr": "जीवनसत्त्व क लिंबू आणि आवळा यांसारख्या आंबट फळांतून मिळते; त्वचा ते सूर्यप्रकाशातून तयार करत नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-gk-20",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Who wrote the national anthem of India, \"Jana Gana Mana\"?",
+        "hi": "भारत का राष्ट्रगान \"जन गण मन\" किसने लिखा?",
+        "mr": "भारताचे राष्ट्रगीत \"जन गण मन\" कोणी लिहिले?"
+      },
+      "optionsJson": [
+        { "en": "Bankim Chandra Chatterjee", "hi": "बंकिमचंद्र चट्टोपाध्याय", "mr": "बंकिमचंद्र चटर्जी" },
+        { "en": "Sarojini Naidu", "hi": "सरोजिनी नायडू", "mr": "सरोजिनी नायडू" },
+        { "en": "Rabindranath Tagore", "hi": "रवींद्रनाथ टैगोर", "mr": "रवींद्रनाथ टागोर" },
+        { "en": "Subramania Bharati", "hi": "सुब्रमण्य भारती", "mr": "सुब्रमण्य भारती" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Rabindranath Tagore wrote \"Jana Gana Mana\" in Bengali, and its first stanza was adopted as India's national anthem in 1950.",
+        "hi": "रवींद्रनाथ टैगोर ने \"जन गण मन\" बांग्ला भाषा में लिखा था, और इसके पहले पद को 1950 में भारत के राष्ट्रगान के रूप में अपनाया गया।",
+        "mr": "रवींद्रनाथ टागोर यांनी \"जन गण मन\" बंगाली भाषेत लिहिले आणि त्याचे पहिले कडवे 1950 मध्ये भारताचे राष्ट्रगीत म्हणून स्वीकारण्यात आले."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Bankim Chandra Chatterjee wrote \"Vande Mataram\", India's national song, not the national anthem.",
+          "hi": "बंकिमचंद्र चट्टोपाध्याय ने \"वंदे मातरम्\" लिखा, जो भारत का राष्ट्रगीत है, राष्ट्रगान नहीं।",
+          "mr": "बंकिमचंद्र चटर्जी यांनी \"वंदे मातरम्\" लिहिले, जे भारताचे राष्ट्रीय गीत आहे, राष्ट्रगीत (जन गण मन) नाही."
+        },
+        "1": {
+          "en": "Sarojini Naidu was a famous poet and freedom fighter known as the Nightingale of India, but she did not write the anthem.",
+          "hi": "सरोजिनी नायडू भारत की कोकिला के नाम से प्रसिद्ध कवयित्री और स्वतंत्रता सेनानी थीं, पर उन्होंने राष्ट्रगान नहीं लिखा।",
+          "mr": "सरोजिनी नायडू या भारताची कोकिळा म्हणून प्रसिद्ध कवयित्री आणि स्वातंत्र्यसेनानी होत्या, पण त्यांनी राष्ट्रगीत लिहिले नाही."
+        },
+        "3": {
+          "en": "Subramania Bharati was a Tamil poet and freedom fighter, but he did not write the national anthem.",
+          "hi": "सुब्रमण्य भारती तमिल कवि और स्वतंत्रता सेनानी थे, पर उन्होंने राष्ट्रगान नहीं लिखा।",
+          "mr": "सुब्रमण्य भारती हे तमिळ कवी आणि स्वातंत्र्यसेनानी होते, पण त्यांनी राष्ट्रगीत लिहिले नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-gk-21",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "The Constitution of India came into effect on 26 January of which year?",
+        "hi": "भारत का संविधान 26 जनवरी को किस वर्ष लागू हुआ?",
+        "mr": "भारताचे संविधान 26 जानेवारी रोजी कोणत्या वर्षी लागू झाले?"
+      },
+      "optionsJson": [
+        { "en": "1950", "hi": "1950", "mr": "1950" },
+        { "en": "1947", "hi": "1947", "mr": "1947" },
+        { "en": "1949", "hi": "1949", "mr": "1949" },
+        { "en": "1952", "hi": "1952", "mr": "1952" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "The Constitution was adopted on 26 November 1949 and came into effect on 26 January 1950, which we celebrate as Republic Day.",
+        "hi": "संविधान 26 नवंबर 1949 को अपनाया गया था और 26 जनवरी 1950 को लागू हुआ, जिसे हम गणतंत्र दिवस के रूप में मनाते हैं।",
+        "mr": "संविधान 26 नोव्हेंबर 1949 रोजी स्वीकारण्यात आले आणि 26 जानेवारी 1950 रोजी लागू झाले, हा दिवस आपण प्रजासत्ताक दिन म्हणून साजरा करतो."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "1947 is the year India became independent, not the year the Constitution came into effect.",
+          "hi": "1947 वह वर्ष है जब भारत स्वतंत्र हुआ, न कि वह जब संविधान लागू हुआ।",
+          "mr": "1947 हे भारत स्वतंत्र झाल्याचे वर्ष आहे, संविधान लागू झाल्याचे नाही."
+        },
+        "2": {
+          "en": "1949 is the year the Constitution was adopted (26 November), but it came into effect only in 1950.",
+          "hi": "1949 वह वर्ष है जब संविधान अपनाया गया (26 नवंबर), पर यह 1950 में ही लागू हुआ।",
+          "mr": "1949 हे संविधान स्वीकारल्याचे वर्ष (26 नोव्हेंबर) आहे, पण ते 1950 मध्येच लागू झाले."
+        },
+        "3": {
+          "en": "1952 is the year of India's first general elections, not the year the Constitution came into effect.",
+          "hi": "1952 भारत के पहले आम चुनावों का वर्ष है, न कि संविधान लागू होने का।",
+          "mr": "1952 हे भारताच्या पहिल्या सार्वत्रिक निवडणुकांचे वर्ष आहे, संविधान लागू झाल्याचे नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-gk-22",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Who is the constitutional head of a state government in India?",
+        "hi": "भारत में किसी राज्य सरकार का संवैधानिक प्रमुख कौन होता है?",
+        "mr": "भारतात राज्य सरकारचा घटनात्मक प्रमुख कोण असतो?"
+      },
+      "optionsJson": [
+        { "en": "Chief Minister", "hi": "मुख्यमंत्री", "mr": "मुख्यमंत्री" },
+        { "en": "Governor", "hi": "राज्यपाल", "mr": "राज्यपाल" },
+        { "en": "Speaker of the Legislative Assembly", "hi": "विधानसभा अध्यक्ष", "mr": "विधानसभेचे अध्यक्ष" },
+        { "en": "Chief Justice of the High Court", "hi": "उच्च न्यायालय के मुख्य न्यायाधीश", "mr": "उच्च न्यायालयाचे मुख्य न्यायाधीश" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "The Governor, appointed by the President, is the constitutional head of a state. The Chief Minister is the real head of the government who leads the council of ministers.",
+        "hi": "राज्यपाल, जिसे राष्ट्रपति नियुक्त करते हैं, राज्य का संवैधानिक प्रमुख होता है। मुख्यमंत्री सरकार का वास्तविक प्रमुख होता है जो मंत्रिपरिषद का नेतृत्व करता है।",
+        "mr": "राष्ट्रपतींनी नेमलेले राज्यपाल हे राज्याचे घटनात्मक प्रमुख असतात. मुख्यमंत्री हे सरकारचे प्रत्यक्ष प्रमुख असून ते मंत्रिमंडळाचे नेतृत्व करतात."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The Chief Minister is the real executive head who runs the government, but the constitutional head is the Governor.",
+          "hi": "मुख्यमंत्री सरकार चलाने वाला वास्तविक कार्यकारी प्रमुख होता है, पर संवैधानिक प्रमुख राज्यपाल होता है।",
+          "mr": "मुख्यमंत्री हे सरकार चालवणारे प्रत्यक्ष कार्यकारी प्रमुख असतात, पण घटनात्मक प्रमुख राज्यपाल असतात."
+        },
+        "2": {
+          "en": "The Speaker presides over the meetings of the Legislative Assembly and is not the head of the state government.",
+          "hi": "अध्यक्ष विधानसभा की बैठकों की अध्यक्षता करता है और राज्य सरकार का प्रमुख नहीं होता।",
+          "mr": "अध्यक्ष विधानसभेच्या बैठकांचे अध्यक्षस्थान भूषवतात आणि ते राज्य सरकारचे प्रमुख नसतात."
+        },
+        "3": {
+          "en": "The Chief Justice of the High Court heads the state's judiciary, not the state government.",
+          "hi": "उच्च न्यायालय के मुख्य न्यायाधीश राज्य की न्यायपालिका के प्रमुख होते हैं, राज्य सरकार के नहीं।",
+          "mr": "उच्च न्यायालयाचे मुख्य न्यायाधीश राज्याच्या न्यायपालिकेचे प्रमुख असतात, राज्य सरकारचे नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-gk-23",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "The classical dance form Kathakali belongs to which state?",
+        "hi": "शास्त्रीय नृत्य शैली कथकली किस राज्य की है?",
+        "mr": "कथकली हा शास्त्रीय नृत्यप्रकार कोणत्या राज्याचा आहे?"
+      },
+      "optionsJson": [
+        { "en": "Punjab", "hi": "पंजाब", "mr": "पंजाब" },
+        { "en": "Rajasthan", "hi": "राजस्थान", "mr": "राजस्थान" },
+        { "en": "Kerala", "hi": "केरल", "mr": "केरळ" },
+        { "en": "Gujarat", "hi": "गुजरात", "mr": "गुजरात" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Kathakali is a classical dance-drama of Kerala, known for its elaborate face paint, bright costumes and expressive gestures.",
+        "hi": "कथकली केरल का शास्त्रीय नृत्य-नाटक है, जो अपने विस्तृत मुख-श्रृंगार, चटख वेशभूषा और भावपूर्ण मुद्राओं के लिए जाना जाता है।",
+        "mr": "कथकली हे केरळचे शास्त्रीय नृत्य-नाट्य आहे, जे आपल्या विस्तृत रंगभूषा, भडक वेशभूषा आणि भावपूर्ण मुद्रांसाठी ओळखले जाते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Punjab is known for folk dances like Bhangra and Giddha, not Kathakali.",
+          "hi": "पंजाब भांगड़ा और गिद्दा जैसे लोक नृत्यों के लिए जाना जाता है, कथकली के लिए नहीं।",
+          "mr": "पंजाब भांगडा आणि गिद्धा यांसारख्या लोकनृत्यांसाठी ओळखले जाते, कथकलीसाठी नाही."
+        },
+        "1": {
+          "en": "Rajasthan is known for folk dances like Ghoomar and Kalbelia, not Kathakali.",
+          "hi": "राजस्थान घूमर और कालबेलिया जैसे लोक नृत्यों के लिए जाना जाता है, कथकली के लिए नहीं।",
+          "mr": "राजस्थान घूमर आणि कालबेलिया यांसारख्या लोकनृत्यांसाठी ओळखले जाते, कथकलीसाठी नाही."
+        },
+        "3": {
+          "en": "Gujarat is known for folk dances like Garba and Dandiya Raas, not Kathakali.",
+          "hi": "गुजरात गरबा और डांडिया रास जैसे लोक नृत्यों के लिए जाना जाता है, कथकली के लिए नहीं।",
+          "mr": "गुजरात गरबा आणि दांडिया रास यांसारख्या लोकनृत्यांसाठी ओळखले जाते, कथकलीसाठी नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-gk-24",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "The famous Sun Temple at Konark, shaped like a giant chariot with stone wheels, is located in which state?",
+        "hi": "कोणार्क का प्रसिद्ध सूर्य मंदिर, जो पत्थर के पहियों वाले विशाल रथ के आकार का है, किस राज्य में स्थित है?",
+        "mr": "कोणार्कचे प्रसिद्ध सूर्य मंदिर, जे दगडी चाकांच्या विशाल रथाच्या आकाराचे आहे, कोणत्या राज्यात आहे?"
+      },
+      "optionsJson": [
+        { "en": "Tamil Nadu", "hi": "तमिलनाडु", "mr": "तमिळनाडू" },
+        { "en": "Karnataka", "hi": "कर्नाटक", "mr": "कर्नाटक" },
+        { "en": "Gujarat", "hi": "गुजरात", "mr": "गुजरात" },
+        { "en": "Odisha", "hi": "ओडिशा", "mr": "ओडिशा" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "The Konark Sun Temple, built in the 13th century, stands on the coast of Odisha near Puri and is a UNESCO World Heritage Site.",
+        "hi": "कोणार्क का सूर्य मंदिर, जो 13वीं शताब्दी में बना था, ओडिशा में पुरी के पास समुद्र तट पर स्थित है और यूनेस्को विश्व धरोहर स्थल है।",
+        "mr": "कोणार्कचे सूर्य मंदिर, जे 13व्या शतकात बांधले गेले, ओडिशामध्ये पुरीजवळ समुद्रकिनारी असून युनेस्को जागतिक वारसा स्थळ आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Tamil Nadu is famous for temples like the Brihadeeswarar Temple at Thanjavur, but the Konark Sun Temple is not there.",
+          "hi": "तमिलनाडु तंजावुर के बृहदेश्वर मंदिर जैसे मंदिरों के लिए प्रसिद्ध है, पर कोणार्क का सूर्य मंदिर वहाँ नहीं है।",
+          "mr": "तमिळनाडू तंजावूरच्या बृहदीश्वर मंदिरासारख्या मंदिरांसाठी प्रसिद्ध आहे, पण कोणार्कचे सूर्य मंदिर तेथे नाही."
+        },
+        "1": {
+          "en": "Karnataka is known for temples at Hampi and Belur, but the Konark Sun Temple is not there.",
+          "hi": "कर्नाटक हम्पी और बेलूर के मंदिरों के लिए जाना जाता है, पर कोणार्क का सूर्य मंदिर वहाँ नहीं है।",
+          "mr": "कर्नाटक हंपी आणि बेलूरच्या मंदिरांसाठी ओळखले जाते, पण कोणार्कचे सूर्य मंदिर तेथे नाही."
+        },
+        "2": {
+          "en": "Gujarat has a different Sun Temple at Modhera, but the Sun Temple at Konark is in another state.",
+          "hi": "गुजरात में मोढेरा में एक अलग सूर्य मंदिर है, पर कोणार्क का सूर्य मंदिर दूसरे राज्य में है।",
+          "mr": "गुजरातमध्ये मोढेरा येथे वेगळे सूर्य मंदिर आहे, पण कोणार्कचे सूर्य मंदिर दुसऱ्या राज्यात आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p2-gk-25",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which of the following metals is a liquid at normal room temperature?",
+        "hi": "निम्नलिखित में से कौन-सी धातु सामान्य कमरे के तापमान पर द्रव अवस्था में होती है?",
+        "mr": "खालीलपैकी कोणती धातू सामान्य खोलीच्या तापमानाला द्रवरूपात असते?"
+      },
+      "optionsJson": [
+        { "en": "Mercury", "hi": "पारा", "mr": "पारा" },
+        { "en": "Iron", "hi": "लोहा", "mr": "लोखंड" },
+        { "en": "Copper", "hi": "तांबा", "mr": "तांबे" },
+        { "en": "Aluminium", "hi": "एल्युमिनियम", "mr": "ॲल्युमिनियम" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Mercury melts at about minus 39 degrees Celsius, so it is a liquid at room temperature. Iron, copper and aluminium are solids at room temperature.",
+        "hi": "पारा लगभग -39 डिग्री सेल्सियस पर पिघल जाता है, इसलिए यह कमरे के तापमान पर द्रव होता है। लोहा, तांबा और एल्युमिनियम कमरे के तापमान पर ठोस होते हैं।",
+        "mr": "पारा सुमारे -39 अंश सेल्सिअसला वितळतो, म्हणून तो खोलीच्या तापमानाला द्रव असतो. लोखंड, तांबे आणि ॲल्युमिनियम खोलीच्या तापमानाला घन असतात."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Iron melts at over 1,500 degrees Celsius, so it is a solid at room temperature.",
+          "hi": "लोहा 1,500 डिग्री सेल्सियस से अधिक पर पिघलता है, इसलिए यह कमरे के तापमान पर ठोस होता है।",
+          "mr": "लोखंड 1,500 अंश सेल्सिअसपेक्षा जास्त तापमानाला वितळते, म्हणून ते खोलीच्या तापमानाला घन असते."
+        },
+        "2": {
+          "en": "Copper melts at about 1,085 degrees Celsius, so it is a solid at room temperature.",
+          "hi": "तांबा लगभग 1,085 डिग्री सेल्सियस पर पिघलता है, इसलिए यह कमरे के तापमान पर ठोस होता है।",
+          "mr": "तांबे सुमारे 1,085 अंश सेल्सिअसला वितळते, म्हणून ते खोलीच्या तापमानाला घन असते."
+        },
+        "3": {
+          "en": "Aluminium melts at about 660 degrees Celsius, so it is a solid at room temperature.",
+          "hi": "एल्युमिनियम लगभग 660 डिग्री सेल्सियस पर पिघलता है, इसलिए यह कमरे के तापमान पर ठोस होता है।",
+          "mr": "ॲल्युमिनियम सुमारे 660 अंश सेल्सिअसला वितळते, म्हणून ते खोलीच्या तापमानाला घन असते."
+        }
+      }
+    }
+  ]
+}

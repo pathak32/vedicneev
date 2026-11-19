@@ -1,0 +1,484 @@
+{
+  "examType": "RMS",
+  "classLevel": 9,
+  "paperNumber": 3,
+  "sectionKey": "mental_ability",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "rms9-p3-mn-01",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Find the next term in the series: 7, 14, 28, 56, 112, ___?", "hi": "श्रेणी का अगला पद ज्ञात कीजिए: 7, 14, 28, 56, 112, ___?" },
+      "optionsJson": [
+        { "en": "168", "hi": "168" },
+        { "en": "196", "hi": "196" },
+        { "en": "224", "hi": "224" },
+        { "en": "448", "hi": "448" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Each term is double the previous term: 7×2=14, 14×2=28, 28×2=56, 56×2=112, so the next term is 112×2=224.", "hi": "प्रत्येक पद अपने पिछले पद का दोगुना है: 7×2=14, 14×2=28, 28×2=56, 56×2=112, इसलिए अगला पद 112×2=224 है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Obtained by adding 56 to 112, which ignores the doubling pattern.", "hi": "112 में 56 जोड़ने से मिलता है, जो दोगुना होने के नियम को अनदेखा करता है।" },
+        "1": { "en": "Obtained by adding 84 to 112, which does not match the rule of the series.", "hi": "112 में 84 जोड़ने से मिलता है, जो श्रेणी के नियम से मेल नहीं खाता।" },
+        "3": { "en": "This is 112×4; the series only doubles at each step, it does not quadruple.", "hi": "यह 112×4 है; श्रेणी में प्रत्येक चरण पर केवल दोगुना होता है, चार गुना नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mn-02",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the next term in the series: 2, 5, 10, 17, 26, 37, ___?", "hi": "श्रेणी का अगला पद ज्ञात कीजिए: 2, 5, 10, 17, 26, 37, ___?" },
+      "optionsJson": [
+        { "en": "48", "hi": "48" },
+        { "en": "50", "hi": "50" },
+        { "en": "52", "hi": "52" },
+        { "en": "47", "hi": "47" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The terms are n²+1 for n=1, 2, 3, ...: 2, 5, 10, 17, 26, 37, and for n=7 the term is 49+1=50. Equivalently, the differences 3, 5, 7, 9, 11 are consecutive odd numbers, so the next difference is 13 and 37+13=50.", "hi": "पद n²+1 के रूप में हैं (n=1, 2, 3, ...): 2, 5, 10, 17, 26, 37, और n=7 के लिए पद 49+1=50 है। अथवा अंतर 3, 5, 7, 9, 11 क्रमागत विषम संख्याएँ हैं, अतः अगला अंतर 13 है और 37+13=50।" },
+      "distractorAnalysis": {
+        "0": { "en": "Obtained by repeating the previous difference of 11 instead of increasing it to 13.", "hi": "पिछला अंतर 11 दोहराने से मिलता है, जबकि अंतर बढ़कर 13 होना चाहिए।" },
+        "2": { "en": "Obtained by adding 15, skipping the odd difference 13.", "hi": "विषम अंतर 13 को छोड़कर 15 जोड़ने से मिलता है।" },
+        "3": { "en": "Obtained by adding only 10 to 37, which is not part of the odd-difference pattern.", "hi": "37 में केवल 10 जोड़ने से मिलता है, जो विषम अंतरों के क्रम का भाग नहीं है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mn-03",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the next term in the series: 1, 2, 6, 24, 120, ___?", "hi": "श्रेणी का अगला पद ज्ञात कीजिए: 1, 2, 6, 24, 120, ___?" },
+      "optionsJson": [
+        { "en": "600", "hi": "600" },
+        { "en": "840", "hi": "840" },
+        { "en": "480", "hi": "480" },
+        { "en": "720", "hi": "720" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "The multipliers increase by one each time: 1×2=2, 2×3=6, 6×4=24, 24×5=120, so the next term is 120×6=720.", "hi": "गुणक प्रत्येक बार एक बढ़ता है: 1×2=2, 2×3=6, 6×4=24, 24×5=120, इसलिए अगला पद 120×6=720 है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Obtained by repeating the last multiplier 5 (120×5) instead of increasing it to 6.", "hi": "अंतिम गुणक 5 को दोहराने (120×5) से मिलता है, जबकि गुणक बढ़कर 6 होना चाहिए।" },
+        "1": { "en": "Obtained by multiplying by 7, skipping the multiplier 6.", "hi": "गुणक 6 को छोड़कर 7 से गुणा करने से मिलता है।" },
+        "2": { "en": "Obtained by multiplying by 4, which goes backwards in the pattern of multipliers.", "hi": "4 से गुणा करने से मिलता है, जो गुणकों के क्रम में पीछे की ओर जाना है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mn-04",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the next term in the series: 3, 4, 7, 11, 18, 29, ___?", "hi": "श्रेणी का अगला पद ज्ञात कीजिए: 3, 4, 7, 11, 18, 29, ___?" },
+      "optionsJson": [
+        { "en": "47", "hi": "47" },
+        { "en": "45", "hi": "45" },
+        { "en": "48", "hi": "48" },
+        { "en": "52", "hi": "52" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Each term is the sum of the two terms before it: 3+4=7, 4+7=11, 7+11=18, 11+18=29, so the next term is 18+29=47.", "hi": "प्रत्येक पद अपने से पहले के दो पदों का योग है: 3+4=7, 4+7=11, 7+11=18, 11+18=29, इसलिए अगला पद 18+29=47 है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Not equal to the sum of the last two terms (18+29); this is a calculation slip.", "hi": "यह अंतिम दो पदों के योग (18+29) के बराबर नहीं है; यह गणना की भूल है।" },
+        "2": { "en": "Obtained by adding 19 to 29, which is not tied to the sum-of-two-terms rule.", "hi": "29 में 19 जोड़ने से मिलता है, जिसका दो पदों के योग वाले नियम से कोई संबंध नहीं।" },
+        "3": { "en": "Obtained by adding 23 to 29; the rule adds the two previous terms, not an arbitrary number.", "hi": "29 में 23 जोड़ने से मिलता है; नियम में पिछले दो पद जोड़े जाते हैं, कोई मनमानी संख्या नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mn-05",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Find the next term in the series: 2, 3, 4, 6, 8, 12, 16, ___?", "hi": "श्रेणी का अगला पद ज्ञात कीजिए: 2, 3, 4, 6, 8, 12, 16, ___?" },
+      "optionsJson": [
+        { "en": "18", "hi": "18" },
+        { "en": "20", "hi": "20" },
+        { "en": "24", "hi": "24" },
+        { "en": "32", "hi": "32" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Two series are interleaved. The terms at odd positions are 2, 4, 8, 16 (doubling) and the terms at even positions are 3, 6, 12, ... (doubling). The 8th term is the 4th term of the second series: 12×2=24.", "hi": "इसमें दो श्रेणियाँ एक-दूसरे में गुँथी हैं। विषम स्थानों के पद 2, 4, 8, 16 हैं (दोगुना) और सम स्थानों के पद 3, 6, 12, ... हैं (दोगुना)। 8वाँ पद दूसरी श्रेणी का चौथा पद है: 12×2=24।" },
+      "distractorAnalysis": {
+        "0": { "en": "Obtained by adding 2 to 16 as if the series had a constant difference; the two interleaved doubling series are ignored.", "hi": "16 में 2 जोड़ने से मिलता है, मानो अंतर स्थिर हो; गुँथी हुई दोनों दोगुना वाली श्रेणियों को अनदेखा किया गया है।" },
+        "1": { "en": "Obtained by adding 4 to 16; this does not follow either interleaved series.", "hi": "16 में 4 जोड़ने से मिलता है; यह किसी भी गुँथी श्रेणी के अनुसार नहीं है।" },
+        "3": { "en": "This is 16×2, which continues the first series, but the 8th term belongs to the second series.", "hi": "यह 16×2 है, जो पहली श्रेणी को आगे बढ़ाता है, जबकि 8वाँ पद दूसरी श्रेणी का है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mn-06",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the next group of letters in the series: AZ, BY, CX, DW, ___?", "hi": "अक्षर-समूहों की श्रेणी का अगला समूह ज्ञात कीजिए: AZ, BY, CX, DW, ___?" },
+      "optionsJson": [
+        { "en": "EU", "hi": "EU" },
+        { "en": "EV", "hi": "EV" },
+        { "en": "FV", "hi": "FV" },
+        { "en": "DV", "hi": "DV" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The first letters move forward (A, B, C, D, E) and the second letters move backward (Z, Y, X, W, V). So the next group is EV.", "hi": "पहले अक्षर आगे बढ़ते हैं (A, B, C, D, E) और दूसरे अक्षर पीछे जाते हैं (Z, Y, X, W, V)। इसलिए अगला समूह EV है।" },
+      "distractorAnalysis": {
+        "0": { "en": "The first letter E is correct, but the second letter should be V, not U (which would skip a step).", "hi": "पहला अक्षर E सही है, पर दूसरा अक्षर V होना चाहिए, U नहीं (जो एक चरण छोड़ देता है)।" },
+        "2": { "en": "The second letter V is correct, but the first letter should be E, not F.", "hi": "दूसरा अक्षर V सही है, पर पहला अक्षर E होना चाहिए, F नहीं।" },
+        "3": { "en": "The second letter V is correct, but the first letter should move forward to E instead of staying at D.", "hi": "दूसरा अक्षर V सही है, पर पहला अक्षर D पर रुकने के बजाय आगे बढ़कर E होना चाहिए।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mn-07",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Find the next group of letters in the series: ZA, XC, VE, TG, ___?", "hi": "अक्षर-समूहों की श्रेणी का अगला समूह ज्ञात कीजिए: ZA, XC, VE, TG, ___?" },
+      "optionsJson": [
+        { "en": "RI", "hi": "RI" },
+        { "en": "SH", "hi": "SH" },
+        { "en": "RJ", "hi": "RJ" },
+        { "en": "QI", "hi": "QI" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The first letters move 2 steps backward (Z=26, X=24, V=22, T=20, R=18) and the second letters move 2 steps forward (A=1, C=3, E=5, G=7, I=9). So the next group is RI.", "hi": "पहले अक्षर 2 स्थान पीछे जाते हैं (Z=26, X=24, V=22, T=20, R=18) और दूसरे अक्षर 2 स्थान आगे जाते हैं (A=1, C=3, E=5, G=7, I=9)। इसलिए अगला समूह RI है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Moves each letter only 1 step instead of 2 steps.", "hi": "प्रत्येक अक्षर 2 स्थान के बजाय केवल 1 स्थान खिसकाया गया है।" },
+        "2": { "en": "The first letter R is correct, but the second letter moves 3 steps (G to J) instead of 2.", "hi": "पहला अक्षर R सही है, पर दूसरा अक्षर 2 के बजाय 3 स्थान (G से J) चला गया है।" },
+        "3": { "en": "The second letter I is correct, but the first letter moves only 3 steps back (T to Q) instead of 2.", "hi": "दूसरा अक्षर I सही है, पर पहला अक्षर 2 के बजाय 3 स्थान पीछे (T से Q) चला गया है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mn-08",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Tailor : Needle :: Carpenter : ___?", "hi": "दर्जी : सुई :: बढ़ई : ___?" },
+      "optionsJson": [
+        { "en": "Wood", "hi": "लकड़ी" },
+        { "en": "Chair", "hi": "कुर्सी" },
+        { "en": "Workshop", "hi": "कार्यशाला" },
+        { "en": "Saw", "hi": "आरी" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "A needle is a tool used by a tailor. In the same way, a saw is a tool used by a carpenter.", "hi": "सुई दर्जी द्वारा प्रयोग किया जाने वाला औज़ार है। उसी प्रकार आरी बढ़ई द्वारा प्रयोग किया जाने वाला औज़ार है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Wood is the raw material, not a tool.", "hi": "लकड़ी कच्चा माल है, औज़ार नहीं।" },
+        "1": { "en": "A chair is the finished product, not a tool.", "hi": "कुर्सी तैयार वस्तु है, औज़ार नहीं।" },
+        "2": { "en": "A workshop is the place of work, not a tool.", "hi": "कार्यशाला काम करने का स्थान है, औज़ार नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mn-09",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "8 : 512 :: 5 : ___?", "hi": "8 : 512 :: 5 : ___?" },
+      "optionsJson": [
+        { "en": "25", "hi": "25" },
+        { "en": "125", "hi": "125" },
+        { "en": "100", "hi": "100" },
+        { "en": "625", "hi": "625" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "512 is the cube of 8 (8×8×8=512). Following the same relation, the cube of 5 is 5×5×5=125.", "hi": "512, 8 का घन है (8×8×8=512)। इसी संबंध से 5 का घन 5×5×5=125 होगा।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the square of 5, but the relation uses the cube.", "hi": "यह 5 का वर्ग है, जबकि संबंध घन का है।" },
+        "2": { "en": "This is 5×5×4, an arithmetic slip while cubing.", "hi": "यह 5×5×4 है, घन निकालने में गणना की भूल।" },
+        "3": { "en": "This is the fourth power of 5 (5×5×5×5), one multiplication too many.", "hi": "यह 5 की चौथी घात (5×5×5×5) है, एक गुणा अधिक हो गया।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mn-10",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "CAT : DBU :: DOG : ___?", "hi": "CAT : DBU :: DOG : ___?" },
+      "optionsJson": [
+        { "en": "EPH", "hi": "EPH" },
+        { "en": "EOH", "hi": "EOH" },
+        { "en": "DPH", "hi": "DPH" },
+        { "en": "FQI", "hi": "FQI" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Each letter of CAT is moved one step forward: C→D, A→B, T→U. Applying the same rule to DOG: D→E, O→P, G→H, giving EPH.", "hi": "CAT के प्रत्येक अक्षर को एक स्थान आगे बढ़ाया गया है: C→D, A→B, T→U। यही नियम DOG पर लगाने पर: D→E, O→P, G→H, अर्थात EPH।" },
+      "distractorAnalysis": {
+        "1": { "en": "The middle letter O is left unchanged instead of moving to P.", "hi": "बीच का अक्षर O, P में बदलने के बजाय वैसा ही छोड़ दिया गया है।" },
+        "2": { "en": "The first letter D is left unchanged instead of moving to E.", "hi": "पहला अक्षर D, E में बदलने के बजाय वैसा ही छोड़ दिया गया है।" },
+        "3": { "en": "Each letter is moved two steps forward instead of one.", "hi": "प्रत्येक अक्षर एक के बजाय दो स्थान आगे बढ़ा दिया गया है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mn-11",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "12 : 143 :: 15 : ___?", "hi": "12 : 143 :: 15 : ___?" },
+      "optionsJson": [
+        { "en": "196", "hi": "196" },
+        { "en": "210", "hi": "210" },
+        { "en": "224", "hi": "224" },
+        { "en": "225", "hi": "225" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "143 = 12²−1 = 144−1. Following the same rule, 15²−1 = 225−1 = 224.", "hi": "143 = 12²−1 = 144−1। इसी नियम से 15²−1 = 225−1 = 224।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is 14², which uses the wrong base number.", "hi": "यह 14² है, जिसमें आधार संख्या गलत ली गई है।" },
+        "1": { "en": "This is 14×15, which is not related to the rule n²−1.", "hi": "यह 14×15 है, जिसका नियम n²−1 से कोई संबंध नहीं।" },
+        "3": { "en": "This is 15², the square only; the rule also subtracts 1.", "hi": "यह केवल 15² है, जबकि नियम में 1 घटाना भी शामिल है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mn-12",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "ACE : 9 :: BDF : ___?", "hi": "ACE : 9 :: BDF : ___?" },
+      "optionsJson": [
+        { "en": "10", "hi": "10" },
+        { "en": "14", "hi": "14" },
+        { "en": "15", "hi": "15" },
+        { "en": "12", "hi": "12" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "The number is the sum of the alphabetical positions of the letters. ACE = 1+3+5 = 9. So BDF = 2+4+6 = 12.", "hi": "संख्या अक्षरों के वर्णमाला-क्रम के स्थानों का योग है। ACE = 1+3+5 = 9। इसलिए BDF = 2+4+6 = 12।" },
+      "distractorAnalysis": {
+        "0": { "en": "Obtained by adding the positions wrongly (2+4+4).", "hi": "स्थानों को गलत जोड़ने (2+4+4) से मिलता है।" },
+        "1": { "en": "Obtained by taking F as 8 instead of 6 (2+4+8).", "hi": "F का स्थान 6 के बजाय 8 मानने (2+4+8) से मिलता है।" },
+        "2": { "en": "Obtained by taking the positions as 3+5+7, which are the letters C, E, G, not B, D, F.", "hi": "स्थानों को 3+5+7 लेने से मिलता है, जो अक्षर C, E, G के हैं, B, D, F के नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mn-13",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Find the odd one out: Sparrow, Bat, Eagle, Peacock", "hi": "असंगत शब्द चुनिए: गौरैया, चमगादड़, चील, मोर" },
+      "optionsJson": [
+        { "en": "Sparrow", "hi": "गौरैया" },
+        { "en": "Bat", "hi": "चमगादड़" },
+        { "en": "Eagle", "hi": "चील" },
+        { "en": "Peacock", "hi": "मोर" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Sparrow, Eagle and Peacock are birds (they have feathers and lay eggs). A bat is a mammal that gives birth to young ones.", "hi": "गौरैया, चील और मोर पक्षी हैं (इनके पंख होते हैं और ये अंडे देते हैं)। चमगादड़ एक स्तनधारी है जो बच्चों को जन्म देता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "A sparrow is a bird, like the majority group.", "hi": "गौरैया एक पक्षी है, बहुसंख्यक समूह की तरह।" },
+        "2": { "en": "An eagle is a bird, like the majority group.", "hi": "चील एक पक्षी है, बहुसंख्यक समूह की तरह।" },
+        "3": { "en": "A peacock is a bird, like the majority group.", "hi": "मोर एक पक्षी है, बहुसंख्यक समूह की तरह।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mn-14",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the odd one out: BDF, HJL, UWX, PRT", "hi": "असंगत अक्षर-समूह चुनिए: BDF, HJL, UWX, PRT" },
+      "optionsJson": [
+        { "en": "BDF", "hi": "BDF" },
+        { "en": "HJL", "hi": "HJL" },
+        { "en": "UWX", "hi": "UWX" },
+        { "en": "PRT", "hi": "PRT" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "In BDF (2, 4, 6), HJL (8, 10, 12) and PRT (16, 18, 20), each letter is 2 places after the previous one. In UWX (21, 23, 24), the gaps are 2 and 1, so it breaks the pattern.", "hi": "BDF (2, 4, 6), HJL (8, 10, 12) और PRT (16, 18, 20) में प्रत्येक अक्षर पिछले अक्षर से 2 स्थान आगे है। UWX (21, 23, 24) में अंतर 2 और 1 हैं, इसलिए यह क्रम तोड़ता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Letters are spaced 2 apart (B, D, F), following the common pattern.", "hi": "अक्षरों के बीच 2 का अंतर है (B, D, F), जो सामान्य क्रम का पालन करता है।" },
+        "1": { "en": "Letters are spaced 2 apart (H, J, L), following the common pattern.", "hi": "अक्षरों के बीच 2 का अंतर है (H, J, L), जो सामान्य क्रम का पालन करता है।" },
+        "3": { "en": "Letters are spaced 2 apart (P, R, T), following the common pattern.", "hi": "अक्षरों के बीच 2 का अंतर है (P, R, T), जो सामान्य क्रम का पालन करता है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mn-15",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the odd one out: Mercury, Copper, Iron, Zinc", "hi": "असंगत शब्द चुनिए: पारा, तांबा, लोहा, जस्ता" },
+      "optionsJson": [
+        { "en": "Mercury", "hi": "पारा" },
+        { "en": "Copper", "hi": "तांबा" },
+        { "en": "Iron", "hi": "लोहा" },
+        { "en": "Zinc", "hi": "जस्ता" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Copper, Iron and Zinc are metals that are solid at room temperature. Mercury is the only metal that is liquid at room temperature.", "hi": "तांबा, लोहा और जस्ता ऐसी धातुएँ हैं जो कमरे के तापमान पर ठोस होती हैं। पारा एकमात्र धातु है जो कमरे के तापमान पर द्रव होती है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Copper is a solid metal at room temperature, like the majority group.", "hi": "तांबा कमरे के तापमान पर ठोस धातु है, बहुसंख्यक समूह की तरह।" },
+        "2": { "en": "Iron is a solid metal at room temperature, like the majority group.", "hi": "लोहा कमरे के तापमान पर ठोस धातु है, बहुसंख्यक समूह की तरह।" },
+        "3": { "en": "Zinc is a solid metal at room temperature, like the majority group.", "hi": "जस्ता कमरे के तापमान पर ठोस धातु है, बहुसंख्यक समूह की तरह।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mn-16",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Find the odd one out among the numbers: 10, 26, 50, 60", "hi": "संख्याओं में से असंगत संख्या चुनिए: 10, 26, 50, 60" },
+      "optionsJson": [
+        { "en": "10", "hi": "10" },
+        { "en": "26", "hi": "26" },
+        { "en": "50", "hi": "50" },
+        { "en": "60", "hi": "60" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "10 = 3²+1, 26 = 5²+1 and 50 = 7²+1, so each is one more than a perfect square. 60 is not one more than a perfect square (7²=49 and 8²=64), so it is the odd one.", "hi": "10 = 3²+1, 26 = 5²+1 और 50 = 7²+1, अर्थात प्रत्येक एक पूर्ण वर्ग से 1 अधिक है। 60 किसी पूर्ण वर्ग से 1 अधिक नहीं है (7²=49 और 8²=64), इसलिए यह असंगत है।" },
+      "distractorAnalysis": {
+        "0": { "en": "10 = 3²+1, which fits the common rule.", "hi": "10 = 3²+1, जो सामान्य नियम में फिट बैठता है।" },
+        "1": { "en": "26 = 5²+1, which fits the common rule.", "hi": "26 = 5²+1, जो सामान्य नियम में फिट बैठता है।" },
+        "2": { "en": "50 = 7²+1, which fits the common rule.", "hi": "50 = 7²+1, जो सामान्य नियम में फिट बैठता है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mn-17",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "In a certain code, MANGO is written as NBOHP. How is APPLE written in that code?", "hi": "एक निश्चित कूट में MANGO को NBOHP लिखा जाता है। उसी कूट में APPLE को कैसे लिखा जाएगा?" },
+      "optionsJson": [
+        { "en": "BQQLF", "hi": "BQQLF" },
+        { "en": "BQQMF", "hi": "BQQMF" },
+        { "en": "CQQMF", "hi": "CQQMF" },
+        { "en": "BPQMF", "hi": "BPQMF" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Each letter is moved one step forward: M→N, A→B, N→O, G→H, O→P. So APPLE becomes A→B, P→Q, P→Q, L→M, E→F, i.e. BQQMF.", "hi": "प्रत्येक अक्षर एक स्थान आगे बढ़ाया गया है: M→N, A→B, N→O, G→H, O→P। इसलिए APPLE में A→B, P→Q, P→Q, L→M, E→F, अर्थात BQQMF।" },
+      "distractorAnalysis": {
+        "0": { "en": "The fourth letter L is left unchanged instead of moving to M; the shift of +1 is not applied to it.", "hi": "चौथे अक्षर L को M बनाने के बजाय L ही रहने दिया गया है; उस पर +1 का स्थानांतरण लागू नहीं हुआ।" },
+        "2": { "en": "The first letter A is moved two steps to C instead of one step to B.", "hi": "पहले अक्षर A को एक स्थान आगे B बनाने के बजाय दो स्थान आगे C बना दिया गया है।" },
+        "3": { "en": "The second letter P is moved backward to O instead of forward to Q.", "hi": "दूसरे अक्षर P को आगे Q बनाने के बजाय पीछे O बना दिया गया है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mn-18",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "In a certain code language, 'sun moon star' is written as 'ka ni po', 'moon river' is written as 'ni de' and 'star sky' is written as 'po ru'. What is the code for 'sun'?", "hi": "एक निश्चित कूट भाषा में 'सूर्य चंद्रमा तारा' को 'ka ni po', 'चंद्रमा नदी' को 'ni de' और 'तारा आकाश' को 'po ru' लिखा जाता है। 'सूर्य' का कूट क्या है?" },
+      "optionsJson": [
+        { "en": "ka", "hi": "ka" },
+        { "en": "ni", "hi": "ni" },
+        { "en": "po", "hi": "po" },
+        { "en": "de", "hi": "de" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "'moon' is common to the first two statements and the common code is 'ni', so moon = ni. 'star' is common to the first and third statements and the common code is 'po', so star = po. The remaining code 'ka' in the first statement is for 'sun'.", "hi": "'चंद्रमा' पहले दो कथनों में उभयनिष्ठ है और उभयनिष्ठ कूट 'ni' है, अतः चंद्रमा = ni। 'तारा' पहले और तीसरे कथन में उभयनिष्ठ है और उभयनिष्ठ कूट 'po' है, अतः तारा = po। पहले कथन में शेष बचा कूट 'ka' 'सूर्य' का है।" },
+      "distractorAnalysis": {
+        "1": { "en": "'ni' is the code for moon, which appears in two statements.", "hi": "'ni' चंद्रमा का कूट है, जो दो कथनों में आता है।" },
+        "2": { "en": "'po' is the code for star, which appears in two statements.", "hi": "'po' तारा का कूट है, जो दो कथनों में आता है।" },
+        "3": { "en": "'de' is the code for river and does not appear in the statement containing sun.", "hi": "'de' नदी का कूट है और यह उस कथन में नहीं आता जिसमें सूर्य है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mn-19",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Pointing to a man, Meena says, \"He is the son of my mother's only brother.\" How is the man related to Meena?", "hi": "एक पुरुष की ओर संकेत करते हुए मीना कहती है, \"वह मेरी माँ के इकलौते भाई का पुत्र है।\" वह पुरुष मीना का क्या लगता है?" },
+      "optionsJson": [
+        { "en": "Brother", "hi": "सगा भाई" },
+        { "en": "Maternal uncle", "hi": "मामा" },
+        { "en": "Cousin", "hi": "ममेरा भाई" },
+        { "en": "Nephew", "hi": "भतीजा" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Meena's mother's only brother is Meena's maternal uncle. The man is the son of that uncle, so he is Meena's cousin.", "hi": "मीना की माँ का इकलौता भाई मीना का मामा है। वह पुरुष उस मामा का पुत्र है, इसलिए वह मीना का ममेरा भाई है।" },
+      "distractorAnalysis": {
+        "0": { "en": "A brother would be a child of Meena's own parents, but this man is the son of her mother's brother.", "hi": "सगा भाई मीना के अपने माता-पिता की संतान होता, जबकि यह पुरुष उसकी माँ के भाई का पुत्र है।" },
+        "1": { "en": "The maternal uncle is the father of this man, not the man himself.", "hi": "मामा इस पुरुष के पिता हैं, स्वयं यह पुरुष नहीं।" },
+        "3": { "en": "A nephew would be the son of Meena's brother or sister, which is not the case here.", "hi": "भतीजा मीना के भाई या बहन का पुत्र होता, जो यहाँ नहीं है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mn-20",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Ravi walks 5 km towards the east, then turns left and walks 3 km, and then turns left again and walks 5 km. Where is he now with respect to his starting point?", "hi": "रवि पूर्व दिशा में 5 km चलता है, फिर बाएँ मुड़कर 3 km चलता है, और फिर दोबारा बाएँ मुड़कर 5 km चलता है। अब वह अपने प्रारंभिक बिंदु से किस स्थिति में है?" },
+      "optionsJson": [
+        { "en": "3 km south", "hi": "3 km दक्षिण में" },
+        { "en": "5 km north", "hi": "5 km उत्तर में" },
+        { "en": "3 km east", "hi": "3 km पूर्व में" },
+        { "en": "3 km north", "hi": "3 km उत्तर में" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Facing east, a left turn gives north, so he walks 3 km north. Another left turn gives west, so he walks 5 km west, which cancels the first 5 km east. He is now 3 km north of the starting point.", "hi": "पूर्व की ओर मुख होने पर बाएँ मुड़ने से उत्तर दिशा मिलती है, इसलिए वह 3 km उत्तर चलता है। फिर बाएँ मुड़ने पर पश्चिम दिशा मिलती है, इसलिए वह 5 km पश्चिम चलता है, जो पहले के 5 km पूर्व को निरस्त कर देता है। अब वह प्रारंभिक बिंदु से 3 km उत्तर में है।" },
+      "distractorAnalysis": {
+        "0": { "en": "This results from turning right instead of left in the second leg.", "hi": "यह दूसरे चरण में बाएँ के बजाय दाएँ मुड़ने से आता है।" },
+        "1": { "en": "This confuses the 5 km legs with the 3 km leg; the north-south displacement is only 3 km.", "hi": "इसमें 5 km वाले चरणों को 3 km वाले चरण से मिला दिया गया है; उत्तर-दक्षिण विस्थापन केवल 3 km है।" },
+        "2": { "en": "The east and west legs of 5 km cancel each other, so there is no net eastward displacement.", "hi": "5 km के पूर्व और पश्चिम वाले चरण एक-दूसरे को निरस्त कर देते हैं, इसलिए पूर्व की ओर कोई कुल विस्थापन नहीं है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mn-21",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "In a row of 40 students, Anil is 12th from the left end and Bhavna is 15th from the right end. How many students are standing between Anil and Bhavna?", "hi": "40 विद्यार्थियों की एक पंक्ति में अनिल बाएँ सिरे से 12वाँ और भावना दाएँ सिरे से 15वीं है। अनिल और भावना के बीच कितने विद्यार्थी खड़े हैं?" },
+      "optionsJson": [
+        { "en": "12", "hi": "12" },
+        { "en": "13", "hi": "13" },
+        { "en": "14", "hi": "14" },
+        { "en": "11", "hi": "11" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Bhavna's position from the left = 40−15+1 = 26. Students between them = 26−12−1 = 13.", "hi": "भावना की बाएँ से स्थिति = 40−15+1 = 26। उनके बीच विद्यार्थी = 26−12−1 = 13।" },
+      "distractorAnalysis": {
+        "0": { "en": "Obtained by taking Bhavna's position as 25 (40−15) and forgetting the +1.", "hi": "भावना की स्थिति 25 (40−15) मानने और +1 भूल जाने से मिलता है।" },
+        "2": { "en": "Obtained as 26−12 without subtracting the extra 1 for Bhavna herself.", "hi": "26−12 निकालकर भावना के लिए अतिरिक्त 1 न घटाने से मिलता है।" },
+        "3": { "en": "Obtained by taking Bhavna's position as 25 (40−15) and then also subtracting 2 instead of 1 (25−12−2), a double slip.", "hi": "भावना की स्थिति 25 (40−15) मानने और फिर 1 के बजाय 2 घटाने (25−12−2) से मिलता है, जो दोहरी भूल है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mn-22",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": { "en": "What is the smaller angle between the hour hand and the minute hand of a clock at 3:40?", "hi": "घड़ी में 3:40 बजे घंटे की सुई और मिनट की सुई के बीच का छोटा कोण कितना होता है?" },
+      "optionsJson": [
+        { "en": "130°", "hi": "130°" },
+        { "en": "120°", "hi": "120°" },
+        { "en": "140°", "hi": "140°" },
+        { "en": "150°", "hi": "150°" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "At 3:40 the minute hand is at 40×6 = 240° from 12. The hour hand is at 3×30 + 40×0.5 = 110°. The difference is 240−110 = 130°, which is less than 180°.", "hi": "3:40 पर मिनट की सुई 12 से 40×6 = 240° पर होती है। घंटे की सुई 3×30 + 40×0.5 = 110° पर होती है। अंतर 240−110 = 130° है, जो 180° से कम है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Obtained by treating the hour hand as exactly at 4 (120°) and ignoring its movement from 3; or 240°−120°.", "hi": "घंटे की सुई को ठीक 4 पर (120°) मानने से, अर्थात 240°−120° से, मिलता है; इसमें 3 से उसकी गति अनदेखी की गई है।" },
+        "2": { "en": "Obtained by taking the hour hand at 100°, using 0.25° per minute instead of 0.5°.", "hi": "घंटे की सुई को 100° पर लेने से मिलता है, जिसमें प्रति मिनट 0.5° के बजाय 0.25° माना गया।" },
+        "3": { "en": "Obtained by taking the hour hand at 90° (exactly 3 o'clock), ignoring its movement in the 40 minutes.", "hi": "घंटे की सुई को 90° पर (ठीक 3 बजे) लेने से मिलता है, जिसमें 40 मिनट की गति अनदेखी की गई।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mn-23",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": { "en": "26 January 2024 was a Friday. What day of the week was 26 January 2025?", "hi": "26 जनवरी 2024 को शुक्रवार था। 26 जनवरी 2025 को सप्ताह का कौन-सा दिन था?" },
+      "optionsJson": [
+        { "en": "Saturday", "hi": "शनिवार" },
+        { "en": "Monday", "hi": "सोमवार" },
+        { "en": "Sunday", "hi": "रविवार" },
+        { "en": "Friday", "hi": "शुक्रवार" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The year 2024 is a leap year and 29 February 2024 lies between the two dates, so there are 366 days. 366 = 52 weeks + 2 odd days, so the day moves forward by 2: Friday + 2 = Sunday.", "hi": "वर्ष 2024 अधिवर्ष है और 29 फरवरी 2024 दोनों तिथियों के बीच आती है, इसलिए 366 दिन हैं। 366 = 52 सप्ताह + 2 अतिरिक्त दिन, अतः दिन 2 आगे बढ़ता है: शुक्रवार + 2 = रविवार।" },
+      "distractorAnalysis": {
+        "0": { "en": "Obtained by moving only 1 day forward, which ignores the extra day of the leap year.", "hi": "केवल 1 दिन आगे बढ़ने से मिलता है, जिसमें अधिवर्ष का अतिरिक्त दिन छूट गया।" },
+        "1": { "en": "Obtained by moving 3 days forward, which is one day too many.", "hi": "3 दिन आगे बढ़ने से मिलता है, जो एक दिन अधिक है।" },
+        "3": { "en": "Obtained by assuming the day does not change after a whole year.", "hi": "यह मानने से मिलता है कि पूरे एक वर्ष बाद दिन नहीं बदलता।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mn-24",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "In a class of 40 students, 25 like cricket, 20 like football and 5 like neither game. How many students like both games?", "hi": "40 विद्यार्थियों की एक कक्षा में 25 को क्रिकेट पसंद है, 20 को फुटबॉल पसंद है और 5 को दोनों में से कोई खेल पसंद नहीं है। कितने विद्यार्थियों को दोनों खेल पसंद हैं?" },
+      "optionsJson": [
+        { "en": "5", "hi": "5" },
+        { "en": "15", "hi": "15" },
+        { "en": "20", "hi": "20" },
+        { "en": "10", "hi": "10" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Students who like at least one game = 40−5 = 35. Using n(A∪B) = n(A)+n(B)−n(A∩B): 35 = 25+20−n(A∩B), so n(A∩B) = 45−35 = 10.", "hi": "कम से कम एक खेल पसंद करने वाले विद्यार्थी = 40−5 = 35। n(A∪B) = n(A)+n(B)−n(A∩B) से: 35 = 25+20−n(A∩B), अतः n(A∩B) = 45−35 = 10।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the number who like neither game, not both.", "hi": "यह दोनों में से कोई खेल न पसंद करने वालों की संख्या है, दोनों पसंद करने वालों की नहीं।" },
+        "1": { "en": "Obtained as 40−25, which is the number who do not like cricket.", "hi": "40−25 से मिलता है, जो क्रिकेट पसंद न करने वालों की संख्या है।" },
+        "2": { "en": "This is the number who like football, not the number who like both.", "hi": "यह फुटबॉल पसंद करने वालों की संख्या है, दोनों पसंद करने वालों की नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mn-25",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Statements: All pens are books. Some books are bags.\nConclusions: I. Some pens are bags. II. Some bags are books.\nWhich of the following is correct?", "hi": "कथन: सभी पेन किताबें हैं। कुछ किताबें बैग हैं।\nनिष्कर्ष: I. कुछ पेन बैग हैं। II. कुछ बैग किताबें हैं।\nनिम्नलिखित में से कौन-सा सही है?" },
+      "optionsJson": [
+        { "en": "Only conclusion I follows", "hi": "केवल निष्कर्ष I अनुसरण करता है" },
+        { "en": "Only conclusion II follows", "hi": "केवल निष्कर्ष II अनुसरण करता है" },
+        { "en": "Both I and II follow", "hi": "I और II दोनों अनुसरण करते हैं" },
+        { "en": "Neither I nor II follows", "hi": "न तो I और न ही II अनुसरण करता है" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "'Some books are bags' converts to 'Some bags are books', so II follows. The books that are bags need not be the books that are pens, so we cannot say that some pens are bags; I does not follow.", "hi": "'कुछ किताबें बैग हैं' का परिवर्तन 'कुछ बैग किताबें हैं' होता है, इसलिए II अनुसरण करता है। जो किताबें बैग हैं, वे वही किताबें होना आवश्यक नहीं जो पेन हैं, इसलिए यह नहीं कहा जा सकता कि कुछ पेन बैग हैं; I अनुसरण नहीं करता।" },
+      "distractorAnalysis": {
+        "0": { "en": "Wrongly assumes that the books that are bags include pens; the statements do not guarantee this.", "hi": "गलत मान लिया गया है कि बैग वाली किताबों में पेन भी शामिल हैं; कथन इसकी पुष्टि नहीं करते।" },
+        "2": { "en": "II follows, but I does not, so both cannot be correct.", "hi": "II अनुसरण करता है, पर I नहीं, इसलिए दोनों सही नहीं हो सकते।" },
+        "3": { "en": "II follows directly by converting the second statement, so it is wrong to say neither follows.", "hi": "दूसरे कथन का परिवर्तन करने पर II सीधे अनुसरण करता है, इसलिए यह कहना गलत है कि कोई भी अनुसरण नहीं करता।" }
+      }
+    }
+  ]
+}

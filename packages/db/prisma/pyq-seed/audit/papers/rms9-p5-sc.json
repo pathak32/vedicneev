@@ -1,0 +1,484 @@
+{
+  "examType": "RMS",
+  "classLevel": 9,
+  "paperNumber": 5,
+  "sectionKey": "science",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "rms9-p5-sc-01",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which of the following structures is present in a plant cell but absent in an animal cell?", "hi": "निम्नलिखित में से कौन-सी संरचना पादप कोशिका में पाई जाती है लेकिन जंतु कोशिका में नहीं?" },
+      "optionsJson": [
+        { "en": "Nucleus", "hi": "केंद्रक" },
+        { "en": "Cell membrane", "hi": "कोशिका झिल्ली" },
+        { "en": "Cell wall", "hi": "कोशिका भित्ति" },
+        { "en": "Ribosome", "hi": "राइबोसोम" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Plant cells have a rigid cell wall made mainly of cellulose outside the cell membrane. Animal cells have no cell wall.", "hi": "पादप कोशिकाओं में कोशिका झिल्ली के बाहर मुख्यतः सेलुलोज़ की बनी कठोर कोशिका भित्ति होती है। जंतु कोशिकाओं में कोशिका भित्ति नहीं होती।" },
+      "distractorAnalysis": {
+        "0": { "en": "Both plant and animal cells are eukaryotic and have a nucleus.", "hi": "पादप और जंतु दोनों कोशिकाएँ सुकेंद्रकीय होती हैं और इनमें केंद्रक होता है।" },
+        "1": { "en": "Every cell, plant or animal, is enclosed by a cell membrane.", "hi": "हर कोशिका, चाहे पादप हो या जंतु, कोशिका झिल्ली से घिरी होती है।" },
+        "3": { "en": "Ribosomes make proteins and are found in all living cells.", "hi": "राइबोसोम प्रोटीन बनाते हैं और सभी जीवित कोशिकाओं में पाए जाते हैं।" }
+      }
+    },
+    {
+      "key": "rms9-p5-sc-02",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A thin peel from an onion leaf is placed in a strong (10%) salt solution and observed under a microscope after a few minutes. What will be seen?", "hi": "प्याज की पत्ती की एक पतली परत को गाढ़े (10%) नमक के घोल में रखकर कुछ मिनट बाद सूक्ष्मदर्शी से देखा जाता है। क्या दिखाई देगा?" },
+      "optionsJson": [
+        { "en": "The protoplasm shrinks away from the cell wall because the cells lose water", "hi": "कोशिकाओं के पानी खो देने के कारण जीवद्रव्य कोशिका भित्ति से सिकुड़कर अलग हो जाता है" },
+        { "en": "The cells swell and become turgid by absorbing water from the solution", "hi": "कोशिकाएँ घोल से पानी सोखकर फूल जाती हैं और स्फीत हो जाती हैं" },
+        { "en": "The cell walls dissolve in the salt solution", "hi": "कोशिका भित्तियाँ नमक के घोल में घुल जाती हैं" },
+        { "en": "The cells remain exactly as they were because salt cannot affect living cells", "hi": "कोशिकाएँ ज्यों की त्यों रहती हैं क्योंकि नमक जीवित कोशिकाओं को प्रभावित नहीं कर सकता" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The strong salt solution is hypertonic, so water leaves the cells by osmosis. The protoplasm shrinks away from the cell wall, a process called plasmolysis.", "hi": "गाढ़ा नमक का घोल अतिपरासरी होता है, इसलिए परासरण द्वारा कोशिकाओं से पानी बाहर निकल जाता है। जीवद्रव्य कोशिका भित्ति से सिकुड़कर अलग हो जाता है, इस प्रक्रिया को जीवद्रव्यकुंचन (प्लाज़्मोलिसिस) कहते हैं।" },
+      "distractorAnalysis": {
+        "1": { "en": "Cells swell in a hypotonic (dilute) solution, not in a strong salt solution.", "hi": "कोशिकाएँ अल्पपरासरी (तनु) घोल में फूलती हैं, गाढ़े नमक के घोल में नहीं।" },
+        "2": { "en": "Cellulose cell walls do not dissolve in salt solution.", "hi": "सेलुलोज़ की कोशिका भित्तियाँ नमक के घोल में नहीं घुलतीं।" },
+        "3": { "en": "Water moves out by osmosis, so the cells are clearly affected.", "hi": "परासरण से पानी बाहर निकलता है, इसलिए कोशिकाएँ स्पष्ट रूप से प्रभावित होती हैं।" }
+      }
+    },
+    {
+      "key": "rms9-p5-sc-03",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which simple plant tissue has cells with corners thickened by cellulose and pectin, and gives both flexibility and mechanical support to young stems and leaf stalks?", "hi": "किस सरल पादप ऊतक की कोशिकाओं के कोने सेलुलोज़ और पेक्टिन से मोटे होते हैं और जो कोमल तनों तथा पर्णवृंतों को लचीलेपन के साथ यांत्रिक सहारा देता है?" },
+      "optionsJson": [
+        { "en": "Parenchyma", "hi": "मृदूतक" },
+        { "en": "Collenchyma", "hi": "स्थूलकोण ऊतक" },
+        { "en": "Sclerenchyma", "hi": "दृढ़ोतक" },
+        { "en": "Xylem", "hi": "जाइलम" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Collenchyma cells have unevenly thickened corners, which allow bending without breaking while giving support, as in leaf stalks and young stems.", "hi": "स्थूलकोण ऊतक की कोशिकाओं के कोने असमान रूप से मोटे होते हैं, जिससे बिना टूटे मुड़ने की क्षमता मिलती है और साथ ही सहारा भी, जैसे पर्णवृंत और कोमल तनों में।" },
+      "distractorAnalysis": {
+        "0": { "en": "Parenchyma has thin-walled living cells used for storage and photosynthesis, not special support.", "hi": "मृदूतक में पतली भित्ति वाली जीवित कोशिकाएँ होती हैं जो भंडारण और प्रकाश संश्लेषण करती हैं, विशेष सहारा नहीं देतीं।" },
+        "2": { "en": "Sclerenchyma has dead cells with thick lignified walls, giving stiffness rather than flexibility.", "hi": "दृढ़ोतक की कोशिकाएँ मृत होती हैं और उनकी भित्ति लिग्निन से मोटी होती है, जो लचीलापन नहीं बल्कि कठोरता देती है।" },
+        "3": { "en": "Xylem is a complex tissue that conducts water and minerals, and its main role is not flexible support.", "hi": "जाइलम एक जटिल ऊतक है जो जल और खनिज का संवहन करता है; इसका मुख्य कार्य लचीला सहारा देना नहीं है।" }
+      }
+    },
+    {
+      "key": "rms9-p5-sc-04",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which tissue has spindle-shaped cells with a single nucleus and no cross-striations, works involuntarily, and is found in the wall of the intestine?", "hi": "किस ऊतक की कोशिकाएँ तर्कुरूपी होती हैं, जिनमें एक केंद्रक होता है और आड़ी धारियाँ नहीं होतीं, जो अनैच्छिक रूप से कार्य करता है और आँत की दीवार में पाया जाता है?" },
+      "optionsJson": [
+        { "en": "Skeletal muscle", "hi": "कंकाल पेशी" },
+        { "en": "Cardiac muscle", "hi": "हृदय पेशी" },
+        { "en": "Nervous tissue", "hi": "तंत्रिका ऊतक" },
+        { "en": "Smooth muscle", "hi": "चिकनी पेशी" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Smooth (unstriated) muscle has spindle-shaped, single-nucleus cells and works involuntarily in the walls of the intestine, blood vessels and other internal organs.", "hi": "चिकनी (अरेखित) पेशी की कोशिकाएँ तर्कुरूपी और एकल केंद्रक वाली होती हैं और यह आँत, रक्त वाहिकाओं तथा अन्य आंतरिक अंगों की दीवार में अनैच्छिक रूप से कार्य करती है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Skeletal muscle is striated and voluntary, and is attached to bones.", "hi": "कंकाल पेशी धारीदार और ऐच्छिक होती है और हड्डियों से जुड़ी रहती है।" },
+        "1": { "en": "Cardiac muscle is involuntary but striated, and is found only in the heart.", "hi": "हृदय पेशी अनैच्छिक होती है परंतु धारीदार होती है, और केवल हृदय में पाई जाती है।" },
+        "2": { "en": "Nervous tissue is made of neurons that carry impulses; it is not a muscle.", "hi": "तंत्रिका ऊतक न्यूरॉनों से बना होता है जो आवेग संचारित करते हैं; यह पेशी नहीं है।" }
+      }
+    },
+    {
+      "key": "rms9-p5-sc-05",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "A student studies an animal that is cold-blooded, has dry skin covered with scales, a three-chambered heart, and lays leathery-shelled eggs on land. To which class does it belong?", "hi": "एक विद्यार्थी ऐसे जंतु का अध्ययन करता है जो शीत-रक्तीय है, जिसकी शुष्क त्वचा शल्कों से ढकी है, हृदय तीन कक्षों वाला है और जो ज़मीन पर चमड़े जैसे कवच वाले अंडे देता है। यह किस वर्ग का है?" },
+      "optionsJson": [
+        { "en": "Amphibia", "hi": "उभयचर (एम्फीबिया)" },
+        { "en": "Reptilia", "hi": "सरीसृप (रेप्टीलिया)" },
+        { "en": "Aves", "hi": "पक्षी (एवीज़)" },
+        { "en": "Pisces", "hi": "मत्स्य (पिसीज़)" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Scaly dry skin, a three-chambered heart, cold-bloodedness and shelled eggs laid on land are characteristics of class Reptilia.", "hi": "शल्कयुक्त शुष्क त्वचा, तीन कक्षों वाला हृदय, शीत-रक्तीयता और ज़मीन पर कवचयुक्त अंडे देना सरीसृप वर्ग के लक्षण हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "Amphibians also have a three-chambered heart, but their skin is moist and without scales, and they lay jelly-covered eggs in water.", "hi": "उभयचरों में भी तीन कक्षों वाला हृदय होता है, पर उनकी त्वचा नम और शल्कहीन होती है तथा वे पानी में जेली से ढके अंडे देते हैं।" },
+        "2": { "en": "Birds are warm-blooded and have a four-chambered heart and feathers.", "hi": "पक्षी गर्म-रक्तीय होते हैं और उनका हृदय चार कक्षों वाला होता है तथा शरीर पर पंख होते हैं।" },
+        "3": { "en": "Fishes live in water, breathe through gills and have a two-chambered heart.", "hi": "मछलियाँ पानी में रहती हैं, गलफड़ों से साँस लेती हैं और उनका हृदय दो कक्षों वाला होता है।" }
+      }
+    },
+    {
+      "key": "rms9-p5-sc-06",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A plant has a well-differentiated root, stem and leaves with vascular tissue, reproduces by spores and bears neither flowers nor seeds. To which group does it belong?", "hi": "एक पौधे में मूल, तना और पत्तियाँ भली-भाँति विभेदित हैं जिनमें संवहन ऊतक है, यह बीजाणुओं से जनन करता है और इसमें न फूल होते हैं न बीज। यह किस समूह का है?" },
+      "optionsJson": [
+        { "en": "Bryophytes", "hi": "ब्रायोफाइट" },
+        { "en": "Gymnosperms", "hi": "अनावृतबीजी (जिम्नोस्पर्म)" },
+        { "en": "Pteridophytes", "hi": "टेरिडोफाइट" },
+        { "en": "Angiosperms", "hi": "आवृतबीजी (एंजियोस्पर्म)" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Pteridophytes, such as ferns, have true roots, stems and leaves with vascular tissue but reproduce by spores and have no flowers or seeds.", "hi": "टेरिडोफाइट, जैसे फर्न, में संवहन ऊतक युक्त वास्तविक जड़, तना और पत्तियाँ होती हैं, पर वे बीजाणुओं से जनन करते हैं और उनमें फूल या बीज नहीं होते।" },
+      "distractorAnalysis": {
+        "0": { "en": "Bryophytes lack vascular tissue and have no true roots, stems or leaves.", "hi": "ब्रायोफाइट में संवहन ऊतक नहीं होता और वास्तविक जड़, तना या पत्तियाँ नहीं होतीं।" },
+        "1": { "en": "Gymnosperms bear naked seeds, so they do reproduce by seeds.", "hi": "अनावृतबीजी पौधे नग्न बीज बनाते हैं, इसलिए वे बीजों द्वारा जनन करते हैं।" },
+        "3": { "en": "Angiosperms bear flowers and enclosed seeds.", "hi": "आवृतबीजी पौधों में फूल और फल के भीतर बंद बीज होते हैं।" }
+      }
+    },
+    {
+      "key": "rms9-p5-sc-07",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which disease is caused by a virus and spread by the bite of the Aedes mosquito?", "hi": "कौन-सा रोग विषाणु (वायरस) से होता है और एडीज़ मच्छर के काटने से फैलता है?" },
+      "optionsJson": [
+        { "en": "Dengue", "hi": "डेंगू" },
+        { "en": "Malaria", "hi": "मलेरिया" },
+        { "en": "Typhoid", "hi": "टाइफाइड" },
+        { "en": "Cholera", "hi": "हैजा" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Dengue is caused by the dengue virus, which is transmitted by the bite of infected Aedes mosquitoes.", "hi": "डेंगू, डेंगू विषाणु से होता है जो संक्रमित एडीज़ मच्छरों के काटने से फैलता है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Malaria is caused by a protozoan (Plasmodium) and is spread by female Anopheles mosquitoes.", "hi": "मलेरिया एक प्रोटोज़ोआ (प्लाज़्मोडियम) से होता है और मादा एनोफिलीज़ मच्छर से फैलता है।" },
+        "2": { "en": "Typhoid is caused by bacteria and spreads through contaminated food and water.", "hi": "टाइफाइड जीवाणुओं से होता है और दूषित भोजन तथा पानी से फैलता है।" },
+        "3": { "en": "Cholera is a bacterial disease spread through contaminated water.", "hi": "हैजा एक जीवाणुजनित रोग है जो दूषित पानी से फैलता है।" }
+      }
+    },
+    {
+      "key": "rms9-p5-sc-08",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which of the following is a non-infectious disease?", "hi": "निम्नलिखित में से कौन-सा रोग असंक्रामक है?" },
+      "optionsJson": [
+        { "en": "Tuberculosis", "hi": "क्षय रोग (तपेदिक)" },
+        { "en": "Measles", "hi": "खसरा" },
+        { "en": "Cholera", "hi": "हैजा" },
+        { "en": "Diabetes", "hi": "मधुमेह" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Diabetes arises from the body's inability to make or use insulin properly. It is not caused by a pathogen and does not spread from person to person.", "hi": "मधुमेह शरीर द्वारा इंसुलिन ठीक से न बना पाने या उपयोग न कर पाने से होता है। यह किसी रोगाणु से नहीं होता और एक व्यक्ति से दूसरे में नहीं फैलता।" },
+      "distractorAnalysis": {
+        "0": { "en": "Tuberculosis is caused by bacteria and spreads through the air.", "hi": "क्षय रोग जीवाणुओं से होता है और हवा के द्वारा फैलता है।" },
+        "1": { "en": "Measles is a viral disease that spreads from person to person.", "hi": "खसरा एक विषाणुजनित रोग है जो एक व्यक्ति से दूसरे में फैलता है।" },
+        "2": { "en": "Cholera is caused by bacteria and spreads through contaminated water.", "hi": "हैजा जीवाणुओं से होता है और दूषित पानी से फैलता है।" }
+      }
+    },
+    {
+      "key": "rms9-p5-sc-09",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A doctor prescribes an antibiotic for typhoid but not for the common cold. What is the reason?", "hi": "एक डॉक्टर टाइफाइड के लिए प्रतिजैविक (एंटीबायोटिक) देता है, लेकिन सामान्य सर्दी-ज़ुकाम के लिए नहीं। इसका क्या कारण है?" },
+      "optionsJson": [
+        { "en": "Antibiotics make the body produce antibodies against viruses", "hi": "प्रतिजैविक शरीर में विषाणुओं के विरुद्ध प्रतिरक्षी बनवाते हैं" },
+        { "en": "Antibiotics block biochemical pathways found in bacteria, but viruses do not have these pathways", "hi": "प्रतिजैविक जीवाणुओं में पाए जाने वाले जैव-रासायनिक मार्गों को रोकते हैं, पर विषाणुओं में ये मार्ग होते ही नहीं" },
+        { "en": "Antibiotics work only against protozoa such as the malaria parasite", "hi": "प्रतिजैविक केवल प्रोटोज़ोआ, जैसे मलेरिया परजीवी, पर ही काम करते हैं" },
+        { "en": "The common cold is caused by fungi, which antibiotics cannot kill", "hi": "सामान्य सर्दी-ज़ुकाम कवकों से होता है, जिन्हें प्रतिजैविक नहीं मार सकते" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Typhoid is bacterial. Antibiotics act by blocking pathways that bacteria use to make their cell wall or proteins. Viruses, which cause the common cold, lack these pathways, so antibiotics do not work on them.", "hi": "टाइफाइड जीवाणुजनित है। प्रतिजैविक उन मार्गों को रोकते हैं जिनसे जीवाणु अपनी कोशिका भित्ति या प्रोटीन बनाते हैं। सर्दी-ज़ुकाम करने वाले विषाणुओं में ये मार्ग नहीं होते, इसलिए उन पर प्रतिजैविक असर नहीं करते।" },
+      "distractorAnalysis": {
+        "0": { "en": "Antibodies are made by the immune system, not by antibiotics; vaccines are what prepare the body against viruses.", "hi": "प्रतिरक्षी शरीर की प्रतिरक्षा प्रणाली बनाती है, प्रतिजैविक नहीं; विषाणुओं के विरुद्ध शरीर को टीके तैयार करते हैं।" },
+        "2": { "en": "Antibiotics mainly act on bacteria; protozoan diseases need different medicines.", "hi": "प्रतिजैविक मुख्यतः जीवाणुओं पर काम करते हैं; प्रोटोज़ोआ जनित रोगों के लिए अलग दवाएँ चाहिए।" },
+        "3": { "en": "The common cold is caused by viruses, not fungi.", "hi": "सामान्य सर्दी-ज़ुकाम विषाणुओं से होता है, कवकों से नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p5-sc-10",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The virus that causes AIDS mainly damages which part of the body's defence system?", "hi": "एड्स (AIDS) फैलाने वाला विषाणु शरीर की रक्षा प्रणाली के किस भाग को मुख्य रूप से क्षति पहुँचाता है?" },
+      "optionsJson": [
+        { "en": "Red blood cells", "hi": "लाल रक्त कोशिकाएँ" },
+        { "en": "Platelets", "hi": "रक्त प्लेटलेट्स" },
+        { "en": "Helper T lymphocytes, a type of white blood cell", "hi": "सहायक T लसीकाणु, जो एक प्रकार की श्वेत रक्त कोशिका है" },
+        { "en": "Skin cells", "hi": "त्वचा की कोशिकाएँ" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "HIV infects and destroys helper T lymphocytes, which are white blood cells that coordinate immunity. The body then becomes unable to fight even minor infections.", "hi": "HIV सहायक T लसीकाणुओं को संक्रमित कर नष्ट कर देता है, जो प्रतिरक्षा का समन्वय करने वाली श्वेत रक्त कोशिकाएँ हैं। तब शरीर मामूली संक्रमणों से भी लड़ नहीं पाता।" },
+      "distractorAnalysis": {
+        "0": { "en": "Red blood cells carry oxygen; they are not the main target of HIV.", "hi": "लाल रक्त कोशिकाएँ ऑक्सीजन ले जाती हैं; वे HIV का मुख्य लक्ष्य नहीं हैं।" },
+        "1": { "en": "Platelets help blood clot and are not the main target of HIV.", "hi": "प्लेटलेट्स रक्त का थक्का जमाने में मदद करती हैं; वे HIV का मुख्य लक्ष्य नहीं हैं।" },
+        "3": { "en": "HIV does not mainly attack skin cells; it targets immune cells.", "hi": "HIV मुख्यतः त्वचा की कोशिकाओं पर नहीं, बल्कि प्रतिरक्षा कोशिकाओं पर आक्रमण करता है।" }
+      }
+    },
+    {
+      "key": "rms9-p5-sc-11",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": { "en": "In the nitrogen cycle, which process do certain soil bacteria carry out to convert nitrates back into nitrogen gas that returns to the atmosphere?", "hi": "नाइट्रोजन चक्र में कुछ मृदा जीवाणु किस प्रक्रिया द्वारा नाइट्रेटों को वापस नाइट्रोजन गैस में बदल देते हैं, जो वायुमंडल में लौट जाती है?" },
+      "optionsJson": [
+        { "en": "Denitrification", "hi": "विनाइट्रीकरण" },
+        { "en": "Nitrification", "hi": "नाइट्रीकरण" },
+        { "en": "Nitrogen fixation", "hi": "नाइट्रोजन स्थिरीकरण" },
+        { "en": "Ammonification", "hi": "अमोनीकरण" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Denitrifying bacteria convert nitrates in the soil into nitrogen gas, which is released into the air and completes the nitrogen cycle.", "hi": "विनाइट्रीकारी जीवाणु मिट्टी के नाइट्रेटों को नाइट्रोजन गैस में बदल देते हैं, जो हवा में मुक्त होकर नाइट्रोजन चक्र को पूरा करती है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Nitrification converts ammonia into nitrites and then nitrates, the opposite direction.", "hi": "नाइट्रीकरण अमोनिया को नाइट्राइट और फिर नाइट्रेट में बदलता है, जो उल्टी दिशा है।" },
+        "2": { "en": "Nitrogen fixation converts atmospheric nitrogen into usable compounds such as ammonia or nitrates.", "hi": "नाइट्रोजन स्थिरीकरण वायुमंडलीय नाइट्रोजन को अमोनिया या नाइट्रेट जैसे उपयोगी यौगिकों में बदलता है।" },
+        "3": { "en": "Ammonification is the release of ammonia when decomposers break down dead organisms and wastes.", "hi": "अमोनीकरण में अपघटक मृत जीवों और अपशिष्टों को तोड़कर अमोनिया मुक्त करते हैं।" }
+      }
+    },
+    {
+      "key": "rms9-p5-sc-12",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which of the following is NOT a greenhouse gas?", "hi": "निम्नलिखित में से कौन-सी गैस ग्रीनहाउस गैस नहीं है?" },
+      "optionsJson": [
+        { "en": "Carbon dioxide", "hi": "कार्बन डाइऑक्साइड" },
+        { "en": "Methane", "hi": "मेथेन" },
+        { "en": "Nitrous oxide", "hi": "नाइट्रस ऑक्साइड" },
+        { "en": "Argon", "hi": "ऑर्गन" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Argon is a noble gas that does not absorb the Earth's outgoing heat radiation, so it is not a greenhouse gas. Carbon dioxide, methane and nitrous oxide all trap heat.", "hi": "ऑर्गन एक उत्कृष्ट गैस है जो पृथ्वी से निकलने वाले ऊष्मीय विकिरण को अवशोषित नहीं करती, इसलिए यह ग्रीनहाउस गैस नहीं है। कार्बन डाइऑक्साइड, मेथेन और नाइट्रस ऑक्साइड ऊष्मा को रोकती हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "Carbon dioxide is the main greenhouse gas released by burning fossil fuels.", "hi": "कार्बन डाइऑक्साइड जीवाश्म ईंधन जलने से निकलने वाली प्रमुख ग्रीनहाउस गैस है।" },
+        "1": { "en": "Methane, released from paddy fields and cattle, traps heat strongly.", "hi": "धान के खेतों और पशुओं से निकलने वाली मेथेन ऊष्मा को प्रबल रूप से रोकती है।" },
+        "2": { "en": "Nitrous oxide, released from fertilised soils, is a greenhouse gas.", "hi": "उर्वरक डाली गई मिट्टी से निकलने वाली नाइट्रस ऑक्साइड एक ग्रीनहाउस गैस है।" }
+      }
+    },
+    {
+      "key": "rms9-p5-sc-13",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which pair of gases is mainly responsible for acid rain?", "hi": "अम्लीय वर्षा के लिए मुख्य रूप से कौन-सी गैसों का युग्म उत्तरदायी है?" },
+      "optionsJson": [
+        { "en": "Nitrogen and argon", "hi": "नाइट्रोजन और ऑर्गन" },
+        { "en": "Oxygen and hydrogen", "hi": "ऑक्सीजन और हाइड्रोजन" },
+        { "en": "Sulphur dioxide and oxides of nitrogen", "hi": "सल्फर डाइऑक्साइड और नाइट्रोजन के ऑक्साइड" },
+        { "en": "Carbon monoxide and methane", "hi": "कार्बन मोनोऑक्साइड और मेथेन" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Burning coal and petroleum releases sulphur dioxide and oxides of nitrogen, which dissolve in rain water to form sulphuric acid and nitric acid, causing acid rain.", "hi": "कोयला और पेट्रोलियम जलने से सल्फर डाइऑक्साइड और नाइट्रोजन के ऑक्साइड निकलते हैं, जो वर्षा जल में घुलकर सल्फ्यूरिक अम्ल और नाइट्रिक अम्ल बनाते हैं और अम्लीय वर्षा होती है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Nitrogen and argon are unreactive gases that do not form acids in rain water.", "hi": "नाइट्रोजन और ऑर्गन अक्रिय गैसें हैं जो वर्षा जल में अम्ल नहीं बनातीं।" },
+        "1": { "en": "Oxygen and hydrogen do not form acidic compounds in the atmosphere.", "hi": "ऑक्सीजन और हाइड्रोजन वायुमंडल में अम्लीय यौगिक नहीं बनाती हैं।" },
+        "3": { "en": "Carbon monoxide and methane are not the main acid-forming gases; they do not form strong acids in rain.", "hi": "कार्बन मोनोऑक्साइड और मेथेन प्रमुख अम्ल-निर्माता गैसें नहीं हैं; वे वर्षा में प्रबल अम्ल नहीं बनातीं।" }
+      }
+    },
+    {
+      "key": "rms9-p5-sc-14",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "In a pond ecosystem, which of the following act as decomposers?", "hi": "तालाब के पारितंत्र में निम्नलिखित में से कौन अपघटक का कार्य करते हैं?" },
+      "optionsJson": [
+        { "en": "Algae", "hi": "शैवाल" },
+        { "en": "Bacteria and fungi", "hi": "जीवाणु और कवक" },
+        { "en": "Fish", "hi": "मछलियाँ" },
+        { "en": "Frogs", "hi": "मेंढक" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Bacteria and fungi break down dead plants and animals into simple substances that return to the environment, so they are the decomposers.", "hi": "जीवाणु और कवक मृत पौधों और जंतुओं को सरल पदार्थों में तोड़ देते हैं जो पर्यावरण में लौट जाते हैं, इसलिए वे अपघटक हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "Algae are producers because they make food by photosynthesis.", "hi": "शैवाल उत्पादक हैं क्योंकि वे प्रकाश संश्लेषण से भोजन बनाते हैं।" },
+        "2": { "en": "Fish are consumers that feed on other organisms.", "hi": "मछलियाँ उपभोक्ता हैं जो अन्य जीवों को खाती हैं।" },
+        "3": { "en": "Frogs are consumers that feed on insects and other small animals.", "hi": "मेंढक उपभोक्ता हैं जो कीटों और अन्य छोटे जंतुओं को खाते हैं।" }
+      }
+    },
+    {
+      "key": "rms9-p5-sc-15",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which of the following is an example of in situ conservation of biodiversity?", "hi": "निम्नलिखित में से कौन-सा जैव विविधता के स्वस्थाने संरक्षण का उदाहरण है?" },
+      "optionsJson": [
+        { "en": "National park", "hi": "राष्ट्रीय उद्यान" },
+        { "en": "Zoo", "hi": "चिड़ियाघर" },
+        { "en": "Botanical garden", "hi": "वनस्पति उद्यान" },
+        { "en": "Seed bank", "hi": "बीज बैंक" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "In situ conservation protects species in their natural habitat. National parks and sanctuaries do this. Zoos, botanical gardens and seed banks keep species outside their natural habitat (ex situ).", "hi": "स्वस्थाने संरक्षण में जीवों को उनके प्राकृतिक आवास में ही सुरक्षित रखा जाता है। राष्ट्रीय उद्यान और अभयारण्य यही करते हैं। चिड़ियाघर, वनस्पति उद्यान और बीज बैंक जीवों को प्राकृतिक आवास के बाहर रखते हैं (बाह्य-स्थाने)।" },
+      "distractorAnalysis": {
+        "1": { "en": "A zoo keeps animals outside their natural habitat, so it is ex situ conservation.", "hi": "चिड़ियाघर जंतुओं को उनके प्राकृतिक आवास के बाहर रखता है, इसलिए यह बाह्य-स्थाने संरक्षण है।" },
+        "2": { "en": "A botanical garden grows plants away from their natural habitat, which is ex situ conservation.", "hi": "वनस्पति उद्यान पौधों को उनके प्राकृतिक आवास से दूर उगाता है, जो बाह्य-स्थाने संरक्षण है।" },
+        "3": { "en": "A seed bank stores seeds in a facility, which is ex situ conservation.", "hi": "बीज बैंक बीजों को एक सुविधा में संग्रहित करता है, जो बाह्य-स्थाने संरक्षण है।" }
+      }
+    },
+    {
+      "key": "rms9-p5-sc-16",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "A simple pendulum completes 30 complete oscillations in 60 seconds. What is its frequency?", "hi": "एक सरल लोलक 60 सेकंड में 30 पूर्ण दोलन करता है। इसकी आवृत्ति कितनी है?" },
+      "optionsJson": [
+        { "en": "30 Hz", "hi": "30 Hz" },
+        { "en": "2 Hz", "hi": "2 Hz" },
+        { "en": "60 Hz", "hi": "60 Hz" },
+        { "en": "0.5 Hz", "hi": "0.5 Hz" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Frequency = number of oscillations / time = 30 / 60 = 0.5 Hz. (Its time period is 2 s.)", "hi": "आवृत्ति = दोलनों की संख्या / समय = 30 / 60 = 0.5 Hz। (इसका आवर्त काल 2 s है।)" },
+      "distractorAnalysis": {
+        "0": { "en": "30 is only the number of oscillations; it must be divided by the time.", "hi": "30 केवल दोलनों की संख्या है; इसे समय से भाग देना होगा।" },
+        "1": { "en": "2 s is the time period, not the frequency; frequency is its reciprocal.", "hi": "2 s आवर्त काल है, आवृत्ति नहीं; आवृत्ति उसका व्युत्क्रम होती है।" },
+        "2": { "en": "60 is the time in seconds, not a frequency.", "hi": "60 सेकंड में दिया गया समय है, आवृत्ति नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p5-sc-17",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A cyclist starts from rest and accelerates uniformly at 0.5 m/s² for 20 s. What distance does she cover in this time?", "hi": "एक साइकिल सवार विरामावस्था से चलकर 20 s तक 0.5 m/s² के एकसमान त्वरण से गति करती है। इस समय में वह कितनी दूरी तय करती है?" },
+      "optionsJson": [
+        { "en": "10 m", "hi": "10 m" },
+        { "en": "100 m", "hi": "100 m" },
+        { "en": "200 m", "hi": "200 m" },
+        { "en": "400 m", "hi": "400 m" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "s = ut + (1/2)at² = 0 + (1/2)(0.5)(20)² = 0.25 × 400 = 100 m.", "hi": "s = ut + (1/2)at² = 0 + (1/2)(0.5)(20)² = 0.25 × 400 = 100 m।" },
+      "distractorAnalysis": {
+        "0": { "en": "The number 10 is the final speed in m/s (v = at = 0.5 × 20), not a distance.", "hi": "संख्या 10 अंतिम चाल m/s में (v = at = 0.5 × 20) है, दूरी नहीं।" },
+        "2": { "en": "This results from forgetting the factor 1/2 in the formula.", "hi": "यह सूत्र में गुणक 1/2 भूल जाने से आता है।" },
+        "3": { "en": "This results from using t² alone and ignoring the acceleration.", "hi": "यह केवल t² लेने और त्वरण को छोड़ देने से आता है।" }
+      }
+    },
+    {
+      "key": "rms9-p5-sc-18",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": { "en": "A uniform solid block of density 800 kg/m³ floats at rest in water of density 1000 kg/m³. What fraction of its volume is submerged?", "hi": "800 kg/m³ घनत्व का एक एकसमान ठोस गुटका 1000 kg/m³ घनत्व वाले पानी में स्थिर तैर रहा है। इसके आयतन का कितना भाग डूबा हुआ है?" },
+      "optionsJson": [
+        { "en": "20%", "hi": "20%" },
+        { "en": "64%", "hi": "64%" },
+        { "en": "80%", "hi": "80%" },
+        { "en": "100%", "hi": "100%" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "For floating, weight = buoyant force: 800 × V × g = 1000 × V_sub × g, so V_sub / V = 800 / 1000 = 0.8, or 80%.", "hi": "तैरने की स्थिति में भार = उत्प्लावन बल: 800 × V × g = 1000 × V_डूबा × g, अतः V_डूबा / V = 800 / 1000 = 0.8, यानी 80%।" },
+      "distractorAnalysis": {
+        "0": { "en": "20% is the fraction that stays above water (1 − 0.8), not the submerged part.", "hi": "20% पानी के ऊपर रहने वाला भाग (1 − 0.8) है, डूबा हुआ भाग नहीं।" },
+        "1": { "en": "64% comes from squaring the density ratio (0.8²), which has no physical basis here.", "hi": "64% घनत्व अनुपात का वर्ग (0.8²) लेने से आता है, जिसका यहाँ कोई भौतिक आधार नहीं है।" },
+        "3": { "en": "A fully submerged block would need a density equal to or greater than that of water.", "hi": "पूरी तरह डूबने के लिए गुटके का घनत्व पानी के घनत्व के बराबर या उससे अधिक होना चाहिए।" }
+      }
+    },
+    {
+      "key": "rms9-p5-sc-19",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "A body moves at a constant speed of 5 m/s for 4 s and is then brought to rest with uniform retardation in the next 2 s. What is the total distance covered in these 6 s?", "hi": "एक पिंड 4 s तक 5 m/s की नियत चाल से चलता है और फिर अगले 2 s में एकसमान मंदन से विराम में आ जाता है। इन 6 s में तय की गई कुल दूरी कितनी है?" },
+      "optionsJson": [
+        { "en": "25 m", "hi": "25 m" },
+        { "en": "30 m", "hi": "30 m" },
+        { "en": "20 m", "hi": "20 m" },
+        { "en": "15 m", "hi": "15 m" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "First part: 5 × 4 = 20 m. Second part: average speed (5 + 0)/2 = 2.5 m/s for 2 s gives 5 m. Total = 20 + 5 = 25 m.", "hi": "पहला भाग: 5 × 4 = 20 m। दूसरा भाग: औसत चाल (5 + 0)/2 = 2.5 m/s, 2 s में 5 m। कुल = 20 + 5 = 25 m।" },
+      "distractorAnalysis": {
+        "1": { "en": "30 m treats the whole 6 s as motion at 5 m/s, ignoring the slowing down.", "hi": "30 m पूरे 6 s को 5 m/s की चाल से मान लेने से आता है, मंदन की अनदेखी करके।" },
+        "2": { "en": "20 m counts only the constant-speed part and leaves out the distance during retardation.", "hi": "20 m केवल नियत चाल वाले भाग को गिनता है और मंदन के दौरान तय दूरी छोड़ देता है।" },
+        "3": { "en": "15 m does not follow from any correct step of the calculation.", "hi": "15 m गणना के किसी सही चरण से नहीं निकलता।" }
+      }
+    },
+    {
+      "key": "rms9-p5-sc-20",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A beam of light passed through a liquid shows a visible path, the particles do not settle on standing, and they cannot be separated by ordinary filtration. The liquid is most likely:", "hi": "किसी द्रव में से प्रकाश की किरण पुंज गुज़ारने पर उसका पथ दिखाई देता है, कण खड़े रहने पर भी नीचे नहीं बैठते और साधारण निस्पंदन से अलग नहीं किए जा सकते। यह द्रव सबसे संभावित रूप से है:" },
+      "optionsJson": [
+        { "en": "Sugar solution", "hi": "चीनी का घोल" },
+        { "en": "Muddy water", "hi": "मटमैला पानी" },
+        { "en": "Sodium chloride solution", "hi": "सोडियम क्लोराइड का घोल" },
+        { "en": "Milk", "hi": "दूध" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Milk is a colloid. Its particles are large enough to scatter light (Tyndall effect) yet small enough to stay suspended and pass through filter paper.", "hi": "दूध एक कोलॉइड है। इसके कण इतने बड़े होते हैं कि प्रकाश को प्रकीर्णित कर देते हैं (टिंडल प्रभाव), पर इतने छोटे कि निलंबित रहते हैं और फ़िल्टर पेपर से निकल जाते हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "Sugar solution is a true solution; its particles are too small to scatter light.", "hi": "चीनी का घोल सच्चा विलयन है; इसके कण प्रकाश को प्रकीर्णित करने के लिए बहुत छोटे होते हैं।" },
+        "1": { "en": "Muddy water is a suspension; its particles settle on standing.", "hi": "मटमैला पानी निलंबन है; इसके कण खड़े रहने पर नीचे बैठ जाते हैं।" },
+        "2": { "en": "Sodium chloride solution is a true solution and does not show the Tyndall effect.", "hi": "सोडियम क्लोराइड का घोल सच्चा विलयन है और टिंडल प्रभाव नहीं दिखाता।" }
+      }
+    },
+    {
+      "key": "rms9-p5-sc-21",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "When 10 g of calcium carbonate is heated strongly, it gives 5.6 g of calcium oxide and carbon dioxide gas. What mass of carbon dioxide is formed, according to the law of conservation of mass?", "hi": "10 g कैल्सियम कार्बोनेट को तेज़ गर्म करने पर 5.6 g कैल्सियम ऑक्साइड और कार्बन डाइऑक्साइड गैस बनती है। द्रव्यमान संरक्षण के नियम के अनुसार कितने द्रव्यमान की कार्बन डाइऑक्साइड बनेगी?" },
+      "optionsJson": [
+        { "en": "5.6 g", "hi": "5.6 g" },
+        { "en": "10 g", "hi": "10 g" },
+        { "en": "4.4 g", "hi": "4.4 g" },
+        { "en": "15.6 g", "hi": "15.6 g" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Mass of reactant = mass of products, so mass of CO₂ = 10 − 5.6 = 4.4 g.", "hi": "अभिकारक का द्रव्यमान = उत्पादों का द्रव्यमान, अतः CO₂ का द्रव्यमान = 10 − 5.6 = 4.4 g।" },
+      "distractorAnalysis": {
+        "0": { "en": "5.6 g is the mass of calcium oxide, not of carbon dioxide.", "hi": "5.6 g कैल्सियम ऑक्साइड का द्रव्यमान है, कार्बन डाइऑक्साइड का नहीं।" },
+        "1": { "en": "10 g is the mass of the starting calcium carbonate; the products must share this total.", "hi": "10 g प्रारंभिक कैल्सियम कार्बोनेट का द्रव्यमान है; उत्पादों को मिलकर यही कुल द्रव्यमान बनाना है।" },
+        "3": { "en": "15.6 g adds the masses instead of subtracting, which would create mass.", "hi": "15.6 g द्रव्यमानों को घटाने के बजाय जोड़ने से आता है, जिससे द्रव्यमान बनता हुआ मान लिया जाता है।" }
+      }
+    },
+    {
+      "key": "rms9-p5-sc-22",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": { "en": "What is the total number of atoms present in 9 g of water (H₂O)? (H = 1 u, O = 16 u; Avogadro number = 6.022 × 10²³)", "hi": "9 g पानी (H₂O) में परमाणुओं की कुल संख्या कितनी है? (H = 1 u, O = 16 u; आवोगाद्रो संख्या = 6.022 × 10²³)" },
+      "optionsJson": [
+        { "en": "3.011 × 10²³", "hi": "3.011 × 10²³" },
+        { "en": "9.033 × 10²³", "hi": "9.033 × 10²³" },
+        { "en": "6.022 × 10²³", "hi": "6.022 × 10²³" },
+        { "en": "1.807 × 10²⁴", "hi": "1.807 × 10²⁴" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Moles of water = 9/18 = 0.5 mol. Molecules = 0.5 × 6.022 × 10²³ = 3.011 × 10²³. Each molecule has 3 atoms, so atoms = 3 × 3.011 × 10²³ = 9.033 × 10²³.", "hi": "पानी के मोल = 9/18 = 0.5 mol। अणु = 0.5 × 6.022 × 10²³ = 3.011 × 10²³। प्रत्येक अणु में 3 परमाणु होते हैं, अतः परमाणु = 3 × 3.011 × 10²³ = 9.033 × 10²³।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the number of molecules, not atoms; each molecule contains 3 atoms.", "hi": "यह अणुओं की संख्या है, परमाणुओं की नहीं; प्रत्येक अणु में 3 परमाणु होते हैं।" },
+        "2": { "en": "This is the number of molecules in 18 g of water (one mole), not the number of atoms in 9 g.", "hi": "यह 18 g पानी (एक मोल) में अणुओं की संख्या है, 9 g में परमाणुओं की नहीं।" },
+        "3": { "en": "This is the number of atoms in 18 g of water; the sample here is only 9 g.", "hi": "यह 18 g पानी में परमाणुओं की संख्या है; यहाँ नमूना केवल 9 g का है।" }
+      }
+    },
+    {
+      "key": "rms9-p5-sc-23",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": { "en": "A planet has the same mass as the Earth but half the Earth's radius. If g on Earth is 10 m/s², what is the acceleration due to gravity on the surface of this planet?", "hi": "एक ग्रह का द्रव्यमान पृथ्वी के बराबर है पर उसकी त्रिज्या पृथ्वी की त्रिज्या की आधी है। यदि पृथ्वी पर g का मान 10 m/s² है, तो इस ग्रह की सतह पर गुरुत्वीय त्वरण कितना होगा?" },
+      "optionsJson": [
+        { "en": "40 m/s²", "hi": "40 m/s²" },
+        { "en": "20 m/s²", "hi": "20 m/s²" },
+        { "en": "5 m/s²", "hi": "5 m/s²" },
+        { "en": "10 m/s²", "hi": "10 m/s²" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "g = GM/R². With M unchanged and R halved, g becomes 1/(1/2)² = 4 times, so g = 4 × 10 = 40 m/s².", "hi": "g = GM/R²। M वही रहने और R आधी होने पर g का मान 1/(1/2)² = 4 गुना हो जाता है, अतः g = 4 × 10 = 40 m/s²।" },
+      "distractorAnalysis": {
+        "1": { "en": "20 m/s² would result if g varied as 1/R instead of 1/R².", "hi": "20 m/s² तब आता जब g, 1/R² के बजाय 1/R के अनुसार बदलता।" },
+        "2": { "en": "5 m/s² wrongly halves g, though a smaller radius increases gravity.", "hi": "5 m/s² में g को गलती से आधा कर दिया गया है, जबकि छोटी त्रिज्या से गुरुत्व बढ़ता है।" },
+        "3": { "en": "10 m/s² is the value on Earth; the changed radius alters g.", "hi": "10 m/s² पृथ्वी का मान है; त्रिज्या बदलने से g बदल जाता है।" }
+      }
+    },
+    {
+      "key": "rms9-p5-sc-24",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which of the following frequencies lies in the ultrasonic range for humans?", "hi": "निम्नलिखित में से कौन-सी आवृत्ति मनुष्यों के लिए पराश्रव्य (अल्ट्रासोनिक) परास में आती है?" },
+      "optionsJson": [
+        { "en": "15 Hz", "hi": "15 Hz" },
+        { "en": "500 Hz", "hi": "500 Hz" },
+        { "en": "15 kHz", "hi": "15 kHz" },
+        { "en": "25 kHz", "hi": "25 kHz" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Humans can hear from about 20 Hz to 20 kHz. Sound above 20 kHz is ultrasound, so 25 kHz is ultrasonic.", "hi": "मनुष्य लगभग 20 Hz से 20 kHz तक की ध्वनि सुन सकते हैं। 20 kHz से ऊपर की ध्वनि पराश्रव्य होती है, इसलिए 25 kHz पराश्रव्य है।" },
+      "distractorAnalysis": {
+        "0": { "en": "15 Hz is below 20 Hz, so it is infrasonic.", "hi": "15 Hz, 20 Hz से कम है, इसलिए यह अपश्रव्य (इन्फ्रासोनिक) है।" },
+        "1": { "en": "500 Hz lies within the audible range.", "hi": "500 Hz श्रव्य परास के भीतर है।" },
+        "2": { "en": "15 kHz is below 20 kHz, so it lies within the audible range.", "hi": "15 kHz, 20 kHz से कम है, इसलिए यह श्रव्य परास में है।" }
+      }
+    },
+    {
+      "key": "rms9-p5-sc-25",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "An atom has electrons arranged in the K, L and M shells as 2, 8 and 6. What is its valency and how does it usually achieve a stable configuration?", "hi": "एक परमाणु के इलेक्ट्रॉन K, L और M कोशों में 2, 8 और 6 के क्रम में हैं। इसकी संयोजकता क्या है और यह सामान्यतः स्थायी विन्यास कैसे प्राप्त करता है?" },
+      "optionsJson": [
+        { "en": "Valency 6; it loses six electrons", "hi": "संयोजकता 6; यह छह इलेक्ट्रॉन त्यागता है" },
+        { "en": "Valency 6; it gains six electrons", "hi": "संयोजकता 6; यह छह इलेक्ट्रॉन ग्रहण करता है" },
+        { "en": "Valency 2; it gains two electrons", "hi": "संयोजकता 2; यह दो इलेक्ट्रॉन ग्रहण करता है" },
+        { "en": "Valency 2; it loses two electrons", "hi": "संयोजकता 2; यह दो इलेक्ट्रॉन त्यागता है" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The outermost shell has 6 electrons and needs 2 more to complete an octet. It gains two electrons, so its valency is 8 − 6 = 2.", "hi": "सबसे बाहरी कोश में 6 इलेक्ट्रॉन हैं और अष्टक पूरा करने के लिए 2 और चाहिए। यह दो इलेक्ट्रॉन ग्रहण करता है, इसलिए संयोजकता 8 − 6 = 2 है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Losing six electrons is energetically very unfavourable, and valency is not 6 here.", "hi": "छह इलेक्ट्रॉन त्यागना ऊर्जा की दृष्टि से बहुत प्रतिकूल है, और यहाँ संयोजकता 6 नहीं है।" },
+        "1": { "en": "Gaining six electrons would exceed an octet; only two are needed.", "hi": "छह इलेक्ट्रॉन ग्रहण करने से अष्टक से अधिक हो जाएगा; केवल दो की आवश्यकता है।" },
+        "3": { "en": "Losing two electrons would leave 4 in the outer shell, not a stable octet.", "hi": "दो इलेक्ट्रॉन त्यागने पर बाहरी कोश में 4 बचेंगे, जो स्थायी अष्टक नहीं है।" }
+      }
+    }
+  ]
+}

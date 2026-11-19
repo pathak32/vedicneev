@@ -1,0 +1,484 @@
+{
+  "examType": "RMS",
+  "classLevel": 9,
+  "paperNumber": 4,
+  "sectionKey": "mental_ability",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "rms9-p4-mn-01",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "In a certain code language, MANGO is written as NBOHP. How will APPLE be written in that code?", "hi": "एक निश्चित कूट भाषा में MANGO को NBOHP लिखा जाता है। उसी कूट में APPLE को कैसे लिखा जाएगा?" },
+      "optionsJson": [
+        { "en": "BQQLF", "hi": "BQQLF" },
+        { "en": "BPQMF", "hi": "BPQMF" },
+        { "en": "BQQMF", "hi": "BQQMF" },
+        { "en": "ZOOKD", "hi": "ZOOKD" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Each letter is replaced by the next letter of the alphabet (M→N, A→B, N→O, G→H, O→P). So A→B, P→Q, P→Q, L→M, E→F, giving BQQMF.", "hi": "प्रत्येक अक्षर को वर्णमाला के अगले अक्षर से बदला गया है (M→N, A→B, N→O, G→H, O→P)। अतः A→B, P→Q, P→Q, L→M, E→F, जिससे BQQMF बनता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "The fourth letter L should become M, not stay L.", "hi": "चौथा अक्षर L, M बनना चाहिए, L नहीं रहना चाहिए।" },
+        "1": { "en": "The second letter P should become Q, not remain P.", "hi": "दूसरा अक्षर P, Q बनना चाहिए, P नहीं रहना चाहिए।" },
+        "3": { "en": "This shifts every letter one step backward instead of forward.", "hi": "इसमें प्रत्येक अक्षर को आगे के बजाय एक स्थान पीछे खिसकाया गया है।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mn-02",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Ravi ranks 7th from the top in a class of 40 students. What is his rank from the bottom?", "hi": "40 विद्यार्थियों की कक्षा में रवि का स्थान ऊपर से 7वाँ है। नीचे से उसका स्थान क्या है?" },
+      "optionsJson": [
+        { "en": "34th", "hi": "34वाँ" },
+        { "en": "33rd", "hi": "33वाँ" },
+        { "en": "35th", "hi": "35वाँ" },
+        { "en": "32nd", "hi": "32वाँ" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Rank from bottom = total − rank from top + 1 = 40 − 7 + 1 = 34.", "hi": "नीचे से स्थान = कुल − ऊपर से स्थान + 1 = 40 − 7 + 1 = 34।" },
+      "distractorAnalysis": {
+        "1": { "en": "This subtracts 7 from 40 but forgets to add 1.", "hi": "इसमें 40 में से 7 घटाया गया है, पर 1 जोड़ना भूल गए।" },
+        "2": { "en": "A rank of 35th from the bottom would mean 6th from the top, not 7th.", "hi": "नीचे से 35वाँ स्थान ऊपर से 6वाँ होता, 7वाँ नहीं।" },
+        "3": { "en": "A rank of 32nd from the bottom would mean 9th from the top.", "hi": "नीचे से 32वाँ स्थान ऊपर से 9वाँ होता।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mn-03",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Rahul walks 5 km towards the north, then turns right and walks 3 km, and then turns right again and walks 5 km. How far and in which direction is he from his starting point?", "hi": "राहुल उत्तर की ओर 5 km चलता है, फिर दाएँ मुड़कर 3 km चलता है और फिर दोबारा दाएँ मुड़कर 5 km चलता है। वह अपने आरंभिक बिंदु से कितनी दूरी पर और किस दिशा में है?" },
+      "optionsJson": [
+        { "en": "5 km, East", "hi": "5 km, पूर्व" },
+        { "en": "3 km, West", "hi": "3 km, पश्चिम" },
+        { "en": "8 km, East", "hi": "8 km, पूर्व" },
+        { "en": "3 km, East", "hi": "3 km, पूर्व" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "North 5 km, right turn gives East 3 km, another right turn gives South 5 km. The north and south legs cancel, leaving him 3 km East of the start.", "hi": "उत्तर में 5 km, दाएँ मुड़ने पर पूर्व में 3 km, फिर दाएँ मुड़ने पर दक्षिण में 5 km। उत्तर और दक्षिण की दूरियाँ कट जाती हैं, इसलिए वह आरंभ से 3 km पूर्व में है।" },
+      "distractorAnalysis": {
+        "0": { "en": "The north and south legs cancel; only the 3 km sideways walk remains.", "hi": "उत्तर और दक्षिण की दूरियाँ कट जाती हैं; केवल बगल की 3 km दूरी बचती है।" },
+        "1": { "en": "West would result from left turns; a right turn from north points East.", "hi": "पश्चिम बाएँ मुड़ने पर मिलता; उत्तर से दाएँ मुड़ने पर पूर्व दिशा आती है।" },
+        "2": { "en": "This adds 5 and 3, but the 5 km north and 5 km south walks cancel out.", "hi": "इसमें 5 और 3 जोड़ दिए गए, पर उत्तर और दक्षिण की 5-5 km दूरियाँ कट जाती हैं।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mn-04",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "In a code language, 'sun rises early' is written as 'ka mi ro', 'early bird sings' is written as 'ro de pu', and 'bird flies high' is written as 'de ta zo'. What is the code for 'bird'?", "hi": "एक कूट भाषा में 'सूरज निकलता सवेरे' को 'ka mi ro', 'सवेरे पक्षी गाता' को 'ro de pu' और 'पक्षी उड़ता ऊँचा' को 'de ta zo' लिखा जाता है। 'पक्षी' का कूट क्या है?" },
+      "optionsJson": [
+        { "en": "ro", "hi": "ro" },
+        { "en": "de", "hi": "de" },
+        { "en": "ka", "hi": "ka" },
+        { "en": "pu", "hi": "pu" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "The word 'bird' is common to the second and third statements, and the code common to both is 'de'. So 'bird' = de.", "hi": "'पक्षी' शब्द दूसरे और तीसरे कथन में समान है, और दोनों में समान कूट 'de' है। अतः 'पक्षी' = de।" },
+      "distractorAnalysis": {
+        "0": { "en": "'ro' is common to the first and second statements, so it stands for 'early'.", "hi": "'ro' पहले और दूसरे कथन में समान है, इसलिए यह 'सवेरे' का कूट है।" },
+        "2": { "en": "'ka' appears only in the first statement, so it cannot be the code for 'bird'.", "hi": "'ka' केवल पहले कथन में है, इसलिए यह 'पक्षी' का कूट नहीं हो सकता।" },
+        "3": { "en": "'pu' appears only in the second statement and stands for 'sings'.", "hi": "'pu' केवल दूसरे कथन में है और 'गाता' का कूट है।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mn-05",
+      "year": 2026,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Find the next term of the series: 1, 2, 6, 24, 120, ___?", "hi": "श्रेणी का अगला पद ज्ञात कीजिए: 1, 2, 6, 24, 120, ___?" },
+      "optionsJson": [
+        { "en": "600", "hi": "600" },
+        { "en": "480", "hi": "480" },
+        { "en": "720", "hi": "720" },
+        { "en": "840", "hi": "840" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The multipliers increase by 1 each time: ×2, ×3, ×4, ×5, and next ×6. So 120 × 6 = 720.", "hi": "गुणक हर बार 1 बढ़ता है: ×2, ×3, ×4, ×5 और अगला ×6। अतः 120 × 6 = 720।" },
+      "distractorAnalysis": {
+        "0": { "en": "This uses 120 × 5, but the next multiplier is 6.", "hi": "इसमें 120 × 5 लिया गया है, जबकि अगला गुणक 6 है।" },
+        "1": { "en": "This uses 120 × 4, repeating an earlier multiplier.", "hi": "इसमें 120 × 4 लिया गया है, जो पहले आ चुका गुणक है।" },
+        "3": { "en": "This is 120 × 7, skipping the multiplier 6.", "hi": "यह 120 × 7 है, जिसमें गुणक 6 छूट गया है।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mn-06",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Kavya is 13th from the top and 27th from the bottom in a class. How many students are there in the class?", "hi": "एक कक्षा में काव्या का स्थान ऊपर से 13वाँ और नीचे से 27वाँ है। कक्षा में कुल कितने विद्यार्थी हैं?" },
+      "optionsJson": [
+        { "en": "38", "hi": "38" },
+        { "en": "39", "hi": "39" },
+        { "en": "40", "hi": "40" },
+        { "en": "41", "hi": "41" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Total = rank from top + rank from bottom − 1 = 13 + 27 − 1 = 39.", "hi": "कुल = ऊपर से स्थान + नीचे से स्थान − 1 = 13 + 27 − 1 = 39।" },
+      "distractorAnalysis": {
+        "0": { "en": "This subtracts 2 instead of 1; Kavya is counted only once, so subtract just 1.", "hi": "इसमें 1 के बजाय 2 घटाया गया है; काव्या को एक ही बार गिनना है, इसलिए केवल 1 घटाएँ।" },
+        "2": { "en": "This simply adds 13 and 27 and counts Kavya twice.", "hi": "इसमें केवल 13 और 27 जोड़े गए हैं और काव्या को दो बार गिना गया है।" },
+        "3": { "en": "This adds an extra 1 instead of subtracting 1.", "hi": "इसमें 1 घटाने के बजाय 1 और जोड़ दिया गया है।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mn-07",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A person is facing North-West. He turns 90° anticlockwise and then another 135° anticlockwise. In which direction is he facing now?", "hi": "एक व्यक्ति उत्तर-पश्चिम की ओर मुँह करके खड़ा है। वह 90° वामावर्त (बाएँ) घूमता है और फिर 135° और वामावर्त घूमता है। अब उसका मुँह किस दिशा में है?" },
+      "optionsJson": [
+        { "en": "East", "hi": "पूर्व" },
+        { "en": "West", "hi": "पश्चिम" },
+        { "en": "South", "hi": "दक्षिण" },
+        { "en": "North-East", "hi": "उत्तर-पूर्व" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The total anticlockwise turn is 90° + 135° = 225°. From North-West, 90° anticlockwise gives South-West, and a further 135° anticlockwise (SW → S → SE → E) gives East.", "hi": "कुल वामावर्त घुमाव 90° + 135° = 225° है। उत्तर-पश्चिम से 90° वामावर्त घूमने पर दक्षिण-पश्चिम मिलता है, और 135° और घूमने पर (द. पश्चिम → दक्षिण → द. पूर्व → पूर्व) पूर्व दिशा मिलती है।" },
+      "distractorAnalysis": {
+        "1": { "en": "West is only a 45° anticlockwise turn from North-West; the total turn is 225°.", "hi": "पश्चिम, उत्तर-पश्चिम से केवल 45° वामावर्त घुमाव पर है; कुल घुमाव 225° है।" },
+        "2": { "en": "South would need a total anticlockwise turn of only 135°, which is the second turn alone.", "hi": "दक्षिण के लिए कुल वामावर्त घुमाव केवल 135° चाहिए, जो अकेला दूसरा घुमाव है।" },
+        "3": { "en": "North-East would need a 270° anticlockwise turn, more than the 225° made.", "hi": "उत्तर-पूर्व के लिए 270° वामावर्त घुमाव चाहिए, जबकि कुल घुमाव 225° है।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mn-08",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "In a certain code language, CLOUD is written as XOLFW. How will RIVER be written in that code?", "hi": "एक निश्चित कूट भाषा में CLOUD को XOLFW लिखा जाता है। उसी कूट में RIVER को कैसे लिखा जाएगा?" },
+      "optionsJson": [
+        { "en": "IRVEI", "hi": "IRVEI" },
+        { "en": "JSFWJ", "hi": "JSFWJ" },
+        { "en": "HQDUH", "hi": "HQDUH" },
+        { "en": "IREVI", "hi": "IREVI" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Each letter is replaced by its mirror letter counted from the other end of the alphabet (A↔Z, B↔Y, C↔X, ...), so the two positions add up to 27: C(3)→X(24), L(12)→O(15), O→L, U→F, D→W. Hence R→I, I→R, V→E, E→V, R→I, giving IREVI.", "hi": "प्रत्येक अक्षर को वर्णमाला के दूसरे सिरे से गिने गए उसके दर्पण-अक्षर से बदला गया है (A↔Z, B↔Y, C↔X, ...), यानी दोनों स्थानों का योग 27 है: C(3)→X(24), L(12)→O(15), O→L, U→F, D→W। अतः R→I, I→R, V→E, E→V, R→I, जिससे IREVI बनता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "This swaps the codes of V and E; V (22) becomes E (5) and E becomes V.", "hi": "इसमें V और E के कूट आपस में बदल गए हैं; V (22) का कूट E (5) और E का कूट V होना चाहिए।" },
+        "1": { "en": "This is the correct code shifted one step forward, so it does not follow the mirror rule.", "hi": "यह सही कूट को एक स्थान आगे खिसकाने पर बनता है, इसलिए दर्पण-अक्षर नियम का पालन नहीं करता।" },
+        "2": { "en": "This is the correct code shifted one step backward, so it does not follow the mirror rule.", "hi": "यह सही कूट को एक स्थान पीछे खिसकाने पर बनता है, इसलिए दर्पण-अक्षर नियम का पालन नहीं करता।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mn-09",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A man named Vivek, pointing to a girl, said, 'She is the daughter of my mother's only son.' How is the girl related to Vivek?", "hi": "विवेक नामक एक पुरुष ने एक लड़की की ओर इशारा करके कहा, 'वह मेरी माँ के इकलौते पुत्र की पुत्री है।' वह लड़की विवेक की क्या लगती है?" },
+      "optionsJson": [
+        { "en": "Sister", "hi": "बहन" },
+        { "en": "Daughter", "hi": "पुत्री" },
+        { "en": "Niece", "hi": "भतीजी" },
+        { "en": "Cousin", "hi": "चचेरी बहन" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Vivek is a man and a son of his mother. Since she has only one son, 'my mother's only son' is Vivek himself. So the girl is Vivek's daughter.", "hi": "विवेक एक पुरुष है और अपनी माँ का पुत्र है। चूँकि माँ का एक ही पुत्र है, इसलिए 'मेरी माँ का इकलौता पुत्र' स्वयं विवेक है। अतः लड़की विवेक की पुत्री है।" },
+      "distractorAnalysis": {
+        "0": { "en": "A sister would be the daughter of Vivek's mother, not of her only son.", "hi": "बहन विवेक की माँ की पुत्री होती, माँ के इकलौते पुत्र की नहीं।" },
+        "2": { "en": "A niece would be a child of Vivek's sibling, but the only son of his mother is Vivek himself.", "hi": "भतीजी विवेक के भाई-बहन की संतान होती, पर माँ का इकलौता पुत्र स्वयं विवेक है।" },
+        "3": { "en": "A cousin would be a child of his uncle or aunt, which does not fit the statement.", "hi": "चचेरी बहन उसके चाचा-बुआ की संतान होती, जो कथन से मेल नहीं खाता।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mn-10",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "In a row of 45 students, Ritu is 18th from the left end and Seema is 14th from the right end. How many students are standing between Ritu and Seema?", "hi": "45 विद्यार्थियों की एक पंक्ति में ऋतु बाएँ सिरे से 18वीं और सीमा दाएँ सिरे से 14वीं है। ऋतु और सीमा के बीच कितने विद्यार्थी खड़े हैं?" },
+      "optionsJson": [
+        { "en": "12", "hi": "12" },
+        { "en": "14", "hi": "14" },
+        { "en": "13", "hi": "13" },
+        { "en": "15", "hi": "15" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Counting from the left, Ritu is at 18 and Seema is at 45 − 14 + 1 = 32. Students between them = 32 − 18 − 1 = 13. (Check: 18 + 14 = 32 students are counted up to the two girls, and 45 − 32 = 13.)", "hi": "बाएँ से गिनने पर ऋतु 18वें स्थान पर और सीमा 45 − 14 + 1 = 32वें स्थान पर है। उनके बीच विद्यार्थी = 32 − 18 − 1 = 13। (जाँच: 18 + 14 = 32 विद्यार्थी दोनों लड़कियों तक गिने गए, और 45 − 32 = 13।)" },
+      "distractorAnalysis": {
+        "0": { "en": "This subtracts one student too many.", "hi": "इसमें एक विद्यार्थी अधिक घटा दिया गया है।" },
+        "1": { "en": "This counts Seema herself among the students between them (32 − 18).", "hi": "इसमें सीमा को भी बीच के विद्यार्थियों में गिन लिया गया है (32 − 18)।" },
+        "3": { "en": "This does not match 45 − (18 + 14) = 13.", "hi": "यह 45 − (18 + 14) = 13 से मेल नहीं खाता।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mn-11",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "In a certain code, '+' means '×', '−' means '÷', '×' means '−' and '÷' means '+'. What is the value of 12 + 3 − 4 × 5 ÷ 2 ?", "hi": "एक निश्चित कूट में '+' का अर्थ '×', '−' का अर्थ '÷', '×' का अर्थ '−' और '÷' का अर्थ '+' है। 12 + 3 − 4 × 5 ÷ 2 का मान क्या है?" },
+      "optionsJson": [
+        { "en": "6", "hi": "6" },
+        { "en": "4", "hi": "4" },
+        { "en": "12", "hi": "12" },
+        { "en": "36", "hi": "36" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Replace the symbols with their real meanings: 12 × 3 ÷ 4 − 5 + 2. Then 12 × 3 = 36, 36 ÷ 4 = 9, 9 − 5 = 4, 4 + 2 = 6.", "hi": "चिह्नों को उनके वास्तविक अर्थों से बदलने पर: 12 × 3 ÷ 4 − 5 + 2। तब 12 × 3 = 36, 36 ÷ 4 = 9, 9 − 5 = 4, 4 + 2 = 6।" },
+      "distractorAnalysis": {
+        "1": { "en": "This stops before adding the final 2 (12 × 3 ÷ 4 − 5 = 4).", "hi": "इसमें अंतिम 2 जोड़ना छूट गया है (12 × 3 ÷ 4 − 5 = 4)।" },
+        "2": { "en": "This results from reversing the last two signs: 9 + 5 − 2 = 12.", "hi": "यह अंतिम दो चिह्न उलटने से आता है: 9 + 5 − 2 = 12।" },
+        "3": { "en": "This stops after 12 × 3 and ignores the remaining operations.", "hi": "इसमें 12 × 3 के बाद की शेष संक्रियाएँ छोड़ दी गई हैं।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mn-12",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "One morning, just after sunrise, Ankit and Bhavna stood facing each other in a field. Ankit's shadow fell exactly to the right of Bhavna. Which direction was Ankit facing?", "hi": "एक सुबह, सूर्योदय के तुरंत बाद, अंकित और भावना एक खेत में आमने-सामने खड़े थे। अंकित की परछाईं ठीक भावना के दाईं ओर पड़ रही थी। अंकित का मुँह किस दिशा में था?" },
+      "optionsJson": [
+        { "en": "East", "hi": "पूर्व" },
+        { "en": "South", "hi": "दक्षिण" },
+        { "en": "West", "hi": "पश्चिम" },
+        { "en": "North", "hi": "उत्तर" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "After sunrise the sun is in the East, so shadows fall towards the West. The shadow is to Bhavna's right, so her right hand points West, which means she faces South. Ankit faces her, so he faces North.", "hi": "सूर्योदय के बाद सूर्य पूर्व में होता है, इसलिए परछाइयाँ पश्चिम की ओर पड़ती हैं। परछाईं भावना के दाईं ओर है, अतः उसका दायाँ हाथ पश्चिम की ओर है, यानी उसका मुँह दक्षिण की ओर है। अंकित उसके सामने है, इसलिए अंकित का मुँह उत्तर की ओर है।" },
+      "distractorAnalysis": {
+        "0": { "en": "If Ankit faced East, Bhavna would face West and her right would be North, but the shadow falls West.", "hi": "यदि अंकित पूर्व की ओर होता तो भावना पश्चिम की ओर होती और उसका दायाँ उत्तर होता, जबकि परछाईं पश्चिम में पड़ती है।" },
+        "1": { "en": "If Ankit faced South, Bhavna would face North and her right would be East, but the shadow falls West.", "hi": "यदि अंकित दक्षिण की ओर होता तो भावना उत्तर की ओर होती और उसका दायाँ पूर्व होता, जबकि परछाईं पश्चिम में पड़ती है।" },
+        "2": { "en": "If Ankit faced West, Bhavna would face East and her right would be South, but the shadow falls West.", "hi": "यदि अंकित पश्चिम की ओर होता तो भावना पूर्व की ओर होती और उसका दायाँ दक्षिण होता, जबकि परछाईं पश्चिम में पड़ती है।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mn-13",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Find the odd one out: Mercury, Venus, Moon, Mars", "hi": "असंगत चुनिए: बुध, शुक्र, चंद्रमा, मंगल" },
+      "optionsJson": [
+        { "en": "Mercury", "hi": "बुध" },
+        { "en": "Venus", "hi": "शुक्र" },
+        { "en": "Moon", "hi": "चंद्रमा" },
+        { "en": "Mars", "hi": "मंगल" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Mercury, Venus and Mars are planets that orbit the Sun, whereas the Moon is a natural satellite of the Earth.", "hi": "बुध, शुक्र और मंगल सूर्य की परिक्रमा करने वाले ग्रह हैं, जबकि चंद्रमा पृथ्वी का प्राकृतिक उपग्रह है।" },
+      "distractorAnalysis": {
+        "0": { "en": "A planet of the Solar System, like Venus and Mars.", "hi": "सौरमंडल का एक ग्रह, शुक्र और मंगल की तरह।" },
+        "1": { "en": "A planet of the Solar System, like Mercury and Mars.", "hi": "सौरमंडल का एक ग्रह, बुध और मंगल की तरह।" },
+        "3": { "en": "A planet of the Solar System, like Mercury and Venus.", "hi": "सौरमंडल का एक ग्रह, बुध और शुक्र की तरह।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mn-14",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Among five friends A, B, C, D and E: A is taller than B but shorter than C. D is taller than C. E is shorter than B. Who is the third tallest?", "hi": "पाँच मित्रों A, B, C, D और E में: A, B से लंबा है पर C से छोटा है। D, C से लंबा है। E, B से छोटा है। तीसरा सबसे लंबा कौन है?" },
+      "optionsJson": [
+        { "en": "C", "hi": "C" },
+        { "en": "A", "hi": "A" },
+        { "en": "B", "hi": "B" },
+        { "en": "D", "hi": "D" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "From the statements: D > C > A > B > E. So the third tallest is A.", "hi": "कथनों से: D > C > A > B > E। अतः तीसरा सबसे लंबा A है।" },
+      "distractorAnalysis": {
+        "0": { "en": "C is the second tallest, not the third.", "hi": "C दूसरा सबसे लंबा है, तीसरा नहीं।" },
+        "2": { "en": "B is the fourth tallest.", "hi": "B चौथा सबसे लंबा है।" },
+        "3": { "en": "D is the tallest of all five.", "hi": "D पाँचों में सबसे लंबा है।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mn-15",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "In a certain code language, DELHI is written as EGOLN. How will AGRA be written in that code?", "hi": "एक निश्चित कूट भाषा में DELHI को EGOLN लिखा जाता है। उसी कूट में AGRA को कैसे लिखा जाएगा?" },
+      "optionsJson": [
+        { "en": "BIUE", "hi": "BIUE" },
+        { "en": "CIUE", "hi": "CIUE" },
+        { "en": "BHUE", "hi": "BHUE" },
+        { "en": "BIUD", "hi": "BIUD" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The letters of DELHI move forward by 1, 2, 3, 4, 5 places respectively (D→E, E→G, L→O, H→L, I→N). For AGRA: A+1 = B, G+2 = I, R+3 = U, A+4 = E, giving BIUE.", "hi": "DELHI के अक्षर क्रमशः 1, 2, 3, 4, 5 स्थान आगे बढ़ते हैं (D→E, E→G, L→O, H→L, I→N)। AGRA के लिए: A+1 = B, G+2 = I, R+3 = U, A+4 = E, जिससे BIUE बनता है।" },
+      "distractorAnalysis": {
+        "1": { "en": "The first letter moves only 1 place (A→B), not 2.", "hi": "पहला अक्षर केवल 1 स्थान आगे बढ़ता है (A→B), 2 नहीं।" },
+        "2": { "en": "The second letter moves 2 places (G→I), not 1.", "hi": "दूसरा अक्षर 2 स्थान आगे बढ़ता है (G→I), 1 नहीं।" },
+        "3": { "en": "The fourth letter moves 4 places (A→E), not 3.", "hi": "चौथा अक्षर 4 स्थान आगे बढ़ता है (A→E), 3 नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mn-16",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": { "en": "A man starts from a point and walks 14 m towards the north. He then turns right and walks 9 m, and turns right again and walks 26 m. How far is he from the starting point, and in which direction?", "hi": "एक व्यक्ति एक बिंदु से चलकर उत्तर की ओर 14 m जाता है। फिर दाएँ मुड़कर 9 m चलता है और फिर दाएँ मुड़कर 26 m चलता है। वह आरंभिक बिंदु से कितनी दूर और किस दिशा में है?" },
+      "optionsJson": [
+        { "en": "15 m, South-West", "hi": "15 m, दक्षिण-पश्चिम" },
+        { "en": "12 m, South-East", "hi": "12 m, दक्षिण-पूर्व" },
+        { "en": "21 m, South-East", "hi": "21 m, दक्षिण-पूर्व" },
+        { "en": "15 m, South-East", "hi": "15 m, दक्षिण-पूर्व" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "He goes 14 m North, then 9 m East, then 26 m South. Net displacement: 9 m East and 26 − 14 = 12 m South. Distance = √(9² + 12²) = √225 = 15 m, in the South-East direction.", "hi": "वह 14 m उत्तर, फिर 9 m पूर्व, फिर 26 m दक्षिण चलता है। कुल विस्थापन: 9 m पूर्व और 26 − 14 = 12 m दक्षिण। दूरी = √(9² + 12²) = √225 = 15 m, दिशा दक्षिण-पूर्व।" },
+      "distractorAnalysis": {
+        "0": { "en": "The 9 m walk is towards the East (right turn from North), so he is South-East, not South-West.", "hi": "9 m की चाल पूर्व की ओर है (उत्तर से दाएँ मुड़ने पर), इसलिए वह दक्षिण-पूर्व में है, दक्षिण-पश्चिम में नहीं।" },
+        "1": { "en": "12 m is only the southward displacement; the 9 m eastward displacement must also be included.", "hi": "12 m केवल दक्षिण की ओर का विस्थापन है; पूर्व की ओर का 9 m विस्थापन भी शामिल करना होगा।" },
+        "2": { "en": "21 m adds 9 and 12 directly instead of using the Pythagorean theorem.", "hi": "21 m में 9 और 12 को सीधे जोड़ दिया गया है, पाइथागोरस प्रमेय का उपयोग नहीं किया गया।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mn-17",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "What is the angle between the hour hand and the minute hand of a clock at 3:30?", "hi": "घड़ी में 3:30 बजे घंटे की सुई और मिनट की सुई के बीच कितना कोण होता है?" },
+      "optionsJson": [
+        { "en": "60°", "hi": "60°" },
+        { "en": "75°", "hi": "75°" },
+        { "en": "90°", "hi": "90°" },
+        { "en": "105°", "hi": "105°" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "At 3:30 the hour hand is at 3.5 × 30° = 105° from 12, and the minute hand is at 30 × 6° = 180°. The angle between them is 180° − 105° = 75°.", "hi": "3:30 बजे घंटे की सुई 12 से 3.5 × 30° = 105° पर और मिनट की सुई 30 × 6° = 180° पर होती है। दोनों के बीच कोण 180° − 105° = 75° है।" },
+      "distractorAnalysis": {
+        "0": { "en": "This does not match the positions 105° (hour hand) and 180° (minute hand).", "hi": "यह घंटे की सुई (105°) और मिनट की सुई (180°) की स्थितियों से मेल नहीं खाता।" },
+        "2": { "en": "This assumes the hour hand stays exactly at 3 (90°); it actually moves halfway towards 4.", "hi": "इसमें माना गया है कि घंटे की सुई ठीक 3 (90°) पर रहती है; वास्तव में वह 3 और 4 के बीच आधी दूरी पर पहुँच चुकी होती है।" },
+        "3": { "en": "105° is the position of the hour hand from 12, not the angle between the two hands.", "hi": "105° घंटे की सुई की 12 से स्थिति है, दोनों सुइयों के बीच का कोण नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mn-18",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Anil is ranked 9th from the top in a class. Sunil is 6 ranks below Anil and is 17th from the bottom. How many students are there in the class?", "hi": "एक कक्षा में अनिल का स्थान ऊपर से 9वाँ है। सुनील का स्थान अनिल से 6 स्थान नीचे है और वह नीचे से 17वाँ है। कक्षा में कुल कितने विद्यार्थी हैं?" },
+      "optionsJson": [
+        { "en": "31", "hi": "31" },
+        { "en": "30", "hi": "30" },
+        { "en": "32", "hi": "32" },
+        { "en": "33", "hi": "33" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Sunil's rank from the top = 9 + 6 = 15. Total = 15 + 17 − 1 = 31.", "hi": "सुनील का ऊपर से स्थान = 9 + 6 = 15। कुल = 15 + 17 − 1 = 31।" },
+      "distractorAnalysis": {
+        "1": { "en": "This subtracts 2 instead of 1 from 15 + 17.", "hi": "इसमें 15 + 17 में से 1 के बजाय 2 घटाया गया है।" },
+        "2": { "en": "This is 15 + 17 with nothing subtracted, so Sunil is counted twice.", "hi": "यह 15 + 17 है जिसमें कुछ घटाया नहीं गया, इसलिए सुनील को दो बार गिना गया है।" },
+        "3": { "en": "This does not follow from 15 + 17 − 1.", "hi": "यह 15 + 17 − 1 से प्राप्त नहीं होता।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mn-19",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": { "en": "In a certain code, 'P + Q' means P is the father of Q, 'P − Q' means P is the sister of Q, and 'P × Q' means P is the brother of Q. If 'A × B + C − D' is true, how is A related to D?", "hi": "एक निश्चित कूट में 'P + Q' का अर्थ है P, Q का पिता है, 'P − Q' का अर्थ है P, Q की बहन है और 'P × Q' का अर्थ है P, Q का भाई है। यदि 'A × B + C − D' सत्य है, तो A का D से क्या संबंध है?" },
+      "optionsJson": [
+        { "en": "Maternal uncle", "hi": "मामा" },
+        { "en": "Father", "hi": "पिता" },
+        { "en": "Paternal uncle", "hi": "चाचा/ताऊ" },
+        { "en": "Brother", "hi": "भाई" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "A × B: A is the brother of B. B + C: B is the father of C. C − D: C is the sister of D, so D is also a child of B. Therefore A, being B's brother, is the paternal uncle of D.", "hi": "A × B: A, B का भाई है। B + C: B, C का पिता है। C − D: C, D की बहन है, अतः D भी B की संतान है। इसलिए A, B का भाई होने के कारण D का चाचा है।" },
+      "distractorAnalysis": {
+        "0": { "en": "A is the brother of D's father, so he is on the father's side, not the mother's.", "hi": "A, D के पिता का भाई है, इसलिए वह पिता के पक्ष का है, माता के पक्ष का नहीं।" },
+        "1": { "en": "B is D's father; A is only B's brother.", "hi": "B, D का पिता है; A केवल B का भाई है।" },
+        "3": { "en": "A is the brother of B (D's father), not of D.", "hi": "A, B (D के पिता) का भाई है, D का नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mn-20",
+      "year": 2026,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Find the missing term of the series: 2, 3, 4, 6, 8, 12, 16, ___?", "hi": "श्रेणी का लुप्त पद ज्ञात कीजिए: 2, 3, 4, 6, 8, 12, 16, ___?" },
+      "optionsJson": [
+        { "en": "20", "hi": "20" },
+        { "en": "22", "hi": "22" },
+        { "en": "32", "hi": "32" },
+        { "en": "24", "hi": "24" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "The series is two interleaved series. Terms at odd places: 2, 4, 8, 16 (each doubled). Terms at even places: 3, 6, 12, and next 12 × 2 = 24.", "hi": "यह दो आपस में गुँथी श्रेणियाँ हैं। विषम स्थानों के पद: 2, 4, 8, 16 (प्रत्येक दोगुना)। सम स्थानों के पद: 3, 6, 12 और अगला 12 × 2 = 24।" },
+      "distractorAnalysis": {
+        "0": { "en": "20 does not fit the doubling pattern of the even-place series 3, 6, 12.", "hi": "20, सम स्थानों की श्रेणी 3, 6, 12 के दोगुने होने वाले क्रम में नहीं बैठता।" },
+        "1": { "en": "22 does not fit the doubling pattern of the even-place series 3, 6, 12.", "hi": "22, सम स्थानों की श्रेणी 3, 6, 12 के दोगुने होने वाले क्रम में नहीं बैठता।" },
+        "2": { "en": "32 doubles the previous term 16, but the missing place belongs to the other series (3, 6, 12, ...).", "hi": "32 पिछले पद 16 को दोगुना करने से आता है, पर यह स्थान दूसरी श्रेणी (3, 6, 12, ...) का है।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mn-21",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Facing the rising sun, Kiran turns left, then turns right, and then turns right again. In which direction is he facing now?", "hi": "उगते सूरज की ओर मुँह करके खड़ा किरण बाएँ मुड़ता है, फिर दाएँ मुड़ता है और फिर दोबारा दाएँ मुड़ता है। अब उसका मुँह किस दिशा में है?" },
+      "optionsJson": [
+        { "en": "South", "hi": "दक्षिण" },
+        { "en": "North", "hi": "उत्तर" },
+        { "en": "East", "hi": "पूर्व" },
+        { "en": "West", "hi": "पश्चिम" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The rising sun is in the East, so he starts facing East. Left turn gives North, right turn gives East, another right turn gives South.", "hi": "उगता सूरज पूर्व में होता है, अतः वह पहले पूर्व की ओर देख रहा है। बाएँ मुड़ने पर उत्तर, दाएँ मुड़ने पर पूर्व और फिर दाएँ मुड़ने पर दक्षिण दिशा आती है।" },
+      "distractorAnalysis": {
+        "1": { "en": "North is his direction after the first turn only; two more right turns follow.", "hi": "उत्तर केवल पहले मोड़ के बाद की दिशा है; इसके बाद दो बार दाएँ मुड़ना बाकी है।" },
+        "2": { "en": "East is his direction after the first two turns; one more right turn follows.", "hi": "पूर्व पहले दो मोड़ों के बाद की दिशा है; इसके बाद एक और बार दाएँ मुड़ना बाकी है।" },
+        "3": { "en": "West is opposite to his starting direction; the three turns give a net turn of 90° to the right.", "hi": "पश्चिम उसकी आरंभिक दिशा के विपरीत है; तीनों मोड़ मिलाकर कुल 90° दाईं ओर का घुमाव होता है।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mn-22",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Pen is to Write as Knife is to ___?", "hi": "कलम : लिखना :: चाकू : ___?" },
+      "optionsJson": [
+        { "en": "Sharp", "hi": "तेज़" },
+        { "en": "Kitchen", "hi": "रसोई" },
+        { "en": "Cut", "hi": "काटना" },
+        { "en": "Steel", "hi": "इस्पात" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "A pen is used to write; in the same way, a knife is used to cut.", "hi": "कलम का उपयोग लिखने के लिए होता है; उसी प्रकार चाकू का उपयोग काटने के लिए होता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Sharp describes a quality of a knife, not its function.", "hi": "तेज़ चाकू का गुण बताता है, उसका कार्य नहीं।" },
+        "1": { "en": "Kitchen is a place where a knife may be used, not its function.", "hi": "रसोई वह स्थान है जहाँ चाकू का उपयोग हो सकता है, उसका कार्य नहीं।" },
+        "3": { "en": "Steel is a material of a knife, not its function.", "hi": "इस्पात चाकू का पदार्थ है, उसका कार्य नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mn-23",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "If 15 August of a certain year falls on a Friday, on which day of the week will 15 September of the same year fall?", "hi": "यदि किसी वर्ष 15 अगस्त शुक्रवार को पड़ता है, तो उसी वर्ष 15 सितंबर सप्ताह के किस दिन पड़ेगा?" },
+      "optionsJson": [
+        { "en": "Sunday", "hi": "रविवार" },
+        { "en": "Monday", "hi": "सोमवार" },
+        { "en": "Tuesday", "hi": "मंगलवार" },
+        { "en": "Saturday", "hi": "शनिवार" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "August has 31 days, so 15 September is 31 days after 15 August. 31 = 4 weeks + 3 days, so the day moves 3 days ahead from Friday: Saturday, Sunday, Monday.", "hi": "अगस्त में 31 दिन होते हैं, इसलिए 15 सितंबर, 15 अगस्त के 31 दिन बाद है। 31 = 4 सप्ताह + 3 दिन, अतः शुक्रवार से 3 दिन आगे: शनिवार, रविवार, सोमवार।" },
+      "distractorAnalysis": {
+        "0": { "en": "Sunday is only 2 days after Friday; 3 odd days are needed.", "hi": "रविवार शुक्रवार से केवल 2 दिन बाद है; 3 अतिरिक्त दिन चाहिए।" },
+        "2": { "en": "Tuesday is 4 days after Friday; only 3 odd days are needed.", "hi": "मंगलवार शुक्रवार से 4 दिन बाद है; केवल 3 अतिरिक्त दिन चाहिए।" },
+        "3": { "en": "Saturday is just 1 day after Friday.", "hi": "शनिवार शुक्रवार से केवल 1 दिन बाद है।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mn-24",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": { "en": "If the letters of the word CHAMPION are arranged in alphabetical order, how many letters remain in their original positions?", "hi": "यदि शब्द CHAMPION के अक्षरों को अंग्रेज़ी वर्णमाला के क्रम में व्यवस्थित किया जाए, तो कितने अक्षर अपने मूल स्थान पर रहेंगे?" },
+      "optionsJson": [
+        { "en": "0", "hi": "0" },
+        { "en": "2", "hi": "2" },
+        { "en": "3", "hi": "3" },
+        { "en": "1", "hi": "1" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Original: C H A M P I O N. Alphabetical order: A C H I M N O P. Comparing place by place: C/A, H/C, A/H, M/I, P/M, I/N differ, O/O is the same, N/P differs. Only one letter (O) is in its original position.", "hi": "मूल क्रम: C H A M P I O N। वर्णमाला क्रम: A C H I M N O P। स्थान-दर-स्थान तुलना: C/A, H/C, A/H, M/I, P/M, I/N भिन्न हैं, O/O समान है, N/P भिन्न है। केवल एक अक्षर (O) अपने मूल स्थान पर है।" },
+      "distractorAnalysis": {
+        "0": { "en": "The 7th letter O stays at the 7th place, so the answer is not zero.", "hi": "7वाँ अक्षर O 7वें स्थान पर ही रहता है, इसलिए उत्तर शून्य नहीं है।" },
+        "1": { "en": "Only the letter O is unchanged; no second letter matches its place.", "hi": "केवल अक्षर O अपरिवर्तित रहता है; कोई दूसरा अक्षर अपने स्थान पर नहीं मिलता।" },
+        "2": { "en": "Only the letter O is unchanged; three matches are not found.", "hi": "केवल अक्षर O अपरिवर्तित रहता है; तीन अक्षर अपने स्थान पर नहीं मिलते।" }
+      }
+    },
+    {
+      "key": "rms9-p4-mn-25",
+      "year": 2026,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Find the next letter of the series: C, D, F, I, M, ___?", "hi": "श्रेणी का अगला अक्षर ज्ञात कीजिए: C, D, F, I, M, ___?" },
+      "optionsJson": [
+        { "en": "R", "hi": "R" },
+        { "en": "Q", "hi": "Q" },
+        { "en": "S", "hi": "S" },
+        { "en": "T", "hi": "T" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "The letters move forward by 1, 2, 3, 4 places: C(3), D(4), F(6), I(9), M(13). The next step is +5, so 13 + 5 = 18, which is R.", "hi": "अक्षर क्रमशः 1, 2, 3, 4 स्थान आगे बढ़ते हैं: C(3), D(4), F(6), I(9), M(13)। अगला कदम +5 है, अतः 13 + 5 = 18, जो R है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Q (17) would be a step of +4, repeating the previous step.", "hi": "Q (17) का अर्थ +4 का कदम होता, जो पिछले कदम की पुनरावृत्ति है।" },
+        "2": { "en": "S (19) would be a step of +6, skipping +5.", "hi": "S (19) का अर्थ +6 का कदम होता, जिसमें +5 छूट गया है।" },
+        "3": { "en": "T (20) would be a step of +7, which is too large.", "hi": "T (20) का अर्थ +7 का कदम होता, जो बहुत बड़ा है।" }
+      }
+    }
+  ]
+}

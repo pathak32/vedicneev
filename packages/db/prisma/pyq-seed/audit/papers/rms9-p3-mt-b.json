@@ -1,0 +1,484 @@
+{
+  "examType": "RMS",
+  "classLevel": 9,
+  "paperNumber": 3,
+  "sectionKey": "mathematics",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "rms9-p3-mt-26",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Solve for x: 5x − 7 = 3x + 9", "hi": "x के लिए हल करें: 5x − 7 = 3x + 9" },
+      "optionsJson": [
+        { "en": "6", "hi": "6" },
+        { "en": "8", "hi": "8" },
+        { "en": "9", "hi": "9" },
+        { "en": "16", "hi": "16" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Move x-terms to the left and numbers to the right: 5x − 3x = 9 + 7, so 2x = 16 and x = 8.", "hi": "x वाले पदों को बाएँ और संख्याओं को दाएँ ले जाएँ: 5x − 3x = 9 + 7, अतः 2x = 16 और x = 8।" },
+      "distractorAnalysis": {
+        "0": { "en": "Arithmetic slip while collecting terms (gets 2x = 12 instead of 2x = 16).", "hi": "पदों को इकट्ठा करने में गणना की भूल (2x = 16 के बजाय 2x = 12 आया)।" },
+        "2": { "en": "Takes the constant 9 on the right as the answer without balancing the equation.", "hi": "समीकरण को संतुलित किए बिना दाएँ पक्ष के अचर 9 को ही उत्तर मान लिया।" },
+        "3": { "en": "Stops at 2x = 16 and forgets to divide by 2.", "hi": "2x = 16 पर रुक गया और 2 से भाग देना भूल गया।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-27",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "If p(x) = x² − 3x + 2, find the value of p(−2).", "hi": "यदि p(x) = x² − 3x + 2 है, तो p(−2) का मान ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "0", "hi": "0" },
+        { "en": "−8", "hi": "−8" },
+        { "en": "4", "hi": "4" },
+        { "en": "12", "hi": "12" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "p(−2) = (−2)² − 3(−2) + 2 = 4 + 6 + 2 = 12.", "hi": "p(−2) = (−2)² − 3(−2) + 2 = 4 + 6 + 2 = 12।" },
+      "distractorAnalysis": {
+        "0": { "en": "Sign error: treats −3x as −6 instead of +6 at x = −2.", "hi": "चिह्न की भूल: x = −2 पर −3x को +6 के बजाय −6 लिया।" },
+        "1": { "en": "Treats (−2)² as −4 and −3x as −6.", "hi": "(−2)² को −4 तथा −3x को −6 लिया।" },
+        "2": { "en": "Treats (−2)² as −4 but takes −3x = +6 correctly.", "hi": "(−2)² को −4 लिया, पर −3x = +6 सही लिया।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-28",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Expand: (2x + 3y)²", "hi": "विस्तार करें: (2x + 3y)²" },
+      "optionsJson": [
+        { "en": "4x² + 12xy + 9y²", "hi": "4x² + 12xy + 9y²" },
+        { "en": "4x² + 6xy + 9y²", "hi": "4x² + 6xy + 9y²" },
+        { "en": "2x² + 12xy + 3y²", "hi": "2x² + 12xy + 3y²" },
+        { "en": "4x² + 9y²", "hi": "4x² + 9y²" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "(a + b)² = a² + 2ab + b² with a = 2x and b = 3y: (2x)² + 2(2x)(3y) + (3y)² = 4x² + 12xy + 9y².", "hi": "(a + b)² = a² + 2ab + b² में a = 2x और b = 3y रखने पर: (2x)² + 2(2x)(3y) + (3y)² = 4x² + 12xy + 9y²।" },
+      "distractorAnalysis": {
+        "1": { "en": "Uses ab instead of 2ab for the middle term.", "hi": "मध्य पद के लिए 2ab के बजाय ab लिया।" },
+        "2": { "en": "Does not square the coefficients 2 and 3.", "hi": "गुणांकों 2 और 3 का वर्ग नहीं किया।" },
+        "3": { "en": "Omits the middle term by treating (a + b)² as a² + b².", "hi": "(a + b)² को a² + b² मानकर मध्य पद छोड़ दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-29",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Factorise: x² − 5x − 24", "hi": "गुणनखंड करें: x² − 5x − 24" },
+      "optionsJson": [
+        { "en": "(x − 6)(x + 4)", "hi": "(x − 6)(x + 4)" },
+        { "en": "(x + 8)(x − 3)", "hi": "(x + 8)(x − 3)" },
+        { "en": "(x − 8)(x + 3)", "hi": "(x − 8)(x + 3)" },
+        { "en": "(x − 12)(x + 2)", "hi": "(x − 12)(x + 2)" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "We need two numbers with product −24 and sum −5. These are −8 and 3, so x² − 5x − 24 = (x − 8)(x + 3).", "hi": "हमें ऐसी दो संख्याएँ चाहिए जिनका गुणनफल −24 और योग −5 हो। ये −8 और 3 हैं, अतः x² − 5x − 24 = (x − 8)(x + 3)।" },
+      "distractorAnalysis": {
+        "0": { "en": "The product is −24 but the middle term works out to −2x, not −5x.", "hi": "गुणनफल −24 है, पर मध्य पद −5x के बजाय −2x आता है।" },
+        "1": { "en": "Swaps the signs of the two numbers, giving +5x as the middle term.", "hi": "दोनों संख्याओं के चिह्न बदल दिए, जिससे मध्य पद +5x आता है।" },
+        "3": { "en": "The product is −24 but the middle term works out to −10x, not −5x.", "hi": "गुणनफल −24 है, पर मध्य पद −5x के बजाय −10x आता है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-30",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "If x + y = 9 and xy = 20, find the value of x² + y².", "hi": "यदि x + y = 9 और xy = 20 है, तो x² + y² का मान ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "21", "hi": "21" },
+        { "en": "41", "hi": "41" },
+        { "en": "61", "hi": "61" },
+        { "en": "101", "hi": "101" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "x² + y² = (x + y)² − 2xy = 81 − 40 = 41.", "hi": "x² + y² = (x + y)² − 2xy = 81 − 40 = 41।" },
+      "distractorAnalysis": {
+        "0": { "en": "Subtracts 3xy instead of 2xy: 81 − 60.", "hi": "2xy के बजाय 3xy घटाया: 81 − 60।" },
+        "2": { "en": "Forgets the factor 2 and subtracts only xy: 81 − 20.", "hi": "गुणक 2 भूल गया और केवल xy घटाया: 81 − 20।" },
+        "3": { "en": "Adds instead of subtracting: 81 + 20.", "hi": "घटाने के बजाय जोड़ दिया: 81 + 20।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-31",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Ramesh is three times as old as his son Arun. After 8 years, Ramesh will be twice as old as Arun. What is Ramesh's present age?", "hi": "रमेश की आयु उसके पुत्र अरुण की आयु की तीन गुनी है। 8 वर्ष बाद रमेश की आयु अरुण की आयु की दोगुनी हो जाएगी। रमेश की वर्तमान आयु क्या है?" },
+      "optionsJson": [
+        { "en": "8 years", "hi": "8 वर्ष" },
+        { "en": "16 years", "hi": "16 वर्ष" },
+        { "en": "24 years", "hi": "24 वर्ष" },
+        { "en": "32 years", "hi": "32 वर्ष" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Let Arun's age be x, so Ramesh's age is 3x. After 8 years: 3x + 8 = 2(x + 8), so 3x + 8 = 2x + 16 and x = 8. Ramesh's age = 3 × 8 = 24 years.", "hi": "माना अरुण की आयु x है, तो रमेश की आयु 3x है। 8 वर्ष बाद: 3x + 8 = 2(x + 8), अतः 3x + 8 = 2x + 16 और x = 8। रमेश की आयु = 3 × 8 = 24 वर्ष।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is Arun's present age, not Ramesh's.", "hi": "यह अरुण की वर्तमान आयु है, रमेश की नहीं।" },
+        "1": { "en": "This is Arun's age after 8 years.", "hi": "यह 8 वर्ष बाद अरुण की आयु है।" },
+        "3": { "en": "This is Ramesh's age after 8 years, not his present age.", "hi": "यह 8 वर्ष बाद रमेश की आयु है, वर्तमान आयु नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-32",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "If 2x + 3y = 12 and x − y = 1, find the value of xy.", "hi": "यदि 2x + 3y = 12 और x − y = 1 है, तो xy का मान ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "2", "hi": "2" },
+        { "en": "3", "hi": "3" },
+        { "en": "5", "hi": "5" },
+        { "en": "6", "hi": "6" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "From x − y = 1, x = y + 1. Then 2(y + 1) + 3y = 12, so 5y = 10, y = 2 and x = 3. Hence xy = 6.", "hi": "x − y = 1 से x = y + 1। तब 2(y + 1) + 3y = 12, अतः 5y = 10, y = 2 और x = 3। इसलिए xy = 6।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is only the value of y.", "hi": "यह केवल y का मान है।" },
+        "1": { "en": "This is only the value of x.", "hi": "यह केवल x का मान है।" },
+        "2": { "en": "This is x + y, not xy.", "hi": "यह x + y है, xy नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-33",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": { "en": "If (x − 1) and (x + 2) are both factors of the polynomial x³ + px² + qx − 6, find the value of p − q.", "hi": "यदि (x − 1) और (x + 2) दोनों बहुपद x³ + px² + qx − 6 के गुणनखंड हैं, तो p − q का मान ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "1", "hi": "1" },
+        { "en": "5", "hi": "5" },
+        { "en": "3", "hi": "3" },
+        { "en": "7", "hi": "7" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "By the factor theorem, the polynomial is 0 at x = 1: 1 + p + q − 6 = 0, so p + q = 5. At x = −2: −8 + 4p − 2q − 6 = 0, so 2p − q = 7. Adding the two equations gives 3p = 12, so p = 4 and q = 1. Hence p − q = 3.", "hi": "गुणनखंड प्रमेय से बहुपद x = 1 पर 0 होगा: 1 + p + q − 6 = 0, अतः p + q = 5। x = −2 पर: −8 + 4p − 2q − 6 = 0, अतः 2p − q = 7। दोनों समीकरण जोड़ने पर 3p = 12, इसलिए p = 4 और q = 1। अतः p − q = 3।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the value of q alone.", "hi": "यह केवल q का मान है।" },
+        "1": { "en": "This is p + q, which comes only from the factor (x − 1).", "hi": "यह p + q है, जो केवल गुणनखंड (x − 1) से मिलता है।" },
+        "3": { "en": "This is 2p − q, the relation from the factor (x + 2), not p − q.", "hi": "यह 2p − q है, जो गुणनखंड (x + 2) से मिला संबंध है, p − q नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-34",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Factorise: 6xy − 4y + 9x − 6", "hi": "गुणनखंड करें: 6xy − 4y + 9x − 6" },
+      "optionsJson": [
+        { "en": "(3x − 2)(2y + 3)", "hi": "(3x − 2)(2y + 3)" },
+        { "en": "(3x + 2)(2y − 3)", "hi": "(3x + 2)(2y − 3)" },
+        { "en": "(2x − 3)(3y + 2)", "hi": "(2x − 3)(3y + 2)" },
+        { "en": "(3x − 2)(3y + 2)", "hi": "(3x − 2)(3y + 2)" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Group the terms: 2y(3x − 2) + 3(3x − 2) = (3x − 2)(2y + 3).", "hi": "पदों को समूहित करें: 2y(3x − 2) + 3(3x − 2) = (3x − 2)(2y + 3)।" },
+      "distractorAnalysis": {
+        "1": { "en": "Signs inside the brackets are wrong; it expands to 6xy − 9x + 4y − 6.", "hi": "कोष्ठकों के भीतर चिह्न गलत हैं; विस्तार करने पर 6xy − 9x + 4y − 6 मिलता है।" },
+        "2": { "en": "Groups the terms incorrectly; it expands to 6xy + 4x − 9y − 6.", "hi": "पदों का समूहन गलत है; विस्तार करने पर 6xy + 4x − 9y − 6 मिलता है।" },
+        "3": { "en": "Wrong second factor; it expands to 9xy + 6x − 6y − 4.", "hi": "दूसरा गुणनखंड गलत है; विस्तार करने पर 9xy + 6x − 6y − 4 मिलता है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-35",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Solve for x: (x + 1)/2 + (x − 2)/3 = 4", "hi": "x के लिए हल करें: (x + 1)/2 + (x − 2)/3 = 4" },
+      "optionsJson": [
+        { "en": "2", "hi": "2" },
+        { "en": "3", "hi": "3" },
+        { "en": "4", "hi": "4" },
+        { "en": "5", "hi": "5" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Multiply both sides by the LCM 6: 3(x + 1) + 2(x − 2) = 24, so 5x − 1 = 24, 5x = 25 and x = 5.", "hi": "दोनों पक्षों को ल.स.प. 6 से गुणा करें: 3(x + 1) + 2(x − 2) = 24, अतः 5x − 1 = 24, 5x = 25 और x = 5।" },
+      "distractorAnalysis": {
+        "0": { "en": "Arithmetic slip in 5x − 1 = 24; gets 5x = 10.", "hi": "5x − 1 = 24 में गणना की भूल; 5x = 10 आया।" },
+        "1": { "en": "Arithmetic slip in 5x − 1 = 24; gets 5x = 15.", "hi": "5x − 1 = 24 में गणना की भूल; 5x = 15 आया।" },
+        "2": { "en": "Arithmetic slip in 5x − 1 = 24; gets 5x = 20.", "hi": "5x − 1 = 24 में गणना की भूल; 5x = 20 आया।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-36",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "If x + 1/x = 3, find the value of x³ + 1/x³.", "hi": "यदि x + 1/x = 3 है, तो x³ + 1/x³ का मान ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "18", "hi": "18" },
+        { "en": "24", "hi": "24" },
+        { "en": "27", "hi": "27" },
+        { "en": "36", "hi": "36" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Cube both sides: (x + 1/x)³ = x³ + 1/x³ + 3(x + 1/x). So 27 = x³ + 1/x³ + 9, giving x³ + 1/x³ = 18.", "hi": "दोनों पक्षों का घन करें: (x + 1/x)³ = x³ + 1/x³ + 3(x + 1/x)। अतः 27 = x³ + 1/x³ + 9, जिससे x³ + 1/x³ = 18।" },
+      "distractorAnalysis": {
+        "1": { "en": "Subtracts 3 instead of 3(x + 1/x) = 9 from 27.", "hi": "27 में से 3(x + 1/x) = 9 के बजाय 3 घटाया।" },
+        "2": { "en": "Only cubes x + 1/x and forgets to subtract 3(x + 1/x).", "hi": "केवल x + 1/x का घन किया और 3(x + 1/x) घटाना भूल गया।" },
+        "3": { "en": "Adds 9 instead of subtracting it from 27.", "hi": "27 में से 9 घटाने के बजाय जोड़ दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-37",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": { "en": "The sum of the digits of a two-digit number is 11. When the digits are reversed, the number increases by 27. Find the original number.", "hi": "एक दो अंकों की संख्या के अंकों का योग 11 है। अंकों को उलटने पर संख्या 27 बढ़ जाती है। मूल संख्या ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "29", "hi": "29" },
+        { "en": "38", "hi": "38" },
+        { "en": "47", "hi": "47" },
+        { "en": "56", "hi": "56" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Let the tens digit be t and the units digit be u. Then t + u = 11 and (10u + t) − (10t + u) = 27, so 9(u − t) = 27 and u − t = 3. Hence u = 7, t = 4 and the number is 47. Check: 74 − 47 = 27.", "hi": "माना दहाई का अंक t और इकाई का अंक u है। तब t + u = 11 और (10u + t) − (10t + u) = 27, अतः 9(u − t) = 27 और u − t = 3। इसलिए u = 7, t = 4 और संख्या 47 है। जाँच: 74 − 47 = 27।" },
+      "distractorAnalysis": {
+        "0": { "en": "The digit sum is 11, but reversing gives 92, an increase of 63.", "hi": "अंकों का योग 11 है, पर उलटने पर 92 मिलता है, यानी 63 की वृद्धि।" },
+        "1": { "en": "The digit sum is 11, but reversing gives 83, an increase of 45.", "hi": "अंकों का योग 11 है, पर उलटने पर 83 मिलता है, यानी 45 की वृद्धि।" },
+        "3": { "en": "The digit sum is 11, but reversing gives 65, an increase of only 9.", "hi": "अंकों का योग 11 है, पर उलटने पर 65 मिलता है, यानी केवल 9 की वृद्धि।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-38",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "What is the degree of the polynomial 4x²y⁴ − 3x⁵ + 2xy?", "hi": "बहुपद 4x²y⁴ − 3x⁵ + 2xy की घात क्या है?" },
+      "optionsJson": [
+        { "en": "2", "hi": "2" },
+        { "en": "4", "hi": "4" },
+        { "en": "5", "hi": "5" },
+        { "en": "6", "hi": "6" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "The degree of each term is the sum of the exponents of its variables: 4x²y⁴ has degree 2 + 4 = 6, 3x⁵ has degree 5 and 2xy has degree 2. The highest is 6.", "hi": "प्रत्येक पद की घात उसके चरों के घातांकों का योग होती है: 4x²y⁴ की घात 2 + 4 = 6, 3x⁵ की घात 5 और 2xy की घात 2 है। इनमें सबसे अधिक 6 है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Takes the degree of only the last term, 2xy.", "hi": "केवल अंतिम पद 2xy की घात ली।" },
+        "1": { "en": "Takes the highest power of y alone (y⁴).", "hi": "केवल y की सबसे बड़ी घात (y⁴) ली।" },
+        "2": { "en": "Takes the highest power of x alone (x⁵).", "hi": "केवल x की सबसे बड़ी घात (x⁵) ली।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-39",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Find the remainder when x³ − 5x² + 2x + 4 is divided by (x − 3).", "hi": "x³ − 5x² + 2x + 4 को (x − 3) से भाग देने पर शेषफल ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "−74", "hi": "−74" },
+        { "en": "−16", "hi": "−16" },
+        { "en": "−12", "hi": "−12" },
+        { "en": "−8", "hi": "−8" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "By the remainder theorem, the remainder is the value of the polynomial at x = 3: 27 − 45 + 6 + 4 = −8.", "hi": "शेषफल प्रमेय से शेषफल बहुपद का x = 3 पर मान है: 27 − 45 + 6 + 4 = −8।" },
+      "distractorAnalysis": {
+        "0": { "en": "Substitutes x = −3 instead of x = 3.", "hi": "x = 3 के बजाय x = −3 रखा।" },
+        "1": { "en": "Sign slip on the constant: computes 27 − 45 + 6 − 4.", "hi": "अचर पद पर चिह्न की भूल: 27 − 45 + 6 − 4 निकाला।" },
+        "2": { "en": "Leaves out the constant term +4.", "hi": "अचर पद +4 छोड़ दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-40",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Meena bought a school bag for ₹360 after getting a discount of 20% on its marked price. What was the marked price of the bag?", "hi": "मीना ने एक स्कूल बैग अंकित मूल्य पर 20% की छूट मिलने के बाद ₹360 में खरीदा। बैग का अंकित मूल्य क्या था?" },
+      "optionsJson": [
+        { "en": "₹380", "hi": "₹380" },
+        { "en": "₹400", "hi": "₹400" },
+        { "en": "₹432", "hi": "₹432" },
+        { "en": "₹450", "hi": "₹450" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "After a 20% discount she paid 80% of the marked price. So 80% of MP = 360, giving MP = 360 × 100/80 = ₹450.", "hi": "20% छूट के बाद उसने अंकित मूल्य का 80% दिया। अतः अंकित मूल्य का 80% = 360, इसलिए अंकित मूल्य = 360 × 100/80 = ₹450।" },
+      "distractorAnalysis": {
+        "0": { "en": "Adds the number 20 to 360 instead of using percentages.", "hi": "प्रतिशत का उपयोग करने के बजाय 360 में संख्या 20 जोड़ दी।" },
+        "1": { "en": "Treats ₹360 as 90% of the marked price.", "hi": "₹360 को अंकित मूल्य का 90% मान लिया।" },
+        "2": { "en": "Adds 20% of ₹360 instead of treating ₹360 as 80% of the marked price.", "hi": "₹360 को अंकित मूल्य का 80% मानने के बजाय ₹360 का 20% उसमें जोड़ दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-41",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "A cuboidal box is 15 cm long, 12 cm wide and 8 cm high. What is its total surface area?", "hi": "एक घनाभाकार डिब्बे की लंबाई 15 सेमी, चौड़ाई 12 सेमी और ऊँचाई 8 सेमी है। उसका संपूर्ण पृष्ठीय क्षेत्रफल क्या है?" },
+      "optionsJson": [
+        { "en": "396 cm²", "hi": "396 सेमी²" },
+        { "en": "432 cm²", "hi": "432 सेमी²" },
+        { "en": "792 cm²", "hi": "792 सेमी²" },
+        { "en": "1440 cm²", "hi": "1440 सेमी²" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Total surface area = 2(lb + bh + hl) = 2(15×12 + 12×8 + 8×15) = 2(180 + 96 + 120) = 2 × 396 = 792 cm².", "hi": "संपूर्ण पृष्ठीय क्षेत्रफल = 2(lb + bh + hl) = 2(15×12 + 12×8 + 8×15) = 2(180 + 96 + 120) = 2 × 396 = 792 सेमी²।" },
+      "distractorAnalysis": {
+        "0": { "en": "Forgets the factor 2 and gives lb + bh + hl only.", "hi": "गुणक 2 भूल गया और केवल lb + bh + hl दे दिया।" },
+        "1": { "en": "This is the lateral surface area 2(15 + 12) × 8, not the total.", "hi": "यह पार्श्व पृष्ठीय क्षेत्रफल 2(15 + 12) × 8 है, संपूर्ण नहीं।" },
+        "3": { "en": "This is the volume 15 × 12 × 8, not the surface area.", "hi": "यह आयतन 15 × 12 × 8 है, पृष्ठीय क्षेत्रफल नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-42",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Each interior angle of a regular polygon measures 156°. How many sides does the polygon have?", "hi": "एक सम बहुभुज का प्रत्येक आंतरिक कोण 156° है। बहुभुज की कितनी भुजाएँ हैं?" },
+      "optionsJson": [
+        { "en": "12", "hi": "12" },
+        { "en": "15", "hi": "15" },
+        { "en": "18", "hi": "18" },
+        { "en": "20", "hi": "20" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Each exterior angle = 180° − 156° = 24°. The exterior angles add up to 360°, so the number of sides = 360 ÷ 24 = 15.", "hi": "प्रत्येक बाह्य कोण = 180° − 156° = 24°। बाह्य कोणों का योग 360° होता है, अतः भुजाओं की संख्या = 360 ÷ 24 = 15।" },
+      "distractorAnalysis": {
+        "0": { "en": "A 12-sided regular polygon has interior angles of 150°, not 156°.", "hi": "12 भुजाओं वाले सम बहुभुज का आंतरिक कोण 156° नहीं, 150° होता है।" },
+        "2": { "en": "An 18-sided regular polygon has interior angles of 160°, not 156°.", "hi": "18 भुजाओं वाले सम बहुभुज का आंतरिक कोण 156° नहीं, 160° होता है।" },
+        "3": { "en": "A 20-sided regular polygon has interior angles of 162°, not 156°.", "hi": "20 भुजाओं वाले सम बहुभुज का आंतरिक कोण 156° नहीं, 162° होता है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-43",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A 13 m long ladder rests against a vertical wall with its foot 5 m away from the base of the wall. How high on the wall does the ladder reach?", "hi": "13 मी लंबी एक सीढ़ी ऊर्ध्वाधर दीवार के सहारे इस प्रकार टिकी है कि उसका निचला सिरा दीवार के आधार से 5 मी दूर है। सीढ़ी दीवार पर कितनी ऊँचाई तक पहुँचती है?" },
+      "optionsJson": [
+        { "en": "8 m", "hi": "8 मी" },
+        { "en": "10 m", "hi": "10 मी" },
+        { "en": "12 m", "hi": "12 मी" },
+        { "en": "18 m", "hi": "18 मी" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "The ladder, wall and ground form a right triangle with hypotenuse 13 m. Height = √(13² − 5²) = √(169 − 25) = √144 = 12 m.", "hi": "सीढ़ी, दीवार और भूमि एक समकोण त्रिभुज बनाते हैं जिसका कर्ण 13 मी है। ऊँचाई = √(13² − 5²) = √(169 − 25) = √144 = 12 मी।" },
+      "distractorAnalysis": {
+        "0": { "en": "Subtracts 5 from 13 instead of using the Pythagoras theorem.", "hi": "पाइथागोरस प्रमेय के बजाय 13 में से 5 घटा दिया।" },
+        "1": { "en": "Doubles the base distance of 5 m.", "hi": "आधार की दूरी 5 मी को दोगुना कर दिया।" },
+        "3": { "en": "Adds 13 and 5 instead of using the Pythagoras theorem.", "hi": "पाइथागोरस प्रमेय के बजाय 13 और 5 जोड़ दिए।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-44",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "The mean of five numbers is 18. When a sixth number is included, the mean of all six numbers becomes 20. What is the sixth number?", "hi": "पाँच संख्याओं का माध्य 18 है। एक छठी संख्या सम्मिलित करने पर सभी छह संख्याओं का माध्य 20 हो जाता है। छठी संख्या क्या है?" },
+      "optionsJson": [
+        { "en": "28", "hi": "28" },
+        { "en": "30", "hi": "30" },
+        { "en": "32", "hi": "32" },
+        { "en": "38", "hi": "38" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Sum of five numbers = 5 × 18 = 90. Sum of six numbers = 6 × 20 = 120. The sixth number = 120 − 90 = 30.", "hi": "पाँच संख्याओं का योग = 5 × 18 = 90। छह संख्याओं का योग = 6 × 20 = 120। छठी संख्या = 120 − 90 = 30।" },
+      "distractorAnalysis": {
+        "0": { "en": "Arithmetic slip while subtracting 90 from 120.", "hi": "120 में से 90 घटाने में गणना की भूल।" },
+        "2": { "en": "Arithmetic slip while subtracting 90 from 120.", "hi": "120 में से 90 घटाने में गणना की भूल।" },
+        "3": { "en": "Adds the two means, 18 + 20, instead of comparing the totals.", "hi": "योगों की तुलना करने के बजाय दोनों माध्य 18 + 20 जोड़ दिए।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-45",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Simplify: (2/3)^−3 ÷ (4/9)^−1", "hi": "सरल करें: (2/3)^−3 ÷ (4/9)^−1" },
+      "optionsJson": [
+        { "en": "3/2", "hi": "3/2" },
+        { "en": "2/3", "hi": "2/3" },
+        { "en": "9/4", "hi": "9/4" },
+        { "en": "243/32", "hi": "243/32" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "(2/3)^−3 = (3/2)³ = 27/8 and (4/9)^−1 = 9/4. So 27/8 ÷ 9/4 = 27/8 × 4/9 = 108/72 = 3/2.", "hi": "(2/3)^−3 = (3/2)³ = 27/8 और (4/9)^−1 = 9/4। अतः 27/8 ÷ 9/4 = 27/8 × 4/9 = 108/72 = 3/2।" },
+      "distractorAnalysis": {
+        "1": { "en": "Inverts the final answer, effectively dividing in the wrong order.", "hi": "अंतिम उत्तर का व्युत्क्रम ले लिया, यानी भाग गलत क्रम में किया।" },
+        "2": { "en": "Gives only the value of (4/9)^−1 and ignores the first factor.", "hi": "केवल (4/9)^−1 का मान दिया और पहले पद की उपेक्षा की।" },
+        "3": { "en": "Multiplies 27/8 by 9/4 instead of dividing.", "hi": "भाग देने के बजाय 27/8 को 9/4 से गुणा कर दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-46",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "What is the smallest number by which 1200 must be multiplied so that the product is a perfect square?", "hi": "वह छोटी से छोटी संख्या क्या है जिससे 1200 को गुणा करने पर गुणनफल पूर्ण वर्ग हो जाए?" },
+      "optionsJson": [
+        { "en": "3", "hi": "3" },
+        { "en": "5", "hi": "5" },
+        { "en": "6", "hi": "6" },
+        { "en": "15", "hi": "15" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "1200 = 2⁴ × 3 × 5². The primes 2 and 5 appear in pairs, but 3 appears once. Multiplying by 3 gives 3600 = 60², a perfect square.", "hi": "1200 = 2⁴ × 3 × 5²। अभाज्य संख्याएँ 2 और 5 जोड़ियों में हैं, पर 3 केवल एक बार आती है। 3 से गुणा करने पर 3600 = 60² मिलता है, जो पूर्ण वर्ग है।" },
+      "distractorAnalysis": {
+        "1": { "en": "The factor 5 already appears as a pair (5²) and needs nothing extra.", "hi": "गुणनखंड 5 पहले से जोड़ी (5²) में है और उसे कुछ अतिरिक्त नहीं चाहिए।" },
+        "2": { "en": "Also multiplies by 2, although 2⁴ is already a perfect square.", "hi": "2 से भी गुणा कर दिया, जबकि 2⁴ पहले से पूर्ण वर्ग है।" },
+        "3": { "en": "Multiplies by 5 as well as 3, although 5² is already paired.", "hi": "3 के साथ 5 से भी गुणा कर दिया, जबकि 5² पहले से जोड़ी में है।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-47",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "What is the simple interest on ₹5000 at 8% per annum for 3 years?", "hi": "₹5000 पर 8% वार्षिक दर से 3 वर्ष का साधारण ब्याज क्या होगा?" },
+      "optionsJson": [
+        { "en": "₹400", "hi": "₹400" },
+        { "en": "₹1200", "hi": "₹1200" },
+        { "en": "₹1600", "hi": "₹1600" },
+        { "en": "₹6200", "hi": "₹6200" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "SI = P × R × T / 100 = 5000 × 8 × 3 / 100 = ₹1200.", "hi": "साधारण ब्याज = P × R × T / 100 = 5000 × 8 × 3 / 100 = ₹1200।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the interest for only 1 year.", "hi": "यह केवल 1 वर्ष का ब्याज है।" },
+        "2": { "en": "This is the interest for 4 years, not 3.", "hi": "यह 4 वर्ष का ब्याज है, 3 वर्ष का नहीं।" },
+        "3": { "en": "This is the amount (principal + interest), not the interest.", "hi": "यह मिश्रधन (मूलधन + ब्याज) है, ब्याज नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-48",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Find the compound interest on ₹10,000 for 1 year at 20% per annum, compounded half-yearly.", "hi": "₹10,000 पर 1 वर्ष का 20% वार्षिक दर से चक्रवृद्धि ब्याज ज्ञात करें, जबकि ब्याज अर्धवार्षिक रूप से संयोजित होता है।" },
+      "optionsJson": [
+        { "en": "₹2000", "hi": "₹2000" },
+        { "en": "₹2100", "hi": "₹2100" },
+        { "en": "₹2200", "hi": "₹2200" },
+        { "en": "₹12,100", "hi": "₹12,100" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Half-yearly compounding means a rate of 10% per half-year for 2 periods. Amount = 10000 × (1.1)² = ₹12,100. Compound interest = 12,100 − 10,000 = ₹2100.", "hi": "अर्धवार्षिक संयोजन का अर्थ है 10% प्रति छमाही की दर से 2 अवधियाँ। मिश्रधन = 10000 × (1.1)² = ₹12,100। चक्रवृद्धि ब्याज = 12,100 − 10,000 = ₹2100।" },
+      "distractorAnalysis": {
+        "0": { "en": "This is the simple interest at 20% for 1 year, ignoring compounding.", "hi": "यह 1 वर्ष का 20% पर साधारण ब्याज है; संयोजन की उपेक्षा की गई।" },
+        "2": { "en": "Doubles the second half-year interest of ₹1,100.", "hi": "दूसरी छमाही के ब्याज ₹1,100 को दोगुना कर दिया।" },
+        "3": { "en": "This is the amount, not the compound interest.", "hi": "यह मिश्रधन है, चक्रवृद्धि ब्याज नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-49",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Simplify: (x + 3)(x − 3)(x² + 9)", "hi": "सरल करें: (x + 3)(x − 3)(x² + 9)" },
+      "optionsJson": [
+        { "en": "x⁴ − 81", "hi": "x⁴ − 81" },
+        { "en": "x⁴ + 81", "hi": "x⁴ + 81" },
+        { "en": "x² − 81", "hi": "x² − 81" },
+        { "en": "x⁴ − 9", "hi": "x⁴ − 9" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "(x + 3)(x − 3) = x² − 9. Then (x² − 9)(x² + 9) = (x²)² − 9² = x⁴ − 81.", "hi": "(x + 3)(x − 3) = x² − 9। फिर (x² − 9)(x² + 9) = (x²)² − 9² = x⁴ − 81।" },
+      "distractorAnalysis": {
+        "1": { "en": "Sign error: (a − b)(a + b) = a² − b², so the constant is −81, not +81.", "hi": "चिह्न की भूल: (a − b)(a + b) = a² − b², इसलिए अचर पद −81 है, +81 नहीं।" },
+        "2": { "en": "Reduces x² · x² to x² instead of x⁴.", "hi": "x² · x² को x⁴ के बजाय x² लिख दिया।" },
+        "3": { "en": "Does not square 9, writing −9 instead of −81.", "hi": "9 का वर्ग नहीं किया, −81 के बजाय −9 लिखा।" }
+      }
+    },
+    {
+      "key": "rms9-p3-mt-50",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Using a suitable identity, find the value of 103 × 97.", "hi": "उपयुक्त सर्वसमिका का उपयोग करके 103 × 97 का मान ज्ञात करें।" },
+      "optionsJson": [
+        { "en": "9991", "hi": "9991" },
+        { "en": "9994", "hi": "9994" },
+        { "en": "9999", "hi": "9999" },
+        { "en": "10009", "hi": "10009" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "103 × 97 = (100 + 3)(100 − 3) = 100² − 3² = 10000 − 9 = 9991.", "hi": "103 × 97 = (100 + 3)(100 − 3) = 100² − 3² = 10000 − 9 = 9991।" },
+      "distractorAnalysis": {
+        "1": { "en": "Subtracts 3 × 2 = 6 instead of 3² = 9 from 10000.", "hi": "10000 में से 3² = 9 के बजाय 3 × 2 = 6 घटाया।" },
+        "2": { "en": "Subtracts 1 from 10000 instead of 3² = 9.", "hi": "10000 में से 3² = 9 के बजाय 1 घटाया।" },
+        "3": { "en": "Adds 3² instead of subtracting it: 100² + 3².", "hi": "3² को घटाने के बजाय जोड़ दिया: 100² + 3²।" }
+      }
+    }
+  ]
+}

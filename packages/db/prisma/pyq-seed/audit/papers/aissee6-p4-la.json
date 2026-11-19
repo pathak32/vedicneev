@@ -1,0 +1,1384 @@
+{
+  "examType": "AISSEE",
+  "classLevel": 6,
+  "paperNumber": 4,
+  "sectionKey": "language",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "aissee6-p4-la-01",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Choose the word closest in meaning to \"scarce\".",
+        "hi": "\"scarce\" शब्द के सबसे निकट अर्थ वाला शब्द चुनिए।",
+        "mr": "\"scarce\" या शब्दाच्या अर्थाशी सर्वात जवळचा शब्द निवडा."
+      },
+      "optionsJson": [
+        {
+          "en": "Plentiful",
+          "hi": "Plentiful",
+          "mr": "Plentiful"
+        },
+        {
+          "en": "Rare",
+          "hi": "Rare",
+          "mr": "Rare"
+        },
+        {
+          "en": "Heavy",
+          "hi": "Heavy",
+          "mr": "Heavy"
+        },
+        {
+          "en": "Useless",
+          "hi": "Useless",
+          "mr": "Useless"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "\"Scarce\" means not available in large amounts, so \"rare\" is the closest in meaning.",
+        "hi": "\"Scarce\" का अर्थ है जो अधिक मात्रा में उपलब्ध न हो, इसलिए \"rare\" (दुर्लभ) सबसे निकट अर्थ वाला शब्द है।",
+        "mr": "\"Scarce\" म्हणजे जे मोठ्या प्रमाणात उपलब्ध नसते, म्हणून \"rare\" (दुर्मिळ) हा अर्थाने सर्वात जवळचा शब्द आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "\"Plentiful\" means more than enough, which is the opposite of scarce.",
+          "hi": "\"Plentiful\" (प्रचुर) का अर्थ है ज़रूरत से ज़्यादा, जो \"scarce\" का उलटा है।",
+          "mr": "\"Plentiful\" (भरपूर) म्हणजे गरजेपेक्षा जास्त, जे \"scarce\" चे विरुद्ध आहे."
+        },
+        "2": {
+          "en": "\"Heavy\" describes weight and says nothing about how much of something is available.",
+          "hi": "\"Heavy\" (भारी) वज़न बताता है, यह नहीं बताता कि कोई चीज़ कितनी उपलब्ध है।",
+          "mr": "\"Heavy\" (जड) वजन सांगते, एखादी गोष्ट किती उपलब्ध आहे हे सांगत नाही."
+        },
+        "3": {
+          "en": "\"Useless\" means of no use, but scarce things can still be very useful.",
+          "hi": "\"Useless\" (बेकार) का अर्थ है जिसका कोई उपयोग न हो, जबकि दुर्लभ चीज़ें बहुत उपयोगी हो सकती हैं।",
+          "mr": "\"Useless\" (निरुपयोगी) म्हणजे ज्याचा काही उपयोग नाही, पण दुर्मिळ वस्तू खूप उपयोगी असू शकतात."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-la-02",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Choose the word closest in meaning to \"fragile\".",
+        "hi": "\"fragile\" शब्द के सबसे निकट अर्थ वाला शब्द चुनिए।",
+        "mr": "\"fragile\" या शब्दाच्या अर्थाशी सर्वात जवळचा शब्द निवडा."
+      },
+      "optionsJson": [
+        {
+          "en": "Strong",
+          "hi": "Strong",
+          "mr": "Strong"
+        },
+        {
+          "en": "Heavy",
+          "hi": "Heavy",
+          "mr": "Heavy"
+        },
+        {
+          "en": "Delicate",
+          "hi": "Delicate",
+          "mr": "Delicate"
+        },
+        {
+          "en": "Shiny",
+          "hi": "Shiny",
+          "mr": "Shiny"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "A fragile object breaks or gets damaged easily, and \"delicate\" describes the same quality.",
+        "hi": "\"Fragile\" वस्तु आसानी से टूट या खराब हो जाती है, और \"delicate\" (नाज़ुक) शब्द भी यही गुण बताता है।",
+        "mr": "\"Fragile\" वस्तू सहज तुटते किंवा खराब होते, आणि \"delicate\" (नाजूक) हा शब्दही तोच गुण सांगतो."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "\"Strong\" is the opposite of fragile.",
+          "hi": "\"Strong\" (मज़बूत) \"fragile\" का उलटा है।",
+          "mr": "\"Strong\" (मजबूत) हे \"fragile\" चे विरुद्ध आहे."
+        },
+        "1": {
+          "en": "\"Heavy\" describes weight, not how easily something breaks.",
+          "hi": "\"Heavy\" (भारी) वज़न बताता है, यह नहीं कि चीज़ कितनी आसानी से टूटती है।",
+          "mr": "\"Heavy\" (जड) वजन सांगते, वस्तू किती सहज तुटते हे नाही."
+        },
+        "3": {
+          "en": "\"Shiny\" describes how something looks, not how easily it breaks.",
+          "hi": "\"Shiny\" (चमकदार) दिखावट बताता है, टूटने की प्रवृत्ति नहीं।",
+          "mr": "\"Shiny\" (चमकदार) दिसणे सांगते, तुटण्याची प्रवृत्ती नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-la-03",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Choose the word closest in meaning to \"weary\".",
+        "hi": "\"weary\" शब्द के सबसे निकट अर्थ वाला शब्द चुनिए।",
+        "mr": "\"weary\" या शब्दाच्या अर्थाशी सर्वात जवळचा शब्द निवडा."
+      },
+      "optionsJson": [
+        {
+          "en": "Tired",
+          "hi": "Tired",
+          "mr": "Tired"
+        },
+        {
+          "en": "Angry",
+          "hi": "Angry",
+          "mr": "Angry"
+        },
+        {
+          "en": "Hungry",
+          "hi": "Hungry",
+          "mr": "Hungry"
+        },
+        {
+          "en": "Excited",
+          "hi": "Excited",
+          "mr": "Excited"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "\"Weary\" means feeling tired after hard work or a long journey, so \"tired\" is the synonym.",
+        "hi": "\"Weary\" का अर्थ है कड़ी मेहनत या लंबी यात्रा के बाद थका हुआ होना, इसलिए \"tired\" (थका हुआ) इसका समानार्थी है।",
+        "mr": "\"Weary\" म्हणजे कष्टाच्या कामानंतर किंवा लांब प्रवासानंतर थकलेले असणे, म्हणून \"tired\" (थकलेला) हा त्याचा समानार्थी शब्द आहे."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "\"Angry\" describes a feeling of anger, not tiredness.",
+          "hi": "\"Angry\" (क्रोधित) गुस्से की भावना बताता है, थकान नहीं।",
+          "mr": "\"Angry\" (रागावलेला) रागाची भावना सांगते, थकवा नाही."
+        },
+        "2": {
+          "en": "\"Hungry\" describes a need for food, not tiredness.",
+          "hi": "\"Hungry\" (भूखा) भोजन की ज़रूरत बताता है, थकान नहीं।",
+          "mr": "\"Hungry\" (भुकेलेला) अन्नाची गरज सांगते, थकवा नाही."
+        },
+        "3": {
+          "en": "\"Excited\" means full of energy and enthusiasm, which is the opposite of weary.",
+          "hi": "\"Excited\" (उत्साहित) का अर्थ है ऊर्जा और उमंग से भरा होना, जो \"weary\" का उलटा है।",
+          "mr": "\"Excited\" (उत्साहित) म्हणजे ऊर्जा आणि उत्साहाने भरलेला, जे \"weary\" चे विरुद्ध आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-la-04",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Choose the word closest in meaning to \"reluctant\".",
+        "hi": "\"reluctant\" शब्द के सबसे निकट अर्थ वाला शब्द चुनिए।",
+        "mr": "\"reluctant\" या शब्दाच्या अर्थाशी सर्वात जवळचा शब्द निवडा."
+      },
+      "optionsJson": [
+        {
+          "en": "Eager",
+          "hi": "Eager",
+          "mr": "Eager"
+        },
+        {
+          "en": "Curious",
+          "hi": "Curious",
+          "mr": "Curious"
+        },
+        {
+          "en": "Loyal",
+          "hi": "Loyal",
+          "mr": "Loyal"
+        },
+        {
+          "en": "Unwilling",
+          "hi": "Unwilling",
+          "mr": "Unwilling"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "A \"reluctant\" person does not want to do something, so \"unwilling\" is the closest in meaning.",
+        "hi": "\"Reluctant\" व्यक्ति कोई काम करना नहीं चाहता, इसलिए \"unwilling\" (अनिच्छुक) सबसे निकट अर्थ वाला शब्द है।",
+        "mr": "\"Reluctant\" व्यक्तीला एखादे काम करायचे नसते, म्हणून \"unwilling\" (अनिच्छुक) हा अर्थाने सर्वात जवळचा शब्द आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "\"Eager\" means keen to do something, which is the opposite of reluctant.",
+          "hi": "\"Eager\" (उत्सुक) का अर्थ है कुछ करने को उत्साहित होना, जो \"reluctant\" का उलटा है।",
+          "mr": "\"Eager\" (उत्सुक) म्हणजे काही करण्यास आतुर असणे, जे \"reluctant\" चे विरुद्ध आहे."
+        },
+        "1": {
+          "en": "\"Curious\" means wanting to know or learn something.",
+          "hi": "\"Curious\" (जिज्ञासु) का अर्थ है कुछ जानने या सीखने की इच्छा रखना।",
+          "mr": "\"Curious\" (जिज्ञासू) म्हणजे काही जाणून घेण्याची किंवा शिकण्याची इच्छा असणे."
+        },
+        "2": {
+          "en": "\"Loyal\" means faithful to a person or a cause.",
+          "hi": "\"Loyal\" (वफ़ादार) का अर्थ है किसी व्यक्ति या उद्देश्य के प्रति निष्ठावान।",
+          "mr": "\"Loyal\" (निष्ठावान) म्हणजे एखाद्या व्यक्तीशी किंवा ध्येयाशी प्रामाणिक."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-la-05",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Choose the word opposite in meaning to \"victory\".",
+        "hi": "\"victory\" शब्द का विपरीतार्थक (उलटे अर्थ वाला) शब्द चुनिए।",
+        "mr": "\"victory\" या शब्दाचा विरुद्धार्थी शब्द निवडा."
+      },
+      "optionsJson": [
+        {
+          "en": "Triumph",
+          "hi": "Triumph",
+          "mr": "Triumph"
+        },
+        {
+          "en": "Defeat",
+          "hi": "Defeat",
+          "mr": "Defeat"
+        },
+        {
+          "en": "Contest",
+          "hi": "Contest",
+          "mr": "Contest"
+        },
+        {
+          "en": "Medal",
+          "hi": "Medal",
+          "mr": "Medal"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "\"Victory\" means winning, and its opposite is \"defeat\", which means losing.",
+        "hi": "\"Victory\" का अर्थ है जीत, और इसका उलटा \"defeat\" (हार) है।",
+        "mr": "\"Victory\" म्हणजे विजय, आणि त्याचे विरुद्धार्थी रूप \"defeat\" (पराभव) आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "\"Triumph\" is a synonym of victory, not an antonym.",
+          "hi": "\"Triumph\" (जीत) \"victory\" का समानार्थी है, विपरीतार्थक नहीं।",
+          "mr": "\"Triumph\" (विजय) हा \"victory\" चा समानार्थी आहे, विरुद्धार्थी नाही."
+        },
+        "2": {
+          "en": "A \"contest\" is the event in which people try to win or lose; it is not the opposite of winning.",
+          "hi": "\"Contest\" (प्रतियोगिता) वह आयोजन है जिसमें लोग जीतने की कोशिश करते हैं; यह जीत का उलटा नहीं है।",
+          "mr": "\"Contest\" (स्पर्धा) म्हणजे जिंकण्याचा प्रयत्न केला जातो तो कार्यक्रम; ते विजयाचे विरुद्ध नाही."
+        },
+        "3": {
+          "en": "A \"medal\" is a prize, often given for victory, so it is not an opposite.",
+          "hi": "\"Medal\" (पदक) एक पुरस्कार है जो अक्सर जीत पर मिलता है, इसलिए यह विपरीतार्थक नहीं है।",
+          "mr": "\"Medal\" (पदक) हे बक्षीस आहे जे बहुधा विजयासाठी मिळते, म्हणून ते विरुद्धार्थी नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-la-06",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Choose the word opposite in meaning to \"expand\".",
+        "hi": "\"expand\" शब्द का विपरीतार्थक (उलटे अर्थ वाला) शब्द चुनिए।",
+        "mr": "\"expand\" या शब्दाचा विरुद्धार्थी शब्द निवडा."
+      },
+      "optionsJson": [
+        {
+          "en": "Shrink",
+          "hi": "Shrink",
+          "mr": "Shrink"
+        },
+        {
+          "en": "Stretch",
+          "hi": "Stretch",
+          "mr": "Stretch"
+        },
+        {
+          "en": "Grow",
+          "hi": "Grow",
+          "mr": "Grow"
+        },
+        {
+          "en": "Spread",
+          "hi": "Spread",
+          "mr": "Spread"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "To \"expand\" is to become bigger, and to \"shrink\" is to become smaller, so they are opposites.",
+        "hi": "\"Expand\" का अर्थ है बड़ा होना और \"shrink\" का अर्थ है छोटा होना (सिकुड़ना), इसलिए ये विपरीतार्थक हैं।",
+        "mr": "\"Expand\" म्हणजे मोठे होणे आणि \"shrink\" म्हणजे लहान होणे (आकुंचन पावणे), म्हणून हे विरुद्धार्थी शब्द आहेत."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "\"Stretch\" means to become longer or wider, which is close to expand, not opposite.",
+          "hi": "\"Stretch\" (खिंचना) का अर्थ है लंबा या चौड़ा होना, जो \"expand\" के निकट है, उलटा नहीं।",
+          "mr": "\"Stretch\" (ताणले जाणे) म्हणजे लांब किंवा रुंद होणे, जे \"expand\" च्या जवळचे आहे, विरुद्ध नाही."
+        },
+        "2": {
+          "en": "\"Grow\" means to become bigger, so it is similar in meaning to expand.",
+          "hi": "\"Grow\" (बढ़ना) का अर्थ है बड़ा होना, इसलिए यह \"expand\" जैसा ही है।",
+          "mr": "\"Grow\" (वाढणे) म्हणजे मोठे होणे, म्हणून तो \"expand\" सारखाच आहे."
+        },
+        "3": {
+          "en": "\"Spread\" means to cover a wider area, so it is similar in meaning to expand.",
+          "hi": "\"Spread\" (फैलना) का अर्थ है अधिक क्षेत्र में फैलना, इसलिए यह \"expand\" जैसा ही है।",
+          "mr": "\"Spread\" (पसरणे) म्हणजे अधिक क्षेत्रात पसरणे, म्हणून तो \"expand\" सारखाच आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-la-07",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Choose the word opposite in meaning to \"cheerful\".",
+        "hi": "\"cheerful\" शब्द का विपरीतार्थक (उलटे अर्थ वाला) शब्द चुनिए।",
+        "mr": "\"cheerful\" या शब्दाचा विरुद्धार्थी शब्द निवडा."
+      },
+      "optionsJson": [
+        {
+          "en": "Joyful",
+          "hi": "Joyful",
+          "mr": "Joyful"
+        },
+        {
+          "en": "Lively",
+          "hi": "Lively",
+          "mr": "Lively"
+        },
+        {
+          "en": "Gloomy",
+          "hi": "Gloomy",
+          "mr": "Gloomy"
+        },
+        {
+          "en": "Pleasant",
+          "hi": "Pleasant",
+          "mr": "Pleasant"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "\"Cheerful\" means happy and bright, and \"gloomy\" means sad and dull, so they are opposites.",
+        "hi": "\"Cheerful\" का अर्थ है प्रसन्न और खुशमिज़ाज, और \"gloomy\" का अर्थ है उदास और बुझा हुआ, इसलिए ये विपरीतार्थक हैं।",
+        "mr": "\"Cheerful\" म्हणजे आनंदी आणि प्रसन्न, आणि \"gloomy\" म्हणजे उदास आणि निरुत्साही, म्हणून हे विरुद्धार्थी शब्द आहेत."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "\"Joyful\" means full of joy, so it is a synonym of cheerful.",
+          "hi": "\"Joyful\" (आनंदित) का अर्थ है खुशी से भरा, इसलिए यह \"cheerful\" का समानार्थी है।",
+          "mr": "\"Joyful\" (आनंदित) म्हणजे आनंदाने भरलेला, म्हणून तो \"cheerful\" चा समानार्थी आहे."
+        },
+        "1": {
+          "en": "\"Lively\" means full of energy, which fits a cheerful person rather than opposing it.",
+          "hi": "\"Lively\" (जीवंत) का अर्थ है ऊर्जा से भरा, जो खुशमिज़ाज व्यक्ति से मेल खाता है, उसका उलटा नहीं है।",
+          "mr": "\"Lively\" (उत्साही) म्हणजे ऊर्जेने भरलेला, जे आनंदी व्यक्तीशी जुळते, त्याचे विरुद्ध नाही."
+        },
+        "3": {
+          "en": "\"Pleasant\" means nice or agreeable, which is not the opposite of cheerful.",
+          "hi": "\"Pleasant\" (सुखद) का अर्थ है अच्छा या मनभावन, जो \"cheerful\" का उलटा नहीं है।",
+          "mr": "\"Pleasant\" (सुखद) म्हणजे चांगले किंवा मनाला आवडणारे, ते \"cheerful\" चे विरुद्ध नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-la-08",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Choose the word opposite in meaning to \"transparent\".",
+        "hi": "\"transparent\" शब्द का विपरीतार्थक (उलटे अर्थ वाला) शब्द चुनिए।",
+        "mr": "\"transparent\" या शब्दाचा विरुद्धार्थी शब्द निवडा."
+      },
+      "optionsJson": [
+        {
+          "en": "Clear",
+          "hi": "Clear",
+          "mr": "Clear"
+        },
+        {
+          "en": "Thin",
+          "hi": "Thin",
+          "mr": "Thin"
+        },
+        {
+          "en": "Shiny",
+          "hi": "Shiny",
+          "mr": "Shiny"
+        },
+        {
+          "en": "Opaque",
+          "hi": "Opaque",
+          "mr": "Opaque"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "A \"transparent\" material lets light pass through so we can see through it; an \"opaque\" material does not, so the two are opposites.",
+        "hi": "\"Transparent\" (पारदर्शी) पदार्थ से प्रकाश गुज़र जाता है और आर-पार दिखता है; \"opaque\" (अपारदर्शी) पदार्थ से ऐसा नहीं होता, इसलिए ये विपरीतार्थक हैं।",
+        "mr": "\"Transparent\" (पारदर्शक) पदार्थातून प्रकाश जातो आणि आरपार दिसते; \"opaque\" (अपारदर्शक) पदार्थातून तसे होत नाही, म्हणून हे विरुद्धार्थी शब्द आहेत."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "\"Clear\" can mean see-through, so it is a synonym of transparent.",
+          "hi": "\"Clear\" (स्वच्छ/साफ़) का अर्थ आर-पार दिखने वाला भी हो सकता है, इसलिए यह \"transparent\" का समानार्थी है।",
+          "mr": "\"Clear\" (स्वच्छ) चा अर्थ आरपार दिसणारा असाही होऊ शकतो, म्हणून तो \"transparent\" चा समानार्थी आहे."
+        },
+        "1": {
+          "en": "\"Thin\" describes thickness; a thin sheet can still be transparent or not.",
+          "hi": "\"Thin\" (पतला) मोटाई बताता है; पतली चादर पारदर्शी हो भी सकती है और नहीं भी।",
+          "mr": "\"Thin\" (पातळ) जाडी सांगते; पातळ पत्रा पारदर्शक असू शकतो किंवा नसूही शकतो."
+        },
+        "2": {
+          "en": "\"Shiny\" describes a glossy surface and has nothing to do with seeing through something.",
+          "hi": "\"Shiny\" (चमकदार) चिकनी चमकती सतह बताता है, इसका आर-पार दिखने से कोई संबंध नहीं।",
+          "mr": "\"Shiny\" (चमकदार) गुळगुळीत चमकणारा पृष्ठभाग सांगते, त्याचा आरपार दिसण्याशी संबंध नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-la-09",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Choose the correct meaning of the idiom \"to bite off more than you can chew\".",
+        "hi": "मुहावरे \"to bite off more than you can chew\" का सही अर्थ चुनिए।",
+        "mr": "\"to bite off more than you can chew\" या म्हणीचा/वाक्प्रचाराचा योग्य अर्थ निवडा."
+      },
+      "optionsJson": [
+        {
+          "en": "To eat food too quickly",
+          "hi": "बहुत जल्दी खाना खाना",
+          "mr": "अन्न खूप घाईघाईत खाणे"
+        },
+        {
+          "en": "To take on a task that is too big to handle",
+          "hi": "ऐसा काम हाथ में लेना जो संभालने के लिए बहुत बड़ा हो",
+          "mr": "सांभाळता येणार नाही इतके मोठे काम हाती घेणे"
+        },
+        {
+          "en": "To speak rudely to someone",
+          "hi": "किसी से रूखेपन से बात करना",
+          "mr": "कोणाशी उद्धटपणे बोलणे"
+        },
+        {
+          "en": "To refuse help from friends",
+          "hi": "दोस्तों की मदद लेने से मना करना",
+          "mr": "मित्रांची मदत नाकारणे"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "The idiom means to accept more work or responsibility than you can manage.",
+        "hi": "इस मुहावरे का अर्थ है अपनी क्षमता से अधिक काम या ज़िम्मेदारी ले लेना।",
+        "mr": "या वाक्प्रचाराचा अर्थ आपल्या क्षमतेपेक्षा जास्त काम किंवा जबाबदारी स्वीकारणे असा आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The idiom uses food words, but it is not about the speed of eating.",
+          "hi": "मुहावरे में खाने से जुड़े शब्द हैं, पर यह खाने की गति के बारे में नहीं है।",
+          "mr": "वाक्प्रचारात खाण्याशी संबंधित शब्द आहेत, पण तो खाण्याच्या वेगाबद्दल नाही."
+        },
+        "2": {
+          "en": "Speaking rudely has no connection with taking on too much work.",
+          "hi": "रूखेपन से बोलने का ज़रूरत से ज़्यादा काम लेने से कोई संबंध नहीं है।",
+          "mr": "उद्धटपणे बोलण्याचा गरजेपेक्षा जास्त काम स्वीकारण्याशी काही संबंध नाही."
+        },
+        "3": {
+          "en": "Refusing help is a different idea; the idiom is about taking too much on yourself.",
+          "hi": "मदद से मना करना अलग बात है; यह मुहावरा खुद पर ज़रूरत से ज़्यादा बोझ लेने के बारे में है।",
+          "mr": "मदत नाकारणे ही वेगळी कल्पना आहे; हा वाक्प्रचार स्वतःवर जास्त भार घेण्याबद्दल आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-la-10",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Choose the correct meaning of the idiom \"to hit the nail on the head\".",
+        "hi": "मुहावरे \"to hit the nail on the head\" का सही अर्थ चुनिए।",
+        "mr": "\"to hit the nail on the head\" या वाक्प्रचाराचा योग्य अर्थ निवडा."
+      },
+      "optionsJson": [
+        {
+          "en": "To say or do exactly the right thing",
+          "hi": "बिल्कुल सही बात कहना या सही काम करना",
+          "mr": "अगदी योग्य गोष्ट बोलणे किंवा करणे"
+        },
+        {
+          "en": "To hurt oneself while working",
+          "hi": "काम करते समय खुद को चोट पहुँचाना",
+          "mr": "काम करताना स्वतःला इजा करून घेणे"
+        },
+        {
+          "en": "To make a loud noise",
+          "hi": "ज़ोर की आवाज़ करना",
+          "mr": "मोठा आवाज करणे"
+        },
+        {
+          "en": "To repair something carelessly",
+          "hi": "किसी चीज़ की लापरवाही से मरम्मत करना",
+          "mr": "एखादी वस्तू निष्काळजीपणे दुरुस्त करणे"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "When a person hits the nail on the head, they describe or do something exactly right.",
+        "hi": "जब कोई व्यक्ति \"hits the nail on the head\" करता है, तो वह कोई बात या काम बिल्कुल सही ढंग से कहता या करता है।",
+        "mr": "जेव्हा एखादी व्यक्ती \"hits the nail on the head\" करते, तेव्हा ती एखादी गोष्ट अगदी बरोबर सांगते किंवा करते."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "The idiom is not about getting hurt; it is about being exactly right.",
+          "hi": "यह मुहावरा चोट लगने के बारे में नहीं है; यह बिल्कुल सही होने के बारे में है।",
+          "mr": "हा वाक्प्रचार इजा होण्याबद्दल नाही; तो अगदी बरोबर असण्याबद्दल आहे."
+        },
+        "2": {
+          "en": "The idiom has nothing to do with making noise, even though hammering is noisy.",
+          "hi": "हथौड़ा चलाने में शोर होता है, फिर भी इस मुहावरे का शोर करने से कोई संबंध नहीं है।",
+          "mr": "हातोडा मारताना आवाज होतो, तरीही या वाक्प्रचाराचा आवाज करण्याशी संबंध नाही."
+        },
+        "3": {
+          "en": "The idiom praises accuracy, not careless work.",
+          "hi": "यह मुहावरा सटीकता की प्रशंसा करता है, लापरवाह काम की नहीं।",
+          "mr": "हा वाक्प्रचार अचूकतेचे कौतुक करतो, निष्काळजी कामाचे नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-la-11",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Choose the correct meaning of the idiom \"under the weather\".",
+        "hi": "मुहावरे \"under the weather\" का सही अर्थ चुनिए।",
+        "mr": "\"under the weather\" या वाक्प्रचाराचा योग्य अर्थ निवडा."
+      },
+      "optionsJson": [
+        {
+          "en": "Standing in the rain",
+          "hi": "बारिश में खड़े रहना",
+          "mr": "पावसात उभे राहणे"
+        },
+        {
+          "en": "Very fond of cold weather",
+          "hi": "ठंडे मौसम को बहुत पसंद करना",
+          "mr": "थंड हवामान खूप आवडणे"
+        },
+        {
+          "en": "Feeling slightly ill",
+          "hi": "थोड़ा बीमार महसूस करना",
+          "mr": "थोडे आजारी वाटणे"
+        },
+        {
+          "en": "Waiting for a storm",
+          "hi": "तूफ़ान का इंतज़ार करना",
+          "mr": "वादळाची वाट पाहणे"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "To be \"under the weather\" means to feel a little unwell.",
+        "hi": "\"Under the weather\" होने का अर्थ है थोड़ा अस्वस्थ महसूस करना।",
+        "mr": "\"Under the weather\" असणे म्हणजे थोडे अस्वस्थ वाटणे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The idiom is not about the actual rain; it describes how a person feels.",
+          "hi": "यह मुहावरा असली बारिश के बारे में नहीं है; यह व्यक्ति की तबीयत बताता है।",
+          "mr": "हा वाक्प्रचार खऱ्या पावसाबद्दल नाही; तो व्यक्तीला कसे वाटते हे सांगतो."
+        },
+        "1": {
+          "en": "Liking cold weather is not the meaning; the idiom is about health.",
+          "hi": "ठंडा मौसम पसंद करना इसका अर्थ नहीं है; यह मुहावरा सेहत के बारे में है।",
+          "mr": "थंड हवामान आवडणे हा याचा अर्थ नाही; हा वाक्प्रचार आरोग्याबद्दल आहे."
+        },
+        "3": {
+          "en": "The idiom does not mean waiting for a storm; it is about not feeling well.",
+          "hi": "इस मुहावरे का अर्थ तूफ़ान का इंतज़ार करना नहीं है; यह तबीयत ठीक न होने के बारे में है।",
+          "mr": "या वाक्प्रचाराचा अर्थ वादळाची वाट पाहणे असा नाही; तो बरे न वाटण्याबद्दल आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-la-12",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Choose the correct meaning of the idiom \"to spill the beans\".",
+        "hi": "मुहावरे \"to spill the beans\" का सही अर्थ चुनिए।",
+        "mr": "\"to spill the beans\" या वाक्प्रचाराचा योग्य अर्थ निवडा."
+      },
+      "optionsJson": [
+        {
+          "en": "To cook a meal for guests",
+          "hi": "मेहमानों के लिए खाना पकाना",
+          "mr": "पाहुण्यांसाठी जेवण बनवणे"
+        },
+        {
+          "en": "To make a mess in the kitchen",
+          "hi": "रसोई में गंदगी फैलाना",
+          "mr": "स्वयंपाकघरात घाण करणे"
+        },
+        {
+          "en": "To waste food",
+          "hi": "खाना बर्बाद करना",
+          "mr": "अन्न वाया घालवणे"
+        },
+        {
+          "en": "To reveal a secret",
+          "hi": "कोई राज़ खोल देना",
+          "mr": "एखादे गुपित उघड करणे"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "To \"spill the beans\" means to let out a secret that was meant to be kept hidden.",
+        "hi": "\"Spill the beans\" का अर्थ है ऐसा राज़ बता देना जिसे छिपाकर रखना था।",
+        "mr": "\"Spill the beans\" म्हणजे लपवून ठेवायचे गुपित सांगून टाकणे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The idiom has nothing to do with cooking for guests.",
+          "hi": "इस मुहावरे का मेहमानों के लिए खाना पकाने से कोई संबंध नहीं है।",
+          "mr": "या वाक्प्रचाराचा पाहुण्यांसाठी स्वयंपाक करण्याशी काही संबंध नाही."
+        },
+        "1": {
+          "en": "The words mention beans, but the idiom is not about making a mess.",
+          "hi": "शब्दों में बीन्स का ज़िक्र है, पर मुहावरा गंदगी फैलाने के बारे में नहीं है।",
+          "mr": "शब्दांमध्ये बीन्सचा उल्लेख आहे, पण वाक्प्रचार घाण करण्याबद्दल नाही."
+        },
+        "2": {
+          "en": "Wasting food is the literal picture, not the idiomatic meaning.",
+          "hi": "खाना बर्बाद करना शाब्दिक अर्थ है, मुहावरे का वास्तविक अर्थ नहीं।",
+          "mr": "अन्न वाया घालवणे हा शब्दशः अर्थ आहे, वाक्प्रचाराचा खरा अर्थ नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-la-13",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which of the following is the correct spelling of the word meaning \"to keep apart or divide\"?",
+        "hi": "\"अलग करना या बाँटना\" अर्थ वाले शब्द की सही वर्तनी (spelling) कौन-सी है?",
+        "mr": "\"वेगळे करणे किंवा विभागणे\" या अर्थाच्या शब्दाची योग्य स्पेलिंग कोणती आहे?"
+      },
+      "optionsJson": [
+        {
+          "en": "Seperate",
+          "hi": "Seperate",
+          "mr": "Seperate"
+        },
+        {
+          "en": "Separate",
+          "hi": "Separate",
+          "mr": "Separate"
+        },
+        {
+          "en": "Separete",
+          "hi": "Separete",
+          "mr": "Separete"
+        },
+        {
+          "en": "Sepparate",
+          "hi": "Sepparate",
+          "mr": "Sepparate"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "The correct spelling is \"separate\". A helpful trick is to remember that there is \"a rat\" in sep-a-rate, so the third letter is \"a\", not \"e\".",
+        "hi": "सही वर्तनी \"separate\" है। याद रखने की एक आसान तरकीब यह है कि sep-a-rate में \"a rat\" छिपा है, इसलिए तीसरा अक्षर \"a\" है, \"e\" नहीं।",
+        "mr": "योग्य स्पेलिंग \"separate\" आहे. लक्षात ठेवण्याची सोपी युक्ती म्हणजे sep-a-rate मध्ये \"a rat\" दडलेले आहे, म्हणून तिसरे अक्षर \"a\" आहे, \"e\" नाही."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "\"Seperate\" has an \"e\" as the third letter instead of \"a\", which is the most common mistake with this word.",
+          "hi": "\"Seperate\" में तीसरा अक्षर \"a\" की जगह \"e\" है, जो इस शब्द में सबसे आम गलती है।",
+          "mr": "\"Seperate\" मध्ये तिसरे अक्षर \"a\" ऐवजी \"e\" आहे, ही या शब्दातील सर्वात सामान्य चूक आहे."
+        },
+        "2": {
+          "en": "\"Separete\" ends with \"-ete\" instead of \"-ate\".",
+          "hi": "\"Separete\" का अंत \"-ate\" की जगह \"-ete\" से हुआ है।",
+          "mr": "\"Separete\" चा शेवट \"-ate\" ऐवजी \"-ete\" ने झाला आहे."
+        },
+        "3": {
+          "en": "\"Sepparate\" has a double \"p\" where only one \"p\" is needed.",
+          "hi": "\"Sepparate\" में दो \"p\" हैं जबकि केवल एक \"p\" चाहिए।",
+          "mr": "\"Sepparate\" मध्ये दोन \"p\" आहेत, पण फक्त एक \"p\" हवा."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-la-14",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Only one of the following words is spelt incorrectly. Identify it.",
+        "hi": "नीचे दिए गए शब्दों में से केवल एक की वर्तनी गलत है। उसे पहचानिए।",
+        "mr": "खालील शब्दांपैकी फक्त एका शब्दाची स्पेलिंग चुकीची आहे. तो ओळखा."
+      },
+      "optionsJson": [
+        {
+          "en": "Enviroment",
+          "hi": "Enviroment",
+          "mr": "Enviroment"
+        },
+        {
+          "en": "February",
+          "hi": "February",
+          "mr": "February"
+        },
+        {
+          "en": "Library",
+          "hi": "Library",
+          "mr": "Library"
+        },
+        {
+          "en": "Government",
+          "hi": "Government",
+          "mr": "Government"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "\"Enviroment\" is wrong because the letter \"n\" is missing before \"m\"; the correct spelling is \"environment\".",
+        "hi": "\"Enviroment\" गलत है क्योंकि \"m\" से पहले \"n\" अक्षर छूट गया है; सही वर्तनी \"environment\" है।",
+        "mr": "\"Enviroment\" चुकीचे आहे कारण \"m\" च्या आधी \"n\" अक्षर गळाले आहे; योग्य स्पेलिंग \"environment\" आहे."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "\"February\" is spelt correctly, including the first \"r\".",
+          "hi": "\"February\" की वर्तनी सही है, पहले \"r\" सहित।",
+          "mr": "\"February\" ची स्पेलिंग बरोबर आहे, पहिल्या \"r\" सह."
+        },
+        "2": {
+          "en": "\"Library\" is spelt correctly, with \"br\" in the middle.",
+          "hi": "\"Library\" की वर्तनी सही है, बीच में \"br\" के साथ।",
+          "mr": "\"Library\" ची स्पेलिंग बरोबर आहे, मध्ये \"br\" सह."
+        },
+        "3": {
+          "en": "\"Government\" is spelt correctly, including the \"n\" before \"m\".",
+          "hi": "\"Government\" की वर्तनी सही है, \"m\" से पहले \"n\" सहित।",
+          "mr": "\"Government\" ची स्पेलिंग बरोबर आहे, \"m\" च्या आधी \"n\" सह."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-la-15",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Which of these is the correct spelling of a word meaning \"to get something\"?",
+        "hi": "\"to get something\" (कुछ प्राप्त करना) अर्थ वाले शब्द की सही वर्तनी कौन-सी है?",
+        "mr": "\"to get something\" (काहीतरी मिळवणे) या अर्थाच्या शब्दाची योग्य स्पेलिंग कोणती?"
+      },
+      "optionsJson": [
+        {
+          "en": "Recieve",
+          "hi": "Recieve",
+          "mr": "Recieve"
+        },
+        {
+          "en": "Receeve",
+          "hi": "Receeve",
+          "mr": "Receeve"
+        },
+        {
+          "en": "Receive",
+          "hi": "Receive",
+          "mr": "Receive"
+        },
+        {
+          "en": "Riceive",
+          "hi": "Riceive",
+          "mr": "Riceive"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The rule \"i before e, except after c\" gives \"receive\", because \"ei\" comes after \"c\".",
+        "hi": "नियम \"i before e, except after c\" के अनुसार \"c\" के बाद \"ei\" आता है, इसलिए सही शब्द \"receive\" है।",
+        "mr": "\"i before e, except after c\" या नियमानुसार \"c\" नंतर \"ei\" येते, म्हणून योग्य शब्द \"receive\" आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "\"Recieve\" puts \"ie\" after \"c\", which breaks the rule.",
+          "hi": "\"Recieve\" में \"c\" के बाद \"ie\" आया है, जो नियम के विरुद्ध है।",
+          "mr": "\"Recieve\" मध्ये \"c\" नंतर \"ie\" आले आहे, जे नियमाविरुद्ध आहे."
+        },
+        "1": {
+          "en": "\"Receeve\" uses a double \"e\", which is not in the word.",
+          "hi": "\"Receeve\" में दो \"e\" लिखे गए हैं, जो इस शब्द में नहीं होते।",
+          "mr": "\"Receeve\" मध्ये दोन \"e\" लिहिले आहेत, जे या शब्दात नसतात."
+        },
+        "3": {
+          "en": "\"Riceive\" wrongly begins with \"ri\" instead of \"re\".",
+          "hi": "\"Riceive\" की शुरुआत गलती से \"re\" की जगह \"ri\" से हुई है।",
+          "mr": "\"Riceive\" ची सुरुवात चुकून \"re\" ऐवजी \"ri\" ने झाली आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-la-16",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which sentence uses \"a\" and \"an\" correctly?",
+        "hi": "किस वाक्य में \"a\" और \"an\" का सही प्रयोग हुआ है?",
+        "mr": "कोणत्या वाक्यात \"a\" आणि \"an\" चा योग्य वापर केला आहे?"
+      },
+      "optionsJson": [
+        {
+          "en": "Mohan is a honest student and an excellent player.",
+          "hi": "Mohan is a honest student and an excellent player.",
+          "mr": "Mohan is a honest student and an excellent player."
+        },
+        {
+          "en": "Mohan is an honest student and a excellent player.",
+          "hi": "Mohan is an honest student and a excellent player.",
+          "mr": "Mohan is an honest student and a excellent player."
+        },
+        {
+          "en": "Mohan is a honest student and a excellent player.",
+          "hi": "Mohan is a honest student and a excellent player.",
+          "mr": "Mohan is a honest student and a excellent player."
+        },
+        {
+          "en": "Mohan is an honest student and an excellent player.",
+          "hi": "Mohan is an honest student and an excellent player.",
+          "mr": "Mohan is an honest student and an excellent player."
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "\"Honest\" starts with a vowel sound because the \"h\" is silent, and \"excellent\" starts with a vowel sound too, so both need \"an\".",
+        "hi": "\"Honest\" में \"h\" मौन है, इसलिए यह स्वर ध्वनि से शुरू होता है, और \"excellent\" भी स्वर ध्वनि से शुरू होता है, अतः दोनों के साथ \"an\" आएगा।",
+        "mr": "\"Honest\" मधील \"h\" मूक आहे, म्हणून तो स्वर ध्वनीने सुरू होतो, आणि \"excellent\" देखील स्वर ध्वनीने सुरू होतो, त्यामुळे दोन्हींसोबत \"an\" येईल."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "\"A honest\" is wrong because \"honest\" begins with a vowel sound.",
+          "hi": "\"A honest\" गलत है क्योंकि \"honest\" स्वर ध्वनि से शुरू होता है।",
+          "mr": "\"A honest\" चुकीचे आहे कारण \"honest\" स्वर ध्वनीने सुरू होतो."
+        },
+        "1": {
+          "en": "\"A excellent\" is wrong because \"excellent\" begins with a vowel sound.",
+          "hi": "\"A excellent\" गलत है क्योंकि \"excellent\" स्वर ध्वनि से शुरू होता है।",
+          "mr": "\"A excellent\" चुकीचे आहे कारण \"excellent\" स्वर ध्वनीने सुरू होतो."
+        },
+        "2": {
+          "en": "Both \"a honest\" and \"a excellent\" are wrong; each word needs \"an\".",
+          "hi": "\"A honest\" और \"a excellent\" दोनों गलत हैं; दोनों शब्दों के साथ \"an\" चाहिए।",
+          "mr": "\"A honest\" आणि \"a excellent\" दोन्ही चुकीचे आहेत; दोन्ही शब्दांसोबत \"an\" हवे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-la-17",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Choose the correct word to fill the blank: The cows walked ___ the narrow lane towards the village.",
+        "hi": "खाली स्थान के लिए सही शब्द चुनिए: The cows walked ___ the narrow lane towards the village.",
+        "mr": "रिकाम्या जागेसाठी योग्य शब्द निवडा: The cows walked ___ the narrow lane towards the village."
+      },
+      "optionsJson": [
+        {
+          "en": "among",
+          "hi": "among",
+          "mr": "among"
+        },
+        {
+          "en": "along",
+          "hi": "along",
+          "mr": "along"
+        },
+        {
+          "en": "between",
+          "hi": "between",
+          "mr": "between"
+        },
+        {
+          "en": "beside",
+          "hi": "beside",
+          "mr": "beside"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "\"Along\" is used for moving in a line following the length of a path or lane.",
+        "hi": "\"Along\" का प्रयोग किसी रास्ते या गली की लंबाई के साथ-साथ चलने के लिए होता है।",
+        "mr": "\"Along\" चा वापर रस्त्याच्या किंवा गल्लीच्या लांबीच्या बाजूने चालण्यासाठी होतो."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "\"Among\" is used for being in the middle of a group of things, not for moving down a lane.",
+          "hi": "\"Among\" का प्रयोग चीज़ों के समूह के बीच होने के लिए होता है, गली में आगे चलने के लिए नहीं।",
+          "mr": "\"Among\" चा वापर वस्तूंच्या समूहाच्या मध्ये असण्यासाठी होतो, गल्लीतून चालण्यासाठी नाही."
+        },
+        "2": {
+          "en": "\"Between\" is used for two separate things, and a lane is not placed between them here.",
+          "hi": "\"Between\" का प्रयोग दो अलग चीज़ों के बीच के लिए होता है, और यहाँ गली किसी दो चीज़ों के बीच नहीं है।",
+          "mr": "\"Between\" चा वापर दोन वेगळ्या गोष्टींमधील जागेसाठी होतो, आणि येथे गल्ली दोन गोष्टींच्या मध्ये नाही."
+        },
+        "3": {
+          "en": "\"Beside\" means next to something, and it does not show movement along the lane.",
+          "hi": "\"Beside\" का अर्थ किसी चीज़ के बगल में है, इससे गली में आगे बढ़ना नहीं दिखता।",
+          "mr": "\"Beside\" म्हणजे एखाद्या गोष्टीच्या बाजूला, त्यातून गल्लीतून पुढे जाणे दिसत नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-la-18",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Choose the correct plural of \"wolf\".",
+        "hi": "\"wolf\" का सही बहुवचन रूप चुनिए।",
+        "mr": "\"wolf\" चे योग्य अनेकवचन निवडा."
+      },
+      "optionsJson": [
+        {
+          "en": "Wolves",
+          "hi": "Wolves",
+          "mr": "Wolves"
+        },
+        {
+          "en": "Wolfs",
+          "hi": "Wolfs",
+          "mr": "Wolfs"
+        },
+        {
+          "en": "Wolfes",
+          "hi": "Wolfes",
+          "mr": "Wolfes"
+        },
+        {
+          "en": "Wolvs",
+          "hi": "Wolvs",
+          "mr": "Wolvs"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Many nouns ending in \"f\" change \"f\" to \"ves\" in the plural, so \"wolf\" becomes \"wolves\".",
+        "hi": "\"f\" पर समाप्त होने वाली कई संज्ञाओं में बहुवचन बनाते समय \"f\" बदलकर \"ves\" हो जाता है, इसलिए \"wolf\" का बहुवचन \"wolves\" है।",
+        "mr": "\"f\" ने संपणाऱ्या अनेक नामांमध्ये अनेकवचन करताना \"f\" बदलून \"ves\" होते, म्हणून \"wolf\" चे अनेकवचन \"wolves\" आहे."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "\"Wolfs\" is wrong because the plural of \"wolf\" is not made by only adding \"s\".",
+          "hi": "\"Wolfs\" गलत है क्योंकि \"wolf\" का बहुवचन केवल \"s\" जोड़ने से नहीं बनता।",
+          "mr": "\"Wolfs\" चुकीचे आहे कारण \"wolf\" चे अनेकवचन फक्त \"s\" जोडून होत नाही."
+        },
+        "2": {
+          "en": "\"Wolfes\" is wrong because \"f\" must change to \"v\" before \"es\".",
+          "hi": "\"Wolfes\" गलत है क्योंकि \"es\" से पहले \"f\" को \"v\" में बदलना होता है।",
+          "mr": "\"Wolfes\" चुकीचे आहे कारण \"es\" च्या आधी \"f\" चा \"v\" करावा लागतो."
+        },
+        "3": {
+          "en": "\"Wolvs\" is wrong because it is missing the letter \"e\" in the ending \"-ves\".",
+          "hi": "\"Wolvs\" गलत है क्योंकि इसमें अंत \"-ves\" का अक्षर \"e\" छूट गया है।",
+          "mr": "\"Wolvs\" चुकीचे आहे कारण त्यात शेवटच्या \"-ves\" मधील \"e\" अक्षर गळाले आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-la-19",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Choose the correct verb form: I ___ my lunch before Rohan called me.",
+        "hi": "सही क्रिया रूप चुनिए: I ___ my lunch before Rohan called me.",
+        "mr": "योग्य क्रियापद रूप निवडा: I ___ my lunch before Rohan called me."
+      },
+      "optionsJson": [
+        {
+          "en": "eat",
+          "hi": "eat",
+          "mr": "eat"
+        },
+        {
+          "en": "have eaten",
+          "hi": "have eaten",
+          "mr": "have eaten"
+        },
+        {
+          "en": "had eaten",
+          "hi": "had eaten",
+          "mr": "had eaten"
+        },
+        {
+          "en": "will eat",
+          "hi": "will eat",
+          "mr": "will eat"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Two past actions are mentioned, and the earlier one (eating lunch) takes the past perfect tense: \"had eaten\".",
+        "hi": "यहाँ दो भूतकाल की क्रियाएँ हैं, और पहले हुई क्रिया (खाना खाना) के लिए past perfect tense का प्रयोग होता है: \"had eaten\"।",
+        "mr": "येथे दोन भूतकाळातील क्रिया आहेत, आणि आधी घडलेल्या क्रियेसाठी (जेवण करणे) past perfect tense वापरतात: \"had eaten\"."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "\"Eat\" is the simple present form and does not fit an action that is already finished in the past.",
+          "hi": "\"Eat\" साधारण वर्तमान रूप है और भूतकाल में पूरी हो चुकी क्रिया के साथ ठीक नहीं बैठता।",
+          "mr": "\"Eat\" हे साधा वर्तमानकाळाचे रूप आहे आणि भूतकाळात पूर्ण झालेल्या क्रियेशी जुळत नाही."
+        },
+        "1": {
+          "en": "\"Have eaten\" is present perfect and does not match the past action \"called\".",
+          "hi": "\"Have eaten\" present perfect है और भूतकाल की क्रिया \"called\" से मेल नहीं खाता।",
+          "mr": "\"Have eaten\" हे present perfect आहे आणि भूतकाळातील क्रिया \"called\" शी जुळत नाही."
+        },
+        "3": {
+          "en": "\"Will eat\" is future tense, but the lunch was finished before the call.",
+          "hi": "\"Will eat\" भविष्यकाल है, जबकि खाना फ़ोन आने से पहले ही खत्म हो चुका था।",
+          "mr": "\"Will eat\" हा भविष्यकाळ आहे, पण फोन येण्यापूर्वीच जेवण संपले होते."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-la-20",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Choose the correct indirect speech of the sentence: Seema said to her mother, \"I will visit my aunt tomorrow.\"",
+        "hi": "इस वाक्य का सही अप्रत्यक्ष कथन (indirect speech) चुनिए: Seema said to her mother, \"I will visit my aunt tomorrow.\"",
+        "mr": "या वाक्याचे योग्य अप्रत्यक्ष कथन (indirect speech) निवडा: Seema said to her mother, \"I will visit my aunt tomorrow.\""
+      },
+      "optionsJson": [
+        {
+          "en": "Seema told her mother that she will visit her aunt tomorrow.",
+          "hi": "Seema told her mother that she will visit her aunt tomorrow.",
+          "mr": "Seema told her mother that she will visit her aunt tomorrow."
+        },
+        {
+          "en": "Seema told her mother that I would visit my aunt the next day.",
+          "hi": "Seema told her mother that I would visit my aunt the next day.",
+          "mr": "Seema told her mother that I would visit my aunt the next day."
+        },
+        {
+          "en": "Seema told her mother that she visited her aunt the next day.",
+          "hi": "Seema told her mother that she visited her aunt the next day.",
+          "mr": "Seema told her mother that she visited her aunt the next day."
+        },
+        {
+          "en": "Seema told her mother that she would visit her aunt the next day.",
+          "hi": "Seema told her mother that she would visit her aunt the next day.",
+          "mr": "Seema told her mother that she would visit her aunt the next day."
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "In indirect speech \"I\" becomes \"she\", \"my\" becomes \"her\", \"will\" becomes \"would\", \"tomorrow\" becomes \"the next day\", and \"said to\" becomes \"told\".",
+        "hi": "अप्रत्यक्ष कथन में \"I\" का \"she\", \"my\" का \"her\", \"will\" का \"would\", \"tomorrow\" का \"the next day\" और \"said to\" का \"told\" हो जाता है।",
+        "mr": "अप्रत्यक्ष कथनात \"I\" चे \"she\", \"my\" चे \"her\", \"will\" चे \"would\", \"tomorrow\" चे \"the next day\" आणि \"said to\" चे \"told\" होते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "It keeps \"will\" and \"tomorrow\" unchanged, but they must become \"would\" and \"the next day\".",
+          "hi": "इसमें \"will\" और \"tomorrow\" नहीं बदले गए, जबकि इन्हें \"would\" और \"the next day\" होना चाहिए।",
+          "mr": "यात \"will\" आणि \"tomorrow\" बदललेले नाहीत, पण त्यांचे \"would\" आणि \"the next day\" व्हायला हवे."
+        },
+        "1": {
+          "en": "It leaves \"I\" and \"my\" unchanged, but they must become \"she\" and \"her\".",
+          "hi": "इसमें \"I\" और \"my\" नहीं बदले गए, जबकि इन्हें \"she\" और \"her\" होना चाहिए।",
+          "mr": "यात \"I\" आणि \"my\" बदललेले नाहीत, पण त्यांचे \"she\" आणि \"her\" व्हायला हवे."
+        },
+        "2": {
+          "en": "It uses \"visited\", which turns a future plan into a past action and changes the meaning.",
+          "hi": "इसमें \"visited\" है, जो भविष्य की योजना को भूतकाल की क्रिया बना देता है और अर्थ बदल देता है।",
+          "mr": "यात \"visited\" आहे, ज्यामुळे भविष्यातील योजना भूतकाळातील क्रिया बनते आणि अर्थ बदलतो."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-la-21",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Read the passage and answer the question.\n\nPassage: The village well had dried up in summer. Every morning, the women walked two kilometres to fetch water from a river. When the panchayat dug a new borewell near the school, the villagers were overjoyed. Now water is available just a few steps from their homes.\n\nQuestion: Why were the villagers overjoyed?",
+        "hi": "गद्यांश पढ़िए और प्रश्न का उत्तर दीजिए।\n\nगद्यांश: The village well had dried up in summer. Every morning, the women walked two kilometres to fetch water from a river. When the panchayat dug a new borewell near the school, the villagers were overjoyed. Now water is available just a few steps from their homes.\n\nप्रश्न: Why were the villagers overjoyed?",
+        "mr": "उतारा वाचा आणि प्रश्नाचे उत्तर द्या.\n\nउतारा: The village well had dried up in summer. Every morning, the women walked two kilometres to fetch water from a river. When the panchayat dug a new borewell near the school, the villagers were overjoyed. Now water is available just a few steps from their homes.\n\nप्रश्न: Why were the villagers overjoyed?"
+      },
+      "optionsJson": [
+        {
+          "en": "The river had overflowed",
+          "hi": "नदी में बाढ़ आ गई थी",
+          "mr": "नदीला पूर आला होता"
+        },
+        {
+          "en": "Water became available close to their homes",
+          "hi": "पानी उनके घरों के पास ही मिलने लगा",
+          "mr": "पाणी त्यांच्या घराजवळच मिळू लागले"
+        },
+        {
+          "en": "The school got a new building",
+          "hi": "स्कूल को नई इमारत मिल गई",
+          "mr": "शाळेला नवीन इमारत मिळाली"
+        },
+        {
+          "en": "The women found new jobs",
+          "hi": "महिलाओं को नई नौकरियाँ मिल गईं",
+          "mr": "महिलांना नवीन नोकऱ्या मिळाल्या"
+        }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "The passage says water is now available just a few steps from their homes, so they no longer have to walk two kilometres.",
+        "hi": "गद्यांश के अनुसार अब पानी उनके घरों से कुछ ही कदम दूर मिलता है, इसलिए उन्हें दो किलोमीटर नहीं चलना पड़ता।",
+        "mr": "उताऱ्यानुसार आता पाणी त्यांच्या घरांपासून काही पावलांवरच मिळते, म्हणून त्यांना दोन किलोमीटर चालावे लागत नाही."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "The passage never mentions a flood; the river was only a faraway source of water.",
+          "hi": "गद्यांश में बाढ़ का कहीं ज़िक्र नहीं है; नदी तो केवल दूर का पानी का स्रोत थी।",
+          "mr": "उताऱ्यात पुराचा उल्लेख नाही; नदी फक्त दूरचा पाण्याचा स्रोत होती."
+        },
+        "2": {
+          "en": "The borewell was dug near the school, but the passage does not say the school got a building.",
+          "hi": "बोरवेल स्कूल के पास खोदा गया, पर गद्यांश में स्कूल की नई इमारत का उल्लेख नहीं है।",
+          "mr": "बोअरवेल शाळेजवळ खोदला गेला, पण उताऱ्यात शाळेच्या नवीन इमारतीचा उल्लेख नाही."
+        },
+        "3": {
+          "en": "The passage says nothing about new jobs for the women.",
+          "hi": "गद्यांश में महिलाओं की नई नौकरियों के बारे में कुछ नहीं कहा गया है।",
+          "mr": "उताऱ्यात महिलांच्या नवीन नोकऱ्यांबद्दल काहीही सांगितलेले नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-la-22",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Read the passage and answer the question.\n\nPassage: Ananya's team lost the quiz competition by a single point. She felt sad, but she did not blame anyone. Instead, she shook hands with the winners and decided to read the newspaper daily. Her teacher praised her for accepting the result gracefully.\n\nQuestion: Which word best describes Ananya's attitude?",
+        "hi": "गद्यांश पढ़िए और प्रश्न का उत्तर दीजिए।\n\nगद्यांश: Ananya's team lost the quiz competition by a single point. She felt sad, but she did not blame anyone. Instead, she shook hands with the winners and decided to read the newspaper daily. Her teacher praised her for accepting the result gracefully.\n\nप्रश्न: Which word best describes Ananya's attitude?",
+        "mr": "उतारा वाचा आणि प्रश्नाचे उत्तर द्या.\n\nउतारा: Ananya's team lost the quiz competition by a single point. She felt sad, but she did not blame anyone. Instead, she shook hands with the winners and decided to read the newspaper daily. Her teacher praised her for accepting the result gracefully.\n\nप्रश्न: Which word best describes Ananya's attitude?"
+      },
+      "optionsJson": [
+        {
+          "en": "Sporting",
+          "hi": "Sporting",
+          "mr": "Sporting"
+        },
+        {
+          "en": "Envious",
+          "hi": "Envious",
+          "mr": "Envious"
+        },
+        {
+          "en": "Careless",
+          "hi": "Careless",
+          "mr": "Careless"
+        },
+        {
+          "en": "Stubborn",
+          "hi": "Stubborn",
+          "mr": "Stubborn"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Ananya accepted the defeat gracefully, congratulated the winners and decided to improve, which shows a sporting attitude.",
+        "hi": "अनन्या ने हार को शालीनता से स्वीकार किया, विजेताओं को बधाई दी और सुधार करने का निश्चय किया, जो खेल भावना (sporting attitude) दिखाता है।",
+        "mr": "अनन्याने पराभव शालीनपणे स्वीकारला, विजेत्यांचे अभिनंदन केले आणि सुधारणा करण्याचे ठरवले, हे खिलाडूवृत्ती (sporting attitude) दर्शवते."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "\"Envious\" means jealous, but Ananya shook hands with the winners and blamed no one.",
+          "hi": "\"Envious\" (ईर्ष्यालु) का अर्थ जलन रखना है, पर अनन्या ने विजेताओं से हाथ मिलाया और किसी को दोष नहीं दिया।",
+          "mr": "\"Envious\" (हेवा करणारी) म्हणजे जळणारी, पण अनन्याने विजेत्यांशी हस्तांदोलन केले आणि कोणालाही दोष दिला नाही."
+        },
+        "2": {
+          "en": "\"Careless\" does not fit, because she decided to prepare better by reading the newspaper daily.",
+          "hi": "\"Careless\" (लापरवाह) सही नहीं है, क्योंकि उसने रोज़ अख़बार पढ़कर बेहतर तैयारी करने का निश्चय किया।",
+          "mr": "\"Careless\" (निष्काळजी) बरोबर नाही, कारण तिने रोज वर्तमानपत्र वाचून चांगली तयारी करण्याचे ठरवले."
+        },
+        "3": {
+          "en": "\"Stubborn\" means refusing to accept or change, but she accepted the result gracefully.",
+          "hi": "\"Stubborn\" (ज़िद्दी) का अर्थ है न मानना या न बदलना, पर उसने परिणाम शालीनता से स्वीकार किया।",
+          "mr": "\"Stubborn\" (हट्टी) म्हणजे न मानणारी किंवा न बदलणारी, पण तिने निकाल शालीनपणे स्वीकारला."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-la-23",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Choose the correct word to fill the blank: Please ___ for me near the school gate.",
+        "hi": "खाली स्थान के लिए सही शब्द चुनिए: Please ___ for me near the school gate.",
+        "mr": "रिकाम्या जागेसाठी योग्य शब्द निवडा: Please ___ for me near the school gate."
+      },
+      "optionsJson": [
+        {
+          "en": "weight",
+          "hi": "weight",
+          "mr": "weight"
+        },
+        {
+          "en": "wheat",
+          "hi": "wheat",
+          "mr": "wheat"
+        },
+        {
+          "en": "wait",
+          "hi": "wait",
+          "mr": "wait"
+        },
+        {
+          "en": "white",
+          "hi": "white",
+          "mr": "white"
+        }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "\"Wait\" is a verb meaning to stay in a place until someone comes, which fits the sentence.",
+        "hi": "\"Wait\" एक क्रिया है जिसका अर्थ है किसी के आने तक किसी जगह रुकना, जो वाक्य में ठीक बैठता है।",
+        "mr": "\"Wait\" हे क्रियापद आहे ज्याचा अर्थ कोणी येईपर्यंत एखाद्या ठिकाणी थांबणे असा आहे, जे वाक्यात योग्य बसते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "\"Weight\" sounds like \"wait\" but it means how heavy something is, so it does not fit.",
+          "hi": "\"Weight\" का उच्चारण \"wait\" जैसा है पर इसका अर्थ वज़न है, इसलिए यह यहाँ नहीं बैठता।",
+          "mr": "\"Weight\" चा उच्चार \"wait\" सारखा आहे पण त्याचा अर्थ वजन आहे, म्हणून ते येथे बसत नाही."
+        },
+        "1": {
+          "en": "\"Wheat\" is a grain and is a noun, so it cannot follow \"Please\" here.",
+          "hi": "\"Wheat\" (गेहूँ) एक अनाज और संज्ञा है, इसलिए यह यहाँ \"Please\" के बाद नहीं आ सकता।",
+          "mr": "\"Wheat\" (गहू) हे धान्य आणि नाम आहे, म्हणून ते येथे \"Please\" नंतर येऊ शकत नाही."
+        },
+        "3": {
+          "en": "\"White\" is a colour word, so it makes no sense in this sentence.",
+          "hi": "\"White\" (सफ़ेद) रंग बताने वाला शब्द है, इसलिए इस वाक्य में इसका कोई अर्थ नहीं बनता।",
+          "mr": "\"White\" (पांढरा) हा रंग सांगणारा शब्द आहे, म्हणून या वाक्यात त्याला काही अर्थ राहत नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-la-24",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which one word means \"a doctor who treats sick animals\"?",
+        "hi": "\"a doctor who treats sick animals\" के लिए कौन-सा एक शब्द उपयुक्त है?",
+        "mr": "\"a doctor who treats sick animals\" यासाठी कोणता एक शब्द योग्य आहे?"
+      },
+      "optionsJson": [
+        {
+          "en": "Pharmacist",
+          "hi": "Pharmacist",
+          "mr": "Pharmacist"
+        },
+        {
+          "en": "Dentist",
+          "hi": "Dentist",
+          "mr": "Dentist"
+        },
+        {
+          "en": "Optician",
+          "hi": "Optician",
+          "mr": "Optician"
+        },
+        {
+          "en": "Veterinarian",
+          "hi": "Veterinarian",
+          "mr": "Veterinarian"
+        }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "A veterinarian (often called a vet) is a doctor who treats sick or injured animals.",
+        "hi": "Veterinarian (पशु चिकित्सक, जिसे अक्सर vet कहते हैं) वह डॉक्टर है जो बीमार या घायल जानवरों का इलाज करता है।",
+        "mr": "Veterinarian (पशुवैद्य, ज्याला अनेकदा vet म्हणतात) हा डॉक्टर आजारी किंवा जखमी प्राण्यांवर उपचार करतो."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "A pharmacist prepares and sells medicines; this is not a doctor for animals.",
+          "hi": "Pharmacist (फ़ार्मासिस्ट) दवाइयाँ तैयार करता और बेचता है; वह जानवरों का डॉक्टर नहीं होता।",
+          "mr": "Pharmacist (औषध विक्रेता) औषधे तयार करतो आणि विकतो; तो प्राण्यांचा डॉक्टर नसतो."
+        },
+        "1": {
+          "en": "A dentist treats problems of the teeth.",
+          "hi": "Dentist (दंत चिकित्सक) दाँतों की समस्याओं का इलाज करता है।",
+          "mr": "Dentist (दंतवैद्य) दातांच्या समस्यांवर उपचार करतो."
+        },
+        "2": {
+          "en": "An optician tests eyesight and provides spectacles.",
+          "hi": "Optician (चश्मा विशेषज्ञ) आँखों की जाँच करता है और चश्मे उपलब्ध कराता है।",
+          "mr": "Optician (चष्मा तज्ज्ञ) डोळ्यांची तपासणी करतो आणि चष्मे उपलब्ध करून देतो."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p4-la-25",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Choose the correct word to fill the blank: ___ it was raining heavily, the cricket match was not cancelled.",
+        "hi": "खाली स्थान के लिए सही शब्द चुनिए: ___ it was raining heavily, the cricket match was not cancelled.",
+        "mr": "रिकाम्या जागेसाठी योग्य शब्द निवडा: ___ it was raining heavily, the cricket match was not cancelled."
+      },
+      "optionsJson": [
+        {
+          "en": "Although",
+          "hi": "Although",
+          "mr": "Although"
+        },
+        {
+          "en": "Because",
+          "hi": "Because",
+          "mr": "Because"
+        },
+        {
+          "en": "Unless",
+          "hi": "Unless",
+          "mr": "Unless"
+        },
+        {
+          "en": "So",
+          "hi": "So",
+          "mr": "So"
+        }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "\"Although\" shows contrast: even with heavy rain, the match was not cancelled.",
+        "hi": "\"Although\" विरोध दिखाता है: भारी बारिश के बावजूद मैच रद्द नहीं हुआ।",
+        "mr": "\"Although\" विरोध दाखवते: जोरदार पाऊस असूनही सामना रद्द झाला नाही."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "\"Because\" gives a reason, but the rain is not a reason for the match to go on.",
+          "hi": "\"Because\" कारण बताता है, पर बारिश मैच के जारी रहने का कारण नहीं है।",
+          "mr": "\"Because\" कारण सांगते, पण पाऊस हे सामना सुरू राहण्याचे कारण नाही."
+        },
+        "2": {
+          "en": "\"Unless\" means \"if not\" and does not suit a fact that has already happened.",
+          "hi": "\"Unless\" का अर्थ \"यदि नहीं\" है और यह पहले से हो चुकी बात के साथ ठीक नहीं बैठता।",
+          "mr": "\"Unless\" म्हणजे \"जर नाही तर\" आणि ते आधीच घडलेल्या गोष्टीशी जुळत नाही."
+        },
+        "3": {
+          "en": "\"So\" shows a result and cannot begin this sentence to join the two ideas.",
+          "hi": "\"So\" परिणाम दिखाता है और इन दोनों बातों को जोड़ने के लिए वाक्य की शुरुआत में नहीं आ सकता।",
+          "mr": "\"So\" परिणाम दाखवते आणि या दोन गोष्टी जोडण्यासाठी वाक्याच्या सुरुवातीला येऊ शकत नाही."
+        }
+      }
+    }
+  ]
+}

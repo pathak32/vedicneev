@@ -1,0 +1,984 @@
+{
+  "examType": "AISSEE",
+  "classLevel": 6,
+  "paperNumber": 3,
+  "sectionKey": "mental_ability",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "aissee6-p3-ma-01",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "In a certain code, ROSE is written as SPTF. How will LAMP be written in that code?",
+        "hi": "एक निश्चित कूट भाषा में ROSE को SPTF लिखा जाता है। उसी कूट भाषा में LAMP को कैसे लिखा जाएगा?",
+        "mr": "एका ठराविक सांकेतिक भाषेत ROSE हा शब्द SPTF असा लिहिला जातो. त्याच सांकेतिक भाषेत LAMP कसा लिहिला जाईल?"
+      },
+      "optionsJson": [
+        { "en": "KZLO", "hi": "KZLO", "mr": "KZLO" },
+        { "en": "MBNQ", "hi": "MBNQ", "mr": "MBNQ" },
+        { "en": "MBNO", "hi": "MBNO", "mr": "MBNO" },
+        { "en": "LBNQ", "hi": "LBNQ", "mr": "LBNQ" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Each letter is moved one place forward in the alphabet (R→S, O→P, S→T, E→F). So L→M, A→B, M→N, P→Q gives MBNQ.",
+        "hi": "प्रत्येक अक्षर को वर्णमाला में एक स्थान आगे बढ़ाया गया है (R→S, O→P, S→T, E→F)। इसलिए L→M, A→B, M→N, P→Q से MBNQ बनता है।",
+        "mr": "प्रत्येक अक्षर वर्णमालेत एक स्थान पुढे नेले आहे (R→S, O→P, S→T, E→F). म्हणून L→M, A→B, M→N, P→Q यावरून MBNQ मिळते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Each letter was moved one place backward instead of forward.",
+          "hi": "प्रत्येक अक्षर को आगे के बजाय एक स्थान पीछे ले जाया गया है।",
+          "mr": "प्रत्येक अक्षर पुढे नेण्याऐवजी एक स्थान मागे नेले आहे."
+        },
+        "2": {
+          "en": "The last letter P was wrongly changed to O instead of Q.",
+          "hi": "अंतिम अक्षर P को Q के बजाय गलती से O कर दिया गया है।",
+          "mr": "शेवटचे अक्षर P चे Q ऐवजी चुकून O केले आहे."
+        },
+        "3": {
+          "en": "The first letter L was left unchanged instead of becoming M.",
+          "hi": "पहला अक्षर L, M बनने के बजाय अपरिवर्तित छोड़ दिया गया है।",
+          "mr": "पहिले अक्षर L चे M करण्याऐवजी ते तसेच ठेवले आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-ma-02",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "How many letters are there between G and P in the English alphabet?",
+        "hi": "अंग्रेज़ी वर्णमाला में G और P के बीच कितने अक्षर हैं?",
+        "mr": "इंग्रजी वर्णमालेत G आणि P यांच्या दरम्यान किती अक्षरे आहेत?"
+      },
+      "optionsJson": [
+        { "en": "7", "hi": "7", "mr": "7" },
+        { "en": "9", "hi": "9", "mr": "9" },
+        { "en": "8", "hi": "8", "mr": "8" },
+        { "en": "10", "hi": "10", "mr": "10" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "G is the 7th letter and P is the 16th letter. The letters between them are H to O, which is 16 − 7 − 1 = 8 letters.",
+        "hi": "G सातवाँ अक्षर है और P सोलहवाँ अक्षर है। इनके बीच H से O तक के अक्षर हैं, यानी 16 − 7 − 1 = 8 अक्षर।",
+        "mr": "G हे 7 वे अक्षर आहे आणि P हे 16 वे अक्षर आहे. त्यांच्या दरम्यान H ते O ही अक्षरे आहेत, म्हणजे 16 − 7 − 1 = 8 अक्षरे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "7 is only the position of G, not the number of letters between G and P.",
+          "hi": "7 केवल G का स्थान है, G और P के बीच के अक्षरों की संख्या नहीं।",
+          "mr": "7 हा फक्त G चा क्रमांक आहे, G आणि P यांच्या दरम्यानच्या अक्षरांची संख्या नाही."
+        },
+        "1": {
+          "en": "9 comes from 16 − 7, which also counts P itself; the letters strictly between are one fewer.",
+          "hi": "9, 16 − 7 से मिलता है जिसमें P स्वयं भी गिना जाता है; बीच के अक्षर इससे एक कम हैं।",
+          "mr": "9 हे 16 − 7 वरून मिळते, ज्यात P सुद्धा मोजला जातो; दरम्यानची अक्षरे यापेक्षा एकाने कमी आहेत."
+        },
+        "3": {
+          "en": "10 over-counts; only the letters H to O lie between G and P.",
+          "hi": "10 आवश्यकता से अधिक गिनती है; G और P के बीच केवल H से O तक के अक्षर हैं।",
+          "mr": "10 ही गरजेपेक्षा जास्त मोजणी आहे; G आणि P यांच्या दरम्यान फक्त H ते O ही अक्षरे आहेत."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-ma-03",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "In a certain code, FACE is written as 6135. How will CAFE be written in that code?",
+        "hi": "एक निश्चित कूट भाषा में FACE को 6135 लिखा जाता है। उसी कूट भाषा में CAFE को कैसे लिखा जाएगा?",
+        "mr": "एका ठराविक सांकेतिक भाषेत FACE हा शब्द 6135 असा लिहिला जातो. त्याच सांकेतिक भाषेत CAFE कसा लिहिला जाईल?"
+      },
+      "optionsJson": [
+        { "en": "3165", "hi": "3165", "mr": "3165" },
+        { "en": "3615", "hi": "3615", "mr": "3615" },
+        { "en": "6315", "hi": "6315", "mr": "6315" },
+        { "en": "3156", "hi": "3156", "mr": "3156" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Each letter is replaced by its position in the alphabet: F = 6, A = 1, C = 3, E = 5. So C, A, F, E becomes 3, 1, 6, 5, that is 3165.",
+        "hi": "प्रत्येक अक्षर को वर्णमाला में उसके क्रम की संख्या से बदला गया है: F = 6, A = 1, C = 3, E = 5। इसलिए C, A, F, E का कूट 3, 1, 6, 5 यानी 3165 होगा।",
+        "mr": "प्रत्येक अक्षराच्या जागी वर्णमालेतील त्याचा क्रमांक लिहिला आहे: F = 6, A = 1, C = 3, E = 5. म्हणून C, A, F, E यांचे सांकेतिक रूप 3, 1, 6, 5 म्हणजेच 3165 होते."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "The codes for A and F are in the wrong order; CAFE needs 3, 1, 6, 5.",
+          "hi": "A और F के कूट गलत क्रम में हैं; CAFE के लिए 3, 1, 6, 5 चाहिए।",
+          "mr": "A आणि F चे सांकेतिक अंक चुकीच्या क्रमाने आहेत; CAFE साठी 3, 1, 6, 5 हवे."
+        },
+        "2": {
+          "en": "This starts with 6 (the code of F), but CAFE starts with C, which is 3.",
+          "hi": "यह 6 (F का कूट) से शुरू होता है, जबकि CAFE की शुरुआत C से होती है जो 3 है।",
+          "mr": "हे 6 (F चा अंक) ने सुरू होते, पण CAFE ची सुरुवात C ने होते, जो 3 आहे."
+        },
+        "3": {
+          "en": "The last two digits are swapped; F = 6 must come before E = 5.",
+          "hi": "अंतिम दो अंक आपस में बदल गए हैं; F = 6 को E = 5 से पहले आना चाहिए।",
+          "mr": "शेवटचे दोन अंक आपसात बदलले आहेत; F = 6 हा E = 5 च्या आधी यायला हवा."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-ma-04",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Priya is facing West. She turns right and walks 4 m. Then she turns right again and walks 4 m. In which direction is she walking now?",
+        "hi": "प्रिया पश्चिम की ओर मुँह करके खड़ी है। वह दाएँ मुड़ती है और 4 मीटर चलती है। फिर वह दोबारा दाएँ मुड़ती है और 4 मीटर चलती है। अब वह किस दिशा में चल रही है?",
+        "mr": "प्रिया पश्चिमेकडे तोंड करून उभी आहे. ती उजवीकडे वळते आणि 4 मीटर चालते. नंतर ती पुन्हा उजवीकडे वळते आणि 4 मीटर चालते. आता ती कोणत्या दिशेने चालत आहे?"
+      },
+      "optionsJson": [
+        { "en": "North", "hi": "उत्तर", "mr": "उत्तर" },
+        { "en": "South", "hi": "दक्षिण", "mr": "दक्षिण" },
+        { "en": "West", "hi": "पश्चिम", "mr": "पश्चिम" },
+        { "en": "East", "hi": "पूर्व", "mr": "पूर्व" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Facing West, a right turn makes her face North. Another right turn makes her face East. So she is now walking East.",
+        "hi": "पश्चिम की ओर मुँह हो तो दाएँ मुड़ने पर मुँह उत्तर की ओर हो जाता है। फिर दाएँ मुड़ने पर मुँह पूर्व की ओर हो जाता है। इसलिए वह अब पूर्व दिशा में चल रही है।",
+        "mr": "पश्चिमेकडे तोंड असताना उजवीकडे वळल्यावर तोंड उत्तरेकडे होते. पुन्हा उजवीकडे वळल्यावर तोंड पूर्वेकडे होते. म्हणून ती आता पूर्वेकडे चालत आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "North is her direction after only the first right turn.",
+          "hi": "उत्तर केवल पहली बार दाएँ मुड़ने के बाद की दिशा है।",
+          "mr": "उत्तर ही फक्त पहिल्या उजव्या वळणानंतरची दिशा आहे."
+        },
+        "1": {
+          "en": "South would be reached by turning left from West, not right.",
+          "hi": "पश्चिम से बाएँ मुड़ने पर दक्षिण मिलता है, दाएँ मुड़ने पर नहीं।",
+          "mr": "पश्चिमेकडून डावीकडे वळल्यावर दक्षिण मिळते, उजवीकडे वळल्यावर नाही."
+        },
+        "2": {
+          "en": "West is the direction she started in; two right turns make a half-turn (180°), so she faces the opposite direction.",
+          "hi": "पश्चिम वह दिशा है जिसमें वह शुरू में थी; दो बार दाएँ मुड़ना आधा चक्कर (180°) है, इसलिए उसका मुँह विपरीत दिशा में होता है।",
+          "mr": "पश्चिम ही तिची सुरुवातीची दिशा आहे; दोन उजवी वळणे म्हणजे अर्धा फेरा (180°), म्हणून तिचे तोंड उलट दिशेला होते."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-ma-05",
+      "year": 2024,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Kavya's rank is 9th from the top in a class of 30 students. What is her rank from the bottom?",
+        "hi": "30 विद्यार्थियों की एक कक्षा में काव्या का स्थान ऊपर से 9वाँ है। नीचे से उसका स्थान कौन-सा है?",
+        "mr": "30 विद्यार्थ्यांच्या वर्गात काव्याचा क्रमांक वरून 9 वा आहे. खालून तिचा क्रमांक कितवा आहे?"
+      },
+      "optionsJson": [
+        { "en": "23rd", "hi": "23वाँ", "mr": "23 वा" },
+        { "en": "22nd", "hi": "22वाँ", "mr": "22 वा" },
+        { "en": "21st", "hi": "21वाँ", "mr": "21 वा" },
+        { "en": "24th", "hi": "24वाँ", "mr": "24 वा" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Rank from the bottom = total − rank from the top + 1 = 30 − 9 + 1 = 22nd.",
+        "hi": "नीचे से स्थान = कुल संख्या − ऊपर से स्थान + 1 = 30 − 9 + 1 = 22वाँ।",
+        "mr": "खालून क्रमांक = एकूण संख्या − वरून क्रमांक + 1 = 30 − 9 + 1 = 22 वा."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "23rd comes from adding 2 instead of 1 (30 − 9 + 2).",
+          "hi": "23वाँ तब मिलता है जब 1 के बजाय 2 जोड़ा जाए (30 − 9 + 2)।",
+          "mr": "1 ऐवजी 2 मिळवल्यास 23 वा येतो (30 − 9 + 2)."
+        },
+        "2": {
+          "en": "21 is just 30 − 9 and forgets to add 1; Kavya herself must also be counted.",
+          "hi": "21 केवल 30 − 9 है और इसमें 1 जोड़ना भूल गए; काव्या को भी गिनना होगा।",
+          "mr": "21 हे फक्त 30 − 9 आहे आणि त्यात 1 मिळवायचे राहिले; काव्यालाही मोजायला हवे."
+        },
+        "3": {
+          "en": "There are 21 students below her, so she is 22nd from the bottom, not 24th.",
+          "hi": "उसके नीचे 21 विद्यार्थी हैं, इसलिए वह नीचे से 22वीं है, 24वीं नहीं।",
+          "mr": "तिच्या खाली 21 विद्यार्थी आहेत, म्हणून ती खालून 22 वी आहे, 24 वी नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-ma-06",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Find the odd one out: Sunday, Monday, March, Friday",
+        "hi": "असंगत चुनें: रविवार, सोमवार, मार्च, शुक्रवार",
+        "mr": "वेगळा शब्द ओळखा: रविवार, सोमवार, मार्च, शुक्रवार"
+      },
+      "optionsJson": [
+        { "en": "March", "hi": "मार्च", "mr": "मार्च" },
+        { "en": "Monday", "hi": "सोमवार", "mr": "सोमवार" },
+        { "en": "Sunday", "hi": "रविवार", "mr": "रविवार" },
+        { "en": "Friday", "hi": "शुक्रवार", "mr": "शुक्रवार" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Sunday, Monday and Friday are days of the week, but March is a month of the year.",
+        "hi": "रविवार, सोमवार और शुक्रवार सप्ताह के दिन हैं, लेकिन मार्च वर्ष का एक महीना है।",
+        "mr": "रविवार, सोमवार आणि शुक्रवार हे आठवड्याचे वार आहेत, पण मार्च हा वर्षाचा एक महिना आहे."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "A day of the week, part of the majority group.",
+          "hi": "यह सप्ताह का एक दिन है, बहुसंख्यक समूह का भाग।",
+          "mr": "हा आठवड्याचा एक वार आहे, बहुसंख्य गटाचा भाग."
+        },
+        "2": {
+          "en": "A day of the week, part of the majority group.",
+          "hi": "यह सप्ताह का एक दिन है, बहुसंख्यक समूह का भाग।",
+          "mr": "हा आठवड्याचा एक वार आहे, बहुसंख्य गटाचा भाग."
+        },
+        "3": {
+          "en": "A day of the week, part of the majority group.",
+          "hi": "यह सप्ताह का एक दिन है, बहुसंख्यक समूह का भाग।",
+          "mr": "हा आठवड्याचा एक वार आहे, बहुसंख्य गटाचा भाग."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-ma-07",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Pointing to a lady, Raju said, 'She is the mother of my sister's father.' How is the lady related to Raju?",
+        "hi": "एक महिला की ओर इशारा करते हुए राजू ने कहा, 'वह मेरी बहन के पिता की माँ है।' वह महिला राजू की क्या लगती है?",
+        "mr": "एका स्त्रीकडे बोट दाखवून राजू म्हणाला, 'ती माझ्या बहिणीच्या वडिलांची आई आहे.' ती स्त्री राजूची कोण लागते?"
+      },
+      "optionsJson": [
+        { "en": "Mother", "hi": "माँ", "mr": "आई" },
+        { "en": "Aunt", "hi": "मौसी", "mr": "मावशी" },
+        { "en": "Sister", "hi": "बहन", "mr": "बहीण" },
+        { "en": "Grandmother", "hi": "दादी", "mr": "आजी" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Raju's sister's father is Raju's own father. The mother of Raju's father is Raju's grandmother.",
+        "hi": "राजू की बहन के पिता राजू के अपने पिता ही हैं। राजू के पिता की माँ राजू की दादी हैं।",
+        "mr": "राजूच्या बहिणीचे वडील म्हणजे राजूचेच वडील. राजूच्या वडिलांची आई म्हणजे राजूची आजी."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "A mother would be the wife of Raju's father, not the mother of Raju's father.",
+          "hi": "माँ राजू के पिता की पत्नी होती, पिता की माँ नहीं।",
+          "mr": "आई म्हणजे राजूच्या वडिलांची पत्नी, वडिलांची आई नाही."
+        },
+        "1": {
+          "en": "An aunt is a sister of a parent, not the mother of a parent.",
+          "hi": "मौसी माता-पिता की बहन होती है, माता-पिता की माँ नहीं।",
+          "mr": "मावशी म्हणजे आईवडिलांची बहीण, आईवडिलांची आई नाही."
+        },
+        "2": {
+          "en": "A sister belongs to Raju's own generation; the lady is one generation above his father.",
+          "hi": "बहन राजू की अपनी पीढ़ी की होती है; यह महिला उसके पिता से एक पीढ़ी ऊपर की है।",
+          "mr": "बहीण ही राजूच्याच पिढीतील असते; ही स्त्री त्याच्या वडिलांच्या एक पिढी वरची आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-ma-08",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Find the next number in the series: 2, 5, 10, 17, 26, ___?",
+        "hi": "श्रृंखला में अगली संख्या ज्ञात कीजिए: 2, 5, 10, 17, 26, ___?",
+        "mr": "श्रेणीतील पुढील संख्या शोधा: 2, 5, 10, 17, 26, ___?"
+      },
+      "optionsJson": [
+        { "en": "35", "hi": "35", "mr": "35" },
+        { "en": "36", "hi": "36", "mr": "36" },
+        { "en": "37", "hi": "37", "mr": "37" },
+        { "en": "39", "hi": "39", "mr": "39" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The differences are 3, 5, 7, 9, so the next difference is 11 and 26 + 11 = 37. (Each term is also a square plus 1: 1² + 1, 2² + 1, ..., 6² + 1 = 37.)",
+        "hi": "क्रमागत अंतर 3, 5, 7, 9 हैं, इसलिए अगला अंतर 11 होगा और 26 + 11 = 37। (प्रत्येक पद किसी वर्ग संख्या में 1 जोड़ने पर भी मिलता है: 1² + 1, 2² + 1, ..., 6² + 1 = 37।)",
+        "mr": "फरक 3, 5, 7, 9 असे आहेत, म्हणून पुढील फरक 11 असेल आणि 26 + 11 = 37. (प्रत्येक पद हे एखाद्या वर्गसंख्येत 1 मिळवूनही मिळते: 1² + 1, 2² + 1, ..., 6² + 1 = 37.)"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "35 is 26 + 9; it repeats the last difference instead of increasing it to 11.",
+          "hi": "35 = 26 + 9 है; यह अंतिम अंतर को 11 तक बढ़ाने के बजाय दोहराता है।",
+          "mr": "35 हे 26 + 9 आहे; यात शेवटचा फरक 11 करण्याऐवजी तोच पुन्हा घेतला आहे."
+        },
+        "1": {
+          "en": "36 is 26 + 10; the differences are odd numbers, so 10 does not fit.",
+          "hi": "36 = 26 + 10 है; अंतर विषम संख्याएँ हैं, इसलिए 10 उपयुक्त नहीं है।",
+          "mr": "36 हे 26 + 10 आहे; फरक विषम संख्या आहेत, म्हणून 10 बसत नाही."
+        },
+        "3": {
+          "en": "39 is 26 + 13; it skips the difference 11.",
+          "hi": "39 = 26 + 13 है; यह अंतर 11 को छोड़ देता है।",
+          "mr": "39 हे 26 + 13 आहे; यात फरक 11 वगळला आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-ma-09",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "In a certain code, PLATE is written as QKBSF. How will STONE be written in that code?",
+        "hi": "एक निश्चित कूट भाषा में PLATE को QKBSF लिखा जाता है। उसी कूट भाषा में STONE को कैसे लिखा जाएगा?",
+        "mr": "एका ठराविक सांकेतिक भाषेत PLATE हा शब्द QKBSF असा लिहिला जातो. त्याच सांकेतिक भाषेत STONE कसा लिहिला जाईल?"
+      },
+      "optionsJson": [
+        { "en": "TSPMF", "hi": "TSPMF", "mr": "TSPMF" },
+        { "en": "TUPOF", "hi": "TUPOF", "mr": "TUPOF" },
+        { "en": "RSNMD", "hi": "RSNMD", "mr": "RSNMD" },
+        { "en": "TSPNF", "hi": "TSPNF", "mr": "TSPNF" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "In PLATE the 1st, 3rd and 5th letters move one step forward (P→Q, A→B, E→F) and the 2nd and 4th letters move one step back (L→K, T→S). Applying this to STONE: S→T, T→S, O→P, N→M, E→F, giving TSPMF.",
+        "hi": "PLATE में पहले, तीसरे और पाँचवें अक्षर एक स्थान आगे (P→Q, A→B, E→F) तथा दूसरे और चौथे अक्षर एक स्थान पीछे (L→K, T→S) गए हैं। इसे STONE पर लगाने पर S→T, T→S, O→P, N→M, E→F मिलता है, यानी TSPMF।",
+        "mr": "PLATE मध्ये पहिले, तिसरे आणि पाचवे अक्षर एक स्थान पुढे (P→Q, A→B, E→F) आणि दुसरे व चौथे अक्षर एक स्थान मागे (L→K, T→S) गेले आहे. हेच STONE ला लावल्यास S→T, T→S, O→P, N→M, E→F मिळते, म्हणजे TSPMF."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "All letters were moved one step forward; the 2nd and 4th letters must move back.",
+          "hi": "सभी अक्षर एक स्थान आगे बढ़ा दिए गए हैं; दूसरे और चौथे अक्षर को पीछे जाना चाहिए।",
+          "mr": "सर्व अक्षरे एक स्थान पुढे नेली आहेत; दुसरे आणि चौथे अक्षर मागे जायला हवे."
+        },
+        "2": {
+          "en": "All letters were moved one step back; the 1st, 3rd and 5th letters must move forward.",
+          "hi": "सभी अक्षर एक स्थान पीछे कर दिए गए हैं; पहले, तीसरे और पाँचवें अक्षर को आगे जाना चाहिए।",
+          "mr": "सर्व अक्षरे एक स्थान मागे नेली आहेत; पहिले, तिसरे आणि पाचवे अक्षर पुढे जायला हवे."
+        },
+        "3": {
+          "en": "The 4th letter N was left unchanged; it should move one step back to M.",
+          "hi": "चौथा अक्षर N अपरिवर्तित छोड़ दिया गया है; उसे एक स्थान पीछे जाकर M बनना चाहिए।",
+          "mr": "चौथे अक्षर N तसेच ठेवले आहे; ते एक स्थान मागे जाऊन M व्हायला हवे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-ma-10",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Tara walks 12 m towards the North, then turns left and walks 6 m, then turns left again and walks 12 m, and finally turns right and walks 5 m. How far and in which direction is she from her starting point?",
+        "hi": "तारा उत्तर की ओर 12 मीटर चलती है, फिर बाएँ मुड़कर 6 मीटर चलती है, फिर दोबारा बाएँ मुड़कर 12 मीटर चलती है और अंत में दाएँ मुड़कर 5 मीटर चलती है। वह अपने प्रारंभिक बिंदु से कितनी दूर और किस दिशा में है?",
+        "mr": "तारा उत्तरेकडे 12 मीटर चालते, नंतर डावीकडे वळून 6 मीटर चालते, पुन्हा डावीकडे वळून 12 मीटर चालते आणि शेवटी उजवीकडे वळून 5 मीटर चालते. ती आपल्या सुरुवातीच्या ठिकाणापासून किती अंतरावर आणि कोणत्या दिशेला आहे?"
+      },
+      "optionsJson": [
+        { "en": "5 m West", "hi": "5 मीटर पश्चिम", "mr": "5 मीटर पश्चिमेला" },
+        { "en": "6 m West", "hi": "6 मीटर पश्चिम", "mr": "6 मीटर पश्चिमेला" },
+        { "en": "11 m East", "hi": "11 मीटर पूर्व", "mr": "11 मीटर पूर्वेला" },
+        { "en": "11 m West", "hi": "11 मीटर पश्चिम", "mr": "11 मीटर पश्चिमेला" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Going North and turning left means she walks 6 m West. Turning left again she walks 12 m South, which brings her back in line with the start, 6 m to the West. Turning right (from South) she walks 5 m more to the West. Total: 6 + 5 = 11 m West.",
+        "hi": "उत्तर की ओर चलकर बाएँ मुड़ने पर वह 6 मीटर पश्चिम चलती है। फिर बाएँ मुड़कर 12 मीटर दक्षिण चलती है, जिससे वह शुरुआती बिंदु की सीध में, 6 मीटर पश्चिम में आ जाती है। (दक्षिण की ओर मुँह होने पर) दाएँ मुड़कर वह 5 मीटर और पश्चिम चलती है। कुल: 6 + 5 = 11 मीटर पश्चिम।",
+        "mr": "उत्तरेकडे चालून डावीकडे वळल्यावर ती 6 मीटर पश्चिमेकडे चालते. पुन्हा डावीकडे वळून ती 12 मीटर दक्षिणेकडे चालते, त्यामुळे ती सुरुवातीच्या ठिकाणाच्या सरळ रेषेत, 6 मीटर पश्चिमेला येते. (दक्षिणेकडे तोंड असताना) उजवीकडे वळून ती आणखी 5 मीटर पश्चिमेकडे चालते. एकूण: 6 + 5 = 11 मीटर पश्चिमेला."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "This counts only the last stretch of 5 m and ignores the earlier 6 m to the West.",
+          "hi": "इसमें केवल अंतिम 5 मीटर गिने गए हैं और पहले के 6 मीटर पश्चिम को छोड़ दिया गया है।",
+          "mr": "यात फक्त शेवटचे 5 मीटर मोजले आहेत आणि आधीचे 6 मीटर पश्चिमेकडील अंतर वगळले आहे."
+        },
+        "1": {
+          "en": "This stops before the final 5 m walk towards the West.",
+          "hi": "इसमें अंतिम 5 मीटर पश्चिम की ओर चलना शामिल नहीं किया गया है।",
+          "mr": "यात शेवटचे 5 मीटर पश्चिमेकडे चालणे धरलेले नाही."
+        },
+        "2": {
+          "en": "She drifts towards the West at each sideways step (left of North is West), so East is wrong.",
+          "hi": "हर बार बगल की ओर चलने पर वह पश्चिम की ओर जाती है (उत्तर की ओर मुँह हो तो बायाँ पश्चिम होता है), इसलिए पूर्व गलत है।",
+          "mr": "प्रत्येक बाजूच्या चालीत ती पश्चिमेकडे सरकते (उत्तरेकडे तोंड असताना डावी बाजू पश्चिम असते), म्हणून पूर्व चुकीचे आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-ma-11",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "If 1 January 2024 was a Monday, what day of the week was 1 February 2024?",
+        "hi": "यदि 1 जनवरी 2024 को सोमवार था, तो 1 फरवरी 2024 को सप्ताह का कौन-सा दिन था?",
+        "mr": "जर 1 जानेवारी 2024 रोजी सोमवार होता, तर 1 फेब्रुवारी 2024 रोजी आठवड्यातील कोणता वार होता?"
+      },
+      "optionsJson": [
+        { "en": "Wednesday", "hi": "बुधवार", "mr": "बुधवार" },
+        { "en": "Thursday", "hi": "गुरुवार", "mr": "गुरुवार" },
+        { "en": "Friday", "hi": "शुक्रवार", "mr": "शुक्रवार" },
+        { "en": "Saturday", "hi": "शनिवार", "mr": "शनिवार" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "January has 31 days. 31 = 4 weeks + 3 days, so the day moves 3 days ahead: Monday + 3 days = Thursday.",
+        "hi": "जनवरी में 31 दिन होते हैं। 31 = 4 सप्ताह + 3 दिन, इसलिए दिन 3 दिन आगे बढ़ जाता है: सोमवार + 3 दिन = गुरुवार।",
+        "mr": "जानेवारीत 31 दिवस असतात. 31 = 4 आठवडे + 3 दिवस, म्हणून वार 3 दिवस पुढे सरकतो: सोमवार + 3 दिवस = गुरुवार."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Wednesday is only 2 days after Monday, which would be the case after 30 days.",
+          "hi": "बुधवार सोमवार के केवल 2 दिन बाद है, जो 30 दिन बाद होता।",
+          "mr": "बुधवार हा सोमवारनंतर फक्त 2 दिवसांनी येतो, जो 30 दिवसांनंतर आला असता."
+        },
+        "2": {
+          "en": "Friday is 4 days after Monday, which would need 32 days.",
+          "hi": "शुक्रवार सोमवार के 4 दिन बाद है, जिसके लिए 32 दिन चाहिए।",
+          "mr": "शुक्रवार हा सोमवारनंतर 4 दिवसांनी येतो, त्यासाठी 32 दिवस लागले असते."
+        },
+        "3": {
+          "en": "Saturday is 5 days after Monday, which would need 33 days.",
+          "hi": "शनिवार सोमवार के 5 दिन बाद है, जिसके लिए 33 दिन चाहिए।",
+          "mr": "शनिवार हा सोमवारनंतर 5 दिवसांनी येतो, त्यासाठी 33 दिवस लागले असते."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-ma-12",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Which letter is exactly in the middle of F and N in the English alphabet?",
+        "hi": "अंग्रेज़ी वर्णमाला में F और N के ठीक बीच में कौन-सा अक्षर है?",
+        "mr": "इंग्रजी वर्णमालेत F आणि N यांच्या अगदी मध्यभागी कोणते अक्षर आहे?"
+      },
+      "optionsJson": [
+        { "en": "I", "hi": "I", "mr": "I" },
+        { "en": "K", "hi": "K", "mr": "K" },
+        { "en": "J", "hi": "J", "mr": "J" },
+        { "en": "L", "hi": "L", "mr": "L" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "F is the 6th letter and N is the 14th letter. The middle position is (6 + 14) ÷ 2 = 10, and the 10th letter is J. (There are 3 letters on each side of J: G, H, I and K, L, M.)",
+        "hi": "F छठा अक्षर है और N चौदहवाँ अक्षर है। बीच का स्थान (6 + 14) ÷ 2 = 10 है, और दसवाँ अक्षर J है। (J के दोनों ओर 3-3 अक्षर हैं: G, H, I और K, L, M।)",
+        "mr": "F हे 6 वे अक्षर आहे आणि N हे 14 वे अक्षर आहे. मधला क्रमांक (6 + 14) ÷ 2 = 10 आहे आणि 10 वे अक्षर J आहे. (J च्या दोन्ही बाजूंना 3-3 अक्षरे आहेत: G, H, I आणि K, L, M.)"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "I is the 9th letter, one place before the middle.",
+          "hi": "I नौवाँ अक्षर है, यह बीच से एक स्थान पहले है।",
+          "mr": "I हे 9 वे अक्षर आहे, ते मध्यापासून एक स्थान आधी आहे."
+        },
+        "1": {
+          "en": "K is the 11th letter, one place after the middle.",
+          "hi": "K ग्यारहवाँ अक्षर है, यह बीच से एक स्थान बाद में है।",
+          "mr": "K हे 11 वे अक्षर आहे, ते मध्यापासून एक स्थान नंतर आहे."
+        },
+        "3": {
+          "en": "L is the 12th letter, two places after the middle.",
+          "hi": "L बारहवाँ अक्षर है, यह बीच से दो स्थान बाद में है।",
+          "mr": "L हे 12 वे अक्षर आहे, ते मध्यापासून दोन स्थाने नंतर आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-ma-13",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "In a row of 40 children, Manoj is 15th from the left end and Rohan is 9th from the right end. How many children are standing between Manoj and Rohan?",
+        "hi": "40 बच्चों की एक पंक्ति में मनोज बाएँ छोर से 15वाँ और रोहन दाएँ छोर से 9वाँ है। मनोज और रोहन के बीच कितने बच्चे खड़े हैं?",
+        "mr": "40 मुलांच्या एका रांगेत मनोज डाव्या टोकापासून 15 वा आणि रोहन उजव्या टोकापासून 9 वा आहे. मनोज आणि रोहन यांच्या दरम्यान किती मुले उभी आहेत?"
+      },
+      "optionsJson": [
+        { "en": "15", "hi": "15", "mr": "15" },
+        { "en": "17", "hi": "17", "mr": "17" },
+        { "en": "14", "hi": "14", "mr": "14" },
+        { "en": "16", "hi": "16", "mr": "16" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Rohan's position from the left = 40 − 9 + 1 = 32. Children between the 15th and the 32nd positions = 32 − 15 − 1 = 16.",
+        "hi": "रोहन का बाएँ से स्थान = 40 − 9 + 1 = 32। 15वें और 32वें स्थान के बीच बच्चे = 32 − 15 − 1 = 16।",
+        "mr": "रोहनचा डावीकडून क्रमांक = 40 − 9 + 1 = 32. 15 व्या आणि 32 व्या क्रमांकाच्या दरम्यानची मुले = 32 − 15 − 1 = 16."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "15 is only Manoj's position, not the number of children between them.",
+          "hi": "15 केवल मनोज का स्थान है, उनके बीच के बच्चों की संख्या नहीं।",
+          "mr": "15 हा फक्त मनोजचा क्रमांक आहे, त्यांच्या दरम्यानच्या मुलांची संख्या नाही."
+        },
+        "1": {
+          "en": "32 − 15 = 17 also counts Rohan; one more must be subtracted.",
+          "hi": "32 − 15 = 17 में रोहन भी गिना गया है; एक और घटाना होगा।",
+          "mr": "32 − 15 = 17 मध्ये रोहनही मोजला गेला आहे; आणखी 1 वजा करायला हवे."
+        },
+        "2": {
+          "en": "14 subtracts too much; only Manoj and Rohan themselves are left out of the count.",
+          "hi": "14 में आवश्यकता से अधिक घटा दिया गया है; केवल मनोज और रोहन को गिनती से बाहर रखना है।",
+          "mr": "14 मध्ये गरजेपेक्षा जास्त वजा केले आहे; फक्त मनोज आणि रोहन यांनाच मोजणीतून वगळायचे आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-ma-14",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Metre : Length :: Litre : ?",
+        "hi": "मीटर : लंबाई :: लीटर : ?",
+        "mr": "मीटर : लांबी :: लिटर : ?"
+      },
+      "optionsJson": [
+        { "en": "Volume", "hi": "आयतन", "mr": "आकारमान" },
+        { "en": "Weight", "hi": "भार", "mr": "वजन" },
+        { "en": "Time", "hi": "समय", "mr": "वेळ" },
+        { "en": "Area", "hi": "क्षेत्रफल", "mr": "क्षेत्रफळ" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Metre is the unit used to measure length. In the same way, litre is the unit used to measure volume (capacity).",
+        "hi": "मीटर लंबाई मापने की इकाई है। उसी प्रकार लीटर आयतन (धारिता) मापने की इकाई है।",
+        "mr": "मीटर हे लांबी मोजण्याचे एकक आहे. त्याचप्रमाणे लिटर हे आकारमान (क्षमता) मोजण्याचे एकक आहे."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Weight is measured in grams or kilograms, not litres.",
+          "hi": "भार ग्राम या किलोग्राम में मापा जाता है, लीटर में नहीं।",
+          "mr": "वजन ग्रॅम किंवा किलोग्रॅममध्ये मोजले जाते, लिटरमध्ये नाही."
+        },
+        "2": {
+          "en": "Time is measured in seconds, minutes or hours, not litres.",
+          "hi": "समय सेकंड, मिनट या घंटे में मापा जाता है, लीटर में नहीं।",
+          "mr": "वेळ सेकंद, मिनिटे किंवा तासांमध्ये मोजली जाते, लिटरमध्ये नाही."
+        },
+        "3": {
+          "en": "Area is measured in square metres or square centimetres, not litres.",
+          "hi": "क्षेत्रफल वर्ग मीटर या वर्ग सेंटीमीटर में मापा जाता है, लीटर में नहीं।",
+          "mr": "क्षेत्रफळ चौरस मीटर किंवा चौरस सेंटीमीटरमध्ये मोजले जाते, लिटरमध्ये नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-ma-15",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "If a @ b means 2a + 3b, what is the value of 4 @ 5?",
+        "hi": "यदि a @ b का अर्थ 2a + 3b है, तो 4 @ 5 का मान क्या होगा?",
+        "mr": "जर a @ b म्हणजे 2a + 3b, तर 4 @ 5 ची किंमत किती?"
+      },
+      "optionsJson": [
+        { "en": "22", "hi": "22", "mr": "22" },
+        { "en": "23", "hi": "23", "mr": "23" },
+        { "en": "20", "hi": "20", "mr": "20" },
+        { "en": "27", "hi": "27", "mr": "27" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "4 @ 5 = 2 × 4 + 3 × 5 = 8 + 15 = 23.",
+        "hi": "4 @ 5 = 2 × 4 + 3 × 5 = 8 + 15 = 23।",
+        "mr": "4 @ 5 = 2 × 4 + 3 × 5 = 8 + 15 = 23."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "22 comes from 3a + 2b = 12 + 10, using the multipliers the wrong way round.",
+          "hi": "22, 3a + 2b = 12 + 10 से मिलता है, जिसमें गुणकों को उलटा लगाया गया है।",
+          "mr": "22 हे 3a + 2b = 12 + 10 वरून मिळते, ज्यात गुणक उलट वापरले आहेत."
+        },
+        "2": {
+          "en": "20 is simply 4 × 5, which ignores the given rule.",
+          "hi": "20 केवल 4 × 5 है, जो दिए गए नियम की अनदेखी करता है।",
+          "mr": "20 हे फक्त 4 × 5 आहे, ज्यात दिलेल्या नियमाकडे दुर्लक्ष केले आहे."
+        },
+        "3": {
+          "en": "27 comes from 3a + 3b = 12 + 15, which does not follow the rule 2a + 3b.",
+          "hi": "27, 3a + 3b = 12 + 15 से मिलता है, जो नियम 2a + 3b के अनुसार नहीं है।",
+          "mr": "27 हे 3a + 3b = 12 + 15 वरून मिळते, जे 2a + 3b या नियमानुसार नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-ma-16",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "In a certain code, PEN is written as KVM. How will BOX be written in that code?",
+        "hi": "एक निश्चित कूट भाषा में PEN को KVM लिखा जाता है। उसी कूट भाषा में BOX को कैसे लिखा जाएगा?",
+        "mr": "एका ठराविक सांकेतिक भाषेत PEN हा शब्द KVM असा लिहिला जातो. त्याच सांकेतिक भाषेत BOX कसा लिहिला जाईल?"
+      },
+      "optionsJson": [
+        { "en": "YKC", "hi": "YKC", "mr": "YKC" },
+        { "en": "YLD", "hi": "YLD", "mr": "YLD" },
+        { "en": "YLC", "hi": "YLC", "mr": "YLC" },
+        { "en": "ZLC", "hi": "ZLC", "mr": "ZLC" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Each letter is replaced by its mirror letter counted from the other end of the alphabet (A↔Z, B↔Y, C↔X, ...): P↔K, E↔V, N↔M. So B→Y, O→L, X→C, giving YLC.",
+        "hi": "प्रत्येक अक्षर को वर्णमाला के दूसरे छोर से गिने गए उसके दर्पण-अक्षर से बदला गया है (A↔Z, B↔Y, C↔X, ...): P↔K, E↔V, N↔M। इसलिए B→Y, O→L, X→C, जिससे YLC बनता है।",
+        "mr": "प्रत्येक अक्षराच्या जागी वर्णमालेच्या दुसऱ्या टोकापासून मोजलेले त्याचे आरशातील अक्षर लिहिले आहे (A↔Z, B↔Y, C↔X, ...): P↔K, E↔V, N↔M. म्हणून B→Y, O→L, X→C, यावरून YLC मिळते."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Here O is replaced by K, but the mirror letter of O (15th) is L (12th).",
+          "hi": "यहाँ O को K से बदला गया है, पर O (15वाँ) का दर्पण-अक्षर L (12वाँ) है।",
+          "mr": "येथे O च्या जागी K लिहिले आहे, पण O (15 वे) चे आरशातील अक्षर L (12 वे) आहे."
+        },
+        "1": {
+          "en": "The mirror letter of X (24th) is C (3rd), not D.",
+          "hi": "X (24वाँ) का दर्पण-अक्षर C (तीसरा) है, D नहीं।",
+          "mr": "X (24 वे) चे आरशातील अक्षर C (तिसरे) आहे, D नाही."
+        },
+        "3": {
+          "en": "The mirror letter of B is Y; Z is the mirror letter of A.",
+          "hi": "B का दर्पण-अक्षर Y है; Z, A का दर्पण-अक्षर है।",
+          "mr": "B चे आरशातील अक्षर Y आहे; Z हे A चे आरशातील अक्षर आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-ma-17",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "If the letters of the word PLANET are arranged in alphabetical order, which letter will be third from the left?",
+        "hi": "यदि PLANET शब्द के अक्षरों को वर्णमाला के क्रम में व्यवस्थित किया जाए, तो बाएँ से तीसरा अक्षर कौन-सा होगा?",
+        "mr": "PLANET या शब्दातील अक्षरे वर्णमालेच्या क्रमाने लावली, तर डावीकडून तिसरे अक्षर कोणते असेल?"
+      },
+      "optionsJson": [
+        { "en": "E", "hi": "E", "mr": "E" },
+        { "en": "N", "hi": "N", "mr": "N" },
+        { "en": "P", "hi": "P", "mr": "P" },
+        { "en": "L", "hi": "L", "mr": "L" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "In alphabetical order the letters become A, E, L, N, P, T. The third letter from the left is L.",
+        "hi": "वर्णमाला के क्रम में अक्षर A, E, L, N, P, T हो जाते हैं। बाएँ से तीसरा अक्षर L है।",
+        "mr": "वर्णमालेच्या क्रमाने अक्षरे A, E, L, N, P, T अशी होतात. डावीकडून तिसरे अक्षर L आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "E is the 2nd letter in the arranged order.",
+          "hi": "व्यवस्थित क्रम में E दूसरा अक्षर है।",
+          "mr": "लावलेल्या क्रमात E हे दुसरे अक्षर आहे."
+        },
+        "1": {
+          "en": "N is the 4th letter in the arranged order.",
+          "hi": "व्यवस्थित क्रम में N चौथा अक्षर है।",
+          "mr": "लावलेल्या क्रमात N हे चौथे अक्षर आहे."
+        },
+        "2": {
+          "en": "P is the 5th letter in the arranged order.",
+          "hi": "व्यवस्थित क्रम में P पाँचवाँ अक्षर है।",
+          "mr": "लावलेल्या क्रमात P हे पाचवे अक्षर आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-ma-18",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "In a row of children, Dev is 9th from the left and Esha is 15th from the left. After Dev and Esha exchange their places, Esha becomes 22nd from the right end. How many children are there in the row?",
+        "hi": "बच्चों की एक पंक्ति में देव बाएँ से 9वाँ और एशा बाएँ से 15वीं है। देव और एशा के आपस में स्थान बदलने के बाद एशा दाएँ छोर से 22वीं हो जाती है। पंक्ति में कुल कितने बच्चे हैं?",
+        "mr": "मुलांच्या एका रांगेत देव डावीकडून 9 वा आणि एशा डावीकडून 15 वी आहे. देव आणि एशा यांनी आपापल्या जागा अदलाबदल केल्यानंतर एशा उजव्या टोकापासून 22 वी होते. रांगेत एकूण किती मुले आहेत?"
+      },
+      "optionsJson": [
+        { "en": "30", "hi": "30", "mr": "30" },
+        { "en": "31", "hi": "31", "mr": "31" },
+        { "en": "29", "hi": "29", "mr": "29" },
+        { "en": "37", "hi": "37", "mr": "37" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "After exchanging places, Esha takes Dev's old position, which is 9th from the left. She is then 22nd from the right, so the total number of children = 9 + 22 − 1 = 30.",
+        "hi": "स्थान बदलने के बाद एशा देव के पुराने स्थान पर आ जाती है, जो बाएँ से 9वाँ है। तब वह दाएँ से 22वीं है, इसलिए कुल बच्चे = 9 + 22 − 1 = 30।",
+        "mr": "जागा बदलल्यावर एशा देवच्या जुन्या जागेवर येते, जी डावीकडून 9 वी आहे. तेव्हा ती उजवीकडून 22 वी आहे, म्हणून एकूण मुले = 9 + 22 − 1 = 30."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "9 + 22 = 31 counts Esha twice; one must be subtracted.",
+          "hi": "9 + 22 = 31 में एशा दो बार गिनी गई है; 1 घटाना होगा।",
+          "mr": "9 + 22 = 31 मध्ये एशा दोनदा मोजली गेली आहे; 1 वजा करायला हवे."
+        },
+        "2": {
+          "en": "29 subtracts one too many (9 + 22 − 2).",
+          "hi": "29 में एक अधिक घटा दिया गया है (9 + 22 − 2)।",
+          "mr": "29 मध्ये एक जास्त वजा केले आहे (9 + 22 − 2)."
+        },
+        "3": {
+          "en": "37 uses Esha's old position 15 (15 + 22), but after the exchange she is 9th from the left.",
+          "hi": "37 में एशा का पुराना स्थान 15 लिया गया है (15 + 22), जबकि स्थान बदलने के बाद वह बाएँ से 9वीं है।",
+          "mr": "37 मध्ये एशाचा जुना क्रमांक 15 घेतला आहे (15 + 22), पण अदलाबदलीनंतर ती डावीकडून 9 वी आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-ma-19",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "A big square is divided into 9 equal small squares by two horizontal and two vertical lines drawn at equal gaps (like a 3 × 3 grid). How many squares of all sizes are there in the figure?",
+        "hi": "एक बड़े वर्ग को दो क्षैतिज और दो ऊर्ध्वाधर रेखाओं द्वारा, बराबर दूरी पर खींचकर, 9 बराबर छोटे वर्गों में बाँटा गया है (3 × 3 की जाली की तरह)। आकृति में सभी आकारों के कुल कितने वर्ग हैं?",
+        "mr": "एका मोठ्या चौरसाला दोन आडव्या आणि दोन उभ्या रेषा समान अंतरावर काढून 9 समान लहान चौरसांत विभागले आहे (3 × 3 जाळीप्रमाणे). आकृतीत सर्व आकारांचे मिळून एकूण किती चौरस आहेत?"
+      },
+      "optionsJson": [
+        { "en": "9", "hi": "9", "mr": "9" },
+        { "en": "13", "hi": "13", "mr": "13" },
+        { "en": "14", "hi": "14", "mr": "14" },
+        { "en": "15", "hi": "15", "mr": "15" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Squares of side 1 unit: 9. Squares of side 2 units: 4. Square of side 3 units (the whole figure): 1. Total = 9 + 4 + 1 = 14.",
+        "hi": "1 इकाई भुजा वाले वर्ग: 9। 2 इकाई भुजा वाले वर्ग: 4। 3 इकाई भुजा वाला वर्ग (पूरी आकृति): 1। कुल = 9 + 4 + 1 = 14।",
+        "mr": "1 एकक बाजूचे चौरस: 9. 2 एकक बाजूचे चौरस: 4. 3 एकक बाजूचा चौरस (संपूर्ण आकृती): 1. एकूण = 9 + 4 + 1 = 14."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "9 counts only the small squares and leaves out the larger ones.",
+          "hi": "9 में केवल छोटे वर्ग गिने गए हैं और बड़े वर्ग छूट गए हैं।",
+          "mr": "9 मध्ये फक्त लहान चौरस मोजले आहेत आणि मोठे चौरस राहून गेले आहेत."
+        },
+        "1": {
+          "en": "13 = 9 + 4 misses the biggest square, which is the whole figure.",
+          "hi": "13 = 9 + 4 में सबसे बड़ा वर्ग, यानी पूरी आकृति, छूट गई है।",
+          "mr": "13 = 9 + 4 मध्ये सर्वात मोठा चौरस, म्हणजे संपूर्ण आकृती, वगळली आहे."
+        },
+        "3": {
+          "en": "15 over-counts; there are no squares other than the 9 + 4 + 1 listed.",
+          "hi": "15 आवश्यकता से अधिक है; 9 + 4 + 1 के अलावा कोई वर्ग नहीं है।",
+          "mr": "15 हे गरजेपेक्षा जास्त आहे; 9 + 4 + 1 व्यतिरिक्त कोणतेही चौरस नाहीत."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-ma-20",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Find the next number in the series: 1, 2, 6, 24, 120, ___?",
+        "hi": "श्रृंखला में अगली संख्या ज्ञात कीजिए: 1, 2, 6, 24, 120, ___?",
+        "mr": "श्रेणीतील पुढील संख्या शोधा: 1, 2, 6, 24, 120, ___?"
+      },
+      "optionsJson": [
+        { "en": "240", "hi": "240", "mr": "240" },
+        { "en": "720", "hi": "720", "mr": "720" },
+        { "en": "600", "hi": "600", "mr": "600" },
+        { "en": "840", "hi": "840", "mr": "840" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Each term is multiplied by 2, 3, 4, 5 in turn: 1 × 2 = 2, 2 × 3 = 6, 6 × 4 = 24, 24 × 5 = 120. The next multiplier is 6, so 120 × 6 = 720.",
+        "hi": "प्रत्येक पद को क्रम से 2, 3, 4, 5 से गुणा किया गया है: 1 × 2 = 2, 2 × 3 = 6, 6 × 4 = 24, 24 × 5 = 120। अगला गुणक 6 है, इसलिए 120 × 6 = 720।",
+        "mr": "प्रत्येक पदाला क्रमाने 2, 3, 4, 5 ने गुणले आहे: 1 × 2 = 2, 2 × 3 = 6, 6 × 4 = 24, 24 × 5 = 120. पुढील गुणक 6 आहे, म्हणून 120 × 6 = 720."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "240 is 120 × 2, which repeats the first multiplier instead of using 6.",
+          "hi": "240 = 120 × 2 है, जिसमें 6 के बजाय पहला गुणक दोहराया गया है।",
+          "mr": "240 हे 120 × 2 आहे, ज्यात 6 घेण्याऐवजी पहिलाच गुणक पुन्हा वापरला आहे."
+        },
+        "2": {
+          "en": "600 is 120 × 5, which repeats the last multiplier instead of increasing it to 6.",
+          "hi": "600 = 120 × 5 है, जिसमें अंतिम गुणक को 6 तक बढ़ाने के बजाय दोहराया गया है।",
+          "mr": "600 हे 120 × 5 आहे, ज्यात शेवटचा गुणक 6 करण्याऐवजी तोच पुन्हा वापरला आहे."
+        },
+        "3": {
+          "en": "840 is 120 × 7, which skips the multiplier 6.",
+          "hi": "840 = 120 × 7 है, जिसमें गुणक 6 छोड़ दिया गया है।",
+          "mr": "840 हे 120 × 7 आहे, ज्यात गुणक 6 वगळला आहे."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-ma-21",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Which letter is 6th to the right of the 9th letter from the right end of the English alphabet?",
+        "hi": "अंग्रेज़ी वर्णमाला के दाएँ छोर से 9वें अक्षर के दाईं ओर 6वाँ अक्षर कौन-सा है?",
+        "mr": "इंग्रजी वर्णमालेच्या उजव्या टोकापासून 9 व्या अक्षराच्या उजवीकडील 6 वे अक्षर कोणते?"
+      },
+      "optionsJson": [
+        { "en": "V", "hi": "V", "mr": "V" },
+        { "en": "W", "hi": "W", "mr": "W" },
+        { "en": "Y", "hi": "Y", "mr": "Y" },
+        { "en": "X", "hi": "X", "mr": "X" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "The 9th letter from the right end is R (26 − 9 + 1 = 18th letter from the left). Moving 6 places to the right: S, T, U, V, W, X. So the answer is X.",
+        "hi": "दाएँ छोर से 9वाँ अक्षर R है (बाएँ से 26 − 9 + 1 = 18वाँ अक्षर)। दाईं ओर 6 स्थान चलने पर: S, T, U, V, W, X। इसलिए उत्तर X है।",
+        "mr": "उजव्या टोकापासून 9 वे अक्षर R आहे (डावीकडून 26 − 9 + 1 = 18 वे अक्षर). उजवीकडे 6 स्थाने गेल्यावर: S, T, U, V, W, X. म्हणून उत्तर X आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "V is only 4 places to the right of R (S, T, U, V).",
+          "hi": "V, R के दाईं ओर केवल 4 स्थान दूर है (S, T, U, V)।",
+          "mr": "V हे R च्या उजवीकडे फक्त 4 स्थाने दूर आहे (S, T, U, V)."
+        },
+        "1": {
+          "en": "W is only 5 places to the right of R.",
+          "hi": "W, R के दाईं ओर केवल 5 स्थान दूर है।",
+          "mr": "W हे R च्या उजवीकडे फक्त 5 स्थाने दूर आहे."
+        },
+        "2": {
+          "en": "Y is 7 places to the right of R, one place too far.",
+          "hi": "Y, R के दाईं ओर 7 स्थान दूर है, यानी एक स्थान अधिक दूर।",
+          "mr": "Y हे R च्या उजवीकडे 7 स्थाने दूर आहे, म्हणजे एक स्थान जास्त दूर."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-ma-22",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Five friends Amit, Beena, Charu, Dinesh and Esha are sitting in a row facing North. Beena sits at the extreme left end and Esha sits at the extreme right end. Amit sits immediately to the left of Esha. Dinesh does not sit next to Beena. Who sits in the middle?",
+        "hi": "पाँच मित्र अमित, बीना, चारु, दिनेश और एशा उत्तर की ओर मुँह करके एक पंक्ति में बैठे हैं। बीना सबसे बाएँ छोर पर और एशा सबसे दाएँ छोर पर बैठी है। अमित एशा के ठीक बाईं ओर बैठा है। दिनेश बीना के बगल में नहीं बैठा है। बीच में कौन बैठा है?",
+        "mr": "अमित, बीना, चारू, दिनेश आणि एशा हे पाच मित्र उत्तरेकडे तोंड करून एका रांगेत बसले आहेत. बीना अगदी डाव्या टोकाला आणि एशा अगदी उजव्या टोकाला बसली आहे. अमित एशाच्या अगदी डावीकडे बसला आहे. दिनेश बीनाच्या शेजारी बसलेला नाही. मध्यभागी कोण बसले आहे?"
+      },
+      "optionsJson": [
+        { "en": "Dinesh", "hi": "दिनेश", "mr": "दिनेश" },
+        { "en": "Charu", "hi": "चारु", "mr": "चारू" },
+        { "en": "Amit", "hi": "अमित", "mr": "अमित" },
+        { "en": "Esha", "hi": "एशा", "mr": "एशा" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Counting from the left: Beena is 1st, Esha is 5th and Amit is 4th. Charu and Dinesh take the 2nd and 3rd seats. Dinesh cannot sit next to Beena (2nd seat), so Dinesh sits 3rd, which is the middle, and Charu sits 2nd.",
+        "hi": "बाएँ से गिनने पर: बीना पहले, एशा पाँचवें और अमित चौथे स्थान पर है। चारु और दिनेश दूसरे व तीसरे स्थान पर बैठेंगे। दिनेश बीना के बगल (दूसरे स्थान) पर नहीं बैठ सकता, इसलिए दिनेश तीसरे यानी बीच के स्थान पर और चारु दूसरे स्थान पर बैठी है।",
+        "mr": "डावीकडून मोजल्यास: बीना पहिली, एशा पाचवी आणि अमित चौथा आहे. चारू आणि दिनेश दुसऱ्या व तिसऱ्या जागेवर बसतील. दिनेश बीनाच्या शेजारी (दुसऱ्या जागेवर) बसू शकत नाही, म्हणून दिनेश तिसऱ्या म्हणजे मधल्या जागेवर आणि चारू दुसऱ्या जागेवर बसली आहे."
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Charu sits 2nd from the left, right next to Beena, not in the middle.",
+          "hi": "चारु बाएँ से दूसरे स्थान पर, बीना के ठीक बगल में बैठी है, बीच में नहीं।",
+          "mr": "चारू डावीकडून दुसऱ्या जागेवर, बीनाच्या अगदी शेजारी बसली आहे, मध्यभागी नाही."
+        },
+        "2": {
+          "en": "Amit sits 4th from the left, right next to Esha, not in the middle.",
+          "hi": "अमित बाएँ से चौथे स्थान पर, एशा के ठीक बगल में बैठा है, बीच में नहीं।",
+          "mr": "अमित डावीकडून चौथ्या जागेवर, एशाच्या अगदी शेजारी बसला आहे, मध्यभागी नाही."
+        },
+        "3": {
+          "en": "Esha sits at the extreme right end (5th seat), not in the middle.",
+          "hi": "एशा सबसे दाएँ छोर (पाँचवें स्थान) पर बैठी है, बीच में नहीं।",
+          "mr": "एशा अगदी उजव्या टोकाला (पाचव्या जागेवर) बसली आहे, मध्यभागी नाही."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-ma-23",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "Facing North-East, Arjun turns 90° clockwise and then 135° anticlockwise. In which direction is he facing now?",
+        "hi": "उत्तर-पूर्व की ओर मुँह किए हुए अर्जुन 90° दक्षिणावर्त (घड़ी की दिशा में) घूमता है और फिर 135° वामावर्त (घड़ी की विपरीत दिशा में) घूमता है। अब उसका मुँह किस दिशा में है?",
+        "mr": "ईशान्य दिशेकडे तोंड असलेला अर्जुन 90° घड्याळाच्या दिशेने फिरतो आणि नंतर 135° घड्याळाच्या उलट दिशेने फिरतो. आता त्याचे तोंड कोणत्या दिशेला आहे?"
+      },
+      "optionsJson": [
+        { "en": "North-West", "hi": "उत्तर-पश्चिम", "mr": "वायव्य" },
+        { "en": "North", "hi": "उत्तर", "mr": "उत्तर" },
+        { "en": "West", "hi": "पश्चिम", "mr": "पश्चिम" },
+        { "en": "East", "hi": "पूर्व", "mr": "पूर्व" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Facing North-East, a 90° clockwise turn gives South-East. A 135° anticlockwise turn from South-East passes through East (45°) and North-East (90°) and reaches North (135°). So he faces North.",
+        "hi": "उत्तर-पूर्व की ओर मुँह हो तो 90° दक्षिणावर्त घूमने पर मुँह दक्षिण-पूर्व की ओर हो जाता है। दक्षिण-पूर्व से 135° वामावर्त घूमने पर वह पूर्व (45°) और उत्तर-पूर्व (90°) से होते हुए उत्तर (135°) पर पहुँचता है। इसलिए उसका मुँह उत्तर की ओर है।",
+        "mr": "ईशान्येकडे तोंड असताना 90° घड्याळाच्या दिशेने फिरल्यावर तोंड आग्नेयेकडे होते. आग्नेयेकडून 135° घड्याळाच्या उलट दिशेने फिरल्यावर पूर्व (45°) आणि ईशान्य (90°) यांमधून जाऊन उत्तर (135°) येथे पोहोचते. म्हणून त्याचे तोंड उत्तरेकडे आहे."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "North-West would need a 180° anticlockwise turn from South-East, not 135°.",
+          "hi": "उत्तर-पश्चिम के लिए दक्षिण-पूर्व से 180° वामावर्त घूमना पड़ता, 135° नहीं।",
+          "mr": "वायव्य येण्यासाठी आग्नेयेकडून 180° घड्याळाच्या उलट दिशेने फिरावे लागले असते, 135° नाही."
+        },
+        "2": {
+          "en": "West is reached from South-East by a 135° clockwise turn, not an anticlockwise one.",
+          "hi": "दक्षिण-पूर्व से पश्चिम 135° दक्षिणावर्त घूमने पर मिलता है, वामावर्त घूमने पर नहीं।",
+          "mr": "आग्नेयेकडून पश्चिम 135° घड्याळाच्या दिशेने फिरल्यावर मिळते, उलट दिशेने फिरल्यावर नाही."
+        },
+        "3": {
+          "en": "East is only a 45° anticlockwise turn from South-East.",
+          "hi": "पूर्व, दक्षिण-पूर्व से केवल 45° वामावर्त घूमने पर मिलता है।",
+          "mr": "पूर्व ही आग्नेयेपासून घड्याळाच्या उलट दिशेने फक्त 45° फिरल्यावर मिळते."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-ma-24",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "In a certain code language, 'tom nim' means 'red flower', 'nim pok' means 'big flower' and 'pok sal' means 'big house'. What is the code for 'red'?",
+        "hi": "एक कूट भाषा में 'tom nim' का अर्थ 'लाल फूल', 'nim pok' का अर्थ 'बड़ा फूल' और 'pok sal' का अर्थ 'बड़ा घर' है। 'लाल' का कूट क्या है?",
+        "mr": "एका सांकेतिक भाषेत 'tom nim' म्हणजे 'लाल फूल', 'nim pok' म्हणजे 'मोठे फूल' आणि 'pok sal' म्हणजे 'मोठे घर' असा अर्थ आहे. 'लाल' साठी सांकेतिक शब्द कोणता?"
+      },
+      "optionsJson": [
+        { "en": "nim", "hi": "nim", "mr": "nim" },
+        { "en": "pok", "hi": "pok", "mr": "pok" },
+        { "en": "tom", "hi": "tom", "mr": "tom" },
+        { "en": "sal", "hi": "sal", "mr": "sal" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The first two statements share the code 'nim' and the word 'flower', so nim = flower. In 'tom nim' = 'red flower', the remaining code tom must mean 'red'.",
+        "hi": "पहले दो कथनों में कूट 'nim' और शब्द 'फूल' समान हैं, इसलिए nim = फूल। 'tom nim' = 'लाल फूल' में शेष कूट tom का अर्थ 'लाल' होना चाहिए।",
+        "mr": "पहिल्या दोन विधानांत सांकेतिक शब्द 'nim' आणि शब्द 'फूल' सामायिक आहेत, म्हणून nim = फूल. 'tom nim' = 'लाल फूल' मध्ये उरलेला सांकेतिक शब्द tom म्हणजे 'लाल' असायला हवा."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "nim is the code for 'flower', which appears in both of the first two statements.",
+          "hi": "nim 'फूल' का कूट है, जो पहले दोनों कथनों में आता है।",
+          "mr": "nim हा 'फूल' चा सांकेतिक शब्द आहे, जो पहिल्या दोन्ही विधानांत येतो."
+        },
+        "1": {
+          "en": "pok is the code for 'big', which appears in the 2nd and 3rd statements.",
+          "hi": "pok 'बड़ा' का कूट है, जो दूसरे और तीसरे कथन में आता है।",
+          "mr": "pok हा 'मोठे' चा सांकेतिक शब्द आहे, जो दुसऱ्या आणि तिसऱ्या विधानांत येतो."
+        },
+        "3": {
+          "en": "sal is the code for 'house', which appears only in the 3rd statement.",
+          "hi": "sal 'घर' का कूट है, जो केवल तीसरे कथन में आता है।",
+          "mr": "sal हा 'घर' चा सांकेतिक शब्द आहे, जो फक्त तिसऱ्या विधानात येतो."
+        }
+      }
+    },
+    {
+      "key": "aissee6-p3-ma-25",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Find the number that replaces the question mark: 5 : 30 :: 7 : ?",
+        "hi": "प्रश्नचिह्न के स्थान पर आने वाली संख्या ज्ञात कीजिए: 5 : 30 :: 7 : ?",
+        "mr": "प्रश्नचिन्हाच्या जागी येणारी संख्या शोधा: 5 : 30 :: 7 : ?"
+      },
+      "optionsJson": [
+        { "en": "42", "hi": "42", "mr": "42" },
+        { "en": "49", "hi": "49", "mr": "49" },
+        { "en": "63", "hi": "63", "mr": "63" },
+        { "en": "56", "hi": "56", "mr": "56" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "30 = 5 × 6, that is, the number multiplied by the next number. In the same way, 7 × 8 = 56.",
+        "hi": "30 = 5 × 6 है, यानी संख्या को उसकी अगली संख्या से गुणा किया गया है। उसी प्रकार 7 × 8 = 56।",
+        "mr": "30 = 5 × 6 आहे, म्हणजे संख्येला तिच्या पुढच्या संख्येने गुणले आहे. त्याचप्रमाणे 7 × 8 = 56."
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "42 is 6 × 7, which uses the wrong pair of numbers.",
+          "hi": "42 = 6 × 7 है, जिसमें संख्याओं का गलत जोड़ा लिया गया है।",
+          "mr": "42 हे 6 × 7 आहे, ज्यात संख्यांची चुकीची जोडी घेतली आहे."
+        },
+        "1": {
+          "en": "49 is 7 × 7, which uses the number itself instead of the next number.",
+          "hi": "49 = 7 × 7 है, जिसमें अगली संख्या के बजाय वही संख्या ली गई है।",
+          "mr": "49 हे 7 × 7 आहे, ज्यात पुढच्या संख्येऐवजी तीच संख्या घेतली आहे."
+        },
+        "2": {
+          "en": "63 is 7 × 9, which skips a number; the next number after 7 is 8.",
+          "hi": "63 = 7 × 9 है, जिसमें एक संख्या छूट गई है; 7 के बाद अगली संख्या 8 है।",
+          "mr": "63 हे 7 × 9 आहे, ज्यात एक संख्या वगळली आहे; 7 नंतरची पुढची संख्या 8 आहे."
+        }
+      }
+    }
+  ]
+}

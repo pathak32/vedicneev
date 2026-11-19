@@ -1,0 +1,859 @@
+{
+  "examType": "RMS",
+  "classLevel": 9,
+  "paperNumber": 4,
+  "sectionKey": "mathematics",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "rms9-p4-mt-01",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Two angles of a triangle measure 47° and 68°. What is the exterior angle drawn at the third vertex?",
+        "hi": "एक त्रिभुज के दो कोण 47° और 68° हैं। तीसरे शीर्ष पर बना बाह्य कोण कितना है?"
+      },
+      "optionsJson": [
+        { "en": "65°", "hi": "65°" },
+        { "en": "105°", "hi": "105°" },
+        { "en": "115°", "hi": "115°" },
+        { "en": "125°", "hi": "125°" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The exterior angle equals the sum of the two opposite interior angles: 47° + 68° = 115°. (Check: third angle = 180° − 115° = 65°, and 180° − 65° = 115°.)",
+        "hi": "बाह्य कोण दोनों अंतःसम्मुख (दूरस्थ आंतरिक) कोणों के योग के बराबर होता है: 47° + 68° = 115°। (जाँच: तीसरा कोण = 180° − 115° = 65° और 180° − 65° = 115°।)"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "This is the third interior angle of the triangle, not the exterior angle.",
+          "hi": "यह त्रिभुज का तीसरा आंतरिक कोण है, बाह्य कोण नहीं।"
+        },
+        "1": {
+          "en": "Arithmetic slip while adding 47° and 68°.",
+          "hi": "47° और 68° को जोड़ने में गणना की भूल।"
+        },
+        "3": {
+          "en": "Arithmetic slip while adding 47° and 68°.",
+          "hi": "47° और 68° को जोड़ने में गणना की भूल।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-02",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "Find the area of a triangle whose base is 14 cm and whose corresponding height is 9 cm.",
+        "hi": "उस त्रिभुज का क्षेत्रफल ज्ञात कीजिए जिसका आधार 14 cm और संगत ऊँचाई 9 cm है।"
+      },
+      "optionsJson": [
+        { "en": "126 cm²", "hi": "126 cm²" },
+        { "en": "63 cm²", "hi": "63 cm²" },
+        { "en": "46 cm²", "hi": "46 cm²" },
+        { "en": "23 cm²", "hi": "23 cm²" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Area of a triangle = ½ × base × height = ½ × 14 × 9 = 63 cm².",
+        "hi": "त्रिभुज का क्षेत्रफल = ½ × आधार × ऊँचाई = ½ × 14 × 9 = 63 cm²।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Forgets the factor ½ and multiplies 14 × 9 only.",
+          "hi": "गुणक ½ भूल गए और केवल 14 × 9 कर दिया।"
+        },
+        "2": {
+          "en": "Adds base and height and doubles the sum, which is not an area formula.",
+          "hi": "आधार और ऊँचाई जोड़कर दोगुना कर दिया, जो क्षेत्रफल का सूत्र नहीं है।"
+        },
+        "3": {
+          "en": "Adds the base and the height instead of multiplying.",
+          "hi": "आधार और ऊँचाई को गुणा करने के बजाय जोड़ दिया।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-03",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "The four angles of a quadrilateral are in the ratio 1 : 2 : 3 : 4. What is the measure of the largest angle?",
+        "hi": "एक चतुर्भुज के चारों कोणों का अनुपात 1 : 2 : 3 : 4 है। सबसे बड़े कोण का माप कितना है?"
+      },
+      "optionsJson": [
+        { "en": "108°", "hi": "108°" },
+        { "en": "120°", "hi": "120°" },
+        { "en": "160°", "hi": "160°" },
+        { "en": "144°", "hi": "144°" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "The angles of a quadrilateral add up to 360°. The ratio parts total 1 + 2 + 3 + 4 = 10, so one part = 36°. The largest angle = 4 × 36° = 144°.",
+        "hi": "चतुर्भुज के कोणों का योग 360° होता है। अनुपात के भागों का योग 1 + 2 + 3 + 4 = 10 है, अतः एक भाग = 36°। सबसे बड़ा कोण = 4 × 36° = 144°।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "This is the third angle (3 × 36°), not the largest one.",
+          "hi": "यह तीसरा कोण (3 × 36°) है, सबसे बड़ा कोण नहीं।"
+        },
+        "1": {
+          "en": "Wrongly assumes a part value of 30° instead of dividing 360° by 10.",
+          "hi": "360° को 10 से भाग देने के बजाय एक भाग का मान 30° मान लिया।"
+        },
+        "2": {
+          "en": "Divides 360° by 9 (instead of 10) to get a part value of 40°.",
+          "hi": "360° को 10 के बजाय 9 से भाग देकर एक भाग 40° निकाल लिया।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-04",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "A cycle wheel has a diameter of 35 cm. What distance does it cover in one complete revolution? (Take π = 22/7)",
+        "hi": "एक साइकिल के पहिये का व्यास 35 cm है। एक पूरे चक्कर में वह कितनी दूरी तय करेगा? (π = 22/7 लीजिए)"
+      },
+      "optionsJson": [
+        { "en": "110 cm", "hi": "110 cm" },
+        { "en": "55 cm", "hi": "55 cm" },
+        { "en": "220 cm", "hi": "220 cm" },
+        { "en": "70 cm", "hi": "70 cm" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Distance in one revolution = circumference = π × d = (22/7) × 35 = 110 cm.",
+        "hi": "एक चक्कर में तय दूरी = परिधि = π × d = (22/7) × 35 = 110 cm।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Computes π × radius, which is only half of the circumference.",
+          "hi": "π × त्रिज्या निकाला, जो परिधि का केवल आधा है।"
+        },
+        "2": {
+          "en": "Uses 2πd, treating the diameter as the radius.",
+          "hi": "व्यास को त्रिज्या मानकर 2πd निकाल लिया।"
+        },
+        "3": {
+          "en": "Doubles the diameter and forgets to multiply by π.",
+          "hi": "व्यास को दोगुना किया और π से गुणा करना भूल गए।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-05",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "What is the volume of a cube whose edge is 5 cm?",
+        "hi": "उस घन का आयतन कितना है जिसकी भुजा 5 cm है?"
+      },
+      "optionsJson": [
+        { "en": "15 cm³", "hi": "15 cm³" },
+        { "en": "25 cm³", "hi": "25 cm³" },
+        { "en": "150 cm³", "hi": "150 cm³" },
+        { "en": "125 cm³", "hi": "125 cm³" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Volume of a cube = (edge)³ = 5 × 5 × 5 = 125 cm³.",
+        "hi": "घन का आयतन = (भुजा)³ = 5 × 5 × 5 = 125 cm³।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Multiplies the edge by 3 instead of cubing it.",
+          "hi": "भुजा का घन करने के बजाय उसे 3 से गुणा कर दिया।"
+        },
+        "1": {
+          "en": "This is the area of one face (5²), not the volume.",
+          "hi": "यह एक फलक का क्षेत्रफल (5²) है, आयतन नहीं।"
+        },
+        "2": {
+          "en": "This is the total surface area (6 × 25), not the volume.",
+          "hi": "यह कुल पृष्ठीय क्षेत्रफल (6 × 25) है, आयतन नहीं।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-06",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "In a parallelogram ABCD, ∠A = (2x + 10)° and ∠B = (3x − 20)°. Find the measure of ∠C.",
+        "hi": "समांतर चतुर्भुज ABCD में ∠A = (2x + 10)° और ∠B = (3x − 20)° है। ∠C का माप ज्ञात कीजिए।"
+      },
+      "optionsJson": [
+        { "en": "86°", "hi": "86°" },
+        { "en": "94°", "hi": "94°" },
+        { "en": "76°", "hi": "76°" },
+        { "en": "104°", "hi": "104°" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Adjacent angles of a parallelogram are supplementary: (2x + 10) + (3x − 20) = 180, so 5x = 190 and x = 38. Then ∠A = 86° and ∠B = 94°. Opposite angles are equal, so ∠C = ∠A = 86°.",
+        "hi": "समांतर चतुर्भुज के आसन्न कोण संपूरक होते हैं: (2x + 10) + (3x − 20) = 180, अतः 5x = 190 और x = 38। तब ∠A = 86° और ∠B = 94°। सम्मुख कोण बराबर होते हैं, इसलिए ∠C = ∠A = 86°।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "This is ∠B (also ∠D); ∠C is opposite to ∠A, not ∠B.",
+          "hi": "यह ∠B (और ∠D) है; ∠C, ∠A का सम्मुख कोण है, ∠B का नहीं।"
+        },
+        "2": {
+          "en": "Arithmetic slip while solving for x.",
+          "hi": "x का मान निकालने में गणना की भूल।"
+        },
+        "3": {
+          "en": "Arithmetic slip while solving for x.",
+          "hi": "x का मान निकालने में गणना की भूल।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-07",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "In a right-angled triangle the two sides containing the right angle are 9 cm and 12 cm. Find the length of the perpendicular drawn from the right-angled vertex to the hypotenuse.",
+        "hi": "एक समकोण त्रिभुज में समकोण बनाने वाली दोनों भुजाएँ 9 cm और 12 cm हैं। समकोण वाले शीर्ष से कर्ण पर डाले गए लंब की लंबाई ज्ञात कीजिए।"
+      },
+      "optionsJson": [
+        { "en": "6 cm", "hi": "6 cm" },
+        { "en": "7.5 cm", "hi": "7.5 cm" },
+        { "en": "7.2 cm", "hi": "7.2 cm" },
+        { "en": "10.8 cm", "hi": "10.8 cm" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Hypotenuse = √(9² + 12²) = √225 = 15 cm. The area of the triangle is ½ × 9 × 12 = 54 cm², and it also equals ½ × 15 × h. So h = 108 ÷ 15 = 7.2 cm.",
+        "hi": "कर्ण = √(9² + 12²) = √225 = 15 cm। त्रिभुज का क्षेत्रफल ½ × 9 × 12 = 54 cm² है, जो ½ × 15 × h के भी बराबर है। अतः h = 108 ÷ 15 = 7.2 cm।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Takes half of the side 12 cm, which has no geometric basis here.",
+          "hi": "भुजा 12 cm का आधा ले लिया, जिसका यहाँ कोई ज्यामितीय आधार नहीं है।"
+        },
+        "1": {
+          "en": "This is half of the hypotenuse (the median to the hypotenuse), not the perpendicular.",
+          "hi": "यह कर्ण का आधा (कर्ण की माध्यिका) है, लंब नहीं।"
+        },
+        "3": {
+          "en": "Computes (9 × 12) ÷ 10, using a wrong hypotenuse of 10 cm.",
+          "hi": "कर्ण गलत रूप से 10 cm मानकर (9 × 12) ÷ 10 निकाल लिया।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-08",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Find the curved surface area of a cylinder of base radius 7 cm and height 10 cm. (Take π = 22/7)",
+        "hi": "आधार की त्रिज्या 7 cm और ऊँचाई 10 cm वाले बेलन का वक्र पृष्ठीय क्षेत्रफल ज्ञात कीजिए। (π = 22/7 लीजिए)"
+      },
+      "optionsJson": [
+        { "en": "220 cm²", "hi": "220 cm²" },
+        { "en": "440 cm²", "hi": "440 cm²" },
+        { "en": "880 cm²", "hi": "880 cm²" },
+        { "en": "1540 cm²", "hi": "1540 cm²" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Curved surface area = 2πrh = 2 × (22/7) × 7 × 10 = 440 cm².",
+        "hi": "वक्र पृष्ठीय क्षेत्रफल = 2πrh = 2 × (22/7) × 7 × 10 = 440 cm²।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Uses πrh and forgets the factor 2.",
+          "hi": "2 का गुणक भूलकर πrh निकाल लिया।"
+        },
+        "2": {
+          "en": "Uses 2πdh, treating the radius as the diameter.",
+          "hi": "त्रिज्या को व्यास मानकर 2πdh निकाल लिया।"
+        },
+        "3": {
+          "en": "This is the volume πr²h, not the curved surface area.",
+          "hi": "यह आयतन πr²h है, वक्र पृष्ठीय क्षेत्रफल नहीं।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-09",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "A chord of length 16 cm is drawn in a circle of radius 10 cm. How far is the chord from the centre of the circle?",
+        "hi": "10 cm त्रिज्या वाले वृत्त में 16 cm लंबाई की एक जीवा खींची गई है। जीवा वृत्त के केंद्र से कितनी दूर है?"
+      },
+      "optionsJson": [
+        { "en": "4 cm", "hi": "4 cm" },
+        { "en": "8 cm", "hi": "8 cm" },
+        { "en": "12 cm", "hi": "12 cm" },
+        { "en": "6 cm", "hi": "6 cm" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "The perpendicular from the centre bisects the chord, so half the chord is 8 cm. By Pythagoras, distance = √(10² − 8²) = √36 = 6 cm.",
+        "hi": "केंद्र से जीवा पर डाला गया लंब जीवा को समद्विभाजित करता है, अतः जीवा का आधा भाग 8 cm है। पाइथागोरस प्रमेय से दूरी = √(10² − 8²) = √36 = 6 cm।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Arithmetic slip in the subtraction under the square root.",
+          "hi": "वर्गमूल के अंदर घटाने में गणना की भूल।"
+        },
+        "1": {
+          "en": "This is half of the chord, not its distance from the centre.",
+          "hi": "यह जीवा का आधा भाग है, केंद्र से उसकी दूरी नहीं।"
+        },
+        "2": {
+          "en": "The distance of a chord from the centre must be less than the radius (10 cm), so 12 cm is impossible.",
+          "hi": "जीवा की केंद्र से दूरी त्रिज्या (10 cm) से कम होनी चाहिए, इसलिए 12 cm संभव नहीं है।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-10",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "The diagonals of a rhombus measure 16 cm and 30 cm. What is the perimeter of the rhombus?",
+        "hi": "एक समचतुर्भुज के विकर्ण 16 cm और 30 cm हैं। समचतुर्भुज का परिमाप कितना है?"
+      },
+      "optionsJson": [
+        { "en": "46 cm", "hi": "46 cm" },
+        { "en": "68 cm", "hi": "68 cm" },
+        { "en": "34 cm", "hi": "34 cm" },
+        { "en": "240 cm", "hi": "240 cm" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "The diagonals of a rhombus bisect each other at right angles, giving half-diagonals 8 cm and 15 cm. Side = √(8² + 15²) = √289 = 17 cm. Perimeter = 4 × 17 = 68 cm.",
+        "hi": "समचतुर्भुज के विकर्ण एक-दूसरे को समकोण पर समद्विभाजित करते हैं, अतः अर्ध-विकर्ण 8 cm और 15 cm हैं। भुजा = √(8² + 15²) = √289 = 17 cm। परिमाप = 4 × 17 = 68 cm।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Adds the two diagonals (16 + 30), which is not the perimeter.",
+          "hi": "दोनों विकर्णों का योग (16 + 30) कर दिया, जो परिमाप नहीं है।"
+        },
+        "2": {
+          "en": "This is twice the side (2 × 17), not four times the side.",
+          "hi": "यह भुजा का दोगुना (2 × 17) है, चार गुना नहीं।"
+        },
+        "3": {
+          "en": "This is the area of the rhombus (½ × 16 × 30), not the perimeter.",
+          "hi": "यह समचतुर्भुज का क्षेत्रफल (½ × 16 × 30) है, परिमाप नहीं।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-11",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "A solid metal sphere of radius 6 cm is melted and recast into identical solid cones, each of base radius 3 cm and height 4 cm. How many cones are obtained?",
+        "hi": "6 cm त्रिज्या के एक ठोस धातु के गोले को पिघलाकर समान ठोस शंकुओं में ढाला जाता है, जिनमें प्रत्येक की आधार त्रिज्या 3 cm और ऊँचाई 4 cm है। कितने शंकु बनेंगे?"
+      },
+      "optionsJson": [
+        { "en": "12", "hi": "12" },
+        { "en": "18", "hi": "18" },
+        { "en": "24", "hi": "24" },
+        { "en": "36", "hi": "36" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Volume of sphere = (4/3)π(6)³ = 288π cm³. Volume of one cone = (1/3)π(3)²(4) = 12π cm³. Number of cones = 288π ÷ 12π = 24.",
+        "hi": "गोले का आयतन = (4/3)π(6)³ = 288π cm³। एक शंकु का आयतन = (1/3)π(3)²(4) = 12π cm³। शंकुओं की संख्या = 288π ÷ 12π = 24।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Takes the sphere volume as 144π (half of the correct 288π), which halves the count.",
+          "hi": "गोले का आयतन 144π (सही 288π का आधा) मान लिया, जिससे संख्या आधी रह गई।"
+        },
+        "1": {
+          "en": "Arithmetic slip in dividing the volumes.",
+          "hi": "आयतनों को भाग देने में गणना की भूल।"
+        },
+        "3": {
+          "en": "Uses a wrong sphere volume of 432π (2πr³ instead of (4/3)πr³).",
+          "hi": "गोले का आयतन गलत सूत्र से 432π (2πr³, जबकि सही सूत्र (4/3)πr³ है) ले लिया।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-12",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Using Heron's formula, find the area of a triangle with sides 13 cm, 14 cm and 15 cm.",
+        "hi": "हीरोन के सूत्र का प्रयोग करके 13 cm, 14 cm और 15 cm भुजाओं वाले त्रिभुज का क्षेत्रफल ज्ञात कीजिए।"
+      },
+      "optionsJson": [
+        { "en": "84 cm²", "hi": "84 cm²" },
+        { "en": "91 cm²", "hi": "91 cm²" },
+        { "en": "105 cm²", "hi": "105 cm²" },
+        { "en": "72 cm²", "hi": "72 cm²" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Semi-perimeter s = (13 + 14 + 15) ÷ 2 = 21. Area = √[21 × (21−13) × (21−14) × (21−15)] = √(21 × 8 × 7 × 6) = √7056 = 84 cm².",
+        "hi": "अर्ध-परिमाप s = (13 + 14 + 15) ÷ 2 = 21। क्षेत्रफल = √[21 × (21−13) × (21−14) × (21−15)] = √(21 × 8 × 7 × 6) = √7056 = 84 cm²।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Arithmetic slip while evaluating the square root.",
+          "hi": "वर्गमूल निकालने में गणना की भूल।"
+        },
+        "2": {
+          "en": "Uses ½ × 14 × 15 as if the side 15 cm were the height.",
+          "hi": "भुजा 15 cm को ऊँचाई मानकर ½ × 14 × 15 निकाल लिया।"
+        },
+        "3": {
+          "en": "Arithmetic slip while evaluating the square root.",
+          "hi": "वर्गमूल निकालने में गणना की भूल।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-13",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "An arc of a circle subtends an angle of 110° at the centre. What angle does the same arc subtend at a point on the remaining part of the circle?",
+        "hi": "एक वृत्त की चाप केंद्र पर 110° का कोण बनाती है। वृत्त के शेष भाग के किसी बिंदु पर वही चाप कितना कोण बनाएगी?"
+      },
+      "optionsJson": [
+        { "en": "110°", "hi": "110°" },
+        { "en": "220°", "hi": "220°" },
+        { "en": "55°", "hi": "55°" },
+        { "en": "125°", "hi": "125°" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "The angle subtended by an arc at the centre is double the angle it subtends at any point on the remaining part of the circle. So the required angle = 110° ÷ 2 = 55°.",
+        "hi": "किसी चाप द्वारा केंद्र पर बनाया गया कोण, वृत्त के शेष भाग के किसी बिंदु पर बने कोण का दोगुना होता है। अतः अभीष्ट कोण = 110° ÷ 2 = 55°।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Assumes the angle at the circumference equals the angle at the centre.",
+          "hi": "मान लिया कि परिधि पर बना कोण केंद्र पर बने कोण के बराबर होता है।"
+        },
+        "1": {
+          "en": "Doubles the angle instead of halving it.",
+          "hi": "कोण को आधा करने के बजाय दोगुना कर दिया।"
+        },
+        "3": {
+          "en": "Computes 180° − 55°, which is the angle in the opposite segment, not the required one.",
+          "hi": "180° − 55° निकाला, जो विपरीत खंड का कोण है, अभीष्ट कोण नहीं।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-14",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "ABCD is a cyclic quadrilateral with ∠A = (4x + 2)° and ∠C = (2x + 34)°. If the side DC is produced to a point E, find ∠BCE.",
+        "hi": "ABCD एक चक्रीय चतुर्भुज है जिसमें ∠A = (4x + 2)° और ∠C = (2x + 34)° है। यदि भुजा DC को बिंदु E तक बढ़ाया जाए, तो ∠BCE ज्ञात कीजिए।"
+      },
+      "optionsJson": [
+        { "en": "82°", "hi": "82°" },
+        { "en": "98°", "hi": "98°" },
+        { "en": "72°", "hi": "72°" },
+        { "en": "108°", "hi": "108°" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Opposite angles of a cyclic quadrilateral are supplementary: (4x + 2) + (2x + 34) = 180, so 6x = 144 and x = 24. Then ∠A = 98° and ∠BCD = 82°. Since D, C, E lie on a straight line, ∠BCE = 180° − 82° = 98°.",
+        "hi": "चक्रीय चतुर्भुज के सम्मुख कोण संपूरक होते हैं: (4x + 2) + (2x + 34) = 180, अतः 6x = 144 और x = 24। तब ∠A = 98° और ∠BCD = 82°। D, C, E एक सरल रेखा में हैं, इसलिए ∠BCE = 180° − 82° = 98°।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "This is the interior angle ∠BCD, not the exterior angle ∠BCE.",
+          "hi": "यह आंतरिक कोण ∠BCD है, बाह्य कोण ∠BCE नहीं।"
+        },
+        "2": {
+          "en": "Arithmetic slip while solving for x.",
+          "hi": "x का मान निकालने में गणना की भूल।"
+        },
+        "3": {
+          "en": "Arithmetic slip while solving for x.",
+          "hi": "x का मान निकालने में गणना की भूल।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-15",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "In an isosceles trapezium the parallel sides are 10 cm and 22 cm, and each of the two equal non-parallel sides is 10 cm. Find its area.",
+        "hi": "एक समद्विबाहु समलंब चतुर्भुज की समांतर भुजाएँ 10 cm और 22 cm हैं तथा दोनों बराबर असमांतर भुजाओं में से प्रत्येक 10 cm है। इसका क्षेत्रफल ज्ञात कीजिए।"
+      },
+      "optionsJson": [
+        { "en": "96 cm²", "hi": "96 cm²" },
+        { "en": "120 cm²", "hi": "120 cm²" },
+        { "en": "160 cm²", "hi": "160 cm²" },
+        { "en": "128 cm²", "hi": "128 cm²" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "The difference of the parallel sides is 22 − 10 = 12 cm, so each end projects 6 cm. Height = √(10² − 6²) = √64 = 8 cm. Area = ½ × (10 + 22) × 8 = 128 cm².",
+        "hi": "समांतर भुजाओं का अंतर 22 − 10 = 12 cm है, अतः प्रत्येक सिरे पर 6 cm का प्रक्षेप बनता है। ऊँचाई = √(10² − 6²) = √64 = 8 cm। क्षेत्रफल = ½ × (10 + 22) × 8 = 128 cm²।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Multiplies the difference of the parallel sides (12) by the height (8) instead of using their sum.",
+          "hi": "समांतर भुजाओं के योग के बजाय उनके अंतर (12) को ऊँचाई (8) से गुणा कर दिया।"
+        },
+        "1": {
+          "en": "Uses an incorrect height of 7.5 cm.",
+          "hi": "ऊँचाई गलत रूप से 7.5 cm ले ली।"
+        },
+        "2": {
+          "en": "Treats the slant side 10 cm as the height.",
+          "hi": "तिरछी भुजा 10 cm को ही ऊँचाई मान लिया।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-16",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "What is the HCF of 36 and 84?",
+        "hi": "36 और 84 का महत्तम समापवर्तक (HCF) क्या है?"
+      },
+      "optionsJson": [
+        { "en": "12", "hi": "12" },
+        { "en": "6", "hi": "6" },
+        { "en": "18", "hi": "18" },
+        { "en": "252", "hi": "252" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "36 = 2² × 3² and 84 = 2² × 3 × 7. The common factors are 2² × 3 = 12, so HCF = 12.",
+        "hi": "36 = 2² × 3² और 84 = 2² × 3 × 7। उभयनिष्ठ गुणनखंड 2² × 3 = 12 हैं, अतः HCF = 12।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "6 is a common factor but not the highest one.",
+          "hi": "6 एक उभयनिष्ठ गुणनखंड है, परंतु सबसे बड़ा नहीं।"
+        },
+        "2": {
+          "en": "18 divides 36 but does not divide 84.",
+          "hi": "18, 36 को विभाजित करता है पर 84 को नहीं।"
+        },
+        "3": {
+          "en": "This is the LCM of 36 and 84, not the HCF.",
+          "hi": "यह 36 और 84 का लघुत्तम समापवर्त्य (LCM) है, HCF नहीं।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-17",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "The sum of the digits of a two-digit number is 9. If 27 is added to the number, its digits get interchanged. Find the number.",
+        "hi": "एक दो अंकों की संख्या के अंकों का योग 9 है। यदि संख्या में 27 जोड़ दिया जाए, तो उसके अंक आपस में बदल जाते हैं। वह संख्या ज्ञात कीजिए।"
+      },
+      "optionsJson": [
+        { "en": "27", "hi": "27" },
+        { "en": "45", "hi": "45" },
+        { "en": "63", "hi": "63" },
+        { "en": "36", "hi": "36" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Let the tens digit be x and the units digit y. Then x + y = 9 and 10x + y + 27 = 10y + x, which gives y − x = 3. Solving, x = 3 and y = 6, so the number is 36. Check: 36 + 27 = 63.",
+        "hi": "माना दहाई का अंक x और इकाई का अंक y है। तब x + y = 9 और 10x + y + 27 = 10y + x, जिससे y − x = 3 मिलता है। हल करने पर x = 3 और y = 6, अतः संख्या 36 है। जाँच: 36 + 27 = 63।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "27 has digit sum 9, but 27 + 27 = 54, not 72.",
+          "hi": "27 के अंकों का योग 9 है, पर 27 + 27 = 54 है, 72 नहीं।"
+        },
+        "1": {
+          "en": "45 has digit sum 9, but 45 + 27 = 72, not 54.",
+          "hi": "45 के अंकों का योग 9 है, पर 45 + 27 = 72 है, 54 नहीं।"
+        },
+        "2": {
+          "en": "This is the number after interchanging the digits of the answer; 63 + 27 = 90, not 36.",
+          "hi": "यह उत्तर के अंक बदलने पर बनी संख्या है; 63 + 27 = 90 है, 36 नहीं।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-18",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Find the compound interest on ₹8000 for 2 years at 10% per annum, compounded annually.",
+        "hi": "₹8000 पर 10% वार्षिक दर से 2 वर्ष का चक्रवृद्धि ब्याज ज्ञात कीजिए, जब ब्याज वार्षिक रूप से संयोजित होता है।"
+      },
+      "optionsJson": [
+        { "en": "₹1600", "hi": "₹1600" },
+        { "en": "₹1680", "hi": "₹1680" },
+        { "en": "₹1800", "hi": "₹1800" },
+        { "en": "₹9680", "hi": "₹9680" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Amount = 8000 × (1.1)² = 8000 × 1.21 = ₹9680. Compound interest = 9680 − 8000 = ₹1680.",
+        "hi": "मिश्रधन = 8000 × (1.1)² = 8000 × 1.21 = ₹9680। चक्रवृद्धि ब्याज = 9680 − 8000 = ₹1680।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "This is the simple interest (8000 × 10% × 2), not the compound interest.",
+          "hi": "यह साधारण ब्याज (8000 × 10% × 2) है, चक्रवृद्धि ब्याज नहीं।"
+        },
+        "2": {
+          "en": "Arithmetic slip in computing the interest.",
+          "hi": "ब्याज निकालने में गणना की भूल।"
+        },
+        "3": {
+          "en": "This is the final amount, not the interest.",
+          "hi": "यह मिश्रधन है, ब्याज नहीं।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-19",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Factorise: 3x² − 11x − 4",
+        "hi": "गुणनखंड कीजिए: 3x² − 11x − 4"
+      },
+      "optionsJson": [
+        { "en": "(3x + 1)(x − 4)", "hi": "(3x + 1)(x − 4)" },
+        { "en": "(3x − 1)(x + 4)", "hi": "(3x − 1)(x + 4)" },
+        { "en": "(3x + 4)(x − 1)", "hi": "(3x + 4)(x − 1)" },
+        { "en": "(3x − 4)(x + 1)", "hi": "(3x − 4)(x + 1)" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Multiply the coefficient of x² and the constant: 3 × (−4) = −12. Find two numbers with product −12 and sum −11: they are −12 and 1. Split the middle term: 3x² − 12x + x − 4 = 3x(x − 4) + 1(x − 4) = (3x + 1)(x − 4). Check: (3x + 1)(x − 4) = 3x² − 12x + x − 4 = 3x² − 11x − 4.",
+        "hi": "x² के गुणांक और अचर पद का गुणनफल: 3 × (−4) = −12। ऐसी दो संख्याएँ ज्ञात कीजिए जिनका गुणनफल −12 और योग −11 हो: वे −12 और 1 हैं। मध्य पद को तोड़ने पर: 3x² − 12x + x − 4 = 3x(x − 4) + 1(x − 4) = (3x + 1)(x − 4)। जाँच: (3x + 1)(x − 4) = 3x² − 12x + x − 4 = 3x² − 11x − 4।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "Expands to 3x² + 11x − 4: the signs are swapped, so the middle term is +11x instead of −11x.",
+          "hi": "विस्तार करने पर 3x² + 11x − 4 मिलता है: चिह्न उलट गए हैं, इसलिए मध्य पद −11x की जगह +11x है।"
+        },
+        "2": {
+          "en": "Expands to 3x² + x − 4: the product of the constants is right but the middle term is +x, not −11x.",
+          "hi": "विस्तार करने पर 3x² + x − 4 मिलता है: अचर पदों का गुणनफल सही है पर मध्य पद −11x के बजाय +x है।"
+        },
+        "3": {
+          "en": "Expands to 3x² − x − 4: the product of the constants is right but the middle term is −x, not −11x.",
+          "hi": "विस्तार करने पर 3x² − x − 4 मिलता है: अचर पदों का गुणनफल सही है पर मध्य पद −11x के बजाय −x है।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-20",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "The mean of five numbers is 18. When a sixth number, 30, is included, what is the new mean?",
+        "hi": "पाँच संख्याओं का माध्य 18 है। यदि छठी संख्या 30 भी शामिल कर ली जाए, तो नया माध्य क्या होगा?"
+      },
+      "optionsJson": [
+        { "en": "19", "hi": "19" },
+        { "en": "24", "hi": "24" },
+        { "en": "20", "hi": "20" },
+        { "en": "21", "hi": "21" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Sum of the five numbers = 5 × 18 = 90. New sum = 90 + 30 = 120 for 6 numbers. New mean = 120 ÷ 6 = 20.",
+        "hi": "पाँच संख्याओं का योग = 5 × 18 = 90। छह संख्याओं का नया योग = 90 + 30 = 120। नया माध्य = 120 ÷ 6 = 20।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Arithmetic slip while dividing the new sum.",
+          "hi": "नए योग को भाग देने में गणना की भूल।"
+        },
+        "1": {
+          "en": "Averages only the old mean and the new number: (18 + 30) ÷ 2.",
+          "hi": "केवल पुराने माध्य और नई संख्या का औसत लिया: (18 + 30) ÷ 2।"
+        },
+        "3": {
+          "en": "Arithmetic slip while dividing the new sum.",
+          "hi": "नए योग को भाग देने में गणना की भूल।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-21",
+      "year": 2022,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "If x + 1/x = 5, find the value of x² + 1/x².",
+        "hi": "यदि x + 1/x = 5 है, तो x² + 1/x² का मान ज्ञात कीजिए।"
+      },
+      "optionsJson": [
+        { "en": "25", "hi": "25" },
+        { "en": "27", "hi": "27" },
+        { "en": "21", "hi": "21" },
+        { "en": "23", "hi": "23" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "Square both sides: (x + 1/x)² = x² + 2 + 1/x² = 25. Hence x² + 1/x² = 25 − 2 = 23.",
+        "hi": "दोनों पक्षों का वर्ग करने पर: (x + 1/x)² = x² + 2 + 1/x² = 25। अतः x² + 1/x² = 25 − 2 = 23।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Squares 5 but forgets to subtract the middle term 2.",
+          "hi": "5 का वर्ग किया पर मध्य पद 2 घटाना भूल गए।"
+        },
+        "1": {
+          "en": "Adds 2 instead of subtracting it.",
+          "hi": "2 घटाने के बजाय जोड़ दिया।"
+        },
+        "2": {
+          "en": "Subtracts 4 instead of 2 from 25.",
+          "hi": "25 में से 2 के बजाय 4 घटा दिया।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-22",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": {
+        "en": "A shirt marked at ₹800 is sold at a discount of 15%. What is its selling price?",
+        "hi": "₹800 अंकित मूल्य वाली एक कमीज़ 15% की छूट पर बेची जाती है। उसका विक्रय मूल्य क्या है?"
+      },
+      "optionsJson": [
+        { "en": "₹680", "hi": "₹680" },
+        { "en": "₹120", "hi": "₹120" },
+        { "en": "₹785", "hi": "₹785" },
+        { "en": "₹920", "hi": "₹920" }
+      ],
+      "correctAnswer": 0,
+      "explanation": {
+        "en": "Discount = 15% of 800 = ₹120. Selling price = 800 − 120 = ₹680.",
+        "hi": "छूट = 800 का 15% = ₹120। विक्रय मूल्य = 800 − 120 = ₹680।"
+      },
+      "distractorAnalysis": {
+        "1": {
+          "en": "This is the discount amount, not the selling price.",
+          "hi": "यह छूट की राशि है, विक्रय मूल्य नहीं।"
+        },
+        "2": {
+          "en": "Subtracts 15 rupees instead of 15 percent.",
+          "hi": "15 प्रतिशत के बजाय 15 रुपये घटा दिए।"
+        },
+        "3": {
+          "en": "Adds the discount to the marked price instead of subtracting it.",
+          "hi": "छूट को अंकित मूल्य में से घटाने के बजाय जोड़ दिया।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-23",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "A bag contains 5 red, 3 blue and 4 green balls. One ball is drawn at random. What is the probability that it is not blue?",
+        "hi": "एक थैले में 5 लाल, 3 नीली और 4 हरी गेंदें हैं। एक गेंद यादृच्छया निकाली जाती है। उसके नीली न होने की प्रायिकता क्या है?"
+      },
+      "optionsJson": [
+        { "en": "1/4", "hi": "1/4" },
+        { "en": "3/4", "hi": "3/4" },
+        { "en": "2/3", "hi": "2/3" },
+        { "en": "5/12", "hi": "5/12" }
+      ],
+      "correctAnswer": 1,
+      "explanation": {
+        "en": "Total balls = 5 + 3 + 4 = 12. Balls that are not blue = 12 − 3 = 9. Probability = 9/12 = 3/4.",
+        "hi": "कुल गेंदें = 5 + 3 + 4 = 12। नीली न होने वाली गेंदें = 12 − 3 = 9। प्रायिकता = 9/12 = 3/4।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "This is the probability of drawing a blue ball (3/12), not of a non-blue ball.",
+          "hi": "यह नीली गेंद निकलने की प्रायिकता (3/12) है, नीली न होने की नहीं।"
+        },
+        "2": {
+          "en": "This is the probability of a ball that is not green (8/12).",
+          "hi": "यह हरी न होने वाली गेंद की प्रायिकता (8/12) है।"
+        },
+        "3": {
+          "en": "This is the probability of drawing a red ball (5/12).",
+          "hi": "यह लाल गेंद निकलने की प्रायिकता (5/12) है।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-24",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": {
+        "en": "A can finish a piece of work in 12 days and B can finish it in 18 days. They work together for 4 days, and then B leaves. In how many more days will A alone finish the remaining work?",
+        "hi": "A किसी काम को 12 दिन में और B उसी काम को 18 दिन में पूरा कर सकता है। वे दोनों मिलकर 4 दिन काम करते हैं, फिर B चला जाता है। शेष काम को A अकेला और कितने दिन में पूरा करेगा?"
+      },
+      "optionsJson": [
+        { "en": "5 days", "hi": "5 दिन" },
+        { "en": "6 days", "hi": "6 दिन" },
+        { "en": "16/3 days", "hi": "16/3 दिन" },
+        { "en": "8 days", "hi": "8 दिन" }
+      ],
+      "correctAnswer": 2,
+      "explanation": {
+        "en": "Work done by A and B together in 1 day = 1/12 + 1/18 = 5/36. In 4 days they finish 20/36 = 5/9 of the work, leaving 4/9. A does 1/12 of the work per day, so time = (4/9) ÷ (1/12) = 16/3 days.",
+        "hi": "A और B मिलकर 1 दिन में 1/12 + 1/18 = 5/36 काम करते हैं। 4 दिन में वे 20/36 = 5/9 काम पूरा करते हैं, शेष 4/9 रहता है। A प्रतिदिन 1/12 काम करता है, अतः समय = (4/9) ÷ (1/12) = 16/3 दिन।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Rounds the result down instead of finding the exact value 16/3.",
+          "hi": "सटीक मान 16/3 निकालने के बजाय परिणाम को नीचे की ओर पूर्णांकित कर दिया।"
+        },
+        "1": {
+          "en": "Rounds the result up instead of finding the exact value 16/3.",
+          "hi": "सटीक मान 16/3 निकालने के बजाय परिणाम को ऊपर की ओर पूर्णांकित कर दिया।"
+        },
+        "3": {
+          "en": "Subtracts only the 4 days already worked from 12 days, ignoring B's contribution.",
+          "hi": "B का योगदान छोड़कर 12 दिन में से केवल काम किए गए 4 दिन घटा दिए।"
+        }
+      }
+    },
+    {
+      "key": "rms9-p4-mt-25",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": {
+        "en": "Simplify: (27/8)^(−2/3)",
+        "hi": "सरल कीजिए: (27/8)^(−2/3)"
+      },
+      "optionsJson": [
+        { "en": "9/4", "hi": "9/4" },
+        { "en": "2/3", "hi": "2/3" },
+        { "en": "3/2", "hi": "3/2" },
+        { "en": "4/9", "hi": "4/9" }
+      ],
+      "correctAnswer": 3,
+      "explanation": {
+        "en": "(27/8)^(−2/3) = (8/27)^(2/3) = [(2/3)³]^(2/3) = (2/3)² = 4/9.",
+        "hi": "(27/8)^(−2/3) = (8/27)^(2/3) = [(2/3)³]^(2/3) = (2/3)² = 4/9।"
+      },
+      "distractorAnalysis": {
+        "0": {
+          "en": "Ignores the negative sign of the exponent, giving (3/2)² = 9/4.",
+          "hi": "घातांक का ऋणात्मक चिह्न अनदेखा कर दिया, जिससे (3/2)² = 9/4 मिला।"
+        },
+        "1": {
+          "en": "Takes the cube root and inverts, but forgets to apply the power 2.",
+          "hi": "घनमूल लेकर उलट दिया, पर घात 2 लगाना भूल गए।"
+        },
+        "2": {
+          "en": "Takes the cube root and ignores both the negative sign and the power 2.",
+          "hi": "घनमूल लिया पर ऋणात्मक चिह्न और घात 2 दोनों अनदेखे कर दिए।"
+        }
+      }
+    }
+  ]
+}

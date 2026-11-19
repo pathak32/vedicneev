@@ -1,0 +1,484 @@
+{
+  "examType": "RMS",
+  "classLevel": 9,
+  "paperNumber": 4,
+  "sectionKey": "science",
+  "generatedAt": "2026-11-19",
+  "questions": [
+    {
+      "key": "rms9-p4-sc-01",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which of the following is a pure substance?", "hi": "निम्नलिखित में से कौन-सा एक शुद्ध पदार्थ है?" },
+      "optionsJson": [
+        { "en": "Air", "hi": "वायु" },
+        { "en": "Brass", "hi": "पीतल" },
+        { "en": "Distilled water", "hi": "आसुत जल" },
+        { "en": "Sea water", "hi": "समुद्री जल" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Distilled water contains only H₂O molecules and has a fixed composition, so it is a pure substance (a compound). The other three are mixtures.", "hi": "आसुत जल में केवल H₂O अणु होते हैं और इसकी संरचना निश्चित होती है, इसलिए यह शुद्ध पदार्थ (यौगिक) है। शेष तीनों मिश्रण हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "Air is a mixture of nitrogen, oxygen, argon, carbon dioxide and other gases.", "hi": "वायु नाइट्रोजन, ऑक्सीजन, ऑर्गन, कार्बन डाइऑक्साइड और अन्य गैसों का मिश्रण है।" },
+        "1": { "en": "Brass is an alloy, a homogeneous mixture of copper and zinc.", "hi": "पीतल एक मिश्रधातु है, जो ताँबे और जस्ते का समांगी मिश्रण है।" },
+        "3": { "en": "Sea water is a mixture of water with dissolved salts and other substances.", "hi": "समुद्री जल पानी में घुले लवणों और अन्य पदार्थों का मिश्रण है।" }
+      }
+    },
+    {
+      "key": "rms9-p4-sc-02",
+      "year": 2023,
+      "difficulty": "EASY",
+      "questionJson": { "en": "The process in which a solid changes directly into vapour on heating, without becoming a liquid, is called", "hi": "वह प्रक्रिया जिसमें कोई ठोस गर्म करने पर द्रव बने बिना सीधे वाष्प में बदल जाता है, कहलाती है" },
+      "optionsJson": [
+        { "en": "Evaporation", "hi": "वाष्पीकरण" },
+        { "en": "Sublimation", "hi": "ऊर्ध्वपातन" },
+        { "en": "Condensation", "hi": "संघनन" },
+        { "en": "Fusion", "hi": "गलन" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Sublimation is the direct change of a solid into its vapour. Camphor and naphthalene are common examples.", "hi": "ऊर्ध्वपातन में ठोस सीधे वाष्प में बदल जाता है। कपूर और नेफ़थलीन इसके सामान्य उदाहरण हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "Evaporation is the change of a liquid into vapour below its boiling point.", "hi": "वाष्पीकरण में द्रव अपने क्वथनांक से नीचे वाष्प में बदलता है।" },
+        "2": { "en": "Condensation is the change of a vapour into a liquid, the reverse of evaporation.", "hi": "संघनन में वाष्प द्रव में बदलती है, यह वाष्पीकरण की उलटी प्रक्रिया है।" },
+        "3": { "en": "Fusion is the melting of a solid into a liquid.", "hi": "गलन में ठोस पिघलकर द्रव बन जाता है।" }
+      }
+    },
+    {
+      "key": "rms9-p4-sc-03",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "In Rutherford's gold foil experiment, most of the alpha particles passed straight through the foil without any deflection. What did this observation show?", "hi": "रदरफ़ोर्ड के स्वर्ण-पन्नी प्रयोग में अधिकांश अल्फा कण बिना किसी विचलन के पन्नी के आर-पार निकल गए। इस प्रेक्षण से क्या पता चला?" },
+      "optionsJson": [
+        { "en": "Most of the space inside an atom is empty", "hi": "परमाणु के भीतर का अधिकांश स्थान खाली है" },
+        { "en": "The nucleus of an atom is negatively charged", "hi": "परमाणु का नाभिक ऋणावेशित होता है" },
+        { "en": "Electrons are heavier than alpha particles", "hi": "इलेक्ट्रॉन अल्फा कणों से भारी होते हैं" },
+        { "en": "An atom is a solid, indivisible sphere", "hi": "परमाणु एक ठोस, अविभाज्य गोला है" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Since most alpha particles went straight through, the atom must be mostly empty space, with its mass and positive charge concentrated in a tiny nucleus.", "hi": "अधिकांश अल्फा कण सीधे निकल गए, इसलिए परमाणु का अधिकांश भाग खाली स्थान है और इसका द्रव्यमान तथा धनावेश एक अत्यंत छोटे नाभिक में केंद्रित है।" },
+      "distractorAnalysis": {
+        "1": { "en": "The nucleus is positively charged; this was shown by the few alpha particles that were deflected strongly.", "hi": "नाभिक धनावेशित होता है; यह उन थोड़े-से अल्फा कणों के तीव्र विचलन से सिद्ध हुआ।" },
+        "2": { "en": "Electrons are far lighter than alpha particles, which is why they cannot deflect them.", "hi": "इलेक्ट्रॉन अल्फा कणों से बहुत हल्के होते हैं, इसीलिए वे उन्हें विचलित नहीं कर सकते।" },
+        "3": { "en": "If atoms were solid spheres, the alpha particles would have been blocked; this old idea was disproved by the experiment.", "hi": "यदि परमाणु ठोस गोले होते तो अल्फा कण रुक जाते; इस प्रयोग ने यह पुराना विचार गलत सिद्ध कर दिया।" }
+      }
+    },
+    {
+      "key": "rms9-p4-sc-04",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Element X has atomic number 12 and element Y has atomic number 17. What is the formula of the compound formed between X and Y?", "hi": "तत्व X की परमाणु संख्या 12 है और तत्व Y की परमाणु संख्या 17 है। X और Y के बीच बनने वाले यौगिक का सूत्र क्या है?" },
+      "optionsJson": [
+        { "en": "XY", "hi": "XY" },
+        { "en": "X₂Y", "hi": "X₂Y" },
+        { "en": "XY₃", "hi": "XY₃" },
+        { "en": "XY₂", "hi": "XY₂" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "X has configuration 2, 8, 2 so its valency is 2; Y has 2, 8, 7 so its valency is 1. Criss-crossing the valencies gives XY₂ (like MgCl₂).", "hi": "X का विन्यास 2, 8, 2 है, इसलिए इसकी संयोजकता 2 है; Y का विन्यास 2, 8, 7 है, इसलिए इसकी संयोजकता 1 है। संयोजकताओं को आड़ा-तिरछा लगाने पर XY₂ (जैसे MgCl₂) मिलता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "XY would form only if both elements had the same valency, but X has valency 2 and Y has valency 1.", "hi": "XY तभी बनता जब दोनों तत्वों की संयोजकता समान होती, पर X की संयोजकता 2 और Y की 1 है।" },
+        "1": { "en": "X₂Y swaps the valencies wrongly; it would need X to have valency 1 and Y valency 2.", "hi": "X₂Y में संयोजकताएँ उलटी लगा दी गई हैं; इसके लिए X की संयोजकता 1 और Y की 2 होनी चाहिए।" },
+        "2": { "en": "XY₃ would need X to have valency 3, but X has only two outer electrons.", "hi": "XY₃ के लिए X की संयोजकता 3 होनी चाहिए, पर X के बाहरी कोश में केवल दो इलेक्ट्रॉन हैं।" }
+      }
+    },
+    {
+      "key": "rms9-p4-sc-05",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "What is the mass of 2 moles of ammonia (NH₃)? (Atomic masses: N = 14 u, H = 1 u)", "hi": "अमोनिया (NH₃) के 2 मोल का द्रव्यमान कितना है? (परमाणु द्रव्यमान: N = 14 u, H = 1 u)" },
+      "optionsJson": [
+        { "en": "17 g", "hi": "17 g" },
+        { "en": "34 g", "hi": "34 g" },
+        { "en": "28 g", "hi": "28 g" },
+        { "en": "51 g", "hi": "51 g" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Molar mass of NH₃ = 14 + 3 × 1 = 17 g/mol. Mass of 2 moles = 2 × 17 = 34 g.", "hi": "NH₃ का मोलर द्रव्यमान = 14 + 3 × 1 = 17 g/mol। 2 मोल का द्रव्यमान = 2 × 17 = 34 g।" },
+      "distractorAnalysis": {
+        "0": { "en": "17 g is the mass of only 1 mole of ammonia.", "hi": "17 g अमोनिया के केवल 1 मोल का द्रव्यमान है।" },
+        "2": { "en": "28 g is the mass of 2 moles of nitrogen atoms, not of 2 moles of NH₃.", "hi": "28 g नाइट्रोजन के 2 मोल परमाणुओं का द्रव्यमान है, NH₃ के 2 मोल का नहीं।" },
+        "3": { "en": "51 g is the mass of 3 moles of ammonia.", "hi": "51 g अमोनिया के 3 मोल का द्रव्यमान है।" }
+      }
+    },
+    {
+      "key": "rms9-p4-sc-06",
+      "year": 2024,
+      "difficulty": "HARD",
+      "questionJson": { "en": "The aqueous solution of which of the following salts turns red litmus paper blue?", "hi": "निम्नलिखित में से किस लवण का जलीय विलयन लाल लिटमस पत्र को नीला कर देता है?" },
+      "optionsJson": [
+        { "en": "Sodium chloride", "hi": "सोडियम क्लोराइड" },
+        { "en": "Ammonium chloride", "hi": "अमोनियम क्लोराइड" },
+        { "en": "Sodium carbonate", "hi": "सोडियम कार्बोनेट" },
+        { "en": "Potassium nitrate", "hi": "पोटैशियम नाइट्रेट" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Sodium carbonate is the salt of a strong base (NaOH) and a weak acid (carbonic acid), so its solution is basic and turns red litmus blue.", "hi": "सोडियम कार्बोनेट प्रबल क्षार (NaOH) और दुर्बल अम्ल (कार्बोनिक अम्ल) का लवण है, इसलिए इसका विलयन क्षारीय होता है और लाल लिटमस को नीला कर देता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "NaCl is the salt of a strong acid and a strong base, so its solution is neutral.", "hi": "NaCl प्रबल अम्ल और प्रबल क्षार का लवण है, इसलिए इसका विलयन उदासीन होता है।" },
+        "1": { "en": "NH₄Cl is the salt of a strong acid and a weak base; its solution is acidic and turns blue litmus red.", "hi": "NH₄Cl प्रबल अम्ल और दुर्बल क्षार का लवण है; इसका विलयन अम्लीय होता है और नीले लिटमस को लाल करता है।" },
+        "3": { "en": "KNO₃ is the salt of a strong acid and a strong base, so its solution is neutral.", "hi": "KNO₃ प्रबल अम्ल और प्रबल क्षार का लवण है, इसलिए इसका विलयन उदासीन होता है।" }
+      }
+    },
+    {
+      "key": "rms9-p4-sc-07",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "What is the chemical name of baking soda?", "hi": "खाने के सोडे (बेकिंग सोडा) का रासायनिक नाम क्या है?" },
+      "optionsJson": [
+        { "en": "Sodium hydrogencarbonate", "hi": "सोडियम हाइड्रोजनकार्बोनेट" },
+        { "en": "Sodium carbonate", "hi": "सोडियम कार्बोनेट" },
+        { "en": "Calcium oxide", "hi": "कैल्सियम ऑक्साइड" },
+        { "en": "Calcium sulphate hemihydrate", "hi": "कैल्सियम सल्फेट हेमिहाइड्रेट" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Baking soda is sodium hydrogencarbonate (NaHCO₃), used in cooking and as a mild antacid.", "hi": "बेकिंग सोडा सोडियम हाइड्रोजनकार्बोनेट (NaHCO₃) है, जिसका उपयोग खाना पकाने में और हल्के प्रतिअम्ल के रूप में होता है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Sodium carbonate (Na₂CO₃) is washing soda, not baking soda.", "hi": "सोडियम कार्बोनेट (Na₂CO₃) धावन सोडा है, बेकिंग सोडा नहीं।" },
+        "2": { "en": "Calcium oxide is quicklime.", "hi": "कैल्सियम ऑक्साइड कली चूना है।" },
+        "3": { "en": "Calcium sulphate hemihydrate is Plaster of Paris.", "hi": "कैल्सियम सल्फेट हेमिहाइड्रेट प्लास्टर ऑफ पेरिस है।" }
+      }
+    },
+    {
+      "key": "rms9-p4-sc-08",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which of the following non-metals is a good conductor of electricity?", "hi": "निम्नलिखित अधातुओं में से कौन-सी विद्युत की अच्छी चालक है?" },
+      "optionsJson": [
+        { "en": "Sulphur", "hi": "सल्फर" },
+        { "en": "Diamond", "hi": "हीरा" },
+        { "en": "Phosphorus", "hi": "फॉस्फोरस" },
+        { "en": "Graphite", "hi": "ग्रेफ़ाइट" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Graphite, an allotrope of carbon, has free electrons in its layered structure and conducts electricity. Most other non-metals do not.", "hi": "ग्रेफ़ाइट कार्बन का एक अपररूप है; इसकी परतदार संरचना में मुक्त इलेक्ट्रॉन होते हैं, इसलिए यह विद्युत का चालन करता है। अधिकांश अन्य अधातुएँ ऐसा नहीं करतीं।" },
+      "distractorAnalysis": {
+        "0": { "en": "Sulphur is a non-conductor of electricity.", "hi": "सल्फर विद्युत का कुचालक है।" },
+        "1": { "en": "Diamond is also made of carbon but has no free electrons, so it is a non-conductor.", "hi": "हीरा भी कार्बन से बना है, पर उसमें मुक्त इलेक्ट्रॉन नहीं होते, इसलिए वह कुचालक है।" },
+        "2": { "en": "Phosphorus is a non-conductor of electricity.", "hi": "फॉस्फोरस विद्युत का कुचालक है।" }
+      }
+    },
+    {
+      "key": "rms9-p4-sc-09",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Aluminium oxide (Al₂O₃) reacts with both dilute hydrochloric acid and sodium hydroxide solution, forming a salt and water in each case. Such an oxide is called", "hi": "एलुमिनियम ऑक्साइड (Al₂O₃) तनु हाइड्रोक्लोरिक अम्ल और सोडियम हाइड्रॉक्साइड विलयन, दोनों से अभिक्रिया करके प्रत्येक स्थिति में लवण और जल बनाता है। ऐसा ऑक्साइड कहलाता है" },
+      "optionsJson": [
+        { "en": "Acidic oxide", "hi": "अम्लीय ऑक्साइड" },
+        { "en": "Basic oxide", "hi": "क्षारीय ऑक्साइड" },
+        { "en": "Amphoteric oxide", "hi": "उभयधर्मी ऑक्साइड" },
+        { "en": "Neutral oxide", "hi": "उदासीन ऑक्साइड" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "An oxide that reacts with both acids and bases to form salt and water is amphoteric. Al₂O₃ and ZnO are examples.", "hi": "जो ऑक्साइड अम्ल और क्षार, दोनों से अभिक्रिया करके लवण और जल बनाता है, वह उभयधर्मी होता है। Al₂O₃ और ZnO इसके उदाहरण हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "An acidic oxide reacts only with bases, not with acids.", "hi": "अम्लीय ऑक्साइड केवल क्षारों से अभिक्रिया करता है, अम्लों से नहीं।" },
+        "1": { "en": "A basic oxide reacts only with acids, not with bases.", "hi": "क्षारीय ऑक्साइड केवल अम्लों से अभिक्रिया करता है, क्षारों से नहीं।" },
+        "3": { "en": "A neutral oxide, such as CO or water, reacts with neither acids nor bases.", "hi": "उदासीन ऑक्साइड, जैसे CO या जल, न अम्ल से अभिक्रिया करता है न क्षार से।" }
+      }
+    },
+    {
+      "key": "rms9-p4-sc-10",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": { "en": "4 g of hydrogen is allowed to react completely with 16 g of oxygen according to 2H₂ + O₂ → 2H₂O. What mass of water is formed? (H = 1 u, O = 16 u)", "hi": "2H₂ + O₂ → 2H₂O के अनुसार 4 g हाइड्रोजन को 16 g ऑक्सीजन के साथ पूर्ण रूप से अभिक्रिया करने दिया जाता है। कितने द्रव्यमान का जल बनेगा? (H = 1 u, O = 16 u)" },
+      "optionsJson": [
+        { "en": "20 g", "hi": "20 g" },
+        { "en": "18 g", "hi": "18 g" },
+        { "en": "36 g", "hi": "36 g" },
+        { "en": "9 g", "hi": "9 g" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "4 g H₂ is 2 mol and 16 g O₂ is 0.5 mol. Since 1 mol O₂ needs 2 mol H₂, oxygen is the limiting reactant. 0.5 mol O₂ gives 1 mol H₂O = 18 g, and 2 g of H₂ is left over.", "hi": "4 g H₂ = 2 मोल और 16 g O₂ = 0.5 मोल है। 1 मोल O₂ को 2 मोल H₂ चाहिए, इसलिए ऑक्सीजन सीमांत अभिकारक है। 0.5 मोल O₂ से 1 मोल H₂O = 18 g जल बनता है और 2 g H₂ बच जाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "20 g is just the sum of the two masses, but 2 g of hydrogen stays unreacted, so only 18 g of water forms.", "hi": "20 g केवल दोनों द्रव्यमानों का योग है, पर 2 g हाइड्रोजन अभिक्रिया किए बिना बच जाती है, इसलिए केवल 18 g जल बनता है।" },
+        "2": { "en": "36 g of water would need 32 g of oxygen, but only 16 g is available.", "hi": "36 g जल के लिए 32 g ऑक्सीजन चाहिए, पर केवल 16 g उपलब्ध है।" },
+        "3": { "en": "9 g is only half a mole of water, which would form from just 8 g of oxygen.", "hi": "9 g केवल आधा मोल जल है, जो केवल 8 g ऑक्सीजन से बनता।" }
+      }
+    },
+    {
+      "key": "rms9-p4-sc-11",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "When quicklime reacts with water, CaO + H₂O → Ca(OH)₂, a lot of heat is released. This reaction is best described as", "hi": "जब कली चूना जल से अभिक्रिया करता है, CaO + H₂O → Ca(OH)₂, तो बहुत अधिक ऊष्मा निकलती है। इस अभिक्रिया का सबसे उचित वर्णन है" },
+      "optionsJson": [
+        { "en": "A combination reaction that releases heat", "hi": "संयोजन अभिक्रिया जिसमें ऊष्मा निकलती है" },
+        { "en": "A decomposition reaction that absorbs heat", "hi": "अपघटन अभिक्रिया जिसमें ऊष्मा अवशोषित होती है" },
+        { "en": "A displacement reaction that releases heat", "hi": "विस्थापन अभिक्रिया जिसमें ऊष्मा निकलती है" },
+        { "en": "A double displacement reaction that absorbs heat", "hi": "द्विविस्थापन अभिक्रिया जिसमें ऊष्मा अवशोषित होती है" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Two reactants, CaO and H₂O, combine to form a single product, so it is a combination reaction. Heat is given out, so it is exothermic.", "hi": "दो अभिकारक CaO और H₂O मिलकर एक ही उत्पाद बनाते हैं, इसलिए यह संयोजन अभिक्रिया है। ऊष्मा निकलती है, इसलिए यह ऊष्माक्षेपी है।" },
+      "distractorAnalysis": {
+        "1": { "en": "In a decomposition reaction one compound breaks into simpler substances; here two substances join into one.", "hi": "अपघटन में एक यौगिक टूटकर सरल पदार्थ बनाता है; यहाँ दो पदार्थ जुड़कर एक बनाते हैं।" },
+        "2": { "en": "No element displaces another element from a compound here; only one product forms.", "hi": "यहाँ कोई तत्व किसी यौगिक से दूसरे तत्व को विस्थापित नहीं करता; केवल एक उत्पाद बनता है।" },
+        "3": { "en": "There is no exchange of ions between two compounds to give two new compounds, and heat is released, not absorbed.", "hi": "यहाँ दो यौगिकों के बीच आयनों का आदान-प्रदान होकर दो नए यौगिक नहीं बनते, और ऊष्मा निकलती है, अवशोषित नहीं होती।" }
+      }
+    },
+    {
+      "key": "rms9-p4-sc-12",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "Four test tubes each contain a clean iron nail. Tube A: nail in tap water, open to air. Tube B: nail in salt water, open to air. Tube C: nail in a stoppered tube containing a little water at the bottom, with the nail held above the water in moist air. Tube D: nail in boiled (air-free) water covered with a layer of oil, and stoppered. After several days, in which tube will the nail NOT rust?", "hi": "चार परखनलियों में से प्रत्येक में एक साफ़ लोहे की कील रखी है। परखनली A: कील नल के पानी में, हवा के संपर्क में खुली। परखनली B: कील नमकीन पानी में, हवा के संपर्क में खुली। परखनली C: डाट लगी परखनली, जिसकी तली में थोड़ा पानी है और कील पानी के ऊपर नम हवा में लटकी है। परखनली D: कील उबले हुए (वायु-रहित) पानी में, जिसके ऊपर तेल की परत है, और डाट लगी है। कई दिनों बाद किस परखनली में कील को जंग नहीं लगेगा?" },
+      "optionsJson": [
+        { "en": "Tube A", "hi": "परखनली A" },
+        { "en": "Tube B", "hi": "परखनली B" },
+        { "en": "Tube C", "hi": "परखनली C" },
+        { "en": "Tube D", "hi": "परखनली D" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Rusting needs both air (oxygen) and water. Boiling removes dissolved air and the oil layer stops fresh air from dissolving, so the nail in Tube D does not rust.", "hi": "जंग लगने के लिए वायु (ऑक्सीजन) और जल, दोनों चाहिए। उबालने से घुली हुई वायु निकल जाती है और तेल की परत नई वायु को घुलने नहीं देती, इसलिए परखनली D की कील को जंग नहीं लगता।" },
+      "distractorAnalysis": {
+        "0": { "en": "Tube A has both water and dissolved oxygen from the air, so the nail rusts.", "hi": "परखनली A में जल और वायु की घुली ऑक्सीजन, दोनों हैं, इसलिए कील को जंग लगता है।" },
+        "1": { "en": "Tube B also has water and air, and the dissolved salt makes the nail rust even faster.", "hi": "परखनली B में भी जल और वायु हैं, और घुला हुआ नमक जंग लगने की गति और बढ़ा देता है।" },
+        "2": { "en": "Moist air in Tube C supplies both oxygen and water vapour, so the nail rusts.", "hi": "परखनली C की नम हवा ऑक्सीजन और जलवाष्प, दोनों देती है, इसलिए कील को जंग लगता है।" }
+      }
+    },
+    {
+      "key": "rms9-p4-sc-13",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Atom P has atomic number 18 and mass number 40, while atom Q has atomic number 20 and mass number 40. P and Q are examples of", "hi": "परमाणु P की परमाणु संख्या 18 और द्रव्यमान संख्या 40 है, जबकि परमाणु Q की परमाणु संख्या 20 और द्रव्यमान संख्या 40 है। P और Q उदाहरण हैं" },
+      "optionsJson": [
+        { "en": "Isotopes", "hi": "समस्थानिकों के" },
+        { "en": "Isotones", "hi": "समन्यूट्रॉनिकों के" },
+        { "en": "Isobars", "hi": "समभारिकों के" },
+        { "en": "Allotropes", "hi": "अपररूपों के" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Atoms with different atomic numbers but the same mass number are isobars. Here both have mass number 40 but atomic numbers 18 and 20.", "hi": "भिन्न परमाणु संख्या परंतु समान द्रव्यमान संख्या वाले परमाणु समभारिक होते हैं। यहाँ दोनों की द्रव्यमान संख्या 40 है, पर परमाणु संख्याएँ 18 और 20 हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "Isotopes have the same atomic number but different mass numbers; here the atomic numbers differ.", "hi": "समस्थानिकों की परमाणु संख्या समान और द्रव्यमान संख्या भिन्न होती है; यहाँ परमाणु संख्याएँ भिन्न हैं।" },
+        "1": { "en": "Isotones have the same number of neutrons; P has 22 neutrons and Q has 20, so they are not isotones.", "hi": "समन्यूट्रॉनिकों में न्यूट्रॉनों की संख्या समान होती है; P में 22 और Q में 20 न्यूट्रॉन हैं, इसलिए वे समन्यूट्रॉनिक नहीं हैं।" },
+        "3": { "en": "Allotropes are different physical forms of the same element, not different atoms.", "hi": "अपररूप एक ही तत्व के भिन्न भौतिक रूप होते हैं, भिन्न परमाणु नहीं।" }
+      }
+    },
+    {
+      "key": "rms9-p4-sc-14",
+      "year": 2025,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which of the following is the most suitable method to separate a mixture of kerosene oil and water?", "hi": "मिट्टी के तेल और पानी के मिश्रण को अलग करने की सबसे उपयुक्त विधि निम्नलिखित में से कौन-सी है?" },
+      "optionsJson": [
+        { "en": "Using a separating funnel", "hi": "पृथक्कारी कीप का उपयोग" },
+        { "en": "Filtration", "hi": "निस्यंदन" },
+        { "en": "Sublimation", "hi": "ऊर्ध्वपातन" },
+        { "en": "Crystallisation", "hi": "क्रिस्टलीकरण" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Kerosene and water are immiscible liquids of different densities, so they form two layers that can be separated with a separating funnel.", "hi": "मिट्टी का तेल और पानी अमिश्रणीय द्रव हैं जिनके घनत्व भिन्न हैं, इसलिए वे दो परतें बनाते हैं जिन्हें पृथक्कारी कीप से अलग किया जा सकता है।" },
+      "distractorAnalysis": {
+        "1": { "en": "Filtration separates an insoluble solid from a liquid, not two liquids.", "hi": "निस्यंदन किसी अघुलनशील ठोस को द्रव से अलग करता है, दो द्रवों को नहीं।" },
+        "2": { "en": "Sublimation is used for solids that turn directly to vapour, not for liquids.", "hi": "ऊर्ध्वपातन उन ठोसों के लिए है जो सीधे वाष्प बनते हैं, द्रवों के लिए नहीं।" },
+        "3": { "en": "Crystallisation purifies a dissolved solid from its solution; it does not separate two liquids.", "hi": "क्रिस्टलीकरण विलयन से घुले ठोस को शुद्ध करता है; यह दो द्रवों को अलग नहीं करता।" }
+      }
+    },
+    {
+      "key": "rms9-p4-sc-15",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "A large amount of distilled water is added to a sample of dilute hydrochloric acid having pH 2. What happens to the pH of the solution?", "hi": "pH 2 वाले तनु हाइड्रोक्लोरिक अम्ल के नमूने में बहुत अधिक आसुत जल मिलाया जाता है। विलयन के pH का क्या होता है?" },
+      "optionsJson": [
+        { "en": "It decreases to a value below 2", "hi": "यह घटकर 2 से कम हो जाता है" },
+        { "en": "It remains exactly 2", "hi": "यह ठीक 2 ही रहता है" },
+        { "en": "It becomes greater than 7", "hi": "यह 7 से अधिक हो जाता है" },
+        { "en": "It increases towards 7 but stays below 7", "hi": "यह 7 की ओर बढ़ता है पर 7 से कम ही रहता है" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Dilution lowers the concentration of H⁺ ions, so the pH rises towards 7. Adding water can never make an acid basic, so the pH stays below 7.", "hi": "तनुकरण से H⁺ आयनों की सांद्रता घटती है, इसलिए pH बढ़कर 7 की ओर जाता है। पानी मिलाने से कोई अम्ल कभी क्षारीय नहीं बन सकता, इसलिए pH 7 से कम ही रहता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "A lower pH means more H⁺ ions; dilution reduces H⁺ concentration, so pH cannot fall.", "hi": "कम pH का अर्थ अधिक H⁺ आयन है; तनुकरण से H⁺ सांद्रता घटती है, इसलिए pH घट नहीं सकता।" },
+        "1": { "en": "pH changes because the H⁺ concentration changes on dilution.", "hi": "तनुकरण पर H⁺ सांद्रता बदलती है, इसलिए pH भी बदलता है।" },
+        "2": { "en": "Water is neutral (pH 7); diluting an acid can bring it close to 7 but not turn it basic.", "hi": "जल उदासीन (pH 7) है; अम्ल को तनु करने पर वह 7 के निकट आ सकता है, पर क्षारीय नहीं बनता।" }
+      }
+    },
+    {
+      "key": "rms9-p4-sc-16",
+      "year": 2022,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A brick of mass 2 kg has dimensions 20 cm × 10 cm × 5 cm. It is placed on a table so that it rests on its smallest face. Taking g = 10 m/s², what pressure does it exert on the table?", "hi": "2 kg द्रव्यमान की एक ईंट की विमाएँ 20 cm × 10 cm × 5 cm हैं। इसे मेज़ पर इस प्रकार रखा जाता है कि यह अपने सबसे छोटे फलक पर टिकी रहे। g = 10 m/s² लेने पर यह मेज़ पर कितना दाब डालती है?" },
+      "optionsJson": [
+        { "en": "1000 Pa", "hi": "1000 Pa" },
+        { "en": "4000 Pa", "hi": "4000 Pa" },
+        { "en": "2000 Pa", "hi": "2000 Pa" },
+        { "en": "8000 Pa", "hi": "8000 Pa" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Weight = 2 × 10 = 20 N. Smallest face area = 10 cm × 5 cm = 50 cm² = 0.005 m². Pressure = 20 / 0.005 = 4000 Pa.", "hi": "भार = 2 × 10 = 20 N। सबसे छोटे फलक का क्षेत्रफल = 10 cm × 5 cm = 50 cm² = 0.005 m²। दाब = 20 / 0.005 = 4000 Pa।" },
+      "distractorAnalysis": {
+        "0": { "en": "1000 Pa is the pressure when the brick rests on its largest face (20 cm × 10 cm).", "hi": "1000 Pa वह दाब है जब ईंट अपने सबसे बड़े फलक (20 cm × 10 cm) पर टिकी हो।" },
+        "2": { "en": "2000 Pa is the pressure when the brick rests on its medium face (20 cm × 5 cm).", "hi": "2000 Pa वह दाब है जब ईंट अपने मध्यम फलक (20 cm × 5 cm) पर टिकी हो।" },
+        "3": { "en": "8000 Pa does not correspond to any face of the brick.", "hi": "8000 Pa ईंट के किसी भी फलक के संगत नहीं है।" }
+      }
+    },
+    {
+      "key": "rms9-p4-sc-17",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "A metal piece weighs 8 N in air and 5 N when completely immersed in water. Taking g = 10 m/s² and the density of water as 1000 kg/m³, what is the volume of the metal piece?", "hi": "एक धातु का टुकड़ा हवा में 8 N और जल में पूर्णतः डुबोने पर 5 N का भार दर्शाता है। g = 10 m/s² और जल का घनत्व 1000 kg/m³ लेने पर धातु के टुकड़े का आयतन कितना है?" },
+      "optionsJson": [
+        { "en": "300 cm³", "hi": "300 cm³" },
+        { "en": "30 cm³", "hi": "30 cm³" },
+        { "en": "500 cm³", "hi": "500 cm³" },
+        { "en": "800 cm³", "hi": "800 cm³" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "Buoyant force = 8 − 5 = 3 N. This equals ρVg, so V = 3 / (1000 × 10) = 3 × 10⁻⁴ m³ = 300 cm³.", "hi": "उत्प्लावन बल = 8 − 5 = 3 N। यह ρVg के बराबर है, इसलिए V = 3 / (1000 × 10) = 3 × 10⁻⁴ m³ = 300 cm³।" },
+      "distractorAnalysis": {
+        "1": { "en": "30 cm³ results from a decimal-place error when converting m³ to cm³.", "hi": "30 cm³ m³ को cm³ में बदलते समय दशमलव की भूल से आता है।" },
+        "2": { "en": "500 cm³ would come from wrongly using 5 N, the weight in water, as the buoyant force.", "hi": "500 cm³ तब आता जब जल में भार 5 N को गलती से उत्प्लावन बल मान लिया जाए।" },
+        "3": { "en": "800 cm³ would come from wrongly using 8 N, the weight in air, as the buoyant force.", "hi": "800 cm³ तब आता जब हवा में भार 8 N को गलती से उत्प्लावन बल मान लिया जाए।" }
+      }
+    },
+    {
+      "key": "rms9-p4-sc-18",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "If the distance between two objects is doubled while their masses stay the same, the gravitational force between them becomes", "hi": "यदि दो वस्तुओं के बीच की दूरी दोगुनी कर दी जाए और उनके द्रव्यमान वही रहें, तो उनके बीच गुरुत्वाकर्षण बल हो जाता है" },
+      "optionsJson": [
+        { "en": "Twice as much", "hi": "दोगुना" },
+        { "en": "Half as much", "hi": "आधा" },
+        { "en": "One-fourth as much", "hi": "एक-चौथाई" },
+        { "en": "Four times as much", "hi": "चार गुना" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Gravitational force is inversely proportional to the square of the distance (F ∝ 1/d²). Doubling d makes the force 1/2² = 1/4 of its original value.", "hi": "गुरुत्वाकर्षण बल दूरी के वर्ग के व्युत्क्रमानुपाती होता है (F ∝ 1/d²)। d को दोगुना करने पर बल पहले का 1/2² = 1/4 रह जाता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "The force decreases with distance; it does not increase.", "hi": "दूरी बढ़ने पर बल घटता है; बढ़ता नहीं।" },
+        "1": { "en": "Half would be correct only if the force were inversely proportional to d, not d².", "hi": "आधा तब सही होता जब बल d के व्युत्क्रमानुपाती होता, d² के नहीं।" },
+        "3": { "en": "The force decreases with distance, so it cannot become four times larger.", "hi": "दूरी बढ़ने पर बल घटता है, इसलिए यह चार गुना नहीं हो सकता।" }
+      }
+    },
+    {
+      "key": "rms9-p4-sc-19",
+      "year": 2023,
+      "difficulty": "HARD",
+      "questionJson": { "en": "How much heat is needed to raise the temperature of 2 kg of water from 20 °C to 45 °C? (Specific heat capacity of water = 4200 J/kg °C)", "hi": "2 kg जल का ताप 20 °C से 45 °C तक बढ़ाने के लिए कितनी ऊष्मा चाहिए? (जल की विशिष्ट ऊष्मा धारिता = 4200 J/kg °C)" },
+      "optionsJson": [
+        { "en": "168 kJ", "hi": "168 kJ" },
+        { "en": "210 kJ", "hi": "210 kJ" },
+        { "en": "105 kJ", "hi": "105 kJ" },
+        { "en": "378 kJ", "hi": "378 kJ" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Q = m c ΔT = 2 × 4200 × (45 − 20) = 2 × 4200 × 25 = 210000 J = 210 kJ.", "hi": "Q = m c ΔT = 2 × 4200 × (45 − 20) = 2 × 4200 × 25 = 210000 J = 210 kJ।" },
+      "distractorAnalysis": {
+        "0": { "en": "168 kJ comes from using 20 °C as the temperature change instead of 25 °C.", "hi": "168 kJ तब आता है जब ताप-परिवर्तन 25 °C की जगह 20 °C ले लिया जाए।" },
+        "2": { "en": "105 kJ comes from forgetting to multiply by the mass of 2 kg.", "hi": "105 kJ तब आता है जब 2 kg द्रव्यमान से गुणा करना भूल जाएँ।" },
+        "3": { "en": "378 kJ comes from using the final temperature 45 °C as the temperature change.", "hi": "378 kJ तब आता है जब अंतिम ताप 45 °C को ही ताप-परिवर्तन मान लिया जाए।" }
+      }
+    },
+    {
+      "key": "rms9-p4-sc-20",
+      "year": 2022,
+      "difficulty": "EASY",
+      "questionJson": { "en": "Which cell organelle is called the 'suicide bag' of the cell?", "hi": "कोशिका के किस कोशिकांग को कोशिका की 'आत्मघाती थैली' कहा जाता है?" },
+      "optionsJson": [
+        { "en": "Ribosome", "hi": "राइबोसोम" },
+        { "en": "Golgi apparatus", "hi": "गॉल्जी उपकरण" },
+        { "en": "Vacuole", "hi": "रिक्तिका" },
+        { "en": "Lysosome", "hi": "लाइसोसोम" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Lysosomes contain digestive enzymes that can break down the cell itself if it is damaged, so they are called suicide bags.", "hi": "लाइसोसोम में पाचक एंज़ाइम होते हैं जो कोशिका के क्षतिग्रस्त होने पर उसे स्वयं नष्ट कर सकते हैं, इसलिए इन्हें आत्मघाती थैली कहते हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "Ribosomes make proteins; they do not digest the cell.", "hi": "राइबोसोम प्रोटीन बनाते हैं; वे कोशिका को नष्ट नहीं करते।" },
+        "1": { "en": "The Golgi apparatus packages and dispatches substances made in the cell.", "hi": "गॉल्जी उपकरण कोशिका में बने पदार्थों को पैक करके भेजता है।" },
+        "2": { "en": "A vacuole stores substances such as water, sugars and wastes.", "hi": "रिक्तिका जल, शर्करा और अपशिष्ट जैसे पदार्थों का संग्रह करती है।" }
+      }
+    },
+    {
+      "key": "rms9-p4-sc-21",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which tissue connects a muscle to a bone?", "hi": "कौन-सा ऊतक पेशी को अस्थि से जोड़ता है?" },
+      "optionsJson": [
+        { "en": "Ligament", "hi": "स्नायु (लिगामेंट)" },
+        { "en": "Cartilage", "hi": "उपास्थि" },
+        { "en": "Tendon", "hi": "कंडरा (टेंडन)" },
+        { "en": "Areolar tissue", "hi": "एरिओलर ऊतक" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Tendons are strong, fibrous connective tissues that attach muscles to bones.", "hi": "कंडरा (टेंडन) मज़बूत, तंतुमय संयोजी ऊतक हैं जो पेशियों को अस्थियों से जोड़ते हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "Ligaments connect one bone to another bone, not muscle to bone.", "hi": "स्नायु (लिगामेंट) एक अस्थि को दूसरी अस्थि से जोड़ते हैं, पेशी को अस्थि से नहीं।" },
+        "1": { "en": "Cartilage is a smooth, flexible tissue found at joints, ear and nose; it cushions bones.", "hi": "उपास्थि जोड़ों, कान और नाक में पाया जाने वाला चिकना, लचीला ऊतक है; यह अस्थियों को गद्दी प्रदान करता है।" },
+        "3": { "en": "Areolar tissue fills spaces inside organs and supports internal organs; it is not the main muscle-to-bone link.", "hi": "एरिओलर ऊतक अंगों के भीतर के स्थान भरता है और आंतरिक अंगों को सहारा देता है; यह पेशी और अस्थि का मुख्य जोड़ नहीं है।" }
+      }
+    },
+    {
+      "key": "rms9-p4-sc-22",
+      "year": 2025,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "How does vaccination protect a person from a particular disease?", "hi": "टीकाकरण किसी व्यक्ति को किसी विशेष रोग से कैसे बचाता है?" },
+      "optionsJson": [
+        { "en": "It trains the immune system in advance to make antibodies against that germ", "hi": "यह प्रतिरक्षा तंत्र को पहले से उस रोगाणु के विरुद्ध प्रतिरक्षी बनाने का प्रशिक्षण देता है" },
+        { "en": "It instantly kills all the germs already present in the body", "hi": "यह शरीर में पहले से मौजूद सभी रोगाणुओं को तुरंत मार देता है" },
+        { "en": "It adds extra vitamins that make the skin impermeable to germs", "hi": "यह अतिरिक्त विटामिन देता है जो त्वचा को रोगाणुओं के लिए अभेद्य बना देते हैं" },
+        { "en": "It kills the germs in the air around the person", "hi": "यह व्यक्ति के आसपास की हवा में मौजूद रोगाणुओं को मार देता है" }
+      ],
+      "correctAnswer": 0,
+      "explanation": { "en": "A vaccine contains weakened or dead germs or their parts. It prepares the immune system to make antibodies and remember the germ, so the body responds quickly if the real infection occurs.", "hi": "टीके में कमज़ोर या मृत रोगाणु अथवा उनके भाग होते हैं। यह प्रतिरक्षा तंत्र को प्रतिरक्षी बनाने और रोगाणु को याद रखने के लिए तैयार करता है, ताकि असली संक्रमण होने पर शरीर शीघ्र प्रतिक्रिया दे।" },
+      "distractorAnalysis": {
+        "1": { "en": "Vaccines are preventive and do not instantly destroy germs already in the body.", "hi": "टीके रोकथाम के लिए होते हैं और शरीर में पहले से मौजूद रोगाणुओं को तुरंत नष्ट नहीं करते।" },
+        "2": { "en": "Vaccines work through the immune system, not by supplying vitamins or changing the skin.", "hi": "टीके प्रतिरक्षा तंत्र के द्वारा काम करते हैं, विटामिन देकर या त्वचा बदलकर नहीं।" },
+        "3": { "en": "A vaccine acts inside the body and has no effect on germs in the surrounding air.", "hi": "टीका शरीर के भीतर काम करता है और आसपास की हवा के रोगाणुओं पर उसका कोई प्रभाव नहीं होता।" }
+      }
+    },
+    {
+      "key": "rms9-p4-sc-23",
+      "year": 2023,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which bacteria live in the root nodules of leguminous plants such as pea and gram and fix atmospheric nitrogen?", "hi": "कौन-से जीवाणु मटर और चने जैसे दलहनी पौधों की जड़ों की ग्रंथिकाओं में रहते हैं और वायुमंडलीय नाइट्रोजन का स्थिरीकरण करते हैं?" },
+      "optionsJson": [
+        { "en": "Nitrosomonas", "hi": "नाइट्रोसोमोनास" },
+        { "en": "Rhizobium", "hi": "राइज़ोबियम" },
+        { "en": "Pseudomonas", "hi": "स्यूडोमोनास" },
+        { "en": "Lactobacillus", "hi": "लैक्टोबैसिलस" }
+      ],
+      "correctAnswer": 1,
+      "explanation": { "en": "Rhizobium lives in root nodules of legumes in a symbiotic relationship and converts atmospheric nitrogen into compounds the plant can use.", "hi": "राइज़ोबियम दलहनी पौधों की जड़ ग्रंथिकाओं में सहजीवी रूप में रहता है और वायुमंडलीय नाइट्रोजन को ऐसे यौगिकों में बदल देता है जिन्हें पौधा उपयोग कर सकता है।" },
+      "distractorAnalysis": {
+        "0": { "en": "Nitrosomonas is a free-living soil bacterium that converts ammonia into nitrites.", "hi": "नाइट्रोसोमोनास स्वतंत्र रूप से मिट्टी में रहने वाला जीवाणु है जो अमोनिया को नाइट्राइट में बदलता है।" },
+        "2": { "en": "Pseudomonas is a free-living soil bacterium involved in denitrification, which returns nitrogen to the air.", "hi": "स्यूडोमोनास स्वतंत्र रूप से मिट्टी में रहने वाला जीवाणु है जो विनाइट्रीकरण में भाग लेकर नाइट्रोजन को वायु में लौटाता है।" },
+        "3": { "en": "Lactobacillus turns milk into curd and is not involved in nitrogen fixation.", "hi": "लैक्टोबैसिलस दूध को दही में बदलता है और नाइट्रोजन स्थिरीकरण में भाग नहीं लेता।" }
+      }
+    },
+    {
+      "key": "rms9-p4-sc-24",
+      "year": 2024,
+      "difficulty": "MEDIUM",
+      "questionJson": { "en": "Which of the following is a kharif crop, sown at the beginning of the monsoon and harvested in October?", "hi": "निम्नलिखित में से कौन-सी खरीफ़ फ़सल है, जो मानसून के आरंभ में बोई जाती है और अक्टूबर में काटी जाती है?" },
+      "optionsJson": [
+        { "en": "Wheat", "hi": "गेहूँ" },
+        { "en": "Mustard", "hi": "सरसों" },
+        { "en": "Gram", "hi": "चना" },
+        { "en": "Rice", "hi": "धान" }
+      ],
+      "correctAnswer": 3,
+      "explanation": { "en": "Rice (paddy) is sown with the monsoon rains in June-July and harvested in October, so it is a kharif crop. Wheat, mustard and gram are rabi crops.", "hi": "धान जून-जुलाई में मानसूनी वर्षा के साथ बोया जाता है और अक्टूबर में काटा जाता है, इसलिए यह खरीफ़ फ़सल है। गेहूँ, सरसों और चना रबी फ़सलें हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "Wheat is a rabi crop, sown in winter (November) and harvested in spring (April).", "hi": "गेहूँ रबी फ़सल है, जो सर्दियों (नवंबर) में बोई जाती है और वसंत (अप्रैल) में काटी जाती है।" },
+        "1": { "en": "Mustard is a rabi crop sown in winter.", "hi": "सरसों रबी फ़सल है जो सर्दियों में बोई जाती है।" },
+        "2": { "en": "Gram is a rabi crop sown in winter.", "hi": "चना रबी फ़सल है जो सर्दियों में बोई जाती है।" }
+      }
+    },
+    {
+      "key": "rms9-p4-sc-25",
+      "year": 2025,
+      "difficulty": "HARD",
+      "questionJson": { "en": "A human germ cell (a reproductive cell of the testis or ovary) with 46 chromosomes undergoes meiosis to form gametes. How many cells are formed, and how many chromosomes does each cell contain?", "hi": "46 गुणसूत्रों वाली मानव की एक जनन कोशिका (वृषण या अंडाशय की प्रजनन कोशिका) अर्धसूत्री विभाजन (मिऑसिस) द्वारा युग्मक बनाती है। कितनी कोशिकाएँ बनती हैं और प्रत्येक कोशिका में कितने गुणसूत्र होते हैं?" },
+      "optionsJson": [
+        { "en": "2 cells with 46 chromosomes each", "hi": "2 कोशिकाएँ, प्रत्येक में 46 गुणसूत्र" },
+        { "en": "2 cells with 23 chromosomes each", "hi": "2 कोशिकाएँ, प्रत्येक में 23 गुणसूत्र" },
+        { "en": "4 cells with 23 chromosomes each", "hi": "4 कोशिकाएँ, प्रत्येक में 23 गुणसूत्र" },
+        { "en": "4 cells with 46 chromosomes each", "hi": "4 कोशिकाएँ, प्रत्येक में 46 गुणसूत्र" }
+      ],
+      "correctAnswer": 2,
+      "explanation": { "en": "Meiosis involves two successive divisions and halves the chromosome number. One cell with 46 chromosomes gives 4 cells, each with 23 chromosomes.", "hi": "अर्धसूत्री विभाजन में लगातार दो विभाजन होते हैं और गुणसूत्रों की संख्या आधी हो जाती है। 46 गुणसूत्रों वाली एक कोशिका से 4 कोशिकाएँ बनती हैं, जिनमें प्रत्येक में 23 गुणसूत्र होते हैं।" },
+      "distractorAnalysis": {
+        "0": { "en": "Two cells with the full number of 46 chromosomes is the result of mitosis, not meiosis.", "hi": "46 गुणसूत्रों वाली दो कोशिकाएँ समसूत्री विभाजन (माइटोसिस) का परिणाम हैं, अर्धसूत्री का नहीं।" },
+        "1": { "en": "Meiosis has two divisions, so it produces four cells, not two.", "hi": "अर्धसूत्री विभाजन में दो विभाजन होते हैं, इसलिए चार कोशिकाएँ बनती हैं, दो नहीं।" },
+        "3": { "en": "Gametes must have half the chromosome number (23), otherwise the number would double at fertilisation.", "hi": "युग्मकों में गुणसूत्र संख्या आधी (23) होनी चाहिए, अन्यथा निषेचन पर यह संख्या दोगुनी हो जाएगी।" }
+      }
+    }
+  ]
+}
